@@ -1,0 +1,16 @@
+- name: Guia de introdução
+  href: 'gettingstarted.yml#step-0'
+- name: Obter dados
+  href: 'gettingdata.yml#step-0'
+- name: Modelagem
+  href: 'modeling.yml#step-0'
+- name: Visualizações
+  href: 'visualizations.yml#step-0'
+- name: Explorar dados
+  href: 'exploringdata.yml#step-0'
+- name: Power BI e Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: Publicar e partilhar
+  href: 'publishingandsharing.yml#step-0'
+- name: Introdução à DAX
+  href: 'introductiontodax.yml#step-0'

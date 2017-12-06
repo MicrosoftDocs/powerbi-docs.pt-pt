@@ -1,0 +1,158 @@
+documentType: Tutorial
+title: "Visualizações"
+metadata:
+  title: "Visualizações | Microsoft Power BI"
+  description: "As visualizações dão vida aos seus dados e revelam informações que apenas as representações visuais apelativas e fantásticas podem. Esta secção mostra como."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: exploringdata
+  nextTutorialTitle: Explorar dados
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "As visualizações dão vida aos seus dados e revelam informações que apenas as representações visuais apelativas e fantásticas podem. Esta secção mostra como.\n"
+  ms.openlocfilehash: e63bc13ecb7f9a0e296188c3a328e0cd19c83184
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 11/15/2017
+- title: "Introdução aos elementos visuais no Power BI"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/SYk_gWrtKvM?rel=0]
+
+
+    [!INCLUDE [](includes/3-1-intro-visualizations.md)]
+- title: "Criar e personalizar visualizações simples"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/IkJda4O7oGs?rel=0]
+
+
+    [!INCLUDE [](includes/3-2-create-customize-simple-visualizations.md)]
+- title: "Gráficos de combinação"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/lnv66cTZ5ho?rel=0]
+
+
+    [!INCLUDE [](includes/3-3-create-combination-charts.md)]
+- title: "Segmentações"
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/zHUjz_0iZf0?rel=0]
+
+
+    [!INCLUDE [](includes/3-4-create-slicers.md)]
+- title: "Visualizações de mapa"
+  durationInMinutes: 11
+  content: >
+    > [!Video https://www.youtube.com/embed/ajTPGNpthcg?rel=0]
+
+
+    [!INCLUDE [](includes/3-5-create-map-visualizations.md)]
+- title: Matrizes e tabelas
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/9xkErXYZQkU?rel=0]
+
+
+    [!INCLUDE [](includes/3-6-create-tables-matrixes.md)]
+- title: "Gráficos de dispersão"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/xLQ_ZVScI60?rel=0]
+
+
+    [!INCLUDE [](includes/3-7-create-scatter-charts.md)]
+- title: "Gráficos de cascata e de funil"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/maTzOJSRB3g?rel=0]
+
+
+    [!INCLUDE [](includes/3-8-create-waterfall-funnel-charts.md)]
+- title: "Medidores e cartões de número único"
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/xmja6EpqaO0?rel=0]
+
+
+    [!INCLUDE [](includes/3-9-create-gauges-cards.md)]
+- title: "Modificar cores nos gráficos e visuais"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/oNME83EAvLw?rel=0]
+
+
+    [!INCLUDE [](includes/3-9a-modifying-colors.md)]
+- title: Formas, caixas de texto e imagens
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/_3q6VEBhGew?rel=0]
+
+
+    [!INCLUDE [](includes/3-10-create-shapes-images.md)]
+- title: "Formatação e esquema de página"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/5tg-OXzxe2g?rel=0]
+
+
+    [!INCLUDE [](includes/3-11-page-layout-formatting.md)]
+- title: "Interações de grupo entre as visualizações"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/N_xYsCbyHPw?rel=0]
+
+
+    [!INCLUDE [](includes/3-11a-create-interaction-between-visualizations.md)]
+- title: "Duplicar uma página de relatório"
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/UOKbxTXZrWw?rel=0]
+
+
+    [!INCLUDE [](includes/3-11b-duplicate-page.md)]
+- title: Mostrar categorias sem dados
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/rsUMVJAIH00?rel=0]
+
+
+    [!INCLUDE [](includes/3-11c-display-empty-categories.md)]
+- title: "Opções de resumo e categoria"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/Co2z9b-s_yM?rel=0]
+
+
+    [!INCLUDE [](includes/3-11d-customize-summarization-categorization.md)]
+- title: Ordem Z
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/MkiiNFI2Ve0?rel=0]
+
+
+    [!INCLUDE [](includes/3-11f-arrange-visual-zorder.md)]
+- title: "Hierarquias visuais e desagregação"
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/q8WDUAiTGeU?rel=0]
+
+
+    [!INCLUDE [](includes/3-11g-visual-hierarchies-drilling.md)]
+- title: "Integração do R no Power BI Desktop"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/pV78e9aYHXk?rel=0]
+
+
+    [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
+- content: "Concluiu a secção **Visualizações** da Aprendizagem orientada do Microsoft Power BI.\0"

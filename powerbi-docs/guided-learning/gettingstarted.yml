@@ -1,0 +1,51 @@
+documentType: Tutorial
+title: "Guia de introdução"
+metadata:
+  title: "Introdução | Microsoft Power BI"
+  description: "Saiba o que é o Power BI, como os blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações para os seus dados."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: gettingdata
+  nextTutorialTitle: Obter dados
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Saiba o que é o Power BI, como os blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações para os seus dados.\n"
+  ms.openlocfilehash: 398c10dfbcd935276b98f3d50df172d6b0d2af48
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 11/15/2017
+- title: Apresentando o Power BI
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
+- title: A utilizar o Power BI
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
+
+
+    [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
+- title: Os blocos modulares do Power BI
+  durationInMinutes: 6
+  content: >
+    [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
+- title: "Uma vista rápida do serviço do Power BI"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
+
+
+    [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
+- title: "Revisão e o que vem a seguir"
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
+- content: "Concluiu a secção **Introdução** da Aprendizagem Orientada do Microsoft Power BI.\0"
