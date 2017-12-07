@@ -12,16 +12,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
 items:
 - durationInMinutes: 1
-  content: "Ligue a várias origens de dados e, em seguida, combine-as de forma a criar um modelo único de dados que se adapta às suas necessidades exclusivas.\n"
-  ms.openlocfilehash: 6486ec39aa624f4387c6006637b9b77e47fe0c2a
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  content: "Com as capacidades de **modelagem** no **Power BI**, pode ligar a várias origens de dados e, em seguida, combiná-las de forma a criar um modelo único de dados que se adapte às suas necessidades.\n"
+  ms.openlocfilehash: 760a683fd4267f2dc1fc3e59783770ad4904dcfb
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
 - title: "Introdução à modelagem dos dados"
   durationInMinutes: 3
   content: >
@@ -71,4 +71,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Concluiu a secção **Modelagem** da Aprendizagem orientada do Microsoft Power BI.\0"
+- content: "Está a sair-se bem. Continue assim para aprender mais sobre o Power BI! Concluiu a secção **Modelagem** da Aprendizagem orientada do Microsoft Power BI. Em seguida, temos as visualizações.\0"

@@ -12,16 +12,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
 items:
 - durationInMinutes: 1
   content: "Utilize o Excel e o Power BI em conjunto e crie relatórios e visuais ligados e poderosos.\n"
-  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.openlocfilehash: 696459a8cd0ea243c0eb59548bac4379b403764d
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
 - title: "Introdução à utilização de dados do Excel no Power BI"
   durationInMinutes: 2
   content: >
@@ -57,4 +57,4 @@ items:
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Concluiu a secção **Power BI e Excel** da Aprendizagem orientada do Microsoft Power BI.\0"
+- content: "Bom trabalho! Concluiu a secção **Power BI e Excel** da Aprendizagem Orientada do Power BI. Em seguida, irá aprender sobre como publicar e partilhar.\0"

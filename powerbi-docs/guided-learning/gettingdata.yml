@@ -12,16 +12,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
 items:
 - durationInMinutes: 1
-  content: "Explore e aprenda as várias formas que pode obter e trabalhar com dados no Power BI.\n"
-  ms.openlocfilehash: b994ce3414ac359333199c2174570ee314193341
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  content: "Dados são o coração do Power BI. Nesta secção da **Aprendizagem Orientada**, irá aprender a obter e a trabalhar com dados no Power BI.\n"
+  ms.openlocfilehash: a490c763a04fb3558ebc6e973ff1ec00d18c876c
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 11/15/2017
+  ms.lasthandoff: 12/06/2017
 - title: "Descrição geral do Power BI Desktop"
   durationInMinutes: 4
   content: >
@@ -64,4 +64,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Concluiu a secção **Obter dados** da Aprendizagem orientada do Microsoft Power BI.\0"
+- content: "Muito bem! Concluiu a secção **Obter dados** da Aprendizagem Orientada do Microsoft Power BI. No passo seguinte, irá aprender mais sobre **Modelagem**, que é o assunto do próximo tutorial.\0"
