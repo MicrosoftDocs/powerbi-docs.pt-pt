@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Usar a segmentação de intervalo numérico
           href: desktop-slicer-numeric-range.md
-        - name: Utilizar a segmentação de datas relativa
-          href: desktop-slicer-filter-date-range.md
+        - name: Crie uma segmentação de dados responsiva que pode redimensionar
+          href: power-bi-slicer-filter-responsive.md
         - name: Criar cartões de resposta personalizados do Power BI para o Cortana
           href: service-cortana-answer-cards.md
         - name: Segurança em nível de linha
