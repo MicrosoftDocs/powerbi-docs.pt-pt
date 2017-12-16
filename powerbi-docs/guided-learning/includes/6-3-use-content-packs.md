@@ -32,5 +32,5 @@ Mas posso editar o dashboard, o relatório e até o conjunto de dados, se preten
 
 Desta forma, os pacotes de conteúdos são uma forma simples de reutilizar conteúdo criado por outras pessoas na sua organização.
 
-Na aula seguinte: [Criar um pacote de conteúdos no Power BI](6-4-update-content-pack.md).
+Avancemos para a próxima aula!
 
