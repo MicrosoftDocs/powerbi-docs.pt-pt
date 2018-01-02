@@ -9,7 +9,7 @@ Para alterar a interação entre as visualizações, selecione **Editar** na sec
 
 ![](media/3-11a-create-interaction-between-visualizations/3-11a_1.png)
 
-Agora, quando seleciona um elemento visual na tela de relatórios, verá um pequeno ícone de *filtro* opaco no canto superior direito de todos os outros elementos visuais que irá afetar. Para excluir um elemento visual da interação, clique no símbolo *Nenhum* no canto superior direito, perto do ícone de *filtro*.
+Agora, quando seleciona um elemento visual na tela de relatórios, verá um pequeno ícone de *filtro* opaco no canto superior direito de todos os outros elementos visuais que irá afetar. Para eliminar um elemento visual da interação, clique no símbolo *Nenhum* no canto superior direito, perto do ícone de *filtro*.
 
 ![](media/3-11a-create-interaction-between-visualizations/3-11a_2.png)
 

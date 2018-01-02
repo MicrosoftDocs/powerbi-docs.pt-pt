@@ -13,7 +13,7 @@ Depois de criar o gráfico, mapa ou quadro, pode começar a arrastar os campos d
 
 ![](media/3-2-create-customize-simple-visualizations/3-2_3.png)
 
-Pode redimensionar a visualização, selecionando-a e, em seguida, arrastando as alças para dentro ou para fora. Também pode mover a visualização para qualquer lugar na tela, clicando e, em seguida, arrastando-a. Se pretender fazer a conversão entre os diferentes tipos de visualizações, selecione o elemento visual que pretende alterar e selecione simplesmente um elemento visual diferente a partir dos ícones no painel de **Visualização**. O Power BI tenta converter os campos selecionados para o novo tipo de elemento visual o mais rigorosamente possível.
+Pode redimensionar a visualização, selecionando-a e, em seguida, arrastando as alças para dentro ou para fora. Também pode mover a visualização para qualquer lugar no ecrã, clicando e, em seguida, arrastando-a. Se pretender fazer a conversão entre os diferentes tipos de visualizações, selecione o elemento visual que pretende alterar e selecione simplesmente um elemento visual diferente a partir dos ícones no painel de **Visualização**. O Power BI tenta converter os campos selecionados para o novo tipo de elemento visual o mais rigorosamente possível.
 
 À medida que paira o rato sobre partes das visualizações, verá uma descrição que contém detalhes sobre esse segmento, tais como etiquetas e o valor total.
 

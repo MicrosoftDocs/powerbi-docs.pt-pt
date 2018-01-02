@@ -1,4 +1,4 @@
-Para além de uma abundância de gráficos, o Power BI Desktop também suporta mais visualizações de tabela. Na realidade, quando captar um campo categórico ou campo de texto e arrastá-lo para a tela de relatórios, receberá uma tabela de resultados por predefinição. Pode percorrer para cima e para baixo na tabela e inicialmente será ordenado por ordem alfabética.
+Para além de uma abundância de gráficos, o Power BI Desktop também suporta mais visualizações de tabela. Na realidade, quando captar um campo categórico ou campo de texto e arrastá-lo para o ecrã de relatórios, recebe uma tabela de resultados por predefinição. Pode percorrer para cima e para baixo na tabela e inicialmente será ordenado por ordem alfabética.
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)
 

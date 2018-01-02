@@ -17,7 +17,7 @@ Depois de o importar para o Power BI, pode começar a criar relatórios.
 Como é óbvio, os ficheiros não têm de estar numa unidade local. Se guardar os ficheiros no OneDrive ou no Site de Equipa do SharePoint, é ainda melhor. Iremos analisar este aspeto mais pormenorizadamente num tópico mais à frente.
 
 ## <a name="start-creating-reports"></a>Começar a criar relatórios
-Depois de os dados do seu livro terem sido importados, é criado um conjunto de dados no Power BI. É apresentado em **Conjuntos de dados**. Agora, pode começar a explorar os seus dados através da criação de relatórios e dashboards. Basta clicar no ícone **Abrir menu** junto ao conjunto de dados e, em seguida, clicar em **Explorar**. É apresentada uma nova tela de relatório em branco. À direita, em **Campos**, verá as suas tabelas e colunas. Basta selecionar os campos para os quais pretende criar uma nova visualização na tela.
+Depois de os dados do seu livro terem sido importados, é criado um conjunto de dados no Power BI. É apresentado em **Conjuntos de dados**. Agora, pode começar a explorar os seus dados através da criação de relatórios e dashboards. Basta clicar no ícone **Abrir menu** junto ao conjunto de dados e, em seguida, clicar em **Explorar**. É apresentado um novo ecrã de relatório em branco. À direita, em **Campos**, verá as suas tabelas e colunas. Basta selecionar os campos para os quais pretende criar uma nova visualização no ecrã.
 
 ![](media/5-2-upload-excel/5-2_3.png)
 

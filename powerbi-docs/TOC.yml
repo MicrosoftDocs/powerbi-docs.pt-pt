@@ -1,108 +1,110 @@
-- name: Serviço do Power BI
+- name: Power BI Service (Serviço Power BI)
   items:
-    - name: Introdução
+    - name: Get started (Introdução)
       items:
-        - name: Power BI - conceitos básicos
+        - name: 'Power BI - basic concepts (Power BI: conceitos básicos)'
           href: service-basic-concepts.md
-        - name: Introdução ao Power BI
+        - name: Get started with Power BI (Introdução ao Power BI)
           href: service-get-started.md
-        - name: Inscrição para autoatendimento para o Power BI
+        - name: Self-service signup for Power BI (Inscrição de gestão personalizada no Power BI)
           href: service-self-service-signup-for-power-bi.md
-        - name: Power BI gratuito x Pro
+        - name: Power BI Free vs Pro (Power BI Gratuito vs. Pro)
           href: service-free-vs-pro.md
-        - name: Fontes de dados do Power BI
+        - name: Data sources for Power BI (Origens de dados para o Power BI)
           href: service-get-data.md
-        - name: A nova experiência de navegação com o Power BI
+        - name: The new Power BI navigation experience (A nova experiência de navegação do Power BI)
           href: service-the-new-power-bi-experience.md
-        - name: 10 dicas para obter ajuda
+        - name: 10 tips for getting help (10 sugestões para obter ajuda)
           href: service-tips-for-finding-help.md
-        - name: Pesquisa e classificação de conteúdo
+        - name: Searching and sorting content (Procurar e ordenar conteúdos)
           href: service-navigation-search-filter-sort.md
-        - name: Conteúdo relacionado
+        - name: Related content (Conteúdos relacionados)
           href: service-related-content.md
-        - name: Ativação da Avaliação Pro Estendida
+        - name: Extended Pro Trial activation (Ativação da Versão de Avaliação Pro alargada)
           href: service-extended-pro-trial.md
-        - name: Aceitar recursos de visualização do Power BI
+        - name: Opt-in for Power BI preview features (Optar ativamente por participar na pré-visualização de funcionalidades do Power BI)
           href: service-preview-features.md
-        - name: Perguntas frequentes
+        - name: Frequently asked questions (Perguntas frequentes)
           href: service-frequently-asked-questions.md
-        - name: O que há de novo no serviço do Power BI
+        - name: What's new in the Power BI service (Novidades no serviço Power BI)
           href: service-whats-new.md
-        - name: Microsoft Flow e Power BI
+        - name: Microsoft Flow and Power BI (Microsoft Flow e Power BI)
           href: service-flow-integration.md
-        - name: Power BI para o Governo dos EUA
+        - name: Power BI for US Government (Power BI para a Administração Pública dos EUA)
           href: service-govus-overview.md
-        - name: Inscrever sua organização do Governo dos EUA
+        - name: Enroll your US Government organization (Inscrever a sua organização de Administração Pública dos EUA)
           href: service-govus-signup.md
-        - name: Perguntas frequentes para os clientes Power BI para Nuvem da Alemanha
+        - name: FAQ for Power BI for Germany Cloud customers (FAQ para os clientes do Power BI para Germany Cloud)
           href: service-govde-faq.md
-        - name: Introdução ao Power BI com aplicações de terceiros
+        - name: Power BI get started with third-party apps (Introdução ao Power BI com aplicações de terceiros)
           href: service-power-bi-get-started-third-party-apps.md
-        - name: Navegadores com suporte para o Power BI
+        - name: Supported browsers for Power BI (Browsers suportados para o Power BI)
           href: service-browser-support.md
-        - name: Idiomas com suporte e países/regiões para o Power BI
+        - name: Supported languages and countries/regions for Power BI (Idiomas e países/regiões suportados para o Power BI)
           href: supported-languages-countries-regions.md
-    - name: Exemplos
+    - name: Samples (Exemplos)
       items:
-        - name: Exemplos para o Power BI
+        - name: Samples for Power BI (Exemplos para o Power BI)
           href: sample-datasets.md
-        - name: 'Tutorial: Usando os pacotes de conteúdo de exemplo do Power BI'
+        - name: 'Tutorial: Using the Power BI sample content packs (Tutorial: utilizar os pacotes de conteúdos de exemplo do Power BI)'
           href: sample-tutorial-connect-to-the-samples.md
-        - name: Baixar a pasta de trabalho Exemplo Financeiro para o Power BI
+        - name: Download the Financial Sample workbook for Power BI (Transferir o livro Exemplo Financeiro para o Power BI)
           href: sample-financial-download.md
-        - name: 'Análise de Varejo de fornecedor para o Power BI: faça um tour'
+        - name: 'Supplier Quality Analysis sample for Power BI: Take a tour (Exemplo de Análise de Qualidade do Fornecedor para o Power BI: veja uma apresentação)'
           href: sample-supplier-quality.md
-        - name: 'Exemplo de Análise de Gastos de TI para o Power BI: faça um tour'
+        - name: 'IT Spend Analysis sample for Power BI: Take a tour (Exemplo de Análise de Gastos de TI para o Power BI: veja uma apresentação)'
           href: sample-it-spend.md
-        - name: 'Exemplo de Vendas e Marketing para o Power BI: faça a visita guiada'
+        - name: 'Sales and Marketing sample for Power BI: Take a tour (Exemplo de Vendas e Marketing para o Power BI: veja uma apresentação)'
           href: sample-sales-and-marketing.md
-        - name: 'Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour'
+        - name: 'Customer Profitability sample for Power BI: Take a tour (Exemplo de Rentabilidade do Cliente para o Power BI: veja uma apresentação)'
           href: sample-customer-profitability.md
-        - name: 'Exemplo de Recursos Humanos: faça um tour'
+        - name: 'Human Resources sample: Take a tour (Exemplo de Recursos Humanos: veja uma apresentação)'
           href: sample-human-resources.md
-        - name: 'Oportunidade de Análise de Varejo para o Power BI: faça um tour'
+        - name: 'Opportunity Analysis sample for Power BI: Take a tour (Exemplo de Análise de Oportunidade para o Power BI: veja uma apresentação)'
           href: sample-opportunity-analysis.md
-        - name: 'Exemplo de Análise de compras: faça um tour'
+        - name: 'Procurement Analysis sample: Take a tour (Exemplo de Análise de Aprovisionamento: veja uma apresentação)'
           href: sample-procurement.md
-        - name: 'Exemplo de Análise de Varejo para o Power BI: faça um tour'
+        - name: 'Retail Analysis sample for Power BI: Take a tour (Exemplo de Análise de Revenda para o Power BI: veja uma apresentação)'
           href: sample-retail-analysis.md
-    - name: Tarefas comuns
+    - name: Common tasks (Tarefas comuns)
       items:
-        - name: Dashboards favoritos no Power BI
+        - name: Favorite dashboards in Power BI (Adicionar dashboards aos favoritos no Power BI)
           href: service-dashboard-favorite.md
-        - name: 'Imprimir um dashboard, um bloco de dashboard, uma página de relatório'
+        - name: 'Print a dashboard, print a dashboard tile, print a report page (Imprimir um dashboard, um mosaico do dashboard, uma página de relatório)'
           href: service-print.md
-        - name: Conteúdo recente
+        - name: Recent content (Conteúdos recentes)
           href: service-recent.md
-        - name: Assinar um relatório ou um dashboard
+        - name: Subscribe to a report or dashboard (Subscrever um relatório ou um dashboard)
           href: service-report-subscribe.md
-        - name: Mudar o nome do conteúdo no Power BI
+        - name: Rename content within Power BI (Mudar o nome do conteúdo no Power BI)
           href: service-rename.md
-        - name: Exibir painéis e relatórios no Modo de Tela Inteira (modo de TV)
+        - name: 'Display dashboards and reports in Full Screen mode (TV mode) (Apresentar dashboards e relatórios no Modo de Ecrã Inteiro [modo de televisão])'
           href: service-fullscreen-mode.md
-        - name: Remover conteúdo no Power BI
+        - name: Remove content within Power BI (Remover conteúdos no Power BI)
           href: service-delete.md
-        - name: Exibir um bloco do painel no modo Em foco
+        - name: Display a dashboard tile in Focus mode (Apresentar um mosaico do dashboard no Modo de foco)
           href: service-focus-mode.md
     - name: Premium
       items:
-        - name: Power BI Premium – o que é?
+        - name: Power BI Premium - what is it? (Power BI Premium – o que é?)
           href: service-premium.md
-        - name: Como comprar o Power BI Premium
+        - name: How to purchase Power BI Premium (Como comprar o Power BI Premium)
           href: service-admin-premium-purchase.md
-        - name: Gerenciar o Power BI Premium
+        - name: Manage Power BI Premium (Gerir o Power BI Premium)
           href: service-admin-premium-manage.md
-        - name: Perguntas Frequentes do Power BI Premium
+        - name: Support for large datasets (Suporte para grandes conjuntos de dados)
+          href: service-premium-large-datasets.md
+        - name: Power BI Premium FAQ (FAQ do Power BI Premium)
           href: service-premium-faq.md
-        - name: Notas de liberação do Power BI Premium
+        - name: Power BI Premium release notes (Notas de versão do Power BI Premium)
           href: service-premium-release-notes.md
-    - name: Conectar aos serviços
+    - name: Connect to services (Ligar aos serviços)
       items:
-        - name: Ligar aos serviços que utiliza
+        - name: Connect to the services you use (Ligar aos serviços que utiliza)
           href: service-connect-to-services.md
         - name: Adobe Analytics
           href: service-connect-to-adobe-analytics.md
-        - name: Logs de Auditoria do Azure
+        - name: Azure Audit Logs (Registos de Auditoria do Azure)
           href: service-connect-to-azure-audit-logs.md
         - name: Google Analytics
           href: service-connect-to-google-analytics.md
@@ -112,7 +114,7 @@
           href: service-connect-to-salesforce.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
-        - name: Previsões de Vendas do Alpine Metrics
+        - name: Alpine Metrics Sales Predictions (Previsões de Vendas do Alpine Metrics)
           href: service-connect-to-alpine-metrics.md
         - name: appFigures
           href: service-connect-to-appfigures.md
@@ -120,17 +122,17 @@
           href: service-connect-to-application-insights.md
         - name: AT Internet Bridge
           href: service-connect-to-at-internet.md
-        - name: Engajamento Móvel do Azure
+        - name: Azure Mobile Engagement
           href: service-connect-to-azure-mobile.md
-        - name: Microsoft Azure Consumption Insights
+        - name: Microsoft Azure Consumption Insights (Informações sobre Consumo do Microsoft Azure)
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Central de Segurança do Azure
+        - name: Azure Security Center (Centro de Segurança do Azure)
           href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
-        - name: ID de Circuito
+        - name: Circuit ID (ID de Circuito)
           href: service-connect-to-circuit-id.md
         - name: ClickDimensions
           href: service-connect-to-clickdimensions.md
@@ -166,7 +168,7 @@
           href: service-connect-to-prevedere.md
         - name: Project Online
           href: service-connect-to-project-online.md
-        - name: Project Madeira
+        - name: Project Madeira (Projeto Madeira)
           href: service-connect-to-project-madeira.md
         - name: Projectplace
           href: service-connect-to-projectplace.md
@@ -174,13 +176,13 @@
           href: service-connect-to-quickbooks-online.md
         - name: SendGrid
           href: service-connect-to-sendgrid.md
-        - name: Incidentes do ServiceNow
+        - name: ServiceNow Incidents (Incidentes do ServiceNow)
           href: service-connect-to-servicenow.md
         - name: Smartsheet
           href: service-connect-to-smartsheet.md
         - name: SparkPost
           href: service-connect-to-sparkpost.md
-        - name: Auditoria do banco de dados SQL
+        - name: SQL Database Auditing (Auditoria de Base de Dados SQL)
           href: service-connect-to-azure-sql-database-auditing.md
         - name: SQL Sentry
           href: service-connect-to-sql-sentry.md
@@ -200,7 +202,7 @@
           href: service-connect-to-vmob.md
         - name: Webtrends
           href: service-connect-to-webtrends.md
-        - name: Centro de Desenvolvimento do Windows
+        - name: Windows Dev Center
           href: service-connect-to-windows-dev-center.md
         - name: Xero
           href: service-connect-to-xero.md
@@ -210,907 +212,907 @@
           href: service-connect-to-ziosk.md
         - name: Zuora
           href: service-connect-to-zuora.md
-    - name: Painéis
+    - name: Dashboards
       items:
-        - name: Painéis no Power BI
+        - name: Dashboards in Power BI (Dashboards no Power BI)
           href: service-dashboards.md
-        - name: Criar um dashboard por meio de um relatório
+        - name: Create a dashboard from a report (Criar um dashboard a partir de um relatório)
           href: service-dashboard-copy.md
-        - name: Criar uma cópia de um dashboard
+        - name: Create a copy of a dashboard (Criar uma cópia de um dashboard)
           href: service-dashboard-copy.md
-        - name: Blocos de painel no Power BI
+        - name: Dashboard tiles in Power BI (Mosaicos do dashboard no Power BI)
           href: service-dashboard-tiles.md
-        - name: Fixar um bloco em um painel do Power BI por meio de um relatório
+        - name: Pin a tile to a Power BI dashboard from a report (Afixar um mosaico a um dashboard do Power BI a partir de um relatório)
           href: service-dashboard-pin-tile-from-report.md
-        - name: Fixar um bloco de um painel para outro painel
+        - name: Pin a tile from one dashboard to another dashboard (Afixar um mosaico de um dashboard a outro dashboard)
           href: service-pin-tile-to-another-dashboard.md
-        - name: Fixar um bloco em um painel do Power BI a partir do Excel
+        - name: Pin a tile to a Power BI dashboard from Excel (Afixar um mosaico a um dashboard do Power BI a partir do Excel)
           href: service-dashboard-pin-tile-from-excel.md
-        - name: Editor do Power BI para Excel
+        - name: Power BI publisher for Excel (Power BI Publisher para Excel)
           href: publisher-for-excel.md
-        - name: Fixar um bloco a um painel do Power BI da caixa de P e R
+        - name: Pin a tile to a Power BI dashboard from the Q&A question box (Afixar um mosaico a um dashboard do Power BI a partir da caixa de Perguntas e Respostas)
           href: service-dashboard-pin-tile-from-q-and-a.md
-        - name: Fixar uma página inteira do relatório em um painel do Power BI
+        - name: Pin an entire report page to a Power BI dashboard (Afixar uma página de relatório inteira a um dashboard do Power BI)
           href: service-dashboard-pin-live-tile-from-report.md
-        - name: Compartilhado comigo
+        - name: Shared with me (Partilhado comigo)
           href: service-shared-with-me.md
-        - name: Métrica de uso para painéis
+        - name: Usage metrics for dashboards (Métrica de utilização para dashboards)
           href: service-usage-metrics.md
-        - name: Alertas de dados no serviço do Power BI
+        - name: Data alerts in Power BI service (Alertas de dados no serviço Power BI)
           href: service-set-data-alerts.md
-        - name: Centro de Notificações Unificado do Power BI
+        - name: Power BI Unified Notification Center (Centro de Notificações Unificado do Power BI)
           href: service-notification-center.md
-        - name: 'Adicionar uma imagem, uma caixa de texto, um vídeo ou um código Web ao seu dashboard'
+        - name: 'Add an image, text box, video, or web code to your dashboard (Adicionar uma imagem, caixa de texto, vídeo ou código Web ao seu dashboard)'
           href: service-dashboard-add-widget.md
-        - name: 'Editar um mosaico — redimensionar, mover, mudar o nome, afixar, eliminar, adicionar hiperligação'
+        - name: 'Edit a tile — resize, move, rename, pin, delete, add hyperlink (Editar um mosaico — redimensionar, mover, mudar o nome, afixar, eliminar, adicionar hiperligação)'
           href: service-dashboard-edit-tile.md
-        - name: Dicas para criar um painel bom no Power BI
+        - name: Tips for designing a great Power BI dashboard (Sugestões para criar um dashboard excelente no Power BI)
           href: service-dashboards-design-tips.md
-        - name: Quick Insights no Power BI
+        - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
           href: service-insights.md
-        - name: Tipos de Quick Insights com suporte do Power BI
+        - name: Types of Quick Insights supported by Power BI (Tipos de Informações Rápidas suportados pelo Power BI)
           href: service-insight-types.md
-        - name: Otimizar seus dados para o Power BI Quick Insights
+        - name: Optimize your data for Power BI Quick Insights (Otimizar os seus dados para as Informações Rápidas do Power BI)
           href: service-insights-optimize.md
-        - name: Dashboards em destaque no Power BI
+        - name: Featured dashboards in Power BI (Dashboards em destaque no Power BI)
           href: service-dashboard-featured.md
-        - name: Criar uma exibição de telefone de um dashboard
+        - name: Create a phone view of a dashboard (Criar uma vista de telefone de um dashboard)
           href: service-create-dashboard-mobile-phone-view.md
-        - name: Criar um código QR para um bloco
+        - name: Create a QR code for a tile (Criar um código QR para um mosaico)
           href: service-create-qr-code-for-tile.md
-        - name: Adicionar uma imagem a um painel
+        - name: Add an image to a dashboard (Adicionar uma imagem a um dashboard)
           href: service-dashboard-add-image.md
-        - name: Classificação de dados do dashboard
+        - name: Dashboard data classification (Classificação de dados do dashboard)
           href: service-data-classification.md
-    - name: Fazer perguntas sobre seus dados
+    - name: Ask questions of your data (Fazer perguntas sobre os seus dados)
       items:
-        - name: P e R no Power BI
+        - name: Q&A in Power BI (Perguntas e Respostas no Power BI)
           href: service-q-and-a.md
-        - name: Como usar o P e R do Power BI
+        - name: How to use Power BI Q&A (Como utilizar as Perguntas e Respostas do Power BI)
           href: service-how-to-q-and-a.md
-        - name: 'Tutorial: Introdução às P e R do Power BI'
+        - name: 'Tutorial: Get Started with Power BI Q&A (Tutorial: introdução às Perguntas e Respostas do Power BI)'
           href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Utilizar Perguntas e Respostas com o Power BI Gateway — Dados empresariais (Pré-visualização)
+        - name: 'Using Q&A with Power BI Gateway — Enterprise data (Preview) (Utilizar as Perguntas e Respostas com o Power BI Gateway — Dados empresariais [Pré-visualização])'
           href: service-q-and-a-direct-query.md
-        - name: Faça seus dados funcionarem bem com P e R no Power BI
+        - name: Make your data work well with Q&A in Power BI (Fazer com que os seus dados funcionem bem com as Perguntas e Respostas no Power BI)
           href: service-prepare-data-for-q-and-a.md
-        - name: Introdução ao Cortana para o Power BI
+        - name: Introduction to Cortana for Power BI (Introdução à Cortana para o Power BI)
           href: service-cortana-intro.md
-        - name: Habilitar o Cortana para o Power BI
+        - name: Enable Cortana for Power BI (Ativar a Cortana para o Power BI)
           href: service-cortana-enable.md
-        - name: Criar perguntas em destaque para as P e R do Power BI
+        - name: Create featured questions for Power BI Q&A (Criar perguntas em destaque para as Perguntas e Respostas do Power BI)
           href: service-q-and-a-create-featured-questions.md
-        - name: Dicas e truques para fazer perguntas com a P e R no Power BI
+        - name: Tips and tricks for asking questions with Q&A in Power BI (Sugestões e truques para fazer perguntas com as Perguntas e Respostas no Power BI)
           href: service-q-and-a-tips.md
-        - name: Solucionar problemas da Cortana
+        - name: Troubleshoot Cortana (Resolução de problemas da Cortana)
           href: service-cortana-troubleshoot.md
-    - name: Compartilhar seu trabalho
+    - name: Share your work (Partilhar seu trabalho)
       items:
-        - name: Como devo colaborar e partilhar os meus dashboards e relatórios?
+        - name: How should I collaborate on and share dashboards and reports? (Como devo colaborar e partilhar os meus dashboards e relatórios?)
           href: service-how-to-collaborate-distribute-dashboards-reports.md
-        - name: Instalar e utilizar aplicações com dashboards e relatórios
+        - name: 'Install and use apps, with dashboards and reports (Instalar e utilizar aplicações com dashboards e relatórios)'
           href: service-install-use-apps.md
-        - name: Criar e distribuir aplicações com dashboards e relatórios
+        - name: 'Install and use apps, with dashboards and reports (Criar e distribuir aplicações com dashboards e relatórios)'
           href: service-create-distribute-apps.md
-        - name: 'Pacotes de conteúdo organizacional: introdução'
+        - name: 'Organizational content packs: Introduction (Pacotes de conteúdos organizacionais: introdução)'
           href: service-organizational-content-pack-introduction.md
-        - name: Criar e publicar um pacote de conteúdo organizacional (tutorial)
+        - name: 'Create and publish an organizational content pack (tutorial) (Criar e publicar um pacote de conteúdos organizacionais [tutorial])'
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Partilhar um dashboard com colegas de trabalho e outras pessoas
+        - name: Share a dashboard with coworkers and others (Partilhar um dashboard com colegas de trabalho e outras pessoas)
           href: service-share-dashboards.md
-        - name: Partilhar um relatório com colegas de trabalho
+        - name: Share a report with coworkers (Partilhar um relatório com colegas de trabalho)
           href: service-share-reports.md
-        - name: Publicar do Power BI para a Web
+        - name: Publish from Power BI to the web (Publicar do Power BI para a Web)
           href: service-publish-to-web.md
-        - name: Inserir relatório no SharePoint Online
+        - name: Embed report in SharePoint Online (Incorporar um relatório no SharePoint Online)
           href: service-embed-report-spo.md
-        - name: Conectar-se a arquivos no OneDrive para Empresas do seu grupo
+        - name: Connect to files on your group's OneDrive for Business (Ligar aos ficheiros no OneDrive para Empresas do seu grupo)
           href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-        - name: Colaborar no espaço de trabalho de grupo do Power BI
+        - name: Collaborate in your Power BI group workspace (Colaborar na sua área de trabalho de grupo do Power BI)
           href: service-collaborate-power-bi-workspace.md
-        - name: Gerenciar seu grupo no Power BI e no Office 365
+        - name: Manage your group in Power BI and Office 365 (Gerir o seu grupo no Power BI e no Office 365)
           href: service-manage-app-workspace-in-power-bi-and-office-365.md
-        - name: 'Gerenciar, atualizar e excluir pacotes de conteúdo organizacional'
+        - name: 'Manage, update, and delete organizational content packs (Gerir, atualizar e eliminar pacotes de conteúdos organizacionais)'
           href: service-organizational-content-pack-manage-update-delete.md
-        - name: Encontrar e conectar-se a um pacote de conteúdo organizacional
+        - name: Find and connect to an organizational content pack (Localizar e ligar a um pacote de conteúdos organizacionais)
           href: service-organizational-content-pack-find-and-open.md
-        - name: 'Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso'
+        - name: 'Organizational content packs: Copy, refresh, and get access (Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso)'
           href: service-organizational-content-pack-copy-refresh-access.md
-        - name: Remover a conexão para um pacote de conteúdo organizacional
+        - name: Remove your connection to an organizational content pack (Remover a sua ligação a um pacote de conteúdos organizacionais)
           href: service-organizational-content-pack-disconnect.md
-        - name: Compartilhar um painel que é vinculado a uma pasta de trabalho do Excel no OneDrive para Empresas
+        - name: Share a dashboard that links to an Excel workbook on OneDrive for Business (Partilhar um dashboard que liga a um livro do Excel no OneDrive para Empresas)
           href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: Publicar no PowerPoint
+        - name: Publish to PowerPoint (Publicar no PowerPoint)
           href: service-publish-to-powerpoint.md
-    - name: Relatórios
+    - name: Reports (Relatórios)
       items:
-        - name: Relatórios no Power BI
+        - name: Reports in Power BI (Relatórios no Power BI)
           href: service-reports.md
-        - name: Criar um novo relatório por meio de um conjunto de dados
+        - name: Create a new report from a dataset (Criar um novo relatório a partir de um conjunto de dados)
           href: service-report-create-new.md
-        - name: Crie um novo relatório por meio de um relatório existente
+        - name: Create a new report from an existing report (Criar um novo relatório a partir de um relatório existente)
           href: power-bi-report-copy.md
-        - name: Conteúdo recente
+        - name: Recent content (Conteúdos recentes)
           href: service-recent.md
-        - name: O editor de relatório... Faça um tour
+        - name: The report editor...Take a tour (O editor de relatórios... Veja uma apresentação)
           href: service-the-report-editor-take-a-tour.md
-        - name: Filtre uma página em um relatório do Power BI
+        - name: Add a page to a Power BI report (Adicionar uma página a um relatório do Power BI)
           href: power-bi-report-add-page.md
-        - name: Adicionar um filtro a um relatório no Power BI
+        - name: Add a filter to a report in Power BI (Adicionar um filtro a um relatório no Power BI)
           href: power-bi-report-add-filter.md
-        - name: Salve um relatório no Power BI
+        - name: Save a report in Power BI (Guardar um relatório no Power BI)
           href: service-report-save.md
-        - name: Sobre filtros e realce em relatórios do Power BI
+        - name: About filters and highlighting in Power BI reports (Sobre filtros e realces em relatórios do Power BI)
           href: power-bi-reports-filters-and-highlighting.md
-        - name: Como usar filtros de relatório
+        - name: How to use report filters (Como utilizar filtros de relatório)
           href: power-bi-how-to-report-filter.md
-        - name: Analisar no Excel
+        - name: Analyze in Excel (Analisar no Excel)
           href: service-analyze-in-excel.md
-        - name: Alterar como os visuais interagem em um relatório
+        - name: Change how visuals interact in a report (Alterar a forma como os elementos visuais interagem num relatório)
           href: service-reports-visual-interactions.md
-        - name: Abrir um relatório do Power BI na Exibição de Leitura
+        - name: Open a Power BI report in Reading View (Abrir um relatório do Power BI na Vista de Leitura)
           href: service-report-open-in-reading-view.md
-        - name: Vá do modo de Exibição de leitura para o modo de Exibição de Edição no Power BI
+        - name: Go from Reading View to Editing View in Power BI (Ir da Vista de Leitura para a Vista de Edição no Power BI)
           href: service-reading-view-and-editing-view.md
-        - name: Interagir com um relatório na Exibição de Edição no Power BI
+        - name: Interact with a report in Editing View in Power BI (Interagir com um relatório na Vista de Edição no Power BI)
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Interagir com um relatório na Exibição de Leitura no Power BI
+        - name: Interact with a report in Reading View in Power BI (Interagir com um relatório na Vista de Leitura no Power BI)
           href: service-interact-with-a-report-in-reading-view.md
-        - name: Dicas e truques para criar relatórios no serviço do Power BI
+        - name: Tips and tricks for creating reports in Power BI service (Sugestões e truques para criar relatórios no serviço Power BI)
           href: power-bi-reports-tips-and-tricks-for-creating.md
-        - name: Painel de análise
+        - name: Analytics pane (Painel de análise)
           href: service-analytics-pane.md
-        - name: Métrica de uso para relatórios
+        - name: Usage metrics for reports (Métrica de utilização para relatórios)
           href: service-usage-metrics.md
-        - name: Criar um código QR para um relatório
+        - name: Create a QR code for a report (Criar um código QR para um relatório)
           href: service-create-qr-code-for-report.md
-        - name: 'Agregações (soma, média, máximo, etc.) no Power BI'
+        - name: 'Aggregates (sum, average, maximum, etc.) in Power BI (Agregações [soma, média, máximo, etc.] no Power BI)'
           href: service-aggregates.md
-        - name: A página exibe as configurações em um relatório do Power BI
+        - name: Page display settings in a Power BI report (Definições de visualização de página num relatório do Power BI)
           href: power-bi-report-display-settings.md
-        - name: 'Tutorial: Alterar as configurações de exibição de uma página em um relatório do Power BI'
+        - name: 'Tutorial: Change the display settings for a page in a Power BI report (Tutorial: alterar as definições de visualização de uma página num relatório do Power BI)'
           href: power-bi-change-report-display-settings.md
-        - name: Reorganize as páginas em um relatório no Power BI
+        - name: Reorder pages in a report in Power BI (Reordenar as páginas num relatório no Power BI)
           href: service-report-reorder-pages.md
-        - name: Duplicar uma página de relatório no Power BI
+        - name: Duplicate a report page in Power BI (Duplicar uma página de relatório no Power BI)
           href: power-bi-report-copy-paste-page.md
-        - name: Exportar um relatório do serviço do Power BI para Desktop (Visualização)
+        - name: 'Export a report from Power BI service to Desktop (Preview) (Exportar um relatório do serviço Power BI Desktop [Pré-visualização])'
           href: service-export-to-pbix.md
-        - name: Filtrar um relatório usando parâmetros de cadeira de caracteres de consulta na URL
+        - name: Filter a report using query string parameters in the URL (Filtrar um relatório com parâmetros de cadeira de consulta no URL)
           href: service-url-filters.md
-    - name: Visualizações
+    - name: Visualizations (Visualizações)
       items:
-        - name: Visualizações no Power BI
+        - name: Visualizations in Power BI (Visualizações no Power BI)
           href: power-bi-report-visualizations.md
-        - name: Tipos de visualização no Power BI
+        - name: Visualization types in Power BI (Tipos de visualização no Power BI)
           href: power-bi-visualization-types-for-reports-and-q-and-a.md
-        - name: Melhores práticas de visualização
+        - name: Visualization best practices (Melhores práticas de visualização)
           href: power-bi-visualization-best-practices.md
-        - name: Visualizações personalizadas no Power BI
+        - name: Custom visualizations in Power BI (Visualizações personalizadas no Power BI)
           href: power-bi-custom-visuals.md
-        - name: 'Tutorial: parte I, Adicionar visualizações a um relatório do Power BI'
+        - name: 'Tutorial: Part I, Add visualizations to a Power BI report (Tutorial: parte I, adicionar visualizações a um relatório do Power BI)'
           href: power-bi-report-add-visualizations-i.md
-        - name: 'Tutorial: Parte 2, Adicionar visualizações a um relatório do Power BI'
+        - name: 'Tutorial: Part 2, Add visualizations to a Power BI report (Tutorial: parte 2, adicionar visualizações a um relatório do Power BI)'
           href: power-bi-report-add-visualizations-ii.md
-        - name: Consulte os dados usados para criar o visual
+        - name: See the data used to create the visual (Ver os dados utilizados para criar o elemento visual)
           href: service-reports-show-data.md
-        - name: Exportar dados de uma visualização
+        - name: Export data from a visualization (Exportar dados de uma visualização)
           href: power-bi-visualization-export-data.md
-        - name: Alterar o tipo de visualização em um relatório do Power BI
+        - name: Change the type of visualization in a Power BI report (Alterar o tipo de visualização num relatório do Power BI)
           href: power-bi-report-change-visualization-type.md
-        - name: Guia de introdução com propriedades de eixo e formatação de cor
+        - name: Getting started with color formatting and axis properties (Introdução às propriedades de eixo e formatação de cor)
           href: service-getting-started-with-color-formatting-and-axis-properties.md
-        - name: Dicas e truques para formatação com cores no Power BI
+        - name: Tips and tricks for color formatting in Power BI (Sugestões e truques para formatação de cor no Power BI)
           href: service-tips-and-tricks-for-color-formatting.md
-        - name: Altere como um gráfico é classificado em um relatório do Power BI
+        - name: Change how a chart is sorted in a Power BI report (Alterar a forma como um gráfico é ordenado num relatório do Power BI)
           href: power-bi-report-change-sort.md
-        - name: Copie e cole uma visualização no Power BI
+        - name: Copy and paste a visualization in Power BI (Copiar e colar uma visualização no Power BI)
           href: power-bi-visualization-copy-paste.md
-        - name: 'Mover, redimensionar e destacar uma visualização em um relatório do Power BI'
+        - name: 'Move, resize, and pop out a visualization in a Power BI report (Mover, redimensionar e destacar uma visualização num relatório do Power BI)'
           href: power-bi-visualization-move-and-resize.md
-        - name: Faça uma visualização no Power BI
+        - name: Drill down in a visualization in Power BI (Desagregar numa visualização no Power BI)
           href: power-bi-visualization-drill-down.md
-        - name: Hiperlinks nas tabelas
+        - name: Hyperlinks in tables (Hiperligações nas tabelas)
           href: power-bi-hyperlinks-in-tables.md
-        - name: Adicionar um hiperlink a uma Caixa de Texto em um relatório do Power BI
+        - name: Add a hyperlink to a Text Box in a Power BI report (Adicionar uma hiperligação para uma Caixa de Texto num relatório do Power BI)
           href: service-add-hyperlink-to-text-box.md
-        - name: Histogramas
+        - name: Histograms (Histogramas)
           href: service-histograms.md
-        - name: Truques e sugestões para visualizações de mapa do Power BI
+        - name: Tips and tricks for Power BI map visualizations (Truques e sugestões para visualizações de mapa do Power BI)
           href: power-bi-map-tips-and-tricks.md
-        - name: Caixas de texto em relatórios do Power BI
+        - name: Text boxes in Power BI reports (Caixas de texto em relatórios do Power BI)
           href: power-bi-reports-add-text-and-shapes.md
-        - name: 'Tutorial: ArcGIS no Power BI'
+        - name: 'Tutorial: ArcGIS in Power BI (Tutorial: ArcGIS no Power BI)'
           href: power-bi-visualization-arcgis.md
-        - name: 'Tutorial: gráfico de área básico'
+        - name: 'Tutorial: Basic area chart (Tutorial: gráfico de área básico)'
           href: power-bi-visualization-basic-area-chart.md
-        - name: 'Tutorial: gráfico de combinação no Power BI'
+        - name: 'Tutorial: Combo chart in Power BI (Tutorial: gráfico de combinação no Power BI)'
           href: power-bi-visualization-combo-chart.md
-        - name: 'Tutorial: personalizar o título, tela de fundo e legenda da visualização'
+        - name: 'Tutorial: Customize visualization title, background, and legend (Tutorial: personalizar o título, imagem de fundo e legenda da visualização)'
           href: power-bi-visualization-customize-title-background-and-legend.md
-        - name: 'Tutorial: personalizar as propriedades dos eixos x e y'
+        - name: 'Tutorial: Customize X-axis and Y-axis properties (Tutorial: personalizar as propriedades dos eixos x e y)'
           href: power-bi-visualization-customize-x-axis-and-y-axis.md
-        - name: 'Tutorial: gráficos de rosca no Power BI'
+        - name: 'Tutorial: Doughnut charts in Power BI (Tutorial: gráficos em anel no Power BI)'
           href: power-bi-visualization-doughnut-charts.md
-        - name: 'Tutorial: mapas de manchas (coropléticos) no Power BI'
+        - name: 'Tutorial: Filled maps (Choropleths) in Power BI (Tutorial: mapas de manchas [coropléticos] no Power BI)'
           href: power-bi-visualization-filled-maps-choropleths.md
-        - name: 'Tutorial: gráficos de funil no Power BI'
+        - name: 'Tutorial: Funnel charts in Power BI (Tutorial: gráficos de funil no Power BI)'
           href: power-bi-visualization-funnel-charts.md
-        - name: Visuais de KPI
+        - name: KPI Visuals (Elementos visuais de KPI)
           href: power-bi-visualization-kpi.md
-        - name: 'Tutorial: gráficos de medidor radial no Power BI'
+        - name: 'Tutorial: Radial gauge charts in Power BI (Tutorial: gráficos de medidor radial no Power BI)'
           href: power-bi-visualization-radial-gauge-charts.md
-        - name: 'Tutorial: gráficos de dispersão no Power BI'
+        - name: 'Tutorial: Scatter charts in Power BI (Tutorial: gráficos de dispersão no Power BI)'
           href: power-bi-visualization-scatter.md
-        - name: 'Tutorial: segmentações no Power BI'
+        - name: 'Tutorial: Slicers in Power BI (Tutorial: segmentações de dados no Power BI)'
           href: power-bi-visualization-slicers.md
-        - name: 'Tutorial: trabalhando com tabelas'
+        - name: 'Tutorial: Working with tables (Tutorial: trabalhar com tabelas)'
           href: power-bi-visualization-tables.md
-        - name: 'Tutorial: Treemaps no Power BI'
+        - name: 'Tutorial: Treemaps in Power BI (Tutorial: treemaps no Power BI)'
           href: power-bi-visualization-treemaps.md
-        - name: 'Tutorial: Gráficos de cascata no Power BI'
+        - name: 'Tutorial: Waterfall charts in Power BI (Tutorial: gráficos de cascata no Power BI)'
           href: power-bi-visualization-waterfall-charts.md
-        - name: 'Crie um bloco de número grande para um painel do Power BI, fazendo uma pergunta'
+        - name: Create a big number tile for a Power BI dashboard by asking a question (Criar um mosaico de número grande para um dashboard do Power BI ao fazer uma pergunta)
           href: power-bi-visualization-big-number.md
-        - name: Crie um bloco de número grande por meio de um relatório do Power BI
+        - name: Create a big number tile from a Power BI report (Criar um mosaico de número grande a partir de um relatório do Power BI)
           href: power-bi-visualization-big-number-report.md
-        - name: Criar análises avançadas e visualizações usando scripts R no Power BI
+        - name: Create advanced analytics and visualizations using R scripts in Power BI (Criar análises e visualizações avançadas com scripts R no Power BI)
           href: service-r-visuals.md
-    - name: Dados de arquivos
+    - name: Data from files (Dados de ficheiros)
       items:
-        - name: Obter dados de arquivos
+        - name: Get data from files (Obter dados de ficheiros)
           href: service-get-data-from-files.md
-        - name: 'Tutorial: Da pasta de trabalho do Excel para um relatório incrível em um instante'
+        - name: 'Tutorial: From Excel workbook to stunning report in no time (Tutorial: de um livro do Excel para um relatório incrível num instante)'
           href: service-from-excel-to-stunning-report.md
-        - name: Obter dados de arquivos de pasta de trabalho do Excel
+        - name: Get data from Excel workbook files (Obter dados de ficheiros de livro do Excel)
           href: service-excel-workbook-files.md
-        - name: Obter dados de arquivos do Power BI Desktop
+        - name: Get data from Power BI Desktop files (Obter dados de ficheiros do Power BI Desktop)
           href: service-desktop-files.md
-        - name: Obter dados de ficheiros de valores separados por vírgulas (.csv)
+        - name: 'Get data from comma separated value (.csv) files (Obter dados de ficheiros de valores separados por vírgulas [.csv])'
           href: service-comma-separated-value-files.md
-        - name: Streaming em tempo real no Power BI (visualização)
+        - name: 'Real-time streaming in Power BI (Preview) (Transmissão em fluxo em tempo real no Power BI [Pré-visualização])'
           href: service-real-time-streaming.md
-        - name: Publicar no Power BI por meio do Excel 2016
+        - name: Publish to Power BI from Excel 2016 (Publicar no Power BI a partir do Excel 2016)
           href: service-publish-from-excel.md
-        - name: Reduza o tamanho de uma pasta de trabalho do Excel para exibi-lo no Power BI
+        - name: Reduce the size of an Excel workbook to view it in Power BI (Reduzir o tamanho de um livro do Excel para apresentá-lo no Power BI)
           href: reduce-the-size-of-an-excel-workbook.md
-    - name: Dados de bancos de dados
+    - name: Data from databases (Dados de bases de dados)
       items:
-        - name: SQL Data Warehouse do Azure com DirectQuery
+        - name: Azure SQL Data Warehouse with DirectQuery (Azure SQL Data Warehouse com DirectQuery)
           href: service-azure-sql-data-warehouse-with-direct-connect.md
-        - name: Banco de Dados SQL do Azure com DirectQuery
+        - name: Azure SQL Database with DirectQuery (Base de Dados SQL do Azure com DirectQuery)
           href: service-azure-sql-database-with-direct-connect.md
-        - name: Spark no HDInsight com DirectQuery
+        - name: Spark on HDInsight with DirectQuery (Spark no HDInsight com DirectQuery)
           href: spark-on-hdinsight-with-direct-connect.md
-        - name: Dados dinâmicos do SQL Server Analysis Services no Power BI
+        - name: SQL Server Analysis Services live data in Power BI (Dados dinâmicos do SQL Server Analysis Services no Power BI)
           href: sql-server-analysis-services-tabular-data.md
-        - name: Azure e Power BI
+        - name: Azure and Power BI (Azure e Power BI)
           href: service-azure-and-power-bi.md
-    - name: Atualização de dados
+    - name: Data refresh (Atualização de dados)
       items:
-        - name: Atualizar dados no Power BI
+        - name: Data refresh in Power BI (Atualização de dados no Power BI)
           href: refresh-data.md
-        - name: Configurar a atualização agendada
+        - name: Configure scheduled refresh (Configurar a atualização agendada)
           href: refresh-scheduled-refresh.md
-        - name: Atualizar um conjunto de dados criado com base em um arquivo do Power BI Desktop – local
+        - name: Refresh a dataset created from a Power BI Desktop file - local (Atualizar um conjunto de dados criado a partir de um ficheiro do Power BI Desktop – local)
           href: refresh-desktop-file-local-drive.md
-        - name: Atualizar um conjunto de dados criado com base em um arquivo do Power BI Desktop – nuvem
+        - name: Refresh a dataset created from a Power BI Desktop file - cloud (Atualizar um conjunto de dados criado a partir de um ficheiro do Power BI Desktop – cloud)
           href: refresh-desktop-file-onedrive.md
-        - name: Atualizar um conjunto de dados criado com base em uma pasta de trabalho do Excel – local
+        - name: Refresh a dataset created from an Excel workbook - local (Atualizar um conjunto de dados criado a partir de um livro do Excel – local)
           href: refresh-excel-file-local-drive.md
-        - name: Atualizar um conjunto de dados criado com base em uma pasta de trabalho do Excel – nuvem
+        - name: Refresh a dataset created from an Excel workbook - cloud (Atualizar um conjunto de dados criado a partir de um livro do Excel – cloud)
           href: refresh-excel-file-onedrive.md
-        - name: Atualizar um conjunto de dados criado por meio de um arquivo .csv (valor separado por vírgulas) no OneDrive
+        - name: 'Refresh a dataset created from a comma separated value (.csv) file on OneDrive (Atualizar um conjunto de dados criado a partir de um ficheiro .csv [valores separados por vírgulas] no OneDrive)'
           href: refresh-csv-file-onedrive.md
-        - name: Solucionar problemas de atualização
+        - name: Troubleshooting refresh scenarios (Resolução de problemas de cenários de atualização)
           href: refresh-troubleshooting-refresh-scenarios.md
-        - name: Desabilitar as configurações de privacidade
+        - name: Disable privacy settings (Desativar as definições de privacidade)
           href: refresh-enable-fast-combine.md
     - name: Gateways
       items:
-        - name: Introdução a gateways
+        - name: Get started with gateways (Introdução a gateways)
           href: service-gateway-getting-started.md
-        - name: Diretrizes para implantar um gateway de dados
+        - name: Guidance for deploying a data gateway (Diretrizes para implementar um gateway de dados)
           href: service-gateway-deployment-guidance.md
-        - name: Gateway de dados local
+        - name: On-premises data gateway (Gateway de dados no local)
           href: service-gateway-onprem.md
-        - name: Gateway de dados no local - detalhado
+        - name: On-premises data gateway - in-depth (Gateway de dados no local – detalhado)
           href: service-gateway-onprem-indepth.md
-        - name: FAQ do gateway de dados no local
+        - name: On-premises data gateway FAQ (FAQ do gateway de dados no local)
           href: service-gateway-onprem-faq.md
-        - name: Gateway de dados local (modo pessoal)
+        - name: 'On-premises data gateway (personal mode) (Gateway de dados no local [modo pessoal])'
           href: service-gateway-personal-mode.md
-        - name: Resolução de problemas do gateway de dados no local
+        - name: Troubleshooting the on-premises data gateway (Resolução de problemas do gateway de dados no local)
           href: service-gateway-onprem-tshoot.md
-        - name: Gateway do Power BI - pessoal
+        - name: Power BI gateway - personal (Gateway do Power BI – pessoal)
           href: personal-gateway.md
-        - name: Utilizar o Kerberos para início de sessão único (SSO)
+        - name: 'Use Kerberos for single sign-on (SSO) (Utilizar o Kerberos para início de sessão único [SSO])'
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
-        - name: Definindo configurações de proxy
+        - name: Configuring proxy settings (Configurar definições de proxy)
           href: service-gateway-proxy.md
-        - name: Gerenciar sua fonte de dados corporativa - Analysis Services
+        - name: Manage your enterprise data source - Analysis Services (Gerir a sua origem de dados empresarial – Analysis Services)
           href: service-gateway-enterprise-manage-ssas.md
-        - name: Gerenciar sua fonte de dados corporativa - SAP HANA
+        - name: Manage your enterprise data source - SAP HANA (Gerir a sua origem de dados empresarial – SAP HANA)
           href: service-gateway-enterprise-manage-sap.md
-        - name: Gerenciar sua fonte de dados corporativa - SQL
+        - name: Manage your enterprise data source - SQL (Gerir a sua origem de dados empresarial – SQL)
           href: service-gateway-enterprise-manage-sql.md
-        - name: Gerenciar sua fonte de dados – Oracle
+        - name: Manage your data source - Oracle (Gerir a sua origem de dados – Oracle)
           href: service-gateway-onprem-manage-oracle.md
-        - name: Gerir a sua origem de dados empresarial - atualização importada/agendada
+        - name: Manage your enterprise data source - import/scheduled refresh (Gerir a sua origem de dados empresarial – atualização importada/agendada)
           href: service-gateway-enterprise-manage-scheduled-refresh.md
-    - name: Administração
+    - name: Administration (Administração)
       items:
-        - name: Administrando o Power BI em sua organização
+        - name: Administering Power BI in your organization (Administrar o Power BI na sua organização)
           href: service-admin-administering-power-bi-in-your-organization.md
-        - name: Power BI (gratuito) em sua organização
+        - name: 'Power BI (free) in your organization (Power BI [gratuito] na sua organização)'
           href: service-admin-service-free-in-your-organization.md
-        - name: Comprando o Power BI Pro
+        - name: Purchasing Power BI Pro (Comprar o Power BI Pro)
           href: service-admin-purchasing-power-bi-pro.md
-        - name: Abordagens de governação e implementação do Power BI
+        - name: Power BI governance and deployment approaches (Abordagens de governação e implementação do Power BI)
           href: service-admin-governance.md
-        - name: Segurança do Power BI
+        - name: Power BI security (Segurança do Power BI)
           href: service-admin-power-bi-security.md
-        - name: Inscrever-se no Power BI com uma nova versão de avaliação do Office 365
+        - name: Signing up for Power BI with a new Office 365 Trial (Inscrever-se no Power BI com uma nova Versão de Avaliação do Office 365)
           href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-        - name: Onde está localizado o meu locatário?
+        - name: Where is my tenant located? (Onde está localizado o meu inquilino?)
           href: service-admin-where-is-my-tenant-located.md
-        - name: Power BI e ExpressRoute
+        - name: Power BI and ExpressRoute (Power BI e ExpressRoute)
           href: service-admin-power-bi-expressroute.md
-        - name: Função de administração no Office 365
+        - name: Administration role in Office 365 (Função de administração no Office 365)
           href: service-admin-role.md
-        - name: Portal de Administração
+        - name: Admin portal (Portal de administração)
           href: service-admin-portal.md
-        - name: Auditando o Power BI
+        - name: Auditing Power BI (Auditar o Power BI)
           href: service-admin-auditing.md
-        - name: Utilizar o Azure AD B2B
+        - name: Using Azure AD B2B (Utilizar o Azure AD B2B)
           href: service-admin-azure-ad-b2b.md
-        - name: Encontrar usuários que se conectaram
+        - name: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
           href: service-admin-access-usage.md
-        - name: Segurança de nível de linha com o Power BI
+        - name: Row-level security with Power BI (Segurança de nível de linha com o Power BI)
           href: service-admin-rls.md
-        - name: Gerenciar a capacidade de dados no Power BI
+        - name: Manage your data capacity in Power BI (Gerir a sua capacidade de dados no Power BI)
           href: service-admin-manage-your-data-storage-in-power-bi.md
-        - name: Área de trabalho arquivada do Power BI
+        - name: Power BI archived workspace (Área de trabalho arquivada do Power BI)
           href: service-admin-power-bi-archived-workspace.md
-        - name: Não é possível adicionar o Power BI ao parceiro do O365
+        - name: Unable to add Power BI to O365 partner (Não é possível adicionar o Power BI ao parceiro do Office 365)
           href: service-admin-syndication-partner.md
-        - name: Fechar a sua conta do Power BI
+        - name: Closing your Power BI account (Fechar a sua conta do Power BI)
           href: service-admin-closing-your-account.md
-        - name: Configurar aplicativos móveis com o Intune
+        - name: Configure mobile apps with Intune (Configurar aplicações móveis com o Intune)
           href: service-admin-mobile-intune.md
-        - name: Power BI para Office 365 passou por uma transição para Power BI
+        - name: Power BI for Office 365 is transitioned to Power BI (O Power BI para Office 365 foi transitado para o Power BI)
           href: service-admin-o365portal-retired.md
-    - name: Solução de problemas
+    - name: Troubleshooting (Resolução de problemas)
       items:
-        - name: Esqueceu sua senha para o Power BI?
+        - name: Forgot your password for Power BI? (Esqueceu-se da sua palavra-passe do Power BI?)
           href: service-admin-forgot-your-password.md
-        - name: Capturar informações de diagnóstico adicionais para o Power BI
+        - name: Capturing additional diagnostic information for Power BI (Capturar informações de diagnóstico adicionais para o Power BI)
           href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-        - name: Endereço de e-mail alternativo para o Power BI
+        - name: Alternate email address for Power BI (Endereço de e-mail alternativo para o Power BI)
           href: service-admin-alternate-email-address-for-power-bi.md
-        - name: Como usar o mesmo logon de conta para o Power BI e o Azure
+        - name: How to use the same account login for Power BI and Azure (Como utilizar o mesmo início de sessão de conta para o Power BI e o Azure)
           href: service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 dedicado - problemas conhecidos
+        - name: Office 365 dedicated - known issues (Office 365 dedicado – problemas conhecidos)
           href: service-admin-office-365-dedicated-known-issues.md
-        - name: Resolução de problemas de análise no Excel
+        - name: Troubleshooting analyze in Excel (Resolução de problemas de análise no Excel)
           href: desktop-troubleshooting-analyze-in-excel.md
-        - name: Resolução de problemas do gateway de dados no local
+        - name: Troubleshooting the on-premises data gateway (Resolução de problemas do gateway de dados no local)
           href: service-gateway-onprem-tshoot.md
-        - name: Resolução de problemas do gateway do Power BI - pessoal
+        - name: Troubleshooting Power BI gateway - personal (Resolução de problemas do gateway do Power BI – pessoal)
           href: service-admin-troubleshooting-power-bi-personal-gateway.md
-        - name: Solucionando problemas de fonte de dados sem suporte para atualização
+        - name: Troubleshooting unsupported data source for refresh (Resolução de problemas de origem de dados sem suporte para atualização)
           href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-        - name: Solucionando problemas da atualização agendada para Bancos de Dados SQL do Azure
+        - name: Troubleshooting scheduled refresh for Azure SQL Databases (Resolução de problemas da atualização agendada para Bases de Dados SQL do Azure)
           href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-        - name: 'Erro: não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel'
+        - name: 'Error: We couldn''t find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)'
           href: service-admin-troubleshoot-excel-workbook-data.md
-        - name: Solucionando problemas de erros de bloco
+        - name: Troubleshooting tile errors (Resolução de problemas de erros de mosaico)
           href: refresh-troubleshooting-tile-errors.md
-        - name: Como atualizar suas credenciais do pacote de conteúdo Xero se a atualização tiver falhado
+        - name: How to refresh your Xero content pack credentials if refresh failed (Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização tiver falhado)
           href: service-refresh-xero-credentials.md
 - name: Power BI Desktop
   items:
-    - name: Introdução
+    - name: Get started (Introdução)
       items:
-        - name: Obter o Power BI Desktop
+        - name: Get Power BI Desktop (Obter o Power BI Desktop)
           href: desktop-get-the-desktop.md
-        - name: Introdução ao Power BI Desktop
+        - name: Getting started with Power BI Desktop (Introdução ao Power BI Desktop)
           href: desktop-getting-started.md
-        - name: Novidades na atualização mais recente do Power BI Desktop
+        - name: What's new in the latest Power BI Desktop update? (Novidades na atualização mais recente do Power BI Desktop)
           href: desktop-latest-update.md
-        - name: Vídeos do Power BI Desktop
+        - name: Power BI Desktop videos (Vídeos do Power BI Desktop)
           href: desktop-videos.md
-        - name: Atualizações mensais anteriores do Power BI Desktop
+        - name: Previous monthly updates to Power BI Desktop (Atualizações mensais anteriores do Power BI Desktop)
           href: desktop-latest-update-archive.md
-    - name: Conectar-se a dados
+    - name: Connect to data (Ligar aos dados)
       items:
-        - name: Fontes de dados no Power BI Desktop
+        - name: Data sources in Power BI Desktop (Origens de dados no Power BI Desktop)
           href: desktop-data-sources.md
-        - name: Conectar-se a dados no Power BI Desktop
+        - name: Connect to data in Power BI Desktop (Ligar a dados no Power BI Desktop)
           href: desktop-connect-to-data.md
-        - name: Conectar-se a conjuntos de dados no serviço do Power BI
+        - name: Connect to datasets in the Power BI service (Ligar a conjuntos de dados no serviço Power BI)
           href: desktop-report-lifecycle-datasets.md
-        - name: Importar pastas de trabalho do Excel para o Power BI Desktop
+        - name: Import Excel workbooks into Power BI Desktop (Importar livros do Excel para o Power BI Desktop)
           href: desktop-import-excel-workbooks.md
-        - name: Conectar-se a interfaces genéricas que usam dados
+        - name: Connect to data using generic interfaces (Ligar a interfaces genéricas que utilizam dados)
           href: desktop-connect-using-generic-interfaces.md
-        - name: Conectar a um banco de dados Oracle
+        - name: Connect to an Oracle database (Ligar a uma base de dados Oracle)
           href: desktop-connect-oracle-database.md
-        - name: Executar scripts R no Power BI Desktop
+        - name: Running R scripts in Power BI Desktop (Executar scripts R no Power BI Desktop)
           href: desktop-r-scripts.md
-        - name: Usando o R no Editor de Consultas
+        - name: Using R in Query Editor (Utilizar linguagem R no Editor de Consultas)
           href: desktop-r-in-query-editor.md
-        - name: Usar um IDE R externo com o Power BI
+        - name: Use an external R IDE with Power BI (Utilizar um IDE R externo com o Power BI)
           href: desktop-r-ide.md
-        - name: Pacotes R com suporte
+        - name: Supported R packages (Pacotes R suportados)
           href: service-r-packages-support.md
-        - name: Tipos de dados no Power BI Desktop
+        - name: Data types in Power BI Desktop (Tipos de dados no Power BI Desktop)
           href: desktop-data-types.md
-        - name: Inserir dados diretamente no Power BI Desktop
+        - name: Enter data directly into Power BI Desktop (Introduzir dados diretamente no Power BI Desktop)
           href: desktop-enter-data-directly-into-desktop.md
-        - name: Conectar-se ao Excel no Power BI Desktop
+        - name: Connect to Excel in Power BI Desktop (Ligar ao Excel no Power BI Desktop)
           href: desktop-connect-excel.md
-        - name: Dados multidimensionais do Analysis Services no Power BI Desktop
+        - name: Analysis Services multidimensional data in Power BI Desktop (Dados multidimensionais do Analysis Services no Power BI Desktop)
           href: desktop-ssas-multidimensional.md
-        - name: Conectar-se a arquivos CSV no Power BI Desktop
+        - name: Connect to CSV files in Power BI Desktop (Ligar a ficheiros CSV no Power BI Desktop)
           href: desktop-connect-csv.md
-        - name: Conectar-se ao banco de dados Impala no Power BI Desktop (Visualização)
+        - name: 'Connect to an Impala database in Power BI Desktop (Preview) (Ligar a uma base de dados Impala no Power BI Desktop [Pré-visualização])'
           href: desktop-connect-impala.md
-        - name: Conectar-se ao feed OData no Power BI Desktop
+        - name: Connect to an OData feed in Power BI Desktop (Ligar a um feed OData no Power BI Desktop)
           href: desktop-connect-odata.md
-        - name: Conectar-se ao banco de dados Amazon Redshift no Power BI Desktop (Visualização)
+        - name: 'Connect to an Amazon Redshift database in Power BI Desktop (Preview) (Ligar a uma base de dados Amazon Redshift no Power BI Desktop [Pré-visualização])'
           href: desktop-connect-redshift.md
-        - name: Conectar-se à página da Web do Power BI Desktop
+        - name: Connect to a Web page from Power BI Desktop (Ligar a uma página Web do Power BI Desktop)
           href: desktop-connect-to-web.md
-        - name: Conectar-se a um warehouse de computação Snowflake no Power BI Desktop
+        - name: Connect to a Snowflake computing warehouse in Power BI Desktop (Ligar a um armazém de informática de Snowflake no Power BI Desktop)
           href: desktop-connect-snowflake.md
-        - name: Conecte-se aos dados do Azure Consumption Insights
+        - name: Connect to Azure Consumption Insights data (Ligar a dados de Informações sobre Consumo do Azure)
           href: desktop-connect-azure-consumption-insights.md
-        - name: Usar o SAP HANA no Power BI Desktop
+        - name: Use SAP HANA in Power BI Desktop (Utilizar o SAP HANA no Power BI Desktop)
           href: desktop-sap-hana.md
-        - name: Dados de tabela do Analysis Services no Power BI Desktop
+        - name: Analysis Services tabular data in Power BI Desktop (Dados de tabela do Analysis Services no Power BI Desktop)
           href: desktop-analysis-services-tabular-data.md
-        - name: Usar o DirectQuery no Power BI Desktop
+        - name: Use DirectQuery in Power BI Desktop (Utilizar o DirectQuery no Power BI Desktop)
           href: desktop-use-directquery.md
-        - name: Power BI e DirectQuery
+        - name: Power BI and DirectQuery (Power BI e DirectQuery)
           href: desktop-directquery-about.md
-        - name: Fontes de dados com suporte do DirectQuery
+        - name: Data sources supported by DirectQuery (Origens de dados suportadas pelo DirectQuery)
           href: desktop-directquery-data-sources.md
-        - name: DirectQuery para bancos de dados Oracle e Teradata
+        - name: DirectQuery for Oracle and Teradata databases (DirectQuery para bases de dados Oracle e Teradata)
           href: desktop-directquery-for-oracle-teradata.md
-        - name: DirectQuery e SAP Business Warehouse (BW)
+        - name: 'DirectQuery and SAP Business Warehouse (BW) (DirectQuery e SAP Business Warehouse [BW])'
           href: desktop-directquery-sap-bw.md
-        - name: DirectQuery e SAP HANA
+        - name: DirectQuery and SAP HANA (DirectQuery e SAP HANA)
           href: desktop-directquery-sap-hana.md
-        - name: Supor configuração de integridade referencial no Power BI Desktop
+        - name: Assume referential integrity setting in Power BI Desktop (Assumir a definição de integridade referencial no Power BI Desktop)
           href: desktop-assume-referential-integrity.md
-        - name: 'Tutorial: segurança dinâmica ao nível da linha com o modelo de tabela do Analysis Services'
+        - name: 'Tutorial: Dynamic row level security with Analysis Services tabular model (Tutorial: segurança dinâmica ao nível da linha com o modelo de tabela do Analysis Services)'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: DirectQuery para bancos de dados Oracle e Teradata
+        - name: DirectQuery for Oracle and Teradata databases (DirectQuery para bases de dados Oracle e Teradata)
           href: desktop-directquery-for-oracle-teradata.md
-        - name: Utilizar o conector SAP BW no Power BI Desktop (Pré-visualização)
+        - name: 'Use the SAP BW connector in Power BI Desktop (Preview) (Utilizar o conector SAP BW no Power BI Desktop [Pré-visualização])'
           href: desktop-sap-bw-connector.md
-        - name: Usar links do OneDrive for Business no Power BI Desktop
+        - name: Use OneDrive for Business links in Power BI Desktop (Utilizar ligações do OneDrive para Empresas no Power BI Desktop)
           href: desktop-use-onedrive-business-links.md
-        - name: Pré-requisitos de fonte de dados do Power BI
+        - name: Power BI data source prerequisites (Pré-requisitos de origem de dados do Power BI)
           href: desktop-data-source-prerequisites.md
-        - name: Filtragem cruzada bidirecional no Power BI Desktop (Visualização)
+        - name: 'Bidirectional cross-filtering in Power BI Desktop (Preview) (Filtragem cruzada bidirecional no Power BI Desktop [Pré-visualização])'
           href: desktop-bidirectional-filtering.md
-        - name: Níveis de privacidade do Power BI Desktop
+        - name: Power BI Desktop privacy levels (Níveis de privacidade do Power BI Desktop)
           href: desktop-privacy-levels.md
-        - name: 'Serviço terceirizados: conector do Facebook para o Power BI Desktop'
+        - name: 'Third-party service: Facebook connector for Power BI Desktop (Serviço de terceiros: conector do Facebook para o Power BI Desktop)'
           href: service-facebook-connector.md
-        - name: 'Serviço terceirizados: conector do Google Analytics para Power BI Desktop'
+        - name: 'Third-party service: Google Analytics connector for Power BI Desktop (Serviço de terceiros: conector do Google Analytics para o Power BI Desktop)'
           href: service-google-analytics-connector.md
-        - name: 'Project Online: conectar-se aos dados por meio do Power BI Desktop'
+        - name: 'Project Online: connect to data through Power BI Desktop (Project Online: ligar aos dados a partir do Power BI Desktop)'
           href: desktop-project-online-connect-to-data.md
-    - name: Transformar e formatar dados
+    - name: Transform and shape data (Transformar e formatar dados)
       items:
-        - name: Visão geral de Consulta no Power BI Desktop
+        - name: Query overview in Power BI Desktop (Descrição geral de Consulta no Power BI Desktop)
           href: desktop-query-overview.md
-        - name: Formatar e combinar dados no Power BI Desktop
+        - name: Shape and combine data in Power BI Desktop (Formatar e combinar dados no Power BI Desktop)
           href: desktop-shape-and-combine-data.md
-        - name: Tarefas comuns de consulta no Power BI Desktop
+        - name: Common query tasks in Power BI Desktop (Tarefas comuns de consulta no Power BI Desktop)
           href: desktop-common-query-tasks.md
-        - name: Usar os Mapas de Forma no Power BI Desktop (Visualização)
+        - name: 'Use Shape Maps in Power BI Desktop (Preview) (Utilizar os Mapas de Forma no Power BI Desktop [Pré-visualização])'
           href: desktop-shape-map.md
-        - name: Combinar binários
+        - name: Combine binaries (Combinar binários)
           href: desktop-combine-binaries.md
-    - name: Modelar seus dados
+    - name: Model your data (Modelar os seus dados)
       items:
-        - name: Vista de dados no Power BI Desktop
+        - name: Data view in Power BI Desktop (Vista de dados no Power BI Desktop)
           href: desktop-data-view.md
-        - name: Vista de relações no Power BI Desktop
+        - name: Relationship view in Power BI Desktop (Vista de relações no Power BI Desktop)
           href: desktop-relationship-view.md
-        - name: Criar e gerenciar relações no Power BI Desktop
+        - name: Create and manage relationships in Power BI Desktop (Criar e gerir relações no Power BI Desktop)
           href: desktop-create-and-manage-relationships.md
-        - name: Noções básicas do DAX no Power BI Desktop
+        - name: DAX basics in Power BI Desktop (Noções básicas do DAX no Power BI Desktop)
           href: desktop-quickstart-learn-dax-basics.md
-        - name: Categorização de dados no Power BI Desktop
+        - name: Data categorization in Power BI Desktop (Categorização de dados no Power BI Desktop)
           href: desktop-data-categorization.md
-        - name: Marque um campo do código de barras no Power BI Desktop para os aplicativos móveis do Power BI
+        - name: Tag a barcode field in Power BI Desktop for the Power BI mobile apps (Identificar um campo do código de barras no Power BI Desktop para as aplicações móveis do Power BI)
           href: desktop-mobile-barcodes.md
-        - name: Defina filtragem geográfica no Power BI Desktop para os aplicativos móveis do Power BI
+        - name: Set geographic filtering in Power BI Desktop for the Power BI mobile apps (Definir filtragem geográfica no Power BI Desktop para as aplicações móveis do Power BI)
           href: desktop-mobile-geofiltering.md
-        - name: Colunas calculadas no Power BI Desktop
+        - name: Calculated columns in Power BI Desktop (Colunas calculadas no Power BI Desktop)
           href: desktop-calculated-columns.md
-        - name: Tabelas calculadas no Power BI Desktop
+        - name: Calculated tables in Power BI Desktop (Tabelas calculadas no Power BI Desktop)
           href: desktop-calculated-tables.md
-        - name: Medidas no Power BI Desktop
+        - name: Measures in Power BI Desktop (Medidas no Power BI Desktop)
           href: desktop-measures.md
-        - name: Importar e exibir os KPIs (Visualização)
+        - name: 'Import and display KPIs (Preview) (Importar e apresentar os KPIs [Pré-visualização])'
           href: desktop-import-and-display-kpis.md
-    - name: Criar relatórios
+    - name: Create reports (Criar relatórios)
       items:
-        - name: Vista de relatórios no Power BI Desktop
+        - name: Report view in Power BI Desktop (Vista de relatórios no Power BI Desktop)
           href: desktop-report-view.md
-        - name: Painel Análise no Power BI Desktop
+        - name: Analytics pane in Power BI Desktop (Painel Análise no Power BI Desktop)
           href: desktop-analytics-pane.md
-        - name: Uso de percepções no Power BI Desktop
+        - name: Using insights in Power BI Desktop (Utilizar informações no Power BI Desktop)
           href: desktop-insights.md
-        - name: Indicadores no Power BI
+        - name: Bookmarks in Power BI (Marcadores no Power BI)
           href: desktop-bookmarks.md
-        - name: Utilizar temas de Relatórios
+        - name: Use Report themes (Utilizar temas de Relatórios)
           href: desktop-report-themes.md
-        - name: Utilizar Medidas Rápidas
+        - name: Use Quick Measures (Utilizar Medidas Rápidas)
           href: desktop-quick-measures.md
-        - name: Uso dos parâmetros E Se
+        - name: Using What if parameters (Utilizar parâmetros "E se")
           href: desktop-what-if.md
-        - name: Acessibilidade nos relatórios do Power BI
+        - name: Accessibility in Power BI reports (Acessibilidade nos relatórios do Power BI)
           href: desktop-accessibility.md
-        - name: Usar agrupamento e compartimentalização
+        - name: Use grouping and binning (Utilizar agrupamento e discretização)
           href: desktop-grouping-and-binning.md
-        - name: Gráfico de faixa de opções
+        - name: Ribbon charts (Gráficos de friso)
           href: desktop-ribbon-charts.md
-        - name: Utilizar o novo visual de matriz
+        - name: Use the new matrix visual (Utilizar o novo visual de matriz)
           href: desktop-matrix-visual.md
-        - name: Criar visuais do Power BI usando o R
+        - name: Create Power BI visuals using R (Criar elementos visuais do Power BI através da linguagem R)
           href: desktop-r-visuals.md
-        - name: Usar visuais personalizados da plataforma R
+        - name: Use R-powered custom visuals (Utilizar elementos visuais personalizados baseados em R)
           href: desktop-r-powered-custom-visuals.md
-        - name: Usar linhas de grade e ajustar à grade
+        - name: Use gridlines and snap-to-grid (Utilizar linhas de grelha e ajustar à grelha)
           href: desktop-gridlines-snap-to-grid.md
-        - name: Amostragem da linha de alta densidade
+        - name: High density line sampling (Amostragem da linha de alta densidade)
           href: desktop-high-density-sampling.md
-        - name: Gráficos de dispersão de alta densidade
+        - name: High density scatter charts (Gráficos de dispersão de alta densidade)
           href: desktop-high-density-scatter-charts.md
-        - name: Adicionar uma coluna de um exemplo
+        - name: Add a column from an example (Adicionar uma coluna de um exemplo)
           href: desktop-add-column-from-example.md
-        - name: Adicionar uma coluna personalizada
+        - name: Add a custom column (Adicionar uma coluna personalizada)
           href: desktop-add-custom-column.md
-        - name: Crie elementos visuais responsivos no Power BI
+        - name: Create responsive visuals in Power BI (Criar elementos visuais reativos no Power BI)
           href: desktop-create-responsive-visuals.md
-        - name: Usar rótulos de hierarquia embutido no Power BI Desktop (Preview)
+        - name: 'Use inline heirarchy labels in Power BI Desktop (Preview) (Utilizar etiquetas de hierarquia inline no Power BI Desktop [Pré-visualização])'
           href: desktop-inline-hierarchy-labels.md
-        - name: Usar a segmentação de intervalo numérico
+        - name: Use the numeric range slicer (Utilizar a segmentação de dados do intervalo numérico)
           href: desktop-slicer-numeric-range.md
-        - name: Crie uma segmentação de dados responsiva que pode redimensionar
+        - name: Create a responsive slicer you can resize (Criar uma segmentação de dados reativa que pode redimensionar)
           href: power-bi-slicer-filter-responsive.md
-        - name: Criar cartões de resposta personalizados do Power BI para o Cortana
+        - name: Create custom Power BI answer cards for Cortana (Criar cartões de resposta personalizados do Power BI para a Cortana)
           href: service-cortana-answer-cards.md
-        - name: Segurança em nível de linha
+        - name: Row-level security (Segurança ao nível da linha)
           href: desktop-rls.md
-        - name: Personalizando dicas de ferramentas no Power BI Desktop
+        - name: Customizing tooltips in Power BI Desktop (Personalizar descrições no Power BI Desktop)
           href: desktop-custom-tooltips.md
-        - name: Formatação de tabela condicional no Power BI Desktop
+        - name: Conditional table formatting in Power BI Desktop (Formatação de tabela condicional no Power BI Desktop)
           href: desktop-conditional-table-formatting.md
-        - name: Classificação por coluna no Power BI Desktop
+        - name: Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
           href: desktop-sort-by-column.md
-        - name: Criar relatórios otimizados para os aplicativos de telefone Power BI
+        - name: Create reports optimized for the Power BI phone apps (Criar relatórios otimizados para as aplicações móveis do Power BI)
           href: desktop-create-phone-report.md
-        - name: Publicar por meio do Power BI Desktop
+        - name: Publish from Power BI Desktop (Publicar a partir do Power BI Desktop)
           href: desktop-upload-desktop-files.md
-    - name: Saiba mais
+    - name: Learn more (Saiba mais)
       items:
-        - name: Usar Ver dados e Ver relatórios
+        - name: Use See Data and See Records (Utilizar as funcionalidades Ver Dados e Ver Relatórios)
           href: desktop-see-data-see-records.md
-        - name: 'Tutorial: importando e analisando dados de uma página da Web com o Power BI Desktop'
+        - name: 'Tutorial: Importing and analyzing data from a Web Page using Power BI Desktop (Tutorial: importar e analisar dados de uma página Web com o Power BI Desktop)'
           href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: 'Tutorial: Analisando dados de vendas do Excel e de um feed OData'
+        - name: 'Tutorial: Analyzing sales data from Excel and an OData feed (Tutorial: analisar dados de vendas do Excel e de um feed OData)'
           href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: 'Tutorial: criar suas próprias medidas no Power BI Desktop'
+        - name: 'Tutorial: Create your own measures in Power BI Desktop (Tutorial: criar as suas próprias medidas no Power BI Desktop)'
           href: desktop-tutorial-create-measures.md
-        - name: 'Tutorial: criar colunas calculadas no Power BI Desktop'
+        - name: 'Tutorial: Create calculated columns in Power BI Desktop (Tutorial: criar colunas calculadas no Power BI Desktop)'
           href: desktop-tutorial-create-calculated-columns.md
-        - name: 'Tutorial: análise do Facebook com o Power BI Desktop'
+        - name: 'Tutorial: Facebook analytics using Power BI Desktop (Tutorial: análise do Facebook com o Power BI Desktop)'
           href: desktop-tutorial-facebook-analytics.md
-        - name: Política de privacidade Enviar um Sorriso do Power BI Desktop
+        - name: Power BI Desktop Send a Smile privacy statement (Política de privacidade Enviar um Sorriso do Power BI Desktop)
           href: desktop-send-smile-privacy-statement.md
-    - name: Solução de problemas
+    - name: Troubleshooting (Resolução de problemas)
       items:
-        - name: Resolver problemas de importação de Bases de Dados do Access e de folhas de cálculo do Excel no Power BI Desktop e Power Query
+        - name: Resolve issues importing Access Databases and Excel spreadsheets in Power BI Desktop and Power Query (Resolver problemas de importação de Bases de Dados do Access e de folhas de cálculo do Excel no Power BI Desktop e Power Query)
           href: desktop-access-database-errors.md
-        - name: Resolução de problemas ao iniciar o Power BI Desktop
+        - name: Resolve issues when starting Power BI Desktop (Resolução de problemas ao iniciar o Power BI Desktop)
           href: desktop-error-launching-desktop.md
-- name: Aplicativos Móveis Power BI
+- name: Power BI Mobile Apps (Aplicações Móveis do Power BI)
   items:
-    - name: Introdução
+    - name: Get started (Introdução)
       items:
-        - name: Aplicativos do Power BI para dispositivos móveis
+        - name: Power BI apps for mobile devices (Aplicações do Power BI para dispositivos móveis)
           href: mobile-apps-for-mobile-devices.md
-        - name: Encontre seus painéis e relatórios em um dispositivo móvel
+        - name: Find your dashboards and reports on your mobile device (Localizar os seus dashboards e relatórios no seu dispositivo móvel)
           href: mobile-apps-find-content-mobile-devices.md
-        - name: Novidades em aplicativos móveis para o Power BI
+        - name: What's new in the mobile apps for Power BI (Novidades nas aplicações móveis para o Power BI)
           href: mobile-whats-new-in-the-mobile-apps.md
-    - name: Todas as aplicações móveis
+    - name: All mobile apps (Todas as aplicações móveis)
       items:
-        - name: Aplicativos Power BI para iOS
+        - name: Power BI for iOS apps (Aplicações do Power BI para iOS)
           href: mobile-ios-ipad-iphone-apps.md
-        - name: Exibir relatórios locais e KPIs nos aplicativos móveis do Power BI
+        - name: View on-premises reports and KPIs in the Power BI mobile apps (Ver KPIs e relatórios no local nas aplicações móveis do Power BI)
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-        - name: Painéis do Power BI móvel
+        - name: Dashboards for mobile Power BI (Dashboards do Power BI móvel)
           href: mobile-apps-view-dashboard.md
-        - name: Relatórios nos aplicativos móveis do Power BI
+        - name: Reports in the Power BI mobile apps (Relatórios nas aplicações móveis do Power BI)
           href: mobile-reports-in-the-mobile-apps.md
-        - name: Interagir com blocos nos aplicativos móveis
+        - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
           href: mobile-tiles-in-the-mobile-apps.md
-        - name: Compartilhar um dashboard dos aplicativos móveis do Power BI
+        - name: Share a dashboard from the Power BI mobile apps (Partilhar um dashboard a partir das aplicações móveis do Power BI)
           href: mobile-share-dashboard-from-the-mobile-apps.md
-        - name: Itens favoritos nos aplicativos móveis do Power BI
+        - name: Favorite items in the Power BI mobile apps (Adicionar itens aos favoritos nas aplicações móveis do Power BI)
           href: mobile-apps-favorites.md
-        - name: Obtenha dados do Power BI do mundo real com os aplicativos móveis
+        - name: Get Power BI data from the real world with the mobile apps (Obter dados do Power BI do mundo real com as aplicações móveis)
           href: mobile-apps-data-in-real-world-context.md
-        - name: Digitalizar um código QR do Power BI do seu telefone
+        - name: Scan a Power BI QR code from your phone (Digitalizar um código QR do Power BI a partir do seu telemóvel)
           href: mobile-apps-qr-code.md
-        - name: Obter notificações nos aplicativos móveis do Power BI
+        - name: Get notifications in the Power BI mobile apps (Obter notificações nas aplicações móveis do Power BI)
           href: mobile-apps-notification-center.md
-        - name: 'Anotar e partilhar um mosaico, relatório ou elemento visual nas aplicações móveis'
+        - name: 'Annotate and share a tile, report, or visual in the mobile apps (Anotar e partilhar um mosaico, relatório ou elemento visual nas aplicações móveis)'
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-        - name: Definir alertas de dados nos aplicativos móveis do Power BI
+        - name: Set data alerts in the Power BI mobile apps (Definir alertas de dados nas aplicações móveis do Power BI)
           href: mobile-set-data-alerts-in-the-mobile-apps.md
-        - name: Filtrar um relatório pela localização nos aplicativos móveis do Power BI
+        - name: Filter a report by location in the Power BI mobile apps (Filtrar um relatório pela localização nas aplicações móveis do Power BI)
           href: mobile-apps-geographic-filtering.md
-        - name: Fazer perguntas sobre seus dados nos aplicativos móveis iOS (Tutorial)
+        - name: 'Ask questions about your data in the iOS mobile apps (Tutorial) (Fazer perguntas sobre os seus dados nas aplicações móveis para iOS [Tutorial])'
           href: mobile-apps-ios-qna.md
-        - name: Criar um link profundo que vai a determinada localização
+        - name: Create a deep link that goes to a specific location (Criar uma ligação avançada que direciona para uma determinada localização)
           href: mobile-apps-deep-link-specific-location.md
-        - name: Exibir os dados offline em aplicativos móveis do Power BI
+        - name: View your data offline in the Power BI mobile apps (Ver os seus dados offline nas aplicações móveis do Power BI)
           href: mobile-apps-offline-data.md
-        - name: Exibir e interagir com relatórios Power BI otimizados para seu telefone
+        - name: View and interact with Power BI reports optimized for your phone (Ver e interagir com relatórios do Power BI otimizados para o seu telemóvel)
           href: mobile-apps-view-phone-report.md
-        - name: Configurar aplicativos móveis com o Intune
+        - name: Configure mobile apps with Intune (Configurar aplicações móveis com o Intune)
           href: service-admin-mobile-intune.md
-        - name: Usando o OAuth para conexão com o Reporting Services
+        - name: Using OAuth to connect to Reporting Services (Utilizar o OAuth para ligar ao Reporting Services)
           href: mobile-oauth-ssrs.md
-        - name: Idiomas com suporte nos aplicativos móveis do Power BI
+        - name: Supported languages in the Power BI mobile apps (Idiomas suportados nas aplicações móveis do Power BI)
           href: mobile-apps-supported-languages.md
-    - name: Aplicativo para iPad (Power BI para iOS)
+    - name: 'iPad app (Power BI for iOS) (Aplicação para iPad [Power BI para iOS])'
       items:
-        - name: Introdução ao aplicativo do iPad
+        - name: Get started with the iPad app (Introdução à aplicação para iPad)
           href: mobile-ipad-app-get-started.md
-    - name: Aplicativo para iPhone (Power BI para iOS)
+    - name: 'iPhone app (Power BI for iOS) (Aplicação para iPhone [Power BI para iOS])'
       items:
-        - name: Introdução ao aplicativo Power BI para iOS em um iPhone
+        - name: Get started with the Power BI for iOS app on an iPhone (Introdução à aplicação Power BI para iOS num iPhone)
           href: mobile-iphone-app-get-started.md
-        - name: Aplicativo Power BI Apple Watch
+        - name: Power BI Apple Watch app (Aplicação Power BI no Apple Watch)
           href: mobile-apple-watch.md
-        - name: Digitalize um código de barras do aplicativo Power BI em seu iPhone
+        - name: Scan a barcode from the Power BI app on your iPhone (Digitalizar um código de barras da aplicação Power BI no seu iPhone)
           href: mobile-apps-scan-barcode-iphone.md
-    - name: Aplicativo Power BI para telefones Android
+    - name: Power BI app for Android phones (Aplicação Power BI para telemóveis Android)
       items:
-        - name: Introdução ao Power BI para aplicativo Android
+        - name: Get started with the Power BI for Android app (Introdução à aplicação Power BI para Android)
           href: mobile-android-app-get-started.md
-        - name: Corrigindo ‘o certificado SSL corporativo não é confiável’
+        - name: Fixing 'your corporate SSL certificate is untrusted' (Corrigir o erro "o certificado SSL empresarial não é fidedigno")
           href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-    - name: Aplicativo do Power BI para tablets Android
+    - name: Power BI app for Android tablets (Aplicação Power BI para tablets Android)
       items:
-        - name: Introdução ao aplicativo do Power BI para tablet Android
+        - name: Get started with the Power BI for Android tablet app (Introdução à aplicação Power BI para tablet Android)
           href: mobile-android-tablet-app-get-started.md
-    - name: Aplicativo Power BI para dispositivos Windows 10
+    - name: Power BI app for Windows 10 devices (Aplicação Power BI para dispositivos Windows 10)
       items:
-        - name: Introdução ao aplicativo móvel do Power BI para Windows 10
+        - name: Get started with the Power BI mobile app for Windows 10 (Introdução à aplicação móvel Power BI para Windows 10)
           href: mobile-windows-10-phone-app-get-started.md
-        - name: Exibir relatórios móveis e KPIs do Reporting Services no aplicativo móvel Power BI para Windows 10
+        - name: View Reporting Services mobile reports and KPIs on the Power BI mobile app for Windows 10 (Ver KPIs e relatórios móveis do Reporting Services na aplicação móvel Power BI para Windows 10)
           href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-        - name: Fixar um bloco ou dashboard do Power BI na tela inicial
+        - name: Pin a Power BI tile or dashboard to the Start screen (Afixar um mosaico ou dashboard do Power BI ao ecrã inicial)
           href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-        - name: Exibir o Power BI no modo de apresentação no Surface Hub
+        - name: View Power BI in presentation mode on Surface Hub (Ver o Power BI no modo de apresentação no Surface Hub)
           href: mobile-windows-10-app-presentation-mode.md
-        - name: Compartilhar um bloco do aplicativo móvel Power BI para Windows 10
+        - name: Share a tile from the Power BI mobile app for Windows 10 (Partilhar um mosaico da aplicação móvel Power BI para Windows 10)
           href: mobile-share-tile-windows-10-phone-app.md
-- name: Desenvolvedores do Power BI
+- name: Power BI Developer (Programador do Power BI)
   items:
-    - name: Visão geral
+    - name: Overview (Descrição geral)
       items:
-        - name: O que os desenvolvedores podem fazer com o Power BI?
+        - name: What can developers do with Power BI? (O que podem os programadores fazer com o Power BI?)
           href: developer/what-can-you-do.md
-        - name: O que posso fazer com a API do Power BI?
+        - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
           href: developer/overview-of-power-bi-rest-api.md
-    - name: Inserção
+    - name: Embedding (Incorporação)
       items:
-        - name: Inserção com o Power BI
+        - name: Embedding with Power BI (Incorporação com o Power BI)
           href: developer/embedding.md
-        - name: Como inserir seu conteúdo
+        - name: How to embed your content (Como incorporar os seus conteúdos)
           href: developer/embedding-content.md
-        - name: Como migrar o Power BI Embedded
+        - name: How to migrate Power BI Embedded (Como migrar o Power BI Embedded)
           href: developer/migrate-from-powerbi-embedded.md
-        - name: Integrar um dashboard em um aplicativo (usuário possui dados)
+        - name: 'Integrate a dashboard into an app (user owns data) (Integrar um dashboard numa aplicação [os dados são do utilizador])'
           href: developer/integrate-dashboard.md
-        - name: Integrar um bloco do Power BI em um aplicativo (usuário possui dados)
+        - name: 'Integrate a Power BI tile into an app (user owns data) (Integrar um mosaico do Power BI numa aplicação [os dados são do utilizador])'
           href: developer/integrate-tile.md
-        - name: Integrar um relatório do Power BI em um aplicativo (usuário possui dados)
+        - name: 'Integrate a Power BI report into an app (user owns data) (Integrar um relatório do Power BI numa aplicação [os dados são do utilizador])'
           href: developer/integrate-report.md
-        - name: Integrar um conteúdo em um aplicativo (aplicativo possui dados)
+        - name: 'Integrate a content into your application (app owns data) (Integrar conteúdos na sua aplicação [os dados são da aplicação])'
           href: developer/embed-sample-for-customers.md
-        - name: Crie um locatário do Azure Active Directory
+        - name: Create an Azure Active Directory tenant (Criar um inquilino do Azure Active Directory)
           href: developer/create-an-azure-active-directory-tenant.md
-        - name: Registrar um aplicativo
+        - name: Register an application (Registar uma aplicação)
           href: developer/register-app.md
-        - name: Autenticar no serviço do Power BI
+        - name: Authenticate to Power BI service (Autenticar no serviço Power BI)
           href: developer/get-azuread-access-token.md
-        - name: Permissões do Power BI
+        - name: Power BI permissions (Permissões do Power BI)
           href: developer/power-bi-permissions.md
-        - name: Segurança ao nível da linha (RLS)
+        - name: 'Row-level security (RLS) (Segurança ao nível da linha [RLS])'
           href: developer/embedded-row-level-security.md
-        - name: Incorporação de P e R
+        - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
           href: developer/qanda.md
-        - name: Ferramenta de migração Power BI Embedded
+        - name: Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
           href: developer/migrate-tool.md
-        - name: Trechos de código de migração
+        - name: Migration code snippets (Fragmentos de código de migração)
           href: developer/migrate-code-snippets.md
-        - name: Resolução de problemas de aplicações incorporadas
+        - name: Troubleshooting your embedded application (Resolução de problemas de aplicações incorporadas)
           href: developer/embedded-troubleshoot.md
-        - name: PERGUNTAS FREQUENTES
+        - name: FAQ
           href: developer/embedded-faq.md
-    - name: Criar um visual personalizado
+    - name: Create a custom visual (Criar um elemento visual personalizado)
       items:
-        - name: Criar um visual personalizado com as Ferramentas de Desenvolvedor
+        - name: Create a custom visual with the Developer Tools (Criar um elemento visual personalizado com as Ferramentas de Programação)
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Examinar a segurança e a privacidade dos visuais personalizados
+        - name: Review custom visuals for security and privacy (Rever a segurança e a privacidade dos elementos visuais personalizados)
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: Obter um visual personalizado certificado
+        - name: Get a custom visual certified (Obter um elemento visual personalizado certificado)
           href: power-bi-custom-visuals-certified.md
-    - name: Enviar dados por push a um painel
+    - name: Push data into a dashboard (Enviar dados por push para um dashboard)
       items:
-        - name: Enviar dados por push a um painel
+        - name: Push data into a dashboard (Enviar dados por push para um dashboard)
           href: developer/walkthrough-push-data.md
-        - name: Registrar um aplicativo com o Azure AD
+        - name: Register an app with Azure AD (Registar uma aplicação com o Azure AD)
           href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-        - name: Obter um token de acesso de autenticação
+        - name: Get an authentication access token (Obter um token de acesso de autenticação)
           href: developer/walkthrough-push-data-get-token.md
-        - name: Criar um conjunto de dados
+        - name: Create a dataset (Criar um conjunto de dados)
           href: developer/walkthrough-push-data-create-dataset.md
-        - name: Obter um conjunto de dados para adicionar linhas
+        - name: Get a dataset to add rows (Obter um conjunto de dados para adicionar linhas)
           href: developer/walkthrough-push-data-get-datasets.md
-        - name: Adicionar linhas a uma tabela
+        - name: Add rows to a table (Adicionar linhas a uma tabela)
           href: developer/walkthrough-push-data-add-rows.md
-        - name: Listagem de código completo
+        - name: Complete code listing (Listagem de código completo)
           href: developer/walkthrough-push-data-complete-code.md
-    - name: Certificação do Pacote de Conteúdo
+    - name: Content Pack Certification (Certificação do Pacote de Conteúdos)
       items:
-        - name: Programa de Certificação do Pacote de Conteúdo
+        - name: Content Pack Certification Program (Programa de Certificação do Pacote de Conteúdos)
           href: developer/service-content-pack-overview.md
-        - name: Criação do Pacote de Conteúdos de Modelo
+        - name: Template Content Pack authoring (Criação do Pacote de Conteúdos de Modelo)
           href: developer/template-content-pack-authoring.md
-        - name: Teste do Pacote de Conteúdos de Modelo
+        - name: Template Content Pack testing (Teste do Pacote de Conteúdos de Modelo)
           href: developer/template-content-pack-testing.md
-        - name: Experiências do Pacote de Conteúdos de Modelo
+        - name: Template Content Pack experiences (Experiências do Pacote de Conteúdos de Modelo)
           href: developer/template-content-pack-experience.md
-    - name: Referências
+    - name: References (Referências)
       items:
-        - name: APIs REST
+        - name: REST APIs (APIs REST)
           href: developer/rest-api-reference.md
-        - name: 'Repositório Git C# do Power BI'
+        - name: 'Power BI C# Git Repo (Repositório Git C# do Power BI)'
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: Download do SDK do .NET
+        - name: .NET SDK Download (Transferência do SDK do .NET)
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: Repositório Git do JavaScript
+        - name: JavaScript Git Repo (Repositório Git do JavaScript)
           href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: Repositório Git de Visuais Personalizados
+        - name: Custom Visuals Git Repo (Repositório Git de Elementos Visuais Personalizados)
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: Recursos
+    - name: Resources (Recursos)
       items:
         - name: Apiary
           href: 'https://go.microsoft.com/fwlink/?linkid=848278'
-        - name: Demonstração inserida do JavaScript
+        - name: JavaScript embed demo (Demonstração incorporada do JavaScript)
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Exemplos
+        - name: Samples (Exemplos)
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Comunidade do Power BI
+        - name: Power BI community (Comunidade do Power BI)
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Stack Overflow
+        - name: Stack Overflow (Capacidade de Pilha Excedida)
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-- name: Servidor de Relatório do Power BI
+- name: Power BI Report Server
   items:
-    - name: Visão geral
+    - name: Overview (Descrição geral)
       items:
-        - name: Introdução
+        - name: Get started (Introdução)
           href: report-server/get-started.md
-        - name: Novidades
+        - name: What's new (Novidades)
           href: report-server/whats-new.md
-        - name: Notas de liberação
+        - name: Release notes (Notas de versão)
           href: report-server/release-notes.md
-        - name: Log de alterações
+        - name: Change log (Registo de alterações)
           href: report-server/changelog.md
-        - name: Linha do tempo de suporte
+        - name: Support timeline (Linha cronológica de suporte)
           href: report-server/support-timeline.md
-    - name: Manual do usuário
+    - name: User handbook (Manual do utilizador)
       items:
-        - name: Visão geral
+        - name: Overview (Descrição geral)
           href: report-server/user-handbook-overview.md
-        - name: Navegando conteúdo
+        - name: Navigating content (Navegar em conteúdos)
           href: report-server/getting-around.md
-        - name: 'Início rápido: relatórios do Power BI'
+        - name: 'Quickstart: Power BI reports (Início rápido: relatórios do Power BI)'
           href: report-server/quickstart-create-powerbi-report.md
-        - name: 'Início rápido: relatórios paginados'
+        - name: 'Quickstart: Paginated reports (Início rápido: relatórios paginados)'
           href: report-server/quickstart-create-paginated-report.md
-        - name: Relatórios do Power BI avançados
+        - name: Advanced Power BI reports (Relatórios do Power BI avançados)
           href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-        - name: Atualização agendada de relatório do Power BI
+        - name: Power BI report scheduled refresh (Atualização agendada de relatório do Power BI)
           href: report-server/scheduled-refresh.md
-        - name: Relatórios paginados avançados
+        - name: Advanced paginated reports (Relatórios paginados avançados)
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
-        - name: Trabalhando com KPIs
+        - name: Working with KPIs (Trabalhar com KPIs)
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Fontes de dados para as quais há suporte
+        - name: Supported data sources (Origens de dados suportadas)
           href: report-server/data-sources.md
-        - name: Conectar-se a fontes de dados
+        - name: Connect to data sources (Ligar a origens de dados)
           href: report-server/connect-data-sources.md
-        - name: Configurar a atualização agendada
+        - name: Configure scheduled refresh (Configurar a atualização agendada)
           href: report-server/configure-scheduled-refresh.md
-        - name: Adicionar comentários a um relatório
+        - name: Add comments to a report (Adicionar comentários a um relatório)
           href: report-server/add-comments.md
-        - name: Assinaturas
+        - name: Subscriptions (Subscrições)
           href: 'https://go.microsoft.com/fwlink/?linkid=851310'
-        - name: Utilizar a aplicação móvel
+        - name: Using the mobile app (Utilizar a aplicação móvel)
           href: 'https://go.microsoft.com/fwlink/?linkid=848711'
-        - name: 'Início rápido: relatórios inseridos'
+        - name: 'Quickstart: Embed reports (Início rápido: incorporar relatórios)'
           href: report-server/quickstart-embed.md
-        - name: Solucionar problemas da atualização agendada
+        - name: Troubleshoot scheduled refresh (Resolução de problemas da atualização agendada)
           href: report-server/scheduled-refresh-troubleshoot.md
-    - name: Manual do administrador
+    - name: Administrator handbook (Manual do administrador)
       items:
-        - name: Visão geral
+        - name: Overview (Descrição geral)
           href: report-server/admin-handbook-overview.md
-        - name: Requisitos de software e hardware
+        - name: Hardware and software requirements (Requisitos de software e hardware)
           href: report-server/system-requirements.md
-        - name: Localizar a chave do produto
+        - name: Find your product key (Localizar a sua chave de produto)
           href: report-server/find-product-key.md
-        - name: 'Início rápido: instalação'
+        - name: 'Quickstart: Install (Início rápido: instalação)'
           href: report-server/quickstart-install-report-server.md
-        - name: Instalar um servidor de relatório
+        - name: Install a report server (Instalar um servidor de relatórios)
           href: report-server/install-report-server.md
-        - name: Instalar o Power BI Desktop
+        - name: Install Power BI Desktop (Instalar o Power BI Desktop)
           href: report-server/install-powerbi-desktop.md
-        - name: Atualizar um servidor de relatório
+        - name: Upgrade a report server (Atualizar um servidor de relatórios)
           href: report-server/upgrade.md
-        - name: Migrar um servidor de relatório
+        - name: Migrate a report server (Migrar um servidor de relatórios)
           href: report-server/migrate-report-server.md
-        - name: Suporte do navegador
+        - name: Browser support (Suporte do browser)
           href: report-server/browser-support.md
-        - name: Configure o Kerberos para usar relatórios do Power BI
+        - name: Configure Kerberos to use Power BI reports (Configurar o Kerberos para utilizar relatórios do Power BI)
           href: report-server/configure-kerberos-powerbi-reports.md
-        - name: White paper sobre planejamento de capacidade
+        - name: Capacity planning whitepaper (Documentos técnico sobre planeamento de capacidade)
           href: report-server/capacity-planning.md
-        - name: Hospedar pastas de trabalho do Excel
+        - name: Host Excel workbooks (Alojar livros do Excel)
           href: report-server/excel-oos.md
-    - name: Manual do desenvolvedor
+    - name: Developer handbook (Manual do programador)
       items:
-        - name: Visão geral
+        - name: Overview (Descrição geral)
           href: report-server/developer-handbook-overview.md
-        - name: Controlo do Report Viewer
+        - name: Report Viewer control (Controlo do Report Viewer)
           href: 'https://go.microsoft.com/fwlink/?linkid=848724'
-        - name: Desenvolver extensões
+        - name: Develop extensions (Desenvolver extensões)
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
-        - name: 'Início rápido: relatórios inseridos'
+        - name: 'Quickstart: Embed reports (Início rápido: incorporar relatórios)'
           href: report-server/quickstart-embed.md
-    - name: Referência
+    - name: Reference (Referência)
       items:
-        - name: API REST
+        - name: REST API (API REST)
           href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
-        - name: APIs do SOAP
+        - name: SOAP APIs (APIs do SOAP)
           href: 'https://go.microsoft.com/fwlink/?linkid=848721'
-        - name: Acesso da URL
+        - name: URL Access (Acesso por URL)
           href: 'https://go.microsoft.com/fwlink/?linkid=848722'
-        - name: Extensões
+        - name: Extensions (Extensões)
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
-- name: Recursos
+- name: Resources (Recursos)
   items:
-    - name: Vídeos do Power BI
+    - name: Power BI videos (Vídeos do Power BI)
       href: videos.md
-    - name: Webinars do Power BI
+    - name: Power BI webinars (Webinars do Power BI)
       href: webinars.md
-    - name: White papers
+    - name: Whitepapers (Documentos técnicos)
       href: whitepapers.md

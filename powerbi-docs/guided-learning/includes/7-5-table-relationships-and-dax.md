@@ -7,11 +7,11 @@ A DAX tem **funções relacionais** que lhe permitem interagir com as tabelas qu
 
 Pode devolver o valor de uma coluna ou pode devolver todas as linhas numa relação através das funções da DAX.
 
-Por exemplo, a função **TABELA** segue relações e devolve o valor de uma coluna, enquanto **RELATEDTABLE** segue relações e devolve uma tabela completa que é filtrada para incluir apenas linhas relacionadas.
+Por exemplo, a função **TABLE** segue relações e devolve o valor de uma coluna, enquanto **RELATEDTABLE** segue relações e devolve uma tabela completa que é filtrada para incluir apenas linhas relacionadas.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 
-A função **RELACIONADO** funciona em relações *muitos-para-um*, enquanto a função **RELATEDTABLE** destina-se a relações *um-para-muitos*.
+A função **RELATED** funciona em relações *muitos-para-um*, enquanto a função **RELATEDTABLE** destina-se a relações *um-para-muitos*.
 
 Pode utilizar funções relacionais para criar expressões que incluem valores em várias tabelas. A DAX irá devolver um resultado com estas funções, independentemente do comprimento da cadeia da relação.
 

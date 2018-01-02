@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
 É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas antes de poderem ligar à sua origem de dados no local, é necessário instalar e configurar um gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
 
-A instalação e configuração de um gateway geralmente são feitas por um administrador. Pode requerer conhecimento especial dos seus servidores no local e, em alguns casos, pode exigir permissões de Administrador do Servidor.
+Normalmente, a instalação e configuração de um gateway é feita por um administrador. Pode requerer conhecimento especial dos seus servidores no local e, em alguns casos, pode exigir permissões de Administrador do Servidor.
 
-Este artigo não fornece orientações passo a passo sobre como instalar e configurar o gateway. Para tal, veja [Gateway de dados no local](service-gateway-onprem.md). Este artigo destina-se a fornecer uma compreensão detalhada de como o gateway funciona. Vamos ainda aprofundar os nomes de utilizador e a segurança no Azure Active Directory e no Analysis Services, e como o serviço cloud utiliza o endereço de e-mail de um utilizador que iniciou sessão, o gateway e o Active Directory para ligar e consultar em segurança os seus dados no local.
+Este artigo não fornece instruções passo-a-passo sobre como instalar e configurar um gateway. Para tal, veja [Gateway de dados no local](service-gateway-onprem.md). Este artigo serve para lhe fornecer um conhecimento aprofundado sobre a forma como o gateway funciona. Vamos ainda aprofundar os nomes de utilizador e a segurança no Azure Active Directory e no Analysis Services, e como o serviço cloud utiliza o endereço de e-mail de um utilizador que iniciou sessão, o gateway e o Active Directory para ligar e consultar em segurança os seus dados no local.
 
 <!-- Shared Requirements Include -->
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]
@@ -47,17 +47,17 @@ Sempre que um utilizador interage com o Analysis Services, o nome de utilizador 
 
 O Analysis Services também pode fornecer a filtragem com base nesta conta. A filtragem pode ocorrer com segurança baseada em funções ou segurança ao nível da linha.
 
-## <a name="role-based-security"></a>Segurança baseada em função
-Modelos fornecem segurança baseada em funções de usuário. Funções são definidas para um projeto de modelo específico durante a criação no SSDT-BI (SQL Server Data Tools – Business Intelligence), ou depois que um modelo é implantado usando o SSMS (SQL Server Management Studio). As funções contêm membros organizados por nome de usuário do Windows ou por grupo do Windows. As funções definem as permissões de que um usuário dispõe para consultar ou executar ações no modelo. A maioria dos usuários pertencerão a uma função com permissões de Leitura. Outras funções são destinadas a administradores com permissões para processar itens e gerenciar funções, tanto de banco de dados quanto de outros tipos.
+## <a name="role-based-security"></a>Segurança baseada em funções
+Os modelos fornecem uma segurança baseada nas funções de utilizadores. As funções são definidas para um determinado projeto modelo durante a criação de conteúdos no SQL Server Data Tools – Business Intelligence (SSDT-BI) ou após a implementação de um modelo com o SQL Server Management Studio (SSMS). As funções contêm membros por nome de utilizador do Windows ou grupo do Windows. As funções definem as permissões que um utilizador tem para consultar ou realizar ações no modelo. A maioria dos utilizadores irá pertencer a uma função com permissões de Leitura. As outras funções são destinadas a administradores com permissões para processar itens, gerir bases de dados e gerir outras funções.
 
-## <a name="row-level-security"></a>Segurança em nível de linha
-A segurança ao nível da linha é específica do Analysis Services. Os modelos podem fornecem segurança dinâmica no nível de linha. Em vez de ter pelo menos uma função à qual os usuários pertencem, a segurança dinâmica não é requerida para nenhum modelo de tabela. Num nível elevado, a segurança dinâmica define o acesso de leitura de um utilizador aos dados diretamente para uma linha específica numa determinada tabela. De modo similar ao que ocorre nas funções, a segurança dinâmica no nível de linha depende de um nome de usuário do Windows.
+## <a name="row-level-security"></a>Segurança ao nível da linha
+A segurança ao nível da linha é específica do Analysis Services. Os modelos podem fornecer uma segurança dinâmica ao nível da linha. A segurança dinâmica não é necessária num modelo tabular, ao contrário do que acontece quando existe pelo menos uma função à qual os utilizadores pertencem. Num nível elevado, a segurança dinâmica define o acesso de leitura de um utilizador aos dados diretamente para uma linha específica numa determinada tabela. De forma semelhante às funções, a segurança ao nível da linha depende do nome de utilizador do Windows de um utilizador.
 
 A capacidade de um utilizador consultar e ver dados de modelo é determinada, primeiro, pelas funções das quais a conta de utilizador do Windows é membro e, em segundo lugar, pela segurança ao nível da linha dinâmica, se estiver configurada.
 
 A implementação de segurança baseada em funções e a segurança ao nível da linha dinâmica em modelos ultrapassa o âmbito deste artigo.  Pode saver mais em [Funções (SSAS Tabular)](https://msdn.microsoft.com/library/hh213165.aspx) e [Funções de Segurança (Analysis Services - Dados Multidimensionais)](https://msdn.microsoft.com/library/ms174840.aspx) no MSDN. Além disso, para obter uma compreensão mais detalhada da segurança do modelo de tabela, transfira e leia o documento técnico [Proteger o Modelo Semântico Tabular do BI](https://msdn.microsoft.com/library/jj127437.aspx).
 
-## <a name="what-about-azure-active-directory"></a>E quanto ao Azure Active Directory?
+## <a name="what-about-azure-active-directory"></a>E o Azure Active Directory?
 Os serviços cloud da Microsoft utilizam o [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) para lidar com os utilizadores que estão a efetuar a autenticação. O Azure Active Directory é o inquilino que contém nomes de utilizador e grupos de segurança. Normalmente, o endereço de e-mail de início de sessão de um utilizador é o mesmo que o UPN da conta.
 
 Qual é a minha função local do Active Directory?
@@ -76,7 +76,7 @@ O resultado será semelhante a um endereço de e-mail, mas trata-se do UPN que e
 ## <a name="mapping-usernames-for-analysis-services-data-sources"></a>Mapeamento de nomes de utilizador para origens de dados do Analysis Services
 O Power BI permite o mapeamento de nomes de utilizador para origens de dados do Analysis Services. Pode configurar regras para mapear um nome de utilizador com sessão iniciada no Power BI para um nome transmitido para o EffectiveUserName na ligação do Analysis Services. A funcionalidade de mapeamento nomes de utilizador é uma excelente forma de contornar o problema quando o seu nome de utilizador no AAD não corresponde a um UPN no Active Directory local. Por exemplo, se o seu endereço de e-mail for nancy@contoso.onmicrsoft.com, pode mapeá-lo para nancy@contoso.com, e esse valor será transmitido ao gateway. Pode saber mais sobre como [mapear nomes de utilizador](service-gateway-enterprise-manage-ssas.md#map-user-names).
 
-## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>Sincronizar um Active Directory local com o Azure Active Directory
+## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>Sincronizar uma conta do Active Directory no local com o Azure Active Directory
 As contas do Active Directory local devem corresponder ao Azure Active Directory se utilizar ligações em direto do Analysis Services. Tal como o UPN tem de corresponder entre as contas.
 
 Os serviços cloud apenas conhecem as contas no Azure Active Directory. É irrelevante se adicionou uma conta no Active Directory local; se esta não existir no AAD, não pode ser utilizada. Existem várias formas de corresponder as contas do Active Directory local ao Azure Active Directory.
@@ -98,12 +98,12 @@ A utilização do Azure AD Connect assegura que o UPN terá correspondência ent
 > 
 > 
 
-## <a name="now-this-is-where-the-gateway-comes-in"></a>Agora, é aqui que entra o gateway
+## <a name="now-this-is-where-the-gateway-comes-in"></a>É aqui que entra o gateway
 O gateway funciona como uma ponte entre a cloud e o servidor no local. A transferência de dados entre a cloud e o gateway é protegida pelo [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/). O Service Bus cria um canal seguro entre a cloud e o servidor no local através de uma ligação de saída no gateway.  Não existem ligações de entrada que tenha de abrir na firewall no local.
 
-Se você tiver uma fonte de dados do Analysis Services, você precisará instalar o gateway em um computador associado ao mesmo domínio/floresta que o servidor do Analysis Services.
+Se tiver uma origem de dados do Analysis Services, terá de instalar o gateway num computador associado ao mesmo domínio que o seu servidor do Analysis Services.
 
-Quanto mais próximo o gateway está do servidor, mais rápida será a conexão. Se você pode obter o gateway no mesmo servidor que a fonte de dados, isso é melhor para evitar a latência da rede entre o gateway e o servidor.
+Quanto mais próximo o gateway estiver do servidor, mais rápida será a ligação. Se conseguir colocar o gateway no mesmo servidor que a origem de dados, será a melhor opção para evitar a latência de rede entre o gateway e o servidor.
 
 ## <a name="what-to-do-next"></a>O que fazer a seguir?
 Depois de instalar o gateway, tem de criar origens de dados para o mesmo. Pode adicionar origens de dados no ecrã **Gerir gateways**. Para obter mais informações, veja os artigos para gerir origens de dados.
@@ -114,17 +114,17 @@ Depois de instalar o gateway, tem de criar origens de dados para o mesmo. Pode a
 [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
 [Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-## <a name="where-things-can-go-wrong"></a>O que pode dar errado
-Às vezes, a instalação do gateway falha. Ou talvez a instalação do gateway pareça correr sem problemas, mas o serviço ainda não consegue trabalhar com o mesmo. Em muitos casos, é algo simples, como a senha para as credenciais que o gateway usa para entrar na fonte de dados.
+## <a name="where-things-can-go-wrong"></a>O que pode correr mal
+Por vezes, poderão ocorrer falhas ao instalar o gateway. Ou talvez a instalação do gateway pareça correr sem problemas, mas o serviço ainda não consegue trabalhar com o mesmo. Em muitos casos, é algo simples, como a palavra-passe das credenciais que o gateway utiliza para iniciar sessão na origem de dados.
 
-Em outros casos, pode haver problemas com o tipo de endereço de email com que os usuários se autenticam, ou com ou incapacidade do Analysis Services de resolver um nome de usuário efetivo. Se tem vários domínios com relações de confiança entre eles e o gateway estiver num e o Analysis Services noutro, isto pode por vezes causar alguns problemas.
+Noutros casos, poderão existir problemas com o tipo de endereço de e-mail com que os utilizadores iniciam sessão ou o Analysis Services pode não conseguir resolver um nome de utilizador efetivo. Se tem vários domínios com relações de confiança entre eles e o gateway estiver num e o Analysis Services noutro, isto pode por vezes causar alguns problemas.
 
-Em vez de explorar a resolução de problemas do gateway aqui, apresentamos uma série de passos de resolução de problemas noutro artigo: [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md). Esperamos que não tenha nenhum problema. Mas se acontecer, um entendimento de como tudo isso funciona e o artigo de solução de problemas devem ajudar.
+Em vez de explorar a resolução de problemas do gateway aqui, apresentamos uma série de passos de resolução de problemas noutro artigo: [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md). Esperamos que não tenha nenhum problema. Caso contrário, poderá ser útil ter conhecimentos sobre a forma como tudo isto funciona e ler o artigo de resolução de problemas.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  

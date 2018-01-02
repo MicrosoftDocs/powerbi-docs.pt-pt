@@ -11,7 +11,7 @@ Com o Power BI, é fácil colocar os dados do Excel no Power BI.
 
 ![](media/5-1-intro-excel-data/5-1_1.png)
 
-Os tópicos seguintes irão guiá-lo ao longo do carregamento de um livro do Excel com uma tabela simples para o Power BI. Em seguida, verá como carregar livros criados com as funcionalidades mais avançadas de modelagem e relatórios de dados do BI, como o Power Pivot e o Power View.
+Os tópicos seguintes vão guiá-lo ao longo do carregamento de um livro do Excel com uma tabela simples para o Power BI. Em seguida, verá como carregar livros criados com as funcionalidades mais avançadas de modelagem e relatórios de dados do BI, como o Power Pivot e o Power View.
 
 Também irá aprender alguns dos benefícios de guardar ficheiros do livro do Excel no OneDrive para Empresas. Ao ligar aos ficheiros do Excel no OneDrive a partir do Power BI, os relatórios e dashboards no Power BI são atualizados automaticamente ao efetuar as alterações e guardar o trabalho.
 

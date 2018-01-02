@@ -14,9 +14,9 @@ Existem duas formas de ligar aos seus ficheiros do Excel no OneDrive para Empres
 ### <a name="import-excel-data-into-power-bi"></a>Importar dados do Excel para o Power BI
 Quando opta por importar dados do Excel para o Power BI, os dados de tabela do livro são carregados para um novo conjunto de dados no Power BI. Se tiver folhas do **Power View** no livro, essas folhas são importadas e também são criados automaticamente novos relatórios no Power BI.
 
-O Power BI irá manter a ligação entre eles e o ficheiro de livro no OneDrive para Empresas. Se fizer alterações ao seu livro, quando guardar, essas alterações serão *automaticamente sincronizadas** com o Power BI, normalmente, no prazo de uma hora. Se o livro ligar a origens de dados externas, pode configurar a atualização agendada para que o conjunto de dados no Power BI se mantenha atualizado. Uma vez que as visualizações nos relatórios e no dashboard no Power BI irão utilizar os dados do conjunto de dados, à medida que explora, as suas consultas são extremamente rápidas.
+O Power BI mantém a ligação entre eles e o ficheiro de livro no OneDrive para Empresas. Se fizer alterações ao seu livro, quando guardar, essas alterações serão *automaticamente sincronizadas** com o Power BI, normalmente, no prazo de uma hora. Se o livro ligar a origens de dados externas, pode configurar a atualização agendada para que o conjunto de dados no Power BI se mantenha atualizado. Uma vez que as visualizações nos relatórios e no dashboard no Power BI irão utilizar os dados do conjunto de dados, à medida que explora, as suas consultas são extremamente rápidas.
 
-### <a name="connect-manage-and-view-excel-in-power-bi"></a>Conectar, gerenciar e exibir o Excel no Power BI
+### <a name="connect-manage-and-view-excel-in-power-bi"></a>Conectar, gerir e ver o Excel no Power BI
 Quando opta por ligar ao livro do Excel, terá uma experiência totalmente integrada de utilização do seu livro no Excel e no Power BI. Quando liga desta forma, o relatório do livro tem um pequeno ícone do Excel junto ao mesmo.
 
 ![](media/5-4-connect-onedrive-for-business/5-4_4.png)

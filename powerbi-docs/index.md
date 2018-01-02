@@ -12,7 +12,7 @@ ms.lasthandoff: 11/15/2017
 <div id="main" class="v2">
     <div class="container">
         <h1>Documentação do Power BI</h1>
-        <p style="font-size: 1.12rem;margin-bottom: 1rem;">O Power BI amplifica as suas informações e o valor dos seus dados. Com a documentação do Power BI, obtém informações especialistas e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.</p>
+        <p style="font-size: 1.12rem;margin-bottom: 1rem;">O Power BI amplifica as suas informações e o valor dos seus dados. Com a documentação do Power BI, obtém informações de especialistas e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.</p>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Serviço do Power BI</h3>
-                                                    <p>O serviço do Power BI é o serviço online onde irá encontrar dashboards, aplicações e relatórios publicados.</p>
+                                                    <p>O serviço do Power BI é o serviço online onde vai encontrar dashboards, aplicações e relatórios publicados.</p>
                                                 </div>
                                             </div>
                                         </div>

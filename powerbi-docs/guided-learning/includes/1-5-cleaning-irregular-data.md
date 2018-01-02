@@ -32,5 +32,5 @@ Assim que os seus dados estiverem num formato que o Power BI possa utilizar, ao 
 
 O passo seguinte da aprendizagem de como o Power BI funciona e como fazê-lo funcionar *para si* é compreender o que envolve a **modelação**. Tal como aprendeu, um **conjunto de dados** é um bloco modular básico do Power BI, mas alguns conjuntos de dados podem ser complexos e ter como base muitas origens de dados diferentes. E, por vezes, é necessário adicionar um toque pessoal (ou *campo*) ao conjunto de dados que criar.
 
-Na secção seguinte, irá aprender acerca da **modelação** e muito mais. Vemo-nos lá!
+Na secção seguinte, vai aprender acerca da **modelação** e muito mais. Vemo-nos lá!
 

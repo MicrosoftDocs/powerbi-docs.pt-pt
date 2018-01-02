@@ -1,4 +1,4 @@
-As segmentações são um dos tipos mais poderosos de visualizações, particularmente como parte de um relatório ocupado. Uma **segmentação** é um filtro visual na tela no **Power BI Desktop** que permite que qualquer pessoa que esteja a ver o relatório segmente os dados por um valor específico, como por ano ou por localização geográfica.
+As segmentações de dados são um dos tipos mais poderosos de visualizações, particularmente como parte de um relatório ocupado. Uma **segmentação** é um filtro visual no ecrã do **Power BI Desktop** que permite que qualquer pessoa que esteja a ver o relatório segmente os dados por um valor específico, como por ano ou por localização geográfica.
 
 Para adicionar uma segmentação ao relatório, selecione **Segmentação** a partir do painel **Visualizações**.
 

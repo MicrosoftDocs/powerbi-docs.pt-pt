@@ -1,6 +1,6 @@
 ---
-title: Editor do Power BI para Excel
-description: Aprender a usar o editor do Power BI para Excel
+title: Power BI Publisher para Excel
+description: Saiba como utilizar o Power BI Publisher para Excel
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -15,27 +15,27 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: f38b567b0ef8b26bcd3631c37d27da69b25b6950
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: dd87c4fba99d9b3ba1953b23ad88910e45ce183e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="power-bi-publisher-for-excel"></a>Editor do Power BI para Excel
+# <a name="power-bi-publisher-for-excel"></a>Power BI Publisher para Excel
 Com o **Microsoft Power BI Publisher para Excel**, pode criar instantâneos das informações mais importantes no Excel, como Tabelas Dinâmicas, gráficos e intervalos, e afixá-los a dashboards no Power BI.
 
 ![](media/publisher-for-excel/pbi_excel_publisher_pinobj_dashboard.png)
 
-O que você pode fixar? Quase tudo em uma planilha do Excel. Você pode selecionar um intervalo de células de um texto ou tabela simples, uma Tabela Dinâmica ou Gráfico Dinâmico, ilustrações, imagens e texto.
+O que pode ser afixado? Tudo o que estiver numa folha de cálculo do Excel. Pode selecionar um intervalo de células de uma tabela ou folha simples, uma tabela dinâmica ou um gráfico dinâmico, ilustrações, imagens e texto.
 
-O que não pode afixar: mapas 3D ou visualizações em folhas do Power View. Também há alguns elementos que você pode fixar, mas não faz muito sentido, como um filtro de Segmentação ou Linha do Tempo.
+O que não pode afixar: mapas 3D ou visualizações em folhas do Power View. Também existem alguns elementos, como uma Segmentação de Dados ou um filtro da Linha Cronológica, que não faria muito sentido afixar, ainda que seja possível fazê-lo.
 
-Quando você fixa um elemento do Excel, um novo bloco é adicionado a um painel de novo ou existente no Power BI. O novo mosaico é um instantâneo, pelo que não é dinâmico, mas ainda pode ser atualizado. Por exemplo, se fizer uma alteração numa Tabela Dinâmica ou gráfico que já tenha afixado, o mosaico do dashboard no Power BI não é atualizado automaticamente, mas ainda poderá atualizar os elementos afixados através do **Gestor de Afixações**. Irá aprender mais sobre o **Gestor de Afixações** nas secções seguintes.
+Quando afixa um elemento do Excel, é adicionado um novo mosaico a um dashboard novo ou existente no Power BI. O novo mosaico é um instantâneo, pelo que não é dinâmico, mas ainda pode ser atualizado. Por exemplo, se fizer uma alteração numa Tabela Dinâmica ou gráfico que já tenha afixado, o mosaico do dashboard no Power BI não é atualizado automaticamente, mas ainda poderá atualizar os elementos afixados através do **Gestor de Afixações**. Irá aprender mais sobre o **Gestor de Afixações** nas secções seguintes.
 
-## <a name="download-and-install"></a>Baixar e instalar
-O Power BI Publisher para Excel é um suplemento que você pode baixar e instalar em versões de área de trabalho do Microsoft Excel 2007 e posteriores.
+## <a name="download-and-install"></a>Transferir e instalar
+O Power BI Publisher para Excel é um suplemento que pode transferir e instalar nas versões para ambiente de trabalho do Microsoft Excel 2007 e posterior.
 
 [Transferir o Power BI Publisher para Excel](http://go.microsoft.com/fwlink/?LinkId=715729)
 
@@ -45,7 +45,7 @@ Depois de ter o editor instalado, verá um novo friso do **Power BI** no Excel, 
 
 O suplemento do **Power BI Publisher para Excel** está ativado por predefinição, mas, se por alguma razão, não vir o separador do friso do Power BI no Excel, tem de o ativar. Clique em **Ficheiro** > **Opções** > **Suplementos** > **Suplementos COM**. Selecione **Microsoft Power BI Publisher para Excel**.
 
-## <a name="pin-a-range-to-a-dashboard"></a>Fixar um intervalo em um painel
+## <a name="pin-a-range-to-a-dashboard"></a>Afixar um intervalo a um dashboard
 Pode selecionar qualquer intervalo de células na folha de cálculo e afixar um instantâneo desse intervalo a um dashboard novo ou existente no Power BI. Também pode afixar o mesmo instantâneo a vários dashboards.
 
 Para começar, tem de assegurar que tem sessão iniciada no Power BI.
@@ -61,28 +61,28 @@ Depois de iniciar sessão, siga estes passos para afixar um intervalo a um dashb
 
 1. No Excel, selecione o separador do friso do **Power BI** para ver o botão do friso **Afixar**.
 2. Selecione um intervalo no livro do Excel.
-3. Clique no botão **Afixar** do friso do **Power BI** para mostrar a caixa de diálogo **Afixar ao dashboard**. Se ainda não tiver iniciado sessão no Power BI, ser-lhe-á pedido para o fazer. Selecione uma área de trabalho na lista pendente **Área de trabalho**. Se você desejar fixá-lo em seu próprio dashboard, verifique se a opção **Meu Espaço de Trabalho** está marcada. Se você deseja fixar um painel em um espaço de trabalho de grupo, selecione o grupo na lista suspensa.
+3. Clique no botão **Afixar** do friso do **Power BI** para mostrar a caixa de diálogo **Afixar ao dashboard**. Se ainda não tiver iniciado sessão no Power BI, ser-lhe-á pedido para o fazer. Selecione uma área de trabalho na lista pendente **Área de trabalho**. Se quiser afixar ao seu próprio dashboard, certifique-se de que a opção **A Minha Área de Trabalho** está selecionada. Se quiser afixar a um dashboard numa área de trabalho de grupo, selecione o grupo a partir da lista pendente.
 4. Decida se quer afixar a um *dashboard existente* ou criar um *dashboard novo*.
 5. Clique em **OK** para afixar a sua seleção ao dashboard.
 6. Em **Afixar ao dashboard**, selecione um dashboard existente na área de trabalho ou crie um novo e, em seguida, clique no botão **OK**.
    
    ![](media/publisher-for-excel/xl-publish.gif)
 
-## <a name="pin-a-chart-to-a-dashboard"></a>Fixar um Gráfico em um painel
-Basta clicar no gráfico e, em seguida, clicar em Fixar ![](media/publisher-for-excel/pbi_excel_publisher_pin.png).
+## <a name="pin-a-chart-to-a-dashboard"></a>Afixar um Gráfico a um dashboard
+Clique no gráfico e, em seguida, clique em Afixar ![](media/publisher-for-excel/pbi_excel_publisher_pin.png).
 
 ![](media/publisher-for-excel/pbi_excel_publisher_chart.png)
 
-## <a name="manage-pinned-elements"></a>Gerenciar elementos fixados
-Com o **Gestor de Afixações**, pode atualizar um mosaico associado ao elemento afixado no Power BI. Você também pode remover a marcação entre um elemento fixados em painéis no Power BI.
+## <a name="manage-pinned-elements"></a>Gerir os elementos afixados
+Com o **Gestor de Afixações**, pode atualizar um mosaico associado ao elemento afixado no Power BI. Também pode remover um elemento que já afixou a dashboards no Power BI.
 
 ![](media/publisher-for-excel/pbi_excel_publisher_pin_manager2.png)
 
 Para atualizar os mosaicos no dashboard, em **Gestor de Afixações**, selecione um ou mais elementos e, em seguida, clique em **Atualizar**.
 
-Para remover o mapeamento entre um elemento afixado no Excel e o mosaico associado num dashboard, clique em **Remover**. Quando selecionar **Remover**, *não* está a remover o elemento da folha de cálculo no Excel nem a eliminar o mosaico associado no dashboard. Está a remover a afixação ou o *mapeamento* entre eles. O elemento removido já não vai aparecer no **Gestor de Afixações**. Se você fixar o elemento novamente, ele será exibido como um novo bloco.
+Para remover o mapeamento entre um elemento afixado no Excel e o mosaico associado num dashboard, clique em **Remover**. Quando selecionar **Remover**, *não* está a remover o elemento da folha de cálculo no Excel nem a eliminar o mosaico associado no dashboard. Está a remover a afixação ou o *mapeamento* entre eles. O elemento removido já não vai aparecer no **Gestor de Afixações**. Se afixar o elemento novamente, este será apresentado como um novo mosaico.
 
-Para remover um elemento fixado (um bloco) de um painel, você precisará fazer isso no Power BI. No mosaico que quer eliminar, clique no ícone **Abrir menu** ![](media/publisher-for-excel/pbi_excel_publisher_tile_openmenu.png) e, em seguida, selecione **Eliminar mosaico**   ![](media/publisher-for-excel/pbi_excel_publisher_tile_trashcan.png).
+Para remover um elemento afixado (um mosaico) de um dashboard, terá de o fazer no Power BI. No mosaico que quer eliminar, clique no ícone **Abrir menu** ![](media/publisher-for-excel/pbi_excel_publisher_tile_openmenu.png) e, em seguida, selecione **Eliminar mosaico**   ![](media/publisher-for-excel/pbi_excel_publisher_tile_trashcan.png).
 
 ## <a name="connect-to-data-in-power-bi"></a>Ligar a dados no Power BI
 A partir da versão de julho de 2016 do **Power BI Publisher para Excel** (incluindo a versão atual, ligada acima), pode ligar diretamente aos dados no serviço Power BI e analisá-los no Excel através de Tabelas Dinâmicas e Gráficos Dinâmicos. Esta funcionalidade facilita a utilização de dados do Power BI e do Excel em conjunto para analisar os dados mais importantes para si.

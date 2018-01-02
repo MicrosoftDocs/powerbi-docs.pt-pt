@@ -1,4 +1,4 @@
-Pode achar que, ocasionalmente, quando cria os seus dashboards, tem mais conteúdo do que o que pode caber na sua tela. Existem algumas soluções que o ajudam a gerir a forma como o espaço do dashboard é apresentado, para que tenha uma visão completa do conteúdo do dashboard.
+Pode achar que, ocasionalmente, quando cria os seus dashboards, tem mais conteúdo do que o que pode caber no seu ecrã. Existem algumas soluções que o ajudam a gerir a forma como o espaço do dashboard é apresentado, para que tenha uma visão completa do conteúdo do dashboard.
 
 O método mais simples para apresentar o dashboard completo num ecrã é selecionar o botão **Modo de Ecrã Completo** no canto superior direito do dashboard.
 

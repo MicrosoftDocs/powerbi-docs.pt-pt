@@ -1,18 +1,18 @@
-Você conseguiu! **Parabéns!** Concluiu o curso **Aprendizagem Orientada** do Power BI. Chegou ao fim do ciclo: começou por aprender os elementos básicos do Power BI, percorreu as respetivas funcionalidades e elementos de software e aprendeu como todos eles funcionam em conjunto.
+Conseguiu! **Parabéns!** Concluiu o curso **Aprendizagem Orientada** do Power BI. Chegou ao fim do ciclo: começou por aprender os elementos básicos do Power BI, percorreu as respetivas funcionalidades e elementos de software e aprendeu como todos eles funcionam em conjunto.
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)
 
 Esta é a última secção (e o tópico final, a menos que queira aprender o DAX) do curso, pelo que, se percorreu todas estas secções por ordem, está de parabéns. Bom trabalho! Está agora bastante familiarizado com todos estes **conceitos importantes**:
 
-* O que [é o Power BI](0-0-what-is-power-bi.md)
-* Os [blocos modulares](0-0b-building-blocks-power-bi.md) do Power BI
-* [Obter](1-2-connect-to-data-sources-in-power-bi-desktop.md) e [moldar](2-1-intro-modeling-data.md) dados
-* [Visualizações](3-1-intro-visualizations.md)
-* [Explorar dados](4-0-intro-power-bi-service.md) no serviço Power BI
-* Utilizar o [Excel e o Power BI](5-1-intro-excel-data.md) em conjunto
-* E [publicar e partilhar](6-0-intro-content-packs-groups.md) o seu trabalho
+* O que [é o Power BI](../gettingstarted.yml#step-1)
+* Os [blocos modulares](../gettingstarted.yml#step-3) do Power BI
+* [Obter](../gettingdata.yml#step-3) e [moldar](../modeling.yml#step-1) dados
+* [Visualizações](../visualizations.yml#step-1)
+* [Explorar dados](../exploringdata.yml#step-1) no serviço Power BI
+* Utilizar o [Excel e o Power BI](../powerbiandexcel.yml#step-1) em conjunto
+* E [publicar e partilhar](../publishingandsharing.yml#step-1) o seu trabalho
 
-São muitos conhecimentos e agora que já os tem todos na cabeça, está preparado para colocá-los em prática! Eis algumas **hiperligações para transferências** ou para **ligar o seu browser ao serviço Power BI**:
+São muitos conhecimentos e agora que já os tem todos na cabeça, está preparado para colocá-los em prática! Eis algumas **ligações para transferências** ou para **ligar o seu browser ao serviço Power BI**:
 
 * Pode sempre [obter a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop)
 * Aceder ao [serviço Power BI](https://powerbi.microsoft.com/) é fácil

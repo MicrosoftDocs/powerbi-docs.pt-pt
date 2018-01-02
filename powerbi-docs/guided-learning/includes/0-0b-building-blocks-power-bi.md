@@ -50,7 +50,7 @@ Um dashboard tem de caber numa única página, ou tela, como muitas vezes lhe ch
 Pode partilhar dashboards com outros utilizadores e grupos, os quais podem, em seguida, interagir com o seu dashboard quando estiverem no serviço do Power BI ou num dispositivo móvel.
 
 ## <a name="tiles"></a>Mosaicos
-No Power BI, um **mosaico** é uma visualização isolada que pode encontrar num relatório ou dashboard. É a caixa retangular que contém cada visual individual. Na imagem seguinte, pode ver um mosaico (realçado por uma caixa brilhante) que está também rodeado por outros mosaicos.
+No Power BI, um **mosaico** é uma visualização isolada que pode encontrar num relatório ou dashboard. É a caixa retangular que contém cada elemento visual individual. Na imagem seguinte, pode ver um mosaico (realçado por uma caixa brilhante) que está também rodeado por outros mosaicos.
 
 ![](media/0-0b-building-blocks-power-bi/c0a0b_4.png)
 

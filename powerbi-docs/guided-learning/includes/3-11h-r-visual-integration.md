@@ -1,6 +1,6 @@
 Com o Power BI Desktop, pode executar análises analíticas e estatísticas e criar elementos visuais convincentes através da integração com o R. Pode alojar essas visualizações do R no relatório do Power BI Desktop.
 
-Quando seleciona o ícone **Elemento visual R** no painel **Visualizações**, o Power BI cria um marcador de posição na tela para alojar o seu elemento visual R e, em seguida, apresenta um editor de script R para que possa utilizar diretamente na tela. À medida que adiciona campos ao elemento visual R, o Power BI Desktop adiciona-os ao painel do editor de script R.
+Quando seleciona o ícone **Elemento visual R** no painel **Visualizações**, o Power BI cria um marcador de posição no ecrã para alojar o seu elemento visual R e, em seguida, apresenta um editor de script R para que possa utilizar diretamente no ecrã. À medida que adiciona campos ao elemento visual R, o Power BI Desktop adiciona-os ao painel do editor de script R.
 
 ![](media/3-11h-r-visual-integration/3-11h_1.png)
 
@@ -8,9 +8,9 @@ Abaixo daquilo que o Power BI gera no editor de script R, pode começar a criar 
 
 1. Os dados adicionados ao elemento visual (a partir do painel **Campos**) são enviados do Power BI Desktop para a instalação local do R
 2. O script criado no editor de script R do Power BI Desktop é executado nessa instalação local do R
-3. Em seguida, o Power BI Desktop obtém novamente um elemento visual da instalação do R e apresenta-o na tela
+3. Em seguida, o Power BI Desktop obtém novamente um elemento visual da instalação do R e apresenta-o no ecrã
 
-Tudo acontece muito rapidamente e o resultado aparece na visualização do **elemento visual R** na tela.
+Tudo acontece muito rapidamente e o resultado aparece na visualização do **elemento visual R** no ecrã.
 
 ![](media/3-11h-r-visual-integration/3-11h_2.png)
 
@@ -18,7 +18,7 @@ Pode alterar o elemento visual R ao ajustar o script R e, em seguida, selecionar
 
 ![](media/3-11h-r-visual-integration/3-11h_3.png)
 
-E, como o elemento visual R é como qualquer outro elemento visual do Power BI Desktop, pode interagir com o mesmo, bem como criar ligações com outros elementos visuais na tela. Quando interage com outros elementos visuais na tela, através de filtragem ou realce, o elemento visual R reage automaticamente como qualquer outro elemento visual do Power BI, sem ser necessário ajustar o script R.
+E, como o elemento visual R é como qualquer outro elemento visual do Power BI Desktop, pode interagir com o mesmo, bem como criar ligações com outros elementos visuais no ecrã. Quando interage com outros elementos visuais no ecrã, através de filtragem ou realce, o elemento visual R reage automaticamente como qualquer outro elemento visual do Power BI, sem ser necessário ajustar o script R.
 
 É uma excelente forma de utilizar a capacidade do R, diretamente no Power BI Desktop.
 

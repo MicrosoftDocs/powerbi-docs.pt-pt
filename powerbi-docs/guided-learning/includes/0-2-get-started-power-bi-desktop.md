@@ -61,7 +61,7 @@ Quando afixamos alguns elementos visuais do nosso relatório, podemos vê-los no
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_12.png)
 
-Como é óbvio, pode fazer muito mais com o Power BI, como partilhar os dashboards que criar. Iremos falar sobre a partilha mais à frente neste curso.
+Como é óbvio, pode fazer muito mais com o Power BI, como partilhar os dashboards que criar. Vamos falar sobre a partilha mais à frente neste curso.
 
 Em seguida, vamos ver uma funcionalidade que permite criar automaticamente dashboards, ao ligar simplesmente a um serviço cloud como o Facebook, Salesforce e muitos outros.
 

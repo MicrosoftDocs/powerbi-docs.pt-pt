@@ -13,7 +13,7 @@ O Power BI apresenta as funções que correspondem às letras que introduziu at�
 
 ![](media/7-3-dax-functions/dax-functions_1.png)
 
-Desta forma, é fácil fazer experiências com o DAX e encontrar cada uma das várias funções DAX que estão disponíveis no Power BI. Só precisa de começar a escrever e o Power BI irá ajudá-lo.
+Desta forma, é fácil fazer experiências com o DAX e encontrar cada uma das várias funções DAX que estão disponíveis no Power BI. Só precisa de começar a escrever e o Power BI vai ajudá-lo.
 
 Agora que sabemos como começar a utilizar essa fórmula DAX, vamos ver cada uma destas categorias de função à vez.
 

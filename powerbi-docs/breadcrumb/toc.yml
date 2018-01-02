@@ -6,10 +6,10 @@
       tocHref: /power-bi/
       topicHref: /power-bi/
       items:
-        - name: Desenvolvedor
+        - name: Programador
           tocHref: /power-bi/developer/
           topicHref: /power-bi/developer/
-        - name: Aprendizagem orientada
+        - name: Aprendizagem Orientada
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
         - name: Servidor de Relatórios

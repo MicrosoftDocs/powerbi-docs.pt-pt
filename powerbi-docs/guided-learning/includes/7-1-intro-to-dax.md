@@ -5,7 +5,7 @@ Bem-vindo à secção da **Aprendizagem Orientada** do Power BI que visa apresen
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX e a série de vídeos desta Aprendizagem Orientada
 O objetivo desta secção da **Aprendizagem Orientada** é ensinar-lhe as noções básicas e os princípios do DAX - como pensar no DAX, como funciona e as funcionalidades mais úteis, tal como explicadas (e aprendidas com muita experiência) por uma especialista de renome no DAX, [ Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Retrato de Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 Os vídeos nesta secção da **Aprendizagem Orientada** sobre o **DAX** ensinam-lhe as noções básicas do DAX na perspetiva de como funciona a linguagem de fórmulas DAX. Isto é útil para criar fórmulas DAX a partir do zero, mas também é muito útil para compreender como o Power BI cria essas fórmulas DAX à medida que o utilizador cria consultas no **Editor de Consultas**.
 

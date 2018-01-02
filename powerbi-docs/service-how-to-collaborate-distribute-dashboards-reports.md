@@ -1,6 +1,6 @@
 ---
 title: "Como devo colaborar e partilhar os meus dashboards e relatórios no Power BI?"
-description: "No Power BI, pode partilhar e colaborar em dashboards, relatórios e mosaicos de diferentes formas. Cada uma tem suas vantagens."
+description: "No Power BI, pode partilhar e colaborar em dashboards, relatórios e mosaicos de diferentes formas. Cada um tem as suas vantagens."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Como devo colaborar e partilhar os meus dashboards e relatórios no Power BI?
 Pode criar dashboards e relatórios. Pode até colaborar com os seus colegas nos mesmos. Depois, quer que outras pessoas tenham acesso. Qual é a melhor forma de distribuí-los?
@@ -54,7 +54,7 @@ Suponhamos que pretende distribuir a sua área de trabalho para um público alar
 
 ![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Se o seu administrador do Power BI lhe der permissões, pode instalar uma aplicação automaticamente nas contas do Power BI dos seus colegas de trabalho. Leia mais informações sobre [publicar as suas aplicações](service-create-distribute-apps.md#publish-your-app). 
+É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Leia mais sobre [publicar as suas aplicações](service-create-distribute-apps.md#publish-your-app). 
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
@@ -90,7 +90,7 @@ Pode publicar relatórios do Power BI para toda a Internet ao incorporar visuali
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir ou guardar como PDF ou outro ficheiro estático
 Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos a uma página de cada vez. Não pode imprimir todo o relatório de uma vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](service-print.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 * Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 * [Partilhar dashboards com colegas e outras pessoas](service-share-dashboards.md)
 * [Criar e publicar uma aplicação no Power BI](service-create-distribute-apps.md)

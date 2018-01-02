@@ -1,12 +1,12 @@
-documentType: Tutorial
-title: "Guia de introdução"
+### YamlMime:Tutorial
+title: "Introdução"
 metadata:
   title: "Introdução | Microsoft Power BI"
   description: "Saiba o que é o Power BI, como os blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações para os seus dados."
   audience: Business User
   level: Beginner
   nextTutorialHref: gettingdata
-  nextTutorialTitle: Obter dados
+  nextTutorialTitle: Getting data
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -14,15 +14,16 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Nesta secção inicial da **Aprendizagem Orientada**, irá aprender o que é o Power BI, como os respetivos blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações sobre os seus dados.\n"
-  ms.openlocfilehash: 79bcf9e9e40e89149bbb9c8ffcc584e160a89386
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 12/06/2017
-- title: Apresentando o Power BI
+  ms.lasthandoff: 12/12/2017
+items:
+- durationInMinutes: 1
+  content: >
+    In this initial section of **Guided Learning**, you learn what Power BI is, how its building blocks work together, and how you can use them to gain insights to your data.
+- title: "Apresentação do Power BI"
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
@@ -48,4 +49,4 @@ items:
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Concluiu a secção **Introdução** da Aprendizagem Orientada do Microsoft Power BI. Muito bem! Agora, pode passar para a parte seguinte da Aprendizagem Orientada, que é **Obter dados**. Selecione o botão **Obter dados** abaixo para continuar.\0"
+- content: "You've completed the **Getting started** section of Microsoft Power BI Guided learning. Way to go! Now you can move on to the next part of Guided Learning, which is **Getting data**. Select the **Getting data** button below to keep going.\0"

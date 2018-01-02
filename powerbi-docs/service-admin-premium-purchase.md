@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
 ms.author: asaxton
-ms.openlocfilehash: 17e8c8dd467b7dc349a373ec986dd3e2715c2f73
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6dd0191a480274e7a9b03b182113edd4c734c2ef
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 Saiba como comprar capacidade do Power BI Premium para a sua organização.
@@ -65,11 +65,11 @@ Para comprar um SKU do Power BI Premium, ***tem de ser um administrador Global o
 
 | Ligações de compra direta |
 | --- |
-| [SKU EM3 (mês a mês)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [SKU P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [SKU P1 (mês a mês)](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [SKU P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [SKU P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
+| [SKU EM3 (mês a mês)](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
+| [SKU P1](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
+| [SKU P1 (mês a mês)](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
+| [SKU P2](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
+| [SKU P3](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 Depois de concluir a compra, o ecrã de Serviços de compra irá mostrar que o item foi comprado e está ativo.
 
@@ -112,7 +112,7 @@ Pode cancelar a sua subscrição no centro de administração do Office 365. Par
 5. A página **Cancelar subscrição** irá indicar se é responsável por uma [taxa de cessação antecipada](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3). Esta página também indica quando os dados da subscrição serão eliminados.
 6. Leia as informações e, se pretender avançar, selecione **Cancelar subscrição**.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)  
 [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/)  
 [Power BI Premium – o que é?](service-premium.md)  

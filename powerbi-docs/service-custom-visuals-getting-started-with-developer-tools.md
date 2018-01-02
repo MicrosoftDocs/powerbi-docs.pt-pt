@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Utilizar ferramentas de programador para criar visuais personalizados
 Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
@@ -110,7 +110,7 @@ Para *adicionar* um certificado, execute o seguinte comando.
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. Selecione **Colocar todos os certificados no seguinte arquivo** e selecione **Procurar...** .
-4. Selecione **Autoridades de Certificação de Raiz Fidedigna** e, em seguida, selecione **OK**. Selecione **Avançar**.
+4. Selecione **Autoridades de Certificação de Raiz Fidedigna** e, em seguida, selecione **OK**. Selecione **Seguinte**.
    
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. Selecione **Concluir**.
@@ -347,10 +347,10 @@ Saiba mais sobre o [Less](http://lesscss.org/).
 ## <a name="debugging"></a>Depurar
 Para obter sugestões sobre como depurar elementos visuais personalizados, consulte o [guia de depuração](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
-## <a name="submit-your-visual-to-the-office-store"></a>Submeter o seu elemento visual à loja do Office
-Também pode ser incluído na loja do Office. Para obter mais informações sobre este processo, consulte [Publicar elementos visuais personalizados na loja do Office](developer/office-store.md).
+## <a name="submit-your-visual-to-appsource"></a>Submeter o seu elemento visual para o AppSource
+Pode listar o seu elemento visual, para que outras pessoas possam utilizá-lo, ao submetê-lo para o AppSource. Para obter mais informações sobre este processo, veja [Publicar elementos visuais personalizados no AppSource](developer/office-store.md).
 
-## <a name="troubleshooting"></a>Solução de problemas
+## <a name="troubleshooting"></a>Resolução de problemas
 **Comando Pbiviz não encontrado (ou erros semelhantes)**
 
 Se executar `pbiviz` no seu terminal/linha de comandos, verá o ecrã da ajuda. Caso contrário, não está instalado corretamente. Certifique-se de que tem, pelo menos, a versão 4.0 do NodeJS instalada.
@@ -378,7 +378,7 @@ Execute o servidor visual com o comando `pbiviz start` no seu terminal/linha de 
 
 Para obter mais informações, consulte [Executar o seu elemento visual](#running-your-visual) ou [Configurar o certificado do servidor](#ssl-setup).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Visualizações no Power BI](power-bi-report-visualizations.md)  
 [Visualizações personalizadas no Power BI](power-bi-custom-visuals.md)  
 [Publicar elementos visuais personalizados na Loja do Office](developer/office-store.md)  

@@ -1,4 +1,4 @@
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Publicar e partilhar
 metadata:
   title: Publicar e partilhar | Microsoft Power BI
@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: introductiontodax
-  nextTutorialTitle: "Introdução à DAX"
+  nextTutorialTitle: Introduction to DAX
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -14,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/06/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Os dados são mais poderosos quando partilhados com outras pessoas: saiba como publicar, exportar, partilhar e distribuir as suas informações de dados do Power BI.\n"
-  ms.openlocfilehash: c7204f34360f22f75c43ed65271d1263071719b9
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
+items:
+- durationInMinutes: 1
+  content: >
+    Data is most powerful when shared with others - learn how to publish, export, share, and distribute your Power BI data insights.
 - title: "Introdução aos pacotes de conteúdos, segurança e grupos"
   durationInMinutes: 2
   content: >
@@ -92,7 +93,7 @@ items:
 
 
     [!INCLUDE [](includes/6-4a-integrate-onedrive-for-business.md)]
-- title: Publicar na Web
+- title: Publicar na web
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/jNPOaLP9hlc?rel=0]
@@ -103,4 +104,4 @@ items:
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "Concluiu a secção **Publicar e partilhar** da Aprendizagem Orientada do Power BI. Se quiser uma introdução ao DAX, a linguagem utilizada para criar consultas do Power BI, continue para o próximo tutorial.\0"
+- content: "You've completed the **Publishing and sharing** section of Power BI Guided Learning. If you want an introduction to DAX, the language used to create Power BI queries, head to the next tutorial.\0"

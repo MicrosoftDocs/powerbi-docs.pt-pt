@@ -9,7 +9,7 @@ A caixa de diálogo **Imprimir** é apresentada, onde pode selecionar a impresso
 ![](media/4-4g-print-and-export-dashboards-reports/4-4g_2.png)
 
 ## <a name="export-data-from-a-visual"></a>Exportar dados de um visual
-Também pode exportar os dados a partir de qualquer visual no serviço do Power BI. Basta selecionar as reticências em qualquer visual e, em seguida, selecionar o botão **Exportar dados** (botão do meio). Quando o fizer, é criado um ficheiro .CSV e transferido para o seu computador local e é apresentada uma mensagem no seu browser (como em qualquer outra transferência iniciada pelo browser), permitindo-lhe saber que a transferência está concluída.
+Também pode exportar os dados a partir de qualquer visual no serviço do Power BI. Basta selecionar as reticências em qualquer elemento visual e, em seguida, selecionar o botão **Exportar dados** (botão do meio). Quando o fizer, é criado um ficheiro .CSV e transferido para o seu computador local e é apresentada uma mensagem no seu browser (como em qualquer outra transferência iniciada pelo browser), permitindo-lhe saber que a transferência está concluída.
 
 ![](media/4-4g-print-and-export-dashboards-reports/4-4g_3.png)
 
@@ -17,5 +17,5 @@ Também pode imprimir ou exportar diretamente a partir de um relatório. Ao visu
 
 ![](media/4-4g-print-and-export-dashboards-reports/4-4g_4.png)
 
-E, assim como com um dashboard, também pode exportar dados a partir de um visual num relatório, ao selecionar o botão de exportação num visual.
+E, assim como com um dashboard, também pode exportar dados a partir de um elemento visual num relatório, ao selecionar o botão de exportação num visual.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/065/2017
 ms.author: davidi
-ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: d6dae11aae2e44e1a8d6fe103cf0e20183c0d9d8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Introdução aos gateways do Power BI
 Bem-vindo ao guia **Introdução aos gateways do Power BI**. Este guia resumido permite-lhe saber o que faz um gateway, como funciona e o que fazer para instalar, configurar e executar o seu próprio gateway.  
@@ -50,7 +50,7 @@ São necessárias três partes ou fases, para colocar um gateway em funcionament
 
 * Instalar o gateway
 * Adicionar utilizadores ao gateway (deixe-os utilizar o gateway)
-* Conectar-se a fontes de dados
+* Ligar a origens de dados
 
 Além disso, utilizar um gateway permite-lhe fazer outra coisa que pode ser importante:
 
@@ -158,9 +158,9 @@ Depois de o fazer, o painel **Definições da Origem de Dados** aparece no paine
 
 Agora o gateway está instalado e pode adicionar origens de dados. Ótimo! Consulte os recursos na secção seguinte para obter informações sobre origens de dados, mais detalhes sobre como utilizar gateways e outras informações úteis.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Utilizar o gateway de dados no local](service-gateway-onprem.md)  
-[Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
+[Gateway de dados no local detalhado](service-gateway-onprem-indepth.md)  
 [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
 

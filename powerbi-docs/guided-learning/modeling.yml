@@ -1,4 +1,4 @@
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Modelagem
 metadata:
   title: Modelagem | Microsoft Power BI
@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: visualizations
-  nextTutorialTitle: "Visualizações"
+  nextTutorialTitle: Visualizations
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -14,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Com as capacidades de **modelagem** no **Power BI**, pode ligar a várias origens de dados e, em seguida, combiná-las de forma a criar um modelo único de dados que se adapte às suas necessidades.\n"
-  ms.openlocfilehash: 760a683fd4267f2dc1fc3e59783770ad4904dcfb
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
+items:
+- durationInMinutes: 1
+  content: >
+    With the **modeling** capabilities in **Power BI**, you can connect to multiple data sources, then combine them in ways that create a unique model of data that suits your needs.
 - title: "Introdução à modelagem dos dados"
   durationInMinutes: 3
   content: >
@@ -71,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Está a sair-se bem. Continue assim para aprender mais sobre o Power BI! Concluiu a secção **Modelagem** da Aprendizagem orientada do Microsoft Power BI. Em seguida, temos as visualizações.\0"
+- content: "You are on a roll. Keep up the good work in learning about Power BI! You've completed the **Modeling** section of Microsoft Power BI Guided learning. Next up is visualizations.\0"

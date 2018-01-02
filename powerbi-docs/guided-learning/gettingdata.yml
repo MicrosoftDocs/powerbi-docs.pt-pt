@@ -1,4 +1,4 @@
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Obter dados
 metadata:
   title: Obter dados | Microsoft Power BI
@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: modeling
-  nextTutorialTitle: Modelagem
+  nextTutorialTitle: Modeling
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -14,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-items:
-- durationInMinutes: 1
-  content: "Dados são o coração do Power BI. Nesta secção da **Aprendizagem Orientada**, irá aprender a obter e a trabalhar com dados no Power BI.\n"
-  ms.openlocfilehash: a490c763a04fb3558ebc6e973ff1ec00d18c876c
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
+items:
+- durationInMinutes: 1
+  content: >
+    Data is at the heart of Power BI. In this **Guided Learning** section, you learn how to get and work with data in Power BI.
 - title: "Descrição geral do Power BI Desktop"
   durationInMinutes: 4
   content: >
@@ -64,4 +65,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Muito bem! Concluiu a secção **Obter dados** da Aprendizagem Orientada do Microsoft Power BI. No passo seguinte, irá aprender mais sobre **Modelagem**, que é o assunto do próximo tutorial.\0"
+- content: "Way to go! You've completed the **Getting data** section of Microsoft Power BI Guided Learning. The next step is to learn about **Modeling**, which is the subject of the next tutorial.\0"

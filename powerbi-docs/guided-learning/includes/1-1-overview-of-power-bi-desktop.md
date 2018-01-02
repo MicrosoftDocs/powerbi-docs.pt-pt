@@ -2,7 +2,7 @@ Bem-vindo à segunda secção deste curso **Aprendizagem Orientada** do Power BI
 
 Quando obtém dados, às vezes não estão tão corretamente formados ou *limpos* como gostaria que estivessem. Por isso, nesta secção, vai aprender a obter dados, a limpá-los (por vezes, designado por *limpar* ou *transformar* dados), bem como aprender alguns truques avançados que podem facilitar a sua obtenção de dados.
 
-Como é habitual neste curso, a sua viagem de aprendizagem segue o mesmo caminho que o fluxo de trabalho no Power BI. Como tal, vamos ver o **Power BI Desktop**, onde, muitas vezes, começa.
+Como é habitual neste curso, a sua viagem de aprendizagem segue o mesmo caminho que o fluxo de trabalho no Power BI. Como tal, vamos ver o **Power BI Desktop** onde, muitas vezes, começa.
 
 ## <a name="an-overview-of-power-bi-desktop"></a>Uma descrição geral do Power BI Desktop
 O Power BI Desktop é uma ferramenta para ligar, limpar e visualizar os seus dados. Com o Power BI Desktop, pode ligar aos dados e, em seguida, moldá-los e visualizá-los de diversas formas. A maioria dos utilizadores que trabalham em projetos de Business Intelligence, irão passar a maior parte do seu tempo a utilizar o Power BI Desktop.
