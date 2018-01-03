@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: asaxton
 ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/18/2017
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -259,7 +259,7 @@ Para obter mais informações sobre como gerir as definições Premium, veja [Ge
 
 Enquanto administrador, pode ver os códigos de incorporação gerados para o seu inquilino. Pode ver o relatório e eliminar o código de incorporação para o revogar.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximas etapas
 
 [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md)  
 [Auditoria do Power BI na sua organização](service-admin-auditing.md)  
