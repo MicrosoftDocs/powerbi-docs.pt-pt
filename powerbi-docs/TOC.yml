@@ -454,11 +454,9 @@
           href: power-bi-visualization-treemaps.md
         - name: 'Tutorial: Waterfall charts in Power BI (Tutorial: gráficos de cascata no Power BI)'
           href: power-bi-visualization-waterfall-charts.md
-        - name: Create a big number tile for a Power BI dashboard by asking a question (Criar um mosaico de número grande para um dashboard do Power BI ao fazer uma pergunta)
-          href: power-bi-visualization-big-number.md
-        - name: Create a big number tile from a Power BI report (Criar um mosaico de número grande a partir de um relatório do Power BI)
-          href: power-bi-visualization-big-number-report.md
-        - name: Create advanced analytics and visualizations using R scripts in Power BI (Criar análises e visualizações avançadas com scripts R no Power BI)
+        - name: 'Tutorial: Cartas (mosaicos com números grandes) no Power BI'
+          href: power-bi-visualization-card.md
+        - name: Criar análises e visualizações avançadas com scripts R no Power BI
           href: service-r-visuals.md
     - name: Data from files (Dados de ficheiros)
       items:
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: 'Integrate a content into your application (app owns data) (Integrar conteúdos na sua aplicação [os dados são da aplicação])'
           href: developer/embed-sample-for-customers.md
+        - name: Incorporar esquemas personalizados numa aplicação
+          href: developer/embedded-custom-layout.md
         - name: Create an Azure Active Directory tenant (Criar um inquilino do Azure Active Directory)
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Register an application (Registar uma aplicação)
