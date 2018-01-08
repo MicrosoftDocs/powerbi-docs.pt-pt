@@ -1006,8 +1006,6 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Resources (Recursos)
       items:
-        - name: Apiary
-          href: 'https://go.microsoft.com/fwlink/?linkid=848278'
         - name: JavaScript embed demo (Demonstração incorporada do JavaScript)
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Samples (Exemplos)
@@ -1050,8 +1048,10 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
         - name: Supported data sources (Origens de dados suportadas)
           href: report-server/data-sources.md
-        - name: Connect to data sources (Ligar a origens de dados)
+        - name: Ligar a origens de dados
           href: report-server/connect-data-sources.md
+        - name: 'Aceder a conjuntos de dados partilhados como feeds do OData '
+          href: report-server/access-dataset-odata.md
         - name: Configure scheduled refresh (Configurar a atualização agendada)
           href: report-server/configure-scheduled-refresh.md
         - name: Add comments to a report (Adicionar comentários a um relatório)
