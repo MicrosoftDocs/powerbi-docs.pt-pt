@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Saiba como pode utilizar o auditoria com o Power BI para monitorizar e investigar as ações executadas. Pode utilizar o Centro de segurança e conformidade ou utilizar o PowerShell.
+Saiba como pode utilizar o auditoria com o Power BI para monitorizar e investigar as ações executadas. Pode utilizar o Centro de Segurança e Conformidade ou utilizar o PowerShell
 
 Saber quem está a realizar ações em que item no inquilino Power BI pode ser fundamental para ajudar a sua organização a satisfazer os requisitos, tais como a conformidade regulamentar e a gestão de registos.
 
@@ -35,6 +35,16 @@ Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard
 
 > [!NOTE]
 > A funcionalidade de auditoria no Power BI está no modo de pré-visualização e disponível em todas as regiões de dados.
+
+## <a name="requirements"></a>Requisitos
+Tem de cumprir estes requisitos para aceder aos registos de auditoria:
+
+- Para aceder à secção de auditoria do Centro de Segurança e Conformidade do Office 365, tem de ter uma licença do Exchange Online (incluída nas subscrições do Office 365 Enterprise E3 e E5).
+- Tem de ser um administrador global ou ter uma função de administrador do Exchange que oferece acesso ao registo de auditoria. 
+
+  As funções de administrador do Exchange são controladas através do Centro de administração do Exchange. Para obter mais informações, consulte [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Se tiver acesso ao registo de auditoria, mas não for um administrador global ou um administrador de Serviço do Power BI, não terá acesso ao portal de Administrador do Power BI. Neste caso, tem de obter uma ligação direta para o Centro de Segurança e Conformidade do Office 365.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Ativar a funcionalidade de auditoria no portal de administração do Power BI
 
@@ -46,7 +56,7 @@ Terá de ativar a auditoria para a sua organização para poder trabalhar com os
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. Selecione **Definições de Inquilino**.
+3. Selecione **Definições de inquilino**.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
 
@@ -69,9 +79,9 @@ Para auditar os registos do Power BI, tem visitar o Centro de Segurança e Confo
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. Selecione **Registos de Auditoria**.
-4. 
-5. Selecione **Aceder ao Centro de Administração do Office 365**.
+3. Selecione **Registos de auditoria**.
+ 
+4. Selecione **Aceder ao Centro de Administração do Office 365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -221,7 +231,7 @@ Para obter uma listagem completa, consulte [Propriedades detalhadas no registo d
 | UpdatedAdminFeatureSwitch |Este evento é registado sempre que um comutador da funcionalidade de administração é alterado. |- Nome do comutador.<br/>- Novo estado do comutador. |
 | OptInForProTrial |Este evento é registado quando um utilizador optar por experimentar o Power BI Pro no serviço. |- Endereço de e-mail |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximas etapas
 
 [Portal de Administração do Power BI](service-admin-portal.md)  
 [Power BI Premium – o que é?](service-premium.md)  

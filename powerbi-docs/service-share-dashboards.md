@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Partilhar dashboards do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI disponibiliza [várias formas de colaborar e distribuir os seus dashboards](service-how-to-collaborate-distribute-dashboards-reports.md), uma das quais é partilhar.
@@ -94,7 +94,7 @@ Apenas o proprietário do dashboard pode ativar ou desativar a possibilidade de 
 4. Na caixa de diálogo **Remover acesso**, pode decidir se também quer remover o acesso a conteúdos relacionados, como relatórios e conjuntos de dados. Se remover itens com um ícone de aviso ![ícone de aviso do Power BI](media/service-share-dashboards/power-bi-warning-icon.png), será melhor remover os conteúdos relacionados, porque não serão apresentados de forma adequada.
 
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Partilhar um dashboard com pessoas fora da sua organização
-Quando partilha com pessoas fora da sua organização, elas recebem um e-mail com uma ligação para o dashboard partilhado, e elas têm de iniciar sessão no Power BI para ver o dashboard. Se estas não tiverem uma licença do Power BI Pro, poderão inscrever-se numa após clicarem na ligação.
+Quando partilha com pessoas fora da sua organização, elas recebem um e-mail com uma ligação para o dashboard partilhado, e elas têm de iniciar sessão no Power BI para ver o dashboard. Se elas não tiverem uma licença do Power BI Pro, poderão inscrever-se numa após clicarem na ligação.
 
 Após iniciarem sessão, verão o dashboard partilhado nas respetivas janelas do browser sem o painel de navegação à esquerda, não no respetivo portal do Power BI normal. Têm de adicionar a ligação aos Favoritos para acederem a este dashboard no futuro.
 
@@ -122,7 +122,11 @@ Elementos a ter em conta sobre a partilha de dashboards:
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Os destinatários do meu dashboard vêm um ícone de cadeado num mosaico ou a mensagem "Permissão necessária"
 
-Se as pessoas com quem partilha vêm um ícone de cadeado num mosaico ou a mensagem "Permissão necessária" quanto tentam ver um relatório, tem de lhes dar permissão para o conjunto de dados subjacente. Eis como fazê-lo.
+As pessoas com quem partilha vêm um ícone de cadeado num dashboard ou a mensagem "Permissão necessária" quanto tentam ver um relatório.
+
+![Mosaico bloqueado do Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+Se for o caso, terá de lhes conceder permissão para o conjunto de dados subjacente. Eis como fazê-lo.
 
 1. Aceda ao separador **Conjuntos de dados** na sua lista de conteúdos.
 
@@ -145,7 +149,7 @@ Se as pessoas com quem partilha vêm um ícone de cadeado num mosaico ou a mensa
 Para partilhar um dashboard, tem de ter permissão para voltar a partilhar os conteúdos subjacentes: relatórios e conjuntos de dados relacionados. Se vir uma mensagem a informá-lo que não pode partilhar, peça ao autor do relatório que lhe dê permissão para voltar a partilhar esses relatórios e conjuntos de dados.
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximas etapas
 * Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 * [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Partilhar apenas um relatório do Power BI](service-share-reports.md)
