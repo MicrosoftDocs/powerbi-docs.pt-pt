@@ -350,14 +350,10 @@
           href: service-analyze-in-excel.md
         - name: Change how visuals interact in a report (Alterar a forma como os elementos visuais interagem num relatório)
           href: service-reports-visual-interactions.md
-        - name: Open a Power BI report in Reading View (Abrir um relatório do Power BI na Vista de Leitura)
-          href: service-report-open-in-reading-view.md
-        - name: Go from Reading View to Editing View in Power BI (Ir da Vista de Leitura para a Vista de Edição no Power BI)
+        - name: Open a Power BI report in Reading view or Editing view (Abrir um relatório do Power BI na Vista de leitura ou na Vista de edição)
           href: service-reading-view-and-editing-view.md
         - name: Interact with a report in Editing View in Power BI (Interagir com um relatório na Vista de Edição no Power BI)
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Interact with a report in Reading View in Power BI (Interagir com um relatório na Vista de Leitura no Power BI)
-          href: service-interact-with-a-report-in-reading-view.md
         - name: Tips and tricks for creating reports in Power BI service (Sugestões e truques para criar relatórios no serviço Power BI)
           href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Analytics pane (Painel de análise)
