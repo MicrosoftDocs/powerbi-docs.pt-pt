@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Partilhar dashboards do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI disponibiliza [várias formas de colaborar e distribuir os seus dashboards](service-how-to-collaborate-distribute-dashboards-reports.md), uma das quais é partilhar.
@@ -110,7 +110,7 @@ Se enviar uma ligação de uma aplicação móvel do Power BI para pessoas exter
 Elementos a ter em conta sobre a partilha de dashboards:
 
 * Em geral, o utilizador e os seus colegas veem os mesmos dados no dashboard. Portanto, se tiver permissões para ver mais dados do que os seus colegas, eles conseguirão ver todos os seus dados no seu dashboard. No entanto, se a [RLS (Segurança em nível de linha)](service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um dashboard, as credenciais de cada pessoa serão utilizadas para determinar a que dados podem aceder.
-* Todas as pessoas com quem partilha o dashboard podem vê-lo e interagir com os seus relatórios na [Vista de Leitura](service-report-open-in-reading-view.md). Não podem criar relatórios ou guardar alterações a relatórios existentes.
+* Todas as pessoas com quem partilha o dashboard podem vê-lo e interagir com os seus relatórios na [Vista de Leitura](service-reading-view-and-editing-view.md). Não podem criar relatórios ou guardar alterações a relatórios existentes.
 * Ninguém pode ver ou transferir o conjunto de dados.
 * Todas as pessoas podem, manualmente, [atualizar os dados do dashboard](refresh-data.md).
 * Se utilizar o Office 365 para e-mail, pode partilhar com membros de um grupo de distribuição ao introduzir o endereço de e-mail associado ao grupo de distribuição.
