@@ -186,7 +186,7 @@ Os fluxos de dados do **PubNub** são, muitas vezes, volumosos e o seu formato o
 ## <a name="example-of-using-real-time-streaming-in-power-bi"></a>Exemplo de utilização da transmissão em fluxo em tempo real no Power BI
 Segue-se um exemplo rápido de como a transmissão em fluxo em tempo real funciona no Power BI. Pode acompanhar este exemplo a par e passo para constatar em primeira mão todas as vantagens da transmissão em fluxo em tempo real.
 
-Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Aqui estão as etapas para fazer isso:
+Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os passos:
 
 1. No **serviço Power BI**, selecione um dashboard (ou crie um novo) e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** e, em seguida, selecione o botão  **Seguinte**.
    
@@ -244,7 +244,7 @@ Segue-se uma lista de verificação que pode utilizar para resolver o problema:
 5. A tarefa do Azure Stream Analytics tem dados que estejam a ser transmitidos em fluxo? O conjunto de dados só será criado se estiverem a ser transmitidos dados.
 6. Consegue consultar os registos do Azure Stream Analytics para verificar se foram emitidos avisos ou erros?
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Seguem-se algumas ligações que poderão ser úteis quando estiver a trabalhar com a transmissão em fluxo em tempo real no Power BI:
 
 * [Descrição geral da API REST do Power BI com dados em tempo real](https://msdn.microsoft.com/library/dn877544.aspx)

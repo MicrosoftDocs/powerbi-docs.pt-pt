@@ -128,7 +128,7 @@ Quando utilizar uma combinação de licenças Gratuitas e Pro num inquilino do G
 
 Para identificar os utilizadores no inquilino que têm a licença Gratuita do Power BI, os administradores podem executar o relatório de licenciamento, após o qual os utilizadores da licença Gratuita aparecem como **Power BI Standard**.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Pode fazer diversas coisas com o Power BI. Para obter mais informações e aprendizagem, incluindo um artigo que mostra como se inscrever no serviço, consulte os seguintes recursos:
 
 * [Descrição Geral do Power BI para o Governo dos EUA](service-govus-overview.md)

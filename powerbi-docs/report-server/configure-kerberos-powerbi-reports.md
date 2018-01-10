@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 74f55e34623f840d8a62942e0d5cce5924e79866
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 82f77c808ce4d022409e7e35ce74b46c44b344bb
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configure o Kerberos para usar relatórios do Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ Temos de configurar ou validar o seguinte.
 
 No ficheiro rsreportserver.config, terá de ajustar a secção **Authentication/AuthenticationTypes**.
 
-Queremos certificar-se de que RSWindowsNegotiate está listado e que é a primeira opção na lista de tipos de autenticação. Ela deve ser semelhante à seguinte.
+Queremos certificar-se de que RSWindowsNegotiate está listado e que é a primeira opção na lista de tipos de autenticação. Deverá ser semelhante ao seguinte.
 
 ```
 <AuthenticationTypes>
@@ -142,7 +142,7 @@ Para o Analysis Services, utilizamos um serviço de MSOLAPSvc.3. Vamos especific
 
 Um exemplo de um SPN de Azure Analysis Services deve ter o seguinte aspeto.
 
-| Type | Format |
+| Tipo | Format |
 | --- | --- |
 | Instância predefinida |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | Instância com nome |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -221,7 +221,7 @@ Depois de todas as configurações acima estarem implementadas, o relatório dev
 
 Embora esta configuração funcione na maioria dos casos, no caso do Kerberos, pode haver uma configuração diferente consoante o seu ambiente. Se mesmo assim o relatório não for carregado, é melhor contactar o seu administrador de domínio para uma investigação posterior ou contacte o suporte.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Manual do administrador](admin-handbook-overview.md)  
 [Início rápido: instalar o Power BI Report Server](quickstart-install-report-server.md)  
 

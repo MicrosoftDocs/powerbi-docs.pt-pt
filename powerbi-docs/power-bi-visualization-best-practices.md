@@ -63,8 +63,8 @@ O espaço das páginas dos relatórios é limitado e uma das coisas mais difíce
 
 Vejamos o esquema, a clareza e a estética.
 
-### <a name="layout---the-report-canvas"></a>Esquema - a tela do relatório
-A tela do relatório tem uma quantidade finita de espaço.  Se não conseguir incluir todos os elementos na mesma página, divida o relatório em várias páginas.  As páginas podem ser adaptadas a públicos específicos (por exemplo, Recursos Humanos, TI, Vendas, etc.) ou a perguntas de negócio específicas (por exemplo, Como é que os defeitos estão a afetar o tempo de inatividade, Qual é o impacto da nossa campanha de marketing no Sentimento?) ou a histórias progressivas (por exemplo, primeira página como descrição geral ou para chamar à atenção, a segunda página continua a história dos dados, a terceira explora-a detalhadamente, etc.).  Se o relatório completo se encaixar numa única página, excelente. Se não, crie páginas separadas que dividam o conteúdo logicamente.  E não se esqueça de atribuir às páginas nomes significativos e úteis.
+### <a name="layout---the-report-canvas"></a>Esquema - o ecrã do relatório
+O ecrã do relatório tem uma quantidade finita de espaço.  Se não conseguir incluir todos os elementos na mesma página, divida o relatório em várias páginas.  As páginas podem ser adaptadas a públicos específicos (por exemplo, Recursos Humanos, TI, Vendas, etc.) ou a perguntas de negócio específicas (por exemplo, Como é que os defeitos estão a afetar o tempo de inatividade, Qual é o impacto da nossa campanha de marketing no Sentimento?) ou a histórias progressivas (por exemplo, primeira página como descrição geral ou para chamar à atenção, a segunda página continua a história dos dados, a terceira explora-a detalhadamente, etc.).  Se o relatório completo se encaixar numa única página, excelente. Se não, crie páginas separadas que dividam o conteúdo logicamente.  E não se esqueça de atribuir às páginas nomes significativos e úteis.
 
 Imagine que está a organizar uma galeria de arte. Não colocaria 50 obras de arte numa sala pequena, enchê-la-ia com cadeiras e pintaria cada parede de sua cor. Como curador, escolheria apenas obras que tivessem um tema em comum, dispô-las-ia à volta da sala com bastante espaço para os visitantes circularem e refletirem e poria placas informativas que descrevessem as obras. E por algum motivo as galerias modernas têm paredes lisas!
 Neste artigo, vamos começar com um exemplo de relatório que exige muito trabalho.  À medida que aplicamos as melhores práticas e os princípios de design, o nosso relatório vai melhorar.
@@ -87,7 +87,7 @@ O esquema dos elementos do relatório tem impacto sobre a compreensão e orienta
 * Posicione os elementos relacionados perto uns dos outros; a proximidade implica que os elementos estejam relacionados.
 * Outra forma de transmitir relações consiste em adicionar um limite ou cor de fundo à volta dos elementos relacionados. Por outro lado, adicione um separador para distinguir entre diferentes secções do relatório.
 * Utilize espaço em branco para agrupar visualmente secções da página do relatório.
-* Preencha a página do relatório. Se vir que tem demasiado espaço branco extra, aumente as visualizações ou diminua a tela.
+* Preencha a página do relatório. Se vir que tem demasiado espaço branco extra, aumente as visualizações ou diminua o ecrã.
 * Dimensione os elementos do relatório intencionalmente. Não permita que seja a disponibilidade do espaço a ditar o tamanho das visualizações.
 * Aumente o tamanho dos elementos importantes, para que sejam maiores dos que os outros, ou adicione um elemento visual, como uma seta, para chamar a atenção.
 * Alinhe os elementos na página do relatório, de forma simétrica ou intencionalmente assimétrica.
@@ -118,7 +118,7 @@ No Power BI online e no Power BI Desktop, também tem controlo preciso sobre o t
 Na página do nosso relatório de exemplo (Figura 2), os dois cartões e a margem grande estão alinhados na **Posição X** em 200.
 
 #### <a name="fit-to-the-space"></a>Ajustar ao espaço
-Utilize o espaço disponível da melhor forma.  Se souber como o relatório será visto/apresentado, crie-o em conformidade. Reduza o espaço em branco para preencher a tela.  Faça os possíveis para eliminar a necessidade de acrescentar barras de deslocamento a elementos visuais individuais.  Preencha o espaço sem que os elementos visuais pareçam amontoados.
+Utilize o espaço disponível da melhor forma.  Se souber como o relatório será visto/apresentado, crie-o em conformidade. Reduza o espaço em branco para preencher o ecrã.  Faça os possíveis para eliminar a necessidade de acrescentar barras de deslocamento a elementos visuais individuais.  Preencha o espaço sem que os elementos visuais pareçam amontoados.
 
 ##### <a name="adjust-the-page-size"></a>Ajustar o tamanho da página
 Ao reduzir o tamanho da página, os elementos individuais ficam maiores em relação à página geral. Para tal, anule a seleção dos elementos visuais na página e utilize o separador **Page Size** (Tamanho da Página) no painel de formatação.  
@@ -155,7 +155,7 @@ Aqui, o nosso exemplo já está com melhor aspeto. Removemos imensos elementos d
 **Figura 7:    O nosso relatório de exemplo pouco apelativo agora organizado**
 
 ### <a name="tell-a-story-at-a-glance"></a>Conte uma história num instante
-O grande teste consiste em uma pessoa que não tenha qualquer conhecimento prévio consiga compreender rapidamente o relatório sem explicações. Com uma leitura rápida, os leitores devem ser capazes de ver rapidamente sobre de que se trata a página e cada gráfico/tabela.   
+O grande teste consiste numa pessoa que não tenha qualquer conhecimento prévio consiga compreender rapidamente o relatório sem explicações. Com uma leitura rápida, os leitores devem ser capazes de ver rapidamente sobre de que se trata a página e cada gráfico/tabela.   
 
 Quando os leitores veem o seu relatório, o olhar deles deve ir para o elemento que quer que vejam primeiro e, depois, seguir da esquerda para a direita e de cima para baixo.  Para alterar este comportamento, adicione indicações visuais, como etiquetas de caixa de texto, formas, limites, tamanho e cor.  
 
@@ -176,7 +176,7 @@ Escreva na caixa em branco e, em seguida, utilize os controlos na parte inferior
 
 Mas não exagere! O excesso de texto nos relatórios causa distração e desvia a atenção dos elementos visuais. Se achar que a página do relatório requer muito texto para ser compreendida, recomece.  Pode escolher outro elemento visual que conte uma história só por si? Pode ajustar os títulos nativos do elemento visual para que seja mais inteligível?   
 
-#### <a name="text"></a>Text
+#### <a name="text"></a>Texto
 Crie um guia de estilo de texto e aplique-o a todas as páginas do relatório. Escolha apenas alguns tipos de letra, tamanhos de texto e cores.  Aplique este guia de estilo não só aos elementos textuais, mas também às opções de tipo de letra que escolher dentro das visualizações (veja Títulos e etiquetas que fazem parte das visualizações, abaixo). Defina regras de utilização de negrito, itálico, tamanho de letra maior, determinadas cores, entre outros aspetos.  Evite utilizar tudo em maiúsculas ou sublinhado.
 
 #### <a name="shapes"></a>Formas
@@ -694,7 +694,7 @@ Para obter mais informações sobre os gráficos empilhados:
 ### <a name="combo-barcolumn-charts"></a>Gráficos de combinação de barras/colunas
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-No Power BI, pode combinar gráficos de linhas e de colunas num gráfico de combinação. As opções são Gráfico de Linhas e Colunas Empilhadas e Gráfico de Colunas Agrupadas Combine dois elementos visuais separados num só para poupar espaço valioso na tela.
+No Power BI, pode combinar gráficos de linhas e de colunas num gráfico de combinação. As opções são Gráfico de Linhas e Colunas Empilhadas e Gráfico de Colunas Agrupadas Combine dois elementos visuais separados num só para poupar espaço valioso no ecrã.
 
 As duas capturas de ecrã abaixo mostram o antes e o depois.  A primeira página tem dois elementos visuais separados: um gráfico de colunas que mostra a população ao longo do tempo e um gráfico de linhas que mostra o PIB, também ao longo do tempo. Estes dois gráficos são candidatos ideais a um gráfico de combinação, porque têm o mesmo eixo X (ano) e os mesmos valores (2002 até 2012).  Por que não combiná-los e comparar estas duas tendências num único elemento visual?  Ao combiná-los, pode comparar os dados mais depressa.
 
@@ -739,7 +739,7 @@ Para obter mais informações, veja:
 ### <a name="scatter-chart"></a>Gráfico de Dispersão
 ![](media/power-bi-visualization-best-practices/power-bi-scatter.png)
 
-Por vezes, podemos querer ver muitas variáveis ao mesmo tempo e os gráficos de dispersão podem ser uma forma muito útil de obter uma perspetiva geral.  Estes gráficos apresentam as relações entre duas (Dispersão) ou três (Bolha) medidas quantitativas.  Têm sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos de maneira uniforme ou não pelo eixo horizontal, dependendo dos dados.
+Por vezes, podemos querer ver muitas variáveis ao mesmo tempo e os gráficos de dispersão podem ser uma forma muito útil de obter uma perspetiva geral.  Estes gráficos apresentam as relações entre duas (Dispersão) ou três (Bolha) medidas quantitativas.  Têm sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos uniformemente ou não no eixo horizontal, dependendo dos dados.
 
 Os gráficos de bolhas substituem os pontos de dados por bolhas, sendo que o tamanho das bolhas representa uma dimensão adicional dos dados.
 
@@ -755,7 +755,7 @@ Se adicionar um eixo de reprodução, pode fingir que é o Hans Rosling e contar
 * Os gráficos de dispersão e de bolhas são excelentes para contar histórias. No entanto, não são tão úteis para explorar dados.  É isto mesmo que Stephen Few constata no parágrafo seguinte *A vantagem desta abordagem é quando é utilizada para contar uma história. Quando Rosling narra o que está a acontecer no gráfico à medida que as bolhas se movem e mudam de valor, apontando para o que quer que nós vejamos, as informações ganham vida. No entanto, os gráficos de bolhas animados são muito menos eficazes para explorar e compreender os dados por nossa conta. Duvido que Rosling utilize este método para descobrir as histórias; deve utilizá-lo apenas para contá-las quando já forem conhecidas. Não podemos ver várias bolhas ao mesmo quando estão em movimento, pelo que somos obrigados a executar a animação repetidamente para tentar perceber o que está a acontecer. Podemos adicionar trilhos a determinadas bolhas, o que nos permite rever o caminho completo que seguiram, mas se os utilizarmos em muitas bolhas, o gráfico rapidamente fica demasiado desorganizado. O que estou a dizer, basicamente, é que esta não é a melhor forma de apresentar estas informações para análise e exploração.*
 * Adicione etiquetas dos eixos X e Y para ajudar a contar a história.  Especialmente no que diz respeito aos gráficos de bolhas, estão envolvidos muitos componentes e as etiquetas ajudam os leitores a compreender o elemento visual.
 * Adicione etiquetas de dados para facilitar a interpretação do elemento visual.  Especialmente no que diz respeito aos gráficos de bolhas, se tiver vários itens na Legenda, poderá ser difícil distinguir cores parecidas.  No elemento visual acima, as cores da legenda para Suriname, Colômbia e Equador são muito semelhantes.
-* Criou um gráfico de dispersão e só vê um ponto de dados que agrega todos os valores dos eixos X e Y? Ou o gráfico agrega todos os valores ao longo de uma única linha horizontal ou vertical?  Para corrigir isto, adicione um campo à área **Details** (Detalhes) para dizer ao Power BI como agrupar os valores. O campo deve ser exclusivo para cada ponto que você deseja plotar. Para obter ajuda, veja [Power BI scatter and bubble chart tutorial](power-bi-visualization-scatter.md) (Tutorial dos gráficos de dispersão e de bolhas do Power BI).
+* Criou um gráfico de dispersão e só vê um ponto de dados que agrega todos os valores dos eixos X e Y? Ou o gráfico agrega todos os valores ao longo de uma única linha horizontal ou vertical?  Para corrigir isto, adicione um campo à área **Details** (Detalhes) para dizer ao Power BI como agrupar os valores. O campo tem de ser exclusivo para cada ponto que deseja desenhar. Para obter ajuda, veja [Power BI scatter and bubble chart tutorial](power-bi-visualization-scatter.md) (Tutorial dos gráficos de dispersão e de bolhas do Power BI).
 
 ### <a name="tree-map-charts"></a>Gráficos de Mapa de Árvore
 ![](media/power-bi-visualization-best-practices/power-bi-treemap.png)

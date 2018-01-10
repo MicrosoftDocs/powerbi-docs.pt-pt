@@ -78,7 +78,7 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
 <br><br>
 
 ## <a name="what-metrics-are-reported"></a>Que métricas são comunicadas?
-| Métrica | Painel | Relatório | Descrição |
+| Métrica | Dashboard | Relatório | Descrição |
 | --- | --- | --- | --- |
 | Segmentação de dados por método de distribuição |sim |sim |Como os utilizadores obtêm acesso ao conteúdo. Existem 3 métodos possíveis: os utilizadores podem aceder a dashboard ou ao relatório devido ao facto de serem membros de uma [área de trabalho da aplicação](service-the-new-power-bi-experience.md), ao terem o conteúdo [partilhado com os mesmos](service-share-dashboards.md), ou ao instalarem uma aplicação/pacote de conteúdos.  Tenha em atenção que as vistas através de uma aplicação são contadas como "pacote de conteúdos". |
 | Segmentação de dados de plataformas |sim |sim |O dashboard ou o relatório foram acedidos através do serviço Power BI (powerbi.com) ou de um dispositivo móvel? Mobile inclui todas as nossas aplicações iOS, Android e Windows. |
@@ -174,7 +174,7 @@ R: os dados demoram até 24 horas a aparecer.
 P: a área de trabalho tem quatro relatórios, mas o relatório de métrica de utilização só apresenta 3.    
 R: o relatório de métrica de utilização apenas inclui relatórios (ou dashboards) que tenham sido acedidos nos últimos 90 dias.  Se um relatório (ou dashboard) não for apresentado, é provável que não seja utilizado há mais de 90 dias.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Adicionar um dashboard como favorito](service-dashboard-favorite.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)

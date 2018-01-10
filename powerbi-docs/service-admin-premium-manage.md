@@ -161,7 +161,7 @@ Os administradores de capacidade, em conjunto com os administradores do Power BI
 1. Selecione **Atribuir áreas de trabalho**. Isto está listado em vários locais e todas efetuam a mesma tarefa.
 2. Selecione **Todas as áreas de trabalho da empresa** ou **Áreas de trabalho específicas por utilizador**.
    
-   | Selection | Descrição |
+   | Seleção | Descrição |
    | --- | --- |
    | **Todas as áreas de trabalho da empresa** |A atribuição das áreas de trabalho de toda a organização à capacidade Premium vai atribuir todas as Áreas de Trabalho da Aplicação e As minhas Áreas de Trabalho, na sua organização a esta capacidade Premium. Além disso, todos os utilizadores atuais e futuros terão permissão para atribuir de novo áreas de trabalho individuais a esta capacidade. |
    | **Áreas de trabalho específicas por utilizador** |Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
@@ -182,7 +182,7 @@ Para mover uma área de trabalho para a capacidade, deve ter permissões de admi
 4. Selecione a capacidade à qual pretende atribuir esta área de trabalho de aplicação.
    
     ![Menu pendente de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
-5. Selecione **Salvar**.
+5. Selecione **Guardar**.
 
 Depois de guardar, a área de trabalho e todo o conteúdo, serão movidos para a capacidade Premium sem qualquer interrupção experiência para os utilizadores finais.
 
@@ -202,7 +202,7 @@ Ao selecionar **Chave do Power BI Report Server**, será apresentada uma caixa d
 
 Para obter mais informações, consulte [Instalar o Power BI Report Server](report-server/install-report-server.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Partilhe aplicações publicadas com utilizadores gratuitos quando atribuir a área de trabalho a uma capacidade Premium. Para obter mais informações, consulte [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md).
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
