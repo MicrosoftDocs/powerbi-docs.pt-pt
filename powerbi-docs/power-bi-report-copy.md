@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: a5a82694cb48a23e572c49a350439335276cabf9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8c108d1564a6de89d2a53134e0bbca3617ebfc92
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report"></a>Crie um novo relatório a partir de um relatório existente
 Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns elementos visuais que pretende voltar a utilizar ou modificar.  Porque não simplesmente copiar esse relatório como base para um novo relatório?  Para fazê-lo:
 
-1. [Abra um relatório](service-report-open-in-reading-view.md).
+1. [Abra um relatório](service-report-open.md).
 2. No menu **Ficheiro**, selecione **Guardar como**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -46,4 +46,3 @@ Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns
 [Crie novas visualizações](power-bi-report-add-visualizations-ii.md)
 
 [Elimine visualizações](service-delete.md) que não precisa
-

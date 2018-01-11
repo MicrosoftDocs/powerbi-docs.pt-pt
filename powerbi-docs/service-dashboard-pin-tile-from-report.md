@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: dfc7552b1a6035a2e75ded010ddb7c57931c79ad
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
 ## <a name="pinning-tiles-from-a-report"></a>Afixar mosaicos a partir de um relatório
@@ -48,7 +48,7 @@ Agora, crie o seu próprio dashboard utilizando um dos relatórios de exemplo do
      ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Decida se quer fixar a um dashboard existente ou a um novo.
    
-   * Dashboard existente: selecione o nome do dashboard na lista pendente. Os dashboards que foram partilhados consigo não aparecerão na lista pendente.
+   * Dashboard existente: selecione o nome do dashboard na lista pendente. Os dashboard que foram partilhados consigo não aparecerão na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
 3. Em alguns casos, o item afixado pode ter um *tema* já aplicado.  Por exemplo, os elementos visuais afixados a partir de um livro do Excel. Nesse caso, selecione o tema a aplicar ao mosaico.
 4. Selecione **Afixar**.
