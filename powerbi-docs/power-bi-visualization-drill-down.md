@@ -1,5 +1,5 @@
 ---
-title: "Faça uma visualização no Power BI"
+title: "Desagregação numa visualização no Power BI"
 description: "Este documento demonstra como desagregar numa visualização no serviço Microsoft Power BI e no Power BI Desktop."
 services: powerbi
 documentationcenter: 
@@ -24,7 +24,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 11/15/2017
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Faça uma visualização no Power BI
+# <a name="drill-down-in-a-visualization-in-power-bi"></a>Desagregação numa visualização no Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>A desagregação requer uma hierarquia
 Quando um visual tem uma hierarquia, pode desagregar para revelar detalhes adicionais. Por exemplo, pode ter uma visualização que observa a contagem de medalhas olímpicas por uma hierarquia constituída por desporto, disciplina e evento. Por predefinição, a visualização mostra a contagem de medalhas por desporto: ginástica, esqui, desportos aquáticos, etc. Mas, uma vez que tem uma hierarquia, selecionar um dos elementos visuais (como uma barra, linha ou bolha) mostraria uma imagem cada vez mais detalhada. Selecione o elemento **desportos aquáticos** para ver os dados sobre natação, mergulho e polo aquático.  Selecione o elemento **mergulho** para ver detalhes sobre eventos de prancha, plataforma e mergulho sincronizado.
 
@@ -54,12 +54,12 @@ Existem duas formas diferentes de desagregar (e agregar) na sua visualização. 
 ## <a name="method-1-for-drill-down"></a>Método 1 para desagregação
 Este método utiliza os ícones de desagregação que aparecem nos cantos superiores da própria visualização.
 
-1. No Power BI, abra um relatório no [Modo de Exibição de Leitura](service-report-open-in-reading-view.md) ou no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md). A análise requer uma visualização com uma hierarquia. 
+1. No Power BI, abra um relatório na [Vista de Leitura](service-report-open-in-reading-view.md) ou na [Vista de Edição](service-reading-view-and-editing-view.md). A desagregação requer uma visualização com uma hierarquia. 
    
    Uma hierarquia é apresentada na animação abaixo.  A visualização tem uma hierarquia constituída por território, cidade, código postal e nome de cidade. Cada território tem uma ou mais cidades, cada cidade tem um ou mais códigos postais, etc. Por predefinição, a visualização mostra apenas os dados de território, uma vez que *Território* aparece em primeiro lugar na lista.
    
    ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Para habilitar o drill down, selecione o ícone de seta no canto superior direito da visualização. Quando o ícone estiver escuro, drill está habilitado. Se não ativar a desagregação, selecionar um elemento visual (como uma barra ou uma bolha) irá fazer uma filtragem cruzada dos outros gráficos na página de relatórios.    
+2. Para ativar a desagregação, selecione o ícone de seta no canto superior direito da visualização. Quando o ícone estiver escuro, a desagregação está ativada. Se não ativar a desagregação, selecionar um elemento visual (como uma barra ou uma bolha) irá fazer uma filtragem cruzada dos outros gráficos na página de relatórios.    
    
    ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
 3. Para desagregar ***um campo de cada vez***, clique num dos elementos na sua visualização. Num gráfico de barras, tal significa clicar numa das barras e, num treemap, significa clicar numa das *folhas*. Repare que o título muda à medida que desagrega e regressa. Nesta animação, muda de "Unidades Totais Este Ano por Território" para "Unidades Totais Este Ano por Território e Cidade" para "Unidades Totais Este Ano por Território, Cidade e Código postal" para "Unidades Totais Este Ano por Território, Cidade, Código postal e Nome". Para voltar a agregar, selecione o ícone **Agregar**![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) no canto superior esquerdo da visualização, conforme mostrado abaixo.
@@ -68,14 +68,14 @@ Este método utiliza os ícones de desagregação que aparecem nos cantos superi
 4. Para desagregar ***todos os campos de uma vez***, selecione a seta dupla no canto superior esquerdo da visualização.
    
    ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Para fazer drill up e voltar, selecione a seta para cima no canto superior da visualização.
+5. Para voltar a agregar, selecione a seta para cima no canto superior esquerdo da visualização.
    
    ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
 
 ## <a name="method-2-for-drill-down"></a>Método 2 para desagregação
 Este método utiliza o menu pendente **Explorar** da barra de menus superior do Power BI.
 
-1. No Power BI, abra um relatório no [Modo de Exibição de Leitura](service-report-open-in-reading-view.md) ou no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md). A análise requer uma visualização com uma hierarquia. 
+1. No Power BI, abra um relatório na [Vista de Leitura](service-report-open-in-reading-view.md) ou na [Vista de Edição](service-reading-view-and-editing-view.md). A desagregação requer uma visualização com uma hierarquia. 
    
    Uma hierarquia é apresentada na imagem abaixo.  A visualização tem uma hierarquia constituída por território, cidade, código postal e nome de cidade. Cada território tem uma ou mais cidades, cada cidade tem um ou mais códigos postais, etc. Por predefinição, a visualização mostra apenas os dados de território, uma vez que *Território* aparece em primeiro lugar na lista.
    
@@ -99,7 +99,7 @@ Este método utiliza o menu pendente **Explorar** da barra de menus superior do 
   
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)
 
 [Relatórios do Power BI](service-reports.md)

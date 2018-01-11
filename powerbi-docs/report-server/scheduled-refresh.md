@@ -71,7 +71,7 @@ Para obter informações sobre as definições de memória no Analysis Services,
 ### <a name="authentication-and-kerberos"></a>Autenticação e Kerberos
 Se a sua origem de dados estiver definida para utilizar credenciais do Windows, poderá ter de ser configurada uma delegação restrita do Kerberos para funcionar. Para obter mais informações, consulte [Configurar a autenticação do Windows no servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Configure a [atualização agendada](configure-scheduled-refresh.md) num relatório do Power BI.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

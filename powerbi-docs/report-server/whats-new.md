@@ -94,7 +94,7 @@ Publicámos uma [explicação passo a passo sobre como adicionar o Office Online
 
 * Não têm dependências de origens de dados externas
 * Têm uma ligação em direto a uma origem de dados do SQL Server Analysis Services
-* Têm um modelo de dados do PowerPivot
+* Têm um modelo de dados PowerPivot
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Suporte para novos visuais de tabelas e matrizes
 Agora, o Power BI Report Server suporta os novos visuais de tabelas e matrizes do Power BI. Para criar relatórios com estes visuais, precisará de uma versão do Power BI Desktop atualizada para a versão de outubro de 2017. Não pode ser instalada paralelamente com a versão do Power BI Desktop (junho de 2017). Para obter a versão mais recente do Power BI Desktop, na [página de transferência do Power BI Report Server](https://powerbi.microsoft.com/report-server/), selecione **Opções de transferência avançadas**.
@@ -110,7 +110,7 @@ Agora, o Power BI Report Server suporta os novos visuais de tabelas e matrizes d
   * Aplicação móvel Power BI Mobile atualizada para mostrar relatórios do Power BI armazenados no Power BI Report Server
 * Colaboração melhorada em relatórios com comentários
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Notas de versão do Power BI Report Server](release-notes.md)  
 [Manual do utilizador](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  

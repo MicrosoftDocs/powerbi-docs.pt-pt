@@ -74,7 +74,7 @@ Se todas as outras soluções falharem, a última sugestão é observar o sistem
 
 Por exemplo, imaginemos que quer saber se pode partilhar dashboards com um grupo de segurança. Para responder a essa questão, aceda à caixa de diálogo de partilha e experimente adicionar um grupo de segurança. De qualquer forma, terá a sua resposta após este teste.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 * [Introdução ao Power BI](service-get-started.md) 
 * Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/)
 * Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/)

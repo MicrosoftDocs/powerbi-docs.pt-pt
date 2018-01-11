@@ -58,7 +58,7 @@ As seguintes definições podem ser utilizadas para afetar a atualização agend
 
 **Definições no SSMS:**
 
-| Configuração | Descrição |
+| Definição | Descrição |
 | --- | --- |
 | EnablePowerBIReportEmbeddedModels |Ativa ou desativa a capacidade de utilizar dados importados nos relatórios. Os valores válidos são True ou False. |
 | MaxFileSizeMb |O tamanho máximo de ficheiro para os relatórios carregados. A predefinição é 1000 MB (1 GB). O valor máximo é 2000 MB (2GB). |
@@ -78,7 +78,7 @@ As seguintes definições podem ser utilizadas para afetar a atualização agend
 </Configuration>
 ```
 
-## <a name="tools-for-troubleshooting"></a>Ferramentas para solução de problemas
+## <a name="tools-for-troubleshooting"></a>Ferramentas para resolução de problemas
 ### <a name="logs-relevant-for-scheduled-refresh-of-power-bi-reports"></a>Registos relevantes para a atualização agendada de relatórios do Power BI
 Os ficheiros de registo que contêm informações sobre a atualização agendada são registos RSPowerBI_. Estão localizados na pasta LogFiles da localização de instalação do servidor de relatórios. 
 

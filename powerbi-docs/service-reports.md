@@ -44,10 +44,10 @@ Os [Dashboards](service-dashboards.md) costumam ser confundidos com os relatóri
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
-| Fontes de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
+| Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não |Sim, pode criar e ver relatórios no Desktop |
 | Afixação |Pode afixar visualizações (mosaicos) existentes apenas do dashboard atual aos seus outros dashboards |Pode afixar visualizações (como mosaicos) aos seus dashboards. Pode afixar páginas de relatório inteiras aos seus dashboards. |
-| Assinatura |Não pode subscrever um dashboard |Pode subscrever páginas de relatórios |
+| Subscrição |Não pode subscrever um dashboard |Pode subscrever páginas de relatórios |
 | Filtragem |Não pode filtrar ou segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
 | Definir alertas |Pode criar alertas para lhe enviar um e-mail quando são cumpridas determinadas condições |Não |
 | Destaque |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
@@ -73,7 +73,7 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 * Comece por uma [apresentação do serviço Power BI](service-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
 * Saiba como [abrir um relatório](service-report-open-in-reading-view.md) e todas as interações disponíveis na [Vista de leitura](service-dashboard-tiles.md).
 * Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](sample-tutorial-connect-to-the-samples.md).  
-* Não precisa mais do relatório? Pode [removê-lo](service-delete.md).
+* Já não necessita do relatório? Pode [removê-lo](service-delete.md).
 * Para ver que conjunto de dados o relatório está a utilizar e que dashboards têm esta informação afixada do relatório, [veja os conteúdos relacionados](service-related-content.md).
 
 > [!TIP]
@@ -81,7 +81,7 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 > 
 > 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md) 
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)

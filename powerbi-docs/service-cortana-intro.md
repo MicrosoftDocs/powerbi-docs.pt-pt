@@ -1,6 +1,6 @@
 ---
 title: "Localizar e ver rapidamente os relatórios e dashboards do Power BI através do Cortana"
-description: "Use o Cortana com o Power BI para obter respostas de seus dados. Atualmente, funciona com relatórios e dashboards."
+description: "Use o Cortana com o Power BI para obter respostas a partir dos seus dados. Atualmente, funciona com relatórios e dashboards."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -47,7 +47,7 @@ Temos 4 documentos que o ajudam a configurar e utilizar o Cortana para Power BI.
 
 **Artigo 4**: [Resolver problemas](service-cortana-troubleshoot.md)
 
-## <a name="how-do-cortana-and-power-bi-work-together"></a>Como o Cortana e o Power BI funcionam juntos?
+## <a name="how-do-cortana-and-power-bi-work-together"></a>Como o Cortana e o Power BI funcionam em conjunto?
 Quando utiliza o Cortana para fazer uma pergunta, o Power BI pode ser um dos locais onde o Cortana procura respostas. No Power BI, o Cortana pode encontrar respostas avançadas condicionadas por dados em relatórios do Power BI (que contêm um tipo especial de página de relatório denominado *cartão de resposta do Cortana*) e em dashboards do Power BI.
 
 Se o Cortana encontrar uma correspondência, apresenta o nome do dashboard ou da página de relatório no ecrã do Cortana. É possível abrir o dashboard ou a página de relatório no Power BI. As páginas de relatório também podem ser exploradas diretamente no Cortana, uma vez que são interativas.
@@ -126,6 +126,6 @@ Quando faz uma pergunta no Cortana, o Power BI responde a partir das páginas de
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Ativar a integração entre o Cortana, Power BI e Windows para relatórios](service-cortana-enable.md)
 

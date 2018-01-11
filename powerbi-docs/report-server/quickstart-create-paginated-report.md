@@ -97,7 +97,7 @@ Quando o seu relatório estiver pronto, guarde-o no Power BI Report Server.
    
     ![Relatório paginado no browser](media/quickstart-create-paginated-report/reportserver-paginated-report.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Existem muitos recursos excelentes para estruturar relatórios no Report Builder e no Report Designer no SQL Server Data Tools. Os tutoriais do Report Builder são um bom local para começar.
 
 * [Tutoriais do Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)

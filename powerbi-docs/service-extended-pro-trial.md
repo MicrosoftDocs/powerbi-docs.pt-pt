@@ -1,5 +1,5 @@
 ---
-title: "Ativação da Avaliação Pro Estendida"
+title: "Ativação da Avaliação Pro Expandida"
 description: "A partir de 1 de junho de 2017, todos os utilizadores elegíveis poderão optar ativamente pela Avaliação Pro Expandida do serviço Power BI."
 services: powerbi
 documentationcenter: 
@@ -23,7 +23,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 11/13/2017
 ---
-# <a name="extended-pro-trial-activation"></a>Ativação da Avaliação Pro Estendida
+# <a name="extended-pro-trial-activation"></a>Ativação da Avaliação Pro Expandida
 A partir de 1 de junho de 2017, todos os utilizadores elegíveis poderão optar ativamente pela Avaliação Pro Expandida do serviço Power BI.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tPsNoPyY9aA?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -88,16 +88,16 @@ Após a ativação, verá o número de dias restantes na sua avaliação na part
 
 Pode rever os termos nos [Termos e condições da oferta Avaliação Pro Expandida](https://aka.ms/power-bi-trial). A Avaliação Pro Expandida está em vigor até 31 de maio de 2018 para todos os utilizadores elegíveis.
 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="frequently-asked-questions"></a>Perguntas mais frequentes
 **O que acontece aos novos utilizadores que se inscreveram após 3 de maio de 2017?**
 
-Os utilizadores que se inscreveram no Power BI Gratuito a partir de 3 de maio de 2017 não são elegíveis para a Avaliação Pro Expandida. No entanto, são elegíveis para a Avaliação Pro padrão de 60 dias.
+Os utilizadores que se inscreveram no Power BI Gratuito a partir de 3 de maio de 2017 não são elegíveis para a Avaliação Pro Expandida. No entanto, são elegíveis para a Avaliação Pro standard de 60 dias.
 
 **Como sei quem na minha organização é elegível para a Avaliação Pro Expandida?**
 
-Apesar de não haver uma forma direta de o descobrir, pode ver o relatório de Aplicações Integradas do Azure Active Directory para que o Power BI veja quem são os utilizadores ativos na sua organização nos últimos 30 dias. Isto pode dar-lhe uma ideia de quem pode ser elegível. Para obter mais informações, veja [Encontrar utilizadores do Power BI que iniciaram sessão](service-admin-access-usage.md).
+Apesar de não haver uma forma direta de o descobrir, pode ver o relatório de Aplicações Integradas do Azure Active Directory para que o Power BI veja quem são os utilizadores ativos na sua organização nos últimos 30 dias. Isto pode dar-lhe uma ideia de quem pode ser elegível. Para obter mais informações, consulte [Encontrar utilizadores do Power BI que iniciaram sessão](service-admin-access-usage.md).
 
-Esses utilizadores ativos no período de elegibilidade, e que têm licenças gratuitas, receberão a notificação de pop-up. 
+Esses utilizadores ativos no período de elegibilidade, e que têm licenças gratuitas, receberão a notificação pop-up. 
 
 > [!NOTE]
 > O relatório do Azure ID não indica se um utilizador é Gratuito ou Pro no Power BI. Reporta apenas que utilizadores iniciaram sessão no Power BI e quando iniciaram sessão. Se um utilizador estiver listado neste relatório, não significa necessariamente que seja elegível para a Avaliação Pro Expandida.
@@ -108,7 +108,7 @@ Esses utilizadores ativos no período de elegibilidade, e que têm licenças gra
 
 Não. Os administradores não têm uma forma de impedir os utilizadores de ativarem a Avaliação Pro Expandida ou a avaliação de 60 dias do serviço Power BI Pro.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Termos e condições da oferta Avaliação Pro Expandida](https://aka.ms/power-bi-trial)  
 [Contrato de serviço do Power BI para utilizadores individuais](https://powerbi.microsoft.com/terms-of-service/)  
 [Anúncio do Power BI Premium](https://aka.ms/pbipremium-announcement)  

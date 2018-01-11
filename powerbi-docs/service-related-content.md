@@ -101,7 +101,7 @@ A partir daqui, pode efetuar ações diretamente sobre os conteúdos relacionado
 * Os conteúdos relacionados não estão disponíveis no Power BI Desktop.
 * A funcionalidade de conteúdos relacionados não funciona em transmissão de conjuntos de dados.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 * [Introdução ao serviço Power BI](service-get-started.md)
 * Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -35,23 +35,23 @@ Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
 Depois, na aplicação Power BI para telemóveis Android, interaja com os seus dashboards e relatórios, seja no local ou na cloud.
 
-Descubra as [novidades nos aplicativos móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
+Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
-## <a name="first-things-first"></a>As coisas mais importantes primeiro
-* **Obter o aplicativo** [Obtenha o aplicativo do Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
+## <a name="first-things-first"></a>Comecemos pelo mais importante
+* **Obter a aplicação** [Obtenha a aplicação Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
   
   O Power BI pode ser executado em diferentes telemóveis Android. O seu telemóvel precisa de executar o sistema operativo Android 5.0 ou posterior. Para consultar no seu telemóvel, aceda a **Definições** > **Acerca do dispositivo** > **Versão do Android**. 
-* **Iniciar ao abrir o aplicativo**    Mesmo sem se inscrever ou se conectar, depois de abrir o aplicativo é possível percorrer as páginas de entrada para obter uma visão geral rápida daquilo que você pode fazer com o aplicativo Power BI em seu telefone Android. Toque em **Ignorar** para exibir e explorar os exemplos e obter experiência prática com o aplicativo. Pode [voltar aos exemplos](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) sempre que quiser na página inicial dos relatórios.
-* Descubra as [novidades nos aplicativos móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
+* **Iniciar ao abrir a aplicação**    Mesmo sem se inscrever ou sem se ligar, depois de abrir a aplicação é possível percorrer as páginas de entrada para obter uma visão geral rápida daquilo que pode fazer com a aplicação Power BI no seu telefone Android. Toque em **Ignorar** para ver e explorar os exemplos e obter experiência prática com a aplicação. Pode [voltar aos exemplos](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) sempre que quiser na página inicial dos relatórios.
+* Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
-## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço do Power BI na Web
-Se você ainda não se inscreveu, vá para o [serviço do Power BI (http://powerbi.com/)](http://powerbi.com/) para se inscrever e obter sua conta e criar e armazenar dashboards e relatórios, além de reunir dados. Em seguida, entre no Power BI de seu Android para ver seus próprios painéis, de qualquer lugar.
+## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço Power BI na Web
+Se ainda não se inscreveu, vá a [serviço Power BI (http://powerbi.com/)](http://powerbi.com/) para se inscrever, obter a sua conta, criar e armazenar dashboards e relatórios e reunir os seus dados. Em seguida, entre no Power BI a partir do seu telefone Android para ver os seus dashboards em qualquer local.
 
-1. No serviço do Power BI, toque em [Inscrever-se](http://go.microsoft.com/fwlink/?LinkID=513879) para criar uma conta do Power BI.
-2. Comece a [criar seus próprios dashboards e relatórios](service-get-started.md).
+1. No serviço Power BI, toque em [Inscrever-se](http://go.microsoft.com/fwlink/?LinkID=513879) para criar uma conta do Power BI.
+2. Comece a [criar os seus próprios dashboards e relatórios](service-get-started.md).
 
 ## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>Introdução à aplicação Power BI no seu telemóvel
-1. No Android, na tela inicial, abra o Power BI para o aplicativo do Android.
+1. No Android, no ecrã inicial, abra a aplicação Power BI para Android.
    
    ![Ícone do Power BI](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. Para ver os seus dashboards e relatórios do Power BI, toque em **Power BI**.  
@@ -63,10 +63,10 @@ Se você ainda não se inscreveu, vá para o [serviço do Power BI (http://power
    
    Para ver os relatórios e KPIs do Power BI Report Server e do Reporting Services, toque em **Report Server**.
    
-   ![Entrar no Power BI](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
+   ![Iniciar sessão no Power BI](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimentar os exemplos do Power BI e do Reporting Services
-Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de baixar o aplicativo, você pode exibir os exemplos ou começar. Volte para os exemplos sempre que quiser, nos painéis na página inicial.
+Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte aos exemplos quando quiser a partir da página inicial dos dashboards.
 
 ### <a name="power-bi-samples"></a>Exemplos do Power BI
 Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com eles. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
@@ -119,17 +119,17 @@ O Microsoft Intune permite às organizações controlar elementos como exigir um
 
 Saiba mais sobre [configurar as aplicações móveis do Power BI para Android com o Microsoft Intune](service-admin-mobile-intune.md). 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 Eis outras coisas que pode fazer na aplicação para telemóvel Android do Power BI com dashboards e relatórios no Power BI, e relatórios e KPIs no portal Web do Power BI Report Server ou Reporting Services.
 
-### <a name="power-bi-dashboards-and-reports"></a>Painéis e relatórios do Power BI
+### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
 * Veja [as suas aplicações](service-install-use-apps.md).
-* Veja seus [dashboards](mobile-apps-view-dashboard.md).
-* Explore os [blocos nos dashboards](mobile-tiles-in-the-mobile-apps.md).
+* Veja os seus [dashboards](mobile-apps-view-dashboard.md).
+* Explore os [mosaicos nos dashboards](mobile-tiles-in-the-mobile-apps.md).
 * Abra [relatórios do Power BI](mobile-reports-in-the-mobile-apps.md).
 * Veja [as suas aplicações](service-install-use-apps.md).
-* [Anote e compartilhe blocos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
-* Compartilhe [dashboards](mobile-share-dashboard-from-the-mobile-apps.md).
+* [Anote e partilhe mosaicos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+* Partilhe [dashboards](mobile-share-dashboard-from-the-mobile-apps.md).
 * [Leia um código QR do Power BI](mobile-apps-qr-code.md) para abrir um dashboard ou mosaico relacionado. 
 * Veja as [notificações sobre atualizações à sua conta do Power BI](mobile-apps-notification-center.md), como os dashboards que os colegas partilham consigo.
 
@@ -139,7 +139,7 @@ Eis outras coisas que pode fazer na aplicação para telemóvel Android do Power
 * Crie [relatórios no Power BI Desktop e publique-os no portal Web do Power BI Report Server](report-server/quickstart-create-powerbi-report.md)
 
 ### <a name="see-also"></a>Consulte também
-* [Baixe o aplicativo Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicativos Android.
+* [Transfira a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) a partir da loja de aplicações Android.
 * [Introdução ao Power BI](service-get-started.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

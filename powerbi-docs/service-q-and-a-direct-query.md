@@ -64,7 +64,7 @@ Durante a fase de Pré-visualização desta funcionalidade, existem diversas lim
 * O suporte integral para segurança ao nível de linha definido no SQL Server Analysis Services não está inicialmente disponível na pré-visualização pública. Ao colocar perguntas nas Perguntas e Respostas, o "preenchimento automático" de perguntas ao escrever pode mostrar valores de cadeias às quais um utilizador não tem acesso. No entanto, a RLS definida no modelo é respeitada em visuais de gráficos e relatórios, o que impede a exposição dos dados numéricos subjacentes. As opções para controlar este comportamento serão lançadas em atualizações futuras.
 * As ligações em direto só são suportadas com o gateway de dados no local. Como resultado, não é possível utilizar esta funcionalidade com o gateway pessoal.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Power BI Quick Insights](service-insights.md)  

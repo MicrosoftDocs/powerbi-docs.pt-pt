@@ -73,7 +73,7 @@ O portal Web é uma aplicação Web executada num browser. Quando inicia o porta
    * Relatórios do Power BI Desktop
    * Livros do Excel
    * Conjuntos de dados
-   * Fontes de dados
+   * Origens de dados
    * Recursos
 
 ## <a name="create-and-edit-power-bi-desktop-reports-pbix-files"></a>Criar e editar relatórios do Power BI Desktop (ficheiros .pbix)
@@ -184,7 +184,7 @@ Pode mudar para a vista Lista, onde é fácil mover ou eliminar vários itens em
     ![Alternar entre vistas](media/getting-around/report-server-web-portal-list-view.png)
 2. Selecione os itens e, em seguida, selecione **Mover** ou **Eliminar**.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Manual do utilizador](user-handbook-overview.md)  
 [Início rápido: relatórios paginados](quickstart-create-paginated-report.md)  
 [Início rápido: relatórios do Power BI](quickstart-create-powerbi-report.md)

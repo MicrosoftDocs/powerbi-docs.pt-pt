@@ -130,7 +130,7 @@ Pode melhorar os resultados que o utilizador e os seus clientes obtêm quando es
 ### <a name="how-to-enhance-the-dataset"></a>Como melhorar o conjunto de dados
 * Melhore o conjunto de dados no Power BI Desktop ou no serviço Power BI para [fazer com que os seus dados funcionem bem com as Perguntas e Respostas e o analista virtual Perguntas e Respostas](service-prepare-data-for-q-and-a.md).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 * [Perguntas e Respostas no serviço Power BI](service-q-and-a.md)
 * Perguntas? Consulte a [secção sobre aplicações móveis da Comunidade do Power BI](https://go.microsoft.com/fwlink/?linkid=839277)
 
