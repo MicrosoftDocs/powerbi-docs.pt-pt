@@ -40,7 +40,7 @@ Antes de instalar o Power BI Report Server, recomendamos que consulte os [Requis
 
 ### <a name="power-bi-report-server-product-key"></a>Chave de produto do Power BI Report Server
 #### <a name="power-bi-premium"></a>Power BI Premium
-Se tiver adquirido o Power BI Premium, no separador **Definições Premium** do portal de administração do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção estará apenas disponível para Administradores Globais ou utilizadores com a função de administrador de serviço do Power BI atribuída.
+Se tiver adquirido o Power BI Premium, no separador **Definições Premium** do portal de administração do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção estará apenas disponível para Administradores Globais ou utilizadores com a função de administrador de serviços do Power BI atribuída.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "Chave do Power BI Report Server nas definições Premium")
 
@@ -55,7 +55,7 @@ Se tem um contrato do SQL Server Enterprise SA, pode obter a sua chave de produt
 É simples instalar o Power BI Report Server. Bastam alguns passos para instalar os ficheiros.
 
 > [!NOTE]
-> Não precisa de um servidor de Base do motor de dados do SQL Server aquando da instalação. Precisará de um para configurar o Reporting Services após a instalação.
+> Não precisa de um servidor de motor de Base de Dados do SQL Server aquando da instalação. Precisará de um para configurar o Reporting Services após a instalação.
 > 
 > 
 
@@ -140,7 +140,7 @@ Terá de abrir a porta TCP que configurou para o seu URL de Serviço Web e URL d
 * Para configurar o e-mail para o processamento de subscrições, consulte [Definições de e-mails](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) e [Entrega de e-mails num servidor de relatório](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
 * Para configurar o portal Web para que possa aceder ao mesmo num computador de relatório para ver e gerir relatórios, consulte [Configurar uma firewall para acesso ao servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) e [Configurar um servidor de relatórios para administração remota](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Passos seguintes
 [Manual do administrador](admin-handbook-overview.md)  
 [Como encontrar a sua chave de produto de servidor de relatório](find-product-key.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  

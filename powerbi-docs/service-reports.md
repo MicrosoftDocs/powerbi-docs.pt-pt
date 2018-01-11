@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: d974fbac281fc8f1d74553d1342f7056fa8d7b03
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 ## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
@@ -71,7 +71,7 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 
 ### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Se for receber e consumir relatórios
 * Comece por uma [apresentação do serviço Power BI](service-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
-* Saiba como [abrir um relatório](service-report-open-in-reading-view.md) e todas as interações disponíveis na [Vista de leitura](service-dashboard-tiles.md).
+* Saiba como [abrir um relatório](service-report-open.md) e todas as interações disponíveis na [Vista de leitura](service-reading-view-and-editing-view.md).
 * Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](sample-tutorial-connect-to-the-samples.md).  
 * Já não necessita do relatório? Pode [removê-lo](service-delete.md).
 * Para ver que conjunto de dados o relatório está a utilizar e que dashboards têm esta informação afixada do relatório, [veja os conteúdos relacionados](service-related-content.md).

@@ -1,6 +1,6 @@
 ---
-title: Dicas e truques para fazer perguntas com a P e R no Power BI
-description: Dicas e truques para fazer perguntas com a P e R no Power BI
+title: Dicas e truques para fazer perguntas com as Perguntas e Respostas do Power BI
+description: Dicas e truques para fazer perguntas com as Perguntas e Respostas do Power BI
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -23,8 +23,8 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 11/13/2017
 ---
-# <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas na P e R do Power BI
-## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecida pela P e R
+# <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
+## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecidas pelas Perguntas e Respostas
 Esta lista de palavras-chave não é exaustiva.  A melhor forma de saber se o Power BI reconhece uma palavra-chave é escrevê-la na caixa de perguntas.  Se a palavra ou o termo estiver a cinzento, significa que o Power BI não o reconhece ou que não o reconhece no contexto atual.
 
 A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhecidos na maioria dos casos. Por exemplo, "é" inclui são, foi, foram, serão, foi, irá, tem, fazer, faz, fez.  "Ordena" inclui ordenar e ordenação.  Além disso, o Power BI reconhece e inclui versões singulares e plurais de uma palavra. Por exemplo, o Power BI reconhece "ano" e "anos".
@@ -84,24 +84,24 @@ Exemplo: mostrar distritos por mês e total de vendas como gráfico de barras
 
 **Q (relação, qualificado)**: quando, onde, qual, quem, a quem, quantos, quanto, quantas vezes, com que frequência, montante, número, quantidade, quanto tempo, o quê
 
-## <a name="qa-helps-you-phrase-the-question"></a>A P e R ajuda a formular a pergunta
-A P e R faz todo o possível para garantir que a resposta reflita com precisão a pergunta que está sendo feita. Ela faz isso de várias maneiras. Para todos esses, é possível aceitar a ação completa, a ação parcial ou não aceitá-la. Ao digitar sua pergunta, a P e R:
+## <a name="qa-helps-you-phrase-the-question"></a>As Perguntas e Respostas ajudam-no a formular a pergunta
+As Perguntas e Respostas fazem o melhor possível para garantir que a resposta reflete com precisão a pergunta que está a ser feita. E fá-lo de várias formas. Em todas elas é possível aceitar a ação por completo, parcialmente ou não aceitá-la. Ao escrever a sua pergunta, as Perguntas e Respostas:
 
-* preenche automaticamente palavras e perguntas. Ele usa várias estratégias, incluindo palavras reconhecíveis com preenchimento automático, perguntas comuns para as pastas de trabalho subjacentes e perguntas usadas anteriormente que retornaram respostas válidas. Se houver mais de uma opção de preenchimento automático disponível, elas serão apresentadas em uma lista suspensa.
+* preenchem automaticamente palavras e perguntas. Utiliza várias estratégias, incluindo palavras reconhecíveis com preenchimento automático, perguntas comuns para os livros subjacentes e perguntas usadas anteriormente que devolveram respostas válidas. Se houver mais do que uma opção de preenchimento automático disponível, as mesmas serão apresentadas numa lista pendente.
 * corrige a ortografia.
 * apresenta uma pré-visualização da resposta sob a forma de uma visualização. A visualização é atualizada à medida que escreve e edita a pergunta (não espera até que prima Enter).
-* sugere automaticamente termos de substituição do(s) conjunto(s) de dados subjacente(s) quando você move o cursor de volta para a caixa de pergunta.
-* reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). Isso ajuda a garantir que a P e R entendeu sua pergunta, já que ela substitui as palavras usadas por sinônimos do(s) conjunto(s) de dados subjacente(s).
-* esmaece as palavras que não são entendidas.
+* sugere automaticamente termos de substituição do(s) conjunto(s) de dados subjacente(s) quando move o cursor de novo para a caixa de perguntas.
+* reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). Isto ajuda a garantir que as Perguntas e Respostas perceberam a sua pergunta, já que substitui as palavras que usou por sinónimos do(s) conjunto(s) de dados subjacente(s).
+* esbate as palavras que não são entendidas.
 
 ## <a name="combine-results-from-more-than-one-dataset"></a>Combinar resultados de mais de um conjunto de dados
 Uma das funcionalidades mais poderosas do Power BI é a capacidade de combinar dados de conjuntos de dados diferentes.  Por isso, não limite as perguntas a um único conjunto de dados. Coloque perguntas que obtenham dados de mais de um conjunto de dados. Por exemplo, se o meu dashboard tiver mosaicos do Exemplo de Análise de Retalho e um conjunto de dados de população do estado, pode pedir para *mostrar contagem de lojas por população de estado como gráfico de barras descendente*.
 
 ## <a name="dont-stop-now"></a>Não parar agora
-Depois que a P e R exibir os resultados, é só conversar! Use os recursos interativos da visualização e das P e R para descobrir mais informações.
+Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! Use as funcionalidades interativas da visualização e as Perguntas e Respostas para descobrir mais informações.
 
-## <a name="next-steps"></a>Próximas etapas
-Voltar a [P e R no Power BI](service-q-and-a.md)  
+## <a name="next-steps"></a>Passos seguintes
+Voltar a [Perguntas e Respostas do Power BI](service-q-and-a.md)  
 
 [Power BI - conceitos básicos](service-basic-concepts.md)  
 
