@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/14/2017
+ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: 4162ebf02ad401242d724cb90b0f68920db435f6
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: e3072e4a99c04e977579274c6d95f5bb1007e870
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway de dados local (modo pessoal)
 Pode utilizar origens de dados no local e criar relatórios do Power BI e dashboards com um gateway. Um **gateway** é um software que facilita o acesso aos dados que estão armazenados numa rede privada no local, e permite-lhe utilizar dados nos serviços online, como o **serviço do Power BI**. O **gateway de dados no local (modo pessoal)** é uma atualização lançada recentemente para o gateway do Power BI que permite aos indivíduos instalarem um gateway no seu próprio computador e obter acesso a dados no local.
@@ -145,5 +145,5 @@ O suporte do Spark está planeado para o segundo semestre de 2017.
 
 ## <a name="next-steps"></a>Passos seguintes
 [Configurar definições de proxy para os Gateways do Power BI](service-gateway-proxy.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
