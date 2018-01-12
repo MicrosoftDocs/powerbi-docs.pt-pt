@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
-* Ainda tem problemas? Consulte a [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
-* Em alternativa, clique no ícone **Contactem-me**![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) no canto inferior direito da janela do browser.
+* Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-microsoft-power-bi"></a>O que é o Microsoft Power BI?
 O [Power BI](https://powerbi.microsoft.com/) é um serviço de análise de negócios baseado em nuvem que permite que qualquer pessoa visualize e analise dados com maior velocidade, eficiência e compreensão. Este liga os utilizadores a uma ampla variedade de dados por meio de dashboards fáceis de usar, relatórios interativos e visualizações atraentes para dar vida aos dados.
@@ -126,7 +125,7 @@ Estão disponíveis os seguintes recursos para ajudá-lo a começar:
 * Vídeos de introdução no nosso [Canal do YouTube](https://www.youtube.com/user/mspowerbi)
 * Artigo [Introdução ao Power BI](service-get-started.md)
 * [Junte-se à nossa comunidade](https://community.powerbi.com/) e faça perguntas
-* Consulte [10 dicas para obter ajuda](service-tips-for-finding-help.md) para obter mais sugestões.
+* Veja [10 tips for getting help (10 sugestões para obter ajuda)](service-tips-for-finding-help.md) para obter mais sugestões
 
 ## <a name="what-browsers-does-power-bi-support"></a>Que browsers são suportados pelo Power BI?
 Veja uma lista completa de [browsers suportados para o Power BI](service-browser-support.md).
@@ -138,6 +137,11 @@ Veja uma lista completa de [regiões e idiomas suportados para o Power BI](suppo
 Pode comprar licenças do Power BI Pro diretamente ou falar por chat com um representante em [www.powerbi.com](http://www.powerbi.com).
 
 Também pode encontrar um [Parceiro da Microsoft](https://partner.microsoft.com/) para ajudá-lo com a implementação do Power BI.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>O que acontece se a minha licença do Power BI Pro expirar?
+Após a licença do Power BI Pro expirar existe um período de tolerância de 30 dias.
+
+O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Office 365. Para obter mais informações, consulte [O que acontece aos meus dados e acesso quando a minha subscrição do Office 365 para empresas termina?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>O Power BI cumpre requisitos de conformidade nacionais, regionais e específicos da indústria?
 Saiba mais sobre a conformidade do Power BI no [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).
@@ -156,5 +160,4 @@ Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma fo
 ## <a name="next-steps"></a>Passos seguintes
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 * Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/)
-* Em alternativa, clique no ícone **Contactem-me**![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) no canto inferior direito da janela do browser.
 
