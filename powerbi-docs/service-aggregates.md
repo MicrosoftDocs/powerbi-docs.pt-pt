@@ -1,5 +1,5 @@
 ---
-title: "Agregados (soma, média, máximo, etc.) no Power BI"
+title: "Agregados (soma, média, máximo, etc.) em visualizações"
 description: "Alterar a agregação num gráfico (soma, média, máximo, etc.) no Power BI"
 services: powerbi
 documentationcenter: 
@@ -15,43 +15,63 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 40ed3ce1dbb228d8418c8cd5ca7de4bcb0731c2b
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/09/2018
 ---
-# <a name="aggregates-in-power-bi"></a>Agregados no Power BI
+# <a name="aggregates-in-power-bi-visualizations"></a>Agregados em visualizações do Power BI
 ## <a name="what-is-an-aggregate"></a>O que é um agregado?
-Por vezes, pode querer combinar matematicamente os valores das linhas numa coluna. A operação matemática pode ser uma soma, média, máximo, contagem, etc. A operação de combinar o valor dos dados em linhas numa coluna denomina-se agregar. O resultado dessa operação matemática é um *agregado*. 
+Por vezes, pode querer combinar matematicamente valores nos seus dados. A operação matemática pode ser uma soma, média, máximo, contagem, etc. O processo de combinar valores nos seus dados denomina-se *agregação*. O resultado dessa operação matemática é um *agregado*. 
 
-Um campo numérico é um valor que será agregado (somado ou cuja média será obtida, por exemplo) num campo categórico.  Por exemplo, "montante de vendas por produto" e "número de defeitos por região". Normalmente, os campos numéricos são denominados **medidas**. Na lista Campos, as medidas são apresentadas com o símbolo ∑. Para obter mais informações, veja [O editor de relatórios... faça uma visita](service-the-report-editor-take-a-tour.md).
+Quando o serviço Power BI e o Power BI Desktop criam visualizações, podem agregar os seus dados. Muitas vezes, a agregação é exatamente aquilo de que precisa, mas outras vezes poderá querer agregar os valores de outra forma.  Por exemplo, uma soma versus uma média. Existem várias formas diferentes de gerir e alterar a agregação utilizada numa visualização.
 
-Por vezes, uma *medida* é na verdade uma *medida calculada*. As medidas calculadas no Power BI são importadas com os dados (definidos no modelo de dados no qual o relatório se baseia). Cada medida calculada tem a sua própria fórmula codificada. Não é possível alterar a agregação utilizada; por exemplo, se for uma soma, esta só poderá ser uma soma. Na lista de Campos, as *medidas calculadas* são mostradas com o símbolo de calculadora. Para obter mais informações sobre como as medidas calculadas são criadas, consulte [Medidas no Power BI Desktop](desktop-measures.md).
+Primeiro, vamos observar os *tipos* de dados, pois são estes que determinam como (e se) os dados podem ser agregados.
 
-Os campos categóricos não são numéricos, mas podem, ainda assim, ser agregados.  Quando os campos categóricos forem colocados num registo *exclusivamente numérico* como **Valores** ou **Descrições**, o Power BI pode contar as ocorrências de cada categoria ou contar as ocorrências diferentes de cada categoria.  Para cadeias e datas, o Power BI tem mais algumas opções de agregados: mais antigos, mais recentes, primeiros e últimos.  
+## <a name="types-of-data"></a>Tipos de dados
+A maioria das bases de dados tem mais do que um tipo de dados. No nível mais básico, os dados são numéricos ou não numéricos. Os dados numéricos podem ser agregados através de uma soma, média, contagem, mínimo, desvio, entre muitas outras formas. Até os dados textuais, frequentemente denominados dados *categóricos*, podem ser agregados. Se tentar agregar campos categóricos (ao colocá-los num registo exclusivamente numérico como **Valores** ou **Descrições**), o Power BI pode contar as ocorrências de cada categoria ou contar as ocorrências diferentes de cada categoria. Os tipos de dados especiais, como as datas, têm algumas opções de agregação exclusivas: mais antiga, mais recente, primeiro e último. 
+
+No exemplo abaixo:
+- **Unidades Vendidas** e **Preço de Fabrico** são colunas que contêm dados numéricos
+-  **Segmento**, **País**, **Produto**, **Mês** e **Nome do Mês** contêm dados categóricos
+
+   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+
+Quando é criada uma visualização no Power BI,a agregação dos campos numéricos (a predefinição é *soma*) precede a agregação dos campos categóricos.  Por exemplo, "Unidades Vendidas ***por Produto***", "Unidades Vendidas ***por Mês***" e "Preço de Fabrico ***por Segmento***". Alguns campos numéricos são denominados **medidas**. É fácil identificar medidas no editor de relatórios do Power BI. As medidas são mostradas juntamente com o símbolo ∑ na lista Campos. Para obter mais informações, veja [O editor de relatórios... faça uma visita](service-the-report-editor-take-a-tour.md).
+
+![](media/service-aggregates/power-bi-aggregate-fields.png)
+
+
 
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>Por que é que os agregados não funcionam da forma que pretendo?
 Trabalhar com agregados no serviço Power BI pode ser confuso; poderá ter um campo numérico e o Power BI não permitirá que altere a agregação. Pode também ter um campo, como um ano, que não pretenda agregar, mas apenas contar o número de ocorrências.
 
-Na maioria das vezes, a origem do problema é a forma como o campo foi categorizado no conjunto de dados do Power BI. Talvez o campo esteja categorizado como texto, o que explica não se poder calcular a soma ou a média. Infelizmente, [apenas o proprietário do conjunto de dados pode alterar a forma como um campo é categorizado](desktop-measures.md).  
+Na maioria das vezes, a origem do problema é a forma como o campo foi definido no conjunto de dados. Talvez o campo esteja definido como texto, o que explica não ser possível calcular a soma ou a média. Infelizmente, [apenas o proprietário do conjunto de dados pode alterar a forma como um campo é categorizado](desktop-measures.md). Por isso, se tiver permissões de proprietário no conjunto de dados, pode utilizar o Power BI Desktop ou o programa que foi utilizado para criar o conjunto de dados (por exemplo, o Excel) para corrigir este problema. Caso contrário, precisará de contactar o proprietário do conjunto de dados para obter ajuda.  
 
-Para ajudá-lo a navegar nestes aspetos mais confusos, temos uma secção especial no final deste artigo, intitulada **Sugestões e resolução de problemas**.  Se não encontrar resposta aqui, publique a sua pergunta no [fórum de Comunidade do Power BI](http://community.powerbi.com) para obter uma resposta rápida diretamente da equipa do Power BI.
+Para o ajudar a navegar nestes aspetos mais confusos, temos uma secção especial no final deste artigo, intitulada **Considerações e resolução de problemas**.  Se não encontrar resposta aqui, publique a sua pergunta no [fórum de Comunidade do Power BI](http://community.powerbi.com) para obter uma resposta rápida diretamente da equipa do Power BI.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Mudar a forma como um campo numérico é agregado
-Suponhamos que tem um gráfico que soma os dados de vendas de regiões diferentes, mas prefere a média. 
+Suponhamos que tem um gráfico que soma as unidades vendidas de produtos diferentes, mas prefere ter a média. 
 
-1. Na vista de Edição do relatório, adicione a medida a uma visualização.
-2. Encontre o campo no painel Visualizações, clique com o botão direito do rato e selecione o tipo de agregado de que necessita. Se não vir a agregação de que precisa, contacte o proprietário do conjunto de dados. Pode haver um problema na forma como o campo foi categorizado pelo proprietário.  
+1. Crie um gráfico que utilize uma categoria e uma medida. Neste exemplo, estamos a utilizar Unidades Vendidas por Produto.  Por predefinição, o Power BI cria um gráfico que soma as unidades vendidas (medida no conjunto de campos Valor) de cada produto (categoria no conjunto de campos Eixo).
+
+   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+
+2. No painel Visualizações, clique com o botão direito do rato na medida e selecione o tipo de agregação de que necessita. Neste caso, selecionamos Média. Se não conseguir ver a agregação de que precisa, veja a secção "Considerações e resolução de problemas" abaixo.  
    
-   ![](media/service-aggregates/aggregate_new.png)
+   ![](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > As opções disponíveis no menu pendente variam de acordo com 1) o campo selecionado e 2) a forma como esse campo foi categorizado pelo mesmo proprietário do conjunto de dados.
    > 
-   > 
+3. Agora, a sua visualização está a utilizar a agregação por média.
+
+   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+
+##    <a name="ways-to-aggregate-your-data"></a>Formas de agregar os seus dados
 
 Algumas das opções que podem estar disponíveis para a agregação de um campo:
 
@@ -91,47 +111,48 @@ Daria os seguintes resultados:
 * **Desvio:** 416.666...
 * **Mediana:** 125
 
-## <a name="use-a-non-aggregated-field-as-a-numeric-field"></a>Usar um campo não agregado como um campo numérico
-Também pode usar um campo não agregado como um campo numérico. Por exemplo, se tiver um campo Nome do Produto, poderá adicioná-lo como um valor e defini-lo como **Contagem** ou **Contagem distinta**. 
+## <a name="create-an-aggregate-using-a-category-text-field"></a>Criar uma agregação com um campo categórico (de texto)
+Também pode agregar um campo não numérico. Por exemplo, se tiver um campo com o nome do produto, poderá adicioná-lo como um valor e defini-lo como **Contagem**, **Contagem distinta**, **Primeiro** ou **Último**. 
 
-1. Por exemplo, se selecionar **Loja > Cadeia**.
+1. Neste exemplo, arrastámos o campo **Produto** para o conjunto de campos Valores. O conjunto de campos Valores costuma ser utilizado para campos numéricos. O Power BI reconhece que é um campo de texto, define o agregado para **Não resumir** e apresenta-nos uma tabela de coluna única.
    
-   ![](media/service-aggregates/count-of-chain-do_not_summarize.png)
-2. E se alterar a agregação do padrão **Não resumir** para **Contagem (Distinta)**, o Power BI contará o número de diferentes cadeias. Neste caso, existem 2: Fashions Direct e Lindseys.
+   ![](media/service-aggregates/power-bi-aggregate-value.png)
+2. Se alterarmos a agregação da predefinição **Não resumir** para **Contagem (Distinta)**, o Power BI contará o número de produtos diferentes. Neste caso, existem 4.
    
-   ![](media/service-aggregates/aggregates_count.png)
-3. Se alterar a agregação para **Contagem**, o Power BI contará o número total. Neste caso, há 104 entradas para **Cadeia**. Adicionando **Cadeia** como filtro, pode ver que há 37 linhas para Fashions Direct e 67 para Lindseys.  
+   ![](media/service-aggregates/power-bi-aggregates-count.png)
+3. Se alterarmos a agregação para **Contagem**, o Power BI contará o número total. Neste caso, existem 7 entradas para **Produto**. 
    
-   ![](media/service-aggregates/count_of_chain_104.png)
+   ![](media/service-aggregates/power-bi-aggregate-count2.png)
 
-## <a name="tips-and-troubleshooting"></a>Sugestões e Resolução de Problemas
+4. Ao arrastarmos o mesmo campo (neste caso, **Produto**) para o conjunto de campos Valores e deixarmos a agregação predefinida como **Não resumir**, o Power BI divide a contagem por produto.
+
+   ![](media/service-aggregates/power-bi-aggregate-final.png)
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e Resolução de Problemas
 P:  Por que não tenho uma opção de **Não resumir**?
 
-R: Provavelmente, o campo que selecionou é uma medida calculada. Lembre-se de que cada medida calculada tem a sua própria fórmula codificada. Não pode alterar o cálculo.
+R: É possível que o campo que selecionou seja uma medida calculada ou uma medida avançada criada no Excel ou no [Power BI Desktop](desktop-measures.md). Cada medida calculada tem a sua própria fórmula codificada. Não pode alterar a agregação utilizada.  Por exemplo, se for uma soma, só poderá ser uma soma. Na lista de Campos, as *medidas calculadas* são mostradas com o símbolo de calculadora.
 
 P:  O meu campo **é** numérico, por que é que só tenho as opções de **Contagem** e **Contagem distinta**?
 
-R: Provavelmente, tal acontece porque o proprietário do conjunto de dados, acidental ou intencionalmente, *não* classificou o campo como um número. Por exemplo, se um conjunto de dados for um campo de **ano**, o proprietário do conjunto de dados poderá categorizá-lo como texto porque é mais provável que o campo **ano** seja contabilizado (por exemplo, número de pessoas nascidas em 1974) e que não seja calculada a sua soma ou média. Se for proprietário, pode abrir o conjunto de dados no Power BI Desktop e utilizar o separador **Modelação** para alterar o tipo de dados.  
+R1: Provavelmente, tal acontece porque o proprietário do conjunto de dados, acidental ou intencionalmente, *não* classificou o campo como um número. Por exemplo, se um conjunto de dados for um campo de **ano**, o proprietário do conjunto de dados poderá categorizá-lo como texto porque é mais provável que o campo **ano** seja contabilizado (por exemplo, número de pessoas nascidas em 1974) e que não seja calculada a sua soma ou média. Se for proprietário, pode abrir o conjunto de dados no Power BI Desktop e utilizar o separador **Modelação** para alterar o tipo de dados.  
 
-R: Também é possível que tenha deixado o campo num *registo* que apenas permite valores categóricos.  Nesse caso, as suas únicas opções serão a contagem e a contagem distinta.
+R2: Se o campo tiver um ícone de calculadora, significa que é uma *medida calculada* e cada medida calculada tem a sua própria fórmula codificada que só pode ser alterada por um proprietário do conjunto de dados. O cálculo utilizado pode ser uma agregação simples, como uma soma ou uma média, mas pode também ser algo mais complexo, como uma "percentagem de contributo para categoria principal" ou um "total desde início do ano". O Power BI não vai calcular a soma ou a média dos resultados; vai recalcular (com a fórmula codificada) para cada ponto de dados.
 
-R: A terceira hipótese é estar a utilizar o campo para um eixo. No eixo de um gráfico de barras, por exemplo, o Power BI mostra uma barra para cada valor distinto; não agrega os valores dos campos. 
+R3: Também é possível que tenha deixado o campo num *registo* que apenas permite valores categóricos.  Nesse caso, as suas únicas opções serão a contagem e a contagem distinta.
+
+R4: A terceira hipótese é estar a utilizar o campo para um eixo. No eixo de um gráfico de barras, por exemplo, o Power BI mostra uma barra para cada valor distinto; não agrega os valores dos campos. 
 
 >[!NOTE]
 >A exceção a esta regra são os gráficos de dispersão, que *requerem* valores agregados para os eixos X e Y.
 
-
-P: Tenho um diagrama de dispersão e quero que o meu campo *não* agregue.  Como o posso fazer?
+P: Tenho um gráfico de dispersão e quero que o meu campo *não* agregue.  Como o posso fazer?
 
 R: Adicione o campo ao registo **Detalhes** e não aos registos dos eixos X e Y.
 
 P: Quando adiciono campos numéricos a uma visualização, a maioria dos mesmos ficam predefinidos como soma, mas outros ficam predefinidos como média, contagem ou outra agregação.  Por que é que a agregação predefinida não é sempre a mesma?
 
 R: Os proprietários de conjuntos de dados têm a opção de predefinir o resumo para cada campo. Se for um proprietário de conjunto de dados, altere o resumo predefinido no separador **Modelação** do Power BI Desktop.
-
-P: O meu campo **é** numérico, por que não tenho opções de agregados no menu pendente?
-
-R: Se o campo tiver um ícone de calculadora, significa que é uma *medida calculada* e cada medida calculada tem a sua própria fórmula codificada que não pode ser alterada no serviço Power BI. O cálculo utilizado pode ser uma agregação simples, como uma soma ou uma média, mas pode também ser algo mais complicado, como uma "percentagem de contributo para categoria principal" ou um "total desde início do ano". O Power BI não vai calcular a soma ou a média dos resultados; vai recalcular (com a fórmula codificada) para cada ponto de dados.
 
 P: Sou um proprietário de conjunto de dados e quero garantir que um campo nunca é agregado.
 

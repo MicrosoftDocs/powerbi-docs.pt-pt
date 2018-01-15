@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Desagregação numa visualização no Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>A desagregação requer uma hierarquia
@@ -34,7 +34,7 @@ Não sabe que visualizações do Power BI contêm uma hierarquia?  Passe o curso
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon4.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  ![](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png)
 ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) ![](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png)  
 
-As datas são um tipo único de hierarquia. Quando adicionar um campo de data a uma visualização, o Power BI adiciona automaticamente uma hierarquia de tempo que contém ano, trimestre, mês e dia. Para obter mais informações, consulte [Hierarquias visuais e comportamento de desagregação](guided-learning/visualizations.yml#step-18) ou veja o vídeo abaixo.
+As datas são um tipo único de hierarquia. Quando adicionar um campo de data a uma visualização, o Power BI adiciona automaticamente uma hierarquia de tempo que contém ano, trimestre, mês e dia. Para obter mais informações, veja [Hierarquias visuais e comportamento de desagregação](guided-learning/visualizations.yml#step-18) ou veja o vídeo abaixo.
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -54,7 +54,7 @@ Existem duas formas diferentes de desagregar (e agregar) na sua visualização. 
 ## <a name="method-1-for-drill-down"></a>Método 1 para desagregação
 Este método utiliza os ícones de desagregação que aparecem nos cantos superiores da própria visualização.
 
-1. No Power BI, abra um relatório na [Vista de Leitura](service-report-open-in-reading-view.md) ou na [Vista de Edição](service-reading-view-and-editing-view.md). A desagregação requer uma visualização com uma hierarquia. 
+1. No Power BI, abra um relatório na [Vista de Leitura ou na Vista de Edição](service-reading-view-and-editing-view.md). A desagregação requer uma visualização com uma hierarquia. 
    
    Uma hierarquia é apresentada na animação abaixo.  A visualização tem uma hierarquia constituída por território, cidade, código postal e nome de cidade. Cada território tem uma ou mais cidades, cada cidade tem um ou mais códigos postais, etc. Por predefinição, a visualização mostra apenas os dados de território, uma vez que *Território* aparece em primeiro lugar na lista.
    
@@ -75,7 +75,7 @@ Este método utiliza os ícones de desagregação que aparecem nos cantos superi
 ## <a name="method-2-for-drill-down"></a>Método 2 para desagregação
 Este método utiliza o menu pendente **Explorar** da barra de menus superior do Power BI.
 
-1. No Power BI, abra um relatório na [Vista de Leitura](service-report-open-in-reading-view.md) ou na [Vista de Edição](service-reading-view-and-editing-view.md). A desagregação requer uma visualização com uma hierarquia. 
+1. No Power BI, abra um relatório na [Vista de Leitura ou na Vista de Edição](service-reading-view-and-editing-view.md). A desagregação requer uma visualização com uma hierarquia. 
    
    Uma hierarquia é apresentada na imagem abaixo.  A visualização tem uma hierarquia constituída por território, cidade, código postal e nome de cidade. Cada território tem uma ou mais cidades, cada cidade tem um ou mais códigos postais, etc. Por predefinição, a visualização mostra apenas os dados de território, uma vez que *Território* aparece em primeiro lugar na lista.
    
@@ -92,7 +92,7 @@ Este método utiliza o menu pendente **Explorar** da barra de menus superior do 
 5. Para voltar a agregar, selecione **Explorar** > **Agregar**.
    
    ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-6. Para ver os dados utilizados para criar o visual, selecione **Ver dados**. Os dados são mostrados num painel abaixo do visual. Este painel permanece visível à medida que continua a desagregar no visual. Para obter mais informações, consulte [Mostrar dados utilizados para criar o visual](service-reports-show-data.md).
+6. Para ver os dados utilizados para criar o visual, selecione **Ver dados**. Os dados são mostrados num painel abaixo do visual. Este painel permanece visível à medida que continua a desagregar no visual. Para obter mais informações, veja [Mostrar dados utilizados para criar o visual](service-reports-show-data.md).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 * Se adicionar um campo de data a uma visualização não criar uma hierarquia, pode ser que o campo "data" não esteja realmente guardado como uma data. Se for o proprietário do conjunto de dados, abra-o na vista de *Dados* no Power BI Desktop, selecione a coluna que contém a data e, no separador Modelação, altere o **Tipo de Dados** para **Data** ou **Data/Hora**. Se o relatório tiver sido partilhado consigo, contacte o proprietário para pedir a alteração.  

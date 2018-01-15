@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 12/13/2017
 ms.author: mihart
-ms.openlocfilehash: 458c6663697f8c968915c54dba1c80be422c0f80
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Localizar e ver rapidamente os dados do Power BI através do Cortana para Power BI
 Utilize o Cortana nos seus dispositivos Windows 10 para obter respostas instantâneas às suas perguntas empresariais importantes. Com a integração no Power BI, o Cortana pode obter informações-chave diretamente dos dashboards e relatórios do Power BI. Apenas precisa da versão de novembro de 2015 ou posterior do Windows 10, do Cortana, do Power BI e de acesso a, pelo menos, um conjunto de dados.
@@ -85,13 +85,19 @@ Quando faz uma pergunta no Cortana, o Power BI responde a partir das páginas de
      ![](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 2. Depois de o Cortana ser iniciado, escreva ou fale a sua pergunta na barra de pesquisa do Cortana. O Cortana apresenta os resultados disponíveis. Se existir um dashboard do Power BI que corresponda à pergunta, este aparece em **Melhor correspondência** ou **Power BI**.
    
-     ![A pesquisa do Cortana encontra o dashboard do Power BI](media/service-cortana-intro/power-bi-cortana-searching2.png "O Cortana encontra um dashboard do Power BI")
+     ![A pesquisa do Cortana encontra o dashboard do Power BI](media/service-cortana-intro/power-bi-cortana-search-hr.png "O Cortana encontra um dashboard do Power BI")
    
    > [!NOTE]
    > Neste momento, apenas é suportado o idioma inglês.
    > 
    > 
-3. Abra o dashboard no Power BI ao selecionar o respetivo nome. 
+3. Selecione o dashboard para abri-lo na Cortana.
+
+    ![Selecionar o dashboard do Power BI](media/service-cortana-intro/power-bi-cortana-dashboard.png "Selecionar o dashboard do Power BI")
+
+    Pode alterar o esquema ao [editar a *vista do telefone* do dashboard](service-create-dashboard-mobile-phone-view.md). 
+
+1. A partir da Cortana, também tem as opções de abrir o dashboard no serviço Power BI ou no Power BI Mobile. Abra o dashboard no serviço Power BI ao selecionar **Abrir na Web**. 
    
    ![Abrir o dashboard a partir do Cortana](media/service-cortana-intro/power-bi-dashboard-opens.png "Abrir o dashboard a partir do Cortana")   
 4. Agora, vamos utilizar o Cortana para procurar um relatório. Vamos precisar de um [relatório que tenha uma página com um cartão de resposta do Cortana](service-cortana-answer-cards.md). Neste exemplo, um relatório denominado "Novos-Arquivos-Cortana" tem uma página de cartão de resposta com o nome "arquivos do cortana".  
