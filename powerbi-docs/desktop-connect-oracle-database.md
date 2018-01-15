@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5ea1a98c650a789f2b9a9a9383c4fd25a0bb0c73
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 462f4eb939ce34368afe9f4a247166a55b554e24
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="connect-to-an-oracle-database"></a>Ligar a uma base de dados Oracle
 Para se ligar a uma base de dados do Oracle com o **Power BI Desktop**, tem de ser instalado o software cliente Oracle correto no computador a executar o Power BI Desktop. O software cliente Oracle que utiliza depende da versão do Power BI Desktop que tem instalada: a versão de **32 bits** ou a versão de **64 bits**.

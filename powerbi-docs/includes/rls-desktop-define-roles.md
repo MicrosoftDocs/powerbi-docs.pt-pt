@@ -1,10 +1,6 @@
 ## <a name="define-roles-and-rules-within-power-bi-desktop"></a>Definir funções e regras no Power BI Desktop
 Pode definir funções e regras no Power BI Desktop. Quando publicar no Power BI, este também irá publicar as definições de funções.
 
-Se pretender tirar partido da segurança dinâmica, terá de ativar a alteração de pré-visualização Ativar filtragem cruzada em ambas as direções para o DirectQuery. Isto irá permitir-lhe fazer a filtragem cruzada e aplicar o filtro de segurança em ambas as direções.
-
-![](./media/rls-desktop-define-roles/powerbi-desktop-preview-bi-directional-directquery.png)
-
 Para definir as funções de segurança, pode fazer o seguinte.
 
 1. Importar dados para o seu relatório do Power BI Desktop ou configurar uma ligação do DirectQuery.

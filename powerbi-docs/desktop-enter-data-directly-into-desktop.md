@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 02a9b5ad664b569e96858e68a0776fd8721aa78d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6e11e6f0d604da4780fd0c81632c0b7217f3d2d7
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Introduzir dados diretamente no Power BI Desktop
 Com o Power BI Desktop, pode introduzir dados diretamente e utilizar esses dados nos relatórios e visualizações. Por exemplo, pode copiar partes de um livro ou página Web e colá-las no Power BI Desktop.

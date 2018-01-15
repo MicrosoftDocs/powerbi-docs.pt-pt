@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 98e20a1dc9b14fca5f9262c95ea81f9f9b5da160
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Utilizar gráficos de friso no Power BI
 Pode utilizar **gráficos de friso** no **Power BI** para visualizar dados e, rapidamente, determinar que categoria de dados tem a classificação mais elevada (maior valor). Os gráficos de friso são uma forma eficaz de mostrar as alterações de classificação, com a classificação (valor) mais elevada sempre mostrada na parte superior de cada período temporal. Os gráficos de friso estão disponíveis no **Power BI Desktop**, a partir da versão de setembro de 2017 e atualizações posteriores ao **serviço Power BI**.
@@ -51,9 +51,9 @@ Estas opções de formatação para gráficos de friso permitem-lhe ajustar o se
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
-* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
+* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Ligar-se a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

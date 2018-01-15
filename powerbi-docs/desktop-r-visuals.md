@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: f372903886ab8f92e6954b5bdb370e7f48c204eb
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 0eface7ddd05059c39a5610e2b3440b104aca5ea
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar elementos visuais do Power BI com o R
 Com o **Power BI Desktop**, pode utilizar o **R** para visualizar os dados.
@@ -123,7 +123,7 @@ Os elementos visuais do R no **Power BI Desktop** apresentam algumas limitaçõe
 * Nesta versão, as instalações do RRO não são automaticamente identificadas pela versão de 32 bits do Power BI Desktop; portanto, é necessário fornecer manualmente o caminho para o diretório de instalação do R em **Opções e definições > Opções > Scripting do R**.
 
 ## <a name="next-steps"></a>Passos seguintes
-Veja as seguintes informações adicionais sobre o R no Power BI.
+Veja as seguintes informações adicionais sobre a linguagem R no Power BI.
 
 * [Executar Scripts R no Power BI Desktop](desktop-r-scripts.md)
 * [Utilizar um IDE R externo com o Power BI](desktop-r-ide.md)
