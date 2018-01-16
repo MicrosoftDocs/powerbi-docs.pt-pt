@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de dados no serviço Power BI
-Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu. Os alertas só podem ser configurados nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em elementos visuais criados a partir de conjuntos de dados de transmissão em fluxo que foram afixados a partir de um relatório a um dashboard, mas não podem ser definidos em mosaicos de transmissão em fluxo criados diretamente no dashboard com a opção **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**. Só o utilizador pode ver os alertas que definir, mesmo que partilhe o dashboard. Os alertas de dados são totalmente sincronizados entre plataformas; defina e veja alertas de dados [nas aplicações móveis do Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço Power BI. Não estão disponíveis para o Power BI Desktop. Os alertas podem até ser [automatizados e integrados com o Microsoft Flow](https://flow.microsoft.com) - [experimente](service-flow-integration.md).
+Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu. 
+
+Os alertas só podem ser definidos nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em elementos visuais criados a partir de conjuntos de dados de transmissão em fluxo que foram afixados a partir de um relatório a um dashboard, mas não podem ser definidos em mosaicos de transmissão em fluxo criados diretamente no dashboard com a opção **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**. 
+
+Só o utilizador pode ver os alertas que definir, mesmo que partilhe o dashboard. Os alertas de dados são totalmente sincronizados entre plataformas; defina e veja alertas de dados [nas aplicações móveis do Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço Power BI. Não estão disponíveis para o Power BI Desktop. Os alertas podem até ser [automatizados e integrados com o Microsoft Flow](https://flow.microsoft.com) - [experimente](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ Este exemplo utiliza um mosaico de cartão do dashboard de exemplo de Análise d
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. Selecione o ícone de campainha ![](media/service-set-data-alerts/power-bi-bell-icon.png) para adicionar um ou mais alertas a **Total de lojas**.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. Para começar, certifique-se de que o controlo de deslize está definido como **Ativo**e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
+1. Para começar, selecione **+ Adicionar regra de alerta**, certifique-se de que o controlo de deslize está definido como **Ativo** e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Desloque o ecrã para baixo e introduza os detalhes do alerta.  Neste exemplo, vamos criar um alerta que nos notifica uma vez por dia se o número total de lojas ficar acima de 100. Os alertas serão apresentados no nosso Centro de notificações. E o Power BI também nos envia uma mensagem de e-mail.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Selecione **Guardar**.
 
 ## <a name="receiving-alerts"></a>Receber alertas
@@ -76,7 +79,7 @@ Em seguida, o Power BI envia um alerta para o Centro de notificação e, opciona
    > 
 
 ## <a name="managing-alerts"></a>Gerir alertas
-Existem três formas de gerir os alteras: no próprio mosaico do dashboard, no menu de Definições do Power BI e num mosaico individual na [aplicação móvel do Power BI no iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) ou na [aplicação móvel do Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
+Existem várias formas de gerir os alertas: no próprio mosaico do dashboard, no menu de Definições do Power BI, num mosaico individual na [aplicação móvel do Power BI no iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) ou na [aplicação móvel do Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>No próprio mosaico
 1. Se precisar de alterar ou remover um alerta para um mosaico, volte a abrir a janela **Gerir alertas**, selecionando o ícone de campainha ![](media/service-set-data-alerts/power-bi-bell-icon.png). São apresentados todos os alertas que definiu para esse mosaico.
@@ -108,5 +111,5 @@ Existem três formas de gerir os alteras: no próprio mosaico do dashboard, no m
 [Criar um Microsoft Flow que inclui um alerta de dados](service-flow-integration.md)    
 [Definir alertas de dados num dispositivo móvel](mobile-set-data-alerts-in-the-mobile-apps.md)    
 [Introdução ao Power BI](service-get-started.md)    
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

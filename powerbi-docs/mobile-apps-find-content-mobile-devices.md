@@ -1,6 +1,6 @@
 ---
 title: "Localizar dashboards, relatórios e aplicações nas aplicações móveis do Power BI"
-description: "Leia sobre onde pode localizar os seus dashboards e relatórios nas aplicações móveis do Power BI, consoante a sua proveniência."
+description: "Leia sobre onde pode localizar os seus dashboards, relatórios e aplicações nas aplicações móveis do Power BI, consoante a sua proveniência."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Localizar os seus dashboards, relatórios e aplicações nas aplicações móveis do Power BI
 Aplica-se a:
@@ -49,7 +49,7 @@ Poderá ter ligações a um ou mais servidores do Power BI Report Server ou do S
 ## <a name="3-apps"></a>3 Aplicações
 Uma aplicação é uma coleção de dashboards e relatórios criados pela sua organização para fornecer as principais métricas para tomar decisões condicionadas por dados mais rápida e facilmente. É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Depois de instalá-las, pode visualizá-las a partir de qualquer dispositivo. 
 
-![Nova navegação do Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Nova navegação do Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Com as aplicações obtém automaticamente todas as atualizações feitas pelo autor e este também controla a frequência com que os dados são agendados para atualização. Não tem de se preocupar em se manter atualizado em relação às alterações do autor.
 
@@ -85,5 +85,5 @@ Pode sempre procurar os conteúdos do Power BI nas páginas **Favoritos**, **Apl
 
 ## <a name="next-steps"></a>Próximos passos
 * [Introdução ao Power BI](service-get-started.md)
-* Perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

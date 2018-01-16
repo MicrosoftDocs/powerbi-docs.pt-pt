@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersão e de bolhas no Power BI (Tutorial)
 Um gráfico de dispersão tem sempre dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Estes pontos de dados podem ser distribuídos de forma uniforme ou não pelo eixo horizontal, consoante os dados.
@@ -47,25 +47,30 @@ Os gráficos de bolhas substituem os pontos de dados por bolhas, sendo que o *ta
 * Para utilizar com quadrantes.
 
 ## <a name="create-a-scatter-chart"></a>Criar um gráfico de dispersão
+Assista a este vídeo para ver o Will a criar um gráfico de dispersão e, em seguida, siga os passos abaixo para criar um sozinho.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Abra o Exemplo de Análise de Revenda na [Vista de Edição](service-interact-with-a-report-in-editing-view.md) e [adicione uma nova página de relatório](power-bi-report-add-page.md).
-2. No painel Campos, selecione **Vendas** > **Vendas por Pé Quadrado** e **Vendas** > **% da Variação do Total de Vendas**.
-3. No painel Campos, selecione **Distrito > Distrito**.
+
+Essas instruções utilizam o Exemplo de Análise de Revenda. Para acompanhar, [transfira o exemplo](sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.   
+
+1. Comece numa [página de relatório em branco](power-bi-report-add-page.md) e selecione os campos **Vendas** \> **Vendas por Metro Quadrado** e **Vendas**  >  **% da Variação do Total de Vendas**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](service-interact-with-a-report-in-editing-view.md).
+ 
+2. No painel Campos, selecione **Distrito > Distrito**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Converter num gráfico de dispersão. No painel Visualização, selecione o ícone do Gráfico de dispersão.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Arraste **Distrito** de **Detalhes** para **Legenda**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 Agora temos um gráfico de dispersão que traça a % da Variação do Total de Vendas no eixo Y e as Vendas por Pé Quadrado no eixo X.  As cores do ponto de dados representam as regiões.  Agora, vamos adicionar uma terceira dimensão.
 
 ## <a name="create-a-bubble-chart"></a>Criar um gráfico de bolhas
 1. No painel Campos, arraste **Vendas** > **Vendas Deste Ano** > **Valor** para a área **Tamanho**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Coloque o cursor sobre uma bolha.  O tamanho da bolha reflete o valor das **Vendas Deste Ano**.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
@@ -93,5 +98,5 @@ Para criar um novo campo [utilize o Editor de Consultas do Power BI Desktop para
 
 [Experimente - é gratuito!](https://powerbi.com/)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

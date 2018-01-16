@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/02/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7038587e567b2d8377f1ef77583f7baa9695fa58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6f63dd502e84433c8ecc40e28d0f518845546f90
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="opt-in-for-power-bi-preview-features"></a>Optar ativamente por participar na pré-visualização de funcionalidades do Power BI
 ## <a name="what-are-preview-features"></a>O que são *funcionalidades de pré-visualização*?
@@ -33,22 +33,16 @@ ms.lasthandoff: 11/13/2017
 > 
 > 
 
-## <a name="current-previews-available"></a>Pré-visualizações atuais disponíveis
-**Pré-visualização de Mapas ArcGIS para o Power BI** A combinação dos mapas ArcGIS e o Power BI eleva o mapeamento acima da simples apresentação de pontos num mapa.
-[Fique a conhecer os mapas ArcGIS por esri no serviço Power BI e no Power BI Desktop](power-bi-visualization-arcgis.md).
-
-## <a name="turn-the-arcgis-preview-feature-on-and-off"></a>Ativar a funcionalidade de pré-visualização ArcGIS (e desativar)
+## <a name="find-previews-and-turn-them-on-and-off"></a>Encontre pré-visualizações e ative-as (ou desative-as)
 1. Abra o menu de Definições ao selecionar o ícone de equipamento no canto superior direito do ecrã do seu Power BI e escolha **Definições**.
    
    ![](media/service-preview-features/power-bi-settings.png).
-2. Selecione o separador **Geral** e escolha **Funcionalidades de pré-visualização**.
+2. Selecione o separador **Geral**. Se existirem pré-visualizações, verá a opção **Funcionalidades de pré-visualização** ou verá uma funcionalidade de pré-visualização listada no lado esquerdo.  Neste exemplo, existe uma pré-visualização listada para o ArcGIS Maps. 
    
    ![](media/service-preview-features/power-bi-preview-arcgis.png)
-3. Selecione o botão de opção **Ativar** para testar a nova experiência. Clique em **Aplicar**.
-4. Para desativar as funcionalidades de pré-visualização, siga os passos de 1 a 2 acima e, no passo 3, selecione **Desativar** > **Aplicar**.
+3. Selecione o botão de opção **Ativar** ou marque a caixa de verificação para testar a nova experiência. Em seguida, selecione **Aplicar**.
+4. Para desativar as funcionalidades de pré-visualização, siga os passos de 1 a 3 acima e, no passo 3, escolha **Desativar** ou remova a marca de verificação e selecione **Aplicar**.
 
-## <a name="next-steps"></a>Passos seguintes
-[Nova experiência de navegação do Power BI](service-the-new-power-bi-experience.md)
 
 Tem perguntas ou comentários? [Visite o fórum da comunidade do Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

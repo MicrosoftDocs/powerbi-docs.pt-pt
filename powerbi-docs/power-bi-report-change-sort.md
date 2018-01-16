@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 37161fab1e19e6ce00eb0f02c96b6e5cbdd60f18
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
-No Power BI, pode ordenar os gráficos alfabeticamente pelos nomes das categorias ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado por nome de loja.
+Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado por nome de loja.
 
 ![](media/power-bi-report-change-sort/pbi_chartsortcategory.png)
 
-Em vez disso, é fácil ordená-lo do valor de vendas mais alto ao mais baixo por metros quadrados.
+É fácil alterar a ordenação de uma categoria (nome de arquivo) para um valor (vendas por metro quadrado).
 
 1. Selecione as reticências (...) e selecione **Ordenar por Vendas Por Metro Quadrado**.
 2. Se necessário, selecione o ícone de ordenação ![](media/power-bi-report-change-sort/sorticon.png) para alterar para **Descendente**.
@@ -51,5 +51,5 @@ Mais sobre [Visualizações em relatórios do Power BI](power-bi-report-visualiz
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

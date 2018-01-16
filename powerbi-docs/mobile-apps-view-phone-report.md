@@ -15,16 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 54a1b81cc4281db7a622668ba205c1c57d5e396d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
-Quando criar um relatório do Power BI no Power BI Desktop, também pode criar uma versão desse [relatório otimizada para visualização numa aplicação do Power BI no telemóvel](desktop-create-phone-report.md).
+
+Aplica-se a:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Telemóvel Android](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhones |Telemóveis Android |
+
+Quando cria um relatório do Power BI no Power BI Desktop, também pode [criar uma versão desse relatório otimizada para visualização](desktop-create-phone-report.md) numa aplicação do Power BI no telemóvel.
 
 Depois, quando abrir um relatório do Power BI num telemóvel, o Power BI deteta se o relatório foi otimizado para telemóveis e abre automaticamente o relatório otimizado na vista vertical.
 
@@ -39,8 +46,8 @@ Todas as restantes funcionalidades de relatórios do Power BI continuam a funcio
 * [Relatórios em iPhones](mobile-reports-in-the-mobile-apps.md). 
 * [Relatórios em telemóveis Android](mobile-reports-in-the-mobile-apps.md).
 
-## <a name="filter-the-report-page-on-an-iphone"></a>Filtrar a página de relatórios num iPhone
-Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o relatório num iPhone, pode utilizar esses filtros. 
+## <a name="filter-the-report-page-on-a-phone"></a>Filtrar a página de relatório num telemóvel
+Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o relatório num telemóvel, pode utilizar esses filtros. 
 
 1. Toque no ícone de filtro ![Ícone de filtro no telemóvel](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página. 
 2. Utilize a filtragem básica ou avançada para ver os resultados em que está interessado.
@@ -107,5 +114,5 @@ Se os níveis de hierarquia estiverem definidos num visual, pode desagregar até
 * [Criar relatórios otimizados para aplicações para telemóvel do Power BI](desktop-create-phone-report.md)
 * [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Criar visuais responsivos otimizados para qualquer tamanho](desktop-create-responsive-visuals.md)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

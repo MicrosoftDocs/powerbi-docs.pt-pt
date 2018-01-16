@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 8527ffb7d9e16bcf55216bc6e0bcd60feec12e16
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrar um mosaico numa aplicação (os dados são do utilizador)
 Saiba como integrar ou incorporar um mosaico numa aplicação Web através de chamadas à API REST, juntamente com a API JavaScript do Power BI ao incorporar para a sua organização.
@@ -35,7 +35,7 @@ Para começar estas instruções, é preciso uma conta do **Power BI**. Se não 
 > 
 > 
 
-Para integrar um mosaico numa aplicação Web, utilize a API REST do **Power BI** ou o SDK C# do Power BI e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um mosaico. Em seguida, carregue o mosaico com o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, veja [Descrição geral da API REST do Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um mosaico numa aplicação Web, utilize a API REST do **Power BI** ou o SDK C# do Power BI e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um mosaico. Em seguida, carregue o mosaico com o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, consulte [Descrição geral da API REST do Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Transferir o exemplo
 Este artigo mostra o código utilizado em [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) no GitHub. Para acompanhar estas instruções, pode transferir o exemplo.
@@ -56,9 +56,9 @@ Para obter um mosaico do **Power BI**, utilize a operação [Obter Mosaicos](htt
 É necessário obter primeiro um ID de dashboard antes de poder obter o mosaico. Para obter informações sobre como obter um dashboard, veja [Integrar um dashboard numa aplicação (os dados são do utilizador)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Obter mosaicos com um token de acesso
-Com o **token de acesso** que obteve no [passo 2](#step-2-get-an-access-token-from-azure-ad), pode chamar a operação [Obter Mosaicos](https://msdn.microsoft.com/library/mt465741.aspx). A operação [Obter Mosaicos](https://msdn.microsoft.com/library/mt465741.aspx) devolve uma lista de mosaicos. Pode obter um único mosaico a partir da lista de mosaicos. Segue-se um método C# completo para obter um mosaico. Para obter exemplos sobre como utilizar a API REST do Power BI, veja [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Com o **token de acesso** que obteve no [passo 2](#step-2-get-an-access-token-from-azure-ad), pode chamar a operação [Obter Mosaicos](https://msdn.microsoft.com/library/mt465741.aspx). A operação [Obter Mosaicos](https://msdn.microsoft.com/library/mt465741.aspx) devolve uma lista de mosaicos. Pode obter um único mosaico a partir da lista de mosaicos. Segue-se um método C# completo para obter um mosaico. 
 
-Para efetuar a chamada à API REST, tem de incluir um cabeçalho de*Autorização* no formato de *Portador {token de acesso}*.
+Para efetuar a chamada à API REST, tem de incluir um cabeçalho de *Autorização* no formato de *Portador {token de acesso}*.
 
 #### <a name="get-tiles-with-the-rest-api"></a>Obter mosaicos com a API REST
 **Default.aspx.cs**
@@ -235,10 +235,12 @@ A API acima devolve a lista dos mosaicos disponíveis. Cada mosaico tem uma prop
 https://app.powerbi.com/embed?dashboardId={dashboard_id}&tileId={tile_id}&groupId={group_id}
 ```
 
-## <a name="next-steps"></a>Passos seguintes
-Está disponível uma aplicação de exemplo no GitHub para rever. Para obter mais informações, veja [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app).
+## <a name="next-steps"></a>Próximos passos
+[Incorporar Mosaico](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Tile-Embed) no Wiki do PowerBI-JavaScript
 
-Estão disponíveis mais informações para a API JavaScript em [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+[API de JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Exemplo [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) no GitHub.
+
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Gráficos em anel no Power BI (Tutorial)
-Um gráfico de anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
+Um gráfico em anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
 
-## <a name="create-a-doughnut-chart"></a>Criar um gráfico de anel
-Para acompanhar, inicie sessão no Power BI e selecione **Obter Dados** \> **Exemplos** \> **Exemplo de Análise de Revenda** \> **Ligar**. 
+## <a name="create-a-doughnut-chart"></a>Criar um gráfico em anel
+Estas instruções utilizam o Exemplo de Análise de Revenda para criar um gráfico em anel que apresenta as vendas deste ano por categoria. Para acompanhar, [transfira o exemplo](sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.
 
-1. No dashboard, selecione o mosaico **Arquivos Totais** para abrir o relatório "Exemplo de Análise de Revenda".
-2. Selecione **Editar Relatório** para abrir o relatório na Vista de Edição.
-3. [Adicione uma nova página de relatório](power-bi-report-add-page.md).
-4. Crie um Gráfico de anel que mostre as vendas deste ano por categoria.
+1. Comece numa [página de relatório em branco ](power-bi-report-add-page.md) e selecione o campo **SalesStage** \> **Fase de Vendas**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](service-interact-with-a-report-in-editing-view.md).
+
+2. No painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
    
-   * No painel **Campos**, selecione **Vendas** \> **Vendas do Ano Passado**.
-   * Converta num gráfico de anel. Se as Vendas do Ano passado não estiverem na área **Valores**, arraste-as para aí.
+3. No painel Visualizações, selecione o ícone de gráfico em anel ![ícone de gráfico em anel]() para converter o gráfico de barras num gráfico em anel. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para aí.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * Selecione **Item** \> **Categoria** para adicioná-lo à área **Legenda**. 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. Selecione **Item** \> **Categoria** para adicioná-lo à área **Legenda**. 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. Opcionalmente, [ajuste o tamanho e a cor do texto do gráfico](power-bi-visualization-customize-title-background-and-legend.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * A soma dos valores do gráfico em anel deve somar até 100%.
@@ -56,5 +57,5 @@ Para acompanhar, inicie sessão no Power BI e selecione **Obter Dados** \> **Exe
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

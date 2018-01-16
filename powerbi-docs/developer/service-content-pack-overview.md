@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Descrição geral do programa de pacotes de conteúdos do serviço Power BI
 Um pacote de conteúdos é um conjunto de conteúdos que permite aos utilizadores obter imediatamente informações a partir de uma origem. Um pacote de conteúdos concentra-se normalmente num cenário empresarial específico que fornece informações para uma função, domínio ou fluxo de trabalho.
@@ -49,6 +49,7 @@ Para criar e submeter um pacote de conteúdos a publicar no serviço Power BI e 
 * Ter uma aplicação SaaS utilizada por utilizadores empresariais.
 * A aplicação SaaS tem dados de utilizador que podem ser visualizados no Power BI.
 * A aplicação SaaS tem uma API acessível através da Internet pública. Idealmente, trata-se de uma API REST ou um feed OData. Os pacotes de conteúdos do Power BI suportam vários tipos de autenticação, como Autenticação Básica, OAuth 2.0 e Chave de API. 
+* A sua aplicação SaaS é aprovada para publicar um pacote de conteúdos. Submeter o pedido para pbiservicesapps@microsoft.com. Vamos rever cada submissão quanto a relevância e utilização esperada. 
 * Contrato de parceiro assinado. Vai fazê-lo no [passo de submissão](template-content-pack-testing.md#submission).
 
 Reveja a secção de [criação](template-content-pack-authoring.md) para obter mais detalhes sobre os requisitos técnicos.

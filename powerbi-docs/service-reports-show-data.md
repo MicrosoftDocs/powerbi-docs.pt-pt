@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 5fcfd09e74f661a1cc5ab8fcda6cf4cd0525437a
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b9e72c57ccd165ed02424e303c5ec54f179868e0
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Mostrar os dados que foram utilizados para criar a visualização
 ## <a name="show-data"></a>Mostrar Dados
@@ -35,7 +35,7 @@ Também pode exportar os dados que estão a ser utilizados para criar a visualiz
 > 
 
 ## <a name="using-show-data-in-power-bi-service"></a>Utilizar *Mostrar Dados* no serviço Power BI
-1. No serviço Power BI, abra um relatório na [Vista de Leitura](service-report-open-in-reading-view.md) ou [Vista de Edição](service-reading-view-and-editing-view.md) e selecione um elemento visual.  No Power BI Desktop, abra a vista de Relatório.
+1. No serviço Power BI, abra um relatório na [Vista de leitura ou Vista de edição](service-reading-view-and-editing-view.md) e selecione um elemento visual.  No Power BI Desktop, abra a vista de Relatório.
 2. Para apresentar os dados subjacentes ao elemento visual, selecione **Explorar** > **Mostrar dados**.
    
    ![](media/service-reports-show-data/power-bi-show-data.png)
@@ -57,5 +57,5 @@ Também pode exportar os dados que estão a ser utilizados para criar a visualiz
 [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)    
 [Relatórios do Power BI](service-reports.md)    
 [Power BI - Conceitos Básicos](service-basic-concepts.md)    
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

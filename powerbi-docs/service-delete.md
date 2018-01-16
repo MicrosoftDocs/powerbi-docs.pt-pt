@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/07/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 398658f34a185514906fd5d649ae4117daf94071
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar praticamente qualquer coisa no serviço Power BI
 Este artigo mostra como eliminar um dashboard, relatório, livro, conjunto de dados, aplicação, visualização e área de trabalho no serviço Power BI.
@@ -29,14 +29,14 @@ Este artigo mostra como eliminar um dashboard, relatório, livro, conjunto de da
 ## <a name="delete-a-dashboard"></a>Eliminar um dashboard
 Os dashboards podem ser removidos. Remover o dashboard não elimina o conjunto de dados subjacente nem os relatórios associados a esse dashboard.
 
-* Se for o proprietário do dashboard, poderá removê-lo. Se partilhou o dashboard com colegas, remover o dashboard da sua área de trabalho do Power BI não remove o dashboard da área de trabalho do Power BI dos seus colegas.
+* Se for o proprietário do dashboard, poderá removê-lo. Se partilhou o dashboard com colegas, remover o dashboard da sua área de trabalho do Power BI não remove o dashboard das áreas de trabalho do Power BI dos seus colegas.
 * Se um dashboard for partilhado consigo e já não o quiser ver, é possível removê-lo.  Remover um dashboard não o remove da área de trabalho do Power BI de outra pessoa.
 * Se o dashboard fizer parte de um [pacote de conteúdos organizacional](service-organizational-content-pack-disconnect.md), a única forma de o remover será remover o conjunto de dados associado.
 
 ### <a name="to-delete-a-dashboard"></a>Para eliminar um dashboard
 1. Na sua área de trabalho, selecione o separador **Dashboards**.
-2. Procure a área de trabalho a eliminar e selecione o ícone Eliminar ![](media/service-delete/power-bi-delete-icon.png). 
-   
+2. Procure a área de trabalho a eliminar e selecione o ícone Eliminar ![](media/service-delete/power-bi-delete-icon.png).
+
     ![](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Eliminar um relatório
@@ -45,16 +45,16 @@ Não se preocupe, eliminar um relatório não elimina o conjunto de dados no qua
 ### <a name="to-delete-a-report"></a>Para eliminar um relatório
 1. Na sua área de trabalho, selecione o separador **Relatórios**.
 2. Procure o relatório a eliminar e selecione o ícone Eliminar ![](media/service-delete/power-bi-delete-icon.png).   
-   
+
     ![](media/service-delete/power-bi-delete-reportnew.png)
 3. Confirme a eliminação.
-   
+
    ![](media/service-delete/power-bi-delete-report.png)
-   
+
    > [!NOTE]
    > Se o relatório fizer parte de um [pacote de conteúdo](service-organizational-content-pack-introduction.md), não poderá eliminá-lo através deste método.  Consulte [Remover a sua ligação a um pacote de conteúdo organizacional](service-organizational-content-pack-disconnect.md).
-   > 
-   > 
+   >
+   >
 
 ## <a name="delete-a-workbook"></a>Eliminar um livro
 Os livros podem ser removidos. No entanto, remover um livro também remove todos os mosaicos de dashboards e relatórios que contêm dados deste livro.
@@ -64,46 +64,46 @@ Se o livro estiver armazenado no OneDrive para Empresas, a sua eliminação do P
 ### <a name="to-delete-a-workbook"></a>Para eliminar um livro
 1. Na sua área de trabalho, selecione o separador **Livros**.
 2. Procure o livro a eliminar e selecione o ícone Eliminar ![](media/service-delete/power-bi-delete-report2.png).
-   
+
     ![](media/service-delete/power-bi-delete-workbooknew.png)
 3. Confirme a eliminação.
-   
+
    ![](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Eliminar um conjunto de dados
-Os conjuntos de dados podem ser eliminados. No entanto, eliminar um conjunto de dados também elimina todos os mosaicos de dashboards e relatórios que contêm dados deste conjunto de dados.
+Os conjuntos de dados podem ser eliminados. No entanto, eliminar um conjunto de dados também elimina todos os mosaicos de dashboards e relatórios que contêm dados desse conjunto de dados.
 
 Se o conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organizacional](service-organizational-content-pack-disconnect.md), a única forma de o eliminar é removê-lo dos pacotes de conteúdo onde está a ser utilizado, esperar até que seja processado e tentar eliminá-lo novamente.
 
 ### <a name="to-delete-a-dataset"></a>Para eliminar um conjunto de dados
 1. Na sua área de trabalho, selecione o separador **Conjuntos de dados**.
 2. Procure o conjunto de dados para eliminar e selecione as reticências (...).  
-   
+
     ![](media/service-delete/power-bi-delete-datasetnew.png)
 3. No menu pendente, selecione **Eliminar**.
-   
+
    ![](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Confirme a eliminação.
-   
+
    ![](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Eliminar uma área de trabalho de aplicação
 > [!WARNING]
-> Quando criar uma área de trabalho de aplicação, está a criar um grupo do Office 365. E quando eliminar uma área de trabalho de aplicação, está a eliminar o respetivo grupo do Office 365. Significa que o seu grupo também será eliminado de outros produtos do O365, como o SharePoint e o Microsoft Teams. 
-> 
-> 
+> Quando criar uma área de trabalho de aplicação, está a criar um grupo do Office 365. E quando eliminar uma área de trabalho de aplicação, está a eliminar o respetivo grupo do Office 365. Significa que o seu grupo também será eliminado de outros produtos do O365, como o SharePoint e o Microsoft Teams.
+>
+>
 
 Como autor da área de trabalho de aplicação, pode eliminá-la. Quando a eliminar, a aplicação associada também é eliminada para todos os membros do grupo e removida da sua AppSource se tiver publicado a aplicação para toda a organização. Eliminar uma área de trabalho de aplicação é diferente de sair de uma área de trabalho de aplicação.
 
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Para eliminar uma área de trabalho de aplicação, se for Administrador
 1. Na navegação à esquerda, selecione **Áreas de trabalho**
-   
+
     ![](media/service-delete/power-bi-delete-workspace.png)
 2. Selecione as reticências (...) à direita da área de trabalho a ser eliminada e selecione **Editar área de trabalho**.
-   
+
    ![](media/service-delete/power-bi-edit-workspace.png)
 3. Na janela **Editar área de trabalho**, selecione **Eliminar área de trabalho** > **Eliminar**.
-   
+
     ![](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Para remover uma área de trabalho de aplicação da lista
@@ -111,18 +111,18 @@ Se já não pretender ser membro de uma área de trabalho de aplicação, pode *
 
 > [!IMPORTANT]
 > Se for o único Administrador da área de trabalho de aplicação, o Power BI não permitirá que saia.
-> 
-> 
+>
+>
 
 1. Comece na área de trabalho de aplicação que pretende remover.
 2. No canto superior direito, selecione as reticências (...) e selecione **Sair da área de trabalho** > **Sair**.
-   
+
       ![](media/service-delete/power-bi-leave-workspace.png)
-   
+
    > [!NOTE]
    > As opções que vê no menu pendente dependem de ser ou não Administrador ou Membro dessa área de trabalho de aplicação.
-   > 
-   > 
+   >
+   >
 
 ## <a name="delete-or-remove-an-app"></a>Eliminar ou remover uma Aplicação
 As aplicações podem facilmente ser removidas da sua página da lista de aplicações. No entanto, apenas um Administrador de aplicação pode eliminar uma aplicação permanentemente.
@@ -132,10 +132,10 @@ Eliminar uma aplicação da página de lista de aplicações não elimina a apli
 
 1. Na navegação à esquerda, selecione **Aplicações** para abrir a página de lista de aplicações.
 2. Passe o cursor sobre a aplicação para eliminar e selecione o ícone Eliminar ![](media/service-delete/power-bi-delete-report2.png).
-   
+
    ![](media/service-delete/power-bi-delete-app.png)
-   
-   Se remover uma aplicação acidentalmente, terá diversas opções para recuperá-la.  Pode pedir ao criador da aplicação que a reenvie, pode procurar o e-mail original com a ligação para a aplicação, pode ver o seu centro de Notificações para saber se a notificação dessa aplicação ainda aparece na lista ou pode consultar o AppSource da sua organização.
+
+   Se remover uma aplicação acidentalmente, terá diversas opções para recuperá-la.  Pode pedir ao criador da aplicação que volte a enviá-la, pode procurar o e-mail original com a ligação para a aplicação, pode ver o seu [centro de Notificações](service-notification-center.md) para saber se a notificação dessa aplicação ainda aparece na lista ou pode consultar o [AppSource](service-install-use-apps.md) da sua organização.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Este artigo abordou como eliminar os principais blocos modulares do serviço Power BI. No entanto, existem mais coisas que pode eliminar no Power BI.  
@@ -146,5 +146,4 @@ Este artigo abordou como eliminar os principais blocos modulares do serviço Pow
 * [Eliminar um mosaico de dashboard](service-dashboard-edit-tile.md)
 * [Eliminar uma visualização de relatório](service-delete.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/) 
-
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

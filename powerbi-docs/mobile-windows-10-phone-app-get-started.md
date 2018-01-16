@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
 A aplicação móvel do Power BI para Windows 10 leva o Power BI ao seu tablet ou telemóvel com acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com seus dashboards de empresa de qualquer lugar &#151; diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -35,10 +35,8 @@ Em seguida, interaja com os seus dashboards e relatórios, explore os dados e pa
 ## <a name="first-things-first"></a>As coisas mais importantes primeiro
 * [**Obtenha a aplicação móvel do Power BI para Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) na Windows Store.
   
-  > [!NOTE]
-  > O seu dispositivo precisa de executar o Windows 10. A aplicação funciona melhor em dispositivos com pelo menos 2 GB de RAM e 8 GB de armazenamento interno. Pode ser executada em dispositivos com pelo menos 1 GB de RAM.
-  > 
-  > 
+  O seu dispositivo precisa de executar o Windows 10. A aplicação funciona em dispositivos com, pelo menos, 3 GB de RAM e 8 GB de armazenamento interno.
+   
 * Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço Power BI na Web
@@ -59,7 +57,7 @@ Se ainda não se inscreveu, vá para o [serviço do Power BI](http://powerbi.com
 3. Toque em **Começar a explorar**  para ver os seus próprios dashboards.
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimentar os exemplos do Power BI e do Reporting Services
-Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte aos exemplos sempre que quiser, a partir dos dashboards na página inicial.
+Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte para os exemplos sempre que quiser, na página inicial dos dashboards.
 
 ### <a name="power-bi-samples"></a>Exemplos do Power BI
 Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com estes. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
@@ -96,7 +94,7 @@ Encontre os seus dashboards, relatórios e aplicações rapidamente ao escrever 
    ![Resultados de pesquisa relevantes](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Procurar os seus conteúdos nas aplicações móveis do Power BI
-Os seus dashboards e relatórios são armazenados em diferentes locais nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar os seus conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
+Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
 ![Navegação à esquerda do Power BI](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 

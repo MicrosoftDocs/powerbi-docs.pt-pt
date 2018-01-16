@@ -1,6 +1,6 @@
 ---
-title: "Alterar o tipo de visualização num relatório do Power BI"
-description: "Alterar o tipo de visualização num relatório do Power BI"
+title: "Alterar o tipo de visualização num relatório"
+description: "Alterar o tipo de visualização de relatórios no serviço Power BI e no Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Alterar o tipo de visualização num relatório do Power BI
-Tente diferentes tipos de visualizações no Power BI para ver qual demonstra melhor os seus dados. 
+Experimente diferentes tipos de visualizações no serviço Power BI e Power BI Desktop para ver qual demonstra melhor os seus dados. 
 
-1. Abre o seu [relatório no Modo Edição](service-reading-view-and-editing-view.md) e [crie uma visualização](power-bi-report-add-visualizations-i.md) se o relatório ainda não tiver uma.
+1. Abra um relatório que já tenha, pelo menos, uma visualização.   
 2. No painel de Visualizações, selecione o novo tipo de visualização.  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)
@@ -43,5 +43,5 @@ Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visuali
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

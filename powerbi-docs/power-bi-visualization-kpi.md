@@ -1,6 +1,6 @@
 ---
 title: Visuais de KPI (Tutorial)
-description: criar um KPI no power bi
+description: "criar KPI no serviço Power BI e no Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 23b322c9fbc4c203a5b20aa45bb41c2cb6cb7f0f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f0efc9e18c5d23c6e52768b4c8e30233ff433356
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="kpi-visuals-tutorial"></a>Visuais de KPI (Tutorial)
 Um KPI (Indicador Chave de Desempenho) é uma indicação visual que comunica a quantidade de progresso feito em relação a uma meta mensurável. Para obter mais informações sobre KPIs, consulte [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -42,30 +42,34 @@ Um KPI baseia-se numa medida específica e é projetado para ajudá-lo a avaliar
 > 
 
 ## <a name="how-to-create-a-kpi"></a>Como criar um KPI
-Para acompanhar, inicie sessão no Power BI e selecione **Obter Dados > Exemplos > Exemplo de Análise de Revenda**. Vamos criar um KPI que mede o progresso realizado para atingir um objetivo de vendas.
+Para acompanhar, inicie sessão no serviço Power BI e selecione **Obter Dados > Exemplos > Exemplo de Análise de Revenda**. Vamos criar um KPI que mede o progresso realizado para atingir um objetivo de vendas.
 
 Ou deixe o Will mostrar-lhe como criar elementos visuais de métrica única: medidores, cartões e KPIs.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Selecione **Vendas > Total de Unidades deste Ano**.  Este será o indicador.
-2. Adicionar **Tempo > Mês**.  Isto representará a tendência.
-3. IMPORTANTE: ordene o gráfico por **Mês**. Depois de converter a visualização para um KPI, já não tem a opção de ordenar.
-4. Converta o visual para um KPI selecionando o ícone do KPI do painel de Visualização.
+1. Abra o relatório na [Vista de edição](service-reading-view-and-editing-view.md) e [adicione uma nova página](power-bi-report-add-page.md).    
+2. Selecione **Vendas > Total de Unidades deste Ano**.  Este será o indicador.
+3. Adicionar **Tempo > Mês**.  Isto representará a tendência.
+4. IMPORTANTE: ordene o gráfico por **Mês**. Depois de converter a visualização para um KPI, já não tem a opção de ordenar.
+
+    ![](media/power-bi-visualization-kpi/power-bi-sort-by-month.png)
+5. Converta o visual para um KPI selecionando o ícone do KPI do painel de Visualização.
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
-5. Adicione uma meta. Adicione as vendas do último ano como o objetivo. Arraste **Total de Unidades do Último Ano** para o campo **Objetivos-alvo**.
+6. Adicione uma meta. Adicione as vendas do último ano como o objetivo. Arraste **Total de Unidades do Último Ano** para o campo **Objetivos-alvo**.
    
     ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
-6. Opcionalmente, formate o KPI selecionando o ícone do rolo de tinta para abrir o painel de Formatação.
+7. Opcionalmente, formate o KPI selecionando o ícone do rolo de tinta para abrir o painel de Formatação.
    
    * **Indicador**: controla as unidades de apresentação do indicador e casas decimais.
    * **Eixo da tendência**: quando definido como **Ativado**, o eixo de tendência é apresentado como plano de fundo do visual do KPI.  
    * **Metas**: quando definido como **Ativado**, o elemento visual apresenta o objetivo e a distância do objetivo como uma percentagem.
-   * **Estado**: alguns KPIs são considerados *melhores* para valores mais altos e alguns são considerados *melhores* para valores mais baixos. Por exemplo, ganhos VS. tempo de espera. Normalmente, um valor mais alto de ganhos é melhor em comparação com um valor mais alto de tempo de espera, que é, geralmente, considerado o pior. Esta alternância permite a seleção de um comportamento de KPI. A seleção de estado assume a predefinição **alto é melhor**.
-7. Quando tiver o KPI conforme desejado, [afixe-o a um dashboard](service-dashboard-pin-tile-from-report.md).
+   * **Codificação de cores > Direção**: alguns KPIs são considerados *melhores* para valores mais altos e alguns são considerados *melhores* para valores mais baixos. Por exemplo, ganhos vs. tempo de espera. Normalmente, um valor mais alto de ganhos é melhor em comparação com um valor mais alto de tempo de espera. Selecione **alto é melhor** e, opcionalmente, altere as definições de cor.
 
-Os KPIs também estão disponíveis nos dispositivos móveis, mantendo-o sempre ligado ao heartbeat do seu negócios
+1. Quando tiver o KPI conforme desejado, [afixe-o a um dashboard](service-dashboard-pin-tile-from-report.md).
+
+Os KPIs também estão disponíveis nos dispositivos móveis, mantendo-o sempre ligado ao heartbeat do seu negócios.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Se o seu KPI não se parecer com o acima, poderá ser porque tem de ordenar por mês. Uma vez que os KPIs não tem uma opção de ordenação, terá de os ordenar por mês *antes* de converter a visualização para um KPI.
@@ -77,5 +81,5 @@ Os KPIs também estão disponíveis nos dispositivos móveis, mantendo-o sempre 
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

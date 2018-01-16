@@ -1,6 +1,6 @@
 ---
 title: "Definir alertas de dados nas aplicações móveis do Power BI"
-description: "Saiba como definir alertas nas aplicações móveis do Power BI e no serviço Power BI para o notificar quando os dados num dashboard mudarem para além dos limites definidos por si."
+description: "Saiba como definir alertas de dados na aplicação móvel do Power BI para notificá-lo quando os dados num dashboard são alterados para além dos limites que definiu."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Definir alertas de dados nas aplicações móveis do Power BI
 Aplica-se a:
@@ -30,7 +30,9 @@ Aplica-se a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
-Pode definir alertas nas aplicações móveis do Power BI e no serviço Power BI para o notificar quando os dados num dashboard mudarem para além dos limites definidos por si. Os alertas são compatíveis com mosaicos com um único número, como cartões e medidores, mas não com a transmissão de dados. Pode definir alertas de dados no seu dispositivo móvel e vê-los no serviço Power BI e vice-versa. Só pode ver os alertas de dados que definir, mesmo que partilhe um dashboard ou instantâneo de um mosaico.
+Pode definir alertas nos dashboards nas aplicações móveis do Power BI e no serviço Power BI. Os alertas notificam-no quando os dados num mosaico forem alterados para além dos limites que definiu. Os alertas são compatíveis com mosaicos com um único número, como cartões e medidores, mas não com a transmissão de dados. Pode definir alertas de dados no seu dispositivo móvel e vê-los no serviço Power BI e vice-versa. Só pode ver os alertas de dados que definir, mesmo que partilhe um dashboard ou instantâneo de um mosaico.
+
+Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se tiver uma licença do Power BI gratuita e se o dashboard partilhado estiver dentro da capacidade de Premium. 
 
 > [!WARNING]
 > As notificações de alertas com base em dados dão-lhe informações sobre os seus dados. Se o seu dispositivo for roubado, recomendamos que aceda ao serviço Power BI para desativar todas as regras de alertas baseados em dados. 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagir com mapas ArcGIS no Power BI
 Este tópico foi escrito do ponto de vista de uma pessoa que *consome* um mapa ArcGIS no serviço Power BI, Desktop ou para dispositivo móvel. Quando um criador partilha um mapa ArcGIS consigo, existem várias formas de interagir com o mapa.  Para obter mais informações sobre como criar um mapa ArcGIS, veja [Tutorial de mapas ArcGIS da ESRI](power-bi-visualization-arcgis.md).
@@ -62,7 +62,7 @@ O ArcGIS Maps for Power BI permite três modos de seleção. É possível seleci
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interagir com um mapa ArcGIS
-As funcionalidades disponíveis dependem se for um *criador* (pessoa que criou o mapa) ou o *consumidor* (alguém partilhou um mapa ArcGIS consigo). Se estiver a interagir com um mapa ArcGIS como um consumidor ([Vista de leitura](service-interact-with-a-report-in-reading-view.md)), seguem-se as ações disponíveis para si.
+As funcionalidades disponíveis dependem se for um *criador* (pessoa que criou o mapa) ou o *consumidor* (alguém partilhou um mapa ArcGIS consigo). Se estiver a interagir com um mapa ArcGIS como um consumidor ([Vista de leitura](service-reading-view-and-editing-view.md)), seguem-se as ações disponíveis para si.
 
 * Tal como com outros tipos de visualização, pode [afixar nos dashboards](service-dashboard-pin-tile-from-report.md), [ver](service-reports-show-data.md) e/ou [exportar os dados subjacentes](power-bi-visualization-export-data.md) e ver o mapa no [Modo de detalhe](service-focus-mode.md)e em [Ecrã inteiro](service-fullscreen-mode.md).    
 * Expanda o painel **Filtros** para explorar o mapa através de filtros. Quando fechar o relatório, os filtros aplicados não são guardados.    

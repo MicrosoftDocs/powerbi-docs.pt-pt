@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Desativar a definição de privacidade no Power BI Gateway - Personal
 > [!NOTE]
@@ -59,7 +59,8 @@ Pode utilizar os passos a seguir para ativar a Combinação Rápida para o seu g
     Se não for um administrador, a localização será a seguinte.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. Adicione o elemento **&lt;EnableFastCombine&gt;** com um valor true ao ficheiro de configuração. A adição deste elemento ativará a **Combinação Rápida**.
+    
+2. Adicione o elemento**&lt;EnableFastCombine&gt;** com um valor true ao ficheiro de configuração. A adição deste elemento ativará a **Combinação Rápida**.
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
    
@@ -77,7 +78,8 @@ Pode utilizar os passos a seguir para ativar a Combinação Rápida para o seu g
     Se não for um administrador, a localização será a seguinte.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
-2. Remova o elemento **&lt;EnableFastCombine&gt;** com um valor true ao ficheiro de configuração. A remoção deste elemento desativará a **Combinação Rápida**.
+
+2. Remova o elemento **&lt;EnableFastCombine&gt;** do ficheiro de configuração. A remoção deste elemento desativará a **Combinação Rápida**.
 3. Saia e reinicie o ecrã de configuração do gateway.
 4. Deixará de ver um estado a indicar que a **Combinação Rápida** está ativada.
 
@@ -85,5 +87,5 @@ Pode utilizar os passos a seguir para ativar a Combinação Rápida para o seu g
 [Gateway de dados local (modo pessoal) - a nova versão do gateway pessoal](service-gateway-personal-mode.md)
 [Níveis de Privacidade](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

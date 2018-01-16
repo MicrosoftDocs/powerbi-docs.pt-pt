@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 Este artigo analisa de forma aprofundada o painel Filtros de relatórios. Irá ver o painel na Vista de Edição e na Vista de Leitura para relatórios do Power BI.
@@ -29,7 +29,7 @@ Este artigo analisa de forma aprofundada o painel Filtros de relatórios. Irá v
 Existem diversas formas de filtrar dados no Power BI e recomendamos que comece por ler [Sobre os filtros e o realce](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Trabalhar com filtros
-Os relatórios podem ser abertos na [Vista de Edição](service-interact-with-a-report-in-editing-view.md) ou na [Vista de Leitura](service-interact-with-a-report-in-reading-view.md). Na vista de Edição, os proprietários de relatórios podem [adicionar filtros a um relatório](power-bi-report-add-filter.md) e esses filtros serão guardados com o relatório. As pessoas que visualizam o relatório na a Vista de Leitura podem interagir com os filtros, mas não podem guardar as alterações de filtros no relatório.
+Os relatórios podem ser abertos na [Vista de edição ou Vista de leitura](service-reading-view-and-editing-view.md). Na vista de Edição, os proprietários de relatórios podem [adicionar filtros a um relatório](power-bi-report-add-filter.md) e esses filtros serão guardados com o relatório. As pessoas que visualizam o relatório na Vista de leitura podem interagir com os filtros, mas não podem guardar as alterações de filtros no relatório.
 
 ## <a name="filters-in-reading-view"></a>Filtros na Vista de Leitura
 Quando um relatório é aberto na Vista de Leitura, o painel Filtros é apresentado no lado direito da tela de relatório. Se não vir o painel, selecione a seta no canto superior direito para expandi-la.
@@ -122,12 +122,12 @@ Se os valores de campo representarem a data ou hora, pode especificar uma hora d
 
 ## <a name="next-steps"></a>Passos seguintes
 [Filtros e realce nos relatórios](power-bi-reports-filters-and-highlighting.md)  
-[Interagir com filtros e realce na Vista de Leitura de relatórios](service-interact-with-a-report-in-reading-view.md)  
+[Interagir com filtros e realce na Vista de Leitura de relatórios](service-reading-view-and-editing-view.md)  
 [Criar filtros na Vista de Edição de relatórios](power-bi-report-add-filter.md)  
 [Alterar como os elementos visuais de relatórios realizam filtragem cruzada e realce cruzado entre si](service-reports-visual-interactions.md)
 
 Saiba mais sobre os [relatórios no Power BI](service-reports.md)  
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
