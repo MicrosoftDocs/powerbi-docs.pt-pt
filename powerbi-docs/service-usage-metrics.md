@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métrica de utilização para dashboards e relatórios
 Se criar dashboards e relatórios, a métrica de utilização ajuda-o a compreender o respetivo impacto. Quando executa a métrica de utilização do dashboard ou a métrica de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização; o que está a ser utilizado, por quem e com que finalidade.  
 
 > [!NOTE]
-> A métrica de utilização recolhe a utilização quando integrar dashboards e relatórios, mas não quando utilizar [Publicar na web](service-publish-to-web.md)
+> A métrica de utilização irá controlar a utilização de relatórios que estão incorporados no SharePoint Online. Também irá controlar a incorporação de dashboards e relatórios através do fluxo "o utilizador possui credenciais" e "a aplicação possui credenciais". A métrica de utilização não irá controlar a utilização de incorporação de relatórios através da opção [Publicar na Web](service-publish-to-web.md).
 > 
 > 
 

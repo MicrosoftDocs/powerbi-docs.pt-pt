@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: 
 author: parthsha
 manager: kfile
-backup: asaxton
+backup: maghan
 editor: 
 tags: 
 qualityfocus: no
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: pashah
-ms.openlocfilehash: 74fea41f3aa77d00292a62f62bf5554442ffac33
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
 Power BI Report Server é uma solução personalizada de relatórios empresariais que os clientes podem implementar no seu local, por trás da firewall. Combina a capacidade de relatórios interativos do Power BI Desktop com a plataforma de servidor no local do SQL Server Reporting Services. Com uma utilização intensa e crescente de análises e relatórios nas empresas, a orçamentação das licenças de software e da infraestrutura de hardware necessárias para dimensionar uma base de utilizadores da empresa pode ser um desafio. Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. Enquanto os relatórios, as consultas e os padrões de utilização das organizações variam bastante, os resultados apresentados neste documento, juntamente com os testes reais utilizados e uma descrição detalhada de como foram executados, servem como um ponto de referência para todas as pessoas no processo de planeamento antecipado do Power BI Report Server.
@@ -49,7 +49,7 @@ A implementação do Power BI Report Server consistiu nas seguintes máquinas vi
 
 * Controlador de Domínio do Active Directory: foi necessário pelo SQL Server Database Engine, SQL Server Analysis Services e Power BI Report Server para autenticar em segurança todos os pedidos.
 * O motor de base de dados do SQL Server e SQL Server Analysis Services: foi onde armazenamos todas as bases de dados dos relatórios a consumir depois de serem compostos.
-* Power BI Report Server
+* Servidor de Relatório do Power BI
 * Base de dados do Power BI Report Server. A base de dados do servidor de relatórios está alojada numa máquina diferente do Power BI Report Server, para que não seja necessário competir com o SQL Server Database Engine por memória, CPU, rede e recursos de disco.
 
 ![](media/capacity-planning/report-server-topology.png)

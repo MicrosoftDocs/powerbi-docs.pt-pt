@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subscrever relatórios e dashboards do Power BI
 Nunca foi tão fácil manter-se atualizado relativamente ao seus dashboards e relatórios mais importantes. Subscreva as páginas de relatório e dashboards mais importantes para si e o Power BI enviará um instantâneo por e-mail para a sua caixa de entrada. Indique ao Power BI com que frequência quer receber os e-mails: desde uma vez por dia a uma vez por semana. O e-mail e o instantâneo irão utilizar o idioma definido nas Definições do Power BI. Se não tiver sido definido um idioma, o Power BI utilizará o idioma atual do browser.
@@ -65,7 +65,7 @@ Veja Sirui a configurar uma subscrição de um relatório por e-mail. Em seguida
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Subscrever uma página de relatório
-1. Abra o relatório na [Vista de leitura](service-report-open-in-reading-view.md).
+1. Abra o relatório na [Vista de leitura](service-reading-view-and-editing-view.md).
 2. Na barra de menus superior, selecione **Subscrever**.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Neste momento, a subscrição não está disponível para dashboards ou relatórios provenientes de pacotes de conteúdo ou aplicações do Power BI. No entanto, existe uma solução... faça uma cópia do relatório/dashboard e adicione as subscrições a essa versão.
+* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e mudar o nome da mesma, terá de voltar a criar a sua subscrição
 * Para subscrições por e-mail em conjuntos de dados de ligação em direto, só receberá e-mails quando os dados forem alterados. Assim, se ocorrer uma atualização mas sem alterações de dados, o Power BI não enviará nenhum e-mail.
 * As subscrições por e-mail não suportam a maioria dos [elementos visuais personalizados](power-bi-custom-visuals.md).  A única exceção são os elementos visuais personalizados que foram [certificados](power-bi-custom-visuals-certified.md).  
 * As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas antes da subscrição não irão aparecer no e-mail.    
@@ -119,7 +120,7 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de 2 meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.    
 * Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) consegue receber e-mails. [A equipa do Power BI está a trabalhar para simplificar este requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), por isso, mantenha-se atento. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximas etapas
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)    
 * [Ler a mensagem de blogue](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 
