@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporar os dashboards, os relatórios e os mosaicos do Power BI
 
@@ -123,7 +123,7 @@ Os utilizadores gratuitos podem consumir conteúdo que está incorporado a parti
 
 | Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição máxima de páginas em hora de ponta |
 | --- | --- | --- | --- | --- | --- |
-| EM3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1,200 |
+| EM3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1200 |
 | P1 |8 núcleos virtuais |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1,201-2,400 |
 | P2 |16 núcleos virtuais |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2,401-4,800 |
 | P3 |32 núcleos virtuais |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4,801-9600 |
@@ -140,9 +140,9 @@ Se estiver a incorporar para os seus clientes, deverá fazer o seguinte.
 
 | Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição máxima de páginas em hora de ponta |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 núcleo virtual |.5 núcleos, 3 GB de RAM |.5 núcleos | |1-300 |
-| A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | |301-600 |
-| A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1,200 |
+| A1 |1 núcleo virtual |.5 núcleos, 3 GB de RAM |.5 núcleos | 5 por segundo |1-300 |
+| A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |301-600 |
+| A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |601-1200 |
 | A4 |8 núcleos virtuais |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1,201-2,400 |
 | A5 |16 núcleos virtuais |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2,401-4,800 |
 | A6 |32 núcleos virtuais |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4,801-9600 |
@@ -160,7 +160,7 @@ Os Administradores Globais ou os administradores de serviço Power BI podem perm
 ## <a name="next-steps"></a>Passos seguintes
 
 [Incorporar com o Power BI](embedding.md)  
-[Como migrar conteúdo da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
+[Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium – o que é?](../service-premium.md)  
 [Como comprar o Power BI Premium](../service-admin-premium-purchase.md)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  

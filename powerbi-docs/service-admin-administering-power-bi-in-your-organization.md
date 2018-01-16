@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/05/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: 3ee74e9a7f2f174b37e582089e0d9a1d6c433831
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrar o Power BI na sua organização
 O Microsoft Power BI permite aos utilizadores visualizar dados, partilhar descobertas e colaborar de novas formas intuitivas. Para saber mais, veja [Introdução ao Power BI](service-get-started.md).
@@ -51,15 +51,16 @@ Para obter mais informações sobre a função de administrador do serviço Powe
 
 **Administração do Power BI**
 
-* [Como isto mudará a minha forma de gerir as identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
+* [De que forma isto irá alterar a forma como faço a gestão de identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Como gerir o Power BI?](#how-do-we-manage-power-bi)
 * [Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
-* [Se eu tiver vários domínios, posso controlar o inquilino do Office 365 ao qual os utilizadores são adicionados?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
+* [Se tiver vários domínios, posso controlar os utilizadores que são adicionados ao inquilino do Office 365?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [Como posso remover o Power BI para os utilizadores já inscritos?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Como posso saber quando são associados novos utilizadores ao inquilino?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Devo estar preparado para outras questões?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [É gratuito? Estas licenças serão cobradas?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Onde está localizado o meu inquilino do Power BI?](#where-is-my-power-bi-tenant-located)
+* [O que é o SLA (Contrato de Nível de Serviço) do Power BI?](#what-is-the-power-bi-sla)
 
 **Segurança no Power BI**
 
@@ -116,7 +117,7 @@ Depois de selecionar a ligação, selecione **Executar** para executar o pacote 
 > 
 > 
 
-### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Como posso permitir que os utilizadores sejam adicionados ao meu inquilino existente do Office 365?
+### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Como posso permitir que os utilizadores se associem ao inquilino existente do Office 365?
 Para permitir que os utilizadores se associem ao inquilino, execute o comando oposto, conforme descrito na pergunta acima.
 
 Para efetuar os passos seguintes, tem de instalar a versão de 64 bits mais recente do [Módulo Azure Active Directory para Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
@@ -139,17 +140,17 @@ Para efetuar os passos seguintes, tem de instalar a versão de 64 bits mais rece
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Como posso impedir que os utilizadores existentes comecem a utilizar o Power BI?
 Existem passos que pode seguir, como administrador, para impedir os utilizadores de se inscreverem no Power BI. Se bloquear esta ação, as tentativas dos utilizadores se inscreverem falharão e serão direcionados para contactar o respetivo administrador da organização. Não tem de repetir este processo se já tiver desativado a distribuição de licenças automática (por exemplo, Office 365 para Educação para Alunos, Docentes e Funcionários). [Saiba mais](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
-A definição do AAD que controla isto é **AllowAdHocSubscriptions**. A maioria dos inquilinos terá esta definição como true, o que significa que está ativada. Se adquiriu o Power BI através de um parceiro, pode estar predefinida como false, o que significa que está desativada.
+A definição do AAD que controla isto é **AllowAdHocSubscriptions**. A maioria dos inquilinos terá essa definição como true, o que significa que está ativada. Se adquiriu o Power BI através de um parceiro, pode estar predefinida como false, o que significa que está desativada.
 
 Para efetuar os passos seguintes, tem de instalar a versão de 64 bits mais recente do [Módulo Azure Active Directory para Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
 
-1. Em primeiro lugar, tem de iniciar sessão no Azure Active Directory com a sua credencial do Office 365. Na primeira linha, serão solicitadas as suas credenciais. Na segunda linha, é ligado ao Azure Active Directory.
+1. Em primeiro lugar, tem de iniciar sessão no Azure Active Directory com a sua credencial do Office 365. Na primeira linha serão solicitadas as suas credenciais. Na segunda linha, será ligado ao Azure Active Directory.
    
      $msolcred = get-credential   connect-msolservice -credential $msolcred
-2. Quando tiver sessão iniciada, pode emitir o comando seguinte de modo a ver para que é que o seu inquilino está atualmente configurado.
+2. Uma vez ligado, pode emitir o comando a seguir de modo a ver para que é que o seu inquilino está atualmente configurado.
    
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. Pode utilizar este comando para ativar ($true) ou desativar ($false) o AllowAdHocSubscriptions.
+3. Pode usar este comando para ativar ($true) ou desativar ($false) o AllowAdHocSubscriptions.
    
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
 
@@ -163,13 +164,13 @@ Para permitir que os utilizadores se inscrevam no Power BI, execute o comando li
 
 Para efetuar os passos seguintes, tem de instalar a versão de 64 bits mais recente do [Módulo Azure Active Directory para Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).
 
-1. Em primeiro lugar, tem de iniciar sessão no Azure Active Directory com a sua credencial do Office 365. Na primeira linha, serão solicitadas as suas credenciais. Na segunda linha, é ligado ao Azure Active Directory.
+1. Em primeiro lugar, tem de iniciar sessão no Azure Active Directory com a sua credencial do Office 365. Na primeira linha serão solicitadas as suas credenciais. Na segunda linha, será ligado ao Azure Active Directory.
    
      $msolcred = get-credential   connect-msolservice -credential $msolcred
-2. Quando tiver sessão iniciada, pode emitir o comando seguinte de modo a ver para que é que o seu inquilino está atualmente configurado.
+2. Uma vez ligado, pode emitir o comando a seguir de modo a ver para que é que o seu inquilino está atualmente configurado.
    
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. Pode utilizar este comando para ativar ($true) ou desativar ($false) o AllowAdHocSubscriptions.
+3. Pode usar este comando para ativar ($true) ou desativar ($false) o AllowAdHocSubscriptions.
    
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
 
@@ -255,6 +256,9 @@ As licenças do **Power BI (gratuito)** destinam-se à versão gratuita do Power
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Onde está localizado o meu inquilino do Power BI?
 Para saber como localizar o seu inquilino do Power BI, também conhecido como região de dados, veja [Onde está localizado o meu inquilino do Power BI?](service-admin-where-is-my-tenant-located.md)
+
+### <a name="what-is-the-power-bi-sla"></a>O que é o SLA do Power BI?
+Para obter informações sobre o SLA (Contrato de Nível de Serviço) do Power BI, veja o artigo [Licensing Terms and Documentation (Documentação e Termos de Licenciamento)](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) na secção **Licenciamento** do site de Licenciamento da Microsoft.
 
 ## <a name="security-in-power-bi"></a>Segurança no Power BI
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>O Power BI cumpre requisitos de conformidade nacionais, regionais e específicos da indústria?

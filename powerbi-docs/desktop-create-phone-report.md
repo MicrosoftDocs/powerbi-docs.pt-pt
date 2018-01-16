@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 7a32885efb0813cc430f37952ca4fc9c5e435121
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
+ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Criar relatórios otimizados para as aplicações de telemóvel do Power BI
-Quando [criar um relatório no Power BI Desktop](desktop-report-view.md), pode melhorar a experiência de utilização nas aplicações móveis para telemóveis através da criação de uma versão do relatório especificamente para o telemóvel. Pode adaptar o relatório ao telemóvel ao reorganizar e redimensionar os elementos visuais, provavelmente ao não incluir todos, para uma experiência ideal. Além disso, pode [criar *elementos visuais* reativos](desktop-create-responsive-visuals.md) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Num iPhone, esses filtros aparecem automaticamente no relatório do telemóvel. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
+Quando [criar um relatório no Power BI Desktop](desktop-report-view.md), pode melhorar a experiência de utilização nas aplicações móveis para telemóveis através da criação de uma versão do relatório especificamente para o telemóvel. Pode adaptar o relatório ao telemóvel ao reorganizar e redimensionar os elementos visuais, provavelmente ao não incluir todos, para uma experiência ideal. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório do telemóvel. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
 
 ![Relatório otimizado num telemóvel](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -56,7 +56,7 @@ Depois de [criar um relatório no Power BI Desktop](desktop-report-view.md), pod
    ![Redimensionar um elemento visual](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Otimizar um elemento visual para qualquer tamanho
-Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã.
+Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. 
 
 À medida que o elemento visual muda de tamanho, o Power BI dá prioridade à vista de dados, por exemplo, ao remover o preenchimento e ao mover a legenda para a parte superior do elemento visual automaticamente, para que o elemento visual permaneça informativo mesmo enquanto fica mais pequeno.
 
@@ -82,10 +82,14 @@ Escolha se quer ativar a capacidade de resposta de cada elemento visual. Leia ma
 As segmentações de dados disponibilizam uma filtragem na tela dos dados de relatório. Quando conceber segmentações de dados no modo de criação de relatórios normal, pode modificar algumas definições de segmentação de dados para torná-las mais utilizáveis nos relatórios de telemóvel:
 
 * Decida se os leitores de relatórios podem selecionar apenas um ou mais do que um item.
-* Torne a segmentação de dados vertical ou horizontal. 
 * Coloque uma caixa à volta da segmentação de dados para facilitar a análise do relatório.
+* Torne a segmentação vertical, horizontal ou *reativa*. 
 
-Leia mais sobre como [criar segmentações de dados no serviço Power BI](guided-learning/visualizations.yml#step-4).
+Se tornar a segmentação reativa, ao alterar o seu tamanho e forma esta mostrará mais ou menos opções. Pode aumentá-la ou diminui-la na vertical ou na horizontal. Se a diminuir muito, esta transforma-se num ícone de filtro na página do relatório. 
+
+![Segmentação de dados reativa no Power BI](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+
+Leia mais sobre a [criação de segmentações de dados reativas](power-bi-slicer-filter-responsive.md).
 
 ## <a name="publish-a-phone-report"></a>Publicar um relatório de telemóvel
 * Para publicar a versão para telemóvel de um relatório, pode [publicar o relatório principal do Power BI Desktop para o serviço Power BI](desktop-upload-desktop-files.md) e a versão para telemóvel publica em simultâneo.

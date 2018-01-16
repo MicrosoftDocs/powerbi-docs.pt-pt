@@ -1,6 +1,6 @@
 ---
-title: Publicar elementos visuais personalizados na Loja Office
-description: Saiba como pode publicar o seu elemento visual personalizado na Loja Office para que outros o possam encontrar e utilizar.
+title: Publicar visuais personalizados no AppSource
+description: Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Publicar elementos visuais personalizados na Loja Office
-Saiba como pode publicar o seu elemento visual personalizado na Loja Office para que outros o possam encontrar e utilizar.
+# <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
+Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar. office
 
-Depois de criar o seu elemento visual personalizado, pode querer publicá-lo na Loja Office para que outros o possam encontrar e utilizar. Há alguns preparativos que é necessário fazer antes que isso seja possível. Para obter mais informações sobre como criar um elemento visual personalizado, consulte [Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
+Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Há alguns preparativos que é necessário fazer antes que isso seja possível. Para obter mais informações sobre como criar um elemento visual personalizado, consulte [Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-O que é a Loja Office? Em poucas palavras, é o local onde pode encontrar aplicações (suplementos) para o software Office 365. A [Loja Office](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) liga milhões de utilizadores do Office 365 a soluções que os ajudam a trabalhar de forma mais eficiente, inteligente ou harmoniosa que nunca.
+O que é o AppSource? Resumidamente, é o local onde pode encontrar aplicações SaaS e suplementos para os seus produtos e serviços Microsoft. O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) liga milhões de utilizadores do Office 365, Dynamics 365, Cortana Intelligence e outros produtos a soluções que os ajudam a trabalhar com mais eficácia, mais informações e melhores visuais.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparar a submissão do seu elemento visual personalizado
 Depois de concluir a codificação e os testes do elemento visual personalizado e de o ter compactado num ficheiro pbiviz, também deverá ter os seguintes itens prontos para serem submetidos.
@@ -53,22 +53,22 @@ O processo de submissão começa com o envio de uma mensagem de e-mail à equipa
 Anexe o ficheiro .pbiviz e o ficheiro. pbix do relatório de exemplo à mensagem de e-mail. A equipa do Power BI irá responder com instruções e um ficheiro XML do pacote de aplicação para carregamento. Este XML do pacote de aplicação é necessário para submeter o elemento visual através do Centro de Programadores do Office.
 
 > [!NOTE]
-> A fim de melhorar a qualidade e garantir que os relatórios existentes não apresentam falhas, as atualizações aos elementos visuais existentes irão demorar mais 2 semanas a atingir o ambiente de produção após a aprovação na Loja.
+> A fim de melhorar a qualidade e garantir que os relatórios existentes não apresentam falhas, as atualizações aos elementos visuais existentes irão demorar mais duas semanas a atingir o ambiente de produção após a aprovação na loja.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Submeter na Loja Office
-Depois de obter o XML do pacote de aplicação junto da equipa do Power BI, navegue para o [Centro de Programadores do Office](https://sellerdashboard.microsoft.com/Application/Summary) para submeter o elemento visual na Loja Office.
+## <a name="submitting-to-appsource"></a>Submeter no AppSource
+Após obter o XML do pacote de aplicação junto da equipa do Power BI, navegue para o [centro de programadores](https://sellerdashboard.microsoft.com/Application/Summary) para submeter o seu visual no AppSource.
 
 > [!NOTE]
 > Tem de ter uma conta de programador do Office válida para iniciar sessão no [Centro de Programadores do Office](https://dev.office.com/). Uma conta de programador do Office tem de ser uma Conta Microsoft (Live ID como, por exemplo, hotmail.com ou outlook.com).
 > 
 > [!IMPORTANT]
-> Tem de enviar uma mensagem de e-mail com o ficheiro .pbiviz e o ficheiro. pbix à equipa do Power BI antes de efetuar a submissão na Loja Office. Este passo visa permitir que a equipa do Power BI carregue os ficheiros no servidor de partilha público. De outro modo, a Loja Office não conseguirá obter os ficheiros. Tem de enviar os ficheiros sempre que fizer uma nova submissão do elemento visual, atualizar o elemento visual existente e corrigir submissões rejeitadas pela Loja Office.
+> Tem de enviar um e-mail com o ficheiro .pbiviz e o ficheiro. pbix à equipa do Power BI antes de efetuar a submissão no AppSource. Este passo permite que a equipa do Power BI carregue os ficheiros para o servidor de partilha público. Caso contrário, a loja não conseguirá obter os ficheiros. Tem de enviar os ficheiros sempre que fizer uma nova submissão do visual, atualizar o visual existente e corrigir submissões rejeitadas.
 > 
 > 
 
-### <a name="process-to-submit-visual"></a>Processo para submeter o elemento visual
+### <a name="process-to-submit-visual"></a>Processo para submeter o visual
 Siga os passos abaixo para concluir a submissão.
 
 1. Selecione **Adicionar uma nova aplicação**.

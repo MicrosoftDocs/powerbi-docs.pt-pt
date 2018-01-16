@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e publicar aplicações com dashboards e relatórios no Power BI
 
@@ -32,7 +32,7 @@ Muitas vezes, os utilizadores empresariais precisam de vários dashboards e rela
 
 Nas aplicações do Power BI, agora em pré-visualização, pode criar coleções de dashboards e relatórios e publicar estas aplicações para toda a organização ou para pessoas específicas ou grupos. Para si, como criador ou administrador de relatórios, as aplicações facilitam a gestão das permissões em coleções de dashboards.
 
-Os utilizadores empresariais obtêm as suas aplicações de algumas formas diferentes. Se o administrador do Power BI lhe der permissões, pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho. Caso contrário, eles podem instalar as aplicações a partir da Microsoft AppSource ou pode enviar-lhes uma ligação direta. Eles podem facilmente encontrar e voltar aos seus conteúdos porque estes se encontram num só local. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Leia mais sobre a [experiência de aplicação para utilizadores empresariais](service-install-use-apps.md).
+Os utilizadores empresariais podem instalar estas aplicações a partir do Microsoft AppSource ou pode enviar-lhes uma ligação direta. Eles podem facilmente encontrar e voltar aos seus conteúdos porque estes se encontram num só local. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Leia mais sobre a [experiência de aplicação para utilizadores empresariais](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Pacotes de conteúdos de aplicações e organizacionais
 As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se já tiver pacotes de conteúdos organizacionais, estes continuarão a funcionar lado a lado com as aplicações.
@@ -119,15 +119,13 @@ Quando os dashboards e relatórios da área de trabalho da aplicação estiverem
    
      ![Conteúdo da aplicação](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Por último, em **Acesso**, decida quem tem acesso à aplicação: todas as pessoas na sua organização, pessoas específicas ou listas de distribuição de e-mail. Se tiver permissões, pode optar por instalar a aplicação automaticamente para os destinatários.
-   
-     ![Acesso à aplicação](media/service-create-distribute-apps/power-bi-apps-access.png)
+4. Por último, em **Acesso**, decida quem tem acesso à aplicação: todas as pessoas na sua organização, pessoas específicas ou grupos de segurança do Active Directory. 
 
 5. Quando selecionar **Concluir**, verá uma mensagem a confirmar que está pronto para publicar. Na caixa de diálogo de êxito, pode copiar o URL, que é uma ligação direta para esta aplicação, e enviá-lo às pessoas com as quais partilhou a aplicação.
    
      ![Conclusão da aplicação](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Os utilizadores empresariais que tenham publicado a aplicação podem localizá-la de algumas formas diferentes. Em primeiro lugar, se puder instalar a aplicação automaticamente, ela é apresentada em Aplicações na respetiva conta do Power BI.  Pode enviar-lhes a ligação direta para a aplicação ou podem procurá-la no Microsoft AppSource, onde veem todas as aplicações a que podem aceder. Depois disso, sempre que acederem às Aplicações, verão esta aplicação na lista deles.
+Os utilizadores empresariais que tenham publicado a aplicação podem localizá-la de duas formas diferentes. Pode enviar-lhes a ligação direta para a aplicação ou podem procurá-la no Microsoft AppSource, onde veem todas as aplicações a que podem aceder. Depois disso, sempre que acederem a Aplicações, verão esta aplicação na respetiva lista.
 
 Leia mais sobre a [experiência de aplicação para utilizadores empresariais](service-install-use-apps.md).
 
