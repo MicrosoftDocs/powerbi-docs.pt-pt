@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: e2f1ca5abf05c92e76497d7b50600e6ef12e03fc
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 2994e61407bd858792e73019472cd6752abb401d
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar praticamente qualquer coisa no serviço Power BI
 Este artigo mostra como eliminar um dashboard, relatório, livro, conjunto de dados, aplicação, visualização e área de trabalho no serviço Power BI.
@@ -141,7 +141,7 @@ Eliminar uma aplicação da página de lista de aplicações não elimina a apli
 Este artigo abordou como eliminar os principais blocos modulares do serviço Power BI. No entanto, existem mais coisas que pode eliminar no Power BI.  
 
 * [Remover o seu dashboard em Destaque](service-dashboard-featured.md#change-the-featured-dashboard)
-* [Remover um dashboard (remover dos favoritos)](service-dashboard-favorite.md#unfavorite-a-dashboard)
+* [Remover um dashboard (remover dos favoritos)](service-dashboard-favorite.md)
 * [Eliminar uma página de relatório](service-delete.md)
 * [Eliminar um mosaico de dashboard](service-dashboard-edit-tile.md)
 * [Eliminar uma visualização de relatório](service-delete.md)

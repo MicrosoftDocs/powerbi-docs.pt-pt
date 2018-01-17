@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 0e0ad501ed809fc1f7cd8cc66d7f5d13badf7d15
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="on-premises-data-gateway"></a>Gateway de dados local
 O gateway de dados no local funciona como uma ponte ao proporcionar a transferência rápida e segura de dados entre dados no local (dados que não estão na cloud) e os serviços do Power BI, Microsoft Flow, Logic Apps e PowerApps.
@@ -104,5 +104,5 @@ Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar def
 [Gateway de dados no local detalhado](service-gateway-onprem-indepth.md)  
 [Gateway de dados local (modo pessoal) - a nova versão do gateway pessoal](service-gateway-personal-mode.md)
 [Configurar as definições de proxy para os gateways de dados no local](service-gateway-proxy.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

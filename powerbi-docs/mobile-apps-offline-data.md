@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/19/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 60804fabd6bf863b4d7bc642116bb3998b058009
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6ed6f2898fa99075c6130cd60c083f619b6ba258
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Ver os dados offline em aplicações móveis do Power BI
 Aplica-se a:
@@ -65,7 +65,7 @@ Quando estiver offline com o Power BI no dispositivo móvel, pode encontrar esta
 * Pode ver relatórios móveis do Reporting Services e KPIs offline, se os tiver visualizado enquanto esteve ligado. Não são atualizados em segundo plano. São atualizados sempre que os abrir. 
 
 ## <a name="next-steps"></a>Passos seguintes
-Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto, não se esqueça de votar noutras funcionalidades que gostaria de ver nas aplicações móveis do Power BI. 
+Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto, não se esqueça de votar noutros recursos que gostaria de ver nas aplicações móveis do Power BI. 
 
 * [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)
 * Siga o @MSPowerBI no Twitter
