@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
+
+Este artigo inclui as listas de idiomas e países/regiões suportados do serviço Power BI, do Power BI Desktop e da documentação do Power BI.
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Países e regiões onde o Power BI está disponível
 Para obter uma lista de países e regiões onde o Power BI está disponível, consulte a [lista de disponibilidade internacional](https://products.office.com/business/international-availability). 
 
@@ -39,7 +42,7 @@ O serviço Power BI (no browser) está disponível nos seguintes 42 idiomas:
 * Croata - hrvatski
 * Checo - čeština
 * Dinamarquês - dansk
-* Holandês - Nederlands
+* Neerlandês - Nederlands
 * Inglês - English
 * Estónio - eesti
 * Finlandês - suomi
@@ -75,7 +78,7 @@ O serviço Power BI (no browser) está disponível nos seguintes 42 idiomas:
 * Ucraniano - українська
 * Vietnamita - Tiếng Việt
 
-## <a name="whats-translated"></a>O que é traduzido
+### <a name="whats-translated"></a>O que é traduzido
 Menus, botões, mensagens e outros elementos da experiência são convertidos no seu idioma, tornando mais fácil navegar e interagir com o Power BI.
 
 Neste momento, alguns recursos estão disponíveis apenas em inglês:
@@ -85,22 +88,22 @@ Neste momento, alguns recursos estão disponíveis apenas em inglês:
 
 Fique atento: estamos trabalhando para traduzir os recursos adicionais para outros idiomas. 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Selecionar o seu idioma no serviço Power BI
+### <a name="choose-your-language-in-the-power-bi-service"></a>Selecionar o seu idioma no serviço Power BI
 1. No serviço Power BI, selecione o ícone **Definições** ![Ícone Definições](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Definições**.
 2. No separador **Geral** > **Idioma**.
 3. Selecione o seu idioma > **Aplicar**.
 
-## <a name="choose-your-language-in-the-browser"></a>Selecionar o seu idioma no browser
+### <a name="choose-your-language-in-the-browser"></a>Selecionar o seu idioma no browser
 O Power BI detecta o idioma com base nas preferências de idioma no seu computador. A maneira de aceder e alterar essas preferências pode variar dependendo do sistema operativo e browser. Aqui está como aceder a essas preferências do Internet Explorer e Google Chrome.
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (versão 11)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (versão 11)
 1. Clique no botão **Ferramentas** no canto superior direito da sua janela do browser:
    
    ![Botão Ferramentas do Internet Explorer](media/supported-languages-countries-regions/languages1.png)
 2. Clique em **Opções da Internet**.
 3. Na caixa de diálogo Opções da Internet, no separador Geral, em Aspeto, clique no botão **Idiomas**.
 
-### <a name="google-chrome-version-42"></a>Google Chrome (versão 42)
+#### <a name="google-chrome-version-42"></a>Google Chrome (versão 42)
 1. Clique no botão de menu no canto superior direito da janela do browser:
    
    ![Botão de menu do Chrome](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ O idioma que selecionou para o Power BI Desktop afeta o formato de apresentaçã
 
 Para alterar o idioma do Power BI Desktop, regresse à página de transferências e transfira-o num idioma diferente.
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>Selecionar a região a utilizar ao importar dados para o Power BI Desktop
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Escolher a região para importar dados para o Power BI Desktop
 Tenha transferido o Power BI Desktop ou instalado o mesmo a partir da Loja Windows, pode selecionar uma região para um relatório específico como uma diferente da região na sua versão do Power BI Desktop. Esta alteração muda a forma como os dados são interpretados quando são importados da sua origem de dados, por exemplo, se "3/4/2017" é interpretado como 3 de abril ou 4 de março. 
 
 1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**.
@@ -153,6 +156,22 @@ Tenha transferido o Power BI Desktop ou instalado o mesmo a partir da Loja Windo
    
    ![Caixa de diálogo Opções do Power BI Desktop](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. Selecione **OK**.
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Escolher o idioma do modelo no Power BI Desktop
+
+Para além de definir o idioma da aplicação Power BI Desktop, também pode definir o idioma do modelo. O idioma do modelo afeta sobretudo dois elementos:
+
+- A forma como comparamos e ordenamos as cadeias. Por exemplo, como o turco possui duas letras i, consoante o agrupamento da base de dados, as duas podem acabar em ordens diferentes ao ordenar. 
+- O idioma que o Power BI Desktop utiliza durante a criação de tabelas com datas ocultas nos campos de data. Por exemplo, os campos são denominados Mês/Month/Mois, etc.
+
+Veja como definir o idioma do modelo.
+
+1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**.
+2. Em **Global**, selecione **Definições Regionais**.
+3. Na caixa **Idioma do modelo**, selecione um idioma diferente. 
+
+    ![Definir o idioma do modelo no Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>Idiomas da documentação de ajuda
 A ajuda está traduzida nos seguintes 10 idiomas: 
@@ -171,5 +190,5 @@ A ajuda está traduzida nos seguintes 10 idiomas:
 ## <a name="next-steps"></a>Próximos passos
 * Está a utilizar uma das aplicações móveis do Power BI? Consulte os [Idiomas suportados nas aplicações móveis do Power BI](mobile-apps-supported-languages.md) para obter detalhes.
 * Perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
-* Ainda tem problemas? Consulte a [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
+* Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 

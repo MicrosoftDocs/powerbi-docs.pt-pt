@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e publicar aplicações com dashboards e relatórios no Power BI
 
@@ -53,12 +53,7 @@ As *Áreas de trabalho de aplicações* são os locais onde pode criar aplicaç�
 
 Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Todos os membros e administradores da área de trabalho da aplicação têm licenças do Power BI Pro. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planear publicar para um vasto público ou mesmo para toda a organização. 
 
-Quando os conteúdos estiverem prontos, publique a aplicação. Pode enviar uma ligação direta para esse vasto público ou pode localizar a aplicação a partir do separador Aplicações, acedendo a **Transferir e explorar mais aplicações da AppSource**. Essas pessoas não conseguem modificar os conteúdos da aplicação, mas podem interagir no serviço Power BI ou numa das aplicações móveis – filtrando, destacando e ordenando os próprios dados. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Em que divergem as áreas de trabalho de aplicações das áreas de trabalho de grupo?
-Todas as áreas de trabalho de grupo existentes podem servir como áreas de trabalho de aplicações e pode publicar aplicações a partir de qualquer uma destas áreas de trabalho. Eis uma forma em como as áreas de trabalho de aplicações e as áreas de trabalho de grupo são diferentes: cria uma área de trabalho de aplicação como um local para criar e alojar uma aplicação específica. Há uma relação unidirecional entre a aplicação e os conteúdos da área de trabalho da aplicação. Tudo na área de trabalho da aplicação estará na aplicação quando a publicar. 
-
-Agora que compreende as aplicações e áreas de trabalho de aplicações, vamos começar a criar e publicar uma aplicação. 
+Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e poderá publicar a aplicação. Pode enviar uma ligação direta para esse vasto público ou pode localizar a aplicação a partir do separador Aplicações, acedendo a **Transferir e explorar mais aplicações da AppSource**. Essas pessoas não conseguem modificar os conteúdos da aplicação, mas podem interagir no serviço Power BI ou numa das aplicações móveis – filtrando, destacando e ordenando os próprios dados. 
 
 ## <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
@@ -115,7 +110,7 @@ Quando os dashboards e relatórios da área de trabalho da aplicação estiverem
    
      ![Detalhes da aplicação](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Em seguida, em **Conteúdo**, consulte o conteúdo que vai ser publicado como parte da aplicação – tudo o que selecionou na área de trabalho. Também pode definir a página de destino da aplicação – o dashboard ou relatório que as pessoas irão ver primeiro quando entrarem na sua aplicação. Pode escolher **Nenhum**. As pessoas serão então direcionadas para uma lista de todos os conteúdos da aplicação. 
+3. Em seguida, em **Conteúdo**, veja o conteúdo que vai ser publicado como parte da aplicação – tudo o que selecionou na área de trabalho. Também pode definir a página de destino da aplicação – o dashboard ou relatório que as pessoas irão ver primeiro quando entrarem na sua aplicação. Pode escolher **Nenhum**. As pessoas serão então direcionadas para uma lista de todos os conteúdos da aplicação. 
    
      ![Conteúdo da aplicação](media/service-create-distribute-apps/power-bi-apps-content.png)
 
@@ -168,7 +163,7 @@ Nesta versão, mudámos o nome de todas as áreas de trabalho de grupo para áre
 As aplicações são uma evolução e simplificação dos pacotes de conteúdos, com algumas diferenças principais. 
 
 * Depois de os utilizadores empresariais instalarem um pacote de conteúdos, este perde a respetiva identidade agrupada: é apenas uma lista de dashboards e relatórios misturados com outros dashboards e relatórios. As aplicações, por outro lado, mantêm o respetivo agrupamento e identidade, mesmo após a instalação. Isto torna mais fácil aos utilizadores empresariais continuarem a navegar nelas ao longo do tempo.  
-* Pode criar vários pacotes de conteúdos a partir de qualquer área de trabalho, mas uma aplicação tem uma relação de 1:1 com a respetiva área de trabalho. Acreditamos que isto faz com que as aplicações sejam mais fáceis de compreender e manter ao longo do tempo. Consulte a secção de planos do blogue do Power BI para obter mais informações sobre como estamos a planear melhorar esta área. 
+* Pode criar vários pacotes de conteúdos a partir de qualquer área de trabalho, mas uma aplicação tem uma relação de 1:1 com a respetiva área de trabalho. Acreditamos que isto faz com que as aplicações sejam mais fáceis de compreender e manter ao longo do tempo. Veja a secção de planos do blogue do Power BI para obter mais informações sobre como estamos a planear melhorar esta área. 
 * Ao longo do tempo, planeamos preterir pacotes de conteúdos organizacionais, pelo que recomendamos que crie aplicações a partir de agora.  
 
 ### <a name="what-about-read-only-members-in-groups"></a>E os membros só de leitura em grupos?

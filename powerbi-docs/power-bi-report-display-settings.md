@@ -1,6 +1,6 @@
 ---
-title: "A página exibe as definições num relatório do Power BI"
-description: "A página exibe as definições num relatório do Power BI"
+title: "Definições de apresentação de página e definições de vista de página num relatório"
+description: "Definições de apresentação de página e definições de vista de página num relatório"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Por vezes, isso representa um desafio, uma vez que visualiza esses relatórios, e os seus colegas também, em ecrãs de diferentes proporções e tamanhos. 
@@ -32,21 +32,43 @@ O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>Configurações de visualização da página
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Onde encontrar as definições Vista de página no serviço Power BI e no Power BI Desktop
+As definições Vista de página estão disponíveis no serviço Power BI e no Power BI Desktop, mas a interface é ligeiramente diferente. As duas secções abaixo explicam onde pode encontrar as definições Vista em cada ferramenta do Power BI.
 
-As configurações de *Visualização da Página* controlam a exibição da página do relatório relativa à janela do navegador.  Escolha entre:
+### <a name="in-power-bi-desktop"></a>No Power BI Desktop
+Na Vista de relatório, selecione o separador **Vista** para abrir as definições Vista de página, bem como as definições de esquema do telefone.
+
+  ![painel de seleção](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>No serviço Power BI (app.powerbi.com)
+No serviço Power BI, abra um relatório e selecione **Vista** na barra de menus superior esquerda.
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+As definições Vista de Página estão disponíveis na [Vista de leitura e na Vista de edição](service-reading-view-and-editing-view.md). Na Vista de Edição, o proprietário de um relatório pode atribuir definições de vista de página a páginas de relatório individuais. Essas definições são guardadas com o relatório. Quando os colegas abrem o relatório na Vista de leitura, verão as páginas do relatório com as definições do proprietário.  Na Vista de leitura, os colegas podem alterar *algumas* das definições Vista de página, mas as alterações não serão guardadas quando fecharem o relatório.
+
+##    <a name="page-view-settings"></a>Definições Vista de página
+O primeiro conjunto de definições *Vista de página* controla a apresentação da página do relatório relativa à janela do navegador.  Escolha entre:
 
 * **Ajustar à Página** (padrão): o conteúdo é dimensionado para um melhor ajuste à página
 * **Ajustar à Largura**: o conteúdo é dimensionado para ser ajustado à largura da página
 * **Tamanho Real**: o conteúdo é exibido em tamanho normal
 
-As configurações de Vista de Página estão disponíveis tanto na [Vista de Leitura](service-interact-with-a-report-in-reading-view.md) como na [Vista de Edição](service-interact-with-a-report-in-editing-view.md). No modo de Visualização de Edição, o proprietário de um relatório pode atribuir uma definição de Visualização de página para páginas de relatório individuais, e essas definições são guardadas com o relatório. Quando um colega abre o relatório no modo de Vista de Leitura, verá as páginas do relatório nas definições do proprietário.  No entanto, ao trabalhar com o relatório no modo de Vista de Leitura, poderá alterar temporariamente as definições de Vista da Página.  Depois de sair do relatório, as definições do modo de Visualização da Página serão revertidas para as do proprietário do relatório.
+O segundo conjunto de definições *Vista de página* controla o posicionamento dos objetos na tela do relatório.
+
+* **Mostrar linhas de grelha**: ative as linhas de grelha para ajudar a posicionar objetos na tela do relatório
+* **Ajustar a grelha**: utilize coma opção **Mostrar linhas de grelha** para posicionar e alinhar os objetos na tela do relatório com precisão 
+* **Bloquear objetos**: bloqueie todos os objetos na tela para que não seja possível movê-los ou redimensioná-los
+* **Painel de seleção**: o Painel de seleção apresenta uma lista de todos os objetos na tela e pode escolher quais pretende mostrar ou ocultar
+
+    ![painel de seleção](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>Configurações de Tamanho da Página
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-As configurações de *Tamanho da Página* controlam a taxa de exibição e o tamanho real (em pixels).  As configurações de Tamanho da Página só estão disponíveis no Modo de Visualização de Edição.
+As definições *Tamanho da Página* só estão disponíveis para os proprietários do relatório. No serviço Power BI (app.powerbi.com), significa que pode abrir o relatório na [Vista de edição](service-reading-view-and-editing-view.md). Estas definições controlam a proporção de visualização e o tamanho real (em pixels) da tela do relatório.   
 
 * proporção de 4:3
 * proporção de 16:9 (predefinição)
@@ -55,7 +77,7 @@ As configurações de *Tamanho da Página* controlam a taxa de exibição e o ta
 * Personalizado (altura e largura em pixels)
 
 ## <a name="next-steps"></a>Próximos Passos
-[Saiba como usar as configurações de Visualização da Página e de Tamanho da Página nos relatórios do Power BI](power-bi-change-report-display-settings.md).
+[Saiba como usar as definições Vista de página e Tamanho da página nos relatórios do Power BI](power-bi-change-report-display-settings.md).
 
 Leia mais sobre [relatórios no Power BI](service-reports.md)
 

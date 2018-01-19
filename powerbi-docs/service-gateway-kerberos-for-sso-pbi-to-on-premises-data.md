@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 Pode obter conectividade totalmente integrada de início de sessão único, ao ativar os relatórios e dashboards do Power BI para atualizarem a partir de dados no local, ao configurar o gateway de dados no local com o Kerberos. O gateway de dados no local facilita o início de sessão único (SSO) com o DirectQuery, que utiliza para ligar às origens de dados no local.
@@ -63,11 +63,15 @@ Seguem-se detalhes adicionais sobre esses passos:
 
 
 > [!NOTE]
-> Para ativar o SSO para o SAP HANA, tem de aplicar as seguintes duas correções de configuração específicas do HANA para SAP:
->    1. Atualize o servidor SAP HANA com o HANA Patch 122.13 do SAP, lançado pela SAP no final de outubro de 2017. 
+> Para ativar o SSO para o SAP HANA, tem de se certificar de que as seguintes duas configurações específicas do HANA para SAP estão aplicadas:
+>    1. Certifique-se de que o servidor SAP HANA está a executar a versão 2.00.022* ou superior/posterior. 
 >    2. Na máquina do gateway, instale o controlador OBDC HANA mais recente do SAP.  A versão mínima é ODBC HANA, versão 2.00.020.00 de agosto de 2017.
+>
+> As seguintes ligações para patches e atualizações do SAP podem ser úteis. Tenha em atenção que tem de ter sessão iniciada nos seguintes recursos com a sua conta de Suporte do SAP e que o SAP pode alterar ou atualizar estas ligações.
 > 
-
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Erros devidos a uma configuração de Kerberos insuficiente
@@ -97,7 +101,7 @@ Para ativar a **Delegação Restrita de Kerberos**, o gateway tem de ser executa
 * Se começou com uma versão anterior do gateway de dados no local, siga exatamente todos os cinco passos em sequência (incluindo a execução do configurador do gateway no passo 3) descritos no seguinte artigo:
   
   * [Alterar a conta do serviço de gateway para um utilizador de domínio](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
-  * Se já instalou a versão de Pré-visualização do gateway de dados no local, há uma nova abordagem orientada por IU para mudar as contas de serviço diretamente a partir do configurador do gateway. Consulte a secção **Mudar o gateway para uma conta de domínio** na parte final deste artigo.
+  * Se já instalou a versão de Pré-visualização do gateway de dados no local, há uma nova abordagem orientada por IU para mudar as contas de serviço diretamente a partir do configurador do gateway. Veja a secção **Mudar o gateway para uma conta de domínio** na parte final deste artigo.
 
 > [!NOTE]
 > Se AAD DirSync/Ligar estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não tem de efetuar pesquisas de AD locais no tempo de execução e pode utilizar o SID do Serviço local (em vez de uma conta de domínio) para o serviço de gateway. Os passos de configuração da Delegação Restrita de Kerberos descritos neste artigo são os mesmos dessa configuração (são simplesmente aplicados com base no SID do serviço, em vez da conta de domínio).
@@ -139,7 +143,7 @@ O segundo requisito de configuração são as definições de delegação na con
 
 Precisamos de configurar a **Delegação Restrita de Kerberos** com trânsito de protocolo. Com a delegação restrita, tem de ser explícito relativamente aos serviços que pretende delegar – por exemplo, apenas o SQL Server ou o seu servidor SAP HANA aceitará chamadas de delegação da conta do serviço de gateway.
 
-Esta secção pressupõe que já configurou os SPNs para os suas origens de dados subjacentes (como o SQL Server, SAP HANA, Teradata, etc.). Para saber como configurar esses SPNs do servidor de origem de dados, consulte a documentação técnica do respetivo servidor de bases de dados. Também pode ver a mensagem de blogue que descreve [*Qual SPN a aplicação requer?*](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)
+Esta secção pressupõe que já configurou os SPNs para as suas origens de dados subjacentes (como o SQL Server, SAP HANA, Teradata, etc.). Para saber como configurar esses SPNs do servidor de origem de dados, consulte a documentação técnica do respetivo servidor de bases de dados. Também pode ver a mensagem de blogue que descreve [*Qual SPN a aplicação requer?*](https://blogs.msdn.microsoft.com/psssql/2010/06/23/my-kerberos-checklist/)
 
 Nos passos seguintes, utilizamos um ambiente no local com duas máquinas: uma máquina de gateway e um servidor de base de dados (base de dados do SQL Server), e, para efeitos deste exemplo, iremos também utilizar as definições e os nomes seguintes:
 
@@ -203,7 +207,7 @@ Para obter mais informações sobre o **gateway de dados no local** e o **Direct
 
 * [Gateway de dados no local](service-gateway-onprem.md)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
-* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origens de Dados que o DirectQuery suporta)
-* [DirectQuery and SAP HANA](desktop-directquery-sap-bw.md) (DirectQuery e SAP HANA)
+* [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
+* [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
 

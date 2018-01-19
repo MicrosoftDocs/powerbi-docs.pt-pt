@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: b2df6825232f51a53bada3676faf598d6bc5d70b
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -31,6 +31,11 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Novidades do serviço Power BI](service-whats-new.md)  
 
 ## <a name="december-2017"></a>Dezembro de 2017
+
+### <a name="improved-security-management"></a>Gestão de segurança melhorada 
+
+Adicionámos o suporte para o acesso condicional (CA) e para a gestão de dispositivos móveis do Microsoft Intune (MDM) em dispositivos Android, para proteger melhor os dados da sua organização. Já está disponível em dispositivos iOS.
+
 ### <a name="improved-permission-management"></a>Gestão de permissões melhorada
 
 Foram feitas algumas alterações que permitem a gestão mais precisa das permissões de utilizador para conjuntos de dados, dashboards e relatórios.
@@ -298,7 +303,7 @@ No serviço Power BI, pode agora [criar uma vista de dashboard especificamente p
 **Avisos e faixas melhorados** Melhorámos os avisos e as faixas da aplicação móvel.
 
 ### <a name="june-2016"></a>Junho de 2016
-Consulte a [mensagem de blogue sobre aplicações móveis do Power BI](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/) para obter mais detalhes.
+Veja a [mensagem de blogue sobre aplicações móveis do Power BI](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/) para obter mais detalhes.
 
 #### <a name="qr-codes-now-display-in-augmented-reality-ios"></a>Os códigos QR são agora apresentados em realidade aumentada (iOS)
 Agora, ao digitalizar um código QR gerado pelo serviço Power BI, o mosaico é apresentado em realidade aumentada. 
@@ -324,7 +329,7 @@ O centro de notificações da sua aplicação móvel do Power BI mostra novos da
 * **Geofiltragem**: filtre os relatórios pela sua localização atual.
 
 ### <a name="april-2016"></a>Abril de 2016
-Consulte o [blogue sobre Aplicações do Power BI Mobile publicado em abril](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para obter mais detalhes.
+Veja o [blogue sobre Aplicações do Power BI Mobile publicado em abril](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para obter mais detalhes.
 
 #### <a name="all-apps"></a>Todas as aplicações
 * Selecione mais do que uma opção numa segmentação de dados de relatório.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -36,11 +36,11 @@ O Microsoft Power BI Embedded permite aos programadores de aplicações integrar
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Qual é o público alvo do Power BI Embedded?
 
-Os programadores e empresas de software que criam as suas próprias aplicações, conhecidos como fornecdores de software independentes (ISVs).
+Os programadores e empresas de software que criam as suas próprias aplicações, conhecidos como fornecedores de software independentes (ISVs).
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Qual a diferença entre o serviço do Power BI Embedded e do Power BI?
 
-O Power BI Embedded destina-se a ISVs ou programadores que estão a criar aplicações e pretendem integrar visuais nas suas aplicações para ajudar os clientes a tomarem decisões sem construirem uma solução de análises de raiz. As análises integradas permitem aos utilizadores empresariais acederem aos dados do negócio e efetuarem consultas para gerar informações utilizando estes dados na aplicação.
+O Power BI Embedded destina-se a ISVs ou programadores que estão a criar aplicações e pretendem integrar visuais nas suas aplicações para ajudar os clientes a tomarem decisões sem construírem uma solução de análises de raiz. As análises integradas permitem aos utilizadores empresariais acederem aos dados do negócio e efetuarem consultas para gerar informações utilizando estes dados na aplicação.
 
 Por outro lado, o Power BI é uma solução de análise de software como um serviço que dá às organizações uma vista única dos seus dados empresariais mais críticos.
 
@@ -50,11 +50,15 @@ O Power BI Premium destina-se às empresas que pretendem uma solução completa 
 
 O Power BI Embedded é para ISVs ou programadores que estão a construir aplicações e pretendem integrar visuais nessas aplicações. O Power BI Embedded ajuda os clientes a tomarem decisões porque é para programadores de aplicações, clientes dessa aplicação podem consumir conteúdo armazenado na capacidade do Power BI Embedded, incluindo qualquer pessoa no interior ou exterior da organização. Não é possível partilhar o conteúdo de capacidade do Power BI Embedded através da publicação com um único clique na Web ou a publicação com um único clique no SharePoint e não suporta relatórios SSRS.
 
-### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs o Power BI Embedded?
+### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs. o Power BI Embedded?
 
 A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na nuvem ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela nuvem. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
 
 Podem ocorrer situações em que um ISV (geralmente de grande dimensão) pretende utilizar um P SKU para receber os benefícios adicionais do serviço pré-embalado do Power BI na organização, bem como integrar as suas aplicações. E claro, algumas empresas podem decidir utilizar A SKUs no Azure se só estiverem interessados na construção da linha de aplicações empresariais e na integração das análises nas aplicações e não pretenderem utilizar o serviço Power BI pré-embalado.
+
+### <a name="how-many-embed-tokens-can-i-create"></a>Quantos tokens de incorporação posso criar?
+
+Os tokens de incorporação com a licença PRO destinam-se a testes de desenvolvimento e de programadores. O número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para poder incorporar num ambiente de produção. Não existe limite de número de tokens de incorporação que pode gerar quando compra capacidade.
 
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Quando é que o Power BI Embedded estará disponível no Azure?
 
@@ -70,7 +74,7 @@ Power BI Embedded é um conjunto de APIs disponíveis para os programadores cria
 
 Segue-se uma lista parcial de diferenças que pode utilizar para cada um.
 
-|Funcionalidade  |Power BI Embedded<br>(A SKUs) |Capacidade do Power BI Premium<br>(EM SKUs)  |
+|Destaque  |Power BI Embedded<br>(A SKUs) |Capacidade do Power BI Premium<br>(EM SKUs)  |
 |---------|---------|---------|
 |Incorporar artefactos de áreas de trabalho da aplicação Power BI     |Capacidade do Azure |Capacidade do Office 365 |
 |Licença do Power BI necessária para consumir relatórios |Não  |Sim |
@@ -84,9 +88,15 @@ Segue-se uma lista parcial de diferenças que pode utilizar para cada um.
 |---------|---------|---------|---------|
 |Comprar     |Portal do Azure |Office |Office |
 |Casos de utilização |* Integrar o conteúdo na sua própria aplicação |* Integrar o conteúdo na sua própria aplicação<br>* Partilhar conteúdo com utilizadores LIVRES de Power BI fora de PowerBI.com e integrar nas outras aplicações SaaS (SharePoint, Teams) |* Integrar o conteúdo na sua própria aplicação<br>* Partilhar conteúdo com utilizadores LIVRES de Power BI fora de PowerBI.com e integrar nas outras aplicações SaaS (SharePoint, Teams)<br>* Partilhar conteúdo com os utilizadores LIVRES do Power BI através de PowerBI.com  |
-|Faturação |A cada hora |Mensal |Mensal |
+|Faturação |Hora a hora |Mensal |Mensal |
 |Alocação  |Sem alocação |Anual  |Mensal/anual |
 |Diferenciação |Elasticidade completa-pode aumentar/reduzir verticalmente, colocar em pausa/retomar recursos no portal do Azure ou através da API  |Pode ser utilizado para incorporar o conteúdo no SharePoint Online e Microsoft Teams |Combinar a integração nas aplicações e utilizar o serviço do Power BI na mesma capacidade |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Quais são os pré-requisitos para criar uma capacidade PBIE no Azure?
+
+- Tem de iniciar sessão no diretório organizacional (as contas MSA não são suportadas).
+- Tem de ter um inquilino do Power BI, ou seja, pelo menos um utilizador no seu diretório tem de estar inscrito no Power BI. 
+- Tem de ter uma subscrição do Azure no seu diretório organizacional.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Como posso monitorizar o consumo de capacidade?
 
@@ -130,7 +140,7 @@ O Power BI Embedded terá um medidor de horas.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Como é que a utilização do Power BI Embedded aparece detalhada na minha fatura?
 
-O Power BI Embedded é faturado numa taxa por hora previsível, com base no tipo de nós implementados.
+O Power BI Embedded é faturado numa taxa por hora previsível, com base no tipo de nós implementados. Tenha em atenção que será cobrado mesmo que não exista utilização, basta que o seu recurso esteja ativo. Para parar de ser cobrado, tem de colocar ativamente o seu recurso em pausa. Pode colocar o seu recurso em pausa através do Azure ou de APIs do ARM.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>O que acontece se já adquiri o Power BI Premium e agora pretendo algumas das vantagens do Power BI Embedded no Azure?
 
@@ -166,4 +176,4 @@ O Power BI Embedded estará disponível nas nuvens comerciais do Azure em GA.  A
 
 As entidades educacionais e sem fins lucrativos podem comprar o Azure. Não existe nenhum preço especial para estes tipos de clientes no Azure.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

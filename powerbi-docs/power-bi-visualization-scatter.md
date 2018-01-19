@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersão e de bolhas no Power BI (Tutorial)
 Um gráfico de dispersão tem sempre dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Estes pontos de dados podem ser distribuídos de forma uniforme ou não pelo eixo horizontal, consoante os dados.
@@ -76,7 +76,15 @@ Agora temos um gráfico de dispersão que traça a % da Variação do Total de V
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Opcionalmente, [formate as cores de visualização, rótulos, títulos, fundo e muito mais](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="considerations-and-troubleshooting"></a>Considerações e Resolução de problemas
+## <a name="accessibility"></a>Acessibilidade
+
+Pode tornar o seu gráfico de dispersão ou gráfico de bolhas mais acessível para as pessoas portadoras de deficiências ao utilizar as *Formas de marcador*. 
+
+Para seleciona uma forma do marcador, selecione a secção **Formato** no painel **Visualizações**, expanda a secção **Formas** e selecione uma forma de marcador.
+
+![Forma de marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e Resolução de Problemas
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**O gráfico de dispersão tem apenas um ponto de dados**
 O gráfico de dispersão contém apenas um ponto de dados que agrega todos os valores nos eixos X e Y?  Ou talvez agregue todos os valores numa única linha horizontal ou vertical?
 
@@ -93,7 +101,7 @@ Ou então, se não tiver isto nos dados, pode criar um campo que concatena os va
 
 Para criar um novo campo [utilize o Editor de Consultas do Power BI Desktop para adicionar uma Coluna de Índice](desktop-add-custom-column.md) ao conjunto de dados.  Em seguida, adicione esta coluna à área **Detalhes** da visualização.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
  [Visualization types in Power BI (Tipos de visualização no Power BI)](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Experimente - é gratuito!](https://powerbi.com/)  

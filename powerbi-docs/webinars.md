@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 12/07/2017
 ms.author: maikelson
-ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
+ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/18/2017
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -41,14 +41,11 @@ Introdução aos webinars a pedido populares
 
 - [Novidades e coisas interessantes no Power BI Report Server – Novembro de 2017](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
-
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
 Registe-se para ouvir os especialistas do Power BI e participar em sessões de Perguntas e Respostas em direto
 
 >[Participar nos próximos webinars da comunidade do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Fabricantes: a indústria está a passar por uma transformação digital – Manter a liderança ao tirar partido da análise para maximizar a rentabilidade – 05/12/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
 - [Melhorar a Rentabilidade nos Cuidados de Saúde – 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
@@ -60,6 +57,8 @@ Veja as sessões gravadas em qualquer altura
 
 - [Como implementar uma Estratégia de Governação de Dados Bem-Sucedida Que Torna a Sua Organização Mais Segura](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
+- [Transformar um Relatório de Bom em EXCELENTE!](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
+
 - [Perguntar a um Parceiro: Desenvolver Elementos Visuais Personalizados para o Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
 - [Como a Microsoft faz o Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
@@ -68,7 +67,9 @@ Veja as sessões gravadas em qualquer altura
 
 - [Descrição detalhada da segurança do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-## <a name="see-also"></a>Veja também
+- [Fabricantes: a indústria está a passar por uma transformação digital: mantenha a liderança ao tirar partido da análise para maximizar a rentabilidade](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
+
+## <a name="see-also"></a>Consulte também
 
 - [Documentos técnicos do Power BI](whitepapers.md)
 
@@ -80,4 +81,4 @@ Veja as sessões gravadas em qualquer altura
 
 - Subscreva o nosso [canal no YouTube](https://www.youtube.com/mspowerbi)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

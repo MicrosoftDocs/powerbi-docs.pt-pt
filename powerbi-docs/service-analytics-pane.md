@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/02/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 30fc0731f819f063aa04e856e8acc75a69f64a59
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3750d733967301f952fd092d2d1d0a2b9d1b2238
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Painel Análise no serviço Power BI
 Com o painel **Análise** no **serviço Power BI**, pode adicionar *linhas de referência* dinâmicas a visualizações e dar foco a tendências ou informações importantes.
@@ -44,33 +44,34 @@ Com o painel **Análise**, pode criar os seguintes tipos de linhas de referênci
 * Linha Mediana
 * Linha de Percentil
 
-As seguintes secções mostram como pode utilizar o painel **Análise** e linhas de referência dinâmicas nas suas visualizações.
 
 Para ver as linhas de referência dinâmicas disponíveis para um visual, siga estes passos:
 
 1. Selecione ou crie um visual e, em seguida, selecione o ícone **Análise** ![](media/service-analytics-pane/power-bi-analytics-icon.png)no painel **Visualizações**.
+
 2. Selecione a seta para baixo do tipo de linha que pretende criar para expandir as respetivas opções. Neste caso, vamos selecionar **Linha Média**.
    
-   ![](media/service-analytics-pane/power-bi-add.png)
-3. Para criar uma nova linha, selecione **+ Adicionar**. Depois, pode especificar um nome para a linha ao fazer duplo clique na caixa de texto e, em seguida, escrever o seu nome.
+   ![adicionar a linha média](media/service-analytics-pane/power-bi-add.png)
+
+3. Para criar uma nova linha, selecione **+ Adicionar** e decida qual a medida que será utilizada para criar a linha.  A lista pendente **Medida** é automaticamente preenchida com os dados disponíveis da visualização selecionada. Vamos utilizar **Contagem de arquivos abertos**.
+
+5. Tem diversos tipos de opções para a linha, como a cor, a transparência, o estilo e a posição (relativamente aos elementos de dados do elemento visual). Se quiser uma etiqueta na linha, atribua-lhe um título e, em seguida, mova o controlo de deslize **Etiqueta de dados** para **Ativo**.  Neste caso, vamos atribuir-lhe a etiqueta *N.º Médio de Arquivos Abertos* e personalizar algumas das outras opções, conforme mostrado abaixo.
    
-   Tem diversos tipos de opções para a sua linha, como selecionar a *cor*, *transparência*, *estilo* e *posição* (relativamente aos elementos de dados do visual) e se pretende incluir a etiqueta. Um aspeto importante: pode selecionar qual a **Medida** no visual na qual pretende que a sua linha se baseie ao selecionar o menu pendente **Medida**, o qual é automaticamente preenchido com elementos de dados do visual. Neste caso, vamos selecionar *Open store count* (Contagem de lojas abertas) como medida, dar-lhe a etiqueta de *Avg # Open Stores* (N.º Médio de Lojas Abertas) e personalizar algumas das restantes opções, conforme mostrado abaixo.
-   
-   ![](media/service-analytics-pane/power-bi-average-line.png)
-4. Se pretender que apareça uma etiqueta de dados, ative o controlo de deslize **Etiqueta de dados**. Quando o fizer, receberá uma série de opções adicionais para a sua etiqueta de dados.
-5. Repare no número apresentado junto ao item **Linha média** no painel **Análise**. Isto indica-lhe quantas linhas dinâmicas, e de que tipo, tem atualmente no seu visual. Se adicionarmos uma **Linha constante** como um objetivo de 9 para contagem de lojas, pode ver que o painel **Análise** demonstra que temos também uma linha de referência **Linha constante** aplicada a este visual.
+   ![personalizar a Análise da média de linhas](media/service-analytics-pane/power-bi-average-line2.png)
+
+1. Repare no número apresentado junto ao item **Linha média** no painel **Análise**. Isto indica-lhe quantas linhas dinâmicas, e de que tipo, tem atualmente no seu visual. Se adicionarmos uma **Linha constante** como um objetivo de 9 para contagem de lojas, pode ver que o painel **Análise** demonstra que temos também uma linha de referência **Linha constante** aplicada a este visual.
    
    ![](media/service-analytics-pane/power-bi-reference-lines.png)
    
-   Se o visual que selecionou não pode ter linhas de referência dinâmicas aplicadas (neste caso, um visual de **Mapa**), irá ver o seguinte quando selecionar o painel **Análise**.
-   
-   ![](media/service-analytics-pane/power-bi-no-lines.png)
 
 Existem diversas informações interessantes que pode destacar ao criar linhas de referência dinâmicas com o painel **Análise**.
 
-Estamos a planear mais funcionalidades e capacidades, incluindo expandir que visuais podem ter linhas de referência dinâmicas aplicadas, pelo que recomendamos que consulte esta secção com frequência para estar a par das novidades.
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
-## <a name="limitations"></a>Limitações
+Se o visual que selecionou não pode ter linhas de referência dinâmicas aplicadas (neste caso, um visual de **Mapa**), irá ver o seguinte quando selecionar o painel **Análise**.
+   
+![a análise não está disponível](media/service-analytics-pane/power-bi-no-lines.png)
+
 A capacidade de utilizar linhas de referência dinâmicas baseia-se no tipo de visual utilizado. A lista seguinte mostra quais as linhas dinâmicas que estão atualmente disponíveis para cada visual:
 
 Utilização integral de linhas dinâmicas disponível nos seguintes visuais:

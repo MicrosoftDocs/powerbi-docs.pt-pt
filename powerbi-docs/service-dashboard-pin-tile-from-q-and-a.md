@@ -1,5 +1,5 @@
 ---
-title: Afixar um mosaico a um dashboard do Power BI a partir das Perguntas e Respostas
+title: Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 description: "documentação sobre como afixar um mosaico a um dashboard do Power BI a partir da caixa de Perguntas e Respostas"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas
 P e R é a ferramenta de geração de relatórios ad hoc do Power BI. Precisa de encontrar informações específicas? Faça uma pergunta sobre os dados e receba uma resposta na forma de uma visualização.
 
-> **NOTA**: para acompanhar, abra o [exemplo de Análise de Revenda](sample-retail-analysis.md).
+As Perguntas e Respostas estão disponíveis nos dashboards e nos relatórios. Neste artigo, vamos abrir as Perguntas e Respostas partir de um dashboard. Os dashboards só estão disponíveis no serviço Power BI, mas não no Power BI Desktop. Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,8 +40,10 @@ P e R é a ferramenta de geração de relatórios ad hoc do Power BI. Precisa de
    a caixa de pergunta dá-lhe sugestões.
 4. Para adicionar o gráfico ao dashboard como um mosaico, selecione o pino ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) no lado direito superior da tela.
 5. Afixe o mosaico num dashboard existente ou num novo dashboard. 
-   
-   * Dashboard existente: selecione o nome do dashboard no menu suspenso. As suas escolhas estão limitadas apenas a esses dashboards na área de trabalho atual.
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
+   * Dashboard existente: selecione o nome do dashboard na lista pendente. As suas opções estão limitadas apenas a estes dashboards na área de trabalho atual.
    * Novo dashboard: escreva o nome do novo dashboard e que será adicionado à sua área de trabalho atual.
 6. Selecione **Afixar**.
    
@@ -62,5 +64,5 @@ P e R é a ferramenta de geração de relatórios ad hoc do Power BI. Precisa de
 [Mudar o nome, redimensionar, adicionar uma hiperligação, reposicionar o mosaico e muito mais](service-dashboard-edit-tile.md)    
 [Apresentar um mosaico do dashboard no Modo de detalhe](service-focus-mode.md)     
 [Voltar às Perguntas e Repostas no Power BI](service-q-and-a.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

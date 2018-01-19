@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: mihart
-ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing para o Power BI: fazer um tour
 O **Exemplo de Vendas e Marketing** contém um dashboard e um relatório para uma empresa industrial fictícia chamada VanArsdel Ltd. Este dashboard foi criado pelo Diretor de Marketing (CMO) da VanArsdel para ficar atento ao setor e à participação de mercado da sua empresa, ao volume de produto, às vendas e à sensibilidade.
@@ -30,11 +30,11 @@ A VanArsdel tem muitos concorrentes, mas é a líder do mercado no seu setor. O 
 
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser utilizado com dados, relatórios e dashboards voltados para os negócios. Os exemplos são dados reais da obviEnce (www.obvience.com) que foram mantidos anónimos.
 
-Também pode [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529785).
+[!Note] Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529785). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
 
 ![](media/sample-sales-and-marketing/sales1.png)
 
-## <a name="what-is-our-dashboard-telling-us"></a>O que é que o nosso dashboard nos diz?
+## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
 Vamos começar o nosso tour no dashboard e examinar os mosaicos que o CMO decidiu afixar. Podemos ver informações sobre a nossa participação no mercado, vendas e sensibilidade. E podemos ver esses dados divididos por região, hora e concorrência.
 
 * Os mosaicos de número abaixo da coluna esquerda mostram volume de vendas do setor no ano passado (50K), a participação no mercado (% 32,86%), o volume de vendas (16K), a pontuação de sensibilidade (68) a lacuna (4) e o total de unidades vendidas (1M).

@@ -1,6 +1,6 @@
 ---
-title: Tipos de Quick Insights suportados pelo Power BI
-description: Quick Insights com o Power BI.
+title: "Tipos de Informações suportados pelo Power BI"
+description: "Informações Rápidas e Ver informações com o Power BI."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Tipos de Quick Insights suportados pelo Power BI
-## <a name="how-does-quick-insights-work"></a>Como funciona o Quick Insights?
+# <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
+## <a name="how-does-insights-work"></a>Como funcionam as Informações?
 O Power BI procura rapidamente diferentes subconjuntos do conjunto de dados enquanto aplica um grupo de algoritmos sofisticados para detetar informações potencialmente interessantes. O Power BI analisa o máximo de um conjunto de dados possível num período de tempo atribuído.
 
-Pode executar informações rápidas em relação a um conjunto de dados ou mosaico (Informações Relacionadas).   
+Pode executar as informações para um conjunto de dados ou um mosaico do dashboard.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Que tipos de Informações Rápidas é possível encontrar?
+## <a name="what-types-of-insights-can-we-find"></a>Que tipos de informações é possível encontrar?
 Estes são alguns dos algoritmos que usamos:
 
 ## <a name="category-outliers-topbottom"></a>Valores Atípicos das Categorias (superior/inferior)
@@ -77,10 +77,10 @@ Para dados numa série de tempo, deteta quando há datas ou horas específicas c
 
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
-## <a name="next-steps"></a>Próximos passos
-[Power BI Quick Insights](service-insights.md)
+## <a name="next-steps"></a>Próximas etapas
+[Informações do Power BI](service-insights.md)
 
-Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md)
+Se for o proprietário de um conjunto de dados, [otimize-o para as informações](service-insights-optimize.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

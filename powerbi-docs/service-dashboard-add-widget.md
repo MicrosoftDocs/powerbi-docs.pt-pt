@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Adicionar imagem, texto, vídeo e muito mais ao dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ O controlo **Adicionar mosaico** permite adicionar diretamente uma imagem, caixa
 Digamos que pretende ter o registootipo da empresa, ou outra imagem, no dashboard. Terá de guardar o ficheiro de imagem online e ligar ao mesmo. Certifique-se de que não são necessárias credenciais especiais para aceder ao ficheiro de imagem. Por exemplo, o OneDrive e o SharePoint exigem autenticação, pelo que as imagens armazenadas não podem ser adicionadas um dashboard desta forma.  
 
 1. Selecione **Imagem** > **Seguinte**.
-2. Adicione informações da imagem ao painel **Detalhes do mosaico** .
+2. Adicione informações da imagem à janela **Adicionar mosaico de imagem**.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Digamos que pretende ter o registootipo da empresa, ou outra imagem, no dashboar
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Adicionar uma caixa de texto ou um cabeçalho de dashboard
 1. Selecione **Caixa de texto > Seguinte**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **NOTA**: para adicionar um cabeçalho de dashboard, escreva o cabeçalho na caixa de texto e aumente o tipo de letra.
-   > 
    > 
 2. Formatar a caixa de texto:
    
    * para exibir um título acima da caixa de texto, selecione **Exibir título e subtítulo** e digite um título e/ou subtítulo.
    * introduza e formate o conteúdo da caixa de texto.  
-   * Opcionalmente, defina uma ligação personalizada para o título.  No entanto, neste exemplo, como adicionamos hiperligações à própria caixa de texto, deixe a opção **Definir ligação personalizada** desmarcada.
+   * Opcionalmente, defina uma ligação personalizada para o título. Uma ligação personalizada pode ser um site externo ou um dashboard ou relatório na sua área de trabalho. No entanto, neste exemplo, como adicionamos hiperligações à própria caixa de texto, deixamos a opção **Definir ligação personalizada** desmarcada.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Selecione **Aplicar**.  No dashboard, redimensione e mova a caixa de texto, conforme necessário.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Digamos que pretende ter o registootipo da empresa, ou outra imagem, no dashboar
 Quando adicionar um mosaico de título do YouTube ou Vimeo ao seu dashboard, o vídeo é reproduzido diretamente no dashboard.
 
 1. Selecione **Vídeo > Seguinte**.
-2. Adicione informações do vídeo ao painel **Detalhes do mosaico** .
+2. Adicione informações do vídeo ao painel **Adicionar mosaico de vídeo**.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Cole ou introduza qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, com
    
    * para apresentar um título acima do mosaico, selecione *Apresentar título e subtítulo* e introduza um título e/ou um subtítulo.
    * introduza o código de incorporação. Neste exemplo, estamos a copiar e colando colar um feed do Twitter.
-   * Selecione **Aplicar**.  No dashboard, redimensione e mova o mosaico dos conteúdos Web, conforme necessário.
+3. Selecione **Aplicar**.  No dashboard, redimensione e mova o mosaico dos conteúdos Web, conforme necessário.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

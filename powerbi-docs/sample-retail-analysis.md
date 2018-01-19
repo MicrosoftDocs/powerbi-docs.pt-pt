@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda para o Power BI: veja uma apresentação
 
 Este dashboard de exemplo do setor, juntamente com o relatório subjacente, analisam dados de vendas de revenda de itens vendidos em várias lojas e distritos. As métricas comparam o desempenho deste ano ao do ano passado nas seguintes áreas: vendas, unidades, margem bruta e variação, bem como uma análise de novas lojas. Os exemplos são dados reais do obviEnce ([www.obvience.com](http://www.obvience.com)) que foram tornados anónimos.
 
-Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529778).
+[!Note] Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529778). O livro contém folhas do Power View que pode ver e modificar.  Para ver os dados não processados, selecione **Power Pivot > Gerir**. 
 
 ![](media/sample-retail-analysis/retail1.png)
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: f31d37b6fe9c0e4695719b9bbaa13a2c8deabc75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 01/05/2018
+ms.author: maghan
+ms.openlocfilehash: c3a9cbd22f2304d19ae876962d0bf798fbd41183
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Aceder a conjuntos de dados partilhados como feeds OData no Power BI Report Server
 Pode aceder a conjuntos de dados partilhados a partir do Power BI Desktop com um feed do OData.
@@ -38,7 +38,7 @@ Pode aceder a conjuntos de dados partilhados a partir do Power BI Desktop com um
 
 Certifique-se de que utiliza as **Opções Avançadas** para que possa ativar as Colunas de Tipo Aberto e formatar as colunas corretamente no Power Query para satisfazer as suas necessidades.
 
-Leia mais sobre [ligar aos campos OData no Power BI Desktop](../desktop-connect-odata.md).
+Leia mais sobre [como se ligar aos feeds OData no Power BI Desktop](../desktop-connect-odata.md).
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

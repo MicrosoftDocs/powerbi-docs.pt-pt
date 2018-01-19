@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/17/2017
-ms.author: jaimeta
-ms.openlocfilehash: e56976943e58aba8c9ef36c576a16ab5eba4c796
-ms.sourcegitcommit: 7d4ad2ba92a932d7cc6637348e0774be6623559e
+ms.date: 12/11/2017
+ms.author: tankas
+ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
+ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/18/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -32,6 +32,10 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 ## <a name="october-2017"></a>Outubro de 2017
 
 - **Power BI Report Server**
+    - *Versão 1.1.6551.5155 (Compilação 14.0.600.438), Lançamento: 11 de dezembro de 2017*
+        - Correções de Erros
+            - Falha ao guardar os dados depois de atualizar determinados relatórios do Power BI Desktop.
+
     - *Versão 1.1.6530.30789 (Compilação 14.0.600.437), Lançamento: 17 de novembro de 2017*
         - Correções de Erros
             - Correção para Cenários de Autenticação Básica 

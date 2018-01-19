@@ -5,6 +5,7 @@
    * Aceder às áreas de trabalho das aplicações (como membros ou administradores) e publicar aplicações requer uma licença do Power BI Pro.
    * Os leitores da aplicação podem ser utilizadores gratuitos ou do Power BI Pro.
    * A partilha requer uma licença do Power BI Pro, mas os destinatários podem ser utilizadores gratuitos ou do Power BI Pro.
+   * Quer tenham uma licença do Power BI Pro ou uma licença gratuita, os destinatários do dashboard poderão definir alertas de dados.
    * As APIs REST a incorporar utilizam uma conta de serviço, com uma licença do Power BI Pro, em vez de um utilizador.
 2. A minha área de trabalho na capacidade Partilhada
    

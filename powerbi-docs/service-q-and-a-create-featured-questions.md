@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as Perguntas e Respostas do Power BI
 Se possui um conjunto de dados, pode adicionar as suas próprias perguntas em destaque para esse conjunto de dados.  As Perguntas e Respostas do Power BI mostrarão essas perguntas aos colegas que utilizam o seu conjunto de dados.  As perguntas em destaque fornecem aos seus colegas algumas ideias sobre os tipos de perguntas que eles podem fazer sobre o conjunto de dados. As perguntas em destaque adicionadas são decididas por si; pode adicionar perguntas populares, perguntas que mostram resultados interessantes ou perguntas que podem ser difíceis de formular.
@@ -32,13 +32,13 @@ Veja o Will adicionar algumas perguntas em destaque às Perguntas e Respostas do
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> As perguntas em destaque das Perguntas e Respostas também estão disponíveis na [aplicação Microsoft Power BI para iOS em iPads, iPhones e dispositivos iPod Touch](mobile-apps-ios-qna.md).
+> As perguntas em destaque das Perguntas e Respostas estão disponíveis na [aplicação Microsoft Power BI para iOS em iPads, iPhones e dispositivos iPod Touch](mobile-apps-ios-qna.md) e na Pré-visualização Perguntas e Respostas do Power BI Desktop. No entanto, a criação de perguntas só está disponível no serviço Power BI (app.powerbi.com).
 > 
 > 
 
 Este artigo usa o [exemplo de Vendas de Análise de Revenda](sample-datasets.md).
 
-1. Selecione a caixa de Perguntas e Respostas.   Repare que as Perguntas e Respostas já estão ser úteis ao apresentarem uma lista de termos que aparecem no conjunto de dados.
+1. No dashboard, seleciona a caixa de perguntas Perguntas e Respostas.   Repare que as Perguntas e Respostas já estão ser úteis ao apresentarem uma lista de termos que aparecem no conjunto de dados.
 2. Para adicionar a esta lista, selecione o ícone de engrenagem no canto superior direito do Power BI.  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Selecione **Definições** &gt; **Conjuntos de dados** &gt; **exemplo de Análise de Revenda** &gt; **Perguntas das Perguntas e Respostas em destaque**.  

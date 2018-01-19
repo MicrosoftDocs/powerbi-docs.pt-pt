@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Oportunidade para o Power BI: faça uma visita
 O **Exemplo de Controlo de Oportunidades** contém um dashboard (e relatório associado) para uma empresa de software que tem 2 canais de vendas: *direta* e *parceiro*. O Gestor de Vendas criou este dashboard para monitorizar as oportunidades e a receita por região, dimensão do negócio e canal.
@@ -38,7 +38,8 @@ O Gestor de Vendas baseia-se em duas medidas de receita:
 
 Este exemplo faz parte de uma série que ilustra a forma como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos.
 
-Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529782).  
+>[!Note] 
+Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529782). O livro contém folhas do Power View que pode ver e modificar.  Para ver os dados não processados, selecione **Power Pivot > Gerir**. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 
