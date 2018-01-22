@@ -16,15 +16,15 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – conceitos básicos para o serviço Power BI
+# <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - conceitos básicos para o serviço Power BI
 
 Este artigo pressupõe que já se [inscreveu no serviço Power BI](service-self-service-signup-for-power-bi.md) e [adicionou dados](service-get-data.md).
 
@@ -39,7 +39,7 @@ As principais funcionalidades da IU do serviço Power BI são as seguintes:
 3. caixa de perguntas das Perguntas e Respostas
 4. botões de ícone, incluindo a ajuda e os comentários
 5. título do dashboard (caminho de navegação, também conhecido como trilhos)
-6. Iniciador da aplicações do Office 365
+6. Iniciador de aplicações do Office 365
 7. botão Início do Power BI
 8. botões de ícone etiquetados
 
@@ -88,7 +88,7 @@ Se fizer [parte de uma ***área de trabalho de aplicação***](service-collabora
 Os conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Utilize um conjunto de dados para criar um relatório a partir do zero ou ao executar as [informações rápidas](service-insights.md).  Para ver quais os relatórios e dashboards que já utilizam um conjunto de dados, selecione **Ver relacionados**. Para explorar um conjunto de dados, selecione-o. O que está realmente a fazer é abrir o conjunto de dados no editor de relatórios, onde pode de facto começar a explorar os dados e a criar visualizações. Vamos então passar para o próximo tópico – relatórios.
 
 ### <a name="dig-deeper"></a>Explorar mais
-* [Power BI Premium – o que é?](service-premium.md)
+* [Power BI Premium - what is it?](service-premium.md) (Power BI Premium – o que é?)
 * [Obter dados para o Power BI](service-get-data.md)
 * [Conjuntos de dados de exemplo do Power BI](sample-datasets.md)
 
@@ -157,9 +157,9 @@ Existem muitas formas diferentes de você ou de um colega poder [partilhar um da
 ## <a name="workbooks"></a>Livros
 Os livros são um tipo de conjunto de dados especial. Se já leu a secção **Conjuntos de dados** acima, já deve saber praticamente tudo sobre os livros. Mas poderá perguntar-se por que motivo, por vezes, o Power BI classifica um livro do Excel como um **Conjunto de dados** e outras como um **Livro**. 
 
-Quando utiliza **Obter dados** com ficheiros do Excel, tem a opção de *Importar* ou de se *Ligar* ao ficheiro. Ao escolher Ligar, o livro será apresentado no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas funcionalidades fantásticas para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente aos dashboards.
+Quando utiliza **Obter dados** com ficheiros do Excel, tem a opção de *Importar* ou de se *Ligar* ao ficheiro. Ao escolher Ligar, o livro será apresentado no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas excelentes funcionalidades para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente nos dashboards.
 
-Não é possível o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no computador. Todas as alterações feitas são guardadas no livro no OneDrive.
+Não é possível editar o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações efetuadas são guardadas no livro no OneDrive.
 
 ### <a name="dig-deeper"></a>Explorar mais
 * [Get data from Excel workbook files (Obter dados de ficheiros de livro do Excel)](service-excel-workbook-files.md)
@@ -184,12 +184,12 @@ Utilize o painel de navegação para localizar e alternar entre as áreas de tra
 * Um colega partilhou conteúdo consigo? Selecione **Partilhado comigo** para pesquisar e ordenar o conteúdo para localizar o que precisa.
 * Apresente e abra as áreas de trabalho ao selecionar **Áreas de trabalho**.
 
-Clique uma vez
+Clique uma vez em
 
 * num ícone ou cabeçalho para abrir a vista de conteúdo
 * numa seta para a direita (>) para abrir um menu de lista de opções para Favoritos, Recentes e Áreas de trabalho. 
 * num ícone de divisa () para apresentar a lista deslocável **A Minha Área de Trabalho** dos dashboards, relatórios, livros e conjuntos de dados.
-* num conjunto de dados para explorá-lo
+* um conjunto de dados para explorá-lo
 
 ### <a name="2-canvas"></a>2. **Tela** 
 Como abrimos um dashboard, a área da tela apresenta mosaicos de visualização. Se tivéssemos aberto por exemplo, o editor de relatório, a área da tela apresentaria uma página de relatório. 
@@ -227,7 +227,7 @@ Com o iniciador de aplicações, todas as aplicações do Office 365 estão fac
 ![Iniciador de aplicações do Office](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Página inicial do Power BI**
-Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário,será aberto o último dashboard visualizado.
+Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário, será aberto o último dashboard visualizado.
 
    ![](media/service-basic-concepts/version-new.png)
 
@@ -236,8 +236,9 @@ Esta área do ecrã contém opções adicionais para interagir com o conteúdo (
 
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)  
+[Navegação: Introdução ao serviço Power BI](service-the-new-power-bi-experience.md)
 [Vídeos do Power BI](videos.md)  
 [Editor de relatórios – faça uma visita](service-the-report-editor-take-a-tour.md)
 
