@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 2ffa8a59a13989a4b7cc974d9fa10ad71414e8dd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4d7a000095fb954c6b186ab4b2dccab790cd2073
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, na maioria dos casos, não tem de fazer nada: a funcionalidade de Deteção Automática pode fazer isso por si. No entanto, em alguns casos, talvez tenha de criar relações ou talvez seja necessário fazer algumas alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
@@ -51,7 +51,7 @@ Por predefinição, o Power BI Desktop configurará automaticamente as proprieda
 Quando cria ou edita uma relação, pode configurar opções avançadas.  Por predefinição, as opções avançadas são configuradas automaticamente com base na melhor estimativa. Isto pode ser diferente para cada relação, com base nos dados contidos nas colunas.
 
 ## <a name="cardinality"></a>Cardinalidade
-**Muitos para um (\*: 1)** – Este é o tipo de predefinição mais comum. Isto significa que a coluna numa tabela pode ter mais de uma instância de um valor, enquanto que a outra tabela relacionada, geralmente conhecida como Tabela de referência, tem apenas uma instância de um valor.
+**Muitos para um (\*:1)** – Este é o tipo de predefinição mais comum. Isto significa que a coluna numa tabela pode ter mais de uma instância de um valor, enquanto que a outra tabela relacionada, geralmente conhecida como Tabela de referência, tem apenas uma instância de um valor.
 
 **Um para um (1:1)** – Isto significa que a coluna numa tabela tem apenas uma instância de um valor específico e a outra tabela relacionada tem apenas uma instância de um valor específico.
 
@@ -218,7 +218,7 @@ Mas digamos que sabe que os dados serão alterados da próxima vez que os atuali
 | Azul |A |80000 |6/1/2013 |
 | Vermelho |B |90000 |6/1/2013 |
 
-Nesta nova tabela combinada, existe repetição de valores na coluna Project.  As duas tabelas originais não terão uma relação um para um depois de a tabela ser atualizada. Neste caso, por sabermos que as atualizações futuras farão com que a coluna Projeto tenha duplicados, queremos definir a Cardinalidade como Muitos Para Um (\*: 1), com Muitos no lado de ProjectBudget e Um no lado de CompanyProject.
+Nesta nova tabela combinada, existe repetição de valores na coluna Project.  As duas tabelas originais não terão uma relação um para um depois de a tabela ser atualizada. Neste caso, por sabermos que as atualizações futuras farão com que a coluna Projeto tenha duplicados, queremos definir a Cardinalidade como Muitos Para Um (\*:1), com Muitos no lado de ProjectBudget e Um no lado de CompanyProject.
 
 ## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-of-relationships"></a>Ajustar a direção de filtro cruzado para um conjunto complexo de relações de tabelas
 Para a maioria das relações, a direção de filtro cruzado é definida como "Ambas".  No entanto, existem algumas circunstâncias mais invulgares em que talvez tenha de definir isto de forma diferente da predefinição, como se estivesse a importar um modelo de uma versão anterior do PowerPivot, na qual cada relação é configurada para uma única direção. 
