@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de Leitura e Vista de Edição nos relatórios do serviço Power BI
 No serviço Power BI (mas não no Power BI Desktop), existem dois modos de visualizar e interagir com os relatórios: Vista de leitura e Vista de edição. A Vista de leitura está disponível para todos os utilizadores e foi especialmente concebida para *consumidores* de dados, enquanto a Vista de edição só está disponível para *criadores* e proprietários de relatórios. 
@@ -56,7 +56,7 @@ Este gráfico não lista todas as capacidades de relatório do serviço Power B
 | [Opções **Vista** do relatório](power-bi-report-display-settings.md) | Sim, com algumas exceções. | Sim, todas, incluindo as linhas de grelha, o ajuste e o bloqueio. |
 | [Criar um agendamento de atualização](refresh-data.md) | Não  | Sim |
 | [Subscrever um relatório](service-report-subscribe.md) | Sim | Não |
-| [Perguntas e respostas – fazer perguntas nos relatórios](service-q-and-a.md) | Não  | Sim |
+| [Perguntas e respostas – fazer perguntas nos relatórios](power-bi-q-and-a.md) | Não  | Sim |
 | [Ver métricas de utilização ](service-usage-metrics.md) | Sim, na tela do relatório. | Sim, na lista de relatórios (vista de conteúdo) |
 | [Ver relacionados](service-related-content.md) | Sim, na tela do relatório. | Sim, na lista de relatórios (vista de conteúdo) |
 | [Guardar um relatório](service-report-save.md) | Sim, mas apenas através da opção **Guardar como**. | Sim |
@@ -97,8 +97,8 @@ Nota: só o criador e o(s) proprietário(s) do relatório poderão abri-lo na Vi
 
 
 
-### <a name="next-steps"></a>Próximas etapas
+### <a name="next-steps"></a>Próximos passos
 Há muitas maneiras de interagir com o relatório na Vista de leitura, através da divisão e da repartição de dados para descobrir ideias e obter respostas a perguntas.  O próximo tópico, [Interagir com um relatório na Vista de leitura](service-interact-with-a-report-in-editing-view.md), descreve algumas em detalhe.    
 Voltar a [relatórios no Power BI](service-reports.md)    
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/) 
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/) 
 

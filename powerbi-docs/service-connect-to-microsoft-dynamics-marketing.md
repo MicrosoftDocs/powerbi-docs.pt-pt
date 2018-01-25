@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 5ef00013299be73b809a84bfbc977a3666d7e49c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2800dc496d32c099024db0960c87912afb3b79d7
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Ligue-se ao Microsoft Dynamics Marketing com o Power BI
 O pacote de conteúdos do Microsoft Dynamics Marketing para o Power BI permite-lhe aceder e analisar facilmente os seus dados no Dynamics Marketing. O pacote de conteúdos utiliza um modelo descritivo no feed OData, com todas as entidades e as medidas necessárias, como Programas, Campanhas, Empresas e Contactos de Marketing, Clientes Potenciais, Interações de Cliente Potencial e Pontuação de Cliente Potencial, Sites e Mensagens de Marketing por E-mail, observações comportamentais, orçamentos, transações financeiras, KPIs de desempenho e muito mais. 
@@ -32,7 +32,7 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
 >Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Consulte os requisitos adicionais abaixo.
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
+1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_getdata.png) 
 2. Na caixa **Serviços**, selecione **Obter**.
@@ -53,7 +53,7 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
 
 **E agora?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**

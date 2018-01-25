@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d052bc054e55eabfab53ad3b1ac9229f0a750785
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e26a26d7cba2ae3d68586a2e0dcdf87481009bd6
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-security-center-with-power-bi"></a>Ligar ao Centro de Segurança do Azure com o Power BI
 Obtenha informações sobre a segurança da carga de trabalho do Azure ao ligar os Dados de Segurança do Azure ao Power BI. O Power BI cria automaticamente um dashboard e relatórios sobre os dados do Centro de Segurança do Azure, o que lhe permite analisar e explorar os dados.
@@ -44,16 +44,16 @@ Ligar ao [Pacote de conteúdos do Centro de Segurança do Azure](https://app.pow
 5. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar sessão**. Quando solicitado, introduza as suas credenciais do Azure.
    
     ![](media/service-connect-to-azure-security-center/creds.png)
-6. Após a aprovação, o processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os dados importados.
+6. Após a aprovação, o processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
      ![](media/service-connect-to-azure-security-center/dashboard.png)
 
-**O que vem em seguida?**
+**O que se segue?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Enquanto o conjunto de dados é agendado para ser atualizado diariamente, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos inclui informações sobre estatísticas de segurança de recursos, análise de alerta e análise de prevenção.
@@ -66,12 +66,12 @@ O pacote de conteúdos também exige que o utilizador se ligue com uma conta ins
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>A localizar parâmetros
-Existem duas formas fáceis de localizar o seu ID de Subscrição.
+Há duas maneiras fáceis de encontrar o seu ID de Subscrição.
 
-1. A partir de https://portal.azure.com -&gt; Procurar -&gt; Subscrições -&gt; Id de subscrição
-2. A partir de https://manage.windowsazure.com -&gt; Definições -&gt; Id de subscrição
+1. A partir de https://portal.azure.com -&gt; Procurar -&gt; Subscrições -&gt; Id de Subscrição
+2. A partir de https://manage.windowsazure.com -&gt; Definições -&gt; Id de Subscrição
 
-O seu ID de subscrição será um longo conjunto de números e caracteres, semelhante ao exemplo do Passo \#4 acima. 
+O ID de subscrição será um longo conjunto de números e carateres, semelhante ao exemplo do Passo \#4 acima. 
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Os dados podem levar algum tempo a carregar consoante o tamanho da sua conta. Se encontrou um erro durante o início de sessão, confirme os parâmetros e que a conta tem o Centro de Segurança do Azure ativado.

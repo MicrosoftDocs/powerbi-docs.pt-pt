@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 97a799ade391d0691ff7ecd4c362ce225ffa0ab9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e13abe206b4f46726e196a3423bd1fad21391be5
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Ligar ao SQL Sentry com o Power BI
 É fácil analisar os dados de desempenho recolhidos pelo SQL Sentry com o Power BI. O Power BI obtém os dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
@@ -64,10 +64,10 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
 
 **E agora?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o conjunto de dados seja agendado para ser atualizado diariamente, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 Os seguintes dados estão disponíveis no SQL Sentry no Power BI:

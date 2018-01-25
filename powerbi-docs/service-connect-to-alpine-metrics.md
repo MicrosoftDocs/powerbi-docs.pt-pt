@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 27749be1cb344ad731af2b2747dfee4bc24fab08
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: efb0bde571926d2e3e671aeca36ac148d1dd6710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Ligue-se às Previsões de Vendas da Alpine Metrics com o Power BI
 A Alpine Metrics fornece Otimização do Processo de Previsão de Vendas de última geração, na nuvem e a pedido, para organizações de vendas de grande e pequena dimensão. O pacote de conteúdos de Previsão de Vendas para o Power BI da Alpine Metrics inclui métricas como potenciais vendas e vendas previstas e respetivos riscos, permitindo-lhe o acesso a informações mais aprofundadas sobre o futuro da sua empresa. 
@@ -29,7 +29,7 @@ A Alpine Metrics fornece Otimização do Processo de Previsão de Vendas de últ
 Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https://app.powerbi.com/getdata/services/alpine-metrics) da Alpine Metrics.
 
 ## <a name="how-to-connect"></a>Como ligar
-1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.  
+1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.  
    
     ![](media/service-connect-to-alpine-metrics/getdata.png)
 2. Na caixa **Serviços**, selecione **Obter**.  
@@ -49,10 +49,10 @@ Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https
 
 **O que vem em seguida?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados fique agendado para ser atualizado diariamente, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos inclui dados das seguintes tabelas:  

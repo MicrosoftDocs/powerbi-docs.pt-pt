@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/24/2017
+ms.date: 01/18/2018
 ms.author: jastru
-ms.openlocfilehash: 4b861927bad961837f40f34636f0570106aaabc6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5d9b65448fced78bf3eb4ed02c84e1561d2d209a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecidas pelas Perguntas e Respostas
@@ -101,9 +101,9 @@ Uma das funcionalidades mais poderosas do Power BI é a capacidade de combinar d
 Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! Use as funcionalidades interativas da visualização e as Perguntas e Respostas para descobrir mais informações.
 
 ## <a name="next-steps"></a>Passos seguintes
-Voltar a [Perguntas e Respostas do Power BI](service-q-and-a.md)  
+Voltar a [Perguntas e Respostas do Power BI](power-bi-q-and-a.md)  
 
 [Power BI - conceitos básicos](service-basic-concepts.md)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

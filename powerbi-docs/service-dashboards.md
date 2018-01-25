@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards no serviço Power BI
 
@@ -54,7 +54,7 @@ Os [relatórios](service-reports.md) costumam ser confundidos com os dashboards,
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não |Sim, pode criar e ver relatórios no Desktop |
 | Afixação |Pode afixar visualizações (mosaicos) existentes apenas do dashboard atual aos seus outros dashboards |Pode afixar visualizações (como mosaicos) aos seus dashboards. Pode afixar páginas de relatório inteiras aos seus dashboards. |
-| Subscrever |Não pode subscrever um dashboard |Pode subscrever páginas de relatório |
+| Subscrição |Não pode subscrever um dashboard |Pode subscrever páginas de relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
 | Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando são cumpridas determinadas condições |Não |
 | Destaque |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
@@ -82,7 +82,7 @@ O Power BI Pro é necessário tanto para partilhar um dashboard como para visual
 * Saiba mais sobre [mosaicos do dashboard](service-dashboard-tiles.md) e o que acontece quando seleciona um.
 * Não gosta do aspeto de um dashboard?  Pode [redimensionar, mover e mudar o nome dos mosaicos](service-dashboard-edit-tile.md).
 * Quer controlar um mosaico do dashboard individual e receber um e-mail quando atingir um determinado limiar? [Crie alertas nos mosaicos](service-set-data-alerts.md).
-* Divirta-se a fazer perguntas ao dashboard. Saiba como utilizar as [Perguntas e Respostas do Power BI](service-how-to-q-and-a.md) para fazer uma pergunta sobre os dados e receber uma resposta na forma de uma visualização.
+* Divirta-se a fazer perguntas ao dashboard. Saiba como utilizar as [Perguntas e Respostas do Power BI](power-bi-tutorial-q-and-a.md) para fazer uma pergunta sobre os dados e receber uma resposta na forma de uma visualização.
 
 > [!TIP]
 > Se não encontrou aqui o que procurava, utilize o Índice à esquerda.

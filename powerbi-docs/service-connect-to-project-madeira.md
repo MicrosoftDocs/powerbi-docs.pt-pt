@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: a82aac901ac36bbe84d4c855d7d1d79f4695a35b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -48,13 +48,13 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
     >Tem de ser um superutilizador no Projeto "Madeira".
    
     ![](media/service-connect-to-project-madeira/creds.png)
-6. Uma vez ligado, um dashboard, relatório e conjunto de dados serão carregados automaticamente. Após a conclusão, os mosaicos serão atualizados com os dados da sua conta.  
+6. Uma vez ligado, um dashboard, relatório e conjunto de dados serão carregados automaticamente. Quando a operação estiver concluída, os mosaicos serão atualizados com os dados da sua conta.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
 
-**O que se segue?**
+**O que vem em seguida?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**

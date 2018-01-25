@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 44871137e63572d801525c1f070dac5d07a32308
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fd9426a8fce0ed1d707184b421a93f989852a33d
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Ligar ao Prevedere com o Power BI
 Obtenha acesso a informações financeiras exclusivas e essenciais para fomentar o seu negócio com confiança e de forma proativa.
@@ -44,16 +44,16 @@ Ligue-se ao [pacote de conteúdos do Prevedere](https://app.powerbi.com/getdata/
 4. Como **Método de Autenticação**, selecione **Chave** e forneça a sua chave de API.
    
     ![](media/service-connect-to-prevedere/creds.png)
-5. Selecione **Iniciar sessão** para iniciar o processo de importação. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os dados importados.
+5. Selecione **Iniciar sessão** para iniciar o processo de importação. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
      ![](media/service-connect-to-prevedere/dashboard.png)
 
-**O que vem em seguida?**
+**O que se segue?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Apesar de o seu conjunto de dados ser agendado para ser atualizado diariamente, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido com o comando **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos obtém informações aprofundadas sobre as previsões de revenda, os modelos de previsão, os principais indicadores e muito mais.

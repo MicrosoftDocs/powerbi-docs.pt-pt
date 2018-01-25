@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
 
-* [Novidades no Power BI Desktop](desktop-latest-update.md)  
+* [Novidades do Power BI Desktop](desktop-latest-update.md)  
 * [Novidades em aplicativos móveis para o Power BI](mobile-whats-new-in-the-mobile-apps.md)  
 * [Blogue da equipa do Power BI](https://powerbi.microsoft.com/blog/)
 
@@ -243,7 +243,7 @@ Este mês fizemos algumas atualizações nos dashboards, Insights Rápidos e Per
 * Modo de ecrã inteiro: expanda os mosaicos para preencherem o ecrã inteiro e removerem o espaço em branco em excesso selecionando **Ajustar à Largura**
 * Utilize o Fluxo de Mosaicos para alinhar automaticamente os mosaicos no canto superior esquerdo da tela.
 
-***Insights Rápidos***
+***Informações Rápidas***
 
 * Agora, as informações de Tendência e Correlação têm linhas de tendência para facilitar a visualização de padrões nos dados.
 
@@ -270,7 +270,7 @@ Hoje lançámos uma longa lista das funcionalidades mais pedidas. [Leia a mensag
 * Impedir que os utilizadores publiquem pacotes de conteúdos para toda a organização
 * Capacidade para desativar a partilha de conteúdos para utilizadores externos
 
-***Insights Rápidos***
+***Informações Rápidas***
 
 * Insights Rápidos ao publicar ficheiros do Power BI Desktop
 
@@ -341,7 +341,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](http://blo
 
 Muitas das atualizações desta semana aplicam-se ao Power BI Desktop, mas também há várias atualizações significativas para a criação de relatórios e visualizações. O [blogue da equipa do Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) contém descrições completas e até mesmo um vídeo que descreve as atualizações.   
 
-[Transfira o Power BI Desktop](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
+[Transferir o Power BI Desktop](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
 * Atualizações ao painel de formatação e friso de criação de relatórios:
   
@@ -470,7 +470,7 @@ Consulte o nosso [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/pow
 
 **6 de outubro de 2015**
 
-* Com as Perguntas e Respostas do Power BI, é possível explorar os dados através de perguntas simples e intuitivas, e receber respostas na forma de gráficos interativos. Com esta versão, adicionámos uma funcionalidade para ajudá-lo a começar a utilizar as Perguntas e Respostas do Power BI, mesmo quando não sabe nada sobre os dados. Para começar, [navegue até um dashboard e clique no link “Como fazer perguntas” junta à caixa de pergunta Perguntas e Respostas](service-how-to-q-and-a.md). O Power BI apresenta várias sugestões com base nos seus dados.
+* Com as Perguntas e Respostas do Power BI, é possível explorar os dados através de perguntas simples e intuitivas, e receber respostas na forma de gráficos interativos. Com esta versão, adicionámos uma funcionalidade para ajudá-lo a começar a utilizar as Perguntas e Respostas do Power BI, mesmo quando não sabe nada sobre os dados. Para começar, [navegue até um dashboard e clique no link “Como fazer perguntas” junta à caixa de pergunta Perguntas e Respostas](power-bi-tutorial-q-and-a.md). O Power BI apresenta várias sugestões com base nos seus dados.
 * Há duas semanas atrás, introduzimos suporte para a inserção de formas na tela de relatórios do Power BI Desktop. Esta semana, é com satisfação que anunciamos que agora já pode adicionar formas à tela de relatórios ao criar e/ou editar relatórios na aplicação Web do Power BI.
 * Adicionámos a opção para desativar a notificação por e-mail quando partilha um dashboard. Basta desmarcar a caixa de verificação “Enviar notificação por e-mail aos destinatários” na caixa de diálogo de partilha do Power BI. Verá um URL – copie e partilhe este URL com os seus colegas para lhes dar acesso ao dashboard.
 * O Microsoft Dynamics NAV é uma solução de gestão de negócio para organizações de pequena e média dimensão. Oferece aos clientes uma solução completa para os seus negócios com um maior controlo das finanças e dos processos de negócio. O pacote de conteúdos do Power BI fornece relatórios prontos a utilizar aos utilizadores do Dynamics NAV, como vendas e lucros, pipeline de oportunidades, rentabilidade e muito mais. Estas métricas são organizadas num dashboard que pode ser totalmente personalizado, permitindo-lhe ligar-se facilmente e começar de imediato a explorar os seus dados.
@@ -634,7 +634,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 * A fiabilidade de atualização com o OneDrive foi melhorada.  Algumas situações em que os livros não eram atualizados a partir do OneDrive foram resolvidas.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

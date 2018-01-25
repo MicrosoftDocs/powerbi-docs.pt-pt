@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificar-se de que obtém sempre os dados mais recentes, muitas vezes, é fundamental para tomar as decisões certas. Provavelmente já usou Obter Dados no Power BI para se ligar e carregar alguns dados, e já criou alguns relatórios e um dashboard. E agora quer certificar-se de que os seus dados são realmente os mais recentes e os melhores.
@@ -112,7 +112,7 @@ Manter os seus ficheiros no OneDrive ou SharePoint Online e ligar-se a eles atra
 | Obter Dados (no friso) é usado para ligação e consulta de dados a partir de qualquer origem de dados online listada. |Não |Sim |Não (ver abaixo) |
 | O recurso Obter Dados é usado para se ligar e explorar em direto uma base de dados do Analysis Services. |Sim |Não |Sim |
 | O recurso Obter Dados é usado para se ligar e explorar uma origem de dados DirectQuery local. |Sim |Não |Sim |
-| Obter Dados é usado para ligação e consulta de dados a partir do Spark para Azure HDInsight, Base de Dados SQL do Azure, Azure SQL Data Warehouse. |Sim (por hora) |Não |Não |
+| Obter Dados é usado para ligação e consulta de dados a partir do Spark para Azure HDInsight, Base de Dados SQL do Azure, Azure SQL Data Warehouse. |Sim |Sim |Não |
 | Obter Dados é usado para ligação e consulta de dados a partir de qualquer origem de dados local listada, com exceção do ficheiro Hadoop (HDFS) e Microsoft Exchange. |Não |Sim |Sim |
 
 > [!NOTE]
@@ -172,7 +172,7 @@ Ao configurar uma origem de dados com o gateway de dados no local, é possível 
 > 
 > 
 
-| **Origem de dados** | **Em direto/DirectQuery** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
+| **Origem de dados** | **Live/DirectQuery** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
 | --- | --- | --- | --- |
 | Tabela do Analysis Services |Sim |Sim |Sim |
 | Multidimensional do Analysis Services |Sim |Sim |Sim |
@@ -200,7 +200,7 @@ Selecione o conjunto de dados e, no painel à direita, verá uma coleção de op
 
 ![](media/refresh-data/refresh-data_1.png)
 
-| **Origem de dados** | **Em direto/DirectQuery** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
+| **Origem de dados** | **Live/DirectQuery** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
 | --- | --- | --- | --- |
 | SQL Azure Data Warehouse |Sim |Sim |Não |
 | Spark no HDInsight |Sim |Sim |Não |

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 502135583f4d62144a2a2bdb908724c4f8e6b579
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 950c69282e74b42fca4034aaabb9487bad370219
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Ligue-se a appFigures com o Power BI
 É fácil acompanhar as estatísticas importantes sobre as suas aplicações com o Power BI e com o pacote de conteúdos do appFigures. O Power BI recupera os seus dados, incluindo vendas de aplicações, downloads e estatísticas de anúncios, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
@@ -46,15 +46,15 @@ Ligue-se ao [pacote de conteúdo do appFigures](https://app.powerbi.com/getdata/
 5. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os itens novos são marcados com um asterisco amarelo \*:
    
     ![](media/service-connect-to-appfigures/pbi_appfigures3.png)
-6. Selecione o dashboard appFigures. Esse é o dashboard predefinido criado pelo Power BI para exibir seus dados. Pode alterar este dashboard para ver os seus dados de qualquer modo que queira.
+6. Selecione o dashboard appFigures. Esse é o dashboard predefinido criado pelo Power BI para exibir seus dados. Pode alterar este dashboard para apresentar os dados da forma que quiser.
    
     ![](media/service-connect-to-appfigures/appfiguresdoc_01.png)
 
 **E agora?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
-* [Altere os blocos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente.
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
+* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído

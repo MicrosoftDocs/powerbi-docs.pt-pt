@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 39c3fd776e3aed821c7c10c1e905d7400ca64efd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9e19246d6caa8111ab4e61b5dc8fd6207ea1099e
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Ligar ao Microsoft Azure Enterprise com o Power BI
 Explore e monitorize os seus dados do Microsoft Azure Enterprise no Power BI com o pacote de conteúdos do Power BI. Os dados são atualizados automaticamente uma vez por dia.
@@ -44,26 +44,26 @@ Ligue-se ao [pacote de conteúdos do Microsoft Azure Enterprise](https://app.pow
 5. Forneça a sua Chave de Acesso para se ligar. A chave para a sua inscrição pode ser encontrada no Portal EA do Azure.
    
     ![](media/service-connect-to-azure-enterprise/creds.png)
-6. O processo de importação é iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. O processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
    ![](media/service-connect-to-azure-enterprise/dashboard.png)
 
 **O que se segue?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](service-q-and-a.md) na parte superior do dashboard
-* [Altere os blocos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Enquanto o seu conjunto de dados vai ser agendado para ser atualizado diariamente, pode alterar o agendamento de atualização ou tentar atualizá-lo sob pedido em **Atualizar Agora**
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
+* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos do Azure Enterprise inclui dados de relatórios mensais para o intervalo de meses que fornecer durante o fluxo de ligação. O intervalo é uma janela móvel, portanto as datas incluídas são atualizadas à medida que o conjunto de dados é atualizado.
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de Sistema
 O pacote de conteúdos exige acesso às funcionalidades do Enterprise no Portal do Azure.
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>A procurar parâmetros
+## <a name="finding-parameters"></a>Localizar parâmetros
 Os relatórios do Power BI estão disponíveis para EA Direto, Parceiros e Clientes Indiretos que podem ver as informações de faturação. Leia abaixo para obter detalhes sobre a localização de cada um dos valores esperados pelo fluxo de conexão.
 
 **URL de Ambiente do Azure**
@@ -74,25 +74,25 @@ Os relatórios do Power BI estão disponíveis para EA Direto, Parceiros e Clien
 
 **Número de Meses**
 
-* Este deve ser um número entre 1-36, que representa o número de meses de dados (a partir de hoje) que deseja importar.
+* Deve ser um número entre 1 e 36, que representa o número de meses de dados (a partir de hoje) que quer importar.
 
 **Número da Inscrição**
 
-* Este é o número de inscrição do Azure Enterprise que pode ser encontrado no ecrã inicial do [Azure Enterprise Portal](https://ea.azure.com/) em “Detalhes da Inscrição”.
+* Este é o número de inscrição do Azure Enterprise que pode ser encontrado no ecrã inicial do [Azure Enterprise Portal](https://ea.azure.com/) em "Detalhes da Inscrição".
   
     ![](media/service-connect-to-azure-enterprise/params2.png)
 
 **Chave de Acesso**
 
-* A chave pode ser encontrada no portal do Azure Enterprise, em “Utilização de Download” > “Chave de Acesso de API”
+* A chave pode ser encontrada no portal do Azure Enterprise, em "Transferir Utilização" > "Chave de Acesso da API"
   
     ![](media/service-connect-to-azure-enterprise/creds2.png)
 
-**Ajuda adicional**
+**Ajuda Adicional**
 
-* Para ter ajuda adicional na configuração do pacote Power BI do Azure Enterprise, inicie a sessão no Azure Enterprise Portal para ver o ficheiro de ajuda da API em “Ajuda” e as instruções adicionais em Relatórios -> Utilização de Download -> Chave de acesso da API.
+* Para ter ajuda adicional na configuração do pacote Power BI do Azure Enterprise, inicie a sessão no Azure Enterprise Portal para ver o ficheiro de ajuda da API em "Ajuda" e as instruções adicionais em Relatórios -> Transferir Utilização -> Chave de Acesso da API.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)
