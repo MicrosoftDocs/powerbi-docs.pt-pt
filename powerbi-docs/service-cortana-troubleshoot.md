@@ -95,7 +95,7 @@ Continua a ter problemas?  Agora é uma boa altura para executar a ferramenta de
    Como obtivemos um resultado, sabemos agora que o Cortana **está** ativado no Power BI. Isso restringe o problema para algo no Windows, na definição de idioma do Cortana ou ter mais do que 100 conjuntos de dados ativados para o Cortana.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Está a ter problemas ao obter respostas a partir de um dashboard?
-Está à procura de um dashboard que foi partilhado consigo?  Abra o Power BI > **Partilhado comigo** e localize o nome do dashboard.  Em seguida, escreva o nome no campo *Expressão**.
+Está à procura de um dashboard que foi partilhado consigo?  Abra o Power BI > **Partilhado comigo** e localize o nome do dashboard.  Em seguida, escreva o nome no campo *Expressão* *.
 
 ![Abrir a opção Partilhado comigo no Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 
