@@ -15,59 +15,87 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 09e245e625c9e0859f93837e56b564218e327926
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda para o Power BI: veja uma apresentação
 
-Este dashboard de exemplo do setor, juntamente com o relatório subjacente, analisam dados de vendas de revenda de itens vendidos em várias lojas e distritos. As métricas comparam o desempenho deste ano ao do ano passado nas seguintes áreas: vendas, unidades, margem bruta e variação, bem como uma análise de novas lojas. Os exemplos são dados reais do obviEnce ([www.obvience.com](http://www.obvience.com)) que foram tornados anónimos.
-
-[!Note] Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529778). O livro contém folhas do Power View que pode ver e modificar.  Para ver os dados não processados, selecione **Power Pivot > Gerir**. 
+Este dashboard de exemplo do setor, juntamente com o relatório subjacente, analisam dados de vendas de revenda de itens vendidos em várias lojas e distritos. As métricas comparam o desempenho deste ano ao do ano passado nas seguintes áreas: vendas, unidades, margem bruta e variação, bem como uma análise de novas lojas. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com)) que foram mantidos anónimos.
 
 ![](media/sample-retail-analysis/retail1.png)
 
+## <a name="prerequisites"></a>Pré-requisitos
+
+ Antes de poder utilizar o exemplo, primeiro tem de transferir, como pacote de conteúdos, um ficheiro .pbix ou um livro do Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
+
+1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
+2. No canto inferior esquerdo, selecione **Obter dados**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na página Obter Dados que aparece, selecione **Exemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecione o **Exemplo de Análise de Revenda** e então selecione **Ligar**.  
+  
+   ![Exemplo de Análise de Revenda](media/sample-retail-analysis/retail16.png)
+   
+5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
+   
+   ![Exemplo de Análise de Revenda](media/sample-retail-analysis/retail17.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
+
+Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
+
+ * [Exemplo de Análise de Retalho](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
+Também pode [transferir apenas o conjunto de dados (livro do Excel)](http://go.microsoft.com/fwlink/?LinkId=529778) para este exemplo. O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
+
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniciar no dashboard e abrir o relatório
 1. No dashboard, selecione o mosaico "Total de Lojas":
-   
+
    ![](media/sample-retail-analysis/retail-analysis-7.png)  
-   
+
    É direcionado para a página "Descrição Geral das Vendas da Loja" no relatório. Veja que temos 104 lojas no total, sendo que 10 delas são novas. Temos duas cadeias, Fashions Direct e Lindseys. Em média, as lojas Fashions Direct são maiores.
 2. No gráfico circular, selecione **Fashions Direct**.
-   
+
    ![](media/sample-retail-analysis/retail3.png)  
-   
+
    Observe o resultado no gráfico de bolhas:
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
-   
+
    O distrito FD-01 tem a maior Média de Vendas por Metro Quadrado, FD-02 tem a menor Variação em Vendas em comparação com o ano passado, FD-03 e FD-04 têm os piores desempenhos gerais.
 3. Selecione algumas das bolhas individuais ou outros gráficos para ver o realce cruzado e revelar o impacto das suas seleções.
-4. Para regressar ao dashboard, selecione o nome na barra de navegação superior (navegação estrutural). 
-   
+4. Para regressar ao dashboard, selecione o nome na barra de navegação superior (navegação estrutural).
+
    ![](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 5. No dashboard, selecione o mosaico que contém "Vendas Deste Ano".
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlthisyrsales.png)
-   
+
    Isto é equivalente a escrever "Vendas deste ano" na caixa de perguntas.
-   
+
    Verá este ecrã:
-   
+
    ![](media/sample-retail-analysis/retail7.png)
 
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Rever um mosaico criado com as Perguntas e Respostas do Power BI
 Vamos analisar mais detalhadamente.
 
 1. Adicione “vendas deste ano **por distrito**” à pergunta. Observe o resultado: a resposta é colocada automaticamente num gráfico de barras e são sugeridas outras frases:
-   
+
    ![](media/sample-retail-analysis/retail8.png)
 2. Agora, altere a pergunta para “vendas deste ano **por código postal e cadeia**”.
-   
+
    Observe como a pergunta é respondida à medida que escreve nos gráficos adequados.
 3. Experimente com mais perguntas e veja que tipo de resultados são obtidos.
 4. Quando estiver pronto, regresse ao dashboard.
@@ -76,23 +104,23 @@ Vamos analisar mais detalhadamente.
 Agora, vamos explorar num nível mais detalhado e analisar os desempenhos dos distritos.
 
 1. No dashboard, selecione o mosaico que compara as vendas deste ano às vendas do ano passado.
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlareacht.png)
-   
+
    Observe a grande variabilidade na % de Variação em relação ao ano passado, com janeiro, abril e julho a ter um mau desempenho.
-   
+
    ![](media/sample-retail-analysis/pbi_sample_retanlsalesvarcol.png)
-   
+
    Vamos ver se podemos chegar até onde os problemas podem estar.
 2. Selecione o gráfico de bolhas e escolha **020-Mens**.
-   
+
    ![](media/sample-retail-analysis/retail11.png)  
-   
+
    Observe que a categoria Masculino não foi tão prejudicada em abril como os negócios em geral, mas janeiro e julho ainda foram meses com problemas.
 3. Agora, selecione a **bolha 010-Womens**.
-   
+
    ![](media/sample-retail-analysis/retail12.png)
-   
+
    Observe que a categoria Feminino teve um desempenho muito pior do que os negócios em geral em todos os meses, e muito pior em quase todos os meses, em comparação com o ano interior.
 4. Selecione a bolha novamente para limpar o filtro.
 
@@ -100,14 +128,14 @@ Agora, vamos explorar num nível mais detalhado e analisar os desempenhos dos di
 Vejamos o desempenho de distritos específicos.
 
 1. Clique em Artur Gomes na parte superior esquerda da segmentação.
-   
+
    ![](media/sample-retail-analysis/retail13.png)
-   
+
    Observe que o distrito de Artur teve um desempenho superior no Ano Passado em março e junho.
 2. Agora, com Artur ainda selecionado, selecione a bolha Feminino.
-   
+
    ![](media/sample-retail-analysis/power-bi-allan.png)
-   
+
    Observe que para a categoria Feminino, o seu distrito nunca cumpriu o volume do ano passado.
 3. Explore os outros gestores e categorias de distrito – que outras informações pode encontrar?
 4. Quando estiver pronto, volte ao dashboard.
@@ -116,17 +144,17 @@ Vejamos o desempenho de distritos específicos.
 A última área que queremos explorar é o nosso crescimento, as novas lojas abertas este ano.
 
 1. Selecione o mosaico "Lojas Abertas Este Ano".
-   
+
    ![](media/sample-retail-analysis/retail15.png)
-   
+
    Como pode ser visto no mosaico, foram abertas mais lojas Fashion Direct do que Lindseys este ano.
 2. Veja o gráfico “Vendas por metros quadrados por Nome”:
-   
+
    ![](media/sample-retail-analysis/retail14.png)
-   
+
     Existem bastantes diferenças na Média de Vendas por Metros Quadrados entre as novas lojas.
 3. Clique no item de legenda Fashions Direct no gráfico à direita superior. Observe que, mesmo para a mesma cadeia, a melhor loja (Winchester Fashions Direct) tem um desempenho significativamente superior à pior loja (Cincinnati 2 Fashions Direct): 21,22 $ vs. 12,86 $, respetivamente.
-   
+
    ![](media/sample-retail-analysis/power-bi-lindseys.png)
 4. Clique em Winchester Fashions Direct na segmentação de dados e observe o gráfico de linhas. Os primeiros números de vendas foram comunicados em fevereiro.
 5. Clique em Cincinnati 2 Fashions Direct na segmentação de dados e verá no gráfico de linhas que a loja foi aberta em junho e que parece ser a loja com o pior desempenho.
@@ -142,5 +170,4 @@ Esperamos que esta apresentação tenha mostardo como os dashboards, as Pergunta
 * [Descarregue o livro do Excel para este exemplo do Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obter dados (para o Power BI)](service-get-data.md)    
 * [Power BI - Conceitos Básicos](service-basic-concepts.md)    
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

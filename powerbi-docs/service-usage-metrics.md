@@ -1,6 +1,6 @@
 ---
 title: "Métrica de utilização para dashboards e relatórios"
-description: "Documentação sobre como ver a métrica de utilização para relatórios e dashboards do Power BI. Medir e aumentar o seu impacto com a métrica de utilização para criadores de relatórios."
+description: "Como ver, guardar e utilizar as Métricas de utilização para relatórios e dashboards do Power BI. Medir e aumentar o seu impacto com a métrica de utilização para criadores de relatórios."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,39 +16,37 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métrica de utilização para dashboards e relatórios
 Se criar dashboards e relatórios, a métrica de utilização ajuda-o a compreender o respetivo impacto. Quando executa a métrica de utilização do dashboard ou a métrica de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização; o que está a ser utilizado, por quem e com que finalidade.  
 
 > [!NOTE]
 > A métrica de utilização irá controlar a utilização de relatórios que estão incorporados no SharePoint Online. Também irá controlar a incorporação de dashboards e relatórios através do fluxo "o utilizador possui credenciais" e "a aplicação possui credenciais". A métrica de utilização não irá controlar a utilização de incorporação de relatórios através da opção [Publicar na Web](service-publish-to-web.md).
-> 
-> 
 
 Estes relatórios de métrica de utilização são só de leitura. No entanto, pode personalizar um relatório de métrica de utilização através da opção "Guardar como". Esta ação cria um novo conjunto de dados e converte o relatório só de leitura num relatório do Power BI completo que pode editar. O relatório personalizado não só contém métricas para o dashboard ou relatório selecionados, mas, ao remover o filtro predefinido, tem agora acesso à métrica de utilização de todos os dashboards ou relatórios na área de trabalho selecionada.
 
 ![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>Por que razão a métrica de utilização é importante para mim?
- Saber como o seu conteúdo está a ser utilizado ajuda-o a demonstrar o impacto e a atribuir prioridades aos esforços. A métrica de utilização pode mostrar que um dos seus relatórios é utilizado diariamente por um vasto segmento da organização e mostrar que um dashboard que criou não está a ser visualizado. Este tipo de comentários são valiosos para ajudá-lo nos seus esforços de trabalho.
+Saber como o seu conteúdo está a ser utilizado ajuda-o a demonstrar o impacto e a atribuir prioridades aos esforços. A métrica de utilização pode mostrar que um dos seus relatórios é utilizado diariamente por um vasto segmento da organização e mostrar que um dashboard que criou não está a ser visualizado. Este tipo de comentários são valiosos para ajudá-lo nos seus esforços de trabalho.
 
 A execução de relatórios de métrica de utilização só está disponível no serviço Power BI.  No entanto, se guardar um relatório de métrica de utilização ou afixá-lo num dashboard, pode abrir e interagir com esse relatório em dispositivos móveis.
 
-> **NOTA**: a funcionalidade de métrica de utilização recolhe informações de utilização de todos os utilizadores, tanto gratuitos como profissionais. No entanto, é necessário uma licença Pro para executar e aceder aos dados da métricas de utilização.
-> 
-> 
+### <a name="prerequisites"></a>Pré-requisitos
+- A funcionalidade de métrica de utilização recolhe informações de utilização de todos os utilizadores, tanto gratuitos como profissionais. No entanto, é necessário uma licença Pro para executar e aceder aos dados da métricas de utilização.
+- A métrica de utilização é fornecida nos dashboards ou relatórios na área de trabalho selecionado. Para aceder às métricas de utilização de um determinado dashboard ou relatório, deve:    
+    • Ter acesso de edição a esse dashboard ou relatório   
+    • Ter uma licença Pro
 
 ## <a name="about-the-usage-metrics-report"></a>Sobre o relatório da métrica de utilização
-A métrica de utilização é fornecida nos dashboards ou relatórios na área de trabalho selecionado. Para obter acesso aos dados da métrica de utilização de um determinado dashboard ou relatório, deve:    
-• Ter acesso de edição a esse dashboard ou relatório   
-• Ter uma licença Pro
+
 
 Quando seleciona **Métrica de utilização** ou o ícone ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png), o Power BI gera um relatório pré-construído com a métrica de utilização para esse conteúdo relativo aos últimos 90 dias.  O relatório é semelhante aos relatórios do Power BI com os quais já está familiarizado, mas foi concebido para ser informativo, não interativo. Será capaz de segmentar com base na forma como os utilizadores finais receberam acesso, quer esteja a aceder através da Web ou da aplicação móvel, etc. À medida que os seus dashboards e relatórios evoluem, o mesmo se passa com o relatório de métrica de utilização, que é atualizado todos os dias com novos dados.  
 
@@ -68,8 +66,9 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
     ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Para abrir os resultados, selecione **Ver métrica de utilização**.
    
-    A métrica de utilização será um poderoso aliado enquanto implementa e mantém os dashboards e os relatórios do Power BI. Quer saber que páginas do relatório são mais úteis e quais podem ser suprimidos? Segmente por página do relatório para descobrir. Quer saber se deve criar um esquema móvel para o seu dashboard? O relatório de métrica de utilização informa-o quantos utilizadores estão a aceder ao seu conteúdo através de aplicações móveis e não através do Web browser.
-5. Como opção, afixe visualizações a um dashboard para que possa monitorizá-los mais facilmente ou partilhá-los com outras pessoas.
+    A métrica de utilização será um poderoso aliado enquanto implementa e mantém os dashboards e os relatórios do Power BI. Quer saber que páginas do relatório são mais úteis e quais podem ser suprimidos? Segmente por **Página do relatório** para descobrir. Quer saber se deve criar um esquema móvel para o seu dashboard? Segmente por **Plataformas** para saber quantos utilizadores estão a aceder ao seu conteúdo através de aplicações móveis e não através do Web browser.
+
+5. Opcionalmente, passe o cursor sobre uma visualização e selecione o ícone do pino para adicionar a visualização a um dashboard. Ou, na barra do menu superior, selecione **Afixar Página em Direto** para adicionar a página completa a um dashboard. No dashboard pode monitorizar as métricas de utilização mais facilmente ou partilhá-las com outras pessoas.
    
    > **NOTA**: se fixar um mosaico de um relatório de métrica de utilização a um dashboard, este não pode ser adicionado a uma aplicação ou a um pacote de conteúdos.
    > 
@@ -101,7 +100,10 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
 ![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Guarde o relatório da métrica de utilização como um relatório completo do Power BI (personalizar)
-Utilize **Guardar como** para converter a métrica de utilização para um relatório completo do Power BI que pode ser personalizado e partilhado. Depois de criar uma cópia personalizada, terá acesso total ao conjunto de dados subjacente, permitindo-lhe personalizar por completo o relatório de métrica de utilização para as suas necessidades específicas. Pode mesmo utilizar o Power BI Desktop para criar relatórios de métrica de utilização personalizada utilizando a [ligação em direto à funcionalidade de serviço Power BI](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop).
+
+![](media/service-usage-metrics/power-bi-save-as.png)
+
+Utilize **Guardar como** para converter a métrica de utilização para um relatório completo do Power BI que pode ser personalizado e partilhado. Depois de criar uma cópia personalizada, terá acesso total ao conjunto de dados subjacente, permitindo-lhe personalizar o relatório de métrica de utilização para as suas necessidades específicas. Pode mesmo utilizar o Power BI Desktop para criar relatórios de métrica de utilização personalizada utilizando a [ligação em direto à funcionalidade de serviço Power BI](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop).
 
 Melhor ainda, o conjunto de dados subjacente inclui os detalhes de utilização de todos os dashboards ou de relatórios na área de trabalho. Isto coloca ao seu dispor um vasto leque de opções. Pode, por exemplo, criar um relatório que compara todos os dashboards na sua área de trabalho com base na utilização. Como alternativa, pode criar um dashboard de métrica de utilização para a sua aplicação do Power BI através da utilização de agregação em todo o conteúdo distribuído nessa aplicação.  Consulte [Remover o filtro de nível de página](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) abaixo.
 
@@ -109,26 +111,23 @@ Melhor ainda, o conjunto de dados subjacente inclui os detalhes de utilização 
 Quando o Power BI cria o relatório completo, cria também um novo conjunto de dados **compostos por todos os dashboards ou todos os relatórios incluídos na área de trabalho atual** que tenham sido acedidos nos últimos 90 dias. Por exemplo, imagine que tem uma área de trabalho com o nome "Vendas" que contém três dashboards e dois relatórios e cria um relatório de métrica de utilização no dashboard "Nordeste". Em seguida, utilize **guardar como** para personalizar e convertê-lo num relatório completo. O conjunto de dados desse novo relatório contém a métrica de utilização *não só para esse dashboard chamado "Nordeste"*, mas também para os três dashboards na área de trabalho "Vendas". Por predefinição, o relatório apresenta dados para o dashboard "Nordeste" e terá [remover um filtro](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (clique único) para apresentar dados dos três dashboards.
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>Criar uma cópia do relatório de utilização utilizando "Guardar como"
-Quando cria uma cópia utilizando "Guardar como" (personalizar), o Power BI converte o relatório pré-construído só de leitura num relatório completo.  À primeira vista, parece exatamente igual. Contudo, agora pode abrir o relatório na vista Editar, adicionar novas visualizações, filtros e páginas, modificar ou eliminar visualizações existentes e muito mais. O Power BI também cria um novo conjunto de dados que contém a métrica de utilização de todos os dashboards ou de todos os relatórios nessa área de trabalho.
+Quando cria uma cópia utilizando "Guardar como" (personalizar), o Power BI converte o relatório pré-construído só de leitura num relatório completo.  À primeira vista, parece exatamente igual. Contudo, agora pode abrir o relatório na vista Editar, adicionar novas visualizações, filtros e páginas, modificar ou eliminar visualizações existentes e muito mais. O Power BI guarda o relatório novo e o conjunto de dados na área de trabalho atual. No exemplo abaixo, a área de trabalho atual é **mihart**.
 
-> **SUGESTÃO**: para permitir que o Power BI aceda à métrica de utilização de todos os dashboards ou de todos os relatórios na área de trabalho, [remova o filtro de nível de página](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace).
-> 
-> 
 
-1. A partir do relatório de métrica de utilização pré-construído, selecione **Ficheiro > Guardar como**. O Power BI converte o relatório de métrica de utilização num relatório completo do Power BI. Isto é denominado um relatório de métrica de utilização *personalizado*.
+1. A partir do relatório de métrica de utilização pré-construído, selecione **Ficheiro > Guardar como**. O Power BI converte o relatório de métrica de utilização num relatório completo do Power BI. Isto é denominado um relatório de métrica de utilização *personalizado*. O relatório de utilização personalizado e o conjunto de dados são guardados na área de trabalho denominada **mihart*.
    
     ![](media/service-usage-metrics/power-bi-save-as.png)
 2. Abra o relatório na vista Editar e [interaja este, tal como faria com qualquer outro relatório do Power BI](service-interact-with-a-report-in-editing-view.md). Por exemplo, adicione novas páginas e crie novas visualizações, adicione filtros, formate os tipos de letra e cores, etc.
    
     ![](media/service-usage-metrics/power-vi-editing-view.png)
-3. Como alternativa, abra o novo conjunto de dados e crie um relatório de raiz.
+3. Como alternativa, comece com o novo conjunto de dados e crie um relatório de raiz.
    
     ![](media/service-usage-metrics/power-bi-new-dataset.png)
-4. O novo relatório é guardado na área de trabalho atual e é adicionado à lista de conteúdo **Recente**.
+4. O novo relatório é guardado na área de trabalho atual (mihart) e é adicionado à lista de conteúdos **Recente**.
    
     ![](media/service-usage-metrics/power-bi-new-report.png)
 
-### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Remover o filtro para ver todos os dados da métrica de utilização na área de trabalho
+### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Remover o filtro para ver ***todos*** os dados da métrica de utilização na área de trabalho
 Para ver a métrica de todos os dashboards ou de todos os relatórios na área de trabalho, terá de remover um filtro. Por predefinição, o relatório personalizado está filtrado para apresentar métricas apenas do dashboard ou do relatório que utilizou para criá-lo.
 
 Se, por exemplo, utilizou o dashboard com o nome "Vendas europeias" para criar este novo relatório personalizado, serão apresentados apenas os dados de utilização do dashboard "Vendas europeias". Para remover o filtro e ativar os dados de todos os dashboards nessa área de trabalho:
@@ -177,5 +176,5 @@ R: o relatório de métrica de utilização apenas inclui relatórios (ou dashbo
 ## <a name="next-steps"></a>Passos seguintes
 [Adicionar um dashboard como favorito](service-dashboard-favorite.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

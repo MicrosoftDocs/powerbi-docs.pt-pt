@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -50,7 +50,7 @@ Os relatórios do Power BI são armazenados em diferentes locais na aplicação 
   ![Relatório de telemóvel no modo horizontal](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Ver relatórios otimizados para telemóveis
-Os autores de relatórios do Power BI podem criar um esquema de relatório especificamente otimizado para telemóveis. Numa lista de relatórios, um relatório otimizado tem um ícone especial ![Ícone de relatório no telemóvel](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Os autores de relatórios do Power BI podem criar um esquema de relatório especificamente otimizado para telemóveis. As páginas do relatório otimizadas para telemóveis têm mais funcionalidades: por exemplo, pode pesquisar e ordenar em visuais no modo de foco, e pode aceder a [filtra o autor do relatório adicionado à página do relatório](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Numa lista de relatórios, um relatório otimizado tem um ícone especial ![Ícone de relatório do telemóvel](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Abrir o relatório no telemóvel](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Quando vê esse relatório num telemóvel, este é aberto numa vista vertical.
 
 ![Relatório na vista vertical](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Um relatório pode ter uma mistura de páginas que estão e não estão otimizadas para telemóveis. Se for o caso, quando percorrer o relatório, a vista irá alternar entre horizontal e vertical para cada página.
+ Um relatório pode ter uma mistura de páginas que estão e não estão otimizadas para telemóveis. Se for o caso, quando percorrer o relatório, a vista irá alternar entre horizontal e vertical para cada página.
 
 Saiba mais sobre os [relatórios otimizados para a vista de telemóvel](mobile-apps-view-phone-report.md).
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 2b5568020d3d99788d4fe2288fbc468d82d4e2bf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5087e69190372fe7303fb46254885f7a7a456f70
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Ou talvez tem um conjunto de dados, mas como não compreende (ainda) como funciona o Power BI, preocupa-se na possibilidade de danificar o conjunto de dados?
@@ -37,7 +37,7 @@ Mas antes de começarmos, leia estas diretrizes legais para utilizar os exemplos
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Diretrizes de utilização para os livros do Excel de exemplo do Power BI
 Leia estas informações antes de utilizar os exemplos do Power BI.
 
-©2015 Microsoft Corporation. Todos os direitos reservados. Os documentos e livros são fornecidos "tal como estão". As informações e opiniões expressas nos livros, incluindo URLs e outras referências a sites, podem ser alteradas sem aviso prévio. O utilizador assume o risco de usá-las. Alguns exemplos são apenas para ilustração e são fictícios. Nenhuma associação real é pretendida ou inferida. A Microsoft não faz garantias, de forma expressa ou implícita, em relação à informação aqui fornecida.
+©2015 Microsoft Corporation. Todos os direitos reservados. Os documentos e livros são fornecidos "tal como estão." As informações e opiniões expressas nos livros, incluindo URLs e outras referências a sites, podem ser alteradas sem aviso prévio. O utilizador assume o risco de usá-las. Alguns exemplos são apenas para ilustração e são fictícios. Nenhuma associação real é pretendida ou inferida. A Microsoft não faz garantias, de forma expressa ou implícita, em relação à informação aqui apresentada.
 
 Os livros não lhe conferem qualquer direito legal sobre nenhuma propriedade intelectual de nenhum produto da Microsoft. Pode copiar e utilizar este livro para fins internos e de referência.
 
@@ -87,12 +87,12 @@ Este exemplo do setor analisa dados de vendas de retalho dos itens vendidos em v
 ### <a name="sales-and-marketing-sample--mediasample-datasetspower-bi-smpng"></a>Exemplo de Vendas e Marketing  ![](media/sample-datasets/power-bi-sm.png)
 [Veja uma apresentação do exemplo de Vendas e Marketing](sample-sales-and-marketing.md)
 
-Este exemplo do setor analisa uma empresa industrial, VanArsdel Ltd. Permite ao Diretor de Marketing uma observação do setor e da quota de mercado da VanArsdel.  Ao explorar o exemplo, é possível encontrar a quota de mercado da empresa, o volume de produtos, as vendas e o sentimento.
+Este exemplo do setor analisa uma empresa industrial, VanArsdel Ltd. Permite ao Diretor de Marketing uma observação do setor e da quota de mercado da VanArsdel.  Ao explorar o exemplo, pode encontrar a quota de mercado da empresa, o volume de produtos, as vendas e o sentimento.
 
 ### <a name="supplier-quality-sample--mediasample-datasetspower-bi-sqpng"></a>Exemplo de Qualidade do Fornecedor  ![](media/sample-datasets/power-bi-sq.png)
 [Veja uma apresentação do exemplo de Qualidade do Fornecedor](sample-supplier-quality.md)
 
-Este exemplo do setor destaca um dos desafios típicos da cadeia de fornecedores – análise de qualidade do fornecedor. Duas métricas principais estão envolvidas na análise: o número total de defeitos e o período de indisponibilidade total que estes defeitos causaram. Este exemplo tem dois objetivos principais: perceber quais são os melhores e os piores fornecedores, no que respeita à qualidade e identificar as instalações fabris que melhor localizam e rejeitam defeitos, para minimizar o período de indisponibilidade.
+Este exemplo do setor destaca um dos desafios típicos da cadeia de fornecedores – análise de qualidade do fornecedor. Duas métricas principais estão envolvidas na análise: o número total de defeitos e o tempo de inatividade total que causou estes defeitos. Este exemplo tem dois objetivos principais: perceber quais são os melhores e os piores fornecedores, no que respeita à qualidade e identificar as instalações fabris que melhor localizam e rejeitam defeitos, para minimizar o período de indisponibilidade.
 
 Agora, sabe o que está disponível. Está na altura de conhecer estes exemplos.  
 
@@ -134,10 +134,10 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como livr
    * [Exemplo de Vendas e Marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Guarde o ficheiro transferido. O local onde guarda o ficheiro é importante.
    
-   * ![](media/sample-datasets/power-bi-local-file2.png)  **Local** - se guardar o ficheiro numa unidade local no computador ou noutro local na sua organização, através do Power BI, é possível importar o ficheiro para o Power BI. Na verdade, o ficheiro permanecerá na unidade local, portanto, o ficheiro completo não é, de fato, importado para o Power BI. O que realmente ocorre é que um novo conjunto de dados é criado no site do Power BI e os dados e, nalguns casos, o modelo de dados, são carregados nesse conjunto de dados. Se o ficheiro tiver relatórios, são mostrados no site do Power BI em Relatórios.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business** – Caso tenha o OneDrive for Business e inicie sessão com a mesma conta usada  do Power BI, essa será, sem dúvida, a forma mais eficaz de manter o seu trabalho no Excel, no Power BI ou num ficheiro .CSV em sincronização com o seu conjunto de dados, os seus relatórios e dashboards no Power BI. Visto que tanto o Power BI como o OneDrive estão na cloud, o Power BI liga-se ao seu ficheiro no OneDrive em intervalos aproximados de sessenta minutos. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards serão atualizados automaticamente no Power BI.
-   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personal** – Caso tenha guardado os ficheiros na sua própria conta do OneDrive, aproveitará vários benefícios que teria com o OneDrive for Business. A maior diferença é que, na primeira ligação ao ficheiro (usando Obter Dados > Ficheiros > OneDrive – Personal), será necessário entrar no OneDrive com a sua conta Microsoft que, normalmente, é diferente daquela que usa para iniciar sessão no Power BI. Ao entrar no OneDrive com sua conta Microsoft, certifique-se de que seleciona a opção Manter a sessão iniciada. Desta forma, o Power BI poderá ligar-se ao seu ficheiro em intervalos aproximados de sessenta minutos e garantir que o conjunto de dados no Power BI está sincronizado.
-   * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint – Sites de Equipa**    Guardar os seus ficheiros do Power BI no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive for Business. A maior diferença nesse caso é a forma como se liga ao ficheiro do Power BI. É possível especificar um URL ou ligar-se à pasta raiz.
+   * ![](media/sample-datasets/power-bi-local-file2.png)  **Local** - se guardar o ficheiro numa unidade local no computador ou noutro local na sua organização, através do Power BI, é possível importar o ficheiro para o Power BI. Na verdade, o ficheiro permanecerá na unidade local; portanto, o ficheiro completo não é, de fato, importado para o Power BI. O que realmente ocorre é que um novo conjunto de dados é criado no site do Power BI e os dados e, em alguns casos, o modelo de dados, são carregados para esse conjunto de dados. Se o ficheiro tiver relatórios, estes serão apresentados no site do Power BI em Relatórios.
+   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business** – Caso tenha o OneDrive for Business e inicie sessão com a mesma conta usada  do Power BI, essa será, sem dúvida, a forma mais eficaz de manter o seu trabalho no Excel, no Power BI ou num ficheiro .CSV em sincronização com o seu conjunto de dados, os seus relatórios e dashboards no Power BI. Visto que tanto o Power BI quanto o OneDrive ficam na cloud, o Power BI liga-se ao seu ficheiro no OneDrive em intervalos aproximados de uma hora. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards serão atualizados automaticamente no Power BI.
+   * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personal** – Caso tenha guardado os ficheiros na sua própria conta do OneDrive, aproveitará vários benefícios que teria com o OneDrive for Business. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
+   * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint – Sites de Equipa**    Guardar os seus ficheiros do Power BI no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive for Business. A maior diferença neste caso é como liga ao ficheiro do Power BI. Pode especificar um URL ou ligar à pasta raiz.
 3. Abra o serviço do Power BI (app.powerbi.com) e inicie sessão.
    
    > [!TIP]
@@ -174,7 +174,7 @@ Quer saber como os dados num livro do Excel são convertidos em conjuntos de dad
 * Por isso, onde estão os dados reais? Estão no modelo de dados do Power Pivot. Para ver os dados, no separador **PowerPivot** selecione **Gerir Modelo de Dados**.
   
     Não vê o separador PowerPivot? [Ative o suplemento do Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8). 
-* Um separador Informações fornece informações sobre a obviEnce, a empresa que criou o exemplo.
+* O separador Informações dispõe de informações sobre a obviEnce, a empresa que criou o exemplo.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Os exemplos do Power BI como ficheiros. pbix
 Cada um dos pacotes de conteúdos de exemplo também está disponível como ficheiro. pbix do Power BI. Os ficheiros .pbix são concebidos para serem utilizados com o Power BI Desktop.  
@@ -195,12 +195,12 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como fich
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Selecione o ficheiro. pbix para o abrir no Desktop.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Conceitos básicos do Power BI](service-basic-concepts.md)
 
 [Tutorial: ligar-se aos exemplos do Power BI](sample-tutorial-connect-to-the-samples.md)
 
 [Origens de dados do Power BI](service-get-data.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

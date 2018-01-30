@@ -1,5 +1,5 @@
 ---
-title: "Exportar um relatório do serviço Power BI para Desktop (pré-visualização)"
+title: "Como exportar um relatório do serviço Power BI para Desktop (Pré-visualização)"
 description: "Transferir um relatório do serviço Power BI para um ficheiro do Power BI Desktop"
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 30975e9192633043aed7e4196820ef34044b8fcb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar um relatório do serviço Power BI para Desktop (pré-visualização)
 No Power BI Desktop, pode exportar (ou *transferir*) um relatório para o serviço Power BI ao guardar o relatório e selecionar **Publicar**. Também pode exportar na outra direção e transferir um relatório do serviço Power BI para Desktop. A extensão dos ficheiros exportados é *.pbix* em ambas as direções.
@@ -45,14 +45,15 @@ Para transferir o ficheiro .pbix, siga estes passos:
     ![](media/service-export-to-pbix/power-bi-save-pbix.png)
    
     Tem agora a opção de abrir o ficheiro .pbix no serviço Power BI (app.powerbi.com) ou no Power BI Desktop.     
-4. Para abrir imediatamente o relatório no Desktop, selecione **Abrir**.  Se ainda não o fez, [instale o Power BI Desktop](desktop-get-the-desktop.md).
+4. Para abrir imediatamente o relatório no Desktop, selecione **Abrir**. Para guardar o ficheiro numa localização específica, selecione **Guardar > Guardar como**. Se ainda não o fez, [instale o Power BI Desktop](desktop-get-the-desktop.md).
    
     Quando abrir o relatório no Desktop, poderá ver uma mensagem a avisá-lo de que algumas das funcionalidades disponíveis no relatório do serviço Power BI poderão não estar disponíveis no Desktop.
    
     ![](media/service-export-to-pbix/power-bi-export-to-pbix_2.png)
-5. Para abrir o relatório no serviço Power BI, selecione **Guardar** e, em seguida, utilize a opção **Obter Dados** para aceder à localização onde guardou o ficheiro .pbix.
+
+5. O editor de relatório no Desktop é muito semelhante ao editor de relatório no serviço Power BI.  
    
-    ![](media/service-export-to-pbix/power-bi-get-data.png)
+    ![](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Existem algumas considerações e limitações importantes associadas à transferência (exportação) de um ficheiro *.pbix* do serviço Power BI.
@@ -78,5 +79,5 @@ Após instalar o **Power BI Desktop**, os seguintes conteúdos poderão ajudá-l
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)   
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)   
 

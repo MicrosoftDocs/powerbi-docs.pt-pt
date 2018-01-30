@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Ativar as Perguntas e Respostas para ligações em direto
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é um gateway de dados no local?  O que é uma ligação em direto?
@@ -39,7 +39,7 @@ Uma vez que as Perguntas e Respostas do Power BI utilizam os valores de esquema 
 Para obter mais informações, veja:
 
 * O que é o [gateway de dados no local](service-gateway-onprem.md)?
-* [Introdução às Perguntas e Respostas do Power BI](service-q-and-a.md)
+* [Introdução às Perguntas e Respostas do Power BI](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Ativar as Perguntas e Respostas
 Após o gateway de dados ser configurado, ligue-se aos seus dados a partir do Power BI.  Crie um dashboard ao utilizar os seus dados no local ou carregue um ficheiro .pbix que utilize dados no local.  Também pode já ter dados no local em dashboards, relatórios e conjuntos de dados que tenham sido partilhados consigo.
@@ -55,22 +55,20 @@ Após o gateway de dados ser configurado, ligue-se aos seus dados a partir do Po
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Que dados são colocados em cache é como é que a privacidade é protegida?
-Quando ativar as Perguntas e Respostas para os seus dados no local, um subconjunto dos seus dados será colocado em cache no serviço. Isto serve para garantir que as Perguntas e Respostas funcionam com um desempenho razoável. Excluímos valores com mais de 24 carateres da colocação em cache. A cache é eliminada dentro de poucas horas quando desativa as Perguntas e Respostas ao desmarcar a opção **Ativar as Perguntas e Respostas para este conjunto de dados**, ou quando elimina o seu conjunto de dados.
+Quando ativar as Perguntas e Respostas para os seus dados no local, um subconjunto dos seus dados será colocado em cache no serviço. Isto serve para garantir que as Perguntas e Respostas funcionam com um desempenho razoável. O Power BI exclui valores com mais de 24 carateres da colocação em cache. A cache é eliminada dentro de poucas horas quando desativa as Perguntas e Respostas ao desmarcar a opção **Ativar as Perguntas e Respostas para este conjunto de dados**, ou quando elimina o seu conjunto de dados.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Durante a fase de Pré-visualização desta funcionalidade, existem diversas limitações:
 
-* Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. Algumas funcionalidades estão disponíveis para origens de dados multidimensionais, mas a experiência completa de Perguntas e Respostas ainda não é suportada para multidimensional. Origens de dados adicionais suportadas pelo gateway de dados no local serão implementadas durante a pré-visualização pública.
+* Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. Algumas funcionalidades estão disponíveis para origens de dados multidimensionais, mas a experiência completa de Perguntas e Respostas ainda não é suportada para multidimensional. Origens de dados adicionais suportadas pelo gateway de dados no local serão implementadas ao longo do tempo.
 * O suporte integral para segurança ao nível de linha definido no SQL Server Analysis Services não está inicialmente disponível na pré-visualização pública. Ao colocar perguntas nas Perguntas e Respostas, o "preenchimento automático" de perguntas ao escrever pode mostrar valores de cadeias às quais um utilizador não tem acesso. No entanto, a RLS definida no modelo é respeitada em visuais de gráficos e relatórios, o que impede a exposição dos dados numéricos subjacentes. As opções para controlar este comportamento serão lançadas em atualizações futuras.
 * As ligações em direto só são suportadas com o gateway de dados no local. Como resultado, não é possível utilizar esta funcionalidade com o gateway pessoal.
 
 ## <a name="next-steps"></a>Passos seguintes
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI Quick Insights](service-insights.md)  
-[Otimizar os seus dados para o Power BI Quick Insights](service-insights-optimize.md)  
 [Power BI - Conceitos Básicos](service-basic-concepts.md)  
-[Dashboards no Power BI](service-dashboards.md)  
+[Descrição Geral de Perguntas e Respostas do Power BI](power-bi-q-and-a.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

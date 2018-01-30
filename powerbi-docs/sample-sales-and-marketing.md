@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing para o Power BI: fazer um tour
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Descrição geral do exemplo de Vendas e Marketing
 O **Exemplo de Vendas e Marketing** contém um dashboard e um relatório para uma empresa industrial fictícia chamada VanArsdel Ltd. Este dashboard foi criado pelo Diretor de Marketing (CMO) da VanArsdel para ficar atento ao setor e à participação de mercado da sua empresa, ao volume de produto, às vendas e à sensibilidade.
 
 A VanArsdel tem muitos concorrentes, mas é a líder do mercado no seu setor. O CMO quer aumentar a participação no mercado e descobrir as oportunidades de crescimento. Mas, por algum motivo, a participação no mercado da VanArsdel começou a cair, com uma queda significativa em junho.
 
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser utilizado com dados, relatórios e dashboards voltados para os negócios. Os exemplos são dados reais da obviEnce (www.obvience.com) que foram mantidos anónimos.
 
-[!Note] Também é possível [transferir apenas o conjunto de dados (livro do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529785). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+ Antes de poder utilizar o exemplo, primeiro tem de transferir, como pacote de conteúdos, um ficheiro .pbix ou um livro do Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
+
+1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
+2. No canto inferior esquerdo, selecione **Obter dados**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na página Obter Dados que aparece, selecione **Exemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecione o **Exemplo de Vendas e Marketing** e, em seguida, escolha **Ligar**.  
+  
+   ![Exemplo de Vendas e Marketing](media/sample-sales-and-marketing/sales9.png)
+   
+5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
+   
+   ![Asterisk](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
+
+Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
+
+ * [Exemplo de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
+Também pode [transferir apenas o conjunto de dados (livro do Excel)](http://go.microsoft.com/fwlink/?LinkId=529785) para este exemplo. O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
 Vamos começar o nosso tour no dashboard e examinar os mosaicos que o CMO decidiu afixar. Podemos ver informações sobre a nossa participação no mercado, vendas e sensibilidade. E podemos ver esses dados divididos por região, hora e concorrência.
@@ -48,21 +78,21 @@ Vamos começar o nosso tour no dashboard e examinar os mosaicos que o CMO decidi
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Que segmentos conduzem as nossas vendas? Correspondem à tendência do setor?
 1. Selecione o mosaico "Descrição Geral do total de Unidades por Segmento", que abrirá as Perguntas e Respostas.
 2. Escreva **para VanArsdel** no final da consulta existente. O P e R interpreta a pergunta e apresenta um gráfico atualizado com a resposta. O nosso volume de produto vem da Conveniência e da Moderação.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. A nossa participação nas categorias **Moderação** e **Conveniência** é muito alta; são os segmentos nos quais podemos concorrer.
 4. Navegue de volta ao dashboard ao selecionar o nome do dashboard na barra de navegação superior (navegação de trilho).
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Com o que se aparece a participação de mercado total para a categoria (versus região)?
-1. Observe o mosaico "Total de Unidades YTD por Fabricante, Região". Como será a participação de mercado do total de unidades por categoria? 
-   
+1. Observe o mosaico "Total de Unidades YTD por Fabricante, Região". Como será a participação de mercado do total de unidades por categoria?
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. Na caixa de pergunta na parte superior do dashboard, escreva a pergunta **total de unidades por fabricante e categoria de 2014 como um treemap**. Veja como a visualização é atualizada à medida que escreve a pergunta.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Para comparar as descobertas, afixe o gráfico até no dashboard. Muito interessante; em 2014 a VanArsdel vendeu apenas produtos que se enquadram na categoria **Urbano**.
 4. Navegue de volta para o dashboard.
 
-Os dashboards também são um ponto de entrada nos relatórios.  Se um mosaico for criado a partir de um relatório subjacente, clicar nesse mosaico abre o relatório. 
+Os dashboards também são um ponto de entrada nos relatórios.  Se um mosaico for criado a partir de um relatório subjacente, clicar nesse mosaico abre o relatório.
 
 No nosso dashboard, a linha R12M (12 meses sem interrupção) mostra que a nossa participação no mercado já não está a aumentar ao longo do tempo, está inclusive a diminuir um pouco. E por que temos uma grande queda na participação do mercado em junho? Para investigar melhor, clique nesta visualização para abrir o relatório subjacente.
 
@@ -72,7 +102,7 @@ No nosso dashboard, a linha R12M (12 meses sem interrupção) mostra que a nossa
 
 1. Examine o gráfico de colunas "Total de Unidades por Mês e isVanArsdel" na parte inferior. A coluna preta representa a VanArsdel (os nossos produtos) e a concorrência é apresentada a verde. A queda em junho de 2014 que a VanArsdel teve não ocorre na concorrência.
 2. O gráfico de barras "Volume de Categoria Total por Segmento", no meio à direita, é filtrado para mostrar os 2 principais segmentos de VanArsdel. Veja como este filtro foi criado:  
-   
+
    a.  Expanda o painel Filtros à direita.  
    b.  Clique para selecionar a visualização.  
    c.  Em Filtros de Nível Visual, repare que **Segmento** é filtrado para incluir apenas **Conveniência** e **Moderação**.  
@@ -112,4 +142,3 @@ Este é um ambiente seguro para experimentar. Pode optar por não guardar as alt
 
 ## <a name="next-steps-connect-to-your-data"></a>Próximos passos: ligar-se aos seus dados
 Esperamos que este tour lhe tenha mostrado como os dashboards, o P e R e os relatórios do Power BI podem apresentar informações sobre os dados de vendas e marketing. Agora é a sua vez — ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Saiba mais sobre como [começar a utilizar o Power BI](service-get-started.md).  
-

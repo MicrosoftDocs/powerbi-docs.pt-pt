@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/12/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 955435ee526c6acae8f478539641529515e2e0a8
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 90449f79da8aed3d992b9ac8bf83ac2ac4c0f83c
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obter um visual personalizado *certificado*
 ## <a name="what-is-meant-by-certified"></a>O que se entende por *certificado*?
 Um *visual personalizado certificado* é um que cumpre um conjunto de requisitos de código e passou testes rigorosos de segurança.  Após um visual personalizado ser certificado, este pode ser [exportado para o PowerPoint](service-publish-to-powerpoint.md), e será apresentado nos e-mails recebidos quando um utilizador [subscrever as páginas de relatórios](service-report-subscribe.md). Também pode ser utilizado como um [visual personalizado padrão](power-bi-custom-visuals.md), adicionado aos relatórios do serviço Power BI e do Power BI Desktop, visualizado no Power BI Mobile e incorporado.
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao [Microsoft AppSource](https://appsource.microsoft.com)? Veja [Introdução ás Ferramentas de Programador](service-custom-visuals-getting-started-with-developer-tools.md) para saber como.
+É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao [Microsoft AppSource](https://appsource.microsoft.com)? Consulte [Introdução ás Ferramentas de Programador](service-custom-visuals-getting-started-with-developer-tools.md) para saber como.
 
 
 ## <a name="certification-requirements"></a>Requisitos de certificação
@@ -89,12 +89,12 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Gráfico de dispersão avançada](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | |
 | [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112?src=office&tab=Overview) | |
 | [Gráfico de Bolhas Empilhadas da Enlighten](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868) | |
+| [Otimizar Segmentação de Dados](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960?tab=Overview) | |
 | [Gráfico de Pilhas Aleatórias da Enlighten](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Gráfico de Bolachas da Enlighten](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
 | [Bandeiras do Mundo da Enlighten](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923) | |
-| [Flywheel]() | |
 | [Previsões TBATS](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381326?src=office) | |
-| [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Vídeo](https://youtu.be/qJ7s_KrGiUU) |
+| [Funil com origem]() | || [Gantt](https://store.office.com/gantt-WA104380765.aspx) |[Vídeo](https://youtu.be/qJ7s_KrGiUU) |
 | [Gráfico de hierarquias da Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333?src=office) | |
 | [Histograma](https://store.office.com/histogram-chart-WA104380776.aspx) | |
 | [Funil Horizontal](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) |[Vídeo](https://youtu.be/SudZei68PPo) |
@@ -125,12 +125,11 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Gráfico de tornado](https://store.office.com/tornado-chart-WA104380768.aspx) |[Vídeo](https://youtu.be/AQvd2FhRyCI) |
 | [Gráfico de Desvio Fundamental da Klaus Birringer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140?src=office) | |
 | [Gráfico de Cascata Fundamental gratuito](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | |
-| [Diagrama Venn da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381231) | |
 | [VitaraCharts da MicroChart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381165) | |
 | [Gráfico de bolacha](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049?src=office&tab=Overview) |[Vídeo](https://youtu.be/1vRqYUsm3Vk) |
 | [Nuvem de Palavras](https://store.office.com/word-cloud-WA104380752.aspx?) |[Vídeo](https://www.youtube.com/watch?v=AblTenl9fqo) |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução às ferramentas de programador de visuais personalizados (Pré-visualização)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [Lista de reprodução visual personalizada da Microsoft no YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 [Visualizações no Power BI](power-bi-report-visualizations.md)  

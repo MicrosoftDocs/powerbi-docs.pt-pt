@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 08b01048823d928d5c07fd4ad86764bc13921a31
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2c15cf503a7c66a3b89e45cc338ee5174e5f24e7
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Mapas de manchas (coropletos) no Power BI (Tutorial)
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
@@ -31,6 +31,11 @@ Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como u
 
 ## <a name="what-is-sent-to-bing"></a>O que é enviado ao Bing
 O Power BI está integrado no Bing para fornecer coordenadas de mapa predefinidas (um processo denominado geocodificação). Quando cria uma visualização de mapa no serviço Power BI ou Power BI Desktop, os dados nos registos **Localização**, **Latitude** e **Longitude** (que estão a ser utilizados para criar a visualização) são enviados ao Bing.
+
+O utilizador ou o administrador, pode ter que atualizar a sua firewall para permitir o acesso aos URLs que o Bing utiliza para geocodificação.  Os URLs são:
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
 
 Para obter mais informações sobre os dados enviados ao Bing e obter sugestões para aumentar o êxito da geocodificação, veja [Sugestões e truques para visualizações de mapas](power-bi-map-tips-and-tricks.md).
 
@@ -108,5 +113,5 @@ Para obter mais ajuda com visualizações de mapas, veja [Sugestões e truques p
  [Adicionar uma visualização a um relatório](power-bi-report-add-visualizations-i.md)  
  [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Alterar o tipo de visualização que está a ser utilizado](power-bi-report-change-visualization-type.md)      
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

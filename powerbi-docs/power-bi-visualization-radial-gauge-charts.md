@@ -1,5 +1,5 @@
 ---
-title: "Gráficos de medidores radiais no Power BI (Tutorial)"
+title: "Tutorial - gráficos de medidores radiais no Power BI"
 description: "Tutorial: Gráficos de medidores radiais no Power BI"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Gráficos de medidores radiais no Power BI (Tutorial)
 Um gráfico de medidor radial tem um arco circular e apresenta um único valor que acompanha o progresso em relação a um objetivo/KPI.  O objetivo, ou o valor de destino, é representado pela linha (agulha). O progresso em relação a esse objetivo é representado pelo sombreado.  E o valor que representa o progresso é mostrado em negrito dentro do arco. Todos os valores possíveis são distribuídos de forma uniforme ao longo do arco, do mínimo (valor mais à esquerda) para o máximo (valor mais à direita).
@@ -39,17 +39,25 @@ Os medidores radiais são uma ótima opção para:
 * Mostrar a integridade de uma única medida.
 * Mostrar informações que podem ser analisadas e compreendidas rapidamente.
 
+### <a name="prerequisites"></a>Pré-requisitos
+ - Serviço Power BI ou Power BI Desktop
+ - Pasta de trabalho do Excel de exemplo financeiro: [faça download do exemplo diretamente](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Criar um medidor radial básico
-Nestas instruções, utilizamos o Exemplo Financeiro. Para acompanhar, [transfira o exemplo](http://go.microsoft.com/fwlink/?LinkID=521962) para o computador, entre no Power BI e selecione **Obter Dados \> Ficheiros \> Ficheiro Local > Abrir**. 
+Estas instruções utilizam o serviço Power BI. Para acompanhar, inicie sessão no Power BI e abra o ficheiro de Exemplo Financeiro do Excel.  
 
 Ou deixe que o Will lhe mostre como criar elementos visuais de métrica única: medidores, cartões e KPIs.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Passo 1: abra o ficheiro do Excel do Exemplo Financeiro.
-1. [Transfira o ficheiro do Excel de Exemplo Financeiro](sample-financial-download.md).
-2. Abra o ficheiro no Power BI selecionando **Obter dados \> Ficheiros** e navegando até ao local em que guardou o ficheiro. Selecione **Importar**. O exemplo financeiro é adicionado ao espaço de trabalho como conjunto de dados.
-3. Selecione **Exemplo Financeiro** para abri-lo no modo Explorar.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>Passo 1: abra o ficheiro do Excel do Exemplo Financeiro
+1. [Transfira o ficheiro do Excel de Exemplo Financeiro](sample-financial-download.md), se ainda não o tiver feito. Lembre-se de onde o guardou.
+
+2. Abra o ficheiro no ***serviço Power BI***, ao selecionar **Obter dados\> Ficheiros** e navegue até ao local onde guardou o ficheiro. Selecione **Importar**. O exemplo financeiro é adicionado ao espaço de trabalho como conjunto de dados.
+
+3. Na lista de conteúdos **Conjunto de dados**, selecione **Exemplo Financeiro** para abri-lo no modo Explorar.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Passo 2: criar um medidor para acompanhar as Vendas Brutas
 1. No painel **Campos**, selecione **Vendas Brutas**.
@@ -117,5 +125,5 @@ No Passo 2, o Power BI utilizou o campo Valor para definir automaticamente o mí
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
