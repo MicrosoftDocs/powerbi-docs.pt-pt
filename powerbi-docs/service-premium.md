@@ -3,7 +3,7 @@ title: "Power BI Premium – o que é?"
 description: "O Power BI Premium é capacidade dedicada para a sua organização ou equipa, oferecendo desempenho mais fiável e maiores volumes de dados sem exigir a compra de licenças por utilizador."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.author: maghan
+ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
 O Power BI Premium fornece recursos dedicados à execução do serviço Power BI para a sua organização ou equipa, dando-lhe um desempenho mais fiável e volumes de dados maiores. O Premium também permite uma distribuição alargada de conteúdos sem que precise de comprar licenças por utilizador para visualizadores.
@@ -72,7 +72,7 @@ O Power BI Premium está disponível em configurações de nós com diferentes c
 * EM1 e EM2 
 * As ligações nesta tabela só funcionam corretamente para utilizadores que são administradores globais do Office 365. Os outros utilizadores obtêm um erro 404. 
 
-| Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-End | Núcleos de Front-End | Limites de ligação em direto/DirectQuery | Composição de páginas máxima em hora de ponta | Disponibilidade |
+| Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição de páginas máxima em hora de ponta | Disponibilidade |
 | --- | --- | --- | --- | --- | --- | --- |
 | [EM1 (mês a mês)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 núcleo virtual |.5 núcleos, 2,5 GB de RAM |.5 núcleos |3,75 por segundo |150-300 |Disponível |
 | [EM2 (mês a mês)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo |7,5 por segundo |301-600 |Disponível |
@@ -87,7 +87,7 @@ O Power BI Premium está disponível em configurações de nós com diferentes c
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 O Power BI Premium inclui o direito a executar o Power BI Report Server no local. Para mais informações, consulte [Introdução ao Power BI Report Server](report-server/get-started.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Perguntas Frequentes do Power BI Premium](service-premium-faq.md)  
 [Notas de versão do Power BI Premium](service-premium-release-notes.md)  
 [Como comprar o Power BI Premium](service-admin-premium-purchase.md)  

@@ -3,7 +3,7 @@ title: "Utilizar a auditoria na sua organização"
 description: "Saiba como pode utilizar o auditoria com o Power BI para monitorizar e investigar as ações executadas. Pode utilizar o Centro de segurança e conformidade ou utilizar o PowerShell."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
-ms.author: asaxton
-ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.author: maghan
+ms.openlocfilehash: 4aca31605b0627929951c34dfb74aa736c89a04f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -231,7 +231,7 @@ Para obter uma listagem completa, consulte [Propriedades detalhadas no registo d
 | UpdatedAdminFeatureSwitch |Este evento é registado sempre que um comutador da funcionalidade de administração é alterado. |- Nome do comutador.<br/>- Novo estado do comutador. |
 | OptInForProTrial |Este evento é registado quando um utilizador optar por experimentar o Power BI Pro no serviço. |- Endereço de e-mail |
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 [Portal de Administração do Power BI](service-admin-portal.md)  
 [Power BI Premium – o que é?](service-premium.md)  

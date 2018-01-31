@@ -3,7 +3,7 @@ title: Atualizar o Power BI Report Server
 description: Saiba como atualizar o Power BI Report Server.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: cf8924cb555b3da3f6d72340c76394ce33025169
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Atualizar o Power BI Report Server
 Saiba como atualizar o Power BI Report Server.

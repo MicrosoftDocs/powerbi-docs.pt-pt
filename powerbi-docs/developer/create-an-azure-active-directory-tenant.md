@@ -3,7 +3,7 @@ title: Criar um inquilino do Azure Active Directory para utilizar com o Power BI
 description: "Saiba como criar um novo inquilino do Azure Active Directory (Azure AD) para utilizar com a sua aplicação personalizada utilizando as APIs REST do Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/2017
 ms.author: mihart
-ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 0e5df07ab3690b88c2fcf6673db44f8f79b1817d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Criar um inquilino do Azure Active Directory para utilizar com o Power BI
 Saiba como criar um novo inquilino do Azure Active Directory (Azure AD) para utilizar com a sua aplicação personalizada utilizando as APIs REST do Power BI.
@@ -96,5 +96,5 @@ Agora que tem um inquilino do Azure AD, pode utilizá-lo para testar itens no Po
 [O que é um diretório do Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)  
 [Como obter um inquilino do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

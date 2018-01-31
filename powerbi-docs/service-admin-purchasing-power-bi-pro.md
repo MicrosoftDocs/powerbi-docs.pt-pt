@@ -3,7 +3,7 @@ title: Comprar o Power BI Pro
 description: "O Power BI Pro serve para os utilizadores publicarem relatórios, partilharem dashboards, colaborarem com colegas em áreas de trabalho e participarem noutras atividades relacionadas."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
-ms.author: asaxton
-ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.author: maghan
+ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Comprar o Power BI Pro
 O Power BI Pro serve para os utilizadores publicarem relatórios, partilharem dashboards, colaborarem com colegas em áreas de trabalho e participarem noutras atividades relacionadas – como a capacidade de:
@@ -124,7 +124,7 @@ Após a licença do Power BI Pro expirar, existe um período de tolerância de 
 
 O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Office 365. Para obter mais informações, veja [O que acontece aos meus dados e acesso quando a minha subscrição do Office 365 para empresas termina?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Inscrição self-service no Power BI](service-self-service-signup-for-power-bi.md)  
 [Power BI (gratuito) na sua organização](service-admin-service-free-in-your-organization.md)  
 [Ativação da Avaliação Pro Expandida](service-extended-pro-trial.md)  

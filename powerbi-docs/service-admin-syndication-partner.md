@@ -3,7 +3,7 @@ title: "Não é possível adicionar o Power BI ao parceiro do O365"
 description: "Não é possível adicionar o Power BI a um parceiro de distribuição do Office 365. O modelo de distribuição é um modelo de compra utilizado pelo Office 365."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: e5b2540461464e64acac4bc3b2be2e6ac5ee3f1d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 69d069ebb1620aebb90fa1a9325ab4b73726d909
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Não é possível adicionar o Power BI a uma subscrição de parceiro do Office 365
 O Office 365 permite que as empresas o revendam acompanhado e integrado com as suas próprias soluções, fornecendo aos clientes finais um único ponto de contacto para compra, faturação e suporte.
@@ -50,7 +50,7 @@ Se estiver satisfeito com a oferta gratuita do Power BI, pode inscrever-se para 
 
 Para ativar as subscrições ad-hoc, contacte o seu parceiro e peça-lhe que as ative. Se for um Administrador do seu inquilino e souber utilizar comandos do PowerShell no Azure Active Directory, pode ativar as subscrições ad-hoc. [Saiba mais](https://technet.microsoft.com/library/jj151815.aspx)
 
-1. Primeiro, tem de iniciar sessão no Azure Active Directory com a sua credencial do Office 365. Na primeira linha, serão solicitadas as suas credenciais. Na segunda linha, é ligado ao Azure Active Directory.
+1. Primeiro, tem de iniciar sessão no Azure Active Directory com a sua credencial do Office 365. Na primeira linha serão solicitadas as suas credenciais. Na segunda linha, é ligado ao Azure Active Directory.
    
         $msolcred = get-credential
         connect-msolservice -credential $msolcred

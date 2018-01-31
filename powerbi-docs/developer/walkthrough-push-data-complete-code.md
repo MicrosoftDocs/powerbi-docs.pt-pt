@@ -3,7 +3,7 @@ title: "Listagem de código completo"
 description: "Instruções para enviar dados por push - Listagem de código completo"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 128b30dcb932dd629d1219fc92da7283918ea467
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: ce495ac4089f471686b34a2d6963ba85a7cdd53d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Enviar dados por push para a listagem de código completo de um conjunto de dados
 Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -237,7 +237,7 @@ Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dado
 [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
 [Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-[API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

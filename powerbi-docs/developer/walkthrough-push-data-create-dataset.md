@@ -3,7 +3,7 @@ title: Criar um conjunto de dados
 description: "Instruções – Enviar dados para um conjunto de dados – Criar um conjunto de dados no Power BI"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: criar um conjunto de dados no Power BI
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -230,14 +230,14 @@ Segue-se a [lista completa de códigos](#code).
     }
 
 
-[Passo seguinte >](walkthrough-push-data-get-datasets.md)
+[Próximo Passo >](walkthrough-push-data-get-datasets.md)
 
 ## <a name="next-steps"></a>Passos seguintes
 [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md)  
 [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
 [Criar conjunto de dados](https://msdn.microsoft.com/library/mt203562.aspx)  
 [Enviar dados para um Dashboard do Power BI](walkthrough-push-data.md)  
-[Descrição geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+[Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

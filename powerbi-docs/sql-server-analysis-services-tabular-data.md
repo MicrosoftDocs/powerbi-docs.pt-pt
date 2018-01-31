@@ -3,7 +3,7 @@ title: Dados reais do SQL Server Analysis Services no Power BI
 description: "Dados dinâmicos do SQL Server Analysis Services no Power BI. Isto é feito através de uma origem de dados configurada para um gateway empresarial."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 6925dc9bcf3e500af18cf63c62f6cb33c297392b
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.author: maghan
+ms.openlocfilehash: a2a0b2ae9f663f5bd2ba1c599f4f55232c0d1973
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dados reais do SQL Server Analysis Services no Power BI
 No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis Services. Em **Obter dados**, pode lugar a um servidor do SQL Server Analysis Services ou a um [ficheiro do Power BI Desktop](service-desktop-files.md) ou [livro do Excel](service-excel-workbook-files.md), já ligado a um servidor do Analysis Services.
@@ -55,5 +55,5 @@ Se afixar elementos visuais de um relatório no dashboard, os mosaicos afixados 
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gerir origens de dados do Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

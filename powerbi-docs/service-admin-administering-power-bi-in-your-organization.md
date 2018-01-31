@@ -3,7 +3,7 @@ title: "Administrar o Power BI na sua organização"
 description: "Administrar o Power BI na sua organização"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 180e80ee327342b26849aa63a3910337737ac9ad
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.author: maghan
+ms.openlocfilehash: 0fd6226ca14a4b48c94e13eaae8b085381a5f9a6
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrar o Power BI na sua organização
 O Microsoft Power BI permite aos utilizadores visualizar dados, partilhar descobertas e colaborar de novas formas intuitivas. Para saber mais, veja [Introdução ao Power BI](service-get-started.md).
@@ -51,10 +51,10 @@ Para obter mais informações sobre a função de administrador do serviço Powe
 
 **Administração do Power BI**
 
-* [De que forma isto irá alterar a forma como faço a gestão de identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
+* [Como isto mudará a minha forma de gerir as identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Como gerir o Power BI?](#how-do-we-manage-power-bi)
 * [Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
-* [Se tiver vários domínios, posso controlar os utilizadores que são adicionados ao inquilino do Office 365?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
+* [Se eu tiver vários domínios, posso controlar o inquilino do Office 365 ao qual os utilizadores são adicionados?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [Como posso remover o Power BI para os utilizadores já inscritos?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Como posso saber quando são associados novos utilizadores ao inquilino?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Devo estar preparado para outras questões?](#are-there-any-additional-things-i-should-be-prepared-for)
@@ -117,7 +117,7 @@ Depois de selecionar a ligação, selecione **Executar** para executar o pacote 
 > 
 > 
 
-### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Como posso permitir que os utilizadores se associem ao inquilino existente do Office 365?
+### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Como posso permitir que os utilizadores sejam adicionados ao meu inquilino existente do Office 365?
 Para permitir que os utilizadores se associem ao inquilino, execute o comando oposto, conforme descrito na pergunta acima.
 
 Para efetuar os passos seguintes, tem de instalar a versão de 64 bits mais recente do [Módulo Azure Active Directory para Windows PowerShell](http://go.microsoft.com/fwlink/p/?LinkID=236297).

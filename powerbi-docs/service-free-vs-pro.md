@@ -3,7 +3,7 @@ title: Power BI Gratuito x Pro
 description: "Cada utilizador no Power BI é Gratuito ou Pro. É útil compreender as diferenças entre estes dois tipos de utilizadores..."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/02/2017
-ms.author: asaxton
-ms.openlocfilehash: 62e394f23da6e485a443d79ac7ab40ab4aed9df9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Gratuito x Pro
 Cada utilizador no Power BI é Gratuito ou Pro. É útil compreender as diferenças entre estes dois tipos de utilizadores.
@@ -52,5 +52,5 @@ Se estiver interessado em obter mais informações sobre o Power BI Premium, vej
 
 Para começar a utilizar o Power BI através de inscrição, veja [Inscrever-se no Power BI como um indivíduo](service-self-service-signup-for-power-bi.md).
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

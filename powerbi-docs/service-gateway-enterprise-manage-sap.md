@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: d9702f49b7d1c7589bea06ddb44384e97d6055fc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Faça a gestão da sua origem de dados SAP HANA
 Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode uilizar a origem de dados do SAP HANA para a atualização agendada ou para o DirectQuery.
@@ -40,7 +40,7 @@ Para adicionar um gateway, basta [transferir](https://go.microsoft.com/fwlink/?L
 > 
 
 ## <a name="remove-a-gateway"></a>Remover um gateway
-A remoção de um gateway também eliminará as origens de dados contidas no mesmo.  Isto também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
+A remoção de um gateway também elimina as origens de dados contidas no mesmo.  Isto também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
 
 1. Selecione o ícone de engrenagem ![](media/service-gateway-enterprise-manage-sap/pbi_gearicon.png) no canto superior direito > **Gerir gateways**.
 2. Gateway > **Remover**
@@ -59,7 +59,7 @@ Pode então selecionar o **Tipo de Origem de Dados** na lista.
 Em seguida, é necessário preencher as informações sobre a origem de dados, que incluem o **Servidor**, **Nome de utilizador** e **Palavra-passe**.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas através destas credenciais. Para obter mais informações, veja o artigo do gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
+> Todas as consultas à origem de dados serão executadas através destas credenciais. Para obter mais informações, veja o artigo sobre o gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
 > 
 > 
 
@@ -70,7 +70,7 @@ Pode clicar em **Adicionar** depois de preencher tudo.  Pode agora utilizar esta
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Definições avançadas
-Pode configurar o nível de privacidade da sua origem de dados. Isto permite controlar a forma como os dados podem ser combinados. É utilizado apenas na atualização agendada. Não se aplica ao DirectQuery. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Pode configurar o nível de privacidade para a sua origem de dados. Controla a forma como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não se aplica ao DirectQuery. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings9.png)
 
@@ -87,10 +87,10 @@ No separador Administradores no gateway, pode adicionar e remover os utilizadore
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Gerir utilizadores
-No separador Utilizadores, da origem de dados, pode adicionar e remover utilizadores ou grupos de segurança que podem utilizar esta origem de dados.
+No separador Utilizadores, da origem de dados, pode adicionar e remover os utilizadores ou grupos de segurança que podem utilizar esta origem de dados.
 
 > [!NOTE]
-> A lista de utilizadores controla apenas quem tem permissão para publicar relatórios. Os proprietários de relatórios podem criar dashboards ou pacotes de conteúdos e partilhá-los com outros utilizadores.
+> A lista de utilizadores controla apenas quem tem permissão para publicar relatórios. Os proprietários de relatório podem criar dashboards ou pacotes de conteúdos e partilhá-los com outros utilizadores.
 > 
 > 
 
@@ -122,5 +122,5 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

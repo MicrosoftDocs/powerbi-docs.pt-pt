@@ -3,7 +3,7 @@ title: "Esquemas personalizados com conteúdo incorporado do Power BI"
 description: "Saiba mais sobre esquemas personalizados ao incorporar conteúdo do Power BI na sua aplicação."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
-ms.author: asaxton
-ms.openlocfilehash: d4e9911dee525a5bf7b6ac8d024c41de24d2c9ba
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.author: maghan
+ms.openlocfilehash: 351cfa27cc092af4bc5650a09730bc8a2661abbc
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="custom-layouts"></a>Esquemas personalizados
 

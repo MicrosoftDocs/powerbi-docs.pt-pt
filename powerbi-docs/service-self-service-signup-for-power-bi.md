@@ -3,7 +3,7 @@ title: "Inscrever-se no Power BI como um indivíduo"
 description: "Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
-ms.author: asaxton
-ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.author: maghan
+ms.openlocfilehash: 728d19b468ed4a58d598ad417a2767186cfdcb96
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como um indivíduo
 Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização.
@@ -82,7 +82,7 @@ Para se inscrever no Power BI, pode fazer o seguinte.
 4. Insira o endereço de e-mail com o qual se está a inscrever e selecione **Inscrever-se**. Certifique-se de que o seu endereço de e-mail é permitido na inscrição. Para obter mais informações sobre o endereço de e-mail que pode utilizar, consulte [Que endereço de e-mail pode ser utilizado com o Power BI](#what-email-address-can-be-used-with-power-bi).
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
-5. Receberá uma mensagem a indicar que confirme o e-mail.
+5. Receberá uma mensagem a indicar que consulte o e-mail.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Selecione a ligação no e-mail para confirmar o seu endereço de e-mail. Isto leva-o de novo para o processo de inscrição. Poderá ter de fornecer algumas informações adicionais sobre si.
@@ -117,17 +117,17 @@ Em seguida, é possível selecionar **Iniciar avaliação**.
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial2.png)
 
 >[!NOTE]
->Os utilizadores que aproveitam esta avaliação do Power BI Pro dentro do produto não aparecem no portal de administração do Office 365 como utilizadores da Avaliação do Power BI Pro (aparecem como utilizadores da versão gratuita do Power BI). No entanto, aparecerão como utilizadores da versão de Avaliação do Power BI Pro na página **gerir armazenamento** do Power BI.
+>Os utilizadores que tiram partido desta versão de avaliação do Power BI Pro no produto não aparecem no portal de administração do Office 365 como utilizadores da versão deAvaliação do Power BI Pro (aparecem como utilizadores da versão gratuita do Power BI). No entanto, aparecerão como utilizadores da versão de Avaliação do Power BI Pro na página **gerir armazenamento** do Power BI.
 
 >[!NOTE]
->Se for um Administrador de TI que deseja adquirir e implementar licenças de avaliação do Power BI para vários utilizadores na sua organização sem que os utilizadores individuais aceitem os termos da avaliação individualmente, é possível inscrever-se numa [avaliação de subscrição do Power BI Pro](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO). Terá de ser um Administrador Global ou de Faturação do Office 365 ou criar um novo inquilino para se inscrever numa avaliação de administrador. Para obter mais informações, consulte [Comprar o Power BI Pro](service-admin-purchasing-power-bi-pro.md).
+>Se for um Administrador de TI que deseja adquirir e implementar licenças de avaliação do Power BI para vários utilizadores na sua organização sem que os utilizadores individuais aceitem os termos da avaliação individualmente, é possível inscrever-se numa [avaliação de subscrição do Power BI Pro](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO). Terá de ser um Administrador Global ou de Faturação do Office 365 ou criar um novo inquilino para se inscrever numa avaliação de administrador. Para obter mais informações, veja [Purchasing Power BI Pro (Comprar o Power BI Pro)](service-admin-purchasing-power-bi-pro.md).
 > 
 > [!NOTE]
-> Com a disponibilidade do Power BI Premium e as alterações à oferta do Power BI Gratuito a 1 de junho de 2017, pode ser elegível para uma Avaliação Pro Expandida. Para obter mais informações, consulte [Ativação da Avaliação Pro Expandida](service-extended-pro-trial.md).
+> Com a disponibilidade do Power BI Premium e as alterações à oferta do Power BI Gratuito a 1 de junho de 2017, pode ser elegível para uma Avaliação Pro Expandida. Para obter mais informações, veja [Extended Pro Trial activation (Ativação da Avaliação Pro Expandida)](service-extended-pro-trial.md).
 > 
 > 
 
-### <a name="what-this-looks-like-within-the-service"></a>Aspeto dentro do serviço
+### <a name="what-this-looks-like-within-the-service"></a>Aparência dentro do serviço
 Quando estiver ligado ao serviço, poderá verificar se tem uma conta de avaliação do Pro indo até o ícone de **engrenagem* e selecionando **Gerir armazenamento pessoal**.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)

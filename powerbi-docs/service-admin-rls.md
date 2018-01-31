@@ -3,7 +3,7 @@ title: "Segurança ao nível da linha (RLS) com o Power BI"
 description: "Como configurar a segurança ao nível da linha para conjuntos de dados importados, e DirectQuery, no serviço Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,19 +16,19 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/02/2018
-ms.author: asaxton
-ms.openlocfilehash: 10695e3a94d2dbc2e9ba2e7de85ef8c9298828e0
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: f97e26494b0476e046007705d806ab5659761420
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Segurança ao nível da linha (RLS) com o Power BI
 <iframe width="560" height="315" src="https://www.youtube.com/embed/67fK0GoVQ80?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 A segurança ao nível da linha (RLS) com o Power BI pode ser utilizada para restringir o acesso a dados para determinados utilizadores. Os filtros restringem os dados ao nível da linha. Pode definir filtros em funções.
 
-Pode configurar a RLS para modelos de dados importados para o Power BI com o Power BI Desktop. Também pode configurar a RLS em conjuntos de dados que utilizem o DirectQuery, como o SQL Server. Anteriormente, só era possível implementar a RLS em modelos dos Analysis Services no local fora do Power BI. Para as ligações em direto dos Analysis Services, configura a segurança ao nível da linha no modelo no local. A opção de segurança não será apresentada para conjuntos de dados de ligação em direto.
+Pode configurar a RLS para modelos de dados importados para o Power BI com o Power BI Desktop. Também pode configurar a RLS em conjuntos de dados que utilizem o DirectQuery, como o SQL Server. Anteriormente, só era possível implementar a RLS em modelos dos Analysis Services no local fora do Power BI. Para as ligações em direto dos Analysis Services, configure a segurança ao nível da linha no modelo no local. A opção de segurança não vai ser apresentada para conjuntos de dados de ligação em direto.
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 

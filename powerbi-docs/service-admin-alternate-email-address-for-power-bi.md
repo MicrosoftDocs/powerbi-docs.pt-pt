@@ -3,7 +3,7 @@ title: "Utilizar um Endereço de E-mail alternativo"
 description: "Utilizar um Endereço de E-mail alternativo"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4d58c0dfb07153b9061aa572416be2d8bc7858bd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: dd9e146b22c95d8c915ea653ee287bb7a51e6b06
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Utilizar um Endereço de E-mail alternativo
 Por predefinição, o endereço de e-mail utilizado na inscrição no Power BI é usado para enviar atualizações sobre a atividade no Power BI.  Por exemplo, um convite de partilha é enviado para este endereço.
@@ -54,5 +54,5 @@ Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.co
 
 Para obter mais informações, consulte [Azure Active Directory PowerShell Versão 2](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

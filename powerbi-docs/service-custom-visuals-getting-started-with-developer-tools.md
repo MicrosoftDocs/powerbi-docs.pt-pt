@@ -3,7 +3,7 @@ title: Utilizar ferramentas de programador para criar visuais personalizados
 description: "Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/2017
-ms.author: asaxton
-ms.openlocfilehash: bdba3cb9a7dc64dbf71a48a7ae2223e74c302b70
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.author: maghan
+ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Utilizar ferramentas de programador para criar visuais personalizados
 Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
@@ -378,7 +378,7 @@ Execute o servidor visual com o comando `pbiviz start` no seu terminal/linha de 
 
 Para obter mais informações, consulte [Executar o seu elemento visual](#running-your-visual) ou [Configurar o certificado do servidor](#ssl-setup).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Visualizações no Power BI](power-bi-report-visualizations.md)  
 [Visualizações personalizadas no Power BI](power-bi-custom-visuals.md)  
 [Publicar elementos visuais personalizados na Loja do Office](developer/office-store.md)  

@@ -3,7 +3,7 @@ title: Como comprar o Power BI Premium
 description: "Saiba como pode gerir o Power BI Premium e permitir a toda a sua organização o acesso a conteúdos."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: asaxton
-ms.openlocfilehash: 6dd0191a480274e7a9b03b182113edd4c734c2ef
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.author: maghan
+ms.openlocfilehash: c24d1d973870fc0d50dc95cc1a8822487cd51091
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 Saiba como comprar capacidade do Power BI Premium para a sua organização.
@@ -112,7 +112,7 @@ Pode cancelar a sua subscrição no centro de administração do Office 365. Par
 5. A página **Cancelar subscrição** irá indicar se é responsável por uma [taxa de cessação antecipada](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3). Esta página também indica quando os dados da subscrição serão eliminados.
 6. Leia as informações e, se pretender avançar, selecione **Cancelar subscrição**.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)  
 [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/)  
 [Power BI Premium – o que é?](service-premium.md)  

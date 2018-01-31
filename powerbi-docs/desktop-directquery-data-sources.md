@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 9817011491f65f84201c4d26ee04aa5cd8704ab1
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 6e93a6d216603ee247979c586481115ba3f67d77
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados às quais pode ligar e obter acesso aos dados. Este artigo descreve as origens de dados do Power BI que suportam o método de ligação conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, veja [**DirectQuery no Power BI**](desktop-directquery-about.md).

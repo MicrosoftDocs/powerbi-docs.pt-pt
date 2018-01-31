@@ -3,7 +3,7 @@ title: "Autenticar utilizadores e obter um token de acesso do Azure AD para a su
 description: "Saiba como registar uma aplicação no Azure Active Directory para utilizar ao incorporar conteúdo do Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/11/2017
-ms.author: asaxton
-ms.openlocfilehash: ad6f48f5abca9be6f25cfcaab783fdd0829cab46
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 3ff0fa3c83654ac577e98e730dc68ce3686e1198
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI
 Saiba como pode autenticar utilizadores na sua aplicação do Power BI e obter um token de acesso para utilizar com a API REST.
@@ -199,5 +199,5 @@ Para obter informações sobre como utilizar **await**, consulte [await (Referê
 ## <a name="next-steps"></a>Próximos passos
 Agora que tem o token de acesso, pode chamar a API REST do Power BI para incorporar conteúdos. Para obter informações sobre como incorporar os seus conteúdos, consulte [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embedding-content.md#step-2-embed-your-content).
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

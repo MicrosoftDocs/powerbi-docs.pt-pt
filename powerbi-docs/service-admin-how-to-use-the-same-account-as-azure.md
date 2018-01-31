@@ -3,7 +3,7 @@ title: Using the same account for Power BI and Azure (Utilizar a mesma conta par
 description: "Como usar o mesmo início de sessão na conta para o Power BI e o Azure"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: a601e4252e8c2b3bc130b61139ffb528742ea7ea
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: b2659747a875ee6bb14c0ec52f7d4fa71d233ed9
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Using the same account for Power BI and Azure (Utilizar a mesma conta para o Power BI e o Azure)
 Se for um utilizador do Power BI e do Azure, convém utilizar a mesma conta para ambos os serviços para que não precise de escrever a palavra-passe duas vezes.
@@ -41,5 +41,5 @@ Pode adicionar a sua conta organizacional como um coadministrador no Azure.  Eis
 
 Da próxima vez que quiser iniciar a sessão no Portal de Gestão do Azure, utilize o seu endereço de e-mail organizacional.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

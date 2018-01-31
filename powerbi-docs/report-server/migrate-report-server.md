@@ -3,7 +3,7 @@ title: "Migrar uma instalação do servidor de relatórios"
 description: "Saiba como migrar a sua instância existente do SQL Server Reporting Services para uma instância do Power BI Report Server."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 03c5527b7cabb9352bdffa1f232bd24d34a5564b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrar uma instalação do servidor de relatórios
 Saiba como migrar a sua instância existente do SQL Server Reporting Services (SSRS) para uma instância do Power BI Report Server.
