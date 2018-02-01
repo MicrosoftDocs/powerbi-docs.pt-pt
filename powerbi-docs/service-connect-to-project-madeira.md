@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 449f6a9363a40895a2b53c7a778ee02129facb7f
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -63,7 +63,8 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
 
 ## <a name="system-requirements"></a>Requisitos de sistema
 Para importar dados do Projeto "Madeira" para o Power BI, precisa de ter permissões para as tabelas de dados de vendas e finanças, das quais os dados são obtidos. Todas as tabelas (sensíveis às maiúsculas e minúsculas) necessárias para o pacote de conteúdos incluem:  
-
+ 
+    ´´´ 
     - ItemSalesAndProfit  
     - ItemSalesByCustomer  
     - powerbifinance  
@@ -71,10 +72,11 @@ Para importar dados do Projeto "Madeira" para o Power BI, precisa de ter permiss
     - SalesOpportunities  
     - SalesOrdersBySalesPerson  
     - TopCustomerOverview  
+    ´´´ 
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Procurar Parâmetros
+## <a name="finding-parameters"></a>A localizar Parâmetros
 **Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incuir a parte "/powerbifinance…" na cadeia do URL.
 
 **Chaves de Acesso ao Serviço Web** Para utilizar os dados do Projeto "Madeira", terá de criar uma chave de acesso ao serviço Web para a sua conta de utilizador. No Projeto "Madeira", procure a página Utilizadores e, em seguida, abra o cartão da sua conta de utilizador. Aqui, pode gerar uma nova chave de acesso aos serviços Web e copiá-la para o campo Palavra-passe na página de ligação do Power BI.

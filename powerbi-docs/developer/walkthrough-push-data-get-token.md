@@ -3,7 +3,7 @@ title: "Obter um token de acesso de autenticação"
 description: "Passo a passo para enviar dados por push - Obter um token de acesso de autenticação"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 068baa78315bfc7e4f7078ed47596a480dbe3765
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.author: maghan
+ms.openlocfilehash: b2bec0ed32133c6882365ec257840cc3bf0b6119
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passo 2: Obter um token de acesso de autenticação
 Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -119,7 +119,7 @@ Segue-se a [listagem de código completo](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Lista de códigos completa
+## <a name="complete-code-listing"></a>Lista completa de códigos
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -189,5 +189,5 @@ Segue-se a [listagem de código completo](#code).
 [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

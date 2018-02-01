@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: fee1179f5a42c70721324e21f1ce87e4ae9ad132
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados – Oracle
 Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados Oracle para a atualização agendada ou para o DirectQuery.
@@ -72,7 +72,7 @@ CONTOSO =
 ```
 
 ## <a name="add-a-gateway"></a>Adicionar um gateway
-Para adicionar um gateway, basta [transferir](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway num servidor do seu ambiente. Depois de instalar o gateway, será mostrado na lista de gateways em **Gerir gateways**.
+Para adicionar um gateway, basta [Transferir](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway num servidor do seu ambiente. Depois de instalar o gateway, será apresentado na lista de gateways em **Gerir gateways**.
 
 > [!NOTE]
 > **Gerir gateways** não será apresentado até ser o administrador de, pelo menos, um gateway. Isto pode acontecer ao ser adicionado como um administrador ou ao instalar e configurar um gateway.
@@ -80,7 +80,7 @@ Para adicionar um gateway, basta [transferir](https://go.microsoft.com/fwlink/?L
 > 
 
 ## <a name="remove-a-gateway"></a>Remover um gateway
-A remoção de um gateway também eliminará as origens de dados contidas no mesmo.  Isso também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
+A remoção de um gateway também elimina as origens de dados contidas no mesmo.  Isto também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
 
 1. Selecione o ícone de engrenagem ![](media/service-gateway-onprem-manage-oracle/pbi_gearicon.png) no canto superior direito > **Gerir gateways**.
 2. Gateway > **Remover**
@@ -88,7 +88,7 @@ A remoção de um gateway também eliminará as origens de dados contidas no mes
    ![](media/service-gateway-onprem-manage-oracle/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Adicionar uma origem de dados
-Pode adicionar uma origem de dados, ao selecionar um gateway e clicar em **Adicionar origem de dados** ou ir para Gateway > **Adicionar origem de dados**.
+Pode adicionar uma origem de dados ao selecionar um gateway e clicar em **Adicionar origem de dados** ou ir para Gateway > **Adicionar origem de dados**.
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings1.png)
 
@@ -98,10 +98,10 @@ Pode selecionar o **Tipo de Origem de Dados** na lista.
 
 Em seguida, é necessário preencher as informações sobre a origem de dados, que incluem o **Servidor** e a **Base de Dados**.  
 
-Também é necessário escolher um **Método de Autenticação**.  Pode ser **Windows** ou **Básico**.  É recomendado selecionar **Básico** se quiser utilizar uma conta criada no Oracle em vez da Autenticação do Windows. Em seguida, insira as credenciais que serão utilizadas para esta origem de dados.
+Também é necessário selecionar um **Método de Autenticação**.  Pode ser **Windows** ou **Básico**.  É recomendado selecionar **Básico** se quiser utilizar uma conta criada no Oracle em vez da Autenticação do Windows. Em seguida, insira as credenciais que serão utilizadas para esta origem de dados.
 
 > [!NOTE]
-> Todas as consultas da origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo de gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
+> Todas as consultas da origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo sobre o gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
 > 
 > 
 
@@ -112,7 +112,7 @@ Pode clicar em **Adicionar** depois de estar tudo preenchido.  Agora, pode utili
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Definições avançadas
-Pode configurar o nível de privacidade da origem de dados. Isto controla como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não se aplica ao DirectQuery. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Pode configurar o nível de privacidade para a sua origem de dados. Controla a forma como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não se aplica ao DirectQuery. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings9.png)
 
@@ -124,7 +124,7 @@ Para remover uma Origem de Dados, vá para Origem de Dados > **Remover**.
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Gerir administradores
-No separador Administradores do gateway, pode adicionar e remover os utilizadores (ou grupos de segurança) que podem administrar o gateway.
+No separador Administradores no gateway, pode adicionar e remover os utilizadores (ou grupos de segurança) que podem administrar o gateway.
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings8.png)
 
@@ -132,7 +132,7 @@ No separador Administradores do gateway, pode adicionar e remover os utilizadore
 No separador Utilizadores, da origem de dados, pode adicionar e remover os utilizadores ou grupos de segurança que podem utilizar esta origem de dados.
 
 > [!NOTE]
-> A lista de utilizadores apenas controla quem tem permissões para publicar relatórios. Os proprietários de relatório podem criar dashboards ou pacotes de conteúdos e partilhá-los com outros utilizadores. Os utilizadores que estão a consumir o relatório ou o dashboard não têm de estar na lista de utilizadores.
+> A lista de utilizadores controla apenas quem tem permissão para publicar relatórios. Os proprietários de relatório podem criar dashboards ou pacotes de conteúdos e partilhá-los com outros utilizadores. Os utilizadores que estão a consumir o relatório ou o dashboard não têm de estar na lista de utilizadores.
 > 
 > 
 
@@ -151,9 +151,9 @@ A ligação entre o conjunto de dados e a origem de dados no gateway baseia-se n
 Este é o caso do DirectQuery e da atualização agendada.
 
 ### <a name="using-the-data-source-with-directquery-connections"></a>Utilizar a origem de dados com ligações do DirectQuery
-Terá de certificar-se de que os nomes do servidor e da base de dados correspondem entre o Power BI Desktop e a origem de dados configurada para o gateway. Também terá de certificar-se de que o utilizador está listado no separador **Utilizadores** da origem de dados para poder publicar conjuntos de dados do DirectQuery. Para o DirectQuery, a seleção ocorre no Power BI Desktop quando importa dados pela primeira vez. [Saiba mais](desktop-use-directquery.md)
+Terá de se certificar de que os nomes do servidor e da base de dados correspondem entre o Power BI Desktop e a origem de dados configurada para o gateway. Também terá de certificar-se de que o utilizador está listado no separador **Utilizadores** da origem de dados para poder publicar conjuntos de dados do DirectQuery. Para o DirectQuery, a seleção ocorre no Power BI Desktop quando importa dados pela primeira vez. [Saiba mais](desktop-use-directquery.md)
 
-Depois de publicar, a partir do Power BI Desktop ou de **Obter Dados**, os seus relatórios devem começar a funcionar. Poderá demorar vários minutos, depois de criar a origem de dados no gateway, para a ligação ser utilizável.
+Depois de publicar, a partir do Power BI Desktop ou de **Obter Dados**, os seus relatórios devem começar a funcionar. Poderá demorar vários minutos, depois de criar a origem de dados dentro do gateway, para a ligação ser utilizável.
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>Utilizar a origem de dados com a atualização agendada
 Se estiver listado no separador **Utilizadores** da origem de dados configurada no gateway, e os nomes do servidor e da base de dados corresponderem, irá ver o gateway como uma opção a utilizar com a atualização agendada.
@@ -180,7 +180,7 @@ Para obter informações adicionais de resolução de problemas relacionadas com
 
 ## <a name="next-steps"></a>Passos seguintes
 [Gateway de dados no local](service-gateway-onprem.md)  
-[Gateway de dados no local – detalhado](service-gateway-onprem-indepth.md)  
+[Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 

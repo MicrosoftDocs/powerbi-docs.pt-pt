@@ -3,7 +3,7 @@ title: "Incorporar conteúdo do Power BI numa aplicação para os seus clientes"
 description: "Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com as APIs do Power BI para os seus clientes."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
-ms.author: asaxton
-ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
-ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
+ms.author: maghan
+ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação
 Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com o SDK .NET do Power BI, juntamente com a API JavaScript do Power BI ao incorporar para os seus clientes. Normalmente, este é o cenário de ISV.

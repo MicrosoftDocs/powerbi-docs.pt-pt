@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 8f8a090714a7dabcc189304428f03161f3d47abc
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gerir a origem de dados – SQL Server
 Depois de instalar o gateway de dados no local, pode adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo aborda como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do SQL Server para a atualização agendada ou para o DirectQuery.
@@ -40,7 +40,7 @@ Para adicionar um gateway, basta [Transferir](https://go.microsoft.com/fwlink/?L
 > 
 
 ## <a name="remove-a-gateway"></a>Remover um gateway
-A remoção de um gateway também irá eliminar as origens de dados do mesmo.  Isto também irá interromper todos os dashboards e relatórios que dependem dessas origens de dados.
+A remoção de um gateway também elimina as origens de dados contidas no mesmo.  Isto também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
 
 1. Selecione o ícone de engrenagem ![](media/service-gateway-enterprise-manage-sql/pbi_gearicon.png) no canto superior direito > **Gerir gateways**.
 2. Gateway > **Remover**
@@ -77,12 +77,12 @@ Pode clicar em **Adicionar** depois de preencher tudo.  Agora pode utilizar esta
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Definições avançadas
-Pode configurar o nível de privacidade para a sua origem de dados. Isto controla como os dados podem ser combinados. Serve somente para a atualização agendada. Não se aplica ao DirectQuery. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Pode configurar o nível de privacidade para a sua origem de dados. Controla a forma como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não se aplica ao DirectQuery. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings9.png)
 
 ## <a name="remove-a-data-source"></a>Remover uma origem de dados
-A remoção de uma origem de dados irá interromper todos os dashboards ou relatórios que dependem da respetiva origem de dados.  
+A remoção de uma origem de dados interromperá todos os dashboards ou relatórios que dependem da origem de dados em questão.  
 
 Para remover uma Origem de Dados, vá para Origem de Dados > **Remover**.
 
@@ -97,7 +97,7 @@ No separador Administradores no gateway, pode adicionar e remover os utilizadore
 No separador Utilizadores, da origem de dados, pode adicionar e remover os utilizadores ou grupos de segurança que podem utilizar esta origem de dados.
 
 > [!NOTE]
-> A lista de utilizadores controla apenas quem tem permissão para publicar relatórios. Os proprietários do relatório podem criar dashboards ou pacotes de conteúdo e partilhá-los com outros utilizadores.
+> A lista de utilizadores controla apenas quem tem permissão para publicar relatórios. Os proprietários de relatório podem criar dashboards ou pacotes de conteúdos e partilhá-los com outros utilizadores.
 > 
 > 
 
@@ -130,5 +130,5 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 * [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 * [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)
 * [Utilizar o Kerberos para SSO (início de sessão único) do Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

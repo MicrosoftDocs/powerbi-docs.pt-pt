@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: d09dcf28989f19fa901cb5f829e1149b9b64567f
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI (Pré-visualização)
 Ao utilizar **marcadores** no Power BI, pode capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e voltar mais tarde a esse estado ao selecionar esse marcador guardado. 
@@ -155,7 +155,7 @@ Nesta versão de pré-visualização dos **marcadores**, existem algumas limita�
 * *Tem* de ter, pelo menos, um marcador no relatório quando o publicar no **serviço Power BI**, para que os marcadores estejam disponíveis no serviço. Este é um requisito para cada relatório que publicar.
 * Uma vez que os marcadores são, neste momento, uma Funcionalidade de Pré-visualização, ainda não estão disponíveis no [**Power BI Desktop para o Report Server**](report-server/quickstart-create-powerbi-report.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

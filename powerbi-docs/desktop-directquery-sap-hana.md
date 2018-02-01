@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d6f863df59d7374c792f1e1ac16db3a04ad99d87
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2b2e59371c96928a2b7c6b23bd393a80ecc3041a
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery e SAP HANA
 Pode ligar a origens de dados **SAP HANA** diretamente com o **DirectQuery**.
@@ -67,7 +67,7 @@ Vejamos um exemplo. No exemplo seguinte, a seleção de cinco colunas (CalendarQ
 Por este motivo, é recomendado que os itens selecionados em **Obter Dados** ou **Editor de Consultas** sejam limitados aos itens necessários, o que ainda resultará numa consulta razoável para o HANA.
 
 ### <a name="next-steps"></a>Passos seguintes
-Para obter mais informações sobre o DirectQuery, veja os seguintes recursos:
+Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:
 
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)

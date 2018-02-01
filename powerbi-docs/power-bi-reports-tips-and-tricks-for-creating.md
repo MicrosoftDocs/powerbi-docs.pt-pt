@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ea4666c9a1af0a7d3f21c8088cdce0a1935d1bf4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2d82cee4a825be9c38b3545210e182924147c0f3
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="tips-for-creating-stunning-reports"></a>Sugestões para a criação de relatórios fantásticos
 Criar e trabalhar com relatórios no serviço Power BI e no Power BI Desktop é muito semelhante, pelo que a maioria destas ligações são aplicáveis a qualquer um dos dois.
@@ -49,5 +49,5 @@ O membro da comunidade Miguel Myers é um Cientista de Dados e também Designer 
 
 [Relatórios no Power BI](service-reports.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

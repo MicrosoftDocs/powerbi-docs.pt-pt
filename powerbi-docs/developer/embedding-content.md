@@ -3,7 +3,7 @@ title: "Como incorporar os dashboards, os relatórios e os mosaicos do Power BI"
 description: "Saiba mais sobre os passos que precisa de tomar para incorporar conteúdo do Power BI na sua aplicação."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
-ms.author: asaxton
-ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
-ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
+ms.author: maghan
+ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporar os dashboards, os relatórios e os mosaicos do Power BI
 
@@ -123,7 +123,7 @@ Os utilizadores gratuitos podem consumir conteúdo que está incorporado a parti
 
 | Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição máxima de páginas em hora de ponta |
 | --- | --- | --- | --- | --- | --- |
-| EM3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1200 |
+| EM3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1,200 |
 | P1 |8 núcleos virtuais |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1,201-2,400 |
 | P2 |16 núcleos virtuais |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2,401-4,800 |
 | P3 |32 núcleos virtuais |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4,801-9600 |

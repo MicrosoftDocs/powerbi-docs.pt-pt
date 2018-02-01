@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: fe4b35a6132a1d36f48e54e1c779454009402340
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: 0ec1ca9bccabd923b67fc1f49da4b7321ba11141
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Ligue-se ao Application Insights com o Power BI
 Use o Power BI para criar dashboards personalizados eficientes através da telemetria do [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Veja a telemetria da sua aplicação de novas maneiras. Combine métricas de várias aplicações ou serviços componentes num único dashboard. Esta primeira versão do pacote de conteúdos do Power BI para o Application Insights inclui widgets de métricas comuns relacionadas com a utilização, como utilizadores ativos, exibição de página, sessões, versão do browser e do SO e distribuição geográfica de utilizadores num mapa.
@@ -61,6 +61,7 @@ Ligue-se ao [pacote de conteúdos do Application Insights para o Power BI](https
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos do Application Insights inclui as tabelas e as métricas seguintes:  
 
+     ´´´
     - ApplicationDetails  
     - UniqueUsersLast7Days   
     - UniqueUsersLast30Days   
@@ -76,7 +77,8 @@ O pacote de conteúdos do Application Insights inclui as tabelas e as métricas 
     - SessionsDailyLast30Days   
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
-    - PageViewsByCountryDailyLast30Days   
+    - PageViewsByCountryDailyLast30Days  
+   ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: ac738b337e7eb1c861347b273c7f1c4571a700a2
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 9ab6514e2ce5ba81b17f6862eae6c6c76fd9bf7b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Gráfico de Combinação no Power BI (Tutorial)
 No Power BI, um gráfico de combinação é uma visualização única que combina um gráfico de linhas e um gráfico de colunas. Combinar os 2 gráficos em um, permite-lhe fazer uma comparação rápida dos dados.
@@ -47,62 +47,62 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-<a name="create"></a> Para criar o seu próprio gráfico de combinação, inicie sessão no serviço Power BI e selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Revenda > Ligar > Aceder ao dashboard**. 
+<a name="create"></a> Para criar o seu próprio gráfico de combinação, inicie sessão no serviço Power BI e selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Revenda > Ligar > Aceder ao dashboard**.
 
 1. No dashboard "Exemplo de Análise de Revenda", selecione o mosaico **Total de Lojas** para abrir o relatório "Exemplo de Análise de Revenda".
 2. Selecione **Editar Relatório** para abrir o relatório no modo de Vista de Edição.
 3. [Adicione uma nova página do relatório](power-bi-report-add-page.md).
 4. Crie um gráfico de coluna que apresenta as vendas deste ano e a margem bruta por mês.
-   
+
     a.  No painel Campos, selecione **Vendas** \> **Vendas do Último Ano** > **Valor**.
-   
+
     b.  Arraste **Vendas** \> **Margem Bruta Deste Ano** para o painel **Valor**.
-   
-    c.  Selecione **Hora** \> **MêsFiscal** para adicionar este campo ao painel **Eixo**. 
-   
+
+    c.  Selecione **Hora** \> **MêsFiscal** para adicionar este campo ao painel **Eixo**.
+
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecione as reticências (…) no canto superior direito da visualização e selecione **Ordenar por MêsFiscal**. Poderá ter de selecionar duas vezes para ordenar em ascendente ou descendente.
 
 6. Converta o gráfico de colunas num gráfico de combinação. Com o gráfico de colunas selecionado, no painel **Visualizações**, selecione **Gráfico de linhas e de colunas agrupadas**.
-   
+
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. No painel **Campos**, arraste **Vendas** \> **Vendas do Ano Passado** até ao registo **Valores de Linha**.
-   
+
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
-   
+
    O gráfico de combinação deve ter esta aparência:
-   
+
    ![](media/power-bi-visualization-combo-chart/combochartdone-new.png)
 
 ## <a name="create-a-combo-chart-with-two-axes"></a>Criar um gráfico de combinação com dois eixos
 Nesta tarefa, vamos comparar as vendas e a margem bruta.
 
 1. Crie um novo gráfico de linhas que acompanha a **% da Margem Bruta do ano passado**  por **Mês**.  Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45% em abril, caindo em julho e chegando ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
-   
+
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. Adicione **Vendas Deste Ano > Valor** e **Vendas do Ano Passado** ao gráfico de linhas. A escala de **% de Margem Bruta do Ano Passado** é muito inferior à escala de **Vendas**, o que dificulta a comparação.      
-   
+
    ![](media/power-bi-visualization-combo-chart/flatline_new.png)
 3. Para tornar o elemento visual mais fácil de ler e interpretar, converta o gráfico de linhas num gráfico de Linhas e Colunas Empilhadas.
-   
+
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. Arraste **% de Margem Bruta no Ano Passado** de **Valores de Coluna** para **Valores de Linha**. O Power BI cria dois eixos, o que permite que os conjuntos de dados sejam escalados de modo diferente: o eixo à esquerda calcula as vendas em dólares e o eixo à direita calcula a percentagem.
-   
+
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Adicionar títulos aos eixos
 1. Selecione o ícone de rolo de tinta ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir o painel Formatar.
 2. Selecione a seta para baixo para expandir as opções do **eixo Y** .
 3. Para **Eixo Y (Coluna)**, defina **Posição** como **Esquerda**, **Título** como **Ativado**, **Estilo** como **Mostrar apenas título** e **Apresentar** como **Milhões**.
-   
+
    ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
 4. Em **Eixo Y (Coluna)**, desloque para baixo e certifique-se de que **Mostrar Secundário** também está definido como **Ativado**. Esta ação apresenta as opções de formatação da parte do gráfico de linhas do gráfico de combinação.
-   
+
    ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
 5. Para **Eixo Y (Linha)**, deixe **Posição** como **Direita**, **Título** como **Ativado** e defina **Estilo** como **Mostrar apenas título**.
-   
+
    O gráfico de combinação apresenta agora eixos duplos, ambos com títulos.
-   
+
    ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
 
 6. Opcionalmente, modifique o tipo de letra do texto, o tamanho e a cor, e defina outras opções de formatação para melhorar o ecrã e a facilidade de leitura do gráfico.
@@ -114,7 +114,7 @@ Aqui poderá:
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 
-Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para alterar este comportamento padrão, utilize as [interações visuais](visual-interactions.md).
+Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para alterar este comportamento padrão, utilize as [interações visuais](service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -125,4 +125,3 @@ Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de fo
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

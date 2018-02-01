@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do Analysis Services para atualização agendada ou para ligações em direto.
@@ -29,7 +29,7 @@ Depois de instalar o gateway de dados no local, terá de adicionar as origens de
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="download-and-install-the-gateway"></a>Transferir e instalar o gateway
-Pode transferir o gateway do serviço Power BI. Selecione **Transferências** > **Gateway de Dados** ou aceda à [página de transferência do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
+Pode transferir o gateway a partir do serviço Power BI. Selecione **Transferências** > **Gateway de Dados** ou aceda à [página de transferência do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
 
 ![](media/service-gateway-enterprise-manage-ssas/powerbi-download-data-gateway.png)
 
@@ -42,7 +42,7 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 | 2014 |Business Intelligence e SKU Enterprise |
 | 2016 |SKU Standard ou superior |
 
-* Não há suporte para Formatação ao Nível de Célula nem para funcionalidades de tradução.
+* As funcionalidades de conversão e Formatação ao nível da célula não são suportadas.
 * As Ações e os Conjuntos Nomeados não são expostos no Power BI, mas pode ligar a cubos multidimensionais que também contêm Ações ou Conjuntos Nomeados e criar elementos visuais e relatórios.
 
 ## <a name="add-a-gateway"></a>Adicionar um gateway
@@ -54,7 +54,7 @@ Para adicionar um gateway, basta [Transferir](https://go.microsoft.com/fwlink/?L
 > 
 
 ## <a name="remove-a-gateway"></a>Remover um gateway
-A remoção de um gateway também eliminará as origens de dados contidas no mesmo.  Isto também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
+A remoção de um gateway também elimina as origens de dados contidas no mesmo.  Isto também interromperá todos os dashboards e relatórios que dependem dessas origens de dados.
 
 1. Selecione o ícone de engrenagem ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) no canto superior direito > **Gerir gateways**.
 2. Gateway > **Remover**
@@ -62,7 +62,7 @@ A remoção de um gateway também eliminará as origens de dados contidas no mes
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Adicionar uma origem de dados
-Pode adicionar uma origem de dados, ao selecionar um gateway e clicar em **Adicionar origem de dados** ou ir para Gateway > **Adicionar origem de dados**.
+Pode adicionar uma origem de dados ao selecionar um gateway e clicar em **Adicionar origem de dados** ou ir para Gateway > **Adicionar origem de dados**.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings1.png)
 
@@ -86,7 +86,7 @@ Pode clicar em **Adicionar** depois de preencher tudo.  Agora, pode utilizar est
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Definições avançadas
-Pode configurar o nível de privacidade da origem de dados. Isto controla como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não é aplicável às ligações em direto. [Saber mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Pode configurar o nível de privacidade para a sua origem de dados. Controla a forma como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não é aplicável às ligações em direto. [Saber mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
 
@@ -216,7 +216,7 @@ Para remover uma origem de dados, vá para Origem de Dados > **Remover**.
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
 ## <a name="manage-administrators"></a>Gerir administradores
-No separador Administradores do gateway, pode adicionar e remover os utilizadores que podem administrar o gateway.
+No separador Administradores no gateway, pode adicionar e remover os utilizadores (ou grupos de segurança) que podem administrar o gateway.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
@@ -238,7 +238,7 @@ Depois de criar a origem de dados, esta ficará disponível para utilização co
 > 
 > 
 
-A ligação entre o conjunto de dados e a origem de dados no gateway baseia-se no nome do servidor e no nome da base de dados. Estes têm de corresponder. Por exemplo, se fornecer um Endereço IP para o nome do servidor, no Power BI Desktop, terá de utilizar o Endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA*, no Power BI Desktop, terá de utilizar o mesmo na origem de dados configurada para o gateway.
+A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes têm de corresponder. Por exemplo, se fornecer um Endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o Endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA*, no Power BI Desktop, terá de utilizar o mesmo na origem de dados configurada para o gateway.
 
 Isto aplica-se tanto às ligações em direto como à atualização agendada.
 
@@ -252,9 +252,9 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 ![](media/service-gateway-enterprise-manage-ssas/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
