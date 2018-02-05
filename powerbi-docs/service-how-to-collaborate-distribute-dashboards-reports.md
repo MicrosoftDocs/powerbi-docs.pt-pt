@@ -1,11 +1,11 @@
 ---
-title: "Como devo colaborar e partilhar os meus dashboards e relatórios no Power BI?"
+title: "Como devo colaborar e partilhar no Power BI?"
 description: "No Power BI, pode partilhar e colaborar em dashboards, relatórios e mosaicos de diferentes formas. Cada um tem as suas vantagens."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 qualityfocus: monitoring
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/18
 ms.author: maggies
-ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Como devo colaborar e partilhar os meus dashboards e relatórios no Power BI?
-Pode criar dashboards e relatórios. Pode até colaborar com os seus colegas nos mesmos. Depois, quer que outras pessoas tenham acesso. Qual é a melhor forma de distribuí-los?
+Acabou de criar dashboards e relatórios. Pode até colaborar com os seus colegas nos mesmos. Depois, quer que outras pessoas tenham acesso. Qual é a melhor forma de distribuí-los?
 
 Neste artigo, vamos comparar estas opções de colaboração e partilha no Power BI: 
 
@@ -34,7 +34,7 @@ Neste artigo, vamos comparar estas opções de colaboração e partilha no Power
 * Publicar na Web, onde qualquer pessoa pode ver e interagir com os mesmos.
 * Impressão. 
 
-Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licença do Power BI Pro](service-free-vs-pro.md) ou o conteúdo precisa de estar numa [capacidade Premium](service-premium.md). Os requisitos de licença variam para os colegas que veem os seus dashboards, consoante a opção que selecionar. As secções seguintes indicam detalhes. Sugestões? A equipa do Power BI está sempre interessada nos seus comentários, por isso, aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/).
+Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licença do Power BI Pro](service-free-vs-pro.md) ou o conteúdo precisa de estar numa [capacidade Premium](service-premium.md). Os requisitos de licença variam para os colegas que veem os seus dashboards, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
 
 ![Aplicações no serviço Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -54,7 +54,7 @@ Suponhamos que pretende distribuir a sua área de trabalho para um público alar
 
 ![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Leia mais sobre [publicar as suas aplicações](service-create-distribute-apps.md#publish-your-app). 
+É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Se o seu administrador do Power BI lhe der permissões, pode instalar uma aplicação automaticamente nas contas do Power BI dos seus colegas de trabalho. Leia mais sobre [publicar as suas aplicações](service-create-distribute-apps.md#publish-your-app). 
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
@@ -69,9 +69,7 @@ Necessita de uma licença do Power BI Pro para partilhar os seus conteúdos, ass
 
 Pode também partilhar com pessoas fora da sua organização. Estas podem ver e interagir com o dashboard também, mas não o podem partilhar. 
 
-Saiba mais sobre [partilhar um dashboard](service-share-dashboards.md) do serviço Power BI.
-
-Também pode [partilhar uma ligação direta para um relatório](service-share-reports.md), ignorando o dashboard. Pode adicionar um filtro à ligação para que os destinatários vejam uma vista filtrada do seu relatório.
+Saiba mais sobre como [partilhar dashboards e relatórios](service-share-dashboards.md) do serviço Power BI. Pode também adicionar um filtro a uma ligação e [partilhar uma vista filtrada do relatório](service-share-reports.md).
 
 ## <a name="annotate-and-share-from-the-power-bi-mobile-apps"></a>Anotar e partilhar a partir das aplicações móveis do Power BI
 Nas aplicações móveis do Power BI para dispositivos iOS e Android, pode anotar um mosaico, relatório ou visual e, em seguida, partilhá-lo com qualquer pessoa através de e-mail. 
@@ -90,7 +88,7 @@ Pode publicar relatórios do Power BI para toda a Internet ao incorporar visuali
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir ou guardar como PDF ou outro ficheiro estático
 Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos a uma página de cada vez. Não pode imprimir todo o relatório de uma vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](service-print.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * Tem comentários? Aceda ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 * [Partilhar dashboards com colegas e outras pessoas](service-share-dashboards.md)
 * [Criar e publicar uma aplicação no Power BI](service-create-distribute-apps.md)

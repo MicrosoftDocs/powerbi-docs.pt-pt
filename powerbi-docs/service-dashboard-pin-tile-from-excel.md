@@ -1,5 +1,5 @@
 ---
-title: Afixar um mosaico num dashboard do Power BI a partir do Excel
+title: "Como afixar um mosaico a um dashboard do Power BI a partir do Excel"
 description: "Afixe um mosaico a um dashboard do Power BI a partir do Excel no OneDrive para Empresas. Afixar intervalos, gráficos e tabelas"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 855ecbe74fa4bf4ab1b1f81f22f2bab278adddb9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Afixar um mosaico num dashboard do Power BI a partir do Excel
 Para poder afixar um mosaico a partir do livro do Excel, primeiro terá de ligar esse livro ao serviço Power BI (app.powerbi.com). Ligar um livro coloca, essencialmente, uma versão só de leitura ligada desse livro no serviço Power BI e permite-lhe afixar intervalos a dahboards. Pode até afixar uma folha de cálculo inteira a um dashboard.  
@@ -35,18 +35,23 @@ Veja o Will a demonstrar várias formas de importar dados de livros do Excel e a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l8JoB7w0zJA" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="connect-your-excel-workbook-from-onedrive-for-business-to-power-bi"></a>Ligar o seu livro do Excel ao Power BI partir do OneDrive para Empresas
-Quando escolhe **Ligar**, o seu livro irá aparecer no Power BI, tal como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas funcionalidades fantásticas para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente aos dashboards.
+Quando escolhe **Ligar**, o seu livro irá aparecer no Power BI, tal como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas excelentes funcionalidades para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente nos dashboards.
 
 Não é possível o livro no Power BI. Mas se precisar de fazer algumas alterações, pode selecionar o ícone de lápis no separador **Livros** da sua área de trabalho e, em seguida, optar por editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações feitas são guardadas no livro no OneDrive.
 
 1. Carregue o seu livro para o OneDrive para Empresas.
-2. No Power BI, [ligue a esse livro](service-excel-workbook-files.md).
+2. No Power BI, [ligue-se a esse livro](service-excel-workbook-files.md) ao selecionar **Obter Dados > Ficheiros > OneDrive – Empresas**  e navegue até à localização onde guardou o ficheiro do Excel. Selecione o ficheiro e escolha **Ligar > Ligar**.
+
+   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+
 3. No Power BI, o livro é adicionado ao separador **Livros** da sua área de trabalho.  O ícone ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica que se trata de um livro do Excel e um asterisco amarelo indica que é novo.
    
-    As alterações feitas ao livro no Power BI não são guardadas e não afetam o livro original no OneDrive para Empresas. Se ordenar, filtrar ou alterar os valores no Power BI, essas alterações não poderão ser guardadas ou afixadas. Para atualizar o livro, selecione o ícone de lápis para abri-lo no Excel Online. As alterações ao livro no Excel Online podem demorar alguns minutos a serem atualizadas nos mosaicos.     
-   
+    
    ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Abra o livro no Power BI, selecionando o nome do livro.
+
+    As alterações feitas ao livro no Power BI não são guardadas e não afetam o livro original no OneDrive para Empresas. Se ordenar, filtrar ou alterar os valores no Power BI, essas alterações não poderão ser guardadas ou afixadas. Se tiver de fazer alterações que serão guardadas, selecione **Editar** no canto superior direito para abri-lo para edição no Excel Online ou no Excel. As alterações efetuadas desta forma podem demorar alguns minutos a atualizar os mosaicos nos dashboards.
+   
    
    ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
@@ -62,7 +67,7 @@ Uma forma de adicionar um novo [mosaico do dashboard](service-dashboard-tiles.md
    * Dashboard existente: selecione o nome do dashboard na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
    
-   ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Selecione **Afixar**. Uma mensagem de Êxito (perto do canto superior direito) informa que o intervalo foi adicionado, como um mosaico, ao dashboard. 
    
     ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
@@ -80,6 +85,8 @@ Um mosaico criado a partir de uma tabela ou de uma tabela dinâmica irá mostrar
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Ver o livro ligado ao mosaico
 Selecionar um mosaico do livro abre o livro ligado no Power BI. Como o ficheiro de livro está localizado no OneDrive para Empresas do proprietário, a visualização do livro exige que tenha permissões de Leitura para o livro. Se não tiver permissão, receberá uma mensagem de erro.  
 
+ ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para obter os mosaicos do livro. Por isso, como algumas das funcionalidades do Excel não são suportadas na API REST dos Serviços do Excel, não serão vistas nos mosaicos no Power BI. Por exemplo: gráficos Sparkline, formatação condicional de conjunto de ícones e segmentação de dados de tempo. Para obter uma lista completa das funcionalidades não suportadas, veja [Funcionalidades Não Suportadas na API REST dos Serviços do Excel](http://msdn.microsoft.com/library/office/ff394477.aspx)
 
@@ -88,7 +95,5 @@ Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para o
 
 [Obter dados de livros do Excel](service-excel-workbook-files.md)
 
-[Dashboards no Power BI](service-dashboards.md)
-
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

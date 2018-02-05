@@ -1,5 +1,5 @@
 ---
-title: "Hiperligações em tabelas"
+title: "Como adicionar uma hiperligação a uma tabela"
 description: "Hiperligações em tabelas"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperligações em tabelas
-Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Depois de criado, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 
+Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Depois de criado, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 
 
 ![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -85,10 +85,15 @@ Outra forma de adicionar hiperligações às tabelas e matrizes do Power BI é c
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+P: Posso utilizar um URL personalizado como uma hiperligação numa tabela ou numa matriz?    
+R: Não. Pode utilizar um ícone de ligação. Se necessitar de texto personalizado para as hiperligações e se a sua lista de URLs for pequena, considere utilizar antes uma caixa de texto.
+
+
 ## <a name="next-steps"></a>Próximos passos
 [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

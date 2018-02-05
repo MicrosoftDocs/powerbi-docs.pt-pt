@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Subscrever relatórios e dashboards do Power BI
 Nunca foi tão fácil manter-se atualizado relativamente ao seus dashboards e relatórios mais importantes. Subscreva as páginas de relatório e dashboards mais importantes para si e o Power BI enviará um instantâneo por e-mail para a sua caixa de entrada. Indique ao Power BI com que frequência quer receber os e-mails: desde uma vez por dia a uma vez por semana. O e-mail e o instantâneo irão utilizar o idioma definido nas Definições do Power BI. Se não tiver sido definido um idioma, o Power BI utilizará o idioma atual do browser.
@@ -36,7 +36,7 @@ Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenag
 > 
 > 
 
-Veja Sirui a configurar uma subscrição de um relatório por e-mail. Em seguida, siga as instruções passo a passo abaixo do vídeo para experimentar.
+Veja Sirui a configurar uma subscrição de um relatório por e-mail. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/saQx7G0pxhc" frameborder="0" allowfullscreen></iframe>
 
@@ -119,8 +119,9 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 * As subscrições podem falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho por e-mail.    
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de 2 meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.    
 * Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) consegue receber e-mails. [A equipa do Power BI está a trabalhar para simplificar este requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), por isso, mantenha-se atento. 
+* Os relatórios e os dashboards enviados utilizam a definição de idioma do Power BI. O idioma predefinido é o inglês. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Definições > Geral > Idioma**.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)    
 * [Ler a mensagem de blogue](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 

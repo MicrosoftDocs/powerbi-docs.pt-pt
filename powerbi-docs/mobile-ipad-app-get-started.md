@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introdução à aplicação móvel do Power BI num iPad
 A aplicação do Microsoft Power BI para iOS no iPad proporciona a experiência de BI móvel para o Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -41,7 +41,7 @@ Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in
 [Transfira a aplicação para iPad](http://go.microsoft.com/fwlink/?LinkId=522062) a partir da Apple App Store.
 
 > [!NOTE]
-> O iPad precisa de executar, pelo menos, o iOS 9.0. 
+> O iPad precisa ser executado, pelo menos, no iOS 10. 
 > 
 > 
 
@@ -59,7 +59,7 @@ Aceda ao Power BI (https://powerbi.com) para se inscrever no serviço, se ainda 
    Quando estiver na aplicação, basta tocar no botão de navegação global ![Botão de navegação global](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) no canto superior esquerdo para alternar entre os dois serviços. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimente os exemplos do Power BI e do Reporting Services
-Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte aos exemplos sempre que quiser a partir da home page de dashboards.
+Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte para os exemplos sempre que quiser, na página inicial dos dashboards.
 
 ### <a name="power-bi-samples"></a>Exemplos do Power BI
 Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com estes. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
@@ -81,7 +81,7 @@ Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas 
    ![Amostras do Reporting Services](media/mobile-ipad-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Encontre os seus conteúdos nas aplicações móveis do Power BI
-Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar os seus conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
+Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
 ![Painel de navegação à esquerda](media/mobile-ipad-app-get-started/power-bi-iphone-left-nav.png)
 

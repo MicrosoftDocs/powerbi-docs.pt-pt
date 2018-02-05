@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/26/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: b2750766e46ad0be2ec455f7c74cfa5adb9bd17e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscrever a sua organização do Governo dos EUA no serviço Power BI
 O **serviço Power BI** tem uma versão disponível para clientes do Governo dos EUA como parte das subscrições do **Office 365 US Government Community**. A versão do **serviço Power BI** abordada neste artigo foi concebida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
@@ -129,7 +129,7 @@ Quando utilizar uma combinação de licenças Gratuitas e Pro num inquilino do G
 Para identificar os utilizadores no inquilino que têm a licença Gratuita do Power BI, os administradores podem executar o relatório de licenciamento, após o qual os utilizadores da licença Gratuita aparecem como **Power BI Standard**.
 
 ## <a name="next-steps"></a>Passos seguintes
-Pode fazer diversas coisas com o Power BI. Para obter mais informações e aprendizagem, incluindo um artigo que mostra como se inscrever no serviço, consulte os seguintes recursos:
+Pode fazer muitas coisas com o Power BI. Para obter mais informações e aprendizagem, incluindo um artigo que mostra como se inscrever no serviço, consulte os seguintes recursos:
 
 * [Descrição Geral do Power BI para o Governo dos EUA](service-govus-overview.md)
 * [Aprendizagem Guiada para o Power BI](guided-learning/gettingstarted.yml#step-1)

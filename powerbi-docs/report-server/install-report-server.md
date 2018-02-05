@@ -3,7 +3,7 @@ title: Instalar o Power BI Report Server
 description: 'Saiba como instalar o Power BI Report Server. '
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
-ms.author: asaxton
-ms.openlocfilehash: 46f1ac3c98cc8a5760f7b2e78d8f86631ea0b782
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 01/29/2018
+ms.author: maghan
+ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -29,9 +29,11 @@ Saiba como instalar o Power BI Report Server.
 
  **Transferir** ![transferir](media/install-report-server/download.png "transferir")
 
-Para transferir o Power BI Report Server, aceda a [Relatórios locais com o Power BI Report Server](https://powerbi.microsoft.com/report-server/). Para o Power BI Desktop otimizado para o Power BI Report Server, aceda ao [Centro de Transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=837581).
+Para transferir o Power BI Report Server, aceda a [Relatórios locais com o Power BI Report Server](https://powerbi.microsoft.com/report-server/). 
 
-![sugestão](media/install-report-server/fyi-tip.png "sugestão") Para obter as atuais notas de versão, consulte [Power BI Report Server - Notas de versão](release-notes.md).
+Aceda ao Centro de Transferências da Microsoft para transferir o [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (otimizado para o Power BI Report Server – outubro de 2017).
+
+![sugestão](media/install-report-server/fyi-tip.png "sugestão") Para obter as atuais notas de versão, veja [Power BI Report Server - Notas de versão](release-notes.md).
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -145,11 +147,11 @@ Terá de abrir a porta TCP que configurou para o seu URL de Serviço Web e URL d
 [Como encontrar a sua chave de produto de servidor de relatório](find-product-key.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
 [Verificar uma instalação do Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-[Configurar a conta de serviço do servidor de relatório](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-[Configurar URLs do servidor de relatório](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-[Configurar uma ligação à base de dados do servidor de relatório](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-[Inicializar um servidor de relatório](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[Configurar ligações de SSL num servidor de relatório](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[Configurar a conta de serviço do servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+[Configurar URLs do servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+[Configurar uma ligação à base de dados do servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+[Inicializar um servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[Configurar ligações SSL num servidor de relatório](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
 [Configurar permissões e contas de serviço Windows](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Suporte de browser para o Power BI Report Server](browser-support.md)
 

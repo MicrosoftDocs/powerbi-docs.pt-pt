@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 2c15cf503a7c66a3b89e45cc338ee5174e5f24e7
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 1f1db890a9fea9c53575f9b5a263400d6b883693
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Mapas de manchas (coropletos) no Power BI (Tutorial)
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
@@ -49,6 +49,12 @@ Os mapas de manchas são uma ótima opção:
 * quando as regiões definidas são importantes.
 * para obter uma visão geral da distribuição entre as localizações geográficas.
 
+### <a name="prerequisites"></a>Pré-requisitos
+- Serviço Power BI ou Power BI Desktop
+- Exemplo de Vendas e Marketing
+
+Para acompanhar, o tutorial utiliza o serviço Power BI, não o Power BI Desktop.
+
 ## <a name="create-a-basic-filled-map"></a>Criar um mapa de manchas básico
 Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
 
@@ -56,27 +62,27 @@ Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
 
 
 1. Para criar o seu próprio mapa de manchas, [transfira o exemplo Vendas e Marketing](sample-datasets.md) ao iniciar sessão no Power BI e ao selecionar **Obter Dados \> Exemplos \> Vendas e Marketing \> Ligar**.
-2. Quando aparecer a mensagem de êxito, selecione **Ver conjunto de dados**. 
-   
+2. Quando aparecer a mensagem de êxito, selecione **Ver conjunto de dados**.
+
    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. O Power BI abre uma tela do relatório em branco na [Vista de Edição](service-interact-with-a-report-in-editing-view.md).
-   
+
     ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. No painel Campos, selecione o campo **Geo** \> **Estado**.    
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Converta o gráfico](power-bi-report-change-visualization-type.md) num mapa de manchas. Repare que o **Estado** está, agora, no grupo **Local**. O Bing Maps usa o campo no grupo **Local** para criar o mapa.  O local pode ser uma variedade de locais válidos: países, estados, condados, cidades, CEPs ou outros códigos postais, etc. O Bing Maps fornece formas de mapa de manchas para locais em todo o mundo. Sem uma entrada válida no painel Localização, o Power BI não pode criar o mapa de manchas.  
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Filtre o mapa para apresentar apenas os Estados Unidos.
-   
+
    a.  Na parte inferior do painel Visualizações, procure a área **Filtros** .
-   
+
    b.  Passe o rato sobre **Estado** e clique na divisa de expansão  
    ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
-   
+
    c.  Coloque uma marca de verificação ao lado de **Todos** e remova a marca de verificação ao lado de **AK**.
-   
+
    ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Selecione **SalesFact** \>  **Sentimento** para adicioná-lo ao painel **Saturação da cor**. O campo no painel **Valores** controla o sombreado do mapa.  
    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
@@ -87,9 +93,9 @@ Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
 ## <a name="highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 Para obter informações sobre como utilizar o painel Filtros, veja [Add a filter to a report (Adicionar um filtro a um relatório)](power-bi-report-add-filter.md).
 
-Destacar um local num Mapa de Manchas faz a filtragem cruzada com outras visualizações na página do relatório e vice-versa. 
+Destacar um local num Mapa de Manchas faz a filtragem cruzada com outras visualizações na página do relatório e vice-versa.
 
-Para acompanhar, copie e cole o mapa de manchas na página **Sentimento** do relatório *Vendas e Marketing*. 
+Para acompanhar, copie e cole o mapa de manchas na página **Sentimento** do relatório *Vendas e Marketing*.
 
 1. No mapa de manchas, selecione um estado.  Isto destaca as outras visualizações na página. A seleção de **Texas**, por exemplo, mostra que o Sentimento é de 74, que Texas está no Distrito Central \#n.º 23 e que a maior parte do volume de vendas é proveniente dos segmentos Moderação e Conveniência.   
    ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
@@ -98,7 +104,7 @@ Para acompanhar, copie e cole o mapa de manchas na página **Sentimento** do rel
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Os dados de mapa podem ser ambíguos.  Por exemplo, existe Paris, França, mas também existe Paris, Texas. Os dados geográficos são, provavelmente, armazenados em colunas separadas – uma coluna de nomes de cidades, uma coluna de nomes de estado ou província, etc. – portanto, o Bing pode não ser capaz de dizer que Paris é. Se o conjunto de dados já contém dados de latitude e longitude, o Power BI tem campos especiais para ajudar a tornar os dados do mapa inequívocos. Basta arrastar o campo que contém os dados de latitude na área Visualizações \> Latitude.  E faça o mesmo para os dados de longitude.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png) 
+![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Se tiver permissões para editar o conjunto de dados no Power BI Desktop, veja este vídeo para ajudar a resolver a ambiguidade do mapa.
 
@@ -114,4 +120,3 @@ Para obter mais ajuda com visualizações de mapas, veja [Sugestões e truques p
  [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Alterar o tipo de visualização que está a ser utilizado](power-bi-report-change-visualization-type.md)      
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

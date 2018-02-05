@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte 2, adicionar visualizações a um relatório do Power BI (Tutorial)
 Na [Parte 1](power-bi-report-add-visualizations-ii.md), criou uma visualização básica marcando as caixas de seleção ao lado dos nomes de campo.  Na parte 2, aprenderá a usar o arrastar e soltar e a utilizar de forma integral os painéis **Campos** e **Visualizações** para criar e modificar as visualizações.
+
+### <a name="prerequisites"></a>Pré-requisitos
+- [Parte 1](power-bi-report-add-visualizations-ii.md)
+- Serviço Power BI – pode adicionar visualizações aos relatórios com o serviço Power BI ou o Power BI Desktop. Este tutorial utiliza o serviço Power BI. 
+- Exemplo de Análise de Revenda
 
 ## <a name="create-a-new-visualization"></a>Criar uma nova visualização
 Neste tutorial, vamos examinar nosso conjunto de dados de Análise de Revenda e criar algumas visualizações chave.
@@ -64,7 +69,6 @@ Neste tutorial, vamos examinar nosso conjunto de dados de Análise de Revenda e 
 ## <a name="next-steps"></a>Próximos passos
 * Para obter mais informações sobre o painel Campos, veja [Editor de relatório... faça uma tour](service-the-report-editor-take-a-tour.md).   
 * Para saber como filtrar e destacar as visualizações, veja [Filtros e destaque em relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).  
-* Para obter informações sobre como usar e alterar as agregações, veja [Agregações em relatórios](service-aggregates.md).  
 * Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md).  
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

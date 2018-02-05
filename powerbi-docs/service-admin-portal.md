@@ -3,7 +3,7 @@ title: "Portal de administração do Power BI"
 description: "O portal de administração permite a gestão de inquilinos do Power BI na sua organização. Inclui itens, como métricas de utilização, acesso ao centro de administração do Office 365 e definições."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -210,6 +210,16 @@ Os utilizadores na organização podem utilizar o Excel para ver e interagir com
 
 Os utilizadores na organização podem utilizar a visualização ArcGIS Maps para Power BI (Pré-visualização) fornecida pela Esri. [Saiba mais](power-bi-visualization-arcgis.md)
 
+
+## <a name="custom-visuals-settings"></a>Definições de elementos visuais personalizados
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>Ativar os elementos visuais personalizados para toda a organização
+Os utilizadores na organização podem interagir e partilhar elementos visuais personalizados. [Saiba mais](power-bi-custom-visuals.md)
+
+![Definições de elementos visuais personalizados](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
+
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 
 ### <a name="interact-with-an-dshare-r-visuals"></a>Interagir com elementos visuais R dshare
@@ -259,9 +269,9 @@ Para obter mais informações sobre como gerir as definições Premium, veja [Ge
 
 Enquanto administrador, pode ver os códigos de incorporação gerados para o seu inquilino. Pode ver o relatório e eliminar o código de incorporação para o revogar.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
-[Noções básicas sobre a função de administrador do Power BI](service-admin-role.md)  
+[Compreender a função de administrador do Power BI](service-admin-role.md)  
 [Auditoria do Power BI na sua organização](service-admin-auditing.md)  
 [Gerir o Power BI Premium](service-admin-premium-manage.md)  
 [Administrar o Power BI na sua organização](service-admin-administering-power-bi-in-your-organization.md)  

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 3e0e06f36bfd229cf482428aa983e7211dbf897c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e824c1e582b8ed3cf0953b59b790e90271a6d38c
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Introdução à aplicação móvel Power BI num iPhone ou iPod Touch
 A aplicação Microsoft Power BI para iOS no iPhone ou iPod Touch dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. E mantenha-se a par com os dados sempre atualizados no seu [Apple Watch](mobile-apple-watch.md).  
@@ -41,7 +41,7 @@ Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in
 [Transfira a aplicação para iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Transfira a aplicação para iPhone") da Apple App Store para o seu iPhone ou iPod Touch.
 
 > [!NOTE]
-> Pode executar a aplicação Power BI para iOS no iPhone 5 e posterior, com o iOS 9.0 ou posterior. Pode também executá-lo num iPod Touch com o iOS 9.0 ou posterior.
+> Pode executar a aplicação Power BI para iOS no iPhone 5 e superior, com o iOS 10 ou posterior. Pode também executá-lo num iPod Touch com o iOS 10 ou posterior.
 > 
 > 
 
@@ -82,7 +82,7 @@ Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas 
    ![Exemplos do Reporting Services na aplicação móvel do Power BI](media/mobile-iphone-app-get-started/power-bi-iphone-ssrs-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Encontre os seus conteúdos nas aplicações móveis do Power BI
-Os dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
+Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
 ![Painel de navegação à esquerda](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 

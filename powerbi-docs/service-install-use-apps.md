@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: a833961bd2f9ad3af77c6d90a95c0e5b1c307d1a
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 No Power BI, as *aplicações* juntam dashboards e relatórios num único lugar. As pessoas na sua organização podem criar e distribuir aplicações com informações comerciais importantes. Os [Serviços externos](service-connect-to-services.md) que pode já utilizar, como o Google Analytics e o Microsoft Dynamics CRM, também disponibilizam aplicações do Power BI. 
@@ -31,10 +31,10 @@ No Power BI, as *aplicações* juntam dashboards e relatórios num único lugar.
 
 Com as aplicações, sempre que o autor da aplicação lançar atualizações, o utilizador pode vê-las automaticamente. O autor também controla quantas vezes os dados são agendados para atualização, para que não se tenha de preocupar em atualizá-los. 
 
-Planeia criar uma aplicação? Consulte [Criar e publicar aplicações no Power BI](service-create-distribute-apps.md) para obter mais informações.
+Planeia criar uma aplicação? Veja [Criar e publicar aplicações no Power BI](service-create-distribute-apps.md) para obter mais informações.
 
 ## <a name="get-a-new-app"></a>Obter uma nova aplicação
-Pode obter aplicações de duas formas diferentes. O autor da aplicação pode enviar-lhe uma ligação direta para uma aplicação, ou pode procurá-la no AppSource, onde são apresentadas todas as aplicações às quais pode aceder. No Power BI no seu dispositivo móvel, só pode instalá-lo de uma ligação direta e não do AppSource. 
+Pode obter aplicações de várias formas diferentes. O autor da aplicação pode instalar a aplicação automaticamente na sua conta do Power BI ou enviar-lhe uma ligação direta para uma aplicação, ou pode pesquisá-la no AppSource, onde se veem todas as aplicações às quais pode aceder. No Power BI no seu dispositivo móvel, só pode instalá-lo de uma ligação direta e não do AppSource. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações.
 
 ### <a name="install-an-app-from-a-direct-link"></a>Instalar uma aplicação de uma ligação direta
 A forma mais fácil de instalar uma nova aplicação de forma autónoma é receber uma ligação direta do autor da aplicação. O Power BI cria uma ligação de instalação, que o autor lhe pode enviar.

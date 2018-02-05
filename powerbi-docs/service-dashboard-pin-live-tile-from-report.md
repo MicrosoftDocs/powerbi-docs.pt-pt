@@ -1,5 +1,5 @@
 ---
-title: "Afixar uma página de relatório inteira a um dashboard do Power BI "
+title: "Como afixar uma página de relatório inteira num dashboard do Power BI "
 description: "Documentação sobre como afixar uma página inteira do relatório em tempo real num dashboard do Power BI a partir de um relatório."
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ee8e7541db7f40a5d01607c6551ee734eb9f3d5b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Afixar uma página de relatório inteira, como um mosaico dinâmico, a um dashboard do Power BI
-Outra forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é afixar uma página inteira do relatório.  Esta é uma forma fácil de afixar mais de uma visualização de cada vez.  Além disso, quando afixa uma página inteira, os mosaicos são *dinâmicos*; pode interagir com eles diretamente no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos utilizados no gráfico, também são refletidas no mosaico do dashboard.  
+Outra forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é afixar uma página inteira do relatório. Esta é uma forma fácil de afixar mais de uma visualização de cada vez.  Além disso, quando afixa uma página inteira, os mosaicos são *dinâmicos*; pode interagir com eles diretamente no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos utilizados no gráfico, também são refletidas no mosaico do dashboard.  
+
+A afixação de mosaicos dinâmicos de relatórios nos dashboards só está disponível no serviço Power BI (app.powerbi.com).
 
 > [!NOTE]
 > Não é possível afixar mosaicos a partir de relatórios que são partilhados consigo.
@@ -59,5 +61,5 @@ Veja a Amanda afixar uma página de relatório dinâmico num dashboard e, em seg
 ## <a name="next-steps"></a>Próximos passos
 [Dashboards no Power BI](service-dashboards.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

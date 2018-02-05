@@ -17,8 +17,8 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1c9be142c7d72950052b152cf7db1aaee54fe453
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 01/24/2018
@@ -34,7 +34,7 @@ O departamento de RH tem o mesmo modelo de relatório em diferentes empresas, me
 
 ![](media/sample-human-resources/hr1.png)
 
-Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser utilizado com dados, relatórios e dashboards voltados para os negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos.
+Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser utilizado com dados, relatórios e dashboards voltados para os negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, livro do Excel ou ficheiro .pbix do Power BI Desktop. Para obter mais informações, veja [Conjuntos de dados de exemplo](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -47,13 +47,15 @@ Registe-se para ouvir os especialistas do Power BI e participar em sessões de P
 
 >[Participar nos próximos webinars da comunidade do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [Melhorar a Rentabilidade nos Cuidados de Saúde – 12/12/17](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+Ainda não existe nenhum webinar agendado. Volte a consultar esta secção em breve para mais eventos futuros.
 
 ## <a name="on-demand-webinars"></a>Webinars a pedido
 
 Veja as sessões gravadas em qualquer altura
 
 >[Procurar na biblioteca do Power BI webinars a pedido dos nossos especialistas da comunidade](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [Melhorar a Rentabilidade nos Cuidados de Saúde](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 - [Como implementar uma Estratégia de Governação de Dados Bem-Sucedida Que Torna a Sua Organização Mais Segura](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
@@ -69,7 +71,7 @@ Veja as sessões gravadas em qualquer altura
 
 - [Fabricantes: a indústria está a passar por uma transformação digital: mantenha a liderança ao tirar partido da análise para maximizar a rentabilidade](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Veja também
 
 - [Documentos técnicos do Power BI](whitepapers.md)
 
