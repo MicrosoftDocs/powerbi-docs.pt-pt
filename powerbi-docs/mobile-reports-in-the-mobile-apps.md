@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -63,7 +63,7 @@ Quando vê esse relatório num telemóvel, este é aberto numa vista vertical.
 Saiba mais sobre os [relatórios otimizados para a vista de telemóvel](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Usar a segmentação para filtrar uma página de relatório
-Ao estruturar um relatório no serviço Power BI [(https://powerbi.com)](https://powerbi.com), tenha em conta que, num telemóvel, não pode ver o painel Filtros, mas pode [ver segmentações numa página de relatório](power-bi-visualization-slicers.md). Adicione segmentações a um relatório para que o utilizador e os seus colegas possam utilizar para filtrar a página num telemóvel.
+Quando criar um relatório no Power BI Desktop ou no serviço Power BI, considere [adicionar segmentações de dados a uma página de relatório](power-bi-visualization-slicers.md). O utilizador e os seus colegas podem adicionar as segmentações de dados para filtrar a página num browser e nas aplicações móveis. Quando vê o relatório num telemóvel, pode ver e interagir com as segmentações de dados no modo horizontal e numa página otimizada para o modo vertical do telemóvel.
 
 * Quando selecionar um valor numa segmentação na página de relatório, este filtra os outros visuais na página.
   

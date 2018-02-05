@@ -3,7 +3,7 @@ title: "Ferramenta de Migração do Power BI Embedded"
 description: "Esta ferramenta de migração pode ser utilizada para copiar os seus relatórios do serviço Power BI Embedded do Azure (PaaS) para o serviço Power BI (SaaS)."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,14 +16,14 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 2efcf5b4f1a0384c50b9a39864de2af8271d1299
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: e1892d17b61347379965c192287d2f814640a02d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
-# <a name="power-bi-embedded-migration-tool"></a>Ferramenta de migração Power BI Embedded
+# <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
 Esta ferramenta de migração pode ser utilizada para copiar os seus relatórios do serviço Power BI Embedded do Azure (PaaS) para o serviço Power BI (SaaS).
 
 A migração do conteúdo das suas coleções de áreas de trabalho para o serviço Power BI pode ser feita em paralelo para a sua solução atual e não implica qualquer período de indisponibilidade.
@@ -32,7 +32,7 @@ A migração do conteúdo das suas coleções de áreas de trabalho para o servi
 * Não é possível transferir os conjuntos de dados enviados por push, pelo que terão de ser recriados com as APIs REST do Power BI para o serviço Power BI.
 * Os ficheiros PBIX importados antes de 26 de novembro de 2016 não serão transferíveis.
 
-## <a name="download"></a>Transferência
+## <a name="download"></a>Transferir
 Pode transferir o exemplo de ferramenta de migração a partir do [GitHub](https://github.com/Microsoft/powerbi-migration-sample). Pode transferir um zip do repositório ou pode cloná-lo localmente. Depois de transferido, pode abrir *powerbi-migration-sample.sln* no Visual Studio para criar e executar a ferramenta de migração.
 
 ## <a name="migration-plans"></a>Planos de Migração
@@ -257,7 +257,7 @@ Agora que os seus relatórios foram migrados do serviço Power BI Embedded do Az
 
 Para obter mais informações, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium – o que é?](../service-premium.md)  

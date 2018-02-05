@@ -1,6 +1,6 @@
 ---
-title: "Visualizações de tabela em relatórios e dashboards do Power BI (Tutorial)"
-description: "Sugestões para trabalhar com visualizações de tabela em relatórios e dashboards do Power BI, incluindo como redimensionar larguras de coluna."
+title: "Tutorial – visualizações de tabela em relatórios e dashboards do Power BI (Tutorial)"
+description: "Tutorial para trabalhar com visualizações de tabela em relatórios e dashboards do Power BI, incluindo como redimensionar a largura das colunas."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Trabalhar com tabelas em relatórios e dashboards do Power BI (Tutorial)
 Uma tabela é uma grelha que contém dados relacionados numa série lógica de linhas e colunas. Também pode conter cabeçalhos e uma linha para totais. As tabelas funcionam bem com comparações quantitativas, onde pode observar vários valores para uma única categoria. Por exemplo, esta tabela apresenta 5 medidas diferentes para **Categoria**.
@@ -40,11 +40,16 @@ As tabelas são uma excelente opção:
 > Se uma tabela tiver demasiados valores, considere convertê-la numa matriz e/ou utilizar desagregação.
 > 
 > 
+## <a name="prerequisites"></a>Pré-requisitos
+ - Serviço Power BI ou Power BI Desktop
+ - Exemplo de Análise de Revenda
+
 
 ## <a name="create-a-table"></a>Criar uma tabela
-Para acompanhar, inicie sessão no Power BI e selecione **Obter Dados > Exemplos > Exemplo de Análise de Revenda**. Vamos criar a tabela ilustrada acima para apresentar os valores de vendas por categoria de item.
+Vamos criar a tabela ilustrada acima para apresentar os valores de vendas por categoria de item. Para acompanhar, inicie sessão no serviço Power BI, selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Revenda > Ligar** e escolha **Ir para o dashboard. A criação de uma visualização exige permissões de edição para o conjunto de dados e para o relatório. Felizmente, todos os exemplos do Power BI são editáveis. Se um relatório tiver sido partilhado consigo, não poderá criar visualizações nos relatórios.
 
-1. Em **A Minha Área de Trabalho**, selecione o separador Conjuntos de dados e desloque o ecrã para baixo até ao conjunto de dados Exemplo de Análise de Revenda que acabou de adicionar.  Selecione o ícone **Criar relatório**.
+1. No painel de navegação esquerdo, selecione **Áreas de trabalho > A minha área de trabalho**.    
+2. Selecione o separador Conjuntos de dados e desloque o ecrã para baixo até ao conjunto de dados Exemplo de Análise de Revenda que acabou de adicionar.  Selecione o ícone **Criar relatório**.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. No editor de relatórios, selecione **Item** > **Categoria**.  O Power BI cria automaticamente uma tabela que apresenta uma lista de todas as categorias.
@@ -115,5 +120,5 @@ Por vezes, o Power BI trunca o cabeçalho de uma coluna num relatório e num das
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

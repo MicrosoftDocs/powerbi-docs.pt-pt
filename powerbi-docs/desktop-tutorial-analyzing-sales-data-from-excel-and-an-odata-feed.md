@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 03c5afae78e1688cadfdef9c0a96ca9f24247e12
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: analisar dados de vendas do Excel e de um feed OData
 Com o **Power BI Desktop**, pode ligar a todos os tipos de origens de dados diferentes, combinar e moldá-los de forma a facilitar a criação de visualizações e análises de dados interessantes e apelativas. Neste tutorial, aprenderá a combinar dados de duas origens de dados. 
@@ -140,7 +140,7 @@ Calcular o total de cada linha de **Order\_Details**:
 
 ### <a name="step-5-set-the-datatype-of-the-linetotal-field"></a>Passo 5: definir o tipo de dados do campo LineTotal
 1. Clique com o botão direito do rato na coluna **LineTotal**.
-2. Selecione **Alterar Tipo** e **Número Decimal.
+2. Selecione **Alterar Tipo** e escolha **Número Decimal**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/9.png)
 
@@ -229,6 +229,5 @@ Depois de realizar todos estes passos, terá um Relatório de Vendas que combina
 * [Ver vídeos do Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
 * [Visitar o Fórum do Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
 * [Ler o Blogue do Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
-
 
 

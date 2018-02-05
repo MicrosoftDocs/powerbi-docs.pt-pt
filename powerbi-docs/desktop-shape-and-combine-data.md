@@ -1,27 +1,7 @@
----
-title: Formatar e combinar dados no Power BI Desktop
-description: Formatar e combinar dados no Power BI Desktop
-services: powerbi
-documentationcenter: 
-author: davidiseminger
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
-ms.author: davidi
-ms.openlocfilehash: bb4f910f0ac6240ed2dab987a7076b3f996b86fe
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
-ms.translationtype: HT
-ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+-- título: Formatar e combinar dados no Power BI Desktop descrição: Formatar e combinar dados no Power BI Desktop serviços: powerbi documentationcenter: " autor: davidiseminger gestor: cópia de segurança do ficheiro k: " editor: " etiquetas: " qualityfocus: no qualitydate: ''
+
+ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
+
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Formatar e combinar dados no Power BI Desktop
 Com o **Power BI Desktop**, pode ligar a muitos tipos diferentes de origens de dados e, em seguida, formatar os dados de acordo com as suas necessidades. *Formatar* dados significa transforma os dados – como mudar o nome de colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como cabeçalhos, etc. *Combinar* dados significa ligar a duas ou mais origens de dados, formatá-las conforme necessário e consolidá-las numa consulta útil.
@@ -210,7 +190,7 @@ Para aplicar as alterações e fechar o Editor de Consultas, selecione Fechar e 
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>Passos seguintes
-Há inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as respetivas capacidades, consulte as seguintes fontes:
+Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 * [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)

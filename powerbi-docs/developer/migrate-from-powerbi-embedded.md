@@ -3,7 +3,7 @@ title: "Como migrar conteúdos da coleção de áreas de trabalho do Power BI Em
 description: "Saiba como migrar a partir do Power BI Embedded para o serviço Power BI e tire partido dos avanços em matéria de incorporação de conteúdo nas aplicações."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI
 Saiba como migrar a partir do Power BI Embedded para o serviço Power BI e tire partido dos avanços em matéria de incorporação de conteúdo nas aplicações.
@@ -174,14 +174,11 @@ Na sua aplicação, irá mapear os utilizadores que gere na aplicação para uma
 Quando estiver pronto para avançar para a produção, terá de fazer o seguinte.
 
 * Se estiver a utilizar um inquilino separado para o desenvolvimento, terá de se certificar de que as áreas de trabalho da aplicação, a par dos dashboards e relatórios, estão disponíveis no seu ambiente de produção. Também terá de se certificar de que criou a aplicação no Azure AD para o seu inquilino de produção e que atribuiu as permissões de aplicação corretas, conforme indicado no Passo 1.
-* Compre uma capacidade adequada às suas necessidades. Pode utilizar o [Documento técnico de planeamento da capacidade de análise incorporada](https://aka.ms/pbiewhitepaper) para ajudar a compreender o que poderá ser necessário. Quando estiver pronto para comprar, poderá fazê-lo no [Centro de administração do Office 365](https://portal.office.com/adminportal/home#/catalog).
-  
-  > [AZURE.INFORMATION] Para obter informações sobre como comprar o Power BI Premium, consulte [Como comprar o Power BI Premium](../service-admin-premium-purchase.md).
-  > 
-  > 
+* Compre uma capacidade adequada às suas necessidades. Para compreender melhor a quantidade e o tipo de capacidade que precisa, veja o [Documento técnico de planeamento da capacidade de análise incorporado](https://aka.ms/pbiewhitepaper). Pode [comprar capacidade](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) no Azure.
 * Edite a área de trabalho da aplicação e atribua-a a uma capacidade Premium em Avançadas.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Envie a sua aplicação atualizada para a produção e comece a incorporar relatórios do serviço Power BI.
 
 ## <a name="after-migration"></a>Após a migração
@@ -195,7 +192,7 @@ Deve fazer uma limpeza no Azure.
 [Ferramenta de migração do Power BI Embedded](migrate-tool.md)  
 [Fragmentos de código para a migração de conteúdo a partir do Power BI Embedded](migrate-code-snippets.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md)  
-[Power BI Premium – O que é?](../service-premium.md)  
+[Power BI Premium – o que é?](../service-premium.md)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
