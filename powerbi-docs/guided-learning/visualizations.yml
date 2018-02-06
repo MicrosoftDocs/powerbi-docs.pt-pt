@@ -6,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: exploringdata
-  nextTutorialTitle: Exploring data
+  nextTutorialTitle: Explorar dados
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +15,13 @@ metadata:
   ms.date: 12/05/2017
   ms.author: davidi
   ms.openlocfilehash: e1492e55e47ea0871f4a07a0cc599570f36cae40
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Visualizations bring your data to life, and reveal insights that only compelling and amazing visual representations can. This section of **Power BI** Guided Learning shows you how to get started using them.
+  content: "As visualizações dão vida aos seus dados e revelam informações que apenas as representações visuais apelativas e fantásticas podem. Esta secção da Aprendizagem Orientada do **Power BI** mostra-lhe como começar a utilizá-las.\n"
 - title: "Introdução aos elementos visuais no Power BI"
   durationInMinutes: 2
   content: >
@@ -156,4 +155,4 @@ items:
 
 
     [!INCLUDE [](includes/3-11h-r-visual-integration.md)]
-- content: "Nice work. You've completed the **Visualizations** section of **Guided Learning**, and you're ready for the next tutorial - **Exploring data**.\0"
+- content: "Bom trabalho. Concluiu a secção **Visualizações** da **Aprendizagem Orientada**. Está pronto para o próximo tutorial - **Explorar dados**.\0"

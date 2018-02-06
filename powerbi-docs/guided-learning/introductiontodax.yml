@@ -13,14 +13,13 @@ metadata:
   ms.date: 12/05/2017
   ms.author: davidi
   ms.openlocfilehash: 5553a2b4dc3856cb90f1d392709fb313acf3c4d8
-  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 12/12/2017
+  ms.lasthandoff: 02/06/2018
 items:
 - durationInMinutes: 1
-  content: >
-    Learn how to create and work with DAX, from an established expert.
+  content: "Saiba como criar e trabalhar com o DAX com informações de um especialista com provas dadas.\n"
 - title: "Introdução à DAX"
   durationInMinutes: 9
   content: >
@@ -63,4 +62,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "You've completed the **Introduction to DAX** section of Power BI Guided Learning. What a journey! If you've done these tutorials in sequence, then you've finished all the sections of **Guided Learning**. Way to go! Now go use **Power BI** to create compelling reports and dashboards that tell your story.\0"
+- content: "Concluiu a secção **Introdução ao DAX** da Aprendizagem Orientada do Power BI. Que viagem! Se seguiu estes tutoriais em sequência, concluiu todas as secções da **Aprendizagem Orientada**. Muito bem! Agora, esteja à vontade para utilizar o **Power BI** para criar relatórios e dashboards apelativos que contem a sua história.\0"
