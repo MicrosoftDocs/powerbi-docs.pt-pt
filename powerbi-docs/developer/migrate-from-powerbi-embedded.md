@@ -130,7 +130,7 @@ Os conjuntos de dados em cache reportam a ficheiros PBIX com dados importados, p
 2. Chame a API Transferir PBIX a partir da área de trabalho PaaS.
 3. Guarde o PBIX.
 4. Chame Importar PBIX para a área de trabalho SaaS.
-5. Atualize a cadeia de ligação ao chamar - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+5. Atualize a cadeia de ligação ao chamar - POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
 6. Obtenha o ID de GW e o ID da origem de dados ao chamar - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Atualize as credenciais do utilizador ao chamar - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
