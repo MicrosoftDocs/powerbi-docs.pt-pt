@@ -396,9 +396,11 @@
           href: power-bi-visualization-types-for-reports-and-q-and-a.md
         - name: Visualization best practices (Melhores práticas de visualização)
           href: power-bi-visualization-best-practices.md
-        - name: Custom visualizations in Power BI (Visualizações personalizadas no Power BI)
+        - name: Visualizações personalizadas no Power BI
           href: power-bi-custom-visuals.md
-        - name: 'Tutorial: Part I, Add visualizations to a Power BI report (Tutorial: parte I, adicionar visualizações a um relatório do Power BI)'
+        - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
+          href: power-bi-custom-visuals-organization.md
+        - name: 'Tutorial: parte I, Adicionar visualizações a um relatório do Power BI'
           href: power-bi-report-add-visualizations-i.md
         - name: 'Tutorial: Part 2, Add visualizations to a Power BI report (Tutorial: parte 2, adicionar visualizações a um relatório do Power BI)'
           href: power-bi-report-add-visualizations-ii.md
@@ -730,6 +732,8 @@
       items:
         - name: Vista de dados no Power BI Desktop
           href: desktop-data-view.md
+        - name: Date tables in Power BI Desktop (Tabelas de data no Power BI Desktop)
+          href: desktop-date-tables.md
         - name: Vista de relações no Power BI Desktop
           href: desktop-relationship-view.md
         - name: Criar e gerir relações no Power BI Desktop
@@ -758,8 +762,12 @@
           href: desktop-qna-in-reports.md
         - name: Analytics pane in Power BI Desktop (Painel Análise no Power BI Desktop)
           href: desktop-analytics-pane.md
+        - name: Multi-select in Power BI (Seleção múltipla no Power BI)
+          href: desktop-multi-select.md
         - name: Using insights in Power BI Desktop (Utilizar informações no Power BI Desktop)
           href: desktop-insights.md
+        - name: Slicers in Power BI Desktop (Segmentação de Dados no Power BI Desktop)
+          href: desktop-slicers.md
         - name: Marcadores no Power BI
           href: desktop-bookmarks.md
         - name: Utilizar temas de Relatórios
