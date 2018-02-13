@@ -128,8 +128,6 @@
           href: service-connect-to-azure-consumption-insights.md
         - name: Azure Search
           href: service-connect-to-azure-search.md
-        - name: Azure Security Center (Centro de Segurança do Azure)
-          href: service-connect-to-azure-security-center.md
         - name: Bing
           href: service-connect-to-bing.md
         - name: Circuit ID (ID de Circuito)
@@ -868,7 +866,7 @@
           href: mobile-reports-in-the-mobile-apps.md
         - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
           href: mobile-tiles-in-the-mobile-apps.md
-        - name: Share a dashboard from the Power BI mobile apps (Partilhar um dashboard das aplicações móveis do Power BI)
+        - name: Partilhar um dashboard das aplicações móveis do Power BI
           href: mobile-share-dashboard-from-the-mobile-apps.md
         - name: Favorites in the mobile apps (Favoritos nas aplicações móveis)
           href: mobile-apps-favorites.md
@@ -878,7 +876,7 @@
           href: mobile-apps-qr-code.md
         - name: Get notifications in the mobile apps (Receber notificações nas aplicações móveis)
           href: mobile-apps-notification-center.md
-        - name: Annotate and share in the mobile apps (Anotar e partilhar nas aplicações móveis)
+        - name: Anotar e partilhar nas aplicações móveis
           href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
         - name: Set data alerts in the mobile apps (Definir alertas de dados nas aplicações móveis)
           href: mobile-set-data-alerts-in-the-mobile-apps.md
@@ -980,8 +978,6 @@
       items:
         - name: Create a custom visual with the Developer Tools (Criar um elemento visual personalizado com as Ferramentas de Programação)
           href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Review custom visuals for security and privacy (Rever a segurança e a privacidade dos elementos visuais personalizados)
-          href: service-custom-visuals-review-for-security-and-privacy.md
         - name: Get a custom visual certified (Obter um elemento visual personalizado certificado)
           href: power-bi-custom-visuals-certified.md
     - name: Push data into a dashboard (Enviar dados por push para um dashboard)
