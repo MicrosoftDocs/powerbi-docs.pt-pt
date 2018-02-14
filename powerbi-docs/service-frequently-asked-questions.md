@@ -15,17 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 53d367d0dc76b338659283215855f4b55a2679fd
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
-* Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
+* Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-microsoft-power-bi"></a>O que é o Microsoft Power BI?
 O [Power BI](https://powerbi.microsoft.com/) é um serviço de análise de negócios baseado em nuvem que permite que qualquer pessoa visualize e analise dados com maior velocidade, eficiência e compreensão. Este liga os utilizadores a uma ampla variedade de dados por meio de dashboards fáceis de usar, relatórios interativos e visualizações atraentes para dar vida aos dados.
@@ -141,7 +141,7 @@ Também pode encontrar um [Parceiro da Microsoft](https://partner.microsoft.com/
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>O que acontece se a minha licença do Power BI Pro expirar?
 Após a licença do Power BI Pro expirar existe um período de tolerância de 30 dias.
 
-O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Office 365. Para obter mais informações, consulte [O que acontece aos meus dados e acesso quando a minha subscrição do Office 365 para empresas termina?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Office 365. Para obter mais informações, veja [O que acontece aos meus dados e acesso quando a minha subscrição do Office 365 para empresas termina?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>O Power BI cumpre requisitos de conformidade nacionais, regionais e específicos da indústria?
 Saiba mais sobre a conformidade do Power BI no [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).
@@ -159,5 +159,5 @@ Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma fo
 
 ## <a name="next-steps"></a>Passos seguintes
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-* Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/)
+* Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)
 

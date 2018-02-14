@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Desativar a definição de privacidade no Power BI Gateway - Personal
 > [!NOTE]
@@ -45,7 +45,7 @@ Para resolver este erro, pode ativar a **Combinação Rápida**. A **Combinaçã
 > 
 
 ## <a name="what-is-fast-combine"></a>O que é a Combinação Rápida?
-Para saber mais sobre níveis de privacidade e a Combinação Rápida, veja [Níveis de Privacidade](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Por predefinição, o nível de privacidade será definido para privado, o que poderá resultar no erro mencionado acima. Isto ocorre porque uma definição privada isolará a origem de dados de outras origens. Um exemplo de onde isto seria um problema é uma consulta parametrizada que está a obter entradas de outra origem de dados.
+Para saber mais sobre níveis de privacidade e a Combinação Rápida, veja [Níveis de Privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Por predefinição, o nível de privacidade será definido para privado, o que poderá resultar no erro mencionado acima. Isto ocorre porque uma definição privada isolará a origem de dados de outras origens. Um exemplo de onde isto seria um problema é uma consulta parametrizada que está a obter entradas de outra origem de dados.
 
 A ativação da Combinação Rápida ignorará a definição privada e permitirá que a execução ocorra.
 
@@ -85,7 +85,7 @@ Pode utilizar os passos a seguir para ativar a Combinação Rápida para o seu g
 
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados local (modo pessoal) - a nova versão do gateway pessoal](service-gateway-personal-mode.md)
-[Níveis de Privacidade](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
+[Níveis de Privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)  
 [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

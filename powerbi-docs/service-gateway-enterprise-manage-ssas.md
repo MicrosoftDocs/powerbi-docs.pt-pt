@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do Analysis Services para atualização agendada ou para ligações em direto.
@@ -86,20 +86,9 @@ Pode clicar em **Adicionar** depois de preencher tudo.  Agora, pode utilizar est
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Definições avançadas
-Pode configurar o nível de privacidade para a sua origem de dados. Controla a forma como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não é aplicável às ligações em direto. [Saber mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
+Pode configurar o nível de privacidade para a sua origem de dados. Controla a forma como os dados podem ser combinados. É utilizado apenas para a atualização agendada. Não é aplicável às ligações em direto. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Experiência “Obter Dados” para o Analysis Services no site do Power BI
-Uma opção exclusiva do Analysis Services é utilizar Obter Dados no serviço Power BI diretamente. Pode ligar a uma origem de dados do Analysis Services em direto que está configurada no gateway, sem precisar do Power BI Desktop. A conta tem de estar listada no separador **Utilizadores** da origem de dados, sob o gateway, para que seja apresentada na lista. Para ligar à origem de dados, pode fazer o seguinte.
-
-1. No serviço Power BI, selecione **Obter Dados**.
-2. Selecione **Bases de Dados**.
-3. Selecione **SQL Server Analysis Services** > **Ligar**.
-4. Selecione uma origem de dados da lista. Qualquer origem de dados do Analysis Services a que tenha acesso estará listada aqui.
-5. Selecione o modelo ao qual pretende ligar. Em seguida, selecione **Ligar**.
-
-Irá ser apresentado um conjunto de dados com o nome do servidor. Pode selecionar esse conjunto de dados e começar a criar relatórios no mesmo. Isto irá funcionar com dados em direto.
 
 ## <a name="usernames-with-analysis-services"></a>Nomes de Utilizador com o Analysis Services
 Sempre que um utilizador interage com um relatório ligado ao Analysis Services, o nome do utilizador efetivo é passado para o gateway e, em seguida, para o seu servidor no local do Analysis Services. O endereço de e-mail com o qual inicia sessão no Power BI é aquele que transmitiremos ao Analysis Services como sendo o utilizador efetivo. Isto é transmitido na propriedade de ligação [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Este endereço de e-mail deve corresponder a um UPN definido dentro do Domínio do Active Directory local. O UPN é uma propriedade de uma conta do Active Directory. Essa conta do Windows deverá, então, estar presente numa função do Analysis Services. Se uma correspondência não for encontrada, o início de sessão no Active Directory não será bem-sucedido. [Saber mais](https://msdn.microsoft.com/library/ms677605.aspx)
