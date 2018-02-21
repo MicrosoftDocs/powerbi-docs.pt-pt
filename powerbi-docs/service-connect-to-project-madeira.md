@@ -3,7 +3,7 @@ title: Ligar ao Projeto Madeira com o Power BI
 description: Projeto Madeira para Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -35,7 +35,7 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
 ## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.  
     ![](media/service-connect-to-project-madeira/getdata.png)
-2. Na caixa **Serviços**, selecione **Obter**.  
+2. Na caixa **Serviços** , selecione **Obter**.  
     ![](media/service-connect-to-project-madeira/services.png)
 3. Selecione **Projeto "Madeira"**, e, em seguida, selecione **Obter**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
