@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Utilizar o elemento visual Matriz no Power BI Desktop
 Com o elemento visual **Matriz**, pode criar elementos visuais de matriz (por vezes também designados por *tabelas*) em relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros elementos visuais. Além disso, pode selecionar linhas, colunas, células individuais e realces cruzados. Por último, para garantir uma melhor utilização do espaço de esquema, o elemento visual de matriz suporta um esquema gradual.
@@ -34,6 +34,19 @@ Existem muitas funcionalidades associadas à matriz e vamos analisá-las nas sec
 > A partir da versão de julho de 2017 do **Power BI Desktop**, os elementos visuais de matriz e tabela refletem o estilo (incluindo cores) do **Tema de Relatório** aplicado. Podem não ser as cores esperadas para o elemento visual de matriz, que pode alterar na configuração do **Tema de Relatório**. Veja [**Utilizar Temas de Relatório no Power BI Desktop**](desktop-report-themes.md) para obter mais informações sobre temas.
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Compreender como o Power BI calcula os totais
+
+Antes de avançar para a utilização do elemento visual **Matriz**, é importante compreender como o Power BI calcula os valores total e subtotal em tabelas e matrizes. Para as linhas total e subtotal, a medida é avaliada através de todas as linhas de dados subjacentes – *não* é apenas uma adição simples dos valores nas linhas visíveis ou apresentadas. Tal significa que pode ter valores diferentes do esperado na linha total. 
+
+Observe os elementos visuais **Matriz** seguintes. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+Neste exemplo, cada linha no elemento visual **Matriz** mais à direita mostra a *Quantidade* para cada combinação de representante de vendas/data. No entanto, uma vez que um representante de vendas é apresentado em várias datas, os números podem aparecer mais do que uma vez. Deste modo, o total exato dos dados subjacentes e uma simples adição de valores visíveis não são equivalentes. Trata-se de um padrão comum quando o valor que está a somar está de “um” lado de uma relação de um para muitos.
+
+Quando observar totais e subtotais, lembre-se de que esses valores são baseados nos dados subjacentes e não apenas nos valores visíveis. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Utilizar a desagregação no elemento visual Matriz
 Com o elemento visual **Matriz**, pode fazer todos os tipos de atividades de desagregação interessantes que não estavam disponíveis anteriormente. Isto inclui a capacidade de desagregar com linhas, colunas e até em células e secções individuais. Vamos ver como funciona cada uma.
@@ -144,16 +157,12 @@ Qualquer uma das abordagens alcança o mesmo resultado. Selecionar *Controlos av
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Limitações e considerações
-Nesta versão do elemento visual **Matriz**, existem algumas limitações e considerações a não esquecer.
+## <a name="next-steps"></a>Próximos passos
 
-* A desagregação em colunas só pode ser efetuada através do menu de contexto e não existe atualmente uma indicação no elemento visual que possa explorar em grupos de linhas ou colunas
-* Apenas pode expandir todos os itens num nível em simultâneo, em vez de expandir uma categoria de cada vez
-* **Ver Registos** pode ser apresentado num menu quando clicar com o botão direito do rato em cabeçalhos de coluna, mas não está operacional
-* Atualmente, não existe nenhuma linha *Total geral*
-* A desativação da linha de subtotal no esquema gradual não tem qualquer efeito
-* Os cabeçalhos de coluna podem ficar truncados se os grupos internos tiverem texto mais curto do que o grupo exterior
-* Alterar o avanço de esquema gradual não deve avançar o grupo de linhas mais exterior
+Poderá também estar interessado nos seguintes artigos:
 
-Estamos sempre a querer ouvir os seus pensamentos. Estamos atualmente a realizar um **inquérito** sobre este elemento visual **Matriz**, por isso, se tiver alguns minutos, [responda ao inquérito](https://www.instant.ly/s/PYXT1).
+* [Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop](desktop-gridlines-snap-to-grid.md)
+* [Origens de dados no Power BI Desktop](desktop-data-sources.md)
+* [Tipos de dados no Power BI Desktop](desktop-data-types.md)
 
+ 

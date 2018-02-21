@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.openlocfilehash: cde5199ad65e69f3304cfe244b549f1e7ae61e97
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -35,7 +35,7 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
 ## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.  
     ![](media/service-connect-to-project-madeira/getdata.png)
-2. Na caixa **Serviços** , selecione **Obter**.  
+2. Na caixa **Serviços**, selecione **Obter**.  
     ![](media/service-connect-to-project-madeira/services.png)
 3. Selecione **Projeto "Madeira"**, e, em seguida, selecione **Obter**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
     >[!NOTE]
     >Tem de ser um superutilizador no Projeto "Madeira".
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Uma vez ligado, um dashboard, relatório e conjunto de dados serão carregados automaticamente. Quando a operação estiver concluída, os mosaicos serão atualizados com os dados da sua conta.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Quando selecionar OK, será criada uma chave, para que possa copiá-la para o ca
 ## <a name="troubleshooting"></a>Resolução de problemas
 O dashboard do Power BI recorre aos serviços Web publicados que se encontram listados acima e irá mostrar os dados da empresa de demonstração ou da sua empresa, se importar dados da sua atual solução financeira. No entanto, se ocorrer algum problema, esta secção fornece uma solução para a maioria dos problemas comuns.
 
-**"Falha na validação do parâmetro. Verifique se todos os parâmetros são válidos" ** Se vir este erro após introduzir o seu URL do Projeto "Madeira", certifique-se de que os seguintes requisitos são cumpridos:  
+**“Falha na validação do parâmetro. Verifique se todos os parâmetros são válidos”**
 
-    - O URL segue exatamente o seguinte padrão: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - Elimine todo o texto após o nome da empresa entre parênteses  
-    - Verifique se que não há nenhuma barra no final do URL.  
-    - Certifique-se de que o URL utiliza uma ligação segura, conforme indicado pelo URL que começa por https.  
+Se vir este erro após introduzir o URL do Projeto “Madeira”, garanta que os seguintes requisitos são cumpridos:  
+
+   - O URL segue exatamente o seguinte padrão: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - Elimine todo o texto após o nome da empresa entre parênteses  
+   - Verifique se que não há nenhuma barra no final do URL.  
+   - Certifique-se de que o URL utiliza uma ligação segura, conforme indicado pelo URL que começa por https.  
 
 **"O início de sessão falhou"** Se receber um erro a indicar "o início de sessão falhou" quando iniciar sessão no seu dashboard com as credenciais do Projeto "Madeira", tal poderá dever-se a um dos seguintes problemas:  
 

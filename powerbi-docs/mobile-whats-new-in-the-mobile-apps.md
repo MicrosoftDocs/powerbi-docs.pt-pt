@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -29,6 +29,24 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](desktop-latest-update.md)  
 * [Novidades do serviço Power BI](service-whats-new.md)  
+
+## <a name="january-2018"></a>Janeiro de 2018
+
+### <a name="report-favorites"></a>Relatórios favoritos
+
+Atribua etiquetas de favoritos a relatórios para serem apresentados na página **Favoritos**. Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Ver relatórios partilhados
+
+Agora, quando alguém partilhar um relatório consigo, é listado na página **Partilhado comigo** juntamente com os dashboards.
+
+### <a name="improved-hyperlink-support"></a>Suporte de hiperligação melhorado
+
+Agora, pode tocar nas hiperligações nos elementos visuais personalizados para os abrir no browser do dispositivo móvel.
+
+### <a name="intune-integration-android"></a>Integração com o Intune (Android)
+
+Suporte para o acesso condicional através da gestão de dispositivos móveis do Intune.
 
 ## <a name="december-2017"></a>Dezembro de 2017
 
@@ -303,7 +321,7 @@ No serviço Power BI, pode agora [criar uma vista de dashboard especificamente p
 **Avisos e faixas melhorados** Melhorámos os avisos e as faixas da aplicação móvel.
 
 ### <a name="june-2016"></a>Junho de 2016
-Veja a [mensagem de blogue sobre aplicações móveis do Power BI](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/) para obter mais detalhes.
+Consulte a [mensagem de blogue sobre aplicações móveis do Power BI](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/) para obter mais detalhes.
 
 #### <a name="qr-codes-now-display-in-augmented-reality-ios"></a>Os códigos QR são agora apresentados em realidade aumentada (iOS)
 Agora, ao digitalizar um código QR gerado pelo serviço Power BI, o mosaico é apresentado em realidade aumentada. 
@@ -329,7 +347,7 @@ O centro de notificações da sua aplicação móvel do Power BI mostra novos da
 * **Geofiltragem**: filtre os relatórios pela sua localização atual.
 
 ### <a name="april-2016"></a>Abril de 2016
-Veja o [blogue sobre Aplicações do Power BI Mobile publicado em abril](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para obter mais detalhes.
+Consulte o [blogue sobre Aplicações do Power BI Mobile publicado em abril](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/) para obter mais detalhes.
 
 #### <a name="all-apps"></a>Todas as aplicações
 * Selecione mais do que uma opção numa segmentação de dados de relatório.

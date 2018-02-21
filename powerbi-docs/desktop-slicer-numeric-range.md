@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Utilizar a segmentação de dados de intervalo numérico no Power BI Desktop
 Com a **segmentação de dados de intervalo numérico**, pode aplicar todos os tipos de filtros a qualquer coluna numérica no seu modelo de dados. Pode optar por filtrar **entre** números, **menos que ou igual** a um número ou **mais que ou igual** a um número. Apesar de parecer simples, é uma forma muito poderosa de filtrar os seus dados.
@@ -56,6 +56,11 @@ Quando selecionarmos **Menor que ou igual a**, a alça esquerda (valor inferior)
 Por último, se selecionarmos **Maior que ou igual a**, a barra de controlo de deslize à direita (valor mais alto) desaparece, e podemos ajustar o valor inferior, conforme visto na seguinte imagem. Agora, apenas os itens com *UnitPrice* igual ou superior a 750,56 são apresentados nos visuais na página de relatório.
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Ajustar para números inteiros com a segmentação de dados do intervalo numérico (Pré-visualização)
+
+A partir do lançamento de fevereiro de 2018 do **Power BI Desktop**, a segmentação de dados do intervalo numérico será ajustada para números inteiros. Esta funcionalidade permite que a segmentação de dados se alinhe corretamente com números inteiros. O ajuste para números inteiros não se aplica a filtros decimais.
+
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 As seguintes limitações e considerações aplicam-se atualmente à **segmentação de dados de intervalo numérico**

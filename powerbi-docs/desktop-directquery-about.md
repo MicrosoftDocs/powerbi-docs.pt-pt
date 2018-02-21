@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Utilizar o DirectQuery no Power BI
 Pode ligar a todos os diversos tipos de origens de dados quando utiliza o **Power BI Desktop** ou o **serviço Power BI** e pode efetuar essas ligações de dados de formas diferentes. Pode *importar* dados para o Power BI, que é a forma mais comum de obtê-los ou pode ligar-se diretamente aos dados no respetivo repositório de origem original, o que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e respetivas capacidades, incluindo os seguintes tópicos:
@@ -269,14 +269,21 @@ Ao definir o modelo, considere fazer o seguinte:
 ### <a name="report-design-guidance"></a>Orientação para o Design de Relatórios
 Quando criar um relatório com uma ligação do DirectQuery, siga as orientações abaixo:
 
+* **Considere a utilização das opções de Redução de Consulta:** o Power BI dispõe de opções no relatório para enviar menos consultas e para desativar certas interações que resultarão numa experiência fraca se as consultas resultantes demorarem muito tempo a serem executadas. Para aceder a estas opções no **Power BI Desktop**, aceda a **Ficheiro > Opções e definições > Opções** e selecione **Redução de consulta**. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    As seleções da caixa de verificação na **Redução de consulta** permitem-lhe desativar o realce cruzado em todo o relatório. Também pode apresentar um botão *Aplicar* para as seleções de filtros e/ou segmentações de dados, o que lhe permite, em seguida, realizar muitas seleções de filtros e segmentações de dados antes de as aplicar, o que não permite enviar qualquer consulta enquanto não selecionar o botão **Aplicar** na segmentação de dados. As seleções servem para filtrar os dados.
+
+    Estas opções serão aplicadas ao relatório enquanto interage com ele no **Power BI Desktop**, bem como quando os utilizadores consomem o relatório no **serviço Power BI**.
+
 * **Aplique filtros primeiros:** aplique sempre todos os filtros aplicáveis no início da criação de um elemento visual. Por exemplo, em vez de arrastar TotalSalesAmount e ProductName e filtrar por um determinado ano, aplique o filtro em Ano, logo no início. Isto deve-se ao facto de que cada passo da criação de elementos visuais envia uma consulta e, embora seja possível fazer outras alterações antes da conclusão da primeira consulta, continua a haver uma carga desnecessária na origem subjacente. Normalmente, a aplicação de filtros logo no início faz com que estas consultas intermédias sejam menos dispendiosas. Além disso, a não aplicação dos filtros atempada pode fazer com que seja atingido o limite de um milhão de linhas mencionado anteriormente.
 * **Limite o número de elementos visuais nas páginas:** quando é aberta uma página (ou é alterada uma segmentação de dados ou um filtro ao nível da página), todos os elementos visuais na mesma são atualizados. Também existe um limite ao número de consultas que são enviadas em paralelo, pelo que, à medida que o número de elementos visuais aumenta, alguns destes são atualizados em série, o que aumenta o tempo que demora a atualizar a página inteira. Por este motivo, recomenda-se limitar a quantidade de elementos visuais em cada página e, em alternativa, criar mais páginas simples.
 * **Considere desativar a interação entre elementos visuais:** por predefinição, as visualizações nas páginas dos relatórios podem ser utilizadas para fazer filtragem e seleção cruzada das outras visualizações na página. Por exemplo, se selecionar “1999” no gráfico circular, o gráfico de colunas é selecionado de forma cruzada para mostrar as vendas por categoria para “1999”.                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  No entanto, esta interação pode ser controlada, conforme descrito [neste artigo](service-reports-visual-interactions.md). No DirectQuery, a filtragem e a seleção cruzadas requerem o envio de consultas para a origem subjacente, pelo que a interação deve ser desativada caso o tempo necessário para responder às seleções dos utilizadores for excessivamente longo.
-* **Considere partilhar apenas o relatório:** existem várias formas de partilhar conteúdos após a publicação no **serviço Power BI**. No caso do DirectQuery, recomenda-se partilhar apenas o relatório acabado em vez de permitir que outros utilizadores criem relatórios novos (e que, potencialmente, se deparem com problemas de desempenho nos elementos visuais específicos que criem).
+  No DirectQuery, a filtragem e o realce cruzados requerem a submissão de consultas para a origem subjacente, pelo que a interação deve ser desativada caso o tempo necessário para responder às seleções dos utilizadores for excessivamente longo. No entanto, esta interação pode ser desativada para o relatório completo (conforme descrito acima para as *Opções de redução de consultas*) ou numa base caso a caso, conforme descrito [neste artigo](service-reports-visual-interactions.md).
 
 Além da lista acima das sugestões, tenha em atenção que cada uma das seguintes capacidades de relatórios pode causar problemas de desempenho:
 
@@ -294,6 +301,8 @@ Além da lista acima das sugestões, tenha em atenção que cada uma das seguint
 * **Median:** geralmente, qualquer agregação (Sum, Count Distinct, etc.) é enviada para a origem subjacente. No entanto, isto não se aplica a Median, pois, regra geral, a origem subjacente não suporta esta agregação. Nestes casos, os dados de detalhe são obtidos a partir da origem subjacente e Median é calculada a partir dos resultados devolvidos. Esta abordagem é sensata se a mediana for calculada sobre um número relativamente pequeno de resultados, mas ocorrerão problemas de desempenho (ou falhas de consultas, devido ao limite de um milhão de linhas), caso a cardinalidade seja grande.  Por exemplo, um valor mediano da população de um país poderá ser razoável, mas um valor mediano de preço de vendas não.
 * **Filtros de texto avançados (“contém” e semelhantes):** ao filtrar numa coluna de texto, a filtragem avançada permite filtros como “contém”, “começa com”, etc. Estes filtros podem, certamente, resultar num desempenho pior em algumas origens de dados. Em particular, o filtro predefinido “contém” não deve ser utilizado se o que é realmente necessário é uma correspondência exata (“é” ou “não é”). Embora os resultados possam ser os mesmos, dependendo dos dados reais, o desempenho pode ser significativamente diferente devido à utilização de índices.
 * **Segmentações de dados com seleções múltiplas:** por predefinição, as segmentações de dados só permitem fazer uma única seleção. Permitir a seleção múltipla em filtros pode causar alguns problemas de desempenho, porque, à medida que o utilizador seleciona um conjunto de itens da segmentação de dados (por exemplo, os dez produtos em que está interessado), cada seleção nova resultará no envio de consultas para a origem de back-end. Embora o utilizador possa selecionar o item seguinte antes de a consulta ser concluída, tal resulta numa carga adicional na origem subjacente.
+
+* **Considere desativar os totais nos elementos visuais:** por predefinição, as tabelas e as matrizes apresentam totais e subtotais. Em muitos casos, tem de enviar consultas separadas para a origem subjacente para obter os valores para esses totais. Tal aplica-se sempre que utilizar a agregação *DistinctCount* ou em todos os casos quando utilizar o DirectQuery através de SAP BW ou SAP HANA. Esses totais deverão ser desativados (através do painel **Formato**) se não forem precisos. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnosticar problemas de desempenho
 Esta secção descreve como diagnosticar problemas de desempenho ou como obter informações mais detalhadas para permitir a otimização dos relatórios.
