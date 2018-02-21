@@ -3,7 +3,7 @@ title: Ligar ao Insightly com o Power BI
 description: Insightly para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: d506b45cf2a5c41ab1a6d05edb233c214606a316
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 259c278d0df12d504af11ea22e95496312ef7fc0
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Ligar ao Insightly com o Power BI
 Visualize e partilhe os seus dados de CRM do Insightly no Power BI com o pacote de conteúdos do Insightly. Ligue-se ao Power BI usando a sua chave de API do Insightly para visualizar e criar relatórios e dashboards a partir dos seus dados de CRM. Com o Power BI pode analisar os dados de novas maneiras, criar gráficos poderosos e exibir contactos, clientes potenciais e organizações num mapa.

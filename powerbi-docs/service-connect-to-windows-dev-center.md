@@ -3,7 +3,7 @@ title: Ligue-se ao Windows Dev Center com o Power BI
 description: Windows Dev Center para Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 95673e25b373f6878ba87098fa8e37625f6c4996
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 92d45548691291dec23a7e80238d9f8137881591
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Ligue-se ao Windows Dev Center com o Power BI
 Explore e monitorize os seus dados de análise de aplicação do Windows Dev Center no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.

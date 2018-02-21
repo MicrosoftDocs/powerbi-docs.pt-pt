@@ -3,7 +3,7 @@ title: Ligar-se ao SparkPost com o Power BI
 description: SparkPost para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 0547f288649ef9d2c494d979c39bb9661b8b35f4
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 11cfb3b02c37ab839726c7fe87079afafb35f3b1
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Ligar-se ao SparkPost com o Power BI
 O pacote de conteúdos do Power BI para SparkPost permite extrair conjuntos de dados valiosos da sua conta do SparkPost para um dashboard de informações. Com o pacote de conteúdos do SparkPost, é possível visualizar as estatísticas gerais de e-mail, incluindo domínios, campanhas e envolvimento por ISP.

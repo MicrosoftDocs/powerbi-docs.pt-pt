@@ -3,7 +3,7 @@ title: Ligue-se ao Application Insights com o Power BI
 description: Application Insights para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 0bbbbccefedd437204e1981cb1cc88493373330b
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.author: sarinas
+ms.openlocfilehash: d2a58de38c15599556419a6ebd219dd3a522c27a
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Ligue-se ao Application Insights com o Power BI
 Use o Power BI para criar dashboards personalizados eficientes através da telemetria do [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Veja a telemetria da sua aplicação de novas maneiras. Combine métricas de várias aplicações ou serviços componentes num único dashboard. Esta primeira versão do pacote de conteúdos do Power BI para o Application Insights inclui widgets de métricas comuns relacionadas com a utilização, como utilizadores ativos, exibição de página, sessões, versão do browser e do SO e distribuição geográfica de utilizadores num mapa.

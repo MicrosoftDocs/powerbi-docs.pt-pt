@@ -3,7 +3,7 @@ title: Ligue-se ao Zuora com o Power BI
 description: Zuora para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 408f41e1a50b895166308fcba129d86f5c05d0e7
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 293aa4d990d919c2c53e73de0733c720bdb0c9b8
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Ligue-se ao Zuora com o Power BI
 O Zuora para o Power BI permite que visualize dados importantes de receitas, faturação e subscrição. Utilize o dashboard e os relatórios predefinidos para analisar tendências de utilização, acompanhar cobranças e pagamentos e monitorizar receitas recorrentes ou personalizá-las para atender às suas necessidades exclusivas do dashboard e do relatório.

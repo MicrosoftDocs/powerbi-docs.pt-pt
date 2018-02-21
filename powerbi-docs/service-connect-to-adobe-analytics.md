@@ -3,7 +3,7 @@ title: Ligar ao Adobe Analytics com o Power BI
 description: "Ligue ao Adobe Analytics a partir do Power BI para uma aplicação que apresenta os dados da sua conta num dashboard e relatórios."
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 2d4d5e71c87a90ef917ea91dd0b7d178a5c0cbfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: d73887c4f74d501057b3c35f5d9f404d4862b2a9
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Ligar ao Adobe Analytics com o Power BI
 A ligação ao Adobe Analytics através do Power BI começa pela ligação à sua conta do Adobe Analytics Marketing Cloud. Obtém uma aplicação com um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre as dimensões de tráfego e utilizadores do seu site. Os dados são atualizados automaticamente uma vez por dia. Pode interagir com o dashboard e os relatórios, mas não pode guardar as alterações.
@@ -102,5 +102,5 @@ Se tiver acedido ao ecrã de credenciais antes de receber um erro, é possível 
 ## <a name="next-steps"></a>Próximos passos
 * [O que são aplicações no Power BI?](service-install-use-apps.md)
 * [Obter dados no Power BI](service-get-data.md)
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
