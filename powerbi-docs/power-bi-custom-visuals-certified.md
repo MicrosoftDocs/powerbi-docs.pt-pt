@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: e73d0378e9e94bc8fc10402e3e7f4a524f93e5fb
-ms.sourcegitcommit: 433a5625f1d4557c09a7a7382416e2bbdb40c797
+ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
+ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 02/21/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obter um visual personalizado *certificado*
 ## <a name="what-is-meant-by-certified"></a>O que se entende por *certificado*?
@@ -63,6 +63,7 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Calendário Beyondsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Gráfico de Laço da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Vídeo](https://youtu.be/So5xKMSpVJI) |
 | [Gráfico de Caixa e Bigodes](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
+| [Gráfico de Caixa de Bigodes da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351) | [Vídeo](https://youtu.be/JoHaFLfhXdo) |
 | [Gráfico de Tijolos da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [Vídeo](https://youtu.be/hA3DOsvn2xY) |
 | [Gráfico de Bolhas da Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
 | [Gráfico de Marcas](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [Vídeo](https://youtu.be/AOlsFYkfkcw) |
@@ -102,10 +103,12 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Barras de Dados de Globo](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
 | [Gráfico de Hierarquias da Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Vídeo](https://youtu.be/0ZGzJaq_KT4) |
 | [Gráfico de Histograma](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
+| [Histograma com pontos da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Vídeo](https://youtu.be/-ILF--wExrw) |
 | [Funil Horizontal da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [Vídeo](https://youtu.be/SudZei68PPo) |
 | [Imagem da CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
 | [Grelha Grande](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
 | [Designer de Infográficos](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
+| [Gráfico de KPI da Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [Indicador KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [Ticker de KPI da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Vídeo](https://youtu.be/cudG4gsZ2V8) |
 | [Medidor Linear da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Vídeo](https://youtu.be/7_jFaM30dkc) |

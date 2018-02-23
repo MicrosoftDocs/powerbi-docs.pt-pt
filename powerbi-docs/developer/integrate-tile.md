@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: fd33908f907ffac6cbff765e01e4a4321d399ca8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c4c1b9223554491968a541c9d6b698a9655eded5
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrar um mosaico numa aplicação (os dados são do utilizador)
 Saiba como integrar ou incorporar um mosaico numa aplicação Web através de chamadas à API REST, juntamente com a API JavaScript do Power BI ao incorporar para a sua organização.

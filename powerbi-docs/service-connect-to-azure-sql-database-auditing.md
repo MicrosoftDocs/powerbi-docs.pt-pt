@@ -3,7 +3,7 @@ title: "Pacote de conteúdos de Auditoria de Base de Dados SQL"
 description: "Pacote de conteúdos de Auditoria de Base de Dados SQL para o Power BI"
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pacote de conteúdos de Auditoria de Base de Dados SQL para o Power BI
 O pacote de conteúdos do Power BI para a [Auditoria de Base de Dados SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) do Azure permite perceber a atividade da sua base de dados e obter informações sobre as discrepâncias e anomalias que podem gerar preocupações comerciais ou suspeitas de violações de segurança. 
@@ -59,7 +59,7 @@ Ligue-se ao [pacote de conteúdos da Auditoria de Base de Dados SQL](https://app
    - Introduza a data de término dos registos de auditoria desejados. Introduza “\*” para carregar os registos de auditoria sem um tempo limite superior.
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. Como o Método de Autenticação, selecione **Chave**, introduza a **Chave de Conta** \> \> **Iniciar Sessão**.
+5. Como o Método de Autenticação, selecione **Chave**, introduza a **Chave de Conta** \> **Iniciar Sessão**.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
