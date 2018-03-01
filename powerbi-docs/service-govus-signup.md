@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscrever a sua organização do Governo dos EUA no serviço Power BI
 O **serviço Power BI** tem uma versão disponível para clientes do Governo dos EUA como parte das subscrições do **Office 365 US Government Community**. A versão do **serviço Power BI** abordada neste artigo foi concebida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
@@ -45,12 +46,14 @@ Se a sua organização for um novo cliente do **Office Government Cloud**, siga 
 
 > [!NOTE]
 > Estes passos devem ser efetuados pelo administrador do portal.
-> 
-> 
+>
 
-1. Aceda a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government). 
-    >[!NOTE]
-    >Se não se quiser inscrever no Office Government Cloud neste momento, contacte o representante de vendas.
+1. Aceda a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+
+>[!NOTE]
+>Se não se quiser inscrever no Office Government Cloud neste momento, contacte o representante de vendas.
+>
+
 2. Selecione Office G3 e preencha o formulário para obter uma versão de avaliação do Office
 3. Assim que for um cliente do Office Cloud, avance para os passos abaixo para "Clientes do Office Government Cloud existentes"
 

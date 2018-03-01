@@ -15,7 +15,7 @@ Na vista de **Relatório** do Power BI Desktop, pode começar a criar relatório
 
 A vista de **Relatório** tem cinco áreas principais:
 
-1. A faixa de opções, que exibe tarefas comuns associadas a relatórios e visualizações
+1. O friso, que apresenta tarefas comuns associadas a relatórios e visualizações
 2. A vista de **Relatório**, ou tela, onde as visualizações são criadas e dispostas
 3. A área do separador **Páginas** ao longo da parte inferior, que permite selecionar ou adicionar uma página de relatório
 4. O painel **Visualizações**, onde pode alterar visualizações, personalizar cores ou eixos, aplicar filtros, arrastar campos e muito mais
@@ -23,7 +23,7 @@ A vista de **Relatório** tem cinco áreas principais:
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_3.png)
 
-Os painéis **Visualizações** e **Campos** podem ser fechados, ao selecionar a pequena seta ao longo da margem, oferecendo mais espaço na vista de **Relatório** para criar visualizações fantásticas. Ao modificar visualizações, você também verá essas setas apontando para cima ou para baixo, o que significa que você pode expandir ou recolher essa seção de acordo.
+Os dashboards **Visualizações** e **Campos** podem ser fechados, ao selecionar a pequena seta ao longo da margem, proporcionando mais espaço na vista de **Relatório** para criar visualizações fantásticas. Ao modificar visualizações, também verá essas setas a apontar para cima ou para baixo, o que significa que pode expandir ou fechar essa secção em conformidade.
 
 ![](media/0-2-get-started-power-bi-desktop/c0a2_4.png)
 
