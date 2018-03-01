@@ -1,6 +1,6 @@
 ---
-title: "Introdução ao serviço Power BI"
-description: "Introdução ao serviço Power BI"
+title: "Introdução ao serviço do Power BI"
+description: "Introdução ao serviço do Power BI"
 services: powerbi
 documentationcenter: 
 author: adamw
@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: ee7375c28b3c13b53eba52f0bf76754529c9b4f5
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Get started
+ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](guided-learning/gettingstarted.yml#step-1).
@@ -134,7 +135,7 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
 
    ![](media/service-get-started/power-bi-final-dashboard.png)
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Pronto para experimentar mais?  Veja a seguir algumas formas interessantes de explorar o Power BI.
 
 * [Ligue-se a outro conjunto de dados](service-get-data.md).

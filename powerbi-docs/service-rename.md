@@ -17,14 +17,15 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Mudar o nome de praticamente qualquer coisa no serviço Power BI
-Este artigo mostra como mudar o nome de um dashboard, relatório, página de relatório, livro, conjunto de dados, aplicação e área de trabalho no serviço Power BI.
+Este artigo mostra como mudar o nome de um dashboard, relatório, p´gina de relatório, livro, conjunto de dados, aplicação e área de trabalho no serviço Power BI.
 
 **Posso alterar o nome?**
 
@@ -34,9 +35,9 @@ Este artigo mostra como mudar o nome de um dashboard, relatório, página de rel
 | Relatório numa área de trabalho |Sim |Não |
 | Livro numa área de trabalho |Sim |Não |
 | Conjunto de dados numa área de trabalho |Sim |Não |
-| Aplicação numa área de trabalho |Sim, se for o proprietário ou tiver permissões de Administrador |Não |
-| Aplicações publicadas |Não a partir do ecrã Aplicação, mas o nome da aplicação pode ser alterado a partir da área de trabalho da aplicação e novamente publicado com um novo nome se tiver permissões de Administrador |Não |
-| Conteúdo da aplicação (dashboard, relatório, livro, conjunto de dados) |Não a partir do ecrã Aplicação, mas o nome do conteúdo da aplicação pode ser mudado a partir da área de trabalho da aplicação e novamente publicado com um novo nome se tiver permissões de Administrador |Não |
+| Aplicação numa área de trabalho |Sim, se for o proprietário ou tiver permissões de Administrador |No |
+| Aplicações publicadas |Não a partir do ecrã Aplicação, mas o nome da aplicação pode ser alterado a partir da área de trabalho da aplicação e novamente publicado com um novo nome se tiver permissões de Administrador |No |
+| Conteúdo da aplicação (dashboard, relatório, livro, conjunto de dados) |Não a partir do ecrã Aplicação, mas o nome do conteúdo da aplicação pode ser mudado a partir da área de trabalho da aplicação e novamente publicado com um novo nome se tiver permissões de Administrador |No |
 | Conteúdo em **Partilhado comigo** |Não |Não |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Mudar o nome de um dashboard, relatório ou livro
@@ -93,5 +94,5 @@ Não gosta do nome de uma página no relatório do Power BI?  Um novo nome está
 * Se o item cujo nome quer mudar foi partilhado consigo ou fizer parte de um pacote de conteúdos, não verá o ícone de engrenagem e não terá acesso às Definições.
 * No separador **Conjuntos de dados**, se não vir as reticências (…), expanda a janela do browser.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

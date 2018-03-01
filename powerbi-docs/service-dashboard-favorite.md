@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 79a47126c43f61d3495a948bf1a30f3d918429f3
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Marcar dashboards, relatórios e aplicações como favoritos no serviço Power BI
 Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos em todas as suas áreas de trabalho.  Normalmente, os favoritos são os conteúdos que visita com mais frequência.
@@ -70,7 +71,7 @@ Veja a Amanda a adicionar favoritos à sua área de trabalho e, em seguida, siga
    Aqui pode realizar várias ações: abrir, identificar os proprietários e até partilhar com os seus colegas.
 
 ## <a name="unfavorite-content"></a>Remover conteúdos dos favoritos
-Já não precisa de utilizar um relatório com tanta frequência?  Pode removê-lo dos favoritos. Ao remover conteúdos dos favoritos, estes são removidos da sua lista Favoritos, mas não do Power BI.
+Já não precisa de utilizar um relatório com tanta frequência?  Pode anulá-lo como favorito. Ao remover conteúdos dos favoritos, estes são removidos da sua lista Favoritos, mas não do Power BI.
 
 1. No painel de navegação esquerdo, selecione **Favoritos** para abrir o ecrã **Favoritos**.
    
