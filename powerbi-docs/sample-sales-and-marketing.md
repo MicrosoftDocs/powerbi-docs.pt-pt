@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing para o Power BI: fazer um tour
 
@@ -36,7 +37,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Antes de poder utilizar o exemplo, primeiro tem de transferir, como pacote de conteúdos, um ficheiro .pbix ou um livro do Excel.
+ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) ou [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 
@@ -134,7 +135,7 @@ A lacuna de sensibilidade seria outra área a explorar: que distritos têm a mai
 
 * O gráfico da parte inferior esquerda mostra todos os segmentos de categoria, exceto dois segmentos mais fortes da VanArsdel. Para filtrar por categoria, clicar nas barras de ajuda a identificar as potenciais áreas de expansão para a VanArsdel. Os segmentos **Extremo** e **Produtividade** estão a crescer mais rapidamente do que outros.
 * Mas não concorremos nestes segmentos. Se quisermos mover para essas áreas, podemos utilizar os nossos dados para ver que segmentos são populares em que regiões. Pode investigar questões como a região que está a crescer mais rapidamente e qual seria o nosso principal concorrente nesse segmento.
-* Lembra-se da queda da nossa participação de mercado em junho? Junho é um excelente mês para o segmento de Produtividade - um segmento em que não competimos de todo. Isso poderia ajudar a explicar a nossa queda de participação de mercado em junho.
+* Lembra-se da queda da nossa participação de mercado em junho? Junho é um excelente mês para o segmento de Produtividade – um segmento em que não competimos de todo. Isso poderia ajudar a explicar a nossa queda de participação de mercado em junho.
 
 Ao filtrar as visualizações por VanArsdel, por segmento, por mês e por região, podemos descobrir as oportunidades de crescimento para VanArsdel.
 

@@ -2,7 +2,7 @@
   items:
     - name: Get started (Introdução)
       items:
-        - name: 'Power BI - basic concepts (Power BI: conceitos básicos)'
+        - name: 'Power BI – basic concepts (Power BI: conceitos básicos)'
           href: service-basic-concepts.md
         - name: Get started with Power BI (Introdução ao Power BI)
           href: service-get-started.md
@@ -86,7 +86,7 @@
           href: service-focus-mode.md
     - name: Premium
       items:
-        - name: Power BI Premium - what is it? (Power BI Premium – o que é?)
+        - name: Power BI Premium – what is it? (Power BI Premium – o que é?)
           href: service-premium.md
         - name: How to purchase Power BI Premium (Como comprar o Power BI Premium)
           href: service-admin-premium-purchase.md
@@ -866,7 +866,7 @@
           href: mobile-reports-in-the-mobile-apps.md
         - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
           href: mobile-tiles-in-the-mobile-apps.md
-        - name: Partilhar um dashboard das aplicações móveis do Power BI
+        - name: Partilhar um dashboard ou relatório das aplicações móveis
           href: mobile-share-dashboard-from-the-mobile-apps.md
         - name: Favorites in the mobile apps (Favoritos nas aplicações móveis)
           href: mobile-apps-favorites.md

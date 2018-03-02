@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda para o Power BI: veja uma apresentação
 
@@ -31,7 +32,7 @@ Este dashboard de exemplo do setor, juntamente com o relatório subjacente, anal
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Antes de poder utilizar o exemplo, primeiro tem de transferir, como pacote de conteúdos, um ficheiro .pbix ou um livro do Excel.
+ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), um [ficheiro .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) ou um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 
@@ -166,8 +167,9 @@ Este é um ambiente seguro para experimentar. Pode sempre optar por não guardar
 Esperamos que esta apresentação tenha mostardo como os dashboards, as Perguntas e Respostas e os relatório do Power BI podem fornecer informações sobre dados de revenda. Agora, é sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Obtenha mais informações sobre como [começar a utilizar o Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Próximos passos
-* [Descarregue o pacote de conteúdos de exemplo de Análise de Revenda](sample-tutorial-connect-to-the-samples.md)    
+* [Transferir o pacote de conteúdos de exemplo de Análise de Revenda](sample-tutorial-connect-to-the-samples.md)
+* [Transferir um ficheiro zip de todos os ficheiros de exemplo](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Descarregue o livro do Excel para este exemplo do Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obter dados (para o Power BI)](service-get-data.md)    
-* [Power BI - Conceitos Básicos](service-basic-concepts.md)    
+* [Power BI – Conceitos Básicos](service-basic-concepts.md)    
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

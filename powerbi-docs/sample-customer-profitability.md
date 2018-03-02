@@ -17,16 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+LocalizationGroup: Samples
+ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
-O pacote de conteúdo “Exemplo de Lucro do Cliente” contém um dashboard, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por um diretor financeiro para ver as métricas chave sobre os 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ela pode ver rapidamente que fatores têm impacto sobre o lucro.
+O pacote de conteúdo "Exemplo de Lucro do Cliente" contém um dashboard, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por um diretor financeiro para ver as métricas chave sobre os 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ela pode ver rapidamente que fatores têm impacto sobre o lucro.
 
 <<<<<<< CABEÇALHO ![](media/sample-customer-profitability/power-bi-dash.png)
 
@@ -129,9 +130,9 @@ A maioria dos mosaicos no dashboard no exemplo de Rentabilidade do Cliente foram
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
-    * “Tabela de Indicadores da Equipa” centra-se no desempenho dos 5 gestores e dos respetivos “livros de negócio”.
-    * “Análise de Margem do Setor” fornece uma forma de analisar a rentabilidade em comparação com o que se passa em todo o setor.
-    * “Tabela de Indicadores de Executivos” fornece uma vista de cada um dos gestores formatada para visualização no Cortana.
+    * "Tabela de Indicadores da Equipa" centra-se no desempenho dos 5 gestores e dos respetivos "livros de negócio".
+    * "Análise de Margem do Setor" fornece uma forma de analisar a rentabilidade em comparação com o que se passa em todo o setor.
+    * "Tabela de Indicadores de Executivos" fornece uma vista de cada um dos gestores formatada para visualização no Cortana.
 
 ### <a name="team-scorecard-page"></a>Página de pontuação da equipa
 ![](media/sample-customer-profitability/customer2.png)
@@ -139,8 +140,8 @@ A maioria dos mosaicos no dashboard no exemplo de Rentabilidade do Cliente foram
 Vejamos os dois membros da equipa em detalhes e que informações podem ser obtidas. Na segmentação à esquerda, selecione o nome de Andrew para filtrar a página de relatório para apresentar apenas os dados dele.
 
 * Para um KPI rápido, veja o **Estado da Receita** de Andrew; está verde. Está a ter um bom desempenho.
-* O gráfico de área “% de Variação da Receita do Orçamento por Mês” mostra a exceção para uma queda em fevereiro e Andrew está a ter um desempenho global muito bom. A região dominante é leste e ele manipula 49 clientes e 5 (de 7) produtos. A % de Margem Bruta não é a mais alta nem a mais baixa.
-* O “Total da Receita e % de Variação da Receita do Orçamento por Mês” mostra um histórico de lucros estável, mas ao filtrar ao clicar no quadrado **Central** na região treemap, vemos que Andrew apenas tem receita em março e no Indiana. Isto é intencional ou é algo que temos de examinar?
+* O gráfico de área "% de Variação da Receita do Orçamento por Mês” mostra a exceção para uma queda em fevereiro e Andrew está a ter um desempenho global muito bom. A região dominante é leste e ele manipula 49 clientes e 5 (de 7) produtos. A % de Margem Bruta não é a mais alta nem a mais baixa.
+* O "Total da Receita e % de Variação da Receita do Orçamento por Mês" mostra um histórico de lucros estável, mas ao filtrar ao clicar no quadrado **Central** na região treemap, vemos que Andrew apenas tem receita em março e no Indiana. Isto é intencional ou é algo que temos de examinar?
 
 Agora, com Valery. Na segmentação, selecione o nome de Valery para filtrar a página do relatório para exibir apenas os dados sobre ela.  
 ![](media/sample-customer-profitability/customer3.png)
@@ -151,10 +152,10 @@ Agora, com Valery. Na segmentação, selecione o nome de Valery para filtrar a p
 * Ao selecionar o quadrado **Norte** no treemap mostra que a margem bruta de Valery na região norte é consistente com a respetiva margem geral.
 * Ao selecionar os outros quadrados **Região** vemos uma história interessante: a % de Margem Bruta varia entre 23% e 79% e os números de receita, em todas as regiões, exceto no Norte, são extremamente sazonais.
 
-Continue a ler para descobrir por que a área de Valery não apresenta um bom desempenho. Examine as regiões, unidades de negócios e a próxima página do relatório – “Análise de Margem do Setor”.
+Continue a ler para descobrir por que a área de Valery não apresenta um bom desempenho. Examine as regiões, unidades de negócios e a próxima página do relatório – "Análise de Margem do Setor".
 
 ### <a name="industry-margin-analysis"></a>Análise de Margem do Setor
-Esta página de relatório fornece uma secção diferente dos dados. Examina a margem bruta para todo o setor, dividido por segmento. O diretor financeiro utiliza essa página para comparar as métricas de unidade da empresa e comercial para métricas do setor para ajudar a explicar tendências e lucro. Deve estar a imaginar por que o gráfico de área “Margem Bruta por Mês e Nome de Executivo” está nesta página, já que é específico de uma equipa. Tê-lo aqui permite-nos filtrar a página pelo gerente da unidade de negócios.  
+Esta página de relatório fornece uma secção diferente dos dados. Examina a margem bruta para todo o setor, dividido por segmento. O diretor financeiro utiliza essa página para comparar as métricas de unidade da empresa e comercial para métricas do setor para ajudar a explicar tendências e lucro. Deve estar a imaginar por que o gráfico de área "Margem Bruta por Mês e Nome de Executivo” está nesta página, já que é específico de uma equipa. Tê-lo aqui permite-nos filtrar a página pelo gerente da unidade de negócios.  
 ![](media/sample-customer-profitability/customer6.png)
 
 Como varia o lucro por setor? Como se os produtos e clientes dividem por setor? Selecione um ou mais setores na parte superior esquerda. (iniciar no setor CPG) Para limpar o filtro, selecione o ícone de borracha.
@@ -195,8 +196,8 @@ Vamos analisar o setor de *Distribuição*.
 3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o setor de Distribuição. Primeiro, desmarque todas as seleções ao desmarcar a caixa de seleção**Selecionar Tudo**. Em seguida, selecione apenas **Distribuição**.  
    
    ![](media/sample-customer-profitability/customer7.png)
-4. O gráfico de área “Margem bruta por Mês e o Nome do Executivo” informa que apenas Valery e Tina têm clientes neste setor e Valery só trabalhou com o setor de junho a novembro.   
-5. Selecione **Tina** e **Valery** na legenda do gráfico de área “Margem Bruta por Mês e Executivo”. Observe a parte de Tina “Receita Total por Produto” é muito pequeno se comparada a Valery. 
+4. O gráfico de área "Margem bruta por Mês e o Nome do Executivo" informa que apenas Valery e Tina têm clientes neste setor e Valery só trabalhou com o setor de junho a novembro.   
+5. Selecione **Tina** e **Valery** na legenda do gráfico de área "Margem Bruta por Mês e Executivo". Observe a parte de Tina "Receita Total por Produto" é muito pequeno se comparada a Valery. 
 6. Para ver a receita real, utilize as Perguntas e Respostas para pedir a **receita total por executivo da distribuição por cenário**.  
    
      ![](media/sample-customer-profitability/power-bi-qna2.png)

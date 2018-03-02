@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
@@ -633,7 +634,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 * Os dashboards **GitHub** têm novos elementos visuais que se concentram na criação de comunidades, cálculos melhorados e esquema aperfeiçoado
 * Os dashboards **SendGrid** têm novos elementos visuais e um novo esquema para ajudá-lo a encontrar melhores informações
-* Agora, pode utilizar **treemaps em Perguntas e Respostas**, utilizando a frase «as treemap» no fim da consulta
+* Agora, pode utilizar **treemaps em Perguntas e Respostas** com a frase “as treemap” no fim da consulta
 * Agora pode **fixar treemaps** das perguntas e respostas e dos relatórios 
 * Várias correções de erros!
 

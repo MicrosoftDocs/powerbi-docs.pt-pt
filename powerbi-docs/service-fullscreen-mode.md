@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: a8d1a49a341b98778a6ad08c823397f420b2475e
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: bef91085c23ec1aeaea18f6624ea37cb12a374a1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="full-screen-mode-in-power-bi"></a>Modo de ecrã inteiro no Power BI
 ## <a name="what-is-full-screen-mode"></a>O que é o modo de ecrã inteiro?
@@ -41,7 +42,7 @@ Alguns usos do modo de ecrã inteiro:
 > 
 > 
 
-Veja a Amanda a abrir e a navegar no dashboard no modo de ecrã inteiro e a aplicar parâmetros de URL para controlar a apresentação predefinida. Em seguida, siga as instruções passo a passo abaixo do vídeo para experimentar.
+Veja a Amanda a abrir e a navegar no dashboard no modo de ecrã inteiro e a aplicar parâmetros de URL para controlar a apresentação predefinida. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
@@ -91,5 +92,5 @@ Veja a Amanda a abrir e a navegar no dashboard no modo de ecrã inteiro e a apli
 [Dashboards no Power BI](service-dashboards.md)  
 [Modo de detalhe](service-focus-mode.md)    
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -15,17 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: v-mamcge
-ms.openlocfilehash: 82ac4382fe80d83b60705f135b50738718f28876
-ms.sourcegitcommit: 7eb15c813a0d14322cb1316bb7aab23cbc13aae6
+ms.date: 02/27/2018
+ms.author: jocaplan
+LocalizationGroup: Premium
+ms.openlocfilehash: def06965692644c0328dae7a1d0ade8d13cc0d6c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Suporte do Power BI Premium para conjuntos de dados grandes
 
-O Power BI Premium suporta carregamentos de ficheiros do Power BI Desktop (.pbix) com até 10 GB. Para utilizar um conjunto de dados grande, publique-o numa área de trabalho com capacidade Premium.
+O Power BI Premium suporta carregamentos de ficheiros do Power BI Desktop (.pbix) com até 10 GB. Após ser carregado, pode atualizar um conjunto de dados para um tamanho de até 12 GB. Para utilizar um conjunto de dados grande, publique-o numa área de trabalho com capacidade Premium.
  
 ## <a name="best-practices"></a>Melhores práticas
 
@@ -52,11 +53,11 @@ Esta secção descreve as melhores práticas para trabalhar com conjuntos de dad
 
 **Apesar de a memória por consulta e as restrições de tempo serem muito superiores na capacidade Premium**, é altamente recomendada a utilização de filtros e segmentações de dados para limitar os elementos visuais para apresentar apenas o que é necessário.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Power BI Premium – o que é?](service-premium.md)  
 [Notas de versão do Power BI Premium](service-premium-release-notes.md)  
 [Documento técnico do Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-[Documento técnico sobre planear uma Implementação do Power BI Enterprise](https://aka.ms/pbienterprisedeploy)  
-[Ativação da Versão de Avaliação Pro alargada](service-extended-pro-trial.md)  
+[Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)  
+[Ativação da Versão de Avaliação Pro Expandida](service-extended-pro-trial.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
