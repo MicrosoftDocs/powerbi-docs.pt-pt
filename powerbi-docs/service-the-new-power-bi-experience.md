@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/09/2018
 ms.author: mihart
-ms.openlocfilehash: c7a782880c2bc3fe4743d635bbc76dfc41660909
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Get started
+ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Introdução ao serviço Power BI
 ## <a name="the-left-navigation-pane"></a>O painel de navegação à esquerda
@@ -155,7 +156,7 @@ Também pode ordenar o conteúdo por nome ou proprietário.
 
 Para saber mais, veja [Navegação no Power BI: procurar, ordenar e filtrar](service-navigation-search-filter-sort.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Conceitos básicos](service-basic-concepts.md) do serviço Power BI    
 
 Tem perguntas ou comentários? [Visite o fórum da comunidade do Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
