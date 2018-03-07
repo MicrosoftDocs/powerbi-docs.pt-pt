@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 73cb9769fad31ad4b12b0df6c9492079d5cecaa8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um mosaico no Power BI a utilizar nas aplicações móveis
 Os códigos QR no Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
@@ -41,11 +42,11 @@ Os colegas com quem partilhou o dashboard podem [digitalizar o código QR para a
     ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. Aqui, pode digitalizar o código QR ou transferir e guardá-lo para: 
    
-   * Adicioná-lo a um e-mail ou a outro documento, ou 
-   * Imprimi-lo e colocá-lo num local específico. 
+   * Adicioná-lo a um e-mail ou a outro documento ou 
+   * Imprimi-lo e colocá-lo numa localização específica. 
 
 ## <a name="print-the-qr-code"></a>Imprimir o código QR
-O Power BI gera o código QR como um ficheiro JPG pronto para imprimir. 
+O Power BI gera o código QR como um ficheiro JPG pronto para impressão. 
 
 1. Selecione **Transferir** e abra o ficheiro JPG num computador ligado a uma impressora.  
    
@@ -60,5 +61,5 @@ O Power BI gera o código QR como um ficheiro JPG pronto para imprimir.
 * [Ligar a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
 * [Digitalizar um código QR do Power BI a partir do seu dispositivo móvel](mobile-apps-qr-code.md)
 * [Criar um código QR para um relatório](service-create-qr-code-for-report.md)
-* Perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

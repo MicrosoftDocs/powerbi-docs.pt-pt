@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Personalize títulos, legendas e fundos de visualização (Tutorial)
 Neste tutorial, aprenderá várias formas de personalizar as visualizações.   Existem muitas opções para personalizar as visualizações. A melhor forma de obter informações sobre todas estas opções é explorar o painel de Formatação (selecione o ícone do rolo de tinta).  Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda e um fundo de visualização.  

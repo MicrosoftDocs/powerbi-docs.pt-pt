@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+LocalizationGroup: Gateways
+ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurar definições de proxy para o gateway de dados no local
 O seu ambiente de trabalho pode requerer que passe por um proxy para aceder à Internet. Isto poderá impedir o gateway de dados no local de se ligar ao serviço.
@@ -90,5 +91,5 @@ Ao configurar as definições de proxy para utilizar as credenciais predefinidas
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
 [Informações de firewall](service-gateway-onprem-tshoot.md#firewall-or-proxy)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

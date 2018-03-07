@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 3750d733967301f952fd092d2d1d0a2b9d1b2238
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Reports
+ms.openlocfilehash: ebf3021f6afdd23730e6b971077913a886961d3b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Painel Análise no serviço Power BI
 Com o painel **Análise** no **serviço Power BI**, pode adicionar *linhas de referência* dinâmicas a visualizações e dar foco a tendências ou informações importantes.
@@ -105,5 +106,5 @@ Finalmente, os visuais não Cartesianos não podem atualmente aplicar linhas din
 ## <a name="next-steps"></a>Próximos passos
 [Painel Análise no Power BI Desktop](desktop-analytics-pane.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

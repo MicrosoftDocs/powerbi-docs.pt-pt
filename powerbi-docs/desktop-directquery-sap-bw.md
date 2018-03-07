@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 4e8c4def5defc32ef7ba6414c3d76ac778564b66
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery e SAP Business Warehouse (BW)
 Pode ligar a origens de dados do **SAP Business Warehouse (BW)** diretamente com o **DirectQuery**. Tendo em conta a natureza OLAP/multidimensional do SAP BW, existem várias diferenças importantes entre o DirectQuery através de SAP BW versus origens relacionais, como o SQL Server. Estas diferenças são resumidas da seguinte forma:

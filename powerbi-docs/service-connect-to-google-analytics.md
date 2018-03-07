@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: bc8cddede36bfa511f7044550e4b0dae4e463d92
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Ligue ao Google Analytics com o Power BI
 A ligação ao Google Analytics através do Power BI começa ao ligar-se à sua conta do Google Analytics. Irá obter um dashboard e um conjunto de relatórios do Power BI que apresentam informações sobre o tráfego do seu site e as dimensões dos utilizadores. Pode interagir com o dashboard e os relatórios, mas não é possível guardar as alterações. Os dados serão atualizados automaticamente uma vez por dia.

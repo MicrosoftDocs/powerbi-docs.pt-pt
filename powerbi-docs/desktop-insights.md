@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: d4b1d1866fc56d48960539a420819d99afc13eb1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Create reports
+ms.openlocfilehash: 17a66c362124616796eb48a7052d89226555df3b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Utilizar as informações no Power BI Desktop (Pré-visualização)
 Pode indicar ao **Power BI Desktop** que explique aumentos ou diminuições em gráficos e obter análises rápidas, automatizadas e informativas sobre os seus dados. Basta clicar com o botão direito do rato num ponto de dados e selecionar **Analisar > Explicar a diminuição** (ou aumento, se a barra anterior era mais baixa), e as informações são-lhe entregues numa janela fácil de utilizar.
@@ -79,9 +80,9 @@ Além disso, os seguintes tipos de modelos e origens de dados não são atualmen
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
-* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
+* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Ligar-se a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
-ms.openlocfilehash: 2c62cda672355f070ce8b2ba18d629dfe70f7700
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+LocalizationGroup: Create reports
+ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Utilizar as Perguntas e Respostas no Power BI Desktop para consultas de linguagem natural
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no **Power BI Desktop** lhe permitem fazer.
@@ -190,7 +191,7 @@ O campo **Sinónimos** é apresentado no lado direito do **Power BI Desktop**, o
  Tenha cuidado ao adicionar sinónimos, uma vez que adicionar o mesmo sinónimo a mais do que uma coluna ou tabela irá introduzir ambiguidade. As Perguntas e Respostas utilizam o contexto sempre que possível para optar entre sinónimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o seu utilizador pede a "contagem de clientes", se tiver três coisas com o sinónimo "cliente" no seu modelo, poderá não obter a resposta que procura. Nestes casos, certifique-se de que o sinónimo principal é exclusivo, uma vez que é utilizado na reformulação. Pode alertar o utilizador acerca da ambiguidade (por exemplo, com a reformulação "mostrar o número de registos de cliente arquivados"), para sugerir que pode perguntar de forma diferente.
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades no Power BI Desktop, veja os seguintes artigos:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

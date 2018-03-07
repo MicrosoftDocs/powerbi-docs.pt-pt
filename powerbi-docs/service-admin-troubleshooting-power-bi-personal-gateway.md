@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que poderá ter ao usar o Power BI Gateway - Personal.
@@ -32,7 +33,7 @@ O exemplo a seguir mostra alguns problemas comuns que poderá ter ao usar o Powe
 > 
 
 ## <a name="update-to-the-latest-version"></a>Atualize para a versão mais recente
-Muitos problemas podem surgir quando a versão de gateway está desatualizada.  É uma boa prática geral certificar-se de que se encontra na última versão.  Se não tiver atualizado o gateway durante um mês ou mais, considere a possibilidade de instalar a última versão do gateway e tentar reproduzir o problema.
+Muitos problemas podem surgir quando a versão de gateway está desatualizada.  É uma boa prática geral ter a certeza de que está na última versão.  Se não tiver atualizado o gateway durante um mês ou mais, considere a possibilidade de instalar a última versão do gateway e tentar reproduzir o problema.
 
 ## <a name="installation"></a>Instalação
 **O gateway pessoal é de 64 bits** – Se o seu computador tiver 32 bits, não pode instalar o gateway pessoal. O sistema operativo tem de ser de 64 bits. Terá de instalar uma versão de 64 bits do Windows ou instalar o gateway pessoal num computador de 64 bits.
@@ -129,7 +130,7 @@ O **Data Management Gateway** e os registos do **PowerBIGateway** estão present
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Rastreio do Fiddler
-[Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP.  Pode ver as comunicações com o serviço Power BI do computador de cliente. Isto pode mostrar erros e outras informações relacionadas.
+[Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP.  Pode ver as comunicações com o serviço Power BI a partir do computador de cliente. Isto pode mostrar erros e outras informações relacionadas.
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -155,5 +156,5 @@ Como alternativa, pode aceder à **pasta Temp** (%temp%) e procurar os ficheiros
 [Power BI Gateway - Personal](personal-gateway.md)  
 [Resolução de problemas de erros de mosaico](refresh-troubleshooting-tile-errors.md)  
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

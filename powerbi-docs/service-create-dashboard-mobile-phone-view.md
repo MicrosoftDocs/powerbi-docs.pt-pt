@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: fca163588801633ad3eac227ceea84be17089713
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: babc9f97ed8c45c2cb9ac994d881941d03629676
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Criar uma vista de um dashboard do Power BI otimizada para telemóveis
 Quando vê dashboards na aplicação móvel do Power BI num telemóvel, pode reparar que os mosaicos do dashboard estão dispostos um a seguir ao outro, todos com o mesmo tamanho. No serviço Power BI, pode criar uma vista personalizada de qualquer dashboard que lhe pertença, especificamente para telemóveis.

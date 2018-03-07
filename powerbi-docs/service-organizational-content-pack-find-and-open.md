@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 56ee1279ff33fd8cd016443d4c615edc71dc7f55
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 56766f6b2170a6bc7d22d1b9581db2d3bde441ad
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Encontrar e ligar-se a um pacote de conteúdos organizacional
 > [!NOTE]
@@ -57,5 +58,5 @@ Se o proprietário do pacote de conteúdos alterar o pacote de conteúdos e:
 ## <a name="next-steps"></a>Próximos passos
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md)  
 * [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md)
-* Perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

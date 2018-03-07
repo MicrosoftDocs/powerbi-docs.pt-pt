@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ff12ba2f0c05be0afe40f24f722f08d664cdd01c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data refresh
+ms.openlocfilehash: 851b8bc2c05aad87749c0fd6af14ba4f810ecbe2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados armazenado no OneDrive ou o SharePoint Online
 Importar ficheiros do OneDrive ou SharePoint Online para o serviço Power BI é uma ótima maneira de garantir que o trabalho que está a realizar no **Power BI Desktop** permanece sincronizado com o serviço Power BI.
@@ -40,9 +41,9 @@ Quando atualiza o conjunto de dados, o Power BI não liga ao ficheiro no OneDriv
 ## <a name="whats-supported"></a>O que é suportado?
 No Power BI, Atualizar Agora e Agendar Atualização são suportados para os conjuntos de dados criados através de ficheiros do Power BI Desktop importados de uma unidade local em que são utilizadas as opções Obter Dados/Editor de Consultas para ligar e carregar dados a partir de uma das seguintes origens de dados:
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 * Todas as origens de dados online mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop.
-* Todas as origens de dados no local mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
+* Todas as origens de dados locais mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 
 <!-- Refresh Data sources-->
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
@@ -63,16 +64,16 @@ Quando iniciar sessão com a sua conta Microsoft, certifique-se de que seleciona
 Se fizer alterações ao ficheiro no OneDrive que não podem ser sincronizadas com o conjunto de dados ou os relatórios no Power BI devido à possibilidade de as credenciais da conta Microsoft terem sido alteradas, tem de ligar e importar o ficheiro novamente a partir do seu OneDrive pessoal.
 
 ## <a name="how-do-i-schedule-refresh"></a>Como agendo uma atualização?
-Quando configurar um agendamento de atualização, o Power BI ligará diretamente às origens de dados através das informações de ligação e das credenciais no conjunto de dados para consultar os dados atualizados e, em seguida, carregará os dados atualizados para o conjunto de dados. Todas as visualizações em relatórios e dashboards baseadas nesse conjunto de dados no serviço Power BI também são atualizadas.
+Quando configurar um agendamento de atualização, o Power BI ligará diretamente às origens de dados através das informações de ligação e das credenciais no conjunto de dados para consultar os dados atualizados e, em seguida, carregará os dados atualizados para o conjunto de dados. Todas as visualizações em relatórios e em dashboards baseadas nesse conjunto de dados no serviço do Power BI também são atualizadas.
 
-Para obter detalhes sobre como configurar a atualização agendada, veja [Configurar a Atualização Agendada](refresh-scheduled-refresh.md).
+Para obter detalhes sobre como configurar a atualização de agendamento, veja [Configurar uma atualização agendada](refresh-scheduled-refresh.md).
 
 ## <a name="when-things-go-wrong"></a>Quando acontece algo de errado
 Quando ocorre algo errado, normalmente isso deve-se ao facto de o Power BI não conseguir iniciar sessão nas origens de dados ou se o conjunto de dados ligar a uma origem de dados no local, o gateway ficar offline. Certifique-se de que o Power BI consegue iniciar sessão nas origens de dados. Se uma palavra-passe que utiliza para iniciar sessão numa origem de dados for alterada ou a sessão do Power BI for terminada numa origem de dados, certifique-se de que tenta iniciar sessão novamente nas origens de dados em Credenciais da Origem de Dados.
 
 Se fizer alterações ao ficheiro do Power BI Desktop no OneDrive e o guardar, e se essas alterações não forem refletidas no Power BI dentro de aproximadamente uma hora, pode dever-se ao facto de o Power BI não conseguir ligar ao OneDrive. Tente ligar novamente ao ficheiro no OneDrive. Se lhe for pedido para iniciar sessão, certifique-se de que seleciona Manter sessão iniciada. Como o Power BI não conseguiu ligar ao seu OneDrive para sincronizar com o ficheiro, terá de importar novamente o ficheiro.
 
-Certifique-se de que deixa a opção **Enviar-me notificação de falha de atualização por e-mail** selecionada. Quererá saber imediatamente se uma atualização agendada falhar.
+Certifique-se de que deixa a opção **Enviar-me notificação de falha de atualização por e-mail** selecionada. Quer saber imediatamente de uma falha numa atualização agendada.
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.

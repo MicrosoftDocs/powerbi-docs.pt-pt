@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1136aae9af4481a1d55ca3d11ed300242aab187b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Visualizations
+ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
 Por vezes, um único número é a coisa mais importante que pretende controlar no seu dashboard ou relatório do Power BI, como as vendas totais, a quota de mercado ano após ano ou o total de oportunidades. Este tipo de visualização é denominado um *Cartão*. Tal como acontece com quase todas as visualizações nativas do Power BI, os Cartões podem ser criados com o editor de relatórios ou as Perguntas e Respostas.
@@ -44,11 +45,11 @@ Estas instruções utilizam o Exemplo de Análise de Retalho. Para acompanhar, [
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
 7. Afixe o mosaico num dashboard existente ou num novo dashboard.
 
-   * Dashboard existente: selecione o nome do dashboard no menu suspenso.
+   * Dashboard existente: selecione o nome do dashboard na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
 8. Selecione **Afixar**.
 
-   Uma mensagem de Êxito (junto ao canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
+   Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
 
    ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
 9. Selecione **Ir para o dashboard**. Aqui, pode [editar e mover](service-dashboard-edit-tile.md) a visualização afixada.
@@ -57,7 +58,7 @@ Estas instruções utilizam o Exemplo de Análise de Retalho. Para acompanhar, [
 ## <a name="create-a-card-from-the-qa-question-box"></a>Criar um cartão a partir da caixa de Perguntas e Respostas
 A caixa de Perguntas e Respostas é a forma mais fácil de criar um Cartão. A caixa de Perguntas e Respostas está disponível no serviço do Power BI (app.powerbi.com) de um dashboard ou relatório. Os passos abaixo descrevem a criação de um Cartão a partir de um dashboard do serviço do Power BI. Se gostaria de criar um cartão com as Perguntas e Respostas no Power BI Desktop, [siga estas instruções](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) para a pré-visualização de Perguntas e Respostas para relatórios do Desktop.
 
-1. Crie um [dashboard](service-dashboards.md) e [obtenha dados](service-get-data.md). Este exemplo utiliza a [Amostra de Análise de Oportunidade](sample-opportunity-analysis.md).
+1. Crie um [dashboard](service-dashboards.md) e [obtenha dados](service-get-data.md). Este exemplo utiliza o [Exemplo de Análise de Oportunidade](sample-opportunity-analysis.md).
 
 1. Na parte superior do dashboard, comece a escrever o que deseja saber sobre os dados na caixa de perguntas. 
 
@@ -75,8 +76,8 @@ A caixa de Perguntas e Respostas é a forma mais fácil de criar um Cartão. A c
    ![](media/power-bi-visualization-card/power-bi-pin.png)
 5. Afixe o cartão, como um mosaico, num dashboard existente ou num novo dashboard.
 
-   * Dashboard existente: selecione o nome do dashboard no menu suspenso. As suas escolhas estão limitadas apenas a esses dashboards na área de trabalho atual.
-   * Novo dashboard: escreva o nome do novo dashboard e que será adicionado à sua área de trabalho atual.
+   * Dashboard existente: selecione o nome do dashboard no menu suspenso. As suas opções estão limitadas apenas a estes dashboards na área de trabalho atual.
+   * Novo dashboard: escreva o nome do novo dashboard e este será adicionado à sua área de trabalho atual.
 6. Selecione **Afixar**.
 
    Uma mensagem de Êxito (junto ao canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.  
@@ -87,15 +88,15 @@ A caixa de Perguntas e Respostas é a forma mais fácil de criar um Cartão. A c
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-- Se não vir uma caixa de perguntas, contacte o administrador do sistema ou o inquilino.    
+- Se não vir uma caixa de perguntas, contacte o administrador do sistema ou inquilino.    
 - Se estiver a utilizar o Desktop e a clicar duas vezes em espaço vazio num relatório que não abre as Perguntas e Respostas, terá de o ativar.  Selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de pré-visualização > Perguntas e Respostas** e reinicie o Desktop.
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Mosaicos do dashboard no Power BI](service-dashboard-tiles.md)
 
 [Dashboards no Power BI](service-dashboards.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

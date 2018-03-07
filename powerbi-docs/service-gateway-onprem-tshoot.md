@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+LocalizationGroup: Gateways
+ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de problemas do gateway de dados no local
 Este artigo aborda alguns problemas comuns que poderá encontrar ao utilizar o **gateway de dados no local**.
@@ -82,7 +83,7 @@ Para corrigir isto, faça o seguinte.
 4. Opcionalmente, aplique a chave de recuperação para restaurar um gateway existente.
 
 ### <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
-Com a atualização de agosto de 2017 e posterior, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.1 ou 1.2 para comunicar com o **serviço Power BI**, por predefinição. As versões anteriores do gateway de dados no local utilizam o TLS 1.0 por predefinição. Em 1 de novembro de 2017, o suporte para o TLS 1.0 irá terminar, pelo que terá de atualizar as suas instalações de gateways de dados no local para a versão de agosto de 2017 ou mais recente, para garantir que os gateways continuam a funcionar.
+Com a atualização de agosto de 2017 e posterior, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.1 ou 1.2 para comunicar com o **serviço Power BI** por predefinição. As versões anteriores do gateway de dados no local utilizam o TLS 1.0 por predefinição. Em 1 de novembro de 2017, o suporte para o TLS 1.0 irá terminar, pelo que terá de atualizar as suas instalações de gateways de dados no local para a versão de agosto de 2017 ou mais recente, para garantir que os gateways continuam a funcionar.
 
 É importante ter em atenção que o TLS 1.0 ainda é suportado pelo gateway de dados no local antes de 1 de novembro e é utilizado pelo gateway como um mecanismo de contingência. Para garantir que todo o tráfego de gateway utiliza o TLS 1.1 ou 1.2 (e para impedir a utilização de TLS 1.0 no seu gateway), tem de adicionar ou modificar as seguintes chaves de registo na máquina que executa o serviço de gateway:
 
@@ -355,9 +356,9 @@ Para determinar o tempo de duração da consulta da origem de dados, pode fazer 
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
 ### <a name="refresh-history"></a>Histórico de Atualizações
-Ao utilizar o gateway para a atualização agendada, o **Histórico de Atualizações** pode ajudá-lo a ver os erros que ocorreram, além de fornecer dados úteis caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas e a pedido. Eis como pode aceder ao **Histórico de Atualizações**.
+Ao utilizar o gateway para a atualização agendada, o **Histórico de Atualizações** pode ajudá-lo a ver os erros que ocorreram, além de fornecer dados úteis caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas e a pedido. Aqui está como pode aceder ao **Histórico de Atualização**.
 
-1. No painel de navegação do Power BI, em **Conjuntos de Dados** , selecione um conjunto de dados &gt; Abrir Menu &gt; **Atualização Agendada**.
+1. No painel de navegação do Power BI, em **Conjuntos de Dados** , selecione um conjunto de dados &gt; Abrir Menu &gt; **Agendar Atualização**.
    
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. Em **Definições para...** &gt; **Atualização Agendada**, selecione **Histórico de Atualizações**.
@@ -376,5 +377,5 @@ Para obter mais informações sobre a resolução de problemas em cenários de a
 [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

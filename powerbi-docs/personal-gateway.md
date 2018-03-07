@@ -17,15 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fc062387282bf01fd06a9e3d2420ac748c0bc592
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
-> Há uma nova versão do gateway pessoal para Power BI, com o nome de **gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que será descontinuado e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
+> Há uma nova versão do gateway pessoal para Power BI, com o nome de **gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que vai ser descontinuado e deixa de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
 > 
 > 
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: d54e9daadd2df0e78b5c098f83d8e8a19960c45d
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: 26f92ee511b3a03f8e08aae0a33bb6f60c12908b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
@@ -71,5 +72,5 @@ Se ainda estiver tendo problemas, [entre em contacto com o suporte](https://supp
 ## <a name="next-steps"></a>Próximos passos
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolução de Problemas do Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

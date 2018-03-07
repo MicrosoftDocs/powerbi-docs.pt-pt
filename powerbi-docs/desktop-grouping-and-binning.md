@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 6d398a7594cfde65d878cbd317a2669b945da9e6
-ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
+LocalizationGroup: Create reports
+ms.openlocfilehash: ec663e61a6cb5281500e605fda35ecb81d7b71a2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Utilizar agrupamento e discretização no Power BI Desktop
 Quando o **Power BI Desktop** cria elementos visuais, agrega os dados em segmentos (ou **grupos**) com base nos valores encontrados nos dados subjacentes. Muitas vezes não há problema, mas poderá haver alturas em que queira refinar a forma como os segmentos são apresentados. Por exemplo, pode querer colocar três categorias de produtos numa categoria maior (um *grupo*). Em alternativa, poderá querer ver valores de vendas inseridos em tamanhos de discretização de 1 000 000 dólares, em vez de divididos uniformemente por 923 983 dólares.

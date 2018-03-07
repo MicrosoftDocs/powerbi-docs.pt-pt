@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Visualizations
+ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Treemaps no Power BI (Tutorial)
 Os treemaps apresentam dados hierárquicos, como um conjunto de retângulos aninhados.  Cada nível da hierarquia é representado por um retângulo colorido (muitas vezes chamado um "ramo") que contém outros retângulos ("folhas").  O espaço dentro de cada retângulo é alocado com base no valor quantitativo que está a ser medido, os retângulos organizados por tamanho da parte superior esquerda (maior) para a parte inferior direita (mais pequena).

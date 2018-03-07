@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fff6db53d19eb69bf582d3ec526ac625ec5cbab1
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Descrição geral de consulta no Power BI Desktop
 Com o **Power BI Desktop**, pode ligar-se ao mundo dos dados, criar relatórios apelativos e fundamentais e partilhar os seus trabalhos com outras pessoas, que poderão basear-se no seu trabalho e expandir os seus esforços de business intelligence.
@@ -141,7 +142,7 @@ Para guardar o seu trabalho, selecione **Ficheiro \> Guardar** (ou **Ficheiro \>
 ![](media/desktop-query-overview/queryoverview_savework.png)
 
 ## <a name="next-steps"></a>Passos seguintes
-Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as capacidades, consulte os seguintes recursos:
+Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)

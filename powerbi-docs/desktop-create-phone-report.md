@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: 0dd906bc1b165793e9ff91f64324eeb8e1d1266c
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+LocalizationGroup: Create reports
+ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Criar relatórios otimizados para as aplicações de telemóvel do Power BI
 Quando [criar um relatório no Power BI Desktop](desktop-report-view.md), pode melhorar a experiência de utilização nas aplicações móveis para telemóveis através da criação de uma versão do relatório especificamente para o telemóvel. Pode adaptar o relatório ao telemóvel ao reorganizar e redimensionar os elementos visuais, provavelmente ao não incluir todos, para uma experiência ideal. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório do telemóvel. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.

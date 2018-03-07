@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5e6d981978fbf7690b797e5f07c1266e4a7c6b99
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: 2d736a4fbc3367d4ccddfa422f637323c8dbf404
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Obter dados de ficheiros CSV (Valores Separados por Vírgula)
 ![](media/service-comma-separated-value-files/csv_icon.png)
@@ -36,11 +37,11 @@ Caso tenha um .CSV, é altura de o inserir no seu site do Power BI como um conju
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>O local em que o ficheiro é salvo faz a diferença
 **Local** - Caso o ficheiro .CSV seja salvo numa unidade local no computador ou em outro local em sua organização, por meio do Power BI, é possível *importar* o ficheiro para o Power BI. Na verdade, o ficheiro permanecerá na unidade local; portanto, o ficheiro completo não é, de fato, importado para o Power BI. O que realmente ocorre é que um novo conjunto de dados é criado no Power BI e os dados do ficheiro .CSV são carregados nesse conjunto de dados.
 
-**OneDrive - Business** – caso tenha o OneDrive para Empresas e entre com a mesma conta usada para o início de sessão no Power BI, essa é, sem dúvida, a forma mais eficiente de manter o ficheiro .CSV, bem como o seu conjunto de dados, os seus relatórios e dashboards no Power BI em sincronia. Visto que tanto o Power BI quanto o OneDrive ficam na nuvem, o Power BI se *conecta* ao seu ficheiro no OneDrive em intervalos aproximados de sessenta minutos. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards são atualizados automaticamente no Power BI.
+**OneDrive - Business** – caso tenha o OneDrive para Empresas e entre com a mesma conta usada para o início de sessão no Power BI, essa é, sem dúvida, a forma mais eficiente de manter o ficheiro .CSV, bem como o seu conjunto de dados, os seus relatórios e dashboards no Power BI em sincronia. Visto que tanto o Power BI quanto o OneDrive ficam na nuvem, o Power BI se *conecta* ao seu ficheiro no OneDrive em intervalos aproximados de sessenta minutos. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards serão atualizados automaticamente no Power BI.
 
-**OneDrive - Personal** – Caso os ficheiros sejam guardados na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive for Business. A maior diferença é que, na primeira ligação ao ficheiro (usando Obter Dados > Ficheiros > OneDrive – Personal), é necessário entrar no OneDrive com a sua conta da Microsoft, que normalmente é diferente daquela usada para iniciar a sessão no Power BI. Ao entrar no OneDrive com sua conta da Microsoft, certifique-se de selecionar a opção Mantenha-me conectado. Dessa forma, o Power BI poderá se conectar ao seu ficheiro em intervalos aproximados de sessenta minutos e garantir que o conjunto de dados no Power BI está em sincronia.
+**OneDrive - Pessoal** – Caso os ficheiros sejam guardados na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive para Empresas. A maior diferença é que, na primeira ligação ao ficheiro (usando Obter Dados > Ficheiros > OneDrive – Personal), é necessário entrar no OneDrive com a sua conta da Microsoft, que normalmente é diferente daquela usada para iniciar a sessão no Power BI. Ao entrar no OneDrive com sua conta da Microsoft, certifique-se de selecionar a opção Mantenha-me conectado. Dessa forma, o Power BI poderá se conectar ao seu ficheiro em intervalos aproximados de sessenta minutos e garantir que o conjunto de dados no Power BI está em sincronia.
 
-**SharePoint – Sites de Equipe** – Salvar seus ficheiros do Power BI Desktop no SharePoint – Sites de Equipe é muito semelhante a salvá-los no OneDrive for Business. A maior diferença nesse caso é como se liga ao ficheiro do Power BI. É possível especificar um URL ou ligar-se à pasta raiz.
+**SharePoint – Sites de Equipa** – Guardar os seus ficheiros do Power BI Desktop no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença neste caso é como liga ao ficheiro do Power BI. É possível especificar um URL ou ligar-se à pasta raiz.
 
 ## <a name="import-or-connect-to-a-csv-file"></a>Importar ou conectar-se a um ficheiro .CSV
 >[!IMPORTANT]

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 5cbc48fc8c5787bcc5b7507284aaa5673dd0010d
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 61a32431e15950dd712e95779bda81bbf0ee6f43
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Ligue-se ao SweetIQ com o Power BI
 O pacote de conteúdos para o Power BI extrai dados da sua conta do SweetIQ e gera um conjunto de conteúdos pronto a utilizar, o que permite que explore os seus dados com facilidade. Utilize o pacote de conteúdos do SweetIQ para analisar dados sobre os seus locais, listas, classificações e análises. Os dados são configurados para serem atualizados diariamente, o que garante que os dados que está a monitorizar são atuais.

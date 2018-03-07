@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Get started
+ms.openlocfilehash: 33908283e567cadc5ef8d4ffe2389ac8fef54b65
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução do Power BI Desktop**. Esta breve apresentação do Power BI Desktop apresentará como ele funciona, demonstrará o que pode fazer e acelerará a sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam os seus esforços de business intelligence. 
@@ -100,7 +101,7 @@ Selecione **Obter Dados \> Web** e cole o endereço.
 
  ![](media/desktop-getting-started/gettingstarted_8.png)
 
-Quando seleciona **OK**, a funcionalidade **Consulta** do Power BI Desktop começa a funcionar. A Consulta contacta o recurso da Web e a janela **Navegador** devolve o que encontrou nessa página Web. Neste caso, encontrou uma tabela (*Tabela 0*) e o Documento da Web geral. Estamos interessados na tabela, então vamos selecioná-la na lista. A janela **Navegador** apresenta uma pré-visualização.
+Quando seleciona **OK**, a funcionalidade **Consulta** do Power BI Desktop começa a funcionar. A Consulta contacta o recurso da Web e a janela **Navegador** devolve o que encontrou nessa página Web. Neste caso, encontrou uma tabela (*Tabela 0*) e o Documento da Web geral. Estamos interessados na tabela, então vamos selecioná-la na lista. A janela **Browser** apresenta uma pré-visualização.
 
  ![](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
@@ -336,11 +337,11 @@ Para obter mais informações sobre como criar, partilhar e modificar dashboards
 Há inúmeras combinações e visualizações apelativas relacionadas com dados que pode criar com o Power BI Desktop e com o serviço Power BI. Consulte a próxima secção para obter mais informações.
 
 ## <a name="next-steps"></a>Passos seguintes
-Há inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as respetivas capacidades, consulte os seguintes recursos:
+Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as respetivas capacidades, consulte os seguintes recursos:
 
 * [Descrição Geral da Consulta com o Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Ligar-se a Dados no Power BI Desktop](desktop-connect-to-data.md)
+* [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
 * [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

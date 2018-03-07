@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3f0bca9114b163531adcd1a1921b8617a5f2eb75
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Ligar a Informações sobre Consumo do Azure no Power BI Desktop (Beta)
 O conector **Informações sobre Consumo do Azure** permite utilizar o **Power BI Desktop** para ligar ao Azure e obter dados e informações aprofundados sobre a utilização dos serviços do Azure por parte da sua organização. Também pode criar medidas, colunas personalizadas e elementos visuais para documentar e partilhar informações sobre a utilização do Azure por parte da sua organização. Esta versão do conector **Informações sobre Consumo do Azure** encontra-se em fase experimental (Beta) e está sujeita a alterações.
@@ -201,7 +202,7 @@ Existem diversos tipos de dados aos quais se pode ligar através do Power BI Des
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
 * [Introduzir dados diretamente no Power BI Desktop](desktop-enter-data-directly-into-desktop.md)   
 

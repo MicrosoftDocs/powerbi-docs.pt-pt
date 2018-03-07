@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/30/2017
 ms.author: mihart
-ms.openlocfilehash: b6ce0c396f4a189489b97fe5cd86ab5cd8dbcc35
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 619f694e6e3ed167a14262994c1c978d5b4ea2e0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="slicers-in-power-bi-service-tutorial"></a>Segmentações de dados no serviço Power BI (Tutorial)
 O seu RP de Vendas quer ver várias métricas, de todo o departamento e de cada Gestor Regional individual. Pode criar uma página de relatório separada para cada gestor ou utilizar uma segmentação de dados. Uma segmentação de dados restringe a parte do conjunto de dados mostrado nas outras visualizações na página.  As segmentações são uma maneira alternativa de filtragem.
@@ -113,5 +114,5 @@ Tem ideias sobre como melhorar o Power BI? [Submeter uma ideia](https://ideas.po
 
 [Experimente – é gratuito!](https://powerbi.com/)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 214f78c86a43341d177d72f60a2a5ecce4d8f8d5
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data refresh
+ms.openlocfilehash: 9f75fbe2344269cd7a469cbe2f7499564e6a041c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado com base num ficheiro .CSV no OneDrive ou SharePoint Online
 ## <a name="what-are-the-advantages"></a>Quais são as vantagens?
@@ -37,7 +38,7 @@ Os ficheiros de valores separados por vírgulas são ficheiros de texto simples;
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?
 Se tiver um OneDrive Pessoal e um OneDrive para Empresas, é recomendável manter todos os ficheiros aos quais deseja se conectar no Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para entrar neles.
 
-A ligação ao OneDrive para Empresas no Power BI é normalmente contínua, porque a mesma conta com a qual utiliza para entrar no Power BI é geralmente a mesma conta utilizada para entrar no OneDrive para Empresas. Mas, com o OneDrive pessoal, provavelmente entra com outra [conta da Microsoft](http://www.microsoft.com/account/default.aspx).
+A ligação ao OneDrive para Empresas no Power BI é normalmente contínua, porque a mesma conta com a qual inicia sessão no Power BI é geralmente a mesma conta utilizada para iniciar sessão no OneDrive para Empresas. Mas, com o OneDrive pessoal, provavelmente entra com outra [conta da Microsoft](http://www.microsoft.com/account/default.aspx).
 
 Quando iniciar a sessão com a sua conta Microsoft, certifique-se de seleciona Mantenha-me conectado. Em seguida, o Power BI pode sincronizar as atualizações com conjuntos de dados no Power BI
 

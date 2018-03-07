@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
-ms.openlocfilehash: f95f126cc6a7c95fbe3227b712281a7d3f81e320
-ms.sourcegitcommit: b780b7108fd9b52398b8377b52836f0e0fedc96e
+LocalizationGroup: Create reports
+ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Criar uma segmentação de dados reativa que pode redimensionar no Power BI (Pré-visualização)
 
@@ -29,7 +30,7 @@ As segmentações de dados reativas são redimensionadas para se ajustarem a qua
 
 ![As segmentações de dados podem ter várias formas](media/power-bi-slicer-filter-responsive/responsive-slicer-gif.gif)
 
-## <a name="create-a-slicer"></a>Criar uma segmentação de dados
+## <a name="create-a-slicer"></a>Criar uma segmentação
 
 O primeiro passo para criar uma segmentação de dados dinâmica é criar uma segmentação de dados básica. 
 
@@ -84,7 +85,7 @@ Pode seguir os mesmos passos para tornar uma segmentação de dados de intervalo
 - As novas barras de deslocamento redondas nas segmentações de dados otimizam as interações de toque. 
 - Quando um elemento visual se torna demasiado pequeno para ser útil, torna-se um ícone que representa o tipo de elemento visual, como substituto. Para interagir com o mesmo, faça duplo toque para abri-lo no modo de detalhe. Isto poupa espaço importante na página do relatório sem prejudicar a funcionalidade.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [Tutorial: Slicers in the Power BI service](power-bi-visualization-slicers.md) (Segmentações de dados no serviço Power BI)
 - Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

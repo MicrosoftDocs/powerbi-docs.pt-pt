@@ -15,23 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
 O pacote de conteúdo "Exemplo de Lucro do Cliente" contém um dashboard, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por um diretor financeiro para ver as métricas chave sobre os 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ela pode ver rapidamente que fatores têm impacto sobre o lucro.
 
-<<<<<<< CABEÇALHO ![](media/sample-customer-profitability/power-bi-dash.png)
+![](media/sample-customer-profitability/power-bi-dash.png)
 
-Este exemplo faz parte de uma série que ilustra a forma como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, livro do Excel ou ficheiro .pbix do Power BI Desktop. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
+Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e dashoards orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, livro do Excel ou ficheiro .pbix do Power BI Desktop. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Quer acompanhar? Este tutorial utiliza o serviço Power BI e o pacote de conteúdos de exemplo “Rentabilidade do Cliente”.  Uma vez que as experiências do relatório são muito semelhantes, pode também acompanhar com o Power BI Desktop e o ficheiro PBIX de exemplo. Pode encontrar abaixo as instruções para se ligar ao pacote de conteúdos e ao ficheiro PBIX.
@@ -58,14 +58,7 @@ Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi con
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Se quiser investigar a origem de dados deste exemplo, também estará disponível como um [(livro do Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
-=======
-
-Este exemplo faz parte de uma série que ilustra a forma como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, livro do Excel ou ficheiro .pbix do Power BI Desktop. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
-
-### <a name="prerequisites"></a>Pré-requisitos
-Quer acompanhar? No [serviço Power BI](https://powerbi.com), aceda a **Obter Dados > Exemplos > Rentabilidade do Cliente > Ligar** para obter a sua própria cópia do exemplo.
->>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+Se quiser investigar a origem de dados deste exemplo, também estará disponível como um [(livro do Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
