@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: acd8ec1afaa454eaa62f66d09b6e0a2c63cc6289
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 97ffc337b98dd6a44e823e673b845852398c67d5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Remover a ligação a um pacote de conteúdos organizacionais do Power BI
 Um colega de trabalho criou um pacote de conteúdos. Descobriu-o no AppSource e adicionou-o à sua área de trabalho do Power BI. Mas já não precisa mais dele.  Como pode removê-lo?
@@ -38,5 +39,5 @@ Remover o conjunto de dados também remove todos os relatórios e dashboards ass
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md) 
 * [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md) 
 * [Conceitos básicos do Power BI](service-basic-concepts.md)  
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

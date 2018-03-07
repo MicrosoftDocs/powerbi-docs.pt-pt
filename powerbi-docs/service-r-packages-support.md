@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 5904910bc0bca9bc69962263a0e77b8597dab370
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
 Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.org/) para criar elementos visuais no serviço Power BI. Inúmeros pacotes R são suportados no serviço Power BI (e muitos mais estão a ser suportados), mas alguns não são.
@@ -29,7 +30,7 @@ Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.or
 As secções seguintes fornecem uma tabela alfabética dos pacotes R suportados e não suportados no Power BI. Para obter mais informações sobre a linguagem R no Power BI, veja o artigo [Elementos visuais R](service-r-visuals.md).
 
 ## <a name="request-support-for-a-new-r-package"></a>Pedido de suporte de um novo pacote R
-Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para a [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
+Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para oa [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>Requisitos e Limitações de pacotes R
 Existem alguns requisitos e limitações para pacotes R:
@@ -422,7 +423,7 @@ A tabela seguinte mostra os pacotes **não suportados** no serviço Power BI.
 | mailR |10/03/2016 |O funcionamento em rede é bloqueado |
 | RevoScaleR |8/30/2016 |ships apenas com o Microsoft R Server |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre a linguagem R no Power BI, veja os seguintes artigos:
 
 * [Criar elementos visuais R no serviço Power BI](service-r-visuals.md)

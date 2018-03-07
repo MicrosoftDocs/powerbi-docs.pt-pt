@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 6ac4a361c5c265b06e1f869d9858afe9101f6e69
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Ligar ao Webtrends com o Power BI
 O pacote de conteúdos do Webtrends para o Power BI inclui uma variedade de métricas prontas a usar, como o total de visualizações e visitas de página por origem do tráfego. A visualização dos seus dados do Webtrends no Power BI começa com a ligação à sua conta do Webtrends. Pode usar o dashboard e os relatórios fornecidos, ou personalizá-los de modo a realçar as informações mais importantes para si.  Os dados serão atualizados automaticamente uma vez por dia.

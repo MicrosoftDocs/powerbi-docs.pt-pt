@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8a558019eaf01af066fe5669bcbd82bd4e0c5229
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Utilizar gráficos de friso no Power BI
 Pode utilizar **gráficos de friso** no **Power BI** para visualizar dados e, rapidamente, determinar que categoria de dados tem a classificação mais elevada (maior valor). Os gráficos de friso são uma forma eficaz de mostrar as alterações de classificação, com a classificação (valor) mais elevada sempre mostrada na parte superior de cada período temporal. Os gráficos de friso estão disponíveis no **Power BI Desktop**, a partir da versão de setembro de 2017 e atualizações posteriores ao **serviço Power BI**.

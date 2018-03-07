@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, existem algumas tarefas comuns. Este documento demonstra essas tarefas comuns e apresenta ligações para informações adicionais. 

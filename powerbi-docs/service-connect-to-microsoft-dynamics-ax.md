@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: a0c4a4a5685b9923f794b9f9aa761884a9ea6b27
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 09362afc3bc84b454db8a095edc5135f1b9955d8
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Ligar ao pacote de conteúdos do Microsoft Dynamics AX com o Power BI
 O Microsoft Dynamics AX tem três pacotes de conteúdos do Power BI destinados a diferentes utilizadores empresariais. O pacote de conteúdos de Desempenho Financeiro, concebido especificamente para CFOs (diretores financeiros), fornece acesso a informações sobre o desempenho financeiro da sua organização. O pacote de conteúdos de Desempenho do Canal de Revenda destina-se a gestores de canal com foco no desempenho de vendas para prever tendências e descobrir informações diretamente dos dados de Revenda e Comércio. A Gestão de Custo foi concebida para COOs e CFOs e fornece detalhes sobre o desempenho da operação.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 7ea0fbf09196af9ffecaf5ae54ea0754fdd44a0b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Share your work
+ms.openlocfilehash: 00ddec3dbf4087935a7c3583138dabb2a83f0ae5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdos organizacionais no Power BI
 > [!NOTE]
@@ -85,5 +86,5 @@ Todos os membros do grupo de distribuição têm as mesmas permissões para os d
 * [Criar e publicar um pacote de conteúdos organizacional](service-organizational-content-pack-create-and-publish.md)
 * [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md) 
 * [Power BI - Conceitos Básicos](service-basic-concepts.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

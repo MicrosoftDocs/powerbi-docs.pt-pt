@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Create reports
+ms.openlocfilehash: c4816ede1ea5364e5db2156af747a3d05231d02a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Utilize o serviço Power BI ou o Power BI Desktop para criar uma Página de Resposta personalizada para a Cortana
 Utilize as funcionalidades completas do Power BI para criar páginas de relatório especiais, denominadas *Páginas de resposta da Cortana* (e, por vezes, denominadas "Cartões de resposta da Cortana") concebidas especificamente para responder a perguntas da Cortana.
@@ -98,5 +99,5 @@ Os resultados com respostas com pontuação alta (como uma correspondência comp
 
 Continua a não conseguir utilizar a Cortana juntamente com o Power BI?  Experimente a [resolução de problemas da Cortana](service-cortana-troubleshoot.md).
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

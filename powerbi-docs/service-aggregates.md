@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: 40ed3ce1dbb228d8418c8cd5ca7de4bcb0731c2b
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: c391ab631d94e98df68835f680a48e24afd293fb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Agregados em visualizações do Power BI
 ## <a name="what-is-an-aggregate"></a>O que é um agregado?
@@ -162,5 +163,5 @@ P: Não vejo a opção **Não resumir** no meu menu pendente.
 
 R: Experimente remover o campo e voltar a adicioná-lo.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

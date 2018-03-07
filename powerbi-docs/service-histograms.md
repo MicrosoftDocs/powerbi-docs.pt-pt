@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8e7f233ee453de2b220383ae858c3c64fe95d2f6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 94c1e23fc012e40763247a28e8930a9abdd81425
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="histograms"></a>Histogramas
 Existem várias formas de criar histogramas no Power BI. Começaremos com a mais simples e continuamos a partir daí.
@@ -39,7 +40,7 @@ Certifique-se de que o tipo de dados é um número para a coluna agregada result
 ## <a name="defining-a-histogram-that-supports-brushing"></a>Definir um histograma que suporte brushing
 Brushing é quando os elementos visuais são associados para que, quando um utilizador selecionar um ponto de dados num elemento visual, os outros elementos visuais na página de relatório realcem ou filtrem os pontos de dados relacionados com o ponto de dados selecionado.  Como estamos a manipular dados no momento da consulta, temos de criar uma relação entre tabelas e garantir que sabemos que item detalhado está relacionado com o registo no histograma e vice-versa.
 
-Inicie o processo através da opção *Referência* na consulta que contém o campo no qual quer criar um histograma.  Nomeie a nova consulta *Grupos*.  Para este exemplo, vamos chamar a consulta original *Detalhes*.  Em seguida, remova todas as colunas, exceto a coluna que utilizará como registo do histograma.  Utilize agora a funcionalidade *Remover Duplicados* na consulta, no menu de atalho ao selecionar a coluna, para que os restantes valores sejam os valores exclusivos na coluna. Se tiver números decimais, pode utilizar primeiro a sugestão de definir registos para criar um histograma para obter um conjunto de registos gerível.  Agora, verifique os dados mostrados na pré-visualização da consulta. Se vir valores nulos ou em branco, tem de os corrigir antes de criar uma relação. Veja "Criar relações se os dados tiverem valores nulos ou em branco". Utilizar esta abordagem pode ser problemático devido à necessidade de ordenar. Para que os registos sejam ordenados corretamente, veja "Ordenação: fazer com que as categorias apareçam na ordem que quero". 
+Inicie o processo através da opção *Referência* na consulta que contém o campo no qual quer criar um histograma.  Nomeie a nova consulta *Grupos*.  Para este exemplo, vamos chamar a consulta original *Detalhes*.  Em seguida, remova todas as colunas, exceto a coluna que utilizará como registo do histograma.  Utilize agora a funcionalidade *Remover Duplicados* na consulta, no menu de atalho ao selecionar a coluna, para que os restantes valores sejam os valores exclusivos na coluna. Se tiver números decimais, pode utilizar primeiro a sugestão de definir registos para criar um histograma para obter um conjunto de registos gerível.  Agora, verifique os dados mostrados na pré-visualização da consulta. Se vir valores nulos ou em branco, terá de os corrigir antes de criar uma relação. Veja "Criar relações se os dados tiverem valores nulos ou em branco". Utilizar esta abordagem pode ser problemático devido à necessidade de ordenação. Para que os registos sejam ordenados corretamente, veja "Ordenação: fazer com que as categorias apareçam na ordem que quero". 
 
 > [!NOTE]
 > É bastante útil pensar sobre a ordem de classificação antes de criar qualquer elemento visual.   

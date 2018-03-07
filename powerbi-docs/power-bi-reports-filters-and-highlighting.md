@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 0f81b0fa87af5af281b40224bac3b5815461cb9e
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Sobre filtros e realces em relatórios do Power BI
 Os ***Filtros*** removem tudo, menos os dados em que se pretende focar.  O ***Destaque*** não filtra, pois não remove dados, mas realça um subconjunto dos dados visíveis; os dados não realçados permanecem visíveis, mas obscurecidos.
@@ -52,7 +53,7 @@ Pode aplicar filtros e realce através do painel **Filtros** ou ao efetuar as se
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filtros na Vista de Leitura versus Vista de Edição
 Existem duas formas de interagir com os relatórios: [Vista de Leitura e Vista de Edição](service-reading-view-and-editing-view.md).  E as funções de filtragem disponíveis para si dependem do modo no qual se encontra.
 
-* Na Vista de Edição, pode adicionar filtros de relatórios, páginas e visuais. Ao guardar o relatório, os filtros são guardados com o mesmo. As pessoas que veem o relatório na Vista de Leitura podem interagir com os filtros que adicionou mas não podem guardar as alterações.
+* Na Vista de Edição, pode adicionar filtros de relatórios, páginas e elementos visuais. Ao guardar o relatório, os filtros são guardados com o mesmo. As pessoas que veem o relatório na Vista de Leitura podem interagir com os filtros que adicionou mas não podem guardar as alterações.
 * Na Vista de Leitura, pode interagir com os filtros de página e visuais que já existem no relatório, mas não poderá guardar as alterações ao filtro.
 
 ### <a name="the-filters-pane-in-reading-view"></a>Painel Filtros na Vista de Leitura
@@ -93,5 +94,5 @@ Selecione um filtro na tela de relatório para filtrar e realçar o resto da pá
 
 Leia mais sobre os [relatórios no Power BI](service-reports.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

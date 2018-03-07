@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagir com um relatório na Vista de edição no serviço Power BI
 Os relatórios podem ser editados no serviço Power BI e no Power BI Desktop – se tiver permissões de proprietário. Ao contrário do Power BI Desktop, o serviço Power BI tem dois modos diferentes para interagir com os relatórios: [Vista de leitura](service-reading-view-and-editing-view.md) para os *consumidores* de relatório e Vista de edição para os proprietários e os criadores do relatório. Este tutorial do artigo abrange a Vista de edição do serviço Power BI. 
@@ -43,8 +44,8 @@ Veja a lista de tópicos sob o cabeçalho **Relatórios** no Índice à esquerda
 * Duplicar uma página de relatório
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 Voltar para [Vista de leitura e Vista de edição no serviço Power BI](service-reading-view-and-editing-view.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

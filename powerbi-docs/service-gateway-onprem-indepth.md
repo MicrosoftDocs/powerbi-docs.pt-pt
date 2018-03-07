@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
 É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas antes de poderem ligar à sua origem de dados no local, é necessário instalar e configurar um gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
@@ -67,7 +68,7 @@ Para o Analysis Services determinar se um utilizador que esteja a ligar ao mesmo
 Não é possível utilizar EffectiveUserName num servidor do Analysis Services não associado a um domínio. O servidor do Analysis Services tem de estar associado a um domínio para evitar erros de início de sessão.
 
 ## <a name="how-do-i-tell-what-my-upn-is"></a>Como posso saber qual é o meu UPN?
-Não pode saber qual é o seu UPN nem ser um administrador do domínio. Pode utilizar o seguinte comando na sua estação de trabalho para descobrir o UPN da sua conta.
+Pode não saber qual é o seu UPN nem ser um administrador do domínio. Pode utilizar o seguinte comando na sua estação de trabalho para descobrir o UPN da sua conta.
 
     whoami /upn
 
@@ -112,7 +113,7 @@ Depois de instalar o gateway, tem de criar origens de dados para o mesmo. Pode a
 [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
-[Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
+[Gerir a sua origem de dados - Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
 ## <a name="where-things-can-go-wrong"></a>O que pode correr mal
 Por vezes, poderão ocorrer falhas ao instalar o gateway. Ou talvez a instalação do gateway pareça correr sem problemas, mas o serviço ainda não consegue trabalhar com o mesmo. Em muitos casos, é algo simples, como a palavra-passe das credenciais que o gateway utiliza para iniciar sessão na origem de dados.
@@ -124,9 +125,9 @@ Em vez de explorar a resolução de problemas do gateway aqui, apresentamos uma 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

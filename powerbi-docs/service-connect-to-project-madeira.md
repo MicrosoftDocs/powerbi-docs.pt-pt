@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -106,8 +107,8 @@ Se vir este erro após introduzir o URL do Projeto “Madeira”, garanta que os
 
 **"O início de sessão falhou"** Se receber um erro a indicar "o início de sessão falhou" quando iniciar sessão no seu dashboard com as credenciais do Projeto "Madeira", tal poderá dever-se a um dos seguintes problemas:  
 
-    - A conta que está a utilizar não tem permissões para ler os dados do Projeto "Madeira" da sua conta. Verifique a sua conta de utilizador no Projeto "Madeira" e certifique-se de que utilizou a chave de acesso ao serviço Web correta como a palavra-passe. Em seguida, tente novamente.  
-    - A instância do Projeto "Madeira" à qual se está a tentar ligar não tem um certificado SSL válido. Neste caso, verá uma mensagem de erro mais detalhada (“Não é possível estabelecer a relação de confiança SSL”). Note que os certificados autoassinados não são suportados.  
+   - A conta que está a utilizar não tem permissões para ler os dados do Projeto "Madeira" da sua conta. Verifique a sua conta de utilizador no Projeto "Madeira" e certifique-se de que utilizou a chave de acesso ao serviço Web correta como a palavra-passe. Em seguida, tente novamente.  
+   - A instância do Projeto "Madeira" à qual se está a tentar ligar não tem um certificado SSL válido. Neste caso, verá uma mensagem de erro mais detalhada (“Não é possível estabelecer a relação de confiança SSL”). Note que os certificados autoassinados não são suportados.  
 
 **"Ups"** Se vir uma caixa de diálogo de erro "Ups" após passar pela caixa de diálogo de autenticação, o motivo mais frequente é um problema ao ligar os dados do pacote de conteúdos. Confirme se o URL segue o padrão anteriormente especificado:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

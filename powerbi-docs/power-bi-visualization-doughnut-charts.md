@@ -17,16 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Visualizations
+ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Gráficos em anel no Power BI (Tutorial)
-Um gráfico em anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
+Um gráfico de anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
 
-## <a name="create-a-doughnut-chart"></a>Criar um gráfico em anel
+## <a name="create-a-doughnut-chart"></a>Criar um gráfico de anel
 Estas instruções utilizam o Exemplo de Análise de Revenda para criar um gráfico em anel que apresenta as vendas deste ano por categoria. Para acompanhar, [transfira o exemplo](sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.
 
 1. Comece numa [página de relatório em branco ](power-bi-report-add-page.md) e selecione o campo **SalesStage** \> **Fase de Vendas**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](service-interact-with-a-report-in-editing-view.md).

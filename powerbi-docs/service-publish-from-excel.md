@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 14845d060b3fa6e1dfcd8e5a25affd33183e480b
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: ad398cedd92350618e0f23a33c85a33e6abd934b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Publicar no Power BI a partir do Excel 2016
 Com o Excel 2016, é possível publicar livros do Excel diretamente no site do [Power BI](https://powerbi.microsoft.com), no qual é possível criar relatórios e dashboards altamente interativos com base nos dados do livro. Em seguida, pode partilhar ideias com outras pessoas na organização.
@@ -94,5 +95,5 @@ Quando concluída, pode ir para o Power BI diretamente através do Excel.
 
 ## <a name="next-steps"></a>Próximos passos
 [Dados do Excel no Power BI](service-excel-workbook-files.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

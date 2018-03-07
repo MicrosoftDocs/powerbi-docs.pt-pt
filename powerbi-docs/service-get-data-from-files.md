@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: efce7d59df544a067a57db2402c6441c296b569f
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: 3091de0ce4fb08867bcd3eddfae9d7dcee6b8af3
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-data-from-files"></a>Obter dados de ficheiros
 ![](media/service-get-data-from-files/file_icons.png)
@@ -51,9 +52,9 @@ Podemos até ir um pouco mais longe. Um tanque de combustível de um carro deve 
 
 **OneDrive - Business** – Caso tenha o OneDrive para Empresas e entre com a mesma conta utilizada para a sessão no Power BI, essa será, sem dúvida, a maneira mais eficiente de salvaguardar o seu trabalho no Excel, no Power BI Desktop ou num ficheiro .CSV em sincronia com o seu conjunto de dados, seus relatórios e dashboards no Power BI. Visto que tanto o Power BI quanto o OneDrive ficam na cloud, o Power BI liga-se ao seu ficheiro no OneDrive em intervalos aproximados de uma hora. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards são atualizados automaticamente no Power BI.
 
-**OneDrive - Personal** – Caso os ficheiros sejam guardados na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive for Business. A maior diferença é que, na primeira ligação ao ficheiro (em Obter Dados > Ficheiros > OneDrive – Personal), será necessário entrar no OneDrive com a sua conta Microsoft que normalmente é diferente da utilizada para iniciar sessão no Power BI. Ao entrar no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Mantenha-me ligado. Dessa forma, o Power BI pode ligar-se ao seu ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está em sincronia.
+**OneDrive - Pessoal** – Caso os ficheiros sejam guardados na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive para Empresas. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
 
-**SharePoint – Sites de Equipa** – Guardar os seus ficheiros do Power BI Desktop no SharePoint – Sites de Equipas é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença nesse caso é como se liga ao ficheiro do Power BI. É possível especificar um URL ou ligar-se à pasta raiz.
+**SharePoint – Sites de Equipa** – Guardar os seus ficheiros do Power BI Desktop no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença neste caso é como liga ao ficheiro do Power BI. É possível especificar um URL ou ligar-se à pasta raiz.
 
 ## <a name="ready-to-get-started"></a>Pronto para começar?
 Veja os seguintes artigos para saber mais sobre como inserir o seu ficheiro no Power BI.

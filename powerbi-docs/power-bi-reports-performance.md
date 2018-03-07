@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Reports
+ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores Práticas para o Desempenho do Power BI 
 Este artigo oferece orientação para construir relatórios rápidos e fiáveis no Power BI.  

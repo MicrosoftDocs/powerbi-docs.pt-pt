@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 447f400136f9678cad068f215ee82522253fc0d5
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Ligue-se ao Zendesk com Power BI
 O pacote de conteúdos do Zendesk oferece um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre os volumes de pedidos e o desempenho do agente. Pode utilizar o dashboard e os relatórios fornecidos, ou então personalizá-los para destacar as informações que mais interessam.  Os dados são atualizados automaticamente uma vez por dia. 

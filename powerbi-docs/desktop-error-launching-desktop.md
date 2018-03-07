@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 515832b9e6b737a942b08b491b78337d78398ee3
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: 6d5e4592d1bf041672f89dd38f03ddc6ff196735
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Resolver Problemas quando o Power BI Desktop não é iniciado
 No **Power BI Desktop**, os utilizadores que instalaram e estão a executar versões anteriores do **gateway de dados no local do Power BI** podem ser impedidos de iniciar o Power BI Desktop, devido às restrições de políticas administrativas que o gateway de dados no local do Power BI estabeleceu nos pipes nomeados no computador local. 

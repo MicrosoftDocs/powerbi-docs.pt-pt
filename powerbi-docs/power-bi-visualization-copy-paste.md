@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Copiar e colar uma visualização no serviço Power BI e no Power BI Desktop
 Copiar e colar uma visualização exige permissões de edição para o relatório. No serviço Power BI, isto significa abrir o relatório na [Vista de Edição](service-reading-view-and-editing-view.md).
@@ -36,5 +37,5 @@ Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visuali
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

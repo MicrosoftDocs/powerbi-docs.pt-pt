@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
-ms.openlocfilehash: e3072e4a99c04e977579274c6d95f5bb1007e870
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway de dados local (modo pessoal)
 Pode utilizar origens de dados no local e criar relatórios do Power BI e dashboards com um gateway. Um **gateway** é um software que facilita o acesso aos dados que estão armazenados numa rede privada no local, e permite-lhe utilizar dados nos serviços online, como o **serviço do Power BI**. O **gateway de dados no local (modo pessoal)** é uma atualização lançada recentemente para o gateway do Power BI que permite aos indivíduos instalarem um gateway no seu próprio computador e obter acesso a dados no local.
