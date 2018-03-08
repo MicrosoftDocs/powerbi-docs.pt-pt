@@ -135,7 +135,7 @@ A lacuna de sensibilidade seria outra área a explorar: que distritos têm a mai
 
 * O gráfico da parte inferior esquerda mostra todos os segmentos de categoria, exceto dois segmentos mais fortes da VanArsdel. Para filtrar por categoria, clicar nas barras de ajuda a identificar as potenciais áreas de expansão para a VanArsdel. Os segmentos **Extremo** e **Produtividade** estão a crescer mais rapidamente do que outros.
 * Mas não concorremos nestes segmentos. Se quisermos mover para essas áreas, podemos utilizar os nossos dados para ver que segmentos são populares em que regiões. Pode investigar questões como a região que está a crescer mais rapidamente e qual seria o nosso principal concorrente nesse segmento.
-* Lembra-se da queda da nossa participação de mercado em junho? Junho é um excelente mês para o segmento de Produtividade – um segmento em que não competimos de todo. Isso poderia ajudar a explicar a nossa queda de participação de mercado em junho.
+* Lembra-se da queda da nossa participação de mercado em junho? Junho é um excelente mês para o segmento de Produtividade - um segmento em que não competimos de todo. Isso poderia ajudar a explicar a nossa queda de participação de mercado em junho.
 
 Ao filtrar as visualizações por VanArsdel, por segmento, por mês e por região, podemos descobrir as oportunidades de crescimento para VanArsdel.
 
