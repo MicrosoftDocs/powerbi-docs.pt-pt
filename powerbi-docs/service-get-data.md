@@ -27,7 +27,7 @@ ms.lasthandoff: 02/24/2018
 # <a name="data-sources-for-the-power-bi-service"></a>Origens de dados para o serviço Power BI
 Os dados são o coração do Power BI. Sempre que está a explorar dados, a criar gráficos e dashboards, a utilizar as Perguntas e Respostas, todas as visualizações e respostas que vê estão, na verdade, a extrair os dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Bem, de uma origem de dados.
 
-Neste artigo, vamos falar sobre os diferentes tipos de origens de dados aos quais se pode ligar com o serviço Power BI. Tenha em consideração que há muitos outros tipos de origens de dados a partir dos quais pode obter dados. Mas estes podem exigir, primeiro, o uso do Power BI Desktop ou da consulta avançada de dados e recursos de modelação do Excel. Veremos mais detalhes posteriormente. Por enquanto, vamos examinar os diferentes tipos de origens de dados aos quais se pode ligar diretamente a partir do site do serviço Power BI.
+Neste artigo, vamos falar sobre os diferentes tipos de origens de dados aos quais se pode ligar com o serviço Power BI. Tenha em consideração que há muitos outros tipos de origens de dados a aprtir dos quais pode obter dados. Mas estes podem exigir, primeiro, o uso do Power BI Desktop ou da consulta avançada de dados e recursos de modelação do Excel. Veremos mais detalhes posteriormente. Por enquanto, vamos examinar os diferentes tipos de origens de dados aos quais se pode ligar diretamente a partir do site do serviço Power BI.
 
 Pode obter dados de qualquer uma destas origens de dados no Power BI ao clicar em **A Minha Área de Trabalho** > **Obter Dados**.
 
