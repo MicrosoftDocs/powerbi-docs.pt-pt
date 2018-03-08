@@ -167,9 +167,9 @@ Este é um ambiente seguro para experimentar. Pode sempre optar por não guardar
 Esperamos que esta apresentação tenha mostardo como os dashboards, as Perguntas e Respostas e os relatório do Power BI podem fornecer informações sobre dados de revenda. Agora, é sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Obtenha mais informações sobre como [começar a utilizar o Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Próximos passos
-* [Transferir o pacote de conteúdos de exemplo de Análise de Revenda](sample-tutorial-connect-to-the-samples.md)
+* [Descarregue o pacote de conteúdos de exemplo de Análise de Revenda](sample-tutorial-connect-to-the-samples.md)
 * [Transferir um ficheiro zip de todos os ficheiros de exemplo](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Descarregue o livro do Excel para este exemplo do Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obter dados (para o Power BI)](service-get-data.md)    
-* [Power BI – Conceitos Básicos](service-basic-concepts.md)    
+* [Power BI - Conceitos Básicos](service-basic-concepts.md)    
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
