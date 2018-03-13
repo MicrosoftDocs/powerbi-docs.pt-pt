@@ -2,7 +2,7 @@
   items:
     - name: Get started (Introdução)
       items:
-        - name: 'Power BI – basic concepts (Power BI: conceitos básicos)'
+        - name: 'Power BI - basic concepts (Power BI: conceitos básicos)'
           href: service-basic-concepts.md
         - name: Get started with Power BI (Introdução ao Power BI)
           href: service-get-started.md
@@ -86,7 +86,7 @@
           href: service-focus-mode.md
     - name: Premium
       items:
-        - name: Power BI Premium – what is it? (Power BI Premium – o que é?)
+        - name: Power BI Premium - what is it? (Power BI Premium – o que é?)
           href: service-premium.md
         - name: How to purchase Power BI Premium (Como comprar o Power BI Premium)
           href: service-admin-premium-purchase.md
@@ -664,13 +664,15 @@
           href: desktop-ssas-multidimensional.md
         - name: Ligar a ficheiros CSV no Power BI Desktop
           href: desktop-connect-csv.md
-        - name: 'Connect to an Impala database in Power BI Desktop (Preview) (Ligar a uma base de dados Impala no Power BI Desktop [Pré-visualização])'
+        - name: Ligar ao Adobe Analytics no Power BI Desktop (pré-visualização)
+          href: desktop-connect-csv.md
+        - name: Ligar a uma base de dados Impala no Power BI Desktop
           href: desktop-connect-impala.md
-        - name: Connect to an OData feed in Power BI Desktop (Ligar a um feed OData no Power BI Desktop)
+        - name: Ligar ao feed OData no Power BI Desktop
           href: desktop-connect-odata.md
-        - name: 'Connect to an Amazon Redshift database in Power BI Desktop (Preview) (Ligar a uma base de dados Amazon Redshift no Power BI Desktop [Pré-visualização])'
+        - name: Ligar a uma base de dados Amazon Redshift no Power BI Desktop
           href: desktop-connect-redshift.md
-        - name: Connect to a Web page from Power BI Desktop (Ligar a uma página Web do Power BI Desktop)
+        - name: Ligar à página da Web do Power BI Desktop
           href: desktop-connect-to-web.md
         - name: Connect to a Snowflake computing warehouse in Power BI Desktop (Ligar a um armazém de informática de Snowflake no Power BI Desktop)
           href: desktop-connect-snowflake.md
@@ -768,6 +770,8 @@
           href: desktop-slicers.md
         - name: Marcadores no Power BI
           href: desktop-bookmarks.md
+        - name: Criar sugestões de relatório personalizado (pré-visualização)
+          href: desktop-tooltips.md
         - name: Utilizar temas de Relatórios
           href: desktop-report-themes.md
         - name: Utilizar Medidas Rápidas
