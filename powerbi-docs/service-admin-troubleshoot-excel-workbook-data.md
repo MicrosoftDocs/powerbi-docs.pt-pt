@@ -1,6 +1,6 @@
 ---
-title: "Erro: não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel"
-description: "Erro: não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel"
+title: "Error: We couldn't find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)"
+description: "Error: We couldn't find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)"
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,63 +17,64 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ee82669f37c33505615ed796ec9e258535ca89cd
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Troubleshooting
+ms.openlocfilehash: a58af88d23c04c0afd2fa71cab7824b657451b33
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Erro: não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Error: We couldn't find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)
 
 >[!NOTE]
->Este artigo se aplica ao Excel 2007 e posterior.
+>Este artigo aplica-se ao Excel 2007 e posterior.
 
-Quando você importa uma pasta de trabalho do Excel para o Power BI, poderá ver o seguinte erro:
+Quando importa um livro do Excel para o Power BI, poderá ver o seguinte erro:
 
-*Erro: não foi possível encontrar nenhum dado em sua pasta de trabalho do Excel. Seus dados podem não estar formatados corretamente. Você precisará editar a pasta de trabalho no Excel e importá-la novamente.*
+*Erro: não conseguimos encontrar dados no seu livro do Excel. Os seus dados poderão não estar corretamente formatados. Precisará de editar o seu livro no Excel e, em seguida, importá-lo novamente.*
 
 ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
 
 ## <a name="quick-solution"></a>Solução rápida
-1. Edite sua pasta de trabalho no Excel.
-2. Selecione o intervalo de células que contém seus dados. A primeira linha deve conter seus cabeçalhos de coluna (os nomes de coluna).
-3. Pressione **Ctrl + T** para criar uma tabela.
-4. Salve sua pasta de trabalho.
-5. Retorne ao Power BI e importe sua pasta de trabalho novamente, ou se estiver trabalhando no Excel 2016 e salvou a pasta de trabalho no OneDrive para Empresas, no Excel, clique em Arquivo > Publicar.
+1. Edite o seu livro no Excel.
+2. Selecione o intervalo de células que contém os seus dados. A primeira linha deve conter os cabeçalhos de coluna (os nomes das colunas).
+3. Prima **Alt+T** para criar uma tabela.
+4. Guarde o seu livro.
+5. Volte ao Power BI e importe o seu livro novamente ou, se estiver a trabalhar no Excel 2016 e tiver guardado o livro no OneDrive para Empresas, no Excel, clique em Ficheiro > Publicar.
 
 ## <a name="details"></a>Detalhes
-### <a name="cause"></a>Causa
-No Excel, você pode criar uma **tabela** fora de um intervalo de células, o que torna mais fácil classificar, filtrar e formatar dados.
+### <a name="cause"></a>Motivo
+No Excel, pode criar uma **tabela** a partir de um intervalo de células, o que torna mais fácil ordenar, filtrar e formatar os dados.
 
-Quando você importa uma pasta de trabalho do Excel, o Power BI procura essas tabelas e as importa para um conjunto de dados; se ele não encontrar todas as tabelas, você verá essa mensagem de erro.
+Quando importa um livro do Excel, o Power BI procura estas tabelas e importa-as para um conjunto de dados. Se não forem encontradas tabelas, verá esta mensagem de erro.
 
 ### <a name="solution"></a>Solução
-1. Abra sua pasta de trabalho no Excel. 
+1. Abra o seu livro no Excel. 
     >[!NOTE]
-    >As imagens aqui exibidas são do Excel 2013. Se você estiver usando outra versão, a aparência poderá ser um pouco diferente, mas as etapas são as mesmas.
+    >As imagens são referentes ao Excel 2013. Se estiver a utilizar outra versão, pode ter um aspeto ligeiramente diferente, mas os passos são iguais.
     
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
-2. Selecione o intervalo de células que contém seus dados. A primeira linha deve conter seus cabeçalhos de coluna (os nomes de coluna):
+2. Selecione o intervalo de células que contém os seus dados. A primeira linha deve conter os cabeçalhos de coluna (os nomes das colunas):
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
-3. Na faixa de opções da guia **INSERIR** , clique em **Tabela**. (Ou, como um atalho, pressione **Ctrl + T**.)
+3. No friso, no separador **INSERIR**, clique em **Tabela**. (Em alternativa, como atalho, prima **Alt+T**.)
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
-4. Você verá a caixa de diálogo a seguir. Certifique-se de que a opção **Minha tabela tem títulos** está marcada e selecione **OK**:
+4. Verá a seguinte caixa de diálogo. Certifique-se de que a opção **A minha tabela tem cabeçalhos** está selecionada e selecione **OK**:
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
-5. Agora que seus dados estão formatados como uma tabela:
+5. Agora os seus dados estão formatados como uma tabela:
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
-6. Salve sua pasta de trabalho.
-7. Volte para o Power BI. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
+6. Guarde o seu livro.
+7. Volte ao Power BI. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
-8. Na caixa **Arquivos** , selecione **Obter**.
+8. Na caixa **Ficheiros**, selecione **Obter**.
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
-9. Importe novamente sua pasta de trabalho do Excel. Desta vez, a importação deve localizar a tabela e ser realizada com êxito.
+9. Importe o seu livro do Excel novamente. Desta vez, a importação deverá localizar a tabela e ser concluída com êxito.
    
-    Se a importação ainda falhar, fale conosco clicando em **Comunidade** no menu Ajuda:
+    Se a importação ainda falhar, entre em contacto connosco ao clicar em **Comunidade** no menu de ajuda:
    
     ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)

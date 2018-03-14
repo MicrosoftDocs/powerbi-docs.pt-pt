@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Mosaicos de dashboard no Power BI
 Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Enquanto não for possível criar ou afixar mosaicos de dashboards no Power BI Mobile, estes [podem ser visualizados e partilhados](mobile-tiles-in-the-mobile-apps.md). Além disso, no Power BI Mobile, pode [adicionar imagens ao seu dashboard com a aplicação para iPhone](mobile-iphone-app-get-started.md).
 
-## <a name="dashboard-tiles"></a>Mosaicos de dashboard
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+## <a name="dashboard-tiles"></a>Mosaicos do dashboard
+![Dashboard do Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Um mosaico é um instantâneo dos seus dados, afixado ao dashboard. Um mosaico pode ser criado a partir de um relatório, conjunto de dados, dashboard, a partir da caixa de Perguntas e Respostas, do Excel e do SQL Server Reporting Services (SSRS) e muito mais.  Esta captura de ecrã mostra vários mosaicos diferentes afixados a um dashboard.
 
@@ -53,34 +54,34 @@ Existem diversas formas diferentes de adicionar (afixar) um mosaico a um dashboa
 
 E os mosaicos autónomos para imagens, caixas de texto, vídeos, dados de transmissão em fluxo e conteúdo Web podem ser criados diretamente no dashboard com a opção [Adicionar mosaico](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Ícone Adicionar mosaico](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interagir com mosaicos num dashboard
 ### <a name="move-and-resize-a-tile"></a>Mover e redimensionar um mosaico
-Pegue num mosaico e [mova-o no dashboard](service-dashboard-edit-tile.md). Passe o rato e selecione a alça ![](media/service-dashboard-tiles/resize-handle.jpg) para redimensionar o mosaico.
+Pegue num mosaico e [mova-o no dashboard](service-dashboard-edit-tile.md). Paire o cursor e selecione a ![alça](media/service-dashboard-tiles/resize-handle.jpg) para redimensionar o mosaico.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Passe o rato sobre um mosaico para alterar a aparência e o comportamento
 1. Passe o rato sobre o mosaico para apresentar as reticências.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![reticências do mosaico](media/service-dashboard-tiles/ellipses_new.png)
 2. Selecione as reticências para abrir o menu de ação do mosaico.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![ícone de reticências](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     A partir daqui, pode:
    
-   * [Abrir o relatório utilizado para criar este mosaico ](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Abrir o relatório utilizado para criar este mosaico ](service-reports.md) ![ícone de relatório](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Abrir a folha de cálculo utilizada para criar este mosaico ](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Abrir a folha de cálculo utilizada para criar este mosaico ](service-reports.md) ![ícone de folha de cálculo](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Ver no modo de detalhe ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Exportar os dados utilizados no mosaico](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [Editar o título e subtítulo, adicionar uma hiperligação, apresentar a hora da última atualização](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Executar informações ](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Ver no modo de detalhe ](service-focus-mode.md) ![ícone de detalhe](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Exportar os dados utilizados no mosaico](power-bi-visualization-export-data.md) ![ícone exportar dados](media/service-dashboard-tiles/export-icon.png)
+     * [Editar o título e subtítulo, adicionar uma hiperligação, apresentar a hora da última atualização](service-dashboard-edit-tile.md) ![ícone editar](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Executar informações ](service-insights.md) ![ícone informações](media/service-dashboard-tiles/power-bi-insights.png)
      * [Afixar o mosaico a outro dashboard ](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Remover o mosaico](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![ícone afixar](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Remover o mosaico](service-dashboard-edit-tile.md)
+     ![ícone eliminar](media/service-dashboard-tiles/trash-icon.png)
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 
 ### <a name="select-click-a-tile"></a>Selecionar (clicar) um mosaico
@@ -99,7 +100,7 @@ Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi 
 * Se não tiver acesso à rede onde o servidor SSRS está localizado, a seleção de um mosaico criado a partir do SSRS produzirá uma página com a indicação de que não é possível localizar o servidor (HTTP 404). O dispositivo tem de ter acesso de rede ao servidor de relatórios para ver o relatório.
 * Se a visualização original utilizada para criar o mosaico for alterada, o mosaico não será alterado.  Por exemplo, se fixou um gráfico de linhas de um relatório e, em seguida, alterar o gráfico de linhas para um gráfico de barras, o mosaico do dashboard continuará a mostrar um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 [Criar um cartão (mosaico de número grande) para o dashboard](power-bi-visualization-card.md)
 
 [Dashboards no Power BI](service-dashboards.md)  
@@ -112,5 +113,5 @@ Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi 
 
 [Afixar itens do Reporting Services nos Dashboards do Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

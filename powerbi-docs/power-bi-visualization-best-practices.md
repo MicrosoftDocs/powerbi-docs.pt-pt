@@ -15,20 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/14/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: e3c3f59bc5d27e19bbd6256b6692782fc115ff28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Melhores práticas de design para relatórios e elementos visuais
 <!-- Shared newnav Include -->
 [!INCLUDE [newnavbydefault](./includes/newnavbydefault.md)]
 
 ## <a name="introduction"></a>Introdução
-Este documento disponibiliza melhores práticas para criar relatórios no Power BI. Começando com o planeamento, aborda os princípios de design que pode aplicar aos seus relatórios e páginas e os elementos visuais individuais que constituem os relatórios.  Muitas destas melhores práticas também se aplicam ao design de dashboards.
+Este documento disponibiliza melhores práticas para criar relatórios no Power BI. A começar pelo planeamento, aborda os princípios de design que pode aplicar aos seus relatórios e páginas e os elementos visuais individuais que constituem os relatórios.  Muitas destas melhores práticas também se aplicam ao design de dashboards.
 
 Esperamos que este documento seja um ponto de partida e que aplique o que vai aprender aos seus próprios relatórios e visualizações e que continue o debate em community.powerbi.com. A utilização de designs e visualizações de relatórios de BI é um dos principais tópicos da atualidade e há muitos líderes criativos, bloggers e sites que o encaram muito seriamente (mostramos alguns no final).   
 
@@ -215,7 +216,7 @@ Quando definir fundos para as páginas dos relatórios, escolha cores que não t
 
 Não está a criar uma obra de arte, mas sim um relatório funcional. Escolha uma cor que melhore a legibilidade e a proeminência dos elementos do relatório.  
 
-Um estudo sobre a utilização de cores e visualizações em páginas Web concluiu que um contraste maior entre as cores aumenta a velocidade da compreensão (*The effect of text and background colour on visual search of Web pages** “O efeito da cor do texto e do fundo na pesquisa visual de páginas Web e **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics*. Determinar a Perceção dos Utilizadores da Complexidade Visual e das Características Estéticas das Páginas Web”).
+Um estudo sobre a utilização de cores e visualizações em páginas Web concluiu que um contraste maior entre as cores aumenta a velocidade da compreensão (The effect of text and background colour on visual search of Web pages [O efeito da cor do texto e do fundo na pesquisa visual de páginas Web] e **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics** [Determinar a Perceção dos Utilizadores da Complexidade Visual e das Características Estéticas das Páginas Web]).
 
 Aplicámos algumas melhores práticas de cores ao nosso relatório de exemplo (Figuras 20 e 21), abaixo. A mais notável foi a alteração da cor do fundo para preto.  O amarelo era demasiado vibrante e forçava o olhar.  Além disso, no gráfico "Contagem de nomes de atletas por ano e turma”, a parte amarela das barras misturava-se com o fundo amarelo.  Ao utilizar um fundo preto (ou branco), temos um contraste máximo, que fazem com que o elemento visual seja o centro das atenções.
 
@@ -739,7 +740,7 @@ Para obter mais informações, veja:
 ### <a name="scatter-chart"></a>Gráfico de Dispersão
 ![](media/power-bi-visualization-best-practices/power-bi-scatter.png)
 
-Por vezes, podemos querer ver muitas variáveis ao mesmo tempo e os gráficos de dispersão podem ser uma forma muito útil de obter uma perspetiva geral.  Estes gráficos apresentam as relações entre duas (Dispersão) ou três (Bolha) medidas quantitativas.  Têm sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos uniformemente ou não no eixo horizontal, dependendo dos dados.
+Por vezes, podemos querer ver muitas variáveis ao mesmo tempo e os gráficos de dispersão podem ser uma forma muito útil de obter uma perspetiva geral.  Estes gráficos apresentam as relações entre duas (Dispersão) ou três (Bolha) medidas quantitativas.  Têm sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos uniformemente ou não no eixo horizontal, dependendo dos dados.
 
 Os gráficos de bolhas substituem os pontos de dados por bolhas, sendo que o tamanho das bolhas representa uma dimensão adicional dos dados.
 
@@ -818,5 +819,5 @@ Agora é altura de testar estas melhores práticas.  Mantenha-se em contacto e p
 ### <a name="book-recommendations"></a>Literatura recomendada
 Hoje em dia, estão disponíveis muitos livros bons que ajudam a equipa a melhorar as técnicas de design de elementos visuais. O livro *Information Dashboard Design* (Design de Dashboards de Informação), de Stephen Few, é de leitura obrigatória. O autor aprofunda este tema ainda mais em dois outros livros, *Show Me the Numbers* (Mostrem-me os Números) e *Now You See It* (Agora já os vemos). Few e outros autores foram buscar inspiração a Edward R. Tufte, cujo livro *The Visual Display of Quantitative Information* (Apresentação Visual de Informações Quantitativas) é considerado um clássico na área. Tufte também escreveu *Visual Explanations* (Explicações Visuais), *Envisioning Information* (Conceber a Informação) e *Beautiful Evidence* (Evidências Apelativas). Outra leitura imperdível é o novo livro de Andy Kirk, *Data Visualization: A Handbook for Data Driven Design* (Visualização de Dados: Guia Prático para o Design Orientado para Dados). Outros autores que têm sido recomendados são Lachlan James, William McKnight e Boris Evelson (Forrester), Darkhorse Analytics.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

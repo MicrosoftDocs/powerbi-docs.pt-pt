@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Notificações do Power BI
 O Centro de Notificações é um feed sequencial de informações relacionadas com a sua experiência do Power BI. Abra-o para ver mensagens sobre novos dashboards que foram partilhados consigo, alterações ao seu espaço de Grupo, informações sobre eventos e reuniões do Power BI, alertas definidos e muito mais. Pode [definir alertas no serviço Power BI](service-set-data-alerts.md) e também nas aplicações móveis do Power BI.
@@ -34,13 +35,13 @@ Veja Amanda a rever as notificações que recebeu, a gerir as notificações e a
 
 1. Quando iniciar sessão no Power BI, quaisquer novas notificações enviadas para si enquanto esteve offline são adicionadas ao feed. Se tiver novas notificações, o Power BI apresenta uma bolha amarela com o número de novos itens.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![novo ícone Notificações](media/service-notification-center/power-bi-new-notification.png)
 2. Na barra de menus do Power BI, selecione o ícone Notificações.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![barra de menus superior com o ícone Notificações selecionado](media/service-notification-center/power-bi-notifications-icon.png)
 3. As notificações são apresentadas com as mais recentes na parte superior e as mensagens não lidas realçadas. As notificações são mantidas durante 90 dias, a menos que as elimine ou atinja o limite máximo de 100.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Centro de Notificações](media/service-notification-center/power-bi-notifications.png)
 4. Para dispensar uma notificação, selecione o ícone X.
 
 ### <a name="next-steps"></a>Próximos passos

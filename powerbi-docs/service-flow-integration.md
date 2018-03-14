@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 527978a3559abdc7c46b08569af40b769e9054e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
 
@@ -46,44 +46,44 @@ Nesta tarefa vamos utilizar um modelo para criar um fluxo simples que é acionad
 1. Inicie sessão no Microsoft Flow (flow.microsoft.com).
 2. Selecione **Os meus fluxos**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![Barra de menus do Flow](media/service-flow-integration/power-bi-my-flows.png)
 3. Selecione **Criar a partir de um modelo**.
    
-    ![](media/service-flow-integration/power-bi-template.png)
+    ![Barra de menus Os meus fluxos](media/service-flow-integration/power-bi-template.png)
 4. Utilize a caixa de Pesquisa para localizar modelos do Power BI e selecione **Enviar um e-mail a qualquer audiência quando for acionado um alerta de dados do Power BI > Continuar**.
    
-    ![](media/service-flow-integration/power-bi-flow-alert.png)
+    ![resultados da pesquisa](media/service-flow-integration/power-bi-flow-alert.png)
 
 
 ### <a name="build-the-flow"></a>Criar o fluxo
 Este modelo tem um acionador (alerta de dados do Power BI para novas medalhas olímpicas para a Irlanda) e uma ação (enviar um e-mail). Ao selecionar um campo, o Flow mostra os conteúdos dinâmicos que pode incluir.  Neste exemplo vamos incluir o valor do mosaico e o URL do mosaico no corpo da mensagem.
 
-![](media/service-flow-integration/power-bi-template1.png)
+![modelo de fluxo](media/service-flow-integration/power-bi-template1.png)
 
 1. No menu pendente do acionador, selecione um alerta de dados do Power BI. Selecione **Nova medalha para a Irlanda**. Para saber como criar um alerta, selecione [Alertas de dados no Power BI](service-set-data-alerts.md).
    
-   ![](media/service-flow-integration/power-bi-trigger-flow.png)
+   ![menu pendente Alerta](media/service-flow-integration/power-bi-trigger-flow.png)
 2. Introduza um ou mais endereços de e-mail válidos e, em seguida, selecione **Editar** (mostrado abaixo) ou **Adicionar conteúdo dinâmico**. 
    
-   ![](media/service-flow-integration/power-bi-flow-email.png)
+   ![Ecrã Enviar um e-mail](media/service-flow-integration/power-bi-flow-email.png)
 
 3. O fluxo cria um título e uma mensagem que pode manter ou modificar. Todos os valores que definir aquando da criação do alerta no Power BI estão disponíveis para utilização – basta colocar o cursor sobre eles e selecionar da área realçada cinzenta. 
 
-   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+   ![Ecrã Enviar um e-mail](media/service-flow-integration/power-bi-flow-email-default.png)
 
 1.  Por exemplo, se tiver criado um título do alerta no Power BI de **Ganhámos outra medalha**, pode selecionar **Título do alerta** para adicionar esse texto ao campo Assunto do e-mail.
 
-    ![](media/service-flow-integration/power-bi-flow-message.png)
+    ![criar o texto do e-mail](media/service-flow-integration/power-bi-flow-message.png)
 
     Pode também aceitar o corpo do e-mail predefinido ou criar o seu próprio. O exemplo acima contém algumas modificações na mensagem.
 
 1. Quando concluir, selecione **Criar fluxo** ou **Guardar fluxo**.  O fluxo é criado e avaliado.  O Flow avisa-o caso encontre erros.
 2. Se forem encontrados erros, selecione **Editar fluxo** para corrigi-los. Caso contrário, selecione **Concluído** para executar o novo fluxo.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![mensagem de êxito](media/service-flow-integration/power-bi-flow-running.png)
 5. Quando o alerta de dados é acionado, será enviado um e-mail para os endereços que indicou.  
    
-   ![](media/service-flow-integration/power-bi-flow-email2.png)
+   ![e-mail de alerta](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Criar um Fluxo de raiz que utiliza o Power BI (em branco)
 Nesta tarefa vamos criar de raiz um fluxo simples que é acionado por um alerta de dados do Power BI (notificação).
@@ -91,30 +91,30 @@ Nesta tarefa vamos criar de raiz um fluxo simples que é acionado por um alerta 
 1. Inicie sessão no Microsoft Flow.
 2. Selecione **Os meus fluxos** > **Criar do zero**.
    
-   ![](media/service-flow-integration/power-bi-my-flows.png)
+   ![barra de menus superior do Flow](media/service-flow-integration/power-bi-my-flows.png)
 3. Utilize a caixa de Pesquisa para localizar um acionador do Power BI e selecione **Power BI - quando um alerta de dados é acionado**.
 
 ### <a name="build-your-flow"></a>Criar o seu fluxo
 1. No menu pendente, selecione o nome do seu alerta.  Para saber como criar um alerta, selecione [Alertas de dados no Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores2.png)
+    ![selecionar o nome do Alerta](media/service-flow-integration/power-bi-totalstores2.png)
 2. Selecione **Novo passo** > **Adicionar uma ação**.
    
-   ![](media/service-flow-integration/power-bi-new-step.png)
+   ![adicionar um novo passo](media/service-flow-integration/power-bi-new-step.png)
 3. Pesquise **Outlook** e selecione **Criar evento**.
    
-   ![](media/service-flow-integration/power-bi-create-event.png)
+   ![criar o fluxo](media/service-flow-integration/power-bi-create-event.png)
 4. Preencha os campos do evento. Ao selecionar um campo, o Flow mostra os conteúdos dinâmicos que pode incluir.
    
-   ![](media/service-flow-integration/power-bi-flow-event.png)
+   ![continuar a criar o fluxo](media/service-flow-integration/power-bi-flow-event.png)
 5. Selecione **Criar fluxo** depois de concluir.  O Flow guarda e avalia o fluxo. Se não houver erros, selecione **Concluído** para executar este fluxo.  O novo fluxo é adicionado à página **Os meus fluxos**.
    
-   ![](media/service-flow-integration/power-bi-flow-running.png)
+   ![Concluir o fluxo](media/service-flow-integration/power-bi-flow-running.png)
 6. Quando este fluxo for acionado pelo seu alerta de dados do Power BI, receberá uma notificação de evento do Outlook semelhante a esta.
    
-    ![](media/service-flow-integration/power-bi-flow-notice.png)
+    ![O fluxo aciona uma notificação do Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Introdução ao Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Definir alertas de dados no serviço Power BI](service-set-data-alerts.md)
 * [Definir alertas de dados no iPhone](mobile-set-data-alerts-in-the-mobile-apps.md)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar. office
@@ -86,7 +86,7 @@ Siga os passos abaixo para concluir a submissão.
    * *Título da submissão:* o nome a utilizar para a submissão no Centro de Programadores.
    * *Versão:* o número da versão é povoado automaticamente com base no pacote de aplicação do suplemento.
    * *Data de Lançamento (UTC):* selecione uma data para a aplicação ser lançada na Loja. Se for escolhida uma data no futuro, a aplicação só estará disponível na Loja a partir dessa data.
-   * *Categoria:* a primeira categoria será povoada automaticamente como "Visualização de Dados + BI". Esta é a forma como todos os elementos visuais personalizados do Power BI serão etiquetados. Pode indicar até 2 categorias adicionais, para facilitar a procura do seu elemento visual por parte dos utilizadores.
+   * *Categoria:* a primeira categoria será povoada automaticamente como "Visualização de Dados + BI". Esta é a forma como todos os elementos visuais personalizados do Power BI serão etiquetados. Pode indicar até duas categorias adicionais, para facilitar a pesquisa do elemento visual por parte dos utilizadores
    * *Notas de teste:* é opcional, no caso de querer fornecer algumas instruções aos técnicos de testes da Microsoft.
    * *A minha aplicação chama, suporta, contém ou utiliza criptografia ou encriptação:* deixe desmarcado.
    * *Disponibilizar este suplemento no catálogo de suplementos do Office no iPad:* deixe desmarcado.
@@ -121,7 +121,7 @@ Siga os passos abaixo para concluir a submissão.
     > Se selecionar qualquer outra opção sem ser "gratuita" ou se tiver conteúdo com compra via aplicação inserido no elemento visual submetido, a submissão será rejeitada.
     > 
     > 
-17. Agora, pode selecionar **Guardar como rascunho e submeter mais tarde ou pode selecionar **Submeter para aprovação** para submeter o elemento visual personalizado na Loja Office.
+17. Agora, pode selecionar **Guardar como rascunho** e submeter mais tarde ou pode selecionar **Submeter para aprovação** para submeter o elemento visual personalizado na Microsoft Store.
 
 ## <a name="tracking-submission-status-and-usage"></a>Controlar o estado da submissão e a utilização
 Pode rever as [políticas de validação](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals).

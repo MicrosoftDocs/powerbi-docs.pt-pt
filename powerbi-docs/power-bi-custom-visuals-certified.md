@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 94a01f1d302d455dbcfe52ce39f5cb0b1ac4aa29
-ms.sourcegitcommit: 05018ef2fe8439a9e8f599c696b8c3cee67e3958
+ms.openlocfilehash: cc50e4e8830aca3951da6004b8ada3913aff28ed
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obter um visual personalizado *certificado*
 ## <a name="what-is-meant-by-certified"></a>O que se entende por *certificado*?
@@ -50,7 +50,9 @@ Para enviar um visual personalizado para certificação:
    * Título: Pedido de Certificação Visual    
    * Forneça uma ligação para o repositório do GitHub onde se situa o código-fonte do visual    
    * Cumprir os requisitos (ver acima)    
-   * Passar a revisão de código e segurança    2. A equipa de Elementos Visuais Personalizados na Microsoft irá notificá-lo de que o seu visual personalizado foi certificado e adicionado à lista de Certificados (abaixo) ou rejeitado, com um relatório dos problemas a corrigir. É da responsabilidade do programador manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais Certificados conforme necessário.
+   * Passar a revisão de código e segurança    
+
+2. A equipa de Elementos Visuais Personalizados na Microsoft irá notificá-lo de que o seu visual personalizado foi certificado e adicionado à lista de Certificados (abaixo) ou rejeitado, com um relatório dos problemas a corrigir. É da responsabilidade do programador manter uma linha aberta de comunicação com a Microsoft e atualizar os visuais Certificados conforme necessário.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Remoção dos visuais personalizados Certificados do Power BI
 A Microsoft pode remover um visual da lista de Certificados a seu critério exclusivo.  
@@ -117,6 +119,7 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Play Axis (Segmentação de Dados Dinâmica)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Vídeo](https://youtu.be/IvfIP3E6-1Q) |
 | [Matriz do Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Vídeo](https://youtu.be/1enze8pcGzY) |
+| [Gráfico de Quadrante da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [Vídeo](https://youtu.be/ppBnyhqWNC0) |
 | [Gráfico de Radar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
 | [Gráfico de Anel da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Vídeo](https://youtu.be/pDToHDFHnq8) |
 | [Gráfico Rotativo da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Vídeo](https://youtu.be/d5xBCMmb3hU) |
@@ -129,6 +132,7 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
 | [Mapa de Calor de Tabela](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
 | [Tacómetro](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [Vídeo](https://youtu.be/C3OXdETbS9o) |
+| [Filtro de Texto](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Encapsulador de Texto da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Termómetro](https://appsource.microsoft.com/en-us/product/office/WA104379807) | |
 | [Gráfico de decomposição de série temporal](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380897) | |

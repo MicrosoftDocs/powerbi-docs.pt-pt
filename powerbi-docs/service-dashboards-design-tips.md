@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 757415a2b0ddd8fa7f1d9799e31e4266bfc8076f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugestões para criar um dashboard excelente no Power BI
 Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como tornar o dashboard não apenas bonito, mas também funcional. Em geral, significa destacar as informações mais importantes e torná-las claras e organizadas.
@@ -50,11 +51,11 @@ Mostre o seu dashboard em [ecrã inteiro](service-fullscreen-mode.md) sem distra
 
 ### <a name="make-the-most-important-information-biggest"></a>Adicionar as informações mais importantes
 Se o texto e as visualizações no dashboard forem do mesmo tamanho, os leitores terão dificuldade em se concentrar no que é mais importante. Por exemplo, as visualizações de cartão são uma boa forma de apresentar um número importante em destaque:  
-![](media/service-dashboards-design-tips/pbi_card.png)
+![Visualização de cartão](media/service-dashboards-design-tips/pbi_card.png)
 
 Mas não se esqueça de fornecer contexto.  
 
-Saiba mais sobre [criar um mosaico apenas com um número](power-bi-visualization-big-number.md).
+Saiba mais sobre [criar um mosaico apenas com um número](power-bi-visualization-card.md).
 
 ### <a name="put-the-most-important-information-in-the-upper-corner"></a>Colocar as informações mais importantes no canto superior
 A maioria das pessoas leem de cima para baixo, pelo que deve colocar o nível mais alto de detalhes na parte superior e mostrar mais detalhes à medida que se move na direção que o público-alvo utiliza para ler (da esquerda para a direita, da direita para a esquerda).
@@ -85,5 +86,5 @@ Para dominar a arte da excelente criação de dashboards, considere aprender os 
 ## <a name="next-steps"></a>Passos seguintes
 [Dashboards no Power BI](service-dashboards.md)  
 [Power BI - Conceitos Básicos](service-basic-concepts.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

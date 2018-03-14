@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 0288e9613a187b64e5bc71c952e01d70f1f56012
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters de elevada disponibilidade para gateways de dados no local
 Pode criar **clusters de elevada disponibilidade** de instalações de **gateways de dados no local** para garantir que a sua organização consegue aceder a recursos de dados no local utilizados nos relatórios e dashboards do Power BI. Estes clusters permitem aos administradores de gateway agrupar gateways de forma a evitar pontos únicos de falha ao aceder a recursos de dados no local. Este artigo descreve os passos a seguir para criar um cluster de elevada disponibilidade de gateways de dados no local, além de partilhar as melhores práticas de configuração dos mesmos. Os clusters de gateway de elevada disponibilidade requerem a atualização de novembro de 2017 para o gateway de dados no local ou versão superior.
@@ -51,7 +52,7 @@ Os scripts do PowerShell estão disponíveis na pasta de instalação do gateway
 -   Obter a lista de clusters de gateway disponíveis para um utilizador
 -   Obter a lista de instâncias de gateway registadas num cluster, bem como o respetivo estado online ou offline
 -   Modificar o estado ativado/desativado de uma instância de gateway dentro de um cluster, bem como outras propriedades do gateway
--   Excluir um gateway
+-   Eliminar um gateway
 
 Para executar os comandos do PowerShell apresentados na tabela, terá, primeiro, de seguir estes passos:
 
@@ -80,16 +81,16 @@ Quando concluir estes passos, pode utilizar os comandos apresentados na tabela s
 | *Remove-OnPremisesDataGateway*  | Permite-lhe remover uma instância de gateway de um cluster. Tenha em atenção que não pode remover o gateway principal no cluster até que tenha removido todos os outros gateways no cluster.| *-ClusterObjectID xyz* (*xyz* deve ser substituído por um valor de ID de objeto de cluster real, o qual pode ser obtido com o comando *Get-OnPremisesDataGatewayClusters*)  *-GatewayObjectID abc*  (*abc* deve ser substituído por um valor de ID de objeto de gateway real, o qual pode ser obtido com o comando *Get-OnPremisesDataClusterGateways*, tendo em conta um ID de objeto de cluster) |
 
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
--   [Gerir a sua origem de dados - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
--   [Gerir a sua origem de dados - SAP HANA](service-gateway-enterprise-manage-sap.md)  
--   [Gerir a sua origem de dados - SQL Server](service-gateway-enterprise-manage-sql.md)  
--   [Gerir a sua origem de dados - Oracle](service-gateway-onprem-manage-oracle.md)  
+-   [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+-   [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
+-   [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
+-   [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
 -   [Gerir a sua origem de dados - Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 -   [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 -   [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
 -   [Configurar definições de proxy para o gateway de dados no local](service-gateway-proxy.md)  
 -   [Utilizar o Kerberos para SSO (início de sessão único) do Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

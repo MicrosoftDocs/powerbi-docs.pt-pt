@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Utilizar Ver Dados e Ver Registos no Power BI Desktop
 No **Power BI Desktop**, pode explorar os detalhes de qualquer elemento visual e ver uma representação textual dos dados ou de elementos de dados individuais de um elemento visual selecionado. Estas funcionalidades são, por vezes, referidas como *clicável*, *exploração* ou *exploração de detalhes*.
@@ -69,6 +70,9 @@ Também pode concentrar-se num elemento de dados num elemento visual e explorar 
 Depois de selecionar **Ver Registos**, o **Power BI Desktop** concentra-se nesse elemento de dados individual e dedica a área da tela à apresentação dos dados desse elemento, conforme mostrado na imagem seguinte.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> Não pode guardar as alterações dos dados visualizados (ou modificados por utilizadores) em **Ver Registos** num relatório.
 
 Para voltar ao relatório, selecione o botão **Voltar ao Relatório** no canto superior esquerdo da tela.
 

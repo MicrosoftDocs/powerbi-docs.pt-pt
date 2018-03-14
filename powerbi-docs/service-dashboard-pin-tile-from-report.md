@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
 ## <a name="pinning-tiles-from-a-report"></a>Afixar mosaicos a partir de um relatório
@@ -45,7 +46,7 @@ Agora, crie o seu próprio dashboard utilizando um dos relatórios de exemplo do
 
 1. Paire o rato sobre a visualização que quer afixar e selecione o ícone de afixar ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). O Power BI abre o ecrã **Afixar no dashboard**.
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Janela Afixar no dashboard](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Decida se quer fixar a um dashboard existente ou a um novo.
    
    * Dashboard existente: selecione o nome do dashboard na lista pendente. Os dashboard que foram partilhados consigo não aparecerão na lista pendente.
@@ -55,7 +56,7 @@ Agora, crie o seu próprio dashboard utilizando um dos relatórios de exemplo do
    
    Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![mensagem de êxito](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. No painel de navegação, selecione o dashboard com o novo mosaico. Selecione o mosaico para voltar ao relatório. Ou, [edite a apresentação e o comportamento do mosaico](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Afixar uma página de relatório inteira
@@ -74,5 +75,5 @@ Para obter mais informações, veja [Afixar uma página de relatório inteira](s
 
 [Conceitos básicos do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

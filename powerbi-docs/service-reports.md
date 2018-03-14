@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 ## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
 Um ***relatório*** do Power BI é uma vista de várias perspetivas sobre um conjunto de dados, com visualizações que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter uma única visualização ou páginas cheias de visualizações. Consoante o seu cargo, pode ser alguém que *cria* relatórios e/ou pode ser alguém que *consome* ou utiliza relatórios.
 
-![](media/service-reports/reportview.png)
+![página de relatório](media/service-reports/reportview.png)
 
 Este relatório tem 3 páginas (ou separadores) e estamos atualmente a ver a página Descrição Geral de Vendas da Loja. Nesta página, existem 6 visualizações diferentes e um título de página. As visualizações podem ser *afixadas* a dashboards e, quando a visualização afixada é adicionada, abre o relatório do qual foi afixada.
 
@@ -47,15 +48,15 @@ Os [Dashboards](service-dashboards.md) costumam ser confundidos com os relatóri
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não |Sim, pode criar e ver relatórios no Desktop |
 | Afixação |Pode afixar visualizações (mosaicos) existentes apenas do dashboard atual aos seus outros dashboards |Pode afixar visualizações (como mosaicos) aos seus dashboards. Pode afixar páginas de relatório inteiras aos seus dashboards. |
-| Subscrição |Não pode subscrever um dashboard |Pode subscrever páginas de relatórios |
-| Filtragem |Não pode filtrar ou segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
-| Definir alertas |Pode criar alertas para lhe enviar um e-mail quando são cumpridas determinadas condições |Não |
+| Subscrição |Não pode subscrever um dashboard |Pode subscrever páginas de relatório |
+| Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
+| Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando são cumpridas determinadas condições |Não |
 | Destaque |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
 | Consultas de linguagem natural |Disponível no dashboard |Não disponível nos relatórios |
-| Pode alterar o tipo de relatório |Não. Aliás, se um proprietário de relatório alterar o tipo de visualização no relatório, a visualização afixada no dashboard não é atualizada |Sim |
-| Pode ver tabelas e campos de conjuntos de dados subjacentes |Não. Pode exportar dados mas não pode ver tabelas e campos no próprio dashboard. |Sim. Pode ver tabelas, campos e valores de conjuntos de dados. |
-| Pode criar visualizações |Limitado a adicionar widgets ao dashboard através de "Adicionar mosaico" |Pode criar vários tipos diferentes de visuais, adicionar visuais personalizados, editar visuais e muito mais com permissões de Edição |
-| Personalização |Pode efetuar ações com visualizações (mosaicos) como mover e dispor, redimensionar, adicionar ligações, mudar o nome, eliminar e mostrar em ecrã inteiro. No entanto, os dados e as visualizações propriamente ditos são apenas de leitura. |Na Vista de leitura, pode publicar, incorporar, filtrar, exportar, transferir como .pbix, ver conteúdos relacionados, gerar códigos QR, analisar no Excel e muito mais.  Na Vista de edição, pode fazer tudo o que foi anteriormente mencionado e muito mais. |
+| Pode alterar o tipo de visualização |Não. De facto, se um proprietário de relatório alterar o tipo de visualização no relatório, a visualização afixada no dashboard não é atualizada |Sim |
+| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados mas não pode ver tabelas e campos no próprio dashboard. |Sim. Pode ver tabelas, campos e valores de conjuntos de dados. |
+| Pode criar visualizações |Limitado a adicionar widgets ao dashboard através de "Adicionar mosaico" |Pode criar vários tipos diferentes de elementos visuais, adicionar elementos visuais personalizados, editar elementos visuais e muito mais com permissões de Edição |
+| Personalização |Pode efetuar ações com visualizações (mosaicos) como mover e dispor, redimensionar, adicionar ligações, mudar o nome, eliminar e mostrar em ecrã inteiro. No entanto, os dados e as visualizações propriamente ditos são só de leitura. |Na Vista de leitura, pode publicar, incorporar, filtrar, exportar, transferir como .pbix, ver conteúdos relacionados, gerar códigos QR, analisar no Excel e muito mais.  Na Vista de edição, pode fazer tudo o que foi anteriormente mencionado e muito mais. |
 
 ## <a name="report-creators-and-report-consumers"></a>***Criadores*** e ***consumidores*** de relatórios.
 Consoante o seu cargo, pode ser uma pessoa que cria relatórios para sua utilização ou para partilhar com colegas. Quer saber como criar e partilhar relatórios. Também pode ser uma pessoa que recebe relatórios de terceiros. Quer saber como compreender e interagir com os relatórios.
@@ -86,5 +87,5 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

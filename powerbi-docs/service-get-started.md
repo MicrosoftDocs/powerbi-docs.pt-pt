@@ -16,23 +16,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: aacc31c3ebb31bf6f8077a2bf802e8127048a431
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](guided-learning/gettingstarted.yml#step-1).
 
-![](media/service-get-started/power-bi-components.png)
+![ilustração a mostrar a relação entre as versões Desktop, serviço e Mobile](media/service-get-started/power-bi-components.png)
 
 O serviço Power BI tem uma versão gratuita e uma versão Pro. Independentemente da versão que está a utilizar, *se já tiver uma conta*, abra um navegador e escreva app.powerbi.com para abrir o serviço Power BI. Se for um utilizador novo, recomendamos que comece em www.powerbi.com. Aqui, pode saber mais sobre o Power BI antes de iniciar sessão no serviço.  Quando estiver pronto para experimentá-lo, selecione a ligação **Inscrever-se gratuitamente**, apresentada no canto superior direito. Se o administrador já tiver ativado o Power BI em seu nome, não utilize o botão Inscrever-se gratuitamente. Em vez disso, aceda diretamente a app.powerbi.com. 
 
-![](media/service-get-started/power-bi-sign-up.png)
+![Iniciar sessão ou Inscrever-se gratuitamente](media/service-get-started/power-bi-sign-up.png)
 
 Se estiver à procura de ajuda para o Power BI Desktop, consulte [Introdução ao Desktop](desktop-getting-started.md). Se procura ajuda no Power BI Mobile, consulte [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md).
 
@@ -58,27 +58,27 @@ Veja um exemplo de como obter dados de um ficheiro CSV. Deseja acompanhar este t
 1. [Inicie sessão no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe. Pode inscrever-se gratuitamente.
 2. O Power BI é aberto no seu browser. Selecione **Obter Dados** na parte inferior da barra de navegação esquerda.
    
-   ![](media/service-get-started/getdata3.png)
+   ![obter dados](media/service-get-started/getdata3.png)
 3. Selecione **Ficheiros**. 
    
-   ![](media/service-get-started/gs1.png)
+   ![obter ficheiros](media/service-get-started/gs1.png)
 4. Procure o ficheiro no computador e selecione **Abrir**. Se o tiver guardado no OneDrive para Empresas, selecione essa opção. Se o tiver guardado localmente, selecione **Ficheiro Local**. 
    
-   ![](media/service-get-started/gs2.png)
+   ![Ecrã Obter Dados > Ficheiros](media/service-get-started/gs2.png)
 5. Neste tutorial, vamos selecionar **Importar** para adicionar o ficheiro Excel como um conjunto de dados que podemos utilizar para criar relatórios e dashboards. Se selecionar **Carregar**, todo o livro do Excel será carregado para o Power BI, onde poderá abrir e editar o mesmo no Excel online.
    
-   ![](media/service-get-started/power-bi-import.png)
+   ![selecione Importar](media/service-get-started/power-bi-import.png)
 6. Quando o seu conjunto de dados, estiver pronto, selecione **Ver conjunto de dados** para o abrir no editor de relatórios. 
 
-    ![](media/service-get-started/power-bi-gs.png)
+    ![Caixa de diálogo O seu conjunto de dados está pronto](media/service-get-started/power-bi-gs.png)
 
     Como ainda não criamos nenhuma visualização, a tela de relatórios estará em branco.
 
-    ![](media/service-get-started/power-bi-report-editor.png)
+    ![tela de relatório em branco](media/service-get-started/power-bi-report-editor.png)
 
 6. Observe a barra de menus superior e repare que existe uma opção para **Vista de leitura**. Uma vez que tem uma opção para a Vista de leitura, significa que está atualmente na **Vista de edição**. 
 
-    ![](media/service-get-started/power-bi-editing-view.png)
+    ![Opção Vista de leitura](media/service-get-started/power-bi-editing-view.png)
 
     Enquanto está na Vista de edição, pode criar e modificar os relatórios porque é o *proprietário* do relatório; é um *criador*. Quando partilha o relatório com os colegas, eles só poderão interagir com o relatório na Vista de leitura; são *consumidores*. Saiba mais sobre as [Vistas de leitura e de edição](service-reading-view-and-editing-view.md).
     
@@ -91,49 +91,49 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
     
 1. No editor de relatórios, vamos utilizar o painel **Campos**, no lado direito da página, para criar uma visualização.  Selecione a caixa de verificação de **Gross Sales** (Vendas Brutas) e  **Date** (Data).
    
-   ![](media/service-get-started/fields.png)
+   ![Lista Campos](media/service-get-started/fields.png)
 
 2. O Power BI analisa os dados e cria uma visualização.  Se tiver selecionado **Date** (Data) primeiro, verá uma tabela.  Se tiver selecionado **Gross Sales** (Vendas Brutas) primeiro, verá um gráfico. Mude para uma forma diferente de apresentação dos dados. Vamos ver estes dados como um gráfico de linhas. Selecione o ícone do gráfico de linhas (também conhecido como modelo) no painel **Visualizações**.
    
-   ![](media/service-get-started/gettingstart5new.png)
+   ![editor de relatórios com ícone selecionado](media/service-get-started/gettingstart5new.png)
 
 3. Este conteúdo parece ser interessante, por isso, vamos *afixá-lo* a um dashboard. Passe o cursor sobre a visualização e selecione o ícone **Afixar**.  Quando afixar esta visualização, esta é armazenada no dashboard e mantida atualizada para que possa acompanhar rapidamente o valor mais recente.
    
-   ![](media/service-get-started/pinnew.png)
+   ![ícone afixar](media/service-get-started/pinnew.png)
 
 5. Como este é um novo relatório, deverá guardá-lo para poder afixar uma visualização num dashboard. Dê um nome ao relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Guardar e Continuar**. 
    
-   ![](media/service-get-started/pbi_getstartsaveb4pinnew.png)
+   ![Caixa de diálogo Guardar relatório](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
 6. Vamos afixar o gráfico de linhas no novo dashboard e dar-lhe o nome “Exemplo financeiro para o tutorial”. 
    
-   ![](media/service-get-started/power-bi-pin.png)
+   ![atribuir um nome ao relatório](media/service-get-started/power-bi-pin.png)
    
  1. Selecione **Afixar**.
    
     Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
    
-    ![](media/service-get-started/power-bi-pin-success.png)
+    ![Caixa de diálogo Afixado ao dashboard](media/service-get-started/power-bi-pin-success.png)
 
 8. Selecione **Aceder ao dashboard** para ver o gráfico de linhas afixado, como um mosaico, no novo dashboard. Melhore ainda mais o aspeto do dashboard ao adicionar mais mosaicos de visualização e ao [mudar o nome, redimensionar, ligar e reposicionar mosaicos](service-dashboard-edit-tile.md).
    
-   ![](media/service-get-started/power-bi-new-dashboard.png)
+   ![dashboard com visualização afixada](media/service-get-started/power-bi-new-dashboard.png)
    
    Selecione o novo mosaico no seu dashboard para regressar ao relatório a qualquer altura. O Power BI volta para o editor de relatórios na Vista de leitura. Para mudar novamente para a Vista de edição, selecione **Editar relatório** na barra de menus superior. Quando estiver na Vista de edição, pode continuar a explorar e a afixar mosaicos. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Passo 3: continuar a exploração com as perguntas e respostas (consulta em linguagem natural)
 1. Para explorar os dados rapidamente, tente fazer uma pergunta na caixa de perguntas e respostas. A caixa de perguntas e respostas está localizada na parte superior do dashboard (**Fazer uma pergunta sobre os dados**) e na barra de menus superior do relatório (**Fazer uma pergunta**). Por exemplo, experimente escrever “que segmento obteve mais receita”.
    
-   ![](media/service-get-started/powerbi-qna.png)
+   ![Tela de Perguntas e Respostas](media/service-get-started/powerbi-qna.png)
 
-2. A caixa Perguntas e Respostas procura uma resposta e apresenta-a sob a forma de uma visualização. Clique no ícone de afixar ![](media/service-get-started/pbi_pinicon.png) para mostrar esta visualização no dashboard também.
+2. A caixa Perguntas e Respostas procura uma resposta e apresenta-a sob a forma de uma visualização. Selecionar o ícone afixar ![ícone afixar](media/service-get-started/pbi_pinicon.png) para mostrar esta visualização no dashboard também.
 3. Afixe a visualização no dashboard “Exemplo Financeiro para o tutorial”.
    
-    ![](media/service-get-started/power-bi-pin2.png)
+    ![Caixa de diálogo Afixar no dashboard](media/service-get-started/power-bi-pin2.png)
 
 4. Regresse ao dashboard onde verá o novo mosaico.
 
-   ![](media/service-get-started/power-bi-final-dashboard.png)
+   ![dashboard com gráfico afixado](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="next-steps"></a>Próximos passos
 Pronto para experimentar mais?  Veja a seguir algumas formas interessantes de explorar o Power BI.

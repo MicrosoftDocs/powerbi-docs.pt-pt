@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3638c99b0dfafa8a90a6c911051e203f3e6037c4
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Afixar uma página de relatório inteira, como um mosaico dinâmico, a um dashboard do Power BI
 Outra forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é afixar uma página inteira do relatório. Esta é uma forma fácil de afixar mais de uma visualização de cada vez.  Além disso, quando afixa uma página inteira, os mosaicos são *dinâmicos*; pode interagir com eles diretamente no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos utilizados no gráfico, também são refletidas no mosaico do dashboard.  
@@ -43,20 +44,20 @@ Veja a Amanda afixar uma página de relatório dinâmico num dashboard e, em seg
 1. Abra um relatório na [Vista de edição](service-interact-with-a-report-in-editing-view.md).
 2. Sem visualizações selecionadas, a partir da barra do menu, selecione **Afixar Página Dinâmica**.
    
-   ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Afixe o mosaico a um dashboard existente ou a um novo. Observe o texto realçado: *Afixar esta página em tempo real permite que as alterações nos relatórios sejam apresentadas no mosaico do dashboard quando a página é atualizada.*
+   ![ícone Afixar Página Dinâmica](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
+3. Afixe o mosaico num dashboard existente ou num novo dashboard. Observe o texto realçado: *Afixar esta página em tempo real permite que as alterações nos relatórios sejam apresentadas no mosaico do dashboard quando a página é atualizada.*
    
    * Dashboard existente: selecione o nome do dashboard na lista pendente. Os dashboard que foram partilhados consigo não aparecerão na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
      
-     ![](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
+     ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
 4. Selecione **Afixar dinâmico**. Uma mensagem de Êxito (perto do canto superior direito) informa que a página foi adicionada, como um mosaico, ao dashboard.
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>Abra o dashboard para ver o mosaico dinâmico afixado
 1. No painel de navegação, selecione o dashboard com o novo mosaico dinâmico. No dashboard poderá executar ações como [renomear, redimensionar, associar e mover](service-dashboard-edit-tile.md) a página do relatório afixada.  
 2. Interaja com os mosaicos dinâmicos.  Na captura de ecrã abaixo, a seleção de uma barra no gráfico de colunas tem um filtro cruzado e realçado nas outras visualizações do mosaico.
    
-    ![](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
+    ![dashboards com um mosaico dinâmico](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Próximos passos
 [Dashboards no Power BI](service-dashboards.md)

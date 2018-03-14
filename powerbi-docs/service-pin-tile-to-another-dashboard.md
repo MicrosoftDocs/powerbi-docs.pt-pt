@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: bf0146bf8cd57c515b0572b6a485e8da1a50f159
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 4784a5d07cab1f637afa6cf6622ea00fd264d501
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Afixar um mosaico de um dashboard noutro dashboard
 Uma forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 
@@ -34,21 +35,21 @@ Uma forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md
 2. Abrir um [dashboard](service-dashboards.md).
 3. Passe o rato sobre o mosaico que quer afixar, selecione as reticências (...) e escolha **Afixar mosaico**.  
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
+   ![menu de reticências](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Afixe o mosaico num dashboard existente ou num novo dashboard. 
    
    * **Dashboard existente**: selecione o nome do dashboard no menu pendente.
    * **Novo dashboard**: introduza o nome do novo dashboard.
    
-   ![](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
+   ![Caixa de diálogo Afixar ao Dashboard](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
 5. Selecione **Afixar**.
    Uma mensagem de êxito (junto ao canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard selecionado.
    
-   ![](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
+   ![Janela Afixado ao dashboard](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)
 6. Selecione **Ir para o dashboard** para ver o mosaico afixado. Deste modo, pode [renomear, redimensionar, associar e mover](service-dashboard-edit-tile.md) a visualização afixada.
 
 ## <a name="next-steps"></a>Próximos passos
 [Mosaicos no Power BI](service-dashboard-tiles.md)  
 [Dashboards no Power BI](service-dashboards.md)  
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

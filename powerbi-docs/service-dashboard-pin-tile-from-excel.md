@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+LocalizationGroup: Dashboards
+ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Afixar um mosaico num dashboard do Power BI a partir do Excel
 Para poder afixar um mosaico a partir do livro do Excel, primeiro terá de ligar esse livro ao serviço Power BI (app.powerbi.com). Ligar um livro coloca, essencialmente, uma versão só de leitura ligada desse livro no serviço Power BI e permite-lhe afixar intervalos a dahboards. Pode até afixar uma folha de cálculo inteira a um dashboard.  
@@ -42,35 +43,35 @@ Não é possível o livro no Power BI. Mas se precisar de fazer algumas alteraç
 1. Carregue o seu livro para o OneDrive para Empresas.
 2. No Power BI, [ligue-se a esse livro](service-excel-workbook-files.md) ao selecionar **Obter Dados > Ficheiros > OneDrive – Empresas**  e navegue até à localização onde guardou o ficheiro do Excel. Selecione o ficheiro e escolha **Ligar > Ligar**.
 
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+   ![Caixa de diálogo OneDrive para Empresas](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
-3. No Power BI, o livro é adicionado ao separador **Livros** da sua área de trabalho.  O ícone ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica que se trata de um livro do Excel e um asterisco amarelo indica que é novo.
+3. No Power BI, o livro é adicionado ao separador **Livros** da sua área de trabalho.  O ![ícone livro](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica que se trata de um livro do Excel e um asterisco amarelo indica que é novo.
    
     
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+   ![separador livros](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Abra o livro no Power BI, selecionando o nome do livro.
 
     As alterações feitas ao livro no Power BI não são guardadas e não afetam o livro original no OneDrive para Empresas. Se ordenar, filtrar ou alterar os valores no Power BI, essas alterações não poderão ser guardadas ou afixadas. Se tiver de fazer alterações que serão guardadas, selecione **Editar** no canto superior direito para abri-lo para edição no Excel Online ou no Excel. As alterações efetuadas desta forma podem demorar alguns minutos a atualizar os mosaicos nos dashboards.
    
    
-   ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+   ![Excel Online no Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Afixar um intervalo de células a um dashboard
 Uma forma de adicionar um novo [mosaico do dashboard](service-dashboard-tiles.md) é a partir de um livro do Excel no Power BI. Os intervalos podem ser afixados a partir de livros do Excel que foram guardados no OneDrive para Empresas ou noutra biblioteca de documentos partilhada pelo grupo. Os intervalos podem conter dados, tabelas, gráficos, Tabelas Dinâmicas, Gráficos Dinâmicos e outras partes do Excel.
 
 1. Realce as células que pretende afixar a um dashboard.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
-2. Selecione o ícone de pino ![](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png). 
-3. Afixe o mosaico a um dashboard existente ou a um novo dashboard. 
+    ![selecionar células no livro do Excel](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
+2. Selecione o ícone ![ícone afixar](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) Afixar. 
+3. Afixe o mosaico num dashboard existente ou num novo dashboard. 
    
    * Dashboard existente: selecione o nome do dashboard na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
    
-    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Selecione **Afixar**. Uma mensagem de Êxito (perto do canto superior direito) informa que o intervalo foi adicionado, como um mosaico, ao dashboard. 
    
-    ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
+    ![Caixa de diálogo Afixado ao dashboard](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Selecione **Ir para o dashboard**. A partir daqui, pode [mudar o nome, redimensionar, ligar e mover](service-dashboard-edit-tile.md) a visualização afixada. Por predefinição, selecionar o mosaico afixado abre o livro no Power BI.
 
 ## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Afixar um gráfico dinâmico ou toda uma tabela a um dashboard
@@ -78,14 +79,14 @@ Siga os passos acima, mas em vez de selecionar um intervalo de células, selecio
 
 Para afixar uma tabela, selecione o intervalo inteiro da tabela e certifique-se de que inclui os cabeçalhos.  Para afixar uma tabela dinâmica, certifique-se de que inclui todas as partes visíveis da tabela dinâmica, incluindo os filtros, caso sejam utilizados.
 
- ![](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
+ ![selecionar células](media/service-dashboard-pin-tile-from-excel/pbi_selecttable.png)
 
 Um mosaico criado a partir de uma tabela ou de uma tabela dinâmica irá mostrar a tabela inteira.  Se adicionar/remover/filtrar linhas ou colunas no livro original, também serão adicionadas/removidas/filtradas no mosaico.
 
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Ver o livro ligado ao mosaico
 Selecionar um mosaico do livro abre o livro ligado no Power BI. Como o ficheiro de livro está localizado no OneDrive para Empresas do proprietário, a visualização do livro exige que tenha permissões de Leitura para o livro. Se não tiver permissão, receberá uma mensagem de erro.  
 
- ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+ ![vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para obter os mosaicos do livro. Por isso, como algumas das funcionalidades do Excel não são suportadas na API REST dos Serviços do Excel, não serão vistas nos mosaicos no Power BI. Por exemplo: gráficos Sparkline, formatação condicional de conjunto de ícones e segmentação de dados de tempo. Para obter uma lista completa das funcionalidades não suportadas, veja [Funcionalidades Não Suportadas na API REST dos Serviços do Excel](http://msdn.microsoft.com/library/office/ff394477.aspx)

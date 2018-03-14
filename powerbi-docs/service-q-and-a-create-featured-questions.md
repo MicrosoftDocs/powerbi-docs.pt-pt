@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 38cb04269937aa0b56589e4831eb7a3b027986d0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as Perguntas e Respostas do Power BI
 Se possui um conjunto de dados, pode adicionar as suas próprias perguntas em destaque para esse conjunto de dados.  As Perguntas e Respostas do Power BI mostrarão essas perguntas aos colegas que utilizam (*consomem*) o seu conjunto de dados.  As perguntas em destaque fornecem aos seus colegas algumas ideias sobre os tipos de perguntas que eles podem fazer sobre o conjunto de dados. As perguntas em destaque adicionadas são decididas por si; pode adicionar perguntas populares, perguntas que mostram resultados interessantes ou perguntas que podem ser difíceis de formular.
@@ -39,18 +40,18 @@ Este artigo usa o [exemplo de Vendas de Análise de Revenda](sample-datasets.md)
 
 1. No dashboard, seleciona a caixa de perguntas Perguntas e Respostas.   Repare que as Perguntas e Respostas já estão ser úteis ao apresentarem uma lista de termos que aparecem no conjunto de dados.
 2. Para adicionar a esta lista, selecione o ícone de engrenagem no canto superior direito do Power BI.  
-   ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
+   ![ícone de engrenagem](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Selecione **Definições** &gt; **Conjuntos de dados** &gt; **exemplo de Análise de Revenda** &gt; **Perguntas das Perguntas e Respostas em destaque**.  
 4. Selecione **Adicionar uma pergunta**.
    
-   ![](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
+   ![Menu Definições](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
 5. Escreva a sua pergunta na caixa de texto e selecione **Aplicar**.   Opcionalmente, adicione outra pergunta selecionando **Adicionar uma pergunta**.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
+   painel ![Perguntas das Perguntas e Respostas em destaque](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Navegue de volta para o dashboard do Power BI, para o Exemplo de Análise de Revenda, e coloque o cursor na caixa de perguntas das Perguntas e Respostas.   
-   ![](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![caixa de perguntas das Perguntas e Respostas](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
 7. A nova pergunta em destaque, **Vendas por território como mapa**, é a primeira na lista. Selecione-a.  
 8. A resposta é apresentada como uma visualização de mapa preenchido.  
-   ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![visualização de mapa](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Próximos passos
 [Perguntas e Respostas no Power BI](power-bi-q-and-a.md)  

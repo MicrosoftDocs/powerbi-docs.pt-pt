@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Resolução de problemas do Cortana para Power BI
 Este artigo faz parte de uma série. Se ainda não o fez, recomendamos que leia os três artigos seguintes.
@@ -95,7 +96,7 @@ Continua a ter problemas?  Agora é uma boa altura para executar a ferramenta de
    Como obtivemos um resultado, sabemos agora que o Cortana **está** ativado no Power BI. Isso restringe o problema para algo no Windows, na definição de idioma do Cortana ou ter mais do que 100 conjuntos de dados ativados para o Cortana.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Está a ter problemas ao obter respostas a partir de um dashboard?
-Está à procura de um dashboard que foi partilhado consigo?  Abra o Power BI > **Partilhado comigo** e localize o nome do dashboard.  Em seguida, escreva o nome no campo *Expressão* *.
+Está à procura de um dashboard que foi partilhado consigo?  Abra o Power BI > **Partilhado comigo** e localize o nome do dashboard.  Em seguida, escreva o nome no campo **Expressão**.
 
 ![Abrir a opção Partilhado comigo no Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 
@@ -105,4 +106,4 @@ Está à procura de um dashboard que foi partilhado consigo?  Abra o Power BI > 
 * A consulta tem de ter 2 ou mais palavras, por predefinição.  Se a consulta for demasiado pequena, adicione a palavra "mostrar".
 * Algumas cadeias de consulta com preposições podem não funcionar (por exemplo, vendas por item). Experimente termos de consulta diferentes que não utilizem preposições e sejam significativos/exclusivos.
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

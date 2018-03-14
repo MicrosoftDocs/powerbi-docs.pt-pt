@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Adicionar imagem, texto, vídeo e muito mais ao dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Adicionar Mosaico
 O controlo **Adicionar mosaico** permite adicionar diretamente uma imagem, caixa de texto, vídeo, dados de transmissão em fluxo ou código Web ao seu dashboard.
 
-1. Selecione **Adicionar mosaico** na barra de menus superior. Consoante as limitações de espaço, pode ver apenas o sinal de adição ![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Selecione **Adicionar mosaico** na barra de menus superior. Consoante as limitações de espaço, pode ver apenas o ![sinal de adição](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Ícone Adicionar mosaico](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Selecione o tipo de mosaico a adicionar: **Imagem**, **Caixa de texto**, **Vídeo**, **Conteúdo Web** ou **Dados de transmissão em fluxo personalizados**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![janela adicionar mosaico](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Adicionar uma imagem
 Digamos que pretende ter o registootipo da empresa, ou outra imagem, no dashboard. Terá de guardar o ficheiro de imagem online e ligar ao mesmo. Certifique-se de que não são necessárias credenciais especiais para aceder ao ficheiro de imagem. Por exemplo, o OneDrive e o SharePoint exigem autenticação, pelo que as imagens armazenadas não podem ser adicionadas um dashboard desta forma.  
@@ -44,14 +45,14 @@ Digamos que pretende ter o registootipo da empresa, ou outra imagem, no dashboar
 1. Selecione **Imagem** > **Seguinte**.
 2. Adicione informações da imagem à janela **Adicionar mosaico de imagem**.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![janela adicionar mosaico de imagem](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * para exibir um título acima da imagem, selecione *Exibir título e subtítulo* e introduza um título e/ou subtítulo.
    * introduza o URL da imagem
    * para tornar o mosaico numa hiperligação, selecione **Definir ligação personalizada** e introduza o URL.  Quando os colegas clicarem neste título ou nesta imagem, serão encaminhados para esse URL.
    * Selecione **Aplicar**.  No dashboard, redimensione e mova a imagem, conforme necessário.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![imagem sobre o dashboard](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Adicionar uma caixa de texto ou um cabeçalho de dashboard
 1. Selecione **Caixa de texto > Seguinte**.
@@ -64,11 +65,11 @@ Digamos que pretende ter o registootipo da empresa, ou outra imagem, no dashboar
    * introduza e formate o conteúdo da caixa de texto.  
    * Opcionalmente, defina uma ligação personalizada para o título. Uma ligação personalizada pode ser um site externo ou um dashboard ou relatório na sua área de trabalho. No entanto, neste exemplo, como adicionamos hiperligações à própria caixa de texto, deixamos a opção **Definir ligação personalizada** desmarcada.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Janela Adicionar mosaico de caixa de texto](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Selecione **Aplicar**.  No dashboard, redimensione e mova a caixa de texto, conforme necessário.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![dashboard com imagem e caixa de texto](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Adicionar um vídeo
 Quando adicionar um mosaico de título do YouTube ou Vimeo ao seu dashboard, o vídeo é reproduzido diretamente no dashboard.
@@ -76,14 +77,14 @@ Quando adicionar um mosaico de título do YouTube ou Vimeo ao seu dashboard, o v
 1. Selecione **Vídeo > Seguinte**.
 2. Adicione informações do vídeo ao painel **Adicionar mosaico de vídeo**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Janela Adicionar mosaico de vídeo](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * para exibir um título e subtítulo na parte superior do mosaico do vídeo, selecione *Exibir título e subtítulo* e introduza um título e/ou subtítulo. Neste exemplo, vamos adicionar um subtítulo e, em seguida, torná-lo numa hiperligação para a lista de reprodução inteira no YouTube.
    * introduza o URL do vídeo
    * Adicione uma hiperligação para o título e subtítulo.  Depois dos seus colegas verem o vídeo incorporado, talvez queira que estes vejam a liste de reprodução completa no YouTube – adicione uma ligação para a lista de reprodução aqui.
    * Selecione **Aplicar**.  No dashboard, redimensione e mova o mosaico do vídeo, conforme necessário.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![dashboard com mosaico de vídeo adicionado](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. Selecione o mosaico de vídeo para reproduzir o vídeo.
 4. Selecione o subtítulo para visitar a lista de reprodução no YouTube.
 
@@ -96,13 +97,13 @@ Cole ou introduza qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, com
 1. Selecione **Conteúdo Web > Seguinte**.
 2. Adicione as informações ao painel **Adicionar mosaico de conteúdo Web**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Janela Adicionar mosaico de conteúdo Web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * para apresentar um título acima do mosaico, selecione *Apresentar título e subtítulo* e introduza um título e/ou um subtítulo.
    * introduza o código de incorporação. Neste exemplo, estamos a copiar e colando colar um feed do Twitter.
 3. Selecione **Aplicar**.  No dashboard, redimensione e mova o mosaico dos conteúdos Web, conforme necessário.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![dashboard com 4 mosaicos](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Sugestões para incorporar o conteúdo Web
 * Para iframes, utilize uma origem segura. Se introduzir o código de incoporação do iframe e obter um mosaico em branco, verifique se está a utilizar **http** para a origem de iframe.  Nesse caso, altere-a para **https**.
@@ -145,10 +146,10 @@ Para fazer alterações a um mosaico...
 
 1. Passe o rato sobre o canto superior direito do mosaico e selecione as reticências.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![selecionar reticências do mosaico](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecione o ícone de edição para reabrir o painel **Detalhes do mosaico** e faça as alterações.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![ícone de edição de lápis](media/service-dashboard-add-widget/pbi-edit.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Para facilitar ainda mais a movimentação do mosaico no dashboard, adicione um título e/ou um subtítulo.
