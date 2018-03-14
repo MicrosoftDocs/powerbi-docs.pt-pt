@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 68e1fdfe5fd86b247d05c5d93d9e6b724a8b07ba
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Apresentar os dashboards do Power BI partilhados comigo
 ## <a name="shared-with-me"></a>Partilhado comigo
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Ícone Partilhar](media/service-shared-with-me/power-bi-share-dash.png)
 
 Quando um colega partilha um dashboard consigo, o título é adicionado à lista **Partilhado comigo**. O dashboard só está disponível a partir **Partilhado comigo** e não a partir de uma área de trabalho ou de **Aplicações**.
 
@@ -34,12 +35,12 @@ Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonst
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-Tem várias opções para interagir com o dashboard e o relatório subjacente, consoante as permissões dadas pelo proprietário. Estas incluem a capacidade de fazer cópias do dashboard, abrir o relatório [na vista de Leitura](service-interact-with-a-report-in-reading-view.md) e partilhar novamente com outros colegas.
+Tem várias opções para interagir com o dashboard e o relatório subjacente, consoante as permissões dadas pelo proprietário. Estas incluem a capacidade de fazer cópias do dashboard, abrir o relatório [na vista de Leitura](service-reading-view-and-editing-view.md) e partilhar novamente com outros colegas.
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Ações disponíveis a partir do ecrã **Partilhado comigo**
 * Selecione o ícone de estrela para [Adicionar um dashboard aos favoritos](service-dashboard-favorite.md).
-* [Remover um dashboard](service-delete.md) ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Alguns dashboards podem ser partilhados novamente ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Remover um dashboard](service-delete.md) ![ícone de recipiente do lixo](media/service-shared-with-me/power-bi-delete-icon.png)
+* Alguns dashboards podem ser partilhados novamente  ![ícone Partilhar](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Além disso, se as listas de dashboards ficarem longas, [utilize o campo de pesquisa e a ordenação para localizar o que precisa](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Tem várias opções para interagir com o dashboard e o relatório subjacente, c
 ## <a name="filter-shared-dashboards-by-owner"></a>Filtrar dashboards partilhados pelo proprietário
 O conteúdo no ecrã **Partilhado comigo** pode ser mais filtrado pelo proprietário do conteúdo. Por exemplo, se selecionar **Amália**, posso ver apenas o dashboard que ela partilhou comigo.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![dashboard filtrado pelo proprietário](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Próximos passos
 [Power BI - Conceitos Básicos](service-basic-concepts.md)  

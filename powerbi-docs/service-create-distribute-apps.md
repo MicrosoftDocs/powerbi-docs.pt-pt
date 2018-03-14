@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e publicar aplicações com dashboards e relatórios no Power BI
 
@@ -94,7 +95,7 @@ Por predefinição, o Power BI cria um círculo ligeiramente colorido para a apl
      ![Imagem personalizada](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Publicar a aplicação
-Quando os dashboards e relatórios da área de trabalho da aplicação estiverem prontos, publique-os como uma aplicação. Lembre-se de que não tem de publicar todos os relatórios e dashboards da área de trabalho. Pode publicar apenas aqueles que estão prontos. 
+Quando os dashboards e relatórios da área de trabalho da aplicação estiverem prontos, publique-os como uma aplicação. Lembre-se de que não tem de publicar todos os relatórios e dashboards da área de trabalho. Pode publicar apenas aqueles que estão prontos.
 
 1. Na vista de lista da área de trabalho, tem de decidir quais os dashboards e relatórios que pretende incluir na aplicação.
 
@@ -104,23 +105,23 @@ Quando os dashboards e relatórios da área de trabalho da aplicação estiverem
 
      ![Aviso sobre o dashboard relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Selecione o botão **Publicar aplicação** no canto superior direito para iniciar o processo de partilhar todo o conteúdo dessa área de trabalho.
+2. Selecione o botão **Publicar aplicação** no canto superior direito para iniciar o processo de partilhar todo o conteúdo dessa área de trabalho.
    
      ![Publicar aplicação](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Em **Detalhes**, preencha a descrição para ajudar as pessoas a encontrarem a aplicação. Pode definir uma cor de fundo para personalizá-la.
+3. Em **Detalhes**, preencha a descrição para ajudar as pessoas a encontrarem a aplicação. Pode definir uma cor de fundo para personalizá-la.
    
      ![Detalhes da aplicação](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Em **Conteúdo**, veja o conteúdo que vai ser publicado como parte da aplicação – tudo o que selecionou na área de trabalho. Também pode definir a página de destino da aplicação – o dashboard ou relatório que as pessoas irão ver primeiro quando entrarem na sua aplicação. Pode escolher **Nenhum**. As pessoas serão então direcionadas para uma lista de todos os conteúdos da aplicação. 
+4. Em **Conteúdo**, veja o conteúdo que vai ser publicado como parte da aplicação – tudo o que selecionou na área de trabalho. Também pode definir a página de destino da aplicação – o dashboard ou relatório que as pessoas irão ver primeiro quando entrarem na sua aplicação. Pode escolher **Nenhum**. As pessoas serão então direcionadas para uma lista de todos os conteúdos da aplicação. 
    
      ![Conteúdo da aplicação](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Em **Acesso**, decida quem tem acesso à aplicação: todas as pessoas na sua organização, pessoas específicas ou grupos de segurança do Active Directory. Se tiver permissões, pode optar por instalar a aplicação automaticamente para os destinatários.
+5. Em **Acesso**, decida quem tem acesso à aplicação: todas as pessoas na sua organização, pessoas específicas ou grupos de segurança do Active Directory. Se tiver permissões, pode optar por instalar a aplicação automaticamente para os destinatários. Pode ativar esta definição no [Portal de Administração do Power BI](#how-to-enable-pushing-apps). Pode saber mais considerações sobre [enviar uma aplicação por push](#how-to-enable-pushing-apps).
 
     ![Acesso à aplicação](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Quando selecionar **Concluir**, verá uma mensagem a confirmar que está pronto para publicar. Na caixa de diálogo de êxito, pode copiar o URL, que é uma ligação direta para esta aplicação, e enviá-lo às pessoas com as quais partilhou a aplicação.
+6. Quando selecionar **Concluir**, verá uma mensagem a confirmar que está pronto para publicar. Na caixa de diálogo de êxito, pode copiar o URL, que é uma ligação direta para esta aplicação, e enviá-lo às pessoas com as quais partilhou a aplicação.
    
      ![Conclusão da aplicação](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Depois de publicar a aplicação, poderá querer alterá-la ou atualizá-la. É 
    
      A área de trabalho da aplicação é a área de teste, pelo que as suas alterações não são enviadas por push em direto para a aplicação até a publicar novamente. Isto permite-lhe efetuar alterações sem afetar as aplicações publicadas.  
  
-1. Volte à lista de conteúdos da área de trabalho da aplicação e selecione **Atualizar aplicação**.
+3. Volte à lista de conteúdos da área de trabalho da aplicação e selecione **Atualizar aplicação**.
    
      ![Botão Atualizar aplicação](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Depois de publicar a aplicação, poderá querer alterá-la ou atualizá-la. É 
      ![Botão Atualizar aplicação](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 As pessoas com as quais partilhou a aplicação veem automaticamente a versão atualizada da aplicação. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Instalar automaticamente as aplicações para os utilizadores finais
+Pode instalar automaticamente as aplicações para os utilizadores finais, tornando mais fácil distribuir as aplicações certas para as pessoas ou grupos certos.
+
+As aplicações fornecem dados que os seus utilizadores finais precisam para realizarem as suas tarefas. Agora pode instalar automaticamente estas aplicações na Lista de conteúdos da aplicação em vez de procurá-las no Microsoft AppSource ou seguir uma ligação de instalação. Esta ação torna mais simples implementar conteúdo padrão do Power BI para os seus utilizadores.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Como instalar uma aplicação automaticamente para os utilizadores finais
+Assim que o administrador tiver ativado a funcionalidade, os fabricantes da aplicação têm uma nova opção disponível para **instalar a aplicação automaticamente**. Quando a caixa está ***Selecionada*** e o fabricante da aplicação seleciona **Concluir** (ou **Atualizar aplicação**, para aplicações existentes), a aplicação será enviada por push para todos os utilizadores ou grupos definidos na secção **Permissões** da aplicação no separador **Acesso**.
+
+![Permitir aplicações push](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>Como é que os utilizadores obtêm as aplicações que lhes foram enviadas por push
+Após enviar uma aplicação por push, esta é apresentada automaticamente na lista Aplicações. Pode organizar as aplicações que um utilizador ou um cargo na sua organização precisa de ter ao seu alcance.
+
+![Permitir aplicações push](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Considerações para instalar automaticamente as aplicações
+Seguem-se alguns aspetos a ter em atenção quando enviar aplicações por push para utilizadores finais:
+
+* Instalar uma aplicação automaticamente para os utilizadores pode demorar algum tempo. A maioria das aplicações será instalada automaticamente, mas as aplicações push podem demorar algum tempo.  Depende do número de itens na aplicação e do número de pessoas com acesso. Recomendamos que envie aplicações por push fora do horário de expediente e com bastante tempo de antecedência antes que os utilizadores precisem delas. Confirme com vários utilizadores antes de enviar comunicação abrangente sobre a disponibilidade das aplicações.
+
+* Atualize o seu browser. Antes de ver a aplicação enviada por push na lista Aplicações, o utilizador poderá ter de atualizar ou fechar e abrir novamente o browser.
+
+* Se o utilizador não vir imediatamente a aplicação na lista Aplicações, deve atualizar ou fechar e abrir novamente o seu browser.
+
+* Tente não sobrecarregar os utilizadores. Tenha cuidado e não envie demasiadas aplicações por push para que os seus utilizadores compreendam que as aplicações pré-instaladas são úteis. É recomendável controlar quem pode enviar aplicações por push para os utilizadores finais para coordenar os horários. Pode estabelecer um ponto de contacto para enviar aplicações por push para os utilizadores finais na sua organização.
 
 ## <a name="unpublish-an-app"></a>Anular publicação de uma aplicação
 Qualquer membro da área de trabalho da aplicação pode anular a publicação da aplicação.
@@ -167,7 +194,7 @@ Nesta versão, mudámos o nome de todas as áreas de trabalho de grupo para áre
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Quais são as diferenças entre as aplicações e os pacotes de conteúdos organizacionais?
 As aplicações são uma evolução e simplificação dos pacotes de conteúdos, com algumas diferenças principais. 
 
-* Depois de os utilizadores empresariais instalarem um pacote de conteúdos, este perde a respetiva identidade agrupada: é apenas uma lista de dashboards e relatórios misturados com outros dashboards e relatórios. As aplicações, por outro lado, mantêm o respetivo agrupamento e identidade, mesmo após a instalação. Isto torna mais fácil aos utilizadores empresariais continuarem a navegar nelas ao longo do tempo.  
+* Depois de os utilizadores empresariais instalarem um pacote de conteúdos, este perde a respetiva identidade agrupada: é apenas uma lista de dashboards e relatórios misturados com outros dashboards e relatórios. As aplicações, por outro lado, mantêm o respetivo agrupamento e identidade, mesmo após a instalação. Isto torna mais fácil aos utilizadores empresariais continuarem a navegar nelas ao longo do tempo.
 * Pode criar vários pacotes de conteúdos a partir de qualquer área de trabalho, mas uma aplicação tem uma relação de 1:1 com a respetiva área de trabalho. Acreditamos que isto faz com que as aplicações sejam mais fáceis de compreender e manter ao longo do tempo. Consulte a secção de planos do blogue do Power BI para obter mais informações sobre como estamos a planear melhorar esta área. 
 * Ao longo do tempo, planeamos preterir pacotes de conteúdos organizacionais, pelo que recomendamos que crie aplicações a partir de agora.  
 
@@ -179,5 +206,5 @@ Nas aplicações, pode publicar uma versão só de leitura da sua área de traba
 ## <a name="next-steps"></a>Passos seguintes
 * [Instalar e utilizar aplicações no Power BI](service-install-use-apps.md)
 * [Aplicações do Power BI para serviços externos](service-connect-to-services.md)
+* [Portal de Administração do Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-

@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 62796d9eb376ab4c92cc5596176ac501a69c0e62
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir a partir do serviço Power BI
 Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
@@ -41,25 +41,24 @@ Veja a Amanda a imprimir o seu dashboard e relatório. Em seguida, siga as instr
 1. Abra o dashboard que quer imprimir.
 2. No canto superior direito, selecione as reticências (...) e escolha **Imprimir dashboard**.
    
-    ![](media/service-print/pbi_print_dash_ellipses.png)
+    ![Opção de impressão do dashboard](media/service-print/pbi_print_dash_ellipses.png)
 3. A janela Imprimir do browser abre. Escolha as definições e o destino de impressão, e selecione **Imprimir**.
    
    > [!NOTE]
    > A caixa de diálogo de impressão que é apresentada depende do browser que está a utilizar.
    > 
-   > 
    
-    ![](media/service-print/pbi_print_dash_new2.png)
+    ![caixa de diálogo Imprimir](media/service-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir um mosaico do dashboard
-1. [Abra o mosaico no Modo de detalhe](service-focus-mode.md), selecionando as reticências e escolhendo o ícone de Foco ![](media/service-print/power-bi-focus-icon.png).
+1. [Abra o mosaico no Modo de detalhe](service-focus-mode.md) ao selecionar as reticências e selecionar o ícone de Detalhe ![ícone de Detalhe](media/service-print/power-bi-focus-icon.png).
    
-    ![](media/service-print/menu-options.png)
-2. Abra o mosaico no [modo de ecrã inteiro](service-fullscreen-mode.md), selecionando o ícone de ecrã inteiro ![](media/service-print/power-bi-full-screen-icon.png) na barra de navegação superior.
+    ![menu de reticências](media/service-print/menu-options.png)
+2. Abra o mosaico no [modo de ecrã inteiro](service-fullscreen-mode.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](media/service-print/power-bi-full-screen-icon.png) na barra de navegação superior.
 3. Paire o rato sobre o mosaico para revelar o menu de Opções.
    
-    ![](media/service-print/menu-options-new.png)
-4. Selecione o ícone de impressão ![](media/service-print/print-icon.png) .     
+    ![menu de Opções em ecrã inteiro](media/service-print/menu-options-new.png)
+4. Selecione o ícone de impressão ![ícone de impressão](media/service-print/print-icon.png).     
    
    > [!NOTE]
    > A caixa de diálogo de impressão que é apresentada depende do browser que está a utilizar.
@@ -72,7 +71,7 @@ Os relatórios podem ser impressos uma página de cada vez.
 1. Abra o relatório na Vista de Leitura ou na Vista de Edição.
 2. Selecione **Ficheiro** > **Imprimir** para imprimir a página do relatório atual.
    
-    ![](media/service-print/power-bi-print.png)
+    ![Menu Ficheiro do Power BI](media/service-print/power-bi-print.png)
 3. A janela Imprimir do browser abre.
    
    > [!NOTE]
@@ -81,7 +80,7 @@ Os relatórios podem ser impressos uma página de cada vez.
    > 
 
 ## <a name="print-a-report-visual"></a>Imprimir um elemento visual de relatório
-1. [Abra o elemento visual no Modo de detalhe](service-focus-mode.md), pairando o rato sobre o mosaico e selecionando o ícone de Foco ![](media/service-print/power-bi-focus-icon.png) no canto superior direito.
+1. [Abra o elemento visual no Modo de detalhe](service-focus-mode.md) ao pairar o rato sobre o mosaico e selecionar o ícone de Detalhe ![ícone de Detalhe](media/service-print/power-bi-focus-icon.png) no canto superior direito.
 2. Siga os passos 2 e 3 em *Imprimir uma página de relatório* acima.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas

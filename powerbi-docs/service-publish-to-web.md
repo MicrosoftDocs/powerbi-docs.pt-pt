@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -135,7 +136,7 @@ Os visuais personalizados são suportados na funcionalidade **Publicar na Web**.
 A funcionalidade **Publicar na Web** é suportada para a grande maioria das origens de dados e relatórios no serviço do Power BI; no entanto, os seguintes elementos não são atualmente suportados ou disponibilizados com a funcionalidade Publicar na Web:
 
 1. Relatórios com segurança a nível de linha.
-2. Relatórios com Analysis Services Tabular alojado no local.
+2. Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, Analysis Service Multidimensional, Azure Analysis Services e Serviço Power BI.
 3. Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
 4. Relatórios num grupo no qual não é um membro de edição.
 5. Visuais "R" que atualmente não são suportados em relatórios para Publicar na Web.

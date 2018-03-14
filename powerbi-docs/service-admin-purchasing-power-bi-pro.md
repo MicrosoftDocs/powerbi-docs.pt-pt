@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Comprar o Power BI Pro
 O Power BI Pro serve para os utilizadores publicarem relatórios, partilharem dashboards, colaborarem com colegas em áreas de trabalho e participarem noutras atividades relacionadas – como a capacidade de:
@@ -54,7 +55,7 @@ Em seguida, é possível selecionar **Iniciar avaliação**.
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial2.png)
 
 > [!NOTE]
-> Os utilizadores que tiram partido desta versão de avaliação do Power BI Pro no produto não aparecem no portal de administração do Office 365 como utilizadores da versão deAvaliação do Power BI Pro (aparecem como utilizadores da versão gratuita do Power BI). No entanto, aparecerão como utilizadores da versão de Avaliação do Power BI Pro na página **gerir armazenamento** do Power BI.
+> Os utilizadores que tiram partido desta versão de avaliação do Power BI Pro no produto não aparecem no portal de administração do Office 365 como utilizadores da versão de avaliação do Power BI Pro (aparecem como utilizadores da versão gratuita do Power BI). No entanto, aparecerão como utilizadores da versão de Avaliação do Power BI Pro na página **gerir armazenamento** do Power BI.
 
 > [!NOTE]
 > Se for um Administrador de TI que deseja adquirir e implementar licenças de avaliação do Power BI para vários utilizadores na sua organização sem que os utilizadores individuais aceitem os termos da avaliação individualmente, é possível inscrever-se numa [avaliação de subscrição do Power BI Pro](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO). Terá de ser um Administrador Global ou de Faturação do Office 365 ou criar um novo inquilino para se inscrever numa avaliação de administrador. Para obter mais informações, veja [Purchasing Power BI Pro (Comprar o Power BI Pro)](service-admin-purchasing-power-bi-pro.md).
@@ -63,7 +64,7 @@ Em seguida, é possível selecionar **Iniciar avaliação**.
 > Com a disponibilidade do Power BI Premium e as alterações à oferta do Power BI Gratuito a 1 de junho de 2017, pode ser elegível para uma Avaliação Pro Expandida. Para obter mais informações, veja [Extended Pro Trial activation (Ativação da Avaliação Pro Expandida)](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Aparência dentro do serviço
-Quando está ligado ao serviço, pode verificar se tem uma conta de avaliação do Pro através do ícone de **ferramentas*, ao selecionar **Gerir armazenamento pessoal**.
+Quando estiver no serviço, pode verificar se tem uma conta de avaliação do Pro ao aceder ao ícone de **engrenagem** e ao selecionar **Gerir armazenamento pessoal**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

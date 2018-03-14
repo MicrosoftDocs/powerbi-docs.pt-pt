@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 0649a72623fc4ca6a98dfc4f7eeb7d475f5e402d
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados suportados no Power BI Desktop e no Data Analysis Expressions (DAX). 
@@ -46,7 +47,7 @@ A lista pendente do Tipo de Dados no Editor de Consultas tem dois tipos de dados
 ### <a name="number-types"></a>Tipos de número
 O Power BI Desktop suporta três tipos de número:
 
-**Número Decimal** – representa um número de vírtgula flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como normalmente os imagina.  Embora seja concebido para lidar com números com valores fracionários, também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado num tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer parte no número. O tipo de Número Decimal corresponde a como o Excel armazena os números.
+**Número Decimal** – representa um número de vírgula flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como normalmente os imagina.  Embora seja concebido para lidar com números com valores fracionários, também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado num tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer parte no número. O tipo de Número Decimal corresponde a como o Excel armazena os números.
 
 **Número Decimal Fixo** – tem um local para o separador decimal fixo. O separador decimal tem sempre quatro dígitos à direita e permite 19 dígitos de significância.  O maior valor que pode representar é 922.337.203.685.477,5807 (positivo ou negativo).  O tipo de Número Decimal Fixo é útil em casos em que o arredondamento pode introduzir erros.  Quando trabalha com muitos números que têm valores fracionários pequenos, por vezes, podem acumular e forçar um número a ficar ligeiramente fora do valor correto.  Como os valores após os quatro dígitos à direita do separador decimal são truncados, o tipo Decimal Fixo pode ajudá-lo a evitar estes tipos de erros.   Se está familiarizado com o SQL Server, este tipo de dados corresponde ao Decimal (19,4) do SQL Server ou ao tipo de Dados de Moeda no Power Pivot. 
 

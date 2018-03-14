@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Apresentar um mosaico do dashboard ou um elemento visual do relatório no modo de detalhe
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ O modo de ***Detalhe*** permite expandir (destacar) um mosaico do dashboard ou u
 > O modo de detalhe é diferente do [modo de ecrã inteiro](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Modo de detalhe para os mosaicos do dashboard
-1. Passe o rato sobre a visualização de mosaico, selecione as reticências (…) e escolha **Abrir no modo de detalhe** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png).  
+1. Passe o rato sobre a visualização de mosaico, selecione as reticências (…) e selecione **Abrir no modo de foco** 
+
+    ![menu de reticências para mosaico](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. O mosaico é aberto e ocupa toda a tela do relatório. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![mosaico a ocupar a tela do relatório](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Expanda o painel Filtros para ver todos os filtros aplicados a este visual.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![modo de detalhe com o painel Filtros](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Explore ainda mais ao modificar os filtros e, se detetar algo interessante, afixe o elemento visual a um dashboard.
 
 5. Saia do modo de detalhe e regresse ao dashboard ao selecionar **< Sair do modo de detalhe** (no canto superior esquerdo do elemento visual).
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![sair do modo de detalhe](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Modo de detalhe para visualizações de relatório
 
-1. Passe o rato sobre a visualização de relatório e selecione o ícone do **modo de detalhe** ![](media/service-focus-mode/pbi_popout.jpg).  
+1. Passe o rato sobre a visualização de relatório e selecione o ícone do **modo de detalhe** ![ícone do modo de detalhe](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![ícone de detalhe a ser apresentado num mosaico](media/service-focus-mode/power-bi-hover-focus.png)
 2. A visualização é aberta e ocupa toda a tela. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![elemento visual no modo de detalhe](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Expanda o painel Filtros para ver todos os filtros aplicados a este visual.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![modo de detalhe com o ecrã Filtros](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Explore ainda mais ao modificar os filtros e, se detetar algo interessante, afixe o elemento visual a um dashboard.   
 5. Saia do modo de detalhe e regresse ao relatório ao selecionar **Regressar ao relatório** (no canto superior esquerdo do elemento visual). 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![sair do modo de detalhe](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Passar do modo de detalhe para o modo de ecrã inteiro
 No modo de detalhe, o mosaico ou o elemento visual pode ser [visualizado em ecrã inteiro (Modo de TV)](service-fullscreen-mode.md). O modo de ecrã inteiro é apresentado sem a distração dos menus nem dos botões de navegação.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 1/17/2018
+ms.date: 2/26/2018
 ms.author: maghan
-ms.openlocfilehash: 2936fa40700895d9953bb227cc30e68d64ae9205
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
 
@@ -82,6 +82,7 @@ Poderá ser necessária uma captura de fiddler para se investigar mais aprofunda
 
 Poderá ser necessária uma captura de fiddler para se investigar mais aprofundadamente. Poderá haver vários motivos para um erro 403.
 
+* O utilizador excedeu a quantidade de tokens de incorporação que podem ser gerados numa capacidade partilhada. Precisa de comprar as capacidades do Azure para gerar tokens de incorporação e atribuir a área de trabalho a essa capacidade. Veja [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity) (Criar capacidade do Power BI Embedded no portal do Azure).
 * O token de autenticação do Azure AD expirou.
 * O utilizador autenticado não é um membro do grupo (área de trabalho de aplicação).
 * O utilizador autenticado não é um administrador do grupo (área de trabalho de aplicação).

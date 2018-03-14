@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Utilize segurança de nível de linha com conteúdo incorporado do Power BI
 A segurança ao nível da linha (RLS) pode ser utilizada para restringir o acesso do utilizador a dashboards, mosaicos, relatórios e conjuntos de dados. Vários utilizadores diferentes podem trabalhar com os mesmos artefactos enquanto veem dados diferentes. A incorporação suporta a RLS.
@@ -140,6 +140,47 @@ A identidade eficaz apresentada pela propriedade de nome de utilizador tem de se
 
 As funções podem ser atribuídas com a identidade num token incorporado. Se não for atribuída nenhuma função, o nome de utilizador que foi indicado servirá para decidir as funções associadas.
 
+**Utilizar a funcionalidade CustomData**
+
+A funcionalidade CustomData permite transmitir texto simples (cadeia) com a propriedade de cadeia de ligação CustomData, um valor a ser utilizado pelo AS . Isto é feito através da função CUSTOMDATA().
+Pode utilizá-la como uma forma alternativa de personalizar o consumo de dados.
+Pode utilizá-la dentro da consulta DAX de função e pode utilizá-la sem qualquer função numa consulta DAX de medida.
+A funcionalidade CustomData faz parte da nossa funcionalidade de geração de tokens para os seguintes artefactos: dashboard, relatório e mosaico. Os dashboards podem ter múltiplas identidades CustomData (uma por mosaico/modelo).
+
+> [!NOTE]
+> A funcionalidade CustomData só funcionará para modelos que residem no Azure Analysis Services e só funciona no modo em direto. Ao contrário do que acontece com os utilizadores e funções, a funcionalidade CustomData não pode ser definida dentro de um ficheiro .pbix. Ao gerar um token com a funcionalidade CustomData tem de ter um nome de utilizador.
+>
+>
+
+**Adições de SDK CustomData**
+
+A propriedade de cadeia CustomData foi adicionada à nossa identidade em vigor no cenário de geração de tokens.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+A identidade pode ser criada com dados personalizados ao utilizar a seguinte chamada:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**Utilização de SDK CustomData**
+
+Se estiver a chamar a API REST, pode adicionar dados personalizados dentro de cada identidade, por exemplo:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 * A atribuição de utilizadores às funções no serviço Power BI não afeta a RLS ao utilizar um token incorporado.
 * Apesar de o serviço do Power BI não aplicar a definição da RLS aos administradores ou membros com permissões de edição, quando indicar uma identidade com um token incorporado, será aplicado aos dados.
@@ -150,4 +191,3 @@ As funções podem ser atribuídas com a identidade num token incorporado. Se n�
 * Uma lista de identidades permite vários tokens de identidade para incorporação do dashboard. Para todos os outros artefactos, a lista contém uma única identidade.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
