@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e publicar aplicações com dashboards e relatórios no Power BI
 
@@ -174,6 +174,8 @@ Seguem-se alguns aspetos a ter em atenção quando enviar aplicações por push 
 * Se o utilizador não vir imediatamente a aplicação na lista Aplicações, deve atualizar ou fechar e abrir novamente o seu browser.
 
 * Tente não sobrecarregar os utilizadores. Tenha cuidado e não envie demasiadas aplicações por push para que os seus utilizadores compreendam que as aplicações pré-instaladas são úteis. É recomendável controlar quem pode enviar aplicações por push para os utilizadores finais para coordenar os horários. Pode estabelecer um ponto de contacto para enviar aplicações por push para os utilizadores finais na sua organização.
+
+* Os utilizadores convidados que não tenham aceite um convite não recebem as aplicações automaticamente instaladas.  
 
 ## <a name="unpublish-an-app"></a>Anular publicação de uma aplicação
 Qualquer membro da área de trabalho da aplicação pode anular a publicação da aplicação.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar. office
@@ -38,7 +38,7 @@ Depois de concluir a codificação e os testes do elemento visual personalizado 
 | Item | Necessário | Descrição |
 | --- | --- | --- |
 | Pacote pbiviz com todos os metadados necessários |Sim |Nome do elemento visual<br>Nome a apresentar<br>GUID<br>Versão<br>Descrição<br>Nome e e-mail do autor |
-| Ficheiro de relatório. pbix de exemplo |Sim |Para evidenciar o seu elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Deve destacar o valor que o elemento visual proporciona ao utilizador e dar exemplos de utilização, opções de formatação, etc. Também pode adicionar uma página de *"sugestões"* no final com algumas sugestões e truques, aspetos a evitar e outras informações do género. |
+| Ficheiro de relatório. pbix de exemplo |Sim |Para evidenciar o seu elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Deve destacar o valor que o elemento visual proporciona ao utilizador e dar exemplos de utilização, opções de formatação, etc. Também pode adicionar uma página de *"sugestões"* no final com algumas sugestões e truques, aspetos a evitar e outras informações do género.<br>O ficheiro de relatório .pbix de exemplo deve funcionar offline, sem qualquer ligação externa |
 | Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 pixéis (largura) por 300 pixéis (altura). O tamanho do ficheiro não pode ser superior a 512 KB. |
 | Capturas de ecrã |Sim |Tem de fornecer, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 1366 pixéis (largura) por 768 pixéis (altura). O tamanho do ficheiro não pode ser superior a 1024 KB. *Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã.* |
 | Ligação de transferência do suporte |Sim |Forneça o URL para prestar suporte aos clientes que tenham problemas com o elemento visual. O formato do URL deve incluir https:// ou http://. |

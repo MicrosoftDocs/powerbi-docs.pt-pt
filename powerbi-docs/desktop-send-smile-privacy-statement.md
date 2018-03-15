@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Declaração de Privacidade Referente à Funcionalidade Enviar um Sorriso do Power BI Desktop
+
+A partir da versão de março de 2018 do **Power BI Desktop**, o relatório de erros utiliza a plataforma Relatório de Erros do Windows em vez da funcionalidade *Enviar um Sorriso* ou *Enviar comentários negativos*. Pode obter mais informações sobre a plataforma Relatório de Erros do Windows no [blogue de Privacidade do Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Para as versões do Power BI Desktop anteriores a março de 2018
+
 Na Microsoft, estamos empenhados em proteger a sua privacidade, enquanto fornecemos produtos que lhe dão o desempenho, capacidade e conveniência que pretende. Esta Declaração de Privacidade explica muitas das práticas de recolha e utilização de dados do Feedback *Enviar um Sorriso* do Microsoft Power BI Desktop. Não se aplica a outros sites online ou offline, produtos ou serviços da Microsoft.
 
 Exceto conforme descrito nesta declaração, a funcionalidade *Enviar um Sorriso* não envia informações pessoais à Microsoft. As informações enviadas à Microsoft não são partilhadas fora da Microsoft nem das suas subsidiárias e empresas afiliadas controladas sem a sua permissão.

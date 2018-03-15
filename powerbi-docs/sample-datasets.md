@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8ff3470f45ec84798c9fe7302b31a8fe364f18c9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Ou talvez tem um conjunto de dados, mas como não compreende (ainda) como funciona o Power BI, preocupa-se na possibilidade de danificar o conjunto de dados?
@@ -106,16 +106,16 @@ Os conteúdo de pacotes são o único formato de exemplo disponível a partir do
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Obter e abrir um pacote de conteúdos de exemplo no serviço Power BI
 1. Abra o serviço do Power BI (app.powerbi.com) e inicie sessão.
 2. No canto inferior esquerdo, selecione **Obter dados**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Na página Obter Dados que aparece, selecione **Exemplos**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione um dos exemplos para abrir uma descrição desse exemplo. Em seguida, escolha **Ligar**.  
-   
+
    ![](media/sample-datasets/power-bi-connect.png)
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. Utilize os exemplos para testar o Power BI.  
-   
+
    ![](media/sample-datasets/power-bi-asterisk.png)
 
 Agora que tem dados, está no bom caminho.  Experimente alguns dos nossos tutoriais utilizando pacotes de conteúdos de exemplo ou basta abrir o serviço Power BI e explorar.
@@ -124,7 +124,7 @@ Agora que tem dados, está no bom caminho.  Experimente alguns dos nossos tutori
 Cada um dos pacotes de conteúdos de exemplo também está disponível como livro do Excel. Os livros do Excel foram concebidos para serem utilizados com o serviço Power BI.  
 
 1. Transfira os ficheiros individualmente utilizando as ligações abaixo ou [transfira um ficheiro zip de todos os ficheiros de exemplo](http://go.microsoft.com/fwlink/?LinkId=535020). Os utilizadores avançados podem transferir os livros do Excel para explorar ou editar os modelos de dados.
-   
+
    * [Exemplo de Análise de Retalho](http://go.microsoft.com/fwlink/?LinkId=529778)
    * [Exemplo de Análise de Qualidade do Fornecedor](http://go.microsoft.com/fwlink/?LinkId=529779)
    * [Exemplo de Recursos Humanos](http://go.microsoft.com/fwlink/?LinkId=529780)
@@ -134,35 +134,35 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como livr
    * [Exemplo de Análise de Compras](http://go.microsoft.com/fwlink/?LinkId=529784)
    * [Exemplo de Vendas e Marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Guarde o ficheiro transferido. O local onde guarda o ficheiro é importante.
-   
+
    * ![](media/sample-datasets/power-bi-local-file2.png)  **Local** - se guardar o ficheiro numa unidade local no computador ou noutro local na sua organização, através do Power BI, é possível importar o ficheiro para o Power BI. Na verdade, o ficheiro permanecerá na unidade local; portanto, o ficheiro completo não é, de fato, importado para o Power BI. O que realmente ocorre é que um novo conjunto de dados é criado no site do Power BI e os dados e, em alguns casos, o modelo de dados, são carregados para esse conjunto de dados. Se o ficheiro tiver relatórios, estes serão apresentados no site do Power BI em Relatórios.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business** – Caso tenha o OneDrive for Business e inicie sessão com a mesma conta usada  do Power BI, essa será, sem dúvida, a forma mais eficaz de manter o seu trabalho no Excel, no Power BI ou num ficheiro .CSV em sincronização com o seu conjunto de dados, os seus relatórios e dashboards no Power BI. Visto que tanto o Power BI quanto o OneDrive ficam na cloud, o Power BI liga-se ao seu ficheiro no OneDrive em intervalos aproximados de uma hora. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards serão atualizados automaticamente no Power BI.
    * ![](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personal** – Caso tenha guardado os ficheiros na sua própria conta do OneDrive, aproveitará vários benefícios que teria com o OneDrive for Business. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
    * ![](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint – Sites de Equipa**    Guardar os seus ficheiros do Power BI no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive for Business. A maior diferença neste caso é como liga ao ficheiro do Power BI. Pode especificar um URL ou ligar à pasta raiz.
 3. Abra o serviço do Power BI (app.powerbi.com) e inicie sessão.
-   
+
    > [!TIP]
    > Nesta altura poderá criar um novo dashboard e dar-lhe o nome do ficheiro que pretende importar.  Caso contrário, ao importar o conjunto de dados do Excel, o Power BI não irá criar um novo dashboard com o nome do exemplo, mas em vez disso, irá adicionar um mosaico ao dashboard que esteja aberto atualmente. Ao selecionar esse mosaico acede ao relatório do conjunto de dados. Esta ação não é essencial, porque pode sempre criar um novo dashboard posteriormente, mas começar com um novo dashboard poupa-lhe um ou dois passos.
-   > 
-   > 
+   >
+   >
 4. No canto inferior esquerdo, selecione **Obter dados**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 5. Na página Obter Dados que aparece, selecione **Ficheiros > Obter**.
-   
+
      ![](media/sample-datasets/power-bi-files.png)
 6. Navegue até à localização onde transferiu e guardou o exemplo.
-   
+
    ![](media/sample-datasets/power-bi-files3.png)
 7. Selecione o ficheiro, neste caso **Exemplo de Análise de Compras.xlsx** que foi guardado no OneDrive for Business e escolha **Ligar**.
-   
+
    ![](media/sample-datasets/power-bi-connect2.png)
 8. Escolha se pretende importar os dados ou colocar o livro no Power BI e vê-lo exatamente como no Excel online.
-   
+
     ![](media/sample-datasets/power-bi-import.png)
 9. Se selecionar **Importar**, o Power BI importa o livro de exemplo e adiciona-o como um novo conjunto de dados com o nome **Exemplo de Análise de Compras**.  Se o livro tiver quaisquer folhas do Power View, tabelas ou intervalos ou um modelo de dados, o Power BI também cria um relatório (com o mesmo nome). E, se ainda não tiver um dashboard aberto, o Power BI cria um dashboard novo. (Se tiver um dashboard aberto quando clicou **Obter Dados**, verá um novo mosaico em branco nesse dashboard.  Clicar nesse mosaico leva-o ao relatório do conjunto de dados que acabou de adicionar). O novo conteúdo é denominado com base no exemplo e assinalado com um asterisco amarelo.
 10. Quando aparece o ecrã **O conjunto de dados está pronto!** selecione **Ver conjunto de dados** ou **Obter Insights Rápidos** ou utilize simplesmente a barra de navegação esquerda do Power BI para localizar e abrir o relatório associado ou o dashboard.  
-    
+
      ![](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Opcional) Observe os exemplos de Excel a partir do interior do próprio Excel
@@ -170,18 +170,18 @@ Quer saber como os dados num livro do Excel são convertidos em conjuntos de dad
 
 * Ao abrir um livro de exemplo no Excel pela primeira vez, verá dois avisos. O primeiro diz que o livro está em Modo de Vista Protegida. Selecione **Ativar Edição**. O segundo diz que o livro tem ligações de dados externas. Selecione **Ativar Conteúdo**.
 * Cada livro contém várias folhas. Porque todos estes exemplos de Excel têm pelo menos uma folha do Power View com visualizações, ao importar o ficheiro do Excel no Power BI irá acaba por ficar com um conjunto de dados **e** um relatório.
-  
+
    Poderá ter de [ativar o suplemento do Power View](https://support.office.com/article/Create-a-Power-View-sheet-in-Excel-2013-B23D768D-7586-47FE-97BD-89B80967A405#__toc328591957).
 * Por isso, onde estão os dados reais? Estão no modelo de dados do Power Pivot. Para ver os dados, no separador **PowerPivot** selecione **Gerir Modelo de Dados**.
-  
-    Não vê o separador PowerPivot? [Ative o suplemento do Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8). 
+
+    Não vê o separador PowerPivot? [Ative o suplemento do Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 * O separador Informações dispõe de informações sobre a obviEnce, a empresa que criou o exemplo.
 
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Os exemplos do Power BI como ficheiros. pbix
 Cada um dos pacotes de conteúdos de exemplo também está disponível como ficheiro. pbix do Power BI. Os ficheiros .pbix são concebidos para serem utilizados com o Power BI Desktop.  
 
 1. Transfira os ficheiros individualmente utilizando as ligações abaixo.
-   
+
    * [Exemplo de Análise de Retalho](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail Analysis Sample PBIX.pbix)
    * [Exemplo de Análise de Qualidade do Fornecedor](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    * [Exemplo de Recursos Humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
@@ -192,7 +192,7 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como fich
    * [Exemplo de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix)
 2. Guarde o ficheiro transferido.
 3. A partir do ambiente de trabalho, selecione **Ficheiro > Abrir** e navegue para a localização onde guardou o. pbix de exemplo.
-   
+
    ![](media/sample-datasets/power-bi-desktop-open.png)
 4. Selecione o ficheiro. pbix para o abrir no Desktop.
 
@@ -204,4 +204,3 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como fich
 [Origens de dados do Power BI](service-get-data.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-
