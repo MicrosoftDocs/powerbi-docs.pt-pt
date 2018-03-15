@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
-ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
+ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Utilize segurança de nível de linha com conteúdo incorporado do Power BI
 A segurança ao nível da linha (RLS) pode ser utilizada para restringir o acesso do utilizador a dashboards, mosaicos, relatórios e conjuntos de dados. Vários utilizadores diferentes podem trabalhar com os mesmos artefactos enquanto veem dados diferentes. A incorporação suporta a RLS.
@@ -134,7 +134,7 @@ A identidade eficaz apresentada pela propriedade de nome de utilizador tem de se
 
 **Configuração do gateway de dados local**
 
-É utilizado um [gateway de dados local](../service-gateway-onprem.md) ao trabalhar com ligações ao vivo do Analysis Services. Ao gerar um token incorporado com uma identidade listada, a conta principal tem de ser listada como um administrador do gateway. Se a conta principal não está listada, a segurança de nível de linha não irá aplicar a propriedade nos dados. Um não administrador do gateway pode atribuir funções, mas tem de especificar o seu próprio nome de utilizador para identidade eficaz.
+É utilizado um [Gateway de dados local](../service-gateway-onprem.md) ao trabalhar com ligações ao vivo do Analysis Services. Ao gerar um token incorporado com uma identidade listada, a conta principal tem de ser listada como um administrador do gateway. Se a conta principal não está listada, a segurança de nível de linha não irá aplicar a propriedade nos dados. Um não administrador do gateway pode atribuir funções, mas tem de especificar o seu próprio nome de utilizador para identidade eficaz.
 
 **Utilização de funções**
 

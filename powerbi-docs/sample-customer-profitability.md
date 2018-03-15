@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
 
@@ -40,21 +40,22 @@ Quer acompanhar? Este tutorial utiliza o serviço Power BI e o pacote de conte�
 
 1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
 2. No canto inferior esquerdo, selecione **Obter dados**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Na página Obter Dados que aparece, selecione **Exemplos**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **Exemplo de Rentabilidade do Cliente** e, em seguida, escolha **Ligar**.  
-   
+
    ![Obter Dados](media/sample-customer-profitability/get-supplier-sample.png)
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. Utilize os exemplos para testar o Power BI.  
-   
+
    ![Asterisk](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. [Exemplo de Rentabilidade do Cliente](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop.
+[Exemplo de Rentabilidade do Cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
@@ -87,13 +88,13 @@ Os mosaicos à direita do dashboard fornecem uma tabela de indicadores da equipa
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Todos os executivos, exceto Carlos, já excederam os objetivos de vendas. Contudo, as vendas reais de Carlos apresentam o valor mais elevado. 
+- Todos os executivos, exceto Carlos, já excederam os objetivos de vendas. Contudo, as vendas reais de Carlos apresentam o valor mais elevado.
 - A % de Margem Bruta de Annelie é a mais baixa, mas podemos ver um aumento gradual desde março.
-- Valery, por outro lado, teve uma queda na % de GM significante. 
-- E Andrew teve um ano volátil. 
+- Valery, por outro lado, teve uma queda na % de GM significante.
+- E Andrew teve um ano volátil.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Explorar os dados subjacentes do dashboard
-Este dashboard possui mosaicos com ligação a um relatório e a um livro do Excel. 
+Este dashboard possui mosaicos com ligação a um relatório e a um livro do Excel.
 
 ### <a name="open-the-excel-online-data-source"></a>Abrir a origem de dados do Excel Online
 Dois mosaicos neste dashboard, “Objetivo vs Real” e “Crescimento de Receita ao Longo dos Anos”, foram afixados a partir de um livro do Excel. Por esse motivo, quando seleciona um destes mosaicos, o Power BI abre a origem de dados, neste caso, o Excel Online.
@@ -112,14 +113,14 @@ Dois mosaicos neste dashboard, “Objetivo vs Real” e “Crescimento de Receit
 
 4. Continue a explorar e, se encontrar algo interessante, selecione **Afixar** ![](media/sample-customer-profitability/power-bi-excel-pin.png) no canto superior direito para [afixá-lo num dashboard](service-dashboard-pin-tile-from-excel.md).
 
-5. Utilize a seta para trás do browser para regressar ao dashboard. 
+5. Utilize a seta para trás do browser para regressar ao dashboard.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Abrir o relatório subjacente do Power BI
-A maioria dos mosaicos no dashboard no exemplo de Rentabilidade do Cliente foram afixados a partir do relatório de exemplo subjacente da Rentabilidade do Cliente. 
+A maioria dos mosaicos no dashboard no exemplo de Rentabilidade do Cliente foram afixados a partir do relatório de exemplo subjacente da Rentabilidade do Cliente.
 
-1. Selecione um destes mosaicos para abrir o relatório na Vista de leitura. 
+1. Selecione um destes mosaicos para abrir o relatório na Vista de leitura.
 
-2. O relatório tem três páginas. Cada separador na parte inferior do relatório representa uma página. 
+2. O relatório tem três páginas. Cada separador na parte inferior do relatório representa uma página.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ Como varia o lucro por setor? Como se os produtos e clientes dividem por setor? 
 
 No gráfico de bolhas, o CFO procura as bolhas maiores visto que são as que têm o maior impacto na receita. Filtrar a página por gerente clicando nos nomes no gráfico de área torna fácil ver cada impacto de gerente por segmento do setor.
 
-* A área de influência de Andrew abrange vários setores diferentes com diferentes amplamente % GM (a maioria do lado positivo) e % Var. 
-* O gráfico de Annelie é semelhante, exceto que ela apenas se concentra em alguns segmentos de mercado com um foco no segmento Federal e um foco no produto Gladius. 
-* Carlos tem um foco claro no segmento de serviços, com bom lucro. Ele aumentou bastante a % de variação para o segmento de Alta Tecnologia e um novo segmento para ele, Industrial, executado muito bem em relação ao orçamento. 
-* Tina trabalha com alguns segmentos e tem % GM mais alta, mas o tamanho pequeno em grande parte das suas bolhas mostra que o impacto sobre o resultado da empresa é mínimo. 
+* A área de influência de Andrew abrange vários setores diferentes com diferentes amplamente % GM (a maioria do lado positivo) e % Var.
+* O gráfico de Annelie é semelhante, exceto que ela apenas se concentra em alguns segmentos de mercado com um foco no segmento Federal e um foco no produto Gladius.
+* Carlos tem um foco claro no segmento de serviços, com bom lucro. Ele aumentou bastante a % de variação para o segmento de Alta Tecnologia e um novo segmento para ele, Industrial, executado muito bem em relação ao orçamento.
+* Tina trabalha com alguns segmentos e tem % GM mais alta, mas o tamanho pequeno em grande parte das suas bolhas mostra que o impacto sobre o resultado da empresa é mínimo.
 * Valery, que é responsável por apenas um produto, trabalha apenas com 5 segmentos de mercado. A influência do setor é sazonal, mas produz sempre uma grande bolha, que indicta um impacto significativo sobre o resultado da empresa. O setor explicar o desempenho negativo?
 
 ### <a name="executive-scorecard"></a>Tabela de Indicadores de Executivos
@@ -174,9 +175,9 @@ Para a nossa análise, seria útil determinar que setor gera a maior parte da re
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Introduza **receita total por setor de Valery**. Observe como a visualização é atualizada conforme digita a pergunta.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    A distribuição é a maior área de receita para Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Aprofunde adicionando filtros
@@ -184,15 +185,15 @@ Vamos analisar o setor de *Distribuição*.
 
 1. Abra a página do relatório “Análise de Margem do Setor”.
 2. Sem selecionar nenhuma visualização na página de relatório, expanda o painel de filtros à direita (se ainda não estiver expandido). O painel Filtros deve apresentar apenas filtros ao nível da página.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o setor de Distribuição. Primeiro, desmarque todas as seleções ao desmarcar a caixa de seleção**Selecionar Tudo**. Em seguida, selecione apenas **Distribuição**.  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. O gráfico de área "Margem bruta por Mês e o Nome do Executivo" informa que apenas Valery e Tina têm clientes neste setor e Valery só trabalhou com o setor de junho a novembro.   
-5. Selecione **Tina** e **Valery** na legenda do gráfico de área "Margem Bruta por Mês e Executivo". Observe a parte de Tina "Receita Total por Produto" é muito pequeno se comparada a Valery. 
+5. Selecione **Tina** e **Valery** na legenda do gráfico de área "Margem Bruta por Mês e Executivo". Observe a parte de Tina "Receita Total por Produto" é muito pequeno se comparada a Valery.
 6. Para ver a receita real, utilize as Perguntas e Respostas para pedir a **receita total por executivo da distribuição por cenário**.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     Podemos explorar de forma semelhante a outros setores e até mesmo adicionar clientes aos nossos visuais para compreender as causas para o desempenho de Valery.
@@ -205,4 +206,3 @@ Também é possível [transferir apenas o conjunto de dados (livro do Excel) par
 Esperamos que esta tour tenha mostrado como os dashoards do Power BI, perguntas e respostas, e os relatórios podem fornecer informações sobre dados do cliente. Agora é a sua vez, ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Saiba mais sobre como [começar a utilizar o Power BI](service-get-started.md).
 
 [Voltar aos Exemplos no Power BI](sample-datasets.md)  
-

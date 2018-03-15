@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados suportados no Power BI Desktop e no Data Analysis Expressions (DAX). 
 
 Quando carrega dados para o Power BI Desktop, ele vai tentar converter o tipo de dados da coluna de origem para um tipo de dado que suporte melhor armazenamento, cálculos e visualização de dados mais eficientes. Por exemplo, se uma coluna de valores que importa do Excel não tiver nenhum valor fracionário, o Power BI Desktop converterá toda a coluna de dados para um tipo de dados de Número Inteiro, que é mais adequado para armazenar números inteiros.
 
-Isto é importante porque algumas funções do DAX têm requisitos de tipo de dados especiais. Embora em muitos casos o DAX converta implicitamente um determinado tipo de dados por si, existem alguns casos em que isso não acontecerá.  Por exemplo, se uma função do DAX requer um tipo de dados de Data e o tipo de dados para a coluna for Texto, a função do DAX não funcionará corretamente.  Assim, é importante e útil obter o tipo de dados correto para uma coluna. As conversões implícitas são descritas posteriormente neste artigo.
+Este conceito é importante porque algumas funções do DAX têm requisitos de tipo de dados especiais. Embora em muitos casos o DAX converta implicitamente um determinado tipo de dados por si, existem alguns casos em que isso não acontecerá.  Por exemplo, se uma função do DAX requer um tipo de dados de Data e o tipo de dados para a coluna for Texto, a função do DAX não funcionará corretamente.  Assim, é importante e útil obter o tipo de dados correto para uma coluna. As conversões implícitas são descritas posteriormente neste artigo.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Determinar e especificar o tipo de dados de uma coluna
 No Power BI Desktop, pode determinar e especificar o tipo de dados de uma coluna no Editor de Consultas ou na Vista de Dados ou de Relatório:
@@ -47,7 +47,7 @@ A lista pendente do Tipo de Dados no Editor de Consultas tem dois tipos de dados
 ### <a name="number-types"></a>Tipos de número
 O Power BI Desktop suporta três tipos de número:
 
-**Número Decimal** – representa um número de vírgula flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como normalmente os imagina.  Embora seja concebido para lidar com números com valores fracionários, também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado num tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer parte no número. O tipo de Número Decimal corresponde a como o Excel armazena os números.
+**Número Decimal** – representa um número de vírtgula flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como normalmente os imagina.  Embora seja concebido para lidar com números com valores fracionários, também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado num tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer parte no número. O tipo de Número Decimal corresponde a como o Excel armazena os números.
 
 **Número Decimal Fixo** – tem um local para o separador decimal fixo. O separador decimal tem sempre quatro dígitos à direita e permite 19 dígitos de significância.  O maior valor que pode representar é 922.337.203.685.477,5807 (positivo ou negativo).  O tipo de Número Decimal Fixo é útil em casos em que o arredondamento pode introduzir erros.  Quando trabalha com muitos números que têm valores fracionários pequenos, por vezes, podem acumular e forçar um número a ficar ligeiramente fora do valor correto.  Como os valores após os quatro dígitos à direita do separador decimal são truncados, o tipo Decimal Fixo pode ajudá-lo a evitar estes tipos de erros.   Se está familiarizado com o SQL Server, este tipo de dados corresponde ao Decimal (19,4) do SQL Server ou ao tipo de Dados de Moeda no Power Pivot. 
 
@@ -125,7 +125,7 @@ Por exemplo, se uma data for utilizada numa operação de subtração com qualqu
 > 
 > 
 
-**Multiplicação(*)**
+**Multiplicação (*)**
 
 | Operador(*) | INTEGER | CURRENCY | REAL | Date/time |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ As seguintes expressões DAX ilustram este comportamento:
 
 =IF(FALSE()\>"true","Expressão é verdadeira", "Expressão é falsa"), returns "Expressão é verdadeira"
 
-=IF("12"\>12,"Expressão é verdadeira", "Expressão é falsa"), returns "Expressão é verdadeira".
+=IF("12"\>12,"A expressão é verdadeira", "A expressão é falsa"), devolve "A expressão é verdadeira"
 
 =IF("12"=12,"Expressão é verdadeira", "Expressão é falsa"), devolve "Expressão é falsa"
 
@@ -169,7 +169,7 @@ As conversões são executadas implicitamente para tipos numéricos ou de data/h
 | Date/time |REAL |REAL |REAL |Date/Time |
 
 ### <a name="handling-blanks-empty-strings-and-zero-values"></a>Tratamento de elementos em branco, cadeias vazias e valores zero
-No DAX, um valor nulo, valor em branco, célula vazia ou um valor ausente são todos representados pelo mesmo novo tipo de valor, BLANK. Também pode gerar elementos em branco com a função BLANK ou testar elementos em branco com a função ISBLANK.
+No DAX, um valor nulo, valor em branco, célula vazia ou um valor ausente estão todos representados pelo mesmo novo tipo de valor, BLANK. Também pode gerar elementos em branco com a função BLANK ou testar elementos em branco com a função ISBLANK.
 
 O modo como os elementos em branco são tratados em operações como adição ou concatenação depende da função individual. A tabela a seguir resume as diferenças entre as fórmulas DAX e do Microsoft Excel, da forma que os elementos em branco são tratados.
 
