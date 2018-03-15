@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Introdução ao serviço Power BI
 ## <a name="the-left-navigation-pane"></a>O painel de navegação à esquerda
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![painel de navegação à esquerda](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **Guia de referência rápida**
 
@@ -64,61 +64,61 @@ Vamos começar por observar como está organizado o conteúdo básico (dashboard
 
 Se tiver o Power BI Free, apenas verá uma área de trabalho, **A Minha Área de Trabalho**.
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![breve vídeo sobre a área de trabalho](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>Dashboards, aplicações e relatórios favoritos
 Os **Favoritos** permitem-lhe aceder rapidamente aos conteúdos que são mais importantes para si.  
 
 1. Com o dashboard ou relatório aberto, selecione **Favorito** no canto superior direito.
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![adicionar favorito](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    **Favorito** muda para **Anular favorito** e o ícone de estrela fica amarelo.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![remover favorito](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. Para tornar uma aplicação favorita, selecione **Aplicações** no painel de navegação esquerdo, coloque o cursor sobre a aplicação e clique na estrela para a definir como favorita.
 
 2. Para apresentar uma lista de todos os conteúdos que adicionou como favoritos, no painel de navegação esquerdo, selecione a seta à direita de **Favoritos**. Uma vez que o painel de navegação esquerdo é uma funcionalidade permanente do serviço Power BI, tem acesso a esta lista a partir de qualquer local no serviço Power BI.
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![lista de opções Favoritos](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     Aqui, pode selecionar e abrir um dashboard, um relatório ou uma aplicação.
 
 3. Para abrir o painel **Favoritos**, no painel de navegação esquerdo, selecione **Favoritos** ou o ícone Favoritos ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![Ecrã Favoritos aberto](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    Aqui, pode abrir ou localizar conteúdos, retirar conteúdos dos favoritos ou partilhá-los com colegas.
 
 1. Outra forma de marcar um dashboard ou um relatório como favorito é a partir do separador **Dashboards** ou **Relatórios** da área de trabalho.  Abra a área de trabalho para apresentar a vista de conteúdos e clique no ícone de estrela à esquerda do nome.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![marcar como favorito](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 Para saber mais, veja [Favoritos](service-dashboard-favorite.md)
 
 ### <a name="recents"></a>Recentes
-Aceda rapidamente aos seus conteúdos mais recentes através do painel **Recentes**. Isto inclui o conteúdo de todas as áreas de trabalho.
+Veja rapidamente os conteúdos a que acedeu recentemente através do painel **Recentes**. Isto inclui o conteúdo de todas as áreas de trabalho.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![painel Recentes](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 Tal como no caso dos Favoritos, pode aceder rapidamente aos seus conteúdos mais recentes em qualquer parte do serviço Power BI ao selecionar a seta junto a **Recentes** no painel de navegação esquerdo.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![lista de opções Recentes](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 Para saber mais, veja [Recentes no Power BI](service-recent.md)
 
 ### <a name="apps"></a>Aplicações
 Uma aplicação é uma coleção de dashboards e relatórios criados para proporcionar métricas importantes, tudo num único local. Pode ter aplicações internas para a sua organização e também [aplicações para serviços externos](service-connect-to-services.md), como o Google Analytics e o Microsoft Dynamics CRM. 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![painel Aplicações](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 Para saber mais, veja **Áreas de trabalho de aplicação** (abaixo) e [O que são aplicações do Power BI](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Partilhado comigo
 **Partilhado comigo** é a localização de todos os conteúdos que colegas partilharam consigo.  Filtre por proprietário do dashboard, utilize o campo de pesquisa para localizar o que é relevante e ordene os itens por data.  Para conteúdo partilhado ao qual acede com frequência, é ainda mais fácil adicioná-lo como favorito a partir da vista **Partilhado comigo**.
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![painel Partilhado comigo](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 Para saber mais, veja [Partilhado comigo](service-shared-with-me.md)
 
@@ -130,7 +130,7 @@ Se não for membro de uma área de trabalho de aplicação ou um administrador, 
 #### <a name="my-workspace"></a>A minha área de trabalho
 **A Minha Área de Trabalho** armazena todo o conteúdo de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. Pode partilhar conteúdo a partir de A Minha Área de Trabalho com colegas. Em A Minha Área de Trabalho, o conteúdo está organizado em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![Ecrã A Minha Área de Trabalho](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>Áreas de trabalho de aplicações
 As aplicações e as áreas de trabalho de aplicação são uma funcionalidade do Power BI Pro. Se criar dashboards e relatórios para outras pessoas, utilizará áreas de trabalho de aplicação para fazê-lo. Uma área de trabalho de aplicação é o local onde irá criar a aplicação, por isso, para criar uma aplicação, terá primeiro de criar a área de trabalho de aplicação. São a evolução das áreas de trabalho de grupo – áreas de teste e contentores para o conteúdo na aplicação.  Pode, tal como os seus colegas, colaborar em dashboards, relatórios e noutro conteúdo que queira distribuir a um vasto público ou mesmo a toda a organização.
@@ -139,20 +139,20 @@ Para saber mais, visite [Criar e distribuir uma aplicação no Power BI](service
 
 Tal como em **A Minha Área de Trabalho**, o conteúdo está organizado em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![Aplicação numa área de trabalho](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 Alterne entre áreas de trabalho ao selecionar **Áreas de trabalho** no painel de navegação esquerdo.
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![Selecione uma área de trabalho](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Pesquisar e ordenar conteúdo
 A vista de conteúdos torna mais fácil procurar, filtrar e ordenar os conteúdos. Para procurar um dashboard, relatório ou livro, escreva na área de pesquisa. O Power BI filtra apenas o conteúdo que tenha a cadeia de pesquisa como parte do nome.
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![procurar um dashboard](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 Também pode ordenar o conteúdo por nome ou proprietário.  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![ordenar conteúdos](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Para saber mais, veja [Navegação no Power BI: procurar, ordenar e filtrar](service-navigation-search-filter-sort.md)
 
