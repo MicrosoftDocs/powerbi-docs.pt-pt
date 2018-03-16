@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um mosaico no Power BI a utilizar nas aplicações móveis
 Os códigos QR no Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
 
 Pode criar um código QR no serviço Power BI para mosaicos em qualquer dashboard, mesmo em dashboards que não pode editar. Em seguida, coloque o código QR num local estratégico. Por exemplo, pode colá-lo num e-mail ou imprimir e colá-lo num local específico. 
 
-Os colegas com quem partilhou o dashboard podem [digitalizar o código QR para aceder ao mosaico diretamente no respetivo dispositivo móvel](mobile-apps-qr-code.md). Podem utilizar o scanner de código QR localizado na aplicação do Power BI ou qualquer outro scanner QR instalado no dispositivo. .
+Os colegas com quem partilhou o dashboard podem [digitalizar o código QR para aceder ao mosaico diretamente no respetivo dispositivo móvel](mobile-apps-qr-code.md). Podem utilizar o scanner de código QR localizado na aplicação do Power BI ou qualquer outro scanner QR instalado no dispositivo.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Criar um código QR para um mosaico
 1. Abra um dashboard no serviço Power BI.
