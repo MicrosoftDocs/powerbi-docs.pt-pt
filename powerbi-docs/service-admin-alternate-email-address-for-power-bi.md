@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Utilizar um Endereço de E-mail alternativo
 Por predefinição, o endereço de e-mail utilizado na inscrição no Power BI é usado para enviar atualizações sobre a atividade no Power BI.  Por exemplo, um convite de partilha é enviado para este endereço.
@@ -45,6 +45,19 @@ Por vezes, pode querer que estes e-mails sejam entregues num endereço de e-mail
 > A alteração desta definição não afetará o endereço de e-mail utilizado para enviar atualizações do serviço, newsletters e outras comunicações promocionais.  Estas serão sempre enviadas para o endereço de e-mail utilizado originalmente no registo no Power BI.
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Atualizar através do Azure Active Directory
+Ao capturar um token incorporado do Active Azure Directory (AAD) para o Power BI, pode utilizar três tipos de e-mails diferentes. Os três tipos diferentes são:
+
+* O endereço de e-mail principal associado à conta do AAD de um utilizador
+* O endereço de e-mail UPN (UserPrincipalName)
+* O atributo de matriz "outro" do endereço de e-mail
+
+O Power BI seleciona o endereço de e-mail a utilizar com base nos seguintes critérios:
+1.  Se o atributo de correio estiver presente no objeto de utilizador do AAD, o Power BI irá utilizar esse atributo de correio para o endereço de e-mail
+2.  Se o e-mail UPN *não* for um endereço de e-mail com o domínio **\*.onmicrosoft.com** (a informação apresentada após o símbolo "@"), o Power BI irá utilizar esse atributo de correio para o endereço de e-mail
+3.  Se o atributo de matriz de e-mail "outro" estiver presente no objeto de utilizador do AAD, o primeiro e-mail que surgir nessa lista (dado que pode existir uma lista de e-mails neste atributo) será utilizado
+4. Caso não se verifique nenhuma das condições mencionadas acima, será utilizado o endereço UPN
 
 ## <a name="updating-with-powershell"></a>Atualizar com o PowerShell
 Em alternativa, pode atualizar o endereço de e-mail alternativo através do PowerShell para o Azure Active Directory. Deve fazê-lo com o comando [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).

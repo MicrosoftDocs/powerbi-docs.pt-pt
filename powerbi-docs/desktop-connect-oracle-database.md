@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6308b2e201b669bf17ee636677232b365d62e332
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Ligar a uma base de dados Oracle
 Para se ligar a uma base de dados do Oracle com o **Power BI Desktop**, tem de ser instalado o software cliente Oracle correto no computador a executar o Power BI Desktop. O software cliente Oracle que utiliza depende da versão do Power BI Desktop que tem instalada: a versão de **32 bits** ou a versão de **64 bits**.
@@ -30,7 +30,7 @@ Para se ligar a uma base de dados do Oracle com o **Power BI Desktop**, tem de s
 **Versões suportadas**: Oracle 9 e posterior, software cliente Oracle 8.1.7 ou posterior.
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Determinar que versão do Power BI Desktop está instalada
-Para determinar qual a versão do Power BI Desktop que está instalada, selecione **Ficheiro > Acerca de** e, em seguida, veja a linha de **Versão:**. Na imagem seguinte, está instalada a versão de 64 bits do Power BI Desktop:
+Para determinar qual a versão do Power BI Desktop que está instalada, selecione **Ficheiro > Ajuda > Acerca de** e, em seguida, veja a linha de **Versão:**. Na imagem seguinte, está instalada a versão de 64 bits do Power BI Desktop:
 
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
@@ -44,7 +44,7 @@ Para as versões de **64 bits** do Power BI Desktop, utilize a seguinte ligaçã
 * [64-bit ODAC 12c Release 4 (12.1.0.2.4) para o Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 ## <a name="connect-to-an-oracle-database"></a>Ligar a uma base de dados Oracle
-Após ser instalado o controlador de cliente Oracle adequado, pode ligá-lo a uma base de dados do Oracle. Efetue os seguintes passos para estabelecer ligação.
+Após ser instalado o controlador de cliente Oracle adequado, pode ligá-lo a uma base de dados do Oracle. Para estabelecer ligação, efetue os seguintes passos:
 
 1. A partir da janela Obter Dados, selecione **Base de Dados > Base de Dados Oracle**
    

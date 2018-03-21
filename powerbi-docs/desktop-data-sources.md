@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ff28f5d43b065ae798e2e9f275c8e8b59e9ee1ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -78,13 +78,14 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Base de Dados Oracle
 * Base de Dados IBM DB2
 * Base de dados IBM Informix (Beta)
-* IBM Netezza (Beta)
+* IBM Netezza
 * Base de Dados MySQL
 * Base de Dados PostgreSQL
 * Base de Dados Sybase
 * Base de Dados Teradata
 * Base de Dados do SAP HANA
-* SAP Business Warehouse Server
+* SAP Business Warehouse Application Server
+* SAP Business Warehouse Message Server (Beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (Beta)
@@ -102,14 +103,15 @@ A imagem a seguir mostra a janela **Obter Dados** para **Base de dados**.
 A categoria **Azure** fornece as seguintes ligações de dados:
 
 * Base de Dados SQL do Azure
-* Azure SQL Data Warehouse
-* Base de dados do Azure Analysis Services (Beta)
+* SQL Data Warehouse do Azure
+* Base de dados do Azure Analysis Services
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
+* Interactive Query do HDInsight (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -121,6 +123,7 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Lista do SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (online)
+* Dynamics NAV (Beta)
 * Dynamics 365 for Financials (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
@@ -128,23 +131,24 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Objetos do Salesforce
 * Relatórios do Salesforce
 * Google Analytics
+* Adobe Analytics
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 for Customer Insights (Beta)
+* Data.World – Obter Conjunto de Dados (Beta)
 * Facebook
 * GitHub (Beta)
-* Kusto (Beta)
 * MailChimp (Beta)
+* Marketo (Beta)
 * Mixpanel (Beta)
-* Planview Enterprise (Beta)
-* Projectplace (Beta)
+* Planview Enterprise One – PRM (Beta)
+* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry (Beta)
 * Stripe (Beta)
 * SweetIQ (Beta)
-* Troux (Beta)
+* Planview Enterprise One–- CMT (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
 A categoria **Outros** fornece as seguintes ligações de dados:
 
 * Vertica (Beta)
+* Kusto (Beta)
 * Web
 * Lista do SharePoint
 * Feed OData
@@ -195,7 +200,7 @@ Pode carregar os dados ao selecionar o botão **Carregar**, na parte inferior do
 
 E é tudo o que precisa de saber sobre ligar-se a origens de dados no Power BI Desktop! Experimente ligar-se a dados da nossa cada vez maior lista de origens de dados e consulte esta secção com frequência, pois estamos constantemente a expandir esta lista.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
@@ -203,4 +208,3 @@ Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais 
 * [Tipos de Dados no Power BI Desktop](desktop-data-types.md)
 * [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)    
-

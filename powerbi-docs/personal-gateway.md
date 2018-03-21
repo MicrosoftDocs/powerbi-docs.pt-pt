@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 06ed973b3b16f5ac8ed8bef484d48af994a4e5f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
-> Há uma nova versão do gateway pessoal para Power BI, com o nome de **gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que vai ser descontinuado e deixa de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
+> Há uma nova versão do gateway pessoal para Power BI, com o nome de **Gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que vai ser descontinuado e deixa de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
 > 
 > 
 
@@ -44,7 +44,7 @@ Um *conjunto de dados* são dados carregados no serviço Power BI de uma origem 
 
 Uma *origem de dados* é o local de onde são provenientes os dados carregados para um conjunto de dados. Pode ser qualquer coisa: uma base de dados, uma folha de cálculo do Excel, um serviço Web, etc. Com os livros do Excel, pode criar uma folha de cálculo simples com linhas de dados, o que é considerado uma origem de dados. Também pode utilizar o Power Query ou o Power Pivot no Excel para ligar e consultar dados de origens de dados online e locais, tudo no mesmo livro. Com o Power BI Desktop, pode utilizar a funcionalidade Obter Dados para ligar e consultar dados de origens de dados online e locais.
 
-O gateway pessoal é instalado através do gateway de dados no local. Pode transferi-lo na [página do Power BI Gateway](https://powerbi.microsoft.com/gateway/).
+O gateway pessoal é instalado através do Gateway de dados no local. Pode transferi-lo na [página do Power BI Gateway](https://powerbi.microsoft.com/gateway/).
 
 ## <a name="do-i-need-a-gateway"></a>Preciso de um gateway?
 Antes de instalar um gateway, é importante saber se realmente precisa de um. Realmente depende das suas origens de dados:
@@ -90,18 +90,18 @@ Vamos examinar mais detalhadamente cada passo.
 
 ### <a name="download-and-install-a-gateway"></a>Transferir e instalar um gateway
 > [!NOTE]
-> Há uma nova versão do gateway pessoal para Power BI, com o nome de **gateway de dados no local (modo pessoal)**. Este artigo descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que será descontinuado e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
+> Existe uma nova versão do gateway pessoal para Power BI, com o nome de **Gateway de dados no local (modo pessoal)**. Este artigo descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que será descontinuado e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
 > 
 > 
 
-Será pedido que instale um gateway quando clicar pela primeira vez em ATUALIZAR AGORA ou AGENDAR ATUALIZAÇÃO para um conjunto de dados suportado. Em alternativa, para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Será pedido que instale um gateway quando clicar pela primeira vez em ATUALIZAR AGORA ou AGENDAR ATUALIZAÇÃO para um conjunto de dados suportado. Em alternativa, para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [Gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 Deverá selecionar **Gateway Pessoal** em vez de **Gateway de dados no local** para ter um gateway próprio para si.
 
 Não é difícil instalar um gateway. Irá selecionar um local para instalá-lo e deverá ler e aceitar o contrato de licença, assim como qualquer outra aplicação. No entanto, existem algumas coisas importantes que tem de saber. Em particular, o tipo de computador no qual o gateway é instalado e o tipo de conta em que tem sessão iniciada no Windows nesse computador.
 
 > [!NOTE]
-> O gateway precisa de ter acesso à origem de dados. Se o seu computador pessoal não se puder ligar à origem de dados, poderá considerar instalar um [gateway de dados no local](service-gateway-onprem.md) num computador que tenha acesso à origem de dados. Um exemplo seria o SQL Server instalado numa máquina virtual (VM) alojada no Azure. O seu computador pessoal poderá não ter acesso à VM. Pode instalar o gateway de dados no local na VM, e configurar uma origem de dados no serviço Power BI.
+> O gateway precisa de ter acesso à origem de dados. Se o seu computador pessoal não se puder ligar à origem de dados, poderá considerar instalar um [Gateway de dados no local](service-gateway-onprem.md) num computador que tenha acesso à origem de dados. Um exemplo seria o SQL Server instalado numa máquina virtual (VM) alojada no Azure. O seu computador pessoal poderá não ter acesso à VM. Pode instalar o Gateway de dados no local na VM e configurar uma origem de dados no serviço Power BI.
 > 
 > 
 
@@ -186,7 +186,7 @@ O gateway comunica com as portas de saída TCP 443 (predefinição), 5671, 5672,
 
 Se precisar de colocar endereços IP em vez de domínios na lista branca, pode transferir e utilizar a lista de intervalos de IP do Datacenter do Microsoft Azure. [Transferir](https://www.microsoft.com/download/details.aspx?id=41653)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Gateway de dados local (modo pessoal) - A nova versão do gateway pessoal](service-gateway-personal-mode.md)
 [Configurar definições de proxy para Gateways do Power BI](service-gateway-proxy.md)  
 [Power BI Premium](service-premium.md)

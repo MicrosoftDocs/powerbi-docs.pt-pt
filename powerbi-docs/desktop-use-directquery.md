@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec124ef4ae34b064e217b3ce646a329d538e4214
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: df45bbaa142b2c476a6391b1c43638e1ee76c3ae
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o **Power BI Desktop**. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o **DirectQuery**.
@@ -83,7 +83,7 @@ Os seguintes três pontos devem ser considerados ao utilizar o **DirectQuery**:
 ## <a name="publish-to-the-power-bi-service"></a>Publicar no serviço Power BI
 Os relatórios criados com o **DirectQuery** podem ser publicados no Serviço Power BI.
 
-Se a origem de dados utilizada não precisar do **gateway de dados no local** (**Base de Dados SQL do Azure**, **Azure SQL Data Warehouse** ou **Redshift**) as credenciais devem ser fornecidas antes que o relatório publicado seja apresentado no Serviço Power BI.
+Se a origem de dados utilizada não precisar do **Gateway de dados no local** (**Base de Dados SQL do Azure**, **Azure SQL Data Warehouse** ou **Redshift**) as credenciais devem ser fornecidas antes que o relatório publicado seja apresentado no Serviço Power BI.
 
 Pode fornecer credenciais ao selecionar o ícone de ferramentas **Definições** no Power BI e, em seguida, selecionar **Definições**.
 
@@ -95,7 +95,7 @@ O Power BI apresenta a janela **Definições**. A partir daí, selecione o separ
 
 Até que as credenciais sejam fornecidas, abrir um relatório publicado ou explorar um conjunto de dados criado com uma ligação do **DirectQuery** a essas origens de dados irá originar um erro.
 
-Para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, deve ser instalado um **gateway de dados no local** e a origem de dados deve ser registada para ligar aos dados. Pode [aprender mais sobre o gateway de dados no local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
+Para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, deve ser instalado um **Gateway de dados no local** e a origem de dados deve ser registada para ligar aos dados. Pode [saber mais sobre o Gateway de dados no local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
 
 ## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre o **DirectQuery**, veja os seguintes recursos:

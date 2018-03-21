@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados às quais pode ligar e obter acesso aos dados. Este artigo descreve as origens de dados do Power BI que suportam o método de ligação conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, veja [**DirectQuery no Power BI**](desktop-directquery-about.md).
@@ -37,7 +37,8 @@ As seguintes origens de dados suportam o DirectQuery no Power BI:
 * IBM Netezza (Beta)
 * Impala (versão 2.x)
 * Base de dados Oracle (versão 12 e posteriores)
-* SAP Business Warehouse (Beta)
+* SAP Business Warehouse Application Server
+* SAP Business Warehouse Message Server (Beta)
 * SAP HANA
 * Snowflake
 * Spark (Beta) (versão 0.9 e posteriores)
@@ -50,7 +51,7 @@ As origens de dados com **(Beta)** ou **(Pré-visualização)** após o respetiv
 A única diferença entre as origens de dados **(Beta)** e **(Pré-visualização)** é que as origens **(Pré-visualização)** têm de ser ativadas como uma funcionalidade de Pré-visualização antes de ficarem disponíveis para utilização. Para ativar um conector de dados **(Pré-visualização)**, no **Power BI Desktop** aceda a **Ficheiro > Opções e Definições** e em **Definições > Opções > Funcionalidades de pré-visualização**.
 
 ## <a name="on-premises-gateway-requirements"></a>Requisitos do gateway no local
-A seguinte tabela especifica se um **gateway de dados no local** é necessário para ligar à origem de dados especificada, após a publicação de um relatório para o **serviço Power BI**.
+A seguinte tabela especifica se um **Gateway de dados no local** é necessário para ligar à origem de dados especificada, após a publicação de um relatório para o **serviço Power BI**.
 
 | Origem | É necessário um gateway? |
 | --- | --- |
@@ -62,11 +63,14 @@ A seguinte tabela especifica se um **gateway de dados no local** é necessário 
 | Base de Dados Teradata |Sim |
 | Amazon Redshift |Não |
 | Impala (versão 2.x) |Sim |
-| Snowflake (Pré-visualização) |Ainda não é suportado no **Serviço Power BI** |
+| Snowflake |Sim |
 | Spark (beta), versão 0.9 e posteriores |Ainda não é suportado no **Serviço Power BI** |
-| Azure HDInsight Spark (Beta) |Ainda não é suportado no **Serviço Power BI** |
-| IBM Netezza (Beta) |Ainda não é suportado no **Serviço Power BI** |
-| SAP Buisness Warehouse (Beta) |Ainda não é suportado no **Serviço Power BI** |
+| Azure HDInsight Spark (Beta) |No |
+| IBM Netezza |Sim |
+| SAP Business Warehouse Application Server |Sim |
+| SAP Business Warehouse Message Server |Ainda não é suportado no **Serviço Power BI** |
+| Google BigQuery |No |
+
 
 ## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:

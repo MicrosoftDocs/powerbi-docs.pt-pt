@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8b7fb21e533fecbfe93481741ae53b0073f6a776
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 937cbf39d08bd830c16e9b2634f3d5a747689f54
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Descrição geral de consulta no Power BI Desktop
 Com o **Power BI Desktop**, pode ligar-se ao mundo dos dados, criar relatórios apelativos e fundamentais e partilhar os seus trabalhos com outras pessoas, que poderão basear-se no seu trabalho e expandir os seus esforços de business intelligence.
@@ -102,7 +102,7 @@ O painel esquerdo apresenta o número de consultas ativas, bem como o nome da co
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
 ## <a name="the-center-data-pane"></a>Painel central (dados)
-No painel central ou painel de Dados, é apresentada a data da consulta selecionada. É aqui que muito do trabalho da vista de Consulta é realizado.
+No painel central ou no painel Dados, são apresentados os dados da consulta selecionada. É aqui que muito do trabalho da vista de Consulta é realizado.
 
 Na imagem a seguir, a ligação de dados da Web estabelecida anteriormente é mostrada, a coluna **Pontuação geral** está selecionada e seu cabeçalho foi clicado com o botão direito do rato para mostrar os itens de menu disponíveis. Tenha em atenção que muitos destes itens de menu de clique com o botão direito do rato são os mesmos botões nos separadores da faixa de opções.  
 
@@ -147,6 +147,6 @@ Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

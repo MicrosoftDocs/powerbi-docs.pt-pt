@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introdução à aplicação móvel do Power BI num iPad
 A aplicação do Microsoft Power BI para iOS no iPad proporciona a experiência de BI móvel para o Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -33,7 +33,7 @@ Crie relatórios do Power BI no Power BI Desktop e publique-os:
 * [Publique-os no serviço Power BI](service-get-started.md) e crie dashboards.
 * [Publique-os no local no Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
 
-Depois, na aplicação Power BI para iPad, interaja com os seus dashboards e relatórios, quer seja no local ou na cloud.
+Em seguida, na aplicação Power BI para iPad, interaja com os seus dashboards e relatórios, quer seja no local ou na cloud.
 
 Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
@@ -117,7 +117,7 @@ O Microsoft Intune permite às organizações controlar elementos como exigir um
 
 Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](service-admin-mobile-intune.md). 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Eis outras coisas que pode fazer na aplicação para iPad com dashboards e relatórios no Power BI, e relatórios e KPIs no portal Web do Power BI Report Server ou Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
@@ -138,4 +138,5 @@ Eis outras coisas que pode fazer na aplicação para iPad com dashboards e relat
 ### <a name="see-also"></a>Veja também
 * [Introdução ao Power BI](service-get-started.md)  
 * Perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/)
+
 

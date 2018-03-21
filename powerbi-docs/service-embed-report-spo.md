@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: a6c134cd39b835ad0007b5ad8d6b6804b4d243d0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -148,7 +148,9 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 
 * Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. Pode ver a [compatibilidade de browsers do Power BI](service-browser-support.md) e do [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-## <a name="next-steps"></a>Próximas etapas
+* A peça Web do Power BI não está disponível em [clouds nacionais](https://powerbi.microsoft.com/en-us/clouds/). 
+
+## <a name="next-steps"></a>Passos seguintes
 
 [Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Permitir ou impedir a criação de páginas de sites modernos por utilizadores finais)  
 [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI)  

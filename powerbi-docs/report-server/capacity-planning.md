@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: e36e0720ce55fb3c231a25791ded81d113c74929
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
 Power BI Report Server é uma solução personalizada de relatórios empresariais que os clientes podem implementar no seu local, por trás da firewall. Combina a capacidade de relatórios interativos do Power BI Desktop com a plataforma de servidor no local do SQL Server Reporting Services. Com uma utilização intensa e crescente de análises e relatórios nas empresas, a orçamentação das licenças de software e da infraestrutura de hardware necessárias para dimensionar uma base de utilizadores da empresa pode ser um desafio. Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. Enquanto os relatórios, as consultas e os padrões de utilização das organizações variam bastante, os resultados apresentados neste documento, juntamente com os testes reais utilizados e uma descrição detalhada de como foram executados, servem como um ponto de referência para todas as pessoas no processo de planeamento antecipado do Power BI Report Server.
@@ -42,14 +42,14 @@ Sob uma topologia de quatro servidores do Power BI Report Server e as expectativ
 Em cada execução, o recurso mais sobrecarregado foi a CPU. Devido a isto, o aumento do número de núcleos do Power BI Report Server produziria ganhos superiores na fiabilidade do sistema do que aumentar a quantidade de espaço de memória ou disco rígido. 
 
 ## <a name="test-methodology"></a>Metodologia de teste
-A topologia de teste utilizada baseou-se em Máquinas Virtuais do Microsoft Azure em vez de hardware físico específico ao fornecedor. Todas as máquinas foram alojadas nas regiões do EUA. Isto reflete a tendência geral da virtualização de hardware no local e na nuvem pública. 
+A topologia de teste utilizada baseou-se em Máquinas Virtuais do Microsoft Azure em vez de hardware físico específico ao fornecedor. Todas as máquinas foram alojadas nas regiões do EUA. Isto reflete a tendência geral da virtualização de hardware no local e na cloud pública. 
 
 ### <a name="power-bi-report-server-topology"></a>Topologia do Power BI Report Server
 A implementação do Power BI Report Server consistiu nas seguintes máquinas virtuais:
 
 * Controlador de Domínio do Active Directory: foi necessário pelo SQL Server Database Engine, SQL Server Analysis Services e Power BI Report Server para autenticar em segurança todos os pedidos.
 * O motor de base de dados do SQL Server e SQL Server Analysis Services: foi onde armazenamos todas as bases de dados dos relatórios a consumir depois de serem compostos.
-* Servidor de Relatório do Power BI
+* Power BI Report Server
 * Base de dados do Power BI Report Server. A base de dados do servidor de relatórios está alojada numa máquina diferente do Power BI Report Server, para que não seja necessário competir com o SQL Server Database Engine por memória, CPU, rede e recursos de disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -148,4 +148,5 @@ Se pretender executar a ferramenta Reporting Services LoadTest em relação à s
 5. Depois de concluir a implementação do ambiente, siga as instruções indicadas no https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution para executar os testes.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+
 
