@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores Práticas para o Desempenho do Power BI 
 Este artigo oferece orientação para construir relatórios rápidos e fiáveis no Power BI.  
@@ -130,11 +130,11 @@ Através do SQL Profiler, pode identificar as consultas que ocupam mais tempo de
 
 ## <a name="gateway-best-practices"></a>Melhores práticas de gateway 
 
-O gateway de dados no local é uma excelente ferramenta para ligar o serviço do Power BI aos seus dados no local. Por outro lado, se não for bem planeado, pode originar um estrangulamento no desempenho dos relatórios. Isto aplica-se especialmente aos conjuntos de dados do DirectQuery/ligação em direto, onde todas as consultas e respostas das consultas passam pelo gateway. Seguem-se algumas das melhores práticas para garantir gateways com desempenho elevado: 
+O Gateway de dados no local é uma excelente ferramenta para ligar o serviço Power BI aos seus dados no local. Por outro lado, se não for bem planeado, pode originar um estrangulamento no desempenho dos relatórios. Isto aplica-se especialmente aos conjuntos de dados do DirectQuery/ligação em direto, onde todas as consultas e respostas das consultas passam pelo gateway. Seguem-se algumas das melhores práticas para garantir gateways com desempenho elevado: 
  
 - **Utilize o modo Enterprise** em vez do modo pessoal. 
 - **Especificações de hardware recomendadas para o gateway**: 8 núcleos de CPU, 16 GB de RAM. 
-- **Configure a monitorização**: configure a monitorização do desempenho no computador do gateway para que o mesmo compreenda que o gateway está a ficar sobrecarregado e a provocar um estrangulamento. Para obter mais informações, veja [Troubleshooting the on-premises data gateway](service-gateway-onprem-tshoot.md) (Resolução de problemas do gateway de dados no local).
+- **Configure a monitorização**: configure a monitorização do desempenho no computador do gateway para que o mesmo compreenda que o gateway está a ficar sobrecarregado e a provocar um estrangulamento. Para obter mais informações, veja [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md).
 - **Aumente verticalmente ou horizontalmente**: se o gateway estiver a sofrer um estrangulamento, pondere aumentar verticalmente (isto é, mover o gateway para um computador com mais CPU e RAM) ou aumentar horizontalmente (por exemplo, dividir os conjuntos de dados por diferentes gateways). 
 - **Importação separada vs. DirectQuery**: se ampliar horizontalmente, pondere separar os gateways responsáveis pela importação dos responsáveis pelo DirectQuery. 
  
@@ -145,7 +145,7 @@ As ferramentas como o [Azure Speed Test](http://azurespeedtest.azurewebsites.net
 
 Para melhorar a latência de rede, pondere utilizar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que consegue criar ligações de rede mais rápidas e de confiança entre os seus clientes e os datacenters do Azure. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 - [Planear uma Implementação do Power BI Enterprise](https://aka.ms/pbienterprisedeploy) com um guia completo sobre implementações do Power BI em larga escala 
 - [DirectQuery no SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) 
 - [[YouTube] Building Fast and Reliable Reports in Power BI](https://www.youtube.com/watch?v=GhiJABR7XX0) (Criar Relatórios Rápidos e de Confiança no Power BI) 

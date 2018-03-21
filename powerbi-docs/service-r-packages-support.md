@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
 Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.org/) para criar elementos visuais no serviço Power BI. Inúmeros pacotes R são suportados no serviço Power BI (e muitos mais estão a ser suportados), mas alguns não são.
@@ -30,18 +30,18 @@ Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.or
 As secções seguintes fornecem uma tabela alfabética dos pacotes R suportados e não suportados no Power BI. Para obter mais informações sobre a linguagem R no Power BI, veja o artigo [Elementos visuais R](service-r-visuals.md).
 
 ## <a name="request-support-for-a-new-r-package"></a>Pedido de suporte de um novo pacote R
-Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para oa [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
+Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para a [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>Requisitos e Limitações de pacotes R
 Existem alguns requisitos e limitações para pacotes R:
 
 * O serviço Power BI suporta, na maioria das vezes, pacotes R com licenças de software gratuitas e open source, como GPL-2, GPL-3, MIT+, entre outros.
-* O serviço Power BI suporta pacotes publicados na CRAN. O serviço não suporta pacotes R privados ou personalizados. Recomendamos aos utilizadores que disponibilizem os respetivos pacotes privadas na CRAN antes de solicitarem que o pacote esteja disponível no serviço Power BI.
-* No **Power BI Desktop**, existem duas variações para pacotes R:
+* O serviço Power BI suporta pacotes publicados na CRAN. O serviço não suporta pacotes R privados ou personalizados. É recomendável que os utilizadores disponibilizem os respetivos pacotes privados na CRAN antes de pedirem que o pacote esteja disponível no serviço Power BI.
+* O **Power BI Desktop** tem duas variações para pacotes R:
   
   * Para elementos visuais R, pode instalar qualquer pacote, incluindo pacotes R personalizados
   * Para elementos visuais R personalizados, apenas os pacotes CRAN públicos são suportados para instalação automática dos pacotes
-* Por motivos de segurança e privacidade, atualmente não suportamos pacotes R que forneçam consultas de cliente-servidor através da Web (por exemplo, RgoogleMaps) no serviço. O funcionamento em rede é bloqueado para essas tentativas. Consulte a secção seguinte para obter a lista de pacotes R suportados e não suportados.
+* Por motivos de segurança e privacidade, os pacotes R que fornecem consultas de cliente-servidor através da Web (por exemplo, RgoogleMaps) no serviço não são suportados. O funcionamento em rede é bloqueado para essas tentativas. Consulte a secção seguinte para obter a lista de pacotes R suportados e não suportados.
 * O processo de aprovação para incluir um novo pacote R tem uma árvore de dependências; algumas dependências que têm de ser instaladas no serviço não podem ser suportadas.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Pacotes R suportados no Power BI
@@ -116,7 +116,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | cubature |1.1-2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
@@ -202,7 +202,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0-1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6-1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5-0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0-5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |
@@ -396,7 +396,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| Treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| mapa de árvore |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |
@@ -423,7 +423,7 @@ A tabela seguinte mostra os pacotes **não suportados** no serviço Power BI.
 | mailR |10/03/2016 |O funcionamento em rede é bloqueado |
 | RevoScaleR |8/30/2016 |ships apenas com o Microsoft R Server |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre a linguagem R no Power BI, veja os seguintes artigos:
 
 * [Criar elementos visuais R no serviço Power BI](service-r-visuals.md)

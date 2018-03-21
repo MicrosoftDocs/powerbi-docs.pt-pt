@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço Power BI e pode, tal como as outras pessoas, criar vários relatórios diferentes (em ficheiros .pbix separados) a partir desse mesmo modelo de dados comum. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -101,7 +101,7 @@ Ao selecionar **Carregar** na janela, estabelece uma ligação em direto com o c
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-Agora, pode (tal como as outras pessoas) criar e partilhar relatórios personalizados e partilhá-los, tudo a partir do mesmo conjunto de dados. Esta é uma excelente forma de ter uma pessoa especializada a criar um conjunto de dados bem formado (como faz a Ana) e permitir a inúmeros colegas utilizar o conjunto de dados partilhado para criarem os seus próprios relatórios.
+Agora, pode (tal como as outras pessoas) criar e partilhar relatórios personalizados, tudo a partir do mesmo conjunto de dados. Esta é uma excelente forma de ter uma pessoa especializada a criar um conjunto de dados bem formado (como faz a Ana) e permitir a inúmeros colegas utilizar o conjunto de dados partilhado para criarem os seus próprios relatórios.
 
 > [!NOTE]
 > Quando criar relatórios baseados num conjunto de dados através de uma ligação em direto ao **serviço Power BI**, apenas pode publicar esses relatórios na mesma área de trabalho do serviço Power BI que contém o conjunto de dados que está a ser utilizado.
@@ -116,8 +116,8 @@ Quando utilizar a **ligação em direto do serviço Power BI**, existem algumas 
 * Uma vez que se trata de uma ligação em direto, a navegação à esquerda e a modelação estão desativadas, semelhante ao comportamento ocorrido quando existe uma ligação ao **SQL Server Analysis Services**.
 * Como se trata de uma ligação em direto, a RLS (segurança ao nível da linha e da função), o OneDrive para Empresas e outros comportamentos de ligação deste tipo são impostos, tal como aconteceria se estivessem ligados ao **SQL Server Analysis Services**.
 * Quando selecionar o conjunto de dados a ligar no **serviço Power BI**, a caixa de pesquisa aplica-se apenas às áreas de trabalho que tenham sido expandidas.
-* Se modificar o ficheiro .pbix partilhado original, o conjunto de dados e o relatório partilhados no **serviço Power BI** são substituídos.
-* Não pode substituir o relatório partilhado originalmente. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar.
+* Se o proprietário modificar o ficheiro .pbix partilhado original, o conjunto de dados e o relatório partilhados no **serviço Power BI** são substituídos.
+* Os membros de uma área de trabalho não podem substituir o relatório partilhado originalmente. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar.
 * Se eliminar o conjunto de dados partilhado no **serviço Power BI**, o **Power BI Desktop** (ficheiros .pbix) já não irá funcionar corretamente nem apresentar os respetivos elementos visuais.
 * Para Pacotes de Conteúdo, tem de criar primeiro uma cópia de um pacote de conteúdo antes de o utilizar como base para partilhar um relatório .pbix e o conjunto de dados no **serviço Power BI**.
 * Para Pacotes de Conteúdo de *A Minha Organização*, depois de o copiar, não pode substituir o relatório criado no serviço e/ou um relatório criado como parte da cópia de um Pacote de Conteúdo com uma ligação em direto. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar. Nesta situação, apenas pode substituir os relatórios ligados em direto publicados.

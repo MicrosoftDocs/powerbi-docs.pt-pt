@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/15/2018
+ms.date: 03/07/2018
 ms.author: maghan
-ms.openlocfilehash: 9d387208b1ace0b0f0fd700b471e07e3b2584883
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52ff1095c063be867354a23e0e8e4908a4b4e1d7
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -66,7 +66,7 @@ O Power BI Embedded já está disponível.
 
 ## <a name="technical"></a>Parte Técnica
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-em-skus-in-office-365"></a>Qual a diferença entre os SKUs no Azure e os EM SKUs no Office 365?
+### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Qual a diferença entre os A SKUs no Azure e os EM SKUs no Office 365?
 
 PowerBI.com é uma solução empresarial que inclui muitas funcionalidades de colaboração social, subscrição de e-mail, etc. num software como oferta de serviços
 
@@ -77,10 +77,10 @@ Segue-se uma lista parcial de diferenças que pode utilizar para cada um.
 |Destaque  |Power BI Embedded<br>(A SKUs) |Capacidade do Power BI Premium<br>(EM SKUs)  |
 |---------|---------|---------|
 |Incorporar artefactos de áreas de trabalho da aplicação Power BI     |Capacidade do Azure |Capacidade do Office 365 |
-|Licença do Power BI necessária para consumir relatórios |Não  |Sim |
+|Licença do Power BI necessária para consumir relatórios |No  |Sim |
 |Consumir relatórios do Power BI numa aplicação do Embedded |Sim  |Sim |
-|Consumir relatórios do Power BI no SharePoint |Não |Sim |
-|Consumir relatórios do Power BI no Teams |Não |Sim |
+|Consumir relatórios do Power BI no SharePoint |No |Sim |
+|Consumir relatórios do Power BI no Teams |No |Sim |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Agora, o Power BI oferece três SKUs para incorporar: A SKUs, EM SKUs e P SKUs. Qual deles deve adquirir para o meu cenário?
 
@@ -128,6 +128,10 @@ Utilize o PowerBI.com para atribuir/anular a atribuição de áreas de trabalho 
 
 Sudeste da Austrália, Sul do Brasil, Canadá Central, E.U.A Leste 2, Índia Ocidental, Leste do Japão, EUA Centro-Norte, Europa do Norte, EUA Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, EUA Oeste e EUA Oeste 2.
 
+### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Que tipo de dados do pacote de conteúdos pode ser incorporado?
+
+Os **dashboards** e **mosaicos** criados a partir de conjuntos de dados do pacote de conteúdos *não podem* ser incorporados, no entanto os **relatórios** criados a partir de um conjunto de dados do pacote de conteúdos *podem* ser incorporados.
+
 ## <a name="licensing"></a>Licenças
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Como posso adquirir o Power BI Embedded?
@@ -170,7 +174,7 @@ Os clientes podem mudar a respetiva utilização numa base horária. Não existe
 
 ### <a name="where-is-power-bi-embedded-available-us-government-germany-china-what-is-the-timing"></a>Onde está disponível o Power BI Embedded? Governo dos EUA? Alemanha? China? Qual é o período de tempo?
 
-O Power BI Embedded estará disponível nas nuvens comerciais do Azure em GA.  A disponibilidade do Sovereign Cloud será adicionada no futuro.
+O Power BI Embedded está disponível nas clouds comerciais do Azure e na cloud da administração pública dos Estados Unidos.  A disponibilidade da cloud soberana será adicionada para a Alemanha e a China no futuro.
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>O Power BI Embedded está disponível para entidades educacionais e sem fins lucrativos?
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ab73dde22fdb0603a900ac67b6e76e8f5aaf3872
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Utilizar um IDE R externo com o Power BI
 Com o **Power BI Desktop**, pode utilizar o IDE R externo (Integrated Development Environment, Ambiente de Desenvolvimento Integrado) para criar e refinar os scripts R e utilizar esses scripts no Power BI.
@@ -42,7 +42,7 @@ Para utilizar esta funcionalidade, tem de instalar um **IDE R** no seu computado
 * Também pode instalar um IDE R diferente e fazer com que o **Power BI Desktop** inicie esse **IDE R** ao efetuar um dos seguintes procedimentos:
   
   * Pode associar ficheiros **.R** ao IDE externo que quer que o **Power BI Desktop** inicie.
-  * Pode especificar o .exe que o **Power BI Desktop** deve iniciar ao selecionar *Outros* na secção **Opções de Script R** na caixa de diálogo **Opções**. Pode apresentar a caixa de diálogo **Ppções** ao aceder a **Ficheiro > Opções e definições > Opções**.
+  * Pode especificar o .exe que o **Power BI Desktop** deve iniciar ao selecionar *Outros* na secção **Opções de Script R** na caixa de diálogo **Opções**. Pode apresentar a caixa de diálogo **Opções** ao aceder a **Ficheiro > Opções e definições > Opções**.
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 
@@ -53,7 +53,7 @@ Por predefinição, o **Power BI Desktop** iniciará o **R Studio** como IDE R e
 Se não existir nenhuma associação de ficheiros **.R**, é possível especificar um caminho para um IDE personalizado na secção *Navegue até ao seu IDE R preferido* da caixa de diálogo **Opções**. Também pode iniciar um IDE R diferente ao selecionar o ícone de engrenagem **Definições** junto ao ícone de seta **Iniciar IDE R**, no **Power BI Desktop**.
 
 ## <a name="launch-an-r-ide-from-power-bi-desktop"></a>Iniciar um IDE R a partir do Power BI Desktop
-Para iniciar um IDE R a partir do **Power BI Desktop**, siga os passos seguintes.
+Para iniciar um IDE R a partir do **Power BI Desktop**, siga os passos seguintes:
 
 1. Carregue os dados para o **Power BI Desktop**.
 2. Selecione alguns campos no painel **Campos** com que quer trabalhar. Se ainda não tiver ativado os elementos visuais do script, ser-lhe-á pedido que o faça.
@@ -62,12 +62,12 @@ Para iniciar um IDE R a partir do **Power BI Desktop**, siga os passos seguintes
 3. Quando os elementos visuais do script estiverem ativados, pode selecionar um elemento visual R no painel **Visualizações**, o qual cria um elemento visual R em branco que está pronto para apresentar os resultados do script. Também é apresentado o painel **Editor de scripts R**.
    
    ![](media/desktop-r-ide/r-ide_4.png)
-4. Agora, pode selecionar os campos que quer utilizar no script R. Quando selecionar um campo, o campo **Editor de scripts R** cria automaticamente o código de script com base no campo ou campos que selecionar. Pode criar (ou colar) o script R diretamente no painel **Editor de scripts R** ou pode deixá-lo em branco.
+4. Agora, pode selecionar os campos que quer utilizar no script R. Quando selecionar um campo, o campo **Editor de scripts R** cria automaticamente o código de script com base no campo ou campos que selecionar. Pode criar (ou colar) o script R diretamente no painel **Editor de script R** ou pode deixá-lo em branco.
    
    ![](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
-   > O tipo de agregação predefinido para elementos visuais R é *não resumir*.
+   > O tipo de agregação predefinido para elementos visuais do R é *não resumir*.
    > 
    > 
 5. Agora, pode iniciar o IDE R diretamente a partir do **Power BI Desktop**. Selecione o botão **Iniciar IDE R** no lado direito da barra de título do **Editor de scripts R**, conforme mostrado abaixo.

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c048a83dad3ea800f50b08bd15c0cec18d6d86cf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Utilizar o SAP HANA no Power BI Desktop
 Com o Power BI Desktop, agora pode aceder a bases de dados do **SAP HANA**. Para usar o **SAP HANA**, o controlador ODBC do SAP HANA deve ser instalado no computador de cliente local para que a ligação de dados do **SAP HANA** ao Power BI Desktop funcione corretamente. Pode transferir o controlador ODBC do SAP HANA a partir do [Centro de Transferências de Software SAP](https://support.sap.com/swdc). A partir daí, procure os SAP HANA CLIENT para computadores Windows. Visto que o **Centro de Transferências de Software SAP** muda a estrutura com frequência, não estão disponíveis orientações mais específicas para navegar no site.
@@ -35,7 +35,7 @@ Ao ligar-se a uma base de dados do SAP HANA, especifique o nome do servidor e a 
 
 ![](media/desktop-sap-hana/sap-hana-2.png)
 
-Nesta versão, há suporte para o **SAP HANA** no modo [DirectQuery](desktop-use-directquery.md) no Power BI Desktop e no serviço Power BI, e é possível publicar e carregar relatórios que usam o **SAP HANA** no modo DirectQuery para o serviço Power BI. Também pode publicar e carregar relatórios no serviço Power BI quando não estiver a utilizar o **SAP HANA** no modo DirectQuery.
+Nesta versão, há suporte para o **SAP HANA** no modo [DirectQuery](desktop-directquery-sap-hana.md) no Power BI Desktop e no serviço Power BI e é possível publicar e carregar relatórios que utilizam o **SAP HANA** no modo DirectQuery para o serviço Power BI. Também pode publicar e carregar relatórios no serviço Power BI quando não estiver a utilizar o **SAP HANA** no modo DirectQuery.
 
 ### <a name="supported-features-for-sap-hana"></a>Funcionalidades suportadas para SAP HANA
 Esta versão contém vários recursos para o **SAP HANA**, como mostrado na lista seguinte:
@@ -55,4 +55,12 @@ Também há algumas limitações com a utilização do **SAP HANA**, conforme ap
 * SMALLDECIMAL não é suportado
 * VARBINARY não é suportado
 * As Datas Válidas estão entre 30/12/1899 e 31/12/9999
+
+
+## <a name="next-steps"></a>Passos seguintes
+Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:
+
+* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery no Power BI](desktop-directquery-about.md)
+* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origens de Dados que o DirectQuery suporta)
 

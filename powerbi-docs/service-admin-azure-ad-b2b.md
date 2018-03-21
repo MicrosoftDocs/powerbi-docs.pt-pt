@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 09bd3064c7a694355255cb3cca29ade02986d42e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 55394392de78bcd1a2c38ecf92dd3218c8660132
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
@@ -31,7 +31,14 @@ O Power BI integra-se no Azure Active Directory Business-to-business (Azure AD B
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
+> Terá de **Ativar** a funcionalidade [Definições de exportação e partilha](service-admin-portal.md#export-and-sharing-settings) nas Definições de inquilino do no portal de administração do Power BI antes de convidar utilizadores.
+
+> [!NOTE]
 > Esta funcionalidade não está atualmente disponível com as aplicações móveis do Power BI. Num dispositivo móvel, poderá ver o conteúdo partilhado do Power BI com o Azure AD B2B num browser. 
+
+## <a name="who-can-you-invite"></a>Quem pode convidar?
+
+Pode convidar utilizadores que utilizem qualquer endereço de e-mail, incluindo contas pessoais como gmail.com, outlook.com ou hotmail.com. No Azure B2B, estes endereços são denominados "Identidades Sociais". Para obter mais informações, veja o artigo [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Convidar utilizadores
 
@@ -63,9 +70,10 @@ O utilizador convidado tem de selecionar **Começar** no convite por e-mail que 
 
 ### <a name="ad-hoc-invites"></a>Convites ad-hoc
 
-Para efetuar um convite a qualquer altura, adicione o utilizador externo à lista de acesso de uma aplicação ao publicá-la.
+Para enviar um convite em qualquer altura, adicione o utilizador externo ao seu dashboard ou relatório através da IU de partilha ou à sua aplicação através da página de acesso.
 
-![Utilizador externo adicionado à lista de acesso da aplicação](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+Eis um exemplo do que deve fazer ao convidar um utilizador externo para utilizar uma aplicação.
+![Utilizador externo adicionado à Lista de acesso da aplicação](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 O utilizador convidado irá receber um e-mail a indicar que a aplicação foi partilhada com o mesmo.
 
@@ -98,13 +106,14 @@ O utilizador convidado já tem uma licença do Power BI Pro atribuída no respet
 
 ![O utilizador convidado traz a sua própria licença](media/service-admin-azure-ad-b2b/license-approach3.png)
 
-## <a name="limitations"></a>Limitações
+## <a name="considerations-and-limitations"></a>Considerações e Limitações
 
+* Ao convidar utilizadores que tenham contas de e-mail pessoais, como o gmail.com, outlook.com ou hotmail.com, pode seguir este [vídeo incorporado](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) para ver um exemplo de como um utilizador faria a sua inscrição.
 * Os convidados B2B externos estão limitados apenas ao consumo de conteúdos. Os convidados B2B externos podem ver aplicações, dashboards, relatórios, exportar dados e criar subscrições de e-mail para dashboards e relatórios. Não podem aceder a áreas de trabalho nem publicar os seus próprios conteúdos.
 * Esta funcionalidade não está atualmente disponível com as aplicações móveis do Power BI. Num dispositivo móvel, poderá ver o conteúdo partilhado do Power BI com o Azure AD B2B num browser.
 * A utilização de utilizadores convidados com o Power BI não é suportada nas clouds soberanas (governo).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Para obter informações mais detalhadas, incluindo sobre o funcionamento da segurança ao nível de linha, consulte o [documento técnico](https://aka.ms/powerbi-b2b-whitepaper).
 

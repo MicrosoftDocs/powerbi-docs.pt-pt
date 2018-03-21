@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 Pode obter conectividade totalmente integrada de início de sessão único, ao ativar os relatórios e dashboards do Power BI para atualizarem a partir de dados no local, ao configurar o gateway de dados no local com o Kerberos. O gateway de dados no local facilita o início de sessão único (SSO) com o DirectQuery, que utiliza para ligar às origens de dados no local.
@@ -65,8 +65,12 @@ Seguem-se detalhes adicionais sobre esses passos:
 
 > [!NOTE]
 > Para ativar o SSO para o SAP HANA, tem de se certificar de que as seguintes duas configurações específicas do HANA para SAP estão aplicadas:
->    1. Certifique-se de que o servidor SAP HANA está a executar a versão 2.00.022* ou superior/posterior. 
->    2. Na máquina do gateway, instale o controlador OBDC HANA mais recente do SAP.  A versão mínima é ODBC HANA, versão 2.00.020.00 de agosto de 2017.
+> 1. Certifique-se de que o servidor SAP HANA está a executar a versão mínima exigida, consoante o nível de plataforma do servidor SAP HANA:
+> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+>
+> 2. Na máquina do gateway, instale o controlador OBDC HANA mais recente do SAP.  A versão mínima é ODBC HANA, versão 2.00.020.00 de agosto de 2017.
 >
 > As seguintes ligações para patches e atualizações do SAP podem ser úteis. Tenha em atenção que tem de ter sessão iniciada nos seguintes recursos com a sua conta de Suporte do SAP e que o SAP pode alterar ou atualizar estas ligações.
 > 

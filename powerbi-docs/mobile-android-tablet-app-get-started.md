@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: bd96466a8a8c19a495540b93a512cb62746a6837
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 407f4d8c2faf26b9837b24318c24c118786e21ae
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-tablets"></a>Introdução à aplicação móvel Power BI em tablets Android
 A aplicação móvel do Power BI para tablets Android dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -72,7 +72,7 @@ Se ainda não se inscreveu, aceda ao [Serviço Power BI (http://powerbi.com/)](h
 Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte para os exemplos sempre que quiser, na página inicial dos dashboards.
 
 ### <a name="power-bi-samples"></a>Exemplos do Power BI
-Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com eles. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
+Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com estes. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
 
 1. Toque no botão de navegação global ![Botão de navegação global](media/mobile-android-tablet-app-get-started/power-bi-android-options-icon.png) no canto superior esquerdo.
 2. Toque em **Definições** > **Descubra os nossos exemplos** e, em seguida, selecione uma função e explore o dashboard de exemplo dessa função. 
@@ -88,12 +88,12 @@ Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas 
 ## <a name="search-for-a-dashboard-or-report"></a>Procurar um dashboard ou relatório
 * Toque na lupa no canto superior direito ![Ícone de pesquisa](media/mobile-android-tablet-app-get-started/power-bi-ipad-search-icon.png)e, em seguida, escreva o termo a procurar.
   
-    ![Resultados de pesquisa](media/mobile-android-tablet-app-get-started/power-bi-android-tablet-search.png)
+    ![Resultados da pesquisa](media/mobile-android-tablet-app-get-started/power-bi-android-tablet-search.png)
   
     Por predefinição, procura todos os dashboards e relatórios, mas pode simplesmente procurar um ou outro.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Procurar os seus conteúdos nas aplicações móveis do Power BI
-Os seus dashboards e relatórios são armazenados em diferentes locais nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar os seus conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
+Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
 ![Painel navegação à esquerda do Power BI](media/mobile-android-tablet-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
@@ -122,7 +122,7 @@ O Microsoft Intune permite às organizações controlar elementos, como exigir u
 
 Saiba mais sobre [configurar aplicações móveis do Power BI para Android com o Microsoft Intune](service-admin-mobile-intune.md). 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Eis outras coisas que pode fazer na aplicação para tablet Android do Power BI com dashboards e relatórios no Power BI, e relatórios e KPIs no portal Web do Power BI Report Server ou Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
@@ -142,3 +142,4 @@ Eis outras coisas que pode fazer na aplicação para tablet Android do Power BI 
 * [Transfira a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicações Android.
 * [Introdução ao Power BI](service-get-started.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+

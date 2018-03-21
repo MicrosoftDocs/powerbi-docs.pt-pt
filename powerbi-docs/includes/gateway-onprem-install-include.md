@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>Instalar o gateway de dados no local
+## <a name="install-the-on-premises-data-gateway"></a>Instalar o Gateway de dados no local
 O gateway de dados é instalado e executado no seu computador. O melhor é instalar o gateway num computador que possa ficar permanentemente em funcionamento.
 
 > [!NOTE]
@@ -15,9 +15,9 @@ Existem alguns fatores a ter em conta relativamente à instalação de qualquer 
 
 * ambos os gateways necessitam de sistemas operativos de 64 bits do Windows
 * os gateways não podem ser instalados num controlador de domínio
-* pode instalar, no máximo, dois gateways de dados no local no mesmo computador, um em execução em cada modo (pessoal e padrão). 
+* pode instalar, no máximo, dois Gateways de dados no local no mesmo computador, um em execução em cada modo (pessoal e padrão). 
 * não pode ter mais de um gateway em execução da mesma maneira no mesmo computador.
-* pode instalar vários gateways de dados no local em computadores diferentes e geri-los a todos a partir da mesma interface de gestão do gateway do Power BI (excluindo a pessoal, consulte a seguinte marca)
+* pode instalar vários Gateways de dados no local em computadores diferentes e geri-los a todos a partir da mesma interface de gestão do gateway do Power BI (excluindo a pessoal, veja a seguinte marca)
 * Só pode ter um gateway de modo pessoal em execução para cada utilizador do Power BI. Se instalou outro gateway de modo Pessoal para o mesmo utilizador, mesmo num computador diferente, a instalação mais recente substitui a instalação anterior.
 
 ![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
