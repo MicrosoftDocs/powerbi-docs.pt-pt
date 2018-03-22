@@ -1,15 +1,15 @@
 ---
-title: "Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop"
-description: "Utilize um conjunto de dados comum para vários relatórios do Power BI Desktop e faça a gestão do ciclo de vida dos relatórios"
+title: Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
+description: Utilize um conjunto de dados comum para vários relatórios do Power BI Desktop e faça a gestão do ciclo de vida dos relatórios
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço Power BI e pode, tal como as outras pessoas, criar vários relatórios diferentes (em ficheiros .pbix separados) a partir desse mesmo modelo de dados comum. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -59,7 +59,7 @@ Na imagem seguinte, pode ver como a Ana cria um relatório do **Power BI Desktop
 Agora que sabemos como é útil a **ligação em direto do serviço Power BI** e como pode utilizá-la como uma abordagem recomendada para a gestão do ciclo de vida dos relatórios, vamos percorrer os passos que nos levam do excelente relatório (e conjunto de dados) da Ana até um conjunto de dados partilhado que os colegas na sua área de trabalho do Power BI podem utilizar.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Publicar um relatório e conjunto de dados do Power BI
-O primeiro passo na gestão do ciclo de vida dos relatórios através de uma **ligação em direto do serviço Power BI** é ter um relatório (e conjunto de dados) que os colegas queiram utilizar. Assim, a Ana tem de **publicar** primeiro o relatório a partir do **Power BI Destkop**. Este procedimento é efetuado ao selecionar **Publicar** no friso **Base** no Power BI Desktop.
+O primeiro passo na gestão do ciclo de vida dos relatórios através de uma **ligação em direto do serviço Power BI** é ter um relatório (e conjunto de dados) que os colegas queiram utilizar. Assim, a Ana tem de **publicar** primeiro o relatório a partir do **Power BI Desktop**. Este procedimento é efetuado ao selecionar **Publicar** no friso **Base** no Power BI Desktop.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
