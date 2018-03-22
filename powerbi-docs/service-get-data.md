@@ -2,14 +2,14 @@
 title: Origens de dados do Power BI
 description: Origens de dados do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: identified
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/12/2018
 # <a name="data-sources-for-the-power-bi-service"></a>Origens de dados para o serviço Power BI
 Os dados são o coração do Power BI. Sempre que está a explorar dados, a criar gráficos e dashboards, a fazer perguntas com Perguntas e Respostas, todas as visualizações e respostas que vê estão, na verdade, a extrair os dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Bem, de uma origem de dados.
 
-Neste artigo, vamos falar sobre os diferentes tipos de origens de dados aos quais se pode ligar através do serviço Power BI. Tenha em consideração que há muitos outros tipos de origens de dados a partir dos quais pode obter dados. No entanto, estes podem exigir primeiro a utilização do Power BI Desktop ou da consulta avançada de dados e recursos de modelação do Excel. Veremos mais detalhes posteriormente. Por enquanto, vamos examinar os diferentes tipos de origens de dados aos quais se pode ligar diretamente a partir do site do serviço Power BI.
+Neste artigo, vamos falar sobre os diferentes tipos de origens de dados aos quais se pode ligar através do serviço Power BI. Tenha em consideração que há muitos outros tipos de origens de dados a aprtir dos quais pode obter dados. No entanto, estes podem exigir primeiro a utilização do Power BI Desktop ou da consulta avançada de dados e recursos de modelação do Excel. Veremos mais detalhes posteriormente. Por enquanto, vamos examinar os diferentes tipos de origens de dados aos quais se pode ligar diretamente a partir do site do serviço Power BI.
 
 Pode obter dados de qualquer uma destas origens de dados no Power BI ao clicar em **A Minha Área de Trabalho** > **Obter Dados**.
 
@@ -38,7 +38,7 @@ Pode obter dados de qualquer uma destas origens de dados no Power BI ao clicar e
 
 **Excel** (.xlsx, .xlxm) – o Excel é exclusivo no sentido de que um livro pode ter dados introduzidos por si em folhas de cálculo ou pode consultar e carregar dados de origens de dados externas através do Power Query (Obter e Transformar no Excel 2016) ou do Power Pivot. Pode importar dados em tabelas nas folhas de cálculo (os dados *têm* de estar numa tabela) ou importar dados carregados para um modelo de dados. Para saber mais, veja [Obter dados do Excel](service-get-data-from-files.md).
 
-**Power BI Desktop** (.pbix) – Pode utilizar o Power BI Desktop para consultar e carregar dados a partir de origens de dados externas, expandir o modelo de dados com medidas e relações, e criar relatórios. Pode importar o ficheiro do Power BI Desktop para o site do Power BI. O Power BI Desktop é melhor para utilizadores mais avançados que tenham uma boa compreensão dos conceitos de origens de dados, consulta e transformação de dados e modelação de dados. Para saber mais, veja [Ligar-se a dados no Power BI Desktop](desktop-connect-to-data.md).
+**Power BI Desktop** (.pbix) – Pode utilizar o Power BI Desktop para consultar e carregar dados a partir de origens de dados externas, expandir o modelo de dados com medidas e relações, e criar relatórios. Pode importar o fichiero do Power BI Desktop para o site do Power BI. O Power BI Desktop é melhor para utilizadores mais avançados que tenham uma boa compreensão dos conceitos de origens de dados, consulta e transformação de dados e modelação de dados. Para saber mais, veja [Ligar-se a dados no Power BI Desktop](desktop-connect-to-data.md).
 
 **Valores Separados por Vírgula** (.csv) – São ficheiros de texto simples com linhas de dados. Cada linha pode conter um ou mais valores, cada um separado por uma vírgula. Por exemplo, um .csv que contém dados de nome e endereço pode ter um número de linhas em que cada linha tem valores para nome, sobrenome, endereço, cidade, estado e assim sucessivamente. Não é possível importar dados para um ficheiro .csv, mas muitas aplicações, como o Excel, podem guardar dados de tabela simples como um ficheiro .csv.
 
@@ -58,7 +58,7 @@ Os pacotes de conteúdo contêm todos os dados e relatórios de que precisa já 
 ## <a name="databases"></a>Bases de Dados
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**Bases de dados na Cloud** – No serviço Power BI, pode ligar-se à Base de Dados SQL do Azure, ao Azure SQL Data Warehouse, ao Spark no Azure HD Insight e ao SQL Server Analysis Services com o DirectQuery. As ligações do Power BI a estas bases de dados ocorrem em tempo real, ou seja, ao ligar-se, por exemplo, a uma Base de Dados SQL do Azure e começar a explorar os dados ao criar relatórios no Power BI, quando secciona os dados ou adiciona outro campo a uma visualização, é feita uma consulta diretamente na base de dados. Para saber mais, veja [Azure e Power BI](service-azure-and-power-bi.md).
+**Bases de dados na Cloud** – No serviço Power BI, pode ligar-se à Base de Dados SQL do Azure, ao Azure SQL Data Warehouse, ao Spark no Azure HD Insight e so SQL Server Analysis Services com o DirectQuery. As ligações do Power BI a estas bases de dados ocorrem em tempo real, ou seja, ao ligar-se, por exemplo, a uma Base de Dados SQL do Azure e começar a explorar os dados ao criar relatórios no Power BI, quando secciona os dados ou adiciona outro campo a uma visualização, é feita uma consulta diretamente na base de dados. Para saber mais, veja [Azure e Power BI](service-azure-and-power-bi.md).
 
 **Bases de dados no local** – No serviço Power BI, pode ligar-se diretamente às bases de dados modelo em Tabela do SQL Server Analysis Services. É necessário um gateway do Power BI Enterprise. Se não tiver a certeza sobre como ligar-se à base de dados modelo em tabela da organização, consulte o seu administrador ou departamento de TI. Para saber mais, veja [Dados de Tabela do SQL Server Analysis Services no Power BI](sql-server-analysis-services-tabular-data.md).
 
@@ -71,16 +71,16 @@ Algumas origens de dados já têm os dados num formato pronto para o serviço Po
 
 Noutros casos, pode ser necessário consultar e carregar os dados num ficheiro. Por exemplo, imaginemos que tem dados de logística numa base de dados do armazém de dados num servidor na sua organização. No serviço Power BI, não pode ligar-se diretamente a essa base de dados e começar a explorar os dados do mesmo (a menos que se trate de uma base de dados de modelo de tabela). No entanto, é possível utilizar o Power BI Desktop ou o Excel para consultar e carregar dados de logística num modelo de dados que guarda como um ficheiro. Depois, pode importar esse ficheiro para o Power BI, onde um conjunto de dados é criado.
 
-Deve estar a pensar: "Mas os dados de logística dessa base de dados são alterados diariamente. Como garanto que o conjunto de dados no Power BI é atualizado?" As informações de ligação do ficheiro do Power BI Desktop ou do Excel são importadas para um conjunto de dados juntamente com os dados. Se configurar a atualização agendada ou fizer uma atualização manual do conjunto de dados, o Power BI usará as informações de ligação do conjunto de dados, juntamente com outras configurações, para ligar-se diretamente à base de dados, consultar atualizações e carregar essas atualizações no conjunto de dados. Provavelmente será necessário um gateway do Power BI para proteger qualquer transferência de dados entre o servidor no local e o Power BI. Quaisquer visualizações de relatórios e dashboards são atualizadas automaticamente.
+Deve estar a pensar: "Mas os dados de logística dessa base de dados são alterados diariamente. Como garanto que o conjunto de dados no Power BI é atualizado?” – As informações de ligação do ficheiro do Power BI Desktop ou do Excel são importadas para um conjunto de dados juntamente com os dados. Se configurar a atualização agendada ou fizer uma atualização manual do conjunto de dados, o Power BI usará as informações de ligação do conjunto de dados, juntamente com outras configurações, para ligar-se diretamente à base de dados, consultar atualizações e carregar essas atualizações no conjunto de dados. Provavelmente será necessário um gateway do Power BI para proteger qualquer transferência de dados entre o servidor no local e o Power BI. Quaisquer visualizações de relatórios e dashboards são atualizadas automaticamente.
 
 Só porque não pode ligar-se à origem de dados diretamente a partir do serviço Power BI, não significa que não possa inserir dados no Power BI. Simplesmente serão necessários alguns passos a mais e, talvez, alguma ajuda do departamento de TI. Veja [Origens de dados no Power BI Desktop](desktop-data-sources.md) para saber mais.
 
 ## <a name="some-more-details"></a>Mais alguns detalhes
 Verá os termos utilizados pelo conjunto de dados e origem de dados com muita frequência no Power BI. Geralmente, são utilizados como sinónimos, mas na verdade são duas coisas diferentes, embora relacionadas.
 
-Um ***conjunto de dados*** é criado automaticamente no Power BI quando utiliza o recurso Obter Dados para ligar-se a dados e importá-los de um pacote de conteúdo ou ficheiro ou quando se liga a uma origem de dados dinâmica. Um conjunto de dados contém informações sobre as origens de dados, credenciais de origem de dados, e em muitos casos, um subconjunto de dados copiados da origem de dados. Na maioria dos casos, quando cria visualizações em relatórios e dashboards, está a analisar dados no conjunto de dados.
+Um ***conjunto de dados*** é criado automaticamente no Power BI quando utiliza o recurso Obter Dados para ligar-se a dados e importá-los de um pacote de conteúdo ou ficheiro ou quando se liga a uma origem de dados dinâmica. Um conjunto de dados contém informações sobre as origens de dados, credenciais de origem de dados, e em muitos casos, um sub conjunto de dados copiados da origem de dados. Na maioria dos casos, quando cria visualizações em relatórios e dashboards, está a analisar dados no conjunto de dados.
 
-Uma ***origem de dados*** é o local do qual os dados de um conjunto de dados são, de facto, recebidos. Por exemplo, um serviço online, como o Google Analytics ou QuickBooks, uma base de dados na cloud como base de dados do SQL Azure, ou uma base de dados ou ficheiro num computador local ou servidor na sua própria organização.
+Uma ***origem de dados*** é o local do qual os dados de um conjunto de dados são, de facto, recebidos. Por exemplo, um serviço online, como o Google Analytics ou QuickBooks, uma base de dados na nuvem como base de dados do SQL Azure, ou uma base de dados ou ficheiro num computador local ou servidor na sua própria organização.
 
 ### <a name="data-refresh"></a>Atualização de dados
 Se guardar os ficheiros na sua unidade local ou numa unidade na sua organização, pode ser necessário um gateway do Power BI para atualizar o conjunto de dados no Power BI. E o computador onde o ficheiro é guardado deve estar ligado quando ocorre uma atualização. Também pode importar novamente o ficheiro ou usar a publicação do Excel ou do Power BI Desktop, mas estes não são processos automatizados.
