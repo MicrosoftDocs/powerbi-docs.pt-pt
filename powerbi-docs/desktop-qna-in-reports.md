@@ -2,14 +2,14 @@
 title: Utilizar as Perguntas e Respostas no Power BI Desktop
 description: Agora pode utilizar consultas de linguagem natural no Power BI Desktop com as Perguntas e Respostas
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Utilizar as Perguntas e Respostas no Power BI Desktop para consultas de linguagem natural
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no **Power BI Desktop** lhe permitem fazer.

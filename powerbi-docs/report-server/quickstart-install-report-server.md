@@ -1,48 +1,45 @@
 ---
-title: "Início rápido: instalar o Power BI Report Server"
-description: "Instalar o Power BI Report Server é bastante rápido. Deve demorar poucos minutos da transferência à instalação e configuração."
+title: 'Início rápido: instalar o Power BI Report Server'
+description: Instalar o Power BI Report Server é bastante rápido. Deve demorar poucos minutos da transferência à instalação e configuração.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Início rápido: instalar o Power BI Report Server
 Instalar o Power BI Report Server é bastante rápido. Deve demorar poucos minutos da transferência à instalação e configuração.
 
 Esta é uma vista rápida sobre como instalar um servidor de relatórios se pretender apenas começar a trabalhar com um novo servidor. Para obter informações mais detalhadas sobre como instalar um servidor de relatórios, veja [Instalar o Power BI Report Server](install-report-server.md).
 
- **Transferir** ![transferir](media/quickstart-install-report-server/download.png "transferir")
-
-Para transferir o Power BI Report Server, aceda a [Relatórios locais com o Power BI Report Server](https://powerbi.microsoft.com/report-server/). 
-
-Aceda ao Centro de Transferências da Microsoft para transferir o [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (otimizado para o Power BI Report Server – outubro de 2017).
-
-![sugestão](media/quickstart-install-report-server/fyi-tip.png "sugestão") Para obter as atuais notas de versão, veja [Power BI Report Server - Notas de versão](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Vídeo: Instalar o Power BI Report Server
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Antes de começar
-Antes de instalar o Power BI Report Server, recomendamos que veja os [Requisitos de Hardware e Software para instalar o Power BI Report Server](system-requirements.md).
+Antes de instalar o Power BI Report Server, recomendamos que veja os [Requisitos de Software e Hardware para instalar o Power BI Report Server](system-requirements.md).
 
 ## <a name="step-1-download"></a>Passo 1: Transferir
-Transfira os ficheiros de instalação para o Power BI Report Server localmente. Para transferir o Power BI Report, aceda ao [Centro de Transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=839351).
+
+Para transferir o Power BI Report Server e o Power BI Desktop otimizado para o Power BI Report Server, aceda a [On-premises reporting with Power BI Report Server](https://powerbi.microsoft.com/report-server/) (Relatórios no local com o Power BI Report Server) e selecione **Download free trial** (Transferir a versão de avaliação gratuita).
+
+Siga as instruções para transferir localmente os ficheiros de instalação para o Power BI Report Server. 
 
 ![Transferir o Power BI Report Server](media/quickstart-install-report-server/download-pbireportserver.png)
 

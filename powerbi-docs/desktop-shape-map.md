@@ -1,15 +1,15 @@
 ---
-title: "Utilizar os Mapas de Forma no Power BI Desktop (Pré-visualização)"
-description: "Crie comparações relativas para regiões com mapas de forma no Power BI Desktop"
+title: Utilizar os Mapas de Forma no Power BI Desktop (Pré-visualização)
+description: Crie comparações relativas para regiões com mapas de forma no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 335e9800be3d2a2cd30cc84835ab7b0173922c46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
 No Power BI Desktop, pode criar um visual do **Mapa de Forma** para mostrar comparações relativas de regiões num mapa ao aplicar diferentes cores em diferentes regiões. Em comparação com o visual do **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa; em vez disso, o propósito principal é mostrar comparações relativas de regiões num mapa ao distingui-las com cores diferentes.
@@ -32,7 +32,7 @@ Os visuais do **Mapa de Forma** são baseados em mapas ESRI/TopoJSON que têm a 
 ## <a name="creating-shape-maps"></a>Criar Mapas de Forma
 Pode testar o controlo **Mapa de Forma** com os mapas que são enviados com esta versão de Pré-visualização, ou pode utilizar o seu próprio mapa personalizado, desde que este cumpra os requisitos descritos na secção seguinte, designada **Use Custom Maps (Utilizar Mapas Personalizados)**.
 
-O visual **Mapa de Forma** está em Pré-visualização e tem ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Mapa de Forma**. Terá de reiniciar o Power BI Desktop depois de efetuar a seleção.
+O visual **Mapa de Forma** está em Pré-visualização e tem de ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Mapa de Forma**. Terá de reiniciar o Power BI Desktop depois de efetuar a seleção.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -74,6 +74,23 @@ Para utilizar o ficheiro de mapa **TopoJSON**, adicione um visual do ShapeMap ao
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
+## <a name="sample-custom-map"></a>Exemplo de Mapa Personalizado
+Os *Offices of the United States Attorneys (Gabinetes dos Procuradores dos Estados Unidos)* lançam um relatório fiscal anual sobre os seus dados de contencioso e o número de casos recebidos.  Todos os relatórios podem ser encontrados na ligação abaixo:
+
+https://www.justice.gov/usao/resources/annual-statistical-reports
+
+Uma vez que os estados americanos podem ser divididos em múltiplos distritos, temos de utilizar um mapa de forma personalizado.  Ao importar o mapa **TopoJSON** dos distritos judiciais dos Estados Unidos para o **Power BI Desktop**, podemos então ver os dados fiscais anuais dos procuradores por distrito.  A imagem abaixo apresenta um exemplo deste mapa.
+
+![](media/desktop-shape-map/shape-map_7a.png)
+
+Também pode fazer coisas interessantes com os mapas de cada estado e mostrar detalhes adicionais consoante os distritos que contiver. 
+
+![](media/desktop-shape-map/shape-map_7b.png)
+
+Se quiser experimentar este conjunto de dados e esta visualização, pode transferir o ficheiro original PBIX que foi utilizado para gerar este relatório através da seguinte ligação.
+
+* [Demonstração de mapa de forma personalizado (ficheiro .PBIX)](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+
 ## <a name="getting-map-data"></a>Obter dados de mapa
 Para obter rapidamente os dados num modelo, para que possa testar o **Mapa de Forma**, pode copiar uma das tabelas no final deste artigo e, em seguida, selecionar **Introduzir Dados** do friso **Home Page**.
 
@@ -95,7 +112,7 @@ Pode introduzir uma nova coluna ao escrever simplesmente um novo nome de coluna 
 ## <a name="preview-behavior-and-requirements"></a>Comportamento e requisitos da pré-visualização
 Existem algumas considerações e requisitos para esta versão de Pré-visualização do **Mapa de Forma**:
 
-* O visual **Mapa de Forma** está em Pré-visualização e tem ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Mapa de Forma**.
+* O visual **Mapa de Forma** está em Pré-visualização e tem de ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Mapa de Forma**.
 * Atualmente, também tem de ter o registo **Valores** definido, para que a classificação de **Legenda** funcione corretamente
 * A versão final do **Mapa de Forma** terá uma interface de utilizador que mostra as chaves de mapa do mapa atualmente selecionado (não existe data definida para a versão final e o **Mapa de Forma** ainda está na fase de Pré-visualização). Nesta versão de Pré-visualização, pode fazer referência às chaves de região do mapa nas tabelas localizadas na seguinte secção **Chaves de Região** deste artigo.
 * O visual **Mapa de Forma** resultará num máximo de 1000 pontos de dados.

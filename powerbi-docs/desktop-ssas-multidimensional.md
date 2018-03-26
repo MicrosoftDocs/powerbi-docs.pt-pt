@@ -2,14 +2,14 @@
 title: Dados multidimensionais do Analysis Services no Power BI Desktop
 description: Dados multidimensionais do Analysis Services no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Ligar a modelos multidimensionais do SSAS no Power BI Desktop
 Com o Power BI Desktop, pode aceder a **modelos multidimensionais do SSAS**, normalmente referidos como **SSAS MD**.
 
-Para ligar a uma base de dados **SSAS MD**, selecione **Obter Dados &gt; Base de dados &gt; Base de dados do SQL Server Analysis Services** conforme mostrado na imagem seguinte.
+Para ligar a uma base de dados **SSAS MD**, selecione **Obter Dados &gt; Base de dados &gt; Base de dados do SQL Server Analysis Services** conforme mostrado na seguinte imagem:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -37,13 +37,13 @@ Os **Modelos multidimensionais do SSAS** no modo de ligação em direto são sup
 As secções a seguir descrevem as funcionalidades e capacidades das ligações do Power BI e SSAS MD.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Metadados tabulares de modelos multidimensionais
-A tabela a seguir mostra a correspondência entre objetos multidimensionais e os metadados tabulares que são devolvidos ao Power BI Desktop. O Power BI consulta o modelo para metadados tabulares e com base nos metadados devolvidos, executa consultas DAX apropriadas no Analysis Services quando cria uma visualização como uma tabela, matriz, gráfico ou segmentação.
+A tabela a seguir mostra a correspondência entre objetos multidimensionais e os metadados tabulares que são devolvidos ao Power BI Desktop. O Power BI consulta o modelo relativamente a metadados tabulares e, com base nos metadados devolvidos, executa consultas DAX adequadas no Analysis Services quando cria uma visualização como uma tabela, matriz, gráfico ou segmentação de dados.
 
 | Objeto multidimensional de BISM | Metadados tabulares |
 | --- | --- |
 | Cubo |Modelo |
 | Dimensão do cubo |Tabela |
-| Atributos de dimensão (Chaves, Nome) |Colunas |
+| Atributos de dimensão (Chaves), Nome |Colunas |
 | Grupo de medidas |Tabela |
 | Medida |Medida |
 | Medidas sem Grupo de Medidas associado |Na tabela chamada *Medidas* |
@@ -55,10 +55,10 @@ A tabela a seguir mostra a correspondência entre objetos multidimensionais e os
 ### <a name="measures-measure-groups-and-kpis"></a>Medidas, grupos de medidas e KPIs
 Os grupos de medidas num cubo multidimensional estão expostos no Power BI como tabelas com o símbolo ∑ ao lado, no painel de **Campos**. As medidas calculadas que não têm um grupo de medidas associadas são agrupadas numa tabela especial, denominada *Medidas*, nos metadados da tabela.
 
-Num modelo multidimensional, pode definir um conjunto de medidas ou KPIs num cubo a ser localizado dentro de uma *pasta de apresentação*, o que pode ajudar a simplificar modelos complexos. O Power BI reconhece as Pastas de apresentação nos metadados tabulares e mostra as medidas e KPIs dentro das Pastas de apresentação. Os KPIs em bases de dados multidimensionais suportam *Valor*, *Objetivo*, *Gráfico de estado* e *Gráfico de tendência*.
+Num modelo multidimensional, pode definir um conjunto de medidas ou KPIs num cubo a ser localizado dentro de uma *pasta de apresentação*, o que pode ajudar a simplificar modelos complexos. O Power BI reconhece as Pastas de apresentação nos metadados tabulares e mostra as medidas e KPIs dentro das Pastas de apresentação. Os KPIs em bases de dados multidimensionais suportam *Valor*, *Objetivo*, *Gráfico de Estado* e *Gráfico de Tendência*.
 
 ### <a name="dimension-attribute-type"></a>Tipo de atributo de dimensão
-Os modelos multidimensionais também suportam a associação de atributos de dimensão com tipos de atributo de dimensão específicos. Por exemplo, uma dimensão **Geografia**, onde os atributos de dimensão *Cidade*, *Estado-Distrito*, *País* e *Código Postal* têm tipos geográficos associados adequados são expostos nos metadados da tabela. O Power BI reconhece os metadados, permitindo a criação de visualizações de mapa. Irá reconhecer estas associações pelo ícone de *mapa* junto ao elemento no painel de **Campo** no Power BI.
+Os modelos multidimensionais também suportam a associação de atributos de dimensão com tipos de atributo de dimensão específicos. Por exemplo, uma dimensão **Geografia**, onde os atributos de dimensão *Cidade*, *Estado-Distrito*, *País* e *Código Postal* têm tipos geográficos adequados associados são expostos nos metadados da tabela. O Power BI reconhece os metadados, permitindo a criação de visualizações de mapa. Irá reconhecer estas associações pelo ícone de *mapa* junto ao elemento no painel de **Campo** no Power BI.
 
 O Power BI também pode compor imagens quando fornece um campo que contém os URLs (Uniform Resource Locator) das imagens. Pode especificar estes campos como tipo *ImageURL* no SQL Server Data Tools (ou, posteriormente, no Power BI) e as informações de tipo são fornecidas ao Power BI nos metadados da tabela. O Power BI pode recuperar essas imagens através do URL e apresentá-las em elementos visuais.
 

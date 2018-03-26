@@ -1,15 +1,15 @@
 ---
-title: "Utilizar o painel Análise no Power BI Desktop"
-description: "Criar linhas de referência dinâmicas para visuais no Power BI Desktop"
+title: Utilizar o painel Análise no Power BI Desktop
+description: Criar linhas de referência dinâmicas para visuais no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 24f6f9037937049d24321791046aaf7a14e9fb6f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 369d99406cd286be7cf1afb3c02c98c1711531ae
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Utilizar o painel Análise no Power BI Desktop
 Com o painel **Análise** no **Power BI Desktop**, pode adicionar *linhas de referência* dinâmicas a visuais e dar foco a tendências ou informações importantes. O painel **Análise** encontra-se na área **Visualizações** do Power BI Desktop.
@@ -60,7 +60,7 @@ Para ver as linhas de referência dinâmicas disponíveis para um visual, siga e
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. Para criar uma nova linha, selecione **+ Adicionar**. Depois, pode especificar um nome para a linha ao fazer duplo clique na caixa de texto e, em seguida, escrever o seu nome.
    
-   Tem diversos tipos de opções para a sua linha, como selecionar a *cor*, *transparência*, *estilo* e *posição* (relativamente aos elementos de dados do visual) e se pretende incluir a etiqueta. Um aspeto importante: pode selecionar qual a **Medida** no visual na qual pretende que a sua linha se baseie ao selecionar o menu pendente **Medida**, o qual é automaticamente preenchido com elementos de dados do visual. Neste caso, vamos selecionar *Weather (Tempo)* como medida, dar-lhe a etiqueta de *Average Weather (Tempo Médio)* e personalizar algumas das restantes opções, conforme mostrado abaixo.
+   Tem diversos tipos de opções para a sua linha, como selecionar a *cor*, *transparência*, *estilo* e *posição* (relativamente aos elementos de dados do visual) e se pretende incluir a etiqueta. Um aspeto importante: pode selecionar qual a **Medida** no visual na qual pretende que a sua linha se baseie ao selecionar o menu pendente **Medida**, que é automaticamente preenchido com elementos de dados do visual. Neste caso, vamos selecionar *Weather (Tempo)* como medida, dar-lhe a etiqueta de *Average Weather (Tempo Médio)* e personalizar algumas das restantes opções, conforme mostrado abaixo.
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. Se pretender que apareça uma etiqueta de dados, ative o controlo de deslize **Etiqueta de dados**. Quando o fizer, receberá uma série de opções adicionais para a sua etiqueta de dados, conforme mostrado na imagem seguinte.

@@ -1,13 +1,13 @@
 ---
 title: Perguntas frequentes no Power BI
-description: "Veja uma lista de perguntas frequentes e respetivas respostas sobre o serviço Power BI, o Power BI Desktop e as aplicações móveis do Power BI."
+description: Veja uma lista de perguntas frequentes e respetivas respostas sobre o serviço Power BI, o Power BI Desktop e as aplicações móveis do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
@@ -75,7 +75,7 @@ Sim, estão disponíveis preços para fins não lucrativos ao comprar diretament
 O serviço Power BI [https://powerbi.com](https://powerbi.com) não está disponível como um serviço cloud privado interno. No entanto, tem outras três opções para visualizar e trabalhar com dados no local. 
 
 ### <a name="on-premises-data-gateway"></a>Gateway de dados no local
-Com o Power BI e o Power BI Desktop, pode ligar-se de forma segura às suas próprias origens de dados no local. Com o [gateway de dados no local](service-gateway-onprem.md), pode ligar-se em direto ao seu servidor no local do SQL Server Analysis Services e a outras origens de dados. Também pode definir atualizações agendadas com um gateway centralizado. Se não estiver disponível um gateway, pode atualizar dados a partir de origens de dados no local através do [Power BI Gateway - Personal](personal-gateway.md).
+Com o Power BI e o Power BI Desktop, pode ligar-se de forma segura às suas próprias origens de dados no local. Com o [Gateway de dados no local](service-gateway-onprem.md), pode ligar-se em direto ao seu servidor no local do SQL Server Analysis Services e a outras origens de dados. Também pode definir atualizações agendadas com um gateway centralizado. Se não estiver disponível um gateway, pode atualizar dados a partir de origens de dados no local através do [Power BI Gateway - Personal](personal-gateway.md).
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 O Power BI Report Server é uma solução que o utilizador implementa nas suas próprias instalações para criar, publicar e gerir relatórios e entregá-los a diferentes utilizadores de formas variadas: num browser, no dispositivo móvel ou sob a forma de e-mail na caixa de entrada. Saiba mais sobre o [Power BI Report Server](report-server/get-started.md).
