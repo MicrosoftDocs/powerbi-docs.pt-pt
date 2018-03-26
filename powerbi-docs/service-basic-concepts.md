@@ -1,16 +1,16 @@
 ---
-title: "Conceitos básicos do serviço Power BI"
-description: "Áreas de trabalho, dashboards, relatórios, conjuntos de dados e livros do serviço Power BI."
+title: Conceitos básicos do serviço Power BI
+description: Áreas de trabalho, dashboards, relatórios, conjuntos de dados e livros do serviço Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f0f296f402bf1c2bcb1b12e11bd2998bfeec5bc5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5898b0615aa18fdd4ea3df65d557587f94eb732d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - conceitos básicos para o serviço Power BI
 
@@ -133,7 +133,7 @@ Por que é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
 
 Quando abre uma área de trabalho, os conjuntos de dados associados são apresentados no separador **Dashboards**. Para abrir um dashboard, basta selecioná-lo. Quando abre uma aplicação, será apresentado um dashboard.  Cada dashboard representa uma vista personalizada de algum subconjunto do(s) conjunto(s) de dados subjacente(s).  Se for o proprietário do dashboard, também terá acesso à edição dos relatórios e dos conjuntos de dados subjacentes.  Se o dashboard tiver sido partilhado consigo, poderá interagir com o dashboard e com quaisquer relatórios subjacentes, mas não conseguirá guardar as alterações feitas.
 
-Existem muitas formas diferentes de você ou de um colega poder [partilhar um dashboard](service-share-dashboards.md). O Power BI Pro é necessário para partilhar um dashboard e pode ser necessário para visualizar um dashboard partilhado.
+Existem muitas formas diferentes de o utilizador ou de um colega poder [partilhar um dashboard](service-share-dashboards.md). O Power BI Pro é necessário para partilhar um dashboard e pode ser necessário para visualizar um dashboard partilhado.
 
 
 > [!NOTE]

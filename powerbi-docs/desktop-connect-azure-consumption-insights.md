@@ -1,15 +1,15 @@
 ---
-title: "Ligar a dados de Informações sobre Consumo do Azure no Power BI Desktop (Beta)"
-description: "Ligue facilmente ao Azure e obtenha informações sobre consumo e utilização com o Power BI Desktop"
+title: Ligar a dados de Informações sobre Consumo do Azure no Power BI Desktop (Beta)
+description: Ligue facilmente ao Azure e obtenha informações sobre consumo e utilização com o Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Ligar a Informações sobre Consumo do Azure no Power BI Desktop (Beta)
 O conector **Informações sobre Consumo do Azure** permite utilizar o **Power BI Desktop** para ligar ao Azure e obter dados e informações aprofundados sobre a utilização dos serviços do Azure por parte da sua organização. Também pode criar medidas, colunas personalizadas e elementos visuais para documentar e partilhar informações sobre a utilização do Azure por parte da sua organização. Esta versão do conector **Informações sobre Consumo do Azure** encontra-se em fase experimental (Beta) e está sujeita a alterações.
@@ -34,7 +34,7 @@ Neste artigo, serão disponibilizadas informações sobre como ligar através do
 ## <a name="connect-to-azure-consumption-insights"></a>Ligar a Informações sobre Consumo do Azure
 Para ligar com êxito através do conector **Informações sobre Consumo do Azure**, tem de ter acesso às funcionalidades empresariais (Enterprise) no portal do Azure.
 
-Para ligar através do conector **Informações sobre Consumo do Azure**, selecione **Obter Dados** no friso **Página Inicial** do **Power BI Desktop**. Selecione **Serviços Online** na lista de categorias no lado esquerdo para encontrar **Informações sobre Consumo do Microsoft Azure (Beta)**. Selecione **Ligar**.
+Para ligar através do conector **Informações sobre Consumo do Azure**, selecione **Obter Dados** no friso **Base** do **Power BI Desktop**. Selecione **Serviços Online** na lista de categorias no lado esquerdo para encontrar **Informações sobre Consumo do Microsoft Azure (Beta)**. Selecione **Ligar**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -42,7 +42,7 @@ Na caixa de diálogo apresentada, forneça o seu *Número de Inscrição*.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* Pode obter o seu número de inscrição no [Azure Enterprise Portal](https://ea.azure.com), na localização indicada na imagem seguinte.
+* Pode obter o seu número de inscrição no [Azure Enterprise Portal](https://ea.azure.com), na localização indicada na seguinte imagem:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ Depois de fornecer a *Chave de acesso* e selecionar **Ligar**, é apresentada um
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> As tabelas *Resumo e *Folha de Preços* só estão disponíveis para a Chave de API do nível de inscrição. Além disso, os dados nestas tabelas contêm, por predefinição, os dados do mês atual em termos de *Utilização* e *Folha de Preços*. As tabelas *Resumo* e *Mercado* não estão limitadas ao mês atual.
+> As tabelas *Resumo* e *Folha de Preços* só estão disponíveis para a Chave de API do nível de inscrição. Além disso, os dados nestas tabelas contêm, por predefinição, os dados do mês atual em termos de *Utilização* e *Folha de Preços*. As tabelas *Resumo* e *Mercado* não estão limitadas ao mês atual.
 > 
 > 
 
@@ -84,16 +84,16 @@ Na **Barra de fórmulas**, escreva o seguinte:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Será apresentada uma coleção de exemplos, conforme mostrado na imagem seguinte.
+Será apresentada uma coleção de exemplos, conforme mostrado na seguinte imagem:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Quando estiver a trabalhar com relatórios e a criar consultas, utilize o seguinte:
 
-* Para definir o número de meses a contar da data atual, utilize *noOfMonths*
+* Para definir o número de meses a contar da data atual, utilize *numberOfMonth*
   * Utilize um valor entre um e 36 para representar o número de meses, a contar da data atual, que quer importar. Recomendamos que não obtenha mais de 12 meses de dados para evitar limiares com restrições de importação e o volume de dados permitidos para consultas no Power BI.
 * Para definir um período de meses numa janela de tempo do histórico, utilize *startBillingDataWindow* e *endBillingDataWindow*
-* *Não* utilize *noOfMonths* em conjunto com *startBillingDataWindow* ou *endBillingDataWindow*
+* *Não* utilize *numberOfMonth* em conjunto com *startBillingDataWindow* ou *endBillingDataWindow*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrar a partir do Conector Empresarial do Azure
 Alguns clientes criaram elementos visuais com o *Conector Empresarial do Azure (Beta)*, o qual será eventualmente descontinuado e está a ser substituído pelo conector **Informações sobre Consumo do Azure**. O conector **Informações sobre Consumo do Azure** tem funcionalidades e melhoramentos que incluem o seguinte:
@@ -108,7 +108,7 @@ Para ajudar os clientes a efetuar a transição para o conector **Informações 
 O primeiro passo consiste em ligar através do conector **Informações sobre Consumo do Azure**, descrito anteriormente neste artigo em detalhe. Neste passo, selecione **Obter Dados > Consulta em Branco** no friso **Página Inicial** do **Power BI Desktop**.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Passo 2: Utilizar o Editor Avançado para criar uma consulta
-No **Editor de Consultas**, selecione **Editor Avançado** na secção **Consulta** do friso **Página Inicial**. Na janela **Editor Avançado** apresentada, introduza a seguinte consulta.
+No **Editor de Consultas**, selecione **Editor Avançado** na secção **Consulta** do friso **Página Inicial**. Na janela **Editor Avançado** apresentada, introduza a seguinte consulta:
 
     let    
         enrollmentNumber = "100",
@@ -131,10 +131,10 @@ Em seguida, terá de mover todas as medidas ou colunas personalizadas que criou 
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Mude o nome *Query1* para o nome da tabela de detalhes original.
-4. Crie novas medidas e colunas personalizadas na sua tabela ao clicar com o botão direito do rato na tabela e escolher **Nova Medida**. Em seguida, corte e cole as medidas e colunas até chegar ao fim das mesmas.
+4. Crie novas medidas e colunas personalizadas na sua tabela ao clicar com o botão direito do rato na tabela e escolher **Nova Medida**. Em seguida, corte e cole as medidas e colunas armazenadas até chegar ao fim das mesmas.
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Passo 4: Voltar a ligar as tabelas que tinham relações
-Muitos dashboards têm tabelas adicionais que são utilizadas para pesquisa ou filtragem, como tabelas de datas ou tabelas utilizadas para projetos personalizados. O restabelecimento dessas relações resolve a maioria dos problemas restantes. Saiba como o fazer a seguir.
+Muitos dashboards têm tabelas adicionais que são utilizadas para pesquisa ou filtragem, tais como tabelas de datas ou tabelas utilizadas para projetos personalizados. O restabelecimento dessas relações resolve a maioria dos problemas restantes. Saiba como o fazer a seguir.
 
 - No separador **Modelação** do **Power BI Desktop**, selecione **Gerir Relações** para abrir uma janela que permite gerir as relações no modelo. Volte a ligar as tabelas, conforme necessário.
    

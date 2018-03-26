@@ -1,27 +1,27 @@
 ---
-title: "Como incorporar os dashboards, os relatórios e os mosaicos do Power BI"
-description: "Saiba mais sobre os passos que precisa de tomar para incorporar conteúdo do Power BI na sua aplicação."
+title: Como incorporar os dashboards, os relatórios e os mosaicos do Power BI
+description: Saiba mais sobre os passos que precisa de tomar para incorporar conteúdo do Power BI na sua aplicação.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporar os dashboards, os relatórios e os mosaicos do Power BI
 
@@ -88,6 +88,10 @@ Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST.
 Se está a incorporar dashboards e relatórios para os seus clientes, esses dashboards e relatórios têm de ser colocados numa área de trabalho da aplicação. A conta *mestre* que foi mencionada acima, tem de ser um administrador da área de trabalho de aplicação.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Um utilizador que não seja administrador só pode criar até 250 áreas de trabalho de aplicações. Para criar mais áreas de trabalho de aplicações, tem de utilizar uma conta de administrador de inquilinos.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Criar e carregar os seus relatórios
 

@@ -1,15 +1,15 @@
 ---
-title: "Vista de Relatório no Power BI Desktop"
-description: "Vista de Relatório no Power BI Desktop"
+title: Vista de Relatório no Power BI Desktop
+description: Vista de Relatório no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de Relatório no Power BI Desktop
 Se já trabalhou com o Power BI, sabe como é fácil criar relatórios que fornecem informações e perspetivas dinâmicas sobre os seus dados. O Power BI também conta com funcionalidades mais avançadas no Power BI Desktop. Com o Power BI Desktop, pode criar consultas avançadas, efetuar mashup dos dados provenientes de várias origens, criar relações entre tabelas e muito mais.
@@ -44,7 +44,7 @@ Depois de adicionar alguns dados, pode adicionar campos a uma nova visualizaçã
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Para alterar o tipo de visualização, pode selecioná-lo no grupo **Visualização** no friso, ou pode clicar com o botão direito e selecionar um diferente a partir do ícone **Alterar tipo de visualização**.
+Para alterar o tipo de visualização, pode selecioná-lo no grupo **Visualização** no friso ou pode clicar com o botão direito e selecionar um diferente a partir do ícone **Alterar tipo de visualização**.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Para alterar o tipo de visualização, pode selecioná-lo no grupo **Visualizaç
 > 
 > 
 
-Um relatório terá pelo menos uma página em branco inicialmente. As páginas são apresentadas no painel do navegador à esquerda da tela. Pode adicionar todos os tipos de visualizações a uma página, mas é importante não exagerar. Visualizações em excesso numa página fará com que pareça congestionada e dificultará a localização das informações corretas. Pode adicionar páginas novas ao seu relatório, basta clicar em **Nova Página** no friso.
+Um relatório terá pelo menos uma página em branco inicialmente. As páginas são apresentadas no painel do navegador à esquerda da tela. Pode adicionar todos os tipos de visualizações a uma página, mas é importante não exagerar. Visualizações em excesso numa página fará com que pareça congestionada e dificultará a localização das informações corretas. Pode adicionar novas páginas ao seu relatório. Basta clicar em **Nova Página** no friso.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

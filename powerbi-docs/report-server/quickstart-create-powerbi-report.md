@@ -1,27 +1,27 @@
 ---
-title: "Início rápido: Criar um relatório do Power BI para o Power BI Report Server"
-description: "Saiba como criar um relatório do Power BI para o Power BI Report Server em poucos passos simples."
+title: 'Início rápido: Criar um relatório do Power BI para o Power BI Report Server'
+description: Saiba como criar um relatório do Power BI para o Power BI Report Server em poucos passos simples.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Início rápido: Criar um relatório do Power BI para o Power BI Report Server
 Pode armazenar e gerir relatórios do Power BI no local no portal Web do Power BI Report Server, tal como pode armazenar relatórios do Power BI na cloud no serviço Power BI (https://powerbi.com). Pode criar e editar relatórios no Power BI Desktop e publicá-los no portal Web. Depois, os leitores de relatórios na sua organização podem visualizá-los num browser ou numa aplicação móvel do Power BI, num dispositivo móvel.
@@ -38,7 +38,7 @@ Se já criou relatórios do Power BI no Power BI Desktop, está quase pronto par
 
     ![Transferir o Power BI Desktop a partir do portal Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Em alternativa, pode aceder diretamente ao [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (otimizado para o Power BI Report Server – outubro de 2017) no Centro de Transferências da Microsoft.
+    Em alternativa, aceda diretamente ao [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (otimizado para o Power BI Report Server – março de 2018) no Centro de Transferências da Microsoft.
 
 2. Na página do Centro de Transferências, selecione **Transferir**.
 
@@ -48,13 +48,13 @@ Se já criou relatórios do Power BI no Power BI Desktop, está quase pronto par
 
     - **PBIDesktopRS_x64.msi** (a versão de 64 bits).
 
-4. Após transferir o instalador, execute o Assistente de Configuração do Power BI Desktop (outubro de 2017).
+4. Após transferir o instalador, execute o Assistente de Configuração do Power BI Desktop (março de 2018).
 
 2. No final da instalação, selecione a opção **Iniciar o Power BI Desktop agora**.
    
-    Este inicia automaticamente e está pronto para começar. O texto "Power BI Desktop (outubro de 2017)" na barra de título indica que tem a versão correta.
+    Este inicia automaticamente e está pronto para começar. O texto "Power BI Desktop (março de 2018)" na barra de título indica que tem a versão correta.
 
-    ![Power BI Desktop – versão de outubro de 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop – versão de março de 2018](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. Se não estiver familiarizado com o Power BI Desktop, considere ver os vídeos no ecrã de boas-vindas.
    
@@ -135,6 +135,7 @@ Existem muitos excelentes recursos para criar relatórios no Power BI Desktop. E
 
 * [Introdução ao Power BI Desktop](../desktop-getting-started.md)
 * Aprendizagem guiada: [Introdução ao Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 * [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
