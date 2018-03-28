@@ -1,15 +1,15 @@
 ---
-title: "Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)"
-description: "Saiba como utilizar uma paleta de cores personalizadas e aplicá-la a um relatório completo no Power BI Desktop"
+title: Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)
+description: Saiba como utilizar uma paleta de cores personalizadas e aplicá-la a um relatório completo no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)
 Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou qualquer outro tema de cores que queira aplicar a um relatório. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
@@ -163,7 +163,7 @@ Para criar um ficheiro JSON de formato extenso, com controlo mais detalhado e gr
         }
     }
 
-Para as secções **visualName** e **cardName**, pode listar um elemento visual e um cardName específico ou pode utilizar um asterisco ("*") se quiser que essa definição seja aplicada a todos os elementos visuais ou cartões que contenham uma propriedade para um elemento visual específico. Pode utilizar o asterisco ("*") quando quiser aplicar uma definição global ao relatório, como um tamanho de tipo de letra ou uma família de tipos de letra específica que deve ser utilizada em todos os elementos visuais no relatório.
+Para as secções **visualName** e **cardName**, pode listar um elemento visual e um cardName específico ou pode utilizar um asterisco ("\*") se quiser que essa definição seja aplicada a todos os elementos visuais ou cartões que contenham uma propriedade para um elemento visual específico. Pode utilizar o asterisco ("\*") quando quiser aplicar uma definição global ao relatório, como um tamanho de tipo de letra ou uma família de tipos de letra específica que deve ser utilizada em todos os elementos visuais no relatório.
 
 > [!NOTE]
 > Apenas tem de especificar os elementos de formatação que quer afetar. Quaisquer elementos de formatação não incluídos no ficheiro JSON revertem simplesmente para as respetivas definições e valores predefinidos.
