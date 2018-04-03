@@ -2,14 +2,14 @@
 title: Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop no OneDrive ou SharePoint Online
 description: Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop no OneDrive ou SharePoint Online
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 851b8bc2c05aad87749c0fd6af14ba4f810ecbe2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cf773de0744ca67df9d13cb934efdc6bbc4991f9
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados armazenado no OneDrive ou o SharePoint Online
 Importar ficheiros do OneDrive ou SharePoint Online para o serviço Power BI é uma ótima maneira de garantir que o trabalho que está a realizar no **Power BI Desktop** permanece sincronizado com o serviço Power BI.
@@ -41,7 +41,7 @@ Quando atualiza o conjunto de dados, o Power BI não liga ao ficheiro no OneDriv
 ## <a name="whats-supported"></a>O que é suportado?
 No Power BI, Atualizar Agora e Agendar Atualização são suportados para os conjuntos de dados criados através de ficheiros do Power BI Desktop importados de uma unidade local em que são utilizadas as opções Obter Dados/Editor de Consultas para ligar e carregar dados a partir de uma das seguintes origens de dados:
 
-### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
+### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Todas as origens de dados online mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop.
 * Todas as origens de dados locais mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 
@@ -49,12 +49,12 @@ No Power BI, Atualizar Agora e Agendar Atualização são suportados para os con
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
 
 > [!NOTE]
-> Um gateway tem de ser instalado e estar em execução para que o Power BI ligue a origens de dados no local e atualize o conjunto de dados.
+> Um gateway tem de ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
 > 
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?
-Se tiver um OneDrive pessoal e um OneDrive para Empresas, é recomendado manter todos os ficheiro que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
+Se tiver um OneDrive pessoal e um OneDrive para Empresas, é recomendado manter todos os ficheiros que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
 
 A ligação ao OneDrive para Empresas no Power BI é normalmente contínua, porque a mesma conta com a qual inicia sessão no Power BI é geralmente a mesma conta utilizada para iniciar sessão no OneDrive para Empresas. No entanto, com o OneDrive pessoal, provavelmente inicia sessão com outra [conta Microsoft](http://www.microsoft.com/account/default.aspx).
 
@@ -63,7 +63,7 @@ Quando iniciar sessão com a sua conta Microsoft, certifique-se de que seleciona
 
 Se fizer alterações ao ficheiro no OneDrive que não podem ser sincronizadas com o conjunto de dados ou os relatórios no Power BI devido à possibilidade de as credenciais da conta Microsoft terem sido alteradas, tem de ligar e importar o ficheiro novamente a partir do seu OneDrive pessoal.
 
-## <a name="how-do-i-schedule-refresh"></a>Como agendo uma atualização?
+## <a name="how-do-i-schedule-refresh"></a>Como faço para agendar uma atualização?
 Quando configurar um agendamento de atualização, o Power BI ligará diretamente às origens de dados através das informações de ligação e das credenciais no conjunto de dados para consultar os dados atualizados e, em seguida, carregará os dados atualizados para o conjunto de dados. Todas as visualizações em relatórios e em dashboards baseadas nesse conjunto de dados no serviço do Power BI também são atualizadas.
 
 Para obter detalhes sobre como configurar a atualização de agendamento, veja [Configurar uma atualização agendada](refresh-scheduled-refresh.md).
@@ -78,7 +78,7 @@ Certifique-se de que deixa a opção **Enviar-me notificação de falha de atual
 ## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.
 
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)
 
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

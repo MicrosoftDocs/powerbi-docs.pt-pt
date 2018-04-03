@@ -1,14 +1,14 @@
 ---
-title: "Configurar a atualização agendada"
-description: "Isto inclui os passos para selecionar um gateway e configurar a atualização agendada."
+title: Configurar a atualização agendada
+description: Isto inclui os passos para selecionar um gateway e configurar a atualização agendada.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 02/24/2018
 
 Se o conjunto de dados dá suporte à atualização agendada, utilizando Atualizar Agora e Agendar Atualização, há alguns requisitos e configurações importantes que precisa de saber para que a atualização tenha êxito. Estes são **Ligação do gateway**, **Credenciais da Origem de Dados** e **Agendar Atualização**. Vejamos cada um com atenção.
 
-Isto descreverá as opções disponíveis para o [Power BI Gateway – Personal](personal-gateway.md) e o [gateway de dados no local](service-gateway-onprem.md).
+Isto descreverá as opções disponíveis para o [Power BI Gateway – Personal](personal-gateway.md) e o [Gateway de dados no local](service-gateway-onprem.md).
 
 Para aceder ao ecrã da atualização agendada, pode efetuar o seguinte.
 
@@ -70,7 +70,7 @@ Só é necessário iniciar sessão nas origens de dados a primeira vez que utili
 Quando ocorre algum erro, o problema geralmente tem algo a ver com o gateway estar offline porque não foi possível iniciar sessão no Windows e iniciar o serviço ou o Power BI não conseguiu ligar-se às origens de dados para consultar dados atualizados. Se a atualização falhar, verifique as configurações do conjunto de dados. Se o serviço de gateway estiver offline, verá o erro no Estado do Gateway. Se o Power BI não conseguir iniciar sessão nas origens de dados, será apresentado um erro em Credenciais da Origem de Dados.
 
 ### <a name="on-premises-data-gateway"></a>Gateway de dados local
-Se estiver a utilizar o gateway de dados no local para atualizar os dados, não será necessário fornecer credenciais, uma vez que são definidas para a origem de dados pelo administrador do gateway.
+Se estiver a utilizar o Gateway de dados no local para atualizar os dados, não será necessário fornecer credenciais, uma vez que são definidas para a origem de dados pelo administrador do gateway.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
@@ -85,7 +85,7 @@ A secção sobre a atualização agendada é o local no qual define a frequênci
 Tem de definir o controlo de deslize **Manter os dados atualizados** como **Sim** para configurar as definições.
 
 > [!NOTE]
-> Os serviço Power BI inicia a atualização dos dados dentro de **15 minutos** após a hora de atualização agendada.
+> O serviço Power BI inicia a atualização dos dados dentro de **15 minutos** após a hora de atualização agendada.
 > 
 > 
 
@@ -123,7 +123,7 @@ Alguns conjuntos de dados são suportados em gateways diferentes para a atualiza
 ## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.
 
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)
 
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
@@ -131,7 +131,7 @@ Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este 
 [Atualização de dados no Power BI](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
 [Gateway de dados no local](service-gateway-onprem.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

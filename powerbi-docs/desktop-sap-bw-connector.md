@@ -2,14 +2,14 @@
 title: Utilizar o Conector SAP BW no Power BI Desktop
 description: Utilizar o Conector SAP BW no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0486cb7887ae068b55de94a3d842843c094c8a29
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Utilizar o Conector SAP BW no Power BI Desktop
 Com o Power BI Desktop, pode aceder aos dados do **SAP BusinessWarehouse (BW)**.
@@ -38,11 +38,11 @@ Para utilizar o **Conector do SAP BW**, siga os passos de instalação a seguir:
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Funcionalidades do Conector do SAP BW
-O **Conector do SAP BW** no Power BI Desktop permite-lhe importar dados dos seus cubos do **SAP Business Warehouse Server**. Em alternativa, pode utilizar o DirectQuery com o **Conector do SAP BW**. 
+O **Conector do SAP BW** no Power BI Desktop permite-lhe importar dados dos seus cubos do **SAP Business Warehouse Server** ou utilizar o DirectQuery. 
 
 Para saber mais sobre o **conector do SAP BW** e como utilizá-lo com o DirectQuery, veja o artigo [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
-Ao estabelecer a ligação, tem de especificar um *Servidor*, *Número de Sistema* e *ID de Cliente* para estabelecer a ligação.
+Tem de especificar um *Servidor*, *Número de Sistema* e *ID de Cliente* para estabelecer a ligação.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -50,7 +50,7 @@ Também pode especificar duas **Opções avançadas** adicionais: Código de idi
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-Se não foi especificada nenhuma instrução MDX, verá a janela do **Navegador** que apresenta a lista de cubos disponíveis no servidor, a opção para desagregar e selecionar itens dos cubos disponíveis, incluindo dimensões e medidas. O Power BI expõe consultas e cubos expostos pelos [BAPIs OLAP da Interface Open Analysis BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
+Se não foi especificada uma instrução MDX, verá a janela **Navegador** que apresenta a lista de cubos disponíveis no servidor, com a opção para desagregar e selecionar itens dos cubos disponíveis, incluindo dimensões e medidas. O Power BI expõe consultas e cubos expostos pelos [BAPIs OLAP da Interface Open Analysis BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
 
 Ao selecionar um ou mais itens do servidor, é criada uma pré-visualização da tabela de saída, com base na sua seleção.
 
@@ -109,7 +109,7 @@ Esta secção apresenta situações de resolução de problemas (e as respetivas
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre o SAP HANA e o DirectQuery, veja os recursos seguintes:
 
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)

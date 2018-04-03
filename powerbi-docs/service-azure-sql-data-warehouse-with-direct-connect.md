@@ -2,27 +2,27 @@
 title: Azure SQL Data Warehouse com DirectQuery
 description: Azure SQL Data Warehouse com DirectQuery
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6d7cb2161702b844866af66896dbadb35ad801ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse com DirectQuery
 O Azure SQL Data Warehouse com DirectQuery permite criar relatórios dinâmicos com base nos dados e nas métricas já existentes no Azure SQL Data Warehouse. Com o DirectQuery, as consultas são enviadas de volta para o Azure SQL Data Warehouse em tempo real à medida que explora os dados. Isto, combinado com a escala do SQL Data Warehouse, permite aos utilizadores criar, em minutos, relatórios dinâmicos referentes a terabytes de dados. Além disso, a introdução do botão **Abrir no Power BI** permite que os utilizadores liguem diretamente o Power BI ao SQL Data Warehouse sem precisar de especificar manualmente as informações.
@@ -84,9 +84,13 @@ O nome de servidor completamente qualificado e o nome da base de dados podem ser
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
+> [!NOTE]
+> Se o seu inquilino do Power BI estiver na mesma região que o Azure SQL Data Warehouse, não existirão custos de saída. Pode saber onde o seu inquilino do Power BI se encontra com [estas instruções](https://docs.microsoft.com/en-us/power-bi/service-admin-where-is-my-tenant-located).
+>
+
 ## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)  
 [Obter Dados para o Power BI](service-get-data.md)  
 [Azure SQL Data Warehouse](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

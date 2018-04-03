@@ -2,14 +2,14 @@
 title: Power BI e ExpressRoute
 description: Power BI e ExpressRoute
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 30bc1c58d02634748acfc2dce4fbfbec51fa6cba
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI e ExpressRoute
 Com o **Power BI** e o **ExpressRoute**, pode criar uma ligação de rede privada entre a sua organização e o Power BI (ou através de um recurso de colocação de um ISP) ao ignorar a Internet para proteger melhor as ligações e os dados confidenciais do Power BI.
@@ -34,7 +34,7 @@ O **ExpressRoute** é um serviço do Azure que permite criar ligações privadas
 Pode obter [mais informações sobre o ExpressRoute](https://azure.microsoft.com/services/expressroute/) ou sobre [como se inscrever](https://azure.microsoft.com/pricing/details/expressroute/).
 
 > [!NOTE]
-> O Power BI é suportado no modo de peering público, conforme descrito [nestas FAQ](https://docs.microsoft.com/azure/expressroute/expressroute-faqs).
+> O Power BI é suportado no modo de peering público, conforme descrito [nesta FAQ](https://docs.microsoft.com/azure/expressroute/expressroute-faqs).
 > 
 > 
 
@@ -49,7 +49,7 @@ As duas exceções gerais ao Power BI que utilizam o ExpressRoute são:
 * Ficheiros estáticos transferidos através da **Rede de Entrega de Conteúdos (CDN)** e de sites
 * Dados **telemétricos** enviados pela Internet pública
 
-O Power BI utiliza várias **Redes de Entrega de Conteúdos (CDNs)** ou sites para distribuir de modo eficiente o conteúdo e os ficheiros estáticos necessários para os utilizadores com base na região geográfica pela Internet pública. Estes ficheiros estáticos incluem transferências de produtos (como o **Power BI Desktop**, **gateway de dados no local**, ou **Pacotes de Conteúdo do Power BI** a partir de vários fornecedores de serviço independentes), ficheiros de configuração do browser que são utilizados para iniciar e estabelecer quaisquer ligações posteriores com o Power BI, bem como a página de início de sessão seguro inicial do Power BI – as credenciais reais são enviadas apenas pelo ExpressRoute.   
+O Power BI utiliza várias **Redes de Entrega de Conteúdos (CDNs)** ou sites para distribuir de modo eficiente o conteúdo e os ficheiros estáticos necessários para os utilizadores com base na região geográfica pela Internet pública. Estes ficheiros estáticos incluem transferências de produtos (como o **Power BI Desktop**, **Gateway de dados no local**, ou **Pacotes de Conteúdo do Power BI** de vários fornecedores de serviço independentes), ficheiros de configuração do browser que são utilizados para iniciar e estabelecer quaisquer ligações posteriores com o Power BI, bem como a página de início de sessão seguro inicial do Power BI – as credenciais reais são enviadas apenas pelo ExpressRoute.   
 
 Alguns **dados telemétricos** também são enviados pela Internet pública e pelo ExpressRoute. Os dados telemétricos incluem estatísticas de utilização e dados semelhantes, que são transmitidos aos serviços utilizados para monitorizar a utilização e a atividade.
 
@@ -93,6 +93,6 @@ Alguns **elementos visuais personalizados** são criados por terceiros, enquanto
 ### <a name="power-bi-mobile-and-expressroute"></a>Power BI Mobile e ExpressRoute
 Este documento não aborda a utilização de aplicações móveis do Power BI.  
 
-### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway de dadose ExpressRoute no local
-Quando um **gateway de dados no local** é utilizado com o Power BI, as transmissões estão em conformidade com o ExpressRoute, exceto as atividades do utilizador documentadas na secção **Aplicação SaaS do Power BI e ExpressRoute** encontrada anteriormente neste tópico.  
+### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway de dados e ExpressRoute no local
+Quando um **Gateway de dados no local** é utilizado com o Power BI, as transmissões estão em conformidade com o ExpressRoute, exceto as atividades do utilizador documentadas na secção **Aplicação SaaS do Power BI e ExpressRoute** encontrada anteriormente neste tópico.  
 
