@@ -2,14 +2,14 @@
 title: Solucionando problemas do Power BI Gateway - Personal
 description: Solucionando problemas do Power BI Gateway - Personal
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b94bb40de33ced9b7b7fee811aeff5c18ee43cae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1063f8a34041e4c27b481085608d69c3eb32558a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que poderá ter ao usar o Power BI Gateway - Personal.
@@ -74,7 +74,7 @@ Pode receber este erro nas Definições para \<conjunto de dados\> se tiver uma 
 * Atualmente, não há suporte para a atualização da origem de dados no Power BI. 
 * O livro do Excel não contém um modelo de dados, apenas os dados da folha do cálculo. O Power BI atualmente apenas suporta à atualização se o livro do Excel carregado contiver um modelo de dados. Quando importa dados utilizando o Power Query no Excel, lembre-se de escolher a opção Carregar dados para o modelo de dados. Isto garante que os dados sejam importados num modelo de dados. 
 
-**Erro: [não é possível combinar dados] &lt;parte da consulta&gt;/&lt;…&gt;/&lt;…&gt; está a aceder a origens de dados com níveis e privacidade que não podem ser utilizados em conjunto. Reconstruia esta combinação de dados.**
+**Erro: [não é possível combinar dados] &lt;parte da consulta&gt;/&lt;…&gt;/&lt;…&gt; está a aceder a origens de dados com níveis e privacidade que não podem ser utilizados em conjunto. Recompile esta combinação de dados.**
 
 **Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de origens de dados que estão a ser utilizados. [Saiba mais](refresh-enable-fast-combine.md)
 
@@ -155,6 +155,6 @@ Como alternativa, pode aceder à **pasta Temp** (%temp%) e procurar os ficheiros
 [Atualização de Dados](refresh-data.md)  
 [Power BI Gateway - Personal](personal-gateway.md)  
 [Resolução de problemas de erros de mosaico](refresh-troubleshooting-tile-errors.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

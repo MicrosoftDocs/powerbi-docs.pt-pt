@@ -1,15 +1,15 @@
 ---
-title: "Desativar as definições de privacidade"
-description: "Como ativar a Combinação Rápida no Personal Gateway para desativar as definições de privacidade para atualização."
+title: Desativar as definições de privacidade
+description: Como ativar a Combinação Rápida no Personal Gateway para desativar as definições de privacidade para atualização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Desativar a definição de privacidade no Power BI Gateway - Personal
 > [!NOTE]
-> Há uma nova versão do gateway pessoal para Power BI, com o nome de **gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que vai ser descontinuado e deixa de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md). A combinação rápida também está disponível na nova versão do gateway pessoal e também está descrita nesse artigo.
+> Há uma nova versão do gateway pessoal para Power BI, com o nome de **Gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que vai ser descontinuado e deixa de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md). A combinação rápida também está disponível na nova versão do gateway pessoal e também está descrita nesse artigo.
 > 
 > 
 
@@ -51,7 +51,7 @@ Para saber mais sobre níveis de privacidade e a Combinação Rápida, veja [Ní
 A ativação da Combinação Rápida ignorará a definição privada e permitirá que a execução ocorra.
 
 ## <a name="turn-on-fast-combine"></a>Ativar a Combinação Rápida
-Pode utilizar os passos a seguir para ativar a Combinação Rápida para o seu gateway. O gateway de dados no local não tem esta definição.
+Pode utilizar os passos a seguir para ativar a Combinação Rápida para o seu gateway. O Gateway de dados no local não tem esta definição.
 
 1. Abra **ConnectorConfig.xml**.  Isto pode estar numa de duas localizações no seu computador.  Se for um administrador no computador, será a seguinte.
    

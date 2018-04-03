@@ -1,15 +1,15 @@
 ---
-title: "Encontrar utilizadores do Power BI que iniciaram sessão"
-description: "Se for administrador inquilino e quiser ver quem iniciou sessão no Power BI, pode utilizar os relatórios de acesso e utilização do Azure Active Directory para obter visibilidade."
+title: Encontrar utilizadores do Power BI que iniciaram sessão
+description: Se for administrador inquilino e quiser ver quem iniciou sessão no Power BI, pode utilizar os relatórios de acesso e utilização do Azure Active Directory para obter visibilidade.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 7730f7b407eee9c474d04d64cd5748b33b9181ff
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78deaa2e98060e86756876e3d736fe973a5f5905
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar utilizadores do Power BI que iniciaram sessão
 Se for administrador inquilino e quiser ver quem iniciou sessão no Power BI, pode utilizar os relatórios de acesso e utilização do Azure Active Directory para obter visibilidade.
@@ -52,7 +52,7 @@ Pode utilizar o portal do Azure AD para ver a atividade de início de sessão.
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Filtre a aplicação por **Microsoft Power BI** ou **Power BI Gateway** e selecione **Aplicar**.
    
-    **Microsoft Power BI** destina-se a atividade de início de sessão relacionada com o serviço enquanto **Power BI Gateway** destina-se a inícios de sessão específicos do gateway de dados no local.
+    O **Microsoft Power BI** destina-se a atividade de início de sessão relacionada com o serviço, enquanto o **Power BI Gateway** se destina a inícios de sessão específicos do Gateway de dados no local.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Abrir um relatório na Vista de leitura ou na Vista de edição no serviço Power BI"
-description: "Open a Power BI report in Reading view or Editing view (Abrir um relatório do Power BI na Vista de leitura ou na Vista de edição)"
+title: Abrir um relatório na Vista de leitura ou na Vista de edição no serviço Power BI
+description: Open a Power BI report in Reading view or Editing view (Abrir um relatório do Power BI na Vista de leitura ou na Vista de edição)
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

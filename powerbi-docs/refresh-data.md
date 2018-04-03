@@ -2,14 +2,14 @@
 title: Atualizar dados no Power BI
 description: Atualizar dados no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificar-se de que obtém sempre os dados mais recentes, muitas vezes, é fundamental para tomar as decisões certas. Provavelmente já usou Obter Dados no Power BI para se ligar e carregar alguns dados, e já criou alguns relatórios e um dashboard. E agora quer certificar-se de que os seus dados são realmente os mais recentes e os melhores.
@@ -162,11 +162,11 @@ As funções de atualização de um conjunto de dados incluídas num pacote de c
 Para saber mais, consulte [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md).
 
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Ligações em direto e DirectQuery para origens de dados locais
-Com o gateway de dados no local, pode emitir consultas do Power BI para as suas origens de dados no local. Quando interage com uma visualização, as consultas são enviadas do Power BI diretamente para a base de dados. Os dados atualizados são então devolvidos e as visualizações são atualizadas. Como há uma ligação direta entre o Power BI e a base de dados, não é necessário agendar a atualização.
+Com o Gateway de dados no local, pode emitir consultas do Power BI para as suas origens de dados no local. Quando interage com uma visualização, as consultas são enviadas do Power BI diretamente para a base de dados. Os dados atualizados são então devolvidos e as visualizações são atualizadas. Como há uma ligação direta entre o Power BI e a base de dados, não é necessário agendar a atualização.
 
 Ao ligar a uma origem de dados do SQL Service Analysis Services (SSAS) através de uma Ligação em direto, ao contrário do DirectQuery, a Ligação em direto a uma origem SSAS pode ser executada em função da cache, mesmo ao carregar um relatório. Este comportamento melhora o desempenho de carga do relatório. Pode pedir os dados mais recentes da origem de dados SSAS ao utilizar o botão **atualizar**. Os proprietários de origens de dados SSAS podem configurar a frequência da atualização de cache agendada para que o conjunto de dados garanta que os relatórios estão tão atualizados quanto necessário. 
 
-Ao configurar uma origem de dados com o gateway de dados no local, é possível usar essa origem de dados como a opção de atualização agendada. Isto seria usado em vez do gateway pessoal.
+Ao configurar uma origem de dados com o Gateway de dados no local, pode utilizar essa origem de dados como a opção de atualização agendada. Isto seria usado em vez do gateway pessoal.
 
 > [!NOTE]
 > Se o seu conjunto de dados estiver configurado para uma ligação em direto ou do DirectQuery, os conjuntos de dados são atualizados aproximadamente uma vez por hora ou quando ocorre uma interação com os dados. Pode ajustar manualmente a *frequência de atualização* na opção *Atualização de cache agendada* no serviço Power BI.

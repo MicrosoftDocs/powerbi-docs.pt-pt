@@ -1,15 +1,15 @@
 ---
-title: "Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop – local"
+title: Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop – local
 description: Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop numa unidade local
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 69b755b1e4844f5731ecf13a8be154f1684bb8fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78c3da471701a7973934e2349d9209fb55aa2026
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base num ficheiro do Power BI Desktop numa unidade local
-## <a name="whats-supported"></a>O que tem suporte?
+## <a name="whats-supported"></a>O que é suportado?
 No Power BI, Atualizar Agora e Agendar Atualização são suportados para os conjuntos de dados criados através de ficheiros do Power BI Desktop importados de uma unidade local em que são utilizadas as opções Obter Dados/Editor de Consultas para ligar e carregar dados a partir de uma das seguintes origens de dados:
 
-### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
+### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Todas as origens de dados online mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop.
 * Todas as origens de dados locais mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 
@@ -36,11 +36,11 @@ No Power BI, Atualizar Agora e Agendar Atualização são suportados para os con
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
 
 > [!NOTE]
-> Um gateway deve ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
+> Um gateway tem de ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
 > 
 > 
 
-É possível realizar uma única atualização manual diretamente no Power BI Desktop ao selecionar Atualizar na faixa de opções Início. Ao selecionar Atualização aqui, os dados no modelo *do ficheiro* serão atualizados com os dados atualizados da origem de dados original. Esse tipo de atualização, feita totalmente na própria aplicação Power BI Desktop, é diferente da atualização manual ou agendada no Power BI, e é importante compreender a diferença entre elas.
+É possível realizar uma única atualização manual diretamente no Power BI Desktop ao selecionar Atualizar no friso Base. Ao selecionar Atualização aqui, os dados no modelo *do ficheiro* serão atualizados com os dados atualizados da origem de dados original. Esse tipo de atualização, feita totalmente na própria aplicação Power BI Desktop, é diferente da atualização manual ou agendada no Power BI, e é importante compreender a diferença entre elas.
 
 ![](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
@@ -66,7 +66,7 @@ Lembre-se de deixar a opção **Enviar e-mail de notificação de falha de atual
 ## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.
 
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)
 
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
