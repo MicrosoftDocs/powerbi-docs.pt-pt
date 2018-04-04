@@ -1,15 +1,15 @@
 ---
-title: "Visualizações personalizadas no Power BI"
-description: "Visualizações personalizadas no Power BI"
+title: Visualizações personalizadas no Power BI
+description: Visualizações personalizadas no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuais personalizados no Power BI
 Ao criar ou editar um relatório no Power BI, existem vários tipos diferentes de visuais disponíveis para utilizar. Estes visuais são apresentados no painel **Visualizações**. Quando transfere o Power BI Desktop ou abre o serviço Power BI (app.powerbi.com), este conjunto de visuais vem "pré-embalado".
@@ -47,7 +47,7 @@ Os elementos visuais personalizados são pacotes que incluem código para compor
 > 
 > 
 
-## <a name="organization-visuals-preview"></a>Elementos visuais da organização (Pré-visualização)
+## <a name="organization-visuals"></a>Elementos visuais da organização
 
 Os administradores do Power BI podem implementar elementos visuais personalizados na organização para que os autores de relatório possam facilmente detetar e utilizar os elementos visuais personalizados que o administrador aprovou para utilização na organização. Deste modo, proporciona ao administrador o controlo para escolher os elementos visuais personalizados específicos a implementar na organização, bem como uma forma fácil de gerir (ou seja, atualizar a versão, desativar/ativar) esses elementos visuais. Para o autor do relatório, é uma forma fácil para detetar os elementos visuais que são exclusivos à organização, bem como um suporte totalmente integrado para atualizar esses elementos visuais.
 
