@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 3c1b0059ac39c8d8024fd840c0cf35bc9700a9aa
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implementar um gateway de dados para o Power BI
 Este artigo fornece orientação e considerações para implementar um gateway de dados no seu ambiente de rede. O **gateway** é um software que facilita o acesso a dados que residem numa rede privada, no local, para utilização posterior num serviço em nuvem, como o Power BI. Este artigo guia-o durante a implementação e fornece orientações para a configuração do **Gateway de dados no local**.
@@ -41,7 +41,7 @@ O número de utilizadores que utilizam um relatório que execute o gateway é um
 * Que tipos de ligações estão a utilizar (DirectQuery ou Importar)?
 * Todos os utilizadores utilizam o mesmo relatório?
 
-Se todos os utilizadores estiverem a aceder em simultâneo a um determinado relatório todos os dias, é aconselhável instalar o gateway num computador que seja capaz de processar todos os esses pedidos (consulte as seguintes secções sobre contadores de desempenho e os requisitos mínimos que podem ajudá-lo a determinar isto).
+Se todos os utilizadores estiverem a aceder em simultâneo a um determinado relatório todos os dias, é aconselhável instalar o gateway num computador que seja capaz de processar todos os esses pedidos (consulte os seguintes secções sobre contadores de desempenho e os requisitos mínimos que podem ajudá-lo a determinar isto).
 
 Há uma restrição no **Power BI** que permite apenas *um* gateway por *relatório*, por isso, mesmo que um relatório se baseie em várias origens de dados, todas estas origens de dados devem passar por um único gateway. No entanto, se um dashboard se basear em *vários* relatórios, pode utilizar um gateway dedicado para cada relatório e, deste modo, distribuir a carga de gateway entre os vários relatórios que contribuem para esse dashboard individual.
 
