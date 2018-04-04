@@ -5,7 +5,7 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
+backup: ''
 editor: ''
 tags: ''
 qualityfocus: no
@@ -15,22 +15,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/28/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
 
-* [Novidades do Power BI Desktop](desktop-latest-update.md)  
-* [Novidades em aplicativos móveis para o Power BI](mobile-whats-new-in-the-mobile-apps.md)  
-* [Blogue da equipa do Power BI](https://powerbi.microsoft.com/blog/)
+- [Novidades do Power BI Desktop](desktop-latest-update.md)  
+- [Novidades em aplicativos móveis para o Power BI](mobile-whats-new-in-the-mobile-apps.md)  
+- [Blogue da equipa do Power BI](https://powerbi.microsoft.com/blog/)
+- [Notas de versão das Aplicações Empresariais para a primavera de 2018](https://aka.ms/bagspring2018releasenotes_internal) do Dynamics 365: as atualizações mais recentes para as nossas aplicações empresariais, bem como novas capacidades para criar as suas aplicações e extensões a partir da nossa plataforma. 
 
 Também pode consultar os canais de YouTube para obter informações sobre "Novidades" e funcionalidades.
 
