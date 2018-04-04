@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -35,6 +35,18 @@ Para informações sobre “Novidades” relacionadas, veja:
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
 
 Com o intuito de levar os dados ao local onde se encontra, criámos a aplicação Power BI for Mixed Reality. Veja os seus dashboards e relatórios enquanto está envolvido pelo mundo virtual ou coloque-os e veja-os em localizações específicas no contexto do seu ambiente. Leia mais sobre a nova [aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Partilhar relatórios e dashboards externamente
+
+Partilhe dashboards e relatórios com utilizadores fora da sua organização, diretamente a partir da aplicação. A partilha externa está ativada para contas organizacionais e sociais. 
+
+### <a name="persistent-filters"></a>Filtros persistentes
+
+Quando definir os filtros e segmentações de dados no Power BI na Web, as opções de filtros também são guardadas na sua aplicação móvel, pelo que pode retomar a atividade a partir de onde tiver parado.
+
+### <a name="refresh-reports-on-the-ipad"></a>Atualizar relatórios no iPad
+
+Os relatórios do Power BI passaram a ter um botão de atualização na aplicação iPad.
 
 ## <a name="february-2018"></a>Fevereiro de 2018
 
@@ -161,7 +173,7 @@ Agora, pode ter ligações de até cinco servidores do SQL Server Reporting Serv
 
 **Pedir acesso aos dashboards** 
 
-Se ler um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
+Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
 
 ### <a name="february-2017"></a>Fevereiro de 2017
 #### <a name="all-devices"></a>Todos os dispositivos
@@ -220,7 +232,7 @@ Agora, pode anotar e partilhar um mosaico, relatório ou visualização da aplic
 
 **Pedir acesso aos dashboards**
 
-Se ler um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
+Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
 
 **URL personalizado no mosaico da imagem**
 
@@ -340,12 +352,12 @@ No serviço Power BI, pode agora [criar uma vista de dashboard especificamente p
 Consulte a [mensagem de blogue sobre aplicações móveis do Power BI](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-june-2016/) para obter mais detalhes.
 
 #### <a name="qr-codes-now-display-in-augmented-reality-ios"></a>Os códigos QR são agora apresentados em realidade aumentada (iOS)
-Agora, ao ler um código QR gerado pelo serviço Power BI, o mosaico é apresentado em realidade aumentada. 
+Agora, ao digitalizar um código QR gerado pelo serviço Power BI, o mosaico é apresentado em realidade aumentada. 
 
 Mais sobre [ligar a origens de dados no mundo real](mobile-apps-data-in-real-world-context.md).
 
 #### <a name="filter-data-with-barcodes-iphone"></a>Filtrar dados com códigos de barras (iPhone)
-Agora, pode ler códigos de barras impressos em produtos ou prateleiras na loja para apresentar relatórios relacionados do Power BI, filtrados pelo valor lido. 
+Agora, pode digitalizar códigos de barras impressos em produtos ou prateleiras na loja para apresentar relatórios relacionados do Power BI, filtrados pelo valor digitalizado. 
 
 Mais informações sobre como [filtrar os seus dados com códigos de barras](mobile-apps-scan-barcode-iphone.md).
 
@@ -357,7 +369,7 @@ O centro de notificações da sua aplicação móvel do Power BI mostra novos da
 
 ### <a name="may-2016"></a>Maio de 2016
 #### <a name="ios-devices-and-android-phones"></a>Dispositivos iOS e telemóveis Android
-* Os **códigos QR** estão agora também disponíveis **para relatórios**. Leia o código com a sua aplicação do Power BI para ir diretamente para um relatório relacionado, sem necessidade de qualquer navegação ou pesquisa.
+* Os **códigos QR** estão agora também disponíveis **para relatórios**. Digitalize o código com a sua aplicação do Power BI para ir diretamente para um relatório relacionado, sem necessidade de qualquer navegação ou pesquisa.
 * **Melhoria da gestão de dados** para o SQL Server 2016 Reporting Services: redução dos tempos de carregamento e do consumo de dados no seu dispositivo.
 * **Relatórios móveis com temas do SQL Server 2016**: veja os temas para os relatórios móveis do seu dispositivo.
 * **Geofiltragem**: filtre os relatórios pela sua localização atual.
@@ -460,7 +472,7 @@ Leia a [mensagem de blogue publicada em dezembro sobre as aplicações móveis d
 
 * Receba notificações quando um colega partilhar um dashboard consigo. (iOS)
 * Veja todas as páginas do relatório afixadas nos seus dashboards. (iOS e Android)
-* [Leia um código QR](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) e vá diretamente para um mosaico relevante no seu telemóvel Android.
+* [Digitalize um código QR](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) e vá diretamente para um mosaico relevante no seu telemóvel Android.
 
 ### <a name="november-2015"></a>Novembro de 2015
 Leia a [mensagem de blogue do Power BI Mobile publicada em novembro de 2015](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx).
@@ -474,7 +486,7 @@ Leia a [mensagem de blogue do Power BI Mobile publicada em novembro de 2015](htt
 
 #### <a name="iphone-mobile-app"></a>Aplicação móvel para iPhone
 * [Adicione um mosaico de imagem a um dashboard](mobile-iphone-app-get-started.md) diretamente do iPhone.
-* [Crie códigos QR no serviço Power BI](service-create-qr-code-for-tile.md) e leia-os no iPhone para abrir a aplicação Power BI num mosaico específico.
+* [Crie códigos QR no serviço Power BI](service-create-qr-code-for-tile.md) e digitalize-os no iPhone para abrir a aplicação Power BI num mosaico específico.
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>A aplicação Power BI para dispositivos Windows
 * [Ligue diretamente de um mosaico a um URL específico](service-dashboard-edit-tile.md#hyperlink).
