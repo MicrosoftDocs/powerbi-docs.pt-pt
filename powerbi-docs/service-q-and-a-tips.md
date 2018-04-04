@@ -2,14 +2,14 @@
 title: Dicas e truques para fazer perguntas com as Perguntas e Respostas do Power BI
 description: Dicas e truques para fazer perguntas com as Perguntas e Respostas do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecidas pelas Perguntas e Respostas
@@ -94,9 +94,6 @@ As Perguntas e Respostas fazem o melhor possível para garantir que a resposta r
 * sugere automaticamente termos de substituição do(s) conjunto(s) de dados subjacente(s) quando move o cursor de novo para a caixa de perguntas.
 * reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). Isto ajuda a garantir que as Perguntas e Respostas perceberam a sua pergunta, já que substitui as palavras que usou por sinónimos do(s) conjunto(s) de dados subjacente(s).
 * esbate as palavras que não são entendidas.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Combinar resultados de mais de um conjunto de dados
-Uma das funcionalidades mais poderosas do Power BI é a capacidade de combinar dados de conjuntos de dados diferentes.  Por isso, não limite as perguntas a um único conjunto de dados. Coloque perguntas que obtenham dados de mais de um conjunto de dados. Por exemplo, se o meu dashboard tiver mosaicos do Exemplo de Análise de Retalho e um conjunto de dados de população do estado, pode pedir para *mostrar contagem de lojas por população de estado como gráfico de barras descendente*.
 
 ## <a name="dont-stop-now"></a>Não parar agora
 Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! Use as funcionalidades interativas da visualização e as Perguntas e Respostas para descobrir mais informações.

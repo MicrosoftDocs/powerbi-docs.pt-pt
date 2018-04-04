@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/14/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 786e9adf9698b0d878043c684dc3b65a49bc760a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 7128c36d8d6c592d8f49797adf5be4927b240e3c
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -298,7 +298,7 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
 ### <a name="other"></a>Outras:
 
--   Obter o **Power BI Desktop** na Loja Microsoft  [[vídeo]](https://youtu.be/jksjtR8GnBE?t=27m12s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[artigo]](desktop-get-the-desktop.md#install-as-an-app-from-the-windows-store)
+-   Obter o **Power BI Desktop** na Loja Microsoft  [[vídeo]](https://youtu.be/jksjtR8GnBE?t=27m12s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[artigo]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
 -   Acesso melhorado a conteúdo de ajuda  [[vídeo]](https://youtu.be/jksjtR8GnBE?t=28m42s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#help)
 
 
