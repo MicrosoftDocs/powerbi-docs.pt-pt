@@ -726,9 +726,9 @@
           href: desktop-shape-and-combine-data.md
         - name: Common query tasks in Power BI Desktop (Tarefas comuns de consulta no Power BI Desktop)
           href: desktop-common-query-tasks.md
-        - name: 'Use Shape Maps in Power BI Desktop (Preview) (Utilizar os Mapas de Forma no Power BI Desktop [Pré-visualização])'
+        - name: Utilizar os Mapas de Forma no Power BI Desktop (Pré-visualização)
           href: desktop-shape-map.md
-        - name: Combine binaries (Combinar binários)
+        - name: Combinar ficheiros (binários)
           href: desktop-combine-binaries.md
     - name: Model your data (Modelar os seus dados)
       items:
