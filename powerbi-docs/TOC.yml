@@ -572,7 +572,7 @@
           href: service-admin-power-bi-expressroute.md
         - name: Função de administração no Office 365
           href: service-admin-role.md
-        - name: Admin portal (Portal de administração)
+        - name: Portal de administração
           href: service-admin-portal.md
         - name: Auditing Power BI (Auditar o Power BI)
           href: service-admin-auditing.md
@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Slicers in Power BI Desktop (Segmentação de Dados no Power BI Desktop)
           href: desktop-slicers.md
+        - name: Utilizar botões no Power BI
+          href: desktop-buttons.md
         - name: Marcadores no Power BI
           href: desktop-bookmarks.md
         - name: Criar sugestões de relatório personalizado (pré-visualização)
@@ -1078,7 +1080,7 @@
           href: report-server/configure-scheduled-refresh.md
         - name: Add comments to a report (Adicionar comentários a um relatório)
           href: report-server/add-comments.md
-        - name: Subscriptions (Subscrições)
+        - name: Subscrições
           href: 'https://go.microsoft.com/fwlink/?linkid=851310'
         - name: Utilizar a aplicação móvel
           href: 'https://go.microsoft.com/fwlink/?linkid=848711'
