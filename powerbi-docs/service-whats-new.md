@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c4f05645f98e67fcf81c61d91bfdccb9612ed46b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/30/2018
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
@@ -75,7 +75,7 @@ Também pode consultar os canais de YouTube para obter informações sobre "Novi
 ### <a name="august-2017"></a>Agosto de 2017
 * Conhecer o seu público-alvo com [métricas de utilização por utilizador](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Introdução às aplicações do [serviço Power BI](service-connect-to-services.md) para os serviços online.
-* Estabeleça ligação à IBM Netezza com o gateway de dados no local através da importação e dos modos de conetividade de DirectQuery.
+* Estabeleça ligação à IBM Netezza com o Gateway de dados no local através da importação e dos modos de conetividade de DirectQuery.
 * [RLS dinâmica](developer/embedded-row-level-security.md) agora suportada para o Power BI Embedded.
 * [API de filtragem](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) avançada agora adicionada para o lançamento 1.7 dos visuais personalizados API.
 
@@ -94,7 +94,7 @@ Também pode consultar os canais de YouTube para obter informações sobre "Novi
 
 ### <a name="april-and-may-2017"></a>Abril e Maio de 2017
 * Medir e aumentar o seu impacto com [métricas de utilização para o dashboard e criadores de relatórios](service-usage-metrics.md).
-* Estabeleça ligação ao PostgreSQL com o gateway de dados no local.
+* Estabeleça ligação ao PostgreSQL com o Gateway de dados no local.
 * Peça Web do SharePoint do Power BI disponibilizada a todos os utilizadores.
 * Estabeleça ligação do Power BI a qualquer origem de dados utilizando o [Conector de Dados SDK](https://powerbi.microsoft.com/blog/data-connectors-developer-preview/).
 * Navegue para os relatórios com vários parâmetros de filtro do URL.
