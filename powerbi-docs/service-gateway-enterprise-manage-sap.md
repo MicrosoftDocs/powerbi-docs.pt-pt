@@ -1,15 +1,15 @@
 ---
-title: "Faça a gestão da sua origem de dados SAP HANA"
-description: "Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway. Este artigo é específico para SAP HANA."
+title: Faça a gestão da sua origem de dados SAP HANA
+description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway. Este artigo é específico para SAP HANA.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8f9ec69c2a131a8de8f53385170bbddc59211f7b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 43bc0c22918e041f354c29ae9cc3ee4806b8da1a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Faça a gestão da sua origem de dados SAP HANA
-Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode uilizar a origem de dados do SAP HANA para a atualização agendada ou para o DirectQuery.
+Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode uilizar a origem de dados do SAP HANA para a atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Transferir e instalar o gateway
 Pode transferir o gateway a partir do serviço Power BI. Selecione **Transferências** > **Gateway de Dados** ou aceda à [página de transferência do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -60,13 +60,13 @@ Pode então selecionar o **Tipo de Origem de Dados** na lista.
 Em seguida, é necessário preencher as informações sobre a origem de dados, que incluem o **Servidor**, **Nome de utilizador** e **Palavra-passe**.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas através destas credenciais. Para obter mais informações, veja o artigo sobre o gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
+> Todas as consultas à origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 
-Pode clicar em **Adicionar** depois de preencher tudo.  Pode agora utilizar esta origem de dados para a atualização agendada ou para o DirectQuery num servidor SAP HANA no local. Verá *Ligação efetuada* se tiver êxito.
+Pode clicar em **Adicionar** depois preencher tudo.  Pode agora utilizar esta origem de dados para a atualização agendada ou para o DirectQuery num servidor SAP HANA no local. Verá *Ligação efetuada* se tiver êxito.
 
 ![](media/service-gateway-enterprise-manage-sap/datasourcesettings4.png)
 
@@ -101,7 +101,7 @@ No separador Utilizadores, da origem de dados, pode adicionar e remover os utili
 Depois de criar a origem de dados, esta ficará disponível para utilização com qualquer uma das ligações do DirectQuery ou através da atualização agendada.
 
 > [!NOTE]
-> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local!
+> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados do Gateway de dados no local!
 > 
 > 
 
@@ -122,6 +122,6 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

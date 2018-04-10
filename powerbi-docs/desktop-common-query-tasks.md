@@ -2,14 +2,14 @@
 title: Tarefas comuns de consulta no Power BI Desktop
 description: Tarefas comuns de consulta no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, existem algumas tarefas comuns. Este documento demonstra essas tarefas comuns e apresenta ligações para informações adicionais. 
@@ -45,7 +45,7 @@ A primeira ligação de dados é um livro do Excel. A outra é um recurso da Web
 É nos passos necessários para se ligar a ambas as origens de dados que começam as tarefas comuns de Consulta.
 
 ## <a name="connect-to-data"></a>Ligar-se a dados
-Para se ligar aos dados no Power BI Desktop, selecione o botão **Obter Dados** do separador **Base** no friso. O Power BI Desktop apresenta um menu com as origens de dados mais comuns. Para obter uma lista completa de origens de dados às quais o Power BI Desktop se pode ligar, selecione o botão **Mais...** na parte inferior do menu. Para obter mais informações, consulte [Origens de Dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471643).
+Para se ligar aos dados no Power BI Desktop, selecione o botão **Obter Dados** do separador **Base** no friso. O Power BI Desktop apresenta um menu com as origens de dados mais comuns. Para obter uma lista completa de origens de dados às quais o Power BI Desktop se pode ligar, selecione o botão **Mais...** na parte inferior do menu. Para obter mais informações, consulte [Origens de Dados no Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,27 +67,27 @@ Selecione **OK** e, tal como antes, o Power BI Desktop inspeciona o livro e apre
 
 Outras ligações de dados são semelhantes. Se precisar de autenticar-se para fazer uma ligação de dados, o Power BI Desktop pedir-lhe-á as credenciais apropriadas.
 
-Para ver uma demonstração passo a passo da ligação a dados no Power BI Desktop, consulte [Ligar-se a Dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
+Para ver uma demonstração passo a passo da ligação a dados no Power BI Desktop, consulte [Ligar-se a Dados no Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Formatar e combinar dados
-Pode formatar e combinar dados facilmente com o Editor de Consultas. Esta secção inclui alguns exemplos sobre como pode formatar dados. Para obter uma demonstração mais completa da formatação e da combinação de dados, veja **[Formatar e Combinar Dados com o Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
+Pode formatar e combinar dados facilmente com o Editor de Consultas. Esta secção inclui alguns exemplos sobre como pode formatar dados. Para obter uma demonstração mais completa da formatação e da combinação de dados, veja **[Formatar e Combinar Dados com o Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
 
-Na secção anterior, ligámos os dois conjuntos de dados – um livro do Excel e um recurso da Web. Quando carregado no Editor de Consultas, vemos o seguinte, com a consulta da página da Web selecionada (das consultas disponíveis listadas no painel **Consultas**, no lado esquerdo da janela do Editor de Consultas).
+Na secção anterior, ligámos os dois conjuntos de dados – um livro do Excel e um recurso da Web. Depois de carregados no Editor de Consultas, vemos o seguinte, com a consulta da página da Web selecionada (obtida das consultas disponíveis listadas no painel **Consultas**, no lado esquerdo da janela do Editor de Consultas).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 Ao formatar dados, transforma uma origem de dados na forma e formato que atendem às suas necessidades. Neste caso, não precisamos desta primeira coluna, com o nome *Cabeçalho*, por isso vamos removê-la.
 
-No **Editor de Consultas**, podem ser encontrados muitos comandos no friso e num menu contextual ao clicar com o botão direito do rato. Por exemplo, quando eu clico com o botão direito do rato na coluna *Cabeçalho*, o menu apresentado permite-me remover a coluna. Posso também selecionar a coluna e, em seguida, selecionar o botão **Remover Colunas** do friso.
+No **Editor de Consultas**, podem ser encontrados muitos comandos no friso e num menu contextual ao clicar com o botão direito do rato. Por exemplo, quando clica com o botão direito do rato na coluna *Cabeçalho*, o menu apresentado permite-lhe remover a coluna. Pode também selecionar a coluna e, em seguida, selecionar o botão **Remover Colunas** no friso.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
-Existem muitas outras formas pelas quais eu poderia formatar os dados nesta consulta: eu poderia remover qualquer número de linhas na parte superior ou inferior, adicionar colunas, dividir colunas, substituir valores e executar outras tarefas de formatação para direcionar o Editor de Consultas a obter os dados do modo que pretendo.
+Existem muitas outras formas de formatar os dados nesta consulta: pode remover qualquer número de linhas na parte superior ou inferior, adicionar colunas, dividir colunas, substituir valores e executar outras tarefas de formatação para direcionar o Editor de Consultas a obter os dados do modo que pretende.
 
 ## <a name="group-rows"></a>Agrupar linhas
 No Editor de Consultas, pode agrupar os valores de várias linhas num único valor. Isto pode ser útil ao resumir o número de produtos oferecidos, o total de vendas ou a contagem de alunos.
 
-Neste exemplo, agrupamos linhas num conjunto de dados de matrículas académicas. Os dados são de um livro do Excel e foram formatados para que o Editor de Consultas obtivesse apenas as colunas de que precisamos; a tabela foi renomeada e algumas outras transformações foram realizadas.
+Neste exemplo, agrupamos linhas num conjunto de dados de matrículas académicas. Os dados são de um livro do Excel e foram formatados para que o Editor de Consultas obtivesse apenas as colunas de que precisamos; atribua um nome à tabela e realize algumas outras transformações.
 
 Vamos ver quantas Agências (isto inclui distritos educacionais e outras entidades educacionais, como distritos de serviços regionais, e assim por diante) existem em cada estado. Selecionamos a coluna *Abrev. do Estado* e o botão **Agrupar por** No separador **Transformar** ou no separador **Base** do friso (**Agrupar Por** está disponível em ambos os separadores).
 
@@ -98,11 +98,13 @@ Vamos ver quantas Agências (isto inclui distritos educacionais e outras entidad
 1. *Agrupar por* – esta é a coluna a ser agrupada; o Editor de Consultas escolhe a coluna selecionada, mas nesta janela o utilizador pode alterá-la para qualquer outra coluna na tabela.
 2. *Nome da nova coluna* – o Editor de Consultas sugere um nome para a nova coluna com base na operação que ele aplica à coluna que está a ser agrupada, mas o utilizador pode nomear a nova coluna como desejar.
 3. *Operação* – especifique aqui a operação aplicada pelo Editor de Consultas.
-4. *Os sinais +/-* – pode executar operações de agregação (ações **Agrupar Por**) em múltiplas colunas e executar múltiplas agregações, tudo na janela **Agrupar Por**, e tudo numa operação. O Editor de Consultas cria uma nova coluna (com base nas suas seleções nessa janela) que opera em várias colunas. Selecione o botão **+** para adicionar mais colunas ou agregações a uma operação **Agrupar Por**. Pode remover uma coluna ou agregação ao selecionar o ícone –, portanto vá em frente, experimente e veja o resultado. 
+4. *Adicionar agrupamento* e *Adicionar agregação* – estas opções são apresentados depois de selecionar a opção **Avançadas**. Pode executar operações de agrupamento (ações **Agrupar Por**) em várias colunas e executar múltiplas agregações, tudo na janela **Agrupar Por**, e tudo numa operação. O Editor de Consultas cria uma nova coluna (com base nas suas seleções nessa janela) que opera em várias colunas. 
+
+Selecione o botão **Adicionar agrupamento** ou **Adicionar agregação** para adicionar mais agrupamentos ou agregações a uma operação **Agrupar Por**. Pode remover um agrupamento ou uma agregação ao selecionar o ícone **...** e, em seguida, **Eliminar**. Portanto, vá em frente, experimente e veja o resultado.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Quando selecionarmos **OK**, a Consulta efetua a operação **Agrupar Por** e devolve os resultados. Veja – Ohio, Texas, Illinois e Califórnia têm mais de mil entidades cada um!
+Quando selecionarmos **OK**, a Consulta efetua a operação **Agrupar Por** e devolve os resultados. Repare que Ohio, Texas, Illinois e Califórnia agora têm mais de mil entidades cada um!
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -115,7 +117,7 @@ Vejamos um exemplo. A tabela **Products** a seguir foi formatada para mostrar ap
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-A janela **Coluna Pivot** é apresentada, permitindo-lhe saber quais os valores de coluna que serão utilizados para criar novas colunas (1); além disso, ao expandir as **Opções avançadas** (2), pode selecionar a função que será aplicada aos valores agregados (3).
+A janela **Coluna Dinâmica** é apresentada e poderá ver quais os valores da coluna que serão utilizados para criar novas colunas (1); além disso, ao expandir as **Opções avançadas** (2), pode selecionar a função que será aplicada aos valores agregados (3).
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
@@ -126,7 +128,7 @@ Ao selecionar **OK**, a Consulta mostra a tabela de acordo com as instruções d
 ## <a name="create-custom-columns"></a>Criar colunas personalizadas
 No Editor de Consultas, pode criar fórmulas personalizadas que operam em várias colunas na sua tabela e, em seguida, colocar os resultados dessas fórmulas numa nova coluna (personalizada). O Editor de Consultas facilita a criação de colunas personalizadas.
 
-No Editor de Consultas, selecione **Adicionar Coluna Personalizada** no separador **Adicionar Coluna** no friso.
+No Editor de Consultas, selecione **Coluna Personalizada** no separador **Adicionar Coluna** do friso.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ Todos os passos aplicados de cada consulta são mantidos pelo Editor de Consulta
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Eis uma apresentação do **Editor Avançado**, com os passos de consulta associados à consulta **USA\_StudentEnrollment** apresentados. Estes passos são criados na Linguagem de Fórmula do Power Query, normalmente conhecida como **M**. Para obter informações, consulte [Saiba mais sobre as fórmulas do Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Para ver a especificação da linguagem, transfira a [Especificação da Linguagem de Fórmula do Microsoft Power Query para Excel](http://go.microsoft.com/fwlink/?linkid=320633).
+Eis uma apresentação do **Editor Avançado**, com os passos de consulta associados à consulta **USA\_StudentEnrollment** apresentados. Estes passos são criados na Linguagem de Fórmula do Power Query, normalmente conhecida como **M**. Para obter informações, consulte [Saiba mais sobre as fórmulas do Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Para ver a especificação da linguagem, veja [Microsoft Power Query for Excel Formula Language Specification](http://go.microsoft.com/fwlink/?linkid=320633) (Especificação da Linguagem de Fórmula do Microsoft Power Query para Excel).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

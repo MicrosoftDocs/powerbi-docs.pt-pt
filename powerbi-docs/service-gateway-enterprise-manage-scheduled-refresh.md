@@ -1,15 +1,15 @@
 ---
-title: "Gerir a origem de dados – Atualização Importada/Agendada"
-description: "Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway. Este artigo é específico para origens de dados que podem ser utilizadas com a atualização importada/agendada."
+title: Gerir a origem de dados – Atualização Importada/Agendada
+description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway. Este artigo é específico para origens de dados que podem ser utilizadas com a atualização importada/agendada.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8002cf2df278cd3329b62b5322a6faabc9394f57
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gerir a origem de dados – Atualização Importada/Agendada
-Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo analisará como trabalhar com gateways e origens de dados utilizadas para atualização agendada em vez do DirectQuery ou de ligações dinâmicas.
+Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo analisará como trabalhar com gateways e origens de dados utilizadas para atualização agendada em vez do DirectQuery ou de ligações dinâmicas.
 
 ## <a name="download-and-install-the-gateway"></a>Transferir e instalar o gateway
 Pode transferir o gateway a partir do serviço Power BI. Selecione **Transferências** > **Gateway de Dados** ou aceda à [página de transferência do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -60,7 +60,7 @@ Pode selecionar o **Tipo de Origem de Dados** na lista. Todas as origens de dado
 Em seguida, é necessário preencher as informações sobre a origem de dados, que inclui as informações de origem e as credenciais utilizadas para aceder à origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo sobre o gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
+> Todas as consultas à origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
 > 
 > 
 
@@ -104,7 +104,7 @@ No separador Utilizadores, da origem de dados, pode adicionar e remover os utili
 Depois de criar a origem de dados, esta ficará disponível para utilização com qualquer uma das ligações do DirectQuery ou através da atualização agendada.
 
 > [!NOTE]
-> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local!
+> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados do Gateway de dados no local!
 > 
 > 
 
@@ -120,11 +120,11 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 > 
 
 ## <a name="limitations"></a>Limitações
-* O OAuth não é um esquema de autenticação suportado com o gateway de dados no local. Não é possível adicionar origens de dados que necessitam o OAuth. Se o conjunto de dados tem uma origem de dados que requere OAuth, não poderá utilizar o gateway para a atualização agendada.
+* O OAuth não é um esquema de autenticação suportado com o Gateway de dados no local. Não é possível adicionar origens de dados que necessitam o OAuth. Se o conjunto de dados tem uma origem de dados que requere OAuth, não poderá utilizar o gateway para a atualização agendada.
 
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

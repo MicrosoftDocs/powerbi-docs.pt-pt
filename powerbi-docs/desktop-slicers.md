@@ -1,15 +1,15 @@
 ---
-title: "Utilizar a segmentação de dados no Power BI Desktop"
-description: "Pode utilizar a segmentação de dados no Power BI Desktop para filtrar, realçar e personalizar relatórios"
+title: Utilizar a segmentação de dados no Power BI Desktop
+description: Pode utilizar a segmentação de dados no Power BI Desktop para filtrar, realçar e personalizar relatórios
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 52a6c83ba68aa966ec3f20afefc4022a92e78d3e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fabbd56f94ae519f1ea88a7473683f93131b08c3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Utilizar a segmentação de dados no Power BI Desktop
 
@@ -58,7 +58,7 @@ Por exemplo, pode colocar uma segmentação de dados na **Página 2** do relat�
 
 Ao utilizar a ligação **Adicionar a tudo** no painel, aplica a segmentação de dados selecionada a todas as páginas no relatório.
 
-Tenha em atenção que as seleções apresentadas no painel **Segmentações de Dados de Sincronização** se aplicam à *segmentação de dados selecionada*. Pode aplicar várias segmentações de dados a várias páginas e utilizar o painel para definir como cada segmentação de dados é aplicada individualmente nas várias páginas no relatório. 
+Tenha em atenção que as seleções apresentadas no painel **Segmentações de Dados de Sincronização** se aplicam à *segmentação de dados selecionada*. Pode aplicar múltiplas segmentações de dados a várias páginas e utilizar o painel para definir como cada segmentação de dados é aplicada individualmente nas várias páginas do relatório. 
 
 Embora a seleção de segmentações de dados possa ser sincronizada, outras seleções como aplicar estilos, editar e eliminar *não* são sincronizadas. 
 

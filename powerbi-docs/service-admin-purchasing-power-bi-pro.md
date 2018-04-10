@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b0b49e5c628f5e01bb2368d9bc471acc5342f97
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 685091cff071676da050d1a042a487fdadc77407
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Comprar o Power BI Pro
 
@@ -70,6 +70,10 @@ Siga estes passos para comprar o Power BI Pro se for um Administrador de TI do O
 ## <a name="pricing"></a>Preços
 
 Para obter as informações mais recentes sobre preços, consulte [Power BI Pricing](https://powerbi.microsoft.com/en-us/pricing/) (Preços do Power BI).
+
+> [!NOTE]
+> Os utilizadores com licenças Pro atribuídas terão 30 dias de acesso total após o final da subscrição. Quando isto acontecer, a sua subscrição aparecerá como “expirada” no portal de administração.
+>
 
 ## <a name="next-steps"></a>Próximos passos
 [Inscrição self-service no Power BI](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)

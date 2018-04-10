@@ -1,15 +1,15 @@
 ---
-title: "Utilizar as Perguntas e Respostas com ligações em direto"
-description: "Documentação para utilizar consultas em linguagem natural de Perguntas e Respostas do Power BI com ligações em direto a dados do Analysis Services e ao gateway de dados no local."
+title: Utilizar as Perguntas e Respostas com ligações em direto
+description: Documentação para utilizar consultas em linguagem natural de Perguntas e Respostas do Power BI com ligações em direto a dados do Analysis Services e ao Gateway de dados no local.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Ativar as Perguntas e Respostas para ligações em direto
-## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é um gateway de dados no local?  O que é uma ligação em direto?
+## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é um Gateway de dados no local?  O que é uma ligação em direto?
 Os conjuntos de dados no Power BI podem ser importados para o Power BI ou o utilizador pode criar uma ligação em direto aos mesmos. Os conjuntos de dados de ligações em direto costumam ser conhecidos como "no local". As ligações em direto são geridas através de um [gateway](service-gateway-onprem.md) e os dados e questões são enviados em ambos os sentidos através de consultas em direto.
 
-## <a name="qa-for-on-premises-data-gateway-datasets"></a>Perguntas e Respostas para conjuntos de dados de gateway de dados
+## <a name="qa-for-on-premises-data-gateway-datasets"></a>Perguntas e Respostas dos conjuntos de dados do Gateway de dados no local
 Se pretende utilizar as Perguntas e Respostas com conjuntos de dados aos quais acede através de um gateway, terá de os ativar primeiro.
 
 Após a ativação, o Power BI cria um índice da sua origem de dados e carrega um subconjunto desses dados para o Power BI para permitir a colocação de perguntas. Poderão ser necessários vários minutos para criar o índice inicial e o Power BI mantém e atualiza o índice automaticamente à medida que os seus dados mudam. Utilizar as Perguntas e Respostas com estes conjuntos de dados tem o mesmo comportamento que com os dados publicados no Power BI. O conjunto completo de funcionalidades disponíveis na experiência de Perguntas e Respostas é suportado em ambos os casos, incluindo a utilização da origem de dados com a Cortana.
@@ -39,7 +39,7 @@ Uma vez que as Perguntas e Respostas do Power BI utilizam os valores de esquema 
 
 Para obter mais informações, veja:
 
-* O que é o [gateway de dados no local](service-gateway-onprem.md)?
+* O que é o [Gateway de dados no local](service-gateway-onprem.md)?
 * [Introdução às Perguntas e Respostas do Power BI](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Ativar as Perguntas e Respostas
@@ -61,9 +61,9 @@ Quando ativar as Perguntas e Respostas para os seus dados no local, um subconjun
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Durante a fase de Pré-visualização desta funcionalidade, existem diversas limitações:
 
-* Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. Algumas funcionalidades estão disponíveis para origens de dados multidimensionais, mas a experiência completa de Perguntas e Respostas ainda não é suportada para multidimensional. Origens de dados adicionais suportadas pelo gateway de dados no local serão implementadas ao longo do tempo.
+* Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. Algumas funcionalidades estão disponíveis para origens de dados multidimensionais, mas a experiência completa de Perguntas e Respostas ainda não é suportada para multidimensional. As origens de dados adicionais suportadas pelo Gateway de dados no local serão implementadas ao longo do tempo.
 * O suporte integral para segurança ao nível de linha definido no SQL Server Analysis Services não está inicialmente disponível na pré-visualização pública. Ao colocar perguntas nas Perguntas e Respostas, o "preenchimento automático" de perguntas ao escrever pode mostrar valores de cadeias às quais um utilizador não tem acesso. No entanto, a RLS definida no modelo é respeitada em visuais de gráficos e relatórios, o que impede a exposição dos dados numéricos subjacentes. As opções para controlar este comportamento serão lançadas em atualizações futuras.
-* As ligações em direto só são suportadas com o gateway de dados no local. Como resultado, não é possível utilizar esta funcionalidade com o gateway pessoal.
+* As ligações em direto só são suportadas com o Gateway de dados no local. Como resultado, não é possível utilizar esta funcionalidade com o gateway pessoal.
 
 ## <a name="next-steps"></a>Passos seguintes
 [Gateway de dados no local](service-gateway-onprem.md)  

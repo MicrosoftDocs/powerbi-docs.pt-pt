@@ -1,15 +1,15 @@
 ---
-title: "Gerir a origem de dados – SQL"
-description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway.
+title: Gerir a origem de dados – SQL
+description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1bbc86ea56dfbc692d8a81cbeb4bc38d872c2b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gerir a origem de dados – SQL Server
-Depois de instalar o gateway de dados no local, pode adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo aborda como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do SQL Server para a atualização agendada ou para o DirectQuery.
+Depois de instalar o Gateway de dados no local, pode adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do SQL Server para a atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Transferir e instalar o gateway
 Pode transferir o gateway a partir do serviço Power BI. Selecione **Transferências** > **Gateway de Dados** ou aceda à [página de transferência do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -67,13 +67,13 @@ Em seguida, é necessário preencher as informações sobre a origem de dados, q
 Também é necessário selecionar um **Método de Autenticação**.  Pode ser **Windows** ou **Básico**.  Deve selecionar **Básico** se for utilizar a Autenticação do SQL em vez da Autenticação do Windows. Em seguida, introduza as credenciais que serão utilizadas nesta origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executada através destas credenciais, exceto se o Início de Sessão Único (SSO) Kerberos estiver configurado e ativado para a origem de dados. Com o SSO, os conjuntos de dados de importação utilizam as credenciais armazenadas, mas os conjuntos de dados do DirectQuery utilizam o utilizador atual do Power BI para executar as consultas através de SSO. Para obter mais informações, veja o artigo sobre o gateway de dados no local para saber mais sobre como são armazenadas as [credenciais](service-gateway-onprem.md#credentials) ou o artigo que descreve como [utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
+> Todas as consultas à origem de dados serão executada através destas credenciais, exceto se o Início de Sessão Único (SSO) Kerberos estiver configurado e ativado para a origem de dados. Com o SSO, os conjuntos de dados de importação utilizam as credenciais armazenadas, mas os conjuntos de dados do DirectQuery utilizam o utilizador atual do Power BI para executar as consultas através de SSO. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas ou o artigo que descreve como [utilizar o Kerberos para SSO (início de sessão único) no Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md).
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
-Pode clicar em **Adicionar** depois de preencher tudo.  Agora pode utilizar esta origem de dados para atualização agendada, ou para o DirectQuery, num SQL Server local. Verá *Ligação Efetuada com Êxito* se tiver êxito.
+Pode clicar em **Adicionar** depois preencher tudo.  Agora pode utilizar esta origem de dados para atualização agendada, ou para o DirectQuery, num SQL Server local. Verá *Ligação Efetuada com Êxito* se tiver êxito.
 
 ![](media/service-gateway-enterprise-manage-sql/datasourcesettings4.png)
 
@@ -108,7 +108,7 @@ No separador Utilizadores, da origem de dados, pode adicionar e remover os utili
 Depois de criar a origem de dados, esta ficará disponível para utilização com qualquer uma das ligações do DirectQuery ou através da atualização agendada.
 
 > [!NOTE]
-> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local!
+> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados do Gateway de dados no local!
 > 
 > 
 
@@ -129,7 +129,7 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 ## <a name="next-steps"></a>Próximos passos
 * [Gateway de dados no local](service-gateway-onprem.md)  
 * [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
-* [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)
+* [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)
 * [Utilizar o Kerberos para SSO (início de sessão único) do Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

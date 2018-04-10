@@ -1,15 +1,15 @@
 ---
-title: "Combinar binários no Power BI Desktop"
-description: "Combine facilmente origens de dados binárias no Power BI Desktop"
+title: Combinar ficheiros (binários) no Power BI Desktop
+description: Combinar facilmente ficheiros (binários) de origens de dados no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,39 +18,39 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 395562dfecba4657ffa906494f81532febb6a11f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37aff7aadaf6b514ca3b7329db26bc0228022bdd
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
-# <a name="combine-binaries-in-power-bi-desktop"></a>Combinar binários no Power BI Desktop
+# <a name="combine-files-binaries-in-power-bi-desktop"></a>Combinar ficheiros (binários) no Power BI Desktop
 Uma abordagem poderosa para importar dados para o **Power BI Desktop** é combinar múltiplos ficheiros com o mesmo esquema numa única tabela lógica. Na versão de novembro de 2016 do **Power BI Desktop** (e versões posteriores), esta abordagem cómoda e popular tornou-se mais cómoda e abrangente, conforme descrito neste artigo.
 
-Para começar a combinar binários da mesma pasta, selecione **Obter Dados > Ficheiro > Pasta**.
+Para começar a combinar ficheiros da mesma pasta, selecione **Obter Dados > Ficheiro > Pasta**.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-binaries-behavior"></a>Comportamento anterior de combinação de binários
-Antes da versão de novembro de 2016 do **Power BI Desktop**, podia combinar certos tipos de ficheiro com a transformação **combinar binários**, mas havia limitações:
+## <a name="previous-combine-files-binaries-behavior"></a>Comportamento anterior da combinação de ficheiros (binários)
+Antes da versão de novembro de 2016 do **Power BI Desktop**, esta funcionalidade era chamada **Combinar Binários** e permitia combinar certos tipos de ficheiros com a transformação **combinar binários**, mas havia limitações:
 
 * As transformações não eram consideradas para cada ficheiro individual antes de os ficheiros serem combinados numa tabela única. Como tal, era frequente ter de combinar ficheiros e retirar os *valores de cabeçalho* ao filtrar as linhas como parte do processo de edição.
 * A transformação **Combinar binários** funcionava apenas para ficheiros de *texto* ou *CSV* e não funcionava noutros formatos de ficheiro suportados, como livros do Excel, ficheiros JSON, entre outros.
 
-Os clientes pediram um funcionamento mais intuitivo da operação **combinar binários**, pelo que a transformação foi melhorada.
+Os clientes pediram um funcionamento mais intuitivo da operação **combinar binários**, pelo que a transformação foi melhorada e mudou de nome para **combinar ficheiros**.
 
-## <a name="current-combine-binaries-behavior"></a>Comportamento atual de combinação de binários
-Agora, o **Power BI Desktop** processa a operação **combinar binários** com maior eficácia. Comece por selecionar **combinar binários**, seja no separador do friso **Base** no **Editor de Consultas** ou na própria coluna.
+## <a name="current-combine-files-behavior"></a>Comportamento atual da combinação de ficheiros
+Agora, o **Power BI Desktop** processa a operação **combinar ficheiros (binários)** com maior eficácia. Comece por selecionar **combinar ficheiros**, seja no separador do friso **Base** do **Editor de Consultas** ou na própria coluna.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-Agora, **combinar binários** tem o seguinte comportamento:
+Agora, **combinar ficheiros** tem o seguinte comportamento:
 
-* A transformação **combinar binários** analisa cada ficheiro de entrada e determina o formato de ficheiro correto a utilizar, como *texto* ou *Livro do Excel* ou ficheiro *JSON*.
+* A transformação **combinar ficheiros** analisa cada ficheiro de entrada e determina o formato de ficheiro correto a utilizar, como *texto* ou *Livro do Excel* ou ficheiro *JSON*.
 * A transformação permite-lhe selecionar um objeto específico do primeiro ficheiro (por exemplo, um *livro do Excel*) para extrair.
   
   ![](media/desktop-combine-binaries/combine-binaries_3.png)
-* Depois, a operação **combinar binários** faz o seguinte, automaticamente:
+* Em seguida, **combinar ficheiros** realiza automaticamente as seguintes consultas:
   
   * Cria uma consulta de exemplo que efetua todos os passos de extração necessários num único ficheiro.
   * Cria uma *consulta de função* que parametriza a entrada de ficheiro/binário para a *consulta de exemplo*. A consulta de exemplo e a coluna de função estão ligadas, pelo que as alterações à consulta de exemplo refletem-se na consulta de função.
@@ -58,9 +58,9 @@ Agora, **combinar binários** tem o seguinte comportamento:
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Com um novo comportamento de **combinar binários**, pode facilmente combinar todos os binários numa determinada pasta, desde que tenham o mesmo tipo de ficheiro e estrutura (ou seja, as mesmas colunas).
+Com o novo comportamento de **combinar ficheiros**, pode facilmente combinar todos os ficheiros numa determinada pasta, desde que tenham o mesmo tipo de ficheiros e estrutura (tal como as mesmas colunas).
 
-Além disso, pode facilmente aplicar passos adicionais de transformação ou extração ao modificar a *consulta de exemplo* criada automaticamente, sem ter de se preocupar em modificar ou criar passos adicionais de *consulta de função*; quaisquer alterações à *consulta de exemplo* são geradas automaticamente na *consulta de função* associada.
+Além disso, pode facilmente aplicar passos adicionais de transformação ou extração ao modificar a *consulta de exemplo* criada automaticamente, sem ter de se preocupar em modificar ou criar passos adicionais de *consulta de função*. Todas as alterações à *consulta de exemplo* são geradas automaticamente na *consulta de função* associada.
 
 ## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:

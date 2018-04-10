@@ -1,15 +1,15 @@
 ---
-title: "Perguntas Frequentes do Power BI para clientes alemães da administração pública"
-description: "Respostas a perguntas frequentes sobre o serviço alemão do Power BI para a administração pública, para clientes alemães da administração pública"
+title: Perguntas Frequentes do Power BI para clientes alemães da administração pública
+description: Respostas a perguntas frequentes sobre o serviço alemão do Power BI para a administração pública, para clientes alemães da administração pública
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1e6b43efc887550e98bc6195c24af77c61594989
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Perguntas frequentes do Power BI para clientes Germany Cloud
 O **serviço Power BI** têm uma versão disponível para clientes da União Europeia/Acordo de Comércio Livre da Europa (UE/EFTA), normalmente conhecida como Microsoft Cloud Deutschland (MCD). A versão do **serviço Power BI** falada neste artigo é específica para clientes da UE/EFTA, sendo separada e diferente da versão comercial do **serviço Power BI** ou serviços Power BI fornecidos a clientes da administração pública.
@@ -43,7 +43,7 @@ As seguintes perguntas e respostas fornecem informações importantes sobre o Se
 4. **Existe um serviço gratuito no serviço Power BI para Germany Cloud?**
    
    Não. Não disponibilizamos versões de licenças gratuitas no serviço Power BI para Germany Cloud. No entanto, encorajamo-lo a inscrever-se na [oferta gratuita do Power BI na nossa cloud pública](https://powerbi.microsoft.com/get-started/) se as suas necessidades empresariais forem cumpridas com uma oferta gratuita do Power BI.
-5. **Posso utilizar o Power BI Desktop, Power BI Mobile, gateway de dados no local e o Publisher para Excel com o serviço Power BI para Germany Cloud?**
+5. **Posso utilizar o Power BI Desktop, o Power BI Mobile, o Gateway de dados no local e o Publisher para Excel com o serviço Power BI para Germany Cloud?**
    
    Sim. Atualizámos os nossos produtos de cliente do Power BI para funcionarem de forma integrada com o serviço Power BI para Germany Cloud. Inicie sessão com a sua conta de serviço Power BI Germany Cloud para começar a utilizar os mesmos produtos de cliente com o serviço Power BI para Germany Cloud. Pode transferir a versão mais recente dos produtos de cliente dos seguintes locais:
    

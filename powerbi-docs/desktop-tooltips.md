@@ -1,15 +1,15 @@
 ---
-title: "Utilizar páginas de descrições de relatórios no Power BI"
-description: "As páginas de descrição no Power BI Desktop permitem-lhe criar descrições que surgem ao pairar o cursor para os elementos visuais nos seus relatórios"
+title: Utilizar páginas de descrições de relatórios no Power BI
+description: As páginas de descrição no Power BI Desktop permitem-lhe criar descrições que surgem ao pairar o cursor para os elementos visuais nos seus relatórios
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Criar descrições com base em páginas de relatórios no Power BI Desktop (pré-visualização)
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
 
 ![Descrições de relatórios para o Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-Pode criar as páginas de descrição que pretender. Cada página de descrição pode ser associada a um ou mais campos no seu relatório de forma a que, quando pairar o cursor sobre um elemento visual que inclua o campo selecionado, a descrição que criou na página de descrição seja apresentada ao pairar o cursor sobre o elemento visual, que é filtrado com base no ponto de dados sobre o qual está a pairar o cursor do rato. 
+Pode criar as páginas de descrição que pretender. Cada página de descrição pode ser associada a um ou mais campos do relatório de forma a que, quando pairar o cursor sobre um elemento visual que inclua o campo selecionado, a descrição criada na página de descrição seja apresentada, filtrada com base no ponto de dados sobre o qual está a pairar o cursor do rato. 
 
 Existem inúmeras coisas interessantes que pode fazer com as descrições de relatórios. Veja como pode criar descrições e o que tem de fazer para as configurar.
 
 ### <a name="enable-the-tooltips-preview"></a>Ativar a pré-visualização de descrições 
-Uma vez que as descrições de relatórios se encontram atualmente no modo de pré-visualização, terá de ativar as descrições de relatórios antes de as poder criar. Para ativar a funcionalidade de pré-visualização das descrições de relatórios, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** no Power BI Desktop e, em seguida, selecione a caixa de verificação junto a **Marcadores**. 
+Uma vez que as descrições de relatórios se encontram atualmente no modo de pré-visualização, terá de ativar as descrições de relatórios antes de as poder criar. Para ativar a funcionalidade de pré-visualização das descrições de relatórios, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** no Power BI Desktop e, em seguida, selecione a caixa de verificação junto a **Descrições da página de relatório**. 
 
 ![Ativar a funcionalidade de pré-visualização de descrições de relatórios](media/desktop-tooltips/desktop-tooltips_01.png)
 
@@ -99,7 +99,7 @@ Pode utilizar a definição manual de descrições de várias formas. Pode defin
 
 ## <a name="reverting-to-default-tooltips"></a>Reverter para as descrições predefinidas
 
-Se criar uma descrição manual para um elemento visual, mas decidir que pretende a descrição predefinida fornecida pelo Power BI, pode sempre regressar à mesma. Para tal, quando um elemento visual estiver selecionado e o cartão **Descrição** estiver expandido, selecione *Automático* no menu pendente **Página** para regressar à predefinição.
+Se criar uma descrição manual para um elemento visual, mas decidir que pretende a descrição predefinida fornecida pelo Power BI, poderá sempre regressar a essa descrição predefinida. Para tal, quando um elemento visual estiver selecionado e o cartão **Descrição** estiver expandido, selecione *Automático* no menu pendente **Página** para regressar à predefinição.
 
 ![Regressar à descrição predefinida de um elemento visual](media/desktop-tooltips/desktop-tooltips_11.png)
 
@@ -132,7 +132,7 @@ Nesta versão de pré-visualização das **descrições** de relatórios, existe
 * Ao selecionar um campo a apresentar em descrições de relatórios, se utilizar um campo em vez de uma categoria, os elementos visuais que contêm esse campo só mostrarão a descrição especificada quando o resumo do campo selecionado corresponder. 
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com descrições de relatórios, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)
