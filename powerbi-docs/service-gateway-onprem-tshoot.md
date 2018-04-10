@@ -1,31 +1,31 @@
 ---
-title: "Resolução de problemas do gateway de dados no local"
-description: "Este artigo fornece formas de resolver problemas do gateway de dados no local. Fornece possíveis soluções para problemas conhecidos, bem como as ferramentas para ajudá-lo."
+title: Resolução de Problemas do Gateway de Dados no Local
+description: Este artigo fornece formas de resolver problemas do Gateway de dados no local. Fornece possíveis soluções para problemas conhecidos, bem como as ferramentas para ajudá-lo.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de problemas do gateway de dados no local
-Este artigo aborda alguns problemas comuns que poderá encontrar ao utilizar o **gateway de dados no local**.
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
+Este artigo aborda alguns problemas comuns que poderá encontrar ao utilizar o **Gateway de dados no local**.
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -56,7 +56,7 @@ As informações foram recebidas do serviço Power BI para o gateway. As informa
 No final da configuração, o serviço Power BI será chamado novamente para validar o gateway. O serviço Power BI não reporta o gateway como *dinâmico*. Reiniciar o serviço Windows pode permitir que a comunicação seja bem-sucedida. Pode recolher e rever os registos, conforme mencionado abaixo, para obter mais detalhes.
 
 ### <a name="script-error-during-sign-into-power-bi"></a>Erro de script durante o início de sessão no Power BI
-Poderá receber um erro de script ao iniciar sessão no Power BI, como parte da configuração do gateway de dados no local. Instalar a seguinte atualização de segurança deve resolver o problema. Pode ser instalada através do Windows Update.
+Poderá receber um erro de script ao iniciar sessão no Power BI, como parte da configuração do Gateway de dados no local. Instalar a seguinte atualização de segurança deve resolver o problema. Pode ser instalada através do Windows Update.
 
 [MS16-051: atualização de segurança para o Internet Explorer: 10 de maio de 2016 (BDC 3154070)](https://support.microsoft.com/kb/3154070)
 
@@ -78,12 +78,12 @@ Para corrigir isto, faça o seguinte.
 1. Desinstale o gateway.
 2. Elimine a pasta seguinte.
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Reinstale o gateway.
 4. Opcionalmente, aplique a chave de recuperação para restaurar um gateway existente.
 
 ### <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
-Com a atualização de agosto de 2017 e posterior, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.1 ou 1.2 para comunicar com o **serviço Power BI** por predefinição. As versões anteriores do gateway de dados no local utilizam o TLS 1.0 por predefinição. Em 1 de novembro de 2017, o suporte para o TLS 1.0 irá terminar, pelo que terá de atualizar as suas instalações de gateways de dados no local para a versão de agosto de 2017 ou mais recente, para garantir que os gateways continuam a funcionar.
+Com a atualização de agosto de 2017 e posterior, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.1 ou 1.2 para comunicar com o **serviço Power BI** por predefinição. As versões anteriores do gateway de dados no local utilizam o TLS 1.0 por predefinição. Em 1 de novembro de 2017, o suporte para o TLS 1.0 terminou, pelo que terá de atualizar as instalações dos Gateways de dados no local para a versão de agosto de 2017 ou mais recente, para garantir que os gateways continuam a funcionar.
 
 É importante ter em atenção que o TLS 1.0 ainda é suportado pelo gateway de dados no local antes de 1 de novembro e é utilizado pelo gateway como um mecanismo de contingência. Para garantir que todo o tráfego de gateway utiliza o TLS 1.1 ou 1.2 (e para impedir a utilização de TLS 1.0 no seu gateway), tem de adicionar ou modificar as seguintes chaves de registo na máquina que executa o serviço de gateway:
 
@@ -115,7 +115,7 @@ Este erro pode ocorrer por diferentes motivos. Não se esqueça de confirmar que
 
 Em **Mostrar detalhes**, verá um código de erro **DM_GWPipeline_UnknownError**.
 
-Também pode observar os Registos de Eventos > **Registos de Aplicações e Serviços** > **Serviço de gateway de dados no local** para obter mais detalhes.
+Também pode observar os Registos de Eventos > **Registos de Aplicações e Serviços** > **Serviço de Gateway de dados no local** para obter mais detalhes.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: encontramos um erro ao tentar ligar a <server>. Detalhes : “Alcançámos o gateway de dados, mas o gateway não consegue aceder à origem de dados no local”.
 Não é possível ligar à origem de dados especificada. Certifique-se de que valida as informações fornecidas para essa origem de dados.
@@ -164,7 +164,7 @@ Esta situação ocorrerá se tiver uma única linha com um tamanho superior a 4 
 ### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Erro: o nome do servidor fornecido não corresponde ao nome do servidor no Certificado SSL do SQL Server.
 Isto pode ocorrer quando o CN do certificado se destina ao nome de domínio completamente qualificado (FQDN) do servidor, mas só tiver fornecido o nome netbios do servidor. Isto irá provocar um erro de correspondência do certificado. Para resolver este problema, terá de fazer com que o nome do servidor na origem de dados do gateway e o ficheiro PBIX utilizem o FQDN do servidor.
 
-### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>Não consigo ver o gateway de dados no local ao configurar a atualização agendada.
+### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>Não consigo ver o Gateway de dados no local ao configurar a atualização agendada.
 Isto pode dever-se a alguns cenários diferentes.
 
 1. O nome do servidor e da base dados não correspondem entre o que foi introduzido no Power BI Desktop e a origem de dados configurada para o gateway. Estes têm de ser os mesmos valores. Não são sensíveis a maiúsculas e minúsculas.
@@ -175,11 +175,11 @@ Isto pode dever-se a alguns cenários diferentes.
 A limitação exata é de 10 GB de dados não comprimidos por tabela. Se este problema ocorrer, existem boas opções para otimizar e evitar o problema. Em particular, reduzir a utilização de valores de cadeia altamente repetitivos e longos e, em alternativa, utilizar uma chave normalizada ou remover a coluna (se não estiver a ser utilizada) irá ajudar.
 
 ## <a name="reports"></a>Relatórios
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não pôde aceder à origem de dados porque não tem acesso aos nossos dados através de um gateway de dados no local.
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não pôde aceder à origem de dados porque não tem acesso aos nossos dados através de um Gateway de dados no local.
 Geralmente, isto deve-se a um dos seguintes motivos.
 
-1. As informações da origem de dados não correspondem às que estão no conjunto de dados subjacente. O nome do servidor e da base de dados têm de corresponder entre a origem de dados definida no gateway de dados no local e o que fornecer no Power BI Desktop. Se utilizar um endereço IP no Power BI Desktop, a origem de dados do gateway de dados no local tem de utilizar o mesmo endereço IP.
-2. Não há uma origem de dados disponível em qualquer gateway na organização. Pode configurar a origem de dados num gateway de dados no local novo ou existente.
+1. As informações da origem de dados não correspondem às que estão no conjunto de dados subjacente. Os nomes do servidor e da base de dados têm de corresponder entre a origem de dados definida no Gateway de dados no local e o que fornecer no Power BI Desktop. Se utilizar um endereço IP no Power BI Desktop, a origem de dados do Gateway de dados no local terá de utilizar o mesmo endereço IP.
+2. Não há uma origem de dados disponível em qualquer gateway na organização. Pode configurar a origem de dados num Gateway de dados no local novo ou existente.
 
 ### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Error: erro de acesso à origem de dados. Contacte o administrador do gateway.
 Se este relatório estiver a utilizar uma ligação em direto do Analysis Services, poderia deparar-se com o problema de um valor transmitido para o EffectiveUserName não ser válido ou não ter permissões na máquina do Analysis Services. Normalmente, um problema de autenticação deve-se ao facto de o valor que é transmitido para EffectiveUserName não corresponder a um nome principal de utilizador (UPN) local.
@@ -193,7 +193,7 @@ Para confirmação, pode fazer o seguinte.
 
 Opcionalmente, pode ver o que o Power BI obtém do Azure Active Directory.
 
-1. Navegue até [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Navegue para [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
 2. Selecione **Iniciar Sessão** no canto superior direito.
 3. Execute a consulta seguinte. Verá uma resposta JSON bastante grande.
    
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-No ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, altere o valor `TraceVerbosity`, de `4` para `5`. Este ficheiro está localizado, por predefinição, em *C:\Programas\Gateway de dados no local*. Alterar esta definição começará a registar as entradas verbosas no registo do gateway. Isto inclui entradas que mostram a duração.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+No ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, altere o valor `TracingVerbosity`, de `4` para `5`. Este ficheiro está localizado, por predefinição, em *C:\Programas\Gateway de dados no local*. Alterar esta definição começará a registar as entradas verbosas no registo do gateway. Isto inclui entradas que mostram a duração. Também pode ativar entradas verbosas ao ativar o botão “Registo Adicional” na aplicação Gateway no Local.
+
+   ![registo adicional](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Ativar TraceVerbosity para `5` poderia aumentar o tamanho do registo significativamente, consoante a utilização do gateway. Quando tiver terminado de rever os registos, defina TraceVerbosity para `4`. Não é aconselhável deixar esta definição ativada por um longo período de tempo.
+> A ativação de TracingVerbosity para `5` poderá aumentar significativamente o tamanho do registo, consoante a utilização do gateway. Quando tiver terminado de rever os registos, defina TraceVerbosity para `4`. Não é aconselhável deixar esta definição ativada por um longo período de tempo.
 > 
 > 
 
@@ -352,10 +354,76 @@ Para determinar o tempo de duração da consulta da origem de dados, pode fazer 
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Se o servidor de bases de dados subjacente e o Gateway de dados no local não estiverem configurados corretamente para a [Delegação Restrita de Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), ative o [registo verboso](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) no gateway e investigue com base nos erros/rastreios nos ficheiros de registo do gateway como um ponto de partida para a resolução de problemas.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+O ImpersonationLevel está relacionado com a configuração do SPN ou a definição da política local.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Solução**
+
+Siga estes passos para resolver o problema:
+1. Configure um SPN para o Gateway no Local
+2. Configure a delegação restrita no Active Directory (AD)
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: falha ao criar a identidade do Windows para o ID do utilizador
+
+FailedToImpersonateUserException ocorrerá se não for capaz de representar em nome de outro utilizador. Esta falha também poderá ocorrer se a conta que estiver a tentar representar for de outro domínio que não o domínio de serviço de gateway ativo (esta é uma limitação).
+
+**Solução**
+* Confirme se a configuração está correta de acordo com os passos na secção ImpersonationLevel acima
+* Verifique se o ID de utilizador que está a tentar representar é uma conta AD válida
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Erro geral; erro 1033 ao analisar o protocolo
+
+Obterá o erro 1033 quando o ID externo configurado no SAP HANA não corresponder ao início de sessão se o utilizador for representado com o UPN (alias@domain.com). Nos registos, verá o “UPN Original alias@domain.com substituído por um UPN novo alias@domain.com no topo dos registos de erros, como mostrado abaixo”.
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Solução**
+* O SAP HANA requer que o utilizador representado utilize o atributo sAMAccountName no AD (alias do utilizador). Se este não estiver correto, verá o erro 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* Nos registos, deverá ver sAMAccountName (alias) e não o UPN, que é o alias seguido do domínio (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Falha na ligação de comunicações;-10709 Falha na ligação (RTE:[-1] erro do Kerberos. Sério: “Falha diversa [851968]”, menor: “Nenhuma credencial disponível no pacote de segurança”
+
+Receberá a mensagem de erro -10709 Falha na ligação se a sua delegação não estiver configurada corretamente no AD.
+
+**Solução**
+* Verifique se tem o servidor do SAP Hana no separador Delegação no AD da conta do serviço de gateway
+
+   ![separador Delegação](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
-### <a name="refresh-history"></a>Histórico de Atualizações
+### <a name="refresh-history"></a>Histórico de atualização
 Ao utilizar o gateway para a atualização agendada, o **Histórico de Atualizações** pode ajudá-lo a ver os erros que ocorreram, além de fornecer dados úteis caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas e a pedido. Aqui está como pode aceder ao **Histórico de Atualização**.
 
 1. No painel de navegação do Power BI, em **Conjuntos de Dados** , selecione um conjunto de dados &gt; Abrir Menu &gt; **Agendar Atualização**.
@@ -378,4 +446,3 @@ Para obter mais informações sobre a resolução de problemas em cenários de a
 [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

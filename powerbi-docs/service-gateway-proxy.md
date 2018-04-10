@@ -1,15 +1,15 @@
 ---
-title: "Configurar definições de proxy para o gateway de dados no local"
-description: "Informações relativas à configuração de definições de proxy para o gateway de dados no local."
+title: Configurar as definições de proxy do Gateway de dados no local
+description: Informações relativas à configuração das definições de proxy do Gateway de dados no local.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 27b8d36ed870501170efdb81c40edb6cb4727499
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f6bfc47e7b74d9b17479a2ac7fc3dbc3f3e76816
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurar definições de proxy para o gateway de dados no local
-O seu ambiente de trabalho pode requerer que passe por um proxy para aceder à Internet. Isto poderá impedir o gateway de dados no local de se ligar ao serviço.
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurar as definições de proxy do Gateway de dados no local
+O seu ambiente de trabalho pode requerer que passe por um proxy para aceder à Internet. Esta configuração poderá impedir o Gateway de dados no local de se ligar ao serviço.
 
 ## <a name="does-your-network-use-a-proxy"></a>A sua rede utiliza um proxy?
 A seguinte publicação em superuser.com debate como pode tentar determinar se tem um proxy na sua rede.
@@ -36,7 +36,7 @@ A seguinte publicação em superuser.com debate como pode tentar determinar se t
 As informações de proxy são configuradas num ficheiro de configuração .NET. A localização e os nomes de ficheiros variam consoante o gateway que está a utilizar.
 
 ### <a name="on-premises-data-gateway"></a>Gateway de dados local
-Existem dois ficheiros de configuração principais envolvidos no gateway de dados no local.
+Existem dois ficheiros de configuração principais envolvidos no Gateway de dados no local.
 
 **Configuração**
 
@@ -69,21 +69,21 @@ Ao configurar as definições de proxy para utilizar as credenciais predefinidas
 > 
 > 
 
-### <a name="change-the-on-premises-data-gateway-service-account"></a>Alterar a conta de serviço do gateway de dados no local
-1. Altere a conta de serviço do Windows para o **serviço de gateway de dados no local**.
+### <a name="change-the-on-premises-data-gateway-service-account"></a>Alterar a conta de serviço do Gateway de dados no local
+1. Altere a conta de serviço do Windows para o **serviço de Gateway de dados no local**.
    
     A conta predefinida deste serviço é *NT SERVICE\PBIEgwService*. Deverá alterá-la para uma conta de utilizador de domínio no seu domínio do Active Directory. Em alternativa, deverá utilizar uma conta de serviço gerida para evitar ter de alterar a palavra-passe.
    
     Deverá alterar a conta no separador **Iniciar Sessão** nas propriedades do serviço Windows.
-2. Reinicie o **serviço de gateway de dados no local**.
+2. Reinicie o **serviço de Gateway de dados no local**.
    
     Numa linha de comandos de administrador, emita os seguintes comandos.
    
         net stop PBIEgwService
    
         net start PBIEgwService
-3. Inicie o **configurador do gateway de dados no local**. Pode selecionar o botão de início Windows e procurar *gateway de dados no local*.
-4. Iniciar sessão no Power BI.
+3. Inicie o **configurador do Gateway de dados no local**. Pode selecionar o botão de início Windows e procurar *Gateway de dados no local*.
+4. Inicie sessão no Power BI.
 5. Restaure o gateway utilizando a sua chave de recuperação.
    
     Isto irá permitir que a nova conta de serviço consiga desencriptar credenciais armazenadas para origens de dados.

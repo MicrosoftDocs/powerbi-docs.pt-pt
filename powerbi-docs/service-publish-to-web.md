@@ -1,28 +1,28 @@
 ---
 title: Publicar na Web do Power BI
-description: "Com a funcionalidade Publicar na Web do Power BI, pode facilmente incorporar visualizações interativas online do Power BI, como publicações de blogue e sites, através de e-mails ou redes sociais, em qualquer dispositivo."
+description: Com a funcionalidade Publicar na Web do Power BI, pode facilmente incorporar visualizações interativas online do Power BI, como publicações de blogue e sites, através de e-mails ou redes sociais, em qualquer dispositivo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -133,13 +133,16 @@ Os visuais personalizados são suportados na funcionalidade **Publicar na Web**.
 
 ## <a name="limitations"></a>Limitações
 
-A funcionalidade **Publicar na Web** é suportada para a grande maioria das origens de dados e relatórios no serviço do Power BI; no entanto, os seguintes elementos não são atualmente suportados ou disponibilizados com a funcionalidade Publicar na Web:
+A funcionalidade **Publicar na Web** é suportada na grande maioria das origens de dados e relatórios no serviço Power BI; no entanto, os seguintes elementos **não são atualmente suportados ou disponibilizados** com a funcionalidade Publicar na Web:
 
 1. Relatórios com segurança a nível de linha.
-2. Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, Analysis Service Multidimensional, Azure Analysis Services e Serviço Power BI.
+2. Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, modelos Multidimensionais do Analysis Services e o Azure Analysis Services.
 3. Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
 4. Relatórios num grupo no qual não é um membro de edição.
 5. Visuais "R" que atualmente não são suportados em relatórios para Publicar na Web.
+6. Exportar dados de elementos visuais num relatório publicado na Web.
+7. Elementos visuais do ArcGIS Maps para Power BI.
+8. [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 
@@ -177,7 +180,7 @@ Tem de ser utilizador do Microsoft Power BI para utilizar a funcionalidade **Pub
 
 ## <a name="how-it-works-technical-details"></a>Como funciona (detalhes técnicos)
 
-Ao criar um código de incorporação através da funcionalidade **Publicar na Web**, o relatório fica visível para utilizadores na Internet. Encontra-se publicamente disponível, pelo que é expectável que os visualizadores partilhem facilmente o relatório através das redes sociais. Quando os utilizadores virem o relatório, quer ao abrir o URL público direto ou ao vê-lo incorporado numa página Web ou blogue, o Power BI regista a definição do relatório e os resultados das consultas necessários para ver o relatório. Esta abordagem assegura que o relatório pode ser visto por milhares de utilizadores em simultâneo sem nenhum impacto no desempenho.  
+Ao criar um código de incorporação através da funcionalidade **Publicar na Web**, o relatório fica visível para utilizadores na Internet. Encontra-se publicamente disponível, pelo que é expectável que os visualizadores partilhem facilmente o relatório através das redes sociais. Quando os utilizadores virem o relatório, quer ao abrir o URL público direto ou ao vê-lo incorporado numa página Web ou blogue, o Power BI regista a definição do relatório e os resultados das consultas necessários para ver o relatório. Esta abordagem assegura que o relatório pode ser visto por milhares de utilizadores em simultâneo sem nenhum impacto no desempenho.
 
 A cache é duradoura, pelo que se atualizar a definição do relatório (por exemplo, se alterar o Modo de Visualização) ou atualizar os dados do relatório, pode demorar aproximadamente uma hora até que as alterações tenham efeito na versão do relatório vista pelos seus utilizadores. Por isso, recomenda-se que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições.
 

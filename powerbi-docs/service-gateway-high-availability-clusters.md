@@ -1,15 +1,15 @@
 ---
-title: Clusters de elevada disponibilidade para gateways de dados no local
-description: Pode criar clusters de gateways de dados no local para assegurar a elevada disponibilidade na sua empresa.
+title: Clusters de elevada disponibilidade para o Gateway de dados no local
+description: Pode criar clusters de Gateways de dados no local para assegurar a elevada disponibilidade na sua empresa.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9ad1d4288184368dbb294bfafa69fe005780b322
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
-# <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters de elevada disponibilidade para gateways de dados no local
-Pode criar **clusters de elevada disponibilidade** de instalações de **gateways de dados no local** para garantir que a sua organização consegue aceder a recursos de dados no local utilizados nos relatórios e dashboards do Power BI. Estes clusters permitem aos administradores de gateway agrupar gateways de forma a evitar pontos únicos de falha ao aceder a recursos de dados no local. Este artigo descreve os passos a seguir para criar um cluster de elevada disponibilidade de gateways de dados no local, além de partilhar as melhores práticas de configuração dos mesmos. Os clusters de gateway de elevada disponibilidade requerem a atualização de novembro de 2017 para o gateway de dados no local ou versão superior.
+# <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters de elevada disponibilidade para o Gateway de dados no local
+Pode criar **clusters de elevada disponibilidade** de instalações de **gateways de dados no local** para garantir que a sua organização consegue aceder a recursos de dados no local utilizados nos relatórios e dashboards do Power BI. Estes clusters permitem aos administradores de gateway agrupar gateways de forma a evitar pontos únicos de falha ao aceder a recursos de dados no local. Este artigo descreve os passos a seguir para criar um cluster de elevada disponibilidade de gateways de dados no local, além de partilhar as melhores práticas de configuração dos mesmos. Os clusters de gateway de elevada disponibilidade requerem a atualização de novembro de 2017 do Gateway de dados no local ou posterior.
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Configurar clusters de elevada disponibilidade de gateways
 
-Durante o processo de instalação do **gateway de dados no local**, pode especificar se quer adicionar o gateway a um cluster de gateway existente. 
+Durante o processo de instalação do **Gateway de dados no local**, pode especificar se quer adicionar o gateway a um cluster de gateway existente. 
 
 ![](media/service-gateway-high-availability-clusters/gateway_clusters_01.png)
 
@@ -47,7 +47,7 @@ Todos os novos pedidos de **Atualização Agendada** e as operações do DirectQ
 
 ## <a name="powershell-support-for-gateway-clusters"></a>Suporte do PowerShell para clusters de gateway
 
-Os scripts do PowerShell estão disponíveis na pasta de instalação do gateway de dados no local. Por predefinição, essa pasta é *C:\Program Files\On-premises data gateway*. Tem de utilizar a versão 5, ou mais recente, do PowerShell para que estes scripts funcionem corretamente. Os scripts do PowerShell permitem aos utilizadores realizar as seguintes operações:
+Os scripts do PowerShell estão disponíveis na pasta de instalação do Gateway de dados no local. Por predefinição, essa pasta é *C:\Program Files\On-premises data gateway*. Tem de utilizar a versão 5, ou mais recente, do PowerShell para que estes scripts funcionem corretamente. Os scripts do PowerShell permitem aos utilizadores realizar as seguintes operações:
 
 -   Obter a lista de clusters de gateway disponíveis para um utilizador
 -   Obter a lista de instâncias de gateway registadas num cluster, bem como o respetivo estado online ou offline
@@ -63,7 +63,7 @@ Para executar os comandos do PowerShell apresentados na tabela, terá, primeiro,
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
-3. Depois, navegue para a pasta de instalação do gateway de dados no local na janela do PowerShell e utilize o seguinte comando para importar o módulo necessário:
+3. Depois, navegue para a pasta de instalação do Gateway de dados no local na janela do PowerShell e utilize o seguinte comando para importar o módulo necessário:
 
     ```
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
@@ -73,7 +73,7 @@ Quando concluir estes passos, pode utilizar os comandos apresentados na tabela s
 
 | **Comando** | **Descrição** | **Parâmetros** |
 | --- | --- | --- |
-| *Login-OnPremisesDataGateway* |Este comando permite que um utilizador inicie sessão para gerir os respetivos clusters de gateway de dados no local.  Tem de executar este comando e iniciar sessão *para que* os outros comandos de elevada disponibilidade funcionem corretamente. Nota: o token de autenticação do AAD adquirido como parte de uma chamada de Início de sessão só é válido durante uma hora, após a qual expira. Pode executar novamente o comando de Início de sessão para adquirir um novo token.| Nome de utilizador e palavra-passe do AAD (fornecidos como parte da execução do comando, não da invocação inicial)|
+| *Login-OnPremisesDataGateway* |Este comando permite que um utilizador inicie sessão para gerir os clusters do Gateway de dados no local.  Tem de executar este comando e iniciar sessão *para que* os outros comandos de elevada disponibilidade funcionem corretamente. Nota: o token de autenticação do AAD adquirido como parte de uma chamada de Início de sessão só é válido durante uma hora, após a qual expira. Pode executar novamente o comando de Início de sessão para adquirir um novo token.| Nome de utilizador e palavra-passe do AAD (fornecidos como parte da execução do comando, não da invocação inicial)|
 | *Get-OnPremisesDataGatewayClusters* | Obtém a lista de clusters de gateway para o utilizador com sessão iniciada. | Opcionalmente, pode passar parâmetros de formatação para este comando para assegurar uma melhor legibilidade, como, por exemplo: *Format-Table -AutoSize -Wrap* |
 | *Get-OnPremisesDataClusterGateways* | Obtém a lista de gateways dentro do cluster especificado, bem como informações adicionais sobre cada gateway (estado online/offline, o nome do computador, entre outros) | *-ClusterObjectID xyz*  (em que *xyz* é substituído por um valor de ID de objeto de cluster real, o qual pode ser obtido com o comando *Get-OnPremisesDataGatewayClusters*)|
 | *Set-OnPremisesDataGateway* | Permite-lhe definir os valores de propriedade de um determinado gateway num cluster, incluindo a capacidade de Ativar/Desativar uma instância de gateway específica  | *-ClusterObjectID xyz* (*xyz* deve ser substituído por um valor de ID de objeto de cluster real, o qual pode ser obtido com o comando *Get-OnPremisesDataGatewayClusters*) *-GatewayObjectID abc* (*abc* deve ser substituído por um valor de ID de objeto de gateway real, o qual pode ser obtido com o comando *Get-OnPremisesDataClusterGateways*, tendo em conta um ID de objeto de cluster) |
@@ -90,7 +90,7 @@ Quando concluir estes passos, pode utilizar os comandos apresentados na tabela s
 -   [Gerir a sua origem de dados - Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 -   [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 -   [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
--   [Configurar definições de proxy para o gateway de dados no local](service-gateway-proxy.md)  
+-   [Configurar as definições de proxy do Gateway de dados no local](service-gateway-proxy.md)  
 -   [Utilizar o Kerberos para SSO (início de sessão único) do Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

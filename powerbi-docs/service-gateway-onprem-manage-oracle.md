@@ -1,15 +1,15 @@
 ---
-title: "Gerir a origem de dados – Oracle"
-description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway.
+title: Gerir a origem de dados – Oracle
+description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 538904ea8ddb64d530daade143cc290046994464
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e0e786d043466e5620f0faedfb1761014144164
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados – Oracle
-Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados Oracle para a atualização agendada ou para o DirectQuery.
+Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados Oracle para a atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Transferir e instalar o gateway
 Pode transferir o gateway a partir do serviço Power BI. Selecione **Transferências** > **Gateway de Dados** ou aceda à [página de transferência do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -42,7 +42,7 @@ Para as versões de **32 bits** do Power BI Desktop, utilize a seguinte ligaçã
 
 * [Oracle Data Access Components (ODAC) de 32 bits com o Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-Para as versões de **64 bits** do Power BI Desktop ou para o gateway de dados no local, utilize a seguinte ligação para transferir e instalar o cliente Oracle de **64 bits**:
+Para as versões de **64 bits** do Power BI Desktop ou para o Gateway de dados no local, utilize a seguinte ligação para transferir e instalar o cliente Oracle de **64 bits**:
 
 * [ODAC 12.2c Release 1 (12.2.0.1.0) de 64 bits para o Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -102,13 +102,13 @@ Em seguida, é necessário preencher as informações sobre a origem de dados, q
 Também é necessário selecionar um **Método de Autenticação**.  Pode ser **Windows** ou **Básico**.  É recomendado selecionar **Básico** se quiser utilizar uma conta criada no Oracle em vez da Autenticação do Windows. Em seguida, insira as credenciais que serão utilizadas para esta origem de dados.
 
 > [!NOTE]
-> Todas as consultas da origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo sobre o gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
+> Todas as consultas à origem de dados serão executadas com estas credenciais. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
 > 
 > 
 
 ![](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 
-Pode clicar em **Adicionar** depois de estar tudo preenchido.  Agora, pode utilizar esta origem de dados para atualização agendada, ou DirectQuery, num servidor Oracle que esteja no local. Verá *Ligação Efetuada com Êxito* se for bem-sucedida.
+Pode clicar em **Adicionar** depois preencher tudo.  Agora, pode utilizar esta origem de dados para atualização agendada, ou DirectQuery, num servidor Oracle que esteja no local. Verá *Ligação Efetuada com Êxito* se for bem-sucedida.
 
 ![](media/service-gateway-onprem-manage-oracle/datasourcesettings4.png)
 
@@ -143,11 +143,11 @@ No separador Utilizadores, da origem de dados, pode adicionar e remover os utili
 Depois de criar a origem de dados, esta ficará disponível para utilização com qualquer uma das ligações do DirectQuery ou através da atualização agendada.
 
 > [!WARNING]
-> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local!
+> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados do Gateway de dados no local!
 > 
 > 
 
-A ligação entre o conjunto de dados e a origem de dados no gateway baseia-se no nome do servidor e no nome da base de dados. Estes têm de corresponder! Por exemplo, se fornecer um Endereço IP para o nome do servidor, no Power BI Desktop, terá de utilizar o Endereço IP para a origem de dados na configuração do gateway. Este nome também tem de corresponder ao alias definido no ficheiro tnsnames.ora. Para obter mais informações sobre o ficheiro tnsnames.ora, veja [Instalar o Cliente Oracle](#installing-the-oracle-client).
+A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes têm de corresponder! Por exemplo, se fornecer um Endereço IP para o nome do servidor, no Power BI Desktop, terá de utilizar o Endereço IP para a origem de dados na configuração do gateway. Este nome também tem de corresponder ao alias definido no ficheiro tnsnames.ora. Para obter mais informações sobre o ficheiro tnsnames.ora, veja [Instalar o Cliente Oracle](#installing-the-oracle-client).
 
 Este é o caso do DirectQuery e da atualização agendada.
 
@@ -177,12 +177,12 @@ Estes erros podem ocorrer se o cliente Oracle não estiver instalado ou se não 
 > 
 > 
 
-Para obter informações adicionais de resolução de problemas relacionadas com o gateway, veja [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md).
+Para obter informações adicionais de resolução de problemas relacionadas com o gateway, veja [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

@@ -1,15 +1,15 @@
 ---
-title: "Gerir a sua origem de dados – Analysis Services"
-description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway. Isto aplica-se ao Analysis Services no modo Multidimensional e de Tabela.
+title: Gerir a sua origem de dados – Analysis Services
+description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway. Isto aplica-se ao Analysis Services no modo Multidimensional e de Tabela.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
-Depois de instalar o gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do Analysis Services para atualização agendada ou para ligações em direto.
+Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do Analysis Services para atualização agendada ou para ligações em direto.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
@@ -76,13 +76,13 @@ Em seguida, é necessário preencher as informações da origem de dados, que in
 O **Nome de Utilizador** e a **Palavra-passe** que inserir serão utilizados pelo gateway para ligar à instância do Analysis Services.
 
 > [!NOTE]
-> A conta do Windows inserida deve ter permissões de Administrador do Servidor para a instância à qual está a ligar. Se a palavra-passe desta conta estiver configurada para expirar, os utilizadores poderão receber um erro de ligação se a palavra-passe não estiver atualizada para a origem de dados. Para obter mais informações, veja o artigo sobre o gateway de dados principal no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
+> A conta do Windows inserida deve ter permissões de Administrador do Servidor para a instância à qual está a ligar. Se a palavra-passe desta conta estiver configurada para expirar, os utilizadores poderão receber um erro de ligação se a palavra-passe não estiver atualizada para a origem de dados. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas.
 > 
 > 
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
-Pode clicar em **Adicionar** depois de preencher tudo.  Agora, pode utilizar esta origem de dados para atualização agendada ou ligações em direto numa instância no local do Analysis Services.  Verá *Ligação Efetuada com Êxito*, se tiver êxito.
+Pode clicar em **Adicionar** depois preencher tudo.  Agora, pode utilizar esta origem de dados para atualização agendada ou ligações em direto numa instância no local do Analysis Services.  Verá *Ligação Efetuada com Êxito*, se tiver êxito.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
@@ -144,11 +144,11 @@ No **serviço Power BI** ocorre o seguinte:
 - Para cada consulta por um utilizador do AAD do Power BI para um servidor SSAS no local, uma cadeia UPN é transmitida, tal como:      firstName.lastName@contoso.com
 
 > [!NOTE]
-> Quaisquer mapeamentos manuais de utilizadores de UPN definidos na configuração da origem de dados do Power BI continuam a ser aplicados *antes* do envio da cadeia do nome de utilizador para o gateway de dados no local.
+> Todos os mapeamentos manuais de utilizadores de UPN definidos na configuração da origem de dados do Power BI continuam a ser aplicados *antes* do envio da cadeia do nome de utilizador para o Gateway de dados no local.
 > 
 > 
 
-No gateway de dados no local com o Mapeamento de Utilizador Personalizado configurável, efetue o seguinte:
+No Gateway de dados no local com o Mapeamento de Utilizador Personalizado configurável, realize o seguinte:
 
 1. Localize o Active Directory para pesquisa (automática ou configurável)
 2. Procure o atributo da Pessoa do AD (como *E-mail*) com base na cadeia UPN recebida ("firstName.lastName@contoso.com") do **serviço Power BI**.
@@ -159,14 +159,14 @@ No gateway de dados no local com o Mapeamento de Utilizador Personalizado config
 Como configurar o gateway para efetuar a Pesquisa do AD:
 
 1. Transferir e instalar o gateway mais recente
-2. No gateway, terá de alterar o **serviço de gateway de dados no local** para que seja executado com uma conta de domínio (em vez de uma conta de serviço local – caso contrário, a Pesquisa do AD não irá funcionar corretamente no tempo de execução). Terá de reiniciar o serviço de gateway para a alteração produzir efeito.  Vá para a aplicação de gateway na sua máquina (procure "gateway de dados no local"). Para fazê-lo, aceda a **Definições do serviço > Alterar conta de serviço**. Certifique-se de que tem a chave de recuperação deste gateway, uma vez que terá de restaurá-lo na mesma máquina, a menos que pretenda criar um novo gateway em vez disso. 
+2. No gateway, terá de alterar o **serviço do Gateway de dados no local** para que seja executado com uma conta de domínio (em vez de uma conta de serviço local; caso contrário, a pesquisa do AD não funcionará corretamente no tempo de execução). Terá de reiniciar o serviço de gateway para a alteração produzir efeito.  Aceda à aplicação de gateway do computador (procure “Gateway de dados no local”). Para fazê-lo, aceda a **Definições do serviço > Alterar conta de serviço**. Certifique-se de que tem a chave de recuperação deste gateway, uma vez que terá de restaurá-lo na mesma máquina, a menos que pretenda criar um novo gateway em vez disso. 
 3. Navegue até à pasta de instalação do gateway, *C:\Programas\Microsoft Files\Gateway de dados no local* como administrador, para ter a certeza de que tem permissões de escrita, e edite o seguinte ficheiro:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Edite os seguintes dois valores de configuração, em conformidade com as *suas* configurações de atributo do Active Directory dos seus utilizadores do AD. Os valores de configuração apresentados abaixo são apenas exemplos – é necessário especificá-los com base na configuração do Active Directory. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Reinicie o serviço **gateway de dados no local** para que a alteração da configuração produza efeito.
+5. Reinicie o serviço **Gateway de dados no local** para que a alteração da configuração produza efeito.
 
 ### <a name="working-with-mapping-rules"></a>Trabalhar com regras de mapeamento
 Para criar uma regra de mapeamento, introduza um valor para **Nome original** e **Novo Nome** e, em seguida, selecione **Adicionar**.
@@ -224,7 +224,7 @@ No separador Utilizadores da origem de dados, pode adicionar e remover utilizado
 Depois de criar a origem de dados, esta ficará disponível para utilização com qualquer uma das ligações em direto ou através da atualização agendada.
 
 > [!NOTE]
-> O nome do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local!
+> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados do Gateway de dados no local!
 > 
 > 
 
@@ -245,6 +245,6 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

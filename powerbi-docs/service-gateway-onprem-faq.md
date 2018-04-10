@@ -1,15 +1,15 @@
 ---
 title: FAQ do gateway de dados no local
-description: "Estas são as Perguntas frequentes do gateway de dados no local. Esta secção reúne as perguntas mais frequentes sobre o gateway num único local."
+description: Estas são as FAQ do Gateway de dados no local. Esta secção reúne as perguntas mais frequentes sobre o gateway num único local.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: d06a83584bb1b270eb10f6c7098358e718f3492f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 93771e4f6e7969ac0b26aaa87a240c2261150776
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>FAQ do gateway de dados no local
 <!-- Shared FAQ shared Include -->
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 **Resposta:** não. Não há atualmente suporte para esta operação.
 
 **Pergunta:** Posso utilizar o gateway para me ligar a uma instância multidimensional (OLAP)?  
-**Resposta:** Sim! O gateway empresarial no local suporta ligações em direto tanto com modelos de Tabela como Multidimensionais do Analysis Services.
+**Resposta:** Sim! O Gateway de dados no local suporta ligações em direto para os modelos em Tabela do Analysis Services e para os modelos Multidimensionais.
 
 **Pergunta:** E se eu instalar o gateway num computador num domínio diferente do meu servidor no local que usa a autenticação do Windows?  
 **Resposta:** Não é possível dar garantias. Tudo depende a relação de confiança entre os dois domínios. Se os dois domínios diferentes estiverem num modelo de domínio fidedigno, o gateway pode ser capaz de se ligar ao servidor do Analysis Services e o nome de utilizador em vigor pode ser resolvido. Caso contrário, poderá deparar-se com uma falha de início de sessão.
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/24/2018
 **Pergunta:** Preciso de atualizar o gateway pessoal?
 **Resposta:** Não, pode continuar a utilizar o gateway pessoal para o Power BI.
 
-**Pergunta:** Com que frequência são os mosaicos num dashboard, no Power BI, atualizados quando ligados através do gateway de dados no local?  
+**Pergunta:** Com que frequência são os mosaicos num dashboard, no Power BI, atualizados quando ligados através do Gateway de dados no local?  
 **Resposta:** Sensivelmente a cada dez minutos. As ligações do DirectQuery são exatamente assim. Não significa que um mosaico emita uma consulta ao servidor no local e mostre novos dados a cada dez minutos.
 
 **Pergunta:** Posso carregar livros do Excel com modelos de dados do Power Pivot que se liguem a origens de dados no local? É necessário um gateway para este cenário?  
@@ -79,6 +79,6 @@ ms.lasthandoff: 02/24/2018
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local detalhado](service-gateway-onprem-indepth.md)  
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

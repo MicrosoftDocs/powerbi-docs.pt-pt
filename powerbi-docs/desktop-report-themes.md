@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)
-Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou qualquer outro tema de cores que queira aplicar a um relatório. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
+Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou qualquer outro tema de cores que queira aplicar. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -62,7 +62,7 @@ Esse ficheiro JSON tem as seguintes linhas obrigatórias:
 
 * **name** – Nome do tema, o único campo obrigatório
 * **dataColors** – Lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode conter o número de cores desejado
-* **background**, **foreground** e **tableAccent** – Estes valores são cores que devem ser utilizadas nos elementos visuais de **tabela** e **matriz**. A forma como estas cores são utilizadas depende do estilo de tabela ou matriz específico aplicado. Os elementos visuais de **tabela** e **matriz** aplicam estes estilos por predefinição.
+* **background**, **foreground** e **tableAccent** – Estes valores são cores que devem ser utilizadas nos elementos visuais de **tabela** e **matriz**. A forma como utiliza estas cores depende do estilo de tabela ou matriz específico aplicado. Os elementos visuais de **tabela** e **matriz** aplicam estes estilos por predefinição.
 
 Para aplicar um estilo a um elemento visual de **tabela** ou **matriz**, selecione o elemento visual e, no painel **Visualizações**, selecione a secção **Formatar** e, em seguida, expanda **Estilo de matriz** e selecione um estilo no menu pendente **Estilo**.
 
@@ -100,7 +100,7 @@ Vê todo este verde? Isto acontece porque essas cores fazem parte do **Tema de R
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situações em que as cores do Tema de Relatório não permanecem nos relatórios
 Se aplicar um conjunto de cores personalizado (ou uma cor individual) a um ponto de dados específico num elemento visual, a aplicação de um Tema de Relatório *não* substituirá a cor do ponto de dados personalizado.
 
-Além disso, se tiver definido manualmente a cor de um ponto de dados através da secção de cores da paleta de cores do Tema, essas cores *não* serão atualizadas quando aplicar um novo Tema de Relatório. Para voltar a ter as cores predefinidas (para que sejam atualizadas quando aplicar um novo Tema de Relatório), pode selecionar **Reverter para a predefinição** na paleta **Cores do tema**.
+Além disso, se tiver definido manualmente a cor de um ponto de dados através da secção Cores do tema da paleta de cores, essa cor (ou cores) *não* será atualizada quando aplicar um novo Tema de Relatório. Para voltar a ter as cores predefinidas (para que sejam atualizadas quando aplicar um novo Tema de Relatório), pode selecionar **Reverter para a predefinição** na paleta **Cores do tema**.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Tutorial: Criar as suas próprias medidas no Power BI Desktop"
-description: "Tutorial: Criar as suas próprias medidas no Power BI Desktop"
+title: 'Tutorial: Criar as suas próprias medidas no Power BI Desktop'
+description: 'Tutorial: Criar as suas próprias medidas no Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,242 +18,192 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 96295ced577ddb18b8c56031278bf9a81cddf981
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f3a58d8acc7d8eb24954e9db0c0db91eacad2f9a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Criar as suas próprias medidas no Power BI Desktop
-Algumas das mais poderosas soluções de análise de dados no Power BI Desktop podem ser criadas com a utilização de medidas. As medidas ajudam-nos a executar cálculos sobre os dados à medida que interagimos com os relatórios. Este tutorial serve de guia para que compreenda as medidas básicas e crie algumas delas no Power BI Desktop.
+Pode criar algumas das mais poderosas soluções de análise de dados no Power BI Desktop com a utilização de medidas. As medidas ajudam-no a executar cálculos sobre os dados à medida que interage com os relatórios. Este tutorial serve de guia para que compreenda as medidas e crie algumas das suas medidas básicas no Power BI Desktop.
 
-Este artigo destina-se aos utilizadores do Power BI já familiarizados com o Power BI Desktop para criar modelos mais avançados. Já deve estar familiarizado com as funcionalidades Obter Dados e Editor de Consultas para importar dados, trabalhar com várias tabelas relacionadas e adicionar campos à tela Relatório. Se ainda não estiver familiarizado com o Power BI Desktop, veja [Introdução ao Power BI Desktop](desktop-getting-started.md).
+### <a name="prerequisites"></a>Pré-requisitos
+- Este tutorial destina-se aos utilizadores do Power BI já familiarizados com o Power BI Desktop para criar modelos mais avançados. Já deve estar familiarizado com as funcionalidades Obter Dados e Editor de Consultas para importar dados, trabalhar com várias tabelas relacionadas e adicionar campos à tela Relatório. Se ainda não estiver familiarizado com o Power BI Desktop, não deixe de conferir a [Introdução ao Power BI Desktop](desktop-getting-started.md).
+  
+- Transfira o ficheiro [Exemplo de Vendas da Contoso para o Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que inclui dados de vendas online da empresa fictícia, Contoso, Inc. Estes dados foram importados de uma base de dados, por isso, não conseguirá ligar à origem de dados nem visualizá-los no Editor de Consultas. Extraia o ficheiro para o seu computador e, em seguida, abra-o no Power BI Desktop.
 
-Para concluir os passos neste tutorial, tem de transferir o ficheiro [Exemplo de Vendas da Contoso para o Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip). Já inclui dados de vendas online da empresa fictícia, Contoso, Inc. Como os dados no ficheiro foram importados de um base de dados, não conseguirá ligar à origem de dados nem visualizá-los no Editor de Consultas. Quando tiver o ficheiro no seu computador, abra-o no Power BI Desktop.
+## <a name="understand-measures"></a>Compreender as medidas
 
-## <a name="what-are-these-measures-all-about"></a>De que se tratam estas medidas?
-Na maioria das vezes, as medidas são criadas automaticamente, como quando selecionamos a caixa de verificação junto ao campo **SalesAmount** da tabela **Sales** na lista de campos, ou arrastamos **SalesAmount** para a tela Relatório.
+As medidas são frequentemente criadas de forma automática. No ficheiro Exemplo de Vendas da Contoso, selecione a caixa de verificação junto ao campo **SalesAmount** na tabela **Vendas** na secção Campos ou arraste **SalesAmount** para a tela de relatórios. É apresentada uma visualização do novo gráfico de colunas, que mostra a soma total de todos os valores na coluna SalesAmount da tabela Vendas.
 
-![](media/desktop-tutorial-create-measures/measurestut_salesamountinfieldlist.png)
+![Gráfico SalesAmount](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
 
-É apresentada uma nova visualização do gráfico, como esta:
+Qualquer campo que apareça na secção Campos com um ícone de sigma ![ícone de sigma](media/desktop-tutorial-create-measures/meastut_sigma.png) é numérico e os seus valores podem ser agregados. Em vez de mostrar uma tabela com a totalidade dos dois milhões de linhas de valores de SalesAmount, o Power BI Desktop detetou um tipo de dados numérico e criou e calculou automaticamente uma medida para agregar os dados. Soma é a agregação predefinida para um tipo de dados numérico, mas pode facilmente aplicar diferentes agregações, como média ou contagem. Compreender o funcionamento das agregações é fundamental para compreender as medidas, pois cada medida executa algum tipo de agregação. 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountchart.png)
+Para alterar a agregação do gráfico para a média, na área **Valor** do painel Visualizações, clique na seta para baixo junto a **SalesAmount** e selecione **Média**. A visualização muda para uma média de todos os valores de vendas no campo SalesAmount.
 
-O que obtemos é um gráfico de colunas com uma soma total dos valores de vendas obtidos do campo SalesAmount.  Na verdade, o campo SalesAmount é apenas uma coluna denominada SalesAmount na tabela Sales, que já importámos.
+![Gráfico de média de SalesAmount](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
 
-A coluna SalesAmount contém mais de dois milhões de linhas de valores de vendas. Deve estar a perguntar-se por que não vê uma tabela com linhas com todos esses valores. Bem, o Power BI Desktop sabe que todos os valores em SalesAmount são de um tipo de dados numérico e provavelmente quer agregá-los de algum modo, seja a somá-los, a obter a média, a contá-los, etc.
+Pode alterar o tipo de agregação consoante o resultado desejado, mas nem todos os tipos de agregação são aplicáveis a todos os tipos de dados numéricos. Por exemplo, para o campo SalesAmount, as funções Soma e Média fazem sentido. Minimum e Maximum também são importantes. No entanto, Contagem não faz muito sentido para o campo SalesAmount, porque embora os valores sejam numéricos, na verdade, referem-se à moeda.
 
-Sempre que vir um campo na lista Campos com um ícone de sigma ![](media/desktop-tutorial-create-measures/meastut_sigma.png), significa que o campo é numérico e os seus valores podem ser agregados. Neste caso, quando selecionamos SalesAmount, o Power BI Desktop cria as suas próprias medidas e a soma de todos os valores de vendas é calculada e apresentada no gráfico.
+Os valores calculados com medidas mudam de acordo com as suas interações com o relatório. Por exemplo, se arrastar o campo **RegionCountryName** da tabela **Geografia** para o gráfico, são apresentadas as médias dos valores de vendas para cada país.
 
-Sum (soma) é a agregação predefinida quando selecionamos um campo com um tipo de dados numérico, mas podemos mudar facilmente para outro tipo de agregação.
+![SaleAmount por País](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
 
-Na área **Value**, se clicarmos na seta para baixo junto a **SalesAmount**, podemos selecionar **Average**.
+Quando o resultado de uma medida é alterado devido a uma interação com o relatório, afeta o *contexto* da medida. Sempre que interage com as visualizações de relatórios, altera o contexto no qual uma medida calcula e apresenta os resultados.
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaverage.png)
+## <a name="create-and-use-your-own-measures"></a>Criar e utilizar as suas próprias medidas
 
-A nossa visualização muda para uma média de todos os valores de vendas no campo SalesAmount.
+Na maioria dos casos, o Power BI calcula e devolve automaticamente os valores de acordo com os tipos de campos e agregações que escolher. Mas, em alguns casos, poderá querer criar as suas próprias medidas para realizar cálculos mais complexos e exclusivos. Com o Power BI Desktop, pode criar as suas próprias medidas com a linguagem das fórmulas DAX (Data Analysis Expressions). 
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountaveragechart.png)
+As fórmulas DAX utilizam muitos operadores, funções e sintaxe também utilizados pelas fórmulas do Excel. No entanto, as funções DAX foram concebidas para trabalhar com dados relacionais e realizar cálculos mais dinâmicos à medida que interage com os relatórios. Existem mais de 200 funções DAX que fazem tudo, desde agregações simples, como soma e média, até funções de estatística e de filtragem mais complexas. Existem muitos recursos para ajudá-lo a saber mais sobre o DAX. Depois de concluir este tutorial, veja [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 
-Podemos alterar o tipo de agregação consoante o resultado desejado, mas nem todos os tipos de agregação são aplicáveis a qualquer tipo de dados numérico. Por exemplo, para o campo SalesAmount, Sum e Average fazem sentido. Minimum e Maximum também são importantes. No entanto, Count não faz muito sentido para o campo SalesAmount, porque embora os valores sejam numéricos, na verdade, referem-se à moeda.
+Quando cria a sua própria medida, esta é adicionada à lista Campos da tabela que selecionar e é designada de medida *modelo*. Algumas das vantagens das medidas modelo incluem a possibilidade de atribuir o nome que quiser, tornando-as mais identificáveis; pode utilizá-las como argumentos noutras expressões DAX e pode colocá-las a realizar cálculos complexos muito rapidamente.
 
-Compreender o funcionamento das agregações é fundamental para compreender as medidas, pois cada medida executará algum tipo de agregação. Veremos mais exemplos de utilização de uma agregação de Soma um pouco mais tarde, quando criar algumas das suas próprias medidas.
+>[!TIP]
+>A partir da versão fevereiro de 2018 do Power BI Desktop, muitos cálculos comuns estão disponíveis como **medidas rápidas**, as quais escrevem as fórmulas DAX para o utilizador com base nas suas entradas numa caixa de diálogo. Estes cálculos rápidos e poderosos também são ideias para aprender o DAX ou propagar as suas próprias medidas personalizadas. Para criar ou explorar medidas rápidas, selecione **Nova medida rápida** na lista **Mais opções** de uma tabela ou em **Cálculos** no separador Base do friso. Veja [Utilizar medidas rápidas](desktop-quick-measures.md) para obter mais informações sobre como criar e utilizar medidas rápidas.
 
-Os valores calculados com medidas estão sempre a mudar de acordo com as interações que temos com o relatório. Por exemplo, se arrastarmos o campo **RegionCountryName** da tabela **Geography** para o gráfico, as médias dos valores de vendas para cada país são calculadas e apresentadas.
+### <a name="create-a-measure"></a>Criar uma medida
 
-![](media/desktop-tutorial-create-measures/meastut_salesamountavchartbyrcn.png)
+Pretende analisar as vendas líquidas ao subtrair descontos e devoluções a partir dos valores de vendas totais. Independentemente do contexto existente na sua visualização, precisa de uma medida para subtrair a soma de DiscountAmount e ReturnAmount da soma de SalesAmount. Não há nenhum campo para Vendas Líquidas na lista Campos, mas o utilizador possui os blocos modulares para criar as suas próprias medidas para calcular as vendas líquidas. 
 
-Quando o resultado de uma medida é alterado devido a uma interação com o relatório, estamos a afetar o *contexto* da medida. Na verdade, sempre que interage com o relatório, altera o contexto no qual uma medida calcula e apresenta os resultados.
-
-Na maioria dos casos, o Power BI faz o seu trabalho e calcula e devolve valores de acordo com os campos que adicionamos e os tipos de agregação que escolhemos. No entanto, noutros casos, talvez tenha de criar as suas próprias medidas para executar cálculos mais complexos e exclusivos.
-
-Com o Power BI Desktop, cria as suas próprias medidas com a linguagem de fórmulas DAX (Data Analysis Expressions). As fórmulas DAX são muito semelhantes às fórmulas do Excel. Na verdade, o DAX utiliza muitos operadores, funções e sintaxe também utilizados pelas fórmulas do Excel. No entanto, as funções DAX foram concebidas para trabalhar com dados relacionais e realizar cálculos mais dinâmicos durante a interação com os relatórios.
-
-Existem mais de 200 funções DAX que fazem tudo, desde agregações simples, como Soma e Média, até funções de estatística e de filtragem mais complexas. Não vamos entrar em muitos detalhes sobre a linguagem DAX aqui, mas existem muitos recursos para ajudá-lo a saber mais. Depois de seguir este tutorial, veja [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
-
-Quando criamos as nossas próprias medidas, estas são adicionadas à lista Campos da tabela desejada. Isto é conhecido como uma medida *modelo*, que permanecerá na nossa tabela como um campo. Algumas das grandes vantagens para medidas modelo são o facto de podermos dar-lhes o nome que pretendermos, tornando-as mais identificáveis. Também podemos utilizá-las como um argumento noutras expressões DAX, além de criar medidas que executam cálculos complexos muito rapidamente.
-
-## <a name="lets-create-our-own-measure"></a>Vamos criar a nossa própria medida
-Vamos supor que queremos analisar as nossas vendas líquidas. Se observarmos a tabela Sales na lista de campos, vemos que não existe nenhum campo denominado NetSales. No entanto, temos os blocos modulares para criar a nossa própria medida para calcular as vendas líquidas.
-
-Precisamos de uma medida para subtrair descontos e devoluções dos valores de vendas. Como queremos que a medida calcule um resultado para qualquer contexto que tenhamos na visualização, temos de subtrair a soma de DiscountAmount e ReturnAmount da soma de SalesAmount. Isto pode parecer um pouco confuso neste momento; não se preocupe, ficará mais claro em breve.
-
-### <a name="net-sales"></a>Vendas líquidas
-1.  Clique com o botão direito do rato ou na seta para baixo na tabela **Sales** na lista de campos e, em seguida, clique em **Nova Medida**. Isto garante que a nova medida é guardada na tabela Sales, onde será mais fácil de ser encontrada.
+1.  Clique com botão direito do rato na tabela **Vendas** na secção Campos ou posicione o cursor sobre a tabela e selecione as reticências (…) **Mais opções** e, em seguida, selecione **Nova medida**. Este procedimento guardará a nova medida na tabela Vendas, onde será mais fácil de ser encontrada.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
+    ![Nova medida](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     
-    > [!TIP]
-    > Também pode criar uma nova medida clicando no botão Nova Medida no friso que se encontra no separador Base do Power BI Desktop.
-    > 
-    > ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
-    > 
-    > Quando cria uma medida no friso, a medida pode ser criada em qualquer uma das tabelas. Embora uma medida não tenha de pertencer a uma tabela específica, será mais fácil de localizar se a criar na tabela que, por lógica, faz mais sentido para si. Se quiser que fique numa tabela específica, clique primeiro na tabela para torná-la ativa. Em seguida, clique em Nova Medida. No nosso caso, vamos criar a primeira medida na tabela Sales.
-    > 
-    > 
+    Também pode criar uma nova medida ao selecionar **Nova Medida** no grupo Cálculos do separador Base do friso Power BI Desktop.
     
-    A barra de fórmulas aparece na parte superior da tela Relatório. É aqui que podemos mudar o nome da medida e introduzir uma fórmula DAX.
+    ![Nova medida do friso](media/desktop-tutorial-create-measures/meastut_netsales_newmeasureribbon.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
+    >[!TIP]
+    >Quando cria uma medida a partir do friso, esta pode ser criada em qualquer uma das tabelas, mas será mais fácil encontrá-la se a criar no local em que a pretende utilizar. Neste caso, selecione a tabela Vendas para a ativar e, em seguida, selecione **Nova Medida**. 
     
-    Vamos dar um nome à nova medida. Por predefinição, uma nova medida é simplesmente denominada Measure. Se não mudarmos o nome, a próxima medida que criarmos terá o nome Measure 2, Measure 3 e assim sucessivamente. Queremos que as medidas sejam identificáveis mais facilmente, por isso vamos chamar a nova medida de Net Sales.
+    A barra de fórmulas é apresentada na parte superior da tela de relatórios, onde pode mudar o nome da medida e introduzir uma fórmula DAX.
     
-2. Realce **Medida** na barra de fórmulas e, em seguida, escreva **Net Sales**.
+    ![Barra de fórmulas](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formulabar.png)
     
-    Agora, podemos começar a introduzir a fórmula.
+2.  Por predefinição, uma nova medida é simplesmente denominada Medida. Se não alterar o seu nome, as novas medidas adicionais serão denominadas Medida 2, Medida 3 e assim sucessivamente. Pretende que as suas medidas sejam mais identificáveis. Para isso, realce **Medida** na barra de fórmulas e, em seguida, escreva **Vendas Líquidas**.
     
-3.  Após o sinal de igual, escreva um **S**. Verá uma lista de sugestões pendente com todas as funções DAX começadas pela letra S. Quanto mais escrevermos, mais aproximada será a lista de sugestões da função que precisamos. Selecione **SUM** ao deslocar-se para baixo e prima Enter.
+3.  Agora, pode começar a inserir a sua fórmula. Depois do sinal igual, começa a escrever **Sum**. À medida que escreve, é apresentada uma lista de sugestão de lista pendente, que mostra todas as funções DAX que começam com as letras que escreveu. Desloque-se para baixo, se necessário, para selecionar **SUM** na lista e, em seguida, prima Enter.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
+    ![Escolher SUM](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_s.png)
     
-    Depois de premir Enter, é apresentado um parêntese de abertura junto de outra lista de sugestões de todas as colunas disponíveis que podemos transmitir à função SUM.
+    É apresentado um parêntese esquerdo, juntamente com outra lista de sugestões pendente de todas as colunas disponíveis que pode transmitir à função SUM.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
+    ![Escolher coluna](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    Aparece sempre uma expressão entre parênteses de abertura e de fecho. Neste caso, a expressão vai conter um único argumento para transmitir à função SUM; uma coluna a somar. Podemos restringir a lista de colunas ao escrever as primeiras letras do que queremos. Neste caso, queremos a coluna SalesAmount, assim, quando começarmos a escrever "salesam", a lista fica menor e vemos dois itens que podem ser selecionados. Na verdade, estão na mesma coluna. Um mostra apenas [SalesAmount], porque estamos a criar a medida na mesma tabela em que está a coluna SalesAmount. No outro, podemos ver o nome da tabela antes do nome da coluna.
+    As expressões aparecem sempre entre parênteses. A expressão conterá um argumento único para passar à função SUM: a coluna SalesAmount. Comece a escrever “SalesAmount” até restar apenas um valor na lista: Sales(SalesAmount). O nome da coluna precedido pelo nome da tabela é designado de *nome completamente qualificado* da coluna. Os nomes de coluna completamente qualificados tornam as suas fórmulas mais fáceis de ler. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
-    
-    Em geral, é uma boa prática introduzir o nome completamente qualificado de uma coluna. Tornará as fórmulas mais fáceis de ler.
+    ![Selecionar SalesAmount](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
 4. Selecione **Sales[SalesAmount]** e, em seguida, escreva um parêntesis de fecho.
     
     > [!TIP]
     > Os erros de sintaxe são causados frequentemente por um parêntesis de fecho deslocado ou em falta.
-    > 
-    > 
     
-    Agora, queremos subtrair as outras duas colunas.
     
-5.  Após o parêntesis de fecho para a nossa primeira expressão, escreva um espaço e, em seguida, um operador de subtração (**-**), seguido de outro espaço. Em seguida, introduza outra função SUM com a coluna **Sales[DiscountAmount]** como o argumento.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
+5.  Para subtrair as outras duas colunas:
+    1. Após o parêntese direito da primeira expressão, insira um espaço, um operador de subtração (**-**) e outro espaço. 
+    2. Introduza outra função SUM e comece a escrever “DiscountAmount” até que possa escolher a coluna **Sales[DiscountAmount]** como o argumento. Adicione um parêntese direito. 
+    3. Insira um espaço, outro operador de subtração, outra função SUM com **Sales[ReturnAmount]** como o argumento e um parêntese direito.
     
-    Estamos a começar a ficar sem espaço para a fórmula. Não há problema.
+    ![Fórmula completa](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_discamount.png)
     
-6.  Clique na divisa inferior no lado direito da barra de fórmulas.
+6.  Prima Enter ou clique na marca de verificação na barra de fórmulas para concluir e validar a fórmula. A medida validada está agora pronta a ser utilizada na lista Campo da tabela Vendas. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
+    ![Medida na lista de campos](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
     
-    Agora temos mais espaço. Podemos introduzir novas partes da fórmula numa nova linha ao premir Alt-Enter. Também podemos mover os itens com a tecla Tab.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
-    
-    Agora, podemos adicionar a parte final da fórmula.
-    
-7.  Adicione outro operador de subtração, seguido de outra função SUM que tenha a coluna **Sales[ReturnAmount]** como argumento.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_complete.png)
-    
-    A fórmula parece agora pronta.
+Se ficar sem espaço para introduzir uma fórmula ou pretender que fique em linhas separadas, selecione a divisa para baixo no lado direito da barra de fórmulas para abrir mais espaço.
 
-8.  Prima Enter ou clique na marca de verificação na barra de fórmulas para concluir. A fórmula é validada e adicionada à lista de campos na tabela Sales.
+![Divisa da fórmula](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_chevron.png)
 
-### <a name="lets-add-our-new-measure-to-a-report"></a>Vamos adicionar a nova medida a um relatório
-Agora, podemos adicionar a medida Net Sales à tela Relatório. As vendas líquidas serão calculadas para quaisquer outros campos adicionados ao relatório. Vamos analisar as vendas líquidas por país.
+Pode separar partes da sua fórmula em linhas diferentes ao premir **Alt-Enter** ou ao mover o conteúdo através da tecla de **Tabulação**.
 
-1.  Arraste a medida **Net Sales** da tabela **Sales** para a tela Relatório.
+![Fórmula expandida](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_expanded.png)
+
+### <a name="use-your-measure-in-the-report"></a>Utilizar a medida no relatório
+Agora, pode adicionar a medida Vendas Líquidas à tela de relatório e calcular as vendas líquidas de todos os outros campos adicionados ao relatório. Para analisar as vendas líquidas por país:
+
+1. Selecione a medida **Vendas Líquidas** na tabela **Vendas** ou arraste-a para a tela de relatórios.
     
-2. Agora, arraste o campo **RegionCountryName** da tabela **Geography** para o gráfico.
+2. Selecione o campo **RegionCountryName** na tabela **Geografia** ou arraste-o para o gráfico.
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
+    ![Vendas Líquidas por País](media/desktop-tutorial-create-measures/meastut_netsales_byrcn.png)
     
-    Vamos adicionar mais alguns dados.
+Para ver a diferença entre as vendas líquidas e as vendas totais por país, selecione o campo **SalesAmount** ou arraste-o para o gráfico. 
+
+![Montante de Vendas e Vendas Líquidas por País](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
+
+O gráfico utiliza agora duas medidas: SalesAmount, que foi somada automaticamente, e a medida Vendas Líquidas que criou. Cada medida foi calculada no contexto de outro campo, RegionCountryName.
     
-3.  Arraste o campo **SalesAmount** para o gráfico, para ver a diferença entre o valor de vendas e o de vendas líquidas.
+### <a name="use-your-measure-with-a-slicer"></a>Utilizar a medida com uma segmentação de dados
+
+Pode adicionar uma segmentação de dados para filtrar ainda mais as vendas líquidas e os montantes de vendas por ano civil.
     
-    Agora, temos realmente duas medidas no gráfico. SalesAmount, que foi somada automaticamente, e a medida Net Sales que criámos. Em cada um dos casos, os resultados foram calculados no contexto de outro campo que temos no gráfico, os países em RegionCountryName.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
-    
-    Vamos adicionar uma Segmentação de Dados, para podermos dividir as vendas líquidas e valores de vendas por ano civil.
-    
-4.  Clique numa área em branco ao lado do gráfico e, em **Visualizações**, clique na visualização de Tabela.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktablevisbutton.png)
-    
-    Isto cria uma nova visualização de tabela em branco na tela Relatório.
+1.  Clique numa área em branco ao lado do gráfico e, em **Visualizações**, selecione a visualização **Tabela**. Este procedimento cria uma nova visualização de tabela em branco na tela de relatórios.
     
     ![](media/desktop-tutorial-create-measures/meastut_netsales_blanktable.png)
     
-5.  Arraste o campo **Year** da tabela **Calendar** para a nova tabela em branco.
+2.  Arraste o campo **Ano** da tabela **Calendário** para a nova visualização de tabela em branco. Uma vez que o ano é um campo numérico, o Power BI Desktop soma os seus valores, mas isso não faz muito sentido como uma agregação. 
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
+    ![Agregação de ano](media/desktop-tutorial-create-measures/meastut_netsales_yearaggtable.png)
     
-    Como Year é um campo numérico, o Power BI Desktop somou os valores e forneceu um gráfico. No entanto, isto não nos ajuda muito como Segmentação de Dados.
+3.  Em **Valores** no painel Visualizações, selecione a seta para baixo junto a **Ano** e, em seguida, selecione **Não resumir**. A tabela apresenta agora anos individuais.
     
-6. Em **Valores**, clique na seta para baixo junto a **Year** e, em seguida, clique em **Não Resumir**.
+    ![Não resumir](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
     
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_donotsummarize.png)
-    
-    Agora, podemos alterar o campo Year na visualização de tabela para uma Segmentação de Dados.
+4.  Selecione o ícone **Segmentação de Dados** no painel Visualizações para converter a tabela numa segmentação de dados.
 
-    7.  Em **Visualizações**, clique na visualização **Segmentação de Dados**.
+    ![Alterar para a segmentação de dados](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
+    
+5.  Selecione qualquer valor na segmentação de dados **Ano** para filtrar o gráfico **Vendas Líquidas e Montante de Vendas por País** em conformidade. As medidas Vendas Líquidas e SalesAmount recalculam e apresentam os resultados no contexto do campo Ano selecionado. 
+    
+    ![Gráfico segmentado por Ano](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
 
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_year_changetoslicer.png)
-    
-    Agora, temos Year como Segmentação de Dados. Podemos selecionar qualquer ano individual ou grupo de anos e as visualizações do relatório serão todas segmentadas.
-    
-8. Clique em **2013**. Verá o gráfico mudar. As medidas Net Sales e SalesAmount são recalculadas e mostram os novos resultados apenas para 2013. Aqui, mais uma vez, alteramos o contexto no qual as medidas calculam e apresentam os resultados.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_netsales_chartslicedbyyear.png)
+### <a name="use-your-measure-in-another-measure"></a>Utilizar a medida noutra medida
 
-## <a name="lets-create-another-measure"></a>Vamos criar outra medida
-Agora que sabe como criar as suas próprias medidas, vamos criar outra.
+Pretende saber quais os produtos com a maior quantidade de vendas líquidas por unidade vendida, por isso, precisa de uma medida que divida as vendas líquidas pela quantidade de unidades vendidas. Pode criar uma nova medida que divida o resultado da medida Vendas Líquidas pela soma de Sales[SalesQuantity].
 
-### <a name="net-sales-per-unit"></a>Net sales per unit
-E se quisermos descobrir quais são os produtos com o maior valor líquido de vendas por unidade vendida?
+1.  Crie uma nova medida chamada **Vendas Líquidas por Unidade** na tabela Vendas.
+    
+2.  Na barra de fórmulas, começa a escrever **Vendas Líquidas**. A lista de sugestões mostrará o que pode adicionar. Selecione **[Net Sales]**.
+    
+    ![Fórmula a utilizar Vendas Líquidas](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
+    
+    Também pode fazer referência a medidas ao introduzir apenas um parêntese reto esquerdo (**[**). A lista de sugestões mostrará apenas medidas para adicionar à sua fórmula.
+    
+    ![O parêntese reto mostra apenas as medidas](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
+    
+3.  Introduza um espaço, um operador de divisão (**/**), outro espaço, uma função SUM e, em seguida, escreva **Quantidade**. A lista de sugestões mostra todas as colunas cujo nome contém Quantidade. Selecione **Sales[SalesQuantity]**, insira o parêntese direito e prima ENTER ou selecione a marca de verificação para validar a fórmula. A fórmula deve ter este aspeto:
+    
+    `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
+    
+4. Selecione a medida **Vendas Líquidas por Unidade** na tabela Vendas ou arraste-a para uma área em branco na tela de relatório. O gráfico mostra o montante de vendas líquidas por unidade em relação a todos os produtos vendidos, o que não é muito informativo. 
+    
+    ![Vendas líquidas gerais por unidade](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
+    
+5. Para alterar o aspeto, altere o tipo de visualização de gráfico para **Mapa de árvore**.
+    
+    ![Alterar para o mapa de árvore](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
+    
+6. Selecione o campo **Categoria do Produto** ou arraste-o para o mapa de árvore ou para o campo Grupo do painel Visualizações. Agora, tem algumas boas informações!
+    
+    ![Mapa de árvore por Categoria de Produto](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
+    
+7. Experimente remover o campo **ProductCategory** e arrastar o campo **ProductName** para o gráfico em alternativa. 
+    
+    ![Mapa de árvore por Nome do Produto](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
+    
+OK, agora estamos apenas a experimentar, mas temos de admitir que é interessante! Experimente outras formas de filtrar e formatar a visualização.
 
-Bem, vamos criar outra medida. Neste caso, queremos dividir as vendas líquidas pela quantidade de unidades vendidas. Na verdade, queremos dividir o resultado da medida Net Sales pela soma de Sales[SalesQuantity].
+## <a name="what-youve-learned"></a>O que aprendeu
+As medidas dão-lhe uma grande ajuda na obtenção das informações que pretende retirar dos seus dados. Aprendeu com criar medidas com a barra de fórmulas, atribuir-lhes nomes que façam mais sentido e localizar e selecionar os elementos da fórmula corretos através das listas de sugestões DAX. Também aprendeu o contexto, no qual os resultados dos cálculos em medidas mudam de acordo com outros campos ou através de outras expressões na sua fórmula.
 
-1.  Crie uma nova medida chamada **Net Sales per Unit** na tabela Sales ou Products.
-    
-    Nesta medida, vamos utilizar a medida Net Sales que criámos anteriormente. Com o DAX, podemos fazer referência a outras medidas na fórmula.
-    
-2.  Comece por escrever **Net Sales**. A lista de sugestões mostrará o que podemos adicionar. Selecione **[Net Sales]**.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
-    
-    Também pode fazer referência a outra medida ao escrever apenas um parêntese de abertura (**[**). A lista de sugestões mostrará apenas as medidas que podemos adicionar à fórmula.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
-    
-3.  Logo após **[Net Sales]**, insira um espaço e, em seguida, um operador de divisão (**/**). Depois, introduza uma função SUM e escreva **Quantity**. A lista de sugestões mostra todas as colunas cujo nome contém Quantity. Selecione **Sales[SalesQuantity]**. A fórmula deve ter o seguinte aspeto:
-    
-    > **Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])**
-    > 
-    > 
-    
-    Muito interessante, não acha? Introduzir fórmulas DAX é realmente muito fácil quando utilizamos a funcionalidade de pesquisa e sugestão do Editor DAX. Agora, vamos ver o que obtemos com a nova medida Net Sales per Unit.
-    
-4. Arraste a medida **Net Sales per Unit** para uma área em branco na tela de relatório.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_chart.png)
-    
-    Não é muito interessante, certo? Não se preocupe.
-    
-5.  Altere o tipo de visualização de gráfico para **Tree Map**.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_changetotreemap.png)
-    
-6. Agora, arraste o campo **ProductCategory** da tabela **ProductCategory** para baixo até à área **Group**.
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductcat.png)
-    
-    São boas informações, mas e se quisermos analisar as vendas líquidas por produto?
-    
-7. Remova o campo **ProductCategory** e arraste o campo **ProductName** da tabela **Product** para baixo até à área **Group**, substituindo-o. 
-    
-    ![](media/desktop-tutorial-create-measures/meastut_nspu_byproductname.png)
-    
-    OK, agora estamos apenas a experimentar, mas temos de admitir que é bastante interessante! Obviamente que podemos filtrar este mapa de árvore de várias formas, mas está fora do âmbito deste tutorial.
-
-## <a name="what-weve-learned"></a>O que aprendemos
-As medidas oferecem-nos uma enorme capacidade de obter as informações que queremos dos nossos dados. Aprendemos a criar medidas com a barra de fórmulas. Podemos atribuir nomes às medidas de uma forma lógica, enquanto que as listas de sugestão facilitam a localização e seleção do elemento certo a ser adicionado às fórmulas. Também aprendemos o contexto, no qual o resultado de cálculos em medidas muda de acordo com outros campos ou através de outras expressões na fórmula da medida.
-
-## <a name="next-steps"></a>Passos seguintes
-Se quiser aprofundar as fórmulas DAX e criar algumas medidas mais avançadas, veja [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Este artigo foca os conceitos fundamentais no DAX, como sintaxe, funções e uma compreensão mais abrangente do contexto.
-
-Certifique-se de que adiciona a [Referência ao DAX Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) aos favoritos. É aqui que encontrará informações detalhadas sobre a sintaxe do DAX, operadores e mais de 200 funções DAX.
+## <a name="next-steps"></a>Próximos passos
+- Para saber mais sobre as medidas rápidas do Power BI Desktop, que fornecem muitos cálculos de medidas comuns, veja [Utilizar medidas rápidas para realizar facilmente cálculos comuns e poderosos](desktop-quick-measures.md).
+  
+- Se quiser aprofundar as fórmulas DAX e criar algumas medidas mais avançadas, veja [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Este artigo foca os conceitos fundamentais no DAX, como sintaxe, funções e uma compreensão mais abrangente do contexto.
+  
+- Certifique-se de que adiciona a [Referência ao DAX Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx) aos favoritos. É aqui que encontrará informações detalhadas sobre a sintaxe do DAX, operadores e mais de 200 funções DAX.
 

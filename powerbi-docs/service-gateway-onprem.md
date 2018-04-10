@@ -1,36 +1,36 @@
 ---
 title: Gateway de dados local
-description: "Esta é uma descrição geral do gateway de dados no local para o Power BI. Pode utilizar este gateway para trabalhar com origens de dados de DirectQuery. Também pode utilizar este gateway para atualizar os conjuntos de dados na cloud com dados no local."
+description: Esta é uma descrição geral do Gateway de dados no local do Power BI. Pode utilizar este gateway para trabalhar com origens de dados de DirectQuery. Também pode utilizar este gateway para atualizar os conjuntos de dados na cloud com dados no local.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 02/22/2018
-ms.author: davidi
+ms.date: 03/26/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: c9025194ebe8ce6b1829aacd9d74bff5d9c55e3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1c0bd455d8b2dd34cc7d9ef20b0e75c5457034d2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway"></a>Gateway de dados local
-O gateway de dados no local funciona como uma ponte ao proporcionar a transferência rápida e segura de dados entre dados no local (dados que não estão na cloud) e os serviços do Power BI, Microsoft Flow, Logic Apps e PowerApps.
+O Gateway de dados no local funciona como uma ponte ao proporcionar a transferência rápida e segura de dados entre os dados no local (dados que não estão na cloud) e os serviços Power BI, Microsoft Flow, Logic Apps e PowerApps.
 
 Pode utilizar um único gateway com diferentes serviços em simultâneo. Se estiver a utilizar o Power BI, bem como o PowerApps, pode utilizar um único gateway para ambos. Depende da conta com que inicia sessão.
 
 > [!NOTE]
-> O gateway de dados no local implementa a compressão de dados e a encriptação de transporte em todos os modos.
+> O Gateway de dados no local implementa a compressão de dados e a encriptação de transporte em todos os modos.
 > 
 > 
 
@@ -52,8 +52,8 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 <!-- Shared Install steps Include -->
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
-## <a name="download-and-install-the-on-premises-data-gateway"></a>Transferir e instalar o gateway de dados no local
-Para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925).
+## <a name="download-and-install-the-on-premises-data-gateway"></a>Transferir e instalar o Gateway de dados no local
+Para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [Gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -91,8 +91,13 @@ Quando adiciona uma origem de dados ao gateway, é necessário fornecer credenci
 <!-- How the gateway works -->
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+* O [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+) não é suportado atualmente
+* O [Acesso Online](https://products.office.com/en-us/access) não é suportado atualmente
+
 ## <a name="troubleshooting"></a>Resolução de problemas
-Se tiver problemas ao instalar e configurar um gateway, veja [Resolver problemas do gateway de dados no local](service-gateway-onprem-tshoot.md). Se pensa que está a ter um problema com a firewall, veja a secção [firewall ou proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) do artigo de resolução de problemas.
+Se tiver problemas ao instalar e configurar um gateway, veja [Resolver problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md). Se pensa que está a ter um problema com a firewall, veja a secção [firewall ou proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) do artigo de resolução de problemas.
 
 Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md).
 
@@ -103,7 +108,7 @@ Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar def
 [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
 [Gerir a sua origem de dados - Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Gateway de dados no local detalhado](service-gateway-onprem-indepth.md)  
-[Gateway de dados local (modo pessoal) - a nova versão do gateway pessoal](service-gateway-personal-mode.md)
-[Configurar as definições de proxy para os gateways de dados no local](service-gateway-proxy.md)  
+[Gateway de dados local (modo pessoal) – a nova versão do gateway pessoal](service-gateway-personal-mode.md)
+[Configurar as definições de proxy do Gateway de dados no local](service-gateway-proxy.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

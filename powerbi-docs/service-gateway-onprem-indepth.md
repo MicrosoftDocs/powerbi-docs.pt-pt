@@ -1,15 +1,15 @@
 ---
 title: Gateway de dados no local detalhado
-description: "Este artigo analisa detalhadamente o gateway no local. É abordado o funcionamento do serviço com o Azure Active Directory e o Active Directory local quando é utilizado o Analysis Services"
+description: Este artigo analisa detalhadamente o gateway no local. É abordado o funcionamento do serviço com o Azure Active Directory e o Active Directory local quando é utilizado o Analysis Services
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
-É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas antes de poderem ligar à sua origem de dados no local, é necessário instalar e configurar um gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
+É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas para se poderem ligar à sua origem de dados no local, é necessário instalar e configurar um Gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
 
 Normalmente, a instalação e configuração de um gateway é feita por um administrador. Pode requerer conhecimento especial dos seus servidores no local e, em alguns casos, pode exigir permissões de Administrador do Servidor.
 
@@ -120,13 +120,13 @@ Por vezes, poderão ocorrer falhas ao instalar o gateway. Ou talvez a instalaç�
 
 Noutros casos, poderão existir problemas com o tipo de endereço de e-mail com que os utilizadores iniciam sessão ou o Analysis Services pode não conseguir resolver um nome de utilizador efetivo. Se tem vários domínios com relações de confiança entre eles e o gateway estiver num e o Analysis Services noutro, isto pode por vezes causar alguns problemas.
 
-Em vez de explorar a resolução de problemas do gateway aqui, apresentamos uma série de passos de resolução de problemas noutro artigo: [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md). Esperamos que não tenha nenhum problema. Caso contrário, poderá ser útil ter conhecimentos sobre a forma como tudo isto funciona e ler o artigo de resolução de problemas.
+Em vez de explorar a resolução de problemas do gateway aqui, apresentamos uma série de passos de resolução de problemas noutro artigo: [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md). Esperamos que não tenha nenhum problema. Caso contrário, poderá ser útil ter conhecimentos sobre a forma como tudo isto funciona e ler o artigo de resolução de problemas.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Próximos passos
-[Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md)  
+[Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
