@@ -2,29 +2,29 @@
 title: Power BI Gateway - Personal
 description: Power BI Gateway - Personal
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7a523284bd777d87b7ac42ba7e9ff82ee7bdf623
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 8d047e814eaa7c84ee7e1be20d1f4722c6cb1e56
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/06/2018
 ---
-# <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+# <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 > [!NOTE]
 > Há uma nova versão do gateway pessoal para Power BI, com o nome de **Gateway de dados no local (modo pessoal)**. O artigo seguinte descreve a versão anterior do gateway pessoal, com o nome de **Power BI Gateway - Personal**, que vai ser descontinuado e deixa de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalar a nova versão, consulte o artigo [**Gateway de dados no local (modo pessoal)**](service-gateway-personal-mode.md).
 > 
@@ -186,7 +186,7 @@ O gateway comunica com as portas de saída TCP 443 (predefinição), 5671, 5672,
 
 Se precisar de colocar endereços IP em vez de domínios na lista branca, pode transferir e utilizar a lista de intervalos de IP do Datacenter do Microsoft Azure. [Transferir](https://www.microsoft.com/download/details.aspx?id=41653)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Gateway de dados local (modo pessoal) - A nova versão do gateway pessoal](service-gateway-personal-mode.md)
 [Configurar definições de proxy para Gateways do Power BI](service-gateway-proxy.md)  
 [Power BI Premium](service-premium.md)

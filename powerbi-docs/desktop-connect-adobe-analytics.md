@@ -1,40 +1,33 @@
 ---
-title: "Ligar ao Adobe Analytics no Power BI Desktop (pré-visualização)"
+title: Ligar ao Adobe Analytics no Power BI Desktop
 description: Ligar e utilizar facilmente o Adobe Analytics no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Ligar ao Adobe Analytics no Power BI Desktop (pré-visualização)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Ligar ao Adobe Analytics no Power BI Desktop 
 No **Power BI Desktop**, pode ligar-se ao **Adobe Analytics** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop. 
 
 ![Obter Dados do Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Ativar a pré-visualização do conector do Adobe Analytics 
-Uma vez que o conector do **Adobe Analytics** se encontra atualmente no modo de pré-visualização, terá de ativar a funcionalidade de pré-visualização para que o conector esteja disponível na janela **Obter Dados**. Para ativar a pré-visualização do conector, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** no Power BI Desktop e, em seguida, selecione a caixa de verificação junto a **Marcadores**. 
-
-![Ativar a pré-visualização do conector do Adobe Analytics em Opções](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Terá de reiniciar o **Power BI Desktop** após efetuar a seleção para ativar a pré-visualização do conector do Adobe Analytics.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Ligar a dados do Adobe Analytics
 Para ligar a dados do **Adobe Analytics**, selecione **Obter Dados** a partir do friso **Base** no Power BI Desktop. Selecione **Serviços Online** na lista de categorias no lado esquerdo para encontrar **Conector do Adobe Analytics**.
@@ -54,7 +47,7 @@ Pode **Carregar** a tabela selecionada, que traz toda a tabela para o **Power BI
 ![Carregar ou editar dados no Navegador](media/desktop-connect-adobe-analytics/connect-adobe-analytics_05.png)
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)

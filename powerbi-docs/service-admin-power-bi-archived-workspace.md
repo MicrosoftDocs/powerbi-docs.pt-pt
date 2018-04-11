@@ -1,28 +1,28 @@
 ---
-title: "Área de Trabalho Arquivada do Power BI"
-description: "Área de Trabalho Arquivada do Power BI depois de gerir locatários do Office 365"
+title: Área de Trabalho Arquivada do Power BI
+description: Área de Trabalho Arquivada do Power BI depois de gerir locatários do Office 365
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34625c6c093e6ad4255b6e9e153c84d4cb3881d4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Área de Trabalho Arquivada do Power BI
 Com o Power BI, qualquer pessoa pode inscrever-se e começar a utilizar o serviço em alguns minutos.  Posteriormente, o departamento de TI da sua organização pode optar por assumir a gestão do Power BI para utilizadores na sua organização.  Se esse controlo ocorrer, beneficia da gestão central de utilizadores e permissões na sua organização e pode tirar proveito do início de sessão simplificado ao utilizar o mesmo nome de utilizador e palavra-passe utilizados para outros serviços na sua organização. 

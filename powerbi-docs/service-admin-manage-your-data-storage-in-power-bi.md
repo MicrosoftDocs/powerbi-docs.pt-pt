@@ -1,28 +1,28 @@
 ---
 title: Gerir o armazenamento de dados
-description: "Saiba como pode gerir o seu armazenamento de dados individual, ou área de trabalho de aplicação, para assegurar que pode continuar a publicar relatórios e conjuntos de dados."
+description: Saiba como pode gerir o seu armazenamento de dados individual, ou área de trabalho de aplicação, para assegurar que pode continuar a publicar relatórios e conjuntos de dados.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a98fe0d35ad7066d83e17986ce2e3b43341b033a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 314f667c8b432b0d73b7e1b2650ba46d502b33a2
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-your-data-storage"></a>Gerir o armazenamento de dados
 Saiba como pode gerir o seu armazenamento de dados individual, ou área de trabalho de aplicação, para assegurar que pode continuar a publicar relatórios e conjuntos de dados.

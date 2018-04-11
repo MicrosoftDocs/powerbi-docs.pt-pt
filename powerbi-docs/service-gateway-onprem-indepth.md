@@ -3,7 +3,7 @@ title: Gateway de dados no local detalhado
 description: Este artigo analisa detalhadamente o gateway no local. É abordado o funcionamento do serviço com o Azure Active Directory e o Active Directory local quando é utilizado o Analysis Services
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
 É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas para se poderem ligar à sua origem de dados no local, é necessário instalar e configurar um Gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.

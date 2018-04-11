@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 4faf32419c0b02ceadb495832ed90d312b823773
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação de clouds soberanas
 Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com o SDK .NET do Power BI, juntamente com a API JavaScript do Power BI ao incorporar para os seus clientes. Normalmente, este é o cenário de ISV.
@@ -54,7 +54,7 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
     2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
     3. Adicione os parâmetros do GCC ao ficheiro Web.config da seguinte forma.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
@@ -69,7 +69,7 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
     2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
     3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
@@ -84,7 +84,7 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
     2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
     3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
@@ -99,7 +99,7 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
     2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
     3. Adicione os parâmetros do Power BI para Germany Cloud ao ficheiro Web.config da seguinte forma.
 
-```
+```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
@@ -118,7 +118,7 @@ Tem de registar a sua aplicação no Azure AD para fazer chamadas à API REST. P
 
 * DoD (Military) – https://app.mil.powerbigov.us/apps
 
-* Power BI para Germany Cloud – https://app.powerbi.de/apps
+* Power BI para Germany Cloud – https://app.powerbi.de/apps
 
 Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), utilize o **ID de Cliente** que recebe após o registo para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **clientId** no ficheiro *web.config*.
 
@@ -142,7 +142,7 @@ Para incorporar o conteúdo do Power BI, terá de executar algumas ações para 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Criar o Cliente do Power BI com o seu token de acesso
 Com o seu token de acesso, irá querer criar o objeto de cliente do Power BI que lhe permitirá interagir com as APIs do Power BI. Isto é feito ao encapsular num wrapper o AccessToken com um objeto *Microsoft.Rest.TokenCredentials*.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.V2;
@@ -163,7 +163,7 @@ Um exemplo está disponível em **Controllers\HomeController.cs** do [exemplo de
 
 **Dashboards**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -176,7 +176,7 @@ Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 **Mosaico**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -197,7 +197,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 **Relatório**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -220,7 +220,7 @@ Este exemplo parte do princípio de que uma classe é criada para **EmbedConfig*
 
 **Dashboard**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -239,7 +239,7 @@ var embedConfig = new EmbedConfig()
 
 **Mosaico**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -259,7 +259,7 @@ var embedConfig = new TileEmbedConfig()
 
 **Relatório**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -282,7 +282,7 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 
 **Views\Home\EmbedDashboard.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="dashboardContainer"></div>
 <script>
@@ -320,7 +320,7 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 
 **Views\Home\EmbedTile.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="tileContainer"></div>
 <script>
@@ -362,7 +362,7 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 
 **Views\Home\EmbedReport.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="reportContainer"></div>
 <script>

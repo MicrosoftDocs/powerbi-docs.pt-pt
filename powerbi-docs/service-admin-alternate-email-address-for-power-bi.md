@@ -3,7 +3,7 @@ title: Utilizar um Endereço de E-mail alternativo
 description: Utilizar um Endereço de E-mail alternativo
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/08/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: ca7fe8f91a7d70740435af9c044f1cd57c01d8a5
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Utilizar um Endereço de E-mail alternativo
 Por predefinição, o endereço de e-mail utilizado na inscrição no Power BI é usado para enviar atualizações sobre a atividade no Power BI.  Por exemplo, um convite de partilha é enviado para este endereço.
