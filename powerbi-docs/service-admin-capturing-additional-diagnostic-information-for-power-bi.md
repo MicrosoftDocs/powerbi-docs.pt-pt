@@ -1,36 +1,36 @@
 ---
-title: "Capturar informações de diagnóstico adicionais"
-description: "Capturar informações de diagnóstico adicionais"
+title: Capturar informações de diagnóstico adicionais
+description: Capturar informações de diagnóstico adicionais
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 65954c19087e9c9968c549f610d4e36e942e3206
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9aef989b4b61ce8c9d11fd4275d68c867791f644
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Capturar informações de diagnóstico adicionais
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Capturar Informações de Diagnóstico Adicionais para o Power BI
 Estas instruções fornecem duas opções possíveis para recolher manualmente informações de diagnóstico adicionais do cliente Web do Power BI.  Apenas uma dessas opções tem de ser seguida.
 
-## <a name="network-capture---edge--internet-explorer"></a>Captura de rede – Edge e Internet Explorer 11
-1. Navegue até ao [Power BI](https://app.powerbi.com) com o Edge ou o Internet Explorer.
-2. Abra as ferramentas de programador do Edge, premindo F12.
+## <a name="network-capture---edge--internet-explorer"></a>Captura de rede – Microsoft Edge e Internet Explorer 11
+1. Navegue até ao [Power BI](https://app.powerbi.com) com o Microsoft Edge ou o Internet Explorer.
+2. Abra as ferramentas de programador do Microsoft Edge, premindo F12.
 3. Isso abrirá a janela de ferramentas de programador: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)

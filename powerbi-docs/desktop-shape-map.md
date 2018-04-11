@@ -333,7 +333,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | mx-bcn |B.C. |MX-BCN |Baixa Califórnia |Baixa Califórnia |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Holanda: Províncias
+### <a name="netherlands-provinces"></a>Países Baixos: Províncias
 | ID | iso | nome | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |

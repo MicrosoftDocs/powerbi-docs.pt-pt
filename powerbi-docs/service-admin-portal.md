@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: f60822dced9cea4aab47956cb3e9dea40ef20a55
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -53,7 +53,7 @@ No portal, existem seis separadores. Estão descritos abaixo.
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-## <a name="usage-metrics"></a>Métricas de utilização
+## <a name="usage-metrics"></a>Métrica de utilização
 O primeiro separador no portal de administração é **Métricas de utilização**. O relatório de métricas de utilização permite monitorizar a utilização no Power BI relativamente à sua organização. Permite também ver quais os utilizadores e os grupos mais ativos no Power BI para a sua organização.
 
 > [!NOTE]

@@ -3,7 +3,7 @@ title: Utilizar o Kerberos no gateway no local para SSO (início de sessão úni
 description: Configurar o gateway com o Kerberos para permitir o SSO a partir do Power BI para origens de dados no local
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/09/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: bb0800dc6a61efe1d7b331a6049460275b4412a3
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 Pode obter conectividade totalmente integrada de início de sessão único, ao ativar os relatórios e dashboards do Power BI para atualizarem a partir de dados no local, através da configuração do Gateway de dados no local com o Kerberos. O Gateway de dados no local facilita o início de sessão único (SSO) com o DirectQuery, que utiliza para ligar às origens de dados no local.

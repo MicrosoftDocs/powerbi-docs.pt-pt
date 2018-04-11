@@ -1,28 +1,28 @@
 ---
-title: "A resolução de problemas da atualização agendada para Base de Dados SQL do Azure"
-description: "A resolução de problemas em atualização agendada para a base de dados SQL Azure no Power BI"
+title: A resolução de problemas da atualização agendada para Base de Dados SQL do Azure
+description: A resolução de problemas em atualização agendada para a base de dados SQL Azure no Power BI
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5f699ed013f35edd4f958b3c958e56ebeb05029c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6fc118a2f809f06f1bdd61984d100ebece516baa
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>A resolução de problemas em atualização agendada para a base de dados SQL Azure no Power BI
 Para obter etapas detalhadas sobre como configurar a atualização agendada, certifique-se de ver [Atualizar dados no Power BI](refresh-data.md).

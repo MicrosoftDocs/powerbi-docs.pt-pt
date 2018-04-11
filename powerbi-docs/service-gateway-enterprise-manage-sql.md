@@ -3,7 +3,7 @@ title: Gerir a origem de dados – SQL
 description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway.
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ad9b619f7e0d52442796dc461948a705b9b0f74a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 563c0c65ab7c696449732ad01a0f20ca87383d15
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gerir a origem de dados – SQL Server
 Depois de instalar o Gateway de dados no local, pode adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do SQL Server para a atualização agendada ou para o DirectQuery.
