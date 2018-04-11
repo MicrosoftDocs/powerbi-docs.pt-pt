@@ -1,15 +1,15 @@
 ---
-title: "Gerir a área de trabalho da aplicação no Power BI e no Office 365"
-description: "As áreas de trabalho da aplicação no Power BI são uma experiência de colaboração baseada nos grupos do Office 365. Faça a gestão das suas áreas de trabalho de aplicação no Power BI e também no Office 365."
+title: Gerir a área de trabalho da aplicação no Power BI e no Office 365
+description: As áreas de trabalho da aplicação no Power BI são uma experiência de colaboração baseada nos grupos do Office 365. Faça a gestão das suas áreas de trabalho de aplicação no Power BI e também no Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

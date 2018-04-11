@@ -1,15 +1,15 @@
 ---
-title: "Pacote de conteúdos de Auditoria de Base de Dados SQL"
-description: "Pacote de conteúdos de Auditoria de Base de Dados SQL para o Power BI"
+title: Pacote de conteúdos de Auditoria de Base de Dados SQL
+description: Pacote de conteúdos de Auditoria de Base de Dados SQL para o Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

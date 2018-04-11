@@ -1,14 +1,14 @@
 ---
-title: "Criar e publicar aplicações com dashboards e relatórios no Power BI"
-description: "Aprenda a criar e publicar aplicações, que são coleções de dashboards e relatórios criados para fornecer métricas importantes à sua organização."
+title: Criar e publicar aplicações com dashboards e relatórios no Power BI
+description: Aprenda a criar e publicar aplicações, que são coleções de dashboards e relatórios criados para fornecer métricas importantes à sua organização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

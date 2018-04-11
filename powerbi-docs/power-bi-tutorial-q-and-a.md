@@ -1,12 +1,12 @@
 ---
-title: "Tutorial - utilizar Perguntas e Respostas num dashboard ou num relatório"
-description: "Tutorial sobre como utilizar as Perguntas e Respostas do Power BI para criar novas visualizações em dashboards e relatórios."
+title: Tutorial - utilizar Perguntas e Respostas num dashboard ou num relatório
+description: Tutorial sobre como utilizar as Perguntas e Respostas do Power BI para criar novas visualizações em dashboards e relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

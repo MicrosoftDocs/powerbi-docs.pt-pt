@@ -1,13 +1,13 @@
 ---
-title: "Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas"
-description: "Como partilhar dashboards e relatórios do Power BI com colegas dentro e fora da organização e o que precisa de saber sobre a partilha."
+title: Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
+description: Como partilhar dashboards e relatórios do Power BI com colegas dentro e fora da organização e o que precisa de saber sobre a partilha.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: monitoring
 qualitydate: 08/14/2017

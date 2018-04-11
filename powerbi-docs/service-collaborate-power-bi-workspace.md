@@ -1,15 +1,15 @@
 ---
-title: "Colaborar na sua área de trabalho de aplicação do Power BI"
-description: "Leia mais sobre colaborar em ficheiros do Power BI Desktop na sua área de trabalho de aplicação e com serviços do Office 365, como partilhar ficheiros no OneDrive para Empresas, conversações no Exchange, calendário e tarefas."
+title: Colaborar na sua área de trabalho de aplicação do Power BI
+description: Leia mais sobre colaborar em ficheiros do Power BI Desktop na sua área de trabalho de aplicação e com serviços do Office 365, como partilhar ficheiros no OneDrive para Empresas, conversações no Exchange, calendário e tarefas.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

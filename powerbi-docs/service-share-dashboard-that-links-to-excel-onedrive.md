@@ -1,15 +1,15 @@
 ---
-title: "Partilhar o dashboard associado a um ficheiro do Excel no OneDrive – Power BI"
+title: Partilhar o dashboard associado a um ficheiro do Excel no OneDrive – Power BI
 description: Leia sobre a partilha de dashboards associados a um livro do Excel no OneDrive para Empresas, com os mosaicos afixados nesse livro.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Descrição geral das Perguntas e Respostas no serviço Power BI e no Desktop"
-description: "Tópico de descrição geral de documentação para perguntas e respostas sobre linguagem natural em consultas do Power BI."
+title: Descrição geral das Perguntas e Respostas no serviço Power BI e no Desktop
+description: Tópico de descrição geral de documentação para perguntas e respostas sobre linguagem natural em consultas do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
