@@ -1,12 +1,12 @@
 ---
-title: "Instalar e utilizar aplicações com dashboards e relatórios no Power BI"
-description: "No Power BI, as aplicações juntam dashboards e relatórios num único local."
+title: Instalar e utilizar aplicações com dashboards e relatórios no Power BI
+description: No Power BI, as aplicações juntam dashboards e relatórios num único local.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 10/02/2017
 ms.service: powerbi

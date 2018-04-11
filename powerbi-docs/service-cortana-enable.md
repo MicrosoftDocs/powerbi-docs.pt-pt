@@ -2,10 +2,10 @@
 title: Ativar a Cortana para o Power BI
 description: Use a Cortana com o Power BI para obter respostas a partir dos seus dados. Ative a Cortana para cada conjunto de dados do Power BI e, em seguida, ative a Cortana para aceder aos seus conjuntos de dados de dispositivos Windows.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

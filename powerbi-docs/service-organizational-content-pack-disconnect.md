@@ -1,15 +1,15 @@
 ---
-title: "Desligar de um pacote de conteúdos organizacional – Power BI"
-description: "Leia sobre como remover a ligação a um pacote de conteúdos organizacional, eliminando o conjunto de dados no Power BI."
+title: Desligar de um pacote de conteúdos organizacional – Power BI
+description: Leia sobre como remover a ligação a um pacote de conteúdos organizacional, eliminando o conjunto de dados no Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

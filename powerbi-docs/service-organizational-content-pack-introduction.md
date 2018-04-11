@@ -1,15 +1,15 @@
 ---
-title: "Introdução aos pacotes de conteúdos organizacionais no Power BI"
-description: "Saiba como empacotar os seus dashboards, relatórios, livros do Excel e conjuntos de dados em pacotes de conteúdos organizacionais que pode partilhar com os seus colegas."
+title: Introdução aos pacotes de conteúdos organizacionais no Power BI
+description: Saiba como empacotar os seus dashboards, relatórios, livros do Excel e conjuntos de dados em pacotes de conteúdos organizacionais que pode partilhar com os seus colegas.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/24/2018
 > 
 > 
 
-Distribui regularmente relatórios por e-mail à sua equipa? Em alternativa, experimente fazer isto: empacote os seus dashboards, relatórios, livros do Excel e conjuntos de dados e publique-os para a sua equipa como um *pacote de conteúdos organizacional*. A sua equipa pode encontrar facilmente os pacotes de conteúdos que criar &#151; estão todos no AppSource. Como fazem parte do Power BI, tiram partido de todas as funcionalidades do Power BI, incluindo a exploração interativa de dados, novos elementos visuais, Perguntas e Respostas, integração com outras origens de dados, atualização de dados e muito mais.
+Distribui regularmente relatórios por e-mail à sua equipa? Em alternativa, experimente fazer isto: empacote os seus dashboards, relatórios, livros do Excel e conjuntos de dados e publique-os para a sua equipa como um *pacote de conteúdos organizacional*. A sua equipa pode encontrar facilmente os pacotes de conteúdos que criar & #151; estão todos no AppSource. Como fazem parte do Power BI, tiram partido de todas as funcionalidades do Power BI, incluindo a exploração interativa de dados, novos elementos visuais, Perguntas e Respostas, integração com outras origens de dados, atualização de dados e muito mais.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 

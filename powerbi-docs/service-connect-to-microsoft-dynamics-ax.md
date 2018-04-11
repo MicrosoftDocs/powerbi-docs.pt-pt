@@ -1,15 +1,15 @@
 ---
-title: "Ligar ao pacote de conteúdos do Microsoft Dynamics AX com o Power BI"
-description: "Pacote de conteúdos do Microsoft Dynamics AX para o Power BI"
+title: Ligar ao pacote de conteúdos do Microsoft Dynamics AX com o Power BI
+description: Pacote de conteúdos do Microsoft Dynamics AX para o Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

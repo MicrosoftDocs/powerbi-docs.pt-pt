@@ -1,15 +1,15 @@
 ---
-title: "Ligar a ficheiros no OneDrive para uma área de trabalho de aplicação do Power BI"
-description: "Saiba como armazenar e ligar aos seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para a sua área de trabalho de aplicação do Power BI."
+title: Ligar a ficheiros no OneDrive para uma área de trabalho de aplicação do Power BI
+description: Saiba como armazenar e ligar aos seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para a sua área de trabalho de aplicação do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

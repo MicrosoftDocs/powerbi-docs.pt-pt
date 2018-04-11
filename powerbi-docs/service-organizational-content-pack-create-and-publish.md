@@ -1,15 +1,15 @@
 ---
-title: "Criar e publicar um pacote de conteúdos organizacionais - Power BI"
-description: "Neste tutorial, vai criar um pacote de conteúdos organizacional, restringir o acesso a um grupo específico e publicá-lo na biblioteca de pacotes de conteúdos da sua organização no Power BI."
+title: Criar e publicar um pacote de conteúdos organizacionais - Power BI
+description: Neste tutorial, vai criar um pacote de conteúdos organizacional, restringir o acesso a um grupo específico e publicá-lo na biblioteca de pacotes de conteúdos da sua organização no Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

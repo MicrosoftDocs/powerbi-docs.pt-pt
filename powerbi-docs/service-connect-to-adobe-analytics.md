@@ -1,15 +1,15 @@
 ---
 title: Ligar ao Adobe Analytics com o Power BI
-description: "Ligue ao Adobe Analytics a partir do Power BI para uma aplicação que apresenta os dados da sua conta num dashboard e relatórios."
+description: Ligue ao Adobe Analytics a partir do Power BI para uma aplicação que apresenta os dados da sua conta num dashboard e relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

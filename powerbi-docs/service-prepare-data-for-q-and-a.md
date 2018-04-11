@@ -2,14 +2,14 @@
 title: Como fazer com que os seus dados do Excel funcionem bem com as Perguntas e Respostas no Power BI
 description: Como fazer com que os seus dados funcionem bem com as Perguntas e Respostas no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

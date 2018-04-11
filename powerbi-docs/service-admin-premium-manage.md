@@ -3,7 +3,7 @@ title: Gerir as capacidades no Power BI Premium e no Power BI Embedded
 description: Saiba como pode gerir o Power BI Premium e permitir a toda a sua organização o acesso a conteúdos.
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/10/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerir as capacidades no Power BI Premium e no Power BI Embedded
 Saiba como pode gerir o Power BI Premium e as capacidades do Power BI Embedded, que fornece recursos dedicados para o seu conteúdo.
@@ -93,7 +93,7 @@ Se tiver núcleos virtuais disponíveis, configure a sua nova capacidade procede
 Os administradores de capacidade, bem como admins do Power BI e os administradores de globais do Office 365, irão ver a capacidade listada no portal de administração.
 
 ### <a name="capacity-settings"></a>Definições de capacidade
-No ecrã de gestão de capacidade do Premium, pode selecionar o **ícone de engrenagem (definições)** em Ações. Isto permite-lhe alterar o nome ou eliminar uma capacidade. Também indica quem são os administradores de serviço, a SKU/tamanho da capacidade e a região onde se encontra.
+No ecrã de gestão de capacidade do Premium, pode selecionar o **ícone de engrenagem (definições)** em Ações. Isto permiti-lhe alterar o nome ou eliminar uma capacidade. Também indica quem são os administradores de serviço, a SKU/tamanho da capacidade e a região onde se encontra.
 
 ![Ações de capacidade na área de gestão de capacidade](media/service-admin-premium-manage/capacity-actions.png)
 
@@ -172,7 +172,7 @@ Os administradores de capacidade, em conjunto com os administradores do Power BI
    | **Áreas de trabalho específicas por utilizador** |Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
 3. Selecione **Aplicar**.
 
-Esta opção não lhe permite atribuir áreas de trabalho específicas a uma capacidade.
+Esta opção não permite-lhe atribuir áreas de trabalho específicas a uma capacidade.
 
 ### <a name="app-workspace-settings"></a>Definições da área de trabalho de aplicação
 Também pode atribuir uma área de trabalho de aplicação a uma capacidade Premium a partir das definições dessa área de trabalho. Para atribuir uma área de trabalho de aplicação a uma capacidade Premium, efetue o seguinte.
@@ -197,7 +197,7 @@ A maioria das vezes, os utilizadores não terão de saber que estão numa capaci
 ![É apresentado um diamante, que indica que a área de trabalho é apoiada pela capacidade Premium](media/service-admin-premium-manage/premium-workspace.png)
 
 ## <a name="power-bi-report-server-product-key"></a>Chave de produto do Power BI Report Server)
-No separador **Definições de capacidade** do portal do administrador do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção estará apenas disponível para administradores globais ou utilizadores com a função de administrador de serviço Power BI atribuída e se tiver adquirido um SKU do Power BI Premium.
+No separador **Definições de capacidade** do portal do administrador do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção estará apenas disponível para administradores globais ou utilizadores com a função de administrador de serviço Power BI atribuída e se tiver adquirido uma SKI Power BI Premium.
 
 ![Chave do Power BI Report Server nas definições de capacidade](media/service-admin-premium-manage/pbirs-product-key.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Ligar aos serviços que utiliza com o Power BI"
-description: "Ligue-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics CRM e Google Analytics."
+title: Ligar aos serviços que utiliza com o Power BI
+description: Ligue-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics CRM e Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

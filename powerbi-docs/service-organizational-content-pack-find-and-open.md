@@ -1,15 +1,15 @@
 ---
-title: "Localizar e ligar a um pacote de conteúdos organizacional – Power BI"
-description: "Encontrar e abrir um pacote de conteúdos organizacional no Power BI"
+title: Localizar e ligar a um pacote de conteúdos organizacional – Power BI
+description: Encontrar e abrir um pacote de conteúdos organizacional no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

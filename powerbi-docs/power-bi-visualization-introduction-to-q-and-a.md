@@ -1,15 +1,15 @@
 ---
-title: "Início rápido - Introdução às Perguntas e Respostas do Power BI"
-description: "Início Rápido: introdução às Perguntas e Respostas do Power BI com o exemplo de Análise de Revenda"
+title: Início rápido - Introdução às Perguntas e Respostas do Power BI
+description: 'Início Rápido: introdução às Perguntas e Respostas do Power BI com o exemplo de Análise de Revenda'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

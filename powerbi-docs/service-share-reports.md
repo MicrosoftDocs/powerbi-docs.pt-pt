@@ -1,13 +1,13 @@
 ---
-title: "Filtrar e partilhar relatórios do Power BI com colegas"
-description: "Saiba como partilhar um relatório do Power BI filtrado com colegas na sua organização."
+title: Filtrar e partilhar relatórios do Power BI com colegas
+description: Saiba como partilhar um relatório do Power BI filtrado com colegas na sua organização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

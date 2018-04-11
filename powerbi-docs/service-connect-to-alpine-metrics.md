@@ -1,15 +1,15 @@
 ---
-title: "Ligue-se às Previsões de Vendas da Alpine Metrics com o Power BI"
+title: Ligue-se às Previsões de Vendas da Alpine Metrics com o Power BI
 description: Expetativas de Vendas da Alpine Metrics para o Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
