@@ -1,15 +1,15 @@
 ---
-title: "Noções básicas do DAX no Power BI Desktop"
-description: "Noções básicas do DAX no Power BI Desktop"
+title: Noções básicas do DAX no Power BI Desktop
+description: Noções básicas do DAX no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
 Este artigo é destinado aos novos utilizadores do Power BI Desktop. O objetivo é oferecer uma introdução rápida e fácil sobre como pode usar o DAX (Data Analysis Expressions) para resolver vários problemas de análise de dados e de cálculo básico. Vamos abordar alguma informação conceptual e uma série de tarefas que pode executar, para além de alguns testes para verificar o que aprendeu. Depois de ler este artigo, deverá ter uma boa compreensão dos conceitos fundamentais mais importantes no DAX.
@@ -40,7 +40,7 @@ Vamos centrar-nos na compreensão das fórmulas DAX usadas em cálculos, mais es
 
 **Livro de Exemplo**
 
-A melhor maneira de aprender sobre o DAX é criar algumas fórmulas básicas, usá-las com alguns dados reais e ver os resultados. Os exemplos e tarefas aqui descritos utilizam o Exemplo de Vendas da Contoso para o ficheiro do Power BI Desktop Preview. Este ficheiro de exemplo é o mesmo usado no artigo “Tutorial: criar as suas próprias medidas no Power BI Desktop”. Pode transferi-lo [aqui](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
+A melhor maneira de aprender sobre o DAX é criar algumas fórmulas básicas, usá-las com alguns dados reais e ver os resultados. Os exemplos e tarefas aqui descritos utilizam o Exemplo de Vendas da Contoso para o ficheiro do Power BI Desktop Preview. Este ficheiro de exemplo é o mesmo usado no artigo [Tutorial: Criar as suas próprias medidas no Power BI Desktop](desktop-tutorial-create-measures.md). Aqui poderá encontrar o [ficheiro de exemplo](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) para transferência.
 
 ## <a name="lets-begin"></a>Vamos começar!
 Vamos estruturar a nossa compreensão do DAX em torno de três conceitos fundamentais: *Sintaxe*, *Funções* e *Contexto*. Claro que há outros conceitos importantes no DAX, mas entender estes três conceitos permitirá uma melhor base para o desenvolvimento das suas competências com o DAX.
@@ -83,7 +83,7 @@ Também observa que a coluna [SalesAmount] era precedida pela tabela Sales, à q
 > 
 > 
 
-É importante que as suas fórmulas tenham a sintaxe correta. Na maioria dos casos, se a sintaxe não estiver correta, será devolvido um erro de sintaxe. Noutros casos, a sintaxe pode estar correta, mas os valores devolvidos podem não ser o que esperava. O editor do DAX no Power BI Desktop inclui sugestões, uma funcionalidade usada para criar fórmulas sintaticamente corretas, ajudando a selecionar os elementos corretos.
+É importante que as suas fórmulas tenham a sintaxe correta. Na maioria dos casos, se a sintaxe não estiver correta, será devolvido um erro de sintaxe. Noutros casos, a sintaxe pode estar correta, mas os valores devolvidos podem não ser o que esperava. O editor de DAX no Power BI Desktop inclui uma funcionalidade de sugestões, que é utilizada para criar fórmulas sintaticamente corretas ao ajudá-lo a selecionar os elementos corretos.
 
 Vamos criar uma fórmula simples. Esta tarefa permitirá perceber melhor a sintaxe da fórmula e como a funcionalidade das sugestões na barra de fórmulas o pode ajudar.
 
@@ -100,7 +100,7 @@ Para concluir esta tarefa, precisará de abrir o ficheiro Exemplo de Vendas da C
     
 4.  Entre os parênteses, digite **CALCULATE**, seguido de um parêntese de abertura.
     
-    Irá usar a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. A isto chamamos aninhamento de funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo um filtro.
+    Irá usar a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. A isto chamamos aninhamento de funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
    
 5.  Entre os parênteses **()** para a função **CALCULATE**, digite **Sales[SalesAmount]**. Este é o primeiro argumento de expressão para a função CALCULATE.
     
@@ -111,7 +111,6 @@ Para concluir esta tarefa, precisará de abrir o ficheiro Exemplo de Vendas da C
 7.  Entre os parêntesis **()** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]**.
     
     A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas.
-    >
     
 8.  Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são precedidos de dois parêntesis de fecho **))**.
     
@@ -144,7 +143,7 @@ As respostas são fornecidas no final deste artigo.
 ### <a name="functions"></a>Funções
 As funções são fórmulas predefinidas que realizam cálculos com valores específicos, chamados argumentos, numa determinada ordem ou estrutura. Os argumentos podem ser outras funções, outra fórmula, expressão, referências de coluna, números, texto, valores lógicos como TRUE ou FALSE, ou constantes.
 
-O DAX inclui as seguintes categorias de funções: [Data e Hora](https://msdn.microsoft.com/library/ee634786.aspx), [Análise de tempo](https://msdn.microsoft.com/library/ee634763.aspx)[,](https://msdn.microsoft.com/library/ee634552.aspx)[Informações](https://msdn.microsoft.com/library/ee634552.aspx), [Lógica](https://msdn.microsoft.com/library/ee634365.aspx)[,](https://msdn.microsoft.com/library/ee634365.aspx)[Matemática](https://msdn.microsoft.com/library/ee634241.aspx), [Estatística](https://msdn.microsoft.com/library/ee634822.aspx), [Texto](https://msdn.microsoft.com/library/ee634938.aspx), [Pai/Filho](https://msdn.microsoft.com/library/mt150102.aspx) e [Outras](https://msdn.microsoft.com/library/mt150101.aspx). Se já estiver familiarizado com as funções em fórmulas do Excel, muitas das funções no DAX irão parecer semelhantes. No entanto, as funções DAX são únicas nos seguintes aspetos:
+O DAX inclui as seguintes categorias de funções: [Data e Hora](https://msdn.microsoft.com/library/ee634786.aspx), [Análise de Tempo](https://msdn.microsoft.com/library/ee634763.aspx), [Informações](https://msdn.microsoft.com/library/ee634552.aspx), [Lógica](https://msdn.microsoft.com/library/ee634365.aspx), [Matemática](https://msdn.microsoft.com/library/ee634241.aspx), [Estatística](https://msdn.microsoft.com/library/ee634822.aspx), [Texto](https://msdn.microsoft.com/library/ee634938.aspx), [Principal/Subordinado](https://msdn.microsoft.com/library/mt150102.aspx) e [Outras](https://msdn.microsoft.com/library/mt150101.aspx). Se já estiver familiarizado com as funções em fórmulas do Excel, muitas das funções no DAX irão parecer semelhantes. No entanto, as funções DAX são únicas nos seguintes aspetos:
 
 * Uma função DAX referencia sempre uma coluna ou uma tabela completa. Se desejar usar apenas valores específicos de uma tabela ou coluna, é possível adicionar filtros à fórmula.
 * Se precisar de personalizar cálculos linha por linha, o DAX fornece funções que permitem usar o valor da linha atual ou um valor relacionado como um tipo de argumento, para realizar cálculos que variam de acordo com o contexto. Irá aprender mais sobre o contexto mais tarde.
@@ -172,7 +171,7 @@ O contexto é um dos conceitos do DAX mais importantes. Há dois tipos de contex
 
 O contexto de filtro é um pouco mais difícil de perceber do que o contexto de linha. É mais fácil pensar no contexto de filtro como um ou mais filtros aplicados num cálculo que determina um resultado ou valor.
 
-O contexto de filtro não existe em vez do contexto de linha; mas aplica-se adicionalmente ao contexto de linha. Por exemplo, para restringir ainda mais os valores a serem incluídos num cálculo, pode aplicar um contexto de filtro que não só especifica o contexto de linha, mas também especifica apenas um valor específico (filtro) nesse contexto de linha.
+O contexto de filtro não existe em vez do contexto de linha; mas aplica-se adicionalmente ao contexto de linha. Por exemplo, para restringir ainda mais os valores a serem incluídos num cálculo, pode aplicar um contexto de filtro, que não só especifica o contexto de linha, mas também especifica apenas um valor específico (filtro) nesse contexto de linha.
 
 O contexto de filtro é visto facilmente nos seus relatórios. Por exemplo, ao adicionar TotalCost a uma visualização e, em seguida, Year e Region, está a definir um contexto de filtro que seleciona um subconjunto de dados com base num determinado ano e região.
 

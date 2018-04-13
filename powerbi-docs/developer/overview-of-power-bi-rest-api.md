@@ -2,14 +2,14 @@
 title: O que posso fazer com a API Power BI
 description: O que posso fazer com a API Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: ae8654df2868a6499dfd4e4626d5f91b67543c58
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a65831e9ca04170464925efd13f02e43ad8027f0
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/06/2018
 ---
-# <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
+# <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 O Power BI apresenta dashboards interativos e que podem ser criados e atualizados a partir de várias origens de dados diferentes em tempo real. Ao utilizar qualquer linguagem de programação que suporte chamadas REST, pode criar aplicações que se integram num dashboard do Power BI em tempo real. Também pode integrar mosaicos e relatórios do Power BI em aplicações.
 
 Os programadores também podem criar as suas próprias visualizações de dados que podem ser utilizadas em relatórios e dashboards interativos. 
@@ -61,7 +61,7 @@ Seguem-se as ferramentas que pode utilizar como ajuda no desenvolvimento de iten
 
 * [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Envio de dados por push para um conjunto de dados](walkthrough-push-data.md)  
 [Introdução às ferramentas de programador de elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md) 
 [referência da API REST do POWER BI](https://msdn.microsoft.com/library/mt147898.aspx)  
