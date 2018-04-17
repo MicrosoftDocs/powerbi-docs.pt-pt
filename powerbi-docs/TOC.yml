@@ -362,8 +362,6 @@
           href: service-reading-view-and-editing-view.md
         - name: Interagir com um relatório na Vista de Edição no Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Sugestões e truques para criar relatórios no serviço Power BI
-          href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Analytics pane (Painel de análise)
           href: service-analytics-pane.md
         - name: Usage metrics for reports (Métrica de utilização para relatórios)
@@ -548,7 +546,7 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: Gerir a sua origem de dados empresarial - atualização importada/agendada
           href: service-gateway-enterprise-manage-scheduled-refresh.md
-    - name: Administração
+    - name: Administration
       items:
         - name: Administering Power BI in your organization (Administrar o Power BI na sua organização)
           href: service-admin-administering-power-bi-in-your-organization.md
