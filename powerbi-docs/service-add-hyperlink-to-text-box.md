@@ -1,32 +1,32 @@
 ---
-title: "Adicionar uma hiperligação a uma caixa de texto num relatório"
-description: "Adicionar uma hiperligação a uma Caixa de Texto no serviço Power BI e no Power BI Desktop"
+title: Adicionar uma hiperligação a uma caixa de texto num relatório
+description: Adicionar uma hiperligação a uma Caixa de Texto no serviço Power BI e no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Adicionar uma hiperligação a uma caixa de texto num relatório
-As caixas de texto podem ser adicionadas a relatórios, afixadas em dashboards de relatórios e adicionadas diretamente a dashboards. As hiperligações podem ser adicionadas a uma caixa de texto, independentemente de onde residem. **Este tópico aborda as caixas de texto nos relatórios no serviço Power BI (mas não no Power BI Desktop).**
+As caixas de texto podem ser adicionadas a relatórios, afixadas em dashboards de relatórios e adicionadas diretamente a dashboards. As hiperligações podem ser adicionadas a uma caixa de texto, independentemente de onde residem.  
 
 > **NOTA**: para obter informações sobre hiperligações nas tabelas e matrizes do Power BI, consulte as [Hiperligações nas tabelas](power-bi-hyperlinks-in-tables.md). Para obter informações sobre como adicionar caixas de texto ao **dashboard**, veja [Adicionar um mosaico diretamente a partir do dasboard](service-dashboard-add-widget.md). 
 > 
@@ -61,8 +61,6 @@ As caixas de texto podem ser adicionadas a relatórios, afixadas em dashboards d
 
 ## <a name="next-steps"></a>Próximos passos
 [Caixas de texto nos relatórios do Power BI](power-bi-reports-add-text-and-shapes.md)
-
-[Adicione uma caixa de texto a um dashboard ](service-dashboard-add-widget.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrar o Power BI na sua organização
 O Microsoft Power BI permite aos utilizadores visualizar dados, partilhar descobertas e colaborar de novas formas intuitivas. Para saber mais, veja [Introdução ao Power BI](service-get-started.md).
@@ -45,17 +45,17 @@ Para obter mais informações sobre a função de administrador do serviço Powe
 * [Como é que os utilizadores se inscrevem no Power BI?](#how-do-users-sign-up-for-power-bi)
 * [Como é que os utilizadores individuais na minha organização se inscrevem?](#how-do-individual-users-in-my-organization-sign-up)
 * [Como posso impedir que os utilizadores se associem ao inquilino existente do Office 365?](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
-* [Como posso permitir que os utilizadores sejam adicionados ao meu inquilino existente do Office 365?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
+* [Como posso permitir que os utilizadores se associem ao inquilino existente do Office 365?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
 * [Como posso verificar se tenho o bloqueio ativado no meu inquilino?](#how-do-i-verify-if-i-have-the-block-on-in-the-tenant)
 * [Como posso impedir que os utilizadores existentes comecem a utilizar o Power BI?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [Como posso permitir que os utilizadores se inscrevam no Power BI?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
 **Administração do Power BI**
 
-* [De que forma isto irá alterar a forma como faço a gestão de identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
+* [Como isto mudará a minha forma de gerir as identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Como gerir o Power BI?](#how-do-we-manage-power-bi)
 * [Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?](#what-is-the-process-to-manage-a-tenant-created-by-Microsoft-for-my-users)
-* [Se tiver vários domínios, posso controlar os utilizadores que são adicionados ao inquilino do Office 365?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
+* [Se eu tiver vários domínios, posso controlar o inquilino do Office 365 ao qual os utilizadores são adicionados?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [Como posso remover o Power BI para os utilizadores já inscritos?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Como posso saber quando são associados novos utilizadores ao inquilino?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Devo estar preparado para outras questões?](#are-there-any-additional-things-i-should-be-prepared-for)
@@ -81,7 +81,7 @@ Cenário 1: a sua organização já tem um ambiente existente do Office 365 e o 
 Neste cenário, se um utilizador já tiver uma conta profissional ou escolar no inquilino (por exemplo, contoso.com), mas ainda não tiver o Power BI, a Microsoft simplesmente ativará o plano para essa conta e o utilizador será notificado automaticamente sobre como utilizar o serviço Power BI.
 
 Cenário 2: a sua organização tem um ambiente existente do Office 365 e o utilizador que está a inscrever-se no Power BI não tem uma conta do Office 365.
-Neste cenário, o utilizador tem um endereço de e-mail no domínio da organização (por exemplo, contoso.com), mas ainda não tem uma conta do Office 365. Neste caso, o utilizador pode inscrever-se no Power BI e ser-lhe-á atribuída uma conta automaticamente. Isto permite ao utilizador aceder ao serviço Power BI. Por exemplo, se uma colaboradora chamada Nancy utilizar o seu endereço de e-mail profissional (por exemplo, Nancy@contoso.com) para se inscrever, a Microsoft irá adicioná-la automaticamente como utilizador no ambiente do Office 365 da Contoso e ativar o Power BI para essa conta.
+Neste cenário, o utilizador tem um endereço de e-mail no domínio da organização (por exemplo, contoso.com), mas ainda não tem uma conta do Office 365. Neste caso, o utilizador pode inscrever-se no Power BI e ser-lhe-á atribuída uma conta automaticamente. Isto permite ao utilizador aceder ao serviço Power BI. Por exemplo, se uma funcionária chamada Nancy utilizar o seu endereço de e-mail profissional (por exemplo, Nancy@contoso.com) para se inscrever, a Microsoft irá adicioná-la automaticamente como utilizador no ambiente do Office 365 da Contoso e ativar o Power BI para essa conta.
 
 Cenário 3: a sua organização não tem um ambiente do Office 365 ligado ao seu domínio de e-mail.
 A sua organização não tem de efetuar ações administrativas para tirar partido do Power BI. Os utilizadores serão adicionados a um novo diretório de utilizador apenas na cloud e terá a opção de assumir o controlo enquanto administrador do inquilino e geri-los.
@@ -185,8 +185,6 @@ Para efetuar os passos seguintes, tem de instalar a versão de 64 bits mais rece
 Se sua organização já tiver um ambiente existente do Office 365, e todos os utilizadores na organização tiverem contas do Office 365, a gestão de identidades não será alterada.
 
 Se a sua organização já tem um ambiente existente do Office 365, mas nem todos os utilizadores na sua organização têm contas do Office 365, vamos criar um utilizador no inquilino e atribuir licenças com base no endereço de e-mail escolar ou profissional do utilizador. Isto significa que o número de utilizadores que está a gerir a qualquer momento irá aumentar, à medida que os utilizadores na sua organização se inscrevem no serviço.
-
-Se estiver a gerir o seu diretório no local e utilizar os Serviços de Federação do Active Directory (AD FS), a Microsoft não adicionará utilizadores ao seu inquilino, e os utilizadores que tentarem associar-se ao inquilino receberão uma mensagem para contactar o administrador da organização.
 
 Se a sua organização não tem um ambiente do Office 365 ligado ao seu domínio de e-mail, não existirá nenhuma alteração na forma como gere a identidade. Os utilizadores serão adicionados a um novo diretório de utilizador apenas na cloud e terá a opção de assumir o controlo enquanto administrador do inquilino e geri-los.
 

@@ -1,28 +1,28 @@
 ---
 title: O Power BI para Office 365 foi extinto
-description: "O Power BI do para 365 foi extinto; obtenha informações sobre como utilizar e administrar o atual Power BI."
+description: O Power BI do para 365 foi extinto; obtenha informações sobre como utilizar e administrar o atual Power BI.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
 backup: amandacofsky
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>O Power BI para Office 365 foi extinto
 O Power BI para Office 365, uma versão anterior do Power BI, transitou para a versão atual do [Power BI](https://powerbi.microsoft.com). Os utilizadores que utilizaram o **Power BI para Office 365** podem utilizar a versão atual do Power BI. Pode [obter mais informações sobre o Power BI](service-get-started.md).
