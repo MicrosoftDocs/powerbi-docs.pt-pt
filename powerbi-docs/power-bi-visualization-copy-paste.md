@@ -1,28 +1,28 @@
 ---
-title: "Copie e cole uma visualização no Power BI"
-description: "Copie e cole uma visualização no Power BI"
+title: Copie e cole uma visualização no Power BI
+description: Copie e cole uma visualização no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8e00bb4ca2e39462624a489dd96bbd2b266aa6c3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Copiar e colar uma visualização no serviço Power BI e no Power BI Desktop
 Copiar e colar uma visualização exige permissões de edição para o relatório. No serviço Power BI, isto significa abrir o relatório na [Vista de Edição](service-reading-view-and-editing-view.md).
@@ -34,8 +34,6 @@ Copiar e colar uma visualização exige permissões de edição para o relatóri
 
 ### <a name="next-steps"></a>Próximos passos
 Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)
-
-[Power BI - Conceitos Básicos](service-basic-concepts.md)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
