@@ -2,27 +2,27 @@
 title: Ligar ao feed OData no Power BI Desktop
 description: Ligar e utilizar facilmente um feed OData no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3b95ccf558484670f8bacd8a031e94f9b0dbbddd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c1a9d95818143e486c2c9252ea957419a2634c62
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Ligar a feeds OData no Power BI Desktop
 No Power BI Desktop, pode ligar-se a um **feed OData** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop.
