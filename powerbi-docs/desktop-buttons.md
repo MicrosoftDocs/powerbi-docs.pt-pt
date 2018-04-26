@@ -72,9 +72,9 @@ A seleção **Anterior** leva o utilizador para a página anterior do relatório
 
 A seleção **Marcador** apresenta a página do relatório associada a um marcador que está definido para o relatório atual. Pode [obter mais informações sobre marcadores no Power BI](desktop-bookmarks.md). 
 
-A seleção **Perguntas e Respostas** na lista pendente apresenta uma janela do **Q&A Explorer**. 
+A seleção **Perguntas e Respostas** na lista pendente apresenta uma janela do **Q&A Explorer** (Explorador de Perguntas e Respostas). 
 
-Alguns botões terão uma ação predefinida selecionada automaticamente. Por exemplo, o botão **Perguntas e Respostas** seleciona automaticamente **Perguntas e Respostas** como a ação predefinida. Pode saber mais sobre o **Q&A Explorer** ao consultar [esta mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer).
+Alguns botões terão uma ação predefinida selecionada automaticamente. Por exemplo, o botão **Perguntas e Respostas** seleciona automaticamente **Perguntas e Respostas** como a ação predefinida. Pode saber mais sobre o **Q&A Explorer** (Explorador de Perguntas e Respostas) ao consultar [esta mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer).
 
 Pode experimentar ou testar os botões que criar para o seu relatório ao utilizar *Ctrl+Clique* no botão que pretende utilizar. 
 
