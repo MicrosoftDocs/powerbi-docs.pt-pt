@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Utilizar colunas calculadas no Power BI Desktop
 Com as colunas calculadas pode adicionar novos dados a uma tabela já presente no seu modelo. Mas em vez de consultar e carregar valores para a nova coluna a partir de uma origem de dados, cria uma fórmula DAX (Data Analysis Expressions) que define os valores da coluna. No Power BI Desktop, as colunas calculadas são criadas através da funcionalidade Nova Coluna na Vista de Relatório.
@@ -38,19 +38,19 @@ As colunas calculadas calculam os resultados através de [DAX](https://msdn.micr
 As fórmulas DAX são semelhantes às fórmulas do Excel. Na verdade, o DAX tem muitas das mesmas funções usadas no Excel. As funções DAX, no entanto, destinam-se a trabalhar com dados fracionados interativamente ou filtrados num relatório, como no Power BI Desktop. Ao contrário do Excel, no qual pode ter uma fórmula diferente para cada linha de uma tabela, uma fórmula DAX criada para uma nova coluna calculará um resultado para cada linha na tabela. Os valores de coluna são recalculados conforme necessário, como quando os dados subjacentes foram atualizados e os valores mudaram.
 
 ## <a name="lets-look-at-an-example"></a>Vejamos um exemplo
-O João é um gestor de expedição da Contoso. Pretende criar um relatório que mostre o número de remessas para cidades diferentes. Tem uma tabela Geography com campos separados para cidade e estado. No entanto, o João quer que os seus relatórios mostrem a cidade e o estado como um único valor, na mesma linha. De momento, a tabela Geography do João não tem o campo que ele pretende.
+Jeff é um gestor de expedição da Contoso. Pretende criar um relatório que mostre o número de remessas para cidades diferentes. Tem uma tabela Geography com campos separados para cidade e estado. No entanto, Jeff quer que os seus relatórios mostrem a cidade e o estado como um único valor, na mesma linha. De momento, a tabela Geography de Jeff não tem o campo que ele pretende.
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
-Todavia, com uma coluna calculada, o João pode simplesmente juntar ou concatenar as cidades da coluna City com os estados da coluna State.
+Todavia, com uma coluna calculada, Jeff pode simplesmente juntar ou concatenar as cidades da coluna City com os estados da coluna State.
 
-O João clica na tabela Geography e, em seguida, clica em Nova Coluna. Depois, introduz a seguinte fórmula DAX na barra de fórmulas:
+Jeff clica na tabela Geography e, em seguida, clica em Nova Coluna. Depois, introduz a seguinte fórmula DAX na barra de fórmulas:
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
 Esta fórmula simplesmente cria uma nova coluna chamada CityState e, para cada linha na tabela Geography, usa os valores da coluna City, adiciona uma vírgula e um espaço e, em seguida, concatena os valores da coluna State.
 
-Agora, o João tem o campo que pretende.
+Agora, Jeff tem o campo que pretende.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 

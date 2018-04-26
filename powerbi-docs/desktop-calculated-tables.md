@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 3b7e3204d918c84acaff1b98bbab0fc09c6f0b87
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Utilizar as tabelas calculadas no Power BI Desktop
 Com tabelas calculadas, pode adicionar uma nova tabela ao modelo. Mas em vez de consultar e carregar valores nas colunas da sua nova tabela a partir de uma origem de dados, cria uma fórmula DAX (Data Analysis Expressions) que define os valores da tabela. No Power BI Desktop, as tabelas calculadas são criadas através da funcionalidade Nova Tabela na Vista de Relatório ou Vista de Dados.
@@ -36,7 +36,7 @@ Ao contrário das tabelas criadas como parte de uma consulta, as tabelas calcula
 As tabelas calculadas calculam os resultados através de [DAX](https://msdn.microsoft.com/library/gg413422.aspx) (Data Analysis Expressions), uma linguagem de fórmula destinada a trabalhar com dados relacionais, como no Power BI Desktop. O DAX inclui uma biblioteca de mais de 200 funções, operadores e construtores, fornecendo enorme flexibilidade na criação de fórmulas para calcular os resultados de praticamente qualquer análise de dados que seja necessária.
 
 ## <a name="lets-look-at-an-example"></a>Vejamos um exemplo
-O João, um gestor de projetos da Contoso, tem uma tabela com colaboradores no Noroeste e outra tabela com colaboradores no Sudoeste. O João deseja juntar as duas numa única tabela.
+O João, um gestor de projetos da Contoso, tem uma tabela com colaboradores no Noroeste e outra tabela com colaboradores no Sudoeste. Jeff deseja juntar as duas numa única tabela.
 
 **NorthwestEmployees**
 
@@ -46,13 +46,13 @@ O João, um gestor de projetos da Contoso, tem uma tabela com colaboradores no N
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Com uma tabela calculada, é muito fácil unir essas duas tabelas. Embora o João possa criar uma tabela calculada na Vista de Relatório ou Vista de Dados, é um pouco mais fácil fazê-lo na Vista de Dados porque assim pode ver de imediato a nova tabela calculada.
+Com uma tabela calculada, é muito fácil unir essas duas tabelas. Embora Jeff possa criar uma tabela calculada na Vista de Relatório ou Vista de Dados, é um pouco mais fácil fazê-lo na Vista de Dados porque assim pode ver de imediato a nova tabela calculada.
 
-Na **Vista de Dados**, no separador **Modelação**, o João clica em **Nova Tabela**. Uma barra de fórmulas é exibida.
+Na **Vista de Dados**, no separador **Modelação**, o Jeff clica em **Nova Tabela**. Uma barra de fórmulas é exibida.
 
  ![](media/desktop-calculated-tables/calctables_formulabarempty.png)
 
-O João introduz então a seguinte fórmula:
+Jeff introduz então a seguinte fórmula:
 
  ![](media/desktop-calculated-tables/calctables_formulabarformula.png)
 
@@ -60,7 +60,7 @@ O João introduz então a seguinte fórmula:
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-A nova tabela Western Region Employees do João aparece como qualquer outra tabela na lista de Campos. Ele pode criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar qualquer dos seus campos a relatórios, tal como com qualquer outra tabela.
+A nova tabela Western Region Employees de Jeff aparece como qualquer outra tabela na lista de Campos. Ele pode criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar qualquer dos seus campos a relatórios, tal como com qualquer outra tabela.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 
