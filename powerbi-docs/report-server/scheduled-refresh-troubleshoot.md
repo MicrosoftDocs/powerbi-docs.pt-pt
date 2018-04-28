@@ -1,15 +1,15 @@
 ---
-title: "Resolução de problemas da atualização agendada no Power BI Report Server"
-description: "Este artigo aborda os recursos disponíveis para resolver problemas com a atualização agendada no Power BI Report Server."
+title: Resolução de problemas da atualização agendada no Power BI Report Server
+description: Este artigo aborda os recursos disponíveis para resolver problemas com a atualização agendada no Power BI Report Server.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Resolução de problemas da atualização agendada no Power BI Report Server
 Este artigo aborda os recursos disponíveis para resolver problemas com a atualização agendada no Power BI Report Server.
@@ -60,7 +60,6 @@ As seguintes definições podem ser utilizadas para afetar a atualização agend
 
 | Definição | Descrição |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |Ativa ou desativa a capacidade de utilizar dados importados nos relatórios. Os valores válidos são True ou False. |
 | MaxFileSizeMb |O tamanho máximo de ficheiro para os relatórios carregados. A predefinição é 1000 MB (1 GB). O valor máximo é 2000 MB (2GB). |
 | ModelCleanupCycleMinutes |Define a frequência de verificação do modelo para expulsá-lo da memória. A predefinição é 15 minutos. |
 | ModelExpirationMinutes |Define o intervalo de tempo até o modelo expirar com base na última utilização e expulsão. A predefinição é 60 minutos. |
