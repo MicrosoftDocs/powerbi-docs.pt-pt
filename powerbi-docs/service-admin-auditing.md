@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Saiba como pode utilizar o auditoria com o Power BI para monitorizar e investigar as ações executadas. Pode utilizar o Centro de Segurança e Conformidade ou utilizar o PowerShell
 
 Saber quem está a realizar ações em que item no inquilino Power BI pode ser fundamental para ajudar a sua organização a satisfazer os requisitos, tais como a conformidade regulamentar e a gestão de registos.
 
 Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard, tipo de relatório, conjunto de dados e tipo de atividade. Também pode transferir as atividades num ficheiro csv (valores separados por vírgulas) para análise offline.
-
-> [!NOTE]
-> A funcionalidade de auditoria no Power BI está no modo de pré-visualização e disponível em todas as regiões de dados.
 
 ## <a name="requirements"></a>Requisitos
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
@@ -47,28 +42,8 @@ Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
 - Se tiver acesso ao registo de auditoria, mas não for um administrador global ou um administrador de Serviço do Power BI, não terá acesso ao portal de Administrador do Power BI. Neste caso, tem de obter uma ligação direta para o Centro de Segurança e Conformidade do Office 365.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Ativar a funcionalidade de auditoria no portal de administração do Power BI
-
-Terá de ativar a auditoria para a sua organização para poder trabalhar com os relatórios. Pode fazê-lo através das definições de inquilino do portal de administração.
-
-1. Selecione o **ícone de engrenagem** no canto superior direito.
-
-2. Selecione **Portal de Administração**.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. Selecione **Definições de inquilino**.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. Ative **Criar registos de auditoria para auditoria e conformidade da atividade interna**.
-
-5. Selecione **Aplicar**.
-
-O Power BI começa a registar diversas atividades que os utilizadores executam no Power BI. Os registos demoram até 48 horas a aparecer no Centro de Segurança e Conformidade do Office 365. Para obter mais informações sobre como as atividades são registadas, consulte [Lista de atividades auditadas pelo Power BI](#list-of-activities-audited-by-power-bi).
-
 > [!NOTE]
-> Para ativar a auditoria do Power BI no seu inquilino, deve ter, pelo menos, uma licença de caixa de correio do Exchange no seu inquilino.
+> Para ver os registos de auditoria do Power BI no inquilino, deve ter, pelo menos, uma licença de caixa de correio do Exchange no inquilino.
 
 ## <a name="accessing-your-audit-logs"></a>Aceder aos seus registos de auditoria
 

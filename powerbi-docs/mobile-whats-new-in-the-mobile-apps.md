@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -29,6 +29,17 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](desktop-latest-update.md)  
 * [Novidades do serviço Power BI](service-whats-new.md)  
+
+## <a name="april-2018"></a>Abril de 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Desagregar e agregar num dispositivo móvel
+
+Agora pode desagregar e agregar para aprofundar os elementos visuais do relatório no dispositivo móvel. Para aceder a esta nova funcionalidade, toque e mantenha o dedo para abrir o menu de descrição num elemento visual de relatório e, em seguida, toque nos botões de desagregação/agregação para explorar os dados em profundidade.
+
+### <a name="persistent-filters"></a>Filtros persistentes
+
+Atualizámos recentemente os filtros de relatório e as segmentações de dados, para que sejam guardados automaticamente a partir do Power BI na Web para a aplicação móvel do Power BI. Agora, os filtros e as segmentações de dados que definiu na aplicação móvel são guardados automaticamente no Power BI na Web.
+
 
 ## <a name="march-2018"></a>Março de 2018
 

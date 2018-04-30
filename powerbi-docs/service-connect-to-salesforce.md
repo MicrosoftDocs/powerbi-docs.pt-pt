@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Ligar-se ao Salesforce com o Power BI
 Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. A criação dessa ligação devolver os dados, além de fornecer automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -70,13 +70,15 @@ Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. 
 * Tente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Alterar os blocos](service-dashboard-edit-tile.md) no dashboard
 * [Selecionar um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente
-* Enquanto o seu conjunto de dados vai ser agendado para ser atualizado diariamente, pode alterar o agendamento de atualização ou tentar atualizá-lo sob pedido em **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos do sistema
-* Estar conectado a uma conta do Salesforce que tenha acesso ativado à API
-* Permissão concedida à aplicação Power BI durante o início de sessão
-* A conta ter chamadas à API suficientes disponíveis para efetuar pull dos dados e atualizá-los
-* Um token de autenticação válido é necessário para a atualização. Certifique-se de que importou no máximo cinco conjuntos de dados do Salesforce, já que o Salesforce tem um limite de cinco tokens de autenticação por aplicação
+## <a name="system-requirements-and-considerations"></a>Requisitos de sistema e considerações
+- Estar conectado a uma conta do Salesforce que tenha acesso ativado à API
+- Permissão concedida à aplicação Power BI durante o início de sessão
+- A conta ter chamadas à API suficientes disponíveis para efetuar pull dos dados e atualizá-los
+- Um token de autenticação válido é necessário para a atualização. Certifique-se de que importou no máximo cinco conjuntos de dados do Salesforce, já que o Salesforce tem um limite de cinco tokens de autenticação por aplicação
+- A API Relatórios do Salesforce tem uma restrição para suportar até 2000 linhas de dados.
+
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Se encontrar algum erro, reveja os requisitos acima. Observe também que não há suporte para a capacidade de início de sessão num domínio personalizado de área atualmente restrita.

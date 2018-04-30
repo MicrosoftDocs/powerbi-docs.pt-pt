@@ -1,15 +1,15 @@
 ---
-title: "Utilizar parâmetros \"E se\" para visualizar variáveis no Power BI Desktop"
-description: "Crie a sua própria variável \"E se\" para imaginar e visualizar variáveis no Power BI"
+title: Utilizar parâmetros "E se" para visualizar variáveis no Power BI Desktop
+description: Crie a sua própria variável "E se" para imaginar e visualizar variáveis no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Criar e utilizar um parâmetro "E se" para visualizar variáveis no Power BI Desktop
 A partir da versão de agosto de 2017 do **Power BI Desktop**, pode criar variáveis **E se** para os seus relatórios, interagir com a variável como uma segmentação de dados e, deste modo, visualizar e quantificar diferentes valores-chave nos seus relatórios.
 
 ![](media/desktop-what-if/what-if_01.png)
 
-O parâmetro **E se** encontra-se no separador **Modelação** do **Power BI Desktop**. Ao fazê-lo, é apresentada uma caixa de diálogo onde pode configurar o parâmetro.
+O parâmetro **E se** está no separador **Modelação** do **Power BI Desktop**. Ao selecioná-lo, é apresentada uma caixa de diálogo onde pode configurar o parâmetro.
 
 ## <a name="creating-a-what-if-parameter"></a>Criar um parâmetro "E se"
 Para criar um parâmetro **E se**, selecione o botão **E se** no separador **Modelação** do **Power BI Desktop**. Na imagem seguinte, criámos um parâmetro denominado *Percentagem de desconto* e definimos o respetivo tipo de dados como *Número decimal*. O valor *Mínimo* é zero e o valor *Máximo* é 0,50 (cinquenta por cento). Também definimos o *Incremento* como 0,05, ou cinco por cento. Trata-se do valor a que o parâmetro se irá ajustar quando for utilizado num relatório.
@@ -37,7 +37,7 @@ Para criar um parâmetro **E se**, selecione o botão **E se** no separador **Mo
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Para números decimais, certifique-se de que são precedidos por zero, tal como em 0,50 versus simplesmente ,50 nessa caixa. Caso contrário, o número não será validado e o botão **OK** não ficará selecionável.
+> Confirme que os números decimais são precedidos por um zero, tal como em 0,50 versus simplesmente ,50. Caso contrário, o número não será validado e o botão **OK** não ficará selecionável.
 > 
 > 
 
@@ -49,7 +49,7 @@ Além de criar o parâmetro, a criação de um parâmetro **E se** também cria 
 
 ![](media/desktop-what-if/what-if_04.png)
 
-É importante e útil ter em conta que depois de criar um parâmetro **E se**, o parâmetro e a medida tornam-se parte do modelo. Assim, estão disponíveis em todo o relatório e podem ser utilizados noutras páginas do relatório. Além disso, como fazem parte do modelo, pode eliminar a segmentação de dados da página do relatório e, se a quiser de volta, basta captar o parâmetro **E se** da lista **Campos** e arrastá-lo para a tela (em seguida, altere o elemento visual para uma segmentação de dados) para obter facilmente o parâmetro **E se** novamente no relatório.
+É importante e útil ter em conta que depois de criar um parâmetro **E se**, o parâmetro e a medida tornam-se parte do modelo. Assim, estão disponíveis em todo o relatório e podem ser utilizados noutras páginas do relatório. Além disso, como fazem parte do modelo, pode eliminar a segmentação de dados da página do relatório ou, se a quiser de volta, basta captar o parâmetro **E se** da lista **Campos** e arrastá-lo para a tela (em seguida, altere o elemento visual para uma segmentação de dados) para obter facilmente o parâmetro novamente no relatório.
 
 ## <a name="using-a-what-if-parameter"></a>Utilizar um parâmetro "E se"
 Vamos criar um exemplo simples de utilização de um parâmetro **E se**. Criámos o parâmetro **E se** na secção anterior e agora vamos utilizá-lo ao criar uma nova medida cujo valor é ajustado ao controlo de deslize. Para tal, vamos criar uma nova medida.

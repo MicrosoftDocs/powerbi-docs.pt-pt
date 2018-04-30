@@ -1,36 +1,36 @@
 ---
-title: "Optar ativamente por participar na pré-visualização de funcionalidades"
-description: "Como ativar (e desativar) as funcionalidades do Power BI que estão em pré-visualização."
+title: Optar ativamente por participar na pré-visualização de funcionalidades
+description: Como ativar (e desativar) as funcionalidades do Power BI que estão em pré-visualização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>Optar ativamente por participar na pré-visualização de funcionalidades do Power BI
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Optar ativamente por participar nas funcionalidades de pré-visualização do Serviço Power BI
 ## <a name="what-are-preview-features"></a>O que são *funcionalidades de pré-visualização*?
-À medida que melhoramos o Power BI, vamos lançar algumas novas funcionalidades como *funcionalidades de pré-visualização*. As funcionalidades de pré-visualização podem ser ativadas e desativadas, dando-lhe a oportunidade de experimentá-las.
+À medida que melhoramos o serviço Power BI, vamos lançar algumas novas funcionalidades como *funcionalidades de pré-visualização*. As funcionalidades de pré-visualização podem ser ativadas e desativadas, dando-lhe a oportunidade de experimentá-las.
 
 > [!TIP]
-> Tem perguntas ou comentários? [Visite o fórum da comunidade do Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
+> As funcionalidades de pré-visualização também estão disponíveis para o Power BI Desktop. Para obter mais informações, [visite o fórum da comunidade do Power BI Desktop](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer).
 > 
 > 
 

@@ -1,15 +1,15 @@
 ---
-title: "Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI"
-description: "Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações."
+title: Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI
+description: Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
@@ -58,8 +58,7 @@ As contas que se seguem têm de existir no seu inquilino.
 
 > [!NOTE]
 > Estas contas têm de ter licenças do Power BI Pro para poderem utilizar as áreas de trabalho da aplicação.
-> 
-> 
+>
 
 1. Um utilizador administrador do inquilino.
    
@@ -71,10 +70,13 @@ As contas que se seguem têm de existir no seu inquilino.
    
     O back-end da aplicação irá armazenar as credenciais desta conta e utilizá-las para obter um token do Azure AD para utilização com as APIs REST do Power BI. Esta conta será utilizada para gerar o token de incorporação para a aplicação. Esta conta também tem de ser um administrador das áreas de trabalho da aplicação criadas para fins de incorporação.
    
-   > [!NOTE]
-   > Esta é apenas uma conta de utilizador normal na sua organização que será utilizada para fins de incorporação.
-   > 
-   > 
+> [!NOTE]
+> Esta é apenas uma conta de utilizador normal na sua organização que será utilizada para fins de incorporação.
+>
+
+> [!NOTE]
+> Se a Autenticação de Token Apenas de Aplicação for um requisito para a aplicação, clique [aqui](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) para nos contactar.
+>
 
 ## <a name="app-registration-and-permissions"></a>Registo da aplicação e permissões
 Terá de registar uma aplicação no Azure AD e conceder determinadas permissões.
@@ -126,12 +128,12 @@ Os conjuntos de dados em cache reportam a ficheiros PBIX com dados importados, p
 #### <a name="directquery-dataset--report"></a>Relatório e conjunto de dados de DirectQuery
 **Fluxo**
 
-1. Chame GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources e guarde a cadeia de ligação recebida.
+1. Chame GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources e guarde a cadeia de ligação que recebeu.
 2. Chame a API Transferir PBIX a partir da área de trabalho PaaS.
 3. Guarde o PBIX.
 4. Chame Importar PBIX para a área de trabalho SaaS.
 5. Atualize a cadeia de ligação ao chamar - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. Obtenha o ID de GW e o ID da origem de dados ao chamar - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. Obtenha a ID de GW e a ID de origem de dados ao chamar - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Atualize as credenciais do utilizador ao chamar - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Relatórios e conjunto de dados antigos

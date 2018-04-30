@@ -1,40 +1,40 @@
 ---
 title: Otimizar um elemento visual do Power BI para qualquer tamanho
-description: "Saiba como otimizar os elementos visuais do Power BI Desktop e do serviço Power BI para as aplicações de telemóvel do Power BI."
+description: Saiba como otimizar os elementos visuais nos relatórios existentes do Power BI Desktop e do serviço Power BI para as aplicações de telemóvel do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c80048213b20365102bcb9c6842c342d8b9052b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Otimizar um elemento visual do Power BI para qualquer tamanho
-Pode definir os elementos visuais no seu dashboard ou relatório como *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã.
+Por predefinição, quando cria um novo relatório, os elementos visuais são *reativos*: mudam de forma dinâmica para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. Nos relatórios mais antigos, pode definir os elementos visuais para também serem redimensionados dinamicamente.
 
 À medida que o elemento visual muda de tamanho, o Power BI dá prioridade à vista de dados, por exemplo, ao remover o preenchimento e ao mover a legenda para a parte superior do elemento visual automaticamente, para que o elemento visual permaneça informativo mesmo enquanto fica mais pequeno. A capacidade de resposta é especialmente útil em elementos visuais na aplicação móvel do Power BI em telemóveis.
 
 ![Redimensionamento de elemento visual reativo](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
-Pode ativar a capacidade de resposta para qualquer elemento visual com os eixos X e Y, e as segmentações.
+Qualquer elemento visual com os eixos X e Y e segmentações pode ser redimensionado de forma reativa.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Ativar a capacidade de resposta no Power BI Desktop
-1. No Power BI Desktop, no separador **Ver**, certifique-se de que está no **Esquema de Ambiente de Trabalho**.
+1. Num relatório mais antigo do Power BI Desktop, no separador **Ver**, verifique se está no **Esquema de Ambiente de Trabalho**.
    
     ![Ícone do Esquema de Ambiente de Trabalho](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Selecione um elemento visual e, no painel **Visualizações**, selecione a secção **Formato**.
@@ -45,19 +45,18 @@ Pode ativar a capacidade de resposta para qualquer elemento visual com os eixos 
      Agora, quando [criar um relatório otimizado para telemóvel](desktop-create-phone-report.md) e adicionar este elemento visual, o mesmo será redimensionado corretamente.
 
 ## <a name="turn-on-responsiveness-in-the-power-bi-service"></a>Ativar a capacidade de resposta no serviço Power BI
-Ative a capacidade de resposta para um elemento visual num relatório do serviço Power BI. Terá de conseguir editar o relatório.
+Pode ativar a capacidade de resposta para um elemento visual num relatório mais antigo do serviço Power BI. Terá de conseguir editar o relatório.
 
-1. Num relatório no serviço Power BI ([https://powerbi.com](https://powerbi.com)), selecione **Editar Relatório**.
+1. Num relatório do serviço Power BI ([https://powerbi.com](https://powerbi.com)), selecione **Editar Relatório**.
 2. Selecione um elemento visual e, no painel **Visualizações**, selecione a secção **Formato**.
 3. Expanda **Geral** > deslize **Reativo** para **Ligado**.
    
     ![Reativo ligado](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
-     Agora, quando [criar uma vista de telemóvel de um dashboard](service-create-dashboard-mobile-phone-view.md) e adicionar este elemento visual, será redimensionado corretamente.
+     Agora, quando [criar uma vista deste relatório no telemóvel](desktop-create-phone-report.md) e adicionar este elemento visual, este será redimensionado corretamente.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Criar relatórios otimizados para aplicações de telemóvel do Power BI](desktop-create-phone-report.md)
-* [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Ver relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

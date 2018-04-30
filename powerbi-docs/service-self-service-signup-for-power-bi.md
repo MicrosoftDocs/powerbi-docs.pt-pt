@@ -1,13 +1,13 @@
 ---
-title: "Inscrever-se no Power BI como um indivíduo"
-description: "Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização."
+title: Inscrever-se no Power BI como um indivíduo
+description: Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como um indivíduo
 Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização.
@@ -88,9 +88,9 @@ Para se inscrever no Power BI, pode fazer o seguinte.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Selecione a ligação no e-mail para confirmar o seu endereço de e-mail. Isto leva-o de novo para o processo de inscrição. Poderá ter de fornecer algumas informações adicionais sobre si.
-7. Será encaminhado para https://app.powerbi.com e poderá começar a usar o Power BI como um utilizador gratuito.
+7. Será encaminhado para https://app.powerbi.com e poderá começar a usar o Power BI como um utilizador gratuito.
 
-### <a name="what-this-looks-like-within-the-service"></a>Aspeto dentro do serviço
+### <a name="what-this-looks-like-within-the-service"></a>Aparência dentro do serviço
 Quando estiver ligado ao serviço, poderá verificar se tem uma conta gratuita indo até ao ícone de **engrenagem** e selecionando **Gerir armazenamento pessoal**.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)

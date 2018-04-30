@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: e6cf99ab981bb16e4d423733972798b5ca5f53e6
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adicionar um filtro a um relatório do serviço Power BI (na Vista de Edição)
 > [!TIP]
-> Recomendamos que leia primeiro o artigo [Sobre filtros e realces em relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).
+> Recomendamos que leia primeiro o artigo [Acerca de filtros e realce nos relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).
 
 Os exemplos presentes neste artigo mostram o serviço Power BI. No entanto, os passos são praticamente idênticos aos do Power BI Desktop.
 > 
@@ -109,7 +109,7 @@ Se guardar o relatório com o filtro, os leitores do relatório poderão interag
 Com a pormenorização no serviço Power BI e no Power BI Desktop, pode criar uma página de relatório de *destino* que se foca numa entidade específica - por exemplo, um fornecedor, cliente ou fabricante. Agora, a partir das outras páginas do relatório, os utilizadores podem clicar com o botão direito do rato num ponto de dados para essa entidade e pormenorizar até à página focada.
 
 ### <a name="create-a-drillthrough-filter"></a>Criar um filtro de pormenorização
-Para acompanhar, abra o exemplo de Rentabilidade do Cliente na Vista de Edição. Suponhamos que quer uma página que se foque em Áreas de negócio executivas.   
+Para acompanhar, abra o exemplo de Rentabilidade do Cliente na Vista de edição. Suponhamos que quer uma página que se foque em Áreas de negócio executivas.   
 
 1. Adicione uma nova página ao relatório e dê-lhe o nome **Equipa Executiva**. Esta será a página de *destino* da pormenorização.
 2. Adicione visualizações que controlam as métricas-chave para as áreas de negócio da equipa executiva.    
@@ -117,7 +117,7 @@ Para acompanhar, abra o exemplo de Rentabilidade do Cliente na Vista de Edição
    
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Tenha em atenção que o Power BI adiciona uma seta para trás à página do relatório.  Quando os utilizadores selecionam a seta para trás, voltam à página de relatório de *origem* – a página onde estavam quando optaram pela pormenorização. A seta para trás só funciona na Vista de Leitura.
+    Tenha em atenção que o Power BI adiciona uma seta para trás à página do relatório.  Quando os utilizadores selecionam a seta para trás, voltam à página de relatório de *origem* – a página onde estavam quando optaram pela pormenorização. A seta para trás só funciona na Vista de leitura.
    
      ![](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -148,7 +148,7 @@ Quando adiciona um filtro de nível de elemento visual, o Power BI filtra os res
 
 Quando adiciona um filtro de nível de página, o Power BI filtra sem agregação.  Fá-lo porque uma página pode ter vários elementos visuais e cada um deles pode utilizar diferentes tipos de agregação.  Por conseguinte, o filtro é aplicado em cada linha de dados.
 
-Se não vir o painel Campos, certifique-se de que está na [Vista de Edição](service-interact-with-a-report-in-editing-view.md) do relatório
+Se não vir o painel Campos, certifique-se de que está na [Vista de edição](service-interact-with-a-report-in-editing-view.md) do relatório
 
 ## <a name="next-steps"></a>Passos seguintes
  [Como utilizar filtros de relatório](power-bi-how-to-report-filter.md)

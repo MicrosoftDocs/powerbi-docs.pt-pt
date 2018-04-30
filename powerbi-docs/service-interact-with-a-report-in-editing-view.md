@@ -1,31 +1,33 @@
 ---
-title: "Interagir com um relatório na Vista de edição (Tutorial)"
-description: "Interagir com um relatório na Vista de edição de um relatório no serviço Power BI"
+title: Interagir com um relatório na Vista de edição (Tutorial)
+description: Interagir com um relatório na Vista de edição de um relatório no serviço Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagir com um relatório na Vista de edição no serviço Power BI
-Os relatórios podem ser editados no serviço Power BI e no Power BI Desktop – se tiver permissões de proprietário. Ao contrário do Power BI Desktop, o serviço Power BI tem dois modos diferentes para interagir com os relatórios: [Vista de leitura](service-reading-view-and-editing-view.md) para os *consumidores* de relatório e Vista de edição para os proprietários e os criadores do relatório. Este tutorial do artigo abrange a Vista de edição do serviço Power BI. 
+Os relatórios podem ser criados e editados no serviço Power BI e no Power BI Desktop. No serviço Power BI, os relatórios podem ser criados e editados na **Vista de edição**. No Power BI Desktop, os relatórios podem ser criados e editados na [**Vista de relatório**](desktop-report-view.md). Este artigo aborda a Vista de edição do serviço Power BI. 
+
+O serviço Power BI tem dois modos diferentes para interagir com os relatórios: [Vista de leitura](service-reading-view-and-editing-view.md) para os *consumidores* do relatório e Vista de edição para os proprietários e os criadores do relatório.  Uma licença Power BI Pro é necessária para a partilha de relatórios, bem como para edição dos relatórios criados por outros utilizadores. Se for um utilizador gratuito do Power BI, ainda poderá criar relatórios, mas não conseguirá utilizar a [partilha](service-share-reports.md).    
 
 Na Vista de edição do relatório, tem muita flexibilidade na exploração e na conceção de um relatório. Toda a funcionalidade da [Vista de leitura](service-reading-view-and-editing-view.md) está disponível, além de muitas outras coisas. A Vista de edição só está disponível para a pessoa que criou o relatório ou para os colegas que são [coproprietários de um relatório como um membro ou um administrador de uma área de trabalho da aplicação](service-create-distribute-apps.md).
 
@@ -42,6 +44,9 @@ Veja a lista de tópicos sob o cabeçalho **Relatórios** no Índice à esquerda
 * Mostrar os dados utilizados para criar a visualização 
 * Configurar pormenorização
 * Duplicar uma página de relatório
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+É necessária uma licença do Power BI Pro para editar relatórios criados por outros utilizadores, bem como para partilhar os relatórios com os outros utilizadores.  Se for um utilizador gratuito do Power BI, ainda poderá criar relatórios, mas não conseguirá utilizar a [partilha](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Próximos passos

@@ -1,6 +1,6 @@
 ---
-title: Copiar um relatório do Power BI
-description: Criar um novo relatório do Power BI a partir de outro relatório.
+title: Copiar um relatório no serviço Power BI
+description: Crie um novo relatório do Power BI a partir de outro relatório do serviço Power BI.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>Crie um novo relatório a partir de um relatório existente
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Criar um novo relatório a partir de um relatório existente (copiar um relatório)
 Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns elementos visuais que pretende voltar a utilizar ou modificar.  Porque não simplesmente copiar esse relatório como base para um novo relatório?  Para fazê-lo:
 
 1. [Abra um relatório](service-report-open.md).
@@ -44,6 +44,8 @@ Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns
 5. Divirta-se a atualizar e editar o seu novo relatório.
 
 ## <a name="next-steps"></a>Passos Seguintes:
-[Crie novas visualizações](power-bi-report-add-visualizations-ii.md)
+[Criar novas visualizações](power-bi-report-add-visualizations-ii.md)
 
-[Elimine visualizações](service-delete.md) que não precisa
+[Eliminar visualizações](service-delete.md) que não precisa
+
+[Criar um relatório com o Power BI Desktop](desktop-report-view.md)

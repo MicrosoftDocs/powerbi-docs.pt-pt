@@ -2,14 +2,14 @@
 title: Utilizar o elemento visual Matriz no Power BI Desktop
 description: Saiba como o elemento visual Matriz ativa esquemas graduais e realces granulares no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Utilizar o elemento visual Matriz no Power BI Desktop
-Com o elemento visual **Matriz**, pode criar elementos visuais de matriz (por vezes também designados por *tabelas*) em relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros elementos visuais. Além disso, pode selecionar linhas, colunas, células individuais e realces cruzados. Por último, para garantir uma melhor utilização do espaço de esquema, o elemento visual de matriz suporta um esquema gradual.
+Com a funcionalidade visual **Matriz**, pode criar elementos visuais de matriz (por vezes, também designados *tabelas*) em relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros elementos visuais. Além disso, pode selecionar linhas, colunas, células individuais e realces cruzados. Por último, para garantir uma melhor utilização do espaço de esquema, o elemento visual de matriz suporta um esquema gradual.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -63,25 +63,25 @@ Quando o elemento visual tem um agrupamento criado na secção **Linhas**, o ele
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-Semelhante ao comportamento de desagregação e expansão noutros elementos visuais, a seleção desses botões permite-nos desagregar (ou efetuar cópias de segurança) através da hierarquia. Neste caso, podemos desagregar de *Categoria* para *Subcategoria*, conforme mostrado na imagem seguinte, onde o ícone de um nível de desagregação (a forquilha) foi selecionado.
+Semelhante ao comportamento de desagregação e expansão noutros elementos visuais, a seleção desses botões permite-nos desagregar (ou efetuar cópias de segurança) através da hierarquia. Neste caso, podemos desagregar de *Categoria* para *Subcategoria*, conforme mostrado na imagem seguinte, em que o ícone de desagregação de um nível (a forquilha) foi selecionado.
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
-Além de utilizar estes ícones, pode clicar com o botão direito do rato em qualquer um dos cabeçalhos de linha e desagregar ao selecionar a partir do menu apresentado.
+Além de utilizar estes ícones, pode clicar com o botão direito do rato em qualquer um dos cabeçalhos de linha e desagregar ao selecionar no menu apresentado.
 
 ![](media/desktop-matrix-visual/matrix-visual_7.png)
 
-Tenha em atenção que existem algumas opções no menu apresentado, o que gera resultados diferentes:
+Tenha em atenção que existem algumas opções no menu apresentado, mas que geram resultados diferentes:
 
 Selecionar **Desagregar** expande a matriz para *esse* nível de linha e *exclui* todos os outros cabeçalhos de linha, exceto o cabeçalho de linha clicado com o botão direito do rato. Na imagem seguinte, *Computadores* foi clicado com o botão direito do rato e foi selecionado **Desagregar**. Tenha em atenção que outras linhas de nível superior já não aparecem na matriz. Esta é uma funcionalidade útil e torna-se especialmente útil quando chegamos à secção **realce cruzado**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-Podemos clicar no ícone **Agregar** para voltar à vista de nível superior anterior. Se selecionarmos **Mostrar Nível Seguinte** a partir do menu de contexto, obtemos uma lista alfabética de todos os itens do nível seguinte (neste caso, o campo *Subcategoria*), sem a categorização da hierarquia de nível mais elevado.
+Pode clicar no ícone **Agregar** para voltar à vista de nível superior anterior. Se selecionar **Mostrar Nível Seguinte** no menu de contexto, obtém uma lista alfabética de todos os itens do nível seguinte (neste caso, o campo *Subcategoria*), sem a categorização da hierarquia de nível mais elevado.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Quando clicamos no ícone **Agregar** no canto superior esquerdo para que a matriz mostre todas as categorias de nível superior, clique novamente com o botão direito do rato e selecionamos **Expandir para o nível seguinte**, vemos o seguinte:
+Quando clica no ícone **Agregar** no canto superior esquerdo para que a matriz mostre todas as categorias de nível superior e, em seguida, clica novamente com o botão direito do rato e seleciona **Expandir para o nível seguinte**, verá o seguinte:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,11 +96,11 @@ No elemento visual **Matriz**, quando clicamos com o botão direito do rato numa
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-Quando **Desagregar** estiver selecionado, é apresentado o nível seguinte da hierarquia de colunas para *Deluxe*, neste caso *Cor*.
+Quando seleciona **Desagregar**, é apresentado o nível seguinte da hierarquia de colunas para *Deluxe*, neste caso *Cor*.
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-Os restantes itens de menu de contexto funcionam em Colunas da mesma forma que para linhas (veja a secção anterior, **Desagregação em cabeçalhos de linha**). Pode **Mostrar Nível Seguinte**, **Expansão para o nível seguinte** e **Incluir** ou **Excluir** as colunas, tal como faria com linhas.
+Os restantes itens do menu de contexto funcionam em colunas da mesma forma que para as linhas (veja a secção anterior, **Desagregação em cabeçalhos de linha**). Pode **Mostrar Nível Seguinte**, **Expandir para o nível seguinte**, **Incluir** ou **Excluir** as colunas, tal como faria com as linhas.
 
 > [!NOTE]
 > Os ícones de desagregação e agregação na parte superior esquerda do elemento visual de matriz aplicam-se apenas a linhas. Para desagregação em colunas, tem de utilizar o menu de contexto.
@@ -108,17 +108,17 @@ Os restantes itens de menu de contexto funcionam em Colunas da mesma forma que p
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Esquema gradual com elementos visuais de matriz
-O elemento visual **Matriz** avança automaticamente as subcategorias numa hierarquia por baixo de cada principal, o que é designado por **esquema gradual**.
+O elemento visual **Matriz** avança automaticamente as subcategorias numa hierarquia por baixo de cada categoria principal, o que é designado por **Esquema gradual**.
 
 Na versão *original* do elemento visual de matriz, as subcategorias foram mostradas numa coluna completamente diferente, o que ocupa muito mais espaço no elemento visual. A imagem seguinte mostra a tabela no elemento visual **Matriz** original; repare nas subcategorias numa coluna completamente separada.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-Na imagem seguinte, verá um elemento visual **Matriz** com o **esquema gradual** em ação. Tenha em atenção que a categoria *Computadores* tem as respetivas subcategorias (Acessórios de Computadores, Computadores de Secretária, Computadores Portáteis, Monitores, etc.) ligeiramente avançadas, o que fornece um elemento visual mais limpo e muito mais condensado.
+Na imagem seguinte, verá um elemento visual **Matriz** com o **Esquema gradual** em ação. Tenha em atenção que a categoria *Computadores* tem as respetivas subcategorias (Acessórios de Computadores, Computadores de Secretária, Computadores Portáteis, Monitores, etc.) ligeiramente avançadas, o que fornece um elemento visual mais limpo e muito mais condensado.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Pode ajustar facilmente as definições do **esquema gradual**. Com o elemento visual **Matriz** selecionado, na secção **Formatar** (o ícone de rolo) do painel **Visualizações**, expanda a secção **Cabeçalhos de linha**. Existem duas opções: o seletor **Esquema gradual** (que ativa ou desativa) e o botão **Avanço de esquema gradual** (especifica a quantidade de avanço em pixéis).
+Pode ajustar facilmente as definições do esquema gradual. Com o elemento visual **Matriz** selecionado, na secção **Formatar** (o ícone de rolo) do painel **Visualizações**, expanda a secção **Cabeçalhos de linha**. Tem duas opções: o seletor **Esquema gradual** (que ativa ou desativa) e o botão **Avanço de esquema gradual** (especifica a quantidade de avanço em pixéis).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,21 +136,21 @@ Na secção **Formatar** do painel **Visualizações**, expanda o cartão **Subt
 É aplicado o mesmo processo aos subtotais da coluna.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Realce cruzado com elementos visuais de matriz
-Com o elemento visual **Matriz**, quaisquer elementos na matriz podem ser selecionados como base para realce cruzado. Selecione uma coluna numa **Matriz** e essa coluna fica realçada, como quaisquer outros elementos visuais na página de relatório. Esta foi uma funcionalidade comum de outros elementos visuais e da seleção de um ponto de dados e agora o elemento visual **Matriz** pode fazer parte.
+Com o elemento visual **Matriz**, pode selecionar quaisquer elementos na matriz como base para o realce cruzado. Selecione uma coluna numa **Matriz** e essa coluna fica realçada, como quaisquer outros elementos visuais na página de relatório. Esta foi uma funcionalidade comum de outros elementos visuais e de seleções de ponto de dados, pelo que, agora o elemento visual **Matriz** oferece a mesma função.
 
-Além disso, a combinação CTRL+Clique também funciona no realce cruzado. Por exemplo, na imagem seguinte, foi selecionada uma coleção de subcategorias a partir do elemento visual **Matriz**. Repare como os itens que não foram selecionados a partir do elemento visual estão desativados e como os outros elementos visuais na página refletem as seleções efetuadas no elemento visual **Matriz**.
+Além disso, a combinação Ctrl+Clique também funciona no realce cruzado. Por exemplo, na imagem seguinte, foi selecionada uma coleção de subcategorias a partir do elemento visual **Matriz**. Repare como os itens que não foram selecionados a partir do elemento visual estão desativados e como os outros elementos visuais na página refletem as seleções efetuadas no elemento visual **Matriz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreado e cores de tipo de letra com elementos visuais de matriz
-Com o elemento visual **Matriz**, pode aplicar **formatação condicional** (cores e sombreado) ao fundo das células na matriz, bem como ao texto e aos valores.
+Com o elemento visual **Matriz**, pode aplicar **Formatação condicional** (cores e sombreado) ao fundo das células na matriz, bem como ao texto e aos valores.
 
 Para aplicar formatação condicional, pode efetuar qualquer um dos procedimentos seguintes quando está selecionado um elemento visual de matriz:
 
 * No painel **Campos**, clique com o botão direito do rato e selecione **Formatação condicional** no menu.
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* Em alternativa, no painel **Formatar**, expanda o cartão **Formatação condicional** e, para **Escalas de cores de fundo** ou **Escalas de cores de tipo de letra**, coloque o controlo de deslize como **Ativado**. Ativar qualquer uma das opções apresenta uma ligação para *Controlos avançados*, que lhe permite personalizar as cores e os valores da formatação de cores.
+* Em alternativa, no painel **Formatar**, expanda o cartão **Formatação condicional** e, para **Escalas de cores de fundo** ou **Escalas de cores de tipo de letra**, coloque o controlo de deslize como **Ativado**. Ativar qualquer uma das opções apresenta uma ligação para *Controlos avançados*, que lhe permitem personalizar as cores e os valores da formatação de cores.
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 

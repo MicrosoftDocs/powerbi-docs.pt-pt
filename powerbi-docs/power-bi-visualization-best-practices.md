@@ -1,28 +1,28 @@
 ---
-title: "Melhores práticas de design para relatórios e elementos visuais (documento técnico)"
-description: "Documento técnico: melhores práticas para criar relatórios no Power BI"
+title: Melhores práticas de design para relatórios e elementos visuais (documento técnico)
+description: 'Documento técnico: melhores práticas para criar relatórios no Power BI'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Melhores práticas de design para relatórios e elementos visuais
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Se os gráficos de linhas são os mais comuns para ver dados ao longo do tempo, 
 
 Para obter mais detalhes sobre os gráficos de barras e colunas:
 
-* [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou) (Introdução aos gráficos de barras)
+* [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts) (Introdução aos gráficos de barras)
 * [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Catálogo de Visualizações de Dados: Gráfico de Barras)
 * [Data Visualization Catalogue: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) (Catálogo de Visualizações de Dados: Gráfico de Barras de Múltiplos Conjuntos)
 
@@ -750,7 +750,7 @@ O gráfico de bolhas abaixo analisa a América do Sul e compara o PIB por capita
 
 **Figura 62: PIB e população da América do Sul como gráfico de bolhas**
 
-Se adicionar um eixo de reprodução, pode fingir que é o Hans Rosling e contar a história ao longo do tempo (https://www.youtube.com/watch?v=PbaDBJWCeD4). Para adicionar um eixo de reprodução, arraste um campo datetime para **Play Axis** (Eixo de Reprodução).
+Se adicionar um eixo de reprodução, poderá fingir que é o Hans Rosling e contar a história ao longo do tempo (https://www.youtube.com/watch?v=PbaDBJWCeD4)). Para adicionar um eixo de reprodução, arraste um campo datetime para **Play Axis** (Eixo de Reprodução).
 
 #### <a name="best-practices"></a>Melhores práticas
 * Os gráficos de dispersão e de bolhas são excelentes para contar histórias. No entanto, não são tão úteis para explorar dados.  É isto mesmo que Stephen Few constata no parágrafo seguinte *A vantagem desta abordagem é quando é utilizada para contar uma história. Quando Rosling narra o que está a acontecer no gráfico à medida que as bolhas se movem e mudam de valor, apontando para o que quer que nós vejamos, as informações ganham vida. No entanto, os gráficos de bolhas animados são muito menos eficazes para explorar e compreender os dados por nossa conta. Duvido que Rosling utilize este método para descobrir as histórias; deve utilizá-lo apenas para contá-las quando já forem conhecidas. Não podemos ver várias bolhas ao mesmo quando estão em movimento, pelo que somos obrigados a executar a animação repetidamente para tentar perceber o que está a acontecer. Podemos adicionar trilhos a determinadas bolhas, o que nos permite rever o caminho completo que seguiram, mas se os utilizarmos em muitas bolhas, o gráfico rapidamente fica demasiado desorganizado. O que estou a dizer, basicamente, é que esta não é a melhor forma de apresentar estas informações para análise e exploração.*

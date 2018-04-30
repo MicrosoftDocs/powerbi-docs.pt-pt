@@ -1,35 +1,39 @@
 ---
-title: "Apresentar dashboards, mosaicos do dashboard, páginas de relatórios e visualizações de relatórios no modo de ecrã inteiro"
-description: "Apresentar dashboards, mosaicos do dashboard, elementos visuais do relatório e páginas de relatórios no modo de ecrã inteiro, também conhecido como *Modo de TV*."
+title: Apresentar dashboards, mosaicos, páginas de relatórios e visualizações no modo de ecrã inteiro
+description: Apresentar dashboards, mosaicos do dashboard, elementos visuais do relatório e páginas de relatórios no modo de ecrã inteiro, também conhecido como *Modo de TV*.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Modo de ecrã inteiro no Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>Modo de ecrã inteiro no serviço Power BI
 ## <a name="what-is-full-screen-mode"></a>O que é o modo de ecrã inteiro?
 ![dashboard no modo de ecrã inteiro, antes e depois](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Mostre os seus conteúdos (dashboards, relatórios, páginas, mosaicos e visualizações) sem a distração dos menus e das barras de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Isto, às vezes, é chamado de Modo de TV. As funcionalidades disponíveis no modo de ecrã inteiro variam consoante o conteúdo.  
+Mostre os seus conteúdos do Power BI (dashboards, relatórios, páginas, mosaicos e visualizações) sem a distração dos menus e das barras de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Isto, às vezes, é chamado de Modo de TV. As funcionalidades disponíveis no modo de ecrã inteiro variam consoante o conteúdo. 
+
+Se estiver a utilizar o Power BI móvel, o [ecrã inteiro está disponível para as aplicações móveis do Windows 10](mobile-windows-10-app-presentation-mode.md). O Power BI Desktop não tem um modo de ecrã inteiro para os relatórios ou as visualizações, mas tem a opção Ajustar à página para a [Vista de relações](desktop-report-view.md) e o [modo de detalhe para os elementos visuais](service-focus-mode.md).
+
+ 
 
 Alguns usos do modo de ecrã inteiro:
 

@@ -1,15 +1,15 @@
 ---
-title: "Utilizar uma segmentação ou filtro de data relativa no Power BI Desktop"
-description: "Saiba como utilizar uma segmentação de dados ou um filtro para restringir intervalos de datas relativas no Power BI Desktop"
+title: Utilizar uma segmentação ou filtro de data relativa no Power BI Desktop
+description: Saiba como utilizar uma segmentação de dados ou um filtro para restringir intervalos de datas relativas no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Utilizar uma segmentação e filtro de data relativa no Power BI Desktop
 Com a **segmentação de data relativa** ou o **filtro de data relativa**, pode aplicar filtros baseados no tempo a qualquer coluna de datas no seu modelo de dados. Por exemplo, pode utilizar a **segmentação de data relativa** para mostrar apenas dados de vendas ocorridos nos últimos trinta dias (ou mês, meses de calendário, etc.). Quando atualizar os dados, o período de tempo relativo aplica automaticamente a restrição de data relativa adequada.
@@ -40,7 +40,7 @@ Selecione o acento circunflexo no canto superior direito da **segmentação de d
 
 Para a segmentação de data relativa, selecione *Relativo*.
 
-Em seguida, pode selecionar as definições. No primeiro menu pendente na *segmentação de data relativa*, pode selecionar as seguintes opções:
+Em seguida, pode selecionar as definições. No primeiro menu pendente na *segmentação de data relativa*, tem as seguintes opções:
 
 * Último
 * Seguinte
@@ -52,7 +52,7 @@ Estas seleções são apresentadas na imagem seguinte.
 
 A definição seguinte (intermédia) na *segmentação de data relativa* permite introduzir um número para definir o intervalo de datas relativas.
 
-A terceira definição permite selecionar a medida de data e pode selecionar as seguintes opções:
+A terceira definição permite escolher a medida de data. Tem as seguinte opções:
 
 * Dias
 * Semanas
@@ -66,7 +66,7 @@ Estas seleções são apresentadas na imagem seguinte.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-Se selecionar *Meses* nessa lista e introduzir 2 na definição intermédia. Aconteceria o seguinte: se hoje for 20 de julho, os dados incluídos nos elementos visuais restringidos pela segmentação de dados mostrariam os dados dos últimos dois meses, de 20 de maio até 20 de julho (data atual).
+Se selecionar *Meses* nessa lista e inserir 2 na definição intermédia, acontecerá o seguinte: se hoje for o dia 20 de julho, os dados incluídos nos elementos visuais restringidos pela segmentação de dados mostrarão os dados dos últimos dois meses, de 20 de maio a 20 de julho (data atual).
 
 Em comparação, se tiver selecionado *Meses (Calendário)*, os elementos visuais restringidos mostrariam os dados de 1 de maio até 30 de junho (os últimos dois meses de calendário completos).
 

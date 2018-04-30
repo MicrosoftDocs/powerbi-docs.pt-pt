@@ -1,15 +1,15 @@
 ---
-title: "Utilizar gráficos de friso no Power BI"
-description: "Criar e consumir gráficos de friso no serviço Power BI e no Power BI Desktop"
+title: Utilizar gráficos de friso no Power BI
+description: Criar e consumir gráficos de friso no serviço Power BI e no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fb1c85e8c7b4a9c8e92019e4917af16b83ae580c
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Utilizar gráficos de friso no Power BI
-Pode utilizar **gráficos de friso** no **Power BI** para visualizar dados e, rapidamente, determinar que categoria de dados tem a classificação mais elevada (maior valor). Os gráficos de friso são uma forma eficaz de mostrar as alterações de classificação, com a classificação (valor) mais elevada sempre mostrada na parte superior de cada período temporal. Os gráficos de friso estão disponíveis no **Power BI Desktop**, a partir da versão de setembro de 2017 e atualizações posteriores ao **serviço Power BI**.
+Pode utilizar gráficos de friso no **Power BI** para visualizar dados e, rapidamente, determinar que categoria de dados tem a classificação mais elevada (maior valor). Os gráficos de friso são uma forma eficaz de mostrar as alterações de classificação, com a classificação (valor) mais elevada sempre mostrada na parte superior de cada período temporal. Os gráficos de friso estão disponíveis no **Power BI Desktop**, a partir da versão de setembro de 2017 e atualizações posteriores ao **serviço Power BI**.
 
 ![](media/desktop-ribbon-charts/ribbon-charts_01.png)
 
 ## <a name="create-a-ribbon-chart"></a>Criar um gráfico de friso
-Para criar um gráfico de friso, selecione **gráfico de friso** no painel **Visualizações**.
+Para criar um gráfico de friso, selecione **Gráfico de friso** no painel **Visualizações**.
 
 ![](media/desktop-ribbon-charts/ribbon-charts_02.png)
 

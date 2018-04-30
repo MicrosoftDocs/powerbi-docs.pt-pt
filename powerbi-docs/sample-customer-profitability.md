@@ -1,37 +1,37 @@
 ---
-title: "Tutorial – Exemplo de Rentabilidade do Cliente do Power BI: apresentação"
-description: "Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour"
+title: 'Tutorial – Exemplo de Rentabilidade do Cliente do Power BI: apresentação'
+description: 'Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
 O pacote de conteúdo "Exemplo de Lucro do Cliente" contém um dashboard, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por um diretor financeiro para ver as métricas chave sobre os 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ela pode ver rapidamente que fatores têm impacto sobre o lucro.
 
-![](media/sample-customer-profitability/power-bi-dash.png)
+![dashboard do power bi](media/sample-customer-profitability/power-bi-dash.png)
 
-Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e dashoards orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, livro do Excel ou ficheiro .pbix do Power BI Desktop. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
+Este exemplo faz parte de uma série que ilustra a forma como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, livro do Excel ou ficheiro .pbix do Power BI Desktop. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Quer acompanhar? Este tutorial utiliza o serviço Power BI e o pacote de conteúdos de exemplo “Rentabilidade do Cliente”.  Uma vez que as experiências do relatório são muito semelhantes, pode também acompanhar com o Power BI Desktop e o ficheiro PBIX de exemplo. Pode encontrar abaixo as instruções para se ligar ao pacote de conteúdos e ao ficheiro PBIX.
@@ -41,10 +41,10 @@ Quer acompanhar? Este tutorial utiliza o serviço Power BI e o pacote de conte�
 1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
 2. No canto inferior esquerdo, selecione **Obter dados**.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![obter dados](media/sample-datasets/power-bi-get-data.png)
 3. Na página Obter Dados que aparece, selecione **Exemplos**.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![ícone de exemplos](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **Exemplo de Rentabilidade do Cliente** e, em seguida, escolha **Ligar**.  
 
    ![Obter Dados](media/sample-customer-profitability/get-supplier-sample.png)
@@ -73,7 +73,7 @@ Em **A Minha Área de Trabalho**, encontre o dashboard para o exemplo de Rentabi
 
 2. Consulte os mosaicos à esquerda do dashboard.
 
-    ![](media/sample-customer-profitability/power-bi-manager.png)
+    ![mosaicos para gestores](media/sample-customer-profitability/power-bi-manager.png)
 
 - A margem bruta da nossa empresa é de 42,5%.
 - Temos 80 clientes.
@@ -86,7 +86,7 @@ Em **A Minha Área de Trabalho**, encontre o dashboard para o exemplo de Rentabi
 ### <a name="manager-specific-dashboard-tiles"></a>Mosaicos do dashboard específico do gerente
 Os mosaicos à direita do dashboard fornecem uma tabela de indicadores da equipa. O diretor financeiro deve manter o controlo dos gerentes e esses mosaicos apresentam uma visão geral de alto nível do lucro – utilizando GM %. Se a tendência de % GM é inesperada para qualquer gestor, poderá investigar mais.
 
-![](media/sample-customer-profitability/power-bi-manager2.png)
+![% GM para gestores](media/sample-customer-profitability/power-bi-manager2.png)
 
 - Todos os executivos, exceto Carlos, já excederam os objetivos de vendas. Contudo, as vendas reais de Carlos apresentam o valor mais elevado.
 - A % de Margem Bruta de Annelie é a mais baixa, mas podemos ver um aumento gradual desde março.
@@ -99,7 +99,7 @@ Este dashboard possui mosaicos com ligação a um relatório e a um livro do Exc
 ### <a name="open-the-excel-online-data-source"></a>Abrir a origem de dados do Excel Online
 Dois mosaicos neste dashboard, “Objetivo vs Real” e “Crescimento de Receita ao Longo dos Anos”, foram afixados a partir de um livro do Excel. Por esse motivo, quando seleciona um destes mosaicos, o Power BI abre a origem de dados, neste caso, o Excel Online.
 
-![](media/sample-customer-profitability/power-bi-excel-online.png)
+![Excel online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Selecione um dos mosaicos afixados a partir do Excel. O Excel Online abre com o serviço Power BI.
 2. Tenha em atenção que o livro possui três separadores com dados. Abra o separador “Receita”.
@@ -107,11 +107,11 @@ Dois mosaicos neste dashboard, “Objetivo vs Real” e “Crescimento de Receit
     a. No controlo de deslize “Executivo”, selecione **Carlos Grilo**.   
     b. A primeira Tabela Dinâmica indica-nos que as receitas de Carlos referentes ao seu Produto principal, Primus, estão 152% abaixo em relação ao ano anterior. Adicionalmente, o gráfico da receita ao longo dos anos mostra-nos que ele esteve abaixo do orçamento durante a maioria dos meses.  
 
-    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![Tabela Dinâmica](media/sample-customer-profitability/power-bi-pivotchart.png)
 
-    ![](media/sample-customer-profitability/power-bi-carlos.png)
+    ![resultados para Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Continue a explorar e, se encontrar algo interessante, selecione **Afixar** ![](media/sample-customer-profitability/power-bi-excel-pin.png) no canto superior direito para [afixá-lo num dashboard](service-dashboard-pin-tile-from-excel.md).
+4. Continue a explorar e, se encontrar algo interessante, selecione **Afixar** ![ícone de afixar](media/sample-customer-profitability/power-bi-excel-pin.png), no canto superior direito, para [afixá-lo num dashboard](service-dashboard-pin-tile-from-excel.md).
 
 5. Utilize a seta para trás do browser para regressar ao dashboard.
 
@@ -122,14 +122,14 @@ A maioria dos mosaicos no dashboard no exemplo de Rentabilidade do Cliente foram
 
 2. O relatório tem três páginas. Cada separador na parte inferior do relatório representa uma página.
 
-    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+    ![3 separadores na parte inferior](media/sample-customer-profitability/power-bi-report-tabs.png)
 
     * "Tabela de Indicadores da Equipa" centra-se no desempenho dos 5 gestores e dos respetivos "livros de negócio".
     * "Análise de Margem do Setor" fornece uma forma de analisar a rentabilidade em comparação com o que se passa em todo o setor.
     * "Tabela de Indicadores de Executivos" fornece uma vista de cada um dos gestores formatada para visualização no Cortana.
 
 ### <a name="team-scorecard-page"></a>Página de pontuação da equipa
-![](media/sample-customer-profitability/customer2.png)
+![Página do relatório da pontuação da equipa](media/sample-customer-profitability/customer2.png)
 
 Vejamos os dois membros da equipa em detalhes e que informações podem ser obtidas. Na segmentação à esquerda, selecione o nome de Andrew para filtrar a página de relatório para apresentar apenas os dados dele.
 
@@ -138,7 +138,7 @@ Vejamos os dois membros da equipa em detalhes e que informações podem ser obti
 * O "Total da Receita e % de Variação da Receita do Orçamento por Mês" mostra um histórico de lucros estável, mas ao filtrar ao clicar no quadrado **Central** na região treemap, vemos que Andrew apenas tem receita em março e no Indiana. Isto é intencional ou é algo que temos de examinar?
 
 Agora, com Valery. Na segmentação, selecione o nome de Valery para filtrar a página do relatório para exibir apenas os dados sobre ela.  
-![](media/sample-customer-profitability/customer3.png)
+![segmentação de dados Executivo para Vaery Ushalov](media/sample-customer-profitability/customer3.png)
 
 * Observe o KPI vermelho para **Estado do Total da Receita**. Isto necessita, definitivamente, mais investigação.
 * A variação de receita também pinta uma imagem preocupante – ela não atende as margens de receita.
@@ -150,7 +150,7 @@ Continue a ler para descobrir por que a área de Valery não apresenta um bom de
 
 ### <a name="industry-margin-analysis"></a>Análise de Margem do Setor
 Esta página de relatório fornece uma secção diferente dos dados. Examina a margem bruta para todo o setor, dividido por segmento. O diretor financeiro utiliza essa página para comparar as métricas de unidade da empresa e comercial para métricas do setor para ajudar a explicar tendências e lucro. Deve estar a imaginar por que o gráfico de área "Margem Bruta por Mês e Nome de Executivo” está nesta página, já que é específico de uma equipa. Tê-lo aqui permite-nos filtrar a página pelo gerente da unidade de negócios.  
-![](media/sample-customer-profitability/customer6.png)
+![Página do relatório de análise de margem do setor](media/sample-customer-profitability/customer6.png)
 
 Como varia o lucro por setor? Como se os produtos e clientes dividem por setor? Selecione um ou mais setores na parte superior esquerda. (iniciar no setor CPG) Para limpar o filtro, selecione o ícone de borracha.
 
@@ -172,11 +172,11 @@ Para a nossa análise, seria útil determinar que setor gera a maior parte da re
 
 2.  Na barra de menus superior, selecione **Colocar uma questão** para abrir a caixa de Perguntas e Respostas.
 
-    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![Colocar uma questão sobre os dados](media/sample-customer-profitability/power-bi-ask-question.png)
 
-3. Introduza **receita total por setor de Valery**. Observe como a visualização é atualizada conforme digita a pergunta.
+3. Introduza **receita total por setor de Valery**. Veja como a visualização é atualizada à medida que escreve a pergunta.
 
-    ![](media/sample-customer-profitability/power-bi-qna.png)
+    ![escrever uma pergunta na caixa de perguntas](media/sample-customer-profitability/power-bi-qna.png)
 
    A distribuição é a maior área de receita para Valery.
 
@@ -186,15 +186,15 @@ Vamos analisar o setor de *Distribuição*.
 1. Abra a página do relatório “Análise de Margem do Setor”.
 2. Sem selecionar nenhuma visualização na página de relatório, expanda o painel de filtros à direita (se ainda não estiver expandido). O painel Filtros deve apresentar apenas filtros ao nível da página.  
 
-   ![](media/sample-customer-profitability/power-bi-filters.png)
+   ![Filtros de nível de página](media/sample-customer-profitability/power-bi-filters.png)
 3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o setor de Distribuição. Primeiro, desmarque todas as seleções ao desmarcar a caixa de seleção**Selecionar Tudo**. Em seguida, selecione apenas **Distribuição**.  
 
-   ![](media/sample-customer-profitability/customer7.png)
+   ![filtro para Distribuição](media/sample-customer-profitability/customer7.png)
 4. O gráfico de área "Margem bruta por Mês e o Nome do Executivo" informa que apenas Valery e Tina têm clientes neste setor e Valery só trabalhou com o setor de junho a novembro.   
 5. Selecione **Tina** e **Valery** na legenda do gráfico de área "Margem Bruta por Mês e Executivo". Observe a parte de Tina "Receita Total por Produto" é muito pequeno se comparada a Valery.
 6. Para ver a receita real, utilize as Perguntas e Respostas para pedir a **receita total por executivo da distribuição por cenário**.  
 
-     ![](media/sample-customer-profitability/power-bi-qna2.png)
+     ![escrever uma pergunta na caixa de perguntas para ver o gráfico de barras](media/sample-customer-profitability/power-bi-qna2.png)
 
     Podemos explorar de forma semelhante a outros setores e até mesmo adicionar clientes aos nossos visuais para compreender as causas para o desempenho de Valery.
 

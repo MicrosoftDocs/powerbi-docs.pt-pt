@@ -1,29 +1,29 @@
 ---
-title: "Métrica de utilização para dashboards e relatórios"
-description: "Como ver, guardar e utilizar as Métricas de utilização para relatórios e dashboards do Power BI. Medir e aumentar o seu impacto com a métrica de utilização para criadores de relatórios."
+title: Métrica de utilização para dashboards e relatórios
+description: Como ver, guardar e utilizar as Métricas de utilização para relatórios e dashboards do Power BI. Medir e aumentar o seu impacto com a métrica de utilização para criadores de relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métrica de utilização para dashboards e relatórios
 Se criar dashboards e relatórios, a métrica de utilização ajuda-o a compreender o respetivo impacto. Quando executa a métrica de utilização do dashboard ou a métrica de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização; o que está a ser utilizado, por quem e com que finalidade.  
@@ -53,7 +53,7 @@ Quando seleciona **Métrica de utilização** ou o ícone ![ícone de métrica d
 
 Os relatórios de métrica de utilização não aparecem em **Recente**, **Áreas de trabalho**, **Favoritos**, ou outras listas de conteúdo. Não podem ser adicionados a uma aplicação. Se fixar um mosaico de um relatório de métrica de utilização a um dashboard, esse dashboard não pode ser adicionar a uma aplicação ou pacote de conteúdos.
 
-Para ter acesso aos dados de relatório ou criar os seus próprios relatórios em relação ao conjunto de dados, utilize **Guardar como** (consulte [Guardar o relatório de métrica de utilização como um relatório completo do Power BI](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report).
+Para ter acesso aos dados de relatório ou criar os seus próprios relatórios em relação ao conjunto de dados, utilize **Guardar como** (consulte [Guardar o relatório de métrica de utilização como um relatório completo do Power BI](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Abrir um relatório de métrica de utilização de um dashboard ou relatório
 1. Comece pela área de trabalho que contém o dashboard ou o relatório.
@@ -100,7 +100,7 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
 ### <a name="report-usage-metrics-report"></a>Relatório da métrica de utilização
 ![Relatório da métrica de utilização](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Guarde o relatório da métrica de utilização como um relatório completo do Power BI (personalizar)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Guarde o relatório Métrica de Utilização como um relatório completo do Power BI (personalizar)
 
 ![Guardar como](media/service-usage-metrics/power-bi-save-as.png)
 
@@ -150,7 +150,7 @@ Os relatórios de métrica de utilização são uma funcionalidade que o adminis
     ![selecionar o ícone de engrenagem](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. No portal de administração, selecione **Definições de inquilino** e escolha **Métrica de utilização para criadores de conteúdo**.
    
-    ![Admin portal (Portal de administração)](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![Portal de administração](media/service-usage-metrics/power-bi-usage-settings.png)
 3. Ative (ou desative) a métrica de utilização e selecione **Aplicar**.
    
     ![Métrica de utilização ativada](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
