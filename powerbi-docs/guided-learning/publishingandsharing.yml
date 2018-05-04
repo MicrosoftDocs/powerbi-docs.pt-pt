@@ -2,41 +2,42 @@
 title: Publicar e partilhar
 metadata:
   title: Publicar e partilhar | Microsoft Power BI
-  description: "Os dados são mais poderosos quando partilhados com outras pessoas: saiba como publicar, exportar, partilhar e distribuir as suas informações de dados do Power BI."
+  description: 'Os dados são mais poderosos quando partilhados com outras pessoas: saiba como publicar, exportar, partilhar e distribuir as suas informações de dados do Power BI.'
   audience: Business User
   level: Beginner
-  nextTutorialHref: introductiontodax
-  nextTutorialTitle: "Introdução à DAX"
+  nextTutorialHref: introductiontodax.yml
+  nextTutorialTitle: Introdução à DAX
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/06/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 32729b224866381b41be53ac1eb8f7f1874903b4
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Os dados são mais poderosos quando partilhados com outras pessoas: saiba como publicar, exportar, partilhar e distribuir as suas informações de dados do Power BI.\n"
-- title: "Introdução aos pacotes de conteúdos, segurança e grupos"
+  content: >
+    Os dados são mais poderosos quando partilhados com outras pessoas: saiba como publicar, exportar, partilhar e distribuir as suas informações de dados do Power BI.
+- title: Introdução aos pacotes de conteúdos, segurança e grupos
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/5DABLeJzQYM?rel=0]
 
 
     [!INCLUDE [](includes/6-0-intro-content-packs-groups.md)]
-- title: "Publicar relatórios do Power BI Desktop"
+- title: Publicar relatórios do Power BI Desktop
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/i0zAvCRLScI?rel=0]
 
 
     [!INCLUDE [](includes/4-1-publish-reports.md)]
-- title: "Imprimir e exportar dashboards e relatórios"
+- title: Imprimir e exportar dashboards e relatórios
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/gauDt5ZV74I?rel=0]
@@ -64,21 +65,21 @@ items:
 
 
     [!INCLUDE [](includes/6-1-create-groups.md)]
-- title: "Criar pacotes de conteúdo"
+- title: Criar pacotes de conteúdo
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/8V2WP4nFCiA?rel=0]
 
 
     [!INCLUDE [](includes/6-2-create-content-packs.md)]
-- title: "Utilizar pacotes de conteúdo"
+- title: Utilizar pacotes de conteúdo
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/fE9R6ydo8yk?rel=0]
 
 
     [!INCLUDE [](includes/6-3-use-content-packs.md)]
-- title: "Atualizar pacotes de conteúdo"
+- title: Atualizar pacotes de conteúdo
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/nem2r4NpTyU?rel=0]
@@ -99,8 +100,8 @@ items:
 
 
     [!INCLUDE [](includes/6-6-publish-to-web.md)]
-- title: "Conclusão da Aprendizagem orientada do Power BI"
+- title: Conclusão da Aprendizagem orientada do Power BI
   durationInMinutes: 4
   content: >
     [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
-- content: "Concluiu a secção **Publicar e partilhar** da Aprendizagem Orientada do Power BI. Se quiser uma introdução ao DAX, a linguagem utilizada para criar consultas do Power BI, continue para o próximo tutorial.\0"
+- content: Concluiu a secção **Publicar e partilhar** da Aprendizagem Orientada do Power BI. Se quiser uma introdução ao DAX, a linguagem utilizada para criar consultas do Power BI, continue para o próximo tutorial.

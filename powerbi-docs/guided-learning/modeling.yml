@@ -2,34 +2,35 @@
 title: Modelagem
 metadata:
   title: Modelagem | Microsoft Power BI
-  description: "Ligue a várias origens de dados e, em seguida, combine-as de forma a criar um modelo único de dados que se adapta às suas necessidades exclusivas."
+  description: Ligue a várias origens de dados e, em seguida, combine-as de forma a criar um modelo único de dados que se adapta às suas necessidades exclusivas.
   audience: Business User
   level: Beginner
-  nextTutorialHref: visualizations
-  nextTutorialTitle: "Visualizações"
+  nextTutorialHref: visualizations.yml
+  nextTutorialTitle: Visualizações
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 5b09b8365e59d8d89b30e4a01237f7d53559896f
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 302dcaa8f76b9cd767ec7c3349abaea3cb0f8548
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Com as capacidades de **modelagem** no **Power BI**, pode ligar a várias origens de dados e, em seguida, combiná-las de forma a criar um modelo único de dados que se adapte às suas necessidades.\n"
-- title: "Introdução à modelagem dos dados"
+  content: >
+    Com as capacidades de **modelagem** no **Power BI**, pode ligar a várias origens de dados e, em seguida, combiná-las de forma a criar um modelo único de dados que se adapte às suas necessidades.
+- title: Introdução à modelagem dos dados
   durationInMinutes: 3
   content: >
     > [!Video https://www.youtube.com/embed/VM1K15aEnm4?rel=0]
 
 
     [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
-- title: "Como gerir as relações de dados"
+- title: Como gerir as relações de dados
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
@@ -71,4 +72,4 @@ items:
 
 
     [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
-- content: "Está a sair-se bem. Continue assim para aprender mais sobre o Power BI! Concluiu a secção **Modelagem** da Aprendizagem orientada do Microsoft Power BI. Em seguida, temos as visualizações.\0"
+- content: Está a sair-se bem. Continue assim para aprender mais sobre o Power BI! Concluiu a secção **Modelagem** da Aprendizagem orientada do Microsoft Power BI. Em seguida, temos as visualizações.

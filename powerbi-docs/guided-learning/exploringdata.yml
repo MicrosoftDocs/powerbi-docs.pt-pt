@@ -5,32 +5,32 @@ metadata:
   description: Saiba como encontrar, ligar e interagir com dados no Power BI.
   audience: Business User
   level: Beginner
-  nextTutorialHref: powerbiandexcel
+  nextTutorialHref: powerbiandexcel.yml
   nextTutorialTitle: Power BI e Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 2d5e4f060aa342e7ce86af699032f7fa2256543e
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
   content: >
     Bem-vindo ao tutorial sobre **explorar dados**. Aqui, vai aprender como encontrar, ligar e interagir com dados no Power BI.
-- title: "Introdução ao serviço do Power BI"
+- title: Introdução ao serviço do Power BI
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
 
 
     [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
-- title: "Informações rápidas no Power BI"
+- title: Informações rápidas no Power BI
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
@@ -44,28 +44,28 @@ items:
 
 
     [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
-- title: "Faça perguntas dos seus dados com linguagem natural"
+- title: Faça perguntas dos seus dados com linguagem natural
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
 
 
     [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
-- title: "Criar sugestões de perguntas e respostas personalizadas"
+- title: Criar sugestões de perguntas e respostas personalizadas
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
 
 
     [!INCLUDE [](includes/4-3a-suggested-questions.md)]
-- title: "Partilhar dashboards com a sua organização"
+- title: Partilhar dashboards com a sua organização
   durationInMinutes: 7
   content: >
     > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
 
 
     [!INCLUDE [](includes/4-4-share-dashboards.md)]
-- title: "Apresentar visuais e mosaicos de ecrã inteiro"
+- title: Apresentar visuais e mosaicos de ecrã inteiro
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
@@ -79,7 +79,7 @@ items:
 
 
     [!INCLUDE [](includes/4-4d-change-tile-details.md)]
-- title: "Obter mais espaço no seu dashboard"
+- title: Obter mais espaço no seu dashboard
   durationInMinutes: 5
   content: >
     > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
@@ -93,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "A secção **explorar dados** da Aprendizagem Orientada preparou-o para trabalhar com todos os tipos de diferentes tipos de dados. No tutorial seguinte, irá aprender a utilizar uma origem de dados comuns - Excel.\0"
+- content: A secção **explorar dados** da Aprendizagem Orientada preparou-o para trabalhar com todos os tipos de diferentes tipos de dados. No tutorial seguinte, irá aprender a utilizar uma origem de dados comuns - Excel.

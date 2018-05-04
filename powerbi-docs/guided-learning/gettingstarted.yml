@@ -1,28 +1,29 @@
 ### YamlMime:Tutorial
-title: "Introdução"
+title: Introdução
 metadata:
-  title: "Introdução | Microsoft Power BI"
-  description: "Saiba o que é o Power BI, como os blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações para os seus dados."
+  title: Introdução | Microsoft Power BI
+  description: Saiba o que é o Power BI, como os blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações para os seus dados.
   audience: Business User
   level: Beginner
-  nextTutorialHref: gettingdata
+  nextTutorialHref: gettingdata.yml
   nextTutorialTitle: Obter dados
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 7eac10ab7caf67209bc9dc61d24890371e1a4f94
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Nesta secção inicial da **Aprendizagem Orientada**, irá aprender o que é o Power BI, como os respetivos blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações sobre os seus dados.\n"
-- title: "Apresentação do Power BI"
+  content: >
+    Nesta secção inicial da **Aprendizagem Orientada**, irá aprender o que é o Power BI, como os respetivos blocos modulares funcionam em conjunto e como pode utilizá-los para obter informações sobre os seus dados.
+- title: Apresentação do Power BI
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
@@ -37,15 +38,15 @@ items:
   durationInMinutes: 6
   content: >
     [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
-- title: "Uma vista rápida do serviço do Power BI"
+- title: Uma vista rápida do serviço do Power BI
   durationInMinutes: 9
   content: >
     > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
 
 
     [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
-- title: "Revisão e o que vem a seguir"
+- title: Revisão e o que vem a seguir
   durationInMinutes: 5
   content: >
     [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
-- content: "Concluiu a secção **Introdução** da Aprendizagem Orientada do Microsoft Power BI. Muito bem! Agora, pode passar para a parte seguinte da Aprendizagem Orientada, que é **Obter dados**. Selecione o botão **Obter dados** abaixo para continuar.\0"
+- content: Concluiu a secção **Introdução** da Aprendizagem Orientada do Microsoft Power BI. Muito bem! Agora, pode passar para a parte seguinte da Aprendizagem Orientada, que é **Obter dados**. Selecione o botão **Obter dados** abaixo para continuar.
