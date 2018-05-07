@@ -2,14 +2,14 @@
 title: Importar e apresentar os KPIs no Power BI
 description: Importar e apresentar os KPIs
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,21 +18,27 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 72665fc443565e4fabc9092d09663a7f3ae081b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: deb6da926cafd78bfc12931ee731a6e2b2d6d44d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Importar e apresentar os KPIs no Power BI
-No **Power BI Desktop**, pode importar e mostrar os KPIs em tabelas, matrizes e cartões.
+No **Power BI Desktop**, pode importar e mostrar os KPIs em tabelas, matrizes e cartões.
 
 Siga estes passos para importar e mostrar KPIs.
 
-1. Comece com um livro do Excel que tem um modelo do Power Pivot e KPIs. Este exercício utiliza um livro chamado *KPIs*. Pode também [saber como importar livros](desktop-import-excel-workbooks.md).  
-2. Abra o relatório e selecione o separador **Top Performers**.  A matriz *Top Performers* contém KPIs para três diferentes medidas de vendas por endereço de e-mail do funcionário.  
+1. Comece com um livro do Excel que tem um modelo do Power Pivot e KPIs. Este exercício utiliza um livro chamado *KPIs*.
+
+1. Importe o livro do Excel para o Power BI através de **Ficheiro -> Importar -> Conteúdo do livro do Excel**. Pode também [saber como importar livros](desktop-import-excel-workbooks.md). 
+
+1. Após a importação para o Power BI, o KPI será apresentado no painel **Campos**, marcado com o ícone de ![semáforo](media/desktop-import-and-display-kpis/traffic.png). Para utilizar um KPI no relatório, confirme que expande o conteúdo ao expor os campos **Valor**, **Objetivo** e **Estado**.
+
+    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
+
+1. Os KPIs importados são recomendados para tipos de visualização padrão, tal como o tipo **Tabela**. O Power BI também inclui o tipo de visualização **KPI**, que só deve ser utilizado para criar novos KPIs.
    
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon.jpg)
+    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
 
-É tudo. Pode utilizar os KPIs para realçar tendências importantes, progresso ou outros indicadores de interesse.
-
+É tudo. Pode utilizar os KPIs para realçar tendências, progresso ou outros indicadores de interesse.

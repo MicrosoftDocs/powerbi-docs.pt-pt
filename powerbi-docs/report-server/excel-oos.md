@@ -1,39 +1,32 @@
 ---
-title: "Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)"
-description: "Além de ver relatórios do Power BI no portal Web, os utilizadores empresariais podem agora fazer o mesmo com livros do Excel no Power BI Report Server."
+title: Alojar livros do Excel com o Office Online Server (OOS) – Power BI Report Server
+description: Além de visualizar relatórios do Power BI no portal Web, o Power BI Report Server pode alojar livros do Excel através do Office Online Server (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
-Além de verem relatórios do Power BI no portal Web, os utilizadores empresariais podem agora fazer o mesmo com livros do Excel no Power BI Report Server, dando-lhes uma única localização para publicarem e verem conteúdos de gestão personalizada do Microsoft BI.
+Além de visualizar relatórios do Power BI no portal Web, o Power BI Report Server pode alojar livros do Excel através do [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). O servidor de relatórios torna-se uma localização única para publicar e visualizar o conteúdo do Microsoft BI com gestão personalizada.
 
-> [!NOTE]
-> Esta é uma funcionalidade de pré-visualização incluída na versão de pré-visualização de agosto de 2017. Para obter mais informações, veja [What's new in Power BI Report Server (Novidades do Power BI Report Server)](whats-new.md).
-> 
-> 
-
-![Relatórios do Excel visualizados a partir do portal Web do servidor de relatórios.](media/excel-oos/excel-in-pbirs.png)
-
-Isto é conseguido ao utilizar o [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS).
+![Relatórios do Excel visualizados no portal Web do servidor de relatórios](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Preparar o servidor para executar o Office Online Server
 Execute estes procedimentos no servidor que irá executar o Office Online Server. Este servidor tem de ser o Windows Server 2012 R2 ou o Windows Server 2016. O Windows Server 2016 necessita do Office Online Server Abril de 2017 ou posterior.
@@ -92,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parâmetros**
 
-* **–InternalURL** é o nome de domínio completamente qualificado (FQDN) do servidor que executa o Office Online Server, como o http://servername.contoso.com.
+* **–InternalURL** é o nome de domínio completamente qualificado (FQDN) do servidor que executa o Office Online Server, tal como http://servername.contoso.com.
 * **–ExternalURL** é o FQDN que pode ser acedido na Internet.
 * **–CertificateName** é o nome amigável do certificado.
 
@@ -105,7 +98,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parâmetros**
 
-* **–InternalURL** é o nome do servidor que executa o Office Online Server, como http://servername.
+* **–InternalURL** é o nome do servidor que executa o Office Online Server, tal como http://servername.
 * **–AllowHttp** configura o farm para utilizar HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Certifique-se de que o farm do Office Online Server foi criado com êxito

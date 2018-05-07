@@ -1,6 +1,6 @@
 ---
 title: Origens de dados de relatórios do Power BI no Power BI Report Server
-description: Os relatórios do Power BI podem ligar-se a diferentes origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados.
+description: Os relatórios do Power BI (.pbix) podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
-Os relatórios do Power BI podem ligar-se a diferentes origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI (.pbix) no Power BI Report Server
+Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
 
-Estas origens de dados são específicas para relatórios do Power BI utilizados no Power BI Report Server. Para obter informações sobre origens de dados suportadas com relatórios paginados, veja [Origens de Dados Suportadas pelo Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Estas origens de dados são específicas para relatórios do Power BI utilizados no Power BI Report Server. Para obter informações sobre as origens de dados suportadas com relatórios paginados (.rdl), veja [Data Sources Supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Origens de Dados Suportadas pelo Reporting Services).
 
 > [!IMPORTANT]
-> Todas as origens de dados num relatório do Power BI Desktop têm de ser suportadas para configurar a atualização agendada.
-> 
-> 
+> Todas as origens de dados num relatório do Power BI Desktop têm de suportar a configuração da atualização agendada.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Lista de origens de dados suportadas
 
@@ -49,7 +48,7 @@ Outras origens de dados podem funcionar apesar de não estarem na lista suportad
 | Amazon Redshift |Sim |Não |Não |
 | Armazenamento de Blobs do Azure |Sim |Sim |Não |
 | Azure Data Lake Store |Sim |Não |Não |
-| Azure HDInsight (HDFS) |Sim |Não |No |
+| Azure HDInsight (HDFS) |Sim |Não |Não |
 | Azure HDInsight (Spark) |Sim |Sim |Não |
 | Armazenamento de Tabelas do Azure |Sim |Sim |Não |
 | Dynamics 365 (online) |Sim |Não |Não |
@@ -83,7 +82,7 @@ Outras origens de dados podem funcionar apesar de não estarem na lista suportad
 | Texto/CSV |Sim |Sim |Não |
 | Web |Sim |Sim |Não |
 | XML |Sim |Sim |Não |
-| appFigures (Beta) |Sim |Não |No |
+| appFigures (Beta) |Sim |Não |Não |
 | Base de dados do Azure Analysis Services |Sim |Não |Sim |
 | Azure Cosmos DB (Beta) |Sim |Não |Não |
 | Azure HDInsight Spark (Beta) |Sim |Não |Não |
@@ -127,77 +126,77 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 
 | **Origem de dados** | **Autenticação Anónima** | **Autenticação da Chave** | **Nome de Utilizador e Palavra-passe** | **Autenticação do Windows** |
 | --- | --- | --- | --- | --- |
-| Base de Dados do SQL Server |No |No |Sim |Sim |
-| SQL Server Analysis Services |No |No |Sim |Sim |
-| Web |Sim |Não |Sim |Sim |
-| Base de Dados SQL do Azure |No |No |Sim |No |
-| SQL Data Warehouse do Azure |No |No |Sim |Não |
-| Active Directory |No |No |Sim |Sim |
-| Amazon Redshift |No |Não |Não |Não |
-| Armazenamento de Blobs do Azure |Sim |Sim |Não |No |
-| Azure Data Lake Store |No |Não |Não |Não |
-| Azure HDInsight (HDFS) |No |Não |Não |No |
-| Azure HDInsight (Spark) |Sim |Sim |Não |No |
-| Armazenamento de Tabelas do Azure |No |Sim |Não |No |
-| Dynamics 365 (online) |No |Não |Não |Não |
-| Facebook |No |Não |Não |Não |
-| Pasta |No |Não |No |Sim |
-| Google Analytics |No |Não |Não |Não |
-| HDFS (Ficheiro do Hadoop) |No |Não |Não |Não |
-| Base de Dados IBM DB2 |No |No |Sim |Sim |
-| Impala |No |Não |Não |No |
-| Microsoft Exchange |No |Não |Não |Não |
-| Microsoft Exchange Online |No |Não |Não |Não |
-| Base de Dados MySQL |No |No |Sim |Sim |
+| Base de Dados do SQL Server |Não |Não |Sim |Sim |
+| SQL Server Analysis Services |Não |Não |Sim |Sim |
+| Vista Web |Sim |Não |Sim |Sim |
+| Base de Dados SQL do Azure |Não |Não |Sim |Não |
+| SQL Data Warehouse do Azure |Não |Não |Sim |Não |
+| Active Directory |Não |Não |Sim |Sim |
+| Amazon Redshift |Não |Não |Não |Não |
+| Armazenamento de Blobs do Azure |Sim |Sim |Não |Não |
+| Azure Data Lake Store |Não |Não |Não |Não |
+| Azure HDInsight (HDFS) |Não |Não |Não |Não |
+| Azure HDInsight (Spark) |Sim |Sim |Não |Não |
+| Armazenamento de Tabelas do Azure |Não |Sim |Não |Não |
+| Dynamics 365 (online) |Não |Não |Não |Não |
+| Facebook |Não |Não |Não |Não |
+| Pasta |Não |Não |Não |Sim |
+| Google Analytics |Não |Não |Não |Não |
+| HDFS (Ficheiro do Hadoop) |Não |Não |Não |Não |
+| Base de Dados IBM DB2 |Não |Não |Sim |Sim |
+| Impala |Não |Não |Não |Não |
+| Microsoft Exchange |Não |Não |Não |Não |
+| Microsoft Exchange Online |Não |Não |Não |Não |
+| Base de Dados MySQL |Não |Não |Sim |Sim |
 | Feed OData |Sim |Sim |Sim |Sim |
 | ODBC |Sim |Não |Sim |Sim |
 | OLEDB |Sim |Não |Sim |Sim |
-| Base de Dados Oracle |No |No |Sim |Sim |
-| Base de Dados PostgreSQL |No |No |Sim |Não |
+| Base de Dados Oracle |Não |Não |Sim |Sim |
+| Base de Dados PostgreSQL |Não |Não |Sim |Não |
 | Serviço Power BI |Não |Não |Não |Não |
-| Script do R |No |Não |Não |Não |
-| Objetos do Salesforce |No |Não |Não |Não |
-| Relatórios do Salesforce |No |Não |Não |Não |
-| SAP Business Warehouse Server |No |No |Sim |No |
-| Base de Dados do SAP HANA |No |No |Sim |Sim |
-| Pasta do SharePoint (no local) |Sim |Não |No |Sim |
-| Lista do SharePoint (no local) |Sim |Não |No |Sim |
-| Lista do SharePoint Online |No |Não |Não |Não |
-| Snowflake |No |Não |Não |Não |
-| Base de Dados Sybase |No |No |Sim |Sim |
-| Base de Dados Teradata |No |No |Sim |Sim |
-| appFigures (Beta) |No |Não |Não |Não |
-| Base de Dados do Azure Analysis Services (Beta) |No |Não |Não |Não |
-| Azure Cosmos DB (Beta) |No |Não |Não |Não |
-| Azure HDInsight Spark (Beta) |No |Não |Não |Não |
-| Common Data Service (Beta) |No |Não |Não |Não |
-| comScore Digital Analytix (Beta) |No |Não |Não |Não |
-| Dynamics 365 for Customer Insights (Beta) |No |Não |Não |Não |
-| Dynamics 365 for Financials (Beta) |No |Não |Não |Não |
-| GitHub (Beta) |No |Não |Não |Não |
-| Google BigQuery (Beta) |No |Não |Não |Não |
-| Base de dados IBM Informix (Beta) |No |Não |Não |Não |
-| IBM Netezza (Beta) |No |Não |Não |Não |
-| Kusto (Beta) |No |Não |Não |Não |
-| MailChimp (Beta) |No |Não |Não |Não |
-| Microsoft Azure Consumption Insights (Beta) |No |Não |Não |Não |
-| Mixpanel (Beta) |No |Não |Não |Não |
-| Planview Enterprise (Beta) |No |Não |Não |Não |
-| Projectplace (Beta) |No |Não |Não |Não |
-| QuickBooks Online (Beta) |No |Não |Não |Não |
-| Smartsheet |No |Não |Não |Não |
-| Spark (Beta) |No |Não |Não |Não |
-| SparkPost (Beta) |No |Não |Não |Não |
-| SQL Sentry (Beta) |No |Não |Não |Não |
-| Stripe (Beta) |No |Não |Não |Não |
-| SweetIQ (Beta) |No |Não |Não |Não |
-| Troux (Beta) |No |Não |Não |Não |
-| Twilio (Beta) |No |Não |Não |Não |
-| tyGraph (Beta) |No |Não |Não |Não |
-| Vertica (Beta) |No |Não |Não |Não |
-| Visual Studio Team Services (Beta) |No |Não |Não |Não |
-| Webtrends (Beta) |No |Não |Não |Não |
-| ZenDesk (Beta) |No |Não |Não |No |
+| Script do R |Não |Não |Não |Não |
+| Objetos do Salesforce |Não |Não |Não |Não |
+| Relatórios do Salesforce |Não |Não |Não |Não |
+| SAP Business Warehouse Server |Não |Não |Sim |Não |
+| Base de Dados do SAP HANA |Não |Não |Sim |Sim |
+| Pasta do SharePoint (no local) |Sim |Não |Não |Sim |
+| Lista do SharePoint (no local) |Sim |Não |Não |Sim |
+| Lista do SharePoint Online |Não |Não |Não |Não |
+| Snowflake |Não |Não |Não |Não |
+| Base de Dados Sybase |Não |Não |Sim |Sim |
+| Base de Dados Teradata |Não |Não |Sim |Sim |
+| appFigures (Beta) |Não |Não |Não |Não |
+| Base de Dados do Azure Analysis Services (Beta) |Não |Não |Não |Não |
+| Azure Cosmos DB (Beta) |Não |Não |Não |Não |
+| Azure HDInsight Spark (Beta) |Não |Não |Não |Não |
+| Common Data Service (Beta) |Não |Não |Não |Não |
+| comScore Digital Analytix (Beta) |Não |Não |Não |Não |
+| Dynamics 365 for Customer Insights (Beta) |Não |Não |Não |Não |
+| Dynamics 365 for Financials (Beta) |Não |Não |Não |Não |
+| GitHub (Beta) |Não |Não |Não |Não |
+| Google BigQuery (Beta) |Não |Não |Não |Não |
+| Base de dados IBM Informix (Beta) |Não |Não |Não |Não |
+| IBM Netezza (Beta) |Não |Não |Não |Não |
+| Kusto (Beta) |Não |Não |Não |Não |
+| MailChimp (Beta) |Não |Não |Não |Não |
+| Microsoft Azure Consumption Insights (Beta) |Não |Não |Não |Não |
+| Mixpanel (Beta) |Não |Não |Não |Não |
+| Planview Enterprise (Beta) |Não |Não |Não |Não |
+| Projectplace (Beta) |Não |Não |Não |Não |
+| QuickBooks Online (Beta) |Não |Não |Não |Não |
+| Smartsheet |Não |Não |Não |Não |
+| Spark (Beta) |Não |Não |Não |Não |
+| SparkPost (Beta) |Não |Não |Não |Não |
+| SQL Sentry (Beta) |Não |Não |Não |Não |
+| Stripe (Beta) |Não |Não |Não |Não |
+| SweetIQ (Beta) |Não |Não |Não |Não |
+| Troux (Beta) |Não |Não |Não |Não |
+| Twilio (Beta) |Não |Não |Não |Não |
+| tyGraph (Beta) |Não |Não |Não |Não |
+| Vertica (Beta) |Não |Não |Não |Não |
+| Visual Studio Team Services (Beta) |Não |Não |Não |Não |
+| Webtrends (Beta) |Não |Não |Não |Não |
+| ZenDesk (Beta) |Não |Não |Não |Não |
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticação suportados para o DirectQuery
 
@@ -205,18 +204,18 @@ O Power BI Report Server não suporta autenticação com base em OAuth para o Di
 
 | **Origem de dados** | **Autenticação Anónima** | **Autenticação da Chave** | **Nome de Utilizador e Palavra-passe** | **Autenticação do Windows** | **Autenticação Integrada do Windows** |
 | --- | --- | --- | --- | --- | --- |
-| Base de Dados do SQL Server |No |No |Sim |Sim |Sim |
-| SQL Server Analysis Services |No |No |Sim |Sim |Sim |
-| Base de Dados SQL do Azure |No |No |Sim |Não |No |
-| SQL Data Warehouse do Azure |No |No |Sim |Não |No |
-| Base de Dados Oracle |No |No |Sim |Sim |Sim |
-| SAP Business Warehouse Server |No |No |Sim |Não |Sim |
-| Base de Dados do SAP HANA |No |No |Sim |Sim |Não |
-| Base de Dados Teradata |No |No |Sim |Sim |Sim |
+| Base de Dados do SQL Server |Não |Não |Sim |Sim |Sim |
+| SQL Server Analysis Services |Não |Não |Sim |Sim |Sim |
+| Base de Dados SQL do Azure |Não |Não |Sim |Não |Não |
+| SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |
+| Base de Dados Oracle |Não |Não |Sim |Sim |Sim |
+| SAP Business Warehouse Server |Não |Não |Sim |Não |Sim |
+| Base de Dados do SAP HANA |Não |Não |Sim |Sim |Não |
+| Base de Dados Teradata |Não |Não |Sim |Sim |Sim |
 
 
 ## <a name="next-steps"></a>Próximos passos
-Agora que a origem de dados está selecionada, [crie um relatório](quickstart-create-powerbi-report.md) com os dados dessa origem de dados.
+Agora que estabeleceu ligação à origem de dados, [crie um relatório do Power BI](quickstart-create-powerbi-report.md) com os dados dessa origem de dados.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

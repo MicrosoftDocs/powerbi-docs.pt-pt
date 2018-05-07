@@ -1,6 +1,6 @@
 ---
 title: Explorar relatórios nas aplicações móveis do Power BI
-description: 'Saiba mais sobre ver e interagir com relatórios nas aplicações móveis do Power BI no seu telemóvel ou tablet. Pode criar relatórios no serviço Power BI ou no Power BI Desktop e, em seguida, interagir com os mesmos nas aplicações móveis. '
+description: Saiba mais sobre ver e interagir com relatórios nas aplicações móveis do Power BI no seu telemóvel ou tablet. Pode criar relatórios no serviço Power BI ou no Power BI Desktop e, em seguida, interagir com os mesmos nas aplicações móveis.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -50,7 +50,7 @@ Os relatórios do Power BI são armazenados em diferentes locais na aplicação 
   ![Relatório de telemóvel no modo horizontal](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Ver relatórios otimizados para telemóveis
-Os autores de relatórios do Power BI podem criar um esquema de relatório especificamente otimizado para telemóveis. As páginas do relatório otimizadas para telemóveis têm mais funcionalidades: por exemplo, pode pesquisar e ordenar em visuais no modo de foco, e pode aceder a [filtra o autor do relatório adicionado à página do relatório](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). O relatório abre-se no seu telemóvel filtrado com os valores a serem filtrados no relatório na Web, com uma mensagem a indicar que existem filtros ativos na página. Pode alterar os filtros no seu telemóvel.
+Os autores de relatórios do Power BI podem criar um esquema de relatório especificamente otimizado para telemóveis. As páginas do relatório otimizadas para telemóveis têm mais funcionalidades: por exemplo, pode desagregar e ordenar por elementos visuais, e pode aceder aos [filtros que o autor do relatório adicionou à página do relatório](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). O relatório abre-se no seu telemóvel filtrado com os valores a serem filtrados no relatório na Web, com uma mensagem a indicar que existem filtros ativos na página. Pode alterar os filtros no seu telemóvel.
 
 Numa lista de relatórios, um relatório otimizado tem um ícone especial ![Ícone de relatório no telemóvel](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Quando vê esse relatório num telemóvel, este é aberto numa vista vertical.
 
 Saiba mais sobre os [relatórios otimizados para a vista de telemóvel](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Usar a segmentação para filtrar uma página de relatório
+## <a name="use-slicers-to-filter-a-report"></a>Usar a segmentação para filtrar um relatório
 Quando criar um relatório no Power BI Desktop ou no serviço Power BI, considere [adicionar segmentações de dados a uma página de relatório](power-bi-visualization-slicers.md). O utilizador e os seus colegas podem adicionar as segmentações de dados para filtrar a página num browser e nas aplicações móveis. Quando vê o relatório num telemóvel, pode ver e interagir com as segmentações de dados no modo horizontal e numa página otimizada para o modo vertical do telemóvel. Se selecionar um valor numa segmentação de dados ou filtro no browser, o valor será selecionado quando o utilizador visualizar a página também na aplicação móvel. Aparece uma mensagem a indicar que existem filtros ativos na página.  
 
 * Quando selecionar um valor numa segmentação na página de relatório, este filtra os outros visuais na página.
@@ -73,7 +73,7 @@ Quando criar um relatório no Power BI Desktop ou no serviço Power BI, consid
   
   Nesta ilustração, a segmentação está a filtrar o gráfico de colunas para mostrar apenas valores de julho.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Realizar filtragem cruzada e realçar uma página de relatório do Power BI
+## <a name="cross-filter-and-highlight-a-report"></a>Realizar a filtragem cruzada e realçar um relatório
 Quando seleciona um valor num visual, este não filtra os outros visuais. Realça os valores relacionados nos outros visuais.
 
 * Toque num valor num visual.
@@ -88,8 +88,8 @@ Quando seleciona um valor num visual, este não filtra os outros visuais. Realç
    ![Ordenar um visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Para reverter a ordenação, toque novamente nas reticências (**...**) e, em seguida, toque novamente no mesmo nome de campo.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>Desagregar e agregar num visual num iPad ou num tablet
-Se um autor de relatório tiver adicionado esta capacidade a um visual, num iPad ou num tablet, pode desagregar num visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Desagregar num iPad ou num tablet
+Se o autor do relatório tiver adicionado uma capacidade de desagregação a um elemento visual, num iPad ou num tablet, poderá desagregar um elemento visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
 
 > [!NOTE]
 > Atualmente, a desagregação não funciona em mapas no iPad ou tablet.

@@ -1,43 +1,34 @@
 ---
-title: Ligar a origens de dados
-description: "Obtenha informações sobre que origens de dados se pode ligar dentro do Power BI Report Server."
+title: Origens de dados de relatórios paginados (.rdl) no Power BI Report Server
+description: Saiba mais sobre as origens de dados às quais os relatórios paginados (.rdl) podem estabelecer ligação no Power BI Report Server.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>Ligar a origens de dados
-Obtenha informações sobre que origens de dados se pode ligar dentro do Power BI Report Server.
-
-## <a name="power-bi-reports"></a>Relatórios do Power BI
-Os relatórios do Power BI funcionam com dados importados ou através de uma ligação em direto do Analysis Services juntamente com o DirectQuery. A versão de outubro de 2017 inclui suporte para ligações que não são ligações em direto do Analysis Services. Isto inclui os dados importados. Pode transferir a versão de outubro de 2017 em [powerbi.com](https://powerbi.microsoft.com/report-server/).
-
-Para obter informações sobre que origens de dados são suportados, consulte [Origens de dados de relatórios do Power BI no Power BI Report Server](data-sources.md).
-
-## <a name="other-reports"></a>Outros relatórios
-Outros tipos de relatórios suportam as mesmas origens de dados presentes no SQL Server Reporting Services. Para obter mais informações, consulte [Origens de dados suportadas pelo Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+# <a name="paginated-report-rdl-data-sources"></a>Origens de dados de relatórios paginados (.rdl)
+Os relatórios paginados do Reporting Services no Power BI Report Server suportam as mesmas origens de dados que são suportadas no SQL Server Reporting Services. Veja a lista de [Origens de dados suportadas pelo Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="next-steps"></a>Próximos passos
-[Manual do utilizador](user-handbook-overview.md)  
-[Início rápido: relatórios paginados](quickstart-create-paginated-report.md)  
-[Início rápido: relatórios do Power BI](quickstart-create-powerbi-report.md)
+Agora que estabeleceu ligação à sua origem de dados, [crie um relatório paginado](quickstart-create-paginated-report.md).  
+
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

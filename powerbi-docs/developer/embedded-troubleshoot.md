@@ -1,27 +1,27 @@
 ---
-title: "Resolução de problemas de aplicações incorporadas"
-description: "Este artigo aborda alguns problemas comuns que poderá encontrar ao incorporar conteúdos do Power BI."
+title: Resolução de problemas de aplicações incorporadas
+description: Este artigo aborda alguns problemas comuns que poderá encontrar ao incorporar conteúdos do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 2/26/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 78e3361578b82a9ebf69feae1f7a8ac54966bbc9
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
 
@@ -141,7 +141,8 @@ Se o utilizador não conseguir ver o relatório ou dashboard, certifique-se de q
 
 Abra o ficheiro no Power BI Desktop ou no powerbi.com e certifique-se de que o desempenho é aceitável para excluir problemas na sua aplicação ou nas APIs de incorporação.
 
-
-Para obter respostas a perguntas frequentes, consulte as [Perguntas Frequentes do Power BI Embedded](embedded-faq.md).
+Para obter mais informações, veja [Perguntas frequentes sobre o Power BI Embedded](embedded-faq.md).
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+
+
