@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Adicionar uma coluna de um exemplo no Power BI Desktop
-Começando com a versão de abril de 2017 do **Power BI Desktop**, pode adicionar novas colunas de dados ao seu modelo com o **Editor de Consultas** ou ao apresentar simplesmente um ou mais valores de exemplo para a nova coluna. Pode criar um novo exemplo de coluna de uma seleção atual ou ao apresentar entradas com base em todas as colunas (ou colunas selecionadas) numa determinada tabela.
+Começando com a versão de abril de 2017 do **Power BI Desktop**, pode adicionar novas colunas de dados ao seu modelo com o **Editor de Consultas** ou ao apresentar simplesmente um ou mais valores de exemplo para a nova coluna. Pode criar um novo exemplo de coluna de uma seleção atual ou apresentar entradas com base em todas as colunas (ou colunas selecionadas) numa determinada tabela.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
@@ -38,11 +38,11 @@ Esta abordagem ajuda-o a criar novas colunas rápida e facilmente e é excelente
 Utilizar a funcionalidade **adicionar coluna do exemplo** é simples e direto. Nas próximas secções, veremos como é tão fácil.
 
 ## <a name="use-query-editor-to-add-a-new-column-from-examples"></a>Utilize o Editor de Consultas para adicionar uma nova coluna a partir de exemplos
-Para criar uma nova coluna a partir de um exemplo, inicie o **Editor de Consultas**. Também pode fazê-lo ao selecionar **Editar Consultas** no friso **Página Principal** no **Power BI Desktop**.
+Para criar uma nova coluna a partir de um exemplo, inicie o **Editor de Consultas**. Pode fazê-lo ao selecionar **Editar Consultas** no friso **Base** no **Power BI Desktop**.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-Neste artigo, iremos utilizar dados do seguinte artigo da Wikipedia (é uma ligação, pelo que pode clicar para obter os dados para si e acompanhar):
+Para obter dados de uma página Web, aceda ao separador **Base**, clique em **Obter Dados > Web** e, em seguida, cole o URL na caixa de diálogo apresentada. Este artigo utiliza dados de um artigo da Wikipédia. Pode clicar na seguinte ligação para obter os dados e acompanhar os passos:
 
 * [**Lista de estados e territórios dos Estados Unidos**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -51,9 +51,9 @@ Assim que o **Editor de Consultas** é iniciado e tiver alguns dados carregados,
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>O painel Adicionar Coluna a Partir dos Exemplos
-Depois de realizar uma seleção para adicionar uma nova coluna a partir de exemplos, é apresentado um novo painel que mostra as colunas na tabela atual (poderá ter de deslocar para ver todas). A nova **Coluna1** também é apresentado à direita, que é a coluna que o **Power BI Desktop** irá criar com base nos seus exemplos. Abaixo do novo cabeçalho **Coluna1** estão células em branco, onde pode escrever nos seus exemplos que o Power BI utiliza para criar regras e transformações para corresponder ao seu exemplo.
+Depois de realizar uma seleção para adicionar uma nova coluna a partir de exemplos, é apresentado um novo painel que mostra as colunas na tabela atual (poderá ter de deslocar para ver todas). A nova **Coluna1** também é apresentada à direita, que é a coluna que o **Power BI Desktop** cria com base nos seus exemplos. Abaixo do novo cabeçalho **Coluna1**, há células em branco onde pode escrever os seus exemplos que o Power BI utiliza para criar regras e transformações para corresponder ao seu exemplo.
 
-Repare também que este é um **Passo Aplicado** no painel **Definições da Consulta**. Como sempre, o **Editor de Consultas** irá registar os passos de transformação e aplicá-los na consulta, por ordem.
+Repare que este é um **Passo Aplicado** no painel **Definições da Consulta**. Como sempre, o **Editor de Consultas** irá registar os passos de transformação e aplicá-los na consulta, por ordem.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -66,9 +66,9 @@ Esta opção é denominada no painel **Adicionar Colunas a Partir de Exemplos** 
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-À medida que escreve o exemplo na nova coluna, o Power BI oferece-lhe uma pré-visualização da forma como a coluna que está a criar irá aparecer, com base nas transformações detetadas. Por exemplo, escrevemos *Alabama* na primeira linha, correspondente ao valor *Alabama* na primeira coluna da tabela. Assim que premimos *Enter*, o Power BI preenche a coluna com base nesse valor.
+À medida que escreve o exemplo na nova coluna, o Power BI oferece-lhe uma pré-visualização da forma como a coluna que está a criar irá aparecer, com base nas transformações detetadas. Por exemplo, se escrever *Alabama* na primeira linha, corresponde ao valor *Alabama* na primeira coluna da tabela. Assim que premir *Enter*, o Power BI preencherá a coluna com base nesse valor.
 
-Mas, em seguida, fomos para a linha que incluía *Massachusetts[E]* e eliminámos essa última parte *[E]* (porque não queríamos), o Power BI detetou a alteração e utilizou o exemplo para criar uma transformação. Observe a explicação da transformação no painel central superior.
+Mas suponhamos que acede à linha que inclui *Massachusetts[E]* e elimina a última parte, o *[E]* (uma vez que já não a quer). O Power BI deteta a alteração e utiliza o exemplo para criar uma transformação. Observe a explicação da transformação no painel central superior.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ Deseja ver isto a funcionar? O vídeo seguinte mostra esta funcionalidade a ser 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
-Existem várias transformações que estão disponíveis ao utilizar **Adicionar colunas a partir dos Exemplos**, mas nem todas as transformações estão incluídas. A lista seguinte apresenta todas as transformações que *são* suportadas.
+Existem várias transformações que estão disponíveis ao utilizar **Adicionar colunas a partir dos Exemplos**, mas nem todas as transformações estão incluídas. A seguinte lista apresenta todas as transformações suportadas.
 
 * **Referência**
   
