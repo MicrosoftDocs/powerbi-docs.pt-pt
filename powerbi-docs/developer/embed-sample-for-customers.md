@@ -1,15 +1,15 @@
 ---
-title: "Incorporar conteúdo do Power BI numa aplicação para os seus clientes"
-description: "Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com as APIs do Power BI para os seus clientes."
+title: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
+description: Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com as APIs do Power BI para os seus clientes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação
 Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com o SDK .NET do Power BI, juntamente com a API JavaScript do Power BI ao incorporar para os seus clientes. Normalmente, este é o cenário de ISV.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 É preciso gerar um token de incorporação que pode ser utilizado a partir da API JavaScript. O token de incorporação será específico do item que está a incorporar. Isto significa que sempre que incorporar um fragmento de conteúdo do Power BI, tem de criar um novo token de incorporação para o mesmo. Para obter mais informações, incluindo que **accessLevel** utilizar, veja [API GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
 > [!IMPORTANT]
-> Visto que os tokens de incorporação se destinam apenas a testes de desenvolvimento, o número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de incorporação de tokens. Não existe limite para a geração de tokens de incorporação quando é comprada capacidade.
+> Visto que os tokens de incorporação se destinam apenas a testes de desenvolvimento, o número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de incorporação de tokens. Não existe limite para a geração de tokens de incorporação quando é comprada capacidade. Aceda a [Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx) (Obter Funcionalidades Disponíveis) para verificar quantos tokens de incorporação gratuitos foram utilizados.
 
 Um exemplo está disponível em **Controllers\HomeController.cs** do [Exemplo de incorporação para a sua organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 

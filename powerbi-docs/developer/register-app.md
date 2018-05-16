@@ -1,27 +1,27 @@
 ---
-title: "Registar uma aplicação para incorporar conteúdo do Power BI"
-description: "Saiba como registar uma aplicação no Azure Active Directory para utilizar ao incorporar conteúdo do Power BI."
+title: Registar uma aplicação para incorporar conteúdo do Power BI
+description: Saiba como registar uma aplicação no Azure Active Directory para utilizar ao incorporar conteúdo do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI
 Saiba como registar uma aplicação no Azure Active Directory (Azure AD) para utilizar ao incorporar conteúdo do Power BI.
@@ -59,6 +59,22 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
    
     Em seguida, receberá um **ID de Cliente**. Se tiver selecionado **Aplicação Web do lado do servidor**, também irá receber um **Segredo do Cliente**. O **ID de Cliente** pode ser obtido a partir do portal do Azure, posteriormente, se for preciso. Se perder o **Segredo do Cliente**, terá de criar um novo no portal do Azure.
 
+8. Terá de navegar para o Azure para selecionar **Conceder permissões**.
+> [!Note]
+    > Para concluir esta ação tem de ser um administrador global no inquilino do Azure
+>
+
+* Aceda ao Azure.
+* Procure e selecione **Registos de aplicações**.
+* Escolha a sua aplicação.
+* Selecione **Configurações**.
+* Selecione **Permissões obrigatórias**.
+* Selecione **Serviço Power BI** para verificar as permissões que selecionou no site de registo de aplicações.
+* Selecione **Conceder Permissões**.
+
+
+
+
 Agora pode utilizar a aplicação registada como parte da sua aplicação personalizada para interagir com o serviço Power BI.
 
 > [!IMPORTANT]
@@ -77,8 +93,8 @@ A outra opção para registar a aplicação é fazê-lo diretamente no portal do
     ![](media/register-app/azuread-new-app-registration.png)
 5. Siga as instruções e crie uma nova aplicação.
    
-   * Para Aplicações Web, indique o URL de Início de Sessão, que é o URL de base da sua aplicação, onde os utilizadores podem iniciar sessão, por exemplo http://localhost:13526.
-   * Para Aplicações Nativas, indique um URI de Redirecionamento, que o Azure AD utiliza para devolver respostas de token. Introduza um valor específico na sua aplicação, por exemplo http://myapplication/redirect
+   * Para Aplicações Web, indique o URL de Início de Sessão, que é o URL base da sua aplicação, onde os utilizadores podem iniciar sessão, por exemplo, http://localhost:13526.
+   * Para Aplicações Nativas, indique um URI de Redirecionamento, que o Azure AD utiliza para devolver respostas de token. Introduza um valor específico na aplicação, por exemplo, http://myapplication/redirect
 
 Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Integrar aplicações com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -190,4 +206,5 @@ Precisa de ter sessão iniciada com uma conta *mestre* utilizada para incorporar
 Agora que registou a aplicação no Azure AD, terá de autenticar os utilizadores na sua aplicação. Dê uma vista de olhos em [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md) para aprender mais.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+
 

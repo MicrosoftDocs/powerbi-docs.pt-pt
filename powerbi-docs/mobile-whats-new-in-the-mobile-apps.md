@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -34,7 +34,7 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 ### <a name="mobile-drill-down-and-drill-up"></a>Desagregar e agregar num dispositivo móvel
 
-Agora pode desagregar e agregar para aprofundar os elementos visuais do relatório no dispositivo móvel. Para aceder a esta nova funcionalidade, toque e mantenha o dedo para abrir o menu de descrição num elemento visual de relatório e, em seguida, toque nos botões de desagregação/agregação para explorar os dados em profundidade.
+Agora pode desagregar e agregar para aprofundar os elementos visuais do relatório no dispositivo móvel. Para aceder a esta nova funcionalidade, toque e mantenha o dedo para abrir o menu de descrição num elemento visual de relatório e, em seguida, toque nos botões de desagregação/agregação para explorar os dados em profundidade. Mais sobre a [agregação e desagregação nas aplicações móveis](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
 ### <a name="persistent-filters"></a>Filtros persistentes
 

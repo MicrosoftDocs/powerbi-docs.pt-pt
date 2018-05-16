@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Utilizar a pormenorização no Power BI Desktop
 Com a **pormenorização** no **Power BI Desktop**, pode criar uma página no relatório centrada numa entidade específica, por exemplo, um fornecedor, um cliente ou um fabricante. Com essa página do relatório em destaque, os utilizadores podem clicar com o botão direito do rato num ponto de dados noutras páginas do relatório e obter a pormenorização da página em destaque para obter detalhes filtrados em função desse contexto.
@@ -45,8 +45,8 @@ Com a **pormenorização** no **Power BI Desktop**, pode criar uma página no r
 ## <a name="use-your-own-image-for-a-back-button"></a>Utilizar a sua própria imagem para um botão Anterior    
  Uma vez que o botão Anterior é uma imagem, pode substituir a imagem desse elemento visual por uma imagem à sua escolha. Continuará a funcionar como o botão que direciona os consumidores de relatórios de volta para a página original.
 
-1. Para utilizar a sua própria imagem para um botão Anterior, coloque uma imagem visual na página de pormenorização.
-2. Selecione o elemento visual e defina o **botão Anterior** no controlo de deslize. A imagem funciona agora como um botão de retrocesso.
+1. No separador **Base**, clique em **Imagem** e, em seguida, localize a imagem e coloque-a na página de pormenorização.
+2. Selecione a sua nova imagem na página Pormenorização e, na secção Formatar Imagem, coloque o controlo de deslize **Ligação** na posição de ativado e defina o **Tipo** como **Anterior**. A imagem funciona agora como um botão de retrocesso.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 

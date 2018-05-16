@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -69,6 +69,10 @@ O **Power BI Desktop** cria um marcador e atribui-lhe um nome genérico. Pode f
 
 Depois de ter um marcador, pode apresentá-lo ao clicar simplesmente nele no painel **Marcadores**. 
 
+Pode também selecionar se cada marcador aplicará propriedades de *dados* tais como filtros e segmentações de dados, propriedades de *visualização* tais como destaque e a sua visibilidade, bem como alterações à página que apresenta a página que estava visível quando o marcador foi adicionado. Estas capacidades são úteis quando utiliza marcadores para alternar entre tipos de elementos visuais, caso em que pretenderá, provavelmente, desativar as propriedades dos dados para que os filtros não sejam repostos quando os utilizadores alteram os tipos de elementos visuais. 
+
+Para efetuar essas alterações, selecione as reticências junto ao nome do marcador, conforme mostrado na imagem anterior, em seguida, selecione ou anule a seleção das marcas de verificação próximas de *Dados*, *Visualização* e outros controlos. 
+
 ## <a name="arranging-bookmarks"></a>Dispor marcadores
 À medida que cria marcadores, pode considerar que a ordem pela qual são criados não é necessariamente a mesma ordem pela qual quer apresentá-los ao seu público. Não há problema, pode reorganizar facilmente a ordem dos marcadores.
 
@@ -105,13 +109,13 @@ Quando é adicionado um marcador, o estado visível de cada objeto também é gu
 É importante ter em atenção que as **segmentações de dados** continuam a filtrar uma página de relatório, independentemente de estarem visíveis. Como tal, pode criar vários marcadores diferentes, com diversas definições de segmentação de dados e fazer uma única página de relatório parecer muito diferente (e realçar diferentes informações) em vários marcadores.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Marcadores para formas e imagens
-Também pode ligar formas e imagens a marcadores. Com esta funcionalidade, quando clica num objeto, será apresentado o marcador associado a esse objeto. 
+Também pode ligar formas e imagens a marcadores. Com esta funcionalidade, quando clica num objeto, será apresentado o marcador associado a esse objeto. Essa funcionalidade pode ser especialmente útil ao trabalhar com botões. Pode obter mais informações ao ler o artigo sobre como [utilizar botões no Power BI](desktop-buttons.md). 
 
-Para atribuir um marcador a um objeto, selecione o objeto e, em seguida, selecione **Ligar** no painel **Formatar Forma**, conforme mostrado na imagem seguinte.
+Para atribuir um marcador a um objeto, selecione o objeto e, em seguida, expanda a secção **Ação** no painel **Formatar Forma**, conforme mostrado na imagem seguinte.
 
 ![Adicionar uma ligação de marcador a um objeto](media/desktop-bookmarks/bookmarks_10.png)
 
-Depois de colocar o controlo de deslize **Ligar** como **Ativado**, pode selecionar se o objeto é uma ligação ou um marcador. Se selecionar vários marcadores, pode selecionar a qual deles o objeto está ligado.
+Depois de colocar o controlo de deslize **Ação** como **Ativado**, pode selecionar se o objeto é um botão de retrocesso, um marcador ou um comando de Perguntas e Respostas. Se selecionar vários marcadores, pode selecionar a qual deles o objeto está ligado.
 
 Existem todos os tipos de coisas interessantes que pode fazer com marcadores ligados a objetos. Pode criar um índice visual da página de relatório ou pode fornecer diferentes vistas (por exemplo, tipos visuais) dessas mesmas informações apenas ao clicar num objeto.
 
@@ -138,9 +142,7 @@ Em contrapartida, quando o modo **Em Destaque** é selecionado no menu de retic�
 Se qualquer um dos modos for selecionado quando é adicionado um marcador, esse modo (detalhe ou Em Destaque) é mantido no marcador.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Marcadores no serviço Power BI
-Quando publica um relatório no **serviço Power BI** com, pelo menos, um marcador, pode ver e interagir com esses marcadores no **serviço Power BI**. Para cada relatório que publicar, tem de ter, pelo menos, um marcador no relatório, antes de publicar, para a funcionalidade estar disponível no **serviço Power BI**.
-
-Quando estão disponíveis marcadores num relatório, pode selecionar **Ver > Painel de seleção** ou **Ver > Painel de marcadores** para mostrar todos os painéis.
+Quando publica um relatório no **serviço Power BI** com, pelo menos, um marcador, pode ver e interagir com esses marcadores no **serviço Power BI**. Quando estão disponíveis marcadores num relatório, pode selecionar **Ver > Painel de seleção** ou **Ver > Painel de marcadores** para mostrar todos os painéis.
 
 ![Ver os painéis de marcadores e de seleção no serviço Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,13 +153,12 @@ Tenha em atenção que tem de utilizar a barra de título do marcador cinzenta p
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos **marcadores**, existem algumas limitações e considerações a não esquecer.
 
-* Os elementos visuais personalizados não funcionam com marcadores se forem a *origem* do filtro. Se estiver a utilizar elementos visuais personalizados para filtrar os elementos numa página (por exemplo, a segmentação de dados chiclete) e voltar a essa página através de um marcador, a página poderá ser filtrada, mas o elemento visual personalizado não será atualizado para mostrar como a página está a ser filtrada. 
-* O estado de realce cruzado do painel do relatório *não* é guardado quando cria um marcador. 
+* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Caso se depare com problemas com a marcação e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
 * Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este será apresentado no estado predefinido. Isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
 * O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
-* *Tem* de ter, pelo menos, um marcador no relatório quando o publicar no **serviço Power BI**, para que os marcadores estejam disponíveis no serviço. Este é um requisito para cada relatório que publicar.
 
-## <a name="next-steps"></a>Passos seguintes
+
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

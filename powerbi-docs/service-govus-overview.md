@@ -1,28 +1,28 @@
 ---
-title: "Power BI para clientes da Administração Pública dos EUA - Descrição geral"
-description: "Para clientes da Administração Pública dos EUA, saiba mais sobre as funcionalidades e limitações do serviço Power BI para a Administração Pública dos EUA"
+title: Power BI para clientes da Administração Pública dos EUA - Descrição geral
+description: Para clientes da Administração Pública dos EUA, saiba mais sobre as funcionalidades e limitações do serviço Power BI para a Administração Pública dos EUA
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b3682deb1897647a7de6f32dc87a4d7ed8bc2c9f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes da Administração Pública dos EUA
 O **serviço Power BI** tem uma versão disponível para clientes da Administração Pública dos EUA como parte das subscrições do **Office 365 US Government Community**. A versão do **serviço Power BI** abordada neste artigo foi concebida especificamente para clientes da Administração Pública dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
@@ -61,6 +61,7 @@ Os espaços IP estão disponíveis na cloud pública, mas para a cloud da admini
 ## <a name="limitations-of-power-bi-us-government"></a>Limitações do Power BI para a Administração Pública dos EUA
 Algumas das funcionalidades disponíveis na versão comercial do **serviço Power BI** *não* estão disponíveis no **serviço Power BI** para clientes da Administração Pública dos EUA. A equipa do Power BI está a trabalhar ativamente no sentido de disponibilizar estas funcionalidades para clientes da administração pública dos EUA e irá atualizar este artigo quando estas funcionalidades forem disponibilizadas.
 
+* **Incorporar no SharePoint Online**: não é possível incorporar o conteúdo no SharePoint Online com a peça Web do Power BI.
 * O **Power BI para a Administração Pública dos EUA** está disponível apenas na licença **Pro**. Todas as referências a licenças do Power BI (Gratuito) num portal de administração (ou como utilizadores) são executadas numa cloud de serviço comercial do Power BI.
 * **Auditoria** - A auditoria não está disponível através do portal de Segurança e Conformidade do Office 365.
 * **Conteúdo do Power BI no Cortana** - os resultados do Power BI não irão aparecer nos resultados de pesquisa do Cortana, que inclui os resultados dos seus conteúdos do Power BI (dashboards, relatórios, aplicações), bem como resultados que mostram as páginas de relatório com otimização do Cortana para palavras-chave específicas.
