@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 5d18d7b5f5ebdd096cc5fb0e40eef845dc72c0db
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
 No Power BI Desktop, pode criar um visual do **Mapa de Forma** para mostrar comparações relativas de regiões num mapa ao aplicar diferentes cores em diferentes regiões. Em comparação com o visual do **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa; em vez disso, o propósito principal é mostrar comparações relativas de regiões num mapa ao distingui-las com cores diferentes.
@@ -333,7 +333,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | mx-bcn |B.C. |MX-BCN |Baixa Califórnia |Baixa Califórnia |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Países Baixos: Províncias
+### <a name="netherlands-provinces"></a>Holanda: Províncias
 | ID | iso | nome | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |

@@ -1,15 +1,15 @@
 ---
-title: "Migrar uma instalação do servidor de relatórios"
-description: "Saiba como migrar a sua instância existente do SQL Server Reporting Services para uma instância do Power BI Report Server."
+title: Migrar uma instalação do servidor de relatórios
+description: Saiba como migrar a sua instância existente do SQL Server Reporting Services para uma instância do Power BI Report Server.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 67fe876bb9de92cc7f4c0c140f7c016f01216cdd
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 9983956ccb33cc9c45fd1ac316fb74d07eb3acf5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrar uma instalação do servidor de relatórios
 Saiba como migrar a sua instância existente do SQL Server Reporting Services (SSRS) para uma instância do Power BI Report Server.
@@ -107,7 +107,7 @@ Migrar de um Power BI Report Server é um processo idêntico a migrar do SSRS (M
 
 ## <a name="next-steps"></a>Próximos passos
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Power BI Report Server](quickstart-install-report-server.md)  
+[Instalar o Power BI Report Server](install-report-server.md)  
 [Script com Utilitário rs.exe e o Serviço Web](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: faf438e9f76a7a929f7369dc91ef4edb4fbef42d
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: dfb1fbb90327a9f8a0d6d858c5c152ad31342085
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI e ExpressRoute
 Com o **Power BI** e o **ExpressRoute**, pode criar uma ligação de rede privada entre a sua organização e o Power BI (ou através de um recurso de colocação de um ISP) ao ignorar a Internet para proteger melhor as ligações e os dados confidenciais do Power BI.
@@ -34,7 +34,7 @@ O **ExpressRoute** é um serviço do Azure que permite criar ligações privadas
 Pode obter [mais informações sobre o ExpressRoute](https://azure.microsoft.com/services/expressroute/) ou sobre [como se inscrever](https://azure.microsoft.com/pricing/details/expressroute/).
 
 > [!NOTE]
-> O Power BI é suportado no modo de peering público, conforme descrito [nesta FAQ](https://docs.microsoft.com/azure/expressroute/expressroute-faqs).
+> O Power BI é suportado no modo de peering público, conforme descrito [nestas FAQ](https://docs.microsoft.com/azure/expressroute/expressroute-faqs).
 > 
 > 
 
@@ -93,6 +93,6 @@ Alguns **elementos visuais personalizados** são criados por terceiros, enquanto
 ### <a name="power-bi-mobile-and-expressroute"></a>Power BI Mobile e ExpressRoute
 Este documento não aborda a utilização de aplicações móveis do Power BI.  
 
-### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway de dados e ExpressRoute no local
+### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway de dadose ExpressRoute no local
 Quando um **Gateway de dados no local** é utilizado com o Power BI, as transmissões estão em conformidade com o ExpressRoute, exceto as atividades do utilizador documentadas na secção **Aplicação SaaS do Power BI e ExpressRoute** encontrada anteriormente neste tópico.  
 

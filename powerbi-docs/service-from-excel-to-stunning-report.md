@@ -1,15 +1,15 @@
 ---
-title: "Tutorial: De um livro do Excel a um relatório incrível num instante"
-description: "Tutorial: De um livro do Excel a um relatório incrível num instante"
+title: De um livro do Excel a um relatório incrível num instante
+description: De um livro do Excel a um relatório incrível num instante
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>De um livro do Excel a um relatório incrível num instante
 A sua gestora quer ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha até ao fim do dia. No entanto, os dados mais recentes residem em vários sistemas de terceiros e em ficheiros no seu portátil. Anteriormente, levava várias horas a criar elementos visuais e a formatar um relatório. Está a começar a ficar ansioso.

@@ -1,15 +1,15 @@
 ---
 title: Requisitos de software e hardware para instalar o Power BI Report Server
-description: "Irá encontrar aqui os requisitos mínimos de hardware e software para instalar e executar o Power BI Report Server."
+description: Irá encontrar aqui os requisitos mínimos de hardware e software para instalar e executar o Power BI Report Server.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de software e hardware para instalar o Power BI Report Server
 Irá encontrar aqui os requisitos mínimos de hardware e software para instalar e executar o Power BI Report Server.
@@ -76,7 +76,7 @@ Pode utilizar uma ligação em direto contra instâncias em tabela ou multidimen
 ## <a name="next-steps"></a>Passos seguintes
 [Manual do utilizador](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Power BI Report Server](quickstart-install-report-server.md)  
+[Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

@@ -1,28 +1,28 @@
 ---
-title: "Transmissão em fluxo em tempo real no Power BI"
-description: "Obter elementos visuais e transmissão em fluxo de dados em tempo real no Power BI"
+title: Transmissão em fluxo em tempo real no Power BI
+description: Obter elementos visuais e transmissão em fluxo de dados em tempo real no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 07a38e090ba00665462e3dc7fa32d0ba193ac6da
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ce42eceb478023b0ebbfd26e1762c63084ac84a6
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.

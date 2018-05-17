@@ -1,15 +1,15 @@
 ---
 title: Suporte de browser para o Power BI Report Server
-description: "Saiba que versões de browser são suportadas para gerir e visualizar o Power BI Report Server e os controlos do Visualizador de Relatórios."
+description: Saiba que versões de browser são suportadas para gerir e visualizar o Power BI Report Server e os controlos do Visualizador de Relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Suporte de browser para o Power BI Report Server
 Saiba que versões de browser são suportadas para gerir e visualizar o Power BI Report Server e os controlos do Visualizador de Relatórios.
@@ -120,7 +120,7 @@ Utilize um browser que tenha o suporte para scripts ativado. Se o browser não p
 
 ## <a name="next-steps"></a>Próximos passos
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Power BI Report Server](quickstart-install-report-server.md)  
+[Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

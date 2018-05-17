@@ -1,15 +1,15 @@
 ---
-title: "Como localizar a chave de produto do servidor de relatórios"
-description: "Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção."
+title: Como localizar a chave de produto do servidor de relatórios
+description: Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Como localizar a chave de produto do servidor de relatórios
 Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção.
@@ -51,8 +51,8 @@ Se tem um contrato do SQL Server Enterprise SA, pode obter a sua chave de produt
 
 ![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
-## <a name="next-steps"></a>Passos seguintes
-[Início rápido: instalar o Power BI Report Server](quickstart-install-report-server.md)  
+## <a name="next-steps"></a>Próximos passos
+[Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

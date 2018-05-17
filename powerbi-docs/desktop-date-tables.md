@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d87f56e8e16c9d60a6ba74a25772b604c6a7fa3d
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 6dac17f4addca4e3212eb9dadcfb46f2adac1eca
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Definir e utilizar tabelas de datas no Power BI Desktop
 
@@ -78,7 +78,7 @@ Quando especificar a sua **tabela de datas**, tem de garantir que o tipo de dado
 3. Especifique o tipo de dados da coluna. 
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Poderá também estar interessado nos seguintes artigos.
 

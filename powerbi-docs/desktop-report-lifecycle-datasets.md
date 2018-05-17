@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 04d622bd6cc2c4d0cc00b02bbd538e721bebf133
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço Power BI e pode, tal como as outras pessoas, criar vários relatórios diferentes (em ficheiros .pbix separados) a partir desse mesmo modelo de dados comum. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: bad0a8cb7f0f6eab7414d06ee5545e9499ccdc95
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Utilizar o DirectQuery no Power BI
 Pode ligar a todos os diversos tipos de origens de dados quando utiliza o **Power BI Desktop** ou o **serviço Power BI** e pode efetuar essas ligações de dados de formas diferentes. Pode *importar* dados para o Power BI, que é a forma mais comum de obtê-los ou pode ligar-se diretamente aos dados no respetivo repositório de origem original, o que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e respetivas capacidades, incluindo os seguintes tópicos:
@@ -127,7 +127,7 @@ Juntamente com o desempenho da origem subjacente, é preciso ter em conta a carg
 Ao importar dados, é possível combinar dados de várias origens num único modelo para, por exemplo, associar facilmente alguns dados de uma base de dados empresarial do SQL Server a alguns dados locais presentes num ficheiro do Excel. Isto não é possível se for utilizado o DirectQuery. Se selecionar o DirectQuery para uma origem, só será possível utilizar dados dessa origem individual (como uma base de dados do SQL Server individual).
 
 ### <a name="limited-data-transformations"></a>Transformações de dados limitadas
-Da mesma forma, existem limitações nas transformações de dados que podem ser aplicadas no **Editor de Consultas**. Com os dados importados, pode ser facilmente aplicado um conjunto sofisticado de transformações para limpar e reformatar os dados antes de os utilizar para criar elementos visuais (como analisar documentos JSON ou deslocar dados de formulários orientados em coluna para formulários orientado por linhas). Estas transformações mais são limitadas no DirectQuery. Em primeiro lugar, ao ligar a uma origem OLAP, como o SAP Business Warehouse, não é possível definir nenhuma transformação e todo o “modelo” externo é obtido a partir da origem. Nas origens relacionais, como o SQL Server, continua a ser possível definir um conjunto de transformações por consulta, mas estas são limitadas por motivos de desempenho. Qualquer uma destas transformações terá de ser aplicada a todas as consultas feitas na origem subjacente e não apenas uma vez na atualização dos dados, pelo que estão limitadas às transformações que podem ser razoavelmente traduzidas numa única consulta nativa. Se utilizar uma transformação demasiado complexa, receberá um erro que diz que tem de ser eliminada ou que o modelo tem de ser alterado para o modo Importar.
+Da mesma forma, existem limitações nas transformações de dados que podem ser aplicadas no **Editor de Consultas**. Com os dados importados, pode ser facilmente aplicado um conjunto sofisticado de transformações para limpar e reformatar os dados antes de utilizá-los para criar elementos visuais (como analisar documentos JSON ou deslocar dados de formulários orientados em coluna para formulários orientado por linhas). Estas transformações mais são limitadas no DirectQuery. Em primeiro lugar, ao ligar a uma origem OLAP, como o SAP Business Warehouse, não é possível definir nenhuma transformação e todo o “modelo” externo é obtido a partir da origem. Nas origens relacionais, como o SQL Server, continua a ser possível definir um conjunto de transformações por consulta, mas estas são limitadas por motivos de desempenho. Qualquer uma destas transformações terá de ser aplicada a todas as consultas feitas na origem subjacente e não apenas uma vez na atualização dos dados, pelo que estão limitadas às transformações que podem ser razoavelmente traduzida numa única consulta nativa. Se utilizar uma transformação demasiado complexa, receberá um erro que diz que tem de ser eliminada ou que o modelo tem de ser alterado para o modo Importar.
 
 Além disso, a consulta que resulta da caixa de diálogo **Obter Dados** ou do **Editor de Consultas** será utilizada numa sub-seleção dentro das consultas geradas e enviadas para obter os dados necessários para os elementos visuais. Por este motivo, a consulta definida no Editor de Consultas tem de ser válida dentro deste contexto. Mais concretamente, isto significa que não é possível utilizar consultas com Expressões de Tabela Comuns nem consultas que invoquem Procedimentos Armazenados.
 

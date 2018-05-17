@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc47a62a7d8854356e482aed9bd86ed51a5d02b9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificar-se de que obtém sempre os dados mais recentes, muitas vezes, é fundamental para tomar as decisões certas. Provavelmente já usou Obter Dados no Power BI para se ligar e carregar alguns dados, e já criou alguns relatórios e um dashboard. E agora quer certificar-se de que os seus dados são realmente os mais recentes e os melhores.
@@ -113,7 +113,7 @@ Manter os seus ficheiros no OneDrive ou SharePoint Online e ligar-se a eles atra
 | Obter Dados (no friso) é usado para ligação e consulta de dados a partir de qualquer origem de dados online listada. |Não |Sim |Não (ver abaixo) |
 | O recurso Obter Dados é usado para se ligar e explorar em direto uma base de dados do Analysis Services. |Sim |Não |Sim |
 | O recurso Obter Dados é usado para se ligar e explorar uma origem de dados DirectQuery local. |Sim |Não |Sim |
-| Obter Dados é usado para ligação e consulta de dados a partir do Spark para Azure HDInsight, Base de Dados SQL do Azure, Azure SQL Data Warehouse. |Sim |Sim |No |
+| Obter Dados é usado para ligação e consulta de dados a partir do Spark para Azure HDInsight, Base de Dados SQL do Azure, Azure SQL Data Warehouse. |Sim |Sim |Não |
 | Obter Dados é usado para ligação e consulta de dados a partir de qualquer origem de dados local listada, com exceção do ficheiro Hadoop (HDFS) e Microsoft Exchange. |Não |Sim |Sim |
 
 > [!NOTE]

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI
 Saiba como registar uma aplicação no Azure Active Directory (Azure AD) para utilizar ao incorporar conteúdo do Power BI.
@@ -71,9 +71,6 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
 * Selecione **Permissões obrigatórias**.
 * Selecione **Serviço Power BI** para verificar as permissões que selecionou no site de registo de aplicações.
 * Selecione **Conceder Permissões**.
-
-
-
 
 Agora pode utilizar a aplicação registada como parte da sua aplicação personalizada para interagir com o serviço Power BI.
 

@@ -1,16 +1,16 @@
 ---
-title: "Início Rápido – Criar um dashboard do Power BI a partir de um relatório"
-description: "Criar um dashboard do Power BI a partir de um relatório"
+title: Criar um dashboard do Power BI a partir de um relatório
+description: Criar um dashboard do Power BI a partir de um relatório
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e995795496612d8eb8561cacd8bb4d31e1db394b
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
 Já leu [Dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há várias formas diferentes de criar um dashboard: a partir de um relatório, de raiz, de um conjunto de dados, ao duplicar um dashboard existente e muito mais.  
@@ -36,7 +36,7 @@ A criação de dashboards é uma funcionalidade do **criador** e precisa de perm
 >
 > 
 
-![dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Criar um dashboard ao afixar visuais e imagens de um relatório
 Veja a Amanda a criar um novo dashboard ao afixar visualizações de um relatório. Depois, siga os passos abaixo do vídeo para experimentar por si próprio, com o exemplo de Análise de Aprovisionamento.
@@ -109,7 +109,7 @@ Em vez de afixar um elemento visual de cada vez, pode [afixar uma página de rel
 
 4. Quando a mensagem Êxito aparecer, selecione **Ir para o dashboard**. Aqui verá os mosaicos afixados a partir do relatório. No exemplo abaixo, afixamos dois mosaicos da página 1 do relatório e um mosaico dinâmico que corresponde à página 2 do relatório.
 
-   ![dashboard](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
 
 Parabéns pela criação do seu primeiro dashboard! Agora que tem um dashboard, pode fazer muito mais com ele.  Experimente um dos **Próximos passos** sugeridos abaixo ou comece a experimentar e explorar de forma autónoma.   
 

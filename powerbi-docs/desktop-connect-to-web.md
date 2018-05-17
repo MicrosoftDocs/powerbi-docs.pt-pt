@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: a4b24ce9201978435f057919b30dd6cef1b31c3a
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Ligar a uma página Web do Power BI Desktop
 Pode ligar a uma página Web e importar os respetivos dados para o Power BI Desktop para utilizar nos seus visuais e modelos de dados.

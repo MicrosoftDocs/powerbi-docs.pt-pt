@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Utilizar etiquetas de hierarquia inline no Power BI Desktop
 O **Power BI Desktop** suporta a utilização de **etiquetas de hierarquia inline**, a primeira de duas funcionalidades destinadas a melhorar a desagregação hierárquica. A segunda funcionalidade, atualmente em desenvolvimento, é a capacidade de utilizar etiquetas de hierarquia aninhadas (esteja atento; as nossas atualizações ocorrem frequentemente).   
@@ -30,35 +30,41 @@ O **Power BI Desktop** suporta a utilização de **etiquetas de hierarquia inlin
 ## <a name="how-inline-hierarchy-labels-work"></a>Como funcionam as etiquetas de hierarquia inline
 Com as etiquetas de hierarquia inline, pode ver as etiquetas de hierarquia à medida que expande os elementos visuais através da funcionalidade **Expandir Tudo**. Uma vantagem excelente para ver estas etiquetas de hierarquia é o facto de também poder optar por **ordenar** por estas etiquetas de hierarquia diferentes à medida que expande os dados hierárquicos.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>Utilizar a funcionalidade Expandir Tudo incorporada (sem ordenar por etiquetas de hierarquia)
-Antes de vermos as etiquetas de hierarquia inline em ação, vamos rever o comportamento da funcionalidade **Expandir Tudo**. Fazê-lo ajuda-nos a compreender (e a agradecer) a utilidade das etiquetas de hierarquia inline.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Utilizar a funcionalidade Expandir incorporada (sem ordenar por etiquetas de hierarquia)
+Antes de vermos as etiquetas de hierarquia inline em ação, vamos rever o comportamento da funcionalidade **Expandir para o nível seguinte**. Fazê-lo ajuda-nos a compreender (e a agradecer) a utilidade das etiquetas de hierarquia inline.
 
-A imagem seguinte mostra um elemento visual de gráfico de barras de vendas anuais. Ao clicar com o botão direito do rato, pode selecionar **Expandir Tudo**.
+A imagem seguinte mostra um elemento visual de gráfico de barras de vendas anuais. Ao clicar com o botão direito do rato numa barra, pode selecionar **Expandir para o nível seguinte**.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Menu de contexto Expandir](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Depois de selecionar **Expandir Tudo**, o elemento visual expande a hierarquia de datas de *Ano* até *Trimestre*, conforme mostrado na imagem seguinte.
+> [!NOTE]
+> Em alternativa a clicar com o botão direito do rato numa barra, pode selecionar o botão *Expandir* no canto superior esquerdo da visualização.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Botão Expandir](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Tenha em atenção que as etiquetas *Ano* e *Trimestre* são apresentadas inline... este esquema de etiquetas continua à medida que seleciona **Expandir Tudo** até à parte inferior da hierarquia.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+Depois de selecionar **Expandir para o nível seguinte**, o elemento visual expande a hierarquia de datas de *Ano* até *Trimestre*, conforme apresentado na imagem seguinte.
+
+![Elemento visual expandido para ano e trimestre](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+Repare que as etiquetas *Ano* e *Trimestre* são apresentadas inline. Este esquema de etiquetas continua à medida que seleciona **Expandir Tudo** até à parte inferior da hierarquia.
+
+![Elemento visual expandido para ano, trimestre e mês](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 É assim que se comporta a hierarquia *Data* incorporada, associada a campos que tenham um tipo de dados *data/hora*. Vamos avançar para a secção seguinte e ver como é diferente a nova funcionalidade de etiquetas de hierarquia inline.
 
 ### <a name="using-inline-hierarchy-labels"></a>Utilizar etiquetas de hierarquia inline
-Agora, vamos ver um gráfico diferente, através de dados com hierarquias informais. No elemento visual seguinte, está um gráfico de barras com **Valor de Vendas**, com *Cor* como eixo. Nestes dados, *Cor* e *Classe* formam uma hierarquia informal. A partir daqui, pode selecionar novamente *Expandir Tudo* para desagregar a hierarquia.
+Agora, vamos ver um gráfico diferente, através de dados com hierarquias informais. No seguinte elemento visual, temos um gráfico de barras com **Quantidade**, a utilizar *NomeDoProduto* como o eixo. Nestes dados, *NomeDoProduto* e *PaísDoEnvio* formam uma hierarquia informal. A partir daqui, pode selecionar novamente *Expandir para o nível seguinte* para desagregar a hierarquia.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Gráfico com hierarquia informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-A seleção de **Expandir Tudo** mostra o nível seguinte com a apresentação inline das etiquetas de hierarquia. Por predefinição, as hierarquias inline são ordenadas pelo valor de medida, neste caso, **SalesAmount**. Com as etiquetas de hierarquia inline ativadas, pode optar por ordenar estes dados pela hierarquia, ao selecionar as reticências no canto superior direito (**...**) e, em seguida, ao selecionar **Ordenar Por > Classe de Cor**, conforme mostrado na imagem seguinte.
+A seleção de **Expandir para o nível seguinte** mostra o nível seguinte com a apresentação inline das etiquetas de hierarquia. Por predefinição, as hierarquias inline são ordenadas pelo valor de medida, neste caso, **Quantidade**. Com as etiquetas de hierarquia inline ativadas, pode optar por ordenar estes dados pela hierarquia, ao selecionar as reticências no canto superior direito (**...**) e, em seguida, selecionar **Ordenar Por NomeDoProduto PaísDoEnvio**, conforme apresentado na imagem seguinte.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Gráfico com a hierarquia informal ordenada por predefinição](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Quando **Classe de Cor** estiver selecionado, os dados são ordenados com base na seleção de hierarquia informal, conforme mostrado na imagem seguinte.
+Quando **PaísDoEnvio** estiver selecionado, os dados serão ordenados com base na seleção de hierarquia informal, conforme apresentado na imagem seguinte.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Gráfico com a hierarquia informal ordenada por hierarquia informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > A funcionalidade de etiquetas de hierarquia inline ainda não permite ordenar a hierarquia de tempo incorporada por valor; é ordenada apenas pela ordem de hierarquia.

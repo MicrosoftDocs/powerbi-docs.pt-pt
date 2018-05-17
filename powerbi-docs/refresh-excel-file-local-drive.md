@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 903f53378f2a9c8efce5bc8c6028f89add7df8c5
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 00b41c468f953423070f6e261d8ef1637e65e01f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base numa pasta do Excel numa unidade local
 ## <a name="whats-supported"></a>O que é suportado?
@@ -39,14 +39,14 @@ No Power BI, há suporte para os recursos Atualizar Agora e Agendar Atualizaçã
 
 > **Observações:**  
 > 
-> * Um gateway tem de ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
+> * Um gateway deve ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
 > * Ao utilizar o Excel 2013, certifique-se de que atualizou o Power Query para a versão mais recente.
 > * Não há suporte para a atualização para pastas de trabalho do Excel importadas de uma unidade local em que os dados existem somente em planilhas ou tabelas vinculadas. Há suporte para a atualização para dados de folha de cálculo se eles forem armazenados e importados do OneDrive. Para saber mais, veja [Atualizar um conjunto de dados criado com base numa pasta de trabalho do Excel no OneDrive ou SharePoint Online](refresh-excel-file-onedrive.md).
 > * Quando atualiza um conjunto de dados criado através de uma pasta de trabalho do Excel importada de uma unidade local, apenas os dados consultados das origens de dados são atualizados. Se alterar a estrutura do modelo de dados no Excel ou no Power Pivot, por exemplo, criar uma nova medida ou alterar o nome de uma coluna, essas alterações não serão copiadas no conjunto de dados. Se fizer essas alterações, precisa de carregar ou publicar novamente a pasta de trabalho. Se pretende fazer alterações regulares na estrutura da pasta de trabalho e quiser que elas sejam refletidas no conjunto de dados no Power BI sem a necessidade de carregar novamente, considere colocar a sua pasta de trabalho no OneDrive. O Power BI atualiza automaticamente a estrutura e os dados de planilha das pastas de trabalho armazenadas e importadas do OneDrive.
 > 
 > 
 
-## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>Como me certifico de que os dados são carregados no modelo de dados do Excel?
+## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>Como ter certeza de que os dados são carregados no modelo de dados do Excel?
 Quando usa o Power Query (Obter e Transformar dados no Excel 2016) para se ligar a uma origem de dados, tem várias opções de onde carregar os dados. Para se certificar de que carrega os dados no modelo de dados, tem de selecionar a opção **Adicionar estes dados ao Modelo de Dados** na caixa de diálogo **Carregar para**.
 
 > [!NOTE]
@@ -74,10 +74,10 @@ Para obter detalhes sobre como configurar a atualização de agendamento, veja [
 ## <a name="when-things-go-wrong"></a>Quando acontece algo de errado
 Quando ocorre algo errado, normalmente isso deve-se ao facto de o Power BI não conseguir iniciar sessão nas origens de dados ou se o conjunto de dados ligar a uma origem de dados no local, o gateway ficar offline. Certifique-se de que o Power BI consegue iniciar sessão nas origens de dados. Se uma palavra-passe que utiliza para entrar numa origem de dados for alterada ou o Power BI for desligado de uma origem de dados, certifique-se de que se inscreve novamente nas suas origens de dados nas Credenciais da Origem de Dados.
 
-Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Quer saber imediatamente de uma falha numa atualização agendada.
+Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Vai querer saber imediatamente de uma falha numa atualização agendada.
 
 >[!IMPORTANT]
->Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, utilize o Power Query.
+>Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, use o Power Query.
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.

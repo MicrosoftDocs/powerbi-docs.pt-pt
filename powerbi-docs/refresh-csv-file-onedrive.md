@@ -1,28 +1,28 @@
 ---
-title: "Atualizar um conjunto de dados criado por meio de um ficheiro .csv (valor separado por vírgulas) no OneDrive"
-description: "Atualizar um conjunto de dados criado por meio de um ficheiro .csv (valor separado por vírgulas) no OneDrive"
+title: Atualizar um conjunto de dados criado por meio de um ficheiro .csv (valor separado por vírgulas) no OneDrive
+description: Atualizar um conjunto de dados criado por meio de um ficheiro .csv (valor separado por vírgulas) no OneDrive
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9f75fbe2344269cd7a469cbe2f7499564e6a041c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a9d998655fd8d82169d265f50ce03b59da47de38
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado com base num ficheiro .CSV no OneDrive ou SharePoint Online
 ## <a name="what-are-the-advantages"></a>Quais são as vantagens?

@@ -1,28 +1,28 @@
 ---
-title: "Criar análises e visualizações avançadas com scripts R no Power BI"
-description: "Utilizar scripts R no Power BI para criar análises e visualizações avançadas"
+title: Criar análises e visualizações avançadas com scripts R no Power BI
+description: Utilizar scripts R no Power BI para criar análises e visualizações avançadas
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e921da07809757de02a9b0d00065a0946edb7e51
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0eb100a37a6267530d00b8293be63510c02bb4d9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar elementos visuais R no serviço Power BI
 O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
@@ -70,7 +70,7 @@ Como outro exemplo, a imagem seguinte mostra a mensagem de erro apresentada quan
 
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
-## <a name="licensing"></a>Licenças
+## <a name="licensing"></a>Licensing
 Os elementos visuais R requerem uma licença do [Power BI Pro](service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](service-premium.md)
 
 Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios. Para obter mais informações, veja [Comprar o Power BI Pro](service-admin-purchasing-power-bi-pro.md).

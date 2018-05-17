@@ -2,27 +2,27 @@
 title: Utilizar um IDE R externo com o Power BI
 description: Pode iniciar e utilizar um IDE externo com o Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3903a4d7351ab00da24750736840c6ba35cffa2b
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: dfaff0f212d6f25fbb236bec9a6ab6e502f13685
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Utilizar um IDE R externo com o Power BI
 Com o **Power BI Desktop**, pode utilizar o IDE R externo (Integrated Development Environment, Ambiente de Desenvolvimento Integrado) para criar e refinar os scripts R e utilizar esses scripts no Power BI.
@@ -42,7 +42,7 @@ Para utilizar esta funcionalidade, tem de instalar um **IDE R** no seu computado
 * Também pode instalar um IDE R diferente e fazer com que o **Power BI Desktop** inicie esse **IDE R** ao efetuar um dos seguintes procedimentos:
   
   * Pode associar ficheiros **.R** ao IDE externo que quer que o **Power BI Desktop** inicie.
-  * Pode especificar o .exe que o **Power BI Desktop** deve iniciar ao selecionar *Outros* na secção **Opções de Script R** na caixa de diálogo **Opções**. Pode apresentar a caixa de diálogo **Opções** ao aceder a **Ficheiro > Opções e definições > Opções**.
+  * Pode especificar o .exe que o **Power BI Desktop** deve iniciar ao selecionar *Outros* na secção **Opções de Script R** na caixa de diálogo **Opções**. Pode apresentar a caixa de diálogo **Ppções** ao aceder a **Ficheiro > Opções e definições > Opções**.
     
     ![](media/desktop-r-ide/r-ide_1b.png)
 

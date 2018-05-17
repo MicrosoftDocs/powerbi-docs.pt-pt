@@ -1,28 +1,28 @@
 ---
-title: "Saiba quais os pacotes R suportados para utilização e criação de scripts R no Power BI"
-description: "Pacotes R suportados e não suportados no Power BI"
+title: Saiba quais os pacotes R suportados para utilização e criação de scripts R no Power BI
+description: Pacotes R suportados e não suportados no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
 Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.org/) para criar elementos visuais no serviço Power BI. Inúmeros pacotes R são suportados no serviço Power BI (e muitos mais estão a ser suportados), mas alguns não são.
@@ -30,7 +30,7 @@ Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.or
 As secções seguintes fornecem uma tabela alfabética dos pacotes R suportados e não suportados no Power BI. Para obter mais informações sobre a linguagem R no Power BI, veja o artigo [Elementos visuais R](service-r-visuals.md).
 
 ## <a name="request-support-for-a-new-r-package"></a>Pedido de suporte de um novo pacote R
-Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para a [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
+Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para oa [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>Requisitos e Limitações de pacotes R
 Existem alguns requisitos e limitações para pacotes R:
@@ -117,7 +117,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| data |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -176,7 +176,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | geosphere |1.5-1 |https://cran.r-project.org/web/packages/geosphere/index.html |
 | ggdendro |0.1-18 |https://cran.r-project.org/web/packages/ggdendro/index.html |
 | ggmap |2.6.1 |https://cran.r-project.org/web/packages/ggmap/index.html |
-| ggmcmc |0.8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
+| ggmcmc |0,8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
 | ggplot2 |2.1.0 |https://cran.r-project.org/web/packages/ggplot2/index.html |
 | ggrepel |0.5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
 | ggthemes |3.0.2 |https://cran.r-project.org/web/packages/ggthemes/index.html |
@@ -198,7 +198,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | haplo.stats |1.7.6 |https://cran.r-project.org/web/packages/haplo.stats/index.html |
 | hash |2.2.6 |https://cran.r-project.org/web/packages/hash/index.html |
 | hbsae |1 |https://cran.r-project.org/web/packages/hbsae/index.html |
-| hdrcde |3.1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
+| hdrcde |3,1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
@@ -376,7 +376,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | sROC |0.1-2 |https://cran.r-project.org/web/packages/sROC/index.html |
 | stabledist |0.7-0 |https://cran.r-project.org/web/packages/stabledist/index.html |
 | stabs |0.5-1 |https://cran.r-project.org/web/packages/stabs/index.html |
-| stepPlr |0.92 |https://cran.r-project.org/web/packages/stepPlr/index.html |
+| stepPlr |0,92 |https://cran.r-project.org/web/packages/stepPlr/index.html |
 | stringdist |0.9.4.1 |https://cran.r-project.org/web/packages/stringdist/index.html |
 | stringr |1.0.0 |https://cran.r-project.org/web/packages/stringr/index.html |
 | stsm |1.7 |https://cran.r-project.org/web/packages/stsm/index.html |
@@ -396,7 +396,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| mapa de árvore |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |
@@ -423,7 +423,7 @@ A tabela seguinte mostra os pacotes **não suportados** no serviço Power BI.
 | mailR |10/03/2016 |O funcionamento em rede é bloqueado |
 | RevoScaleR |8/30/2016 |ships apenas com o Microsoft R Server |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre a linguagem R no Power BI, veja os seguintes artigos:
 
 * [Criar elementos visuais R no serviço Power BI](service-r-visuals.md)

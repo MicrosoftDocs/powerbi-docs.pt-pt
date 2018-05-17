@@ -15,17 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ff5a13e842473f276b183f524b2ee5c17e173c96
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 9c5d6faec5826391c25056c2c7eb43ad9c2cc70c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado a partir de um livro do Excel no OneDrive ou SharePoint Online
-Pode importar livros do Excel que estão armazenados na máquina local ou no armazenamento na cloud, como o OneDrive para Empresas ou o SharePoint Online. Abordaremos as vantagens de utilizar o armazenamento na cloud para os ficheiros do Excel. Para obter mais informações sobre como importar os ficheiros do Excel para o Power BI, veja [Obter dados de ficheiros de livro do Excel](service-excel-workbook-files.md).
+Pode importar livros do Excel que estão armazenados na máquina local ou no armazenamento na cloud, como o OneDrive para Empresas ou o SharePoint Online. Abordaremos as vantagens de utilizar o armazenamento na cloud para os ficheiros do excel. Para obter mais informações sobre como importar os ficheiros do Excel para o Power BI, veja [Obter dados de ficheiros de livro do Excel](service-excel-workbook-files.md).
 
 ## <a name="what-are-the-advantages"></a>Quais são as vantagens?
 Importar ficheiros do OneDrive ou SharePoint Online é uma ótima maneira de garantir que o trabalho que está a fazer no Excel permanece sincronizado com o serviço Power BI. Todos os dados que carregou no modelo do ficheiro são importados para o conjunto de dados e todos os relatórios que criou no ficheiro são carregados nos Relatórios do Power BI. Caso faça alterações no ficheiro do OneDrive ou SharePoint Online, como adicionar novas medidas, alterar nomes de coluna ou editar visualizações, depois de guardá-las, essas alterações também serão atualizadas no Power BI, normalmente, em menos de uma hora.
@@ -37,7 +37,7 @@ Pode atualizar o conjunto de dados no serviço Power BI. Quando atualiza manualm
 ## <a name="whats-supported"></a>O que é suportado?
 No Power BI, Atualizar Agora e Agendar Atualização são suportados para os conjuntos de dados criados através de ficheiros do Power BI Desktop importados de uma unidade local em que são utilizadas as opções Obter Dados/Editor de Consultas para ligar e carregar dados a partir de uma das seguintes origens de dados:  
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 * Todas as origens de dados online mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop.
 * Todas as origens de dados locais mostradas no Editor de Consultas e em Obter Dados no Power BI Desktop, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 
@@ -45,19 +45,19 @@ No Power BI, Atualizar Agora e Agendar Atualização são suportados para os con
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
 
 > [!NOTE]
-> Um gateway tem de ser instalado e estar em execução para que o Power BI se ligue a origens de dados locais e atualize o conjunto de dados.
+> Um gateway tem de ser instalado e estar em execução para que o Power BI ligue a origens de dados no local e atualize o conjunto de dados.
 > 
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?
-Se tiver um OneDrive pessoal e um OneDrive para Empresas, é recomendado manter todos os ficheiros que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
+Se tiver um OneDrive pessoal e um OneDrive para Empresas, é recomendado manter todos os ficheiro que quer importar para o Power BI no OneDrive para Empresas. Eis o porquê: provavelmente utiliza duas contas diferentes para iniciar sessão.
 
 A ligação ao OneDrive para Empresas no Power BI é normalmente contínua, porque a mesma conta com a qual inicia sessão no Power BI é geralmente a mesma conta utilizada para iniciar sessão no OneDrive para Empresas. No entanto, com o OneDrive pessoal, provavelmente inicia sessão com outra [conta Microsoft](http://www.microsoft.com/account/default.aspx).
 
 Quando iniciar sessão com a sua conta Microsoft, certifique-se de que seleciona Manter sessão iniciada. O Power BI pode então sincronizar as atualizações feitas no ficheiro do Power BI Desktop com os conjuntos de dados no Power BI  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)
 
-Se fizer alterações ao ficheiro no OneDrive que não podem ser sincronizadas com o conjunto de dados ou os relatórios no Power BI devido à possibilidade de as credenciais da conta Microsoft terem sido alteradas, tem de ligar e importar o ficheiro novamente a partir do seu OneDrive pessoal.
+Se fizer alterações no ficheiro no OneDrive que não podem ser sincronizadas com o conjunto de dados ou relatórios no Power BI por as suas credenciais de conta Microsoft terem sido alteradas, terá de se ligar e importar o ficheiro novamente do OneDrive pessoal.
 
 ## <a name="options-for-connecting-to-excel-file"></a>Opções de ligação ao ficheiro do Excel
 Quando se liga a um livro do Excel no OneDrive para Empresas ou SharePoint Online, terá duas opções sobre como inserir o conteúdo do seu livro no Power BI.
@@ -98,10 +98,10 @@ Para obter detalhes sobre como configurar a atualização de agendamento, veja [
 ## <a name="when-things-go-wrong"></a>Quando acontece algo de errado
 Quando ocorre algo errado, normalmente isso deve-se ao facto de o Power BI não conseguir iniciar sessão nas origens de dados ou se o conjunto de dados ligar a uma origem de dados no local, o gateway ficar offline. Certifique-se de que o Power BI consegue iniciar sessão nas origens de dados. Se uma palavra-passe que utiliza para entrar numa origem de dados for alterada ou o Power BI for desligado de uma origem de dados, certifique-se de que se inscreve novamente nas suas origens de dados nas Credenciais da Origem de Dados.
 
-Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Quer saber imediatamente de uma falha numa atualização agendada.
+Lembre-se de deixar marcada a opção **Enviar-me e-mail de notificação de falha de atualização**. Irá querer saber de imediato sobre uma falha de uma atualização agendada.
 
 ## <a name="important-notes"></a>Notas importantes
-\* Não é suportada a atualização de feeds OData ligados e consultados do Power Pivot. Ao utilizar um feed OData como uma origem de dados, utilize o Power Query.
+\*Não há suporte para a atualização de feeds OData ligados ao Power Pivot e consultados por meio do mesmo. Ao utilizar um feed OData como uma origem de dados, utilize o Power Query.
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este problema está ligado a um gateway. Veja os artigos de resolução de problemas de gateways para ferramentas e problemas conhecidos.

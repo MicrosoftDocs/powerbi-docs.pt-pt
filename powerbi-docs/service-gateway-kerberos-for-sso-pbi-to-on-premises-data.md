@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 344e6ecc31748d58f0803f95aed53badfa6be4f2
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f2d5cea1881d6a450b9188e9754ac503cb45f301
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 Pode obter conectividade totalmente integrada de início de sessão único, ao ativar os relatórios e dashboards do Power BI para atualizarem a partir de dados no local, através da configuração do Gateway de dados no local com o Kerberos. O Gateway de dados no local facilita o início de sessão único (SSO) com o DirectQuery, que utiliza para ligar às origens de dados no local.
@@ -31,6 +31,7 @@ As seguintes origens de dados são atualmente suportadas, SQL Server, SAP HANA e
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 
 Quando um utilizador interage com um relatório do DirectQuery no serviço Power BI, cada filtro cruzado, setor, ordenação e operação de edição do relatório pode resultar em consultas que são executadas em direto com a origem de dados no local subjacente.  Quando o início de sessão único é configurado para a origem de dados, as consultas são executadas sob a identidade do utilizador que interage com o Power BI (ou seja, através da experiência Web ou das aplicações móveis do Power BI). Assim, cada utilizador verá precisamente os dados para os quais tem permissões na origem de dados subjacente – com o início de sessão único configurado, não existe colocação em cache de dados partilhados com diferentes utilizadores.
