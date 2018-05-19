@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb37cb0551a613cf85d5b5dd2608b018a3a05250
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 83eb0f534a7aa98746e04a63d5474138159393f8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="connect-to-github-with-power-bi"></a>Ligue-se ao GitHub com o Power BI
 O pacote de conteúdos do GitHub para o Power BI permite obter ideias para um repositório GitHub com dados sobre contribuições, problemas, solicitações pull e utilizadores ativos.
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdos do GitHub](https://app.powerbi.com/getdata/ser
    ![](media/service-connect-to-github/pbi_github1.png)
 5. Insira as suas credenciais do GitHub (este passo pode ser ignorado se já tiver iniciado a sessão com o seu browser). 
 6. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**. 
-7. Siga os ecrãs de autenticação do Github. Conceda ao pacote de conteúdos do GitHub para o Power BI permissão de acesso aos dados do GitHub.
+7. Siga os ecrãs de autenticação do GitHub. Conceda ao pacote de conteúdos do GitHub para o Power BI permissão de acesso aos dados do GitHub.
    
    ![](media/service-connect-to-github/github_authorize.png)
    
@@ -103,7 +103,6 @@ Se necessário, é possível verificar as suas credenciais do GitHub.
 2. No GitHub, navegue para o URL do repositório que quer aceder no Power BI. Por exemplo: https://github.com/dotnet/corefx.  
 3. No Power BI, tente ligar-se ao GitHub. Na caixa de diálogo Configurar o GitHub, utilize os nomes e o proprietário desse mesmo repositório.  
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Introdução ao Power BI](service-get-started.md)
 * [Obter Dados](service-get-data.md)
-

@@ -1,16 +1,16 @@
 ---
-title: "Tutorial: Integração do Power BI com o Microsoft Flow"
+title: Integração do Power BI com o Microsoft Flow
 description: Saiba como criar fluxos acionados por alertas de dados do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: YhmNstC39Mw
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 70ce46dcfa6d4ab1ee1e18f1b31fb4f52dd1bbea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
 
@@ -114,7 +114,7 @@ Nesta tarefa vamos criar de raiz um fluxo simples que é acionado por um alerta 
    
     ![O fluxo aciona uma notificação do Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Introdução ao Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Definir alertas de dados no serviço Power BI](service-set-data-alerts.md)
 * [Definir alertas de dados no iPhone](mobile-set-data-alerts-in-the-mobile-apps.md)

@@ -1,16 +1,16 @@
 ---
-title: Tutorial - Editar um mosaico do dashboard
-description: "Este tutorial explica como criar um mosaico e afixá-lo a um dashboard, e ensina a editar esse mosaico do dashboard – redimensionar, mover, mudar o nome, afixar, eliminar e adicionar uma hiperligação."
+title: Editar um mosaico do dashboard
+description: Este tutorial explica como criar um mosaico e afixá-lo a um dashboard, e ensina a editar esse mosaico do dashboard – redimensionar, mover, mudar o nome, afixar, eliminar e adicionar uma hiperligação.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lJKgWnvl6bQ
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: ca83151f2dbf0f69926ad1920c3323a0070e5e06
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
 
@@ -57,7 +57,7 @@ Este artigo abrange o seguinte.
 
     ![Mosaico Valor](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
-2. Abra o relatório na Vista de edição, selecionando **Editar relatório** na barra de menus superior.
+2. Abra o relatório na Vista de Edição, selecionando **Editar relatório** na barra de menus superior.
 
 3. Adicione uma nova página de relatório, selecionando o sinal de adição (+) na parte inferior do relatório.
 
@@ -148,7 +148,7 @@ Por predefinição, a seleção de um mosaico normalmente permite aceder ao rela
 2. Eliminar um mosaico não elimina a visualização subjacente. Abra o relatório subjacente, selecionando o mosaico "Valor". Abra a última página do relatório para ver que a visualização original não foi eliminada do relatório. 
 
 - - -
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Mosaicos do dashboard no Power BI](service-dashboard-tiles.md)
 
 [Dashboards no Power BI](service-dashboards.md)

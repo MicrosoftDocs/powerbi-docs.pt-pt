@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Utilizar Medidas rápidas para realizar facilmente cálculos comuns e poderosos
 Pode utilizar **Medidas rápidas** para realizar rápida e facilmente cálculos comuns e poderosos. Uma **Medida rápida** executa um conjunto de comandos DAX em segundo plano (não tem de escrever o DAX, é feito automaticamente) com base nas informações que fornecer na caixa de diálogo e, em seguida, apresenta os resultados a utilizar no relatório. O melhor de tudo é que pode ver o DAX executado pela Medida rápida e impulsionar ou expandir os seus próprios conhecimentos de DAX.
@@ -43,8 +43,6 @@ Terá de reiniciar o **Power BI Desktop** depois de efetuar a seleção.
 Para criar uma **Medida rápida**, clique com o botão direito do rato num campo (num qualquer) na secção **Campos** no **Power BI Desktop** e selecione **Medida rápida** no menu apresentado.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-A modelação tem de estar disponível no conjunto de dados atualmente carregado para que as **Medidas rápidas** estejam disponíveis. Como tal, as ligações em direto (por exemplo, uma ligação a um conjunto de dados do serviço Power BI) não apresentarão o item de menu **Medidas rápidas** quando clicar com o botão direito do rato na lista **Campos**, à exceção das ligações em direto do SSAS. 
 
 Quando utilizar ligações em direto do SQL Server Analysis Services (SSAS), estão disponíveis algumas **Medidas rápidas**. O **Power BI Desktop** mostra apenas a coleção de **Medidas rápidas** suportadas para a versão do SSAS para o qual a ligação foi estabelecida. Por isso, se estiver ligado a uma origem de dados dinâmicos do SSAS e não visualizar determinadas **Medidas rápidas** na lista, é porque a versão do SSAS à qual está ligado não suporta a medida DAX utilizada para implementar essa **Medida rápida**.
 
@@ -141,9 +139,10 @@ Quando tiver a medida ideal, pode mudar-lhe o nome através do mesmo menu de con
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Existem algumas limitações e considerações a ter em conta.
 
-* As **Medidas rápidas** apenas estão disponíveis se puder modificar o modelo, o que não é o caso quando está a utilizar o DirectQuery ou a maioria das ligações em direto (as ligações em direto do SSAS são suportadas, conforme explicado anteriormente).
+* As **medidas rápidas** só estão disponíveis se puder modificar o modelo, o que não é o caso quando está a utilizar algumas ligações em Direto (as ligações em direto do SSAS são suportadas, conforme explicado anteriormente).
 * A medida adicionada à secção **Campos** pode ser utilizada em qualquer elemento visual no relatório.
 * Pode sempre ver o DAX associado a uma **Medida rápida** ao selecionar a medida criada na secção **Campos** e ao observar a fórmula na **Barra de fórmulas**.
+* Não pode criar medidas rápidas de análise de tempo quando trabalha no modo DirectQuery. As funções DAX utilizadas nestas medidas rápidas afetam o desempenho quando convertidas em declarações do T-SQL que são enviadas para a sua origem de dados.
 
 > [!WARNING]
 > Atualmente, as Medidas rápidas *apenas* geram instruções DAX com vírgulas como separadores de argumentos. Se a sua versão do **Power BI Desktop** estiver localizada num idioma que utilize a vírgula como separador decimal, as medidas rápidas não funcionarão corretamente.
@@ -151,7 +150,7 @@ Existem algumas limitações e considerações a ter em conta.
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Análise de tempo e Medidas rápidas
-A partir da atualização de outubro de 2017 do **Power BI Desktop**, pode utilizar as suas próprias tabelas de datas personalizadas com **Medidas rápidas** de análise de tempo. Se o seu modelo de dados tiver uma tabela de datas personalizada, pode utilizar a coluna de data principal na tabela para medidas rápidas de análise de tempo. *Tem* de assegurar que, quando o modelo foi criado, a coluna de data principal na tabela foi marcada como Tabela de datas, conforme descrito [neste artigo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular).
+A partir da atualização de outubro de 2017 do **Power BI Desktop**, pode utilizar as suas próprias tabelas de datas personalizadas com **Medidas rápidas** de análise de tempo. Se estiver a utilizar um modelo em tabela externo, certifique-se de que, quando o modelo foi criado, a coluna da data principal nessa tabela foi marcada como uma tabela de Datas, conforme descrito [neste artigo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se estiver a importar a sua própria tabela de dados, certifique-se de que marca a mesma como uma tabela de datas, conforme descrito [neste artigo](https://docs.microsoft.com/power-bi/desktop-date-tables)
 
 ### <a name="additional-information-and-examples"></a>Informações adicionais e exemplos
 Fornecemos exemplos e orientação para cada um dos cálculos de **Medidas rápidas**, por isso, volte a consultar esta secção em breve para obter atualizações sobre o artigo em foco.

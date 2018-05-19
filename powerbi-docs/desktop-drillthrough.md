@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 4/10/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Utilizar a pormenorização no Power BI Desktop
 Com a **pormenorização** no **Power BI Desktop**, pode criar uma página no relatório centrada numa entidade específica, por exemplo, um fornecedor, um cliente ou um fabricante. Com essa página do relatório em destaque, os utilizadores podem clicar com o botão direito do rato num ponto de dados noutras páginas do relatório e obter a pormenorização da página em destaque para obter detalhes filtrados em função desse contexto.
 
-![](media/desktop-drillthrough/drillthrough_01.png)
+![utilizar a pormenorização](media/desktop-drillthrough/drillthrough_01.png)
 
 ## <a name="using-drillthrough"></a>Utilizar a pormenorização
 1. Para utilizar a **pormenorização**, crie uma página de relatório com elementos visuais que pretenda ver relativamente ao tipo de entidade para a qual irá fornecer pormenorização. 
@@ -36,11 +36,11 @@ Com a **pormenorização** no **Power BI Desktop**, pode criar uma página no r
 
 2. Em seguida, na página de pormenorização, na secção **Campos** do painel **Visualizações**, arraste o campo sobre o qual pretende obter a pormenorização para a área **Filtros de pormenorização**.
 
-    ![](media/desktop-drillthrough/drillthrough_02.png)
+    ![área de pormenorização](media/desktop-drillthrough/drillthrough_02.png)
 
     Quando adicionar um campo à área **Filtros de pormenorização**, o **Power BI Desktop** irá automaticamente criar um visual de botão para *voltar*. Esse visual torna-se um botão nos relatórios publicados e permite aos utilizadores que consomem o seu relatório no **serviço Power BI** regressar facilmente à página de relatório de onde vieram (a página a partir da qual optaram por fazer a pormenorização).
 
-    ![](media/desktop-drillthrough/drillthrough_03.png)
+    ![imagem de pormenorização](media/desktop-drillthrough/drillthrough_03.png)
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Utilizar a sua própria imagem para um botão Anterior    
  Uma vez que o botão Anterior é uma imagem, pode substituir a imagem desse elemento visual por uma imagem à sua escolha. Continuará a funcionar como o botão que direciona os consumidores de relatórios de volta para a página original.
@@ -48,18 +48,35 @@ Com a **pormenorização** no **Power BI Desktop**, pode criar uma página no r
 1. No separador **Base**, clique em **Imagem** e, em seguida, localize a imagem e coloque-a na página de pormenorização.
 2. Selecione a sua nova imagem na página Pormenorização e, na secção Formatar Imagem, coloque o controlo de deslize **Ligação** na posição de ativado e defina o **Tipo** como **Anterior**. A imagem funciona agora como um botão de retrocesso.
 
-    ![](media/desktop-drillthrough/drillthrough_05.png)
+    ![utilizar imagem de retrocesso](media/desktop-drillthrough/drillthrough_05.png)
 
     Quando a sua página de **pormenorização** estiver concluída e os utilizadores clicarem com o botão direito do rato num ponto de dados no relatório que utilize o campo que colocou na área **Filtros de pormenorização**, será apresentado um menu de contexto que permite a pormenorização nessa página.
 
-    ![](media/desktop-drillthrough/drillthrough_04.png)
+    ![menu de pormenorização](media/desktop-drillthrough/drillthrough_04.png)
 
     Quando os consumidores de relatórios decidirem pormenorizar, a página será filtrada para mostrar informações sobre o ponto de dados no qual clicaram com o botão direito do rato. Por exemplo, se tiverem clicado com o botão direito do rato num ponto de dados sobre a Contoso (um fabricante) e optado por pormenorizar, a página de pormenorização de destino será filtrada para a Contoso.
 
-    > [!NOTE]
-    > Apenas o campo que está na área **Filtros de pormenorização** passa para a página do relatório de pormenorização. Não são passadas outras informações contextuais.
-    > 
-    > 
+## <a name="pass-all-filters-in-drillthrough"></a>Passar todos os filtros na pormenorização
+
+A partir da versão de maio de 2018 do **Power BI Desktop**, pode passar todos os filtros aplicados para a janela de pormenorização. Por exemplo, poderia selecionar apenas uma determinada categoria de produtos, e os elementos visuais seriam filtrados somente para essa categoria, e em seguida selecionaria a pormenorização. Poderá estar interessado no aspeto que essa pormenorização teria com todos os filtros aplicados.
+
+Para manter todos os filtros aplicados, na secção **Pormenorização** do painel **Visualizações**, defina o botão **Passar todos os filtros** para **ativado**. 
+
+![manter todos os filtros](media/desktop-drillthrough/drillthrough_06.png)
+
+Nas versões do **Power BI Desktop** anteriores a maio de 2018, o comportamento é equivalente a ter este botão **desativado**.
+
+Quando efetua o processo de pormenorização num elemento visual, pode ver quais os filtros aplicados como resultado do facto de o elemento visual de origem ter filtros aplicados temporariamente. Na janela de pormenorização, esses filtros transitórios são apresentados em itálico. 
+
+![filtros transitórios em itálico](media/desktop-drillthrough/drillthrough_07.png)
+
+Tenha em atenção que pode fazer isto com páginas de descrições, mas essa seria uma experiência estranha (a descrição pareceria não estar a funcionar corretamente), por isso não é recomendado que o faça com descrições.
 
 E é tudo o que precisa de saber sobre a utilização da **pormenorização** nos relatórios. É uma excelente forma de obter uma vista expandida sobre as informações da entidade que selecionou para o seu filtro de pormenorização.
+
+## <a name="next-steps"></a>Passos seguintes
+
+Poderá também estar interessado nos seguintes artigos:
+
+* [Utilizar a segmentação de dados no Power BI Desktop](desktop-slicers.md)
 

@@ -1,13 +1,13 @@
 ---
-title: "Tutorial – Utilizar os exemplos do Power BI."
-description: 'Tutorial: utilizar os exemplos do Power BI'
+title: Utilizar os exemplos do Power BI
+description: Utilizar os exemplos do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 03/08/2017
 ms.service: powerbi
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8255b14fea75f3a2f83629a6beb8fe3281d012e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3a9cf39d3601a3f1c6b35d20726144cb404bdbe2
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="the-power-bi-samples-a-tutorial"></a>Exemplos do Power BI, tutorial
+# <a name="the-power-bi-samples"></a>Exemplos do Power BI
 
 Recomendamos que comece pelo artigo [Conjuntos de dados de exemplo do Power BI](sample-datasets.md). Nesse artigo, irá aprender tudo sobre os exemplos; como obtê-los, onde guardá-los, como utilizá-los e algumas das histórias de cada um deles. Em seguida, quando tiver algumas noções básicas, volte a este Tutorial.   
 
@@ -101,7 +101,7 @@ Agora explore o dashboard, o conjunto de dados e o relatório por conta própria
        ![](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
 ## <a name="samples-and-power-bi-desktop"></a>Exemplos e Power BI Desktop 
-Quando abre o ficheiro PBIX de exemplo pela primeira vez, é apresenta a Vista de relatório na qual pode explorar, criar e modificar qualquer número de páginas de relatórios com visualizações. A Vista de relatório proporciona praticamente a mesma experiência de design que a Vista de edição de um relatório no serviço Power BI. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc.
+Quando abre o ficheiro PBIX de exemplo pela primeira vez, é apresenta a vista Relatório na qual pode explorar, criar e modificar qualquer número de páginas de relatórios com visualizações. A vista Relatório proporciona praticamente a mesma experiência de design que a Vista de Edição de um relatório no serviço Power BI. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc.
 
 A diferença é que ao utilizar o Power BI Desktop, pode trabalhar com as suas consultas e modelar os seus dados para certificar-se que os seus dados suportam as melhores informações nos seus relatórios. Então pode guardar o seu ficheiro do Power BI Desktop onde quiser, quer seja na sua unidade local ou na cloud.
 
@@ -109,7 +109,7 @@ A diferença é que ao utilizar o Power BI Desktop, pode trabalhar com as suas c
 
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
-1. O ficheiro é aberto na Vista de relatório. Reparou nos quatro separadores na parte inferior do editor de relatórios? Tal significa que existem quatro páginas neste relatório e que a página “Novas Lojas” está atualmente selecionada. 
+1. O ficheiro é aberto na vista Relatório. Reparou nos quatro separadores na parte inferior do editor de relatórios? Tal significa que existem quatro páginas neste relatório e que a página “Novas Lojas” está atualmente selecionada. 
 
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
@@ -118,25 +118,25 @@ A diferença é que ao utilizar o Power BI Desktop, pode trabalhar com as suas c
 ## <a name="what-exactly-was-imported"></a>O que foi importado exatamente?
 Quando abre o ficheiro PBIX de exemplo no Desktop, o Power BI está, na verdade, a trazer uma cópia desses dados e a armazená-la na cloud. No Desktop, o utilizador tem acesso ao relatório ***e ao conjunto de dados subjacente***. Quando os dados forem carregados, o Power BI Desktop tentará localizar e criar relações para o utilizador.  
 
-1. Mude para a [Vista de dados](desktop-data-view.md) ao selecionar o ícone de tabela ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png).
+1. Mude para a vista [Dados](desktop-data-view.md) ao selecionar o ícone de tabela ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png).
  
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
-    A Vista de Dados ajuda a inspecionar, explorar e compreender os dados no modelo do Power BI Desktop. É diferente do modo como vê as tabelas, as colunas e os dados no Editor de Consultas. Com a Vista de Dados, está a ver os seus dados após eles terem sido carregados no modelo.
+    A vista Dados ajuda a inspecionar, explorar e compreender os dados no modelo do Power BI Desktop. É diferente do modo como vê as tabelas, as colunas e os dados no Editor de Consultas. Com a vista Dados, está a ver os seus dados após eles terem sido carregados no modelo.
 
     Quando está a modelar seus dados, às vezes deseja ver o que está realmente numa tabela ou coluna, sem criar um elemento visual na tela de relatório, geralmente imediatamente abaixo do nível de linha. Isso é particular verdadeiro quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
 
-1. Mude para a [Vista de relações](desktop-relationship-view.md) ao selecionar o ícone ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
+1. Mude para a vista [Relações](desktop-relationship-view.md) ao selecionar o ícone ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
  
     ![](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
-    A Vista de Relações mostra todas as tabelas, colunas e relações no modelo. Aqui pode ver, alterar e criar relações.
+    A vista Relações mostra todas as tabelas, colunas e relações no modelo. Aqui pode ver, alterar e criar relações.
 
 ## <a name="explore-your-new-content"></a>Explorar o conteúdo novo
 Agora, explore o conjunto de dados, as relações e o relatório. Para obter ajuda para começar, aceda a [Guia de Introdução ao Desktop](desktop-getting-started.md).    
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Conceitos básicos do Power BI](service-basic-concepts.md)
 
 [Exemplos para o serviço Power BI](sample-datasets.md)
