@@ -1,12 +1,12 @@
 ---
 title: Aprendizagem Orientada do Microsoft Power BI
-description: "Comece o seu percurso de aprendizagem com esta coleção sequenciada de cursos e compreenda as funcionalidades extensas e poderosas do Microsoft Power BI."
+description: Comece o seu percurso de aprendizagem com esta coleção sequenciada de cursos e compreenda as funcionalidades extensas e poderosas do Microsoft Power BI.
 layout: LandingPage
-ms.openlocfilehash: c0c9b77489731ff2107135f8720b14d320d11e52
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 05/19/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -31,23 +31,23 @@ ms.lasthandoff: 11/17/2017
 Guia de introdução </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-1">Apresentação do Power BI</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=1">Apresentação do Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-2">Utilizar o Power BI</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=2">Utilizar o Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-3">Os blocos modulares do Power BI</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=3">Os blocos modulares do Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">6 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-4">Uma vista rápida do serviço Power BI</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=4">Uma vista rápida do serviço Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml#step-5">Revisão e passos seguintes</a>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Revisão e passos seguintes</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                           </ul>
@@ -70,27 +70,27 @@ Guia de introdução </h3>
 Obter dados </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-1">Descrição geral do Power BI Desktop</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=1">Descrição geral do Power BI Desktop</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-2">Introdução ao Power BI Desktop</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=2">Introdução ao Power BI Desktop</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-3">Ligar a fontes de dados no Power BI Desktop</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=3">Ligar a fontes de dados no Power BI Desktop</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-4">Limpar e transformar os seus dados com o Editor de Consultas</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=4">Limpar e transformar os seus dados com o Editor de Consultas</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-5">Origens de dados e transformação mais avançadas</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=5">Origens de dados e transformação mais avançadas</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml#step-6">Limpar dados formatados de forma irregular</a>
+                                <a class="barLink" href="gettingdata.yml?tutorial-step=6">Limpar dados formatados de forma irregular</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                           </ul>
@@ -113,31 +113,31 @@ Obter dados </h3>
 Modelagem </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-1">Introdução à modelação de dados</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=1">Introdução à modelação de dados</a>
                                 <span style="margin-left: 32px; align-self: center;">3 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-2">Como gerir as relações dos seus dados</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=2">Como gerir as relações dos seus dados</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-3">Criar colunas calculadas</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=3">Criar colunas calculadas</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-4">Otimizar modelos de dados</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=4">Otimizar modelos de dados</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-5">Criar medidas calculadas</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=5">Criar medidas calculadas</a>
                                 <span style="margin-left: 32px; align-self: center;">14 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-6">Criar tabelas calculadas</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=6">Criar tabelas calculadas</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml#step-7">Explorar os dados com base no tempo</a>
+                                <a class="barLink" href="modeling.yml?tutorial-step=7">Explorar os dados com base no tempo</a>
                                 <span style="margin-left: 32px; align-self: center;">6 m</span>
                               </li>
                           </ul>
@@ -160,79 +160,79 @@ Modelagem </h3>
 Visualizações </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-1">Introdução aos elementos visuais no Power BI</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=1">Introdução aos elementos visuais no Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-2">Criar e personalizar visualizações simples</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=2">Criar e personalizar visualizações simples</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-3">Gráficos de combinação</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=3">Gráficos de combinação</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-4">Segmentação de dados</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=4">Segmentação de dados</a>
                                 <span style="margin-left: 32px; align-self: center;">7 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-5">Visualizações de mapa</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=5">Visualizações de mapa</a>
                                 <span style="margin-left: 32px; align-self: center;">11 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-6">Matrizes e tabelas</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=6">Matrizes e tabelas</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-7">Gráficos de dispersão</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=7">Gráficos de dispersão</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-8">Gráficos de cascata e de funil</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=8">Gráficos de cascata e de funil</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-9">Medidores e cartões de número único</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=9">Medidores e cartões de número único</a>
                                 <span style="margin-left: 32px; align-self: center;">7 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-10">Modificar cores em gráficos e elementos visuais</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=10">Modificar cores em gráficos e elementos visuais</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-11">Formas, caixas de texto e imagens</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=11">Formas, caixas de texto e imagens</a>
                                 <span style="margin-left: 32px; align-self: center;">6 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-12">Formatação e esquema de página</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=12">Formatação e esquema de página</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-13">Interações de grupo entre visualizações</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=13">Interações de grupo entre visualizações</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-14">Duplicar uma página de relatório</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=14">Duplicar uma página de relatório</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-15">Mostrar categorias sem dados</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=15">Mostrar categorias sem dados</a>
                                 <span style="margin-left: 32px; align-self: center;">3 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-16">Opções de resumo e categoria</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=16">Opções de resumo e categoria</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-17">Ordenação Z</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=17">Ordenação Z</a>
                                 <span style="margin-left: 32px; align-self: center;">3 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-18">Hierarquias e desagregação de elementos visuais</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=18">Hierarquias e desagregação de elementos visuais</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml#step-19">Integração do R no Power BI Desktop</a>
+                                <a class="barLink" href="visualizations.yml?tutorial-step=19">Integração do R no Power BI Desktop</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                           </ul>
@@ -255,43 +255,43 @@ Visualizações </h3>
 Explorar dados </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-1">Introdução ao serviço Power BI</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=1">Introdução ao serviço Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-2">Informações rápidas no Power BI</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=2">Informações rápidas no Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-3">Criar e configurar um dashboard</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=3">Criar e configurar um dashboard</a>
                                 <span style="margin-left: 32px; align-self: center;">6 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-4">Fazer perguntas sobre os seus dados com linguagem natural</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=4">Fazer perguntas sobre os seus dados com linguagem natural</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-5">Criar sugestões de Perguntas e Respostas personalizadas</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Criar sugestões de Perguntas e Respostas personalizadas</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-6">Partilhar dashboards com a sua organização</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=6">Partilhar dashboards com a sua organização</a>
                                 <span style="margin-left: 32px; align-self: center;">7 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-7">Apresentar elementos visuais e mosaicos em modo de ecrã inteiro</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=7">Apresentar elementos visuais e mosaicos em modo de ecrã inteiro</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-8">Editar detalhes do mosaico e adicionar widgets</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=8">Editar detalhes do mosaico e adicionar widgets</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-9">Obter mais espaço no seu dashboard</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=9">Obter mais espaço no seu dashboard</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml#step-10">Instalar e configurar um gateway pessoal</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=10">Instalar e configurar um gateway pessoal</a>
                                 <span style="margin-left: 32px; align-self: center;">11 m</span>
                               </li>
                           </ul>
@@ -314,23 +314,23 @@ Explorar dados </h3>
 Power BI e Excel </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-1">Introdução à utilização de dados do Excel no Power BI</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=1">Introdução à utilização de dados do Excel no Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-2">Carregar dados do Excel para o Power BI</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=2">Carregar dados do Excel para o Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-3">Importar o Power View e o Power Pivot para o Power BI</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=3">Importar o Power View e o Power Pivot para o Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-4">Ligar o OneDrive para Empresas ao Power BI</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=4">Ligar o OneDrive para Empresas ao Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">8 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml#step-5">Excel no Power BI - resumo</a>
+                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=5">Excel no Power BI - resumo</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                           </ul>
@@ -353,51 +353,51 @@ Power BI e Excel </h3>
 Publicar e partilhar </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-1">Introdução aos pacotes de conteúdos, segurança e grupos</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=1">Introdução aos pacotes de conteúdos, segurança e grupos</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-2">Publicar relatórios do Power BI Desktop</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=2">Publicar relatórios do Power BI Desktop</a>
                                 <span style="margin-left: 32px; align-self: center;">2 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-3">Imprimir e exportar dashboards e relatórios</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=3">Imprimir e exportar dashboards e relatórios</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-4">Voltar a publicar e atualizar os seus dados manualmente</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=4">Voltar a publicar e atualizar os seus dados manualmente</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-5">Apresentação do Power BI Mobile</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=5">Apresentação do Power BI Mobile</a>
                                 <span style="margin-left: 32px; align-self: center;">7 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-6">Criar grupos no Power BI</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=6">Criar grupos no Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-7">Criar pacotes de conteúdos</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=7">Criar pacotes de conteúdos</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-8">Utilizar pacotes de conteúdos</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=8">Utilizar pacotes de conteúdos</a>
                                 <span style="margin-left: 32px; align-self: center;">7 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-9">Atualizar pacotes de conteúdos</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=9">Atualizar pacotes de conteúdos</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-10">Integrar o OneDrive para Empresas no Power BI</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=10">Integrar o OneDrive para Empresas no Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">3 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-11">Publicar na Web</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=11">Publicar na Web</a>
                                 <span style="margin-left: 32px; align-self: center;">5 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml#step-12">Conclusão da Aprendizagem Orientada do Power BI</a>
+                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=12">Conclusão da Aprendizagem Orientada do Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                           </ul>
@@ -420,27 +420,27 @@ Publicar e partilhar </h3>
 Introdução à DAX </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-1">Introdução ao DAX</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=1">Introdução ao DAX</a>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-2">Tipos de cálculo do DAX</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=2">Tipos de cálculo do DAX</a>
                                 <span style="margin-left: 32px; align-self: center;">22 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-3">Funções DAX</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=3">Funções DAX</a>
                                 <span style="margin-left: 32px; align-self: center;">17 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-4">Utilizar variáveis em expressões DAX</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=4">Utilizar variáveis em expressões DAX</a>
                                 <span style="margin-left: 32px; align-self: center;">4 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-5">Relações de tabela e DAX</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=5">Relações de tabela e DAX</a>
                                 <span style="margin-left: 32px; align-self: center;">13 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="introductiontodax.yml#step-6">Tabelas DAX e filtragem</a>
+                                <a class="barLink" href="introductiontodax.yml?tutorial-step=6">Tabelas DAX e filtragem</a>
                                 <span style="margin-left: 32px; align-self: center;">32 m</span>
                               </li>
                           </ul>
