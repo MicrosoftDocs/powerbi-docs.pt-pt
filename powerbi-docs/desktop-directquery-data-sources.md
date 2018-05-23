@@ -1,28 +1,20 @@
 ---
 title: Origens de dados suportadas pelo DirectQuery no Power BI
 description: Obtenha uma lista das origens de dados que podem utilizar o DirectQuery.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcd8e4705fe5ee3a3a567c0e7a44a5a4d1a73e76
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: e36f8596141ab5d7ad82ffecb808b7d684334923
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados às quais pode ligar e obter acesso aos dados. Este artigo descreve as origens de dados do Power BI que suportam o método de ligação conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, veja [**DirectQuery no Power BI**](desktop-directquery-about.md).
@@ -65,11 +57,11 @@ A seguinte tabela especifica se um **Gateway de dados no local** é necessário 
 | Impala (versão 2.x) |Sim |
 | Snowflake |Sim |
 | Spark (beta), versão 0.9 e posteriores |Ainda não é suportado no **Serviço Power BI** |
-| Azure HDInsight Spark (Beta) |No |
+| Azure HDInsight Spark (Beta) |Não |
 | IBM Netezza |Sim |
 | SAP Business Warehouse Application Server |Sim |
 | SAP Business Warehouse Message Server |Ainda não é suportado no **Serviço Power BI** |
-| Google BigQuery |No |
+| Google BigQuery |Não |
 
 
 ## <a name="next-steps"></a>Próximos passos

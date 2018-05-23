@@ -1,27 +1,19 @@
 ---
 title: O que posso fazer com a API Power BI
 description: O que posso fazer com a API Power BI
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: a65831e9ca04170464925efd13f02e43ad8027f0
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 O Power BI apresenta dashboards interativos e que podem ser criados e atualizados a partir de várias origens de dados diferentes em tempo real. Ao utilizar qualquer linguagem de programação que suporte chamadas REST, pode criar aplicações que se integram num dashboard do Power BI em tempo real. Também pode integrar mosaicos e relatórios do Power BI em aplicações.
@@ -61,7 +53,7 @@ Seguem-se as ferramentas que pode utilizar como ajuda no desenvolvimento de iten
 
 * [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Envio de dados por push para um conjunto de dados](walkthrough-push-data.md)  
 [Introdução às ferramentas de programador de elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md) 
 [referência da API REST do POWER BI](https://msdn.microsoft.com/library/mt147898.aspx)  

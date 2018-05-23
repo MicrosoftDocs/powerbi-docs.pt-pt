@@ -1,28 +1,20 @@
 ---
 title: Resolver Problemas ao iniciar o Power BI Desktop
 description: Resolver Problemas ao iniciar o Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Resolver Problemas quando o Power BI Desktop não é iniciado
 No **Power BI Desktop**, os utilizadores que instalaram e estão a executar versões anteriores do **Gateway de dados no local do Power BI** podem ser impedidos de iniciar o Power BI Desktop, devido às restrições de políticas administrativas que o gateway no local do Power BI estabeleceu nos pipes nomeados no computador local. 
@@ -42,7 +34,7 @@ Como alternativa, pode iniciar o Power BI Desktop como administrador, o que tamb
 É importante ter em atenção que o Power BI Desktop foi projetado como uma arquitetura com multiprocessos e vários desses processos comunicam através de pipes nomeados do Windows. Poderão existir outros processos que interferem com esses pipes nomeados. A razão mais comum para essa interferência é a segurança, incluindo situações em que o software antivírus ou as firewalls poderão estar a bloquear os pipes ou a redirecionar o tráfego para uma porta específica. Iniciar o Power BI Desktop com privilégios de administrador pode resolver este problema. Se não for possível iniciar com privilégios de administrador, contacte o seu administrador para determinar as regras de segurança aplicadas que impedem os pipes nomeados de comunicar devidamente e para colocar o Power BI Desktop e os seus subprocessos na lista de permissões.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Ajuda com outros problemas ao iniciar o Power BI Desktop
-Esforçamo-nos por cobrir o máximo possível de problemas que ocorram com o **Power BI Desktop**. Estamos regularmente à procura de problemas que possam afetar muitos clientes para incluí-los nos nossos artigos.
+Esforçamo-os por cobrir o máximo possível de problemas que ocorram com o **Power BI Desktop**. Estamos regularmente à procura de problemas que possam afetar muitos clientes para incluí-los nos nossos artigos.
 
 Se o problema em iniciar o **Power BI Desktop** não estiver associado ao Gateway de dados no local ou quando as resoluções anteriores não funcionarem, poderá enviar um incidente de suporte ao [suporte do Power BI](https://support.powerbi.com) (https://support.powerbi.com)) para ajudar a identificar e resolver o problema.
 
