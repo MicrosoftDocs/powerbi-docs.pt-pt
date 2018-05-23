@@ -1,28 +1,20 @@
 ---
-title: "Como exportar um relatório do serviço Power BI para Desktop (Pré-visualização)"
-description: "Transferir um relatório do serviço Power BI para um ficheiro do Power BI Desktop"
-services: powerbi
-documentationcenter: 
+title: Como exportar um relatório do serviço Power BI para Desktop (Pré-visualização)
+description: Transferir um relatório do serviço Power BI para um ficheiro do Power BI Desktop
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar um relatório do serviço Power BI para Desktop (pré-visualização)
 No Power BI Desktop, pode exportar (ou *transferir*) um relatório para o serviço Power BI ao guardar o relatório e selecionar **Publicar**. Também pode exportar na outra direção e transferir um relatório do serviço Power BI para Desktop. A extensão dos ficheiros exportados é *.pbix* em ambas as direções.
@@ -38,7 +30,7 @@ Para transferir o ficheiro .pbix, siga estes passos:
 2. Na barra de menu, selecione **Ficheiro > Transferir relatório**.
    
    > [!NOTE]
-   > O relatório deverá ter sido [criado com o Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) após o 23 de novembro de 2016 (e atualizado desde então) para o poder transferir. Se não tiver sido, a opção de menu *Transferir Relatório* no serviço Power BI ficará a cinzento.
+   > O relatório deverá ter sido [criado com o Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) após o 23 de novembro de 2016 (e atualizado desde então) para o poder transferir. Se não tiver sido, a opção de menu *Transferir Relatório* no serviço Power BI ficará a cinzento.
    > 
    > 
 3. Enquanto o ficheiro .pbix estiver a ser criado, uma faixa de estado apresenta o progresso. Quando o ficheiro estiver pronto, ser-lhe-á pedido que abra ou guarde o ficheiro .pbix. O nome do ficheiro corresponde ao título do relatório.

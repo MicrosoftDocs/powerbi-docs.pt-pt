@@ -1,28 +1,20 @@
 ---
 title: Utilizar as Perguntas e Respostas no Power BI Desktop
 description: Agora pode utilizar consultas de linguagem natural no Power BI Desktop com as Perguntas e Respostas
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: e9f1bd3231182d66d2ded0abbb67b4d111941ee4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Utilizar as Perguntas e Respostas no Power BI Desktop para consultas de linguagem natural
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no **Power BI Desktop** lhe permitem fazer.
@@ -126,7 +118,7 @@ Por exemplo, considere uma tabela *DadosDemográficosDosClientes* com as colunas
 
 **Está pronto para as Perguntas e Respostas**
 
-![utilizar múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_12.png)
+![utilize múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>União para eliminar a criação de partições
 
@@ -140,7 +132,7 @@ Da mesma forma, considere uma coluna de valor articulado típica: uma tabela *Ap
 
 **Está pronto para as Perguntas e Respostas**
 
-![utilizar múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_14.png)
+![utilize múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_14.png)
 
 ### <a name="split-formatted-columns"></a>Dividir colunas formatadas
 
@@ -152,7 +144,7 @@ Se a origem a partir da qual está a importar os seus dados contiver colunas for
 
 **Está pronto para as Perguntas e Respostas**
 
-![utilizar múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_16.png)
+![utilize múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_16.png)
 
 Da mesma forma, se tiver colunas de nome completo para uma pessoa, é recomendável adicionar as colunas **Nome Próprio** e **Apelido**, no caso de alguém querer fazer perguntas com nomes parciais. 
 
@@ -167,7 +159,7 @@ Além disso, se a origem a partir da qual está a importar os seus dados contive
 
 **Está pronto para as Perguntas e Respostas**
 
-![utilizar múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_18.png)
+![utilize múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Desnormalizar para eliminar relações inativas
 
@@ -179,7 +171,7 @@ A única exceção à regra "a normalização é melhor" ocorre quando existe ma
 
 **Está pronto para as Perguntas e Respostas**
 
-![utilizar múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_20.png)
+![utilize múltiplas tabelas para as Perguntas e Respostas](media/desktop-qna-in-reports/desktop-qna_20.png)
 
 ### <a name="add-synonyms-to-tables-and-columns"></a>Adicionar sinónimos a tabelas e colunas
 
@@ -196,7 +188,7 @@ O campo **Sinónimos** é apresentado no lado direito do **Power BI Desktop**, o
  Tenha cuidado ao adicionar sinónimos, uma vez que adicionar o mesmo sinónimo a mais do que uma coluna ou tabela irá introduzir ambiguidade. As Perguntas e Respostas utilizam o contexto sempre que possível para optar entre sinónimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o seu utilizador pede a "contagem de clientes", se tiver três coisas com o sinónimo "cliente" no seu modelo, poderá não obter a resposta que procura. Nestes casos, certifique-se de que o sinónimo principal é exclusivo, uma vez que é utilizado na reformulação. Pode alertar o utilizador acerca da ambiguidade (por exemplo, com a reformulação "mostrar o número de registos de cliente arquivados"), para sugerir que pode perguntar de forma diferente.
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades no Power BI Desktop, veja os seguintes artigos:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

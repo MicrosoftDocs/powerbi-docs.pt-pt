@@ -1,28 +1,20 @@
 ---
 title: Como comprar o Power BI Premium
 description: Saiba como pode gerir o Power BI Premium e permitir a toda a sua organização o acesso a conteúdos.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 Saiba como comprar capacidade do Power BI Premium para a sua organização.

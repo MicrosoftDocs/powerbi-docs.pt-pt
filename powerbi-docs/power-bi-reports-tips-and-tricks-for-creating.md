@@ -1,28 +1,20 @@
 ---
 title: Sugestões para a criação de relatórios fantásticos
 description: Sugestões e truques para criar relatórios no serviço Power BI e no Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: willthom
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: willthom
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugestões e truques para criar relatórios no Power BI Desktop e no serviço Power BI
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop, no serviço Power BI *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento Power Pivot ativado e o Power Query instalado e ativado.
@@ -64,7 +56,7 @@ Quando utiliza um valor (cadeia) categórico no Power BI para os eixos do gráf
 ### <a name="building-maps-more-easily-with-hints-to-bing"></a>Criar mapas mais facilmente com sugestões para o Bing
 O Power BI está integrado no Bing para fornecer coordenadas de mapa predefinidas (um processo denominado geocodificação) para facilitar a criação de mapas.  O Bing utiliza alguns algoritmos e sugestões para tentar obter a localização certa, mas é a sua melhor estimativa. Para aumentar a probabilidade de uma geocodificação correta, pode utilizar as seguintes sugestões:
 
-Quando cria um mapa, geralmente quer representar países, estados e cidades.  No Power BI Desktop, se designar as colunas de nome com a designação geográfica, isso ajudará o Bing a adivinhar o que quer apresentar. Por exemplo, se tiver um campo de nomes de estados dos E.U.A., como "Califórnia" e "Washington", o Bing pode devolver a localização de Washington, DC, em vez do Estado de Washington para a palavra "Washington".  Atribuir um nome à coluna "Estado" melhorará a geocodificação.  O mesmo acontece com as colunas “País” e “Cidade”.   
+Quando cria um mapa, geralmente quer representar países, estados e cidades.  No Power BI Desktop, se designar as colunas de nome com a designação geográfica, isso ajudará o Bing a adivinhar o que quer apresentar. Por exemplo, se tiver um campo de nomes de estados dos EUA, como "Califórnia" e "Washington", o Bing pode devolver a localização de Washington, DC, em vez do Estado de Washington para a palavra "Washington".  Atribuir um nome à coluna "Estado" melhorará a geocodificação.  O mesmo acontece com as colunas “País” e “Cidade”.   
 
 Algumas designações são ambíguas quando consideradas no contexto de vários países/regiões.  Em alguns casos, o que um país/região considera um "estado" é tratado como uma "província", "condado" ou alguma outra designação.  Pode aumentar a precisão da geocodificação ao criar colunas que acrescentam vários campos em conjunto e utilizá-las para representar localizações de dados.  Um exemplo seria transmitir "Wiltshire, Inglaterra" em vez de apenas "Wiltshire" para obter um resultado mais preciso de geocodificação.
 
@@ -228,7 +220,7 @@ Alguns dos nossos livros favoritos incluem:
 * *Envisioning Information* de Edward Tufte  
 * *Advanced Presentations Design* de Andrew Abela   
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 
 [Relatórios no Power BI](service-reports.md)

@@ -1,28 +1,20 @@
 ---
-title: "Tipos de Informações suportados pelo Power BI"
-description: "Informações Rápidas e Ver informações com o Power BI."
-services: powerbi
-documentationcenter: 
+title: Tipos de Informações suportados pelo Power BI
+description: Informações Rápidas e Ver informações com o Power BI.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c295eea46e6e8d182147f877548a385ce4602bad
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 44b59019f1955258716e23fb2dd55182134cc6a2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 ## <a name="how-does-insights-work"></a>Como funcionam as Informações?

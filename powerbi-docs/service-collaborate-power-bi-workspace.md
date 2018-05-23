@@ -1,28 +1,20 @@
 ---
 title: Colaborar na sua área de trabalho de aplicação do Power BI
 description: Leia mais sobre colaborar em ficheiros do Power BI Desktop na sua área de trabalho de aplicação e com serviços do Office 365, como partilhar ficheiros no OneDrive para Empresas, conversações no Exchange, calendário e tarefas.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar na sua área de trabalho de aplicação do Power BI
 As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. É para isso que as áreas de trabalho foram concebidas: colaboração. Após concluir a colaboração nos seus dashboards e relatórios com colegas, pode empacotá-los numa aplicação e distribuí-la. Saiba mais sobre [criar aplicações e áreas de trabalho de aplicação no Power BI](service-create-distribute-apps.md). 

@@ -1,29 +1,21 @@
 ---
-title: "Ver conteúdos relacionados no serviço Power BI"
-description: "Navegação facilitada: veja conteúdos relacionados em dashboards, relatórios e conjuntos de dados"
-services: powerbi
-documentationcenter: 
+title: Ver conteúdos relacionados no serviço Power BI
+description: 'Navegação facilitada: veja conteúdos relacionados em dashboards, relatórios e conjuntos de dados'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 43dffab862173779068f1180f83bc6c92bf98013
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Ver conteúdos relacionados no serviço Power BI
 O painel **Conteúdo relacionado** mostra-lhe como os conteúdos de serviço do Power BI (dashboards, relatórios e conjuntos de dados) estão interligados.  Ainda melhor: neste painel, pode efetuar tarefas comuns como atualizar, mudar o nome, gerar informações e muito mais. Selecione um dashboard ou relatório relacionado, e este será aberto na sua área de trabalho do Power BI.   

@@ -1,28 +1,20 @@
 ---
 title: Utilizar as Perguntas e Respostas com ligações em direto
 description: Documentação para utilizar consultas em linguagem natural de Perguntas e Respostas do Power BI com ligações em direto a dados do Analysis Services e ao Gateway de dados no local.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: mihart
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: mihart
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Ativar as Perguntas e Respostas para ligações em direto
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é um Gateway de dados no local?  O que é uma ligação em direto?

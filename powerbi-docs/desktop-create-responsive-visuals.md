@@ -1,28 +1,20 @@
 ---
 title: Otimizar um elemento visual do Power BI para qualquer tamanho
 description: Saiba como otimizar os elementos visuais nos relatórios existentes do Power BI Desktop e do serviço Power BI para as aplicações de telemóvel do Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Otimizar um elemento visual do Power BI para qualquer tamanho
 Por predefinição, quando cria um novo relatório, os elementos visuais são *reativos*: mudam de forma dinâmica para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. Nos relatórios mais antigos, pode definir os elementos visuais para também serem redimensionados dinamicamente.

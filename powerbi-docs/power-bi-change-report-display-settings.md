@@ -1,28 +1,20 @@
 ---
 title: Alterar o tamanho de uma página de relatório
 description: Alterar as definições de visualização de uma página num relatório do Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: modifying
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8381f3100676b6e20f7fb748045c4852b30c45b9
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="change-the-size-of-a-report-page"></a>Alterar o tamanho de uma página de relatório
 No [artigo e vídeo anterior](power-bi-report-display-settings.md), aprendeu duas maneiras diferentes de controlar a apresentação de página nos relatórios do Power BI: **Ver** e **Tamanho da Página**. A Vista de Página e o Tamanho da Página estão disponíveis no serviço Power BI e no Power BI Desktop, e têm um aspeto e funcionalidade quase idênticos. Porém, para este tutorial vamos utilizar o serviço Power BI.
@@ -41,7 +33,7 @@ No [artigo e vídeo anterior](power-bi-report-display-settings.md), aprendeu dua
     * Verá isto na vista de Leitura.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * Verá isto na Vista de Edição.
+    * Verá isto na vista de Edição.
 
     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
@@ -81,7 +73,7 @@ Se for *criador* do relatório, pode alterar a vista predefinida para as página
    ![](media/power-bi-change-report-display-settings/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Agora, vamos explorar a definição *tamanho da página*
-As definições de tamanho de página só estão disponíveis na [Vista de Edição](service-interact-with-a-report-in-editing-view.md), pelo que tem de ter permissões de edição (*criador*) para o relatório para alterar as definições de tamanho de página. Se já se ligou a algum dos nossos [exemplos](sample-datasets.md), terá permissões de *criador* nesses relatórios.
+As definições de tamanho de página só estão disponíveis na [Vista de edição](service-interact-with-a-report-in-editing-view.md), pelo que tem de ter permissões de edição (*criador*) para o relatório para alterar as definições de tamanho de página. Se já se ligou a algum dos nossos [exemplos](sample-datasets.md), terá permissões de *criador* nesses relatórios.
 
 1. Abra a página "District monthly sales" (Vendas mensais de distrito) do [Exemplo de Análise de Revenda](sample-retail-analysis.md) na Vista de Edição.
 2. Certifique-se de que nenhuma visualização seja selecionada na tela.  No painel **Visualizações**, selecione o ícone do rolo de pintura ![](media/power-bi-change-report-display-settings/power-bi-paintroller.png).
@@ -116,7 +108,7 @@ Lembre-se de que, no passo anterior, vimos que a nossa página de relatório tem
 
     ![](media/power-bi-change-report-display-settings/power-bi-final-new.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Criar relatórios para a Cortana](service-cortana-answer-cards.md)
 
 Voltar a [Configurações de apresentação de página num relatório do Power BI](power-bi-report-display-settings.md)

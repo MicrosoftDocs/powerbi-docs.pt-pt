@@ -1,28 +1,20 @@
 ---
 title: Como afixar um mosaico num dashboard a partir das Perguntas e Respostas
-description: "documentação sobre como afixar um mosaico a um dashboard do Power BI a partir da caixa de Perguntas e Respostas"
-services: powerbi
-documentationcenter: 
+description: documentação sobre como afixar um mosaico a um dashboard do Power BI a partir da caixa de Perguntas e Respostas
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas

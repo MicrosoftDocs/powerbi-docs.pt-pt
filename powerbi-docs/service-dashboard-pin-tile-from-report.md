@@ -1,29 +1,21 @@
 ---
-title: "Afixar um mosaico a um dashboard do Power BI a partir de um relatório"
-description: "Afixe um mosaico a um dashboard do Power BI a partir de um relatório."
-services: powerbi
-documentationcenter: 
+title: Afixar um mosaico a um dashboard do Power BI a partir de um relatório
+description: Afixe um mosaico a um dashboard do Power BI a partir de um relatório.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
 ## <a name="pinning-tiles-from-a-report"></a>Afixar mosaicos a partir de um relatório

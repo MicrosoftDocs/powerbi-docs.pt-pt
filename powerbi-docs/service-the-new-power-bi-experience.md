@@ -1,25 +1,21 @@
 ---
 title: Introdução ao serviço Power BI
 description: Descrição geral da experiência de navegação do Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: quickstart
 ms.component: powerbi-service
-ms.workload: powerbi
+ms.topic: quickstart
 ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
@@ -50,12 +46,12 @@ Assista à apresentação da Amanda sobre a nova experiência de navegação do 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Ver conteúdos (dashboards, relatórios, livros, conjuntos de dados, áreas de trabalho, aplicações)
-Vamos começar por observar como estão organizados os conteúdos básicos (dashboards, relatórios, conjuntos de dados, livros). Os conteúdos são apresentados dentro do contexto de uma área de trabalho. Neste momento, terá apenas uma área de trabalho chamada **A Minha Área de Trabalho**. A Minha Área de Trabalho armazena todos os conteúdos de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para os seus próprios conteúdos. Pode partilhar conteúdos a partir de A Minha Área de Trabalho com colegas. Em A Minha Área de Trabalho, os conteúdos estão organizados em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
+## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Ver conteúdo (dashboards, relatórios, livros, conjuntos de dados, áreas de trabalho, aplicações)
+Vamos começar por observar como está organizado o conteúdo básico (dashboards, relatórios, conjuntos de dados, livros). Os conteúdos são apresentados dentro do contexto de uma área de trabalho. Neste momento, terá apenas uma área de trabalho chamada **A Minha Área de Trabalho**. A Minha Área de Trabalho armazena todos os conteúdos de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. Pode partilhar conteúdo a partir de A Minha Área de Trabalho com colegas. Em A Minha Área de Trabalho, o conteúdo está organizado em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
 
 ![Ecrã A Minha Área de Trabalho](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
-Selecione uma área de trabalho no painel de navegação esquerdo (navegação esquerda) e os separadores dos conteúdos associados (dashboards, relatórios, livros, conjuntos de dados) preenchem o ecrã do Power BI à direita.
+Selecione uma área de trabalho no painel de navegação esquerdo (navegação esquerda) e os separadores do conteúdo associado (dashboards, relatórios, livros, conjuntos de dados) preenchem o ecrã do Power BI à direita.
 
 Se for um novo utilizador, só verá uma área de trabalho: **A Minha Área de Trabalho**.
 
@@ -117,20 +113,20 @@ Para saber mais, veja [Favoritos](service-dashboard-favorite.md)
 
 Para saber mais, veja [Recentes no Power BI](service-recent.md)
 
-### <a name="search-and-sort-content"></a>Pesquisar e ordenar conteúdos
-A vista de conteúdos torna mais fácil procurar, filtrar e ordenar os conteúdos. Para procurar um dashboard, relatório ou livro, escreva na área de pesquisa. O Power BI filtra apenas os conteúdos que tiverem a cadeia de pesquisa como parte do nome.
+### <a name="search-and-sort-content"></a>Pesquisar e ordenar conteúdo
+A vista de conteúdos torna mais fácil procurar, filtrar e ordenar os conteúdos. Para procurar um dashboard, relatório ou livro, escreva na área de pesquisa. O Power BI filtra apenas o conteúdo que tenha a cadeia de pesquisa como parte do nome.
 
 Uma vez que tem apenas um exemplo, não é necessário procurar e ordenar.  Porém, quando tiver longas listas de dashboards, relatórios, livros e conjuntos de dados, procurar e ordenar será muito útil.
 
 ![procurar um dashboard](media/service-the-new-power-bi-experience/power-bi-search-sort.png)
 
-Também pode ordenar os conteúdos por nome ou proprietário.  
+Também pode ordenar o conteúdo por nome ou proprietário.  
 
 ![ordenar conteúdos](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Para saber mais, veja [Navegação no Power BI: procurar, ordenar e filtrar](service-navigation-search-filter-sort.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 > [!div class="nextstepaction"]
 > [Vista de Leitura e Vista de Edição no serviço Power BI](./service-reading-view-and-editing-view.md)

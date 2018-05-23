@@ -4,13 +4,13 @@ Conseguiu! **Parabéns!** Concluiu o curso **Aprendizagem Orientada** do Power B
 
 Esta é a última secção (e o tópico final, a menos que queira aprender o DAX) do curso, pelo que, se percorreu todas estas secções por ordem, está de parabéns. Bom trabalho! Está agora bastante familiarizado com todos estes **conceitos importantes**:
 
-* O que [é o Power BI](../gettingstarted.yml#step-1)
-* Os [blocos modulares](../gettingstarted.yml#step-3) do Power BI
-* [Obter](../gettingdata.yml#step-3) e [moldar](../modeling.yml#step-1) dados
-* [Visualizações](../visualizations.yml#step-1)
-* [Explorar dados](../exploringdata.yml#step-1) no serviço Power BI
-* Utilizar o [Excel e o Power BI](../powerbiandexcel.yml#step-1) em conjunto
-* E [publicar e partilhar](../publishingandsharing.yml#step-1) o seu trabalho
+* O que [é o Power BI](../gettingstarted.yml?tutorial-step=1)
+* Os [blocos modulares](../gettingstarted.yml?tutorial-step=3) do Power BI
+* [Obter](../gettingdata.yml?tutorial-step=3) e [moldar](../modeling.yml?tutorial-step=1) dados
+* [Visualizações](../visualizations.yml?tutorial-step=1)
+* [Explorar dados](../exploringdata.yml?tutorial-step=1) no serviço Power BI
+* Utilizar o [Excel e o Power BI](../powerbiandexcel.yml?tutorial-step=1) em conjunto
+* E [publicar e partilhar](../publishingandsharing.yml?tutorial-step=1) o seu trabalho
 
 São muitos conhecimentos e agora que já os tem todos na cabeça, está preparado para colocá-los em prática! Eis algumas **ligações para transferências** ou para **ligar o seu browser ao serviço Power BI**:
 

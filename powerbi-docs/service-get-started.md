@@ -1,32 +1,24 @@
 ---
-title: "Introdução ao serviço do Power BI"
-description: "Introdução ao serviço do Power BI"
-services: powerbi
-documentationcenter: 
+title: Introdução ao serviço do Power BI
+description: Introdução ao serviço do Power BI
 author: adamw
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Introdução ao serviço Power BI (app.powerbi.com)
-Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](guided-learning/gettingstarted.yml#step-1).
+Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](guided-learning/gettingstarted.yml?tutorial-step=1).
 
 ![ilustração a mostrar a relação entre as versões Desktop, serviço e Mobile](media/service-get-started/power-bi-components.png)
 

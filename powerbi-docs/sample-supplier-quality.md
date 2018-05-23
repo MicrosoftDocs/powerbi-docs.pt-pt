@@ -1,33 +1,25 @@
 ---
-title: "Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour"
-description: "Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour"
-services: powerbi
-documentationcenter: 
+title: 'Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour'
+description: 'Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5636ccd4685205b2b01dd4c591942d7d2670bc48
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Uma breve descrição geral de exemplo da Análise de Qualidade do Fornecedor
-Este dashboard de exemplo do setor, e relatório subjacente, focam-se num dos desafios típicos da cadeia de fornecedores – análise de qualidade do fornecedor.
+Este dashboard de exemplo do setor e o respetivo relatório subjacente focam-se num dos desafios típicos da cadeia de fornecimento – a análise de qualidade do fornecedor.
 Duas métricas principais estão envolvidas na análise: o número total de defeitos e o tempo de inatividade total que causou estes defeitos. Este exemplo tem dois objetivos principais:
 
 * Compreender quem são os melhores e os piores fornecedores, no que respeita à qualidade
@@ -61,7 +53,7 @@ Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
+Em alternativa, pode transferir o exemplo como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
 
  * [Exemplo de Análise de Qualidade do Fornecedor](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 

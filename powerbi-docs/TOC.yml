@@ -140,8 +140,6 @@
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Azure Search
                   href: service-connect-to-azure-search.md
-                - name: Azure Security Center (Centro de Segurança do Azure)
-                  href: service-connect-to-azure-security-center.md
                 - name: Circuit ID
                   href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
@@ -414,10 +412,8 @@
                   href: refresh-excel-file-onedrive.md
                 - name: 'Refresh a dataset created from a comma separated value (.csv) file on OneDrive (Atualizar um conjunto de dados criado a partir de um ficheiro .csv [valores separados por vírgulas] no OneDrive)'
                   href: refresh-csv-file-onedrive.md
-                - name: Troubleshooting refresh scenarios (Resolução de problemas de cenários de atualização)
+                - name: Resolver problemas de atualização
                   href: refresh-troubleshooting-refresh-scenarios.md
-                - name: Desativar as definições de privacidade
-                  href: refresh-enable-fast-combine.md
             - name: Resolução de problemas
               items:
                 - name: Forgot your password for Power BI? (Esqueceu-se da sua palavra-passe do Power BI?)
@@ -470,6 +466,18 @@
       items:
         - name: Moldar e combinar várias origens de dados
           href: desktop-shape-and-combine-data.md
+        - name: Importar e analisar dados de uma Página Web com o Power BI Desktop
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: ' Analisar dados de vendas do Excel e de um feed OData'
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Criar as suas próprias medidas no Power BI Desktop
+          href: desktop-tutorial-create-measures.md
+        - name: Criar colunas calculadas no Power BI Desktop
+          href: desktop-tutorial-create-calculated-columns.md
+        - name: Análise do Facebook com o Power BI Desktop
+          href: desktop-tutorial-facebook-analytics.md
+        - name: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Exemplos
       items:
         - name: Fazer download da pasta de livro Exemplo Financeiro para o Power BI
@@ -526,18 +534,6 @@
           href: desktop-connect-to-data.md
         - name: Publicar a partir do Power BI Desktop
           href: desktop-upload-desktop-files.md
-        - name: Importar e analisar dados de uma Página Web com o Power BI Desktop
-          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
-        - name: ' Analisar dados de vendas do Excel e de um feed OData'
-          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
-        - name: Criar as suas próprias medidas no Power BI Desktop
-          href: desktop-tutorial-create-measures.md
-        - name: Criar colunas calculadas no Power BI Desktop
-          href: desktop-tutorial-create-calculated-columns.md
-        - name: Análise do Facebook com o Power BI Desktop
-          href: desktop-tutorial-facebook-analytics.md
-        - name: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
-          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Visualizações personalizadas no Power BI
           href: power-bi-custom-visuals.md
         - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
@@ -898,8 +894,6 @@
           href: developer/qanda.md
     - name: Procedimentos
       items:
-        - name: Create a custom visual with the Developer Tools (Criar um elemento visual personalizado com as Ferramentas de Programação)
-          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: How to embed your content (Como incorporar os seus conteúdos)
           href: developer/embedding-content.md
         - name: Push data into a dashboard (Enviar dados por push para um dashboard)
@@ -914,6 +908,18 @@
           href: developer/integrate-report.md
         - name: Integrar conteúdos na sua aplicação (os dados são da aplicação)
           href: developer/embed-sample-for-customers.md
+        - name: Integrar conteúdos na sua aplicação para clouds soberanas (a aplicação é proprietária de dados)
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
+        - name: Create a custom visual (Criar um elemento visual personalizado)
+          items:
+            - name: Create a custom visual with the Developer Tools (Criar um elemento visual personalizado com as Ferramentas de Programação)
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Review custom visuals for security and privacy (Rever a segurança e a privacidade dos elementos visuais personalizados)
+              href: service-custom-visuals-review-for-security-and-privacy.md
+            - name: Get a custom visual certified (Obter um elemento visual personalizado certificado)
+              href: power-bi-custom-visuals-certified.md
+            - name: Publicar visuais personalizados no AppSource
+              href: developer/office-store.md
         - name: Incorporação
           items:
             - name: Incorporação com o Power BI
@@ -932,12 +938,6 @@
               href: developer/migrate-code-snippets.md
             - name: Resolução de problemas de aplicações incorporadas
               href: developer/embedded-troubleshoot.md
-        - name: Create a custom visual (Criar um elemento visual personalizado)
-          items:
-            - name: Rever a segurança e a privacidade dos elementos visuais personalizados
-              href: service-custom-visuals-review-for-security-and-privacy.md
-            - name: Get a custom visual certified (Obter um elemento visual personalizado certificado)
-              href: power-bi-custom-visuals-certified.md
         - name: Push data into a dashboard (Enviar dados por push para um dashboard)
           items:
             - name: Register an app with Azure AD (Registar uma aplicação com o Azure AD)
@@ -976,9 +976,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Recursos
       items:
-        - name: JavaScript embed demo (Demonstração incorporada do JavaScript)
+        - name: Exemplo do JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Samples (Exemplos)
+        - name: Exemplos
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'
         - name: Power BI community (Comunidade do Power BI)
           href: 'https://go.microsoft.com/fwlink/?linkid=848280'
@@ -1126,10 +1126,12 @@
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Definir configurações de proxy
           href: service-gateway-proxy.md
-        - name: Gateway de dados no local - detalhado
-          href: service-gateway-onprem-indepth.md
         - name: Clusters de elevada disponibilidade para gateways de dados no local
           href: service-gateway-high-availability-clusters.md
+        - name: Gateway de dados local
+          href: service-gateway-onprem.md
+        - name: Gateway de dados no local - detalhado
+          href: service-gateway-onprem-indepth.md
         - name: Gateway de dados local (modo pessoal)
           href: service-gateway-personal-mode.md
         - name: Resolução de problemas do gateway de dados no local
@@ -1188,6 +1190,8 @@
           href: service-admin-health.md
         - name: Fechar a sua conta do Power BI
           href: service-admin-closing-your-account.md
+        - name: O Power BI Pro na sua organização
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Power BI (gratuito) na sua organização
           href: service-admin-service-free-in-your-organization.md
         - name: Power BI e ExpressRoute

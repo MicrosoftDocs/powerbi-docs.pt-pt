@@ -1,28 +1,20 @@
 ---
-title: "Mostrar os dados que foram utilizados para criar a visualização do Power BI"
+title: Mostrar os dados que foram utilizados para criar a visualização do Power BI
 description: Este documento explica como mostrar os dados utilizados para criar um elemento visual no Power BI e como exportar esses dados para um ficheiro. csv.
-services: powerbi
-documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b85fe5cf70c915a3355c80a61f01a32216450f03
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Mostrar os dados que foram utilizados para criar a visualização
 ## <a name="show-data"></a>Mostrar Dados

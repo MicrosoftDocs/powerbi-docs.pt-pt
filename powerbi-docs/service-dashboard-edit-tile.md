@@ -1,29 +1,21 @@
 ---
 title: Editar um mosaico do dashboard
 description: Este tutorial explica como criar um mosaico e afixá-lo a um dashboard, e ensina a editar esse mosaico do dashboard – redimensionar, mover, mudar o nome, afixar, eliminar e adicionar uma hiperligação.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca83151f2dbf0f69926ad1920c3323a0070e5e06
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
 
@@ -57,7 +49,7 @@ Este artigo abrange o seguinte.
 
     ![Mosaico Valor](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
-2. Abra o relatório na Vista de Edição, selecionando **Editar relatório** na barra de menus superior.
+2. Abra o relatório na Vista de edição, selecionando **Editar relatório** na barra de menus superior.
 
 3. Adicione uma nova página de relatório, selecionando o sinal de adição (+) na parte inferior do relatório.
 
@@ -148,7 +140,7 @@ Por predefinição, a seleção de um mosaico normalmente permite aceder ao rela
 2. Eliminar um mosaico não elimina a visualização subjacente. Abra o relatório subjacente, selecionando o mosaico "Valor". Abra a última página do relatório para ver que a visualização original não foi eliminada do relatório. 
 
 - - -
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Mosaicos do dashboard no Power BI](service-dashboard-tiles.md)
 
 [Dashboards no Power BI](service-dashboards.md)

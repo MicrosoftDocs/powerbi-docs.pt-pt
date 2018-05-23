@@ -1,25 +1,19 @@
 ---
 title: Tutorial - utilizar Perguntas e Respostas num dashboard ou num relatório
 description: Tutorial sobre como utilizar as Perguntas e Respostas do Power BI para criar novas visualizações em dashboards e relatórios.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Como utilizar as Perguntas e Respostas para criar visualizações e relatórios
 A [descrição geral de Perguntas e Respostas](power-bi-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.

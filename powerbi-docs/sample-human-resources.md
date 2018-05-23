@@ -1,33 +1,25 @@
 ---
-title: "Exemplo de Recursos Humanos: faça um tour"
-description: "Exemplo de Recursos Humanos para o Power BI: faça um tour"
-services: powerbi
-documentationcenter: 
+title: 'Exemplo de Recursos Humanos: faça um tour'
+description: 'Exemplo de Recursos Humanos para o Power BI: faça um tour'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 7cd91ad5d6b43803745e5c6a12b6168e17f376af
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 2f9051142568ff7e6451acc38d30295f2930d0a6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos para o Power BI: faça um tour
 
 ## <a name="overview-of-the-human-resources-sample"></a>Descrição geral de exemplo para os Recursos Humanos
-O departamento de RH tem o mesmo modelo de relatório em diferentes empresas, mesmo quando diferem em setor ou tamanho. Este exemplo examina novas contratações, funcionários ativos e funcionários que saíram, e tenta descobrir tendências na estratégia de contratação. Os nossos principais objetivos devem compreender:
+O departamento de RH tem o mesmo modelo de relatório em diferentes empresas, mesmo quando existem diferenças no setor ou na dimensão. Este exemplo examina novas contratações, funcionários ativos e funcionários que saíram, e tenta descobrir tendências na estratégia de contratação. Os nossos principais objetivos devem compreender:
 
 * Quem contratamos
 * Preconceitos na nossa estratégia de contratação
@@ -59,7 +51,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
+Em alternativa, pode transferir o exemplo como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
 
  * [Exemplo de Recursos Humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
 

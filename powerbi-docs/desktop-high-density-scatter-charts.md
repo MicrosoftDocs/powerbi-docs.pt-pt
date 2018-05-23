@@ -1,28 +1,20 @@
 ---
 title: Gráficos de Dispersão de Alta Densidade no Power BI
 description: Gráficos de Dispersão de Alta Densidade no Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f0c1117dc6a74f3ffc8ef9f93610aa83c54b50dc
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 6df40c8229575a7e6167e75b773228cbd18d1243
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Amostragem de alta densidade em gráficos de dispersão do Power BI
 A partir da versão de setembro de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar a forma como os gráficos de dispersão representam dados de alta densidade.
@@ -37,7 +29,7 @@ Por exemplo, poderá criar um gráfico de dispersão a partir da atividade de ve
 > 
 
 ## <a name="how-high-density-scatter-charts-work"></a>Funcionamento dos gráficos de dispersão de alta densidade
-Anteriormente, o **Power BI** selecionava, de uma forma determinista, uma coleção de pontos de dados de amostra no intervalo completo de dados subjacentes para criar um gráfico de dispersão. Especificamente, o Power BI deverá selecionar as primeiras e as últimas linhas de dados na série do gráfico de dispersão e, em seguida, dividir as linhas restantes uniformemente, para que sejam desenhados 3500 pontos de dados no gráfico de dispersão. Por exemplo, se o exemplo tivesse 35 000 linhas, as primeiras e as últimas linhas seriam selecionadas para desenhar e, em seguida, a cada dez linhas também poderiam ser desenhadas (35 000/10 = a cada dez linhas = 3500 pontos de dados). Além disso, anteriormente, os valores nulos ou pontos que não puderam ser desenhados (por exemplo, valores de texto) na série de dados não foram apresentados e, por conseguinte, não foram considerados ao gerar o elemento visual. Com essa amostragem, a densidade percetível do gráfico de dispersão também foi baseada nos pontos de dados representativos e, desta forma, a densidade implícita do elemento visual foi uma circunstância dos pontos de amostras, e não a coleção completa dos dados subjacentes.
+Anteriormente, o **Power BI** selecionava, de uma forma determinista, uma coleção de pontos de dados de amostra no intervalo completo de dados subjacentes para criar um gráfico de dispersão. Especificamente, o Power BI deverá selecionar as primeiras e as últimas linhas de dados na série do gráfico de dispersão e, em seguida, dividir as linhas restantes uniformemente, para que sejam desenhados 3.500 pontos de dados no gráfico de dispersão. Por exemplo, se o exemplo tivesse 35 000 linhas, as primeiras e as últimas linhas seriam selecionadas para desenhar e, em seguida, a cada dez linhas também poderiam ser desenhadas (35 000/10 = a cada dez linhas = 3500 pontos de dados). Além disso, anteriormente, os valores nulos ou pontos que não puderam ser desenhados (por exemplo, valores de texto) na série de dados não foram apresentados e, por conseguinte, não foram considerados ao gerar o elemento visual. Com essa amostragem, a densidade percetível do gráfico de dispersão também foi baseada nos pontos de dados representativos e, desta forma, a densidade implícita do elemento visual foi uma circunstância dos pontos de amostras, e não a coleção completa dos dados subjacentes.
 
 Quando ativa a **Amostragem de Alta Densidade**, o Power BI implementa um algoritmo que elimina pontos sobrepostos e assegura que os pontos do elemento visual podem ser alcançados ao interagir com o elemento visual. O algoritmo também garante que todos os pontos do conjunto de dados são representados no elemento visual, ao apresentar contexto para o significado dos pontos selecionados, em vez de desenhar apenas uma amostra representativa.
 
@@ -49,7 +41,7 @@ Por definição, a amostragem de dados de alta densidade é efetuada para criar 
 > 
 
 ## <a name="how-the-new-scatter-chart-sampling-algorithm-works"></a>Modo de funcionamento do novo algoritmo de amostragem do gráfico de dispersão
-O novo algoritmo para a **Amostragem de Alta Densidade** para gráficos de dispersão implementa métodos que capturam e representam os dados subjacentes de forma mais eficaz e eliminam pontos sobrepostos. Fá-lo ao começar com um pequeno radius para cada ponto de dados (o tamanho do círculo visual para um determinado ponto na visualização). Em seguida, aumenta o radius de todos os pontos de dados; quando dois (ou mais) pontos de dados se sobrepõem, um círculo único (com o tamanho aumentado do radius) representa esses pontos de dados sobrepostos. O algoritmo continua a aumentar o radius de pontos de dados, até que os resultados de valor de radius num número de pontos de dados razoável - 3500 - sejam apresentados no gráfico de dispersão.
+O novo algoritmo para a **Amostragem de Alta Densidade** para gráficos de dispersão implementa métodos que capturam e representam os dados subjacentes de forma mais eficaz e eliminam pontos sobrepostos. Fá-lo ao começar com um pequeno radius para cada ponto de dados (o tamanho do círculo visual para um determinado ponto na visualização). Em seguida, aumenta o radius de todos os pontos de dados; quando dois (ou mais) pontos de dados se sobrepõem, um círculo único (com o tamanho aumentado do radius) representa esses pontos de dados sobrepostos. O algoritmo continua a aumentar o radius de pontos de dados, até que os resultados de valor de radius num número de pontos de dados razoável - 3.500 - sejam apresentados no gráfico de dispersão.
 
 Os métodos neste algoritmo asseguram que os valores atípicos são representados no elemento visual resultante. O algoritmo também respeita a escala ao determinar a sobreposição, de forma a que as escalas exponenciais sejam visualizadas com fidelidade aos pontos subjacentes visualizados.
 

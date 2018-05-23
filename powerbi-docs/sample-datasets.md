@@ -1,28 +1,20 @@
 ---
-title: "Veja a introdução dos exemplos disponíveis com o Power BI"
-description: "Pacotes de conteúdo de exemplo, ficheiros PBIX e conjuntos de dados para o Power BI"
-services: powerbi
-documentationcenter: 
+title: Veja a introdução dos exemplos disponíveis com o Power BI
+description: Pacotes de conteúdo de exemplo, ficheiros PBIX e conjuntos de dados para o Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 03/05/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8a2b330ee134bf8aeb94315b90e71824ec1eb8ef
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: cf93d16eae91743ce52f1de915336c6df4d82202
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Ou talvez tem um conjunto de dados, mas como não compreende (ainda) como funciona o Power BI, preocupa-se na possibilidade de danificar o conjunto de dados?
@@ -68,7 +60,7 @@ Este exemplo da indústria concentra-se na estratégia de contratação de uma e
 ### <a name="it-spend-analysis-sample-mediasample-datasetspower-bi-itpng"></a>Exemplo de Análise de Gastos em TI ![](media/sample-datasets/power-bi-it.png)
 [Veja uma apresentação do exemplo de Análise de Gastos em TI](sample-it-spend.md)
 
-Neste exemplo do setor analisamos os custos planeados vs. os custos reais do departamento de TI de uma empresa. Esta comparação ajuda-nos a perceber em que medida a empresa planeou corretamente o seu ano e permite-nos investigar as áreas com grandes desvios em relação ao plano. Este exemplo mostra um ciclo de planeamento anual da empresa e apresenta trimestralmente uma nova Estimativa Mais Recente (LE) para ajudar a analisar as alterações dos gastos de TI ao longo do ano fiscal.
+Neste exemplo do setor analisamos os custos planeados vs. os custos reais do departamento de TI de uma empresa. Esta comparação ajuda-nos a perceber em que medida a empresa planeou corretamente o seu ano e permite-nos investigar as áreas com grandes desvios em relação ao plano. Este exemplo mostra um ciclo de planeamento anual da empresa e apresenta trimestralmente uma nova Latest Estimate (Estimativa Mais Recente (LE)) para ajudar a analisar as alterações dos gastos de TI ao longo do ano fiscal.
 
 ### <a name="opportunity-analysis-sample--mediasample-datasetspower-bi-oapng"></a>Exemplo de Análise de Oportunidade  ![](media/sample-datasets/power-bi-oa.png)
 [Veja uma apresentação do exemplo de Análise de Oportunidade](sample-opportunity-analysis.md)
@@ -93,7 +85,7 @@ Este exemplo do setor analisa uma empresa industrial, VanArsdel Ltd. Permite ao 
 ### <a name="supplier-quality-sample--mediasample-datasetspower-bi-sqpng"></a>Exemplo de Qualidade do Fornecedor  ![](media/sample-datasets/power-bi-sq.png)
 [Veja uma apresentação do exemplo de Qualidade do Fornecedor](sample-supplier-quality.md)
 
-Este exemplo do setor destaca um dos desafios típicos da cadeia de fornecedores – análise de qualidade do fornecedor. Duas métricas principais estão envolvidas na análise: o número total de defeitos e o tempo de inatividade total que causou estes defeitos. Este exemplo tem dois objetivos principais: perceber quais são os melhores e os piores fornecedores, no que respeita à qualidade e identificar as instalações fabris que melhor localizam e rejeitam defeitos, para minimizar o período de indisponibilidade.
+Este exemplo do setor destaca um dos desafios típicos da cadeia de fornecedores – análise de qualidade do fornecedor. Esta análise depende de duas métricas principais: o número total de defeitos e o período de indisponibilidade total que estes defeitos causaram. Este exemplo tem dois objetivos principais: perceber quais são os melhores e os piores fornecedores, no que respeita à qualidade e identificar as instalações fabris que melhor localizam e rejeitam defeitos, para minimizar o período de indisponibilidade.
 
 Agora, sabe o que está disponível. Está na altura de conhecer estes exemplos.  
 

@@ -1,28 +1,20 @@
 ---
 title: Utilizar as informações no Power BI Desktop (Pré-visualização)
 description: Obter facilmente informações sobre aumentos ou diminuições no Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2a98e0e5f79819c7530f713d2ccb541a18b0ce6c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Utilizar as informações no Power BI Desktop (Pré-visualização)
 Pode indicar ao **Power BI Desktop** que explique aumentos ou diminuições em gráficos e obter análises rápidas, automatizadas e informativas sobre os seus dados. Basta clicar com o botão direito do rato num ponto de dados e selecionar **Analisar > Explicar a diminuição** (ou aumento, se a barra anterior era mais baixa), e as informações são-lhe entregues numa janela fácil de utilizar.

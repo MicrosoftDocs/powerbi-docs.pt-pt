@@ -1,28 +1,20 @@
 ---
 title: Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop
 description: Utilize linhas de grelha, ajustar à grelha, ordenação z, alinhamento e distribuição em relatórios do Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop
 A tela de relatório do **Power BI Desktop** fornece linhas de grelha que lhe permitem, de forma organizada, alinhar elementos visuais numa página de relatório utilizar funcionalidades de ajuste à grelha, para que os elementos visuais no seu relatório tenham um aspeto organizado, alinhado e com espaçamentos regulares.
@@ -48,20 +40,20 @@ Utilize Ctrl+Clique para selecionar dois ou mais elementos visuais de cada vez, 
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
-#### <a name="using-gridlines-inside-visuals"></a>Utilizar linhas de grelha dentro de elementos visuais
-No Power BI, também existem linhas de grelha dentro de elementos visuais que fornecem guias visíveis para comparar pontos de dados e valores. A partir da versão do **Power BI Desktop** de setembro de 2017, pode gerir as linhas de grelha em elementos visuais utilizando o cartão do **Eixo X** ou o cartão do **Eixo Y** (conforme adequado com base no tipo de visual), que se encontra na secção **Formatar** do painel **Visualizações**. Pode gerir os seguintes elementos das linhas de grelha num elemento visual:
+#### <a name="using-gridlines-inside-visuals"></a>Utilizar linhas de grelha dentro de visuais
+No Power BI, também existem linhas de grelha dentro de elementos visuais que fornecem guias visíveis para comparar pontos de dados e valores. A partir da versão do **Power BI Desktop** de setembro de 2017, pode gerir as linhas de grelha em visuais utilizando o cartão do **Eixo X** ou o cartão do **Eixo Y** (conforme adequado com base no tipo de visual), que se encontra na secção **Formatar** do painel **Visualizações**. Pode gerir os seguintes elementos das linhas de grelha num visual:
 
 * Ativar ou desativar linhas de grelha
 * Alterar a cor das linhas de grelha
 * Ajustar o traço (largura) das linhas de grelha
-* Selecione o estilo da linha das linhas de grelha no elemento visual, como por exemplo sólido, tracejado ou pontilhado
+* Selecione o estilo da linha das linhas de grelha no visual, como por exemplo sólido, tracejado ou pontilhado
 
-Pode ser especialmente útil modificar determinados elementos de linhas de grelha em relatórios que utilizem fundos escuros para elementos visuais. A seguinte imagem mostra a secção **Linhas de grelha** no cartão **Eixo Y**.
+Pode ser especialmente útil modificar determinados elementos de linhas de grelha em relatórios que utilizem fundos escuros para visuais. A seguinte imagem mostra a secção **Linhas de grelha** no cartão **Eixo Y**.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
 ### <a name="using-snap-to-grid"></a>Utilizar ajuste à grelha
-Quando ativar a opção **Ajustar objetos à grelha**, todos os elementos visuais na tela do **Power BI Desktop** que mover (ou redimensionar) serão automaticamente alinhados com o eixo de grelha mais próximo, o que torna muito mais fácil garantir que dois ou mais elementos visuais se alinham com o mesmo tamanho ou localização vertical ou horizontal.
+Quando ativar a opção **Ajustar objetos à grelha**, todos os visuais na tela do **Power BI Desktop** que mover (ou redimensionar) serão automaticamente alinhados com o eixo de grelha mais próximo, o que torna muito mais fácil garantir que dois ou mais visuais se alinham com o mesmo tamanho ou localização vertical ou horizontal.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
@@ -84,7 +76,7 @@ Quando dois ou mais elementos visuais estiverem selecionados, estes alinham-se e
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 
-Pode também distribuir os seus elementos visuais uniformemente na tela de relatório, seja vertical ou horizontalmente. Basta utilizar o botão **Distribuir** do friso **Formatar**.
+Pode também distribuir os seus visuais uniformemente na tela de relatório, seja vertical ou horizontalmente. Basta utilizar o botão **Distribuir** do friso **Formatar**.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_8.png)
 

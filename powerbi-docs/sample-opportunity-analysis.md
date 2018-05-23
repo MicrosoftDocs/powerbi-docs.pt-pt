@@ -1,33 +1,25 @@
 ---
-title: "Exemplo de Análise de Oportunidade para o Power BI: faça uma visita"
-description: "Exemplo de Análise de Oportunidade para o Power BI: faça uma visita"
-services: powerbi
-documentationcenter: 
+title: 'Exemplo de Análise de Oportunidade para o Power BI: faça uma visita'
+description: 'Exemplo de Análise de Oportunidade para o Power BI: faça uma visita'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 73ac4f0ca7e89c01543befee5e952a66db2d3843
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: c90ca6fa46bd9f00786423cad6e8fdfcaf82e1f8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Oportunidade para o Power BI: faça uma visita
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>Descrição geral do exemplo de Análise de Oportunidade
-O **Exemplo de Análise de Oportunidade** contém um dashboard (e relatório associado) para uma empresa de software que tem 2 canais de vendas: *direta* e *parceiro*. O Gestor de Vendas criou este dashboard para monitorizar as oportunidades e a receita por região, dimensão do negócio e canal.
+O **Exemplo de Análise de Oportunidade** contém um dashboard (e relatório associado) para uma empresa de software que tem 2 canais de vendas: *direta* e *parceiro*. O Gestor de Vendas criou este dashboard para controlar as oportunidades e as receitas por região, dimensão do negócio e canal.
 
 O Gestor de Vendas baseia-se em duas medidas de receita:
 

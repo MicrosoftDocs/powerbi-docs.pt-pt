@@ -1,28 +1,20 @@
 ---
-title: "Exemplo de Análise de Compras: faça um tour"
-description: "Exemplo de Análise de Compras para o Power BI: faça um tour"
-services: powerbi
-documentationcenter: 
+title: 'Exemplo de Análise de Compras: faça um tour'
+description: 'Exemplo de Análise de Compras para o Power BI: faça um tour'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3bca6f79b3a1b92243948fb64660e8946aedca7c
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: a238e491da93b144edd076360e85c312e3a8765c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Compras para o Power BI: faça um tour
 
@@ -60,7 +52,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
+Em alternativa, pode transferir o exemplo como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
 
  * [Exemplo de Análise de Compras](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
 
