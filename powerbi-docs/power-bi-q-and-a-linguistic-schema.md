@@ -1,28 +1,20 @@
 ---
 title: Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas
 description: Como utilizar o Power BI Desktop para editar o esquema linguístico utilizado pelas Perguntas e Respostas do Power BI.
-services: powerbi
-documentationcenter: ''
 author: willthom
 manager: kfile
-backup: mihart
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: mihart
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/20/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3be0422e914b4f78826715f03c9ddcd92baa7ead
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Modelação de linguagem e esquema linguístico 
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no Power BI lhe permitem fazer. Quando coloca uma questão nas Perguntas e Respostas do Power BI, estas fazem todos os possíveis para responder corretamente. 
@@ -163,14 +155,14 @@ product_has_category:
 ```
  
 ## <a name="name-phrasings"></a>Expressões de Nome
-As expressões de nome são úteis se o modelo de dados tiver uma tabela com objetos nomeados, como nomes de atletas e de clientes. Por exemplo, uma expressão "os nomes de produtos são nomes de produtos" é essencial para poder utilizar nomes de produtos em perguntas. Embora uma expressão de nome também permita "com o nome" como verbo (por exemplo,  "Listar clientes com o nome Guilherme Sarmento"), é mais importante quando utilizada em conjunto com outras expressões, para permitir que um valor de nome seja utilizado para referenciar uma linha de tabela específica. Por exemplo, em "Clientes que compraram chai", as Perguntas e Respostas podem dizer que o valor "chai" faz referência a toda a linha da tabela de produtos, em vez de somente um valor na coluna de nomes de produto. As expressões de nome são utilizadas em perguntas como:    
+As expressões de nome são úteis se o modelo de dados tiver uma tabela com objetos nomeados, como nomes de atletas e de clientes. Por exemplo, uma expressão "os nomes de produtos são nomes de produtos" é essencial para poder utilizar nomes de produtos em perguntas. Embora uma expressão de nome também permita "com o nome" como verbo (por exemplo, "Listar clientes com o nome Guilherme Sarmento"), é mais importante quando utilizada em conjunto com outras expressões, para permitir que um valor de nome seja utilizado para fazer referência a uma linha de tabela específica. Por exemplo, em "Clientes que compraram chai", as Perguntas e Respostas podem dizer que o valor "chai" faz referência a toda a linha da tabela de produtos, em vez de somente um valor na coluna de nomes de produto. As expressões de nome são utilizadas em perguntas como:    
 - Colaboradores com o nome Samuel Costa
 - Pessoas com o nome Tiago Ribeiro
 - Desporto de Fernand De Montigny
 - Número de atletas com o nome Mariana
 - O que comprou Samuel Costa?
 
-Partindo do princípio que utilizou uma convenção de nomenclatura pertinente para colunas de nomes no seu modelo (por exemplo,  "Name" ou "ProductName" em vez de "PrdNm"), a maioria das expressões de nome necessárias no seu modelo será gerada automaticamente, pelo que normalmente não tem de as criar.
+Partindo do princípio que utilizou uma convenção de nomenclatura pertinente para colunas de nomes no seu modelo (por exemplo, "Name" ou "ProductName" em vez de "PrdNm"), a maioria das expressões de nome necessárias no seu modelo será gerada automaticamente, pelo que normalmente não tem de as criar.
 
 Segue-se um exemplo do aspeto de uma expressão de nome dentro do esquema linguístico:
 

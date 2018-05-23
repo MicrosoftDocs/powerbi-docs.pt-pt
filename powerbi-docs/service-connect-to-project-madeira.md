@@ -1,28 +1,20 @@
 ---
 title: Ligar ao Projeto Madeira com o Power BI
 description: Projeto Madeira para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -31,7 +23,7 @@ Ligue-se ao Projeto "Madeira" para o Power BI ou leia mais sobre a integração 
 >[!NOTE]
 >Este pacote de conteúdo requer permissões para as tabelas das quais os dados são obtidos, neste caso, dados de vendas e de finanças. Mais informações sobre requisitos [abaixo](#Requirements).
 
-Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.powerbi.com/getdata/services/project-madeira) para o Power BI.
+Ligue-se ao [pacote de conteúdos do Projeto "Madeira" Analytics](https://app.powerbi.com/getdata/services/project-madeira) para o Power BI.
 
 ## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.  
@@ -40,7 +32,7 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
     ![](media/service-connect-to-project-madeira/services.png)
 3. Selecione **Projeto "Madeira"**, e, em seguida, selecione **Obter**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Quando lhe for pedido, introduza o URL do Projeto "Madeira". O URL precisa de seguir exatamente o seguinte padrão: https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') com o seu nome de empresa Projeto "Madeira". Note que não existe nenhuma barra no final e a ligação tem de ser https. Consulte os detalhes sobre como encontrar este URL [abaixo](#FindingParams).  
+4. Quando lhe for pedido, introduza o URL do Projeto "Madeira". O URL precisa de seguir exatamente o seguinte padrão https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US'), com o nome da empresa do seu Projeto "Madeira". Note que não existe nenhuma barra no final e a ligação tem de ser https. Consulte os detalhes sobre como encontrar este URL [abaixo](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Quando lhe for pedido, selecione o Método de Autenticação Básico, introduza o seu endereço de e-mail do Projeto "Madeira" como nome de utilizador e, em seguida, introduza a chave de acesso ao serviço Web para a sua conta do Projeto "Madeira" como palavra-passe. Se já tiver sessão iniciada no Projeto "Madeira" no seu browser, poderão não lhe ser pedidas credenciais. Consulte os detalhes sobre gerar esta chave de acesso [abaixo](#FindingParams).  
@@ -78,7 +70,7 @@ Para importar dados do Projeto "Madeira" para o Power BI, precisa de ter permiss
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>A localizar Parâmetros
-**Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incuir a parte "/powerbifinance…" na cadeia do URL.
+**Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incluir a parte "/powerbifinance…" na cadeia do URL.
 
 **Chaves de Acesso ao Serviço Web** Para utilizar os dados do Projeto "Madeira", terá de criar uma chave de acesso ao serviço Web para a sua conta de utilizador. No Projeto "Madeira", procure a página Utilizadores e, em seguida, abra o cartão da sua conta de utilizador. Aqui, pode gerar uma nova chave de acesso aos serviços Web e copiá-la para o campo Palavra-passe na página de ligação do Power BI.
 

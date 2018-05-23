@@ -1,28 +1,20 @@
 ---
 title: Ligue-se ao Windows Dev Center com o Power BI
 description: Windows Dev Center para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 246c1dc22d120ac01fe5276bbd0a2dd95b0dbc1f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Ligue-se ao Windows Dev Center com o Power BI
 Explore e monitorize os seus dados de análise de aplicação do Windows Dev Center no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
@@ -73,7 +65,7 @@ Este pacote de conteúdos requer pelo menos uma aplicação publicada na Loja Wi
 ## <a name="finding-parameters"></a>Parâmetros de localização
 Pode encontrar o ID de aplicação indo à página Identidade da aplicação em Gestão de aplicações.
 
-O ID da aplicação está no final do URL da Windows 10 Store, https://www.microsoft.com/store/apps/ **{applicationId}**
+O ID da aplicação encontra-se no final do seu URL da Windows 10 Store, https://www.microsoft.com/store/apps/ **{applicationId}**
 
 ## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)

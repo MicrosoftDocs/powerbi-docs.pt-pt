@@ -1,28 +1,20 @@
 ---
-title: "Melhores práticas para o desempenho do Power BI"
-description: "Este artigo fornece orientação para construir relatórios rápidos e fiáveis no Power BI"
-services: powerbi
-documentationcenter: 
+title: Melhores práticas para o desempenho do Power BI
+description: Este artigo fornece orientação para construir relatórios rápidos e fiáveis no Power BI
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: monitoring
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores Práticas para o Desempenho do Power BI 
 Este artigo oferece orientação para construir relatórios rápidos e fiáveis no Power BI.  
@@ -96,8 +88,14 @@ Tenha em atenção que, para o DirectQuery e a ligação em tempo real, esta cac
 ## <a name="understand-custom-visual-performance"></a>Compreender o desempenho de um elemento visual personalizado 
 Certifique se de que testa os seus elementos visuais personalizados com cuidado para garantir um desempenho elevado. Os elementos visuais personalizados mal otimizados podem afetar negativamente o desempenho de todo o relatório. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Aprofundamento sobre o desempenho das consultas com o SQL Profiler e o Power BI Desktop 
-Para um aprofundamento sobre quais os elementos visuais que ocupam mais tempo e recursos, pode ligar o SQL Profiler ao Power BI Desktop para ter uma visão completa do desempenho da consulta. As instruções são as seguintes: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Aprofundamento sobre o desempenho das consultas com o SQL Profiler e o Power BI Desktop
+
+Para um aprofundamento sobre quais os elementos visuais que ocupam mais tempo e recursos, pode ligar o SQL Profiler ao Power BI Desktop para ter uma visão completa do desempenho da consulta.
+
+> [!NOTE]
+> O Power BI Desktop suporta a ligação a uma porta de diagnóstico. A porta de diagnóstico permite que outras ferramentas se liguem e executem rastreios para fins de diagnóstico. *Fazer alterações ao modelo não é suportado! As alterações ao modelo podem provocar danos e perda de dados.*
+
+As instruções são as seguintes:
   
 1. **Instale o SQL Server Profiler e execute o Power BI Desktop** 
 
@@ -145,7 +143,7 @@ As ferramentas como o [Azure Speed Test](http://azurespeedtest.azurewebsites.net
 
 Para melhorar a latência de rede, pondere utilizar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que consegue criar ligações de rede mais rápidas e de confiança entre os seus clientes e os datacenters do Azure. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 - [Planear uma Implementação do Power BI Enterprise](https://aka.ms/pbienterprisedeploy) com um guia completo sobre implementações do Power BI em larga escala 
 - [DirectQuery no SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) 
 - [[YouTube] Building Fast and Reliable Reports in Power BI](https://www.youtube.com/watch?v=GhiJABR7XX0) (Criar Relatórios Rápidos e de Confiança no Power BI) 

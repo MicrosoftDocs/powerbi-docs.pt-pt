@@ -1,28 +1,20 @@
 ---
 title: Ligar ao Insightly com o Power BI
 description: Insightly para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a49260a90647178e0737e728804b00c004b21376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Ligar ao Insightly com o Power BI
 Visualize e partilhe os seus dados de CRM do Insightly no Power BI com o pacote de conteúdos do Insightly. Ligue-se ao Power BI usando a sua chave de API do Insightly para visualizar e criar relatórios e dashboards a partir dos seus dados de CRM. Com o Power BI pode analisar os dados de novas maneiras, criar gráficos poderosos e exibir contactos, clientes potenciais e organizações num mapa.
@@ -83,7 +75,7 @@ Para copiar a chave de API do Insightly, selecione as Definições de Utilizador
 ![](media/service-connect-to-insightly/findapi.png)
 
 ## <a name="troubleshooting"></a>Resolução de problemas
-Os dados são importados através da API do Insightly, que inclui um limite diário com base no nível de plano da sua subscrição do Insightly. Os limites são listados na secção Pedidos de Limitação/Limitação de Velocidade da nossa documentação da API: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
+Os dados são importados através da API do Insightly, que inclui um limite diário com base no nível de plano da sua subscrição do Insightly. Os limites são listados na secção Rate Limiting/Throttling Requests (Pedidos de Limitação/Limitação de Velocidade) da nossa documentação da API: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
 
 Os relatórios fornecidos usam campos predefinidos do Insightly e podem não incluir as suas personalizações. Edite o relatório para ver todos os campos disponíveis.
 

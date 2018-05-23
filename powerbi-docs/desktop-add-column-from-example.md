@@ -1,35 +1,27 @@
 ---
 title: Adicionar uma coluna de um exemplo no Power BI Desktop
 description: Crie uma nova coluna rapidamente no Power BI Desktop com as colunas existentes como exemplos
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 84347678033f3042dc5fd15d311d8e04e855a336
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Adicionar uma coluna de um exemplo no Power BI Desktop
 Começando com a versão de abril de 2017 do **Power BI Desktop**, pode adicionar novas colunas de dados ao seu modelo com o **Editor de Consultas** ou ao apresentar simplesmente um ou mais valores de exemplo para a nova coluna. Pode criar um novo exemplo de coluna de uma seleção atual ou apresentar entradas com base em todas as colunas (ou colunas selecionadas) numa determinada tabela.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-Esta abordagem ajuda-o a criar novas colunas rápida e facilmente e é excelente nas seguintes situações:
+Esta abordagem ajuda-o a criar novas colunas com rapidez e facilidade, e é excelente nas seguintes situações:
 
 * Sabe qual é o resultado de dados que pretende na sua nova coluna, mas não tem a certeza qual é a transformação (ou coleção de transformações) que irá obter.
 * Já sabe quais são as transformações que precisa, mas não tem a certeza onde deve clicar ou selecionar na IU para que aconteçam.
@@ -66,7 +58,7 @@ Esta opção é denominada no painel **Adicionar Colunas a Partir de Exemplos** 
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-À medida que escreve o exemplo na nova coluna, o Power BI oferece-lhe uma pré-visualização da forma como a coluna que está a criar irá aparecer, com base nas transformações detetadas. Por exemplo, se escrever *Alabama* na primeira linha, corresponde ao valor *Alabama* na primeira coluna da tabela. Assim que premir *Enter*, o Power BI preencherá a coluna com base nesse valor.
+À medida que escreve o exemplo na nova coluna, o Power BI oferece-lhe uma pré-visualização do aspeto da coluna que está a criar, com base nas transformações detetadas. Por exemplo, se escrever *Alabama* na primeira linha, corresponde ao valor *Alabama* na primeira coluna da tabela. Assim que premir *Enter*, o Power BI preencherá a coluna com base nesse valor.
 
 Mas suponhamos que acede à linha que inclui *Massachusetts[E]* e elimina a última parte, o *[E]* (uma vez que já não a quer). O Power BI deteta a alteração e utiliza o exemplo para criar uma transformação. Observe a explicação da transformação no painel central superior.
 

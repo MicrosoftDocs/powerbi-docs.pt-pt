@@ -1,31 +1,23 @@
 ---
 title: Ligue-se ao UserVoice com o Power BI
 description: UserVoice para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Ligue-se ao UserVoice com o Power BI
-É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtem os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
+É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtém os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
 
 Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/services/uservoice) para o Power BI.
 
@@ -42,7 +34,7 @@ Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/
 3. Selecione **UserVoice** e, em seguida, **Obter**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Quando solicitado, escreva o URL do UserVoice. O URL deve seguir o padrão indicado abaixo com exatamente https://fabrikam.uservoice.com substituindo “fabrikam” pelo nome do produto ou serviço.
+4. Quando solicitado, escreva o URL do UserVoice. O URL deve seguir exatamente o padrão indicado abaixo https://fabrikam.uservoice.com, ao substituir "fabrikam" pelo nome do produto ou serviço.
    
    >[!NOTE]
    >Não há nenhuma barra no final e a ligação está em http**s**.
@@ -70,7 +62,7 @@ Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/
 
 Se vir este erro depois de escrever o URL do UserVoice. Verifique se os requisitos seguintes foram satisfeitos:
 
-* O URL segue exatamente este padrão “https://fabrikam.uservoice.com” substituindo “fabrikam” pelo prefixo de URL correto do UserVoice.
+* O URL segue exatamente este padrão "https://fabrikam.uservoice.com", ao substituir "fabrikam" pelo seu prefixo do URL do UserVoice correto.
 * Verifique se todas as letras são minúsculas.
 * Verifique se o URL está em "http**s**".
 * Verifique se não há nenhuma barra invertida no final do URL.
@@ -81,7 +73,7 @@ Se receber um erro “Falha no inicio de sessão” depois de usar as suas crede
 
 "**Ups, ocorreu um problema**"
 
-Se receber esta mensagem de erro quando os dados estiverem a ser carregados, verifique se a sua conta do UserVoice não excedeu a cota mensal de utilização de APIs. Se tudo estiver correto, tente ligar novamente. Se o problema persistir, entre em contato com o suporte do Power BI em [https://community.powerbi.com](https://community.powerbi.com/).
+Se receber esta mensagem de erro quando os dados estiverem a ser carregados, verifique se a sua conta do UserVoice não excedeu a cota mensal de utilização de APIs. Se tudo estiver correto, tente ligar novamente. Se o problema persistir, contacte o suporte do Power BI em [https://community.powerbi.com](https://community.powerbi.com/).
 
 **Outros**  
 

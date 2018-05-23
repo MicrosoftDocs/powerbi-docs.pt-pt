@@ -1,31 +1,23 @@
 ---
 title: Ligar ao Microsoft Dynamics NAV com o Power BI
 description: Microsoft Dynamics NAV para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b06e756732c2c12e822967fbcfeb208bcb1ae334
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ffa82cbc45a735bfb857a1f69c7e79e925ed753
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Ligar ao Microsoft Dynamics NAV com o Power BI
-É fácil obter informações sobre os dados do Microsoft Dynamics NAV com o Power BI. O Power BI obtém os dados, tanto de Vendas como Financeiros e, em seguida, cria uma aplicação com um dashboard e relatórios baseados nesses dados. O Power BI requer permissões para as tabelas das quais os dados são obtidos, neste caso, dados de vendas e financeiros. Mais detalhes sobre os requisitos abaixo. Depois de instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 
+É fácil obter informações sobre os dados do Microsoft Dynamics NAV com o Power BI. O Power BI obtém os dados, tanto de Vendas como Financeiros e, em seguida, cria uma aplicação com um dashboard e relatórios baseados nesses dados. O Power BI requer permissões para as tabelas das quais os dados são obtidos, neste caso, dados de vendas e financeiros. Mais detalhes sobre os requisitos abaixo. Após instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 
 
 [Ligue-se ao Microsoft Dynamics NAV para o Power BI](https://app.powerbi.com/getdata/services/microsoft-dynamics-nav) ou leia mais sobre a [integração do Dynamics NAV](https://powerbi.microsoft.com/integrations/microsoft-dynamics-nav) com o Power BI.
 
@@ -49,7 +41,7 @@ ms.lasthandoff: 02/24/2018
     Precisa de credenciais de administrador (ou, pelo menos, permissões para dados de vendas e financeiros) da sua conta do Microsoft Dynamics NAV.  No momento, apenas a autenticação Básica (Nome de Utilizador e Palavra-passe) é suportada.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. O Power BI irá recuperar os seus dados do Microsoft Dynamics NAV e criar um dahboard e um relatório prontos a utilizar.   
+4. O Power BI irá recuperar os seus dados do Microsoft Dynamics NAV e criar um dashboard e um relatório prontos a utilizar.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Ver o dashboard e relatórios
@@ -101,7 +93,7 @@ Se vir uma caixa de diálogo de erro "Ups" depois de passar pela caixa de diálo
   
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
-    No entanto, tem de incluir a secção 'Company('CRONUS%20International%20Ltd.')' section ao nome da Empresa NAV:
+    No entanto, tem de incluir a secção "Company('CRONUS%20International%20Ltd.')" ao nome da Empresa NAV:
   
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 

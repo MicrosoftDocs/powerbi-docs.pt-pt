@@ -1,27 +1,19 @@
 ---
-title: "Como configurar a atualização agendada de relatórios do Power BI"
-description: "Para atualizar os dados no seu relatório do Power BI, é necessário criar um plano de atualização agendada."
-services: powerbi
-documentationcenter: 
+title: Como configurar a atualização agendada de relatórios do Power BI
+description: Para atualizar os dados no seu relatório do Power BI, é necessário criar um plano de atualização agendada.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 2f053c67a4546d8555657a3a3ffa61823e8031ec
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: d8283f1abf05ab788336413bd18582ea71d4e43f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Como configurar a atualização agendada de relatórios do Power BI
 Para atualizar os dados no seu relatório do Power BI, é necessário criar um plano de atualização agendada. Deve fazê-lo na área *Gerir* de um relatório do Power BI.

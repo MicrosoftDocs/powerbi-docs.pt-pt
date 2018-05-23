@@ -1,28 +1,20 @@
 ---
 title: Ligue-se a comScore Digital Analytix com o Power BI
 description: comScore Digital Analytix para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Ligue-se a comScore Digital Analytix com o Power BI
 Visualize e explore os seus dados do comScore Digital Analytix no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
@@ -71,7 +63,7 @@ Veja abaixo detalhes sobre como encontrar cada um dos parâmetros comScore.
 
 O datacenter ao qual se liga é determinado pelo URL para o qual navega no comScore.
 
-Se utilizar https://dax.comscore.com, introduza "E.U.A.", se utilizar https://dax.comscore.eu, introduza "EU".
+Se utilizar o https://dax.comscore.com, introduza "US". Se utilizar o https://dax.comscore.eu, introduza "EU".
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

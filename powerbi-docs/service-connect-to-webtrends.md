@@ -1,28 +1,20 @@
 ---
 title: Ligar ao Webtrends com o Power BI
 description: Webtrends para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Ligar ao Webtrends com o Power BI
 O pacote de conteúdos do Webtrends para o Power BI inclui uma variedade de métricas prontas a usar, como o total de visualizações e visitas de página por origem do tráfego. A visualização dos seus dados do Webtrends no Power BI começa com a ligação à sua conta do Webtrends. Pode usar o dashboard e os relatórios fornecidos, ou personalizá-los de modo a realçar as informações mais importantes para si.  Os dados serão atualizados automaticamente uma vez por dia.
@@ -75,7 +67,7 @@ O pacote de conteúdos do Webtrends efetua pull de dados dos seguintes relatóri
 | Visitantes |xPcmTDDP0P6 |
 | Duração da Visita |U5KAyqdP0P6 |
 | Frases de Pesquisa |IKYEDxIP0P6 |
-| Orugens de Tráfego |JmttAoIP0P6 |
+| Origens de Tráfego |JmttAoIP0P6 |
 | Motores de busca |yGz3gAGP0P6 |
 | Páginas de Entrada |i6LrkNVRUo6 |
 
@@ -102,7 +94,7 @@ As credenciais são as mesmas que introduz ao entrar no Webtrends, no entanto, c
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>Resolução de problemas
-Pode encontrar um problema durante o carregamento do pacote de conteúdos, depois de fornecer as credenciais. Se vir a mensagem “Oops” durante o carregamento, veja as sugestões de resolução de problemas abaixo. Se continuar a ter problemas, registe um pedido de suporte em https://support.powerbi.com
+Pode encontrar um problema durante o carregamento do pacote de conteúdos, depois de fornecer as credenciais. Se vir a mensagem “Oops” durante o carregamento, veja as sugestões de resolução de problemas abaixo. Se continuar a ter problemas, envie um pedido de suporte em https://support.powerbi.com
 
 1. O ID de Perfil correto está a ser usado; consulte [Parâmetros de localização](#FindingParams) para mais detalhes.
 2. O utilizador tem acesso aos relatórios listados na secção [“O que está incluído”](#Included)

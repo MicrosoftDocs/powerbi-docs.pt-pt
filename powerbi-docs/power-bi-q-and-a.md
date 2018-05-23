@@ -1,34 +1,31 @@
 ---
 title: Descrição geral das Perguntas e Respostas no serviço Power BI e no Desktop
 description: Tópico de descrição geral de documentação para perguntas e respostas sobre linguagem natural em consultas do Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Perguntas e Respostas no serviço Power BI e no Power BI Desktop
 ## <a name="what-is-qa"></a>O que são as Perguntas e Respostas?
 Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural. Por exemplo, "qual foi o total de vendas no ano passado".  Utilize as Perguntas e Respostas para explorar os seus dados com recursos intuitivos em linguagem natural e receba as respostas na forma de quadros e gráficos. As Perguntas e Respostas são diferentes de um motor de busca -- as Perguntas e Respostas fornecem apenas resultados relativos aos dados no Power BI.
 
 Este artigo é o ponto de partida para todos os aspetos das Perguntas e Respostas. Selecione uma ligação abaixo para saber como funcionam as Perguntas e Respostas no serviço Power BI (dashboards e relatórios), no Power BI Desktop (relatórios), no Power BI Embedded e no Power BI mobile.  
+
+> [!NOTE]
+> As **Perguntas e Respostas do Power BI** só suportam responder a consultas de linguagem natural feitas em inglês. Também pode experimentar uma funcionalidade de pré-visualização para perguntas feitas em espanhol. No **Power BI Desktop**, aceda a **Ficheiro**, **Opções e definições**, **Opções** e procure o separador **Funcionalidades de Pré-visualização**. Selecione a caixa **Suporte do idioma espanhol para as Perguntas e Respostas**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

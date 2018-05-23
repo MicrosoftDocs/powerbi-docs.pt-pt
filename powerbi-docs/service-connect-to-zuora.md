@@ -1,28 +1,20 @@
 ---
 title: Ligue-se ao Zuora com o Power BI
 description: Zuora para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2f7e4c666cf6ec3cb69424a3922f5feedd61bf89
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Ligue-se ao Zuora com o Power BI
 O Zuora para o Power BI permite que visualize dados importantes de receitas, faturação e subscrição. Utilize o dashboard e os relatórios predefinidos para analisar tendências de utilização, acompanhar cobranças e pagamentos e monitorizar receitas recorrentes ou personalizá-las para atender às suas necessidades exclusivas do dashboard e do relatório.
@@ -39,7 +31,7 @@ Ligue-se ao [Zuora](https://app.powerbi.com/getdata/services/Zuora) para o Power
 3. Selecione **Zuora** \>  **Obter**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Especifique o URL do Zuora. Normalmente é “https://www.zuora.com”; veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
+4. Especifique o URL do Zuora. Geralmente, o URL é "https://www.zuora.com". Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
 
    ![](media/service-connect-to-zuora/params.png)
 5. Para o **Método de Autenticação**, selecione **Básico** e forneça o seu nome de utilizador e a sua palavra-passe (diferencia maiúsculas de minúsculas) e selecione **Iniciar Sessão**.

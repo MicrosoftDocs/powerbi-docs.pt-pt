@@ -1,28 +1,20 @@
 ---
 title: Ligar aos serviços que utiliza com o Power BI
 description: Ligue-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics CRM e Google Analytics.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c1df66100206198f3de32bea9859261d51d3774d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
 Pode ligar-se a diversos serviços que utiliza para gerir o seu negócio, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço e, em seguida, cria uma aplicação do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa. 
@@ -31,7 +23,7 @@ Inicie sessão no Power BI para ver todos os [serviços aos quais se pode ligar]
 
 ![Aplicações do AppSource](media/service-connect-to-services/overview.png)
 
-Depois de instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 
+Após instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 
 
 ![Aplicação Google Analytics na aplicação móvel do Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 

@@ -1,28 +1,20 @@
 ---
 title: Ligar-se ao Xero com o Power BI
 description: Xero para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9f61067f89fb031926428109ef5dac5bcfd6392
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Ligar-se ao Xero com o Power BI
 O Xero é um software de contabilidade online fácil de utilizar e especificamente concebido para as pequenas empresas. Crie visualizações apelativas com base nos seus dados financeiros do Xero através deste pacote de conteúdos do Power BI. O seu dashboard predefinido inclui muitas métricas para pequenas empresas, como fundo de maneio, receita versus despesa, tendência de perda de lucro, dias de vencimento e retorno sobre o investimento.
@@ -102,9 +94,9 @@ Indique um nome da sua organização para a controlar no Power BI. Isto permite-
 * Se o seu pacote de conteúdos não for atualizado, verifique se se ligou mais do que uma vez à mesma organização no Power BI. O Xero só permite uma única ligação ativa a uma organização, e o utilizador poderá ver um erro a indicar que as suas credenciais são inválidas se se ligar mais do que uma vez à mesma organização.  
 * Se tiver problemas na ligação ao pacote de conteúdos Xero para Power BI, como mensagens de erros ou temos de carregamento bastante lentos, comece por limpar a cache e os cookies ou reiniciar o browser e, em seguida, ligar-se novamente ao Power BI.  
 
-Para outros problemas, envie um ticket para http://support.powerbi.com, caso o problema persista.
+Para outros problemas, envie um pedido em http://support.powerbi.com, se o problema persistir.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

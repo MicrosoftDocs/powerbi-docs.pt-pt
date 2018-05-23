@@ -1,27 +1,19 @@
 ---
-title: "Ver no modo de apresentação no Surface Hub, Windows 10 - Power BI I"
-description: "Saiba mais sobre mostrar relatórios do Power BI no Surface Hub e mostrar dashboards, relatórios e mosaicos do Power BI em ecrã inteiro, em dispositivos Windows 10."
-services: powerbi
-documentationcenter: 
+title: Ver no modo de apresentação no Surface Hub, Windows 10 - Power BI I
+description: Saiba mais sobre mostrar relatórios do Power BI no Surface Hub e mostrar dashboards, relatórios e mosaicos do Power BI em ecrã inteiro, em dispositivos Windows 10.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: cd4fa5d694b76a93ccb017ec17473e8f2775ed85
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Ver relatórios no modo de apresentação no Surface Hub e Windows 10 - Power BI
 Pode apresentar relatórios no modo de apresentação do Surface Hub e apresentar dashboards, relatórios e mosaicos no modo de ecrã inteiro em dispositivos Windows 10. 
@@ -82,5 +74,5 @@ O modo de apresentação está ativado por predefinição no Surface Hub mas, se
 
 ## <a name="next-steps"></a>Próximos passos
 * [Ver dashboards e relatórios em modo de ecrã inteiro a partir do serviço Power BI](service-fullscreen-mode.md)
-* Perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

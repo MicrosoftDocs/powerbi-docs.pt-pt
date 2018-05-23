@@ -1,28 +1,20 @@
 ---
 title: Ligar ao Acumatica com o Power BI
 description: Acumatica para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: af1a34d280aaa1a795a7a2490c97874e0c4d1838
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Ligar ao Acumatica com o Power BI
 O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI recupera os seus dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
@@ -73,7 +65,7 @@ O ponto final OData do Acumatica é formatado da seguinte forma e deve utilizar 
 
     https://[sitedomain]/odata/[companyname]
 
-O Domínio do Site do Aplicativo pode ser encontrado na barra de endereços do browser depois de entrar no Acumatica. No exemplo abaixo, o domínio do site é “https://pbi.acumatica.com”, portanto, o ponto final OData a ser fornecido seria “https://pbi.acumatica.com/odata”.
+O Domínio do Site do Aplicativo pode ser encontrado na barra de endereços do browser depois de entrar no Acumatica. No exemplo abaixo, o domínio do site é "https://pbi.acumatica.com", pelo que o ponto final OData a fornecer seria "https://pbi.acumatica.com/odata".
 
  ![](media/service-connect-to-acumatica/url.png)
 

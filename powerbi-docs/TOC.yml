@@ -10,12 +10,14 @@
           href: service-the-new-power-bi-experience.md
     - name: Tutoriais
       items:
-        - name: Ligar ao serviço online GitHub
+        - name: Connect to a GitHub sample (Ligar a um exemplo do GitHub)
           href: service-tutorial-connect-to-github.md
     - name: Conceitos
       items:
         - name: What's new in the Power BI service (Novidades no serviço Power BI)
           href: service-whats-new.md
+        - name: Inscrição de gestão personalizada
+          href: service-self-service-signup-for-power-bi.md
         - name: Noções básicas do Power BI
           items:
             - name: Power BI - conceitos básicos
@@ -56,16 +58,12 @@
           items:
             - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
               href: service-insights.md
-            - name: Create a dashboard from a report (Criar um dashboard a partir de um relatório)
-              href: service-dashboard-create.md
             - name: Obter dados de ficheiros
               href: service-get-data-from-files.md
             - name: Open a Power BI report in Reading view or Editing view (Abrir um relatório do Power BI na Vista de leitura ou na Vista de edição)
               href: service-reading-view-and-editing-view.md
-            - name: O editor de relatórios... Faça uma visita
+            - name: O editor de relatórios... Veja uma apresentação
               href: service-the-report-editor-take-a-tour.md
-            - name: Samples for Power BI (Exemplos para o Power BI)
-              href: sample-datasets.md
             - name: Visualizações no Power BI
               href: power-bi-report-visualizations.md
             - name: Origens de dados do Power BI
@@ -124,7 +122,9 @@
                   href: service-connect-to-services.md
                 - name: Acumatica
                   href: service-connect-to-acumatica.md
-                - name: Alpine Metrics Sales Predictions (Previsões de Vendas do Alpine Metrics)
+                - name: Adobe Analytics
+                  href: service-connect-to-adobe-analytics.md
+                - name: Alpine Metrics Sales Predictions
                   href: service-connect-to-alpine-metrics.md
                 - name: appFigures
                   href: service-connect-to-appfigures.md
@@ -248,8 +248,6 @@
                   href: service-publish-to-powerpoint.md
         - name: Trabalhar no Power BI
           items:
-            - name: Utilizar os pacotes de conteúdos de exemplo do Power BI
-              href: sample-tutorial-connect-to-the-samples.md
             - name: De um livro do Excel a um relatório incrível num instante
               href: service-from-excel-to-stunning-report.md
             - name: Utilizar as Perguntas e Respostas para criar visualizações e relatórios
@@ -268,6 +266,8 @@
               href: refresh-scheduled-refresh.md
             - name: Dashboards
               items:
+                - name: Create a dashboard from a report (Criar um dashboard a partir de um relatório)
+                  href: service-dashboard-create.md
                 - name: Create a copy of a dashboard (Criar uma cópia de um dashboard)
                   href: service-dashboard-copy.md
                 - name: Afixar um mosaico a um dashboard do Power BI a partir de um relatório
@@ -314,19 +314,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Partilhar o seu trabalho
               items:
-                - name: 'Organizational content packs: Introduction (Pacotes de conteúdos organizacionais: introdução)'
-                  href: service-organizational-content-pack-introduction.md
-                - name: Criar e publicar um pacote de conteúdos organizacionais
-                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Partilhar um relatório filtrado
                   href: service-share-reports.md
                 - name: Publish from Power BI to the web (Publicar do Power BI para a Web)
                   href: service-publish-to-web.md
                 - name: Embed report in SharePoint Online (Incorporar um relatório no SharePoint Online)
                   href: service-embed-report-spo.md
-                - name: Connect to files on your group's OneDrive for Business (Ligar aos ficheiros no OneDrive para Empresas do seu grupo)
+                - name: Ligar aos ficheiros no OneDrive do seu grupo
                   href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-                - name: Collaborate in your Power BI group workspace (Colaborar na sua área de trabalho de grupo do Power BI)
+                - name: Colaborar na sua área de trabalho de grupo
                   href: service-collaborate-power-bi-workspace.md
                 - name: Manage your group in Power BI and Office 365 (Gerir o seu grupo no Power BI e no Office 365)
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
@@ -334,6 +330,10 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso'
                   href: service-organizational-content-pack-copy-refresh-access.md
+                - name: 'Organizational content packs: Introduction (Pacotes de conteúdos organizacionais: introdução)'
+                  href: service-organizational-content-pack-introduction.md
+                - name: Criar e publicar um pacote de conteúdos organizacionais
+                  href: service-organizational-content-pack-create-and-publish.md
                 - name: Remove your connection to an organizational content pack (Remover a sua ligação a um pacote de conteúdos organizacionais)
                   href: service-organizational-content-pack-disconnect.md
                 - name: Share a dashboard that links to an Excel workbook on OneDrive for Business (Partilhar um dashboard que liga a um livro do Excel no OneDrive para Empresas)
@@ -446,9 +446,13 @@
                   href: service-refresh-xero-credentials.md
     - name: Recursos
       items:
-        - name: Browsers com suporte para o Power BI
+        - name: Vídeos
+          href: videos.md
+        - name: Webinars
+          href: webinars.md
+        - name: Browsers suportados
           href: service-browser-support.md
-        - name: Idiomas com suporte e países/regiões para o Power BI
+        - name: Idiomas e países/regiões suportados
           href: supported-languages-countries-regions.md
         - name: Whitepapers (Documentos técnicos)
           href: whitepapers.md
@@ -480,24 +484,28 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
     - name: Exemplos
       items:
-        - name: Fazer download da pasta de livro Exemplo Financeiro para o Power BI
-          href: sample-financial-download.md
-        - name: 'Supplier Quality Analysis sample for Power BI: Take a tour (Exemplo de Análise de Qualidade do Fornecedor para o Power BI: veja uma apresentação)'
-          href: sample-supplier-quality.md
-        - name: 'Exemplo de Análise de Gastos de TI para o Power BI: veja uma apresentação'
-          href: sample-it-spend.md
-        - name: 'Exemplo de Vendas e Marketing para o Power BI: fazer um tour'
-          href: sample-sales-and-marketing.md
-        - name: 'Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour'
+        - name: Samples for Power BI (Exemplos para o Power BI)
+          href: sample-datasets.md
+        - name: Utilizar os pacotes de conteúdos de exemplo
+          href: sample-tutorial-connect-to-the-samples.md
+        - name: 'Exemplo Customer Profitability (Rentabilidade de Clientes): veja uma apresentação'
           href: sample-customer-profitability.md
-        - name: 'Human Resources sample: Take a tour (Exemplo de Recursos Humanos: veja uma apresentação)'
+        - name: 'Exemplo IT Spend Analysis (Análise de Gastos de TI): veja uma apresentação'
+          href: sample-it-spend.md
+        - name: 'Exemplo de Recursos Humanos: veja uma apresentação'
           href: sample-human-resources.md
-        - name: 'Opportunity Analysis sample for Power BI: Take a tour (Exemplo de Análise de Oportunidade para o Power BI: veja uma apresentação)'
+        - name: 'Exemplo Opportunity Analysis (Análise de Oportunidades): veja uma apresentação'
           href: sample-opportunity-analysis.md
-        - name: 'Procurement Analysis sample: Take a tour (Exemplo de Análise de Aprovisionamento: veja uma apresentação)'
+        - name: 'Exemplo de Análise de Compras: veja uma apresentação'
           href: sample-procurement.md
-        - name: 'Exemplo de Análise de Revenda para o Power BI: veja uma apresentação'
+        - name: 'Exemplo Retail Analysis (Análise de Revenda): veja uma apresentação'
           href: sample-retail-analysis.md
+        - name: 'Exemplo Sales and Marketing (Vendas e Marketing): veja uma apresentação'
+          href: sample-sales-and-marketing.md
+        - name: 'Exemplo Supplier Quality Analysis (Análise de Qualidade de Fornecedor): veja uma apresentação'
+          href: sample-supplier-quality.md
+        - name: Transferir o livro Financial Sample (Exemplo Financeiro)
+          href: sample-financial-download.md
     - name: Conceitos
       items:
         - name: Novidades na atualização mais recente do Power BI Desktop
@@ -806,6 +814,8 @@
           items:
             - name: Ver relatórios no local nas aplicações móveis
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Aplicação Power BI for Mixed Reality (Pré-visualização)
+              href: mobile-mixed-reality-app.md
             - name: Partilhar um dashboard das aplicações móveis do Power BI
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
@@ -837,7 +847,7 @@
             - name: Get started with the Power BI for Android app (Introdução à aplicação Power BI para Android)
               href: mobile-android-app-get-started.md
             - name: Fixing 'your corporate SSL certificate is untrusted' (Corrigir o erro "o certificado SSL empresarial não é fidedigno")
-              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+              href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
             - name: Introdução à aplicação Power BI para iOS
@@ -1004,8 +1014,6 @@
           href: report-server/changelog.md
         - name: Support timeline (Linha cronológica de suporte)
           href: report-server/support-timeline.md
-        - name: Supported data sources (Origens de dados suportadas)
-          href: report-server/data-sources.md
         - name: Hardware and software requirements (Requisitos de software e hardware)
           href: report-server/system-requirements.md
         - name: Browser support (Suporte do browser)
@@ -1016,9 +1024,9 @@
           items:
             - name: Power BI report scheduled refresh (Atualização agendada de relatório do Power BI)
               href: report-server/scheduled-refresh.md
-            - name: Origens de dados de relatórios do Power BI (.pbix)
+            - name: Origens de dados de relatórios do Power BI
               href: report-server/data-sources.md
-            - name: Origens de dados de relatórios paginados (.rdl)
+            - name: Origens de dados de relatórios paginados
               href: report-server/connect-data-sources.md
             - name: Subscrições
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
@@ -1048,10 +1056,6 @@
               href: report-server/getting-around.md
             - name: Criar um relatório paginado para um servidor de relatórios
               href: report-server/quickstart-create-paginated-report.md
-            - name: Advanced Power BI reports (Relatórios do Power BI avançados)
-              href: 'https://go.microsoft.com/fwlink/?linkid=848708'
-            - name: Advanced paginated reports (Relatórios paginados avançados)
-              href: 'https://go.microsoft.com/fwlink/?linkid=848709'
             - name: Trabalhar com KPIs
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: 'Aceder a conjuntos de dados partilhados como feeds do OData '

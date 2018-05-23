@@ -6,15 +6,15 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
-ms.topic: conceptual
-ms.date: 10/28/2017
+ms.topic: sample
+ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
-ms.openlocfilehash: b122bbfc43ccfbe7a03b4c63f0f83ce49a27754e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Fazer download da pasta de livro Exemplo Financeiro para o Power BI
 Precisa de alguns dados para experimentar com o serviço do Power BI? Temos uma pasta de livro simples do Excel de dados financeiros de exemplo disponíveis para download.  Aqui está como transferi-la:

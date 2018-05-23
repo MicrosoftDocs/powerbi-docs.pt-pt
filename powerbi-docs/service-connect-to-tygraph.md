@@ -1,28 +1,20 @@
 ---
 title: Ligue-se ao tyGraph com o Power BI
 description: tyGraph para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff0a65d32a95a6926e2c808af119e31effd7e05
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Ligue-se ao tyGraph com o Power BI
 Visualize e explore os seus dados do tyGraph no Power BI com o pacote de conteúdos do Power BI. Comece por ligar-se à sua conta do tyGraph e por carregar o dashboard, os relatórios e o conjunto de dados. O conteúdo pronto para utilização inclui informações, como a pontuação MAE (Medida de Envolvimento Ativo) e Principais Colaboradores. Personalize ainda mais de modo a realçar as informações mais importantes para si.  Os dados serão atualizados automaticamente de acordo com um agendamento definido por si.
@@ -45,7 +37,7 @@ Ligue-se ao [tyGraph para o Power BI](https://app.powerbi.com/getdata/services/t
 5. Forneça a chave do tyGraph para se ligar. Veja detalhes sobre como encontrar este valor abaixo.
    
     **Se é um Administrador Verificado do Yammer**  
-    A chave de API será enviada num e-mail quando a conta do tyGraph for criada com êxito. Se não encontra a sua chave, solicite uma nova enviando um e-mail para support@unlimitedviz.com. Se ainda não tiver uma conta do tyGraph, inicie uma versão de avaliação em [http://www.tygraph.com/](http://www.tygraph.com/). 
+    A chave de API será enviada num e-mail quando a conta do tyGraph for criada com êxito. Se não encontra a sua chave, solicite uma nova enviando um e-mail para support@unlimitedviz.com. Se ainda não tiver uma conta do tyGraph, pode iniciar uma versão de avaliação em [http://www.tygraph.com/](http://www.tygraph.com/). 
    
     **Se não é um Administrador Verificado do Yammer**
    

@@ -1,30 +1,23 @@
 ---
-title: 'Tutorial: Ligar à aplicação GitHub com o Power BI'
+title: 'Tutorial: Ligar a um exemplo do GitHub com o Power BI'
 description: Neste tutorial, irá ligar aos dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios.
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>Tutorial: Ligar à aplicação GitHub com o Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Ligar a um exemplo do GitHub com o Power BI
 Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Irá ligar ao repositório de conteúdos públicos do Power BI (também conhecido apenas como *repositório*) e ver informações: quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Assim como respostas a outras perguntas. 
 
 ![O relatório do GitHub no Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
@@ -67,7 +60,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
 6. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**.
 
-7. Siga os ecrãs de autenticação do GitHub. Conceda permissão ao Power BI para aceder aos dados do GitHub.
+7. Siga os ecrãs de autenticação do Github. Conceda permissão ao Power BI para aceder aos dados do GitHub.
    
    Agora, o Power BI pode ligar ao GitHub e aos dados.  Os dados são atualizados uma vez por dia.
 
@@ -126,7 +119,7 @@ Agora que concluiu o tutorial, pode eliminar a aplicação GitHub.
 
     ![Eliminar a aplicação GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Neste tutorial, ligou a um repositório público do GitHub e obteve dados, que o Power BI formatou num dashboard e num relatório. Respondeu a algumas questões sobre os dados ao explorar o dashboard e o relatório. Agora pode saber mais sobre como ligar a outros serviços, como o Salesforce, o Microsoft Dynamics e o Google Analytics. 
  

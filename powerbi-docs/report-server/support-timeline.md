@@ -1,27 +1,19 @@
 ---
 title: Linha cronológica de suporte para o Power BI Report Server
 description: Lista das versões e da disponibilidade do Power BI Report Server.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha cronológica de suporte para o Power BI Report Server
 O Power BI Report Server será lançado algumas vezes por ano. Estarão disponíveis atualizações de segurança e críticas até que a versão seguinte fique em disponibilidade geral (GA). Após a versão seguinte, a versão anterior irá continuar a receber atualizações de segurança durante o restante período de tempo de 12 meses.
