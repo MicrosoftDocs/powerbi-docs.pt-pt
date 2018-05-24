@@ -62,7 +62,7 @@
               href: service-get-data-from-files.md
             - name: Open a Power BI report in Reading view or Editing view (Abrir um relatório do Power BI na Vista de leitura ou na Vista de edição)
               href: service-reading-view-and-editing-view.md
-            - name: O editor de relatórios... Veja uma apresentação
+            - name: O editor de relatórios... Faça uma visita
               href: service-the-report-editor-take-a-tour.md
             - name: Visualizações no Power BI
               href: power-bi-report-visualizations.md
@@ -492,11 +492,11 @@
           href: sample-customer-profitability.md
         - name: 'Exemplo IT Spend Analysis (Análise de Gastos de TI): veja uma apresentação'
           href: sample-it-spend.md
-        - name: 'Exemplo de Recursos Humanos: veja uma apresentação'
+        - name: 'Exemplo de Recursos Humanos: faça um tour'
           href: sample-human-resources.md
         - name: 'Exemplo Opportunity Analysis (Análise de Oportunidades): veja uma apresentação'
           href: sample-opportunity-analysis.md
-        - name: 'Exemplo de Análise de Compras: veja uma apresentação'
+        - name: 'Exemplo de Análise de Compras: faça um tour'
           href: sample-procurement.md
         - name: 'Exemplo Retail Analysis (Análise de Revenda): veja uma apresentação'
           href: sample-retail-analysis.md
@@ -846,7 +846,9 @@
           items:
             - name: Get started with the Power BI for Android app (Introdução à aplicação Power BI para Android)
               href: mobile-android-app-get-started.md
-            - name: Fixing 'your corporate SSL certificate is untrusted' (Corrigir o erro "o certificado SSL empresarial não é fidedigno")
+            - name: Corrigir o erro "O certificado SSL empresarial não é fidedigno"
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Fixing 'Need to update Android System Webview' (Corrigir o erro "Tem de atualizar o Android System WebView")
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
