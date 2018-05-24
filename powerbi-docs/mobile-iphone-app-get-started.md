@@ -1,27 +1,19 @@
 ---
-title: "Introdução à aplicação móvel Power BI num iPhone"
-description: "Saiba como a aplicação Microsoft Power BI para iOS no iPhone leva o Power BI ao seu bolso, com acesso móvel a informações empresariais no local e na cloud."
-services: powerbi
-documentationcenter: 
+title: Introdução à aplicação móvel Power BI num iPhone
+description: Saiba como a aplicação Microsoft Power BI para iOS no iPhone leva o Power BI ao seu bolso, com acesso móvel a informações empresariais no local e na cloud.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 9a2f381ea97fb62d85841cbfcace8352007dd60b
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9a3177dc0fe80ebc6c1041ce64b1186cb5865e37
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-iphone-or-ipod-touch"></a>Introdução à aplicação móvel Power BI num iPhone ou iPod Touch
 A aplicação Microsoft Power BI para iOS no iPhone ou iPod Touch dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. E mantenha-se a par com os dados sempre atualizados no seu [Apple Watch](mobile-apple-watch.md).  
@@ -46,7 +38,7 @@ Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Inscreva-se no serviço do Power BI
-Aceda ao Power BI (https://powerbi.com) para o serviço, se ainda não o tiver feito. É gratuito.
+Aceda ao Power BI (https://powerbi.com) para obter o serviço, se ainda não o tiver feito. É gratuito.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introdução à aplicação do Power BI
 1. No iPhone, abra a aplicação do Power BI.
@@ -117,7 +109,7 @@ O Microsoft Intune permite às organizações controlar elementos como exigir um
 
 Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](service-admin-mobile-intune.md). 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Eis outras coisas que pode fazer na aplicação para iPhone com dashboards e relatórios no Power BI, e relatórios e KPIs no portal Web do Power BI Report Server ou Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI

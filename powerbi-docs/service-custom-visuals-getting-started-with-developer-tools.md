@@ -1,27 +1,19 @@
 ---
 title: Utilizar ferramentas de programador para criar visuais personalizados
-description: "Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador."
-services: powerbi
-documentationcenter: 
+description: Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Utilizar ferramentas de programador para criar visuais personalizados
 Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
@@ -87,7 +79,7 @@ Para criar um visual personalizado, tem de instalar o NodeJS. O NodeJS é necess
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Configurar o certificado do servidor
 Para ativar uma pré-visualização do seu visual em direto, é necessário um servidor https fidedigno. Antes de começar, terá de instalar um certificado SSL que lhe permita carregar recursos visuais no seu browser. 
@@ -97,9 +89,24 @@ Para ativar uma pré-visualização do seu visual em direto, é necessário um s
 > 
 > 
 
-Para *adicionar* um certificado, execute o seguinte comando.
+Para *criar* um certificado, execute o comando seguinte.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Deverá ver uma mensagem a informá-lo do caminho de localização para o certificado e uma Frase de acesso recentemente criada.
+> 
+> 
+
+
+Para *instalar* o certificado, execute o comando seguinte.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Deverá ver uma mensagem a pedir que utilize a Frase de acesso recentemente criada para instalar um certificado PFX.
+> 
+> 
 
 **SO Windows**
 

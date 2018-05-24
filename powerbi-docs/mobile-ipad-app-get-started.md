@@ -1,27 +1,19 @@
 ---
-title: "Introdução à aplicação móvel do Power BI num iPad"
-description: "Saiba como a aplicação do Microsoft Power BI para iOS no iPad coloca o Power BI no seu bolso, com acesso móvel a informações empresariais no local e na cloud."
-services: powerbi
-documentationcenter: 
+title: Introdução à aplicação móvel do Power BI num iPad
+description: Saiba como a aplicação do Microsoft Power BI para iOS no iPad coloca o Power BI no seu bolso, com acesso móvel a informações empresariais no local e na cloud.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introdução à aplicação móvel do Power BI num iPad
 A aplicação do Microsoft Power BI para iOS no iPad proporciona a experiência de BI móvel para o Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -46,7 +38,7 @@ Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Inscreva-se no serviço do Power BI
-Aceda ao Power BI (https://powerbi.com) para se inscrever no serviço, se ainda não o tiver feito. É gratuito.
+Aceda ao Power BI (https://powerbi.com) para se inscrever no serviço, se ainda não o tiver feito. É gratuito.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introdução à aplicação do Power BI
 1. No iPad, abra a aplicação do Power BI.
@@ -117,7 +109,7 @@ O Microsoft Intune permite às organizações controlar elementos como exigir um
 
 Saiba mais sobre como [configurar as aplicações móveis do Power BI com o Microsoft Intune](service-admin-mobile-intune.md). 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Eis outras coisas que pode fazer na aplicação para iPad com dashboards e relatórios no Power BI, e relatórios e KPIs no portal Web do Power BI Report Server ou Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI

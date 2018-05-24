@@ -1,34 +1,26 @@
 ---
-title: "Explorar os seus dados na aplicação móvel do Power BI para dispositivos iOS"
-description: "Veja e interaja com os seus relatórios e dashboards do Power BI e relatórios móveis e KPIs do Reporting Services no iPad, iPhone, Apple Watch e iPod Touch."
-services: powerbi
-documentationcenter: 
+title: Explorar os seus dados na aplicação móvel do Power BI para dispositivos iOS
+description: Veja e interaja com os seus relatórios e dashboards do Power BI e relatórios móveis e KPIs do Reporting Services no iPad, iPhone, Apple Watch e iPod Touch.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>Explorar os seus dados na aplicação móvel do Power BI para dispositivos iOS
 A aplicação do Microsoft Power BI para iOS proporciona a experiência móvel do Power BI para iPad, iPhone, Apple Watch e iPod Touch. As aplicações disponibilizam acesso móvel dinâmico e tátil às suas informações empresariais importantes, pelo que pode ver e interagir com os dashboards e relatórios do Power BI da sua organização, bem como relatórios móveis do Reporting Services, em qualquer local. Explore os dados nos dashboards e partilhe-os com os seus colegas em mensagens de e-mail ou texto.
 
 ![iPhone e iPad](media/mobile-ios-ipad-iphone-apps/pbi_ipad_iphonedevices.png)
 
-Aceda ao Power BI (https://powerbi.com) para se inscrever no serviço Power BI.
+Aceda ao Power BI (https://powerbi.com) para se inscrever no serviço Power BI.
 
 Veja [Novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 

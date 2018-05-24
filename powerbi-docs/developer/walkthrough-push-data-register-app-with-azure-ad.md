@@ -1,27 +1,19 @@
 ---
-title: "Registar uma aplicação no Azure AD"
-description: "Passo a passo - Enviar dados por push para um conjunto de dados - Registar uma aplicação com o Azure AD"
-services: powerbi
-documentationcenter: 
+title: Registar uma aplicação no Azure AD
+description: Passo a passo - Enviar dados por push para um conjunto de dados - Registar uma aplicação com o Azure AD
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Passo 1: Registar uma aplicação no Azure AD
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -39,7 +31,7 @@ Estes são os passos para registar uma aplicação no Azure AD.
 2. Clique em **Iniciar sessão na sua conta existente** e inicie na sua conta do Power BI.
 3. Insira um **Nome de Aplicação** como "Aplicação de exemplo de envio de dados por push".
 4. Em **Tipo de Aplicação**, escolha **Aplicação nativa**.
-5. Insira um **URL de redirecionamento**, como **https://login.live.com/oauth20_desktop.srf**. Para uma **aplicação de cliente nativo**, um uri de redirecionamento dá ao **Azure AD** mais detalhes sobre a aplicação específica que vai autenticar. O Uri standard para uma aplicação do cliente é https://login.live.com/oauth20_desktop.srf.
+5. Introduza um **URL de Redirecionamento**, tal como **https://login.live.com/oauth20_desktop.srf**. Para uma **aplicação de cliente nativo**, um uri de redirecionamento dá ao **Azure AD** mais detalhes sobre a aplicação específica que vai autenticar. O Uri padrão para uma aplicação de cliente é https://login.live.com/oauth20_desktop.srf.
 6. Para **Escolher as APIs a aceder**, escolha **Ler e Escrever Todos os Conjuntos de Dados**. Para ver todas as permissões de aplicação do Power BI, consulte [Permissões do Power BI](power-bi-permissions.md).
 7. Clique em **Registar aplicação** e guarde o **ID do Cliente** que foi gerado. Um **ID do Cliente** identifica a aplicação no Azure AD.
 

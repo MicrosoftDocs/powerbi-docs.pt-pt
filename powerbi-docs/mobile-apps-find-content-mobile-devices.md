@@ -1,27 +1,19 @@
 ---
-title: "Localizar dashboards, relatórios e aplicações nas aplicações móveis do Power BI"
-description: "Leia sobre onde pode localizar os seus dashboards, relatórios e aplicações nas aplicações móveis do Power BI, consoante a sua proveniência."
-services: powerbi
-documentationcenter: 
+title: Localizar dashboards, relatórios e aplicações nas aplicações móveis do Power BI
+description: Leia sobre onde pode localizar os seus dashboards, relatórios e aplicações nas aplicações móveis do Power BI, consoante a sua proveniência.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Localizar os seus dashboards, relatórios e aplicações nas aplicações móveis do Power BI
 Aplica-se a:
@@ -51,7 +43,7 @@ Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps
 Poderá ter ligações a um ou mais servidores do Power BI Report Server ou do SQL Server Reporting Services no local. Se for o caso, os KPIs, os relatórios do Power BI e os relatórios paginados no servidor são apresentados aqui. Se tiver adicionado qualquer um deles como favorito no servidor, também são apresentados na lista de Favoritos. Leia mais sobre [visualização de KPIs e relatórios no local nas aplicações móveis do Power BI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="3-apps"></a>3 Aplicações
-Uma aplicação é uma coleção de dashboards e relatórios criados pela sua organização para fornecer as principais métricas para tomar decisões condicionadas por dados mais rápida e facilmente. É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Depois de instalá-las, pode visualizá-las a partir de qualquer dispositivo. 
+Uma aplicação é uma coleção de dashboards e relatórios criados pela sua organização para fornecer as principais métricas para tomar decisões condicionadas por dados mais rápida e facilmente. É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Depois de instalá-las, pode visualizá-las a partir de qualquer dispositivo. 
 
 ![Nova navegação do Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
@@ -74,7 +66,7 @@ Aqui, poderá encontrar dashboards e relatórios que colegas partilharam consigo
 ![Partilhado comigo do Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Áreas de trabalho
-Também denominadas *Áreas de trabalho de aplicação*, são ambientes de teste no serviço Power BI ([https://powerbi.com](https://powerbi.com)) onde pode colaborar com colegas para criar uma coleção de dashboards e relatórios. Em seguida, pode distribuir a coleção como uma *aplicação*. 
+Também denominadas *Áreas de trabalho de aplicação*, são ambientes de teste no serviço Power BI ([https://powerbi.com](https://powerbi.com)) onde pode colaborar com colegas para criar uma coleção de dashboards e relatórios. Em seguida, pode distribuir a coleção como uma *aplicação*. 
 
 Nas aplicações móveis, pode ver e interagir com conteúdo em qualquer área de trabalho onde seja membro ou administrador. Não pode publicar aplicações de áreas de trabalho nas aplicações móveis.
 
