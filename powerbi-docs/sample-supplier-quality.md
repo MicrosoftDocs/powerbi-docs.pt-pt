@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 05/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: eb21eede666653e53af4ab012a712091b49be7d2
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade do Fornecedor para o Power BI: ver uma apresentação
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Uma breve descrição geral de exemplo da Análise de Qualidade do Fornecedor
 Este dashboard de exemplo do setor e o respetivo relatório subjacente focam-se num dos desafios típicos da cadeia de fornecimento – a análise de qualidade do fornecedor.

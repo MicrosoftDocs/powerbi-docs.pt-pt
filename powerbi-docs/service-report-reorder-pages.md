@@ -1,5 +1,5 @@
 ---
-title: Reorganize as páginas num relatório no Power BI
+title: Reordenar páginas num relatório no Power BI
 description: Reorganizar páginas em relatórios no serviço Power BI e no Power BI Desktop
 author: mihart
 manager: kfile
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
 ---
-# <a name="reorder-pages-in-a-report-in-power-bi"></a>Reorganize as páginas num relatório no Power BI
+# <a name="reorder-pages-in-a-report-in-power-bi"></a>Reordenar páginas num relatório no Power BI
 No Power BI, um relatório é constituído por uma ou mais páginas.  Cada página têm um separador ao longo da parte inferior.  Para reordenar um relatório, basta selecionar e arrastar o separador para a nova localização.
 
 ![vídeo](media/service-report-reorder-pages/reorder.gif)

@@ -31,7 +31,7 @@ Ligue-se ao [pacote de conteúdos do Microsoft Azure Enterprise](https://app.pow
 3. Selecione **Microsoft Azure Enterprise** \> **Obter**.
    
    ![](media/service-connect-to-azure-enterprise/mazureenterprise.png)
-4. Forneça o URL do Ambiente do Azure, o número de meses de dados que deseja importar e o seu número de inscrição do Azure Enterprise. O URL do Ambiente do Azure vai ser `https://ea.azure.com` ou `https://ea.windowsazure.cn`. Veja detalhes sobre como [ encontrar esses parâmetros](#FindingParams) abaixo.
+4. Forneça o URL do Ambiente do Azure, o número de meses de dados que deseja importar e o seu número de inscrição do Azure Enterprise. O URL do Ambiente do Azure vai ser `https://ea.azure.com` ou `https://ea.windowsazure.cn`. Veja detalhes sobre [como encontrar os parâmetros](#FindingParams) abaixo.
    
     ![](media/service-connect-to-azure-enterprise/params.png)
 5. Forneça a sua Chave de Acesso para se ligar. A chave para a sua inscrição pode ser encontrada no Portal EA do Azure.

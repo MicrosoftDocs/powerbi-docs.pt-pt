@@ -1,6 +1,6 @@
 ---
-title: What's new in the Power BI service (Novidades no serviço Power BI)
-description: What's new in the Power BI service (Novidades no serviço Power BI)
+title: Novidades do serviço Power BI
+description: Novidades do serviço Power BI
 author: mihart
 manager: kfile
 ms.reviewer: ''
@@ -17,7 +17,7 @@ ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
 ---
 ---
-# <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
+# <a name="whats-new-in-the-power-bi-service"></a>Novidades do serviço Power BI
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
 
 - [Novidades do Power BI Desktop](desktop-latest-update.md)  

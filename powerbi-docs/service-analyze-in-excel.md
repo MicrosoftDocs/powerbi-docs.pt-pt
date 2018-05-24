@@ -97,5 +97,5 @@ Quando um utilizador com quem partilhou o seu livro abrir o livro, verá as suas
 
 Como os utilizadores precisarão de atualizar o conjunto de dados, e a atualização para ligações externas não é suportada no Excel Online, é recomendado que os utilizadores abram o livro na versão de ambiente de trabalho do Excel no computador.
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Resolução de Problemas
 Por vezes, quando utiliza a funcionalidade Analyze in Excel, esta poderá não funcionar conforme esperado ou pode devolver resultados inesperados. [Esta página apresenta soluções para problemas comuns quando utiliza Analisar no Excel](desktop-troubleshooting-analyze-in-excel.md)

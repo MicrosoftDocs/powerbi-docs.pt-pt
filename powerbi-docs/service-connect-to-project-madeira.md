@@ -23,7 +23,7 @@ Ligue-se ao Projeto "Madeira" para o Power BI ou leia mais sobre a integração 
 >[!NOTE]
 >Este pacote de conteúdo requer permissões para as tabelas das quais os dados são obtidos, neste caso, dados de vendas e de finanças. Mais informações sobre requisitos [abaixo](#Requirements).
 
-Ligue-se ao [pacote de conteúdos do Projeto "Madeira" Analytics](https://app.powerbi.com/getdata/services/project-madeira) para o Power BI.
+Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.powerbi.com/getdata/services/project-madeira) para o Power BI.
 
 ## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.  
@@ -70,7 +70,7 @@ Para importar dados do Projeto "Madeira" para o Power BI, precisa de ter permiss
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>A localizar Parâmetros
-**Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incluir a parte "/powerbifinance…" na cadeia do URL.
+**Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incuir a parte "/powerbifinance…" na cadeia do URL.
 
 **Chaves de Acesso ao Serviço Web** Para utilizar os dados do Projeto "Madeira", terá de criar uma chave de acesso ao serviço Web para a sua conta de utilizador. No Projeto "Madeira", procure a página Utilizadores e, em seguida, abra o cartão da sua conta de utilizador. Aqui, pode gerar uma nova chave de acesso aos serviços Web e copiá-la para o campo Palavra-passe na página de ligação do Power BI.
 

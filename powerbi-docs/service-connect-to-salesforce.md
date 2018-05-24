@@ -72,7 +72,7 @@ Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. 
 - A API Relatórios do Salesforce tem uma restrição para suportar até 2000 linhas de dados.
 
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Resolução de Problemas
 Se encontrar algum erro, reveja os requisitos acima. Observe também que não há suporte para a capacidade de início de sessão num domínio personalizado de área atualmente restrita.
 
 ## <a name="next-steps"></a>Próximos passos

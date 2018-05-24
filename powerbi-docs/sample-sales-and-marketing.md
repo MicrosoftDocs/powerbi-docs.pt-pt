@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/21/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 39cd9c92128ca352c713bc2e37624356fea412e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0b7f28fd2c20634836ed3bf75b8e6bce93890690
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing para o Power BI: fazer um tour
 
@@ -29,7 +29,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) ou [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
+ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix) ou [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 

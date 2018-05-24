@@ -94,7 +94,7 @@ Quando adiciona uma origem de dados ao gateway, é necessário fornecer credenci
 Atualmente, não existe um único lugar onde os administradores de inquilinos possam gerir todos os gateways que outros utilizadores tenham instalado e configurado.  Se é um administrador de inquilino, recomendamos que peça aos utilizadores na sua organização para o adicionarem como administrador em cada gateway que instalarem. Isto permite-lhe gerir todos os gateways na sua organização através da página Definições do Gateway ou através de [comandos do PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
 
-## <a name="troubleshooting"></a>Resolução de problemas
+## <a name="troubleshooting"></a>Resolução de Problemas
 Se tiver problemas ao instalar e configurar um gateway, veja [Resolver problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md). Se pensa que está a ter um problema com a firewall, veja a secção [firewall ou proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) do artigo de resolução de problemas.
 
 Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md).

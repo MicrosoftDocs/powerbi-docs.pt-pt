@@ -67,7 +67,7 @@ O pacote de conteúdos do Webtrends efetua pull de dados dos seguintes relatóri
 | Visitantes |xPcmTDDP0P6 |
 | Duração da Visita |U5KAyqdP0P6 |
 | Frases de Pesquisa |IKYEDxIP0P6 |
-| Origens de Tráfego |JmttAoIP0P6 |
+| Orugens de Tráfego |JmttAoIP0P6 |
 | Motores de busca |yGz3gAGP0P6 |
 | Páginas de Entrada |i6LrkNVRUo6 |
 

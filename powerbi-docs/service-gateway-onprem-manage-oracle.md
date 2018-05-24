@@ -1,5 +1,5 @@
 ---
-title: Gerir a origem de dados – Oracle
+title: Gerir a origem de dados - Oracle
 description: Como gerir o Gateway de dados no local e as origens de dados que pertencem a esse gateway.
 author: mgblythe
 manager: kfile
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
 ---
-# <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados – Oracle
+# <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados - Oracle
 Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados Oracle para a atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Transferir e instalar o gateway

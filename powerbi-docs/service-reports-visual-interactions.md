@@ -1,5 +1,5 @@
 ---
-title: Alterar a forma como os elementos visuais interagem num relatório
+title: Alterar como os elementos visuais interagem num relatório
 description: Documentação sobre como definir interações visuais num relatório de serviço do Microsoft Power BI e num relatório do Power BI Desktop.
 author: mihart
 manager: kfile

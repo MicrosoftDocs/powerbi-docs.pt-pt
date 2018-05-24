@@ -17,7 +17,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
+# <a name="page-display-settings-in-a-power-bi-report"></a>Definições de apresentação de páginas num relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Por vezes, isso representa um desafio, uma vez que visualiza esses relatórios, e os seus colegas também, em ecrãs de diferentes proporções e tamanhos. 
 
 O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição padrão é **16:9**. Se deseja bloquear uma taxa de proporção diferente ou ajustar o relatório de outra forma, há duas ferramentas para ajudá-lo: configurações de ***Visualização de Página*** e configurações do ***Tamanho da Página***.

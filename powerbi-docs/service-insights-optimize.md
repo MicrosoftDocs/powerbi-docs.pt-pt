@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
 ---
-# <a name="optimize-your-data-for-power-bi-quick-insights"></a>Otimizar os seus dados para o Power BI Quick Insights
+# <a name="optimize-your-data-for-power-bi-quick-insights"></a>Otimizar os dados para as Informações Rápidas do Power BI
 Deseja melhorar os resultados das informações rápidas?  Se for um proprietário de datasest, experimente estes:
 
 * Oculte ou mostre colunas no conjunto de dados. As informações rápidas do Power BI não pesquisam colunas ocultas.  Portanto, oculte as colunas duplicadas ou desnecessárias e mostre as colunas de interesse.

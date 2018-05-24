@@ -36,7 +36,7 @@ Ligue-se ao [Pacote de conteúdos do Marketo](https://app.powerbi.com/getdata/se
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
    Saiba mais sobre o ponto final REST do Marketo: [http://developers.marketo.com/documentation/rest/endpoint-url/](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Com o Método de Autenticação **Básico**, introduza o ID do Cliente como o **Nome de Utilizador** e o Segredo do Cliente como a **Palavra-passe**. O ID do Cliente e o Segredo do Cliente estão disponíveis no Marketo ou a partir do seu administrador do Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+5. Com o Método de Autenticação **Básico**, insira o ID do Cliente como o **Nome de Utilizador** e o Segredo do Cliente como a **Palavra-passe**. O ID do Cliente e o Segredo do Cliente estão disponíveis no Marketo ou a partir do seu administrador do Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

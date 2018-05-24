@@ -1,6 +1,6 @@
 ---
 title: Copie e cole uma visualização no Power BI
-description: Copie e cole uma visualização no Power BI
+description: Copiar e colar uma visualização no Power BI
 author: mihart
 manager: kfile
 ms.reviewer: ''

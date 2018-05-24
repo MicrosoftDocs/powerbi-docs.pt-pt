@@ -41,7 +41,7 @@ ms.lasthandoff: 05/17/2018
     Precisa de credenciais de administrador (ou, pelo menos, permissões para dados de vendas e financeiros) da sua conta do Microsoft Dynamics NAV.  No momento, apenas a autenticação Básica (Nome de Utilizador e Palavra-passe) é suportada.
    
     ![](media/service-connect-to-microsoft-dynamics-nav/creds.png)
-4. O Power BI irá recuperar os seus dados do Microsoft Dynamics NAV e criar um dashboard e um relatório prontos a utilizar.   
+4. O Power BI irá recuperar os seus dados do Microsoft Dynamics NAV e criar um dahboard e um relatório prontos a utilizar.   
    ![](media/service-connect-to-microsoft-dynamics-nav/dashboard.png)
 
 ## <a name="view-the-dashboard-and-reports"></a>Ver o dashboard e relatórios
@@ -93,7 +93,7 @@ Se vir uma caixa de diálogo de erro "Ups" depois de passar pela caixa de diálo
   
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
-    No entanto, tem de incluir a secção "Company('CRONUS%20International%20Ltd.')" ao nome da Empresa NAV:
+    No entanto, tem de incluir a secção 'Company('CRONUS%20International%20Ltd.')' section ao nome da Empresa NAV:
   
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 

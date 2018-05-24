@@ -17,7 +17,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
 ---
-# <a name="the-report-editortake-a-tour"></a>O editor de relatórios... Faça uma visita
+# <a name="the-report-editortake-a-tour"></a>O editor de relatórios... Ver uma apresentação
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Editar relatórios no serviço Power BI e no Power BI Desktop
 O editor de relatórios no serviço do Power BI e o editor de relatórios no Power BI Desktop são bastante semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço do Power BI. 
 
