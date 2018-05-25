@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Subscribe to a report or dashboard (Subscrever um relatório ou um dashboard)
                   href: service-report-subscribe.md
+                - name: Várias formas de abrir um relatório
+                  href: service-report-open.md
                 - name: Mudar o nome do conteúdo no Power BI
                   href: service-rename.md
                 - name: 'Display dashboards and reports in Full Screen mode (TV mode) (Apresentar dashboards e relatórios no Modo de Ecrã Inteiro [modo de televisão])'
@@ -848,7 +850,7 @@
               href: mobile-android-app-get-started.md
             - name: Corrigir o erro "O certificado SSL empresarial não é fidedigno"
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: Fixing 'Need to update Android System Webview' (Corrigir o erro "Tem de atualizar o Android System WebView")
+            - name: Corrigir o erro "Tem de atualizar o Android System WebView"
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
