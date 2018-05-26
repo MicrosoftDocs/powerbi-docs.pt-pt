@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
@@ -125,6 +125,19 @@ Também pode ordenar o conteúdo por nome ou proprietário.
 ![ordenar conteúdos](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Para saber mais, veja [Navegação no Power BI: procurar, ordenar e filtrar](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>Limpar recursos
+Depois de concluir este guia de início rápido, se desejar, pode eliminar o dashboard, o relatório e o conjunto de dados de exemplo Retail Analysis (Análise de Revenda).
+
+1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.    
+2. No painel de navegação à esquerda, selecione **Áreas de Trabalho > A Minha Área de Trabalho**.  
+    Reparou na estrela amarela a indicar que é um favorito?    
+3. No separador **Dashboards**, selecione o ícone **Eliminar** de caixote do lixo junto ao dashboard Retail Analysis (Análise de Revenda).    
+
+    ![Eliminar dashboard](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Selecione o separador **Relatórios** e faça o mesmo para o relatório Retail Analysis (Análise de Revenda).
+1. Selecione o separador **Conjuntos de Dados** e faça o mesmo para o conjunto de dados (Análise de Revenda).
 
 ## <a name="next-steps"></a>Próximos passos
 

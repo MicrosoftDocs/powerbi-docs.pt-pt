@@ -1022,7 +1022,7 @@
           href: report-server/system-requirements.md
         - name: Browser support (Suporte do browser)
           href: report-server/browser-support.md
-        - name: Servidor de relatórios para administradores
+        - name: Descrição geral para administradores
           href: report-server/admin-handbook-overview.md
         - name: Noções básicas do servidor de relatórios
           items:
@@ -1080,6 +1080,8 @@
               href: report-server/migrate-report-server.md
             - name: Configure o Kerberos para usar relatórios do Power BI
               href: report-server/configure-kerberos-powerbi-reports.md
+            - name: Configure mobile app access remotely (Configurar o acesso por aplicação móvel remotamente)
+              href: report-server/configure-powerbi-mobile-apps-remote.md
             - name: Host Excel workbooks (Alojar livros do Excel)
               href: report-server/excel-oos.md
     - name: Reference (Referência)
