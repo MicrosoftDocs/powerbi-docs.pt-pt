@@ -1,29 +1,21 @@
 ---
 title: Resolver problemas de erros de mosaico
 description: Erros comuns que podem ser encontrados quando um mosaico tenta ser atualizado
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f7d89fd6d6969c584fc016761bde6e9eb3a76028
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8b68ce7af749b7e7f292592f6debdc7e964d6c17
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/04/2018
-ms.locfileid: "33083535"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34242892"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.

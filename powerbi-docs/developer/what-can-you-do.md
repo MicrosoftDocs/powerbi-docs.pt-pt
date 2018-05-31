@@ -1,20 +1,20 @@
 ---
 title: Que podem os programadores fazer com o Power BI?
 description: O Power BI oferece uma vasta gama de opções para programadores. Isto varia, desde a incorporação aos elementos visuais personalizados e conjuntos de dados de transmissão em fluxo.
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/03/2018
 ms.topic: overview
 ms.service: powerbi
+ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 473052ee652c1fd6e68294efdbd7334cbb2df714
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: ee9f5b2e89a1746267090da3485076d67a99d6f9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810972"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290574"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
