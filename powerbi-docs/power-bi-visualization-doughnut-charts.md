@@ -1,21 +1,29 @@
 ---
 title: Gráficos em anel no Power BI
 description: Gráficos em anel no Power BI
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d8be3d160e8ea37ba9814c7bd78c3ad5a751d3b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a8f0b07cd21314549df27ef3206743cad058f98f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294202"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812731"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Gráficos em anel no Power BI
 Um gráfico de anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
