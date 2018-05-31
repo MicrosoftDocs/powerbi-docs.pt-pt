@@ -1,29 +1,21 @@
 ---
 title: 'Tutorial: importar e analisar dados de uma página Web com o Power BI Desktop'
 description: 'Tutorial: importar e analisar dados de uma página Web com o Power BI Desktop'
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/02/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 14c6cc0d221e5ed0a2fe6ead88deb9e8fb867290
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 20bcc45fa95bcff6eb8a761dae58c67a875f55cd
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945969"
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456002"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: analisar dados de páginas Web com o Power BI Desktop
 
