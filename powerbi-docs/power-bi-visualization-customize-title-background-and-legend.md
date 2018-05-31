@@ -1,31 +1,24 @@
 ---
-title: "Introdução à formatação de visualizações do Power BI (Tutorial)"
-description: "Tutorial: personalizar o título, fundo e legenda da visualização"
-services: powerbi
-documentationcenter: 
+title: Introdução à formatação de visualizações do Power BI
+description: Personalizar o título, fundo e legenda da visualização
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
-qualityfocus: monitoring
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297107"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Personalize títulos, legendas e fundos de visualização (Tutorial)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizar títulos, legendas e fundos de visualização
 Neste tutorial, aprenderá várias formas de personalizar as visualizações.   Existem muitas opções para personalizar as visualizações. A melhor forma de obter informações sobre todas estas opções é explorar o painel de Formatação (selecione o ícone do rolo de tinta).  Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda e um fundo de visualização.  
 
 Nem todas as visualizações podem ser personalizadas; [veja a lista completa](#list).  

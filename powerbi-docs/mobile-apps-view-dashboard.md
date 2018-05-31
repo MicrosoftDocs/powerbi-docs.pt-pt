@@ -1,27 +1,20 @@
 ---
-title: "Ver dashboards e relatórios nas aplicações móveis do Power BI"
-description: "Crie ou ligue-se a dashboards e relatórios no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI."
-services: powerbi
-documentationcenter: 
+title: Ver dashboards e relatórios nas aplicações móveis do Power BI
+description: Crie ou ligue-se a dashboards e relatórios no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295882"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -37,8 +30,8 @@ Os dashboards são um portal para o ciclo de vida e processos de sua empresa. Um
 
 Para ver dashboards e relatórios no seu dispositivo móvel, tem de criar ou ligar-se aos mesmos através de um browser. 
 
-1. Vá para o serviço Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para obter uma conta](service-self-service-signup-for-power-bi.md).
-2. [Crie os seus próprios dashboards e relatórios do Power BI](service-get-started.md) ou ligue-se a [aplicações do Power BI](service-connect-to-services.md) existentes para obter uma variedade de serviços, como o [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) e o [Adobe Analyics](service-connect-to-adobe-analytics.md).
+1. Aceda ao serviço Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para obter uma conta](service-self-service-signup-for-power-bi.md).
+2. [Crie os seus próprios dashboards e relatórios do Power BI](service-get-started.md) ou ligue-se a [aplicações do Power BI](service-connect-to-services.md) existentes para obter uma variedade de serviços, como o [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) e o [Adobe Analyics](service-connect-to-adobe-analytics.md).
 
 Segue-se um dashboard do Power BI no serviço Power BI:
 
@@ -115,31 +108,21 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
    
    ![Página inicial do dashboard](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Estrelas amarelas ![Estrela favorita](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
+    Estrelas amarelas ![Estrela favorita](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
 
-     -     A notação abaixo do nome de um dashboard (neste caso, "MBI") ![Classificação de dados](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](service-data-classification.md).
-
+    A notação abaixo do nome de um dashboard (neste caso, "MBI") ![Classificação de dados](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](service-data-classification.md).
 
     Os dashboards do Power BI parecem um pouco diferentes no seu telemóvel Android. Todos os mosaicos são apresentados com a mesma largura e são dispostos um após o outro, de cima para baixo.
 
     ![Vista vertical do dashboard](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Ou coloque o telemóvel de lado para vê-los no modo horizontal.
-
-    > [AZURE.TIP] Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](service-create-dashboard-mobile-phone-view.md) no modo vertical. 
+    Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](service-create-dashboard-mobile-phone-view.md) no modo vertical. 
 
 1. Enquanto estiver no dashboard, pode tocar nas reticências (...) verticais junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Passe o dedo para cima e para baixo para ver todos os [mosaicos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
 3. Para regressar à página inicial de dashboards, toque no nome do dashboard para abrir o trilho de navegação e, em seguida, toque em **A Minha Área de Trabalho**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Ver dashboards no modo horizontal no seu telemóvel Android
-Também pode ver dashboards no modo horizontal, apenas rodando o telemóvel. O esquema do dashboard muda de uma série de mosaicos para uma vista de todo o dashboard; vê todos os mosaicos do dashboard dispostos da mesma forma que no serviço Power BI.
-
-![Vista horizontal do dashboard](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do seu dashboard e o movimento panorâmico para navegar pelo dashboard. Além disso, também é possível [tocar num mosaico](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo de detalhe e interagir com os dados.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Ver dashboards no seu tablet Android
 1. Abra a aplicação Power BI no seu tablet Android e inicie sessão.

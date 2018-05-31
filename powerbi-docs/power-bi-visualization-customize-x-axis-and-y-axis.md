@@ -1,31 +1,24 @@
 ---
-title: Personalizar as propriedades dos eixos X e Y (Tutorial)
-description: 'Tutorial: personalizar as propriedades dos eixos X e Y'
-services: powerbi
-documentationcenter: 
+title: Personalizar as propriedades dos eixos X e Y
+description: Personalizar as propriedades dos eixos X e Y
 author: mihart
 manager: kfile
-backup: 
+ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/16/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295712"
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>Personalizar as propriedades dos eixos X e Y (Tutorial)
+# <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos X e Y
 Neste tutorial, aprenderá várias formas diferentes de personalizar os eixos X e Y dos seus elementos visuais. Nem todos os elementos visuais têm eixos ou podem ser personalizados; os gráficos circulares, por exemplo, não têm eixos. As opções de personalização variam consoante o elemento visual, demasiadas opções para abranger num único artigo. Por isso, vamos ver algumas das personalizações de eixos mais utilizadas e familiarizá-lo com a utilização do separador de formatação visual na tela do relatório do Power BI.  
 
 > [!NOTE]

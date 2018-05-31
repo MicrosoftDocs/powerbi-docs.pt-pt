@@ -1,27 +1,20 @@
 ---
 title: Sugestões e truques para criar relatórios no Power BI
 description: Sugestões e truques para criar relatórios no serviço Power BI e no Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: willthom
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: willthom
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: davidi
-ms.openlocfilehash: d4c32d82fb25fcce47900080d3c454623e14cd74
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7f1ec08fdd280d8c4c3e96367083e7bdb2d31e1b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34230215"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -163,7 +156,7 @@ Por vezes é bastante útil calcular estatísticas de resumo para um conjunto de
 ## <a name="using-dax-for-the-first-time"></a>Utilizar o DAX pela primeira vez
 DAX é a linguagem de fórmula de cálculo no Power BI Desktop.  Está otimizado para análises de BI.  É um pouco diferente das linguagens com que está familiarizado se utilizou apenas uma linguagem de consulta como o SQL. Existem recursos muito bons online e na literatura para obter informações sobre o DAX. 
 
-[Início Rápido: aprenda Noções Básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Aprender as Noções Básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 

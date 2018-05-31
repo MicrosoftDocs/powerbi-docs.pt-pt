@@ -1,16 +1,16 @@
 ---
-title: "Tutorial - gráficos de medidores radiais no Power BI"
-description: "Tutorial: Gráficos de medidores radiais no Power BI"
+title: Gráficos de medidores radiais no Power BI
+description: Gráficos de Medidores Radiais no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813053"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Gráficos de medidores radiais no Power BI (Tutorial)
+# <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
 Um gráfico de medidor radial tem um arco circular e apresenta um único valor que acompanha o progresso em relação a um objetivo/KPI.  O objetivo, ou o valor de destino, é representado pela linha (agulha). O progresso em relação a esse objetivo é representado pelo sombreado.  E o valor que representa o progresso é mostrado em negrito dentro do arco. Todos os valores possíveis são distribuídos de forma uniforme ao longo do arco, do mínimo (valor mais à esquerda) para o máximo (valor mais à direita).
 
 No exemplo abaixo, somos um revendedor de automóveis e controlamos a média de vendas da equipa por mês. O nosso objetivo é 140 e este valor é representado pela agulha preta.  A média mínima possível de vendas é 0 e definimos o máximo como 200.  O sombreado azul mostra que temos atualmente uma média de aproximadamente 120 vendas este mês. Felizmente, ainda temos outra semana para atingir o nosso objetivo.

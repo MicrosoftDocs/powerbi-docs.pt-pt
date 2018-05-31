@@ -898,32 +898,14 @@
       items:
         - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
           href: developer/overview-of-power-bi-rest-api.md
-        - name: PERGUNTAS FREQUENTES
-          href: developer/embedded-faq.md
         - name: Permissões do Power BI
           href: developer/power-bi-permissions.md
         - name: Segurança ao nível da linha (RLS)
           href: developer/embedded-row-level-security.md
-        - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
-          href: developer/qanda.md
+        - name: PERGUNTAS FREQUENTES
+          href: developer/embedded-faq.md
     - name: Procedimentos
       items:
-        - name: How to embed your content (Como incorporar os seus conteúdos)
-          href: developer/embedding-content.md
-        - name: Push data into a dashboard (Enviar dados por push para um dashboard)
-          href: developer/walkthrough-push-data.md
-        - name: How to migrate Power BI Embedded (Como migrar o Power BI Embedded)
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: 'Integrate a dashboard into an app (user owns data) (Integrar um dashboard numa aplicação [os dados são do utilizador])'
-          href: developer/integrate-dashboard.md
-        - name: 'Integrate a Power BI tile into an app (user owns data) (Integrar um mosaico do Power BI numa aplicação [os dados são do utilizador])'
-          href: developer/integrate-tile.md
-        - name: 'Integrate a Power BI report into an app (user owns data) (Integrar um relatório do Power BI numa aplicação [os dados são do utilizador])'
-          href: developer/integrate-report.md
-        - name: Integrar conteúdos na sua aplicação (os dados são da aplicação)
-          href: developer/embed-sample-for-customers.md
-        - name: Integrar conteúdos na sua aplicação para clouds soberanas (a aplicação é proprietária de dados)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Create a custom visual (Criar um elemento visual personalizado)
           items:
             - name: Create a custom visual with the Developer Tools (Criar um elemento visual personalizado com as Ferramentas de Programação)
@@ -936,8 +918,20 @@
               href: developer/office-store.md
         - name: Incorporação
           items:
-            - name: Incorporação com o Power BI
+            - name: Embedding with Power BI (Incorporação com o Power BI)
               href: developer/embedding.md
+            - name: How to embed your content (Como incorporar os seus conteúdos)
+              href: developer/embedding-content.md
+            - name: 'Integrate a dashboard into an app (user owns data) (Integrar um dashboard numa aplicação [os dados são do utilizador])'
+              href: developer/integrate-dashboard.md
+            - name: 'Integrate a Power BI tile into an app (user owns data) (Integrar um mosaico do Power BI numa aplicação [os dados são do utilizador])'
+              href: developer/integrate-tile.md
+            - name: 'Integrate a Power BI report into an app (user owns data) (Integrar um relatório do Power BI numa aplicação [os dados são do utilizador])'
+              href: developer/integrate-report.md
+            - name: Integrar conteúdos na sua aplicação (os dados são da aplicação)
+              href: developer/embed-sample-for-customers.md
+            - name: Integrar conteúdos na sua aplicação para clouds soberanas (a aplicação é proprietária de dados)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Incorporar esquemas personalizados numa aplicação
               href: developer/embedded-custom-layout.md
             - name: Criar um inquilino do Azure Active Directory
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Authenticate to Power BI service (Autenticar no serviço Power BI)
               href: developer/get-azuread-access-token.md
+            - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
+              href: developer/qanda.md
+            - name: How to migrate Power BI Embedded (Como migrar o Power BI Embedded)
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
               href: developer/migrate-tool.md
             - name: Migration code snippets (Fragmentos de código de migração)
               href: developer/migrate-code-snippets.md
             - name: Resolução de problemas de aplicações incorporadas
               href: developer/embedded-troubleshoot.md
-        - name: Push data into a dashboard (Enviar dados por push para um dashboard)
+        - name: Enviar dados por push
           items:
+            - name: Push data into a dashboard (Enviar dados por push para um dashboard)
+              href: developer/walkthrough-push-data.md
             - name: Register an app with Azure AD (Registar uma aplicação com o Azure AD)
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Get an authentication access token (Obter um token de acesso de autenticação)
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Recursos
       items:
+        - name: Ferramenta de Experiência de Inclusão para inserir
+          href: 'https://aka.ms/embedsetup'
         - name: Exemplo do JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Exemplos

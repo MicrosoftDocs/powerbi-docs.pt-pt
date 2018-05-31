@@ -1,31 +1,24 @@
 ---
-title: Parte I, Adicionar visualizações a um relatório do Power BI (Tutorial)
-description: 'Tutorial: parte I, Adicionar visualizações a um relatório do Power BI'
-services: powerbi
-documentationcenter: ''
+title: Parte I, Adicionar visualizações a um relatório do Power BI
+description: Parte I, Adicionar visualizações a um relatório do Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b6fdc11b19e130272cf715f4cff58721f46dd6e8
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293772"
 ---
-# <a name="part-i-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte I, Adicionar visualizações a um relatório do Power BI (Tutorial)
+# <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte I, Adicionar visualizações a um relatório do Power BI
 Este artigo apresenta uma breve introdução à criação de uma visualização num relatório com o serviço Power BI ou o Power BI Desktop.  Para conteúdo mais avançado,[veja a Parte II](power-bi-report-add-visualizations-ii.md). Veja a Amanda a demonstrar algumas formas diferentes de criar, editar e formatar visuais a tela de relatórios. Em seguida, experimente utilizando o [exemplo Vendas e Marketing](sample-datasets.md) para criar os seus próprios relatórios.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>

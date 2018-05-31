@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813260"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 Saiba mais sobre as novidades no Power BI Report Server. Esta secção abrange áreas de funcionalidades importantes e é atualizada à medida que são lançados novos itens.
 
 Para transferir o Power BI Report Server e o Power BI Desktop otimizado para o Power BI Report Server, aceda a [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
-Para obter informações sobre “Novidades” relacionadas, veja:
+Verifique também estas origens para se manter atualizado relativamente a novas funcionalidades no Power BI Report Server.
 
-* [Novidades no serviço Power BI](../service-whats-new.md)
+* [Blogue do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blogue de Equipa do SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
+
+Para obter informações sobre “Novidades” do Power BI relacionadas, veja:
+
+* [Novidades do serviço Power BI](../service-whats-new.md)
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
 * [Novidades em aplicativos móveis para o Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Blogue da equipa do Power BI](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Lançamento de março de 2018
 
@@ -208,7 +214,7 @@ Agora, o Power BI Report Server suporta os novos visuais de tabelas e matrizes d
 ## <a name="next-steps"></a>Próximos passos
 [Manual do utilizador](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Power BI Report Server](quickstart-install-report-server.md)  
+[Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

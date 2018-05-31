@@ -1,33 +1,34 @@
 ---
-title: Formatar e combinar dados no Power BI Desktop
-description: Formatar e combinar dados no Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Moldar e combinar dados de várias origens
+description: Neste tutorial, vai aprender a formatar e combinar dados no Power BI Desktop
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288757"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Formatar e combinar dados no Power BI Desktop
-Com o **Power BI Desktop**, pode ligar a muitos tipos diferentes de origens de dados e, em seguida, formatar os dados de acordo com as suas necessidades. *Formatar* dados significa transforma os dados – como mudar o nome de colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como cabeçalhos, etc. *Combinar* dados significa ligar a duas ou mais origens de dados, formatá-las conforme necessário e consolidá-las numa consulta útil.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: formatar e combinar dados no Power BI Desktop
 
-Este artigo demonstra como formatar uma consulta com o Power BI Desktop ao realçar algumas das tarefas mais comuns. A consulta utilizada aqui é descrita de forma mais pormenorizada, incluindo como criar a consulta do zero, em [Introdução ao Power BI Desktop](desktop-getting-started.md).
+Com o **Power BI Desktop**, pode ligar a muitos tipos diferentes de origens de dados e, em seguida, formatar os dados de acordo com as suas necessidades, o que lhe vai permitir criar relatórios visuais para partilhar com outros utilizadores. *Formatar* dados significa transforma os dados – como mudar o nome de colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como cabeçalhos, etc. *Combinar* dados significa ligar a duas ou mais origens de dados, formatá-las conforme necessário e consolidá-las numa consulta útil.
+
+Neste tutorial, vai aprender a:
+
+* Moldar dados com o **Editor de Consultas**
+* Ligar a uma origem de dados
+* Ligar a outra origem de dados
+* Combinar essas origens de dados e criar um modelo de dados para utilizar em relatórios
+
+Este tutorial demonstra como formatar uma consulta com o Power BI Desktop ao realçar algumas das tarefas mais comuns. A consulta utilizada aqui é descrita de forma mais pormenorizada, incluindo como criar a consulta do zero, em [Introdução ao Power BI Desktop](desktop-getting-started.md).
 
 É útil saber que o **Editor de Consultas** no Power BI Desktop utiliza amplamente menus de contexto, bem como o friso. A maioria das opções que pode selecionar no friso **Transformar** também estão disponíveis ao clicar com o botão direito do rato num item (tal como uma coluna) e ao escolher no menu apresentado.
 

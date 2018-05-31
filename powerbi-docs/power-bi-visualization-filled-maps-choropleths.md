@@ -1,6 +1,6 @@
 ---
-title: Mapas de Manchas (Coropletos) no Power BI (Tutorial)
-description: Documentação – tutorial sobre a criação de Mapas de Manchas (Coropletos) no Power BI
+title: Mapas de Manchas (Coropletos) no Power BI
+description: Documentação sobre a criação de Mapas de Manchas (Coropletos) no Power BI
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812317"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Mapas de manchas (coropletos) no Power BI (Tutorial)
+# <a name="filled-maps-choropleths-in-power-bi"></a>Mapas de manchas (coropletos) no Power BI
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
