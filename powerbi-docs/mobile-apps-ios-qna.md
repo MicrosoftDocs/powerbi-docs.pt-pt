@@ -1,29 +1,20 @@
 ---
 title: Analista virtual Perguntas e Respostas em aplicações iOS – Power BI
 description: Faça perguntas sobre dados de exemplo por palavras próprias com o analista virtual Perguntas e Respostas na aplicação móvel Power BI no seu dispositivo iOS.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812179"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295014"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual Perguntas e Respostas em aplicações iOS – Power BI
 
@@ -70,21 +61,21 @@ O primeiro passo é transferir os exemplos Análise de Retalho e Análise de Opo
 
 4. Selecione o **Exemplo de Análise de Revenda**.
  
-    ![Exemplo de Análise de Revenda](media/mobile-apps-ios-qna/power-bi-rs.png)
+    ![Retail Analysis Sample](media/mobile-apps-ios-qna/power-bi-rs.png)
  
 8. Selecione **Ligar**.  
   
-   ![Exemplo de Análise de Revenda](media/mobile-apps-ios-qna/retail16.png)
+   ![Retail Analysis Sample](media/mobile-apps-ios-qna/retail16.png)
    
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual.
    
-   ![Exemplo de Análise de Revenda](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
+   ![Retail Analysis Sample](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
 **Obter o exemplo de Análise de Oportunidade**
 
 - Percorra os mesmos passos que seguiu para o exemplo de Análise de Revenda mas, no Passo 4, selecione o **exemplo de Análise de Oportunidade**.
 
-    ![Exemplo de Análise de Revenda](media/mobile-apps-ios-qna/power-bi-oa.png)
+    ![Retail Analysis Sample](media/mobile-apps-ios-qna/power-bi-oa.png)
   
 OK, está pronto para ver os exemplos no seu dispositivo iOS.
 

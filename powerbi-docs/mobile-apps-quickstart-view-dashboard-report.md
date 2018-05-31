@@ -1,27 +1,20 @@
 ---
 title: 'Início Rápido: explorar dashboards e relatórios nas aplicações móveis do Power BI'
 description: Neste manual de início rápido, o utilizador explora um dashboard e um relatório de exemplo nas aplicações móveis do Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.component: ''
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 7d7d1cbe56f1f41d7fab02f0168c2794e5342abb
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946107"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295773"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: explorar dashboards e relatórios nas aplicações móveis do Power BI
 Neste manual de início rápido, pode explorar um dashboard e um relatório de exemplo na aplicação móvel do Power BI num telemóvel Android. Também pode acompanhar o processo noutras aplicações móveis. 
@@ -69,7 +62,7 @@ O primeiro passo deste manual de início rápido é transferir o exemplo de Aná
 
 4. Selecione o **exemplo de Análise de Revenda**.
  
-    ![Exemplo de Análise de Revenda](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Retail Analysis Sample](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Selecione **Ligar**.  
   
@@ -152,7 +145,7 @@ Depois de concluir este manual de início rápido, se desejar, pode eliminar o d
 
 4. Selecione o separador **Relatórios** e faça o mesmo para o relatório de Análise de Revenda.
 
-5. Selecione o separador **Conjuntos de Dados** e faça o mesmo para o conjunto de dados de Análise de Revenda.
+5. Selecione o separador **Conjuntos de Dados** e faça o mesmo para o conjunto de dados (Análise de Revenda).
 
 
 ## <a name="next-steps"></a>Próximos passos
