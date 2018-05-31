@@ -1,27 +1,20 @@
 ---
 title: Webinars do Power BI
 description: Webinars do Power BI
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34299292"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -31,17 +24,13 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 
 Registe-se para ouvir os especialistas do Power BI e participar em sessões de Perguntas e Respostas em direto
 
-**[Série de webinars sobre a estrutura de adoção do Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>por Manu Kanwarpal e Paul Henwood
-<br>*Março, abril e maio 2018 09:00 PST, 12:00 EST*
+**Elaborar as informações corretas com o Power BI e o Visio**
+<br>por Shakun Grover
+<br>*22 de maio de 2018, 10:00 PST, 13:00 EST*
 
-Planeie uma implementação eficaz do Power BI para a sua organização e explore as nuances da gestão eficaz do software como um serviço (SaaS). Este webinar é uma série de cinco partes que o ajudará a perceber o potencial do Power BI para a sua organização.
+Junte-se a nós este webinar para saber como combinar dashboards do Power BI e diagramas do Microsoft Visio para criar informações visuais cativantes. O Visio e o Power BI são altamente visuais e complementam-se naturalmente. O Visio permite-lhe criar diagramas ilustrativos, tais como fluxos de trabalho interligados e esquemas do mundo real. O Power BI ajuda-o a criar dashboards intuitivos com gráficos e mapas para medir os indicadores chave de desempenho e controlar os objetivos.
 
-[Registe-se para assistir no dia 1 de maio – Parte 5 – Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Implementação: implementar o Power BI com êxito)
-<br>[Registe-se e assista agora – Parte 4 – Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Segurança: manter os dados seguros com o Power BI)
-<br>[Registe-se e assista agora – Parte 3 – Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Gestão de Serviços: Informações sobre a Gestão do Serviço Power BI)
-<br>[Registe-se e assista agora – Parte 2 – Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Governação: governar a utilização do Power BI)
-<br>[Registe-se e assista agora – Parte 1 – Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Adoção: adotar uma cultura com base em dados)
+[Registe-se para assistir a 22 de maio](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Saiba mais sobre o Power BI Embedded em 20 minutos**
 <br>por Megan Asarrane e Colin Murphy
@@ -88,6 +77,10 @@ Veja as sessões gravadas em qualquer altura
 **Como Estruturar Visualmente Fantásticos Relatórios do Power BI**
 <br>por Charles Sterling
 <br>[Ver agora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**Beyond the Spreadsheet** (Para além da Folha de cálculo)
+<br>por Gohul Shanmugalingam
+<br>[Registar-se e ver agora](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **Transformar um Relatório de Bom em EXCELENTE!**
 <br>por Reid Havens
@@ -139,6 +132,14 @@ Veja as sessões gravadas em qualquer altura
 <br>por Nagasaikiran Kambhampati e Miguel Martinez
 <br>[Registe-se para assistir](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Transferir o Kit de Introdução de Análise Avançada para acompanhar](https://aka.ms/pbiaawebinar)
+
+**[Série de webinars sobre a estrutura de adoção do Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>por Manu Kanwarpal e Paul Henwood
+<br>[Registe-se e assista agora – Parte 1 – Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Adoção: adotar uma cultura com base em dados)
+<br>[Registe-se e assista agora – Parte 2 – Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Governação: governar a utilização do Power BI)
+<br>[Registe-se e assista agora – Parte 3 – Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Gestão de Serviços: Informações sobre a Gestão do Serviço Power BI)
+<br>[Registe-se e assista agora – Parte 4 – Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Segurança: manter os dados seguros com o Power BI)
+<br>[Registe-se e assista agora – Parte 5 – Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Implementação: implementar o Power BI com êxito)
 
 **Série de Webinars para Profissionais do Setor Financeiro do Office 365**
 <br>por Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky e Miguel Martinez

@@ -1,29 +1,22 @@
 ---
-title: "Início rápido: Criar um relatório paginado para o Power BI Report Server"
-description: "Saiba como criar um relatório paginado para o Power BI Report Server em poucos passos simples."
-services: powerbi
-documentationcenter: 
+title: Criar um relatório paginado para o Power BI Report Server
+description: Saiba como criar um relatório paginado para o Power BI Report Server em poucos passos simples.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294922"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Início rápido: Criar um relatório paginado para o Power BI Report Server
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Criar um relatório paginado para o Power BI Report Server
 Como o nome indica, os relatórios paginados podem ocupar muitas páginas. Estão dispostos num formato fixo e oferecem uma personalização precisa. Os relatórios paginados são ficheiros .rdl.
 
 Pode armazenar e gerir relatórios paginados no portal Web do Power BI Report Server, tal como pode fazê-lo no portal Web do SQL Server Reporting Services (SSRS). Pode criar e editá-los no Report Builder ou Report Designer no SQL Server Data Tools (SSDT) e, em seguida, publicá-los através do portal Web. Depois, os leitores de relatórios na sua organização podem visualizá-los num browser ou numa aplicação móvel do Power BI, no respetivo dispositivo móvel.

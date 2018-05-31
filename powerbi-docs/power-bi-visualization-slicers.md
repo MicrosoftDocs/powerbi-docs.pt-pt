@@ -1,31 +1,24 @@
 ---
-title: Segmentações de dados no Power BI (Tutorial)
-description: 'Tutorial: segmentações no Power BI'
-services: powerbi
-documentationcenter: ''
+title: Segmentação de Dados no Power BI
+description: Segmentação de Dados no Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297360"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Segmentações de dados no Power BI (Tutorial)
+# <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 Quer que os leitores de relatórios consigam observar as métricas gerais das vendas e, ao mesmo tempo, consigam realçar o desempenho dos Gestores Distritais individuais e os diferentes períodos de tempo. Pode criar relatórios separados ou gráficos comparativos ou pode utilizar segmentações de dados. A segmentação de dados é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório. 
 
 Este tutorial utiliza o [Exemplo de Análise de Revenda](sample-retail-analysis.md) gratuito para o ajudar a criar, formatar e utilizar segmentações de dados de lista e de intervalo de datas. Divirta-se a descobrir maneiras de formatar e utilizar as segmentações de dados. 
@@ -108,7 +101,7 @@ No relatório atual, a página **Vendas Mensais Distritais** também tem uma seg
 1. No menu **Ver**, selecione **Sincronizar segmentação de dados** no Power BI Desktop (ou ative o painel **Sincronizar segmentação de dados** no serviço Power BI). É apresentado o painel **Sincronizar segmentação de dados**. 
 2. Na página **Descrição Geral**, selecione a segmentação de dados **Gestor Distrital**. Note que a página **Vendas Mensais Distritais** já está selecionada na coluna **Visível**, porque existe também uma segmentação de dados do Gestor Distrital nessa página, mas não está selecionada na coluna **Sincronização**. 
     
-    ![sincronizar segmentação de dados](media/power-bi-visualization-slicers/9-sync-slicers.png)
+    ![segmentação de dados de sincronização](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
 3. Na coluna **Sincronização**, selecione a página **Novas Lojas** e a página **Vendas Mensais Distritais** para sincronizar a segmentação de dados **Descrição Geral** com essas páginas. 
     

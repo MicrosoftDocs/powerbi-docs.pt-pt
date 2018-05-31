@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813375"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Melhores práticas de design para relatórios e elementos visuais
 <!-- Shared newnav Include -->
@@ -208,7 +209,7 @@ No nosso exemplo, foi adicionado um título à página, no canto superior esquer
 Utilize cores para dar consistência.  Vamos falar mais sobre as cores em Princípios de design de elementos visuais, abaixo. Contudo, aqui referimo-nos a sermos deliberados na escolha da cor, para que não impeça os leitores de compreenderem rapidamente o relatório.  Cores demasiado vibrantes perturbam os sentidos. Esta secção descreve mais o que não fazer com as cores.
 
 #### <a name="backgrounds"></a>Fundos
-Quando definir fundos para as páginas dos relatórios, escolha cores que não tapem demasiado o relatório, que choquem com outras cores na página ou que, de um modo genérico, prejudiquem o olhar. Tenha em atenção que algumas cores têm um significado inerente.  Por exemplo, nos E.U.A., vermelho num relatório é normalmente interpretado como "errado".
+Quando definir fundos para as páginas dos relatórios, escolha cores que não tapem demasiado o relatório, que choquem com outras cores na página ou que, de um modo genérico, prejudiquem o olhar. Tenha em atenção que algumas cores têm um significado inerente.  Por exemplo, nos EUA, vermelho num relatório é normalmente interpretado como “errado”.
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-background.png)
 
@@ -586,7 +587,7 @@ Depois
 1. Segmentação: removemos os espaços brancos das segmentações ao adicionar um filtro ao nível da página e selecionar apenas ouro, prata e bronze. Alterámos **Selection Controls** (Controlos de Seleção) para Desativado em **Single Select** (Seleção Única) e **Select All** (Selecionar Tudo).
 2. Bolha: existem tantos itens na legenda que somos deslocados para fora do ecrã.  Removemos a legenda e ativámos **Category labels** (Etiquetas de categoria). Os clientes podem passar o rato por cima das bolhas para verem os detalhes. Encurtámos o título e removemos “by countryregion” (“por paísregião”), pois parece óbvio. Ativámos as etiquetas dos dois eixos, para que seja mais fácil compreender o gráfico.
 3. Mapa de manchas: alterámos **Data colors** para lhe dar mais destaque. Ativámos **Diverging** (Divergente) e definimos **Minimum** (Mínimo) como cor-de-rosa e **Maximum** (Máximo) como vermelho.
-4. Mapa de árvore: removemos o filtro que foi definido para apenas E.U.A. Definimos **Data labels** como uma casa decimal. O elemento visual utilizava o campo Class (Classe), que não é muito útil, uma vez que será quase sempre 33% (ouro/prata/bronze).  Selecionámos um campo mais interessante, género. Alterámos Aquatics (Natação) para azul e Athletics (Atletismo) para cinzento, por questões de design.
+4. Mapa de árvore: removemos o filtro que foi definido para apenas EUA. Definimos **Data labels** como uma casa decimal. O elemento visual utilizava o campo Class (Classe), que não é muito útil, uma vez que será quase sempre 33% (ouro/prata/bronze).  Selecionámos um campo mais interessante, género. Alterámos Aquatics (Natação) para azul e Athletics (Atletismo) para cinzento, por questões de design.
 5. Gráfico de barras superior: reduzimos o título, removemos as etiquetas de dados e desativámos as legendas do título. Alterámos a ordem das palavras do título, para que correspondam ao gráfico abaixo.
 6. Gráfico de barras inferior: ordenámos por ordem ascendente por ano, para corresponder ao gráfico acima. Alterámos as cores, para que correspondam à classe. Alterámos o título. Desativámos a legenda, para termos mais espaço para os dados. Ativámos as etiquetas de dados, que não vão aparecer no relatório (porque o elemento visual é demasiado pequeno para que as etiquetas sejam legíveis), mas que o serão quando o elemento for aberto no Modo de detalhe. [Saiba mais sobre o Modo de detalhe](service-focus-mode.md). Adicionámos a Contagem de Eventos (Distinta) a **Tooltips** (Descrições), pelo que, quando passa agora o rato por cima de uma coluna empilhada, as descrições também lhe dizem quantos eventos foram realizados esse ano.
 7. Interações entre Elementos Visuais: desativámos as interações em ambos os cartões, porque quero que mostrem sempre o total de jogos e desportos.
@@ -734,7 +735,7 @@ Para tal, abra o painel Formatting, expanda **Y-Axis** e defina **Show Secondary
 
 Para obter mais informações, veja:
 
-* [Tutorial: Combo chart in Power BI](power-bi-visualization-combo-chart.md) (Tutorial: Gráficos de combinação no Power BI)
+* [Gráfico de combinação no Power BI](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled Axes in visuals](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) (O perigo dos Eixos com escalas duplas nos elementos visuais)
 
 ### <a name="scatter-chart"></a>Gráfico de Dispersão
@@ -810,8 +811,8 @@ Os KPIs mostram o valor, o estado, o objetivo, o desvio face ao objetivo e a ten
 
 Para obter mais informações, veja:
 
-* [Tutorial: Radial gauge charts in Power BI](power-bi-visualization-radial-gauge-charts.md) (Tutorial: Gráficos de medidores radiais no Power BI)
-* [Tutorial: KPIs in Power BI](power-bi-visualization-kpi.md) (Tutorial: KPIs no Power BI)
+* [Gráficos de medidores radiais no Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [KPIs no Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Conclusão
 Agora é altura de testar estas melhores práticas.  Mantenha-se em contacto e partilhe as suas próprias melhores práticas. Não concorda com as nossas recomendações ou descobriu um excelente motivo para “fugir às regras”?  Partilhe as suas descobertas connosco!  
