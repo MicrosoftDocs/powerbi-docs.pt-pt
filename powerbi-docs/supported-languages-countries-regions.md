@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871484"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -165,6 +166,11 @@ Para além de definir o idioma da aplicação Power BI Desktop, também pode de
 - A forma como comparamos e ordenamos as cadeias. Por exemplo, como o turco possui duas letras i, consoante o agrupamento da base de dados, as duas podem acabar em ordens diferentes ao ordenar. 
 - O idioma que o Power BI Desktop utiliza durante a criação de tabelas com datas ocultas nos campos de data. Por exemplo, os campos são denominados Mês/Month/Mois, etc.
 
+> [!NOTE]
+> O modelo do Power BI está a utilizar uma região que não é sensível às maiúsculas e minúsculas (ou sensível a kana), pelo que “ABC” e “abc” serão tratadas como equivalentes. Se “ABC” for carregada para a base de dados em primeiro lugar, as outras cadeias que sejam diferentes apenas devido às maiúsculas ou minúsculas, como “Abc”, não serão carregadas como um valor separado.
+> 
+>
+
 Veja como definir o idioma do modelo.
 
 1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**.
@@ -173,6 +179,10 @@ Veja como definir o idioma do modelo.
 
     ![Definir o idioma do modelo no Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Depois de criado, o idioma de um modelo do Power BI não pode ser alterado.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Idiomas da documentação de ajuda
 A ajuda está traduzida nos seguintes 10 idiomas: 
