@@ -1,28 +1,20 @@
 ---
 title: Perguntas frequentes sobre o Power BI Embedded
 description: Procure uma lista de perguntas frequentes e respostas sobre o Power BI Embedded.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2d457c04f9db2bdd57f363ccb0c09e2496aefd6
-ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/14/2018
-ms.locfileid: "34163328"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289746"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -37,11 +29,11 @@ O Microsoft Power BI Embedded permite aos programadores de aplicações integrar
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Qual é o público alvo do Power BI Embedded?
 
-Os programadores e empresas de software que criam as suas próprias aplicações, conhecidos como fornecdores de software independentes (ISVs).
+Os programadores e empresas de software que criam as suas próprias aplicações, conhecidos como fornecedores de software independentes (ISVs).
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Qual a diferença entre o serviço do Power BI Embedded e do Power BI?
 
-O Power BI Embedded destina-se a ISVs ou programadores que estão a criar aplicações e pretendem integrar visuais nas suas aplicações para ajudar os clientes a tomarem decisões sem construirem uma solução de análises de raiz. As análises integradas permitem aos utilizadores empresariais acederem aos dados do negócio e efetuarem consultas para gerar informações utilizando estes dados na aplicação.
+O Power BI Embedded destina-se a ISVs ou programadores que estão a criar aplicações e pretendem integrar visuais nas suas aplicações para ajudar os clientes a tomarem decisões sem construírem uma solução de análises de raiz. As análises integradas permitem aos utilizadores empresariais acederem aos dados do negócio e efetuarem consultas para gerar informações utilizando estes dados na aplicação.
 
 Por outro lado, o Power BI é uma solução de análise de software como um serviço que dá às organizações uma vista única dos seus dados empresariais mais críticos.
 
@@ -59,7 +51,7 @@ Podem ocorrer situações em que um ISV (geralmente de grande dimensão) pretend
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Quantos tokens de incorporação posso criar?
 
-Os tokens de incorporação com a licença PRO destinam-se a testes de desenvolvimento e de programadores. O número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](#technical) para poder incorporar num ambiente de produção. Não existe limite de número de tokens de incorporação que pode gerar quando compra capacidade. Aceda a [Obter Funcionalidades Disponíveis](https://msdn.microsoft.com/library/mt846473.aspx) para verificar o valor de utilização que indica a utilização atual incorporada em valores percentuais.
+Os tokens de incorporação com a licença PRO destinam-se a testes de desenvolvimento. O número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](#technical) para poder incorporar num ambiente de produção. Não existe limite de número de tokens de incorporação que pode gerar quando compra capacidade. Aceda a [Obter Funcionalidades Disponíveis](https://msdn.microsoft.com/library/mt846473.aspx) para verificar o valor de utilização que indica a utilização atual incorporada em valores percentuais.
 
 ## <a name="technical"></a>Parte Técnica
 
@@ -123,7 +115,7 @@ Utilize o PowerBI.com para atribuir/anular a atribuição de áreas de trabalho 
 
 ### <a name="what-deploy-regions-are-supported"></a>Quais as regiões de implementação suportadas?
 
-Sudeste da Austrália, Sul do Brasil, Canadá Central, EUA Leste 2, Índia Ocidental, Leste do Japão, EUA Centro-Norte, Europa do Norte, EUA Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, EUA Oeste e EUA Oeste 2.
+Sudeste da Austrália, Sul do Brasil, Canadá Central, E.U.A Leste 2, Índia Ocidental, Leste do Japão, EUA Centro-Norte, Europa do Norte, EUA Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, EUA Oeste e EUA Oeste 2.
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Que tipo de dados do pacote de conteúdos pode ser incorporado?
 

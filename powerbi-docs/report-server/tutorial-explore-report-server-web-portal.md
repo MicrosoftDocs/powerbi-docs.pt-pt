@@ -1,29 +1,20 @@
 ---
 title: 'Tutorial: explorar o Power BI Report Server numa VM'
 description: Neste tutorial, vai criar uma máquina virtual com o Power BI Report Server já instalado e explorar o portal Web.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813950"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445009"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: explorar o portal Web do Power BI Report Server numa VM
 Neste tutorial, vai criar uma máquina virtual do Azure com o Power BI Report Server já instalado, para poder experimentar a visualização, edição e gestão de relatórios paginados e do Power BI de exemplo, e KPIs.
@@ -59,6 +50,8 @@ Felizmente, a equipa do Power BI criou uma VM que inclui um Power BI Report Se
 
 6. Para **Grupo de recursos**, mantenha **Criar novo** e atribua-lhe o nome **reportserverresourcegroup**.
 
+    Se seguir o tutorial mais do que uma vez, tem de dar um nome diferente do que deu na vez anterior ao grupo de recursos. Não pode utilizar o mesmo nome de grupo de recursos duas vezes na mesma subscrição. 
+
 7. Mantenha as outras predefinições > **OK**.
 
     ![Atribuir nome à VM e ao grupo de recursos](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
@@ -91,7 +84,7 @@ Felizmente, a equipa do Power BI criou uma VM que inclui um Power BI Report Se
 
 7. A caixa de diálogo seguinte indica que não se pode identificar a identidade do computador remoto. Selecionar **Sim**.
 
-   E cá está: a nova VM abre-se.
+   E já está: a sua nova VM é aberta.
 
 ## <a name="power-bi-report-server-on-the-vm"></a>Power BI Report Server na VM
 
@@ -165,6 +158,8 @@ Pode ver e interagir com relatórios do Power BI no portal Web, bem como inicia
      O relatório abre-se no Power BI Desktop. Tome nota do nome na barra superior, “Power BI Desktop (março de 2018)”. Esta é a versão otimizada para o Power BI Report Server.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     Utilize a versão do Power BI Desktop que está instalada na VM. Não pode mudar de domínios para carregar um relatório.
 
 3. No painel Campos, expanda a tabela Clientes e arraste o campo Ocupação para Filtros de nível de relatório.
 
@@ -252,7 +247,9 @@ Agora que concluiu este tutorial, elimine o grupo de recursos, a máquina virtua
 
 ## <a name="next-steps"></a>Próximos passos
 
-Neste tutorial, criou uma VM com o Power BI Report Server. Experimentou algumas das funcionalidades do portal Web e abriu um relatório do Power BI e um relatório paginado nos respetivos editores. Para saber mais sobre a criação de relatórios para o Power BI Report Server, continue.
+Neste tutorial, criou uma VM com o Power BI Report Server. Experimentou algumas das funcionalidades do portal Web e abriu um relatório do Power BI e um relatório paginado nos respetivos editores. Esta VM tem origens de dados do SQL Server Analysis Services, pelo que pode experimentar criar os seus próprios relatórios paginados e do Power BI com essas mesmas origens de dados. 
+
+Para saber mais sobre a criação de relatórios para o Power BI Report Server, continue.
 
 > [!div class="nextstepaction"]
 > [Criar um relatório do Power BI para o Power BI Report Server](./quickstart-create-powerbi-report.md)
