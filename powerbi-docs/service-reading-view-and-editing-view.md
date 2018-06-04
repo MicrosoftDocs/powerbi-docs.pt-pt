@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251673"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de Leitura e Vista de Edição nos relatórios do serviço Power BI
 No serviço Power BI (mas não no Power BI Desktop), existem dois modos de visualizar e interagir com os relatórios: Vista de leitura e Vista de edição. A Vista de leitura está disponível para todos os utilizadores e foi especialmente concebida para *consumidores* de dados, enquanto a Vista de edição só está disponível para *criadores* e proprietários de relatórios.

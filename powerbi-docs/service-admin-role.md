@@ -11,10 +11,11 @@ ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: a20b6312f031452508c986565e27090fabbae019
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293818"
 ---
 # <a name="understanding-the-power-bi-admin-role"></a>Compreender a função de administrador do Power BI
 Saiba como pode utilizar a função de administrador do Power BI na sua organização.

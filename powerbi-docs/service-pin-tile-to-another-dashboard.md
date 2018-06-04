@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249120"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Afixar um mosaico de um dashboard noutro dashboard
 Uma forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 

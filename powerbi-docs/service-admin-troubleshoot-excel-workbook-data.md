@@ -1,6 +1,6 @@
 ---
-title: 'Erro: não conseguimos encontrar dados no seu livro do Excel'
-description: 'Erro: não conseguimos encontrar dados no seu livro do Excel'
+title: "Error: We couldn't find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)"
+description: "Error: We couldn't find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)"
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,13 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 90fd71c59059f1b1b2c1b7d1d2da582d228c7a88
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242370"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Erro: não conseguimos encontrar dados no seu livro do Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Error: We couldn't find any data in your Excel workbook (Erro: não conseguimos encontrar dados no seu livro do Excel)
 
 >[!NOTE]
 >Este artigo aplica-se ao Excel 2007 e posterior.
