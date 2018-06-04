@@ -10,13 +10,14 @@ ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: eb21eede666653e53af4ab012a712091b49be7d2
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 6de9c4cb792e08c609af977fac3ea3d09f737acf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722069"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade do Fornecedor para o Power BI: ver uma apresentação
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade de fornecedor para o Power BI: faça um tour
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Uma breve descrição geral de exemplo da Análise de Qualidade do Fornecedor
 Este dashboard de exemplo do setor e o respetivo relatório subjacente focam-se num dos desafios típicos da cadeia de fornecimento – a análise de qualidade do fornecedor.
@@ -32,7 +33,7 @@ Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/en-us/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), um [ficheiro .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) ou um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
+ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), um [ficheiro .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) ou um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 
@@ -45,7 +46,7 @@ Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **exemplo de Análise de Qualidade do Fornecedor**, em seguida, escolha **Ligar**.  
   
-   ![Exemplo de Análise de Qualidade dos Fornecedores](media/sample-supplier-quality/supplier16.png)
+   ![Supplier Quality Analysis Sample](media/sample-supplier-quality/supplier16.png)
    
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
    

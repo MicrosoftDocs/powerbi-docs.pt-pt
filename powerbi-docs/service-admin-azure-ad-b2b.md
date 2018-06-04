@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722230"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
@@ -30,7 +31,7 @@ O Power BI integra-se no Azure Active Directory Business-to-business (Azure AD B
 
 ## <a name="who-can-you-invite"></a>Quem pode convidar?
 
-Pode convidar utilizadores que utilizem qualquer endereço de e-mail, incluindo contas pessoais como gmail.com, outlook.com ou hotmail.com. No Azure B2B, estes endereços são denominados "Identidades Sociais". Para obter mais informações, veja o artigo [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Pode convidar utilizadores que utilizem qualquer endereço de e-mail, incluindo contas pessoais como gmail.com, outlook.com ou hotmail.com. No Azure B2B, estes endereços são denominados "Identidades Sociais". Para obter mais informações, veja o artigo [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Convidar utilizadores
 
@@ -100,7 +101,7 @@ O utilizador convidado já tem uma licença do Power BI Pro atribuída no respet
 
 ## <a name="considerations-and-limitations"></a>Considerações e Limitações
 
-* Ao convidar utilizadores que tenham contas de e-mail pessoais, como o gmail.com, outlook.com ou hotmail.com, pode seguir este [vídeo incorporado](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) para ver um exemplo de como um utilizador faria a sua inscrição.
+* Ao convidar utilizadores que tenham contas de e-mail pessoais, como o gmail.com, outlook.com ou hotmail.com, pode seguir este [vídeo incorporado](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience) para ver um exemplo de como um utilizador faria a sua inscrição.
 * Os convidados B2B externos estão limitados apenas ao consumo de conteúdos. Os convidados B2B externos podem ver aplicações, dashboards, relatórios, exportar dados e criar subscrições de e-mail para dashboards e relatórios. Não podem aceder a áreas de trabalho nem publicar os seus próprios conteúdos.
 * Esta funcionalidade não está atualmente disponível com as aplicações móveis do Power BI. Num dispositivo móvel, poderá ver o conteúdo partilhado do Power BI com o Azure AD B2B num browser.
 * Esta funcionalidade não está atualmente disponível com a peça Web de relatórios do Power BI para SharePoint Online.

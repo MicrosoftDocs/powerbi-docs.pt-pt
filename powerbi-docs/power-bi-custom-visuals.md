@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721461"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuais personalizados no Power BI
 Ao criar ou editar um relatório no Power BI, existem vários tipos diferentes de visuais disponíveis para utilizar. Estes visuais são apresentados no painel **Visualizações**. Quando transfere o Power BI Desktop ou abre o serviço Power BI (app.powerbi.com), este conjunto de visuais vem "pré-embalado".
@@ -53,10 +54,10 @@ O que é o AppSource? Em termos simples, é o local onde se encontram as aplica�
 
 ### <a name="certified-visuals"></a>Elementos visuais certificados
 
-Os elementos visuais certificados do Power BI são elementos visuais do marketplace que passaram testes rigorosos adicionais ao nível da qualidade e são suportados em cenários adicionais, tais como [subscrições de e-mails](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe) e [exportar para o PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint).
-Para ver a lista de visuais personalizados certificados ou para submeter o seu, consulte [Visuais personalizados certificados](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified).
+Os elementos visuais certificados do Power BI são elementos visuais do marketplace que passaram testes rigorosos adicionais ao nível da qualidade e são suportados em cenários adicionais, tais como [subscrições de e-mails](https://docs.microsoft.com/power-bi/service-report-subscribe) e [exportar para o PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Para ver a lista de visuais personalizados certificados ou para submeter o seu, consulte [Visuais personalizados certificados](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao AppSource? Consulte [Introdução às Ferramentas de Programação](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools) e saiba como [publicar visuais personalizados no AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao AppSource? Consulte [Introdução às Ferramentas de Programação](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) e saiba como [publicar visuais personalizados no AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>Importar elementos visuais personalizados de um ficheiro
 
