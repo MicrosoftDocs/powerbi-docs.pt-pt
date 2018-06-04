@@ -11,10 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456117"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>O Power BI para Office 365 foi extinto
 O Power BI para Office 365, uma versão anterior do Power BI, transitou para a versão atual do [Power BI](https://powerbi.microsoft.com). Os utilizadores que utilizaram o **Power BI para Office 365** podem utilizar a versão atual do Power BI. Pode [obter mais informações sobre o Power BI](service-get-started.md).

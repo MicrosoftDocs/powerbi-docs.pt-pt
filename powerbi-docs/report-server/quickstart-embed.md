@@ -1,20 +1,20 @@
 ---
 title: Incorporar um relatório através de um iFrame
 description: Incorporar um relatório do Power BI Report Server num iFrame no SharePoint Server
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
+ms.component: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 0639ea11fd09bd7cfe81328e8bee6112d61937aa
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33867537"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293703"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Início Rápido: incorporar um relatório do Power BI Report Server com um iFrame no SharePoint Server
 

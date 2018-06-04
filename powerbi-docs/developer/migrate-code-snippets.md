@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ea323419e38aab7360bb817a56ae4c7c662998ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689855"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
 Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo. Para obter fluxos relacionados para determinados tipos de relatório, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI para o Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).

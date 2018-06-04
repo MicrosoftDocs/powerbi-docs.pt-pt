@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247809"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Criar um novo relatório a partir de um relatório existente (copiar um relatório)
 Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns elementos visuais que pretende voltar a utilizar ou modificar.  Porque não simplesmente copiar esse relatório como base para um novo relatório?  Para fazê-lo:

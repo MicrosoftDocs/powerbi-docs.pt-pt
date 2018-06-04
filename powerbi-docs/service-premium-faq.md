@@ -11,10 +11,11 @@ ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 25340ac8349e112b2424496274441feedebe7052
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298855"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 Navegue numa lista de perguntas frequentes e respostas sobre a oferta Power BI Premium.

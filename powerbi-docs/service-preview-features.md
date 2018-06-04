@@ -12,10 +12,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: df676392c484239724cf631c208a4d586ca65e24
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249143"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Optar ativamente por participar nas funcionalidades de pré-visualização do Serviço Power BI
 ## <a name="what-are-preview-features"></a>O que são *funcionalidades de pré-visualização*?

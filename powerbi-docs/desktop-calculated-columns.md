@@ -11,10 +11,10 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34290367"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Utilizar colunas calculadas no Power BI Desktop
@@ -51,7 +51,7 @@ Pode adicioná-lo à tela de relatório juntamente com o número de remessas. Mu
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Saber mais
 Fornecemos apenas uma rápida introdução às colunas calculadas. Não deixe de consultar o [Tutorial: criar colunas calculadas no Power BI Desktop](desktop-tutorial-create-calculated-columns.md), no qual poderá transferir um ficheiro de exemplo e obter lições passo a passo sobre como criar mais colunas. 
 
 Para obter mais informações sobre o DAX, consulte [Noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md).

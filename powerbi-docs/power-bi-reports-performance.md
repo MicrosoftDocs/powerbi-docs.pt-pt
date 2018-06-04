@@ -11,10 +11,11 @@ ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
 ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310550"
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores Práticas para o Desempenho do Power BI 
 Este artigo oferece orientação para construir relatórios rápidos e fiáveis no Power BI.  
@@ -93,7 +94,7 @@ Certifique se de que testa os seus elementos visuais personalizados com cuidado 
 Para um aprofundamento sobre quais os elementos visuais que ocupam mais tempo e recursos, pode ligar o SQL Profiler ao Power BI Desktop para ter uma visão completa do desempenho da consulta.
 
 > [!NOTE]
-> O Power BI Desktop suporta a ligação a uma porta de diagnóstico. A porta de diagnóstico permite que outras ferramentas se liguem e executem rastreios para fins de diagnóstico. *Fazer alterações ao modelo não é suportado! As alterações ao modelo podem provocar danos e perda de dados.*
+> O Power BI Desktop suporta a ligação a uma porta de diagnóstico. A porta de diagnóstico permite que outras ferramentas se liguem e executem rastreios para fins de diagnóstico. *Fazer alterações ao modelo não é suportado! As alterações ao modelo podem provocar danos e perda de dados.*
 
 As instruções são as seguintes:
   

@@ -12,10 +12,11 @@ ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: c75fd53b7aaa941e8e94518950e9f3ebaaa40c35
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237321"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicar uma página de relatório no Power BI
 Duplicar uma página de relatório no serviço Power BI ou no Power BI Desktop requer permissões de edição para o relatório. No serviço Power BI, isto significa abrir o relatório na [Vista de edição](service-reading-view-and-editing-view.md). 

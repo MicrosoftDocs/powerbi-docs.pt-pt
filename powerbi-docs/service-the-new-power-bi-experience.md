@@ -12,10 +12,11 @@ ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471600"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
@@ -23,7 +24,7 @@ Agora que já conhece as noções básicas do Power BI, vamos ver como funciona 
  
 ## <a name="prerequisites"></a>Pré-requisitos
 
-- Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
+- Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
 - Leia [Conceitos básicos do serviço Power BI](service-basic-concepts.md)
 
@@ -127,7 +128,7 @@ Também pode ordenar o conteúdo por nome ou proprietário.
 Para saber mais, veja [Navegação no Power BI: procurar, ordenar e filtrar](service-navigation-search-filter-sort.md)
 
 ## <a name="clean-up-resources"></a>Limpar recursos
-Depois de concluir este guia de início rápido, se desejar, pode eliminar o dashboard, o relatório e o conjunto de dados de exemplo Retail Analysis (Análise de Revenda).
+Depois de concluir este manual de início rápido, se desejar, pode eliminar o dashboard, o relatório e o conjunto de dados de exemplo da Análise de Revenda.
 
 1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.    
 2. No painel de navegação à esquerda, selecione **Áreas de Trabalho > A Minha Área de Trabalho**.  

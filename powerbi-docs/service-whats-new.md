@@ -1,6 +1,6 @@
 ---
-title: Novidades do serviço Power BI
-description: Novidades do serviço Power BI
+title: What's new in the Power BI service (Novidades no serviço Power BI)
+description: What's new in the Power BI service (Novidades no serviço Power BI)
 author: mihart
 manager: kfile
 ms.reviewer: ''
@@ -11,13 +11,14 @@ ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 0589ef3ad4f55a9684f0a7b31ed6421936c3e5c2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299177"
 ---
 ---
-# <a name="whats-new-in-the-power-bi-service"></a>Novidades do serviço Power BI
+# <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
 
 - [Novidades do Power BI Desktop](desktop-latest-update.md)  

@@ -11,10 +11,11 @@ ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240436"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagir com um relatório na Vista de edição no serviço Power BI
 Os relatórios podem ser criados e editados no serviço Power BI e no Power BI Desktop. No serviço Power BI, os relatórios podem ser criados e editados na **Vista de edição**. No Power BI Desktop, os relatórios podem ser criados e editados na [**Vista de relatório**](desktop-report-view.md). Este artigo aborda a Vista de edição do serviço Power BI. 

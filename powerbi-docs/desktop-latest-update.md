@@ -1,29 +1,21 @@
 ---
 title: Novidades na atualização mais recente do Power BI Desktop
 description: Novidades na atualização mais recente do Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/31/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: faf1b8d4d0db1dff407611b28ed910bfb0717f30
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 5a677164f068ba4ad4796b2db42b7b052233d3da
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33923342"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285698"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop
 
@@ -53,7 +45,7 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 * Opções etiquetas de dados para gráfico de funil  [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=6m25s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Definir a largura do traço da linha para zero  [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=6m49s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Análise
+### <a name="analytics"></a>Analytics
 
 * Medir pormenorização  [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[artigo]](desktop-drillthrough.md#pass-all-filters-in-drillthrough)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 

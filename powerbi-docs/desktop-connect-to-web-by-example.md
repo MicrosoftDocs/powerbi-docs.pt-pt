@@ -11,17 +11,17 @@ ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34290988"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Obter dados de uma página Web ao fornecer um exemplo (Pré-visualização)
 
 A obtenção de dados de uma página Web permite aos utilizadores extrair facilmente dados de páginas Web e importar esses dados para o **Power BI Desktop**. Muitas vezes, no entanto, os dados nas páginas Web não estão em tabelas bem organizadas que sejam fáceis de extrair, pelo que a obtenção de dados dessas páginas (mesmo que estejam estruturados e consistentes) pode ser um desafio. 
 
-Há uma solução. Com a funcionalidade **Obter Dados da Web por exemplo**, essencialmente, pode mostrar ao **Power BI Desktop** os dados que pretende extrair, ao fornecer um ou mais exemplos dentro da caixa de diálogo do conector, e este recolhe outros dados na página que correspondam ao seu exemplo. Com esta solução, pode extrair variadíssimos tipos de dados de páginas Web, incluindo dados encontrados em tabelas *e* outros dados não provenientes de tabelas. 
+Há uma solução. Com a funcionalidade **Obter Dados da Web por exemplo**, essencialmente, pode mostrar ao **Power BI Desktop** os dados que pretende extrair, ao fornecer um ou mais exemplos dentro da caixa de diálogo do conector, e este recolhe outros dados na página que correspondam ao seu exemplos. Com esta solução, pode extrair variadíssimos tipos de dados de páginas Web, incluindo dados encontrados em tabelas *e* outros dados não provenientes de tabelas. 
 
 ![Obter dados da Web por exemplo](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 

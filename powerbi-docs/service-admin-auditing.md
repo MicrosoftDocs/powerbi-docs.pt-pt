@@ -11,10 +11,11 @@ ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297084"
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -99,7 +100,7 @@ Os resultados contêm as seguintes informações sobre cada evento devolvido pel
 
 | **Coluna** | **Definição** |
 | --- | --- |
-| Data |A data e a hora (no formato UTC) em que ocorreu o evento. |
+| Date |A data e a hora (no formato UTC) em que ocorreu o evento. |
 | Endereço IP |O endereço IP do dispositivo que foi utilizado quando a atividade foi registada. O endereço IP é apresentado no formato de endereço IPv4 ou IPv6. |
 | Utilizador |O utilizador (ou a conta de serviço) que efetuou a ação que, por sua vez, acionou o evento. |
 | Atividade |A atividade efetuada pelo utilizador. Este valor corresponde às atividades que selecionou na lista pendente Activitiesdrop. Para um evento do registo de auditoria de administrador do Exchange, o valor nesta coluna é um cmdlet do Exchange. |

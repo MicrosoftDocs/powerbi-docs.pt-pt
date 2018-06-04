@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299200"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
 Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.org/) para criar elementos visuais no serviço Power BI. Inúmeros pacotes R são suportados no serviço Power BI (e muitos mais estão a ser suportados), mas alguns não são.
@@ -62,8 +63,8 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | BAS |1.1.0 |https://cran.r-project.org/web/packages/BAS/index.html |
 | base64enc |0.1-3 |https://cran.r-project.org/web/packages/base64enc/index.html |
 | bayesm |3.0-2 |https://cran.r-project.org/web/packages/bayesm/index.html |
-| bayesQR |2.2 |https://cran.r-project.org/web/packages/bayesQR/index.html |
-| bayesSurv |2.6 |https://cran.r-project.org/web/packages/bayesSurv/index.html |
+| bayesQR |2,2 |https://cran.r-project.org/web/packages/bayesQR/index.html |
+| bayesSurv |2,6 |https://cran.r-project.org/web/packages/bayesSurv/index.html |
 | BayesTree |0.3-1.3 |https://cran.r-project.org/web/packages/BayesTree/index.html |
 | BayHaz |0.1-3 |https://cran.r-project.org/web/packages/BayHaz/index.html |
 | bbemkr |2 |https://cran.r-project.org/web/packages/bbemkr/index.html |
@@ -95,7 +96,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | catnet |1.14.8 |https://cran.r-project.org/web/packages/catnet/index.html |
 | caTools |1.17.1 |https://cran.r-project.org/web/packages/caTools/index.html |
 | cclust |0.6-20 |https://cran.r-project.org/web/packages/cclust/index.html |
-| class |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
+| classe |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
 | clue |0.3-51 |https://cran.r-project.org/web/packages/clue/index.html |
 | cluster |2.0.3 |https://cran.r-project.org/web/packages/cluster/index.html |
 | coda |0.18-1 |https://cran.r-project.org/web/packages/coda/index.html |
@@ -109,7 +110,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| data |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -305,7 +306,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | psych |1.5.8 |https://cran.r-project.org/web/packages/psych/index.html |
 | qap |0.1-0 |https://cran.r-project.org/web/packages/qap/index.html |
 | qdapRegex |0.6.0 |https://cran.r-project.org/web/packages/qdapRegex/index.html |
-| qcc |2.6 |https://cran.r-project.org/web/packages/qcc/index.html |
+| qcc |2,6 |https://cran.r-project.org/web/packages/qcc/index.html |
 | quadprog |1.5-5 |https://cran.r-project.org/web/packages/quadprog/index.html |
 | quantreg |5.21 |https://cran.r-project.org/web/packages/quantreg/index.html |
 | qvcalc |0.9-0 |https://cran.r-project.org/web/packages/qvcalc/index.html |

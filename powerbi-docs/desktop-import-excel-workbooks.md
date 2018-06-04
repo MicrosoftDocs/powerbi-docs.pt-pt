@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 073301b1fe204d66eb91c4ea50216afc5464df64
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285997"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importar livros do Excel para o Power BI Desktop
 Com o **Power BI Desktop**, pode importar facilmente livros do Excel que contêm consultas do Power Query, modelos do Power Pivot e folhas de cálculo do Power View para o Power BI Desktop. Os relatórios e as visualizações são criados automaticamente com base no livro do Excel e, uma vez importados, pode continuar a melhorar e otimizar os relatórios com o Power BI Desktop, através das funcionalidades existentes e novas funcionalidades lançadas em cada atualização mensal do Power BI Desktop.
@@ -65,6 +66,6 @@ Existem algumas limitações para importar um livro no Power BI Desktop, que se 
 * **Hierarquias:** este tipo de objeto de Modelo de Dados não é atualmente suportado no Power BI Desktop. Como tal, as hierarquias são ignoradas como parte da importação de um Livro do Excel para o Power BI Desktop.
 * **Colunas de dados binários:** este tipo de coluna de Modelo de Dados não é atualmente suportado no Power BI Desktop. As colunas de Dados Binários são removidas da tabela resultante no Power BI Desktop.
 * **Elementos do Power View não suportados:** algumas funcionalidades do Power View não estão disponíveis no Power BI Desktop, tais como os Temas ou determinados tipos de visualizações (Gráfico de Dispersão com Eixo de Reprodução, comportamentos de Desagregação, etc.). Estas visualizações sem suporte resultam em mensagens de *Visualização Sem Suporte* nas respetivas localizações correspondentes no relatório do Power BI Desktop, que pode eliminar ou reconfigurar conforme necessário.
-* **Intervalos com Nome ao utilizar ** ***Da Tabela*** **no Power Query, ou ao utilizar ** ***Excel.CurrentWorkbook*** **em M:** a importação destes dados de intervalo com nome para o Power BI Desktop não é atualmente suportada, mas é uma atualização planeada para o Power BI Desktop. Atualmente, estes intervalos com nome são carregados para o Power BI Desktop como uma ligação ao livro externo do Excel.
+* **Intervalos com Nome ao utilizar**  ***Da Tabela*** **no Power Query, ou ao utilizar**  ***Excel.CurrentWorkbook*** **em M:** a importação destes dados de intervalo com nome para o Power BI Desktop não é atualmente suportada, mas é uma atualização planeada para o Power BI Desktop. Atualmente, estes intervalos com nome são carregados para o Power BI Desktop como uma ligação ao livro externo do Excel.
 * **PowerPivot para SSRS:** as ligações externas do PowerPivot ao SSRS (SQL Server Reporting Services) não são atualmente suportadas, já que essa origem de dados não está disponível atualmente no Power BI Desktop.
 

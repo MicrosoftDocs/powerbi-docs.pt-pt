@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310458"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
@@ -120,7 +121,7 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | --- | --- | --- | --- | --- |
 | Base de Dados do SQL Server |Não |Não |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |
-| Vista Web |Sim |Não |Sim |Sim |
+| Web |Sim |Não |Sim |Sim |
 | Base de Dados SQL do Azure |Não |Não |Sim |Não |
 | SQL Data Warehouse do Azure |Não |Não |Sim |Não |
 | Active Directory |Não |Não |Sim |Sim |

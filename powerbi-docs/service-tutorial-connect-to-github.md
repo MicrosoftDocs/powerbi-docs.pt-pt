@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310113"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Ligar a um exemplo do GitHub com o Power BI
 Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Irá ligar ao repositório de conteúdos públicos do Power BI (também conhecido apenas como *repositório*) e ver informações: quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Assim como respostas a outras perguntas. 
@@ -33,7 +34,7 @@ Neste tutorial, irá concluir os seguintes passos:
 > * Ver o dashboard e o relatório com dados do GitHub
 > * Limpar os recursos ao eliminar a aplicação
 
-Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
+Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

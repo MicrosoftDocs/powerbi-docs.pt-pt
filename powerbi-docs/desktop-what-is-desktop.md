@@ -11,10 +11,10 @@ ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34289194"
 ---
 # <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
