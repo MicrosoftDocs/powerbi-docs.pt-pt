@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241953"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerir a área de trabalho da aplicação no Power BI e no Office 365
 Como criador ou administrador de uma [área de trabalho de aplicação no Power BI](service-install-use-apps.md) ou no Office 365, gere alguns aspetos da área de trabalho no Power BI. Outros aspetos que gere no Office 365. 

@@ -11,10 +11,11 @@ ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: f11493fac87643145dab168e23a1fb8e7b7a6e4e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239635"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Por vezes, pode querer utilizar o Excel para ver e interagir com um conjunto de dados que tem no Power BI. Com a opção **Analisar no Excel**, pode fazê-lo e aceder às funcionalidades Tabela Dinâmica, gráfico e segmentação de dados no Excel com base no conjunto de dados que existe no Power BI.
@@ -97,5 +98,5 @@ Quando um utilizador com quem partilhou o seu livro abrir o livro, verá as suas
 
 Como os utilizadores precisarão de atualizar o conjunto de dados, e a atualização para ligações externas não é suportada no Excel Online, é recomendado que os utilizadores abram o livro na versão de ambiente de trabalho do Excel no computador.
 
-## <a name="troubleshooting"></a>Resolução de Problemas
+## <a name="troubleshooting"></a>Resolução de problemas
 Por vezes, quando utiliza a funcionalidade Analyze in Excel, esta poderá não funcionar conforme esperado ou pode devolver resultados inesperados. [Esta página apresenta soluções para problemas comuns quando utiliza Analisar no Excel](desktop-troubleshooting-analyze-in-excel.md)
