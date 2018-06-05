@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 183d0fdcf164ca706dd1704ea1c503f59ca7d715
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252330"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origens de dados para o serviço Power BI
 Os dados são o coração do Power BI. Sempre que está a explorar dados, a criar gráficos e dashboards, a fazer perguntas com Perguntas e Respostas, todas as visualizações e respostas que vê estão, na verdade, a extrair os dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Bem, de uma origem de dados.
