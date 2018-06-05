@@ -14,8 +14,8 @@ pre.editor-colors, .host { background-color: #282c34; color: #abb2bf; } pre.edit
   <body class='markdown-preview'><p>&gt; [AZURE.SELECTOR-LIST (Desktop | Powerbi.com )]</p>
 <ul>
 <li><a href="../powerbi-custom-visuals-use.md">(Desktop | Mais detalhes )</a></li>
-<li><a href="../powerbi-custom-visuals-use-less.md">(Desktop | Menos detalhes )</a></li>
-<li><a href="../powerbi-custom-visuals-vid.md">(Desktop | Mostrar )</a></li>
+<li><a href="../powerbi-custom-visuals-use-less.md">(Ambiente de Trabalho | Menos detalhes )</a></li>
+<li><a href="../powerbi-custom-visuals-vid.md">(Ambiente de Trabalho | Mostrar )</a></li>
 <li><a href="../powerbi-custom-visuals-add-to-report.md">(Powerbi.com | Mais detalhes )</a></li>
 <li><a href="../powerbi-custom-visuals-add-to-report-less.md">(Powerbi.com | Menos detalhes )</a></li>
 <li><a href="../powerbi-custom-visuals-add-to-report-viz.md">(Powerbi.com | Mostrar )</a></li>
