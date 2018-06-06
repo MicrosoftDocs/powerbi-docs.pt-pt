@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296900"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799539"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Atualização agendada para relatórios do Power BI no Power BI Report Server
 A atualização agendada para relatórios do Power BI permite que os dados de um relatório fiquem atualizados.
@@ -61,10 +61,7 @@ Para obter informações sobre como monitorizar uma instância do Analysis Servi
 
 Para obter informações sobre as definições de memória no Analysis Services, veja [Propriedades de Memória](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
 
-### <a name="authentication-and-kerberos"></a>Autenticação e Kerberos
-Se a sua origem de dados estiver definida para utilizar credenciais do Windows, poderá ter de ser configurada uma delegação restrita do Kerberos para funcionar. Para obter mais informações, consulte [Configurar a autenticação do Windows no servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
-
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Configure a [atualização agendada](configure-scheduled-refresh.md) num relatório do Power BI.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
