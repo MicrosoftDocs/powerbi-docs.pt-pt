@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297682"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799424"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -67,41 +67,46 @@ Quando criar um relatório no Power BI Desktop ou no serviço Power BI, consid
   Nesta ilustração, a segmentação está a filtrar o gráfico de colunas para mostrar apenas valores de julho.
 
 ## <a name="cross-filter-and-highlight-a-report"></a>Realizar a filtragem cruzada e realçar um relatório
-Quando seleciona um valor num visual, este não filtra os outros visuais. Realça os valores relacionados nos outros visuais.
+Quando seleciona um valor num elemento visual, este não filtra os outros elementos visuais. Realça os valores relacionados nos outros visuais.
 
-* Toque num valor num visual.
+* Toque num valor num elemento visual.
   
   ![Filtros cruzados numa página](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
   
-  Tocar na coluna Grande num visual realça os valores relacionados nos outros visuais. 
+  Tocar na coluna Grande num elemento visual realça os valores relacionados nos outros visuais. 
 
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>Ordenar um visual num iPad ou num tablet
+## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>Ordenar um elemento visual num iPad ou num tablet
 * Toque no gráfico, toque nas reticências (**...**) e toque no nome do campo.
   
-   ![Ordenar um visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
+   ![Ordenar um elemento visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Para reverter a ordenação, toque novamente nas reticências (**...**) e, em seguida, toque novamente no mesmo nome de campo.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Desagregar num iPad ou num tablet
-Se o autor do relatório tiver adicionado uma capacidade de desagregação a um elemento visual, num iPad ou num tablet, poderá desagregar um elemento visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
+## <a name="drill-down-and-up-in-a-visual"></a>Desagregar e agregar num elemento visual
+Se o autor do relatório tiver adicionado uma capacidade de desagregação a um elemento visual, poderá desagregar no elemento visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um elemento visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
 
-> [!NOTE]
-> Atualmente, a desagregação não funciona em mapas no iPad ou tablet.
-> 
-> 
-
-* Toque num elemento visual. Se tiver setas para cima e para baixo nos cantos superiores ![Ícones Agregar e Desagregar](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png), pode desagregá-los. Para desagregar um valor, toque na seta no canto superior direito e, em seguida, toque num valor num visual; neste caso, o balão FD-04 a azul escuro.
+* Toque num ponto de dados num elemento visual para apresentar a respetiva descrição. Se estiver desagregado, a parte inferior da descrição incluirá setas nas quais pode tocar. 
   
-  ![Desagregar num visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Para voltar a agregar, toque na seta para cima no canto superior esquerdo.
-  
-  ![Agregar](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Desagregar num elemento visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Regresse a A Minha Área de Trabalho
-* Toque na seta junto ao nome do relatório > toque em **A Minha Área de Trabalho**.
+* Para voltar a agregar, toque na seta para cima na descrição.
   
-  ![Voltar para cima](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+  ![Agregar](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="next-steps"></a>Passos seguintes
+* Também pode desagregar em todos os pontos de dados num elemento visual. Abra o elemento visual no modo de detalhe, toque no ícone Explorar e, em seguida, opte entre mostrar todos os níveis seguintes ou expandir para mostrar o nível atual e o seguinte.
+
+   ![Desagregar tudo no Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Explorar de uma página à outra
+
+Com a *pormenorização*, ao tocar numa parte específica de um elemento visual, o Power BI direciona-o para uma página diferente no relatório, filtrada para apresentar o valor no qual tocou. O autor de um relatório pode definir uma ou mais opções de pormenorização que encaminhem o utilizador para diferentes páginas. Nesse caso, poderá escolher que página pretende explorar. No exemplo seguinte, ao tocar no valor no medidor, pode escolher entre pormenorizar a página **gastos por área de negócio** ou **planeamento por área de negócio**.
+
+![Relatório de pormenorização no Power BI Mobile](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Ao explorar, o botão de retroceder leva-o até à página anterior do relatório.
+
+Saiba mais sobre como [adicionar a pormenorização no Power BI Desktop](desktop-drillthrough.md).
+
+## <a name="next-steps"></a>Próximos passos
 * [Ver e interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)
 * [Criar uma versão de um relatório otimizada para telemóveis](desktop-create-phone-report.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

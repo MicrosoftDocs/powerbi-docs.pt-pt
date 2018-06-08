@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289746"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721024"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -43,9 +43,9 @@ O Power BI Premium destina-se às empresas que pretendem uma solução completa 
 
 O Power BI Embedded é para ISVs ou programadores que estão a construir aplicações e pretendem integrar visuais nessas aplicações. O Power BI Embedded ajuda os clientes a tomarem decisões porque é para programadores de aplicações, clientes dessa aplicação podem consumir conteúdo armazenado na capacidade do Power BI Embedded, incluindo qualquer pessoa no interior ou exterior da organização. Não é possível partilhar o conteúdo de capacidade do Power BI Embedded através da publicação com um único clique na Web ou a publicação com um único clique no SharePoint e não suporta relatórios SSRS.
 
-### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs o Power BI Embedded?
+### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs. o Power BI Embedded?
 
-A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na nuvem ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela nuvem. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
+A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na cloud ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela cloud. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
 
 Podem ocorrer situações em que um ISV (geralmente de grande dimensão) pretende utilizar um P SKU para receber os benefícios adicionais do serviço pré-embalado do Power BI na organização, bem como integrar as suas aplicações. E claro, algumas empresas podem decidir utilizar A SKUs no Azure se só estiverem interessados na construção da linha de aplicações empresariais e na integração das análises nas aplicações e não pretenderem utilizar o serviço Power BI pré-embalado.
 
@@ -102,6 +102,9 @@ O Power BI Embedded continuará a utilizar o Azure AD para autenticação do uti
 A autenticação e a autorização dos utilizadores da aplicação serão implementadas por de ISV, o ISV pode implementar a sua própria autenticação para as respetivas aplicações.
 
 Se já tiver um inquilino do Azure AD, pode utilizar o seu diretório existente ou pode criar um novo inquilino do Azure AD para a segurança do conteúdo de aplicações incorporadas.
+
+Para obter um token do AAD, pode utilizar uma das Bibliotecas de Autenticação do Azure Active Directory. Existem bibliotecas cliente disponíveis para múltiplas plataformas.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Qual a diferença entre o Power BI Embedded e os outros serviços do Azure?
 
@@ -205,6 +208,31 @@ Algumas das funcionalidades são:
 * Todas as origens de dados do PBI são suportadas por oposição às 2 origens de dados que estão na **Coleção de Áreas de Trabalho do Power BI**. 
 * As novas funcionalidades, como Perguntas e Respostas, Atualizar, marcadores, incorporação de dashboards e mosaicos, menu personalizado, etc. só são suportadas na solução **Power BI Embedded**.
 * Modelo de faturação de capacidade.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Ferramenta de Experiência de Inclusão para incorporar
+
+### <a name="what-is-the-onboarding-experience-tool"></a>O que é a Ferramenta de experiência de inclusão?
+
+A [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup) permite-lhe começar e transferir rapidamente uma aplicação de exemplo para começar a incorporar com o Power BI.
+
+### <a name="which-solution-should-i-choose"></a>Que solução devo escolher?
+
+* A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
+* A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Transferi a aplicação de exemplo. Que solução devo escolher?
+
+Se estiver a trabalhar com a experiência **Incorporar para os seus clientes**, guarde e deszipe o ficheiro *PowerBI-Developer-Samples.zip*. Em seguida, abra a pasta *PowerBI-Developer-Samples-master\App Owns Data* e execute o ficheiro *PowerBIEmbedded_AppOwnsData.sln*.
+
+Se estiver a trabalhar com a experiência **Incorporar para a sua organização**, guarde e deszipe o ficheiro *PowerBI-Developer-Samples.zip*. Em seguida, abra a pasta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-ap* e execute o ficheiro *pbi-saas-embed-report.sln*.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Como posso editar a minha aplicação registada?
+
+Pode saber como editar aplicações registadas no AAD [aqui](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application).
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Como posso editar os meus dados ou o meu perfil de utilizador do Power BI?
+
+Pode saber como editar os seus dados do Power BI [aqui](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Para obter mais informações, veja [Resolução de problemas de aplicações incorporadas](embedded-troubleshoot.md)
 

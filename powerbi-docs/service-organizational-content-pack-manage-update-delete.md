@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689878"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gerir, atualizar e excluir pacotes de conteúdos organizacional
 > [!NOTE]
@@ -71,7 +72,7 @@ Outra modificação para criadores de pacotes de conteúdos está a expandir e a
 Como criador do pacote de conteúdos, pode [agendar a atualização dos conjuntos de dados](refresh-data.md).  Quando cria e carrega o pacote de conteúdos, essa agenda de atualização é carregada com os conjuntos de dados. Se alterar a agenda de atualização, precisará de publicar novamente o pacote de conteúdos (veja acima).
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>Eliminar um pacote de conteúdos organizacional do AppSource
-Só pode eliminar um pacote de conteúdos do AppSource se o tiver criado. 
+Só pode eliminar um pacote de conteúdos do AppSource se o tiver criado. Se tiver criado um pacote de conteúdos organizacional numa área de trabalho da aplicação e optar depois por eliminar essa área de trabalho, certifique-se de que elimina primeiro o pacote de conteúdos. Se eliminar a área de trabalho sem eliminar primeiro o pacote de conteúdos, poderá perder o acesso a esses pacotes de conteúdos e terá de contactar o Suporte da Microsoft para obter ajuda. 
 
 > [!TIP]
 > Pode [eliminar a ligação a um pacote de conteúdos](service-organizational-content-pack-disconnect.md) que não criou. Isso não elimina o pacote de conteúdos do AppSource.

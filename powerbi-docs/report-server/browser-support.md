@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b340ba2f2798c518d1705c03f7ec526a43bc019d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721783"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Suporte de browser para o Power BI Report Server
 Saiba que versões de browser são suportadas para gerir e visualizar o Power BI Report Server e os controlos do Visualizador de Relatórios.
@@ -111,7 +112,7 @@ Utilize um browser que tenha o suporte para scripts ativado. Se o browser não p
   **(+)** Versão publicamente disponível mais recente
 
 ## <a name="next-steps"></a>Próximos passos
-[Manual do administrador](admin-handbook-overview.md)  
+[Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

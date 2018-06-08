@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721576"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Resolver problemas de atualização
 Aqui pode encontrar informações sobre cenários diferentes que pode encontrar ao atualizar dados no serviço Power BI.
@@ -56,6 +57,14 @@ O tamanho máximo para conjuntos de dados importados para o **serviço Power BI*
 
 ## <a name="scheduled-refresh-timeout"></a>Tempo limite de atualização agendada
 A atualização agendada para os conjuntos de dados importados tem um tempo limite de duas horas. O tempo limite aumenta para cinco horas em conjuntos de dados em áreas de trabalho **Premium**. Caso se depare com este limite, considere reduzir o tamanho ou a complexidade do seu conjunto de dados ou dividir o conjunto de dados em partes mais pequenas.
+
+## <a name="access-to-the-resource-is-forbidden"></a>O acesso ao recurso é proibido  
+Este erro pode ocorrer por existirem credenciais armazenadas em cache expiradas. Limpe a cache do browser da Internet ao iniciar sessão no Power BI e aceder a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Esta ação força uma atualização das suas credenciais. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Falha na atualização de dados devido à alteração de palavra-passe ou a credenciais expiradas 
+A atualização de dados também poderá falhar devido a credenciais armazenadas em cache expiradas. Limpe a cache do browser da Internet ao iniciar sessão no Power BI e aceder a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. Esta ação força uma atualização das suas credenciais.
+
 
 ## <a name="next-steps"></a>Próximos passos
 [Atualização de Dados](refresh-data.md)  

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297084"
+ms.locfileid: "34755030"
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
 Saiba como pode utilizar o auditoria com o Power BI para monitorizar e investigar as ações executadas. Pode utilizar o Centro de Segurança e Conformidade ou utilizar o PowerShell
 
-Saber quem está a realizar ações em que item no inquilino Power BI pode ser fundamental para ajudar a sua organização a satisfazer os requisitos, tais como a conformidade regulamentar e a gestão de registos.
+Saber quem está a realizar ações em que item no inquilino Power BI pode ser fundamental para ajudar a sua organização a satisfazer os requisitos, tais como a conformidade regulamentar e a gestão de registos. Pode utilizar as auditorias do Power BI para auditar ações efetuadas por utilizadores, como "Ver Relatório" e "Ver Dashboard". Não pode utilizar a auditoria para auditar permissões. 
 
 Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard, tipo de relatório, conjunto de dados e tipo de atividade. Também pode transferir as atividades num ficheiro csv (valores separados por vírgulas) para análise offline.
 
@@ -29,18 +29,18 @@ Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
 - Para aceder à secção de auditoria do Centro de Segurança e Conformidade do Office 365, tem de ter uma licença do Exchange Online (incluída nas subscrições do Office 365 Enterprise E3 e E5).
-- Tem de ser um administrador global ou ter uma função de administrador do Exchange que oferece acesso ao registo de auditoria. 
 
-  As funções de administrador do Exchange são controladas através do Centro de administração do Exchange. Para obter mais informações, consulte [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+- Tem de ser um administrador global ou ter uma função de administrador do Exchange que oferece acesso ao registo de auditoria. As funções de administrador do Exchange são controladas através do Centro de administração do Exchange. Para obter mais informações, consulte [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
 
 - Se tiver acesso ao registo de auditoria, mas não for um administrador global ou um administrador de Serviço do Power BI, não terá acesso ao portal de Administrador do Power BI. Neste caso, tem de obter uma ligação direta para o Centro de Segurança e Conformidade do Office 365.
 
-> [!NOTE]
-> Para ver os registos de auditoria do Power BI no inquilino, deve ter, pelo menos, uma licença de caixa de correio do Exchange no inquilino.
+- Para ver os registos de auditoria do Power BI no inquilino, deve ter, pelo menos, uma licença de caixa de correio do Exchange no inquilino.
 
 ## <a name="accessing-your-audit-logs"></a>Aceder aos seus registos de auditoria
 
-Para auditar os registos do Power BI, tem visitar o Centro de Segurança e Conformidade do Office 365.
+Para auditar os registos do Power BI, visite o Centro de Conformidade e Segurança do Office 365.
+
+Pode existir um intervalo de 48 horas entre a ativação da auditoria e a capacidade de ver os dados da mesma. Se não vir logo os seus dados, consulte os registos de auditoria mais tarde. Pode existir um intervalo de tempo semelhante entre obter a permissão para ver os registos de auditoria e ter acesso aos mesmos.
 
 1. Selecione o **ícone de engrenagem** no canto superior direito.
 
@@ -56,8 +56,7 @@ Para auditar os registos do Power BI, tem visitar o Centro de Segurança e Confo
 
 Em alternativa, pode navegar para [Office 365 | Segurança e Conformidade](https://protection.office.com/#/unifiedauditlog).
 
-> [!NOTE]
-> Para fornecer contas de não-administrador com acesso ao registo de auditoria, terá de atribuir permissões no Centro de Administração do Exchange Online. Por exemplo, pode atribuir um utilizador a um grupo de funções existente, como Gestão da Organização, ou pode criar um novo grupo de funções com a função Registos de Auditoria. Para obter mais informações, consulte [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
+Para fornecer contas de não-administrador com acesso ao registo de auditoria, terá de atribuir permissões no Centro de Administração do Exchange Online. Por exemplo, pode atribuir um utilizador a um grupo de funções existente, como Gestão da Organização, ou pode criar um novo grupo de funções com a função Registos de Auditoria. Para obter mais informações, consulte [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
 
 ## <a name="search-only-power-bi-activities"></a>Procurar apenas atividades do Power BI
 

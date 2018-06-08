@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23262d16993043bff90b50ccd55dc7903c5fc23b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 09322a1ead6ae4c3a00dc42e2b4a642dcc2d6181
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34291748"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584145"
 ---
 # <a name="basic-area-chart"></a>Gráfico de Área básico
 O gráfico de área básico (também conhecido como gráfico de área em camadas) baseia-se no gráfico de linhas. A área entre o eixo e a linha é preenchida com cores para indicar o volume. 
@@ -62,7 +62,9 @@ Para obter informações sobre como utilizar o painel FILTROS, veja [Adicionar u
 
 Para realçar uma área específica no gráfico, selecione essa área ou o respetivo limite superior.  Ao contrário de outros tipos de visualização, se existirem outras visualizações na mesma página, realçar um gráfico de área básico não realiza a filtragem cruzada de outras visualizações na página do relatório. No entanto, os gráficos de área são um alvo de filtragem cruzada acionado por outras visualizações na página do relatório. Para obter mais informações, veja [Interações visuais nos relatórios](service-reports-visual-interactions.md)
 
-## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas   
+* [Tornar o relatório mais acessível para pessoas portadoras de deficiência](desktop-accessibility.md)
 * Os gráficos de área básicos não são eficazes para comparar os valores devido à oclusão nas áreas em camadas. O Power BI utiliza transparência para indicar a sobreposição das áreas. No entanto, só funciona corretamente com duas ou três áreas diferentes. Quando precisar comparar tendências para mais de três medidas, tente usar os gráficos de linhas. Quando precisar de comparar volume para mais de três medidas, tente usar os gráficos de linhas.
 
 ## <a name="next-steps"></a>Passos seguintes

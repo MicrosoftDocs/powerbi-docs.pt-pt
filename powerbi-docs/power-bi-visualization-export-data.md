@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584168"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de visualizações
 Se pretende ver os dados que são utilizados para criar uma visualização, pode [apresentar os dados no Power BI](service-reports-show-data.md) ou exportar esses dados para o Excel como um ficheiro .xlsx ou .csv.   
@@ -31,7 +32,7 @@ Veja o Will a exportar os dados a partir de uma das visualizações no seu relat
 2. Escolha o ícone **Exportar dados**.
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. Os dados são exportados para um ficheiro .csv. Se o elemento visual estiver filtrado, os dados transferidos também estarão filtrados.
+3. Os dados são exportados para um ficheiro .csv. Se o elemento visual estiver filtrado, os dados transferidos também estarão filtrados.    
 4. O browser pedirá para guardar o ficheiro.  Depois de guardado, abra o ficheiro .csv no Excel.
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Para acompanhar, abra o [relatório de Exemplo de análise de aprovisionamento](
 * O Power BI suporta apenas a exportação em elementos visuais que utilizam agregações básicas. A exportação não está disponível para os elementos visuais que utilizam medidas de relatório ou modelo.
 * Atualmente, não são suportados elementos visuais personalizados e elementos visuais R.
 * A exportação de dados não está disponível para utilizadores fora da sua organização que utilizem um dashboard que foi partilhado com os mesmos. 
+* No Power BI, é possível mudar o nome de um campo (coluna) ao fazer duplo clique no campo e escrever um novo nome.  Este novo nome é designado por *alias*. Um relatório do Power BI pode ficar com nomes de campos duplicados, mas o Excel não permite duplicados.  Por isso, quando os dados são exportados para o Excel, os alias dos campos são revertidos para os respetivos nomes de campos (colunas) originais.  
 * Se existir um caráter unicode no ficheiro .csv, o texto no Excel pode não aparecer corretamente. Contudo, se abrir o ficheiro no Bloco de notas, o texto será apresentado corretamente. Exemplos de carateres unicode são símbolos de moeda e palavras estrangeiras. A solução para este problema consiste em importar o ficheiro csv para o Excel, em vez de abrir o csv diretamente. Para tal:
   
   1. Abrir o Excel

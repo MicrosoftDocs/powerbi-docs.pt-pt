@@ -8,22 +8,22 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8be938b1a75f754b7c23a57a5a0ccfdb4e60032b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561891"
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Gerar automaticamente as informações de dados com o Power BI
 Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
 
 Execute as informações rápidas para gerar visualizações interativas e interessantes com base nos seus dados. As informações rápidas podem ser executadas num conjunto de dados inteiro (informações rápidas) ou num mosaico específico do dashboard (informações de confinadas). Pode até executar informações numa informação!
 
-> **NOTA**: as informações não são compatíveis com o DirectQuery. Só funcionam com dados carregados para o Power BI.
-> 
+> **NOTA**: as Informações não são compatíveis com o DirectQuery. Só funcionam com dados carregados para o Power BI.
 > 
 
 A funcionalidade de informações é criada com base num [conjunto de algoritmos de análise avançados](service-insight-types.md) crescente, desenvolvido em conjunto com o Microsoft Research, que continuaremos a utilizar para permitir que mais pessoas descubram informações nos dados de formas novas e intuitivas.

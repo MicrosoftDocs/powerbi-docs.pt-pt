@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/09/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e36f8596141ab5d7ad82ffecb808b7d684334923
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 55d6259c3ae044d395bd0b077577856dd88ff43c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720771"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados às quais pode ligar e obter acesso aos dados. Este artigo descreve as origens de dados do Power BI que suportam o método de ligação conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, veja [**DirectQuery no Power BI**](desktop-directquery-about.md).
@@ -41,6 +42,10 @@ As seguintes origens de dados suportam o DirectQuery no Power BI:
 As origens de dados com **(Beta)** ou **(Pré-visualização)** após o respetivo nome estão sujeitas a alterações e não são suportadas para utilização em produção. Também poderão não ser suportadas depois de publicar um relatório para o **serviço Power BI**, o que significa que abrir um relatório publicado ou explorar o conjunto de dados pode resultar num erro.
 
 A única diferença entre as origens de dados **(Beta)** e **(Pré-visualização)** é que as origens **(Pré-visualização)** têm de ser ativadas como uma funcionalidade de Pré-visualização antes de ficarem disponíveis para utilização. Para ativar um conector de dados **(Pré-visualização)**, no **Power BI Desktop** aceda a **Ficheiro > Opções e Definições > Opções** e, em seguida, selecione **Funcionalidades de pré-visualização**.
+
+> [!NOTE]
+> As consultas de DirectQuery para o SQL Server exigem autenticação com credenciais atuais do Windows ou credenciais de bases de dados para estabelecer acesso. Não são suportadas credenciais alternativas.
+>
 
 ## <a name="on-premises-gateway-requirements"></a>Requisitos do gateway no local
 A seguinte tabela especifica se um **Gateway de dados no local** é necessário para ligar à origem de dados especificada, após a publicação de um relatório para o **serviço Power BI**.

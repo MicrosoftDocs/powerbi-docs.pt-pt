@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584306"
+ms.locfileid: "34755145"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -92,7 +92,7 @@ Ao clicar em **Ir para o Centro de Administração do O365**, acede diretamente 
 
 ## <a name="audit-logs"></a>Registos de auditoria
 
-O terceiro separador no portal de administração é **Registos de auditoria**. Os registos estão localizados no Centro de Conformidade e Segurança do Office 365. Esta secção permite aceder rapidamente a essa área no Office 365. 
+O terceiro separador no portal de administração é **Registos de auditoria**. Os registos estão localizados no Centro de Conformidade e Segurança do Office 365. Esta secção permite aceder rapidamente a essa área no Office 365.
 
 Para obter mais informações sobre registos de auditoria, veja [Auditoria do Power BI na sua organização](service-admin-auditing.md)
 
@@ -227,8 +227,6 @@ Os utilizadores na organização podem utilizar a visualização ArcGIS Maps par
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Ativar os elementos visuais personalizados para toda a organização
 Os utilizadores na organização podem interagir e partilhar elementos visuais personalizados. [Saiba mais](power-bi-custom-visuals.md)
 
-![Definições de elementos visuais personalizados](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
 
@@ -247,7 +245,7 @@ Os utilizadores na organização podem interagir e partilhar elementos visuais c
 
 Os utilizadores na organização podem utilizar a auditoria para monitorizar as ações executadas no Power BI por outros utilizadores na organização. [Saiba mais](service-admin-auditing.md)
 
-Esta definição tem de estar ativada para as entradas de registo de auditoria serem registadas.
+Esta definição tem de estar ativada para as entradas de registo de auditoria serem registadas. Pode existir um intervalo de 48 horas entre a ativação da auditoria e a capacidade de ver os dados da mesma. Se não vir logo os seus dados, consulte os registos de auditoria mais tarde. Pode existir um intervalo de tempo semelhante entre obter a permissão para ver os registos de auditoria e ter acesso aos mesmos.
 
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.

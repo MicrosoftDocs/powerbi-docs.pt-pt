@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722549"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar um relatório do serviço Power BI para Desktop (pré-visualização)
 No Power BI Desktop, pode exportar (ou *transferir*) um relatório para o serviço Power BI ao guardar o relatório e selecionar **Publicar**. Também pode exportar na outra direção e transferir um relatório do serviço Power BI para Desktop. A extensão dos ficheiros exportados é *.pbix* em ambas as direções.
@@ -57,6 +58,7 @@ Existem algumas considerações e limitações importantes associadas à transfe
 * Esta funcionalidade não é compatível com relatórios originalmente criados no **serviço Power BI**, incluindo pacotes de conteúdos.
 * Deve sempre utilizar a versão mais recente do **Power BI Desktop** ao abrir ficheiros transferidos. Os ficheiros *.pbix* transferidos poderão não ser abertos em versões não atuais do **Power BI Desktop**.
 * Se o seu administrador tiver desativado a capacidade de exportar dados, esta funcionalidade não estará visível no **serviço Power BI**.
+* Não é possível transferir um conjunto de dados com atualização incremental para um ficheiro *.pbix*.
 
 ## <a name="next-steps"></a>Próximos passos
 Veja o vídeo de um minuto do canal **Guy in a Cube** sobre esta funcionalidade:

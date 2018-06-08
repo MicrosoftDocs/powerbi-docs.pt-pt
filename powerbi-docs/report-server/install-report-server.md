@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721737"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -129,9 +130,9 @@ Terá de abrir a porta TCP que configurou para o seu URL de Serviço Web e URL d
 * Para configurar o e-mail para o processamento de subscrições, consulte [Definições de e-mails](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) e [Entrega de e-mails num servidor de relatório](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
 * Para configurar o portal Web para que possa aceder ao mesmo num computador de relatório para ver e gerir relatórios, consulte [Configurar uma firewall para acesso ao servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) e [Configurar um servidor de relatórios para administração remota](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
 
-## <a name="next-steps"></a>Passos seguintes
-[Manual do administrador](admin-handbook-overview.md)  
-[Como encontrar a sua chave de produto de servidor de relatório](find-product-key.md)  
+## <a name="next-steps"></a>Próximos passos
+[Descrição geral para administradores](admin-handbook-overview.md)  
+[Como encontrar a chave de produto do servidor de relatórios](find-product-key.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
 [Verificar uma instalação do Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Configurar a conta de serviço do servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

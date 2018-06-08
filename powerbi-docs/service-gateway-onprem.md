@@ -1,5 +1,5 @@
 ---
-title: Gateway de dados local
+title: Gateway de dados no local
 description: Esta é uma descrição geral do Gateway de dados no local do Power BI. Pode utilizar este gateway para trabalhar com origens de dados de DirectQuery. Também pode utilizar este gateway para atualizar os conjuntos de dados na cloud com dados no local.
 author: mgblythe
 manager: kfile
@@ -10,13 +10,14 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722822"
 ---
-# <a name="on-premises-data-gateway"></a>Gateway de dados local
+# <a name="on-premises-data-gateway"></a>Gateway de dados no local
 
 O Gateway de dados no local funciona como uma ponte ao proporcionar a transferência rápida e segura de dados entre os dados no local (dados que não estão na cloud) e os serviços Power BI, Microsoft Flow, Logic Apps e PowerApps.
 
@@ -93,13 +94,18 @@ Quando adiciona uma origem de dados ao gateway, é necessário fornecer credenci
 
 Atualmente, não existe um único lugar onde os administradores de inquilinos possam gerir todos os gateways que outros utilizadores tenham instalado e configurado.  Se é um administrador de inquilino, recomendamos que peça aos utilizadores na sua organização para o adicionarem como administrador em cada gateway que instalarem. Isto permite-lhe gerir todos os gateways na sua organização através da página Definições do Gateway ou através de [comandos do PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
+## <a name="enabling-outbound-azure-connections"></a>Ativar as ligações de saída do Azure 
+O Gateway de dados no local baseia-se no Azure Service Bus para conectividade da cloud e estabelece ligações de saída de forma correspondente com a respetiva região do Azure associada. Por predefinição, esta é a localização do seu inquilino do Power BI. Veja [Onde está localizado o meu inquilino do Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Se uma firewall estiver a bloquear ligações de saída, tem de a configurar para permitir ligações de saída do Gateway de dados no local para a respetiva região do Azure associada. Veja [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Intervalos de IP do Microsoft Azure Datacenter) para obter detalhes sobre os intervalos de endereço IP de cada datacenter do Azure.
+> [!NOTE]
+> Os intervalos de endereço IP podem ser alterados ao longo do tempo, por isso certifique-se de que transfere as informações mais recentes regularmente. 
 
-## <a name="troubleshooting"></a>Resolução de Problemas
+## <a name="troubleshooting"></a>Resolução de problemas
 Se tiver problemas ao instalar e configurar um gateway, veja [Resolver problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md). Se pensa que está a ter um problema com a firewall, veja a secção [firewall ou proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) do artigo de resolução de problemas.
 
 Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  

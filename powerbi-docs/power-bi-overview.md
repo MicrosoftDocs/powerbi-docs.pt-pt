@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 05/07/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 697757b34b6b71d60991298396dfb0d95e081911
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: b91c7b4bc96ea5b3f1e4a8db844ef6d9987c9b38
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34240702"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584191"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicações e conectores que funcionam em conjunto para transformar as origens de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Quer os seus dados sejam uma folha de cálculo do Excel simples ou uma coleção de armazéns de dados híbridos no local e baseados na cloud, o **Power BI** permite-lhe ligar facilmente às suas origens de dados, visualizar (ou detetar) o que é importante e partilhá-lo com qualquer pessoa ou com todas as pessoas que quiser.
@@ -55,5 +55,5 @@ Crie, implemente e gira relatórios paginados, móveis e do Power BI no local co
 
 O Power BI Report Server é uma solução que o utilizador implementa por trás da firewall e que, em seguida, fornece os seus relatórios aos utilizadores corretos de várias formas, sejam elas através da visualização num browser, num dispositivo móvel ou como uma mensagem de e-mail. E, porque o Power BI Report Server é compatível com o Power BI na cloud, pode passar para a cloud quando estiver preparado. 
 
-## <a name="next-steps"></a>Próximos passos
-[Iniciar sessão e ligar-se a um serviço](/power-bi/service-tutorial-connect-to-github.md)
+## <a name="next-steps"></a>Passos seguintes
+[Iniciar sessão, obter alguns dados e saber como utilizar o serviço Power BI](service-the-new-power-bi-experience.md)

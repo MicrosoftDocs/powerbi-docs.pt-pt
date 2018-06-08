@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481906"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 Além de visualizar relatórios do Power BI no portal Web, o Power BI Report Server pode alojar livros do Excel através do [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). O servidor de relatórios torna-se uma localização única para publicar e visualizar o conteúdo do Microsoft BI com gestão personalizada.
@@ -166,8 +167,8 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 * A capacidade de ver os livros do Excel no Power BI Report Server está atualmente em pré-visualização.
 * Terá apenas a capacidade de leitura nos livros.
 
-## <a name="next-steps"></a>Passos seguintes
-[Manual do administrador](admin-handbook-overview.md)  
+## <a name="next-steps"></a>Próximos passos
+[Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

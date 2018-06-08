@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799493"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Utilizar os dados de tabela do Analysis Services no Power BI Desktop
 Com o Power BI Desktop, existem duas formas de ligar e obter dados dos modelos Tabulares do SQL Server Analysis Services: explorar através de uma ligação dinâmica ou selecionar itens e importá-los para o Power BI Desktop.
@@ -84,4 +85,10 @@ Depois de criar um ficheiro do Power BI Desktop com uma ligação dinâmica de e
 2. Introduza o nome do novo servidor.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>Resolução de problemas 
+A lista seguinte descreve todos os problemas conhecidos ao ligar-se ao SQL Server Analysis Services (SSAS) ou ao Azure Analysis Services. 
+
+* **Erro: não foi possível carregar o esquema do modelo**. Normalmente, este erro ocorre quando o utilizador que se liga ao Analysis Services não tem acesso à base de dados/modelo.
 

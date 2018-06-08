@@ -1,25 +1,25 @@
 ---
-title: Aplicação Power BI for Mixed Reality (Pré-visualização)
-description: Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality no mundo virtual ou no contexto do seu ambiente.
+title: Aplicação Power BI for Mixed Reality (Preview)
+description: Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou no contexto do seu ambiente.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721438"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799332"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
-Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
+# <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Preview)
+Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
 
-Transfira a edição de pré-visualização da aplicação Power BI for Mixed Reality da Microsoft Store para ver os seus dashboards e relatórios. Interaja com os dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
+[Transfira a aplicação Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Microsoft Store. Na Microsoft Store, está com o nome "Power BI Mobile". Interaja com os seus dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Duas vistas: vista clássica do Windows e vista holográfica
 

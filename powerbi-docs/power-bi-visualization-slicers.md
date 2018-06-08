@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297360"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721507"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 Quer que os leitores de relatórios consigam observar as métricas gerais das vendas e, ao mesmo tempo, consigam realçar o desempenho dos Gestores Distritais individuais e os diferentes períodos de tempo. Pode criar relatórios separados ou gráficos comparativos ou pode utilizar segmentações de dados. A segmentação de dados é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório. 
@@ -43,6 +43,13 @@ As segmentações de dados do Power BI têm as seguintes limitações:
 ## <a name="create-slicers"></a>Criar segmentações de dados
 
 Para criar uma nova segmentação de dados, pode selecionar o ícone de segmentação de dados e, em seguida, selecionar o campo de dados para filtrar (ou arrastá-lo para a caixa **Campos** no painel **Visualizações**). Em alternativa, pode selecionar ou arrastar o campo de dados primeiro para criar uma visualização e, em seguida, selecionar o ícone de segmentação de dados para transformar a visualização numa segmentação de dados. Tipos de dados diferentes criam tipos de segmentações de dados diferentes, com efeitos e opções diferentes. 
+
+A primeira vez que alterar um relatório, o botão **Repor para predefinição** será realçado. Trata-se de um lembrete para informar que fez uma alteração às definições originais do relatório. Se sair do relatório, essa alteração será guardada (persistirá). Quando regressar ao relatório, não tem de voltar a segmentar o relatório.  No entanto, se quiser repor o relatório para as predefinições do autor, selecione o botão **Repor para predefinição** na barra de menus superior.
+
+![reverter para o botão predefinido](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Se o botão **Repor para predefinição** continuar desativado, significa que o autor do relatório desativou a funcionalidade para o relatório ou que o relatório contém um elemento visual personalizado. Basta pairar o rato sobre o botão para ler uma explicação. 
 
 **Criar uma nova segmentação de dados para filtrar dados por Gestor Distrital**
 

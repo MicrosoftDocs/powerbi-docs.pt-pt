@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584076"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Afixar um mosaico num dashboard do Power BI a partir do Excel
 Para poder afixar um mosaico a partir do livro do Excel, primeiro terá de ligar esse livro ao serviço Power BI (app.powerbi.com). Ligar um livro coloca, essencialmente, uma versão só de leitura ligada desse livro no serviço Power BI e permite-lhe afixar intervalos a dahboards. Pode até afixar uma folha de cálculo inteira a um dashboard.  
@@ -65,7 +66,7 @@ Uma forma de adicionar um novo [mosaico do dashboard](service-dashboard-tiles.md
     ![Caixa de diálogo Afixado ao dashboard](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Selecione **Ir para o dashboard**. A partir daqui, pode [mudar o nome, redimensionar, ligar e mover](service-dashboard-edit-tile.md) a visualização afixada. Por predefinição, selecionar o mosaico afixado abre o livro no Power BI.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Afixar um gráfico dinâmico ou toda uma tabela a um dashboard
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Afixar uma tabela ou tabela dinâmica inteira a um dashboard
 Siga os passos acima, mas em vez de selecionar um intervalo de células, selecione uma tabela inteira ou uma tabela dinâmica.
 
 Para afixar uma tabela, selecione o intervalo inteiro da tabela e certifique-se de que inclui os cabeçalhos.  Para afixar uma tabela dinâmica, certifique-se de que inclui todas as partes visíveis da tabela dinâmica, incluindo os filtros, caso sejam utilizados.

@@ -1,28 +1,20 @@
 ---
 title: Gerir conteúdo no portal Web do Power BI Report Server
 description: Leia sobre a gestão de conteúdo no portal Web do Power BI Report Server.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/07/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 9b896c9db6c1368c5e435df21c28cd99b8dda15f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33892514"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721714"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gerir conteúdo no portal Web 
 O portal Web do Power BI Report Server é uma localização no local para ver, armazenar e gerir relatórios móveis paginados do Power BI e KPIs.
@@ -75,9 +67,7 @@ O Power BI Report Server disponibiliza um controlo detalhado dos itens que armaz
 Leia mais sobre [Trabalhar com subscrições no portal Web](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
 
 ## <a name="next-steps"></a>Próximos passos
-[Manual do utilizador](user-handbook-overview.md)  
-[Relatórios paginados](quickstart-create-paginated-report.md)  
-[Relatórios do Power BI](quickstart-create-powerbi-report.md)
+[O que é o Power BI Report Server?](get-started.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

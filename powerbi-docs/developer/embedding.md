@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561753"
 ---
 # <a name="embedding-with-power-bi"></a>Incorporação com o Power BI
 O Power BI oferece APIs para incorporar os seus dashboards e relatórios em aplicações. As APIs do Power BI oferecem um conjunto consistente de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho de aplicações, ao incorporar conteúdos.
@@ -32,11 +33,13 @@ A incorporação para a sua organização permite-lhe alargar o serviço Power B
 
 Para incorporação na sua organização, consulte o seguinte:
 
+* [Integrar uma relatório numa aplicação](integrate-report.md)
 * [Integrar um dashboard numa aplicação](integrate-dashboard.md)
 * [Integrar um mosaico numa aplicação](integrate-tile.md)
-* [Integrar uma relatório numa aplicação](integrate-report.md)
 
 Capacidades self-service, como editar, guardar, entre outras, estão disponíveis na [API do JavaScript](https://github.com/Microsoft/PowerBI-JavaScript) na incorporação para utilizadores do Power BI.
+
+Pode utilizar a [Ferramenta de experiência de inclusão para incorporar para a sua organização](https://aka.ms/embedsetup/UserOwnsData) e começar a utilizar e transferir rapidamente uma aplicação de exemplo que o orienta ao longo da integração de um relatório para a sua organização.
 
 ## <a name="embedding-for-your-customers"></a>Incorporar para os seus clientes
 A incorporação para os seus clientes permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Os seus clientes não precisam de ter conhecimentos sobre o Power BI. É necessária, no mínimo, uma conta do Power BI Pro para criar uma aplicação incorporada. A conta do Power BI Pro atua como uma conta principal para a sua aplicação. É como se fosse uma conta proxy. A conta do Power BI Pro também permite gerar tokens de incorporação que fornecem acesso a dashboards e relatórios no serviço Power BI que são propriedade da/geridos pela sua aplicação. 
@@ -50,11 +53,12 @@ Para incorporar dashboards, relatórios e mosaicos, utiliza-se a mesma API que s
 > [!IMPORTANT]
 > Apesar de a incorporação ter uma dependência no serviço Power BI, não existe uma dependência no Power BI para os seus clientes. Os utilizadores não terão de se inscrever no Power BI para ver o conteúdo incorporado na aplicação.
 > 
-> 
 
 Quando estiver pronto para passar à produção, terá de ser atribuída uma capacidade à sua área de trabalho de aplicação. O Power BI Embedded, no Microsoft Azure, disponibiliza a capacidade de utilização com as suas aplicações.
 
 Para obter detalhes sobre como incorporar, consulte [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embedding-content.md).
+
+Pode utilizar a [Ferramenta de experiência de inclusão para incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData) e começar a utilizar e transferir rapidamente uma aplicação de exemplo que o orienta ao longo da integração de um relatório na sua aplicação.
 
 Se estava a utilizar o serviço Coleções de Áreas de Trabalho do Power BI no Power BI, consulte [Migrar conteúdos do serviço do Azure Coleções de Áreas de Trabalho do Power BI](migrate-from-powerbi-embedded.md) para obter informações sobre como migrar os seus conteúdos.
 

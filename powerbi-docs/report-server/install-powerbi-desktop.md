@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310412"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481837"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
 Saiba como instalar o Power BI Desktop otimizado para o Power BI Report Server.
@@ -103,9 +103,7 @@ Se o seu servidor de relatórios se encontrar numa versão anterior, irá precis
 Agora que o Power BI Desktop está instalado, pode começar a criar relatórios do Power BI.
 
 [Criar um relatório do Power BI para o Power BI Report Server](quickstart-create-powerbi-report.md)  
-[Introdução ao Power BI Desktop](../desktop-getting-started.md)  
-Aprendizagem orientada: [Introdução ao Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
-[Descrição geral do manual de utilizador, Power BI Report Server](user-handbook-overview.md)
+[O que é o Power BI Report Server?](get-started.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

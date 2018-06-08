@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561454"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Sobre filtros e realces em relatórios do Power BI
 Os ***Filtros*** removem tudo, menos os dados em que se pretende focar.  O ***Destaque*** não filtra, pois não remove dados, mas realça um subconjunto dos dados visíveis; os dados não realçados permanecem visíveis, mas obscurecidos.
@@ -77,7 +78,7 @@ Selecione um filtro na tela de relatório para filtrar e realçar o resto da pá
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-Ao sair do relatório, as suas alterações são guardadas. Para anular a sua filtragem, selecione **Repor para predefinição** na barra de menus superior.
+Ao sair do relatório, as suas alterações são guardadas. Para anular a sua filtragem e voltar à filtragem, repartição, exploração e ordenação predefinidas definidas pelo autor do relatório, selecione **Repor para predefinição** na barra de menus superior.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

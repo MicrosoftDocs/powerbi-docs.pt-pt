@@ -3,25 +3,25 @@ title: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação Web com as APIs do Power BI para os seus clientes.
 author: markingmyname
 ms.author: maghan
-ms.date: 05/07/2018
+ms.date: 05/25/2018
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: ae683dfbeb7b3848575ab766c33b695eb823d497
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2018
-ms.locfileid: "34445239"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721047"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: incorporar um relatório, dashboard ou mosaico do Power BI numa aplicação para os seus clientes
 Com o **Power BI Embedded no Azure**, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através do esquema **Dados Pertencem à Aplicação**. No esquema **Dados Pertencem à Aplicação** existe uma aplicação que utiliza o Power BI como plataforma de análise incorporada. Normalmente, este é um cenário de **ISV/programador**. Como um **ISV/programador**, pode criar conteúdos do Power BI para apresentar relatórios, dashboards ou mosaicos numa aplicação totalmente integrada e interativa, sem precisar que os utilizadores da aplicação tenham uma licença do Power BI ou percebam que se trata do Power BI. Este tutorial demonstra como integrar um relatório numa aplicação com o .NET SDK do **Power BI** em conjunto com a API de JavaScript do **Power BI** quando utilizar o **Power BI Embedded no Azure** para os seus clientes que utilizam o esquema **Dados Pertencem à Aplicação**.
 
 Neste tutorial, vai aprender a:
 >[!div class="checklist"]
->* Registar uma aplicação no Azure.
+>* Registe uma aplicação no Azure.
 >* Incorporar um relatório do Power BI numa aplicação.
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -36,6 +36,9 @@ Para começar, precisa de uma conta do **Power BI Pro**, que será a sua **conta
 
 Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente está configurado para permitir a incorporação. Como parte da configuração, terá de fazer o seguinte.
 
+Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup/AppOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório.
+
+No entanto, se optar por configurar o ambiente manualmente, pode continuar abaixo.
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registar uma aplicação no Azure Active Directory (Azure AD)
 
 Pode registar a aplicação com o Azure Active Directory para permitir que a aplicação aceda às APIs REST do Power BI. Este procedimento permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
@@ -51,7 +54,7 @@ Pode registar a aplicação com o Azure Active Directory para permitir que a apl
     ![Pesquisa de registo de aplicações](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Registo de nova aplicação](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. Siga as instruções e crie uma nova aplicação. Para esquemas Dados Pertencem à Aplicação, tem de utilizar o tipo de aplicação **Nativo**. Também precisa de um **URI de Redirecionamento**, que o **Azure AD** utiliza para devolver respostas de token. Introduza um valor específico na aplicação (por exemplo: http://localhost:13526/redirect).
+4. Siga as instruções e crie uma nova aplicação. Para estruturas “os dados pertencem à aplicação”, tem de utilizar **Nativo** para o tipo de aplicação. Também precisa de um **URI de Redirecionamento**, que o **Azure AD** utiliza para devolver respostas de token. Introduza um valor específico na aplicação (por exemplo: http://localhost:13526/redirect).
 
     ![Criar Aplicação](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
@@ -153,9 +156,9 @@ A incorporação para os seus clientes na sua aplicação precisa que obtenha um
 
 Siga estes passos para começar a incorporar os seus conteúdos através de uma aplicação de exemplo.
 
-1. Para começar, transfira o [exemplo App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples) (Dados Pertencem à Aplicação) a partir do GitHub.
+1. Transfira o [exemplo de estrutura Os Dados Pertencem à Aplicação](https://github.com/Microsoft/PowerBI-Developer-Samples) a partir do GitHub para começar.
 
-    ![Exemplo de aplicação App Owns Data (Dados Pertencem à Aplicação)](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
+    ![Exemplo de aplicação Os Dados Pertencem à Aplicação](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
 2. Abra o ficheiro Web.config da aplicação de exemplo. Existem 5 campos que terá de preencher para executar a aplicação com êxito. O **clientID**, o **groupId**, o **reportId**, o **pbiUsername** e o **pbiPassword**.
 

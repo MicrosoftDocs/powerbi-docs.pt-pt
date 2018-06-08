@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561799"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado por nome de loja.
@@ -29,6 +30,13 @@ Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualiza
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **NOTA**: nem todos os elementos visuais podem ser ordenados.  Por exemplo, os seguintes visuais não podem ser ordenados: Treemap, Mapa, Mapa de Manchas, Dispersão, Medidor, Cartão, Cartão de Linhas Múltiplas e Cascata.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
+Os relatórios do Power BI mantêm os filtros, as segmentações de dados, a ordenação e outras alterações que fizer à vista de dados. Por isso, se sair de um relatório e regressar mais tarde, as alterações são guardadas.  Se quiser reverter as alterações para as definições do autor do relatório, selecione **Repor para predefinição** na barra de menus superior. 
+
+![Ordenação persistente](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+Se, no entanto, o botão **Repor para predefinição** for apresentado a cinzento, isso significa que o autor do relatório desativou a capacidade de guardar (fazer persistir) as suas alterações.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Ordenar através de outros critérios

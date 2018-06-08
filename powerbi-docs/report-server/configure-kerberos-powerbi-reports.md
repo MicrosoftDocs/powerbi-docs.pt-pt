@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481791"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configure o Kerberos para usar relatórios do Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -213,8 +214,8 @@ Depois de todas as configurações acima estarem implementadas, o relatório dev
 
 Embora esta configuração funcione na maioria dos casos, no caso do Kerberos, pode haver uma configuração diferente consoante o seu ambiente. Se mesmo assim o relatório não for carregado, é melhor contactar o seu administrador de domínio para uma investigação posterior ou contacte o suporte.
 
-## <a name="next-steps"></a>Passos seguintes
-[Manual do administrador](admin-handbook-overview.md)  
+## <a name="next-steps"></a>Próximos passos
+[Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

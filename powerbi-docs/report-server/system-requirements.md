@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481753"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de software e hardware para instalar o Power BI Report Server
 Irá encontrar aqui os requisitos mínimos de hardware e software para instalar e executar o Power BI Report Server.
@@ -57,7 +58,7 @@ O Power BI Report Server irá instalar os valores predefinidos para configurar a
  Apesar de o servidor de relatórios poder ser instalado num ambiente com um Controlador de Domínio Só de Leitura (RODC), o Reporting Services requer acesso a um Controlador de Domínio para funcionar devidamente. Se o Reporting Services tiver acesso apenas a um RODC, poderá encontrar erros ao tentar administrar o serviço.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Ligações em direto do Analysis Services e relatórios do Power BI
-Pode utilizar uma ligação em direto contra instâncias em tabela ou multidimensionais. O seu servidor do Analysis Services tem de ser a versão e edição correta para funcionar devidamente.
+Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensionais. O seu servidor do Analysis Services tem de ser a versão e edição correta para funcionar devidamente.
 
 | **Versão do servidor** | **SKU necessário** |
 | --- | --- |
@@ -65,9 +66,9 @@ Pode utilizar uma ligação em direto contra instâncias em tabela ou multidimen
 | 2014 |Business Intelligence e SKU Enterprise |
 | 2016 e posterior |SKU Standard ou superior |
 
-## <a name="next-steps"></a>Passos seguintes
-[Manual do utilizador](user-handbook-overview.md)  
-[Manual do administrador](admin-handbook-overview.md)  
+## <a name="next-steps"></a>Próximos passos
+[O que é o Power BI Report Server?](get-started.md)  
+[Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

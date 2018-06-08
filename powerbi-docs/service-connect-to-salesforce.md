@@ -7,14 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f5eeb877488539254478ad4bc25d64d663b797f1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722457"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Ligar-se ao Salesforce com o Power BI
 Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. A criação dessa ligação devolver os dados, além de fornecer automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -72,8 +73,13 @@ Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. 
 - A API Relatórios do Salesforce tem uma restrição para suportar até 2000 linhas de dados.
 
 
-## <a name="troubleshooting"></a>Resolução de Problemas
+## <a name="troubleshooting"></a>Resolução de problemas
 Se encontrar algum erro, reveja os requisitos acima. Observe também que não há suporte para a capacidade de início de sessão num domínio personalizado de área atualmente restrita.
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>Mensagem "Não é possível ligar ao servidor remoto"
+
+Se receber a mensagem "Não é possível ligar ao servidor remoto" ao tentar ligar à sua conta do Salesforce, veja esta solução no fórum da Outsystems: [Salesforce Connector Log In Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Mensagem de erro de início de sessão do Conector do Salesforce: Não é possível ligar ao servidor remoto).
+
 
 ## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)

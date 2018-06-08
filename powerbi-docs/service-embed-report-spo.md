@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553571"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -142,7 +143,9 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 
 * Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. Pode ver a [compatibilidade de browsers do Power BI](service-browser-support.md) e do [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-* A peça Web do Power BI não está disponível em [clouds nacionais](https://powerbi.microsoft.com/en-us/clouds/). 
+* A peça Web do Power BI não está disponível para [clouds soberanas](https://powerbi.microsoft.com/en-us/clouds/).
+
+* O SharePoint Server clássico não é suportado com esta peça Web.
 
 ## <a name="next-steps"></a>Próximos passos
 

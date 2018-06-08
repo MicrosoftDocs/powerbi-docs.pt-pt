@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293266"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584237"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Trabalhar com tabelas em relatórios e dashboards do Power BI
 Uma tabela é uma grelha que contém dados relacionados numa série lógica de linhas e colunas. Também pode conter cabeçalhos e uma linha para totais. As tabelas funcionam bem com comparações quantitativas, onde pode observar vários valores para uma única categoria. Por exemplo, esta tabela apresenta 5 medidas diferentes para **Categoria**.
@@ -119,6 +119,9 @@ Com a formatação condicional para tabelas, pode especificar cores de fundo de 
 Por vezes, o Power BI trunca o cabeçalho de uma coluna num relatório e num dashboard. Para mostrar o nome completo da coluna, paire sobre o espaço à direita do cabeçalho para revelar as setas duplas, selecione e arraste.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+* Ao aplicar a formatação em colunas, só pode escolher uma opção de alinhamento por coluna: Automático, À Esquerda, Ao Centro, À Direita. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. No entanto, quando uma coluna tiver números e texto, a opção de alinhamento **Automático** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.   
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

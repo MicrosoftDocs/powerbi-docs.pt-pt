@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53995f0ee723590ae4e419eb62de0d9230deb4b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34298418"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722595"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Gerir um gateway do Power BI
 
@@ -48,7 +48,7 @@ O Power BI suporta várias origens de dados no local, sendo que cada uma delas 
 
 5. Para o SQL Server, deveria escolher um **Método de Autenticação** do **Windows** ou **Básico** (Autenticação SQL).  Se optar por **Básico**, introduza as credenciais da sua origem de dados.
 
-6. Em **Definições avançadas**, opcionalmente, configure o [nível de privacidade]((https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)) da sua origem de dados (não é aplicável ao [DirectQuery](desktop-directquery-about.md)).
+6. Em **Definições avançadas**, opcionalmente, configure o [nível de privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) da sua origem de dados (não é aplicável ao [DirectQuery](desktop-directquery-about.md)).
 
     ![Definições avançadas](media/service-gateway-manage/advanced-settings.png)
 
@@ -151,7 +151,7 @@ Pode remover um gateway se já não estiver a utilizá-lo. No entanto, tenha em 
    ![Remover gateway](media/service-gateway-manage/remove-gateway.png)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Diretrizes para implementar um gateway de dados](service-gateway-deployment-guidance.md)
 

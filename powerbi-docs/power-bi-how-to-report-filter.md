@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721392"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 Este artigo analisa de forma aprofundada o painel Filtros de relatórios. Verá o painel na [Vista de Edição e Vista de Leitura do serviço Power BI](service-reading-view-and-editing-view.md) e na [Vista de Relatório do Power BI Desktop](desktop-report-view.md).
@@ -22,7 +23,7 @@ Este artigo analisa de forma aprofundada o painel Filtros de relatórios. Verá 
 Existem diversas formas de filtrar dados no Power BI e recomendamos que comece por ler [Sobre os filtros e o realce](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-the-report-filters-pane"></a>Trabalhar com o painel Filtros
-No Power BI Desktop, os relatórios são abertos na Vista de Relatório. No serviço Power BI, os relatórios podem ser abertos na [Vista de Edição ou Vista de Leitura](service-reading-view-and-editing-view.md). Na Vista de Edição e na Vista de Relatório da versão Desktop, os proprietários de relatórios podem [adicionar filtros a um relatório](power-bi-report-add-filter.md) e esses filtros serão guardados com o relatório. As pessoas que veem o relatório na Vista de Leitura podem interagir com os filtros, mas não podem adicionar novos filtros ao relatório.
+No Power BI Desktop, os relatórios são abertos na Vista de Relatório. No serviço Power BI, os relatórios podem ser abertos na [Vista de Edição ou Vista de Leitura](service-reading-view-and-editing-view.md). Na Vista de Edição e na Vista de Relatório da versão Desktop, os proprietários de relatórios podem [adicionar filtros a um relatório](power-bi-report-add-filter.md) e esses filtros serão guardados com o relatório. As pessoas que veem o relatório na Vista de Leitura podem interagir com os filtros e guardar as alterações, mas não podem adicionar novos filtros ao relatório.
 
 No serviço Power BI, os relatórios mantêm todas as alterações que fizer no painel Filtros e essas alterações transitam para a versão para dispositivos móveis do relatório. Para repor o painel Filtros para as predefinições do criador, selecione **Repor para predefinição** na barra de menus superior.     
 

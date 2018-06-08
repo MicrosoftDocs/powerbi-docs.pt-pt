@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721116"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço Power BI e pode, tal como as outras pessoas, criar vários relatórios diferentes (em ficheiros .pbix separados) a partir desse mesmo modelo de dados comum. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -35,6 +36,8 @@ Todas as pessoas adoram o seu relatório e conjunto de dados e era aí que come�
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Ligar a um conjunto de dados do serviço Power BI através de uma ligação em direto
 Depois de criar o seu relatório (e o conjunto de dados em que se baseia), a Ana publica-o no **serviço Power BI** e este aparece na área de trabalho da equipa no serviço Power BI. Agora, está disponível para todos na sua área de trabalho para ver e utilizar.
+
+Para saber mais sobre as áreas de trabalho, veja [áreas de trabalho de aplicação](service-create-distribute-apps.md#app-workspaces).
 
 Os outros membros da área de trabalho podem agora estabelecer uma ligação em direto com o modelo de dados partilhada da Ana (através da funcionalidade **ligação em direto do serviço Power BI**) e criar os seus próprios relatórios exclusivos, a partir do *conjunto de dados original*.
 

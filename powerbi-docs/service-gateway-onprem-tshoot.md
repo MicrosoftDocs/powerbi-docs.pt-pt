@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723006"
+ms.locfileid: "34755076"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 Este artigo aborda alguns problemas comuns que poderá encontrar ao utilizar o **Gateway de dados no local**.
@@ -149,6 +149,9 @@ Terá de trabalhar com os administradores de domínios para verificar a relaçã
 **Não é possível visualizar as origens de dados do gateway na experiência “Obter Dados” do Analysis Services a partir do serviço Power BI**
 
 Certifique-se de que a sua conta está listada no separador **Utilizadores** da origem de dados na configuração do gateway. Se não tiver acesso ao gateway, consulte o administrador do gateway e peça-lhe para verificar. Apenas as contas na lista **Utilizadores** irão ver a origem de dados listada na lista do Analysis Services.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Erro: não tem um gateway instalado ou configurado para as origens de dados neste conjunto de dados
+Certifique-se de que adicionou uma ou mais origens de dados ao gateway, conforme descrito em [Adicionar uma origem de dados](service-gateway-manage.md#add-a-data-source). Se o gateway não aparecer no portal de administração em **Gerir gateways**, experimente limpar a cache do browser ou terminar e voltar a iniciar sessão no serviço.
 
 ## <a name="datasets"></a>Conjuntos de dados
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Erro: não existe espaço suficiente para esta linha.
@@ -416,7 +419,7 @@ Receberá a mensagem de erro -10709 Falha na ligação se a sua delegação não
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
-### <a name="refresh-history"></a>Histórico de atualização
+### <a name="refresh-history"></a>Histórico de Atualizações
 Ao utilizar o gateway para a atualização agendada, o **Histórico de Atualizações** pode ajudá-lo a ver os erros que ocorreram, além de fornecer dados úteis caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas e a pedido. Aqui está como pode aceder ao **Histórico de Atualização**.
 
 1. No painel de navegação do Power BI, em **Conjuntos de Dados** , selecione um conjunto de dados &gt; Abrir Menu &gt; **Agendar Atualização**.

@@ -24,3 +24,6 @@ Pode forçar o gateway a comunicar com o Azure Service Bus através de HTTPS, em
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Erro: falha ao adicionar utilizador ao grupo.  (-2147463168   PBIEgwService   Utilizadores de Registo de Desempenho)
 Poderá receber este erro se estiver a tentar instalar o gateway num controlador de domínio. A implementação num controlador de domínio não é suportada. Tem de implementar o gateway num computador que não seja um controlador de domínio.
 
+### <a name="installation-fails"></a>Falhas na instalação
+Poderá deparar-se com falhas na instalação se o software antivírus no computador de instalação estiver desatualizado. Pode atualizar a instalação do antivírus ou desativar o antivírus apenas até a instalação do gateway ser concluída e, em seguida, voltar a ativar o antivírus.
+

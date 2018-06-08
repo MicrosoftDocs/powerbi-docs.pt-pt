@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722960"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dados reais do SQL Server Analysis Services no Power BI
 No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis Services. Em **Obter dados**, pode lugar a um servidor do SQL Server Analysis Services ou a um [ficheiro do Power BI Desktop](service-desktop-files.md) ou [livro do Excel](service-excel-workbook-files.md), já ligado a um servidor do Analysis Services. Como melhor prática, a Microsoft recomenda vivamente que utilize o Power BI Desktop devido à riqueza do conjunto de ferramentas e à capacidade para manter uma cópia de segurança do ficheiro do Power BI Desktop localmente.
@@ -44,9 +45,12 @@ Depois de ligar ao modelo, este será apresentado no site do Power BI em **A Min
 ## <a name="dashboard-tiles"></a>Mosaicos do dashboard
 Se afixar elementos visuais de um relatório no dashboard, os mosaicos afixados serão atualizados automaticamente a cada 10 minutos. Se os dados no servidor do Analysis Services no local forem atualizados, os mosaicos serão atualizados automaticamente após 10 minutos.
 
+## <a name="common-issues"></a>Problemas Comuns
+
+* Erro "Não é possível carregar o esquema do modelo" – Este erro ocorre quando o utilizador que está a ligar ao SSAS não tem acesso à base de dados, ao cubo e ao modelo SSAS.
+
 ## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gerir origens de dados do Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-
