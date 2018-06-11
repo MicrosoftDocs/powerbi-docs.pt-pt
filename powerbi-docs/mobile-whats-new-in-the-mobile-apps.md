@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482182"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799631"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -25,9 +25,26 @@ Para informações sobre “Novidades” relacionadas, veja:
 
 ## <a name="may-2018"></a>May 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurar remotamente as aplicações para iOS do Power BI para servidores de relatórios
+### <a name="mobile-drill-through-all-mobile-apps"></a>Exploração móvel: todas as aplicações móveis
+
+Pode explorar a partir de um ponto de dados selecionado para outra página de relatório nas aplicações móveis, caso o autor do relatório tenha definido essa ação. 
+
+### <a name="back-button-all-mobile-apps"></a>Botão Anterior: todas as aplicações móveis
+
+Agora, quando navegar através de um relatório ao deslizar, ao escolher uma página de relatório na barra de ação ou ao utilizar a exploração, o botão Anterior leva-o de volta à página anterior que estava a procurar. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Temas do dashboard: todas as aplicações móveis
+
+Quando os autores dos relatórios personalizam temas do dashboard no serviço Power BI, o aspeto e funcionalidade do dashboard também serão alterados na aplicação móvel. No entanto, não verá as imagens de fundo.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Configurar o acesso da aplicação móvel do Power BI para iOS a um servidor de relatórios remotamente
 
 O seu administrador de TI pode agora utilizar uma ferramenta MDM para configurar o acesso da aplicação para iOS do Power BI a um servidor de relatórios. Veja [Configurar o acesso da aplicação móvel do Power BI para iOS a um servidor de relatórios remotamente](report-server/configure-powerbi-mobile-apps-remote.md) para obter detalhes.
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
+
+A aplicação Power BI for Mixed Reality está agora na Microsoft Store. Veja os seus dashboards e relatórios enquanto está envolvido pelo mundo virtual ou coloque-os e veja-os em localizações específicas no contexto do seu ambiente. Veja o novo vídeo [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Introdução ao Power BI no HoloLens) para obter contexto ou leia o artigo sobre a nova [Aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md).
+
 
 ## <a name="april-2018"></a>Abril de 2018
 
@@ -62,7 +79,7 @@ Os relatórios do Power BI passaram a ter um botão de atualização na aplicaç
 
 ### <a name="share-reports"></a>Relatórios de partilha
 
-Agora pode partilhar um relatório diretamente a partir de aplicações móveis. Leia mais sobre como [partilhar dashboards e relatórios a partir de aplicações móveis](mobile-share-dashboard-from-the-mobile-apps.md)
+Agora pode partilhar um relatório diretamente a partir de aplicações móveis. Saiba mais sobre como [partilhar dashboards e relatórios a partir de aplicações móveis](mobile-share-dashboard-from-the-mobile-apps.md)
 
 ### <a name="improved-tooltips"></a>Descrições melhoradas
 

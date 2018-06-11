@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722595"
+ms.locfileid: "34755168"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Gerir um gateway do Power BI
 
-Depois de [instalar um gateway de dados do Power BI](service-gateway-install.md), pode geri-lo através da área **Gerir gateways** do serviço Power BI, na aplicação do gateway no computador local e com scripts do PowerShell. Este artigo concentra-se no serviço Power BI. Se instalou recentemente um gateway, recomendamos que [adicione uma origem de dados](#add-a-data-source) e, em seguida, [adicione utilizadores](#add-users-to-a-data-source) para que possam aceder à origem de dados.
+Depois de [instalar um gateway de dados do Power BI](service-gateway-install.md), pode geri-lo com base nos seus requisitos. Neste tópico, vai aprender a: adicionar e remover origens de dados e utilizadores; reiniciar um gateway; e migrar, restaurar, assumir e remover um gateway. 
+
+Pode gerir um gateway através da área **Gerir gateways** do serviço Power BI, na aplicação de gateway no computador local e com scripts do PowerShell. Este artigo concentra-se no serviço Power BI. 
+
+Se instalou recentemente um gateway, recomendamos que [adicione uma origem de dados](#add-a-data-source) e, em seguida, [adicione utilizadores](#add-users-to-a-data-source) para que possam aceder à origem de dados.
 
 
 ## <a name="manage-data-sources"></a>Gerir origens de dados
 
-O Power BI suporta várias origens de dados no local, sendo que cada uma delas tem os seus próprios requisitos. Neste exemplo, vamos mostrar-lhe como adicionar o SQL Server como uma origem de dados, mas os passos são semelhantes para outras origens de dados.
+O Power BI suporta várias origens de dados no local, sendo que cada uma delas tem os seus próprios requisitos. Pode utilizar um gateway para uma única origem de dados ou para múltiplas origens de dados. Neste exemplo, vamos mostrar-lhe como adicionar o SQL Server como uma origem de dados, mas os passos são semelhantes para outras origens de dados.
 
 
 ### <a name="add-a-data-source"></a>Adicionar uma origem de dados
@@ -114,6 +118,14 @@ Quando os administradores utilizam o item de menu **Gerir gateways**, que se enc
 Todos os novos pedidos de **Atualização Agendada** e as operações do DirectQuery são encaminhados automaticamente para a instância principal de um determinado cluster de gateways. Se a instância de gateway principal não está online, o pedido é encaminhado para outra instância de gateway no cluster.
 
 
+## <a name="share-a-gateway"></a>Partilhar um gateway
+
+Não é possível *partilhar* um gateway propriamente dito, mas pode adicionar administradores ao gateway e adicionar utilizadores às origens de dados do gateway. 
+
+Depois de instalar um gateway, por predefinição, torna-se no administrador desse gateway. Conforme mostrado anteriormente, pode adicionar outras pessoas como administradores. Estes administradores podem adicionar origens de dados, configurar e remover o gateway.
+
+Também pode atribuir utilizadores às origens de dados que cria em cada um dos gateways. Os utilizadores podem, em seguida, utilizar estas origens de dados para atualizar os relatórios do Power BI. No entanto, não podem alterar nenhuma das origens de dados ou das definições do gateway.
+
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Migrar, restaurar ou assumir um gateway
 
 Execute o instalador do gateway no computador em que pretende migrar, restaurar ou assumir o gateway.
@@ -151,7 +163,7 @@ Pode remover um gateway se já não estiver a utilizá-lo. No entanto, tenha em 
    ![Remover gateway](media/service-gateway-manage/remove-gateway.png)
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Diretrizes para implementar um gateway de dados](service-gateway-deployment-guidance.md)
 

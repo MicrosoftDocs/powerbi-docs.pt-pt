@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722799"
+ms.locfileid: "34755099"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
 O Power BI Premium fornece recursos dedicados à execução do serviço Power BI para a sua organização ou equipa, dando-lhe um desempenho mais fiável e volumes de dados maiores. O Premium também permite uma distribuição alargada de conteúdos sem que precise de comprar licenças por utilizador para visualizadores.
@@ -31,7 +31,7 @@ A *capacidade partilhada* é a experiência que já conhece no Power BI, onde as
 ## <a name="capacity-tiers"></a>Níveis de capacidade
 Existem dois tipos de capacidade no Power BI. Capacidade partilhada e capacidade Power BI Premium. Eis uma análise às diferenças entre as mesmas.
 
-|  | Capacidade partilhada | Capacidade do Power BI Premium |
+|  | Capacidade partilhada | Capacidade Power BI Premium |
 | --- | --- | --- |
 | **Taxa de atualizações** |8/dia |Sem restrições |
 | **Isolamento com hardware dedicado** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
@@ -61,9 +61,8 @@ Por predefinição, a sua área de trabalho estará na capacidade partilhada. Ta
 ### <a name="premium-capacity-nodes"></a>Nós de capacidade Premium
 O Power BI Premium está disponível em configurações de nós com diferentes capacidades de núcleos virtuais. Para obter mais informações sobre ofertas e custos de SKUs específicos, consulte os [preços do Power BI](https://powerbi.microsoft.com/pricing/). Também está disponível uma [calculadora de custos](https://powerbi.microsoft.com/calculator/). Para obter informações sobre o planeamento de capacidade de análise incorporada, consulte o [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy).
 
-* Os nós P podem ser utilizados em implementações de serviço ou incorporadas
-* Os nós EM podem ser utilizados apenas em implementações incorporadas
-* EM1 e EM2 
+* Os nós P podem ser utilizados em implementações de serviço ou incorporadas.
+* Os nós EM podem ser utilizados apenas em implementações incorporadas. Os nós EM não têm acesso às funcionalidades premium, como a partilha de aplicações para utilizadores que não têm uma licença do Power BI Pro.
 
 >[!NOTE]
 >As ligações nesta tabela só funcionam corretamente para utilizadores que são administradores globais do Office 365. Os outros utilizadores obtêm um erro 404. 
@@ -83,7 +82,7 @@ O Power BI Premium está disponível em configurações de nós com diferentes c
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 O Power BI Premium inclui o direito a executar o Power BI Report Server no local. Para mais informações, consulte [Introdução ao Power BI Report Server](report-server/get-started.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Perguntas Frequentes do Power BI Premium](service-premium-faq.md)  
 [Notas de versão do Power BI Premium](service-premium-release-notes.md)  
 [Como comprar o Power BI Premium](service-admin-premium-purchase.md)  

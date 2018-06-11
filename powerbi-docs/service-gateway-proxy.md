@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722664"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799562"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurar as definições de proxy do Gateway de dados no local
 O seu ambiente de trabalho pode requerer que passe por um proxy para aceder à Internet. Esta configuração poderá impedir o Gateway de dados no local de se ligar ao serviço.
@@ -28,7 +28,7 @@ A seguinte publicação em superuser.com debate como pode tentar determinar se t
 ## <a name="configuration-file-location-and-default-configuration"></a>Configuração predefinida e localização do ficheiro de configuração
 As informações de proxy são configuradas num ficheiro de configuração .NET. A localização e os nomes de ficheiros variam consoante o gateway que está a utilizar.
 
-### <a name="on-premises-data-gateway"></a>Gateway de dados no local
+### <a name="on-premises-data-gateway"></a>Gateway de dados local
 Existem dois ficheiros de configuração principais envolvidos no Gateway de dados no local.
 
 **Configuração**
@@ -50,7 +50,7 @@ A configuração de proxy predefinida é a seguinte.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-A configuração de proxy predefinida é compatível com a autenticação do Windows. Se o seu proxy utiliza outra forma de autenticação, tem de alterar as definições. Se não souber, deverá contactar o seu administrador de rede.
+A configuração de proxy predefinida é compatível com a autenticação do Windows. Se o seu proxy utiliza outra forma de autenticação, tem de alterar as definições. Se não souber, deverá contactar o seu administrador de rede. Não é recomendada a autenticação de proxy básica. A tentativa de utilização da autenticação de proxy básica pode causar erros de autenticação de proxy e resultar na configuração incorreta do gateway. Utilize um mecanismo de autenticação de proxy mais forte para resolver este erro.
 
 Além de utilizar credenciais predefinidas, pode adicionar um elemento <proxy> para determinar as definições do servidor proxy de forma mais específica. Por exemplo, pode especificar que o seu gateway de dados no local deve utilizar sempre o proxy, mesmo para recursos locais, ao definir o parâmetro bypassonlocal como "false". Isto pode ajudar em situações de resolução de problemas, se quiser controlar todos os pedidos https provenientes de um gateway de dados no local, nos ficheiros de registo do proxy. A seguinte configuração de exemplo especifica que todos os pedidos têm de passar por um proxy com o endereço IP 192.168.1.10.
 
@@ -93,8 +93,12 @@ Ao configurar as definições de proxy para utilizar as credenciais predefinidas
 5. Restaure o gateway utilizando a sua chave de recuperação.
    
     Isto irá permitir que a nova conta de serviço consiga desencriptar credenciais armazenadas para origens de dados.
+    
+> [!NOTE]
+> Quando altera a conta de serviço diretamente com o painel de Controlo de Serviços, as ACLs não são atualizadas automaticamente. Tem de garantir que a nova conta de serviço tem acesso à pasta e aos ficheiros de instalação. Pode encontrar a pasta de Instalação do Gateway em C:\Programas\On-premises data gateway. 
+> 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
 [Informações de firewall](service-gateway-onprem-tshoot.md#firewall-or-proxy)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
