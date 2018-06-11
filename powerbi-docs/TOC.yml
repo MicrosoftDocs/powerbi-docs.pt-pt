@@ -1136,6 +1136,8 @@
           href: service-gateway-onprem-manage-oracle.md
         - name: Gerir a sua origem de dados empresarial - atualização importada/agendada
           href: service-gateway-enterprise-manage-scheduled-refresh.md
+        - name: Merge on-premises and cloud data sources (Intercalar origens de dados na nuvem e no local)
+          href: service-gateway-mashup-on-premises-cloud.md
         - name: Utilizar o Kerberos para início de sessão único (SSO)
           href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
         - name: Definir configurações de proxy
