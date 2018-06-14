@@ -4,8 +4,6 @@ Muitos problemas podem surgir quando a versão de gateway está desatualizada.  
 ## <a name="common-issues"></a>Problemas comuns
 Seguem-se alguns problemas comuns e resoluções que ajudaram vários clientes em ambientes que restringem o acesso à Internet.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Autenticação no servidor proxy
 O proxy pode exigir a autenticação de uma conta de utilizador de domínio. Por predefinição, o gateway utiliza um SID de Serviço para o utilizador de início de sessão no serviço Windows. Alterar o utilizador de início de sessão para um utilizador de domínio pode ajudar. Para obter mais informações, veja [Alterar a conta do serviço de gateway para um utilizador de domínio](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user).
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289930"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813095"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Enviar dados por push para a listagem de código completo de um conjunto de dados
 Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -228,7 +228,7 @@ Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dado
 [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)  
 [Obter um conjunto de dados para adicionar linhas numa tabela do Power BI](walkthrough-push-data-get-datasets.md)  
 [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
-[Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 
 

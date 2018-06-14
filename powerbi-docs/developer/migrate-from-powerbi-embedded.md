@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689789"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813509"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
@@ -159,7 +159,7 @@ Além do conteúdo migrado a partir da Coleção de Áreas de Trabalho do Power 
 
 ## <a name="rebuild-your-application"></a>Reconstruir a aplicação
 1. Terá de modificar a sua aplicação para utilizar as APIs REST do Power BI e a localização de relatórios no powerbi.com.
-2. Reconstrua a sua autenticação AuthN/AuthZ com a conta *principal* da aplicação. Pode tirar partido da utilização de um [token de incorporação](https://msdn.microsoft.com/library/mt784614.aspx) para permitir que este utilizador aja em nome de outros utilizadores.
+2. Reconstrua a sua autenticação AuthN/AuthZ com a conta *principal* da aplicação. Pode tirar partido da utilização de um [token de incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken) para permitir que este utilizador aja em nome de outros utilizadores.
 3. Incorpore os relatórios de powerbi.com na sua aplicação.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Mapear os utilizadores para um utilizador do Power BI
@@ -183,7 +183,7 @@ Deve fazer uma limpeza no Azure.
 * Elimine as Coleções de Áreas de Trabalho existentes no Azure.
 
 ## <a name="next-steps"></a>Passos seguintes
-[Incorporação com o Power BI](embedding.md)  
+[Incorporar com o Power BI](embedding.md)  
 [Ferramenta de migração da Coleção de Áreas de Trabalho do Power BI](migrate-tool.md)  
 [Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI](migrate-code-snippets.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md)  
