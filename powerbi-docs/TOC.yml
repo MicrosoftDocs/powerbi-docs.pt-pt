@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: Conceitos
       items:
-        - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Working with Power BI REST APIs (Trabalhar com APIs REST do Power BI)
+          items:
+            - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Power BI REST API limitations (Limitações da API REST do Power BI)
+              href: developer/api-rest-api-limitations.md
+            - name: Dataset properties (Propriedades do conjunto de dados)
+              href: developer/api-dataset-properties.md
+            - name: Data model versioning (Controlo de versões do modelo de dados)
+              href: developer/api-data-model-versioning.md
+        - name: Create a custom visual with the Developer Tools (Criar um elemento visual personalizado com as Ferramentas de Programação)
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Permissões do Power BI
           href: developer/power-bi-permissions.md
         - name: Segurança ao nível da linha (RLS)
@@ -966,8 +976,10 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: Add rows to a table (Adicionar linhas a uma tabela)
               href: developer/walkthrough-push-data-add-rows.md
-            - name: Complete code listing (Listagem de código completo)
+            - name: Listagem de código completo
               href: developer/walkthrough-push-data-complete-code.md
+            - name: Automatic retention policy for real-time data (Política de retenção automática para dados em tempo real)
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: Content Pack Certification (Certificação do Pacote de Conteúdos)
           items:
             - name: Programa de Certificação do Pacote de Conteúdos
