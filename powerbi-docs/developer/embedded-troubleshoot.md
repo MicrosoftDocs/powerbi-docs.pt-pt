@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720817"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813164"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
 
@@ -108,7 +108,7 @@ O GenerateToken pode falhar, com identidade eficaz fornecida, por vários motivo
 
 Para verificar qual é o motivo, experimente o seguinte.
 
-* Execute a operação [get dataset](https://msdn.microsoft.com/library/mt784653.aspx). A propriedade IsEffectiveIdentityRequired é verdadeira?
+* Execute a operação [obter conjunto de dados](https://docs.microsoft.com/rest/api/power-bi/datasets). A propriedade IsEffectiveIdentityRequired é verdadeira?
 * O nome de utilizador é obrigatório para qualquer EffectiveIdentity.
 * Se IsEffectiveIdentityRolesRequired for verdadeiro, é necessária uma Função.
 * DatasetId é obrigatório para qualquer EffectiveIdentity.
@@ -124,7 +124,7 @@ Uma origem de dados pode ter um único conjunto de credenciais para um utilizado
 
 **A composição ou o consumo de conteúdos incorporados falha ou o tempo expira**
 
-Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, consulte [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
+Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, veja [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
 
 **O relatório ou o dashboard não carrega**
 

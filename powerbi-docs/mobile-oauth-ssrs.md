@@ -1,26 +1,27 @@
 ---
-title: Utilizar o OAuth para ligar ao Reporting Services
-description: Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Reporting Services 2016 ou posterior.
+title: Utilizar OAuth para ligar ao Power BI Report Server e SSRS
+description: Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao SQL Server Reporting Services 2016 ou posterior.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852216"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>Utilizar o OAuth para ligar ao Reporting Services
-Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Reporting Services 2016 ou posterior.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
+Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Power BI Report Server e ao SQL Server Reporting Services 2016 ou posterior.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-No passado, a aplicação móvel do Power BI suportava apenas a autenticação básica, através de HTTPS, no Reporting Services, para apresentar Relatórios Móveis ou KPIs. Muitas organizações não permitem este tipo de configuração, devido a problemas de segurança. Com a atualização na aplicação móvel do Power BI, já pode utilizar o OAuth para ligar ao Reporting Services. O Windows Server 2016 inclui algumas melhorias na função do Proxy de Aplicações Web para permitir este tipo de autenticação.
+Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Services para apresentar relatórios móveis ou KPIs. O Windows Server 2016 inclui algumas melhorias na função do Proxy de Aplicações Web (WAP) para permitir este tipo de autenticação. Tenha em atenção que esta configuração não suporta a visualização de relatórios do Power BI nas aplicações móveis do Power BI. No entanto, pode vê-los num browser num dispositivo móvel. Para ver Relatórios do Power BI na aplicação móvel, tem de utilizar a autenticação do Windows.
 
 ## <a name="requirements"></a>Requisitos
 O Windows Server 2016 é necessário para os servidores do Proxy de Aplicações Web (WAP) e dos Serviços de Federação do Active Directory (AD FS). Não precisa de ter um domínio de nível funcional do Windows 2016.
@@ -202,7 +203,8 @@ Depois de selecionar **Iniciar sessão**, verá os elementos do seu servidor do 
 Pode ativar a autenticação multifator para ativar segurança adicional no seu ambiente. Para obter mais informações, veja [Configure AD FS 2016 and Azure MFA (Configurar o AD FS 2016 e o MFA do Azure)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Resolução de problemas
-**Recebe o erro de Falha ao iniciar sessão no servidor SSRS. Verifique a configuração do servidor.**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Vê o erro Falha ao iniciar sessão no servidor SSRS. Verifique a configuração do servidor.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
@@ -210,7 +212,7 @@ Pode configurar o [Fiddler](http://www.telerik.com/fiddler) para atuar como um p
 
 Se o início de sessão for bem-sucedido ao utilizar o Fiddler, pode ter um problema de certificado com a aplicação de WAP ou o servidor do ADFS. Pode utilizar uma ferramenta como o [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226), para verificar se os certificados são válidos.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios](https://msdn.microsoft.com/library/cc281382.aspx)  
 [Modificar um Ficheiro de Configuração do Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx)  
 [Configurar a Autenticação do Windows num Servidor de Relatórios](https://msdn.microsoft.com/library/cc281253.aspx)  

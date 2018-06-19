@@ -9,23 +9,23 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290321"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812428"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: criar um conjunto de dados no Power BI
-Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
+Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
-No **passo 2** de Enviar dados para um conjunto de dados, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), obtém um token para autenticação no **do Azure AD**. Neste passo, utiliza o token para chamar a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx).
+No **passo 2** de Enviar dados para um conjunto de dados, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), obtém um token para autenticação no **do Azure AD**. Neste passo, utilizará o token para chamar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
 Para fazer uma chamada para um recurso REST, utiliza um URL que localiza o recurso e envia uma cadeia JSON (JavaScript Object Notation), que descreve o conjunto de dados, ao recurso de serviço Power BI. Um recurso REST identifica a parte do serviço Power BI com que quer trabalhar. Para enviar dados por push para o conjunto de dados, o recurso de destino é um **Conjunto de dados**. O URL que identifica um conjunto de dados é https://api.PowerBI.com/v1.0/myorg/datasets. Se estiver a colocar dados dentro de um grupo, o URL será https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Para autenticar uma operação REST do Power BI, adiciona o token que recebeu em [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md) a um cabeçalho de pedido:
 
-Quando chama a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx), é criado um novo conjunto de dados. 
+Quando chamar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets), será criado um novo conjunto de dados. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -39,9 +39,9 @@ Eis como criar um conjunto de dados no Power BI.
 
 1. No projeto Aplicação de Consola criado no [Passo 2 – Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), adicione **using System.Net;** e **using System.IO;** a Program.cs.
 2. Em Program.cs, adicione o código a seguir.
-3. Execute a Aplicação de Consola e inicie sessão na conta do Power BI. Deverá ver **Conjunto de Dados Criado** na janela da consola. Além disso, pode iniciar sessão Power BI para ver o novo conjunto de dados.
+3. Execute a Aplicação de Consola e inicie sessão na sua conta do Power BI. Deverá ver **Conjunto de Dados Criado** na janela da consola. Além disso, pode iniciar sessão Power BI para ver o novo conjunto de dados.
 
-**Exemplo de envio dados para um conjunto de dados**
+**Exemplo de envio de dados para um conjunto de dados**
 
 Adicione este código a Program.cs.
 
@@ -225,13 +225,14 @@ Segue-se a [lista completa de códigos](#code).
 
 [Próximo Passo >](walkthrough-push-data-get-datasets.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md)  
 [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
-[Criar conjunto de dados](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Enviar dados para um Dashboard do Power BI](walkthrough-push-data.md)  
-[Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-[Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[PostDataset](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
+[Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
+[Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+[Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289378"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812635"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passo 2: Obter um token de acesso de autenticação
 Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -104,11 +104,11 @@ Adicione este código a Program {...}.
        #endregion
 ```
 
-Depois de obter um token de autenticação, pode chamar qualquer operação do Power BI. O próximo passo mostra como chamar a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx) para criar um conjunto de dados para enviar dados por push para um dashboard.
+Depois de obter um token de autenticação, pode chamar qualquer operação do Power BI. O próximo passo mostra como chamar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) para criar um conjunto de dados para enviar dados por push para um dashboard.
 
 O próximo passo mostra-lhe como [criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md).
 
-Segue-se a [listagem de código completo](#code).
+Segue-se a [lista completa de códigos](#code).
 
 <a name="code"/>
 
@@ -175,12 +175,12 @@ Segue-se a [listagem de código completo](#code).
 
 [Próximo Passo >](walkthrough-push-data-create-dataset.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)  
 [Registar uma aplicação no Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
 [Biblioteca de Autenticação do Azure AD para o pacote NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md)  
-[Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-[Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+[Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -1,5 +1,5 @@
 ---
-title: Gateway de dados no local
+title: Gateway de dados local
 description: Esta é uma descrição geral do Gateway de dados no local do Power BI. Pode utilizar este gateway para trabalhar com origens de dados de DirectQuery. Também pode utilizar este gateway para atualizar os conjuntos de dados na cloud com dados no local.
 author: mgblythe
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722822"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812819"
 ---
-# <a name="on-premises-data-gateway"></a>Gateway de dados no local
+# <a name="on-premises-data-gateway"></a>Gateway de dados local
 
 O Gateway de dados no local funciona como uma ponte ao proporcionar a transferência rápida e segura de dados entre os dados no local (dados que não estão na cloud) e os serviços Power BI, Microsoft Flow, Logic Apps e PowerApps.
 
@@ -47,7 +47,9 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Transferir e instalar o Gateway de dados no local
-Para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [Gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [Gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925). 
+
+Tenha em atenção que a atualização do gateway de dados no local é conseguida através da reinstalação do gateway, conforme descrito nesta secção. Ao atualizar o gateway (através da reinstalação), as suas definições de gateways existentes são mantidas.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Para transferir o gateway, selecione **Gateway de Dados** no menu Transferência
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Instalar o gateway no modo pessoal
 > [!NOTE]
-> O modo Pessoal só irá funcionar com o Power BI.
-> 
-> 
+> A versão Personal do gateway só funciona com o Power BI.
+
 
 Após a instalação do gateway pessoal, terá de iniciar o **Assistente de Configuração do Power BI Gateway - Personal**.
 
@@ -105,7 +106,7 @@ Se tiver problemas ao instalar e configurar um gateway, veja [Resolver problemas
 
 Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  

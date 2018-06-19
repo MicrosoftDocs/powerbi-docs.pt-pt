@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: eee341314b309eda119dd282eafd18188f8fdfd0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286641"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813325"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O **Power BI Desktop** permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No **Power BI Desktop**, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI.  O **Power BI Desktop** é transferido gratuitamente.
@@ -99,13 +99,21 @@ A lista seguinte apresenta os requisitos mínimos para executar o **Power BI Des
 * **Definições de visualização do Windows:** se as suas definições de visualização estiverem definidas para alterar o tamanho do texto, aplicações e outros itens para mais de 100%, poderá não conseguir ver determinadas caixas de diálogo que terão de ser fechadas ou respondidas para continuar, ao utilizar o **Power BI Desktop**. Caso encontre este problema, consulte as suas **Definições de visualização** acedendo a **Definições > Sistema > Visualização** no Windows e utilize o controlo de deslize para fazer as definições de visualização regressar a 100%.
 * **CPU:** processador de 1 gigahertz (GHz) ou mais rápido x86 - ou x64 bits recomendado.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="considerations-and-limitations"></a>Considerações e Limitações
+
+Alguns utilizadores encontram um erro semelhante ao seguinte ao utilizarem uma versão desatualizada do **Power BI Desktop**: 
+
+    "We weren't able to restore the saved database to the model" 
+
+Atualizar para a versão atual do Power BI Desktop normalmente resolve este problema.
+
+## <a name="next-steps"></a>Próximos passos
 Após instalar o **Power BI Desktop**, os seguintes conteúdos poderão ajudá-lo a começar rapidamente:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
 * [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

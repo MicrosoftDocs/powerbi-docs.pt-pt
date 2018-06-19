@@ -10,18 +10,18 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297015"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813601"
 ---
-# <a name="getting-a-custom-visual-certified"></a>Obter um visual personalizado *certificado*
+# <a name="getting-a-custom-visual-certified"></a>*Certificar* um elemento visual personalizado
 ## <a name="what-is-meant-by-certified"></a>O que se entende por *certificado*?
 Um *visual personalizado certificado* é um que cumpre um conjunto de requisitos de código e passou testes rigorosos de segurança.  Após um visual personalizado ser certificado, este pode ser [exportado para o PowerPoint](service-publish-to-powerpoint.md), e será apresentado nos e-mails recebidos quando um utilizador [subscrever as páginas de relatórios](service-report-subscribe.md). Também pode ser utilizado como um [visual personalizado padrão](power-bi-custom-visuals.md), adicionado aos relatórios do serviço Power BI e do Power BI Desktop, visualizado no Power BI Mobile e incorporado.
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao [Microsoft AppSource](https://appsource.microsoft.com)? Consulte [Introdução ás Ferramentas de Programador](service-custom-visuals-getting-started-with-developer-tools.md) para saber como.
+É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao [Microsoft AppSource](https://appsource.microsoft.com)? Consulte [Introdução às Ferramentas de Programador](service-custom-visuals-getting-started-with-developer-tools.md) para saber como.
 
 
 ## <a name="certification-requirements"></a>Requisitos de certificação
@@ -90,6 +90,7 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Vídeo](https://youtu.be/qJ7s_KrGiUU) |
 | [Gráfico de Gantt da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [Vídeo](https://youtu.be/vJLV9JRCpI8) |
 | [Barras de Dados de Globo](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
+| [Grelha da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [Vídeo](https://youtu.be/VOPoDJgZfOY) |
 | [Gráfico de Hierarquias da Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [Vídeo](https://youtu.be/0ZGzJaq_KT4) |
 | [Gráfico de Histograma](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
 | [Histograma com pontos da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [Vídeo](https://youtu.be/-ILF--wExrw) |
@@ -104,7 +105,7 @@ A Microsoft pode remover um visual da lista de Certificados a seu critério excl
 | [Medidor Linear da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Vídeo](https://youtu.be/7_jFaM30dkc) |
 | [Gráfico de Linhas e Pontos](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
 | [Gráfico Mekko](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [Vídeo](https://youtu.be/90FLCKpgicA) |
-| [Descrição geral da CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
+| [Descrição Geral da CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
 | [Play Axis (Segmentação de Dados Dinâmica)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
 | [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [Vídeo](https://youtu.be/IvfIP3E6-1Q) |
 | [Matriz do Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [Vídeo](https://youtu.be/1enze8pcGzY) |

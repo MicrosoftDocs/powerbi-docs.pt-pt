@@ -7,25 +7,25 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b454673944d8006effc045592f28eb35681564d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34246429"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852193"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Criar e publicar um pacote de conteúdos organizacionais do Power BI (tutorial)
 > [!NOTE]
-> Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Recomendamos a utilização de aplicações em vez de pacotes de conteúdos organizacionais ou áreas de trabalho só de leitura. Saiba [mais sobre aplicações](service-install-use-apps.md).
+> Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Planeamos preterir pacotes de conteúdos organizacionais em breve, pelo que recomendamos a utilização de aplicações como alternativa. Saiba [mais sobre aplicações](service-install-use-apps.md).
 > 
 > 
 
 Neste tutorial, vai criar um pacote de conteúdos organizacionais, conceder acesso a um grupo específico e publicá-lo na biblioteca de pacotes de conteúdos da sua organização no Power BI.
 
-Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Consulte [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir a opção mais adequada à sua situação.
+Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir qual a opção mais adequada à sua situação.
 
 > [!NOTE]
 > Criar um pacote de conteúdos organizacionais requer uma [conta do Power BI Pro](https://powerbi.microsoft.com/pricing) para si e para os seus colegas.

@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4c2eaed0e8d577359ad9b5ee191ad2894ada12b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2d7a878189542d8a477933f6c54390b2636787e
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251121"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852239"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso
 > [!NOTE]
-> Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Crie aplicações em *áreas de trabalho de aplicações*, que substituem os grupos e as áreas de trabalho de grupo. Recomendamos a utilização de aplicações em vez de pacotes de conteúdos organizacionais ou áreas de trabalho só de leitura. Saiba [mais sobre aplicações](service-install-use-apps.md).
+> Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Planeamos preterir pacotes de conteúdos organizacionais em breve, pelo que recomendamos a utilização de aplicações como alternativa. Saiba [mais sobre aplicações](service-install-use-apps.md).
 > 
 > 
 
@@ -49,7 +49,7 @@ Quando o pacote de conteúdos é criado, as configurações de atualização sã
 
 Veja [Gerir, atualizar e eliminar pacotes de conteúdos organizacionais](service-organizational-content-pack-manage-update-delete.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md)
 * [Criar um grupo no Power BI](service-create-distribute-apps.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

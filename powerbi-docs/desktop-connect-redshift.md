@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3a27a3c39f1ddcee6a882184f511874313d77c9a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291195"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813141"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Ligar ao Redshift Amazon no Power BI Desktop
 No **Power BI Desktop**, pode ligar a uma base de dados **Amazon Redshift** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop.
@@ -29,7 +29,7 @@ Na janela **Amazon Redshift** que é apresentada, escreva ou cole o nome do serv
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
-Quando lhe for pedido, introduza o seu nome de utilizador e a palavra-passe.
+Quando lhe for pedido, introduza o seu nome de utilizador e a palavra-passe. Para evitar erros, deve utilizar o nome do servidor que corresponde exatamente ao certificado SSL. 
 
 ![](media/desktop-connect-redshift/connect_redshift_5.png)
 
@@ -42,7 +42,7 @@ Depois de efetuar as seleções na janela **Navegador** , pode **Carregar** ou *
 * Se optar por **Carregar** os dados, ser-lhe-á pedido que utilize o modo de *Importação* ou o *DirectQuery* para carregar os dados. Para obter mais informações, veja este [artigo que explica o DirectQuery](desktop-use-directquery.md).
 * Se optar por **Editar** os dados, o **Editor de Consultas** é apresentado, onde pode aplicar todos os tipos de transformações e filtros aos dados, muitos dos quais são aplicados à própria base de dados **Amazon Redshift** subjacente (caso seja suportada).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)

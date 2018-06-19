@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301786"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar. office
@@ -125,9 +126,9 @@ Pode rever as [políticas de validação](https://dev.office.com/officestore/doc
 Após a submissão, poderá ver o estado da submissão no [dashboard da aplicação](https://sellerdashboard.microsoft.com/Application/Summary/).
 
 ## <a name="certify-your-visual"></a>Certificar o elemento visual
-Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, consulte [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md).
+Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, veja [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md)  
 [Visualizações no Power BI](../power-bi-report-visualizations.md)  
 [Visualizações Personalizadas no Power BI](../power-bi-custom-visuals.md)  

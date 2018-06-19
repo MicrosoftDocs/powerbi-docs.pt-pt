@@ -7,46 +7,51 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813372"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrar um relatório numa aplicação para a sua organização
 Saiba como integrar ou incorporar um relatório numa aplicação Web através de chamadas à API REST, juntamente com a API JavaScript do Power BI ao incorporar para a sua organização.
 
 ![Exemplo de relatório incorporado](media/integrate-report/powerbi-embedded-report.png)
 
-Para começar estas instruções, precisa de uma conta do **Power BI**. Se não tiver uma conta, pode [inscrever-se numa conta gratuita do Power BI](../service-self-service-signup-for-power-bi.md) ou pode criar o seu próprio [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md) para fins de teste.
+Para começar a utilizar estas instruções, precisa de uma conta do **Power BI**. Se não tiver uma conta, pode [inscrever-se numa conta gratuita do Power BI](../service-self-service-signup-for-power-bi.md) ou pode criar o seu próprio [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md) para fins de teste.
 
 > [!NOTE]
-> Quer incorporar um relatório para os seus clientes através de um embedtoken? Consulte [Integrar um dashboard, mosaico ou relatório na sua aplicação para os seus clientes](embed-sample-for-customers.md).
+> Quer incorporar um relatório para os seus clientes através de um embedtoken? Veja [Integrar um dashboard, mosaico ou relatório na sua aplicação para os seus clientes](embed-sample-for-customers.md).
 > 
 > 
 
-Para integrar um relatório numa aplicação Web, utilize a API REST do **Power BI** ou o SDK C# do Power BI e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um relatório. Em seguida, carregue o relatório com o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, consulte [Descrição geral da API REST do Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um relatório numa aplicação Web, utilize a API REST do **Power BI** ou o SDK C# do Power BI e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um relatório. Em seguida, carregue o relatório com o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, veja [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Transferir o exemplo
 Este artigo mostra o código utilizado em [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) no GitHub. Para acompanhar estas instruções, pode transferir o exemplo.
 
+Também pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup/UserOwnsData) para começar rapidamente e transferir uma aplicação de exemplo.
+
+No entanto, se optar por configurar o ambiente manualmente, pode continuar abaixo.
+
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Passo 1 – registar uma aplicação no Azure AD
-Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Para obter mais informações, consulte [Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI](register-app.md).
+Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Para obter mais informações, veja [Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI](register-app.md).
 
 Se transferiu [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app), utilize o **ID de Cliente** e o **Segredo do Cliente** que recebe após o registo para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **ID de Cliente** e o **Segredo do Cliente** no ficheiro *cloud.config*.
 
 ![](media/integrate-report/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Passo 2 – obter um token de acesso do Azure AD
-Na sua aplicação, primeiro terá de obter um **token de acesso** do Azure AD antes de poder fazer chamadas à API REST do Power BI. Para obter mais informações, consulte [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md).
+Na sua aplicação, primeiro terá de obter um **token de acesso** do Azure AD antes de poder fazer chamadas à API REST do Power BI. Para obter mais informações, veja [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-report"></a>Passo 3 – obter um relatório
-Para obter um relatório do **Power BI**, utilize a operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx) que obtém uma lista dos relatórios do **Power BI**. Da lista de relatórios, pode obter um ID de relatório.
+Para obter um relatório do **Power BI**, utilize a operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) que obtém uma lista dos relatórios do **Power BI**. Da lista de relatórios, pode obter um ID de relatório.
 
 ### <a name="get-reports-using-an-access-token"></a>Obter relatórios com um token de acesso
-Com o **token de acesso** que obteve no [passo 2](#step-2-get-an-access-token-from-azure-ad), pode chamar a operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx). A operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx) devolve uma lista de relatórios. Pode obter um único relatório a partir da lista de relatórios. Segue-se um método C# completo para obter um relatório. 
+Com o **token de acesso** que obteve no [passo 2](#step-2-get-an-access-token-from-azure-ad), pode chamar a operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). A operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) devolve uma lista de relatórios. Pode obter um único relatório a partir da lista de relatórios. Segue-se um método C# completo para obter um relatório. 
 
 Para efetuar a chamada à API REST, tem de incluir um cabeçalho de *Autorização* no formato de *Portador {token de acesso}*.
 
@@ -213,7 +218,7 @@ Se transferiu e executou [integrate-report-web-app](https://github.com/Microsoft
 ![Exemplo de relatório incorporado](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Trabalhar com grupos (áreas de trabalho de aplicações)
-Para incorporar um relatório a partir de um grupo (área de trabalho de aplicações), irá querer obter a lista de todos os relatórios disponíveis no dashboard de um grupo através da seguinte chamada à API REST. Para obter mais informações sobre esta chamada à API REST, consulte [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx). Terá de ter permissão no grupo para o pedido para devolver resultados.
+Para incorporar um relatório a partir de um grupo (área de trabalho de aplicações), irá querer obter a lista de todos os relatórios disponíveis no dashboard de um grupo através da seguinte chamada à API REST. Para obter mais informações sobre esta chamada à API REST, consulte [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports). Terá de ter permissão no grupo para o pedido para devolver resultados.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports
@@ -226,7 +231,7 @@ https://app.powerbi.com/reportEmbed?reportId={report_id}&groupId={group_id}
 ```
 
 ## <a name="next-steps"></a>Próximos passos
-Um exemplo de aplicação está disponível no GitHub para rever. Para obter mais informações, consulte [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app).
+Um exemplo de aplicação está disponível no GitHub para rever. Para obter mais informações, veja [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app).
 
 Estão disponíveis mais informações para a API JavaScript em [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 

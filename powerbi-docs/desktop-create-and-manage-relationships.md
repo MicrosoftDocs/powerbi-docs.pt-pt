@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813670"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, na maioria dos casos, não tem de fazer nada: a funcionalidade de Deteção Automática pode fazer isso por si. No entanto, em alguns casos, talvez tenha de criar relações ou talvez seja necessário fazer algumas alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
@@ -35,6 +36,16 @@ No separador **Página Principal**, clique em **Gerir Relações** \> **AutoDete
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Por predefinição, o Power BI Desktop configurará automaticamente as propriedades Cardinalidade (direção), Direção de filtro cruzado e Ativo para a sua nova relação; no entanto, pode alterá-las, se necessário. Para obter mais informações, veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo.
+
+Tenha em atenção que verá um erro a indicar que *Uma das colunas tem de ter valores exclusivos* se nenhuma das tabelas selecionadas para a relação tiver valores exclusivos. Pelo menos uma tabela numa relação *tem* de ter uma lista distinta e exclusiva de valores-chave, que é um requisito comum para todas as tecnologias de bases de dados relacionais. 
+
+Se ocorrer esse erro, existem algumas formas de corrigir o problema:
+
+* Utilize a opção "Remover Linhas Duplicadas" para criar uma coluna com valores exclusivos. A desvantagem desta abordagem é o facto de que perderá informações quando remover as linhas duplicadas e, muitas vezes, uma chave (linha) é duplicada por um bom motivo.
+* Adicione uma tabela intermediária criada a partir da lista de valores-chave distintos ao modelo, que será então associada a ambas as colunas originais na relação.
+
+Para obter mais informações, veja a [mensagem de blogue](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) que o explica em detalhe.
+
 
 ## <a name="edit-a-relationship"></a>Editar uma relação
 1. No separador **Página Principal**, clique em **Gerir Relações**.
@@ -113,7 +124,7 @@ Portanto, vamos criar uma relação entre estas duas tabelas.
 
 Lembra-se das colunas que vimos em ambas as tabelas com um nome de projeto, mas com valores parecidos? Vamos utilizá-las para criar uma relação entre as nossas tabelas.
 
-Por quê essas colunas? Bem, se observarmos a coluna Project na tabela ProjectHours, vemos valores como Azul, Vermelho, Amarelo, Laranja e assim por diante. Na verdade, podemos ver várias linhas com o mesmo valor. Assim, temos muitos valores de cor para Project.
+Porquê essas colunas? Bem, se observarmos a coluna Project na tabela ProjectHours, vemos valores como Azul, Vermelho, Amarelo, Laranja e assim por diante. Na verdade, podemos ver várias linhas com o mesmo valor. Assim, temos muitos valores de cor para Project.
 
 Se observarmos a coluna ProjName na tabela CompanyProject, vemos que existe apenas um de cada valor de cor para Project. Cada valor de cor nesta tabela é exclusivo e isso é importante, porque podemos criar uma relação entre essas duas tabelas. Nesse caso, uma relação muitos para um. Numa relação muitos para um, pelo menos uma coluna numa das tabelas tem de conter valores exclusivos. Existem algumas opções adicionais para determinadas relações e vamos analisá-las posteriormente, mas por enquanto, vamos criar uma relação entre as colunas Project em cada uma das duas tabelas.
 

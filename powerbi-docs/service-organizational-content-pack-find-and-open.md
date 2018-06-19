@@ -7,25 +7,25 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f1580aeeb25d5159eff7fcb4759bb426e5ff0bfd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251397"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852262"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Encontrar e ligar-se a um pacote de conteúdos organizacional
 > [!NOTE]
-> Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Recomendamos a utilização de aplicações em vez de pacotes de conteúdos organizacionais ou áreas de trabalho só de leitura. Saiba [mais sobre aplicações](service-install-use-apps.md).
+> Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Planeamos preterir pacotes de conteúdos organizacionais em breve, pelo que recomendamos a utilização de aplicações como alternativa. Saiba [mais sobre aplicações](service-install-use-apps.md).
 > 
 > 
 
 Quando alguém publica um pacote de conteúdos organizacional na sua organização, em grupos de segurança ou de distribuição, ou nos [grupos do Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) aos quais pertence, este aparece no AppSource.  Navegue ou pesquise no AppSource para localizar e abrir pacotes de conteúdos organizacionais.
 
-Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir a opção mais adequada à sua situação.
+Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir qual a opção mais adequada à sua situação.
 
 ## <a name="find-an-organizational-content-pack"></a>Localizar um pacote de conteúdos organizacional
 Os utilizadores do [Power BI Pro](https://powerbi.microsoft.com/pricing) podem aceder ao AppSource, que apresenta os pacotes de conteúdos partilhados com toda a organização, em grupos de distribuição ou de segurança e nos grupos do Office 365 aos quais pertencem.  

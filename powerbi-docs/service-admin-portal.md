@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755145"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301832"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -42,11 +42,11 @@ No portal, existem seis separadores. Estão descritos abaixo.
 * [Definições de inquilino](#tenant-settings)
 * [Definições Premium](#premium-settings)
 * [Códigos de incorporação](#embed-codes)
-* [Elemento visuais da organização](#Organization-visuals)
+* [Elementos visuais da organização](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-## <a name="usage-metrics"></a>Métrica de utilização
+## <a name="usage-metrics"></a>Métricas de utilização
 O primeiro separador no portal de administração é **Métricas de utilização**. O relatório de métricas de utilização permite monitorizar a utilização no Power BI relativamente à sua organização. Permite também ver quais os utilizadores e os grupos mais ativos no Power BI para a sua organização.
 
 > [!NOTE]
@@ -218,10 +218,13 @@ Os utilizadores na organização podem utilizar o Excel para ver e interagir com
 > [!NOTE]
 > Desativar a opção **Exportar Dados** também impede os utilizadores de usarem a funcionalidade **Analisar no Excel**.
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>Utilizar o ArcGIS Maps para Power BI (Pré-visualização)
+### <a name="use-arcgis-maps-for-power-bi"></a>Utilizar o ArcGIS Maps for Power BI
 
-Os utilizadores na organização podem utilizar a visualização ArcGIS Maps para Power BI (Pré-visualização) fornecida pela Esri. [Saiba mais](power-bi-visualization-arcgis.md)
+Os utilizadores na organização podem utilizar a visualização dos ArcGIS Maps for Power BI fornecida pela Esri. [Saiba mais](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>Utilizar a pesquisa global para o Power BI (Pré-visualização)
+
+Os utilizadores na organização podem utilizar as funcionalidades de pesquisa externa que dependem do Azure Search. Por exemplo, os utilizadores podem utilizar a Cortana para obterem informações-chave diretamente dos dashboards e relatórios do Power BI. [Saiba mais](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Definições de elementos visuais personalizados
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Ativar os elementos visuais personalizados para toda a organização

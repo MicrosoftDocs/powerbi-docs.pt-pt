@@ -9,47 +9,47 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290275"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812957"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrar um dashboard numa aplicação para a sua organização
 Saiba como integrar ou incorporar um dashboard numa aplicação Web através de chamadas à API REST, juntamente com a API JavaScript do Power BI ao incorporar para a sua organização.
 
 ![Dashboard incorporado](media/integrate-dashboard/powerbi-embed-dashboard.png)
 
-Para começar estas instruções, precisa de uma conta do **Power BI**. Se não tiver uma conta, pode [inscrever-se numa conta gratuita do Power BI](../service-self-service-signup-for-power-bi.md) ou pode criar o seu próprio [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md) para fins de teste.
+Para começar a utilizar estas instruções, precisa de uma conta do **Power BI**. Se não tiver uma conta, pode [inscrever-se numa conta gratuita do Power BI](../service-self-service-signup-for-power-bi.md) ou pode criar o seu próprio [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md) para fins de teste.
 
 > [!NOTE]
-> Quer incorporar um dashboard para os seus clientes através de um embedtoken? Consulte [Integrar um dashboard, mosaico ou relatório na sua aplicação para os seus clientes](embed-sample-for-customers.md).
+> Quer incorporar um dashboard para os seus clientes através de um embedtoken? Veja [Integrar um dashboard, mosaico ou relatório na sua aplicação para os seus clientes](embed-sample-for-customers.md).
 > 
 > 
 
-Para integrar um dashboard numa aplicação Web, utilize a API REST do **Power BI** ou o SDK C# do Power BI e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um dashboard. Em seguida, carregue o dashboard com o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, consulte [Descrição geral da API REST do Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um dashboard numa aplicação Web, utilize a API REST do **Power BI** ou o SDK C# do Power BI e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um dashboard. Em seguida, carregue o dashboard com o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, veja [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Transferir o exemplo
 Este artigo mostra o código utilizado em [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) no GitHub. Para acompanhar estas instruções, pode transferir o exemplo.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Passo 1 – registar uma aplicação no Azure AD
-Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Para obter mais informações, consulte [Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI](register-app.md).
+Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Para obter mais informações, veja [Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI](register-app.md).
 
 Se transferiu o [exemplo Integrar um dashboard](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app), utilize o **ID de Cliente** e o **Segredo do Cliente** que recebe após o registo, para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **ID de Cliente** e o **Segredo do Cliente** no ficheiro *cloud.config*.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Passo 2 – obter um token de acesso do Azure AD
-Na sua aplicação, primeiro terá de obter um **token de acesso** do Azure AD antes de poder fazer chamadas à API REST do Power BI. Para obter mais informações, consulte [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md).
+Na sua aplicação, primeiro terá de obter um **token de acesso** do Azure AD antes de poder fazer chamadas à API REST do Power BI. Para obter mais informações, veja [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-dashboard"></a>Passo 3 – obter um dashboard
-Para obter um dashboard do **Power BI**, utilize a operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) que obtém uma lista dos dashboards do **Power BI**. A partir da lista de dashboards, pode obter um ID de dashboard.
+Para obter um dashboard do **Power BI**, utilize a operação [Obter Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) que obtém uma lista dos dashboards do **Power BI**. A partir da lista de dashboards, pode obter um ID de dashboard.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Obter dashboards com um token de acesso
-Com o **token de acesso** que obteve no [passo 2](#step-2-get-an-access-token-from-azure-ad), pode chamar a operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). A operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) devolve uma lista de dashboards. Pode obter um único dashboard da lista de dashboards. Segue-se um método C# completo para obter um dashboard. 
+Com o **token de acesso** que obteve no [passo 2](#step-2-get-an-access-token-from-azure-ad), pode chamar a operação [Obter Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). A operação [Obter Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) devolve uma lista de dashboards. Pode obter um único dashboard da lista de dashboards. Segue-se um método C# completo para obter um dashboard. 
 
 Para efetuar a chamada à API REST, tem de incluir um cabeçalho de *Autorização* no formato de *Portador {token de acesso}*.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Trabalhar com grupos (áreas de trabalho de aplicações)
-Para incorporar um dashboard a partir de um grupo (área de trabalho de aplicação), irá querer obter a lista de todos os dashboards disponíveis num grupo através da seguinte chamada à API REST. Para obter mais informações sobre esta chamada à API REST, consulte [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). Terá de ter permissão no grupo para o pedido para devolver resultados.
+Para incorporar um dashboard a partir de um grupo (área de trabalho de aplicação), irá querer obter a lista de todos os dashboards disponíveis num grupo através da seguinte chamada à API REST. Para obter mais informações sobre esta chamada à API REST, consulte [Obter Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). Terá de ter permissão no grupo para o pedido para devolver resultados.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards
@@ -276,7 +276,7 @@ https://app.powerbi.com/dashboardEmbed?dashboardId={dashboardId}&groupId={groupI
 * Como limitação temporária, ao partilhar um dashboard com grupos de segurança, os utilizadores têm primeiro de aceder aos dashboards em PowerBI.com antes de os poderem ver incorporados.
 
 ## <a name="next-steps"></a>Próximos passos
-Um exemplo de aplicação está disponível no GitHub para rever. Os exemplos acima baseiam-se nesse exemplo. Para obter mais informações, consulte [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app).
+Um exemplo de aplicação está disponível no GitHub para rever. Os exemplos acima baseiam-se nesse exemplo. Para obter mais informações, veja [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app).
 
 Estão disponíveis mais informações para a API JavaScript em [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
