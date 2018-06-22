@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34287676"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Utilizar o painel Análise no Power BI Desktop
 Com o painel **Análise** no **Power BI Desktop**, pode adicionar *linhas de referência* dinâmicas a visuais e dar foco a tendências ou informações importantes. O painel **Análise** encontra-se na área **Visualizações** do Power BI Desktop.
