@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289999"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Pré-requisitos de Origem de Dados do Power BI
 Para cada fornecedor de dados, o Power BI suporta uma versão específica do fornecedor em objetos. Para obter mais informações sobre as origens de dados disponíveis, consulte [Origens de Dados](desktop-data-sources.md). A tabela seguinte descreve estes requisitos.
