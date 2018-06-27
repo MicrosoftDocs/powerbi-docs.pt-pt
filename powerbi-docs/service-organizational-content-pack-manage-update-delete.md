@@ -11,13 +11,13 @@ ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/08/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "34852308"
 ---
-# <a name="manage-update-and-delete-organizational-content-packs"></a>Gerir, atualizar e eliminar pacotes de conteúdos organizacionais
+# <a name="manage-update-and-delete-organizational-content-packs"></a>Gerir, atualizar e excluir pacotes de conteúdos organizacional
 > [!NOTE]
 > Já conhece as novas *aplicações*? As aplicações são a nova forma de distribuir conteúdos a grandes públicos no Power BI. Planeamos preterir pacotes de conteúdos organizacionais em breve, pelo que recomendamos a utilização de aplicações como alternativa. Saiba [mais sobre aplicações](service-install-use-apps.md).
 > 
@@ -25,7 +25,7 @@ ms.locfileid: "34852308"
 
 Pode empacotar e partilhar os seus próprios dashboards, relatórios, livros do Excel e conjuntos de dados com os seus colegas como [pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md). Os seus colegas podem utilizá-los conforme estão ou podem criar as suas próprias cópias.
 
-Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir qual a opção mais adequada à sua situação.
+Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir a opção mais adequada à sua situação.
 
 Apenas o criador do pacote de conteúdos pode fazer algumas tarefas de pacotes de conteúdos organizacionais:
 

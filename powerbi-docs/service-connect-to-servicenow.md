@@ -11,10 +11,10 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34249350"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Ligar ao ServiceNow com o Power BI para relatórios de incidentes

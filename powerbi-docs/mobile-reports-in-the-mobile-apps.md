@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: maggies
 ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34799424"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
@@ -67,26 +67,26 @@ Quando criar um relatório no Power BI Desktop ou no serviço Power BI, consid
   Nesta ilustração, a segmentação está a filtrar o gráfico de colunas para mostrar apenas valores de julho.
 
 ## <a name="cross-filter-and-highlight-a-report"></a>Realizar a filtragem cruzada e realçar um relatório
-Quando seleciona um valor num elemento visual, este não filtra os outros elementos visuais. Realça os valores relacionados nos outros visuais.
+Quando seleciona um valor num visual, este não filtra os outros visuais. Realça os valores relacionados nos outros visuais.
 
-* Toque num valor num elemento visual.
+* Toque num valor num visual.
   
   ![Filtros cruzados numa página](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
   
-  Tocar na coluna Grande num elemento visual realça os valores relacionados nos outros visuais. 
+  Tocar na coluna Grande num visual realça os valores relacionados nos outros visuais. 
 
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>Ordenar um elemento visual num iPad ou num tablet
+## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>Ordenar um visual num iPad ou num tablet
 * Toque no gráfico, toque nas reticências (**...**) e toque no nome do campo.
   
-   ![Ordenar um elemento visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
+   ![Ordenar um visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Para reverter a ordenação, toque novamente nas reticências (**...**) e, em seguida, toque novamente no mesmo nome de campo.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>Desagregar e agregar num elemento visual
-Se o autor do relatório tiver adicionado uma capacidade de desagregação a um elemento visual, poderá desagregar no elemento visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um elemento visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
+Se o autor do relatório tiver adicionado uma capacidade de desagregação a um elemento visual, poderá desagregar no elemento visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
 
 * Toque num ponto de dados num elemento visual para apresentar a respetiva descrição. Se estiver desagregado, a parte inferior da descrição incluirá setas nas quais pode tocar. 
   
-  ![Desagregar num elemento visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
+  ![Desagregar num visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
 * Para voltar a agregar, toque na seta para cima na descrição.
   

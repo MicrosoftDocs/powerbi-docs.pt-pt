@@ -11,10 +11,10 @@ ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: c1c32e216dfdf4417fda8ee8888f85e1d27a8cda
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34812451"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop
@@ -23,7 +23,7 @@ ms.locfileid: "34812451"
 
 O sol está a brilhar sobre as atualizações deste mês, com funcionalidades e melhorias que irão aquecer os seus relatórios e permitir-lhe mergulhar nas informações que fornecem.
 
-Já pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop). Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, independentemente da forma como instalar o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
+Agora, pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop). Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, independentemente da forma como instalar o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
 
 As ligações ao lado de cada atualização significam o seguinte:
 
@@ -32,7 +32,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 * A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 * Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** desde o início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
@@ -68,10 +68,10 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
-O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

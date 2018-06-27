@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
 ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813164"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
@@ -124,7 +124,7 @@ Uma origem de dados pode ter um único conjunto de credenciais para um utilizado
 
 **A composição ou o consumo de conteúdos incorporados falha ou o tempo expira**
 
-Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, veja [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
+Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, consulte [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
 
 **O relatório ou o dashboard não carrega**
 

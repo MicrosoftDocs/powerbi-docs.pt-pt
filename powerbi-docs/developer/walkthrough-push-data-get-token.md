@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34812635"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passo 2: Obter um token de acesso de autenticação
@@ -108,7 +108,7 @@ Depois de obter um token de autenticação, pode chamar qualquer operação do P
 
 O próximo passo mostra-lhe como [criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md).
 
-Segue-se a [lista completa de códigos](#code).
+Segue-se a [listagem de código completo](#code).
 
 <a name="code"/>
 
@@ -175,12 +175,12 @@ Segue-se a [lista completa de códigos](#code).
 
 [Próximo Passo >](walkthrough-push-data-create-dataset.md)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)  
 [Registar uma aplicação no Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
 [Biblioteca de Autenticação do Azure AD para o pacote NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md)  
-[Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+[Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

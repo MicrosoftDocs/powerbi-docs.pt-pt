@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: 0debedc6e768fb3158ebe5cb4bf820ed3dc14a58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34481423"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Criar um relatório do Power BI para o Power BI Report Server

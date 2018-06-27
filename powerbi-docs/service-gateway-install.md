@@ -11,10 +11,10 @@ ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 936e794b187366e91cf550c16379216ddf1fbf36
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298556"
 ---
 # <a name="install-a-gateway-for-power-bi"></a>Instalar um gateway para o Power BI
@@ -48,7 +48,7 @@ O gateway é executado no computador onde o instalou, por isso, verifique se o i
 
 6. Introduza a conta que utiliza para iniciar sessão no Power BI > **Iniciar sessão**.
 
-    ![Endereço de e-mail](media/service-gateway-install/email-address.png)
+    ![Email address](media/service-gateway-install/email-address.png)
 
     O gateway está associado à sua conta do Power BI e os gateways são geridos por si a partir do serviço Power BI. Agora tem sessão iniciada na sua conta.
 

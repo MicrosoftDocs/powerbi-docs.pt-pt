@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 1acfa9c0e2e88c98dd74b2b92f7a3c6d27b25b00
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34245322"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base numa pasta do Excel numa unidade local

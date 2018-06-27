@@ -4,10 +4,10 @@ hide_bc: true
 title: Documentação do Power BI
 description: Documentação do Power BI
 ms.openlocfilehash: da81bbbac4b4e92cf5e22580e27087e9e0cc54e1
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "33945670"
 ---
 <div id="main" class="v2">

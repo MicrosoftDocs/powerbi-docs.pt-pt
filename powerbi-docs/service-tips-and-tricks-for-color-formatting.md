@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298395"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI

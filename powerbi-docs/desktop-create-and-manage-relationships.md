@@ -11,10 +11,10 @@ ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813670"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
@@ -124,7 +124,7 @@ Portanto, vamos criar uma relação entre estas duas tabelas.
 
 Lembra-se das colunas que vimos em ambas as tabelas com um nome de projeto, mas com valores parecidos? Vamos utilizá-las para criar uma relação entre as nossas tabelas.
 
-Porquê essas colunas? Bem, se observarmos a coluna Project na tabela ProjectHours, vemos valores como Azul, Vermelho, Amarelo, Laranja e assim por diante. Na verdade, podemos ver várias linhas com o mesmo valor. Assim, temos muitos valores de cor para Project.
+Por quê essas colunas? Bem, se observarmos a coluna Project na tabela ProjectHours, vemos valores como Azul, Vermelho, Amarelo, Laranja e assim por diante. Na verdade, podemos ver várias linhas com o mesmo valor. Assim, temos muitos valores de cor para Project.
 
 Se observarmos a coluna ProjName na tabela CompanyProject, vemos que existe apenas um de cada valor de cor para Project. Cada valor de cor nesta tabela é exclusivo e isso é importante, porque podemos criar uma relação entre essas duas tabelas. Nesse caso, uma relação muitos para um. Numa relação muitos para um, pelo menos uma coluna numa das tabelas tem de conter valores exclusivos. Existem algumas opções adicionais para determinadas relações e vamos analisá-las posteriormente, mas por enquanto, vamos criar uma relação entre as colunas Project em cada uma das duas tabelas.
 

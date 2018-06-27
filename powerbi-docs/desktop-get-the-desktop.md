@@ -11,10 +11,10 @@ ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813325"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
@@ -114,6 +114,6 @@ Após instalar o **Power BI Desktop**, os seguintes conteúdos poderão ajudá-l
 * [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

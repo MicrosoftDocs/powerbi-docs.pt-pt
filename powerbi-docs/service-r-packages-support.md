@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34299200"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
@@ -113,7 +113,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
-| deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
+| deepnet |0,2 |https://cran.r-project.org/web/packages/deepnet/index.html |
 | deldir |0.1-12 |https://cran.r-project.org/web/packages/deldir/index.html |
 | dendextend |1.1.8 |https://cran.r-project.org/web/packages/dendextend/index.html |
 | DEoptimR |1.0-4 |https://cran.r-project.org/web/packages/DEoptimR/index.html |
@@ -126,7 +126,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | dplyr |0.4.3 |https://cran.r-project.org/web/packages/dplyr/index.html |
 | DPpackage |1.1-6 |https://cran.r-project.org/web/packages/DPpackage/index.html |
 | dse |2015.12-1 |https://cran.r-project.org/web/packages/dse/index.html |
-| DT |0.2 |https://cran.r-project.org/web/packages/DT/index.html |
+| DT |0,2 |https://cran.r-project.org/web/packages/DT/index.html |
 | dtw |1.18-1 |https://cran.r-project.org/web/packages/dtw/index.html |
 | e1071 |1.6-7 |https://cran.r-project.org/web/packages/e1071/index.html |
 | earth |4.4.4 |https://cran.r-project.org/web/packages/earth/index.html |
@@ -171,7 +171,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | ggmap |2.6.1 |https://cran.r-project.org/web/packages/ggmap/index.html |
 | ggmcmc |0,8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
 | ggplot2 |2.1.0 |https://cran.r-project.org/web/packages/ggplot2/index.html |
-| ggrepel |0.5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
+| ggrepel |0,5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
 | ggthemes |3.0.2 |https://cran.r-project.org/web/packages/ggthemes/index.html |
 | glmmBUGS |2.3 |https://cran.r-project.org/web/packages/glmmBUGS/index.html |
 | glmnet |2.0-5 |https://cran.r-project.org/web/packages/glmnet/index.html |
@@ -284,7 +284,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 | pacbpred |0.92.2 |https://cran.r-project.org/web/packages/pacbpred/index.html |
 | party |1.0-25 |https://cran.r-project.org/web/packages/party/index.html |
 | partykit |1.0-5 |https://cran.r-project.org/web/packages/partykit/index.html |
-| PAWL |0.5 |https://cran.r-project.org/web/packages/PAWL/index.html |
+| PAWL |0,5 |https://cran.r-project.org/web/packages/PAWL/index.html |
 | pbivnorm |0.6.0 |https://cran.r-project.org/web/packages/pbivnorm/index.html |
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |

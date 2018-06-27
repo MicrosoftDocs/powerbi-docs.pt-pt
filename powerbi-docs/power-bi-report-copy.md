@@ -11,10 +11,10 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247809"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Criar um novo relatório a partir de um relatório existente (copiar um relatório)

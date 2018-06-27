@@ -11,10 +11,10 @@ ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b1085c3715d9b4b75925cec1b94ec49b0f5792f7
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813141"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Ligar ao Redshift Amazon no Power BI Desktop
@@ -42,7 +42,7 @@ Depois de efetuar as seleções na janela **Navegador** , pode **Carregar** ou *
 * Se optar por **Carregar** os dados, ser-lhe-á pedido que utilize o modo de *Importação* ou o *DirectQuery* para carregar os dados. Para obter mais informações, veja este [artigo que explica o DirectQuery](desktop-use-directquery.md).
 * Se optar por **Editar** os dados, o **Editor de Consultas** é apresentado, onde pode aplicar todos os tipos de transformações e filtros aos dados, muitos dos quais são aplicados à própria base de dados **Amazon Redshift** subjacente (caso seja suportada).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)

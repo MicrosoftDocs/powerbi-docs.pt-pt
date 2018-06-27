@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34812359"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referência da API REST do Power BI
