@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721507"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964797"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 Quer que os leitores de relatórios consigam observar as métricas gerais das vendas e, ao mesmo tempo, consigam realçar o desempenho dos Gestores Distritais individuais e os diferentes períodos de tempo. Pode criar relatórios separados ou gráficos comparativos ou pode utilizar segmentações de dados. A segmentação de dados é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório. 
@@ -183,7 +183,7 @@ As outras opções de formatação estão desativadas por predefinição. Quando
 - **Limite:** adiciona um limite de um pixel à volta da segmentação e define a respetiva cor. (Este limite da segmentação de dados é separado das definições de Contorno Geral e não é afetado pelas mesmas.) 
 
 ## <a name="next-steps"></a>Próximos passos
-[Experimente. É gratuito!](https://powerbi.com/)
+[Inscrever-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/)
 
 Tem ideias sobre como melhorar o Power BI? [Submeter uma ideia](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 

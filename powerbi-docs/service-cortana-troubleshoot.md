@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 280b76bd7a950f9f66834b4707c1144485008a3c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: adb5d744a8eb99fce056a07ddb97b6cd7a82a8b4
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250603"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964866"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Resolução de problemas do Cortana para Power BI
 Este artigo faz parte de uma série. Se ainda não o fez, recomendamos que leia os três artigos seguintes.
@@ -30,7 +30,7 @@ Este artigo faz parte de uma série. Se ainda não o fez, recomendamos que leia 
 Se continua a ter problemas ao obter o Cortana para integração no Power BI, veio ao sítio certo. Siga os passos abaixo para diagnosticar e corrigir o problema.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Por que motivo o Cortana não encontra respostas a partir dos meus relatórios ou dashboards do Power BI?
-1. Tem uma conta do Power BI?  Se não tem, [inscreva-se gratuitamente](service-self-service-signup-for-power-bi.md).
+1. Tem uma conta do Power BI?  Se não tiver, [inscreva-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/).
 2. O Cortana está a funcionar?  Vê o ícone do Cortana na barra de tarefas?
 
     ![](media/service-cortana-troubleshoot/power-bi-cortana-icon.png)

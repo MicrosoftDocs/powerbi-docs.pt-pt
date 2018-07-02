@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584122"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964774"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Gráficos de dispersão e de bolhas no Power BI
 Um gráfico de dispersão tem sempre dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Estes pontos de dados podem ser distribuídos de forma uniforme ou não pelo eixo horizontal, consoante os dados.
@@ -116,9 +116,9 @@ Ou então, se não tiver isto nos dados, pode criar um campo que concatena os va
 Para criar um novo campo [utilize o Editor de Consultas do Power BI Desktop para adicionar uma Coluna de Índice](desktop-add-custom-column.md) ao conjunto de dados.  Em seguida, adicione esta coluna à área **Detalhes** da visualização.
 
 ## <a name="next-steps"></a>Próximos passos
- [Visualization types in Power BI (Tipos de visualização no Power BI)](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Experimente - é gratuito!](https://powerbi.com/)  
+[Inscrever-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
