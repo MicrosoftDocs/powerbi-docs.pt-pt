@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584214"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600926"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de desagregação numa visualização no Power BI
 
@@ -179,11 +179,11 @@ Para este exemplo, acompanhe o [exemplo de Análise de Revenda](sample-datasets.
 
 Apesar de o campo de dados Eixo ser **Mês**, este cria uma categoria **Ano** no conjunto de dados **Eixo**. Isto deve-se ao facto de o Power BI fornecer uma estrutura DateTime completa para todos os valores que lê. A parte superior da hierarquia mostra os dados do ano.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
 
 Com o modo Desagregar ativado, clique na barra no gráfico para descer um nível na hierarquia. Verá três barras para os dados dos trimestres disponíveis. Em seguida, nos ícones do canto superior esquerdo, selecione **Expandir tudo para um nível na hierarquia**. Em seguida, faça-o novamente para obter o nível mais baixo da hierarquia, que mostra resultados para cada mês.
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
 
 Além da visualização, podemos ver a hierarquia refletida nos dados compostos para cada relatório. A seguinte tabela mostra os resultados de **Mostrar Dados** num relatório a desagregar de um único mês ou todos os meses. 
 
@@ -192,8 +192,8 @@ Tenha em atenção que os dados são os mesmos para relatórios trimestrais e an
 
 |Modo Expandir|Ano|Trimestre|Mês|Dia|
 | ---|:---:|:---:|:---:|---|
-|Único|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|Tudo|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|Único|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|Tudo|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dados de categoria hierárquica
@@ -201,20 +201,20 @@ Os dados modelados a partir de coleções e subcoleções são hierárquicos. Um
 
 Para este exemplo, acompanhe o [exemplo de Análise de Revenda](sample-datasets.md). Crie uma visualização de gráfico de coluna empilhada que abranja as **Total Units This Year** (Unidades Totais Este Ano) (Valores) por **Territory** (Território), **City** (Cidade), **PostalCode** (Código Postal) e **Name** (Nome) (Grupo).  
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
 
 Com o modo Desagregar ativado, nos ícones do canto superior esquerdo, selecione **Expandir tudo para um nível na hierarquia** três vezes.
 Deverá estar no nível mais baixo da hierarquia, que mostra resultados para Territory (Território), City (Cidade) e Postal Code (Código Postal).
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
 
 Além da visualização, podemos ver a hierarquia refletida nos dados compostos para cada relatório. A seguinte tabela mostra os resultados de **Mostrar Dados** num relatório a desagregar para um único território ou todos os territórios. À medida que desagrega, pode ver como o relatório relativo a um território se torna mais específico e o relatório "todos os territórios" tem mais dados.
 
 
 | Modo Expandir|Território|Cidade|Postal|Nome|
 | ---|:---:|:---:|:---:|---|
-|Único|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Tudo|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Único|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Tudo|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações

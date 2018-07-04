@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584076"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599600"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Afixar um mosaico num dashboard do Power BI a partir do Excel
 Para poder afixar um mosaico a partir do livro do Excel, primeiro terá de ligar esse livro ao serviço Power BI (app.powerbi.com). Ligar um livro coloca, essencialmente, uma versão só de leitura ligada desse livro no serviço Power BI e permite-lhe afixar intervalos a dahboards. Pode até afixar uma folha de cálculo inteira a um dashboard.  
@@ -60,7 +60,7 @@ Uma forma de adicionar um novo [mosaico do dashboard](service-dashboard-tiles.md
    * Dashboard existente: selecione o nome do dashboard na lista pendente.
    * Novo dashboard: escreva o nome do novo dashboard.
    
-    ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![Caixa de diálogo Afixar no dashboard](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Selecione **Afixar**. Uma mensagem de Êxito (perto do canto superior direito) informa que o intervalo foi adicionado, como um mosaico, ao dashboard. 
    
     ![Caixa de diálogo Afixado ao dashboard](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
