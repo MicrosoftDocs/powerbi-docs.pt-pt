@@ -2,12 +2,12 @@
 title: Aprendizagem Orientada do Microsoft Power BI
 description: Comece o seu percurso de aprendizagem com esta coleção sequenciada de cursos e compreenda as funcionalidades extensas e poderosas do Microsoft Power BI.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310159"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600682"
 ---
 <div id="main" class="v2">
     <div class="container">
