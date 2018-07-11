@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299315"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599672"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar elementos visuais R no serviço Power BI
 O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
@@ -37,7 +37,7 @@ Assim que o relatório for criado no **Power BI Desktop**, pode publicar o relat
 
 Tenha em atenção que o serviço não suporta todos os pacotes R. Obtenha a lista de pacotes atualmente suportados no serviço Power BI no final deste artigo.
 
-Pode transferir este [ficheiro de exemplo do Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (ficheiro .pbix) que contém alguns elementos visuais R para ver como tudo funciona e experimentar.
+Pode transferir este [ficheiro de exemplo do Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (ficheiro .pbix) que contém alguns elementos visuais R para ver como tudo funciona e experimentar.
 
 Os elementos visuais R criados no **Power BI Desktop** e publicados no serviço Power BI, na maior parte dos casos, comportam-se como qualquer outro elemento visual no serviço Power BI; pode interagir, filtrar, dividir por setores e afixar a um dashboard ou partilhá-los com outras pessoas. Para obter mais informações sobre como partilhar dashboards e elementos visuais, veja [Partilhar um dashboard com colegas e outras pessoas](service-share-dashboards.md). Uma diferença dos outros elementos visuais é que os elementos visuais R não podem mostrar sugestões nem ser utilizados para filtrar outros elementos visuais.
 

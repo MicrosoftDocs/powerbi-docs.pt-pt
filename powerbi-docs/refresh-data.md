@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253625"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599754"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificar-se de que obtém sempre os dados mais recentes, muitas vezes, é fundamental para tomar as decisões certas. Provavelmente já usou Obter Dados no Power BI para se ligar e carregar alguns dados, e já criou alguns relatórios e um dashboard. E agora quer certificar-se de que os seus dados são realmente os mais recentes e os melhores.
@@ -101,6 +101,7 @@ A atualização de dados é suportada para ficheiros do Power BI Desktop e livro
 Manter os seus ficheiros no OneDrive ou SharePoint Online e ligar-se a eles através do Power BI permite uma enorme flexibilidade. Mas tanta flexibilidade também é de entendimento complexo. A atualização agendada para os ficheiros armazenados no OneDrive ou SharePoint Online é diferente da atualização de pacotes. Pode saber mais na secção [Tipos de atualização](#types-of-refresh).
 
 ### <a name="power-bi-desktop-file"></a>Ficheiro do Power BI Desktop
+
 | **Origem de dados** | **Atualização automática** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
 | --- | --- | --- | --- |
 | Obter Dados (no friso) é usado para ligação e consulta de dados a partir de qualquer origem de dados online listada. |Não |Sim |Não (ver abaixo) |
@@ -117,6 +118,7 @@ Manter os seus ficheiros no OneDrive ou SharePoint Online e ligar-se a eles atra
 Para detalhes, consulte [Atualizar um conjunto de dados criado a partir de um ficheiro do Power BI Desktop no OneDrive](refresh-desktop-file-onedrive.md).
 
 ### <a name="excel-workbook"></a>Livro do Excel
+
 | **Origem de dados** | **Atualização automática** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
 | --- | --- | --- | --- |
 | Tabelas de dados numa folha de cálculo não carregadas no modelo de dados do Excel. |Sim, por hora *(somente OneDrive/SharePoint Online)* |Somente manual *(somente OneDrive/SharePoint Online)* |Não |
@@ -131,6 +133,7 @@ Para detalhes, consulte [Atualizar um conjunto de dados criado a partir de um fi
 Para informações mais detalhadas, consulte [Atualizar um conjunto de dados criado a partir de um livro do Excel no OneDrive](refresh-excel-file-onedrive.md).
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>Ficheiro .csv (valores separados por vírgulas) no OneDrive ou SharePoint Online
+
 | **Origem de dados** | **Atualização automática** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
 | --- | --- | --- | --- |
 | Valor separado por vírgulas simples |Sim, por hora |Apenas manual |Não |
@@ -145,6 +148,7 @@ Há dois tipos de pacotes de conteúdos no Power BI:
 **Pacotes de conteúdos organizacionais**: criados e partilhados por utilizadores na sua organização. Os consumidores de pacotes de conteúdos não podem configurar um agendamento de atualização ou atualizar manualmente. Apenas o criador do pacote de conteúdos pode configurar a atualização dos conjuntos de dados no pacote de conteúdos. As definições de atualização são herdadas com o conjunto de dados.
 
 ### <a name="content-packs-from-online-services"></a>Pacotes de conteúdos de serviços online
+
 | **Origem de dados** | **Atualização automática** | **Atualização manual ou agendada configurada pelo utilizador** | **Gateway necessário** |
 | --- | --- | --- | --- |
 | Serviços online em Obter Dados &gt; Serviços |Sim |Sim |Não |
@@ -237,7 +241,7 @@ Neste caso, pode atualizar manualmente os dados no conjunto de dados do SalesRep
 > 
 > 
 
-Para saber mais, consulte [Dados do Excel no Power BI](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [Gateway de dados no local](service-gateway-onprem.md), [Atualizar um conjunto de dados criado de um livro do Excel numa unidade local](refresh-excel-file-local-drive.md).
+Para saber mais, consulte [Dados do Excel no Power BI](service-excel-workbook-files.md), [Power BI Gateway - Personal](service-gateway-personal-mode.md), [Gateway de dados no local](service-gateway-onprem.md), [Atualizar um conjunto de dados criado de um livro do Excel numa unidade local](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Ficheiro do Power BI Desktop com dados a partir de um feed OData
 Neste caso, utiliza Obter Dados no Power BI Desktop para se ligar e importar dados de censo de um feed OData.  Cria vários relatórios no Power BI Desktop, em seguida nomeia o ficheiro WACensus e guarda-o numa partilha da sua empresa. Depois, publica o ficheiro no serviço Power BI.
@@ -270,7 +274,7 @@ Para mais informações sobre a resolução de problemas, consulte [Ferramentas 
 ## <a name="next-steps"></a>Próximos passos
 [Ferramentas para resolver problemas de atualização](service-gateway-onprem-tshoot.md)  
 [Resolução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [Gateway de dados no local](service-gateway-onprem.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

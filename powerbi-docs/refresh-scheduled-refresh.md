@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248141"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145462"
 ---
 # <a name="configuring-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248141"
 
 Se o conjunto de dados dá suporte à atualização agendada, utilizando Atualizar Agora e Agendar Atualização, há alguns requisitos e configurações importantes que precisa de saber para que a atualização tenha êxito. Estes são **Ligação do gateway**, **Credenciais da Origem de Dados** e **Agendar Atualização**. Vejamos cada um com atenção.
 
-Isto descreverá as opções disponíveis para o [Power BI Gateway – Personal](personal-gateway.md) e o [Gateway de dados no local](service-gateway-onprem.md).
+Isto descreverá as opções disponíveis para o [Power BI Gateway – Personal](service-gateway-personal-mode.md) e o [Gateway de dados no local](service-gateway-onprem.md).
 
 Para aceder ao ecrã da atualização agendada, pode efetuar o seguinte.
 
@@ -123,7 +123,7 @@ Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este 
 
 ## <a name="next-steps"></a>Próximos passos
 [Atualização de dados no Power BI](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  

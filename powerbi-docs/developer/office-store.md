@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301786"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092121"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
-Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar. office
+Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
 
 Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Há alguns preparativos que é necessário fazer antes que isso seja possível. Para obter mais informações sobre como criar um elemento visual personalizado, consulte [Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
 
@@ -36,7 +36,7 @@ Depois de concluir a codificação e os testes do elemento visual personalizado 
 | Capturas de ecrã |Sim |Tem de fornecer, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 1366 pixéis (largura) por 768 pixéis (altura). O tamanho do ficheiro não pode ser superior a 1024 KB. *Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã.* |
 | Ligação de transferência do suporte |Sim |Forneça o URL para prestar suporte aos clientes que tenham problemas com o elemento visual. O formato do URL deve incluir https:// ou http://. |
 | Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade destinada aos clientes que utilizam o elemento visual. O formato da ligação deve incluir https:// ou http://. |
-| Contrato de licença do utilizador final (EULA) |Sim |Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais personalizados do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro “Contrato de Licença do Utilizador Final” do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Contrato de licença do utilizador final (EULA) |Sim |Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais personalizados do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro “Contrato de Licença do Utilizador Final” do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Ligação para vídeo |Não |Para aumentar o interesse dos utilizadores relativamente ao seu elemento visual personalizado, recomenda-se que forneça uma ligação para um vídeo sobre o elemento visual. O formato do URL deve incluir https:// ou http://. |
 | Repositório do GitHub |Não |O ideal será ter uma ligação pública e válida para um repositório do [GitHub](https://www.github.com) com as origens do elemento visual e dos dados de exemplo incluídas para que outros programadores possam fornecer comentários e propor melhoramentos para o seu código. |
 
@@ -97,7 +97,7 @@ Siga os passos abaixo para concluir a submissão.
    * Ligação para vídeo
    * Contrato de Licença do Utilizador Final (EULA)
      
-       Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais personalizados do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro “Contrato de Licença do Utilizador Final” do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais personalizados do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro “Contrato de Licença do Utilizador Final” do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 8. Selecione **Seguinte** para avançar para a página **Detalhes**.
 9. Selecione **Idioma** e escolha um idioma na lista.
    
@@ -126,9 +126,9 @@ Pode rever as [políticas de validação](https://dev.office.com/officestore/doc
 Após a submissão, poderá ver o estado da submissão no [dashboard da aplicação](https://sellerdashboard.microsoft.com/Application/Summary/).
 
 ## <a name="certify-your-visual"></a>Certificar o elemento visual
-Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, veja [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md).
+Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, consulte [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md)  
 [Visualizações no Power BI](../power-bi-report-visualizations.md)  
 [Visualizações Personalizadas no Power BI](../power-bi-custom-visuals.md)  

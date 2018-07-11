@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 15651c29dc333385156b1e82f55cab0d315c9862
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 994e27a08ca4f26dc730246b34c7607818e81e66
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291149"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135427"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Ligar a ficheiros CSV no Power BI Desktop
 Ligar-se a um ficheiro de valores separados por vírgulas (*CSV*) do Power BI Desktop é muito parecido com ligar a um livro do Excel. Ambas as ações são simples e este artigo mostra-lhe os passos para ligar-se a ficheiros CSV aos quais tenha acesso.
@@ -47,7 +47,7 @@ Pode utilizar esses dados no Power BI Desktop para criar visuais, relatórios ou
 ### <a name="next-steps"></a>Passos seguintes
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
-* [Introdução ao Power BI Desktop](desktop-getting-started.md)
+* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   

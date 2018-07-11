@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ade1e9377ddcb014cc71909c7256533a0e74d606
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286871"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136464"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -203,8 +203,8 @@ E é tudo o que precisa de saber sobre ligar-se a origens de dados no Power BI D
 ## <a name="next-steps"></a>Próximos passos
 Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
-* [Introdução ao Power BI Desktop](desktop-getting-started.md)
-* [Descrição Geral das Consultas com o Power BI Desktop](desktop-query-overview.md)
+* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
+* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Tipos de Dados no Power BI Desktop](desktop-data-types.md)
 * [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)    

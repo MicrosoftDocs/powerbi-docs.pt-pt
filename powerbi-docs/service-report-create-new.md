@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246163"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599534"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Criar um novo relatório no serviço Power BI através da importação de um conjunto de dados
 Leu o artigo [Relatórios no Power BI](service-reports.md) e pretende agora criar o seu. Existem várias formas diferentes de criar um relatório. Neste artigo, vamos começar por criar um relatório muito básico a partir de um conjunto de dados do Excel com o serviço Power BI. Após compreender as noções básicas da criação de um relatório, os **Passos seguintes** na parte inferior irão direcioná-lo para os tópicos de relatórios mais avançados.  
 
 > **SUGESTÃO**: Para criar um relatório ao copiar um relatório existente, consulte [Copiar um relatório](power-bi-report-copy.md)
 > 
-### <a name="prerequisites"></a>Pré-requisitos
-- Serviço Power BI (para criar relatórios com o Power BI Desktop, veja [Vista de relatórios do Desktop](desktop-report-view.md))  
-- Conjunto de dados de exemplo da Análise de Revenda
+> ### <a name="prerequisites"></a>Pré-requisitos
+> - Serviço Power BI (para criar relatórios com o Power BI Desktop, veja [Vista de relatórios do Desktop](desktop-report-view.md))  
+> - Conjunto de dados de exemplo da Análise de Revenda
 
 ## <a name="import-the-dataset"></a>Importar o conjunto de dados
 Este método de criação de um relatório começa por um conjunto de dados e uma tela de relatório em branco. Para acompanhar, [transfira o conjunto de dados em Excel de exemplo, Análise de Revenda](http://go.microsoft.com/fwlink/?LinkId=529778), e guarde-o no OneDrive para Empresas (preferencial) ou localmente.

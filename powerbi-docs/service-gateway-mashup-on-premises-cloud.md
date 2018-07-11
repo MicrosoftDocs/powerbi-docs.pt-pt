@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250655"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600073"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Intercalar ou anexar origens de dados na cloud e no local
 
@@ -38,17 +38,17 @@ O gateway de dados no local permite-lhe intercalar ou anexar origens de dados no
 
 4. Neste cluster de gateway, adicione todas as [origens de dados no local](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source) utilizadas nas suas consultas. Não precisa de adicionar as origens de dados na cloud aqui.
 
-4. Carregue o seu ficheiro do Power BI Desktop para o serviço Power BI com as consultas que combinam origens de dados no local e na cloud.
+5. Carregue o seu ficheiro do Power BI Desktop para o serviço Power BI com as consultas que combinam origens de dados no local e na cloud.
 
-5. Na página **Definições do conjunto de dados** para o novo conjunto de dados:
+6. Na página **Definições do conjunto de dados** para o novo conjunto de dados:
 
-    - Para a origem no local, selecione o gateway associado a esta origem de dados.
+   - Para a origem no local, selecione o gateway associado a esta origem de dados.
 
-    - Em **Credenciais da origem de dados**, edite as credenciais de origem de dados na cloud, conforme necessário.
+   - Em **Credenciais da origem de dados**, edite as credenciais de origem de dados na cloud, conforme necessário.
 
-    ![Definições do conjunto de dados](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![Definições do conjunto de dados](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. Com as credenciais da cloud definidas, pode atualizar o conjunto de dados através da opção **Atualizar agora** ou agendá-la para ser atualizada periodicamente.
+7. Com as credenciais da cloud definidas, pode atualizar o conjunto de dados através da opção **Atualizar agora** ou agendá-la para ser atualizada periodicamente.
 
 
 ## <a name="next-steps"></a>Próximos passos

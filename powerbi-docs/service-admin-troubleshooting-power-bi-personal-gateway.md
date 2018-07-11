@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247270"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145416"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que poderá ter ao usar o Power BI Gateway - Personal.
@@ -146,7 +146,7 @@ Como alternativa, pode aceder à **pasta Temp** (%temp%) e procurar os ficheiros
 ## <a name="next-steps"></a>Próximos passos
 [Configurar definições de proxy para os Gateways do Power BI](service-gateway-proxy.md)  
 [Atualização de Dados](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [Resolução de problemas de erros de mosaico](refresh-troubleshooting-tile-errors.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

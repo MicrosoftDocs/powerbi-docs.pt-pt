@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4be27c91d0616d4611eb07dab5d68c39ed0ab6d2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dad723d7b65836770fb866ddeed80d069a9658a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287745"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137106"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Ligar-se a dados através de interfaces genéricas no Power BI Desktop
 Pode ligar-se a uma grande diversidade de origens de dados no **Power BI Desktop**, através de conectores de dados incorporados, desde **Bases de dados de acesso** a recursos **Zendesk**, conforme mostrado na janela **Obter Dados**. Também pode ligar-se a todos os tipos de *outras* origens de dados para expandir ainda mais as suas opções de conectividade ao utilizar as interfaces genéricas (como **ODBC** ou **APIs REST**) incorporadas no **Power BI Desktop**.
@@ -109,7 +109,7 @@ A lista seguinte enumera alguns exemplos de origens de dados às quais o **Power
 ## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de origens de dados às quais se pode ligar através do **Power BI Desktop**. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
-* [Introdução ao Power BI Desktop](desktop-getting-started.md)
+* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   

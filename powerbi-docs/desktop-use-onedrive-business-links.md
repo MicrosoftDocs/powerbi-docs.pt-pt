@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec5b46dcfebf614e70a0b8ebf858af7b34906eae
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8813294f359c6bd6e1bb01fa3cc2ec3f5eb3d280
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290712"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598263"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Utilizar ligações do OneDrive for Business no Power BI Desktop
 Muitas pessoas têm livros do Excel armazenados na sua unidade do OneDrive para Empresas que seriam adequados para utilização com o Power BI Desktop. No **Power BI Desktop**, pode utilizar ligações online para ficheiros do **Excel** armazenados no **OneDrive para Empresas**, para criar relatórios e visuais. Pode utilizar uma conta de grupo do **OneDrive para Empresas** ou a sua conta individual do **OneDrive para Empresas**.
@@ -26,7 +26,7 @@ Obter uma ligação online do **OneDrive para Empresas** requer passos específi
 1. Navegue para a sua localização do OneDrive para Empresas através de um browser. Clique com o botão direito do rato no ficheiro que pretende utilizar e selecione **Abrir no Excel**.
    
    > [!NOTE]
-> A sua interface de browser pode não ter um aspeto exatamente igual à imagem seguinte. Existem diversas formas de selecionar **Abrir no Excel** para ficheiros na sua interface de browser do **OneDrive para Empresas**. Pode utilizar qualquer opção que lhe permita abrir o ficheiro no Excel.
+   > A sua interface de browser pode não ter um aspeto exatamente igual à imagem seguinte. Existem diversas formas de selecionar **Abrir no Excel** para ficheiros na sua interface de browser do **OneDrive para Empresas**. Pode utilizar qualquer opção que lhe permita abrir o ficheiro no Excel.
    > 
    > 
    

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247053"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944980"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugestões para criar um dashboard excelente no Power BI
 Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como tornar o dashboard não apenas bonito, mas também funcional. Em geral, significa destacar as informações mais importantes e torná-las claras e organizadas.
@@ -59,7 +59,7 @@ A maioria das pessoas leem de cima para baixo, pelo que deve colocar o nível ma
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Utilizar a visualização correta para os dados e formatá-la para leitura facilitada
 Evite várias visualizações.  As visualizações devem ter uma visão geral e serem fáceis de "ler" e interpretar.  Para alguns dados e visualizações, uma visualização gráfica simples é suficiente. No entanto, outros dados podem exigir uma visualização mais complexa. Certifique-se de que utiliza títulos, etiquetas e outras personalizações para ajudar o leitor.  
 
-* [Escolha visualizações de dados apropriadas](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Tenha cuidado ao utilizar gráficos que distorçam a realidade, ou seja, gráficos em 3D. Não se esqueça de que é difícil para o cérebro humano interpretar formas circulares. Gráficos circulares, gráficos em anel, medidores e outros tipos de gráficos circulares podem parecer muito bonitos, mas não são uma prática recomendada de visualização de dados.
+* [Escolha visualizações de dados apropriadas](https://www.youtube.com/watch?v=-tdkUYrzrio). Tenha cuidado ao utilizar gráficos que distorçam a realidade, ou seja, gráficos em 3D. Não se esqueça de que é difícil para o cérebro humano interpretar formas circulares. Gráficos circulares, gráficos em anel, medidores e outros tipos de gráficos circulares podem parecer muito bonitos, mas não são uma prática recomendada de visualização de dados.
 * Seja consistente com escalas de gráfico de eixos, ordenação da dimensão do gráfico e também com as cores utilizadas para os valores de dimensão nos gráficos.
 * Certifique-se de que codifica corretamente os dados quantitativos. Não exceda três ou quatro dígitos quando apresentar números. Apresente medidas com um ou dois números à esquerda da vírgula decimal e escala de milhares ou milhões, ou seja 3,4 milhões e não 3.400.000.
 * Não misture os níveis de precisão e tempo. Certifique-se de que os períodos de tempo são bem compreendidos.  Não é necessário um gráfico com o mês passado ao lado de gráficos filtrados de um determinado mês do ano.

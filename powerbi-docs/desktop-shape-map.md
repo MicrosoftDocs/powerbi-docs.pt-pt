@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290965"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600757"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
 No Power BI Desktop, pode criar um visual do **Mapa de Forma** para mostrar comparações relativas de regiões num mapa ao aplicar diferentes cores em diferentes regiões. Em comparação com o visual do **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa; em vez disso, o propósito principal é mostrar comparações relativas de regiões num mapa ao distingui-las com cores diferentes.
@@ -40,23 +40,23 @@ O Power BI Desktop cria uma tela de design de visual **Mapa de Forma** vazia.
 Execute os seguintes passos para criar um **Mapa de Forma**:
 
 1. No painel **Campos**, arraste um campo de dados com os nomes de região (ou abreviaturas) para o registo **Localização** e um campo de medida de dados para o registo **Saturação da cor** (ainda não verá um mapa).
-   
+
    > [!NOTE]
-> Veja a secção intitulada **Getting Map Data (Obter Dados de Mapa)**, abaixo, para obter informações sobre como obter rapidamente os dados do mapa para testar o **Mapa de Forma**.
+   > Veja a secção intitulada **Getting Map Data (Obter Dados de Mapa)**, abaixo, para obter informações sobre como obter rapidamente os dados do mapa para testar o **Mapa de Forma**.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. No painel de definições **Formato**, expanda **Forma** e selecione a partir dos **Mapas Padrão** pendentes para mostrar os seus dados. Neste momento, a composição é apresentada, conforme mostrado na imagem seguinte.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> Na secção **Chaves de Região** no final deste artigo está uma coleção de tabelas que têm chaves de regiões de mapa que pode utilizar para testar o visual **Mapa de Forma**.
+   > Na secção **Chaves de Região** no final deste artigo está uma coleção de tabelas que têm chaves de regiões de mapa que pode utilizar para testar o visual **Mapa de Forma**.
    > 
    > 
 3. Em seguida, pode modificar a projeção do mapa e as definições de zoom, bem como as cores de pontos de dados, a partir do painel de definições **Formato**. Também pode modificar as definições de zoom. Por exemplo, pode alterar as cores, definir máximos e mínimos, e assim por diante.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. Também pode adicionar uma coluna de dados de categoria ao registo **Legenda** e classificar regiões do mapa com base em categorias.
 
@@ -114,6 +114,7 @@ Existem algumas considerações e requisitos para esta versão de Pré-visualiza
 Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização para testar o **Mapa de Forma**.
 
 ### <a name="australia-states"></a>Austrália: Estados
+
 | ID | abbr | iso | nome | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
@@ -126,6 +127,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | au-act |ACT |AU-ACT |Território da Capital Australiana |ACT |
 
 ### <a name="austria-states"></a>Áustria: Estados
+
 | ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Viena |Viena |WI |
@@ -139,6 +141,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brasil: Estados
+
 | ID |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | Zona Litigada 4 |
 
 ### <a name="canada-provinces"></a>Canadá: Províncias
+
 | ID | iso | nome | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>França: Regiões
+
 | ID | nome | name-en |
 | --- | --- | --- |
 | Alsácia |Alsácia |Alsácia |
@@ -217,6 +222,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | Aquitânia |Aquitânia |Aquitânia |
 
 ### <a name="germany-states"></a>Alemanha: Estados
+
 | ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlim |Berlim |BE |
@@ -237,6 +243,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | de-bw |DE-BW |Bade-Vurtemberga |Bade-Vurtemberga |BW |
 
 ### <a name="ireland-counties"></a>Irlanda: Condados
+
 | ID |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | Carlow |
 
 ### <a name="italy-regions"></a>Itália: Regiões
+
 | ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Véneto |Véneto |VN |
@@ -291,6 +299,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | it-ab |IT-65 |Abruzos |Abruzos |AB |
 
 ### <a name="mexico-states"></a>México: Estados
+
 | ID | abreviatura | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Holanda: Províncias
+
 | ID | iso | nome | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |
@@ -343,6 +353,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>Reino Unido: Países
+
 | ID | iso | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
@@ -351,6 +362,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | gb-eng |GB-ENG |Inglaterra |
 
 ### <a name="usa-states"></a>EUA: Estados
+
 | ID | nome | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

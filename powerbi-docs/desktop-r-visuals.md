@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286342"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599655"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar elementos visuais do Power BI com o R
 Com o **Power BI Desktop**, pode utilizar o **R** para visualizar os dados.
@@ -81,9 +81,9 @@ Depois de especificar a instalação do R, estará pronto para começar a criar 
    * Quando selecionar **Executar** na barra de título **Editor de scripts R**
    * Sempre que ocorre uma alteração de dados, devido à atualização, filtragem ou destaque de dados
 
-    A imagem seguinte mostra um exemplo de código de desenho de correlação, e desenha as correlações entre atributos de tipos de carros diferentes.
+     A imagem seguinte mostra um exemplo de código de desenho de correlação, e desenha as correlações entre atributos de tipos de carros diferentes.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. Para obter uma vista ampliada das visualizações, pode minimizar o **Editor de scripts R**. E, claro, como noutros elementos visuais no **Power BI Desktop**, pode efetuar a filtragem cruzada do desenho de correlação, ao selecionar apenas carros desportivos no elemento visual de anel (o elemento visual redondo à direita, na imagem de exemplo acima).
 

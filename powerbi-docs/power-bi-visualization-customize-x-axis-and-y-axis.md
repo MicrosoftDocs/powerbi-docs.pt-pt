@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d28c6f4a0237253847cd474a3c3558399ba6fa64
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295712"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600525"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos X e Y
 Neste tutorial, aprenderá várias formas diferentes de personalizar os eixos X e Y dos seus elementos visuais. Nem todos os elementos visuais têm eixos ou podem ser personalizados; os gráficos circulares, por exemplo, não têm eixos. As opções de personalização variam consoante o elemento visual, demasiadas opções para abranger num único artigo. Por isso, vamos ver algumas das personalizações de eixos mais utilizadas e familiarizá-lo com a utilização do separador de formatação visual na tela do relatório do Power BI.  
@@ -86,9 +86,9 @@ Em primeiro lugar, criará um gráfico de Combinação que examina o impacto da 
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
->[NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
-1. Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45% em abril, caindo em julho e chegando ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
-2. Adicione **Vendas Deste Ano > Valor** e **Vendas do Ano Passado** ao gráfico de linhas. A escala de **% de Margem Bruta do Ano Passado** (alinha azul ao longo da linha de grelha 0M%) é muito menor do que a escala de **Vendas**, o que dificulta a comparação. As percentagens das etiquetas do eixo Y são ridículas.      
+> [NOTE]: For help sorting by month, see [sorting by other criteria](power-bi-report-change-sort.md#other)
+> 1. Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45% em abril, caindo em julho e chegando ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
+> 2. Adicione **Vendas Deste Ano > Valor** e **Vendas do Ano Passado** ao gráfico de linhas. A escala de **% de Margem Bruta do Ano Passado** (alinha azul ao longo da linha de grelha 0M%) é muito menor do que a escala de **Vendas**, o que dificulta a comparação. As percentagens das etiquetas do eixo Y são ridículas.      
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
 5. Para tornar o elemento visual mais fácil de ler e interpretar, converta o gráfico de linhas num gráfico de Linhas e Colunas Empilhadas.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3a1a458ab263eb1e03c565e7a47679994afda82e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291103"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136140"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Introduzir dados diretamente no Power BI Desktop
 Com o Power BI Desktop, pode introduzir dados diretamente e utilizar esses dados nos relatórios e visualizações. Por exemplo, pode copiar partes de um livro ou página Web e colá-las no Power BI Desktop.
@@ -41,7 +41,7 @@ Está agora pronto para utilizar os dados no Power BI Desktop para criar element
 ### <a name="next-steps"></a>Passos seguintes
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
-* [Introdução ao Power BI Desktop](desktop-getting-started.md)
+* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   

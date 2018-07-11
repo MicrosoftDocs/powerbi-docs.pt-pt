@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799562"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599341"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurar as definições de proxy do Gateway de dados no local
 O seu ambiente de trabalho pode requerer que passe por um proxy para aceder à Internet. Esta configuração poderá impedir o Gateway de dados no local de se ligar ao serviço.
@@ -77,23 +77,23 @@ Ao configurar as definições de proxy para utilizar as credenciais predefinidas
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Alterar a conta de serviço do Gateway de dados no local
 1. Altere a conta de serviço do Windows para o **serviço de Gateway de dados no local**.
-   
+
     A conta predefinida deste serviço é *NT SERVICE\PBIEgwService*. Deverá alterá-la para uma conta de utilizador de domínio no seu domínio do Active Directory. Em alternativa, deverá utilizar uma conta de serviço gerida para evitar ter de alterar a palavra-passe.
-   
+
     Deverá alterar a conta no separador **Iniciar Sessão** nas propriedades do serviço Windows.
 2. Reinicie o **serviço de Gateway de dados no local**.
-   
+
     Numa linha de comandos de administrador, emita os seguintes comandos.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Inicie o **configurador do Gateway de dados no local**. Pode selecionar o botão de início Windows e procurar *Gateway de dados no local*.
 4. Inicie sessão no Power BI.
 5. Restaure o gateway utilizando a sua chave de recuperação.
-   
+
     Isto irá permitir que a nova conta de serviço consiga desencriptar credenciais armazenadas para origens de dados.
-    
+
 > [!NOTE]
 > Quando altera a conta de serviço diretamente com o painel de Controlo de Serviços, as ACLs não são atualizadas automaticamente. Tem de garantir que a nova conta de serviço tem acesso à pasta e aos ficheiros de instalação. Pode encontrar a pasta de Instalação do Gateway em C:\Programas\On-premises data gateway. 
 > 

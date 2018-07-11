@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248348"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598984"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
 
@@ -35,12 +35,12 @@ Este artigo abrange o seguinte.
 * [Afixar um mosaico a um dashboard diferente](#different)
 * [Eliminar um mosaico](#delete)
   
- > [!TIP]
- > Para alterar a visualização mostrada no próprio mosaico, elimine o mosaico e adicione um novo [mosaico do dashboard](service-dashboard-tiles.md).
- > 
+  > [!TIP]
+  > Para alterar a visualização mostrada no próprio mosaico, elimine o mosaico e adicione um novo [mosaico do dashboard](service-dashboard-tiles.md).
 
- ### <a name="prerequisites"></a>Pré-requisitos
- 1. Para acompanhar, abra o serviço Power BI (não o Power BI Desktop) e [transfira o exemplo de Análise de Gastos de TI](sample-it-spend.md). Quando a mensagem "Êxito" aparecer, selecione **Ir para o dashboard**
+  
+## <a name="prerequisites"></a>Pré-requisitos
+Para acompanhar, abra o serviço Power BI (não o Power BI Desktop) e [transfira o exemplo de Análise de Gastos de TI](sample-it-spend.md). Quando a mensagem "Êxito" aparecer, selecione **Ir para o dashboard**
 
 - - -
 <a name="create"></a>

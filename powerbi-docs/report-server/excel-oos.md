@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481906"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092673"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 Além de visualizar relatórios do Power BI no portal Web, o Power BI Report Server pode alojar livros do Excel através do [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). O servidor de relatórios torna-se uma localização única para publicar e visualizar o conteúdo do Microsoft BI com gestão personalizada.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parâmetros**
 
-* **–InternalURL** é o nome de domínio completamente qualificado (FQDN) do servidor que executa o Office Online Server, tal como http://servername.contoso.com.
+* **–InternalURL** é o nome de domínio completamente qualificado (FQDN) do servidor que executa o Office Online Server, tal como `http://servername.contoso.com`.
 * **–ExternalURL** é o FQDN que pode ser acedido na Internet.
 * **–CertificateName** é o nome amigável do certificado.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parâmetros**
 
-* **–InternalURL** é o nome do servidor que executa o Office Online Server, tal como http://servername.
+* **–InternalURL** é o nome do servidor que executa o Office Online Server, tal como `http://servername`.
 * **–AllowHttp** configura o farm para utilizar HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Certifique-se de que o farm do Office Online Server foi criado com êxito

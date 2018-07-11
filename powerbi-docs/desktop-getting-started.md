@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309929"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599875"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução do Power BI Desktop**. Esta breve apresentação do Power BI Desktop apresentará como ele funciona, demonstrará o que pode fazer e acelerará a sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam os seus esforços de business intelligence. 
@@ -313,7 +313,7 @@ O serviço **Power BI** apresenta a primeira página do relatório. Na parte inf
 
 Pode fazer alterações a um relatório no serviço **Power BI**, selecionando **Editar Relatório** na parte superior da tela do relatório.
 
-Para guardar o relatório, selecione **Ficheiro \> Guardar como** no serviço. Há todos os tipos de elementos visuais interessantes que pode criar no serviço **Power BI** por a partir do seu relatório, que pode anexar a um *dashboard*. Para saber mais sobre dashboards no serviço **Power BI****[, veja Sugestões para conceber um excelente dashboard](service-dashboards-design-tips.md)**.
+Para guardar o relatório, selecione **Ficheiro \> Guardar como** no serviço. Há todos os tipos de elementos visuais interessantes que pode criar no serviço **Power BI** por a partir do seu relatório, que pode anexar a um *dashboard*. Para saber mais sobre dashboards no serviço **Power BI**<strong>[, veja Sugestões para conceber um excelente dashboard](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

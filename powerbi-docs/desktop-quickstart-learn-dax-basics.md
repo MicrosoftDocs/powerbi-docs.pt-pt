@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291034"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600780"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
 Este artigo é destinado aos novos utilizadores do Power BI Desktop. O objetivo é oferecer uma introdução rápida e fácil sobre como pode usar o DAX (Data Analysis Expressions) para resolver vários problemas de análise de dados e de cálculo básico. Vamos abordar alguma informação conceptual e uma série de tarefas que pode executar, para além de alguns testes para verificar o que aprendeu. Depois de ler este artigo, deverá ter uma boa compreensão dos conceitos fundamentais mais importantes no DAX.
@@ -83,33 +83,33 @@ Vamos criar uma fórmula simples. Esta tarefa permitirá perceber melhor a sinta
 ### <a name="task-create-a-measure-formula"></a>Tarefa: criar uma fórmula de medida
 Para concluir esta tarefa, precisará de abrir o ficheiro Exemplo de Vendas da Contoso para o Power BI Desktop.
     
-1.  Na visualização de Relatório, na lista de campos, clique com o botão direito do mouse na tabela **Sales** e clique em **Nova Medida**.
+1. Na visualização de Relatório, na lista de campos, clique com o botão direito do mouse na tabela **Sales** e clique em **Nova Medida**.
     
-2.  Na barra de fórmulas, substitua **Measure** ao escrever um novo nome de medida, **Previous Quarter Sales**.
+2. Na barra de fórmulas, substitua **Measure** ao escrever um novo nome de medida, **Previous Quarter Sales**.
     
-3.  Depois do sinal de igual, digite **SUM**, seguido de um parêntese de abertura.
+3. Depois do sinal de igual, digite **SUM**, seguido de um parêntese de abertura.
     
-    Em vez de escrever um nome de coluna para somar imediatamente, vamos inserir outra função para *filtrar* os dados que desejamos somar.
+   Em vez de escrever um nome de coluna para somar imediatamente, vamos inserir outra função para *filtrar* os dados que desejamos somar.
     
-4.  Entre os parênteses, digite **CALCULATE**, seguido de um parêntese de abertura.
+4. Entre os parênteses, digite **CALCULATE**, seguido de um parêntese de abertura.
     
-    Irá usar a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. A isto chamamos aninhamento de funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
+   Irá usar a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. A isto chamamos aninhamento de funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
    
-5.  Entre os parênteses **()** para a função **CALCULATE**, digite **Sales[SalesAmount]**. Este é o primeiro argumento de expressão para a função CALCULATE.
+5. Entre os parênteses **()** para a função **CALCULATE**, digite **Sales[SalesAmount]**. Este é o primeiro argumento de expressão para a função CALCULATE.
     
-6.  Escreva uma vírgula (**,**) para especificar o primeiro filtro e, em seguida, escreva **PREVIOUSQUARTER**, seguido de um parêntesis de abertura.
+6. Escreva uma vírgula (**,**) para especificar o primeiro filtro e, em seguida, escreva **PREVIOUSQUARTER**, seguido de um parêntesis de abertura.
     
-    Irá usar a função de análise de tempo PREVIOUSQUARTER para filtrar os nossos resultados SUM pelo trimestre anterior.
+   Irá usar a função de análise de tempo PREVIOUSQUARTER para filtrar os nossos resultados SUM pelo trimestre anterior.
     
-7.  Entre os parêntesis **()** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]**.
+7. Entre os parêntesis **()** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]**.
     
-    A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas.
+   A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas.
     
-8.  Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são precedidos de dois parêntesis de fecho **))**.
+8. Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são precedidos de dois parêntesis de fecho **))**.
     
    A sua fórmula agora deve ter este aspeto:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. Clique na marca de verificação ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) na barra de fórmulas ou prima Enter para validar a fórmula e adicioná-la ao modelo.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244567"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598761"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Alterar o tamanho de uma página de relatório
 No [artigo e vídeo anterior](power-bi-report-display-settings.md), aprendeu duas maneiras diferentes de controlar a apresentação de página nos relatórios do Power BI: **Ver** e **Tamanho da Página**. A Vista de Página e o Tamanho da Página estão disponíveis no serviço Power BI e no Power BI Desktop, e têm um aspeto e funcionalidade quase idênticos. Porém, para este tutorial vamos utilizar o serviço Power BI.
@@ -31,19 +31,19 @@ No [artigo e vídeo anterior](power-bi-report-display-settings.md), aprendeu dua
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Certifique-se de que nenhuma visualização seja selecionada na tela. Selecione **Vista** e reveja as opções de apresentação.
 
-    * Verá isto na vista de Leitura.
+   * Verá isto na vista de Leitura.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * Verá isto na vista de Edição.
+   * Verá isto na vista de Edição.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. Vejamos qual o aspeto da página ao utilizar a definição **Tamanho real**.
+3. Vejamos qual o aspeto da página ao utilizar a definição **Tamanho real**.
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    Agora, o dashboard tem barras de deslocamento duplas, o que não é muito bom.
-2. Alterne para **Ajustar à Largura**.
+4. Alterne para **Ajustar à Largura**.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

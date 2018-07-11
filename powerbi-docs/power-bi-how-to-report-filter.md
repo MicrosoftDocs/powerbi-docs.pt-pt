@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721392"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598948"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 Este artigo analisa de forma aprofundada o painel Filtros de relatórios. Verá o painel na [Vista de Edição e Vista de Leitura do serviço Power BI](service-reading-view-and-editing-view.md) e na [Vista de Relatório do Power BI Desktop](desktop-report-view.md).
@@ -77,7 +77,7 @@ Para mostrar opções para um filtro específico, selecione a seta para baixo ju
 ## <a name="add-a-filter"></a>Adicionar um filtro
 * Na Vista de Edição do PowerBI Desktop e do serviço Power BI, adicione um filtro a um elemento visual, a uma página, a uma pormenorização ou a um relatório ao selecionar um campo do painel Campos e ao arrastá-lo para o well de filtro adequado, onde vê **Arrastar campos para aqui**. Após um campo ser adicionado como um filtro, ajuste-o através dos controlos de filtragem Básica e filtragem Avançada (descritos abaixo).
 
-- **Arrastar um novo campo para a área de filtros de nível Visual não adiciona esse campo ao elemento visual**, mas permite-lhe filtrar o elemento visual com este novo campo. No exemplo abaixo, **Chain** (Cadeia) foi adicionado como um novo filtro para o visual. Repare que adicionar simplesmente **Chain** (Cadeia) como filtro não altera o visual até utilizar os controlos de filtragem Básica ou Avançada.
+* **Arrastar um novo campo para a área de filtros de nível Visual não adiciona esse campo ao elemento visual**, mas permite-lhe filtrar o elemento visual com este novo campo. No exemplo abaixo, **Chain** (Cadeia) foi adicionado como um novo filtro para o visual. Repare que adicionar simplesmente **Chain** (Cadeia) como filtro não altera o visual até utilizar os controlos de filtragem Básica ou Avançada.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241953"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965211"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerir a área de trabalho da aplicação no Power BI e no Office 365
 Como criador ou administrador de uma [área de trabalho de aplicação no Power BI](service-install-use-apps.md) ou no Office 365, gere alguns aspetos da área de trabalho no Power BI. Outros aspetos que gere no Office 365. 
@@ -33,7 +33,7 @@ Como criador ou administrador de uma [área de trabalho de aplicação no Power 
 * Ver o endereço de e-mail do grupo.
 * Eliminar o grupo.
 
-É preciso uma licença do [Power BI Pro](service-free-vs-pro.md) para ser administrador ou membro de uma área de trabalho da aplicação. Os utilizadores da aplicação também precisam de uma licença do Power BI Pro, a menos que a sua área de trabalho da aplicação esteja numa capacidade Premium do Power BI. Neste caso, os utilizadores empresariais podem aceder à aplicação com uma licença gratuita do Power BI. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
+É preciso uma licença do [Power BI Pro](service-free-vs-pro.md) para ser administrador ou membro de uma área de trabalho da aplicação. Os utilizadores da aplicação também precisam de uma licença do Power BI Pro, a menos que a sua área de trabalho da aplicação esteja numa capacidade Premium do Power BI. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Editar a área de trabalho da aplicação no Power BI
 1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione as reticências (**…**) junto ao nome da sua área de trabalho > **Editar área de trabalho**. 
