@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241142"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599053"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Ligue-se ao tyGraph com o Power BI
 Visualize e explore os seus dados do tyGraph no Power BI com o pacote de conteúdos do Power BI. Comece por ligar-se à sua conta do tyGraph e por carregar o dashboard, os relatórios e o conjunto de dados. O conteúdo pronto para utilização inclui informações, como a pontuação MAE (Medida de Envolvimento Ativo) e Principais Colaboradores. Personalize ainda mais de modo a realçar as informações mais importantes para si.  Os dados serão atualizados automaticamente de acordo com um agendamento definido por si.
@@ -42,7 +42,7 @@ Ligue-se ao [tyGraph para o Power BI](https://app.powerbi.com/getdata/services/t
    
     **Se não é um Administrador Verificado do Yammer**
    
-    O pacote de conteúdos do tyGraph requer uma conta do tyGraph criada por um administrador verificado do Yammer. Uma vez criadas, podem ser emitidas chaves suplementares para utilizadores na mesma organização. Se o seu administrador verificado ainda não tiver criado uma conta do tyGraph, contacte-o para criar uma. Se este tiver criado uma conta, pode pedir uma chave ao enviar um e-mail para <mailto:support@unlimitedviz.com>.
+    O pacote de conteúdos do tyGraph requer uma conta do tyGraph criada por um administrador verificado do Yammer. Uma vez criadas, podem ser emitidas chaves suplementares para utilizadores na mesma organização. Se o seu administrador verificado ainda não tiver criado uma conta do tyGraph, contacte-o para criar uma. Se este tiver criado uma conta, pode pedir uma chave ao enviar um e-mail para <support@unlimitedviz.com>.
    
     ![](media/service-connect-to-tygraph/creds.png)
 6. Após a autenticação com êxito, o processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.

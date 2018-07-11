@@ -12,6 +12,8 @@
       items:
         - name: Connect to a GitHub sample (Ligar a um exemplo do GitHub)
           href: service-tutorial-connect-to-github.md
+        - name: Introdução ao Power BI
+          href: service-get-started.md
     - name: Conceitos
       items:
         - name: What's new in the Power BI service (Novidades no serviço Power BI)
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: Obter dados de ficheiros do Power BI Desktop
                   href: service-desktop-files.md
+                - name: Parameters settings for datasets (Definições de parâmetros para conjuntos de dados)
+                  href: service-parameters.md
                 - name: Obter dados de ficheiros de valores separados por vírgulas (.csv)
                   href: service-comma-separated-value-files.md
                 - name: 'Real-time streaming in Power BI (Preview) (Transmissão em fluxo em tempo real no Power BI [Pré-visualização])'
@@ -860,16 +864,12 @@
           items:
             - name: Introdução à aplicação iOS
               href: mobile-iphone-app-get-started.md
-            - name: Get started with the iPad app (Introdução à aplicação para iPad)
-              href: mobile-ipad-app-get-started.md
             - name: Analista virtual de Perguntas e Respostas em aplicações móveis para iOS
               href: mobile-apps-ios-qna.md
             - name: Aplicação Power BI Apple Watch
               href: mobile-apple-watch.md
             - name: Ler um código de barras a partir da aplicação no iPhone
               href: mobile-apps-scan-barcode-iphone.md
-            - name: Power BI for iOS apps (Aplicações do Power BI para iOS)
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS e Android
           items:
             - name: Anotar e partilhar nas aplicações móveis
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: 'Integrate a Power BI report into an app (user owns data) (Integrar um relatório do Power BI numa aplicação [os dados são do utilizador])'
               href: developer/integrate-report.md
-            - name: Integrar conteúdos na sua aplicação (os dados são da aplicação)
-              href: developer/embed-sample-for-customers.md
             - name: Integrar conteúdos na sua aplicação para clouds soberanas (a aplicação é proprietária de dados)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Incorporar esquemas personalizados numa aplicação
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Configure mobile apps with Intune (Configurar aplicações móveis com o Intune)
           href: service-admin-mobile-intune.md
+    - name: Reference (Referência)
+      items:
+        - name: 'PowerShell, REST APIs, and .NET SDK (PowerShell, APIs REST e SDK .NET)'
+          href: service-admin-reference.md
+        - name: Power BI cmdlets for PowerShell (Cmdlets do Power BI para o PowerShell)
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: Recursos
       items:
         - name: Abordagens de governação e implementação do Power BI
