@@ -4,7 +4,7 @@ Utilizar o OneDrive para Empresas como uma origem para conteúdo do Power BI dá
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_1.png)
 
-Para ligar a um ficheiro do PBIX (Power BI Desktop) no OneDrive para Empresas, inicie sessão no serviço do Power BI e selecione **Obter Dados**. Escolha **Ficheiros** em Importar ou Ligar a Dados e, em seguida, selecione **OneDrive - Empresas**. Destaque o ficheiro pretendido e selecione **Ligar**.
+Para ligar a um ficheiro PBIX (Power BI Desktop) no OneDrive para Empresas, inicie sessão no serviço Power BI e selecione **Obter Dados**. Escolha **Ficheiros** em Importar ou Ligar a Dados e, em seguida, selecione **OneDrive - Empresas**. Destaque o ficheiro pretendido e selecione **Ligar**.
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_2.png)
 

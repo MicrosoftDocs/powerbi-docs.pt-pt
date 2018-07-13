@@ -9,7 +9,7 @@ Existem diversos tipos de ações para aprender nesta secção e a interatividad
 
 O serviço do Power BI é a extensão natural do **Power BI Desktop**, e as respetivas funcionalidades incluem carregar relatórios, criar dashboards e colocar questões sobre os seus dados com linguagem natural. Pode utilizar o serviço para definir as horas de atualização de dados, partilhar dados com a sua organização e criar pacotes de serviço personalizado.
 
-Nos tópicos seguintes, vamos explorar o serviço do Power BI e mostrar-lhe como pode tornar os dados de business intelligence em informações de dados e um ambiente de decisão colaborativo.
+Nos tópicos seguintes, vamos explorar o serviço Power BI e mostrar-lhe como pode transformar os dados de business intelligence em informações de dados e num ambiente de colaboração em decisões.
 
 ![](media/4-0-intro-power-bi-service/4-0_1.png)
 

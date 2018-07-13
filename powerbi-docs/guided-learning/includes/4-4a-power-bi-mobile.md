@@ -1,6 +1,6 @@
 Se quiser monitorizar os seus dados enquanto se desloca, pode utilizar uma das aplicações móveis do Power BI para dispositivos iOS, Android e Windows.
 
-Quando utilizar a aplicação do Power BI, inicie sessão primeiro na sua conta com as suas informações de conta do serviço Power BI. Num dispositivo móvel Windows (neste caso, um tablet), o início de sessão é semelhante ao seguinte.
+Quando utilizar a aplicação Power BI, inicie sessão primeiro na sua conta com as suas informações de conta do serviço Power BI. Num dispositivo móvel Windows (neste caso, um tablet), o início de sessão é semelhante ao seguinte.
 
 ![](media/4-4a-power-bi-mobile/4-4a_1.png)
 
