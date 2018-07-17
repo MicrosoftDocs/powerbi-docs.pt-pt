@@ -1,5 +1,5 @@
 ---
-title: Como incorporar os dashboards, relatórios e mosaicos do Power BI
+title: Como incorporar os dashboards, os relatórios e os mosaicos do Power BI
 description: Saiba mais sobre os passos que precisa de tomar para incorporar conteúdo do Power BI na sua aplicação.
 author: markingmyname
 manager: kfile
@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945370"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924719"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporar os dashboards, os relatórios e os mosaicos do Power BI
 
@@ -42,8 +42,8 @@ Antes de começar a incorporar dashboards e relatórios na sua aplicação, deve
 Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
 
 Escolha a solução mais adequada para si:
-* [A incorporação para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
-* [A incorporação para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
+* A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
+* A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
 
 No entanto, se optar por configurar o ambiente manualmente, pode continuar abaixo. 
 
@@ -134,7 +134,7 @@ Todos os utilizadores, independentemente da licença atribuída, podem utilizar 
 
 | Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição máxima de páginas em hora de ponta |
 | --- | --- | --- | --- | --- | --- |
-| EM3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1200 |
+| EM3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1,200 |
 | P1 |8 núcleos virtuais |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1,201-2,400 |
 | P2 |16 núcleos virtuais |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2,401-4,800 |
 | P3 |32 núcleos virtuais |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4801-9600 |
@@ -179,9 +179,9 @@ Se estiver a incorporar para os seus clientes, faça o seguinte.
 
 Os Administradores Globais ou os administradores de serviço Power BI podem permitir a capacidade de utilizar as APIs REST, ou ativar ou desativar um inquilino. Os administradores do Power BI podem configurar esta definição para toda a organização ou para grupos de segurança individuais. Está ativada para toda a organização por predefinição. Isto é efetuado através do [portal de administração do Power BI](../service-admin-portal.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
-[Incorporação com o Power BI](embedding.md)  
+[Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium – o que é?](../service-premium.md)  
 [Como comprar o Power BI Premium](../service-admin-premium-purchase.md)  

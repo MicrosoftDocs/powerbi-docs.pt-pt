@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium – o que é?
+title: Power BI Premium - o que é?
 description: O Power BI Premium é capacidade dedicada para a sua organização ou equipa, oferecendo desempenho mais fiável e maiores volumes de dados sem exigir a compra de licenças por utilizador.
 author: mgblythe
 manager: kfile
@@ -11,13 +11,13 @@ ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944566"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925442"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
+# <a name="power-bi-premium---what-is-it"></a>Power BI Premium - o que é?
 O Power BI Premium fornece recursos dedicados à execução do serviço Power BI para a sua organização ou equipa, dando-lhe um desempenho mais fiável e volumes de dados maiores. O Premium também permite uma distribuição alargada de conteúdos sem que precise de comprar licenças por utilizador para visualizadores.
 
 Pode tirar partido do Power BI Premium ao atribuir áreas de trabalho a uma capacidade Premium. A *capacidade Premium* é um recurso dedicado para a sua organização. Para áreas de trabalho que não estejam atribuídas a uma capacidade Premium, estas estarão numa capacidade partilhada.
@@ -29,9 +29,9 @@ A *capacidade partilhada* é a experiência que já conhece no Power BI, onde as
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="capacity-tiers"></a>Níveis de capacidade
-Existem dois tipos de capacidade no Power BI. Capacidade partilhada e capacidade do Power BI Premium. Eis uma análise às diferenças entre as mesmas.
+Existem dois tipos de capacidade no Power BI. Capacidade partilhada e capacidade Power BI Premium. Eis uma análise às diferenças entre as mesmas.
 
-|  | Capacidade partilhada | Capacidade do Power BI Premium |
+|  | Capacidade partilhada | Capacidade Power BI Premium |
 | --- | --- | --- |
 | **Taxa de atualizações** |8/dia |Sem restrições |
 | **Isolamento com hardware dedicado** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
