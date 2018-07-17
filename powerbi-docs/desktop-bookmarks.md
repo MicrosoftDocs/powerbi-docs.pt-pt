@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288067"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330128"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -64,7 +64,7 @@ Depois de ter um marcador, pode apresentá-lo ao clicar simplesmente nele no pai
 
 Pode também selecionar se cada marcador aplicará propriedades de *dados* tais como filtros e segmentações de dados, propriedades de *visualização* tais como destaque e a sua visibilidade, bem como alterações à página que apresenta a página que estava visível quando o marcador foi adicionado. Estas capacidades são úteis quando utiliza marcadores para alternar entre tipos de elementos visuais, caso em que pretenderá, provavelmente, desativar as propriedades dos dados para que os filtros não sejam repostos quando os utilizadores alteram os tipos de elementos visuais. 
 
-Para efetuar essas alterações, selecione as reticências junto ao nome do marcador, conforme mostrado na imagem anterior, em seguida, selecione ou anule a seleção das marcas de verificação próximas de *Dados*, *Visualização* e outros controlos. 
+Para fazer essas alterações, selecione as reticências junto ao nome do marcador, conforme mostrado na imagem anterior e, em seguida, selecione ou desselecione as marcas de verificação junto a *Dados*, *Apresentar* e outros controlos. 
 
 ## <a name="arranging-bookmarks"></a>Dispor marcadores
 À medida que cria marcadores, pode considerar que a ordem pela qual são criados não é necessariamente a mesma ordem pela qual quer apresentá-los ao seu público. Não há problema, pode reorganizar facilmente a ordem dos marcadores.
@@ -146,7 +146,7 @@ Tenha em atenção que tem de utilizar a barra de título do marcador cinzenta p
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos **marcadores**, existem algumas limitações e considerações a não esquecer.
 
-* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Caso se depare com problemas com a marcação e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
+* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
 * Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este será apresentado no estado predefinido. Isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
 * O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
 

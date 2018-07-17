@@ -1,6 +1,6 @@
 ---
-title: Introdução ao serviço do Power BI
-description: Introdução ao serviço do Power BI
+title: Introdução ao serviço Power BI (Power BI Online)
+description: Introdução ao Power BI Online (app.powerbi.com)
 author: adamw
 manager: kfile
 ms.reviewer: ''
@@ -8,22 +8,37 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d66653ebe9232cb6da2f3c53b01e791ca9966db9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310136"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598669"
 ---
-# <a name="get-started-with-power-bi-service-apppowerbicom"></a>Introdução ao serviço Power BI (app.powerbi.com)
-Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](guided-learning/gettingstarted.yml?tutorial-step=1).
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
+Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
 
-![ilustração a mostrar a relação entre as versões Desktop, serviço e Mobile](media/service-get-started/power-bi-components.png)
+![Ilustração a mostrar a relação entre o Power BI Desktop, o serviço Power BI e o Power BI Mobile](media/service-get-started/power-bi-components.png)
 
-O serviço Power BI tem uma versão gratuita e uma versão Pro. Independentemente da versão que está a utilizar, *se já tiver uma conta*, abra um navegador e escreva app.powerbi.com para abrir o serviço Power BI. Se for um utilizador novo, recomendamos que comece em www.powerbi.com. Aqui, pode saber mais sobre o Power BI antes de iniciar sessão no serviço.  Quando estiver pronto para experimentá-lo, selecione a ligação **Inscrever-se gratuitamente**, apresentada no canto superior direito. Se o administrador já tiver ativado o Power BI em seu nome, não utilize o botão Inscrever-se gratuitamente. Em vez disso, aceda diretamente a app.powerbi.com. 
+Neste tutorial, irá concluir os seguintes passos:
+
+> [!div class="checklist"]
+> * Localizar outros conteúdos de introdução do serviço Power BI
+> * Iniciar sessão na sua conta do Power BI Online ou inscrever-se, se ainda não tiver uma
+> * Abrir o serviço Power BI
+> * Obter alguns dados e abri-los na vista de relatório
+> * Utilizar esses dados para criar visualizações e guardar como um relatório
+> * Criar um dashboard ao afixar mosaicos do relatório
+> * Adicionar outra visualização ao dashboard com a ferramenta de linguagem natural Perguntas e Respostas
+> * Limpar recursos ao eliminar conjuntos de dados, relatórios e dashboards
+
+## <a name="sign-up-for-power-bi-service"></a>Inscrever-se no serviço Power BI
+Se não estiver inscrito no Power BI, [inscreva-se numa avaliação gratuita do Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
+
+Se já tiver uma conta, abra um browser e escreva app.powerbi.com para abrir o serviço Power BI. 
 
 ![Iniciar sessão ou Inscrever-se gratuitamente](media/service-get-started/power-bi-sign-up.png)
 
@@ -36,10 +51,9 @@ Consulte a nossa [lista de reprodução no YouTube](https://www.youtube.com/play
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
-> 
-> 
 
-O Microsoft Power BI ajuda-lhe a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](service-basic-concepts.md).
+## <a name="what-is-power-bi-service"></a>O que é o serviço Power BI?
+O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](service-basic-concepts.md).
 
 Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](service-create-distribute-apps.md) já publicadas para si.
 
@@ -48,7 +62,7 @@ Leia sobre todas as outras formas de [obter dados para o Power BI](service-get-d
 ## <a name="step-1-get-data"></a>Passo 1: obter dados
 Veja um exemplo de como obter dados de um ficheiro CSV. Deseja acompanhar este tutorial? [Transfira este ficheiro CSV de exemplo](http://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Inicie sessão no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe. Pode inscrever-se gratuitamente.
+1. [Inicie sessão no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe. Pode inscrever-se numa avaliação gratuita.
 2. O Power BI é aberto no seu browser. Selecione **Obter Dados** na parte inferior da barra de navegação esquerda.
    
    ![obter dados](media/service-get-started/getdata3.png)
@@ -94,23 +108,23 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
    
    ![ícone afixar](media/service-get-started/pinnew.png)
 
-5. Como este é um novo relatório, deverá guardá-lo para poder afixar uma visualização num dashboard. Dê um nome ao relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Guardar e Continuar**. 
+4. Como este é um novo relatório, deverá guardá-lo para poder afixar uma visualização num dashboard. Dê um nome ao relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Guardar e Continuar**. 
    
    ![Caixa de diálogo Guardar relatório](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
-6. Vamos afixar o gráfico de linhas no novo dashboard e dar-lhe o nome “Exemplo financeiro para o tutorial”. 
+5. Vamos afixar o gráfico de linhas no novo dashboard e dar-lhe o nome “Exemplo financeiro para o tutorial”. 
    
    ![atribuir um nome ao relatório](media/service-get-started/power-bi-pin.png)
    
- 1. Selecione **Afixar**.
+1. Selecione **Afixar**.
    
     Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
    
     ![Caixa de diálogo Afixado ao dashboard](media/service-get-started/power-bi-pin-success.png)
 
-8. Selecione **Aceder ao dashboard** para ver o gráfico de linhas afixado, como um mosaico, no novo dashboard. Melhore ainda mais o aspeto do dashboard ao adicionar mais mosaicos de visualização e ao [mudar o nome, redimensionar, ligar e reposicionar mosaicos](service-dashboard-edit-tile.md).
+6. Selecione **Aceder ao dashboard** para ver o gráfico de linhas afixado, como um mosaico, no novo dashboard. Melhore ainda mais o aspeto do dashboard ao adicionar mais mosaicos de visualização e ao [mudar o nome, redimensionar, ligar e reposicionar mosaicos](service-dashboard-edit-tile.md).
    
-   ![dashboard com visualização afixada](media/service-get-started/power-bi-new-dashboard.png)
+   ![Dashboard com visualização afixada](media/service-get-started/power-bi-new-dashboard.png)
    
    Selecione o novo mosaico no seu dashboard para regressar ao relatório a qualquer altura. O Power BI volta para o editor de relatórios na Vista de leitura. Para mudar novamente para a Vista de edição, selecione **Editar relatório** na barra de menus superior. Quando estiver na Vista de edição, pode continuar a explorar e a afixar mosaicos. 
 
@@ -128,26 +142,21 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
 
    ![dashboard com gráfico afixado](media/service-get-started/power-bi-final-dashboard.png)
 
+## <a name="clean-up-resources"></a>Limpar recursos
+Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e o dashboard. 
+
+1. Na barra de navegação à esquerda, selecione **A Minha Área de Trabalho**.
+2. Selecione o separador **Conjuntos de Dados** e procure o conjunto de dados que importou para este tutorial.  
+3. Selecione as reticências (...) > **Eliminar**.
+
+    ![Eliminar o conjunto de dados](media/service-get-started/power-bi-delete.jpg)
+
+    Eliminar o conjunto de dados também irá eliminar o relatório e o dashboard. 
+
+
 ## <a name="next-steps"></a>Próximos passos
 Pronto para experimentar mais?  Veja a seguir algumas formas interessantes de explorar o Power BI.
 
-* [Ligue-se a outro conjunto de dados](service-get-data.md).
-* [Partilhe o seu dashboard](service-share-dashboards.md) com colegas.
-* Consulte as [sugestões para estruturar dashboards](service-dashboards-design-tips.md).
-* Ver os dashboards com uma [aplicação do Power BI num dispositivo móvel](mobile-apps-for-mobile-devices.md)
-
-Ainda não está preparado para avançar diretamente? Comece por estes tópicos criados para ajudá-lo a familiarizar-se com o Power BI.
-
-* [Saiba como os relatórios, conjuntos de dados, dashboards e mosaicos se conjugam](service-basic-concepts.md)
-* Visite o nosso site [Power BI Guided Learning (Aprendizagem Interativa do Power BI)](guided-learning/index.md) e assista a alguns dos cursos (de curta duração)
-* Veja alguns [vídeos do Power BI](videos.md)
-* [Veja os exemplos que temos disponíveis para utilizar](sample-datasets.md)
-
-### <a name="stay-in-touch-with-power-bi"></a>Mantenha-se em contacto com o Power BI
-* Siga o [@MSPowerBI no Twitter](https://twitter.com/mspowerbi)
-* Subscreva o nosso [canal de vídeos no YouTube](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
-* Veja os nossos [Webinars de introdução ao Power BI](webinars.md) a pedido
-* Não sabe onde ir para obter ajuda? Consulte a nossa página [10 sugestões para obter ajuda](service-tips-for-finding-help.md)
-
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+> [!div class="nextstepaction"]
+> [Ligar aos serviços online que utiliza](./service-connect-to-services.md)
 

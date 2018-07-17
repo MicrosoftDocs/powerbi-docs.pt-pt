@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0cc0125f35dc90a03eeaeed0d5e69c0a5c3115ae
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241165"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136002"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Ligar ao Circuit ID com o Power BI
-É fácil analisar os dados de comunicação do Circuit ID com o Power BI. O Power BI recupera seus dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados. Após ter criado a ligação, pode explorar os dados e personalizar o dashboard para corresponder às suas necessidades. Os dados são atualizados automaticamente todos os dias.
+É fácil analisar os dados de comunicação do Circuit ID com o Power BI. O Power BI obtém os dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados. Após ter criado a ligação, pode explorar os dados e personalizar o dashboard para corresponder às suas necessidades. Os dados são atualizados automaticamente todos os dias.
 
 Ligue-se ao [pacote de conteúdos do Circuit ID](https://app.powerbi.com/getdata/services/circuitid) para o Power BI.
 
@@ -32,7 +32,7 @@ Ligue-se ao [pacote de conteúdos do Circuit ID](https://app.powerbi.com/getdata
 3. Selecione **Circuit ID** \> **Obter**.
    
     ![](media/service-connect-to-circuit-id/circuitid.png)
-4. Como o Método de Autenticação, selecione Básico e forneça o seu nome de utilizador e palavra-passe. Em seguida, pressione Entrar.
+4. Como o Método de Autenticação, selecione Básico e forneça o seu nome de utilizador e palavra-passe. Em seguida, pressione Iniciar Sessão.
    
     ![](media/service-connect-to-circuit-id/circuitid_login.png)
 5. Após o Power BI importar os dados, pode ver novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os itens novos são marcados com um asterisco amarelo.
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdos do Circuit ID](https://app.powerbi.com/getdata
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)
 

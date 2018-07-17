@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/05/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295129"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135795"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
 A aplicação móvel do Power BI para Windows 10 leva o Power BI ao seu tablet ou telemóvel com acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com seus dashboards de empresa de qualquer lugar &#151; diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -104,7 +104,7 @@ Pode ver todos os seus dashboards favoritos do Power BI, juntamente com relatór
 
 Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Windows 10 com dashboards e relatórios no Power BI e relatórios móveis e KPIs do Reporting Services no portal Web do Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
@@ -119,8 +119,8 @@ Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Wi
 * Crie [KPIs no portal Web do Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx).
 * [Crie os seus próprios relatórios móveis com o Editor de Relatórios Móveis do SQL Server](https://msdn.microsoft.com/library/mt652547.aspx) e publique-os no portal Web do Reporting Services.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Transferir a aplicação Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) a partir da Windows Store  
-* [Introdução ao Power BI](service-get-started.md)
+* [O que é o Power BI?](power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

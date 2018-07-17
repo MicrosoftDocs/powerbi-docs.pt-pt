@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243897"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136577"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pacote de conteúdos de Auditoria de Base de Dados SQL para o Power BI
 O pacote de conteúdos do Power BI para a [Auditoria de Base de Dados SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) do Azure permite perceber a atividade da sua base de dados e obter informações sobre as discrepâncias e anomalias que podem gerar preocupações comerciais ou suspeitas de violações de segurança. 
@@ -56,7 +56,7 @@ Ligue-se ao [pacote de conteúdos da Auditoria de Base de Dados SQL](https://app
 5. Como o Método de Autenticação, selecione **Chave**, introduza a **Chave de Conta** \> **Iniciar Sessão**.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
-6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
+6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqldbauditingnewdash.png)
 
@@ -69,4 +69,4 @@ Ligue-se ao [pacote de conteúdos da Auditoria de Base de Dados SQL](https://app
 
 ## <a name="next-steps"></a>Próximos passos
 [Obter dados para o Power BI](service-get-data.md)
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4cd8974316119978749db4f3996db76d907ab38
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584260"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136071"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Ligue-se ao QuickBooks Online com o Power BI
 Quando se liga aos seus dados do QuickBooks Online através do Power BI, obtém imediatamente um dashboard e relatórios do Power BI que fornecem informações sobre o fluxo de caixa da sua empresa, rentabilidade, clientes e muito mais. Utilize o dashboard e os relatórios como fornecidos, ou então personalize-os para realçar as informações que mais interessam. Os dados são atualizados automaticamente uma vez por dia.
@@ -39,21 +39,21 @@ Ligue-se ao [pacote de conteúdo do QuickBooks Online](https://dxt.powerbi.com/g
 5. Quando solicitado, insira as suas credenciais do QuickBooks Online e siga o processo de autenticação do QuickBooks Online. Se já tiver a sessão iniciada no QuickBooks Online no seu browser, talvez as suas credenciais não sejam solicitadas.
    >[!NOTE]
    >É necessário ter credenciais de administrador para a conta do QuickBooks Online.
-6. Selecione a empresa a que seja deseja ligar ao Power BI no próximo ecrã.
+6. Selecione a empresa que pretende ligar ao Power BI no próximo ecrã.
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_almost.png)
 7. Selecione **Autorizar** no próximo ecrã para iniciar o processo de importação. Isso pode levar alguns minutos, dependendo do tamanho dos dados da sua empresa. 
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_authorizesm.png)
    
-   Depois do Power BI importar os dados, vai ver um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
+   Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_leftnavnew.png)
 8. Selecione o dashboard QuickBooks Online. Este é o dashboard do Power BI criado automaticamente para mostrar os dados importados. Pode alterar este dashboard para mostrar os seus dados de qualquer forma que queira. 
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_dash.png)
 
-**E agora?**
+**O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -80,7 +80,7 @@ Atualmente o Power BI só dá suporte às edições dos EUA do QuickBooks Online
 ![](media/service-connect-to-quickbooks-online/pbi_qbo_countrynotsupported.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

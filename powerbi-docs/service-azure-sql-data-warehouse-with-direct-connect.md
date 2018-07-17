@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722365"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137451"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse com DirectQuery
 O Azure SQL Data Warehouse com DirectQuery permite criar relatórios dinâmicos com base nos dados e nas métricas já existentes no Azure SQL Data Warehouse. Com o DirectQuery, as consultas são enviadas de volta para o Azure SQL Data Warehouse em tempo real à medida que explora os dados. Isto, combinado com a escala do SQL Data Warehouse, permite aos utilizadores criar, em minutos, relatórios dinâmicos referentes a terabytes de dados. Além disso, a introdução do botão **Abrir no Power BI** permite que os utilizadores liguem diretamente o Power BI ao SQL Data Warehouse sem precisar de especificar manualmente as informações.
@@ -32,6 +32,11 @@ Ao usar o conector do SQL Data Warehouse:
 Estas restrições e notas podem mudar à medida que continuamos a melhorar as experiências. Os passos para ligar são detalhados abaixo.
 
 ## <a name="using-the-open-in-power-bi-button"></a>Através do botão "Abrir no Power BI"
+
+> [!Important]
+> Temos melhorado a nossa conectividade com o Azure SQL Data Warehouse.  Para obter a melhor experiência para se ligar à origem de dados do Azure SQL Data Warehouse, utilize o Power BI Desktop.  Assim que criar o seu modelo e relatório, pode publicá-lo no serviço Power BI.  O conector direto do Azure SQL Data Warehouse no serviço Power BI foi preterido.
+>
+
 A maneira mais fácil de se mover entre o SQL Data Warehouse e o Power BI é com o botão **Abrir no Power BI** no Portal de Pré-Visualização do Azure. Este botão permite-lhe começar a criar novos dashboards no Power BI.
 
 1. Para começar, navegue até à instância do SQL Data Warehouse no Portal de Pré-visualização do Azure. Tenha em atenção que o SQL Data Warehouse tem apenas uma presença no portal de Pré-visualização do Azure neste momento.
@@ -82,7 +87,7 @@ O nome de servidor completamente qualificado e o nome da base de dados podem ser
 >
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)  
+[O que é o Power BI?](power-bi-overview.md)  
 [Obter Dados para o Power BI](service-get-data.md)  
 [Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 

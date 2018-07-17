@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249350"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135473"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Ligar ao ServiceNow com o Power BI para relatórios de incidentes
 O ServiceNow oferece vários produtos e soluções, incluindo gestão de empresas, operações e TI para melhorar o seu negócio. Este pacote de conteúdos inclui vários relatórios e informações sobre os seus incidentes abertos, resolvidos recentemente e fechados recentemente.  
 
 Ligue ao pacote de conteúdos do Power BI para obter os [Incidentes do ServiceNow](https://app.powerbi.com/getdata/services/servicenow).
 
-## <a name="how-to-connect"></a>Como ligar
+## <a name="how-to-connect"></a>Como se ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
    
    ![](media/service-connect-to-servicenow/pbi_getdata.png) 
@@ -49,7 +49,7 @@ Ligue ao pacote de conteúdos do Power BI para obter os [Incidentes do ServiceNo
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos de sistema
+## <a name="system-requirements"></a>Requisitos do sistema
 Para ligar, irá precisar de:  
 
 * Uma conta que possa aceder a yourorganization.service-now.com, com autenticação básica (o Início de Sessão Único não é suportado nesta versão)  
@@ -60,8 +60,8 @@ Se estiver a obter um erro de credenciais durante o carregamento, consulte os re
 
 Se estiver a ver tempos de carregamento longos, reveja o número de incidentes e o número de dias que especificou durante a ligação, e considere a respetiva redução.
 
-## <a name="next-steps"></a>Passos seguintes
-[Introdução ao Power BI](service-get-started.md)
+## <a name="next-steps"></a>Próximos passos
+[O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

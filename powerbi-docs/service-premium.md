@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755099"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944566"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
 O Power BI Premium fornece recursos dedicados à execução do serviço Power BI para a sua organização ou equipa, dando-lhe um desempenho mais fiável e volumes de dados maiores. O Premium também permite uma distribuição alargada de conteúdos sem que precise de comprar licenças por utilizador para visualizadores.
@@ -29,18 +29,18 @@ A *capacidade partilhada* é a experiência que já conhece no Power BI, onde as
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="capacity-tiers"></a>Níveis de capacidade
-Existem dois tipos de capacidade no Power BI. Capacidade partilhada e capacidade Power BI Premium. Eis uma análise às diferenças entre as mesmas.
+Existem dois tipos de capacidade no Power BI. Capacidade partilhada e capacidade do Power BI Premium. Eis uma análise às diferenças entre as mesmas.
 
-|  | Capacidade partilhada | Capacidade Power BI Premium |
+|  | Capacidade partilhada | Capacidade do Power BI Premium |
 | --- | --- | --- |
 | **Taxa de atualizações** |8/dia |Sem restrições |
 | **Isolamento com hardware dedicado** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
 | **Distribuição Empresarial para** ***todos os utilizadores*** | | |
-| Aplicações |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível")<sup>1</sup> |
+| Aplicações e partilha |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível")<sup>1</sup> |
 | API e controlos incorporados |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível")<sup>2</sup> |
 | **Publicar relatórios do Power BI no local** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
 
-*<sup>1</sup> O consumo gratuito de utilizadores em aplicações inclui a visualização de conteúdos na Web e em dispositivos móveis, a utilização das Perguntas e Respostas, Quick Insights, Cortana, exportação para CSV, Excel e PowerPoint. Precisa de uma licença Pro para outras atividades que não estão listadas como, por exemplo, criar relatórios em conjuntos de dados partilhados e Analisar no Excel. Saiba mais sobre a funcionalidade [Power BI Gratuito vs. Pro](service-free-vs-pro.md).*  
+*<sup>1</sup> Para obter mais informações, veja [Capacidades dos utilizadores com as funcionalidades do Power BI Pro e do Power BI Premium](service-free-vs-pro.md).*  
 *<sup>2</sup> Melhorias futuras brevemente disponíveis no Power BI Premium após GA.*
 
 ### <a name="premium-capacity"></a>Capacidade Premium
@@ -51,7 +51,7 @@ Quando uma área de trabalho tem capacidade premium, o utilizador beneficia das 
 * Atualizações agendadas: anteriormente, os utilizadores estavam limitados a 8x por dia ao agendar atualizações em modelos importados. A limitação é levantada nos conjuntos de dados em áreas de trabalho Premium. Tal não se aplica às definições de atualização de cache agendada para o DirectQuery. Estas permanecem iguais nas capacidades Premium e Partilhada.
 * Isolamento com hardware dedicado: devido à natureza da capacidade partilhada, o desempenho dos seus relatórios e dashboards pode ser afetado pelas exigências de recursos de outras cargas de trabalho na capacidade, apesar das nossas salvaguardas contra esta situação. Por sua vez, o Premium dá um desempenho mais consistente e fiável às suas cargas de trabalho, ao isolá-la de cargas de trabalho não relacionadas.
 
-Se uma aplicação tiver capacidade Premium (ou seja, se foi publicada de uma área de trabalho de aplicação que está atualmente atribuída a Premium), a aplicação publicada pode ser utilizada por qualquer utilizador na sua organização, independentemente da licença atribuída. Isto significa que mesmo os utilizadores do Power BI Gratuito podem utilizar essas aplicações publicadas.
+Se uma aplicação tiver capacidade Premium (ou seja, se foi publicada de uma área de trabalho de aplicação que está atualmente atribuída a Premium), a aplicação publicada pode ser utilizada por qualquer utilizador na sua organização, independentemente da licença atribuída.
 
 ### <a name="shared-capacity"></a>Capacidade partilhada
 Por predefinição, a sua área de trabalho estará na capacidade partilhada. Tal inclui *A Minha Área de Trabalho* pessoal, juntamente com as áreas de trabalho de Aplicações. Uma capacidade partilhada é a experiência que já conhece no Power BI, onde as suas cargas de trabalho são executadas em recursos informáticos partilhados por outros clientes.

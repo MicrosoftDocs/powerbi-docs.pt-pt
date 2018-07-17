@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813440"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900060"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Utilizar o Conector SAP BW no Power BI Desktop
 Com o Power BI Desktop, pode aceder aos dados do **SAP Business Warehouse (BW)**.
 
 Para obter informações sobre como os clientes SAP podem beneficiar da ligação do Power BI aos sistemas SAP Business Warehouse (BW) existentes, veja o [Documento técnico do Power BI e do SAP BW](https://aka.ms/powerbiandsapbw).
 
-A partir da versão de junho de 2018 do **Power BI Desktop**, pode utilizar o conector SAP BW com uma implementação que tenha melhorias significativas no desempenho e nas funcionalidades. Esta versão atualizada do conector SAP BW foi desenvolvida pela Microsoft e designa-se por **Implementação 2.0**. Pode selecionar o **Conector SAP BW** padrão ou a **Implementação 2.0 do Conector SAP**. As secções seguintes descrevem a instalação de cada versão, uma a uma. Pode selecionar um dos dois conectores ao ligar ao SAP BW a partir do Power BI Desktop.
+A partir da versão de junho de 2018 do **Power BI Desktop**, pode utilizar o conector SAP BW com uma implementação que tenha melhorias significativas no desempenho e nas funcionalidades. Esta versão atualizada do conector SAP BW foi desenvolvida pela Microsoft e designa-se por **Implementação 2.0**. Pode selecionar a versão 1 (v1) do **Conector SAP BW** ou a **Implementação 2.0 do Conector SAP**. As secções seguintes descrevem a instalação de cada versão, uma a uma. Pode selecionar um dos dois conectores ao ligar ao SAP BW a partir do Power BI Desktop.
 
 Sugerimos que utilize a **Implementação 2.0 do Conector SAP** sempre que possível.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>Instalação do Conector SAP BW padrão
-Recomendamos que utilize a Implementação 2.0 do Conector SAP sempre que possível (veja as instruções na secção seguinte). Esta secção descreve a instalação do **Conector SAP BW** padrão, que pode instalar através dos seguintes passos:
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>Instalação da versão 1 do Conector SAP BW
+Recomendamos que utilize a Implementação 2.0 do Conector SAP sempre que possível (veja as instruções na secção seguinte). Esta secção descreve a instalação da versão 1 do **Conector SAP BW**, que pode instalar através dos seguintes passos:
 
 1. Instale a biblioteca **SAP NetWeaver** no seu computador local. Pode obter a biblioteca **SAP Netweaver** do seu administrador de SAP ou diretamente do [Centro de Transferências de Software SAP](https://support.sap.com/swdc). Uma vez que o **Centro de Transferências de Software SAP** muda a estrutura com frequência, não estão disponíveis orientações mais específicas para navegar no site. A biblioteca **SAP NetWeaver** é também normalmente incluída na instalação das Ferramentas de Cliente SAP.
    
@@ -54,13 +54,13 @@ Ao instalar, na janela **Passos de configuração opcionais**, certifique-se de 
 ![Passos de configuração opcionais do SAP](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> A implementação do SAP BW padrão necessita dos DLLs do Netweaver. Se estiver a utilizar a Implementação 2.0 do Conector SAP e não estiver a utilizar a versão padrão, os DLLs do Netweaver não são necessários.
+> A primeira versão da implementação do SAP BW necessita dos DLLs do Netweaver. Se estiver a utilizar a Implementação 2.0 do Conector SAP e não estiver a utilizar a primeira versão, os DLLs do Netweaver não são necessários.
 
 
-## <a name="standard-sap-bw-connector-features"></a>Funcionalidades do Conector SAP BW padrão
-O **Conector SAP BW** padrão no Power BI Desktop permite-lhe importar dados dos seus cubos do **SAP Business Warehouse Server** ou utilizar o DirectQuery. 
+## <a name="version-1-sap-bw-connector-features"></a>Funcionalidades da versão 1 do Conector SAP BW
+A versão 1 do **Conector SAP BW** no Power BI Desktop permite-lhe importar dados dos seus cubos do **SAP Business Warehouse Server** ou utilizar o DirectQuery. 
 
-Para saber mais sobre o **conector do SAP BW** e como utilizá-lo com o DirectQuery, veja o artigo [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
+Para saber mais sobre o **conector SAP BW** e como utilizá-lo com o DirectQuery, veja o artigo [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
 Tem de especificar um *Servidor*, *Número de Sistema* e *ID de Cliente* para estabelecer a ligação.
 
@@ -101,7 +101,7 @@ Tem de criar uma nova ligação para utilizar a Implementação 2.0 do Conector 
 
     ![Caixa de diálogo de ligação SAP](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Selecione **OK** e, posteriormente, a experiência **Navegador** será a mesma descrita na secção anterior para o Conector SAP BW padrão. 
+3. Selecione **OK** e, posteriormente, a experiência **Navegador** será a mesma descrita na secção anterior para a versão 1 do Conector SAP BW. 
 
 ### <a name="new-options-for-implementation-20"></a>Novas opções para a Implementação 2.0 
 
@@ -163,7 +163,7 @@ A alteração de relatórios existentes para utilizar a **Implementação 2.0** 
 
     ![fragmento de consulta](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. Foram feitos todos os esforços para tornar a Implementação 2.0 do Conector SAP BW compatível com o Conector SAP BW padrão. No entanto, poderão existir algumas diferenças devido aos diferentes modos de execução do SAP BW MDX que estão a ser utilizados. Para resolver discrepâncias, experimente alternar entre os modos de execução.
+4. Foram feitos todos os esforços para tornar a Implementação 2.0 do Conector SAP BW compatível com a versão 1 do Conector SAP BW. No entanto, poderão existir algumas diferenças devido aos diferentes modos de execução do SAP BW MDX que estão a ser utilizados. Para resolver discrepâncias, experimente alternar entre os modos de execução.
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Esta secção apresenta situações de resolução de problemas (e as respetivas soluções) para trabalhar com o conector **SAP BW**.

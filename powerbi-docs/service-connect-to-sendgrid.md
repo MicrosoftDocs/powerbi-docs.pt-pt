@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a08d9d10725a5c135ef6732b8397a57833463f4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a0ae99e2dfad889840cc29ca4fa9f0f29397bf04
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247832"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135381"
 ---
 # <a name="connect-to-sendgrid-with-power-bi"></a>Ligar-se ao SendGrid com o Power BI
 O pacote de conteúdos do SendGrid para o Power BI permite que possa extrair informações e estatísticas da sua conta do SendGrid. Com o pacote de conteúdos do SendGrid, é possível ver as estatísticas do SendGrid num dashboard.
@@ -32,7 +32,7 @@ Ligue-se ao [pacote de conteúdos do SendGrid](https://app.powerbi.com/getdata/s
 3. Selecione o pacote de conteúdos do **SendGrid** e clique em **Obter**.
    
    ![](media/service-connect-to-sendgrid/sendgrid.png) 
-4. Quando solicitado, forneça o seu nome de utilizador e palavra-passe do SendGrid. Selecione **Entrar**.
+4. Quando solicitado, forneça o seu nome de utilizador e palavra-passe do SendGrid. Selecione **Iniciar Sessão**.
    
    ![](media/service-connect-to-sendgrid/pbi_sendgridsignin.png)
 5. Depois do Power BI importar os dados, vai ver um dashboard, relatório e conjunto de dados novos no painel de navegação esquerdo, preenchidos com as suas estatísticas de e-mail correspondentes aos últimos 90 dias. Os novos itens são marcados com um asterisco amarelo \*.
@@ -56,7 +56,7 @@ As métricas a seguir estão disponíveis no dashboard do SendGrid:
 * Estatísticas de e-mail por dispositivo, cliente ou browser
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados](service-get-data.md)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b6ef85549b729b1a91aa4a9a5f4686dcbbabaeb1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471991"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067107"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Ou talvez tem um conjunto de dados, mas como não compreende (ainda) como funciona o Power BI, preocupa-se na possibilidade de danificar o conjunto de dados?
@@ -46,7 +46,7 @@ Quaisquer utilizações dos livros e/ou dados devem incluir a atribuição acima
 Ao clicar em qualquer uma das ligações abaixo para transferir os ficheiros dos livros do Excel ou .pbix, significa que aceita os termos acima.
 
 ## <a name="available-samples"></a>Exemplos disponíveis
-Estão disponíveis oito exemplos para que os posso utilizar.  Cada um representa uma industria diferente.
+Estão disponíveis oito exemplos para que os posso utilizar.  Cada um representa uma indústria diferente.
 
 ### <a name="customer-profitability-sample--mediasample-datasetspower-bi-cp2png"></a>Exemplo de Rentabilidade do Cliente  ![](media/sample-datasets/power-bi-cp2.png)
 [Veja uma apresentação do exemplo de Rentabilidade do Cliente](sample-customer-profitability.md)
@@ -173,21 +173,21 @@ Quer saber como os dados num livro do Excel são convertidos em conjuntos de dad
 ## <a name="the-power-bi-samples-as-pbix-files"></a>Os exemplos do Power BI como ficheiros. pbix
 Cada um dos pacotes de conteúdos de exemplo também está disponível como ficheiro. pbix do Power BI. Os ficheiros .pbix são concebidos para serem utilizados com o Power BI Desktop.  
 
-1. Transfira os ficheiros individualmente utilizando as ligações abaixo.
+1. Transfira os ficheiros individualmente utilizando as ligações abaixo. Selecionar estas ligações guarda o ficheiro automaticamente na pasta Transferências. 
 
-   * [Exemplo de Análise de Retalho](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)
-   * [Exemplo de Análise de Qualidade do Fornecedor](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
-   * [Exemplo de Recursos Humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix)
-   * [Exemplo de Rentabilidade do Cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
-   * [Exemplo de Acompanhamento de Oportunidades](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity-Analysis-Sample-PBIX.pbix)
-   * [Exemplo de Análise de Gastos de TI](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT-Spend-Analysis-Sample-PBIX.pbix)
-   * [Exemplo de Análise de Compras](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix)
-   * [Exemplo de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales-and-Marketing-Sample-PBIX.pbix)
-2. Guarde o ficheiro transferido.
-3. A partir do ambiente de trabalho, selecione **Ficheiro > Abrir** e navegue para a localização onde guardou o. pbix de exemplo.
+   * [Ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Qualidade do Fornecedor](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Recursos Humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Rentabilidade do Cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Acompanhamento de Oportunidades](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Gastos de TI](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Aprovisionamento](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+1. A partir do Power BI Desktop, selecione **Ficheiro > Abrir** e navegue para a localização onde guardou o .pbix de exemplo.
 
    ![](media/sample-datasets/power-bi-desktop-open.png)
-4. Selecione o ficheiro. pbix para o abrir no Desktop.
+4. Selecione o ficheiro .pbix para o abrir no Power BI Desktop.
 
 ## <a name="next-steps"></a>Próximos passos
 [Conceitos básicos do Power BI](service-basic-concepts.md)

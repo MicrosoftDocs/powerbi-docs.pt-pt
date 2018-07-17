@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254861"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092351"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -135,7 +135,8 @@ A funcionalidade **Publicar na Web** é suportada na grande maioria das origens 
 5. Visuais "R" que atualmente não são suportados em relatórios para Publicar na Web.
 6. Exportar dados de elementos visuais num relatório publicado na Web.
 7. Elementos visuais do ArcGIS Maps para Power BI.
-8. [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
+8. Relatórios que contêm medidas DAX ao nível de relatório
+9. [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 

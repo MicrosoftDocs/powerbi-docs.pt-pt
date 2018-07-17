@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813164"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926565"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
 
@@ -96,6 +96,44 @@ O back-end da aplicação poderá ter de atualizar o token de autenticação ant
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>Autenticação
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A autenticação falhou com o erro AADSTS70002 ou AADSTS50053
+
+**(AADSTS70002: erro ao validar as credenciais. AADSTS50053: tentou iniciar sessão demasiadas vezes com um ID de utilizador ou palavra-passe incorreto)**
+
+Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client,error_description:AADSTS70002: erro ao validar as credenciais. AADSTS50053: tentou iniciar sessão demasiadas vezes com um ID de utilizador ou palavra-passe incorreto***, significa que a autenticação direta foi desativada a partir de 14/06/2018.
+
+Recomendamos que utilize o suporte do [Acesso Condicional do Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) para bloquear a autenticação herdada ou utilize a [Autenticação Pass-through do Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+
+No entanto, existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) que pode ser definida para a organização ou o [principal de serviço](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+
+**_Como solução, recomendamos que ative esta opção com base na aplicação e conforme necessário._**
+
+Para criar esta política, tem de ser um **Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
+
+1. Instale o [Módulo PowerShell do Azure AD Preview](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+
+2. Execute os seguintes comandos do PowerShell linha por linha (garantindo que a variável $sp não tem mais do que 1 aplicação como resultado).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+Após atribuir a política, aguarde aproximadamente 15 a 20 segundos para propagação antes de testar.
+
 **A geração de token falha ao fornecer identidade eficaz**
 
 O GenerateToken pode falhar, com identidade eficaz fornecida, por vários motivos diferentes.
@@ -114,6 +152,30 @@ Para verificar qual é o motivo, experimente o seguinte.
 * DatasetId é obrigatório para qualquer EffectiveIdentity.
 * No Analysis Services, o utilizador principal tem de ser um administrador de gateway.
 
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: a concessão requer permissões de administrador
+
+**_Sintomas:_**</br>
+Quando um utilizador que não é administrador tenta iniciar sessão numa aplicação pela primeira vez e tenta dar consentimento, obtém o seguinte erro:
+* O ConsentTest precisa de permissão para aceder a recursos na sua organização que apenas um administrador pode conceder. Peça a um administrador para conceder permissão para esta aplicação antes de poder utilizá-la.
+* AADSTS90094: a concessão requer permissões de administrador.
+
+    ![ConsentTest](media/embedded-troubleshoot/consent-test-01.png)
+
+Um utilizador administrador pode iniciar sessão e dar consentimento com êxito.
+
+**_Causa raiz:_**</br>
+O consentimento do utilizador está desativado no inquilino.
+
+**_São possíveis várias correções:_**
+
+*Ativar o consentimento do utilizador para todo o inquilino (todos os utilizadores, aplicações)*
+1. No Portal do Azure, navegue para "Azure Active Directory" => "Utilizadores e grupos" => "Definições do utilizador"
+2. Ative a definição "Os utilizadores podem permitir que as aplicações acedam aos dados da empresa em nome deles" e guarde as alterações
+
+    ![Correção do ConsentTest](media/embedded-troubleshoot/consent-test-02.png)
+
+*Conceder permissões por um administrador* Conceder permissões para a aplicação por um administrador: para todo o inquilino ou para um utilizador específico.
+
 ## <a name="data-sources"></a>Origens de dados
 
 **O ISV pretende ter credenciais diferentes para a mesma origem de dados**
@@ -124,7 +186,7 @@ Uma origem de dados pode ter um único conjunto de credenciais para um utilizado
 
 **A composição ou o consumo de conteúdos incorporados falha ou o tempo expira**
 
-Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, consulte [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
+Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, veja [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
 
 **O relatório ou o dashboard não carrega**
 
@@ -175,7 +237,7 @@ Quando executa a aplicação de exemplo **Incorporar para a sua organização**,
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-Isto acontece porque o URL de redirecionamento especificado para a aplicação de servidor Web é diferente do URL do exemplo. Se quiser registar a aplicação de exemplo, utilize *http://localhost:13526/* como o URL de redirecionamento.
+Isto acontece porque o URL de redirecionamento especificado para a aplicação de servidor Web é diferente do URL do exemplo. Se quiser registar a aplicação de exemplo, utilize `http://localhost:13526/` como o URL de redirecionamento.
 
 Se quiser editar a aplicação registada, saiba como editar a [aplicação registada no AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) para que a aplicação possa dar acesso às APIs Web.
 

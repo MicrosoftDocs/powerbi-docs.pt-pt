@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799631"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864405"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -22,6 +22,16 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](desktop-latest-update.md)  
 * [Novidades do serviço Power BI](service-whats-new.md)  
+
+## <a name="june-2018"></a>Junho de 2018
+
+### <a name="full-canvas-reports"></a>Relatórios de tela completa
+
+As barras de ação superiores e inferiores agora desaparecem pouco depois de o seu relatório carregar, pelo que pode ver mais do seu relatório de uma vez.
+
+### <a name="increased-phone-report-canvas-size"></a>Tamanho da tela de relatórios no telemóvel aumentado
+
+Aumentámos o tamanho da tela de relatórios no telemóvel para criar espaço para ainda mais elementos visuais.
 
 ## <a name="may-2018"></a>May 2018
 

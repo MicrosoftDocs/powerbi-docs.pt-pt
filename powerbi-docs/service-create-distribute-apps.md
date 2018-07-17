@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254838"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965303"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e publicar aplicações com dashboards e relatórios no Power BI
 
@@ -22,17 +22,15 @@ No Power BI, pode criar *aplicações* para reunir dashboards e relatórios rela
 
 ![Aplicações do Power BI](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-Muitas vezes, os utilizadores empresariais precisam de vários dashboards e relatórios do Power BI para realizarem os seus negócios. As aplicações reúnem as partes, para que os utilizadores não tenham de se lembrar dos nomes e localizações de todos os dashboards.  
-
-Nas aplicações do Power BI, agora em pré-visualização, pode criar coleções de dashboards e relatórios e publicar estas aplicações para toda a organização ou para pessoas específicas ou grupos. Para si, como criador ou administrador de relatórios, as aplicações facilitam a gestão das permissões em coleções de dashboards.
+Muitas vezes, os utilizadores empresariais precisam de vários dashboards e relatórios do Power BI para realizarem os seus negócios. As aplicações reúnem as partes, para que os utilizadores não tenham de se lembrar dos nomes e localizações de todos os dashboards. Nas aplicações do Power BI, pode criar coleções de dashboards e relatórios e publicar estas aplicações para toda a organização ou para pessoas específicas ou grupos. Para si, como criador ou administrador de relatórios, as aplicações facilitam a gestão das permissões em coleções de dashboards.
 
 Os utilizadores empresariais obtêm as suas aplicações de algumas formas diferentes. Se o administrador do Power BI lhe der permissões, pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho. Caso contrário, eles podem instalar as aplicações a partir da Microsoft AppSource ou pode enviar-lhes uma ligação direta. Eles podem facilmente encontrar e voltar aos seus conteúdos porque estes se encontram num só local. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Leia mais sobre a [experiência de aplicação para utilizadores empresariais](service-install-use-apps.md).
 
 ### <a name="licenses-for-apps"></a>Licenças para aplicações
-Como criador de aplicações, precisa de uma licença do Power BI Pro. Para os utilizadores da aplicação, existem duas opções.
+Como criador de aplicações, precisa de uma licença do Power BI Pro. Para os utilizadores da aplicação, existem duas opções para ver a aplicação.
 
-* Opção 1: todos os utilizadores empresariais precisam de licenças do **Power BI Pro** para ver a sua aplicação. 
-* Opção 2: os utilizadores gratuitos na sua organização podem ver os conteúdos da aplicação, se esta residir numa capacidade do Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
+* Opção 1: foi atribuída uma licença do **Power BI Pro** a um utilizador da aplicação. 
+* Opção 2: não foi atribuída uma licença do **Power BI Pro** a um utilizador da aplicação, mas a aplicação reside numa capacidade do Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Pacotes de conteúdos de aplicações e organizacionais
 As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se já tiver pacotes de conteúdos organizacionais, estes continuarão a funcionar lado a lado com as aplicações.

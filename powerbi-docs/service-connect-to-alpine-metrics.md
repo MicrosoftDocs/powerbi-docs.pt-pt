@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d9e70e0b69f0ce68826f566e6e5cdb0f4d8e113e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242938"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135979"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Ligue-se às Previsões de Vendas da Alpine Metrics com o Power BI
 A Alpine Metrics fornece Otimização do Processo de Previsão de Vendas de última geração, na nuvem e a pedido, para organizações de vendas de grande e pequena dimensão. O pacote de conteúdos de Previsão de Vendas para o Power BI da Alpine Metrics inclui métricas como potenciais vendas e vendas previstas e respetivos riscos, permitindo-lhe o acesso a informações mais aprofundadas sobre o futuro da sua empresa. 
 
 Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https://app.powerbi.com/getdata/services/alpine-metrics) da Alpine Metrics.
 
-## <a name="how-to-connect"></a>Como ligar
+## <a name="how-to-connect"></a>Como se ligar
 1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.  
    
     ![](media/service-connect-to-alpine-metrics/getdata.png)
@@ -41,7 +41,7 @@ Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https
    
     ![](media/service-connect-to-alpine-metrics/dashboard.png)
 
-**O que vem em seguida?**
+**O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -66,7 +66,7 @@ O pacote de conteúdos inclui dados das seguintes tabelas:
 É necessária uma conta Alpine Metrics com permissões para as tabelas acima, de forma a instanciar este pacote de conteúdos.
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

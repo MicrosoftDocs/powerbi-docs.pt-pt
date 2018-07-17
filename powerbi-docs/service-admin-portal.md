@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301832"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965510"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -46,7 +46,7 @@ No portal, existem seis separadores. Estão descritos abaixo.
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-## <a name="usage-metrics"></a>Métricas de utilização
+## <a name="usage-metrics"></a>Métrica de utilização
 O primeiro separador no portal de administração é **Métricas de utilização**. O relatório de métricas de utilização permite monitorizar a utilização no Power BI relativamente à sua organização. Permite também ver quais os utilizadores e os grupos mais ativos no Power BI para a sua organização.
 
 > [!NOTE]
@@ -99,6 +99,8 @@ Para obter mais informações sobre registos de auditoria, veja [Auditoria do Po
 ## <a name="tenant-settings"></a>Definições de inquilino
 
 O quarto separador no portal de administração é **Definições de inquilino**. As definições de inquilino dão-lhe mais controlo sobre as funcionalidades disponibilizadas para a sua organização. Se tiver problemas com dados confidenciais, algumas das nossas funcionalidades podem não ser adequadas para a sua organização ou pode querer apenas uma determinada funcionalidade disponível para um grupo específico. Se for este o caso, pode desativar a definição no inquilino.
+
+Por exemplo, os dados por utilizador estão ativados para métricas de utilização por predefinição e as informações da conta do criador de conteúdos estão incluídas no relatório de métricas. Se não quiser incluir estas informações para alguns ou para todos os utilizadores, desative a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta serão apresentadas no relatório como *Sem nome*.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ Os utilizadores na organização podem interagir e partilhar elementos visuais p
 
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 
-### <a name="interact-with-an-dshare-r-visuals"></a>Interagir com elementos visuais R dshare
+### <a name="interact-with-and-share-r-visuals"></a>Interagir e partilhar visuais R
 
 Os utilizadores na organização podem interagir e partilhar elementos visuais criados com scripts R. [Saiba mais](service-r-visuals.md)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292576"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965027"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Definir alertas de dados nas aplicações móveis do Power BI
 Aplica-se a:
@@ -25,7 +25,7 @@ Aplica-se a:
 
 Pode definir alertas nos dashboards nas aplicações móveis do Power BI e no serviço Power BI. Os alertas notificam-no quando os dados num mosaico forem alterados para além dos limites que definiu. Os alertas são compatíveis com mosaicos com um único número, como cartões e medidores, mas não com a transmissão de dados. Pode definir alertas de dados no seu dispositivo móvel e vê-los no serviço Power BI e vice-versa. Só pode ver os alertas de dados que definir, mesmo que partilhe um dashboard ou instantâneo de um mosaico.
 
-Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se tiver uma licença do Power BI gratuita e se o dashboard partilhado estiver dentro da capacidade de Premium. 
+Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se o dashboard partilhado estiver numa capacidade Premium. 
 
 > [!WARNING]
 > As notificações de alertas com base em dados dão-lhe informações sobre os seus dados. Se o seu dispositivo for roubado, recomendamos que aceda ao serviço Power BI para desativar todas as regras de alertas baseados em dados. 
@@ -165,7 +165,7 @@ Normalmente, as origens de dados são definidas para serem atualizadas diariamen
 * Os alertas só funcionam em dados que são atualizados. Não funcionam com dados estáticos.
 * Os alertas não funcionam com mosaicos que contenham dados de transmissão.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Gerir os seus alertas no serviço Power BI](service-set-data-alerts.md)
 * [Centro de Notificações Móveis do Power BI](mobile-apps-notification-center.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

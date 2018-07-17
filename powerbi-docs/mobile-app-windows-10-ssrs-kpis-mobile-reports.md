@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 7bbf03c35284924c415a9ae1348528ed80c3f2fe
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b7435aa7cda68854409c4be7981a06a70d999f09
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295624"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136232"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Ver KPIs e relatórios móveis do Reporting Services (SSRS) na aplicação móvel do Power BI para Windows 10
 A aplicação móvel do Power BI para Windows 10 oferece acesso móvel atualizado e tátil às suas informações empresariais no local mais importantes no SQL Server 2016 Reporting Services. 
@@ -110,6 +110,6 @@ Os KPIs e relatórios móveis do Reporting Services não são criados na aplica�
 
 ## <a name="next-steps"></a>Próximos passos
 * [Introdução à aplicação móvel do Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [Introdução ao Power BI](service-get-started.md)  
+* [O que é o Power BI?](power-bi-overview.md)  
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

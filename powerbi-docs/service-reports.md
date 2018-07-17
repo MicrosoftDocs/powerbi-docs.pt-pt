@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0d11c1bd865aade1ad54a361a0616f6426da1a67
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248417"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136968"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 ## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
@@ -75,8 +75,8 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 > 
 > 
 
-## <a name="next-steps"></a>Passos seguintes
-[Introdução ao Power BI](service-get-started.md) 
+## <a name="next-steps"></a>Próximos passos
+[O que é o Power BI?](power-bi-overview.md) 
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

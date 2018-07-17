@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242429"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136439"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Ligar ao SQL Sentry com o Power BI
 É fácil analisar os dados de desempenho recolhidos pelo SQL Sentry com o Power BI. O Power BI obtém os dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
@@ -25,7 +25,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
 >[!NOTE]
 >A ligação precisa do acesso a uma conta do SQL Sentry utilizada para ligar ao http://cloud.sqlsentry.com e um ID de Base de Dados que irá monitorizar.  Veja abaixo as instruções sobre onde encontrar o ID de Base de Dados.
 
-## <a name="how-to-connect"></a>Como ligar
+## <a name="how-to-connect"></a>Como se ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
    
    ![](media/service-connect-to-sql-sentry/pbi_getdata.png)
@@ -38,7 +38,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
 4. Forneça o **ID da Base de Dados** da base de dados que gostaria de monitorizar no Power BI. Veja mais detalhes sobre como [encontrar isto](#FindingParams) abaixo.
    
    ![](media/service-connect-to-sql-sentry/img2400.png)
-5. Para o Método de Autenticação, selecione **oAuth2 \> Iniciar Sessão**.
+5. Como o Método de Autenticação, selecione **oAuth2 \> Iniciar Sessão**.
    
    Quando solicitado, introduza as credenciais do cloud.sqlsentry.com e siga o processo de autenticação do SQL Sentry.
    
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
    Quando ligar pela primeira vez, o Power BI pede-lhe para permitir acesso só de leitura à sua conta. Selecione Conceder para iniciar o processo de importação.  O processo de importação pode demorar alguns minutos, dependendo do volume de dados na sua conta.
    
    ![](media/service-connect-to-sql-sentry/img7400.png)
-6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no dashboard de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*:
+6. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*:
    
    ![](media/service-connect-to-sql-sentry/img8200.png)
 7. Selecione o dashboard do SQL Sentry.
@@ -56,7 +56,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
    
    ![](media/service-connect-to-sql-sentry/img9dashboard800.png)
 
-**E agora?**
+**O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -93,7 +93,7 @@ Se os dados de algumas das suas aplicações não estiverem a aparecer no Power 
 Se não é o proprietário da base de dados do SQL Sentry que está a ser sincronizada com <https://cloud.sqlsentry.com>, entre em contacto com o seu administrador para verificar se tem direitos para ver os dados recolhidos.
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)
 

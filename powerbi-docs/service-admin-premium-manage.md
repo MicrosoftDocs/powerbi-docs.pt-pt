@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: d1535dcdd818c3c49c71df9b1b08f115f6091cfc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295842"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945049"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerir as capacidades no Power BI Premium e no Power BI Embedded
 Saiba como pode gerir o Power BI Premium e as capacidades do Power BI Embedded, que fornece recursos dedicados para o seu conteúdo.
@@ -31,10 +31,10 @@ A capacidade é totalmente transparente para os utilizadores finais. Vão contin
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
-Para obter mais informações, consulte [O que é o Power BI Premium?](service-premium.md).
+Para obter mais informações, veja [O que é o Power BI Premium?](service-premium.md).
 
 ## <a name="purchase-capacity"></a>Capacidade de compra
-Para tirar partido da capacidade dedicada, terá de adquirir uma subscrição do Power BI Premium no Centro de administração do Office 365 ou criar um recurso do Power BI Embedded no portal do Microsoft Azure. Para obter mais informações, consulte o seguinte artigo:
+Para tirar partido da capacidade dedicada, terá de adquirir uma subscrição do Power BI Premium no Centro de administração do Office 365 ou criar um recurso do Power BI Embedded no portal do Microsoft Azure. Para obter mais informações, veja o seguinte artigo:
 
 * **Power BI Premium:** [como comprar o Power BI Premium](service-admin-premium-purchase.md)
 * **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
@@ -75,7 +75,7 @@ Se tiver núcleos virtuais disponíveis, configure a sua nova capacidade procede
 2. Atribua um **nome** à sua capacidade.
 3. Defina a que administrador pretende atribuir esta capacidade.
 
-    Os administradores de capacidade não têm de ser administradores do Power BI ou um Administrador global do Office 365. Para obter mais informações, consulte [Administradores de capacidade do Power BI Premium](#capacity-admins)
+    Os administradores de capacidade não têm de ser administradores do Power BI ou um Administrador global do Office 365. Para obter mais informações, veja [Administradores de capacidade do Power BI Premium](#capacity-admins)
 4. Selecione o tamanho da capacidade. As opções disponíveis dependem do número de núcleos virtuais disponíveis. Não pode selecionar uma opção que seja superior à que está disponível.
 
     ![Tamanhos de capacidade de Premium disponíveis](media/service-admin-premium-manage/premium-capacity-size.png)
@@ -175,7 +175,7 @@ Os administradores de capacidade, em conjunto com os administradores do Power BI
    | **Áreas de trabalho específicas por utilizador** |Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
 3. Selecione **Aplicar**.
 
-Esta opção não permite-lhe atribuir áreas de trabalho específicas a uma capacidade.
+Esta opção não lhe permite atribuir áreas de trabalho específicas a uma capacidade.
 
 ### <a name="app-workspace-settings"></a>Definições da área de trabalho de aplicação
 Também pode atribuir uma área de trabalho de aplicação a uma capacidade Premium a partir das definições dessa área de trabalho. Para atribuir uma área de trabalho de aplicação a uma capacidade Premium, efetue o seguinte.
@@ -208,9 +208,9 @@ Ao selecionar **Chave do Power BI Report Server**, será apresentada uma caixa d
 
 ![Chave de produto do Power BI Report Server](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
-Para obter mais informações, consulte [Instalar o Power BI Report Server](report-server/install-report-server.md).
+Para obter mais informações, veja [Instalar o Power BI Report Server](report-server/install-report-server.md).
 
-## <a name="next-steps"></a>Passos seguintes
-Partilhe aplicações publicadas com utilizadores gratuitos quando atribuir a área de trabalho a uma capacidade Premium. Para obter mais informações, consulte [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md).
+## <a name="next-steps"></a>Próximos passos
+Partilhe aplicações publicadas com utilizadores. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

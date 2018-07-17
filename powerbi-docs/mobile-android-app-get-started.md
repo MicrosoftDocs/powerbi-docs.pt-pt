@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297452"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136531"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução à aplicação móvel Power BI em dispositivos Android
 A aplicação Android para Microsoft Power BI dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -23,7 +23,7 @@ A aplicação Android para Microsoft Power BI dá a experiência BI móvel para 
 
 Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
-* [Publique-os no serviço Power BI](service-get-started.md) e crie dashboards.
+* [Publique-os no serviço Power BI](power-bi-overview.md) e crie dashboards.
 * [Publique-os no local no Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
 
 Em seguida, na aplicação Power BI para Android, interaja com os seus dashboards e relatórios, seja no local ou na cloud.
@@ -136,7 +136,7 @@ Eis outras coisas que pode fazer na aplicação para dispositivo Android do Powe
 
 ### <a name="see-also"></a>Veja também
 * [Transfira a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicações Android.
-* [Introdução ao Power BI](service-get-started.md)
+* [O que é o Power BI?](power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
 

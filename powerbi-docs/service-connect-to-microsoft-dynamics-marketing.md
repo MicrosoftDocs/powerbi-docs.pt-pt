@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242196"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137033"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Ligue-se ao Microsoft Dynamics Marketing com o Power BI
 O pacote de conteúdos do Microsoft Dynamics Marketing para o Power BI permite-lhe aceder e analisar facilmente os seus dados no Dynamics Marketing. O pacote de conteúdos utiliza um modelo descritivo no feed OData, com todas as entidades e as medidas necessárias, como Programas, Campanhas, Empresas e Contactos de Marketing, Clientes Potenciais, Interações de Cliente Potencial e Pontuação de Cliente Potencial, Sites e Mensagens de Marketing por E-mail, observações comportamentais, orçamentos, transações financeiras, KPIs de desempenho e muito mais. 
@@ -23,7 +23,7 @@ O pacote de conteúdos do Microsoft Dynamics Marketing para o Power BI permite-l
 Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/getdata/services/microsoft-dynamics-marketing) para o Power BI.
 
 >[!NOTE]
->Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Consulte os requisitos adicionais abaixo.
+>Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Veja os requisitos adicionais abaixo.
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
@@ -45,7 +45,7 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynammktgnewdash.png)
 
-**E agora?**
+**O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -55,7 +55,7 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
 ## <a name="system-requirements"></a>Requisitos do sistema
 * Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local).  
 * Um administrador tem de ativar o ponto final OData nas definições do site. O endereço do ponto final do OData pode ser encontrado navegando até **Início \> Configurações \> Configurações de Site** na secção **Serviço de Dados da Organização**.  O URL do OData tem o formato:   https://[instance\_name].marketing.dynamics.com/analytics  
-* A conta/identidade do utilizador utilizada para aceder ao Microsoft Dynamics Marketing tem ser a mesma na qual se inscreveu para utilizar o Power BI. Ao iniciar sessão no Microsoft Dynamics Marketing, o início de sessão será realizado automaticamente com a mesma identidade que utiliza para o Power BI. Se quiser iniciar sessão no Microsoft Dynamics Marketing com uma conta diferente, registe-se como um utilizador do Power BI através dessa outra conta. Esperamos resolver este problema numa versão futura.   
+* A conta/identidade do utilizador utilizada para aceder ao Microsoft Dynamics Marketing tem de ser a mesma na qual se inscreveu para utilizar o Power BI. Ao iniciar sessão no Microsoft Dynamics Marketing, o início de sessão será realizado automaticamente com a mesma identidade que utiliza para o Power BI. Se quiser iniciar sessão no Microsoft Dynamics Marketing com uma conta diferente, registe-se como um utilizador do Power BI através dessa outra conta. Esperamos resolver este problema numa versão futura.   
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Se vir uma mensagem "Falha no início de sessão" ao tentar ligar à sua conta do Dynamics CRM, confirme que está a iniciar sessão no Power BI com a mesma conta que utiliza para aceder ao feed OData do CRM Online. Experimente iniciar sessão no feed também através do seu browser, para testá-lo lá.
@@ -72,5 +72,5 @@ Se ainda está com problemas, abra um pedido de suporte para contactar a equipa 
 ## <a name="next-steps"></a>Próximos passos
 [Obter Dados para o Power BI](service-get-data.md)
 
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 

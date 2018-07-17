@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722457"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136784"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Ligar-se ao Salesforce com o Power BI
 Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. A criação dessa ligação devolver os dados, além de fornecer automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -60,12 +60,12 @@ Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. 
 
 **O que se segue?**
 
-* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Alterar os blocos](service-dashboard-edit-tile.md) no dashboard
 * [Selecionar um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
-## <a name="system-requirements-and-considerations"></a>Requisitos de sistema e considerações
+## <a name="system-requirements-and-considerations"></a>Requisitos do sistema e considerações
 - Estar conectado a uma conta do Salesforce que tenha acesso ativado à API
 - Permissão concedida à aplicação Power BI durante o início de sessão
 - A conta ter chamadas à API suficientes disponíveis para efetuar pull dos dados e atualizá-los
@@ -82,7 +82,7 @@ Se receber a mensagem "Não é possível ligar ao servidor remoto" ao tentar lig
 
 
 ## <a name="next-steps"></a>Próximos passos
-[Introdução ao Power BI](service-get-started.md)
+[O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados](service-get-data.md)
 

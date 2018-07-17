@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242452"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136025"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Ligue-se ao Zendesk com Power BI
 O pacote de conteúdos do Zendesk oferece um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre os volumes de pedidos e o desempenho do agente. Pode utilizar o dashboard e os relatórios fornecidos, ou então personalizá-los para destacar as informações que mais interessam.  Os dados são atualizados automaticamente uma vez por dia. 
@@ -38,7 +38,7 @@ Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/se
 4. Forneça o URL associado à sua conta. O URL terá o formato **https://company.zendesk.com**. Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
-5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Entrar**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
+5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Iniciar Sessão**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
    
    > [!NOTE]
    > Este pacote de conteúdo requer a conexão com uma conta de Administrador do Zendesk. 
@@ -49,7 +49,7 @@ Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/se
 6. Clique em **Permitir** para permitir que o Power BI aceda aos seus dados do Zendesk.
    
    ![](media/service-connect-to-zendesk/zendesk2.jpg)
-7. Clique em **Conectar** para iniciar o processo de importação. Depois do Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
+7. Clique em **Conectar** para iniciar o processo de importação. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
 
@@ -84,6 +84,6 @@ O URL do Zendesk vai ser igual ao URL que utiliza para se ligar à sua conta do 
 Se estiver com problemas para se ligar, verifique o URL do Zendesk e confirme que está a utilizar uma conta de administrador do Zendesk.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Introdução ao Power BI](service-get-started.md)
+* [O que é o Power BI?](power-bi-overview.md)
 * [Obter Dados](service-get-data.md)
 

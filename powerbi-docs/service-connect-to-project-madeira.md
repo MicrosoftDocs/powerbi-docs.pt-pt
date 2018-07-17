@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245611"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599790"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Ligar ao Projeto "Madeira" com o Power BI
 Obter informações sobre os dados do Projeto "Madeira" é fácil com o Power BI e o pacote de conteúdos do Projeto "Madeira". O Power BI obtém tanto os seus dados de Vendas quanto Financeiros e, em seguida, compila um dashboard inicial e relatórios com base nesses dados.
@@ -33,7 +33,7 @@ Ligue-se ao [pacote de conteúdos Project "Madeira" Analytics](https://app.power
     ![](media/service-connect-to-project-madeira/services.png)
 3. Selecione **Projeto "Madeira"**, e, em seguida, selecione **Obter**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Quando lhe for pedido, introduza o URL do Projeto "Madeira". O URL precisa de seguir exatamente o seguinte padrão https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US'), com o nome da empresa do seu Projeto "Madeira". Note que não existe nenhuma barra no final e a ligação tem de ser https. Consulte os detalhes sobre como encontrar este URL [abaixo](#FindingParams).  
+4. Quando lhe for pedido, introduza o URL do Projeto "Madeira". O URL precisa de seguir exatamente o seguinte padrão <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>'), com o nome da empresa do seu Projeto "Madeira". Note que não existe nenhuma barra no final e a ligação tem de ser https. Consulte os detalhes sobre como encontrar este URL [abaixo](#FindingParams).  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Quando lhe for pedido, selecione o Método de Autenticação Básico, introduza o seu endereço de e-mail do Projeto "Madeira" como nome de utilizador e, em seguida, introduza a chave de acesso ao serviço Web para a sua conta do Projeto "Madeira" como palavra-passe. Se já tiver sessão iniciada no Projeto "Madeira" no seu browser, poderão não lhe ser pedidas credenciais. Consulte os detalhes sobre gerar esta chave de acesso [abaixo](#FindingParams).  
@@ -71,7 +71,7 @@ Para importar dados do Projeto "Madeira" para o Power BI, precisa de ter permiss
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>A localizar Parâmetros
-**Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incuir a parte "/powerbifinance…" na cadeia do URL.
+**Obter o URL certo** Uma forma fácil de obter este URL é, no Projeto "Madeira", aceder aos Serviços Web, procurar o serviço Web powerbifinance e copiar o URL do Odata (clique com o botão direito do rato e selecione Copiar Atalho), mas não incluir a parte "/powerbifinance…" na cadeia do URL.
 
 **Chaves de Acesso ao Serviço Web** Para utilizar os dados do Projeto "Madeira", terá de criar uma chave de acesso ao serviço Web para a sua conta de utilizador. No Projeto "Madeira", procure a página Utilizadores e, em seguida, abra o cartão da sua conta de utilizador. Aqui, pode gerar uma nova chave de acesso aos serviços Web e copiá-la para o campo Palavra-passe na página de ligação do Power BI.
 
@@ -93,10 +93,10 @@ O dashboard do Power BI recorre aos serviços Web publicados que se encontram li
 
 Se vir este erro após introduzir o URL do Projeto “Madeira”, garanta que os seguintes requisitos são cumpridos:  
 
-   - O URL segue exatamente o seguinte padrão: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - Elimine todo o texto após o nome da empresa entre parênteses  
-   - Verifique se que não há nenhuma barra no final do URL.  
-   - Certifique-se de que o URL utiliza uma ligação segura, conforme indicado pelo URL que começa por https.  
+- O URL segue exatamente o seguinte padrão: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- Elimine todo o texto após o nome da empresa entre parênteses  
+- Verifique se que não há nenhuma barra no final do URL.  
+- Certifique-se de que o URL utiliza uma ligação segura, conforme indicado pelo URL que começa por https.  
 
 **"O início de sessão falhou"** Se receber um erro a indicar "o início de sessão falhou" quando iniciar sessão no seu dashboard com as credenciais do Projeto "Madeira", tal poderá dever-se a um dos seguintes problemas:  
 
@@ -104,16 +104,16 @@ Se vir este erro após introduzir o URL do Projeto “Madeira”, garanta que os
    - A instância do Projeto "Madeira" à qual se está a tentar ligar não tem um certificado SSL válido. Neste caso, verá uma mensagem de erro mais detalhada (“Não é possível estabelecer a relação de confiança SSL”). Note que os certificados autoassinados não são suportados.  
 
 **"Ups"** Se vir uma caixa de diálogo de erro "Ups" após passar pela caixa de diálogo de autenticação, o motivo mais frequente é um problema ao ligar os dados do pacote de conteúdos. Confirme se o URL segue o padrão anteriormente especificado:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 Um erro comum é especificar o URL completo de um serviço Web específico:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 Pode também ter-se esquecido de especificar o nome da empresa:   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
-## <a name="next-steps"></a>Passos seguintes
-[Introdução ao Power BI](service-get-started.md)
+## <a name="next-steps"></a>Próximos passos
+[O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

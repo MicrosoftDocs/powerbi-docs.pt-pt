@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722207"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926542"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar utilizadores do Power BI que iniciaram sessão
 Se for administrador inquilino e quiser ver quem iniciou sessão no Power BI, pode utilizar os relatórios de acesso e utilização do Azure Active Directory para obter visibilidade.
@@ -25,9 +25,7 @@ Se for administrador inquilino e quiser ver quem iniciou sessão no Power BI, po
 Pode aceder ao relatório de atividades nos portais [novo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) e [clássico](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) do Azure Active Directory (Azure AD). Embora o vídeo acima utilize o portal clássico como exemplo, este artigo irá realçar o novo portal.
 
 > [!NOTE]
-> Este relatório de atividades inclui utilizadores do Power BI (gratuito) e do Pro, mas não os identifica pela licença que possuem.
-> 
-> 
+> Este relatório de atividade não identifica o tipo de licença que cada utilizador tem.
 
 ## <a name="requirements"></a>Requisitos
 Seguem-se os requisitos para ver o relatório de atividades de início de sessão.
@@ -70,7 +68,7 @@ Os dados relacionados com início de sessão podem estar disponíveis durante um
 
 ## <a name="next-steps"></a>Próximos passos
 [Relatórios de atividade de início de sessão no portal do Azure Active Directory (Novo Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Ver os relatórios de acesso e utilização (Portal Clássico)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Ver os relatórios de acesso e utilização (Portal Clássico)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [Exemplo de script de início de sessão do PowerShell](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Políticas de retenção de relatórios do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Utilizar a auditoria na sua organização](service-admin-auditing.md)  

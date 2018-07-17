@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813049"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945370"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporar os dashboards, os relatórios e os mosaicos do Power BI
 
@@ -35,12 +35,15 @@ Antes de começar a incorporar dashboards e relatórios na sua aplicação, deve
 
 * [Certificar-se de que cria um inquilino do Azure Active Directory](embedding-content.md#azureadtenant)
 * [Criar a sua conta do Power BI Pro](embedding-content.md#proaccount)
+* [Registo da aplicação e permissões](embedding-content.md#appreg)
+* [Criar áreas de trabalho de aplicação](embedding-content.md#appws)
+* [Criar e carregar os seus relatórios](embedding-content.md#createreports)
 
 Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
 
 Escolha a solução mais adequada para si:
-* A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
-* A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
+* [A incorporação para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
+* [A incorporação para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
 
 No entanto, se optar por configurar o ambiente manualmente, pode continuar abaixo. 
 
@@ -67,7 +70,7 @@ As seguintes contas têm de existir no seu inquilino e ter uma licença do Power
 
 #### <a name="an-organizationtenant-admin-user"></a>Um utilizador administrador de inquilino/organização
 
-Recomenda-se que o Administrador Global de inquilino/organização não seja utilizado como a conta que a sua aplicação utiliza ao incorporar para os seus clientes. Esta ação serve para minimizar o acesso que a conta da aplicação tem no seu inquilino. Recomenda-se que o utilizador administrador seja administrador de todas as áreas de trabalho da aplicação criadas para incorporação.
+Recomenda-se que o Administrador Global de inquilino/organização não seja utilizado como a conta que a sua aplicação utiliza ao incorporar para os seus clientes. Esta ação serve para minimizar o acesso que a conta da aplicação tem no seu inquilino. O utilizador administrador tem de ser o administrador de todas as áreas de trabalho de aplicação criadas para incorporação.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Contas para os analistas que criam conteúdos
 
@@ -83,7 +86,7 @@ A conta mestre é apenas um utilizador normal com uma licença do Power BI Pro q
 
 Tem de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Para obter mais informações, veja [Register an Azure AD app to embed Power BI content (Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI)](register-app.md).
 
-### <a name="create-app-workspaces"></a>Criar áreas de trabalho de aplicação
+### <a name="appws"></a>Criar áreas de trabalho de aplicação
 
 Se está a incorporar dashboards e relatórios para os seus clientes, esses dashboards e relatórios têm de ser colocados numa área de trabalho da aplicação. A conta *mestra*, que foi mencionada acima, tem de ser um administrador da área de trabalho da aplicação.
 
@@ -93,13 +96,17 @@ Se está a incorporar dashboards e relatórios para os seus clientes, esses dash
 > Um utilizador que não seja administrador só pode criar até 250 áreas de trabalho de aplicações. Para criar mais áreas de trabalho de aplicações, tem de utilizar uma conta de administrador de inquilinos.
 >
 
-### <a name="create-and-upload-your-reports"></a>Criar e carregar os seus relatórios
+### <a name="createreports"></a>Criar e carregar os seus relatórios
 
 Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop e, em seguida, publicar esses relatórios numa área de trabalho de aplicação. O utilizador final que publica os relatórios tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
 
 ## <a name="step-2-embed-your-content"></a>Passo 2: incorpore os seus conteúdos
 
-Na sua aplicação, precisa de autenticar com o Power BI. Se estiver a incorporar os conteúdos para os seus clientes, deve armazenar as credenciais para a conta *mestra* na sua aplicação. Para obter mais informações, veja [Authenticate users and get an Azure AD access token for your Power BI app (Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI)](get-azuread-access-token.md).
+Na sua aplicação, precisa de autenticar com o Power BI. Se estiver a incorporar os conteúdos para os seus clientes, deve armazenar as credenciais para a conta *mestra* na sua aplicação.
+
+> [!NOTE]
+> Para obter mais informações sobre como autenticar os utilizadores e incorporar para os seus clientes, veja [Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI](get-azuread-access-token.md).
+>
 
 Uma vez autenticados, na sua aplicação, utilize as APIs REST do Power BI e as APIs de JavaScript para incorporar os dashboards e relatórios na sua aplicação. 
 
@@ -123,7 +130,7 @@ São precisos alguns passos extra para mover para produção.
 
 Se estiver a incorporar para a sua organização, apenas terá de informar as pessoas como chegar à sua aplicação. 
 
-Os utilizadores gratuitos podem consumir conteúdos incorporados a partir de uma área de trabalho de aplicação (grupo), se essa área de trabalho estiver suportada por capacidade dedicada. Liste o utilizador Gratuito como membro da área de trabalho de aplicação (grupo); caso contrário, receberá um erro não autorizado 401. A tabela seguinte lista as SKUs do Power BI Premium disponíveis no Office 365.
+Todos os utilizadores, independentemente da licença atribuída, podem utilizar conteúdos incorporados a partir de uma área de trabalho de aplicação (grupo), se essa área de trabalho for suportada por capacidade dedicada. Dito isto, tem de adicionar explicitamente à área de trabalho de aplicação todos os utilizadores que não tenham uma licença do Power BI Pro, caso contrário irá obter um erro 401 não autorizado. A tabela seguinte lista as SKUs do Power BI Premium disponíveis no Office 365.
 
 | Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição máxima de páginas em hora de ponta |
 | --- | --- | --- | --- | --- | --- |
@@ -174,7 +181,7 @@ Os Administradores Globais ou os administradores de serviço Power BI podem perm
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Incorporar com o Power BI](embedding.md)  
+[Incorporação com o Power BI](embedding.md)  
 [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium – o que é?](../service-premium.md)  
 [Como comprar o Power BI Premium](../service-admin-premium-purchase.md)  

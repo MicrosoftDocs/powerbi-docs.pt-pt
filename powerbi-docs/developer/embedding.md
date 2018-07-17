@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561753"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944106"
 ---
 # <a name="embedding-with-power-bi"></a>Incorporação com o Power BI
 O Power BI oferece APIs para incorporar os seus dashboards e relatórios em aplicações. As APIs do Power BI oferecem um conjunto consistente de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho de aplicações, ao incorporar conteúdos.
@@ -29,7 +29,7 @@ Para ver um exemplo de como a incorporação funciona, consulte o [exemplo de in
 ## <a name="embedding-for-your-organization"></a>Incorporar para a sua organização
 A incorporação para a sua organização permite-lhe alargar o serviço Power BI. Isto requer que os utilizadores da sua aplicação iniciem sessão no serviço Power BI quando pretendem ver os seus conteúdos. Quando alguém na sua organização iniciar sessão, esta pessoa só terá acesso aos relatórios e dashboards de que é proprietária ou que foram partilhados com ela no serviço Power BI. 
 
-*Alguns exemplos de incorporação para a sua organização incluem a aplicação Web interna, a peça Web do SharePoint Online e a integração no Microsoft Teams.*
+*Alguns exemplos de incorporação para a sua organização incluem a aplicação Web interna, a peça Web do SharePoint Online e a [integração no Microsoft Teams (tem de ter direitos de administrador)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 Para incorporação na sua organização, consulte o seguinte:
 
@@ -64,7 +64,7 @@ Se estava a utilizar o serviço Coleções de Áreas de Trabalho do Power BI no 
 
 ## <a name="next-steps"></a>Próximos passos
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md)  
-[Como migrar conteúdo da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
+[Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium – o que é?](../service-premium.md)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  

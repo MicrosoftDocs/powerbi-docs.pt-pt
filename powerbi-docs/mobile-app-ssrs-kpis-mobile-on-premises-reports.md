@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482251"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599030"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Ver KPIs e relatórios no local do servidor de relatórios nas aplicações móveis do Power BI
 
@@ -44,7 +44,7 @@ Mesmo que não tenha acesso a um portal Web do Reporting Services, ainda pode ex
 1. Toque no botão de navegação global ![Botão de navegação global](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) no canto superior esquerdo e, em seguida, toque no ícone da engrenagem no canto superior direito ![Ícone de engrenagem](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
 2. Toque em **Exemplos do Reporting Services** e, em seguida, navegue para interagir com os relatórios móveis e KPIs de exemplo.
    
-   ![Amostras do Reporting Services](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
+   ![Exemplos do Reporting Services](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
 ## <a name="connect-to-an-on-premises-report-server"></a>Ligar a um servidor de relatórios no local
 Pode ver relatórios do Power BI no local, relatórios móveis do Reporting Services e KPIs com as aplicações móveis do Power BI. 
@@ -103,6 +103,9 @@ Agora pode ver e interagir com KPIs e relatórios do Power BI armazenados no ser
 Os relatórios do Power BI, relatórios móveis do Reporting Services e KPIs são apresentados nas mesmas pastas em que se encontram no portal Web do Reporting Services. 
 
 * Toque num relatório do Power BI ![Ícone de relatório do Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). É aberto em modo horizontal e o utilizador pode interagir com o mesmo na aplicação do Power BI.
+
+    > [!NOTE]
+  > Atualmente, as opções para desagregar e agregar não estão ativadas em relatórios do Power BI num Power BI Report Server.
   
     ![Relatório do Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * No Power BI Desktop, os proprietários de relatórios podem [otimizar um relatório](desktop-create-phone-report.md) para as aplicações móveis do Power BI. No telemóvel, os relatórios otimizados têm um ícone ![Ícone de relatórios do Power BI otimizados](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) e um esquema especiais.
@@ -129,6 +132,6 @@ Pode marcar KPIs e relatórios como favoritos no portal Web e, em seguida, vê-l
 3. Toque em **Remover Servidor**.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Introdução ao Power BI](service-get-started.md)  
+* [O que é o Power BI?](power-bi-overview.md)  
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

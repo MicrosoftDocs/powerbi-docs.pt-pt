@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245368"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944750"
 ---
 # <a name="manage-your-data-storage"></a>Gerir o armazenamento de dados
 Saiba como pode gerir o seu armazenamento de dados individual, ou área de trabalho de aplicação, para assegurar que pode continuar a publicar relatórios e conjuntos de dados.
 
 Os utilizadores e as áreas de trabalho de aplicação têm as suas próprias capacidades de dados
 
-* Os utilizadores das versões Gratuita e Pro têm um máximo de 10 GB de armazenamento de dados.
-* Os utilizadores Pro podem criar áreas de trabalho de aplicação com um máximo de 10 GB de armazenamento de dados em cada uma.
+* Todos os utilizadores têm um máximo de 10 GB de armazenamento de dados.
+* Os utilizadores com uma licença do Power BI Pro podem criar áreas de trabalho de aplicação com um máximo de 10 GB de armazenamento de dados em cada uma.
 
 Ao nível do inquilino, a utilização total não pode exceder 10 GB por utilizador Pro em todos os utilizadores e áreas de trabalho de aplicação Pro no inquilino.
 

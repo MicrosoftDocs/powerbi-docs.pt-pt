@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964820"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145393"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
@@ -36,7 +36,7 @@ O Power BI Desktop é gratuito. Há uma avaliação gratuita de 60 dias para o P
 Para questões relacionadas com o Power BI Premium, consulte as [Perguntas Frequentes sobre o Power BI Premium](service-premium-faq.md).
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Como posso saber quem na minha organização tem uma conta do Power BI?
-Pode ver o relatório de Aplicações Integradas do Azure Active Directory para o Power BI para ver os utilizadores ativos na sua organização. O relatório do Azure AD não indica o tipo de licença que cada utilizador possui. Reporta apenas que utilizadores iniciaram sessão no Power BI e quando iniciaram sessão. Para obter mais informações, consulte [Encontrar utilizadores do Power BI que iniciaram sessão](service-admin-access-usage.md).
+Pode ver o relatório de Aplicações Integradas do Azure Active Directory para o Power BI para ver os utilizadores ativos na sua organização. O relatório do Azure AD não indica o tipo de licença que cada utilizador possui. Reporta apenas que utilizadores iniciaram sessão no Power BI e quando iniciaram sessão. Para obter mais informações, veja [Encontrar utilizadores do Power BI que iniciaram sessão](service-admin-access-usage.md).
 
 ## <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
 O Power BI Desktop é uma aplicação gratuita de ambiente de trabalho que pode ser instalada diretamente no seu computador. O Power BI Desktop funciona de forma coesa com o serviço Power BI, fornecendo exploração, formatação e modelação de dados avançadas, bem como a criação de relatório com visualizações altamente interativas. Pode guardar o trabalho num ficheiro e publicar os seus dados e relatórios diretamente no seu site do Power BI de modo a partilhá-los com outras pessoas. Saiba mais sobre [O que é o Power BI Desktop](desktop-what-is-desktop.md).
@@ -54,7 +54,7 @@ Sim, estão disponíveis preços para fins não lucrativos ao comprar diretament
 O serviço Power BI [https://powerbi.com](https://powerbi.com) não está disponível como um serviço cloud privado interno. No entanto, tem outras três opções para visualizar e trabalhar com dados no local. 
 
 ### <a name="on-premises-data-gateway"></a>Gateway de dados no local
-Com o Power BI e o Power BI Desktop, pode ligar-se de forma segura às suas próprias origens de dados no local. Com o [Gateway de dados no local](service-gateway-onprem.md), pode ligar-se em direto ao seu servidor no local do SQL Server Analysis Services e a outras origens de dados. Também pode definir atualizações agendadas com um gateway centralizado. Se não estiver disponível um gateway, pode atualizar dados a partir de origens de dados no local através do [Power BI Gateway - Personal](personal-gateway.md).
+Com o Power BI e o Power BI Desktop, pode ligar-se de forma segura às suas próprias origens de dados no local. Com o [Gateway de dados no local](service-gateway-onprem.md), pode ligar-se em direto ao seu servidor no local do SQL Server Analysis Services e a outras origens de dados. Também pode definir atualizações agendadas com um gateway centralizado. Se não estiver disponível um gateway, pode atualizar dados a partir de origens de dados no local através do [Power BI Gateway - Personal](service-gateway-personal-mode.md).
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
 O Power BI Report Server é uma solução que o utilizador implementa nas suas próprias instalações para criar, publicar e gerir relatórios e entregá-los a diferentes utilizadores de formas variadas: num browser, no dispositivo móvel ou sob a forma de e-mail na caixa de entrada. Saiba mais sobre o [Power BI Report Server](report-server/get-started.md).
@@ -137,7 +137,8 @@ Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma fo
 
 * Para **anular** a sua última ação, ou ações, prima CTRL+Z.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
+* [O que é o Power BI?](power-bi-overview.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 * Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)
 

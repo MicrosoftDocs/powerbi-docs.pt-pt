@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245588"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092190"
 ---
 # <a name="enable-qa-for-live-connections"></a>Ativar as Perguntas e Respostas para ligações em direto
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é um Gateway de dados no local?  O que é uma ligação em direto?
@@ -56,6 +56,7 @@ Durante a fase de Pré-visualização desta funcionalidade, existem diversas lim
 
 * Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. Algumas funcionalidades estão disponíveis para origens de dados multidimensionais, mas a experiência completa de Perguntas e Respostas ainda não é suportada para multidimensional. As origens de dados adicionais suportadas pelo Gateway de dados no local serão implementadas ao longo do tempo.
 * O suporte integral para segurança ao nível de linha definido no SQL Server Analysis Services não está inicialmente disponível na pré-visualização pública. Ao colocar perguntas nas Perguntas e Respostas, o "preenchimento automático" de perguntas ao escrever pode mostrar valores de cadeias às quais um utilizador não tem acesso. No entanto, a RLS definida no modelo é respeitada em visuais de gráficos e relatórios, o que impede a exposição dos dados numéricos subjacentes. As opções para controlar este comportamento serão lançadas em atualizações futuras.
+* A segurança ao nível do objeto (OLS) não é suportada. As Perguntas e Respostas não respeitam a segurança ao nível do objeto e podem revelar os nomes das colunas ou tabelas a utilizadores que não têm acesso aos mesmos. Deve ativar o RLS para garantir que os valores de dados também estão protegidos adequadamente. 
 * As ligações em direto só são suportadas com o Gateway de dados no local. Como resultado, não é possível utilizar esta funcionalidade com o gateway pessoal.
 
 ## <a name="next-steps"></a>Passos seguintes

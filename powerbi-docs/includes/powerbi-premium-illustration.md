@@ -3,14 +3,18 @@
 1. Itens numa capacidade Premium
    
    * Aceder às áreas de trabalho das aplicações (como membros ou administradores) e publicar aplicações requer uma licença do Power BI Pro.
-   * Os leitores da aplicação podem ser utilizadores gratuitos ou do Power BI Pro.
-   * A partilha requer uma licença do Power BI Pro, mas os destinatários podem ser utilizadores gratuitos ou do Power BI Pro.
-   * Quer tenham uma licença do Power BI Pro ou uma licença gratuita, os destinatários do dashboard poderão definir alertas de dados.
-   * As APIs REST a incorporar utilizam uma conta de serviço, com uma licença do Power BI Pro, em vez de um utilizador.
+
+   * É necessária uma licença do Power BI Pro para partilhar uma aplicação, mas não para a utilizar.
+
+   * Todos os destinatários do dashboard podem definir alertas de dados, independentemente da licença que têm atribuída.
+
+   * As APIs REST para incorporação utilizam uma conta de serviço com uma licença do Power BI Pro, em vez de uma conta de utilizador.
+
 2. A minha área de trabalho na capacidade Partilhada
    
-   * A partilha requer uma licença do Pro. Os destinatários também precisam de licenças do Pro.
+   * É necessária uma licença do Power BI Pro tanto para partilhar como para utilizar uma aplicação.
+
 3. Áreas de trabalho de aplicação na capacidade Partilhada
    
-   * Qualquer utilização da aplicação requer licenças do Pro.
+   * É necessária uma licença do Power BI Pro para utilizar uma aplicação.
 

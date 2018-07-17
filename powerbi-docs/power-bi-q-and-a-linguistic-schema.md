@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34471899"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945210"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Modelação de linguagem e esquema linguístico 
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no Power BI lhe permitem fazer. Quando coloca uma questão nas Perguntas e Respostas do Power BI, estas fazem todos os possíveis para responder corretamente. 
@@ -340,7 +340,7 @@ Outro exemplo seria adicionar a expressão alternativa "os colaboradores vendem 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Se fizer uma alteração a um ficheiro .lsdl.yaml que não esteja em conformidade com o formato de esquema linguístico, verá agora traços de validação como este para indicar problemas: 
 
-    ![yaml file showing errors](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
+![Ficheiro yaml a mostrar erros](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

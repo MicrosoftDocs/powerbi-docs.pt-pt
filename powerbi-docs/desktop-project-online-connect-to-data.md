@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cae9bdfbb89e8c3a11e8ee3fec45327296319b3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9c41cca5ba4b66e118ea1122988080bbc1d45a8a
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288918"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597451"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: ligar aos dados a partir do Power BI Desktop
 Pode ligar aos dados no Project Online a partir do Power BI Desktop.

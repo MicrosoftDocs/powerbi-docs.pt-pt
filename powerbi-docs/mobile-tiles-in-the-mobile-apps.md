@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297659"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598647"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -40,7 +40,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas deste Ano** e **Vendas do Último Ano** em **agosto**.*  
+   <em>Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas Deste Ano</em>* e **Vendas do Último Ano** em **agosto**.*  
    
    Num gráfico circular, toque num setor do gráfico para mostrar o valor do setor na parte superior do gráfico.  
    
@@ -107,7 +107,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *Neste gráfico de barras, os valores da barra **Decor** são apresentados na parte superior do gráfico.*
+   <em>Neste gráfico de barras, os valores da barra **Decoração</em>* são apresentados na parte superior do gráfico.*
    
    Toque no ícone **Ecrã inteiro** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o mosaico em modo de ecrã inteiro, sem as barras de navegação e de menus.
    
@@ -126,6 +126,6 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
 4. Toque na seta ou no botão anterior para fechar o mosaico e voltar ao dashboard.
 
 ## <a name="next-steps"></a>Próximos passos
-* [Introdução ao Power BI](service-get-started.md)
+* [O que é o Power BI?](power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
