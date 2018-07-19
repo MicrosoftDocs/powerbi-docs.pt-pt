@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926565"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877030"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
 
@@ -102,13 +102,11 @@ O back-end da aplicação poderá ter de atualizar o token de autenticação ant
 
 **(AADSTS70002: erro ao validar as credenciais. AADSTS50053: tentou iniciar sessão demasiadas vezes com um ID de utilizador ou palavra-passe incorreto)**
 
-Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client,error_description:AADSTS70002: erro ao validar as credenciais. AADSTS50053: tentou iniciar sessão demasiadas vezes com um ID de utilizador ou palavra-passe incorreto***, significa que a autenticação direta foi desativada a partir de 14/06/2018.
+Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client,error_description:AADSTS70002: erro ao validar as credenciais. AADSTS50053: tentou iniciar sessão demasiadas vezes com um ID de utilizador ou palavra-passe incorreto***. Significa que a autenticação direta foi desativada a partir de 14/06/2018 como predefinição.
 
-Recomendamos que utilize o suporte do [Acesso Condicional do Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) para bloquear a autenticação herdada ou utilize a [Autenticação Pass-through do Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+Existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) que pode ser definida para a organização ou o [principal de serviço](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
-No entanto, existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) que pode ser definida para a organização ou o [principal de serviço](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
-
-**_Como solução, recomendamos que ative esta opção com base na aplicação e conforme necessário._**
+Recomendamos que ative esta opção apenas com base na aplicação.
 
 Para criar esta política, tem de ser um **Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
 
@@ -186,7 +184,7 @@ Uma origem de dados pode ter um único conjunto de credenciais para um utilizado
 
 **A composição ou o consumo de conteúdos incorporados falha ou o tempo expira**
 
-Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, veja [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
+Certifique-se de que o token de incorporação não expirou. Certifique-se de que está a verificar a expiração do token de incorporação e a atualizá-lo. Para obter mais informações, consulte [Refresh token using JavaScript SDK (Atualizar o token através do JavaScript SDK - em inglês)](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
 
 **O relatório ou o dashboard não carrega**
 
