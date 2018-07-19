@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 08d5d5b8d44d1ebceab2bb41ddbb244afda64fb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945049"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924799"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerir as capacidades no Power BI Premium e no Power BI Embedded
-Saiba como pode gerir o Power BI Premium e as capacidades do Power BI Embedded, que fornece recursos dedicados para o seu conteúdo.
+Saiba como pode gerir as capacidades do Power BI Premium e do Power BI Embedded, que disponibilizam recursos dedicados para os seus conteúdos.
 
 ![Ecrã de definições de capacidade do Power BI](media/service-admin-premium-manage/premium-capacity-management.png)
 
-A capacidade é a parte principal das ofertas do Power BI Premium do Power BI e do Power BI Embedded.
+A capacidade é a parte principal das ofertas do Power BI Premium e do Power BI Embedded.
 
 ## <a name="what-is-capacity"></a>O que é a capacidade?
 A capacidade é o conjunto de recursos reservados para utilização exclusiva por si. Ter capacidade permite-lhe publicar dashboards, relatórios e conjuntos de dados para os utilizadores em toda a organização sem ter de comprar licenças para os mesmos. Esta ação garante também um desempenho fiável e consistente do conteúdo alojado de capacidade.
@@ -31,10 +31,20 @@ A capacidade é totalmente transparente para os utilizadores finais. Vão contin
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
-Para obter mais informações, veja [O que é o Power BI Premium?](service-premium.md).
+Para obter mais informações, consulte [O que é o Power BI Premium?](service-premium.md).
+
+### <a name="capacity-admins"></a>Administradores de capacidade
+> [!NOTE]
+> Os administradores de capacidade, para a capacidade do Power BI Embedded, são definidos no portal do Microsoft Azure.
+
+Quando é atribuído ao utilizador a função de administrador de capacidade, este tem controlo total sobre a capacidade e as respetivas funcionalidades administrativas. Do portal de administração do Power BI, pode adicionar mais administrações de capacidade (apenas no Power BI Premium) ou conceder aos utilizadores permissões de atribuição de capacidade. Pode atribuir áreas de trabalho em massa a uma capacidade e visualizar a métrica de utilização uma capacidade.
+
+Cada capacidade tem os seus próprios administradores. Definir um administrador de capacidade para uma capacidade não lhe concede acesso a todas as capacidades da sua organização. Por predefinição, os administradores de capacidade não têm acesso a todas as áreas de administração do Power BI, como a métrica de utilização, os registos de auditoria ou as definições de inquilino. Os administradores de capacidade também não dispõem de permissões para configurar novas capacidades ou alterar a SKU das capacidades existentes. Apenas os administradores globais ou os administradores de serviço Power BI têm acesso a essas opções.
+
+Todos os administradores globais do Office 365 e administradores do Power BI são automaticamente administradores de capacidade das capacidades do Power BI Premium e do Power BI Embedded.
 
 ## <a name="purchase-capacity"></a>Capacidade de compra
-Para tirar partido da capacidade dedicada, terá de adquirir uma subscrição do Power BI Premium no Centro de administração do Office 365 ou criar um recurso do Power BI Embedded no portal do Microsoft Azure. Para obter mais informações, veja o seguinte artigo:
+Para tirar partido da capacidade dedicada, terá de adquirir uma subscrição do Power BI Premium no Centro de administração do Office 365 ou criar um recurso do Power BI Embedded no portal do Microsoft Azure. Para obter mais informações, consulte o seguinte artigo:
 
 * **Power BI Premium:** [como comprar o Power BI Premium](service-admin-premium-purchase.md)
 * **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
@@ -43,21 +53,9 @@ Ao adquirir SKU do Power BI Premium, o seu inquilino vai receber o número corre
 
 > [!NOTE]
 > Terá acesso completo durante 30 dias após a sua subscrição terminar. No entanto, após esse período, os seus conteúdos serão revertidos para uma capacidade partilhada. Os modelos com mais de 1 GB não serão suportados com uma licença partilhada regular.
->
 
-## <a name="capacity-admins"></a>Administradores de capacidade
-> [!NOTE]
-> Os administradores de capacidade, para a capacidade do Power BI Embedded, são definidos no portal do Microsoft Azure.
->
->
 
-Quando é atribuído ao utilizador a função de administrador de capacidade, este tem controlo total sobre a capacidade e as respetivas funcionalidades administrativas. Do portal de administração do Power BI, pode adicionar mais administrações de capacidade (apenas no Power BI Premium) ou conceder aos utilizadores permissões de atribuição de capacidade. Pode atribuir áreas de trabalho em massa a uma capacidade e visualizar a métrica de utilização uma capacidade.
-
-Cada capacidade tem os seus próprios administradores. Definir um administrador de capacidade para uma capacidade não lhe concede acesso a todas as capacidades da sua organização. Por predefinição, os administradores de capacidade não têm acesso a todas as áreas de administração do Power BI, como a métrica de utilização, os registos de auditoria ou as definições de inquilino. Os administradores de capacidade também não dispõem de permissões para configurar novas capacidades ou alterar a SKU das capacidades existentes. Apenas os administradores globais ou os administradores de serviço Power BI têm acesso a essas opções.
-
-Todos os administradores globais do Office 365 e administradores do Power BI são automaticamente administradores de capacidade das capacidades do Power BI Premium e do Power BI Embedded.
-
-## <a name="managing-capacity"></a>Gerir capacidade
+## <a name="manage-capacity"></a>Gerir capacidade
 Depois de adquirir nós de capacidade do Office 365, em seguida, terá de configurar uma nova capacidade. Isto é efetuado através do [portal de administração do Power BI](service-admin-portal.md). No portal de administração, verá uma secção denominada **Definições de capacidade**. Este é o local a partir do qual irá gerir as capacidades do Power BI Premium da sua organização.
 
 ![Definições de capacidade no portal de administração](media/service-admin-premium-manage/admin-portal-premium.png)
@@ -75,7 +73,7 @@ Se tiver núcleos virtuais disponíveis, configure a sua nova capacidade procede
 2. Atribua um **nome** à sua capacidade.
 3. Defina a que administrador pretende atribuir esta capacidade.
 
-    Os administradores de capacidade não têm de ser administradores do Power BI ou um Administrador global do Office 365. Para obter mais informações, veja [Administradores de capacidade do Power BI Premium](#capacity-admins)
+    Os administradores de capacidade não têm de ser administradores do Power BI ou um Administrador global do Office 365. Para obter mais informações, consulte [Administradores de capacidade do Power BI Premium](#capacity-admins)
 4. Selecione o tamanho da capacidade. As opções disponíveis dependem do número de núcleos virtuais disponíveis. Não pode selecionar uma opção que seja superior à que está disponível.
 
     ![Tamanhos de capacidade de Premium disponíveis](media/service-admin-premium-manage/premium-capacity-size.png)
@@ -96,8 +94,6 @@ No ecrã de gestão de capacidade do Premium, pode selecionar o **ícone de engr
 
 > [!NOTE]
 > As definições de capacidade do Power BI Embedded são geridas a partir do portal do Microsoft Azure.
->
->
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Alterar o tamanho de capacidade (Power BI Premium)
 Quando selecionam **Alterar tamanho da capacidade**, os administradores do Power BI e os administradores globais do Office 365 alteram o tamanho de capacidade do Power BI Premium. Os administradores de capacidade que não sejam administradores do Power BI ou administradores globais do Office 365 não terão esta opção.
@@ -129,7 +125,44 @@ Pode atribuir **administradores de capacidade** adicionais às capacidades do Po
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
-## <a name="usage-measurements-power-bi-premium"></a>Medidas de utilização (Power BI Premium)
+## <a name="assign-a-workspace-to-a-capacity"></a>Atribuir uma área de trabalho a uma capacidade
+Há algumas formas de atribuir uma área de trabalho a uma capacidade.
+
+### <a name="capacity-management-in-admin-portal"></a>Gestão de capacidade no portal de administração
+Os administradores de capacidade, em conjunto com os administradores do Power BI e os administradores globais do Office 365, podem atribuir áreas de trabalho em massa na secção de gestão de capacidade premium do portal de administração. Quando gere uma capacidade, verá a secção **Áreas de trabalho** que permite-lhe atribuir áreas de trabalho.
+
+![Área de atribuição de área de trabalho de gestão de capacidade](media/service-admin-premium-manage/capacity-manage-workspaces.png)
+
+1. Selecione **Atribuir áreas de trabalho**. Isto está listado em vários locais e todas efetuam a mesma tarefa.
+2. Selecione **Todas as áreas de trabalho da empresa** ou **Áreas de trabalho específicas por utilizador**.
+
+   | Seleção | Descrição |
+   | --- | --- |
+   | **Todas as áreas de trabalho da empresa** |A atribuição das áreas de trabalho de toda a organização à capacidade Premium vai atribuir todas as Áreas de Trabalho da Aplicação e As minhas Áreas de Trabalho, na sua organização a esta capacidade Premium. Além disso, todos os utilizadores atuais e futuros terão permissão para atribuir de novo áreas de trabalho individuais a esta capacidade. |
+   | **Áreas de trabalho específicas por utilizador** |Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
+3. Selecione **Aplicar**.
+
+Esta opção não permite-lhe atribuir áreas de trabalho específicas a uma capacidade.
+
+### <a name="app-workspace-settings"></a>Definições da área de trabalho de aplicação
+Também pode atribuir uma área de trabalho de aplicação a uma capacidade Premium a partir das definições dessa área de trabalho. Para atribuir uma área de trabalho de aplicação a uma capacidade Premium, efetue o seguinte.
+
+Para mover uma área de trabalho para a capacidade, deve ter permissões de administração para essa área de trabalho, bem como permissões de atribuição de capacidade para essa capacidade. Tenha em atenção que os administradores de área de trabalho podem sempre remover uma área de trabalho da capacidade Premium.
+
+1. Edite uma área de trabalho de aplicação, selecionando as **reticências (…)**  e selecionando **Editar área de trabalho**.
+
+    ![Editar a área de trabalho a partir do menu de contexto de reticências](media/service-admin-premium-manage/edit-app-workspace.png)
+2. Em **Editar área de trabalho**, expanda **Avançadas**.
+3. Se tiver recebido as permissões de atribuição de capacidade para qualquer capacidade, terá a opção de ativar **Premium** nesta área de trabalho.
+4. Selecione a capacidade à qual pretende atribuir esta área de trabalho de aplicação.
+
+    ![Menu pendente de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
+5. Selecione **Guardar**.
+
+Depois de guardar, a área de trabalho e todo o conteúdo, serão movidos para a capacidade Premium sem qualquer interrupção experiência para os utilizadores finais.
+
+
+## <a name="monitor-capacity-usage"></a>Monitorizar a utilização de capacidade
 Para cada capacidade, pode ver as medidas de utilização de CPU, a Utilização de Memória, a Degradação de Memória e a DirectQuery. Sugerimos que verifique regularmente estas métricas para se certificar de que os seus utilizadores têm um bom desempenho na sua capacidade:
 
 ![Utilização nos últimos sete dias](media/service-admin-premium-manage/premium-dashboard-tiles.png)
@@ -158,42 +191,6 @@ As métricas refletem a utilização ao longo da semana anterior.  Se quiser con
 
 Também pode exportar os dados subjacentes a qualquer uma das métricas para um ficheiro .csv.  Esta exportação irá fornecer-lhe informações detalhadas em intervalos de três minutos para cada dia da semana anterior.
 
-## <a name="assign-a-workspace-to-a-capacity"></a>Atribuir uma área de trabalho a uma capacidade
-Há algumas formas de atribuir uma área de trabalho a uma capacidade.
-
-### <a name="capacity-management-in-admin-portal"></a>Gestão de capacidade no portal de administração
-Os administradores de capacidade, em conjunto com os administradores do Power BI e os administradores globais do Office 365, podem atribuir áreas de trabalho em massa na secção de gestão de capacidade premium do portal de administração. Quando gere uma capacidade, verá a secção **Áreas de trabalho** que permite-lhe atribuir áreas de trabalho.
-
-![Área de atribuição de área de trabalho de gestão de capacidade](media/service-admin-premium-manage/capacity-manage-workspaces.png)
-
-1. Selecione **Atribuir áreas de trabalho**. Isto está listado em vários locais e todas efetuam a mesma tarefa.
-2. Selecione **Todas as áreas de trabalho da empresa** ou **Áreas de trabalho específicas por utilizador**.
-
-   | Seleção | Descrição |
-   | --- | --- |
-   | **Todas as áreas de trabalho da empresa** |A atribuição das áreas de trabalho de toda a organização à capacidade Premium vai atribuir todas as Áreas de Trabalho da Aplicação e As minhas Áreas de Trabalho, na sua organização a esta capacidade Premium. Além disso, todos os utilizadores atuais e futuros terão permissão para atribuir de novo áreas de trabalho individuais a esta capacidade. |
-   | **Áreas de trabalho específicas por utilizador** |Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
-3. Selecione **Aplicar**.
-
-Esta opção não lhe permite atribuir áreas de trabalho específicas a uma capacidade.
-
-### <a name="app-workspace-settings"></a>Definições da área de trabalho de aplicação
-Também pode atribuir uma área de trabalho de aplicação a uma capacidade Premium a partir das definições dessa área de trabalho. Para atribuir uma área de trabalho de aplicação a uma capacidade Premium, efetue o seguinte.
-
-Para mover uma área de trabalho para a capacidade, deve ter permissões de administração para essa área de trabalho, bem como permissões de atribuição de capacidade para essa capacidade. Tenha em atenção que os administradores de área de trabalho podem sempre remover uma área de trabalho da capacidade Premium.
-
-1. Edite uma área de trabalho de aplicação, selecionando as **reticências (…)**  e selecionando **Editar área de trabalho**.
-
-    ![Editar a área de trabalho a partir do menu de contexto de reticências](media/service-admin-premium-manage/edit-app-workspace.png)
-2. Em **Editar área de trabalho**, expanda **Avançadas**.
-3. Se tiver recebido as permissões de atribuição de capacidade para qualquer capacidade, terá a opção de ativar **Premium** nesta área de trabalho.
-4. Selecione a capacidade à qual pretende atribuir esta área de trabalho de aplicação.
-
-    ![Menu pendente de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
-5. Selecione **Guardar**.
-
-Depois de guardar, a área de trabalho e todo o conteúdo, serão movidos para a capacidade Premium sem qualquer interrupção experiência para os utilizadores finais.
-
 ## <a name="what-premium-looks-like-for-users"></a>O que o Premium parece para os utilizadores
 A maioria das vezes, os utilizadores não terão de saber que estão numa capacidade Premium. Os dashboards e relatórios são suficientes. Como uma sugestão visual, verá um ícone de diamante junto das áreas de trabalho que estejam numa capacidade Premium.
 
@@ -208,7 +205,7 @@ Ao selecionar **Chave do Power BI Report Server**, será apresentada uma caixa d
 
 ![Chave de produto do Power BI Report Server](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 
-Para obter mais informações, veja [Instalar o Power BI Report Server](report-server/install-report-server.md).
+Para obter mais informações, consulte [Instalar o Power BI Report Server](report-server/install-report-server.md).
 
 ## <a name="next-steps"></a>Próximos passos
 Partilhe aplicações publicadas com utilizadores. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
