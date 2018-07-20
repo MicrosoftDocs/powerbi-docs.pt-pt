@@ -11,10 +11,10 @@ ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
 ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
-ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/20/2018
 ms.locfileid: "37067107"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
@@ -46,7 +46,7 @@ Quaisquer utilizações dos livros e/ou dados devem incluir a atribuição acima
 Ao clicar em qualquer uma das ligações abaixo para transferir os ficheiros dos livros do Excel ou .pbix, significa que aceita os termos acima.
 
 ## <a name="available-samples"></a>Exemplos disponíveis
-Estão disponíveis oito exemplos para que os posso utilizar.  Cada um representa uma indústria diferente.
+Estão disponíveis oito exemplos para que os posso utilizar.  Cada um representa uma industria diferente.
 
 ### <a name="customer-profitability-sample--mediasample-datasetspower-bi-cp2png"></a>Exemplo de Rentabilidade do Cliente  ![](media/sample-datasets/power-bi-cp2.png)
 [Veja uma apresentação do exemplo de Rentabilidade do Cliente](sample-customer-profitability.md)
