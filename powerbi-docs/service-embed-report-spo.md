@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553571"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032054"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -84,7 +84,7 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da área de trabalho de aplicação no serviço Power BI. Isto garante que os utilizadores podem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
+Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores podem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
 
 Em alternativa, pode fazer o seguinte para conceder aos utilizadores acesso ao seu relatório.
 
@@ -129,7 +129,7 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
-* **Erro: "Ocorreu um erro; tente terminar e voltar a iniciar sessão e, em seguida, revisite esta página. ID de correlação: não definido, estado de resposta http: 400, código de erro de servidor 10001, mensagem: Token atualizado em falta"**
+* Erro: "Ocorreu um erro; tente terminar e voltar a iniciar sessão e, em seguida, revisite esta página. ID de correlação: não definido, estado de resposta HTTP: 400, código de erro de servidor 10001, mensagem: Token atualizado em falta"
   
   Se receber este erro, experimente uma das seguintes soluções.
   
@@ -154,5 +154,4 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 [Partilhar um dashboard com colegas e outros utilizadores](service-share-dashboards.md)  
 [Power BI Premium - what is it?](service-premium.md) (Power BI Premium – o que é?)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/) 
-
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: overview
-ms.date: 12/06/2017
+ms.date: 07/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 57d5158098f6ba7b2754ae25afaca524723255f5
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289194"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39031908"
 ---
 # <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
 
@@ -87,7 +87,7 @@ Depois de selecionar **Publicar**, o Power BI Desktop liga-o ao **serviço Powe
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para começar a utilizar o **Power BI Desktop**, primeiro precisa de transferir e instalar a aplicação. Existem duas formas de obter o **Power BI Desktop**:
+Para começar a utilizar o **Power BI Desktop**, primeiro precisa de transferir e instalar a aplicação. Existem duas formas de obter o **Power BI Desktop**:
 
 * [Transferir o Power BI Desktop a partir da Web](desktop-get-the-desktop.md)
 * [Obter o Power BI Desktop a partir da Loja Windows](http://aka.ms/pbidesktopstore)
