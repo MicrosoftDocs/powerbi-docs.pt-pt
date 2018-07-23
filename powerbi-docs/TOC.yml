@@ -1021,7 +1021,9 @@
             - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
               href: developer/overview-of-power-bi-rest-api.md
         - name: Tutoriais
-          items: null
+          items:
+            - name: Enviar dados por push para um conjunto de dados
+              href: developer/walkthrough-push-data.md
         - name: Conceitos
           items:
             - name: Automatic retention policy for real-time data (Política de retenção automática para dados em tempo real)
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Procedimentos
           items:
-            - name: Enviar dados por push para um conjunto de dados
-              href: developer/walkthrough-push-data.md
             - name: Registar uma aplicação no Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Get an authentication access token (Obter um token de acesso de autenticação)
