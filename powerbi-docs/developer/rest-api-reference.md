@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812359"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157154"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referência da API REST do Power BI
 O Power BI é um serviço com base na cloud que pode usar para criar aplicações de dashboard personalizados. A API REST do Power BI é uma API baseada em REST que fornece acesso programático a recursos de **Painel** como **Conjuntos de Dados**, **Tabelas**e **Linhas** no Power BI.
@@ -31,4 +31,3 @@ A API REST do Power BI tem as seguintes operações:
 Para saber mais sobre a API REST do Power BI, veja [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-
