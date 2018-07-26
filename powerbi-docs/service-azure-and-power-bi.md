@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a656866b1c9cdc0d1eb83b67c0edf79c182d1a71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 596d399e7c304d40be5b7839c5c16060eb9e8155
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244439"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39255992"
 ---
 # <a name="azure-and-power-bi"></a>Azure e Power BI
 Com os serviços do **Azure** e o **Power BI**, pode transformar os seus esforços de processamento de dados em análises e relatórios que fornecem informações em tempo real sobre a sua empresa. Se o processamento de dados for baseado na cloud ou no local, simples ou complexo, de origem única ou altamente dimensionado, armazenado ou em tempo real, o Azure e o Power BI têm a conectividade interna e a integração para dar vida aos seus esforços de business intelligence.
@@ -52,7 +52,7 @@ Pode expandir conforme as suas necessidades com o Azure e o Power BI. Aproveite 
 ### <a name="connect-your-app-data-using-power-bi-apis"></a>Ligar os dados da sua aplicação com as APIs do Power BI
 Também pode utilizar o Power BI para aprofundar os seus conhecimentos sobre as aplicações existentes. Com a API do Power BI, os programadores de aplicações podem enviar conjuntos de dados inteiros para o Power BI de forma programática. Precisa de atualizações contínuas? Com as APIs do Power BI, os programadores podem enviar atualizações de dados em tempo real para começar rapidamente e, em seguida, expandir para utilizar o Azure Stream Analytics em conformidade com os requisitos de dimensionamento.
 
-Existem várias informações sobre as APIs do Power BI no [Portal do Programador do Power BI](http://dev.powerbi.com). Também pode saber o que outras pessoas estão a fazer em relação à programação com o Power BI no [blog do programador do Power BI](http://blogs.msdn.com/powerbidev). Existe também uma página dedicada à [introdução ao desenvolvimento do Power BI](https://msdn.microsoft.com/library/dn889824.aspx).
+Existem várias informações sobre as APIs do Power BI no [Portal do Programador do Power BI](http://dev.powerbi.com). 
 
 ### <a name="what-could-you-do-with-azure-and-power-bi"></a>O que pode fazer com o Azure e o Power BI?
 Existem todos os tipos de cenários onde o **Azure** e o **Power BI** podem ser combinados. As possibilidades e oportunidades são tão exclusivas quanto a sua empresa. Para obter mais informações sobre os **serviços do Azure**, consulte esta [página de descrição geral](http://go.microsoft.com/fwlink/?LinkId=535031&clcid=0x409), que descreve os **Cenários de Análise de Dados através do Azure**, e saiba como transformar as origens de dados em informações que levam a sua empresa ao sucesso.
