@@ -89,7 +89,7 @@ O DAX inclui as seguintes funções de **data**:
 
 Embora estas funções sejam úteis para calcular e extrair informações de valores de *data*, não se aplicam à análise de tempo, que utiliza uma tabela de datas.
 
-> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

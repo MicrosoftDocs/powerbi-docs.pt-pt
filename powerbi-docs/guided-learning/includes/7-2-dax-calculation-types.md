@@ -57,7 +57,7 @@ Os elementos necessários para uma medida calculada são os mesmos que são nece
 * um novo nome de medida
 * pelo menos uma função ou expressão
 
-> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

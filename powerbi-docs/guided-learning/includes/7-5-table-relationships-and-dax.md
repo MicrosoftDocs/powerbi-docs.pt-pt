@@ -15,7 +15,7 @@ A função **RELATED** funciona em relações *muitos-para-um*, enquanto a funç
 
 Pode utilizar funções relacionais para criar expressões que incluem valores em várias tabelas. A DAX irá devolver um resultado com estas funções, independentemente do comprimento da cadeia da relação.
 
-> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
