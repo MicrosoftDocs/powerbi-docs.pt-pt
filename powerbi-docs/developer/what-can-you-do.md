@@ -3,18 +3,18 @@ title: Que podem os programadores fazer com o Power BI?
 description: O Power BI oferece uma vasta gama de opções para programadores. Isto varia, desde a incorporação aos elementos visuais personalizados e conjuntos de dados de transmissão em fluxo.
 author: markingmyname
 ms.author: maghan
-ms.date: 05/03/2018
+ms.date: 05/25/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ee9f5b2e89a1746267090da3485076d67a99d6f9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07fb8d365a6fe4a874b057a71a90a99fc8a9e5fa
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290574"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564702"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
@@ -23,7 +23,13 @@ Os programadores têm várias opções para tentar incluir conteúdo do Power B
 ## <a name="embedding"></a>Incorporação
 O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Tal significa que, ao incorporar o conteúdo, terá um conjunto de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho de aplicações.
 
-![Exemplo de PBIE](media/what-can-you-do/what-can-you-do-01.png)
+Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
+
+Escolha a solução mais adequada para si:
+* A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
+* A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
+
+![Exemplo de PBIE](media/what-can-you-do/what-can-you-do-02.png)
 
 ## <a name="develop-custom-visuals"></a>Desenvolver elementos visuais personalizados
 Os elementos visuais personalizados permitem-lhe criar os seus próprios elementos visuais para utilização nos relatórios do Power BI. Os elementos visuais personalizados são escritos no TypeScript, que é um superconjunto do JavaScript. O TypeScript suporta algumas funcionalidades avançadas e o acesso antecipado à funcionalidade ES6/ES7. O estilo visual é processado através de folhas de estilo (css). Para sua comodidade, utilizamos o pré-compilador Less, que suporta algumas funcionalidades avançadas, como aninhamento, variáveis, condições, ciclos, etc. Se não quiser utilizar algumas dessas funcionalidades, pode escrever css simples no ficheiro less.

@@ -27,7 +27,7 @@ Estas são as notas de versão do Power BI Premium, uma capacidade dedicada que 
 * Os utilizadores do Personal Gateway têm de atualizar para a versão mais recente para poderem continuar a atualizar os dados nas áreas de trabalho Premium.
 * Os conjuntos de dados importados superiores a 1 GB não são suportados na capacidade Premium na versão inicial. Estamos a trabalhar para o conseguir.
 * Os utilizadores têm de iniciar sessão pelo menos uma vez no serviço Power BI antes de poderem ser atribuídos como administradores de capacidade ou serem concedidas permissões de atribuição de área de trabalho.
-* Pode ver casos transitórios em que consegue obter mais consultas de ligação do Direct Query/em direto por segundo do que o incluído no seu SKU de capacidade. Não deve confiar no débito acima incluído no seu SKU de capacidade.
+* Pode ver casos transitórios em que consegue onter mais consultas de ligação do Direct Query/em direto por segundo do que o incluído no seu SKU de capacidade. Não deve confiar no débito acima incluído no seu SKU de capacidade.
 
 ## <a name="next-steps"></a>Próximos passos
 [Perguntas Frequentes do Power BI Premium](service-premium-faq.md)  

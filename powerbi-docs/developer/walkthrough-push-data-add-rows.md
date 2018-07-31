@@ -105,11 +105,11 @@ Adicione este código a Program.cs.
     #endregion
 ```
 
-Segue-se a [lista completa de códigos](#code).
+Segue-se a [listagem de código completo](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Lista completa de códigos
+## <a name="complete-code-listing"></a>Lista de códigos completa
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -309,7 +309,7 @@ Segue-se a [lista completa de códigos](#code).
 
 ## <a name="next-steps"></a>Próximos passos
 [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
-[Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
+[Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

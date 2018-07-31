@@ -42,7 +42,7 @@ Se obtiver uma mensagem de erro semelhante à seguinte, ao ligar a uma base de d
 Após iniciar como administrador e estabelecer a ligação, os DLLs necessários são registados corretamente. Depois disso, iniciar o Power BI Desktop como administrador não é necessário.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Ajuda com outros problemas ao iniciar o Power BI Desktop
-Esforçamo-nos por cobrir o máximo possível de problemas que ocorram com o **Power BI Desktop**. Estamos regularmente à procura de problemas que possam afetar muitos clientes para incluí-los nos nossos artigos.
+Esforçamo-os por cobrir o máximo possível de problemas que ocorram com o **Power BI Desktop**. Estamos regularmente à procura de problemas que possam afetar muitos clientes para incluí-los nos nossos artigos.
 
 Se o problema em iniciar o **Power BI Desktop** não estiver associado ao Gateway de dados no local ou quando as resoluções anteriores não funcionarem, poderá enviar um incidente de suporte ao [suporte do Power BI](https://support.powerbi.com) (https://support.powerbi.com)) para ajudar a identificar e resolver o problema.
 

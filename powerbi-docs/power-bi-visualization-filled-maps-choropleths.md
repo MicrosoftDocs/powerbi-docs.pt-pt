@@ -50,7 +50,7 @@ Os mapas de manchas são uma ótima opção:
 Para acompanhar, o tutorial utiliza o serviço Power BI, não o Power BI Desktop.
 
 ## <a name="create-a-basic-filled-map"></a>Criar um mapa de manchas básico
-Neste vídeo, Kim cria um mapa básico e converte-o num mapa de manchas.
+Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
 
@@ -62,25 +62,25 @@ Neste vídeo, Kim cria um mapa básico e converte-o num mapa de manchas.
 3. O Power BI abre uma tela do relatório em branco na [Vista de Edição](service-interact-with-a-report-in-editing-view.md).
 
     ![Novo relatório](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
-4. No painel Campos, selecione o campo **Geo** \> **State**.    
+4. No painel Campos, selecione o campo **Geo** \> **Estado**.    
 
    ![Marca de verificação amarela junto a State](media/power-bi-visualization-filled-maps-choropleths/img002.png)
-5. [Converta o gráfico](power-bi-report-change-visualization-type.md) num mapa de manchas. Repare que **State** está agora no grupo **Localização**. O Bing Maps utiliza o campo no grupo **Localização** para criar o mapa.  A localização pode ser uma variedade de localizações válidas: países, estados, condados, cidades, CEPs ou outros códigos postais, etc. O Bing Maps fornece formas de mapa de manchas para locais em todo o mundo. Sem uma entrada válida no painel Localização, o Power BI não pode criar o mapa de manchas.  
+5. [Converta o gráfico](power-bi-report-change-visualization-type.md) num mapa de manchas. Repare que o **Estado** está, agora, no grupo **Local**. O Bing Maps usa o campo no grupo **Local** para criar o mapa.  O local pode ser uma variedade de locais válidos: países, estados, condados, cidades, CEPs ou outros códigos postais, etc. O Bing Maps fornece formas de mapa de manchas para locais em todo o mundo. Sem uma entrada válida no painel Localização, o Power BI não pode criar o mapa de manchas.  
 
    ![Modelos com o ícone de mapa de manchas realçado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Filtre o mapa para apresentar apenas os Estados Unidos.
 
    a.  Na parte inferior do painel Visualizações, procure a área **Filtros** .
 
-   b.  Passe o rato sobre **State** e clique na divisa de expansão  
+   b.  Passe o rato sobre **Estado** e clique na divisa de expansão  
    ![Filtros de nível visual a mostrar State (Tudo)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
-   c.  Coloque uma marca de verificação ao lado de **Tudo** e remova a marca de verificação ao lado de **AK**.
+   c.  Coloque uma marca de verificação ao lado de **Todos** e remova a marca de verificação ao lado de **AK**.
 
    ![Menu pendente State com as opções Tudo e AK não selecionadas](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. Selecione **SalesFact** \>  **Sentiment** para adicioná-lo ao painel **Saturação da cor**. O campo no painel **Saturação da cor** controla o sombreado do mapa.  
+7. Selecione **SalesFact** \>  **Sentimento** para adicioná-lo ao painel **Saturação da cor**. O campo no painel **Valores** controla o sombreado do mapa.  
    ![Opção Sentiment no campo Saturação da Cor](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
-8. O mapa de manchas é sombreado a verde, com verde claro a representar os números de sentimento inferiores e verde escuro a representar o sentimento superior mais positivo.  Aqui, destacamos o estado de Wyoming (WY) e vemos que o Sentiment é muito bom, 74.  
+8. O mapa de manchas é sombreado a verde, com verde claro a representar os números de sentimento inferiores e verde escuro a representar o sentimento superior mais positivo.  Aqui, destacamos o estado de Wyoming (WY) e vemos que o Sentimento é muito bom, 74.  
    ![Caixa de diálogo preta a mostrar as informações State e Sentiment](media/power-bi-visualization-filled-maps-choropleths/img007.png)
 9. [Guarde o relatório](service-report-save.md).
 
@@ -89,9 +89,9 @@ Para obter informações sobre como utilizar o painel Filtros, veja [Add a filte
 
 Destacar um local num Mapa de Manchas faz a filtragem cruzada com outras visualizações na página do relatório e vice-versa.
 
-Para acompanhar, copie e cole o mapa de manchas na página **Sentiment** do relatório *Vendas e Marketing*.
+Para acompanhar, copie e cole o mapa de manchas na página **Sentimento** do relatório *Vendas e Marketing*.
 
-1. No mapa de manchas, selecione um estado.  Isto destaca as outras visualizações na página. A seleção de **Texas**, por exemplo, mostra que o Sentiment é de 74, que Texas está no Distrito Central \#n.º 23 e que a maior parte do volume de vendas é proveniente dos segmentos Moderação e Conveniência.   
+1. No mapa de manchas, selecione um estado.  Isto destaca as outras visualizações na página. A seleção de **Texas**, por exemplo, mostra que o Sentimento é de 74, que Texas está no Distrito Central \#n.º 23 e que a maior parte do volume de vendas é proveniente dos segmentos Moderação e Conveniência.   
    ![Texas selecionado](media/power-bi-visualization-filled-maps-choropleths/img008.png)
 2. No gráfico de linhas, alterne entre **Não** e **Sim**. Isto filtra o Mapa de Manchas para mostrar o Sentimento para VanArsdel e para a concorrência de VanArsdel.  
    ![Vídeo a mostrar a alteração](media/power-bi-visualization-filled-maps-choropleths/img009.gif)

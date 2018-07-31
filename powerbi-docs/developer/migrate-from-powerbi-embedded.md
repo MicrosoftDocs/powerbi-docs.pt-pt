@@ -34,7 +34,7 @@ Antes de começar a migrar para o novo Power BI Embedded, pode percorrer rapidam
 
 Escolha a solução mais adequada para si:
 * **Incorporar para os seus clientes**, se estiver interessado numa solução em que [os dados pertencem à aplicação](https://aka.ms/embedsetup/AppOwnsData). A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. 
-* **Incorporar para a sua organização**, se estiver interessado numa solução em que [os dados pertencem ao utilizador](https://aka.ms/embedsetup/UserOwnsData). [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI.
+* **Incorporar para a sua organização**, se estiver interessado numa solução em que [os dados pertencem ao utilizador](https://aka.ms/embedsetup/UserOwnsData). A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI.
 
 ## <a name="prepare-for-the-migration"></a>Preparar a migração
 Tem de efetuar alguns procedimentos para preparar a migração da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded. Precisa de um inquilino disponível, a par de um utilizador que tenha uma licença do Power BI Pro.
