@@ -56,7 +56,7 @@ Ligue-se ao [pacote de conteúdos da Auditoria de Base de Dados SQL](https://app
 5. Como o Método de Autenticação, selecione **Chave**, introduza a **Chave de Conta** \> **Iniciar Sessão**.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
-6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
+6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqldbauditingnewdash.png)
 

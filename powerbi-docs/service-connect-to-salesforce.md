@@ -60,12 +60,12 @@ Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. 
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Alterar os blocos](service-dashboard-edit-tile.md) no dashboard
 * [Selecionar um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
-## <a name="system-requirements-and-considerations"></a>Requisitos do sistema e considerações
+## <a name="system-requirements-and-considerations"></a>Requisitos de sistema e considerações
 - Estar conectado a uma conta do Salesforce que tenha acesso ativado à API
 - Permissão concedida à aplicação Power BI durante o início de sessão
 - A conta ter chamadas à API suficientes disponíveis para efetuar pull dos dados e atualizá-los

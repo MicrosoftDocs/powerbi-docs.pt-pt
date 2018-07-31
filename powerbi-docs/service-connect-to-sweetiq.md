@@ -46,7 +46,7 @@ Conecte-se ao [pacote de conteúdo do SweetIQ](https://app.powerbi.com/groups/me
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
-## <a name="finding-parameters"></a>A localizar parâmetros
+## <a name="finding-parameters"></a>A procurar parâmetros
 O ID do Cliente e a Chave de API para esse pacote de conteúdo não são as mesmas que seu nome de utilizador e palavra-passe do SweetIQ.
 
 Selecione um ID do Cliente de um dos clientes aos quais a sua conta tem acesso. Pode encontrar a lista de clientes em “Gestão de Clientes” na sua conta do SweetIQ.

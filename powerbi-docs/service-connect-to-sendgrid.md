@@ -32,7 +32,7 @@ Ligue-se ao [pacote de conteúdos do SendGrid](https://app.powerbi.com/getdata/s
 3. Selecione o pacote de conteúdos do **SendGrid** e clique em **Obter**.
    
    ![](media/service-connect-to-sendgrid/sendgrid.png) 
-4. Quando solicitado, forneça o seu nome de utilizador e palavra-passe do SendGrid. Selecione **Iniciar Sessão**.
+4. Quando solicitado, forneça o seu nome de utilizador e palavra-passe do SendGrid. Selecione **Entrar**.
    
    ![](media/service-connect-to-sendgrid/pbi_sendgridsignin.png)
 5. Depois do Power BI importar os dados, vai ver um dashboard, relatório e conjunto de dados novos no painel de navegação esquerdo, preenchidos com as suas estatísticas de e-mail correspondentes aos últimos 90 dias. Os novos itens são marcados com um asterisco amarelo \*.

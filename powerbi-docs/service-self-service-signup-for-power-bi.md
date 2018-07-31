@@ -70,7 +70,7 @@ Para se inscrever no Power BI, pode fazer o seguinte.
 2. Selecione **Iniciar gratuitamente** ou **Inscrever-se gratuitamente**.
 
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
-3. Na página de introdução, selecione **Experimente Gratuitamente >** no Power BI.
+3. Na página de introdução, seleicone **Experimente Gratuitamente >** no Power BI.
 
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. Insira o endereço de e-mail com o qual se está a inscrever e selecione **Inscrever-se**. Certifique-se de que o seu endereço de e-mail é permitido na inscrição. Para obter mais informações sobre o endereço de e-mail que pode utilizar, consulte [Que endereço de e-mail pode ser utilizado com o Power BI](#what-email-address-can-be-used-with-power-bi).
@@ -97,7 +97,7 @@ Depois, irá ver uma mensagem a pedir-lhe que selecione **Começar**.
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
 
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Versão de avaliação de 60 dias do Power BI Pro no Serviço
-Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, veja [Preços do Power BI](https://powerbi.microsoft.com/pricing). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, entre no Power BI e experimente uma destas funcionalidades do Power BI Pro:
+Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, consulte [Preços do Power BI](https://powerbi.microsoft.com/pricing). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, entre no Power BI e experimente uma destas funcionalidades do Power BI Pro:
 
 * [Criar uma área de trabalho de aplicação](service-create-distribute-apps.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
@@ -111,7 +111,7 @@ Em seguida, é possível selecionar **Iniciar avaliação**.
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial2.png)
 
 >[!NOTE]
->Os utilizadores que tiram partido desta versão de avaliação do Power BI Pro no produto não aparecem no portal de administração do Office 365 como utilizadores da versão de Avaliação do Power BI Pro (aparecem como utilizadores da versão gratuita do Power BI). No entanto, aparecerão como utilizadores da versão de Avaliação do Power BI Pro na página **gerir armazenamento** do Power BI.
+>Os utilizadores que tiram partido desta versão de avaliação do Power BI Pro no produto não aparecem no portal de administração do Office 365 como utilizadores da versão deAvaliação do Power BI Pro (aparecem como utilizadores da versão gratuita do Power BI). No entanto, aparecerão como utilizadores da versão de Avaliação do Power BI Pro na página **gerir armazenamento** do Power BI.
 
 >[!NOTE]
 >Se for um Administrador de TI que deseja adquirir e implementar licenças de avaliação do Power BI para vários utilizadores na sua organização sem que os utilizadores individuais aceitem os termos da avaliação individualmente, é possível inscrever-se numa [avaliação de subscrição do Power BI Pro](https://portal.office.com/Signup/MainSignup15.aspx?OfferId=d59682f3-3e3b-4686-9c00-7c7c1c736085&dl=POWER_BI_PRO). Terá de ser um Administrador Global ou de Faturação do Office 365 ou criar um novo inquilino para se inscrever numa avaliação de administrador. Para obter mais informações, veja [Purchasing Power BI Pro (Comprar o Power BI Pro)](service-admin-purchasing-power-bi-pro.md).
@@ -127,7 +127,7 @@ Quando estiver no serviço, pode verificar se tem uma conta de avaliação do Po
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
 ## <a name="what-if-you-want-the-full-power-bi-pro"></a>E se pretender o Power BI Pro completo?
-Não existe forma de obter a licença do Power BI Pro enquanto indivíduo. Terá de falar com o seu Administrador de TI para adquirir e atribuir a licença à sua conta. Para obter mais informações, veja [Comprar o Power BI Pro](service-admin-purchasing-power-bi-pro.md).
+Não existe forma de obter a licença do Power BI Pro enquanto indivíduo. Terá de falar com o seu Administrador de TI para adquirir e atribuir a licença à sua conta. Para obter mais informações, consulte [Comprar o Power BI Pro](service-admin-purchasing-power-bi-pro.md).
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Em muitos casos, o registo no Power BI pode ser obtido seguindo o processo self-service simples de inscrição indicado acima. No entanto, há várias razões pelas quais poderá não conseguir concluir a inscrição self-service.  A tabela a seguir resume algumas das razões mais comuns para não conseguir concluir a inscrição e formas de resolver esses problemas.

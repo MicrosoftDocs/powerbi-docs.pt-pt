@@ -192,7 +192,7 @@ Se for o proprietário do dashboard, no serviço Power BI, pode *criar uma vista
 
 Leia mais sobre como [criar uma vista de telemóvel de um dashboard](service-create-dashboard-mobile-phone-view.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Transferir a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) do Google Play  
 * [Introdução à aplicação Android para o Power BI](mobile-android-app-get-started.md)  
 * [O que é o Power BI?](power-bi-overview.md)

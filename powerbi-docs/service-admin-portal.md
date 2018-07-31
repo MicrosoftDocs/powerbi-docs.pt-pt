@@ -42,7 +42,7 @@ No portal, existem seis separadores. Estão descritos abaixo.
 * [Definições de inquilino](#tenant-settings)
 * [Definições Premium](#premium-settings)
 * [Códigos de incorporação](#embed-codes)
-* [Elementos visuais da organização](#Organization-visuals)
+* [Elemento visuais da organização](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 

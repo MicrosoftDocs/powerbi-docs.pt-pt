@@ -38,7 +38,7 @@ Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/se
 4. Forneça o URL associado à sua conta. O URL terá o formato **https://company.zendesk.com**. Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
-5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Iniciar Sessão**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
+5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Entrar**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
    
    > [!NOTE]
    > Este pacote de conteúdo requer a conexão com uma conta de Administrador do Zendesk. 
@@ -49,7 +49,7 @@ Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/se
 6. Clique em **Permitir** para permitir que o Power BI aceda aos seus dados do Zendesk.
    
    ![](media/service-connect-to-zendesk/zendesk2.jpg)
-7. Clique em **Conectar** para iniciar o processo de importação. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
+7. Clique em **Conectar** para iniciar o processo de importação. Depois do Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
 

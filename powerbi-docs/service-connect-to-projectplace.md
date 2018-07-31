@@ -18,12 +18,12 @@ ms.lasthandoff: 06/29/2018
 ms.locfileid: "37134990"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Ligar ao Projectplace by Planview com o Power BI
-Com o pacote de conteúdos do Projectplace by Planview, é possível visualizar os dados do projeto colaborativo de formas totalmente novas diretamente no Power BI. Utilize as suas credenciais de sessão do Projectplace para ver as principais estatísticas do projeto de maneira interativa, descubra quem são os membros da equipa mais ativos e produtivos e identifique atividades e cartões de risco nos projetos da sua conta do Projectplace. Também pode expandir o dashboard e os relatórios integrados para obter as informações que são mais importantes para si.
+Com o pacote de conteúdos do Projectplace by Planview, é possível visualizar os dados do projeto colaborativo de formas totalmente novas diretamente no Power BI. Utilize as suas credenciais de sessão do Projectplace para ver as principais estatísticas do projeto de maneira interativa, descubra quem são os membros da equipa mais ativos e produtivos e identifique atividades e cartões de risco nos projetos da sua conta do Projectplace. Também é possível estender o dashboard e os relatórios prontos para utilização para obter as informações mais importantes.
 
 [Ligue-se ao pacote de conteúdo do Projectplace no Power BI](https://app.powerbi.com/getdata/services/projectplace)
 
 >[!NOTE]
->Para importar os dados do Projectplace para o Power BI, deve ser um utilizador do Projectplace. Veja os requisitos adicionais abaixo.
+>Para importar os dados do Projectplace para o Power BI, deve ser um utilizador do Projectplace. Consulte os requisitos adicionais abaixo.
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
@@ -38,16 +38,16 @@ Com o pacote de conteúdos do Projectplace by Planview, é possível visualizar 
 4. Na caixa de texto de URL do Feed OData, insira o URL para o feed OData do Projectplace que quer utilizar, como mostrado na seguinte imagem:
    
     ![](media/service-connect-to-projectplace/params.png)
-5. Na lista Método de Autenticação, selecione **OAuth** se a opção ainda não estiver selecionada. Clique em **Iniciar Sessão** e siga o fluxo de início de sessão.  
+5. Na lista Método de Autenticação, selecione **OAuth** se a opção ainda não estiver selecionada. Clique em **Iniciar Sessão** e siga o fluxo de inicio de sessão.  
    
    ![](media/service-connect-to-projectplace/creds.png)
-6. No painel esquerdo, selecione **Projectplace** a partir da lista de dashboards. O Power BI importa os dados do Projectplace para o dashboard. Tenha em atenção que os dados podem levar algum tempo a carregar.  
+6. No painel esquerdo, selecione **Projectplace** a partir da lista de dashboards. O Power BI importa os dados do Projectplace para o dashboard. Observe que os dados podem levar algum tempo para carregar.  
    
     O dashboard contém blocos que mostram dados da base de dados do Projectplace. A imagem a seguir mostra um exemplo do dashboard predefinido do Projectplace no Power BI.
    
     ![](media/service-connect-to-projectplace/dashboard.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.

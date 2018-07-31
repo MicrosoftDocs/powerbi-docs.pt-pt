@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249511"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280461"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Como devo colaborar e partilhar no Power BI?
 
@@ -75,7 +75,7 @@ Está a partilhar um instantâneo do mosaico, relatório ou visual e os seus des
 
 Mais informações sobre [anotar e partilhar mosaicos, relatórios e visuais](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) das aplicações móveis para iOS e Android.
 
-Também pode [partilhar um instantâneo de um mosaico](mobile-share-tile-windows-10-phone-app.md) da aplicação Power BI para dispositivos Windows 10.
+Também pode [partilhar um instantâneo de um mosaico](mobile-windows-10-phone-app-get-started.md) da aplicação Power BI para dispositivos Windows 10.
 
 ## <a name="publish-to-the-web"></a>Publicar na Web
 Pode publicar relatórios do Power BI para toda a Internet ao incorporar visualizações interativas em publicações de blogue, sites, redes sociais e outras comunicações online em qualquer dispositivo. Qualquer pessoa na Internet pode ver os seus relatórios e o utilizador não pode controlar quem vê o que publicou. As pessoas não precisam de uma licença do Power BI. A publicação na Web só está disponível para relatórios que o utilizador pode editar. Não pode publicar relatórios na Web se estes forem partilhados consigo ou se estiverem numa aplicação. Mais informações sobre [publicar na Web](service-publish-to-web.md).

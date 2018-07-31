@@ -109,7 +109,7 @@ Os KPIs e relatórios móveis do Reporting Services não são criados na aplica�
 * Crie [KPIs num portal Web do Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)
 
 ## <a name="next-steps"></a>Próximos passos
-* [Introdução à aplicação móvel do Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)  
+* [Introdução à aplicação móvel Power BI para Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [O que é o Power BI?](power-bi-overview.md)  
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

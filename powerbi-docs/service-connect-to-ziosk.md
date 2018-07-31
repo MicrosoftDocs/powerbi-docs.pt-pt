@@ -18,7 +18,7 @@ ms.lasthandoff: 06/29/2018
 ms.locfileid: "37135657"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Ligue-se ao Ziosk Survey Analytics com o Power BI
-O pacote de conteúdos do Ziosk Survey Analytics para o Power BI oferece aos restaurantes que disponibilizam tablets do Ziosk acesso incomparável às informações fornecidas pelos dados de pesquisa do Ziosk, incluindo segmentação por dia, local, funcionários e muito mais.
+O pacote de conteúdoS do Ziosk Survey Analytics para o Power BI oferece aos restaurantes que disponibilizam tablets do Ziosk acesso incomparável às informações fornecidas pelos dados de pesquisa do Ziosk, incluindo segmentação por dia, local, funcionários e muito mais.
 
 Ligue-se ao [pacote de conteúdos do Ziosk Survey Analytics](https://app.powerbi.com/getdata/services/ziosk-survey-analytics) para o Power BI.
 
@@ -32,12 +32,12 @@ Ligue-se ao [pacote de conteúdos do Ziosk Survey Analytics](https://app.powerbi
 3. Selecione **Ziosk Survey Analytics** e selecione **Obter**.  
    
     ![](media/service-connect-to-ziosk/ziosk.png)
-4. Selecione **OAuth 2** e **Iniciar Sessão**. Quando solicitado, forneça as suas credenciais do Ziosk.
+4. Selecione **OAuth 2** e **Entrar**. Quando solicitado, forneça as suas credenciais do Ziosk.
    
     ![](media/service-connect-to-ziosk/creds.png)
    
     ![](media/service-connect-to-ziosk/creds2.png)
-5. Depois de estar ligado, são carregados automaticamente um dashboard, um relatório e um conjunto de dados. Após a conclusão, os blocos são atualizados com dados da sua conta do Ziosk.
+5. Quando estiver ligado, um dashboard, relatório e conjunto de dados são carregados automaticamente. Após a conclusão, os blocos são atualizados com dados da sua conta do Ziosk.
    
     ![](media/service-connect-to-ziosk/dashboard.png)
 

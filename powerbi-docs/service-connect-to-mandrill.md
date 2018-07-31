@@ -39,7 +39,7 @@ Ligue-se ao [pacote de conteúdo do Mandrill para o Power BI.](http://app.powerb
    
     ![](media/service-connect-to-mandrill/mandrill-dashboard1.jpg)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.

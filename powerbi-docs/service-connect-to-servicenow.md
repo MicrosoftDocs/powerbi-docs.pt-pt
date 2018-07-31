@@ -22,7 +22,7 @@ O ServiceNow oferece vários produtos e soluções, incluindo gestão de empresa
 
 Ligue ao pacote de conteúdos do Power BI para obter os [Incidentes do ServiceNow](https://app.powerbi.com/getdata/services/servicenow).
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
    
    ![](media/service-connect-to-servicenow/pbi_getdata.png) 
@@ -49,7 +49,7 @@ Ligue ao pacote de conteúdos do Power BI para obter os [Incidentes do ServiceNo
 * [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 Para ligar, irá precisar de:  
 
 * Uma conta que possa aceder a yourorganization.service-now.com, com autenticação básica (o Início de Sessão Único não é suportado nesta versão)  

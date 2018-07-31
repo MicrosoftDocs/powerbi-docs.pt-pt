@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d445264e22520efe81af94e1e4c4261d15eed04b
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135795"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280070"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
 A aplicação móvel do Power BI para Windows 10 leva o Power BI ao seu tablet ou telemóvel com acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com seus dashboards de empresa de qualquer lugar &#151; diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -87,7 +87,7 @@ Encontre os seus dashboards, relatórios e aplicações rapidamente ao escrever 
    ![Resultados de pesquisa relevantes](media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Procurar os seus conteúdos nas aplicações móveis do Power BI
-Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-find-content-mobile-devices.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
+Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-quickstart-view-dashboard-report.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
 ![Navegação à esquerda do Power BI](media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
@@ -104,14 +104,14 @@ Pode ver todos os seus dashboards favoritos do Power BI, juntamente com relatór
 
 Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Windows 10 com dashboards e relatórios no Power BI e relatórios móveis e KPIs do Reporting Services no portal Web do Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
 * Veja [as suas aplicações](service-install-use-apps.md).
 * Veja os seus [dashboards](mobile-apps-view-dashboard.md).
 * [Afixe mosaicos e dashboards do Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) no ecrã Inicial do dispositivo como mosaicos dinâmicos.
-* [Partilhe mosaicos](mobile-share-tile-windows-10-phone-app.md).
+* [Partilhe mosaicos](mobile-windows-10-phone-app-get-started.md).
 * Partilhe [dashboards](mobile-share-dashboard-from-the-mobile-apps.md).
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Relatórios móveis e KPIs do Reporting Services
@@ -119,7 +119,7 @@ Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Wi
 * Crie [KPIs no portal Web do Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx).
 * [Crie os seus próprios relatórios móveis com o Editor de Relatórios Móveis do SQL Server](https://msdn.microsoft.com/library/mt652547.aspx) e publique-os no portal Web do Reporting Services.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Transferir a aplicação Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) a partir da Windows Store  
 * [O que é o Power BI?](power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

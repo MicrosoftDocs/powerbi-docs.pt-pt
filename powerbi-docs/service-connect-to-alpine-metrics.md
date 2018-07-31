@@ -22,7 +22,7 @@ A Alpine Metrics fornece Otimização do Processo de Previsão de Vendas de últ
 
 Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https://app.powerbi.com/getdata/services/alpine-metrics) da Alpine Metrics.
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.  
    
     ![](media/service-connect-to-alpine-metrics/getdata.png)
@@ -41,7 +41,7 @@ Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https
    
     ![](media/service-connect-to-alpine-metrics/dashboard.png)
 
-**O que se segue?**
+**O que vem em seguida?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.

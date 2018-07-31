@@ -46,7 +46,7 @@ Ligue-se ao [pacote de conteúdos do Smartsheet](https://app.powerbi.com/groups/
    
    ![](media/service-connect-to-smartsheet/dashboard.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.

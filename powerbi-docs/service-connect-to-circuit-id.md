@@ -18,7 +18,7 @@ ms.lasthandoff: 06/29/2018
 ms.locfileid: "37136002"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Ligar ao Circuit ID com o Power BI
-É fácil analisar os dados de comunicação do Circuit ID com o Power BI. O Power BI obtém os dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados. Após ter criado a ligação, pode explorar os dados e personalizar o dashboard para corresponder às suas necessidades. Os dados são atualizados automaticamente todos os dias.
+É fácil analisar os dados de comunicação do Circuit ID com o Power BI. O Power BI recupera seus dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados. Após ter criado a ligação, pode explorar os dados e personalizar o dashboard para corresponder às suas necessidades. Os dados são atualizados automaticamente todos os dias.
 
 Ligue-se ao [pacote de conteúdos do Circuit ID](https://app.powerbi.com/getdata/services/circuitid) para o Power BI.
 
@@ -32,7 +32,7 @@ Ligue-se ao [pacote de conteúdos do Circuit ID](https://app.powerbi.com/getdata
 3. Selecione **Circuit ID** \> **Obter**.
    
     ![](media/service-connect-to-circuit-id/circuitid.png)
-4. Como o Método de Autenticação, selecione Básico e forneça o seu nome de utilizador e palavra-passe. Em seguida, pressione Iniciar Sessão.
+4. Como o Método de Autenticação, selecione Básico e forneça o seu nome de utilizador e palavra-passe. Em seguida, pressione Entrar.
    
     ![](media/service-connect-to-circuit-id/circuitid_login.png)
 5. Após o Power BI importar os dados, pode ver novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os itens novos são marcados com um asterisco amarelo.

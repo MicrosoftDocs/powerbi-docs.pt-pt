@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 764da32e4b0d32163421365a5f486a1d8649fd4b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cae73b7d232cf183fb99623016fba485904a2d7a
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228996"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39326907"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Resolução de Problemas de Analyze Excel
 Por vezes, quando utiliza a funcionalidade Analyze in Excel, esta poderá não funcionar conforme esperado ou pode devolver resultados inesperados. Esta página apresenta soluções para problemas comuns quando utiliza Analyze in Excel.

@@ -32,7 +32,7 @@ Conecte-se ao [pacote de conteúdo do IntelliBoard](https://app.powerbi.com/getd
 3. Selecione **IntelliBoard** e, em seguida **Obter**.  
    
     ![](media/service-connect-to-intelliboard/intelliboard.png)
-4. Selecione **OAuth 2** e **Iniciar Sessão**. Quando solicitado, forneça suas credenciais do IntelliBoard.
+4. Selecione **OAuth 2** e **Entrar**. Quando solicitado, forneça suas credenciais do IntelliBoard.
    
     ![](media/service-connect-to-intelliboard/creds.png)
    

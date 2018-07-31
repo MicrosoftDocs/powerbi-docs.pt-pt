@@ -76,7 +76,7 @@ Aplicar o filtro, conforme fizemos aqui, irá filtrar todos os registos nas tabe
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicar utilizador e função num token incorporado
 Agora que configurou as funções do Power BI Desktop, é preciso realizar algum trabalho na sua aplicação para tirar partido das funções.
 
-Os utilizadores são autenticados e autorizados pela sua aplicação e os tokens incorporados servem para conceder acesso a esse utilizador a um relatório específico do Power BI Embedded. O Power BI Embedded não tem quaisquer informações específicas sobre quem é o seu utilizador. Para a RLS funcionar, irá precisar de passar algum contexto adicional como parte do seu token incorporado na forma de identidades. Isto é realizado através da API [Token de Incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Os utilizadores são autenticados e autorizados pela sua aplicação e os tokens incorporados servem para conceder acesso a esse utilizador a um relatório específico do Power BI Embeddded. O Power BI Embedded não tem quaisquer informações específicas sobre quem é o seu utilizador. Para a RLS funcionar, irá precisar de passar algum contexto adicional como parte do seu token incorporado na forma de identidades. Isto é realizado através da API [Token de Incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 A API aceita uma lista de identidades com indicação dos conjuntos de dados relevantes. Para a RLS funcionar, irá precisar de passar o seguinte como parte da identidade.
 

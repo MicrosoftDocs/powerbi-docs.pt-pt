@@ -21,7 +21,7 @@ ms.locfileid: "37600364"
 ## <a name="what-is-meant-by-certified"></a>O que se entende por *certificado*?
 Um *visual personalizado certificado* é um que cumpre um conjunto de requisitos de código e passou testes rigorosos de segurança.  Após um visual personalizado ser certificado, este pode ser [exportado para o PowerPoint](service-publish-to-powerpoint.md), e será apresentado nos e-mails recebidos quando um utilizador [subscrever as páginas de relatórios](service-report-subscribe.md). Também pode ser utilizado como um [visual personalizado padrão](power-bi-custom-visuals.md), adicionado aos relatórios do serviço Power BI e do Power BI Desktop, visualizado no Power BI Mobile e incorporado.
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao [Microsoft AppSource](https://appsource.microsoft.com)? Consulte [Introdução às Ferramentas de Programador](service-custom-visuals-getting-started-with-developer-tools.md) para saber como.
+É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao [Microsoft AppSource](https://appsource.microsoft.com)? Consulte [Introdução ás Ferramentas de Programador](service-custom-visuals-getting-started-with-developer-tools.md) para saber como.
 
 
 ## <a name="certification-requirements"></a>Requisitos de certificação

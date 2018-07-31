@@ -27,8 +27,8 @@ A versão 1 atual da API de conjuntos de dados só permite a criação de um con
 
 Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
 ---------|---------|---------|---------|---------
-id     |  GUID       | Identificador exclusivo ao nível do sistema para o conjunto de dados.        | Verdadeiro        | Falso        
-name     | Cadeia        | Nome do conjunto de dados definido pelo utilizador.        | Falso        | Verdadeiro        
+ID     |  GUID       | Identificador exclusivo ao nível do sistema para o conjunto de dados.        | Verdadeiro        | Falso        
+nome     | Cadeia        | Nome do conjunto de dados definido pelo utilizador.        | Falso        | Verdadeiro        
 tables     | Tabela[]        | Coleção de tabelas.        |  Falso       | Falso        
 relationships     | Relação[]        | Coleção de relações entre tabelas.        | Falso        |  Falso  
 defaultMode     | Cadeia        | Determina se o conjunto de dados foi emitido, transmitido ou ambos com os valores "Push", "Streaming" e "PushStreaming".         | Falso        |  Falso
@@ -40,7 +40,7 @@ Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
 nome     | Cadeia        |  Nome definido pelo utilizador da tabela. Também é utilizado como o identificador da tabela.       | Falso        |  Verdadeiro       
 colunas     |  coluna[]       |  Coleção de colunas.       | Falso        |  Verdadeiro       
 measures     | medida[]        |  Coleção de medidas.       | Falso        |  Falso       
-isHidden     | Booleano        | Se for verdadeiro, a tabela será ocultada das ferramentas de cliente.        | Falso        | Falso        
+isHidden     | Boolean        | Se for verdadeiro, a tabela será ocultada das ferramentas de cliente.        | Falso        | Falso        
 
 ## <a name="column"></a>Personalizada
 

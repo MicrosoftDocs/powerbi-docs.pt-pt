@@ -44,7 +44,7 @@ Mesmo que não tenha acesso a um portal Web do Reporting Services, ainda pode ex
 1. Toque no botão de navegação global ![Botão de navegação global](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) no canto superior esquerdo e, em seguida, toque no ícone da engrenagem no canto superior direito ![Ícone de engrenagem](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
 2. Toque em **Exemplos do Reporting Services** e, em seguida, navegue para interagir com os relatórios móveis e KPIs de exemplo.
    
-   ![Exemplos do Reporting Services](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
+   ![Amostras do Reporting Services](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
 ## <a name="connect-to-an-on-premises-report-server"></a>Ligar a um servidor de relatórios no local
 Pode ver relatórios do Power BI no local, relatórios móveis do Reporting Services e KPIs com as aplicações móveis do Power BI. 

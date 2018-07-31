@@ -165,7 +165,7 @@ Normalmente, as origens de dados são definidas para serem atualizadas diariamen
 * Os alertas só funcionam em dados que são atualizados. Não funcionam com dados estáticos.
 * Os alertas não funcionam com mosaicos que contenham dados de transmissão.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Gerir os seus alertas no serviço Power BI](service-set-data-alerts.md)
 * [Centro de Notificações Móveis do Power BI](mobile-apps-notification-center.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

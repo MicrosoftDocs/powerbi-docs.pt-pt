@@ -38,7 +38,7 @@ Ligue-se ao [pacote de conteúdo do Azure Search](https://app.powerbi.com/getdat
 5. Selecione **Chave** como Mecanismo de Autenticação e forneça a chave da conta de armazenamento. Clique em **Iniciar Sessão** para iniciar o processo de carregamento.
    
    ![](media/service-connect-to-azure-search/creds.png)
-6. Quando o carregamento estiver concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. Quando o carregamento estiver concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os dados importados.
    
     ![](media/service-connect-to-azure-search/dashboard2.png)
 

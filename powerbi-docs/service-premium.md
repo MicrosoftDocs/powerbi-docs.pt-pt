@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium - o que é?
+title: Power BI Premium – o que é?
 description: O Power BI Premium é capacidade dedicada para a sua organização ou equipa, oferecendo desempenho mais fiável e maiores volumes de dados sem exigir a compra de licenças por utilizador.
 author: mgblythe
 manager: kfile
@@ -17,7 +17,7 @@ ms.contentlocale: pt-PT
 ms.lasthandoff: 07/11/2018
 ms.locfileid: "38925442"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Power BI Premium - o que é?
+# <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
 O Power BI Premium fornece recursos dedicados à execução do serviço Power BI para a sua organização ou equipa, dando-lhe um desempenho mais fiável e volumes de dados maiores. O Premium também permite uma distribuição alargada de conteúdos sem que precise de comprar licenças por utilizador para visualizadores.
 
 Pode tirar partido do Power BI Premium ao atribuir áreas de trabalho a uma capacidade Premium. A *capacidade Premium* é um recurso dedicado para a sua organização. Para áreas de trabalho que não estejam atribuídas a uma capacidade Premium, estas estarão numa capacidade partilhada.
