@@ -18,7 +18,7 @@ ms.lasthandoff: 06/29/2018
 ms.locfileid: "37092167"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Ligue-se ao UserVoice com o Power BI
-É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtém os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
+É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtem os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
 
 Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/services/uservoice) para o Power BI.
 
@@ -51,7 +51,7 @@ Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/
    
    ![](media/service-connect-to-uservoice/capture4.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -70,7 +70,7 @@ Se vir este erro depois de escrever o URL do UserVoice. Verifique se os requisit
 
 **“Falha no logon”**
 
-Se receber um erro “Falha no início de sessão” depois de usar as suas credenciais do UserVoice para iniciar sessão, isso significa que a conta que está a usar não tem permissões para obter dados do UserVoice da sua conta. Verifique se é uma conta de administrador e tente novamente.
+Se receber um erro “Falha no inicio de sessão” depois de usar as suas credenciais do UserVoice para iniciar sessão, isso significa que a conta que está a usar não tem permissões para obter dados do UserVoice da sua conta. Verifique se é uma conta de administrador e tente novamente.
 
 "**Ups, ocorreu um problema**"
 

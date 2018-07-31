@@ -25,7 +25,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
 >[!NOTE]
 >A ligação precisa do acesso a uma conta do SQL Sentry utilizada para ligar ao http://cloud.sqlsentry.com e um ID de Base de Dados que irá monitorizar.  Veja abaixo as instruções sobre onde encontrar o ID de Base de Dados.
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
    
    ![](media/service-connect-to-sql-sentry/pbi_getdata.png)
@@ -38,7 +38,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
 4. Forneça o **ID da Base de Dados** da base de dados que gostaria de monitorizar no Power BI. Veja mais detalhes sobre como [encontrar isto](#FindingParams) abaixo.
    
    ![](media/service-connect-to-sql-sentry/img2400.png)
-5. Como o Método de Autenticação, selecione **oAuth2 \> Iniciar Sessão**.
+5. Para o Método de Autenticação, selecione **oAuth2 \> Iniciar Sessão**.
    
    Quando solicitado, introduza as credenciais do cloud.sqlsentry.com e siga o processo de autenticação do SQL Sentry.
    
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
    Quando ligar pela primeira vez, o Power BI pede-lhe para permitir acesso só de leitura à sua conta. Selecione Conceder para iniciar o processo de importação.  O processo de importação pode demorar alguns minutos, dependendo do volume de dados na sua conta.
    
    ![](media/service-connect-to-sql-sentry/img7400.png)
-6. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*:
+6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no dashboard de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*:
    
    ![](media/service-connect-to-sql-sentry/img8200.png)
 7. Selecione o dashboard do SQL Sentry.
@@ -56,7 +56,7 @@ Ligue-se ao [pacote de conteúdos do SQL Sentry](https://app.powerbi.com/groups/
    
    ![](media/service-connect-to-sql-sentry/img9dashboard800.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.

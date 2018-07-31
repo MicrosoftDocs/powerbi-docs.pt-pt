@@ -23,7 +23,7 @@ O pacote de conteúdos do Microsoft Dynamics Marketing para o Power BI permite-l
 Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/getdata/services/microsoft-dynamics-marketing) para o Power BI.
 
 >[!NOTE]
->Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Veja os requisitos adicionais abaixo.
+>Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Consulte os requisitos adicionais abaixo.
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
@@ -45,7 +45,7 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynammktgnewdash.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -55,7 +55,7 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
 ## <a name="system-requirements"></a>Requisitos do sistema
 * Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local).  
 * Um administrador tem de ativar o ponto final OData nas definições do site. O endereço do ponto final do OData pode ser encontrado navegando até **Início \> Configurações \> Configurações de Site** na secção **Serviço de Dados da Organização**.  O URL do OData tem o formato:  https:// [instance\_name].marketing.dynamics.com/analytics  
-* A conta/identidade do utilizador utilizada para aceder ao Microsoft Dynamics Marketing tem de ser a mesma na qual se inscreveu para utilizar o Power BI. Ao iniciar sessão no Microsoft Dynamics Marketing, o início de sessão será realizado automaticamente com a mesma identidade que utiliza para o Power BI. Se quiser iniciar sessão no Microsoft Dynamics Marketing com uma conta diferente, registe-se como um utilizador do Power BI através dessa outra conta. Esperamos resolver este problema numa versão futura.   
+* A conta/identidade do utilizador utilizada para aceder ao Microsoft Dynamics Marketing tem ser a mesma na qual se inscreveu para utilizar o Power BI. Ao iniciar sessão no Microsoft Dynamics Marketing, o início de sessão será realizado automaticamente com a mesma identidade que utiliza para o Power BI. Se quiser iniciar sessão no Microsoft Dynamics Marketing com uma conta diferente, registe-se como um utilizador do Power BI através dessa outra conta. Esperamos resolver este problema numa versão futura.   
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Se vir uma mensagem "Falha no início de sessão" ao tentar ligar à sua conta do Dynamics CRM, confirme que está a iniciar sessão no Power BI com a mesma conta que utiliza para aceder ao feed OData do CRM Online. Experimente iniciar sessão no feed também através do seu browser, para testá-lo lá.
