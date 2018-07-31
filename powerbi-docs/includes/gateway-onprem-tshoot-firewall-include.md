@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>Firewall ou Proxy
 Para obter informações sobre o fornecimento informações de proxy para o gateway, veja [Configurar definições de proxy para os gateways do Power BI](../service-gateway-proxy.md).
 
-Pode testar para ver se a firewall, ou o proxy, podem estar a bloquear ligações, executando [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) a partir de uma linha de comandos do PowerShell. Isto irá testar a conectividade do Azure Service Bus. Testa apenas a conectividade de rede e não tem nada a ver com o serviço do servidor na cloud ou com o gateway. Ajuda a determinar se a máquina consegue realmente aceder à Internet.
+Pode testar para ver se a firewall, ou o proxy, pode estar a bloquear ligações ao executar [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) a partir de uma linha de comandos do PowerShell. Isto irá testar a conectividade do Azure Service Bus. Testa apenas a conectividade de rede e não tem nada a ver com o serviço do servidor na cloud ou com o gateway. Ajuda a determinar se a máquina consegue realmente aceder à Internet.
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
