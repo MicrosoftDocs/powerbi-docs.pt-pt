@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c7978ee67d54aa919abaf0b40a80f1841ac7bf35
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b3839d45df872b45f03e116da8eccd3712a6512f
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290620"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329529"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery e SAP HANA
 Pode ligar a origens de dados **SAP HANA** diretamente com o **DirectQuery**. Existem duas opções ao ligar ao SAP HANA:

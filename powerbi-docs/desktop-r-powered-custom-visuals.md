@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75808c850659395dd8576b7de4dca0379dfff2f5
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289332"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329943"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Utilizar elementos visuais personalizados baseados em R no Power BI
 No **Power BI Desktop** e no **serviço Power BI**, pode utilizar elementos visuais personalizados baseados em R, sem qualquer conhecimento do mesmo e sem qualquer script R. Isto permite-lhe tirar partido do poder analítico e visual dos elementos visuais e dos scripts baseados em R, sem aprender a utilizar o R ou fazer qualquer programação.

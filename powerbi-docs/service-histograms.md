@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 43ecdccbbe44721d4205ebc05d9d8406eed7e68b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 624ddaa8b3b8b1f93baebb0d5c1d7891ec74027f
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298050"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330357"
 ---
 # <a name="histograms"></a>Histogramas
 Existem várias formas de criar histogramas no Power BI. Começaremos com a mais simples e continuamos a partir daí.

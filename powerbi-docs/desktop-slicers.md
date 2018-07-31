@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ee3f5aa5416e69646756b1028ea64f1e273d0df
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3386f00be0754516e9011f0837ed5484b7ec3a96
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34226489"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328517"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Utilizar a segmentação de dados no Power BI Desktop
 
