@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137428"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182754"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - conceitos básicos para o serviço Power BI
 
@@ -48,9 +48,9 @@ Pode também ver este vídeo antes de ler o resto do artigo.  No vídeo, o Will 
 Os quatro principais blocos modulares do Power BI são: ***dashboards***, ***relatórios***, ***livros*** e ***conjuntos de dados***. E estão todos organizados em ***áreas de trabalho***. É importante compreender as áreas de trabalho antes de examinarmos os quatro blocos modulares. Por isso, vamos começar por aí. 
 
 ## <a name="workspaces"></a>Áreas de trabalho
-As áreas de trabalho são os contentores para dashboards, relatórios, livros e conjuntos de dados no Power BI. Existem dois tipos de áreas de trabalho: **A minha área de trabalho* e as áreas de trabalho da aplicação. Assim, o que é uma *aplicação*? Uma *aplicação* Power BI é uma coleção de dashboards e relatórios criados para fornecer métricas importantes à sua organização. As aplicações são interativas, mas não podem ser editadas 
+As áreas de trabalho são os contentores para dashboards, relatórios, livros e conjuntos de dados no Power BI. Existem dois tipos de áreas de trabalho: *A minha área de trabalho* e as *áreas de trabalho da aplicação*. Assim, o que é uma *aplicação*? Uma *aplicação* Power BI é uma coleção de dashboards e relatórios criados para fornecer métricas importantes à sua organização. As aplicações são interativas, mas não podem ser editadas. 
 
-- *A minha área de trabalho* é a área de trabalho pessoal para qualquer cliente do Power BI trabalhar com o seu conteúdo. Só o utilizador tem acesso à Minha área de trabalho. Se pretender partilhar algum conteúdo, terá várias opções: crie uma área de trabalho da aplicação para agrupar conteúdo numa *aplicação* e disponibilizá-la para outras pessoas na organização ou crie uma área de trabalho da aplicação e conceda acesso a essa área de trabalho aos seus colegas, de modo a permitir a partilha e a colaboração.     
+- *A minha área de trabalho* é a área de trabalho pessoal para qualquer cliente do Power BI trabalhar com o seu próprio conteúdo. Só o utilizador tem acesso à Minha área de trabalho. Pode partilhar dashboards e relatórios a partir de A Minha Área de Trabalho. Se quiser colaborar em dashboards e relatórios (ou criar uma aplicação), significa que quer trabalhar numa área de trabalho da aplicação.      
 -  As *áreas de trabalho da aplicação* são utilizadas para permitir a colaboração e a partilha de conteúdo com os seus colegas. Também são os locais onde cria, publica e faz a gestão das aplicações da organização. Considere esses locais como áreas de transição e contentores para o conteúdo que irá formar a aplicação Power BI. Pode adicionar os seus colegas a áreas de trabalho da aplicação e colaborar em dashboards, relatórios, livros e conjuntos de dados. Todos os membros da área de trabalho da aplicação têm licenças Power BI Pro, mas os consumidores da aplicação (os colegas que têm acesso às aplicações) não precisam necessariamente de licenças Pro.  
 
 Para obter mais informações, veja [How should I collaborate and share dashboards and reports (Como devo fazer para colaborar e partilhar dashboards e relatórios)](service-how-to-collaborate-distribute-dashboards-reports.md) na secção **Share your work (Partilhar o trabalho)** do Índice.
@@ -116,7 +116,7 @@ No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e mar
 ## <a name="dashboards"></a>Dashboards
 Um *dashboard* é algo que cria **no serviço Power BI** ou algo que um colega cria **no serviço Power BI** e partilha consigo. Trata-se de uma única tela, que contém zero ou mais mosaicos e widgets. Cada mosaico afixado a partir de um relatório ou a partir de [Perguntas e Respostas](power-bi-q-and-a.md) mostra uma única [visualização](power-bi-report-visualizations.md), que foi criada a partir de um conjunto de dados e afixada ao dashboard. Pode também afixar páginas de relatórios inteiras a um dashboard como um mosaico único. Há várias formas de adicionar mosaicos ao seu dashboard; demasiadas para serem abordadas neste tópico de descrição geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](service-dashboard-tiles.md). 
 
-Porque é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
+Por que é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
 
 * para ver rapidamente todas as informações necessárias para tomar decisões
 * para monitorizar as informações mais importantes sobre o seu negócio
@@ -192,7 +192,7 @@ Os dashboards são compostos por [mosaicos](service-dashboard-tiles.md).  Os mos
 
 ![Tela do dashboard do Power BI](media/service-basic-concepts/canvas.png)
 
-Para obter mais informações, veja **Dashboards** (acima).
+Para obter mais informações, consulte **Dashboards** (acima).
 
 ### <a name="3-qa-question-box"></a>3. **Caixa de perguntas das Perguntas e Respostas**
 Uma maneira de explorar seus dados é fazer uma pergunta e deixar que as Perguntas e Respostas do Power BI lhe forneçam uma resposta, na forma de uma visualização. As Perguntas e Respostas podem ser utilizadas paro adicionar conteúdo a um dashboard ou a um relatório.
@@ -201,7 +201,7 @@ As Perguntas e Respostas procuram uma resposta no conjunto(s) de dados ligado ao
 
 ![caixa de perguntas das Perguntas e Respostas](media/service-basic-concepts/power-bi-qna.png)
 
-Assim que começa a escrever a sua pergunta, as Perguntas e Respostas levam-no até a página de Perguntas e Respostas. À medida que digita, as Perguntas e Respostas ajudam-no a fazer a pergunta certa e a encontrar a melhor resposta com reformulações frásicas, preenchimento automático, sugestões e muito mais. Quando encontrar uma visualização (resposta) de que gosta, afixe-a no seu dashboard. Para obter mais informações, veja [Perguntas e Respostas no Power BI](power-bi-q-and-a.md).
+Assim que começa a escrever a sua pergunta, as Perguntas e Respostas levam-no até a página de Perguntas e Respostas. À medida que digita, as Perguntas e Respostas ajudam-no a fazer a pergunta certa e a encontrar a melhor resposta com reformulações frásicas, preenchimento automático, sugestões e muito mais. Quando encontrar uma visualização (resposta) de que gosta, afixe-a no seu dashboard. Para obter mais informações, consulte [Perguntas e Respostas no Power BI](power-bi-q-and-a.md).
 
 ### <a name="4-icon-buttons"></a>4. **Botões de ícone** 
 Os ícones no canto superior direito são recursos para as definições, as notificações, as transferências, obter ajuda e fornecer comentários à equipa do Power BI. Selecione a seta dupla para abrir o dashboard no modo de **Ecrã inteiro**.  
@@ -221,7 +221,7 @@ Com o iniciador de aplicações, todas as aplicações do Office 365 estão fac
 ![Iniciador de aplicações do Office](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Página inicial do Power BI**
-Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário, será aberto o último dashboard visualizado.
+Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário,será aberto o último dashboard visualizado.
 
    ![](media/service-basic-concepts/version-new.png)
 

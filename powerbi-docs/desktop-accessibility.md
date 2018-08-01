@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032008"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210290"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -47,8 +47,12 @@ Pode premir **Alt+Shift+F11** para apresentar uma versão acessível da janela *
 
 > [!NOTE]
 > A funcionalidade Mostrar dados só está acessível para um leitor de ecrã através deste atalho de teclado. Se abrir a opção Mostrar dados no cabeçalho do elemento visual, esta não será acessível para um leitor de ecrã.
-> 
-> 
+
+A partir da versão de julho de 2018 do **Power BI Desktop**, as segmentações de dados também têm funcionalidades de acessibilidade incorporadas. Quando seleciona uma segmentação de dados, para ajustar o valor da segmentação de dados, utilize CTRL + seta para a direita (controlo mais a tecla de seta para a direita) para percorrer os diversos controlos dentro da segmentação de dados. Por exemplo, quando inicialmente prime CTRL + seta para a direita, o foco está na borracha e premir a barra de espaços é equivalente a clicar no botão borracha, o que apaga todos os valores na segmentação de dados. 
+
+Pode mover-se pelos controlos numa segmentação de dados ao premir a tecla TAB. Se premir a tecla TAB quando está a utilizar a borracha, irá para o botão de menu pendente; se premir novamente a tecla TAB, irá para o primeiro valor de segmentação de dados (se existirem vários valores para a segmentação de dados, como, por exemplo, um intervalo). 
+
+![Prima CTRL + (tecla de seta para a direita) no Power BI Desktop para ajustar o elemento ou os valores numa segmentação de dados, prima SPACE para selecionar o elemento e ajustar o seu valor](media/desktop-accessibility/accessibility_07.png)
 
 Estas adições de acessibilidade foram criadas para permitir que os utilizadores consumam totalmente os relatórios do Power BI com a ajuda de navegação de um leitor de ecrã ou de um teclado.
 

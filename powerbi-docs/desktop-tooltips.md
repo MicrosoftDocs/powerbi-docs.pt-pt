@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232114"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210336"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Criar descrições com base em páginas de relatórios no Power BI Desktop (pré-visualização)
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
@@ -119,6 +119,7 @@ Quando um elemento visual é realçado de forma cruzada num relatório, as descr
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão de pré-visualização das **descrições** de relatórios, existem algumas limitações e considerações a ter em conta.
 
+* A partir da versão de julho de 2018 do **Power BI Desktop**, os elementos visuais Tabela e Matriz têm suporte para descrições. 
 * As descrições de relatórios não são suportadas ao visualizar relatórios em aplicações para dispositivos móveis ou ambientes incorporados, incluindo a funcionalidade Publicar na Web. 
 * As descrições de relatórios não são suportadas para elementos visuais personalizados. 
 * Atualmente, os clusters não são suportados como campos que podem ser apresentados em descrições de relatórios. 

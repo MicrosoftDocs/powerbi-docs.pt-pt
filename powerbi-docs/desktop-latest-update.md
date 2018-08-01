@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c1c32e216dfdf4417fda8ee8888f85e1d27a8cda
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 537b66c193e0995c51616e34f5463cb8e6c68253
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34812451"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210313"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop
 
-## <a name="june-2018-update-2595135101"></a>Atualização de junho de 2018 (2.59.5135.101)
+## <a name="july-2018-update-26051693201"></a>Atualização de julho de 2018 (2.60.5169.3201)
 
-O sol está a brilhar sobre as atualizações deste mês, com funcionalidades e melhorias que irão aquecer os seus relatórios e permitir-lhe mergulhar nas informações que fornecem.
+As grandes atualizações deste mês são dignas de fogo de artifício por si só, com dados há muito pedidos e funcionalidades de relatórios que levam os elementos visuais às alturas onde rebentam num espetáculo de arcos de informações coloridas.
 
 Agora, pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop). Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, independentemente da forma como instalar o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
 
@@ -36,44 +36,52 @@ Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
+### <a name="modeling"></a>Modelação
+
+* Modelos compostos (Pré-visualização) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=15s) [[artigo]](desktop-composite-models.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Relações muitos para muitos (Pré-visualização) (associadas a modelos compostos) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[artigo]](desktop-many-to-many-relationships.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Modo de armazenamento (Pré-visualização) (associado a modelos compostos) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=15s) [[artigo]](desktop-storage-mode.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
 
 ### <a name="reporting"></a>Relatórios
 
-* Suporte de alto contraste para relatórios  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=13s)  [[artigo]](desktop-accessibility.md#high-contrast-support-for-reports)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
-* Controlo do raio do anel  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
-* Controlo de posição das etiquetas de detalhe circulares e de anel  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
-* Formatação de etiquetas de dados em separado para cada medida num gráfico de combinação  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
-* Relatórios no telemóvel mais longos  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=11m26s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
+* Novo cabeçalho de elemento visual com mais flexibilidade e formatação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[artigo]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* Formatação do padrão de fundo [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[artigo]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* Atualização de personalização – mais elementos visuais e controlo de página (Pré-visualização) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* Descrições para tabelas e matrizes [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* Desativar descrições para elementos visuais [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* Acessibilidade de segmentação de dados [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* Melhorias do painel de formatação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* Suporte da linha de subtotal para gráficos de linhas e de combinação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* Desativar etiquetas de dados do gráfico de combinação para séries individuais [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* Melhoria da experiência de classificação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>Análise
+
+* Informações de fator de distribuição [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=37m) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
 ### <a name="custom-visuals"></a>Elementos visuais personalizados
 
-* Dois novos elementos visuais personalizados  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
-
-### <a name="modeling"></a>Modelação
-* Filtrar e ordenar na vista de dados  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[artigo]](desktop-data-view.md#filtering-in-data-view)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
-* Filtragem da região melhorada   [[vídeo]](https://youtu.be/4VpGtWSrssE?t=15m35s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
+* Categoria certificada do Power BI [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* Desativar elementos visuais organizacionais específicos [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* Quatro novos elementos visuais personalizados [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=44m) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>Conectividade de dados
 
-* Melhorias no conector SAP BusinessWarehouse (novo controlador e desempenho melhorado, além de suporte melhorado para variáveis de hierarquia)  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=21m6s)  [[artigo]](desktop-sap-bw-connector.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
-* O conector Spark suporta agora a Autenticação do Windows  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=24m31s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
-* Melhorias do conector de OData V4 [[vídeo]](https://youtu.be/4VpGtWSrssE?t=25m12s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
-* Melhorias do conector ODBC (suporte de dobragem para as Linhas Superiores, capacidade para filtrar a navegação por catálogo DSN) [[vídeo]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
-
-### <a name="other"></a>Other
-
-* Seletor de cloud soberana [[vídeo]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* Conector do IBM DB2 DirectQuery (Pré-visualização) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Melhorias no conector Web De Exemplo [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[artigo]](desktop-connect-to-web-by-example.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA – valores predefinidos para variáveis na experiência Introdução de Variáveis [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[artigo]](desktop-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
 
 
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
 O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 > [!NOTE]

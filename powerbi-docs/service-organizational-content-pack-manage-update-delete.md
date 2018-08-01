@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852308"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182800"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gerir, atualizar e excluir pacotes de conteúdos organizacional
 > [!NOTE]
@@ -52,7 +52,7 @@ Ao fazer ou guardar uma alteração no dashboard incluído num pacote de conteú
 4. Faça as alterações necessárias na janela **Atualizar Pacote de Conteúdos** e selecione **Atualizar**. Será apresentada uma mensagem de **Êxito**.
    
    * Para membros do grupo que não personalizaram o pacote de conteúdos, a atualização é aplicada automaticamente.
-   * Os membros do grupo que personalizaram o pacote de conteúdos recebem uma notificação de que há uma nova versão.  Podem aceder ao AppSource e obter o pacote de conteúdos atualizado sem perder a respetiva versão personalizada.  Eles terão agora as duas versões: a versão personalizada e o pacote de conteúdos atualizado.  Na versão personalizada, todos os mosaicos do pacote de conteúdos original serão eliminados.  Mas os mosaicos afixados de outros relatórios ainda serão renderizados.    
+   * Os membros do grupo que personalizaram o pacote de conteúdos recebem uma notificação de que há uma nova versão.  Podem aceder ao AppSource e obter o pacote de conteúdos atualizado sem perder a respetiva versão personalizada.  Eles terão agora as duas versões: a versão personalizada e o pacote de conteúdos atualizado.  Na versão personalizada, todos os mosaicos do pacote de conteúdos original serão eliminados.  Mas os mosaicos afixados de outros relatórios ainda serão renderizados. No entanto, se o proprietário do pacote de conteúdos elimina o conjunto de dados em que o pacote de conteúdos se baseia, todo o relatório será eliminado.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Atualizar o público: expandir ou restringir o acesso
 Outra modificação para criadores de pacotes de conteúdos está a expandir e a restringir o acesso ao pacote de conteúdos.  Talvez tenha publicado um pacote de conteúdos para um público amplo e decidido restringir o acesso a um grupo mais pequeno.  

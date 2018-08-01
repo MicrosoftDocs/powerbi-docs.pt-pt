@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 8f69eec2ce7273898698fb086f372daa2201eed8
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134691"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210267"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Utilizar as informações no Power BI Desktop (Pré-visualização)
-Pode indicar ao **Power BI Desktop** que explique aumentos ou diminuições em gráficos e obter análises rápidas, automatizadas e informativas sobre os seus dados. Basta clicar com o botão direito do rato num ponto de dados e selecionar **Analisar > Explicar a diminuição** (ou aumento, se a barra anterior era mais baixa), e as informações são-lhe entregues numa janela fácil de utilizar.
+Pode indicar ao **Power BI Desktop** para explicar os aumentos ou as diminuições nos gráficos, considerar os fatores de distribuição nos gráficos e, assim, obter análises rápidas, automatizadas e informativas sobre os seus dados. Basta clicar com o botão direito do rato num ponto de dados e selecionar **Analisar > Explicar a diminuição** (ou o aumento, se a barra anterior era mais baixa) ou **Analisar > Pesquisar onde a distribuição é diferente** e as informações são-lhe entregues numa janela fácil de utilizar.
 
 ![](media/desktop-insights/insights_01.png)
 

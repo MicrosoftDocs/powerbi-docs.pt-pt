@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: a9d178ccfdb47152fd2c13d445b9190ced6115e1
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813250"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157588"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 O Power BI apresenta dashboards interativos e que podem ser criados e atualizados a partir de várias origens de dados diferentes em tempo real. Ao utilizar qualquer linguagem de programação que suporte chamadas REST, pode criar aplicações que se integram num dashboard do Power BI em tempo real. Também pode integrar mosaicos e relatórios do Power BI em aplicações.
@@ -28,14 +28,14 @@ Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 | Incorporar dashboards, relatórios e mosaicos para utilizadores do Power BI e utilizadores que não utilizam Power BI (a aplicação é proprietária dos dados) |[Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md) |
 | Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. |[Push data into a dashboard (Enviar dados por push para um dashboard)](walkthrough-push-data.md) |
 | Autenticação no Power BI. |[Autenticação no Power BI](get-azuread-access-token.md) |
-| Crie um elemento visual personalizado. |[Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Crie um elemento visual personalizado. |[Utilizar ferramentas de programador para criar visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md) |
 
 > [!NOTE]
 > As APIs do Power BI ainda se referem às áreas de trabalho de aplicações como grupos. Quaisquer referências a grupos significam que está a trabalhar com áreas de trabalho de aplicações.
 > 
 > 
 
-## <a name="power-bi-developer-samples"></a>Amostras do Power BI Developer
+## <a name="power-bi-developer-samples"></a>Exemplos para Programadores do Power BI
 As amostras do Power BI Developer incluem itens para incorporar dashboards, relatórios e mosaicos.
 
 [Amostras do Power BI Developer](https://github.com/Microsoft/PowerBI-Developer-Samples)
@@ -59,8 +59,13 @@ Escolha a solução mais adequada para si:
 
 Para obter um exemplo completo de utilização da API de JavaScript, pode utilizar a [ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Esta é uma forma rápida de fazer experiências com vários tipos de exemplos de Power BI Embedded. Também pode obter mais informações sobre a API de JavaScript ao visitar a página da [wiki do PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
 
+## <a name="push-data-into-power-bi"></a>Enviar dados por push para o Power BI
+Pode utilizar a API do Power BI para enviar dados por push para um conjunto de dados. Isto permite-lhe adicionar uma linha à tabela dentro de um conjunto de dados. Os novos dados podem então ser refletidos nos mosaicos num dashboard e em elementos visuais dentro do seu relatório.
+
+![Exemplo de dados emitidos via push](media/what-can-you-do/powerbi-push-data.png)
+
 ## <a name="next-steps"></a>Próximos passos
-[Enviar dados por push para um conjunto de dados](walkthrough-push-data.md)  
+[Envio de dados por push para um conjunto de dados](walkthrough-push-data.md)  
 [Introdução às ferramentas de programador de elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md) 
 [referência da API REST do POWER BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
