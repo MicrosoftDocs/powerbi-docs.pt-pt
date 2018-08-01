@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182731"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280783"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -185,7 +185,7 @@ Leia o [resumo de funcionalidades para aplicações móveis publicado em julho d
 
 **Novo menu: Aplicações** uma aplicação é uma coleção de dashboards e relatórios criados pela sua organização para fornecer as principais métricas para tomar decisões condicionadas por dados mais rápida e facilmente.
 
-Leia mais sobre [como o conteúdo do Power BI está organizado](mobile-apps-find-content-mobile-devices.md).
+Leia mais sobre [como o conteúdo do Power BI está organizado](mobile-apps-quickstart-view-dashboard-report.md).
 
 #### <a name="ios-and-android-devices"></a>Dispositivos iOS e Android
 **Pré-visualização do Power BI Report Server** Crie e publique os relatórios do Power BI no local. Em seguida, [visualize e interaja com os mesmos no seu dispositivo móvel iOS ou Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). 
@@ -241,7 +241,7 @@ Com as Perguntas e Respostas, faça perguntas sobre os seus dados nas suas próp
 Agora, pode ter ligações de até cinco servidores do SQL Server Reporting Services (SSRS) ao mesmo tempo.
 
 #### <a name="android-tablets"></a>Tablets Android
-**A aplicação móvel do Power BI** para tablets Android está agora disponível globalmente. Introdução ao [Power BI para tablet Android](mobile-android-tablet-app-get-started.md).
+**A aplicação móvel do Power BI** para tablets Android está agora disponível globalmente. Introdução ao [Power BI para tablet Android](mobile-android-app-get-started.md).
 
 #### <a name="ios-and-android-devices"></a>Dispositivos iOS e Android
 **Novo menu novo para mosaicos do dashboard** Navegue para o relatório subjacente, expanda o mosaico ou faça a gestão de um alerta, tudo isto diretamente a partir de um menu no mosaico de um dashboard. 
@@ -304,7 +304,7 @@ Leia o [Resumo de funcionalidades para aplicações do Power BI publicado em nov
 #### <a name="android-tablets"></a>Tablets Android
 **Aplicação móvel do Power BI para tablets Android** Sim, a pré-visualização está disponível.
 
-* Experimente o [Power BI no seu tablet Android](mobile-android-tablet-app-get-started.md)
+* Experimente o [Power BI no seu tablet Android](mobile-android-app-get-started.md)
 * Explorar os [Relatórios móveis e KPIs do Reporting Services no tablet Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Dispositivos Android
@@ -498,7 +498,7 @@ Todas as melhorias feitas em janeiro já estão incluídas na nova [aplicação 
 
 **Mosaicos do R e widgets da Web** Veja estes novos tipos de mosaico no seu dispositivo móvel.
 
-**Dashboards do Bing** No serviço Power BI, agora é possível criar [dashboards com os resultados da pesquisa do Bing](service-connect-to-bing.md) e vê-los no seu dispositivo móvel.
+**Dashboards do Bing** No serviço Power BI, agora é possível criar [dashboards com os resultados da pesquisa do Bing](service-connect-to-services.md) e vê-los no seu dispositivo móvel.
 
 **Páginas de relatório afixadas como mosaicos em dashboards** Agora, pode afixar uma página de relatório inteira num dashboard no serviço Power BI, pode visualizar páginas de relatório na aplicação do Power BI do seu iPhone ou telemóvel Android.
 
