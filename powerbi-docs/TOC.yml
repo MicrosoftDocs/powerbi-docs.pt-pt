@@ -918,14 +918,18 @@
       items:
         - name: Descrição Geral
           items:
-            - name: Incorporação com o Power BI
+            - name: O que é a incorporação com o Power BI?
               href: developer/embedding.md
+            - name: What is Power BI Embedded in Azure (O que é o Power BI Embedded no Azure?)
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: Tutoriais
           items:
             - name: Incorporar conteúdo para clientes
               href: developer/embed-sample-for-customers.md
-            - name: Embed content for your organization (Incorporar conteúdos para a sua organização)
+            - name: Incorporar conteúdos para a sua organização
               href: developer/embed-sample-for-your-organization.md
+            - name: Integrar conteúdos na sua aplicação para clouds soberanas
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Conceitos
           items:
             - name: Segurança ao nível da linha (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: Procedimentos
           items:
-            - name: How to embed your content (Como incorporar os seus conteúdos)
-              href: developer/embedding-content.md
             - name: How to embed from an app (Como incorporar a partir de uma aplicação)
               href: developer/embed-from-apps.md
-            - name: Integrar conteúdos na sua aplicação para clouds soberanas (a aplicação é proprietária de dados)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Criar um inquilino do Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Register an application (Registar uma aplicação)
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
               href: developer/qanda.md
-            - name: How to migrate Power BI Embedded (Como migrar o Power BI Embedded)
-              href: developer/migrate-from-powerbi-embedded.md
             - name: Resolução de problemas de aplicações incorporadas
               href: developer/embedded-troubleshoot.md
+            - name: Gerir capacidades no Azure
+              items:
+                - name: Create a capacity in Azure (Criar uma capacidade no Azure)
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Scale a capacity in Azure (Dimensionar uma capacidade no Azure)
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Pause and start a capacity in Azure (Colocar em pausa e iniciar uma capacidade no Azure)
+                  href: developer/azure-pbie-pause-start.md
+            - name: Migrar de Coleções de Áreas de Trabalho
+              items:
+                - name: Como migrar de Coleções de Áreas de Trabalho do Power BI
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Ferramenta de migração
+                  href: developer/migrate-tool.md
+                - name: Migration code snippets (Fragmentos de código de migração)
+                  href: developer/migrate-code-snippets.md
         - name: Reference (Referência)
           items:
+            - name: APIs
+              items:
+                - name: Azure Resource Management REST APIs (APIs REST de Gestão de Recursos do Azure)
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST APIs (APIs REST do Power BI)
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: .NET SDK Download (Transferência do SDK do .NET)
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Incorporar esquemas personalizados numa aplicação
               href: developer/embedded-custom-layout.md
-            - name: Migration code snippets (Fragmentos de código de migração)
-              href: developer/migrate-code-snippets.md
         - name: Recursos
           items:
             - name: Dev Center
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Exemplos
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
-              href: developer/migrate-tool.md
             - name: Power BI community (Comunidade do Power BI)
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow (Capacidade de Pilha Excedida)
@@ -1064,8 +1080,6 @@
           items:
             - name: APIs REST
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Referência da API REST do Power BI
-              href: developer/rest-api-reference.md
             - name: Listagem de código completo
               href: developer/walkthrough-push-data-complete-code.md
         - name: Recursos
@@ -1222,7 +1236,7 @@
           href: service-gateway-onprem.md
         - name: Gateway de dados no local - detalhado
           href: service-gateway-onprem-indepth.md
-        - name: Gateway de dados local (modo pessoal)
+        - name: On-premises data gateway (personal mode)
           href: service-gateway-personal-mode.md
         - name: Resolução de problemas do gateway de dados no local
           href: service-gateway-onprem-tshoot.md
