@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290896"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359938"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI
 Saiba como pode autenticar utilizadores na sua aplicação do Power BI e obter um token de acesso para utilizar com a API REST.
@@ -190,7 +190,6 @@ var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "B
 Para obter informações sobre como utilizar **await**, consulte [await (Referência C#)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)
 
 ## <a name="next-steps"></a>Próximos passos
-Agora que tem o token de acesso, pode chamar a API REST do Power BI para incorporar conteúdos. Para obter informações sobre como incorporar os seus conteúdos, consulte [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embedding-content.md#step-2-embed-your-content).
+Agora que tem o token de acesso, pode chamar a API REST do Power BI para incorporar conteúdos. Para obter informações sobre como incorporar os seus conteúdos, consulte [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embed-sample-for-customers.md#embed-your-content-within-your-application).
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-
