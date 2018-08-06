@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182754"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280622"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - conceitos básicos para o serviço Power BI
 
@@ -33,7 +33,7 @@ As principais funcionalidades da IU do serviço Power BI são as seguintes:
 3. caixa de perguntas das Perguntas e Respostas
 4. botões de ícone, incluindo a ajuda e os comentários
 5. título do dashboard (caminho de navegação, também conhecido como trilhos)
-6. Iniciador da aplicações do Office 365
+6. Iniciador de aplicações do Office 365
 7. botão Início do Power BI
 8. botões de ícone etiquetados
 
@@ -165,7 +165,7 @@ Já abordamos as áreas de trabalho e os blocos modulares. Vamos examinar novame
 
 ![](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Painel de navegação** (barra de navegação esquerda)
+### <a name="1-navigation-pane-left-nav"></a>1. **Painel de navegação** (navegação esquerda)
 Utilize o painel de navegação para localizar e alternar entre as áreas de trabalho e os blocos modulares do Power BI: dashboards, relatórios, livros e conjuntos de dados.  
 
   ![](media/service-basic-concepts/power-bi-navigation.png)
@@ -195,7 +195,7 @@ Os dashboards são compostos por [mosaicos](service-dashboard-tiles.md).  Os mos
 Para obter mais informações, consulte **Dashboards** (acima).
 
 ### <a name="3-qa-question-box"></a>3. **Caixa de perguntas das Perguntas e Respostas**
-Uma maneira de explorar seus dados é fazer uma pergunta e deixar que as Perguntas e Respostas do Power BI lhe forneçam uma resposta, na forma de uma visualização. As Perguntas e Respostas podem ser utilizadas paro adicionar conteúdo a um dashboard ou a um relatório.
+Uma maneira de explorar seus dados é fazer uma pergunta e deixar que as Perguntas e Respostas do Power BI lhe forneçam uma resposta, na forma de uma visualização. As Perguntas e Respostas podem ser utilizadas para adicionar conteúdo a um dashboard ou a um relatório.
 
 As Perguntas e Respostas procuram uma resposta no conjunto(s) de dados ligado ao dashboard.  Um conjunto de dados ligado é aquele que tem pelo menos um mosaico afixado a esse dashboard.
 
@@ -221,7 +221,7 @@ Com o iniciador de aplicações, todas as aplicações do Office 365 estão fac
 ![Iniciador de aplicações do Office](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Página inicial do Power BI**
-Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário,será aberto o último dashboard visualizado.
+Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário, será aberto o último dashboard visualizado.
 
    ![](media/service-basic-concepts/version-new.png)
 

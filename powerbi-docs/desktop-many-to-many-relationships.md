@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211784"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388761"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relações muitos para muitos no Power BI Desktop (Pré-visualização)
 
@@ -26,14 +26,14 @@ Com a funcionalidade **Relação muitos para muitos** do **Power BI Desktop**, 
 A capacidade **relações muitos para muitos** no **Power BI Desktop** faz parte de uma coleção de três funcionalidades relacionadas:
 
 * **Modelos compostos** – permite que um relatório tenha várias ligações de dados, incluindo ligações DirectQuery ou de importação, em qualquer combinação.
-* **Relações muitos para muitos** – com os **modelos compostos**, pode estabelecer **relações muitos para muitos** entre as tabelas, ao remover requisitos de valores exclusivos nas tabelas e ao remover soluções alternativas anteriores, como a introdução de novas tabelas apenas para estabelecer relações. 
-* **Modo de armazenamento** – agora pode especificar que elementos visuais necessitam de uma consulta às origens de dados de back-end e aqueles que não o exigem serão importados mesmo se se basearem no DirectQuery, o que melhora o desempenho e reduz a carga de back-end. Anteriormente, os elementos visuais simples como as consultas iniciadas pelas segmentações eram enviadas para as origens de back-end. 
+* **Relações muitos para muitos** – com os **modelos compostos**, pode estabelecer **relações muitos para muitos** entre tabelas, ao remover requisitos de valores exclusivos nas tabelas e ao remover soluções alternativas anteriores, como a introdução de novas tabelas apenas para estabelecer relações. 
+* **Modo de armazenamento** – agora pode especificar que elementos visuais necessitam de uma consulta às origens de dados de back-end e aqueles que não o exigem serão importados mesmo se se basearem no DirectQuery, o que melhora o desempenho e reduz a carga de back-end. Anteriormente, mesmo os elementos visuais simples como as consultas iniciadas pelas segmentações eram enviadas para as origens de back-end. 
 
 Os três recursos relacionados dos **modelos compostos** desta coleção são descritos em artigos separados:
 
 * Os **modelos compostos** são descritos detalhadamente no artigo [Modelos compostos no Power BI Desktop (Pré-visualização)](desktop-composite-models.md).
 * As **relações muitos para muitos** são descritas neste artigo.
-* O **modo de armazenamento** é descrito no seu próprio artigo: [Modo de armazenamento no Power BI Desktop (Pré-visualização)](desktop-storage-mode.md).
+* O **modo de armazenamento** é descrito no seu próprio artigo: [Modo de armazenamento no Power BI Desktop (Pré-visualização)](desktop-storage-mode.md).
 
 ## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>Ativar a funcionalidade de pré-visualização de relações muitos para muitos
 
@@ -68,7 +68,7 @@ Imagine também que a tabela *Vendas* tem apenas quatro linhas, que inclui *Vend
 
 ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
 
-Um elemento visual que apresentasse *Nome do Produto* e *Preço* (da tabela *Produto*), juntamente com o total de *Qtd* para cada produto (da tabela *Vendas por Produto*) seria apresentada como na seguinte imagem: 
+Um elemento visual que apresentasse *Nome do Produto* e *Preço* (da tabela *Produto*), juntamente com o total de *Qtd* para cada produto (da tabela *Vendas por Produto*) seria apresentado como na seguinte imagem: 
 
 ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
 
@@ -86,7 +86,7 @@ No entanto, por vezes acontece que as tabelas são unidas por duas colunas, mas 
 
     ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
 
-* A tabela *Dados por Cidade* contém os dados por cidades, incluindo a população e o estado (incluindo os estados AC, WA e Nova Iorque)
+* A tabela *Dados por Cidade* contém os dados por cidades, incluindo a população e o estado (incluindo os estados CA, WA e Nova Iorque)
 
     ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
 
