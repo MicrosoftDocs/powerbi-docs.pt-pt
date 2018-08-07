@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286940"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331187"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Utilizar a segmentação de dados de intervalo numérico no Power BI Desktop
 Com a **segmentação de dados de intervalo numérico**, pode aplicar todos os tipos de filtros a qualquer coluna numérica no seu modelo de dados. Pode optar por filtrar **entre** números, **menor que ou igual** a um número ou **maior que ou igual** a um número. Apesar de parecer simples, é uma forma muito poderosa de filtrar os seus dados.
@@ -47,13 +47,13 @@ Quando selecionarmos **Menor que ou igual a**, a alça esquerda (valor inferior)
 
 ![Segmentação de dados do intervalo numérico com Menor que](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-4-less-than.png)
 
-Por último, se selecionarmos **Maior que ou igual a**, a barra de controlo de deslize à direita (valor mais alto) desaparece, e podemos ajustar o valor inferior, conforme visto na seguinte imagem. Agora, apenas os itens com o campo *LineTotal* maior que ou igual a 4902,99 serão apresentados nos visuais na página de relatório.
+Por último, se selecionarmos **Maior que ou igual a**, a barra de controlo de deslize à direita (valor mais alto) desaparece, e podemos ajustar o valor inferior, conforme visto na seguinte imagem. Agora, apenas os itens com o campo *LineTotal* maior que ou igual a 4902,99 serão apresentados nos elementos visuais na página de relatório.
 
 ![Segmentação de dados do intervalo numérico com Maior que](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-5-greater-than.png)
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Ajustar para números inteiros com a segmentação de dados do intervalo numérico
 
-Uma segmentação de dados do intervalo numérico irá ajustar para números inteiros, a menos que seja um intervalo decimal. Esta funcionalidade permite que a segmentação de dados se alinhe corretamente com números inteiros. 
+A segmentação de dados do intervalo numérico será ajustada para números inteiros se o tipo de dados do campo subjacente for **Número Inteiro**. Esta funcionalidade permite que a segmentação de dados se alinhe corretamente com números inteiros. Os campos do tipo **Número Decimal** permitem-lhe introduzir ou selecionar frações de um número. A formatação aplicada na caixa de texto corresponde à formatação definida no campo, mesmo que possa escrever ou selecionar números mais precisos.
 
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
@@ -61,3 +61,4 @@ As seguintes limitações e considerações aplicam-se atualmente à **segmenta�
 
 * Atualmente, o **controlo de deslize de intervalo numérico** filtra todas as linhas subjacentes nos dados, não os valores agregados. Por exemplo, se for utilizado um campo de *Valor de Vendas*, cada transação baseada no *Valor de Vendas* seria filtrada, não a soma do *Valor de Vendas* para cada ponto de dados de um visual.
 * Atualmente, não funciona em Medidas.
+* Pode escrever qualquer número nas caixas de texto numa segmentação numérica, mesmo que esta esteja fora do intervalo de valores na coluna subjacente. Isto permite-lhe definir filtros se souber que os dados poderão ser alterados no futuro.

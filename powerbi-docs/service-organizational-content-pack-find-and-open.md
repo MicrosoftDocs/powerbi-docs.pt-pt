@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20352a729b43e15fd1cd67cb5d52c321c3d150d4
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34852262"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280231"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Encontrar e ligar-se a um pacote de conteúdos organizacional
 > [!NOTE]
@@ -25,7 +25,7 @@ ms.locfileid: "34852262"
 
 Quando alguém publica um pacote de conteúdos organizacional na sua organização, em grupos de segurança ou de distribuição, ou nos [grupos do Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) aos quais pertence, este aparece no AppSource.  Navegue ou pesquise no AppSource para localizar e abrir pacotes de conteúdos organizacionais.
 
-Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir qual a opção mais adequada à sua situação.
+Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos num grupo. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir a opção mais adequada à sua situação.
 
 ## <a name="find-an-organizational-content-pack"></a>Localizar um pacote de conteúdos organizacional
 Os utilizadores do [Power BI Pro](https://powerbi.microsoft.com/pricing) podem aceder ao AppSource, que apresenta os pacotes de conteúdos partilhados com toda a organização, em grupos de distribuição ou de segurança e nos grupos do Office 365 aos quais pertencem.  

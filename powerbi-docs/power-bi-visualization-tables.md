@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600263"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280415"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Trabalhar com tabelas em relatórios e dashboards do Power BI
 Uma tabela é uma grelha que contém dados relacionados numa série lógica de linhas e colunas. Também pode conter cabeçalhos e uma linha para totais. As tabelas funcionam bem com comparações quantitativas, onde pode observar vários valores para uma única categoria. Por exemplo, esta tabela apresenta 5 medidas diferentes para **Categoria**.
@@ -48,7 +48,7 @@ Vamos criar a tabela ilustrada acima para apresentar os valores de vendas por ca
 
     ![](media/power-bi-visualization-tables/power-bi-table1.png)
 3. Selecione **Vendas > Preço Unitário Médio** e **Vendas > Vendas do Último Ano** e **Vendas > Vendas Deste Ano** e escolha todas as 3 opções (Valor, Objetivo, Estado).   
-4. No painel Visualizações, localize a área **Valores** e arraste e largue os valores até que a ordem das colunas do gráfico correspondam à primeira imagem desta página.  A área Valores deverá ser semelhante à seguinte.
+4. No painel Visualizações, localize a área **Valores** e arraste e largue os valores até que a ordem das colunas do gráfico corresponda à primeira imagem desta página.  A área Valores deverá ser semelhante à seguinte.
 
     ![](media/power-bi-visualization-tables/power-bi-table2.png)
 5. Afixe a tabela ao dashboard, selecionando o ícone de pin  
@@ -76,7 +76,7 @@ Existem várias formas de formatar uma tabela e vamos apenas abordar algumas del
 
     ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
-* E, após alguma formatação adicional, eis a nosso tabela final. Uma vez que existem muitas opções de formatação, a melhor forma de aprender é começar com a formatação predefinida. Para tal, abra o painel Formatação ![](media/power-bi-visualization-tables/power-bi-format.png) e comece a explorar. 
+* E, após alguma formatação adicional, eis a nossa tabela final. Uma vez que existem muitas opções de formatação, a melhor forma de aprender é começar com a formatação predefinida. Para tal, abra o painel Formatação ![](media/power-bi-visualization-tables/power-bi-format.png) e comece a explorar. 
 
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

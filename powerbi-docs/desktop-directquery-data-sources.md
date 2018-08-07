@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55d6259c3ae044d395bd0b077577856dd88ff43c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61421db59a6488394cad0b8a921590a90b020bff
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34720771"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280645"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados às quais pode ligar e obter acesso aos dados. Este artigo descreve as origens de dados do Power BI que suportam o método de ligação conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, veja [**DirectQuery no Power BI**](desktop-directquery-about.md).
@@ -70,7 +70,7 @@ A seguinte tabela especifica se um **Gateway de dados no local** é necessário 
 
 
 ## <a name="next-steps"></a>Próximos passos
-Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:
+Para obter mais informações sobre o DirectQuery, veja os seguintes recursos:
 
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)

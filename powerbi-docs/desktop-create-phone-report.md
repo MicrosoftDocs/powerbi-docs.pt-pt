@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721070"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280668"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Criar relatórios otimizados para as aplicações de telemóvel do Power BI
 Quando [criar um relatório no Power BI Desktop](desktop-report-view.md), pode melhorar a experiência de utilização nas aplicações móveis para telemóveis através da criação de uma versão do relatório especificamente para o telemóvel. Pode adaptar o relatório ao telemóvel ao reorganizar e redimensionar os elementos visuais, provavelmente ao não incluir todos, para uma experiência ideal. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório do telemóvel. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
@@ -72,7 +72,7 @@ Escolha se quer ativar a capacidade de resposta de cada elemento visual. Leia ma
   
    ![Remover um elemento visual](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Melhorar as segmentações de dados para um correto funcionamento nos relatórios de telemóvel
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Melhorar as segmentações de dados para um correto funcionamento nos relatórios de telemóvel
 As segmentações de dados disponibilizam uma filtragem na tela dos dados de relatório. Quando conceber segmentações de dados no modo de criação de relatórios normal, pode modificar algumas definições de segmentação de dados para torná-las mais utilizáveis nos relatórios de telemóvel:
 
 * Decida se os leitores de relatórios podem selecionar apenas um ou mais do que um item.
@@ -103,7 +103,7 @@ Se apenas otimizar algumas páginas, os leitores verão uma mensagem na vista ve
 
 Os leitores de relatórios podem colocar os telemóveis de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Ver relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)
 * [Criar elementos visuais reativos otimizados para qualquer tamanho](desktop-create-responsive-visuals.md)

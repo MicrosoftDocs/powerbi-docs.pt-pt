@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157131"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388600"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI
 Saiba como registar uma aplicação no Azure Active Directory (Azure AD) para utilizar ao incorporar conteúdo do Power BI.
@@ -36,7 +36,7 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
 3. Indique um **Nome de Aplicação**.
 4. A seleção do tipo de Aplicação depende do tipo de aplicação que está a utilizar.
    
-   * Utilize a **Aplicação nativa** para aplicações que são executadas nos dispositivos cliente. Tem de selecionar **Aplicação nativa** se estiver a incorporar conteúdos para os seus clientes, independentemente de qual é a aplicação real. Mesmo para aplicações Web.
+   * Utilize a **Aplicação nativa** para aplicações que são executadas nos dispositivos cliente. Tem de selecionar **Aplicação nativa** se estiver a incorporar conteúdos para os seus clientes independentemente do tipo de aplicação, mesmo para aplicações Web.
    * Utilize **Aplicação Web do lado do servidor** para aplicações Web ou APIs Web.
 
 5. Introduza um valor para **URL de Redirecionamento** e **URL da Home Page**. O **URL de Redirecionamento** funciona com qualquer URL válido.
@@ -80,8 +80,8 @@ A outra opção para registar a aplicação é fazê-lo diretamente no portal do
     ![](media/register-app/azuread-new-app-registration.png)
 5. Siga as instruções e crie uma nova aplicação.
    
-   * Para Aplicações Web, indique o URL de Início de Sessão, que é o URL base da sua aplicação, onde os utilizadores podem iniciar sessão, por exemplo, `http://localhost:13526`.
-   * Para Aplicações Nativas, indique um **URI de Redirecionamento**, que o Azure AD utiliza para devolver respostas de token. Introduza um valor específico na aplicação, por exemplo, `http://myapplication/Redirect`
+   * Para Aplicações Web, indique o URL de Início de Sessão, que é o URL base da sua aplicação, onde os utilizadores podem iniciar sessão (por exemplo, `http://localhost:13526`).
+   * Para Aplicações Nativas, indique um **URI de Redirecionamento**, que o Azure AD utiliza para devolver respostas de token. Certifique-se de que introduz um valor específico para a sua aplicação (por exemplo, `http://myapplication/Redirect`).
 
 Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Integrar aplicações com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -93,7 +93,7 @@ Eis como obter um ID do cliente:
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 2. Escolha o seu inquilino do Azure AD, ao selecionar a sua conta no canto superior direito da página.
 3. No painel de navegação esquerdo, escolha **Mais Serviços** e selecione **Registos de Aplicação**.
-4. Selecione a aplicação em que pretende obter o ID de cliente.
+4. Selecione a aplicação para a qual pretende obter o ID de cliente de que precisa.
 5. Verá o **ID da Aplicação** listado como um GUID. Este é o ID de cliente para a aplicação.
    
     ![ID de Cliente listado como ID de Aplicação no registo de aplicação](media/register-app/powerbi-embedded-app-registration-client-id.png)
@@ -128,7 +128,7 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
 5. Em **Permissões precisas**, selecione **Conceder Permissões**.
    
-    A ação **Conceder Permissões** é precisa para a *conta mestra*, para evitar que lhe seja pedido consentimento pelo Azure AD. Se a conta que executa esta ação for de um Administrador Global, concede permissões a todos os utilizadores na sua organização para esta aplicação. Se a conta que realiza esta ação for a *conta mestra* e não for de um Administrador Global, concede permissões apenas à *conta mestra* para esta aplicação.
+    A ação **Conceder Permissões** precisa da *conta principal* para evitar que lhe seja pedido consentimento pelo Azure AD. Se a conta que executa esta ação for de um Administrador Global, concede permissões a todos os utilizadores na sua organização para esta aplicação. Se a conta que realiza esta ação for a *conta mestra* e não for de um Administrador Global, concede permissões apenas à *conta mestra* para esta aplicação.
    
     ![Conceder permissões na caixa de diálogo de permissões precisas](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
 
@@ -160,19 +160,25 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
     
      *Conceder permissões* é necessário para a conta mestra, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    O **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* não é universal mas está dependente de inquilinos. Este valor é o objectId da aplicação "Power BI Service" no inquilino do Azure Active Directory.
+
+    O utilizador pode obter este valor rapidamente no Portal do Azure:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. Procure "Serviço Power BI" na Caixa de Pesquisa.
+
 5. Conceder Permissões de Aplicação ao Azure Active Directory (AAD)
    
    O valor para **consentType** pode indicar **AllPrincipals** ou **Principal**.
@@ -182,7 +188,7 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
     
    *Conceder permissões* é necessário para a conta mestra, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json

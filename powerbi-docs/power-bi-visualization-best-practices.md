@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: af47af39c11315fe06eb97edd837edabf760a0b1
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945141"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280714"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Melhores práticas de design para relatórios e elementos visuais
 <!-- Shared newnav Include -->
@@ -733,7 +733,7 @@ Para obter mais informações, veja:
 ### <a name="scatter-chart"></a>Gráfico de Dispersão
 ![](media/power-bi-visualization-best-practices/power-bi-scatter.png)
 
-Por vezes, podemos querer ver muitas variáveis ao mesmo tempo e os gráficos de dispersão podem ser uma forma muito útil de obter uma perspetiva geral.  Estes gráficos apresentam as relações entre duas (Dispersão) ou três (Bolha) medidas quantitativas.  Têm sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos uniformemente ou não no eixo horizontal, dependendo dos dados.
+Por vezes, podemos querer ver muitas variáveis ao mesmo tempo e os gráficos de dispersão podem ser uma forma muito útil de obter uma perspetiva geral.  Estes gráficos apresentam as relações entre duas (Dispersão) ou três (Bolha) medidas quantitativas.  Tem sempre dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos uniformemente ou não no eixo horizontal, dependendo dos dados.
 
 Os gráficos de bolhas substituem os pontos de dados por bolhas, sendo que o tamanho das bolhas representa uma dimensão adicional dos dados.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0df9fc81c5e65f74fb7eba8b6699cb579e652b62
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250349"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280737"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>O Power BI Pro na sua organização
 
@@ -29,11 +29,11 @@ As seguintes funcionalidades necessitam de uma licença do Power BI Pro:
 
 * **Ver conteúdo partilhado** – os utilizadores do Pro podem ver e interagir com dashboards e relatórios que são partilhados com os mesmos, bem como voltar a partilhá-los (caso tenham permissão para tal). No entanto, um utilizador da versão Pro não pode editar estes dashboards ou relatórios. Para obter mais informações, veja [Partilhar os seus dashboards e relatórios do Power BI com colegas e outras pessoas](service-share-dashboards.md).
 
-* **Integrar conteúdo no Microsoft Teams** – pode adicionar um separador do Power BI num canal do Microsoft (MS) Teams. O MS Teams deteta automaticamente todos os relatórios na área de trabalho. Para obter mais informações, veja [Power BI teams up with Microsoft Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/) (O Power BI alia-se ao Microsoft Teams). 
+* **Integrar conteúdo no Microsoft Teams** – pode adicionar um separador do Power BI a um canal do Microsoft (MS) Teams. O MS Teams deteta automaticamente todos os relatórios na área de trabalho. Para obter mais informações, veja [Power BI teams up with Microsoft Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/) (O Power BI alia-se ao Microsoft Teams). 
 
 ## <a name="power-bi-pro-60-day-trial-for-individuals"></a>Versão de avaliação de 60 dias do Power BI Pro no serviço para particulares
 
-Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, consulte [Preços do Power BI](https://powerbi.microsoft.com/en-us/pricing/). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, inicie sessão no Power BI e experimente uma destas funcionalidades do Power BI Pro.
+Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, veja [Preços do Power BI](https://powerbi.microsoft.com/en-us/pricing/). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, inicie sessão no Power BI e experimente uma destas funcionalidades do Power BI Pro.
 
 * [Criar uma área de trabalho](service-create-distribute-apps.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
