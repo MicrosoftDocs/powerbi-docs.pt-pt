@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456046"
+ms.locfileid: "39475758"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados suportados no Power BI Desktop e no Data Analysis Expressions (DAX). 
@@ -40,11 +40,16 @@ A lista pendente do Tipo de Dados no Editor de Consultas tem dois tipos de dados
 ### <a name="number-types"></a>Tipos de número
 O Power BI Desktop suporta três tipos de número:
 
-**Número Decimal** – representa um número de vírtgula flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como normalmente os imagina.  Embora seja concebido para lidar com números com valores fracionários, também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado num tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer parte no número. O tipo de Número Decimal corresponde a como o Excel armazena os números.
+**Número Decimal** – representa um número de vírgula flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como normalmente os imagina.  Embora seja concebido para lidar com números com valores fracionários, também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado num tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer parte no número. O tipo de Número Decimal corresponde a como o Excel armazena os números.
 
 **Número Decimal Fixo** – tem um local para o separador decimal fixo. O separador decimal tem sempre quatro dígitos à direita e permite 19 dígitos de significância.  O maior valor que pode representar é 922.337.203.685.477,5807 (positivo ou negativo).  O tipo de Número Decimal Fixo é útil em casos em que o arredondamento pode introduzir erros.  Quando trabalha com muitos números que têm valores fracionários pequenos, por vezes, podem acumular e forçar um número a ficar ligeiramente fora do valor correto.  Como os valores após os quatro dígitos à direita do separador decimal são truncados, o tipo Decimal Fixo pode ajudá-lo a evitar estes tipos de erros.   Se está familiarizado com o SQL Server, este tipo de dados corresponde ao Decimal (19,4) do SQL Server ou ao tipo de Dados de Moeda no Power Pivot. 
 
 **Número Inteiro** – representa um valor inteiro de 64 bits (oito bytes). Como é um número inteiro, não tem nenhum dígito à direita da casa decimal. Permite 19 dígitos; números inteiros positivos ou negativos entre -9.223.372.036.854.775.808 (-2^63) e 9.223.372.036.854.775.807 (2^63-1).  Pode representar o maior número possível dos diversos tipos de dados numéricos.  Assim como com o tipo Decimal Fixo, o tipo de Número Inteiro pode ser útil nos casos em que tem de controlar o arredondamento. 
+
+> [!NOTE]
+>  O modelo de dados do Power BI Desktop suporta valores inteiros de 64 bits, mas o maior número que os elementos visuais podem expressar em segurança é 9007,199,254,740,991 (2^53-1), devido a limitações do JavaScript. Se trabalha com números superiores a este no seu modelo de dados, pode reduzir o tamanho através de cálculos antes de os adicionar a um elemento visual 
+> 
+>
 
 ### <a name="datetime-types"></a>Tipos de data/hora
 O Power BI Desktop suporta cinco tipos de dados de Data/Hora na Vista de Consulta e três no modelo e Vista de Relatório.   Tanto Data/Hora/Fuso Horário como Duração são convertidos durante o carregamento para o modelo.

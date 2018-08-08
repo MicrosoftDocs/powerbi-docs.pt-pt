@@ -2,19 +2,19 @@
 title: Adicionar linhas a uma tabela
 description: Passo a passo para enviar dados por push - Adicionar linhas a uma tabela do Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 08/01/2018
+ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812543"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475666"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passo 5: Adicionar linhas a uma tabela do Power BI
 Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
@@ -109,7 +109,7 @@ Segue-se a [listagem de código completo](#code).
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>Lista de códigos completa
+## <a name="complete-code-listing"></a>Listagem de código completo
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -307,9 +307,10 @@ Segue-se a [listagem de código completo](#code).
         }
     }
 
+Apesar de especificarmos que **_//obtemos o primeiro id_** no código acima, o mais correto a fazer é procurar o conjunto de dados por nome.
+
 ## <a name="next-steps"></a>Próximos passos
 [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

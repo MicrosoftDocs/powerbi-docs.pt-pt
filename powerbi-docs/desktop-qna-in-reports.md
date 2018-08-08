@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329644"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475735"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Utilizar as Perguntas e Respostas no Power BI Desktop para consultas de linguagem natural
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no **Power BI Desktop** lhe permitem fazer.
@@ -24,6 +24,11 @@ Para que a funcionalidade Perguntas e Respostas interprete com êxito a abrangen
 
 > [!NOTE]
 > As Perguntas e Respostas só estão disponíveis quando trabalha com um modelo que tenha dados **importados**. As ligações em direto para modelos SSAS e DirectQuery não são suportadas.
+>
+>
+
+> [!NOTE]
+> As Perguntas e Respostas requerem a seguinte atualização do C runtime se estiver a utilizar uma versão do Windows anterior ao Windows 10. Pode tentar instalar atualizações importantes do Windows Update ou instalar manualmente o componente necessário da Microsoft (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 

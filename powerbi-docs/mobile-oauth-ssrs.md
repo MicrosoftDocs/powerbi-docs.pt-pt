@@ -9,21 +9,21 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852216"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415352"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Power BI Report Server e ao SQL Server Reporting Services 2016 ou posterior.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Services para apresentar relatórios móveis ou KPIs. O Windows Server 2016 inclui algumas melhorias na função do Proxy de Aplicações Web (WAP) para permitir este tipo de autenticação. Tenha em atenção que esta configuração não suporta a visualização de relatórios do Power BI nas aplicações móveis do Power BI. No entanto, pode vê-los num browser num dispositivo móvel. Para ver Relatórios do Power BI na aplicação móvel, tem de utilizar a autenticação do Windows.
+Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Services para apresentar relatórios móveis ou KPIs. O Windows Server 2016 inclui algumas melhorias na função do Proxy de Aplicações Web (WAP) para permitir este tipo de autenticação. Tenha em atenção que a visualização de relatórios do Power BI alojados no Power BI Report Server com a utilização de WAP para a autenticação não é suportada oficialmente neste momento.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 O Windows Server 2016 é necessário para os servidores do Proxy de Aplicações Web (WAP) e dos Serviços de Federação do Active Directory (AD FS). Não precisa de ter um domínio de nível funcional do Windows 2016.
 
 ## <a name="domain-name-services-dns-configuration"></a>Configuração dos Serviços de Nomes de Domínio (DNS)

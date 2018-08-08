@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 002c1c256a0d78601d112e4ee34326c0914f9ac1
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: d0449087715b1fac82276810397167d2a5de8f28
+ms.sourcegitcommit: 9c0f990ffb66256eb342af8528987bb108069af6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37599695"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "39501414"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métrica de utilização para dashboards e relatórios
 Se criar dashboards e relatórios, a métrica de utilização ajuda-o a compreender o respetivo impacto. Quando executa a métrica de utilização do dashboard ou a métrica de utilização de relatórios, pode verificar como esses dashboards e relatórios estão a ser utilizados em toda a organização; o que está a ser utilizado, por quem e com que finalidade.  
@@ -29,7 +29,7 @@ Estes relatórios de métrica de utilização são só de leitura. No entanto, p
 ![relatório das métricas de utilização](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>Por que razão a métrica de utilização é importante para mim?
-Saber como o seu conteúdo está a ser utilizado ajuda-o a demonstrar o impacto e a atribuir prioridades aos esforços. A métrica de utilização pode mostrar que um dos seus relatórios é utilizado diariamente por um vasto segmento da organização e mostrar que um dashboard que criou não está a ser visualizado. Este tipo de comentários são valiosos para ajudá-lo nos seus esforços de trabalho.
+Saber como o seu conteúdo está a ser utilizado ajuda-o a demonstrar o impacto e a atribuir prioridades aos esforços. A métrica de utilização pode mostrar que um dos seus relatórios é utilizado diariamente por um vasto segmento da organização e mostrar que um dashboard que criou não está a ser visualizado. Este tipo de feedback é importante para ajudá-lo nos seus esforços de trabalho.
 
 A execução de relatórios de métrica de utilização só está disponível no serviço Power BI.  No entanto, se guardar um relatório de métrica de utilização ou afixá-lo num dashboard, pode abrir e interagir com esse relatório em dispositivos móveis.
 
@@ -149,6 +149,10 @@ Os relatórios de métrica de utilização são uma funcionalidade que o adminis
 Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta do criador de conteúdos estão incluídas no relatório de métricas. Se não quiser incluir estas informações para alguns ou para todos os utilizadores, desative a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta serão apresentadas no relatório como *Sem nome*.
 
 Ao desativar a métrica de utilização para toda a respetiva organização, os administradores podem utilizar a opção **Eliminar todo o conteúdo da métricas de utilização existente** para eliminar todos os relatórios de relatórios e dashboards existentes que foram criados utilizando os conjuntos de dados e relatórios de métrica de utilização. Esta opção remove todo o acesso a dados da métrica de utilização por parte de todos os utilizadores na organização que possam estar a utilizá-lo. Tenha cuidado, porque eliminar o conteúdo da métrica de utilização existente é irreversível.
+
+## <a name="usage-metrics-in-national-clouds"></a>Métricas de utilização em clouds nacionais
+
+O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinadas com um modelo exclusivo para regulamentações locais sobre a entrega de serviços, residência de dados, acesso e controlo. Devido a este modelo exclusivo para regulamentações locais, as métricas de utilização não estão disponíveis em clouds nacionais. Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/en-us/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 P: não consigo executar a métrica de utilização num dashboard ou num relatório    
