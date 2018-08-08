@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 970bd7d2ba511b5b68fdac8bfc025133a117d0ae
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "34295773"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615919"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: explorar dashboards e relatórios nas aplicações móveis do Power BI
 Neste manual de início rápido, pode explorar um dashboard e um relatório de exemplo na aplicação móvel do Power BI num telemóvel Android. Também pode acompanhar o processo noutras aplicações móveis. 
 
 Aplica-se a:
 
-| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android ](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivos Windows 10](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivos Windows 10](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
@@ -62,7 +62,7 @@ O primeiro passo deste manual de início rápido é transferir o exemplo de Aná
 
 4. Selecione o **exemplo de Análise de Revenda**.
  
-    ![Retail Analysis Sample](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Exemplo de Análise de Revenda](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Selecione **Ligar**.  
   

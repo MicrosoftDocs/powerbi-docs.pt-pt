@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c4fbb5ea019ca439ecf063c91a69348ef33bbc2
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721116"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624005"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço Power BI e pode, tal como as outras pessoas, criar vários relatórios diferentes (em ficheiros .pbix separados) a partir desse mesmo modelo de dados comum. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -37,7 +37,7 @@ Todas as pessoas adoram o seu relatório e conjunto de dados e era aí que come�
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Ligar a um conjunto de dados do serviço Power BI através de uma ligação em direto
 Depois de criar o seu relatório (e o conjunto de dados em que se baseia), a Ana publica-o no **serviço Power BI** e este aparece na área de trabalho da equipa no serviço Power BI. Agora, está disponível para todos na sua área de trabalho para ver e utilizar.
 
-Para saber mais sobre as áreas de trabalho, veja [áreas de trabalho de aplicação](service-create-distribute-apps.md#app-workspaces).
+Para saber mais sobre as áreas de trabalho, veja [áreas de trabalho de aplicação](service-create-workspaces.md).
 
 Os outros membros da área de trabalho podem agora estabelecer uma ligação em direto com o modelo de dados partilhada da Ana (através da funcionalidade **ligação em direto do serviço Power BI**) e criar os seus próprios relatórios exclusivos, a partir do *conjunto de dados original*.
 

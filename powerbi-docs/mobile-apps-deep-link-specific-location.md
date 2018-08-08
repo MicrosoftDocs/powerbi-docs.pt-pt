@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135450"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616011"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 Pode criar e utilizar um identificador de recurso uniforme (URI) para ligar para uma localização específica (*ligação avançada*) nas aplicações móveis do Power BI em todas as plataformas móveis: iOS, dispositivos Android e Windows 10.
@@ -36,7 +36,7 @@ Este URI abre a aplicação móvel do Power BI num dashboard específico:
 
 Para encontrar o ID de objeto do dashboard, de 36 carateres, navegue para o dashboard específico no serviço Power BI (https://powerbi.com). Por exemplo, consulte a secção realçada deste URL:
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 Se o dashboard estiver num grupo que não A Minha Área de Trabalho, adicione `&GroupObjectId=<36-character-group-id>` antes ou depois do ID de dashboard. Por exemplo, 
 
@@ -51,7 +51,7 @@ Este URI abre um mosaico específico em foco na aplicação móvel do Power BI:
 
 Para encontrar os IDs de objeto de mosaico e dashboard, de 36 carateres, navegue para o dashboard específico no serviço Power BI (https://powerbi.com) e abra o mosaico em modo de detalhe. Por exemplo, consulte as secções realçadas deste URL:
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 Para este mosaico, o URI seria:
 
