@@ -1,6 +1,6 @@
 - name: A utilizar o Power BI
   items:
-    - name: Descrição Geral
+    - name: Overview
       items:
         - name: O que é Power BI?
           href: power-bi-overview.md
@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Encontrar e ligar-se a um pacote de conteúdos organizacional
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Partilhar dashboards e relatórios
-                  href: service-share-dashboards.md
                 - name: Introdução às Perguntas e Respostas no Power BI
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Connect to services (Ligar aos serviços)
@@ -234,7 +232,7 @@
                   href: service-notification-center.md
                 - name: Temas de dashboard
                   href: service-dashboard-themes.md
-            - name: Relatórios
+            - name: Reports
               items:
                 - name: Várias formas de abrir um relatório
                   href: service-report-open.md
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Partilhar o seu trabalho
               items:
-                - name: Como devo colaborar e partilhar os meus dashboards e relatórios?
+                - name: How should I collaborate and share? (Como devo colaborar e partilhar?)
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Criar e distribuir aplicações com dashboards e relatórios
+                - name: Partilhar dashboards e relatórios
+                  href: service-share-dashboards.md
+                - name: Criar áreas de trabalho de aplicação
+                  href: service-create-workspaces.md
+                - name: Create the new workspaces (preview) (Criar as novas áreas de trabalho (pré-visualização))
+                  href: service-create-the-new-workspaces.md
+                - name: Publish apps with dashboards and reports (Publicar aplicações com dashboards e relatórios)
                   href: service-create-distribute-apps.md
                 - name: Partilhar um relatório filtrado
                   href: service-share-reports.md
@@ -346,7 +350,7 @@
                       href: template-content-pack-testing.md
                     - name: Experiências do Pacote de Conteúdos de Modelo
                       href: template-content-pack-experience.md
-            - name: Relatórios
+            - name: Reports
               items:
                 - name: Crie um novo relatório a partir de um relatório existente
                   href: power-bi-report-copy.md
@@ -478,7 +482,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Descrição Geral
+    - name: Overview
       items:
         - name: O que é o Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -530,11 +534,11 @@
       items:
         - name: Novidades na atualização mais recente do Power BI Desktop
           href: desktop-latest-update.md
-        - name: 'Composite models in Power BI Desktop (Preview) (Modelos compostos no Power BI Desktop [Pré-visualização])'
+        - name: "Modelos compostos no Power\_BI Desktop (Pré-visualização)"
           href: desktop-composite-models.md
         - name: 'Many-to-many relationships in Power BI Desktop (Preview) (Relações muitos-para-muitos no Power BI Desktop [Pré-visualização])'
           href: desktop-many-to-many-relationships.md
-        - name: 'Storage mode in Power BI Desktop (Preview) (O modo de armazenamento no Power BI Desktop [Pré-visualização])'
+        - name: "Modo de armazenamento no Power\_BI Desktop (Pré-visualização)"
           href: desktop-storage-mode.md
         - name: Filtragem cruzada bidirecional no Power BI Desktop (Pré-visualização)
           href: desktop-bidirectional-filtering.md
@@ -822,7 +826,7 @@
           href: desktop-admin-sign-in-form.md
 - name: Aplicações móveis do Power BI
   items:
-    - name: Descrição Geral
+    - name: Overview
       items:
         - name: O que são as aplicações móveis?
           href: mobile-apps-for-mobile-devices.md
@@ -916,7 +920,7 @@
   items:
     - name: Análise Incorporada
       items:
-        - name: Descrição Geral
+        - name: Overview
           items:
             - name: O que é a incorporação com o Power BI?
               href: developer/embedding.md
@@ -926,7 +930,7 @@
           items:
             - name: Incorporar conteúdo para clientes
               href: developer/embed-sample-for-customers.md
-            - name: Incorporar conteúdos para a sua organização
+            - name: Embed content for your organization (Incorporar conteúdos para a sua organização)
               href: developer/embed-sample-for-your-organization.md
             - name: Integrar conteúdos na sua aplicação para clouds soberanas
               href: developer/embed-sample-for-customers-sovereign-clouds.md
@@ -1002,7 +1006,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
     - name: Desenvolver Elementos Visuais Personalizados
       items:
-        - name: Descrição Geral
+        - name: Overview
           items:
             - name: Adding Custom visuals into Power BI (Adicionar Elementos Visuais Personalizados no Power BI)
               href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
@@ -1044,7 +1048,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Automatização
       items:
-        - name: Descrição Geral
+        - name: Overview
           items:
             - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
               href: developer/overview-of-power-bi-rest-api.md
@@ -1092,7 +1096,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Report Server
   items:
-    - name: Descrição Geral
+    - name: Overview
       items:
         - name: "O que é o Power\_BI Report Server?"
           href: report-server/get-started.md
@@ -1194,7 +1198,7 @@
           href: report-server/capacity-planning.md
 - name: Gateways
   items:
-    - name: Descrição Geral
+    - name: Overview
       items:
         - name: "O que são os gateways do Power\_BI?"
           href: service-gateway-getting-started.md
@@ -1232,17 +1236,17 @@
           href: service-gateway-proxy.md
         - name: Clusters de elevada disponibilidade para gateways de dados no local
           href: service-gateway-high-availability-clusters.md
-        - name: Gateway de dados local
+        - name: Gateway de dados no local
           href: service-gateway-onprem.md
         - name: Gateway de dados no local - detalhado
           href: service-gateway-onprem-indepth.md
-        - name: On-premises data gateway (personal mode)
+        - name: Gateway de dados local (modo pessoal)
           href: service-gateway-personal-mode.md
         - name: Resolução de problemas do gateway de dados no local
           href: service-gateway-onprem-tshoot.md
 - name: Administration
   items:
-    - name: Descrição Geral
+    - name: Overview
       items:
         - name: "O que é a administração do Power\_BI?"
           href: service-admin-administering-power-bi-in-your-organization.md
