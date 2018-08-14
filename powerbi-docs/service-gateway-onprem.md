@@ -1,23 +1,23 @@
 ---
-title: Gateway de dados local
+title: Gateway de dados no local
 description: Esta é uma descrição geral do Gateway de dados no local do Power BI. Pode utilizar este gateway para trabalhar com origens de dados de DirectQuery. Também pode utilizar este gateway para atualizar os conjuntos de dados na cloud com dados no local.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.date: 06/05/2018
+ms.openlocfilehash: c6c83c51779621b2b722ce0c21cbb00eecde1fb9
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924924"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658179"
 ---
-# <a name="on-premises-data-gateway"></a>Gateway de dados local
+# <a name="on-premises-data-gateway"></a>Gateway de dados no local
 
 O Gateway de dados no local funciona como uma ponte ao proporcionar a transferência rápida e segura de dados entre os dados no local (dados que não estão na cloud) e os serviços Power BI, Microsoft Flow, Logic Apps e PowerApps.
 
@@ -25,13 +25,12 @@ Pode utilizar um único gateway com diferentes serviços em simultâneo. Se esti
 
 > [!NOTE]
 > O Gateway de dados no local implementa a compressão de dados e a encriptação de transporte em todos os modos.
-> 
-> 
 
 <!-- Shared Requirements Include -->
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-requirements-include.md)]
 
 ### <a name="limitations-of-analysis-services-live-connections"></a>Limitações das ligações em direto do Analysis Services
+
 Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensionais.
 
 | **Versão do servidor** | **SKU necessário** |
@@ -47,6 +46,7 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Transferir e instalar o Gateway de dados no local
+
 Para transferir o gateway, selecione **Gateway de Dados** no menu Transferências. Transfira o [Gateway de dados no local](http://go.microsoft.com/fwlink/?LinkID=820925). 
 
 Tenha em atenção que a atualização do gateway de dados no local é conseguida através da reinstalação do gateway, conforme descrito nesta secção. Ao atualizar o gateway (através da reinstalação), as suas definições de gateways existentes são mantidas.
@@ -57,9 +57,9 @@ Tenha em atenção que a atualização do gateway de dados no local é conseguid
 [!INCLUDE [gateway-onprem-install-include](./includes/gateway-onprem-install-include.md)]
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Instalar o gateway no modo pessoal
+
 > [!NOTE]
 > A versão Personal do gateway só funciona com o Power BI.
-
 
 Após a instalação do gateway pessoal, terá de iniciar o **Assistente de Configuração do Power BI Gateway - Personal**.
 
@@ -78,6 +78,7 @@ Após a conclusão da instalação, terá de aceder aos seus conjuntos de dados 
 <a name="credentials"></a>
 
 ## <a name="storing-encrypted-credentials-in-the-cloud"></a>Armazenar credenciais encriptadas na cloud
+
 Quando adiciona uma origem de dados ao gateway, é necessário fornecer credenciais para essa origem de dados. Todas as consultas à origem de dados serão executadas com essas credenciais. As credenciais são encriptadas com segurança, com a encriptação assimétrica, para que não possam ser desencriptadas na cloud antes de serem armazenadas na cloud. As credenciais são enviadas para o computador que executa o gateway no local, onde são desencriptadas quando as origens de dados são acedidas.
 
 <!-- Account and Port information -->
@@ -87,26 +88,30 @@ Quando adiciona uma origem de dados ao gateway, é necessário fornecer credenci
 [!INCLUDE [gateway-onprem-how-it-works-include](./includes/gateway-onprem-how-it-works-include.md)]
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
+
 * O [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
 ) não é suportado atualmente
 * O [Acesso Online](https://products.office.com/en-us/access) não é suportado atualmente
 
-## <a name="tenant-level-administration"></a>Administração ao nível do inquilino 
+## <a name="tenant-level-administration"></a>Administração ao nível do inquilino
 
 Atualmente, não existe um único lugar onde os administradores de inquilinos possam gerir todos os gateways que outros utilizadores tenham instalado e configurado.  Se é um administrador de inquilino, recomendamos que peça aos utilizadores na sua organização para o adicionarem como administrador em cada gateway que instalarem. Isto permite-lhe gerir todos os gateways na sua organização através da página Definições do Gateway ou através de [comandos do PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
-## <a name="enabling-outbound-azure-connections"></a>Ativar as ligações de saída do Azure 
+## <a name="enabling-outbound-azure-connections"></a>Ativar as ligações de saída do Azure
+
 O Gateway de dados no local baseia-se no Azure Service Bus para conectividade da cloud e estabelece ligações de saída de forma correspondente com a respetiva região do Azure associada. Por predefinição, esta é a localização do seu inquilino do Power BI. Veja [Onde está localizado o meu inquilino do Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
 Se uma firewall estiver a bloquear ligações de saída, tem de a configurar para permitir ligações de saída do Gateway de dados no local para a respetiva região do Azure associada. Veja [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Intervalos de IP do Microsoft Azure Datacenter) para obter detalhes sobre os intervalos de endereço IP de cada datacenter do Azure.
 > [!NOTE]
 > Os intervalos de endereço IP podem ser alterados ao longo do tempo, por isso certifique-se de que transfere as informações mais recentes regularmente. 
 
 ## <a name="troubleshooting"></a>Resolução de problemas
+
 Se tiver problemas ao instalar e configurar um gateway, veja [Resolver problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md). Se pensa que está a ter um problema com a firewall, veja a secção [firewall ou proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) do artigo de resolução de problemas.
 
 Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md).
 
 ## <a name="next-steps"></a>Próximos passos
+
 [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
@@ -115,5 +120,5 @@ Se pensa que está a ter problemas de proxy, com o gateway, veja [Configurar def
 [Gateway de dados no local detalhado](service-gateway-onprem-indepth.md)  
 [Gateway de dados local (modo pessoal) – a nova versão do gateway pessoal](service-gateway-personal-mode.md)
 [Configurar as definições de proxy do Gateway de dados no local](service-gateway-proxy.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

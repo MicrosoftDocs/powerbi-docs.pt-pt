@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328402"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657880"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -38,7 +38,7 @@ Os tipos de dados são organizados nas categorias a seguir:
 
 * Todos
 * Ficheiro
-* Base de dados
+* Base de Dados
 * Power BI
 * Azure
 * Serviços Online
@@ -93,7 +93,6 @@ A imagem a seguir mostra a janela **Obter Dados** para **Base de dados**.
 A categoria **Power BI** fornece as seguintes ligações de dados:
 
 * Conjuntos de dados do Power BI
-* Agrupamentos de dados do Power BI (beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Power BI**.
 
@@ -168,7 +167,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Active Directory
 * Microsoft Exchange
 * HDFS (Ficheiro do Hadoop)
-* Spark (Beta)
+* Spark
 * Script do R
 * ODBC
 * OLEDB
