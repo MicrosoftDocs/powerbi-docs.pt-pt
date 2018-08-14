@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032077"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415398"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -27,7 +27,7 @@ ms.locfileid: "39032077"
 
 O Microsoft Power BI Embedded permite aos programadores de aplicações integrarem espetaculares relatórios totalmente interativos, dashboards e mosaicos em aplicações sem o tempo e a despesa de criar as suas próprias visualizações e controlos de raiz.
 
-### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Qual é o público-alvo do Power BI Embedded?
+### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Qual é o público alvo do Power BI Embedded?
 
 Os programadores e empresas de software que criam as suas próprias aplicações, conhecidos como fornecedores de software independentes (ISVs).
 
@@ -43,9 +43,9 @@ O Power BI Premium destina-se às empresas que pretendem uma solução completa 
 
 O Power BI Embedded é para ISVs ou programadores que estão a construir aplicações e pretendem integrar visuais nessas aplicações. O Power BI Embedded ajuda os clientes a tomarem decisões porque é para programadores de aplicações, clientes dessa aplicação podem consumir conteúdo armazenado na capacidade do Power BI Embedded, incluindo qualquer pessoa no interior ou exterior da organização. Não é possível partilhar o conteúdo de capacidade do Power BI Embedded através da publicação com um único clique na Web ou a publicação com um único clique no SharePoint e não suporta relatórios SSRS.
 
-### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs. o Power BI Embedded?
+### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs o Power BI Embedded?
 
-A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na cloud ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela cloud. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
+A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na nuvem ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela nuvem. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
 
 Podem ocorrer situações em que um ISV (geralmente de grande dimensão) pretende utilizar um P SKU para receber os benefícios adicionais do serviço pré-embalado do Power BI na organização, bem como integrar as suas aplicações. E claro, algumas empresas podem decidir utilizar A SKUs no Azure se só estiverem interessados na construção da linha de aplicações empresariais e na integração das análises nas aplicações e não pretenderem utilizar o serviço Power BI pré-embalado.
 
@@ -63,29 +63,32 @@ Power BI Embedded é um conjunto de APIs disponíveis para os programadores cria
 
 Segue-se uma lista parcial de diferenças que pode utilizar para cada um.
 
-|Destaque  |Power BI Embedded<br>(A SKUs) |Capacidade do Power BI Premium<br>(EM SKUs)  | 
-|---------|---------|---------|
-|Incorporar artefactos de áreas de trabalho da aplicação Power BI     |Capacidade do Azure |Capacidade do Office 365 |
-|Licença do Power BI necessária para consumir relatórios |Não  |Sim |
-|Consumir relatórios do Power BI numa aplicação do Embedded |Sim  |Sim |
-|Consumir relatórios do Power BI no SharePoint |Não |Sim |
-|Consumir relatórios do Power BI no Teams |Não |Sim |
+| Destaque | Power BI Embedded | Capacidade do Power BI Premium | Capacidade do Power BI Premium |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (A SKUs) | (EM SKUs) | (P SKUs) |
+| Incorporar artefactos de uma área de trabalho da aplicação Power BI | Capacidade do Azure | Capacidade do Office 365 | Capacidade do Office 365 |
+| Consumir relatórios do Power BI numa aplicação do Embedded | Sim | Sim | Sim |
+| Consumir relatórios do Power BI no SharePoint | Não | Sim | Sim |
+| Consumir relatórios do Power BI no Dynamics | Não | Sim | Sim |
+| Consumir relatórios do Power BI no Teams | Não | Sim | Sim |
+| Aceder a conteúdos com uma licença GRATUITA do Power BI em Powerbi.com e no Power BI Mobile | Não | Não | Sim |
+| Aceder a conteúdos com uma licença GRATUITA do Power BI incorporada nas aplicações do Microsoft Office | Não | Sim | Sim |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Agora, o Power BI oferece três SKUs para incorporar: A SKUs, EM SKUs e P SKUs. Qual deles deve adquirir para o meu cenário?
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Comprar     |Portal do Azure |Office |Office |
-|Casos de utilização |* Integrar o conteúdo na sua própria aplicação |* Integrar o conteúdo na sua própria aplicação<br>* Incorporar conteúdos noutras aplicações SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Integrar o conteúdo na sua própria aplicação<br>* Incorporar conteúdos noutras aplicações SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Partilhar conteúdos com os utilizadores do Power BI através do [serviço Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Casos de utilização |* Integrar o conteúdo na sua própria aplicação |* Integrar o conteúdo na sua própria aplicação<br>* Incorporar conteúdos noutras aplicações do Microsoft Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Integrar o conteúdo na sua própria aplicação<br>* Incorporar conteúdos noutras aplicações do Microsoft Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Partilhar conteúdos com os utilizadores do Power BI através do [serviço Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Faturação |Hora a hora |Mensal |Mensal |
 |Alocação  |Sem alocação |Anual  |Mensal/anual |
 |Diferenciação |Elasticidade completa-pode aumentar/reduzir verticalmente, colocar em pausa/retomar recursos no portal do Azure ou através da API  |Pode ser utilizado para incorporar o conteúdo no SharePoint Online e Microsoft Teams |Combinar a integração nas aplicações e utilizar o serviço do Power BI na mesma capacidade |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Quais são os pré-requisitos para criar uma capacidade PBIE no Azure?
 
-- Tem de iniciar sessão no diretório organizacional (as contas MSA não são suportadas).
-- Tem de ter um inquilino do Power BI, ou seja, pelo menos um utilizador no seu diretório tem de estar inscrito no Power BI. 
-- Tem de ter uma subscrição do Azure no seu diretório organizacional.
+* Tem de iniciar sessão no diretório organizacional (as contas MSA não são suportadas).
+* Tem de ter um inquilino do Power BI, ou seja, pelo menos um utilizador no seu diretório tem de estar inscrito no Power BI. 
+* Tem de ter uma subscrição do Azure no seu diretório organizacional.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Como posso monitorizar o consumo de capacidade?
 
@@ -180,7 +183,7 @@ Utilize o PowerBI.com para atribuir/anular a atribuição de áreas de trabalho 
 
 ### <a name="what-deploy-regions-are-supported"></a>Quais as regiões de implementação suportadas?
 
-Sudeste da Austrália, Sul do Brasil, Canadá Central, E.U.A Leste 2, Oeste da Índia, Leste do Japão, E.U.A. Centro-Norte, Europa do Norte, E.U.A. Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, E.U.A. Oeste e E.U.A. Oeste 2.
+Sudeste da Austrália, Sul do Brasil, Canadá Central, E.U.A Leste 2, Oeste da Índia, Leste do Japão, EUA Centro-Norte, Europa do Norte, EUA Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental, EUA Oeste e EUA Oeste 2.
 
 ### <a name="what-type-of-content-pack-data-can-be-embedded"></a>Que tipo de dados do pacote de conteúdos pode ser incorporado?
 
@@ -214,6 +217,8 @@ O Power BI Embedded é faturado numa taxa por hora previsível, com base no tipo
 
 Como o Power BI Embedded permite utilizar o portal do Power BI para gerir e validar o conteúdo integrado, é necessária uma licença do Power BI Pro para autenticar a aplicação no PowerBI.com para ter acesso aos relatórios nos repositórios certos.
 
+No entanto, para [criar ou editar relatórios incorporados](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) na própria aplicação, o utilizador final não necessita de uma licença do Pro, uma vez que não é obrigatório que ele seja um utilizador do Power BI.
+
 ### <a name="can-i-get-started-for-free"></a>Pode começar a utilizar gratuitamente?
 
 Sim, pode utilizar os seus [créditos do Azure](https://azure.microsoft.com/free/) para o Power BI Embedded.
@@ -222,7 +227,7 @@ Sim, pode utilizar os seus [créditos do Azure](https://azure.microsoft.com/free
 
 Uma vez que o Power BI Embedded faz parte do Azure é possível utilizar o serviço com o [crédito de 200 EUR recebido ao inscrever-se para o Azure](https://azure.microsoft.com/free/).
 
-### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>O Power BI Embedded está disponível para clouds soberanas (Governo dos E.U.A., Alemanha, China)?
+### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>O Power BI Embedded está disponível para clouds soberanas (Governo dos EUA, Alemanha, China)?
 
 O Power BI Embedded está disponível para algumas [clouds soberanas](embed-sample-for-customers-sovereign-clouds.md). Ainda **NÃO** está disponível para a cloud na China.
 
@@ -260,7 +265,7 @@ Os clientes que já estejam a utilizar a solução **Coleção de Áreas de Trab
 
 ### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>Em que regiões pode ser criada uma Coleção de Áreas de Trabalho do PBI?
 
-As regiões disponíveis são o Sudeste da Austrália, Sul do Brasil, Canadá Central, E.U.A. Leste 2, Oeste da Índia, Leste do Japão, E.U.A. Centro-Norte, Europa do Norte, E.U.A. Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental e E.U.A. Oeste.
+As regiões disponíveis são o Sudeste da Austrália, Sul do Brasil, Canadá Central, EUA Leste 2, Oeste da Índia, Leste do Japão, EUA Centro-Norte, Europa do Norte, EUA Centro-Sul, Sudeste Asiático, Sul do Reino Unido, Europa Ocidental e EUA Oeste.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Porque devo migrar conteúdos da Coleção de Áreas de Trabalho do PBI para o Power BI Embedded?
 

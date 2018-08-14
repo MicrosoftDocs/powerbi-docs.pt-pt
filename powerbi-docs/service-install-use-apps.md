@@ -3,29 +3,30 @@ title: Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 description: No Power BI, as aplicações juntam dashboards e relatórios num único local.
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242741"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624374"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
-No Power BI, as *aplicações* juntam dashboards e relatórios num único lugar. As pessoas na sua organização podem criar e distribuir aplicações com informações comerciais importantes. Os [Serviços externos](service-connect-to-services.md) que pode já utilizar, como o Google Analytics e o Microsoft Dynamics CRM, também disponibilizam aplicações do Power BI. 
+No Power BI, as *aplicações* juntam dashboards e relatórios num único local. As pessoas na sua organização podem criar e distribuir aplicações com informações comerciais importantes. Os [Serviços externos](service-connect-to-services.md) que pode já utilizar, como o Google Analytics e o Microsoft Dynamics CRM, também disponibilizam aplicações do Power BI. 
 
 ![Aplicações no Power BI](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no dispositivo móvel.
+É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel.
 
 Com as aplicações, sempre que o autor da aplicação lançar atualizações, o utilizador pode vê-las automaticamente. O autor também controla quantas vezes os dados são agendados para atualização, para que não se tenha de preocupar em atualizá-los. 
 
-Planeia criar uma aplicação? Veja [Criar e publicar aplicações no Power BI](service-create-distribute-apps.md) para obter mais informações.
+Planeia criar uma aplicação? Veja [Criar áreas de trabalho com os seus colegas de trabalho no Power BI](service-create-distribute-apps.md) para obter mais informações.
 
 ## <a name="get-a-new-app"></a>Obter uma nova aplicação
 Pode obter aplicações de várias formas diferentes. O autor da aplicação pode instalar a aplicação automaticamente na sua conta do Power BI ou enviar-lhe uma ligação direta para uma aplicação, ou pode pesquisá-la no AppSource, onde se veem todas as aplicações às quais pode aceder. No Power BI no seu dispositivo móvel, só pode instalá-lo de uma ligação direta e não do AppSource. Se o autor instalar a aplicação automaticamente, irá vê-la na sua lista de aplicações.
@@ -41,7 +42,7 @@ Ao clicar na ligação no e-mail, o serviço Power BI ([https://powerbi.com](htt
 
 **No dispositivo móvel iOS ou Android** 
 
-Quando clicar na ligação no e-mail no seu dispositivo móvel, a aplicação é instalada automaticamente e é aberta a lista de conteúdos da aplicação. 
+Quando clicar na ligação no e-mail no seu dispositivo móvel, a aplicação é instalada automaticamente e é aberta a lista de conteúdos da mesma na aplicação móvel. 
 
 ![Lista de conteúdos da aplicação em dispositivo móvel](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ Pode também encontrar e instalar aplicações às quais tenha acesso do Microso
 3. Selecione **Obter agora** para adicioná-la à sua página Aplicações. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagir com os dashboards e relatórios na aplicação
-Agora, pode explorar os dados nos dashboards e relatórios na aplicação. Tem acesso a todas as interações padrão do Power BI, como a filtragem, o realce, a ordenação e a desagregação. Saiba mais sobre [interagir com relatórios no Power BI](service-reading-view-and-editing-view.md). 
-
-Não pode guardar alterações efetuadas por si, mas pode sempre [exportar os dados para Excel ](power-bi-visualization-export-data.md) de uma tabela ou outro visual num relatório.
+Agora, pode explorar os dados nos dashboards e relatórios na aplicação. Tem acesso a todas as interações padrão do Power BI, como a filtragem, o realce, a ordenação e a desagregação. Também pode [exportar os dados para o Excel ](power-bi-visualization-export-data.md) a partir de uma tabela ou de outro elemento visual num relatório. Saiba mais sobre [interagir com relatórios no Power BI](service-reading-view-and-editing-view.md). 
 
 ![Exportar dados de um visual do Power BI](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>Próximos passos
 * [Criar e publicar aplicações no Power BI](service-create-distribute-apps.md)
