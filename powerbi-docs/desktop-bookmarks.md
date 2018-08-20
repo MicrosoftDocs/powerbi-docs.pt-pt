@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327827"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657972"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -112,7 +112,34 @@ Depois de colocar o controlo de deslize **Ação** como **Ativado**, pode seleci
 
 Existem todos os tipos de coisas interessantes que pode fazer com marcadores ligados a objetos. Pode criar um índice visual da página de relatório ou pode fornecer diferentes vistas (por exemplo, tipos visuais) dessas mesmas informações apenas ao clicar num objeto.
 
-Quando estiver no modo de edição, pode utilizar ctrl+clique para seguir a ligação e, quando não estiver nesse modo, basta clicar no objeto para seguir a ligação. 
+Quando estiver no modo de edição, pode utilizar Ctrl+clique para seguir a ligação e, quando não estiver nesse modo, basta clicar no objeto para seguir a ligação. 
+
+## <a name="bookmark-groups"></a>Grupos de marcadores
+
+A partir da versão de agosto de 2018 do **Power BI Desktop**, poderá criar e utilizar grupos de marcadores. Um grupo de marcadores é uma coleção de marcadores que especifica e que pode ser apresentada e organizada como um grupo. 
+
+Para criar um grupo de marcadores, mantenha a tecla Ctrl premida e selecione os marcadores que pretende incluir no grupo. Em seguida, clique nas reticências ao lado de qualquer marcador selecionado e selecione **Grupo** no menu que é apresentado.
+
+![Criar um grupo de marcadores](media/desktop-bookmarks/bookmarks_15.png)
+
+O **Power BI Desktop** dá automaticamente o nome *Grupo 1* ao grupo. Felizmente, pode fazer duplo clique no nome e mudá-lo para outro à sua escolha.
+
+![Mudar o nome de um grupo de marcadores](media/desktop-bookmarks/bookmarks_16.png)
+
+Clicar no nome de um grupo de marcadores só expande ou fecha esse grupo e não representa um marcador individual. 
+
+Ao utilizar a funcionalidade **Ver** dos marcadores, aplica-se o seguinte:
+
+* Se o marcador selecionado estiver num grupo quando selecionar **Ver** nos marcadores, apenas os marcadores *nesse grupo* serão apresentados na sessão de visualização. 
+
+* Se o marcador selecionado não estiver num grupo, ou se estiver no nível superior (como o nome de um grupo de marcadores), todos os marcadores de todo o relatório serão apresentados, incluindo os marcadores em qualquer grupo. 
+
+Para desagrupar marcadores, selecione qualquer marcador num grupo, clique nas reticências e, em seguida, selecione **Desagrupar** no menu que é apresentado. 
+
+![Desagrupar um grupo de marcadores](media/desktop-bookmarks/bookmarks_17.png)
+
+Tenha em atenção que a seleção de **Desagrupar** em qualquer marcador de um grupo removerá todos os marcadores do grupo (elimina o grupo, mas não os marcadores em si). Para remover um só marcador de um grupo, tem de **Desagrupar** um dos membros desse grupo (o que elimina o agrupamento) e, em seguida, selecionar os membros que pretende incluir no novo grupo (ao manter a tecla Ctrl premida e clicar em cada marcador) e selecionar **Grupo** novamente. 
+
 
 ## <a name="using-spotlight"></a>Utilizar o modo Em Destaque
 Outra funcionalidade lançada com os marcadores é o modo **Em Destaque**. Com o modo **Em Destaque**, pode chamar a atenção para um gráfico específico, por exemplo, quando apresentar os seus marcadores no modo **Visualização**.
@@ -151,7 +178,7 @@ Nesta versão dos **marcadores**, existem algumas limitações e considerações
 * O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

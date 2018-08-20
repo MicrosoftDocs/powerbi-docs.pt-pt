@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329621"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658043"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Guia de introdução com propriedades de eixo e formatação de cor
 No **Power BI**, pode alterar a cor da série de dados, os pontos de dados e até mesmo o fundo das visualizações. Também pode alterar como os eixos x e y são apresentados, tendo controlo total sobre como os seus dashboards e relatórios são mostrados.
 
 Para começar, selecione um **Relatório** no painel **A Minha Área de Trabalho**. Na área de menu superior, selecione **Editar Relatório**.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 Quando estiver a editar um relatório e tiver uma visualização selecionada, é apresentado o painel **Visualizações**, o que permite adicionar ou alterar visualizações. Diretamente abaixo das visualizações disponíveis estão três ícones: **Campos** (uma pilha de barras), **Formatar** (um pincel) e **Análise** (uma lupa). Na imagem abaixo, o ícone **Campos** está selecionado, indicado por uma barra amarela abaixo do ícone.
@@ -28,6 +29,7 @@ Quando estiver a editar um relatório e tiver uma visualização selecionada, é
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 Quando selecionar **Formatar**, a área abaixo do ícone apresenta as personalizações de cor e eixo disponíveis para a visualização atualmente selecionada.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 Pode personalizar muitos elementos de cada visualização:
@@ -47,14 +49,13 @@ Pode personalizar muitos elementos de cada visualização:
 > [!NOTE]
 >  
 > Não verá todos estes elementos em cada tipo de visualização. A visualização que selecionar afetará as personalizações que estão disponíveis; por exemplo, não verá um eixo X se tiver selecionado um gráfico circular porque não há eixo x em gráficos circulares.
-> 
-> 
 
 Repare também que, se não tiver nenhuma visualização selecionada, é apresentado **Filtros** em vez dos ícones, o que permite aplicar filtros a todas as visualizações na página.
 
 Vamos mostrar alguns exemplos: um trabalha com cores, o outro altera as propriedades de um eixo. A partir daqui, deve estar pronto para personalizar cores, eixos e etiquetas o dia inteiro.
 
 ## <a name="working-with-colors"></a>Trabalhar com cores
+
 Vamos percorrer os passos necessários para personalizar cores num gráfico.
 
 1. Selecionei um **Gráfico de Colunas em Cluster** na tela do relatório.
@@ -73,9 +74,10 @@ As alterações são mostradas na imagem abaixo. Uau, aí está um gráfico bril
 2. Quer uma cor que não vê na paleta? Basta selecionar **Cores personalizadas** e escolher no espectro.  
    ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_6a.png)
 
-Não gostou da alteração que acabou de criar? Utilize **CTRL+Z** para anular, tal como está habituado a fazer.
+Não gostou da alteração que acabou de criar? Utilize **Ctrl+Z** para anular, tal como está habituado a fazer.
 
 ## <a name="changing-axis-properties"></a>Alterar as propriedades dos eixos
+
 Geralmente é útil modificar o eixo X ou Y. Semelhante ao trabalho com cores, pode modificar um eixo ao selecionar o ícone de seta para baixo à esquerda do eixo que deseja alterar, como mostrado na imagem a seguir.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ Existem todos os tipos de cores para escolher e muitas outras personalizações 
 > [!NOTE]
 >  
 > Estas personalizações de cor e eixo disponíveis quando o ícone **Formatar** é selecionado também estão disponíveis no Power BI Desktop.
-> 
-> 
 
-## <a name="next-step"></a>Passo seguinte
+## <a name="setting-color-from-text-values"></a>Definir cores com valores de texto
+
+A partir da atualização de agosto de 2018 do **Power BI Desktop**, pode definir cores pelo valor de texto (ou código hexadecimal) de um determinado elemento do relatório. Para obter mais informações, veja [Formatação condicional em tabelas](desktop-conditional-table-formatting.md).
+
+
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações, veja o seguinte artigo:  
 
 * [Sugestões e truques para formatação de cor no Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Formatação condicional em tabelas](desktop-conditional-table-formatting.md)
 

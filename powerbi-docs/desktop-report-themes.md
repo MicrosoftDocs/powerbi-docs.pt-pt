@@ -1,5 +1,5 @@
 ---
-title: Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)
+title: Utilizar Temas de Relatório no Power BI Desktop
 description: Saiba como utilizar uma paleta de cores personalizadas e aplicá-la a um relatório completo no Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721185"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657949"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
 Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou qualquer outro tema de cores que queira aplicar. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Aplicar um **Tema de Relatório** requer um ficheiro JSON, que utiliza uma estru
 
 A partir da versão de setembro de 2017 do **Power BI Desktop**, pode definir ainda mais elementos de temas de relatório através de um ficheiro JSON e personalizar (e uniformizar) quase todos os elementos com o ficheiro JSON que pode ajustar manualmente no painel **Formatação**. O objetivo da versão de setembro de 2017 (e mais tarde) é permitir o controlo total sobre o aspeto e a funcionalidade dos seus relatórios, a um nível granular.
 
-### <a name="enable-report-themes-in-preview"></a>Ativar Temas de Relatório em Pré-visualização
-Pode experimentar a nova funcionalidade **Temas de Relatório** a partir da versão de **março de 2017** do **Power BI Desktop**. Para ativar esta funcionalidade de pré-visualização, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação junto a **Temas de Relatório Personalizados**. Terá de reiniciar o **Power BI Desktop** depois de efetuar a seleção.
+### <a name="enable-report-themes"></a>Ativar Temas de Relatórios
+A partir da versão de agosto de 2018 do **Power BI Desktop**, a personalização de relatórios estará disponível para o público e não precisará de ser ativada. 
+
+Se estiver a utilizar uma versão anterior do **Power BI Desktop**, pode ativar esta funcionalidade como pré-visualização ao selecionar **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecionar a caixa de verificação junto a **Temas de Relatório Personalizados**. Terá de reiniciar o **Power BI Desktop** depois de efetuar a seleção.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Recomendamos sempre que atualize para a versão mais recente do **Power BI Desktop**, que pode obter através de uma ligação no artigo [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Como funcionam os Temas de Relatório
 Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione o botão **Mudar Tema** no friso **Base** e, em seguida, selecione **Importar Tema** na lista pendente.
@@ -53,8 +57,8 @@ O ficheiro JSON básico selecionado na secção anterior (o ficheiro *St Patrick
 
 Esse ficheiro JSON tem as seguintes linhas obrigatórias:
 
-* **name** – Nome do tema, o único campo obrigatório
-* **dataColors** – Lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode conter o número de cores desejado
+* **name** – nome do tema, o único campo obrigatório
+* **dataColors** – lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode conter o número de cores desejado
 * **background**, **foreground** e **tableAccent** – estes valores são cores que devem ser aplicadas nos vários tipos de elementos visuais. O valor **foreground** aplica-se ao texto da caixa de texto, texto de objetivo do KPI, texto do cartão de linhas múltiplas, texto do valor do cartão, texto de nota de aviso do medidor, texto do elemento da segmentação de dados vertical, texto dos valores e total da **tabela** e **matriz**. O valor **background** aplica-se ao fundo das etiquetas do gráfico de combinação e ao preenchimento do botão. A forma como estas cores são utilizadas varia consoante o estilo do elemento visual específico aplicado. Os elementos visuais de **tabela** e **matriz** aplicam estes estilos por predefinição.
 
 Para aplicar um estilo a um elemento visual de **tabela** ou **matriz**, selecione o elemento visual e, no painel **Visualizações**, selecione a secção **Formatar** e, em seguida, expanda **Estilo de matriz** e selecione um estilo no menu pendente **Estilo**.
@@ -100,7 +104,7 @@ Além disso, se tiver definido manualmente a cor de um ponto de dados através d
 Além disso, muitos **Elementos visuais personalizados** não aplicarão os Temas de Relatório.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>Ficheiros do Tema de Relatório que pode utilizar atualmente
-Quer começar a utilizar **Temas de Relatório**? Ótimo! Seguem-se alguns dos ficheiros JSON de Temas de Relatório que pode transferir e importar para o seu relatório do **Power BI Desktop**, juntamente com uma imagem do Tema de Relatório aplicado ao relatório utilizado neste artigo.
+Quer começar a utilizar **Temas de Relatório**? Excelente! Seguem-se alguns ficheiros JSON de Temas de Relatório prontos a utilizar que pode transferir e importar para o seu relatório do **Power BI Desktop**, juntamente com uma imagem do Tema de Relatório aplicado ao relatório utilizado neste artigo.
 
 * O [tema](https://go.microsoft.com/fwlink/?linkid=843924) utilizado na [mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) que anunciou a primeira versão dos **Temas de Relatório**, denominado [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 
@@ -141,7 +145,7 @@ Seguem-se mais alguns temas de relatório que pode utilizar como pontos de parti
 O ficheiro JSON básico tem cinco linhas obrigatórias:
 
 * **name** – Nome do tema, o único campo obrigatório
-* **dataColors** – Lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode conter o número de cores desejado
+* **dataColors** – lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode conter o número de cores desejado
 * **background**, **foreground** e **tableAccent** – estes valores são cores que devem ser aplicadas nos vários tipos de elementos visuais. O valor **foreground** aplica-se ao texto da caixa de texto, texto de objetivo do KPI, texto do cartão de linhas múltiplas, texto do valor do cartão, texto de nota de aviso do medidor, texto do elemento da segmentação de dados vertical, texto dos valores e total da **tabela** e **matriz**. O valor **background** aplica-se ao fundo das etiquetas do gráfico de combinação e ao preenchimento do botão. A forma como estas cores são utilizadas varia consoante o estilo do elemento visual específico aplicado. Os elementos visuais de **tabela** e **matriz** aplicam estes estilos por predefinição.
 
 Para criar um ficheiro JSON de formato extenso, com controlo mais detalhado e granular sobre a formatação, tem de adicionar uma secção **visualStyles** ao ficheiro JSON e aninhar as especificações de formatação nessa secção. O formato da secção **visualStyles** tem um aspeto semelhante ao seguinte:

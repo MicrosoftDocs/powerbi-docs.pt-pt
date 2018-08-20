@@ -7,22 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 43c103dcef6caad7e9aa36ab0f1c32939ee2dda6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fad623b9472e2992ddb0a6d43cb8d669a1f14cf7
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328586"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658133"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas no Power BI Desktop
+
 O **Power BI Desktop** ajuda-o a criar informações sobre os seus dados com apenas alguns cliques. Por vezes, estes dados simplesmente não incluem tudo o que precisa para responder a algumas das suas perguntas mais importantes. As medidas podem ajudá-lo a conseguir isso.
 
-As medidas são utilizadas em algumas das análises de dados mais comuns; por exemplo, somas, médias, valores mínimos ou máximos, contagens ou cálculos mais avançados que cria através de uma fórmula DAX. Os resultados calculados das medidas estão sempre a mudar em resposta à sua interação com os relatórios, o que permite uma exploração de dados ad-hoc rápida e dinâmica. Vamos ver isso mais de perto.
+As medidas são utilizadas em algumas das análises de dados mais comuns. Por exemplo, em somas, médias, valores mínimos ou máximos, contagens ou cálculos mais avançados que cria através de uma fórmula DAX. Os resultados calculados das medidas estão sempre a mudar em resposta à sua interação com os relatórios, o que permite uma exploração de dados ad-hoc rápida e dinâmica. Vamos ver isso mais de perto.
 
 ## <a name="understanding-measures"></a>Noções básicas sobre medidas
+
 No **Power BI Desktop**, as medidas são criadas e utilizadas na **Vista de Relatório** ou na **Vista de Dados**. As medidas que cria são apresentadas na lista Campos com um ícone de Calculadora. Pode atribuir um nome às medidas como quiser e adicioná-las a uma visualização nova ou existente, tal como qualquer outro campo.
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
@@ -33,16 +35,17 @@ No **Power BI Desktop**, as medidas são criadas e utilizadas na **Vista de Rela
 > 
 
 ## <a name="data-analysis-expressions"></a>Data Analysis Expressions
-As medidas calculam um resultado através de uma fórmula de expressão. Ao criar as suas próprias medidas, vai utilizar a linguagem de fórmulas [Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx) (DAX). O DAX inclui uma biblioteca de mais de 200 funções, operadores e construtores e fornece uma enorme flexibilidade na criação de medidas para calcular os resultados de praticamente qualquer análise de dados necessária.
 
-As fórmulas DAX são muito semelhantes às fórmulas do Excel. O DAX tem até muitas das mesmas funções, como DATA, SOMA e ESQUERDA. As funções do DAX, no entanto, devem funcionar com dados relacionais, como os que temos no Power BI Desktop.
+As medidas calculam um resultado através de uma fórmula de expressão. Ao criar as suas próprias medidas, vai utilizar a linguagem de fórmulas [Data Analysis Expressions](https://msdn.microsoft.com/library/gg413422.aspx) (DAX). O DAX inclui uma biblioteca de mais de 200 funções, operadores e construtores. Esta fornece uma enorme flexibilidade na criação de medidas para calcular os resultados de praticamente qualquer análise de dados necessária.
+
+As fórmulas DAX são muito semelhantes às fórmulas do Excel. O DAX tem até muitas das mesmas funções do Excel, como DATE (DATA), SUM (SOMA) e LEFT (ESQUERDA). As funções do DAX, no entanto, devem funcionar com dados relacionais, como os que temos no Power BI Desktop.
 
 ## <a name="lets-look-at-an-example"></a>Vejamos um exemplo
-Júlia é gestora de vendas da Contoso. Foi-lhe pedido para fornecer projeções de vendas de revendedores para o próximo ano fiscal. Decide basear as suas estimativas nos valores de vendas do ano anterior, com um aumento anual de 6% resultante de várias promoções agendadas para os próximos seis meses.
+Júlia é gestora de vendas da Contoso. Foi-lhe pedido para fornecer projeções de vendas de revendedores para o próximo ano fiscal. Júlia decide basear as estimativas nos valores de vendas do ano anterior, com um aumento anual de 6% resultante de várias promoções agendadas para os próximos seis meses.
 
-Para reportar as estimativas, importa os dados de vendas do ano anterior para o Power BI Desktop. Localiza o campo SalesAmount na tabela Reseller Sales. Como os dados que importou contêm apenas valores de vendas para o último ano, muda o nome do campo SalesAmount para Last Years Sales. Em seguida, arrasta Last Years Sales para a tela de relatórios. Aparece numa visualização de gráfico como um valor único, que é a soma de todas as vendas dos revendedores do ano anterior.
+Para criar um relatório das estimativas, Júlia importa os dados de vendas do ano anterior para o Power BI Desktop. Localiza o campo SalesAmount na tabela Reseller Sales. Como os dados que importou contêm apenas os valores de vendas do último ano, Júlia muda o nome do campo SalesAmount para Last Years Sales. Em seguida, Júlia arrasta Last Years Sales para a tela de relatórios. Aparece numa visualização de gráfico como um valor único, que é a soma de todas as vendas dos revendedores do ano anterior.
 
-Repara que um cálculo foi fornecido automaticamente, embora não tenha especificado nenhum. O Power BI Desktop criou a sua própria medida ao somar todos os valores em Last Years Sales.
+Júlia repara que foi fornecido automaticamente um cálculo, embora não tenha especificado nenhum. O Power BI Desktop criou a sua própria medida ao somar todos os valores em Last Years Sales.
 
 No entanto, Júlia precisa de uma medida para calcular as projeções de vendas para o próximo ano, que serão baseadas nas vendas do ano anterior multiplicadas por 1,06, para considerar o aumento de 6% esperado no negócio. Para este cálculo, criará a sua própria medida. Ao utilizar a funcionalidade Nova Medida, cria uma nova medida e, em seguida, introduz a seguinte fórmula DAX:
 
@@ -52,7 +55,15 @@ Em seguida, Júlia arrasta a nova medida Projected Sales para o gráfico.
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-Muito rapidamente e com o mínimo esforço, Júlia tem agora uma medida para calcular as vendas projetadas. Também pode analisar as suas projeções ao filtrar revendedores específicos ou ao adicionar outros campos ao relatório.
+Rapidamente e com o mínimo esforço, Júlia tem agora uma medida para calcular as vendas projetadas. Júlia também pode analisar as suas projeções ao filtrar revendedores específicos ou ao adicionar outros campos ao relatório.
+
+## <a name="data-categories-for-measures"></a>Categorias de dados para medidas
+
+Também pode selecionar categorias de dados para medidas. 
+
+Esta opção permite-lhe, entre outras coisas, utilizar medidas para criar URLs dinamicamente e marcar a categoria de dados como um URL da Web. 
+
+Pode criar tabelas que apresentam as medidas como URLs da Web e pode clicar no URL criado com base na sua seleção. Isto é particularmente útil quando quer ligar a outros relatórios do Power BI com [parâmetros de filtro de URL](service-url-filters.md).
 
 ## <a name="learn-more"></a>Saiba mais
 Fornecemos aqui apenas uma rápida introdução às medidas, mas há muito mais conteúdo para ajudá-lo a criar as suas próprias. Certifique-se de que vê o [Tutorial: criar as suas próprias medidas no Power BI Desktop](desktop-tutorial-create-measures.md), onde pode transferir um ficheiro de exemplo e ver lições passo-a-passo sobre como criar mais medidas.  

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217634"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657903"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Utilizar elementos visuais para melhorar relatórios do Power BI
 
@@ -60,6 +60,9 @@ Ao definir o fundo de página como tendo mais do que 50% de transparência, é a
 
 É importante ter em atenção que o limite pontilhado *apenas* aparece quando edita o relatório e *não* aparece para as pessoas que estão a ver o relatório publicado, por exemplo, quando for visualizado no **serviço do Power BI**.
 
+> [!NOTE]
+> Se utilizar imagens de cores escuras como padrão de fundo e definir a cor do texto para branco ou para uma cor muito clara, tenha em atenção que a funcionalidade **Exportar para PDF** não inclui um padrão de fundo, pelo que todos os relatórios com tipos de letra brancos serão praticamente invisíveis no ficheiro PDF exportado. Veja [Export to PDF](desktop-export-to-pdf.md) (Exportar para PDF) para obter mais informações sobre a opção **Exportar para PDF**.
+
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Utilizar cabeçalhos de elementos visuais melhorados em relatórios do Power BI
 
@@ -95,7 +98,7 @@ O novo cabeçalho de elemento visual é o comportamento predefinido para todos o
 ![Os relatórios existentes devem marcar a caixa de verificação Opções para utilizar os cabeçalhos de elementos visuais melhorados](media/desktop-visual-elements-for-reports/visual-elements-for-reports_06.png)
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

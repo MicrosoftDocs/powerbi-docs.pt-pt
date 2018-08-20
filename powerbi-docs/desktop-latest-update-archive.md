@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210382"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658156"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -30,14 +30,70 @@ As ligações ao lado de cada atualização significam o seguinte:
 * A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 * Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As secções seguintes descrevem as atualizações dos meses anteriores ao **Power BI Desktop**.
 
+## <a name="july-2018-update-26051693201"></a>Atualização de julho de 2018 (2.60.5169.3201)
+
+As grandes atualizações de julho foram dignas de fogo de artifício por si só, com funcionalidades de dados e de relatórios há muito pedidas que levam os seus elementos visuais às alturas e os fazem rebentar em espetaculares arcos de informações coloridas.
+
+As seguintes atualizações são novas no **Power BI Desktop** em julho:
+
+### <a name="modeling"></a>Modelação
+
+* Modelos compostos (Pré-visualização) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=15s) [[artigo]](desktop-composite-models.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Relações muitos para muitos (Pré-visualização) (associadas a modelos compostos) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=4m53s) [[artigo]](desktop-many-to-many-relationships.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+* Modo de armazenamento (Pré-visualização) (associado a modelos compostos) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=15s) [[artigo]](desktop-storage-mode.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
+
+
+### <a name="reporting"></a>Relatórios
+
+* Novo cabeçalho de elemento visual com mais flexibilidade e formatação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=8m26s) [[artigo]](desktop-visual-elements-for-reports.md#using-improved-visual-headers-in-power-bi-reports) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visualHeader) 
+* Formatação do padrão de fundo [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=14m19s) [[artigo]](desktop-visual-elements-for-reports.md#using-wallpaper-in-power-bi-reports) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#wallpaper) 
+* Atualização de personalização – mais elementos visuais e controlo de página (Pré-visualização) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=19m14s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#theme) 
+* Descrições para tabelas e matrizes [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tableTooltips) 
+* Desativar descrições para elementos visuais [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=22m53s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#tooltips) 
+* Acessibilidade de segmentação de dados [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=27m29s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#slicerAccessibility) 
+* Melhorias do painel de formatação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=30m18s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#formattingPane) 
+* Suporte da linha de subtotal para gráficos de linhas e de combinação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=32m46s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#steppedLine) 
+* Desativar etiquetas de dados do gráfico de combinação para séries individuais [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=34m19s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#comboDataLabels) 
+* Melhoria da experiência de classificação [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=35m44s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#sorting) 
+
+### <a name="analytics"></a>Análise
+
+* Informações de fator de distribuição [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=37m) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
+
+### <a name="custom-visuals"></a>Elementos visuais personalizados
+
+* Categoria certificada do Power BI [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=41m13s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
+* Desativar elementos visuais organizacionais específicos [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=42m32s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
+* Quatro novos elementos visuais personalizados [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=44m) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+
+### <a name="data-connectivity"></a>Conectividade de dados
+
+* Conector do IBM DB2 DirectQuery (Pré-visualização) [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=54m25s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#IBMDB2) 
+* Melhorias no conector Web De Exemplo [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=54m53s) [[artigo]](desktop-connect-to-web-by-example.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#WebByExample) 
+* SAP HANA – valores predefinidos para variáveis na experiência Introdução de Variáveis [[vídeo]](https://youtu.be/Mtig3rmIUe0?t=56m19s) [[artigo]](desktop-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#SAPHANA) 
+
+
+> [!NOTE]
+> Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
+
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+
+
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Também poderá ter interesse em saber quais são as [novidades do serviço Power BI](service-whats-new.md), bem como ver as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2018-update-2595135101"></a>Atualização de junho de 2018 (2.59.5135.101)
 
-O sol estava a brilhar nas atualizações deste mês, com funcionalidades e melhorias que aqueceram os seus relatórios e permitiram-lhe mergulhar nas informações que forneceram.
+O sol estava a brilhar nas atualizações de julho, com funcionalidades e melhorias que aqueceram os seus relatórios e lhe permitiram mergulhar nas informações que forneceram.
 
 As atualizações seguintes eram novas no **Power BI Desktop** em junho:
 
@@ -64,7 +120,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em junho:
 * Melhorias do conector de OData V4 [[vídeo]](https://youtu.be/4VpGtWSrssE?t=25m12s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * Melhorias do conector ODBC (suporte de dobragem para as Linhas Superiores, capacidade para filtrar a navegação por catálogo DSN) [[vídeo]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
-### <a name="other"></a>Outro
+### <a name="other"></a>Outras
 
 * Seletor de cloud soberana [[vídeo]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
@@ -72,9 +128,9 @@ As atualizações seguintes eram novas no **Power BI Desktop** em junho:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -126,10 +182,10 @@ As atualizações seguintes eram novas no **Power BI Desktop** em maio:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -172,10 +228,10 @@ As seguintes atualizações eram novas no **Power BI Desktop** em abril:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -209,7 +265,7 @@ Estamos confiantes quanto às atualizações de março do **Power BI Desktop**. 
 * O DirectQuery no SAP BW está agora disponível globalmente [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artigo]](desktop-directquery-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * O conector do Azure Analysis Services está agora disponível globalmente [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artigo]](desktop-directquery-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Outro
+### <a name="other"></a>Outras
 
 * Relatórios de erros melhorados [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artigo]](desktop-directquery-about.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Ver os erros anteriores que detetou [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -217,10 +273,10 @@ Estamos confiantes quanto às atualizações de março do **Power BI Desktop**. 
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -241,7 +297,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 * A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 * Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** deste mês desde o início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** deste mês do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes eram novas no **Power BI Desktop** em fevereiro de 2018:
 
@@ -269,7 +325,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em fevereiro de 2
 
 * Melhorias no DirectQuery através de SAP HANA (Pré-visualização) [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[artigo]](desktop-directquery-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Outro
+### <a name="other"></a>Outras
 
 * Melhorias de desempenho no DirectQuery [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[artigo]](desktop-directquery-about.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Melhorias de desempenho das ações Abrir e Guardar [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -281,10 +337,10 @@ As atualizações seguintes eram novas no **Power BI Desktop** em fevereiro de 2
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -304,7 +360,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 * A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 * Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** deste mês desde o início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** deste mês do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes eram novas no **Power BI Desktop** em janeiro:
 
@@ -332,9 +388,9 @@ As atualizações seguintes eram novas no **Power BI Desktop** em janeiro:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
@@ -354,7 +410,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 -   A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 -   Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em dezembro:
 
@@ -367,7 +423,7 @@ Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em 
 -   Elemento visual de dispersão de agrupamentos de eixos x e y  [[vídeo]](https://youtu.be/ZPU8B-1BxjI?t=15m12s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
 -   Amostragem de alta densidade para mapas com base na latitude e longitude  [[vídeo]](https://youtu.be/ZPU8B-1BxjI?t=17m3s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
 -   Segmentação de dados reativa  [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   Visuais personalizados recentemente lançados [[vídeo]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   Elementos visuais personalizados recentemente lançados [[vídeo]](https://youtu.be/ZPU8B-1BxjI?t=18m25s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Análise
@@ -388,9 +444,9 @@ Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em 
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
@@ -409,7 +465,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 -   A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 -   Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em novembro:
 
@@ -435,7 +491,7 @@ Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em 
 -   Conector Impala – suporte para a Autenticação do Windows [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Outros
+### <a name="other"></a>Outras
 
 -   Edição de consultas - melhorias de Adicionar Coluna a partir dos Exemplos [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 
@@ -444,9 +500,9 @@ Foram introduzidas as seguintes novas atualizações no **Power BI Desktop** em 
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
@@ -468,7 +524,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 -   A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 -   Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
@@ -502,9 +558,9 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
@@ -542,9 +598,9 @@ As atualizações seguintes são novas no **Power BI Desktop** em setembro:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
@@ -587,9 +643,9 @@ As atualizações seguintes eram novas no **Power BI Desktop** em agosto:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
@@ -637,9 +693,9 @@ As atualizações seguintes eram novas no **Power BI Desktop** em julho:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
-O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
+O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
@@ -915,7 +971,7 @@ O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode
 ## <a name="november-2016-update-2414581301"></a>Atualização de novembro de 2016 (2.41.4581.301)
 
 
-As atualizações seguintes eram novas no Power BI Desktop em novembro:
+Foram introduzidas as seguintes novas atualizações no Power BI Desktop em novembro:
 
 
 ### <a name="report-view"></a>Vista de Relatório:
@@ -1080,7 +1136,7 @@ O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode
 
 Em agosto, foi apresentado um conjunto completo de novas funcionalidades para o Power BI Desktop:
 
--   **[vídeo]**  são reproduzidos excertos num novo separador do browser, quando a funcionalidade está a ser debatida.
+-   Os excertos de **[vídeo]** são reproduzidos num novo separador do browser, quando a funcionalidade está a ser debatida.
 -   Algumas funcionalidades têm um **[artigo]** que fornece mais detalhes.
 -   A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 -   Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
@@ -1400,7 +1456,7 @@ Estamos a avançar com mais atualizações este mês! Fevereiro traz 29 dias do 
 
 ### <a name="report-view"></a>Vista de Relatório:
 
--   Consulte os dados por trás de um elemento visual (incluindo *exportar dados para CSV*)
+-   Veja os dados por trás de um elemento visual (incluindo *exportar dados para CSV*)
 -   Melhorias de mapa – desenhe o mapa apenas com a latitude/longitude
 -   Suporte para a versão de consumo de KPI (incluindo suporte para a hierarquia de navegação e a tendência do KPI para SSAS MD)
 -   Modo de Exploração do SSAS: suporte para pastas **Apresentação** no painel **Campos**
@@ -1520,7 +1576,7 @@ Dezembro é um mês para ofertar, e a equipa do Power BI está a prosseguir com 
     - Controlo de deslize de zoom
     - Ajustar zoom ao ecrã
     - Repor esquema
-    - Capacidade de ampliar com CTRL+ (intervalo de seleção do rato)
+    - Capacidade de ampliar com Ctrl+ (intervalo de seleção do rato)
 
 ### <a name="data-connectivity"></a>Conectividade de Dados:
 
@@ -1733,9 +1789,9 @@ As seguintes funcionalidades foram adicionadas a esta atualização:
 
 -   Caixa de diálogo Navegador redimensionável
 
--   Capacidade de selecionar vários itens no Navegador (CTRL+clique, SHIFT+clique, etc.)
+-   Capacidade de selecionar vários itens no Navegador (Ctrl+clique, Shift+clique, etc.)
 
-**Melhorias do Editor de Consultas:**
+**Melhorias no Editor de Consultas:**
 
 -   Melhorias de criação/eliminação de Grupo de Consultas (seleção múltipla, etc.)
 
