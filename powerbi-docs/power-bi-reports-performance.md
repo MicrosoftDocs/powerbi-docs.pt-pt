@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582577"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257246"
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores Práticas para o Desempenho do Power BI 
 Este artigo oferece orientação para construir relatórios rápidos e fiáveis no Power BI.  
@@ -46,10 +46,10 @@ Para obter mais orientação sobre como otimizar as origens de dados para o Dire
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery e Ligação em Direto: compreender o desempenho das origens de dados subjacentes 
 
-No caso do DirectQuery ou da ligação em direto, quando os utilizadores acedem a um relatório do Power BI, o programa envia consultas em tempo real para a origem de dados subjacente. O relatório é composto após a origem de dados devolver os dados da consulta. Como resultado, o desempenho do seu relatório nestes casos depende, em grande parte, do desempenho da origem de dados subjacente. 
- 
-Nestes casos, é importante compreender o desempenho da sua origem de dados subjacente. Diferentes origens de dados terão diferentes ferramentas para compreender o desempenho das consultas. Por exemplo, o SQL Server e o Azure SQL fornecem o Arquivo de Consultas, que captura um histórico das consultas e as respetivas estatísticas de tempo de execução. 
- 
+No caso do DirectQuery ou da ligação em direto, quando os utilizadores acedem a um relatório do Power BI, o programa envia consultas em tempo real para a origem de dados subjacente. O relatório é composto após a origem de dados devolver os dados da consulta. Como resultado, o desempenho do seu relatório nestes casos depende, em grande parte, do desempenho da origem de dados subjacente.
+
+Nestes casos, é importante compreender o desempenho da sua origem de dados subjacente. Diferentes origens de dados terão diferentes ferramentas para compreender o desempenho das consultas. Por exemplo, o SQL Server e o Azure SQL fornecem o Arquivo de Consultas, que captura um histórico das consultas e as respetivas estatísticas de tempo de execução.
+
 Regra geral, ao implementar relatórios do Power BI através do DirectQuery e da ligação em direto, experimente executar algumas das ações que os utilizadores finais realizarão no Power BI Desktop. Se o relatório demorar muito a carregar no Power BI Desktop, certamente será lento a carregar no serviço dos seus utilizadores finais. 
  
 ## <a name="directquery-best-practices"></a>Melhores práticas do DirectQuery 
