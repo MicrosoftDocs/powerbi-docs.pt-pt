@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965510"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256966"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -42,11 +42,11 @@ No portal, existem seis separadores. Estão descritos abaixo.
 * [Definições de inquilino](#tenant-settings)
 * [Definições Premium](#premium-settings)
 * [Códigos de incorporação](#embed-codes)
-* [Elemento visuais da organização](#Organization-visuals)
+* [Elementos visuais da organização](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
-## <a name="usage-metrics"></a>Métrica de utilização
+## <a name="usage-metrics"></a>Métricas de utilização
 O primeiro separador no portal de administração é **Métricas de utilização**. O relatório de métricas de utilização permite monitorizar a utilização no Power BI relativamente à sua organização. Permite também ver quais os utilizadores e os grupos mais ativos no Power BI para a sua organização.
 
 > [!NOTE]
@@ -100,36 +100,37 @@ Para obter mais informações sobre registos de auditoria, veja [Auditoria do Po
 
 O quarto separador no portal de administração é **Definições de inquilino**. As definições de inquilino dão-lhe mais controlo sobre as funcionalidades disponibilizadas para a sua organização. Se tiver problemas com dados confidenciais, algumas das nossas funcionalidades podem não ser adequadas para a sua organização ou pode querer apenas uma determinada funcionalidade disponível para um grupo específico. Se for este o caso, pode desativar a definição no inquilino.
 
-Por exemplo, os dados por utilizador estão ativados para métricas de utilização por predefinição e as informações da conta do criador de conteúdos estão incluídas no relatório de métricas. Se não quiser incluir estas informações para alguns ou para todos os utilizadores, desative a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta serão apresentadas no relatório como *Sem nome*.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > Pode demorar até 10 minutos para a definição ter efeito para todos os utilizadores no inquilino.
 
-As definições podem ter três estados com base nas definições que especificou.
+As definições podem ter três estados:
 
-### <a name="disabled-for-the-entire-organization"></a>Desativada para toda a organização
+* **Desativado para toda a organização**: pode desativar uma funcionalidade para que os utilizadores não a possam utilizar.
 
-Pode desativar uma funcionalidade para que os utilizadores não a possam utilizar.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Ativado para toda a organização**: pode ativar uma funcionalidade para toda a organização, o que permitirá que todos os utilizadores tenham acesso à mesma.
 
-### <a name="enabled-for-the-entire-organization"></a>Ativada para toda a organização
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-Pode ativar uma funcionalidade para toda a organização, o que permitirá que todos os utilizadores tenham acesso à mesma.
+* **Ativado para um subconjunto da organização**: também pode ativar uma funcionalidade para uma parte da sua organização. Isto pode acontecer de formas diferentes. Pode ativá-la para toda a organização, exceto para um grupo específico de utilizadores.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Ativada para um subconjunto da organização
+    Pode também ativar a funcionalidade apenas para um grupo específico de utilizadores ou desativá-la para um grupo de utilizadores. Isto assegura que determinados utilizadores não tenham acesso à funcionalidade mesmo que estejam no grupo permitido.
 
-Também pode ativar uma funcionalidade para uma parte da sua organização. Isto pode acontecer de formas diferentes. Pode ativá-la para toda a organização, exceto para um grupo específico de utilizadores.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+As próximas secções fornecem uma descrição geral dos diferentes tipos de definições de inquilino.
 
-Pode também ativar a funcionalidade apenas para um grupo específico de utilizadores ou desativá-la para um grupo de utilizadores. Isto assegura que determinados utilizadores não tenham acesso à funcionalidade mesmo que estejam no grupo permitido.
+## <a name="workspace-settings"></a>Definições de área de trabalho
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Criar áreas de trabalho (pré-visualização)
+Os utilizadores na organização podem criar áreas de trabalho de aplicações para colaborar em dashboards, relatórios e noutros conteúdos.
+
+Para obter mais informações, veja [Criar as novas áreas de trabalho](service-create-the-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Definições de exportação e partilha
 
@@ -244,9 +245,9 @@ Os utilizadores na organização podem interagir e partilhar elementos visuais c
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
 
-## <a name="audit-settings"></a>Definições de auditoria
+## <a name="audit-and-usage-settings"></a>Definições de utilização e auditoria
 
-### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Criar registos de auditoria para auditoria e conformidade da atividade interna
+### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Criar registos de auditoria para auditoria de atividade interna e de conformidade
 
 Os utilizadores na organização podem utilizar a auditoria para monitorizar as ações executadas no Power BI por outros utilizadores na organização. [Saiba mais](service-admin-auditing.md)
 
@@ -254,6 +255,25 @@ Esta definição tem de estar ativada para as entradas de registo de auditoria s
 
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
+
+### <a name="usage-metrics-for-content-creators"></a>Métricas de utilização para criadores de conteúdo
+Os utilizadores na organização podem ver as métricas de utilização dos dashboards e relatórios que criaram. [Saiba mais](service-usage-metrics.md).
+
+Pode mudar a definição para **Ativado** e, em seguida, especificar quem pode ver as métricas de utilização (toda a organização ou grupos de segurança específicos).
+
+> [!NOTE]
+> Lembre-se de que as alterações de definições de inquilino podem demorar algum tempo a entrar em vigor.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Dados por utilizador em métricas de utilização para criadores de conteúdo
+As métricas de utilização para os criadores de conteúdo irão expor nomes a apresentar e endereços de e-mail de utilizadores que estão a aceder ao conteúdo. [Saiba mais](service-usage-metrics.md).
+
+Pode mudar a definição para **Ativado** e, em seguida, especificar quem pode ver os nomes a apresentar e endereços de e-mail nas métricas de utilização (toda a organização ou grupos de segurança específicos).
+
+Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta do criador de conteúdo estão incluídas no relatório de métricas. Se não quiser incluir estas informações para alguns ou para todos os utilizadores, desative a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta serão apresentadas no relatório como *Sem nome*.
+
+> [!NOTE]
+> Lembre-se de que as alterações de definições de inquilino podem demorar algum tempo a entrar em vigor.
+
 
 ## <a name="dashboard-settings"></a>Definições do dashboard
 
@@ -270,9 +290,9 @@ Os utilizadores na organização podem identificar os dashboards com classifica�
 
 Os utilizadores na organização podem incorporar dashboards e relatórios do Power BI em aplicações Software como Serviço (SaaS). Desativar esta definição impedirá os utilizadores de usarem as APIs REST para incorporar conteúdo do Power BI na respetiva aplicação.
 
-## <a name="premium-settings"></a>Definições Premium
+## <a name="capacity-settings"></a>Definições de capacidade
 
-O separador Definições Premium permite gerir qualquer capacidade do Power BI Premium comprada para a sua organização. Todos os utilizadores na sua organização verão o separador Definições Premium, mas apenas verão o conteúdo no mesmo se estiverem atribuídos como **Administrador de capacidade** ou um utilizador com permissões de atribuição. Se um utilizador não tiver nenhuma permissão, verá a mensagem seguinte.
+O separador Definições de capacidade permite gerir qualquer capacidade do Power BI Premium comprada para a sua organização. Todos os utilizadores na sua organização verão o separador Definições Premium, mas apenas verão o conteúdo no mesmo se estiverem atribuídos como **Administrador de capacidade** ou um utilizador com permissões de atribuição. Se um utilizador não tiver nenhuma permissão, verá a mensagem seguinte.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "Sem acesso às definições Premium")
 

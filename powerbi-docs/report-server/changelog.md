@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482136"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256421"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -22,6 +22,18 @@ Este registo de alterações destina-se ao Power BI Report Server e lista novos 
 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
 
+## <a name="august-2018"></a>Agosto de 2018
+- **Power BI Report Server**
+    - *Versão 1.3.6801.38816 (Compilação 15.0.2.540), Lançamento: 15 de agosto de 2018*
+        - Funcionalidades
+            - Agora os Relatórios do Power BI suportam o DirectQuery SSO SAP HANA com o Kerberos
+            - API de Elemento Visual Personalizado fornecida com o lançamento – versão 1.13.0
+            - Os elementos visuais personalizados serão revertidos para uma versão anterior compatível com a versão atual da API do servidor (caso compatível)
+
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+    - *Versão: 2.61.5192.64 (agosto de 2018). Lançamento: 15 de agosto de 2018*
+        - Contém as alterações necessárias para a ligação com o Power BI Report Server (agosto de 2018)         
+        
 ## <a name="march-2018"></a>Março de 2018
 - **Power BI Report Server**
     - *Versão 1.2.6690.34729 (Compilação 15.0.2.402), Lançamento: 27 de abril de 2018*
@@ -95,7 +107,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
             - Suporte de Modelo de Dados Incorporados
             - Visualização de Livros do Excel (com a integração do Office Online Server ativada)
             - Atualização de Dados Agendada (PBIX)
-            - Suporte de Consulta Direta
+            - Suporte de DirectQuery
             - Suporte de Ficheiros Grandes (até 2 GB)
             - API REST pública
             - Suporte de Conjunto de Dados partilhado no Power BI Desktop (através de oData)

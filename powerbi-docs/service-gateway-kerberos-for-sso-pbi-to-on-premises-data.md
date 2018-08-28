@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964843"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257152"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 Pode obter conectividade totalmente integrada de início de sessão único, ao ativar os relatórios e dashboards do Power BI para atualizarem a partir de dados no local, através da configuração do Gateway de dados no local com o Kerberos. O Gateway de dados no local facilita o início de sessão único (SSO) com o DirectQuery, que utiliza para ligar às origens de dados no local.
@@ -51,9 +51,7 @@ Seguem-se detalhes adicionais sobre esses passos:
    - A representação de utilizadores e ligação à base de dados apenas é bem-sucedida se a conta do serviço de gateway for uma conta de domínio (ou SID do serviço) e se a delegação restrita de Kerberos tiver sido configurada para que a base de dados aceite permissões Kerberos da conta do serviço de gateway.  
    
    > [!NOTE]
-   > Relativamente ao sid do serviço, se AAD DirSync/Ligar estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não tem de efetuar pesquisas de AD locais no tempo de execução e pode utilizar o SID do Serviço local (em vez de uma conta de domínio) para o serviço de gateway.  Os passos de configuração da delegação restrita de Kerberos descritos neste documento são os mesmos (mas aplicados com base no SID do serviço, em vez da conta de domínio).
-   > 
-   > 
+   > Relativamente ao SID do serviço, se AAD DirSync/Ligar estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não terá de efetuar pesquisas de AD locais no tempo de execução e pode utilizar o SID do Serviço local (em vez de uma conta de domínio) para o serviço de gateway. Os passos de configuração da Delegação Restrita de Kerberos descritos neste artigo são os mesmos da configuração (a diferença é que são aplicados ao objeto do computador do gateway no Active Directory, em vez de à conta do domínio).
 
 
 > [!NOTE]

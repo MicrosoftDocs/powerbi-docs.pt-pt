@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 61421db59a6488394cad0b8a921590a90b020bff
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280645"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257092"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados às quais pode ligar e obter acesso aos dados. Este artigo descreve as origens de dados do Power BI que suportam o método de ligação conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, veja [**DirectQuery no Power BI**](desktop-directquery-about.md).
@@ -23,6 +23,7 @@ O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados �
 As seguintes origens de dados suportam o DirectQuery no Power BI:
 
 * Amazon Redshift
+* Azure Databricks
 * Azure HDInsight Spark (Beta)
 * Base de Dados SQL do Azure
 * SQL Data Warehouse do Azure
@@ -70,7 +71,7 @@ A seguinte tabela especifica se um **Gateway de dados no local** é necessário 
 
 
 ## <a name="next-steps"></a>Próximos passos
-Para obter mais informações sobre o DirectQuery, veja os seguintes recursos:
+Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:
 
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [DirectQuery e SAP HANA](desktop-directquery-sap-hana.md)

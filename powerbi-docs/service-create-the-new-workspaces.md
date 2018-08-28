@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624758"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256970"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Criar as novas áreas de trabalho (pré-visualização) no Power BI
 
@@ -112,8 +112,8 @@ As novas áreas de trabalho dispõem de três funções: administradores, membro
 **Os membros podem:** 
 
 - Adicionar membros ou outras pessoas com permissões mais baixas.
-- Publicar e atualizar aplicações.
-- Partilhar itens e aplicações.
+- Publicar e atualizar uma aplicação.
+- Partilhar um item ou uma aplicação.
 - Permitir que outras pessoas voltem a partilhar itens.
 - Fazer tudo o que os contribuidores podem fazer.
 
@@ -129,7 +129,7 @@ Estamos a criar fluxos de trabalho Pedir Acesso no serviço para que os utilizad
 
 ## <a name="distribute-an-app"></a>Distribuir uma aplicação
 
-Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e, em seguida, publique-os como uma *aplicação*. Os seus colegas podem obter as suas aplicações de algumas formas diferentes. Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. Caso contrário, os utilizadores podem encontrar e instalar as aplicações a partir do Microsoft AppSource ou pode enviar-lhes uma ligação direta. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Veja [Publicar aplicações com dashboards e relatórios no Power BI](service-create-distribute-apps.md) para obter detalhes.
+Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e, em seguida, publique-os como uma *aplicação*. Pode criar uma aplicação a partir de cada área de trabalho. Os seus colegas podem obter a sua aplicação de algumas formas diferentes. Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. Caso contrário, os utilizadores podem procurar e instalar as aplicações a partir do Microsoft AppSource ou pode enviar-lhes uma ligação direta. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Veja [Publicar aplicações com dashboards e relatórios no Power BI](service-create-distribute-apps.md) para obter detalhes.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Converter as áreas de trabalho de aplicação antigas em novas áreas de trabalho de aplicação
 
@@ -161,7 +161,7 @@ Algumas outras funcionalidades da pré-visualização da nova área de trabalho 
 Algumas funcionalidades funcionam de forma diferente das áreas de trabalho de aplicação atuais nas novas áreas de trabalho de aplicação. Estas diferenças são intencionais, baseadas no feedback que recebemos dos clientes e irão permitir uma abordagem mais flexível à colaboração com as áreas de trabalho:
 
 - Os membros podem ou não podem voltar a partilhar: esta opção foi substituída pela função Contribuidor
-- Áreas de trabalho só de leitura: esta opção será substituída pela futura função Visualizador, que permite o acesso só de leitura a conteúdos numa área de trabalho.
+- Áreas de trabalho só de leitura: em vez de conceder aos utilizadores o acesso só de leitura a uma área de trabalho, terá de atribuir os utilizadores a uma futura função de Visualizador, que permite um semelhante acesso só de leitura ao conteúdo numa área de trabalho.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

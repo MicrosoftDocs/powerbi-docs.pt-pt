@@ -1,6 +1,6 @@
 ---
 title: Utilizar ferramentas de programador para criar visuais personalizados
-description: Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
+description: Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power BI com as ferramentas de programador.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -9,15 +9,15 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600385"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256834"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Utilizar ferramentas de programador para criar visuais personalizados
-Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
+Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power BI com as ferramentas de programador.
 
 > [!NOTE]
 > Pode utilizar este documento para começar a trabalhar. Para obter mais informações aprofundadas, consulte as informações de referência no [repositório de git do Power BI Visuals](https://github.com/Microsoft/PowerBI-visuals).
@@ -178,10 +178,10 @@ Agora pode começar a desenvolver o seu elemento visual.
 Pode criar um novo projeto visual executando o seguinte comando.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-Pode substituir *Nome do meu Visual* pelo nome que pretende conceder ao elemento visual. Isto pode ser alterado posteriormente, modificando os campos `name` e `displayName` no ficheiro `pbiviz.json` gerado.
+Pode substituir *MyVisualName* pelo nome que pretende atribuir ao elemento visual. Isto pode ser alterado posteriormente, modificando os campos `name` e `displayName` no ficheiro `pbiviz.json` gerado.
 
 Este comando cria uma nova pasta em direto onde o comando foi executado. Será gerado um modelo de arranque básico para o elemento visual. Depois do comando ser concluído, pode abrir o diretório e utilizar o seu editor preferido para começar a trabalhar no seu novo elemento visual.
 

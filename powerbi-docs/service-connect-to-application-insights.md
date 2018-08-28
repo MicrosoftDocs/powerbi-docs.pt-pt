@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244255"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257346"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Ligue-se ao Application Insights com o Power BI
 Use o Power BI para criar dashboards personalizados eficientes através da telemetria do [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Veja a telemetria da sua aplicação de novas maneiras. Combine métricas de várias aplicações ou serviços componentes num único dashboard. Esta primeira versão do pacote de conteúdos do Power BI para o Application Insights inclui widgets de métricas comuns relacionadas com a utilização, como utilizadores ativos, exibição de página, sessões, versão do browser e do SO e distribuição geográfica de utilizadores num mapa.
@@ -23,7 +23,7 @@ Use o Power BI para criar dashboards personalizados eficientes através da telem
 Ligue-se ao [pacote de conteúdos do Application Insights para o Power BI](https://app.powerbi.com/getdata/services/application-insights).
 
 >[!NOTE]
->É necessário aceder ao painel de visão geral do Application Insights da aplicação no Portal de Pré-Visualização do Azure para ligar-se. Mais detalhes sobre os requisitos abaixo.
+>Este método de integração já está **preterido**. Para saber mais sobre o método preferencial de ligação do Application Insights ao Power BI, utilize a [funcionalidade para exportar consultas de análise](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries).
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.

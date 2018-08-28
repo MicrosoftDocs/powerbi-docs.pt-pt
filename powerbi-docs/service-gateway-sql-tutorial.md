@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926519"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257099"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: ligar a dados no local no SQL Server
 
@@ -107,7 +107,7 @@ Agora que tem dados de exemplo nos quais pode trabalhar, pode ligar-se ao SQL Se
 
     ![Gráfico de colunas empilhadas](media/service-gateway-sql-tutorial/column-chart.png)    
 
-6. Com o gráfico de colunas selecionado na tela do relatório, no painel **Campos**, selecione os campos **Categoria** e **Vendas**.  
+6. Com o gráfico de colunas selecionado na tela do relatório, no painel **Campos**, selecione os campos **Produto** e **Vendas**.  
 
     ![Selecionar campos](media/service-gateway-sql-tutorial/select-fields.png)
 
@@ -143,7 +143,7 @@ No Power BI Desktop, liga-se diretamente ao SQL Server, mas o serviço Power B
     ![Introduzir definições de origens de dados](media/service-gateway-sql-tutorial/data-source-settings.png)
 
 
-   |          Opção           |                                               Valor                                                |
+   |          Opção           |                                               Value                                                |
    |---------------------------|----------------------------------------------------------------------------------------------------|
    |   **Nome da Origem de Dados**    |                                          test-sql-source                                           |
    |   **Tipo de Origem de Dados**    |                                             SQL Server                                             |

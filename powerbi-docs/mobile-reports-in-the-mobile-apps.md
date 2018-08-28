@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799424"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256937"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -84,7 +84,7 @@ Quando seleciona um valor num visual, este não filtra os outros visuais. Realç
 ## <a name="drill-down-and-up-in-a-visual"></a>Desagregar e agregar num elemento visual
 Se o autor do relatório tiver adicionado uma capacidade de desagregação a um elemento visual, poderá desagregar no elemento visual para ver os valores que constituem uma parte do mesmo. Pode [adicionar desagregações a um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço Power BI. 
 
-* Toque num ponto de dados num elemento visual para apresentar a respetiva descrição. Se estiver desagregado, a parte inferior da descrição incluirá setas nas quais pode tocar. 
+* Toque sem soltar numa barra ou ponto específico num elemento visual para apresentar a respetiva descrição. Se estiver desagregado, a parte inferior da descrição incluirá setas nas quais pode tocar. 
   
   ![Desagregar num visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

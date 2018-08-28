@@ -2,21 +2,21 @@
 title: Incorporar com peças Web de relatórios no SharePoint Online
 description: Com a nova peça Web de relatórios do Power BI para o SharePoint Online, pode facilmente incorporar relatórios interativos do Power BI em páginas do SharePoint Online.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.date: 08/16/2018
+ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032054"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256934"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -28,11 +28,12 @@ Ao utilizar a opção nova **Incorporar no SharePoint Online**, os relatórios i
 
 Eis alguns requisitos para que os relatórios **Incorporar no SharePoint Online** funcionem.
 
+* Precisa de uma licença do Power BI Pro ou uma [capacidade do Power BI Premium (EM ou P SKU)](service-premium.md#premium-capacity-nodes) com uma licença do Power BI.
 * A peça Web do Power BI para o SharePoint Online requer as [Páginas Modernas](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
 
 ## <a name="embed-your-report"></a>Incorporar o seu relatório
 
-Para incorporar o seu relatório no SharePoint Online, terá primeiro de obter o URL do relatório e, em seguida, utilizar esse URL com a nova peça Web do Power BI no SharePoint Online.
+Para incorporar o seu relatório no SharePoint Online, tem primeiro de obter o URL do relatório e, em seguida, utilizar esse URL com a nova peça Web do Power BI no SharePoint Online.
 
 ### <a name="get-a-url-to-your-report"></a>Obter um URL do seu relatório
 
@@ -69,7 +70,7 @@ Para incorporar o seu relatório no SharePoint Online, terá primeiro de obter o
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Cole o URL do relatório no painel da propriedade. Este é o URL que copiou nos passos anteriores. O relatório será carregado automaticamente.
+4. Cole o URL do relatório no painel da propriedade. Este é o URL que copiou nos passos anteriores. O relatório é carregado automaticamente.
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -84,7 +85,7 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores podem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
+Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores conseguem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
 
 Em alternativa, pode fazer o seguinte para conceder aos utilizadores acesso ao seu relatório.
 
@@ -107,10 +108,10 @@ Segue-se uma descrição das definições que podem ser ajustadas na peça Web P
 
 ## <a name="multi-factor-authentication"></a>Autenticação multifator
 
-Se o seu ambiente do Power BI requerer que inicie sessão através da autenticação multifator, poderá ser-lhe pedido que inicie sessão com um dispositivo de segurança para verificar a sua identidade. Isto irá ocorrer se não tiver iniciado sessão no SharePoint Online através da autenticação multifator, mas o seu ambiente do Power BI requerer uma conta validada por um dispositivo de segurança.
+Se o seu ambiente do Power BI requerer que inicie sessão através da autenticação multifator, poderá ser-lhe pedido que inicie sessão com um dispositivo de segurança para verificar a sua identidade. Isto ocorre se não tiver iniciado sessão no SharePoint Online através da autenticação multifator, mas o seu ambiente do Power BI requerer uma conta validada por um dispositivo de segurança.
 
 > [!NOTE]
-> A autenticação multifator ainda não é suportada no Azure Active Directory 2.0. Os utilizadores receberão uma mensagem a indicar *erro*. Se o utilizador voltar a iniciar sessão no SharePoint Online através do respetivo dispositivo de segurança, este poderá ver o relatório.
+> A autenticação multifator ainda não é suportada no Azure Active Directory 2.0. Os utilizadores recebem uma mensagem a indicar *erro*. Se o utilizador voltar a iniciar sessão no SharePoint Online através do respetivo dispositivo de segurança, este conseguirá ver o relatório.
 
 ## <a name="reports-that-do-not-load"></a>Relatórios que não são carregados
 
@@ -137,7 +138,7 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 
   2. Se a sua conta de utilizador requer autenticação multifator (MFA), certifique-se de que inicia sessão no SharePoint através do seu dispositivo de autenticação multifator (aplicação para telemóvel, smart card, etc.)
   
-  3. As contas de utilizadores Convidados do Azure B2B não são suportadas. Os utilizadores verão o logótipo do Power BI que mostra que a peça está a ser carregada, mas não será apresentado o relatório.
+  3. As contas de utilizadores Convidados do Azure B2B não são suportadas. Os utilizadores veem o logótipo do Power BI que mostra que a peça está a ser carregada, mas não será apresentado o relatório.
 
 * O Power BI não suporta os mesmos idiomas localizados que o SharePoint Online. Como tal, poderá não ver uma devida localização no relatório incorporado.
 
@@ -152,6 +153,6 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 [Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Permitir ou impedir a criação de páginas de sites modernos por utilizadores finais)  
 [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI)  
 [Partilhar um dashboard com colegas e outros utilizadores](service-share-dashboards.md)  
-[Power BI Premium - what is it?](service-premium.md) (Power BI Premium – o que é?)  
+[Power BI Premium – o que é?](service-premium.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
