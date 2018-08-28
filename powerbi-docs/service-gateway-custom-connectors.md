@@ -2,7 +2,7 @@
 title: Utilizar conectores de dados personalizados com o Gateway de dados no local
 description: Pode utilizar conectores de dados personalizados com o gateway de dados no local.
 author: mgblythe
-ms.author: mblyth
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8230a1df7db7758c34bf45c5a33e991ddf08dde5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
+ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39713134"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "42702874"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Utilizar conectores de dados personalizados com o Gateway de dados no local
 
@@ -48,13 +48,13 @@ Quando esta opção estiver ativada, verá os seus conectores personalizados com
 * Os conectores personalizados com o método de autenticação OAuth não são suportados.
 * Os conectores personalizados que utilizam o DirectQuery não são suportados.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 * [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 * [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
-* [Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
+* [Gerir a sua origem de dados - Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 * [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 * [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
 * [Configurar as definições de proxy do Gateway de dados no local](service-gateway-proxy.md)  
