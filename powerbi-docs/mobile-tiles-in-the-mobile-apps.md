@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280139"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151958"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -28,10 +28,6 @@ Os mosaicos são instantâneos dinâmicos dos seus dados, afixados a um dashboar
 Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de detalhe e interage com eles. É possível abrir mosaicos com todos os tipos de elementos visuais, incluindo mosaicos baseados em Bing e R.
 
 ## <a name="tiles-in-the-ios-apps"></a>Mosaicos nas aplicações iOS
-> [!NOTE]
-> Pode [criar mosaicos de imagem com a sua aplicação para iPhone](mobile-iphone-app-get-started.md) e guardá-los nos seus dashboards.
-> 
-> 
 
 1. Abra um [dashboard na aplicação móvel para iOS](mobile-apps-view-dashboard.md).
 2. Toque num mosaico. O mosaico abre no modo de detalhe, onde é mais fácil ver e explorar os dados do mosaico. No modo de detalhe, pode:
@@ -40,7 +36,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas Deste Ano</em>* e **Vendas do Último Ano** em **agosto**.*  
+   *Por exemplo, neste gráfico de linhas, os valores selecionados são para **Vendas deste Ano** e **Vendas do Último Ano** em **agosto**.*  
    
    Num gráfico circular, toque num setor do gráfico para mostrar o valor do setor na parte superior do gráfico.  
    
@@ -107,7 +103,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>Neste gráfico de barras, os valores da barra **Decoração</em>* são apresentados na parte superior do gráfico.*
+   *Neste gráfico de barras, os valores da barra **Decor** são apresentados na parte superior do gráfico.*
    
    Toque no ícone **Ecrã inteiro** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o mosaico em modo de ecrã inteiro, sem as barras de navegação e de menus.
    
