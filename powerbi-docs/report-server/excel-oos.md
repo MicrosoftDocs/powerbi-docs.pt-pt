@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257916"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703012"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 
@@ -37,7 +37,7 @@ Execute estes procedimentos no servidor que irá executar o Office Online Server
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ Se pretende utilizar quaisquer funcionalidades do Excel Online que utilizam o ac
 1. Transfira o Office Online Server a partir do [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). A transferência está localizada nesses produtos do Office no portal do VLSC. Para fins de desenvolvimento, pode transferir o OOS a partir de transferências de subscritor do MSDN.
 2. Execute o Setup.exe.
 3. Na página **Leia os Termos de Licenciamento de Software Microsoft**, selecione **Aceito os termos deste contrato** e selecione **Continuar**.
-4. Na página **Escolha uma localização de ficheiro**, selecione a pasta onde pretende que os ficheiros do Office Online Server sejam instalados (por exemplo, *C:\Program Files\Microsoft Office Web Apps*) e selecione **Instalar Agora**. Se a pasta que especificou não existir, a Configuração cria a mesma por si.
+4. Na página **Escolha uma localização de ficheiro**, selecione a pasta onde quer que os ficheiros do Office Online Server sejam instalados (por exemplo, C:\Program Files\Microsoft Office Web Apps*) e selecione **Instalar Agora**. Se a pasta que especificou não existir, a Configuração cria a mesma por si.
 
-    **_Recomendamos que instale o Office Online Server na unidade do sistema._**
+    Recomendamos que instale o Office Online Server na unidade do sistema.
 
 5. Quando a Configuração terminar de instalar o Office Online Server, selecione **Fechar**.
 
@@ -180,7 +180,7 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-* Terá a capacidade de só de leitura nos livros.
+* Terá apenas a capacidade de leitura nos livros.
 
 ## <a name="next-steps"></a>Próximos passos
 

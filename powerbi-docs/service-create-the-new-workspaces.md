@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40256970"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914525"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Criar as novas áreas de trabalho (pré-visualização) no Power BI
 
@@ -29,12 +29,13 @@ Com a pré-visualização das novas áreas de trabalho, pode:
 - Criar uma área de trabalho no Power BI sem criar um grupo do Office 365.
 - Utilizar funções de áreas de trabalho mais avançadas para uma gestão de permissões mais flexível numa área de trabalho.
  
-Ao criar uma das novas áreas de trabalho, não está a criar um grupo do Office 365 subjacente associado. Todas as tarefas de administração da área de trabalho são efetuadas no Power BI, não no Office 365. Ainda pode adicionar um grupo do Office 365 à área de trabalho para continuar a gerir o acesso dos utilizadores aos conteúdos através de grupos do Office 365. No entanto, também pode utilizar grupos de segurança, listas de distribuição e adicionar utilizadores individuais diretamente no Power BI, o que lhe permite gerir de forma flexível o acesso à área de trabalho
+Ao criar uma das novas áreas de trabalho, não está a criar um grupo do Office 365 subjacente associado. Todas as tarefas de administração da área de trabalho são efetuadas no Power BI, não no Office 365. Ainda pode adicionar um grupo do Office 365 à área de trabalho para continuar a gerir o acesso dos utilizadores aos conteúdos através de grupos do Office 365. No entanto, também pode utilizar grupos de segurança, listas de distribuição e adicionar utilizadores individuais diretamente no Power BI, o que lhe permite gerir de forma flexível o acesso à área de trabalho. Como a administração da área de trabalho é agora feita no Power BI, os administradores do Power BI decidem quem na organização pode criar áreas de trabalho. Veja o [artigo do portal de administração do Power BI, na secção Áreas de trabalho](service-admin-portal.md#workspace-settings), para obter detalhes. 
 
 Pode adicionar grupos de utilizadores ou utilizadores individuais às novas áreas de trabalho como membros, contribuidores ou administradores. Todas as pessoas num grupo de utilizadores obtêm a função que definiu. Se um utilizador estiver em múltiplos grupos de utilizadores, este recebe o nível de permissão mais elevado concedido pela função.  Veja [Funções nas novas áreas de trabalho](#roles-in-the-new-workspaces) mais adiante neste artigo para obter uma explicação sobre as diferentes funções.
 
-Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. Na área de trabalho, estes utilizadores podem colaborar nos dashboards e relatórios que planear publicar para um vasto público ou mesmo para toda a organização. Se quiser distribuir conteúdos para outras pessoas na sua organização, pode atribuir licenças do Power BI Pro a esses utilizadores ou colocar a área de trabalho numa Capacidade do Power BI Premium.
-Como esta é uma funcionalidade de pré-visualização, existem algumas limitações que deve conhecer. Veja <section link> mais adiante neste artigo para obter uma explicação sobre as limitações atuais. Com as novas áreas de trabalho, estamos a reestruturar algumas funcionalidades. Veja <section link> mais adiante neste artigo para obter uma explicação sobre as alterações que podem ser permanentes na pré-visualização.
+Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. Na área de trabalho, estes utilizadores podem colaborar nos dashboards e relatórios que planear publicar para um vasto público ou mesmo para toda a organização. Se quiser distribuir conteúdos para outras pessoas na sua organização, pode atribuir licenças do Power BI Pro a esses utilizadores ou colocar a área de trabalho numa capacidade do Power BI Premium.
+
+Com as novas áreas de trabalho, estamos a reestruturar algumas funcionalidades. Veja as [funcionalidades da área de trabalho de aplicação que funcionam de forma diferente](#app-workspace-features-that-work-differently) mais adiante neste artigo para obter uma explicação sobre as alterações que podem ser permanentes na pré-visualização. Como esta é uma funcionalidade de pré-visualização, existem algumas limitações que deve conhecer. Veja [Problemas conhecidos](#known-issues) mais adiante neste artigo para obter uma explicação sobre as limitações atuais. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Implementar novas áreas de trabalho de aplicação
 
