@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658018"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151912"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 
@@ -107,7 +107,7 @@ Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem
 
     Login failed for user 'username'.
 
-Verifique se tem o nome de utilizador e a palavra-passe corretos. Verifique também se essas credenciais podem ligar à origem de dados com êxito. Certifique-se de que a conta que está a ser utilizada corresponde ao **Método de Autenticação**.
+Verifique se tem o nome de utilizador e a palavra-passe corretos. Verifique também se essas credenciais podem ligar à origem de dados com êxito. Verifique se a conta que está a ser utilizada corresponde ao **Método de Autenticação**.
 
 ### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Erro: não é possível ligar. Detalhes: "Não é possível ligar à base de dados"
 
@@ -125,7 +125,7 @@ Em **Mostrar detalhes**, poderá ver um código de erro de **DM_GWPipeline_Unkno
 
 Também pode observar os Registos de Eventos > **Registos de Aplicações e Serviços** > **Serviço de Gateway de dados no local** para obter mais detalhes.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: encontramos um erro ao tentar ligar a <server>. Detalhes : "Alcançámos o gateway de dados, mas o gateway não consegue aceder à origem de dados no local".
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: encontramos um erro ao tentar ligar a <server>. Detalhes : “Alcançámos o gateway de dados, mas o gateway não consegue aceder à origem de dados no local”.
 
 Não é possível ligar à origem de dados especificada. Certifique-se de que valida as informações fornecidas para essa origem de dados.
 
@@ -192,7 +192,7 @@ Isto pode dever-se a alguns cenários diferentes.
 
 A limitação exata é de 10 GB de dados não comprimidos por tabela. Se este problema ocorrer, existem boas opções para otimizar e evitar o problema. Em particular, reduzir a utilização de valores de cadeia altamente constantes e longos e, em alternativa, utilizar uma chave normalizada ou remover a coluna (se não estiver a ser utilizada) irá ajudar.
 
-## <a name="reports"></a>Relatórios
+## <a name="reports"></a>Reports
 
 ### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não conseguiu aceder à origem de dados porque não tem acesso aos nossos dados através de um Gateway de dados no local
 
@@ -261,33 +261,33 @@ Eis uma lista dos contadores de desempenho disponíveis.
 
 | Contador | Descrição |
 | --- | --- |
-| N.º de ligações ADO.NET abertas executadas/seg |O número de ações de ligações ADO.NET abertas executadas por segundo (com êxito ou falhadas). |
-| N.º de ligações ADO.NET abertas falhadas/seg |O número de ações de ligações ADO.NET abertas falhadas por segundo. |
-| N.º de consultas ADO.NET executadas/seg |O número de consultas ADO.NET executadas por segundo (com êxito ou falhadas). |
-| N.º de consultas ADO.NET falhadas/seg |O número de consultas ADO.NET falhadas executadas por segundo. |
-| N.º de ligações ADOMD abertas executadas/seg |O número de ações de ligações ADOMD abertas executadas por segundo (com êxito ou falhadas). |
-| N.º de ligações ADOMD abertas falhadas/seg |O número de ações de ligações ADOMD abertas falhadas por segundo. |
-| N.º de consultas ADOMD executadas/seg |O número de consultas ADOMD executadas por segundo (com êxito ou falhadas). |
-| N.º de consultas ADOMD falhadas/seg |O número de consultas ADOMD falhadas executadas por segundo. |
-| N.º de todas as ligações abertas executadas/seg |O número de ações de ligações abertas executadas por segundo (com êxito ou falhadas). |
-| N.º de todas as ligações abertas falhadas/seg |O número de ações de ligações abertas falhadas executadas por segundo. |
-| N.º de todas as consultas executadas/seg |O número de consultas executadas por segundo (com êxito ou falhadas). |
-| N.º de itens no conjunto de ligações ADO.NET |O número de itens no conjunto de ligações ADO.NET. |
-| N.º de itens no conjunto de ligações OLEDB |O número de itens no conjunto de ligações OLEDB. |
-| N.º de itens no conjunto do Service Bus |O número de itens no conjunto do Service Bus. |
-| N.º de ligações de Aplicações Híbridas abertas executadas/seg |O número de ações de ligações de Aplicações Híbridas abertas executadas por segundo (com êxito ou falhadas). |
-| N.º de ligações de Aplicações Híbridas abertas falhadas/seg |O número de ações de ligações de Aplicações Híbridas abertas falhadas por segundo. |
-| N.º de consultas de Aplicações Híbridas executadas/seg |O número de consultas de Aplicações Híbridas executadas por segundo (com êxito ou falhadas). |
-| N.º de consultas de Aplicações Híbridas falhadas/seg |O número de consultas de Aplicações Híbridas falhadas executadas por segundo |
-| N.º de consultas OLEDB de múltiplos conjuntos de resultados falhadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados falhadas executadas por segundo. |
+| N. º de ligações ADO.NET abertas executadas/seg |O número de ações de ligações ADO.NET abertas executadas por segundo (com êxito ou falhadas). |
+| N. º de ligações ADO.NET abertas falhadas/seg |O número de ações de ligações ADO.NET abertas falhadas por segundo. |
+| N. º de consultas ADO.NET executadas/seg |O número de consultas ADO.NET executadas por segundo (com êxito ou falhadas). |
+| N. º de consultas ADO.NET falhadas/seg |O número de consultas ADO.NET falhadas executadas por segundo. |
+| N. º de ligações ADOMD abertas executadas/seg |O número de ações de ligações ADOMD abertas executadas por segundo (com êxito ou falhadas). |
+| N. º de ligações ADOMD abertas falhadas/seg |O número de ações de ligações ADOMD abertas falhadas por segundo. |
+| N. º de consultas ADOMD executadas/seg |O número de consultas ADOMD executadas por segundo (com êxito ou falhadas). |
+| N. º de consultas ADOMD falhadas/seg |O número de consultas ADOMD falhadas executadas por segundo. |
+| N. º de todas as ligações abertas executadas/seg |O número de ações de ligações abertas executadas por segundo (com êxito ou falhadas). |
+| N. º de todas as ligações abertas falhadas/seg |O número de ações de ligações abertas falhadas executadas por segundo. |
+| N. º de todas as consultas executadas/seg |O número de consultas executadas por segundo (com êxito ou falhadas). |
+| N. º de itens no conjunto de ligações ADO.NET |O número de itens no conjunto de ligações ADO.NET. |
+| N. º de itens no conjunto de ligações OLEDB |O número de itens no conjunto de ligações OLEDB. |
+| N. º de itens no conjunto do Service Bus |O número de itens no conjunto do Service Bus. |
+| N. º de ligações de Aplicações Híbridas abertas executadas/seg |O número de ações de ligações de Aplicações Híbridas abertas executadas por segundo (com êxito ou falhadas). |
+| N. º de ligações de Aplicações Híbridas abertas falhadas/seg |O número de ações de ligações de Aplicações Híbridas abertas falhadas por segundo. |
+| N. º de consultas de Aplicações Híbridas executadas/seg |O número de consultas de Aplicações Híbridas executadas por segundo (com êxito ou falhadas). |
+| N. º de consultas de Aplicações Híbridas falhadas/seg |O número de consultas de Aplicações Híbridas falhadas executadas por segundo |
+| N.º de consultas OLEDB de vários conjuntos de resultados falhadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados falhadas executadas por segundo. |
 | N.º de consultas OLEDB de múltiplos conjuntos de resultados executadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados executadas por segundo (com êxito ou falhadas). |
-| N.º de ligações OLEDB abertas executadas/seg |O número de ações de ligações OLEDB abertas executadas por segundo (com êxito ou falhadas). |
-| N.º de ligações OLEDB abertas falhadas/seg |O número de ações de ligações OLEDB abertas falhadas por segundo. |
-| N.º de consultas OLEDB executadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados executadas por segundo (com êxito ou falhadas). |
-| N.º de consultas OLEDB falhadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados falhadas executadas por segundo. |
+| N. º de ligações OLEDB abertas executadas/seg |O número de ações de ligações OLEDB abertas executadas por segundo (com êxito ou falhadas). |
+| N. º de ligações OLEDB abertas falhadas/seg |O número de ações de ligações OLEDB abertas falhadas por segundo. |
+| N. º de consultas OLEDB executadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados executadas por segundo (com êxito ou falhadas). |
+| N. º de consultas OLEDB falhadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados falhadas executadas por segundo. |
 | N.º de consultas OLEDB de um único conjunto de resultados executadas/seg |O número de consultas OLEDB de um único conjunto de resultados executadas por segundo (com êxito ou falhadas). |
-| N.º de consultas falhadas/seg |O número de consultas falhadas executadas por segundo. |
-| N.º de consultas OLEDB de um único conjunto de resultados falhadas/seg |O número de consultas OLEDB de um único conjunto de resultados falhadas executadas por segundo. |
+| N. º de consultas falhadas/seg |O número de consultas falhadas executadas por segundo. |
+| N. º de consultas OLEDB de um único conjunto de resultados falhadas/seg |O número de consultas OLEDB de um único conjunto de resultados falhadas executadas por segundo. |
 
 ## <a name="reviewing-slow-performing-queries"></a>Rever as consultas com desempenho lento
 
@@ -484,7 +484,7 @@ Será apresentado o erro 1033 quando o seu ID externo configurado no SAP HANA n�
         <value>AADEmail</value>
 ```
 
-### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Falha na ligação de comunicações;-10709 Falha na ligação (RTE:[-1] erro do Kerberos. Sério: "Falha diversa [851968]”, menor: "Nenhuma credencial disponível no pacote de segurança"
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Falha na ligação de comunicações;-10709 Falha na ligação (RTE:[-1] erro do Kerberos. Sério: “Falha diversa [851968]”, menor: “Nenhuma credencial disponível no pacote de segurança”
 
 Será apresentada a mensagem de erro -10709 Falha na ligação se a sua delegação não estiver configurada corretamente no AD.
 
