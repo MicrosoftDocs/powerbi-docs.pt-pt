@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256421"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380319"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -24,6 +24,15 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 
 ## <a name="august-2018"></a>Agosto de 2018
 - **Power BI Report Server**
+    - *Versão 1.3.6816.37243 (Compilação 15.0.2.557), Lançamento: 30 de agosto de 2018*
+        - Correções de erros
+            - Foi corrigido um problema em que o redirecionamento de enlace não era atualizado quando o servidor era atualizado de versões anteriores do Servidor de Relatórios do PBI. Os clientes viam o seguinte:      
+            *`
+            Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
+             `*
+             
+            - Encontra-se agora corrigido o erro de Transparência da Etiqueta de Dados.
+            
     - *Versão 1.3.6801.38816 (Compilação 15.0.2.540), Lançamento: 15 de agosto de 2018*
         - Funcionalidades
             - Agora os Relatórios do Power BI suportam o DirectQuery SSO SAP HANA com o Kerberos
@@ -107,7 +116,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
             - Suporte de Modelo de Dados Incorporados
             - Visualização de Livros do Excel (com a integração do Office Online Server ativada)
             - Atualização de Dados Agendada (PBIX)
-            - Suporte de DirectQuery
+            - Suporte de Consulta Direta
             - Suporte de Ficheiros Grandes (até 2 GB)
             - API REST pública
             - Suporte de Conjunto de Dados partilhado no Power BI Desktop (através de oData)

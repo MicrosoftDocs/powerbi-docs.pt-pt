@@ -2,20 +2,20 @@
 title: Mosaicos de dashboard no serviço Power BI
 description: Tudo sobre mosaicos de dashboard no Power BI. Inclui os mosaicos criados a partir do SQL Server Reporting Services (SSRS).
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249074"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241597"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Mosaicos de dashboard no Power BI
 Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Enquanto não for possível criar ou afixar mosaicos de dashboards no Power BI Mobile, estes [podem ser visualizados e partilhados](mobile-tiles-in-the-mobile-apps.md). Além disso, no Power BI Mobile, pode [adicionar imagens ao seu dashboard com a aplicação para iPhone](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Pegue num mosaico e [mova-o no dashboard](service-dashboard-edit-tile.md). Paire
    
    * [Abrir a folha de cálculo utilizada para criar este mosaico ](service-reports.md) ![ícone de folha de cálculo](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Ver no modo de detalhe ](service-focus-mode.md) ![ícone de detalhe](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Ver no modo de detalhe ](service-focus-mode.md) ![ícone de detalhe](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Exportar os dados utilizados no mosaico](power-bi-visualization-export-data.md) ![ícone exportar dados](media/service-dashboard-tiles/export-icon.png)
-     * [Editar o título e subtítulo, adicionar uma hiperligação, apresentar a hora da última atualização](service-dashboard-edit-tile.md) ![ícone editar](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Editar o título e subtítulo, adicionar uma hiperligação](service-dashboard-edit-tile.md) ![ícone de edição](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Executar informações ](service-insights.md) ![ícone informações](media/service-dashboard-tiles/power-bi-insights.png)
      * [Afixar o mosaico a outro dashboard ](service-pin-tile-to-another-dashboard.md)
        ![ícone afixar](media/service-dashboard-tiles/pin-icon.jpg)

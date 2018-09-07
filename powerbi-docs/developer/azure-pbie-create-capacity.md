@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360479"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300052"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Criar capacidade do Power BI Embedded no portal do Azure
 
@@ -25,7 +25,7 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 > [!VIDEO https://www.youtube.com/embed/aXrvFfg_iSk]
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Before you begin
 
 Para concluir este guia de início rápido, precisa de:
 
@@ -54,7 +54,7 @@ Para concluir este guia de início rápido, precisa de:
     |**Subscrição**|A subscrição para a qual pretende criar a capacidade.|
     |**Grupo de recursos**|O grupo de recursos que contém esta nova capacidade. Escolha a partir de um grupo de recursos existente ou crie outro. Para obter mais informações, veja [Descrição geral do Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).|
     |**Administrador de capacidade do Power BI**|Os administradores da capacidade do Power BI podem ver a capacidade no portal de administrador do Power BI e dar permissões de atribuições a outros utilizadores. Por predefinição, o administrador da capacidade é a sua conta. O administrador da capacidade tem de estar no seu inquilino do Power BI.|
-    |**Localização**|A localização em que o Power BI está alojado para o seu inquilino. Esta definição é resolvida automaticamente e não pode ser escolhida uma localização diferente.|
+    |**Localização**|A localização em que o Power BI está alojado para o seu inquilino. A localização predefinida é a sua região base, mas pode alterar a localização com as [opções Multi-Geo](embedded-multi-geo.md).
     |**Escalão de preço**|Selecione o SKU (tamanho da memória e contagem do núcleo virtual) que cumpre as suas necessidades.  Para obter detalhes, veja [Preços do Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/).|
 
 6. Selecione **Criar**.

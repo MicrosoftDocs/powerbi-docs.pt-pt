@@ -2,20 +2,20 @@
 title: Publicar na Web do Power BI
 description: Com a funcionalidade Publicar na Web do Power BI, pode facilmente incorporar visualizações interativas online do Power BI, como publicações de blogue e sites, através de e-mails ou redes sociais, em qualquer dispositivo.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092351"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380342"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -28,7 +28,7 @@ Também pode facilmente editar, atualizar ou anular a partilha dos seus elemento
 
 ## <a name="how-to-use-publish-to-web"></a>Como utilizar a funcionalidade Publicar na Web
 
-A funcionalidade **Publicar na Web** está disponível nos relatórios nas áreas de trabalho pessoais ou de grupo que pode editar.  Não pode utilizar a funcionalidade Publicar na Web com relatórios que foram partilhados consigo nem em relatórios com segurança ao nível de linha para proteger os dados. Consulte a secção **Limitações** abaixo para obter uma lista completa dos casos em que a funcionalidade Publicar na Web não é suportada. Consulte o **Aviso** indicado acima neste artigo antes de utilizar a funcionalidade Publicar na Web.
+A funcionalidade **Publicar na Web** está disponível nos relatórios nas áreas de trabalho pessoais ou de grupo que pode editar.  Não pode utilizar a funcionalidade Publicar na Web com relatórios que foram partilhados consigo nem em relatórios com segurança ao nível de linha para proteger os dados. Consulte a secção **Limitações** abaixo para obter uma lista completa dos casos em que a funcionalidade Publicar na Web não é suportada. Veja o **Aviso** indicado anteriormente neste artigo antes de utilizar a funcionalidade Publicar na Web.
 
 Pode ver como esta funcionalidade funciona no seguinte *breve vídeo*. Em seguida, siga os passos abaixo para experimentar.
 
@@ -65,7 +65,7 @@ A seguinte tabela fornece instruções sobre o Modo de Visualização e a forma 
 
 | Modo de Visualização | O aspeto que terá quando incorporado |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar à página** irá respeitar a altura e a largura de página do seu relatório. Se definir a página em proporções "Dinâmicas", como 16:9 ou 4:3, os seus conteúdos serão dimensionados para caber no iFrame que forneceu. Quando incorporado num iFrame, utilizar a funcionalidade **Ajustar à página** pode resultar em **letterboxing**, fazendo com que um fundo cinzento seja mostrado em áreas do iFrame após o conteúdo ser dimensionado para caber no iFrame. Para minimizar o letterboxing, defina apropriadamente a altura e a largura do iFrame. |
+| ![](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar à página** irá respeitar a altura e a largura de página do seu relatório. Se definir a página em proporções “Dinâmicas”, como 16:9 ou 4:3, os conteúdos serão dimensionados para caber no iFrame fornecido. Quando incorporado num iFrame, utilizar a funcionalidade **Ajustar à página** pode resultar em **letterboxing**, fazendo com que um fundo cinzento seja mostrado em áreas do iFrame após o conteúdo ser dimensionado para caber no iFrame. Para minimizar o letterboxing, defina apropriadamente a altura e a largura do iFrame. |
 | ![](media/service-publish-to-web/publish_to_web6d.png) |O **Tamanho real** garante que o relatório mantém o tamanho conforme definido na página de relatórios. Isto poderá dar origem a barras de deslocamento na sua iFrame. Defina a altura e a largura do iFrame para evitar barras de deslocamento. |
 | ![](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar à largura** garante que o conteúdo cabe na área horizontal do iFrame. Ainda assim, será apresentado um limite, mas os conteúdos serão dimensionados para utilizar todo o espaço horizontal disponível. |
 
@@ -77,7 +77,7 @@ O código de incorporação que receber após utilizar a funcionalidade Publicar
 
 Pode editar a largura e a altura manualmente para se certificar de que tem as dimensões perfeitas para caber na página em que o está a incorporar.
 
-Para obter um ajuste melhor, pode experimentar adicionar 56 pixels à dimensão de altura do iFrame. Tal acomoda o tamanho atual da barra inferior. Se a sua página de relatório utilizar o tamanho dinâmico, a tabela seguinte apresenta alguns tamanhos que pode utilizar para atingir um ajuste sem letterboxing.
+Para obter um ajuste melhor, pode experimentar adicionar 56 pixels à dimensão de altura do iFrame. Esta ação permite acomodar o tamanho atual da barra inferior. Se a sua página de relatório utilizar o tamanho dinâmico, a tabela seguinte apresenta alguns tamanhos que pode utilizar para atingir um ajuste sem letterboxing.
 
 | Proporção | Tamanho | Dimensão (Largura x Altura) |
 | --- | --- | --- |
@@ -128,15 +128,16 @@ Os visuais personalizados são suportados na funcionalidade **Publicar na Web**.
 
 A funcionalidade **Publicar na Web** é suportada na grande maioria das origens de dados e relatórios no serviço Power BI; no entanto, os seguintes elementos **não são atualmente suportados ou disponibilizados** com a funcionalidade Publicar na Web:
 
-1. Relatórios com segurança a nível de linha.
-2. Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, modelos Multidimensionais do Analysis Services e o Azure Analysis Services.
-3. Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
-4. Relatórios num grupo no qual não é um membro de edição.
-5. Visuais "R" que atualmente não são suportados em relatórios para Publicar na Web.
-6. Exportar dados de elementos visuais num relatório publicado na Web.
-7. Elementos visuais do ArcGIS Maps para Power BI.
-8. Relatórios que contêm medidas DAX ao nível de relatório
-9. [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
+- Relatórios com segurança a nível de linha.
+- Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, modelos Multidimensionais do Analysis Services e o Azure Analysis Services.
+- Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
+- Relatórios num grupo no qual não é um membro de edição.
+- Visuais "R" que atualmente não são suportados em relatórios para Publicar na Web.
+- Exportar dados de elementos visuais num relatório publicado na Web.
+- Elementos visuais do ArcGIS Maps para Power BI.
+- Relatórios que contêm medidas DAX ao nível de relatório
+- Modelos de consulta de dados de início de sessão único
+- [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 

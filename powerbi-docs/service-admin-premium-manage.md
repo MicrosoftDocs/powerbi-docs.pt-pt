@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924799"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250779"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerir as capacidades no Power BI Premium e no Power BI Embedded
 Saiba como pode gerir as capacidades do Power BI Premium e do Power BI Embedded, que disponibilizam recursos dedicados para os seus conteúdos.
@@ -162,34 +162,9 @@ Para mover uma área de trabalho para a capacidade, deve ter permissões de admi
 Depois de guardar, a área de trabalho e todo o conteúdo, serão movidos para a capacidade Premium sem qualquer interrupção experiência para os utilizadores finais.
 
 
-## <a name="monitor-capacity-usage"></a>Monitorizar a utilização de capacidade
-Para cada capacidade, pode ver as medidas de utilização de CPU, a Utilização de Memória, a Degradação de Memória e a DirectQuery. Sugerimos que verifique regularmente estas métricas para se certificar de que os seus utilizadores têm um bom desempenho na sua capacidade:
+## <a name="monitor-capacity-usage"></a>Monitorizar a utilização das capacidades
 
-![Utilização nos últimos sete dias](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> A utilização da capacidade do Power BI Embedded é monitorizada no portal do Azure.
-
-| Métrica | Descrição |
-| --- | --- |
-| CPU |Número de vezes que a CPU excedeu os 80% de utilização. |
-| Degradação de Memória |Representa a pressão de memória nos seus núcleos de back-end. Especificamente, esta é uma métrica da frequência com que os conjuntos de dados são limpos da memória devido à pressão de memória resultante da utilização de múltiplos conjuntos de dados. |
-| Utilização de Memória |Utilização de memória média, representada em gigabytes (GB). |
-| DQ/s | Número de vezes que a contagem de DirectQueries e Ligações em Direto excedeu os 80% de limite. <br> <br> * Limitamos o número total de consultas de DirectQuery e ligação em direto por segundo.<br><br>* Os limites são 30/s para P1, 60/s para P2 e 120/s para P3.<br><br> * A contagem de DirectQueries e consultas de ligação em direto contam para a limitação indicada acima. Por exemplo, se tiver 15 DirectQueries e 15 ligações em direto num segundo, atingiu a limitação.<br/><br>* Isto aplica-se igualmente às ligações no local e na nuvem. |
-
-As métricas refletem a utilização ao longo da semana anterior.  Se quiser consultar uma vista mais detalhada das métricas, pode fazê-lo ao clicar num dos mosaicos de resumo.  Isto permite-lhe ter acesso a gráficos detalhados para cada uma das métricas da sua capacidade premium.  Estes gráficos são resumidos à hora para a semana anterior e podem ajudar a isolar alturas em que tenham ocorrido eventos especificamente relacionados com o desempenho na sua capacidade premium.  
-
-![Gráfico de utilização detalhado da CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Gráfico de utilização detalhado da Degradação de Memória](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Gráfico de utilização detalhado do Tamanho da Memória](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Gráfico de utilização detalhado da Degradação de Memória](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Também pode exportar os dados subjacentes a qualquer uma das métricas para um ficheiro .csv.  Esta exportação irá fornecer-lhe informações detalhadas em intervalos de três minutos para cada dia da semana anterior.
+O Power BI fornece uma aplicação para monitorizar a utilização das capacidades. Para obter mais informações, veja [Monitorizar as capacidades do Power BI Premium na sua organização](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>O que o Premium parece para os utilizadores
 A maioria das vezes, os utilizadores não terão de saber que estão numa capacidade Premium. Os dashboards e relatórios são suficientes. Como uma sugestão visual, verá um ícone de diamante junto das áreas de trabalho que estejam numa capacidade Premium.

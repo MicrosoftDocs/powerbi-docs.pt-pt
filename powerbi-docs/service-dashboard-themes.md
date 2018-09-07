@@ -2,20 +2,20 @@
 title: Utilizar temas de dashboard no serviço Power BI
 description: Saiba como utilizar uma paleta de cores personalizadas e aplicá-la a um dashboard completo no serviço Power BI
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944658"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241482"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Utilizar Temas de Dashboard no serviço Power BI
 Com **Temas de Dashboard**, pode aplicar um tema de cores a todo o dashboard, como cores empresariais, cores sazonais ou qualquer outro tema de cores que pretenda aplicar. Quando aplica um **Tema do Dashboard**, todos os elementos visuais no dashboard utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
@@ -46,7 +46,7 @@ O tema predefinido para os dashboards do Power BI é **Claro**. Se quiser person
 
 ![Selecione Personalizar no menu pendente](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-Utilize as opções de personalização para criar o seu próprio tema do dashboard. Se adicionar uma imagem de fundo, recomendamos que a sua imagem tenha uma resolução mínima de 1920x1080.  
+Utilize as opções de personalização para criar o seu próprio tema do dashboard. Se adicionar uma imagem de fundo, recomendamos que a sua imagem tenha uma resolução mínima de 1920x1080. Para utilizar uma imagem como fundo, carregue a imagem para um site público, copie o URL e cole-o no campo **URL da imagem**. 
 
 ### <a name="using-json-themes"></a>Utilizar temas JSON
 Outra forma de criar um tema personalizado é carregar um ficheiro JSON que tenha definições para todas as cores que pretende utilizar no seu dashboard. No Power BI Desktop, os criadores de relatórios utilizam ficheiros JSON para [criar temas para relatórios](desktop-report-themes.md). Estes ficheiros JSON podem ser carregados para dashboards ou pode encontrar e carregar ficheiros JSON a partir da [página da galeria de temas](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) na Comunidade do Power BI 
