@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257246"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343329"
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores Práticas para o Desempenho do Power BI 
 Este artigo oferece orientação para construir relatórios rápidos e fiáveis no Power BI.  
@@ -38,7 +38,7 @@ Algumas das melhores práticas:
 - Evite contagens distintas em campos com cardinalidade elevada, ou seja, milhões de valores distintos.  
 - Tome medidas para evitar campos com precisão desnecessária e uma alta cardinalidade. Por exemplo, pode dividir valores datetime altamente exclusivos em colunas separadas (por exemplo, mês, ano, dia, etc.). Em alternativa, sempre que possível, pode arredondar em campos de alta precisão para diminuir a cardinalidade (por exemplo, 13,29889 -> 13,3). 
 - Sempre que possível, utilize números inteiros em vez de cadeias. 
-- Tenha em atenção que as funções DAX, como a RANKX, têm de testar cada linha de uma tabela. No pior dos cenários, devido ao aumento linear do tamanho da tabela, estas funções podem aumentar exponencialmente o tempo de carregamento e os requisitos de memória. 
+- Tenha em atenção que as funções DAX, como a RANKX, têm de testar cada linha de uma tabela. No pior dos cenários, devido ao aumento linear do tamanho das tabelas, estas funções podem aumentar exponencialmente o tempo de execução e os requisitos de memória. 
 - Ao ligar a origens de dados através do DirectQuery, pondere voltar a indexar colunas que estão normalmente filtradas ou segmentadas. Isto melhorará bastante a reatividade do relatório.  
  
 
@@ -59,7 +59,7 @@ A seguinte secção descreve as melhores práticas gerais para se ligar através
 - Sempre que possível, envie as colunas e medidas calculadas para a origem através de push. Quanto mais perto estiverem da origem, maior a probabilidade de um bom desempenho. 
 - Otimize! Compreenda os planos de execução para as suas consultas, adicione índices para colunas filtradas frequentemente, entre outros. 
 
-### <a name="modelling-guidance"></a>Orientação sobre modelação 
+### <a name="modeling-guidance"></a>Orientação sobre modelação 
 - Comece no Power BI Desktop. 
 - Evite consultas complexas no Editor de Consultas. 
 - Não utilize filtragem por data relativa no Editor de Consultas.  
@@ -81,7 +81,7 @@ Os elementos visuais afixados a dashboards são processados pela cache de consul
 > Quando afixa relatórios dinâmicos a um dashboard, os mesmos não são processados a partir da cache de consulta. Em vez disso, funcionam como relatórios e realizam consultas imediatas aos núcleos back-end. 
  
 
-Como o nome indica, obter os dados da cache de consulta fornece um desempenho melhor e mais consistente do que a obtenção da origem de dados. Uma forma de tirar partido desta funcionalidade é definir os dashboards como a página de destino principal dos seus utilizadores. Afixe aos dashboards os elementos visuais utilizados e pedidos frequentemente. Desta forma, os dashboards tornam-se uma valiosa "primeira linha de defesa" que fornece consistência no desempenho com uma carga menor na capacidade. Ainda assim, os utilizadores podem clicar no relatório para examinar os detalhes.  
+Como o nome indica, obter os dados da cache de consulta fornece um desempenho melhor e mais consistente do que a obtenção da origem de dados. Uma forma de tirar partido desta funcionalidade é definir os dashboards como a página de destino principal dos seus utilizadores. Afixe aos dashboards os elementos visuais utilizados e pedidos frequentemente. Desta forma, os dashboards tornam-se uma valiosa "primeira linha de defesa", que fornece consistência no desempenho com uma carga menor na capacidade. Ainda assim, os utilizadores podem clicar no relatório para examinar os detalhes.  
  
 
 Tenha em atenção que, para o DirectQuery e a ligação em tempo real, esta cache de consulta é atualizada periodicamente através de consultas à origem de dados. Por predefinição, a consulta é feita a cada hora, embora possa ser configurada nas definições do conjunto de dados. Cada atualização da cache enviará consultas para a origem de dados subjacente para atualizar a cache. O número de consultas geradas depende do número de elementos visuais afixados aos dashboards que dependem da respetiva origem de dados. Tenha em atenção que, se a segurança ao nível da linha estiver ativada, as consultas são geradas para cada contexto de segurança diferente. Por exemplo, se tiver duas funções diferentes para os seus utilizadores, com duas vistas diferentes dos dados, serão gerados dois conjuntos de consultas durante a atualização da cache de consulta. 
@@ -110,7 +110,7 @@ As instruções são as seguintes:
 
    O resultado deverá ser uma lista de aplicações e as respetivas portas abertas. Por exemplo:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
@@ -142,7 +142,7 @@ A latência de rede pode ter um impacto no desempenho do relatório ao aumentar 
 
 As ferramentas como o [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) (Teste de Velocidade do Azure) podem fornecer um indicativo da latência de rede entre o cliente e a região do Azure. No geral, para minimizar o impacto da latência de rede, tente manter as origens de dados, os gateways e o seu cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, pode experimentar colocar os gateways e origens de dados mais perto do seu cluster do Power BI ao colocá-los em máquinas virtuais. 
 
-Para melhorar a latência de rede, pondere utilizar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que consegue criar ligações de rede mais rápidas e de confiança entre os seus clientes e os datacenters do Azure. 
+Para melhorar a latência de rede, pondere utilizar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que consegue criar ligações de rede mais rápidas e fiáveis entre os seus clientes e os datacenters do Azure. 
 
 ## <a name="next-steps"></a>Próximos passos
 - [Planear uma Implementação do Power BI Enterprise](https://aka.ms/pbienterprisedeploy) com um guia completo sobre implementações do Power BI em larga escala 
