@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249715"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726068"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um mosaico no Power BI a utilizar nas aplicações móveis
 Os códigos QR no Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
 
 Pode criar um código QR no serviço Power BI para mosaicos em qualquer dashboard, mesmo em dashboards que não pode editar. Em seguida, coloque o código QR num local estratégico. Por exemplo, pode colá-lo num e-mail ou imprimir e colá-lo num local específico. 
 
-Os colegas com quem partilhou o dashboard podem [digitalizar o código QR para aceder ao mosaico diretamente no respetivo dispositivo móvel](mobile-apps-qr-code.md). Podem utilizar o scanner de código QR localizado na aplicação do Power BI ou qualquer outro scanner QR instalado no dispositivo.
+Os colegas com quem partilhou o dashboard podem [digitalizar o código QR para aceder ao mosaico diretamente no respetivo dispositivo móvel](consumer/mobile/mobile-apps-qr-code.md). Podem utilizar o scanner de código QR localizado na aplicação do Power BI ou qualquer outro scanner QR instalado no dispositivo.
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Criar um código QR para um mosaico
@@ -52,8 +52,8 @@ O Power BI gera o código QR como um ficheiro JPG pronto para impressão.
 3. Recorte o código QR e cole-o num local relevante para o mosaico. 
 
 ## <a name="next-steps"></a>Próximos passos
-* [Ligar a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
-* [Digitalizar um código QR do Power BI a partir do seu dispositivo móvel](mobile-apps-qr-code.md)
+* [Ligar a dados do Power BI do mundo real](consumer/mobile/mobile-apps-data-in-real-world-context.md) com as aplicações móveis
+* [Digitalizar um código QR do Power BI a partir do seu dispositivo móvel](consumer/mobile/mobile-apps-qr-code.md)
 * [Criar um código QR para um relatório](service-create-qr-code-for-report.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

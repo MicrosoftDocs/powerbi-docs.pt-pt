@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250779"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558476"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerir as capacidades no Power BI Premium e no Power BI Embedded
 Saiba como pode gerir as capacidades do Power BI Premium e do Power BI Embedded, que disponibilizam recursos dedicados para os seus conteúdos.
@@ -47,7 +47,7 @@ Todos os administradores globais do Office 365 e administradores do Power BI sã
 Para tirar partido da capacidade dedicada, terá de adquirir uma subscrição do Power BI Premium no Centro de administração do Office 365 ou criar um recurso do Power BI Embedded no portal do Microsoft Azure. Para obter mais informações, consulte o seguinte artigo:
 
 * **Power BI Premium:** [como comprar o Power BI Premium](service-admin-premium-purchase.md)
-* **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 Ao adquirir SKU do Power BI Premium, o seu inquilino vai receber o número correspondente de núcleos virtuais para utilização em capacidades de execução. Por exemplo, a compra de uma Power BI Premium P3 SKU fornece ao inquilino 32 núcleos virtuais.
 
@@ -162,7 +162,7 @@ Para mover uma área de trabalho para a capacidade, deve ter permissões de admi
 Depois de guardar, a área de trabalho e todo o conteúdo, serão movidos para a capacidade Premium sem qualquer interrupção experiência para os utilizadores finais.
 
 
-## <a name="monitor-capacity-usage"></a>Monitorizar a utilização das capacidades
+## <a name="monitor-capacity-usage"></a>Monitorizar a utilização de capacidade
 
 O Power BI fornece uma aplicação para monitorizar a utilização das capacidades. Para obter mais informações, veja [Monitorizar as capacidades do Power BI Premium na sua organização](service-admin-premium-monitor-capacity.md).
 

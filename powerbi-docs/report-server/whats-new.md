@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: d9b0cc26a3662b49cd7ed14a3a645ddf2a4536bc
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 648938006cd15e2bb92b305aa9a2af24d028cead
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40258040"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726944"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
@@ -32,7 +32,7 @@ Para obter informações sobre “Novidades” do Power BI relacionadas, veja:
 
 * [Novidades do serviço Power BI](../service-whats-new.md)
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
-* [Novidades em aplicativos móveis para o Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+* [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="august-2018"></a>Agosto de 2018
 
@@ -134,7 +134,7 @@ Agora os Relatórios do Power BI suportam o DirectQuery SSO SAP HANA.
 - [Data categories for measures](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#dataCategory) (Categorias de dados para medidas)
 - [Statistical DAX functions](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#dax) (Funções DAX de estatística)
 
-## <a name="may-2018"></a>Maio de 2018
+## <a name="may-2018"></a>May 2018
 
 ### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurar remotamente as aplicações para iOS do Power BI para servidores de relatórios
 

@@ -2,28 +2,28 @@
 title: Criar mapas ArcGIS pela ESRI no Power BI
 description: 'Criar um mapa ArcGIS pela ESRI no Power BI '
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44168072"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728255"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapas ArcGIS no serviço Power BI e Power BI Desktop pela Esri
-Este tutorial foi escrito do ponto de vista de uma pessoa que está a criar um mapa ArcGIS. Quando um criador partilha um mapa ArcGIS com um colega, este pode ver e interagir com o mapa, mas não pode guardar as alterações. Para saber mais sobre a visualização de um mapa ArcGIS, veja [Interagir com mapas ArcGIS](power-bi-visualizations-arcgis.md).
+Este tutorial foi escrito do ponto de vista de uma pessoa que está a criar um mapa ArcGIS. Quando um criador partilha um mapa ArcGIS com um colega, este pode ver e interagir com o mapa, mas não pode guardar as alterações. Para saber mais sobre a visualização de um mapa ArcGIS, veja [Interagir com mapas ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa, a um nível totalmente novo. Escolha entre mapas de base, tipos de localização, temas, estilos de símbolos e camadas de referência para criar belíssimas visualizações de mapas informativos. A combinação de camadas de dados autoritativas num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados na visualização.
 
- Embora não seja possível criar um mapa ArcGIS num dispositivo móvel, pode visualizá-lo e interagir com o mesmo. Consulte [Interagir com mapas ArcGIS](power-bi-visualizations-arcgis.md).
+ Embora não seja possível criar um mapa ArcGIS num dispositivo móvel, pode visualizá-lo e interagir com o mesmo. Consulte [Interagir com mapas ArcGIS](visuals/power-bi-visualizations-arcgis.md).
 
 > [!TIP]
 > GIS significa Geographic Information Science (Sistemas de Informação Geográfica).
@@ -329,7 +329,7 @@ Este é um erro que está a ser resolvido.  Entretanto, para limpar a cache, ten
 
 **O ArcGIS Maps for Power BI suporta ficheiros de formas Esri?**
 
-O ArcGIS Maps for Power BI deteta automaticamente os limites padrão, como países/regiões, estados/províncias e códigos postais. Se precisar de fornecer as suas próprias formas, pode fazê-lo ao utilizar o [Shape Maps for Power BI Desktop (Pré-visualização)](desktop-shape-map.md).
+O ArcGIS Maps for Power BI deteta automaticamente os limites padrão, como países/regiões, estados/províncias e códigos postais. Se precisar de fornecer as suas próprias formas, pode fazê-lo ao utilizar o [Shape Maps for Power BI Desktop (Pré-visualização)](visuals/desktop-shape-map.md).
 
 **Posso ver os meus mapas ArcGIS offline?**
 
@@ -340,7 +340,7 @@ Não, o Power BI precisa de conectividade de rede para apresentar os mapas.
 Ainda não. [Vote nesta ideia](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases) e enviar-lhe-emos uma mensagem de e-mail quando começarmos a trabalhar nesta funcionalidade.  
 
 ## <a name="next-steps"></a>Passos seguintes
-[Interagir com um mapa ArcGIS que foi partilhado consigo](power-bi-visualizations-arcgis.md)
+[Interagir com um mapa ArcGIS que foi partilhado consigo](visuals/power-bi-visualizations-arcgis.md)
 
 [Mensagem de blogue a anunciar a disponibilidade do ArcGIS Maps for Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

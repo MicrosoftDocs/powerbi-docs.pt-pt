@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
-ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
+ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42799051"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727565"
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperligações em tabelas
 Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Depois de criado, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 
@@ -87,7 +87,7 @@ R: Não. Pode utilizar um ícone de ligação. Se necessitar de texto personaliz
 
 
 ## <a name="next-steps"></a>Próximos passos
-[Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
+[Visualizações em relatórios do Power BI](visuals/power-bi-report-visualizations.md)
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

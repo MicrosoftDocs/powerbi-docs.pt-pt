@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 08a7740d1a44c4a5e8ef961100c38f3bc4622fd8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721967"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727979"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Adicionar comentários a um relatório num servidor de relatórios
 Pode adicionar comentários a relatórios, incluindo relatórios do Power BI, no portal Web de um servidor de relatórios. Os comentários permanecem no relatório, e qualquer pessoa com as permissões corretas pode ver os comentários do relatório. Veja a secção [Permissões](#permissions) abaixo para obter detalhes.
@@ -33,7 +33,7 @@ Pode adicionar comentários a relatórios, incluindo relatórios do Power BI, no
     Mostra o comentário no painel do portal Web, com quaisquer comentários anteriores. Não são apresentados com o relatório nas aplicações móveis do Power BI.
    
    > [!TIP]
-   > Sabia que? Pode [anotar relatórios do Power BI nas aplicações móveis do Power BI](../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) e partilhar os relatórios anotados com outras pessoas.
+   > Sabia que? Pode [anotar relatórios do Power BI nas aplicações móveis do Power BI](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) e partilhar os relatórios anotados com outras pessoas.
    > 
    > 
 

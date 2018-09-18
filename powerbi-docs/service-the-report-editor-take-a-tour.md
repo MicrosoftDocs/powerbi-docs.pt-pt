@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299476"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726645"
 ---
 # <a name="the-report-editortake-a-tour"></a>O editor de relatórios... Faça uma visita
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Editar relatórios no serviço Power BI e no Power BI Desktop
@@ -65,7 +65,7 @@ Para remover um campo da visualização, selecione o **X** à direita do nome do
 
 ![Remover Tipo de Loja da Legenda](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Para obter mais informações, consulte [Adicionar visualizações a um relatório do Power BI](power-bi-report-add-visualizations-i.md)
+Para obter mais informações, consulte [Adicionar visualizações a um relatório do Power BI](visuals/power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>Formatar os elementos visuais
 Selecione o ícone do rolo de pintura para apresentar o painel Formatar. As opções disponíveis dependem do tipo de visualização selecionada.
@@ -74,9 +74,9 @@ Selecione o ícone do rolo de pintura para apresentar o painel Formatar. As opç
 
 As possibilidades de formatação são praticamente infinitas.  Para saber mais, explore de forma autónoma ou consulte estes artigos:
 
-* [Personalizar o título, fundo e legenda da visualização](power-bi-visualization-customize-title-background-and-legend.md)
-* [Formatação de cor](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [Personalizar as propriedades dos eixos X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Personalizar o título, fundo e legenda da visualização](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Formatação de cor](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [Personalizar as propriedades dos eixos X e Y](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Adicionar análises às suas visualizações
 Selecione o ícone da lupa para mostrar o painel Análise. As opções disponíveis dependem do tipo de visualização selecionada.
@@ -126,7 +126,7 @@ A tela de relatórios é onde o seu trabalho é apresentado. Quando utiliza os p
 ## <a name="next-steps"></a>Passos seguintes:
 [Criar um relatório](service-report-create-new.md)
 
-Leia mais sobre os relatórios no [serviço Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) e [Power BI mobile](mobile-apps-view-phone-report.md).
+Leia mais sobre os relatórios no [serviço Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) e [Power BI mobile](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI - Conceitos Básicos](service-basic-concepts.md)
 

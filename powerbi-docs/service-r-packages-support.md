@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256176"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727036"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
 Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.org/) para criar elementos visuais no serviço Power BI. Inúmeros pacotes R são suportados no serviço Power BI (e muitos mais estão a ser suportados), mas alguns não são.
 
-As secções seguintes fornecem uma tabela alfabética dos pacotes R suportados e não suportados no Power BI. Para obter mais informações sobre a linguagem R no Power BI, veja o artigo [Elementos visuais R](service-r-visuals.md).
+As secções seguintes fornecem uma tabela alfabética dos pacotes R suportados e não suportados no Power BI. Para obter mais informações sobre a linguagem R no Power BI, veja o artigo [Elementos visuais R](visuals/service-r-visuals.md).
 
 ## <a name="request-support-for-a-new-r-package"></a>Pedido de suporte de um novo pacote R
-Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para a [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
+Os pacotes R suportados para o **serviço Power BI** encontram-se na secção seguinte, intitulada **Pacotes Suportados**. Se quiser efetuar um pedido de suporte de um pacote R não encontrado na lista, pode enviar um e-mail com o seu pedido para oa [Equipa de Comentários de R no Power BI](mailto:rinpbifb@microsoft.com).
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>Requisitos e Limitações de pacotes R
 Existem alguns requisitos e limitações para pacotes R:
@@ -34,7 +34,7 @@ Existem alguns requisitos e limitações para pacotes R:
 
   * Para elementos visuais R, pode instalar qualquer pacote, incluindo pacotes R personalizados
   * Para elementos visuais R personalizados, apenas os pacotes CRAN públicos são suportados para instalação automática dos pacotes
-* Por motivos de segurança e privacidade, os pacotes R que fornecem consultas de cliente-servidor através da Web (por exemplo, RgoogleMaps) no serviço não são suportados. O funcionamento em rede é bloqueado para essas tentativas. Veja a secção seguinte para obter a lista de pacotes R suportados e não suportados.
+* Por motivos de segurança e privacidade, os pacotes R que fornecem consultas de cliente-servidor através da Web (por exemplo, RgoogleMaps) no serviço não são suportados. O funcionamento em rede é bloqueado para essas tentativas. Consulte a secção seguinte para obter a lista de pacotes R suportados e não suportados.
 * O processo de aprovação para incluir um novo pacote R tem uma árvore de dependências; algumas dependências que têm de ser instaladas no serviço não podem ser suportadas.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Pacotes R suportados no Power BI
@@ -108,7 +108,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |blob| 1.1.0| https://cran.r-project.org/web/packages/blob/index.html|
 |BLR|1.4| https://cran.r-project.org/web/packages/BLR/index.html|
 |BMA| 3.18.7| https://cran.r-project.org/web/packages/BMA/index.html|
-|Bmix|0.6| https://cran.r-project.org/web/packages/Bmix/index.html|
+|Bmix|0,6| https://cran.r-project.org/web/packages/Bmix/index.html|
 |BMS| 0.3.4| https://cran.r-project.org/web/packages/BMS/index.html|
 |bnlearn|4.2| https://cran.r-project.org/web/packages/bnlearn/index.html|
 |boa| 1.1.8-2| https://cran.r-project.org/web/packages/boa/index.html|
@@ -214,7 +214,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |doParallel| 1.0.10| https://cran.r-project.org/web/packages/doParallel/index.html|
 |doSNOW| 1.0.14| https://cran.r-project.org/web/packages/doSNOW/index.html|
 |dotCall64| 0.9-04| https://cran.r-project.org/web/packages/dotCall64/index.html|
-|downloader|0.4| https://cran.r-project.org/web/packages/downloader/index.html|
+|downloader|0,4| https://cran.r-project.org/web/packages/downloader/index.html|
 |dplyr| 0.7.2| https://cran.r-project.org/web/packages/dplyr/index.html|
 |DPpackage| 1.1-6| https://cran.r-project.org/web/packages/DPpackage/index.html|
 |dse| 2015.12-1| https://cran.r-project.org/web/packages/dse/index.html|
@@ -371,9 +371,9 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |hexbin| Rcpp| grDevices|
 |hflights|0.1| https://cran.r-project.org/web/packages/hflights/index.html|
 |HH| 3.1-34| https://cran.r-project.org/web/packages/HH/index.html|
-|HI|0.4| https://cran.r-project.org/web/packages/HI/index.html|
+|HI|0,4| https://cran.r-project.org/web/packages/HI/index.html|
 |highcharter| 0.5.0| https://cran.r-project.org/web/packages/highcharter/index.html|
-|highr|0.6| https://cran.r-project.org/web/packages/highr/index.html|
+|highr|0,6| https://cran.r-project.org/web/packages/highr/index.html|
 |HistData| 0.8-1| https://cran.r-project.org/web/packages/HistData/index.html|
 |Hmisc| 4.0-3| https://cran.r-project.org/web/packages/Hmisc/index.html|
 |hms|0.3| https://cran.r-project.org/web/packages/hms/index.html|
@@ -542,7 +542,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |NbClust|3| https://cran.r-project.org/web/packages/NbClust/index.html|
 |ncvreg| 3.9-1| https://cran.r-project.org/web/packages/ncvreg/index.html|
 |network| 1.13.0| https://cran.r-project.org/web/packages/network/index.html|
-|networkD3|0.4| https://cran.r-project.org/web/packages/networkD3/index.html|
+|networkD3|0,4| https://cran.r-project.org/web/packages/networkD3/index.html|
 |neuralnet|1.33| https://cran.r-project.org/web/packages/neuralnet/index.html|
 |nlme| 3.1-131| https://cran.r-project.org/web/packages/nlme/index.html|
 |nlme| 3.1-131| https://cran.r-project.org/web/packages/nlme/index.html|
@@ -731,7 +731,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |Rsolnp|1.16| https://cran.r-project.org/web/packages/Rsolnp/index.html|
 |RSQLite|2| https://cran.r-project.org/web/packages/RSQLite/index.html|
 |rstan| 2.16.2| https://cran.r-project.org/web/packages/rstan/index.html|
-|rstudioapi|0.6| https://cran.r-project.org/web/packages/rstudioapi/index.html|
+|rstudioapi|0,6| https://cran.r-project.org/web/packages/rstudioapi/index.html|
 |RTextTools| 1.4.2| https://cran.r-project.org/web/packages/RTextTools/index.html|
 |RUnit| 0.4.26| https://cran.r-project.org/web/packages/RUnit/index.html|
 |RUnit| 0.4.31| https://cran.r-project.org/web/packages/RUnit/index.html|
@@ -829,7 +829,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |svglite| 1.2.1| https://cran.r-project.org/web/packages/svglite/index.html|
 |svmpath|0.955| https://cran.r-project.org/web/packages/svmpath/index.html|
 |svUnit| 0.7-12| https://cran.r-project.org/web/packages/svUnit/index.html|
-|sysfonts|0.6| https://cran.r-project.org/web/packages/sysfonts/index.html|
+|sysfonts|0,6| https://cran.r-project.org/web/packages/sysfonts/index.html|
 |tau| 0.0-19| https://cran.r-project.org/web/packages/tau/index.html|
 |tcltk| 3.4.1| ND|
 |tcltk2| 1.2-11| https://cran.r-project.org/web/packages/tcltk2/index.html|
@@ -861,7 +861,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |timeDate|3012.1| https://cran.r-project.org/web/packages/timeDate/index.html|
 |timeDate (>= 2150.95)| ND| CRAN|
 |timeSeries| 3022.101.2| https://cran.r-project.org/web/packages/timeSeries/index.html|
-|timevis|0.4| https://cran.r-project.org/web/packages/timevis/index.html|
+|timevis|0,4| https://cran.r-project.org/web/packages/timevis/index.html|
 |tm| 0.7-1| https://cran.r-project.org/web/packages/tm/index.html|
 |tokenizers| 0.1.4| https://cran.r-project.org/web/packages/tokenizers/index.html|
 |tools| 3.4.1| ND|
@@ -904,7 +904,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |viridis| 0.4.0| https://cran.r-project.org/web/packages/viridis/index.html|
 |viridisLite| 0.2.0| https://cran.r-project.org/web/packages/viridisLite/index.html|
 |visNetwork| 2.0.1| https://cran.r-project.org/web/packages/visNetwork/index.html|
-|webutils|0.6| https://cran.r-project.org/web/packages/webutils/index.html|
+|webutils|0,6| https://cran.r-project.org/web/packages/webutils/index.html|
 |weights|0.85| https://cran.r-project.org/web/packages/weights/index.html|
 |whisker| viridis| CRAN|
 |whisker| digest| rstudioapi (>= 0.2.0)|
@@ -940,7 +940,7 @@ A tabela seguinte mostra os pacotes **não suportados** no serviço Power BI.
 ## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre a linguagem R no Power BI, veja os seguintes artigos:
 
-* [Criar elementos visuais R no serviço Power BI](service-r-visuals.md)
+* [Criar elementos visuais R no serviço Power BI](visuals/service-r-visuals.md)
 * [Criar elementos visuais do Power BI através da linguagem R](desktop-r-visuals.md)
 * [Executar scripts R no Power BI Desktop](desktop-r-scripts.md)
 * [Utilizar a linguagem R no Editor de Consultas](desktop-r-in-query-editor.md)

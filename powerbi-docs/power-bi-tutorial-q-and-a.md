@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599236"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727954"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Como utilizar as Perguntas e Respostas para criar visualizações e relatórios
-A [descrição geral de Perguntas e Respostas](power-bi-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.
+A [descrição geral de Perguntas e Respostas](power-bi-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](consumer/mobile/mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.
 
 O P e R é interativo e até mesmo divertido e, mais frequentemente do que o contrário, uma pergunta levará a muitas outras, conforme as visualizações revelam caminhos interessantes a buscar. Veja a Amanda a demonstrar a utilização das Perguntas e Respostas para criar visualizações, aprofundar os elementos visuais e afixá-los a dashboards.
 
@@ -44,7 +44,7 @@ A resposta à sua pergunta é apresentada como uma visualização interativa e a
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. À medida que escreve uma pergunta, as Perguntas e Respostas escolhem a melhor [visualização](power-bi-visualization-types-for-reports-and-q-and-a.md) para apresentar a sua resposta e a visualização muda dinamicamente, à medida que modifica a pergunta.
+3. À medida que escreve uma pergunta, as Perguntas e Respostas escolhem a melhor [visualização](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) para apresentar a sua resposta e a visualização muda dinamicamente, à medida que modifica a pergunta.
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ Para utilizar as Perguntas e Respostas em relatórios, tem de ter permissões de
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. À medida que escreve uma pergunta, as Perguntas e Respostas escolhem a melhor [visualização](power-bi-visualization-types-for-reports-and-q-and-a.md) para apresentar a sua resposta e a visualização muda dinamicamente, à medida que modifica a pergunta.
+4. À medida que escreve uma pergunta, as Perguntas e Respostas escolhem a melhor [visualização](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) para apresentar a sua resposta e a visualização muda dinamicamente, à medida que modifica a pergunta.
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

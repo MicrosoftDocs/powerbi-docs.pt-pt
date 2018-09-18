@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092121"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558499"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
@@ -32,7 +32,7 @@ Depois de concluir a codificação e os testes do elemento visual personalizado 
 | --- | --- | --- |
 | Pacote pbiviz com todos os metadados necessários |Sim |Nome do elemento visual<br>Nome a apresentar<br>GUID<br>Versão<br>Descrição<br>Nome e e-mail do autor |
 | Ficheiro de relatório. pbix de exemplo |Sim |Para evidenciar o seu elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Deve destacar o valor que o elemento visual proporciona ao utilizador e dar exemplos de utilização, opções de formatação, etc. Também pode adicionar uma página de *"sugestões"* no final com algumas sugestões e truques, aspetos a evitar e outras informações do género.<br>O ficheiro de relatório .pbix de exemplo deve funcionar offline, sem qualquer ligação externa |
-| Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 pixéis (largura) por 300 pixéis (altura). **Importante!** Reveja atentamente o [guia abreviado](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) antes de submeter o Ícone. |
+| Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 pixéis (largura) por 300 pixéis (altura). **Importante!** Reveja atentamente o [guia abreviado](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de submeter o Ícone. |
 | Capturas de ecrã |Sim |Tem de fornecer, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 1366 pixéis (largura) por 768 pixéis (altura). O tamanho do ficheiro não pode ser superior a 1024 KB. *Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã.* |
 | Ligação de transferência do suporte |Sim |Forneça o URL para prestar suporte aos clientes que tenham problemas com o elemento visual. O formato do URL deve incluir https:// ou http://. |
 | Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade destinada aos clientes que utilizam o elemento visual. O formato da ligação deve incluir https:// ou http://. |
@@ -130,7 +130,7 @@ Uma vez criado o elemento visual, pode proceder opcionalmente à certificação 
 
 ## <a name="next-steps"></a>Passos seguintes
 [Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Visualizações no Power BI](../power-bi-report-visualizations.md)  
+[Visualizações no Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizações Personalizadas no Power BI](../power-bi-custom-visuals.md)  
 [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md)
 

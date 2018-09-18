@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241574"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558590"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Resolução de problemas de aplicações incorporadas
 
@@ -105,13 +105,13 @@ O back-end da aplicação poderá ter de atualizar o token de autenticação ant
 
 Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client,error_description:AADSTS70002: erro ao validar as credenciais. AADSTS50053: tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreto*** – significa que a autenticação direta foi desativada, por predefinição, a partir de 14/06/2018.
 
-Existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) que pode ser definida para a organização ou o [principal de serviço](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Existe uma forma de ativar esta opção novamente com uma [Política do Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) que pode ser definida para a organização ou o [principal de serviço](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Recomendamos que ative esta opção apenas com base na aplicação.
 
 Para criar esta política, tem de ser um **Administrador Global** do diretório para o qual está a criar e atribuir a política. Eis um script de exemplo para criar a política e atribuí-la ao SP para esta aplicação:
 
-1. Instale o [Módulo PowerShell do Azure AD Preview](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Instale o [Módulo PowerShell do Azure AD Preview](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Execute os seguintes comandos do PowerShell linha a linha (garantindo que a variável $sp não tem mais do que uma aplicação como resultado).
 
@@ -274,7 +274,7 @@ Isto acontece porque o URL de redirecionamento especificado para a aplicação d
 
 Se quiser editar a aplicação registada, saiba como editar a [aplicação registada no AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) para que a aplicação possa dar acesso às APIs Web.
 
-Se quiser editar o seu perfil ou os seus dados de utilizador do Power BI, saiba como editar os seus [dados do Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Se quiser editar o seu perfil ou os seus dados de utilizador do Power BI, saiba como editar os seus [dados do Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 Para obter mais informações, veja [Perguntas frequentes sobre o Power BI Embedded](embedded-faq.md).
 

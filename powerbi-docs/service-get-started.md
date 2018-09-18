@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598669"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726852"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
@@ -42,7 +42,7 @@ Se já tiver uma conta, abra um browser e escreva app.powerbi.com para abrir o s
 
 ![Iniciar sessão ou Inscrever-se gratuitamente](media/service-get-started/power-bi-sign-up.png)
 
-Se estiver à procura de ajuda para o Power BI Desktop, consulte [Introdução ao Desktop](desktop-getting-started.md). Se procura ajuda no Power BI Mobile, consulte [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md).
+Se estiver à procura de ajuda para o Power BI Desktop, consulte [Introdução ao Desktop](desktop-getting-started.md). Se procura ajuda no Power BI Mobile, consulte [Aplicações do Power BI para dispositivos móveis](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > Prefere um curso gratuito de formação autónoma? [Inscreva-se no nosso curso Analyzing and Visualizing Data (Analisar e Visualizar Dados) no EdX](http://aka.ms/edxpbi).

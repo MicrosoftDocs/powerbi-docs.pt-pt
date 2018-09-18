@@ -1,6 +1,6 @@
 ---
 title: Utilizar ferramentas de programador para criar visuais personalizados
-description: Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power BI com as ferramentas de programador.
+description: Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -9,22 +9,22 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
-ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
+ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256834"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726691"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Utilizar ferramentas de programador para criar visuais personalizados
-Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power BI com as ferramentas de programador.
+Os visuais personalizados permitem-lhe atender às necessidades dos seus utilizadores e corresponder ao design da sua aplicação. Saiba como criar um elemento visual personalizado para o Power Bi utilizando as ferramentas de programador.
 
 > [!NOTE]
 > Pode utilizar este documento para começar a trabalhar. Para obter mais informações aprofundadas, consulte as informações de referência no [repositório de git do Power BI Visuals](https://github.com/Microsoft/PowerBI-visuals).
 > 
 > 
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 * É necessário utilizar o NodeJS 4.0+ (é recomendado utilizar o 5.0 ou posterior) [Transferir o NodeJS](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>Instalar as ferramentas NodeJS e Power BI
@@ -388,7 +388,7 @@ Execute o servidor visual com o comando `pbiviz start` no seu terminal/linha de 
 Para obter mais informações, consulte [Executar o seu elemento visual](#running-your-visual) ou [Configurar o certificado do servidor](#ssl-setup).
 
 ## <a name="next-steps"></a>Próximos passos
-[Visualizações no Power BI](power-bi-report-visualizations.md)  
+[Visualizações no Power BI](visuals/power-bi-report-visualizations.md)  
 [Visualizações personalizadas no Power BI](power-bi-custom-visuals.md)  
 [Publicar elementos visuais personalizados na Loja do Office](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  

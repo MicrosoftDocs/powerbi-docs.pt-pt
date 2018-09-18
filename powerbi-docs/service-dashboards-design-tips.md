@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944980"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726061"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugestões para criar um dashboard excelente no Power BI
 Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como tornar o dashboard não apenas bonito, mas também funcional. Em geral, significa destacar as informações mais importantes e torná-las claras e organizadas.
@@ -23,7 +23,7 @@ Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como torn
 Eis algumas sugestões.
 
 > [!TIP]
-> Muitos dos princípios de estrutura dos relatórios aplicam-se também aos dashboards.  Leia o nosso documento prático [Princípios de boa estrutura para relatórios e visualizações](power-bi-visualization-best-practices.md).
+> Muitos dos princípios de estrutura dos relatórios aplicam-se também aos dashboards.  Leia o nosso documento prático [Princípios de boa estrutura para relatórios e visualizações](visuals/power-bi-visualization-best-practices.md).
 >
 >
 
@@ -51,7 +51,7 @@ Se o texto e as visualizações no dashboard forem do mesmo tamanho, os leitores
 
 Mas não se esqueça de fornecer contexto.  
 
-Saiba mais sobre [criar um mosaico apenas com um número](power-bi-visualization-card.md).
+Saiba mais sobre [criar um mosaico apenas com um número](visuals/power-bi-visualization-card.md).
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>Colocar as informações mais importantes no canto superior
 A maioria das pessoas leem de cima para baixo, pelo que deve colocar o nível mais alto de detalhes na parte superior e mostrar mais detalhes à medida que se move na direção que o público-alvo utiliza para ler (da esquerda para a direita, da direita para a esquerda).
@@ -68,7 +68,7 @@ Evite várias visualizações.  As visualizações devem ter uma visão geral e 
 * Preste atenção a como [os gráficos são ordenados](power-bi-report-change-sort.md).  Se quiser chamar a atenção para o número mais alto ou mais baixo, ordene pela medida.  Se quiser que as pessoas localizem rapidamente uma categoria específica de entre muitas outras categorias, ordene pelo eixo.  
 * Os gráficos circulares são recomendados se tiverem menos de oito categorias. Uma vez que não pode comparar valores lado a lado, é mais difícil comparar valores num gráfico circular do que em gráficos de barras e colunas. Os gráficos circulares pode ser bons para ver relações de parte a um todo em vez de comparar as partes. Os gráficos de medidor são ótimos para apresentar o estado atual no contexto de um objetivo.
 
-Para obter instruções específicas de visualização, consulte [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Para obter instruções específicas de visualização, consulte [Tipos de visualização no Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>Saber Mais sobre a Melhor Prática para Criação de Dashboards
 Para dominar a arte da excelente criação de dashboards, considere aprender os Princípios básicos de Gestalt de percepção visual e como comunicar claramente as informações acionáveis no contexto. Felizmente, existe um número infinito de recursos já amplamente disponíveis e espalhados nos nossos blogues. Alguns dos nossos livros favoritos incluem:

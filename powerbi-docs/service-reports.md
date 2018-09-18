@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136968"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728048"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 ## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
@@ -27,7 +27,7 @@ Este relatório tem 3 páginas (ou separadores) e estamos atualmente a ver a pá
 
 Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](service-basic-concepts.md)
 
-Os relatórios são uma funcionalidade do serviço Power BI e do Power BI Desktop. A experiência de trabalhar com relatórios é quase idêntica. No entanto, em dispositivos móveis, não pode criar relatórios, mas pode [ver, partilhar e anotar relatórios](mobile-reports-in-the-mobile-apps.md).
+Os relatórios são uma funcionalidade do serviço Power BI e do Power BI Desktop. A experiência de trabalhar com relatórios é quase idêntica. No entanto, em dispositivos móveis, não pode criar relatórios, mas pode [ver, partilhar e anotar relatórios](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Vantagens dos relatórios
 Os relatórios baseiam-se num único conjunto de dados. As visualizações num relatório representam, cada uma, um grupo de informações. As visualizações não são estáticas. Pode adicionar e remover dados, alterar os tipos de visualização e aplicar filtros e segmentações à medida que analisa os dados para descobrir informações e procurar respostas. Tal como um dashboard, mas mais ainda, um relatório é altamente interativo e personalizável e as visualizações atualizam à medida que os dados correspondentes mudam.

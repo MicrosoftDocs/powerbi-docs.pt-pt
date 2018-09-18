@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280668"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726461"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Criar relatórios otimizados para as aplicações de telemóvel do Power BI
 Quando [criar um relatório no Power BI Desktop](desktop-report-view.md), pode melhorar a experiência de utilização nas aplicações móveis para telemóveis através da criação de uma versão do relatório especificamente para o telemóvel. Pode adaptar o relatório ao telemóvel ao reorganizar e redimensionar os elementos visuais, provavelmente ao não incluir todos, para uma experiência ideal. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório do telemóvel. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
@@ -56,7 +56,7 @@ Pode definir os elementos visuais no seu dashboard ou relatório para que sejam 
 
 ![Redimensionamento de elemento visual reativo](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Escolha se quer ativar a capacidade de resposta de cada elemento visual. Leia mais sobre como [otimizar elementos visuais](desktop-create-responsive-visuals.md).
+Escolha se quer ativar a capacidade de resposta de cada elemento visual. Leia mais sobre como [otimizar elementos visuais](visuals/desktop-create-responsive-visuals.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Considerações ao criar esquemas de relatório de telemóvel
 * Para relatórios com múltiplas páginas, pode otimizar todas as páginas ou apenas algumas. 
@@ -101,11 +101,11 @@ Se apenas otimizar algumas páginas, os leitores verão uma mensagem na vista ve
 
 ![Página de telemóvel não otimizada](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Os leitores de relatórios podem colocar os telemóveis de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md).
+Os leitores de relatórios podem colocar os telemóveis de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o seu telemóvel](consumer/mobile/mobile-apps-view-phone-report.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md)
-* [Ver relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)
-* [Criar elementos visuais reativos otimizados para qualquer tamanho](desktop-create-responsive-visuals.md)
+* [Ver relatórios do Power BI otimizados para o seu telemóvel](consumer/mobile/mobile-apps-view-phone-report.md)
+* [Criar elementos visuais reativos otimizados para qualquer tamanho](visuals/desktop-create-responsive-visuals.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

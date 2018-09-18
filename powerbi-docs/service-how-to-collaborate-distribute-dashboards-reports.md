@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623959"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726668"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Como devo colaborar e partilhar no Power BI?
 
@@ -23,7 +23,7 @@ Acabou de criar dashboards e relatórios. Pode até colaborar com os seus colega
 
 Neste artigo, vamos comparar estas opções de colaboração e partilha no Power BI: 
 
-* Colaborar com colegas de trabalho para criar relatórios e dashboards significativos nas *áreas de trabalho de aplicações*.
+* Colabore com colegas de trabalho para criar relatórios e dashboards significativos nas *áreas de trabalho de aplicações*.
 * Agrupar esses dashboards e relatórios em *aplicações* e publicá-los para um grupo maior ou para toda a organização.
 * Partilhar dashboards ou relatórios com algumas pessoas, a partir do serviço ou das aplicações móveis do Power BI.
 - Imprimir relatórios.
@@ -83,9 +83,9 @@ Nas aplicações móveis do Power BI para dispositivos iOS e Android, pode anota
 
 Está a partilhar um instantâneo do mosaico, relatório ou visual e os seus destinatários veem-no exatamente da mesma forma que quando enviou o e-mail. O e-mail também contém uma ligação para o dashboard ou relatório. Se os destinatários tiverem uma licença do Power BI Pro ou se os conteúdos estiverem numa [capacidade Premium](service-premium.md) e já tiver partilhado o objeto com eles, estes poderão abri-los. Pode enviar instantâneos de mosaicos para qualquer pessoa, não apenas para colegas de trabalho no mesmo domínio de e-mail.
 
-Mais informações sobre [anotar e partilhar mosaicos, relatórios e visuais](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) das aplicações móveis para iOS e Android.
+Mais informações sobre [anotar e partilhar mosaicos, relatórios e visuais](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) das aplicações móveis para iOS e Android.
 
-Também pode [partilhar um instantâneo de um mosaico](mobile-windows-10-phone-app-get-started.md) da aplicação Power BI para dispositivos Windows 10.
+Também pode [partilhar um instantâneo de um mosaico](consumer/mobile/mobile-windows-10-phone-app-get-started.md) da aplicação Power BI para dispositivos Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir ou guardar como PDF ou outro ficheiro estático
 Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo um dashboard, mosaico de dashboard, página de relatório ou visualização a partir do serviço do Power BI. Os relatórios só podem ser impressos a uma página de cada vez. Não pode imprimir todo o relatório de uma vez. Mais informações sobre [imprimir ou guardar como um ficheiro estático](service-print.md).
@@ -101,5 +101,5 @@ Pode publicar relatórios do Power BI para toda a Internet ao incorporar visuali
 * [Partilhar dashboards com colegas e outras pessoas](service-share-dashboards.md)
 * [Criar e publicar uma aplicação no Power BI](service-create-distribute-apps.md)
 * Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/).
+* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
 

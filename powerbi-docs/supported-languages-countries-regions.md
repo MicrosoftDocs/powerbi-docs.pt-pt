@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34256708"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728117"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -191,7 +191,7 @@ A ajuda está traduzida nos seguintes 10 idiomas:
 * Espanhol - español
 
 ## <a name="next-steps"></a>Próximos passos
-* Está a utilizar uma das aplicações móveis do Power BI? Consulte os [Idiomas suportados nas aplicações móveis do Power BI](mobile-apps-supported-languages.md) para obter detalhes.
+* Está a utilizar uma das aplicações móveis do Power BI? Consulte os [Idiomas suportados nas aplicações móveis do Power BI](consumer/mobile/mobile-apps-supported-languages.md) para obter detalhes.
 * Perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
 * Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 

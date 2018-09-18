@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40257067"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728186"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Com o Power BI e o Power BI Desktop, pode ligar-se de forma segura às suas pró
 O Power BI Report Server é uma solução que o utilizador implementa nas suas próprias instalações para criar, publicar e gerir relatórios e entregá-los a diferentes utilizadores de formas variadas: num browser, no dispositivo móvel ou sob a forma de e-mail na caixa de entrada. Saiba mais sobre o [Power BI Report Server](report-server/get-started.md).
 
 ### <a name="power-bi-mobile-apps"></a>Aplicações móveis do Power BI
-Também pode [ver relatórios do Power BI no local, relatórios móveis do Reporting Services e KPIs com as aplicações móveis do Power BI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+Também pode [ver relatórios do Power BI no local, relatórios móveis do Reporting Services e KPIs com as aplicações móveis do Power BI](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>O Power BI suporta dispositivos móveis?
 Sim. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
