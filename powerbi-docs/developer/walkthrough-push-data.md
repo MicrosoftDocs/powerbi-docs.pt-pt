@@ -2,26 +2,28 @@
 title: Enviar dados por push para um conjunto de dados
 description: Enviar dados por push para um conjunto de dados do Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598555"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974190"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push para um conjunto de dados do Power BI
+
 Com a API Power BI, pode enviar dados por push para um conjunto de dados do Power BI. Por exemplo, pretende estender um fluxo de trabalho de negócios existente para enviar dados de chave por push para o conjunto de dados. Neste caso, pretende enviar por push um conjunto de dados de Marketing de vendas que tem uma Tabela de produto para um conjunto de dados.
 
 Antes de começar a enviar dados por push para um conjunto de dados, necessita um Azure Active Directory (Azure AD) e uma [conta do Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Passos para o envio dados por push para um conjunto de dados
+
 * Passo 1: [registar uma aplicação com o Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Passo 2: [obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)
 * Passo 3: [criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Antes de começar a enviar dados por push para um conjunto de dados, necessita u
 A secção seguinte é uma discussão geral sobre as operações da API Power BI que enviam dados por push.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operações da API Power BI para enviar dados por push
+
 Com a API REST do Power BI, pode enviar por push origens de dados ao Power BI. Quando uma aplicação adiciona linhas a um conjunto de dados, os mosaicos no dashboard são atualizados automaticamente com os dados atualizados. Para enviar dados por push, deve usar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) juntamente com a operação [Publicar Linhas](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Para encontrar um conjunto de dados, use a operação [Obter Conjuntos de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Para qualquer uma destas operações, pode transmitir um ID de grupo para trabalhar com um grupo. Use a operação [Obter Grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) para obter uma lista de IDs de grupo.
 
 Estas são as operações para enviar dados por push a um conjunto de dados:
@@ -108,13 +111,14 @@ Para um esquema de tabela do Power BI, pode utilizar os seguintes tipos de dados
 | Cadeia |Atualmente, permite até 128 mil carateres. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Saiba mais sobre como enviar dados por push ao Power BI
+
 Para começar a enviar dados por push para um conjunto de dados, Veja [Passo 1: registar uma aplicação com o Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) no painel de navegação à esquerda.
 
 [Próximo Passo >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Próximos passos
+
 [Inscreva-se no Power BI](create-an-azure-active-directory-tenant.md)  
 [Introdução ao JSON](http://json.org/)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-
