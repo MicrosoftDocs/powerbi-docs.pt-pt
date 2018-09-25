@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328494"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547459"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origens de dados para o serviço Power BI
 Os dados são o coração do Power BI. Sempre que está a explorar dados, a criar gráficos e dashboards, a fazer perguntas com Perguntas e Respostas, todas as visualizações e respostas que vê estão, na verdade, a extrair os dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Bem, de uma origem de dados.
@@ -44,7 +44,7 @@ O local onde armazena os ficheiros também faz muita diferença. O OneDrive para
 
 Os pacotes de conteúdo contêm todos os dados e relatórios de que precisa já preparados. No Power BI, há dois tipos de pacotes de conteúdo; os de serviços, como o Google Analytics, Marketo ou Salesforce, e os criados e partilhados por outros utilizadores na organização.
 
-**Serviços** – Há, literalmente, dezenas de serviços com pacotes de conteúdo para o Power BI, e estão sempre a ser adicionados mais. A maioria dos serviços exigem que tenha uma conta. Para saber mais, veja [Ligar-se a serviços](service-connect-to-services.md).
+**Serviços** – Há, literalmente, dezenas de serviços com pacotes de conteúdo para o Power BI, e estão sempre a ser adicionados mais. A maioria dos serviços exigem que tenha uma conta. Para saber mais, veja [Ligar-se a serviços](consumer/end-user-connect-to-services.md).
 
 **Organizacional** – Se o utilizador e outros utilizadores da organização tiver uma conta do Power BI Pro, poderão criar, partilhar e usar pacotes de conteúdo. Para saber mais, veja [Pacotes de conteúdo organizacional](service-organizational-content-pack-introduction.md).
 
