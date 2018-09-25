@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744458"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549851"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas de manchas (coropletos) no Power BI
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
@@ -109,7 +109,7 @@ Se não tiver acesso aos dados de latitude e longitude, [siga estas instruções
 Para obter mais ajuda com visualizações de mapas, veja [Sugestões e truques para visualizações de mapas](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Próximos passos
-[Adicionar o mapa de manchas como um mosaico do dashboard (afixar o elemento visual)](../service-dashboard-tiles.md)    
+[Adicionar o mapa de manchas como um mosaico do dashboard (afixar o elemento visual)](../consumer/end-user-tiles.md)    
  [Adicionar uma visualização a um relatório](power-bi-report-add-visualizations-i.md)  
  [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Alterar o tipo de visualização que está a ser utilizado](power-bi-report-change-visualization-type.md)      

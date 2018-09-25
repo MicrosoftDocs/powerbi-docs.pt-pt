@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944543"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550081"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda para o Power BI: veja uma apresentação
 
@@ -39,11 +39,11 @@ Este dashboard de exemplo do setor, juntamente com o relatório subjacente, anal
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **Exemplo de Análise de Revenda** e então selecione **Ligar**.  
   
-   ![Retail Analysis Sample](media/sample-retail-analysis/retail16.png)
+   ![Exemplo de Análise de Revenda](media/sample-retail-analysis/retail16.png)
    
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
    
-   ![Retail Analysis Sample](media/sample-retail-analysis/retail17.png)
+   ![Exemplo de Análise de Revenda](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
@@ -165,5 +165,5 @@ Esperamos que esta apresentação tenha mostardo como os dashboards, as Pergunta
 * [Transferir um ficheiro zip de todos os ficheiros de exemplo](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Descarregue o livro do Excel para este exemplo do Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obter dados (para o Power BI)](service-get-data.md)    
-* [Power BI - Conceitos Básicos](service-basic-concepts.md)    
+* [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)    
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
