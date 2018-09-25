@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247763"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546967"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Otimizar os seus dados para o Power BI Quick Insights
 Deseja melhorar os resultados das informações rápidas?  Se for um proprietário de datasest, experimente estes:
@@ -26,7 +26,7 @@ Deseja melhorar os resultados das informações rápidas?  Se for um proprietár
 * Obtém uma mensagem de erro a indicar que os dados não são significativos estatisticamente?  Isto pode acontecer com os modelos que são muito simples, que não têm a quantidade de dados ou que não tenham colunas de data ou numéricas. Para gerar informações, o conjunto de dados tem de ter, pelo menos, uma dimensão e uma medida.
 
 ### <a name="next-steps"></a>Próximos passos
-[Informações rápidas do Power BI](service-insights.md)
+[Informações rápidas do Power BI](consumer/end-user-insights.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

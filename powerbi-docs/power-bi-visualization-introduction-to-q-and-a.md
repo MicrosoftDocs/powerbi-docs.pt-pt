@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240991"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547965"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introdução às Perguntas e Respostas no Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Utilizar as Perguntas e Respostas do Power BI com o exemplo de Análise de Retalho
@@ -57,7 +57,7 @@ Como podemos criar este mesmo gráfico de linhas com o P e R?
 4. Para afixar o gráfico ao dashboard, selecione o ícone de pino ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Próximos passos
-[Perguntas e Respostas no Power BI](power-bi-q-and-a.md)
+[Perguntas e Respostas no Power BI](consumer/end-user-q-and-a.md)
 
 [Fazer com que os seus dados funcionem bem com as Perguntas e Respostas no Power BI](service-prepare-data-for-q-and-a.md)
 

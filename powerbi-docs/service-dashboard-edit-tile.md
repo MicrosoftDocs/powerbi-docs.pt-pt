@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598984"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546102"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
 
@@ -36,7 +36,7 @@ Este artigo abrange o seguinte.
 * [Eliminar um mosaico](#delete)
   
   > [!TIP]
-  > Para alterar a visualização mostrada no próprio mosaico, elimine o mosaico e adicione um novo [mosaico do dashboard](service-dashboard-tiles.md).
+  > Para alterar a visualização mostrada no próprio mosaico, elimine o mosaico e adicione um novo [mosaico do dashboard](consumer/end-user-tiles.md).
 
   
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -142,11 +142,11 @@ Por predefinição, a seleção de um mosaico normalmente permite aceder ao rela
 
 - - -
 ## <a name="next-steps"></a>Próximos passos
-[Mosaicos do dashboard no Power BI](service-dashboard-tiles.md)
+[Mosaicos do dashboard no Power BI](consumer/end-user-tiles.md)
 
-[Dashboards no Power BI](service-dashboards.md)
+[Dashboards no Power BI](consumer/end-user-dashboards.md)
 
-[Power BI - Conceitos Básicos](service-basic-concepts.md)
+[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

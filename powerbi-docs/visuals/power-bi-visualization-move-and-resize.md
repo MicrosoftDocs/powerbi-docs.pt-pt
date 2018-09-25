@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 929af9c8ff3322fc792f2890b6914148725bf694
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737316"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544378"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Mover e redimensionar uma visualização num relatório no serviço Power BI e no Power BI Desktop
-Apenas os criadores e proprietários de relatórios podem mover e redimensionar visualizações. No serviço Power BI (app.powerbi.com), isto significa abrir o relatório na [Vista de edição](../service-reading-view-and-editing-view.md).
+Apenas os criadores e proprietários de relatórios podem mover e redimensionar visualizações. No serviço Power BI (app.powerbi.com), isto significa abrir o relatório na [Vista de edição](../consumer/end-user-reading-view.md).
 
 ## <a name="open-the-report"></a>Abrir o relatório
 No Power BI, abra um relatório que tenha, pelo menos, uma visualização ou [crie uma nova visualização](power-bi-report-add-visualizations-i.md). 

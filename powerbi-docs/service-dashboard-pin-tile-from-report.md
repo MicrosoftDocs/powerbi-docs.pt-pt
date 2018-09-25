@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240216"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550058"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
 ## <a name="pinning-tiles-from-a-report"></a>Afixar mosaicos a partir de um relatório
-Uma maneira de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é a partir de um [relatório do Power BI](service-reports.md). Na verdade, pode adicionar vários novos mosaicos a partir de um relatório.  Quando clica em cada um desses mosaicos, é direcionado de volta para o relatório.
+Uma maneira de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md) é a partir de um [relatório do Power BI](consumer/end-user-reports.md). Na verdade, pode adicionar vários novos mosaicos a partir de um relatório.  Quando clica em cada um desses mosaicos, é direcionado de volta para o relatório.
 
 Pode adicionar páginas de relatório inteiras a um dashboard.  Esta ação também é conhecida como afixação de um mosaico *dinâmico*.  É *dinâmico* porque pode interagir com o mosaico no dashboard e porque, ao contrário dos mosaicos de visualização individual, as alterações feitas no relatório são sincronizadas com o dashboard. Leia mais sobre isto a seguir.
 
@@ -58,15 +58,15 @@ Outra opção é afixar uma página de relatório inteira a um dashboard. Esta �
 Para obter mais informações, veja [Afixar uma página de relatório inteira](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>Próximos passos
-[Dashboards no Power BI](service-dashboards.md)
+[Dashboards no Power BI](consumer/end-user-dashboards.md)
 
-[Mosaicos de dashboard no Power BI](service-dashboard-tiles.md)
+[Mosaicos de dashboard no Power BI](consumer/end-user-tiles.md)
 
-[Relatórios no Power BI](service-reports.md)
+[Relatórios no Power BI](consumer/end-user-reports.md)
 
 [Atualização de dados no Power BI](refresh-data.md)
 
-[Conceitos básicos do Power BI](service-basic-concepts.md)
+[Conceitos básicos do Power BI](consumer/end-user-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

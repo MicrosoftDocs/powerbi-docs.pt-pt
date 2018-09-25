@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b486ad6bc4027aa2122ee72fc7fb89f0fd80c875
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737051"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546010"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizar títulos, legendas e fundos de visualização
 Neste tutorial, aprenderá várias formas de personalizar as visualizações.   Existem muitas opções para personalizar as visualizações. A melhor forma de obter informações sobre todas estas opções é explorar o painel de Formatação (selecione o ícone do rolo de tinta).  Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda e um fundo de visualização.  
@@ -120,6 +120,6 @@ Com o mesmo gráfico de coluna selecionado, expanda as opções do fundo.
 ## <a name="next-steps"></a>Próximos passos
 [Personalizar os eixos X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Personalizar propriedades de cores e de eixo](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - Conceitos Básicos](../service-basic-concepts.md)  
+[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

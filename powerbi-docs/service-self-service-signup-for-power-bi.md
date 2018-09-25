@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558522"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549989"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como um indivíduo
 Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização.
@@ -99,7 +99,7 @@ Depois, irá ver uma mensagem a pedir-lhe que selecione **Começar**.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Versão de avaliação de 60 dias do Power BI Pro no Serviço
 Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, consulte [Preços do Power BI](https://powerbi.microsoft.com/pricing). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, entre no Power BI e experimente uma destas funcionalidades do Power BI Pro:
 
-* [Criar uma área de trabalho de aplicação](service-create-distribute-apps.md)
+* [Criar uma área de trabalho de aplicação](consumer/end-user-create-apps.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
 
 Ao experimentar uma destas funcionalidades, será solicitado para iniciar a sua avaliação gratuita. Também pode optar por usá-la indo até ao ícone de engrenagem e selecionando **Gerir armazenamento pessoal**. Em seguida, selecione **Experimentar o Pro gratuitamente** à direita.

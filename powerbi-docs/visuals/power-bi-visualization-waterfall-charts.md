@@ -2,7 +2,7 @@
 title: Gráficos de cascata no Power BI
 description: Gráficos de cascata no Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736794"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565826"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 O gráfico de cascata mostra um total parcial, conforme os valores são adicionados ou subtraídos. É útil para entender como um valor inicial (por exemplo, a receita líquida) é afetado por uma série de alterações positivas e negativas.
@@ -74,13 +74,13 @@ Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar u
 Realçar uma coluna num gráfico de cascata faz uma filtragem cruzada nas outras visualizações na página do relatório, e vice-versa. No entanto, a coluna Total não aciona o destaque nem responde à filtragem cruzada.
 
 ## <a name="next-steps"></a>Passos seguintes
-[Relatórios no Power BI](../service-reports.md)
+[Relatórios no Power BI](../consumer/end-user-reports.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
 
-[Power BI - Conceitos Básicos](../service-basic-concepts.md)
+[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

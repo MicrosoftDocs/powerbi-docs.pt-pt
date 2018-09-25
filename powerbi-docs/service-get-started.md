@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726852"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545095"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
@@ -53,9 +53,9 @@ Consulte a nossa [lista de reprodução no YouTube](https://www.youtube.com/play
 > 
 
 ## <a name="what-is-power-bi-service"></a>O que é o serviço Power BI?
-O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](service-basic-concepts.md).
+O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](consumer/end-user-basic-concepts.md).
 
-Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](service-create-distribute-apps.md) já publicadas para si.
+Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](consumer/end-user-create-apps.md) já publicadas para si.
 
 Leia sobre todas as outras formas de [obter dados para o Power BI](service-get-data.md).
 
@@ -87,7 +87,7 @@ Veja um exemplo de como obter dados de um ficheiro CSV. Deseja acompanhar este t
 
     ![Opção Vista de leitura](media/service-get-started/power-bi-editing-view.png)
 
-    Enquanto está na Vista de edição, pode criar e modificar os relatórios porque é o *proprietário* do relatório; é um *criador*. Quando partilha o relatório com os colegas, eles só poderão interagir com o relatório na Vista de leitura; são *consumidores*. Saiba mais sobre as [Vistas de leitura e de edição](service-reading-view-and-editing-view.md).
+    Enquanto está na Vista de edição, pode criar e modificar os relatórios porque é o *proprietário* do relatório; é um *criador*. Quando partilha o relatório com os colegas, eles só poderão interagir com o relatório na Vista de leitura; são *consumidores*. Saiba mais sobre as [Vistas de leitura e de edição](consumer/end-user-reading-view.md).
     
     Uma excelente forma de se familiarizar com o editor de relatórios é [fazer uma visita](service-the-report-editor-take-a-tour.md)
    > 
@@ -158,5 +158,5 @@ Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e
 Pronto para experimentar mais?  Veja a seguir algumas formas interessantes de explorar o Power BI.
 
 > [!div class="nextstepaction"]
-> [Ligar aos serviços online que utiliza](./service-connect-to-services.md)
+> [Ligar aos serviços online que utiliza](consumer/end-user-connect-to-services.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 205df68a380c9c8b33ce11fae5509c555ec506cb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3dc053113d2ac8a3e577b9b66a7803309674fd6d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237472"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543477"
 ---
 # <a name="reorder-pages-in-a-report-in-power-bi"></a>Reorganize as páginas num relatório no Power BI
 No Power BI, um relatório é constituído por uma ou mais páginas.  Cada página têm um separador ao longo da parte inferior.  Para reordenar um relatório, basta selecionar e arrastar o separador para a nova localização.
@@ -23,7 +23,7 @@ No Power BI, um relatório é constituído por uma ou mais páginas.  Cada pági
 ![vídeo](media/service-report-reorder-pages/reorder.gif)
 
 ### <a name="next-steps"></a>Próximos passos
-Leia mais sobre os [relatórios no Power BI](service-reports.md)  
-[Power BI - Conceitos Básicos](service-basic-concepts.md)  
+Leia mais sobre os [relatórios no Power BI](consumer/end-user-reports.md)  
+[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

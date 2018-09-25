@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737123"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549806"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -23,7 +23,7 @@ Aplica-se a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |Dispositivos Windows 10 |
 
-Os mosaicos são instantâneos dinâmicos dos seus dados, afixados a um dashboard. Os seus valores são alterados à medida que os dados são alterados. **O utilizador [adiciona mosaicos a um dashboard no serviço Power BI](../../service-dashboard-tiles.md).** 
+Os mosaicos são instantâneos dinâmicos dos seus dados, afixados a um dashboard. Os seus valores são alterados à medida que os dados são alterados. **O utilizador [adiciona mosaicos a um dashboard no serviço Power BI](../end-user-tiles.md).** 
 
 Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de detalhe e interage com eles. É possível abrir mosaicos com todos os tipos de elementos visuais, incluindo mosaicos baseados em Bing e R.
 

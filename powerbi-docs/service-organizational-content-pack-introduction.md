@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624304"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547643"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdos organizacionais no Power BI
 > [!NOTE]
@@ -26,7 +26,7 @@ Distribui regularmente relatórios por e-mail à sua equipa? Em alternativa, exp
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos numa área de trabalho de aplicação. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir qual a opção mais adequada à sua situação. 
+Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar nos mesmos numa área de trabalho de aplicação. Leia [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir a opção mais adequada à sua situação. 
 
 No AppSource, pode pesquisar ou procurar pacotes de conteúdos publicados em toda a organização, nos grupos de distribuição ou de segurança e nos [grupos do Office 365 aos quais pertence](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Se não é membro de um grupo específico, não verá os pacotes de conteúdos partilhados com esse grupo. Todos os membros do grupo têm o mesmo acesso só de leitura aos dados, relatórios, livros e dashboards do pacote de conteúdos (a menos que se trate de uma origem de dados do SQL Server Analysis Services (SSAS); nesse caso, os privilégios são herdados com a origem de dados).
 
@@ -42,7 +42,7 @@ A publicação de um pacote de conteúdos organizacional adiciona-o ao AppSource
 
 * Para ver o AppSource, selecione **Obter Dados** > **A minha organização** > **Obter**.
 
-Leia mais sobre como [localizar e abrir pacotes de conteúdos organizacionais](service-organizational-content-pack-find-and-open.md).
+Leia mais sobre como [localizar e abrir pacotes de conteúdos organizacionais](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>O ciclo de vida de um pacote de conteúdos organizacional
 Qualquer utilizador do Power BI Pro pode criar, publicar e aceder a pacotes de conteúdos organizacionais. Apenas o criador do pacote de conteúdos pode modificar o livro e o conjunto de dados, agendar a atualização e eliminá-la.
@@ -52,7 +52,7 @@ O ciclo de vida é parecido com este:
 1. No Power BI Pro, o João cria um pacote de conteúdos e publica-o no grupo de distribuição Marketing. As definições de atualização são herdadas com o conjunto de dados e só podem ser alteradas pela Nate.
    
    > [!NOTE]
-   > Se o João criar o pacote de conteúdos a partir de uma [área de trabalho de aplicação do Power BI](service-create-distribute-apps.md) à qual pertence, mesmo que ele deixe a área de trabalho, as outras pessoas na área de trabalho do Power BI podem assumir a propriedade.
+   > Se o João criar o pacote de conteúdos a partir de uma [área de trabalho de aplicação do Power BI](consumer/end-user-create-apps.md) à qual pertence, mesmo que ele deixe a área de trabalho, as outras pessoas na área de trabalho do Power BI podem assumir a propriedade.
    > 
    > 
 2. O João envia uma mensagem de e-mail ao grupo de distribuição, informando-o sobre o novo pacote de conteúdos.
@@ -76,7 +76,7 @@ Todos os membros do grupo de distribuição têm as mesmas permissões para os d
 
 ## <a name="next-steps"></a>Próximos passos
 * [Criar e publicar um pacote de conteúdos organizacional](service-organizational-content-pack-create-and-publish.md)
-* [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md) 
-* [Power BI - Conceitos Básicos](service-basic-concepts.md)
+* [Criar e distribuir uma aplicação no Power BI](consumer/end-user-create-apps.md) 
+* [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

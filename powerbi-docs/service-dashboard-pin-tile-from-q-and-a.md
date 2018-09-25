@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251420"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548747"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas
 P e R é a ferramenta de geração de relatórios ad hoc do Power BI. Precisa de encontrar informações específicas? Faça uma pergunta sobre os dados e receba uma resposta na forma de uma visualização.
 
-Nesta explicação de procedimento, utilizaremos o serviço Power BI (app.powerbi.com) para abrir um dashboard, fazer uma pergunta com linguagem natural para criar uma visualização e afixar essa visualização num dashboard. Os dashboards não estão disponíveis no Power BI Desktop. Para obter informações sobre como utilizar as Perguntas e Respostas com outras ferramentas e conteúdo do Power BI, veja a [Descrição geral das Perguntas e Respostas do Power BI](power-bi-q-and-a.md). 
+Nesta explicação de procedimento, utilizaremos o serviço Power BI (app.powerbi.com) para abrir um dashboard, fazer uma pergunta com linguagem natural para criar uma visualização e afixar essa visualização num dashboard. Os dashboards não estão disponíveis no Power BI Desktop. Para obter informações sobre como utilizar as Perguntas e Respostas com outras ferramentas e conteúdo do Power BI, veja a [Descrição geral das Perguntas e Respostas do Power BI](consumer/end-user-q-and-a.md). 
 
 Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-retail-analysis.md).
 
 
-1. Abra um [dashboard](service-dashboards.md) que tenha pelo menos um mosaico afixado de um relatório. Quando fizer uma pergunta, o Power BI procura uma resposta em qualquer conjunto de dados que tenha um mosaico afixado a esse dashboard.  Para obter mais informações, veja [Obter dados](service-get-data.md).
+1. Abra um [dashboard](consumer/end-user-dashboards.md) que tenha pelo menos um mosaico afixado de um relatório. Quando fizer uma pergunta, o Power BI procura uma resposta em qualquer conjunto de dados que tenha um mosaico afixado a esse dashboard.  Para obter mais informações, veja [Obter dados](service-get-data.md).
 2. Na caixa de perguntas, na parte superior do dashboard, escreva o que pretende saber sobre os dados.  
    ![caixa de perguntas das Perguntas e Respostas](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Por exemplo, ao escrever "vendas do ano passado por mês e território"...  
@@ -62,6 +62,6 @@ Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-ret
 
 ## <a name="next-steps"></a>Próximos passos
 [Mudar o nome, redimensionar, adicionar uma hiperligação, reposicionar o mosaico e muito mais](service-dashboard-edit-tile.md)    
-[Apresentar um mosaico do dashboard no Modo de detalhe](service-focus-mode.md)     
-[Voltar às Perguntas e Repostas no Power BI](power-bi-q-and-a.md)  
+[Apresentar um mosaico do dashboard no Modo de detalhe](consumer/end-user-focus.md)     
+[Voltar às Perguntas e Repostas no Power BI](consumer/end-user-q-and-a.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

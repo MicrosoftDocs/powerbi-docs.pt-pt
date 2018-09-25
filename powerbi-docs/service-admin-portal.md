@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726921"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546125"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -161,7 +161,7 @@ Os utilizadores podem ver opções diferentes na IU consoante a definição da f
 
 ### <a name="export-data"></a>Exportar dados
 
-Os utilizadores na organização podem exportar dados de um mosaico ou visualização. [Saiba mais](power-bi-visualization-export-data.md)
+Os utilizadores na organização podem exportar dados de um mosaico ou visualização. [Saiba mais](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ Os utilizadores na organização podem exportar dados de um mosaico ou visualiza
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Exportar relatórios como apresentações do PowerPoint
 
-Os utilizadores na organização podem exportar relatórios do Power BI como ficheiros do PowerPoint. [Saiba mais](service-publish-to-powerpoint.md)
+Os utilizadores na organização podem exportar relatórios do Power BI como ficheiros do PowerPoint. [Saiba mais](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Imprimir dashboards e relatórios
 
-Os utilizadores na organização podem imprimir dashboards e relatórios. [Saiba mais](service-print.md)
+Os utilizadores na organização podem imprimir dashboards e relatórios. [Saiba mais](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ Pode mudar a definição para **Ativado** e, em seguida, especificar quem tem es
 > [!NOTE]
 > Lembre-se de que as alterações de definições de inquilino podem demorar algum tempo a entrar em vigor.
 
-Aceda aqui para saber mais sobre [Aplicações push](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+Aceda aqui para saber mais sobre [Aplicações push](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Definições de integração
 

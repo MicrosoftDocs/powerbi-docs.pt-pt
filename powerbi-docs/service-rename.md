@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252146"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545734"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Mudar o nome de praticamente qualquer coisa no serviço Power BI
-Este artigo mostra como mudar o nome de um dashboard, relatório, p´gina de relatório, livro, conjunto de dados, aplicação e área de trabalho no serviço Power BI.
+Este artigo mostra como mudar o nome de um dashboard, relatório, página de relatório, livro, conjunto de dados, aplicação e área de trabalho no serviço Power BI.
 
 **Posso alterar o nome?**
 
@@ -71,7 +71,7 @@ Qualquer pessoa com permissões de Administrador pode mudar o nome de uma área 
 ## <a name="rename-a-page-in-a-report"></a>Mudar o nome de uma página num relatório
 Não gosta do nome de uma página no relatório do Power BI?  Um novo nome está a apenas um clique. É possível mudar o nome das páginas na [vista de Edição de relatórios ](service-interact-with-a-report-in-editing-view.md).
 
-1. Abra o relatório na [Vista de Edição](service-reading-view-and-editing-view.md).
+1. Abra o relatório na [Vista de Edição](consumer/end-user-reading-view.md).
 2. Localize os separadores da página do relatório na parte inferior da janela do Power BI.
    
     ![relatório com separadores em destaque](media/service-rename/report-page-tabs-new.png)

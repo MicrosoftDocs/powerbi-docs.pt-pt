@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722549"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547039"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar um relatório do serviço Power BI para Desktop (pré-visualização)
 No Power BI Desktop, pode exportar (ou *transferir*) um relatório para o serviço Power BI ao guardar o relatório e selecionar **Publicar**. Também pode exportar na outra direção e transferir um relatório do serviço Power BI para Desktop. A extensão dos ficheiros exportados é *.pbix* em ambas as direções.
@@ -27,7 +27,7 @@ Existem algumas limitações e considerações a ter em conta, que são abrangid
 ## <a name="download-the-report-as-a-pbix"></a>Transferir o relatório como .pbix
 Para transferir o ficheiro .pbix, siga estes passos:
 
-1. No **serviço Power BI**, abra o relatório que pretende transferir na [Vista de edição](service-reading-view-and-editing-view.md).
+1. No **serviço Power BI**, abra o relatório que pretende transferir na [Vista de edição](consumer/end-user-reading-view.md).
 2. Na barra de menu, selecione **Ficheiro > Transferir relatório**.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Veja o vídeo de um minuto do canal **Guy in a Cube** sobre esta funcionalidade:
 
 Além disso, eis alguns artigos adicionais que o podem ajudar a saber como utilizar o **serviço Power BI**:
 
-* [Relatórios no Power BI](service-reports.md)
-* [Power BI - Conceitos Básicos](service-basic-concepts.md)
+* [Relatórios no Power BI](consumer/end-user-reports.md)
+* [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 
 Após instalar o **Power BI Desktop**, os seguintes conteúdos poderão ajudá-lo a começar rapidamente:
 

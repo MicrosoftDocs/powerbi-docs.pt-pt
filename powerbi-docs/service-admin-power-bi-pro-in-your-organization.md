@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280737"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548310"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>O Power BI Pro na sua organização
 
@@ -33,9 +33,9 @@ As seguintes funcionalidades necessitam de uma licença do Power BI Pro:
 
 ## <a name="power-bi-pro-60-day-trial-for-individuals"></a>Versão de avaliação de 60 dias do Power BI Pro no serviço para particulares
 
-Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, veja [Preços do Power BI](https://powerbi.microsoft.com/en-us/pricing/). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, inicie sessão no Power BI e experimente uma destas funcionalidades do Power BI Pro.
+Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, consulte [Preços do Power BI](https://powerbi.microsoft.com/en-us/pricing/). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, inicie sessão no Power BI e experimente uma destas funcionalidades do Power BI Pro.
 
-* [Criar uma área de trabalho](service-create-distribute-apps.md)
+* [Criar uma área de trabalho](consumer/end-user-create-apps.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
 
 Ao experimentar uma destas funcionalidades, será solicitado para iniciar a sua avaliação gratuita. Também pode optar por utilizá-la ao aceder ao ícone de engrenagem e selecionar Gerir armazenamento pessoal. Em seguida, selecione Experimentar o Pro gratuitamente à direita.

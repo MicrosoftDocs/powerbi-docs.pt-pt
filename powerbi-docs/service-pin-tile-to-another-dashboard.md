@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249120"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545905"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Afixar um mosaico de um dashboard noutro dashboard
-Uma forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 
+Uma forma de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 
 
 > [!NOTE]
 > Não é possível fixar mosaicos de dashboards partilhados.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Fixar um mosaico a outro dashboard
 1. [Obter dados](service-get-data.md). Este exemplo utiliza a [amostra de IT Spend Analysis](sample-it-spend.md).
-2. Abrir um [dashboard](service-dashboards.md).
+2. Abrir um [dashboard](consumer/end-user-dashboards.md).
 3. Passe o rato sobre o mosaico que quer afixar, selecione as reticências (...) e escolha **Afixar mosaico**.  
    
    ![menu de reticências](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ Uma forma de adicionar um novo [mosaico de dashboard](service-dashboard-tiles.md
 6. Selecione **Ir para o dashboard** para ver o mosaico afixado. Deste modo, pode [renomear, redimensionar, associar e mover](service-dashboard-edit-tile.md) a visualização afixada.
 
 ## <a name="next-steps"></a>Próximos passos
-[Mosaicos no Power BI](service-dashboard-tiles.md)  
-[Dashboards no Power BI](service-dashboards.md)  
+[Mosaicos no Power BI](consumer/end-user-tiles.md)  
+[Dashboards no Power BI](consumer/end-user-dashboards.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

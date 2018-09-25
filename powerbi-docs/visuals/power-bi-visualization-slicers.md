@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737514"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565090"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 Quer que os leitores de relatórios consigam observar as métricas gerais das vendas e, ao mesmo tempo, consigam realçar o desempenho dos Gestores Distritais individuais e os diferentes períodos de tempo. Pode criar relatórios separados ou gráficos comparativos ou pode utilizar segmentações de dados. A segmentação de dados é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório. 
@@ -98,7 +98,7 @@ Pode utilizar as **Interações visuais** para impedir que algumas visualizaçõ
 2. Selecione o ícone **Nenhum** acima do gráfico **Variação das Vendas Totais por Mês Fiscal e Gestor Distrital** para que a segmentação de dados deixe de ser filtrada. 
 3. Selecione o controlo de deslize **Mês** e selecione novamente o ícone **Nenhum** acima do gráfico **Variação das Vendas Totais por Mês Fiscal e Gestor Distrital** para que esta segmentação de dados deixe de ser filtrada. Agora, à medida que seleciona nomes e intervalos de datas nas segmentações de dados, o gráfico Variação das Vendas Totais por Mês Fiscal e Gestor Distrital não é alterado. 
 
-Veja [Interações visuais num relatório do Power BI](../service-reports-visual-interactions.md) para obter mais informações sobre a edição de interações.
+Veja [Interações visuais num relatório do Power BI](../consumer/end-user-interactions.md) para obter mais informações sobre a edição de interações.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronizar e utilizar segmentações de dados noutras páginas
 A partir da atualização de fevereiro de 2018 do Power BI, pode sincronizar uma segmentação de dados e utilizá-la em qualquer uma ou em todas as páginas de um relatório. 
@@ -193,5 +193,5 @@ Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.co
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - Conceitos Básicos](../service-basic-concepts.md)
+[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727954"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543596"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Como utilizar as Perguntas e Respostas para criar visualizações e relatórios
-A [descrição geral de Perguntas e Respostas](power-bi-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](consumer/mobile/mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.
+A [descrição geral de Perguntas e Respostas](consumer/end-user-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](consumer/mobile/mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.
 
 O P e R é interativo e até mesmo divertido e, mais frequentemente do que o contrário, uma pergunta levará a muitas outras, conforme as visualizações revelam caminhos interessantes a buscar. Veja a Amanda a demonstrar a utilização das Perguntas e Respostas para criar visualizações, aprofundar os elementos visuais e afixá-los a dashboards.
 
@@ -64,7 +64,7 @@ Utilize as Perguntas e Respostas para explorar o conjunto de dados e adicionar v
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Para utilizar as Perguntas e Respostas em relatórios, tem de ter permissões de edição para o relatório e o conjunto de dados subjacente. No [tópico Descrição Geral das Perguntas e Respostas](power-bi-q-and-a.md), referimo-nos a este cenário como um cenário de *criador*. Por isso, se, em vez disso, estiver a *consumir* um relatório que foi partilhado consigo, as Perguntas e Respostas não estarão disponíveis.
+Para utilizar as Perguntas e Respostas em relatórios, tem de ter permissões de edição para o relatório e o conjunto de dados subjacente. No [tópico Descrição Geral das Perguntas e Respostas](consumer/end-user-q-and-a.md), referimo-nos a este cenário como um cenário de *criador*. Por isso, se, em vez disso, estiver a *consumir* um relatório que foi partilhado consigo, as Perguntas e Respostas não estarão disponíveis.
 
 1. Abra um relatório na Vista de edição (serviço Power BI) ou na Vista de relatório (Power BI Desktop) e selecione **Colocar uma pergunta** na barra de menus.
 
@@ -98,14 +98,14 @@ Para utilizar as Perguntas e Respostas em relatórios, tem de ter permissões de
 Com as Perguntas e Respostas, não só pode pedir aos seus dados que falem por si próprios, como também pode indicar ao Power BI como apresentar a resposta. Basta adicionar "como um <visualization type>" ao final da pergunta.  Por exemplo, "mostrar o volume de inventário pela fábrica como um mapa" e "mostrar inventário total como um cartão".  Experimente.
 
 ##  <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-- Se tiver ligado a um conjunto de dados com uma ligação em direto ou gateway, as Perguntas e Respostas têm de ser [ativadas para esse conjunto de dados](service-q-and-a-direct-query.md).
+- Se tiver ligado a um conjunto de dados com uma ligação em direto ou gateway, as Perguntas e Respostas têm de ser [ativadas para esse conjunto de dados](consumer/end-user-q-and-a-direct-query.md).
 
 - Abriu um relatório e não vê a opção Perguntas e Respostas. Se estiver a utilizar o serviço Power BI, certifique-se de que o relatório está aberto na Vista de edição. Se não conseguir abrir a Vista de edição, significa que não tem permissões de edição para esse relatório e não poderá utilizar as Perguntas e Respostas com esse relatório específico.
 
 ## <a name="next-steps"></a>Próximos passos
-Voltar a [Perguntas e Respostas no Power BI](power-bi-q-and-a.md)   
+Voltar a [Perguntas e Respostas no Power BI](consumer/end-user-q-and-a.md)   
 [Tutorial: Utilizar Perguntas e Respostas com o exemplo de Vendas a Retalho](power-bi-visualization-introduction-to-q-and-a.md)   
-[Sugestões para fazer perguntas nas Perguntas e Respostas](service-q-and-a-tips.md)   
+[Sugestões para fazer perguntas nas Perguntas e Respostas](consumer/end-user-q-and-a-tips.md)   
 [Preparar um livro para Perguntas e Respostas](service-prepare-data-for-q-and-a.md)  
-[Preparar um conjunto de dados no local para Perguntas e Respostas](service-q-and-a-direct-query.md)
+[Preparar um conjunto de dados no local para Perguntas e Respostas](consumer/end-user-q-and-a-direct-query.md)
 [Afixar um mosaico ao dashboard a partir das Perguntas e Respostas](service-dashboard-pin-tile-from-q-and-a.md)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727312"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549943"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar os seus dashboards e relatórios do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -110,7 +110,7 @@ Se enviar uma ligação de uma aplicação móvel do Power BI para pessoas exter
 Elementos a ter em conta sobre a partilha de dashboards e relatórios:
 
 * Em geral, o utilizador e os seus colegas veem os mesmos dados no dashboard ou no relatório. Portanto, se tiver permissões para ver mais dados do que os seus colegas, eles conseguirão ver todos os seus dados no dashboard ou no relatório. No entanto, se a [RLS (segurança em nível de linha)](service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um dashboard ou a um relatório, as credenciais de cada pessoa serão utilizadas para determinar a que dados podem aceder.
-* Todas as pessoas com quem partilha o dashboard podem vê-lo e interagir com os relatórios relacionados na [Vista de Leitura](service-reading-view-and-editing-view.md). Não podem criar relatórios ou guardar alterações a relatórios existentes.
+* Todas as pessoas com quem partilha o dashboard podem vê-lo e interagir com os relatórios relacionados na [Vista de Leitura](consumer/end-user-reading-view.md). Não podem criar relatórios ou guardar alterações a relatórios existentes.
 * Ninguém pode ver ou transferir o conjunto de dados.
 * Todas as pessoas podem [atualizar os dados](refresh-data.md) manualmente.
 * Se utilizar o Office 365 para e-mail, pode partilhar com membros de um grupo de distribuição ao introduzir o endereço de e-mail associado ao grupo de distribuição.

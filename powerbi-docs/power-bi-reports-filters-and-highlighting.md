@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9dd80776690e1fd45144c99570be8aa787a2938c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561454"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544506"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Sobre filtros e realces em relatórios do Power BI
 Os ***Filtros*** removem tudo, menos os dados em que se pretende focar.  O ***Destaque*** não filtra, pois não remove dados, mas realça um subconjunto dos dados visíveis; os dados não realçados permanecem visíveis, mas obscurecidos.
@@ -24,9 +24,9 @@ Existem várias formas diferentes de filtrar e realçar relatórios no Power BI.
 
 * Introdução aos filtros e realce (este artigo)
 * Formas de [criar e utilizar filtros e realçar na Vista de Edição/relatórios pertencentes a si](power-bi-report-add-filter.md). Quando tem permissões de edição de um relatório, pode criar, modificar e eliminar filtros e realces nos relatórios.
-* Formas de [utilizar filtros e realce num relatório partilhado consigo ou na Vista de Leitura do relatório](service-reading-view-and-editing-view.md). As ações que pode efetuar são mais limitadas, mas o Power BI ainda lhe oferece uma grande diversidade de opções de filtragem e realce.  
-* [Uma visita detalhada dos controlos de filtros e realce disponíveis na Vista de Edição](power-bi-how-to-report-filter.md), incluindo um olhar aprofundado sobre os tipos de ficheiros (por exemplo, data e hora, numéricos, texto) e a diferença entre as opções básicas e avançadas.
-* Agora que sabe como os filtros e o realce funcionam por predefinição, [saiba como mudar a forma como as visualizações numa página se filtram e realçam](service-reports-visual-interactions.md)
+* Formas de [utilizar filtros e realce num relatório partilhado consigo ou na Vista de Leitura do relatório](consumer/end-user-reading-view.md). As ações que pode efetuar são mais limitadas, mas o Power BI ainda lhe oferece uma grande diversidade de opções de filtragem e realce.  
+* [Uma visita detalhada dos controlos de filtros e realce disponíveis na Vista de Edição](consumer/end-user-report-filter.md), incluindo um olhar aprofundado sobre os tipos de ficheiros (por exemplo, data e hora, numéricos, texto) e a diferença entre as opções básicas e avançadas.
+* Agora que sabe como os filtros e o realce funcionam por predefinição, [saiba como mudar a forma como as visualizações numa página se filtram e realçam](consumer/end-user-interactions.md)
 
 > [!TIP]
 > Como é que o Power BI conhece as relações entre os dados?  Utiliza as relações entre as diferentes tabelas e campos no [modelo de dados](https://support.office.com/article/Create-a-Data-Model-in-Excel-87e7a54c-87dc-488e-9410-5c75dbcb0f7b?ui=en-US&rs=en-US&ad=US) subjacente para fazer com que os itens numa página de relatório interajam um com o outro.
@@ -46,7 +46,7 @@ Pode aplicar filtros e realce através do painel **Filtros** ou ao efetuar as se
 > 
 
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filtros na Vista de Leitura versus Vista de Edição
-Existem duas formas de interagir com os relatórios: [Vista de Leitura e Vista de Edição](service-reading-view-and-editing-view.md).  E as funções de filtragem disponíveis para si dependem do modo no qual se encontra.
+Existem duas formas de interagir com os relatórios: [Vista de Leitura e Vista de Edição](consumer/end-user-reading-view.md).  E as funções de filtragem disponíveis para si dependem do modo no qual se encontra.
 
 * Na Vista de Edição, pode adicionar filtros de relatório, página, pormenorização e elemento visual. Ao guardar o relatório, os filtros são guardados com o relatório, mesmo que abra o relatório numa aplicação móvel. As pessoas que veem o relatório na Vista de Leitura podem interagir com os filtros que adicionou, mas não podem adicionar novos filtros.
 * Na Vista de Leitura, pode interagir com qualquer filtro existente no relatório e guardar as seleções que fizer.  No entanto, não poderá adicionar novos filtros.
@@ -62,7 +62,7 @@ Para ver se existem filtros ao nível de visual, selecione um visual. Na imagem 
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-Na Vista de Leitura, explore os dados ao modificar os filtros existentes. As alterações que fizer são guardadas com o relatório, mesmo que abra o relatório numa aplicação móvel. Saiba como no artigo [Vista de Leitura e Vista de Edição no serviço Power BI](service-reading-view-and-editing-view.md)
+Na Vista de Leitura, explore os dados ao modificar os filtros existentes. As alterações que fizer são guardadas com o relatório, mesmo que abra o relatório numa aplicação móvel. Saiba como no artigo [Vista de Leitura e Vista de Edição no serviço Power BI](consumer/end-user-reading-view.md)
 
 ### <a name="the-filters-pane-in-editing-view"></a>Painel Filtros na Vista de Edição
 Quando tiver permissões de proprietário para um relatório e abrir o mesmo na Vista de Edição, irá ver que **Filtros** é apenas um de vários painéis de edição disponíveis.
@@ -74,7 +74,7 @@ Conforme acontece na Vista de Leitura (acima), vemos que esta página do relató
 No entanto, na Vista de Edição, há muito mais que se pode fazer com filtros e realces. A principal diferença é o facto de se poder adicionar novos filtros. Saiba como fazer isto e muito mais no artigo [Adicionar um filtro a um relatório](power-bi-report-add-filter.md)
 
 ## <a name="ad-hoc-filtering-and-highlighting"></a>Filtragem e realce caso a caso
-Selecione um filtro na tela de relatório para filtrar e realçar o resto da página. Selecione um espaço vazio no mesmo visual para removê-lo. Este tipo de filtragem e realce é uma forma divertida de explorar rapidamente os impactos de dados. Para ajustar a forma como este tipo de filtragem cruzada e realce cruzado funciona, veja [Interações de visualização](service-reports-visual-interactions.md).
+Selecione um filtro na tela de relatório para filtrar e realçar o resto da página. Selecione um espaço vazio no mesmo visual para removê-lo. Este tipo de filtragem e realce é uma forma divertida de explorar rapidamente os impactos de dados. Para ajustar a forma como este tipo de filtragem cruzada e realce cruzado funciona, veja [Interações de visualização](consumer/end-user-interactions.md).
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
@@ -83,15 +83,15 @@ Ao sair do relatório, as suas alterações são guardadas. Para anular a sua fi
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Interação com os filtros e realce (na Vista de Leitura)](service-reading-view-and-editing-view.md)
+[Interação com os filtros e realce (na Vista de Leitura)](consumer/end-user-reading-view.md)
 
 [Adicionar um filtro a um relatório (na Vista de Edição)](power-bi-report-add-filter.md)
 
-[Fazer uma visita aos filtros de relatórios](power-bi-how-to-report-filter.md)
+[Fazer uma visita aos filtros de relatórios](consumer/end-user-report-filter.md)
 
-[Alterar como visuais de relatórios executam filtro cruzado e realce cruzado entre si](service-reports-visual-interactions.md)
+[Alterar como visuais de relatórios executam filtro cruzado e realce cruzado entre si](consumer/end-user-interactions.md)
 
-Leia mais sobre os [relatórios no Power BI](service-reports.md)
+Leia mais sobre os [relatórios no Power BI](consumer/end-user-reports.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

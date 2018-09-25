@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725633"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548793"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Criar um novo relatório a partir de um relatório existente (copiar um relatório)
 Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns elementos visuais que pretende voltar a utilizar ou modificar.  Porque não simplesmente copiar esse relatório como base para um novo relatório?  Para fazê-lo:
 
-1. [Abra um relatório](service-report-open.md).
+1. [Abra um relatório](consumer/end-user-report-open.md).
 2. No menu **Ficheiro**, selecione **Guardar como**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ Talvez tenha um relatório que já se liga ao seu conjunto de dados e tem alguns
 ## <a name="next-steps"></a>Passos Seguintes:
 [Crie novas visualizações](visuals/power-bi-report-add-visualizations-ii.md)
 
-[Elimine visualizações](service-delete.md) que não precisa
+[Elimine visualizações](consumer/end-user-delete.md) que não precisa
 
 [Criar um relatório com o Power BI Desktop](desktop-report-view.md)

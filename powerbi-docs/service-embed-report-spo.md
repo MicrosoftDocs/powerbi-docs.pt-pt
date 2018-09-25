@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256934"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549897"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -85,7 +85,7 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores conseguem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
+Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores conseguem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](consumer/end-user-create-apps.md) (Criar e distribuir uma aplicação no Power BI).
 
 Em alternativa, pode fazer o seguinte para conceder aos utilizadores acesso ao seu relatório.
 
@@ -142,7 +142,7 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 
 * O Power BI não suporta os mesmos idiomas localizados que o SharePoint Online. Como tal, poderá não ver uma devida localização no relatório incorporado.
 
-* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. Pode ver a [compatibilidade de browsers do Power BI](service-browser-support.md) e do [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
+* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. Pode ver a [compatibilidade de browsers do Power BI](consumer/end-user-browsers.md) e do [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
 * A peça Web do Power BI não está disponível para [clouds soberanas](https://powerbi.microsoft.com/en-us/clouds/).
 
@@ -151,8 +151,8 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 ## <a name="next-steps"></a>Próximos passos
 
 [Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Permitir ou impedir a criação de páginas de sites modernos por utilizadores finais)  
-[Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI)  
+[Create and distribute an app in Power BI](consumer/end-user-create-apps.md) (Criar e distribuir uma aplicação no Power BI)  
 [Partilhar um dashboard com colegas e outros utilizadores](service-share-dashboards.md)  
-[Power BI Premium – o que é?](service-premium.md)  
+[Power BI Premium - what is it?](service-premium.md) (Power BI Premium – o que é?)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

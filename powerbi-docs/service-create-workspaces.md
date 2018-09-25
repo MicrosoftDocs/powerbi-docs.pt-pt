@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624752"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548402"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Criar áreas de trabalho com os seus colegas no Power BI
 
@@ -27,7 +27,7 @@ Ao criar uma área de trabalho, está também a criar um grupo subjacente associ
 
 **Sabia que?** O Power BI está a apresentar uma nova experiência de área de trabalho em modo de pré-visualização. Leia [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md) para saber como as áreas de trabalho irão mudar no futuro. 
 
-## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicações e áreas de trabalho de aplicações
+## <a name="video-apps-and-app-workspaces"></a>Vídeo: aplicações e áreas de trabalho de aplicações
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Criar uma área de trabalho de aplicação baseada num grupo do Office 365
@@ -77,7 +77,7 @@ Também pode ligar-se a serviços nas áreas de trabalho atuais através de paco
 
 ## <a name="distribute-an-app"></a>Distribuir uma aplicação
 
-Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e, em seguida, publique-os como uma *aplicação*. Os seus colegas podem obter as suas aplicações de algumas formas diferentes. Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. Caso contrário, os utilizadores podem encontrar e instalar as aplicações a partir do Microsoft AppSource ou pode enviar-lhes uma ligação direta. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Veja [Publicar aplicações com dashboards e relatórios no Power BI](service-create-distribute-apps.md) para obter detalhes.
+Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e, em seguida, publique-os como uma *aplicação*. Os seus colegas podem obter as suas aplicações de algumas formas diferentes. Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. Caso contrário, os utilizadores podem encontrar e instalar as aplicações a partir do Microsoft AppSource ou pode enviar-lhes uma ligação direta. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Veja [Publicar aplicações com dashboards e relatórios no Power BI](consumer/end-user-create-apps.md) para obter detalhes.
 
 ## <a name="power-bi-apps-faq"></a>Perguntas frequentes sobre as aplicações do Power BI
 
@@ -92,7 +92,7 @@ As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se 
 Veja [How are the new app workspaces different from existing app workspaces?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) (Em que diferem as novas áreas de trabalho de aplicação das já existentes?) para comparar as áreas de trabalho de aplicação novas e as atuais. 
 
 ## <a name="next-steps"></a>Próximos passos
-* [Instalar e utilizar aplicações no Power BI](service-install-use-apps.md)
-* [Aplicações do Power BI para serviços externos](service-connect-to-services.md)
+* [Instalar e utilizar aplicações no Power BI](consumer/end-user-apps.md)
+* [Aplicações do Power BI para serviços externos](consumer/end-user-connect-to-services.md)
 - [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

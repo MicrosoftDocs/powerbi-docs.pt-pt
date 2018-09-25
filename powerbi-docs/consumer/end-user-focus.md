@@ -1,0 +1,80 @@
+---
+title: Modo de detalhe – amplie uma visualização única para ver mais detalhes.
+description: Documentação para apresentar visualizações de relatório ou um mosaico do dashboard do Power BI no modo de detalhe, também conhecido como destaque.
+author: mihart
+manager: kvivek
+ms.reviewer: ''
+featuredvideoid: dtdLul6otYE
+ms.service: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 03/24/2018
+ms.author: mihart
+LocalizationGroup: Common tasks
+ms.openlocfilehash: bab41e82618f41bd52d2e48536774665486a7f57
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565251"
+---
+# <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Apresentar um mosaico do dashboard ou um elemento visual do relatório no modo de detalhe
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
+
+
+## <a name="what-is-focus-mode"></a>O que é o modo de detalhe?
+
+O modo de ***detalhe*** permite-lhe expandir (destacar) conteúdo para ver mais detalhes.  No modo de detalhe, pode ver e modificar os filtros que foram aplicados quando o elemento visual foi criado.  No serviço Power BI pode utilizar o modo de detalhe num mosaico do dashboard ou num elemento visual de relatório e no Power BI Desktop pode utilizar o modo de detalhe num [elemento visual de relatório](../desktop-report-view.md).
+
+> [!NOTE]
+> O modo de detalhe é diferente do [modo de ecrã inteiro](../service-fullscreen-mode.md).
+> 
+
+
+## <a name="focus-mode-for-dashboard-tiles"></a>Modo de detalhe para os mosaicos do dashboard
+
+1. Passe o rato sobre a visualização de mosaico, selecione as reticências (…) e escolha **Abrir no modo de detalhe**. 
+
+    ![menu de reticências para mosaico](./media/end-user-focus/power-bi-dashboard-focus-mode.png).
+
+2. O mosaico é aberto e ocupa toda a tela do relatório. 
+
+   ![mosaico a ocupar a tela do relatório](./media/end-user-focus/power-bi-tile-focus.png)
+
+3. Expanda o painel Filtros para ver todos os filtros aplicados a este visual.
+   
+   ![modo de detalhe com o painel Filtros](./media/end-user-focus/power-bi-focus-filters.png)
+
+4. Explore ainda mais ao modificar os filtros e, se detetar algo interessante, afixe o elemento visual a um dashboard.
+
+5. Saia do modo de detalhe e regresse ao dashboard ao selecionar **< Sair do modo de detalhe** (no canto superior esquerdo do elemento visual).
+   
+    ![sair do modo de detalhe](./media/end-user-focus/power-bi-tile-exit-focus.png)    
+
+
+## <a name="focus-mode-for-report-visualizations"></a>Modo de detalhe para visualizações de relatório
+
+1. Passe o rato sobre a visualização de relatório e selecione o ícone do **modo de detalhe** ![ícone do modo de detalhe](./media/end-user-focus/pbi_popout.jpg).  
+   
+   ![ícone de detalhe a ser apresentado num mosaico](./media/end-user-focus/power-bi-hover-focus.png)
+2. A visualização é aberta e ocupa toda a tela. 
+
+   ![elemento visual no modo de detalhe](./media/end-user-focus/power-bi-display-focus-newer2.png)
+3. Expanda o painel Filtros para ver todos os filtros aplicados a este visual.
+   
+   ![modo de detalhe com o ecrã Filtros](./media/end-user-focus/power-bi-display-focus-filters.png)
+4. Explore ainda mais ao modificar os filtros e, se detetar algo interessante, afixe o elemento visual a um dashboard.   
+5. Saia do modo de detalhe e regresse ao relatório ao selecionar **Regressar ao relatório** (no canto superior esquerdo do elemento visual). 
+   
+    ![sair do modo de detalhe](./media/end-user-focus/power-bi-exit-focus-report.png)  
+
+## <a name="go-from-focus-mode-to-full-screen-mode"></a>Passar do modo de detalhe para o modo de ecrã inteiro
+No modo de detalhe, o mosaico ou o elemento visual pode ser [visualizado em ecrã inteiro (Modo de TV)](../service-fullscreen-mode.md). O modo de ecrã inteiro é apresentado sem a distração dos menus nem dos botões de navegação.
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+* Ao utilizar o modo de detalhe com uma visualização num relatório, poderá ver e modificar todos os filtros: ao nível do Elemento visual, da Página, do Pormenorização e do Relatório.    
+* Ao utilizar o modo de detalhe com uma visualização num dashboard, poderá ver e modificar apenas ao nível do elemento visual.
+
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+
