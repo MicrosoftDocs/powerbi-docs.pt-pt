@@ -1,21 +1,21 @@
 ---
 title: Agregados (soma, média, máximo, etc.) em visualizações
 description: Alterar a agregação num gráfico (soma, média, máximo, etc.) no Power BI
-author: mihart
+author: mgblythe
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Reports
-ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241551"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187289"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Agregados em visualizações do Power BI
 ## <a name="what-is-an-aggregate"></a>O que é um agregado?

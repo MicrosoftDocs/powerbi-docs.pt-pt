@@ -1,21 +1,21 @@
 ---
 title: Adicionar um filtro de visualização, página, pormenorização ou relatório a um relatório
 description: Adicionar um filtro de página, um filtro de visualização ou um filtro de relatório a um relatório no Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/26/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3758415dc41a5f94419193240d4ce71aa4aca1d8
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545974"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187220"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adicionar um filtro a um relatório do serviço Power BI (na Vista de Edição)
 > [!TIP]

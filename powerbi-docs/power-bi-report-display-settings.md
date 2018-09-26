@@ -1,7 +1,7 @@
 ---
 title: Definições de apresentação de página e definições de vista de página num relatório
 description: Definições de apresentação de página e definições de vista de página num relatório
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/24/2017
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 733b45e856f2f3c3c2d31576ac884e4a4cd4a8cd
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545458"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187197"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Por vezes, isso representa um desafio, uma vez que visualiza esses relatórios, e os seus colegas também, em ecrãs de diferentes proporções e tamanhos. 

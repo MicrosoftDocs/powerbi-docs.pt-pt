@@ -1,21 +1,21 @@
 ---
 title: Como adicionar uma hiperligação a uma tabela
 description: Hiperligações em tabelas
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545205"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187565"
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperligações em tabelas
 Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Depois de criado, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 

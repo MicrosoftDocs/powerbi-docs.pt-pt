@@ -1,21 +1,21 @@
 ---
 title: Criar páginas de resposta personalizadas do Power BI para a Cortana
 description: Criar páginas de resposta personalizadas para a Cortana no Power BI
-author: yaron
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755329"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187335"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Utilize o serviço Power BI ou o Power BI Desktop para criar uma Página de Resposta personalizada para a Cortana
 Utilize as funcionalidades completas do Power BI para criar páginas de relatório especiais, denominadas *Páginas de resposta da Cortana* (e, por vezes, denominadas *Cartões de resposta da Cortana*) concebidas especificamente para responder a perguntas da Cortana.
@@ -27,7 +27,7 @@ Utilize as funcionalidades completas do Power BI para criar páginas de relatór
 > 
 > 
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Before you begin
 Dispõe de quatro documentos que o ajudam a configurar e utilizar a Cortana para o Power BI. Se ainda não o tiver feito, comece por ler o primeiro artigo. Além disso, o segundo artigo é particularmente importante porque descreve alguns passos que terá de executar antes de poder começar a utilizar as páginas de resposta da Cortana.
 
 **Artigo 1**: [Saiba como a Cortana e o Power BI funcionam em conjunto](service-cortana-intro.md)

@@ -1,20 +1,20 @@
 ---
 title: Localizar e ver rapidamente os relatórios e os dashboards através do Cortana
 description: Use a Cortana com o Power BI para obter respostas a partir dos seus dados. Atualmente, funciona com relatórios e dashboards.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/13/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550104"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187312"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Localizar e ver rapidamente os dados do Power BI através do Cortana para Power BI
 Utilize o Cortana nos seus dispositivos Windows 10 para obter respostas instantâneas às suas perguntas empresariais importantes. Com a integração no Power BI, o Cortana pode obter informações-chave diretamente dos dashboards e relatórios do Power BI. Apenas precisa da versão de novembro de 2015 ou posterior do Windows 10, do Cortana, do Power BI e de acesso a, pelo menos, um conjunto de dados.
