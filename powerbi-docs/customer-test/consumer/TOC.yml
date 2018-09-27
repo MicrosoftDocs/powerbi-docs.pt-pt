@@ -91,8 +91,6 @@ items:
         href: ../../service-report-open.md
       - name: Alterar a forma como um gráfico é ordenado num relatório do Power BI
         href: ../../power-bi-report-change-sort.md
-      - name: Export data from a visualization (Exportar dados de uma visualização)
-        href: ../../power-bi-visualization-export-data.md
       - name: Como utilizar filtros de relatório
         href: ../../power-bi-how-to-report-filter.md
       - name: Subscribe to a report or dashboard (Subscrever um relatório ou um dashboard)
@@ -189,9 +187,9 @@ items:
     items:
     - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
       href: ../../mobile-apps-supported-languages.md
-ms.openlocfilehash: 26018ef2bd80f8ac73c88e147dd950114ed1453f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0d5506fefb05d9e83b9aea40bc773ad0c4ac126d
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726438"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237945"
