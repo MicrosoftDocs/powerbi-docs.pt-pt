@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657880"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512070"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -53,6 +53,7 @@ A categoria **Ficheiro** fornece as seguintes ligações de dados:
 * XML
 * JSON
 * Pasta
+* PDF (Beta)
 * Pasta do SharePoint
 
 A imagem seguinte mostra a janela **Obter Dados** para **Ficheiro**.
@@ -79,7 +80,8 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (Beta)
+* Jethro (Beta)
 
 > [!NOTE]
 > Alguns conectores de base de dados requerem que os ative ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, selecionar **Funcionalidades de Pré-visualização** e ativar o conector. Se não vir alguns dos conectores mencionados acima e pretender utilizá-los, consulte as suas definições de **Funcionalidades de Pré-visualização**. Note também que qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
@@ -93,6 +95,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Base de dados**.
 A categoria **Power BI** fornece as seguintes ligações de dados:
 
 * Conjuntos de dados do Power BI
+* Fluxos de dados do Power BI (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Power BI**.
 
@@ -108,7 +111,7 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (Beta)
+* Azure HDInsight Spark
 * Interactive Query do HDInsight (Beta)
 * Azure KustoDB (beta)
 
@@ -169,6 +172,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * HDFS (Ficheiro do Hadoop)
 * Spark
 * Script do R
+* Script de Python
 * ODBC
 * OLEDB
 * Consulta em Branco

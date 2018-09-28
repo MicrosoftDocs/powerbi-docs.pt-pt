@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657949"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512185"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
 Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou qualquer outro tema de cores que queira aplicar. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
@@ -36,7 +36,17 @@ Se estiver a utilizar uma versão anterior do **Power BI Desktop**, pode ativar 
 Recomendamos sempre que atualize para a versão mais recente do **Power BI Desktop**, que pode obter através de uma ligação no artigo [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Como funcionam os Temas de Relatório
-Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione o botão **Mudar Tema** no friso **Base** e, em seguida, selecione **Importar Tema** na lista pendente.
+Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, pode selecionar a partir de uma lista de temas de relatório incorporados disponíveis ou importar um tema personalizado.
+
+Para selecionar a partir de uma lista de temas de relatórios incorporados disponíveis, selecione o botão **Mudar Tema** no friso **Base** e, em seguida, selecione um dos temas incluídos no menu pendente.
+
+![selecionar um tema de relatório](media/desktop-report-themes/report-themes_2a.png)
+
+O tema de relatório é aplicado ao relatório, estando agora pronto para começar.
+
+### <a name="importing-report-themes"></a>Importar Temas de Relatório
+
+Para importar um Tema de Relatório personalizado, selecione o botão **Mudar Tema** no friso **Base** e, em seguida, selecione **Importar Tema** na lista pendente.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 
@@ -57,7 +67,7 @@ O ficheiro JSON básico selecionado na secção anterior (o ficheiro *St Patrick
 
 Esse ficheiro JSON tem as seguintes linhas obrigatórias:
 
-* **name** – nome do tema, o único campo obrigatório
+* **name** – Nome do tema, o único campo obrigatório
 * **dataColors** – lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode conter o número de cores desejado
 * **background**, **foreground** e **tableAccent** – estes valores são cores que devem ser aplicadas nos vários tipos de elementos visuais. O valor **foreground** aplica-se ao texto da caixa de texto, texto de objetivo do KPI, texto do cartão de linhas múltiplas, texto do valor do cartão, texto de nota de aviso do medidor, texto do elemento da segmentação de dados vertical, texto dos valores e total da **tabela** e **matriz**. O valor **background** aplica-se ao fundo das etiquetas do gráfico de combinação e ao preenchimento do botão. A forma como estas cores são utilizadas varia consoante o estilo do elemento visual específico aplicado. Os elementos visuais de **tabela** e **matriz** aplicam estes estilos por predefinição.
 

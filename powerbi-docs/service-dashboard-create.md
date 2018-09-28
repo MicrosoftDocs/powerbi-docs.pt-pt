@@ -1,5 +1,5 @@
 ---
-title: Criar um dashboard do Power BI a partir de um relatório
+title: Criar um dashboard do serviço Power BI a partir de um relatório
 description: Criar um dashboard do Power BI a partir de um relatório
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248936"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168095"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Criar um dashboard do Power BI no serviço Power BI
 Já leu [Dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há várias formas diferentes de criar um dashboard: a partir de um relatório, de raiz, de um conjunto de dados, ao duplicar um dashboard existente e muito mais.  
 
 Pode parecer muito confuso quando começa a utilizá-lo, pelo que iremos começar por criar um dashboard de forma rápida e fácil ao afixar visualizações existentes de um relatório. Depois de concluir este início rápido, terá uma boa compreensão da relação entre os dashboards e os relatórios, como abrir a Vista de edição no editor de relatórios, como afixar mosaicos e como navegar entre um dashboard e um relatório. Em seguida, utilize as ligações no Índice à esquerda ou os **Passos seguintes** na parte inferior para avançar para tópicos mais avançados.
@@ -29,7 +29,7 @@ A criação de dashboards é uma funcionalidade do **criador** e precisa de perm
 >
 > 
 
-![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Criar um dashboard ao afixar visuais e imagens de um relatório
 Veja a Amanda a criar um novo dashboard ao afixar visualizações de um relatório. Depois, siga os passos abaixo do vídeo para experimentar por si próprio, com o exemplo de Análise de Aprovisionamento.
@@ -62,7 +62,7 @@ Vamos importar um dos conjuntos de dados de exemplo do Power BI e utilizá-lo pa
    ![mensagem de êxito](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 ### <a name="open-the-report-and-pin-some-tiles-to-a-dashboard"></a>Abrir o relatório e afixar mosaicos a um dashboard
-1. Mantendo-se na mesma área de trabalho, selecione o separador **Relatórios**. O relatório recém-importado é apresentado com um asterisco amarelo. Selecione o nome do relatório para abril-lo.
+1. Mantendo-se na mesma área de trabalho, selecione o separador **Relatórios**. O relatório recém-importado é apresentado com um asterisco amarelo. Selecione o nome do relatório para abri-lo.
 
     ![separador relatórios](media/service-dashboard-create/power-bi-reports.png)
 2. O relatório é aberto na [Vista de leitura](service-reading-view-and-editing-view.md). Repare que tem dois separadores na parte inferior: Análise de Desconto e Descrição Geral de Gastos. Cada separador representa uma página do relatório.
@@ -102,7 +102,7 @@ Em vez de afixar um elemento visual de cada vez, pode [afixar uma página de rel
 
 4. Quando a mensagem Êxito aparecer, selecione **Ir para o dashboard**. Aqui verá os mosaicos afixados a partir do relatório. No exemplo abaixo, afixamos dois mosaicos da página 1 do relatório e um mosaico dinâmico que corresponde à página 2 do relatório.
 
-   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
+   ![dashboard](media/service-dashboard-create/power-bi-dashboard.png)
 
 Parabéns pela criação do seu primeiro dashboard! Agora que tem um dashboard, pode fazer muito mais com ele.  Experimente um dos **Próximos passos** sugeridos abaixo ou comece a experimentar e explorar de forma autónoma.   
 

@@ -2,20 +2,20 @@
 title: De um livro do Excel a um relatório incrível num instante
 description: De um livro do Excel a um relatório incrível num instante
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ebbca73f781946f989b2f3afa65aa0a940f7a680
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247178"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545136"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>De um livro do Excel a um relatório incrível num instante
 A sua gestora quer ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha até ao fim do dia. No entanto, os dados mais recentes residem em vários sistemas de terceiros e em ficheiros no seu portátil. Anteriormente, levava várias horas a criar elementos visuais e a formatar um relatório. Está a começar a ficar ansioso.
@@ -29,12 +29,12 @@ Vamos utilizar um ficheiro simples do Excel como exemplo. Antes de carregar o fi
 
 ![dados organizados no Excel](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
 
-Em seguida, formate os dados como uma tabela. No Excel, no separador Base, no grupo Estilos, selecione **Formatar como Tabela**. Selecione um estilo de tabela a aplicar à folha de cáculo. A folha de cáculo do Excel está agora pronta para ser carregada para o Power BI.
+Em seguida, formate os dados como uma tabela. No Excel, no separador Base, no grupo Estilos, selecione **Formatar como Tabela**. Selecione um estilo de tabela a aplicar à folha de cálculo. A folha de cálculo do Excel está agora pronta para ser carregada para o Power BI.
 
 ![dados formatados como uma tabela](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Carregar o ficheiro do Excel para o Power BI
-O Power BI liga-se a várias origens de dados, incluindo ficheiros do Excel que residem no seu computador. Para começar, inicie sessão no Power BI. Se ainda não se inscreveu, [pode fazê-lo gratuitamente](https://powerbi.com).
+O Power BI liga-se a várias origens de dados, incluindo ficheiros do Excel que residem no seu computador. Para começar, inicie sessão no serviço Power BI. Se ainda não se inscreveu, [pode fazê-lo gratuitamente](https://powerbi.com).
 
 Crie um novo dashboard. Abra **A minha área de trabalho** e selecione o ícone **+ Criar**.
 
@@ -98,6 +98,6 @@ Próximos passos
 
 * [Introdução ao serviço Power BI](service-get-started.md)
 * [Introdução ao Power BI Desktop](desktop-getting-started.md)
-* [Power BI - Conceitos Básicos](service-basic-concepts.md)
+* [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

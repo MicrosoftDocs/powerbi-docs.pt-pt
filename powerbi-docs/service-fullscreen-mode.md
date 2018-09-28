@@ -2,29 +2,29 @@
 title: Apresentar dashboards, mosaicos, páginas de relatórios e visualizações no modo de ecrã inteiro
 description: Apresentar dashboards, mosaicos do dashboard, elementos visuais do relatório e páginas de relatórios no modo de ecrã inteiro, também conhecido como *Modo de TV*.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244117"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545803"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Modo de ecrã inteiro no serviço Power BI
 ## <a name="what-is-full-screen-mode"></a>O que é o modo de ecrã inteiro?
 ![dashboard no modo de ecrã inteiro, antes e depois](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Mostre os seus conteúdos do Power BI (dashboards, relatórios, páginas, mosaicos e visualizações) sem a distração dos menus e das barras de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Isto, às vezes, é chamado de Modo de TV. As funcionalidades disponíveis no modo de ecrã inteiro variam consoante o conteúdo. 
+Mostre os seus conteúdos do Power BI (dashboards, relatórios, páginas, mosaicos e visualizações) sem a distração dos menus e das barras de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Por vezes, esta vista é denominada Modo de TV. As funcionalidades disponíveis no modo de ecrã inteiro variam consoante o conteúdo. 
 
-Se estiver a utilizar o Power BI móvel, o [ecrã inteiro está disponível para as aplicações móveis do Windows 10](mobile-windows-10-app-presentation-mode.md). O Power BI Desktop não tem um modo de ecrã inteiro para os relatórios ou as visualizações, mas tem a opção Ajustar à página para a [Vista de relações](desktop-report-view.md) e o [modo de detalhe para os elementos visuais](service-focus-mode.md).
+Se estiver a utilizar o Power BI móvel, o [ecrã inteiro está disponível para as aplicações móveis do Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). O Power BI Desktop não tem um modo de ecrã inteiro para relatórios ou visualizações, mas tem a opção Ajustar à página para a [vista Relações e vista Relatório](desktop-report-view.md) e o [modo de detalhe para os elementos visuais de relatório](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ Alguns usos do modo de ecrã inteiro:
 * ver num ecrã pequeno
 * rever no modo bloqueado: pode tocar no ecrã ou passar o cursor sobre os mosaicos sem abrir o relatório ou dashboard subjacente
 
-> **NOTA**: o modo de ecrã inteiro difere do [Modo de detalhe (destaque)](service-focus-mode.md).
+> **NOTA**: o modo de ecrã inteiro difere do [Modo de detalhe (destaque)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -44,7 +44,7 @@ Veja a Amanda a abrir e a navegar no dashboard no modo de ecrã inteiro e a apli
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>Dashboards e páginas de relatórios no modo de ecrã inteiro
-1. Na barra de menus do Power BI, acima do dashboard ou do relatório, selecione o ícone de **ecrã inteiro** ![ícone de ecrã inteiro](media/service-fullscreen-mode/power-bi-full-screen-icon.png). A sua página de relatório ou tela de dashboard preenche todo o ecrã. O exemplo abaixo é um dashboard.
+1. Na barra de menus do serviço Power BI, acima do seu dashboard ou relatório, selecione o ícone de **ecrã inteiro** ![ícone de ecrã inteiro](media/service-fullscreen-mode/power-bi-full-screen-icon.png). A sua página de relatório ou tela de dashboard preenche todo o ecrã. O exemplo abaixo é um dashboard.
    
       ![Dashboard apresentado em ecrã inteiro](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. No modo de ecrã inteiro, tem diversas opções de menu.  Para fazer surgir o menu, faça passar o rato ou cursor. 
@@ -78,7 +78,7 @@ Veja a Amanda a abrir e a navegar no dashboard no modo de ecrã inteiro e a apli
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Visualizações e mosaicos do dashboard no modo de ecrã inteiro
-1. Para apresentar os mosaicos do dashboard e as visualizações de relatórios no modo de ecrã inteiro, esse mosaico ou visualização deve estar já no [Modo de detalhe](service-focus-mode.md). 
+1. Para apresentar os mosaicos do dashboard e as visualizações de relatórios no modo de ecrã inteiro, esse mosaico ou visualização deve estar já no [Modo de detalhe](consumer/end-user-focus.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Em seguida, selecione o ícone de Ecrã Inteiro ![ícone de ecrã inteiro](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  correspondente a esse mosaico ou visual. O mosaico ou visual será apresentado em ecrã inteiro sem menus ou barras de navegação.
@@ -86,8 +86,8 @@ Veja a Amanda a abrir e a navegar no dashboard no modo de ecrã inteiro e a apli
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Dashboards no Power BI](service-dashboards.md)  
-[Modo de detalhe](service-focus-mode.md)    
+[Dashboards no Power BI](consumer/end-user-dashboards.md)  
+[Modo de detalhe](consumer/end-user-focus.md)    
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

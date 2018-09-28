@@ -2,21 +2,21 @@
 title: Definir alertas de dados no serviço Power BI
 description: Aprenda a definir alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu no serviço Microsoft Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137644"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167934"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de dados no serviço Power BI
 Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu. 
@@ -41,16 +41,16 @@ Este exemplo utiliza um mosaico de cartão do dashboard de exemplo de Análise d
 
 1. Inicie um dashboard. A partir do medidor do dashboard, KPI ou mosaico do cartão, selecione as reticências.
    
-   ![Mosaico Total de Lojas](media/service-set-data-alerts/powerbi-card.png)
-2. Selecione o ícone de campainha ![ícone de alerta](media/service-set-data-alerts/power-bi-bell-icon.png) para adicionar um ou mais alertas a **Total de lojas**.
+   ![Mosaico Total Stores](media/service-set-data-alerts/powerbi-card.png)
+2. Selecione o ícone de campainha ![ícone de alerta](media/service-set-data-alerts/power-bi-bell-icon.png) ou **Gerir alertas** para adicionar um ou mais alertas a **Total stores**.
    
-1. Para começar, selecione **+ Adicionar regra de alerta**, certifique-se de que o controlo de deslize está definido como **Ativo** e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
+1. No painel **Gerir alertas**, selecione **+ Adicionar regra de alerta**.  Certifique-se de que o controlo de deslize está definido como **Ativo**e atribua um título ao alerta. Os títulos ajudam a reconhecer facilmente os alertas.
    
    ![Janela Gerir alertas](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Desloque o ecrã para baixo e introduza os detalhes do alerta.  Neste exemplo, vamos criar um alerta que nos notifica uma vez por dia se o número total de lojas ficar acima de 100. Os alertas serão apresentados no nosso Centro de notificações. E o Power BI também nos envia uma mensagem de e-mail.
    
    ![Janela Gerir alertas, definição de Limiar](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Selecione **Guardar**.
+5. Selecione **Guardar e fechar**.
 
 ## <a name="receiving-alerts"></a>Receber alertas
 Quando os dados que estão a ser monitorizados atingirem um dos limiares que definiu, acontecerão várias coisas. Em primeiro lugar, o Power BI verifica se passou mais de uma hora ou mais de 24 horas (consoante a opção que selecionou) desde o último alerta enviado. Desde que os dados tenham passado o limiar, receberá um alerta.
@@ -104,6 +104,4 @@ Existem várias formas de gerir os alertas: no próprio mosaico do dashboard, no
 ## <a name="next-steps"></a>Passos seguintes
 [Criar um Microsoft Flow que inclui um alerta de dados](service-flow-integration.md)    
 [Definir alertas de dados num dispositivo móvel](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[O que é o Power BI?](power-bi-overview.md)    
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
