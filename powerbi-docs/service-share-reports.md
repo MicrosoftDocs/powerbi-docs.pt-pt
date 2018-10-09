@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545649"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271515"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Partilhar um relatório do Power BI filtrado com os seus colegas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir os seus relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Na partilha, o utilizador e os seus destinatários necessitam de uma [licença do Power BI Pro](service-free-vs-pro.md), ou os conteúdos precisam de estar numa [capacidade Premium](service-premium.md). Sugestões? A equipa do Power BI está sempre interessada nos seus comentários, por isso, vá ao [site da Comunidade do Power BI](https://community.powerbi.com/).
+Na partilha, o utilizador e os seus destinatários necessitam de uma [licença do Power BI Pro](service-features-license-type.md), ou os conteúdos precisam de estar numa [capacidade Premium](service-premium.md). Sugestões? A equipa do Power BI está sempre interessada nos seus comentários, por isso, vá ao [site da Comunidade do Power BI](https://community.powerbi.com/).
 
 Pode partilhar um relatório com os colegas no mesmo domínio de e-mail que utiliza, a partir da maioria dos locais no serviço Power BI: Favoritos, Recente, Partilhado comigo (se o proprietário o permitir), A minha área de trabalho ou outras áreas de trabalho. Ao partilhar um relatório, as pessoas com quem o partilhar podem ver e interagir com o mesmo, mas não podem editá-lo. As pessoas verão os mesmos dados que vê no relatório, a menos que seja aplicada [RLS (Segurança em nível de linha)](service-admin-rls.md). 
 

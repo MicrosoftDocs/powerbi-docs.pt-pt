@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549943"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271769"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar os seus dashboards e relatórios do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Ícone Partilhar numa lista de dashboards favoritos](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [licença do Power BI Pro](service-free-vs-pro.md). Os destinatários necessitam também de licenças do Power BI Pro, ou os conteúdos precisam de estar numa [capacidade Premium](service-premium.md). 
+Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [licença do Power BI Pro](service-features-license-type.md). Os destinatários necessitam também de licenças do Power BI Pro, ou os conteúdos precisam de estar numa [capacidade Premium](service-premium.md). 
 
 Pode partilhar dashboards e relatórios a partir da maioria dos locais no serviço Power BI: Favoritos, Recente, Partilhado comigo (se o proprietário o permitir), A Minha Área de Trabalho ou outras áreas de trabalho. Ao partilhar um dashboard ou relatório, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. As pessoas verão os mesmos dados que vê no dashboard ou no relatório, a menos que seja aplicada a [RLS (Segurança em nível de linha)](service-admin-rls.md). Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização também podem ver e interagir com os dashboards ou relatórios, mas não os podem partilhar. 
 

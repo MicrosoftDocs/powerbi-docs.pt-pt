@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548287"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271883"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho de aplicação do Power BI
 Depois de [criar uma área de trabalho de aplicação no Power BI](consumer/end-user-create-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho de aplicação do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive e essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros. 
@@ -29,7 +29,7 @@ A adição de ficheiros à área de trabalho de aplicação é um processo de do
 2. Em seguida, [ligue a esses ficheiros a partir do Power BI](service-connect-to-files-in-app-workspace-onedrive-for-business.md#2-import-excel-files-as-datasets-or-as-excel-online-workbooks).
 
 > [!NOTE]
-> As áreas de trabalho de aplicação estão disponíveis apenas no [Power BI Pro](service-free-vs-pro.md).
+> As áreas de trabalho de aplicação estão disponíveis apenas no [Power BI Pro](service-features-license-type.md).
 > 
 > 
 

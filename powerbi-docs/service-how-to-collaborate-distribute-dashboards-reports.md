@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545757"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271728"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Como devo colaborar e partilhar no Power BI?
 
@@ -29,7 +29,7 @@ Neste artigo, vamos comparar estas opções de colaboração e partilha no Power
 - Imprimir relatórios.
 * Publicar na Web em sites públicos, onde qualquer pessoa pode ver e interagir com os conteúdos.
 
-Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licença do Power BI Pro](service-free-vs-pro.md) ou o conteúdo precisa de estar numa [capacidade Premium](service-premium.md). Os requisitos de licença variam para os colegas que veem os seus dashboards, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
+Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licença do Power BI Pro](service-features-license-type.md) ou o conteúdo precisa de estar numa [capacidade Premium](service-premium.md). Os requisitos de licença variam para os colegas que veem os seus dashboards, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
 
 ![Aplicações no serviço Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 

@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565849"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798937"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
