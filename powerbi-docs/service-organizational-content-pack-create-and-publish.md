@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eaf70dab21bd35947582e343567bb1457b99cabc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547988"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908469"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Criar e publicar um pacote de conteúdos organizacionais do Power BI (tutorial)
 
@@ -92,7 +92,7 @@ Quer acompanhar? No [serviço Power BI](https://powerbi.com), aceda a **Obter Da
 ### <a name="next-steps"></a>Próximos passos
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md)  
 * [Gerir, atualizar e eliminar pacotes de conteúdos organizacionais](service-organizational-content-pack-manage-update-delete.md)  
-* [Criar um grupo no Power BI](consumer/end-user-create-apps.md)  
+* [Criar um grupo no Power BI](service-create-distribute-apps.md)  
 * [O que é o OneDrive para Empresas?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

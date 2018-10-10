@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186659"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908313"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagir com um relatório na Vista de edição no serviço Power BI
 Os relatórios podem ser criados e editados no serviço Power BI e no Power BI Desktop. No serviço Power BI, os relatórios podem ser criados e editados na **Vista de edição**. No Power BI Desktop, os relatórios podem ser criados e editados na [**Vista de relatório**](desktop-report-view.md). Este artigo aborda a Vista de edição do serviço Power BI. 
 
 O serviço Power BI tem dois modos diferentes para interagir com os relatórios: [Vista de leitura](consumer/end-user-reading-view.md) para os *consumidores* do relatório e Vista de edição para os proprietários e os criadores do relatório.  Uma licença Power BI Pro é necessária para a partilha de relatórios, bem como para edição dos relatórios criados por outros utilizadores. Se não tiver uma licença do Power BI Pro, ainda poderá criar relatórios, mas não poderá [partilhá-los](service-share-reports.md).    
 
-Na Vista de edição do relatório, tem muita flexibilidade na exploração e na conceção de um relatório. Toda a funcionalidade da [Vista de leitura](consumer/end-user-reading-view.md) está disponível, além de muitas outras coisas. A Vista de edição só está disponível para a pessoa que criou o relatório ou para os colegas que são [coproprietários de um relatório como um membro ou um administrador de uma área de trabalho da aplicação](consumer/end-user-create-apps.md).
+Na Vista de edição do relatório, tem muita flexibilidade na exploração e na conceção de um relatório. Toda a funcionalidade da [Vista de leitura](consumer/end-user-reading-view.md) está disponível, além de muitas outras coisas. A Vista de edição só está disponível para a pessoa que criou o relatório ou para os colegas que são [coproprietários de um relatório como um membro ou um administrador de uma área de trabalho da aplicação](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Funcionalidade apenas disponível na Vista de edição
 Veja a lista de tópicos sob o cabeçalho **Relatórios** no Índice à esquerda. É uma longa lista e muitos dos tópicos abrangem a funcionalidade *apenas disponível se tiver permissões de edição para um relatório*.  Para o ajudar a navegar no Índice, a Vista de edição é necessária para o seguinte:

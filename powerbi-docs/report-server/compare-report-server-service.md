@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548494"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908537"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -33,7 +33,7 @@ O Power BI Report Server e o serviço Power BI tem bastantes semelhanças e al
 | Gateway necessário | Não | Sim para origens de dados no local |  
 | Transmissão em fluxo em tempo real | Não | Sim | [Transmissão em fluxo em tempo real no Power BI](../service-real-time-streaming.md)
 | Dashboards | Não | Sim | [Dashboards no serviço Power BI](../consumer/end-user-dashboards.md) 
-| Distribuir grupo de relatórios através de aplicações | Não | Sim | [Criar e publicar aplicações com dashboards e relatórios](../consumer/end-user-create-apps.md) 
+| Distribuir grupo de relatórios através de aplicações | Não | Sim | [Criar e publicar aplicações com dashboards e relatórios](../service-create-distribute-apps.md) 
 | Pacotes de conteúdos | Não | Sim | [Pacotes de conteúdos organizacionais: introdução](../service-organizational-content-pack-introduction.md) 
 | Ligar a serviços como o Salesforce | Não | Sim | [Ligar aos serviços que utiliza](../consumer/end-user-connect-to-services.md) com o serviço Power BI
 | Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../consumer/end-user-q-and-a.md) 

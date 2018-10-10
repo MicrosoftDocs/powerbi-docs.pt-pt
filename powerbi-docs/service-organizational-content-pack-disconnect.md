@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2682dd9c4d64e3042273df88c86b146e07c681b3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: dc440c42692b1707649fadf415dfe32fd7b731c8
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549529"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48907907"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Remover a ligação a um pacote de conteúdos organizacionais do Power BI
 
@@ -35,7 +35,7 @@ Remover o conjunto de dados também remove todos os relatórios e dashboards ass
 
 ## <a name="next-steps"></a>Próximos passos
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md) 
-* [Criar e distribuir uma aplicação no Power BI](consumer/end-user-create-apps.md) 
+* [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md) 
 * [Conceitos básicos do Power BI](consumer/end-user-basic-concepts.md)  
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

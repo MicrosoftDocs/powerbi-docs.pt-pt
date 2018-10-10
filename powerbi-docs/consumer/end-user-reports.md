@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564844"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908630"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 ## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
@@ -67,7 +67,7 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 * Comece por uma [apresentação do serviço Power BI](end-user-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
 * Saiba como [abrir um relatório](end-user-report-open.md) e todas as interações disponíveis na [Vista de leitura](end-user-reading-view.md).
 * Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](../sample-tutorial-connect-to-the-samples.md).  
-* Já não necessita do relatório? Pode [removê-lo](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Para ver que conjunto de dados o relatório está a utilizar e que dashboards têm esta informação afixada do relatório, [veja os conteúdos relacionados](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Eis alguns tópicos, por cargo, que o ajudarão a começar.
 [O que é o Power BI?](../power-bi-overview.md) 
 
 [Power BI - Conceitos Básicos](end-user-basic-concepts.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

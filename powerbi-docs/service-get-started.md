@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187128"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908759"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
@@ -55,7 +55,7 @@ Consulte a nossa [lista de reprodução no YouTube](https://www.youtube.com/play
 ## <a name="what-is-power-bi-service"></a>O que é o serviço Power BI?
 O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](consumer/end-user-basic-concepts.md).
 
-Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](consumer/end-user-create-apps.md) já publicadas para si.
+Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](service-create-distribute-apps.md) já publicadas para si.
 
 Leia sobre todas as outras formas de [obter dados para o Power BI](service-get-data.md).
 

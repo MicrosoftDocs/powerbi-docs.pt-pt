@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271728"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908975"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Como devo colaborar e partilhar no Power BI?
 
@@ -57,7 +57,7 @@ Suponhamos que pretende distribuir a sua área de trabalho para um público alar
 
 ![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Se o seu administrador do Power BI lhe der permissões, pode instalar uma aplicação automaticamente nas contas do Power BI dos seus colegas de trabalho. Leia mais sobre [publicar as suas aplicações](consumer/end-user-create-apps.md). 
+É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Se o seu administrador do Power BI lhe der permissões, pode instalar uma aplicação automaticamente nas contas do Power BI dos seus colegas de trabalho. Leia mais sobre [publicar as suas aplicações](service-create-distribute-apps.md). 
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
@@ -99,7 +99,7 @@ Pode publicar relatórios do Power BI para toda a Internet ao incorporar visuali
 
 ## <a name="next-steps"></a>Próximos passos
 * [Partilhar dashboards com colegas e outras pessoas](service-share-dashboards.md)
-* [Criar e publicar uma aplicação no Power BI](consumer/end-user-create-apps.md)
+* [Criar e publicar uma aplicação no Power BI](service-create-distribute-apps.md)
 * Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 * Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
 
