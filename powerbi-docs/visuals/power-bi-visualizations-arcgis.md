@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545780"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396816"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagir com mapas ArcGIS no Power BI
 Este tópico foi escrito do ponto de vista de uma pessoa que *consome* um mapa ArcGIS no serviço Power BI, Desktop ou para dispositivo móvel. Quando um criador partilha um mapa ArcGIS consigo, existem várias formas de interagir com o mapa.  Para obter mais informações sobre como criar um mapa ArcGIS, veja [Tutorial de mapas ArcGIS da ESRI](../power-bi-visualization-arcgis.md).
@@ -57,7 +57,7 @@ O ArcGIS Maps for Power BI permite três modos de seleção. É possível seleci
 ## <a name="interacting-with-an-arcgis-map"></a>Interagir com um mapa ArcGIS
 As funcionalidades disponíveis dependem se for um *criador* (pessoa que criou o mapa) ou o *consumidor* (alguém partilhou um mapa ArcGIS consigo). Se estiver a interagir com um mapa ArcGIS como um consumidor ([Vista de leitura](../consumer/end-user-reading-view.md)), seguem-se as ações disponíveis para si.
 
-* Tal como com outros tipos de visualização, pode [afixar nos dashboards](../service-dashboard-pin-tile-from-report.md), [ver](../consumer/end-user-show-data.md) e/ou [exportar os dados subjacentes](../consumer/end-user-export-data.md) e ver o mapa no [Modo de detalhe](../consumer/end-user-focus.md)e em [Ecrã inteiro](../service-fullscreen-mode.md).    
+* Tal como com outros tipos de visualização, pode [afixar nos dashboards](../service-dashboard-pin-tile-from-report.md), [ver](../consumer/end-user-show-data.md) e/ou [exportar os dados subjacentes](power-bi-visualization-export-data.md) e ver o mapa no [Modo de detalhe](../consumer/end-user-focus.md)e em [Ecrã inteiro](../service-fullscreen-mode.md).    
 * Expanda o painel **Filtros** para explorar o mapa através de filtros. Quando fechar o relatório, os filtros aplicados não são guardados.    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Se o mapa tiver uma camada de referência, selecione as localizações para apresentar os detalhes numa descrição. Aqui, selecionámos o condado de Adams e vemos os dados da camada de referência do rendimento médio do agregado familiar que o criador adicionou ao mapa.

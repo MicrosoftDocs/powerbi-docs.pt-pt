@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755030"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49642017"
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -25,7 +25,7 @@ Saber quem está a realizar ações em que item no inquilino Power BI pode ser f
 
 Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard, tipo de relatório, conjunto de dados e tipo de atividade. Também pode transferir as atividades num ficheiro csv (valores separados por vírgulas) para análise offline.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
 - Para aceder à secção de auditoria do Centro de Segurança e Conformidade do Office 365, tem de ter uma licença do Exchange Online (incluída nas subscrições do Office 365 Enterprise E3 e E5).
@@ -99,7 +99,7 @@ Os resultados contêm as seguintes informações sobre cada evento devolvido pel
 
 | **Coluna** | **Definição** |
 | --- | --- |
-| Date |A data e a hora (no formato UTC) em que ocorreu o evento. |
+| Data |A data e a hora (no formato UTC) em que ocorreu o evento. |
 | Endereço IP |O endereço IP do dispositivo que foi utilizado quando a atividade foi registada. O endereço IP é apresentado no formato de endereço IPv4 ou IPv6. |
 | Utilizador |O utilizador (ou a conta de serviço) que efetuou a ação que, por sua vez, acionou o evento. |
 | Atividade |A atividade efetuada pelo utilizador. Este valor corresponde às atividades que selecionou na lista pendente Activitiesdrop. Para um evento do registo de auditoria de administrador do Exchange, o valor nesta coluna é um cmdlet do Exchange. |
@@ -202,7 +202,7 @@ Para obter uma listagem completa, consulte [Propriedades detalhadas no registo d
 ## <a name="next-steps"></a>Próximos passos
 
 [Portal de Administração do Power BI](service-admin-portal.md)  
-[Power BI Premium – o que é?](service-premium.md)  
+[O que é o Power BI Premium?](service-premium.md)  
 [Comprar o Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx)  
 [Ligar ao PowerShell do Exchange Online](https://technet.microsoft.com/library/jj984289\(v=exchg.160\).aspx)  
