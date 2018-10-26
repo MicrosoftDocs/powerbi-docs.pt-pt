@@ -8,33 +8,36 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 43fa44f1a3d1506729a4e0b0150376ff534eb604
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e06f0157476207bfe50abba01bd31d7605236a95
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564676"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112182"
 ---
-# <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Apresentar os dashboards do Power BI partilhados comigo
+# <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizar os dashboards e os relatórios partilhados comigo
 ## <a name="shared-with-me"></a>Partilhado comigo
+
+Quando um colega partilha conteúdo consigo, através do botão **Partilhar**, ele aparece no seu contentor **Partilhado comigo**. O dashboard ou relatório só está disponível a partir **Partilhado comigo** e não a partir de **Aplicações**.
+
 ![Ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-dash.png)
 
-Quando um colega partilha um dashboard consigo, o título é adicionado à lista **Partilhado comigo**. O dashboard só está disponível a partir **Partilhado comigo** e não a partir de uma área de trabalho ou de **Aplicações**.
-
-Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo a passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Leia [O que é o Power BI Premium?](../service-premium.md) para obter detalhes.
+Veja a Amália a explicar a lista de conteúdo **Partilhado comigo** e a demonstrar como navegar e filtrar a lista. Em seguida, siga as instruções passo a passo abaixo do vídeo para experimentar. Para que possa ver dashboards partilhados consigo, tem de ter uma licença do Power BI Pro. Para mais detalhes, leia [O que é o Power BI Premium?](../service-premium.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-Tem várias opções para interagir com o dashboard e o relatório subjacente, consoante as permissões dadas pelo proprietário. Estas incluem a capacidade de fazer cópias do dashboard, abrir o relatório [na vista de Leitura](end-user-reading-view.md) e partilhar novamente com outros colegas.
+Tem várias opções para interagir com os dashboards e os relatórios, consoante as permissões dadas pelo designer. Estas incluem a capacidade de fazer cópias do dashboard, abrir o relatório [na vista de Leitura](end-user-reading-view.md) e partilhar novamente com outros colegas.
 
-## <a name="actions-available-from-the-shared-with-me-screen"></a>Ações disponíveis a partir do ecrã **Partilhado comigo**
-* Selecione o ícone de estrela para [Adicionar um dashboard aos favoritos](end-user-favorite.md).
-* [Remover um dashboard](end-user-delete.md) ![ícone de recipiente do lixo](./media/end-user-shared-with-me/power-bi-delete-icon.png)
-* Alguns dashboards podem ser partilhados novamente  ![ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-icon-new.png)
-* Além disso, se as listas de dashboards ficarem longas, [utilize o campo de pesquisa e a ordenação para localizar o que precisa](end-user-search-filter-sort.md).
+![contentor Partilhado comigo](./media/end-user-shared-with-me/power-bi-container.png)
+
+## <a name="actions-available-from-the-shared-with-me-container"></a>Ações disponíveis a partir do contentor **Partilhado comigo**
+* Selecione o ícone de estrela para [Adicionar um dashboard ou um relatório aos favoritos](end-user-favorite.md).
+* Remover um dashboard ou relatório  ![ícone de recipiente do lixo](./media/end-user-shared-with-me/power-bi-delete-icon.png)
+* Alguns dashboards e relatórios podem ser partilhados novamente  ![ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-icon-new.png)
+* Além disso, se as listas ficarem longas, [utilize o campo de pesquisa e a ordenação para localizar o que precisa](end-user-search-sort.md).
   
   > [!NOTE]
   > Para obter informações sobre as classificações EGRC, selecione o botão de classificação ou [visite a Classificação de dados de dashboards](../service-data-classification.md).
@@ -45,11 +48,4 @@ Tem várias opções para interagir com o dashboard e o relatório subjacente, c
 ## <a name="filter-shared-dashboards-by-owner"></a>Filtrar dashboards partilhados pelo proprietário
 O conteúdo no ecrã **Partilhado comigo** pode ser mais filtrado pelo proprietário do conteúdo. Por exemplo, se selecionar **Amália**, posso ver apenas o dashboard que ela partilhou comigo.
 
-![dashboard filtrado pelo proprietário](./media/end-user-shared-with-me/power-bi-owner.png)
-
-## <a name="next-steps"></a>Próximos passos
-[Power BI - Conceitos Básicos](end-user-basic-concepts.md)  
-[Power BI Premium – o que é?](../service-premium.md)  
-
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-
+![dashboard filtrado pelo proprietário](./media/end-user-shared-with-me/power-bi-owner-new.png)

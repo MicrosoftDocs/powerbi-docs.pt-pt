@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974213"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359729"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregações no Power BI Desktop (Pré-visualização)
 
@@ -191,9 +191,9 @@ Em seguida, definimos os mapeamentos de agregação na caixa de diálogo **Gerir
 
 ![Caixa de diálogo Gerir agregações da tabela Driver Activity Agg (Agregação de Atividades do Condutor)](media/desktop-aggregations/aggregations_11.jpg)
 
-A tabela seguinte mostra as agregações da tabela **Sales Agg** (Agregação de Vendas).
+A tabela seguinte mostra as agregações da tabela **Driver Activity Agg** (Agregação de Atividades do Condutor).
 
-![Tabela de agregações Sales Agg (Agregação de Vendas)](media/desktop-aggregations/aggregations-table_02.jpg)
+![Tabela de agregações Driver Activity Agg (Agregação de Atividades do Condutor)](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>Colunas Agrupar por
 
@@ -229,9 +229,9 @@ A tabela especificada na coluna **Tabela de Detalhes** é a **Driver Activity** 
 
 ![Caixa de diálogo Gerir agregações](media/desktop-aggregations/aggregations_14.jpg)
 
-A tabela seguinte mostra as agregações da tabela **Sales Agg** (Agregação de Vendas).
+A tabela seguinte mostra as agregações da tabela **Driver Activity Agg2** (Agregação 2 de Atividades do Condutor).
 
-![Tabela de agregações Sales Agg (Agregação de Vendas)](media/desktop-aggregations/aggregations-table_03.jpg)
+![Tabela de agregações Driver Activity Agg2 (Agregação 2 de Atividades do Condutor)](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>Agregações baseadas em colunas Agrupar por combinadas com relações
 

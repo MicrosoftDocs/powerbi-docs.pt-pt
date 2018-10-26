@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565872"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336858"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Utilizar a segmentação de dados no Power BI Desktop
 
@@ -65,6 +65,12 @@ Também pode aplicar um **nome de grupo** a uma coleção de segmentações de d
 Esta funcionalidade permite-lhe criar um grupo de segmentações de dados personalizado para manter sincronizado. É fornecido um nome predefinido, mas pode utilizar outro nome que prefira. 
 
 O nome do grupo fornece flexibilidade adicional com as segmentações de dados. Pode criar grupos separados para sincronizar as segmentações de dados que utilizam o mesmo campo ou colocar as segmentações de dados que utilizam campos diferentes no mesmo grupo. 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>Como a filtragem afeta a seleção nas segmentações de dados
+
+Se efetuar uma seleção numa segmentação de dados e, em seguida, aplicar um filtro que normalmente iria remover o item selecionado, este permanecerá na parte inferior da lista de itens na segmentação de dados. Se o filtro for removido, a seleção ainda estará lá na segmentação de dados. Perceberá que se anular a seleção do item na segmentação de dados, este desaparece da lista.
+
+![seleção retida nas segmentações de dados](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>Próximos passos

@@ -1,5 +1,5 @@
 ---
-title: Extrair dados de uma página Web de exemplo no Power BI Desktop (Pré-visualização)
+title: Extrair dados de uma página Web por exemplo no Power BI Desktop
 description: Extrair dados de uma página Web ao fornecer um exemplo de o que pretende extrair
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290988"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336812"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Obter dados de uma página Web ao fornecer um exemplo (Pré-visualização)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Obter dados de uma página Web ao fornecer um exemplo
 
 A obtenção de dados de uma página Web permite aos utilizadores extrair facilmente dados de páginas Web e importar esses dados para o **Power BI Desktop**. Muitas vezes, no entanto, os dados nas páginas Web não estão em tabelas bem organizadas que sejam fáceis de extrair, pelo que a obtenção de dados dessas páginas (mesmo que estejam estruturados e consistentes) pode ser um desafio. 
 
@@ -26,13 +26,6 @@ Há uma solução. Com a funcionalidade **Obter Dados da Web por exemplo**, esse
 ![Obter dados da Web por exemplo](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Ativar a funcionalidade de pré-visualização Obter Dados da Web por exemplo
-
-A funcionalidade **Obter Dados da Web por exemplo** está em Pré-visualização e tem ser ativada no **Power BI Desktop**. Para o ativar, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Novo da experiência Web**. Terá de reiniciar o Power BI Desktop depois de efetuar a seleção.
-
-![ativar a funcionalidade de pré-visualização](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Quando estiver ativada a funcionalidade de pré-visualização, está pronto para começar a utilizá-la. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Utilizar a funcionalidade Obter Dados da Web por exemplo
 

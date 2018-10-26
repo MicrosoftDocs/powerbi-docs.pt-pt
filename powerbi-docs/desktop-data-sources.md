@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512070"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336904"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -75,13 +75,15 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Base de Dados Teradata
 * Base de Dados do SAP HANA
 * SAP Business Warehouse Application Server
-* SAP Business Warehouse Message Server (Beta)
+* SAP Business Warehouse Message Server
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * Snowflake
+* Dremio (Beta)
 * Exasol (Beta)
 * Jethro (Beta)
+* Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Alguns conectores de base de dados requerem que os ative ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, selecionar **Funcionalidades de Pré-visualização** e ativar o conector. Se não vir alguns dos conectores mencionados acima e pretender utilizá-los, consulte as suas definições de **Funcionalidades de Pré-visualização**. Note também que qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
@@ -112,7 +114,7 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* Interactive Query do HDInsight (Beta)
+* Interactive Query do HDInsight
 * Azure KustoDB (beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
@@ -124,10 +126,10 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Lista do SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (online)
-* Dynamics NAV (Beta)
+* Dynamics NAV
 * Dynamics 365 Business Central
+* Dynamics 365 Business Central (no local)
 * Common Data Service para Aplicações (Beta)
-* Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
 * Visual Studio Team Services (Beta)
 * Objetos do Salesforce
@@ -163,7 +165,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
 
 A categoria **Outros** fornece as seguintes ligações de dados:
 
-* Vertica (Beta)
+* Vertica
 * Web
 * Lista do SharePoint
 * Feed OData
@@ -175,6 +177,8 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Script de Python
 * ODBC
 * OLEDB
+* Denado
+* Paxata (Beta)
 * Consulta em Branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.

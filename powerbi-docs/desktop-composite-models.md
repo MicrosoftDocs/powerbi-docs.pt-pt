@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388853"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336996"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Modelos compostos no Power BI Desktop (Pré-visualização)
 
@@ -58,7 +58,7 @@ Ao utilizar o DirectQuery, com os **modelos compostos**, é possível criar um m
 Por exemplo, com os **modelos compostos**, é possível criar um modelo que combine dados das vendas de um armazém de dados empresarial, com dados dos objetivos de vendas que estejam numa base de dados SQL Server departamental, juntamente com alguns dados importados de uma folha de cálculo. Um modelo que combina dados de mais de uma origem do DirectQuery ou combina o DirectQuery com dados importados é designado por *modelo composto*.
 
 > [!NOTE]
-> Embora os modelos compostos estejam em pré-visualização, não é possível publicar modelos compostos no serviço Power BI. 
+> A partir da versão de outubro de 2018 do **Power BI Desktop**, *pode* publicar modelos compostos no serviço Power BI. Para atualização agendada e atualização de mosaicos do dashboard, os modelos compostos no serviço Power BI comportam-se da mesma forma como se comportam os Modelos de importação. 
 
 Pode criar relações entre as tabelas como sempre fez, até mesmo quando essas tabelas são provenientes de diferentes origens, com a seguinte restrição: todas as relações que tenham origens diferentes têm de ser definidas como tendo uma cardinalidade de **Muitos para Muitos** , independentemente da sua cardinalidade real. O comportamento de tais relações é então o mesmo que o comportamento normal para as relações **Muitos para Muitos**, conforme descrito em [Relações muitos para muitos no Power BI Desktop (Pré-visualização)](desktop-many-to-many-relationships.md). Observe que dentro do contexto dos modelos compostos, todas as tabelas importadas são, efetivamente, o única origem, independentemente da origem de dados real subjacente, da qual são, de facto, importadas.   
 
@@ -164,12 +164,13 @@ Além disso, a utilização de relações **muitos para muitos** significa que c
 
 Existem algumas limitações nesta versão dos **modelos compostos**.
 
-As seguintes origens multidimensionais não podem ser utilizadas com **modelos compostos**:
+As seguintes origens do Live Connect (multidimensionais) não podem ser utilizadas com **modelos compostos**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Conjuntos de dados do Power BI
+* Azure Analysis Services
 
 Ao ligar-se a essas origens multidimensionais através do DirectQuery, também não poderá ligar-se à outra origem do DirectQuery nem combinar com dados importados.
 

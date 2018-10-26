@@ -1,84 +1,99 @@
 ---
-title: Abrir um relatório na Vista de leitura ou na Vista de edição no serviço Power BI
-description: Open a Power BI report in Reading view or Editing view (Abrir um relatório do Power BI na Vista de leitura ou na Vista de edição)
+title: Visualizar um relatório no serviço Power BI
+description: Abra um relatório do Power BI na Vista de Leitura.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/10/2018
 ms.author: mihart
-ms.openlocfilehash: fe1916b2b287dffd59bf4535cc07e13d10d01321
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565803"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112021"
 ---
-# <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Abrir um relatório no serviço Power BI (app.powerbi.com)
-Os relatórios estão disponíveis no serviço Power BI, no Power BI Desktop, no Power BI Mobile e até no Power BI Embedded. Este artigo aplica-se à abertura de relatórios no ***serviço Power BI***.
+# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Visualizar um relatório no serviço Power BI (app.powerbi.com)
+Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *designers de relatórios* do Power BI e [partilhados consigo diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
 
-No serviço Power BI, existem dois modos para ver e interagir com relatórios: [Vista de leitura e Vista de edição](end-user-reading-view.md). A Vista de leitura está disponível para todos os utilizadores e foi concebida especialmente para *consumidores* de relatórios, enquanto a Vista de edição só está disponível para *criadores* e proprietários de relatórios. 
+Existem várias formas diferentes de abrir um relatório e vamos mostrar-lhe duas delas: abrir a partir da página Base e abrir a partir de um dashboard. 
 
-## <a name="open-a-report-from-a-workspace-via-the-reports-content-view-list"></a>Abrir um relatório a partir de uma área de trabalho (através da lista da vista de conteúdo **Relatórios**)
+<!-- add art-->
 
-1. Comece numa área de trabalho e selecione o separador **Relatórios** para apresentar todos os relatórios nessa área de trabalho.  
+
+## <a name="open-a-report-from-your-home-page"></a>Abra um relatório a partir da sua página Base
+Vamos abrir um relatório que foi partilhado consigo diretamente e, em seguida, abrir um relatório que foi partilhado como parte de uma aplicação.
+
+   ![Página Base](./media/end-user-report-open/power-bi-home.png)
+
+### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que tenha sido partilhado consigo
+Os *designers* do Power BI podem partilhar um relatório diretamente consigo, ao clicar num botão **Partilhar** na sua barra superior de menu. O conteúdo que é partilhado desta maneira aparece no contentor **Partilhado comigo** na barra de navegação à esquerda e na secção **Partilhado comigo** da sua página Base.
+
+1. Abrir o serviço Power BI (app.powerbi.com).
+
+2. Na barra de navegação esquerda, selecione **Base (pré-visualização)** para abrir a sua página Base.  
+
+   ![Página Base](./media/end-user-report-open/power-bi-select-home.png)
    
-   ![separador Relatórios de uma área de trabalho](./media/end-user-report-open/power-bi-open-report.png)
-2. Selecione o nome do relatório para o abrir na Vista de leitura.  
+3. Desloque para baixo até ver **Partilhado comigo**. Procure o ícone de relatório ![ícone de relatório](./media/end-user-report-open/power-bi-report-icon.png). Nesta captura de ecrã temos dois relatórios: *Financial* e *Northwind*. 
    
-    ![relatório na Vista de leitura](./media/end-user-report-open/power-bi-reading-view.png)
-3. Há [muita coisa que pode fazer na Vista de Leitura](end-user-reading-view.md).  Este relatório de exemplo tem várias páginas, por isso, comece a explorá-las ao selecionar cada separador na parte inferior da tela do relatório. 
+   ![secção partilhado comigo da página Base](./media/end-user-report-open/power-bi-shared.png)
+
+4. Basta selecionar um dos cartões de relatório para abrir o relatório.
+
+   ![página de relatório](./media/end-user-report-open/power-bi-report1.png)
+
+5. Repare nos separadores na parte inferior. Cada separador representa uma *página* do relatório. Atualmente, temos a página *Tendência de gastos de TI* aberta. Selecione um separador diferente para abrir essa página de relatório. 
+
+   ![separadores de página de relatório](./media/end-user-report-open/power-bi-tabs.png)
+
+6. Neste momento, podemos ver apenas uma parte da página do relatório. Para alterar a apresentação (zoom) da página, selecione **Visualizar** > **Ajustar à página**.
+
+   ![alterar zoom](./media/end-user-report-open/power-bi-fit.png)
+
+   ![ajustar à página](./media/end-user-report-open/power-bi-report2.png)
+
+### <a name="open-a-report-that-is-part-of-an-app"></a>Abrir um relatório que faz parte de uma aplicação
+Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações estarão disponíveis na sua página Base e no contentor **Aplicações** na sua barra de navegação esquerda. Uma [aplicação](end-user-apps.md) é um grupo de dashboards e relatórios.
+
+1. Regresse à página Base ao selecionar **Base (pré-visualização)** a partir da barra de navegação esquerda.
+
+7. Desloque para baixo até ver **As Minhas Aplicações**.
+
+   ![Página Base](./media/end-user-report-open/power-bi-my-apps.png)
+
+8. Selecione uma das aplicações para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Se, ao selecionar a aplicação:
+    - o relatório for aberto, estará tudo pronto.
+    - um dashboard for aberto, veja [Abrir um relatório a partir de um dashboard](#Open-a-report-from-a-dashboard), abaixo.
+
+
 
 ## <a name="open-a-report-from-a-dashboard"></a>Abrir um relatório a partir de um dashboard
-Existem muitas outras formas de abrir um relatório; por exemplo, pode começar num dashboard e selecionar um mosaico que foi criado a partir de um relatório.  Ao selecionar o mosaico, abre o relatório na Vista de leitura. Para acompanhar, [abra o dashboard de exemplo Vendas e Marketing](../sample-datasets.md).
+Os relatórios podem ser abertos a partir de um dashboard. A maioria dos mosaicos do dashboard são *afixados* dos relatórios. Selecionar um mosaico abre o relatório que foi utilizado para criar o mosaico. 
 
-1. Abra um dashboard e selecione um mosaico.
-
-   Se selecionar um mosaico que tenha sido [criado com Perguntas e Respostas](../service-dashboard-pin-tile-from-q-and-a.md), o ecrã de Perguntas e Respostas irá abrir. Se selecionar um mosaico que tenha sido [criado com o widget **Adicionar mosaico** do dashboard](../service-dashboard-add-widget.md), irá abrir o assistente para editar esse widget.  
-
-2.  Neste exemplo, selecionámos o mosaico de gráfico de colunas "Total Units YTD...".
+1. A partir de um dashboard, selecione um mosaico. Neste exemplo, selecionámos o mosaico de gráfico de colunas "Total Units YTD...".
 
     ![dashboard com um mosaico selecionado](./media/end-user-report-open/power-bi-dashboard.png)
 
-3.  O relatório associado abre na Vista de leitura. Repare que estamos na página "YTD Category". Esta é a página do relatório que contém o gráfico de colunas que selecionámos a partir do dashboard.
+2.  O relatório associado é aberto. Repare que estamos na página "YTD Category". Esta é a página do relatório que contém o gráfico de colunas que selecionámos a partir do dashboard.
 
-    ![relatório aberto na Vista de leitura](./media/end-user-report-open/power-bi-report.png)
+    ![relatório aberto na Vista de leitura](./media/end-user-report-open/power-bi-report-new.png)
 
-4. Mantenha-se na Vista de leitura ou selecione **Editar relatório** para abrir o relatório na Vista de edição. Lembre-se que apenas as pessoas com permissões de edição para este relatório podem abri-lo na Vista de edição.
+> [!NOTE]
+> Nem todos os mosaicos levam a um relatório. Se selecionar um mosaico que tenha sido [criado com Perguntas e Respostas](../service-dashboard-pin-tile-from-q-and-a.md), o ecrã de Perguntas e Respostas irá abrir. Se selecionar um mosaico que tenha sido [criado com o widget **Adicionar mosaico** do dashboard](../service-dashboard-add-widget.md), irá abrir o assistente **Editar mosaico**.  
 
-    ![Editor de relatórios a mostrar o ícone Editar relatório](./media/end-user-report-open/power-bi-edit-report.png)
-
-## <a name="create-a-brand-new-report-from-a-dataset"></a>Criar um novo relatório a partir de um conjunto de dados
-Uma outra forma de abrir um relatório é a partir de um conjunto de dados. Quando começa a partir de um conjunto de dados, a tela de relatórios estará em branco, pelo que este método é recomendado para *criadores* de relatórios que estejam interessados em criar um novo relatório com base num conjunto de dados que possuem. Tal como no exemplo acima, para acompanhar, transfira a [aplicação de exemplo Vendas e Marketing](../sample-datasets.md).
-
-1. Comece na área de trabalho que contém o conjunto de dados que pretende utilizar como base para um relatório.
-
-   ![painel de navegação à esquerda a mostrar as Áreas de trabalho de aplicação](./media/end-user-report-open/power-bi-workspace.png)
-
-2. Selecione o separador **Conjuntos de dados** para apresentar a lista de todos os conjuntos de dados nessa área de trabalho. Esta lista é chamada de lista de vista de conteúdo **Conjuntos de dados**.
-   
-   ![lista de conjuntos de dados](./media/end-user-report-open/power-bi-dataset.png)
-
-1. Localize o conjunto de dados e selecione o ícone **Criar relatório** para abrir o conjunto de dados na Vista de edição. Se não tiver permissões de edição para um conjunto de dados, não será possível abri-lo. 
-   
-    ![conjunto de dados com o ícone Criar relatório](./media/end-user-report-open/power-bi-create-report.png)
-
-3. O conjunto de dados abre no editor de relatórios. Verá os campos de dados apresentados à direita, à espera que comece a explorar e a criar visualizações. 
-
-   ![tela de relatórios](./media/end-user-report-open/power-bi-blank-canvas.png)
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Mais formas de abrir um relatório
 À medida que vai estando mais à vontade a navegar pelo serviço Power BI, irá descobrir fluxos de trabalho que funcionam melhor para si. Algumas outras formas de aceder a relatórios:
-- No painel de navegação esquerdo com as opções **Favoritos**, **Recentes**, **Aplicações** e **Partilhado comigo**. 
-- Com a opção [Ver relacionados](end-user-related.md)
-- Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](../service-set-data-alerts.md).    
-- A partir do [Centro de notificações](end-user-notification-center.md)    
+- No painel de navegação esquerdo com **Favoritos** e **Recentes**    
+- Com a opção [Ver relacionados](end-user-related.md)    
+- Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](../service-set-data-alerts.md)    
+- A partir de seu [Centro de notificações] (end-user-notification-center.md)    
 - e muito mais
 
 ## <a name="next-steps"></a>Próximos passos
-Leia mais sobre os [relatórios no Power BI](end-user-reports.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)  
+Existem [muitas maneiras de interagir com um relatório](end-user-reading-view.md).  Comece a explorá-las ao selecionar cada separador na parte inferior da tela do relatório.
 

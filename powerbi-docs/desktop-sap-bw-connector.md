@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280208"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336927"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Utilizar o Conector SAP BW no Power BI Desktop
 Com o Power BI Desktop, pode aceder aos dados do **SAP Business Warehouse (BW)**.
 
 Para obter informações sobre como os clientes SAP podem beneficiar da ligação do Power BI aos sistemas SAP Business Warehouse (BW) existentes, veja o [Documento técnico do Power BI e do SAP BW](https://aka.ms/powerbiandsapbw). Para obter detalhes sobre a utilização do DirectQuery com o SAP BW, veja o artigo [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
-A partir da versão de junho de 2018 do **Power BI Desktop**, pode utilizar o conector SAP BW com uma implementação que tenha melhorias significativas no desempenho e nas funcionalidades. Esta versão atualizada do conector SAP BW foi desenvolvida pela Microsoft e designa-se por **Implementação 2.0**. Pode selecionar a versão 1 (v1) do **Conector SAP BW** ou a **Implementação 2.0 do Conector SAP**. As secções seguintes descrevem a instalação de cada versão, uma a uma. Pode selecionar um dos dois conectores ao ligar ao SAP BW a partir do Power BI Desktop.
+A partir da versão de junho de 2018 do **Power BI Desktop** (e disponível na generalidade com a versão de outubro de 2018), pode utilizar o conector SAP BW com uma implementação que tenha melhorias significativas no desempenho e nas funcionalidades. Esta versão atualizada do conector SAP BW foi desenvolvida pela Microsoft e designa-se por **Implementação 2.0**. Pode selecionar a versão 1 (v1) do **Conector SAP BW** ou a **Implementação 2.0 do Conector SAP**. As secções seguintes descrevem a instalação de cada versão, uma a uma. Pode selecionar um dos dois conectores ao ligar ao SAP BW a partir do Power BI Desktop.
 
 Sugerimos que utilize a **Implementação 2.0 do Conector SAP** sempre que possível.
 
