@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 411fd408998ba67c4a91ae01e166396530631678
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549989"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909067"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Inscrever-se no Power BI como um indivíduo
 Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necessidades pessoais de relatórios e visualização.
@@ -24,7 +24,7 @@ Saiba como inscrever-se no Power BI e começar a utilizá-lo para as suas necess
 
 O Power BI pode ser a sua ferramenta pessoal de relatórios e visualização e também pode servir como o motor de decisão e análise por detrás de projetos de grupo, divisões ou empresas inteiras.
 
-Este artigo mostra-lhe as opções para se inscrever e começar a utilizar o serviço Power BI. Para obter informações sobre as diferenças entre o Power BI Gratuito e o Pro, consulte [Power BI Gratuito vs Pro](service-free-vs-pro.md).
+Este artigo mostra-lhe as opções para se inscrever e começar a utilizar o serviço Power BI. Para saber mais sobre as diferenças de funcionalidade entre os tipos de licença do Power BI, veja [Funcionalidades do Power BI por tipo de licença](service-features-license-type.md).
 
 ## <a name="you-have-a-few-options"></a>Tem algumas opções
 Como pessoa, tem várias opções para se inscrever e começar a utilizar o Power BI. Pode optar por inscrever-se gratuitamente ou pode comprar uma subscrição do Power BI Pro. Caso se inscreva numa conta gratuita, quando estiver no serviço, pode optar por receber uma versão de avaliação gratuita de 60 dias no Power BI Pro.
@@ -99,7 +99,7 @@ Depois, irá ver uma mensagem a pedir-lhe que selecione **Começar**.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Versão de avaliação de 60 dias do Power BI Pro no Serviço
 Depois de se inscrever na sua conta gratuita, pode optar por experimentar o Pro gratuitamente durante 60 dias. Terá acesso a todas as funcionalidades do Pro durante o período de avaliação. O Power BI Pro tem todas as funcionalidades da versão gratuita do Power BI, além de funcionalidades adicionais de partilha e colaboração. Para obter mais informações, consulte [Preços do Power BI](https://powerbi.microsoft.com/pricing). Para experimentar uma avaliação gratuita de 60 dias do Power BI Pro, entre no Power BI e experimente uma destas funcionalidades do Power BI Pro:
 
-* [Criar uma área de trabalho de aplicação](consumer/end-user-create-apps.md)
+* [Criar uma área de trabalho de aplicação](service-create-distribute-apps.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
 
 Ao experimentar uma destas funcionalidades, será solicitado para iniciar a sua avaliação gratuita. Também pode optar por usá-la indo até ao ícone de engrenagem e selecionando **Gerir armazenamento pessoal**. Em seguida, selecione **Experimentar o Pro gratuitamente** à direita.
@@ -139,8 +139,7 @@ Em muitos casos, o registo no Power BI pode ser obtido seguindo o processo self-
 |            **Inscrição self-service desativada** Receberá uma mensagem semelhante à seguinte durante a inscrição: <br /><br /> *Não podemos concluir a sua inscrição. O departamento de TI desativou a inscrição para o Microsoft Power BI. Contacte-o para concluir a inscrição.* <br /><br /> ou <br /><br /> *Isto parece ser um endereço de e-mail pessoal. Escreva o seu endereço de trabalho para que possamos ligá-lo a outras pessoas na sua empresa. E não se preocupe. Não iremos partilhar o seu endereço com ninguém.*             |                             O administrador de TI da sua organização desativou a inscrição self-service para o Power BI. <br /><br /> Para concluir a inscrição, contacte o administrador de TI e peça-lhe para seguir as instruções mostradas na página abaixo de modo a permitir que os utilizadores existentes se possam inscrever no Power BI e para permitir que os utilizadores novos se associem ao seu inquilino existente. <br/><br/> Poderá deparar-se também com este problema caso se tenha inscrito no Office 365 através de um parceiro. [Saiba mais](service-admin-syndication-partner.md) <br /><br /> [Power BI na sua Organização](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
 |                                                                                          **O endereço de e-mail não é um ID do Office 365** Recebe uma mensagem semelhante à seguinte durante a inscrição: <br /><br /> *Não foi possível encontrá-lo em contoso.com.  Utiliza um ID diferente no trabalho ou escola? <br /><br /> Experimente iniciar sessão com esse ID e, se não funcionar, contacte o seu departamento de TI.*                                                                                           | A sua organização utiliza IDs para iniciar sessão no Office 365 e noutros serviços Microsoft que são diferentes do endereço de e-mail.  Por exemplo, o seu endereço de e-mail pode ser Nancy.Smith@contoso.com mas o seu ID é nancys@contoso.com. <br /><br /> Para concluir a inscrição, utilize o ID que a sua organização lhe atribuiu para iniciar sessão no Office 365 e noutros serviços Microsoft.  Se não souber qual é o ID, contacte o seu administrador de TI. <br /><br /> Se ainda não conseguiu inscrever-se e pode realizar um processo de configuração mais avançado, pode [registar-se para uma nova subscrição de avaliação do Office 365 e usar esse endereço de e-mail para se inscrever](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
-## <a name="next-steps"></a>Passos seguintes
-[Power BI (gratuito) na sua organização](service-admin-service-free-in-your-organization.md)  
+## <a name="next-steps"></a>Próximos passos  
 [Comprar o Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Contrato de serviço do Power BI para utilizadores individuais](https://powerbi.microsoft.com/terms-of-service/)  
 [Power BI Premium – o que é?](service-premium.md)  
