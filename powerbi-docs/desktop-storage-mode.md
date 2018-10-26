@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388807"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974236"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de armazenamento no Power BI Desktop (Pré-visualização)
 
@@ -99,7 +99,7 @@ Digamos que à partida todas as tabelas neste modelo são DirectQuery. Se, em se
 
 As tabelas de dimensão (*Cliente*, *Data* e *Geografia*) têm de ser definidas como **Dual** para estar em conformidade com as regras de relação descritas anteriormente. Em vez de exigir que essas tabelas sejam definidas como **Dual** antes do tempo, elas podem ser definidas numa única operação.
 
-A lógica de propagação foi concebida para ajudar nos modelos que incluam muitas tabelas. Digamos que tem um modelo com 50 tabelas e apenas determinadas tabelas de factos (transacionais) precisam de ser colocadas em cache. A lógica no **Power BI Desktop** detecta o conjunto mínimo de tabelas de dimensão que têm de ser definidas como **Dual**, por isso, não precisa de fazê-lo.
+A lógica de propagação foi concebida para ajudar nos modelos que incluam muitas tabelas. Digamos que tem um modelo com 50 tabelas e apenas determinadas tabelas de factos (transacionais) precisam de ser colocadas em cache. A lógica no **Power BI Desktop** deteta o conjunto mínimo de tabelas de dimensão que têm de ser definidas como **Dual**, por isso não precisa de o fazer.
 
 A lógica de propagação passa apenas para um lado das relações **1 para-muitos**.
 
@@ -171,12 +171,13 @@ Quando selecionadas na * Vista de dados**, as tabelas **Dual** e **Importação*
 
 Existem algumas limitações para esta versão do **modo de armazenamento** e a sua correlação com os **modelos compostos**.
 
-As seguintes origens multidimensionais não podem ser utilizadas com **modelos compostos**:
+As seguintes origens do Live Connect (multidimensionais) não podem ser utilizadas com **modelos compostos**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Conjuntos de dados do Power BI
+* Azure Analysis Services
 
 Ao ligar-se a essas origens multidimensionais através do DirectQuery, também não poderá ligar-se à outra origem do DirectQuery nem combinar com dados importados.
 

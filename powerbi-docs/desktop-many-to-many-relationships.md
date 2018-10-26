@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388761"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974006"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relações muitos para muitos no Power BI Desktop (Pré-visualização)
 
@@ -68,7 +68,7 @@ Imagine também que a tabela *Vendas* tem apenas quatro linhas, que inclui *Vend
 
 ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
 
-Um elemento visual que apresentasse *Nome do Produto* e *Preço* (da tabela *Produto*), juntamente com o total de *Qtd* para cada produto (da tabela *Vendas por Produto*) seria apresentado como na seguinte imagem: 
+Um elemento visual que apresentasse *Nome do Produto* e *Preço* (da tabela *Produto*), juntamente com o total de *Qtd* para cada produto (da tabela *Vendas por Produto*) seria apresentada como na seguinte imagem: 
 
 ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_05.png)
 
@@ -86,7 +86,7 @@ No entanto, por vezes acontece que as tabelas são unidas por duas colunas, mas 
 
     ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_06.png)
 
-* A tabela *Dados por Cidade* contém os dados por cidades, incluindo a população e o estado (incluindo os estados CA, WA e Nova Iorque)
+* A tabela *Dados por Cidade* contém os dados por cidades, incluindo a população e o estado (incluindo os estados AC, WA e Nova Iorque)
 
     ![elemento visual da tabela](media/desktop-many-to-many-relationships/many-to-many-relationships_07.png)
 
@@ -158,12 +158,13 @@ Por este motivo, deve ter cuidado para garantir que esses cálculos com *ALL(\<T
 
 Existem algumas limitações nesta versão das **relações muitos para muitos** e dos **modelos compostos**.
 
-As seguintes origens multidimensionais não podem ser utilizadas com **modelos compostos**:
+As seguintes origens do Live Connect (multidimensionais) não podem ser utilizadas com **modelos compostos**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Conjuntos de dados do Power BI
+* Azure Analysis Services
 
 Ao ligar-se a essas origens multidimensionais através do DirectQuery, também não poderá ligar-se à outra origem do DirectQuery nem combinar com dados importados.
 
