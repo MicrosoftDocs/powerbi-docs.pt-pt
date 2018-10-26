@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ce37c13d313a44af5f082c0db2a72dbf4d53aca5
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875447"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641925"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - conceitos básicos para o serviço Power BI
 
@@ -82,7 +82,7 @@ Se fizer [parte de uma ***área de trabalho de aplicação***](service-collabora
 Os conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Utilize um conjunto de dados para criar um relatório a partir do zero ou ao executar as [informações rápidas](service-insights.md).  Para ver quais os relatórios e dashboards que já utilizam um conjunto de dados, selecione **Ver relacionados**. Para explorar um conjunto de dados, selecione-o. O que está realmente a fazer é abrir o conjunto de dados no editor de relatórios, onde pode de facto começar a explorar os dados e a criar visualizações. Vamos então passar para o próximo tópico – relatórios.
 
 ### <a name="dig-deeper"></a>Explorar mais
-* [Power BI Premium - what is it?](service-premium.md) (Power BI Premium – o que é?)
+* [O que é o Power BI Premium?](service-premium.md)
 * [Obter dados para o Power BI](service-get-data.md)
 * [Conjuntos de dados de exemplo do Power BI](sample-datasets.md)
 
