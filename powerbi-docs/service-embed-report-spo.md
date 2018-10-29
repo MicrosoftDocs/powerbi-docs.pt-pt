@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908377"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641212"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -87,7 +87,7 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 
 Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores conseguem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
 
-Em alternativa, pode fazer o seguinte para conceder aos utilizadores acesso ao seu relatório.
+Em alternativa, pode efetuar os passos seguintes para conceder aos utilizadores acesso ao seu relatório.
 
 1. Adicione um mosaico de um relatório a um dashboard.
 
@@ -126,7 +126,7 @@ Existem dois motivos comuns para esta mensagem.
 1. Não tem acesso ao relatório.
 2. O relatório foi eliminado.
 
-Deve contactar o proprietário da página do SharePoint Online para que este o ajude a resolver o problema.
+Contacte o proprietário da página do SharePoint Online para que este o ajude a resolver o problema.
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
@@ -148,11 +148,13 @@ Deve contactar o proprietário da página do SharePoint Online para que este o a
 
 * O SharePoint Server clássico não é suportado com esta peça Web.
 
+* Os [filtros de URL](service-url-filters.md) não são suportados na peça Web do SPO.
+
 ## <a name="next-steps"></a>Próximos passos
 
 [Allow or prevent creation of modern site pages by end users](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) (Permitir ou impedir a criação de páginas de sites modernos por utilizadores finais)  
 [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI)  
 [Partilhar um dashboard com colegas e outros utilizadores](service-share-dashboards.md)  
-[Power BI Premium - what is it?](service-premium.md) (Power BI Premium – o que é?)  
+[O que é o Power BI Premium?](service-premium.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

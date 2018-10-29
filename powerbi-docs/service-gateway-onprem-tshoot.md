@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151912"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474032"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 
@@ -40,6 +40,25 @@ O gateway é executado como um serviço Windows, por isso pode iniciar e pará-l
 * Para iniciar o serviço, execute este comando:
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>Configuração de ficheiros de registo
+
+Os registos dos serviços de gateway são categorizados em três grupos: informações, erros e redes. Esta categorização proporciona uma melhor experiência de resolução de problemas que lhe permite focar-se numa área específica, consoante o erro ou problema. Pode ver as três categorias no seguinte fragmento do ficheiro de configuração do gateway: `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`.
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+A localização predefinida deste ficheiro é: *\Programas\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Para configurar o número de ficheiros de registo a reter, altere o primeiro número (neste exemplo é o número 20): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>Erro: falha ao criar um gateway. Tente novamente
 
@@ -512,7 +531,7 @@ Ao utilizar o gateway para uma atualização agendada, o **Histórico de Atualiz
 
 Para obter mais informações sobre a resolução de problemas em cenários de atualização, consulte o artigo [Resolução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md)  
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  

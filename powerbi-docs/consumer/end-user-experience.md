@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112159"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473871"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
-Agora que já conhece as noções básicas do Power BI, vamos ver como funciona o **serviço Power BI**. Conforme já foi mencionado, alguém na sua equipa poderá passar grande parte do seu tempo no **Power BI Desktop**, a combinar dados e a criar relatórios para outras pessoas. Por outro lado, você poderá passar grande parte do seu tempo no serviço Power BI, a ver e interagir com conteúdos criados por outras pessoas (experiência de **consumo**) ou a obter dados e a criar os seus próprios relatórios e dashboards (experiência de**criação**). Neste guia de início rápido, irá importar dados de exemplo e utilizar esses dados para aprender a trabalhar com o serviço Power BI. 
+Agora que já conhece as noções básicas do Power BI, vamos ver como funciona o **serviço Power BI**. Conforme já foi mencionado, alguém na sua equipa poderá passar grande parte do seu tempo no **Power BI Desktop**, a combinar dados e a criar relatórios para outras pessoas. Por outro lado, poderá passar grande parte do seu tempo no serviço Power BI, a ver e interagir com conteúdos criados por outras pessoas (experiência de **consumo**). Neste guia de início rápido, irá importar dados de exemplo e utilizar esses dados para aprender a trabalhar com o serviço Power BI. 
  
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -48,9 +48,11 @@ Assista à apresentação da Amanda sobre a nova experiência de navegação do 
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Ver conteúdo (dashboards, relatórios, livros, conjuntos de dados, áreas de trabalho, aplicações)
-Vamos começar por observar como está organizado o conteúdo básico (dashboards, relatórios, conjuntos de dados, livros). Os conteúdos são apresentados dentro do contexto de uma área de trabalho. Neste momento, terá apenas uma área de trabalho chamada **A Minha Área de Trabalho**. A Minha Área de Trabalho armazena todos os conteúdos de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. Pode partilhar conteúdo a partir de A Minha Área de Trabalho com colegas. Em A Minha Área de Trabalho, o conteúdo está organizado em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
+Vamos começar por observar como está organizado o conteúdo básico (dashboards, relatórios, conjuntos de dados, livros). Os conteúdos são apresentados dentro do contexto de uma área de trabalho. Neste momento, terá apenas uma área de trabalho chamada **A Minha Área de Trabalho**. Normalmente, os consumidores não precisam de ou utilizam outras áreas de trabalho. A Minha Área de Trabalho armazena todos os conteúdos de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. A Minha Área de Trabalho é o local onde o exemplo de Análise de Revenda que acabou de transferir é guardado. 
 
-![Ecrã A Minha Área de Trabalho](./media/end-user-experience/power-bi-my-workspace2.png)
+Em A Minha Área de Trabalho, o conteúdo está organizado em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
+
+![Ecrã A Minha Área de Trabalho](./media/end-user-experience/power-bi-my-workspace.png)
 
 Selecione uma área de trabalho no painel de navegação esquerdo (navegação esquerda) e os separadores do conteúdo associado (dashboards, relatórios, livros, conjuntos de dados) preenchem o ecrã do Power BI à direita.
 
@@ -58,7 +60,7 @@ Se for um novo utilizador, só verá uma área de trabalho: **A Minha Área de T
 
 ![breve vídeo sobre a área de trabalho](./media/end-user-experience/nav.gif)
 
-Nesses separadores (também conhecidos como *vistas de conteúdos*), verá informações sobre os conteúdos, assim como as ações que pode realizar com esses conteúdos.  Por exemplo, no separador Dashboards pode abrir um dashboard, partilhar, eliminar, procurar, ordenar, criar novos conteúdos e muito mais.
+Nesses separadores (também conhecidos como *vistas de conteúdos*), verá informações sobre os conteúdos, assim como as ações que pode realizar com esses conteúdos.  Por exemplo, a partir do separador Dashboards pode abrir um dashboard, procurar, ordenar e mais.
 
 ![Separador Dashboards](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ Os **Favoritos** permitem-lhe aceder rapidamente aos conteúdos que são mais im
    
     Neste momento, só temos um favorito. Os favoritos podem ser dashboards, relatórios ou aplicações.  
 
-1. Outra forma de marcar um dashboard ou um relatório como favorito é a partir do separador **Dashboards** ou **Relatórios** da área de trabalho.  Abra o separador **Relatórios** e selecione o ícone de estrela à esquerda do nome do relatório.
+1. Outra forma de marcar um dashboard ou um relatório como favorito é a partir do separador **Dashboards** ou **Relatórios** da vista de conteúdo.  Abra o separador **Relatórios** e selecione o ícone de estrela à esquerda do nome do relatório.
    
    ![marcar como favorito](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ Para saber mais, veja [Favoritos](end-user-favorite.md)
 
     Na lista de opções, selecione os conteúdos para os abrir.
 
-2. Por vezes, poderá não querer abrir os conteúdos recentes, mas sim ver informações ou realizar outras ações, como partilhar, executar informações ou exportar para o Excel. Nestes casos, abra o painel **Recentes** ao selecionar **Recentes** ou o respetivo ícone no painel de navegação esquerdo. Se tiver mais do que uma área de trabalho, esta lista incluirá conteúdos de todas as suas áreas de trabalho.
+2. Por vezes, poderá não querer apenas abrir os conteúdos recentes, mas sim ver informações ou realizar outras ações, como ver Informações ou exportar para o Excel. Nestes casos, abra o painel **Recentes** ao selecionar **Recente** ou o respetivo ícone no painel de navegação esquerdo. Se tiver mais do que uma área de trabalho, esta lista incluirá conteúdos de todas as suas áreas de trabalho.
 
    ![painel Recentes](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ A vista de conteúdos torna mais fácil procurar, filtrar e ordenar os conteúdo
 
 Uma vez que tem apenas um exemplo, não é necessário procurar e ordenar.  Porém, quando tiver longas listas de dashboards, relatórios, livros e conjuntos de dados, procurar e ordenar será muito útil.
 
-![procurar um dashboard](./media/end-user-experience/power-bi-search-sort.png)
+![procurar um relatório](./media/end-user-experience/power-bi-search.png)
 
-Também pode ordenar o conteúdo por nome ou proprietário.  
+Também pode ordenar o conteúdo por nome ou proprietário. Repare na seta para cima à direita de **Nome**. Estamos a ordenar 83 itens alfabeticamente pelo nome, na ordem ascendente. Para alterar a sequência de ordenação para descendente, selecione **Nome**. A seta para cima altera-se para uma seta para baixo.
 
-![ordenar conteúdos](./media/end-user-experience/power-bi-sort.png)
+![ordenar conteúdos](./media/end-user-experience/power-bi-sort-new.png)
 
-Para saber mais, veja [Navegação no Power BI: procurar, ordenar e filtrar](end-user-search-sort.md)
+Nem todas as colunas podem ser ordenadas. Paire com o cursor sobre os cabeçalhos de coluna para descobrir quais podem ser ordenados.
+
+Para saber mais, veja [Power BI navigation: search and sort](end-user-search-sort.md) (Navegação no Power BI: procurar e ordenar)
 
 ## <a name="clean-up-resources"></a>Limpar recursos
 Depois de concluir este manual de início rápido, se desejar, pode eliminar o dashboard, o relatório e o conjunto de dados de exemplo da Análise de Revenda.
@@ -143,4 +147,4 @@ Depois de concluir este manual de início rápido, se desejar, pode eliminar o d
 ## <a name="next-steps"></a>Próximos passos
 
 > [!div class="nextstepaction"]
-> [Vista de Leitura e Vista de Edição no serviço Power BI](end-user-reading-view.md)
+> [Vista de leitura no serviço Power BI](end-user-reading-view.md)

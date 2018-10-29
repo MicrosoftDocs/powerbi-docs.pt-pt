@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380319"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641948"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -40,7 +40,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
             - Os elementos visuais personalizados serão revertidos para uma versão anterior compatível com a versão atual da API do servidor (caso compatível)
 
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
-    - *Versão: 2.61.5192.64 (agosto de 2018). Lançamento: 15 de agosto de 2018*
+    - *Versão: 2.61.5192.641 (agosto de 2018). Lançamento: 15 de agosto de 2018*
         - Contém as alterações necessárias para a ligação com o Power BI Report Server (agosto de 2018)         
         
 ## <a name="march-2018"></a>Março de 2018
