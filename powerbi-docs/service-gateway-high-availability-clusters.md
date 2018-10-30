@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5b89b53cab0f7e4df07b15a05cd74c7d99b1392a
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 21a254cfc4543649cfe863830a56abe666480e63
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657995"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100873"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters de elevada disponibilidade para o Gateway de dados no local
 
@@ -80,16 +80,16 @@ Quando concluir estes passos, pode utilizar os comandos apresentados na seguinte
 | *Get-OnPremisesDataGatewayStatus* | Permite-lhe obter o estado de uma determinada instância de gateway dentro de um cluster  | *-ClusterObjectID xyz* (*xyz* deve ser substituído por um valor de ID de objeto de cluster real, o qual pode ser obtido com o comando *Get-OnPremisesDataGatewayClusters*)  *-GatewayObjectID abc*  (*abc* deve ser substituído por um valor de ID de objeto de gateway real, o qual pode ser obtido com o comando *Get-OnPremisesDataClusterGateways*, tendo em conta um ID de objeto de cluster) |
 | *Remove-OnPremisesDataGateway*  | Permite-lhe remover uma instância de gateway de um cluster. Tenha em atenção que não pode remover o gateway principal no cluster até que tenha removido todos os outros gateways no cluster.| *-ClusterObjectID xyz* (*xyz* deve ser substituído por um valor de ID de objeto de cluster real, o qual pode ser obtido com o comando *Get-OnPremisesDataGatewayClusters*)  *-GatewayObjectID abc*  (*abc* deve ser substituído por um valor de ID de objeto de gateway real, o qual pode ser obtido com o comando *Get-OnPremisesDataClusterGateways*, tendo em conta um ID de objeto de cluster) |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 -   [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 -   [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 -   [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 -   [Gerir a sua origem de dados – Oracle](service-gateway-onprem-manage-oracle.md)  
--   [Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
+-   [Gerir a sua origem de dados - Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 -   [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 -   [Gateway de dados no local (modo pessoal)](service-gateway-personal-mode.md)
 -   [Configurar as definições de proxy do Gateway de dados no local](service-gateway-proxy.md)  
--   [Utilizar o Kerberos para SSO (início de sessão único) do Power BI para origens de dados no local](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
+-   [Utilizar o Kerberos para SSO (início de sessão único) do Power BI para origens de dados no local](service-gateway-sso-kerberos.md)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

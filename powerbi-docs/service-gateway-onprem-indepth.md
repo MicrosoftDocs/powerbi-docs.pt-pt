@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921513"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101514"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
 É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas para se poderem ligar à sua origem de dados no local, é necessário instalar e configurar um Gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
@@ -52,7 +52,7 @@ A capacidade de um utilizador consultar e ver dados de modelo é determinada, pr
 A implementação de segurança baseada em funções e a segurança ao nível da linha dinâmica em modelos ultrapassa o âmbito deste artigo.  Pode saver mais em [Funções (SSAS Tabular)](https://msdn.microsoft.com/library/hh213165.aspx) e [Funções de Segurança (Analysis Services - Dados Multidimensionais)](https://msdn.microsoft.com/library/ms174840.aspx) no MSDN. Além disso, para obter uma compreensão mais detalhada da segurança do modelo de tabela, transfira e leia o documento técnico [Proteger o Modelo Semântico Tabular do BI](https://msdn.microsoft.com/library/jj127437.aspx).
 
 ## <a name="what-about-azure-active-directory"></a>E o Azure Active Directory?
-Os serviços cloud da Microsoft utilizam o [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) para lidar com os utilizadores que estão a efetuar a autenticação. O Azure Active Directory é o inquilino que contém nomes de utilizador e grupos de segurança. Normalmente, o endereço de e-mail de início de sessão de um utilizador é o mesmo que o UPN da conta.
+Os serviços cloud da Microsoft utilizam o [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) para lidar com os utilizadores que estão a efetuar a autenticação. O Azure Active Directory é o inquilino que contém nomes de utilizador e grupos de segurança. Normalmente, o endereço de e-mail de início de sessão de um utilizador é o mesmo que o UPN da conta.
 
 Qual é a minha função local do Active Directory?
 
@@ -78,7 +78,7 @@ Os serviços cloud apenas conhecem as contas no Azure Active Directory. É irrel
 1. Pode adicionar contas manualmente ao Azure Active Directory.
    
    Pode criar uma conta no portal do Azure ou no Portal de Administração do Office 365 e o nome da conta tem de corresponder ao UPN da conta do Active Directory local.
-2. Pode utilizar a ferramenta [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) para sincronizar as contas locais no inquilino do Azure Active Directory.
+2. Pode utilizar a ferramenta [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) para sincronizar as contas locais no inquilino do Azure Active Directory.
    
    A ferramenta Azure AD Connect fornece opções para a sincronização de diretórios e a configuração da autenticação, incluindo a sincronização de hash da palavra-passe, autenticação pass-through e federação. Se não for um administrador do inquilino ou um administrador do domínio local, terá de contactar o administrador de TI para efetuar esta configuração.
 
@@ -90,7 +90,7 @@ A utilização do Azure AD Connect assegura que o UPN terá correspondência ent
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>É aqui que entra o gateway
-O gateway funciona como uma ponte entre a cloud e o servidor no local. A transferência de dados entre a cloud e o gateway é protegida pelo [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/). O Service Bus cria um canal seguro entre a cloud e o servidor no local através de uma ligação de saída no gateway.  Não existem ligações de entrada que tenha de abrir na firewall no local.
+O gateway funciona como uma ponte entre a cloud e o servidor no local. A transferência de dados entre a cloud e o gateway é protegida pelo [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). O Service Bus cria um canal seguro entre a cloud e o servidor no local através de uma ligação de saída no gateway.  Não existem ligações de entrada que tenha de abrir na firewall no local.
 
 Se tiver uma origem de dados do Analysis Services, terá de instalar o gateway num computador associado ao mesmo domínio que o seu servidor do Analysis Services.
 
@@ -116,8 +116,10 @@ Em vez de explorar a resolução de problemas do gateway aqui, apresentamos uma 
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Próximos passos
+
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

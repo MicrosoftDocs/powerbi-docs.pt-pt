@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0055994ee883fbdb508dfa304d063bc359dd5beb
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641626"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101629"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 
@@ -61,7 +61,7 @@ Numa instalação padrão, o gateway é executado como uma conta de serviço da 
 Para ativar a **Delegação Restrita de Kerberos**, o gateway tem de ser executado como uma conta de domínio, a menos que o Azure AD já esteja sincronizado com o Active Directory local (através do Azure AD DirSync/Connect). Se precisar de mudar a conta para uma conta de domínio, veja [Mudar o gateway para uma conta de domínio](#switching-the-gateway-to-a-domain-account) mais adiante neste artigo.
 
 > [!NOTE]
-> Se o Azure AD DirSync/Connect estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não tem de efetuar pesquisas de AD locais no runtime e pode utilizar o SID do Serviço local (em vez de uma conta de domínio) para o serviço de gateway. Os passos de configuração da Delegação Restrita de Kerberos descritos neste artigo são os mesmos dessa configuração (são simplesmente aplicados com base no SID do serviço, em vez da conta de domínio).
+> Se o Azure AD DirSync/Connect estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não tem de efetuar pesquisas de AD locais no runtime e pode utilizar o SID do Serviço local (em vez de uma conta de domínio) para o serviço de gateway. Os passos de configuração da Delegação Restrita de Kerberos descritos neste artigo são os mesmos da configuração (a diferença é que são aplicados ao objeto do computador do gateway no Active Directory, em vez de à conta do domínio).
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Pré-requisito 3: ter direitos de administrador de domínio para configurar as definições de Delegação Restrita de Kerberos e SPNs (SetSPN)
 
@@ -339,7 +339,7 @@ Defina a propriedade msDS-cloudExtensionAttribute1 do utilizador do Azure Direct
 
     ![Editar atributo](media/service-gateway-sso-kerberos/edit-attribute.png)
 
-1. Selecione **Apply** (Aplicar). Verifique se o valor correto foi configurado na coluna Value (Valor).
+1. Selecione **Aplicar**. Verifique se o valor correto foi configurado na coluna Value (Valor).
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Adicionar uma nova origem de dados do BW Application Server ao Serviço Power BI
 

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474032"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101652"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 
@@ -446,7 +446,7 @@ Os resultados do teste listam todos os servidores, portas e endereços IP de que
 
 ## <a name="kerberos"></a>Kerberos
 
-Se o servidor de bases de dados subjacente e o Gateway de dados no local não estiverem configurados corretamente para a [Delegação Restrita de Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), ative o [registo verboso](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) no gateway e investigue com base nos erros/rastreios nos ficheiros de registo do gateway como um ponto de partida para a resolução de problemas.
+Se o servidor de bases de dados subjacente e o Gateway de dados no local não estiverem configurados corretamente para a [Delegação Restrita de Kerberos](service-gateway-sso-kerberos.md), ative o [registo verboso](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) no gateway e investigue com base nos erros/rastreios nos ficheiros de registo do gateway como um ponto de partida para a resolução de problemas.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
@@ -531,7 +531,7 @@ Ao utilizar o gateway para uma atualização agendada, o **Histórico de Atualiz
 
 Para obter mais informações sobre a resolução de problemas em cenários de atualização, consulte o artigo [Resolução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md)  
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  

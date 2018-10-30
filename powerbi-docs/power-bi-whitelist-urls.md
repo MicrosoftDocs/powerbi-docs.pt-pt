@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641971"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222111"
 ---
 # <a name="power-bi-urls"></a>URLs do Power BI
 
@@ -70,7 +70,7 @@ Para obter dados de origens de dados específicas, como o OneDrive, tem de conse
 | --- | --- | --- | --- |
 | 1 | **Obrigatório:** AppSource (aplicações internas ou externas no Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
 | 2 | **Obrigatório:** iniciar sessão e obter dados de pacotes de conteúdos | *.github.com  | TCP 443 |
-| 3 | **Opcional:** importar ficheiros do OneDrive pessoal | Veja o site [Required URLs and ports for OneDrive](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports) (URLs e portas obrigatórios para o OneDrive) | N/D |
+| 3 | **Opcional:** importar ficheiros do OneDrive pessoal | Veja o site [Required URLs and ports for OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) (URLs e portas obrigatórios para o OneDrive) | N/D |
 | 4 | **Opcional:** tutorial em vídeo Power BI in 60-Seconds (O Power BI em 60 Segundos) | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Opcional:** origens de dados de transmissão em fluxo do PubNub | Veja a [documentação do PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | N/D |
 | | | |
@@ -93,7 +93,7 @@ O Power BI depende de determinados pontos finais para conseguir ver e aceder aos
 | 1 | **Obrigatório:** importar um elemento visual personalizado da interface do Marketplace ou de um ficheiro | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | **Opcional:** Mapas Bing | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | **Opcional:** PowerApps | Veja a [secção Serviços necessários](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) no site de requisitos de sistema do PowerApps | N/D |
-| 4 | **Opcional:** Visio | Veja a documentação do Office 365 para o [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), bem como para o [SharePoint Online e o OneDrive para Empresas](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |
+| 4 | **Opcional:** Visio | Veja a documentação do Office 365 para o [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), bem como para o [SharePoint Online e o OneDrive para Empresas](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |
 | | | |
 
 ## <a name="related-external-sites"></a>Sites externos relacionados
