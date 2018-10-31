@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473963"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952240"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
 Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedido.
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
+
+**Power BI: Analytics Done Right** (Power BI: Trabalhar Corretamente no Analytics)
+<br>por Gohul Shanmugalingam
+<br>*8 de novembro de 2018, das 13:00 às 14:00 EST*
+
+Convocamos todos os visionários do Analytics e do Excel: saiba como criar relatórios magníficos que as pessoas querem utilizar, partilhe informações apelativas que são fáceis de compreender e quebre as barreiras entre os dados complexos para os tornar acessíveis.
+
+Vamos partilhar novos produtos inovadores e a nossa visão para o BI empresarial moderno e o BI de gestão personalizada para permitir que a sua organização crie uma cultura com base em dados.
+
+[Registe-se para ver a 8 de novembro](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Strengthen Your Data Modeling Skills with Power BI** (Reforçar as suas Competências de Modelação de Dados com o Power BI
+<br>por Kasper de Jonge
+<br>*20 de novembro de 2018, das 11:00 às 12:00 PST*
+
+Registe-se neste webinar para levar as suas competências de modelação com o Power BI para o próximo nível. Saiba mais sobre o motor interno de análise do Power BI, as estratégias para criar e gerir relações de dados e como utilizar o contexto de filtro do DAX (Data Analysis Expressions). Descubra como ultrapassar qualquer desafio de modelagem com o Power BI ou o Azure Analysis Services.
+
+[Registe-se para ver a 20 de novembro](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[Próximos webinars da comunidade do Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
