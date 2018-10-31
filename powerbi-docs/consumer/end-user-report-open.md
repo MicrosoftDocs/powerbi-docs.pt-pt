@@ -1,23 +1,23 @@
 ---
-title: Visualizar um relatório no serviço Power BI
-description: Abra um relatório do Power BI na Vista de Leitura.
+title: Visualizar um relatório no serviço Power BI para consumidores
+description: Este tópico mostra os consumidores e os utilizadores finais do Power BI que tiveram de abrir e ver um relatório do Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112021"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396940"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Visualizar um relatório no serviço Power BI (app.powerbi.com)
-Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *designers de relatórios* do Power BI e [partilhados consigo diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
+Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *estruturadores de relatórios* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
 
 Existem várias formas diferentes de abrir um relatório e vamos mostrar-lhe duas delas: abrir a partir da página Base e abrir a partir de um dashboard. 
 
@@ -42,7 +42,7 @@ Os *designers* do Power BI podem partilhar um relatório diretamente consigo, ao
    
    ![secção partilhado comigo da página Base](./media/end-user-report-open/power-bi-shared.png)
 
-4. Basta selecionar um dos cartões de relatório para abrir o relatório.
+4. Basta selecionar um dos *cartões* de relatório para abrir o relatório.
 
    ![página de relatório](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações es
 
    ![Página Base](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Selecione uma das aplicações para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Se, ao selecionar a aplicação:
+8. Selecione uma das aplicações para a abrir. Consoante as opções definidas pelo *estruturador* de aplicações, a aplicação abrirá um dashboard, um relatório ou uma lista de conteúdos da aplicação. Se, ao selecionar a aplicação:
     - o relatório for aberto, estará tudo pronto.
     - um dashboard for aberto, veja [Abrir um relatório a partir de um dashboard](#Open-a-report-from-a-dashboard), abaixo.
-
+    - for aberta a lista de conteúdos da aplicação, em **Relatórios**, selecione o relatório para o abrir.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Abrir um relatório a partir de um dashboard
@@ -83,15 +83,15 @@ Os relatórios podem ser abertos a partir de um dashboard. A maioria dos mosaico
     ![relatório aberto na Vista de leitura](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> Nem todos os mosaicos levam a um relatório. Se selecionar um mosaico que tenha sido [criado com Perguntas e Respostas](../service-dashboard-pin-tile-from-q-and-a.md), o ecrã de Perguntas e Respostas irá abrir. Se selecionar um mosaico que tenha sido [criado com o widget **Adicionar mosaico** do dashboard](../service-dashboard-add-widget.md), irá abrir o assistente **Editar mosaico**.  
+> Nem todos os mosaicos levam a um relatório. Se selecionar um mosaico que tenha sido [criado com Perguntas e Respostas](end-user-q-and-a.md), o ecrã de Perguntas e Respostas irá abrir. Se selecionar um mosaico que tenha sido [criado com o widget **Adicionar mosaico** do dashboard](../service-dashboard-add-widget.md), poderão ocorrer várias situações diferentes.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Mais formas de abrir um relatório
 À medida que vai estando mais à vontade a navegar pelo serviço Power BI, irá descobrir fluxos de trabalho que funcionam melhor para si. Algumas outras formas de aceder a relatórios:
 - No painel de navegação esquerdo com **Favoritos** e **Recentes**    
 - Com a opção [Ver relacionados](end-user-related.md)    
-- Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](../service-set-data-alerts.md)    
-- A partir de seu [Centro de notificações] (end-user-notification-center.md)    
+- Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](end-user-alerts.md)    
+- A partir do [Centro de notificações](end-user-notification-center.md)    
 - e muito mais
 
 ## <a name="next-steps"></a>Próximos passos

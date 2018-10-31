@@ -7,22 +7,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc68be50917b113371fc168d1b6e3defa2b5001e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112205"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473434"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
-No Power BI, as *aplicações* juntam dashboards e relatórios num único lugar. As pessoas na sua organização podem criar e distribuir aplicações com informações comerciais importantes. Os [Serviços externos](end-user-connect-to-services.md) que pode já utilizar, como o Google Analytics e o Microsoft Dynamics CRM, também disponibilizam aplicações do Power BI. 
+No Power BI, as *aplicações* juntam dashboards e relatórios num único lugar. As pessoas na sua organização criam e distribuem aplicações com informações empresariais importantes. Os [Serviços externos](end-user-connect-to-services.md) que pode já utilizar, como o Google Analytics e o Microsoft Dynamics CRM, também disponibilizam aplicações do Power BI. 
 
-![Aplicações no Power BI](./media/end-user-apps/power-bi-apps-left-nav.png)
+![Aplicações no Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
-É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel.
+É fácil encontrar e instalar aplicações no serviço Power BI ([app.powerbi.com](https:app.powerbi.com)) e no dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel.
 
 Com as aplicações, sempre que o autor da aplicação lançar atualizações, o utilizador pode vê-las automaticamente. O autor também controla quantas vezes os dados são agendados para atualização, para que não se tenha de preocupar em atualizá-los. 
 
@@ -36,7 +36,7 @@ A forma mais fácil de instalar uma nova aplicação de forma autónoma é receb
 
 Selecione a ligação no e-mail para abrir o serviço Power BI ([https://powerbi.com](https://powerbi.com)) num browser. Confirme que pretende instalar a aplicação e será aberta a página de destino da aplicação.
 
-![Página de destino da aplicação no serviço Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
+![Página de destino da aplicação no serviço Power BI](./media/end-user-apps/power-bi-get-app.png)
 
 **No dispositivo móvel iOS ou Android** 
 
@@ -56,12 +56,12 @@ Pode também encontrar e instalar aplicações às quais tenha acesso do Microso
 3. Selecione **Obter agora** para adicioná-la à sua página Aplicações. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagir com os dashboards e relatórios na aplicação
-Agora, pode explorar os dados nos dashboards e relatórios na aplicação. Tem acesso a todas as interações padrão do Power BI, como a filtragem, o realce, a ordenação e a desagregação. Também pode [exportar os dados para o Excel ](end-user-export-data.md) a partir de uma tabela ou de outro elemento visual num relatório. Saiba mais sobre [interagir com relatórios no Power BI](end-user-reading-view.md). 
+Agora, pode explorar os dados nos dashboards e relatórios na aplicação. Tem acesso a todas as interações padrão do Power BI, como a filtragem, o realce, a ordenação e a desagregação. Saiba mais sobre [interagir com relatórios no Power BI](end-user-reading-view.md). 
 
 ![Exportar dados de um visual do Power BI](./media/end-user-apps/power-bi-service-export-data-visual.png)
 
 
 
 ## <a name="next-steps"></a>Próximos passos
-* [Aplicações do Power BI para serviços externos](end-user-connect-to-services.md)
+[Aplicações do Power BI para serviços externos](end-user-connect-to-services.md)
 
