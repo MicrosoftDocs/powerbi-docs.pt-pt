@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e2ff9afcccc9bc32d47359fba386fcb0c704457
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327643"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271561"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Por vezes, pode querer utilizar o Excel para ver e interagir com um conjunto de dados que tem no Power BI. Com a opção **Analisar no Excel**, pode fazê-lo e aceder às funcionalidades Tabela Dinâmica, gráfico e segmentação de dados no Excel com base no conjunto de dados que existe no Power BI.
@@ -26,7 +26,7 @@ Existem alguns requisitos para utilizar a opção **Analisar no Excel**:
 * A opção **Analisar no Excel** é suportada no Microsoft Excel 2010 SP1 e posterior.
 * As Tabelas Dinâmicas do Excel não suportam a agregação do tipo "arrastar e largar" dos campos numéricos. O seu conjunto de dados no Power BI *tem de ter medidas predefinidas*.
 * Algumas empresas podem ter regras de Política de Grupo que impedem a instalação das atualizações necessárias da funcionalidade **Analisar no Excel** no Excel. Se não conseguir instalar as atualizações, consulte o seu administrador.
-* A funcionalidade **Analisar no Excel** precisa de uma licença Pro. Para saber mais sobre as diferenças ao nível de funcionalidades entre as licenças Gratuita e Pro, veja [Power BI Gratuito versus Pro](service-free-vs-pro.md). 
+* A funcionalidade **Analisar no Excel** precisa de uma licença Pro. Para saber mais sobre as diferenças ao nível de funcionalidades entre os tipos de licenças, veja [Funcionalidades do Power BI por tipo de licença](service-features-license-type.md). 
 
 ## <a name="how-does-it-work"></a>Como funciona?
 Quando seleciona **Analisar no Excel** no menu de reticências (...) associado a um conjunto de dados ou relatório no **Power BI**, o Power BI cria um ficheiro .ODC e transfere-o a partir do browser para o seu computador.

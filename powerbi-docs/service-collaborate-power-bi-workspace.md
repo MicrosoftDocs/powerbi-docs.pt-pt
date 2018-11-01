@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543955"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908246"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar na sua área de trabalho de aplicação do Power BI
 As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. A colaboração não termina com as áreas de trabalho no Power BI. O Office 365 fornece serviços de grupo como a partilha de ficheiros no OneDrive para Empresas, conversações no Exchange, tarefas e calendário partilhados, entre outros. Saiba mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -23,7 +23,7 @@ As áreas de trabalho de aplicações do Power BI são locais excelentes para co
 > [!NOTE]
 > A pré-visualização da nova experiência de área de trabalho vai mudar a relação entre as áreas de trabalho do Power BI e os grupos do Office 365. Não irá criar automaticamente um grupo do Office 365 sempre que criar uma das novas áreas de trabalho. Leia mais informações em [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md)
 
-As áreas de trabalho de aplicação estão disponíveis apenas no [Power BI Pro](service-free-vs-pro.md).
+As áreas de trabalho de aplicação estão disponíveis apenas com uma licença [Power BI Pro](service-features-license-type.md).
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>Colaborar em ficheiros do Power BI Desktop na sua área de trabalho de aplicação
 Após criar um ficheiro do Power BI Desktop, se o publicar na sua área de trabalho de aplicação do Power BI, todas as pessoas na área de trabalho poderão colaborar na mesma.
@@ -77,7 +77,7 @@ Colaborar no Office 365 começa a partir da área de trabalho de aplicação no 
 Se for o proprietário ou administrador de uma área de trabalho de aplicação, também pode adicionar ou remover membros de áreas de trabalho. Saiba mais sobre [gerir a sua área de trabalho de aplicação do Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Próximos passos
-* [Criar aplicações e áreas de trabalho de aplicação no Power BI](consumer/end-user-create-apps.md)
+* [Criar aplicações e áreas de trabalho de aplicação no Power BI](service-create-distribute-apps.md)
 * Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 * Comentários? Visite [Ideias para o Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

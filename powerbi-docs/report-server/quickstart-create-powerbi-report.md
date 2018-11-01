@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726737"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564929"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Criar um relatório do Power BI para o Power BI Report Server
 Pode armazenar e gerir relatórios do Power BI no local no portal Web do Power BI Report Server, tal como pode armazenar relatórios do Power BI na cloud no serviço Power BI (https://powerbi.com). Pode criar e editar relatórios no Power BI Desktop e publicá-los no portal Web. Depois, os leitores de relatórios na sua organização podem visualizá-los num browser ou numa aplicação móvel do Power BI, num dispositivo móvel.
@@ -31,7 +31,7 @@ Se já criou relatórios do Power BI no Power BI Desktop, está quase pronto par
 
     ![Transferir o Power BI Desktop a partir do portal Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Em alternativa, aceda diretamente ao [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (otimizado para o Power BI Report Server – março de 2018) no Centro de Transferências da Microsoft.
+    Em alternativa, aceda diretamente ao [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (otimizado para o Power BI Report Server – agosto de 2018) no Centro de Transferências da Microsoft.
 
 2. Na página do Centro de Transferências, selecione **Transferir**.
 
@@ -41,13 +41,13 @@ Se já criou relatórios do Power BI no Power BI Desktop, está quase pronto par
 
     - **PBIDesktopRS_x64.msi** (a versão de 64 bits).
 
-4. Após transferir o instalador, execute o Assistente de Configuração do Power BI Desktop (março de 2018).
+4. Após transferir o instalador, execute o Assistente de Configuração do Power BI Desktop (agosto de 2018).
 
 2. No final da instalação, selecione a opção **Iniciar o Power BI Desktop agora**.
    
-    Este inicia automaticamente e está pronto para começar. O texto "Power BI Desktop (março de 2018)" na barra de título indica que tem a versão correta.
+    Este inicia automaticamente e está pronto para começar. O texto "Power BI Desktop (agosto de 2018)" na barra de título indica que tem a versão correta.
 
-    ![Power BI Desktop – versão de março de 2018](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop versão de agosto de 2018](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. Se não estiver familiarizado com o Power BI Desktop, considere ver os vídeos no ecrã de boas-vindas.
    
@@ -91,36 +91,6 @@ Quando o seu relatório estiver pronto, deve guardá-lo no Power BI Report Serve
 2. Agora, pode vê-lo no portal Web.
    
     ![Ver o relatório no portal Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>Considerações e limitações
-Os relatórios no Power BI Report Server e no serviço Power BI (http://powerbi.com) têm um comportamento quase igual, mas com algumas diferenças em funcionalidades.
-
-### <a name="in-a-browser"></a>Num browser
-Os relatórios do Power BI Report Server suportam todas as visualizações, incluindo:
-
-* Elementos visuais personalizados
-
-Os relatórios do Power BI Report Server não suportam:
-
-* Visuais R
-* Mapas ArcGIS
-* Trilhos
-* Funcionalidades de pré-visualização do Power BI Desktop
-
-### <a name="in-the-power-bi-mobile-apps"></a>Nas aplicações móveis do Power BI
-Os relatórios do Power BI Report Server suportam todas as funcionalidades básicas nas [aplicações móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), incluindo:
-
-* [Esquema de relatório em telemóvel](../desktop-create-phone-report.md): Pode otimizar um relatório para as aplicações móveis do Power BI. No telemóvel, os relatórios otimizados têm um ícone ![Ícone de esquema de relatório em telemóvel](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) e um esquema especiais.
-  
-    ![Relatório otimizado para telemóveis](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-Os relatórios do Power BI Report Server não suportam estas funcionalidades nas aplicações móveis do Power BI:
-
-* Visuais R
-* Mapas ArcGIS
-* Elementos visuais personalizados
-* Trilhos
-* Geofiltragem em códigos de barras
 
 ## <a name="next-steps"></a>Próximos passos
 ### <a name="power-bi-desktop"></a>Power BI Desktop

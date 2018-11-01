@@ -3,45 +3,65 @@ title: Que podem os programadores fazer com o Power BI?
 description: O Power BI oferece uma vasta gama de opções para programadores. Isto varia, desde a incorporação aos elementos visuais personalizados e conjuntos de dados de transmissão em fluxo.
 author: markingmyname
 ms.author: maghan
-ms.date: 05/25/2018
+manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 07fb8d365a6fe4a874b057a71a90a99fc8a9e5fa
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.date: 09/17/2018
+ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34564702"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46473983"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
-Os programadores têm várias opções para tentar incluir conteúdo do Power BI em aplicações. Estas opções incluem a **incorporação com o Power BI**, **elementos visuais personalizados** e **emitir dados via push para o Power BI**.
+Os programadores têm várias opções para tentar incluir conteúdo do Power BI em aplicações. Como programador, pode utilizar estas opções incluem a **incorporação com o Power BI**, **elementos visuais personalizados** e **emitir dados via push para o Power BI**.
 
-## <a name="embedding"></a>Incorporação
-O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Tal significa que, ao incorporar o conteúdo, terá um conjunto de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho de aplicações.
+## <a name="embedding-power-bi-content"></a>Incorporar conteúdo do Power BI
 
-Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
+O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Esta funcionalidade significa que pode aceder às funcionalidades mais recentes do Power BI, tais como dashboards, gateways e áreas de trabalho de aplicações, quando incorporar o seu conteúdo.
+
+Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
 
 Escolha a solução mais adequada para si:
+
 * A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. Execute a solução [Incorporar para os seus clientes](https://aka.ms/embedsetup/AppOwnsData).
+
 * A solução [Incorporar para a sua organização](embedding.md#embedding-for-your-organization) permite-lhe alargar o serviço Power BI. Execute a solução [Incorporar a sua organização](https://aka.ms/embedsetup/UserOwnsData).
 
 ![Exemplo de PBIE](media/what-can-you-do/what-can-you-do-02.png)
 
-## <a name="develop-custom-visuals"></a>Desenvolver elementos visuais personalizados
-Os elementos visuais personalizados permitem-lhe criar os seus próprios elementos visuais para utilização nos relatórios do Power BI. Os elementos visuais personalizados são escritos no TypeScript, que é um superconjunto do JavaScript. O TypeScript suporta algumas funcionalidades avançadas e o acesso antecipado à funcionalidade ES6/ES7. O estilo visual é processado através de folhas de estilo (css). Para sua comodidade, utilizamos o pré-compilador Less, que suporta algumas funcionalidades avançadas, como aninhamento, variáveis, condições, ciclos, etc. Se não quiser utilizar algumas dessas funcionalidades, pode escrever css simples no ficheiro less.
+Para saber mais sobre a incorporação com o Power BI, veja [Incorporar com o Power BI](embedding.md).
+
+## <a name="developing-custom-visuals"></a>Desenvolver elementos visuais personalizados
+
+Pode utilizar elementos visuais personalizados com o Power BI para criar um tipo de elemento visual único adaptado a si ou à sua empresa. Muitas vezes, estes elementos visuais personalizados são criados pelos programadores. São criados quando o vasto leque de elementos visuais que estão incluídos com o Power BI não satisfazem as suas necessidades.
+
+Os elementos visuais personalizados permitem-lhe criar os seus elementos visuais para utilização nos relatórios do Power BI. Os elementos visuais personalizados são escritos no TypeScript, que é um superconjunto do JavaScript. O TypeScript suporta algumas funcionalidades avançadas e o acesso antecipado à funcionalidade ES6/ES7. O estilo visual é processado através de folhas de estilo (CSS). Para sua comodidade, utilizamos o pré-compilador Less, que suporta algumas funcionalidades avançadas, como aninhamento, variáveis, condições, ciclos e outras funcionalidades. Se não quiser utilizar algumas dessas funcionalidades, poderá escrever CSS simples no ficheiro less.
 
 ![Exemplo de CV](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-## <a name="push-data-into-power-bi"></a>Enviar dados por push para o Power BI
-Pode utilizar a API do Power BI para enviar dados por push para um conjunto de dados. Isto permite-lhe adicionar uma linha à tabela dentro de um conjunto de dados. Os novos dados podem então ser refletidos nos mosaicos num dashboard e em elementos visuais dentro do seu relatório.
+Para começar a saber mais sobre o desenvolvimento de elementos visuais personalizados, veja [Utilizar ferramentas de programação para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
+
+## <a name="using-api-automation"></a>Com a automatização de API
+
+O Power BI apresenta dashboards interativos e que podem ser criados e atualizados a partir de várias origens de dados diferentes em tempo real. Utilize qualquer linguagem de programação que suporte chamadas REST para criar aplicações que se integram num dashboard do Power BI em tempo real. Também pode integrar mosaicos e relatórios do Power BI em aplicações.
+
+Os programadores também podem criar as suas próprias visualizações de dados que podem ser utilizadas em relatórios e dashboards interativos.
 
 ![Exemplo de dados emitidos via push](media/what-can-you-do/powerbi-push-data.png)
 
+Para ver algumas das coisas que pode fazer com as APIs do Power BI, veja [O que podem os programadores fazer com as APIs do Power BI](overview-of-power-bi-rest-api.md)?
+
 ## <a name="next-steps"></a>Próximos passos
+
 [Incorporar com o Power BI](embedding.md)  
-[Publicar elementos visuais personalizados na Loja Office](office-store.md)  
-[Push data into a dashboard (Enviar dados por push para um dashboard)](walkthrough-push-data.md)
+
+[Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (Desenvolver um elemento visual personalizado do Power BI)
+
+[O que podem os programadores fazer com a API Power BI?](overview-of-power-bi-rest-api.md)
+
+[Centro para Programadores do Power BI](https://powerbi.microsoft.com/developers/)

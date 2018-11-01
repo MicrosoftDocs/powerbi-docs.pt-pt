@@ -2,18 +2,17 @@
 title: Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI
 description: Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388669"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271860"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
@@ -30,7 +29,7 @@ A Coleção de Áreas de Trabalho do Power BI atual continuará disponível por 
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-Antes de começar a migrar para o novo Power BI Embedded, pode percorrer rapidamente um guia passo a passo que o ajuda a configurar o seu novo ambiente do Power BI Embedded ao utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup).
+Antes de começar a migrar para o novo Power BI Embedded, pode percorrer rapidamente um guia passo a passo que o ajuda a configurar o seu novo ambiente do Power BI Embedded ao utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup).
 
 Escolha a solução mais adequada para si:
 * **Incorporar para os seus clientes**, se estiver interessado numa solução em que [os dados pertencem à aplicação](https://aka.ms/embedsetup/AppOwnsData). A solução [Incorporar para os seus clientes](embedding.md#embedding-for-your-customers) permite-lhe incorporar dashboards e relatórios para utilizadores que não têm uma conta para o Power BI. 

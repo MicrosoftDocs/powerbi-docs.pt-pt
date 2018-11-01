@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250390"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565918"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -24,17 +24,17 @@ Saiba como instalar o Power BI Report Server.
 
 Para transferir o Power BI Report Server, aceda a [On-premises reporting with Power BI Report Server](https://powerbi.microsoft.com/report-server/) (Relatórios no local com o Power BI Report Server) e selecione **Download free trial** (Transferir a versão de avaliação gratuita). 
 
-## <a name="before-you-begin"></a>Antes de começar
+## <a name="before-you-begin"></a>Before you begin
 Antes de instalar o Power BI Report Server, recomendamos que veja os [Requisitos de Software e Hardware para instalar o Power BI Report Server](system-requirements.md).
 
 ### <a name="power-bi-report-server-product-key"></a>Chave de produto do Power BI Report Server
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-Se tiver adquirido o Power BI Premium, no separador **Definições Premium** do portal de administração do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção estará apenas disponível para Administradores Globais ou utilizadores com a função de administrador de serviços do Power BI atribuída.
+Se tiver adquirido o Power BI Premium, no separador **Definições Premium** do portal de administração do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção está apenas disponível para Administradores Globais ou utilizadores com a função de administrador de serviços do Power BI atribuída.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "Chave do Power BI Report Server nas definições Premium")
 
-Ao selecionar **Chave do Power BI Report Server**, será apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
+Ao selecionar **chave do Power BI Report Server**, é apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Chave de produto do Power BI Report Server")
 
@@ -77,7 +77,7 @@ Não precisa de um servidor de Motor de Base de Dados do SQL Server aquando da i
 
 ## <a name="configuring-your-report-server"></a>Configurar o servidor de relatórios
 
-Após selecionar **Configurar Servidor de Relatórios** na configuração, ser-lhe-á apresentado o Gestor de Configuração do Reporting Services. Para obter mais informações, consulte [Reporting Services Configuration Manager (Gestor de Configuração do Reporting Services - em inglês)](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
+Após selecionar **Configurar Servidor de Relatórios** na configuração, é-lhe apresentado o Gestor de Configuração do Reporting Services. Para obter mais informações, consulte [Reporting Services Configuration Manager (Gestor de Configuração do Reporting Services - em inglês)](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
 Terá de [criar uma base de dados do servidor de relatório](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) para concluir a configuração inicial do Reporting Services. É necessário um servidor de Base de dados do SQL Server para concluir este passo.
 

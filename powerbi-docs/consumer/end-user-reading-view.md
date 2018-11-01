@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565113"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908094"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de Leitura e Vista de Edição nos relatórios do serviço Power BI
 No serviço Power BI (mas não no Power BI Desktop), existem dois modos de visualizar e interagir com os relatórios: Vista de leitura e Vista de edição. A Vista de leitura está disponível para todos os utilizadores e foi especialmente concebida para *consumidores* de dados, enquanto a Vista de edição só está disponível para *criadores* e proprietários de relatórios.
@@ -26,11 +26,12 @@ No serviço Power BI (mas não no Power BI Desktop), existem dois modos de vis
 
  A Vista de leitura serve para explorar e interagir com o relatório. É uma forma segura e divertida de reproduzir e ficar a conhecer os seus dados. A Vista de leitura foi concebida para os *consumidores* de relatórios; aqueles que abrem relatórios de aplicações ou que têm relatórios [partilhados com as mesmas](../service-share-dashboards.md). A Vista de Leitura assegura que cada consumidor de um relatório específico está a ver o mesmo relatório, as mesmas visualizações e, opcionalmente, com os mesmos filtros aplicados.  Os consumidores podem interagir com os relatórios, alterar os filtros existentes (e estas alterações serão guardadas com o relatório), mas não podem adicionar novos filtros.
 
->**NOTA**: em determinadas circunstâncias, os consumidores dos relatórios poderão ver dados diferentes devido à segurança ao nível da linha e às permissões dos dados.
+> [!NOTE]
+> Em determinadas circunstâncias, os consumidores dos relatórios poderão ver dados diferentes devido à segurança ao nível da linha e às permissões dos dados.
 
 ## <a name="report-editing-view"></a>Vista de edição dos relatórios
 
-A Vista de edição só está disponível para a pessoa que criou o relatório ou para o [coproprietário de um relatório como um membro ou administrador de uma área de trabalho da aplicação](end-user-create-apps.md).
+A Vista de edição só está disponível para a pessoa que criou o relatório ou para o [coproprietário de um relatório como um membro ou administrador de uma área de trabalho da aplicação](../service-create-distribute-apps.md).
 
 A Vista de edição foi concebida para os *criadores* dos relatórios. É nesta vista que os criadores importam e se ligam aos conjuntos de dados, exploram os dados e criam relatórios e dashboards. Na Vista de edição, os *criadores* podem aprofundar ainda mais os dados ao adicionar e remover campos, ao alterar o tipo de visualização, ao criar novas visualizações e ao adicionar e eliminar visualizações e páginas do relatório. Em seguida, podem partilhar com os colegas os relatórios criados.
 
@@ -53,11 +54,11 @@ Este gráfico não lista todas as capacidades de relatório do serviço Power B
 | [Ver métricas de utilização ](../service-usage-metrics.md) | Sim, na tela do relatório. | Sim, na lista de relatórios (vista de conteúdo) |
 | [Ver relacionados](end-user-related.md) | Sim, na tela do relatório. | Sim, na lista de relatórios (vista de conteúdo) |
 | [Guardar um relatório](../service-report-save.md) | Sim, mas apenas através da opção **Guardar como**. | Sim |
-| [Eliminar um relatório](end-user-delete.md) | Não  | Sim |
+| [Eliminar um relatório](../service-delete.md) | Não  | Sim |
 |**Páginas do relatório** |
 | [Adicionar ou mudar o nome de uma página do relatório](../power-bi-report-add-page.md)  | Não  | Sim  |
 | [Duplicar uma página do relatório](../power-bi-report-copy-paste-page.md) | Não  | Sim |
-| [Eliminar página do relatório](end-user-delete.md) | não | sim |
+| [Eliminar página do relatório](../service-delete.md) | não | sim |
 |**Trabalhar com visualizações de relatórios**|
 | [Adicionar visualizações a um relatório](../visuals/power-bi-report-add-visualizations-i.md) | Não  | Sim |
 | [Adicionar caixas de texto e formas a um relatório](../power-bi-reports-add-text-and-shapes.md) | Não  | Sim |
@@ -66,7 +67,7 @@ Este gráfico não lista todas as capacidades de relatório do serviço Power B
 | [Ver os dados utilizados para criar a visualização](end-user-show-data.md) | Não  | Sim |
 | [Configurar a desagregação](end-user-drill.md) | Não  | Sim |
 | [Alterar a visualização que está a ser utilizada](../visuals/power-bi-report-change-visualization-type.md) | Não | Sim|
-| [Eliminar a visualização, a caixa de texto ou a forma](end-user-delete.md)| Não | Sim |
+| [Eliminar a visualização, a caixa de texto ou a forma](../service-delete.md)| Não | Sim |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>Navegar entre a Vista de edição e a Vista de leitura
@@ -88,7 +89,6 @@ Nota: só o criador e o(s) proprietário(s) do relatório poderão abri-lo na Vi
 
 
 
-### <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximos passos
 Há muitas maneiras de interagir com o relatório na Vista de leitura, através da divisão e da repartição de dados para descobrir ideias e obter respostas a perguntas.  O próximo tópico, [Interagir com um relatório na Vista de leitura](../service-interact-with-a-report-in-editing-view.md), descreve algumas em detalhe.    
 Voltar a [relatórios no Power BI](end-user-reports.md)    
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547068"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908837"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Ligar ao Microsoft Dynamics CRM com o Power BI
 O Microsoft Dynamics CRM para Power BI permite-lhe aceder facilmente e analisar os seus dados. O Power BI utiliza o feed OData para criar um modelo descritivo, com todas as entidades e medidas precisas como Contas, Atividades, Oportunidades, Produtos, Clientes Potenciais, Utilizadores e muito mais. Após instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 
@@ -26,17 +26,16 @@ Esta ligação necessita do **Microsoft Dynamics CRM Online 2016 ou posterior**.
 
 ## <a name="how-to-connect"></a>Como ligar
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Selecione **Microsoft Dynamics CRM Sales Manager** ou **Microsoft Dynamics CRM Service Manager** e clique em **Ligar**.
+3. Selecione **Microsoft Dynamics CRM Sales Manager** ou **Microsoft Dynamics CRM Service Manager** e clique em **Ligar**.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Indique o URL do Serviço associado à sua conta.  Este será no formato `https://company.crm.dynamics.com`, veja mais detalhes [abaixo](#FindingParams).
+4. Indique o URL do Serviço associado à sua conta.  Este será no formato `https://company.crm.dynamics.com`, veja mais detalhes [abaixo](#FindingParams).
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. Quando lhe for solicitado, forneça as suas credenciais (este passo pode ser ignorado se já tiver iniciado sessão com o seu browser). Para o Método de Autenticação, introduza **oAuth2** e clique em **Iniciar Sessão**:
+5. Quando solicitado, forneça as suas credenciais (este passo poderá ser ignorado se já tiver iniciado sessão com seu browser). Como Método de Autenticação, introduza **oAuth2** e clique em **Iniciar Sessão**:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Após a ligação, verá um dashboard personalizado para um Sales Manager ou Service Manager, preenchido com os seus próprios dados:
+6. Após a ligação, verá um dashboard personalizado para um Sales Manager ou Service Manager, preenchido com os seus próprios dados:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,7 +47,7 @@ Esta ligação necessita do **Microsoft Dynamics CRM Online 2016 ou posterior**.
 ## <a name="whats-included"></a>O que está incluído
 As secções abaixo detalham o que está incluído nas pessoas fictícias do [Sales Manager](#Sales) e do [Service Manager](#Service).
 
-Tenha em atenção que os dados, além disso, são limitados com base na função de segurança atribuída ao utilizador do Dynamics CRM Online.
+Os dados são limitados com base na função de segurança atribuída ao utilizador do Dynamics CRM Online.
 
 O dashboard e os relatórios destinam-se a apresentar relatórios operacionais em dados a curto prazo com foco numa equipa ou grupo. Cada consulta é limitada para obter um máximo de 100.000 registos do Dynamics CRM Online. O aprovisionamento irá falhar se este limite for excedido devido ao elevado volume de dados na sua organização, uma vez que a atualização de dados do Dynamics CRM online será terminada. Se a sua conta é demasiado grande, considere ligar através do Power BI Desktop para criar uma solução personalizada.
 
@@ -78,7 +77,7 @@ A tabela seguinte lista as entidades CRM disponíveis para este serviço e ofere
 
 | Entidade CRM | Filtros aplicados |
 | --- | --- |
-| Conta |Todas as contas que têm oportunidades relacionadas que foram modificadas nos últimos 365 dias. |
+| Account |Todas as contas que têm oportunidades relacionadas que foram modificadas nos últimos 365 dias. |
 | Atividade |Todas as atividades modificadas nos últimos 90 dias <br> [modifiedon] > hoje - 90 dias |
 | Unidade de Negócio |Todas as unidades de negócio que não se encontram desativadas <br> [isdisabled] = falso |
 | Cliente potencial |Todos os clientes potenciais modificados nos últimos 180 dias <br> [modifiedon] > hoje - 180 dias |
@@ -101,7 +100,7 @@ Estes dashboard e os relatórios contêm métricas-chave, como:
 * Total de Incidentes Ativos  
 * Número de Vezes do Artigo BDC Utilizado em incidentes e muito mais.    
 
-Também contem gráficos-chave, como:   
+Também contêm gráficos-chave, como:   
 
 * Tendências de Volume de Incidentes para Incidentes de Entrada, Incidentes Resolvidos, Incidentes Encaminhados   
 * Volume de Incidentes por várias dimensões, como Origem, Localização, Prioridade, Tipo  
@@ -154,7 +153,7 @@ Se não tiver o CRM Online 2016 ou posterior, utilize o Power BI Desktop para li
 Se vir um erro "A atualização de dados falhou porque a consulta excedeu o limite máximo de 100.000 registos", considere ligar diretamente a partir do Power BI Desktop ou tirar partido do modelo de solução do CRM.
 
 ## <a name="next-steps"></a>Passos seguintes
-* [O que são aplicações no Power BI?](consumer/end-user-apps.md)
+* [O que são aplicações no Power BI?](service-create-distribute-apps.md)
 * [Obter dados no Power BI](service-get-data.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

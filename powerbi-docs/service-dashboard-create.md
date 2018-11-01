@@ -8,22 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544401"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908653"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
-Já leu [Dashboards no Power BI](consumer/end-user-dashboards.md) e agora deseja criar o seu próprio. Há várias formas diferentes de criar um dashboard: a partir de um relatório, de raiz, de um conjunto de dados, ao duplicar um dashboard existente e muito mais.  
+Já leu [Dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há várias formas diferentes de criar um dashboard: a partir de um relatório, de raiz, de um conjunto de dados, ao duplicar um dashboard existente e muito mais.  
 
 Pode parecer muito confuso quando começa a utilizá-lo, pelo que iremos começar por criar um dashboard de forma rápida e fácil ao afixar visualizações existentes de um relatório. Depois de concluir este início rápido, terá uma boa compreensão da relação entre os dashboards e os relatórios, como abrir a Vista de edição no editor de relatórios, como afixar mosaicos e como navegar entre um dashboard e um relatório. Em seguida, utilize as ligações no Índice à esquerda ou os **Passos seguintes** na parte inferior para avançar para tópicos mais avançados.
 
 ## <a name="who-can-create-a-dashboard"></a>Como posso criar um dashboard?
-A criação de dashboards é uma funcionalidade do **criador** e precisa de permissões de edição para o relatório. As permissões de edição estão disponíveis para os criadores de relatórios e para os colegas aos quais o criador concede acesso. Por exemplo, se o David cria um relatório na área de trabalho ABC e, em seguida, o adiciona como um membro dessa área de trabalho, você e David terão ambos permissões de edição. Por outro lado, se um relatório tiver sido partilhado consigo diretamente ou como parte de uma [aplicação do Power BI](consumer/end-user-apps.md) (está a **consumir** o relatório), não poderá afixar mosaicos a um dashboard.
+A criação de dashboards é uma funcionalidade do **criador** e precisa de permissões de edição para o relatório. As permissões de edição estão disponíveis para os criadores de relatórios e para os colegas aos quais o criador concede acesso. Por exemplo, se o David cria um relatório na área de trabalho ABC e, em seguida, o adiciona como um membro dessa área de trabalho, você e David terão ambos permissões de edição. Por outro lado, se um relatório tiver sido partilhado consigo diretamente ou como parte de uma [aplicação do Power BI](service-create-distribute-apps.md) (está a **consumir** o relatório), não poderá afixar mosaicos a um dashboard.
 
 > **NOTA**: os dashboards são uma funcionalidade do serviço Power BI, não do Power BI Desktop. Os dashboards não podem ser criados no Power BI mobile, mas podem ser [visualizados e partilhados](consumer/mobile/mobile-apps-view-dashboard.md).
 >
@@ -65,7 +65,7 @@ Vamos importar um dos conjuntos de dados de exemplo do Power BI e utilizá-lo pa
 1. Mantendo-se na mesma área de trabalho, selecione o separador **Relatórios**. O relatório recém-importado é apresentado com um asterisco amarelo. Selecione o nome do relatório para abril-lo.
 
     ![separador relatórios](media/service-dashboard-create/power-bi-reports.png)
-2. O relatório é aberto na [Vista de leitura](consumer/end-user-reading-view.md). Repare que tem dois separadores na parte inferior: Análise de Desconto e Descrição Geral de Gastos. Cada separador representa uma página do relatório.
+2. O relatório é aberto na Vista de leitura. Repare que tem dois separadores na parte inferior: Análise de Desconto e Descrição Geral de Gastos. Cada separador representa uma página do relatório.
     Selecione **Editar relatório** para abrir o relatório na Vista de edição.
 
     ![relatório na Vista de leitura](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Parabéns pela criação do seu primeiro dashboard! Agora que tem um dashboard, 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Redimensionar e mover mosaicos](service-dashboard-edit-tile.md)
-* [Tudo sobre mosaicos de dashboards](consumer/end-user-tiles.md)
-* [Partilhar o seu dashboard ao criar uma aplicação](consumer/end-user-create-apps.md)
-* [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+* [Tudo sobre mosaicos de dashboards](service-dashboard-tiles.md)
+* [Partilhar o seu dashboard ao criar uma aplicação](service-install-use-apps.md)
+* [Power BI - Conceitos Básicos](service-basic-concepts.md)
 * [Sugestões para criar um excelente dashboard](service-dashboards-design-tips.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

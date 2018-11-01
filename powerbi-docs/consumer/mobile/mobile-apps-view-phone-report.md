@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737172"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547804"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
 
@@ -24,7 +24,7 @@ Aplica-se a:
 |:--- |:--- |
 | iPhones |Telemóveis Android |
 
-Quando cria um relatório do Power BI no Power BI Desktop, também pode [criar uma versão desse relatório otimizada para visualização](../../desktop-create-phone-report.md) numa aplicação do Power BI no telemóvel.
+Quando cria um relatório do Power BI no Power BI Desktop ou no serviço Power BI, também pode [criar uma versão desse relatório otimizada para visualização](../../desktop-create-phone-report.md) numa aplicação do Power BI no telemóvel.
 
 Depois, quando abrir um relatório do Power BI num telemóvel, o Power BI deteta se o relatório foi otimizado para telemóveis e abre automaticamente o relatório otimizado na vista vertical.
 
@@ -79,7 +79,7 @@ Algumas ações só são possíveis no modo de detalhe, devido às limitações 
     Pode reverter a nível de relatório, limpar toda a exploração de todos os visuais ou, a nível visual, limpar toda a exploração do visual específico selecionado.   
 
 ## <a name="drill-down-in-a-visual"></a>Desagregar num visual
-Se os níveis de hierarquia estiverem definidos num visual, pode desagregar até às informações detalhadas mostradas num visual e, em seguida, voltar para cima. Pode [adicionar desagregações a um visual](../../power-bi-visualization-drill-down.md) no serviço Power BI ou no Power BI Desktop. A desagregação só funciona em relatórios do Power BI otimizados para telemóveis quando os vir num telemóvel. 
+Se os níveis de hierarquia estiverem definidos num visual, pode desagregar até às informações detalhadas mostradas num visual e, em seguida, voltar para cima. Pode [adicionar desagregações a um visual](../end-user-drill.md) no serviço Power BI ou no Power BI Desktop. A desagregação só funciona em relatórios do Power BI otimizados para telemóveis quando os vir num telemóvel. 
 
 1. Num relatório num telemóvel, toque nas reticências (**...**) no canto superior direito > **Expandir para o modo de detalhe**.
    

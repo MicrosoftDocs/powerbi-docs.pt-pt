@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300167"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909228"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Monitorizar as capacidades do Power BI Premium na sua organização
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorizar as capacidades no Power BI Premium e no Power BI Embedded
 
-Este artigo fornece uma descrição geral da monitorização das métricas das capacidades do Power BI Premium. Monitorizar a utilização das capacidades permite-lhe ter uma abordagem informada para gerir as suas capacidades. 
+Este artigo fornece uma descrição geral da monitorização das métricas das capacidades do Power BI Premium. Monitorizar a utilização das capacidades permite-lhe ter uma abordagem informada para gerir as suas capacidades.
 
 Pode monitorizar a capacidade com a aplicação Métricas de Capacidade do Power BI Premium ou no portal de administração. Recomendamos a aplicação, porque fornece muitos mais detalhes, apesar deste artigo abordar as duas opções.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Instalar a aplicação Métricas de Capacidade Premium
 
 Pode ir diretamente para a [aplicação Métricas de Capacidade Premium](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) ou instalá-la tal como faz com as outras aplicações no Power BI.
-
-> [!IMPORTANT]
-> Para instalar e utilizar esta aplicação, tem de ser um administrador de, pelo menos, uma capacidade. Não é suficiente ser um administrador do Power BI. 
 
 1. No Power BI, clique em **Aplicações**.
 
@@ -42,47 +41,66 @@ Pode ir diretamente para a [aplicação Métricas de Capacidade Premium](https:/
 
 Agora que instalou a aplicação, pode ver as métricas sobre as capacidades na sua organização. Vamos dar analisar algumas das métricas principais disponíveis.
 
-## <a name="use-the-metrics-app"></a>Utilizar a aplicação de métricas 
+## <a name="use-the-metrics-app"></a>Utilizar a aplicação de métricas
+
 Quando abre a aplicação, é apresentado um dashboard com um resumo de todas as capacidades para as quais tem direitos de administrador.
 
-![Descrição geral do relatório Premium](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![Dashboard da aplicação de métricas](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Filtragem
+O relatório tem três separadores, que descrevemos em mais detalhes nas seções a seguir.
 
-O separador **Filtros aplicados a todas as páginas** permite-lhe selecionar uma capacidade, um conjunto de dados e/ou um intervalo de datas nos últimos sete dias. Estes filtros aplicam a seleção a todos os mosaicos e páginas relevantes neste relatório. Se nada for selecionado, o relatório por predefinição mostrará as métricas da semana anterior para cada capacidade de que for proprietário.
+* **Filtros aplicados a todas as páginas**: permite-lhe filtrar as outras páginas no relatório para uma capacidade específica.
+* **Conjuntos de dados**: proporciona métricas detalhadas sobre o estado de funcionamento dos conjuntos de dados dentro das suas capacidades.
+* **Sistema**: proporciona métricas gerais da capacidade, incluindo a memória e a utilização elevada da CPU. 
 
-![Descrição geral do relatório Premium](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Separador Filtros aplicados a todas as páginas
 
-### <a name="summary-tab"></a>Separador Resumo
+O separador **Filtros aplicados a todas as páginas** permite-lhe selecionar uma capacidade, um conjunto de dados e um intervalo de datas nos últimos sete dias. Os filtros são aplicados, em seguida, a todos os mosaicos e páginas relevantes no relatório. Se não forem selecionados filtros, o relatório por predefinição mostrará as métricas da semana anterior para cada capacidade de que for proprietário.
 
-O separador **Resumo** mostra uma vista da capacidade com base nas entidades, no sistema e nos conjuntos de dados.
+![Separador Filtros](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Filtros aplicados a todas as páginas](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Separador Conjuntos de Dados
 
-| **Área** | **Métricas** |
+O separador **Conjuntos de dados** proporciona a maior parte das métricas na aplicação. Utilize os quatro botões na parte superior do separador para navegar para áreas diferentes: **Resumo**, **Atualizações**, **Consultas** e **Conjuntos de Dados**.
+
+![Separador Conjuntos de Dados](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Área de resumo
+
+![Botão de resumo](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+A área **Resumo** mostra uma vista das suas capacidades com base em entidades, recursos de sistema e cargas de trabalho do conjunto de dados.
+
+| | **Métricas** |
 | --- | --- |
 | **Entidades** | * O número de capacidades de que é proprietário<br> * O número distinto de conjuntos de dados na sua capacidade<br> * O número distinto de áreas de trabalho na sua capacidade |
 | **Sistema** | * A utilização média da memória em GB nos últimos sete dias<br> * O mais alto consumo de memória em GB nos últimos sete dias e a hora local em que ocorreu<br> * O número de vezes que a CPU excedeu o valor de 80% dos limiares nos últimos sete dias, dividido em registos de três minutos<br> * A maioria das vezes em que a CPU excedeu o valor de 80% nos últimos sete dias, dividido em registos de uma hora e a hora local em que ocorreram<br> * O número de vezes que a Consulta direta/Ligações em direto excederam o valor de 80% dos limiares nos últimos sete dias, dividido em registos de três minutos<br> * A maioria das vezes em que a Consulta direta/Ligações em direto excederam o valor de 80% nos últimos sete dias, dividido em registos de uma hora e a hora local em que ocorreram |
 | **Cargas de Trabalho do Conjunto de Dados** | * O número total de atualizações nos últimos sete dias<br> * O número total de atualizações com êxito nos últimos sete dias<br> * O número total de atualizações com falha nos últimos sete dias<br> * O número total de atualizações com falha devido a memória esgotada<br> * A duração média da atualização é medida em minutos, o tempo necessário para concluir a operação<br> * O tempo médio de espera da atualização é medido em minutos, o desfasamento médio entre a hora agendada e o início da operação<br> * O número total de consultas executadas nos últimos sete dias<br> * O número total de consultas com êxito nos últimos sete dias<br> * O número total de consultas com falhas nos últimos sete dias<br> * A duração média da consulta é medida em minutos, o tempo necessário para concluir a operação<br> * O número total de modelos expulsos devido à pressão de memória |
 |  |  |
 
-### <a name="refreshes-tab"></a>Separador Atualizações
+#### <a name="refreshes-area"></a>Área de atualizações
 
-O separador **Atualizações** lista as atualizações concluídas, as medidas de sucesso, o tempo de espera médio/máx. da atualização e a duração média/máx. da atualização segmentados por conjuntos de dados nos últimos sete dias. Os dois gráficos na parte inferior mostram as atualizações versus o consumo de memória em GB e os tempos de espera médios divididos em registos de uma hora, comunicados na hora local. Os gráficos de barras na parte superior listam os cinco conjuntos de dados principais com base no total do tempo máximo necessário para concluir a atualização do conjunto de dados (duração da atualização) e no tempo máximo de espera da atualização. Os vários picos de tempo de espera da atualização são indicativos da execução frequente da capacidade.
+![Botão de atualizações](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Relatório de atualização Premium](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+A área **Atualizações** lista as atualizações concluídas, as medidas com êxito, o tempo de espera médio/máx. de atualização e a duração média/máx. da atualização segmentada por conjuntos de dados nos últimos sete dias. Os dois gráficos na parte inferior mostram as atualizações versus o consumo de memória em GB e os tempos de espera médios divididos em registos de uma hora, comunicados na hora local. Os gráficos de barras na parte superior listam os cinco conjuntos de dados principais com base no tempo médio necessário para concluir a atualização do conjunto de dados (duração da atualização) e no tempo médio de espera de atualização. Os vários picos de tempo de espera da atualização são indicativos da execução frequente da capacidade.
 
-### <a name="datasets-tab"></a>Separador Conjuntos de Dados
+#### <a name="queries-area"></a>Área de consultas
 
-O separador **Conjuntos de dados** mostra os conjuntos de dados concluídos expulsos devido à pressão de memória por hora.
+![Botão de consultas](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Relatório de conjunto de dados Premium](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+A área **Consultas** lista o número total de consultas executadas, o número total de consultas com contagem do tempo de espera para Consulta em direto/Consulta direta, duração média/máxima, tempo de espera médio/máximo comunicado em milissegundos dividido por conjuntos de dados, área de trabalho e registos de uma hora nos últimos sete dias. Os gráficos na parte inferior mostram as contagens de consultas, duração média (em milissegundos) e a média de tempo de espera (em milissegundos) vs. o consumo de memória em GB, dividido por registos de uma hora comunicados na hora local. Os dois gráficos principais à direita listam os cinco conjuntos de dados principais pela duração média de consulta e pelo tempo de espera necessário para concluir as consultas. Durações de consulta longas e tempos de espera longos são indicativos da capacidade de executar acessos frequentes. Também pode significar que um único conjunto de dados está a causar problemas e ainda é necessário mais investigação.
+
+#### <a name="datasets-area"></a>Área de conjuntos de dados
+
+![Botão de conjuntos de dados](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+A área **Conjuntos de dados** mostra os conjuntos de dados concluídos expulsos devido à pressão de memória por hora.
 
 ### <a name="system-tab"></a>Separador Sistema
 
-O separador **Sistema** mostra a Utilização elevada da CPU (número de vezes que excedeu 80% da utilização), a utilização elevada da Consulta direta/Ligações em direto e o Consumo de Memória.
+O separador **Sistema** mostra as vezes da utilização elevada da CPU (número de vezes que excedeu 80% da utilização), a utilização elevada da consulta direta/ligações em direto e o consumo de memória.
 
-![Relatório do Sistema Premium](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Relatório do Sistema Premium](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorizar a capacidade do Power BI Embedded
 

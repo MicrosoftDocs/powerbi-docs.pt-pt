@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/02/2018
 ms.author: maggie
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e71f3a1efe60094b9a714e1d03b891aa9da99a6
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 6be3d095ca68cf83ff7a2ba4c7fd02a9340f3474
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875438"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908446"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards no serviço Power BI
 
