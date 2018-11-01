@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908653"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435370"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
 Já leu [Dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há várias formas diferentes de criar um dashboard: a partir de um relatório, de raiz, de um conjunto de dados, ao duplicar um dashboard existente e muito mais.  
@@ -109,7 +109,7 @@ Parabéns pela criação do seu primeiro dashboard! Agora que tem um dashboard, 
 ## <a name="next-steps"></a>Próximos passos
 * [Redimensionar e mover mosaicos](service-dashboard-edit-tile.md)
 * [Tudo sobre mosaicos de dashboards](service-dashboard-tiles.md)
-* [Partilhar o seu dashboard ao criar uma aplicação](service-install-use-apps.md)
+* [Partilhar o seu dashboard ao criar uma aplicação](service-create-workspaces.md)
 * [Power BI - Conceitos Básicos](service-basic-concepts.md)
 * [Sugestões para criar um excelente dashboard](service-dashboards-design-tips.md)
 
