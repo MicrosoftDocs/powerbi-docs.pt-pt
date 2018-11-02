@@ -1,22 +1,22 @@
 ---
 title: Adicionar parâmetros de relatórios do Power BI através do URL
 description: Filtre um relatório através de parâmetros de cadeias de consulta de URL e, se pretender, filtre com base em mais de um campo.
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626037"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232932"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -106,7 +106,7 @@ O Power BI suporta vários operadores para além do operador **and**. A tabela a
 |**gt**     | maior que        |não | sim | sim  | produto/preço gt 20
 |**le**     |   menor ou igual a      | não | sim | sim  | produto/preço le 100
 |**lt**     |  menor que       | não | sim | sim |  produto/preço lt 20
-|**in****     |  incluindo       | não | não |  sim | Estudante/Idade in (27, 29)
+|**in****     |  incluindo       | sim | sim |  sim | Estudante/Idade in (27, 29)
 
 
 \** Ao utilizar o operador **in**, os valores à direita de **in** podem ser uma lista separada por vírgulas entre parênteses ou uma expressão única que devolve uma coleção.
@@ -127,18 +127,18 @@ Um filtro de URL do Power BI pode incluir números nos seguintes formatos.
 
 O Power BI suporta o OData V3 e V4 para os tipos de dados **Data** e **DateTimeOffset**.  As datas são representadas através do formato EDM (2019-02-12T00:00:00). Isto significa que ao especificar a data como AAAA-MM-DD, o Power BI interpreta-a como AAAA-MM-DDT00:00:00.
 
-Por que motivo esta distinção é importante? Imaginemos que criou o parâmetro de cadeia de consulta **Tabela/Data gt 2018-08-03**.  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? Uma vez que o Power BI traduz a sua consulta para **Tabela/Data gt 2018-08-03T00:00:00**, os resultados vão incluir todas as datas que tiverem uma parte de hora diferente de zero, uma vez que essas datas seriam maiores do que **2018-08-03T00:00:00**.
+Por que motivo esta distinção é importante? Imaginemos que criou o parâmetro de cadeia de consulta **Tabela/Data gt 2018-08-03**.  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? Uma vez que o Power BI traduz a sua consulta para **Tabela/Data gt 2018-08-03T00:00:00**, os resultados incluem todas as datas que tiverem uma parte de hora diferente de zero, uma vez que essas datas seriam maiores do que **2018-08-03T00:00:00**.
 
 ## <a name="special-characters-in-url-filters"></a>Carateres especiais em filtros de URL
 
-Os carateres especiais e espaços requerem alguma formatação adicional. Quando a sua consulta contém espaços, travessões ou outros carateres que não forem ASCII, prefixe esses carateres especiais com um *código de escape* (**_x**) e o **Unicode** de quatro dígitos. Se o Unicode tiver menos de quatro carateres, terá de acrescentar zeros ao mesmo. Eis alguns exemplos.
+Os carateres especiais e espaços requerem alguma formatação adicional. Quando a sua consulta contém espaços, travessões ou outros carateres que não forem ASCII, prefixe esses carateres especiais com um *código de escape* que comece com um caráter de sublinhado e um X (**_x**) e, em seguida, o **Unicode** de quatro dígitos, seguido de outro caráter de sublinhado. Se o Unicode tiver menos de quatro carateres, tem de acrescentar zeros ao mesmo. Eis alguns exemplos.
 
 |Identificador  |Unicode  | Códigos do Power BI  |
 |---------|---------|---------|
-|**Nome da Tabela**     | Espaço: 0x20        |  Nome_x0020_Tabela       |
-|**Número**@**Coluna**     |   @: 0x40     |  Número_x0040_Coluna       |
-|**[Coluna]**     |  [:0x005B ]:0x0050       |  _x0058_Coluna_x0050       |
-|**Coluna+SinalDeAdição**     | +:0x2B        |  Coluna_x002B_SinalDeAdição       |
+|**Nome da Tabela**     | O espaço é 0x20        |  Nome_x0020_Tabela       |
+|**Número**@**Coluna**     |   @ é 0x40     |  Número_x0040_Coluna       |
+|**[Coluna]**     |  [é 0x0058] é 0x0050       |  _x0058_Coluna_x0050       |
+|**Coluna+SinalDeAdição**     | + é 0x2B        |  Coluna_x002B_SinalDeAdição       |
 
 Tabela_x0020_Nome/Coluna_x002B_SinalDeAdição eq 3 ![carateres especiais de composição de elementos visuais da tabela](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,9 +159,9 @@ Publique o relatório no serviço Power BI e, em seguida, utilize a cadeia de co
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Afixar um mosaico de um relatório filtrado
 
-Após filtrar o relatório através de parâmetros de cadeia de consulta, pode afixar visualizações desse relatório ao seu dashboard.  O mosaico no dashboard mostra os dados filtrados e selecionar esse mosaico de dashboard abre o relatório que foi utilizado para criá-lo.  No entanto, a filtragem que fez através do URL não é guardada com o relatório e, quando o mosaico do dashboard é selecionado, o relatório permanece no seu estado não filtrado.  Isto significa que os dados apresentados no mosaico de dashboard não corresponderão aos dados apresentados na visualização de relatório.
+Após filtrar o relatório através de parâmetros de cadeia de consulta, pode afixar visualizações desse relatório ao seu dashboard.  O mosaico no dashboard mostra os dados filtrados e selecionar esse mosaico de dashboard abre o relatório que foi utilizado para criá-lo.  No entanto, a filtragem que fez através do URL não é guardada com o relatório e, quando o mosaico do dashboard é selecionado, o relatório permanece no seu estado não filtrado.  Isto significa que os dados apresentados no mosaico de dashboard não correspondem aos dados apresentados na visualização de relatório.
 
-Isto pode ser útil quando pretende ver resultados diferentes; filtrado no dashboard e não filtrado no relatório.
+Isto é útil quando pretende ver resultados diferentes; filtrado no dashboard e não filtrado no relatório.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
@@ -171,6 +171,7 @@ Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de 
 * No Servidor de Relatórios do Power BI, pode [transmitir parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) ao incluí-los num URL de relatório. Estes parâmetros de URL não têm prefixos porque são transmitidos diretamente para o motor de processamento de relatórios.
 * A filtragem de cadeia de consulta não funciona com a opção [Publicar na Web](service-publish-to-web.md) nem no Power BI Embedded.   
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.
+* Os filtros de URL de relatório têm um limite de 10 expressões (10 filtros ligados por AND).
 
 ## <a name="next-steps"></a>Próximos passos
 

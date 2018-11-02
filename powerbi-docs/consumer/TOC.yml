@@ -1,7 +1,7 @@
 items:
 - name: Power BI para consumidores
   href: power-bi-consumer-landing.md
-- name: Serviço Power BI
+- name: Serviço do Power BI para consumidores
   items:
   - name: Overview
     items:
@@ -13,6 +13,8 @@ items:
     items:
     - name: Navegar no Power BI
       href: end-user-experience.md
+    - name: What can I do with Power BI? (O que posso fazer com o Power BI?)
+      href: end-user-reading-view.md
   - name: Tutoriais
     items:
     - name: Criar um alerta de dashboard
@@ -23,6 +25,8 @@ items:
       items:
       - name: Dashboards
         href: end-user-dashboards.md
+      - name: Visualizar um dashboard
+        href: end-user-dashboard-open.md
       - name: Dashboards em destaque
         href: end-user-featured.md
       - name: Os mosaicos do dashboard
@@ -43,10 +47,10 @@ items:
       items:
       - name: O que posso fazer com visualizações?
         href: end-user-visualizations.md
+      - name: Mostrar os dados que foram utilizados para criar a visualização
+        href: end-user-show-data.md
       - name: Desagregação numa visualização no Power BI
         href: end-user-drill.md
-      - name: Export data from a visualization (Exportar dados de uma visualização)
-        href: end-user-export-data.md
     - name: Common tasks (Tarefas comuns)
       items:
       - name: Diferentes formas de aplicar zoom no conteúdo com os modos de ecrã Foco e Ecrã total
@@ -181,9 +185,9 @@ items:
     items:
     - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 5a696c51a72320bc53a12a913c1785fb5ba742c8
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112136"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473906"
