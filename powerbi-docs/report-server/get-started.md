@@ -4,18 +4,18 @@ description: Obtenha uma descrição geral do Power BI Report Server para compr
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294577"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101405"
 ---
 # <a name="what-is-power-bi-report-server"></a>O que é o Power BI Report Server?
 
@@ -28,6 +28,9 @@ O Power BI Report Server é semelhante ao SQL Server Reporting Services e ao se
 
 ## <a name="licensing-power-bi-report-server"></a>Licenciar o Power BI Report Server
 O Power BI Report Server está disponível através de duas licenças diferentes: [Power BI Premium](../service-premium.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) com Software Assurance. Com uma licença Power BI Premium, pode criar uma implementação híbrida (ao combinar cloud e no local).  
+
+> [!NOTE]
+> No Power BI Premium, o Power BI Report Server só é incluído com os P SKUs. Não é incluído com os EM SKUs.
 
 ## <a name="web-portal"></a>Portal Web
 O ponto de entrada do Power BI Report Server é um portal Web seguro que pode ver em qualquer browser moderno. Aqui, pode aceder a todos os seus relatórios e KPIs. O conteúdo no portal Web é organizado numa hierarquia de pastas tradicional. Nas suas pastas, o conteúdo é agrupado por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados, KPIs e livros do Excel, além de conjuntos de dados partilhados e origens de dados partilhadas para utilizar como blocos de criação dos seus relatórios. Pode etiquetar favoritos para os visualizar numa única pasta. Pode também criar KPIs diretamente no portal Web. 
@@ -66,7 +69,7 @@ Mais [documentação para programadores do Report Server](https://docs.microsoft
 
 ## <a name="next-steps"></a>Próximos passos
 [Instalar o Power BI Report Server](install-report-server.md)  
-[Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

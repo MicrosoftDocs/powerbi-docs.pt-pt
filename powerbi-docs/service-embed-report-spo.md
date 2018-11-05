@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641212"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100778"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -42,41 +42,38 @@ Para incorporar o seu relatório no SharePoint Online, tem primeiro de obter o U
 2. Selecione o item de menu **Ficheiro**.
 
 3. Selecione **Incorporar no SharePoint Online**.
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![Menu de Ficheiros](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. Copie o URL da caixa de diálogo.
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > Pode também utilizar o URL apresentado na barra de endereço do seu browser ao visualizar um relatório. O URL contém a página de relatório que está atualmente a ver. Se quiser utilizar outra página, terá de remover a secção de relatório do URL.
+    ![Incorporar a ligação](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Adicionar o relatório do Power BI a uma página do SharePoint Online
 
 1. Abra a página pretendida no SharePoint Online e selecione **Editar**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![Página de edições do SP](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     Também pode selecionar **+ Novo**, no SharePoint Online, para criar uma página de site moderna nova.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![Nova página do SP](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. Selecione **+** e selecione a peça Web **Power BI**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![Nova peça Web do SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. Selecione **Adicionar relatório**.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![Novo relatório do SP](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. Cole o URL do relatório no painel da propriedade. Este é o URL que copiou nos passos anteriores. O relatório é carregado automaticamente.
+4. Cole o URL do relatório no painel da propriedade. Este é o URL do relatório que copiou nos passos anteriores. O relatório é carregado automaticamente.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![Propriedades da nova peça Web do SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. Selecione **Publicar** para tornar a alteração visível para os seus utilizadores do SharePoint Online.
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![Relatório do SP carregado](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>Conceder acesso a relatórios
 
@@ -87,24 +84,12 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 
 Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores conseguem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
 
-Em alternativa, pode efetuar os passos seguintes para conceder aos utilizadores acesso ao seu relatório.
+Em alternativa, pode partilhar um relatório diretamente com os utilizadores ao incorporar o relatório numa aplicação. A aplicação tem de estar previamente instalada para incorporar o relatório. Pode configurar a aplicação para ser previamente instalada através da funcionalidade **Instalar aplicação automaticamente**.
 
-1. Adicione um mosaico de um relatório a um dashboard.
+   ![Instalar aplicação automaticamente](media/service-embed-report-spo/install-app-automatically.png)
 
-2. Partilhe o dashboard com os utilizadores que precisam de acesso ao relatório. Para obter mais informações, veja [Share a dashboard with colleagues and others](service-share-dashboards.md) (Partilhar um dashboard com colegas e outras pessoas).
-
-## <a name="web-part-settings"></a>Definições de peças Web
-
-Segue-se uma descrição das definições que podem ser ajustadas na peça Web Power BI para o SharePoint Online.
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| Propriedade | Descrição |
-| --- | --- |
-| Nome da página |Predefine a página que é mostrada pela peça Web. Selecione um valor no menu pendente. Se não forem apresentadas páginas, significa que o seu relatório tem uma página ou que o URL que colou contém um nome de página. Remova a secção de relatório do URL para selecionar uma página específica. |
-| Apresentar |Opção para personalizar o ajuste do relatório na página do SharePoint Online. |
-| Mostrar Painel de Navegação |Mostra ou oculta o painel de navegação de páginas. |
-| Mostrar Painel de Filtro |Mostra ou oculta o painel de filtro. |
+> [!NOTE]
+> **O utilizador precisa de acesso à página do SharePoint e ao relatório para ver o relatório na página do SharePoint.**
 
 ## <a name="multi-factor-authentication"></a>Autenticação multifator
 
@@ -113,13 +98,26 @@ Se o seu ambiente do Power BI requerer que inicie sessão através da autentica�
 > [!NOTE]
 > A autenticação multifator ainda não é suportada no Azure Active Directory 2.0. Os utilizadores recebem uma mensagem a indicar *erro*. Se o utilizador voltar a iniciar sessão no SharePoint Online através do respetivo dispositivo de segurança, este conseguirá ver o relatório.
 
+## <a name="web-part-settings"></a>Definições de peças Web
+
+Segue-se uma descrição das definições que podem ser ajustadas na peça Web Power BI para o SharePoint Online.
+
+![Propriedades da peça Web do SP](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| Propriedade | Descrição |
+| --- | --- |
+| Nome da página |Predefine a página que é mostrada pela peça Web. Selecione um valor no menu pendente. Se não forem apresentadas páginas, significa que o seu relatório tem uma página ou que o URL que colou contém um nome de página. Remova a secção de relatório do URL para selecionar uma página específica. |
+| Apresentar |Opção para personalizar o ajuste do relatório na página do SharePoint Online. |
+| Mostrar Painel de Navegação |Mostra ou oculta o painel de navegação de páginas. |
+| Mostrar Painel de Filtro |Mostra ou oculta o painel de filtro. |
+
 ## <a name="reports-that-do-not-load"></a>Relatórios que não são carregados
 
 O seu relatório poderá não ser carregado na peça Web Power BI, apresentando a seguinte mensagem.
 
 *Este conteúdo não está disponível.*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![Mensagem de relatório não encontrado](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Existem dois motivos comuns para esta mensagem.
 
@@ -128,13 +126,17 @@ Existem dois motivos comuns para esta mensagem.
 
 Contacte o proprietário da página do SharePoint Online para que este o ajude a resolver o problema.
 
+## <a name="licensing"></a>Licensing
+
+Os utilizadores que visualizam um relatório no SharePoint precisam de uma **licença do Power BI Pro** ou os conteúdos precisam de estar numa área de trabalho com  **[capacidade do Power BI Premium (SKU EM ou P)](service-admin-premium-purchase.md)**.
+
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
-* Erro: "Ocorreu um erro; tente terminar e voltar a iniciar sessão e, em seguida, revisite esta página. ID de correlação: não definido, estado de resposta HTTP: 400, código de erro de servidor 10001, mensagem: Token atualizado em falta"
+* Erro: “Ocorreu um erro; tente terminar e voltar a iniciar sessão e, em seguida, revisite esta página. ID de correlação: não definido, estado de resposta HTTP: 400, código de erro de servidor 10001, mensagem: Token atualizado em falta”
   
-  Se receber este erro, experimente uma das seguintes soluções.
+  Se receber este erro, experimente um dos passos de resolução de problemas abaixo.
   
-  1. Termine sessão no SharePoint e volte a iniciá-la. Certifique-se de que fecha todas as janelas do browser antes de voltar a iniciar sessão.
+  1. Termine a sessão no SharePoint e volte a iniciá-la. Certifique-se de que fecha todas as janelas do browser antes de voltar a iniciar sessão.
 
   2. Se a sua conta de utilizador requer autenticação multifator (MFA), certifique-se de que inicia sessão no SharePoint através do seu dispositivo de autenticação multifator (aplicação para telemóvel, smart card, etc.)
   

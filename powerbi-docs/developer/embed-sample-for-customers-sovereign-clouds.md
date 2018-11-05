@@ -1,5 +1,5 @@
 ---
-title: Incorporar conteúdo do Power BI numa aplicação para os clientes de clouds soberanas
+title: Incorporar conteúdo do Power BI numa aplicação para os seus clientes de clouds soberanas e governamentais
 description: Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com as APIs do Power BI para os seus clientes.
 author: markingmyname
 ms.author: maghan
@@ -7,16 +7,17 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 07/26/2018
-ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
-ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
+ms.date: 10/25/2018
+ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48039445"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003162"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação de clouds soberanas
-Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com o SDK .NET do Power BI, juntamente com a API JavaScript do Power BI ao incorporar para os seus clientes. Normalmente, este é um cenário de ISV.
+
+Saiba como incorporar um dashboard, mosaico ou relatório em aplicações Web com o SDK .NET do Power BI, juntamente com a API JavaScript do Power BI quando integrar dados para os seus clientes.
 
 O Power BI suporta também clouds (privadas) soberanas.
 
@@ -38,17 +39,21 @@ Para começar a utilizar estas instruções, precisa de uma **conta do Power BI
 
 > [!NOTE]
 > Pretende incorporar um dashboard para a sua organização em alternativa? Veja [Integrar um dashboard numa aplicação para a sua organização](integrate-dashboard.md).
->
 
-Para integrar um dashboard numa aplicação Web, utilize a API do **Power BI** e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um dashboard. Em seguida, carregue o dashboard com um token de incorporação. A API do **Power BI** fornece acesso programático a recursos específicos do **Power BI**. Para obter mais informações, veja [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), [SDK .NET do Power BI](https://github.com/Microsoft/PowerBI-CSharp) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um dashboard numa aplicação Web, utilize a API do **Power BI** e um **token de acesso** de autorização do Azure Active Directory (AD) para obter um dashboard. Em seguida, carregue o dashboard com um token de incorporação. A API do **Power BI** fornece acesso programático a recursos específicos do **Power BI**. Para obter mais informações, veja [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/), SDK .NET do Power BI e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Transferir o exemplo
-Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) no GitHub. Para acompanhar estas instruções, pode transferir o exemplo.
+
+Este artigo mostra o código utilizado no [exemplo App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples) no GitHub. Para acompanhar estas instruções, pode transferir o exemplo.
+
+![Exemplo App Owns Data](media/embed-sample-for-customers-sovereign-clouds/embed-sample-for-customers-026.png)
 
 * GCC (US Government Community Cloud):
-    1. Substitua os conteúdos do ficheiro Cloud.config pelos do GCCCloud.config.
-    2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
-    3. Adicione os parâmetros do GCC ao ficheiro Web.config da seguinte forma.
+1. Substitua os conteúdos do ficheiro Cloud.config pelos do GCCCloud.config.
+
+2. Atualize os valores applicationId (applicationId nativo da aplicação), workspaceId, user (o seu utilizador principal) e password no ficheiro Web.config.
+
+3. Adicione os parâmetros do GCC ao ficheiro Web.config da seguinte forma.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -58,9 +63,11 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
 ```
 
 * DoDCON (Military Contractors):
-    1. Substitua os conteúdos do ficheiro Cloud.config pelos do TBCloud.config.
-    2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
-    3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
+1. Substitua os conteúdos do ficheiro Cloud.config pelos do TBCloud.config.
+
+2. Atualize os valores applicationId (applicationId nativo da aplicação), workspaceId, user (o seu utilizador principal) e password no ficheiro Web.config.
+
+3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -70,9 +77,11 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
 ```
 
 * DoD (Military):
-    1. Substitua os conteúdos do ficheiro Cloud.config pelos do PFCloud.config.
-    2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
-    3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
+1. Substitua os conteúdos do ficheiro Cloud.config pelos do PFCloud.config.
+
+2. Atualize os valores applicationId (applicationId nativo da aplicação), workspaceId, user (o seu utilizador principal) e password no ficheiro Web.config.
+
+3. Adicione os parâmetros do DoDCON ao ficheiro web.config da seguinte forma.
 
 ```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
@@ -82,9 +91,11 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
 ```
 
 * Parâmetros do Power BI para Germany Cloud
-    1. Substitua o conteúdo do ficheiro Cloud.config pelo do Power BI para Germany Cloud.
-    2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
-    3. Adicione os parâmetros do Power BI para Germany Cloud ao ficheiro Web.config da seguinte forma.
+1. Substitua o conteúdo do ficheiro Cloud.config pelo do Power BI para Germany Cloud.
+
+2. Atualize os valores applicationId (applicationId nativo da aplicação), workspaceId, user (o seu utilizador principal) e password no ficheiro Web.config.
+
+3. Adicione os parâmetros do Power BI para Germany Cloud ao ficheiro Web.config da seguinte forma.
 
 ```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
@@ -94,9 +105,11 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
 ```
 
 * Parâmetros do Power BI para China Cloud
-    1. Substitua o conteúdo do ficheiro Cloud.config pelo do [Power BI para China](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) Cloud.
-    2. Atualize os valores clientId (ID de cliente da aplicação nativa), groupId, user (o seu utilizador principal) e password no ficheiro Web.config.
-    3. Adicione os parâmetros do Power BI para China Cloud ao ficheiro Web.config da seguinte forma.
+1. Substitua o conteúdo do ficheiro Cloud.config pelo do [Power BI para China](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) Cloud.
+
+2. Atualize os valores applicationId (applicationId nativo da aplicação), workspaceId, user (o seu utilizador principal) e password no ficheiro Web.config.
+
+3. Adicione os parâmetros do Power BI para China Cloud ao ficheiro Web.config da seguinte forma.
 
 ```xml
 <add key="authorityUrl" value=https://login.chinacloudapi.cn/common/oauth2/authorize/" />
@@ -106,7 +119,8 @@ Este artigo mostra o código utilizado no [Exemplo de incorporação para o seu 
 ```
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Passo 1 – registar uma aplicação no Azure AD
-Tem de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Para obter mais informações, veja [Register an Azure AD app to embed Power BI content (Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI)](register-app.md). Uma vez que existem diferentes afiliações de cloud soberanas, existem URLs distintos para registar a aplicação.
+
+Registe a sua aplicação no Microsoft Azure AD para fazer chamadas para a API REST. Para obter mais informações, veja [Register an Azure AD app to embed Power BI content (Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI)](register-app.md). Uma vez que existem diferentes afiliações de cloud soberanas, existem URLs distintos para registar a aplicação.
 
 * GCC (Government Community Cloud) – https://app.powerbigov.us/apps 
 
@@ -118,10 +132,10 @@ Tem de registar a sua aplicação no Azure AD para fazer chamadas à API REST. P
 
 * Power BI para China Cloud – https://app.powerbi.cn/apps
 
-Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), utilize o **ID de Cliente** que recebe após o registo para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **clientId** no ficheiro *web.config*.
-
+Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), utilize o **applicationId** que recebe após o registo para que o exemplo possa ser autenticado no Microsoft Azure AD. Para configurar o exemplo, altere o **applicationId** no ficheiro *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Passo 2 – obter um token de acesso do Azure AD
+
 Na sua aplicação, terá de obter um **token de acesso** do Azure AD antes de poder fazer chamadas para a API REST do Power BI. Para obter mais informações, veja [Authenticate users and get an Azure AD access token for your Power BI app (Autenticar utilizadores e obter um token de acesso do Azure AD para a sua aplicação do Power BI)](get-azuread-access-token.md). Uma vez que temos diferentes afiliações de cloud soberanas, existem URLs distintos para obter um token de acesso para a aplicação.
 
 * GCC (Government Community Cloud) – https://login.microsoftonline.com
@@ -132,15 +146,17 @@ Na sua aplicação, terá de obter um **token de acesso** do Azure AD antes de p
 
 * Power BI para Germany Cloud – https://login.microsoftonline.de
 
-* Power BI para China Cloud – https://login.microsoftonline.cn
+* Power BI para China Cloud – https://login.chinacloudapi.cn
 
-Pode ver exemplos dentro de cada tarefa de item de conteúdo em **Controllers\HomeController.cs**.
+Pode ver exemplos desses tokens de acesso dentro de cada tarefa de item de conteúdo no ficheiro **Controllers\HomeController.cs**.
 
 ## <a name="step-3---get-a-content-item"></a>Passo 3 - obter um item de conteúdo
+
 Para incorporar o conteúdo do Power BI, tem de executar algumas ações para se certificar de que é incorporado corretamente. Embora todos estes passos possam ser executados diretamente com a API REST, o exemplo de aplicação e os exemplos aqui apresentados utilizam o SDK .NET.
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Criar o Cliente do Power BI com o seu token de acesso
-Com o seu token de acesso, irá querer criar o objeto de cliente do Power BI que lhe permitirá interagir com as APIs do Power BI. Isto é feito ao encapsular num wrapper o AccessToken com um objeto *Microsoft.Rest.TokenCredentials*.
+
+Com o seu token de acesso, irá querer criar o objeto de cliente do Power BI que lhe permitirá interagir com as APIs do Power BI. Cria o objeto de cliente do Power BI ao encapsular num wrapper o AccessToken com um objeto *Microsoft.Rest.TokenCredentials*.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -157,24 +173,38 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>Obter o item de conteúdo que pretende incorporar
-Utilize o objeto de cliente do Power BI para obter uma referência para o item que pretende incorporar. Pode incorporar dashboards, mosaicos ou relatórios. Eis um exemplo de como obter o primeiro dashboard, mosaico ou relatório a partir de uma determinada área de trabalho.
 
-Um exemplo está disponível em **Controllers\HomeController.cs** do [exemplo de App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Utilize o objeto de cliente do Power BI para obter uma referência para o item que pretende incorporar. Pode incorporar dashboards, mosaicos ou relatórios. Veja a seguir um exemplo de como obter o primeiro dashboard, mosaico ou relatório a partir de uma determinada área de trabalho.
 
-**Dashboards**
+Está disponível um exemplo em **Controllers\HomeController.cs** do [exemplo App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
+#### <a name="reports"></a>Reports
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
+
+// Get the first report in the group.
+Report report = reports.Value.FirstOrDefault();
+```
+
+#### <a name="dashboards"></a>Painéis
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 ```
 
-**Mosaico**
+#### <a name="tiles"></a>Mosaicos
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -182,43 +212,31 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // To retrieve the tile, you first need to retrieve the dashboard.
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(workspaceId);
 
 // Get the first report in the group.
 Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 // Get a list of tiles from a specific dashboard
-ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(workspaceId, dashboard.Id);
 
 // Get the first tile in the group.
 Tile tile = tiles.Value.FirstOrDefault();
 ```
 
-**Relatório**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
-
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
-
 ### <a name="create-the-embed-token"></a>Criar o token de incorporação
-É preciso gerar um token de incorporação que pode ser utilizado a partir da API JavaScript. O token de incorporação é específico do item que está a incorporar. Isto significa que sempre que incorporar um fragmento de conteúdo do Power BI, tem de criar um novo token de incorporação para o mesmo. Para obter mais informações, incluindo que **accessLevel** utilizar, veja [Token de Incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+
+Com a API JavaScript, pode gerar um token de incorporação. O token de incorporação é específico do item que está a incorporar. Sempre que incorporar um fragmento de conteúdo do Power BI, tem de criar um novo token de incorporação para o mesmo. Para obter mais informações, incluindo que **accessLevel** utilizar, veja [Token de Incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
 > Visto que os tokens de incorporação se destinam apenas a testes de programadores, o número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de incorporação de tokens. Não existe limite para a geração de tokens de incorporação quando é comprada capacidade.
 
-Um exemplo está disponível em **Controllers\HomeController.cs** do [Exemplo de incorporação para a sua organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+Está disponível um exemplo em **Controllers\HomeController.cs** do [Exemplo de incorporação para a sua organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
-Este exemplo parte do princípio de que uma classe é criada para **EmbedConfig** e **TileEmbedConfig**. Um exemplo destes estão disponíveis em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
+Este exemplo parte do princípio de que uma classe é criada para **EmbedConfig** e **TileEmbedConfig**. Está disponível um exemplo em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
 
-**Dashboard**
+#### <a name="reports"></a>Reports
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -226,7 +244,26 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = report.EmbedUrl,
+    Id = report.Id
+};
+```
+
+#### <a name="dashboards"></a>Painéis
+
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(workspaceId, dashboard.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -237,7 +274,7 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-**Mosaico**
+#### <a name="tiles"></a>Mosaicos
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -245,7 +282,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token for a tile.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(workspaceId, dashboard.Id, tile.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new TileEmbedConfig()
@@ -257,30 +294,13 @@ var embedConfig = new TileEmbedConfig()
 };
 ```
 
-**Relatório**
-
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
 ## <a name="step-4---load-an-item-using-javascript"></a>Passo 4 - carregar um item com JavaScript
+
 Pode utilizar JavaScript para carregar um dashboard para um elemento div na sua página Web. Este exemplo utiliza um modelo de EmbedConfig/TileEmbedConfig juntamente com vistas para um dashboard, mosaico ou relatório. Para obter um exemplo completo de utilização da API JavaScript, pode utilizar o [Exemplo do Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
 
 Um exemplo de aplicação está disponível em [Exemplo de incorporação para a sua organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
-**Views\Home\EmbedDashboard.cshtml**
+### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -318,7 +338,7 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 </script>
 ```
 
-**Views\Home\EmbedTile.cshtml**
+### <a name="viewshomeembedtilecshtml"></a>Views\Home\EmbedTile.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -360,7 +380,7 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 </script>
 ```
 
-**Views\Home\EmbedReport.cshtml**
+### <a name="viewshomeembedreportcshtml"></a>Views\Home\EmbedReport.cshtml
 
 ```csharp
 <script src="~/scripts/powerbi.js"></script>
@@ -403,15 +423,18 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 </script>
 ```
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 * Um exemplo de aplicação está disponível no GitHub para rever. Os exemplos acima baseiam-se nesse exemplo. Para obter mais informações, veja [Exemplo de incorporação para a sua organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
 * Para obter mais informações sobre a API JavaScript, veja [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+
 * Para obter mais informações sobre o Power BI para Germany Cloud, veja [Perguntas frequentes do Power BI para Germany Cloud](https://docs.microsoft.com/power-bi/service-govde-faq)
+
 * [Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI](migrate-from-powerbi-embedded.md)
 
 Limitações e considerações
+
 * Atualmente, as contas de GCC só suportam funcionalidades P e EM
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-

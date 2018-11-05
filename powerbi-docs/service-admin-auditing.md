@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: bc4e144fa4095f5ffc1369a9f54da12fa262f7c2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49642017"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101606"
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -132,7 +132,7 @@ A tabela seguinte fornece detalhes sobre o que pode ver apresentado.
 | Origem de dados adicionada ao gateway do Power BI |Esta atividade é registada sempre que uma origem de dados é adicionada ao gateway. |Nome do Gateway, Tipo de Gateway, Nome da Origem de Dados, Tipo de Origem de Dados |
 | Origem de dados removida do gateway do Power BI |Esta atividade é registada sempre que uma origem de dados é removida de um gateway. |Nome do Gateway, Tipo de Gateway, Nome da Origem de Dados, Tipo de Origem de Dados |
 | Administradores do gateway do Power BI alterados |Esta atividade é registada sempre que os administradores de um gateway são alterados (adicionados/removidos). |Nome do Gateway, Utilizadores Adicionados, Utilizadores Removidos |
-| Os utilizadores da origem de dados do gateway Power IB foram alterados |Esta atividade é registada sempre que os utilizadores de um gateway são alterados (adicionados/removidos). |Nome do Gateway, Utilizadores Adicionados, Utilizadores Removidos |
+| Utilizadores da origem de dados do gateway do Power BI alterados |Esta atividade é registada sempre que os utilizadores de um gateway são alterados (adicionados/removidos). |Nome do Gateway, Utilizadores Adicionados, Utilizadores Removidos |
 | SetScheduledRefresh |Esta atividade é registada sempre que uma nova atualização está agendada para um conjunto de dados. |Nome do Conjunto de Dados, Frequência de Atualização (em minutos) |
 
 ## <a name="using-powershell-to-search"></a>Utilizar o PowerShell para fazer pesquisas

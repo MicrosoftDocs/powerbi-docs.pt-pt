@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
-ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
+ms.openlocfilehash: 183b1e51f933fc8dc439e5f8b0f434e8366e9794
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42703012"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101445"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 
@@ -186,7 +186,7 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
-[Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

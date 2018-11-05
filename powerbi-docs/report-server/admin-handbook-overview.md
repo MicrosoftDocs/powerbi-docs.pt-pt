@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721921"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100617"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Descrição geral de administração, Power BI Report Server
-Este artigo é a descrição geral da administração do Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI. Este artigo apresenta os conceitos de planeamento, implementação e gestão do seu Power BI Report Server, com ligações para obter mais informações.
+Este artigo é a descrição geral da administração do Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI. Este artigo apresenta os conceitos de planeamento, implementação e gestão do Power BI Report Server, com ligações para obter mais informações.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
@@ -28,7 +28,7 @@ Tem de instalar o Power BI Report Server para começar a utilizá-lo. Temos arti
 
 Antes de começar a instalar, atualizar ou migrar para o Power BI Report Server, veja os [requisitos de sistema](system-requirements.md) do servidor de relatórios.
 
-### <a name="installing"></a>Instalação
+### <a name="installing"></a>Installing
 Se estiver a implementar um novo Power BI Report Server, utilize o seguinte documento para ajudá-lo. 
 
 [Instalar o Power BI Report Server](install-report-server.md)
@@ -39,18 +39,18 @@ Não é necessário atualizar para o SQL Server Reporting Services. Se tiver uma
 [Migrar uma instalação do servidor de relatórios](migrate-report-server.md)
 
 ## <a name="configuring-your-report-server"></a>Configurar o servidor de relatórios
-Tem várias opções de configuração do servidor de relatórios. Irá utilizar SSL? Está a configurar um servidor de e-mail? Quer integrar no serviço Power BI para afixar visualizações?
+Tem várias opções de configuração do servidor de relatórios. Irá utilizar SSL? Está a configurar um servidor de e-mail? Quer integrar no serviço Power BI para afixar visualizações?
 
 A maioria da configuração irá ocorrer no Gestor de Configuração do Servidor de Relatórios. Veja a documentação do [gestor de configuração](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) para obter mais detalhes.
 
 ## <a name="security"></a>Segurança
-A segurança e proteção são importantes para todas as organizações. Pode saber mais sobre autenticação, autorização, funções e permissões ao longo da documentação de [segurança](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection).
+A segurança e proteção são importantes para todas as organizações. Pode saber mais sobre a autenticação, a autorização, as funções e as permissões na documentação de [segurança](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection).
 
 ## <a name="next-steps"></a>Próximos passos
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Encontrar a chave de produto do servidor de relatórios](find-product-key.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
-[Instalar o Report Builder](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
