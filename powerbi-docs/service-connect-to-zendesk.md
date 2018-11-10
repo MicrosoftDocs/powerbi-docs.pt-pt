@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5b469c506a29778ea34216b09bde90ed5f1d4345
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136025"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544722"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Ligue-se ao Zendesk com Power BI
 O pacote de conteúdos do Zendesk oferece um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre os volumes de pedidos e o desempenho do agente. Pode utilizar o dashboard e os relatórios fornecidos, ou então personalizá-los para destacar as informações que mais interessam.  Os dados são atualizados automaticamente uma vez por dia. 
@@ -35,10 +35,10 @@ Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/se
 3. Selecione **Zendesk** \> **Obter.**
    
    ![](media/service-connect-to-zendesk/zendesk.png)
-4. Forneça o URL associado à sua conta. O URL terá o formato **https://company.zendesk.com**. Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
+4. Forneça o URL associado à sua conta. O URL terá o formato **https://company.zendesk.com**. Veja os detalhes sobre como [encontrar os parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
-5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Entrar**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
+5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Iniciar Sessão**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
    
    > [!NOTE]
    > Este pacote de conteúdo requer a conexão com uma conta de Administrador do Zendesk. 
@@ -49,16 +49,16 @@ Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/se
 6. Clique em **Permitir** para permitir que o Power BI aceda aos seus dados do Zendesk.
    
    ![](media/service-connect-to-zendesk/zendesk2.jpg)
-7. Clique em **Conectar** para iniciar o processo de importação. Depois do Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
+7. Clique em **Conectar** para iniciar o processo de importação. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos do Power BI inclui dados sobre o seguinte:  
@@ -72,18 +72,18 @@ Há também um conjunto de medidas que foram calculadas, como tempo médio de es
 
 <a name="Requirements"></a>
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 Uma conta de administrador do Zendesk é necessária para aceder ao pacote de conteúdos do Zendesk. Se é um agente ou um utilizador final e estiver interessado em ver os seus dados no Zendesk, adicione uma sugestão e examine o conector do Zendesk no [Power BI Desktop](desktop-connect-to-data.md).
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>A localizar parâmetros
+## <a name="finding-parameters"></a>Encontrar parâmetros
 O URL do Zendesk vai ser igual ao URL que utiliza para se ligar à sua conta do Zendesk. Se não se lembrar do URL do Zendesk, utilize a [ajuda de início de sessão](https://www.zendesk.com/login/) do Zendesk.
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Se estiver com problemas para se ligar, verifique o URL do Zendesk e confirme que está a utilizar uma conta de administrador do Zendesk.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [O que é o Power BI?](power-bi-overview.md)
 * [Obter Dados](service-get-data.md)
 

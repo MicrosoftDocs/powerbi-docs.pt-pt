@@ -1,5 +1,5 @@
 ---
-title: Adicionar parâmetros de relatórios do Power BI através do URL
+title: Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 description: Filtre um relatório através de parâmetros de cadeias de consulta de URL e, se pretender, filtre com base em mais de um campo.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,24 +9,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232932"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973379"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
-Quando abrir um relatório no serviço Power BI, cada página do relatório tem um URL exclusivo. Para filtrar essa página de relatório, pode utilizar o painel Filtros na tela de relatório.  Também pode adicionar parâmetros de cadeia de consulta ao URL para pré-filtrar o relatório. Pode ter um relatório que pretenda mostrar aos colegas e pré-preenchê-lo para os mesmos. Uma forma de o fazer é começar pelo URL predefinido do relatório, adicionar os parâmetros do filtro ao URL e, em seguida, enviar-lhes todo o novo URL por e-mail.
+Quando abrir um relatório no serviço Power BI, cada página do relatório tem um URL exclusivo. Para filtrar essa página de relatório, pode utilizar o painel Filtros na tela de relatório.  Também pode adicionar parâmetros de cadeia de consulta ao URL para pré-filtrar o relatório. Pode ter um relatório que pretenda mostrar aos colegas e pré-preenchê-lo para os mesmos. Uma forma de filtrar é começar pelo URL predefinido do relatório, adicionar os parâmetros do filtro ao URL e, em seguida, enviar-lhes todo o novo URL por e-mail.
 
 ![relatório do Power BI no serviço](media/service-url-filters/power-bi-report2.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Utilizações dos parâmetros de cadeia de consulta
 
-Imagine que está a trabalhar no Power BI Desktop e que pretende criar um relatório com ligações para outros relatórios do Power BI, mas que apenas quer mostrar algumas das informações nos outros relatórios. Em primeiro lugar, filtre os relatórios através de parâmetros de cadeia de consulta e guarde os URLs. A seguir, crie uma tabela no Power BI Desktop com os novos URLs do relatório.  Em seguida, publique e partilhe o relatório.
+Imagine que está a trabalhar no Power BI Desktop. Pretende criar um relatório com ligações para outros relatórios do Power BI, mas apenas quer mostrar algumas das informações nos outros relatórios. Em primeiro lugar, filtre os relatórios através de parâmetros de cadeia de consulta e guarde os URLs. A seguir, crie uma tabela no Power BI Desktop com os novos URLs do relatório.  Em seguida, publique e partilhe o relatório.
 
 Outra utilização dos parâmetros de cadeia de consulta é a criação de uma solução avançada do Power BI.  Ao utilizar o DAX, este cria um relatório que, por sua vez, gera um URL de relatório filtrado que muda de forma dinâmica com base na seleção que o respetivo cliente fizer no relatório atual. Quando os clientes selecionam o URL, eles veem apenas as informações pretendidas. 
 
@@ -43,7 +43,7 @@ URL?filter=***Tabela***/***Campo*** eq '***valor***'
 
 ### <a name="field-types"></a>Tipos de campo
 
-O tipo de campo pode ser um número, um valor datetime ou uma cadeia e o tipo utilizado tem de corresponder ao que foi definido no conjunto de dados.  Por exemplo, especificar a coluna de tabela do tipo "cadeia" não irá funcionar se estiver à procura de um valor datetime ou numérico numa coluna do conjunto de dados definida como uma data (por exemplo, Tabela/ColunaDeCadeia eq 1).
+O tipo de campo pode ser um número, um valor datetime ou uma cadeia e o tipo utilizado tem de corresponder ao que foi definido no conjunto de dados.  Por exemplo, especificar a coluna de tabela do tipo "cadeia" não irá funcionar se estiver à procura de um valor datetime ou numérico numa coluna do conjunto de dados definida como uma data, como Tabela/ColunaDeCadeia eq 1.
 
 * As **cadeias** têm de estar entre plicas – 'nome do gestor'.
 * Os **números** não requerem qualquer formatação especial
@@ -85,7 +85,7 @@ Pode também filtrar em múltiplos campos ao adicionar mais parâmetros ao seu U
 ?filter=Store/Territory eq 'NC'
 ```
 
-Para filtrar em campos adicionais, adicione um **and** e outro campo no mesmo formato que o anterior. Eis um exemplo.
+Para filtrar em campos adicionais, adicione um "**and**" e outro campo no mesmo formato que o anterior. Eis um exemplo.
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -95,7 +95,7 @@ Para filtrar em campos adicionais, adicione um **and** e outro campo no mesmo fo
 
 ## <a name="operators"></a>Operadores
 
-O Power BI suporta vários operadores para além do operador **and**. A tabela abaixo apresenta uma lista desses operadores, juntamente com o tipo de conteúdos que os mesmos suportam.
+O Power BI suporta vários operadores para além do operador "**and**". A tabela abaixo apresenta uma lista desses operadores, juntamente com o tipo de conteúdos que os mesmos suportam.
 
 |operador  | definição | cadeia  | número | Data |  Exemplo|
 |---------|---------|---------|---------|---------|---------|
@@ -125,7 +125,7 @@ Um filtro de URL do Power BI pode incluir números nos seguintes formatos.
 
 ### <a name="date-data-types"></a>Tipos de dados de data
 
-O Power BI suporta o OData V3 e V4 para os tipos de dados **Data** e **DateTimeOffset**.  As datas são representadas através do formato EDM (2019-02-12T00:00:00). Isto significa que ao especificar a data como AAAA-MM-DD, o Power BI interpreta-a como AAAA-MM-DDT00:00:00.
+O Power BI suporta o OData V3 e V4 para os tipos de dados **Data** e **DateTimeOffset**.  As datas são representadas através do formato EDM (2019-02-12T00:00:00), por isso, quando especifica uma data como AAAA-MM-DD, o Power BI interpreta-a como AAAA-MM-DDT00:00:00.
 
 Por que motivo esta distinção é importante? Imaginemos que criou o parâmetro de cadeia de consulta **Tabela/Data gt 2018-08-03**.  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? Uma vez que o Power BI traduz a sua consulta para **Tabela/Data gt 2018-08-03T00:00:00**, os resultados incluem todas as datas que tiverem uma parte de hora diferente de zero, uma vez que essas datas seriam maiores do que **2018-08-03T00:00:00**.
 
@@ -159,17 +159,18 @@ Publique o relatório no serviço Power BI e, em seguida, utilize a cadeia de co
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Afixar um mosaico de um relatório filtrado
 
-Após filtrar o relatório através de parâmetros de cadeia de consulta, pode afixar visualizações desse relatório ao seu dashboard.  O mosaico no dashboard mostra os dados filtrados e selecionar esse mosaico de dashboard abre o relatório que foi utilizado para criá-lo.  No entanto, a filtragem que fez através do URL não é guardada com o relatório e, quando o mosaico do dashboard é selecionado, o relatório permanece no seu estado não filtrado.  Isto significa que os dados apresentados no mosaico de dashboard não correspondem aos dados apresentados na visualização de relatório.
+Após filtrar o relatório através de parâmetros de cadeia de consulta, pode afixar visualizações desse relatório ao seu dashboard.  O mosaico no dashboard mostra os dados filtrados e selecionar esse mosaico de dashboard abre o relatório que foi utilizado para criá-lo.  No entanto, a filtragem que fez com o URL não é guardada com o relatório. Ao selecionar o mosaico de dashboard, o relatório é aberto no estado não filtrado.  Assim, os dados apresentados no mosaico de dashboard não correspondem aos dados apresentados na visualização de relatório.
 
-Isto é útil quando pretende ver resultados diferentes; filtrado no dashboard e não filtrado no relatório.
+Esta discrepância é útil quando pretende ver resultados diferentes: filtrados no dashboard e não filtrados no relatório.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
 Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de consulta.
 
 * Ao utilizar o operador *in*, os valores à direita de *in* têm de ser uma lista separada por vírgulas entre parênteses.    
-* No Servidor de Relatórios do Power BI, pode [transmitir parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) ao incluí-los num URL de relatório. Estes parâmetros de URL não têm prefixos porque são transmitidos diretamente para o motor de processamento de relatórios.
-* A filtragem de cadeia de consulta não funciona com a opção [Publicar na Web](service-publish-to-web.md) nem no Power BI Embedded.   
+* No Servidor de Relatórios do Power BI, pode [transmitir parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) ao incluí-los num URL de relatório. Estes parâmetros de URL não têm prefixos porque são transmitidos diretamente ao motor de processamento de relatórios.
+* A filtragem de cadeia de consulta não funciona em [Publicar na Web](service-publish-to-web.md).
+* [Incorporar com peças Web de relatórios no SharePoint Online](service-embed-report-spo.md) não suporta filtros de URL.
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.
 * Os filtros de URL de relatório têm um limite de 10 expressões (10 filtros ligados por AND).
 

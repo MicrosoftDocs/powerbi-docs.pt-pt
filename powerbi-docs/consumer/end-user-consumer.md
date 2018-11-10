@@ -6,15 +6,15 @@ manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 08/16/2018
+ms.date: 10/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 17bf013b9d33c0c4b3ab7e124c7ddda0c3986df3
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 15cdd66e6062c4199b2f736208192c452bcbd0af
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418693"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396609"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI para consumidores
 A forma como interage com o Power BI irá depender da sua função. Um *utilizador final*, ou *consumidor*, é a pessoa que recebe dashboards, relatórios e aplicações de colegas. Trabalha no ***serviço Power BI*** para rever e interagir com estes conteúdos para tomar decisões de negócios.
@@ -26,4 +26,11 @@ Se estiver a utilizar o Power BI pela primeira vez, recomendamos que leia primei
 Enquanto consumidor, não terá acesso a todas as funcionalidades do Power BI, o que não é problema, porque a sua tarefa não se baseia em criar dashboards e relatórios. A sua tarefa consiste em utilizar o Power BI para análise, monitorização, exploração e tomada de decisões.
 
 Ao ler os artigos para os consumidores, irá aprender a terminologia, obter uma apresentação do serviço Power BI, descobrir como navegar para os conteúdos e, em seguida, aprender a interagir com esses conteúdos.  Vamos então começar!
+
+## <a name="next-steps"></a>Próximos passos
+
+[Terminologia e conceitos para os *consumidores* do Power BI ](end-user-basic-concepts.md)
+
+<!-- [Get started guide for *consumers*] -->
+[Introdução à utilização do serviço Power BI](../service-get-started.md)
 

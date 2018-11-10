@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246915"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546769"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Ligar-se ao Xero com o Power BI
 O Xero é um software de contabilidade online fácil de utilizar e especificamente concebido para as pequenas empresas. Crie visualizações apelativas com base nos seus dados financeiros do Xero através deste pacote de conteúdos do Power BI. O seu dashboard predefinido inclui muitas métricas para pequenas empresas, como fundo de maneio, receita versus despesa, tendência de perda de lucro, dias de vencimento e retorno sobre o investimento.
@@ -46,10 +46,10 @@ Ligue-se ao [Pacote de conteúdos do Xero](https://app.powerbi.com/getdata/servi
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O dashboard do pacote de conteúdos inclui mosaicos e métricas que abrangem uma variedade de áreas, com relatórios correspondentes para saber mais:  
@@ -85,7 +85,7 @@ As seguintes funções são necessárias para ter acesso ao pacote de conteúdos
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Parâmetros de localização
+## <a name="finding-parameters"></a>Encontrar parâmetros
 Indique um nome da sua organização para a controlar no Power BI. Isto permite-lhe ligar-se a múltiplas organizações diferentes. Note que não pode ligar-se à mesma organização várias vezes, pois irá interferir com a atualização agendada.   
 
 ## <a name="troubleshooting"></a>Resolução de problemas
@@ -97,7 +97,7 @@ Indique um nome da sua organização para a controlar no Power BI. Isto permite-
 
 Para outros problemas, envie um pedido em http://support.powerbi.com, se o problema persistir.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

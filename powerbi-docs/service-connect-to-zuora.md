@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 48246d61789a0b1e160109c1f2fb0e81838b3965
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280323"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003231"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Ligue-se ao Zuora com o Power BI
 O Zuora para o Power BI permite que visualize dados importantes de receitas, faturação e subscrição. Utilize o dashboard e os relatórios predefinidos para analisar tendências de utilização, acompanhar cobranças e pagamentos e monitorizar receitas recorrentes ou personalizá-las para atender às suas necessidades exclusivas do dashboard e do relatório.
@@ -32,7 +32,7 @@ Ligue-se ao [Zuora](https://app.powerbi.com/getdata/services/Zuora) para o Power
 3. Selecione **Zuora** \>  **Obter**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Especifique o URL do Zuora. Geralmente, o URL é "<https://www.zuora.com>". Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
+4. Especifique o URL do Zuora. Geralmente, o URL é “<https://www.zuora.com>”. Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
 
    ![](media/service-connect-to-zuora/params.png)
 5. Para o **Método de Autenticação**, selecione **Básico** e forneça o seu nome de utilizador e a sua palavra-passe (diferencia maiúsculas de minúsculas) e selecione **Iniciar Sessão**.
@@ -44,10 +44,10 @@ Ligue-se ao [Zuora](https://app.powerbi.com/getdata/services/Zuora) para o Power
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos utiliza a API AQUA do Zuora para efetuar pull das seguintes tabelas:
@@ -95,11 +95,10 @@ Também inclui as medidas calculadas abaixo:
 Forneça o URL com a qual se liga normalmente para aceder aos seus dados do Zuora. As opções válidas são:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * O URL correspondente à instância do serviço  
 
 ## <a name="troubleshooting"></a>Resolução de problemas
-O pacote de conteúdos do Zuora mantém vários aspetos diferentes da sua conta do Zuora. Se não utilizar determinadas funcionalidades, pode ver os mosaicos/relatórios correspondentes vazios. Se tiver problemas ao carregar, contacte o Suporte do Power BI.
+O pacote de conteúdos do Zuora mantém vários aspetos diferentes da sua conta do Zuora. Se não utilizar determinadas funcionalidades, poderá ver os mosaicos/relatórios correspondentes vazios. Contacte o Suporte do Power BI se tiver problemas ao carregar.
 
 ## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)

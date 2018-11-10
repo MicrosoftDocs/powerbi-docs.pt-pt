@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153754"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223145"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
 
-Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Tem de fazer alguns preparativos para o poder fazer. Para obter mais informações sobre como criar um elemento visual personalizado, veja [Desenvolver um Elemento Visual Personalizado do Power BI](custom-visual-develop-tutorial.md).
+Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Tem de fazer alguns preparativos para o poder fazer. Para obter mais informações sobre como criar um elemento visual personalizado, veja Desenvolver um [Elemento Visual Personalizado do Power BI](custom-visual-develop-tutorial.md).
 
    ![Loja do Office](media/office-store/AppSource_01.jpg)
 
@@ -78,7 +78,7 @@ Siga os passos abaixo para concluir a submissão.
 
 3. Selecione o símbolo **+** em **Pacote de aplicação** e, em seguida, selecione o ficheiro XML do pacote de aplicação que recebeu da equipa do Power BI na caixa de diálogo para abrir o ficheiro.
 
-    ![Pacote da aplicação](media/office-store/powerbi-custom-visual-apppackage.png)
+    ![Pacote de aplicações](media/office-store/powerbi-custom-visual-apppackage.png)
 
 4. Deverá receber uma aprovação de que se trata de um pacote de aplicação válido do Power BI.
 
@@ -110,7 +110,7 @@ Siga os passos abaixo para concluir a submissão.
 
 9. Selecione **Idioma** e escolha um idioma na lista.
 
-    ![Linguagem](media/office-store/powerbi-custom-visual-language.png)
+    ![Idioma](media/office-store/powerbi-custom-visual-language.png)
 
 10. Preencha os detalhes de "Descrição".
 
@@ -145,9 +145,9 @@ Após a submissão, poderá ver o estado da submissão no [dashboard da aplicaç
 
 Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, consulte [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
-[Utilizar ferramentas de programador para criar elementos visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)  
 [Visualizações no Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizações Personalizadas no Power BI](../power-bi-custom-visuals.md)  
 [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md)

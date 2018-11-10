@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565941"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101376"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Utilizar o elemento visual Matriz no Power BI Desktop
-Com a funcionalidade visual **Matriz**, pode criar elementos visuais de matriz (por vezes, também designados *tabelas*) em relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros elementos visuais. Além disso, pode selecionar linhas, colunas, células individuais e realces cruzados. Por último, para garantir uma melhor utilização do espaço de esquema, o elemento visual de matriz suporta um esquema gradual.
+Com a funcionalidade do elemento visual **Matriz**, pode criar elementos visuais de matriz (por vezes, também designados *tabelas*) em relatórios do **Power BI Desktop** e do **serviço Power BI** e realçar de forma cruzada os elementos com outros elementos visuais. Além disso, pode selecionar linhas, colunas, células individuais e realces cruzados. Pode copiar e colar células individuais e múltiplas seleções de célula noutras aplicações. Por último, para garantir uma melhor utilização do espaço de esquema, o elemento visual de matriz suporta um esquema gradual.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 Existem muitas funcionalidades associadas à matriz e vamos analisá-las nas secções seguintes deste artigo.
 
-> [!NOTE]
-> A partir da versão de julho de 2017 do **Power BI Desktop**, os elementos visuais de matriz e tabela refletem o estilo (incluindo cores) do **Tema de Relatório** aplicado. Podem não ser as cores esperadas para o elemento visual de matriz, que pode alterar na configuração do **Tema de Relatório**. Veja [**Utilizar Temas de Relatório no Power BI Desktop**](../desktop-report-themes.md) para obter mais informações sobre temas.
-> 
-> 
+## <a name="report-themes"></a>Temas de relatórios
+Os elementos visuais de matriz e de tabela refletem o estilo (incluindo as cores) do **Tema de Relatório** aplicado. Podem não ser as cores esperadas para o elemento visual de matriz, que pode alterar na configuração do **Tema de Relatório**. Para obter mais informações sobre temas, veja [**Utilizar Temas de Relatório no Power BI Desktop**](../desktop-report-themes.md).
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Compreender como o Power BI calcula os totais
 
@@ -66,7 +64,7 @@ Além de utilizar estes ícones, pode clicar com o botão direito do rato em qua
 
 Tenha em atenção que existem algumas opções no menu apresentado, mas que geram resultados diferentes:
 
-Selecionar **Desagregar** expande a matriz para *esse* nível de linha e *exclui* todos os outros cabeçalhos de linha, exceto o cabeçalho de linha clicado com o botão direito do rato. Na imagem seguinte, *Computadores* foi clicado com o botão direito do rato e foi selecionado **Desagregar**. Tenha em atenção que outras linhas de nível superior já não aparecem na matriz. Esta é uma funcionalidade útil e torna-se especialmente útil quando chegamos à secção **realce cruzado**.
+Selecionar **Desagregar** expande a matriz para *esse* nível de linha e *exclui* todos os outros cabeçalhos de linha, exceto o cabeçalho de linha clicado com o botão direito do rato. Na imagem seguinte, *Computadores* foi clicado com o botão direito do rato e foi selecionado **Desagregar**. Tenha em atenção que outras linhas de nível superior já não aparecem na matriz. Esta forma de explorar é uma funcionalidade útil e torna-se especialmente útil quando chegamos à secção **realce cruzado**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
@@ -74,7 +72,7 @@ Pode clicar no ícone **Agregar** para voltar à vista de nível superior anteri
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Quando clica no ícone **Agregar** no canto superior esquerdo para que a matriz mostre todas as categorias de nível superior e, em seguida, clica novamente com o botão direito do rato e seleciona **Expandir para o nível seguinte**, verá o seguinte:
+Quando clica no ícone **Agregar** no canto superior esquerdo para que a matriz mostre todas as categorias de nível superior e, em seguida, clica novamente com o botão direito do rato e seleciona **Expandir para o nível seguinte**, verá o seguinte elemento visual.
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -103,7 +101,7 @@ Os restantes itens do menu de contexto funcionam em colunas da mesma forma que p
 ## <a name="stepped-layout-with-matrix-visuals"></a>Esquema gradual com elementos visuais de matriz
 O elemento visual **Matriz** avança automaticamente as subcategorias numa hierarquia por baixo de cada categoria principal, o que é designado por **Esquema gradual**.
 
-Na versão *original* do elemento visual de matriz, as subcategorias foram mostradas numa coluna completamente diferente, o que ocupa muito mais espaço no elemento visual. A imagem seguinte mostra a tabela no elemento visual **Matriz** original; repare nas subcategorias numa coluna completamente separada.
+Na versão *original* do elemento visual de matriz, as subcategorias foram mostradas numa coluna completamente diferente, o que ocupa muito mais espaço no elemento visual. A imagem seguinte mostra a tabela no elemento visual **Matriz** original. Repare nas subcategorias numa coluna separada.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
@@ -129,11 +127,25 @@ Na secção **Formatar** do painel **Visualizações**, expanda o cartão **Subt
 É aplicado o mesmo processo aos subtotais da coluna.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Realce cruzado com elementos visuais de matriz
-Com o elemento visual **Matriz**, pode selecionar quaisquer elementos na matriz como base para o realce cruzado. Selecione uma coluna numa **Matriz** e essa coluna fica realçada, como quaisquer outros elementos visuais na página de relatório. Esta foi uma funcionalidade comum de outros elementos visuais e de seleções de ponto de dados, pelo que, agora o elemento visual **Matriz** oferece a mesma função.
+Com o elemento visual **Matriz**, pode selecionar quaisquer elementos na matriz como base para o realce cruzado. Selecione uma coluna numa **Matriz** e essa coluna fica realçada, como quaisquer outros elementos visuais na página de relatório. Este tipo de realce cruzado foi uma funcionalidade comum de outros elementos visuais e de seleções de ponto de dados, pelo que, agora o elemento visual **Matriz** oferece a mesma função.
 
 Além disso, a combinação Ctrl+Clique também funciona no realce cruzado. Por exemplo, na imagem seguinte, foi selecionada uma coleção de subcategorias a partir do elemento visual **Matriz**. Repare como os itens que não foram selecionados a partir do elemento visual estão desativados e como os outros elementos visuais na página refletem as seleções efetuadas no elemento visual **Matriz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Copiar valores do Power BI para utilizar noutras aplicações
+
+A matriz ou a tabela pode ter conteúdos que quer utilizar noutras aplicações, como o Dynamics CRM, o Excel e até mesmo noutros relatórios do Power BI. Ao clicar com o botão direito do rato no Power BI, pode copiar uma única célula ou uma seleção de células para a área de transferência e colar noutra aplicação.
+
+![opções de cópia](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* Para copiar o valor de uma única célula, selecione a célula, clique com o botão direito do rato e escolha **Copiar valor**. Com o valor da célula não formatado na área de transferência, pode agora colá-lo noutra aplicação.
+
+    ![opções de cópia](media/desktop-matrix-visual/power-bi-copy.png)
+
+* Para copiar mais do que uma célula, selecione um intervalo de células ou utilize CTRL para selecionar uma ou mais células. A cópia incluirá os cabeçalhos de coluna e de linha.
+
+    ![colar no Excel](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Sombreado e cores de tipo de letra com elementos visuais de matriz
 Com o elemento visual **Matriz**, pode aplicar **Formatação condicional** (cores e sombreado) ao fundo das células na matriz, bem como ao texto e aos valores.
@@ -153,10 +165,6 @@ Qualquer uma das abordagens alcança o mesmo resultado. Selecionar *Controlos av
 
 ## <a name="next-steps"></a>Próximos passos
 
-Poderá também estar interessado nos seguintes artigos:
+[Gráficos de dispersão e de bolhas no Power BI](power-bi-visualization-scatter.md)
 
-* [Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop](../desktop-gridlines-snap-to-grid.md)
-* [Origens de dados no Power BI Desktop](../desktop-data-sources.md)
-* [Tipos de dados no Power BI Desktop](../desktop-data-types.md)
-
- 
+[Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

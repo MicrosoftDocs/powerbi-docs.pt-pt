@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69c0e6d253a1d8d8ecad9f562c0b992c01d4d577
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547145"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223330"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
@@ -125,7 +125,7 @@ Existem algumas limitações e considerações a ter em conta relativamente às 
 
 * A partir da versão de setembro de 2018 do **Power BI Desktop**, que assinalou a disponibilidade das descrições para o público, os elementos visuais Cartão também suportarão descrições.
 * A partir da versão de julho de 2018 do **Power BI Desktop**, os elementos visuais Tabela e Matriz têm suporte para descrições. 
-* As descrições de relatórios não são suportadas ao visualizar relatórios em aplicações para dispositivos móveis ou ambientes incorporados, incluindo a funcionalidade Publicar na Web. 
+* As descrições de relatórios não são suportadas durante a visualização de relatórios em aplicações móveis. 
 * As descrições de relatórios não são suportadas para elementos visuais personalizados. 
 * Atualmente, os clusters não são suportados como campos que podem ser apresentados em descrições de relatórios. 
 * Ao selecionar um campo a apresentar em descrições de relatórios, se utilizar um campo em vez de uma categoria, os elementos visuais que contêm esse campo só mostrarão a descrição especificada quando o resumo do campo selecionado corresponder. 

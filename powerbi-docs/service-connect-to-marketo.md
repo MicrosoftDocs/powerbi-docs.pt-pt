@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135266"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545694"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Ligue-se ao Marketo com o Power BI
 O pacote de conteúdos do Power BI para o Marketo permite que obtenha informações sobre a sua conta do Marketo com dados sobre clientes potenciais e as suas atividades. A criação dessa ligação recupera os seus dados e fornece automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -48,10 +48,10 @@ Ligue-se ao [Pacote de conteúdos do Marketo](https://app.powerbi.com/getdata/se
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 Os dados a seguir estão disponíveis no Marketo no Power BI em que a atividade ocorreu entre hoje e um ano atrás:
@@ -66,7 +66,7 @@ Os dados a seguir estão disponíveis no Marketo no Power BI em que a atividade 
 
 Todas as datas são em formato UTC. Dependendo do fuso horário em que está a conta, as datas podem variar (semelhante ao que é visto no cliente do Marketo)
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 * A conta do Marketo que utiliza para ligar-se tem permissão para aceder a clientes potenciais e atividades.
 * Chamadas à API suficientes disponíveis para se ligar aos dados.  O Marketo tem uma API para cada conta.  Quando o limite for atingido, não poderá carregar dados no Power BI. 
 
@@ -85,7 +85,7 @@ A quantidade de chamadas de API que o Power BI realiza para o Marketo depende da
 | Alterações no programa |7.500 |50 |
 | **Total de Chamadas à API** | |**2,200** |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)

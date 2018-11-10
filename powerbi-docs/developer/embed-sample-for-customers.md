@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827439"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435494"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: incorporar um relatório, dashboard ou mosaico do Power BI numa aplicação para os seus clientes
 
@@ -36,7 +36,7 @@ Para começar, precisa de uma conta do **Power BI Pro** (esta é a sua **conta p
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configurar o ambiente de desenvolvimento de análise incorporada
 
-Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente está configurado para permitir a incorporação. Como parte da configuração, tem de fazer o seguinte.
+Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente permite a incorporação com o Power BI.
 
 Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/AppOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório.
 
@@ -44,7 +44,7 @@ No entanto, se optar por configurar o ambiente manualmente, pode continuar abaix
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registar uma aplicação no Azure Active Directory (Azure AD)
 
-Pode registar a aplicação com o Azure Active Directory para permitir que a aplicação aceda às APIs REST do Power BI. Este procedimento permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
+Pode registar a aplicação com o Azure Active Directory para permitir que a aplicação aceda às APIs REST do Power BI. O registo da aplicação permite-lhe estabelecer uma identidade para a sua aplicação e especificar permissões para recursos REST do Power BI.
 
 1. Aceite os [Termos da API do Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
@@ -63,7 +63,7 @@ Pode registar a aplicação com o Azure Active Directory para permitir que a apl
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Aplicar permissões à sua aplicação no Azure Active Directory
 
-Tem de ativar permissões adicionais para a sua aplicação, além do que foi fornecido na página de registo de aplicações. Precisa de ter sessão iniciada com a conta *mestre* utilizada para incorporar, que tem de ser uma conta de administrador global.
+Ative permissões adicionais para a sua aplicação, além do que foi fornecido na página de registo de aplicações. Inicie sessão com a conta *principal* que está a utilizar para a incorporação. A conta principal tem de ser uma conta de administrador global.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Utilizar o portal do Azure Active Directory
 
@@ -91,7 +91,7 @@ Tem de ativar permissões adicionais para a sua aplicação, além do que foi fo
 
     ![Selecionar Serviços PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. Selecione todas as permissões em **Permissões Delegadas**. Tem de as selecionar uma a uma para guardar as seleções. Selecione **Guardar** quando terminar.
+7. Selecione todas as permissões em **Permissões Delegadas**. Selecione **Guardar** quando terminar.
 
     ![Selecionar permissões delegadas](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -103,15 +103,15 @@ Tem de ativar permissões adicionais para a sua aplicação, além do que foi fo
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
+### <a name="create-an-app-workspace"></a>Criar uma área de trabalho da aplicação
 
 Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, tem de colocar o conteúdo dentro de uma área de trabalho de aplicação. A conta *mestre* tem de ser um administrador da área de trabalho de aplicação.
 
-1. Comece por criar a área de trabalho. Selecione **áreas de trabalho** > **Criar área de trabalho de aplicação**. Este é o local onde deve colocar os conteúdos a que a sua aplicação precisa de aceder.
+1. Comece por criar a área de trabalho. Selecione **áreas de trabalho** > **Criar área de trabalho de aplicação**. Em Criar área de trabalho de aplicação, coloque os conteúdos aos quais a sua aplicação precisa de aceder.
 
     ![Criar Área de Trabalho](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Atribua um nome à área de trabalho. Se o **ID da área de trabalho** correspondente não estiver disponível, edite-o para obter um ID exclusivo. Este também tem de ser o nome da aplicação.
+2. Atribua um nome à área de trabalho. Se o **ID da área de trabalho** correspondente não estiver disponível, edite-o para obter um ID exclusivo.
 
     ![Atribuir nome a Área de Trabalho](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,31 +161,31 @@ Siga estes passos para começar a incorporar os seus conteúdos através de uma 
 
     ![Exemplo de aplicação Os Dados Pertencem à Aplicação](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Abra o ficheiro Web.config da aplicação de exemplo. Existem 5 campos que tem de preencher para executar a aplicação com êxito. O **clientID**, o **groupId**, o **reportId**, o **pbiUsername** e o **pbiPassword**.
+2. Abra o ficheiro Web.config da aplicação de exemplo. Existem cinco campos que tem de preencher para executar a aplicação com êxito: **applicationId**, **workspaceId**, **reportId**, **pbiUsername** e **pbiPassword**.
 
     ![Ficheiro Web Config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Preencha as informações de **clientId** com o **ID da Aplicação** do **Azure**. O **clientId** serve para a aplicação se identificar aos utilizadores aos quais está a pedir permissões. Para obter o **clientId**, siga estes passos:
+    Preencha as informações de **applicationId** com o **ID da Aplicação** do **Azure**. O **applicationId** serve para a aplicação se identificar junto dos utilizadores aos quais está a pedir permissões. Para obter o **applicationId**, siga estes passos:
 
     Inicie sessão no [portal do Azure](https://portal.azure.com).
 
     ![Portal do Azure Principal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    No painel de navegação à esquerda, escolha **Todos os Serviços** e selecione **Registos de Aplicação**.
+    No painel de navegação à esquerda, selecione **Todos os serviços** e **Registos de aplicações**.
 
     ![Pesquisa de registo de aplicações](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Selecione a aplicação em que pretende obter o **clientId**.
+    Selecione a aplicação para a qual pretende obter o **applicationId**.
 
     ![Escolher Aplicação](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    Deverá ver um **ID da Aplicação** que está listado como um GUID. Utilize este **ID da Aplicação** como o **clientId** para a aplicação.
+    Deverá ver um **ID da Aplicação** que está listado como um GUID. Utilize este **ID da Aplicação** como o **applicationId** da aplicação.
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Preencha as informações do **groupId** com o **GUID da área de trabalho de aplicação** do Power BI.
+    Preencha as informações do **workspaceId** com o **GUID da área de trabalho de aplicação** do Power BI.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     Preencha as informações do **reportId** com o **GUID de relatório** do Power BI.
 
@@ -242,8 +242,8 @@ Eis um exemplo de código de como obter o primeiro relatório a partir de uma de
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,7 +339,7 @@ Utilize a tabela abaixo para determinar que capacidade do Power BI Embedded melh
 
 | Nó de Capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de Back-end | Núcleos de Front-end | Limites do DirectQuery/ligação em direto | Composição máxima de páginas em hora de ponta |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 núcleo virtual |5 núcleos, 3 GB de RAM |.5 núcleos | 5 por segundo |1-300 |
+| A1 |1 núcleo virtual |0,5 núcleos, 3 GB de RAM |0,5 núcleos |5 por segundo |1-300 |
 | A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |301-600 |
 | A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |601-1200 |
 | A4 |8 núcleos virtuais |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1,201-2,400 |
@@ -364,7 +364,7 @@ Assim que criar a capacidade dedicada, pode atribuir a área de trabalho da sua 
 
     ![Atribuir capacidade dedicada](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. Após selecionar **Guardar**, deverá ver um **diamante** junto ao nome da área de trabalho da aplicação.
+3. Depois de selecionar **Guardar**, deverá ver um **losango** junto ao nome da área de trabalho da aplicação.
 
     ![área de trabalho da aplicação associada a uma capacidade](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 

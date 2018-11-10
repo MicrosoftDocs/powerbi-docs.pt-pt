@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137336"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909600"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O **Power BI Desktop** permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No **Power BI Desktop**, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI.  O **Power BI Desktop** é transferido gratuitamente.
@@ -101,11 +101,35 @@ A lista seguinte apresenta os requisitos mínimos para executar o **Power BI Des
 
 ## <a name="considerations-and-limitations"></a>Considerações e Limitações
 
+Queremos que a sua experiência com o Power BI Desktop seja sempre excelente. Em determinadas ocasiões pode deparar-se com problemas com o Power BI Desktop, assim, esta secção contém soluções ou sugestões para resolver os problemas que possam surgir. 
+
+### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Problemas ao utilizar versões anteriores do Power BI Desktop
+
 Alguns utilizadores encontram um erro semelhante ao seguinte ao utilizarem uma versão desatualizada do **Power BI Desktop**: 
 
     "We weren't able to restore the saved database to the model" 
 
 Atualizar para a versão atual do Power BI Desktop normalmente resolve este problema.
+
+### <a name="disabling-notifications"></a>Desativar notificações
+Recomendamos que atualize para a versão mais recente do Power BI Desktop para tirar partido dos avanços nas funcionalidades, no desempenho, na estabilidade, entre outras melhorias. Algumas organizações podem não querer que os utilizadores atualizem para cada nova versão. Pode desativar as notificações ao modificar o registo com os seguintes passos:
+
+1. Com o Editor de Registo, navegue até *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*
+2. Crie uma nova entrada com as seguintes definições: *REG_DWORD : DisableUpdateNotification*
+3. Defina o valor dessa nova entrada como **1**.
+
+Terá de reiniciar o computador para a alteração produzir efeito.
+
+### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>O Power BI Desktop carrega um ecrã parcial
+
+Em determinadas circunstâncias, incluindo determinadas configurações de resolução do ecrã, alguns utilizadores poderão ver o Power BI Desktop a compor conteúdo com grandes áreas em preto. Normalmente, tal deve-se a atualizações recentes do sistema operativo que afetam a forma como os itens são compostos, ao invés de um resultado direto da forma como o Power BI Desktop apresenta conteúdo. Independentemente disso, grandes áreas em preto não são tão apelativas quanto os elementos visuais grandes, assim, para resolver este problema, siga os passos seguintes:
+
+1. Prima a tecla Início e escreva a palavra *desfocado* na barra de pesquisa apresentada.
+2. Na caixa de diálogo apresentada, selecione a opção: *Permitir que o Windows corrija as aplicações que estão desfocadas*.
+3. Reiniciar o Power BI Desktop.
+
+Este problema pode ser resolvido após o lançamento das atualizações subsequentes do Windows. 
+ 
 
 ## <a name="next-steps"></a>Próximos passos
 Após instalar o **Power BI Desktop**, os seguintes conteúdos poderão ajudá-lo a começar rapidamente:

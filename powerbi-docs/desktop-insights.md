@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280300"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909623"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Utilizar informações no Power BI Desktop para explicar aumentos ou diminuições observadas em elementos visuais (Pré-visualização)
 
@@ -36,7 +36,7 @@ A funcionalidade de informações é contextual e baseia-se no ponto de dados im
 
 
 ## <a name="using-insights"></a>Utilizar informações
-Para utilizar as informações para explicar os aumentos ou diminuições que vê em gráficos, clique com o botão direito do rato num ponto de dados num gráfico de barras ou de linhas e selecione **Analisar > Explicar o aumento** (ou *Explicar a diminuição*, uma vez que todas as informações se baseiam na alteração face ao ponto de dados anterior).
+Para utilizar as informações para explicar os aumentos ou as diminuições que vê nos gráficos, basta clicar com o botão direito do rato num ponto de dados num gráfico de barras ou de linhas e selecionar **Analisar > Explicar o aumento** (ou *Explicar a diminuição*, uma vez que todas as informações se baseiam na alteração face ao ponto de dados anterior).
 
 ![Menu Mostrar informações](media/desktop-insights/insights_02.png)
 
@@ -113,7 +113,6 @@ A lista seguinte é a coleção de cenários atualmente não suportados para **e
 * Filtros de Primeiros N
 * Filtros de inclusão/exclusão
 * Filtros de medição
-* Agregados e medidas não cumulativas
 * Medidas não numéricas
 * Utilização de "Mostrar valor como"
 * Medidas filtradas: são cálculos ao nível dos elementos visuais com um filtro específico aplicado (por exemplo, *Total de Vendas de França*) e são utilizadas em alguns dos elementos visuais criados pela funcionalidade de informações

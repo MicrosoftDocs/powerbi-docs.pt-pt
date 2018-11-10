@@ -7,41 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c0c6de63292d3087aaa78dd97b73f868ef9d804e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b396b55304e468143fe28fb5ed46ed290bfb3812
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293657"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909531"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Onde está localizado o meu inquilino do Power BI?
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Saiba onde está localizado o seu inquilino do Power BI e como essa localização é selecionada. Isto é importante para compreender como pode afetar as interações com o serviço.
+Saiba onde está localizado o seu inquilino do Power BI e como essa localização é selecionada. É importante compreender a localização, uma vez que pode afetar as interações com o serviço.
 
 ## <a name="how-to-determine-where-your-power-bi-tenant-is-located"></a>Como determinar onde está localizado o inquilino do Power BI
-Para localizar a região do seu inquilino, pode fazer o seguinte.
 
-1. Selecione o **?** no serviço Power BI.
-2. Selecione **Acerca do Power BI**.
-3. Procure o valor junto a **Os dados estão armazenados em**. Esta é a região onde está localizado.
+Para localizar a região na qual está o seu inquilino, siga estes passos.
 
-![](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
+1. No serviço Power BI, no menu superior, selecione ajuda (**?**) e, em seguida, **Acerca do Power BI**.
+
+1. Procure o valor junto a **Os dados estão armazenados em**. Esta é a região onde está localizado o seu inquilino.
+
+    ![Região de dados](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 
 ## <a name="how-the-data-region-is-selected"></a>Como é selecionada a região de dados
-A região de dados baseia-se no país selecionado quando o inquilino foi criado pela primeira vez. Isto aplica-se à inscrição no Office 365 além do Power BI, uma vez que esta informação é partilhada. Se se tratar de um novo inquilino, quando se inscrever, verá uma lista pendente de países.
 
-![](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
+A região de dados baseia-se no país que selecionar ao criar o inquilino. Tal aplica-se à inscrição no Office 365 e no Power BI, uma vez que esta informação é partilhada. Se se tratar de um novo inquilino, selecione o país adequado na lista quando realizar a inscrição.
 
-Isto seleciona a localização de armazenamento dos dados. O Power BI irá escolher a região de dados mais próxima desta seleção.
+![Seleção do país](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
-> [!WARNING]
-> Não é possível alterar esta seleção!
-> 
-> 
+O Power BI escolha a região de dados mais próxima desta seleção, que determina onde os dados são armazenados para o seu inquilino.
+
+> [!IMPORTANT]
+> Não pode alterar esta seleção depois de criar o inquilino.
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

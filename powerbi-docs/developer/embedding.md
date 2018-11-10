@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616034"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973776"
 ---
 # <a name="embedding-with-power-bi"></a>Incorporação com o Power BI
 
-O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Tal significa que terá um conjunto de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho de aplicações.
+O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Esta funcionalidade significa que terá um conjunto de capacidades e acesso às funcionalidades mais recentes do Power BI, tais como dashboards, gateways e áreas de trabalho de aplicações, quando incorporar o seu conteúdo.
 
-Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
+Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
 
 Escolha a solução mais adequada para si:
 
@@ -49,7 +49,7 @@ Para incorporação na sua organização, consulte o seguinte:
 
 Capacidades self-service, como editar, guardar, entre outras, estão disponíveis na [API do JavaScript](https://github.com/Microsoft/PowerBI-JavaScript) na incorporação para utilizadores do Power BI.
 
-Pode utilizar a [Ferramenta de experiência de inclusão](https://aka.ms/embedsetup/UserOwnsData) para incorporação na sua organização e começar a utilizar e a transferir rapidamente uma aplicação de exemplo que o orienta ao longo da integração de um relatório na sua organização.
+Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para incorporação na sua organização e começar rapidamente e transferir uma aplicação de exemplo que o orienta ao longo da integração de um relatório na sua organização.
 
 ## <a name="embedding-for-your-customers"></a>Incorporar para os seus clientes
 
@@ -72,7 +72,7 @@ Quando estiver pronto para passar à produção, terá de ser atribuída uma cap
 
 Para obter detalhes sobre como incorporar, consulte [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embed-sample-for-customers.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Agora, pode tentar incorporar conteúdo do Power BI numa aplicação ou tentar incorporar conteúdo do Power BI para os seus clientes.
 

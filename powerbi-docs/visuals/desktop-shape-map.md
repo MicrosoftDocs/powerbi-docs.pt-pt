@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566039"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417332"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
-No Power BI Desktop, pode criar um visual do **Mapa de Forma** para mostrar comparações relativas de regiões num mapa ao aplicar diferentes cores em diferentes regiões. Em comparação com o visual do **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa; em vez disso, o propósito principal é mostrar comparações relativas de regiões num mapa ao distingui-las com cores diferentes.
+Criar um elemento visual **Mapa de Forma** para comparar regiões num mapa com cores. Ao contrário do elemento visual **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa. Em vez disso, o seu objetivo principal é mostrar comparações relativas de regiões num mapa ao colori-los de forma diferente.
 
-Os visuais do **Mapa de Forma** são baseados em mapas ESRI/TopoJSON que têm a capacidade convincente de utilizar mapas personalizados que pode criar, como disposições de lugares, planos de piso, entre outros. A capacidade de utilizar mapas personalizados não está disponível neste lançamento de Pré-visualização do **Mapa de Forma**.
+Os elementos visuais do **Mapa de Forma** são baseados em mapas ESRI/TopoJSON que têm a capacidade convincente de utilizar mapas personalizados que pode criar. Os exemplos de mapas personalizados são: geográficos, disposições de lugares, plantas e outros. A capacidade de utilizar mapas personalizados não está disponível neste lançamento de Pré-visualização do **Mapa de Forma**.
 
 ## <a name="creating-shape-maps"></a>Criar Mapas de Forma
 Pode testar o controlo **Mapa de Forma** com os mapas que são enviados com esta versão de Pré-visualização, ou pode utilizar o seu próprio mapa personalizado, desde que este cumpra os requisitos descritos na secção seguinte, designada **Use Custom Maps (Utilizar Mapas Personalizados)**.
@@ -115,7 +115,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="australia-states"></a>Austrália: Estados
 
-| ID | abbr | iso | nome | postal |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
 | au-vic |Vic |AU-VIC |Vitória |VIC |
@@ -128,7 +128,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="austria-states"></a>Áustria: Estados
 
-| ID | iso | nome | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Viena |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="brazil-states"></a>Brasil: Estados
 
-| ID |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="canada-provinces"></a>Canadá: Províncias
 
-| ID | iso | nome | postal |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territórios do Noroeste |NT |
@@ -196,7 +196,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="france-regions"></a>França: Regiões
 
-| ID | nome | name-en |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
 | Alsácia |Alsácia |Alsácia |
 | Ródano-Alpes |Ródano-Alpes |Ródano-Alpes |
@@ -223,7 +223,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="germany-states"></a>Alemanha: Estados
 
-| ID | iso | nome | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlim |Berlim |BE |
 | de-th |DE-TH |Turíngia |Turíngia |TH |
@@ -244,7 +244,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="ireland-counties"></a>Irlanda: Condados
 
-| ID |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="italy-regions"></a>Itália: Regiões
 
-| ID | iso | nome | name-en | postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Véneto |Véneto |VN |
 | it-vd |IT-23 |Vale de Aosta |Vale de Aosta |VD |
@@ -300,7 +300,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="mexico-states"></a>México: Estados
 
-| ID | abreviatura | iso | nome | name-en | postal |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Iucatã |Iucatã |YU |
@@ -335,9 +335,9 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | mx-bcn |B.C. |MX-BCN |Baixa Califórnia |Baixa Califórnia |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Holanda: Províncias
+### <a name="netherlands-provinces"></a>Países Baixos: Províncias
 
-| ID | iso | nome | name-en |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |
 | nl-ze |NL-ZE |Zelândia |Zelândia |
@@ -354,7 +354,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="uk-countries"></a>Reino Unido: Países
 
-| ID | iso | nome |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escócia |
@@ -363,7 +363,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="usa-states"></a>EUA: Estados
 
-| ID | nome | postal |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alasca |AK |
@@ -417,3 +417,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>Passos seguintes
+[Elemento visual Matriz no Power BI](desktop-matrix-visual.md)
+
+[Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

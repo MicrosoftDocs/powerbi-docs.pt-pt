@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100778"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973333"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -82,14 +82,34 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Isto garante que os utilizadores conseguem ver o conteúdo desse grupo. Para obter mais informações, veja [Create and distribute an app in Power BI](service-create-distribute-apps.md) (Criar e distribuir uma aplicação no Power BI).
+Existem duas formas de dar acesso ao relatório no serviço Power BI. Se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, deve listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Para obter mais informações, veja como [gerir uma área de trabalho de aplicação](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-Em alternativa, pode partilhar um relatório diretamente com os utilizadores ao incorporar o relatório numa aplicação. A aplicação tem de estar previamente instalada para incorporar o relatório. Pode configurar a aplicação para ser previamente instalada através da funcionalidade **Instalar aplicação automaticamente**.
+Em alternativa, pode partilhar um relatório diretamente com os utilizadores ao incorporar o relatório numa aplicação. Existem alguns passos a seguir para incorporar um relatório numa aplicação.  
+
+1. O autor da aplicação é um utilizador Pro.
+
+2. O autor cria um relatório numa área de trabalho de aplicação. *Para partilhar com **utilizadores gratuitos do Power BI**, a área de trabalho de aplicação tem de ser definida como uma **área de trabalho Premium**.*
+
+3. O autor publica a aplicação e, em seguida, instala-a. *O autor tem de confirmar que instala a aplicação para ter acesso ao URL do relatório utilizado para incorporar no SharePoint Online.*
+
+4. Agora, todos os utilizadores finais também têm de instalar a aplicação. No entanto, pode definir a aplicação para ser pré-instalada para os utilizadores finais com a funcionalidade **Instalar aplicação automaticamente**, que pode ser ativada no [portal de administração do Power BI](service-admin-portal.md).
 
    ![Instalar aplicação automaticamente](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **O utilizador precisa de acesso à página do SharePoint e ao relatório para ver o relatório na página do SharePoint.**
+5. O autor abre a aplicação e vai para o relatório.
+
+6. O autor copia o URL do relatório incorporado do relatório instalado pela aplicação. *Não utilize o URL do relatório original da área de trabalho de aplicação.*
+
+7. Crie um novo site de equipa no SharePoint Online.
+
+8. Adicione o URL do relatório que copiou no passo 6 à parte Web do Power BI.
+
+9. Adicione todos os utilizadores finais e/ou grupos que vão consumir os dados na página do SharePoint Online e na aplicação do Power BI que criou.
+
+    > [!NOTE]
+    > **Os utilizadores ou grupos precisam de aceder tanto à página do SharePoint Online como ao relatório na aplicação do Power BI para ver o relatório na página do SharePoint.**
+
+10. Agora, o utilizador final pode ir para o site de equipa no SharePoint Online e ver os relatórios na página.
 
 ## <a name="multi-factor-authentication"></a>Autenticação multifator
 
@@ -132,7 +152,7 @@ Os utilizadores que visualizam um relatório no SharePoint precisam de uma **lic
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
-* Erro: “Ocorreu um erro; tente terminar e voltar a iniciar sessão e, em seguida, revisite esta página. ID de correlação: não definido, estado de resposta HTTP: 400, código de erro de servidor 10001, mensagem: Token atualizado em falta”
+* Erro: "Ocorreu um erro; tente terminar e voltar a iniciar sessão e, em seguida, revisite esta página. ID de correlação: não definido, estado de resposta HTTP: 400, código de erro de servidor 10001, mensagem: Token atualizado em falta”
   
   Se receber este erro, experimente um dos passos de resolução de problemas abaixo.
   

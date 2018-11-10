@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161039"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223266"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adicionar opções de formatação a um elemento visual personalizado do Power BI
 
@@ -254,6 +254,10 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 8. Paire o rato sobre o ícone do **Cartão Circular** e repare na descrição que é apresentada.
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="debugging"></a>Depurar
 
-Se quiser saber mais sobre como publicar o seu elemento visual personalizado recentemente desenvolvido para ser consumido por outros utilizadores, veja [Publicar elementos visuais personalizados no AppSource](office-store.md).
+Para obter sugestões sobre como depurar elementos visuais personalizados, consulte o [guia de depuração](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
+
+## <a name="next-steps"></a>Próximos passos
+
+Pode listar o seu elemento visual recentemente criado, para que outras pessoas possam utilizá-lo, ao submetê-lo para o **AppSource**. Para obter mais informações sobre este processo, veja [Publicar elementos visuais personalizados no AppSource](office-store.md).

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548149"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101215"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Ligue-se aos Registos de Auditoria do Azure com o Power BI
-Com o pacote de conteúdos de Registos de Auditoria do Azure, pode analisar e visualizar as informações armazenadas nos registos de auditoria. O Power BI obtem os seus dados, cria um dashboard pronto a usar e cria relatórios com base nesses dados.
+Com o pacote de conteúdos de Registos de Auditoria do Azure, pode analisar e visualizar as informações armazenadas nos registos de auditoria. O Power BI obtém os seus dados, cria um dashboard pronto a usar e cria relatórios com base nesses dados.
 
 [Ligue-se ao pacote de conteúdos dos Registos de Auditoria do Azure](https://app.powerbi.com/getdata/services/azure-audit-logs) ou leia mais sobre a [integração dos Registos de Auditoria do Azure](https://powerbi.microsoft.com/integrations/azure-audit-logs) com o Power BI.
 
@@ -32,13 +32,13 @@ Com o pacote de conteúdos de Registos de Auditoria do Azure, pode analisar e vi
 3. Selecione **Registos de Auditoria do Azure** > **Obter**.  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
-4. Quando solicitado, introduza o **ID da subscrição do Azure**. Consulte detalhes sobre como localizar o [ID da subscrição](#FindingParams) abaixo.   
+4. Quando pedido, introduza o **ID de Subscrição do Azure**. Consulte detalhes sobre como localizar o [ID da subscrição](#FindingParams) abaixo.   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
 5. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**.
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
-6. Insira as suas credenciais de conta para concluir o processo de entrada.
+6. Introduza as suas credenciais de conta para concluir o processo de início de sessão.
    
     ![](media/service-connect-to-azure-audit-logs/login.png)
 7. O Power BI vai obter os seus dados do Registo de Auditoria do Azure e criar um dashboard pronto a usar e um relatório. 
@@ -53,7 +53,7 @@ Com o pacote de conteúdos de Registos de Auditoria do Azure, pode analisar e vi
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
 
 ## <a name="system-requirements"></a>Requisitos de sistema
-O pacote de conteúdos de registos de Auditoria do Azure requer acesso aos Registos de Auditoria no Portal do Azure. Mais detalhes [aqui](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
+O pacote de conteúdos de registos de Auditoria do Azure requer acesso aos Registos de Auditoria no portal do Azure. Mais detalhes [aqui](/azure/azure-resource-manager/resource-group-audit/).
 
 <a name="FindingParams"></a>
 

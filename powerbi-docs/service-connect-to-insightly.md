@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244462"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548633"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Ligar ao Insightly com o Power BI
 Visualize e partilhe os seus dados de CRM do Insightly no Power BI com o pacote de conteúdos do Insightly. Ligue-se ao Power BI usando a sua chave de API do Insightly para visualizar e criar relatórios e dashboards a partir dos seus dados de CRM. Com o Power BI pode analisar os dados de novas maneiras, criar gráficos poderosos e exibir contactos, clientes potenciais e organizações num mapa.
@@ -41,10 +41,10 @@ Ligue-se ao [pacote de conteúdos do Insightly](https://app.powerbi.com/getdata/
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos inclui as seguintes tabelas com campos dos registos correspondentes:
@@ -68,7 +68,7 @@ Muitas tabelas e relatórios também incluem campos calculados exclusivos, como:
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Parâmetros de localização
+## <a name="finding-parameters"></a>Encontrar parâmetros
 **Chave de API**
 
 Para copiar a chave de API do Insightly, selecione as Definições de Utilizador no menu do perfil do Insightly e desloque o ecrã para baixo. Esta cadeia de caracteres será usada para ligar os seus dados ao Power BI.
@@ -80,7 +80,7 @@ Os dados são importados através da API do Insightly, que inclui um limite diá
 
 Os relatórios fornecidos usam campos predefinidos do Insightly e podem não incluir as suas personalizações. Edite o relatório para ver todos os campos disponíveis.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

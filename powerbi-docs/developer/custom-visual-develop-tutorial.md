@@ -1,5 +1,5 @@
 ---
-title: Desenvolver um Elemento Visual Personalizado do Power BI
+title: Developing a Power BI Custom Visual (Desenvolver um Elemento Visual Personalizado do Power BI)
 description: Um tutorial sobre como desenvolver um elemento visual personalizado do Power BI
 author: markingmyname
 ms.author: maghan
@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161053"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223427"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Desenvolver um elemento visual personalizado do Power BI
 
@@ -39,6 +39,7 @@ Neste tutorial, vai aprender a:
 
 * Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/en-us/pricing/) antes de começar.
 * Precisa de ter o [Visual Studio Code](https://www.visualstudio.com/) instalado.
+* Precisa de ter a versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Configurar o ambiente de programação
 
@@ -69,6 +70,8 @@ Agora, precisa de instalar o pacote **pbiviz**.
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>Criar e instalar um certificado
+
+#### <a name="windows"></a>Windows
 
 1. Para criar um certificado, introduza o seguinte comando.
 
@@ -117,13 +120,32 @@ Agora, precisa de instalar o pacote **pbiviz**.
 > [!Important]
 > Não termine a sessão do Windows PowerShell.
 
+#### <a name="osx"></a>OSX
+
+1. Se o bloqueio no canto superior esquerdo estiver bloqueado, selecione-o para desbloquear. Procure *localhost* e faça duplo clique no certificado.
+
+    ![Instalar o certificado 1 de SSL no OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. Selecione **Confiar Sempre** e feche a janela.
+
+    ![Instalar o certificado 2 de SSL no OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. Introduza o nome de utilizador e a palavra-passe. Selecione **Definições de atualização**.
+
+    ![Instalar o certificado 3 de SSL no OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. Feche os browsers que tenha aberto.
+
+> [!NOTE]
+> Se o certificado não for reconhecido, pode ter de reiniciar o computador.
+
 ## <a name="creating-a-custom-visual"></a>Criar um elemento visual personalizado
 
 Agora que configurou o ambiente, está na altura de criar o seu elemento visual personalizado.
 
 Pode [transferir](https://github.com/Microsoft/PowerBI-visuals-circlecard) o código fonte completo para este tutorial.
 
-1. No Windows PowerShell, confirme que o pacote Power BI Visual Tools foi instalado.
+1. Confirme que o pacote Ferramentas Visuais do Power BI foi instalado.
 
     ```powershell
     pbiviz
@@ -556,7 +578,11 @@ Acabou de configurar as funções de dados e vinculou o elemento visual ao datav
 
 No próximo tutorial, vai aprender a adicionar opções de formatação ao elemento visual personalizado.
 
-## <a name="next-steps"></a>Próximos Passos
+## <a name="debugging"></a>Depurar
+
+Para obter sugestões sobre como depurar elementos visuais personalizados, consulte o [guia de depuração](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
+
+## <a name="next-steps"></a>Próximos passos
 
 > [!div class="nextstepaction"]
 > [Adicionar opções de formatação](custom-visual-develop-tutorial-format-options.md)

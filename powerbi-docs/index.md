@@ -4,15 +4,16 @@ hide_bc: true
 title: Documentação do Power BI
 description: Documentação do Power BI
 ms.service: powerbi
-ms.author: maggiesMSFT
+ms.author: maggies
+author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 10/01/2018
-ms.openlocfilehash: 2fe6cb8e6bc713d9f660bf11dafeb492f2c75561
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms:date: 10/26/2018
+ms.openlocfilehash: 375682033c9ea02d9290510c34914d713861d4ce
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473457"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507882"
 ---
 <div id="main" class="v2">
     <div class="container">

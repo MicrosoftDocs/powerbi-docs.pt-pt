@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336881"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223381"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -34,6 +34,8 @@ A partir da versão de setembro de 2017 do **Power BI Desktop**, pode premir a t
 
 Com as melhorias de acessibilidade, pode consumir um relatório do Power BI com um teclado ou um leitor de ecrã com as seguintes técnicas:
 
+Ao ver um relatório, deve ter o modo de análise desativado.
+
 Pode mudar o foco entre os separadores de página do relatório ou os objetos de uma determinada página do relatório com as teclas **Ctrl+F6**.
 
 * Quando o foco está nos *separadores de página do relatório*, utilize as teclas de *tabulação* ou de *seta* para mover o foco de uma página do relatório para a página seguinte. O leitor de ecrã lê o título da página do relatório e se esta está atualmente selecionada. Para carregar a página do relatório que tem o foco, utilize a tecla *Enter* ou a *Barra de Espaço*.
@@ -48,7 +50,7 @@ Pode premir **Alt+Shift+F11** para apresentar uma versão acessível da janela *
 ![Prima Alt+Shift+F11 no Power BI Desktop para apresentar uma janela Ver Dados acessível para um elemento visual](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> A funcionalidade Mostrar dados só está acessível para um leitor de ecrã através deste atalho de teclado. Se abrir a opção Mostrar dados no cabeçalho do elemento visual, esta não será acessível para um leitor de ecrã.
+> A funcionalidade Mostrar dados só está acessível para um leitor de ecrã através deste atalho de teclado. Se abrir a opção Mostrar dados no cabeçalho do elemento visual, esta não será acessível para um leitor de ecrã. Ao utilizar a opção Mostrar dados, ative o modo de análise para tirar partido de todas as teclas de atalho do seu leitor de ecrã.
 
 A partir da versão de julho de 2018 do **Power BI Desktop**, as segmentações de dados também têm funcionalidades de acessibilidade incorporadas. Quando seleciona uma segmentação de dados, para ajustar o valor da segmentação de dados, utilize CTRL + seta para a direita (controlo mais a tecla de seta para a direita) para percorrer os diversos controlos dentro da segmentação de dados. Por exemplo, quando inicialmente prime CTRL + seta para a direita, o foco está na borracha e premir a barra de espaços é equivalente a clicar no botão borracha, o que apaga todos os valores na segmentação de dados. 
 
@@ -112,6 +114,55 @@ Existem algumas limitações e problemas conhecidos nas funcionalidades de acess
 
 * Ao utilizar leitores de ecrã com o **Power BI Desktop**, terá a melhor experiência se abrir o leitor de ecrã da sua preferência antes de abrir os ficheiros no Power BI Desktop.
 * Se estiver a utilizar o Narrador, existem algumas limitações com a funcionalidade Mostrar dados como uma tabela HTML.
+
+## <a name="keyboard-shortcuts"></a>Atalhos de Teclado
+### <a name="frequently-used-shortcuts"></a>Atalhos frequentes
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Mover o foco entre secções  | Ctrl+F6 |
+| Mover o foco para a frente na secção | Tecla de Tabulação         |
+| Mover o foco para trás na secção | Shift+Tecla de Tabulação |
+
+### <a name="on-visual"></a>No visual
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Mover o foco para o menu visual | Alt+Shift+F10 |
+| Mostrar dados | Alt+Shift+F11  |
+
+### <a name="pane-navigation"></a>Navegação no Painel
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Abrir um menu de contexto | <ul><li>Teclado Windows: tecla de contexto do Windows+F10.  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: Shift+F10</li></ul> |
+
+### <a name="slicer"></a>Segmentação de Dados
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Interagir com uma segmentação de dados | Ctrl+Tecla Seta Para a Direita |
+
+### <a name="selection-pane"></a>Painel de Seleção
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Ativar o painel de seleção | F6 |
+| Mover um objeto para cima nas camadas | Ctrl+Shift+F |
+| Mover um objeto para baixo nas camadas | Ctrl+Shift+B |
+| Ocultar/mostrar (ativar ou desativar) um objeto | Ctrl+Shift+S |
+
+### <a name="dax-editor"></a>Editor DAX
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Mover linha para cima/para baixo | Alt+Tecla de Seta Para Cima/Tecla de Seta Para Baixo |
+| Copiar linha para cima/para baixo | Shift+Alt+Tecla de Seta Para Cima/Tecla de Seta Para Baixo |
+| Inserir linha abaixo | Ctrl+Enter |
+| Inserir linha acima | Ctrl+Shift+Enter |
+| Ir para parênteses correspondente | Ctrl+Shift+\ |
+| Avançar/diminuir o avanço da linha | Ctrl+]/[ |
+| Inserir cursor | Alt+Clique |
+| Selecionar a linha atual | Ctrl+I |
+| Selecione todas as ocorrências da seleção atual | Ctrl+Shift+L |
+| Selecionar todas as ocorrências da palavra atual | Ctrl+F2 |
+
+
+
 
 ## <a name="next-steps"></a>Próximos passos
 * [Utilizar Temas de Relatório no Power BI Desktop (Pré-visualização)](desktop-report-themes.md)

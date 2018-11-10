@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/23/2017
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ab292964bb1b6b1f4218d41c46eb2c28c82a034c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545041"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416757"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Gráficos em anel no Power BI
-Um gráfico de anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
+Um gráfico em anel é semelhante a um gráfico circular que mostra a relação das partes com um todo. A única diferença é que o centro está em branco e permite ter espaço para uma etiqueta ou ícone.
 
-## <a name="create-a-doughnut-chart"></a>Criar um gráfico de anel
-Estas instruções utilizam o Exemplo de Análise de Revenda para criar um gráfico em anel que apresenta as vendas deste ano por categoria. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.
+## <a name="create-a-doughnut-chart"></a>Criar um gráfico em anel
+Estas instruções utilizam o Exemplo de Análise de Revenda para criar um gráfico em anel que apresenta as vendas deste ano por categoria. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI ou Power BI Desktop.
 
-1. Comece numa [página de relatório em branco ](../power-bi-report-add-page.md) e selecione o campo **SalesStage** \> **Fase de Vendas**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](../service-interact-with-a-report-in-editing-view.md).
+1. Comece com uma [página em branco do relatório](../power-bi-report-add-page.md). Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](../service-interact-with-a-report-in-editing-view.md).
 
 2. No painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
    
-3. No painel Visualizações, selecione o ícone de gráfico em anel ![ícone de gráfico em anel]() para converter o gráfico de barras num gráfico em anel. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para aí.
+3. No painel Visualizações, selecione o ícone de gráfico em anel ![ícone de gráfico em anel](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) para converter o gráfico de barras num gráfico em anel. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para aí.
      
-   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+   ![Painel de visualização com gráfico em anel selecionado](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
 4. Selecione **Item** \> **Categoria** para adicioná-lo à área **Legenda**. 
      
-    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+    ![gráfico em anel junto ao painel Campos](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 
 5. Opcionalmente, [ajuste o tamanho e a cor do texto do gráfico](power-bi-visualization-customize-title-background-and-legend.md). 
 
@@ -43,13 +43,8 @@ Estas instruções utilizam o Exemplo de Análise de Revenda para criar um gráf
 * Os gráficos em anel são melhor utilizados para comparar uma determinada secção com o todo, em vez de comparar secções individuais entre si. 
 
 ## <a name="next-steps"></a>Passos seguintes
-[Relatórios no Power BI](../consumer/end-user-reports.md)
+[Gráficos de funil no Power BI](power-bi-visualization-funnel-charts.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
-
-[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

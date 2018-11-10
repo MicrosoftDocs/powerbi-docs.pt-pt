@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 88942d4bf304af7a43df3a0f4864b537182cc84c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272511"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641304"
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Gratuito x Pro
 
@@ -35,7 +35,7 @@ Segue-se uma lista das funcionalidades suportadas por tipo de utilizador.
 | **Partilha ponto a ponto** |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | **Exportar para PowerPoint, Excel, CSV** |![Funcionalidade disponível](media/features-license-type/available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | **Distribuição empresarial** | | |
-| Apps |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
+| Aplicações |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | Subscrições por e-mail |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | Incorporar APIs e controlos |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | **Colaboração** | | |
@@ -44,7 +44,7 @@ Segue-se uma lista das funcionalidades suportadas por tipo de utilizador.
 
 ## <a name="next-steps"></a>Próximos passos
 
-Se estiver interessado em obter mais informações sobre o Power BI Premium, veja [Power BI Premium – o que é?](service-premium.md).
+Se estiver interessado em obter mais informações sobre o Power BI Premium, veja [O que é o Power BI Premium?](service-premium.md).
 
 Para começar a utilizar o Power BI através de inscrição, veja [Inscrever-se no Power BI como um indivíduo](service-self-service-signup-for-power-bi.md).
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7de1b47656ae06f522b4b86a124bf558a660ba4e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b2e73621fe974da97e3a766fa25110522b36448b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473411"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223289"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop
 
@@ -62,7 +62,7 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 * O conector do SAP BW implementação v2 está agora disponível globalmente  [[vídeo]](https://youtu.be/MhrhIXNtelw?t=133)   [[artigo]](desktop-sap-bw-connector.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
 * O conector do SAP BW Message Server está agora disponível de modo geral [[vídeo]](https://youtu.be/MhrhIXNtelw?t=159)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
 * O conector Vertica agora disponível de modo geral [[vídeo]](https://youtu.be/MhrhIXNtelw?t=175)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
-* Os conectores Dynamics NAV e Dynamics 365 Business Central agora disponíveis de modo geral [[vídeo]](https://youtu.be/MhrhIXNtelw?t=197)[[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* Os conectores Dynamics NAV e Dynamics 365 Business Central estão agora disponíveis para o público [[vídeo]](https://youtu.be/MhrhIXNtelw?t=197) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
 * O novo conector do Dynamics 365 business Central no Local [[vídeo]](https://youtu.be/MhrhIXNtelw?t=219)[[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
 
 ### <a name="data-preparation"></a>Preparação de dados

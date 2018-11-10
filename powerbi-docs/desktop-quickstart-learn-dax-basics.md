@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329207"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003300"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
 Este artigo é destinado aos novos utilizadores do Power BI Desktop. O objetivo é oferecer uma introdução rápida e fácil sobre como pode usar o DAX (Data Analysis Expressions) para resolver vários problemas de análise de dados e de cálculo básico. Vamos abordar alguma informação conceptual e uma série de tarefas que pode executar, para além de alguns testes para verificar o que aprendeu. Depois de ler este artigo, deverá ter uma boa compreensão dos conceitos fundamentais mais importantes no DAX.
@@ -87,25 +87,23 @@ Para concluir esta tarefa, precisará de abrir o ficheiro Exemplo de Vendas da C
     
 2. Na barra de fórmulas, substitua **Measure** ao escrever um novo nome de medida, **Previous Quarter Sales**.
     
-3. Depois do sinal de igual, digite **SUM**, seguido de um parêntese de abertura.
-    
-   Em vez de escrever um nome de coluna para somar imediatamente, vamos inserir outra função para *filtrar* os dados que desejamos somar.
-    
-4. Entre os parênteses, digite **CALCULATE**, seguido de um parêntese de abertura.
-    
+3. Após o sinal de igual, escreva as primeiras letras **CAL** e, em seguida, faça duplo clique na função que pretende utilizar. Nesta fórmula, quer utilizar a função **CALCULATE**.
+
    Irá usar a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. A isto chamamos aninhamento de funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
    
-5. Entre os parênteses **()** para a função **CALCULATE**, digite **Sales[SalesAmount]**. Este é o primeiro argumento de expressão para a função CALCULATE.
+4. Depois do parêntesis de abertura **(** para a função **CALCULATE**, escreva **SUM** seguido de outro parêntesis de abertura **(**. Agora precisamos de passar um argumento para a função SUM.
+
+5. Comece a escrever **Sal** e, em seguida, selecione **Sales [SalesAmount]**, seguido de um parêntesis de fecho **)**. Este é o primeiro argumento de expressão para a função CALCULATE.
     
-6. Escreva uma vírgula (**,**) para especificar o primeiro filtro e, em seguida, escreva **PREVIOUSQUARTER**, seguido de um parêntesis de abertura.
+6. Escreva uma vírgula (**,**) seguida de um espaço para especificar o primeiro filtro e, em seguida, escreva **PREVIOUSQUARTER**. Este será o nosso filtro.
     
-   Irá usar a função de análise de tempo PREVIOUSQUARTER para filtrar os nossos resultados SUM pelo trimestre anterior.
+   Irá utilizar a função de análise de tempo PREVIOUSQUARTER para filtrar os resultados SUM pelo trimestre anterior.
     
-7. Entre os parêntesis **()** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]**.
+7. Depois do parêntesis de abertura **(** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]**.
     
-   A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas.
+   A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas. No nosso caso, é a coluna DateKey na tabela Calendário.
     
-8. Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são precedidos de dois parêntesis de fecho **))**.
+8. Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são fechados ao escrever dois parêntesis de fecho **))**.
     
    A sua fórmula agora deve ter este aspeto:
     
@@ -144,7 +142,7 @@ O DAX inclui as seguintes categorias de funções: [Data e Hora](https://msdn.mi
 * O DAX inclui uma variedade de funções de análise de tempo. Estas funções permitem definir ou selecionar intervalos de datas e executar cálculos dinâmicos baseados nesses intervalos. Por exemplo, é possível comparar somas em períodos paralelos.
 * O Excel tem uma função muito popular, VLOOKUP. As funções DAX não usam uma célula ou intervalo de células como referência, como a VLOOKUP faz no Excel. As funções DAX usam uma coluna ou tabela como referência. Lembre-se: no Power BI Desktop, está a trabalhar com um modelo de dados relacionais. Procurar por valores noutra tabela é realmente muito fácil e, na maioria dos casos, não tem de criar nenhuma fórmula.
   
-  Como pode ver, as funções no DAX podem ajudá-lo a criar fórmulas muito poderosas. Abordámos apenas as noções básicas das funções. À medida que desenvolver as suas competências com o DAX, criará fórmulas com muitas funções diferentes. Um dos melhores locais para obter detalhes sobre cada uma das funções DAX é a [Referência de funções DAX](https://msdn.microsoft.com/library/ee634396.aspx).
+  Como pode ver, as funções no DAX podem ajudá-lo a criar fórmulas muito poderosas. Abordámos apenas as noções básicas das funções. À medida que desenvolver as suas competências com o DAX, criará fórmulas com muitas funções diferentes. Um dos melhores locais para obter detalhes sobre cada uma das funções DAX é a [Referência de funções DAX](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>Teste rápido sobre funções
 1. Uma função referencia sempre o quê?

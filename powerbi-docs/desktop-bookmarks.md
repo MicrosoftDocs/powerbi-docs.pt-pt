@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549920"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909577"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -44,13 +44,12 @@ Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 
 * Página atual
 * Filtros
-* Segmentações
+* Segmentação de Dados, incluindo o tipo de segmentação de dados (por exemplo, lista pendente ou lista) e o estado da segmentação de dados
+* Estado da seleção do elemento visual (por exemplo, os filtros de realce cruzado)
 * Sequência de ordenação
 * Localização de agregação
 * Visibilidade (de um objeto, através do painel **Seleção**)
 * Os modos de detalhe ou **Em Destaque** de qualquer objeto visível
-
-Os marcadores não guardam atualmente o estado de realce cruzado. 
 
 Configure uma página de relatório conforme quiser que apareça no marcador. Depois da página de relatório e dos elementos visuais serem dispostos como pretende, selecione **Adicionar** no painel **Marcadores** para adicionar um marcador. 
 

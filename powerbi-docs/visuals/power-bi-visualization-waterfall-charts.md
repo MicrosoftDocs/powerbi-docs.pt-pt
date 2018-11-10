@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565826"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448920"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 O gráfico de cascata mostra um total parcial, conforme os valores são adicionados ou subtraídos. É útil para entender como um valor inicial (por exemplo, a receita líquida) é afetado por uma série de alterações positivas e negativas.
@@ -39,32 +39,32 @@ Vamos criar um gráfico de cascata que mostra a variância de vendas (vendas est
 
 1. Selecione o separador **Conjuntos de Dados** e desloque-se para o novo conjunto de dados de "Exemplo de Análise de Retalho".  Selecione o ícone **Criar relatório** para abrir o conjunto de dados na vista de edição de relatórios. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. No painel **Campos**, selecione **Vendas \> Desvio de Vendas Total**. Se o **Desvio de Vendas Total** não estiver na área do **eixo Y**, arraste-o para lá.
-3. Converta o gráfico para uma **Cascata**. 
+    ![separador Conjuntos de dados realçado](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. No painel **Campos**, selecione **Vendas \> Desvio de Vendas Total**. 
+3. Converta o gráfico para uma **Cascata**. Se o **Desvio de Vendas Total** não estiver na área do **eixo Y**, arraste-o para lá.
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![Modelos de visualização](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. Selecione **Hora** \> **FiscalMonth** para adicioná-lo a **Categoria**. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. Ordene o gráfico de cascata por ordem cronológica. No canto superior direito do gráfico, selecione as reticências (…) e escolha **FiscalMonth**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![selecione filtrar por > MêsFiscal](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![resultado da nova ordenação ascendente](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Aprofunde um pouco mais para ver o que contribui mais para as alterações mês a mês. Arraste **Arquivo** > **Território** para o registo **Divisão**.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Mostra Arquivo no registo Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. Por predefinição, o Power BI adiciona os 5 principais contribuintes de aumentos ou diminuições por mês. Mas só estamos interessados nos 2 principais contribuintes.  No painel Formatação, selecione **Divisão** e defina o **Máximo** para 2.
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Formatação > Divisão](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     Uma análise rápida revela que as zonas de Ohio e Pensilvânia são os contribuintes maiores para o movimento, tanto negativo como positivo, no nosso gráfico de cascata. 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. Esta é uma conclusão interessante. Ohio e Pensilvânia têm um impacto tão significativo porque as vendas nestes 2 territórios sã muito superiores às dos outros territórios?  Podemos verificar. Crie um mapa que observa as vendas por território.  
+    ![gráfico de cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. Esta é uma conclusão interessante. Ohio e Pensilvânia têm um impacto tão significativo porque as vendas nestes 2 territórios sã muito superiores às dos outros territórios?  Podemos verificar. Crie um mapa que apresente o valor de vendas deste ano e as vendas do último ano por território.  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![grande plano do mapa em PA e Ohio](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     O nosso mapa suporta a nossa teoria.  Mostra que estes 2 territórios tiveram o valor mais elevado de vendas no ano passado (tamanho da bolha) e neste ano (sombreado da bolha).
 
@@ -74,13 +74,7 @@ Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar u
 Realçar uma coluna num gráfico de cascata faz uma filtragem cruzada nas outras visualizações na página do relatório, e vice-versa. No entanto, a coluna Total não aciona o destaque nem responde à filtragem cruzada.
 
 ## <a name="next-steps"></a>Passos seguintes
-[Relatórios no Power BI](../consumer/end-user-reports.md)
+
+[Interações visuais](../service-reports-visual-interactions.md)
 
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
-
-[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

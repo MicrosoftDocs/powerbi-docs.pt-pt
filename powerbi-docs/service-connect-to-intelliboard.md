@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: db6361974fdbe7956979ac106e5cad5717f99d33
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 0931dee6f9719a4a53c5ccf2c20aeb8f9170af42
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135082"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549690"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Ligar ao IntelliBoard com o Power BI
 O IntelliBoard fornece acesso simplificado aos dados do sistema de gestão de aprendizado Moodle por meio do Reporting Services. O pacote de conteúdo do IntelliBoard para o Power BI oferece análises adicionais, incluindo métricas sobre cursos, utilizadores registados, desempenho geral e atividade de LMS.
@@ -32,21 +32,21 @@ Conecte-se ao [pacote de conteúdo do IntelliBoard](https://app.powerbi.com/getd
 3. Selecione **IntelliBoard** e, em seguida **Obter**.  
    
     ![](media/service-connect-to-intelliboard/intelliboard.png)
-4. Selecione **OAuth 2** e **Entrar**. Quando solicitado, forneça suas credenciais do IntelliBoard.
+4. Selecione **OAuth 2** e **Iniciar Sessão**. Quando solicitado, forneça suas credenciais do IntelliBoard.
    
     ![](media/service-connect-to-intelliboard/creds.png)
    
     ![](media/service-connect-to-intelliboard/creds2.png)
-5. Depois de estar ligado, um dashboard, relatório e conjunto de dados são carregados automaticamente. Após a conclusão, os blocos são atualizados com os dados da sua conta do IntelliBoard.
+5. Depois de estar ligado, são carregados automaticamente um dashboard, um relatório e um conjunto de dados. Após a conclusão, os blocos são atualizados com os dados da sua conta do IntelliBoard.
    
     ![](media/service-connect-to-intelliboard/dashboard.png)
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos inclui dados das seguintes tabelas:  
@@ -62,11 +62,11 @@ O pacote de conteúdos inclui dados das seguintes tabelas:
     - Totais  
     - Progresso dos Utilizadores    
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 É necessário ter uma conta do IntelliBoard com permissões de acesso às tabelas acima para criar uma instância deste pacote de conteúdos.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [O que é o Power BI?](power-bi-overview.md)
 
-[Power BI - Conceitos Básicos](service-basic-concepts.md)
+[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 

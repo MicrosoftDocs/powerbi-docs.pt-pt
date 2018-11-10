@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 93e1534af258a11a7af0f95b179653a1d8e54307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243201"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544653"
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Ligar ao Microsoft Azure Enterprise com o Power BI
-Explore e monitorize os seus dados do Microsoft Azure Enterprise no Power BI com o pacote de conteúdos do Power BI. Os dados são atualizados automaticamente uma vez por dia.
+Explore e monitorize os seus dados do Microsoft Azure Enterprise no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
 
 Ligue-se ao [pacote de conteúdos do Microsoft Azure Enterprise](https://app.powerbi.com/getdata/services/azure-enterprise) para o Power BI.
 
@@ -44,10 +44,10 @@ Ligue-se ao [pacote de conteúdos do Microsoft Azure Enterprise](https://app.pow
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos do Azure Enterprise inclui dados de relatórios mensais para o intervalo de meses que fornecer durante o fluxo de ligação. O intervalo é uma janela móvel, portanto as datas incluídas são atualizadas à medida que o conjunto de dados é atualizado.
@@ -57,7 +57,7 @@ O pacote de conteúdos exige acesso às funcionalidades do Enterprise no Portal 
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Localizar parâmetros
+## <a name="finding-parameters"></a>Encontrar parâmetros
 Os relatórios do Power BI estão disponíveis para EA Direto, Parceiros e Clientes Indiretos que podem ver as informações de faturação. Leia abaixo para obter detalhes sobre a localização de cada um dos valores esperados pelo fluxo de conexão.
 
 **URL de Ambiente do Azure**

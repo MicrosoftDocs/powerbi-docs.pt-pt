@@ -1,94 +1,199 @@
 ---
-title: Vista de leitura e Vista de edição de relatórios no serviço Power BI
-description: Descrição geral detalhada das diferenças entre a Vista de leitura e a Vista de edição nos relatórios do serviço Power BI
+title: Funcionalidades para consumidores do Power BI no serviço Power BI
+description: Neste guia de início rápido, os **consumidores** ficarão a saber como utilizar o serviço Power BI.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 10/02/2018
+ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/17/2018
 ms.author: mihart
-LocalizationGroup: Reports
-ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908094"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396526"
 ---
-# <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de Leitura e Vista de Edição nos relatórios do serviço Power BI
-No serviço Power BI (mas não no Power BI Desktop), existem dois modos de visualizar e interagir com os relatórios: Vista de leitura e Vista de edição. A Vista de leitura está disponível para todos os utilizadores e foi especialmente concebida para *consumidores* de dados, enquanto a Vista de edição só está disponível para *criadores* e proprietários de relatórios.
+<!-- once the sample aps are live, change this so consumers can follow along -->
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Guia de Início Rápido: saiba mais sobre as funcionalidades do Power BI para ***consumidores***
+Neste guia de início rápido, ficará a saber como interagir com o Power BI para obter informações empresariais baseadas em dados. Este artigo não pretende ser uma descrição detalhada, mas uma apresentação rápida de muitas das ações disponíveis para os **consumidores** do Power BI.
 
-![ilustração de criadores e consumidores de relatórios](./media/end-user-reading-view/power-bi-creators-consumers.png)
+Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
-## <a name="report-reading-view"></a>Vista de leitura dos relatórios
+## <a name="prerequisites"></a>Pré-requisitos
+- Serviço Power BI (app.powerbi.com) <!-- app from AppSource -->
 
- A Vista de leitura serve para explorar e interagir com o relatório. É uma forma segura e divertida de reproduzir e ficar a conhecer os seus dados. A Vista de leitura foi concebida para os *consumidores* de relatórios; aqueles que abrem relatórios de aplicações ou que têm relatórios [partilhados com as mesmas](../service-share-dashboards.md). A Vista de Leitura assegura que cada consumidor de um relatório específico está a ver o mesmo relatório, as mesmas visualizações e, opcionalmente, com os mesmos filtros aplicados.  Os consumidores podem interagir com os relatórios, alterar os filtros existentes (e estas alterações serão guardadas com o relatório), mas não podem adicionar novos filtros.
+## <a name="reading-view"></a>Vista de leitura
+A Vista de leitura está disponível no serviço Power BI para *consumidores* de relatórios. Quando um colega partilha um relatório consigo, a Vista de leitura é a forma que utiliza para explorar e interagir com o relatório. 
 
-> [!NOTE]
-> Em determinadas circunstâncias, os consumidores dos relatórios poderão ver dados diferentes devido à segurança ao nível da linha e às permissões dos dados.
+O outro modo de relatório do Power BI é a [Vista de edição](../service-interact-with-a-report-in-editing-view.md), disponível para *estruturadores* de relatórios.  
 
-## <a name="report-editing-view"></a>Vista de edição dos relatórios
+A Vista de leitura é uma forma prática e segura de explorar os seus dashboards e relatórios. Enquanto segmenta e decompõe os dashboards e os relatórios partilhados consigo, os conjuntos de dados subjacentes permanecem intactos e inalterados. 
 
-A Vista de edição só está disponível para a pessoa que criou o relatório ou para o [coproprietário de um relatório como um membro ou administrador de uma área de trabalho da aplicação](../service-create-distribute-apps.md).
+Na Vista de leitura, pode efetuar ações como realçar e filtrar de forma cruzada os elementos visuais de uma página.  Basta realçar ou selecionar um valor num elemento visual para ver instantaneamente o impacto nos outros elementos visuais. Use o painel Filtrar para adicionar e modificar filtros numa página de relatório e alterar a maneira como os valores são classificados numa visualização. Estas são apenas algumas das funcionalidades para *consumidores* no Power BI.  Continue a ler para saber mais.
 
-A Vista de edição foi concebida para os *criadores* dos relatórios. É nesta vista que os criadores importam e se ligam aos conjuntos de dados, exploram os dados e criam relatórios e dashboards. Na Vista de edição, os *criadores* podem aprofundar ainda mais os dados ao adicionar e remover campos, ao alterar o tipo de visualização, ao criar novas visualizações e ao adicionar e eliminar visualizações e páginas do relatório. Em seguida, podem partilhar com os colegas os relatórios criados.
+ 
+### <a name="view-an-app"></a>Visualizar uma aplicação
+No Power BI, as *aplicações* juntam dashboards e relatórios relacionados num único lugar.
 
-## <a name="reading-view-versus-editing-view"></a>Vista de leitura versus Vista de edição
-Este gráfico não lista todas as capacidades de relatório do serviço Power BI! Lista apenas as tarefas de relatório que não estão disponíveis nas **duas** vistas.
+1. Selecione **Aplicações** ![Aplicações no painel de navegação à esquerda](./media/end-user-apps/power-bi-apps-bar.png) > **Obter aplicações**. 
+   
+     ![Ícone Obter aplicações](./media/end-user-reading-view/power-bi-get-app.png)
+2. No AppSource, em **A minha organização**, procure para filtrar os resultados e encontrar a aplicação que procura.
+   
+     ![No AppSource em A minha organização](./media/end-user-reading-view/power-bi-appsource.png)
+3. Selecione **Obter agora** para adicionar a aplicação ao seu Contentor de aplicações. 
 
+### <a name="view-a-dashboard"></a>Visualizar um dashboard
+Esta aplicação é aberta num dashboard. Um ***dashboard*** do Power BI é uma única página, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitada a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história.
 
-|Tarefa  | Vista de leitura  | Vista de edição |
-|-------------------------|-------|-------|
-|**Relatórios, como um todo**  |
-| [Criar ou editar um relatório](../service-report-create-new.md) | Não  | Sim |
-| [Partilhar um relatório](../service-share-reports.md)| Sim | Sim e também pode gerir as permissões, incluindo conceder a outros permissões de *proprietário*. |
-| [Criar filtros persistentes (permanentes) pormenorizados de nível visual, nível de página e nível de relatório no painel Filtros](../power-bi-report-add-filter.md) | Não  | Sim |
-| [Utilizar o painel Filtros do relatório](end-user-report-filter.md) | Sim, pode utilizar os filtros existentes e as alterações podem ser guardadas com o relatório, mas não podem ser adicionados novos filtros. | Sim |
-| [Utilizar o painel Análise do relatório](../service-analytics-pane.md) | Não | Sim |
-| [Opções **Vista** do relatório](../power-bi-report-display-settings.md) | Sim, com algumas exceções. | Sim, todas, incluindo as linhas de grelha, o ajuste e o bloqueio. |
-| [Criar um agendamento de atualização](../refresh-data.md) | Não  | Sim |
-| [Subscrever um relatório](end-user-subscribe.md) | Sim | Não |
-| [Perguntas e respostas – fazer perguntas nos relatórios](end-user-q-and-a.md) | Não  | Sim |
-| [Ver métricas de utilização ](../service-usage-metrics.md) | Sim, na tela do relatório. | Sim, na lista de relatórios (vista de conteúdo) |
-| [Ver relacionados](end-user-related.md) | Sim, na tela do relatório. | Sim, na lista de relatórios (vista de conteúdo) |
-| [Guardar um relatório](../service-report-save.md) | Sim, mas apenas através da opção **Guardar como**. | Sim |
-| [Eliminar um relatório](../service-delete.md) | Não  | Sim |
-|**Páginas do relatório** |
-| [Adicionar ou mudar o nome de uma página do relatório](../power-bi-report-add-page.md)  | Não  | Sim  |
-| [Duplicar uma página do relatório](../power-bi-report-copy-paste-page.md) | Não  | Sim |
-| [Eliminar página do relatório](../service-delete.md) | não | sim |
-|**Trabalhar com visualizações de relatórios**|
-| [Adicionar visualizações a um relatório](../visuals/power-bi-report-add-visualizations-i.md) | Não  | Sim |
-| [Adicionar caixas de texto e formas a um relatório](../power-bi-reports-add-text-and-shapes.md) | Não  | Sim |
-| [Utilizar o painel Formatação do relatório](../service-the-report-editor-take-a-tour.md) | Não | Sim |
-| [Definir interações visuais](end-user-interactions.md) | Não  | Sim |
-| [Ver os dados utilizados para criar a visualização](end-user-show-data.md) | Não  | Sim |
-| [Configurar a desagregação](end-user-drill.md) | Não  | Sim |
-| [Alterar a visualização que está a ser utilizada](../visuals/power-bi-report-change-visualization-type.md) | Não | Sim|
-| [Eliminar a visualização, a caixa de texto ou a forma](../service-delete.md)| Não | Sim |
+![dashboard](media/end-user-reading-view/power-bi-dashboard.png)
+
+As visualizações que vê no dashboard são denominadas *mosaicos* e são *afixadas* ao dashboard a partir de relatórios.
+
+### <a name="subscribe-to-a-dashboard-or-report"></a>Subscrever um dashboard (ou um relatório)
+Não é necessário abrir o Power BI para monitorizar um dashboard.  Em alternativa, pode efetuar uma subscrição para que o Power BI lhe envie um instantâneo desse dashboard por e-mail, de acordo com um agendamento que definir. 
+
+![selecionar o ícone Subscrever](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
 
-## <a name="navigating-between-editing-view-and-reading-view"></a>Navegar entre a Vista de edição e a Vista de leitura
-Nota: só o criador e o(s) proprietário(s) do relatório poderão abri-lo na Vista de edição.
+1. Na barra de menus superior, selecione **Subscrever** ou selecione o ícone de envelope ![ícone Subscrever](./media/end-user-subscribe/power-bi-icon-envelope.png).
+   
+   ![ícone Subscrever](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-1. Por predefinição, o relatório geralmente é aberto na Vista de leitura. Sabe que está na Vista de leitura se vir uma opção para **Editar relatório**. Se **Editar relatório** aparecer a cinzento, significa que não dispõe de permissões para abrir o relatório na Vista de edição.
+3. Utilize o controlo de deslize amarelo para ativar e desativar a subscrição.  Em opção, preencha os detalhes da mensagem de e-mail. 
 
-   ![opção Editar relatório a cinzento](./media/end-user-reading-view/power-bi-edit-report-grey.png)
+    Nas capturas de ecrã abaixo, repare que, na realidade, está a subscrever uma *página* de relatórios ao subscrever um relatório.  Para subscrever mais do que uma página num relatório, selecione **Adicionar outra subscrição** e selecione uma página diferente. 
+      
+   ![Janela Subscrever](./media/end-user-subscribe/power-bi-emails.png)
+   
+    Atualizar a página de relatório não atualiza o conjunto de dados. Apenas o proprietário do conjunto de dados pode atualizar manualmente um conjunto de dados. Para procurar um nome do(s) conjunto(s) de dados subjacentes, selecione **Ver relacionado** na barra de menu superior.
 
-2. Se **Editar relatório** não aparecer a cinzento, selecione a opção para abrir o relatório na Vista de edição.
+### <a name="view-related-content"></a>Ver conteúdos relacionados
+O painel **Conteúdo relacionado** mostra-lhe como os conteúdos de serviço do Power BI (dashboards, relatórios e conjuntos de dados) estão interligados. Além de o painel apresentar os conteúdos relacionados, também lhe permite efetuar ações sobre os conteúdos e navegar facilmente pelos conteúdos relacionados.
 
-   ![opção Editar relatório](./media/end-user-reading-view/power-bi-edit-report.png)
+Num dashboard ou relatório, selecione **Ver relacionados** na barra de menus superior.
 
-   O relatório está agora na Vista de edição e utiliza as mesmas [configurações de apresentação](../power-bi-report-display-settings.md) utilizadas pela última vez na Vista de leitura.
+![conteúdos relacionados](./media/end-user-reading-view/power-bi-view-related-dashboard.png)
 
-2. Para voltar à Vista de leitura, selecione **Vista de Leitura** na barra de navegação superior.
+### <a name="use-qa-to-ask-questions-using-natural-language"></a>Utilizar as Perguntas e Respostas para fazer perguntas com linguagem natural
+Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural. A caixa de perguntas das Perguntas e Respostas encontra-se na parte superior do dashboard. Por exemplo, "mostrar-me a contagem de grandes oportunidades por fase de vendas como um funil". 
 
-    ![Opção Vista de leitura](./media/end-user-reading-view/power-bi-reading-view.png)
+![Perguntas e Respostas](./media/end-user-reading-view/power-bi-qna.png)
+
+### <a name="favorite-a-dashboard"></a>Adicionar um dashboard como favorito
+Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos na barra de navegação esquerda. A barra de navegação esquerda é apresentada em praticamente qualquer área do Power BI. Normalmente, os favoritos são os dashboards, as páginas de relatórios e as aplicações a que acede com mais frequência.
+
+1. Saia das Perguntas e Respostas para regressar a um dashboard.    
+2. No canto superior direito do serviço Power BI, selecione **Favorito** ou o ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png).
+   
+   ![ícone Favorito](./media/end-user-favorite/powerbi-dashboard-favorite.png)
 
 
+### <a name="open-and-view-a-report-and-report-pages"></a>Abrir e ver um relatório e páginas de relatórios
+Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *estruturadores de relatórios* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
+
+Os relatórios podem ser abertos a partir de um dashboard. A maioria dos mosaicos do dashboard são *afixados* dos relatórios. Selecionar um mosaico abre o relatório que foi utilizado para criar o mosaico. 
+
+1. A partir de um dashboard, selecione um mosaico. Neste exemplo, selecionámos o mosaico de gráfico de colunas "Revenue" (Receita).
+
+    ![dashboard com um mosaico selecionado](./media/end-user-reading-view/power-bi-dashboard2.png)
+
+2.  O relatório associado é aberto. Repare que estamos na página "Revenue overview" (Visão geral da receita). Esta é a página do relatório que contém o gráfico de colunas que selecionámos a partir do dashboard.
+
+    ![relatório aberto na Vista de leitura](./media/end-user-reading-view/power-bi-report-opens.png)
+
+### <a name="adjust-the-display-dimensions"></a>Ajustar as dimensões de apresentação
+Os relatórios são visualizados em vários dispositivos diferentes, com diversos tamanhos de ecrã e proporções.  A composição padrão pode não ser o que deseja ver no dispositivo.  
+
+1. Para ajustar, na barra de menus superior, selecione **Ver**.
+
+    ![menu Vista do relatório](media/end-user-reading-view/power-bi-fit.png)
+
+2.  Selecione uma das opções de visualização. Neste exemplo, selecionámos **Ajustar à página**.
+
+    ![Opção Ajustar à página da Vista do relatório](media/end-user-reading-view/power-bi-report-fit.png)    
+
+### <a name="use-the-report-filters-pane"></a>Utilizar o painel Filtros do relatório
+Se o autor do relatório adicionar filtros a uma página num relatório, pode interagir com os mesmos e guardar as alterações com o relatório.
+
+1. Selecione o ícone **Filtros** no canto superior direito.
+   
+   ![selecionar o ícone de filtros](media/end-user-reading-view/filters.png)  
+
+2. Selecione um elemento visual para torná-lo ativo. Verá todos os filtros que foram aplicados a esse elemento visual (filtros de nível Visual), em toda a página de relatório (filtros de nível de Página) e em todo o relatório (filtros de nível de Relatório).
+   
+   ![tipos de filtros do relatório](media/end-user-reading-view/power-bi-reading-filters.png)
+
+3. Passe o rato sobre um filtro e expanda-o, selecionando a seta para baixo.
+   
+   ![expandir o filtro](media/end-user-reading-view/power-bi-expan-filter.png)
+
+4. Altere os filtros e veja como os elementos visuais são afetados.  
+   
+     
+     ![filtragem avançada](media/end-user-reading-view/power-bi-advanced-filter.png)
+
+### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>Ver como todos os elementos visuais numa página estão interligados
+Realce e filtre de forma cruzada as visualizações relacionadas numa página. As visualizações numa página de relatório único são "conectadas" umas às outras.  Isto significa que, se selecionar um ou mais valores numa visualização, outras visualizações que utilizem o mesmo valor serão alteradas com base na sua seleção.
+
+![realce cruzado](media/end-user-reading-view/pagefilter3b.gif)
+> 
+### <a name="display-details-on-a-visualization"></a>Apresentar detalhes numa visualização
+Passe o rato sobre os elementos visuais para ver os detalhes
+
+![passe o rato para ver os detalhes](media/end-user-reading-view/amarillachart.png)
+
+### <a name="sort-a-visualization"></a>Ordenar uma visualização
+Os elementos visuais numa página de relatório podem ser ordenados e guardados com as alterações aplicadas. 
+
+1. Coloque o cursor sobre um elemento visual para o tornar ativo.    
+2. Selecione as reticências (...) para abrir as opções de ordenação.
+
+    ![ordenar um gráfico](media/end-user-reading-view/sort.gif) 
+
+###  <a name="open-the-selection-pane"></a>Abrir o painel **Seleção**
+Navegue facilmente entre as visualizações na página do relatório. 
+
+1. Selecione **Ver > painel Seleção** para abrir o painel Seleção. Ative o **painel Seleção**.
+
+    ![Ativar o painel Seleção do relatório](media/end-user-reading-view/power-bi-selection-pane2.png)
+
+2. O painel Seleção é aberto na tela do relatório. Selecione um elemento visual na lista para o tornar ativo.
+
+    ![painel Seleção de relatórios](media/end-user-reading-view/power-bi-selection-pane-new.png)
+
+### <a name="zoom-in-on-individual-visuals"></a>Ampliar elementos visuais individuais
+Passe o rato sobre um elemento visual e selecione o ícone **Modo de detalhe** ![](media/end-user-reading-view/pbi_popouticon.jpg). Quando vir uma visualização no Modo de detalhe, esta é expandida para preencher toda a tela do relatório, conforme mostrado abaixo.
+
+![modo de detalhe](media/end-user-reading-view/powerbi-focus-mode.png)
+
+Para apresentar essa mesma visualização sem a distração de barras de menus, do painel de filtro e de outro cromado, selecione o ícone **Ecrã Inteiro** na barra de menus superior ![](media/end-user-reading-view/power-bi-focus-icon.png).
+
+![modo de ecrã inteiro](media/end-user-reading-view/power-bi-full-screen.png)
+
+### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrar os dados utilizados para criar uma visualização
+Uma visualização do Power BI é construída com dados dos conjuntos de dados subjacentes. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Quando seleciona **Mostrar Dados**, o Power BI apresenta os dados por baixo da visualização (ou junto da mesma).
+
+1. No serviço Power BI, abra um relatório e selecione um elemento visual.  
+2. Para apresentar os dados subjacentes ao elemento visual, selecione as reticências (...) e selecione **Mostrar dados**.
+   
+   ![selecionar Mostrar Dados](./media/end-user-show-data/power-bi-show-data2.png)
+
+Esta foi uma rápida descrição geral de apenas algumas das ações que os **consumidores** podem efetuar com o serviço Power BI.  
+
+## <a name="clean-up-resources"></a>Limpar recursos
+- Se estiver ligado a uma aplicação, na barra de navegação esquerda, selecione **Aplicações** para abrir a Lista de conteúdos da aplicação. Coloque o cursor sobre a aplicação para eliminar e selecione o ícone de caixote do lixo.
+
+- Se tiver importado ou estiver ligado a um relatório de exemplo do Power BI, na barra de navegação esquerda, abra **A minha área de trabalho**. Ao utilizar os separadores na parte superior, localize o dashboard, o relatório e o conjunto de dados, e selecione o ícone de caixote do lixo para cada um.
 
 ## <a name="next-steps"></a>Próximos passos
-Há muitas maneiras de interagir com o relatório na Vista de leitura, através da divisão e da repartição de dados para descobrir ideias e obter respostas a perguntas.  O próximo tópico, [Interagir com um relatório na Vista de leitura](../service-interact-with-a-report-in-editing-view.md), descreve algumas em detalhe.    
-Voltar a [relatórios no Power BI](end-user-reports.md)    
+
+

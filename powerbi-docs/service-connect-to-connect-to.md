@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f125edf58ab80da68a236d671495fc48e475c212
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243007"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548540"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Ligue-se a comScore Digital Analytix com o Power BI
 Visualize e explore os seus dados do comScore Digital Analytix no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
@@ -45,10 +45,10 @@ Ligue-se ao [pacote de conteúdos da comScore para o Power BI](https://app.power
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 <a name="Requirements"></a>
 
@@ -57,7 +57,7 @@ São necessários uma conta de utilizador de DAx comScore e acesso ao comScore D
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Parâmetros de localização
+## <a name="finding-parameters"></a>Encontrar parâmetros
 Veja abaixo detalhes sobre como encontrar cada um dos parâmetros comScore.
 
 **Data Center**
@@ -80,7 +80,7 @@ O site comScore determina o site cujos dados gostaria de ver. Pode encontrar a l
 
 ![](media/service-connect-to-connect-to/comscore_sites.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

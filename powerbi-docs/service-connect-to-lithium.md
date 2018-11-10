@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cbd67a9c35726830fc862326d9a015b96952b83
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37136301"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548563"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Ligue-se ao Lithium com o Power BI
 O Lithium cria relações de confiança entre marcas melhor do mundo e os seus clientes, ajudando as pessoas a obter respostas e partilhar as suas experiências. Ao ligar ao pacote de conteúdos do Lithium ao Power BI, pode medir as métricas-chave sobre a sua comunidade online para ajudar a estimular as vendas, reduzir os custos de serviço e aumentar a fidelidade. 
@@ -43,22 +43,22 @@ Ligue-se ao [pacote de conteúdo do Lithium](https://app.powerbi.com/getdata/ser
    ![](media/service-connect-to-lithium/creds.png)
    
    ![](media/service-connect-to-lithium/creds2.png)
-6. Quando o fluxo de início de sessão estiver concluído, o processo de importação será iniciado. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. Quando o fluxo de início de sessão estiver concluído, o processo de importação será iniciado. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
     ![](media/service-connect-to-lithium/lithium.png)
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 O pacote de conteúdo do Lithium exige uma comunidade do Lithium v15.9 ou superior. Entre em contacto com seu administrador do Lithium para confirmar.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [O que é o Power BI?](power-bi-overview.md)
 
-[Power BI - Conceitos Básicos](service-basic-concepts.md)
+[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 

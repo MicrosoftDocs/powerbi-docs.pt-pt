@@ -7,117 +7,105 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a20b6312f031452508c986565e27090fabbae019
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a7d8fc977cdacd8f0409c1ac0fa3c78e66282b67
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293818"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736901"
 ---
-# <a name="understanding-the-power-bi-admin-role"></a>Compreender a função de administrador do Power BI
-Saiba como pode utilizar a função de administrador do Power BI na sua organização.
+# <a name="understanding-the-power-bi-service-administrator-role"></a>Compreender a função de administrador do serviço Power BI
+
+Saiba como pode utilizar a função de administrador do serviço Power BI na sua organização. Os utilizadores nesta função têm controlo total sobre um inquilino do Power BI e sobre as suas funcionalidades administrativas, à exceção do licenciamento.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-A função de Administrador do Serviço Power BI pode ser atribuída a utilizadores que devem ter acesso ao Portal de Administração do Power BI sem lhes conceder também outro acesso administrativo do Office 365. Por exemplo, a função de Administrador Global. Destina-se aos utilizadores cuja tarefa é administrar o Power BI na respetiva organização.
+A função de administrador do serviço Power BI pode ser atribuída a utilizadores que precisam de ter acesso ao Portal de administração do Power BI sem conceder também a esses utilizadores acesso administrativo completo ao Office 365.
 
-Os administradores de utilizadores do Office 365 podem nomear utilizadores para serem administradores do Power BI no Centro de Administração do Office 365 ou através do script do PowerShell. Depois de um utilizador ser nomeado, poderá aceder ao [portal de administração do Power BI](service-admin-portal.md). No portal, terão acesso a métricas de utilização a nível de inquilino e poderão controlar a utilização a nível de inquilino das funcionalidades do Power BI.
-
-![](media/service-admin-role/powerbi-admin-portal.png)
-
-## <a name="using-the-office-365-admin-center-to-assign-a-role"></a>Utilizar o Centro de Administração do Office 365 para atribuir uma função
-Para atribuir a função de Administrador do Power BI aos utilizadores no Centro de Administração do Office 365, pode fazer o seguinte.
-
-1. Navegue até ao Centro de Administração do Office 365 e selecione **Utilizadores** > **Utilizadores Ativos**.
-   
-    ![](media/service-admin-role/powerbi-admin-users.png)
-2. Selecione o utilizador ao qual pretende atribuir a função.
-3. Selecione **Editar** para funções.
-   
-    ![](media/service-admin-role/powerbi-admin-edit-roles.png)
-4. Selecione **Administrador personalizado** > **Administrador do serviço Power BI**
-   
-    ![](media/service-admin-role/powerbi-admin-role.png)
-5. Selecione **Guardar**.
-
-Deverá ver **Administrador do serviço Power BI** listado para a função desse utilizador. Esse utilizador terá agora acesso ao [portal de administração do Power BI](service-admin-portal.md).
-
-![](media/service-admin-role/powerbi-admin-role-set.png)
-
-## <a name="using-powershell-to-assign-a-role"></a>Utilizar o PowerShell para atribuir uma função
-Para executar o comando do PowerShell, tem de ter o Módulo PowerShell do Azure Active Directory instalado.
-
-### <a name="download-azure-ad-powershell-module"></a>Transferir o módulo PowerShell do Azure AD
-[Transferir o Azure Active Directory PowerShell Versão 2](https://github.com/Azure/azure-docs-powershell-azuread/blob/master/Azure%20AD%20Cmdlets/AzureAD/index.md)
-
-[Transferir o Azure Active Directory PowerShell Versão 1.1.166.0 GA](http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=59185)
-
-### <a name="command-to-add-role-to-member"></a>Comando para adicionar a função ao membro
-**Comando do Azure AD PowerShell v2**
-
-Terá de obter o **ObjectId** para a função **Administrador do Serviço Power BI**. Pode executar [Get-AzureADDirectoryRole](https://docs.microsoft.com/powershell/azuread/v2/get-azureaddirectoryrole) para obter o **ObjectId**
-
-```
-PS C:\Windows\system32> Get-AzureADDirectoryRole
-
-ObjectId                             DisplayName                        Description
---------                             -----------                        -----------
-00f79122-c45d-436d-8d4a-2c0c6ca246bf Power BI Service Administrator     Full access in the Power BI Service.
-250d1222-4bc0-4b4b-8466-5d5765d14af9 Helpdesk Administrator             Helpdesk Administrator has access to perform..
-3ddec257-efdc-423d-9d24-b7cf29e0c86b Directory Synchronization Accounts Directory Synchronization Accounts
-50daa576-896c-4bf3-a84e-1d9d1875c7a7 Company Administrator              Company Administrator role has full access t..
-6a452384-6eb9-4793-8782-f4e7313b4dfd Device Administrators              Device Administrators
-9900b7db-35d9-4e56-a8e3-c5026cac3a11 AdHoc License Administrator        Allows access manage AdHoc license.
-a3631cce-16ce-47a3-bbe1-79b9774a0570 Directory Readers                  Allows access to various read only tasks in ..
-f727e2f3-0829-41a7-8c5c-5af83c37f57b Email Verified User Creator        Allows creation of new email verified users.
-```
-
-Neste caso, o objectid da função é 00f79122-c45d-436d-8d4a-2c0c6ca246bf.
-
-Também terá de saber o **ObjectID** dos utilizadores. Para encontrá-lo, execute [Get-AzureADUser](https://docs.microsoft.com/powershell/azuread/v2/get-azureaduser).
-
-```
-PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
-
-ObjectId                             DisplayName UserPrincipalName      UserType
---------                             ----------- -----------------      --------
-6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c Tim         tim@contoso.com        Member
-```
-
-Para adicionar o membro à função, execute [Add-AzureADDirectoryRoleMember](https://docs.microsoft.com/powershell/azuread/v2/add-azureaddirectoryrolemember).
-
-| Parâmetro | Descrição |
-| --- | --- |
-| ObjectId |O ObjectId da Função. |
-| RefObjectId |O ObjectId dos membros. |
-
-```
-Add-AzureADDirectoryRoleMember -ObjectId 00f79122-c45d-436d-8d4a-2c0c6ca246bf -RefObjectId 6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c
-```
-
-**Comando do Azure AD PowerShell v1**
-
-Para adicionar um membro a uma função com os cmdlets do Azure AD v1, terá de executar o comando [Add-MsolRoleMember](https://docs.microsoft.com/powershell/msonline/v1/add-msolrolemember).
-
-```
-Add-MsolRoleMember -RoleMemberEmailAddress "tim@contoso.com" -RoleName "Power BI Service Administrator"
-```
+Os administradores de gestão de utilizadores do Office 365 atribuem utilizadores à função de administrador do serviço Power BI no Centro de administração do Office 365 ou através de um script do PowerShell. Depois de serem atribuídos, os utilizadores poderão aceder ao [portal de administração do Power BI](service-admin-portal.md). No portal, têm acesso a métricas de utilização a nível do inquilino e podem controlar a utilização a nível do inquilino das funcionalidades do Power BI.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-A função de administrador do serviço Power BI não fornece acesso ao seguinte.
 
-* Capacidade de modificar utilizadores e licenças no Centro de Administração do Office 365
+A função de administrador do serviço Power BI não fornece as seguintes capacidades:
+
+* Capacidade de modificar utilizadores e licenças no centro de administração do Office 365.
+
 * Acesso aos registos de auditoria. Para obter mais informações, veja [Utilizar a auditoria na sua organização](service-admin-auditing.md).
 
+## <a name="assign-users-to-the-admin-role-in-office-365"></a>Atribuir utilizadores à função de administrador no Office 365
+
+Para atribuir utilizadores à função de administrador do Power BI no centro de administração do Office 365, siga estes passos.
+
+1. No Centro de administração do Office 365, selecione **Utilizadores** > **Utilizadores Ativos**.
+
+    ![Centro de Administração do Office 365](media/service-admin-role/powerbi-admin-users.png)
+
+1. Selecione o utilizador ao qual pretende atribuir a função.
+
+1. Em **Funções**, selecione **Editar**.
+
+    ![Editar funções](media/service-admin-role/powerbi-admin-edit-roles.png)
+
+1. Selecione **Administrador personalizado** > **Administrador do serviço Power BI**.
+
+    ![Administrador do serviço Power BI](media/service-admin-role/powerbi-admin-role.png)
+
+1. Selecione **Guardar** e **Fechar**.
+
+Deverá ver **Administrador do serviço Power BI** listado para a função desse utilizador.
+
+![Funções](media/service-admin-role/powerbi-admin-role-set.png)
+
+## <a name="assign-users-to-the-admin-role-with-powershell"></a>Atribuir utilizadores à função de administrador no PowerShell
+
+Também pode atribuir utilizadores às funções com o PowerShell. Os utilizadores são geridos no Microsoft Azure Active Directory (Microsoft Azure AD). Se ainda não tiver o módulo Azure AD PowerShell, [transfira e instale a versão mais recente](https://www.powershellgallery.com/packages/AzureAD/).
+
+1. Primeiro, obtenha o **ObjectId** para a função **Administrador do Serviço Power BI**. Pode executar [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) para obter o **ObjectId**
+
+    ```
+    PS C:\Windows\system32> Get-AzureADDirectoryRole
+
+    ObjectId                             DisplayName                        Description
+    --------                             -----------                        -----------
+    00f79122-c45d-436d-8d4a-2c0c6ca246bf Power BI Service Administrator     Full access in the Power BI Service.
+    250d1222-4bc0-4b4b-8466-5d5765d14af9 Helpdesk Administrator             Helpdesk Administrator has access to perform..
+    3ddec257-efdc-423d-9d24-b7cf29e0c86b Directory Synchronization Accounts Directory Synchronization Accounts
+    50daa576-896c-4bf3-a84e-1d9d1875c7a7 Company Administrator              Company Administrator role has full access t..
+    6a452384-6eb9-4793-8782-f4e7313b4dfd Device Administrators              Device Administrators
+    9900b7db-35d9-4e56-a8e3-c5026cac3a11 AdHoc License Administrator        Allows access manage AdHoc license.
+    a3631cce-16ce-47a3-bbe1-79b9774a0570 Directory Readers                  Allows access to various read only tasks in ..
+    f727e2f3-0829-41a7-8c5c-5af83c37f57b Email Verified User Creator        Allows creation of new email verified users.
+    ```
+
+    Neste caso, o **ObjectId** da função é 00f79122-c45d-436d-8d4a-2c0c6ca246bf.
+
+1. Em seguida, obtenha o **ObjectId** do utilizador. Para encontrá-lo, execute [Get-AzureADUser](/powershell/module/azuread/get-azureaduser).
+
+    ```
+    PS C:\Windows\system32> Get-AzureADUser -SearchString 'tim@contoso.com'
+
+    ObjectId                             DisplayName UserPrincipalName      UserType
+    --------                             ----------- -----------------      --------
+    6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c Tim         tim@contoso.com        Member
+    ```
+
+1. Para adicionar o membro à função, execute [Add-AzureADDirectoryRoleMember](/powershell/module/azuread/add-azureaddirectoryrolemember).
+
+    | Parâmetro | Descrição |
+    | --- | --- |
+    | ObjectId |O ObjectId da Função. |
+    | RefObjectId |O ObjectId dos membros. |
+
+    ```powershell
+    Add-AzureADDirectoryRoleMember -ObjectId 00f79122-c45d-436d-8d4a-2c0c6ca246bf -RefObjectId 6a2bfca2-98ba-413a-be61-6e4bbb8b8a4c
+    ```
+
 ## <a name="next-steps"></a>Próximos passos
+
+[Administrar o Power BI na sua Organização](service-admin-administering-power-bi-in-your-organization.md)  
 [Portal de administração do Power BI](service-admin-portal.md)  
-[Add-AzureADDirectoryRoleMember](https://docs.microsoft.com/powershell/azuread/v2/add-azureaddirectoryrolemember)  
-[Add-MsolRoleMember](https://docs.microsoft.com/powershell/msonline/v1/add-msolrolemember)  
-[Fazer a auditoria do Power BI na sua organização](service-admin-auditing.md)  
-[Administrar o Power BI na sua organização](service-admin-administering-power-bi-in-your-organization.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-

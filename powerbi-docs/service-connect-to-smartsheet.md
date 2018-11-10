@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dfcaabc7f36dd65c6e7dbf56b84778c62760da5d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e91fda3afe74875ed1b785862f13f53d9aff7108
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135703"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544607"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Ligue-se ao Smartsheet com o Power BI
 O Smartsheet oferece uma plataforma fácil para colaboração e partilha de ficheiros. O pacote de conteúdos Smartsheet para Power BI fornece um dashboard, relatórios e o conjunto de dados que mostra uma visão geral da sua conta de Smartsheet. Também é possível usar o [Power BI Desktop](desktop-connect-to-data.md) para se conectar diretamente às folhas individuais na sua conta. 
@@ -46,19 +46,19 @@ Ligue-se ao [pacote de conteúdos do Smartsheet](https://app.powerbi.com/groups/
    
    ![](media/service-connect-to-smartsheet/dashboard.png)
 
-**E agora?**
+**O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdo do Smartsheet para o Power BI inclui uma visão geral de sua conta do Smartsheet, tais como o número de espaços de trabalho, os relatórios e os livros existentes, informações sobre a data em que são modificados, etc. Os utilizadores administradores também podem ver algumas informações sobre os utilizadores no seu sistema, como os principais criadores de livros.  
 
 Para se ligar diretamente a planilhas livros na sua conta, é possível utilizar o conector do Smartsheet no [Power BI Desktop](desktop-connect-to-data.md).  
 
-## <a name="next-steps"></a>Próximos passos:
+## <a name="next-steps"></a>Passos seguintes:
 
 [O que é o Power BI?](power-bi-overview.md)
 

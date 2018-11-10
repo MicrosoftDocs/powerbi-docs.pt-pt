@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222088"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223105"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>Utilizar elementos visuais personalizados organizacionais no Power BI
 
@@ -54,4 +54,12 @@ Utilizador final:
 
 * Os elementos visuais do Visio, do PowerApps, do Mapbox e do GlobeMap do marketplace do AppSource não serão compostos se forem implementados através do repositório da organização.
 
-Para obter mais informações e respostas a perguntas, aceda às [perguntas frequentes](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+## <a name="troubleshoot"></a>Resolução de problemas
+
+Para obter mais informações sobre resoluções de problemas, aceda a [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Resolver problemas com os elementos visuais personalizados do Power BI).
+
+## <a name="faq"></a>PERGUNTAS FREQUENTES
+
+Para obter mais informações e respostas a perguntas, aceda às [Perguntas frequentes sobre os elementos visuais personalizados do Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).

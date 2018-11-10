@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 6aa5b5dbb22881b6bccaa2ed43352a8f22308675
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582644"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546654"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Ligar ao Acumatica com o Power BI
-O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI recupera os seus dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
+O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI obtém os dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
 
 Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/services/acumatica) ou leia mais sobre a [Integração do Acumatica](https://powerbi.microsoft.com/integrations/acumatica) com o Power BI.
 
@@ -49,17 +49,17 @@ Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/s
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 
-**E agora?**
+**O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 Este pacote de conteúdos exige o Acumatica v5.2 ou superior; confirme a versão com o administrador do Acumatica.
 
-## <a name="finding-parameters"></a>A localizar parâmetros
+## <a name="finding-parameters"></a>Encontrar parâmetros
 **Ponto de Final OData do Acumatica**
 
 O ponto final OData do Acumatica é formatado da seguinte forma e deve utilizar HTTPS:
@@ -81,7 +81,7 @@ Se não conseguir iniciar a sessão, verifique se o ponto de extremidade OData d
 
 Se tiver problemas para se ligar, confirme com o administrador a sua versão do Acumatica. Este pacote de conteúdos requer a versão 5.2 ou posterior.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

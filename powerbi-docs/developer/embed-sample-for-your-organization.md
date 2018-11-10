@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827462"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396871"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Incorporar um relatório, dashboard ou mosaico do Power BI numa aplicação para a sua organização
 
@@ -100,7 +100,7 @@ Tem de ativar permissões adicionais para a sua aplicação, além do que indico
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
+### <a name="create-an-app-workspace"></a>Criar uma área de trabalho da aplicação
 
 Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, coloque o conteúdo dentro de uma área de trabalho de aplicação:
 
@@ -158,13 +158,13 @@ Para começar a incorporar os seus conteúdos através de uma aplicação de exe
 
     ![Exemplo de aplicação User Owns Data](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Abra o ficheiro **Cloud.config** na aplicação de exemplo. Existem alguns campos que tem de preencher para executar a aplicação com êxito: **ClientID** e **ClientSecret**.
+2. Abra o ficheiro **Cloud.config** na aplicação de exemplo. Existem alguns campos que tem de preencher para executar a aplicação com êxito: **ApplicationID** e **ApplicationSecret**.
 
     ![Cloud.config file](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Preencha as informações de **ClientID** com o **ID da Aplicação** do Azure. O **ClientID** serve para a aplicação se identificar aos utilizadores aos quais está a pedir permissões.
+    Preencha as informações de **ApplicationID** com o **ID da Aplicação** do Azure. O **ApplicationID** serve para a aplicação se identificar aos utilizadores aos quais está a pedir permissões.
 
-    Para obter o **ClientID**, siga estes passos:
+    Para obter o **ApplicationID**, siga estes passos:
 
     1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
@@ -174,17 +174,17 @@ Para começar a incorporar os seus conteúdos através de uma aplicação de exe
 
         ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Selecione a aplicação que precisa de utilizar o **ClientID**.
+    1. Selecione a aplicação que precisa de utilizar o **ApplicationID**.
 
         ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Deverá ver um **ID da Aplicação** que está listado como um GUID. Utilize este **ID da Aplicação** como o **ClientID** para a aplicação.
+    1. Deverá ver um **ID da Aplicação** que está listado como um GUID. Utilize este **ID da Aplicação** como o **ApplicationID** da aplicação.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Preencha as informações de **ClientSecret** dentro da secção **Chaves** da sua secção **Registos das aplicações** no **Azure**.
+    1. Preencha as informações de **ApplicationSecret** na secção **Chaves** da sua secção **Registos das aplicações** no **Azure**.
 
-    1. Para obter o **ClientSecret**, siga estes passos:
+    1. Para obter o **ApplicationSecret**, siga estes passos:
 
         1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
@@ -194,7 +194,7 @@ Para começar a incorporar os seus conteúdos através de uma aplicação de exe
 
             ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Selecione a aplicação que precisa de utilizar o **ClientSecret**.
+        1. Selecione a aplicação que precisa de utilizar o **ApplicationSecret**.
 
             ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
@@ -455,7 +455,7 @@ Após criar a capacidade dedicada, pode atribuir a área de trabalho da sua apli
 
     ![Atribuir uma capacidade dedicada](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Após selecionar **Guardar**, deverá ver um diamante junto ao nome da área de trabalho da aplicação.
+3. Após selecionar **Guardar**, deverá ver um losango junto ao nome da área de trabalho da aplicação.
 
     ![Área de trabalho da aplicação associada a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

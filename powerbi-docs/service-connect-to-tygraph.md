@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599053"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548448"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Ligue-se ao tyGraph com o Power BI
 Visualize e explore os seus dados do tyGraph no Power BI com o pacote de conteúdos do Power BI. Comece por ligar-se à sua conta do tyGraph e por carregar o dashboard, os relatórios e o conjunto de dados. O conteúdo pronto para utilização inclui informações, como a pontuação MAE (Medida de Envolvimento Ativo) e Principais Colaboradores. Personalize ainda mais de modo a realçar as informações mais importantes para si.  Os dados serão atualizados automaticamente de acordo com um agendamento definido por si.
@@ -51,14 +51,14 @@ Ligue-se ao [tyGraph para o Power BI](https://app.powerbi.com/getdata/services/t
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Parâmetros de localização
+## <a name="finding-parameters"></a>Encontrar parâmetros
 Pode importar dados em todos os grupos aos quais tem acesso ou pode optar por especificar um subconjunto. Também pode criar um subconjunto de dados por data. Pode criar vários dashboards do tyGraph para monitorizar conjuntos específicos de grupos e/ou datas. Veja abaixo os detalhes sobre estes parâmetros.
 
 **Grupos**
@@ -88,7 +88,7 @@ No exemplo acima, todos os dados de 29 de outubro de 2013 ou após essa data ser
 
 No exemplo acima, todos os dados de 20 de outubro de 2014 ou data anterior serão carregados no pacote de conteúdos. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

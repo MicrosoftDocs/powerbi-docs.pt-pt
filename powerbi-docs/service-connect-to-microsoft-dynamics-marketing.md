@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695116"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549755"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Ligue-se ao Microsoft Dynamics Marketing com o Power BI
 O pacote de conteúdos do Microsoft Dynamics Marketing para o Power BI permite-lhe aceder e analisar facilmente os seus dados no Dynamics Marketing. O pacote de conteúdos utiliza um modelo descritivo no feed OData, com todas as entidades e as medidas necessárias, como Programas, Campanhas, Empresas e Contactos de Marketing, Clientes Potenciais, Interações de Cliente Potencial e Pontuação de Cliente Potencial, Sites e Mensagens de Marketing por E-mail, observações comportamentais, orçamentos, transações financeiras, KPIs de desempenho e muito mais. 
@@ -23,7 +23,7 @@ O pacote de conteúdos do Microsoft Dynamics Marketing para o Power BI permite-l
 Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/getdata/services/microsoft-dynamics-marketing) para o Power BI.
 
 >[!NOTE]
->Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Consulte os requisitos adicionais abaixo.
+>Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local). Veja os requisitos adicionais abaixo.
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
@@ -45,14 +45,14 @@ Ligue-se ao [pacote de conteúdo do Dynamics Marketing](https://app.powerbi.com/
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynammktgnewdash.png)
 
-**E agora?**
+**O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 * Tem de especificar um URL do OData válido para uma instância do Dynamics Marketing (o pacote de conteúdos não funcionará com uma versão do CRM no local).  
 * Um administrador tem de ativar o ponto final OData nas definições do site. O endereço do ponto final do OData pode ser encontrado navegando até **Início \> Configurações \> Configurações de Site** na secção **Serviço de Dados da Organização**.  O URL do OData tem o formato:  https://[instance\_name].marketing.dynamics.com/analytics  
 * A conta/identidade do utilizador utilizada para aceder ao Microsoft Dynamics Marketing tem ser a mesma na qual se inscreveu para utilizar o Power BI. Ao iniciar sessão no Microsoft Dynamics Marketing, o início de sessão será realizado automaticamente com a mesma identidade que utiliza para o Power BI. Se quiser iniciar sessão no Microsoft Dynamics Marketing com uma conta diferente, registe-se como um utilizador do Power BI através dessa outra conta. Esperamos resolver este problema numa versão futura.   
@@ -69,7 +69,7 @@ Se ainda está com problemas, abra um pedido de suporte para contactar a equipa 
 * Na aplicação do Power BI, selecione o ponto de interrogação \> **Contactar o Suporte**.
 * No site de Suporte do Power BI (onde está a ler este artigo), selecione **Contactar Suporte** no lado direito da página.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Obter Dados para o Power BI](service-get-data.md)
 
 [O que é o Power BI?](power-bi-overview.md)

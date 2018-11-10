@@ -1,5 +1,5 @@
 ---
-title: Exportar relatórios do Power BI para o PowerPoint (Pré-visualização)
+title: Exportar relatórios do Power BI para o PowerPoint
 description: Saiba como exportar um relatório do Power BI para o PowerPoint.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565343"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736947"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Exportar relatórios do Power BI para o PowerPoint (Pré-visualização)
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 Com o Power BI, já pode publicar o seu relatório no **Microsoft PowerPoint** e criar facilmente um conjunto de diapositivos com base no seu relatório do Power BI. Quando **exportar para o PowerPoint**, acontece o seguinte:
 
 * Cada página no relatório do Power BI torna-se um diapositivo no PowerPoint
@@ -77,9 +77,9 @@ Há algumas considerações e limitações a ter em conta ao trabalhar com a fun
 * Os **visuais R** não são atualmente suportados. Estes visuais são exportados como imagem em branco para o PowerPoint com uma mensagem de erro a indicar que o visual não é suportado.
 * Os **visuais personalizados** que tenham sido **certificados** são suportados. Para obter mais informações sobre visuais personalizados certificados, incluindo como certificar um visual personalizado, consulte [certificar um visual personalizado](../power-bi-custom-visuals-certified.md). Os visuais personalizados que não tenham sido certificados não são suportados, sendo exportados como imagem em branco para o PowerPoint com uma mensagem de erro a indicar que o visual não é suportado.
 * Os **visuais personalizados certificados** são suportados. Foi aprovado um visual personalizado certificado para utilização com o Power BI, que cumpre determinados requisitos de código e passou testes de segurança exigentes. [Saiba mais sobre os **visuais personalizados certificados**](../power-bi-custom-visuals-certified.md).
-* Atualmente, não é possível exportar relatórios com mais de 15 páginas de relatório.
+* Atualmente, não pode exportar relatórios com mais de 30 páginas.
 * O processo de exportar o relatório para o PowerPoint pode demorar alguns minutos, pelo que pedimos que seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço Power BI.
-* Se o item de menu **Exportar para PowerPoint (Pré-visualização)** não estiver disponível no serviço Power BI, tal pode dever-se ao facto de o seu administrador de inquilino ter desativado a funcionalidade. Contacte o seu administrador de inquilino para obter informações.
+* Se o item de menu **Exportar para PowerPoint** não estiver disponível no serviço Power BI, tal poderá dever-se ao facto de o seu administrador de inquilinos ter desativado a funcionalidade. Contacte o seu administrador de inquilino para obter informações.
 * As imagens de fundo serão recortadas com a área delimitadora do gráfico. Recomenda-se vivamente que remova as imagens de fundo antes de exportar para o PowerPoint.
 * A **Interatividade em sessão**, como realçar e filtrar, desagregar, entre outros, ainda não é suportada ao exportar para o PowerPoint. O PowerPoint exportado mostra os visuais originais conforme estes foram guardados no relatório.
 * As páginas no PowerPoint são sempre criadas no tamanho padrão de 9:16, independentemente dos tamanhos ou dimensões de página originais no relatório do Power BI.

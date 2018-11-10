@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f5d1b07a4066b897aaa0946c6f5417a9de4f458f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243828"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549496"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Ligue-se a appFigures com o Power BI
-É fácil acompanhar as estatísticas importantes sobre as suas aplicações com o Power BI e com o pacote de conteúdos do appFigures. O Power BI recupera os seus dados, incluindo vendas de aplicações, downloads e estatísticas de anúncios, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
+É fácil acompanhar as estatísticas importantes sobre as suas aplicações com o Power BI e com o pacote de conteúdos do appFigures. O Power BI obtém os dados, incluindo vendas de aplicações, downloads e estatísticas de anúncios, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
 
 Ligue-se ao [pacote de conteúdo do appFigures](https://app.powerbi.com/getdata/services/appfigures) ou leia mais sobre a [integração do appFigures](https://powerbi.microsoft.com/integrations/appfigures) com o Power BI.
 
@@ -34,22 +34,22 @@ Ligue-se ao [pacote de conteúdo do appFigures](https://app.powerbi.com/getdata/
    ![](media/service-connect-to-appfigures/appfigures.png)
 4. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**. Quando solicitado, insira as suas credenciais do appFigures e siga o processo de autenticação correspondente.
    
-   Na primeira vez que se ligar, o Power BI solicita o acesso de apenas leitura à sua conta. Selecione **Permitir** para iniciar o processo de importação. Isso pode levar alguns minutos, dependendo do volume de dados na sua conta.
+   Quando ligar pela primeira vez, o Power BI pede-lhe para permitir acesso só de leitura à sua conta. Selecione **Permitir** para iniciar o processo de importação. Isso pode levar alguns minutos, dependendo do volume de dados na sua conta.
    
    ![](media/service-connect-to-appfigures/appfiguresdoc_06.png)
-5. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os itens novos são marcados com um asterisco amarelo \*:
+5. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*:
    
     ![](media/service-connect-to-appfigures/pbi_appfigures3.png)
-6. Selecione o dashboard appFigures. Esse é o dashboard predefinido criado pelo Power BI para exibir seus dados. Pode alterar este dashboard para apresentar os dados da forma que quiser.
+6. Selecione o dashboard appFigures. Este é o dashboard predefinido criado pelo Power BI para apresentar os seus dados. Pode alterar este dashboard para apresentar os dados da forma que quiser.
    
     ![](media/service-connect-to-appfigures/appfiguresdoc_01.png)
 
-**E agora?**
+**O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](power-bi-q-and-a.md) na parte superior do dashboard
+* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 Os dados a seguir estão disponíveis no appFigures no Power BI.
@@ -67,7 +67,7 @@ Se os dados de algumas das aplicações não estão a aparecer no Power BI, cert
 
 ![](media/service-connect-to-appfigures/appfiguresdoc_11.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Introdução ao Power BI](service-get-started.md)
 * [Obter dados no Power BI](service-get-data.md)
 
