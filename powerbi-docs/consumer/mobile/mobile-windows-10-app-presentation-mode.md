@@ -1,5 +1,5 @@
 ---
-title: Ver no modo de apresentação no Surface Hub, Windows 10 - Power BI I
+title: Ver no modo de apresentação no Surface Hub e Windows 10 – Power BI
 description: Saiba mais sobre mostrar relatórios do Power BI no Surface Hub e mostrar dashboards, relatórios e mosaicos do Power BI em ecrã inteiro, em dispositivos Windows 10.
 author: maggiesMSFT
 manager: kfile
@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 363bcae5a1bcc70d90cdb71f8a1ac2e2372b93e2
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737118"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507939"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Ver relatórios no modo de apresentação no Surface Hub e Windows 10 - Power BI
 Pode apresentar relatórios no modo de apresentação do Surface Hub e apresentar dashboards, relatórios e mosaicos no modo de ecrã inteiro em dispositivos Windows 10. 
@@ -27,7 +27,7 @@ No modo de ecrã inteiro, na aplicação móvel do Power BI, todo o "cromado", c
 
 Quando mostrar um relatório em modo de apresentação no Surface Hub, pode desenhar nas páginas com diferentes cores de tinta digital e navegar entre as páginas do relatório.
 
-Pode também [ver dashboards e relatórios em modo de ecrã inteiro a partir do serviço Power BI](../../service-fullscreen-mode.md) na Web.
+Pode também [ver dashboards e relatórios em modo de ecrã inteiro a partir do serviço Power BI](../end-user-focus.md) na Web.
 
 > [!NOTE]
 > O modo de apresentação é diferente do [modo de detalhe para mosaicos](mobile-tiles-in-the-mobile-apps.md).
@@ -74,6 +74,6 @@ O modo de apresentação está ativado por predefinição no Surface Hub mas, se
 7. Para sair do modo de ecrã inteiro, percorra os dedos da parte superior para baixo e toque nas duas setas voltadas uma para a outra ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
 
 ## <a name="next-steps"></a>Próximos passos
-* [Ver dashboards e relatórios em modo de ecrã inteiro a partir do serviço Power BI](../../service-fullscreen-mode.md)
+* [Ver dashboards e relatórios em modo de ecrã inteiro a partir do serviço Power BI](../end-user-focus.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

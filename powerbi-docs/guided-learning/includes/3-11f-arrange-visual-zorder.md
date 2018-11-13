@@ -4,7 +4,7 @@ Para gerir a ordem z de elementos num relatório, selecione um elemento e utiliz
 
 ![](media/3-11f-arrange-visual-zorder/3-11f_1.png)
 
-Com as opções do menu do botão **Dispor**, pode obter a ordem dos elementos no relatório conforme pretender. Pode mover uma camada visual para a frente ou para trás, ou enviá-la para a frente da parte detrás da ordem.
+Utilize as opções do menu do botão **Dispor** para ordenar os elementos do seu relatório da forma pretendida. Pode mover uma camada visual para a frente ou para trás, ou enviá-la para a frente da parte detrás da ordem.
 
 O botão Dispor é particularmente útil ao utilizar as formas como fundos ou limites decorativos, ou para realçar secções específicas de um gráfico individual. Também pode utilizá-las para criar um fundo, como o retângulo azul claro seguinte a ser utilizado para um fundo do título de relatório.
 

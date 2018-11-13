@@ -1,5 +1,5 @@
 ---
-title: Localizar e ligar a um pacote de conteúdos organizacional – Power BI
+title: Localizar e ligar a pacotes de conteúdos organizacional
 description: Encontrar e abrir um pacote de conteúdos organizacional no Power BI
 author: mihart
 manager: kvivek
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4648d09e6ef58d84b85690062428f0515fa7ddae
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908087"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507721"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Encontrar e ligar-se a um pacote de conteúdos organizacional
 

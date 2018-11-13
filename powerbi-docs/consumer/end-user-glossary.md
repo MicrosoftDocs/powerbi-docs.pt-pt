@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799264"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508020"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -158,7 +158,7 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 
 **página de lista** ou **lista de conteúdo** Uma das páginas de secção para os elementos na navegação à esquerda. Por exemplo, Favoritos, Recentes, A minha área de trabalho, etc.
 
-## <a name="m"></a>S
+## <a name="m"></a>M
 
 **medidas** Cálculos personalizados escritos no Power BI Desktop com o código DAX ou medidas rápidas.
 
@@ -317,4 +317,4 @@ Os dashboards do Power BI contêm mosaicos de relatório.
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Conceitos básicos para o consumidor do serviço Power BI](/consumers/end-user-basic-concepts.md)
+[Conceitos básicos para o consumidor do serviço Power BI](end-user-basic-concepts.md)

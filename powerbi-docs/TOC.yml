@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: Overview
+  - name: Descrição Geral
     items:
     - name: O que é o Power BI Desktop?
       href: desktop-what-is-desktop.md
@@ -372,7 +372,7 @@ items:
       href: desktop-admin-sign-in-form.md
 - name: Serviço Power BI
   items:
-  - name: Overview
+  - name: Descrição Geral
     items:
     - name: O que é Power BI?
       href: power-bi-overview.md
@@ -428,8 +428,6 @@ items:
       items:
       - name: Mudar o nome do conteúdo no Power BI
         href: service-rename.md
-      - name: Display dashboards and reports in Full Screen mode (TV mode) (Apresentar dashboards e relatórios no Modo de Ecrã Inteiro [modo de televisão])
-        href: service-fullscreen-mode.md
       - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
         href: service-insights.md
       - name: Enroll your US Government organization (Inscrever a sua organização de Administração Pública dos EUA)
@@ -766,6 +764,24 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização falhar
         href: service-refresh-xero-credentials.md
+    - name: Preparação personalizada de dados
+      items:
+      - name: Preparação personalizada de dados com fluxos de dados (pré-visualização)
+        href: service-dataflows-overview.md
+      - name: Criar e utilizar fluxos de dados
+        href: service-dataflows-create-use.md
+      - name: Entidades calculadas com o Power BI Premium
+        href: service-dataflows-computed-entities-premium.md
+      - name: Utilizar fluxos de dados com origens de dados no local
+        href: service-dataflows-on-premises-gateways.md
+      - name: Ligar a entidades entre fluxos de dados (pré-visualização)
+        href: service-dataflows-linked-entities.md
+      - name: Utilizar a atualização incremental com fluxos de dados (pré-visualização)
+        href: service-dataflows-incremental-refresh.md
+      - name: Recursos para programadores para fluxos de dados
+        href: service-dataflows-developer-resources.md
+      - name: Ligar a fluxos de dados no Power BI Desktop
+        href: desktop-connect-dataflows.md
   - name: Recursos
     items:
     - name: Vídeos
@@ -776,13 +792,43 @@ items:
       href: supported-languages-countries-regions.md
     - name: Whitepapers (Documentos técnicos)
       href: whitepapers.md
+- name: Relatórios paginados no Power BI
+  items:
+  - name: Descrição Geral
+    items:
+    - name: O que são relatórios paginados? (Pré-visualização)
+      href: paginated-reports-report-builder-power-bi.md
+  - name: Tutoriais
+    items:
+    - name: Criar um relatório paginado e carregá-lo
+      href: paginated-reports-quickstart-aw.md
+  - name: Conceitos
+    items:
+    - name: Navegar na Vista de Estrutura do Relatório
+      href: paginated-reports-report-design-view.md
+    - name: FAQ sobre relatórios paginados
+      href: paginated-reports-faq.md
+  - name: Procedimentos
+    items:
+    - name: Criar uma origem de dados incorporada
+      href: paginated-reports-embedded-data-source.md
+    - name: Criar um conjunto de dados incorporado
+      href: paginated-reports-create-embedded-dataset.md
+    - name: Criar parâmetros
+      href: paginated-reports-parameters.md
+    - name: Publicar um relatório paginado
+      href: paginated-reports-save-to-power-bi-service.md
+    - name: Ver um relatório paginado
+      href: paginated-reports-view-power-bi-service.md
+    - name: Interagir com parâmetros
+      href: paginated-reports-view-parameters.md
 - name: Power BI para programadores
   items:
   - name: O que podem os programadores fazer com o Power BI
     href: developer/what-can-you-do.md
   - name: Análise Incorporada
     items:
-    - name: Overview
+    - name: Descrição Geral
       items:
       - name: O que é a incorporação com o Power BI?
         href: developer/embedding.md
@@ -874,7 +920,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: Desenvolver Elementos Visuais Personalizados
     items:
-    - name: Overview
+    - name: Descrição Geral
       items:
       - name: Adding Custom visuals into Power BI (Adicionar Elementos Visuais Personalizados no Power BI)
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
@@ -916,7 +962,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: Automatização
     items:
-    - name: Overview
+    - name: Descrição Geral
       items:
       - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
         href: developer/overview-of-power-bi-rest-api.md
@@ -966,7 +1012,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: Power BI Report Server
   items:
-  - name: Overview
+  - name: Descrição Geral
     items:
     - name: O que é o Power BI Report Server?
       href: report-server/get-started.md
@@ -1068,7 +1114,7 @@ items:
       href: report-server/capacity-planning.md
 - name: Gateways
   items:
-  - name: Overview
+  - name: Descrição Geral
     items:
     - name: O que são os gateways do Power BI?
       href: service-gateway-getting-started.md
@@ -1124,7 +1170,7 @@ items:
       href: service-gateway-onprem-tshoot.md
 - name: Administration
   items:
-  - name: Overview
+  - name: Descrição Geral
     items:
     - name: O que é a administração do Power BI?
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1203,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a0d2f9e2fcf26f3eca516a1204c9d25a9225010f
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7c2025a2dd23ce58937cd9987bec8d28b8ffb04c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223197"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508066"

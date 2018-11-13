@@ -1,5 +1,5 @@
 ---
-title: O que é um dashboard do Power BI?
+title: O que é um dashboard para os consumidores do serviço Power BI?
 description: Os dashboards são uma funcionalidade chave do serviço Power BI.
 author: mihart
 manager: kvivek
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909136"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507618"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Dashboards no serviço Power BI
+# <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards para consumidores do serviço Power BI
 
 Um ***dashboard*** do Power BI é uma única página, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitada a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história.
 
@@ -26,7 +26,7 @@ Um ***dashboard*** do Power BI é uma única página, frequentemente denominada 
 As visualizações que vê no dashboard são denominadas *mosaicos* e são *afixadas* ao dashboard a partir de relatórios. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
-> Os dashboards são uma funcionalidade do serviço Power BI e não estão disponíveis no Power BI Desktop. Os dashboards não podem ser criados em dispositivos móveis, mas podem ser [visualizados e partilhados](/mobile/mobile-apps-view-dashboard.md).
+> Os dashboards são uma funcionalidade do serviço Power BI e não estão disponíveis no Power BI Desktop. Os dashboards não podem ser criados em dispositivos móveis, mas podem ser [visualizados e partilhados](mobile/mobile-apps-view-dashboard.md).
 > 
 > 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544994"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507859"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugestões para criar um dashboard excelente no Power BI
 Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como tornar o dashboard não apenas bonito, mas também funcional. Em geral, significa destacar as informações mais importantes e torná-las claras e organizadas.
@@ -43,7 +43,7 @@ Uma vez que os dashboards devem mostrar informações importantes rapidamente, �
 O dashboard está muito confuso?  Remova todas as informações que não são essenciais que podem ser facilmente lidas e interpretadas.
 
 ## <a name="make-use-of-full-screen-mode"></a>Utilizar o modo de ecrã inteiro
-Mostre o seu dashboard em [ecrã inteiro](service-fullscreen-mode.md) sem distrações.
+Mostre o seu dashboard em [ecrã inteiro](consumer/end-user-focus.md) sem distrações.
 
 ## <a name="make-the-most-important-information-biggest"></a>Adicionar as informações mais importantes
 Se o texto e as visualizações no dashboard forem do mesmo tamanho, os leitores terão dificuldade em se concentrar no que é mais importante. Por exemplo, as visualizações de cartão são uma boa forma de apresentar um número importante em destaque:  

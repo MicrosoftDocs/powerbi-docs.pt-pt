@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564998"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507675"
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir a partir do serviço Power BI
 Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
@@ -47,7 +47,7 @@ Veja a Amanda a imprimir o seu dashboard e relatório. Em seguida, siga as instr
 1. [Abra o mosaico no Modo de detalhe](end-user-focus.md) ao selecionar as reticências e selecionar o ícone de Detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png).
    
     ![menu de reticências](./media/end-user-print/menu-options.png)
-2. Abra o mosaico no [modo de ecrã inteiro](../service-fullscreen-mode.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen-icon.png) na barra de navegação superior.
+2. Abra o mosaico no [modo de ecrã inteiro](end-user-focus.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen-icon.png) na barra de navegação superior.
 3. Paire o rato sobre o mosaico para revelar o menu de Opções.
    
     ![menu de Opções em ecrã inteiro](./media/end-user-print/menu-options-new.png)
