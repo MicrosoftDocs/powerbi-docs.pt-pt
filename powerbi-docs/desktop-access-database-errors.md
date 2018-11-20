@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04e95ade5d7c7d0e2b9a6d9690873437e2ec1b6d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 47bcfabddfeb5bfec828c7b14fef4798350939da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329736"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679001"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Resolver problemas na importação de ficheiros .XLS e Access no Power BI Desktop
 No **Power BI Desktop**, as **Bases de dados do Access** e as versões mais antigas dos **Livros do Excel** (ficheiros .XLS do tipo Excel 97-2003) utilizam o *Motor de Base de Dados do Access*. Há três situações comuns que podem impedir que o Motor de Base de Dados do Access funcione corretamente:
 
 ### <a name="situation-1-no-access-database-engine-installed"></a>Situação 1: nenhum Motor de Base de Dados do Access instalado
-Quando a mensagem de erro do Power BI Desktop indica que o Motor de Base de Dados do Access não está instalado, deve instalar a versão de 32 ou 64 bits do Motor de Base de Dados do Access que corresponde à sua versão do Power BI Desktop. Pode instalar o Motor de Base de Dados do Access a partir da [página de transferências](http://www.microsoft.com/en-us/download/details.aspx?id=13255).
+Quando a mensagem de erro do Power BI Desktop indica que o Motor de Base de Dados do Access não está instalado, deve instalar a versão de 32 ou 64 bits do Motor de Base de Dados do Access que corresponde à sua versão do Power BI Desktop. Pode instalar o Motor de Base de Dados do Access a partir da [página de transferências](http://www.microsoft.com/download/details.aspx?id=13255).
 
 >[!NOTE]
 >Se a versão de bits instalada do Motor de Base de Dados do Access for diferente da versão de bits de instalação do Microsoft Office, as aplicações do Office não poderão usar o Motor de Base de Dados do Access.
@@ -41,7 +41,7 @@ Esta situação geralmente ocorre quando a versão instalada do Microsoft Office
    >Ao usar a versão de 32 bits do Power BI Desktop, quando criar modelos de dados muito grandes, poderá ter problemas de memória insuficiente.
 2. Altere a versão do Microsoft Office para corresponder à versão de bits da instalação do Power BI Desktop. Para alterar a versão de bits do Microsoft Office, desinstale o Office e, em seguida, instale a versão do Office que corresponde à sua instalação do Power BI Desktop.
 3. Se o erro tiver ocorrido ao tentar abrir um ficheiro .XLS (um livro do Excel 97-2003), poderá evitar o uso do Motor de Base de Dados do Access ao abrir o ficheiro .XLS no Excel e guardando-o como um ficheiro XLSX.
-4. Se as três soluções anteriores não forem viáveis, é possível instalar as duas versões do Motor de Base de Dados do Access, mas *não* é uma solução recomendada. Instalar ambas as versões resolverá este problema para o Power Query para Excel e Power BI Desktop, mas apresentará erros e problemas de qualquer aplicação que usa automaticamente (por predefinição) a versão de bits do Motor de Base de Dados do Access que foi instalado pela primeira vez. Para instalar as duas versões de bits do Motor de Base de Dados do Access, [transfira](http://www.microsoft.com/en-us/download/details.aspx?id=13255) ambas as versões e, em seguida, execute cada uma através da opção */passive*. Por exemplo:
+4. Se as três soluções anteriores não forem viáveis, é possível instalar as duas versões do Motor de Base de Dados do Access, mas *não* é uma solução recomendada. Instalar ambas as versões resolverá este problema para o Power Query para Excel e Power BI Desktop, mas apresentará erros e problemas de qualquer aplicação que usa automaticamente (por predefinição) a versão de bits do Motor de Base de Dados do Access que foi instalado pela primeira vez. Para instalar as duas versões de bits do Motor de Base de Dados do Access, [transfira](http://www.microsoft.com/download/details.aspx?id=13255) ambas as versões e, em seguida, execute cada uma através da opção */passive*. Por exemplo:
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
    
@@ -50,7 +50,7 @@ Esta situação geralmente ocorre quando a versão instalada do Microsoft Office
 ### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situação 3: problemas ao utilizar ficheiros .XLS ou Access com uma subscrição do Office 365
 Se estiver a utilizar uma subscrição do Office 365, seja o **Office 2013** ou o **Office 2016**, o fornecedor do Motor de Base de Dados do Access é registado numa localização de registo virtual que *só* é acessível a processos do Office. Como resultado, o Motor de Aplicação Híbrida (que é responsável por executar o Excel não Office 365 e o Power BI Desktop), que não é um processo do Office, não pode utilizar o fornecedor do Motor de Base de Dados do Access.
 
-Para solucionar esta situação, pode [transferir e instalar o Motor de Base de Dados do Access redistribuível](http://www.microsoft.com/en-us/download/details.aspx?id=13255) correspondente à versão de bits da sua instalação do Power BI Desktop (veja as secções anteriores para obter mais informações sobre as versões de bits).
+Para solucionar esta situação, pode [transferir e instalar o Motor de Base de Dados do Access redistribuível](http://www.microsoft.com/download/details.aspx?id=13255) correspondente à versão de bits da sua instalação do Power BI Desktop (veja as secções anteriores para obter mais informações sobre as versões de bits).
 
 ### <a name="other-situations-that-cause-import-issues"></a>Outras situações que originam problemas de importação
 Esforçamo-nos por cobrir o máximo possível de problemas que ocorram com ficheiros .XLS ou Access. Caso de se depare com problemas que não são abrangidos neste artigo, submeta uma pergunta sobre o problema ao [Suporte do Power BI](https://powerbi.microsoft.com/support/). Estamos regularmente à procura de problemas que possam afetar muitos clientes para incluí-los nos nossos artigos.

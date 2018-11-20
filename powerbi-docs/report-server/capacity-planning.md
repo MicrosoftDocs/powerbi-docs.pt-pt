@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561822"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679298"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
 Power BI Report Server é uma solução personalizada de relatórios empresariais que os clientes podem implementar no seu local, por trás da firewall. Combina a capacidade de relatórios interativos do Power BI Desktop com a plataforma de servidor no local do SQL Server Reporting Services. Com uma utilização intensa e crescente de análises e relatórios nas empresas, a orçamentação das licenças de software e da infraestrutura de hardware necessárias para dimensionar uma base de utilizadores da empresa pode ser um desafio. Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. Enquanto os relatórios, as consultas e os padrões de utilização das organizações variam bastante, os resultados apresentados neste documento, juntamente com os testes reais utilizados e uma descrição detalhada de como foram executados, servem como um ponto de referência para todas as pessoas no processo de planeamento antecipado do Power BI Report Server.
@@ -114,7 +114,7 @@ Os resultados apresentados neste documento têm origem na execução de um conju
 ### <a name="1-topology"></a>1 Topologia
 **1.1 Topologia do Power BI Report Server**
 
-Ao concentrar-se apenas no comportamento do Power BI Report Server em diferentes configurações, a configuração de VM para cada tipo de máquina (exceto para a máquina que aloja o Power BI Report Server) foi corrigida. Cada máquina foi aprovisionada, de acordo com as máquinas de série de D de segunda geração (v2) com Discos de Armazenamento Premium. Pode encontrar informações detalhadas sobre o tamanho de cada VM na secção “Fins Gerais” em https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Ao concentrar-se apenas no comportamento do Power BI Report Server em diferentes configurações, a configuração de VM para cada tipo de máquina (exceto para a máquina que aloja o Power BI Report Server) foi corrigida. Cada máquina foi aprovisionada, de acordo com as máquinas de série de D de segunda geração (v2) com Discos de Armazenamento Premium. Pode encontrar informações detalhadas sobre o tamanho de cada VM na secção “Fins Gerais” em https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Tipo de Máquina Virtual | Processador | Memória | Tamanho da VM do Azure |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Ao concentrar-se apenas no comportamento do Power BI Report Server em diferentes
 
 **Configuração da Máquina Virtual do Power BI Report Server 1.2** 
 
-Foram utilizadas diferentes configurações do processador e memória da Máquina Virtual que aloja o Power BI Report Server. A contrário de outras VMs, cada máquina foi aprovisionada, de acordo com as máquinas de série de D de terceira geração (v3) com Discos de Armazenamento Premium. Pode encontrar informações detalhadas sobre o tamanho desta VM na secção “Fins Gerais” em https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Foram utilizadas diferentes configurações do processador e memória da Máquina Virtual que aloja o Power BI Report Server. A contrário de outras VMs, cada máquina foi aprovisionada, de acordo com as máquinas de série de D de terceira geração (v3) com Discos de Armazenamento Premium. Pode encontrar informações detalhadas sobre o tamanho desta VM na secção “Fins Gerais” em https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Máquina Virtual | Processador | Memória | Tamanho da VM do Azure |
 | --- | --- | --- | --- |

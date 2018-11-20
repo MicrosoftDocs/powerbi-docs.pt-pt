@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909324"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157408"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Não é possível adicionar o Power BI a uma subscrição de parceiro do Office 365
 
@@ -23,7 +23,7 @@ O Office 365 permite que as empresas o revendam acompanhado e integrado com as 
 
 Se estiver interessado em adquirir o Power BI, juntamente com a sua subscrição do Office 365, recomendamos que contacte o seu parceiro. Se o seu parceiro não oferecer atualmente o Power BI, poderá optar por opções diferentes.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Trabalhar com o seu parceiro para comprar o Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Trabalhar com o seu parceiro para comprar o Power BI
 
 Se quiser comprar uma subscrição do Power BI Pro ou do Power BI Premium, trabalhe com o seu parceiro para considerar as opções que estão disponíveis:
 
@@ -31,7 +31,7 @@ Se quiser comprar uma subscrição do Power BI Pro ou do Power BI Premium, t
 
 * O seu parceiro consegue fazer a sua transição para um modelo a partir do qual pode comprar o Power BI diretamente à Microsoft ou a outro parceiro que ofereça o Power BI.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Comprar na Microsoft ou através de outro canal
+## <a name="purchase-from-microsoft-or-another-channel"></a>Comprar na Microsoft ou através de outro canal
 
 Consoante a relação com o parceiro, pode comprar o Power BI diretamente na Microsoft ou através de outro parceiro. Pode verificar se pode adicionar subscrições do Power BI no portal de administração do Office 365 (requer a associação na função de Administrador Global ou Administrador de Faturação).
 

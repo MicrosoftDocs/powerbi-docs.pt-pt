@@ -1,26 +1,26 @@
 ---
 title: 'Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour'
 description: 'Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour'
-author: amandacofsky
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: fb06b83ca2fe949751337347c91b3947e115286d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944727"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717982"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
-O pacote de conteúdo "Exemplo de Lucro do Cliente" contém um dashboard, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por um diretor financeiro para ver as métricas chave sobre os 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ela pode ver rapidamente que fatores têm impacto sobre o lucro.
+O pacote de conteúdo "Exemplo de Lucro do Cliente" contém um dashboard, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por um diretor financeiro para ver as métricas chave sobre os 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). O segundo consiste em identificar as instalações fabris que melhor identificam e rejeitam os defeitos de forma a minimizar o downtime.
 
 ![dashboard do power bi](media/sample-customer-profitability/power-bi-dash.png)
 
@@ -100,7 +100,7 @@ Dois mosaicos neste dashboard, “Objetivo vs Real” e “Crescimento de Receit
     a. No controlo de deslize “Executivo”, selecione **Carlos Grilo**.   
     b. A primeira Tabela Dinâmica indica-nos que as receitas de Carlos referentes ao seu Produto principal, Primus, estão 152% abaixo em relação ao ano anterior. Adicionalmente, o gráfico da receita ao longo dos anos mostra-nos que ele esteve abaixo do orçamento durante a maioria dos meses.  
 
-    ![Tabela dinâmica](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![Tabela Dinâmica](media/sample-customer-profitability/power-bi-pivotchart.png)
 
     ![resultados para Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 

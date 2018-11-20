@@ -1,21 +1,21 @@
 ---
 title: Como fazer com que os seus dados do Excel funcionem bem com as Perguntas e Respostas no Power BI
 description: Como fazer com que os seus dados funcionem bem com as Perguntas e Respostas no Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 09a9dd194d278184c04e091e62aebc0b9fe248d1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396503"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717316"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Como fazer com que os seus dados do Excel funcionem bem com as Perguntas e Respostas no Power BI
 Se é alguém que cria modelos de dados ou livros do Excel que serão utilizados com o Power BI, continue a ler...

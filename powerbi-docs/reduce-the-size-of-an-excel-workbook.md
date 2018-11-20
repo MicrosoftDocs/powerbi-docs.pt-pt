@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329437"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679362"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduza o tamanho de um livro de trabalho do Excel para vê-lo no Power BI
 Pode carregar qualquer livro do Excel inferior a 1 GB para o Power BI. Um livro de trabalho do Excel pode ter duas partes: um modelo de dados e o restante do relatório — conteúdo da folha de cálculo principal. Se o relatório corresponder aos seguintes limites de tamanho, pode guardá-lo no **OneDrive para Empresas**, ligando-o do Power BI e visualizando-o no Excel Online:
@@ -28,7 +28,7 @@ Aqui estão alguns elementos que podem tornar os núcleos de conteúdos da folha
 
 * Imagens.
 * Células com sombreado. [Remova um formato de sombra de célula](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
-* Folhas de cálculo coloridas. [Remova um fundo da folha](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
+* Folhas de cálculo coloridas. [Remova um fundo da folha](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
 * Caixas de texto.
 * Clip-art.
 
@@ -55,7 +55,7 @@ Quando importar dados para o Excel, siga estas dicas:
 * **Da aba de Dados do Excel**: não verificar a **tabela** na caixa **Importar dados**.
 
 ## <a name="workbook-size-optimizer"></a>Otimizador de tamanho do Livro de trabalho
-Se a sua pasta de trabalho contiver um modelo de dados,pode executar o otimizador de tamanho do livro de trabalho para reduzir o tamanho do livro de trabalho. [Baixe o Otimizador de Tamanho do Livro de Trabalho](https://www.microsoft.com/en-us/download/details.aspx?id=38793).
+Se a sua pasta de trabalho contiver um modelo de dados,pode executar o otimizador de tamanho do livro de trabalho para reduzir o tamanho do livro de trabalho. [Baixe o Otimizador de Tamanho do Livro de Trabalho](https://www.microsoft.com/download/details.aspx?id=38793).
 
 ## <a name="related-info"></a>Informações relacionadas
 [Criar um Modelo de dados eficiente em memória](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

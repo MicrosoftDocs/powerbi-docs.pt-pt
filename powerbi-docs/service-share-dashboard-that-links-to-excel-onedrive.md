@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548770"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679093"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Partilhar um dashboard do Power BI associado a um ficheiro do Excel no OneDrive
 No Power BI, pode [ligar a livros do Excel no OneDrive para Empresas](service-excel-workbook-files.md) e afixar mosaicos a um dashboard desse livro. Quando partilha esse dashboard ou cria um pacote de conteúdos que o inclui:
 
 * Os seus colegas podem ver os mosaicos sem precisarem de permissões para o respetivo livro. Por isso, pode criar um pacote de conteúdos e saber que os seus colegas podem ver os mosaicos criados no livro do Excel no OneDrive.
-* Clicar no mosaico abre o livro no Power BI. O livro apenas será aberto se os seus colegas tiverem, pelo menos, [permissões de leitura](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) para o livro no OneDrive para Empresas.
+* Clicar no mosaico abre o livro no Power BI. O livro apenas será aberto se os seus colegas tiverem, pelo menos, [permissões de leitura](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) para o livro no OneDrive para Empresas.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Partilhar um dashboard que contém mosaicos do livro
 Para partilhar um dashboard associado a um livro do Excel no OneDrive para Empresas, veja [Partilhar um dashboard](service-share-dashboards.md). A diferença é que tem a opção de modificar as permissões do livro do Excel associado antes da partilha.
@@ -30,7 +30,7 @@ Para partilhar um dashboard associado a um livro do Excel no OneDrive para Empre
 
 1. Insira os endereços de e-mail dos seus colegas.
 2. Para permitir que os seus colegas vejam o livro do Excel no Power BI, selecione **Ir para OneDrive para Empresas para definir permissões de livro**.
-3. No OneDrive, [modifique as permissões](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) conforme necessário.
+3. No OneDrive, [modifique as permissões](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) conforme necessário.
 4. Selecione **Partilhar**.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Quando [publica um pacote de conteúdos](service-organizational-content-pack-cre
    
     ![Livro do Excel num pacote de conteúdos](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Selecione **Ir para OneDrive para Empresas para definir permissões de livro**.
-4. No OneDrive, [modifique as permissões](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) conforme necessário.
+4. No OneDrive, [modifique as permissões](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) conforme necessário.
 5. Selecione **Publicar**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Partilhar um dashboard a partir de uma área de trabalho do Power BI

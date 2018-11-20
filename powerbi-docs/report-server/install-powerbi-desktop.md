@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 54f49bf28019ba41df7d68e1d5312ee975023859
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564791"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679070"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
 Saiba como instalar o Power BI Desktop otimizado para o Power BI Report Server.
@@ -31,7 +31,7 @@ A forma mais fácil de garantir que tem a versão mais atualizada do Power BI De
 
     ![Transferir o Power BI Desktop a partir do portal Web](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Em alternativa, pode aceder diretamente ao [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (Otimizado para o Power BI Report Server – agosto de 2018) no Centro de Transferências da Microsoft.
+    Em alternativa, pode aceder diretamente ao [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (Otimizado para o Power BI Report Server – agosto de 2018) no Centro de Transferências da Microsoft.
 
 2. Na página do Centro de Transferências, selecione **Transferir**.
 

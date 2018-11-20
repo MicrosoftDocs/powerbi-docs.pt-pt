@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003300"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679461"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
 Este artigo é destinado aos novos utilizadores do Power BI Desktop. O objetivo é oferecer uma introdução rápida e fácil sobre como pode usar o DAX (Data Analysis Expressions) para resolver vários problemas de análise de dados e de cálculo básico. Vamos abordar alguma informação conceptual e uma série de tarefas que pode executar, para além de alguns testes para verificar o que aprendeu. Depois de ler este artigo, deverá ter uma boa compreensão dos conceitos fundamentais mais importantes no DAX.
@@ -142,7 +142,7 @@ O DAX inclui as seguintes categorias de funções: [Data e Hora](https://msdn.mi
 * O DAX inclui uma variedade de funções de análise de tempo. Estas funções permitem definir ou selecionar intervalos de datas e executar cálculos dinâmicos baseados nesses intervalos. Por exemplo, é possível comparar somas em períodos paralelos.
 * O Excel tem uma função muito popular, VLOOKUP. As funções DAX não usam uma célula ou intervalo de células como referência, como a VLOOKUP faz no Excel. As funções DAX usam uma coluna ou tabela como referência. Lembre-se: no Power BI Desktop, está a trabalhar com um modelo de dados relacionais. Procurar por valores noutra tabela é realmente muito fácil e, na maioria dos casos, não tem de criar nenhuma fórmula.
   
-  Como pode ver, as funções no DAX podem ajudá-lo a criar fórmulas muito poderosas. Abordámos apenas as noções básicas das funções. À medida que desenvolver as suas competências com o DAX, criará fórmulas com muitas funções diferentes. Um dos melhores locais para obter detalhes sobre cada uma das funções DAX é a [Referência de funções DAX](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
+  Como pode ver, as funções no DAX podem ajudá-lo a criar fórmulas muito poderosas. Abordámos apenas as noções básicas das funções. À medida que desenvolver as suas competências com o DAX, criará fórmulas com muitas funções diferentes. Um dos melhores locais para obter detalhes sobre cada uma das funções DAX é a [Referência de funções DAX](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>Teste rápido sobre funções
 1. Uma função referencia sempre o quê?

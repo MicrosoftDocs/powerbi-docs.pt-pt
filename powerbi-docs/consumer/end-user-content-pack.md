@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507721"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679116"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Encontrar e ligar-se a um pacote de conteúdos organizacional
 
@@ -38,7 +38,7 @@ Os utilizadores do [Power BI Pro](https://powerbi.microsoft.com/pricing) podem a
 ## <a name="connect-to-an-organizational-content-pack"></a>Ligar a um pacote de conteúdos organizacionais
 * Selecione **Obtê-lo agora** para ligar ao pacote de conteúdos e adicioná-lo à sua área de trabalho ativa. Os novos dashboards, relatórios, livros do Excel e conjuntos de dados contêm um asterisco amarelo.
 
-Se o pacote de conteúdos tiver um livro do Excel, pode ver um aviso a informar que não tem permissões para ver o livro do Excel. Nesse caso, peça ao proprietário do pacote de conteúdos que [partilhe o livro consigo no OneDrive para Empresas](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+Se o pacote de conteúdos tiver um livro do Excel, pode ver um aviso a informar que não tem permissões para ver o livro do Excel. Nesse caso, peça ao proprietário do pacote de conteúdos que [partilhe o livro consigo no OneDrive para Empresas](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 O pacote de conteúdos está bloqueado. Pode [guardar a sua própria cópia do dashboard e dos relatórios](../service-organizational-content-pack-copy-refresh-access.md). 
 
