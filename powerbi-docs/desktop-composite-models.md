@@ -1,5 +1,5 @@
 ---
-title: Utilizar modelos compostos no Power BI Desktop (pré-visualização)
+title: Utilizar modelos compostos no Power BI Desktop
 description: Criar modelos de dados com várias ligações de dados e relações muitos para muitos no Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435402"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619707"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Utilizar modelos compostos no Power BI Desktop (pré-visualização)
+# <a name="use-composite-models-in-power-bi-desktop"></a>Utilizar modelos compostos no Power BI Desktop
 
 Anteriormente no Power BI Desktop quando utilizava um DirectQuery num relatório, nenhuma outra ligação de dados (DirectQuery ou Importação) era permitida nesse relatório. Com os modelos compostos, essa restrição deixa de existir. Um relatório pode incluir de forma perfeita ligações de dados de mais do que uma ligação de dados DirectQuery ou de Importação, em qualquer combinação que escolher.
 
@@ -30,16 +30,6 @@ A capacidade de modelos compostos no Power BI Desktop consiste em três funcion
 * **Relações muitos para muitos**: com os *modelos compostos*, pode estabelecer *relações muitos para muitos* entre tabelas. Esta abordagem remove os requisitos de valores exclusivos nas tabelas. Também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter mais informações, veja [Relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md).
 
 * **Modo de armazenamento**: agora pode especificar que elementos visuais precisam de uma consulta às origens de dados de back-end. Os elementos visuais que não precisam de uma consulta são importados, mesmo que sejam baseados no DirectQuery. Esta funcionalidade ajuda a melhorar o desempenho e a reduzir a carga de back-end. Anteriormente, até os elementos visuais simples, como as segmentações, iniciavam consultas que eram enviadas para origens de back-end. Para obter mais informações, veja [Modo de armazenamento no Power BI Desktop (pré-visualização)](desktop-storage-mode.md).
-
-## <a name="enable-the-composite-models-preview-feature"></a>Ativar a funcionalidade de pré-visualização dos modelos compostos
-
-A funcionalidade de modelos compostos está em pré-visualização e tem de ser ativada no Power BI Desktop. Para ativar os modelos compostos, selecione **Ficheiro** > **Opções e Definições** > **Opções** > **Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Modelos Compostos**. 
-
-![O painel “Funcionalidades de pré-visualização”](media/desktop-composite-models/composite-models_02.png)
-
-Para ativar a funcionalidade, tem de reiniciar o Power BI Desktop.
-
-![Janela “A funcionalidade requer um reinício”](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>Utilizar modelos compostos

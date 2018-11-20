@@ -61,14 +61,14 @@ Futuramente, poderá reiniciar o *serviço Windows de gateway* da caixa de diál
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Suporte para TLS 1.2
 
-O Gateway de dados no local utiliza o TLS (Transport Layer Security) 1.1 ou 1.2 para comunicar com o **serviço Power BI** por predefinição. As versões anteriores do Gateway de dados no local utilizavam o TLS 1.0 por predefinição. A 15 de março de 2018, o suporte para o TLS 1.0 terminou, incluindo a capacidade de o gateway interagir com o **serviço Power BI** através do TLS 1.0. Para garantir que os seus gateways continuam a funcionar corretamente, tem de atualizar as instalações do Gateway de dados no local.
+Por predefinição, o Gateway de dados no local utiliza o TLS (Transport Layer Security) 1.2 para comunicar com o serviço Power BI. Para garantir que todo o tráfego do gateway utiliza o TLS 1.2, poderá ter de adicionar ou modificar as seguintes chaves de registo no computador que executa o serviço de gateway:
 
-É importante ter em atenção que o TLS 1.0 ainda é suportado pelo Gateway de dados no local anterior a 1 de novembro e é utilizado pelo gateway como um mecanismo de contingência. Para garantir que todo o tráfego de gateway utiliza o TLS 1.1 ou 1.2 (e para impedir a utilização de TLS 1.0 no seu gateway), tem de adicionar ou modificar as seguintes chaves de registo na máquina que executa o serviço de gateway:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Adicionar ou modificar estas chaves de registo aplica a alteração a todas as aplicações .NET. Para obter informações sobre as alterações de registo que afetam o TLS de outras aplicações, consulte [Definições de registo do TLS (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

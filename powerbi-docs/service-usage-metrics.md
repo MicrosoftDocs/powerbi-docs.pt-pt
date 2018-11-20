@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545056"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619845"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métrica de utilização para dashboards e relatórios
 
@@ -69,7 +69,7 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
     > [!NOTE]
     > Se fixar um mosaico de um relatório de métrica de utilização a um dashboard, esse dashboard não pode ser adicionar a uma aplicação ou pacote de conteúdos.
 
-## <a name="what-metrics-are-reported"></a>Que métricas são comunicadas?
+## <a name="which-metrics-are-reported"></a>Quais são as métricas reportadas?
 
 | Métrica | Dashboard | Relatório | Descrição |
 | --- | --- | --- | --- |
@@ -163,20 +163,29 @@ O Power BI está disponível em clouds nacionais separadas. Estas clouds oferece
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
+É importante entender que podem existir diferenças na comparação dos registos de auditoria e de métricas de utilização, bem como os motivos para tal. Os *Registos de auditoria* são recolhidos através dos dados do serviço Power BI e as *Métricas de utilização* são recolhidas no cliente. Devido a esta diferença, as contagens acumuladas de atividades nos registos de auditoria podem nem sempre corresponder às métricas de utilização pelos seguintes motivos:
+
+* Por vezes, as métricas de utilização poderão contabilizar menos atividades devido a ligações de rede inconsistentes, bloqueadores de publicidade ou a outros problemas que podem interromper o envio de eventos do cliente.
+* Determinados tipos de visualizações não são incluídos nas métricas de utilização, conforme descrito anteriormente neste artigo.
+* Por vezes, as métricas de utilização poderão contabilizar atividades a mais, em situações em que o cliente atualiza sem a necessidade de enviar um pedido para o serviço Power BI.
+
+
+Além das possíveis diferenças entre os registos de auditoria e as métricas de utilização, as seguintes perguntas e respostas sobre as métricas de utilização podem ser úteis para os administradores e os utilizadores:
+
 P: Não consigo executar as métricas de utilização num dashboard ou relatório
 R: Só pode ver as métricas de utilização dos conteúdos dos quais é proprietário ou que tem permissões para editar.
 
-P: A métrica de utilização capta as visualizações de dashboards e relatórios incorporados?
+P: a métrica de utilização capta as visualizações de dashboards e relatórios incorporados?
 R: A métrica de utilização não suporta atualmente a captura de informações de utilização para dashboards incorporados, relatórios e o fluxo [publicar na Web](service-publish-to-web.md).          Nesses casos, recomendamos a utilização de plataformas de análise da Web existentes para controlar a utilização da aplicação ou do portal de alojamento.
 
-P: Não consigo executar a métrica de utilização em qualquer conteúdo.
-R1: Os administradores podem desativar esta funcionalidade para a sua organização.  Contacte o administrador para verificar se isto se verifica.
-R2: A métrica de utilização é uma funcionalidade do Power BI Pro.
+P: não consigo executar a métrica de utilização em qualquer conteúdo.
+A1: os administradores podem desativar esta funcionalidade para a sua organização.  Contacte o administrador para verificar se isto se verifica.
+A2: a métrica de utilização é uma funcionalidade do Power BI Pro.
 
-P: Os dados não parecem estar atualizados. Por exemplo, os métodos de distribuição não aparecem, as páginas de relatório estão em falta, etc. R: Os dados demoram até 24 horas a aparecer.
+P: os dados não parecem estar atualizados. Por exemplo, os métodos de distribuição não aparecem, as páginas de relatório estão em falta, etc. R: os dados demoram até 24 horas a aparecer.
 
-P: A área de trabalho tem quatro relatórios, mas o relatório de métrica de utilização só apresenta 3.
-R: O relatório de métrica de utilização apenas inclui relatórios (ou dashboards) que tenham sido acedidos nos últimos 90 dias.  Se um relatório (ou dashboard) não for apresentado, é provável que não seja utilizado há mais de 90 dias.
+P: a área de trabalho tem quatro relatórios, mas o relatório de métrica de utilização só apresenta 3.
+R: o relatório de métrica de utilização apenas inclui relatórios (ou dashboards) que tenham sido acedidos nos últimos 90 dias.  Se um relatório (ou dashboard) não for apresentado, é provável que não seja utilizado há mais de 90 dias.
 
 ## <a name="next-steps"></a>Passos seguintes
 

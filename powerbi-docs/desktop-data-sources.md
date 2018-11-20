@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336904"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619822"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -30,8 +30,6 @@ Selecionar **Mais…** no menu **Mais Comuns** mostra a janela **Obter Dados**. 
 
 > [!NOTE]
 > A equipa do Power BI está continuamente a expandir as origens de dados disponíveis para o **Power BI Desktop** e o **serviço Power BI**. Como tal, verá frequentemente versões anteriores de origens de dados em construção marcadas como *Beta* ou *Pré-visualização*. Qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
-> 
-> 
 
 ## <a name="data-sources"></a>Origens de Dados
 Os tipos de dados são organizados nas categorias a seguir:
@@ -80,15 +78,14 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Impala
 * Google BigQuery
 * Snowflake
+* Conector BI
+* Exasol
 * Dremio (Beta)
-* Exasol (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Alguns conectores de base de dados requerem que os ative ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, selecionar **Funcionalidades de Pré-visualização** e ativar o conector. Se não vir alguns dos conectores mencionados acima e pretender utilizá-los, consulte as suas definições de **Funcionalidades de Pré-visualização**. Note também que qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
-> 
-> 
 
 A imagem a seguir mostra a janela **Obter Dados** para **Base de dados**.
 
@@ -111,11 +108,11 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Interactive Query do HDInsight
-* Azure KustoDB (beta)
+* Azure Data Explorer (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -131,7 +128,8 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Dynamics 365 Business Central (no local)
 * Common Data Service para Aplicações (Beta)
 * Microsoft Azure Consumption Insights (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Objetos do Salesforce
 * Relatórios do Salesforce
 * Google Analytics
@@ -171,7 +169,7 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Feed OData
 * Active Directory
 * Microsoft Exchange
-* HDFS (Ficheiro do Hadoop)
+* Ficheiro Hadoop (HDFS)
 * Spark
 * Script do R
 * Script de Python
@@ -187,8 +185,6 @@ A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 
 > [!NOTE]
 > Atualmente, não é possível ligar-se a origens de dados personalizadas protegidas através do Azure Active Directory.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Ligar a uma Origem de Dados
 Para se ligar a uma origem de dados, selecione a origem de dados na janela **Obter Dados** e selecione **Ligar**. Na imagem que se segue, a opção **Web** é selecionada da categoria de ligação de dados **Outros**.
