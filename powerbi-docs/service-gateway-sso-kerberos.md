@@ -1,5 +1,5 @@
 ---
-title: Utilizar o Kerberos no gateway no local para SSO (início de sessão único) a partir do Power BI para origens de dados no local
+title: Utilizar o Kerberos para o início de sessão único (SSO) nas origens de dados no local
 description: Configurar o gateway com o Kerberos para permitir o SSO a partir do Power BI para origens de dados no local
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101629"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508043"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 
@@ -27,8 +27,10 @@ Atualmente, suportamos as seguintes origens de dados:
 
 * SQL Server
 * SAP HANA
+* SAP BW
 * Teradata
 * Spark
+* Impala
 
 Também suportamos SAP HANA com [Security Assertion Markup Language (SAML)](service-gateway-sso-saml.md).
 
@@ -71,7 +73,7 @@ Embora seja tecnicamente possível que um administrador de domínio conceda dire
 
 Para configurar corretamente o sistema, é preciso configurar ou validar os dois seguintes itens:
 
-1. Se necessário, configure um SPN para a conta de domínio do serviço de gateway.
+1. Se for necessário, configure um SPN para a conta de domínio do serviço de gateway.
 
 2. Configure as definições de delegação na conta de domínio do serviço de gateway.
 
@@ -158,7 +160,7 @@ Por fim, na máquina que executa o serviço de gateway (**PBIEgwTestGW** no noss
 
 1. Na lista de políticas em **Atribuição de Direitos de Utilizadores**, selecione **Atuar como parte do sistema operativo (SeTcbPrivilege)**. Certifique-se de que a conta do serviço de gateway também está incluída na lista de contas.
 
-18. Reinicie o processo do serviço de **Gateway de dados no local**.
+1. Reinicie o processo do serviço de **Gateway de dados no local**.
 
 Se estiver a utilizar o SAP HANA, recomendamos que siga estes passos adicionais, que podem resultar numa pequena melhoria no desempenho.
 
@@ -200,9 +202,11 @@ Anteriormente neste artigo, discutimos como mudar o gateway de uma conta de serv
 
 Agora que já compreende como o Kerberos funciona com um gateway, pode configurar o SSO para o seu SAP BW (SAP Business Warehouse). Os passos seguintes pressupõem que já está [preparado para a delegação restrita de Kerberos](#preparing-for-kerberos-constrained-delegation), conforme descrito anteriormente neste artigo.
 
-### <a name="install-sap-bw-components"></a>Instalar componentes do SAP BW
+Este guia tenta ser tão abrangente quanto possível. Se já tiver concluído alguns destes passos, pode ignorá-los. Por exemplo, já criou um Utilizador de Serviço para o servidor BW e mapeou um SPN para este ou já instalou a biblioteca gsskrb5.
 
-Se não tiver configurado o gsskrb5 e gx64krb5 do SAP nas máquinas do seu cliente e no SAP BW Application Server, conclua esta secção. Se já concluiu esta configuração (criou um Utilizador de Serviço para o seu servidor BW e mapeou um SPN ao mesmo), pode ignorar algumas partes desta secção.
+### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>Configurar a gsskrb5 nos computadores cliente e no servidor BW
+
+A gsskrb5 tem de ser utilizada pelo cliente e pelo servidor para estabelecer uma ligação SSO através do gateway. A Common Crypto Library (sapcrypto) não é suportada atualmente.
 
 1. Transfira gsskrb5/gx64krb5 da [Nota SAP2115486](https://launchpad.support.sap.com/) (necessário um utilizador S do SAP). Garanta que tem, pelo menos, a versão 1.0.11 do gsskrb5.dll e do gx64krb5.dll.
 
@@ -212,15 +216,15 @@ Se não tiver configurado o gsskrb5 e gx64krb5 do SAP nas máquinas do seu clien
 
 1. Nas máquinas do cliente e do servidor, defina as variáveis do ambiente SNC\_LIB and SNC\_LIB\_64 para apontar para as localizações do gsskrb5.dll e do gx64krb5.dll, respetivamente.
 
-### <a name="complete-the-gateway-configuration-for-sap-bw"></a>Concluir a configuração do gateway para o SAP BW
+### <a name="create-a-bw-service-user-and-enable-snc-communication-using-gsskrb5-on-the-bw-server"></a>Criar um Utilizador de Serviço BW e permitir a comunicação SNC com a gsskrb5 no servidor BW
 
 Além da configuração do gateway que efetuou, existem mais alguns passos específicos do SAP BW. A secção [**Configurar as definições de delegação na conta do serviço de gateway**](#configure-delegation-settings-on-the-gateway-service-account) da documentação pressupõe que já configurou os SPNs das suas origens de dados. Para concluir esta configuração do SAP BW:
 
-1. Num Controlador de Domínio do Active Directory, crie um Utilizador de Serviço (inicialmente só um utilizador do Active Directory simples) para o BW Application Server no seu ambiente do Active Directory. Em seguida, atribua um SPN ao mesmo.
+1. Num servidor do Controlador de Domínio do Active Directory, crie um Utilizador de Serviço (inicialmente só um utilizador do Active Directory simples) para o Servidor de Aplicações BW no seu ambiente do Active Directory. Em seguida, atribua um SPN ao mesmo.
 
-    O SPN atribuído **tem** de começar com SAP/. O que se sucede fica ao seu critério. Uma opção é utilizar o nome de utilizador do Utilizador do Serviço do servidor BW. Por exemplo, se criar BWServiceUser@\<DOMÍNIO\> como seu Utilizador de Serviço, poderá utilizar o SPN SAP/BWServiceUser. Uma forma de definir o mapeamento do SPN é através do comando setspn. Por exemplo, para configurar o SPN no utilizador de serviço que criámos, iria executar o seguinte comando a partir de uma janela cmd numa máquina de Controlador de Domínio: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`.
+    O SAP recomenda que se inicie o SPN com SAP/, mas também deve ser possível utilizar outros prefixos como HTTP/. O que se sucede fica ao seu critério. Uma opção é utilizar o nome de utilizador do Utilizador do Serviço do servidor BW. Por exemplo, se criar BWServiceUser@\<DOMÍNIO\> como seu Utilizador de Serviço, poderá utilizar o SPN SAP/BWServiceUser. Uma forma de definir o mapeamento do SPN é através do comando setspn. Por exemplo, para configurar o SPN no utilizador de serviço que criámos, iria executar o seguinte comando a partir de uma janela cmd numa máquina de Controlador de Domínio: `setspn -s SAP/ BWServiceUser DOMAIN\ BWServiceUser`. Para obter mais informações, veja a documentação do SAP BW.
 
-1. Conceda acesso à sua instância do BW Application Server ao Utilizador de Serviço:
+1. Conceda ao Utilizador de Serviço acesso ao Servidor de Aplicações BW:
 
     1. Na máquina do servidor BW, adicione o Utilizador de Serviço ao grupo Administrador Local do servidor BW: abra o programa Gestão de Computadores e faça duplo clique no grupo Administrador Local do seu servidor.
 
@@ -238,7 +242,7 @@ Além da configuração do gateway que efetuou, existem mais alguns passos espec
 
 1. Inicie sessão no seu servidor no SAP GUI/Logon e defina os parâmetros do seguinte perfil com a transação RZ10:
 
-    1. Defina o SNC/identidade/como parâmetro de perfil como p:\<o utilizador de serviço do BW que criou\>, como p:BWServiceUser@MYDOMAIN.COM. Repare no p: que precede o UPN do Utilizador de Serviço.
+    1. Defina o SNC/identidade/como parâmetro de perfil como p:\<o utilizador de serviço do BW que criou\>, como p:BWServiceUser@MYDOMAIN.COM. Repare no p: que precede o UPN do Utilizador de Serviço. Não é p:CN= como quando a Common Crypto Library é utilizada como biblioteca SNC.
 
     1. Defina o parâmetro de perfil snc/gssapi\_lib como caminho \< para gsskrb5.dll/gx64krb5.dll na máquina do servidor (a biblioteca que irá utilizar depende do número de bits do SO)\>. Lembre-se de colocar a biblioteca numa localização à qual o BW Application Server possa aceder.
 
@@ -259,7 +263,7 @@ Além da configuração do gateway que efetuou, existem mais alguns passos espec
 
 1. Após definir estes parâmetros de perfil, abra a Consola de Gestão de SAP na máquina do servidor e reinicie a instância do BW. Se o servidor não iniciar, verifique novamente que configurou os parâmetros de perfil corretamente. Para saber mais sobre as definições de parâmetro de perfil, veja a [documentação do SAP](https://help.sap.com/saphelp_nw70ehp1/helpdata/en/e6/56f466e99a11d1a5b00000e835363f/frameset.htm). Também pode consultar a secção nas nossas informações de resolução de problemas mais adiante nesta secção se tiver problemas.
 
-### <a name="map-azure-ad-users-to-sap-bw-users"></a>Mapear utilizadores do Azure AD a utilizadores do SAP BW
+### <a name="map-a-bw-user-to-an-active-directory-user"></a>Mapear um utilizador do BW para um utilizador do Active Directory Domain Services
 
 Mapeie um utilizador do Active Directory a um utilizador do SAP BW Application Server e teste a ligação do SSO no SAP GUI/Logon.
 
@@ -275,7 +279,7 @@ Mapeie um utilizador do Active Directory a um utilizador do SAP BW Application S
 
 1. Selecione o ícone de guardar (a disquete junto ao canto superior esquerdo do ecrã).
 
-### <a name="verify-sign-in-using-sso"></a>Verificar o início de sessão com o SSO
+### <a name="test-sign-in-using-sso"></a>Testar o início de sessão com o SSO
 
 Verifique se pode iniciar sessão no servidor com o SAP Logon/SAP GUI através do SSO enquanto utilizador do Active Directory para o qual ativou o acesso de SSO.
 
@@ -287,11 +291,11 @@ Verifique se pode iniciar sessão no servidor com o SAP Logon/SAP GUI através d
 
 1. Preencha os detalhes adequados na página seguinte, incluindo o servidor da aplicação, número da instância e ID do sistema. Em seguida, selecione **Finish** (Concluir).
 
-1. Clique com o botão direito do rato na nova ligação e selecione **Properties** (Propriedades). Selecione o separador **Network** (Rede). Na janela **SNC Name** (Nome do SNC), introduza p:\<o UPN do utilizador do serviço BW\>, como p:BWServiceUser@MYDOMAIN.COM.
+1. Clique com o botão direito do rato na nova ligação e selecione **Properties** (Propriedades). Selecione o separador **Network** (Rede). Na janela **SNC Name** (Nome do SNC), introduza p:\<o UPN do utilizador do serviço BW\>, como p:BWServiceUser@MYDOMAIN.COM. Em seguida, selecione **OK**.
 
     ![Propriedades de entradas do sistema](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
-1. Selecione **OK**. Faça duplo clique na ligação que criou para tentar fazer uma ligação de SSO ao serviço. Se a ligação for bem-sucedida, avance para o passo seguinte. Caso contrário, reveja os passos anteriores neste documento para se certificar de que estes foram concluídos corretamente ou reveja a secção de resolução de problemas abaixo. Tenha em atenção que se não conseguir ligar ao servidor BW através do SSO neste contexto, não poderá fazê-lo no contexto de gateways.
+1. Faça duplo clique na ligação que criou para tentar fazer uma ligação SSO ao servidor BW. Se a ligação for bem-sucedida, avance para o passo seguinte. Caso contrário, reveja os passos anteriores neste documento para se certificar de que estes foram concluídos corretamente ou reveja a secção de resolução de problemas abaixo. Tenha em atenção que se não conseguir ligar ao servidor BW através do SSO neste contexto, não poderá fazê-lo no contexto de gateways.
 
 ### <a name="troubleshoot-installation-and-connections"></a>Resolver problemas de instalação e ligações
 
@@ -309,15 +313,33 @@ Caso se depare com problemas, siga estes passos para resolver o problema da inst
 
 1. "(SNC error) the specified module could not be found" ([SNC error] o módulo especificado não foi encontrado): normalmente isto acontece quando coloca o gsskrb5.dll/gx64krb5.dll num local que exige privilégios elevados (direitos de administrador) para aceder.
 
-### <a name="add-registry-entries"></a>Adicionar entradas de registo
+### <a name="add-registry-entries-to-the-gateway-machine"></a>Adicionar entradas de registo ao computador do gateway
 
-Adicione as entradas de registo necessárias ao registo da máquina onde o gateway está instalado. Em seguida, defina os parâmetros de configuração do gateway necessários.
+Adicione as entradas de registo necessárias ao registo da máquina onde o gateway está instalado.
 
 1. Execute os seguintes comandos numa janela cmd:
 
     1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
     1. REG ADD HKLM\SOFTWARE\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
+
+### <a name="set-configuration-parameters-on-the-gateway-machine"></a>Definir parâmetros de configuração no computador do gateway
+
+Existem duas opções para a definição do parâmetros de configuração, o que depende de ter o Azure AD DirSync configurado para que os utilizadores possam iniciar sessão no serviço Power BI como utilizador do Microsoft Azure AD.
+
+Se tiver o DirSync do Microsoft Azure AD configurado, siga estes passos.
+
+1. Abra o ficheiro de configuração do Gateway principal, *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll*. Por predefinição, este ficheiro está armazenado em *C:\Programas\On-premises data gateway*.
+
+1. Confirme que a propriedade **FullDomainResolutionEnabled** está definida como True (Verdadeiro) e **SapHanaSsoRemoveDomainEnabled** está definido como False (Falso).
+
+1. Guarde o ficheiro de configuração.
+
+1. Reinicie o serviço de Gateway através do separador Serviços do Gestor de Tarefas (clique com o botão direito do rato e em Reiniciar)
+
+    ![Reiniciar o gateway](media/service-gateway-sso-kerberos/restart-gateway.png)
+
+Se não tiver o Azure AD DirSync configurado, siga estes passos para **cada utilizador de serviço do Power BI que pretenda mapear para um utilizador do Microsoft Azure AD**. Estes passos ligam manualmente um utilizador do serviço Power BI a um utilizador do Active Directory com permissão para iniciar sessão no BW.
 
 1. Abra o ficheiro de configuração de gateway principal, Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll. Por predefinição, este ficheiro está armazenado em C:\Programas\On-premises data gateway.
 
@@ -327,19 +349,21 @@ Adicione as entradas de registo necessárias ao registo da máquina onde o gatew
 
     ![Reiniciar o gateway](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-### <a name="set-azure-ad-properties"></a>Definir as propriedades do Azure AD
+1. Defina a propriedade msDS-cloudExtensionAttribute1 do utilizador do Azure Directory que mapeou para um utilizador do BW para o utilizador de serviço do Power BI para o qual quer ativar o SSO do Kerberos. Uma forma de definir a propriedade msDS-cloudExtensionAttribute1 é através do snap-in da MMC de Computadores e Utilizadores do Active Directory (tenha em atenção que outros métodos também podem ser utilizados).
 
-Defina a propriedade msDS-cloudExtensionAttribute1 do utilizador do Azure Directory que mapeou a um utilizador do BW (no passo "Mapear utilizadores do Azure AD a Utilizadores do SAP BW") para o utilizador do serviço Power BI para o qual pretende ativar o SSO do Kerberos. Uma forma de definir a propriedade msDS-cloudExtensionAttribute1 é através do snap-in da MMC de Computadores e Utilizadores do Active Directory (tenha em atenção que outros métodos também podem ser utilizados).
+    1. Inicie sessão numa máquina de Controlador de Domínio como utilizador Administrador.
 
-1. Inicie sessão numa máquina de Controlador de Domínio como utilizador Administrador.
+    1. Abra a pasta **Users** (Utilizadores) na janela do snap-in e faça duplo clique no utilizador do Active Directory que mapeou a um utilizador do BW.
 
-1. Abra a pasta **Users** (Utilizadores) na janela do snap-in e faça duplo clique no utilizador do Active Directory que mapeou a um utilizador do BW.
+    1. Selecione o separador **Attribute Editor** (Editor de Atributos).
 
-1. Selecione o separador **Attribute Editor** (Editor de Atributos). Se não vir este separador, terá de procurar instruções sobre como ativá-lo ou utilizar outro método para definir a propriedade msDS-cloudExtensionAttribute1. Selecione um dos atributos e, em seguida, a chave "m" para navegar até às propriedades do Active Directory que comecem por "m". Localize a propriedade msDS-cloudExtensionAttribute1 e faça duplo clique na mesma. Defina o valor para o nome de utilizador que utiliza para iniciar sessão no Serviço Power BI. Selecione **OK**.
+        Se não vir este separador, terá de procurar instruções sobre como ativá-lo ou utilizar outro método para definir a propriedade msDS-cloudExtensionAttribute1. Selecione um dos atributos e, em seguida, a chave "m" para navegar até às propriedades do Active Directory que comecem por "m". Localize a propriedade msDS-cloudExtensionAttribute1 e faça duplo clique na mesma. Defina o valor para o nome de utilizador que utiliza para iniciar sessão no Serviço Power BI, na forma YourUser@YourDomain.
 
-    ![Editar atributo](media/service-gateway-sso-kerberos/edit-attribute.png)
+    1. Selecione **OK**.
 
-1. Selecione **Aplicar**. Verifique se o valor correto foi configurado na coluna Value (Valor).
+        ![Editar atributo](media/service-gateway-sso-kerberos/edit-attribute.png)
+
+    1. Selecione **Aplicar**. Verifique se o valor correto foi configurado na coluna Value (Valor).
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Adicionar uma nova origem de dados do BW Application Server ao Serviço Power BI
 
@@ -347,17 +371,19 @@ Adicione a origem de dados do BW ao seu gateway: siga as instruções mencionada
 
 1. Na janela de configuração da origem de dados, introduza o **Nome do anfitrião**, **Número do Sistema** e **ID de cliente** do Application Server como faria ao iniciar sessão no seu servidor BW do Power BI Desktop. Para o **Método de Autenticação**, selecione **Windows**.
 
-1. No campo **Nome do Parceiro SNC**, introduza o valor armazenado no SNC/identidade/como parâmetro de perfil do servidor *com SAP/ adicionado entre o p: e o resto da identidade.* Por exemplo, se a identidade SNC do servidor for p:BWServiceUser@MYDOMAIN.COM, deve introduzir p:SAP/BWServiceUser@MYDOMAIN.COM na caixa de entrada do Nome do Parceiro SNC.
+1. No campo **Nome do Parceiro SNC**, introduza p:\<o SPN que mapeou para o Utilizador de Serviço do BW\>. Por exemplo, se o SPN for SAP/BWServiceUser@MYDOMAIN.COM, deverá introduzir p:SAP/BWServiceUser@MYDOMAIN.COM no campo **Nome do Parceiro SNC**.
 
 1. Para a Biblioteca SNC, selecione SNC\_LIB ou SNC\_LIB\_64.
 
 1. O **Nome de utilizador** e a **Palavra-passe** devem pertencer a um utilizador do Active Directory com permissão para iniciar sessão no servidor BW através do SSO (um utilizador do Active Directory que foi mapeado a um utilizador do BW através da transação SU01). Estas credenciais só serão utilizadas se a caixa **Utilizar SSO através de Kerberos para consultas de DirectQuery** *não* estiver selecionada.
 
-1. Selecione a caixa **Utilizar SSO através de Kerberos para consultas de DirectQuery** e selecione **Aplicar**. Se a ligação do teste não for bem-sucedida, verifique se os passos da configuração anterior foram concluídos corretamente.
+1. Selecione a caixa **Utilizar SSO através de Kerberos para consultas do DirectQuery** e selecione **Aplicar**. Se a ligação do teste não for bem-sucedida, verifique se os passos da configuração anterior foram concluídos corretamente.
+
+    O gateway utiliza sempre as credenciais introduzidas para estabelecer uma ligação de teste ao servidor e para fazer as atualizações agendadas dos relatórios baseados em importação. O gateway tentará apenas estabelecer uma ligação SSO se a opção **Utilizar SSO através de Kerberos para consultas do DirectQuery** estiver selecionada e se o utilizador estiver a aceder a um conjunto de dados ou a um relatório com base na consulta.
 
 ### <a name="test-your-setup"></a>Testar a sua configuração
 
-Publique um relatório do DirectQuery do Power BI Desktop no serviço Power BI para testar a sua configuração. Certifique-se de que tem sessão iniciada no serviço Power BI como o utilizador para o qual definiu a propriedade msDS-cloudExtensionAttribute1. Se a configuração tiver sido concluída com êxito, deve poder criar um relatório com base no conjunto de dados publicados no Serviço Power BI e obter dados através dos elementos visuais no relatório.
+Publique um relatório do DirectQuery do Power BI Desktop no serviço Power BI para testar a sua configuração. Garanta que tem sessão iniciada no serviço Power BI como utilizador do Microsoft Azure AD ou como utilizador que tenha mapeado para a propriedade msDS-cloudExtensionAttribute1 de um utilizador do Microsoft Azure AD. Se a configuração tiver sido concluída com êxito, deverá poder criar um relatório com base no conjunto de dados publicados no Serviço Power BI e obter dados através dos elementos visuais no relatório.
 
 ### <a name="troubleshooting-gateway-connectivity-issues"></a>Resolver Problemas de Conectividade do Gateway
 

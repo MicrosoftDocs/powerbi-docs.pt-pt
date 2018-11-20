@@ -1,5 +1,5 @@
 ---
-title: Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
+title: Distribuir conteúdos para utilizadores convidados externos com o Azure AD B2B
 description: O Power BI integra-se no Azure Active Directory Business-to-business (Azure AD B2B) para permitir uma distribuição segura de conteúdos do Power BI para utilizadores convidados fora da organização.
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dded0f38ccc4c871bf402240aba25b11106bac09
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: dee5c14d2ee714872409352b5e42d646e561c271
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973218"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507767"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
@@ -69,7 +69,7 @@ O utilizador convidado receberá um e-mail a indicar que a aplicação foi parti
 
 O utilizador convidado terá de iniciar sessão com o respetivo endereço de e-mail da organização. Ser-lhe-á pedido que aceite o convite após iniciar sessão. Após iniciar sessão, o utilizador convidado é redirecionado para o conteúdo da aplicação. Para regressar à aplicação, o utilizador convidado adicionar a ligação aos marcadores ou guardar o e-mail.
 
-## <a name="licensing"></a>Licenciamento
+## <a name="licensing"></a>Licensing
 
 O utilizador convidado tem de ter as devidas licenças para ver a aplicação que foi partilhada. Existem três opções para o efeito: utilizar o Power BI Premium; atribuir uma licença do Power BI Pro; ou utilizar a licença do Power BI Pro do convidado.
 

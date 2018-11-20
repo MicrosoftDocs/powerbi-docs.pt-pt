@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101652"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580546"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 
@@ -103,17 +103,14 @@ Para corrigir isto, siga os seguintes passos.
 3. Reinstale o gateway.
 4. Opcionalmente, aplique a chave de recuperação para restaurar um gateway existente.
 
-### <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Suporte para TLS 1.2
 
-Com a atualização de agosto de 2017 e posterior, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.1 ou 1.2 para comunicar com o **serviço Power BI** por predefinição. As versões anteriores do gateway de dados no local utilizam o TLS 1.0 por predefinição. Para garantir que os seus gateways continuam a funcionar corretamente, tem de atualizar as instalações do seu gateway de dados no local para a versão de agosto de 2017 ou posterior.
+Por predefinição, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.2 para comunicar com o serviço Power BI. Para garantir que todo o tráfego de gateway utiliza o TLS 1.2, poderá ter de adicionar ou modificar as seguintes chaves de registo no computador que executa o serviço de gateway:
 
->[!NOTE]
->O suporte para o TLS 1.0 foi terminado a 1 de novembro de 2017.
-
-É importante ter em atenção que o TLS 1.0 ainda é suportado pelo gateway de dados no local anterior a 1 de novembro de 2017 e é utilizado pelo gateway como um mecanismo de contingência. Para garantir que todo o tráfego de gateway utiliza o TLS 1.1 ou 1.2 (e para impedir a utilização de TLS 1.0 no seu gateway), tem de adicionar ou modificar as seguintes chaves de registo na máquina que executa o serviço de gateway:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Adicionar ou modificar estas chaves de registo aplica a alteração a todas as aplicações .NET. Para obter informações sobre as alterações de registo que afetam o TLS de outras aplicações, veja [Definições de registo do TLS (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
@@ -211,7 +208,7 @@ Isto pode dever-se a alguns cenários diferentes.
 
 A limitação exata é de 10 GB de dados não comprimidos por tabela. Se este problema ocorrer, existem boas opções para otimizar e evitar o problema. Em particular, reduzir a utilização de valores de cadeia altamente constantes e longos e, em alternativa, utilizar uma chave normalizada ou remover a coluna (se não estiver a ser utilizada) irá ajudar.
 
-## <a name="reports"></a>Reports
+## <a name="reports"></a>Relatórios
 
 ### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não conseguiu aceder à origem de dados porque não tem acesso aos nossos dados através de um Gateway de dados no local
 

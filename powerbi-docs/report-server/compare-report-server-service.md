@@ -4,24 +4,26 @@ description: Este artigo compara as funcionalidades do Power BI Report Server e
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908537"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507698"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
 O Power BI Report Server e o serviço Power BI tem bastantes semelhanças e algumas diferenças fundamentais. Esta tabela explica cada uma delas.
 
-| Funcionalidades | Power BI Report Server | Power BI Service (Serviço Power BI) | Notas
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Funcionalidades do Power BI Report Server e do serviço Power BI
+
+| Funcionalidades | Power BI Report Server | Serviço Power BI | Notas
 |---------|---------|---------|---------|
 | Implementação | Cloud no local ou alojada | Cloud | O Power BI Report Server pode ser implementado em VMs do Azure (cloud alojada) se for licenciado através do Power BI Premium
 | Dados de origem | Na cloud e/ou no local | Na cloud e/ou no local |  
@@ -39,14 +41,14 @@ O Power BI Report Server e o serviço Power BI tem bastantes semelhanças e al
 | Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Informações rápidas | Não | Sim | [Gerar automaticamente as informações de dados com o Power BI](../consumer/end-user-insights.md) 
 | Analisar no Excel | Não | Sim | [Analyze in Excel](../service-analyze-in-excel.md) 
-| Relatórios paginados | Sim | Não | Os relatórios paginados não estão disponíveis no serviço Power BI, mas pode [afixar itens de relatórios paginados a dashboards do Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+| Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço Power BI](../paginated-reports-report-builder-power-bi.md) em pré-visualização
 | Aplicações móveis do Power BI | Sim | Sim | [Descrição geral das aplicações móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Mapas ARC GIS | Não | Sim | [Mapas ArcGIS no serviço Power BI e Power BI Desktop pela Esri](../power-bi-visualization-arcgis.md)
 | Subscrições de e-mail para relatórios do Power BI | Não | Sim | [Subscrever um relatório ou dashboard](../consumer/end-user-subscribe.md) no serviço Power BI 
 | Subscrições de e-mail para relatórios paginados | Sim | Não | [Entrega de e-mail no Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Alertas de dados | Não | Sim | [Alertas de dados](../service-set-data-alerts.md) no serviço Power BI
 | Segurança ao nível da linha | Apenas através da origem de dados no modo DirectQuery | Disponível no DirectQuery (origem de dados) e no Modo de importação | [Segurança ao nível da linha (RLS)](../service-admin-rls.md) com o Power BI 
-| Modo de ecrã inteiro | Não | Sim | [Modo de ecrã inteiro](../service-fullscreen-mode.md) no serviço Power BI 
+| Modo de ecrã inteiro | Não | Sim | [Modo de ecrã inteiro](../consumer/end-user-focus.md) no serviço Power BI 
 | Colaboração avançada no Office 365 | Não | Sim | [Colaborar na área de trabalho de uma aplicação](../service-collaborate-power-bi-workspace.md) com o Office 365 
 | Visuais R | Não | Sim | [Criar elementos visuais R](../visuals/service-r-visuals.md) no serviço Power BI  
 | Funcionalidades de pré-visualização | Não | Sim | [Optar ativamente por participar nas funcionalidades de pré-visualização](../consumer/end-user-preview-features.md) do serviço Power BI 

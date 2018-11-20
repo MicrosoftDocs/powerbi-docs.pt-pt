@@ -7,12 +7,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: ff9218a84ba9c0055e965f4b000b73a490d250a5
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271860"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297183"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded e tire partido dos avanços de incorporação de conteúdos nas aplicações.
@@ -79,7 +79,7 @@ Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST.
 Deve registar a aplicação com a conta **principal** da aplicação.
 
 ## <a name="create-app-workspaces-required"></a>Criar áreas de trabalho da aplicação (Obrigatório)
-Pode tirar partido das áreas de trabalho da aplicação para proporcionar um isolamento melhor se a aplicação estiver a prestar serviços a vários clientes. Os dashboards e relatórios estariam isolados entre os clientes. Em seguida, poderia utilizar uma conta do Power BI por área de trabalho da aplicação para isolar ainda mais as experiências da aplicação entre os clientes.
+Poderá tirar partido das Áreas de trabalho da aplicação para proporcionar um isolamento melhor se a aplicação estiver a prestar serviços a vários clientes. Os dashboards e relatórios estariam isolados entre os clientes. Em seguida, poderia utilizar uma conta do Power BI por área de trabalho da aplicação para isolar ainda mais as experiências da aplicação entre os clientes.
 
 > [!IMPORTANT]
 > Não pode utilizar uma área de trabalho pessoal de modo a tirar partido da incorporação para utilizadores que não utilizam o Power BI.

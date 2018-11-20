@@ -4,19 +4,18 @@ description: Utilizar um mapa ArcGis na vista de leitura como um consumidor de r
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003277"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266030"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagir com mapas ArcGIS no Power BI
 Este tópico foi escrito do ponto de vista de uma pessoa que *consome* um mapa ArcGIS no serviço Power BI, Desktop ou para dispositivo móvel. Quando um criador partilha um mapa ArcGIS consigo, existem várias formas de interagir com o mapa.  Para obter mais informações sobre como criar um mapa ArcGIS, veja [Tutorial de mapas ArcGIS da ESRI](../power-bi-visualization-arcgis.md).
@@ -24,7 +23,7 @@ Este tópico foi escrito do ponto de vista de uma pessoa que *consome* um mapa A
 A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa a um nível totalmente novo. As opções disponíveis para mapas de base, tipos de localização, temas, estilos de símbolos e camadas de referência cria belíssimas visualizações de mapas informativos. A combinação de camadas de dados autoritativas (como dados de censo) num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados na visualização.
 
 > [!TIP]
-> GIS representa Geographic Information Science (Sistemas de Informação Geográfica).
+> GIS significa Geographic Information System (Sistema de Informação Geográfica).
 > 
 
 O exemplo que estamos a utilizar é o mesmo mapa ArcGIS criado no [Tutorial de mapas ArcGIS da ESRI](../power-bi-visualization-arcgis.md). Analisa as vendas do último ano por cidade e utiliza um mapa de base de ruas, símbolos de bolha para representar o tamanho e uma camada de referência para o rendimento médio do agregado familiar. O mapa contém 3 marcadores e um raio do tempo de viagem (em roxo).
