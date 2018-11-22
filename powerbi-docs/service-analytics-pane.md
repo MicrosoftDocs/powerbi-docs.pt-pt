@@ -1,23 +1,24 @@
 ---
-title: Painel Análise no serviço Power BI
-description: Criar linhas de referência dinâmicas para visuais no serviço Power BI
+title: Criar linhas de referência dinâmicas para elementos visuais
+description: Criar linhas de referência dinâmicas para elementos visuais no serviço Power BI
 author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244525"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717706"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Painel Análise no serviço Power BI
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Criar linhas de referência dinâmicas para elementos visuais no serviço Power BI
+
 Com o painel **Análise** no **serviço Power BI**, pode adicionar *linhas de referência* dinâmicas a visualizações e dar foco a tendências ou informações importantes.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ Com o painel **Análise** no **serviço Power BI**, pode adicionar *linhas de re
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Utilizar o painel Análise
+## <a name="use-the-analytics-pane"></a>Utilizar o painel Análise
 Com o painel **Análise**, pode criar os seguintes tipos de linhas de referência dinâmica (nem todas as linhas estão disponíveis para todos os tipos de visuais):
 
 * Linha constante do Eixo X
@@ -96,7 +97,7 @@ Finalmente, os visuais não Cartesianos não podem atualmente aplicar linhas din
 * Anel
 * Tabela
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Painel Análise no Power BI Desktop](desktop-analytics-pane.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

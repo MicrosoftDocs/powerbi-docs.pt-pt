@@ -10,18 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
+ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266214"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51688402"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorizar as capacidades no Power BI Premium e no Power BI Embedded
 
 Este artigo fornece uma descrição geral da monitorização das métricas das capacidades do Power BI Premium. Monitorizar a utilização das capacidades permite-lhe ter uma abordagem informada para gerir as suas capacidades.
 
-Pode monitorizar a capacidade com a aplicação Métricas de Capacidade do Power BI Premium ou no portal de administração. Recomendamos a aplicação, porque fornece muitos mais detalhes, apesar deste artigo abordar as duas opções. **A versão atual da aplicação é 1.8 (lançada em 7 de novembro de 2018).**
+Pode monitorizar a capacidade com a aplicação Métricas de Capacidade do Power BI Premium ou no portal de administração. Recomendamos a aplicação, porque fornece muitos mais detalhes, apesar deste artigo abordar as duas opções.
+
+**A versão atual da aplicação é a 1.9 (lançada a 14 de novembro de 2018).**
+
+.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -87,7 +91,7 @@ A área **Resumo** mostra uma vista das suas capacidades com base em entidades, 
 | --- | --- |
 | **Entidades** | * O número de capacidades de que é proprietário<br> * O número distinto de conjuntos de dados na sua capacidade<br> * O número distinto de áreas de trabalho na sua capacidade |
 | **Sistema** | * A utilização média da memória em GB nos últimos sete dias<br> * O mais alto consumo de memória em GB nos últimos sete dias e a hora local em que ocorreu<br> * O número de vezes que a CPU excedeu o valor de 80% dos limiares nos últimos sete dias, dividido em registos de três minutos<br> * A maioria das vezes em que a CPU excedeu o valor de 80% nos últimos sete dias, dividido em registos de uma hora e a hora local em que ocorreram<br> * O número de vezes que a Consulta direta/Ligações em direto excederam o valor de 80% dos limiares nos últimos sete dias, dividido em registos de três minutos<br> * A maioria das vezes em que a Consulta direta/Ligações em direto excederam o valor de 80% nos últimos sete dias, dividido em registos de uma hora e a hora local em que ocorreram |
-| **Cargas de Trabalho do Conjunto de Dados** | * O número total de atualizações nos últimos sete dias<br> * O número total de atualizações com êxito nos últimos sete dias<br> * O número total de atualizações com falha nos últimos sete dias<br> * O número total de atualizações com falha devido a memória esgotada<br> * A duração média da atualização é o tempo necessário para concluir a operação, em minutos<br> * O tempo médio de espera da atualização é o desfasamento médio entre a hora agendada e o início da operação, em minutos<br> * O número total de consultas executadas nos últimos sete dias<br> * O número total de consultas com êxito nos últimos sete dias<br> * O número total de consultas com falhas nos últimos sete dias<br> * A duração média das consultas é o tempo necessário para concluir a operação, em minutos<br> * O número total de modelos expulsos devido à pressão de memória |
+| **Cargas de Trabalho do Conjunto de Dados** | * O número total de atualizações nos últimos sete dias<br> * O número total de atualizações com êxito nos últimos sete dias<br> * O número total de atualizações com falha nos últimos sete dias<br> * O número total de atualizações com falha devido a memória esgotada<br> * A duração média da atualização é o tempo necessário para concluir a operação, em minutos<br> * O tempo médio de espera da atualização é o desfasamento médio entre a hora agendada e o início da operação, em minutos<br> * O número total de consultas executadas nos últimos sete dias<br> * O número total de consultas com êxito nos últimos sete dias<br> * O número total de consultas com falhas nos últimos sete dias<br> * A duração média das consultas é o tempo necessário para concluir a operação, em minutos<br> * O número total de modelos expulsos devido à pressão de memória<br> * Tamanho médio dos conjuntos de dados <br> * Contagem média de conjuntos de dados carregados para a memória |
 |  |  |
 
 #### <a name="refreshes-area"></a>Área de atualizações
@@ -99,8 +103,8 @@ A área **Atualizações** contém as métricas seguintes.
 | **Fiabilidade das atualizações** | * Contagem Total: as atualizações totais para cada conjunto de dados<br> * Fiabilidade: a percentagem de atualizações que foi concluída para cada conjunto de dados<br> * Tempo Médio de Espera: o desfasamento médio entre a hora agendada e o início da atualização do conjunto de dados, em minutos<br> * Tempo Máximo de Espera: o tempo máximo de espera do conjunto de dados, em minutos <br> * Duração Média: a duração média da atualização do conjunto de dados, em minutos<br> * Duração Máxima: a duração da atualização de execução mais longa do conjunto de dados, em minutos |
 | **Primeiros Cinco Conjuntos de Dados por Média de Duração da Atualização** | * Os cinco conjuntos de dados com a duração média mais longa de atualização, em minutos |
 | **Primeiros Cinco Conjuntos de Dados por Média de Tempo de Espera** | * Os cinco conjuntos de dados com o tempo médio de espera de atualização mais longo, em minutos |
-| **Média dos Tempos de Espera das Atualizações por Hora** | * O tempo médio de espera de atualização, dividido em registos de uma hora, apresentado na hora local. Os vários picos com tempo de espera da atualização são indicativos da execução frequente da capacidade. |
-| **Contagem de Atualizações e Consumo de Memória por Hora** | * Êxitos, falhas e consumo de memória, divididos em registos de uma hora, comunicados na hora local |
+| **Média dos Tempos de Espera das Atualizações por Hora** | * O tempo médio de espera de atualização, dividido em registos de uma hora, comunicado na hora local. Os vários picos com tempo de espera da atualização são indicativos da execução frequente da capacidade. |
+| **Contagem de Atualizações e Consumo de Memória por Hora** | * Êxitos, falhas e consumo de memória, dividido em registos de uma hora, comunicado na hora local |
 |  |  |
 
 #### <a name="query-durations-area"></a>Área Durações de Consulta
@@ -136,6 +140,8 @@ A área **Conjuntos de Dados** contém as métricas seguintes.
 | --- | --- |
 | **Contagens da Expulsão de Conjuntos de Dados** | * Total: o número total de *expulsões* de conjunto de dados para cada capacidade. Quando uma capacidade sofre uma pressão de memória, o nó expulsa um ou mais conjuntos de dados da memória. Os conjuntos de dados que estiverem inativos (sem qualquer operação de consulta/atualização em execução) são os primeiros a serem expulsos. Em seguida, a ordem de expulsão é feita com base no critério "menos recentemente utilizado" (LRU).|
 | **Expulsões de Conjuntos de Dados por Hora e Consumo de Memória** | * Expulsões de conjuntos de dados em comparação com o consumo de memória em GB, dividido em registos de uma hora, comunicado na hora local |
+| **Contagens de Conjuntos de Dados Carregados por Hora** | * Número de conjuntos de dados carregados para a memória em comparação com o consumo de memória em GB, dividido em registos de uma hora, comunicado na hora local |
+| **Tamanhos dos Dados**  | * Tamanho máx.: o tamanho máximo do conjunto de dados em MB para o período apresentado |
 |  |  |
 
 ### <a name="paginated-reports-tab"></a>Separador Relatórios paginados

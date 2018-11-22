@@ -1,7 +1,7 @@
 ---
 title: Conceitos básicos do serviço Power BI
 description: Áreas de trabalho, dashboards, relatórios, conjuntos de dados e livros do serviço Power BI.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -9,20 +9,20 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 07/19/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 9b02bdfd2c0025977dbb69eae44f4e976a527a30
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641925"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717775"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - conceitos básicos para o serviço Power BI
 
 Este artigo pressupõe que já se [inscreveu no serviço Power BI](service-self-service-signup-for-power-bi.md) e [adicionou dados](service-get-data.md).
 
-Quando abrir o serviço Power BI, irá ver um ***dashboard*** apresentado. Os dashboards são um elemento que distingue o serviço Power BI do Power BI Desktop.
+Quando abrir o serviço Power BI, irá ver um **_dashboard_** apresentado. Os dashboards são um elemento que distingue o serviço Power BI do Power BI Desktop.
 
 ![](media/service-basic-concepts/completenewest.png)
 
@@ -33,7 +33,7 @@ As principais funcionalidades da IU do serviço Power BI são as seguintes:
 3. caixa de perguntas das Perguntas e Respostas
 4. botões de ícone, incluindo a ajuda e os comentários
 5. título do dashboard (caminho de navegação, também conhecido como trilhos)
-6. Iniciador da aplicações do Office 365
+6. Iniciador de aplicações do Office 365
 7. botão Início do Power BI
 8. botões de ícone etiquetados
 
@@ -45,7 +45,7 @@ Pode também ver este vídeo antes de ler o resto do artigo.  No vídeo, o Will 
 
 
 ## <a name="power-bi-concepts"></a>Conceitos do Power BI
-Os quatro principais blocos modulares do Power BI são: ***dashboards***, ***relatórios***, ***livros*** e ***conjuntos de dados***. E estão todos organizados em ***áreas de trabalho***. É importante compreender as áreas de trabalho antes de examinarmos os quatro blocos modulares. Por isso, vamos começar por aí.
+Os quatro componentes principais do Power BI são: **_dashboards_**, **_relatórios_**, **_livros_** e **_conjuntos de dados_**. Além disso, estão todos organizados em **_áreas de trabalho_**. É importante compreender as áreas de trabalho antes de examinarmos os quatro blocos modulares. Por isso, vamos começar por aí.
 
 ## <a name="workspaces"></a>Áreas de trabalho
 As áreas de trabalho são os contentores para dashboards, relatórios, livros e conjuntos de dados no Power BI. Existem dois tipos de áreas de trabalho: *A minha área de trabalho* e as *áreas de trabalho da aplicação*. Assim, o que é uma *aplicação*? Uma *aplicação* Power BI é uma coleção de dashboards e relatórios criados para fornecer métricas importantes à sua organização. As aplicações são interativas, mas não podem ser editadas.
@@ -61,7 +61,7 @@ Voltemos agora aos blocos modulares do Power BI. Não pode ter dashboards ou re
 ## <a name="datasets"></a>Conjuntos de dados
 Um *conjunto de dados* é uma coleção de dados que *importa* ou à qual se *liga*. O Power BI permite ligar-se e importar todos os tipos de conjuntos de dados e reuni-los num único lugar.  
 
-Os conjuntos de dados estão associados às *áreas de trabalho* e um único conjunto de dados pode fazer parte de várias áreas de trabalho. Quando abre uma área de trabalho, os conjuntos de dados associados são apresentados no separador **Conjuntos de dados**. Cada conjunto de dados listado representa uma origem de dados única, por exemplo, um livro do Excel no OneDrive, um conjunto de dados tabular SSAS local ou um conjunto de dados do Salesforce. São suportadas muitas origens de dados diferentes e estamos sempre a adicionar novas. [Consulte a lista de tipos de conjuntos de dados que podem ser utilizados com o Power BI](service-get-data.md).
+Os conjuntos de dados estão associados às *áreas de trabalho* e um único conjunto de dados pode fazer parte de várias áreas de trabalho. Quando abre uma área de trabalho, os conjuntos de dados associados são apresentados no separador **Conjuntos de dados**. Cada conjunto de dados listado representa uma origem de dados única, por exemplo, um livro do Excel no OneDrive, um conjunto de dados tabular SSAS local ou um conjunto de dados do Salesforce. São suportadas muitas origens de dados diferentes e estamos sempre a adicionar novas. [Veja a lista de tipos de conjuntos de dados que podem ser utilizados com o Power BI](service-get-data.md).
 
 No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e marketing” e cliquei no separador de **Conjuntos de dados**.
 
@@ -77,7 +77,7 @@ No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e mar
 
 Para se [ligar ou importar um conjunto de dados](service-get-data.md), selecione **Obter Dados** (na parte inferior da barra de navegação esquerda) ou selecione **+ Criar > Conjunto de Dados**  (no canto superior direito). Siga as instruções para se ligar ou importar uma origem específica e adicionar o conjunto de dados à área de trabalho. Os novos conjuntos de dados são marcados com um asterisco amarelo. O trabalho que realiza no Power BI não altera o conjunto de dados subjacente.
 
-Se fizer [parte de uma ***área de trabalho de aplicação***](service-collaborate-power-bi-workspace.md), os conjuntos de dados adicionados por um membro da área de trabalho serão disponibilizados para os restantes membros da área de trabalho.
+Se fizer [parte de uma **_área de trabalho de aplicação_**](service-collaborate-power-bi-workspace.md), os conjuntos de dados adicionados por um membro da área de trabalho serão disponibilizados para os restantes membros da área de trabalho.
 
 Os conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Utilize um conjunto de dados para criar um relatório a partir do zero ou ao executar as [informações rápidas](service-insights.md).  Para ver quais os relatórios e dashboards que já utilizam um conjunto de dados, selecione **Ver relacionados**. Para explorar um conjunto de dados, selecione-o. O que está realmente a fazer é abrir o conjunto de dados no editor de relatórios, onde pode de facto começar a explorar os dados e a criar visualizações. Vamos então passar para o próximo tópico – relatórios.
 
@@ -86,10 +86,10 @@ Os conjuntos de dados podem ser atualizados, renomeados, explorados e removidos.
 * [Obter dados para o Power BI](service-get-data.md)
 * [Conjuntos de dados de exemplo do Power BI](sample-datasets.md)
 
-## <a name="reports"></a>Reports
-Um relatório do Power BI é uma ou mais páginas de visualizações (gráficos como gráficos de linhas, gráficos circulares, treemaps, entre outros). As visualizações chamam-se também ***visuais***. Todas as visualizações num relatório vêm de um único conjunto de dados. Os relatórios podem ser criados do zero no Power BI, podem ser importados com dashboards que os seus colegas partilham consigo ou podem ser criados quando se liga a conjuntos de dados do Excel, do Power BI Desktop, das bases de dados, das aplicações SaaS e das [aplicações](service-get-data.md).  Por exemplo, quando se liga a um livro do Excel que contém folhas do Power View, o Power BI cria um relatório baseado nessas folhas. E quando se liga a uma aplicação SaaS, o Power BI importa um relatório previamente criado.
+## <a name="reports"></a>Relatórios
+Um relatório do Power BI é uma ou mais páginas de visualizações (gráficos como gráficos de linhas, gráficos circulares, treemaps, entre outros). As visualizações também são denominadas **_elementos visuais_**. Todas as visualizações num relatório vêm de um único conjunto de dados. Os relatórios podem ser criados do zero no Power BI, podem ser importados com dashboards que os seus colegas partilham consigo ou podem ser criados quando se liga a conjuntos de dados do Excel, do Power BI Desktop, das bases de dados, das aplicações SaaS e das [aplicações](service-get-data.md).  Por exemplo, quando se liga a um livro do Excel que contém folhas do Power View, o Power BI cria um relatório baseado nessas folhas. E quando se liga a uma aplicação SaaS, o Power BI importa um relatório previamente criado.
 
-Existem duas formas de ver e interagir com os relatórios: [Vista de leitura e Vista de edição](service-reading-view-and-editing-view.md).  Apenas a pessoa que criou o relatório, os coproprietários e as pessoas com permissão concedida têm acesso a todas as capacidades de exploração, estruturação, criação e partilha da ***Vista de Edição*** desse relatório. As pessoas com quem partilharem o relatório podem explorar e interagir com o relatório ao utilizar a ***Vista de Leitura***.   
+Existem duas formas de ver e interagir com os relatórios: [Vista de leitura e Vista de edição](service-reading-view-and-editing-view.md).  Apenas a pessoa que criou o relatório, os coproprietários e as pessoas com permissão concedida têm acesso a todas as capacidades de exploração, estruturação, criação e partilha da **_Vista de Edição_** desse relatório. As pessoas com quem partilharem o relatório podem explorar e interagir com o relatório através da **_Vista de Leitura_**.   
 
 Quando abre uma área de trabalho, os relatórios associados estão listados no separador **Relatórios**. Cada relatório listado representa uma ou mais páginas de visualizações, com base apenas num dos conjuntos de dados subjacentes. Para abrir um relatório, basta selecioná-lo.
 
@@ -114,9 +114,9 @@ No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e mar
 * [Reports in the Power BI mobile apps (Relatórios nas aplicações móveis do Power BI)](mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Dashboards
-Um *dashboard* é algo que cria **no serviço Power BI** ou algo que um colega cria **no serviço Power BI** e partilha consigo. Trata-se de uma única tela, que contém zero ou mais mosaicos e widgets. Cada mosaico afixado a partir de um relatório ou a partir de [Perguntas e Respostas](power-bi-q-and-a.md) mostra uma única [visualização](power-bi-report-visualizations.md), que foi criada a partir de um conjunto de dados e afixada ao dashboard. Pode também afixar páginas de relatórios inteiras a um dashboard como um mosaico único. Há várias formas de adicionar mosaicos ao seu dashboard; demasiadas para serem abordadas neste tópico de descrição geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](service-dashboard-tiles.md).
+Um *dashboard* é algo que cria **no serviço Power BI** ou algo que um colega cria **no serviço Power BI** e partilha consigo. Trata-se de uma única tela, que contém zero ou mais mosaicos e widgets. Cada mosaico afixado a partir de um relatório ou a partir de [Perguntas e Respostas](power-bi-q-and-a.md) mostra uma única [visualização](power-bi-report-visualizations.md), que foi criada a partir de um conjunto de dados e afixada ao dashboard. Pode também afixar páginas de relatórios inteiras a um dashboard como um mosaico único. Há várias formas de adicionar mosaicos ao seu dashboard; demasiadas para serem abordadas neste tópico de descrição geral. Para saber mais, veja [Mosaicos de dashboard no Power BI](service-dashboard-tiles.md).
 
-Por que é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
+Porque é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
 
 * para ver rapidamente todas as informações necessárias para tomar decisões
 * para monitorizar as informações mais importantes sobre o seu negócio
@@ -192,7 +192,7 @@ Os dashboards são compostos por [mosaicos](service-dashboard-tiles.md).  Os mos
 
 ![Tela do dashboard do Power BI](media/service-basic-concepts/canvas.png)
 
-Para obter mais informações, consulte **Dashboards** (acima).
+Para obter mais informações, veja **Dashboards** (acima).
 
 ### <a name="3-qa-question-box"></a>3. **Caixa de perguntas das Perguntas e Respostas**
 Uma maneira de explorar seus dados é fazer uma pergunta e deixar que as Perguntas e Respostas do Power BI lhe forneçam uma resposta, na forma de uma visualização. As Perguntas e Respostas podem ser utilizadas paro adicionar conteúdo a um dashboard ou a um relatório.
@@ -201,7 +201,7 @@ As Perguntas e Respostas procuram uma resposta no conjunto(s) de dados ligado ao
 
 ![caixa de perguntas das Perguntas e Respostas](media/service-basic-concepts/power-bi-qna.png)
 
-Assim que começa a escrever a sua pergunta, as Perguntas e Respostas levam-no até a página de Perguntas e Respostas. À medida que digita, as Perguntas e Respostas ajudam-no a fazer a pergunta certa e a encontrar a melhor resposta com reformulações frásicas, preenchimento automático, sugestões e muito mais. Quando encontrar uma visualização (resposta) de que gosta, afixe-a no seu dashboard. Para obter mais informações, consulte [Perguntas e Respostas no Power BI](power-bi-q-and-a.md).
+Assim que começa a escrever a sua pergunta, as Perguntas e Respostas levam-no até a página de Perguntas e Respostas. À medida que digita, as Perguntas e Respostas ajudam-no a fazer a pergunta certa e a encontrar a melhor resposta com reformulações frásicas, preenchimento automático, sugestões e muito mais. Quando encontrar uma visualização (resposta) de que gosta, afixe-a no seu dashboard. Para obter mais informações, veja [Perguntas e Respostas no Power BI](power-bi-q-and-a.md).
 
 ### <a name="4-icon-buttons"></a>4. **Botões de ícone**
 Os ícones no canto superior direito são recursos para as definições, as notificações, as transferências, obter ajuda e fornecer comentários à equipa do Power BI. Selecione a seta dupla para abrir o dashboard no modo de **Ecrã inteiro**.  
@@ -221,7 +221,7 @@ Com o iniciador de aplicações, todas as aplicações do Office 365 estão fac
 ![Iniciador de aplicações do Office](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Página inicial do Power BI**
-Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário,será aberto o último dashboard visualizado.
+Se selecionar esta opção, abrirá o [ dashboard em destaque](service-dashboard-featured.md) (se tiver definido um). Caso contrário, será aberto o último dashboard visualizado.
 
    ![](media/service-basic-concepts/version-new.png)
 
@@ -230,7 +230,7 @@ Esta área do ecrã contém opções adicionais para interagir com o conteúdo (
 
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [O que é o Power BI?](power-bi-overview.md)  
 [Navegação: Introdução ao serviço Power BI](service-the-new-power-bi-experience.md)
 [Vídeos do Power BI](videos.md)  

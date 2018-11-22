@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: fazer perguntas com o analista virtual Perguntas e Respostas em aplicações iOS – Power BI'
+title: 'Tutorial: Fazer perguntas com o analista virtual Perguntas e Respostas em aplicações iOS'
 description: Neste tutorial, faça perguntas sobre dados de exemplo por palavras próprias com o analista virtual Perguntas e Respostas na aplicação móvel Power BI no dispositivo iOS.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547144"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157155"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Tutorial: fazer perguntas sobre os seus dados com o analista virtual Perguntas e Respostas em aplicações iOS – Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Fazer perguntas sobre os seus dados com o analista virtual Perguntas e Respostas nas aplicações Power BI para iOS
 
 A forma mais fácil de conhecer os seus dados é fazer perguntas sobre os mesmos por palavras próprias. Neste tutorial, vai fazer perguntas e ver informações de destaque sobre dados de exemplo com o analista virtual Perguntas e Respostas na aplicação móvel do Microsoft Power BI no iPad, iPhone e iPod Touch. 
 
@@ -128,7 +128,7 @@ Quando tiver terminado o tutorial, pode eliminar o dashboard, o relatório e o c
 5. Selecione o separador **Conjuntos de dados** e faça o mesmo para o conjunto de dados de Análise de Oportunidade.
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Já experimentou o assistente virtual Perguntas e Respostas nas aplicações móveis do Power BI para iOS. Leia mais sobre as Perguntas e Respostas no serviço Power BI.
 > [!div class="nextstepaction"]

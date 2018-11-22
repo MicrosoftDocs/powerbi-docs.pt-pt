@@ -6,16 +6,16 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/26/2018
+ms.date: 11/19/2018
 ms.author: maggies
 layout: landingpage
 LocalizationGroup: Get started
-ms.openlocfilehash: 32c09de10a9a9dd4b5c315377745afde9fd9175a
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 70ea5374c3249e0abe38aeaaf8bb6253e50d8a08
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507836"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157339"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para designers de relatórios
 
@@ -61,7 +61,7 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
                                                                                       <h3>Ligar-se a dados</h3> 
                                                                                       <p></p>
                                                                                             <a href="desktop-quickstart-connect-to-data.md">Ligar a Dados no Power BI Desktop</a><br/> 
-                                                                                            <a href="service-connect-to-services.md">Ligar aos serviços online</a><br/> 
+                                                                                            <a href="service-dataflows-overview.md">Fluxos de dados: preparação personalizada de dados</a><br/> 
                                                                                             <a href="service-gateway-install.md">Gateways para dados no local</a>
                                                                         </div> 
                                                           </div> 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736970"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679438"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -43,9 +43,9 @@ O Power BI Premium destina-se às empresas que pretendem uma solução completa 
 
 O Power BI Embedded é para ISVs ou programadores que estão a construir aplicações e pretendem integrar visuais nessas aplicações. O Power BI Embedded ajuda os clientes a tomarem decisões porque é para programadores de aplicações, clientes dessa aplicação podem consumir conteúdo armazenado na capacidade do Power BI Embedded, incluindo qualquer pessoa no interior ou exterior da organização. Não é possível partilhar o conteúdo de capacidade do Power BI Embedded através da publicação com um único clique na Web ou a publicação com um único clique no SharePoint e não suporta relatórios SSRS.
 
-### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs o Power BI Embedded?
+### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Quais as recomendações da Microsoft aos clientes em relação à compra do Power BI Premium vs. o Power BI Embedded?
 
-A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na nuvem ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela nuvem. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
+A recomendação da Microsoft é que as empresas compram o Power BI Premium, uma solução BI personalizada na cloud ao nível empresarial e ISVs compram Power BI Embedded, componentes de análise integrados suportados pela cloud. No entanto, não existem restrições em relação ao produto que um cliente pode comprar.
 
 Podem ocorrer situações em que um ISV (geralmente de grande dimensão) pretende utilizar um P SKU para receber os benefícios adicionais do serviço pré-embalado do Power BI na organização, bem como integrar as suas aplicações. E, claro, algumas Empresas poderão decidir utilizar SKUs A no Azure se só estiverem interessadas na criação de aplicações de linha de negócio e na incorporação das análises nas aplicações e não pretenderem utilizar o serviço Power BI pré-embalado.
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > Sobre o Power BI
 ![Sobre o Power BI](media/embedded-faq/about-01.png)
 ![Região de inquilino](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>O que é suportado no canal de processos sequenciais de comunicação (CSP)?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>O que é suportado na via do Fornecedor de Soluções Cloud (CSP)?
 
 * Pode criar uma capacidade PBIE para o seu inquilino com o tipo de subscrição CSP
 * A conta de parceiro pode iniciar sessão no inquilino de cliente e adquirir o PBIE para o mesmo, bem como especificar um utilizador do inquilino de cliente como administrador de capacidades do Power BI

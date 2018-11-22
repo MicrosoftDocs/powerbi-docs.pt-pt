@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 8bdb249543d8d6b5b0cb7d75e3295adc751e5ab1
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679024"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268349"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway de dados no local
 
@@ -90,8 +90,9 @@ Quando adiciona uma origem de dados ao gateway, é necessário fornecer credenci
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
 * O [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
-) não é suportado atualmente
-* O [Acesso Online](https://products.office.com/en-us/access) não é suportado atualmente
+) não é atualmente suportado.
+* O [Access Online](https://products.office.com/en-us/access) não é atualmente suportado.
+* Os scripts R só são suportados se o gateway for executado no modo pessoal.
 
 ## <a name="tenant-level-administration"></a>Administração ao nível do inquilino
 

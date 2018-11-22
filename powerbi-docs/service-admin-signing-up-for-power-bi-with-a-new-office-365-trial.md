@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736855"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850390"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Inscrever-se no Power BI com uma nova versão de avaliação do Office 365
 
@@ -27,7 +27,7 @@ Este artigo descreve uma forma alternativa de se inscrever no Power BI através
 
 1. Quando concluir este processo de inscrição, terá um novo nome de início de sessão parecido com you@yourcompany.onmicrosoft.com. Este é o início de sessão que utilizará com o Power BI.
 
-1. Inscreva-se no Power BI [através desta ligação](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1). Se lhe for pedido, inicie sessão com o nome e a palavra-passe que selecionou para o Office 365 no passo anterior.
+1. Inscreva-se no Power BI [através desta ligação](https://app.powerbi.com/signupredirect?pbi_source=web). Se lhe for pedido, inicie sessão com o nome e a palavra-passe que selecionou para o Office 365 no passo anterior.
 
 1. E já está! Quando terminar, será redirecionado para o Power BI. Se tiver algum problema no início de sessão com a nova conta, experimente utilizar uma sessão de navegação privada.
 
@@ -35,7 +35,7 @@ Este artigo descreve uma forma alternativa de se inscrever no Power BI através
 
 Com este método de inscrição, está a criar um novo inquilino organizacional e tornar-se-á no administrador de inquilinos. Para obter mais informações, veja [O que é a administração do Power BI?](service-admin-administering-power-bi-in-your-organization.md). Pode adicionar novos utilizadores ao seu inquilino e partilhar com eles, conforme descrito na [documentação de administração do Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [O que é a administração do Power BI?](service-admin-administering-power-bi-in-your-organization.md)  
 [Licenciamento do Power BI na sua organização](service-admin-licensing-organization.md)  

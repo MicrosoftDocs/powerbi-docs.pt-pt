@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909021"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717901"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Criar as novas áreas de trabalho (pré-visualização) no Power BI
 
@@ -168,10 +168,10 @@ Algumas funcionalidades funcionam de forma diferente das áreas de trabalho de a
 
 Os seguintes problemas são conhecidos e as correções estão em desenvolvimento:
 
-- Os utilizadores ou grupos de utilizadores gratuitos que são adicionados como destinatários de subscrições a e-mails podem não receber os e-mails que deviam receber. O problema ocorre quando a nova experiência de áreas de trabalho se encontra numa capacidade Premium, mas A Minha Área de Trabalho do utilizador que está a criar a subscrição não se encontra na capacidade Premium. Se A Minha Área de Trabalho se encontrar numa capacidade Premium, os utilizadores e grupos de utilizadores gratuitos receberão os e-mails.
+- Os utilizadores ou grupos de utilizadores gratuitos que são adicionados como destinatários de subscrições a e-mails podem não receber os e-mails que deviam receber. O problema ocorre quando uma das novas áreas de trabalho se encontra numa capacidade Premium, mas A Minha Área de Trabalho do utilizador que está a criar a subscrição não se encontra numa capacidade Premium. Se A Minha Área de Trabalho se encontrar numa capacidade Premium, os utilizadores e grupos de utilizadores gratuitos receberão os e-mails.
 - Depois de uma área de trabalho ser movida de uma capacidade Premium para uma capacidade partilhada, os utilizadores e grupos de utilizadores gratuitos continuarão, em alguns casos, a receber e-mails que não deveriam receber. O problema ocorre quando A Minha Área de Trabalho do utilizador que está a criar a subscrição se encontra numa capacidade Premium.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [Criar as áreas de trabalho atuais](service-create-workspaces.md)
 * [Instalar e utilizar aplicações no Power BI](service-create-distribute-apps.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

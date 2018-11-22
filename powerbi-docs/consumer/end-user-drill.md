@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4e1c2d309990c28ad0568dbd15dd7fe81634e95
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565711"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679499"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de desagregação numa visualização no Power BI
 
@@ -29,7 +29,7 @@ Não sabe que visualizações do Power BI contêm uma hierarquia?  Passe o curso
 ![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
 ![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
 
-As datas são um tipo único de hierarquia. Quando adicionar um campo de data a uma visualização, o Power BI adiciona automaticamente uma hierarquia de tempo que contém ano, trimestre, mês e dia. Para obter mais informações, consulte [Hierarquias visuais e comportamento de desagregação](../guided-learning/visualizations.yml?tutorial-step=18) ou veja o vídeo abaixo.
+As datas são um tipo único de hierarquia. Quando adicionar um campo de data a uma visualização, o Power BI adiciona automaticamente uma hierarquia de tempo que contém ano, trimestre, mês e dia. Para obter mais informações, veja [Hierarquias visuais e comportamento de desagregação](../guided-learning/visualizations.yml?tutorial-step=18) ou veja o vídeo abaixo.
 
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/MNAaHw4PxzE?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -190,7 +190,7 @@ Além da visualização, podemos ver a hierarquia refletida nos dados compostos 
 Tenha em atenção que os dados são os mesmos para relatórios trimestrais e anuais, mas após desagregar o nível de detalhe especificado para **Valores**, pode ver que o relatório único é mais específico e o relatório "todos os meses" tem mais dados.
 
 
-|Modo Expandir|Ano|Trimestre|Mês|Dia|
+|Modo Expandir|Year|Trimestre|Mês|Dia|
 | ---|:---:|:---:|:---:|---|
 |Único|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Tudo|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
@@ -211,7 +211,7 @@ Deverá estar no nível mais baixo da hierarquia, que mostra resultados para Ter
 Além da visualização, podemos ver a hierarquia refletida nos dados compostos para cada relatório. A seguinte tabela mostra os resultados de **Mostrar Dados** num relatório a desagregar para um único território ou todos os territórios. À medida que desagrega, pode ver como o relatório relativo a um território se torna mais específico e o relatório "todos os territórios" tem mais dados.
 
 
-| Modo Expandir|Territory|City|Postal|Nome|
+| Modo Expandir|Territory|Cidade|Postal|Nome|
 | ---|:---:|:---:|:---:|---|
 |Único|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |Tudo|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|

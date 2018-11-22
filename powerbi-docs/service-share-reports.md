@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271515"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51678978"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Partilhar um relatório do Power BI filtrado com os seus colegas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir os seus relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -49,13 +49,13 @@ E se pretender partilhar uma versão filtrada de um relatório? Por exemplo, um 
    
    app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. [Partilhe o relatório](service-share-dashboards.md), mas desmarque a caixa de verificação **Enviar notificação por e-mail aos destinatários**. 
+3. [Partilhe o relatório](service-share-dashboards.md), mas desselecione a caixa de verificação **Enviar notificação por e-mail aos destinatários**. 
 
     ![Caixa de diálogo Partilhar relatório](media/service-share-reports/power-bi-share-report-dialog.png)
 
 4. Envie a ligação com o filtro criado anteriormente.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 * [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Partilhar um dashboard](service-share-dashboards.md)

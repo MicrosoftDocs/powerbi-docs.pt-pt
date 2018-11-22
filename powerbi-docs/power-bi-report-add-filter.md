@@ -1,5 +1,5 @@
 ---
-title: Adicionar um filtro a um relatório do Power BI
+title: Adicionar um filtro a um relatório na Vista de Edição
 description: Adicionar um filtro de página, um filtro de visualização ou um filtro de relatório a um relatório no Power BI
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611158"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157385"
 ---
-# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adicionar um filtro a um relatório do serviço Power BI (na Vista de Edição)
+# <a name="add-a-filter-to-a-report-in-editing-view"></a>Adicionar um filtro a um relatório na Vista de Edição
 
 Este artigo explica como adicionar um filtro de página, um filtro de visualização, um filtro de relatório ou um filtro de pormenorização a um relatório no Power BI. Os exemplos presentes neste artigo estão no serviço Power BI. Os passos são praticamente idênticos aos do Power BI Desktop.
 
@@ -151,7 +151,7 @@ Vamos ver como funciona o filtro de pormenorização.
 - Se não vir o painel Campos, certifique-se de que está na [Vista de edição](service-interact-with-a-report-in-editing-view.md) do relatório    
 - Se tiver feito várias alterações aos filtros e quiser regressar às predefinições do autor do relatório, selecione **Repor para predefinição** na barra de menus superior.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [ Fazer uma visita do painel Filtros](consumer/end-user-report-filter.md)
 
 [Filtros e realce em relatórios](power-bi-reports-filters-and-highlighting.md)

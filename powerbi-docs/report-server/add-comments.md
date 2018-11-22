@@ -1,5 +1,5 @@
 ---
-title: Adicionar comentários a um relatório no servidor de relatórios - Power BI Report Server
+title: Adicionar comentários a um relatório no Power BI Report Server
 description: Saiba como adicionar comentários a um relatório do Power BI ou paginado no Power BI Report Server ou no servidor de relatórios do SQL Server Reporting Services.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727979"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157362"
 ---
-# <a name="add-comments-to-a-report-in-a-report-server"></a>Adicionar comentários a um relatório num servidor de relatórios
+# <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Adicionar comentários a um relatório no servidor de relatórios - Power BI Report Server
 Pode adicionar comentários a relatórios, incluindo relatórios do Power BI, no portal Web de um servidor de relatórios. Os comentários permanecem no relatório, e qualquer pessoa com as permissões corretas pode ver os comentários do relatório. Veja a secção [Permissões](#permissions) abaixo para obter detalhes.
 
 ## <a name="add-or-view-comments"></a>Adicionar ou ver os comentários
@@ -44,7 +44,7 @@ Consoante as suas permissões, pode:
 * Ver todos os comentários e publicar, editar e eliminar os seus comentários.
 * Ver todos os comentários; publicar, editar e eliminar os seus próprios comentários; e eliminar os comentários de outras pessoas.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 * [O que é o Power BI Report Server?](get-started.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

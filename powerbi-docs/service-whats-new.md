@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396756"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51718074"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
@@ -48,7 +48,7 @@ Também pode consultar os canais de YouTube para obter informações sobre "Novi
 * Partilhar relatórios com filtros e segmentações de dados.
 * Interface de utilizador nova e melhorada para [ligações de gateway](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/) e configuração de conjuntos de dados.
 
-### <a name="may-2018"></a>May 2018
+### <a name="may-2018"></a>Maio de 2018
 * [Dashboards de temas](service-dashboard-themes.md) no serviço Power BI.
 * [Atualização incremental](service-premium-incremental-refresh.md) com a versão Premium.
 * Fluxo de trabalho de pedido de acesso das [Aplicações do Power BI](service-create-distribute-apps.md).
@@ -104,13 +104,13 @@ Também pode consultar os canais de YouTube para obter informações sobre "Novi
 * Suporte para [subscrições de correio eletrónico](consumer/end-user-subscribe.md) nos dashboards.
 * Inspecione e faça o diagnóstico da razão pela qual o tempo de carregamento é fraco para dashboards utilizando o Inspector de Desempenho.
 * Snowflake e SAP BusinessWarehouse DirectQuery agora suportados para o gateway de dados no local.
-* Novas [APIs para gerir a atualizçaão de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço Power BI.
+* Novas [APIs para gerir a atualização de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço Power BI.
 
 ### <a name="june-2017"></a>Junho de 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) disponibilizado.
-* Vários melhoramentos de API para [automarizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar e efetuar o reenlace de relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [atualizar enlaces do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito, muito mais
+* Vários melhoramentos de API para [automatizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar e efetuar o reenlace de relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [atualizar enlaces do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito, muito mais
 * Ligações relativas nas aplicações de Power BI desde mosaicos do dashboard a outros dashboards e relatórios.
-* [Conector impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) geralmente disponível no Power BI Desktop.
+* [Conector Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) geralmente disponível no Power BI Desktop.
 * Expanda as funcionalidades visuais do Power BI com [visuais interativos personalizados de R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
 
 ### <a name="april-and-may-2017"></a>Abril e Maio de 2017
@@ -160,7 +160,7 @@ Também pode consultar os canais de YouTube para obter informações sobre "Novi
 ### <a name="october-2016"></a>Outubro de 2016
 * Tire partido da [integração do Power BI com o novo Microsoft Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/).
 * [Visualizações R](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/) do design no Power BI sem noções de R.
-* Pré-visualização: com o [Analysis Services do Azure](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/), os profissionais de BI podem criar modelos semânticos de BI com base em dados que se encontram na nuvem ou no local, para fornecer aos utilizadores professionais uma vista simplificada dos seus dados.
+* Pré-visualização: com o [Analysis Services do Azure](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/), os profissionais de BI podem criar modelos semânticos de BI com base em dados que se encontram na cloud ou no local, para fornecer aos utilizadores profissionais uma vista simplificada dos seus dados.
 * A nova [Função de Administrador de Serviço do Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) pode ser atribuído a utilizadores que devem ter acesso ao Portal de Administração do Power BI, mas não outro acesso administrativo ao Office 365.
 * Explore os [dados avançados de MYOB com o Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/).
 * De que forma um administrador pode rever o [registo de auditoria do Power BI](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)
@@ -182,9 +182,9 @@ Também pode consultar os canais de YouTube para obter informações sobre "Novi
 Para obter todos os detalhes, [visite o blogue da equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>Junho de 2016
-***Insights Rápidos***
+***Informações Rápidas***
 
-* Quick Insights funcionam com Filtros Complexos: estamos satisfeitos em anunciar que o Quick Insights no âmbito de um único mosaico irá incluir filtros complexos.
+* As Informações Rápidas funcionam com Filtros Complexos: estamos satisfeitos em anunciar que as Informações Rápidas no âmbito de um único mosaico irão incluir filtros complexos.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
@@ -198,7 +198,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 * Suporte de grupo do Active Directory (AAD) do Azure: os utilizadores agora podem atribuir grupos do AAD (grupos de segurança e listas de distribuição) a uma função. Isto facilita a atribuição de funções a um grupo grande de utilizadores em simultâneo.
 * [Testar as funções RLS com relatórios suportados pelos dados com RLS no local](service-admin-rls.md#validating-the-role-within-power-bi-desktop): adicionámos uma funcionalidade para a nossa pré-visualização RLS que lhe permite testar o conjunto de dados como uma função específica. Esta ação irá garantir que a função funciona como esperado antes de quaisquer utilizadores conseguirem utilizar o dashboard.
-* Defina e aplique RLS a modelos de nuvem baseados em consultas diretas: agora pode criar e aplicar regras RLS a origens de dados de consulta direta.
+* Defina e aplique RLS a modelos de cloud baseados em consultas diretas: agora pode criar e aplicar regras RLS a origens de dados de consulta direta.
 
 ***Dashboards***
 
@@ -212,18 +212,18 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Suporte de Perguntas e Respostas do Power BI para modelos em tabela do Analysis Services do SQL Server 2016](service-q-and-a-direct-query.md): temos o prazer em anunciar melhoramentos à experiência de utilizador do Power BI e o início de pré-visualização pública das Perguntas e Respostas do Power BI para as origens de dados ligadas ao gateway de empresa - começando com suporte para modelos em tabela do Analysis Services do SQL Server 2016. Para todos os detalhes, [consulte a mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
-* [Suporte de ficheiros locais para os relatórios do Excel](service-excel-workbook-files.md#local-excel-workbooks): agora pode carregar os ficheiros de Excel do disco local ou outros serviços de armazenamento e utilizar esse relatório de Excel, tal como faria no Excel Online com os benefícios adicionados do Power BI. Para todos os detalhes, [consulte a mensagem do blogue](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
+* [Suporte de Perguntas e Respostas do Power BI para modelos em tabela do Analysis Services do SQL Server 2016](service-q-and-a-direct-query.md): temos o prazer em anunciar melhoramentos à experiência de utilizador do Power BI e o início de pré-visualização pública das Perguntas e Respostas do Power BI para as origens de dados ligadas ao gateway de empresa - começando com suporte para modelos em tabela do Analysis Services do SQL Server 2016. Para todos os detalhes, [veja a mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [Suporte de ficheiros locais para os relatórios do Excel](service-excel-workbook-files.md#local-excel-workbooks): agora pode carregar os ficheiros de Excel do disco local ou outros serviços de armazenamento e utilizar esse relatório de Excel, tal como faria no Excel Online com os benefícios adicionados do Power BI. Para todos os detalhes, [veja a mensagem do blogue](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 de abril de 2016**
 
-* [Insights rápidos em Mosaicos do Dashboard](consumer/end-user-insights.md): ao visualizar um mosaico no modo de detalhe, clique em Obter Insights para procurar automaticamente o mosaico e os dados relacionados de correlações, valores atípicos, tendências, sazonalidade, pontos de alteração em tendências e principais fatore, em poucos segundos.
+* [Informações Rápidas em Mosaicos do Dashboard](consumer/end-user-insights.md): ao visualizar um mosaico no modo de detalhe, clique em Obter Informações para procurar automaticamente o mosaico e os dados relacionados de correlações, valores atípicos, tendências, sazonalidade, pontos de alteração em tendências e principais fatore, em poucos segundos.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
 **26 de abril de 2016**
 
-* Narratives para o Power BI: como interage com os seus dados e visualizações, este visual personalizado fornece dinamicamente insights na forma de narrativa, tal como seria de esperar que um analista tivesse escrito. Este visual é suportado por [Narrative Science Quill](https://www.narrativescience.com/quill).
+* Narratives para o Power BI: como interage com os seus dados e visualizações, este visual personalizado fornece dinamicamente informações na forma de narrativa, tal como seria de esperar que um analista tivesse escrito. Este visual é suportado por [Narrative Science Quill](https://www.narrativescience.com/quill).
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/get-natural-language-narratives-in-power-bi-reports/)
 
@@ -244,10 +244,10 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 * [Mosaico de vídeo Vimeo](service-dashboard-add-widget.md): a partir do dashboard, adicione um mosaico que inclua um leitor Vimeo incorporado.
 
-***Analyze in Excel***
+***Analisar no Excel***
 
 * [Analisar no Excel](service-analyze-in-excel.md) disponível a todos os utilizadores: a capacidade para aceder aos seus modelos de dados do Power BI no Excel foi expandida a todos os utilizadores, independentemente da licença que lhes foi atribuída.
-* Experiência de conta de multiutilizador melhorada: se tiver mais do que 1 conta de utilizador do Power BI, agora é mais fácil para iníciar sessão.
+* Experiência de conta de multiutilizador melhorada: se tiver mais do que 1 conta de utilizador do Power BI, agora é mais fácil para iniciar sessão.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
@@ -285,7 +285,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 
 **11 de março de 2016**
 
-Este mês fizemos algumas atualizações nos dashboards, Insights Rápidos e Perguntas e Respostas.
+Este mês fizemos algumas atualizações aos dashboards, Informações Rápidas e Perguntas e Respostas.
 
 ***Dashboards***
 
@@ -322,7 +322,7 @@ Hoje lançámos uma longa lista das funcionalidades mais pedidas. [Leia a mensag
 
 ***Informações Rápidas***
 
-* Insights Rápidos ao publicar ficheiros do Power BI Desktop
+* Informações Rápidas ao publicar ficheiros do Power BI Desktop
 
 ***Dashboard***
 
@@ -443,7 +443,7 @@ Para todos os detalhes, incluindo um vídeo que demonstra muitas dessas atualiza
 
 **3 de dezembro de 2015**
 
-* Descobrir tendências e padrões automaticamente num conjunto de dados com o Insights Rápido:  [vídeo](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) ou  [artigo](consumer/end-user-insights.md)
+* Descobrir tendências e padrões automaticamente num conjunto de dados com as Informações Rápidas: [vídeo](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) ou [artigo](consumer/end-user-insights.md)
 * [Visualizar os dados do VMob no Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Integração do Power BI com o Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Pré-visualização do gateway do Power BI para enterprise](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -532,7 +532,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 * Com a atualização de serviço desta semana, quando cria novos relatórios, pode agora escolher de entre vários tamanhos de página, bem como definir o seu próprio tamanho de página. Esta opção controla o tamanho e a proporção de cada página no relatório.
 * Adicionámos suporte adicional de formatação visual para imagens e gráficos de bolhas. Pode bloquear a proporção durante o redimensionamento de imagens para evitar a distorção da imagem, e as bolhas do gráfico de dispersão podem ser configuradas para serem preenchidas ou não.
 * Atualmente, o Power BI enviará convites de partilha para um endereço de e-mail alternativo. Quando um dashboard é partilhado consigo, enviamos a ligação de convite de partilha para o seu endereço de e-mail original e para o seu endereço de e-mail alternativo (se o tiver configurado).
-* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utlizadores utilizando as instruções descritas [aqui](http://go.microsoft.com/fwlink/?LinkId=627174).
+* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utilizadores através das instruções descritas [aqui](http://go.microsoft.com/fwlink/?LinkId=627174).
 * Os Registos de Auditoria do Azure permitem-lhe visualizar registos operacionais do plano de controlo na sua subscrição do Azure. O pacote de conteúdos dos Registos de Auditoria do Azure do Power BI pode ajudá-lo a analisar e visualizar facilmente a imensa informação contida nestes registos. O pacote de conteúdos permite-lhe ligar-se aos seus dados e começar a descobrir informações com um dashboard e relatórios prontos a utilizar. Leia o nosso [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx) e a [documentação online](service-connect-to-azure-audit-logs.md) para obter mais informações.
 
 [Saiba mais através do nosso blogue](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx).
@@ -574,20 +574,20 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **18 de agosto de 2015**
 
-* O Azure Mobile Engagement é um serviço de análise de aplicações que permite aos programadores controlar o desempenho das suas aplicações, ajudando a aumentar a retenção e utilização da aplicação. Ao utilizar o [pacote de conteúdos do Azure Mobile Engagement do Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx) pode ligar-se rapidamente a um dashboard fora da caixa, um conjunto de relatórios e um conjunto de dados estruturados e obter instantaneamente ideias sobre o funcionamento da sua aplicação. Consulte o [pacote de conteúdos do Azure Mobile Engagement na página de ajuda do Power BI](service-connect-to-azure-mobile.md) para obter mais informações.
+* O Azure Mobile Engagement é um serviço de análise de aplicações que permite aos programadores controlar o desempenho das suas aplicações, ajudando a aumentar a retenção e utilização da aplicação. Ao utilizar o [pacote de conteúdos do Azure Mobile Engagement do Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx) pode ligar-se rapidamente a um dashboard fora da caixa, um conjunto de relatórios e um conjunto de dados estruturados e obter instantaneamente ideias sobre o funcionamento da sua aplicação. Veja o [Pacote de conteúdos do Azure Mobile Engagement na página de ajuda do Power BI](service-connect-to-azure-mobile.md) para obter mais informações.
 
 **11 de agosto de 2015**
 
-* O Mandrill é um serviço de infraestrutura de e-mail desenvolvido pela MailChimp que lhe permite analisar as suas campanhas por e-mail a partir de um vasto leque de informações. Com o [pacote de conteúdos do Mandrill do Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx), pode ligar-se rapidamente aos seus dados do Mandrill e imediatamente obter ideias sobre o boletim informativo ou campanhas de marketing. Para obter detalhes adicionais sobre como começar, consulte o [Pacote de conteúdos do Mandrill na página de ajuda do Power BI](service-connect-to-mandrill.md).
+* O Mandrill é um serviço de infraestrutura de e-mail desenvolvido pela MailChimp que lhe permite analisar as suas campanhas por e-mail a partir de um vasto leque de informações. Com o [pacote de conteúdos do Mandrill do Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx), pode ligar-se rapidamente aos seus dados do Mandrill e imediatamente obter ideias sobre o boletim informativo ou campanhas de marketing. Para obter detalhes adicionais sobre como começar, veja o [Pacote de conteúdos do Mandrill na página de ajuda do Power BI](service-connect-to-mandrill.md).
 
 **4 de agosto de 2015**
 
-* O Power BI agora oferece aos utilizadores do [ID de Circuito](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) a capacidade de controlar e monitorizar todos os seus serviços de comunicações de nuvem do ID de Circuito para lhe permitir tomar as decisões comerciais certas. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do ID de Circuito na [página de ajuda do Power BI](service-connect-to-circuit-id.md).
+* O Power BI agora oferece aos utilizadores do [ID de Circuito](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) a capacidade de controlar e monitorizar todos os seus serviços de comunicações de cloud do ID de Circuito para lhe permitir tomar as decisões comerciais certas. Para obter detalhes adicionais sobre como começar, veja o pacote de conteúdos do ID de Circuito na [página de ajuda do Power BI](service-connect-to-circuit-id.md).
 * Hoje lançámos um melhoramento da funcionalidade Partilhar Dashboard para torná-la ainda mais fácil de utilizar.  Se a sua organização utilizar o Office 365 para e-mail, agora pode [partilhar com um grupo de distribuição de e-mail](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx) da mesma forma que enviaria um e-mail no Outlook.  Basta introduzir o endereço do grupo de distribuição e clicar em Partilhar.  Todos os membros do grupo de distribuição receberão um convite por e-mail para verem o dashboard.
 
 **28 de julho de 2015**
 
-* Estamos felizes em anunciar a atualização desta semana, o Power BI agora oferece acompanhamento do desempenho da base de dados com o [conteúdo de pacotes SQL Sentry](http://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Este pacote de conteúdos inclui um dashboard e relatórios que ajudam a monitorizar as implementações do SQL Server que acompanha através do SQL Sentry Cloud. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do SQL Sentry na [página de ajuda](service-connect-to-sql-sentry.md) do Power BI.
+* Estamos felizes em anunciar a atualização desta semana, o Power BI agora oferece acompanhamento do desempenho da base de dados com o [conteúdo de pacotes SQL Sentry](http://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx). Este pacote de conteúdos inclui um dashboard e relatórios que ajudam a monitorizar as implementações do SQL Server que acompanha através do SQL Sentry Cloud. Para obter detalhes adicionais sobre como começar, veja o pacote de conteúdos do SQL Sentry na [página de ajuda](service-connect-to-sql-sentry.md) do Power BI.
 
 **24 de julho de 2015**
 
@@ -598,7 +598,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 * [Colocar ficheiros Excel inteiros](service-excel-workbook-files.md): pode colocar no Power BI qualquer livro do Excel armazenado no OneDrive para Empresas e visualizar o ficheiro do Excel inteiro, exatamente como faria no Excel Online.
 * [Colocar em arquivos CSV](service-get-data-from-files.md): tal como um ficheiro do Excel ou Power BI Desktop, um ficheiro de texto (CSV) de valores separados por vírgula, também pode ser um conjunto de dados para os seus relatórios e dashboards do Power BI.
 * Substituir ficheiros de Excel, Power BI Desktop e CSV: pode carregar uma versão atualizada de um ficheiro no Power BI e este substituirá o conjunto de dados existente. Todos os relatórios e dashboards ligados a este conjunto de dados utilizam agora automaticamente a nova versão.
-* Estamos felizes em anunciar a atualização desta semana, o Power BI agora oferece acompanhamento do item de trabalho no [pacote de conteúdos do Visual Studio Online](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Esta atualização inclui um novo dashboard, relatório e um conjunto de dados atualizado que oferece informações sobre os seus itens de trabalho, para além de métricas importantes sobre o seu repositório Git, pedidos pull e conteúdo de controlo de versões incluído na versão inicial. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdo do Visual Studio Online na [página de ajuda do Power BI](service-connect-to-quickbooks-online.md).
+* Estamos felizes em anunciar a atualização desta semana, o Power BI agora oferece acompanhamento do item de trabalho no [pacote de conteúdos do Visual Studio Online](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx). Esta atualização inclui um novo dashboard, relatório e um conjunto de dados atualizado que oferece informações sobre os seus itens de trabalho, para além de métricas importantes sobre o seu repositório Git, pedidos pull e conteúdo de controlo de versões incluído na versão inicial. Para obter detalhes adicionais sobre como começar, veja o pacote de conteúdo do Visual Studio Online na [página de ajuda do Power BI](service-connect-to-quickbooks-online.md).
 
 **14 de julho de 2015**
 
@@ -625,19 +625,19 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **16 de junho de 2015**
 
-* O SweetIQ permite-lhe controlar facilmente as suas listagens locais ao fornecer dados de localização e análise a partir do seu ecossistema de pesquisa local. O Power BI permite analisar e monitorizar esses dados, oferecendo [conteúdo inovador](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) criado através dos dados SweetIQ. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do SweetIQ na [página de ajuda](service-connect-to-sweetiq.md) do Power BI.
+* O SweetIQ permite-lhe controlar facilmente as suas listagens locais ao fornecer dados de localização e análise a partir do seu ecossistema de pesquisa local. O Power BI permite analisar e monitorizar esses dados, oferecendo [conteúdo inovador](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) criado através dos dados SweetIQ. Para obter detalhes adicionais sobre como começar, veja o pacote de conteúdos do SweetIQ na [página de ajuda](service-connect-to-sweetiq.md) do Power BI.
 
 **9 de junho de 2015**
 
-* O Power BI permite monitorizar e explorar esses dados utilizando as [APIs do MailChimp](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx), oferecendo um conjunto de conteúdo inovador para análise. O dashboard, relatórios e conjunto de dados estruturados para o cenário MailChimp permitem-lhe aceder facilmente a dados, como Campanhas Principais de Aberturas Totais por Dia da Semana. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do MailChimp na [documentação](service-connect-to-mailchimp.md) do Power BI.
+* O Power BI permite monitorizar e explorar esses dados utilizando as [APIs do MailChimp](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx), oferecendo um conjunto de conteúdo inovador para análise. O dashboard, relatórios e conjunto de dados estruturados para o cenário MailChimp permitem-lhe aceder facilmente a dados, como Campanhas Principais de Aberturas Totais por Dia da Semana. Para obter detalhes adicionais sobre como começar, veja o pacote de conteúdos do MailChimp na [documentação](service-connect-to-mailchimp.md) do Power BI.
 
 **2 de junho de 2015**
 
-* É fácil acompanhar estatísticas importantes sobre as suas aplicações com o Power BI e o [pacote de conteúdos do appFigures](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx). Para obter detalhes adicionais sobre como se ligar e começar, consulte a [documentação](service-connect-to-appfigures.md) para o pacote de conteúdos appFigures do Power BI.
+* É fácil acompanhar estatísticas importantes sobre as suas aplicações com o Power BI e o [pacote de conteúdos do appFigures](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx). Para obter detalhes adicionais sobre como se ligar e começar, veja a [documentação](service-connect-to-appfigures.md) para o pacote de conteúdos appFigures do Power BI.
 
 **28 de maio de 2015**
 
-* Consiga informações rápidas sobre os dados da conta do QuickBooks Online utilizando o nosso [pacote de conteúdos](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Para obter detalhes adicionais sobre como ligar e começar, consulte a [documentação](service-connect-to-quickbooks-online.md) do Power BI no pacote de conteúdos QuickBooks Online.
+* Consiga informações rápidas sobre os dados da conta do QuickBooks Online utilizando o nosso [pacote de conteúdos](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx). Para obter detalhes adicionais sobre como ligar e começar, veja a [documentação](service-connect-to-quickbooks-online.md) do Power BI no pacote de conteúdos QuickBooks Online.
 
 
 **13 de maio de 2015**
@@ -655,7 +655,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **23 de abril de 2015**
 
-* Pode visualizar e explorar os seus dados do **Microsoft Dynamics Marketing** com o nosso novo pacote de conteúdos! Pode ler a [mensagem do blogue](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx) e [documentação](service-connect-to-microsoft-dynamics-marketing.md) para obter mais informações.
+* Pode visualizar e explorar os seus dados do **Microsoft Dynamics Marketing** com o nosso novo pacote de conteúdos! Pode ler a nossa [mensagem de blogue](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx) para obter mais informações.
 
 **15 de abril de 2015**
 
@@ -684,7 +684,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 * A fiabilidade de atualização com o OneDrive foi melhorada.  Algumas situações em que os livros não eram atualizados a partir do OneDrive foram resolvidas.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [O que é o Power BI?](power-bi-overview.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

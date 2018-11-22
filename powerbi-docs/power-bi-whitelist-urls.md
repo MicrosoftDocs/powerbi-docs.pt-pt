@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222111"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157132"
 ---
 # <a name="power-bi-urls"></a>URLs do Power BI
 
@@ -53,7 +53,7 @@ Para a utilização geral do Power BI, tem de conseguir ligar-se aos pontos fina
 | 6 | **Opcional:** inquéritos do NPS | nps.onyx.azure.net | TCP 443 |
 | | | |
 
-## <a name="administration"></a>Administration
+## <a name="administration"></a>Administração
 
 Para efetuar funções administrativas no Power BI, tem de conseguir ligar-se aos pontos finais nos sites ligados abaixo.
 
@@ -69,7 +69,7 @@ Para obter dados de origens de dados específicas, como o OneDrive, tem de conse
 | Linha | Objetivo | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
 | 1 | **Obrigatório:** AppSource (aplicações internas ou externas no Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
-| 2 | **Obrigatório:** iniciar sessão e obter dados de pacotes de conteúdos | *.github.com  | TCP 443 |
+| 2 | **Opcional:** iniciar sessão e obter dados de pacotes de conteúdos | Depende dos pacotes de conteúdos utilizados | Depende dos pacotes de conteúdos utilizados |
 | 3 | **Opcional:** importar ficheiros do OneDrive pessoal | Veja o site [Required URLs and ports for OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) (URLs e portas obrigatórios para o OneDrive) | N/D |
 | 4 | **Opcional:** tutorial em vídeo Power BI in 60-Seconds (O Power BI em 60 Segundos) | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Opcional:** origens de dados de transmissão em fluxo do PubNub | Veja a [documentação do PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | N/D |

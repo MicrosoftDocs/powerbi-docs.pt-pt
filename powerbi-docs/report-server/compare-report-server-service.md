@@ -4,18 +4,18 @@ description: Este artigo compara as funcionalidades do Power BI Report Server e
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 11/06/2018
+ms.date: 11/16/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507698"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850459"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -37,11 +37,11 @@ O Power BI Report Server e o serviço Power BI tem bastantes semelhanças e al
 | Dashboards | Não | Sim | [Dashboards no serviço Power BI](../consumer/end-user-dashboards.md) 
 | Distribuir grupo de relatórios através de aplicações | Não | Sim | [Criar e publicar aplicações com dashboards e relatórios](../service-create-distribute-apps.md) 
 | Pacotes de conteúdos | Não | Sim | [Pacotes de conteúdos organizacionais: introdução](../service-organizational-content-pack-introduction.md) 
-| Ligar a serviços como o Salesforce | Não | Sim | [Ligar aos serviços que utiliza](../consumer/end-user-connect-to-services.md) com o serviço Power BI
+| Ligar a serviços como o Salesforce | Sim | Sim | [Ligue-se aos serviços que utiliza](../consumer/end-user-connect-to-services.md) com pacotes de conteúdos no serviço Power BI. No Power BI Report Server, utilize conectores certificados para se ligar aos serviços. Veja [Origens de dados de relatórios do Power BI no Power BI Report Server](data-sources.md) para obter detalhes.
 | Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Informações rápidas | Não | Sim | [Gerar automaticamente as informações de dados com o Power BI](../consumer/end-user-insights.md) 
 | Analisar no Excel | Não | Sim | [Analyze in Excel](../service-analyze-in-excel.md) 
-| Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço Power BI](../paginated-reports-report-builder-power-bi.md) em pré-visualização
+| Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço Power BI](../paginated-reports-report-builder-power-bi.md) em pré-visualização numa capacidade Premium
 | Aplicações móveis do Power BI | Sim | Sim | [Descrição geral das aplicações móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Mapas ARC GIS | Não | Sim | [Mapas ArcGIS no serviço Power BI e Power BI Desktop pela Esri](../power-bi-visualization-arcgis.md)
 | Subscrições de e-mail para relatórios do Power BI | Não | Sim | [Subscrever um relatório ou dashboard](../consumer/end-user-subscribe.md) no serviço Power BI 
@@ -50,7 +50,7 @@ O Power BI Report Server e o serviço Power BI tem bastantes semelhanças e al
 | Segurança ao nível da linha | Apenas através da origem de dados no modo DirectQuery | Disponível no DirectQuery (origem de dados) e no Modo de importação | [Segurança ao nível da linha (RLS)](../service-admin-rls.md) com o Power BI 
 | Modo de ecrã inteiro | Não | Sim | [Modo de ecrã inteiro](../consumer/end-user-focus.md) no serviço Power BI 
 | Colaboração avançada no Office 365 | Não | Sim | [Colaborar na área de trabalho de uma aplicação](../service-collaborate-power-bi-workspace.md) com o Office 365 
-| Visuais R | Não | Sim | [Criar elementos visuais R](../visuals/service-r-visuals.md) no serviço Power BI  
+| Visuais R | Não | Sim | [Crie visuais R](../desktop-r-visuals.md) no Power BI Desktop e publique-os no serviço Power BI. Não pode guardar relatórios do Power BI com visuais R no Power BI Report Server.  
 | Funcionalidades de pré-visualização | Não | Sim | [Optar ativamente por participar nas funcionalidades de pré-visualização](../consumer/end-user-preview-features.md) do serviço Power BI 
 | Elementos visuais personalizados | Sim | Sim | [Elementos visuais personalizados no Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Versão otimizada para o Report Server, disponível para transferência com o Report Server | Versão otimizada para o Serviço Power BI, disponível na Loja Windows | [Power BI Desktop para o servidor de relatórios](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para o serviço Power BI](http://aka.ms/pbidesktopstore)

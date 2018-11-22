@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973379"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850597"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -47,7 +47,7 @@ O tipo de campo pode ser um número, um valor datetime ou uma cadeia e o tipo ut
 
 * As **cadeias** têm de estar entre plicas – 'nome do gestor'.
 * Os **números** não requerem qualquer formatação especial
-* As **datas e horas** têm de estar entre plicas e de ser precedidas pela palavra **DateTime**.
+* As **datas e horas** têm de estar entre plicas. No OData v3, têm de ser precedidas pela palavra datetime, mas isto não é necessário no OData v4.
 
 Se estas informações forem confusas, continue a ler para obter uma explicação mais detalhada.  
 
@@ -97,9 +97,9 @@ Para filtrar em campos adicionais, adicione um "**and**" e outro campo no mesmo 
 
 O Power BI suporta vários operadores para além do operador "**and**". A tabela abaixo apresenta uma lista desses operadores, juntamente com o tipo de conteúdos que os mesmos suportam.
 
-|operador  | definição | cadeia  | número | Data |  Exemplo|
+|operador  | definição | cadeia  | número | Date |  Exemplo|
 |---------|---------|---------|---------|---------|---------|
-|**and**     | e |  sim      | sim |  sim|  produto/preço le 200 and preço gt 3,5 |
+|**and**     | and |  sim      | sim |  sim|  produto/preço le 200 and preço gt 3,5 |
 |**eq**     | é igual a |  sim      | sim   |  sim       | Endereço/Localidade eq 'Redmond' |
 |**ne**     | não é igual a |   sim      | sim  | sim        |  Endereço/Localidade ne 'Londres' |
 |**ge**     |  maior ou igual a       | não | sim |sim |  produto/preço ge 10
@@ -174,7 +174,7 @@ Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de 
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.
 * Os filtros de URL de relatório têm um limite de 10 expressões (10 filtros ligados por AND).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Afixar uma visualização a um dashboard](service-dashboard-pin-tile-from-report.md)  
 [Inscrever-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/)

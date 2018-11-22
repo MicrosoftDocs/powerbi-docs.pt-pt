@@ -1,5 +1,5 @@
 ---
-title: 'Início Rápido: explorar dashboards e relatórios nas aplicações móveis do Power BI'
+title: 'Guia de Início Rápido: Explorar dashboards e relatórios nas aplicações móveis'
 description: Neste manual de início rápido, o utilizador explora um dashboard e um relatório de exemplo nas aplicações móveis do Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548816"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157270"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: explorar dashboards e relatórios nas aplicações móveis do Power BI
 Neste manual de início rápido, pode explorar um dashboard e um relatório de exemplo na aplicação móvel do Power BI num telemóvel Android. Também pode acompanhar o processo noutras aplicações móveis. 
@@ -148,7 +148,7 @@ Depois de concluir este manual de início rápido, se desejar, pode eliminar o d
 5. Selecione o separador **Conjuntos de Dados** e faça o mesmo para o conjunto de dados (Análise de Revenda).
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Neste manual de início rápido, o utilizador explorou um dashboard e um relatório de exemplo no seu dispositivo Android. Leia mais sobre como trabalhar no serviço Power BI. 
 

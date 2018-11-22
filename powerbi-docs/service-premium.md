@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2ca75f191f27bd158b9fab67c7be6902154f8ac1
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641235"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717637"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>O que é o Microsoft Power BI Premium?
 
@@ -42,11 +42,11 @@ Na capacidade partilhada, o Power BI coloca mais limites para utilizadores indiv
 
 A tabela seguinte fornece um resumo das diferenças entre a capacidade partilhada e a capacidade Premium.
 
-|  | Capacidade partilhada | Capacidade Power BI Premium |
+|  | Capacidade partilhada | Capacidade do Power BI Premium |
 | --- | --- | --- |
 | **Taxa de atualizações** |8/dia |48/dia |
 | **Isolamento com hardware dedicado** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
-| **Distribuição Empresarial para** ***todos os utilizadores*** | | |
+| **Distribuição Empresarial para** _**todos os utilizadores**_ | | |
 | Aplicações e partilha |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível")<sup>1</sup> |
 | API e controlos incorporados |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível")<sup>2</sup> |
 | **Publicar relatórios do Power BI no local** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
@@ -61,7 +61,7 @@ Para saber mais sobre a atribuição de áreas de trabalho a uma capacidade Prem
 
 ### <a name="premium-capacity-nodes"></a>Nós de capacidade Premium
 
-O Power BI Premium está disponível em configurações de nós com diferentes capacidades de núcleos virtuais. Para obter mais informações sobre ofertas e custos de SKUs específicos, veja os [preços do Power BI](https://powerbi.microsoft.com/pricing/). Também está disponível uma [calculadora de custos](https://powerbi.microsoft.com/calculator/). Para obter informações sobre o planeamento de capacidade de análise incorporada, consulte o [Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy) (Documento técnico Planear uma Implementação Empresarial do Power BI). Em resumo:
+O Power BI Premium está disponível em configurações de nós com diferentes capacidades de núcleos virtuais. Para obter mais informações sobre ofertas e custos de SKUs específicos, veja os [preços do Power BI](https://powerbi.microsoft.com/pricing/). Também está disponível uma [calculadora de custos](https://powerbi.microsoft.com/calculator/). Para obter informações sobre o planeamento de capacidade de análise incorporada, veja o [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy). Em resumo:
 
 * Os nós P podem ser utilizados em implementações de serviço ou incorporadas.
 
@@ -84,11 +84,44 @@ O Power BI Premium está disponível em configurações de nós com diferentes c
 
 * Os núcleos virtuais de back-end são responsáveis pelo trabalho pesado: processamento de consultas, gestão de cache, executar servidores R, atualização de dados, processamento de linguagem natural, feeds em tempo real e composição de relatórios e imagens no servidor. Nos núcleos virtuais de back-end, está também reservada uma determinada quantidade de memória. Ter memória suficiente torna-se especialmente importante ao lidar com grandes modelos de dados ou com um grande número de conjuntos de dados ativos.
 
+## <a name="workloads-in-premium-capacity"></a>Cargas de trabalho na capacidade Premium
+
+Considere uma carga de trabalho no Power BI como um dos muitos serviços que pode expor aos utilizadores. Por predefinição, as capacidades do **Power BI Premium** e do **Power BI Embedded** suportam apenas a carga de trabalho associada à execução de consultas do Power BI na cloud.
+
+Agora, oferecemos suporte de pré-visualização para duas cargas de trabalho adicionais: **Relatórios paginados** e **Fluxos de dados**. Pode ativar estas cargas de trabalho no portal de administração do Power BI ou através da API REST do Power BI. Também pode definir o máximo de memória que cada carga de trabalho pode consumir, para que possa controlar como as diferentes cargas de trabalho se afetam mutuamente. Para obter mais informações, veja [Configurar as cargas de trabalho](service-admin-premium-manage.md#configure-workloads).
+
+### <a name="default-memory-settings"></a>Predefinições de memória
+
+As seguintes tabelas mostram os valores da memória predefinidos e mínimos, com base nos diferentes [nós de capacidade](#premium-capacity-nodes) disponíveis. A memória é alocada dinamicamente aos fluxos de dados, mas é alocada estaticamente aos relatórios paginados. Para obter mais informações, veja a secção seguinte [Considerações sobre relatórios paginados](#considerations-for-paginated-reports).
+
+#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKUs do Microsoft Office para cenários de software como serviço (SaaS)
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| Relatórios paginados | N/D | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
+| Fluxos de dados | 20% predefinido; 8% mínimo  | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo  |
+| | | | | |
+
+#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKUs do Microsoft Azure para cenários de plataforma como serviço (PaaS)
+
+|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
+|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
+| Relatórios paginados | N/D                      | N/D                      | N/D                     | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
+| Fluxos de dados         | 27% predefinido; 27% mínimo | 20% predefinido; 16% mínimo | 20% predefinido; 8% mínimo | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo   |
+
+### <a name="considerations-for-paginated-reports"></a>Considerações sobre relatórios paginados
+
+Se utilizar a carga de trabalho Relatórios paginados, tenha em atenção os seguintes pontos.
+
+* **Alocação de memória em relatórios paginados**: os relatórios paginados permitem-lhe executar o seu próprio código ao compor um relatório (por exemplo, alterar dinamicamente a cor do texto com base nos conteúdos). Devido a este facto, protegemos a capacidade do Power BI Premium ao executar relatórios paginados num espaço contido dentro da capacidade. Atribuímos a memória máxima que especificar a este espaço, independentemente de a carga de trabalho estar ou não ativa. Se utilizar fluxos de dados ou relatórios do Power BI na mesma capacidade, certifique-se de que define a memória suficientemente baixa para relatórios paginados de modo a não afetar as outras cargas de trabalho de forma negativa.
+
+* **Os relatórios paginados não estão disponíveis**: em circunstâncias raras, a carga de trabalho Relatórios paginados pode ficar indisponível. Neste caso, a carga de trabalho apresenta um estado de erro no portal de administração e os utilizadores veem tempos limite para a composição do relatório. Para mitigar este problema, desative a carga de trabalho e, em seguida, ative-a novamente.
+
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 
 O Power BI Premium também inclui a capacidade de executar o Power BI Report Server no local na sua organização. Para saber mais, veja [Get started with Power BI Report Server](report-server/get-started.md) (Introdução ao Power BI Report Server).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Perguntas Frequentes do Power BI Premium](service-premium-faq.md)
 [Como comprar o Power BI Premium](service-admin-premium-purchase.md)
