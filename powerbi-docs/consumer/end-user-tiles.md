@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396480"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331902"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Mosaicos de dashboard no Power BI
-Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Enquanto não for possível criar ou afixar mosaicos de dashboards no Power BI Mobile, estes [podem ser visualizados e partilhados](mobile/mobile-tiles-in-the-mobile-apps.md). Além disso, no Power BI Mobile, pode [adicionar imagens ao seu dashboard com a aplicação para iPhone](mobile/mobile-iphone-app-get-started.md).
+Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Enquanto não for possível criar ou afixar mosaicos de dashboards no Power BI Mobile, estes [podem ser visualizados e partilhados](mobile/mobile-tiles-in-the-mobile-apps.md). 
 
 ## <a name="dashboard-tiles"></a>Os mosaicos do dashboard
 ![Dashboard do Power BI](./media/end-user-tiles/power-bi-dashboard.png)

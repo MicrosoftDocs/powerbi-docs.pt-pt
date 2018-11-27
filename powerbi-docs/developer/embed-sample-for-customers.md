@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 10/17/2018
-ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 49ea393af6e98ab0f081d95f5be6451064347ed4
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435494"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52332017"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: incorporar um relatório, dashboard ou mosaico do Power BI numa aplicação para os seus clientes
 
@@ -103,7 +103,7 @@ Ative permissões adicionais para a sua aplicação, além do que foi fornecido 
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar uma área de trabalho da aplicação
+### <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
 
 Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, tem de colocar o conteúdo dentro de uma área de trabalho de aplicação. A conta *mestre* tem de ser um administrador da área de trabalho de aplicação.
 
@@ -243,7 +243,7 @@ using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
 // You need to provide the workspaceId where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
+ODataResponseListReport reports = await client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
