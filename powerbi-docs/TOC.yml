@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: Descrição Geral
+  - name: Overview
     items:
     - name: O que é o Power BI Desktop?
       href: desktop-what-is-desktop.md
@@ -352,7 +352,7 @@ items:
         href: desktop-access-database-errors.md
       - name: Resolução de problemas ao iniciar o Power BI Desktop
         href: desktop-error-launching-desktop.md
-  - name: Reference (Referência)
+  - name: Referência
     items:
     - name: Tipos de dados no Power BI Desktop
       href: desktop-data-types.md
@@ -376,7 +376,7 @@ items:
       href: desktop-admin-sign-in-form.md
 - name: Serviço Power BI
   items:
-  - name: Descrição Geral
+  - name: Overview
     items:
     - name: O que é Power BI?
       href: power-bi-overview.md
@@ -390,42 +390,54 @@ items:
     items:
     - name: What's new in the Power BI service (Novidades no serviço Power BI)
       href: service-whats-new.md
-    - name: Conceitos básicos
+    - name: Conceitos básicos para designers
       href: service-basic-concepts.md
-    - name: Inscrição de gestão personalizada
-      href: service-self-service-signup-for-power-bi.md
-    - name: Introduction to Cortana for Power BI (Introdução à Cortana para o Power BI)
-      href: service-cortana-intro.md
-    - name: Atualizar dados no Power BI
-      href: refresh-data.md
-    - name: Power BI for US Government (Power BI para a Administração Pública dos EUA)
-      href: service-govus-overview.md
-    - name: Recursos por tipo de licença
-      href: service-features-license-type.md
     - name: 10 tips for getting help (10 sugestões para obter ajuda)
       href: service-tips-for-finding-help.md
-    - name: Sobre filtros e realces em relatórios do Power BI
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: Obter dados de ficheiros
-      href: service-get-data-from-files.md
-    - name: O editor de relatórios... Faça uma visita
-      href: service-the-report-editor-take-a-tour.md
-    - name: Visualizações no Power BI
-      href: visuals/power-bi-report-visualizations.md
-    - name: Origens de dados do Power BI
-      href: service-get-data.md
-    - name: Ativação da Avaliação Pro Expandida
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow e Power BI
-      href: service-flow-integration.md
-    - name: FAQ for Power BI for Germany Cloud customers (FAQ para os clientes do Power BI para Germany Cloud)
-      href: service-govde-faq.md
-    - name: Introdução ao Power BI com aplicações de terceiros
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: Agregados (soma, média, máximo, etc.) no Power BI
-      href: service-aggregates.md
-    - name: A página exibe as definições num relatório do Power BI
-      href: power-bi-report-display-settings.md
+    - name: Licensing
+      items:
+      - name: Inscrição de gestão personalizada
+        href: service-self-service-signup-for-power-bi.md
+      - name: Recursos por tipo de licença
+        href: service-features-license-type.md
+      - name: Ativação da Avaliação Pro Expandida
+        href: service-extended-pro-trial.md
+      - name: Power BI for US Government (Power BI para a Administração Pública dos EUA)
+        href: service-govus-overview.md
+      - name: FAQ para os clientes da Germany Cloud
+        href: service-govde-faq.md
+    - name: Dados
+      items:
+      - name: Origens de dados do Power BI
+        href: service-get-data.md
+      - name: Obter dados de ficheiros
+        href: service-get-data-from-files.md
+      - name: Agregados (soma, média, máximo, etc.)
+        href: service-aggregates.md
+      - name: Atualizar dados no Power BI
+        href: refresh-data.md
+      - name: Azure e Power BI
+        href: service-azure-and-power-bi.md
+      - name: Saída do Power BI e Azure
+        href: service-azure-egress-power-bi.md
+    - name: Estrutura do relatório
+      items:
+      - name: O editor de relatórios... Veja uma apresentação
+        href: service-the-report-editor-take-a-tour.md
+      - name: Visualizações no Power BI
+        href: visuals/power-bi-report-visualizations.md
+      - name: Sobre filtros e realce em relatórios
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: A página exibe as definições num relatório do Power BI
+        href: power-bi-report-display-settings.md
+      - name: Introduction to Cortana for Power BI (Introdução à Cortana para o Power BI)
+        href: service-cortana-intro.md
+    - name: Outras
+      items:
+      - name: Microsoft Flow e Power BI
+        href: service-flow-integration.md
+      - name: Introdução com aplicações de terceiros
+        href: service-power-bi-get-started-third-party-apps.md
   - name: Procedimentos
     items:
     - name: Common tasks (Tarefas comuns)
@@ -548,21 +560,21 @@ items:
         href: service-connect-to-zuora.md
     - name: Data from files (Dados de ficheiros)
       items:
-      - name: De um livro do Excel a um relatório incrível num instante
+      - name: De um livro do Excel a um relatório incrível
         href: service-from-excel-to-stunning-report.md
       - name: Obter dados de ficheiros de livros do Excel
         href: service-excel-workbook-files.md
       - name: Obter dados de ficheiros do Power BI Desktop
         href: service-desktop-files.md
-      - name: Parameters settings for datasets (Definições de parâmetros para conjuntos de dados)
+      - name: Editar parâmetros
         href: service-parameters.md
       - name: Obter dados de ficheiros de valores separados por vírgulas (.csv)
         href: service-comma-separated-value-files.md
       - name: Real-time streaming in Power BI (Preview) (Transmissão em fluxo em tempo real no Power BI [Pré-visualização])
         href: service-real-time-streaming.md
-      - name: Publish to Power BI from Excel 2016 (Publicar no Power BI a partir do Excel 2016)
+      - name: Publicar no Power BI a partir do Excel 2016
         href: service-publish-from-excel.md
-      - name: Reduce the size of an Excel workbook to view it in Power BI (Reduzir o tamanho de um livro do Excel para apresentá-lo no Power BI)
+      - name: Reduzir o tamanho de um livro do Excel
         href: reduce-the-size-of-an-excel-workbook.md
     - name: Data from databases (Dados de bases de dados)
       items:
@@ -572,25 +584,21 @@ items:
         href: service-azure-sql-database-with-direct-connect.md
       - name: Spark on HDInsight with DirectQuery (Spark no HDInsight com DirectQuery)
         href: spark-on-hdinsight-with-direct-connect.md
-      - name: SQL Server Analysis Services live data in Power BI (Dados dinâmicos do SQL Server Analysis Services no Power BI)
+      - name: Dados reais do SQL Server Analysis Services no Power BI
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure e Power BI
-        href: service-azure-and-power-bi.md
-      - name: Saída do Power BI e Azure
-        href: service-azure-egress-power-bi.md
     - name: Atualização de dados
       items:
       - name: Configurar a atualização agendada
         href: refresh-scheduled-refresh.md
-      - name: Refresh a dataset created from a Power BI Desktop file - local (Atualizar um conjunto de dados criado a partir de um ficheiro do Power BI Desktop – local)
+      - name: Atualizar um conjunto de dados a partir de um ficheiro do Power BI Desktop – local
         href: refresh-desktop-file-local-drive.md
-      - name: Refresh a dataset created from a Power BI Desktop file - cloud (Atualizar um conjunto de dados criado a partir de um ficheiro do Power BI Desktop – cloud)
+      - name: Atualizar um conjunto de dados a partir de um ficheiro do Power BI Desktop – cloud
         href: refresh-desktop-file-onedrive.md
-      - name: Refresh a dataset created from an Excel workbook - local (Atualizar um conjunto de dados criado a partir de um livro do Excel – local)
+      - name: Atualizar um conjunto de dados a partir de um livro do Excel – local
         href: refresh-excel-file-local-drive.md
-      - name: Refresh a dataset created from an Excel workbook - cloud (Atualizar um conjunto de dados criado a partir de um livro do Excel – cloud)
+      - name: Atualizar um conjunto de dados a partir de um livro do Excel – cloud
         href: refresh-excel-file-onedrive.md
-      - name: Refresh a dataset created from a comma separated value (.csv) file on OneDrive (Atualizar um conjunto de dados criado a partir de um ficheiro .csv [valores separados por vírgulas] no OneDrive)
+      - name: Atualizar um conjunto de dados criado a partir de um ficheiro .CSV no OneDrive
         href: refresh-csv-file-onedrive.md
       - name: Resolver problemas de atualização
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: Create a copy of a dashboard (Criar uma cópia de um dashboard)
         href: service-dashboard-copy.md
-      - name: Afixar um mosaico a um dashboard do Power BI a partir de um relatório
+      - name: Afixar um mosaico a um dashboard a partir de um relatório
         href: service-dashboard-pin-tile-from-report.md
-      - name: Pin a tile from one dashboard to another dashboard (Afixar um mosaico de um dashboard a outro dashboard)
+      - name: Afixar um mosaico de um dashboard noutro dashboard
         href: service-pin-tile-to-another-dashboard.md
-      - name: Afixar um mosaico num dashboard do Power BI a partir do Excel
+      - name: Afixar um mosaico a um dashboard a partir do Excel
         href: service-dashboard-pin-tile-from-excel.md
-      - name: Pin a tile to a Power BI dashboard from the Q&A question box (Afixar um mosaico a um dashboard do Power BI a partir da caixa de Perguntas e Respostas)
+      - name: Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: Afixar uma página de relatório inteira a um dashboard do Power BI
+      - name: Afixar uma página de relatório inteira a um dashboard
         href: service-dashboard-pin-live-tile-from-report.md
       - name: Usage metrics for dashboards (Métrica de utilização para dashboards)
         href: service-usage-metrics.md
-      - name: Add an image, text box, video, or web code to your dashboard (Adicionar uma imagem, caixa de texto, vídeo ou código Web ao seu dashboard)
+      - name: Adicionar uma imagem, caixa de texto, vídeo ou código a um dashboard
         href: service-dashboard-add-widget.md
-      - name: Editar um mosaico — redimensionar, mover, mudar o nome, afixar, eliminar, adicionar hiperligação
+      - name: Editar um mosaico
         href: service-dashboard-edit-tile.md
-      - name: Sugestões para criar um dashboard excelente no Power BI
+      - name: Sugestões para criar um dashboard excelente
         href: service-dashboards-design-tips.md
-      - name: Otimizar os seus dados para o Power BI Quick Insights
+      - name: Otimizar os seus dados para as Informações Rápidas
         href: service-insights-optimize.md
       - name: Criar uma visualização de telefone de um dashboard
         href: service-create-dashboard-mobile-phone-view.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: Manage your group in Power BI and Office 365 (Gerir o seu grupo no Power BI e no Office 365)
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: Share a dashboard that links to an Excel workbook on OneDrive for Business (Partilhar um dashboard que liga a um livro do Excel no OneDrive para Empresas)
+      - name: Partilhar um dashboard que liga a um livro do Excel no OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: Pacotes de Conteúdos
       items:
@@ -796,7 +804,7 @@ items:
       href: whitepapers.md
 - name: Relatórios paginados no Power BI
   items:
-  - name: Descrição Geral
+  - name: Overview
     items:
     - name: O que são relatórios paginados? (Pré-visualização)
       href: paginated-reports-report-builder-power-bi.md
@@ -832,7 +840,7 @@ items:
     href: developer/what-can-you-do.md
   - name: Análise Incorporada
     items:
-    - name: Descrição Geral
+    - name: Overview
       items:
       - name: O que é a incorporação com o Power BI?
         href: developer/embedding.md
@@ -888,7 +896,7 @@ items:
           href: developer/migrate-tool.md
         - name: Migration code snippets (Fragmentos de código de migração)
           href: developer/migrate-code-snippets.md
-    - name: Reference (Referência)
+    - name: Referência
       items:
       - name: APIs
         items:
@@ -924,7 +932,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: Desenvolver Elementos Visuais Personalizados
     items:
-    - name: Descrição Geral
+    - name: Overview
       items:
       - name: Adding Custom visuals into Power BI (Adicionar Elementos Visuais Personalizados no Power BI)
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Conceitos
       items:
+      - name: Diretrizes de elementos visuais do Power BI
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Using Capabilities (Utilizar Capacidades)
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: Data View Mappings (Mapeamentos de Vista de Dados)
@@ -952,7 +962,7 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: Publicar visuais personalizados no AppSource
         href: developer/office-store.md
-    - name: Reference (Referência)
+    - name: Referência
       items:
       - name: APIs
         href: https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/
@@ -966,7 +976,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: Automatização
     items:
-    - name: Descrição Geral
+    - name: Overview
       items:
       - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
         href: developer/overview-of-power-bi-rest-api.md
@@ -998,7 +1008,7 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Adicionar linhas a uma tabela
         href: developer/walkthrough-push-data-add-rows.md
-    - name: Reference (Referência)
+    - name: Referência
       items:
       - name: APIs REST
         href: https://docs.microsoft.com/rest/api/power-bi
@@ -1016,7 +1026,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: Power BI Report Server
   items:
-  - name: Descrição Geral
+  - name: Overview
     items:
     - name: O que é o Power BI Report Server?
       href: report-server/get-started.md
@@ -1102,7 +1112,7 @@ items:
         href: report-server/configure-powerbi-mobile-apps-remote.md
       - name: Host Excel workbooks (Alojar livros do Excel)
         href: report-server/excel-oos.md
-  - name: Reference (Referência)
+  - name: Referência
     items:
     - name: API REST
       href: report-server/rest-api.md
@@ -1120,7 +1130,7 @@ items:
       href: report-server/capacity-planning.md
 - name: Gateways
   items:
-  - name: Descrição Geral
+  - name: Overview
     items:
     - name: O que são os gateways do Power BI?
       href: service-gateway-getting-started.md
@@ -1176,7 +1186,7 @@ items:
       href: service-gateway-onprem-tshoot.md
 - name: Administration
   items:
-  - name: Descrição Geral
+  - name: Overview
     items:
     - name: O que é a administração do Power BI?
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1240,7 +1250,7 @@ items:
       href: service-admin-power-bi-archived-workspace.md
     - name: Configure mobile apps with Intune (Configurar aplicações móveis com o Intune)
       href: service-admin-mobile-intune.md
-  - name: Reference (Referência)
+  - name: Referência
     items:
     - name: PowerShell, REST APIs, and .NET SDK (PowerShell, APIs REST e SDK .NET)
       href: service-admin-reference.md
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289295"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331856"
