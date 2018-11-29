@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565067"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452505"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Marcar dashboards, relatórios e aplicações como favoritos no serviço Power BI
 Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos em todas as suas áreas de trabalho.  Normalmente, os favoritos são os conteúdos que visita com mais frequência.

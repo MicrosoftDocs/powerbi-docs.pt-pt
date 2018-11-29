@@ -3,18 +3,18 @@ title: Incorporar relatórios ou dashboards a partir de aplicações
 description: Saiba como integrar ou incorporar um relatório ou dashboard a partir de uma aplicação do Power BI e não de uma área de trabalho de aplicação.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237991"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452528"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Incorporar relatórios ou dashboards a partir de aplicações
 
@@ -26,11 +26,11 @@ No Power BI, pode criar aplicações para juntar dashboards e relatórios num ú
 
 2. Abra o relatório que pretende no serviço Power BI.
 
-3. Aceda a **File** > **Embed In SharePoint Online** (Ficheiro > Incorporar no SharePoint Online) e obtenha o embedURL de relatório a partir daí. É apresentado no seguinte instantâneo. Em alternativa, chame a API REST GetReports/GetReport e extraia o campo de embedURL de relatório correspondente da resposta. A chamada REST não deve ter um identificador de área de trabalho como parte do URL, uma vez que foi criada uma instância da aplicação na área de trabalho do utilizador.
-
-4. Utilize o embedURL obtido no passo 3 com o SDK de JavaScript.
+3. Aceda a **File** > **Embed In SharePoint Online** (Ficheiro > Incorporar no SharePoint Online) e obtenha o embedURL de relatório. Um exemplo de embedURL é apresentado no instantâneo abaixo. Em alternativa, pode chamar a API REST GetReports/GetReport e extrair o campo de embedURL de relatório correspondente da resposta. A chamada REST não deve ter um identificador de área de trabalho como parte do URL, uma vez que foi criada uma instância da aplicação na área de trabalho do utilizador.
 
     ![Incorporar a partir de aplicações](media/embed-from-apps/embed-from-app.png)
+
+4. Utilize o embedURL obtido no passo 3 com o SDK de JavaScript.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Obter um embedURL de dashboard para incorporar
 
@@ -40,7 +40,7 @@ No Power BI, pode criar aplicações para juntar dashboards e relatórios num ú
 
 3. Utilize o embedURL obtido no passo 2 com o SDK de JavaScript.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Reveja como incorporar áreas de trabalho de aplicações para os seus clientes terceiros e a sua organização:
 

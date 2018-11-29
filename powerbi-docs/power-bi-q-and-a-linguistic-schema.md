@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ea11394c8b559b38f3c01fe339afac4ce3b0d863
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717959"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452735"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas no Power BI Desktop 
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no Power BI lhe permitem fazer. Quando coloca uma questão nas Perguntas e Respostas do Power BI, estas fazem todos os possíveis para responder corretamente. 
@@ -197,7 +197,7 @@ Binding: {Table: Products}
       Adjectives: [discontinued]
 ```
 
-As *expressões de adjetivo de medição* definem um novo adjetivo com base num valor numérico que indica a extensão a que o adjetivo se aplica, como "os comprimentos indicam o comprimento dos rios" e "as pequenas regiões têm áreas terrestres pequenas". As expressões de adjetivo de medição são utilizadas nos seguintes tipos de perguntas:
+As *expressões de adjetivo de medição* definem um novo adjetivo com base num valor numérico que indica a extensão a que o adjetivo se aplica, como "os comprimentos indicam o comprimento dos rios" e "as pequenas regiões têm áreas terrestres pequenas". As expressões de adjetivo de medida são utilizadas nos seguintes tipos de perguntas:
 - Listar os rios longos
 - Quais os rios mais longos?
 - Listar as regiões mais pequenas que ganharam o ouro em basquetebol

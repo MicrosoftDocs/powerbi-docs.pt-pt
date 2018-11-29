@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 91cf4e2115b2eaae3178b2fb25e487e0501e3a6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268124"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452830"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Criar um relatório paginado e carregá-lo para o serviço Power BI
 
@@ -64,7 +64,7 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 
     ![Nova origem de dados](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
-     É apresentada a caixa de diálogo **Propriedades da Origem de Dados**.  
+     A caixa de diálogo **Propriedades da Origem de Dados** é apresentada.  
   
 6.  Pode dar qualquer nome à origem de dados, com carateres e carateres de sublinhado. Para este tutorial, na caixa **Nome**, escreva **MyAzureDataSource**.  
   
@@ -107,8 +107,8 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 10. Na página **Estruturar uma consulta**, expanda SalesLT, expanda Tabelas e selecione estas tabelas:
 
     - Endereço
-    - Cliente
-    - Product
+    - Customer
+    - Produto
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
@@ -136,8 +136,8 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 1. Arraste estes campos da caixa **Campos disponíveis** para a caixa **Valores**:
 
     - OrderQty
-    - PreçoDaUnidade
-    - LineTotal
+    - PreçoUnitário
+    - Total
 
     O Report Builder faz com que os campos na caixa **Valores** sejam somados.
 
@@ -166,8 +166,8 @@ Vamos fazer uma pausa por um momento para examinar os resultados do assistente.
 5. No painel Agrupamento, verá os três grupos de linhas que criou no assistente: 
 
     - CompanyName
-    - Sales Order
-    - Product Name
+    - Nota de Venda
+    - Nome do Produto
 
     Esta matriz não tem grupos de colunas.
 
@@ -323,7 +323,7 @@ Agora que criou o relatório paginado, chegou a hora de o carregar no serviço P
 
     ![Editar credenciais do relatório](media/paginated-reports-quickstart-aw/power-bi-paginated-edit-credentials.png)
 
-7. Agora, pode ver o seu relatório paginado no serviço Power BI.
+7. Agora pode ver o seu relatório paginado no serviço Power BI.
 
     ![Relatório paginado no serviço Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
