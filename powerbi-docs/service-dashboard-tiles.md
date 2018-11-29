@@ -1,31 +1,31 @@
 ---
-title: Mosaicos de dashboard no serviço Power BI
-description: Tudo sobre mosaicos de dashboard no Power BI. Inclui os mosaicos criados a partir do SQL Server Reporting Services (SSRS).
+title: Introdução aos mosaicos dos dashboards para designers do Power BI
+description: Tudo sobre mosaicos de dashboard no Power BI. Inclui os mosaicos criados a partir dos relatórios do SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/3/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717407"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331971"
 ---
-# <a name="dashboard-tiles-in-power-bi"></a>Mosaicos de dashboard no Power BI
-Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Enquanto não for possível criar ou afixar mosaicos de dashboards no Power BI Mobile, estes [podem ser visualizados e partilhados](mobile-tiles-in-the-mobile-apps.md). Além disso, no Power BI Mobile, pode [adicionar imagens ao seu dashboard com a aplicação para iPhone](mobile-iphone-app-get-started.md).
+# <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
 
-## <a name="dashboard-tiles"></a>Os mosaicos do dashboard
+Um mosaico é um instantâneo dos seus dados, afixado ao dashboard. Um mosaico pode ser criado a partir de um relatório, de um conjunto de dados, dashboard, a partir da caixa de Perguntas e Respostas, do Excel, dos relatórios do SQL Server Reporting Services (SSRS) e muito mais.  Esta captura de ecrã mostra vários mosaicos diferentes afixados a um dashboard.
+
 ![Dashboard do Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Um mosaico é um instantâneo dos seus dados, afixado ao dashboard. Um mosaico pode ser criado a partir de um relatório, conjunto de dados, dashboard, a partir da caixa de Perguntas e Respostas, do Excel e do SQL Server Reporting Services (SSRS) e muito mais.  Esta captura de ecrã mostra vários mosaicos diferentes afixados a um dashboard.
+Os dashboards e os mosaicos de dashboard são uma funcionalidade do serviço Power BI e não do Power BI Desktop. Não pode criar dashboards em dispositivos móveis, mas pode [ver e partilhá-los](mobile-apps-view-dashboard.md) lá.
 
-Para além da afixação, os mosaicos autónomos podem ser criados diretamente no dashboard com a opção [Adicionar mosaico](service-dashboard-add-widget.md). Os mosaicos autónomos incluem: caixas de texto, imagens, vídeos, dados de transmissão em fluxo e conteúdo Web.
+Para além da afixação, pode criar mosaicos autónomos diretamente no dashboard com a opção [Adicionar mosaico](service-dashboard-add-widget.md). Os mosaicos autónomos incluem: caixas de texto, imagens, vídeos, dados de transmissão em fluxo e conteúdo Web.
 
 Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](service-basic-concepts.md).
 
@@ -43,7 +43,7 @@ Existem diversas formas diferentes de adicionar (afixar) um mosaico a um dashboa
 * [um livro do Excel no OneDrive para Empresas](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher para Excel](publisher-for-excel.md)
 * [Informações Rápidas](service-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
+* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 E os mosaicos autónomos para imagens, caixas de texto, vídeos, dados de transmissão em fluxo e conteúdo Web podem ser criados diretamente no dashboard com a opção [Adicionar mosaico](service-dashboard-add-widget.md).
 
@@ -78,7 +78,7 @@ Pegue num mosaico e [mova-o no dashboard](service-dashboard-edit-tile.md). Paire
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 
 ### <a name="select-click-a-tile"></a>Selecionar (clicar) um mosaico
-Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi criado e se este tem uma [ligação personalizada](service-dashboard-edit-tile.md). Se este tiver uma ligação personalizada, a seleção do mosaico levá-lo-á a essa ligação. Caso contrário, a seleção do mosaico leva-o para o relatório, o livro do Excel Online, a relatório do SSRS que está no local ou para a pergunta das Perguntas e Respostas que foi utilizada para criar o mosaico.
+Ao selecionar um mosaico, o que ocorre a seguir depende de como o criou. Além disso, se o mosaico tiver uma [ligação personalizada](service-dashboard-edit-tile.md), a seleção do mesmo irá encaminhar para essa ligação. Caso contrário, a seleção do mosaico encaminha para o relatório, livro do Excel Online, relatório local do Reporting Services ou pergunta das Perguntas e Respostas que foi utilizada para criar o mosaico.
 
 > [!NOTE]
 > A exceção são os mosaicos de vídeo criados diretamente no dashboard com a opção **Adicionar mosaico**. A seleção de um mosaico de vídeo (criado desta forma) faz com que o vídeo seja reproduzido diretamente no dashboard.   
@@ -86,12 +86,13 @@ Ao selecionar um mosaico, o que ocorre em seguida depende de como o mosaico foi 
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+
 * Se o relatório usado para criar a visualização não tiver sido guardado, então selecionar um mosaico não produzirá nenhuma ação.
-* Se o mosaico tiver sido criado a partir de um livro no Excel Online e se não tiver permissões pelo menos de Leitura para o livro, selecionar o mosaico de dados não abrirá o livro no Excel Online.
-* No caso dos mosaicos criados diretamente no dashboard com a opção **Adicionar mosaico**, se uma hiperligação personalizada tiver sido definida,a seleção do título, subtítulo e/ou do mosaico abrirá esse URL.  Caso contrário, por predefinição, a seleção de um destes mosaicos criados diretamente no dashboard para uma imagem, código Web ou caixa de texto não produz qualquer ação.
-* Se não tiver permissão para o relatório no SSRS, a seleção de um mosaico criado a partir do SSRS produzirá uma página com a indicação de que não tem acesso (rsAccessDenied).
-* Se não tiver acesso à rede onde o servidor SSRS está localizado, a seleção de um mosaico criado a partir do SSRS produzirá uma página com a indicação de que não é possível localizar o servidor (HTTP 404). O dispositivo tem de ter acesso de rede ao servidor de relatórios para ver o relatório.
-* Se a visualização original utilizada para criar o mosaico for alterada, o mosaico não será alterado.  Por exemplo, se fixou um gráfico de linhas de um relatório e, em seguida, alterar o gráfico de linhas para um gráfico de barras, o mosaico do dashboard continuará a mostrar um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
+* Se o mosaico foi criado a partir de um livro no Excel Online, terá de ter pelo menos permissões de leitura para esse livro. Caso contrário, selecionar o mosaico não abrirá o livro no Excel Online.
+* Digamos que cria um mosaico diretamente no dashboard através da opção **Adicionar mosaico** e define uma hiperligação personalizada para o mesmo. Se assim for, quando selecionar o título, o subtítulo ou o mosaico, esse URL será aberto. Caso contrário, por predefinição, não acontecerá nada ao selecionar um destes mosaicos criados diretamente no dashboard para uma imagem, código Web ou caixa de texto.
+* Se não tiver permissão para o relatório no Reporting Services, a seleção de um mosaico criado a partir dos Reporting Services irá encaminhar para uma página com a indicação de que não tem acesso (rsAccessDenied).
+* Se não tiver acesso à rede onde o servidor Reporting Services está localizado, a seleção de um mosaico criado a partir do Reporting Services irá encaminhar para uma página com a indicação de que não é possível localizar o servidor (HTTP 404). O seu dispositivo precisa de acesso de rede ao servidor de relatórios para ver o relatório.
+* Se a visualização original utilizada para criar o mosaico for alterada, o mosaico não será alterado.  Por exemplo, se afixar um gráfico de linhas de um relatório e, em seguida, alterar o gráfico de linhas para um gráfico de barras, o mosaico do dashboard continuará a apresentar um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
 
 ## <a name="next-steps"></a>Próximos passos
 [Criar um cartão (mosaico de número grande) para o dashboard](power-bi-visualization-card.md)

@@ -7,54 +7,55 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187014"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331823"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introdução às Perguntas e Respostas no Power BI
-## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Utilizar as Perguntas e Respostas do Power BI com o exemplo de Análise de Retalho
-Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural.  Neste início rápido, examinaremos duas formas diferentes de criar a mesma visualização: primeiro, criá-la num relatório e, segundo, fazer uma pergunta com as Perguntas e Respostas. Iremos utilizar o serviço Power BI, mas o processo é quase idêntico a utilizar o Power BI Desktop.
+
+Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural.  Neste guia de início rápido, examinaremos duas formas diferentes de criar a mesma visualização: em primeiro lugar, criá-la num relatório e, em segundo lugar, fazer uma pergunta com as Perguntas e Respostas. Iremos utilizar o serviço Power BI, mas o processo é quase idêntico a utilizar o Power BI Desktop.
 
 Para acompanhar, tem de utilizar um relatório que possa editar, por isso iremos utilizar um dos exemplos disponíveis com o Power BI.
 
-## <a name="method-1-using-the-report-editor"></a>Método 1: utilizar o editor de relatórios
+## <a name="create-a-visual-in-the-report-editor"></a>Criar um elemento visual no editor de relatórios
+
 1. Na área de trabalho do Power BI, selecione **Obter Dados** \> **Exemplos** \> **Exemplo de Análise de Revenda** > **Ligar**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
-2. O dashboard contém um mosaico de gráfico de área para "Vendas do Último Ano e Vendas Deste Ano".  Selecione este mosaico. 
-   
-   * Se este mosaico foi criado com o P e R, selecionar o mosaico vai abrir o P e R. 
-   * Mas este mosaico foi criado num relatório, portanto o relatório é aberto para a página que contém esta visualização.
-3. Abra o relatório na Vista de Edição selecionando **Editar Relatório**.  Se não for proprietário de um relatório, não terá a opção de abrir o relatório na vista de edição.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. Selecione o gráfico de área e reveja as definições no painel **Campos**.  O criador do relatório criou este gráfico selecionando estes 3 valores (**Hora > FiscalMonth**, **Vendas > Vendas deste ano**, **Vendas > Vendas do ano passado > Valor**) e organizando-os nas secções **Eixos** e **Valores**.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+2. O dashboard contém um mosaico de gráfico de área para "Vendas do Último Ano e Vendas Deste Ano".  Selecione este mosaico. Se este mosaico foi criado com o P e R, selecionar o mosaico vai abrir o P e R. Mas este mosaico foi criado num relatório, portanto o relatório é aberto para a página que contém esta visualização.
 
-## <a name="method-2-using-qa"></a>Método 2: utilizar as perguntas e respostas
-Como podemos criar este mesmo gráfico de linhas com o P e R?
+    ![Dashboard de exemplo de Análise de Revenda](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
 
-![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
+1. Abra o relatório na Vista de Edição selecionando **Editar Relatório**.  Se não for proprietário de um relatório, não terá a opção de abrir o relatório na Vista de Edição.
+   
+    ![Botão Editar relatório](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
+4. Selecione o gráfico de área e reveja as definições no painel **Campos**.  O criador do relatório criou este gráfico ao selecionar estes três valores (**Hora > MêsFiscal**, **Vendas > Vendas Deste Ano**, **Vendas > Vendas do Ano Passado > Valor**) e organizá-los nas secções **Eixos** e **Valores**.
+   
+    ![Painel Visualizações](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+
+## <a name="create-the-same-visual-with-qa"></a>Criar o mesmo elemento visual com as Perguntas e Respostas
+
+Como podemos criar este mesmo gráfico de linhas com as Perguntas e Respostas?
+
+![Caixa Colocar uma questão sobre os dados](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
 
 1. Navegue de volta para o dashboard do Exemplo de Análise de Revenda.
-2. Com linguagem natural, escreva algo deste género na caixa de pergunta:
+2. Com linguagem natural, escreva algo como esta pergunta na caixa de perguntas:
    
    **quais foram as vendas deste ano e as vendas do ano passado por mês como um gráfico de área**
    
-   Ao escrever a pergunta, o P e R escolhe a melhor visualização para apresentar a sua resposta, e a visualização muda dinamicamente, na medida em que modifica a pergunta. Além disso, o P e R ajuda-o a formatar a sua pergunta com sugestões, preenchimento automático e correções ortográficas.
+   Ao escrever a pergunta, as Perguntas e Respostas escolhem a melhor visualização para apresentar a sua resposta, e a visualização muda dinamicamente, na medida em que modifica a pergunta. Além disso, as Perguntas e Respostas ajudam a formatar a sua pergunta com sugestões, preenchimento automático e correções ortográficas.
    
    Quando terminar de escrever a sua pergunta, o resultado será exatamente o mesmo gráfico que vimos no relatório.  Mas criá-lo desta forma era muito mais rápido!
    
-   ![](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
-3. Da mesma forma como quando trabalha com relatórios, dentro das Perguntas e Respostas, tem acesso aos painéis de Visualizações, Filtros e Campos.  Abra estes painéis para explorar e modificar mais o seu elemento visual.
-4. Para afixar o gráfico ao dashboard, selecione o ícone de pino ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
+   ![Exemplo de pergunta](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
+3. Da mesma forma como trabalha com relatórios, dentro das Perguntas e Respostas, tem acesso aos painéis Visualizações, Filtros e Campos.  Abra estes painéis para explorar e modificar mais o seu elemento visual.
+4. Para afixar o gráfico no seu dashboard, selecione o ícone de afixar ![Ícone de afixar](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Próximos passos
 [Perguntas e Respostas no Power BI](consumer/end-user-q-and-a.md)

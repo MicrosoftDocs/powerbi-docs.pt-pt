@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223266"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289180"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adicionar opções de formatação a um elemento visual personalizado do Power BI
 
@@ -32,7 +32,7 @@ Neste tutorial, vai aprender a:
 
     É apresentada uma mensagem que indica o seguinte: *As opções de formatação não estão disponíveis para este elemento visual.*
 
-    ![Pincel de formatação](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Pincel de formatação](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. No **Visual Studio Code**, abra o ficheiro *capabilities.json*.
 
@@ -41,7 +41,7 @@ Neste tutorial, vai aprender a:
     ```json
     "objects": {},
     ```
-    ![Adicionar objetos](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Adicionar objetos](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Guarde o ficheiro **capabilities.json**.
 
@@ -50,13 +50,13 @@ Neste tutorial, vai aprender a:
     > [!Note]
     > Se não vir as opções de formatação, selecione **Recarregar Elemento Visual Personalizado**.
 
-    ![Ver as opções de formatação](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Ver as opções de formatação](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Defina a opção **Título** como *Desativado*. Repare que o elemento visual já não apresenta o nome da medida no canto superior esquerdo.
 
-    ![A opção Mosaico está desativada](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![A opção Mosaico está desativada](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Mosaico sem título](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Mosaico sem título](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Adicionar opções de formatação personalizadas
 
@@ -64,7 +64,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
 
 1. No PowerShell, pare o elemento visual personalizado.
 
-2. No Visual Studio Code, no ficheiro **capabilities.json**, insira o seguinte fragmento JSON no objeto **objects**.
+2. No Visual Studio Code, no ficheiro **capabilities.json**, insira o seguinte fragmento JSON no objeto etiquetado **objects**.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
                  }
              }
          }
-     }
+     },
     ```
 
     O fragmento JSON descreve um grupo com o nome circle, que contém duas opções com o nome circleColor e circleThickness.
 
-   ![Código da espessura do círculo](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Código da espessura do círculo](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Guarde o ficheiro **capabilities.json**.
 
@@ -112,7 +112,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
     }
     ```
 
-    ![Classes de módulo](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Classes de módulo](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Este módulo define as duas classes. A classe **CircleSettings** define duas propriedades com nomes que correspondem aos objetos definidos no ficheiro **capabilities.json** (**circleColor** e  **circleThickness**) e também define os valores predefinidos. A classe **VisualSettings** herda a classe **DataViewObjectParser** e adiciona uma propriedade com o nome **circle**, que corresponde ao objeto definido no ficheiro *capabilities.json* e devolve uma instância de **CircleSettings**.
 
@@ -127,7 +127,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
     ```
     Esta propriedade armazena uma referência ao objeto **VisualSettings**, que descreve as definições do elemento visual.
 
-    ![Adicionar a classe do elemento visual](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Adicionar a classe do elemento visual](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. Na classe **Visual**, adicione o seguinte método antes do método **update**. Este método serve para preencher as opções de formatação.
 
@@ -140,7 +140,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
     ```
     Este método serve para preencher as opções de formatação.
 
-    ![Objeto das definições do elemento visual](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Objeto das definições do elemento visual](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. No método **update**, depois da declaração da variável **radius**, adicione o seguinte código.
 
@@ -150,7 +150,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
     ```
     Este código devolve as opções de formatação. Ajustará qualquer valor transmitido para a propriedade **circleThickness** ao convertê-lo em 0 se o valor for negativo ou em 10 se for um valor superior a 10.
 
-    ![Variável radius](media/custom-visual-develop-tutorial/radius.png)
+    ![Variável radius](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. No  **elemento circle**, altere o valor transmitido para o **fill style** para a seguinte expressão.
 
@@ -158,7 +158,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
     this.visualSettings.circle.circleColor
     ```
 
-    ![Elemento de preenchimento do círculo](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Elemento de preenchimento do círculo](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. No  **elemento circle**, altere o valor transmitido para o **stroke-width style** para a seguinte expressão.
 
@@ -166,7 +166,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Espessura do traço do círculo](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Espessura do traço do círculo](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Guarde o ficheiro visual.ts.
 
@@ -180,7 +180,7 @@ Pode adicionar propriedades personalizadas para ativar a configuração da cor d
 
 16. Nas opções de **formatação do elemento visual**, expanda **Círculo**.
 
-    ![Formatação do círculo](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Formatação do círculo](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Modifique as opções **cor** e **espessura**.
 
@@ -198,7 +198,7 @@ Introduza os valores de propriedade para o projeto do elemento visual personaliz
 
     No painel **Visualizações**, pairar o rato sobre o ícone revela o nome a apresentar.
 
-    ![Elemento visual Nome a apresentar](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Elemento visual Nome a apresentar](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. Na propriedade **descrição**, introduza o seguinte texto.
 
@@ -216,7 +216,7 @@ Introduza os valores de propriedade para o projeto do elemento visual personaliz
 
 10. Reveja o ícone.
 
-    ![Imagem do painel Virtualizações](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Imagem do painel Virtualizações](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. No Visual Studio Code, confirme que todos os ficheiros estão guardados.
 
@@ -226,7 +226,7 @@ Introduza os valores de propriedade para o projeto do elemento visual personaliz
     pbiviz package
     ```
 
-    ![Pasta Dist](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Pasta Dist](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Agora, o pacote é a saída para a pasta **dist** do projeto. O pacote contém tudo o que é preciso para importar o elemento visual personalizado para o serviço Power BI ou para um relatório do Power BI Desktop. O elemento visual personalizado já está empacotado e pronto a ser utilizado.
 
@@ -238,7 +238,7 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 2. No painel **_Visualizações_**, selecione as **reticências** e, em seguida, selecione **Importar** em Ficheiro.
 
-    ![Adicionar uma visualização personalizada no Power BI Desktop](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Adicionar uma visualização personalizada no Power BI Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. Na **janela de importação**, selecione **Importar**.
 
@@ -250,7 +250,7 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 7. Confirme que o elemento visual foi adicionado ao painel **_Visualizações_**.
 
-    ![Ver no painel de visualizações do PBI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Ver no painel de visualizações do PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Paire o rato sobre o ícone do **Cartão Circular** e repare na descrição que é apresentada.
 
@@ -260,4 +260,4 @@ Para obter sugestões sobre como depurar elementos visuais personalizados, consu
 
 ## <a name="next-steps"></a>Próximos passos
 
-Pode listar o seu elemento visual recentemente criado, para que outras pessoas possam utilizá-lo, ao submetê-lo para o **AppSource**. Para obter mais informações sobre este processo, veja [Publicar elementos visuais personalizados no AppSource](office-store.md).
+Pode listar o seu elemento visual recentemente criado, para que outras pessoas possam utilizá-lo, ao submetê-lo para o **AppSource**. Para obter mais informações sobre este processo, consulte [Publicar elementos visuais personalizados no AppSource](office-store.md).

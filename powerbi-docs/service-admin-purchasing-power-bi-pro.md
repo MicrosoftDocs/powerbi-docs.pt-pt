@@ -10,17 +10,18 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7984f269235084268af57f1bb0d292793aef1f7f
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 0784976e1404247d69415bb398f83cbb73ab98a8
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641281"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331925"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Comprar e atribuir licenças Power BI Pro
 
 O Power BI Pro é uma licença individual que permite o acesso a todos os conteúdos e capacidades no serviço Power BI, incluindo a capacidade de partilhar conteúdo e colaborar com outros utilizadores Pro. Apenas os utilizadores Pro podem publicar e consumir conteúdo a partir de áreas de trabalho de aplicações, partilhar dashboards e subscrever dashboards e relatórios. Para obter mais informações, veja [Funcionalidades do Power BI por tipo de licença](service-features-license-type.md).
-Este artigo explica primeiro como comprar licenças Power BI Pro no Office 365. O artigo explica, em seguida, as duas opções para atribuir essas licenças a utilizadores individuais: Office 365 e Azure (escolher uma opção).
+
+Este artigo explica como comprar licenças do Power BI Pro no Office 365. O artigo explica, em seguida, as duas opções para atribuir essas licenças a utilizadores individuais: Office 365 e Azure (escolher uma opção).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

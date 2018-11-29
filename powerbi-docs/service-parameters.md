@@ -1,5 +1,5 @@
 ---
-title: Ver e editar definições de parâmetros de conjuntos de dados no serviço Power BI
+title: Editar definições de parâmetro no serviço Power BI
 description: Os parâmetros de consulta são criados no Power BI Desktop, mas podem ser revistos e atualizados no serviço Power BI
 author: mihart
 manager: kfile
@@ -7,25 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 11/21/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: ac271e8013bce5824931153351a651644a716a2f
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965165"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331879"
 ---
-# <a name="what-is-a-query-parameter"></a>O que é um parâmetro de consulta?
-Os parâmetros de consulta são adicionados ao Power BI Desktop por criadores de relatórios. Os parâmetros permitem-lhes fazer com que certas partes dos relatórios dependam de um ou mais *valores* de parâmetro. Por exemplo, um criador de relatórios pode criar um parâmetro que restrinja os dados a um único país/região ou um parâmetro que defina os formatos de campo aceitáveis, tais como datas, hora e texto.
+# <a name="edit-parameter-settings-in-the-power-bi-service"></a>Editar definições de parâmetro no serviço Power BI
+Os criadores de relatórios adicionam parâmetros de consulta aos relatórios no Power BI Desktop. Os parâmetros permitem-lhes fazer com que certas partes dos relatórios dependam de um ou mais *valores* de parâmetro. Por exemplo, um criador de relatórios pode criar um parâmetro que restrinja os dados a um único país/região ou um parâmetro que defina os formatos de campo aceitáveis, tais como datas, hora e texto.
 
 ![Separador Base a mostrar a opção Gerir Parâmetros no Power BI Desktop](media/service-parameters/power-bi-manage-parameters.png)
 
-
 ## <a name="review-and-edit-parameters-in-power-bi-service"></a>Rever e editar parâmetros no serviço Power BI
 
-Assim que os parâmetros forem definidos no Power BI Desktop, quando esse [relatório for publicado no serviço Power BI](desktop-upload-desktop-files.md), as definições e seleções de parâmetros são movidos juntamente com o relatório. Algumas definições de parâmetros podem ser revistas e editadas no serviço Power BI: não os parâmetros que restringem os dados disponíveis, mas aqueles que definem e descrevem os valores aceitáveis.
+Como criador de relatórios, pode definir parâmetros no Desktop. Quando [publicar esse relatório no serviço Power BI](desktop-upload-desktop-files.md), as definições de parâmetro e seleções também serão movidas. Pode rever e editar algumas definições de parâmetro no serviço Power BI: não os parâmetros que restringem os dados disponíveis, mas aqueles que definem e descrevem os valores aceitáveis.
 
 1. No serviço Power BI, selecione o ícone de engrenagem ![ícone de engrenagem](media/service-parameters/power-bi-cog.png) para abrir as **Definições**.
 

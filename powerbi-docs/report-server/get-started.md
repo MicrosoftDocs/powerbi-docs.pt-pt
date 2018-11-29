@@ -4,27 +4,27 @@ description: Obtenha uma descrição geral do Power BI Report Server para compr
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 10/24/2018
+ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101405"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289157"
 ---
 # <a name="what-is-power-bi-report-server"></a>O que é o Power BI Report Server?
 
-O Power BI Report Server é um servidor de relatórios no local com um portal Web no qual apresenta e gere relatórios e KPIs, juntamente com as ferramentas para criar relatórios, relatórios paginados, relatórios móveis e KPIs do Power BI. Os seus utilizadores podem aceder a esses relatórios de várias formas: visualizá-los num browser ou num dispositivo móvel, ou como uma mensagem de e-mail na caixa de entrada.
+O Power BI Report Server é um servidor de relatórios no local com um portal Web em que pode apresentar e gerir relatórios e indicadores chave de desempenho. Inclui ferramentas para criar relatórios do Power BI, relatórios paginados, relatórios móveis e indicadores chave de desempenho. Os seus utilizadores podem aceder a esses relatórios de várias formas: visualizá-los num browser ou num dispositivo móvel, ou como uma mensagem de e-mail na caixa de entrada.
 
 ![Portal Web do Power BI Report Server](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Comparar o Power BI Report Server 
-O Power BI Report Server é semelhante ao SQL Server Reporting Services e ao serviço online Power BI, mas de formas diferentes. À semelhança do serviço Power BI, o Power BI Report Server aloja relatórios do Power BI (.PBIX) e ficheiros do Excel. À semelhança do Reporting Services, o Power BI Report Server é local e aloja relatórios paginados (.RDL). O Power BI Report Server é um superconjunto do Reporting Services: tudo o que pode fazer no Reporting Services, pode fazê-lo com o Power BI Report Server e ainda mais, com a adição de suporte para relatórios do Power BI. Veja [Comparar o Power BI Report Server e o serviço Power BI](compare-report-server-service.md) para saber os detalhes.
+O Power BI Report Server é semelhante ao SQL Server Reporting Services e ao serviço online Power BI, mas de formas diferentes. À semelhança do serviço Power BI, o Power BI Report Server aloja relatórios do Power BI (.PBIX) e ficheiros do Excel. À semelhança do Reporting Services, o Power BI Report Server é local e aloja relatórios paginados (.RDL). O Power BI Report Server é um superconjunto do Reporting Services: tudo o que pode fazer no Reporting Services, pode fazê-lo com o Power BI Report Server, que também tem suporte para relatórios do Power BI. Veja [Comparar o Power BI Report Server e o serviço Power BI](compare-report-server-service.md) para saber os detalhes.
 
 ## <a name="licensing-power-bi-report-server"></a>Licenciar o Power BI Report Server
 O Power BI Report Server está disponível através de duas licenças diferentes: [Power BI Premium](../service-premium.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) com Software Assurance. Com uma licença Power BI Premium, pode criar uma implementação híbrida (ao combinar cloud e no local).  
@@ -33,7 +33,7 @@ O Power BI Report Server está disponível através de duas licenças diferente
 > No Power BI Premium, o Power BI Report Server só é incluído com os P SKUs. Não é incluído com os EM SKUs.
 
 ## <a name="web-portal"></a>Portal Web
-O ponto de entrada do Power BI Report Server é um portal Web seguro que pode ver em qualquer browser moderno. Aqui, pode aceder a todos os seus relatórios e KPIs. O conteúdo no portal Web é organizado numa hierarquia de pastas tradicional. Nas suas pastas, o conteúdo é agrupado por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados, KPIs e livros do Excel, além de conjuntos de dados partilhados e origens de dados partilhadas para utilizar como blocos de criação dos seus relatórios. Pode etiquetar favoritos para os visualizar numa única pasta. Pode também criar KPIs diretamente no portal Web. 
+O ponto de entrada do Power BI Report Server é um portal Web seguro que pode ver em qualquer browser moderno. Aqui pode aceder a todos os seus relatórios e indicadores chave de desempenho. O conteúdo no portal Web é organizado numa hierarquia de pastas tradicional. Nas suas pastas, os conteúdos são agrupados por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados, indicadores chave de desempenho e livros do Excel. Os conjuntos de dados partilhados e as origens de dados partilhadas estão nas suas próprias pastas, para serem utilizados como elementos dos seus relatórios. Pode etiquetar favoritos para os ver numa única pasta. Também pode criar indicadores chave de desempenho diretamente no portal Web. 
 
 ![Portal Web do Power BI Report Server](media/get-started/web-portal.png)
 
@@ -51,11 +51,11 @@ Um relatório do Power BI é uma vista de várias perspetivas sobre um modelo d
 Instale o [Power BI Desktop otimizado para o Power BI Report Server](quickstart-create-powerbi-report.md).
 
 ## <a name="paginated-reports"></a>Relatórios paginados
-Os relatórios paginados (.RDL) são relatórios num estilo de documento com visualizações, em que as tabelas se expandem horizontal e verticalmente para apresentar todos os dados, e continuam de página para página, conforme seja necessário. São ótimos para gerar documentos com esquema fixo e aspeto perfeito, otimizados para impressão, como ficheiros PDF e Word.
+Os relatórios paginados (.RDL) são relatórios num estilo de documento com visualizações, em que as tabelas se expandem horizontal e verticalmente para apresentar todos os dados, e continuam de página para página, conforme seja necessário. São ótimos para gerar documentos com esquema fixo e aspeto perfeito, otimizados para impressão, como ficheiros PDF e Word. 
 
 ![Relatórios paginados no Power BI Report Server](media/get-started/paginated-reports.png)
 
-Pode criar relatórios com aspeto moderno através do [Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) ou do Report Designer no [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
+Pode criar relatórios com aspeto moderno através do [Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) ou do Report Designer no [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt). 
 
 ## <a name="reporting-services-mobile-reports"></a>Relatórios móveis do Reporting Services
 Os relatórios móveis ligam-se aos dados no local e têm um esquema responsivo que se adapta aos diferentes dispositivos e formas de os segurar. São criados com o SQL Server Mobile Report Publisher.
@@ -63,7 +63,7 @@ Os relatórios móveis ligam-se aos dados no local e têm um esquema responsivo 
 Mais sobre os [Relatórios móveis do Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
 
 ## <a name="report-server-programming-features"></a>Funcionalidades de programação do Report Server
-Tire partido das funcionalidades de programação do Power BI Report Server para alargar e personalizar o seu funcionamento de relatórios, com APIs para integrar ou expandir dados e processamento de relatórios em aplicações personalizadas.
+Tire partido das funcionalidades de programação do Power BI Report Server para expandir e personalizar os seus relatórios, com APIs para integrar ou expandir dados e processamento de relatórios em aplicações personalizadas.
 
 Mais [documentação para programadores do Report Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
