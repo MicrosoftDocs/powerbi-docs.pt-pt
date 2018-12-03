@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 5c614c00c0354e79c73023bdc0b81313a19a78a3
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 5c67ba54ee4cb6ef5cb542158df0be45ad613f01
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327321"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670469"
 ---
 # <a name="configuring-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -63,7 +63,7 @@ Só é necessário iniciar sessão nas origens de dados a primeira vez que utili
 
 Quando ocorre algum erro, o problema geralmente tem algo a ver com o gateway estar offline porque não foi possível iniciar sessão no Windows e iniciar o serviço ou o Power BI não conseguiu ligar-se às origens de dados para consultar dados atualizados. Se a atualização falhar, verifique as configurações do conjunto de dados. Se o serviço de gateway estiver offline, verá o erro no Estado do Gateway. Se o Power BI não conseguir iniciar sessão nas origens de dados, será apresentado um erro em Credenciais da Origem de Dados.
 
-### <a name="on-premises-data-gateway"></a>Gateway de dados local
+### <a name="on-premises-data-gateway"></a>Gateway de dados no local
 Se estiver a utilizar o Gateway de dados no local para atualizar os dados, não será necessário fornecer credenciais, uma vez que são definidas para a origem de dados pelo administrador do gateway.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 98f5e6b5fee1f3666ff204a5f2da400d0aaab80f
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 9183a0fbb163fb4e46e6b310bcce953aaef9d1b8
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256130"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670630"
 ---
 # <a name="using-r-in-query-editor"></a>Utilizar o R no Editor de Consultas
 Pode utilizar o **R**, uma linguagem de programação amplamente utilizada por estatísticos, cientistas de dados e analistas de dados no **Editor de Consultas** do Power BI Desktop. Esta integração do R no **Editor de Consultas** permite-lhe efetuar a limpeza dos dados e efetuar a formatação e análise de dados avançadas em conjuntos de dados, incluindo a conclusão de dados em falta, predições e clustering, apenas para mencionar alguns exemplos. O **R** é uma poderosa linguagem e pode ser utilizada no **Editor de Consultas** para preparar o seu modelo de dados e criar relatórios.

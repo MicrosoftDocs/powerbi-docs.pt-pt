@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c41665bd1b9476816dcbb5739a36ecd6d95852b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c698d3abc7931437c0bd2b15385714c9c8282dc7
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328287"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670300"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Utilizar etiquetas de hierarquia inline no Power BI Desktop
 O **Power BI Desktop** suporta a utilização de **etiquetas de hierarquia inline**, a primeira de duas funcionalidades destinadas a melhorar a desagregação hierárquica. A segunda funcionalidade, atualmente em desenvolvimento, é a capacidade de utilizar etiquetas de hierarquia aninhadas (esteja atento; as nossas atualizações ocorrem frequentemente).   

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9a157b9a7302ed7e02f0b3e8f17a905b9b65d93
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2aef47ab1716464c0896b624069a6ebbeb4adc54
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287239"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578388"
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Ligar a uma página Web do Power BI Desktop
 Pode ligar a uma página Web e importar os respetivos dados para o Power BI Desktop para utilizar nos seus visuais e modelos de dados.

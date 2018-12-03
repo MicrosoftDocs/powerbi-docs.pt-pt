@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 952318cca92428d81fbceb7ded073679b029a245
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328563"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669066"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Ligar ao Excel no Power BI Desktop
 Ligar a um livro do Excel a partir do Power BI Desktop é simples, e este artigo explica os passos.

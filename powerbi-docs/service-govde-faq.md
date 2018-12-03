@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 26eae99b9dcfb667a66946c292854c602d8c2a73
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4a602a8494261705d61c70679d9511993afe69af
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39326953"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670078"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Perguntas frequentes do Power BI para clientes Germany Cloud
 O **serviço Power BI** têm uma versão disponível para clientes da União Europeia/Acordo de Comércio Livre da Europa (UE/EFTA), normalmente conhecida como Microsoft Cloud Deutschland (MCD). A versão do **serviço Power BI** falada neste artigo é específica para clientes da UE/EFTA, sendo separada e diferente da versão comercial do **serviço Power BI** ou serviços Power BI fornecidos a clientes da administração pública.
@@ -32,13 +32,13 @@ As seguintes perguntas e respostas fornecem informações importantes sobre o Se
    Pode encontrar diversas informações na [página inicial do Power BI Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/), incluindo informações de preços. Nesta página, há também uma ligação para se inscrever na versão de avaliação de 30 dias do **serviço Power BI Pro** com 25 licenças de utilizadores. Como parte da inscrição de avaliação, tem a opção de comprar ou adicionar mais licenças, conforme necessário. Também oferecemos preços para Enterprise Agreement (EA), Administração Pública e organizações sem fins lucrativos. Entre em contacto com o seu representante de cliente da Microsoft para obter mais detalhes.
 3. **Tenho um inquilino do Germany Cloud como parte de subscrições do Azure Germany e/ou Office 365 Germany. Posso utilizar o inquilino existente para me inscrever no Power BI Germany?**
    
-   Sim. Como parte do processo de inscrição, terá a opção de iniciar sessão com uma conta de administrador de inquilino Germany Cloud existente e adicionar as licenças de serviço do Power BI Pro ao seu inquilino existente no Germany Cloud. Note que as contas de utilizador e inquilinos do Germany Cloud são diferentes do serviço Power BI para Germany Cloud.
+   Yes. Como parte do processo de inscrição, terá a opção de iniciar sessão com uma conta de administrador de inquilino Germany Cloud existente e adicionar as licenças de serviço do Power BI Pro ao seu inquilino existente no Germany Cloud. Note que as contas de utilizador e inquilinos do Germany Cloud são diferentes do serviço Power BI para Germany Cloud.
 4. **Existe um serviço gratuito no serviço Power BI para Germany Cloud?**
    
    Não. Não disponibilizamos versões de licenças gratuitas no serviço Power BI para Germany Cloud. No entanto, encorajamo-lo a inscrever-se na [oferta gratuita do Power BI na nossa cloud pública](https://powerbi.microsoft.com/get-started/) se as suas necessidades empresariais forem cumpridas com uma oferta gratuita do Power BI.
 5. **Posso utilizar o Power BI Desktop, o Power BI Mobile, o Gateway de dados no local e o Publisher para Excel com o serviço Power BI para Germany Cloud?**
    
-   Sim. Atualizámos os nossos produtos de cliente do Power BI para funcionarem de forma integrada com o serviço Power BI para Germany Cloud. Inicie sessão com a sua conta de serviço Power BI Germany Cloud para começar a utilizar os mesmos produtos de cliente com o serviço Power BI para Germany Cloud. Pode transferir a versão mais recente dos produtos de cliente dos seguintes locais:
+   Yes. Atualizámos os nossos produtos de cliente do Power BI para funcionarem de forma integrada com o serviço Power BI para Germany Cloud. Inicie sessão com a sua conta de serviço Power BI Germany Cloud para começar a utilizar os mesmos produtos de cliente com o serviço Power BI para Germany Cloud. Pode transferir a versão mais recente dos produtos de cliente dos seguintes locais:
    
    * [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
    * [Power BI Mobile](https://powerbi.microsoft.com/mobile/)

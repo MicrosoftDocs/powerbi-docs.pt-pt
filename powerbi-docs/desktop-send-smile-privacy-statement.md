@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e3f033853f0416cc5bcb69c7dab69e0d88631f0b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 44f5c8c708becf8fc50b7cc5bc17d16241826415
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328836"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669497"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Declaração de Privacidade Referente à Funcionalidade Enviar um Sorriso do Power BI Desktop
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eedbe8c6f9b9453acf2e07f484bf1cac7272f390
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5a355e3d19a781def54a1dcf747f404ed7852444
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39286009"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670884"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Utilizar informações no Power BI Desktop para localizar onde a distribuição é diferente (Pré-visualização)
 
@@ -130,7 +130,7 @@ A lista seguinte é a coleção de cenários atualmente não suportados para **i
 * Filtros de medição
 * Medidas não numéricas
 * Utilização de "Mostrar valor como"
-* Medidas filtradas: são cálculos de nível de elemento visual com um filtro específico aplicado (por exemplo, *Total de Vendas de França*) e são utilizadas em alguns dos elementos visuais criados pela funcionalidade de informações
+* Medidas filtradas: são cálculos ao nível dos elementos visuais com um filtro específico aplicado (por exemplo, *Total de Vendas de França*) e são utilizadas em alguns dos elementos visuais criados pela funcionalidade de informações
 
 Além disso, os seguintes tipos de modelos e origens de dados não são atualmente suportados para informações:
 
@@ -140,12 +140,12 @@ Além disso, os seguintes tipos de modelos e origens de dados não são atualmen
 * Incorporação
 
 ## <a name="next-steps"></a>Próximos passos
-Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, veja os seguintes artigos.
+Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
 

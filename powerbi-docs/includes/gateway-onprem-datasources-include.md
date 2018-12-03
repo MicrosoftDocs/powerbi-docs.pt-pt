@@ -20,6 +20,7 @@
 | SAP HANA |Sim |Sim |
 | Relação do SharePoint (local) |Não |Sim |
 | Snowflake |Sim |Sim |
+| Spark |Sim |Sim |
 | SQL Server |Sim |Sim |
 | Sybase |Não |Sim |
 | Teradata |Sim |Sim |

@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850413"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578434"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Segurança ao nível da linha (RLS) com o Power BI
-A segurança ao nível da linha (RLS) com o Power BI pode ser utilizada para restringir o acesso a dados para determinados utilizadores. Os filtros restringem o acesso aos dados ao nível da linha e pode definir filtros nas funções. Tenha em atenção que, no serviço Power BI, os membros de uma área de trabalho têm acesso a conjuntos de dados na área de trabalho. A RLS não restringe este acesso a dados. 
+
+A segurança ao nível da linha (RLS) com o Power BI pode ser utilizada para restringir o acesso a dados para determinados utilizadores. Os filtros restringem o acesso aos dados ao nível da linha e pode definir filtros nas funções. Tenha em atenção que, no serviço Power BI, os membros de uma área de trabalho têm acesso a conjuntos de dados na área de trabalho. A RLS não restringe este acesso a dados.
 
 Pode configurar a RLS para modelos de dados importados para o Power BI com o Power BI Desktop. Também pode configurar a RLS em conjuntos de dados que utilizem o DirectQuery, como o SQL Server. Anteriormente, só era possível implementar a RLS em modelos dos Analysis Services no local fora do Power BI. Para as ligações em direto dos Analysis Services, configure a segurança ao nível da linha no modelo no local. A opção de segurança não vai ser apresentada para conjuntos de dados de ligação em direto.
 
@@ -34,6 +35,7 @@ Para obter mais informações, veja [Bidirectional cross-filtering using DirectQ
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>Gerir a segurança no modelo
+
 Para gerir a segurança no modelo de dados, é necessário fazer o seguinte.
 
 1. Selecione as **reticências (...)** para um conjunto de dados.
@@ -46,7 +48,9 @@ Esta ação leva-o para a página RLS para adicionar membros a uma função que 
 Só poderá criar ou modificar funções dentro do Power BI Desktop.
 
 ## <a name="working-with-members"></a>Trabalhar com membros
+
 ### <a name="add-members"></a>Adicionar membros
+
 Pode adicionar um membro à função ao introduzir o endereço de e-mail ou o nome do utilizador, grupo de segurança ou lista de distribuição que pretende adicionar. Este membro tem de estar na sua organização. Não é possível adicionar Grupos criados no Power BI.
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Também pode ver quantos membros fazem parte da função pelo número entre par�
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Remover membros
+
 É possível remover membros selecionando o X ao lado do nome. 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Validar a função no serviço Power BI
+
 Pode validar que a função que definiu está a funcionar corretamente ao testar a função. 
 
 1. Selecione as **reticências (...)** junto à função.
@@ -83,12 +89,11 @@ Para voltar à visualização normal, selecione **Voltar à Segurança de Nível
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Utilizar a RLS com áreas de trabalho de aplicação no Power BI
+
 Se publicar o relatório do Power BI Desktop numa área de trabalho de aplicação no serviço Power BI, as funções serão aplicadas aos membros só de leitura. Terá de indicar que os membros só podem ver o conteúdo do Power BI nas definições de área de trabalho da aplicação.
 
 > [!WARNING]
 > Se tiver configurado a área de trabalho de aplicação para que os membros tenham permissões de edição, as funções de RLS não serão aplicadas às mesmas. Os utilizadores poderão ver todos os dados.
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Se publicar o relatório do Power BI Desktop numa área de trabalho de aplicaç�
 [Segurança ao nível da linha (RLS) com o Power BI Desktop](desktop-rls.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-
