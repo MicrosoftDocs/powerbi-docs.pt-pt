@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396825"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830108"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de visualizações
 Se pretende ver os dados que são utilizados para criar uma visualização, pode apresentar os dados no Power BI ou exportar esses dados para o Excel como um ficheiro .xlsx ou .csv. A opção para exportar os dados requer uma licença Pro ou Premium e permissões de edição no conjunto de dados e no relatório. 
@@ -38,7 +38,7 @@ Veja o Will a exportar os dados a partir de uma das visualizações no seu relat
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>A partir de uma visualização num relatório
-Para acompanhar, abra o [relatório de Exemplo de análise de aprovisionamento](../sample-procurement.md) na [Vista de edição](../consumer/end-user-reading-view.md). [Adicione uma nova página em branco do relatório](../power-bi-report-add-page.md). Em seguida, siga os passos abaixo para adicionar uma agregação e um filtro de nível de visualização.
+Para acompanhar, abra o [relatório de Exemplo de análise de aprovisionamento](../sample-procurement.md) na [Vista de edição](../consumer/end-user-reading-view.md). Adicione uma nova página de relatório em branco. Em seguida, siga os passos abaixo para adicionar uma agregação e um filtro de nível de visualização.
 
 1. Crie um novo gráfico de colunas.  No painel Campos, selecione **Localização > Cidade** e **Fatura > Percentagem de desconto**.  Poderá ter de mover o campo **Percentagem de Desconto** para o conjunto de campos Valor. 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157086"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830315"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -174,11 +174,15 @@ Para aceder ao portal de administração do Power BI, a conta tem de estar marc
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?
 
-Se um inquilino tiver sido criado pela Microsoft, poderá reclamar e gerir esse inquilino através dos seguintes passos:
+Quando um utilizador self-service se inscreve num serviço cloud que utiliza o Azure AD, esse utilizador é adicionado a um diretório não gerido do Azure com base no respetivo domínio de e-mail. Pode reclamar e gerir o inquilino que foi criado com um processo conhecido como *obtenção de controlo administrativo*. O tipo de obtenção de controlo que realiza está dependente de existir um inquilino gerido associado ao seu domínio:
 
-1. Associe o inquilino ao inscrever-se no Power BI através de um domínio de endereço de e-mail que corresponda ao domínio do inquilino que quer gerir. Por exemplo, se a Microsoft tivesse criado o inquilino contoso.com, iria associar o inquilino a um endereço de e-mail que terminasse em @contoso.com.
+* Utilize uma *obtenção de controlo interna* para criar um novo inquilino gerido para o domínio.
 
-1. Reclame o controlo de administração ao verificar a propriedade de domínio: assim que estiver no inquilino, pode promover-se para a função *Administrador Global* ao verificar a propriedade do domínio. Para tal, siga os passos na [documentação do Office 365](/office365/admin/misc/become-the-admin).
+* Utilize uma *obtenção de controlo externa* para mover o domínio para um inquilino gerido existente.
+
+Para obter mais informações, veja [Obter o controlo de um diretório não gerido como administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
+
+Quando realiza uma obtenção de controlo externa, o conteúdo do Power BI que tenha sido criado antes da obtenção de controlo é colocado numa [Área de Trabalho Arquivada do Power BI](service-admin-power-bi-archived-workspace.md). Tem de migrar manualmente qualquer conteúdo que queira utilizar no novo inquilino.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Se tiver vários domínios, posso controlar os utilizadores que são adicionados ao inquilino do Office 365?
 

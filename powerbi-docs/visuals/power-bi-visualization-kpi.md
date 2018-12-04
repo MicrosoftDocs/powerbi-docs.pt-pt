@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417240"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829648"
 ---
 # <a name="kpi-visuals"></a>Elementos visuais do KPI
 Um KPI (Indicador Chave de Desempenho) é uma indicação visual que comunica a quantidade de progresso feito em relação a uma meta mensurável. Para obter mais informações sobre KPIs, consulte [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -46,7 +46,7 @@ Ou deixe que o Will lhe mostre como criar elementos visuais de métrica única: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Abra o relatório na vista Relatório e [selecione o separador amarelo para adicionar uma nova página](../power-bi-report-add-page.md).    
+1. Abra o relatório na vista Relatório e selecione o separador amarelo para adicionar uma nova página.    
 2. No painel Campos, selecione **Sales > Total Units This Year** (Vendas > Total de Unidades deste Ano).  Este será o indicador.
 3. Adicione **Time > FiscalMonth** (Tempo > MêsFiscal).  Isto representará a tendência.
 4. IMPORTANTE: ordene o gráfico por **FiscalMonth** (MêsFiscal). Depois de converter a visualização para um KPI, já não tem a opção de ordenar.
@@ -71,7 +71,7 @@ Os KPIs também estão disponíveis no serviço Power BI e nos dispositivos móv
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Se o seu KPI não se parecer com o acima, poderá ser porque tem de ordenar por mêsfiscal. Uma vez que os KPIs não têm uma opção de ordenação, terá de os ordenar por mêsfiscal *antes* de converter a visualização num KPI.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Mapas básicos no Power BI](power-bi-map-tips-and-tricks.md)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49397009"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830016"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Como utilizar as Perguntas e Respostas para criar visualizações e relatórios
 A [descrição geral de Perguntas e Respostas](consumer/end-user-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](consumer/mobile/mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.
@@ -74,7 +74,7 @@ Para utilizar as Perguntas e Respostas em relatórios, tem de ter permissões de
     **Serviço**    
     ![](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
-2. Uma caixa de pergunta das Perguntas e Respostas é apresentada na tela do relatório. No exemplo abaixo, a caixa de pergunta é apresentada sobre outra visualização. Não há problema, mas poderá ser melhor [adicionar uma página em branco ao relatório](power-bi-report-add-page.md) antes de fazer uma pergunta.
+2. Uma caixa de pergunta das Perguntas e Respostas é apresentada na tela do relatório. No exemplo abaixo, a caixa de pergunta é apresentada sobre outra visualização. Não há problema, mas pode ser melhor adicionar uma página em branco ao relatório antes de fazer uma pergunta.
 
     ![](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 

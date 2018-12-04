@@ -1,6 +1,6 @@
 ---
 title: Elementos visuais personalizados do Power BI certificados
-description: Requisitos e processo de submissão de um elemento visual personalizado para certificação. E uma lista de elementos visuais personalizados já certificados.
+description: Requisitos e processo de submissão de um visual personalizado para certificação. E uma lista de visuais personalizados já certificados.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289272"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830154"
 ---
 # <a name="certified-custom-visuals"></a>Elementos visuais personalizados certificados
 
@@ -61,8 +61,8 @@ Para [certificar](#certified-custom-visuals) o seu elemento visual personalizado
 
 Para enviar um visual personalizado para certificação:
 
-1. Envie um e-mail para a Equipa de Suporte dos Elementos Visuais Personalizados do Power BI (pbicvsupport@microsoft.com). No e-mail, inclua a seguinte informação:
-    * Título: Pedido de Certificação de Elemento Visual
+1. Envie um e-mail para a Equipa de Suporte dos Elementos Visuais Personalizados do Power BI (pbicvsupport@microsoft.com). No e-mail, inclua as seguintes informações:
+    * Título: Pedido de Certificação Visual
     * Forneça uma ligação para o repositório do GitHub em que está alojado o código-fonte legível por humanos
     * [Cumprir os requisitos](#certification-requirements)
     * Passar na análise de código
@@ -138,6 +138,7 @@ Para enviar um visual personalizado para certificação:
 | [Gráfico de Anel da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [Vídeo](https://youtu.be/pDToHDFHnq8) |
 | [Gráfico Rotativo da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [Vídeo](https://youtu.be/d5xBCMmb3hU) |
 | [Gráfico Sankey](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [Vídeo](https://youtu.be/WWP9wVUHGaA) |
+| [Gráfico de Dispersão da Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703) | |
 | [Deslocador](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
 | [Smart Filter da OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [Vídeo](https://youtu.be/gcJsDDRQq28) |
 | [Sparkline da OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [Vídeo](https://youtu.be/0m3Vnvso9tY) |

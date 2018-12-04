@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874581"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829947"
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
 Por vezes, um único número é a coisa mais importante que pretende controlar no seu dashboard ou relatório do Power BI, como as vendas totais, a quota de mercado ano após ano ou o total de oportunidades. Este tipo de visualização é denominado um *Cartão*. Tal como acontece com quase todas as visualizações nativas do Power BI, os Cartões podem ser criados com o editor de relatórios ou as Perguntas e Respostas.
@@ -25,7 +25,7 @@ Por vezes, um único número é a coisa mais importante que pretende controlar n
 ## <a name="create-a-card-using-the-report-editor"></a>Criar um cartão com o editor de relatórios
 Estas instruções utilizam o Exemplo de Análise de Retalho. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.   
 
-1. Comece numa [página do relatório em branco ](../power-bi-report-add-page.md) e selecione o campo **Armazenar** \> **Contagem de arquivos abertos**. Se estiver a utilizar o serviço do Power BI, terá de abrir o relatório na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
+1. Comece numa página de relatório em branco e selecione o campo **Arquivo** \> **Contagem de arquivos abertos**. Se estiver a utilizar o serviço do Power BI, terá de abrir o relatório na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
 
     O Power BI cria um gráfico de colunas com um número.
 

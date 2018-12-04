@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416941"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829878"
 ---
 # <a name="funnel-charts"></a>Gráficos de funil
 Um gráfico de funil ajuda-o a visualizar um processo linear com fases ligadas de forma sequencial. Por exemplo, um funil de vendas que controla os clientes por fases: Cliente potencial \> Cliente potencial qualificado \> Prospeto \> Contrato \> Fechar.  Num relance, a forma do funil transmite a integridade do processo que está a controlar.
@@ -55,7 +55,7 @@ Agra crie o seu próprio gráfico de funil que mostra o número de oportunidades
 
 Estas instruções utilizam o Exemplo de Análise de Oportunidade. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.   
 
-1. Comece numa [página de relatório em branco ](../power-bi-report-add-page.md) e selecione o campo **SalesStage** \> **Fase de Vendas**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](../service-interact-with-a-report-in-editing-view.md).
+1. Comece numa página de relatório em branco e selecione o campo **SalesStage** \> **Fase de Venda**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](../service-interact-with-a-report-in-editing-view.md).
    
     ![selecionar Fase de Vendas](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Converta o gráfico](power-bi-report-change-visualization-type.md) num funil. Repare que **Fase de Vendas** está no **Grupo**. 
@@ -73,12 +73,12 @@ Estas instruções utilizam o Exemplo de Análise de Oportunidade. Para acompanh
 5. [Adicionar o funil como um bloco do dashboard](../service-dashboard-tiles.md). 
 6. [Guarde o relatório](../service-report-save.md).
 
-## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
+## <a name="highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
 
 Realçar uma barra em um funil cruza os filtros de outras visualizações na página do relatório e vice-versa. Para acompanhar, adicione mais alguns elementos visuais à página do relatório que contém o gráfico de funil.
 
-1. No funil, selecione a barra **Proposta**. Isto destaca de forma cruzada as outras visualizações na página. Utilize CTRL para selecionar vários.
+1. No funil, selecione a barra **Proposta**. Isso destaca de forma cruzada as outras visualizações na página. Utilize CTRL para selecionar vários.
    
    ![pequeno vídeo que mostra as interações visuais](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Para definir preferências de como os elementos visuais são destacados e filtrados de forma cruzada entre si, veja [Interações visuais no Power BI](../service-reports-visual-interactions.md)
@@ -92,7 +92,7 @@ Abra o dashboard do Exemplo de Análise de Oportunidade ou qualquer outro dashbo
    
 2. Certifique-se de que adiciona "como funil" para o que Power BI saiba qual o tipo de visualização que prefere.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Medidores no Power BI](power-bi-visualization-radial-gauge-charts.md)
 

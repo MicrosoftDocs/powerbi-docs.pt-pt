@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 9b508964062146ff140bcb85b0b8b42e9bf4f68f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003185"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830131"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, de bolhas e de pontos no Power BI
 Um gráfico de dispersão tem sempre dois eixos de valor para mostrar um conjunto de dados numéricos num eixo horizontal e outro conjunto de valores numéricos num eixo vertical. O gráfico mostra pontos na intersecção de um valor numérico de x e y e combina estes valores em pontos de dados individuais. Estes pontos de dados podem ser distribuídos de forma uniforme ou não pelo eixo horizontal, consoante os dados.
@@ -57,7 +57,7 @@ Assista a este vídeo para ver o Will a criar um gráfico de dispersão e, em se
 
 Essas instruções utilizam o Exemplo de Análise de Revenda. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.   
 
-1. Abra o relatório na vista de edição e selecione o ícone de adição amarelo para criar uma [página de relatório em branco](../power-bi-report-add-page.md).
+1. Abra o relatório na vista Edição e selecione o ícone de adição amarelo para criar uma página de relatório em branco.
  
 2. No painel Campos, selecione os seguintes campos:
    - **Sales** (Vendas)  > **Sales Per Sq Ft** (Vendas Por Metro Quadrado)
