@@ -10,19 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718051"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830193"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Criar um novo relatório no serviço Power BI através da importação de um conjunto de dados
 Leu o artigo [Relatórios no Power BI](consumer/end-user-reports.md) e pretende agora criar o seu. Existem várias formas diferentes de criar um relatório. Neste artigo, vamos começar por criar um relatório muito básico a partir de um conjunto de dados do Excel com o serviço Power BI. Após compreender as noções básicas da criação de um relatório, os **Passos seguintes** na parte inferior irão direcioná-lo para os tópicos de relatórios mais avançados.  
 
-> **SUGESTÃO**: Para criar um relatório ao copiar um relatório existente, consulte [Copiar um relatório](power-bi-report-copy.md)
-> 
-> ### <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisites"></a>Pré-requisitos
 > - Serviço Power BI (para criar relatórios com o Power BI Desktop, veja [Vista de relatórios do Desktop](desktop-report-view.md))  
 > - Conjunto de dados de exemplo da Análise de Revenda
 
@@ -93,7 +91,7 @@ A nossa CMO quer que respondamos a algumas perguntas adicionais. Ela quer compar
 Continue a explorar os dados e a adicionar visualizações. Quando encontrar informações especialmente interessantes, [afixe-as num dashboard](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Próximos passos
-* [Adicionar uma página nova ao relatório](power-bi-report-add-page.md)  
+
 * Saiba como [afixar visualizações a um dashboard](service-dashboard-pin-tile-from-report.md)   
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

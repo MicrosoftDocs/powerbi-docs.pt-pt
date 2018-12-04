@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448966"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830384"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráfico de Combinação no Power BI
 No Power BI, um gráfico de combinação é uma visualização única que combina um gráfico de linhas e um gráfico de colunas. Combinar os 2 gráficos em um, permite-lhe fazer uma comparação rápida dos dados.
@@ -45,7 +45,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 
 1. No dashboard "Exemplo de Análise de Revenda", selecione o mosaico **Total de Lojas** para abrir o relatório "Exemplo de Análise de Revenda".
 2. Selecione **Editar Relatório** para abrir o relatório na Vista de Edição.
-3. [Adicione uma nova página do relatório](../power-bi-report-add-page.md).
+3. Adicione uma nova página de relatório.
 4. Crie um gráfico de coluna que apresenta as vendas deste ano e a margem bruta por mês.
 
     a.  No painel Campos, selecione **Vendas** \> **Vendas do Último Ano** > **Valor**.
@@ -108,11 +108,11 @@ Aqui poderá:
 * [Guarde o relatório](../service-report-save.md).
 * [Tornar o relatório mais acessível para pessoas portadoras de deficiência](../desktop-accessibility.md).
 
-## <a name="cross-highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
+## <a name="cross-highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 
 Realçar uma coluna ou linha num gráfico de combinação destaca e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para alterar este comportamento padrão, utilize as [interações visuais](../service-reports-visual-interactions.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Gráficos em anel no Power BI](power-bi-visualization-doughnut-charts.md)
 
