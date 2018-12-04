@@ -1,7 +1,7 @@
 items:
 - name: Power BI Desktop
   items:
-  - name: Overview
+  - name: Descrição geral
     items:
     - name: O que é o Power BI Desktop?
       href: desktop-what-is-desktop.md
@@ -282,6 +282,8 @@ items:
         href: desktop-create-phone-report.md
       - name: Use See Data and See Records (Utilizar as funcionalidades Ver Dados e Ver Relatórios)
         href: desktop-see-data-see-records.md
+      - name: Sugestões para criar relatórios
+        href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Visualizações
       items:
       - name: Visualization best practices (Melhores práticas de visualização)
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: Personalizar as propriedades dos eixos X e Y
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: ArcGIS no Power BI
+      - name: Mapas ArcGIS no Power BI
         href: power-bi-visualization-arcgis.md
       - name: Gráfico de área básico
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: Gráficos de cascata no Power BI
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: Criar linhas de referência dinâmicas
+        href: service-analytics-pane.md
     - name: Resolução de problemas
       items:
       - name: Resolver problemas de importação de Bases de Dados do Access e de folhas de cálculo do Excel no Power BI Desktop e Power Query
@@ -376,16 +380,16 @@ items:
       href: desktop-admin-sign-in-form.md
 - name: Serviço Power BI
   items:
-  - name: Overview
+  - name: Descrição geral
     items:
     - name: O que é Power BI?
       href: power-bi-overview.md
   - name: Tutoriais
     items:
-    - name: Connect to a GitHub sample (Ligar a um exemplo do GitHub)
-      href: service-tutorial-connect-to-github.md
     - name: Introdução ao Power BI
       href: service-get-started.md
+    - name: Connect to a GitHub sample (Ligar a um exemplo do GitHub)
+      href: service-tutorial-connect-to-github.md
   - name: Conceitos
     items:
     - name: What's new in the Power BI service (Novidades no serviço Power BI)
@@ -422,7 +426,7 @@ items:
         href: service-azure-egress-power-bi.md
     - name: Estrutura do relatório
       items:
-      - name: O editor de relatórios... Veja uma apresentação
+      - name: O editor de relatórios... Faça uma visita
         href: service-the-report-editor-take-a-tour.md
       - name: Visualizações no Power BI
         href: visuals/power-bi-report-visualizations.md
@@ -644,40 +648,28 @@ items:
         href: service-dashboard-themes.md
     - name: Relatórios
       items:
-      - name: Crie um novo relatório a partir de um relatório existente
-        href: power-bi-report-copy.md
-      - name: Adicionar uma página a um relatório
-        href: power-bi-report-add-page.md
+      - name: Criar um novo relatório a partir de um conjunto de dados
+        href: service-report-create-new.md
       - name: Adicionar um filtro a um relatório
         href: power-bi-report-add-filter.md
       - name: Guardar um relatório no Power BI
         href: service-report-save.md
-      - name: Criar um novo relatório a partir de um conjunto de dados
-        href: service-report-create-new.md
       - name: Interagir com um relatório na Vista de Edição
         href: service-interact-with-a-report-in-editing-view.md
       - name: Analisar no Excel
         href: service-analyze-in-excel.md
       - name: Sugestões e truques para criar relatórios
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: Analytics pane (Painel de análise)
-        href: service-analytics-pane.md
       - name: Usage metrics for reports (Métrica de utilização para relatórios)
         href: service-usage-metrics.md
       - name: Criar um código QR para um relatório
         href: service-create-qr-code-for-report.md
-      - name: Reorganizar as páginas num relatório
-        href: service-report-reorder-pages.md
-      - name: Duplicar uma página de relatório
-        href: power-bi-report-copy-paste-page.md
       - name: Exportar um relatório do serviço para o Power BI Desktop (Pré-visualização)
         href: service-export-to-pbix.md
       - name: Filtrar um relatório usando parâmetros no URL
         href: service-url-filters.md
       - name: Melhores práticas para criar relatórios rápidos e fiáveis
         href: power-bi-reports-performance.md
-      - name: Interagir com mapas ArcGIS
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: Ask questions of your data (Fazer perguntas sobre os seus dados)
       items:
       - name: Utilizar as Perguntas e Respostas para criar visualizações e relatórios
@@ -792,6 +784,30 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Ligar a fluxos de dados no Power BI Desktop
         href: desktop-connect-dataflows.md
+    - name: Relatórios paginados no Power BI
+      items:
+      - name: O que são relatórios paginados? (Pré-visualização)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: FAQ sobre relatórios paginados
+        href: paginated-reports-faq.md
+      - name: Criar um relatório paginado e carregá-lo
+        href: paginated-reports-quickstart-aw.md
+      - name: Navegar na Vista de Estrutura do Relatório
+        href: paginated-reports-report-design-view.md
+      - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
+        href: paginated-reports-enter-data.md
+      - name: Criar uma origem de dados incorporada
+        href: paginated-reports-embedded-data-source.md
+      - name: Criar um conjunto de dados incorporado
+        href: paginated-reports-create-embedded-dataset.md
+      - name: Criar parâmetros
+        href: paginated-reports-parameters.md
+      - name: Publicar um relatório paginado
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: Ver um relatório paginado
+        href: paginated-reports-view-power-bi-service.md
+      - name: Interagir com parâmetros
+        href: paginated-reports-view-parameters.md
   - name: Recursos
     items:
     - name: Vídeos
@@ -802,45 +818,13 @@ items:
       href: supported-languages-countries-regions.md
     - name: Whitepapers (Documentos técnicos)
       href: whitepapers.md
-- name: Relatórios paginados no Power BI
-  items:
-  - name: Overview
-    items:
-    - name: O que são relatórios paginados? (Pré-visualização)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: Tutoriais
-    items:
-    - name: Criar um relatório paginado e carregá-lo
-      href: paginated-reports-quickstart-aw.md
-  - name: Conceitos
-    items:
-    - name: Navegar na Vista de Estrutura do Relatório
-      href: paginated-reports-report-design-view.md
-    - name: FAQ sobre relatórios paginados
-      href: paginated-reports-faq.md
-  - name: Procedimentos
-    items:
-    - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
-      href: paginated-reports-enter-data.md
-    - name: Criar uma origem de dados incorporada
-      href: paginated-reports-embedded-data-source.md
-    - name: Criar um conjunto de dados incorporado
-      href: paginated-reports-create-embedded-dataset.md
-    - name: Criar parâmetros
-      href: paginated-reports-parameters.md
-    - name: Publicar um relatório paginado
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: Ver um relatório paginado
-      href: paginated-reports-view-power-bi-service.md
-    - name: Interagir com parâmetros
-      href: paginated-reports-view-parameters.md
 - name: Power BI para programadores
   items:
   - name: O que podem os programadores fazer com o Power BI
     href: developer/what-can-you-do.md
   - name: Análise Incorporada
     items:
-    - name: Overview
+    - name: Descrição geral
       items:
       - name: O que é a incorporação com o Power BI?
         href: developer/embedding.md
@@ -932,7 +916,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848281
   - name: Desenvolver Elementos Visuais Personalizados
     items:
-    - name: Overview
+    - name: Descrição geral
       items:
       - name: Adding Custom visuals into Power BI (Adicionar Elementos Visuais Personalizados no Power BI)
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
@@ -976,7 +960,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848277
   - name: Automatização
     items:
-    - name: Overview
+    - name: Descrição geral
       items:
       - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
         href: developer/overview-of-power-bi-rest-api.md
@@ -1026,7 +1010,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848274
 - name: Power BI Report Server
   items:
-  - name: Overview
+  - name: Descrição geral
     items:
     - name: O que é o Power BI Report Server?
       href: report-server/get-started.md
@@ -1130,7 +1114,7 @@ items:
       href: report-server/capacity-planning.md
 - name: Gateways
   items:
-  - name: Overview
+  - name: Descrição geral
     items:
     - name: O que são os gateways do Power BI?
       href: service-gateway-getting-started.md
@@ -1184,9 +1168,9 @@ items:
       href: service-gateway-custom-connectors.md
     - name: Resolução de problemas do gateway de dados no local
       href: service-gateway-onprem-tshoot.md
-- name: Administration
+- name: Administração
   items:
-  - name: Overview
+  - name: Descrição geral
     items:
     - name: O que é a administração do Power BI?
       href: service-admin-administering-power-bi-in-your-organization.md
@@ -1265,9 +1249,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331856"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830407"
