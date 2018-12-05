@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331994"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900480"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licenciamento do Power BI na sua organização
 
-No serviço Power BI, os utilizadores têm capacidades com base em dois tipos de licenças:
-
-* **Por utilizador** - *Licenciamento gratuito e licenciamento do Power BI Pro*. Uma licença Power BI Pro permite o acesso a todos os conteúdos e funcionalidades no serviço Power BI, incluindo a capacidade de partilhar conteúdos e colaborar com outros utilizadores Pro. Apenas os utilizadores Pro podem publicar e consumir conteúdo a partir de áreas de trabalho de aplicações, partilhar dashboards e subscrever dashboards e relatórios. Uma licença gratuita permite o acesso a algumas das funcionalidades do serviço Power BI. Para obter mais informações, veja [Funcionalidades do serviço Power BI por tipo de licença](service-features-license-type.md).
-
-* ***Licenciamento do Power BI Premium* baseado em capacidades** - . O Power BI Premium oferece uma capacidade dedicada para um desempenho mais consistente e suporte de maiores volumes de dados no Power BI. Para utilizadores individuais, o Power BI Premium também permite uma distribuição alargada de conteúdos por utilizadores do Power BI Pro e os destinatários que vêm os conteúdos sem necessitarem de licenças Pro. Para obter mais informações, consulte [O que é o Power BI Premium?](service-premium.md).
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 Este artigo concentra-se no licenciamento por utilizador numa perspetiva de administrador.
 

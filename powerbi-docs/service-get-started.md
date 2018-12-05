@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908759"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900557"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
@@ -158,5 +158,5 @@ Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e
 Pronto para experimentar mais?  Veja a seguir algumas formas interessantes de explorar o Power BI.
 
 > [!div class="nextstepaction"]
-> [Ligar aos serviços online que utiliza](consumer/end-user-connect-to-services.md)
+> [Ligar aos serviços online que utiliza](service-connect-to-services.md)
 

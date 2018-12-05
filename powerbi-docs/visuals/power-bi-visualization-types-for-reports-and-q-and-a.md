@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448943"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900541"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -129,7 +129,7 @@ Para obter mais informações, veja [Mapas de Forma no Power BI](desktop-shape-m
 ### <a name="matrix"></a>Matriz
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
-Para obter mais informações, veja [Matrix visuals in Power BI](desktop-shape-map.md) (Elementos visuais Matriz no Power BI).
+Para obter mais informações, veja [Matrix visuals in Power BI](desktop-matrix-visual.md) (Elementos visuais Matriz no Power BI).
 
 ### <a name="pie-charts"></a>Gráficos circulares
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
