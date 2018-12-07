@@ -26,7 +26,7 @@ items:
       href: desktop-tutorial-facebook-analytics.md
     - name: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
       href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-  - name: Amostras
+  - name: Exemplos
     items:
     - name: Samples for Power BI (Exemplos para o Power BI)
       href: sample-datasets.md
@@ -68,11 +68,11 @@ items:
       href: desktop-bidirectional-filtering.md
     - name: Power BI and DirectQuery (Power BI e DirectQuery)
       href: desktop-directquery-about.md
-    - name: Data sources supported by DirectQuery (Origens de dados suportadas pelo DirectQuery)
+    - name: Origens de dados suportadas pelo DirectQuery
       href: desktop-directquery-data-sources.md
     - name: Pré-requisitos de origem de dados do Power BI
       href: desktop-data-source-prerequisites.md
-    - name: Custom visuals FAQ (FAQ sobre elementos visuais personalizados)
+    - name: FAQ sobre elementos visuais personalizados
       href: power-bi-custom-visuals-faq.md
   - name: Procedimentos
     items:
@@ -100,7 +100,7 @@ items:
       href: desktop-upload-desktop-files.md
     - name: Visualizações personalizadas no Power BI
       href: power-bi-custom-visuals.md
-    - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
+    - name: Elementos visuais personalizados para organizações no Power BI
       href: power-bi-custom-visuals-organization.md
     - name: Parte I, Adicionar visualizações a um relatório do Power BI
       href: visuals/power-bi-report-add-visualizations-i.md
@@ -108,7 +108,7 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Personalizar o título, fundo e legenda da visualização
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Custom visuals troubleshoot (Resolução de problemas com elementos visuais personalizados)
+    - name: Resolver problemas com elementos visuais personalizados
       href: power-bi-custom-visuals-troubleshoot.md
     - name: Ligar-se a dados
       items:
@@ -116,11 +116,11 @@ items:
         href: desktop-data-sources.md
       - name: Ligar a uma página Web por exemplo (pré-visualização)
         href: desktop-connect-to-web-by-example.md
-      - name: Connect to datasets in the Power BI service (Ligar a conjuntos de dados no serviço Power BI)
+      - name: Ligar a conjuntos de dados no serviço Power BI
         href: desktop-report-lifecycle-datasets.md
-      - name: Import Excel workbooks into Power BI Desktop (Importar livros do Excel para o Power BI Desktop)
+      - name: Importar livros do Excel para o Power BI Desktop
         href: desktop-import-excel-workbooks.md
-      - name: Connect to data using generic interfaces (Ligar a interfaces genéricas que utilizam dados)
+      - name: Ligar-se a dados através de interfaces genéricas
         href: desktop-connect-using-generic-interfaces.md
       - name: Ligar a um ficheiro PDF
         href: desktop-connect-pdf.md
@@ -140,9 +140,9 @@ items:
         href: desktop-r-scripts.md
       - name: Utilizar o R no Editor de Consultas
         href: desktop-r-in-query-editor.md
-      - name: Use an external R IDE with Power BI (Utilizar um IDE R externo com o Power BI)
+      - name: Utilizar um IDE R externo com o Power BI
         href: desktop-r-ide.md
-      - name: Supported R packages (Pacotes R suportados)
+      - name: Pacotes R suportados
         href: service-r-packages-support.md
       - name: Introduzir dados diretamente no Power BI Desktop
         href: desktop-enter-data-directly-into-desktop.md
@@ -162,9 +162,9 @@ items:
         href: desktop-connect-redshift.md
       - name: Ligar à página da Web do Power BI Desktop
         href: desktop-connect-to-web.md
-      - name: Connect to a Snowflake computing warehouse in Power BI Desktop (Ligar a um armazém de informática de Snowflake no Power BI Desktop)
+      - name: Ligar a um armazém de informática do Snowflake no Power BI Desktop
         href: desktop-connect-snowflake.md
-      - name: Connect to Azure Consumption Insights data (Ligar a dados de Informações sobre Consumo do Azure)
+      - name: Ligar a Informações sobre Consumo do Azure
         href: desktop-connect-azure-consumption-insights.md
       - name: Utilizar o SAP HANA no Power BI Desktop
         href: desktop-sap-hana.md
@@ -174,9 +174,9 @@ items:
         href: desktop-use-directquery.md
       - name: DirectQuery para bases de dados Oracle e Teradata
         href: desktop-directquery-for-oracle-teradata.md
-      - name: DirectQuery and SAP Business Warehouse (BW) (DirectQuery e SAP Business Warehouse [BW])
+      - name: DirectQuery e SAP Business Warehouse (BW)
         href: desktop-directquery-sap-bw.md
-      - name: DirectQuery and SAP HANA (DirectQuery e SAP HANA)
+      - name: DirectQuery e SAP HANA
         href: desktop-directquery-sap-hana.md
       - name: Definição Assumir integridade referencial no Power BI Desktop
         href: desktop-assume-referential-integrity.md
@@ -186,17 +186,17 @@ items:
         href: desktop-use-onedrive-business-links.md
       - name: 'Serviço de terceiros: conector do Facebook para o Power BI Desktop'
         href: service-facebook-connector.md
-      - name: 'Third-party service: Google Analytics connector for Power BI Desktop (Serviço de terceiros: conector do Google Analytics para o Power BI Desktop)'
+      - name: 'Serviço de terceiros: conector do Google Analytics para o Power BI Desktop'
         href: service-google-analytics-connector.md
-      - name: 'Project Online: connect to data through Power BI Desktop (Project Online: ligar aos dados a partir do Power BI Desktop)'
+      - name: 'Project Online: ligar aos dados a partir do Power BI Desktop'
         href: desktop-project-online-connect-to-data.md
-    - name: Transform and shape data (Transformar e formatar dados)
+    - name: Transformar e formatar dados
       items:
       - name: Utilizar os Mapas de Forma no Power BI Desktop (Pré-visualização)
         href: visuals/desktop-shape-map.md
-      - name: Combine binaries (Combinar binários)
+      - name: Combinar binários
         href: desktop-combine-binaries.md
-    - name: Model your data (Modelar os seus dados)
+    - name: Modelar os seus dados
       items:
       - name: Categorização de dados no Power BI Desktop
         href: desktop-data-categorization.md
@@ -206,29 +206,29 @@ items:
         href: desktop-mobile-geofiltering.md
       - name: Colunas calculadas no Power BI Desktop
         href: desktop-calculated-columns.md
-      - name: Calculated tables in Power BI Desktop (Tabelas calculadas no Power BI Desktop)
+      - name: Tabelas calculadas no Power BI Desktop
         href: desktop-calculated-tables.md
       - name: Medidas no Power BI Desktop
         href: desktop-measures.md
       - name: Editar o esquema linguístico de Perguntas e Respostas
         href: power-bi-q-and-a-linguistic-schema.md
-      - name: Import and display KPIs (Preview) (Importar e apresentar os KPIs [Pré-visualização])
+      - name: Importar e apresentar os KPIs (Pré-visualização)
         href: desktop-import-and-display-kpis.md
-    - name: Create reports (Criar relatórios)
+    - name: Criar relatórios
       items:
-      - name: Visual elements for reports (Elementos visuais para relatórios)
+      - name: Elementos visuais para relatórios
         href: desktop-visual-elements-for-reports.md
       - name: Criar descrições com base em páginas de relatórios
         href: desktop-tooltips.md
-      - name: Export to PDF and print reports (Exportar para PDF e imprimir relatórios)
+      - name: Exportar para PDF e imprimir relatórios
         href: desktop-export-to-pdf.md
-      - name: Q&A in Power BI Desktop (Perguntas e Respostas no Power BI Desktop)
+      - name: Perguntas e Respostas no Power BI Desktop
         href: desktop-qna-in-reports.md
-      - name: Analytics pane in Power BI Desktop (Painel Análise no Power BI Desktop)
+      - name: Painel Análise no Power BI Desktop
         href: desktop-analytics-pane.md
-      - name: Using insights to explain increases and decreases (Utilizar as informações para explicar subidas e descidas)
+      - name: Utilizar as informações para explicar subidas e descidas
         href: desktop-insights.md
-      - name: Using insights to find where distribution is different in charts (Utilizar as informações para localizar onde a distribuição é diferente nos gráficos)
+      - name: Utilizar as informações para localizar onde a distribuição é diferente nos gráficos
         href: desktop-insights-find-where-different.md
       - name: Marcadores no Power BI
         href: desktop-bookmarks.md
@@ -238,45 +238,45 @@ items:
         href: power-bi-report-filter-preview.md
       - name: Utilizar Medidas Rápidas
         href: desktop-quick-measures.md
-      - name: Using What if parameters (Utilizar parâmetros "E se")
+      - name: Utilizar parâmetros "E se"
         href: desktop-what-if.md
       - name: Utilizar a pormenorização
         href: desktop-drillthrough.md
       - name: Utilizar uma segmentação e filtro de data relativa
         href: visuals/desktop-slicer-filter-date-range.md
-      - name: Use grouping and binning (Utilizar agrupamento e discretização)
+      - name: Utilizar agrupamento e discretização
         href: desktop-grouping-and-binning.md
-      - name: Ribbon charts (Gráficos de friso)
+      - name: Gráficos de friso
         href: visuals/desktop-ribbon-charts.md
       - name: Utilizar o novo visual de matriz
         href: visuals/desktop-matrix-visual.md
       - name: Criar elementos visuais do Power BI com o R
         href: desktop-r-visuals.md
-      - name: Use R-powered custom visuals (Utilizar elementos visuais personalizados baseados em R)
+      - name: Utilizar elementos visuais personalizados baseados em R
         href: desktop-r-powered-custom-visuals.md
       - name: Utilizar linhas de grelha e ajustar à grelha
         href: desktop-gridlines-snap-to-grid.md
       - name: Adicionar uma coluna de um exemplo
         href: desktop-add-column-from-example.md
-      - name: Add a custom column (Adicionar uma coluna personalizada)
+      - name: Adicionar uma coluna personalizada
         href: desktop-add-custom-column.md
-      - name: Create responsive visuals in Power BI (Criar elementos visuais reativos no Power BI)
+      - name: Criar elementos visuais reativos no Power BI
         href: visuals/desktop-create-responsive-visuals.md
       - name: Utilizar etiquetas de hierarquia inline no Power BI Desktop (Pré-visualização)
         href: desktop-inline-hierarchy-labels.md
-      - name: Use the numeric range slicer (Utilizar a segmentação de dados do intervalo numérico)
+      - name: Utilizar a segmentação de dados do intervalo numérico
         href: desktop-slicer-numeric-range.md
       - name: Crie uma segmentação de dados responsiva que pode redimensionar
         href: power-bi-slicer-filter-responsive.md
-      - name: Create custom Power BI answer cards for Cortana (Criar cartões de resposta personalizados do Power BI para a Cortana)
+      - name: Criar cartões de resposta personalizados do Power BI para a Cortana
         href: service-cortana-answer-cards.md
-      - name: Row-level security (Segurança ao nível da linha)
+      - name: Segurança ao nível da linha
         href: desktop-rls.md
-      - name: Customizing tooltips in Power BI Desktop (Personalizar descrições no Power BI Desktop)
+      - name: Personalizar descrições no Power BI Desktop
         href: desktop-custom-tooltips.md
-      - name: Conditional table formatting in Power BI Desktop (Formatação de tabela condicional no Power BI Desktop)
+      - name: Formatação de tabela condicional no Power BI Desktop
         href: desktop-conditional-table-formatting.md
-      - name: Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
+      - name: Ordenar por coluna no Power BI Desktop
         href: desktop-sort-by-column.md
       - name: Criar relatórios otimizados para as aplicações de telemóvel do Power BI
         href: desktop-create-phone-report.md
@@ -378,7 +378,7 @@ items:
       href: desktop-accessibility.md
     - name: Gerir o formulário de início de sessão do Power BI Desktop
       href: desktop-admin-sign-in-form.md
-- name: Serviço Power BI
+- name: serviço Power BI
   items:
   - name: Descrição geral
     items:
@@ -436,7 +436,7 @@ items:
         href: power-bi-report-display-settings.md
       - name: Introduction to Cortana for Power BI (Introdução à Cortana para o Power BI)
         href: service-cortana-intro.md
-    - name: Outras
+    - name: Outro
       items:
       - name: Microsoft Flow e Power BI
         href: service-flow-integration.md
@@ -444,22 +444,10 @@ items:
         href: service-power-bi-get-started-third-party-apps.md
   - name: Procedimentos
     items:
-    - name: Common tasks (Tarefas comuns)
-      items:
-      - name: Mudar o nome do conteúdo no Power BI
-        href: service-rename.md
-      - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
-        href: service-insights.md
-      - name: Enroll your US Government organization (Inscrever a sua organização de Administração Pública dos EUA)
-        href: service-govus-signup.md
-      - name: Alertas de dados no serviço Power BI
-        href: service-set-data-alerts.md
-      - name: Introdução às Perguntas e Respostas no Power BI
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Eliminar praticamente qualquer coisa no Power BI
-        href: service-delete.md
     - name: Connect to services (Ligar aos serviços)
       items:
+      - name: Connect to services (Ligar aos serviços)
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -574,7 +562,7 @@ items:
         href: service-parameters.md
       - name: Obter dados de ficheiros de valores separados por vírgulas (.csv)
         href: service-comma-separated-value-files.md
-      - name: Real-time streaming in Power BI (Preview) (Transmissão em fluxo em tempo real no Power BI [Pré-visualização])
+      - name: Transmissão em fluxo em tempo real no Power BI
         href: service-real-time-streaming.md
       - name: Publicar no Power BI a partir do Excel 2016
         href: service-publish-from-excel.md
@@ -626,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: Afixar uma página de relatório inteira a um dashboard
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: Alertas de dados no serviço Power BI
+        href: service-set-data-alerts.md
       - name: Usage metrics for dashboards (Métrica de utilização para dashboards)
         href: service-usage-metrics.md
       - name: Adicionar uma imagem, caixa de texto, vídeo ou código a um dashboard
@@ -634,8 +624,6 @@ items:
         href: service-dashboard-edit-tile.md
       - name: Sugestões para criar um dashboard excelente
         href: service-dashboards-design-tips.md
-      - name: Otimizar os seus dados para as Informações Rápidas
-        href: service-insights-optimize.md
       - name: Criar uma visualização de telefone de um dashboard
         href: service-create-dashboard-mobile-phone-view.md
       - name: Create a QR code for a tile (Criar um código QR para um mosaico)
@@ -648,7 +636,7 @@ items:
         href: service-dashboard-themes.md
     - name: Relatórios
       items:
-      - name: Criar um novo relatório a partir de um conjunto de dados
+      - name: Criar um relatório a partir de um conjunto de dados
         href: service-report-create-new.md
       - name: Adicionar um filtro a um relatório
         href: power-bi-report-add-filter.md
@@ -664,7 +652,7 @@ items:
         href: service-usage-metrics.md
       - name: Criar um código QR para um relatório
         href: service-create-qr-code-for-report.md
-      - name: Exportar um relatório do serviço para o Power BI Desktop (Pré-visualização)
+      - name: Exportar um relatório para o Power BI Desktop (Pré-visualização)
         href: service-export-to-pbix.md
       - name: Filtrar um relatório usando parâmetros no URL
         href: service-url-filters.md
@@ -672,18 +660,24 @@ items:
         href: power-bi-reports-performance.md
     - name: Ask questions of your data (Fazer perguntas sobre os seus dados)
       items:
+      - name: Introdução às Perguntas e Respostas no Power BI
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: Utilizar as Perguntas e Respostas para criar visualizações e relatórios
         href: power-bi-tutorial-q-and-a.md
       - name: Como fazer com que os seus dados funcionem bem com as Perguntas e Respostas
         href: service-prepare-data-for-q-and-a.md
-      - name: Enable Cortana for Power BI (Ativar a Cortana para o Power BI)
-        href: service-cortana-enable.md
       - name: Criar perguntas em destaque para as Perguntas e Respostas
         href: service-q-and-a-create-featured-questions.md
-      - name: Tipos de visualização no Power BI
+      - name: Tipos de visualização nas Perguntas e Respostas
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Use Q&A with live connections (Utilizar as Perguntas e Respostas com ligações em direto)
         href: service-q-and-a-direct-query.md
+      - name: Enable Cortana for Power BI (Ativar a Cortana para o Power BI)
+        href: service-cortana-enable.md
+      - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
+        href: service-insights.md
+      - name: Otimizar os seus dados para as Informações Rápidas
+        href: service-insights-optimize.md
     - name: Partilhar o seu trabalho
       items:
       - name: How should I collaborate and share? (Como devo colaborar e partilhar?)
@@ -710,28 +704,6 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: Partilhar um dashboard que liga a um livro do Excel no OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: Pacotes de Conteúdos
-      items:
-      - name: Gerir, atualizar e excluir pacotes de conteúdos organizacional
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: 'Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso'
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: 'Organizational content packs: Introduction (Pacotes de conteúdos organizacionais: introdução)'
-        href: service-organizational-content-pack-introduction.md
-      - name: Criar e publicar um pacote de conteúdos organizacionais
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: Remove your connection to an organizational content pack (Remover a sua ligação a um pacote de conteúdos organizacionais)
-        href: service-organizational-content-pack-disconnect.md
-      - name: Certificação
-        items:
-        - name: Programa de Certificação do Pacote de Conteúdos
-          href: service-content-pack-overview.md
-        - name: Criação do Pacote de Conteúdos de Modelo
-          href: template-content-pack-authoring.md
-        - name: Teste do Pacote de Conteúdos de Modelo
-          href: template-content-pack-testing.md
-        - name: Experiências do Pacote de Conteúdos de Modelo
-          href: template-content-pack-experience.md
     - name: Publicar
       items:
       - name: Power BI Publisher para Excel
@@ -788,26 +760,56 @@ items:
       items:
       - name: O que são relatórios paginados? (Pré-visualização)
         href: paginated-reports-report-builder-power-bi.md
-      - name: FAQ sobre relatórios paginados
+      - name: FAQ sobre relatórios paginados (Pré-visualização)
         href: paginated-reports-faq.md
-      - name: Criar um relatório paginado e carregá-lo
+      - name: Criar um relatório paginado e carregá-lo (Pré-visualização)
         href: paginated-reports-quickstart-aw.md
-      - name: Navegar na Vista de Estrutura do Relatório
+      - name: Navegar na Vista de Estrutura do Relatório (Pré-visualização)
         href: paginated-reports-report-design-view.md
-      - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
+      - name: Introduzir dados diretamente num relatório paginado (Pré-visualização)
         href: paginated-reports-enter-data.md
-      - name: Criar uma origem de dados incorporada
+      - name: Criar uma origem de dados incorporada (Pré-visualização)
         href: paginated-reports-embedded-data-source.md
-      - name: Criar um conjunto de dados incorporado
+      - name: Criar um conjunto de dados incorporado (Pré-visualização)
         href: paginated-reports-create-embedded-dataset.md
-      - name: Criar parâmetros
+      - name: Criar parâmetros (Pré-visualização)
         href: paginated-reports-parameters.md
-      - name: Publicar um relatório paginado
+      - name: Publicar um relatório paginado (Pré-visualização)
         href: paginated-reports-save-to-power-bi-service.md
-      - name: Ver um relatório paginado
+      - name: Ver um relatório paginado (Pré-visualização)
         href: paginated-reports-view-power-bi-service.md
-      - name: Interagir com parâmetros
+      - name: Interagir com parâmetros (Pré-visualização)
         href: paginated-reports-view-parameters.md
+    - name: Outras tarefas
+      items:
+      - name: Mudar o nome do conteúdo no Power BI
+        href: service-rename.md
+      - name: Enroll your US Government organization (Inscrever a sua organização de Administração Pública dos EUA)
+        href: service-govus-signup.md
+      - name: Eliminar praticamente qualquer coisa no Power BI
+        href: service-delete.md
+      - name: Pacotes de Conteúdos
+        items:
+        - name: Gerir, atualizar e excluir pacotes de conteúdos organizacional
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: 'Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso'
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: 'Organizational content packs: Introduction (Pacotes de conteúdos organizacionais: introdução)'
+          href: service-organizational-content-pack-introduction.md
+        - name: Criar e publicar um pacote de conteúdos organizacionais
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: Remove your connection to an organizational content pack (Remover a sua ligação a um pacote de conteúdos organizacionais)
+          href: service-organizational-content-pack-disconnect.md
+        - name: Certificação
+          items:
+          - name: Programa de Certificação do Pacote de Conteúdos
+            href: service-content-pack-overview.md
+          - name: Criação do Pacote de Conteúdos de Modelo
+            href: template-content-pack-authoring.md
+          - name: Teste do Pacote de Conteúdos de Modelo
+            href: template-content-pack-testing.md
+          - name: Experiências do Pacote de Conteúdos de Modelo
+            href: template-content-pack-experience.md
   - name: Recursos
     items:
     - name: Vídeos
@@ -908,7 +910,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848276
       - name: Power BI C# Git Repo (Repositório Git C# do Power BI)
         href: https://go.microsoft.com/fwlink/?linkid=848273
-      - name: Amostras
+      - name: Exemplos
         href: https://go.microsoft.com/fwlink/?linkid=851293
       - name: Power BI community (Comunidade do Power BI)
         href: https://go.microsoft.com/fwlink/?linkid=848280
@@ -954,7 +956,7 @@ items:
       items:
       - name: Dev Center
         href: https://powerbi.microsoft.com/developers/
-      - name: Amostras
+      - name: Exemplos
         href: https://microsoft.github.io/PowerBI-visuals/samples/
       - name: Custom Visuals Git Repo (Repositório Git de Elementos Visuais Personalizados)
         href: https://go.microsoft.com/fwlink/?linkid=848277
@@ -1249,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a9156a07a1677c5cac424eef7349949bd47e79e0
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830407"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900388"
