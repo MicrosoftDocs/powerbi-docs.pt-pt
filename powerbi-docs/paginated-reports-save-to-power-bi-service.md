@@ -1,5 +1,5 @@
 ---
-title: Publicar um relatório paginado no serviço Power BI | Microsoft Docs
+title: Publicar um relatório paginado no serviço Power BI (Pré-visualização)
 description: Neste tutorial, vai aprender a publicar um relatório paginado no serviço Power BI ao carregá-lo do computador local.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267977"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900273"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço Power BI
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Publicar um relatório paginado no serviço Power BI (Pré-visualização)
 
 Neste artigo, vai aprender a publicar um relatório paginado no serviço Power BI ao carregá-lo do computador local. Pode carregar os relatórios paginados em A Minha Área de Trabalho ou em qualquer outra área de trabalho, desde que a área de trabalho esteja numa capacidade Premium. Procure o ícone de losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto ao nome da área de trabalho. 
 
@@ -47,7 +47,7 @@ Se a área de trabalho não tiver o ícone de losango ![Ícone de losango da cap
 
     ![Obter Dados no Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
-1. Na caixa **Ficheiros**, selecione **Obter**.
+1. Na caixa **Ficheiros** , selecione **Obter**.
 
     ![Obter Ficheiros no Power BI](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 

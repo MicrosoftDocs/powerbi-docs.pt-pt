@@ -1,5 +1,5 @@
 ---
-title: Criar um conjunto de dados para um relatório paginado do Power BI| Microsoft Docs
+title: Criar um conjunto de dados incorporado para um relatório paginado do Power BI (Pré-visualização)
 description: Neste artigo, vai aprender a criar um conjunto de dados incorporado, com base numa origem de dados incorporada, para um relatório paginado no serviço Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 4362633f705d412749e1146417a48cd61d47743c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267962"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900434"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Criar um conjunto de dados incorporado para um relatório paginado no serviço Power BI
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Criar um conjunto de dados incorporado para um relatório paginado no serviço Power BI (Pré-visualização)
 Neste artigo, vai aprender a criar um conjunto de dados incorporado, com base numa origem de dados incorporada, para um relatório paginado no serviço Power BI. Os conjuntos de dados incorporados estão contidos num único relatório paginado, para utilização nesse relatório. Atualmente, os relatórios paginados publicados no serviço Power BI precisam de conjuntos de dados incorporados e origens de dados incorporadas. Vai criar a origem de dados incorporada e o conjunto de dados incorporados no Report Builder, enquanto está a criar o relatório. 
 
 Para poder criar o conjunto de dados, terá de criar uma origem de dados. Veja [Origens de dados incorporadas para relatórios paginados](paginated-reports-embedded-data-source.md) no serviço Power BI para aprender como fazê-lo.

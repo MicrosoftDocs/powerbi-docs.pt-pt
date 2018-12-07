@@ -1,5 +1,5 @@
 ---
-title: Introduzir dados diretamente num relatório paginado no Report Builder
+title: Introduzir dados diretamente num relatório paginado no Report Builder (Pré-visualização)
 description: Neste artigo, irá aprender a introduzir dados diretamente num relatório paginado no Report Builder.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290074"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900411"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Introduzir dados diretamente num relatório paginado no Report Builder – Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Introduzir dados diretamente num relatório paginado no Report Builder (Pré-visualização) – Power BI
 
 Neste artigo, irá conhecer uma funcionalidade da nova versão do SQL Server 2016 Report Builder que lhe permite introduzir dados diretamente num relatório de RDL, como um conjunto de dados incorporado.  Esta funcionalidade é semelhante ao Power BI Desktop. Pode introduzir diretamente os dados num conjunto de dados do seu relatório ou colá-los a partir de outro programa, como o Microsoft Excel. Após introduzir os dados e criar um conjunto de dados, poderá utilizá-lo tal como utilizaria qualquer outro conjunto incorporado que tivesse criado. Além disto, pode adicionar mais de uma tabela e utilizar uma como um filtro para outra. Esta funcionalidade é particularmente útil para conjuntos de dados estáticos e pequenos que poderá ter de utilizar no seu relatório, como parâmetros de relatórios.
  
@@ -26,7 +26,7 @@ Neste artigo, irá conhecer uma funcionalidade da nova versão do SQL Server 201
 - Para guardar o seu relatório paginado no serviço Power BI, precisa de uma [conta do Power BI Pro](service-self-service-signup-for-power-bi.md) e de acesso de escrita a uma área de trabalho numa [capacidade do Power BI Premium](service-premium.md).
 - Para guardar o seu relatório paginado num servidor de relatórios, precisa de permissões para [editar o ficheiro RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
-## <a name="get-started"></a>Começar agora
+## <a name="get-started"></a>Introdução
 
 Após a transferência e instalação do Report Builder, deverá seguir o mesmo fluxo de trabalho utilizado para adicionar um conjunto de dados e uma origem de dados incorporados ao seu relatório. No procedimento seguinte, em **Origens de Dados**, é apresentada uma nova opção: **Introduzir Dados**.  Só tem de configurar esta origem de dados uma vez por relatório. Após a configuração, pode criar múltiplas tabelas a partir dos dados introduzidos como conjuntos de dados separados que utilizam a mesma origem de dados.
 
@@ -99,4 +99,4 @@ Agora está tudo pronto e já pode publicar relatórios que utilizem esta nova f
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium? (Pré-visualização)](paginated-reports-report-builder-power-bi.md)
-- [O que é o Power BI Report Server?](report-server/get-started.md)
+- [O que é o Power BI Report Server?](report-server/get-started.md)

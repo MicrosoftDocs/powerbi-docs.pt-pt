@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Criar um relatório paginado e carregá-lo para o serviço Power BI | Microsoft Docs'
+title: 'Tutorial: Criar um relatório paginado e carregá-lo no serviço Power BI (Pré-visualização)'
 description: Neste tutorial, vai ligar-se a uma base de dados SQL do Azure de exemplo. Em seguida, vai utilizar um assistente no Report Builder para criar um relatório paginado. Em seguida, vai carregar o relatório paginado para uma área de trabalho numa capacidade Premium do serviço Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452830"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900618"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Criar um relatório paginado e carregá-lo para o serviço Power BI
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Criar um relatório paginado e carregá-lo no serviço Power BI (Pré-visualização)
 
 Neste tutorial, vai ligar-se a uma base de dados SQL do Azure de exemplo. Em seguida, vai utilizar um assistente no Report Builder para criar um relatório paginado com uma tabela que ocupa várias páginas. Em seguida, vai carregar o relatório paginado para uma área de trabalho numa capacidade Premium do serviço Power BI. Os relatórios paginados no serviço Power BI estão atualmente em pré-visualização.
 

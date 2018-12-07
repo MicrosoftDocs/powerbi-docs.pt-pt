@@ -1,5 +1,5 @@
 ---
-title: Origens de dados incorporadas para relatórios paginados no serviço Power BI | Microsoft Docs
+title: Origens de dados incorporadas para relatórios paginados no serviço Power BI (Pré-visualização)
 description: Neste artigo, vai aprender a criar e a modificar uma origem de dados incorporada num relatório paginado no serviço Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: f3e305f70bb21011bbb395d453721ef65011844c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3c1340d9cae7e7002e8bbbdc3d6888e19b1ce7ff
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268319"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900204"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI (Pré-visualização)
 Neste artigo, vai aprender a criar e a modificar uma origem de dados incorporada para um relatório paginado no serviço Power BI. Vai definir uma origem de dados incorporada num único relatório e utilizá-la apenas nesse relatório. Atualmente, os relatórios paginados publicados no serviço Power BI precisam de conjuntos de dados incorporados e origens de dados incorporadas e podem ligar-se a estas origens de dados:
 
 - Base de Dados SQL do Azure e Azure SQL Data Warehouse
