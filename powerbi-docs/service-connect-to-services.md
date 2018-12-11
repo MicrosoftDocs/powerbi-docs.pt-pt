@@ -10,15 +10,16 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 685a28b336e45224f924ed103a34dd19413868bf
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900803"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979289"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
-Pode ligar-se a diversos serviços que utiliza para gerir o seu negócio, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço e, em seguida, cria uma aplicação do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa. 
+Pode ligar-se a diversos serviços que utiliza para gerir o seu negócio, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço e, em seguida, cria uma aplicação do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa.
+
 
 Inicie sessão no Power BI para ver todos os [serviços aos quais se pode ligar](https://app.powerbi.com/getdata/services). A equipa do Power BI adiciona novos serviços com regularidade.
 

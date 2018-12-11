@@ -4,25 +4,26 @@ description: Saiba como agrupar e discretizar elementos no Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6363cbe3afdce351acc728fe29af8662702b8254
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 64ec167a295255a6813244ef6cb222b4eccb50f3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670699"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025248"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Utilizar agrupamento e discretização no Power BI Desktop
 Quando o **Power BI Desktop** cria elementos visuais, agrega os dados em segmentos (ou grupos) com base nos valores encontrados nos dados subjacentes. Muitas vezes não há problema, mas poderá haver alturas em que queira refinar a forma como os segmentos são apresentados. Por exemplo, pode querer colocar três categorias de produtos numa categoria maior (um *grupo*). Em alternativa, poderá querer ver os valores das vendas inseridos em tamanhos de discretização de 1 000 000 dólares, em vez de divididos uniformemente, 923 983 dólares.
 
 No Power BI Desktop, pode **Agrupar** pontos de dados para ajudar a ver, analisar e explorar dados e tendências nos elementos visuais de forma mais clara. Também pode definir o **Tamanho de discretização**, frequentemente denominado *discretização*, para colocar os valores em grupos de tamanho igual que permitem ver melhor os dados de formas significativas.
 
-### <a name="using-grouping"></a>Utilizar o agrupamento
+## <a name="using-grouping"></a>Utilizar o agrupamento
 Para utilizar o agrupamento, selecione dois ou mais elementos num elemento visual através de Ctrl+Clique para selecionar vários elementos. Em seguida, clique com o botão direito do rato num dos vários elementos selecionados e selecione **Agrupar** no menu apresentado.
 
 ![](media/desktop-grouping-and-binning/grouping-binning_1.png)
@@ -45,10 +46,8 @@ Pode adicionar um valor sem grupo a um grupo existente: basta selecionar o valor
 
 > [!NOTE]
 > Pode criar grupos para qualquer campo no painel **Campos**, sem ter de selecionar vários a partir de um elemento visual existente. Basta clicar com o botão direito do rato e selecionar **Novo Grupo** no menu apresentado.
-> 
-> 
 
-### <a name="using-binning"></a>Utilizar a discretização
+## <a name="using-binning"></a>Utilizar a discretização
 Pode definir o tamanho de discretização dos campos numéricos e temporais no **Power BI Desktop.** Pode utilizar a discretização para dimensionar os dados apresentados pelo **Power BI Desktop**.
 
 Para aplicar um tamanho de discretização, clique com o botão direito do rato num **Campo** e selecione **Novo Grupo**.

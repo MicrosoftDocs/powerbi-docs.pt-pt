@@ -4,18 +4,19 @@ description: Ligar e utilizar facilmente dados de livro do Excel no Power BI Des
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669066"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025264"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Ligar ao Excel no Power BI Desktop
 Ligar a um livro do Excel a partir do Power BI Desktop é simples, e este artigo explica os passos.
@@ -45,7 +46,7 @@ E já está!
 
 Está pronto para utilizar os dados importados do livro do Excel no Power BI Desktop para criar elementos visuais, relatórios ou interagir com outros dados aos quais possa querer ligar e importar, como outros livros do Excel, bases de dados ou qualquer outra origem de dados.
 
-### <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Passos seguintes
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

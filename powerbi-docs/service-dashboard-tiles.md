@@ -4,18 +4,19 @@ description: Tudo sobre mosaicos de dashboard no Power BI. Inclui os mosaicos cr
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: de99c04077a58f1c0c060561674fefa9041fa144
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: db6ed98f246eebba55b87fe383ffcab95c22f6dc
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331971"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180858"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
 

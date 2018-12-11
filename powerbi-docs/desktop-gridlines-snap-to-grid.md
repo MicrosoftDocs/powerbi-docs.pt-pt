@@ -4,18 +4,19 @@ description: Utilize linhas de grelha, ajustar à grelha, ordenação z, alinham
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a798cbb5012933bb01264aa3db9fa9e06b1f334a
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 37416ab15a638ccd8c8e7b1066ffc01f1ba6c944
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669319"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025911"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop
 A tela de relatório do **Power BI Desktop** fornece linhas de grelha que lhe permitem, de forma organizada, alinhar elementos visuais numa página de relatório utilizar funcionalidades de ajuste à grelha, para que os elementos visuais no seu relatório tenham um aspeto organizado, alinhado e com espaçamentos regulares.
@@ -24,24 +25,22 @@ No **Power BI Desktop**, também pode ajustar a ordenação z (trazer para a fre
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
-### <a name="enabling-gridlines-and-snap-to-grid"></a>Ativar linhas de grelha e ajuste à grelha
+## <a name="enabling-gridlines-and-snap-to-grid"></a>Ativar linhas de grelha e ajuste à grelha
 Para ativar as linhas de grelha e o ajuste à grelha, selecione o friso **Ver** e, em seguida, ative as caixas de verificação **Mostrar linhas de grelha** e **Ajustar objetos à grelha**. Pode selecionar uma ou ambas as opções, pois têm um funcionamento independente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
 > [!NOTE]
 > Se as opções **Mostrar linhas de grelha** e **Ajustar objetos à grelha** estiverem desativadas, ligue-se a uma origem de dados para ativá-las.
-> 
-> 
 
-### <a name="using-gridlines"></a>Utilizar linhas de grelha
+## <a name="using-gridlines"></a>Utilizar linhas de grelha
 As linhas de grelha são guias visíveis que o ajudam a alinhar os elementos visuais. Quando estiver a tentar determinar se dois (ou mais) elementos visuais estão alinhados horizontal ou verticalmente, utilize as linhas de grelha para determinar se os limites estão alinhados.
 
 Utilize Ctrl+Clique para selecionar dois ou mais elementos visuais de cada vez, o que mostra todos os limites dos elementos visuais selecionados e mostra se os elementos visuais estão devidamente alinhados.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
-#### <a name="using-gridlines-inside-visuals"></a>Utilizar linhas de grelha dentro de visuais
+### <a name="using-gridlines-inside-visuals"></a>Utilizar linhas de grelha dentro de visuais
 No Power BI, também existem linhas de grelha dentro de elementos visuais que fornecem guias visíveis para comparar pontos de dados e valores. A partir da versão do **Power BI Desktop** de setembro de 2017, pode gerir as linhas de grelha em visuais utilizando o cartão do **Eixo X** ou o cartão do **Eixo Y** (conforme adequado com base no tipo de visual), que se encontra na secção **Formatar** do painel **Visualizações**. Pode gerir os seguintes elementos das linhas de grelha num visual:
 
 * Ativar ou desativar linhas de grelha
@@ -53,14 +52,14 @@ Pode ser especialmente útil modificar determinados elementos de linhas de grelh
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
-### <a name="using-snap-to-grid"></a>Utilizar ajuste à grelha
+## <a name="using-snap-to-grid"></a>Utilizar ajuste à grelha
 Quando ativar a opção **Ajustar objetos à grelha**, todos os visuais na tela do **Power BI Desktop** que mover (ou redimensionar) serão automaticamente alinhados com o eixo de grelha mais próximo, o que torna muito mais fácil garantir que dois ou mais visuais se alinham com o mesmo tamanho ou localização vertical ou horizontal.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
 E é tudo o que precisa de saber sobre a utilização de **linhas de grelha** e **ajuste à grelha** para garantir que os elementos visuais nos seus relatórios estão bem alinhados.
 
-### <a name="using-z-order-align-and-distribute"></a>Utilizar a ordenação z, alinhar e distribuir
+## <a name="using-z-order-align-and-distribute"></a>Utilizar a ordenação z, alinhar e distribuir
 Pode gerir a ordem de frente para trás dos elementos visuais num relatório, normalmente conhecida como a *ordenação z* dos elementos. Esta funcionalidade permite-lhe sobrepor elementos visuais como quiser e, em seguida, ajustar a ordenação de frente para trás de cada um. Pode definir a ordem dos seus elementos visuais através dos botões **Trazer Para a Frente** e **Enviar Para Trás** que se encontram na secção **Dispor** do friso **Formatar**. O friso **Formatar** é apresentado assim que seleciona um ou mais elementos visuais na página.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
