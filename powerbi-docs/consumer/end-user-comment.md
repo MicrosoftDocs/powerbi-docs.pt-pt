@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc4ca733d5d33fb1e52842dad7f625be6209fe18
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 96c4014dbb38b84fb7e682dafaa0fab3338d6669
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799224"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280150"
 ---
 # <a name="add-comments-to-a-visualization"></a>Adicionar comentários a uma visualização
 Adicione um comentário pessoal ou inicie uma conversação sobre uma visualização com os seus colegas. A funcionalidade de **comentário** é apenas uma das formas de como um *consumidor* pode interagir com uma visualização. 
@@ -41,6 +42,6 @@ Adicione um comentário pessoal ou inicie uma conversação sobre uma visualiza�
 
 5. Clique em **Fechar** para voltar ao dashboard ou relatório.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Voltar às [visualizações para os consumidores](end-user-visualizations.md)    
 <!--[Select a visualization to open a report](end-user-open-report.md)-->
