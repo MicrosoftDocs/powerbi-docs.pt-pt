@@ -184,9 +184,9 @@ items:
         href: desktop-sap-bw-connector.md
       - name: Utilizar ligações do OneDrive for Business no Power BI Desktop
         href: desktop-use-onedrive-business-links.md
-      - name: 'Serviço de terceiros: conector do Facebook para Power BI Desktop'
+      - name: 'Serviço de terceiros: Facebook connector for Power BI Desktop'
         href: service-facebook-connector.md
-      - name: 'Serviço de terceiros: conector do Google Analytics para Power BI Desktop'
+      - name: 'Serviço de terceiros: Conector do Google Analytics para Power BI Desktop'
         href: service-google-analytics-connector.md
       - name: 'Project Online: ligar aos dados a partir do Power BI Desktop'
         href: desktop-project-online-connect-to-data.md
@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Use the numeric range slicer (Utilizar a segmentação de dados do intervalo numérico)
         href: desktop-slicer-numeric-range.md
-      - name: Crie uma segmentação de dados responsiva que pode redimensionar
+      - name: Criar uma segmentação de dados que pode redimensionar
         href: power-bi-slicer-filter-responsive.md
-      - name: Create custom Power BI answer cards for Cortana (Criar cartões de resposta personalizados do Power BI para a Cortana)
+      - name: Criar cartões de resposta personalizados para a Cortana
         href: service-cortana-answer-cards.md
-      - name: Row-level security (Segurança ao nível da linha)
+      - name: Segurança ao nível da linha
         href: desktop-rls.md
-      - name: Customizing tooltips in Power BI Desktop (Personalizar descrições no Power BI Desktop)
+      - name: Personalizar descrições
         href: desktop-custom-tooltips.md
-      - name: Conditional table formatting in Power BI Desktop (Formatação de tabela condicional no Power BI Desktop)
+      - name: Formatação condicional de tabelas
         href: desktop-conditional-table-formatting.md
-      - name: Sort by column in Power BI Desktop (Ordenar por coluna no Power BI Desktop)
+      - name: Ordenação por coluna no Power BI Desktop
         href: desktop-sort-by-column.md
-      - name: Criar relatórios otimizados para as aplicações de telemóvel do Power BI
+      - name: Criar relatórios otimizados para aplicações móveis
         href: desktop-create-phone-report.md
       - name: Use See Data and See Records (Utilizar as funcionalidades Ver Dados e Ver Relatórios)
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: Visualization best practices (Melhores práticas de visualização)
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Alterar o tipo de visualização num relatório do Power BI
+      - name: Alterar o tipo de visualização num relatório
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Data point limits by visual type (Limites de pontos de dados por tipo de elemento visual)
         href: visuals/power-bi-data-points.md
       - name: Guia de introdução com propriedades de eixo e formatação de cor
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Dicas e truques para formatação com cores no Power BI
+      - name: Dicas e truques para formatação com cores
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Copie e cole uma visualização no Power BI
+      - name: Copiar e colar uma visualização
         href: visuals/power-bi-visualization-copy-paste.md
       - name: Exportar os dados utilizados para criar a visualização
         href: visuals/power-bi-visualization-export-data.md
-      - name: Move, resize, and pop out a visualization in a Power BI report (Mover, redimensionar e destacar uma visualização num relatório do Power BI)
+      - name: Mover, redimensionar e destacar uma visualização num relatório
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Hiperligações em tabelas
         href: power-bi-hyperlinks-in-tables.md
-      - name: Add a hyperlink to a Text Box in a Power BI report (Adicionar uma hiperligação para uma Caixa de Texto num relatório do Power BI)
+      - name: Adicionar uma hiperligação a uma Caixa de Texto num relatório
         href: service-add-hyperlink-to-text-box.md
       - name: Alterar a forma como os elementos visuais interagem num relatório
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Dashboards
       items:
-      - name: Dashboard do Power BI
+      - name: Introdução aos dashboards
         href: service-dashboards.md
       - name: Os mosaicos do dashboard
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: Create the new workspaces (preview) (Criar as novas áreas de trabalho (pré-visualização))
         href: service-create-the-new-workspaces.md
+      - name: Gerir o armazenamento de dados nas áreas de trabalho
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Partilhar um relatório filtrado
         href: service-share-reports.md
       - name: Publish from Power BI to the web (Publicar do Power BI para a Web)
@@ -804,7 +806,7 @@ items:
           href: service-organizational-content-pack-manage-update-delete.md
         - name: 'Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso'
           href: service-organizational-content-pack-copy-refresh-access.md
-        - name: 'Pacotes de conteúdos organizacionais: introdução'
+        - name: 'Pacotes de conteúdos organizacionais: Introdução'
           href: service-organizational-content-pack-introduction.md
         - name: Criar e publicar um pacote de conteúdos organizacionais
           href: service-organizational-content-pack-create-and-publish.md
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181019"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280975"
