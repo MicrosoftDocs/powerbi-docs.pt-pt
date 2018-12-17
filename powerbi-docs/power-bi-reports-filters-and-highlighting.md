@@ -25,7 +25,7 @@ Existem várias formas diferentes de filtrar e realçar relatórios no Power BI.
 * Introdução aos filtros e realce (este artigo)
 * Formas como pode [criar e utilizar filtros na Vista de edição](power-bi-report-add-filter.md) nos relatórios. Quando tem permissões de edição de um relatório, pode criar, modificar e eliminar filtros nos relatórios.
 * Formas como pode [filtrar e realçar num relatório partilhado consigo](consumer/end-user-reading-view.md), na Vista de leitura dos relatórios. As ações que pode realizar são mais limitadas, mas ainda possui uma grande diversidade de opções de filtro e realce.  
-* Uma visita detalhada dos [controlos de filtros e realce disponíveis na Vista de edição](consumer/end-user-report-filter.md), incluindo um olhar aprofundado sobre os tipos de filtros (por exemplo, data e hora, numérico, texto) e a diferença entre as opções básicas e avançadas.
+* Uma visita detalhada aos [controlos de filtros e realce disponíveis na Vista de edição](consumer/end-user-report-filter.md), incluindo um olhar aprofundado sobre os tipos de filtros (por exemplo, data e hora, numérico, texto) e a diferença entre as opções básicas e avançadas.
 * Depois de saber como os filtros e o realce funcionam por predefinição, saiba como [mudar a forma como as visualizações numa página se filtram e realçam](consumer/end-user-interactions.md).
 
 ## <a name="intro-to-the-filters-pane"></a>Introdução ao painel Filtros
@@ -45,12 +45,12 @@ Pode pesquisar na página, no elemento visual e nos filtros de relatório, na Vi
 
 ![Pesquisar num filtro](media/power-bi-reports-filters-and-highlighting/power-bi-search-filter.png)
 
-Se o filtro tiver a palavra **Tudo** junto à mesma, tal significa que todos os valores no campo são incluídos no filtro.  Por exemplo,**Chain(All)** na captura de ecrã abaixo significa que esta página de relatório inclui dados sobre todas as cadeias de lojas.  Por outro lado, o filtro ao nível de relatório **FiscalYear is 2013 or 2014** indica que o relatório inclui apenas dados correspondentes aos anos fiscais de 2013 e 2014.
+Se o filtro estiver acompanhado da palavra **Tudo**, significa que todos os valores no campo são incluídos no filtro.  Por exemplo,**Chain(All)** na captura de ecrã abaixo significa que esta página de relatório inclui dados sobre todas as cadeias de lojas.  Por outro lado, o filtro ao nível de relatório **FiscalYear is 2013 or 2014** indica que o relatório inclui apenas dados correspondentes aos anos fiscais de 2013 e 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros na Vista de leitura e de edição
 Existem dois modos de interagir com os relatórios: [Vista de leitura](consumer/end-user-reading-view.md) e Vista de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
 
-* Na Vista de edição, pode adicionar filtros de relatório, de página, de pormenorização e de elemento visual. Ao guardar o relatório, os filtros são guardados com o relatório, mesmo que abra o relatório numa aplicação móvel. As pessoas que veem o relatório na Vista de leitura podem interagir com os filtros que adicionou, mas não podem adicionar novos filtros.
+* Na Vista de edição, pode adicionar filtros de relatório, de página, de pormenorização e de elemento visual. Ao guardar o relatório, os filtros são guardados com aquele, mesmo que o abra numa aplicação móvel. As pessoas que veem o relatório na Vista de leitura podem interagir com os filtros que adicionou, mas não podem adicionar novos filtros.
 * Na Vista de leitura, pode interagir com qualquer filtro existente no relatório e guardar as seleções que fizer. Não pode adicionar novos filtros.
 
 ### <a name="filters-in-reading-view"></a>Filtros na Vista de leitura

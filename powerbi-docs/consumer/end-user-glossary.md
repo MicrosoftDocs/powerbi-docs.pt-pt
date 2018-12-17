@@ -2,17 +2,18 @@
 title: Glossário para consumidores do Power BI
 description: O Power BI introduz muitos termos novos e novos empregos para termos familiares. Utilize o nosso glossário para ficar à vontade com a terminologia do Power BI.
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026352"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280794"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -42,7 +43,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **AppSource** Repositório online centralizado, onde pode procurar e descobrir dashboards, relatórios, conjuntos de dados e aplicações para transferir.
 
-**ArcGIS Maps for Power BI** O ArcGIS é uma plataforma de mapeamento e análise criada pela empresa ESRI. O nome do elemento visual incluído na biblioteca de elementos visuais do Power BI é chamado ArcGIS Maps for Power BI.
+**ArcGIS para o Power BI** O ArcGIS é uma plataforma de mapeamento e de análise criada pela empresa ESRI. O nome do elemento visual incluído na biblioteca de elementos visuais do Power BI é chamado ArcGIS para o Power BI.
 
 **atribuir** [Power BI Premium] Verbo para mover uma área de trabalho para dentro ou para fora da capacidade dedicada. Não utilizar promover para mover uma área de trabalho para a capacidade dedicada, porque isto tem a conotação de dedicada ser superior à capacidade partilhada.  
 
