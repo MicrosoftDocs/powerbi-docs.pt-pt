@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268106"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180582"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Criar e utilizar fluxos de dados no Power BI (Pré-visualização)
 
@@ -143,6 +143,10 @@ Também pode utilizar a **barra de pesquisa**, junto da parte superior da janela
 
 Quando selecionar a entidade e, em seguida, selecionar o botão **Carregar**, as entidades são apresentadas no painel **Campos** no **Power BI Desktop** e têm uma apresentação e um comportamento iguais aos das **tabelas** de qualquer outro conjunto de dados.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Utilizar fluxos de dados armazenados no Azure Data Lake Storage Gen2
+
+Algumas organizações podem querer utilizar o seu próprio armazenamento para criação e gestão de fluxos de dados. Pode integrar fluxos de dados com o Azure Data Lake Storage Gen2, se seguir os requisitos e gerir as permissões adequadamente. Pode encontrar documentação sobre todos os requisitos para esta abordagem no documento de descrição geral [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md).
+
 
 ## <a name="troubleshooting-data-connections"></a>Resolução de problemas de ligações de dados
 
@@ -160,6 +164,7 @@ Este artigo descreveu como pode criar os seus próprios **fluxos de dados** e cr
 * [Utilizar entidades calculadas no Power BI Premium (Pré-visualização)](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local (Pré-visualização)](service-dataflows-on-premises-gateways.md)
 * [Recursos para programadores para fluxos de dados do Power BI (Pré-visualização)](service-dataflows-developer-resources.md)
+* [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:
 * [Common Data Service – descrição geral](https://docs.microsoft.com/powerapps/common-data-model/overview)

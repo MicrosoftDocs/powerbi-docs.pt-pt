@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268013"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180651"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Ligar entidades entre fluxos de dados no Power BI (Pré-visualização)
 
@@ -32,6 +32,12 @@ As entidades ligadas são **só de leitura**. Se quiser criar transformações p
 As entidades ligadas exigem uma subscrição do [Power BI Premium](service-premium.md) para atualização. As entidades ligadas estão disponíveis em qualquer fluxo de dados numa área de trabalho alojada numa capacidade do Power BI Premium. Não existem limitações para o fluxo de dados de origem.
 
 As entidades ligadas só funcionam corretamente em novas áreas de trabalho do Power BI. Pode obter mais informações sobre as [novas áreas de trabalho do Power BI](service-create-the-new-workspaces.md). Todos os fluxos de dados ligados têm de estar localizados nas novas áreas de trabalho para funcionarem corretamente.
+
+> [!NOTE]
+> As entidades diferem com base no facto de serem entidades padrão ou entidades calculadas. As entidades padrão (muitas vezes simplesmente referidas como entidades) consultam uma origem de dados externa, como uma base de dados SQL. As entidades calculadas requerem a capacidade Premium no Power BI e executam as respetivas transformações nos dados já existentes no armazenamento do Power BI. 
+>
+>Se o seu fluxo de dados não estiver numa área de trabalho de capacidade Premium, ainda pode referenciar uma única consulta ou combinar duas ou mais consultas, desde que as transformações não estejam definidas como transformações no armazenamento. Essas referências são consideradas entidades padrão. Para tal, desative a opção **Ativar carregamento** para as consultas referenciadas para impedir que os dados sejam materializados e ingeridos no armazenamento. A partir daí, pode referenciar as consultas **Ativar carregamento = false** e definir **Ativar carregamento** como **Ativado** apenas para as consultas resultantes que quer materializar.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Como ligar entidades entre fluxos de dados
 
@@ -88,7 +94,7 @@ Os artigos seguintes podem ser úteis à medida que criar ou trabalhar com fluxo
 * [Recursos para programadores para fluxos de dados do Power BI (Pré-visualização)](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
-* [Descrição geral de consulta no Power BI Desktop](desktop-query-overview.md)
+* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
 * [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

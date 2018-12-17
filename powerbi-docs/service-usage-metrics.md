@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830338"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111548"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métrica de utilização para dashboards e relatórios
 
@@ -84,8 +84,8 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
 | Total de visualizadores |sim |sim |Número de visualizações exclusivas nos últimos 90 dias. |
 | Total de partilhas |sim |não |Número de vezes que o dashboard ou o relatório foi partilhado nos últimos 90 dias. |
 | Total de organizações |sim |sim |Número de todos os dashboards ou relatórios em toda a organização que tenha pelo menos uma visualização nos últimos 90 dias.  Utilizado para calcular a classificação. |
-| Classificação: total de visualizações |sim |sim |Para saber o total de visualizações de todos os dashboards ou de relatórios na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
-| Classificação: total de partilhas |sim |não |Para saber o total de partilhas de todos os dashboards na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
+| Posição: Total views |sim |sim |Para saber o total de visualizações de todos os dashboards ou de relatórios na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
+| Posição: Total shares |sim |não |Para saber o total de partilhas de todos os dashboards na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Relatório da métrica de utilização do dashboard
 
@@ -172,20 +172,19 @@ O Power BI está disponível em clouds nacionais separadas. Estas clouds oferece
 
 Além das possíveis diferenças entre os registos de auditoria e as métricas de utilização, as seguintes perguntas e respostas sobre as métricas de utilização podem ser úteis para os administradores e os utilizadores:
 
-P: Não consigo executar as métricas de utilização num dashboard ou relatório
-R: Só pode ver as métricas de utilização dos conteúdos dos quais é proprietário ou que tem permissões para editar.
+P:    Não consigo executar a métrica de utilização num dashboard ou num relatório    R: Só pode ver a métrica de utilização do conteúdo que detém ou tem permissões para editar.
 
-P: a métrica de utilização capta as visualizações de dashboards e relatórios incorporados?
-R: A métrica de utilização não suporta atualmente a captura de informações de utilização para dashboards incorporados, relatórios e o fluxo [publicar na Web](service-publish-to-web.md).          Nesses casos, recomendamos a utilização de plataformas de análise da Web existentes para controlar a utilização da aplicação ou do portal de alojamento.
+P:    A métrica de utilização capta as visualizações de dashboards e relatórios incorporados?
+R:    A métrica de utilização não suporta atualmente a captura de informações de utilização para dashboards incorporados, relatórios e o fluxo [publicar na Web](service-publish-to-web.md).          Nesses casos, recomendamos a utilização de plataformas de análise da Web existentes para controlar a utilização da aplicação ou do portal de alojamento.
 
-P: não consigo executar a métrica de utilização em qualquer conteúdo.
-A1: os administradores podem desativar esta funcionalidade para a sua organização.  Contacte o administrador para verificar se isto se verifica.
-A2: a métrica de utilização é uma funcionalidade do Power BI Pro.
+P:    Não consigo executar a métrica de utilização em qualquer conteúdo.
+R1:    Os administradores podem desativar esta funcionalidade para a sua organização.  Contacte o administrador para verificar se isto se verifica.
+R2:    A métrica de utilização é uma funcionalidade do Power BI Pro.
 
-P: os dados não parecem estar atualizados. Por exemplo, os métodos de distribuição não aparecem, as páginas de relatório estão em falta, etc. R: os dados demoram até 24 horas a aparecer.
+P:    Os dados não parecem estar atualizados. Por exemplo, os métodos de distribuição não aparecem, as páginas de relatório estão em falta, etc. R:    Os dados demoram até 24 horas a aparecer.
 
-P: a área de trabalho tem quatro relatórios, mas o relatório de métrica de utilização só apresenta 3.
-R: o relatório de métrica de utilização apenas inclui relatórios (ou dashboards) que tenham sido acedidos nos últimos 90 dias.  Se um relatório (ou dashboard) não for apresentado, é provável que não seja utilizado há mais de 90 dias.
+P:    A área de trabalho tem quatro relatórios, mas o relatório de métrica de utilização só apresenta 3.
+R:    O relatório de métrica de utilização apenas inclui relatórios (ou dashboards) que tenham sido acedidos nos últimos 90 dias.  Se um relatório (ou dashboard) não for apresentado, é provável que não seja utilizado há mais de 90 dias.
 
 ## <a name="next-steps"></a>Passos seguintes
 

@@ -1,22 +1,22 @@
 ---
 title: Tutorial – Segmentações de dados no Power BI
 description: Segmentação de Dados no Power BI
-author: mihart
+author: v-thepet
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/25/2018
-ms.author: v-thepet
+ms.date: 10/25/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448989"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979657"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 Quer que os leitores de relatórios consigam observar as métricas gerais das vendas e, ao mesmo tempo, consigam realçar o desempenho dos Gestores Distritais individuais e os diferentes períodos de tempo. Pode criar relatórios separados ou gráficos comparativos ou pode utilizar segmentações de dados. A segmentação de dados é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório. 
@@ -79,7 +79,7 @@ A primeira vez que alterar um relatório, o botão **Repor para predefinição**
     >Por predefinição, os tipos de dados numéricos e de data/hora criam segmentações de dados de controlo de deslize de intervalo. A partir da atualização de fevereiro de 2018 do Power BI, os controlos de deslize de intervalo de tipo de dados de número inteiro ajustam-se aos valores de número inteiro em vez de mostrar casas decimais. 
 
 >[!TIP]
->Apesar de o campo de dados **Mês** criar um tipo de segmentação de dados de controlo de deslize de intervalo **Entre** por predefinição, pode alterá-lo para outros tipos de segmentação de dados e para outras opções de seleção. Para alterar o tipo de segmentação de dados, com a segmentação de dados selecionada, paire o cursos sobre a área superior direita da segmentação de dados, largue o acento circunflexo que aparece e escolha uma das outras opções, tais como **Lista** ou **Antes**. Observe como muda o aspeto da segmentação de dados e das opções de seleção. 
+>Apesar de o campo de dados **Mês** criar um tipo de segmentação de dados de controlo de deslize de intervalo **Entre** por predefinição, pode alterá-lo para outros tipos de segmentação de dados e para outras opções de seleção. Para alterar o tipo de segmentação de dados, com a segmentação de dados selecionada, paire o cursos sobre a área superior direita da segmentação de dados, largue o acento circunflexo que aparece e escolha uma das outras opções, tais como **Lista** ou **Antes**. Observe como muda o aspecto da segmentação de dados e das opções de seleção. 
 
 Para obter mais informações sobre como criar segmentações de dados de intervalo numérico e de datas, veja [Utilizar a segmentação de dados de intervalo numérico no Power BI Desktop](../desktop-slicer-numeric-range.md) e o vídeo seguinte.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
@@ -171,18 +171,18 @@ A opção **Cabeçalho** está **Ativa**, por predefinição, e mostra o nome do
     >- Com a **Orientação > Horizontal**, os itens desselecionados mostram as cores de texto e fundo escolhidas, enquanto os itens selecionados utilizam a predefinição do sistema, normalmente fundo preto com texto branco.
     >- Com a **Orientação > Vertical**, os itens mostram sempre as cores definidas e as caixas de seleção ficam sempre em preto quando são selecionadas. 
 
-### <a name="datenumeric-inputs-and-slider-options-range-slider-slicers-only"></a>Opções Entradas de data/numéricas e Opções de controlo de deslize (apenas segmentações de dados de controlo de deslize de intervalo)
+### <a name="datenumeric-inputs-and-slider-options-range-slider-slicers-only"></a>Opções Entradas de data/númericas e Opções de controlo de deslize (apenas segmentações de dados de controlo de deslize de intervalo)
 - As opções de entradas de data/numéricas são as mesmas que as opções **Item** das segmentações de dados de lista, mas não existe nenhum **Contorno** nem sublinhado.
 - As opções de controlo de deslize permitem-lhe definir a cor do controlo de deslize de intervalo ou mudar o controlo de deslize para **Inativo**, deixando apenas as entradas numéricas.
 
 ### <a name="other-formatting-options"></a>Outras opções de formatação
 As outras opções de formatação estão desativadas por predefinição. Quando estão **Ativas**: 
-- **Título:** adiciona e formata um título (além de e independente do cabeçalho) à parte superior da segmentação de dados. 
-- **Fundo:** adiciona uma cor de fundo a toda a segmentação de dados e define a transparência.
-- **Manter proporção:** mantém a forma da segmentação de dados se esta for redimensionada.
-- **Limite:** adiciona um limite de um pixel à volta da segmentação e define a respetiva cor. (Este limite da segmentação de dados é separado das definições de Contorno Geral e não é afetado pelas mesmas.) 
+- **Título:** Adiciona e formata um título (além de e independente do cabeçalho) à parte superior da segmentação de dados. 
+- **Fundo:** Adiciona uma cor de fundo a toda a segmentação de dados e define a transparência.
+- **Manter proporção:** Mantém a forma da segmentação de dados se esta for redimensionada.
+- **Limite:** Adiciona um limite de um pixel à volta da segmentação e define a respetiva cor. (Este limite da segmentação de dados é separado das definições de Contorno Geral e não é afetado pelas mesmas.) 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Tabelas no Power BI](power-bi-visualization-tables.md)

@@ -1,37 +1,36 @@
 ---
-title: Utilizar os exemplos do Power BI
-description: Utilizar os exemplos do Power BI
+title: Ligar aos exemplos no serviço Power BI
+description: Saiba como instalar e explorar os exemplos no serviço Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718028"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180973"
 ---
-# <a name="the-power-bi-samples"></a>Exemplos do Power BI
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Ligar aos exemplos no serviço Power BI
 
-Recomendamos que comece pelo artigo [Conjuntos de dados de exemplo do Power BI](sample-datasets.md). Nesse artigo, irá aprender tudo sobre os exemplos; como obtê-los, onde guardá-los, como utilizá-los e algumas das histórias de cada um deles. Em seguida, quando tiver algumas noções básicas, volte a este Tutorial.   
+Este tutorial ensina-o a: 
+- Importar um pacote de conteúdos de exemplo, adicioná-lo ao serviço Power BI e abrir o conteúdo. Um *pacote de conteúdos* é um tipo de exemplo em que o conjunto de dados é fornecido num pacote com um dashboard e relatório. 
+- Abra um ficheiro .pbix de exemplo no Power BI Desktop.
 
-### <a name="prerequisites"></a>Pré-requisitos
+Se quiser obter mais informações, recomendamos que comece pelo artigo [Conjuntos de dados de exemplo do Power BI](sample-datasets.md). Nesse artigo, irá aprender tudo sobre os exemplos; como obtê-los, onde guardá-los, como utilizá-los e algumas das histórias de cada um deles. Em seguida, quando tiver algumas noções básicas, volte a este Tutorial.   
+
+## <a name="prerequisites"></a>Pré-requisitos
 Os exemplos estão disponíveis para o serviço Power BI e para o Power BI Desktop. Para acompanhar, vamos utilizar o exemplo da Análise de Revenda.
 
 O pacote de conteúdos de exemplo de *Análise de Retalho* utilizado neste tutorial consiste num dashboard, relatório e conjunto de dados.
 Para se familiarizar com este pacote de conteúdos específico e o respetivo cenário, pode [ver uma apresentação do exemplo Análise de Revenda](sample-retail-analysis.md) antes de começar.
-
-## <a name="about-this-tutorial"></a>Acerca deste tutorial
-Este tutorial ensina-o 
-- como importar um pacote de conteúdos de exemplo, como adicioná-lo ao serviço Power BI e como abrir o conteúdo. Um *pacote de conteúdos* é um tipo de exemplo em que o conjunto de dados é fornecido num pacote com um dashboard e relatório. 
--  Abra um ficheiro .pbix de exemplo no Power BI Desktop.
-
 
 ## <a name="samples-and-power-bi-service"></a>Exemplos e serviço Power BI
 

@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850482"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026828"
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -23,13 +24,13 @@ Saber quem está a realizar ações em que item no inquilino Power BI pode ser f
 
 Vai trabalhar com a auditoria no Centro de Conformidade e Segurança do Office 365 ou utilizar o PowerShell. Vamos abordar os dois neste artigo. Pode filtrar os dados de auditoria por intervalo de datas, utilizador, dashboard, tipo de relatório, conjunto de dados e tipo de atividade. Também pode transferir as atividades num ficheiro csv (valores separados por vírgulas) para análise offline.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
 - Para aceder à secção de auditoria do Centro de Segurança e Conformidade do Office 365, tem de ter uma licença do Exchange Online (incluída nas subscrições do Office 365 Enterprise E3 e E5).
 
-- Tem de ser um administrador global ou ter uma função de administrador do Exchange que oferece acesso ao registo de auditoria. As funções de administrador do Exchange são controladas através do Centro de administração do Exchange. Para obter mais informações, veja [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo/).
+- Tem de ser um administrador global ou ter uma função de administrador do Exchange que oferece acesso ao registo de auditoria. As funções de administrador do Exchange são controladas através do Centro de administração do Exchange. Para obter mais informações, consulte [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo/).
 
 - Se tiver acesso ao registo de auditoria, mas não for um administrador global ou um administrador de Serviço do Power BI, não terá acesso ao portal de Administrador do Power BI. Neste caso, tem de obter uma ligação direta para o [Centro de Conformidade e Segurança do Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
@@ -51,7 +52,7 @@ Os registos de auditoria do Power BI estão disponíveis diretamente através d
 
    ![Ir para Centro de Administração do O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
-Para fornecer contas de não administrador com acesso ao registo de auditoria, tem de atribuir permissões no Centro de Administração do Exchange Online. Por exemplo, pode atribuir um utilizador a um grupo de funções existente, como Gestão da Organização, ou pode criar um novo grupo de funções com a função Registos de Auditoria. Para obter mais informações, veja [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo/).
+Para fornecer contas de não administrador com acesso ao registo de auditoria, tem de atribuir permissões no Centro de Administração do Exchange Online. Por exemplo, pode atribuir um utilizador a um grupo de funções existente, como Gestão da Organização, ou pode criar um novo grupo de funções com a função Registos de Auditoria. Para obter mais informações, consulte [Permissões no Exchange Online](/exchange/permissions-exo/permissions-exo/).
 
 ## <a name="search-only-power-bi-activities"></a>Procurar apenas atividades do Power BI
 
@@ -73,13 +74,13 @@ Pode procurar os registos por intervalo de datas com o campo **Data de início**
 
 É apresentado um erro se o intervalo de datas selecionadas for superior a 90 dias. Se estiver a utilizar o intervalo de datas máximo de 90 dias, selecione a hora atual para a **Data de início**. Caso contrário, vai receber uma mensagem de erro a informar que a data de início é anterior à data de fim. Se tiver ativado a auditoria para os últimos 90 dias, não poderá iniciar o intervalo de datas antes da data de auditoria ser ativada.
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![Procurar por data](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Procurar os registos de auditoria por utilizador
 
 Pode procurar entradas de registo de auditoria relativas a atividades realizadas por utilizadores específicos. Para tal, introduza um ou mais nomes de utilizador no campo **Utilizadores**. O nome de utilizador é semelhante a um endereço de e-mail; trata-se da conta na qual os utilizadores iniciam sessão no Power BI. Deixe esta caixa em branco para apresentar as entradas de todos os utilizadores (e as contas de serviço) na sua organização.
 
-![Procurar por data](media/service-admin-auditing/search-audit-log-by-user.png)
+![Procurar por utilizadores](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Ver resultados da pesquisa
 
@@ -91,7 +92,7 @@ A área **Resultados** contém as seguintes informações para cada evento devol
 
 | **Coluna** | **Definição** |
 | --- | --- |
-| Date |A data e a hora (no formato UTC) em que ocorreu o evento. |
+| Data |A data e a hora (no formato UTC) em que ocorreu o evento. |
 | Endereço IP |O endereço IP do dispositivo que foi utilizado quando a atividade foi registada. O endereço IP é apresentado no formato de endereço IPv4 ou IPv6. |
 | Utilizador |O utilizador (ou a conta de serviço) que efetuou a ação que, por sua vez, acionou o evento. |
 | Atividade |A atividade efetuada pelo utilizador. Este valor corresponde às atividades que selecionou na lista pendente **Atividades**. Para um evento do registo de auditoria de administrador do Exchange, o valor nesta coluna é um cmdlet do Exchange. |
@@ -120,7 +121,7 @@ Para exportar o registo de auditoria do Power BI para um ficheiro csv, siga est
 
 Também pode utilizar o PowerShell para aceder aos registos de auditoria com base no início de sessão. O exemplo seguinte mostra como utilizar o comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para solicitar entradas do registo de auditoria do Power BI.
 
-Para utilizar o comando [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/), a sua conta precisa de uma licença do Exchange Online atribuída à mesma e necessita de aceder ao registo de auditoria do seu inquilino. Para obter mais informações sobre a ligação ao Exchange Online, veja [Ligar ao PowerShell do Exchange Online](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/).
+Para utilizar o comando [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/), a sua conta precisa de uma licença do Exchange Online atribuída à mesma e necessita de aceder ao registo de auditoria do seu inquilino. Para obter mais informações sobre a ligação ao Exchange Online, consulte [Ligar ao PowerShell do Exchange Online](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -145,7 +146,7 @@ As seguintes atividades são auditadas pelo Power BI.
 | Acesso à pasta do Power BI adicionado                      | AddFolderAccess                             | Não é atualmente utilizado                       |
 | Membros do grupo do Power BI adicionados                      | AddGroupMembers                             |                                          |
 | Conta de armazenamento do fluxo de dados anexada ao inquilino pelo administrador | AdminAttachedDataflowStorageAccountToTenant | Não é atualmente utilizado                       |
-| Conjunto de dados do Power BI analisado                         | AnalyzedByExternalApplication               |                                          |
+| Conjunto de dados analisado do Power BI                         | AnalyzedByExternalApplication               |                                          |
 | Relatório do Power BI analisado                          | AnalyzeInExcel                              |                                          |
 | Conjunto de dados do Power BI vinculado ao gateway                | BindToGateway                               |                                          |
 | Estado de capacidade alterado                            | ChangeCapacityState                         |                                          |
@@ -234,7 +235,7 @@ As seguintes atividades são auditadas pelo Power BI.
 | Métricas de utilização do Power BI visualizadas                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [O que é a administração do Power BI?](service-admin-administering-power-bi-in-your-organization.md)  
 

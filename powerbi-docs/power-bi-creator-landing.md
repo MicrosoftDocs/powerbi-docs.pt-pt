@@ -8,14 +8,14 @@ ms.component: powerbi-service
 ms.topic: landing-page
 ms.date: 11/19/2018
 ms.author: maggies
-layout: landingpage
+layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 70ea5374c3249e0abe38aeaaf8bb6253e50d8a08
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 4e585c573e9df1e0189eebb67914b2fa168b9b45
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157339"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111520"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para designers de relatórios
 
@@ -47,7 +47,7 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
                                                                                       <h3>Licenciamento do Power BI</h3> 
                                                                                       <p></p>
                                                                                             <a href="service-admin-licensing-organization.md">Licenciamento do Power BI na sua organização</a><br/> 
-                                                                                            <a href="service-premium.md">Power BI Premium: o que é?</a> 
+                                                                                            <a href="service-premium.md">Power BI Premium: O que é?</a> 
                                                                         </div> 
                                                           </div> 
                                            </div> 
@@ -61,7 +61,7 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
                                                                                       <h3>Ligar-se a dados</h3> 
                                                                                       <p></p>
                                                                                             <a href="desktop-quickstart-connect-to-data.md">Ligar a Dados no Power BI Desktop</a><br/> 
-                                                                                            <a href="service-dataflows-overview.md">Fluxos de dados: preparação personalizada de dados</a><br/> 
+                                                                                            <a href="service-dataflows-overview.md">Fluxos de dados: Preparação personalizada de dados</a><br/> 
                                                                                             <a href="service-gateway-install.md">Gateways para dados no local</a>
                                                                         </div> 
                                                           </div> 

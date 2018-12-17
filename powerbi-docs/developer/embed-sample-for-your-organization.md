@@ -1,31 +1,32 @@
 ---
-title: Incorporar conteúdos do Power BI numa aplicação para a sua organização
-description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação Web com as APIs do Power BI para a sua organização.
+title: Análise incorporada para incorporar conteúdo do Power BI na aplicação para a sua organização
+description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.topic: tutorial
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.custom: mvc
-ms.date: 10/17/2018
-ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.topic: tutorial
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396871"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180766"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Incorporar um relatório, dashboard ou mosaico do Power BI numa aplicação para a sua organização
 
-Este tutorial demonstra como integrar um relatório numa aplicação. Utilize o SDK de .NET do Power BI, juntamente com a API de JavaScript do Power BI para incorporar o Power BI numa aplicação para a sua organização. No Power BI, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através da estrutura **user owns data** (os dados pertencem ao utilizador). A estrutura **User owns data** (Os dados pertencem ao utilizador) permite que a sua aplicação expanda o serviço Power BI.
+No **Power BI**, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem ao Utilizador. O esquema **Dados Pertencem ao Utilizador** permite que a sua aplicação expanda o serviço Power BI. Este tutorial demonstra como integrar um relatório numa aplicação. Utilize o SDK de .NET do Power BI com a API JavaScript do Power BI para incorporar o Power BI numa aplicação para a sua organização.
 
-![Relatório Incorporado do Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+![Power BI Embed Report](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 Neste tutorial, irá aprender as seguintes tarefas:
->[!div class="checklist"]
->* Registe uma aplicação no Azure.
->* Incorporar um relatório do Power BI numa aplicação.
+> [!div class="checklist"]
+> * Registe uma aplicação no Azure.
+> * Incorporar um relatório do Power BI numa aplicação.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -40,9 +41,9 @@ Para começar, precisa de uma conta do Power BI Pro e uma subscrição do Micros
 
 Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, confirme que o seu ambiente está configurado para permitir a incorporação. Como parte da configuração, siga uma destas ações:
 
-- Pode utilizar a [ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o orienta durante a criação de um ambiente e a incorporação de um relatório.
+* Pode utilizar a [ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o orienta durante a criação de um ambiente e a incorporação de um relatório.
 
-- Se optar por configurar o ambiente manualmente, siga os passos nas secções a seguir.
+* Se optar por configurar o ambiente manualmente, siga os passos nas secções a seguir.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Registar uma aplicação no Azure Active Directory
 
@@ -60,13 +61,13 @@ Para permitir que a aplicação aceda às APIs REST do Power BI, registe a apli
 
     ![Registo de nova aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
-4. Siga as instruções e crie uma nova aplicação. Para estruturas **user owns data** (os dados pertencem ao utilizador), utilize **aplicação Web/API** para o **Tipo de aplicação** em questão. Também precisa de indicar um **URL de início de sessão**, que o Azure AD utiliza para devolver respostas de token. Introduza um valor específico na aplicação. Um exemplo é `http://localhost:13526/`.
+4. Siga as instruções e crie uma nova aplicação. Para estruturas **user owns data** (os dados pertencem ao utilizador), utilize **aplicação Web/API** para o **Tipo de aplicação** em questão. Indique um **URL de início de sessão**, que o Azure AD utiliza para devolver respostas de token. Introduza um valor específico na aplicação. Um exemplo é `http://localhost:13526/`.
 
     ![Criar uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Aplicar permissões à sua aplicação no Azure Active Directory
 
-Tem de ativar permissões adicionais para a sua aplicação, além do que indicou na página de registo de aplicações. Inicie sessão com uma conta de administrador global para ativar as permissões.
+Ative permissões adicionais para a sua aplicação, além do que indicou na página de registo de aplicações. Inicie sessão com uma conta de administrador global para ativar as permissões.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Utilizar o portal do Azure Active Directory
 
@@ -100,7 +101,7 @@ Tem de ativar permissões adicionais para a sua aplicação, além do que indico
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar uma área de trabalho da aplicação
+### <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
 
 Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, coloque o conteúdo dentro de uma área de trabalho de aplicação:
 
@@ -168,69 +169,69 @@ Para começar a incorporar os seus conteúdos através de uma aplicação de exe
 
     1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-        ![Dashboard do portal do Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Dashboard do portal do Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-    1. No painel de navegação à esquerda, escolha **Todos os serviços** e selecione **Registos de aplicações**.
+    2. No painel de navegação à esquerda, escolha **Todos os serviços** e selecione **Registos de aplicações**.
 
-        ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Selecione a aplicação que precisa de utilizar o **ApplicationID**.
+    3. Selecione a aplicação que precisa de utilizar o **ApplicationID**.
 
-        ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Deverá ver um **ID da Aplicação** que está listado como um GUID. Utilize este **ID da Aplicação** como o **ApplicationID** da aplicação.
+    4. Deverá ver um **ID da Aplicação** que está listado como um GUID. Utilize este **ID da Aplicação** como o **ApplicationID** da aplicação.
 
         ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Preencha as informações de **ApplicationSecret** na secção **Chaves** da sua secção **Registos das aplicações** no **Azure**.
+    Preencha as informações de **ApplicationSecret** na secção **Chaves** da sua secção **Registos das aplicações** no **Azure**.
 
-    1. Para obter o **ApplicationSecret**, siga estes passos:
+    Para obter o **ApplicationSecret**, siga estes passos:
 
-        1. Inicie sessão no [portal do Azure](https://portal.azure.com).
+    1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-            ![Portal do Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+       ![Portal do Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
 
-        1. No painel de navegação à esquerda, escolha **Todos os serviços** e selecione **Registos de aplicações**.
+    2. No painel de navegação à esquerda, escolha **Todos os serviços** e selecione **Registos de aplicações**.
 
-            ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+       ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Selecione a aplicação que precisa de utilizar o **ApplicationSecret**.
+    3. Selecione a aplicação que precisa de utilizar o **ApplicationSecret**.
 
-            ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+       ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-        1. Selecione **Configurações**.
+    4. Selecione **Configurações**.
 
-            ![Selecionar Definições](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+       ![Selecionar Definições](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-        1. Selecione **Chaves**.
+    5. Selecione **Chaves**.
 
-            ![Selecionar Chaves](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+       ![Selecionar Chaves](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    1. Introduza um nome na caixa **Descrição** e selecione uma duração. Em seguida, selecione **Guardar** para obter o **Valor** para a sua aplicação. Quando fecha o painel **Chaves** depois de guardar o valor da chave, o campo do valor é apresentado apenas como oculto. Nesse momento, não é possível obter o valor da chave. Se perder o valor da chave, crie um novo no portal do Azure.
+    6. Introduza um nome na caixa **Descrição** e selecione uma duração. Em seguida, selecione **Guardar** para obter o **Valor** para a sua aplicação. Quando fecha o painel **Chaves** depois de guardar o valor da chave, o campo do valor é apresentado apenas como oculto. Nesse momento, não é possível obter o valor da chave. Se perder o valor da chave, crie um novo no portal do Azure.
 
-        ![Valor da chave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+          ![Valor da chave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    1. Para o **groupId**, introduza o GUID da área de trabalho de aplicação do Power BI.
+    7. Para o **groupId**, introduza o GUID da área de trabalho de aplicação do Power BI.
 
-        ![Introduzir o groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+       ![Introduzir o groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-    1. Para o **reportId**, introduza o GUID do relatório do Power BI.
+    8. Para o **reportId**, introduza o GUID do relatório do Power BI.
 
-        ![Introduzir o reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+       ![Introduzir o reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
 3. Executar a aplicação:
 
-    1. Comece por selecionar **Executar** no **Visual Studio**.
+    Selecione **Executar** no **Visual Studio**.
 
-        ![Executar a aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+    ![Executar a aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    1. Em seguida, selecione **Obter Relatório**.
+    Em seguida, selecione **Obter Relatório**.
 
-        ![Selecionar o conteúdo](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+    ![Selecionar o conteúdo](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    1. Agora pode visualizar o relatório na aplicação de exemplo.
+    Agora pode visualizar o relatório na aplicação de exemplo.
 
-        ![Ver o relatório na aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    ![Ver o relatório na aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>Incorporar os seus conteúdos na aplicação
 
@@ -455,7 +456,7 @@ Após criar a capacidade dedicada, pode atribuir a área de trabalho da sua apli
 
     ![Atribuir uma capacidade dedicada](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Após selecionar **Guardar**, deverá ver um losango junto ao nome da área de trabalho da aplicação.
+3. Após selecionar **Guardar**, deverá ver um diamante junto ao nome da área de trabalho da aplicação.
 
     ![Área de trabalho da aplicação associada a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

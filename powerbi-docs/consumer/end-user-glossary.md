@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508020"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026352"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -40,9 +40,9 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
  
 **área de trabalho de aplicação** Todas as áreas de trabalho no Power BI, exceto A minha área de trabalho são agora áreas de trabalho de aplicação. O conteúdo pode ser agrupado numa aplicação Power BI. Aquele armazenado numa capacidade Premium pode ser partilhado com Utilizadores gratuitos. As áreas de trabalho pessoais (em A minha área de trabalho) podem ser alojadas na capacidade Premium.  
 
-**AppSource**
+**AppSource** Repositório online centralizado, onde pode procurar e descobrir dashboards, relatórios, conjuntos de dados e aplicações para transferir.
 
-**ArcGIS para o Power BI** O ArcGIS é uma plataforma de mapeamento e de análise criada pela empresa ESRI. O nome do elemento visual incluído na biblioteca de elementos visuais do Power BI é chamado ArcGIS para o Power BI.
+**ArcGIS Maps for Power BI** O ArcGIS é uma plataforma de mapeamento e análise criada pela empresa ESRI. O nome do elemento visual incluído na biblioteca de elementos visuais do Power BI é chamado ArcGIS Maps for Power BI.
 
 **atribuir** [Power BI Premium] Verbo para mover uma área de trabalho para dentro ou para fora da capacidade dedicada. Não utilizar promover para mover uma área de trabalho para a capacidade dedicada, porque isto tem a conotação de dedicada ser superior à capacidade partilhada.  
 
@@ -69,7 +69,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **lista de conteúdo** O índice de conteúdo para uma aplicação.
 
-**pacote do conteúdo**
+**pacote de conteúdos** Uma coleção de conjuntos de dados, relatórios e dashboards pré-embalados. **Aplicações** no momento, saiba mais [sobre a nova experiência de área de trabalho](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
 
 **vista de conteúdo**
 
@@ -92,11 +92,11 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 **modelo de dados, Modelo de Dados do Excel**
 
 
-**conjunto de dados** vs. **origem de dados**
+**conjunto de dados** vs **origem de dados** Um **conjunto de dados** é uma coleção de dados utilizada para criar visualizações e relatórios.
 
 **capacidade dedicada** [Power BI Premium] Os modelos de dados em execução em hardware dedicado em datacenters de cloud da Microsoft para ajudar a garantir um desempenho consistente à escala. As soluções BI são disponibilizadas para toda a organização, independentemente da licença do Power BI.
 
-**Desktop/Ambiente de Trabalho** Primeira instância: Power BI Desktop Menções subsequentes: Ambiente de trabalho
+**Ambiente de trabalho** Primeira instância: Menções Subsequentes do Power BI Desktop: Ambiente de trabalho
 
 
 **diamante** Power BI Premium. A forma do ícone que significa que uma área de trabalho é uma área de trabalho de capacidade Premium.
@@ -110,6 +110,8 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 **botão de reticências** ...
 
 **código de incorporação** Um padrão comum na Internet. No Power BI, o cliente pode gerar um código de incorporação e copiá-lo para colocar conteúdo, como um elemento visual de relatório num site ou blog.
+
+**Embedded** Ver o Power BI Embedded. 
 
 **incorporar** Na oferta do Power BI programador, o processo de integração de análise em aplicações com as APIs de REST do Power BI e o Power BI SDK.
 
@@ -133,7 +135,7 @@ Não há problema em utilizar o ambiente do Power BI (inquilino) na documentaç�
 
 ## <a name="g"></a>G
 
-**gateways** ou **gateways de dados no local** Uma ponte para origens de dados subjacentes. Proporciona uma transferência de dados rápida e segura entre o serviço Power BI e as origens de dados no local que suportam a atualização. Normalmente, gerido pelas TI. gateways de dados no local
+**gateways** ou **gateways de dados no local** Uma ponte para origens de dados subjacentes. Proporciona uma transferência de dados rápida e segura entre o serviço Power BI e as origens de dados no local que suportam a atualização. Normalmente, gerido pelas TI. 
 
 ## <a name="h"></a>H
 **elementos visuais de alta densidade** Elementos visuais com mais pontos de dados do que o Power BI pode compor. O Power BI exemplifica os dados para mostrar a forma e os valores atípicos.
@@ -160,7 +162,7 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 
 ## <a name="m"></a>M
 
-**medidas** Cálculos personalizados escritos no Power BI Desktop com o código DAX ou medidas rápidas.
+**Aplicação móvel** Aplicações que permitem executar o Power BI em dispositivos iOS, Android e Windows.
 
 **Modelação** [Power BI Desktop] Obter os dados a que está ligado para ficarem prontos para serem utilizados no Power BI. Isto inclui criar relações entre tabelas em várias origens de dados, criar medidas e atribuir métricas.
 
@@ -180,6 +182,9 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 ## <a name="o"></a>O
 
 **OneDrive para empresas** vs. **OneDrive** OneDrive é uma conta pessoal e OneDrive para Empresas é uma conta profissional.  
+
+**Gateway de dados no local**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 
 **Power BI**, **serviço Power BI**, **Power BI Desktop**, **Power BI Mobile** Algumas das ofertas do Power BI. *Power BI* é o termo geral. É frequentemente utilizado em vez do nome completo do produto, como *serviço Power BI* e *Power BI Mobile*, após a primeira menção do nome completo do produto.
 
-**Power BI Desktop** Também referido como *Desktop*.
+**Power BI Desktop** Também referido como *Desktop*. A aplicação gratuita do Windows do Power BI que pode instalar no seu computador local e que lhe permite ligar-se a dados, transformá-los e visualizá-los. Utilizado por designers de relatórios e administradores. Para obter mais informações, veja [O que é o Power BI](../power-bi-overview.md).
 
 **Power BI Embedded** Um produto utilizado pelos programadores para incorporar relatórios e dashboards do Power BI nas suas próprias aplicações, sites e ferramentas.
 
@@ -210,8 +215,9 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 
 **Licença do Power BI Pro** Uma licença mensal de utilizador que oferece a capacidade de criar dashboards, colaborar em dados partilhados, manter dados atualizados automaticamente, auditar e regular como os dados são acedidos e utilizados e a capacidade de empacotar conteúdo para distribuir (Aplicações do Power BI).
 
-**Power BI Report Server** Uma oferta nova de marca SSRS que é lançada com o Power BI Premium para permitir que as organizações criem sistemas distribuídos, híbridos de BI (uma combinação de implementações no local e na cloud).
-Com base no SQL Server Reporting Services com a sua funcionalidade de relatórios paginada avançada e relatórios móveis juntamente com a capacidade de servir relatórios do Power BI criados com o Power BI Desktop e entregá-los nas aplicações móveis do Power BI. O SSRS clássico continua a ser vendido.
+**Power BI Report Server** Uma oferta nova de marca SSRS que é lançada com o Power BI Premium para permitir que as organizações criem sistemas distribuídos, híbridos de BI (uma combinação de implementações no local e na cloud). O Embedded fornece uma forma localizada de armazenar e gerir relatórios do Power BI.
+
+**Serviço Power BI** Um serviço SaaS (Software como serviço) online. Para obter mais informações, veja [O que é o Power BI](../power-bi-overview.md).
 
 **Conector de serviço do Power BI** Este conector permite que os utilizadores do Power BI Desktop se liguem a conjuntos de dados no serviço Power BI a partir do Desktop. Podem criar um modelo uma vez e reutilizá-lo em muitos relatórios e dashboards.
 

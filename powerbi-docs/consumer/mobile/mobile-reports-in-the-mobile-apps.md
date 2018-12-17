@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547252"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180996"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -105,6 +105,16 @@ Com a *pormenorização*, ao tocar numa parte específica de um elemento visual,
 Ao explorar, o botão de retroceder leva-o até à página anterior do relatório.
 
 Saiba mais sobre como [adicionar a pormenorização no Power BI Desktop](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Mostrar dados e valores de cópia
+
+Ao selecionar as reticências das opções de menu (**...**) no canto superior direito de uma visualização num relatório de telemóvel e, em seguida, ao selecionar **Mostrar dados**, pode ver os dados subjacentes numa visualização.
+
+![Opção de menu Mostrar dados do Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Tocar de forma longa numa célula na tabela apresentada apresentará o menu de seleção e cópia nativo, pelo que poderá escolher os dados de cópia na tabela (ou na tabela inteira).
+
+![Relatório de pormenorização no Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Próximos passos
 * [Ver e interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)

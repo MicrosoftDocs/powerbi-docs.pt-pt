@@ -1,23 +1,25 @@
 ---
-title: Incorporar conteúdo do Power BI numa aplicação para os seus clientes de clouds soberanas e governamentais
-description: Saiba como integrar ou incorporar um dashboard, mosaico ou relatório numa aplicação Web com as APIs do Power BI para os seus clientes.
+title: Análise incorporada para incorporar conteúdo do Power BI na sua aplicação para clouds soberanas e governamentais
+description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para os seus clientes. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003162"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180628"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação de clouds soberanas
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação de clouds soberanas
 
-Saiba como incorporar um dashboard, mosaico ou relatório em aplicações Web com o SDK .NET do Power BI, juntamente com a API JavaScript do Power BI quando integrar dados para os seus clientes.
+Saiba como incorporar conteúdo analítico nas suas aplicações de processo de negócio para a cloud soberana. Pode utilizar o SDK .NET do Power BI com a API de JavaScript do Power BI para incorporar um relatório, dashboard ou mosaico nas suas aplicações Web.
 
 O Power BI suporta também clouds (privadas) soberanas.
 
@@ -132,7 +134,7 @@ Registe a sua aplicação no Microsoft Azure AD para fazer chamadas para a API 
 
 * Power BI para China Cloud – https://app.powerbi.cn/apps
 
-Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), utilize o **applicationId** que recebe após o registo para que o exemplo possa ser autenticado no Microsoft Azure AD. Para configurar o exemplo, altere o **applicationId** no ficheiro *web.config*.
+Se transferiu o [Exemplo de incorporação para o seu cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), utilize o **applicationId** que recebe para que o exemplo possa ser autenticado no Azure AD. Para configurar o exemplo, altere o **applicationId** no ficheiro *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Passo 2 – obter um token de acesso do Azure AD
 
@@ -178,7 +180,7 @@ Utilize o objeto de cliente do Power BI para obter uma referência para o item q
 
 Está disponível um exemplo em **Controllers\HomeController.cs** do [exemplo App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
-#### <a name="reports"></a>Reports
+#### <a name="reports"></a>Relatórios
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -236,7 +238,7 @@ Está disponível um exemplo em **Controllers\HomeController.cs** do [Exemplo de
 
 Este exemplo parte do princípio de que uma classe é criada para **EmbedConfig** e **TileEmbedConfig**. Está disponível um exemplo em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
 
-#### <a name="reports"></a>Reports
+#### <a name="reports"></a>Relatórios
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

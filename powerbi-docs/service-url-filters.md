@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850597"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180812"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -97,7 +97,7 @@ Para filtrar em campos adicionais, adicione um "**and**" e outro campo no mesmo 
 
 O Power BI suporta vários operadores para além do operador "**and**". A tabela abaixo apresenta uma lista desses operadores, juntamente com o tipo de conteúdos que os mesmos suportam.
 
-|operador  | definição | cadeia  | número | Date |  Exemplo|
+|operador  | definição | cadeia  | número | Data |  Exemplo|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | and |  sim      | sim |  sim|  produto/preço le 200 and preço gt 3,5 |
 |**eq**     | é igual a |  sim      | sim   |  sim       | Endereço/Localidade eq 'Redmond' |
@@ -145,7 +145,7 @@ Tabela_x0020_Nome/Coluna_x002B_SinalDeAdição eq 3 ![carateres especiais de com
 
 Tabela_x0020_Especial/_x005B_Coluna_x0020_ParêntesesRetos_x005D_ eq '[C]' ![carateres especiais de composição de elementos visuais da tabela](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>Utilizar o DAX para filtrar em múltiplos valores
+## <a name="use-dax-to-filter-on-multiple-values"></a>Utilizar o DAX para filtrar em múltiplos valores
 
 Outra forma de filtrar em múltiplos campos é criar uma coluna calculada que concatena dois campos para um valor único. Depois, pode filtrar nesse valor.
 
@@ -155,7 +155,7 @@ TerritoryChain = [Território] & " - " & [Cadeia]
 
 Publique o relatório no serviço Power BI e, em seguida, utilize a cadeia de consulta de URL para filtrar de forma a mostrar dados apenas de lojas Lindseys no estado NC.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Afixar um mosaico de um relatório filtrado
 
@@ -174,7 +174,7 @@ Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de 
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.
 * Os filtros de URL de relatório têm um limite de 10 expressões (10 filtros ligados por AND).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Afixar uma visualização a um dashboard](service-dashboard-pin-tile-from-report.md)  
 [Inscrever-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/)
