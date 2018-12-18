@@ -1,24 +1,25 @@
 ---
-title: Gerar automaticamente as informações de dados com o Power BI
-description: Saiba como obter informações sobre os conjuntos de dados e os mosaicos do dashboard.
+title: Executar e ver informações nos mosaicos do dashboard
+description: Como utilizador final do Power BI, saiba como obter informações sobre os mosaicos do dashboard.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112044"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180536"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Gerar automaticamente as informações de dados com o Power BI
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Ver informações de dados nos mosaicos do dashboard com o Power BI
 Cada mosaico de visualização no dashboard é uma porta para a exploração de dados. Quando seleciona um mosaico, é aberto um relatório onde pode filtrar e ordenar e aprofundar o conjunto de dados associado ao relatório. E quando executa as informações, o Power BI faz a exploração de dados por si.
 
 Execute as informações rápidas para gerar visualizações interativas e interessantes com base nos seus dados. As informações rápidas podem ser executadas num mosaico específico do dashboard e até pode executar as informações numa informação!
@@ -40,7 +41,9 @@ Quando executa as informações num mosaico do dashboard, o Power BI procura ape
 4. Há alguma informação que desperte o seu interesse? Selecione esse cartão de informação para investigar melhor. A informação selecionada é apresentada à esquerda e os cartões de informações novos, com base apenas nos dados dessa informação, são apresentados à direita.    
 
  ## <a name="interact-with-the-insight-cards"></a>Interagir com os cartões das informações
-   * Filtrar as visualizações.  Para mostrar os filtros, no canto superior direito, selecione a seta para expandir o painel Filtros.
+Depois de abrir uma informação, continue a explorar.
+
+   * Filtre o elemento visual na tela.  Para mostrar os filtros, no canto superior direito, selecione a seta para expandir o painel Filtros.
 
      ![informações e menu Filtros expandido](./media/end-user-insights/power-bi-insights-on-insights.png)
    
