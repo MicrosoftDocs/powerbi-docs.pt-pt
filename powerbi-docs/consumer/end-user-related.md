@@ -1,27 +1,28 @@
 ---
-title: Ver conteúdos relacionados no serviço Power BI
+title: Ver conteúdos relacionados de dashboards, relatórios e conjuntos de dados
 description: 'Navegação facilitada: veja conteúdos relacionados em dashboards, relatórios e conjuntos de dados'
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7bb46bbed79be32b45fe4e5dbd2ecb07acc5d673
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566401"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280732"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Ver conteúdos relacionados no serviço Power BI
-O painel **Conteúdo relacionado** mostra-lhe como os conteúdos de serviço do Power BI (dashboards, relatórios e conjuntos de dados) estão interligados.  Ainda melhor: neste painel, pode efetuar tarefas comuns como atualizar, mudar o nome, gerar informações e muito mais. Selecione um dashboard ou relatório relacionado, e este será aberto na sua área de trabalho do Power BI.   
+O painel **Conteúdo relacionado** mostra-lhe como os conteúdos de serviço do Power BI (dashboards, relatórios e conjuntos de dados) estão interligados. O painel Conteúdos relacionados também é uma plataforma de lançamento para ação. Aqui pode atualizar, mudar o nome, gerar informações e muito mais. Selecione um dashboard ou relatório relacionado, e este será aberto na sua área de trabalho do Power BI.   
 
-Como já deverá saber, os relatórios são criados com base em conjuntos de dados, as visualizações de relatórios são afixadas aos dashboards e os visuais dos dashboards fornecem ligação para os relatórios. Mas como se pode saber que dashboards alojam visualizações do seu relatório de Marketing? E como se localizam esses dashboards? O seu dashboard de Aquisição utiliza visualizações de mais de um conjunto de dados? Se for esse o caso, que nome têm e como se podem abrir e editar? O seu conjunto de dados de RH está a ser utilizado em relatórios ou dashboards ou pode ser movido sem originar ligações quebradas? O painel **Conteúdo relacionado** pode responder a estas e outras perguntas.  Além de o painel apresentar os conteúdos relacionados, também lhe permite efetuar ações sobre os conteúdos e navegar facilmente pelos conteúdos relacionados.
+No Power BI, os relatórios são criados com base em conjuntos de dados, os visuais de relatórios são afixados aos dashboards e os visuais dos dashboards são ligados aos relatórios. Mas como se pode saber que dashboards alojam visuais do seu relatório de Marketing? E como se localizam esses dashboards? O seu dashboard de Aquisição utiliza visuais de mais de um conjunto de dados? Se for esse o caso, que nome têm e como se podem abrir e editar? O seu conjunto de dados de RH está a ser utilizado em relatórios ou dashboards? Ou pode ser movido sem causar ligações quebradas? O painel **Conteúdo relacionado** pode responder a estas e outras perguntas.  Além de o painel apresentar os conteúdos relacionados, também lhe permite realizar ações sobre os conteúdos e navegar facilmente pelos conteúdos relacionados.
 
 ![conteúdos relacionados](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -50,7 +51,7 @@ Numa área de trabalho, selecione o separador **Dashboards** e, em seguida, sele
 
 Com um dashboard aberto, selecione   ![ícone Ver relacionados](./media/end-user-related/power-bi-view-related-new.png) na barra de menus superior.
 
-É aberto o painel **Conteúdo relacionado**. Mostra todos os relatórios que têm visualizações afixadas ao dashboard e os respetivos conjuntos de dados. A partir deste dashboard, existem visualizações afixadas de 3 relatórios diferentes e estes relatórios baseiam-se em 3 conjuntos de dados diferentes.
+É aberto o painel **Conteúdo relacionado**. Mostra todos os relatórios que têm visualizações afixadas ao dashboard e os respetivos conjuntos de dados. A partir deste dashboard, existem visualizações afixadas de três relatórios diferentes e estes relatórios baseiam-se em três conjuntos de dados diferentes.
 
 ![painel Conteúdo relacionado](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -80,23 +81,22 @@ A partir daqui, pode efetuar ações diretamente sobre os conteúdos relacionado
 ## <a name="view-related-content-for-a-dataset"></a>Ver conteúdos relacionados de um conjunto de dados
 Precisará, no mínimo, de permissões de *visualização* de um conjunto de dados para abrir o painel **Conteúdos relacionados**. Neste exemplo, vamos utilizar o [exemplo Análise de Aprovisionamento](../sample-procurement.md).
 
-Numa área de trabalho, selecione o separador **Conjuntos de Dados** e procure o ícone **Ver relacionados** ![ícone Ver Relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
+Numa área de trabalho, selecione o separador **Conjuntos de Dados** e procure o ícone **Ver relacionados** ![ícone Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Separador Conjuntos de Dados](./media/end-user-related/power-bi-view-related-dataset-newer.png)
 
 Selecione o ícone para abrir o painel **Conteúdo relacionado**.
 
-![](media/end-user-related/power-bi-datasets.png)
+![O painel Conteúdos relacionados abre-se por cima da vista de conteúdo do Power BI](media/end-user-related/power-bi-datasets.png)
 
-A partir daqui, pode efetuar ações diretamente sobre os conteúdos relacionados.  Por exemplo, selecione um nome de dashboard ou relatório para abri-lo.  Para qualquer dashboard na lista, selecione um ícone para [partilhar o dashboard com outras pessoas](../service-share-dashboards.md) ou para abrir a janela **Definições** do dashboard. Para um relatório, selecione um ícone para [analisar no Excel](../service-analyze-in-excel.md), [mudar o nome](../service-rename.md) ou [obter informações](end-user-insights.md).  
+A partir daqui, pode efetuar ações diretamente sobre os conteúdos relacionados. Por exemplo, selecione um nome de dashboard ou relatório para abri-lo.  Para qualquer dashboard na lista, selecione um ícone para [partilhar o dashboard com outras pessoas](../service-share-dashboards.md) ou para abrir a janela **Definições** do dashboard. Para um relatório, selecione um ícone para [analisar no Excel](../service-analyze-in-excel.md), [mudar o nome](../service-rename.md) ou [obter informações](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Limitações e resolução de problemas
-* Se o seu browser não tiver espaço suficiente, não verá uma opção **Ver relacionados**, mas continuará a ver o ícone Ver relacionados ![ícone Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png). Selecione o ícone para abrir o painel **Conteúdo relacionado**.
+* Se não vir a opção "Ver relacionados", procure o ícone ![Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png). Selecione o ícone para abrir o painel **Conteúdo relacionado**.
 * Para abrir o Conteúdo relacionado de um relatório, precisa de estar na [Vista de leitura](end-user-reading-view.md).
-* Os conteúdos relacionados não estão disponíveis no Power BI Desktop.
-* A funcionalidade de conteúdos relacionados não funciona em transmissão de conjuntos de dados.
+* A funcionalidade Conteúdos relacionados não funciona em transmissão de conjuntos de dados.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Introdução ao serviço Power BI](../service-get-started.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

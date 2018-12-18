@@ -1,20 +1,21 @@
 ---
-title: Visualizar um relatório no serviço Power BI para consumidores
+title: Ver um relatório
 description: Este tópico mostra os consumidores e os utilizadores finais do Power BI que tiveram de abrir e ver um relatório do Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396940"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281060"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *estruturadores de relatórios* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
@@ -38,7 +39,7 @@ Os *designers* do Power BI podem partilhar um relatório diretamente consigo, ao
 
    ![Página Base](./media/end-user-report-open/power-bi-select-home.png)
    
-3. Desloque para baixo até ver **Partilhado comigo**. Procure o ícone de relatório ![ícone de relatório](./media/end-user-report-open/power-bi-report-icon.png). Nesta captura de ecrã temos dois relatórios: *Financial* e *Northwind*. 
+3. Desloque para baixo até ver **Partilhado comigo**. Procure o ícone de relatório ![ícone de relatório](./media/end-user-report-open/power-bi-report-icon.png). Nesta captura de ecrã temos dois relatórios: *Financeiro* e *Northwind*. 
    
    ![secção partilhado comigo da página Base](./media/end-user-report-open/power-bi-shared.png)
 

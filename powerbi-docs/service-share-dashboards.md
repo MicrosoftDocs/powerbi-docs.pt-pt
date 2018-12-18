@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271769"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281038"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar os seus dashboards e relatórios do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -111,7 +111,7 @@ Elementos a ter em conta sobre a partilha de dashboards e relatórios:
 
 * Em geral, o utilizador e os seus colegas veem os mesmos dados no dashboard ou no relatório. Portanto, se tiver permissões para ver mais dados do que os seus colegas, eles conseguirão ver todos os seus dados no dashboard ou no relatório. No entanto, se a [RLS (segurança em nível de linha)](service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um dashboard ou a um relatório, as credenciais de cada pessoa serão utilizadas para determinar a que dados podem aceder.
 * Todas as pessoas com quem partilha o dashboard podem vê-lo e interagir com os relatórios relacionados na [Vista de Leitura](consumer/end-user-reading-view.md). Não podem criar relatórios ou guardar alterações a relatórios existentes.
-* Ninguém pode ver ou transferir o conjunto de dados.
+* Ninguém pode ver ou transferir o conjunto de dados, mas podem aceder ao conjunto de dados diretamente, através da funcionalidade Analisar no Excel. Um administrador pode impedir que as pessoas utilizem a funcionalidade Analisar no Excel, ao restringir a capacidade para todos os utilizadores num grupo. No entanto, a restrição destina-se a todos os utilizadores desse grupo para cada área de trabalho a que o grupo pertence.
 * Todas as pessoas podem [atualizar os dados](refresh-data.md) manualmente.
 * Se utilizar o Office 365 para e-mail, pode partilhar com membros de um grupo de distribuição ao introduzir o endereço de e-mail associado ao grupo de distribuição.
 * Os colegas com o mesmo domínio de e-mail que o utilizador e os colegas com um domínio diferente, mas que estejam registados no mesmo inquilino, podem partilhar o dashboard com outras pessoas. Por exemplo, suponhamos que os domínios contoso.com e contoso2.com estão registados no mesmo inquilino. Se o seu endereço de e-mail for konrads@contoso.com, isso quer dizer que ravali@contoso.com e gustav@contoso2.com podem partilhar, desde que lhes tenha dado permissão para partilhar.

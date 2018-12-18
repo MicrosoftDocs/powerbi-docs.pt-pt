@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507675"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280748"
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir a partir do serviço Power BI
 Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
@@ -78,7 +79,7 @@ Os relatórios podem ser impressos uma página de cada vez.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * P: Não consigo encontrar o botão **Imprimir**.    
-* R: Se estiver a utilizar o Power BI Desktop, impressão não é suportada.  A impressão só funciona no serviço Power BI.
+* R: Se estiver a utilizar o Power BI Desktop, a impressão não é suportada.  A impressão só funciona no serviço Power BI.
 * P: Não consigo imprimir todas as páginas do relatório de uma só vez.    
 * R: Está correto. As páginas do relatório só podem ser impressas uma página de cada vez.
 * P: Não consigo imprimir em PDF.    

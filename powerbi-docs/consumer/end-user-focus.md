@@ -1,22 +1,23 @@
 ---
-title: Modo de detalhe e modo de ecrã inteiro – como ampliar para ver mais detalhes.
+title: Modo de detalhe e modo de ecrã inteiro – como ampliar para ver mais detalhes
 description: Documentação para apresentar um dashboard, um mosaico do dashboard, um relatório ou uma visualização de relatório do Power BI no modo de detalhe ou no modo de ecrã inteiro
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507967"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279966"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
 
@@ -83,7 +84,7 @@ Menu para páginas de relatório
     Nos relatórios no modo de ecrã inteiro, utilize estas setas para se deslocar entre as páginas do relatório.    
   * Para sair do modo de ecrã inteiro, selecione o ícone **Sair do modo de ecrã inteiro**.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![ícone sair do modo de ecrã inteiro](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Trabalhar no modo de detalhe
 Existem duas formas de abrir o modo de detalhe; uma para os mosaicos do dashboard e outra para as visualizações de relatório.

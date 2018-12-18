@@ -1,30 +1,30 @@
 ---
-title: Criar relatórios otimizados para as aplicações de telemóvel do Power BI
-description: Saiba como otimizar páginas de relatórios para as aplicações para telemóvel do Power BI ao criar uma versão do relatório especificamente para telemóvel.
+title: Criar relatórios otimizados para as aplicações móveis
+description: Saiba como otimizar páginas de relatórios para as aplicações móveis do Power BI ao criar uma versão vertical do relatório especificamente para telemóveis e tablets.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973960"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280909"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Criar relatórios otimizados para as aplicações de telemóvel do Power BI
-Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis num telemóvel ao criar uma versão do relatório especificamente para telemóvel. No Power BI Desktop e no serviço Power BI, pode adaptar o relatório ao telemóvel ao reorganizar e redimensionar os elementos visuais (talvez sem incluir todos) para proporcionar a melhor experiência possível. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório do telemóvel. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
+# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Criar relatórios otimizados para as aplicações móveis do Power BI
+Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis num telemóvel ou tablet. Crie um esquema vertical de um relatório, especificamente para telemóveis e tablets. No Power BI Desktop e no serviço Power BI, pode adaptar o relatório ao reorganizar e redimensionar os elementos visuais, num esquema vertical para proporcionar a melhor experiência possível. Não tem de incluir todos. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório otimizado. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
 
 ![Relatório otimizado num telemóvel](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone"></a>Apresentar uma página de relatório para telemóvel
+## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Mostrar uma versão vertical de uma página de relatório
 
-Depois de criar um relatório, pode otimizá-lo para telemóveis.
+Depois de criar um relatório, pode otimizá-lo para telemóveis e tablets.
 
 1. Na Vista de Relatório do Power BI Desktop, no separador **Ver**, selecione **Esquema do Telefone**.  
    
@@ -32,7 +32,7 @@ Depois de criar um relatório, pode otimizá-lo para telemóveis.
    
     No serviço Power BI, selecione **Editar Relatório** > **Esquema Móvel**.
 
-    Verá uma tela de telemóvel em branco. Todos os elementos visuais na página de relatório original estão listados no painel Visualizações à direita.
+    Vai ver uma tela em branco com a forma de um telefone. Todos os elementos visuais na página de relatório original estão listados no painel Visualizações à direita.
 
 3. Para adicionar um elemento visual ao esquema de telemóvel, arraste-o do painel Visualizações para a tela do telemóvel.
    
@@ -44,14 +44,14 @@ Depois de criar um relatório, pode otimizá-lo para telemóveis.
 
 4. Pode redimensionar os elementos visuais na grelha, tal como faria para mosaicos em dashboards e dashboards móveis.
    
-   A grelha de relatório de telemóvel é dimensionada nos telemóveis de tamanhos diferentes, pelo que o relatório será apresentado corretamente em ecrãs pequenos e grandes.
+   A grelha de relatório de telemóvel é dimensionada nos telemóveis de tamanhos diferentes, pelo que o relatório é apresentado corretamente em ecrãs pequenos e grandes.
    
    ![Redimensionar um elemento visual](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Otimizar um elemento visual para qualquer tamanho
-Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. 
+Pode definir os visuais no seu dashboard ou reportar como *reativo*. Estes podem ser alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. 
 
-À medida que o elemento visual muda de tamanho, o Power BI dá prioridade à vista de dados, por exemplo, ao remover o preenchimento e ao mover a legenda para a parte superior do elemento visual automaticamente, para que o elemento visual permaneça informativo mesmo enquanto fica mais pequeno.
+À medida que o elemento visual muda de tamanho, o Power BI dá prioridade à vista de dados. Por exemplo, pode remover o preenchimento e mover a legenda para a parte superior do elemento visual automaticamente, para que o elemento visual permaneça informativo mesmo enquanto fica mais pequeno.
 
 ![Redimensionamento de elemento visual reativo](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
@@ -89,7 +89,7 @@ Leia mais sobre a [criação de segmentações de dados reativas](power-bi-slice
   
     Leia mais sobre [partilhas e permissões no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-## <a name="view-optimized-and-unoptimized-reports-on-a-phone"></a>Ver relatórios otimizados e não otimizados num telemóvel
+## <a name="view-optimized-and-unoptimized-reports-on-a-phone-or-tablet"></a>Ver relatórios otimizados e não otimizados num telemóvel ou tablet
 Em aplicações móveis em telemóveis, o Power BI deteta automaticamente os relatórios otimizados e não otimizados. Se existir um relatório otimizado para telemóvel, a aplicação de telemóvel do Power BI abre automaticamente o relatório no modo de relatório de telemóvel.
 
 Se não existir um relatório otimizado para telemóvel, o relatório é aberto na vista horizontal não otimizada.  
@@ -100,9 +100,9 @@ Se apenas otimizar algumas páginas, os leitores verão uma mensagem na vista ve
 
 ![Página de telemóvel não otimizada](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Os leitores de relatórios podem colocar os telemóveis de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o seu telemóvel](consumer/mobile/mobile-apps-view-phone-report.md).
+Os leitores de relatórios podem colocar os telemóveis ou tablets de lado para ver a página no modo horizontal. Leia mais sobre como [interagir com relatórios do Power BI otimizados para o modo vertical](consumer/mobile/mobile-apps-view-phone-report.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Criar uma vista de telemóvel de um dashboard no Power BI](service-create-dashboard-mobile-phone-view.md)
 * [Ver relatórios do Power BI otimizados para o seu telemóvel](consumer/mobile/mobile-apps-view-phone-report.md)
 * [Criar elementos visuais reativos otimizados para qualquer tamanho](visuals/desktop-create-responsive-visuals.md)

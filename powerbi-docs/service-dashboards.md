@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331948"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280587"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
 
@@ -48,15 +48,15 @@ Os [Relatórios](service-reports.md) e os dashboards parecem semelhantes porque 
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
-| Disponível no Power BI Desktop |Não |Sim, os ***criadores*** podem criar e ver relatórios no Power BI Desktop |
+| Disponível no Power BI Desktop |Não | Podem criar e ver relatórios no Power BI Desktop |
 | Subscrever |Pode subscrever um dashboard |Pode subscrever páginas de relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
 | Destaques |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
 | Favorito | Pode definir dashboards como *favoritos* | Pode definir relatórios como *favoritos*
 | Definir alertas |Disponível para mosaicos de dashboards em determinadas circunstâncias |Não disponível nos relatórios |
-| Consultas de linguagem natural |Disponível no dashboard |Não disponível nos relatórios |
+| Consultas de linguagem natural (Perguntas e Respostas) |Disponível nos dashboards | Disponível nos relatórios |
 | Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados mas não pode ver tabelas e campos no próprio dashboard. |Sim. Pode ver tabelas, campos e valores de conjuntos de dados. |
-| Personalização |Não |Na Vista de leitura, pode publicar, incorporar, filtrar, exportar, transferir como .pbix, ver conteúdos relacionados, gerar códigos QR, analisar no Excel e mais.  |
+
 
 ## <a name="next-steps"></a>Próximos passos
 * Conheça melhor os dashboards ao ver uma apresentação de um dos nossos [dashboards de exemplo](sample-tutorial-connect-to-the-samples.md).

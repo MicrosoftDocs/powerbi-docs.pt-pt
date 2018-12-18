@@ -1,21 +1,22 @@
 ---
-title: Pesquisar e ordenar conteúdo no serviço Power BI
+title: Pesquise e ordene o seu conteúdo no serviço Power BI
 description: documentação para pesquisar e ordenar conteúdo em áreas de trabalho do Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3c66a428fabadaf53e2b1f7745b6de9668a9e532
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 7f56cb4ec9859750c218975d25f3b8e2dd8a0469
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49113019"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280472"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisar, localizar e ordenar conteúdo no serviço Power BI
 Existem várias formas de navegar no conteúdo no serviço Power BI. O conteúdo está organizado por tipos nas áreas de trabalhos: dashboards, relatórios, livros e conjuntos de dados.  O conteúdo também está organizado por utilização: favoritos, recentes, aplicações, partilhados comigo e em destaque. Para uma navegação num só local, a página Base organiza todo o conteúdo numa única página. Estes diferentes caminhos no conteúdo permitem-lhe localizar rapidamente o que precisa no serviço Power BI.  

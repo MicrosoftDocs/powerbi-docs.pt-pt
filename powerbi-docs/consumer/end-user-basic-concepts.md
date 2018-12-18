@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641764"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280541"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI – conceitos básicos do serviço Power BI para ***consumidores***
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceitos básicos para os ***consumidores*** do serviço Power BI
 
 ## <a name="power-bi-consumers-and-designers"></a>*Consumidores* e *criadores* do Power BI
 Este artigo pressupõe que já leu a [Descrição geral do Power BI](../power-bi-overview.md) e se identificou como um ***consumidor*** do Power BI. Os consumidores recebem conteúdos do Power BI, como dashboards e relatórios, dos colegas. Os consumidores utilizam o serviço Power BI, que é uma versão do Power BI em site. 
@@ -33,21 +34,21 @@ A maioria dos consumidores do Power BI obtém o serviço Power BI porque 1) a re
 
 Para começar, abra um browser e escreva **app.powerbi.com**. Na primeira vez que abrir o serviço Power BI, verá uma página como esta.
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Ecrã de boas-vindas para o serviço Power BI](media/end-user-basic-concepts/power-bi-open.png)
 
 À medida que utilizar o Power BI, poderá personalizar o que lhe será apresentado sempre que abrir o site.  Por exemplo, ao abrir o site, algumas pessoas preferem que seja apresentada a Página Inicial do Power BI, enquanto outras pessoas preferem ver um dashboard favorito. Não se preocupe, iremos mostrar-lhe como fazer isto. 
 - [Página Inicial (Pré-visualização)](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [Definir conteúdos como **em destaque**](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![mostra a vista da Home page e a vista do dashboard](media/end-user-basic-concepts/power-bi-first.png)
 
 Antes de avançar mais, vamos falar sobre os elementos base que constituem o serviço Power BI.
 
 ## <a name="power-bi-content"></a>***Conteúdos*** do Power BI
 ### <a name="introduction-to-building-blocks"></a>Introdução aos elementos base
-Para um consumidor do Power BI, os cinco elementos base são: ***visualizações***, ***dashboards***, ***relatórios***, ***aplicações*** e ***conjuntos de dados***. Por vezes, estes elementos são denominados ***conteúdos*** do *Power BI*. Os *conteúdos* existem em ***áreas de trabalho***. Uma área de trabalho comum envolve todos estes elementos: um *criador* do Power BI (a amarelo no diagrama abaixo) recolhe dados de *conjuntos de dados*, incorpora-os no Power BI para análise, cria *relatórios* com *visualizações* que destacam informações e factos interessantes, afixa as visualizações dos relatórios num dashboard e partilha os relatórios e dashboards com *consumidores* como você (a preto no diagrama abaixo) sob a forma de *aplicações* ou outros tipos de conteúdos partilhados. 
+Para um consumidor do Power BI, os cinco elementos base são: ***visualizações***, ***dashboards***, ***relatórios***, ***aplicações*** e ***conjuntos de dados***. Por vezes, estes elementos são denominados ***conteúdos*** do *Power BI*. Os *conteúdos* existem em ***áreas de trabalho***. Um fluxo de trabalho típico envolve todos estes blocos de compilação:  Um *criador* do Power BI (a amarelo no diagrama abaixo) recolhe dados de *conjuntos de dados*, incorpora-os no Power BI para análise, cria *relatórios* com *visualizações* que destacam informações e factos interessantes, afixa as visualizações dos relatórios num dashboard e partilha os relatórios e dashboards com *consumidores* como você (a preto no diagrama abaixo) sob a forma de *aplicações* ou outros tipos de conteúdos partilhados. 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![gráfico de fluxo, básico](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Fundamentalmente: 
 * ![ícone de visualização](media/end-user-basic-concepts/visual.png) Uma ***visualização*** (ou *elemento visual*) é um tipo de gráfico utilizado pelos *criadores* do Power BI com os dados de *relatórios* e *conjuntos de dados*. Geralmente, os *criadores* criam os elementos visuais no Power BI Desktop. 
@@ -71,14 +72,14 @@ _______________________________________________________
 
 
 
-## <a name="datasets"></a>Conjuntos de dados
+## <a name="datasets"></a>Conjuntos de Dados
 Um *conjunto de dados* é uma coleção de dados importada ou à qual os *criadores* se ligam e depois utilizam para criar relatórios e dashboards. Como um consumidor, não irá interagir diretamente com conjuntos de dados, mas pode ser útil compreender o papel dos mesmos no panorama geral.  
 
 Cada conjunto de dados representa uma origem de dados única, por exemplo, um livro do Excel no OneDrive, um conjunto de dados tabular SSAS local ou um conjunto de dados do Salesforce. São suportadas várias origens de dados diferentes.
 
 Quando um criador partilha uma aplicação consigo, pode ver os conjuntos de dados incluídos com a aplicação. 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Aplicações selecionadas e seta a apontar para a secção Conjuntos de dados na tela](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **UM** conjunto de dados...
 
@@ -107,57 +108,57 @@ A comunidade também disponibiliza visualizações, que são denominadas *elemen
 * Pode ser utilizada em vários dashboards diferentes
 __________________________________________________
 ## <a name="reports"></a>Relatórios
-Um relatório do Power BI é composto por uma ou mais páginas de visualizações, gráficos e texto. Todas as visualizações num relatório são provenientes de um único conjunto de dados. Os *criadores* partilham relatórios com os *consumidores*, que [interagem com os relatórios na *Vista de leitura*](end-user-reading-view.md).
+Um relatório do Power BI é composto por uma ou mais páginas de visualizações, gráficos e texto. Todas as visualizações num relatório vêm de um único conjunto de dados. Os *criadores* partilham relatórios com os *consumidores*, que [interagem com os relatórios na *Vista de leitura*](end-user-reading-view.md).
 
 ![relatório com separadores](media/end-user-basic-concepts/power-bi-report2.png)
 
 **UM** relatório...
 
-* Pode ser associado a vários dashboards (os mosaicos afixados desse relatório único podem aparecer em vários dashboards)
+* pode ser associado a vários dashboards (os mosaicos afixados desse relatório único podem aparecer em vários dashboards).
 * É criado através dos dados de um único conjunto de dados  
 * Pode fazer parte de múltiplas aplicações.
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![relação de desenho de um relatório](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>Dashboards
 Um dashboard representa uma vista personalizada de um subconjunto de um ou vários conjuntos de dados subjacentes. Os *criadores* criam dashboards e partilham-nos com os *consumidores*, de forma individual ou como parte de uma aplicação. Um dashboard é uma única tela que contém *mosaicos*, gráficos e texto. 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![dashboard de exemplo](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Um mosaico é uma representação de um elemento visual que um *criador* *afixa*, por exemplo, a um dashboard a partir de um relatório.  Cada mosaico afixado apresenta uma [visualização](end-user-visualizations.md) que foi criada a partir de um conjunto de dados e afixada a esse dashboard. Um mosaico também pode conter uma página de relatório inteira, bem como um vídeo ou dados de transmissão em direto. Os *criadores* podem adicionar mosaicos a dashboards de muitas formas, pelo que não é possível abordá-las todas neste tópico geral. Para saber mais, veja [Mosaicos de dashboard no Power BI](end-user-tiles.md). 
+Um mosaico é uma representação de um elemento visual que um *criador* *afixa*, por exemplo, a um dashboard a partir de um relatório.  Cada mosaico afixado apresenta uma [visualização](end-user-visualizations.md) que foi criada a partir de um conjunto de dados e afixada a esse dashboard. Um mosaico também pode conter uma página de relatório inteira, bem como um vídeo ou dados de transmissão em direto. Os *criadores* podem adicionar mosaicos a dashboards de muitas formas, pelo que não é possível abordá-las todas neste tópico geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](end-user-tiles.md). 
 
 Os consumidores não podem editar dashboards. No entanto, podem adicionar comentários, ver dados relacionados, definir o dashboard como favorito, subscrevê-lo e mais. 
 
 Quais são as finalidades dos dashboards?  Eis algumas delas:
 
-* Ver rapidamente todas as informações necessárias para tomar decisões
-* Monitorizar as informações mais importantes sobre o seu negócio
-* Garantir que todos os colegas estão em sintonia, a ver e utilizar as mesmas informações
-* Monitorizar a solidez de uma empresa, produto, unidade de negócio, campanha de marketing, etc.
-* Criar uma vista personalizada de um dashboard maior – todas as métricas importantes para si
+* para ver rapidamente todas as informações necessárias para tomar decisões
+* para monitorizar as informações mais importantes sobre o seu negócio
+* para garantir que todos os colegas estão em sintonia, visualizando e usando a mesma informação
+* para monitorizar a solidez de uma empresa, produto, unidade de negócio, campanha de marketing, etc.
+* para criar uma vista personalizada de um dashboard maior – todas as métricas importantes para si
 
 **UM** dashboard...
 
-* Pode apresentar visualizações de vários conjuntos de dados diferentes
-* Pode apresentar visualizações de vários relatórios diferentes
-* Pode apresentar visualizações afixadas de outras ferramentas (por exemplo, do Excel)
+* pode exibir visualizações de vários conjuntos de dados diferentes
+* pode exibir visualizações de vários relatórios diferentes
+* pode mostrar visualizações afixadas de outras ferramentas (por exemplo, Excel)
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![relação de desenho de um dashboard](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>Aplicações
 Estas coleções de dashboards e relatórios organizam e agrupam os conteúdos num único pacote. Os *criadores* do Power BI criam e partilham aplicações com utilizadores individuais, grupos, uma organização inteira ou com o público. Como consumidor, pode ter a certeza de que você e os seus colegas estão a trabalhar nos mesmos dados: uma única versão das informações. 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![Aplicações selecionadas no leftnav](media/end-user-basic-concepts/power-bi-app.png)
 
 É fácil encontrar e instalar aplicações no serviço Power BI (https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel. 
 
 Esta aplicação tem três dashboards e três relatórios relacionados que constituem uma única aplicação.
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![conteúdo relacionado para a aplicação selecionada](media/end-user-basic-concepts/power-bi-app-list.png)
 
 Com as aplicações, sempre que o autor da aplicação lançar atualizações, o utilizador pode vê-las automaticamente. O autor também controla quantas vezes os dados são agendados para atualização, para que não se tenha de preocupar em atualizá-los.
 

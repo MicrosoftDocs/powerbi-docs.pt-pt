@@ -1,21 +1,22 @@
 ---
-title: Adicionar um filtro de relatório
+title: Adicionar um filtro a um relatório
 description: Como adicionar um filtro a um relatório no serviço Power BI para consumidores
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473813"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280771"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 Este artigo analisa o painel Filtros de relatórios no serviço Power BI.
@@ -29,14 +30,14 @@ Quando um colega partilha um relatório consigo, verifique o painel **Filtros**.
 
 ![relatório no browser](media/end-user-report-filter/power-bi-expanded.png)
 
-O painel Filtros contém filtros que foram adicionados ao relatório pelo *designer* do relatório. Os *consumidores* como você, podem interagir com os filtros e guardar as suas alterações, mas não podem adicionar novos filtros ao relatório. Por exemplo, na captura de ecrã acima, o estruturador adicionou dois filtros de nível de página: Segment (Segmento) e Year (Ano). Pode interagir com estes filtros e alterá-los, mas não pode adicionar um terceiro filtro de nível de página.
+O painel Filtros contém filtros que foram adicionados ao relatório pelo *designer* do relatório. Os *consumidores* como você, podem interagir com os filtros e guardar as suas alterações, mas não podem adicionar novos filtros ao relatório. Por exemplo, na captura de ecrã acima, o estruturador adicionou dois filtros de nível de página: Segmento e Ano. Pode interagir com estes filtros e alterá-los, mas não pode adicionar um terceiro filtro de nível de página.
 
 No serviço Power BI, os relatórios mantêm todas as alterações que fizer no painel Filtros e essas alterações transitam para a versão para dispositivos móveis do relatório. Para repor o painel Filtros para as predefinições do designer, selecione **Repor para predefinição** na barra de menus superior.     
 
 ## <a name="open-the-filters-pane"></a>Abrir o painel Filtros
 Quando um relatório está aberto, o painel Filtros é apresentado no lado direito da tela de relatórios. Se não vir o painel, selecione a seta no canto superior direito para expandi-la.  
 
-Neste exemplo selecionámos um visual com 6 filtros. A página de relatórios também tem filtros, listados no cabeçalho **Filtros de nível de página**. Há um [Filtro de pormenorização](../power-bi-report-add-filter.md) e o relatório completo tem também um filtro: **FiscalYear** is 2013 or 2014 (Ano Fiscal é 2013 ou 2014).
+Neste exemplo selecionámos um visual com 6 filtros. A página de relatórios também tem filtros, listados no cabeçalho **Filtros de nível de página**. Há um [Filtro de pormenorização](../power-bi-report-add-filter.md) e o relatório completo tem também um filtro:  **FiscalYear** é 2013 ou 2014.
 
 ![lista de campos](media/end-user-report-filter/power-bi-filter-list.png)
 

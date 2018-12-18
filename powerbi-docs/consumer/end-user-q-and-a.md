@@ -1,21 +1,22 @@
 ---
-title: Descrição geral das Perguntas e Respostas no serviço Power BI e no Desktop
+title: Descrição geral das Perguntas e Respostas no serviço Power BI
 description: Tópico de descrição geral de documentação para perguntas e respostas sobre linguagem natural em consultas do Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396365"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279585"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Perguntas e Respostas para **consumidores** do Power BI
 ## <a name="what-is-qa"></a>O que são as Perguntas e Respostas?
@@ -46,7 +47,7 @@ Em primeiro lugar, familiarize-se com os conteúdos. Observe as visualizações 
 
 ![Ecrã Perguntas e Respostas](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* Se os valores e as etiquetas do eixo das visualizações incluírem "vendas", "conta", "mês" e "oportunidades", pode fazer perguntas como: "que *conta* tem a *oportunidade* mais alta" ou "mostrar *vendas* por mês como um gráfico de barras".
+* Se os valores e as etiquetas do eixo das visualizações incluírem "vendas", "conta", "mês" e "oportunidades", pode fazer perguntas como: "Que *conta* tem a *oportunidade* mais alta" ou "mostrar *vendas* por mês como um gráfico de barras."
 
 * Se tiver dados de desempenho do site no Google Analytics, pode perguntar às Perguntas e Respostas sobre o tempo gasto numa página Web, o número de visitas à página exclusiva e taxas de envolvimento do utilizador. Ou, se estiver a consultar dados demográficos, pode fazer perguntas sobre a idade e a renda doméstica por local.
 
@@ -63,18 +64,18 @@ O P e R escolhe a melhor visualização com base nos dados que são apresentados
 Também pode informar ao P e R a visualização que será utilizada ao adicioná-la à sua pergunta. Mas tenha em mente que não será sempre possível apresentar os dados no tipo de visualização que pediu. As Perguntas e Respostas vão apresentar-lhe uma lista dos tipos de visualizações viáveis.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-**Pergunta**: não vejo as Perguntas e Respostas neste dashboard.    
-**Resposta 1**: se não vir uma caixa de perguntas, verifique primeiro as suas definições. Para fazê-lo, selecione o ícone de engrenagem no canto superior direito da barra de ferramentas do Power BI.   
+**Pergunta**: Não vejo as Perguntas e Respostas neste dashboard.    
+**Resposta 1**: Se não vir uma caixa de perguntas, verifique primeiro as suas definições. Para fazê-lo, selecione o ícone de engrenagem no canto superior direito da barra de ferramentas do Power BI.   
 ![ícone de engrenagem](media/end-user-q-and-a/power-bi-settings.png)
 
 Em seguida, selecione **Definições** > **Dashboards**. Certifique-se de que existe uma marca de verificação junto a **Mostrar a caixa de pesquisa Perguntas e Respostas neste dashboard**.
 ![Definições de Perguntas e Respostas do dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**Resposta 2**: por vezes, o *designer* do dashboard ou o seu administrador podem desativar as Perguntas e Respostas. Contacte os mesmos para saber se é possível voltar a ativá-las.   
+**Resposta 2**: Por vezes, o *designer* do dashboard ou o seu administrador podem desativar as Perguntas e Respostas. Contacte os mesmos para saber se é possível voltar a ativá-las.   
 
-**Pergunta**: não estou a obter os resultados que pretendo ver ao escrever uma pergunta.    
-**Resposta**: fale com o *designer* do dashboard. Existem várias formas de o designer conseguir melhorar os resultados das Perguntas e Respostas. Por exemplo, o designer pode mudar o nome das colunas no conjunto de dados de maneira a utilizar termos que sejam fáceis de compreender (`CustomerFirstName` em vez de `CustFN`). Uma vez que o designer conhece extensivamente o conjunto de dados, o próprio também poderá elaborar perguntas úteis e adicioná-las à tela das Perguntas e Respostas.
+**Pergunta**: Não estou a obter os resultados que pretendo ver ao escrever uma pergunta.    
+**Resposta**: Fale com o *designer* do dashboard. Existem várias formas de o designer conseguir melhorar os resultados das Perguntas e Respostas. Por exemplo, o designer pode mudar o nome das colunas no conjunto de dados de maneira a utilizar termos que sejam fáceis de compreender (`CustomerFirstName` em vez de `CustFN`). Uma vez que o designer conhece extensivamente o conjunto de dados, o próprio também poderá elaborar perguntas úteis e adicioná-las à tela das Perguntas e Respostas.
 
 ![pergunta em destaque com contorno](media/end-user-q-and-a/power-bi-featured-q.png)
 

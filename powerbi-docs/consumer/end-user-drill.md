@@ -1,33 +1,34 @@
 ---
-title: Modo de desagregação numa visualização no Power BI
+title: Desagregar e agregar numa visualização
 description: Este documento demonstra como desagregar numa visualização no serviço Microsoft Power BI e no Power BI Desktop.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679499"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280997"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de desagregação numa visualização no Power BI
 
 ## <a name="drill-requires-a-hierarchy"></a>A desagregação requer uma hierarquia
 Quando um visual tem uma hierarquia, pode desagregar para revelar detalhes adicionais. Por exemplo, pode ter uma visualização que observa a contagem de medalhas olímpicas por uma hierarquia constituída por desporto, disciplina e evento. Por predefinição, a visualização mostra a contagem de medalhas por desporto: ginástica, esqui, desportos aquáticos, etc. Mas, uma vez que tem uma hierarquia, selecionar um dos elementos visuais (como uma barra, linha ou bolha) mostraria uma imagem cada vez mais detalhada. Selecione o elemento **desportos aquáticos** para ver os dados sobre natação, mergulho e polo aquático.  Selecione o elemento **mergulho** para ver detalhes sobre eventos de prancha, plataforma e mergulho sincronizado.
 
-Pode adicionar hierarquias a relatórios que lhe pertencem, mas não àqueles que foram partilhados consigo.
+Pode adicionar hierarquias a relatórios que lhe pertencem, mas não àqueles relatórios que foram partilhados consigo.
 Não sabe que visualizações do Power BI contêm uma hierarquia?  Passe o cursor por uma visualização e, se vir estes controlos de desagregação nos cantos superiores, a sua visualização tem uma hierarquia.
 
-![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
-![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
+![desagregar um nível](./media/end-user-drill/power-bi-drill-icon4.png)![ativar e desativar desagregação](./media/end-user-drill/power-bi-drill-icon2.png)![ícone para desagregar todos os campos de uma só vez](./media/end-user-drill/power-bi-drill-icon3.png)
+![ícone para agregar](./media/end-user-drill/power-bi-drill-icon5.png)![ícone para expandir](./media/end-user-drill/power-bi-drill-icon6.png)  
 
 As datas são um tipo único de hierarquia. Quando adicionar um campo de data a uma visualização, o Power BI adiciona automaticamente uma hierarquia de tempo que contém ano, trimestre, mês e dia. Para obter mais informações, veja [Hierarquias visuais e comportamento de desagregação](../guided-learning/visualizations.yml?tutorial-step=18) ou veja o vídeo abaixo.
 
@@ -42,15 +43,15 @@ As datas são um tipo único de hierarquia. Quando adicionar um campo de data a 
 
 1. No serviço Power BI ou no Power BI Desktop, a desagregação requer uma visualização com uma hierarquia. 
    
-2. Para continuar, [abra o exemplo Análise de Retalho](../sample-datasets.md) e crie um treemap que utilize as **Unidades Totais Este Ano** (Valores) por **Território**, **Cidade**, **Código Postal**, e **Nome** (Grupo).  O treemap tem uma hierarquia constituída por território, cidade, código postal e nome de cidade. Cada território tem uma ou mais cidades, cada cidade tem um ou mais códigos postais, etc. Por predefinição, a visualização mostra apenas os dados de território, uma vez que *Território* aparece em primeiro lugar na lista.
+2. Para continuar, [abra o exemplo Análise de Retalho](../sample-datasets.md) e crie um mapa de árvore que utilize as **Unidades Totais Este Ano** (Valores) por **Território**, **Cidade**, **Código Postal** e **Nome** (Grupo).  O mapa de árvore tem uma hierarquia constituída por território, cidade, código postal e nome de cidade. Cada território tem uma ou mais cidades, cada cidade tem um ou mais códigos postais, etc. Por predefinição, a visualização mostra apenas os dados de território, uma vez que *Território* aparece em primeiro lugar na lista.
    
-   ![](media/end-user-drill/power-bi-hierarcy-list.png)
+   ![Selecione "Território"](media/end-user-drill/power-bi-hierarcy-list.png)
 
-2. Compreender a forma como os vários ícones de desagregação funcionam em conjunto pode ser confuso, por isso iremos filtrar o treemap para apresentar apenas dois dos territórios mais pequenos: **KY** e **TN**. Selecione o treemap e, em **Filtros de nível visual**, expanda **Território** e selecione **KY** e **TN**.
+2. Compreender a forma como os vários ícones de desagregação funcionam em conjunto pode ser confuso, por isso iremos filtrar o mapa de árvore para apresentar apenas dois dos territórios mais pequenos: **KY** e **TN**. Selecione o mapa de árvore e, em **Filtros de nível visual**, expanda **Território** e selecione **KY** e **TN**.
 
     ![Filtro para KY e TN](./media/end-user-drill/power-bi-filter.png)    
 
-   Agora, apenas dois territórios são apresentados no treemap.
+   Agora, apenas dois territórios são apresentados no mapa de árvore.
 
    ![Ícone de desagregação duplo](./media/end-user-drill/power-bi-territories.png)
 
@@ -67,7 +68,7 @@ Existem várias opções para aceder às funcionalidades de agregação, desagre
 
 - Na barra de menus do Power BI, selecione o botão **Explorar**.
 
-   ![](media/end-user-drill/power-bi-explore.png)
+   ![Ao selecionar Explorar são apresentas as opções e ícones de desagregação](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>Caminhos de desagregação
 ### <a name="drill-down"></a>Desagregar
@@ -77,7 +78,7 @@ Existem várias formas de explorar a visualização. ***Desagregar*** conduz ao 
 
 ### <a name="expand"></a>Expandir
 
-***Expandir*** adiciona outro nível de hierarquia à vista atual. Por isso, se estiver no nível **Território**, pode expandir e adicionar detalhes de cidade, código postal e nome ao treemap. Cada passo no caminho apresenta as mesmas informações e adiciona um nível de informações novas.
+***Expandir*** adiciona outro nível de hierarquia à vista atual. Por isso, se estiver no nível **Território**, pode expandir e adicionar detalhes de cidade, código postal e nome ao mapa de árvore. Cada passo no caminho apresenta as mesmas informações e adiciona um nível de informações novas.
 
 ![Caminho de expansão](./media/end-user-drill/power-bi-expand-path.png)
 
@@ -85,11 +86,11 @@ Também pode escolher se quer desagregar ou expandir um campo de cada vez ou tod
 
 ## <a name="drill-down-all-fields-at-a-time"></a>Desagregar todos os campos de uma vez
 
-1. Comece pelo nível superior do treemap que apresenta dados para KY e TN. Alargue o treemap ao selecionar uma das alças e ao arrastar para a direita. 
+1. Comece pelo nível superior do mapa de árvore que apresenta dados para KY e TN. Alargue o mapa de árvore ao selecionar uma das alças e ao arrastar para a direita. 
 
-    ![Treemap a apresentar dois estados](./media/end-user-drill/power-bi-drill-down.png) .
+    ![mapa de árvore que mostra dois estados](./media/end-user-drill/power-bi-drill-down.png) .
 
-2. Para desagregar ***todos os campos de uma vez***, selecione a seta dupla no canto superior esquerdo da visualização ![Ícone de desagregação duplo](./media/end-user-drill/power-bi-drill-icon3.png). O treemap mostra agora dados de cidade para Kentucky e Tennessee. 
+2. Para desagregar ***todos os campos de uma vez***, selecione a seta dupla no canto superior esquerdo da visualização ![ícone de desagregação duplo](./media/end-user-drill/power-bi-drill-icon3.png). O mapa de árvore mostra agora dados de cidade para Kentucky e Tennessee. 
 
     ![Ícone de desagregação duplo](./media/end-user-drill/power-bi-drill-down1.png)
    
@@ -97,7 +98,7 @@ Também pode escolher se quer desagregar ou expandir um campo de cada vez ou tod
 
     ![Ícone de desagregação duplo](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. Para voltar a agregar, selecione a seta para cima no canto superior esquerdo da visualização ![](./media/end-user-drill/power-bi-drill-icon5.png).
+3. Para voltar a agregar, selecione a seta para cima no canto superior esquerdo da visualização ![ícone para agregar um nível](./media/end-user-drill/power-bi-drill-icon5.png).
 
 
 ## <a name="drill-down-one-field-at-a-time"></a>Desagregar um campo de cada vez
@@ -105,41 +106,41 @@ Este método utiliza o ícone de desagregação apresentado no canto superior di
 
 1. Selecione o ícone de desagregação para o ativar ![Desagregação ativada](./media/end-user-drill/power-bi-drill-icon2.png). Agora tem a opção de desagregar ***um campo de cada vez***. 
    
-   ![](media/end-user-drill/power-bi-drill-icon-new.png)
+   ![seta a apontar para o ícone ativar/desativar desagregação](media/end-user-drill/power-bi-drill-icon-new.png)
 
-   Se não ativar a desagregação, selecionar um elemento visual (como uma barra, bolha ou folha) não irá efetuar a desagregação, mas sim uma filtragem cruzada dos outros gráficos na página de relatórios.
+   Se não ativar a desagregação, selecionar um elemento visual (como uma barra, bolha ou folha) não realiza a desagregação, mas sim uma filtragem cruzada dos outros gráficos na página de relatórios.
 
-2. Selecione a *folha* para **TN**. O treemap apresenta agora todas as cidades no Tennessee que têm uma loja. 
+2. Selecione a *folha* para **TN**. O mapa de árvore apresenta agora todas as cidades no Tennessee que têm uma loja. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![o mapa de árvore mostra apenas os dados de Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. A partir deste ponto, pode continuar a desagregação para Tennessee, desagregar para uma determinada cidade do Tennessee ou expandir (veja **Expandir todos os campos de uma vez** abaixo). Continuemos a desagregar um campo de cada vez.  Selecione **Knoxville, TN**. O treemap mostra agora o código postal para a sua loja em Knoxville. 
+2. A partir deste ponto, pode continuar a desagregação para Tennessee, desagregar para uma determinada cidade do Tennessee ou expandir (veja **Expandir todos os campos de uma vez** abaixo). Continuemos a desagregar um campo de cada vez.  Selecione **Knoxville, TN**. O mapa de árvore mostra agora o código postal para a sua loja em Knoxville. 
 
-   ![](media/end-user-drill/power-bi-drill-down-one2.png)
+   ![o mapa de árvore mostra 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
     Repare que o título muda à medida que desagrega e regressa.  
 
 ## <a name="expand-all-and-expand-one-field-at-a-time"></a>Expandir tudo e expandir um campo de cada vez
-Ter um treemap que apresenta apenas um código postal não é muito informativo.  Por isso, vamos expandir para baixo um nível na hierarquia.  
+Ter um mapa de árvore que apresenta apenas um código postal não é informativo.  Por isso, vamos expandir para baixo um nível na hierarquia.  
 
-1. Com o treemap ativo, selecione o ícone *Expandir para baixo* ![Ícone Expandir para baixo](./media/end-user-drill/power-bi-drill-icon6.png). O treemap mostra agora dois níveis da hierarquia: Código Postal e Nome da loja. 
+1. Com o mapa de árvore ativo, selecione o ícone *expandir para baixo* ![ícone de expandir para baixo](./media/end-user-drill/power-bi-drill-icon6.png). O mapa de árvore mostra agora dois níveis da hierarquia: código postal e nome da loja. 
 
     ![Apresentação do código postal e do nome da loja](./media/end-user-drill/power-bi-expand1.png)
 
-2. Para ver os quatro níveis de dados da hierarquia para Tennessee, selecione a seta de agregação até chegar ao segundo nível do treemap, **Unidades totais este ano por território e cidade**. 
+2. Para ver os quatro níveis de dados da hierarquia para Tennessee, selecione a seta de agregação até chegar ao segundo nível do mapa de árvore, **Unidades totais este ano por território e cidade**. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![mapa de árvore que mostra todos os dados para Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
-3. Certifique-se de que a desagregação continua ativada ![desagregação ativada](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *Expandir para baixo* ![Ícone Expandir para baixo](./media/end-user-drill/power-bi-drill-icon6.png). O treemap apresenta agora alguns detalhes adicionais. Em vez de apresentar apenas a cidade e o estado, apresenta agora também o código postal. 
+3. Certifique-se de que a desagregação continua ativada ![desagregação ativada](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo* ![ícone de expandir para baixo](./media/end-user-drill/power-bi-drill-icon6.png). O mapa de árvore apresenta agora alguns detalhes adicionais. Em vez de apresentar apenas a cidade e o estado, apresenta agora também o código postal. 
 
     ![Ícone de desagregação duplo](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Selecione novamente o ícone *Expandir para baixo* para apresentar os quatro níveis de detalhe da hierarquia para Tennessee no treemap. Coloque o cursor sobre uma folha para ver ainda mais detalhes.
+4. Selecione novamente o ícone *Expandir para baixo* para apresentar os quatro níveis de detalhe da hierarquia para Tennessee no mapa de árvore. Coloque o cursor sobre uma folha para ver ainda mais detalhes.
 
-   ![Treemap a apresentar dados para Tennessee](./media/end-user-drill/power-bi-expand-all.png)
+   ![mapa de árvore que mostra dados para Tennessee](./media/end-user-drill/power-bi-expand-all.png)
 
-## <a name="drilling-filters-other-visuals"></a>Desagregar filtra outros elementos visuais
+## <a name="drilling-filters-other-visuals"></a>A exploração filtra outros elementos visuais
 Ao trabalhar no Modo de desagregação, pode decidir de que forma é que a desagregação e a expansão afetam outras visualizações na página. 
 
 Por predefinição, a desagregação não irá filtrar outros elementos visuais num relatório. No entanto, esta funcionalidade pode ser ativada no Power BI Desktop e no serviço Power BI. 
@@ -179,50 +180,50 @@ Para este exemplo, acompanhe o [exemplo de Análise de Revenda](../sample-datase
 
 Apesar de o campo de dados Eixo ser **Mês**, este cria uma categoria **Ano** no conjunto de dados **Eixo**. Isto deve-se ao facto de o Power BI fornecer uma estrutura DateTime completa para todos os valores que lê. A parte superior da hierarquia mostra os dados do ano.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
+![Barra simples que mostra os dados agrupados por ano](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
-Com o modo Desagregar ativado, clique na barra no gráfico para descer um nível na hierarquia. Verá três barras para os dados dos trimestres disponíveis. Em seguida, nos ícones do canto superior esquerdo, selecione **Expandir tudo para um nível na hierarquia**. Em seguida, faça-o novamente para obter o nível mais baixo da hierarquia, que mostra resultados para cada mês.
+Com o modo desagregar ativado, clique na barra no gráfico para descer um nível na hierarquia. Verá três barras para os dados dos trimestres disponíveis. Em seguida, nos ícones do canto superior esquerdo, selecione **Expandir tudo para um nível na hierarquia**. Em seguida, faça-o novamente para obter o nível mais baixo da hierarquia, que mostra resultados para cada mês.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
+![gráfico de barras para ver barra por mês](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
 
 Além da visualização, podemos ver a hierarquia refletida nos dados compostos para cada relatório. A seguinte tabela mostra os resultados de **Mostrar Dados** num relatório a desagregar de um único mês ou todos os meses. 
 
 Tenha em atenção que os dados são os mesmos para relatórios trimestrais e anuais, mas após desagregar o nível de detalhe especificado para **Valores**, pode ver que o relatório único é mais específico e o relatório "todos os meses" tem mais dados.
 
 
-|Modo Expandir|Year|Trimestre|Mês|Dia|
+|Modo Expandir|Ano|Trimestre|Mês|Dia|
 | ---|:---:|:---:|:---:|---|
-|Único|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|Tudo|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Único|![ano único](./media/end-user-drill/power-bi-hierarchical-year.png)|![trimestre único](media/end-user-drill/power-bi-hierarchical-quarter.png)|![mês único](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![dia único](media/end-user-drill/power-bi-hierarchical-one-day.png)|
+|Tudo|![todos os anos](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos os trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos os meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos os dias](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dados de categoria hierárquica
 Os dados modelados a partir de coleções e subcoleções são hierárquicos. Um bom exemplo disto são os dados de localização. Pense numa tabela numa origem de dados cujas colunas são Country (País), State (Estado), City (Cidade) e Zip (Código Postal). Os dados que partilham o mesmo Country (País), State (Estado), City (Cidade) são hierárquicos.
 
-Para este exemplo, acompanhe o [exemplo de Análise de Revenda](../sample-datasets.md). Crie uma visualização de gráfico de coluna empilhada que abranja as **Total Units This Year** (Unidades Totais Este Ano) (Valores) por **Territory** (Território), **City** (Cidade), **PostalCode** (Código Postal) e **Name** (Nome) (Grupo).  
+Para este exemplo, acompanhe o [exemplo de Análise de Revenda](../sample-datasets.md). Crie uma visualização de gráfico de coluna empilhada que abranja as **Unidades Totais Este Ano** (Valores) por **Território**, **Cidade**, **Código Postal** e **Nome** (Grupo).  
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
+![gráfico de barras que mostra as Unidades totais deste ano por território](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
 
-Com o modo Desagregar ativado, nos ícones do canto superior esquerdo, selecione **Expandir tudo para um nível na hierarquia** três vezes.
+Com o modo desagregar ativado, nos ícones do canto superior esquerdo, selecione **Expandir tudo para um nível na hierarquia** três vezes.
 Deverá estar no nível mais baixo da hierarquia, que mostra resultados para Territory (Território), City (Cidade) e Postal Code (Código Postal).
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
+![gráfico de barras que mostra o nível mais baixo da hierarquia, a maioria dos detalhes](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
 
 Além da visualização, podemos ver a hierarquia refletida nos dados compostos para cada relatório. A seguinte tabela mostra os resultados de **Mostrar Dados** num relatório a desagregar para um único território ou todos os territórios. À medida que desagrega, pode ver como o relatório relativo a um território se torna mais específico e o relatório "todos os territórios" tem mais dados.
 
 
-| Modo Expandir|Territory|Cidade|Postal|Nome|
+| Modo Expandir|Território|Cidade|Postal|Nome|
 | ---|:---:|:---:|:---:|---|
-|Único|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Tudo|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Único|![território único](./media/end-user-drill/power-bi-hierarchical-territory.png)|![cidade única](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![código postal único](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![nome único](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Tudo|![todos os territórios](./media/end-user-drill/power-bi-hierarchical-territory.png)|![todas as cidades](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![todos os códigos postais](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![todos os nomes](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 * Se adicionar um campo de data a uma visualização não criar uma hierarquia, pode ser que o campo "data" não esteja realmente guardado como uma data. Se for o proprietário do conjunto de dados, abra-o na vista de *Dados* no Power BI Desktop, selecione a coluna que contém a data e, no separador Modelação, altere o **Tipo de Dados** para **Data** ou **Data/Hora**. Se o relatório tiver sido partilhado consigo, contacte o proprietário para pedir a alteração.  
   
-  ![](media/end-user-drill/power-bi-change-data-type2.png)
+  ![selecione a vista de dados e, na parte superior direita, veja Tipo de Data](media/end-user-drill/power-bi-change-data-type2.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Visualizações nos relatórios do Power BI](../visuals/power-bi-report-visualizations.md)
 
 [Relatórios do Power BI](end-user-reports.md)

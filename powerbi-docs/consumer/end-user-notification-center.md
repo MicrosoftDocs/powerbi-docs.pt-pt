@@ -1,24 +1,25 @@
 ---
-title: Centro de Notificações do Power BI
+title: Ver mensagens no Centro de Notificações
 description: O Centro de Notificações é um feed sequencial de informações relacionadas com a sua experiência do Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e8b380194bf0e0214b791149d059a138f1bd337e
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 47329053fa774634f4af44c2bed549222d68a4a0
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565734"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280058"
 ---
-# <a name="power-bi-notifications"></a>Notificações do Power BI
+# <a name="view-power-bi-notifications"></a>Ver notificações do Power BI
 O Centro de Notificações é um feed sequencial de informações relacionadas com a sua experiência do Power BI. Abra-o para ver mensagens sobre novos dashboards que foram partilhados consigo, alterações ao seu espaço de Grupo, informações sobre eventos e reuniões do Power BI, alertas definidos e muito mais. Pode [definir alertas no serviço Power BI](../service-set-data-alerts.md) e também nas aplicações móveis do Power BI.
 
 Veja Amanda a rever as notificações que recebeu, a gerir as notificações e a responder-lhes. Em seguida, siga as instruções abaixo do vídeo para experimentar.

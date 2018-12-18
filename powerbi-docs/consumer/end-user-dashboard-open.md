@@ -1,21 +1,22 @@
 ---
-title: Visualizar um dashboard do Power BI?
-description: Os dashboards são uma funcionalidade chave do serviço Power BI.
+title: Ver um dashboard do Power BI
+description: Os dashboards são uma funcionalidade essencial do serviço Power BI. Saiba como abrir e ver um dashboard.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53575f657c2d58f9d6b1908fb42bbb9267c3a3b8
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 2fa614683ecfebc0693829c834dcfa4f160d22b1
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396687"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279759"
 ---
 # <a name="view-a-dashboard"></a>Visualizar um dashboard
 Os consumidores do Power BI gastam muito tempo a ver dashboards. Os dashboards foram criados para realçar as informações específicas de relatórios e conjuntos de dados subjacentes. E os consumidores do Power BI utilizam essas informações para controlar, monitorizar, responder a perguntas, testar e muito mais – para tomar decisões condicionadas pelos dados empresariais.

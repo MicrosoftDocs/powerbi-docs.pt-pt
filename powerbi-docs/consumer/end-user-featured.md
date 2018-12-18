@@ -1,22 +1,23 @@
 ---
-title: Dashboards em destaque no Power BI
+title: Selecione o dashboard que vai apresentar quando abrir o serviço Power BI
 description: Documentação sobre como criar um dashboard Em Destaque no serviço Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d5f984e4a2bf235450d1916bdf1a47dc163638e8
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473710"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280081"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Dashboards em destaque no serviço Power BI
 ## <a name="create-a-featured-dashboard"></a>Criar um Dashboard Em Destaque

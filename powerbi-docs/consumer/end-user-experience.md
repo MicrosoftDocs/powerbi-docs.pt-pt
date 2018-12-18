@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473871"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280817"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
@@ -40,7 +41,7 @@ Iremos recolher alguns dados de exemplo para utilizar com o nosso guia do servi�
 
     O serviço Power BI importa o exemplo e mostra o dashboard. Os dashboards são um elemento que distingue o serviço Power BI do Power BI Desktop. O exemplo também inclui um relatório e um conjunto de dados, que veremos mais tarde.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![dashboard apresentado](media/end-user-experience/power-bi-dashboard.png)
 
 Assista à apresentação da Amanda sobre a nova experiência de navegação do serviço Power BI.  Em seguida, siga as instruções passo a passo abaixo do vídeo para explorar por si.
 
@@ -50,7 +51,7 @@ Assista à apresentação da Amanda sobre a nova experiência de navegação do 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Ver conteúdo (dashboards, relatórios, livros, conjuntos de dados, áreas de trabalho, aplicações)
 Vamos começar por observar como está organizado o conteúdo básico (dashboards, relatórios, conjuntos de dados, livros). Os conteúdos são apresentados dentro do contexto de uma área de trabalho. Neste momento, terá apenas uma área de trabalho chamada **A Minha Área de Trabalho**. Normalmente, os consumidores não precisam de ou utilizam outras áreas de trabalho. A Minha Área de Trabalho armazena todos os conteúdos de que é proprietário. Considere-a a sua sandbox pessoal ou uma área de trabalho para o seu próprio conteúdo. A Minha Área de Trabalho é o local onde o exemplo de Análise de Revenda que acabou de transferir é guardado. 
 
-Em A Minha Área de Trabalho, o conteúdo está organizado em 4 separadores: Dashboards, Relatórios, Livros e Conjuntos de Dados.
+Na Minha Área de Trabalho, o conteúdo está organizado em quatro separadores: Dashboards, Relatórios, Livros e Conjuntos de dados.
 
 ![Ecrã A Minha Área de Trabalho](./media/end-user-experience/power-bi-my-workspace.png)
 
