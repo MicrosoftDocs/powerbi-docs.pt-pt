@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979560"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280932"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -22,6 +22,36 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>Novembro de 2018
+
+### <a name="modern-visual-header"></a>Cabeçalho de elemento visual moderno 
+
+Os relatórios que utilizam o novo “cabeçalho de elemento visual moderno” deixarão de atribuir espaço para os cabeçalhos, o que resultará em menos espaço vazio e mais espaço para as visualizações.
+
+### <a name="enhance-presentation-mode-windows"></a>Otimizar o modo de apresentação (Windows)
+
+Modo de apresentação avançado para dispositivos Surface Hub e Windows 10.  Desfrute de uma experiência de sala de reunião avançada no Surface Hub com ferramentas de apresentação e colaboração melhoradas e uma vista otimizada “chromeless” de grandes dimensões para que se possa concentrar nos seus dados. O modo de apresentação também disponibiliza ferramentas como a escrita para o ajudar a apresentar e a debater os seus dados com eficiência. Saiba mais sobre o modo de apresentação [aqui](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/).
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Esquema de relatório vertical em tablets (iOS e Android)
+
+Agora, utilizamos o esquema de relatório de telemóvel, quando existe, para apresentar relatórios no tablet no modo vertical. Saiba mais sobre [como criar o esquema de telemóvel no serviço Power BI ou no Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+
+### <a name="supporting-report-query-string"></a>Suporte para a cadeia de consulta do relatório 
+
+A ligação do relatório que inclui a cadeia de consulta agora será aberta na aplicação móvel e será previamente filtrada com base nas condições definidas na cadeia de consulta. Saiba mais sobre [como criar o URL do relatório com a cadeia de consulta](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+
+### <a name="shared-credentials-now-in-android"></a>Credenciais partilhadas (agora no Android)
+
+Iniciar sessão no Power BI na aplicação móvel nunca foi tão fácil. Com as credenciais partilhadas, simplificámos o processo de início de sessão através da utilização de outras credenciais da aplicação do Office 365 no dispositivo para o autenticar no serviço Power BI.
+
+### <a name="in-app-urls-now-in-android"></a>URLs na aplicação (agora no Android) 
+
+As ligações nos relatórios que apontam para outros artefactos do Power BI agora abrem diretamente dentro da aplicação. Tal permite-lhe criar fluxos personalizados de navegação, por exemplo, ligar de um relatório para um dashboard.
+
+### <a name="show-data-and-copy-values"></a>Mostrar dados e valores de cópia
+
+O menu de ação do elemento visual do relatório (...) agora tem a opção de apresentar os dados subjacentes no formato de tabela. Uma vez na tabela, pode premir sem soltar para selecionar e copiar os valores da tabela (partindo do princípio de que não há nenhuma política do Intune que impeça a cópia).
 
 ## <a name="october-2018"></a>Outubro de 2018
 

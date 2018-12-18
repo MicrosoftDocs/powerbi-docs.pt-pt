@@ -1,33 +1,34 @@
 ---
-title: Alterar a forma como um gráfico é ordenado num relatório do Power BI
+title: Alterar a forma como um gráfico é ordenado num relatório
 description: Alterar a forma como um gráfico é ordenado num relatório do Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979347"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280012"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado pela categoria **nome de loja**.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 É fácil alterar a ordenação de uma categoria (nome de arquivo) para um valor (vendas por metro quadrado).
 
 1. Selecione as reticências (...) e selecione **Ordenar por > Vendas Por Metro Quadrado**.
 2. Se necessário, selecione as reticências novamente e selecione **Ordenação descendente**.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![vídeo que mostra a ordem de seleção ascendente e descendente](media/end-user-change-sort/sort.gif)
 
    **NOTA**: Nem todos os elementos visuais podem ser ordenados.  Por exemplo, os elementos visuais seguintes não podem ser ordenados: Treemap, Mapa, Mapa de Manchas, Dispersão, Medidor, Cartão, Cartão de Várias Linhas, Cascata.
 

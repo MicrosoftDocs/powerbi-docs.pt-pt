@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026253"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280633"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>A nova experiência de filtros nos relatórios do Power BI (Pré-visualização)
 
@@ -34,11 +34,11 @@ Enquanto estruturador de relatórios, eis o que pode fazer com os novos filtros:
 
 ## <a name="turn-on-the-new-filter-experience"></a>Ativar a nova experiência de filtros 
 
-Vai ativar a nova experiência no Power BI Desktop. Em seguida, pode modificar os filtros aqui ou no serviço Power BI (https://app.powerbi.com). Uma vez que esta nova experiência de filtros está em Pré-visualização, tem de a ativar primeiro no Power BI Desktop. 
+Vai ativar a nova experiência no Power BI Desktop. Em seguida, pode modificar os filtros aqui ou no serviço Power BI (https://app.powerbi.com). Uma vez que esta nova experiência de filtros está em Pré-visualização, tem de a ativar primeiro no Power BI Desktop. Se começar por criar um relatório no serviço Power BI, este não poderá conter os novos filtros.
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>Ativar os novos filtros para todos os novos relatórios
 
-1. Selecione **Ficheiro** > **Opções e Definições** > **Opções** > **Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Nova experiência de filtros**. 
+1. No Power BI Desktop, selecione **Ficheiro** > **Opções e Definições** > **Opções** > **Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Nova experiência de filtros**. 
 2. Reinicie o Power BI Desktop para ver a nova experiência de filtros em todos os novos relatórios.
 
 Depois de reiniciar o Power BI Desktop, a nova experiência fica ativada por predefinição para todos os novos relatórios que criar.  
@@ -47,7 +47,7 @@ Depois de reiniciar o Power BI Desktop, a nova experiência fica ativada por pr
 
 Também pode ativar os novos filtros para relatórios existentes.
 
-1. Num relatório existente, selecione **Ficheiro** > **Opções e Definições** > **Opções**
+1. No Power BI Desktop, num relatório existente, selecione **Ficheiro** > **Opções e Definições** > **Opções**.
 2. Em **Definições de relatório**, selecione **Ativar o painel de filtros atualizado e apresentar filtros no cabeçalho do elemento visual deste relatório**.
 
 ## <a name="build-the-new-filter-pane"></a>Criar o novo painel de filtros

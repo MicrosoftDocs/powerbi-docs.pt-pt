@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026798"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281020"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Ligar a Informações sobre Consumo do Azure no Power BI Desktop (Beta)
 O conector **Informações sobre Consumo do Azure** permite utilizar o **Power BI Desktop** para ligar ao Azure e obter dados e informações aprofundados sobre a utilização dos serviços do Azure por parte da sua organização. Também pode criar medidas, colunas personalizadas e elementos visuais para documentar e partilhar informações sobre a utilização do Azure por parte da sua organização. Esta versão do conector **Informações sobre Consumo do Azure** encontra-se em fase experimental (Beta) e está sujeita a alterações.
@@ -70,7 +70,7 @@ Pode selecionar a caixa de verificação ao lado de qualquer uma das tabelas par
 > 
 > 
 
-Ao selecionar **Carregar**, os dados são carregados no **Power BI Desktop**.
+Ao selecionar **Carregar**, os dados são carregados no **Power BI Desktop**.  O conetor carregará os dados de acordo com o período de tempo predefinido da tabela.  Se precisar de personalizar o período de tempo, [poderá configurar uma consulta personalizada](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
