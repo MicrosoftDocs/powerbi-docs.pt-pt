@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268372"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026713"
 ---
-# <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
+# <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
 O portal de administração permite-lhe gerir o *inquilino* do Power BI da sua organização. O portal inclui itens, como métricas de utilização, acesso ao centro de administração do Office 365 e definições.
 
@@ -45,7 +46,7 @@ Existem sete separadores no portal. O resto deste artigo disponibiliza informaç
 * [Códigos de incorporação](#embed-codes)
 * [Elemento visuais da organização](#organization-visuals)
 
-## <a name="usage-metrics"></a>Métrica de utilização
+## <a name="usage-metrics"></a>Métricas de utilização
 
 As **Métricas de utilização** permitem-lhe monitorizar a utilização do Power BI da sua organização. Permite também ver quais os utilizadores e os grupos mais ativos no Power BI para a sua organização.
 
@@ -105,15 +106,15 @@ A imagem seguinte mostra as duas primeiras secções do separador **Definições
 
 As definições podem ter três estados:
 
-* **Desativado para toda a organização**: ninguém na sua organização pode utilizar esta funcionalidade.
+* **Desativado para toda a organização**: Ninguém na sua organização pode utilizar esta funcionalidade.
 
     ![Definição Desativado para todos](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Ativado para toda a organização**: todas as pessoas na sua organização podem utilizar esta funcionalidade.
+* **Ativado para toda a organização**: Todas as pessoas na sua organização podem utilizar esta funcionalidade.
 
     ![Definição Ativado para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Ativado para um subconjunto da organização**: um subconjunto específico de utilizadores ou grupos na sua organização pode utilizar esta funcionalidade.
+* **Ativado para um subconjunto da organização**: Um subconjunto específico de utilizadores ou grupos na sua organização pode utilizar esta funcionalidade.
 
     Pode ativar a funcionalidade para toda a organização, exceto para um grupo específico de utilizadores.
 
@@ -328,7 +329,7 @@ Enquanto administrador, pode ver os códigos de incorporação gerados para o se
 
 ![Códigos de incorporação no portal de administração do Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Elementos visuais da organização
+## <a name="organization-visuals"></a>Elementos visuais de organização
 
 O separador **Elementos visuais da organização** permite-lhe implementar e gerir os elementos visuais personalizados na sua organização. Com os elementos visuais organizacionais, pode facilmente implementar elementos visuais proprietários na sua organização, os quais os autores dos relatórios podem posteriormente detetar e importar para os seus relatórios do Power BI Desktop. [Saiba mais](power-bi-custom-visuals-organization.md)
 
@@ -355,7 +356,7 @@ Para adicionar um novo elemento visual personalizado à lista, siga estes passos
 
     * **Atribuir um nome ao elemento visual personalizado** (obrigatório): atribua um título curto ao elemento visual para que os utilizadores do Power BI Desktop compreendam facilmente o que faz
 
-    * **Ícone**: o ficheiro de ícones que é mostrado na IU do Power BI Desktop.
+    * **Ícone**: O ficheiro de ícones que é mostrado na IU do Power BI Desktop.
 
     * **Descrição**: uma breve descrição do elemento visual para proporcionar mais contexto e informação ao utilizador
 

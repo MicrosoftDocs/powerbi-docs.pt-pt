@@ -1,23 +1,23 @@
 ---
 title: O que são relatórios paginados no Power BI Premium? (Pré-visualização)
-description: Os relatórios paginados são relatórios que podem ser impressos ou partilhados. Pode controlar o esquema do relatório com exatidão. Os relatórios paginados apresentam todos os dados numa tabela, por exemplo, mesmo que a tabela se estenda por várias páginas.
+description: Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Estes relatórios podem ser impressos ou partilhados. Pode controlar o esquema do relatório com exatidão. Os relatórios paginados apresentam todos os dados numa tabela, por exemplo, mesmo que a tabela se estenda por várias páginas.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289226"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026133"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>O que são relatórios paginados no Power BI Premium? (Pré-visualização)
-Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Os relatórios paginados são relatórios concebidos para serem impressos ou partilhados. Os relatórios são designados "paginados" porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Às vezes são chamados “imagem perfeita”, uma vez que pode controlar o esquema de página do relatório com exatidão. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. O Report Builder é a ferramenta autónoma para a criação de relatórios paginados. 
+Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Estes relatórios podem ser impressos ou partilhados. Os relatórios são designados "paginados" porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Às vezes são chamados “imagem perfeita”, uma vez que pode controlar o esquema de página do relatório com exatidão. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. O Report Builder é a ferramenta autónoma para a criação de relatórios paginados. 
 
 Os relatórios paginados podem ter muitas páginas. Por exemplo, este relatório tem 563 páginas. Cada página está disposta com exatidão, com uma página por fatura e cabeçalhos e rodapés repetidos.
 
@@ -27,7 +27,7 @@ Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no ser
 
 ## <a name="create-reports-in-report-builder"></a>Criar relatórios no Report Builder
 
-Os relatórios paginados têm a sua própria ferramenta de criação, o Report Builder. É a mesma ferramenta e versão utilizada para criar relatórios paginados para o Power BI Report Server ou para o SQL Server Reporting Services (SSRS). Na verdade, os relatórios paginados que criar para o SSRS 2016 e 2017 ou para o Power BI Report Server no local são compatíveis com o serviço Power BI. O serviço Power BI mantém a retrocompatibilidade, pelo que pode mudar os relatórios para a versão mais recente e pode atualizar os relatórios paginados de qualquer versão anterior. Nem todas as funcionalidades de relatórios estão disponíveis no lançamento. Veja a secção [Limitações e considerações](#limitations-and-considerations) neste artigo para obter detalhes.
+Os relatórios paginados têm a sua própria ferramenta de criação, o Report Builder. É a mesma ferramenta e versão utilizada para criar relatórios paginados para o Power BI Report Server ou para o SQL Server Reporting Services (SSRS). Na verdade, os relatórios paginados que criar para o SSRS 2016 e 2017 ou para o Power BI Report Server no local, são compatíveis com o serviço Power BI. O serviço Power BI mantém a retrocompatibilidade, pelo que pode mudar os relatórios para a versão mais recente e pode atualizar os relatórios paginados de qualquer versão anterior. Nem todas as funcionalidades de relatórios estão disponíveis no lançamento. Veja a secção [Limitações e considerações](#limitations-and-considerations) neste artigo para obter detalhes.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Relatório de diversas origens de dados
 
@@ -43,7 +43,7 @@ Estarão disponíveis mais origens de dados durante o período de pré-visualiza
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>Criar relatórios paginados com matriz, gráfico e esquemas de forma livre
 
-Crie relatórios de tabela para dados baseados em colunas, relatórios de matriz (como relatórios de referência cruzada ou de Tabela Dinâmica) para dados resumidos, relatórios de gráficos para dados gráficos e relatórios de *lista* de forma livre para todos os outros dados, como faturas. 
+Os relatórios de tabela funcionam bem para dados baseados em colunas. Os relatórios de matriz, como relatórios de referência cruzada ou de Tabela Dinâmica, são ideais para dados resumidos. Os relatórios de gráfico apresentam dados num formato gráfico e os relatórios de *lista* de forma livre podem apresentar quase todos os dados, como faturas. 
   
 Pode começar com um dos assistentes do Report Builder. Os Assistentes de tabelas, de matrizes e de gráficos vão guiá-lo durante a criação da ligação à origem de dados incorporada e ao conjunto de dados incorporado. Em seguida, vai arrastar e largar os campos para criar uma consulta de conjunto de dados, selecionar um esquema e estilo e personalizar o relatório.  
   
@@ -66,7 +66,7 @@ Pode ver o relatório paginado no serviço Power BI num browser e também nas a
 
 Apresentamos a seguir mais algumas funcionalidades que não são suportadas na versão inicial:
 
-- Afixar páginas de relatórios ou elementos visuais em dashboards do Power BI.
+- Afixar páginas de relatórios ou elementos visuais em dashboards do Power BI. Pode ainda afixar visualizações a um dashboard do Power BI a partir de um relatório paginado no local num servidor de relatórios do Power BI Report Server ou do Reporting Services. Veja [Afixar itens do Reporting Services nos dashboards do Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) para obter mais informações.
 - Funcionalidades interativas como mapas de documentos e os botões mostrar/ocultar.
 - Sub-relatórios e relatórios de pormenorização.
 - Subscrições.
