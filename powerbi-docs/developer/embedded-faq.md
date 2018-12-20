@@ -114,7 +114,7 @@ Só pode criar capacidades PBIE na sua região de inquilino do Power BI.
 
 Pode utilizar o portal do Power BI para saber qual é a sua região de Inquilino do Power BI.
 
-https://app.powerbi.com/ > ? > Sobre o Power BI
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Sobre o Power BI
 
 ![Sobre o Power BI](media/embedded-faq/about-01.png)
 ![Região de inquilino](media/embedded-faq/tenant-location-01.png)
