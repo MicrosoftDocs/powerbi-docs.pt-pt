@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
 ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289203"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451358"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Descrição geral do programa de pacotes de conteúdos do serviço Power BI
 Um pacote de conteúdos é um conjunto de conteúdos que permite aos utilizadores obter imediatamente informações a partir de uma origem. Um pacote de conteúdos concentra-se normalmente num cenário empresarial específico que fornece informações para uma função, domínio ou fluxo de trabalho.
@@ -65,7 +65,7 @@ Os pacotes de conteúdos fornecem informações e métricas concentradas num cen
 
 Não. Os pacotes de conteúdos do serviço Power BI requerem uma API para programadores acessível através da Internet pública.
 
-**Que tipos de APIs são suportados pelos pacotes de conteúdos do serviço e que tipos de autenticação podem utilizar?**
+**Que tipo de APIs são suportados pelos pacotes de conteúdos do serviço e que tipos de autenticação podem utilizar?**
 
 Os pacotes de conteúdos do serviço Power BI suportam qualquer API REST ou feed OData. O Power BI pode utilizar diversos tipos de autenticação, incluindo Autenticação Básica, OAuth2.0 e Chave de API Web. Pode obter mais detalhes sobre os requisitos técnicos no artigo [Criação](template-content-pack-authoring.md#dashboard).
 

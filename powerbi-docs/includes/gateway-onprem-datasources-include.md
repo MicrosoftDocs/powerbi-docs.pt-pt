@@ -6,7 +6,7 @@
 | Multidimensional do Analysis Services |Sim |Sim |
 | Ficheiro |Não |Sim |
 | Pasta |Não |Sim |
-| IBM DB2 |Não |Sim |
+| IBM DB2 |Sim |Sim |
 | Base de Dados IBM Informix |Não |Sim |
 | IBM Netezza |Sim |Sim |
 | Impala |Sim |Sim |

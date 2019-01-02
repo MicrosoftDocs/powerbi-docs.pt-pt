@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
 ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268326"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451381"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar o acesso da aplicação móvel do Power BI para iOS a um servidor de relatórios remotamente
 
@@ -38,7 +38,7 @@ A seguinte tabela enuncia os pares.
 | com.microsoft.powerbi.mobile.ServerURL | Cadeia | URL do Servidor de Relatórios </br> Deve começar por http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | Cadeia | [opcional] </br> O nome de utilizador a utilizar para ligar o servidor. </br> Se não existir, a aplicação pedirá ao utilizador para escrever o nome de utilizador para a ligação.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Cadeia | [opcional] </br> O valor predefinido é "Servidor de relatórios" </br> Um nome amigável utilizado na aplicação para representar o servidor | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | O valor predefinido é Verdadeiro </br>Quando definido como "True", substitui todas as definições do Servidor de Relatórios já existente no dispositivo móvel. Os servidores existentes que já estiverem configurados serão eliminados. </br> Quando a substituição está definida como Verdadeiro, isto impede também que o utilizador remova essa configuração. </br> Se estiver definido como "Falso", adicionará os valores emitidos, mantendo as definições existentes. </br> Se o mesmo URL do servidor já estiver configurado na aplicação móvel, esta manterá essa configuração tal como está. A aplicação não pedirá ao utilizador para voltar a autenticar para o mesmo servidor. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | O valor predefinido é Verdadeiro </br>Quando definido como "True", substitui todas as definições do Servidor de Relatórios já existente no dispositivo móvel. Os servidores existentes que já estiverem configurados serão eliminados. </br> Quando a substituição está definida como Verdadeiro, isto impede também que o utilizador remova essa configuração. </br> Se estiver definido como "Falso", adicionará os valores emitidos, mantendo as definições existentes. </br> Se o mesmo URL do servidor já estiver configurado na aplicação móvel, esta manterá essa configuração tal como está. A aplicação não pedirá ao utilizador para voltar a autenticar para o mesmo servidor. |
 
 Eis um exemplo de definição da política de configuração com o Intune.
 
