@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026713"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735575"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -44,7 +44,7 @@ Existem sete separadores no portal. O resto deste artigo disponibiliza informaç
 * [Definições de inquilino](#tenant-settings)
 * [Definições Premium](#premium-settings)
 * [Códigos de incorporação](#embed-codes)
-* [Elemento visuais da organização](#organization-visuals)
+* [Elementos visuais de organização](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Métricas de utilização
 
@@ -386,6 +386,18 @@ Após qualquer atualização ou alteração de administrador, os utilizadores do
 Para atualizar o elemento visual na loja organizacional, selecione o ícone de engrenagem. Procure e carregue uma nova versão do elemento visual.
 
 Confirme que o ID de Elemento Visual permanece inalterado. O novo ficheiro substituirá o ficheiro anterior em todos os relatórios da organização. Contudo, se houver a possibilidade de a nova versão do elemento visual interromper qualquer utilização ou estrutura de dados da versão anterior do elemento visual, não substitua a versão anterior. Em vez disso, deve criar uma nova lista para a nova versão do elemento visual. Por exemplo, adicione um novo número de versão (versão X.X) ao título do novo elemento visual listado. Desta forma, torna-se claro que é o mesmo elemento visual apenas com um número de versão atualizado, assim, os relatórios existentes não vão interromper a sua funcionalidade. Novamente, verifique se o ID de Elemento Visual permanece inalterado. Da próxima vez que os utilizadores entrarem no repositório da organização a partir do Power BI Desktop, poderão importar a nova versão, que pedirá a substituição da versão atual que têm no relatório.
+
+Para obter mais informações, visite [Perguntas frequentes sobre os elementos visuais personalizados organizacionais](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
+
+## <a name="dataflow-storage-preview"></a>Armazenamento do fluxo de dados (pré-visualização)
+
+Por predefinição, os dados utilizados com o Power BI são armazenados no armazenamento interno fornecido pelo Power BI. Com a integração dos fluxos de dados e do Azure Data Lake Storage Gen2 (ADLS Gen2), pode armazenar os seus fluxos de dados na conta do Azure Data Lake Storage Gen2 da sua organização. Para obter mais informações, veja [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md).
+
+## <a name="workspaces-preview"></a>Áreas de trabalho (pré-visualização)
+
+Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquilino. Pode ordenar e filtrar a lista de áreas de trabalho e ver os detalhes de cada área de trabalho. Tenha em atenção que as colunas da tabela correspondem às propriedades devolvidas pela [API Rest do administrador do Power BI](/rest/api/power-bi/admin) para áreas de trabalho. As áreas de trabalho pessoais são do tipo **PersonalGroup**, as áreas de trabalho de legado são do tipo **Group** e as áreas de trabalho modernas são do tipo **Workspace**. Para obter mais informações, veja [Criar as novas áreas de trabalho (pré-visualização) no Power BI](service-create-the-new-workspaces.md).
+
+![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="next-steps"></a>Próximos passos
 

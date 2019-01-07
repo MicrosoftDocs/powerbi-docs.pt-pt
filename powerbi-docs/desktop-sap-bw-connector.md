@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452873"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451450"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Utilizar o Conector SAP BW no Power BI Desktop
 Com o Power BI Desktop, pode aceder aos dados do **SAP Business Warehouse (BW)**.
@@ -66,7 +66,7 @@ Tem de especificar um *Servidor*, *Número de Sistema* e *ID de Cliente* para es
 
 ![Definições de ligação do servidor SAP](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-Também pode especificar duas **Opções avançadas** adicionais: Código de idioma e uma afirmação MDX personalizada para execução no servidor especificado.
+Também pode especificar duas **Opções avançadas** adicionais: o código de idioma e uma instrução MDX personalizada para executar no servidor especificado.
 
 ![informações de ligação adicionais](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,8 +78,8 @@ Ao selecionar um ou mais itens do servidor, é criada uma pré-visualização da
 
 A janela do **Navegador** também oferece algumas **Opções de Apresentação** que lhe permitem fazer o seguinte:
 
-* **Apresentar *Somente Itens Selecionados* versus *Todos os Itens* (vista predefinida):** esta opção é útil para verificar o conjunto final dos itens selecionados. Uma abordagem alternativa para ver isto é selecionar os *Nomes de Coluna* na área *Pré-visualização*.
-* **Ativar Pré-visualizações de Dados (comportamento predefinido):** também pode controlar se as pré-visualizações de dados devem ser apresentadas neste diálogo. A desativação das pré-visualizações de dados reduz a quantidade de chamadas do servidor, uma vez que ele não pede dados para as pré-visualizações.
+* **Apresentar *Apenas Itens Selecionados* em vez de *Todos os Itens* (vista predefinida):** esta opção é útil para verificar o conjunto final de itens selecionados. Uma abordagem alternativa para ver isto é selecionar os *Nomes de Coluna* na área *Pré-visualização*.
+* **Ativar Pré-Visualização dos Dados (comportamento predefinido):** também pode controlar se as pré-visualizações de dados devem ser apresentadas nesta caixa de diálogo. A desativação das pré-visualizações de dados reduz a quantidade de chamadas do servidor, uma vez que ele não pede dados para as pré-visualizações.
 * **Nomes Técnicos:** o SAP BW suporta o conceito de *nomes técnicos* para objetos num cubo. Os nomes técnicos permitem que um proprietário de cubo exponha nomes *amigáveis* para objetos do cubo, em vez de apenas expor os *nomes físicos* desses objetos no cubo.
 
 ![a janela Navegador](media/desktop-sap-bw-connector/sap_bw_6.png)

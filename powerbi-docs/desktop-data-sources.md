@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619822"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329746"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -78,6 +78,7 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (Beta)
 * Conector BI
 * Exasol
 * Dremio (Beta)
@@ -137,7 +138,7 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 for Customer Insights (Beta)
-* Data.World – Obter Conjunto de Dados (Beta)
+* Data.World - Obter Conjunto de Dados (Beta)
 * Facebook
 * GitHub (Beta)
 * MailChimp (Beta)
@@ -150,7 +151,7 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * SparkPost (Beta)
 * Stripe (Beta)
 * SweetIQ (Beta)
-* Planview Enterprise One–- CMT (Beta)
+* Planview Enterprise One - CMT (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -171,8 +172,8 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Microsoft Exchange
 * Ficheiro Hadoop (HDFS)
 * Spark
-* Script do R
-* Script de Python
+* Script R
+* Script Python
 * ODBC
 * OLEDB
 * Denado

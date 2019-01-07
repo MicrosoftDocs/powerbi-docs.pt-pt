@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 0b5693dfa53feba35acb559bf8606b1d03f97fdb
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223330"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329792"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
@@ -25,17 +25,6 @@ Pode criar **descrições de relatórios** visualmente avançadas que surgem ao 
 Pode criar as páginas de descrição que pretender. Cada página de descrição pode ser associada a um ou mais campos do relatório de forma a que, quando pairar o cursor sobre um elemento visual que inclua o campo selecionado, a descrição criada na página de descrição seja apresentada, filtrada com base no ponto de dados sobre o qual está a pairar o cursor do rato. 
 
 Existem inúmeras coisas interessantes que pode fazer com as descrições de relatórios. Veja como pode criar descrições e o que tem de fazer para as configurar.
-
-### <a name="enable-the-tooltips-preview"></a>Ativar a pré-visualização de descrições 
-A partir da versão de setembro de 2018 do **Power BI Desktop**, as descrições estarão disponíveis para o público e não precisarão de ser ativadas. 
-
-Se estiver a utilizar uma versão anterior do **Power BI Desktop**, pode ativar esta funcionalidade como pré-visualização ao selecionar **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** no Power BI Desktop e, em seguida, selecionar a caixa de verificação junto a **Descrições da página de relatório**. 
-
-![Ativar a funcionalidade de pré-visualização de descrições de relatórios](media/desktop-tooltips/desktop-tooltips_01.png)
-
-Terá de reiniciar o **Power BI Desktop** após efetuar a seleção para ativar a versão de pré-visualização das descrições de relatórios.
-
-Recomendamos sempre que atualize para a versão mais recente do **Power BI Desktop**, que pode obter através de uma ligação no artigo [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="create-a-report-tooltip-page"></a>Criar uma página de descrições de relatórios
 Para começar, crie uma nova página de relatório ao clicar no botão **+**, que se encontra na parte inferior da tela do **Power BI Desktop**, na área de separadores de página. O botão encontra-se junto à última página no relatório. 
@@ -123,8 +112,7 @@ Quando um elemento visual é realçado de forma cruzada num relatório, as descr
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Existem algumas limitações e considerações a ter em conta relativamente às **descrições**.
 
-* A partir da versão de setembro de 2018 do **Power BI Desktop**, que assinalou a disponibilidade das descrições para o público, os elementos visuais Cartão também suportarão descrições.
-* A partir da versão de julho de 2018 do **Power BI Desktop**, os elementos visuais Tabela e Matriz têm suporte para descrições. 
+* A partir da versão de dezembro de 2018 do **Power BI Desktop**, os elementos visuais de botões também suportam descrições.
 * As descrições de relatórios não são suportadas durante a visualização de relatórios em aplicações móveis. 
 * As descrições de relatórios não são suportadas para elementos visuais personalizados. 
 * Atualmente, os clusters não são suportados como campos que podem ser apresentados em descrições de relatórios. 

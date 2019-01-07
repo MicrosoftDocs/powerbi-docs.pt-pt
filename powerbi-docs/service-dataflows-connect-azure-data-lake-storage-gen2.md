@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200655"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649051"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados (Pré-visualização)
 
@@ -76,7 +76,7 @@ Na janela **Adicionar atribuição de função**, selecione a função **Leitor*
 
 Tem de criar um sistema de ficheiros com o nome *powerbi* antes de ser possível adicionar a conta de armazenamento ao Power BI. Existem várias maneiras de criar esse sistema de ficheiros, incluindo através do Azure Databricks, do HDInsight, do AZCopy ou do Explorador de Armazenamento do Azure. Esta secção mostra-lhe uma maneira simples de criar um sistema de ficheiros com o Explorador de Armazenamento do Azure.
 
-Para realizar este passo, tem de instalar o Explorador de Armazenamento do Azure. Para instalar o Explorador de Armazenamento do Azure para Windows, Macintosh ou Linux, veja o artigo [Explorador de Armazenamento do Azure](https://azure.microsoft.com/features/storage-explorer/).
+Para realizar este passo, tem de instalar a versão 1.6.1 ou posterior do Explorador de Armazenamento do Azure. Para instalar o Explorador de Armazenamento do Azure para Windows, Macintosh ou Linux, veja o artigo [Explorador de Armazenamento do Azure](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Depois de instalar o Explorador de Armazenamento do Azure com êxito, quando este for iniciado pela primeira vez, a janela Explorador de Armazenamento do Azure – Ligar é apresentada. Apesar de o Explorador de Armazenamento oferecer várias maneiras de estabelecer ligação às contas de armazenamento, apenas uma delas é atualmente suportada para a configuração necessária. 
 
@@ -108,11 +108,11 @@ Para encontrar aplicações do inquilino, siga estes passos:
 
     ![Aplicações empresariais do AAD](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. Na barra de pesquisa, escreva *Power* para visualizar uma coleção de IDs de Objeto das aplicações Power BI e Power Query.
+4. Na barra de pesquisa, escreva *Power* para visualizar uma coleção de IDs de Objeto das aplicações Power BI e Power Query. Precisará dos três valores nos passos subsequentes.  
 
     ![Procurar aplicações começadas por Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selecione e copie o ID de Objeto do serviço Power BI nos resultados da pesquisa. Esteja pronto para colar esse valor em passos subsequentes.
+5. Selecione e copie os IDs de Objeto do serviço Power BI e do Power BI Premium nos resultados da pesquisa. Prepare-se para colar esses valores em passos subsequentes.
 
 7. Em seguida, utilize o **Explorador de Armazenamento do Azure** para navegar para o sistema de ficheiros *powerbi* que criou na secção anterior. Siga as instruções apresentadas na secção [Gerir o acesso](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) do artigo [Definir permissões ao nível do ficheiro e do diretório com o Explorador de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
 
@@ -120,7 +120,7 @@ Para encontrar aplicações do inquilino, siga estes passos:
 
    ![para ambos, atribuir as três](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Para o ID de Objeto Online do Power Query recolhido no passo 5, atribua ACLs de Predefinição e Acesso de **Escrita** e **Execução** ao seu sistema de ficheiros *powerbi*.
+9. Para o ID de Objeto Online do Power Query recolhido no passo 4, atribua ACLs de Predefinição e Acesso de **Escrita** e **Execução** ao seu sistema de ficheiros *powerbi*.
 
    ![em seguida, atribua permissões de escrita e execução](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

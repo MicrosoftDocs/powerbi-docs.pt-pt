@@ -13,7 +13,7 @@ Se ocorrerem problemas de autenticação no servidor proxy, experimente alterar 
 
 ## <a name="ports"></a>Portas
 
-O gateway cria uma ligação de saída ao Azure Service Bus. Comunica com as portas de saída: TCP 443 (predefinida), 5671, 5672, 9350 a 9354.  O gateway não precisa de portas de entrada.
+O gateway cria uma ligação de saída ao Azure Service Bus. Este comunica com as portas de saída: TCP 443 (predefinição), 5671, 5672 e 9350 a 9354.  O gateway não precisa de portas de entrada.
 
 Recomenda-se que coloque os endereços IP na lista branca, para a sua região de dados, na firewall. Pode transferir a [lista de IPs do Microsoft Azure Datacenter](https://www.microsoft.com/download/details.aspx?id=41653), que é atualizada semanalmente. O gateway comunica com o Azure Service Bus utilizando o IP em conjunto com o nome de domínio completamente qualificado (FQDN). Se estiver a forçar o gateway para comunicar através de HTTPS, este utiliza estritamente apenas FQDN e não ocorre qualquer comunicação com os endereços IP.
 

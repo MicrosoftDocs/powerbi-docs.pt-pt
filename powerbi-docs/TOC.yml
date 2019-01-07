@@ -100,7 +100,7 @@ items:
       href: desktop-upload-desktop-files.md
     - name: Visualizações personalizadas no Power BI
       href: power-bi-custom-visuals.md
-    - name: Elementos visuais personalizados para organizações no Power BI
+    - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
       href: power-bi-custom-visuals-organization.md
     - name: Parte I, Adicionar visualizações a um relatório do Power BI
       href: visuals/power-bi-report-add-visualizations-i.md
@@ -116,11 +116,11 @@ items:
         href: desktop-data-sources.md
       - name: Ligar a uma página Web por exemplo (pré-visualização)
         href: desktop-connect-to-web-by-example.md
-      - name: Ligar a conjuntos de dados no serviço Power BI
+      - name: Connect to datasets in the Power BI service (Ligar a conjuntos de dados no serviço Power BI)
         href: desktop-report-lifecycle-datasets.md
-      - name: Importar livros do Excel para o Power BI Desktop
+      - name: Import Excel workbooks into Power BI Desktop (Importar livros do Excel para o Power BI Desktop)
         href: desktop-import-excel-workbooks.md
-      - name: Ligar a interfaces genéricas que utilizam dados
+      - name: Connect to data using generic interfaces (Ligar a interfaces genéricas que utilizam dados)
         href: desktop-connect-using-generic-interfaces.md
       - name: Ligar a um ficheiro PDF
         href: desktop-connect-pdf.md
@@ -140,7 +140,7 @@ items:
         href: desktop-r-scripts.md
       - name: Utilizar o R no Editor de Consultas
         href: desktop-r-in-query-editor.md
-      - name: Utilizar um IDE R externo com o Power BI
+      - name: Use an external R IDE with Power BI (Utilizar um IDE R externo com o Power BI)
         href: desktop-r-ide.md
       - name: Supported R packages (Pacotes R suportados)
         href: service-r-packages-support.md
@@ -162,9 +162,9 @@ items:
         href: desktop-connect-redshift.md
       - name: Ligar à página da Web do Power BI Desktop
         href: desktop-connect-to-web.md
-      - name: Ligar a um armazém de informática de Snowflake no Power BI Desktop
+      - name: Connect to a Snowflake computing warehouse in Power BI Desktop (Ligar a um armazém de informática de Snowflake no Power BI Desktop)
         href: desktop-connect-snowflake.md
-      - name: Ligar a dados de Informações sobre Consumo do Azure
+      - name: Connect to Azure Consumption Insights data (Ligar a dados de Informações sobre Consumo do Azure)
         href: desktop-connect-azure-consumption-insights.md
       - name: Utilizar o SAP HANA no Power BI Desktop
         href: desktop-sap-hana.md
@@ -174,9 +174,9 @@ items:
         href: desktop-use-directquery.md
       - name: DirectQuery para bases de dados Oracle e Teradata
         href: desktop-directquery-for-oracle-teradata.md
-      - name: DirectQuery e SAP Business Warehouse (BW)
+      - name: DirectQuery and SAP Business Warehouse (BW) (DirectQuery e SAP Business Warehouse [BW])
         href: desktop-directquery-sap-bw.md
-      - name: DirectQuery e SAP HANA
+      - name: DirectQuery and SAP HANA (DirectQuery e SAP HANA)
         href: desktop-directquery-sap-hana.md
       - name: Definição Assumir integridade referencial no Power BI Desktop
         href: desktop-assume-referential-integrity.md
@@ -1222,6 +1222,8 @@ items:
         href: service-admin-premium-manage.md
       - name: Monitorizar o Power BI Premium
         href: service-admin-premium-monitor-capacity.md
+      - name: Restart a Premium capacity (Reiniciar uma capacidade Premium)
+        href: service-admin-premium-restart.md
       - name: Support for large datasets (Suporte para grandes conjuntos de dados)
         href: service-premium-large-datasets.md
       - name: Atualização incremental
@@ -1281,9 +1283,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 8c0c1c309fc1225e3f5f8535bdb8578294c6ba3f
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983905"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008885"
