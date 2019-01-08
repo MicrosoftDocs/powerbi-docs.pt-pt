@@ -5,24 +5,24 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c5fc2d476a12a4faf60313dd69dce7e143b88807
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 285c22347f049e6b99cb97fa19efc6363d9b57cb
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548172"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008655"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Ligar ao ServiceNow com o Power BI para relatórios de incidentes
 O ServiceNow oferece vários produtos e soluções, incluindo gestão de empresas, operações e TI para melhorar o seu negócio. Este pacote de conteúdos inclui vários relatórios e informações sobre os seus incidentes abertos, resolvidos recentemente e fechados recentemente.  
 
 Ligue ao pacote de conteúdos do Power BI para obter os [Incidentes do ServiceNow](https://app.powerbi.com/getdata/services/servicenow).
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
    
    ![](media/service-connect-to-servicenow/pbi_getdata.png) 
@@ -38,7 +38,7 @@ Ligue ao pacote de conteúdos do Power BI para obter os [Incidentes do ServiceNo
 5. Quando solicitado, introduza as suas credenciais **Básicas** do ServiceNow. Tenha em atenção que o início de sessão único não é suportado atualmente. Pode obter mais detalhes sobre os requisitos de sistema abaixo.
    
    ![](media/service-connect-to-servicenow/creds.png)
-6. Quando o fluxo de início de sessão estiver concluído, o processo de importação será iniciado. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. Quando o fluxo de início de sessão estiver concluído, o processo de importação será iniciado. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
     ![](media/service-connect-to-servicenow/dashboard.png)
 
@@ -60,7 +60,7 @@ Se estiver a obter um erro de credenciais durante o carregamento, consulte os re
 
 Se estiver a ver tempos de carregamento longos, reveja o número de incidentes e o número de dias que especificou durante a ligação, e considere a respetiva redução.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

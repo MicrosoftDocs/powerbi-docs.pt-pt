@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5fe70f2ba213305c5307bb202cacbb1245cf970f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9029d5b6268cacf17fc862a4c0a3d19f440f7de1
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548563"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007942"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Ligue-se ao Lithium com o Power BI
 O Lithium cria relações de confiança entre marcas melhor do mundo e os seus clientes, ajudando as pessoas a obter respostas e partilhar as suas experiências. Ao ligar ao pacote de conteúdos do Lithium ao Power BI, pode medir as métricas-chave sobre a sua comunidade online para ajudar a estimular as vendas, reduzir os custos de serviço e aumentar a fidelidade. 
@@ -43,7 +43,7 @@ Ligue-se ao [pacote de conteúdo do Lithium](https://app.powerbi.com/getdata/ser
    ![](media/service-connect-to-lithium/creds.png)
    
    ![](media/service-connect-to-lithium/creds2.png)
-6. Quando o fluxo de início de sessão estiver concluído, o processo de importação será iniciado. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. Quando o fluxo de início de sessão estiver concluído, o processo de importação será iniciado. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
     ![](media/service-connect-to-lithium/lithium.png)
 
@@ -57,7 +57,7 @@ Ligue-se ao [pacote de conteúdo do Lithium](https://app.powerbi.com/getdata/ser
 ## <a name="system-requirements"></a>Requisitos de sistema
 O pacote de conteúdo do Lithium exige uma comunidade do Lithium v15.9 ou superior. Entre em contacto com seu administrador do Lithium para confirmar.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

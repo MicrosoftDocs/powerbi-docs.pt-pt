@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 6d8471833dac99aa3c54b40f5839e65edfaa03de
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641396"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008977"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Ligar ao Microsoft Dynamics NAV com o Power BI
 É fácil obter informações sobre os dados do Microsoft Dynamics NAV com o Power BI. O Power BI obtém os dados, tanto de Vendas como Financeiros e, em seguida, cria uma aplicação com um dashboard e relatórios baseados nesses dados. O Power BI requer permissões para as tabelas das quais os dados são obtidos, neste caso, dados de vendas e financeiros. Mais detalhes sobre os requisitos abaixo. Após instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 

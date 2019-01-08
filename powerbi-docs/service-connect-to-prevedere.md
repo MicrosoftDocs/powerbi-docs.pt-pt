@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e030d80a26b946d6b99c808c937dca4bb6eb3a62
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e15333af4e2fb8508f76517b193ca4351c2782c7
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543505"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007926"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Ligar ao Prevedere com o Power BI
 Obtenha acesso a informações financeiras exclusivas e essenciais para fomentar o seu negócio com confiança e de forma proativa.
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdos do Prevedere](https://app.powerbi.com/getdata/
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="whats-included"></a>O que está incluído
 O pacote de conteúdos obtém informações aprofundadas sobre as previsões de revenda, os modelos de previsão, os principais indicadores e muito mais.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0931dee6f9719a4a53c5ccf2c20aeb8f9170af42
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6f3a335bea711f1785f498caf7fbc828abb01c18
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549690"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007896"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Ligar ao IntelliBoard com o Power BI
 O IntelliBoard fornece acesso simplificado aos dados do sistema de gestão de aprendizado Moodle por meio do Reporting Services. O pacote de conteúdo do IntelliBoard para o Power BI oferece análises adicionais, incluindo métricas sobre cursos, utilizadores registados, desempenho geral e atividade de LMS.
@@ -32,12 +32,12 @@ Conecte-se ao [pacote de conteúdo do IntelliBoard](https://app.powerbi.com/getd
 3. Selecione **IntelliBoard** e, em seguida **Obter**.  
    
     ![](media/service-connect-to-intelliboard/intelliboard.png)
-4. Selecione **OAuth 2** e **Iniciar Sessão**. Quando solicitado, forneça suas credenciais do IntelliBoard.
+4. Selecione **OAuth 2** e **Entrar**. Quando solicitado, forneça suas credenciais do IntelliBoard.
    
     ![](media/service-connect-to-intelliboard/creds.png)
    
     ![](media/service-connect-to-intelliboard/creds2.png)
-5. Depois de estar ligado, são carregados automaticamente um dashboard, um relatório e um conjunto de dados. Após a conclusão, os blocos são atualizados com os dados da sua conta do IntelliBoard.
+5. Depois de estar ligado, um dashboard, relatório e conjunto de dados são carregados automaticamente. Após a conclusão, os blocos são atualizados com os dados da sua conta do IntelliBoard.
    
     ![](media/service-connect-to-intelliboard/dashboard.png)
 
@@ -62,10 +62,10 @@ O pacote de conteúdos inclui dados das seguintes tabelas:
     - Totais  
     - Progresso dos Utilizadores    
 
-## <a name="system-requirements"></a>Requisitos de sistema
+## <a name="system-requirements"></a>Requisitos do sistema
 É necessário ter uma conta do IntelliBoard com permissões de acesso às tabelas acima para criar uma instância deste pacote de conteúdos.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

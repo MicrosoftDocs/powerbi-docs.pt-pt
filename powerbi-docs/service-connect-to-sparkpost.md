@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 48cdff67e613093c3ac473b0a505a6f0d57f4f2d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547620"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008103"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Ligar-se ao SparkPost com o Power BI
 O pacote de conteúdos do Power BI para SparkPost permite extrair conjuntos de dados valiosos da sua conta do SparkPost para um dashboard de informações. Com o pacote de conteúdos do SparkPost, é possível visualizar as estatísticas gerais de e-mail, incluindo domínios, campanhas e envolvimento por ISP.
@@ -51,7 +51,7 @@ O pacote de conteúdo do SparkPost para o Power BI inclui informações como cli
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>A procurar parâmetros
 O pacote de conteúdos utiliza uma chave de API para ligar a sua conta do SparkPost ao Power BI. É possível encontrar a chave de API em sua conta sob Conta \> API & SMTP (mais detalhes [aqui](https://support.sparkpost.com/customer/portal/articles/1933377-create-api-keys)). Sugerimos que utilize uma chave de API com permissões para `Message Events: Read-only ` e `Metrics: Read-only`
 
 ![](media/service-connect-to-sparkpost/sparkpost1.png)

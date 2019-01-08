@@ -5,24 +5,24 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7bab3839b5f47448a6882d0ea15bb0f253ceb5ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 5162edf7035918289d0f45ec71a0e908fc444cbf
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547889"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008195"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Ligue-se às Previsões de Vendas da Alpine Metrics com o Power BI
-A Alpine Metrics fornece Otimização do Processo de Previsão de Vendas de última geração, na cloud e a pedido, para organizações de vendas de grande e pequena dimensão. O pacote de conteúdos de Previsão de Vendas para o Power BI da Alpine Metrics inclui métricas como potenciais vendas e vendas previstas e respetivos riscos, permitindo-lhe o acesso a informações mais aprofundadas sobre o futuro da sua empresa. 
+A Alpine Metrics fornece Otimização do Processo de Previsão de Vendas de última geração, na nuvem e a pedido, para organizações de vendas de grande e pequena dimensão. O pacote de conteúdos de Previsão de Vendas para o Power BI da Alpine Metrics inclui métricas como potenciais vendas e vendas previstas e respetivos riscos, permitindo-lhe o acesso a informações mais aprofundadas sobre o futuro da sua empresa. 
 
 Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https://app.powerbi.com/getdata/services/alpine-metrics) da Alpine Metrics.
 
-## <a name="how-to-connect"></a>Como se ligar
+## <a name="how-to-connect"></a>Como ligar
 1. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.  
    
     ![](media/service-connect-to-alpine-metrics/getdata.png)
@@ -41,7 +41,7 @@ Ligue-se ao [pacote de conteúdos de Previsão de Vendas para o Power BI ](https
    
     ![](media/service-connect-to-alpine-metrics/dashboard.png)
 
-**O que se segue?**
+**O que vem em seguida?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -65,7 +65,7 @@ O pacote de conteúdos inclui dados das seguintes tabelas:
 ## <a name="system-requirements"></a>Requisitos de sistema
 É necessária uma conta Alpine Metrics com permissões para as tabelas acima, de forma a instanciar este pacote de conteúdos.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

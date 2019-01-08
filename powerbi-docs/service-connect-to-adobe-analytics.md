@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908584"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008701"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Ligar ao Adobe Analytics com o Power BI
 A ligação ao Adobe Analytics através do Power BI começa pela ligação à sua conta do Adobe Analytics Marketing Cloud. Obtém uma aplicação com um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre as dimensões de tráfego e utilizadores do seu site. Os dados são atualizados automaticamente uma vez por dia. Pode interagir com o dashboard e os relatórios, mas não pode guardar as alterações.
@@ -28,10 +28,10 @@ Ligue ao [Adobe Analytics](https://app.powerbi.com/getdata/services/adobe-analyt
 3. Selecione **Adobe Analytics** \> **Ligar**.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-4. O Power BI liga a um ID do Pacote de Relatórios ou Empresa específico do Adobe Analytics (não ao nome do Pacote de Relatórios). Veja detalhes sobre como [encontrar os parâmetros](#FindingParams) abaixo.
+4. O Power BI liga a um ID do Pacote de Relatórios ou Empresa específico do Adobe Analytics (não ao nome do Pacote de Relatórios). Veja detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-5. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**. Quando pedido, insira as suas credenciais do Adobe Analytics. 
+5. Para **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**. Quando pedido, insira as suas credenciais do Adobe Analytics. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
@@ -93,7 +93,7 @@ Se estiver a ver um erro depois de fornecer as suas credenciais a indicar que n�
 
 Se tiver acedido ao ecrã de credenciais antes de receber um erro, é possível que os relatórios estejam a demorar demasiado tempo a concluir. Um erro comum é o formato *"Falha ao obter dados do relatório Adobe Analytics. Conteúdo incluído &quot;referência, página&quot;, duração aproximada de xx segundos"*. Consulte a secção "O que está incluído" e compare com o tamanho da sua instância do Adobe. Lamentamos, mas não existe uma forma de contornar este tempo limite atualmente. No entanto, estamos a considerar atualizações para melhorar o suporte de instâncias de maiores dimensões. Forneça os seus comentários à equipa do Power BI em https://ideas.powerbi.com
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [O que são aplicações no Power BI?](service-create-distribute-apps.md)
 * [Obter dados no Power BI](service-get-data.md)
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544883"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008149"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Ligar ao Twilio com o Power BI
 O pacote de conteúdo do Microsoft Twilio para o Power BI permite recuperar os dados do Twilio para o Power BI e cria um relatório e um [dashboard do Twilio](https://powerbi.microsoft.com/integrations/twilio) prontos para utilização que mostram informações sobre os dados. Também é possível criar os seus relatórios e dashboards personalizados com base no conjunto de dados criado pelo Power BI. Os dados são atualizados uma vez por dia, para que veja sempre os dados mais recentes.
@@ -35,11 +35,11 @@ Ligue-se ao [pacote de conteúdo do Twilio](https://app.powerbi.com/getdata/serv
 4. Como **Método de Autenticação**, selecione **oAuth2** \> Iniciar Sessão. Quando solicitado, forneça as suas credenciais do Twilio e autorize a aplicação Power BI a aceder aos seus dados.
    
    ![](media/service-connect-to-twilio/pbi_twilio_login.png)
-5. Isso inicia a importação de dados da sua conta do Twilio e terá o seu dashboard preenchido com a sua utilização de chamadas e mensagens dos últimos 30 dias. 
+5. Isso inicia a importação de dados da sua conta do Twilio e terá o seu dashboard preenchido com sa ua utilização de chamadas e mensagens dos últimos 30 dias. 
    
    ![](media/service-connect-to-twilio/pbi_twilio_db.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -93,7 +93,7 @@ Um conjunto de estatísticas já agregadas, que talvez queira monitorizar. Este 
 ## <a name="troubleshooting"></a>Resolução de problemas
 Se tiver uma grande quantidade de dados nos últimos 30 dias (centenas de milhares de transações), o passo de obtenção de dados pode falhar. Estamos cientes do problema e a trabalhar para solucioná-lo. Enquanto isso, caso tenha esse problema, utilize a ligação de suporte na parte superior da página do Power BI para nos informar e vamos contatá-lo para averiguações adicionais.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

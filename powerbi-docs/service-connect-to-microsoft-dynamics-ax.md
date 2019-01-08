@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544860"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008126"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Ligar ao pacote de conteúdos do Microsoft Dynamics AX com o Power BI
 O Microsoft Dynamics AX tem três pacotes de conteúdos do Power BI destinados a diferentes utilizadores empresariais. O pacote de conteúdos de Desempenho Financeiro, concebido especificamente para CFOs (diretores financeiros), fornece acesso a informações sobre o desempenho financeiro da sua organização. O pacote de conteúdos de Desempenho do Canal de Revenda destina-se a gestores de canal com foco no desempenho de vendas para prever tendências e descobrir informações diretamente dos dados de Revenda e Comércio. A Gestão de Custo foi concebida para COOs e CFOs e fornece detalhes sobre o desempenho da operação.
@@ -32,7 +32,7 @@ Ligue-se ao pacote de conteúdos [Desempenho de Canal de Revenda](https://app.po
 3. Selecione um dos pacotes de conteúdos do Dynamics AX e escolha **Obter**.
    
    ![](media/service-connect-to-microsoft-dynamics-ax/mdax.png)
-4. Especifique o URL do seu ambiente do Dynamics AX 7. Veja detalhes sobre como [encontrar os parâmetros](#FindingParams) abaixo.
+4. Especifique o URL do seu ambiente do Dynamics AX 7. Veja detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-microsoft-dynamics-ax/params.png)
 5. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**. Quando solicitado, insira as suas credenciais do Dynamics AX.
@@ -57,7 +57,7 @@ O pacote de conteúdos utiliza o feed OData do Dynamics AX 7 para importar dados
 ## <a name="system-requirements"></a>Requisitos de sistema
 Este pacote de conteúdos requer um URL de ambiente do Dynamics AX 7 e o utilizador deve ter acesso ao feed OData.
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 <a name="FindingParams"></a>
 
 O URL de ambiente do Dynamics AX 7 pode ser encontrado no browser quando o utilizador inicia sessão. Copie apenas o URL do ambiente do Dynamics AX raiz para a caixa de diálogo do Power BI.
@@ -65,7 +65,7 @@ O URL de ambiente do Dynamics AX 7 pode ser encontrado no browser quando o utili
 ## <a name="troubleshooting"></a>Resolução de problemas
 Os dados podem levar algum tempo a carregar dependendo do tamanho da sua instância. Se estiver a ver relatórios vazios no Power BI, confirme se tem acesso às tabelas OData necessárias para os relatórios.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

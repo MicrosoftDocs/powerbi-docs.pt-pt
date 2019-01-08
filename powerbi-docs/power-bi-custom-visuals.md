@@ -8,14 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15f8716a42372cb0a02f88ea37531963e9a0557a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223325"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056047"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuais personalizados no Power BI
 
@@ -40,7 +41,7 @@ Os elementos visuais personalizados são pacotes que incluem código para compor
 > [!WARNING]
 > Um elemento visual personalizado pode conter código com riscos de privacidade ou de segurança. Garanta que confia no autor e na origem do elemento visual personalizado antes de o importar para o relatório.
 
-## <a name="organization-visuals"></a>Elementos visuais da organização
+## <a name="organization-visuals"></a>Elementos visuais de organização
 
 Os administradores do Power BI podem implementar elementos visuais personalizados na organização para que os autores de relatório possam facilmente detetar e utilizar os elementos visuais personalizados que o administrador aprovou para utilização na organização. Assim, o administrador tem controlo para selecionar os elementos visuais personalizados específicos a implementar na organização, bem como uma forma fácil de gerir (por exemplo, atualizar a versão, desativar/ativar) os mesmos. Para o autor do relatório, é uma forma fácil para detetar os elementos visuais que são exclusivos à organização, bem como um suporte totalmente integrado para atualizar esses elementos visuais.
 
@@ -69,7 +70,7 @@ Para ver a lista de visuais personalizados certificados ou para submeter o seu, 
 
     ![importar do ficheiro](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. No menu Abrir ficheiro, selecione o ficheiro `.pbiviz` que pretende importar e, em seguida, selecione Abrir. O ícone do elemento visual personalizado é adicionado à parte inferior do seu painel Visualizações e fica agora disponível para utilizar no seu relatório.
+3. No menu Abrir ficheiro, selecione o ficheiro `.pbiviz` que pretende importar e, em seguida, selecione Abrir. O ícone do visual personalizado é adicionado à parte inferior do seu painel Visualizações e fica agora disponível para utilizar no seu relatório.
 
     ![elemento visual certificado importado](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -87,7 +88,7 @@ Para ver a lista de visuais personalizados certificados ou para submeter o seu, 
 
     ![organização de elementos visuais 3](media/power-bi-custom-visuals/power-bi-visual-org-03.png)
 
-4. Percorra a lista para encontrar o elemento visual a importar.
+4. Percorra a lista para encontrar o visual a importar.
 
     ![organização de elementos visuais 4](media/power-bi-custom-visuals/power-bi-visual-org-04.png)
 
@@ -95,11 +96,11 @@ Para ver a lista de visuais personalizados certificados ou para submeter o seu, 
 
     ![organização de elementos visuais 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
-## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Transferir ou importar elementos visuais personalizados do Microsoft AppSource
+## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Transferir ou importar visuais personalizados do Microsoft AppSource
 
 Tem duas opções para transferir e importar visuais personalizados: do Power BI e do site do AppSource.
 
-### <a name="import-custom-visuals-from-within-power-bi"></a>Importar elementos visuais personalizados do Power BI
+### <a name="import-custom-visuals-from-within-power-bi"></a>Importar visuais personalizados do Power BI
 
 1. Selecione as reticências na parte inferior do painel Visualizações.
 
@@ -109,11 +110,11 @@ Tem duas opções para transferir e importar visuais personalizados: do Power BI
 
     ![organização de elementos visuais 2](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 
-3. Percorra a lista para encontrar o elemento visual a importar.
+3. Percorra a lista para encontrar o visual a importar.
 
     ![importar elemento visual](media/power-bi-custom-visuals/power-bi-import-visual.png)
 
-4. Para saber mais sobre um dos elementos visuais, realce-o e selecione-o.
+4. Para saber mais sobre um dos visuais, realce-o e selecione-o.
 
     ![Selecionar](media/power-bi-custom-visuals/power-bi-select.png)
 
@@ -125,11 +126,11 @@ Tem duas opções para transferir e importar visuais personalizados: do Power BI
 
     ![Revisões](media/power-bi-custom-visuals/power-bi-reviews.png)
 
-7. Importe o elemento visual personalizado ao selecionar Adicionar. O ícone do elemento visual personalizado é adicionado à parte inferior do seu painel Visualizações e fica agora disponível para utilizar no seu relatório.
+7. Importe o elemento visual personalizado ao selecionar Adicionar. O ícone do visual personalizado é adicionado à parte inferior do seu painel Visualizações e fica agora disponível para utilizar no seu relatório.
 
     ![elemento visual importado](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Transferir e importar elementos visuais personalizados do Microsoft AppSource
+### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Transferir e importar visuais personalizados do Microsoft AppSource
 
 1. Comece no [Microsoft AppSource](https://appsource.microsoft.com) e selecione o separador de **Aplicações**. 
 
@@ -149,7 +150,7 @@ Tem duas opções para transferir e importar visuais personalizados: do Power BI
 
 5. Selecione a ligação para transferir o visual personalizado.
 
-    ![Download](media/power-bi-custom-visuals/powerbi-custom-download.png)
+    ![Transferir](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
     A página de transferência também inclui instruções para importar o elemento visual personalizado para o Power BI Desktop e para o serviço Power BI.
 
@@ -167,7 +168,7 @@ Tem duas opções para transferir e importar visuais personalizados: do Power BI
 
 * Se não vir um painel **Visualizações**, significa que não tem permissões de edição para o relatório.  Só pode adicionar visuais personalizados a relatórios que pode editar, não a relatórios que foram partilhados consigo.
 
-## <a name="troubleshoot"></a>Resolução de problemas
+## <a name="troubleshoot"></a>Resolução de Problemas
 
 Para obter mais informações sobre resoluções de problemas, aceda a [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Resolver problemas com os elementos visuais personalizados do Power BI).
 

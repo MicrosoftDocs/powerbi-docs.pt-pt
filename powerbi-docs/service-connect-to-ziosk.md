@@ -5,20 +5,20 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b47e620c0469ed56a7afb413a5775cf2a34c4d4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546563"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008793"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Ligue-se ao Ziosk Survey Analytics com o Power BI
-O pacote de conteúdos do Ziosk Survey Analytics para o Power BI oferece aos restaurantes que disponibilizam tablets do Ziosk acesso incomparável às informações fornecidas pelos dados de pesquisa do Ziosk, incluindo segmentação por dia, local, funcionários e muito mais.
+O pacote de conteúdoS do Ziosk Survey Analytics para o Power BI oferece aos restaurantes que disponibilizam tablets do Ziosk acesso incomparável às informações fornecidas pelos dados de pesquisa do Ziosk, incluindo segmentação por dia, local, funcionários e muito mais.
 
 Ligue-se ao [pacote de conteúdos do Ziosk Survey Analytics](https://app.powerbi.com/getdata/services/ziosk-survey-analytics) para o Power BI.
 
@@ -32,12 +32,12 @@ Ligue-se ao [pacote de conteúdos do Ziosk Survey Analytics](https://app.powerbi
 3. Selecione **Ziosk Survey Analytics** e selecione **Obter**.  
    
     ![](media/service-connect-to-ziosk/ziosk.png)
-4. Selecione **OAuth 2** e **Iniciar Sessão**. Quando solicitado, forneça as suas credenciais do Ziosk.
+4. Selecione **OAuth 2** e **Entrar**. Quando solicitado, forneça as suas credenciais do Ziosk.
    
     ![](media/service-connect-to-ziosk/creds.png)
    
     ![](media/service-connect-to-ziosk/creds2.png)
-5. Depois de estar ligado, são carregados automaticamente um dashboard, um relatório e um conjunto de dados. Após a conclusão, os blocos são atualizados com dados da sua conta do Ziosk.
+5. Quando estiver ligado, um dashboard, relatório e conjunto de dados são carregados automaticamente. Após a conclusão, os blocos são atualizados com dados da sua conta do Ziosk.
    
     ![](media/service-connect-to-ziosk/dashboard.png)
 
@@ -67,10 +67,10 @@ O pacote de conteúdos inclui dados das seguintes tabelas:
     - Weekday  
 
 
-## <a name="system-requirements"></a>Requisitos de sistema
+## <a name="system-requirements"></a>Requisitos do sistema
 É necessário ter uma conta do Ziosk com permissões de acesso às tabelas acima para criar uma instância deste pacote de conteúdo.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

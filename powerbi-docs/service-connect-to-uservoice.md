@@ -5,20 +5,20 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544452"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008494"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Ligue-se ao UserVoice com o Power BI
-É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtém os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
+É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtem os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
 
 Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/services/uservoice) para o Power BI.
 
@@ -51,7 +51,7 @@ Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/
    
    ![](media/service-connect-to-uservoice/capture4.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -80,7 +80,7 @@ Se receber esta mensagem de erro quando os dados estiverem a ser carregados, ver
 
 O pacote de conteúdos do UserVoice para o Power BI usa APIs do UserVoice para obter os seus dados. Lembre-se de monitorizar a sua utilização da API para não exceder o limite. Se tiver muitos dados na sua conta do UserVoice, uma sugestão para minimizar o impacto na sua utilização da API é alterar a frequência de atualização atualmente predefinida, que é uma vez por dia, para atualizar somente em dias da semana ou em dias intercalados, dependendo das suas necessidades. Outra sugestão é um administrador criar o pacote de conteúdos e partilhá-lo com a equipa em vez de todos os administradores na sua organização criarem os seus próprios pacotes, colocando uma carga adicional desnecessária sobre as APIs
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

@@ -8,15 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: c98abde63942724d4ff42136aaea7e8786e08975
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223427"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056162"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Desenvolver um elemento visual personalizado do Power BI
+# <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)
 
 Estamos a permitir que os programadores adicionem elementos visuais personalizados facilmente ao Power BI para utilização no dashboard e em relatórios. Para o ajudar a começar, publicámos o código de todas as nossas visualizações no GitHub.
 

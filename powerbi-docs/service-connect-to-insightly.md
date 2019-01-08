@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548633"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008011"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Ligar ao Insightly com o Power BI
 Visualize e partilhe os seus dados de CRM do Insightly no Power BI com o pacote de conteúdos do Insightly. Ligue-se ao Power BI usando a sua chave de API do Insightly para visualizar e criar relatórios e dashboards a partir dos seus dados de CRM. Com o Power BI pode analisar os dados de novas maneiras, criar gráficos poderosos e exibir contactos, clientes potenciais e organizações num mapa.
@@ -68,7 +68,7 @@ Muitas tabelas e relatórios também incluem campos calculados exclusivos, como:
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 **Chave de API**
 
 Para copiar a chave de API do Insightly, selecione as Definições de Utilizador no menu do perfil do Insightly e desloque o ecrã para baixo. Esta cadeia de caracteres será usada para ligar os seus dados ao Power BI.
@@ -80,7 +80,7 @@ Os dados são importados através da API do Insightly, que inclui um limite diá
 
 Os relatórios fornecidos usam campos predefinidos do Insightly e podem não incluir as suas personalizações. Edite o relatório para ver todos os campos disponíveis.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

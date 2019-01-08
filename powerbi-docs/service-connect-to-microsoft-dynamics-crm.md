@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908837"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008816"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Ligar ao Microsoft Dynamics CRM com o Power BI
 O Microsoft Dynamics CRM para Power BI permite-lhe aceder facilmente e analisar os seus dados. O Power BI utiliza o feed OData para criar um modelo descritivo, com todas as entidades e medidas precisas como Contas, Atividades, Oportunidades, Produtos, Clientes Potenciais, Utilizadores e muito mais. Após instalar a aplicação, pode ver o dashboard e os relatórios no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e nas aplicações móveis do Power BI. 
@@ -77,7 +77,7 @@ A tabela seguinte lista as entidades CRM disponíveis para este serviço e ofere
 
 | Entidade CRM | Filtros aplicados |
 | --- | --- |
-| Account |Todas as contas que têm oportunidades relacionadas que foram modificadas nos últimos 365 dias. |
+| Conta |Todas as contas que têm oportunidades relacionadas que foram modificadas nos últimos 365 dias. |
 | Atividade |Todas as atividades modificadas nos últimos 90 dias <br> [modifiedon] > hoje - 90 dias |
 | Unidade de Negócio |Todas as unidades de negócio que não se encontram desativadas <br> [isdisabled] = falso |
 | Cliente potencial |Todos os clientes potenciais modificados nos últimos 180 dias <br> [modifiedon] > hoje - 180 dias |
@@ -116,7 +116,7 @@ A tabela seguinte lista as entidades CRM disponíveis para este serviço e ofere
 | Atividade |Todas as atividades modificadas nos últimos 90 dias <br> [modifiedon] > hoje - 90 dias |
 | Incidente |Todos os incidentes modificados nos últimos 90 dias <br> [modifiedon] > hoje - 90 dias |
 | Atividade de Resolução de Incidente |Todas as atividades resolução de incidentes modificadas nos últimos 90 dias <br> [modifiedon] > hoje - 90 dias |
-| Contacto |Todos os contactos que têm incidentes relacionados que foram modificados nos últimos 90 dias. |
+| Contact |Todos os contactos que têm incidentes relacionados que foram modificados nos últimos 90 dias. |
 | Artigo de Conhecimento |Todas as versões mais recentes dos artigos de conhecimento  <br> [islatestversion] = verdadeiro |
 | Incidente do Artigo de Conhecimento |Todos os incidentes do artigo de conhecimento que foram modificados nos últimos 90 dias <br> [modifiedon] > hoje - 90 dias |
 | Fila |Todas as filas ativas  <br> [statecode] = 0 |

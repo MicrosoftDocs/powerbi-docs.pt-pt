@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545435"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008839"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Ligue-se ao Windows Dev Center com o Power BI
 Explore e monitorize os seus dados de análise de aplicação do Windows Dev Center no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
@@ -32,7 +32,7 @@ Ligue-se ao [pacote de conteúdos do Windows Dev Center](https://app.powerbi.com
 3. Selecione **Windows Dev Center**  \> **Obter**.
    
    ![](media/service-connect-to-windows-dev-center/windowsdev.png)
-4. Insira o ID de aplicação de uma aplicação que possua e clique em Seguinte. Veja detalhes sobre como [encontrar os parâmetros](#FindingParams) abaixo.
+4. Insira o ID de aplicação de uma aplicação que possua e clique em Seguinte. Veja detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-windows-dev-center/params.png)
 5. Como **Método de Autenticação**, selecione **oAuth2** \> **Iniciar Sessão**. Quando solicitado, introduza as credenciais do Azure Active Directory associadas à sua conta do Windows Dev Center (mais detalhes em [Requisitos de Sistema](#Requirements)).
@@ -46,7 +46,7 @@ Ligue-se ao [pacote de conteúdos do Windows Dev Center](https://app.powerbi.com
    
     ![](media/service-connect-to-windows-dev-center/report.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -63,12 +63,12 @@ Este pacote de conteúdos requer pelo menos uma aplicação publicada na Loja Wi
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 Pode encontrar o ID de aplicação indo à página Identidade da aplicação em Gestão de aplicações.
 
 O ID da aplicação encontra-se no final do seu URL da Windows 10 Store, https://www.microsoft.com/store/apps/ **{applicationId}**
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

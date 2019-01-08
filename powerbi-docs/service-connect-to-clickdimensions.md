@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 709dd5d1b5203e9c5bb790d69cb0537c03a17916
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543356"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007859"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Ligar ao ClickDimensions com o Power BI
 O pacote de conteúdos do ClickDimensions para o Power BI permite que os utilizadores utilizem os dados de marketing do ClickDimensions no Power BI, fornecendo às equipas de gestão mais informações sobre o sucesso dos seus esforços de vendas e marketing. Visualize e analise as interações de e-mail, as visitas na Web e os envios de formulário nos relatórios e dashboards do Power BI.
@@ -35,10 +35,10 @@ Ligue-se ao [pacote de conteúdos do ClickDimensions](https://app.powerbi.com/ge
 4. Forneça o local do seu datacenter (EUA, UE ou Austrália) e selecione **Avançar**.
    
    ![](media/service-connect-to-clickdimensions/params.png)
-5. Como **Método de Autenticação**, selecione **Básico** \> **Iniciar Sessão**. Quando solicitado, insira as suas credenciais do ClickDimensions. Veja detalhes sobre como [encontrar os parâmetros](#FindingParams) abaixo
+5. Como **Método de Autenticação**, selecione **Básico** \> **Iniciar Sessão**. Quando solicitado, insira as suas credenciais do ClickDimensions. Veja detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo
    
     ![](media/service-connect-to-clickdimensions/creds.png)
-6. Após a aprovação, o processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. Após a aprovação, o processo de importação é iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
      ![](media/service-connect-to-clickdimensions/dashboard.png)
 
@@ -54,7 +54,7 @@ Para se ligar ao pacote de conteúdos do Power BI, é necessário fornecer o dat
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>A procurar parâmetros
 A Chave de Conta pode ser encontrada nas Configurações de CRM \> Configurações do ClickDimensions. Faça uma cópia da Chave de Conta encontrada em Configurações do ClickDimensions e cole-a no campo Nome de utilizador.  
 
 ![](media/service-connect-to-clickdimensions/crm.png)  
@@ -63,7 +63,7 @@ Faça uma cópia do Token do Power BI encontrado nas Configurações do ClickDim
 
 ![](media/service-connect-to-clickdimensions/crm2.png)  
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f125edf58ab80da68a236d671495fc48e475c212
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548540"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008034"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Ligue-se a comScore Digital Analytix com o Power BI
 Visualize e explore os seus dados do comScore Digital Analytix no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
@@ -57,7 +57,7 @@ São necessários uma conta de utilizador de DAx comScore e acesso ao comScore D
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 Veja abaixo detalhes sobre como encontrar cada um dos parâmetros comScore.
 
 **Data Center**
@@ -80,7 +80,7 @@ O site comScore determina o site cujos dados gostaria de ver. Pode encontrar a l
 
 ![](media/service-connect-to-connect-to/comscore_sites.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

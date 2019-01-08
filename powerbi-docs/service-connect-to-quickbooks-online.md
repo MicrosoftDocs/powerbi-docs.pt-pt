@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 26caf128828ec67ce7a6f2af62560869e261ee8b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ec13f396ea1a322a79263320a169330f24a2e5f0
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543526"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008080"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Ligue-se ao QuickBooks Online com o Power BI
 Quando se liga aos seus dados do QuickBooks Online através do Power BI, obtém imediatamente um dashboard e relatórios do Power BI que fornecem informações sobre o fluxo de caixa da sua empresa, rentabilidade, clientes e muito mais. Utilize o dashboard e os relatórios como fornecidos, ou então personalize-os para realçar as informações que mais interessam. Os dados são atualizados automaticamente uma vez por dia.
@@ -46,14 +46,14 @@ Ligue-se ao [pacote de conteúdo do QuickBooks Online](https://dxt.powerbi.com/g
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_authorizesm.png)
    
-   Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
+   Depois do Power BI importar os dados, vai ver um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*.
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_leftnavnew.png)
 8. Selecione o dashboard QuickBooks Online. Este é o dashboard do Power BI criado automaticamente para mostrar os dados importados. Pode alterar este dashboard para mostrar os seus dados de qualquer forma que queira. 
    
    ![](media/service-connect-to-quickbooks-online/pbi_qbo_dash.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -79,7 +79,7 @@ Atualmente o Power BI só dá suporte às edições dos EUA do QuickBooks Online
 
 ![](media/service-connect-to-quickbooks-online/pbi_qbo_countrynotsupported.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

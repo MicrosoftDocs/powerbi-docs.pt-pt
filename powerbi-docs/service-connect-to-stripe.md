@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 550d3bc609afbbac69c63c373e452eac11244152
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6a194a4d56f4a940ad892ccd2f9097dd782f49d3
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549473"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008540"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Ligue ao Stripe com o Power BI
 Visualize e explore os seus dados do Stripe para o Power BI com o pacote de conteúdos para o Power BI. O pacote de conteúdos do Stripe para o Power BI recebe dados por pull sobre Clientes, Encargos, Eventos e Recibos. Os dados incluem os dez mil eventos e as cinco mil despesas mais recentes nos últimos 30 dias. O conteúdo é atualizado automaticamente uma vez por dia numa agenda que controle. 
@@ -35,7 +35,7 @@ Conecte-se ao [pacote de conteúdo do Stripe para o Power BI](https://app.powerb
 4. Forneça sua [chave de API](https://dashboard.stripe.com/account/apikeys) do Stripe para se conectar.  
    
     ![](media/service-connect-to-stripe/creds.png)
-5. O processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação, marcados com um asterisco. Selecione o dashboard para ver os seus dados importados.
+5. O processo de importação é iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação, marcados com um asterisco. Selecione o dashboard para ver os seus dados importados.
    
     ![](media/service-connect-to-stripe/dashboard.png)
 
@@ -46,7 +46,7 @@ Conecte-se ao [pacote de conteúdo do Stripe para o Power BI](https://app.powerb
 * [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)

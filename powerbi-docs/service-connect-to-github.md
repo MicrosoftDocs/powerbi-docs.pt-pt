@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ad87a2392252a64bc76675fd2b7a98c5e50a17a1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1683c849a765f5326fbaa06f82979b09f0cd2dcf
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546033"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008057"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Ligue-se ao GitHub com o Power BI
 O pacote de conteúdos do GitHub para o Power BI permite obter ideias para um repositório GitHub com dados sobre contribuições, problemas, solicitações pull e utilizadores ativos.
@@ -35,7 +35,7 @@ Ligue-se ao [pacote de conteúdos do GitHub](https://app.powerbi.com/getdata/ser
 3. Selecione **GitHub** \> **Obter**.
    
    ![](media/service-connect-to-github/github.png)
-4. Escreva o nome do repositório e também o seu proprietário. Veja detalhes sobre [como encontrar os parâmetros](#FindingParams) abaixo.
+4. Escreva o nome do repositório e também o seu proprietário. Veja detalhes sobre [como encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-github/pbi_github1.png)
 5. Insira as suas credenciais do GitHub (este passo pode ser ignorado se já tiver iniciado a sessão com o seu browser). 
@@ -70,7 +70,7 @@ Os dados a seguir estão disponíveis no GitHub no Power BI:
 | ContributionPunchCard |Essa tabela pode ser usada como um cartão perfurado de colaborações para o repositório selecionado. Ele mostra as confirmações por dia da semana e horas do dia. Esta tabela não está conectada a outras tabelas presentes no modelo. |
 | RepoDetails |Esta tabela fornece detalhes sobre o repositório selecionado. |
 
-## <a name="system-requirements"></a>Requisitos de sistema
+## <a name="system-requirements"></a>Requisitos do sistema
 * A conta do GitHub que tem acesso ao repositório.  
 * Permissão concedida ao Power BI para o aplicativo GitHub durante o primeiro logon. Confira os detalhes abaixo para revogar o acesso.  
 * Chamadas à API suficientes disponíveis para extrair e atualizar os dados.  
@@ -80,7 +80,7 @@ Para desautorizar a conexão do Power BI ao seu repositório do GitHub, pode rev
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>A localizar parâmetros
 Pode determinar o proprietário e o repositório ao consultar o repositório no próprio GitHub:
 
 ![](media/service-connect-to-github/github_ownerrepo.png)
@@ -96,6 +96,6 @@ Se necessário, é possível verificar as suas credenciais do GitHub.
 2. No GitHub, navegue para o URL do repositório que quer aceder no Power BI. Por exemplo: https://github.com/dotnet/corefx.  
 3. No Power BI, tente ligar-se ao GitHub. Na caixa de diálogo Configurar o GitHub, utilize os nomes e o proprietário desse mesmo repositório.  
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [O que é o Power BI?](power-bi-overview.md)
 * [Obter Dados](service-get-data.md)

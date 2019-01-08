@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c65cc7052a3a056280561643c7734212b92769be
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549425"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008379"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Ligue-se ao AT Internet Bridge com o Power BI
 O AT Internet ajuda-o extrair o valor imediato de seus dados com a sua plataforma analítica digital unificada, o Analytics Suite. O pacote de conteúdos do AT Internet Bridge para o Power BI inclui dados sobre visitas, origens, localização e dispositivos para seu site.
@@ -38,7 +38,7 @@ Ligue-se ao [pacote de conteúdo do AT Internet Bridge](https://app.powerbi.com/
 5. Selecione **Básico** como Mecanismo de Autenticação, forneça nome de utilizador e palavra-passe do AT Internet e clique em **Iniciar Sessão**.
    
    ![](media/service-connect-to-at-internet/creds.png)
-6. Clique em **Conectar** para iniciar o processo de importação. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. Clique em **Conectar** para iniciar o processo de importação. Quando concluído, um novo dashboard, relatório e modelo aparecem no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
    
     ![](media/service-connect-to-at-internet/atinternet.png)
 
@@ -58,7 +58,7 @@ Este pacote de conteúdos contém dados dos últimos 45 dias nas tabelas seguint
     - Origens  
     - Visitas global  
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)

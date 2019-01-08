@@ -5,20 +5,20 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6aa5b5dbb22881b6bccaa2ed43352a8f22308675
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c6f3e3cf3947abf9ead15fa6b91445c8aadd6420
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546654"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008356"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Ligar ao Acumatica com o Power BI
-O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI obtém os dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
+O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI recupera os seus dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
 
 Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/services/acumatica) ou leia mais sobre a [Integração do Acumatica](https://powerbi.microsoft.com/integrations/acumatica) com o Power BI.
 
@@ -49,7 +49,7 @@ Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/s
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 
-**O que se segue?**
+**E agora?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
@@ -59,7 +59,7 @@ Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/s
 ## <a name="system-requirements"></a>Requisitos de sistema
 Este pacote de conteúdos exige o Acumatica v5.2 ou superior; confirme a versão com o administrador do Acumatica.
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>A localizar parâmetros
 **Ponto de Final OData do Acumatica**
 
 O ponto final OData do Acumatica é formatado da seguinte forma e deve utilizar HTTPS:
@@ -81,7 +81,7 @@ Se não conseguir iniciar a sessão, verifique se o ponto de extremidade OData d
 
 Se tiver problemas para se ligar, confirme com o administrador a sua versão do Acumatica. Este pacote de conteúdos requer a versão 5.2 ou posterior.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)
