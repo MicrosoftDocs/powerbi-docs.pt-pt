@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: Publicar a partir do Power BI Desktop
       href: desktop-upload-desktop-files.md
-    - name: Visualizações personalizadas no Power BI
-      href: power-bi-custom-visuals.md
-    - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
-      href: power-bi-custom-visuals-organization.md
     - name: Parte I, Adicionar visualizações a um relatório do Power BI
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: Parte 2, Adicionar visualizações a um relatório do Power BI
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Personalizar o título, fundo e legenda da visualização
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Resolver problemas com elementos visuais personalizados
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: Ligar-se a dados
       items:
       - name: Origens de dados no Power BI Desktop
@@ -358,7 +352,7 @@ items:
         href: visuals/power-bi-visualization-waterfall-charts.md
       - name: Criar linhas de referência dinâmicas
         href: service-analytics-pane.md
-    - name: Resolução de problemas
+    - name: Resolução de Problemas
       items:
       - name: Resolver problemas de importação de Bases de Dados do Access e de folhas de cálculo do Excel no Power BI Desktop e Power Query
         href: desktop-access-database-errors.md
@@ -618,9 +612,9 @@ items:
         href: service-share-dashboard-that-links-to-excel-onedrive.md
       - name: Power BI Publisher para Excel
         href: publisher-for-excel.md
-    - name: Resolução de problemas
+    - name: Resolução de Problemas
       items:
-      - name: Forgot your password for Power BI? (Esqueceu-se da sua palavra-passe do Power BI?)
+      - name: Esqueceu-se da sua palavra-passe para o Power BI?
         href: service-admin-forgot-your-password.md
       - name: Capturing additional diagnostic information for Power BI (Capturar informações de diagnóstico adicionais para o Power BI)
         href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
@@ -880,7 +874,7 @@ items:
         href: developer/power-bi-permissions.md
     - name: Procedimentos
       items:
-      - name: How to embed from an app (Como incorporar a partir de uma aplicação)
+      - name: Embed from an app (Incorporar a partir de uma aplicação)
         href: developer/embed-from-apps.md
       - name: Criar um inquilino do Azure Active Directory
         href: developer/create-an-azure-active-directory-tenant.md
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
         href: developer/qanda.md
-      - name: Resolução de problemas de aplicações incorporadas
-        href: developer/embedded-troubleshoot.md
       - name: Gerir capacidades no Azure
         items:
         - name: Create a capacity in Azure (Criar uma capacidade no Azure)
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Pause and start a capacity in Azure (Colocar em pausa e iniciar uma capacidade no Azure)
           href: developer/azure-pbie-pause-start.md
+      - name: Resolução de Problemas
+        items:
+        - name: Resolver problemas da sua aplicação incorporada
+          href: developer/embedded-troubleshoot.md
       - name: Migrar de Coleções de Áreas de Trabalho
         items:
         - name: Como migrar de Coleções de Áreas de Trabalho do Power BI
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow (Capacidade de Pilha Excedida)
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Desenvolver Elementos Visuais Personalizados
+  - name: Elementos Visuais Personalizados
     items:
     - name: Descrição geral
       items:
-      - name: Adding Custom visuals into Power BI (Adicionar Elementos Visuais Personalizados no Power BI)
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: Elementos visuais personalizados no Power BI
+        href: power-bi-custom-visuals.md
     - name: Tutoriais
       items:
       - name: Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Conceitos
       items:
+      - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
+        href: power-bi-custom-visuals-organization.md
       - name: Diretrizes de elementos visuais do Power BI
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Custom visuals FAQ (FAQ sobre elementos visuais personalizados)
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: Publicar visuais personalizados no AppSource
         href: developer/office-store.md
-      - name: Resolver problemas com elementos visuais personalizados
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: Utilizar elementos visuais personalizados baseados em R no Power BI
+        href: desktop-r-powered-custom-visuals.md
+      - name: Resolução de Problemas
+        items:
+        - name: Troubleshoot developing custom visuals (Resolver problemas com elementos visuais personalizados)
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: Referência
       items:
       - name: APIs
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008885"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072342"
