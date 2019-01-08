@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548448"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007873"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Ligue-se ao tyGraph com o Power BI
 Visualize e explore os seus dados do tyGraph no Power BI com o pacote de conteúdos do Power BI. Comece por ligar-se à sua conta do tyGraph e por carregar o dashboard, os relatórios e o conjunto de dados. O conteúdo pronto para utilização inclui informações, como a pontuação MAE (Medida de Envolvimento Ativo) e Principais Colaboradores. Personalize ainda mais de modo a realçar as informações mais importantes para si.  Os dados serão atualizados automaticamente de acordo com um agendamento definido por si.
@@ -58,7 +58,7 @@ Ligue-se ao [tyGraph para o Power BI](https://app.powerbi.com/getdata/services/t
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 Pode importar dados em todos os grupos aos quais tem acesso ou pode optar por especificar um subconjunto. Também pode criar um subconjunto de dados por data. Pode criar vários dashboards do tyGraph para monitorizar conjuntos específicos de grupos e/ou datas. Veja abaixo os detalhes sobre estes parâmetros.
 
 **Grupos**
@@ -88,7 +88,7 @@ No exemplo acima, todos os dados de 29 de outubro de 2013 ou após essa data ser
 
 No exemplo acima, todos os dados de 20 de outubro de 2014 ou data anterior serão carregados no pacote de conteúdos. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)
