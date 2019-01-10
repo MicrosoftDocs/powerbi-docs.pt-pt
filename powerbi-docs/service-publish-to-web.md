@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/13/2018
+ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558545"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136628"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -26,56 +26,58 @@ Também pode facilmente editar, atualizar ou anular a partilha dos seus elemento
 > [!WARNING]
 > Quando utilizar a funcionalidade **Publicar na Web**, o relatório ou visual publicado pode ser visualizado por qualquer pessoa na Internet. Não é necessária autenticação para ver estes relatórios. Utilize a funcionalidade Publicar na Web apenas com relatórios e dados que possam ser vistos na Internet por qualquer pessoa (membros do público não autenticado). Isto inclui dados detalhados que são agregados nos seus relatórios. Antes de publicar este relatório, certifique-se de que tem o direito a partilhar os dados e as visualizações publicamente. Não publique informações confidenciais proprietárias. Se tiver dúvidas, consulte as políticas da sua organização antes da publicação.
 
+>[!Note]
+>Para incorporar o conteúdo de forma segura num portal interno ou site, utilize as opções [Incorporar](service-embed-secure.md) ou [Incorporar no SharePoint Online](service-embed-report-spo.md). Isto garante que todas as permissões e segurança de dados são impostas quando os utilizadores estão a visualizar os dados internos.
+
 ## <a name="how-to-use-publish-to-web"></a>Como utilizar a funcionalidade Publicar na Web
 
-A funcionalidade **Publicar na Web** está disponível nos relatórios nas áreas de trabalho pessoais ou de grupo que pode editar.  Não pode utilizar a funcionalidade Publicar na Web com relatórios que foram partilhados consigo nem em relatórios com segurança ao nível de linha para proteger os dados. Consulte a secção **Limitações** abaixo para obter uma lista completa dos casos em que a funcionalidade Publicar na Web não é suportada. Veja o **Aviso** indicado anteriormente neste artigo antes de utilizar a funcionalidade Publicar na Web.
+A funcionalidade **Publicar na Web** está disponível nos relatórios nas áreas de trabalho pessoais ou de grupo que pode editar.  Não pode utilizar a funcionalidade Publicar na Web com relatórios que foram partilhados consigo nem em relatórios com segurança ao nível de linha para proteger os dados. Veja a secção **Limitações** abaixo para obter uma lista completa dos casos em que a funcionalidade Publicar na Web não é suportada. Veja o **Aviso** indicado anteriormente neste artigo antes de utilizar a funcionalidade Publicar na Web.
 
 Pode ver como esta funcionalidade funciona no seguinte *breve vídeo*. Em seguida, siga os passos abaixo para experimentar.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
-
 Os passos seguintes descrevem como utilizar a funcionalidade **Publicar na Web**.
 
 1. Num relatório na sua área de trabalho que possa editar, selecione **Ficheiro  > Publicar na Web**.
-   
-   ![](media/service-publish-to-web/publish_to_web1.png)
+
+   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
 
 2. Consulte o conteúdo na caixa de diálogo e selecione **Criar código de incorporação**, conforme apresentado na seguinte caixa de diálogo.
-   
-   ![](media/service-publish-to-web/publish_to_web2_ga.png)
+
+   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
 3. Consulte o aviso apresentado na caixa de diálogo seguinte e certifique-se de que os dados podem ser incorporados num site público. Se for o caso, selecione **Publicar**.
-   
-   ![](media/service-publish-to-web/publish_to_web3_ga.png)
+
+   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
 4. Será apresentada uma caixa de diálogo que fornece uma ligação que pode ser enviada por e-mail, incorporada em código (como uma iFrame) ou colada diretamente na sua página Web ou blogue.
-   
-   ![](media/service-publish-to-web/publish_to_web4.png)
+
+   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
 5. Se criou anteriormente um código de incorporação para o relatório, o código de incorporação será apresentado de imediato. Só pode criar um código de incorporação para cada relatório.
-   
-   ![](media/service-publish-to-web/publish_to_web5.png)
+
+   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
 ## <a name="tips-and-tricks-for-view-modes"></a>Sugestões e Truques para os Modos de Visualização
 
 Normalmente, ao incorporar conteúdos numa publicação de um blogue, é necessário ajustá-los dentro de um tamanho específico do ecrã.  Pode ainda ajustar a altura e a largura da tag iFrame conforme necessário, mas também poderá precisar de se certificar de que o seu relatório se ajusta à área da iFrame, por isso poderá precisar ainda de definir um Modo de Visualização adequado ao editar o relatório.
 
-A seguinte tabela fornece instruções sobre o Modo de Visualização e a forma como será apresentado quando for incorporado. 
+A seguinte tabela fornece instruções sobre o Modo de Visualização e a forma como será apresentado quando for incorporado.
 
 | Modo de Visualização | O aspeto que terá quando incorporado |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar à página** irá respeitar a altura e a largura de página do seu relatório. Se definir a página em proporções “Dinâmicas”, como 16:9 ou 4:3, os conteúdos serão dimensionados para caber no iFrame fornecido. Quando incorporado num iFrame, utilizar a funcionalidade **Ajustar à página** pode resultar em **letterboxing**, fazendo com que um fundo cinzento seja mostrado em áreas do iFrame após o conteúdo ser dimensionado para caber no iFrame. Para minimizar o letterboxing, defina apropriadamente a altura e a largura do iFrame. |
-| ![](media/service-publish-to-web/publish_to_web6d.png) |O **Tamanho real** garante que o relatório mantém o tamanho conforme definido na página de relatórios. Isto poderá dar origem a barras de deslocamento na sua iFrame. Defina a altura e a largura do iFrame para evitar barras de deslocamento. |
-| ![](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar à largura** garante que o conteúdo cabe na área horizontal do iFrame. Ainda assim, será apresentado um limite, mas os conteúdos serão dimensionados para utilizar todo o espaço horizontal disponível. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar à página** irá respeitar a altura e a largura de página do seu relatório. Se definir a página em proporções “Dinâmicas”, como 16:9 ou 4:3, os conteúdos serão dimensionados para caber no iFrame fornecido. Quando incorporado num iFrame, utilizar a funcionalidade **Ajustar à página** pode resultar em **letterboxing**, fazendo com que um fundo cinzento seja mostrado em áreas do iFrame após o conteúdo ser dimensionado para caber no iFrame. Para minimizar o letterboxing, defina apropriadamente a altura e a largura do iFrame. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |O **Tamanho real** garante que o relatório mantém o tamanho conforme definido na página de relatórios. Isto poderá dar origem a barras de deslocamento na sua iFrame. Defina a altura e a largura do iFrame para evitar barras de deslocamento. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar à largura** garante que o conteúdo cabe na área horizontal do iFrame. Ainda assim, será apresentado um limite, mas os conteúdos serão dimensionados para utilizar todo o espaço horizontal disponível. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Dicas e truques para a altura e largura do iFrame
 
 O código de incorporação que receber após utilizar a funcionalidade Publicar na Web terá o seguinte aspeto:
 
-![](media/service-publish-to-web/publish_to_web7.png)
+![PtW7](media/service-publish-to-web/publish_to_web7.png)
 
-Pode editar a largura e a altura manualmente para se certificar de que tem as dimensões perfeitas para caber na página em que o está a incorporar.
+Pode editar a largura e a altura manualmente para garantir que ela se encaixa perfeitamente na página em que está a incorporar.
 
 Para obter um ajuste melhor, pode experimentar adicionar 56 pixels à dimensão de altura do iFrame. Esta ação permite acomodar o tamanho atual da barra inferior. Se a sua página de relatório utilizar o tamanho dinâmico, a tabela seguinte apresenta alguns tamanhos que pode utilizar para atingir um ajuste sem letterboxing.
 
@@ -93,20 +95,20 @@ Para obter um ajuste melhor, pode experimentar adicionar 56 pixels à dimensão 
 Depois de criar um código de incorporação na funcionalidade **Publicar na Web**, pode gerir os códigos que cria no menu **Definições** do serviço Power BI. A gestão de códigos de incorporação inclui a capacidade de remover o relatório ou elemento visual de destino de um código (tornando o código de incorporação inutilizável) ou obter o código de incorporação novamente.
 
 1. Para gerir os seus códigos de incorporação da funcionalidade **Publicar na Web**, abra a engrenagem das **Definições** e selecione **Gerir códigos de incorporação**.
-   
-   ![](media/service-publish-to-web/publish_to_web8.png)
+
+   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
 
 2. A lista de códigos de incorporação que criou é apresentada, conforme apresentado na seguinte imagem.
-   
-   ![](media/service-publish-to-web/publish_to_web9.png)
+
+   ![PtW9](media/service-publish-to-web/publish_to_web9.png)
 
 3. Para cada código de incorporação de **Publicar na Web** na lista, é possível obter ou eliminar o código de incorporação e, portanto, fazer com que todas as ligações para esse relatório ou visual deixem de funcionar.
-   
-   ![](media/service-publish-to-web/publish_to_web10.png)
+
+   ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
 4. Se selecionar **Eliminar**, ser-lhe-á perguntado se tem a certeza de que pretende eliminar o código de incorporação.
-   
-   ![](media/service-publish-to-web/publish_to_web11.png)
+
+   ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Atualizações a relatórios e atualização de dados
 
@@ -133,11 +135,12 @@ A funcionalidade **Publicar na Web** é suportada na grande maioria das origens 
 - Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
 - Relatórios num grupo no qual não é um membro de edição.
 - Visuais "R" que atualmente não são suportados em relatórios para Publicar na Web.
-- Exportar dados de elementos visuais num relatório publicado na Web.
+- Exportar Dados de elementos visuais num relatório publicado na Web
 - Elementos visuais do ArcGIS Maps para Power BI.
 - Relatórios que contêm medidas DAX ao nível de relatório
 - Modelos de consulta de dados de início de sessão único
 - [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
+- A capacidade de autenticação automática apresentada com a opção de **Incorporação** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem em que o [utilizador detém os dados](developer/embed-sample-for-your-organization.md) para incorporar. Saiba mais sobre o [utilizador detém os dados](developer/embed-sample-for-your-organization.md).
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 
@@ -167,7 +170,7 @@ Para reportar um problema relacionado com os conteúdos **Publicar na Web** inco
 
 Para reportar um problema, selecione o ícone de **sinalização** na barra inferior do relatório Publicar na Web que vê.
 
-![](media/service-publish-to-web/publish_to_web12_ga.png)
+![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
 ## <a name="licensing-and-pricing"></a>Licenciamento e Preços
 
@@ -178,5 +181,11 @@ Tem de ser utilizador do Microsoft Power BI para utilizar a funcionalidade **Pub
 Ao criar um código de incorporação através da funcionalidade **Publicar na Web**, o relatório fica visível para utilizadores na Internet. Encontra-se publicamente disponível, pelo que é expectável que os visualizadores partilhem facilmente o relatório através das redes sociais. Quando os utilizadores virem o relatório, quer ao abrir o URL público direto ou ao vê-lo incorporado numa página Web ou blogue, o Power BI regista a definição do relatório e os resultados das consultas necessários para ver o relatório. Esta abordagem assegura que o relatório pode ser visto por milhares de utilizadores em simultâneo sem nenhum impacto no desempenho.
 
 A cache é duradoura, pelo que se atualizar a definição do relatório (por exemplo, se alterar o Modo de Visualização) ou atualizar os dados do relatório, pode demorar aproximadamente uma hora até que as alterações tenham efeito na versão do relatório vista pelos seus utilizadores. Por isso, recomenda-se que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições.
+
+## <a name="next-steps"></a>Próximos passos
+
+- [Peça Web de relatórios do SharePoint Online](service-embed-report-spo.md) 
+
+- [Incorporar relatório num site ou portal seguro](service-embed-secure.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
