@@ -8,13 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/26/2018
-ms.openlocfilehash: 9ef7890c6f80845a9e6d1bd02e35778ed866ff54
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 2b7a71baafd8ec2ef839aaca95529221c642357f
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332215"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072181"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
 
@@ -25,7 +26,7 @@ Até recentemente, o **Marketplace (AppSource)** aceitava apenas elementos visua
 
 ## <a name="whats-changing-in-the-submission-process"></a>O que está a ser alterado no processo de submissão?
 
-Os programadores carregam os elementos visuais de IAP no AppSource através do Dashboard de Vendedor, conforme têm vindo a fazer com os elementos visuais gratuitos. Para indicar que o elemento visual submetido tem funcionalidades de IAP, os programadores devem escrever nas notas no dashboard de vendedor: "Elemento visual com compra na aplicação." Além disso, os programadores necessitam de fornecer um token ou chave de licença para que a equipa de validação possa validar as funcionalidades de IAP. Quando o elemento visual estiver validado e aprovado, a listagem do AppSource para os estados dos elementos visuais de IAP apresentará a informação "Pode ser necessária uma compra adicional" sob as opções de preços.
+Os programadores carregam os elementos visuais de IAP no AppSource através do Dashboard de Vendedor, conforme têm vindo a fazer com os elementos visuais gratuitos. Para indicar que o elemento visual submetido tem funcionalidades de IAP, os programadores devem escrever nas notas do dashboard do vendedor: "Elemento visual com compra na aplicação". Além disso, os programadores necessitam de fornecer um token ou chave de licença para que a equipa de validação possa validar as funcionalidades de IAP. Quando o elemento visual estiver validado e aprovado, a listagem do AppSource para os estados dos elementos visuais de IAP apresentará a informação "Pode ser necessária uma compra adicional" sob as opções de preços.
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>O que é um elemento visual do Power BI com funcionalidades de IAP?
 
@@ -59,6 +60,10 @@ Utilize a página de destino para esclarecer aos utilizadores como podem utiliza
 ### <a name="license-key-and-token"></a>Chave de licença e token
 
 Para comodidade do utilizador, adicione campos relativos à chave de licença ou token na parte superior do painel de formatação, para ficarem numa localização mais conveniente para os utilizadores.
+
+## <a name="faq"></a>PERGUNTAS FREQUENTES
+
+Para obter mais informações e respostas a perguntas, aceda às [Perguntas frequentes sobre os elementos visuais com compras adicionais](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Próximos passos
 
