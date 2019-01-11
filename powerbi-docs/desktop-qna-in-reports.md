@@ -25,7 +25,7 @@ Para que a funcionalidade Perguntas e Respostas interprete com êxito a abrangen
 > [!NOTE]
 > As Perguntas e Respostas só estão disponíveis quando trabalha com um modelo que tenha dados **importados**. As ligações em direto para modelos SSAS e DirectQuery não são suportadas.
 >
-> As Perguntas e Respostas requerem a seguinte atualização do C runtime se estiver a utilizar uma versão do Windows anterior ao Windows 10. Pode tentar instalar atualizações importantes do Windows Update ou instalar manualmente o componente necessário da Microsoft (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> As Perguntas e Respostas requerem a seguinte atualização do C runtime se estiver a utilizar uma versão do Windows anterior ao Windows 10. Pode tentar instalar atualizações importantes do Windows Update ou instalar manualmente o componente necessário da Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
