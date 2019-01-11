@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546769"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008862"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Ligar-se ao Xero com o Power BI
 O Xero é um software de contabilidade online fácil de utilizar e especificamente concebido para as pequenas empresas. Crie visualizações apelativas com base nos seus dados financeiros do Xero através deste pacote de conteúdos do Power BI. O seu dashboard predefinido inclui muitas métricas para pequenas empresas, como fundo de maneio, receita versus despesa, tendência de perda de lucro, dias de vencimento e retorno sobre o investimento.
@@ -81,15 +81,15 @@ Este conjunto de dados inclui também as seguintes tabelas para personalizar os 
 * Contas Xero
 
 ## <a name="system-requirements"></a>Requisitos de sistema
-As seguintes funções são necessárias para ter acesso ao pacote de conteúdos Xero: "Padrão + Relatórios" ou "Consultor".
+As seguintes funções são necessárias para ter acesso ao pacote de conteúdos Xero: "Padrão + Relatórios" ou "Assistente".
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Encontrar parâmetros
+## <a name="finding-parameters"></a>Localizar parâmetros
 Indique um nome da sua organização para a controlar no Power BI. Isto permite-lhe ligar-se a múltiplas organizações diferentes. Note que não pode ligar-se à mesma organização várias vezes, pois irá interferir com a atualização agendada.   
 
 ## <a name="troubleshooting"></a>Resolução de problemas
-* Os utilizadores Xero requerem as seguintes funções para acederem ao pacote de conteúdos Xero para o Power BI: "Padrão + Relatórios" ou "Consultor". O pacote de conteúdos serve-se de permissões baseadas em utilizadores para aceder aos dados de relatórios através do Power BI.  
+* Os utilizadores Xero têm de ter as seguintes funções para acederem ao pacote de conteúdos Xero para o Power BI: "Padrão + Relatórios" ou "Assistente". O pacote de conteúdos serve-se de permissões baseadas em utilizadores para aceder aos dados de relatórios através do Power BI.  
 * Se receber uma mensagem de falha após algum tempo de carregamento, verifique quanto tempo demorou até que a mensagem de erro surgisse. Note que o token de acesso fornecido para o Xero só é válido durante 30 minutos, pelo que as contas com mais dados do que aqueles que podem ser carregados nesse tempo irão falhar. Estamos a trabalhar ativamente para resolver este problema.
 * Durante o carregamento, os mosaicos no dashboard permanecerão num estado genérico de carregamento. Não é esperado que este estado mude até o carregamento ser completamente efetuado. Se receber uma notificação a indicar que o seu carregamento foi concluído, mas os mosaicos continuam a carregar, experimente atualizar os mosaicos do dashboard através das reticências no canto superior direito do dashboard.
 * Se o seu pacote de conteúdos não for atualizado, verifique se se ligou mais do que uma vez à mesma organização no Power BI. O Xero só permite uma única ligação ativa a uma organização, e o utilizador poderá ver um erro a indicar que as suas credenciais são inválidas se se ligar mais do que uma vez à mesma organização.  
@@ -97,7 +97,7 @@ Indique um nome da sua organização para a controlar no Power BI. Isto permite-
 
 Para outros problemas, envie um pedido em http://support.powerbi.com, se o problema persistir.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

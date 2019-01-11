@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830154"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056185"
 ---
 # <a name="certified-custom-visuals"></a>Elementos visuais personalizados certificados
 
@@ -62,7 +63,7 @@ Para [certificar](#certified-custom-visuals) o seu elemento visual personalizado
 Para enviar um visual personalizado para certificação:
 
 1. Envie um e-mail para a Equipa de Suporte dos Elementos Visuais Personalizados do Power BI (pbicvsupport@microsoft.com). No e-mail, inclua as seguintes informações:
-    * Título: Pedido de Certificação Visual
+    * Título: Pedido de Certificação de Elemento Visual
     * Forneça uma ligação para o repositório do GitHub em que está alojado o código-fonte legível por humanos
     * [Cumprir os requisitos](#certification-requirements)
     * Passar na análise de código
@@ -73,6 +74,7 @@ Para enviar um visual personalizado para certificação:
 
 | Ligação para o AppSource | Ligação para o vídeo |
 | --- | --- |
+| [3AG Systems – Gráfico de Colunas com Desvio Relativo](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [Gráfico Aster](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Calendário Beyondsoft](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Gráfico de Laço da MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [Vídeo](https://youtu.be/So5xKMSpVJI) |

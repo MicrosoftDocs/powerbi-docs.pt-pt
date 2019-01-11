@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451427"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983698"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Criar áreas de trabalho com os seus colegas no Power BI
 
-No Power BI, pode criar *áreas de trabalho*, ou seja, locais onde pode colaborar com colegas para criar e otimizar coleções de dashboards e relatórios. Depois poderá agrupá-los em *aplicações* que pode distribuir por toda a organização ou por um conjunto de pessoas ou grupos específico. 
+No Power BI, pode criar *áreas de trabalho*, ou seja, locais onde pode colaborar com colegas para criar e otimizar coleções de dashboards e relatórios. Depois poderá agrupar a coleção em *aplicações* e distribuir por toda a organização ou por um conjunto de pessoas ou grupos específico. 
 
 ![Power BI apps](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
-Ao criar uma área de trabalho, está também a criar um grupo subjacente associado ao Office 365. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planear publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. 
+Ao criar uma área de trabalho, está também a criar um grupo subjacente associado ao Office 365. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. 
 
-**Sabia que?** O Power BI está a apresentar uma nova experiência de área de trabalho em modo de pré-visualização. Leia [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md) para saber como as áreas de trabalho irão mudar no futuro. 
+**Sabia que?** O Power BI está a apresentar uma nova experiência de área de trabalho em modo de pré-visualização. Para obter detalhes sobre a nova área de trabalho, leia [Organize work in the new workspaces (preview)](service-new-workspaces.md) (Organizar o seu trabalho nas novas áreas de trabalho [pré-visualização]). 
 
 ## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicações e áreas de trabalho de aplicações
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios qu
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Quais são as diferenças entre as aplicações e os pacotes de conteúdos organizacionais?
 As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se já tiver pacotes de conteúdos organizacionais, estes continuarão a funcionar lado a lado com as aplicações. As aplicações e os pacotes de conteúdos apresentam algumas diferenças importantes. 
 
-* Depois de os utilizadores empresariais instalarem um pacote de conteúdos, este perde a respetiva identidade agrupada: é apenas uma lista de dashboards e relatórios misturados com outros dashboards e relatórios. As aplicações, por outro lado, mantêm o respetivo agrupamento e identidade, mesmo após a instalação. Isto torna mais fácil aos utilizadores empresariais continuarem a navegar nelas ao longo do tempo.
+* Depois de os utilizadores empresariais instalarem um pacote de conteúdos, este perde a respetiva identidade agrupada: é apenas uma lista de dashboards e relatórios misturados com outros dashboards e relatórios. As aplicações, por outro lado, mantêm o respetivo agrupamento e identidade, mesmo após a instalação. Este agrupamento torna mais fácil aos utilizadores empresariais continuarem a navegar nas aplicações ao longo do tempo.
 * Pode criar vários pacotes de conteúdos a partir de qualquer área de trabalho, mas uma aplicação tem uma relação de 1:1 com a respetiva área de trabalho. 
 * Ao longo do tempo, planeamos preterir pacotes de conteúdos organizacionais, pelo que recomendamos que crie aplicações a partir de agora.  
-* Com a pré-visualização da nova experiência de área de trabalho, estamos a dar os primeiros passos no sentido de descontinuar os pacotes de conteúdos organizacionais. Não os poderá utilizar ou criar em áreas de trabalho de pré-visualização.
+* Com a pré-visualização da nova experiência de área de trabalho, estamos a dar os primeiros passos no sentido de preterir os pacotes de conteúdos organizacionais. Não os poderá utilizar ou criar em áreas de trabalho de pré-visualização.
 
-Veja [How are the new app workspaces different from existing app workspaces?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) (Em que diferem as novas áreas de trabalho de aplicação das já existentes?) para comparar as áreas de trabalho de aplicação novas e as atuais. 
+Veja [How are the new app workspaces different from existing app workspaces?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces) (Em que diferem as novas áreas de trabalho de aplicação das já existentes?) para comparar ambas as áreas de trabalho de aplicação. 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Instalar e utilizar aplicações no Power BI](service-create-distribute-apps.md)

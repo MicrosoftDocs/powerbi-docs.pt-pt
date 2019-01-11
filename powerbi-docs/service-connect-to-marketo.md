@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545694"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008632"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Ligue-se ao Marketo com o Power BI
 O pacote de conteúdos do Power BI para o Marketo permite que obtenha informações sobre a sua conta do Marketo com dados sobre clientes potenciais e as suas atividades. A criação dessa ligação recupera os seus dados e fornece automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -85,7 +85,7 @@ A quantidade de chamadas de API que o Power BI realiza para o Marketo depende da
 | Alterações no programa |7.500 |50 |
 | **Total de Chamadas à API** | |**2,200** |
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)

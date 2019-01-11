@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: e1f1a8fdc5094fd13fc2894d9728951d9f6bde96
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180467"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983560"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gerir o armazenamento de dados nas áreas de trabalho do Power BI
 
@@ -24,24 +24,26 @@ Saiba como pode gerir o armazenamento de dados na sua área de trabalho individu
 
 Os utilizadores e as áreas de trabalho de aplicação têm as suas próprias capacidades de dados:
 
-* Todos os utilizadores têm um máximo de 10 GB de armazenamento de dados.
+* Todos os utilizadores têm um máximo de 10 GB de armazenamento de dados.
 * Os utilizadores com uma licença do Power BI Pro podem criar áreas de trabalho de aplicação com um máximo de 10 GB de armazenamento de dados em cada uma.
+* Uma área de trabalho de aplicação numa capacidade Premium não conta para o armazenamento de um utilizador do Power BI Pro.
 
 Ao nível do inquilino, a utilização total não pode exceder 10 GB por utilizador Pro em todos os utilizadores e áreas de trabalho de aplicação Pro no inquilino.
 
 Leia sobre outras funcionalidades do [modelo de preços do Power BI](https://powerbi.microsoft.com/pricing).
 
-Estão incluídos no armazenamento de dados os seus próprios conjuntos de dados e relatórios do Excel e os que foram partilhados consigo. Conjuntos de dados são qualquer uma das origens de dados que carregou ou com as quais está ligado, incluindo os ficheiros do Power BI Desktop e os livros do Excel que está a utilizar. O exemplo seguinte também está incluído na capacidade de dados.
+São incluídos no armazenamento de dados os seus próprios conjuntos de dados e relatórios do Excel, assim como os itens que foram partilhados consigo. Os conjuntos de dados são as origens de dados que carregou ou às quais se ligou. Estas origens de dados incluem os ficheiros do Power BI Desktop e os livros do Excel que está a utilizar. O exemplo seguinte também está incluído na capacidade de dados.
 
 * Intervalos do Excel afixados ao dashboard.
 * Visualizações locais dos Reporting Services afixadas a um dashboard do Power BI.
 * Imagens carregadas.
 
-O tamanho de um dashboard que partilha irá variar consoante o que está afixado ao mesmo. Por exemplo, se afixar itens de dois relatórios que fazem parte de dois conjuntos de dados diferentes, o tamanho incluirá ambos os conjuntos de dados.
+O tamanho de um dashboard que partilha varia consoante o que está afixado ao mesmo. Por exemplo, se afixar itens de dois relatórios que fazem parte de dois conjuntos de dados diferentes, o tamanho inclui ambos os conjuntos de dados.
 
 <a name="manage"/>
 
-## <a name="manage-items-owned-by-you"></a>Gerir itens que lhe pertencem
+## <a name="manage-items-you-own"></a>Gerir itens dos quais é proprietário
+
 Veja a quantidade de armazenamento de dados que está a utilizar na sua conta do Power BI e faça a gestão da sua conta.
 
 1. Para gerir o seu próprio armazenamento, aceda a **A Minha Área de Trabalho** no painel de navegação à esquerda.
@@ -55,9 +57,9 @@ Veja a quantidade de armazenamento de dados que está a utilizar na sua conta do
    
     Os conjuntos de dados e os relatórios são separados em dois separadores:
    
-    **Minha Propriedade:** são relatórios e conjuntos de dados que carregou para a sua conta do Power BI, incluindo conjuntos de dados de serviço, como Salesforce e Dynamics CRM.  
+    **Minha Propriedade:** carregou estes relatórios e conjuntos de dados para a sua conta do Power BI, incluindo conjuntos de dados de serviços como o Salesforce e o Dynamics CRM.  
     **Propriedade de Outros Utilizadores:** outras pessoas partilharam os relatórios e conjuntos de dados consigo.
-3. Para eliminar um conjunto de dados ou um relatório, selecione o ícone de caixote do lixo ![ícone de caixote do lixo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. Para eliminar um conjunto de dados ou um relatório, selecione o ícone de caixote do lixo ![ícone de caixote do lixo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Tenha em atenção que tanto o utilizador como outra pessoa podem ter relatórios e dashboards com base num conjunto de dados. Se eliminar o conjunto de dados, os relatórios e dashboards deixarão de funcionar.
 
@@ -73,7 +75,7 @@ Tenha em atenção que tanto o utilizador como outra pessoa podem ter relatório
    
     Os conjuntos de dados e os relatórios são separados em dois separadores:
    
-    **Nossa Propriedade:** são relatórios e conjuntos de dados carregados por si ou por outra pessoa para a conta do Power BI do grupo, incluindo conjuntos de dados de serviço, como Salesforce e Dynamics CRM.
+    **Nossa Propriedade:** você ou outra pessoa carregou estes relatórios e conjuntos de dados para a conta do Power BI do grupo, incluindo conjuntos de dados de serviços como o Salesforce e o Dynamics CRM.
     **Propriedade de Outros Utilizadores:** outras pessoas partilharam os relatórios e conjuntos de dados com o seu grupo.
 3. Para eliminar um conjunto de dados ou um relatório, selecione o ícone de caixote do lixo ![ícone de caixote do lixo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
@@ -85,20 +87,20 @@ Tenha em atenção que tanto o utilizador como outra pessoa podem ter relatório
 Tenha em mente que você ou outra pessoa do grupo pode ter relatórios e dashboards com base em um conjunto de dados. Se eliminar o conjunto de dados, os relatórios e dashboards deixarão de funcionar.
 
 ## <a name="dataset-limits"></a>Limites do conjunto de dados
-Existe um limite de 1 GB por conjunto de dados importado para o Power BI. Se tiver optado por manter a experiência do Excel, em vez de importar os dados, estará limitado a 250 MB para o conjunto de dados.
+Existe um limite de 1 GB por conjunto de dados importado para o Power BI. Se tiver optado por manter a experiência do Excel, em vez de importar os dados, existe um limite de 250 MB para o conjunto de dados.
 
-## <a name="what-happens-when-you-hit-a-limit"></a>O que acontece ao atingir um limite
-Ao atingir o limite da capacidade de dados do que é possível fazer, serão apresentados avisos dentro do serviço. 
+## <a name="what-happens-when-you-reach-a-limit"></a>O que acontece quando atinge um limite
+Quando atinge o limite da capacidade de dados do que é possível fazer, são apresentados avisos dentro do serviço. 
 
-Ao selecionar o ícone de engrenagem ![ícone de engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), verá uma barra vermelha que indica que está acima do limite da capacidade de dados.
+Ao selecionar o ícone de engrenagem ![ícone de engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), verá uma barra vermelha que indica que ultrapassou o limite da capacidade de dados.
 
-! [Limite de armazenamento atingido]] (media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Limite de armazenamento atingido](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
-Também verá isto indicado em **Gerir armazenamento pessoal**.
+Este limite também é indicado em **Gerir armazenamento pessoal**.
 
  ![Gerir armazenamento pessoal, limite de armazenamento atingido](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- Ao tentar executar uma ação que atingirá um dos limites, será apresentado um aviso que indica que está acima do limite. Poderá [gerir](#manage) o armazenamento para reduzir a quantidade de armazenamento e ultrapassar o limite.
+ Ao tentar executar uma ação que atingirá um dos limites, verá uma mensagem a indicar que está acima do limite. Pode [gerir](#manage) o armazenamento para reduzir a quantidade de armazenamento e ultrapassar o limite.
 
  ![Excedeu o limite de armazenamento](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 

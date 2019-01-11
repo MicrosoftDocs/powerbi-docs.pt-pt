@@ -1,5 +1,5 @@
 ---
-title: Como devo colaborar e partilhar no Power BI?
+title: Formas de partilhar o seu trabalho
 description: No Power BI, pode partilhar e colaborar em dashboards, relatórios, mosaicos e aplicações de diferentes formas. Cada um tem as suas vantagens.
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908975"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983537"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Como devo colaborar e partilhar no Power BI?
+# <a name="ways-to-share-your-work-in-power-bi"></a>Formas de partilhar o seu trabalho no Power BI
 
-Acabou de criar dashboards e relatórios. Pode até colaborar com os seus colegas nos mesmos. Depois, quer que outras pessoas tenham acesso. Qual é a melhor forma de distribuí-los?
+Acabou de criar dashboards e relatórios. Talvez já tenha colaborado nos mesmos com os seus colegas. Agora, quer que outras pessoas tenham acesso. Qual é a melhor forma de distribuí-los?
 
 Neste artigo, vamos comparar estas opções de colaboração e partilha no Power BI: 
 
-* Colabore com colegas de trabalho para criar relatórios e dashboards significativos nas *áreas de trabalho de aplicações*.
+* Colabore com colegas para criar relatórios e dashboards relevantes nas *áreas de trabalho*.
 * Agrupar esses dashboards e relatórios em *aplicações* e publicá-los para um grupo maior ou para toda a organização.
 * Partilhar dashboards ou relatórios com algumas pessoas, a partir do serviço ou das aplicações móveis do Power BI.
 - Imprimir relatórios.
@@ -35,25 +35,25 @@ Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licen�
 
 *Aplicações no serviço Power BI*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Colaborar com colegas de trabalho numa área de trabalho de aplicação
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>Colaborar com colegas numa área de trabalho
 
-Quando as equipas trabalham em conjunto, precisam de acesso aos mesmos documentos para que possam colaborar rapidamente. As áreas de trabalho de aplicações no Power BI disponibilizam o local onde as equipas se reúnem para partilhar a propriedade e gestão de dashboards, relatórios, conjuntos de dados e livros relevantes. Por vezes, os utilizadores do Power BI organizam as respetivas áreas de trabalho com base em estruturas organizacionais, outras vezes criam-nas para projetos específicos. No entanto, existem outras organizações que utilizam várias áreas de trabalho para armazenar diferentes versões dos relatórios ou dashboards que utilizam. 
+Quando as equipas trabalham em conjunto, precisam de acesso aos mesmos documentos para que possam colaborar rapidamente. As áreas de trabalho no Power BI proporcionam um local onde as equipas se reúnem para partilhar a propriedade e gestão de dashboards, relatórios, conjuntos de dados e livros relevantes. Por vezes, os utilizadores do Power BI organizam as respetivas áreas de trabalho com base em estruturas organizacionais, outras vezes criam-nas para projetos específicos. No entanto, existem outras organizações que utilizam várias áreas de trabalho para armazenar diferentes versões dos relatórios ou dashboards que utilizam. 
 
-As áreas de trabalho de aplicações disponibilizam funções que determinam as permissões que os seus colegas de trabalho têm. Pode utilizar essas funções para determinar quem pode gerir toda a área de trabalho ou apenas fornecer conteúdos para a mesma.
+As áreas de trabalho disponibilizam funções que determinam as permissões que os seus colegas têm. Pode utilizar essas funções para determinar quem pode gerir toda a área de trabalho ou apenas fornecer conteúdos para a mesma.
 
-![Áreas de trabalho de aplicações](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Áreas de trabalho](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-Alguns utilizadores colocam os conteúdos em A Minha Área de Trabalho e partilham-nos. As áreas de trabalho de aplicações funcionam melhor para a colaboração do que A Minha Área de Trabalho, já que permitem a propriedade partilhada dos conteúdos. Você e toda a sua equipa podem fazer atualizações ou conceder acesso a terceiros facilmente. A Minha Área de Trabalho funciona melhor para conteúdos pontuais ou pessoais de utilizadores individuais.
+Alguns utilizadores colocam os conteúdos em A Minha Área de Trabalho e partilham-nos. As áreas de trabalho funcionam melhor para a colaboração do que A Minha Área de Trabalho, já que permitem a propriedade partilhada dos conteúdos. Você e toda a sua equipa podem fazer atualizações ou conceder acesso a terceiros facilmente. A Minha Área de Trabalho funciona melhor para conteúdos pontuais ou pessoais de utilizadores individuais.
 
-Imaginemos que terminou um dashboard que precisa de partilhar com os seus colegas. Qual é a melhor forma de lhes conceder acesso ao dashboard? A resposta depende de vários fatores. Se um colega específico precisar de ser proprietário do dashboard e de o manter atualizado ou precisar de acesso a todos os conteúdos na área de trabalho da aplicação, a melhor opção poderá ser adicioná-lo à área de trabalho. Se o seu colega apenas precisar de aceder ao dashboard e não a todos os conteúdos na área de trabalho, pode escolher entre várias alternativas. Se o dashboard fizer parte de um conjunto de conteúdos maior que precisa de distribuir por diversos colegas, publicar uma aplicação será provavelmente a melhor opção. Contudo, se o colega apenas precisar desse dashboard, partilhar o mesmo poderá ser a escolha acertada. 
+Imaginemos que terminou um dashboard que precisa de partilhar com os seus colegas. Qual é a melhor forma de lhes conceder acesso ao dashboard? A resposta depende de vários fatores. Se um colega específico precisar de ser proprietário do dashboard e de o manter atualizado ou precisar de acesso a todos os conteúdos na área de trabalho, a melhor opção poderá ser adicioná-lo à área de trabalho. Se o seu colega apenas precisar de aceder ao dashboard e não a todos os conteúdos na área de trabalho, pode escolher entre várias alternativas. Se o dashboard fizer parte de um conjunto de conteúdos maior que precisa de distribuir por diversos colegas, publicar uma aplicação será provavelmente a melhor opção. Contudo, se o colega apenas precisar desse dashboard, partilhar o mesmo poderá ser a escolha acertada. 
 
-Leia mais sobre como [criar áreas de trabalho de aplicações](service-create-workspaces.md).
+Leia mais sobre como [criar áreas de trabalho](service-create-workspaces.md).
 
 **Sabia que?** O Power BI está a apresentar uma nova experiência de área de trabalho em modo de pré-visualização. Leia [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md) para saber como as áreas de trabalho irão mudar no futuro. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Distribuir dados e informações ao criar uma aplicação
 
-Suponhamos que pretende distribuir a sua área de trabalho para um público alargado. O utilizador e os seus colegas criaram uma *área de trabalho de aplicação* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados na área de trabalho de aplicação. Agora, selecione os dashboards e relatórios que pretende e publique-os como uma aplicação, quer seja para um grupo ou para toda a organização. 
+Suponhamos que pretende distribuir a sua área de trabalho para um público alargado. Você e os seus colegas criaram uma *área de trabalho* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados na área de trabalho. Agora, selecione os dashboards e relatórios que pretende e publique-os como uma aplicação, quer seja para um grupo ou para toda a organização. 
 
 ![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Para que os seus utilizadores vejam a sua aplicação, precisam de ter também u
 Também pode publicar aplicações para os utilizadores exteriores à sua organização. Estes podem ver e interagir com os conteúdos da aplicação mas não podem partilhá-la com terceiros.
 
 ## <a name="share-dashboards-and-reports"></a>Partilhar dashboards e relatórios
-Suponhamos que finalizou um dashboard e um relatório em A minha Área de Trabalho ou numa área de trabalho de aplicação e pretende que outras pessoas tenham acesso aos mesmos. Uma forma de o conseguir é *partilhá-lo*. 
+Suponhamos que finalizou um dashboard e um relatório em A Minha Área de Trabalho ou numa área de trabalho e pretende que outras pessoas tenham acesso aos mesmos. Uma forma de o conseguir é *partilhá-lo*. 
 
 ![Ícone Partilhar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

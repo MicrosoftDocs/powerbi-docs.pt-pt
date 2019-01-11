@@ -1,6 +1,6 @@
 ---
 title: O editor de relatórios... Faça uma visita
-description: O editor de relatórios... faça uma visita.
+description: O editor de relatórios no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,54 +8,51 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 12/19/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ce4d09e20fe02ff0552045e307f9d63aa834bd3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 7a3b4c9e47a85d11446ba3729c258bbb2868acec
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187588"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983652"
 ---
-# <a name="the-report-editortake-a-tour"></a>O editor de relatórios... Faça uma visita
-## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Editar relatórios no serviço Power BI e no Power BI Desktop
-O editor de relatórios no serviço do Power BI e o editor de relatórios no Power BI Desktop são bastante semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço do Power BI. 
+# <a name="tour-of-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
 
-## <a name="the-difference-between-report-creators-and-report-consumers"></a>Diferença entre *criadores* e *consumidores* de relatórios
-A possibilidade de criar e editar relatórios está restringida aos proprietários dos relatórios (também conhecidos como *criadores*). Se estiver a *consumir* um relatório que tenha sido partilhado consigo, poderá abri-lo e interagir com ele no serviço Power BI [Apenas na vista de leitura](consumer/end-user-reading-view.md), mas não terá acesso a todas as funcionalidades robustas disponibilizadas para o criador de relatórios.  
+O *editor de relatórios* no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço Power BI. 
 
-Para saber mais sobre a Vista de leitura dos relatórios, veja [Vista de leitura e Vista de edição no serviço Power BI](consumer/end-user-reading-view.md) 
+Enquanto criador de relatórios, a sua função é criar e editar dashboards e relatórios. Em seguida, distribui-os aos seus consumidores de relatórios. Estes podem interagir com os seus dashboards e relatórios na Vista de Leitura no serviço Power BI, mas não os podem editar. Conheça as diferenças entre a [Vista de Leitura e a Vista de Edição de relatórios no serviço Power BI](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-No serviço do Power BI, o *editor de relatórios* está disponível apenas na [Vista de Edição](consumer/end-user-reading-view.md). Para abrir um relatório na Vista de edição, tem de ser um proprietário ou criador de relatórios.
+No serviço Power BI, o editor de relatórios está disponível apenas na Vista de Edição. Para abrir um relatório na Vista de Edição, tem de ser o respetivo proprietário ou criador, ou ser um contribuidor da área de trabalho da aplicação que aloja o mesmo.
 
-O editor de relatórios do Power BI consiste em 3 secções:  
+O editor de relatórios do Power BI tem três secções:  
 
 1. Filtros **Campos**, **Visualizações** e **Filtros**
 2. barras de navegação superiores    
 3. tela de relatórios     
 
-![](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
+![As secções do editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
 
 ## <a name="1-the-report-editor-panes"></a>1. Os painéis do editor de relatórios
 ![Editor de relatórios do Power BI](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
 
-Existem 3 painéis visíveis quando abre um relatório pela primeira vez: Visualizações, Filtros e Campos. Os painéis no lado esquerdo, Visualizações e Filtros, controlam a aparência das visualizações: tipo, cores, filtragem, formato.  E o painel no lado direito, Campos, gere os dados subjacentes utilizados nas visualizações. 
+Quando abre um relatório pela primeira vez, são apresentados três painéis: Visualizações, Filtros e Campos. Os painéis no lado esquerdo, Visualizações e Filtros, controlam a aparência das visualizações: tipo, cores, filtragem, formato.  E o painel no lado direito, Campos, gere os dados subjacentes utilizados nas visualizações. 
 
-O conteúdo exibido no editor de relatórios varia de acordo com as seleções feitas na tela de relatório.  Por exemplo, quando seleciona um elemento visual individual, 
+O conteúdo exibido no editor de relatórios varia de acordo com as seleções feitas na tela de relatório.  Por exemplo, quando seleciona um elemento visual individual:
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>a parte superior do painel Visualização identifica o tipo de visual em utilização: neste exemplo, um gráfico de colunas em Cluster.<br><br></li> <li>A parte inferior do painel Visualização (poderá ter de deslocar-se para baixo) mostra os campos utilizados no visual. Este gráfico utiliza a variância de FiscalMonth, DistrictManager e Vendas Totais. <br><br></li><li>O painel Filtros (poderá ter de deslocar-se para baixo) mostra os filtros que foram aplicados. <br><br></li><li>O painel Campos mostra as tabelas disponíveis e, se expandir o nome de uma tabela, os campos que constituem essa tabela. O tipo de letra amarelo mostra que pelo menos um campo dessa tabela está a ser utilizado na visualização.<br><br></li><li>![ícone de rolo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar o painel de formatação, para a visualização selecionada, selecione o ícone do rolo de pintura.<br><br></li><li>![ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para mostrar o painel Análise, selecione o ícone de lupa.</ul> |
+| ![Painéis do editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>a parte superior do painel Visualização identifica o tipo de visual em utilização: neste exemplo, um gráfico de colunas em Cluster.<br><br></li> <li>A parte inferior do painel Visualização (poderá ter de deslocar-se para baixo) mostra os campos utilizados no visual. Este gráfico utiliza a variância de FiscalMonth, DistrictManager e Vendas Totais. <br><br></li><li>O painel Filtros (poderá ter de deslocar-se para baixo) mostra os filtros que foram aplicados. <br><br></li><li>O painel Campos mostra as tabelas disponíveis e, se expandir o nome de uma tabela, os campos que constituem essa tabela. O tipo de letra amarelo mostra que pelo menos um campo dessa tabela está a ser utilizado na visualização.<br><br></li><li>![ícone de rolo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar o painel de formatação, para a visualização selecionada, selecione o ícone do rolo de pintura.<br><br></li><li>![ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para mostrar o painel Análise, selecione o ícone de lupa.</ul> |
 
-## <a name="the-visualizations-pane-from-top-to-bottom"></a>O painel Visualizações (da parte superior para a inferior)
+## <a name="the-visualizations-pane"></a>O painel Visualizações
 ![parte superior do painel Visualização](media/service-the-report-editor-take-a-tour/selectviz.png)
 
 Este local é onde seleciona um tipo de visualização. As imagens pequenas chamam-se *modelos*. Na imagem acima, o Gráfico de barras agrupadas está selecionado. Se não selecionar primeiro um tipo de visualização, mas começar a criar uma visualização ao selecionar campos, o Power BI irá selecionar o tipo de visualização. Pode manter a seleção do Power BI ou alterar o tipo ao selecionar um modelo diferente. Pode mudar as vezes que precisar até encontrar o tipo de visualização que melhor representa os seus dados.
 
-### <a name="manage-the-fields-used-in-your-visual"></a>Gira os campos utilizados no seu visual.
+### <a name="manage-the-fields-in-your-visual"></a>Gerir os campos no seu elemento visual
 ![parte central do painel Visualização](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
 Os registos (por vezes denominados *wells*) mostrados neste painel variam consoante o tipo de visualização que selecionou.  Por exemplo, se tiver selecionado um gráfico de barras, verá registos para: Valores, Eixo e Legenda. Quando seleciona um campo, ou o arrasta para a tela, o Power BI adiciona esse campo a um dos registos.  Também pode arrastar campos da lista Campos diretamente para os registos.  Alguns registos são limitados a determinados tipos de dados.  Por exemplo, **Valores** não aceita campos não numéricos. Por isso, se arrastar um campo **employeename** para o registo **Valores**, o Power BI altera-o para **contagem de employeename**.
@@ -70,7 +67,7 @@ Para obter mais informações, consulte [Adicionar visualizações a um relatór
 ### <a name="format-your-visuals"></a>Formatar os elementos visuais
 Selecione o ícone do rolo de pintura para apresentar o painel Formatar. As opções disponíveis dependem do tipo de visualização selecionada.
 
-![Painel de formatação](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![Painel Formatação no editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 As possibilidades de formatação são praticamente infinitas.  Para saber mais, explore de forma autónoma ou consulte estes artigos:
 
@@ -81,7 +78,7 @@ As possibilidades de formatação são praticamente infinitas.  Para saber mais,
 ### <a name="add-analytics-to-your-visualizations"></a>Adicionar análises às suas visualizações
 Selecione o ícone da lupa para mostrar o painel Análise. As opções disponíveis dependem do tipo de visualização selecionada.
 
-![](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
+![Painel Análise no editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Com o painel Análise no serviço do Power BI, pode adicionar linhas de referência dinâmicas a visualizações e dar foco a tendências ou informações importantes. Para saber mais, consulte o [painel Análise no serviço Power BI](service-analytics-pane.md) ou o [painel Análise no Power BI Desktop](desktop-analytics-pane.md).
 
 - - -
@@ -105,30 +102,33 @@ O painel Campos mostra as tabelas e os campos que existem nos seus dados e estã
 **NOTA**: se estiver a utilizar o Power BI Desktop, também terá opções para mostrar/ocultar campos, adicionar cálculos, etc.
 
 ### <a name="what-do-the-field-icons-mean"></a>O que significam os ícones de campo?
-* **Agregados ∑** Um agregado é um valor numérico cuja soma ou média, por exemplo, será calculada. Os agregados são importados com os dados (definidos no modelo de dados no qual se baseia o seu relatório).
-  Para obter mais informações, consulte [Agregados em relatórios do Power BI](service-aggregates.md).
-* ![ícone de calculadora](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Medidas calculadas (também denominadas campos calculados)**  
-   Cada campo calculado tem a sua própria fórmula calculada. Não é possível alterar o cálculo; por exemplo, se for uma soma, só poderá ser uma soma. Para obter mais informações, consulte [Noções básicas sobre medidas](desktop-measures.md)
-* ![ícone de Campos exclusivos](media/service-the-report-editor-take-a-tour/icon.png) **Campos exclusivos**  
-   Os campos com este ícone foram importados do Excel e estão definidos para mostrar todos os valores, mesmo se tiverem duplicados. Por exemplo, os seus dados podem ter dois registos para pessoas chamadas “Mateus Rodrigues” e cada um deles será tratado como exclusivo – estes não serão somados.  
-* **![ícone de Campos geográficos](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Campos geográficos**  
-   Os campos de localização podem ser utilizados para criar visualizações de mapas. 
-* **![ícone de Hierarquia](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hierarquia**  
-   Selecione a seta para mostrar os campos que constituem a hierarquia. 
+**Agregados ∑** Um agregado é um valor numérico cuja soma ou média, por exemplo, será calculada. Os agregados são importados com os dados (definidos no modelo de dados no qual se baseia o seu relatório).
+Para obter mais informações, consulte [Agregados em relatórios do Power BI](service-aggregates.md).
 
-- - -
+![ícone de calculadora](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Medidas calculadas (também denominadas campos calculados)**  
+Cada campo calculado tem a sua própria fórmula calculada. Não é possível alterar o cálculo; por exemplo, se for uma soma, só poderá ser uma soma. Para obter mais informações, consulte [Noções básicas sobre medidas](desktop-measures.md)
+
+![ícone de Campos exclusivos](media/service-the-report-editor-take-a-tour/icon.png) **Campos exclusivos**  
+Os campos com este ícone foram importados do Excel e estão definidos para mostrar todos os valores, mesmo se tiverem duplicados. Por exemplo, os seus dados podem ter dois registos para pessoas chamadas “Mateus Rodrigues” e cada um deles será tratado como exclusivo – estes não serão somados.  
+
+**![ícone de Campos geográficos](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Campos geográficos**  
+Os campos de localização podem ser utilizados para criar visualizações de mapas. 
+
+**![ícone de Hierarquia](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Hierarquia**  
+Selecione a seta para mostrar os campos que constituem a hierarquia. 
+
 ## <a name="2-the-top-navigation-bar"></a>2. A barra de navegação superior
 As ações disponíveis na barra de navegação superior são bastantes, e estão sempre a ser adicionadas novas ações. Para obter informações sobre uma ação específica, utilize a Caixa de pesquisa ou o Índice da Documentação do Power BI.
 
 ## <a name="3-the-report-canvas"></a>3. A tela de relatórios
 A tela de relatórios é onde o seu trabalho é apresentado. Quando utiliza os painéis Campos, Filtros e Visualizações para criar visuais, estes são criados e apresentados na sua tela de relatórios. Cada separador na parte inferior da tela representa uma página no relatório. Selecione um separador para abrir essa página. 
 
-## <a name="next-steps"></a>Passos seguintes:
+## <a name="next-steps"></a>Próximos passos
 [Criar um relatório](service-report-create-new.md)
 
-Leia mais sobre os relatórios no [serviço Power BI](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) e [Power BI mobile](consumer/mobile/mobile-apps-view-phone-report.md).
+Mais informações sobre relatórios no [serviço Power BI](service-report-create-new.md), no [Power BI Desktop](desktop-report-view.md) e nas [aplicações móveis do Power BI](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+[Conceitos básicos para designers do Power BI](service-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

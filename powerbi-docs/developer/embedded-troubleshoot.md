@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/12/2018
-ms.openlocfilehash: 010a26076fe139401eb2dbbc363c712d67c637fb
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.date: 12/20/2018
+ms.openlocfilehash: 5ee6758093969a2db1d932a88f21c965380bab5c
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329723"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008448"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -135,7 +135,7 @@ Após atribuir a política, aguarde aproximadamente 15 a 20 segundos para permit
 
 ### <a name="generate-token-fails-when-providing-effective-identity"></a>A geração de token falha ao fornecer identidade em vigor
 
-O GenerateToken pode falhar, com uma identidade em vigor fornecida, por vários motivos diferentes.
+O GenerateToken pode falhar, com identidade eficaz fornecida, por vários motivos diferentes.
 
 * O conjunto de dados não suporta a identidade em vigor
 * O nome de utilizador não foi fornecido
@@ -291,3 +291,7 @@ Para obter mais informações, veja [Perguntas frequentes sobre o Power BI Embe
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
 Se precisar de mais assistência, [contacte o suporte](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) ou [crie um pedido de suporte através do portal do Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e indique as mensagens de erro que encontrar.
+
+## <a name="performance"></a>Desempenho
+
+[Desempenho do Power BI Embedded](embedded-performance-best-practices.md)

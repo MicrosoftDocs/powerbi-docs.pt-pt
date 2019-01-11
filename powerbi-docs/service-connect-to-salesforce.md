@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548264"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008586"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Ligar-se ao Salesforce com o Power BI
 Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. A criação dessa ligação devolver os dados, além de fornecer automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -56,14 +56,14 @@ Ligue-se ao [pacote de conteúdos do Salesforce](https://app.powerbi.com/getdata
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. É possível fazer perguntas com Perguntas e Respostas ou clicar num mosaico para [abrir o relatório subjacente](consumer/end-user-tiles.md) e [alterar os mosaicos](service-dashboard-edit-tile.md) no dashboard.
+Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. É possível fazer perguntas com Perguntas e Respostas ou clicar num bloco para [abrir o relatório subjacente](consumer/end-user-tiles.md) e [alterar os blocos](service-dashboard-edit-tile.md) no dashboard.
 
 **O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Alterar os mosaicos](service-dashboard-edit-tile.md) no dashboard <<<<<<< CABEÇALHO
 * [Selecionar um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente =======
-* [Selecionar um mosaico](service-dashboard-tiles.md) para abrir o relatório subjacente
+* [Selecionar um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente
 >>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
@@ -80,10 +80,10 @@ Se encontrar algum erro, reveja os requisitos acima. Observe também que não h�
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>Mensagem "Não é possível ligar ao servidor remoto"
 
-Se receber a mensagem "Não é possível ligar ao servidor remoto" ao tentar ligar à sua conta do Salesforce, veja esta solução no fórum da Outsystems: [Salesforce Connector Log In Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Mensagem de erro de início de sessão do Conector do Salesforce: Não é possível ligar ao servidor remoto).
+Se receber a mensagem "Não é possível ligar ao servidor remoto" ao tentar ligar à sua conta do Salesforce, veja esta solução no fórum da Outsystems: [Salesforce Connector Log In Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Mensagem de erro de início de sessão do Conector do Salesforce: não é possível ligar ao servidor remoto).
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
 [Obter Dados](service-get-data.md)

@@ -5,20 +5,20 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549751"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008264"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Ligar VMob com o Power BI
-É fácil acompanhar e explorar dados do VMob com o Power BI e o pacote de conteúdos do VMob. O Power BI devolve os seguintes dados: Estatísticas do Utilizador para todas as horas e nos últimos 30 dias, KPI de Varejo nos últimos 30 dias e Desempenho da Campanha nos últimos 30 dias.
+É fácil acompanhar e explorar dados do VMob com o Power BI e o pacote de conteúdos do VMob. O Power BI devolve os seguintes dados: Estatísticas do Utilizador desde sempre e dos últimos 30 dias, KPI de Revenda dos últimos 30 dias e Desempenho da Campanha dos últimos 30 dias.
 
 Ligue-se ao [pacote de conteúdo do VMob](https://app.powerbi.com/getdata/services/vmob) para o Power BI.
 
@@ -47,7 +47,7 @@ Ligue-se ao [pacote de conteúdo do VMob](https://app.powerbi.com/getdata/servic
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento de atualização ou tentar atualizá-lo a pedido através de **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)

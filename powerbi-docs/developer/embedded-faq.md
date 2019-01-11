@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578802"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008425"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -74,7 +74,7 @@ Segue-se uma lista parcial de diferenças que pode utilizar para cada um.
 | Aceder a conteúdos com uma licença GRATUITA do Power BI em Powerbi.com e no Power BI Mobile | Não | Não | Sim |
 | Aceder a conteúdos com uma licença GRATUITA do Power BI incorporada nas aplicações do Microsoft Office | Não | Sim | Sim |
 
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Agora, o Power BI oferece três SKUs para incorporação: SKUs A, SKUs EM e SKUs P. Qual deles deve adquirir para o meu cenário?
+### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Agora, o Power BI oferece três SKUs para incorporação: A SKUs, EM SKUs, e P SKUs. Qual deles deve adquirir para o meu cenário?
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
@@ -104,7 +104,7 @@ Apesar de não existir qualquer dimensionamento automatizado agora, todas as API
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Porque é que criar/dimensionar/retomar uma capacidade faz com que esta seja colocada num estado de suspensão?
 
-O aprovisionamento de uma capacidade (dimensionar/retomar/criar) pode falhar. O autor da chamada de aprovisionamento deve verificar a propriedade ProvisioningState de uma capacidade através da API Obter Detalhes: [Capacidades – Obter Detalhes](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+O aprovisionamento de uma capacidade (dimensionar/retomar/criar) pode falhar. O autor da chamada de aprovisionamento deve verificar a propriedade ProvisioningState de uma capacidade através da API Obter Detalhes: [Capacidades – Obter Detalhe](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Porque é que só posso criar uma capacidade PBIE numa região específica?
 
@@ -321,3 +321,7 @@ Pode saber como editar os seus dados do Power BI [aqui](https://docs.microsoft.c
 Para obter mais informações, veja [Resolução de problemas de aplicações incorporadas](embedded-troubleshoot.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Quais são as melhores práticas para melhorar o desempenho?
+
+[Desempenho do Power BI Embedded](embedded-performance-best-practices.md)

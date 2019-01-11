@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003231"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008609"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Ligue-se ao Zuora com o Power BI
 O Zuora para o Power BI permite que visualize dados importantes de receitas, faturação e subscrição. Utilize o dashboard e os relatórios predefinidos para analisar tendências de utilização, acompanhar cobranças e pagamentos e monitorizar receitas recorrentes ou personalizá-las para atender às suas necessidades exclusivas do dashboard e do relatório.
@@ -32,7 +32,7 @@ Ligue-se ao [Zuora](https://app.powerbi.com/getdata/services/Zuora) para o Power
 3. Selecione **Zuora** \>  **Obter**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Especifique o URL do Zuora. Geralmente, o URL é “<https://www.zuora.com>”. Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
+4. Especifique o URL do Zuora. Geralmente, o URL é "<https://www.zuora.com>". Veja os detalhes sobre como [localizar esses parâmetros](#FindingParams) abaixo.
 
    ![](media/service-connect-to-zuora/params.png)
 5. Para o **Método de Autenticação**, selecione **Básico** e forneça o seu nome de utilizador e a sua palavra-passe (diferencia maiúsculas de minúsculas) e selecione **Iniciar Sessão**.
@@ -72,26 +72,26 @@ Também inclui as medidas calculadas abaixo:
 | Conta: Pagamentos Líquidos |Pagamentos de Conta mais Reembolsos de Conta num período de tempo. |Account.Payments + Account.Refunds |
 | Conta: Contas Ativas |A contagem de contas ativas num período de tempo. As subscrições devem ter sido iniciadas na data de início de um período de tempo ou antes. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) – assinatura evergreen |
 | Conta: Receita Média Recorrente |MRR bruto por conta ativa num período de tempo. |Gross MRR/Account.ActiveAccounts |
-| Conta: Assinaturas Canceladas |O número de contas que cancelaram uma assinatura num período de tempo. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
-| Contas: Erros de Pagamento |Valor total de erros de pagamento. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
+| Conta: Subscrições Canceladas |O número de contas que cancelaram uma assinatura num período de tempo. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
+| Conta: Erros de Pagamento |Valor total de erros de pagamento. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
 | Item de Agendamento de Receita: Receita Reconhecida |Receita total reconhecida num período de contabilidade. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
-| Assinatura: Novas Assinaturas |Contagem de novas assinaturas num período de tempo. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Subscription: Novas Subscrições |Contagem de novas assinaturas num período de tempo. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
 | Fatura: Itens da Fatura |Valores totais de encargos de item da fatura num período de tempo. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Fatura: Itens de Tributação |Valores totais de item de tributação num período de tempo. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Fatura: Ajustes de Item da Fatura |Valores totais de ajuste de item da fatura num período de tempo. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Fatura: Ajustes de Fatura |Valores totais de ajuste de fatura num período de tempo. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Fatura: Ajustes da Fatura |Valores totais de ajuste de fatura num período de tempo. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
 | Fatura: Faturações Líquidas |Soma dos itens da fatura, itens de tributação, ajustes de item da fatura e ajustes da fatura num período de tempo. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
 | Fatura: Balanço de Faturação em Vencimento |Soma do balanço de faturas lançadas. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
 | Fatura: Cobranças Brutas |Soma dos valores de cobrança de item da fatura para faturas lançadas num período de tempo. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Fatura: Ajustes Totais |Soma de ajustes de fatura processados e ajustes de item de fatura associados às faturas lançadas. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    invoiceItemAdjustment.Status = "Processed" |
 | Despesas de Plano de Taxa: MRR Bruto |Soma da receita mensal recorrente das subscrições num período de tempo. |SUM (RatePlanCharge.MRR) <br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    RatePlanCharge.EffectiveStartDate <= TimePeriod.StartDate<br>AND        RatePlanCharge.EffectiveEndDate > TimePeriod.StartDate<br>    OR    RatePlanCharge.EffectiveEndDate = null --evergreen subscription |
 
-## <a name="system-requirements"></a>Requisitos do sistema
+## <a name="system-requirements"></a>Requisitos de sistema
 É necessário ter acesso à API do Zuora.
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>A localizar parâmetros
+## <a name="finding-parameters"></a>Localizar parâmetros
 Forneça o URL com a qual se liga normalmente para aceder aos seus dados do Zuora. As opções válidas são:  
 
 * https://www.zuora.com  
