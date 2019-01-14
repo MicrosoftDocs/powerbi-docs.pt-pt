@@ -584,12 +584,12 @@ items:
         href: service-insights-optimize.md
     - name: Colaborar no Power BI
       items:
-      - name: Criar e partilhar aplicações
-        href: service-create-distribute-apps.md
       - name: Criar áreas de trabalho de aplicação
         href: service-create-workspaces.md
       - name: Create the new workspaces (preview) (Criar as novas áreas de trabalho (pré-visualização))
         href: service-create-the-new-workspaces.md
+      - name: Criar e partilhar aplicações
+        href: service-create-distribute-apps.md
       - name: Gerir o armazenamento de dados nas áreas de trabalho
         href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Ligar aos ficheiros no OneDrive do seu grupo
@@ -750,8 +750,6 @@ items:
           href: service-connect-to-mandrill.md
         - name: Marketo
           href: service-connect-to-marketo.md
-        - name: Microsoft Azure Enterprise
-          href: service-connect-to-azure-enterprise.md
         - name: Microsoft Dynamics AX
           href: service-connect-to-microsoft-dynamics-ax.md
         - name: Microsoft Dynamics CRM
@@ -1190,6 +1188,8 @@ items:
         href: service-gateway-sso-overview.md
       - name: Single sign-on (SSO) - Kerberos (Início de sessão único [SSO] – Kerberos)
         href: service-gateway-sso-kerberos.md
+      - name: Single sign-on (SSO) - Kerberos - resource-based (Início de sessão único [SSO] – Kerberos – baseado em recursos)
+        href: service-gateway-sso-kerberos-resource.md
       - name: Single sign-on (SSO) - SAML (Início de sessão único [SSO] – SAML)
         href: service-gateway-sso-saml.md
     - name: Definir configurações de proxy
@@ -1287,9 +1287,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ba984e4e4f948f0cc2772dbe632c450bd77eb6b2
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
+ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136582"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54211373"

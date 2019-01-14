@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008425"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136651"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -204,6 +204,10 @@ Na filtragem do lado do cliente (JavaScript), o ISV pode decidir aquilo que o ut
 
 Consulte [RLS vs. filtros de JavaScript](embedded-row-level-security.md#using-rls-vs-javascript-filters) para obter mais detalhes.
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Quais são as melhores práticas para melhorar o desempenho?
+
+[Desempenho do Power BI Embedded](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>Licensing
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>Como posso adquirir o Power BI Embedded?
@@ -264,8 +268,8 @@ A **Coleção de Áreas de Trabalho do Power BI** (Versão 1 do **Power BI Em
 
 3. Assim que estiver pronto para a produção, compre uma capacidade dedicada do **Power BI Embedded** e atribua o seu conteúdo do Power BI (área de trabalho) a essa capacidade.
 
-> [!Note]
-> Pode continuar a utilizar a **Coleção de Áreas de Trabalho do Power BI** durante a criação em paralelo com uma solução **Power BI Embedded**. Assim que estiver pronto, pode mover o cliente para a nova solução **Power BI Embedded** e extinguir a solução **Coleção de Áreas de Trabalho do Power BI**.
+    > [!Note]
+    > Pode continuar a utilizar a **Coleção de Áreas de Trabalho do Power BI** durante a criação em paralelo com uma solução **Power BI Embedded**. Assim que estiver pronto, pode mover o cliente para a nova solução **Power BI Embedded** e extinguir a solução **Coleção de Áreas de Trabalho do Power BI**.
 
 Para obter mais informações, veja [Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 
@@ -318,10 +322,6 @@ Pode saber como editar aplicações registadas no AAD [aqui](https://docs.micros
 
 Pode saber como editar os seus dados do Power BI [aqui](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
-Para obter mais informações, veja [Resolução de problemas de aplicações incorporadas](embedded-troubleshoot.md)
+Para obter mais informações, veja [Resolver problemas da sua aplicação incorporada](embedded-troubleshoot.md).
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>Quais são as melhores práticas para melhorar o desempenho?
-
-[Desempenho do Power BI Embedded](embedded-performance-best-practices.md)
