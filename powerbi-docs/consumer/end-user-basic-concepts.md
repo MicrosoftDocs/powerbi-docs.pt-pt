@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.custom: seodec18
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280541"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281994"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceitos básicos para os ***consumidores*** do serviço Power BI
 

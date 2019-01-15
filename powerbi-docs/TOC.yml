@@ -72,6 +72,8 @@ items:
       href: desktop-directquery-data-sources.md
     - name: Pré-requisitos de origem de dados do Power BI
       href: desktop-data-source-prerequisites.md
+    - name: Default member in multidimensional models in Power BI (Membro predefinido em modelos multidimensionais no Power BI)
+      href: desktop-default-member-multidimensional-models.md
     - name: Custom visuals FAQ (FAQ sobre elementos visuais personalizados)
       href: power-bi-custom-visuals-faq.md
   - name: Procedimentos
@@ -104,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Personalizar o título, fundo e legenda da visualização
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: Mostrar itens sem dados no Power BI
+      href: desktop-show-items-no-data.md
     - name: Ligar-se a dados
       items:
       - name: Origens de dados no Power BI Desktop
@@ -864,8 +868,10 @@ items:
       items:
       - name: Melhores Práticas para o Desempenho
         href: developer/embedded-performance-best-practices.md
-      - name: Segurança ao nível da linha (RLS)
+      - name: Segurança ao nível da linha
         href: developer/embedded-row-level-security.md
+      - name: Manage multi-tenants (Gerir vários inquilinos)
+        href: developer/embed-multi-tenancy.md
       - name: Registo de diagnóstico do Power BI Embedded no Azure
         href: developer/azure-pbie-diag-logs.md
       - name: FAQ sobre incorporação
@@ -1287,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
-ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
+ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
+ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "54211373"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "54239296"
