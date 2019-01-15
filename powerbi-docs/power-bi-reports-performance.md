@@ -6,16 +6,16 @@ ms.author: kfile
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2e667f6a6b037e2bb0f4b7543f2e7d90617050
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329769"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287790"
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI
 
@@ -42,7 +42,7 @@ Algumas das melhores práticas:
 - Tome medidas para evitar campos com precisão desnecessária e uma alta cardinalidade. Por exemplo, pode dividir valores datetime altamente exclusivos em colunas separadas (como mês, ano, dia, etc.). Em alternativa, sempre que possível, pode arredondar em campos de alta precisão para diminuir a cardinalidade (por exemplo, 13,29889 -> 13,3).
 - Sempre que possível, utilize números inteiros em vez de cadeias.
 - Tenha em atenção que as funções DAX, como a RANKX, têm de testar cada linha de uma tabela. No pior dos cenários, devido ao aumento linear do tamanho das tabelas, estas funções podem aumentar exponencialmente o tempo de execução e os requisitos de memória.
-- Ao ligar a origens de dados através do DirectQuery, considere a possibilidade de voltar a indexar colunas que estão normalmente filtradas ou segmentadas. Isto melhorará bastante a reatividade do relatório.  
+- Ao ligar a origens de dados através do DirectQuery, pondere voltar a indexar colunas que estão normalmente filtradas ou segmentadas. Isto melhorará bastante a reatividade do relatório.  
 
 Para obter mais orientação sobre como otimizar as origens de dados para o DirectQuery, veja [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) (Serviços de Análise do DirectQuery no SQL Server 2016).
 
@@ -75,10 +75,10 @@ A seguinte secção descreve as melhores práticas gerais para se ligar através
 ### <a name="general"></a>Geral
 
 - Aplique filtros primeiro.
-- Considere a possibilidade de desativar a interação entre elementos visuais. Isto reduzirá a carga da consulta quando os utilizadores realçarem de forma cruzada.
+- Pondere desativar a interação entre elementos visuais. Isto reduzirá a carga da consulta quando os utilizadores realçarem de forma cruzada.
 - Limite o número de elementos visuais e os dados por elemento visual, como descrito acima.
 - A ativação da segurança ao nível da linha pode resultar em alterações substanciais no desempenho. Certifique-se de que testa as diferentes funções de segurança ao nível da linha que serão assumidas pelos seus utilizadores.
-- Existem tempos limite ao nível das consultas impostos pelo serviço, de forma a garantir que as consultas de execução longa não monopolizam os recursos do sistema. As consultas que demorarem mais do que 225 segundos excederão o tempo limite e resultarão num erro ao nível do elemento visual.
+- Existem tempos limite ao nível das consultas impostos pelo serviço, de forma a garantir que as consultas de execução longa não monopolizam os recursos do sistema. As consultas que demorarem mais do que 225 segundos excederão o limite de tempo e resultarão num erro ao nível do elemento visual.
 
 ## <a name="understand-dashboards-and-query-caches"></a>Compreender dashboards e caches de consultas
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb55bda914d31a8bdc1c90f695e523a935a6d495
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: d65355210d2824d0bdf5df1da6a5a3e826392e18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46474202"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279142"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Ligar a uma base de dados Google BigQuery no Power BI Desktop
 No Power BI Desktop, pode ligar a uma base de dados Google **BigQuery** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop.
@@ -48,7 +48,7 @@ Pode utilizar o Power BI com o **Billing Project** (Projeto de Faturação) do G
 
     ```Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])```
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

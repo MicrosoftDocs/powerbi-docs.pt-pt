@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649451"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294153"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Relatórios paginados no Power BI: FAQ (Pré-Visualização)
 
@@ -63,7 +63,7 @@ Sim, a monitorização está disponível como um novo separador com os mesmos de
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>Preciso de uma licença Pro para criar e publicar relatórios paginados?
 
-Sim. Não pode carregar relatórios para a área de trabalho sem uma licença Pro. Pode transferir e experimentar o Report Builder sem a licença Pro, mas não pode publicar os relatórios paginados que criar. 
+Yes. Não pode carregar relatórios para a área de trabalho sem uma licença Pro. Pode transferir e experimentar o Report Builder sem a licença Pro, mas não pode publicar os relatórios paginados que criar. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>E se eu tiver um relatório paginado numa área de trabalho e a carga de trabalho do relatório paginado estiver desativada?
 

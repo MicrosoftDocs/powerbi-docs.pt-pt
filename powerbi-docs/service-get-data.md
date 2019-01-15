@@ -5,22 +5,22 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b76857e6b0c7f465ce7033b59cdb0b5340c5c70
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983675"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277233"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origens de dados para o serviço Power BI
 Os dados são o coração do Power BI. Sempre que está a explorar dados, a criar gráficos e dashboards, a fazer perguntas com Perguntas e Respostas, todas as visualizações e respostas que vê estão, na verdade, a extrair os dados subjacentes de um conjunto de dados. Mas de onde vem esse conjunto de dados? Bem, de uma origem de dados.
 
-Neste artigo, vamos falar sobre os diferentes tipos de origens de dados aos quais se pode ligar através do serviço Power BI. Tenha em consideração que há muitos outros tipos de origens de dados a partir dos quais pode obter dados. No entanto, essas origens podem exigir primeiro a utilização do Power BI Desktop ou da consulta avançada de dados e recursos de modelação do Excel. Veremos mais detalhes posteriormente. Por enquanto, vamos examinar os diferentes tipos de origens de dados aos quais se pode ligar diretamente a partir do site do serviço Power BI.
+Neste artigo, vamos falar sobre os diferentes tipos de origens de dados aos quais se pode ligar através do serviço Power BI. Tenha em consideração que há muitos outros tipos de origens de dados a aprtir dos quais pode obter dados. No entanto, essas origens podem exigir primeiro a utilização do Power BI Desktop ou da consulta avançada de dados e recursos de modelação do Excel. Veremos mais detalhes posteriormente. Por enquanto, vamos examinar os diferentes tipos de origens de dados aos quais se pode ligar diretamente a partir do site do serviço Power BI.
 
 Pode obter dados de qualquer uma destas origens de dados no Power BI ao clicar em **A Minha Área de Trabalho** > **Obter Dados**.
 
@@ -31,7 +31,7 @@ Pode obter dados de qualquer uma destas origens de dados no Power BI ao clicar e
 
 **Excel** (.xlsx, xlxm) – o Excel é único no sentido em que um livro pode ter dados introduzidos por si em folhas de cálculo ou pode consultar e carregar dados de origens de dados externas através do Power Query (Obter e Transformar no Excel 2016) ou do Power Pivot. Pode importar dados em tabelas nas folhas de cálculo (os dados *têm* de estar numa tabela) ou importar dados carregados para um modelo de dados. Para saber mais, veja [Obter dados do Excel](service-get-data-from-files.md).
 
-**Power BI Desktop** (.pbix) – Pode utilizar o Power BI Desktop para consultar e carregar dados a partir de origens de dados externas, expandir o modelo de dados com medidas e relações, e criar relatórios. Pode importar o ficheiro do Power BI Desktop para o site do Power BI. O Power BI Desktop é melhor para utilizadores mais avançados que tenham uma boa compreensão dos conceitos de origens de dados, consulta e transformação de dados e modelação de dados. Para saber mais, veja [Ligar-se a dados no Power BI Desktop](desktop-connect-to-data.md).
+**Power BI Desktop** (.pbix) – Pode utilizar o Power BI Desktop para consultar e carregar dados a partir de origens de dados externas, expandir o modelo de dados com medidas e relações, e criar relatórios. Pode importar o fichiero do Power BI Desktop para o site do Power BI. O Power BI Desktop é melhor para utilizadores mais avançados que tenham uma boa compreensão dos conceitos de origens de dados, consulta e transformação de dados e modelação de dados. Para saber mais, veja [Ligar-se a dados no Power BI Desktop](desktop-connect-to-data.md).
 
 **Valores Separados por Vírgula** (.csv) – são ficheiros de texto simples com linhas de dados. Cada linha pode conter um ou mais valores, cada um separado por uma vírgula. Por exemplo, um .csv que contém dados de nome e endereço pode ter um número de linhas em que cada linha tem valores para nome, sobrenome, endereço, cidade, estado e assim sucessivamente. Não é possível importar dados para um ficheiro .csv, mas muitas aplicações, como o Excel, podem guardar dados de tabela simples como um ficheiro .csv.
 

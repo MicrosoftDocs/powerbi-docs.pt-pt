@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.openlocfilehash: 5c388a15132c7f433a50c2975aa4b45195c55bf9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238106"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285053"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do Analysis Services para atualização agendada ou para ligações em direto.
@@ -85,9 +85,9 @@ Pode configurar o nível de privacidade para a sua origem de dados. Controla a f
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
 
 ## <a name="usernames-with-analysis-services"></a>Nomes de Utilizador com o Analysis Services
-Sempre que um utilizador interage com um relatório ligado ao Analysis Services, o nome do utilizador efetivo é passado para o gateway e, em seguida, para o seu servidor no local do Analysis Services. O endereço de e-mail com o qual inicia sessão no Power BI é aquele que transmitiremos ao Analysis Services como sendo o utilizador efetivo. Isto é transmitido na propriedade de ligação [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Este endereço de e-mail deve corresponder a um UPN definido dentro do Domínio do Active Directory local. O UPN é uma propriedade de uma conta do Active Directory. Essa conta do Windows deverá, então, estar presente numa função do Analysis Services. Se uma correspondência não for encontrada, o início de sessão no Active Directory não será bem-sucedido. [Saiba mais](https://msdn.microsoft.com/library/ms677605.aspx)
+Sempre que um utilizador interage com um relatório ligado ao Analysis Services, o nome do utilizador efetivo é passado para o gateway e, em seguida, para o seu servidor no local do Analysis Services. O endereço de e-mail com o qual inicia sessão no Power BI é aquele que transmitiremos ao Analysis Services como sendo o utilizador efetivo. Isto é transmitido na propriedade de ligação [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Este endereço de e-mail deve corresponder a um UPN definido dentro do Domínio do Active Directory local. O UPN é uma propriedade de uma conta do Active Directory. Essa conta do Windows deverá, então, estar presente numa função do Analysis Services. Se uma correspondência não for encontrada, o início de sessão no Active Directory não será bem-sucedido. [Saber mais](https://msdn.microsoft.com/library/ms677605.aspx)
 
-Também pode mapear o seu nome de início de sessão do Power BI com um UPN de diretório local. [Saiba mais](service-gateway-enterprise-manage-ssas.md#map-user-names)
+Também pode mapear o seu nome de início de sessão do Power BI com um UPN de diretório local. [Saber mais](service-gateway-enterprise-manage-ssas.md#map-user-names)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
@@ -258,7 +258,7 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 ![](media/service-gateway-enterprise-manage-ssas/powerbi-gateway-enterprise-schedule-refresh.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Gateway de dados no local](service-gateway-onprem.md)  
 [Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  

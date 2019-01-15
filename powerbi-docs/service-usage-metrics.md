@@ -7,16 +7,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 435f7ec433e45202ef2b5ddbd9a9ffb996f84129
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 6d4148eef42f01035fde5601e3dd88b3572c8320
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983790"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292482"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorizar as métricas de utilização para dashboards e relatórios do Power BI
 
@@ -175,7 +175,7 @@ Além das possíveis diferenças entre os registos de auditoria e as métricas d
 
 **P:**    Não consigo executar métricas de utilização num dashboard ou num relatório
 
-**R:**    Só pode ver as métricas de utilização do conteúdo que detém ou tem permissões para editar.
+**R:**    R: Só pode ver a métrica de utilização do conteúdo que detém ou tem permissões para editar.
 
 **P:**    As métricas de utilização captam as visualizações de dashboards e relatórios incorporados?
 
@@ -195,7 +195,7 @@ Além das possíveis diferenças entre os registos de auditoria e as métricas d
 
 **R:**    O relatório de métrica de utilização apenas inclui relatórios (ou dashboards) que tenham sido acedidos nos últimos 90 dias.  Se um relatório (ou dashboard) não for apresentado, é provável que não seja utilizado há mais de 90 dias.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Adicionar um dashboard como favorito](consumer/end-user-favorite.md)
 

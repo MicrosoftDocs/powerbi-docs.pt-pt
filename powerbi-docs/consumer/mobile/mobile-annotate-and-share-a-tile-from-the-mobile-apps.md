@@ -1,20 +1,20 @@
 ---
 title: Anotar e partilhar a nas aplicações móveis do Power BI
 description: 'Saiba mais sobre anotar e partilhar mosaicos, relatórios e visuais da aplicação móvel do Microsoft Power BI para iOS e Android. '
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 13e47d3345921a5bc8e045ff63aeddd6419cb7f2
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736943"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273599"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotar e partilhar um mosaico, relatório ou visual nas aplicações móveis do Power BI
 Aplica-se a:

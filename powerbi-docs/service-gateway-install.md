@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 936e794b187366e91cf550c16379216ddf1fbf36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ecb5450c33500950336f08a8ca82812fb0850e0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298556"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276015"
 ---
 # <a name="install-a-gateway-for-power-bi"></a>Instalar um gateway para o Power BI
 
@@ -30,7 +30,7 @@ O gateway é executado no computador onde o instalou, por isso, verifique se o i
 
 1. No serviço Power BI, no canto superior direito, selecione o **ícone de transferência** ![Ícone de transferência](media/service-gateway-install/icon-download.png) > **Gateway de Dados**.
 
-    ![Data Gateway](media/service-gateway-install/data-gateway.png)
+    ![Gateway de Dados](media/service-gateway-install/data-gateway.png)
 
 2. Na página de transferência, selecione o botão **TRANSFERIR GATEWAY**.
 

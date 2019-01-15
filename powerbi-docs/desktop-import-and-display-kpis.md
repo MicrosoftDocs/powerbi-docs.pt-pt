@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c74d69bcc12b5818bf2c279fc0e5a4329f033107
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 840a4026fcc4843dd4f30424afe95b035fecadc9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669549"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281143"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>Importar e apresentar os KPIs no Power BI
 No **Power BI Desktop**, pode importar e mostrar os KPIs em tabelas, matrizes e cartões.
