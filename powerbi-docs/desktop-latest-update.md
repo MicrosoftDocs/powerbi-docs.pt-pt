@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0883d3fdd9d57b04b839fb9062b12e8bfcc17c45
-ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
+ms.openlocfilehash: 13c2742325e0cf2714d759eb1fd21ce6bcfd0187
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "53329677"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291217"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop 
 
@@ -23,7 +23,7 @@ ms.locfileid: "53329677"
 
 Com as atualizações de dezembro, verá bailarinas a dançar o Quebra-Nozes na sua cabeça, ou pelo menos belíssimos elementos visuais baseados em dados dessas bailarinas. Por isso vamos sentar-nos à volta da fogueira, beber algo quentinho e desembrulhar as nossas atualizações de dezembro. 
 
-Já pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop). Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, mesmo que a numeração da versão possa diferir entre as duas, independentemente do modo como instala o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
+Agora, pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop). Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, mesmo que a numeração da versão possa diferir entre as duas, independentemente do modo como instala o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
 
 As ligações ao lado de cada atualização significam o seguinte:
 
@@ -32,7 +32,7 @@ As ligações ao lado de cada atualização significam o seguinte:
 * A maior parte das funcionalidades são explicadas na mensagem de **[blogue]** da atualização mensal.
 * Por último, algumas funcionalidades são facilmente compreensíveis e não precisam de um artigo ou vídeo.
 
-Também pode ver o vídeo de **Atualizações Mais Recentes** do início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
+Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro deste artigo, ao clicar no ícone de **reprodução** na imagem do vídeo que se encontra abaixo da lista de atualizações.
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
@@ -82,10 +82,10 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Quer obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
-O canal de vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode ver os vídeos na mensagem de blogue.
+O canal de vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver os vídeos na mensagem de blogue.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

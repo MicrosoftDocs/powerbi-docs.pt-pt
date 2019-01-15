@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 87783b928fdec1cadf5318ae184858c37daa4acc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331823"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279257"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introdução às Perguntas e Respostas no Power BI
 
@@ -40,7 +40,7 @@ Para acompanhar, tem de utilizar um relatório que possa editar, por isso iremos
 
 ## <a name="create-the-same-visual-with-qa"></a>Criar o mesmo elemento visual com as Perguntas e Respostas
 
-Como podemos criar este mesmo gráfico de linhas com as Perguntas e Respostas?
+Como podemos criar este mesmo gráfico de linhas com o P e R?
 
 ![Caixa Colocar uma questão sobre os dados](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
 
@@ -49,7 +49,7 @@ Como podemos criar este mesmo gráfico de linhas com as Perguntas e Respostas?
    
    **quais foram as vendas deste ano e as vendas do ano passado por mês como um gráfico de área**
    
-   Ao escrever a pergunta, as Perguntas e Respostas escolhem a melhor visualização para apresentar a sua resposta, e a visualização muda dinamicamente, na medida em que modifica a pergunta. Além disso, as Perguntas e Respostas ajudam a formatar a sua pergunta com sugestões, preenchimento automático e correções ortográficas.
+   Ao escrever a pergunta, o P e R escolhe a melhor visualização para apresentar a sua resposta, e a visualização muda dinamicamente, na medida em que modifica a pergunta. Além disso, as Perguntas e Respostas ajudam a formatar a sua pergunta com sugestões, preenchimento automático e correções ortográficas.
    
    Quando terminar de escrever a sua pergunta, o resultado será exatamente o mesmo gráfico que vimos no relatório.  Mas criá-lo desta forma era muito mais rápido!
    

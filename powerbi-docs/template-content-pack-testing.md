@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 4f461029ab3f698992128fa4f3f53714ee962b1e
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157553"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281235"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Testar pacotes de conteúdos de modelo para o Power BI
 Existem várias formas de testar o seu pacote de conteúdos antes de submetê-lo para publicação.  

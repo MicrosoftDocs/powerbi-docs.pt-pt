@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: eefb863b4dde9fb6e368e244fa9d55c0af7c6001
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829602"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274795"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Editar definições de parâmetro no serviço Power BI
 Os criadores de relatórios adicionam parâmetros de consulta aos relatórios no Power BI Desktop. Os parâmetros permitem-lhes fazer com que certas partes dos relatórios dependam de um ou mais *valores* de parâmetro. Por exemplo, um criador de relatórios pode criar um parâmetro que restrinja os dados a um único país/região ou um parâmetro que defina os formatos de campo aceitáveis, tais como datas, hora e texto.

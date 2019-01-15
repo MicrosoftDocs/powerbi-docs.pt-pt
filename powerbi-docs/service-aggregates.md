@@ -5,18 +5,18 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 8c850298be82e301e18cc773df83329aae829a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983721"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282316"
 ---
 # <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Trabalhar com agregações (soma, média, etc.) no serviço Power BI
 ## <a name="what-is-an-aggregate"></a>O que é um agregado?
@@ -35,7 +35,7 @@ No exemplo abaixo:
 
    ![Conjunto de dados de exemplo](media/service-aggregates/power-bi-aggregate-chart.png)
 
-Quando é criada uma visualização no Power BI, a agregação dos campos numéricos (a predefinição é *soma*) precede a agregação dos campos categóricos.  Por exemplo, "Unidades Vendidas ***por Produto***", "Unidades Vendidas ***por Mês***" e "Preço de Fabrico ***por Segmento***". Alguns campos numéricos são denominados **medidas**. É fácil identificar medidas no editor de relatórios do Power BI. As medidas são mostradas juntamente com o símbolo ∑ na lista Campos. Para obter mais informações, veja [O editor de relatórios... faça uma visita](service-the-report-editor-take-a-tour.md).
+Quando é criada uma visualização no Power BI,a agregação dos campos numéricos (a predefinição é *soma*) precede a agregação dos campos categóricos.  Por exemplo, "Unidades Vendidas ***por Produto***", "Unidades Vendidas ***por Mês***" e "Preço de Fabrico ***por Segmento***". Alguns campos numéricos são denominados **medidas**. É fácil identificar medidas no editor de relatórios do Power BI. As medidas são mostradas juntamente com o símbolo ∑ na lista Campos. Para obter mais informações, veja [O editor de relatórios... faça uma visita](service-the-report-editor-take-a-tour.md).
 
 ![Lista Campos](media/service-aggregates/power-bi-aggregate-fields.png)
 
@@ -72,7 +72,7 @@ Algumas das opções que podem estar disponíveis para a agregação de um campo
 
 * **Não resumir**. Com esta opção escolhida, cada valor nesse campo é tratado separadamente e não resumido. Utilize esta opção se tiver uma coluna de ID numérica que não deve ser somada.
 * **Soma**. Adiciona todos os valores nesse campo para cima.
-* **Média**. Utiliza uma média aritmética dos valores.
+* **Média**. Usa uma média aritmética dos valores.
 * **Mínimo**. Mostra o menor valor.
 * **Máximo**. Mostra o maior valor.
 * **Contagem (Não em Branco).** Conta o número de valores nesse campo que não estão em branco.

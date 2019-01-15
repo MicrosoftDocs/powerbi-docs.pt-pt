@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 350378be4a9e24b844cf1ad17133db65ab674573
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670492"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276796"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o **Power BI Desktop**. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o **DirectQuery**.

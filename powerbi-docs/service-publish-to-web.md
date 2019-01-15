@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: 19a45a1cf61ae3286f66528d38d830b3649b1d00
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136628"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280016"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -140,7 +140,7 @@ A funcionalidade **Publicar na Web** é suportada na grande maioria das origens 
 - Relatórios que contêm medidas DAX ao nível de relatório
 - Modelos de consulta de dados de início de sessão único
 - [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
-- A capacidade de autenticação automática apresentada com a opção de **Incorporação** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem em que o [utilizador detém os dados](developer/embed-sample-for-your-organization.md) para incorporar. Saiba mais sobre o [utilizador detém os dados](developer/embed-sample-for-your-organization.md).
+- A capacidade de autenticação automática apresentada com a opção de **Incorporação** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem [O utilizador detém os dados](developer/embed-sample-for-your-organization.md) para incorporar. Saiba mais sobre o [utilizador detém os dados](developer/embed-sample-for-your-organization.md).
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 

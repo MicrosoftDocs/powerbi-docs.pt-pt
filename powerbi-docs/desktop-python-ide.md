@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 634acc9e456462e2ca6d1a09bb6d97b87e75605b
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e7169e1aa54db93488f0c55e701188667f70305
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974995"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289276"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Utilizar um IDE de Python externo com o Power BI
 Com o **Power BI Desktop**, pode utilizar o IDE (Integrated Development Environment, Ambiente de Desenvolvimento Integrado) de Python externo para criar e refinar os scripts de Python e, depois, utilizar esses scripts no Power BI.
@@ -27,7 +27,7 @@ Pode iniciar o IDE de Python externo a partir do **Power BI Desktop** e fazer co
 
 Pode especificar o IDE de Python que pretende utilizar e fazer com que seja iniciado automaticamente a partir do **Power BI Desktop**.
 
-### <a name="requirements"></a>Requisitos
+### <a name="requirements"></a>Requirements
 Para utilizar esta funcionalidade, tem de instalar um **IDE de Python** no seu computador local. O **Power BI Desktop** não inclui, implementa nem instala o mecanismo de Python, pelo que é necessário instalar separadamente o **Python** no seu computador local. Pode escolher o IDE de Python a utilizar com as seguintes opções:
 
 * Pode instalar o seu IDE de Python favorito, muitos dos quais estão disponíveis gratuitamente, tal como o [Visual Studio Code (página de transferência)](https://code.visualstudio.com/download/).
@@ -35,7 +35,7 @@ Para utilizar esta funcionalidade, tem de instalar um **IDE de Python** no seu c
 * Também pode instalar um IDE de Python diferente e fazer com que o **Power BI Desktop** inicie esse **IDE de Python** ao seguir um dos seguintes passos:
   
   * Pode associar ficheiros **.PY** ao IDE externo que pretende que o **Power BI Desktop** inicie.
-  * Pode especificar o .exe que o **Power BI Desktop** deve iniciar ao selecionar *Outros* na secção **Opções de Script de Python** na caixa de diálogo **Opções**. Pode apresentar a caixa de diálogo **Opções** ao aceder a **Ficheiro > Opções e definições > Opções**.
+  * Pode especificar o .exe que o **Power BI Desktop** deve iniciar ao selecionar *Outros* na secção **Opções de Script de Python** na caixa de diálogo **Opções**. Pode apresentar a caixa de diálogo **Ppções** ao aceder a **Ficheiro > Opções e definições > Opções**.
     
     ![](media/desktop-python-ide/python-ide-2.png)
 
@@ -81,7 +81,7 @@ Iniciar um IDE de Python diretamente a partir do Power BI Desktop tem algumas li
 
 * A exportação automática do script do IDE de Python para o **Power BI Desktop** não é suportada.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Veja as seguintes informações adicionais sobre o Python no Power BI.
 
 * [Executar scripts de Python no Power BI Desktop](desktop-python-scripts.md)

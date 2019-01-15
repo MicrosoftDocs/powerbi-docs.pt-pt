@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7cd2266ef8d0fd161bda1f9d91a1ceb7f4217675
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 67055f855ad2872a7cf175aba85aefae7945f670
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448897"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276313"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas de manchas (coropletos) no Power BI
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
@@ -45,7 +45,7 @@ Os mapas de manchas são uma ótima opção:
 
 ### <a name="prerequisites"></a>Pré-requisitos
 - Serviço Power BI ou Power BI Desktop
-- Exemplo de Vendas e Marketing
+- Sales and Marketing Sample
 
 Para acompanhar, o tutorial utiliza o serviço Power BI, não o Power BI Desktop.
 
@@ -133,7 +133,7 @@ Se não tiver acesso aos dados de latitude e longitude, [siga estas instruções
 
 Para obter mais ajuda com visualizações de mapas, veja [Sugestões e truques para visualizações de mapas](../power-bi-map-tips-and-tricks.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Mapa de forma](desktop-shape-map.md)
 

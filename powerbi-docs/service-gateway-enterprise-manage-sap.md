@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: f9407f7267b0d33ab2d1a1d36856b96a815d8e1e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e4fabd59396872be9ffa77d8957b06ffcf7eb45f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296440"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276635"
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Faça a gestão da sua origem de dados SAP HANA
 Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode uilizar a origem de dados do SAP HANA para a atualização agendada ou para o DirectQuery.

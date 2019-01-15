@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b76a0910a18c3239dc6c35597ebea8b085afcd48
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983859"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296691"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço Power BI
 
@@ -27,7 +27,7 @@ Este artigo pressupõe que já se [inscreveu no serviço Power BI](service-self-
 Eis os elementos que poderá ver ao abrir o serviço Power BI no browser:
 
 1. Painel de navegação (barra de navegação esquerda)
-2. Iniciador de aplicações do Office 365
+2. Iniciador da aplicações do Office 365
 3. botão Início do Power BI
 4. Botões de ícone, incluindo as definições, a ajuda e o feedback
 5. Caixa de pesquisa
@@ -101,8 +101,8 @@ No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e mar
 **UM** relatório...
 
 * Está contido numa única área de trabalho.
-* Pode ser associado a vários dashboards nessa área de trabalho (os mosaicos afixados a partir desse relatório único podem aparecer em vários dashboards).
-* Pode ser criado utilizando dados de um conjunto de dados. (a pequena exceção é que o Power BI Desktop pode combinar mais de um conjunto de dados num único relatório que pode, por sua vez, ser importado para o Power BI).
+* pode ser associado a vários dashboards nessa área de trabalho (os mosaicos afixados a partir desse relatório único podem aparecer em vários dashboards).
+* pode ser criado utilizando dados de um conjunto de dados. (a pequena exceção é que o Power BI Desktop pode combinar mais de um conjunto de dados num único relatório que pode, por sua vez, ser importado para o Power BI).
 
   ![Diagrama de relatórios](media/service-basic-concepts/drawing3new.png)
 
@@ -172,7 +172,7 @@ Utilize o painel de navegação para localizar e alternar entre as áreas de tra
 
 Clique uma só vez nestes elementos:
 
-* Num ícone ou cabeçalho para abrir a vista de conteúdo
+* num ícone ou cabeçalho para abrir a vista de conteúdo
 * Numa seta para a direita (>) para abrir um menu de lista de opções para Favoritos, Recentes e Áreas de trabalho;
 * Num ícone de divisa para apresentar a lista deslocável **A Minha Área de Trabalho** dos dashboards, relatórios, livros e conjuntos de dados.
 

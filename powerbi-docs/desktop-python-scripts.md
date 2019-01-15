@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c7214d67cba58cdcd2e63b194e6c648e614943af
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975018"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286940"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Executar scripts de Python no Power BI Desktop
 Pode executar scripts de Python diretamente no **Power BI Desktop** e importar os conjuntos de dados resultantes para um modelo de dados do Power BI Desktop.
@@ -58,7 +58,7 @@ Quando preparar e executar um script de Python no Power BI Desktop, existem algu
 ### <a name="refresh"></a>Atualizar
 Pode atualizar um script de Python no Power BI Desktop. Quando atualiza um script de Python, o Power BI Desktop executa-o novamente no respetivo ambiente.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Veja as seguintes informações adicionais sobre o Python no Power BI.
 
 * [Criar Elementos Visuais do Python no Power BI Desktop](desktop-python-visuals.md)

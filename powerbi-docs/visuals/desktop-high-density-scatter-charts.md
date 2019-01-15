@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 210160bf2f08d2820bcfa1270a79087fd33d1796
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418722"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275991"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Amostragem de alta densidade em gráficos de dispersão do Power BI
 A partir da versão de setembro de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar a forma como os gráficos de dispersão representam dados de alta densidade.
@@ -85,7 +85,7 @@ A amostragem do algoritmo de alta densidade é uma melhoria importante para o Po
 
 * O algoritmo de **Amostragem de Alta Densidade** funciona apenas com ligações em direto a modelos baseados no serviço Power BI, modelos importados ou do DirectQuery.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre a amostragem de alta densidade em outros gráficos, veja o seguinte artigo.
 
 * [Amostragem de linhas de alta densidade no Power BI](../desktop-high-density-sampling.md)

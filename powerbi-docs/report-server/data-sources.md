@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310458"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291769"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
@@ -135,7 +135,7 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | Facebook |Não |Não |Não |Não |
 | Pasta |Não |Não |Não |Sim |
 | Google Analytics |Não |Não |Não |Não |
-| HDFS (Ficheiro do Hadoop) |Não |Não |Não |Não |
+| Ficheiro Hadoop (HDFS) |Não |Não |Não |Não |
 | Base de Dados IBM DB2 |Não |Não |Sim |Sim |
 | Impala |Não |Não |Não |Não |
 | Microsoft Exchange |Não |Não |Não |Não |

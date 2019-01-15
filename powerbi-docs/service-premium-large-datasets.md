@@ -5,17 +5,17 @@ author: jocaplan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 0449d7953b5cefb4c76d89f05ec5b3fa70e9c0da
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3aa8ef5ea7a51da226d48869bdf255900dee8d6d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679393"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284202"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Suporte do Power BI Premium para conjuntos de dados grandes
 
@@ -47,7 +47,7 @@ O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3. Tenha em at
 
 **Embora a memória por consulta e as restrições de tempo sejam muito superiores na capacidade Premium**, é altamente recomendada a utilização de filtros e segmentações de dados para limitar os elementos visuais para apresentar apenas o que é necessário.
 
-**Passos seguintes**
+**Próximos passos**
 
 [O que é o Power BI Premium?](service-premium.md)
 [Notas de versão do Power BI Premium](service-premium-release-notes.md)

@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 004396150f0301dadee32bd08ac64ce5ae36fb17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281060"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296599"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *estruturadores de relatórios* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 

@@ -4,17 +4,17 @@ description: Use a Cortana com o Power BI para obter respostas a partir dos seus
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0d6042cece6bbe4c7618190938a8e1f93edf5480
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 130c18bb51c99813999f87c69c465dc59783e638
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187082"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276727"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Ativar a Cortana para aceder a relatórios do Power BI (e conjuntos de dados associados)
 Leu a [Introdução à Cortana e ao Power BI](service-cortana-intro.md) (se não a leu, recomendamos que a leia primeiro e depois regresse a esta secção). Agora, quer experimentar.  Antes de poder fazer perguntas em linguagem natural na Cortana e encontrar respostas de dados armazenados em ***relatórios*** do Power BI, existem alguns requisitos. Especificamente, precisa do seguinte.

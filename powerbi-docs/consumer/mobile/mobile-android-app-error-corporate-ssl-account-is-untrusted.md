@@ -2,20 +2,20 @@
 title: Corrigir o erro “O certificado SSL empresarial não é fidedigno”
 description: Quando iniciar sessão na aplicação Android do Power BI, pode ver a mensagem, "Não foi possível autenticar porque o seu certificado SSL empresarial não é fidedigno
 .": ''
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: maggies
-ms.openlocfilehash: 494e148a62675aab1a6e799c4e4b61f022483d9f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44743105"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280798"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Corrigir “O certificado SSL empresarial não é fidedigno” – Power BI
 Quando iniciar sessão na aplicação móvel Android do Microsoft Power BI, pode ver a mensagem "Não foi possível autenticar porque o seu certificado SSL empresarial não é fidedigno para este dispositivo. Contacte o administrador de TI da sua empresa”. 

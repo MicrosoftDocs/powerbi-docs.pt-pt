@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388646"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290427"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
 Esta ferramenta de migração pode ser utilizada para copiar os seus relatórios do serviço Power BI Embedded do Azure (PaaS) para o serviço Power BI (SaaS).
@@ -84,7 +84,7 @@ Para abrir o seu plano de migração existente, faça o seguinte.
     ![](media/migrate-tool/migrate-tool-open-plan.png)
 2. Selecione o ficheiro de migração e selecione **Abrir**.
 
-## <a name="step-1-analyze--plan-migration"></a>Passo 1: Analisar e Planear a Migração
+## <a name="step-1-analyze--plan-migration"></a>Passo 1: Analyze & Plan Migration
 O separador **Analisar e Planear a Migração** dá uma vista do que se encontra atualmente no grupo de recursos da sua subscrição do Azure.
 
 ![Separador Analisar e Planear a Migração](media/migrate-tool/migrate-tool-step1.png)
@@ -153,7 +153,7 @@ No caso de uma transferência com êxito, verá o estado *Concluído*, que irá 
 
 Quando a transferência estiver concluída, selecione o separador **Criar Grupos**.
 
-## <a name="step-3-create-groups"></a>Passo 3: Criar Grupos
+## <a name="step-3-create-groups"></a>Passo 3: Create Groups
 Depois de transferir os relatórios que estão disponíveis, pode ir para o separador **Criar Grupos**. Este separador irá criar as áreas de trabalho de aplicação no serviço Power BI com base no plano de migração que criou. Irá criar a área de trabalho de aplicação com o nome que indicou no separador **Carregar** em **Analisar e Planear a Migração**.
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: a03870fd0443a00803edceb5d4821161ccb7693a
-ms.sourcegitcommit: d8109b605052096fc0eb613f2a1340570b99b2f5
+ms.openlocfilehash: 0e57ce3b5acd638b9bab316108a8fd6f46b3b280
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49651040"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285789"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Power BI Report Server e ao SQL Server Reporting Services 2016 ou posterior.
@@ -26,7 +26,7 @@ Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Se
    > [!NOTE]
    > A visualização de relatórios do Power BI alojados no Power BI Report Server com a utilização de WAP para a autenticação não é suportada oficialmente neste momento.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 O Windows Server 2016 é necessário para os servidores do Proxy de Aplicações Web (WAP) e dos Serviços de Federação do Active Directory (AD FS). Não precisa de ter um domínio de nível funcional do Windows 2016.
 
 ## <a name="domain-name-services-dns-configuration"></a>Configuração dos Serviços de Nomes de Domínio (DNS)
@@ -215,7 +215,7 @@ Pode configurar o [Fiddler](http://www.telerik.com/fiddler) para atuar como um p
 
 Se o início de sessão for bem-sucedido ao utilizar o Fiddler, pode ter um problema de certificado com a aplicação de WAP ou o servidor do ADFS. Pode utilizar uma ferramenta como o [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226), para verificar se os certificados são válidos.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Registar um Nome do Principal do Serviço (SPN) para um Servidor de Relatórios](https://msdn.microsoft.com/library/cc281382.aspx)  
 [Modificar um Ficheiro de Configuração do Reporting Services](https://msdn.microsoft.com/library/bb630448.aspx)  
 [Configurar a Autenticação do Windows num Servidor de Relatórios](https://msdn.microsoft.com/library/cc281253.aspx)  

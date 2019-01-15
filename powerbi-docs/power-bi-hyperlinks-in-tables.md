@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180559"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279901"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Adicionar hiperligações a uma tabela
 Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Em seguida, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 

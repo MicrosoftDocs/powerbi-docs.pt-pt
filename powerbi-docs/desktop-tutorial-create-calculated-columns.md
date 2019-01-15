@@ -1,23 +1,23 @@
 ---
-title: 'Tutorial: criar colunas calculadas no Power BI Desktop'
-description: 'Tutorial: criar colunas calculadas no Power BI Desktop'
+title: 'Tutorial: Criar colunas calculadas no Power BI Desktop'
+description: 'Tutorial: Criar colunas calculadas no Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 296281f3077d805140b6759ab818be1daaca8a85
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: bfd892864b624bc992f77afa3b5ba887344d2eea
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578687"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287767"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: criar colunas calculadas no Power BI Desktop
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Criar colunas calculadas no Power BI Desktop
 
 Às vezes, os dados que está a analisar não contêm um campo específico, do qual precisa para obter os resultados que procura. É aqui que entram as *colunas calculadas*. As colunas calculadas utilizam fórmulas DAX (Data Analysis Expressions) para definir os valores de uma coluna, desde juntar valores de texto de duas colunas diferentes a calcular um valor numérico a partir de outros valores. Por exemplo, digamos que os seus dados têm os campos **Cidade** e **Estado**, mas deseja um único campo **Localização** que englobe ambos os campos num único valor como “Miami, FL”. É exatamente para isso que as colunas calculadas servem.
 

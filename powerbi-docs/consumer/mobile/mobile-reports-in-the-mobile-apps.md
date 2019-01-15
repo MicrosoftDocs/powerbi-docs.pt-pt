@@ -1,20 +1,20 @@
 ---
 title: Explorar relatórios nas aplicações móveis do Power BI
 description: Saiba mais sobre ver e interagir com relatórios nas aplicações móveis do Power BI no seu telemóvel ou tablet. Pode criar relatórios no serviço Power BI ou no Power BI Desktop e, em seguida, interagir com os mesmos nas aplicações móveis.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
-ms.author: maggies
-ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.author: mshenhav
+ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180996"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281580"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:

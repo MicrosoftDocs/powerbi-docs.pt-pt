@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908246"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288526"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar na sua área de trabalho de aplicação do Power BI
 As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. A colaboração não termina com as áreas de trabalho no Power BI. O Office 365 fornece serviços de grupo como a partilha de ficheiros no OneDrive para Empresas, conversações no Exchange, tarefas e calendário partilhados, entre outros. Saiba mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).

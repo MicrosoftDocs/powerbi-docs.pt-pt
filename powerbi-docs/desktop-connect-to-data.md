@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 3f3b1435e7c696d0edf810b8b69be201ff1d92ce
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025563"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278660"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Ligar a dados no Power BI Desktop
 Com o Power BI Desktop, pode ligar facilmente ao mundo dos dados, que está em constante expansão. Se não tiver o Power BI Desktop, pode [transferir](http://go.microsoft.com/fwlink/?LinkID=521662) e instalá-lo.

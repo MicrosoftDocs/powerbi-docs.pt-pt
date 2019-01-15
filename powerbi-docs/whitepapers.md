@@ -5,28 +5,28 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266099"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295831"
 ---
 # <a name="whitepapers-for-power-bi"></a>Documentos técnicos do Power BI
 
 Os documentos técnicos permitem explorar os tópicos do Power BI num nível mais aprofundado. Aqui, encontra-se uma lista de documentos técnicos disponíveis para Power BI.
 
-| Documento técnico | Descrição | Date |
+| Documento técnico | Descrição | Data |
 | --- | --- | --- |
 | [Power BI e Fluxos de Dados](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este documento técnico descreve os fluxos de dados em detalhes técnicos e descreve as capacidades e as iniciativas subjacentes às funcionalidades dos fluxos de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto a sua situação aquando do lançamento como a evolução futura. | Outubro de 2017 |
 | [Planeamento e Implementação do Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Este documento fornece orientações e melhores práticas para planear e implementar a capacidade de Premium para cargas de trabalho bem definidas.| Novembro de 2017 |
 | [Planear capacidade para análises incorporadas com o Power BI Premium](https://aka.ms/pbiewhitepaper) |Este documento fornece orientações para o ISV/programador da aplicação determinar a capacidade mais adequada à respetiva empresa. | Outubro de 2017 |
-| [Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy) |Este documento técnico descreve as considerações para uma implementação organizacional do Power BI segura e com bom desempenho. | Julho de 2018 |
+| [Planear uma Implementação Empresarial do Power BI](https://go.microsoft.com/fwlink/?linkid=2057861) |Este documento técnico descreve as considerações para uma implementação organizacional do Power BI segura e com bom desempenho. | Julho de 2018 |
 | [Orientações de planeamento de capacidade do Power BI Report Server](report-server/capacity-planning.md) |Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. | Março de 2018 |
 | [Segurança](service-admin-power-bi-security.md) |Fornece uma explicação detalhada da segurança no Power BI. | Julho de 2018 |
 | [Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Este documento descreve como distribuir conteúdos a utilizadores fora da organização através da integração do Azure Active Directory Business-to-Business (AAD B2B).| Março de 2018 |

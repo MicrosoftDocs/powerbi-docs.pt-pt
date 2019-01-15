@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dda67ad247696e9a0dcc8a92f59d4902cabaf7e1
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: d5c6acfb069e026e96dd9944e8001002548b83f8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578894"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275513"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Utilizar o painel Análise no Power BI Desktop
 Com o painel **Análise** no **Power BI Desktop**, pode adicionar *linhas de referência* dinâmicas a visuais e dar foco a tendências ou informações importantes. O painel **Análise** encontra-se na área **Visualizações** do Power BI Desktop.
@@ -105,7 +105,7 @@ Finalmente, os visuais não Cartesianos não podem atualmente aplicar linhas din
 * Matriz
 * Gráfico circular
 * Anel
-* Tabela
+* Table
 
 A linha de percentil só está disponível quando utiliza dados importados no **Power BI Desktop** ou quando está ligado em direto a um modelo num servidor com o **Analysis Service 2016** ou posterior, o **Azure Analysis Services** ou um conjunto de dados no serviço Power BI. 
 

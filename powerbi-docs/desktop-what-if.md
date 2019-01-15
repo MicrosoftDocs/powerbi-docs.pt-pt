@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6a69a6f852f6a37649b152a3c0ba0e469b555b37
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: def3655d446f48d4dd0746e5544d8da618e09fcc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025195"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295956"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Criar e utilizar um parâmetro "E se" para visualizar variáveis no Power BI Desktop
 A partir da versão de agosto de 2018 do **Power BI Desktop**, pode criar variáveis **E se** para os seus relatórios, interagir com a variável como uma segmentação de dados, visualizar e quantificar diferentes valores-chave nos seus relatórios.

@@ -6,22 +6,22 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/13/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 250c8b28e4ee9e8b29e2db8195f7883d11708806
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: e8e69cdacb9ee54cdf19724c590f994f66c4dff7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "53382249"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290642"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorizar as capacidades no Power BI Premium e no Power BI Embedded
 
 Este artigo fornece uma descrição geral da monitorização das métricas das capacidades do Power BI Premium. Monitorizar a utilização das capacidades permite-lhe ter uma abordagem informada para gerir as suas capacidades.
 
-Pode monitorizar a capacidade com a aplicação Métricas de Capacidade do Power BI Premium ou no portal de administração. Recomendamos a aplicação, porque fornece muitos mais detalhes, apesar de este artigo abordar as duas opções.
+Pode monitorizar a capacidade com a aplicação Métricas de Capacidade do Power BI Premium ou no portal de administração. Recomendamos a aplicação, porque fornece muitos mais detalhes, apesar deste artigo abordar as duas opções.
 
 **A versão atual da aplicação é a 1.10 (lançada a 13 de dezembro de 2018).**
 

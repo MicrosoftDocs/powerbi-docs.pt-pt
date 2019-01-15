@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280909"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275324"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Criar relatórios otimizados para as aplicações móveis do Power BI
 Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis num telemóvel ou tablet. Crie um esquema vertical de um relatório, especificamente para telemóveis e tablets. No Power BI Desktop e no serviço Power BI, pode adaptar o relatório ao reorganizar e redimensionar os elementos visuais, num esquema vertical para proporcionar a melhor experiência possível. Não tem de incluir todos. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório otimizado. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.

@@ -1,20 +1,20 @@
 ---
 title: Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 description: Saiba como criar uma ligação avançada para um dashboard, mosaico ou relatório específico na aplicação móvel do Power BI com um identificador de recurso uniforme (URI).
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.author: mshenhav
+ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983583"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278406"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 Pode criar e utilizar um identificador de recurso uniforme (URI) para ligar para uma localização específica (*ligação avançada*) nas aplicações móveis do Power BI em todas as plataformas móveis: iOS, dispositivos Android e Windows 10.

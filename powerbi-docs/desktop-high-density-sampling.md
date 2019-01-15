@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: cb4a0f81766aa030b1981cb67a26c296dab2ba2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973937"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277210"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Amostragem de linhas de alta densidade no Power BI
 A partir da versão de junho de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar os elementos visuais que fornecem uma amostra dos dados de alta densidade. Por exemplo, pode criar um gráfico de linhas a partir dos resultados de vendas das suas lojas de revenda, em que cada loja tem mais de dez mil recibos de vendas por ano. Um gráfico de linhas dessas informações de vendas forneceria uma amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar a variação das vendas ao longo do tempo) de cada loja e criaria um gráfico de linhas com várias séries que, desse modo, representa os dados subjacentes. Trata-se de uma prática corrente na visualização de dados de elevada densidade. O Power BI Desktop melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
@@ -92,7 +92,7 @@ O novo algoritmo para a amostragem de linhas de alta densidade é uma melhoria i
 * A definição **Mostrar itens sem dados** não é suportada com o novo algoritmo.
 * O novo algoritmo não é suportado quando é utilizada uma ligação em direto para um modelo alojado no SQL Server Analysis Services (versão 2016 ou anterior). É suportado em modelos alojados no **Power BI** ou Azure Analysis Services.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter informações sobre a amostragem de alta densidade em gráficos de dispersão, veja o seguinte artigo.
 
 * [Amostragem de Alta Densidade em gráficos de dispersão do Power BI](desktop-high-density-scatter-charts.md)

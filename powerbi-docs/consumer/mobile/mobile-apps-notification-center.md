@@ -1,20 +1,20 @@
 ---
 title: Receber notificações nas aplicações móveis do Power BI
 description: O Centro de Notificações leva informações relacionadas com a sua experiência do Power BI até si no seu dispositivo móvel.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: maggies
-ms.openlocfilehash: fb5dd23e3b452de6b22d6f67e992bffca9c4bd7f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 378e81207cb9b0f09e094ddbdced99defedde1ff
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736848"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280039"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Receber notificações nas aplicações móveis do Power BI
 Aplica-se a:

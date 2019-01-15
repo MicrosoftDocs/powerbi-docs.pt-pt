@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7e26074d0ee8e45740513e17b4c4346cae5dfcf5
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984659"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280568"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Ligar a origens de dados de fluxos de dados do Power BI (Pré-visualização)
 
@@ -91,7 +91,7 @@ A categoria **Azure** inclui as seguintes ligações de dados disponíveis para 
 
 A categoria **Serviços Online** inclui as seguintes ligações de dados disponíveis para fluxos de dados:
 
-* Common Data Service for Apps
+* Common Data Service para Aplicações
 * Microsoft Exchange Online
 * Objetos do Salesforce
 * Relatórios do Salesforce
@@ -177,7 +177,7 @@ E isto é tudo o que precisa de saber sobre a ligação a origens de dados em fl
 
 ## <a name="next-steps"></a>Próximos Passos
 
-Este artigo mostrou as origens de dados a que pode ligar em fluxos de dados. Os seguintes artigos entram em mais detalhes sobre os cenários de utilização comuns dos fluxos de dados. 
+Este artigo mostrou as origens de dados a que pode ligar em fluxos de dados. Os artigos seguintes entram em mais detalhes sobre os cenários de utilização comuns dos fluxos de dados. 
 
 * [Preparação personalizada de dados no Power BI (Pré-visualização)](service-dataflows-overview.md)
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)

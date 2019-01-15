@@ -6,21 +6,21 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a3b4c9e47a85d11446ba3729c258bbb2868acec
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983652"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284449"
 ---
 # <a name="tour-of-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
 
-O *editor de relatórios* no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço Power BI. 
+O *editor de relatórios* no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço do Power BI. 
 
 Enquanto criador de relatórios, a sua função é criar e editar dashboards e relatórios. Em seguida, distribui-os aos seus consumidores de relatórios. Estes podem interagir com os seus dashboards e relatórios na Vista de Leitura no serviço Power BI, mas não os podem editar. Conheça as diferenças entre a [Vista de Leitura e a Vista de Edição de relatórios no serviço Power BI](consumer/end-user-reading-view.md) 
 

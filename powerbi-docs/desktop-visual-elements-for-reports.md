@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657903"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280315"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Utilizar elementos visuais para melhorar relatórios do Power BI
 
@@ -98,7 +98,7 @@ O novo cabeçalho de elemento visual é o comportamento predefinido para todos o
 ![Os relatórios existentes devem marcar a caixa de verificação Opções para utilizar os cabeçalhos de elementos visuais melhorados](media/desktop-visual-elements-for-reports/visual-elements-for-reports_06.png)
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

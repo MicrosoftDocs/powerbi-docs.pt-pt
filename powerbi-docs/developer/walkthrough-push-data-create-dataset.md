@@ -5,18 +5,18 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 004f1b16474f738f8354585c83cd7707799e6dbb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092535"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288595"
 ---
-# <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: criar um conjunto de dados no Power BI
+# <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: Criar um conjunto de dados no Power BI
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
 No **passo 2** de Enviar dados para um conjunto de dados, [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md), obtém um token para autenticação no **do Azure AD**. Neste passo, utilizará o token para chamar a operação [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).

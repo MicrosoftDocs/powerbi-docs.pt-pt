@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09f001edc787d50db1de3291c483374948e50d66
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181715"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296783"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integração dos fluxos de dados e do Azure Data Lake (Pré-visualização)
 
@@ -91,7 +91,7 @@ Para obter informações sobre fluxos de dados em geral, veja estes artigos:
 * [Utilizar fluxos de dados com origens de dados no local (Pré-visualização)](service-dataflows-on-premises-gateways.md)
 * [Recursos para programadores para fluxos de dados do Power BI (Pré-visualização)](service-dataflows-developer-resources.md)
 
-Para obter mais informações sobre o Armazenamento do Azure, leia estes artigos:
+Para obter mais informações sobre o armazenamento do Azure, leia estes artigos:
 * [Guia de segurança de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
 * [Introdução aos exemplos do github dos Serviços de Dados do Azure](https://aka.ms/cdmadstutorial)
 

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 125787bab3892f2e9616866a9d5487837131d0ed
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52981497"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295380"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -153,7 +153,7 @@ O mapa de manchas pode utilizar estatísticas ou limites dinâmicos.
 - Categorias: Primeiros 500
 - Série (quando X e Y estão ambos presentes): Primeiros 20
 
-### <a name="table"></a>Tabela
+### <a name="table"></a>Table
 - Valores: virtualização (apresentação de dados em janelas) com utilização de Janela de 500 linhas de cada vez
 
 ### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Mapa de árvore (pode utilizar estatísticas ou limites dinâmicos)

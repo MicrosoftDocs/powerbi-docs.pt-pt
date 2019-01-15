@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 68b392f4570d137fabdfe8f10e5b7035babc397b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717131"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54272633"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Afixar um mosaico de um dashboard noutro dashboard
 Uma forma de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 
