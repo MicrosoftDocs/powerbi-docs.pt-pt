@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.author: maghan
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300052"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288549"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Criar capacidade do Power BI Embedded no portal do Azure
 
@@ -29,10 +29,10 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 Para concluir este guia de início rápido, precisa de:
 
-* **Subscrição do Azure:** visite [Versão de Avaliação Gratuita do Azure](https://azure.microsoft.com/free/) para criar uma conta.
+* **Subscrição do Azure:** visite a página da [Versão de Avaliação Gratuita do Azure](https://azure.microsoft.com/free/) para criar uma conta.
 * **Azure Active Directory:** a sua subscrição tem de estar associada a um inquilino do Azure Active Directory (AAD). Além disso, ***precisa de ter sessão iniciada no Azure com uma conta nesse inquilino***. As contas Microsoft não são suportadas. Para saber mais, veja [Authentication and user permissions](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users) (Permissões de autenticação e utilizador).
-* **Inquilino do Power BI:** pelo menos uma conta no seu inquilino do AAD tem de estar inscrita no Power BI.
-* **Grupo de recursos:** utilize um grupo de recursos que já tem ou [crie um novo](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **Inquilino do Power BI:** pelo menos uma conta no inquilino do AAD tem de estar inscrita no Power BI.
+* **Grupo de recursos:** utilize um grupo de recursos existente ou [crie um novo](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>Criar uma capacidade
 
@@ -48,7 +48,7 @@ Para concluir este guia de início rápido, precisa de:
 
     ![Campos a preencher para criar uma nova capacidade](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
-    |Definição |Descrição |
+    |Definições |Descrição |
     |---------|---------|
     |**Nome do recurso**|Um nome para identificar a capacidade. O nome do recurso é apresentado no portal de administração do Power BI, além do portal do Azure.|
     |**Subscrição**|A subscrição para a qual pretende criar a capacidade.|

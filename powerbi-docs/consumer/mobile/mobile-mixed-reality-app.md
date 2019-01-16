@@ -1,25 +1,25 @@
 ---
 title: Aplicação Power BI for Mixed Reality (Pré-visualização)
 description: Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou no contexto do seu ambiente.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/05/2018
-ms.author: maggies
-ms.openlocfilehash: a9db2854ee7f1c0844e17e3641fc07f1d6aaf154
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736992"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275140"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
 Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 
 
-[Transfira a aplicação Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Microsoft Store. Na Microsoft Store, está com o nome "Power BI Mobile". Interaja com os seus dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
+[Transfira a aplicação Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) a partir da Windows Store: na Windows Store, é denominado “Power BI Mobile”. Interaja com os seus dashboards e relatórios no mundo virtual e selecione os que pretende colocar no seu ambiente. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Duas vistas: vista clássica do Windows e vista holográfica
 

@@ -6,22 +6,22 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f52231d5df04367a1fe58e8575cd364899ff8eae
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 67a090b64a8243ed2a77d66ae633f8a64e494c89
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396733"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289078"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Por vezes, isso representa um desafio, uma vez que visualiza esses relatórios, e os seus colegas também, em ecrãs de diferentes proporções e tamanhos. 
 
-O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição padrão é **16:9**. Se deseja bloquear uma taxa de proporção diferente ou ajustar o relatório de outra forma, há duas ferramentas para ajudá-lo: configurações de ***Visualização de Página*** e configurações do ***Tamanho da Página***.
+O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição padrão é **16:9**. Se quiser bloquear uma taxa de proporção diferente ou ajustar o relatório de outra forma, há duas ferramentas para o ajudar: as configurações de ***Vista de Página*** e as configurações de ***Tamanho da Página***.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 

@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289157"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291991"
 ---
 # <a name="what-is-power-bi-report-server"></a>O que é o Power BI Report Server?
 
@@ -33,7 +33,7 @@ O Power BI Report Server está disponível através de duas licenças diferente
 > No Power BI Premium, o Power BI Report Server só é incluído com os P SKUs. Não é incluído com os EM SKUs.
 
 ## <a name="web-portal"></a>Portal Web
-O ponto de entrada do Power BI Report Server é um portal Web seguro que pode ver em qualquer browser moderno. Aqui pode aceder a todos os seus relatórios e indicadores chave de desempenho. O conteúdo no portal Web é organizado numa hierarquia de pastas tradicional. Nas suas pastas, os conteúdos são agrupados por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados, indicadores chave de desempenho e livros do Excel. Os conjuntos de dados partilhados e as origens de dados partilhadas estão nas suas próprias pastas, para serem utilizados como elementos dos seus relatórios. Pode etiquetar favoritos para os ver numa única pasta. Também pode criar indicadores chave de desempenho diretamente no portal Web. 
+O ponto de entrada do Power BI Report Server é um portal Web seguro que pode ver em qualquer browser moderno. Aqui pode aceder a todos os seus relatórios e indicadores chave de desempenho. O conteúdo no portal Web é organizado numa hierarquia de pastas tradicional. Nas suas pastas, o conteúdo é agrupado por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados, indicadores chave de desempenho e livros do Excel. Os conjuntos de dados partilhados e as origens de dados partilhadas estão nas suas próprias pastas, para serem utilizados como elementos dos seus relatórios. Pode etiquetar favoritos para os ver numa única pasta. Também pode criar indicadores chave de desempenho diretamente no portal Web. 
 
 ![Portal Web do Power BI Report Server](media/get-started/web-portal.png)
 

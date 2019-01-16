@@ -1,4 +1,4 @@
-Neste artigo, vamos investigar algumas técnicas avançadas de importação e limpeza de dados do **Power BI Desktop**. Depois de dar forma aos seus dados no **Editor de Consultas** e trazê-los para o **Power BI Desktop**, pode analisá-los de diferentes formas. Existem três vistas no Power BI Desktop: a vista de **Relatório**, a vista de **Dados** e a vista de **Relações**. Para ver cada uma das vistas, tem de selecionar o respetivo ícone no lado superior esquerdo da tela. Na imagem seguinte, a vista **Relatório** está selecionada. A barra amarela junto ao ícone indica que a vista está ativa.
+Neste artigo, vamos investigar algumas técnicas avançadas de importação e limpeza de dados do **Power BI Desktop**. Depois de dar forma aos seus dados no **Editor de Consultas** e trazê-los para o **Power BI Desktop**, pode analisá-los de diferentes formas. Existem três vistas no Power BI Desktop: vista **Relatório**, vista **Dados** e vista **Relações**. Para ver cada uma das vistas, tem de selecionar o respetivo ícone no lado superior esquerdo da tela. Na imagem seguinte, a vista **Relatório** está selecionada. A barra amarela junto ao ícone indica que a vista está ativa.
 
 ![](media/1-4-advanced-data-sources-and-transformation/1-4_1.png)
 
@@ -6,7 +6,7 @@ Para alterar a vista, basta selecionar qualquer um dos outros dois ícones. A ba
 
 O Power BI Desktop pode combinar dados de várias origens num único relatório, em qualquer altura durante o processo de modelação. Para adicionar mais origens a um relatório existente, selecione **Editar Consultas** no friso **Base** e, em seguida, selecione **Nova Origem** no **Editor de Consultas**.
 
-Existem várias origens de dados diferentes que pode utilizar no **Power BI Desktop**, incluindo Pastas. Ao ligar a uma pasta, pode importar dados de vários ficheiros de uma só vez, tal como uma série de ficheiros do Excel ou ficheiros CSV. Os ficheiros contidos na pasta selecionada são apresentados no **Editor de Consultas** como conteúdo binário e ao clicar no ícone de seta dupla na parte superior da coluna **Conteúdo**, os respetivos valores são carregados.
+Existem várias origens de dados diferentes que pode utilizar no **Power BI Desktop**, incluindo Pastas. Ao ligar-se a uma pasta, pode importar dados de vários ficheiros de uma só vez, tal como uma série de ficheiros do Excel ou ficheiros CSV. Os ficheiros contidos na pasta selecionada são apresentados no **Editor de Consultas** como conteúdo binário e ao clicar no ícone de seta dupla na parte superior da coluna **Conteúdo**, os respetivos valores são carregados.
 
 ![](media/1-4-advanced-data-sources-and-transformation/1-4_2.png)
 

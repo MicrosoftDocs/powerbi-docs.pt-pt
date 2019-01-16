@@ -5,24 +5,24 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 55e496656046037226a7414c994697b670bcf8c9
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669733"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275715"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Categorização de dados no Power BI Desktop
 No **Power BI Desktop**, pode especificar a Categoria de Dados para uma coluna de modo a que o Power BI Desktop saiba como deve tratar os respetivos valores numa visualização.
 
 Quando o Power BI Desktop importa dados, não obtém apenas os dados em si, mas também informações como os nomes de tabela e coluna, se é ou não uma chave primária, etc.  Com essas informações, o Power BI Desktop faz algumas suposições sobre como lhe proporcionar uma boa experiência predefinida quando criar uma visualização. 
 
-Eis um exemplo: quando o Power BI Desktop deteta que uma coluna tem valores numéricos, é provável que o utilizador deseje agregá-la de algum modo, para que ela seja colocada na área Valores. Ou, para uma coluna com valores de data e hora, assume que a utilizará provavelmente como um eixo de hierarquia de tempo num gráfico de linhas.
+Veja a seguir um exemplo: quando o Power BI Desktop deteta que uma coluna tem valores numéricos, é provável que o utilizador pretenda agregá-la de algum modo, para que seja colocada na área Valores. Ou, para uma coluna com valores de data e hora, assume que a utilizará provavelmente como um eixo de hierarquia de tempo num gráfico de linhas.
 
 No entanto, existem alguns casos que são um pouco mais difíceis, como geografia. Considere a seguinte tabela de uma folha de cálculo do Excel:
 

@@ -5,23 +5,23 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285974"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296369"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Passo 1: Registar uma aplicação no Azure AD
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
 O primeiro passo consiste em enviar dados para um conjunto de dados do Power BI para registar a sua aplicação no Azure AD. Precisa de fazê-lo antes de para que possa ter um **ID de Cliente** que identifique a sua aplicação no Azure AD. Sem um **ID de Cliente**, o Azure AD não pode autenticar a sua aplicação.
 
-> **NOTA**: antes de registar uma aplicação no Power BI, precisa de se [inscrever no Power BI](create-an-azure-active-directory-tenant.md).
+> **NOTA**: antes de registar uma aplicação no Power BI, precisa de se [inscrever no Power BI](create-an-azure-active-directory-tenant.md).
 > 
 > 
 
@@ -47,7 +47,7 @@ O passo seguinte mostra-lhe como [obter um token de acesso de autenticação](wa
 ## <a name="next-steps"></a>Próximos passos
 [Inscreva-se no Power BI](create-an-azure-active-directory-tenant.md)  
 [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
-[Passo a passo - Enviar dados por push para um conjunto de dados](walkthrough-push-data.md)  
+[Instruções: Enviar dados por push para um conjunto de dados](walkthrough-push-data.md)  
 [Registar uma aplicação](register-app.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 

@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8ceeddea7a8a9b7a63043cc7e91269da570790b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a07f266ccdc0b02cd6a18f84b48b5e2b3564b642
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670998"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279027"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Resolução de problemas de início de sessão no Power BI Desktop
-Por vezes, podem ocorrer erros ao tentar iniciar sessão no **Power BI Desktop**. Existem sobretudo duas razões para ocorrerem problemas de início de sessão: **erros de Autenticação de Proxy** e **erros de redirecionamento de URLs não HTTPS**. 
+Por vezes, podem ocorrer erros ao tentar iniciar sessão no **Power BI Desktop**. Existem sobretudo duas razões para ocorrerem de problemas de início de sessão: **erros de Autenticação de Proxy** e **erros de redirecionamento de URLs não HTTPS**. 
 
 Para determinar o que está a causar o problema de início de sessão, o primeiro passo é contactar o seu administrador e fornecer informações de diagnóstico para que este possa determinar a causa. Ao rastrear problemas associados ao seu problema de início de sessão, os administradores podem determinar quais dos erros a seguir se aplicam ao utilizador. 
 
@@ -56,7 +56,7 @@ As versões atuais do **Power BI Desktop** utilizam a versão atual do Active D
 
 As seguintes exceções nos ficheiros de rastreio do *Power BI Desktop* estão associadas a este erro:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: o redireccionamento de URLs não HTTPS não é suportado na vista Web*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: o redirecionamento de URLs não HTTPS não é suportado na vista Web*
 * *ErrorCode: non_https_redirect_failed*
 
 Se *ErrorCode: non_https_redirect_failed* ocorrer, significa que uma ou mais páginas de redirecionamento ou fornecedores na cadeia de redirecionamento não são um ponto final HTTPS protegido ou que um emissor do certificado de um ou mais redirecionamentos não se encontra entre a raízes fidedignas do dispositivo. Todos os fornecedores em qualquer cadeia de redireccionamento de início de sessão têm de utilizar URLs HTTPS. Para resolver este problema, contacte o seu administrador e solicite a utilização de URLs protegidos para os sites de autenticação. 

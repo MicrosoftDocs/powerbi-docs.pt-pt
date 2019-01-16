@@ -6,17 +6,17 @@ ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558430"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288503"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Início Rápido: incorporar um relatório do Power BI Report Server com um iFrame no SharePoint Server
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Início Rápido: Incorporar um relatório do Power BI Report Server com um iFrame no SharePoint Server
 
 Neste manual de início rápido vai aprender a incorporar um relatório do Power BI Report Server com um iFrame numa página do SharePoint. Se estiver a trabalhar com o SharePoint Online, o Power BI Report Server tem de estar acessível publicamente. No SharePoint Online, a Peça Web do Power BI que funciona com o serviço Power BI não funciona com o Power BI Report Server. 
 
@@ -101,7 +101,7 @@ Após ter o seu URL, pode criar um iFrame numa página do SharePoint para alojar
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Início rápido: Criar um relatório do Power BI para o Power BI Report Server](quickstart-create-powerbi-report.md)  
-[Início rápido: Criar um relatório paginado para o Power BI Report Server](quickstart-create-paginated-report.md)  
+[Início Rápido: Criar um relatório do Power BI para o Power BI Report Server](quickstart-create-powerbi-report.md)  
+[Início Rápido: Criar um relatório paginado para o Power BI Report Server](quickstart-create-paginated-report.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/) 

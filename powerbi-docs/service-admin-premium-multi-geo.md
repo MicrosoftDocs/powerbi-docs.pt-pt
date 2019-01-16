@@ -6,22 +6,22 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268303"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291723"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Suporte Multi-Geo para o Power BI Premium (Pré-visualização)
 
 A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e EUA Centro-Oeste e EUA Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
 
-- Estados Unidos
+- Portugal
 - Canadá
 - Reino Unido
 - Brasil
@@ -98,7 +98,7 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Power BI Premium – o que é?](service-premium.md)
+- [Power BI Premium: O que é?](service-premium.md)
 - [Multi-Geo para as capacidades do Power BI Embedded](developer/embedded-multi-geo.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

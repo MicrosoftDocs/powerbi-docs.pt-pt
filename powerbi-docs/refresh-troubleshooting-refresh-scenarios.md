@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670860"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285122"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Resolver problemas de atualização
 Aqui pode encontrar informações sobre cenários diferentes que pode encontrar ao atualizar dados no serviço Power BI.
@@ -37,7 +37,7 @@ Aguarde cerca de 10 a 15 minutos para a atualização ser refletida nos mosaicos
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>GatewayNotReachable ao definir credenciais
 Pode encontrar GatewayNotReachable ao tentar definir credenciais para uma origem de dados. Isto pode ser o resultado de um gateway desatualizado.  Instale o gateway mais recente e tente novamente.
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Erro de Processamento: ocorreu o seguinte erro de sistema: Erro de Correspondência
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Erro de Processamento: ocorreu o erro de sistema seguinte: Erro de Correspondência de Tipo
 Isto pode ser um problema com o script M no seu ficheiro do Power BI Desktop ou Livro do Excel.  Também pode ser devido a uma versão do Power BI Desktop.
 
 ## <a name="tile-refresh-errors"></a>Erros de atualização do mosaico
