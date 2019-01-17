@@ -1,22 +1,22 @@
 ---
-title: 'Guia de Início Rápido: Explorar dashboards e relatórios nas aplicações móveis'
+title: 'Início Rápido: Explorar dashboards e relatórios nas aplicações móveis'
 description: Neste manual de início rápido, o utilizador explora um dashboard e um relatório de exemplo nas aplicações móveis do Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157270"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279119"
 ---
-# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: explorar dashboards e relatórios nas aplicações móveis do Power BI
+# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: Explorar dashboards e relatórios nas aplicações móveis do Power BI
 Neste manual de início rápido, pode explorar um dashboard e um relatório de exemplo na aplicação móvel do Power BI num telemóvel Android. Também pode acompanhar o processo noutras aplicações móveis. 
 
 Aplica-se a:
@@ -62,7 +62,7 @@ O primeiro passo deste manual de início rápido é transferir o exemplo de Aná
 
 4. Selecione o **exemplo de Análise de Revenda**.
  
-    ![Exemplo de Análise de Revenda](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Retail Analysis Sample](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Selecione **Ligar**.  
   
@@ -148,10 +148,10 @@ Depois de concluir este manual de início rápido, se desejar, pode eliminar o d
 5. Selecione o separador **Conjuntos de Dados** e faça o mesmo para o conjunto de dados (Análise de Revenda).
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Neste manual de início rápido, o utilizador explorou um dashboard e um relatório de exemplo no seu dispositivo Android. Leia mais sobre como trabalhar no serviço Power BI. 
 
 > [!div class="nextstepaction"]
-> [Início Rápido: introdução ao serviço Power BI](../end-user-experience.md)
+> [Início Rápido: Introdução ao serviço Power BI](../end-user-experience.md)
 

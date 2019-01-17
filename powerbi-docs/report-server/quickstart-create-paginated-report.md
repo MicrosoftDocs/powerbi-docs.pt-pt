@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289134"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284441"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Criar um relatório paginado para o Power BI Report Server
 Como o nome indica, os relatórios paginados podem ocupar muitas páginas. Estão dispostos num formato fixo e oferecem uma personalização precisa. Os relatórios paginados são ficheiros .rdl.
@@ -46,7 +46,7 @@ Pode já ter instalado o Report Builder para criar relatórios para um servidor 
    
     O assistente de Gráfico orienta-o pelos passos de criação de um gráfico básico num relatório. A partir daí, pode personalizar o seu relatório praticamente sem limites.
 
-## <a name="step-2-go-through-the-chart-wizard"></a>Passo 2: Percorrer o assistente de Gráfico
+## <a name="step-2-go-through-the-chart-wizard"></a>Passo 2: Percorrer o Assistente de gráficos
 O assistente de Gráfico orienta-o nos passos básicos de criação de uma visualização num relatório.
 
 Os relatórios paginados podem ligar a diversas origens de dados, desde o Microsoft SQL Server e a Base de Dados SQL do Microsoft Azure ao Oracle, Hyperion e muitos mais. Saiba mais sobre [origens de dados suportadas por relatórios paginados](connect-data-sources.md).
@@ -55,18 +55,18 @@ Na primeira página do assistente de Gráfico, **Selecione um conjunto de dados*
 
 1. Selecione **Procurar** > selecionar um conjunto de dados partilhado num servidor > **Abrir** > **Seguinte**.
    
-    ![Assistente de Gráfico: Selecionar um conjunto de dados](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
+    ![Assistente de Gráficos: Selecionar um conjunto de dados](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
      Precisa de criar um conjunto de dados? Consulte [Criar um conjunto de dados partilhado ou incorporado](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Selecione um tipo de gráfico (neste caso, um gráfico de barras).
    
-    ![Assistente de Gráfico: tipo de gráfico](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
+    ![Assistente de Gráficos: Tipo de gráfico](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. Disponha os campos ao arrastá-los para as caixas **Categorias**, **Séries** e **Valores**.
    
-    ![Assistente de Gráfico: dispor campos](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
+    ![Assistente de Gráficos: Dispor campos](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)
 4. Selecione **Seguinte** > **Concluir**.
 
-## <a name="step-3-design-your-report"></a>Passo 3: Estruturar o seu relatório
+## <a name="step-3-design-your-report"></a>Passo 3: Criar o relatório
 Agora, está na vista de Estrutura do Relatório. Repare que os dados são apenas marcadores de posição, não os seus dados.
 
 ![Vista de Estrutura do Relatório](media/quickstart-create-paginated-report/reportserver-paginated-preview-report.png)
@@ -82,7 +82,7 @@ Pode também adicionar muitas outras visualizações: medidores, tabelas, matriz
 
 ![Vista de Estrutura do Report Builder](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Passo 4: Guardar o seu relatório no servidor de relatório
+## <a name="step-4-save-your-report-to-the-report-server"></a>Passo 4: Guardar o relatório no servidor de relatórios
 Quando o seu relatório estiver pronto, guarde-o no Power BI Report Server.
 
 1. No menu **Ficheiro**, selecione **Guardar como** e guarde-o no servidor de relatório. 

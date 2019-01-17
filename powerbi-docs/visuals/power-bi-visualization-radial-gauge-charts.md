@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416872"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282569"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
 Um gráfico de medidor radial tem um arco circular e apresenta um único valor que acompanha o progresso em relação a um objetivo/KPI.  O objetivo, ou o valor de destino, é representado pela linha (agulha). O progresso em relação a esse objetivo é representado pelo sombreado.  E o valor que representa o progresso é mostrado em negrito dentro do arco. Todos os valores possíveis são distribuídos de forma uniforme ao longo do arco, do mínimo (valor mais à esquerda) para o máximo (valor mais à direita).
@@ -44,7 +44,7 @@ Ou deixe que o Will lhe mostre como criar elementos visuais de métrica única: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Passo 1: abra o ficheiro do Excel do Exemplo Financeiro
+### <a name="step-1-open-the-financial-sample-excel-file"></a>Passo 1: Abrir o ficheiro do Excel do Exemplo Financeiro
 1. [Transfira o ficheiro do Excel de Exemplo Financeiro](../sample-financial-download.md), se ainda não o tiver feito. Lembre-se de onde o guardou.
 
 2. Abra o ficheiro no ***serviço Power BI***, ao selecionar **Obter dados\> Ficheiros** e navegue até ao local onde guardou o ficheiro. Selecione **Importar**. O exemplo financeiro é adicionado ao espaço de trabalho como conjunto de dados.
@@ -53,7 +53,7 @@ Ou deixe que o Will lhe mostre como criar elementos visuais de métrica única: 
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Passo 2: criar um medidor para acompanhar as Vendas Brutas
+### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Passo 2: Criar um medidor para acompanhar as Vendas Brutas
 1. No painel **Campos**, selecione **Vendas Brutas**.
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
@@ -66,7 +66,7 @@ Ou deixe que o Will lhe mostre como criar elementos visuais de métrica única: 
    
    ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
 
-### <a name="step-3-set-a-target-value"></a>Passo 3: definir um valor de destino
+### <a name="step-3-set-a-target-value"></a>Passo 3: Definir um valor de destino
 1. Arraste **COGS** para o **Valor de destino**.
 2. Altere a agregação para **Média**.
    O Power BI adiciona uma agulha para representar o valor de destino de **US$ 145.480**. Observe que ultrapassámos o nosso alvo.
@@ -78,7 +78,7 @@ Ou deixe que o Will lhe mostre como criar elementos visuais de métrica única: 
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>Passo 4: definir um valor máximo
+### <a name="step-4-set-a-maximum-value"></a>Passo 4: Definir um valor máximo
 No Passo 2, o Power BI utilizou o campo Valor para definir automaticamente o mínimo (início) e o máximo (final).  E se quiser definir o seu próprio valor máximo?  Digamos que, em vez de utilizar o dobro do valor atual como valor máximo possível, quer defini-lo como o maior número de vendas brutas no conjunto de dados. 
 
 1. Arraste **Vendas Brutas** da lista **Campos** para o **Valor Máximo**.
@@ -90,7 +90,7 @@ No Passo 2, o Power BI utilizou o campo Valor para definir automaticamente o mí
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>Passo 5: guardar o relatório
+### <a name="step-5-save-your-report"></a>Passo 5: Guardar relatório
 1. [Guarde o relatório](../service-report-save.md).
 2. [Adicionar gráfico medidor como um mosaico do dashboard](../service-dashboard-pin-tile-from-report.md). 
 

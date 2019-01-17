@@ -1,20 +1,20 @@
 ---
 title: Ver relatórios do Power BI otimizados para o seu telemóvel
 description: Saiba mais sobre a interação com as páginas de relatórios otimizadas para visualização nas aplicações móveis do Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547804"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276912"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
 
@@ -48,7 +48,7 @@ Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o
     ![Filtro avançado de relatórios do Power BI no telemóvel](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Realce cruzado de visuais
-O realce cruzado de visuais em relatórios no telemóvel funciona da mesma forma que no serviço Power BI e nos relatórios em telemóveis na vista horizontal: quando selecionar dados num visual, são realçados dados relacionados noutros visuais dessa página.
+O realce cruzado dos elementos visuais nos relatórios do telemóvel funciona da mesma forma que o serviço Power BI e os relatórios nos telemóveis na vista horizontal: quando selecionar dados num elemento visual, este realça dados relacionados noutros elementos visuais nessa página.
 
 Saiba mais sobre [filtrar e realçar no Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -70,7 +70,7 @@ Algumas ações só são possíveis no modo de detalhe, devido às limitações 
 
 * **Desagregar** as informações mostradas num visual. Saiba mais sobre [desagregar e agregar](mobile-apps-view-phone-report.md#drill-down-in-a-visual) num relatório de telemóvel, mais abaixo.
 * **Ordene** os valores num visual.
-* **Reverter**: limpar passos de exploração que efetuou num visual e reverter para a definição estabelecida quando o relatório foi criado.
+* **Reverter**: limpe os passos de exploração que realizou num elemento visual e reverta para a definição estabelecida quando o relatório foi criado.
   
     Para limpar toda a exploração de um visual, toque nas reticências (**...**) > **Reverter**.
   

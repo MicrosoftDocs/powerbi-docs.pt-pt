@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900457"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283535"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
 
@@ -95,7 +95,7 @@ O tamanho da superfície de desenho pode ser diferente da área de impressão do
   
 ## <a name="5-grouping-pane"></a>5 Painel Agrupamento
 
- Os grupos servem para organizar os dados do relatório numa hierarquia visual e para calcular totais. Pode ver os grupos de linhas e de colunas numa região de dados na superfície de desenho e também no painel Agrupamento. O painel Agrupamento tem dois painéis: Grupos de Linhas e Grupos de Colunas. Quando seleciona uma região de dados, o painel Agrupamento apresenta todos os grupos nessa região de dados como uma lista hierárquica: os Grupos subordinados são apresentados com avanço sob os grupos principais.  
+ Os grupos servem para organizar os dados do relatório numa hierarquia visual e para calcular totais. Pode ver os grupos de linhas e de colunas numa região de dados na superfície de desenho e também no painel Agrupamento. O painel Agrupamento tem dois painéis: Grupos de Linhas e Grupos de Colunas. Quando seleciona uma região de dados, o painel Agrupamento apresenta todos os grupos nessa região de dados como uma lista hierárquica: os grupos subordinados são apresentados com avanço sob os grupos principais.  
   
  Pode criar grupos ao arrastar campos do painel Dados do Relatório e ao soltá-los na superfície de desenho ou no painel Agrupamento. No painel Agrupamento, pode adicionar os grupos principais, adjacentes e subordinados, alterar as propriedades dos grupos e eliminar grupos.  
   

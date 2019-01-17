@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829993"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290413"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>De um livro do Excel a um relatório incrível num instante
 A sua gestora quer ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha até ao fim do dia. No entanto, os dados mais recentes residem em vários sistemas de terceiros e em ficheiros no seu portátil. Anteriormente, levava várias horas a criar elementos visuais e a formatar um relatório. Está a começar a ficar ansioso.
@@ -67,7 +67,7 @@ Agora, pode começar a criar visualizações. A sua gestora quer ver o lucro ao 
 
 ![gráfico de colunas no editor de relatórios](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-> **DICA**: se o seu gráfico não for parecido com o que era esperado, verifique as suas agregações. Por exemplo, no poço **Valor**, clique com o botão direito do rato no campo que acabou de adicionar e certifique-se de que os dados estão a ser agregados da forma que pretende.  Neste exemplo, estamos a utilizar **Soma**.
+> **SUGESTÃO**: se o gráfico não for parecido com o que era esperado, verifique as suas agregações. Por exemplo, no poço **Valor**, clique com o botão direito do rato no campo que acabou de adicionar e certifique-se de que os dados estão a ser agregados da forma que pretende.  Neste exemplo, estamos a utilizar **Soma**.
 > 
 > 
 

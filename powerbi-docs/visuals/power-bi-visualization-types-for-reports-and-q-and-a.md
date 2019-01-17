@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900541"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296806"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -26,7 +26,7 @@ E consulte o [Microsoft AppSource](https://appsource.microsoft.com/marketplace/a
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
 Todas estas visualizações podem ser adicionadas aos relatórios do Power BI, especificadas nas Perguntas e Respostas e afixadas a dashboards.
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de área: Básica (em camadas) e Empilhada
+### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos das áreas: Básica (em camadas) e Empilhada
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
@@ -42,7 +42,7 @@ Para obter mais informações, veja [Gráfico de Área Básico](power-bi-visuali
 >[!TIP]
 >Os gráficos de barras são o padrão para observar um valor específico em diferentes categorias.
 
-### <a name="cards-multi-row"></a>Cartões: múltiplas linhas
+### <a name="cards-multi-row"></a>Cartões: várias linhas
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>Cartões: número único
@@ -104,12 +104,12 @@ Para obter mais informações, veja [KPIs no Power BI](power-bi-visualization-kp
 
 Para obter mais informações, veja [Sugestões e truques para elementos visuais de mapas](power-bi-map-tips-and-tricks.md).
 
-### <a name="maps-arcgis-maps"></a>Mapas: mapas ArcGIS
+### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 Para obter mais informações, veja [Mapas ArcGIS no Power BI](../power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropletos)
+### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -117,7 +117,7 @@ Para obter mais informações, veja [Mapas ArcGIS no Power BI](../power-bi-visua
 
 Para obter mais informações, veja [Mapas de Manchas no Power BI](power-bi-visualization-filled-maps-choropleths.md).
 
-### <a name="maps-shape-maps"></a>Mapas: mapas de forma
+### <a name="maps-shape-maps"></a>Mapas: mapas de formas
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]

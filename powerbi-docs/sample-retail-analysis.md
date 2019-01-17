@@ -1,23 +1,23 @@
 ---
-title: 'Exemplo de Análise de Revenda para o Power BI: veja uma apresentação'
-description: 'Exemplo de Análise de Revenda para o Power BI: veja uma apresentação'
+title: 'Exemplo de Análise de Revenda do Power BI: veja uma apresentação'
+description: 'Exemplo de Análise de Revenda do Power BI: veja uma apresentação'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717683"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291470"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda para o Power BI: veja uma apresentação
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda do Power BI: veja uma apresentação
 
 Este dashboard de exemplo do setor, juntamente com o relatório subjacente, analisam dados de vendas de revenda de itens vendidos em várias lojas e distritos. As métricas comparam o desempenho deste ano ao do ano passado nas seguintes áreas: vendas, unidades, margem bruta e variação, bem como uma análise de novas lojas. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com)) que foram mantidos anónimos.
 
@@ -43,7 +43,7 @@ Este dashboard de exemplo do setor, juntamente com o relatório subjacente, anal
    
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
    
-   ![Exemplo de Análise de Revenda](media/sample-retail-analysis/retail17.png)
+   ![Retail Analysis Sample](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
@@ -86,7 +86,7 @@ Também pode [transferir apenas o conjunto de dados (livro do Excel)](http://go.
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Rever um mosaico criado com as Perguntas e Respostas do Power BI
 Vamos analisar mais detalhadamente.
 
-1. Adicione “vendas deste ano **por distrito**” à pergunta. Observe o resultado: a resposta é colocada automaticamente num gráfico de barras e são sugeridas outras frases:
+1. Adicione “vendas deste ano **por distrito**” à pergunta. Veja o resultado: coloca a resposta automaticamente num gráfico de barras e sugere outras frases:
 
    ![](media/sample-retail-analysis/retail8.png)
 2. Agora, altere a pergunta para “vendas deste ano **por código postal e cadeia**”.

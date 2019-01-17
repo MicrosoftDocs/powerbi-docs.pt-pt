@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: ace392570dbabc65d128941fc735231622f2c008
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973241"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285329"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Sobre filtros e realces em relatórios do Power BI
  Este artigo apresenta-lhe os filtros e os realces no serviço Power BI. A experiência é praticamente a mesma no Power BI Desktop. Os ***Filtros*** removem tudo, menos os dados em que se pretende focar. O ***Realce*** não filtra. Não remove dados, mas realça um subconjunto dos dados visíveis; os dados não realçados permanecem visíveis, mas obscurecidos.
@@ -48,7 +48,7 @@ Pode pesquisar na página, no elemento visual e nos filtros de relatório, na Vi
 Se o filtro estiver acompanhado da palavra **Tudo**, significa que todos os valores no campo são incluídos no filtro.  Por exemplo,**Chain(All)** na captura de ecrã abaixo significa que esta página de relatório inclui dados sobre todas as cadeias de lojas.  Por outro lado, o filtro ao nível de relatório **FiscalYear is 2013 or 2014** indica que o relatório inclui apenas dados correspondentes aos anos fiscais de 2013 e 2014.
 
 ## <a name="filters-in-reading-or-editing-view"></a>Filtros na Vista de leitura e de edição
-Existem dois modos de interagir com os relatórios: [Vista de leitura](consumer/end-user-reading-view.md) e Vista de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
+Existem dois modos de interagir com os relatórios: a [Vista de leitura](consumer/end-user-reading-view.md) e a Vista de edição. As funções de filtragem disponíveis para si dependem do modo no qual se encontra.
 
 * Na Vista de edição, pode adicionar filtros de relatório, de página, de pormenorização e de elemento visual. Ao guardar o relatório, os filtros são guardados com aquele, mesmo que o abra numa aplicação móvel. As pessoas que veem o relatório na Vista de leitura podem interagir com os filtros que adicionou, mas não podem adicionar novos filtros.
 * Na Vista de leitura, pode interagir com qualquer filtro existente no relatório e guardar as seleções que fizer. Não pode adicionar novos filtros.
@@ -85,7 +85,7 @@ Selecione um campo na tela de relatórios para realçar os outros elementos visu
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Adicionar um filtro a um relatório (na Vista de edição)](power-bi-report-add-filter.md)
 
 [Fazer uma visita aos filtros de relatórios](consumer/end-user-report-filter.md)

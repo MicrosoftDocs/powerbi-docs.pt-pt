@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92e86817231e959db50af3c32fe8eba761c79a61
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: dd7360761cc78aed9b01eb99165de9f0b4b91ffe
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448874"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274772"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps no Power BI
 Os treemaps apresentam dados hierárquicos, como um conjunto de retângulos aninhados.  Cada nível da hierarquia é representado por um retângulo colorido (muitas vezes chamado um "ramo") que contém outros retângulos ("folhas").  O espaço dentro de cada retângulo é alocado com base no valor que está a ser medido. Além disso, os retângulos são organizados por tamanho da parte superior esquerda (maior) para a parte inferior direita (menor).
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
 
-Por exemplo, se estiver a analisar as minhas vendas, posso ter retângulos de nível superior, também chamados *ramos* para as categorias de vestuário: **Urbano**, **Rural**, **Jovem** e **Combinado**.  Os retângulos da categoria seriam divididos em retângulos mais pequenos, também denominados *folhas*, para os fabricantes de vestuário dentro dessa categoria. Por sua vez, estes retângulos mais pequenos seriam dimensionados e sombreados com base no número vendido.  
+Por exemplo, se estiver a analisar as minhas vendas, posso ter retângulos de nível superior, também chamados *ramos*, para as categorias de vestuário: **Urbano**, **Rural**, **Jovem** e **Combinado**.  Os retângulos da categoria seriam divididos em retângulos mais pequenos, também denominados *folhas*, para os fabricantes de vestuário dentro dessa categoria. Por sua vez, estes retângulos mais pequenos seriam dimensionados e sombreados com base no número vendido.  
 
 No ramo **Urbano** acima, muito vestuário `Maximus` foi vendido, menos `Natura` e `Fama`, e algum `Leo`.  Assim, o ramo **Urbano** do meu Treemap teria:
 * o retângulo maior para `Maximus` no canto superior esquerdo
@@ -73,7 +73,7 @@ Em alternativa, crie o seu próprio treemap. Essas instruções utilizam o Exemp
 6. [Adicione o treemap como um mosaico de dashboard (afixar o elemento visual)](../service-dashboard-tiles.md). 
 7. [Guarde o relatório](../service-report-save.md).
 
-## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
+## <a name="highlighting-and-cross-filtering"></a>Destaque e filtragem cruzada
 Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
 
 Realçar uma Categoria ou Detalhes num treemap filtra e destaca de forma cruzada as outras visualizações na página de relatório e vice-versa. Para acompanhar, adicione alguns elementos visuais a esta página do relatório ou copie o treemap para uma das outras páginas que não estão em branco neste relatório.
@@ -86,7 +86,7 @@ Realçar uma Categoria ou Detalhes num treemap filtra e destaca de forma cruzada
 
 3. Para gerir a forma como os gráficos se destacam e filtram entre si de forma cruzada, veja [Interações de visualização num relatório do Power BI](../service-reports-visual-interactions.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Gráficos de cascata no Power BI](power-bi-visualization-waterfall-charts.md)
 

@@ -10,18 +10,26 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286940"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323957"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Executar scripts de Python no Power BI Desktop
 Pode executar scripts de Python diretamente no **Power BI Desktop** e importar os conjuntos de dados resultantes para um modelo de dados do Power BI Desktop.
 
 ## <a name="install-python"></a>Instalar o Python
 Para executar scripts de Python no Power BI Desktop, tem de instalar o **Python** no seu computador local. Pode transferir e instalar o **Python** gratuitamente a partir de vários locais, incluindo a partir da [página de transferência do Python Oficial](https://www.python.org/) e a partir do [Anaconda](https://anaconda.org/anaconda/python/). A versão atual de scripts de Python no Power BI Desktop suporta carateres Unicode, bem como espaços (carateres vazios) no caminho de instalação.
+
+### <a name="install-required-python-packages"></a>Instalar Pacotes Python Necessários
+A integração do Python no Power BI requer a instalação de dois pacotes Python (Pandas e Matplotlib).  Através da ferramenta de linha de comandos do pip, instale os dois pacotes seguintes:
+
+```
+pip install pandas
+pip install matplotlib
+```
 
 ## <a name="run-python-scripts"></a>Executar scripts de Python
 Com apenas alguns passos no Power BI Desktop, pode executar scripts de Python e criar um modelo de dados, através do qual pode criar relatórios e partilhá-los no serviço Power BI.
