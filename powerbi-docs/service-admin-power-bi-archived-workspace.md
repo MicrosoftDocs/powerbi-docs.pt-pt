@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8636ec85cb56e87f28a93f9f1f89989ffcc097bb
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973149"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292367"
 ---
 # <a name="power-bi-archived-workspace"></a>Área de Trabalho Arquivada do Power BI
 
@@ -29,19 +29,19 @@ O Power BI não elimina o conteúdo da Área de Trabalho Arquivada. Pode contin
 
 * **OneDrive para Empresas**: para conjuntos de dados na Área de Trabalho Arquivada, deixará de poder obter ou atualizar dados através do OneDrive para Empresas.  Se tentar ligar-se a essa fonte, receberá um aviso.
 
-* **Partilhar dashboards**: não pode partilhar dashboards com outros utilizadores a partir da Área de Trabalho Arquivada.  Todos os utilizadores que já têm acesso continuam a poder ver os dashboards partilhados ao acederem às Áreas de Trabalho Arquivadas deles.
+* **Partilhar dashboards**: não pode partilhar dashboards com outros utilizadores da Área de Trabalho Arquivada.  Todos os utilizadores que já têm acesso continuam a poder ver os dashboards partilhados ao acederem às Áreas de Trabalho Arquivadas deles.
 
 * **Criar grupos**: não pode criar grupos na Área de Trabalho Arquivada.
 
-* **Acesso em aplicações móveis do Power BI**: embora ainda possa ver o conteúdo na Web na Área de Trabalho Arquivada, este já não aparece nas aplicações móveis do Power BI.
+* **Acesso a aplicações móveis do Power BI**: embora ainda possa ver os conteúdos na Web na Área de Trabalho Arquivada, esses conteúdos já não aparecem nas aplicações móveis do Power BI.
 
 ## <a name="migrating-content-in-your-archived-workspace"></a>Migração de conteúdo na Área de Trabalho Arquivada
 
 Para continuar a utilizar o Power BI, deve criar novo conteúdo em A Minha Área de Trabalho. Também deve planear migrar qualquer conteúdo na Área de Trabalho Arquivada para A Minha Área de Trabalho.  Como migrar o conteúdo depende do tipo de conteúdo:
 
-* **Conjuntos de dados do Excel ou do Power BI Desktop**: migre estes conjuntos de dados ao alternar da Área de Trabalho Arquivada para A Minha Área de Trabalho e ao carregar novamente o ficheiro do Excel ou do Power BI Desktop. Para tal, selecione o botão **Os Meus Dados**.  Se configurar a atualização agendada, terá de reconfigurar estas definições para o novo conjunto de dados em A Minha Área de Trabalho.
+* **Conjuntos de dados do Excel ou do Power BI Desktop**: migre estes conjuntos de dados ao alternar da Área de Trabalho Arquivada para A Minha Área de Trabalho e carregue novamente o ficheiro do Excel ou do Power BI Desktop ao selecionar o botão **Os Meus Dados**.  Se configurar a atualização agendada, terá de reconfigurar estas definições para o novo conjunto de dados em A Minha Área de Trabalho.
 
-* **Outros Conjuntos de Dados**: alterne para A Minha Área de Trabalho e selecione o botão **Obter Dados** para restabelecer ligação com todos os outros conjuntos de dados criados na Área de Trabalho Arquivada.  Talvez seja necessário inserir novamente as informações de conexão ou segurança.
+* **Outros Conjuntos de Dados**: alterne para A Minha Área de Trabalho e selecione o botão **Obter Dados** para restabelecer ligação a todos os outros conjuntos de dados criados na Área de Trabalho Arquivada.  Talvez seja necessário inserir novamente as informações de conexão ou segurança.
 
 * **Relatórios**: os relatórios presentes nos ficheiros do Excel ou do Power BI Desktop são recriados automaticamente assim que voltar a carregar o ficheiro do Excel ou do Power BI Desktop correspondente. Os relatórios instalados como parte de um pacote de conteúdos também são recriados quando restabelecer ligação com o pacote de conteúdos. Se criar os seus próprios relatórios através do serviço Power BI, recrie estes relatórios em A Minha Área de Trabalho.
 

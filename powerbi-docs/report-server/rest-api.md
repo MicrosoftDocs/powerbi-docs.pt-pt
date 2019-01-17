@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250436"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291677"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desenvolver com as APIs REST do Power BI Report Server
 
@@ -31,8 +31,8 @@ Um par pedido/resposta da API REST pode ser separado em cinco componentes:
 * O **URI do pedido**, que consiste em: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Embora o URI do pedido esteja incluído no cabeçalho da mensagem de pedido, este é chamado separadamente, porque a maioria das linguagens ou estruturas requerem que seja transmitido em separado da mensagem de pedido.
   
   * Esquema do URI: indica o protocolo utilizado para transmitir o pedido. Por exemplo, `http` ou `https`.
-  * Anfitrião do URI: especifica o nome de domínio ou o endereço IP do servidor onde o ponto final de serviço REST está alojado, como `myserver.contoso.com`.
-  * Caminho do recurso: especifica o recurso ou coleção de recursos, o que pode incluir vários segmentos utilizados pelo serviço para determinar a seleção desses recursos. Por exemplo: é possível utilizar `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` para obter as propriedades especificadas de CatalogItem.
+  * Anfitrião do URI: especifica o nome de domínio ou o endereço IP do servidor onde o ponto final do serviço REST está alojado, como `myserver.contoso.com`.
+  * Caminho do recurso: especifica o recurso ou a coleção de recursos, o que pode incluir vários segmentos utilizados pelo serviço para determinar a seleção desses recursos. Por exemplo: é possível utilizar `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` para obter as propriedades especificadas de CatalogItem.
   * Cadeia de consulta (opcional): fornece parâmetros simples adicionais, como a versão da API ou os critérios de seleção de recursos.
 * Campos de cabeçalho da mensagem de pedido HTTP:
   
