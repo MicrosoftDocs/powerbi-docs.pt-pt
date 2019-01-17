@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/16/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 95055f19ed4187124d940e0fe7f70068dffc71c5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900572"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289768"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -36,7 +36,7 @@ O Power BI Report Server e o serviço Power BI tem bastantes semelhanças e al
 | Transmissão em fluxo em tempo real | Não | Sim | [Transmissão em fluxo em tempo real no Power BI](../service-real-time-streaming.md)
 | Dashboards | Não | Sim | [Dashboards no serviço Power BI](../consumer/end-user-dashboards.md) 
 | Distribuir grupo de relatórios através de aplicações | Não | Sim | [Criar e publicar aplicações com dashboards e relatórios](../service-create-distribute-apps.md) 
-| Pacotes de conteúdos | Não | Sim | [Pacotes de conteúdos organizacionais: introdução](../service-organizational-content-pack-introduction.md) 
+| Pacotes de conteúdos | Não | Sim | [Pacotes de conteúdos organizacionais: Introdução](../service-organizational-content-pack-introduction.md) 
 | Ligar a serviços como o Salesforce | Sim | Sim | [Ligue-se aos serviços que utiliza](../service-connect-to-services.md) com pacotes de conteúdos no serviço Power BI. No Power BI Report Server, utilize conectores certificados para se ligar aos serviços. Veja [Origens de dados de relatórios do Power BI no Power BI Report Server](data-sources.md) para obter detalhes.
 | Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Informações rápidas | Não | Sim | [Gerar automaticamente as informações de dados com o Power BI](../consumer/end-user-insights.md) 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649051"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277279"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados (Pré-visualização)
 
@@ -76,7 +76,7 @@ Na janela **Adicionar atribuição de função**, selecione a função **Leitor*
 
 Tem de criar um sistema de ficheiros com o nome *powerbi* antes de ser possível adicionar a conta de armazenamento ao Power BI. Existem várias maneiras de criar esse sistema de ficheiros, incluindo através do Azure Databricks, do HDInsight, do AZCopy ou do Explorador de Armazenamento do Azure. Esta secção mostra-lhe uma maneira simples de criar um sistema de ficheiros com o Explorador de Armazenamento do Azure.
 
-Para realizar este passo, tem de instalar a versão 1.6.1 ou posterior do Explorador de Armazenamento do Azure. Para instalar o Explorador de Armazenamento do Azure para Windows, Macintosh ou Linux, veja o artigo [Explorador de Armazenamento do Azure](https://azure.microsoft.com/features/storage-explorer/).
+Para realizar este passo, tem de instalar a versão 1.6.2 ou superior do Explorador de Armazenamento do Azure. Para instalar o Explorador de Armazenamento do Azure para Windows, Macintosh ou Linux, veja o artigo [Explorador de Armazenamento do Azure](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Depois de instalar o Explorador de Armazenamento do Azure com êxito, quando este for iniciado pela primeira vez, a janela Explorador de Armazenamento do Azure – Ligar é apresentada. Apesar de o Explorador de Armazenamento oferecer várias maneiras de estabelecer ligação às contas de armazenamento, apenas uma delas é atualmente suportada para a configuração necessária. 
 

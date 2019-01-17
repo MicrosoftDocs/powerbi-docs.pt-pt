@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296026"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279855"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implementar um gateway de dados para o Power BI
 
@@ -40,7 +40,7 @@ Se todos os utilizadores estiverem a aceder em simultâneo a um determinado rela
 Há uma restrição no **Power BI** que permite apenas *um* gateway por *relatório*, por isso, mesmo que um relatório se baseie em várias origens de dados, todas estas origens de dados devem passar por um único gateway. No entanto, se um dashboard se basear em *vários* relatórios, pode utilizar um gateway dedicado para cada relatório e, deste modo, distribuir a carga de gateway entre os vários relatórios que contribuem para esse dashboard individual.
 
 ### <a name="connection-type"></a>Tipo de ligação
-O **Power BI** oferece dois tipos de ligações, **DirectQuery** e **Importar**. Nem todas as origens de dados suportam os dois tipos de ligação e muitos motivos podem contribuir para escolher um em detrimento de outros, tais como requisitos de segurança, desempenho, limites de dados e tamanhos de modelos de dados. Pode saber mais sobre o tipo de ligação e as origens de dados suportadas na secção *lista de tipos de origens de dados disponíveis* do [artigo sobre o gateway de dados no local](service-gateway-onprem.md).
+O **Power BI** oferece dois tipos de ligações: **DirectQuery** e **Importação**. Nem todas as origens de dados suportam os dois tipos de ligação e muitos motivos podem contribuir para escolher um em detrimento de outros, tais como requisitos de segurança, desempenho, limites de dados e tamanhos de modelos de dados. Pode saber mais sobre o tipo de ligação e as origens de dados suportadas na secção *lista de tipos de origens de dados disponíveis* do [artigo sobre o gateway de dados no local](service-gateway-onprem.md).
 
 Dependendo do tipo de ligação utilizada, a utilização do gateway pode ser diferente. Por exemplo, deve utilizar origens de dados **DirectQuery** diferentes das origens de dados **Atualização Agendada** sempre que possível (partindo do princípio de que estão em relatórios diferentes e podem ser separadas). Deste modo, impede que o gateway tenha milhares de pedidos DirectQuery em fila, ao mesmo tempo que a atualização agendada da manhã de um modelo de dados de grande dimensão utilizado para o dashboard principal da empresa. Eis o que considerar para cada:
 

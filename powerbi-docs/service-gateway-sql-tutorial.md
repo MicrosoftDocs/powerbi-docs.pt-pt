@@ -1,23 +1,23 @@
 ---
-title: 'Tutorial: ligar a dados no local no SQL Server'
+title: 'Tutorial: Ligar a dados no local no SQL Server'
 description: Saiba como utilizar o SQL Server como uma origem de dados do gateway, incluindo como atualizar os dados.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257099"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278935"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: ligar a dados no local no SQL Server
+# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: Ligar a dados no local no SQL Server
 
 Um gateway de dados no local é software que instala dentro de uma rede no local; facilita o acesso aos dados nessa rede. Neste tutorial, vai criar um relatório no Power BI Desktop com base nos dados de exemplo importados a partir do SQL Server. Em seguida, publica o relatório no serviço Power BI e configura um gateway para que o serviço possa aceder os dados no local. Este acesso significa que o serviço pode atualizar os dados para manter o relatório atualizado.
 
@@ -143,7 +143,7 @@ No Power BI Desktop, liga-se diretamente ao SQL Server, mas o serviço Power B
     ![Introduzir definições de origens de dados](media/service-gateway-sql-tutorial/data-source-settings.png)
 
 
-   |          Opção           |                                               Value                                                |
+   |          Opção           |                                               Valor                                                |
    |---------------------------|----------------------------------------------------------------------------------------------------|
    |   **Nome da Origem de Dados**    |                                          test-sql-source                                           |
    |   **Tipo de Origem de Dados**    |                                             SQL Server                                             |

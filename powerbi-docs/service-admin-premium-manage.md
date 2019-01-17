@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717614"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280951"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerir as capacidades no Power BI Premium e no Power BI Embedded
 
@@ -42,9 +42,9 @@ Todos os Administradores Globais do Office 365 e os administradores do serviço 
 
 Para tirar partido da capacidade dedicada, tem de comprar o Power BI Premium no Centro de administração do Office 365 ou de criar um recurso do Power BI Embedded no portal do Microsoft Azure. Para obter mais informações, veja os seguintes artigos:
 
-* **Power BI Premium:** [como comprar o Power BI Premium](service-admin-premium-purchase.md)
+* **Power BI Premium:** [Como comprar o Power BI Premium](service-admin-premium-purchase.md)
 
-* **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 Ao comprar SKUs do Power BI Premium ou do Power BI Embedded, o seu inquilino recebe o número correspondente de núcleos virtuais para utilização em capacidades de execução. Por exemplo, a compra de uma Power BI Premium P3 SKU fornece ao inquilino 32 núcleos virtuais. Para obter mais informações sobre SKUs, veja [Nós de capacidade Premium](service-premium.md#premium-capacity-nodes).
 

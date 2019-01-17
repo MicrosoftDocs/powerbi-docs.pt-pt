@@ -1,23 +1,23 @@
 ---
-title: 'Exemplo de Recursos Humanos: faça um tour'
-description: 'Exemplo de Recursos Humanos para o Power BI: faça um tour'
+title: 'Exemplo de Recursos Humanos: veja uma apresentação'
+description: 'Exemplo de Recursos Humanos do Power BI: veja uma apresentação'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717878"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293946"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos para o Power BI: faça um tour
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: veja uma apresentação
 
 ## <a name="overview-of-the-human-resources-sample"></a>Descrição geral de exemplo para os Recursos Humanos
 O departamento de RH tem o mesmo modelo de relatório em diferentes empresas, mesmo quando existem diferenças no setor ou na dimensão. Este exemplo examina novas contratações, funcionários ativos e funcionários que saíram, e tenta descobrir tendências na estratégia de contratação. Os nossos principais objetivos devem compreender:
@@ -141,5 +141,5 @@ A [caixa de Perguntas e Respostas](power-bi-tutorial-q-and-a.md) é onde introdu
 
 Este é um ambiente seguro para experimentar. Pode optar por não guardar as alterações. Se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: ligar-se aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
 Esperamos que este tour tenha mostrado como os dashboards, o P e R e os relatórios do Power BI podem apresentar informações sobre os dados de recursos humanos. Agora é a sua vez, ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Saiba mais sobre como [começar a utilizar o Power BI](service-get-started.md).  

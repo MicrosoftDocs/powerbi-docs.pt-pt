@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900557"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291999"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
@@ -59,7 +59,7 @@ Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um das
 
 Leia sobre todas as outras formas de [obter dados para o Power BI](service-get-data.md).
 
-## <a name="step-1-get-data"></a>Passo 1: obter dados
+## <a name="step-1-get-data"></a>Passo 1: Obter dados
 Veja um exemplo de como obter dados de um ficheiro CSV. Deseja acompanhar este tutorial? [Transfira este ficheiro CSV de exemplo](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [Inicie sessão no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe. Pode inscrever-se numa avaliação gratuita.
@@ -93,7 +93,7 @@ Veja um exemplo de como obter dados de um ficheiro CSV. Deseja acompanhar este t
    > 
  
 
-## <a name="step-2-start-exploring-your-dataset"></a>Passo 2: começar a explorar o conjunto de dados
+## <a name="step-2-start-exploring-your-dataset"></a>Passo 2: Começar a explorar o conjunto de dados
 Agora que já está ligado aos dados, pode começar a explorar.  Quando encontrar algo interessante, pode criar um dashboard para monitorizá-lo e ver a forma como se altera ao longo do tempo. Vamos ver como funciona.
     
 1. No editor de relatórios, vamos utilizar o painel **Campos**, no lado direito da página, para criar uma visualização.  Selecione a caixa de verificação de **Gross Sales** (Vendas Brutas) e  **Date** (Data).
@@ -128,7 +128,7 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
    
    Selecione o novo mosaico no seu dashboard para regressar ao relatório a qualquer altura. O Power BI volta para o editor de relatórios na Vista de leitura. Para mudar novamente para a Vista de edição, selecione **Editar relatório** na barra de menus superior. Quando estiver na Vista de edição, pode continuar a explorar e a afixar mosaicos. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Passo 3: continuar a exploração com as perguntas e respostas (consulta em linguagem natural)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Passo 3:  Continuar a exploração com as Perguntas e Respostas (consulta em linguagem natural)
 1. Para explorar os dados rapidamente, tente fazer uma pergunta na caixa de perguntas e respostas. A caixa de perguntas e respostas está localizada na parte superior do dashboard (**Fazer uma pergunta sobre os dados**) e na barra de menus superior do relatório (**Fazer uma pergunta**). Por exemplo, experimente escrever “que segmento obteve mais receita”.
    
    ![Tela de Perguntas e Respostas](media/service-get-started/powerbi-qna.png)
