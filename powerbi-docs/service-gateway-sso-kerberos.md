@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508043"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295265"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 
-Utilize a [delegação restrita de Kerberos](https://technet.microsoft.com/library/jj553400.aspx) para ativar a conectividade de início de sessão único totalmente integrado. Ativar o SSO facilita a atualização de dados de origens no local através de relatórios e dashboards do Power BI.
+Utilize a [delegação restrita de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para ativar a conectividade de início de sessão único totalmente integrado. Ativar o SSO facilita a atualização de dados de origens no local através de relatórios e dashboards do Power BI.
 
 ## <a name="supported-data-sources"></a>Supported data sources (Origens de dados suportadas)
 
@@ -50,11 +50,11 @@ Para obter mais informações sobre como definir e configurar o início de sess�
 
 Vários itens têm de ser configurados para que a Delegação Restrita de Kerberos funcione corretamente, incluindo os *Nomes dos Principais de Serviço* (SPN) e as definições de delegação em contas de serviço.
 
-### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Pré-requisito 1: instalar e configurar o Gateway de dados no local
+### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Pré-requisito 1: Instalar e configurar o Gateway de dados no local
 
 Esta versão do Gateway de dados no local suporta uma atualização no local, bem como o controlo das definições de gateways existentes.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Pré-requisito 2: executar o serviço Windows do gateway como uma conta de domínio
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Pré-requisito 2: Executar o serviço Windows do gateway como uma conta de domínio
 
 Numa instalação padrão, o gateway é executado como uma conta de serviço da máquina local (especificamente, *NT Service\PBIEgwService*), conforme é mostrado na imagem seguinte:
 
@@ -65,7 +65,7 @@ Para ativar a **Delegação Restrita de Kerberos**, o gateway tem de ser executa
 > [!NOTE]
 > Se o Azure AD DirSync/Connect estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não tem de efetuar pesquisas de AD locais no runtime e pode utilizar o SID do Serviço local (em vez de uma conta de domínio) para o serviço de gateway. Os passos de configuração da Delegação Restrita de Kerberos descritos neste artigo são os mesmos da configuração (a diferença é que são aplicados ao objeto do computador do gateway no Active Directory, em vez de à conta do domínio).
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Pré-requisito 3: ter direitos de administrador de domínio para configurar as definições de Delegação Restrita de Kerberos e SPNs (SetSPN)
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Pré-requisito 3: Ter direitos de administrador de domínio para configurar as definições de Delegação Restrita de Kerberos e SPN (SetSPN)
 
 Embora seja tecnicamente possível que um administrador de domínio conceda direitos, temporária ou permanentemente, a outro utilizador para configurar SPNs e a delegação Kerberos, sem serem necessários direitos de administração do domínio, esta não é a abordagem recomendada. Na secção seguinte, vamos descrever os passos necessários para a configuração do **Pré-requisito 3** em detalhe.
 
@@ -111,9 +111,9 @@ Esta secção pressupõe que já configurou os SPNs para as suas origens de dado
 
 Nos passos seguintes, utilizamos um ambiente no local com duas máquinas: uma máquina de gateway e um servidor de base de dados com SQL Server. Para efeitos deste exemplo, vamos utilizar os seguintes nomes e definições:
 
-* O nome da máquina de gateway: **PBIEgwTestGW**
-* Conta do serviço de gateway: **PBIEgwTest\GatewaySvc** (nome de apresentação da conta: Gateway Connector)
-* Nome da máquina da origem de dados do SQL Server: **PBIEgwTestSQL**
+* Nome do computador do gateway: **PBIEgwTestGW**
+* Conta do serviço de gateway: **PBIEgwTestFrontEnd\GatewaySvc** (nome a apresentar da conta: Conector do Gateway)
+* Nome do computador da origem de dados do SQL Server: **PBIEgwTestSQL**
 * Conta do serviço da origem de dados do SQL Server: **PBIEgwTest\SQLService**
 
 Tendo em conta os nomes e as definições de exemplo, os passos de configuração são os seguintes:
@@ -202,7 +202,7 @@ Anteriormente neste artigo, discutimos como mudar o gateway de uma conta de serv
 
 Agora que já compreende como o Kerberos funciona com um gateway, pode configurar o SSO para o seu SAP BW (SAP Business Warehouse). Os passos seguintes pressupõem que já está [preparado para a delegação restrita de Kerberos](#preparing-for-kerberos-constrained-delegation), conforme descrito anteriormente neste artigo.
 
-Este guia tenta ser tão abrangente quanto possível. Se já tiver concluído alguns destes passos, pode ignorá-los. Por exemplo, já criou um Utilizador de Serviço para o servidor BW e mapeou um SPN para este ou já instalou a biblioteca gsskrb5.
+Este guia tenta ser tão abrangente quanto possível. Se já tiver concluído alguns destes passos, poderá ignorá-los: por exemplo, já criou um Utilizador de Serviço para o servidor BW e mapeou um SPN para este ou já instalou a biblioteca gsskrb5.
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>Configurar a gsskrb5 nos computadores cliente e no servidor BW
 
@@ -367,7 +367,7 @@ Se não tiver o Azure AD DirSync configurado, siga estes passos para **cada uti
 
 ### <a name="add-a-new-bw-application-server-data-source-to-the-power-bi-service"></a>Adicionar uma nova origem de dados do BW Application Server ao Serviço Power BI
 
-Adicione a origem de dados do BW ao seu gateway: siga as instruções mencionadas anteriormente neste artigo sobre como [executar um relatório](#running-a-power-bi-report).
+Adicione a origem de dados do BW ao gateway: siga as instruções mencionadas anteriormente neste artigo sobre como [executar um relatório](#running-a-power-bi-report).
 
 1. Na janela de configuração da origem de dados, introduza o **Nome do anfitrião**, **Número do Sistema** e **ID de cliente** do Application Server como faria ao iniciar sessão no seu servidor BW do Power BI Desktop. Para o **Método de Autenticação**, selecione **Windows**.
 

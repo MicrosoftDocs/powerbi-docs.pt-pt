@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027466"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277440"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
 Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou outro tema de cores. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
@@ -248,54 +248,54 @@ A tabela seguinte define os valores de *cardName*. O primeiro valor em cada cél
 
 | **cardName** |
 | --- |
-| axis: Eixo de medidor |
-| breakdown: Divisão |
-| bubbles: Bolhas |
-| calloutValue: Valor de Chamada |
-| card: Cartão |
+| eixo: Eixo de medidor |
+| divisão: Divisão |
+| bolhas: Bolhas |
+| calloutValue: Valor de Nota de Aviso |
+| cartão: Cartão |
 | cardTitle: Título do Cartão |
 | categoryAxis: Eixo X |
-| categoryLabels: Etiquetas de Categoria |
-| columnFormatting: Formatação de Campos |
-| columnHeaders: Cabeçalhos de Coluna |
-| dataLabels: Etiquetas de Dados |
-| fill: Preenchimento |
-| fillPoint: Ponto de Preenchimento |
-| forecast: Previsão |
-| general: Geral |
-| goals: Objetivos |
-| grid: Grelha |
-| header: Cabeçalho |
+| categoryLabels: Etiquetas de categoria |
+| columnFormatting: Formatação de campos |
+| columnHeaders: Cabeçalhos de coluna |
+| dataLabels: Etiquetas de dados |
+| preencher: Preencher |
+| fillPoint: Ponto de preenchimento |
+| previsão: Previsão |
+| geral: Geral |
+| objetivos: Objetivos |
+| grelha: Grelha |
+| cabeçalho: Cabeçalho |
 | imageScaling: Dimensionamento |
-| indicator: Indicador |
-| items: Itens |
-| labels: Etiquetas de Dados |
-| legend: Legenda |
+| indicador: Indicador |
+| itens: Itens |
+| etiquetas: Etiquetas de dados |
+| legenda: Legenda |
 | lineStyles: Formas |
-| mapControls: Controlos do Mapa |
-| mapStyles: Estilos do Mapa |
-| numericInputStyle: Entradas Numéricas |
+| mapControls: Controlos de mapa |
+| mapStyles: Estilos de mapa |
+| numericInputStyle: Entradas numéricas |
 | percentBarLabel: Etiqueta de Taxa de Conversão |
 | plotArea: Área de Desenho |
-| plotAreaShading: Sombreado Simétrico |
-| ratioLine: Linha de Relação |
+| plotAreaShading: Sombreado de simetria |
+| ratioLine: Linha de relação |
 | referenceLine: Linha Constante |
 | ribbonChart: Frisos |
-| rotation: Rotação |
-| rowHeaders: Cabeçalhos de Linha |
-| selection: Controlos de Seleção |
-| sentimentColors: Cores Sentimentais |
-| shape: Forma |
-| slider: Controlo de Deslize |
-| status: Codificação por Cores |
-| subTotals: Subtotais |
-| target: Destino |
-| total: Total Geral |
-| trend: Linha de Tendência |
-| trendline: Eixo de Tendência |
+| rotação: Rotação |
+| rowHeaders: Cabeçalhos de linha |
+| seleção: Controlos de Seleção |
+| sentimentColors: Cores de sentimentos |
+| formas: Formas |
+| controlo de deslize: Controlo de deslize |
+| estado: Codificação de cores |
+| subtotais: Subtotais |
+| destino: Destino |
+| total: Total geral |
+| tendência: Linha de Tendência |
+| trendline: Eixo de tendência |
 | valueAxis: Eixo Y |
-| values: Valores |
-| wordWrap: Moldagem do Texto |
+| valores: Valores |
+| wordWrap: Moldagem do texto |
 | xAxisReferenceLine: Linha Constante do Eixo X |
 | y1AxisReferenceLine: Linha Constante |
 | zoom: Zoom |

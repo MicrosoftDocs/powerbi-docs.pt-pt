@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580546"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296576"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 
@@ -60,17 +60,17 @@ Os registos dos serviços de gateway são categorizados em três grupos: informa
 
 A localização predefinida deste ficheiro é: *\Programas\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Para configurar o número de ficheiros de registo a reter, altere o primeiro número (neste exemplo é o número 20): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>Erro: falha ao criar um gateway. Tente novamente
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Erro: Falha ao criar um gateway. Tente novamente
 
 Todos os detalhes estão disponíveis, mas a chamada para o serviço Power BI devolveu um erro. O erro e um ID de atividade serão apresentados. Isto pode acontecer por diferentes motivos. Pode recolher e rever os registos, conforme mencionado abaixo, para obter mais detalhes.
 
 Isto também pode dever-se a problemas de configuração de proxy. A interface de utilizador agora permite a configuração de proxy. Pode saber mais sobre como efetuar [alterações da configuração de proxy](service-gateway-proxy.md)
 
-### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Erro: falha ao atualizar detalhes do gateway. Tente novamente
+### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Erro: Falha ao atualizar os detalhes do gateway. Tente novamente
 
 As informações foram recebidas do serviço Power BI para o gateway. As informações foram transmitidas para o serviço Windows local, mas ocorreu uma falha ao devolver. Em alternativa, a geração de uma chave simétrica falhou. A exceção interna será apresentada em **Mostrar detalhes**. Para obter mais detalhes, pode recolher e rever os registos mencionados abaixo.
 
-### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Erro: o serviço Power BI reportou o gateway local como inacessível. Reinicie o gateway e tente novamente
+### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Erro: O serviço Power BI reportou o gateway local como inacessível. Reinicie o gateway e tente novamente
 
 No final da configuração, o serviço Power BI será chamado novamente para validar o gateway. O serviço Power BI não reporta o gateway como *dinâmico*. Reiniciar o serviço Windows pode permitir que a comunicação seja bem-sucedida. Pode recolher e rever os registos, conforme mencionado abaixo, para obter mais detalhes.
 
@@ -78,7 +78,7 @@ No final da configuração, o serviço Power BI será chamado novamente para val
 
 Poderá receber um erro de script ao iniciar sessão no Power BI, como parte da configuração do Gateway de dados no local. Instalar a seguinte atualização de segurança resolve o problema. Pode ser instalada através do Windows Update.
 
-[MS16-051: atualização de segurança para o Internet Explorer: 10 de maio de 2016 (BDC 3154070)](https://support.microsoft.com/kb/3154070)
+[MS16-051: Atualização de segurança para o Internet Explorer: 10 de maio de 2016 (KB 3154070)](https://support.microsoft.com/kb/3154070)
 
 ### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>A configuração do gateway falhou com uma exceção de referência nula
 
@@ -105,7 +105,7 @@ Para corrigir isto, siga os seguintes passos.
 
 ## <a name="support-for-tls-12"></a>Suporte para TLS 1.2
 
-Por predefinição, o gateway de dados no local utiliza o TLS (Transport Layer Security) 1.2 para comunicar com o serviço Power BI. Para garantir que todo o tráfego de gateway utiliza o TLS 1.2, poderá ter de adicionar ou modificar as seguintes chaves de registo no computador que executa o serviço de gateway:
+Por predefinição, o Gateway de dados no local utiliza o TLS (Transport Layer Security) 1.2 para comunicar com o serviço Power BI. Para garantir que todo o tráfego do gateway utiliza o TLS 1.2, poderá ter de adicionar ou modificar as seguintes chaves de registo no computador que executa o serviço de gateway:
 
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -117,7 +117,7 @@ Por predefinição, o gateway de dados no local utiliza o TLS (Transport Layer S
 
 ## <a name="data-sources"></a>Origens de dados
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Erro: não é possível ligar. Detalhes: "Credenciais de ligação inválidas"
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Erro: Não é possível ligar. Detalhes: “Credenciais de ligação inválidas”
 
 Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem de dados. Para o SQL Server, verá algo semelhante ao seguinte.
 
@@ -125,7 +125,7 @@ Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem
 
 Verifique se tem o nome de utilizador e a palavra-passe corretos. Verifique também se essas credenciais podem ligar à origem de dados com êxito. Verifique se a conta que está a ser utilizada corresponde ao **Método de Autenticação**.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Erro: não é possível ligar. Detalhes: "Não é possível ligar à base de dados"
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Erro: Não é possível ligar. Detalhes: “Não é possível ligar à base de dados”
 
 Conseguimos ligar ao servidor, mas não à base de dados fornecida. Verifique o nome da base de dados e se as credenciais do utilizador têm a permissão adequada para aceder a essa base de dados.
 
@@ -133,7 +133,7 @@ Em **Mostrar detalhes**, será apresentada a mensagem de erro recebida da origem
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Erro: não é possível ligar. Detalhes: "Erro desconhecido no gateway de dados"
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Erro: Não é possível ligar. Detalhes: “Erro desconhecido no gateway de dados”
 
 Este erro pode ocorrer por diferentes motivos. Não se esqueça de confirmar que pode ligar à origem de dados da máquina que aloja o gateway. Isto pode ocorrer devido ao facto de o servidor não estar acessível.
 
@@ -141,7 +141,7 @@ Em **Mostrar detalhes**, poderá ver um código de erro de **DM_GWPipeline_Unkno
 
 Também pode observar os Registos de Eventos > **Registos de Aplicações e Serviços** > **Serviço de Gateway de dados no local** para obter mais detalhes.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: encontramos um erro ao tentar ligar a <server>. Detalhes : “Alcançámos o gateway de dados, mas o gateway não consegue aceder à origem de dados no local”.
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: Ocorreu um erro ao tentar ligar a <server>. Detalhes: “Acedemos ao gateway de dados, mas o gateway não consegue aceder à origem de dados no local.”
 
 Não é possível ligar à origem de dados especificada. Certifique-se de que valida as informações fornecidas para essa origem de dados.
 
@@ -182,17 +182,17 @@ Tem de trabalhar com os administradores de domínios para verificar a relação 
 
 Certifique-se de que a sua conta está listada no separador **Utilizadores** da origem de dados na configuração do gateway. Se não tiver acesso ao gateway, consulte o administrador do gateway e peça-lhe para verificar. Apenas as contas na lista **Utilizadores** podem ver a origem de dados listada na lista do Analysis Services.
 
-### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Erro: não tem um gateway instalado ou configurado para as origens de dados neste conjunto de dados
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Erro: Não tem nenhum gateway instalado ou configurado para as origens de dados neste conjunto de dados
 
 Certifique-se de que adicionou uma ou mais origens de dados ao gateway, conforme descrito em [Adicionar uma origem de dados](service-gateway-manage.md#add-a-data-source). Se o gateway não aparecer no portal de administração em **Gerir gateways**, experimente limpar a cache do browser ou terminar e voltar a iniciar sessão no serviço.
 
-## <a name="datasets"></a>Conjuntos de dados
+## <a name="datasets"></a>Conjuntos de Dados
 
-### <a name="error-there-is-not-enough-space-for-this-row"></a>Erro: não existe espaço suficiente para esta linha
+### <a name="error-there-is-not-enough-space-for-this-row"></a>Erro: Não existe espaço suficiente para esta linha
 
 Isto ocorrerá se tiver uma única linha com um tamanho superior a 4 MB. Tem de determinar qual é a linha que pertence à sua origem de dados e tentar filtrá-la ou reduzir o tamanho dessa linha.
 
-### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Erro: o nome do servidor fornecido não corresponde ao nome do servidor no Certificado SSL do SQL Server
+### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Erro: O nome do servidor fornecido não corresponde ao nome do servidor no Certificado SSL do SQL Server
 
 Isto pode ocorrer quando o CN do certificado se destina ao nome de domínio completamente qualificado (FQDN) do servidor, mas só tiver fornecido o nome NetBIOS do servidor. Isto irá causar um erro de correspondência do certificado. Para resolver este problema, terá de fazer com que o nome do servidor na origem de dados do gateway e o ficheiro PBIX utilizem o FQDN do servidor.
 
@@ -204,7 +204,7 @@ Isto pode dever-se a alguns cenários diferentes.
 2. A sua conta não está listada no separador **Utilizadores** da origem de dados na configuração do gateway. Tem de contactar o administrador do gateway para ser adicionado a essa lista.
 3. O ficheiro do Power BI Desktop inclui várias origens de dados e nem todas foram configuradas com o gateway. Tem de definir cada origem de dados com o gateway, para que este seja apresentado na Atualização Agendada.
 
-### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Erro: os dados não comprimidos recebidos no cliente do gateway excederam o limite
+### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-the-limit"></a>Erro: Os dados não comprimidos recebidos no cliente do gateway excederam o limite
 
 A limitação exata é de 10 GB de dados não comprimidos por tabela. Se este problema ocorrer, existem boas opções para otimizar e evitar o problema. Em particular, reduzir a utilização de valores de cadeia altamente constantes e longos e, em alternativa, utilizar uma chave normalizada ou remover a coluna (se não estiver a ser utilizada) irá ajudar.
 
@@ -217,7 +217,7 @@ Geralmente, isto deve-se a um dos seguintes motivos.
 1. As informações da origem de dados não correspondem às que estão no conjunto de dados subjacente. Os nomes do servidor e da base de dados têm de corresponder entre a origem de dados definida no Gateway de dados no local e o que fornecer no Power BI Desktop. Se utilizar um endereço IP no Power BI Desktop, a origem de dados do Gateway de dados no local terá de utilizar o mesmo endereço IP.
 2. Não há uma origem de dados disponível em qualquer gateway na organização. Pode configurar a origem de dados num Gateway de dados no local novo ou existente.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Error: erro de acesso à origem de dados. Contacte o administrador do gateway
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Erro: Erro de acesso à origem de dados. Contacte o administrador do gateway
 
 Se este relatório estiver a utilizar uma ligação em direto do Analysis Services, poderia deparar-se com o problema de um valor transmitido para o EffectiveUserName não ser válido ou não ter permissões no computador do Analysis Services. Normalmente, um problema de autenticação deve-se ao facto de o valor que é transmitido para EffectiveUserName não corresponder a um nome principal de utilizador (UPN) local.
 
@@ -459,7 +459,7 @@ Siga estes passos para resolver o problema:
 1. Configure um SPN para o Gateway no Local
 2. Configure a delegação restrita no Active Directory (AD)
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: falha ao criar a identidade do Windows para o ID do utilizador
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Falha ao criar a identidade do Windows para o ID do utilizador
 
 FailedToImpersonateUserException ocorrerá se não conseguir representar em nome de outro utilizador. Esta falha também poderá ocorrer se a conta que estiver a tentar representar for de outro domínio que não o domínio de serviço de gateway ativo (esta é uma limitação).
 

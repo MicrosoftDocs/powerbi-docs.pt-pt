@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900618"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296484"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Criar um relatório paginado e carregá-lo no serviço Power BI (Pré-visualização)
 
@@ -74,7 +74,7 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 
     ![Propriedades da origem de dados – Criar](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **No Azure:** volte ao portal do Azure e selecione **Bases de dados SQL**.
+9. **No Azure:** regresse ao portal do Azure e selecione **Bases de dados SQL**.
 
 1. Selecione a base de dados SQL do Azure que criou no início rápido “Criar um exemplo de base de dados SQL do Azure no portal do Azure” na secção **Pré-requisitos** deste artigo.
 
@@ -107,7 +107,7 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 10. Na página **Estruturar uma consulta**, expanda SalesLT, expanda Tabelas e selecione estas tabelas:
 
     - Endereço
-    - Customer
+    - Cliente
     - Produto
     - ProductCategory
     - SalesOrderDetail

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670745"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278084"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery e SAP Business Warehouse (BW)
 Pode ligar a origens de dados do **SAP Business Warehouse (BW)** diretamente com o **DirectQuery**. Tendo em conta a natureza OLAP/multidimensional do SAP BW, existem várias diferenças importantes entre o DirectQuery através de SAP BW versus origens relacionais, como o SQL Server. Estas diferenças são resumidas da seguinte forma:
@@ -33,8 +33,8 @@ Além disso, é *extremamente importante* compreender que muitas funcionalidades
 As principais restrições de modelação adicionais ao ligar ao SAP BW com o DirectQuery no Power BI são as seguintes:
 
 * **Não existe suporte para colunas calculadas:** a capacidade de criar colunas calculadas está desativada. Isto também significa que o Agrupamento e o Clustering, que criam colunas calculadas, não estão disponíveis.
-* **Limitações adicionais para medidas:** existem limitações adicionais impostas em expressões DAX que podem ser utilizadas em medidas, para refletir o nível de suporte oferecido pelo SAP BW.
-* **Não existe suporte para definir relações:** as relações são inerentes na origem SAP externa e não é possível definir relações adicionais no modelo.
+* **Limitações adicionais das medidas:** existem limitações adicionais impostas nas expressões DAX que podem ser utilizadas em medidas, para refletir o nível de suporte oferecido pelo SAP BW.
+* **Não existe suporte para definir relações:** as relações são inerentes na origem SAP externa e não se pode definir relações adicionais no modelo.
 * **Sem Vista de Dados:** a **Vista de Dados** normalmente apresenta os dados de nível de detalhe nas tabelas. Tendo em conta a natureza das origens OLAP, como o SAP BW, esta vista não está disponível através do SAP BW.
 * **Os detalhes das colunas e medidas são fixos:** a lista de colunas e medidas vistas na lista de campos é fixa pela origem subjacente e não pode ser modificada. Por exemplo, não é possível eliminar uma coluna, nem alterar o respetivo tipo de dados (no entanto, o nome pode ser mudado).
 * **Limitações adicionais no DAX:** existem limitações adicionais no DAX que podem ser utilizadas nas definições de medida, para refletir as limitações na origem. Por exemplo, não é possível utilizar uma função de agregação através de uma tabela.
@@ -44,7 +44,7 @@ As principais restrições adicionais em visualizações ao ligar ao SAP BW com 
 
 * **Nenhuma agregação de colunas:** não é possível alterar a agregação de uma coluna num elemento visual e é sempre *Não Resumir*
 * **A filtragem de medidas está desativada:** a filtragem de medidas está desativada para refletir o suporte oferecido pelo SAP BW.
-* **Seleção múltipla e incluir/excluir:** a capacidade de selecionar vários pontos de dados num elemento visual estará desativada, se os pontos representarem valores de mais do que uma coluna. Por exemplo, num gráfico de barras que mostra as Vendas por País, com Categoria na Legenda, não seria possível selecionar o ponto para (EUA, Bicicletas) e (França, Roupas). Da mesma forma, não seria possível selecionar o ponto para (EUA, Bicicletas) e exclui-lo do elemento visual. Ambas as limitações são impostas para refletir o suporte oferecido pelo SAP BW.
+* **Seleção múltipla e incluir/excluir:** a capacidade de selecionar vários pontos de dados num elemento visual estará desativada se os pontos representarem valores de mais do que uma coluna. Por exemplo, num gráfico de barras que mostra as Vendas por País, com Categoria na Legenda, não seria possível selecionar o ponto para (EUA, Bicicletas) e (França, Roupas). Da mesma forma, não seria possível selecionar o ponto para (EUA, Bicicletas) e exclui-lo do elemento visual. Ambas as limitações são impostas para refletir o suporte oferecido pelo SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Suporte para funcionalidades do SAP BW
 A tabela seguinte apresenta uma lista de todas as funcionalidades do SAP BW que não são totalmente suportadas ou que irão comportar-se de forma diferente ao utilizar o Power BI.   
@@ -72,7 +72,7 @@ A tabela seguinte apresenta uma lista de todas as funcionalidades do SAP BW que 
 | Definição do idioma do utilizador final |A região utilizada para ligar ao SAP BW está definida como parte dos detalhes da ligação e não reflete a região do consumidor do relatório final. |
 | Variáveis de Texto |O SAP BW permite que os nomes de campos contenham marcadores de posição para variáveis (por exemplo, "$YEAR$ Actuals") que seriam então substituídos pelo valor selecionado. Por exemplo, o campo é apresentado como "2016 Actuals" nas ferramentas BEx, se o ano 2016 estiver selecionado para a variável. <br/> <br/> O nome da coluna no Power BI não será alterado consoante o valor de variável e, por conseguinte, aparece como "$YEAR$ Actuals".  No entanto, o nome da coluna pode ser alterado no Power BI. |
 | Variáveis de Saída do Cliente | As Variáveis de Saída do Cliente não são expostas pela API pública e, por conseguinte, não são suportadas pelo Power BI. |
-| Estruturas de Características | As Estruturas de Características na origem do SAP BW subjacente irão resultar numa “explosão” das medidas que são expostas no Power BI. Por exemplo, com as duas medidas Vendas e Custos e uma estrutura de características com Orçamento e Real, serão expostas quatro medidas: Vendas.Orçamento, Vendas.Real, Custos.Orçamento, Custos.Real. |
+| Estruturas de Características | As Estruturas de Características na origem do SAP BW subjacente irão resultar numa “explosão” das medidas que são expostas no Power BI. Por exemplo, com as duas medidas Vendas e Custos e uma estrutura de características com Orçamento e Real, vão ser expostas quatro medidas: Vendas.Orçamento, Vendas.Real, Custos.Orçamento, Custos.Real. |
 
 
 ## <a name="next-steps"></a>Próximos passos

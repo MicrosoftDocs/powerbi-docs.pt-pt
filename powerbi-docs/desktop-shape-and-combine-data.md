@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670906"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285675"
 ---
-# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: formatar e combinar dados no Power BI Desktop
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Formatar e combinar dados no Power BI Desktop
 
 Com o **Power BI Desktop**, pode ligar a muitos tipos diferentes de origens de dados e, em seguida, formatar os dados de acordo com as suas necessidades, o que lhe vai permitir criar relatórios visuais para partilhar com outros utilizadores. *Formatar* dados significa transforma os dados – como mudar o nome de colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como cabeçalhos, etc. *Combinar* dados significa ligar a duas ou mais origens de dados, formatá-las conforme necessário e consolidá-las numa consulta útil.
 
@@ -81,7 +81,7 @@ Para remover a coluna **Custo de vida**, basta selecionar a coluna e escolher o 
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Tenha em atenção que os valores _Nova Classificação_ não mudaram; isto acontece devido à ordenação dos passos. Como o Editor de Consultas regista os passos sequencialmente, embora independentemente uns dos outros, pode mover cada **Passo Aplicado** para cima ou para baixo na sequência. Basta clicar com o botão direito do rato em qualquer passo para que o Editor de Consultas mostre um menu que permite executar as seguintes operações: **Mudar o nome**, **Eliminar**, **Eliminar** **Até ao Fim** (remover o passo atual, bem como todos os passos subsequentes), **Mover para Cima** ou **Mover para Baixo**. Continue e avance para o último passo _Colunas Removidas_, imediatamente acima do passo _Personalizado Adicionado_.
+Tenha em atenção que os valores _Nova Classificação_ não mudaram; isto acontece devido à ordenação dos passos. Como o Editor de Consultas regista os passos sequencialmente, embora independentemente uns dos outros, pode mover cada **Passo Aplicado** para cima ou para baixo na sequência. Basta clicar com o botão direito do rato em qualquer passo para que o Editor de Consultas mostre um menu que permite executar as seguintes operações: **Mudar o Nome**, **Eliminar**, **Eliminar** **até ao Fim** (remove o passo atual, bem como todos os passos subsequentes), **Mover para Cima** ou **Mover para Baixo**. Continue e avance para o último passo _Colunas Removidas_, imediatamente acima do passo _Personalizado Adicionado_.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ A janela **Remover Linhas Principais** é apresentada, permitindo-lhe especifica
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Remova algumas colunas desnecessárias – precisamos apenas do mapeamento do estado para a sua abreviação oficial de duas letras, para que possamos remover as seguintes colunas: **Coluna1**, **Coluna3**, **Coluna4** e, em seguida, **Coluna6** até **Coluna11**. Primeiro, selecione **Coluna1**, mantenha premida a tecla **CTRL** e selecione as outras colunas que pretende remover (desta forma, pode selecionar várias colunas não contíguas). No separador Base do friso, selecione **Remover Colunas \> Remover Colunas**.
+* Remova algumas colunas desnecessárias – só precisamos do mapeamento do estado para a abreviatura oficial de duas letras, pelo que podemos remover as seguintes colunas: **Coluna1**, **Coluna3**, **Coluna4** e, em seguida, **Coluna6** a **Coluna11**. Primeiro, selecione **Coluna1**, mantenha premida a tecla **CTRL** e selecione as outras colunas que pretende remover (desta forma, pode selecionar várias colunas não contíguas). No separador Base do friso, selecione **Remover Colunas \> Remover Colunas**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

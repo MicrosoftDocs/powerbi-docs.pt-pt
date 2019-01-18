@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829840"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290504"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugestões e truques para criar relatórios no Power BI Desktop e no serviço Power BI
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop, no serviço Power BI *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento Power Pivot ativado e o Power Query instalado e ativado.
@@ -30,7 +30,7 @@ Pode obter mais informações no [Centro de Recursos do Power Query](https://sup
 Veja também a [Referência da Fórmula](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ### <a name="data-types-in-query-editor"></a>Tipos de dados no Editor de Consultas
-Ao utilizar o Editor de Consultas no Power BI Desktop para carregar dados, fazemos a melhor estimativa sobre a deteção do tipo de dados.  Ao utilizar fórmulas, por vezes, as definições de tipo de dados nas colunas não são preservadas. Deve verificar se o tipo de dados das colunas está correto depois de fazer as seguintes operações:  carregar dados inicialmente no separador de consulta, Primeira Linha como Cabeçalho, Adicionar coluna, Agrupar por, Unir, Acrescentar e antes de premir para carregar dados pela primeira vez.
+Ao utilizar o Editor de Consultas no Power BI Desktop para carregar dados, fazemos a melhor estimativa sobre a deteção do tipo de dados.  Ao utilizar fórmulas, por vezes, as definições de tipo de dados nas colunas não são preservadas. Deve verificar se o tipo de dados das colunas está correto depois de fazer as seguintes operações:  Carregar dados inicialmente no separador de consulta, Primeira Linha como Cabeçalho, Adicionar coluna, Agrupar por, Unir, Acrescentar e antes de premir para carregar dados pela primeira vez.
 
 Um item importante a ser lembrado: o itálico na grelha de dados não significa que o tipo de dados esteja definido corretamente, apenas que os dados não são considerados Texto.
 
@@ -167,7 +167,7 @@ DAX é a linguagem de fórmula de cálculo no Power BI Desktop.  Está otimizado
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Serviço Power BI *e* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Leia o documento técnico: [Princípios de conceção de relatórios do Power BI](visuals/power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Leia o documento técnico: [Principles for designing Power BI reports](visuals/power-bi-visualization-best-practices.md) (Princípios de conceção de relatórios do Power BI)
 Este documento disponibiliza as melhores práticas para criar relatórios no Power BI. A começar pelo planeamento, aborda os princípios de design que pode aplicar aos seus relatórios e páginas e os elementos visuais individuais que constituem os relatórios. Muitas destas melhores práticas também se aplicam ao design de dashboards.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leia e/ou veja "Como conceber visualmente fantásticos relatórios (e dashboards) no Power BI"

@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101261"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292459"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
@@ -122,7 +122,7 @@ Agora os Relatórios do Power BI suportam o DirectQuery SSO SAP HANA.
 
 ### <a name="analytics"></a>Análise
 
-- [New DAX function: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues) [Nova função DAX: COMBINEVALUES()]
+- [Nova função DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [Measure drillthrough](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough) (Medir pormenorização)
 - [Conditional formatting by a different field](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField) (Formatação condicional por um campo diferente)
 - [Conditional formatting by values](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue) (Formatação condicional por valores)
@@ -168,7 +168,7 @@ Pretende que os leitores tenham acesso ao seu relatório, mas algumas páginas n
 Pode criar marcadores para contar uma história com os dados do seu relatório.
 
 - [Realce cruzado para marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): os marcadores mantêm e apresentam o estado de realce cruzado da página do relatório no momento da criação do marcador.
-- [Maior flexibilidade de marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): os marcadores refletem as propriedades definidas no seu relatório e só são aplicados aos elementos visuais que selecionar.
+- [Maior flexibilidade de marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): os marcadores refletem as propriedades definidas no relatório e só são aplicados aos elementos visuais que selecionar.
 
 #### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Seleção múltipla de pontos de dados em vários gráficos](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
@@ -266,13 +266,13 @@ Esta versão suporta o aumento. Utilize um balanceador de carga e defina a afini
 
 Os administradores podem definir as seguintes propriedades nas Propriedades Avançadas do SSMS para o farm do servidor:
 
-* EnableCustomVisuals: True/False
-* EnablePowerBIReportEmbeddedModels: True/False
-* EnablePowerBIReportExportData: True/False
-* MaxFileSizeMb: Agora, a predefinição é 1000
-* ModelCleanupCycleMinutes: Frequência com que verifica modelos para expulsar da memória
-* ModelExpirationMinutes: Quantidade de tempo até o modelo expirar e ser expulso, com base na última vez em que foi utilizado
-* ScheduleRefreshTimeoutMinutes: Quanto tempo a atualização de dados pode demorar para um modelo. Por predefinição, são duas horas.  Não existe um limite superior fixo.
+* EnableCustomVisuals: Verdadeiro/Falso
+* EnablePowerBIReportEmbeddedModels: Verdadeiro/Falso
+* EnablePowerBIReportExportData: Verdadeiro/Falso
+* MaxFileSizeMb: a predefinição é agora 1000
+* ModelCleanupCycleMinutes: frequência com que verifica modelos para expulsar da memória
+* ModelExpirationMinutes: quantidade de tempo até o modelo expirar e ser expulso, com base na última vez em que foi utilizado
+* ScheduleRefreshTimeoutMinutes: o intervalo de tempo que a atualização de dados pode demorar para um modelo. Por predefinição, são duas horas.  Não existe um limite superior fixo.
 
 **Ficheiro de configuração rsreportserver.config**
 

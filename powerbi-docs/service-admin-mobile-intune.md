@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 428ea77de2151f4ec3417f62819b3d6481c17ae2
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909692"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296231"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicações móveis do Power BI com o Microsoft Intune
 
@@ -30,7 +30,7 @@ O Microsoft Intune pode coexistir com a Gestão de Dispositivos Móveis (MDM) no
 > [!NOTE]
 > Depois de configurar o Intune, a atualização de dados em segundo plano é desativada para a aplicação móvel do Power BI no dispositivo iOS ou Android. O Power BI atualiza os dados do serviço Power BI na Web quando entra na aplicação.
 
-## <a name="step-1-get-the-url-for-the-application"></a>Passo 1: obter o URL da aplicação
+## <a name="step-1-get-the-url-for-the-application"></a>Passo 1: Obter o URL da aplicação
 
 Antes de criar a aplicação no Intune, tem de obter os URLs das aplicações. Para iOS, serão obtidos pelo iTunes. Para Android, pode obtê-los na página de aplicações móveis do Power BI.
 
@@ -56,7 +56,7 @@ Deve ser semelhante ao seguinte: *https://itunes.apple.com/us/app/microsoft-powe
 
 Pode obter o URL para o Google Play na [página de aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile/). Selecione **Transferir do Google Play** para avançar para a página da aplicação. Pode copiar o URL da barra de endereços do browser. Deve ser semelhante ao seguinte: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>Passo 2: criar uma política de gestão de aplicações móveis
+## <a name="step-2-create-a-mobile-application-management-policy"></a>Passo 2: Criar uma política de gestão de aplicações móveis
 
 A política de gestão de aplicações móveis permite-lhe impor itens, como um PIN de acesso. Pode criar um no portal do Intune.
 
@@ -72,7 +72,7 @@ Pode criar a aplicação ou a política primeiro. Não importa a ordem com que s
 
 1. Edite a política para configurar as restrições que quer na aplicação.
 
-## <a name="step-3-create-the-application"></a>Passo 3: criar a aplicação
+## <a name="step-3-create-the-application"></a>Passo 3: Criar a aplicação
 
 A aplicação é uma referência, ou pacote, guardada no Intune para implementação. Temos de criar uma aplicação e fazer referência ao URL da aplicação que obtivemos do Google Play ou do iTunes.
 
@@ -116,7 +116,7 @@ Pode criar a aplicação ou a política primeiro. Não importa a ordem com que s
 
     ![Separador Aplicações](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
-## <a name="step-4-deploy-the-application"></a>Passo 4: implementar a aplicação
+## <a name="step-4-deploy-the-application"></a>Passo 4: Implementar a aplicação
 
 Depois de ter adicionado a aplicação, tem de implementá-la para que fique disponível para os utilizadores finais. Este é o passo em que associará a política criada com a aplicação.
 
@@ -159,7 +159,7 @@ Depois de implementar a aplicação, deverá ser mostrado **Sim** para implement
 
 Depois de implementar a aplicação, deverá ser mostrado **Sim** para implementado, na página de aplicações.
 
-## <a name="step-5-install-the-application-on-a-device"></a>Passo 5: instalar a aplicação num dispositivo
+## <a name="step-5-install-the-application-on-a-device"></a>Passo 5: Instalar a aplicação num dispositivo
 
 Instale a aplicação através da aplicação *Portal da Empresa*. Se ainda não instalou o Portal da Empresa, pode obtê-lo na loja de aplicações nas plataformas iOS ou Android. Iniciará sessão no Portal da Empresa com o início de sessão empresarial.
 

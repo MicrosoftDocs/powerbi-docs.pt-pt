@@ -5,16 +5,16 @@ author: jtarquino
 manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101537"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292067"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -40,7 +40,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
             - Os elementos visuais personalizados serão revertidos para uma versão anterior compatível com a versão atual da API do servidor (caso compatível)
 
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
-    - *Versão: 2.61.5192.641 (agosto de 2018). Lançamento: 15 de agosto de 2018*
+    - *Versão: 2.61.5192.641 (agosto de 2018), Lançamento: 15 de agosto de 2018*
         - Contém as alterações necessárias para a ligação com o Power BI Report Server (agosto de 2018)         
         
 ## <a name="march-2018"></a>Março de 2018
@@ -88,7 +88,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 ## <a name="october-2017"></a>Outubro de 2017
 
 - **Power BI Report Server**
-    - *Versão 1.1.6582.41691 (Compilação 14.0.600.442), Lançamento: 10 de janeiro de 2018*
+    - *Versão 1.1.6582.41691 (Compilação 14.0.600.442), Lançamento: 10 de Janeiro de 2018*
         - Atualizações de Segurança
         - Correções de Erros
             - Correção do erro devido ao qual Model.GetParameters devolvia 400
@@ -127,23 +127,23 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
     - *Versão: 2.51.4885.3981 (outubro de 2017), Lançamento: 10 de abril de 2018*
         - Atualizações de Segurança
 
-    - *Versão: 2.51.4885.2501 (outubro de 2017), Lançamento: 10 de janeiro de 2018*
+    - *Versão: 2.51.4885.2501 (outubro de 2017), Lançamento: 10 de Janeiro de 2018*
         - Atualizações de Segurança
 
-    - *Versão: 2.51.4885.1423 (Outubro de 2017), Lançamento: 17 de novembro de 2017*
+    - *Versão: 2.51.4885.1423 (outubro de 2017), Lançamento: 17 de novembro de 2017*
         - Correções de Erros
             - Correção para a falha de execução do Power BI Desktop de 32 bits em SO x86
             - Para Relatórios do Power BI (PBIX), correção para mostrar as linhas de grelha do eixo x
             - Outras pequenas correções de erros
 
-    - *Versão: 2.51.4885.1041 (Outubro de 2017), Lançamento: 31 de outubro de 2017*
+    - *Versão: 2.51.4885.1041 (outubro de 2017), Lançamento: 31 de outubro de 2017*
         - Funcionalidades
             - Contém as alterações necessárias para a ligação com o Power BI Report Server (Outubro de 2017)
 
 ## <a name="june-2017"></a>Junho de 2017
 
 - **Power BI Report Server**
-    - *Compilação 14.0.600.309, Lançamento: 10 de janeiro de 2018*
+    - *Compilação 14.0.600.309, Lançamento: 10 de Janeiro de 2018*
         - Atualizações de Segurança
 
     - *Compilação 14.0.600.305, Lançamento: 19 de setembro de 2017*  
@@ -161,7 +161,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
         - Versão inicial do Power BI Report Server
 
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
-    - *Versão: 2.47.4766.4901 (junho de 2017), Lançamento: 10 de janeiro 2018*
+    - *Versão: 2.47.4766.4901 (Junho de 2017), Lançamento: 10 de Janeiro de 2018*
         - Atualizações de Segurança
 
 ## <a name="next-steps"></a>Próximos passos

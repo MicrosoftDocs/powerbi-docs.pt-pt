@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619730"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290734"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregações no Power BI Desktop (Pré-visualização)
 
@@ -61,8 +61,8 @@ Vamos supor que as seguintes tabelas de dimensão são as tabelas normalmente ut
 
 * Geografia
 * Cliente
-* Date
-* Product Subcategory (Subcategoria de Produto)
+* Data
+* Product Subcategory
 * Product Category (Categoria de Produto)
 
 A imagem seguinte ilustra este modelo.
@@ -122,12 +122,12 @@ A tabela seguinte mostra as agregações da tabela **Sales Agg** (Agregação de
 #### <a name="summarization-function"></a>Função Resumo
 
 A lista pendente Resumo apresenta os seguintes valores para seleção.
-* Count
+* Contagem
 * GroupBy
 * Máx
 * Mín
 * Soma
-* Contagem de linhas da tabela
+* Linhas da tabela de contagem
 
 #### <a name="validations"></a>Validações
 
@@ -261,7 +261,7 @@ A tabela seguinte mostra as entradas definidas na caixa de diálogo **Gerir agre
 
 ![Tabela de agregações Sales Agg (Agregação de Vendas)](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Nota: este modelo exige que a tabela **Date** (Data) esteja no modo DirectQuery para preencher a caixa de diálogo Gerir agregações porque se trata de uma tabela de detalhes. Esta é uma limitação de Pré-visualização que pretendemos remover na Disponibilidade Geral.
+> Nota: este modelo exige que a tabela **Data** esteja no modo DirectQuery para preencher a caixa de diálogo Gerir agregações porque se trata de uma tabela de detalhes. Esta é uma limitação de Pré-visualização que pretendemos remover na Disponibilidade Geral.
 
 ### <a name="query-examples"></a>Exemplos de consulta
 

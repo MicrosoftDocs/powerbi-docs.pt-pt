@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145416"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284524"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que poderá ter ao usar o Power BI Gateway - Personal.
@@ -45,37 +45,37 @@ Muitos problemas podem surgir quando a versão de gateway está desatualizada.  
  **Configuração do proxy** Pode encontrar problemas na configuração do gateway pessoal se o seu ambiente tiver de utilizar um proxy. Para obter mais informações sobre como configurar as informações de proxy, veja [Configurar definições de proxy para os Gateways do Power BI](service-gateway-proxy.md)
 
 ## <a name="schedule-refresh"></a>Agendar atualização
-**Erro: as credenciais armazenadas na cloud estão ausentes.**
+**Erro: As credenciais armazenadas na cloud estão ausentes.**
 
 Pode receber este erro nas Definições para \<conjunto de dados\> se tiver uma atualização agendada e tiver desinstalado e reinstalado o gateway pessoal. Ao desinstalar um gateway pessoal, as credenciais de origem de dados de um conjunto de dados que foram configuradas para atualização serão removidas do serviço Power BI.
 
-**Solução:** no Power BI, vá para as configurações de atualização de um conjunto de dados. Em Gerir Origens de Dados, para qualquer origem de dados com um erro, clique em Editar credenciais e entre novamente na origem de dados.
+**Solução:** No Power BI, aceda às configurações de atualização de um conjunto de dados. Em Gerir Origens de Dados, para qualquer origem de dados com um erro, clique em Editar credenciais e entre novamente na origem de dados.
 
-**Erro: as credenciais fornecidas para o conjunto de dados são inválidas. Atualize as credenciais através de uma atualização ou no diálogo Configurações de Origens de Dados para continuar.**
+**Erro: As credenciais fornecidas para o conjunto de dados são inválidas. Atualize as credenciais através de uma atualização ou no diálogo Configurações de Origens de Dados para continuar.**
 
-**Solução**: se receber uma mensagem de credenciais, isso pode significar:
+**Solução**: Se receber uma mensagem de credenciais, isso pode significar:
 
 * Verifique se os nomes de utilizador e as palavras-passe usadas para iniciar sessão nas origens de dados estão atualizados. No Power BI, vá a configurações de atualização do conjunto de dados. Em Gerir Origens de Dados, clique em Editar credenciais para atualizar as credenciais da origem de dados.
 * Os mashups entre uma origem de cloud e uma origem local, numa única consulta, não conseguirão ser atualizados no gateway pessoal se uma das origens estiver a utilizar o OAuth para autenticação. Um exemplo disso é um mashup entre o CRM Online e um SQL Server local. Isto irá falhar porque o CRM Online exige o OAuth.
   
   Este é um problema conhecido e está a ser analisado. Para resolver o problema, tenha uma consulta separada para a origem de cloud e a origem local e use uma consulta em série ou acréscimo para combiná-las.
 
-**Erro: origem de dados não suportada.**
+**Erro: Origem de dados não suportada.**
 
-**Solução:** se receber uma mensagem a informar que não há suporte para a origem de dados nas configurações de Agendar Atualização, isto pode significar que: 
+**Solução:** Se receber uma mensagem a informar que não existe suporte para a origem de dados nas definições Agendar Atualização, pode significar que: 
 
 * Atualmente, não há suporte para a atualização da origem de dados no Power BI. 
 * O livro do Excel não contém um modelo de dados, apenas os dados da folha do cálculo. O Power BI atualmente apenas suporta à atualização se o livro do Excel carregado contiver um modelo de dados. Quando importa dados utilizando o Power Query no Excel, lembre-se de escolher a opção Carregar dados para o modelo de dados. Isto garante que os dados sejam importados num modelo de dados. 
 
-**Erro: [não é possível combinar dados] &lt;parte da consulta&gt;/&lt;…&gt;/&lt;…&gt; está a aceder a origens de dados com níveis e privacidade que não podem ser utilizados em conjunto. Reconstruia esta combinação de dados.**
+**Erro: [não é possível combinar dados] &lt;parte da consulta&gt;/&lt;…&gt;/&lt;…&gt; está a aceder a origens de dados com níveis e privacidade que não podem ser utilizados em conjunto. Recompile esta combinação de dados.**
 
-**Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de origens de dados que estão a ser utilizados.
+**Solução**: Este erro ocorre devido a restrições ao nível de privacidade e aos tipos de origens de dados que estão a ser utilizados.
 
-**Erro: erro na origem de dados: não é possível converter o valor "\[Table\]" para o tipo Tabela.**
+**Erro: Erro de origem de dados: Não conseguimos converter o valor “\[Table\]” para o tipo Tabela.**
 
-**Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de origens de dados que estão a ser utilizados.
+**Solução**: Este erro ocorre devido a restrições ao nível de privacidade e aos tipos de origens de dados que estão a ser utilizados.
 
-**Erro: não existe espaço suficiente para esta linha.**
+**Erro: Não existe espaço suficiente para esta linha.**
 
 Esta situação ocorrerá se tiver uma única linha com um tamanho superior a 4 MB. Terá de determinar qual linha pertence à sua origem de dados e tentar filtrá-la ou reduzir o tamanho dessa linha.
 
@@ -91,7 +91,7 @@ Esta situação ocorrerá se tiver uma única linha com um tamanho superior a 4 
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
-**Erro: erro de ligação ao selecionar a autenticação do Windows para uma origem de dados utilizando o ACE OLEDB** - se receber o erro seguinte ao introduzir as credenciais da origem de dados para uma origem de dados utilizando o fornecedor ACE OLEDB:
+**Erro: Erro de início de sessão ao selecionar a autenticação do Windows para uma origem de dados com ACE OLEDB**. Se receber o erro seguinte ao introduzir as credenciais de uma origem de dados com o fornecedor ACE OLEDB:
 
 ![](media/service-admin-troubleshooting-power-bi-personal-gateway/aceoledberror.png)
 

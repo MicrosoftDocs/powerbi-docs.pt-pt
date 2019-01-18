@@ -1,23 +1,23 @@
 ---
-title: 'Tutorial: combinar dados do Excel e de um feed OData no Power BI Desktop'
-description: 'Tutorial: combinar dados do Excel e de um feed OData'
+title: 'Tutorial: Combinar dados do Excel e de um feed OData no Power BI Desktop'
+description: 'Tutorial: Combinar dados do Excel e de um feed OData'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280116"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285766"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: combinar dados de vendas do Excel e de um feed OData
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinar dados de vendas do Excel e de um feed OData
 
 É comum ter dados distribuídos em várias origens de dados, como informações de produtos numa base de dados e informações de vendas noutra. Com o **Power BI Desktop**, pode combinar dados de diferentes origens para criar análises e visualizações de dados interessantes e apelativas. 
 

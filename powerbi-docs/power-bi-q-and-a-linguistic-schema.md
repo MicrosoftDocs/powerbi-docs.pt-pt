@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452735"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289929"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas no Power BI Desktop 
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no Power BI lhe permitem fazer. Quando coloca uma questão nas Perguntas e Respostas do Power BI, estas fazem todos os possíveis para responder corretamente. 
@@ -86,7 +86,7 @@ Quando exporta primeiro o esquema linguístico a partir do Power BI Desktop, a m
 ![YAML que mostra Estado: Gerado](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Quando importar o ficheiro de esquema linguístico de volta para o Power BI Desktop, o que estiver marcado como **Estado: Gerado** será ignorado (e mais tarde regenerado), por isso, se quiser fazer uma alteração aos conteúdos gerados, certifique-se de que remove também a etiqueta **Estado: Gerado** correspondente. Da mesma forma, se quiser remover conteúdos gerados, terá de alterar a etiqueta **Estado: Gerado** para **Estado: Eliminado** para que não seja gerada novamente quando importar o ficheiro de esquema linguístico.
+Quando importar o ficheiro do esquema linguístico de volta para o Power BI Desktop, o que está marcado como **Estado: Gerado** é ignorado (e mais tarde regenerado), por isso, se quiser fazer uma alteração aos conteúdos gerados, confirme que remove também a etiqueta **Estado: Gerado** correspondente. Da mesma forma, se quiser remover conteúdos gerados, terá de alterar a etiqueta **Estado: Gerado** para **Estado: Eliminado** para que não seja gerada novamente quando importar o ficheiro de esquema linguístico.
 
 1. Abra o conjunto de dados na vista *Relações* do Power BI Desktop. 
 2. Selecione o separador **Modelação** e **Exportar esquema linguístico**.

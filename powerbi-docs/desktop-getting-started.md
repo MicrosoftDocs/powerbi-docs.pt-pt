@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670936"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291654"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução do Power BI Desktop**. Esta breve apresentação do Power BI Desktop apresentará como ele funciona, demonstrará o que pode fazer e acelerará a sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam os seus esforços de business intelligence. 
@@ -69,9 +69,9 @@ Pode **Obter Dados**, ver **Origens Recentes** ou **Abrir Outros** **Relatórios
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Existem três vistas no Power BI Desktop: a vista de **Relatório**, a vista de **Dados** e a vista de **Relações**. O Power BI Desktop também inclui o **Editor de Consultas**, que abre numa janela separada. No **Editor de Consultas**, pode criar consultas e transformar dados e, em seguida, carregar esse modelo de dados refinado para o Power BI Desktop e criar relatórios.
+Existem três vistas no Power BI Desktop: vista **Relatório**, vista **Dados** e vista **Relações**. O Power BI Desktop também inclui o **Editor de Consultas**, que abre numa janela separada. No **Editor de Consultas**, pode criar consultas e transformar dados e, em seguida, carregar esse modelo de dados refinado para o Power BI Desktop e criar relatórios.
 
-O ecrã seguinte mostra os três ícones de vistas no lado esquerdo do Power BI Desktop: **Relatório**, **Dados** e **Relações**, de cima para baixo. A vista atualmente apresentada é indicada pela barra amarela à esquerda. Neste caso, é apresentada a vista de **Relatório**. Pode alterar as vistas, selecionando qualquer um desses três ícones.
+O ecrã seguinte mostra os três ícones de vistas no lado esquerdo do Power BI Desktop: **Relatório**, **Dados** e **Relações**, de cima para baixo. A vista atualmente apresentada é indicada pela barra amarela à esquerda. Neste caso, é apresentada a vista de **Relatório**. Pode alterar as vistas, selecionando qualquer um desses três ícones.
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
