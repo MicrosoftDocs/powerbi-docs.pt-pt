@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619500"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279188"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de armazenamento no Power BI Desktop (pré-visualização)
 
@@ -37,9 +37,9 @@ A definição do modo de armazenamento oferece muitas vantagens. Pode definir o 
 
 A definição do modo de armazenamento no Power BI Desktop é uma das três funcionalidades relacionadas:
 
-* **Modelos compostos**: permite que um relatório tenha duas ou mais ligações de dados, incluindo ligações DirectQuery ou de Importação, em qualquer combinação. Para obter mais informações, veja [Modelos compostos no Power BI Desktop (pré-visualização)](desktop-composite-models.md).
+* **Modelos compostos**: permitem que um relatório tenha duas ou mais ligações de dados, incluindo ligações DirectQuery ou de Importação, em qualquer combinação. Para obter mais informações, veja [Modelos compostos no Power BI Desktop (pré-visualização)](desktop-composite-models.md).
 
-* **Relações muitos para muitos**: com *modelos compostos*, pode estabelecer *relações muitos para muitos* entre tabelas. As *Relações muitos para muitos* removem os requisitos de valores exclusivos nas tabelas. Esta operação também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter mais informações, veja [Relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md).
+* **Relações muitos para muitos**: com os *modelos compostos*, pode estabelecer *relações muitos para muitos* entre tabelas. As *Relações muitos para muitos* removem os requisitos de valores exclusivos nas tabelas. Esta operação também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter mais informações, veja [Relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md).
 
 * **Modo de armazenamento**: agora pode especificar que elementos visuais precisam de uma consulta às origens de dados de back-end. Os elementos visuais que não precisam de uma consulta são importados, mesmo que sejam baseados no DirectQuery. Esta funcionalidade ajuda a melhorar o desempenho e a reduzir a carga de back-end. Anteriormente, até os elementos visuais simples, como as segmentações, iniciavam consultas que eram enviadas para origens de back-end. O modo de armazenamento é descrito mais detalhadamente neste artigo.
 
@@ -59,7 +59,7 @@ Há três valores para o modo de armazenamento:
 
 * **DirectQuery**: com esta definição, as tabelas DirectQuery não são colocadas em cache. As consultas submetidas ao conjunto de dados do Power BI, por exemplo, as consultas DAX (Data Analysis Expressions), que devolvem dados de tabelas DirectQuery só podem ser preenchidas com a execução de consultas a pedido na origem dos dados. As consultas submetidas à origem de dados utilizam a linguagem de consulta dessa origem de dados, por exemplo, SQL.
 
-* **Dual**: as tabelas Dual podem atuar como sendo colocadas em cache ou não, consoante o contexto da consulta enviada para o conjunto de dados do Power BI. Em alguns casos, preenche consultas com dados em cache. Noutros casos, preenche consultas ao executar uma consulta a pedido na origem de dados.
+* **Dual**: as tabelas Dual podem atuar como sendo colocadas em cache ou não, consoante o contexto da consulta submetida ao conjunto de dados do Power BI. Em alguns casos, preenche consultas com dados em cache. Noutros casos, preenche consultas ao executar uma consulta a pedido na origem de dados.
 
 Alterar uma tabela para **Importação** é uma operação *irreversível*. Não a pode alterar novamente para o DirectQuery ou para Dual.
 
@@ -85,7 +85,7 @@ A lógica de propagação passa apenas para um lado das relações **1 para-muit
 ## <a name="storage-mode-usage-example"></a>Exemplo de utilização do modo de armazenamento
 Vamos continuar com o exemplo da secção anterior e imaginar que aplicamos as seguintes definições de propriedade do modo de armazenamento:
 
-| Tabela                   | Modo de armazenamento         |
+| Table                   | Modo de armazenamento         |
 | ----------------------- |----------------------| 
 | *Vendas*                 | DirectQuery          | 
 | *SurveyResponse*        | Importar               | 

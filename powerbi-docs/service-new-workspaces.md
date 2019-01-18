@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984638"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279019"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho (pré-visualização) – Power BI
 
@@ -43,7 +43,7 @@ Durante o período de pré-visualização, as antigas e novas áreas de trabalho
 
 ## <a name="roles-in-the-new-workspaces"></a>Funções nas novas áreas de trabalho
 
-Pode adicionar grupos de utilizadores ou utilizadores individuais às novas áreas de trabalho como membros, contribuidores ou administradores. Todas as pessoas num grupo de utilizadores obtêm a função que definiu. Se um utilizador estiver em vários grupos de utilizadores, este recebe o nível de permissão mais elevado concedido pela função.  Veja [Funções nas novas áreas de trabalho](#roles-in-the-new-workspaces) mais adiante neste artigo para obter uma explicação sobre as diferentes funções.
+Pode adicionar grupos de utilizadores ou utilizadores individuais às novas áreas de trabalho como membros, contribuidores ou administradores. Todas as pessoas num grupo de utilizadores obtêm a função que definiu. Se um utilizador estiver em vários grupos de utilizadores, este recebe o nível de permissão mais elevado concedido pela função.
 
 Todas as pessoas que adicionar à área de trabalho precisam de ter uma licença do Power BI Pro. Na área de trabalho, estes utilizadores podem colaborar nos dashboards e relatórios que planear publicar para um vasto público ou mesmo para toda a organização. Se quiser distribuir conteúdos para outras pessoas na sua organização, pode atribuir licenças do Power BI Pro a esses utilizadores ou colocar a área de trabalho numa capacidade do Power BI Premium.
 
@@ -83,9 +83,7 @@ Durante o período de pré-visualização, não pode converter automaticamente a
 
 Quando as novas áreas de trabalho ficarem disponíveis para o público (GA), pode optar ativamente por migrar as áreas de trabalho antigas automaticamente. No futuro, após a experiência ficar disponível para o público, terá de migrar as mesmas.
 
-## <a name="power-bi-apps-faq"></a>Perguntas frequentes sobre as aplicações do Power BI
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Como é que as novas áreas de trabalho diferem das áreas de trabalho atuais?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Como é que as novas áreas de trabalho diferem das áreas de trabalho atuais?
 
 Com as novas áreas de trabalho, estamos a reestruturar algumas funcionalidades. Eis as alterações que podem ser permanentes na pré-visualização. 
 
@@ -94,6 +92,13 @@ Com as novas áreas de trabalho, estamos a reestruturar algumas funcionalidades.
 - Pode criar um pacote de conteúdos organizacionais a partir de uma área de trabalho atual. Não pode criar um pacote a partir das novas áreas de trabalho.
 - Pode utilizar um pacote de conteúdos organizacionais a partir de uma área de trabalho atual. Não pode utilizar um pacote a partir das novas áreas de trabalho.
 - Durante o período de pré-visualização, algumas funcionalidades ainda não estão ativadas para as novas áreas de trabalho. Veja a próxima secção, [Funcionalidades previstas na nova área de trabalho](service-new-workspaces.md#planned-new-workspace-preview-features), para obter detalhes.
+
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+
+Limitações a ter em consideração:
+
+- As áreas de trabalho podem conter um máximo de 1000 conjuntos de dados ou 1000 relatórios por conjunto de dados. 
+- Uma pessoa com uma licença do Power BI Pro pode ser um membro de um máximo de 250 áreas de trabalho.
 
 ## <a name="planned-new-workspace-preview-features"></a>Funcionalidades de pré-visualização previstas na nova área de trabalho
 

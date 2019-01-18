@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983376"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285605"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI
 O Power BI fornece diversas maneiras de personalizar os painéis e relatórios. Este artigo detalha uma coleção de dicas que podem tornar suas visualizações do Power BI mais convincentes, interessantes e personalizadas para suas necessidades.
@@ -29,41 +29,38 @@ As dicas a seguir são fornecidas. Há outra dica excelente? Ótimo! Envie para 
 * Usar escalas de cores divergentes
 * Como anular no Power BI
 
-Para fazer alterações, deve editar um relatório: selecione o **Relatório** no painel **Meu espaço de trabalho**, selecione **Editar relatório** na área do menu superior, conforme mostrado na imagem a seguir. Este exemplo utiliza o **exemplo de Recursos Humanos**.
+Para fazer alterações, tem de editar um relatório. Abra o relatório e selecione **Editar Relatório** na área de menu superior, conforme mostrado na imagem seguinte.
 
-![tela do relatório com a opção Editar relatório realçada](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-Quando o painel **Visualizações** é mostrado no lado direito do ecrã **Relatório**, está pronto para começar a personalizar.
+Quando o painel **Visualizações** é mostrado no lado direito do ecrã **Relatório**, está pronto para começar a personalizar. Se o painel não aparecer, selecione a seta, no canto superior direito, para o abrir.
 
-![relatório com o painel Formatação realçado](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Alterar a cor de um único ponto de dados
-Às vezes deseja destacar um determinado ponto de dados. Talvez seja os números de vendas para o lançamento de um novo produto, ou pontuações de qualidade aumentadas depois de lançar um novo programa. Com o Power BI, na maioria dos tipos de elementos visuais, pode destacar um determinado ponto de dados ao alterar a sua cor.
+Às vezes deseja destacar um determinado ponto de dados. Talvez seja os números de vendas para o lançamento de um novo produto, ou pontuações de qualidade aumentadas depois de lançar um novo programa. Com o Power BI, pode destacar um determinado ponto de dados ao alterar a sua cor.
 
-A seguinte visualização apresenta as margens de vendas por colaborador, através de cores predefinidas. 
+A seguinte visualização classifica as unidades vendidas por segmento de produto. 
 
-![gráfico de área](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-É difícil ver a área da Teresa, por isso vamos utilizar uma cor para dar mais destaque. Eis os passos:
+Agora, imagine que quer destacar o segmento **Conveniência** para mostrar o bom desempenho deste segmento totalmente novo através de cores. Eis os passos:
 
-Aumenta a secção **Cores de Dados**. O seguinte aparece.
+Expanda a secção **Cores de Dados** e ative o controlo de deslize para **Mostrar tudo**. Isso mostra as cores para cada elemento de dados na visualização. Ao deslocar por cima dos os pontos de dados, a rolagem é ativada para que possa modificar qualquer ponto de dados.
 
-![Área de seleção Cores de Dados em Formatação](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+Defina **Conveniência** para cor de laranja. 
 
-Neste caso, vamos selecionar uma cor escura, mas forte, que não seja semelhante à cor utilizada para a Rita. Selecione a seta para baixo dentro da caixa de cor da Teresa, selecione **Cor Personalizada** e selecione um azul-vivo.
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![seleções de cor](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Uma vez selecionado, o ponto de dados **Conveniência** fica com uma tonalidade cor de laranja e vai certamente destacar-se.
 
-Depois de selecionar, a área da Teresa é mais fácil de distinguir dos outros colaboradores. 
+Mesmo que altere os tipos de visualização e depois os reponha, o Power BI lembrar-se-á da sua seleção e manterá **Conveniência** cor de laranja.
 
-![gráfico de área, a área da Teresa está a azul-vivo](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+Pode alterar a cor de um ponto de dados para um, vários ou todos os elementos de dados na visualização. Talvez queira que o seu elemento visual imite as suas cores empresariais. 
 
-Mesmo que altera os tipos de visualização, e em seguida, retornar, o Power BI lembra a sua seleção e mantém **Washington** verde.
-
-Também pode alterar a cor de um ponto de dados para mais de um elemento de dados. A imagem a seguir, **Arizona** está vermelha, e **Washington** ainda verde.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 Há inúmeras coisas que pode fazer com o Power BI Desktop. Na próxima secção, vamos dar uma olhada em gradientes.
 
@@ -73,16 +70,27 @@ Os gráficos muitas vezes se beneficiam de configurar a cor com base no valor nu
 As seções a seguir demonstram maneiras diferentes de cor de base num valor numérico.
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>Base da cor de pontos de dados num valor
-Para alterar a cor com base num valor, arraste o campo que deseja basear a cor para a área **Saturação de Cor** no painel **Campo**. A imagem a seguir, **Lucro antes do imposto** foi arrastada para **Saturação de Cor**. Como podemos ver que, embora **Velo** tenha mais **Vendas Brutas** (uma coluna for maior), **Amarilla** tem uma maior **Lucro antes do imposto** (sua coluna tem mais de saturação de cor).
+Para alterar a cor com base num valor, arraste o campo no qual pretende basear a cor para a área **Saturação de Cor** no painel **Campo**. Na imagem a seguir, **%Quota de Mercado do Stock Até à Data** foi arrastada para **Saturação de Cor**. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+No painel de formatação, em **Cores de dados**, determine como o valor de **%Quota de Mercado do Stock Até à Data** vai alterar a cor e o sombreado no gráfico de colunas. Neste exemplo, uma %Quota de Mercado inferior será apresentada num azul mais claro e os valores mais altos serão apresentados num azul mais escuro.
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+Como podemos ver, embora tenhamos vendido mais unidades nos pontos de dados **Produtividade** e **Extremo** (as colunas são maiores), **Moderação** possui uma **%Quota de Mercado do Stock Até à Data** maior (a coluna tem mais saturação de cor).
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>Personalizar as cores usadas na escala de cores
-Pode personalizar as cores usadas na escala de cores. Expanda as **Cores de dados** e verá um gradiente de cores usado para visualizar seus dados. Por predefinição, o valor mais baixo nos seus dados é mapeado para a cor menos saturada e o valor mais alto para a cor mais saturada.
+Pode personalizar as cores usadas na escala de cores. Por predefinição, o valor mais baixo nos seus dados é mapeado para a cor menos saturada e o valor mais alto para a cor mais saturada. Na imagem acima, utilizámos um gradiente de azul. 
 
-O intervalo de cores é mostrado na barra de gradiente que mostra o espectro entre os valores de cor **mínimo** e **máximo**, com a cor de valoro **mínimo** à esquerda, e **máximo** valor de cor para a direita.
+Expanda as **Cores de dados** e verá um gradiente de cores usado para visualizar seus dados. O intervalo de cores é mostrado na barra de gradiente que mostra o espectro entre os valores de cor **mínimo** e **máximo**, com a cor de valoro **mínimo** à esquerda, e **máximo** valor de cor para a direita.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 Para alterar o dimensionamento para utilizar um intervalo diferente de cores, selecione a lista suspensa ao lado da cor **mínimo** ou **máximo**, e selecione uma cor. A imagem a seguir mostra a cor **Máxima** alterada para preto e a barra de gradientes mostra o novo espectro de cores entre **Mínimo** e **Máximo**.
 

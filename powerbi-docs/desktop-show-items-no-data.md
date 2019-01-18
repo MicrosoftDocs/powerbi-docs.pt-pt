@@ -5,21 +5,21 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072894"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279993"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Mostrar itens sem dados no Power BI
 
-O Power BI permite-lhe visualizar todos os tipos de dados de várias origens. Ao criar um elemento visual, o Power BI só mostra os dados relevantes para permitir gerir adequadamente a forma como os dados são apresentados e visualizados. O Power BI determina que dados são relevantes com base na configuração do elemento visual e no modelo de dados subjacente. Este artigo descreve o comportamento do Power BI ao determinar os dados relevantes, com exemplos que ilustram a forma como as determinações são feitas.
+O Power BI permite-lhe visualizar todos os tipos de dados de várias origens. Ao criar um elemento visual, o Power BI apenas mostra os dados relevantes para permitir gerir adequadamente a forma como os dados são apresentados e visualizados. O Power BI determina que dados são relevantes com base na configuração do elemento visual e no modelo de dados subjacente. Este artigo descreve o comportamento do Power BI ao determinar os dados relevantes, com exemplos que ilustram a forma como as determinações são feitas.
 
 ![Como ativar a funcionalidade Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -65,7 +65,7 @@ Como tal, o Power BI apresenta as combinações que têm entradas na tabela Prod
 
 **4. Grupos de tabelas diferentes e não relacionadas**
 
-O modelo de exemplo não tem esta combinação. Contudo, se existissem grupos de tabelas diferentes e não relacionadas, o Power BI não conseguiria relacionar as duas colunas e o resultado seria uma união de todos os valores de cada coluna. Nesse caso, o Power BI emite um erro do tipo *associação não limitada*, uma vez que o cálculo dessas uniões na base de dados é moroso e aquelas não disponibilizam muitas informações aos utilizadores. 
+O modelo de exemplo não tem esta combinação. Contudo, se existissem grupos de tabelas diferentes e não relacionadas, o Power BI não conseguiria relacionar as duas colunas. O resultado seria uma união de todos os valores de cada coluna. Nesse caso, o Power BI emite um erro do tipo *associação não limitada*, uma vez que o cálculo dessas uniões na base de dados é moroso e aquelas não disponibilizam muitas informações aos utilizadores. 
 
 ![Erro mostrado para uma associação não limitada](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ A secção anterior descreveu a forma como o Power BI determina que dados são r
 
 A funcionalidade **Mostrar itens sem dados** permite-lhe fazer precisamente o que o nome diz - incluir linhas e colunas de dados que não contêm dados de medidas (valores de medidas em branco).
 
-Para ativar a funcionalidade **Mostrar itens sem dados**, selecione um elemento visual e, em **Campos**, clique com o botão direito do rato no campo e selecione **Mostrar itens sem dados**, no menu que aparece, conforme mostrado na imagem seguinte.
+Para ativar a funcionalidade **Mostrar itens sem dados**, selecione um elemento visual e, em **Campos**, clique com o botão direito do rato no campo e selecione **Mostrar itens sem dados**, no menu que aparece, conforme mostrado na imagem seguinte:
 
 ![Como ativar a funcionalidade Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -193,6 +193,6 @@ Esta secção mostra o modelo de dados de exemplo utilizado nos exemplos deste a
 
 ## <a name="next-steps"></a>Próximos passos
 
-Este artigo descreveu como ativar a funcionalidade **Mostrar itens sem dados** no Power BI. Poderá também estar interessado nos seguintes artigos. 
+Este artigo descreveu como ativar a funcionalidade **Mostrar itens sem dados** no Power BI. Poderá também estar interessado nos seguintes artigos: 
 
-* [Origens de dados no Power BI Desktop](desktop-data-sources.md)
+* [Membro predefinido em modelos multidimensionais no Power BI](desktop-default-member-multidimensional-models.md)

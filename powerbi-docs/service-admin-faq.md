@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830315"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296829"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -70,10 +70,10 @@ Há três cenários que podem aplicar-se aos utilizadores na sua organização:
 * **Cenário 1**: a sua organização já tem um ambiente existente do Office 365 e o utilizador que está a inscrever-se no Power BI já tem uma conta do Office 365.
     Neste cenário, se um utilizador já tiver uma conta profissional ou escolar no inquilino (por exemplo, contoso.com), mas ainda não tiver o Power BI, a Microsoft simplesmente ativará o plano para essa conta e o utilizador será notificado automaticamente sobre como utilizar o serviço Power BI.
 
-* **Cenário 2**: a sua organização tem um ambiente existente do Office 365, mas o utilizador que está a inscrever-se no Power BI não tem uma conta do Office 365.
+* **Cenário 2**: a sua organização tem um ambiente existente do Office 365, mas o utilizador que está a inscrever-se no Power BI não tem uma conta do Office 365.
     Neste cenário, o utilizador tem um endereço de e-mail no domínio da organização (por exemplo, contoso.com), mas ainda não tem uma conta do Office 365. Neste caso, o utilizador pode inscrever-se no Power BI e é-lhe atribuída uma conta automaticamente. Isto permite ao utilizador aceder ao serviço Power BI. Por exemplo, se uma funcionária chamada Nancy utilizar o seu endereço de e-mail de trabalho (por exemplo, nancy@contoso.com) para se inscrever, a Microsoft vai adicioná-la automaticamente como utilizador no ambiente do Office 365 da Contoso e ativar o Power BI para essa conta.
 
-* **Cenário 3**: a sua organização não tem um ambiente do Office 365 ligado ao seu domínio de e-mail.
+* **Cenário 3**: a sua organização não tem um ambiente do Office 365 ligado ao domínio de e-mail.
     A sua organização não tem de efetuar ações administrativas para tirar partido do Power BI. Os utilizadores são adicionados a um novo diretório de utilizador apenas na cloud e tem a opção de assumir o controlo enquanto administrador de inquilinos e geri-los.
 
 > [!IMPORTANT]
@@ -158,11 +158,11 @@ Há três cenários que podem aplicar-se aos utilizadores na sua organização:
 
 * **Cenário 1**: se sua organização já tiver um ambiente existente do Office 365, e todos os utilizadores na organização tiverem contas do Office 365, a gestão de identidades não será alterada.
 
-* **Cenário 2**: se a sua organização já tiver um ambiente existente do Office 365, mas nem todos os utilizadores na organização tiverem contas do Office 365, vamos criar um utilizador no inquilino e atribuir licenças com base no endereço de e-mail escolar ou de trabalho do utilizador.
+* **Cenário 2**: se a sua organização já tiver um ambiente existente do Office 365, mas nem todos os utilizadores na organização tiverem contas do Office 365, iremos criar um utilizador no inquilino e atribuir licenças com base no endereço de e-mail escolar ou de trabalho do utilizador.
 
     Tal significa que o número de utilizadores que está a gerir a qualquer momento aumenta à medida que os utilizadores na sua organização se inscrevem no serviço.
 
-* **Cenário 3**: se a sua organização não tiver um ambiente do Office 365 ligado ao seu domínio de e-mail, não haverá nenhuma alteração na forma como gere a identidade.
+* **Cenário 3**: se a sua organização não tiver um ambiente do Office 365 ligado ao domínio de e-mail, não há nenhuma alteração na forma como gere a identidade.
 
     Os utilizadores são adicionados a um novo diretório de utilizador apenas na cloud e tem a opção de assumir o controlo enquanto administrador de inquilinos e geri-los.
 
@@ -186,7 +186,7 @@ Quando realiza uma obtenção de controlo externa, o conteúdo do Power BI que t
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Se tiver vários domínios, posso controlar os utilizadores que são adicionados ao inquilino do Office 365?
 
-Se não realizar nenhuma ação, será criado um inquilino para cada domínio e subdomínio de e-mail do utilizador. Se pretender que todos os utilizadores estejam no mesmo inquilino, independentemente das suas extensões de endereço de e-mail: crie um inquilino de destino antecipadamente ou utilize um inquilino existente e adicione todos os domínios e subdomínios existentes que quer que sejam consolidados nesse inquilino. Em seguida, todos os utilizadores com endereços de e-mail que terminem nesses domínios e subdomínios são automaticamente associados ao inquilino de destino quando se inscreverem.
+Se não realizar nenhuma ação, será criado um inquilino para cada domínio e subdomínio de e-mail do utilizador. Se pretender que todos os utilizadores estejam no mesmo inquilino, independentemente das respetivas extensões de endereço de e-mail: Crie um inquilino de destino antecipadamente ou utilize um inquilino existente e adicione todos os domínios existentes e os subdomínios que quer que sejam consolidados nesse inquilino. Em seguida, todos os utilizadores com endereços de e-mail que terminem nesses domínios e subdomínios são automaticamente associados ao inquilino de destino quando se inscreverem.
 
 > [!IMPORTANT]
 > Não existe nenhum mecanismo automatizado suportado para mover os utilizadores entre inquilinos depois de terem sido criados. Para saber mais sobre como adicionar domínios a um único inquilino do Office 365, veja [Adicionar os utilizadores e o domínio ao Office 365](/office365/admin/setup/add-domain/).

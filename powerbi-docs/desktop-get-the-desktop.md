@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909600"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281925"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O **Power BI Desktop** permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No **Power BI Desktop**, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI.  O **Power BI Desktop** é transferido gratuitamente.
@@ -94,10 +94,10 @@ A lista seguinte apresenta os requisitos mínimos para executar o **Power BI Des
 * Windows 7/Windows Server 2008 R2 ou posterior
 * .NET 4.5
 * Internet Explorer 9 ou posterior
-* **Memória (RAM):** pelo menos 1 GB disponível, 1,5 GB ou mais, recomendado.
-* **Ecrã:** pelo menos 1440 x 900 ou 1600 x 900 (16:9) recomendado. As resoluções mais baixas, como 1024 x 768 ou 1280 x 800 não são recomendadas, pois determinados controlos (como fechar o ecrã de arranque) são apresentados além destas resoluções.
-* **Definições de visualização do Windows:** se as suas definições de visualização estiverem definidas para alterar o tamanho do texto, aplicações e outros itens para mais de 100%, poderá não conseguir ver determinadas caixas de diálogo que terão de ser fechadas ou respondidas para continuar, ao utilizar o **Power BI Desktop**. Caso encontre este problema, consulte as suas **Definições de visualização** acedendo a **Definições > Sistema > Visualização** no Windows e utilize o controlo de deslize para fazer as definições de visualização regressar a 100%.
-* **CPU:** processador de 1 gigahertz (GHz) ou mais rápido x86 - ou x64 bits recomendado.
+* **Memória (RAM):** pelo menos 1 GB disponível, 1,5 GB ou mais, recomendado.
+* **Ecrã:** pelo menos 1440 x 900 ou 1600 x 900 (16:9) recomendado. As resoluções mais baixas, como 1024 x 768 ou 1280 x 800 não são recomendadas, pois determinados controlos (como fechar o ecrã de arranque) são apresentados além destas resoluções.
+* **Definições de Visualização do Windows:** se as suas definições de visualização estiverem definidas para alterar o tamanho do texto, das aplicações e de outros itens para mais de 100%, poderá não conseguir ver determinadas caixas de diálogo que terão de ser fechadas ou respondidas para continuar a utilizar o **Power BI Desktop**. Caso encontre este problema, consulte as suas **Definições de visualização** acedendo a **Definições > Sistema > Visualização** no Windows e utilize o controlo de deslize para fazer as definições de visualização regressar a 100%.
+* **CPU:** processador de 1 gigahertz (GHz) ou mais rápido x86 – ou x64 bits recomendado.
 
 ## <a name="considerations-and-limitations"></a>Considerações e Limitações
 

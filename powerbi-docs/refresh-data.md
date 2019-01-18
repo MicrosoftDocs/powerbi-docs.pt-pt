@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417378"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277670"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificar-se de que obtém sempre os dados mais recentes, muitas vezes, é fundamental para tomar as decisões certas. Provavelmente já usou Obter Dados no Power BI para se ligar e carregar alguns dados, e já criou alguns relatórios e um dashboard. E agora quer certificar-se de que os seus dados são realmente os mais recentes e os melhores.
@@ -221,7 +221,7 @@ Para saber como configurar a atualização agendada, consulte [Configurar a atua
 ### <a name="excel-workbook-with-tables-of-data"></a>Livro do Excel com tabelas de dados
 Tem um livro do Excel com várias tabelas de dados, mas nenhuma delas é carregada no modelo de dados do Excel. Use Obter Dados para carregar o ficheiro de livro da sua unidade local para o Power BI e criar um dashboard. Mas agora efetuou algumas alterações nalgumas tabelas do livro na sua unidade local e pretende atualizar o dashboard no Power BI com os novos dados.
 
-Infelizmente, a atualização não é suportada neste cenário. Para atualizar o conjunto de dados para o seu dashboard, tem de carregar novamente o livro. No entanto, há uma excelente solução: colocar o ficheiro de livro no OneDrive ou SharePoint Online!
+Infelizmente, a atualização não é suportada neste cenário. Para atualizar o conjunto de dados para o seu dashboard, tem de carregar novamente o livro. No entanto, há uma excelente solução: coloque o seu ficheiro de livro no OneDrive ou no SharePoint Online!
 
 Quando se liga a um ficheiro no OneDrive ou SharePoint Online, os relatórios e dashboards apresentam os dados tal como estão no ficheiro. Neste caso, o seu livro do Excel. O Power BI verifica automaticamente se há atualizações do ficheiro em intervalos aproximados de sessenta minutos. Se fizer alterações no livro (armazenado no OneDrive ou SharePoint Online), essas alterações são refletidas no dashboard e nos relatórios dentro de uma hora. Não precisa de configurar qualquer atualização. No entanto, se precisar de ver as suas atualizações no Power BI imediatamente, pode atualizar manualmente o conjunto de dados através de Atualizar Agora.
 

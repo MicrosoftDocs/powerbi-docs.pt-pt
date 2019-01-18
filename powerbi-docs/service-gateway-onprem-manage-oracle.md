@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298349"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275922"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados – Oracle
 Depois de instalar o Gateway de dados no local, terá de adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados Oracle para a atualização agendada ou para o DirectQuery.
@@ -39,7 +39,7 @@ Para as versões de **64 bits** do Power BI Desktop ou para o Gateway de dados
 
 * [ODAC 12.2c Release 1 (12.2.0.1.0) de 64 bits para o Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-Após a instalação, terá de configurar o ficheiro tnsnames.ora com as informações adequadas para a base de dados. O Power BI Desktop e o gateway sairão do net_service_name definido no ficheiro tnsnames.ora. Se não estiver configurado, não conseguirá estabelecer ligação. O caminho predefinido para tnsnames.ora é o seguinte: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para obter mais informações sobre como configurar ficheiros tnsnames.ora, veja [Oracle: Parâmetros de Nomenclatura Locais (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
+Após a instalação, terá de configurar o ficheiro tnsnames.ora com as informações adequadas para a base de dados. O Power BI Desktop e o gateway sairão do net_service_name definido no ficheiro tnsnames.ora. Se não estiver configurado, não conseguirá estabelecer ligação. O caminho predefinido para tnsnames.ora é o seguinte: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para obter mais informações sobre como configurar ficheiros tnsnames.ora, veja [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm) (Parâmetros de Nomenclatura Locais (tnsnames.ora)).
 
 ### <a name="example-tnsnamesora-file-entry"></a>Entrada do ficheiro tnsnames.ora de exemplo
 O formato básico de uma entrada no ficheiro tnsname.ora é o seguinte.

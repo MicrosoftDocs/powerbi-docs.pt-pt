@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273339"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295753"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway de dados local (modo pessoal)
 Pode utilizar origens de dados no local e criar relatórios do Power BI e dashboards com um gateway. Um **gateway** é um software que facilita o acesso aos dados que estão armazenados numa rede privada no local, e permite-lhe utilizar dados nos serviços online, como o **serviço do Power BI**. O **Gateway de dados no local (modo pessoal)** é uma atualização lançada recentemente do Power BI Gateway que permite aos indivíduos instalarem um gateway no próprio computador e obter acesso a dados no local.
@@ -117,7 +117,7 @@ O suporte do Spark está planeado para o segundo semestre de 2017.
   * **Resposta**: Sim, com a nova versão, ambos podem ser executados em simultâneo.
 * Posso executar o **Gateway de dados no local (modo pessoal)** como um serviço?
   
-  * **Resposta:** Não. O **Gateway de dados no local (modo pessoal)** só pode ser executado como uma aplicação. Se precisar de executar o gateway como um serviço e/ou no modo de administrador, terá de considerar o [**Gateway de dados no local**](service-gateway-onprem.md) (anteriormente conhecido como o gateway Empresarial).
+  * **Resposta**: Não. O **Gateway de dados no local (modo pessoal)** só pode ser executado como uma aplicação. Se precisar de executar o gateway como um serviço e/ou no modo de administrador, terá de considerar o [**Gateway de dados no local**](service-gateway-onprem.md) (anteriormente conhecido como o gateway Empresarial).
 * Com que frequência é atualizado o **Gateway de dados no local (modo pessoal)**?
   
   * **Resposta**: Pretendemos atualizar o gateway pessoal mensalmente.
@@ -126,10 +126,10 @@ O suporte do Spark está planeado para o segundo semestre de 2017.
   * **Resposta**: Muitas situações podem desencadear um pedido de credenciais. A mais comum prende-se com o facto de ter instalado novamente o **Gateway de dados no local (modo pessoal)** num computador diferente do gateway do **Power BI - Personal**. Também pode ser um problema na origem de dados e o Power BI não ter conseguido realizar uma ligação de teste, ter alcançado o tempo limite ou ocorrido um erro de sistema. Pode atualizar as suas credenciais no **serviço do Power BI** ao aceder ao **ícone de ferramenta** e selecionar **Definições**, **Conjuntos de dados**, encontrar o conjunto de dados em questão e clicar em *atualizar credenciais*.
 * Quanto tempo os meus gateways pessoais anteriores estarão offline durante a atualização?
   
-  * **Resposta**: Atualizar o gateway pessoal para a nova versão deverá demorar apenas alguns minutos. 
+  * **Resposta**: Atualizar o gateway pessoal para a nova versão deve demorar apenas alguns minutos. 
 * O que acontece se não migrar para o novo gateway pessoal até 31 de julho de 2017?
   
-  * **Resposta**: Se estiver a atualizar os seus relatórios com o gateway atual, as suas atualizações irão parar. A única forma de configurar uma nova agenda de atualização será instalar e configurar o novo gateway.
+  * **Resposta**: Se estiver a atualizar os relatórios com o gateway atual, as atualizações serão interrompidas. A única forma de configurar uma nova agenda de atualização será instalar e configurar o novo gateway.
 * Estou a utilizar o script R. É suportado?
   
   * **Resposta**: Os scripts R são suportados no modo pessoal.
@@ -137,7 +137,7 @@ O suporte do Spark está planeado para o segundo semestre de 2017.
   
   * **Resposta**: Provavelmente porque tem um ou mais conjuntos de dados que incluem uma origem de dados que ainda não é atualmente suportada.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Configurar definições de proxy para os Gateways do Power BI](service-gateway-proxy.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

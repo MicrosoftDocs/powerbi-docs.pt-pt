@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: reference
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7387f633f0a53db840653a648ba9750b33c180f
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f153ea866404066ce2ada6ab509de2aa8259d6a5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578618"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293066"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados suportados no Power BI Desktop e no Data Analysis Expressions (DAX). 
@@ -35,7 +35,7 @@ No Power BI Desktop, pode determinar e especificar o tipo de dados de uma coluna
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-A lista pendente do Tipo de Dados no Editor de Consultas tem dois tipos de dados atualmente não presentes nos Dados ou na Vista de Relatório: **Data/Hora/Fuso horário** e **Duração**. Quando uma coluna com estes tipos de dados é carregada para o modelo e apresentada na vista de Dados ou de Relatório, uma coluna com um tipo de dado de Data/Hora/Fuso Horário é convertida num valor de Data/Hora, enquanto que uma coluna com um tipo de dados de Duração é convertida num Número Decimal.
+O menu Tipo de Dados no Editor de Consultas tem dois tipos de dados atualmente não presentes na Vista de Dados ou de Relatório: **Data/Hora/Fuso Horário** e **Duração**. Quando uma coluna com estes tipos de dados é carregada para o modelo e apresentada na vista de Dados ou de Relatório, uma coluna com um tipo de dado de Data/Hora/Fuso Horário é convertida num valor de Data/Hora, enquanto que uma coluna com um tipo de dados de Duração é convertida num Número Decimal.
 
 ### <a name="number-types"></a>Tipos de número
 O Power BI Desktop suporta três tipos de número:

@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717430"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294280"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
 Já leu [Dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há várias formas diferentes de criar um dashboard: a partir de um relatório, de raiz, de um conjunto de dados, ao duplicar um dashboard existente e muito mais.  
@@ -25,13 +25,13 @@ Pode parecer muito confuso quando começa a utilizá-lo, pelo que iremos começa
 ## <a name="who-can-create-a-dashboard"></a>Como posso criar um dashboard?
 A criação de dashboards é uma funcionalidade do **criador** e precisa de permissões de edição para o relatório. As permissões de edição estão disponíveis para os criadores de relatórios e para os colegas aos quais o criador concede acesso. Por exemplo, se o David cria um relatório na área de trabalho ABC e, em seguida, o adiciona como um membro dessa área de trabalho, você e David terão ambos permissões de edição. Por outro lado, se um relatório tiver sido partilhado consigo diretamente ou como parte de uma [aplicação do Power BI](service-create-distribute-apps.md) (está a **consumir** o relatório), não poderá afixar mosaicos a um dashboard.
 
-> **NOTA**: os dashboards são uma funcionalidade do serviço Power BI, não do Power BI Desktop. Os dashboards não podem ser criados no Power BI mobile, mas podem ser [visualizados e partilhados](consumer/mobile/mobile-apps-view-dashboard.md).
+> **NOTA**: os dashboards são uma funcionalidade do serviço Power BI, não do Power BI Desktop. Os dashboards não podem ser criados no Power BI mobile, mas podem ser [visualizados e partilhados](consumer/mobile/mobile-apps-view-dashboard.md).
 >
 > 
 
 ![dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
-## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Criar um dashboard ao afixar visuais e imagens de um relatório
+## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Criar um dashboard ao afixar elementos visuais e imagens de um relatório
 Veja a Amanda a criar um novo dashboard ao afixar visualizações de um relatório. Depois, siga os passos abaixo do vídeo para experimentar por si próprio, com o exemplo de Análise de Aprovisionamento.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452781"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290473"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Utilizar modelos compostos no Power BI Desktop
 
@@ -25,7 +25,7 @@ Anteriormente no Power BI Desktop quando utilizava um DirectQuery num relatóri
 
 A capacidade de modelos compostos no Power BI Desktop consiste em três funcionalidades relacionadas:
 
-* **Modelos compostos**: esta funcionalidade permite que um relatório tenha várias ligações de dados, incluindo ligações DirectQuery ou de Importação, em qualquer combinação. Este artigo descreve os modelos compostos de forma detalhada.
+* **Modelos compostos**: permitem que um relatório tenha várias ligações de dados, incluindo ligações DirectQuery ou de Importação, em qualquer combinação. Este artigo descreve os modelos compostos de forma detalhada.
 
 * **Relações muitos para muitos**: com os *modelos compostos*, pode estabelecer *relações muitos para muitos* entre tabelas. Esta abordagem remove os requisitos de valores exclusivos nas tabelas. Também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter mais informações, veja [Relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md).
 
@@ -158,9 +158,9 @@ A utilização de modelos compostos implica mais considerações de desempenho. 
 
 * **Uma consulta SQL que inclui um grande número de valores literais**: por exemplo, um elemento visual que pede o *Valor de Vendas* total de um conjunto de *Gestores de Produtos* selecionados, primeiro, tem de descobrir quais são os *Produtos* geridos por esses gestores de produtos. Esta sequência tem de ocorrer antes de o elemento visual enviar uma consulta SQL que inclui todos os IDs dos produtos numa cláusula *WHERE*.
 
-* **Uma consulta SQL que consulta a um nível de granularidade inferior, com os dados a serem agregados localmente**: como o número de *Produtos* que cumprem os critérios do filtro em *Gestores de Produtos* aumenta bastante, pode não ser eficiente ou exequível incluir todos os produtos numa cláusula *WHERE*. Em vez disso, pode consultar a origem relacional no nível mais baixo de *Produto* e, em seguida, agregar localmente os resultados. Se a cardinalidade de *Produtos* exceder o limite de um milhão, a consulta falhará.
+* **Uma consulta SQL que consulta a um nível granularidade inferior, com os dados a serem agregados localmente**: com o número de *Produtos* que cumprem os critérios do filtro em *Gestores de Produtos* a aumentar bastante, pode não ser eficiente ou exequível incluir todos os produtos numa cláusula *WHERE*. Em vez disso, pode consultar a origem relacional no nível mais baixo de *Produto* e, em seguida, agregar localmente os resultados. Se a cardinalidade de *Produtos* exceder o limite de um milhão, a consulta falhará.
 
-* **Várias consultas SQL, uma por grupo e por valor**: quando a agregação utiliza **Contagem Distinta** e é agrupada por uma coluna de outra origem, e se a origem externa não suportar a passagem eficiente de muitos valores literais que definem o agrupamento, será necessário enviar uma consulta SQL por grupo e por valor. 
+* **Várias consultas SQL, uma por grupo e por valor**: quando a agregação utiliza **DistinctCount** e é agrupada por uma coluna de outra origem, e se a origem externa não suportar a passagem eficiente de muitos valores literais que definem o agrupamento, será necessário enviar uma consulta SQL por grupo e por valor. 
 
    Por exemplo, um elemento visual que pede uma contagem distinta do *Número de Conta de Cliente* (da tabela do SQL Server) por *Gestor de Produtos* (importada de uma folha de cálculo) teria de passar os detalhes da tabela *Gestor de Produtos* na consulta enviada ao SQL Server. Noutras origens (Redshift, por exemplo), esta ação não é exequível. Em vez disso, haveria uma consulta SQL enviada por *Gestor de Vendas* &mdash; até um limite prático, altura em que a consulta falharia). 
 
