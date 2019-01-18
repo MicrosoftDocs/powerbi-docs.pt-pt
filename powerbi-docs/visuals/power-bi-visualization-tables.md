@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 2c909f1f7d2c1b500d37de0e4617e10c79977c96
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101468"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284777"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 Uma tabela é uma grelha que contém dados relacionados numa série lógica de linhas e colunas. Também pode conter cabeçalhos e uma linha para totais. As tabelas funcionam bem com comparações quantitativas, onde pode observar vários valores para uma única categoria. Por exemplo, esta tabela apresenta 5 medidas diferentes para **Categoria**.
@@ -135,7 +135,7 @@ Por vezes, o Power BI trunca o cabeçalho de uma coluna num relatório e num das
 ![grande plano do vídeo de redimensionamento da coluna](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-* Ao aplicar a formatação em colunas, só pode escolher uma opção de alinhamento por coluna: Automático, À Esquerda, Ao Centro, À Direita. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. No entanto, quando uma coluna tiver números e texto, a opção de alinhamento **Automático** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.   
+* Ao aplicar a formatação de colunas, apenas pode escolher uma opção de alinhamento por coluna: Auto, Left, Center, Right. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. No entanto, quando uma coluna tiver números e texto, a opção de alinhamento **Automático** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.   
 
 ## <a name="next-steps"></a>Próximos passos
 

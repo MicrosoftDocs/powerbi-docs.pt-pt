@@ -5,16 +5,16 @@ author: parthsha
 manager: kfile
 ms.reviewer: maghan
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679298"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296668"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Orientações de planeamento de capacidade do Power BI Report Server
 Power BI Report Server é uma solução personalizada de relatórios empresariais que os clientes podem implementar no seu local, por trás da firewall. Combina a capacidade de relatórios interativos do Power BI Desktop com a plataforma de servidor no local do SQL Server Reporting Services. Com uma utilização intensa e crescente de análises e relatórios nas empresas, a orçamentação das licenças de software e da infraestrutura de hardware necessárias para dimensionar uma base de utilizadores da empresa pode ser um desafio. Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. Enquanto os relatórios, as consultas e os padrões de utilização das organizações variam bastante, os resultados apresentados neste documento, juntamente com os testes reais utilizados e uma descrição detalhada de como foram executados, servem como um ponto de referência para todas as pessoas no processo de planeamento antecipado do Power BI Report Server.
@@ -60,7 +60,7 @@ Os testes utilizados nas execuções do teste de carga estão publicamente dispo
 Todos os testes foram escritos para efetuar uma operação de ponto a ponto (tais como a composição de um relatório, criação de uma nova origem de dados, etc.). Tal é efetuado através da execução de um ou mais pedidos web para o servidor de relatórios (através de APIs). No mundo real, um utilizador poderá ter de efetuar algumas operações intermédias para concluir uma destas operações de ponto a ponto. Por exemplo, para compor um relatório um utilizador terá de ir ao portal web, navegar para a pasta onde está o relatório e clicar no relatório para o compor. Enquanto os testes não efetuam todas as operações necessárias para realizar uma tarefa de ponto a ponto, ainda impõem a maioria da carga do Power BI Report Server. Pode obter mais informações sobre os diferentes tipos de relatórios utilizados, bem como as diversas operações executadas ao explorar o projeto do GitHub.
 
 ### <a name="workloads"></a>Cargas de trabalho
-Existem 2 perfis de carga de trabalho utilizados nos testes: Relatório Pesada do Power BI e Relatório Paginado Pesado. A tabela abaixo descreve a distribuição de pedidos executados em relação ao Report Server.
+Existem dois perfis de carga de trabalho utilizados nos testes: Heavy do Relatório do Power BI e Heavy do Relatório Paginado. A tabela abaixo descreve a distribuição de pedidos executados em relação ao Report Server.
 
 | Atividade | Relatório Pesado do Power BI, Frequência de ocorrência | Relatório Paginado Pesado, Frequência da ocorrência |
 | --- | --- | --- |

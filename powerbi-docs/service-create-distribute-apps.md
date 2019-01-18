@@ -4,17 +4,17 @@ description: Saiba como publicar aplicações, que são coleções de dashboards
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100824"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294101"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Publicar aplicações com dashboards e relatórios no Power BI
 
@@ -31,14 +31,14 @@ Os utilizadores empresariais obtêm as suas aplicações de algumas formas difer
 ## <a name="apps-and-organizational-content-packs"></a>Pacotes de conteúdos de aplicações e organizacionais
 As aplicações são a evolução dos pacotes de conteúdos organizacionais. Os pacotes de conteúdos não estão disponíveis na pré-visualização das novas experiências de áreas de trabalho. Após a nova experiência de área de trabalho estar disponível para o público, não poderá utilizar pacotes de conteúdos nas novas áreas de trabalho que criar. Se ainda não o fez, comece a migrar os seus pacotes de conteúdos para as aplicações.
 
-## <a name="video-apps-and-app-workspaces"></a>Vídeo: aplicações e áreas de trabalho de aplicações
+## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicações e áreas de trabalho de aplicações
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="licenses-for-apps"></a>Licenças para aplicações
 Todos os membros de uma área de trabalho de aplicações precisam de uma licença do Power BI Pro. Para os utilizadores da aplicação, existem duas opções.
 
-* Opção 1: todos os utilizadores empresariais precisam de licenças do **Power BI Pro** para ver a sua aplicação. 
-* Opção 2: se a aplicação residir numa capacidade do Power BI Premium, os utilizadores gratuitos na sua organização podem ver os conteúdos da mesma. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
+* Opção 1: todos os utilizadores empresariais precisam de licenças do **Power BI Pro** para ver a aplicação. 
+* Opção 2: se a aplicação residir numa capacidade do Power BI Premium, os utilizadores gratuitos na sua organização podem ver os conteúdos da mesma. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
 
 ## <a name="publish-your-app"></a>Publicar a aplicação
 Quando os dashboards e relatórios na sua área de trabalho estiverem prontos, pode escolher quais pretende publicar e publicá-los como uma aplicação. Pode enviar uma ligação direta para esse vasto público ou pode localizar a aplicação a partir do separador Aplicações, acedendo a **Transferir e explorar mais aplicações da AppSource**. 

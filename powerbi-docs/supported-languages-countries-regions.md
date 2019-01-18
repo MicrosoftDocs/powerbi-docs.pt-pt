@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e474081a5f094bc04f6fc93b985b8d81efee1a0b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 98c637692b3c31e598a11c3039b60be3dec61348
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728117"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281189"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -116,7 +116,7 @@ O Power BI detecta o idioma com base nas preferências de idioma no seu computad
    Talvez seja necessário fechar e reabrir o browser para ver a alteração.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Selecionar o idioma ou região do Power BI Desktop
-Há duas formas de obter o Power BI Desktop: Pode transferi-lo ou instalá-lo da Loja Windows.
+Existem duas formas de obter o Power BI Desktop: pode transferi-lo ou instalá-lo a partir da Windows Store.
 
 * Quando [instalar o Power BI Desktop da Loja Windows](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), este instala todos os idiomas e mostra o idioma que corresponde ao idioma predefinido do Windows.
 * Quando [transfere o Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop), escolhe o idioma. 

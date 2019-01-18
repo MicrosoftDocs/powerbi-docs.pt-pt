@@ -4,17 +4,17 @@ description: Use a Cortana com o Power BI para obter respostas a partir dos seus
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003254"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292606"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Localizar e ver rapidamente os dados do Power BI através do Cortana para Power BI
 Utilize o Cortana nos seus dispositivos Windows 10 para obter respostas instantâneas às suas perguntas empresariais importantes. Com a integração no Power BI, o Cortana pode obter informações-chave diretamente dos dashboards e relatórios do Power BI. Apenas precisa da versão de novembro de 2015 ou posterior do Windows 10, do Cortana, do Power BI e de acesso a, pelo menos, um conjunto de dados.
@@ -38,11 +38,11 @@ Temos quatro documentos que o ajudam a configurar e utilizar a Cortana para o Po
 
 **Artigo 1** (este artigo): Compreender como o Cortana e o Power BI funcionam em conjunto
 
-**Artigo 2**: [Procurar relatórios do Power BI: ativar a integração entre o Cortana, Power BI e Windows](service-cortana-enable.md)
+**Artigo 2**: [procurar relatórios do Power BI: ativar a integração entre o Cortana, Power BI e Windows](service-cortana-enable.md)
 
 **Artigo 3**: [Procurar relatórios do Power BI: criar *cartões de resposta do Cortana* especiais](service-cortana-answer-cards.md)
 
-**Artigo 4**: [Resolver problemas](service-cortana-troubleshoot.md)
+**Artigo 4**: [resolução de problemas](service-cortana-troubleshoot.md)
 
 ## <a name="how-do-cortana-and-power-bi-work-together"></a>Como o Cortana e o Power BI funcionam em conjunto?
 Quando utiliza o Cortana para fazer uma pergunta, o Power BI pode ser um dos locais onde o Cortana procura respostas. No Power BI, o Cortana pode encontrar respostas avançadas condicionadas por dados em relatórios do Power BI (que contêm um tipo especial de página de relatório denominado *cartão de resposta do Cortana*) e em dashboards do Power BI.
