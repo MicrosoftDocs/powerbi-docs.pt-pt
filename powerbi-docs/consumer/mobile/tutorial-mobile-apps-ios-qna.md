@@ -1,22 +1,22 @@
 ---
 title: 'Tutorial: Fazer perguntas com o analista virtual Perguntas e Respostas em aplicações iOS'
 description: Neste tutorial, faça perguntas sobre dados de exemplo por palavras próprias com o analista virtual Perguntas e Respostas na aplicação móvel Power BI no dispositivo iOS.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157155"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282938"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Fazer perguntas sobre os seus dados com o analista virtual Perguntas e Respostas nas aplicações Power BI para iOS
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Fazer perguntas sobre os seus dados com o analista virtual Perguntas e Respostas nas aplicações Power BI para iOS
 
 A forma mais fácil de conhecer os seus dados é fazer perguntas sobre os mesmos por palavras próprias. Neste tutorial, vai fazer perguntas e ver informações de destaque sobre dados de exemplo com o analista virtual Perguntas e Respostas na aplicação móvel do Microsoft Power BI no iPad, iPhone e iPod Touch. 
 
@@ -72,7 +72,7 @@ O primeiro passo no tutorial é transferir o exemplo de Análise de Oportunidade
 
 4. Selecione o **Exemplo de Análise de Oportunidade**.
  
-    ![Exemplo de Análise de Oportunidade](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Exemplo de Análise de Oportunidades](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Selecione **Ligar**.  
   
@@ -128,7 +128,7 @@ Quando tiver terminado o tutorial, pode eliminar o dashboard, o relatório e o c
 5. Selecione o separador **Conjuntos de dados** e faça o mesmo para o conjunto de dados de Análise de Oportunidade.
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Já experimentou o assistente virtual Perguntas e Respostas nas aplicações móveis do Power BI para iOS. Leia mais sobre as Perguntas e Respostas no serviço Power BI.
 > [!div class="nextstepaction"]
