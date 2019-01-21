@@ -1,20 +1,20 @@
 ---
 title: Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 description: Convide outros utilizadores para ver os seus dashboards e relatórios ao partilhar ligações a partir das aplicações móveis do Power BI. Saiba como.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271653"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283673"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 Aplica-se a:
@@ -93,7 +93,7 @@ Só pode anular a partilha se for o proprietário.
 
     Se for o proprietário do dashboard, verá a lista de colegas com os quais partilhou este dashboard ou relatório, com estas notas:
 
-    -   **Pode ver**: podem ver mas não podem partilhar.
+    -   **Pode Ver**: podem ver mas não podem partilhar.
     -   **Pode ver e voltar a partilhar**: podem ver e partilhar com outros colegas.
 
 1. Escreva os endereços de e-mail e uma mensagem para acompanhar o seu convite de dashboard. Caso contrário, o Power BI envia uma mensagem predefinida.
@@ -126,7 +126,7 @@ Só pode anular a partilha se for o proprietário.
    
    Se for o proprietário do dashboard, verá a lista de colegas com os quais partilhou este dashboard, com estas notas:
    
-   **Pode ver**: podem ver mas não podem partilhar.
+   **Pode Ver**: podem ver mas não podem partilhar.
    
    **Pode ver e voltar a partilhar**: podem ver e partilhar com outros colegas.
 2. Escreva os endereços de e-mail e uma mensagem para acompanhar o seu convite. Caso contrário, o Power BI envia uma mensagem predefinida.

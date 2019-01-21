@@ -1,25 +1,25 @@
 ---
-title: 'Tutorial: Ligar a um exemplo do GitHub com o Power BI'
+title: 'Tutorial: Ligar-se a um exemplo do GitHub com o Power BI'
 description: Neste tutorial, irá ligar aos dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900503"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295707"
 ---
-# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Ligar a um exemplo do GitHub com o Power BI
-Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Irá ligar ao repositório de conteúdos públicos do Power BI (também conhecido apenas como *repositório*) e ver informações: quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Assim como respostas a outras perguntas. 
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Ligar-se a um exemplo do GitHub com o Power BI
+Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Vai ligar-se ao repositório de conteúdos públicos do Power BI (também conhecido como *repositório*) e ver informações: Quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Assim como respostas a outras perguntas. 
 
 ![O relatório do GitHub no Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 

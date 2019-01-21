@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157385"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283857"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>Adicionar um filtro a um relatório na Vista de Edição
 
@@ -24,7 +24,7 @@ Este artigo explica como adicionar um filtro de página, um filtro de visualiza�
 **Sabia que?** O Power BI tem uma nova experiência de filtros, atualmente em pré-visualização. Leia mais sobre [a nova experiência de filtros nos relatórios do Power BI](power-bi-report-filter-preview.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtros na Vista de edição ou na Vista de leitura
-Pode interagir com os relatórios em duas vistas diferentes: Vista de leitura e Vista de edição. As capacidades de filtragem disponíveis dependem do modo no qual se encontra. Para obter detalhes, leia tudo [sobre filtros e realces nos relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).
+Pode interagir com os relatórios em duas vistas diferentes: a Vista de leitura e a Vista de edição. As capacidades de filtragem disponíveis dependem do modo no qual se encontra. Para obter detalhes, leia tudo [sobre filtros e realces nos relatórios do Power BI](power-bi-reports-filters-and-highlighting.md).
 
 Este artigo descreve como criar filtros na **Vista de edição** dos relatórios.  Para obter mais informações sobre os filtros na Vista de leitura, veja [Interagir com filtros na Vista de leitura dos relatórios](consumer/end-user-reading-view.md).
 
@@ -151,7 +151,7 @@ Vamos ver como funciona o filtro de pormenorização.
 - Se não vir o painel Campos, certifique-se de que está na [Vista de edição](service-interact-with-a-report-in-editing-view.md) do relatório    
 - Se tiver feito várias alterações aos filtros e quiser regressar às predefinições do autor do relatório, selecione **Repor para predefinição** na barra de menus superior.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [ Fazer uma visita do painel Filtros](consumer/end-user-report-filter.md)
 
 [Filtros e realce em relatórios](power-bi-reports-filters-and-highlighting.md)

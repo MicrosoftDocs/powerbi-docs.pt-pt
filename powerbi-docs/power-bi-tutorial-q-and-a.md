@@ -4,17 +4,17 @@ description: Tutorial sobre como utilizar as Perguntas e Respostas do Power BI p
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c139d5561a19dab147610914bc11e1bfd9e9e481
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830016"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277371"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Como utilizar as Perguntas e Respostas para criar visualizações e relatórios
 A [descrição geral de Perguntas e Respostas](consumer/end-user-q-and-a.md) apresentou-lhe as Perguntas e Respostas do Power BI e fez a distinção entre *consumidores* (com quem são partilhados dashboards e relatórios) e *criadores* (os proprietários dos relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial foi concebida principalmente para pessoas que consomem dashboards com o serviço Power BI. A segunda parte é concebida para as pessoas que criam relatórios através do serviço Power BI ou do Power BI Desktop. As [Perguntas e Respostas e o Power BI mobile](consumer/mobile/mobile-apps-ios-qna.md) e [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados.
@@ -23,7 +23,7 @@ O P e R é interativo e até mesmo divertido e, mais frequentemente do que o con
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qMf7OLJfCz8?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-## <a name="part-1-use-qa-on-a-dashboard-in-power-bi-service-apppowerbicom"></a>Parte 1: Utilizar as Perguntas e Respostas num dashboard no serviço Power BI (app.powerbi.com)
+## <a name="part-1-use-qa-on-a-dashboard-in-power-bi-service-apppowerbicom"></a>Parte 1: Utilizar as Perguntas e Respostas num dashboard no serviço Power BI (app.powerbi.com)
 Um dashboard contém mosaicos afixados a partir de um ou mais conjuntos de dados, pelo que pode fazer perguntas sobre quaisquer dados contidos em qualquer um desses conjuntos de dados. Para ver os relatórios e conjuntos de dados que foram utilizados para criar o dashboard, selecione **Ver relacionados** na barra de menus.
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
@@ -58,7 +58,7 @@ A resposta à sua pergunta é apresentada como uma visualização interativa e a
 
    ![](media/power-bi-tutorial-q-and-a/pbi_qna_finish-typing-question.jpg)
 
-##    <a name="part-2-use-qa-in-a-report-in-power-bi-service-or-power-bi-desktop"></a>Parte 2: Utilizar as Perguntas e Respostas num relatório no serviço Power BI ou no Power BI Desktop
+##    <a name="part-2-use-qa-in-a-report-in-power-bi-service-or-power-bi-desktop"></a>Parte 2: Utilizar as Perguntas e Respostas num relatório no serviço Power BI ou no Power BI Desktop
 
 Utilize as Perguntas e Respostas para explorar o conjunto de dados e adicionar visualizações ao relatório e aos dashboards. Um relatório baseia-se num único conjunto de dados e pode estar completamente em branco ou conter páginas repletas de visualizações. Mas o facto de um relatório estar em branco, não significa que não existem dados para explorar – o conjunto de dados está ligado ao relatório e está à espera que explore e crie visualizações.  Para ver que conjunto de dados está a ser utilizado para criar um relatório, abra o relatório na Vista de Leitura do serviço Power BI e selecione **Ver relacionados** na barra de menus.
 

@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 588b8cd6289c1f5d1242ade73dea149474bfed38
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975225"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275485"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Criar elementos visuais do Power BI através de Python
 Com o **Power BI Desktop**, pode utilizar o **Python** para visualizar os seus dados.
@@ -107,7 +107,7 @@ Depois de especificar a instalação do Python, estará pronto para começar a c
 
     ![](media/desktop-python-visuals/python-visuals-8.png)
 
-    > **Segurança dos scripts de Python**: os elementos visuais do Python são criados a partir de scripts de Python, os quais podem conter código com riscos de segurança ou privacidade. Ao tentar ver ou interagir com um elemento visual do Python pela primeira vez, é apresentada uma mensagem de aviso de segurança. Ative os elementos visuais do Python apenas se confiar no autor e na origem, ou depois de analisar e compreender o script de Python.
+    > **Segurança dos scripts Python:** os elementos visuais do Python são criados a partir de scripts Python, que podem conter código com riscos de segurança ou de privacidade. Ao tentar ver ou interagir com um elemento visual do Python pela primeira vez, é apresentada uma mensagem de aviso de segurança. Ative os elementos visuais do Python apenas se confiar no autor e na origem, ou depois de analisar e compreender o script de Python.
     > 
     > 
 
@@ -121,7 +121,7 @@ Os elementos visuais do Python no **Power BI Desktop** apresentam algumas limita
 * Os elementos visuais do Python respondem ao destaque de outros elementos visuais, mas não pode clicar em elementos no elemento visual do Python para efetuar a filtragem cruzada de outros elementos.
 * Apenas os desenhos que são desenhados no dispositivo de visualização predefinida do Python são apresentados corretamente na tela. Evite a utilização explícita de um dispositivo de visualização diferente do Python.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Veja as seguintes informações adicionais sobre o Python no Power BI.
 
 * [Executar scripts de Python no Power BI Desktop](desktop-python-scripts.md)
