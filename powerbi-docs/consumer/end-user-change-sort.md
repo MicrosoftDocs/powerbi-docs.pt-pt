@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 12/06/2018
+ms.date: 01/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28dcba5a44da4d0acd8f1b6d0a1bfce655eb46bd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280108"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394691"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado pela categoria **nome de loja**.
@@ -33,17 +33,17 @@ Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualiza
    **NOTA**: Nem todos os elementos visuais podem ser ordenados.  Por exemplo, os elementos visuais seguintes não podem ser ordenados: Treemap, Mapa, Mapa de Manchas, Dispersão, Medidor, Cartão, Cartão de Várias Linhas, Cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
-Os relatórios do Power BI mantêm os filtros, as segmentações de dados, a ordenação e outras alterações que fizer à vista de dados. Por isso, se sair de um relatório e regressar mais tarde, as alterações são guardadas.  Se quiser reverter as alterações para as definições do criador do relatório, selecione **Repor para predefinição** na barra de menus superior. 
+Os relatórios do Power BI mantêm os filtros, as segmentações de dados, a ordenação e outras alterações que fizer à vista de dados. Por isso, se sair de um relatório e regressar mais tarde, as alterações são guardadas.  Se quiser reverter as alterações para as definições do designer do relatório, selecione **Repor para predefinição** na barra de menus superior. 
 
 ![Ordenação persistente](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-Se, no entanto, o botão **Repor para predefinição** for apresentado a cinzento, isso significa que o criador do relatório desativou a capacidade de guardar (fazer persistir) as suas alterações.
+Se, no entanto, o botão **Repor para predefinição** for apresentado a cinzento, isso significa que o designer do relatório desativou a capacidade de guardar (fazer persistir) as suas alterações.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Ordenar através de outros critérios
 Às vezes, deseja ordenar o seu visual através de um campo diferente ou outros critérios.  Por exemplo, talvez queira ordenar por mês (e não por ordem alfabética) ou por números inteiros em vez de por dígitos (exemplo, 0, 1, 9, 20 e não 0, 1, 20, 9).  
 
-Em alguns casos, poderá conseguir ordenar o visual da forma que pretende (por exemplo, por mês).  Se não conseguir, poderá dever-se ao facto de o conjunto de dados associado ao relatório precisar de alguns ajustes. Peça ao criador de relatório para atualizar o conjunto de dados.
+Em alguns casos, poderá conseguir ordenar o visual da forma que pretende (por exemplo, por mês).  Se não conseguir, poderá dever-se ao facto de o conjunto de dados associado ao relatório precisar de alguns ajustes. Peça ao designer do relatório para atualizar o conjunto de dados.
 
 ## <a name="next-steps"></a>Próximos passos
 Mais sobre [Visualizações em relatórios do Power BI](end-user-visualizations.md).

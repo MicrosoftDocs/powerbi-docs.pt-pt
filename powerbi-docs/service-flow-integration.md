@@ -1,7 +1,7 @@
 ---
 title: Integração do Power BI com o Microsoft Flow
 description: Saiba como criar fluxos acionados por alertas de dados do Power BI.
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289814"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406621"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
 
@@ -60,7 +60,7 @@ Este modelo tem um acionador (alerta de dados do Power BI para novas medalhas o
    
    ![Ecrã Enviar um e-mail](media/service-flow-integration/power-bi-flow-email.png)
 
-3. O fluxo cria um título e uma mensagem que pode manter ou modificar. Todos os valores que definir aquando da criação do alerta no Power BI estão disponíveis para utilização – basta colocar o cursor sobre eles e selecionar da área realçada cinzenta. 
+3. O fluxo cria um título e uma mensagem que pode manter ou modificar. Todos os valores que definir aquando da criação do alerta no Power BI estão disponíveis para utilização – basta colocar o cursor sobre eles e selecionar a partir da área realçada cinzenta. 
 
    ![Ecrã Enviar um e-mail](media/service-flow-integration/power-bi-flow-email-default.png)
 
@@ -111,6 +111,6 @@ Nesta tarefa vamos criar de raiz um fluxo simples que é acionado por um alerta 
 * [Introdução ao Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Definir alertas de dados no serviço Power BI](service-set-data-alerts.md)
 * [Definir alertas de dados no iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Definir alertas de dados na aplicação móvel Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Definir alertas de dados na aplicação móvel do Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

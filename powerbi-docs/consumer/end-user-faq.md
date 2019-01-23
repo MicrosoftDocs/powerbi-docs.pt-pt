@@ -1,6 +1,6 @@
 ---
-title: Perguntas frequentes para os consumidores do Power BI
-description: FAQ do Power BI
+title: Perguntas frequentes do utilizador final no Power BI
+description: Veja uma lista de perguntas frequentes e as respetivas respostas sobre o serviço Power BI e as aplicações móveis do Power BI.
 author: mihart
 manager: kvivek
 ms.custom: seodec18
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b292e6df7cb01e26b610ffb99ec5b794df933bfa
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287599"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394784"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
@@ -41,7 +41,7 @@ Para questões relacionadas com o Power BI Premium, consulte as [Perguntas Frequ
 Pode ver o relatório de Aplicações Integradas do Azure Active Directory para o Power BI para ver os utilizadores ativos na sua organização. O relatório do Azure AD não indica o tipo de licença que cada utilizador possui. Reporta apenas que utilizadores iniciaram sessão no Power BI e quando iniciaram sessão. Para obter mais informações, consulte [Encontrar utilizadores do Power BI que iniciaram sessão](../service-admin-access-usage.md).
 
 ## <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
-O Power BI Desktop é uma aplicação gratuita de ambiente de trabalho que pode ser instalada diretamente no seu computador. O Power BI Desktop funciona de forma coesa com o serviço Power BI, fornecendo exploração, formatação e modelação de dados avançadas, bem como a criação de relatório com visualizações altamente interativas. Pode guardar o trabalho num ficheiro e publicar os seus dados e relatórios diretamente no seu site do Power BI de modo a partilhá-los com outras pessoas. Saiba mais sobre [O que é o Power BI Desktop](../desktop-what-is-desktop.md).
+O Power BI Desktop é uma aplicação gratuita que os utilizadores podem instalar diretamente no computador. O Power BI Desktop funciona de forma integrada com o serviço Power BI.  Os cientistas de dados, administradores e programadores trabalham com o Power BI Desktop para criar relatórios e disponibilizá-los para utilizadores do serviço Power BI como você. Saiba mais sobre [O que é o Power BI Desktop](../desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-power-bi-service"></a>O que é necessário para usar o serviço Power BI?
 Apenas um browser e um endereço de e-mail profissional. Pode iniciar sessão com um endereço de e-mail .gov e .mil. Veja [Inscrever a sua organização do Governo dos E.U.A. no serviço Power BI](../service-govus-signup.md) para obter mais informações 
@@ -49,14 +49,8 @@ Apenas um browser e um endereço de e-mail profissional. Pode iniciar sessão co
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Por que razão tenho de me inscrever com o meu e-mail profissional?
 O Power BI não suporta endereços de e-mail fornecidos por serviços de correio eletrónico ou de telecomunicações a consumidores. Saiba mais sobre [o processo de inscrição self-service do Power BI](../service-self-service-signup-for-power-bi.md).
 
-## <a name="is-power-bi-available-on-premises"></a>O Power BI está disponível localmente?
-O serviço Power BI [https://powerbi.com](https://powerbi.com) não está disponível como um serviço cloud privado interno. No entanto, tem outras três opções para visualizar e trabalhar com dados no local. 
-
-### <a name="on-premises-data-gateway"></a>Gateway de dados no local
-Com o Power BI e o Power BI Desktop, pode ligar-se de forma segura às suas próprias origens de dados no local. Com o [Gateway de dados no local](../service-gateway-onprem.md), pode ligar-se em direto ao seu servidor no local do SQL Server Analysis Services e a outras origens de dados. Também pode definir atualizações agendadas com um gateway centralizado. Se não estiver disponível um gateway, pode atualizar dados a partir de origens de dados no local através do [Power BI Gateway - Personal](../service-gateway-personal-mode.md).
-
-### <a name="power-bi-mobile-apps"></a>Aplicações móveis do Power BI
-Também pode [ver relatórios do Power BI no local, relatórios móveis do Reporting Services e KPIs com as aplicações móveis do Power BI](mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Estão disponíveis preços do Power BI para organizações governamentais, académicas e sem fins lucrativos?
+Sim, estão disponíveis preços para fins não lucrativos ao comprar diretamente da Microsoft. Pode saber mais e inscrever-se através do site da [Microsoft para Organizações Sem Fins Lucrativos](https://www.microsoft.com/en-us/nonprofits/power-bi). Os preços para organizações governamentais e académicas são oferecidos através de programas de licenciamento MOSP/Direct, EA e Open. O preço para uso governamental também está disponível na distribuição. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>O Power BI suporta dispositivos móveis?
 Sim. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
@@ -96,6 +90,11 @@ Veja uma lista completa de [regiões e idiomas suportados para o Power BI](../su
 Pode comprar licenças do Power BI Pro diretamente ou falar por chat com um representante em [www.powerbi.com](http://www.powerbi.com).
 
 Também pode encontrar um [Parceiro da Microsoft](https://partner.microsoft.com/) para ajudá-lo com a implementação do Power BI.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>O que acontece se a minha licença do Power BI Pro expirar?
+Após a licença do Power BI Pro expirar, existe um período de tolerância. Para licenças que façam parte da compra de licenciamento de volume, o período de tolerância é de 90 dias. Se comprar diretamente a licença, o período de tolerância é de 30 dias.
+
+O Power BI Pro tem o mesmo ciclo de vida de subscrição que o Office 365. Para obter mais informações, veja [O que acontece aos meus dados e acesso quando a minha subscrição do Office 365 para empresas termina?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>O Power BI cumpre requisitos de conformidade nacionais, regionais e específicos da indústria?
 Saiba mais sobre a conformidade do Power BI no [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).

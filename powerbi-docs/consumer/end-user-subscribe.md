@@ -1,6 +1,6 @@
 ---
-title: Subscrever relatórios e dashboards no serviço Power BI
-description: Saiba como subscrever-se a si próprio e outras pessoas para um instantâneo de relatórios e dashboards do Power BI.
+title: Subscrever relatórios e dashboards para consumidores do Power BI
+description: Saiba como subscrever um instantâneo de um relatório e dashboard do Power BI enviado por e-mail para si.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,15 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/17/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 226d36690d2e3e98588802aa1e4fd9d5f7128ef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b07d3c1d8dec979c70eed86c01307f69af3e8396
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293016"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394637"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 Nunca foi tão fácil manter-se atualizado relativamente ao seus dashboards e relatórios mais importantes. Subscreva as páginas de relatório e dashboards mais importantes para si e o Power BI enviará um instantâneo por e-mail para a sua caixa de entrada. Indique ao Power BI com que frequência quer receber os e-mails: desde uma vez por dia a uma vez por semana. 
@@ -28,7 +27,7 @@ O e-mail e o instantâneo utilizarão o idioma definido nas definições do Powe
 Quando receber o e-mail, este incluirá uma ligação para "ir para o relatório/dashboard". Nos dispositivos móveis com aplicações do Power BI instaladas, a seleção desta ligação inicia a aplicação (por oposição à ação predefinida de abrir o relatório ou dashboard no site do Power BI).
 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 - **Criar** uma subscrição é uma funcionalidade do Power BI Pro. 
 - Sendo que os e-mails de subscrição só são enviados quando um conjunto de dados subjacente é atualizado, as subscrições não funcionam em conjuntos de dados que não sejam atualizados.
 
@@ -75,7 +74,7 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança aplicada ao nível da linha (RLS), o mesmo não será apresentado.  Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, não poderá criar uma subscrição.
-* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e for-lhe atribuído um nome novo, terá de criar novamente a sua subscrição.
+* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e lhe for atribuído um nome novo, terá de criar novamente a sua subscrição.
 * Certas definições da sua organização podem ser configuradas no Azure Active Directory, que podem limitar a capacidade de utilizar as subscrições de e-mail no Power BI.  Isto inclui, mas não se limita a, ter uma autenticação multifator ou restrições de intervalos de IP quando se acede a recursos.
 * Para subscrições por e-mail em conjuntos de dados de ligação em direto, só receberá e-mails quando os dados forem alterados. Assim, se ocorrer uma atualização mas sem alterações de dados, o Power BI não enviará nenhum e-mail.
 * As subscrições por e-mail não suportam a maioria dos [elementos visuais personalizados](../power-bi-custom-visuals.md).  A única exceção são os elementos visuais personalizados que foram [certificados](../power-bi-custom-visuals-certified.md).  

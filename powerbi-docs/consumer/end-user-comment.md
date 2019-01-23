@@ -1,46 +1,85 @@
 ---
-title: Adicionar comentários a uma visualização, elemento visual
-description: Este documento mostra como adicionar comentários a um elemento visual e como utilizar os comentários para ter conversações sobre um elemento visual.
+title: Adicionar comentários a um dashboard ou visualização
+description: Este documento mostra como adicionar comentários a um dashboard ou elemento visual e como utilizar os comentários para ter conversações com os colaboradores.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45ea01fb575ae7134177fe548279d36b7792b27a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289193"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394660"
 ---
-# <a name="add-comments-to-a-visualization"></a>Adicionar comentários a uma visualização
-Adicione um comentário pessoal ou inicie uma conversação sobre uma visualização com os seus colegas. A funcionalidade de **comentário** é apenas uma das formas de como um *consumidor* pode interagir com uma visualização. 
+# <a name="add-comments-to-a-dashboard"></a>Adicionar comentários a um dashboard
+Adicione um comentário pessoal ou inicie uma conversação sobre um dashboard com os seus colegas. A funcionalidade de **comentário** é apenas uma das formas de como um *consumidor* pode colaborar com outros. 
 
 ![vídeo de comentários](media/end-user-comment/comment.gif)
 
-## <a name="how-to-use-the-comment-feature"></a>Como utilizar a funcionalidade de comentário
+## <a name="how-to-use-the-comments-feature"></a>Como utilizar a funcionalidade Comentários
+Os comentários podem ser adicionados a todo o dashboard ou a elementos visuais individuais num dashboard. Adicione um comentário geral ou um comentário direcionado a colegas específicos.  
 
-1. Passe o cursor sobre a visualização e selecione as reticências (...).    
+### <a name="add-a-general-dashboard-comment"></a>Adicionar um comentário geral ao dashboard
+1. Abra o dashboard do Power BI e selecione o ícone de **Comentários**. Esta ação abre a caixa de diálogo Comentários.
+
+    ![ícone de comentários](media/end-user-comment/power-bi-comment-icon.png)
+
+    Aqui podemos ver que o criador do dashboard já adicionou um comentário geral.  Qualquer pessoa com acesso a este dashboard pode ver este comentário.
+
+    ![ícone de comentários](media/end-user-comment/power-bi-dash-comment.png)
+
+2. Para responder, selecione **Responder**, introduza a sua resposta e selecione **Publicar**.  
+
+    ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-comment-reply.png)
+
+    Por predefinição, o Power BI encaminha a sua resposta para o colega que iniciou o tópico do comentário, neste caso o Samuel F. 
+
+    ![Comentário com resposta](media/end-user-comment/power-bi-response.png)
+
+ 3. Se quiser adicionar um comentário ao dashboard que não faça parte do tópico existente, escreva o seu comentário no campo de texto superior.
+
+    ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-new-comment.png)
+
+    Os comentários deste dashboard terão o seguinte aspeto.
+
+    ![Conversações nos comentários](media/end-user-comment/power-bi-comment-conversation.png)
+
+### <a name="add-a-comment-to-a-specific-dashboard-visual"></a>Adicionar um comentário a um elemento visual específico do dashboard
+1. Paire o cursor do rato sobre do elemento visual e selecione as reticências (...).    
 2. No menu pendente, selecione **Adicionar um comentário**.
 
     ![Adicionar um comentário é a primeira opção](media/end-user-comment/power-bi-comment.png)  
 
-3.  Escreva o seu comentário e selecione **Publicar comentário**. Este é um comentário para mim, com erros ortográficos.
+3.  A caixa de diálogo **Comentários** é aberta. Este elemento visual ainda não tem comentários. 
 
-    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-self2.png)  
+    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-visual.png)  
 
-4. Aqui está uma conversação que estou a ter com o *designer* da visualização. Ele utiliza o símbolo @ para garantir que vejo o comentário. Eu sei que este comentário é para mim. Quando abro o dashboard desta aplicação no Power BI, seleciono **Comentários** no cabeçalho. O painel **Comentários** apresenta a nossa conversação. 
+4. Escreva o seu comentário e selecione **Publicar**.
 
-    ![Adicionar uma menção num comentário](media/end-user-comment/power-bi-comment-mention.png)  
+    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-spike.png)  
+
+    O ícone de gráfico ![comentário com o ícone de gráfico](media/end-user-comment/power-bi-comment-chart-icon.png) permite-nos saber que este comentário está ligado a um elemento visual específico. Selecione o ícone para realçar o respetivo elemento visual no dashboard.
+
+    ![o elemento visual realçado](media/end-user-comment/power-bi-comment-highlight.png)
+
+5. Selecione **Fechar** para voltar ao dashboard ou relatório.
+
+### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Chame a atenção dos seus colegas ao utilizar o símbolo @
+Quer esteja a criar comentários no dashboard ou a comentar um elemento visual específico, chame a atenção dos seus colegas ao utilizar o símbolo "@".  Quando escreve o símbolo "@", o Power BI abre uma lista pendente onde pode procurar e selecionar pessoas da sua organização. Qualquer nome verificado que tenha o símbolo "@" no início é apresentado a azul. 
+
+Aqui está uma conversação que estou a ter com o *designer* da visualização. Ele utiliza o símbolo @ para garantir que vejo o comentário. Eu sei que este comentário é para mim. Quando abro o dashboard desta aplicação no Power BI, seleciono **Comentários** no cabeçalho. O painel **Comentários** apresenta a nossa conversação.
+
+![Adicionar uma menção num comentário](media/end-user-comment/power-bi-comment-convo.png)  
 
 
-5. Clique em **Fechar** para voltar ao dashboard ou relatório.
 
 ## <a name="next-steps"></a>Próximos passos
 Voltar às [visualizações para os consumidores](end-user-visualizations.md)    
