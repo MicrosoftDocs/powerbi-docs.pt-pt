@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406759"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488920"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
@@ -197,7 +197,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 ***Segurança em nível de linha (RLS)***
 
 * Suporte de grupos do Azure Active Directory (AAD): os utilizadores agora podem atribuir grupos do AAD (grupos de segurança e listas de distribuição) a uma função. Isto facilita a atribuição de funções a um grupo grande de utilizadores em simultâneo.
-* [Testar as funções da RLS com relatórios suportados pelos dados com RLS no local](service-admin-rls.md#validating-the-role-within-power-bi-desktop): adicionámos uma funcionalidade para a nossa pré-visualização da RLS que lhe permite testar o conjunto de dados como uma função específica. Esta ação irá garantir que a função funciona como esperado antes de quaisquer utilizadores conseguirem utilizar o dashboard.
+* [Testar as funções da RLS com relatórios suportados pelos dados com RLS no local](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): adicionámos uma funcionalidade para a nossa pré-visualização da RLS que lhe permite testar o conjunto de dados como uma função específica. Esta ação irá garantir que a função funciona como esperado antes de quaisquer utilizadores conseguirem utilizar o dashboard.
 * Definir e aplicar RLS a modelos de cloud baseados em consultas diretas: agora pode criar e aplicar regras da RLS a origens de dados de consulta direta.
 
 ***Dashboards***
