@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292067"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488874"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
 Este registo de alterações destina-se ao Power BI Report Server e lista novos itens, juntamente com correções de erros para cada compilação lançada.
 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
+
+## <a name="january-2019"></a>Janeiro de 2019
+- **Power BI Report Server**            
+    - *Versão 1.4.6960.38798 (Compilação 15.0.1102.222), Lançamento: 22 de janeiro de 2019*
+        - Funcionalidades
+            - Relatórios do Power BI 
+                - Suporte para a segurança ao nível da linha
+                - Ações de expandir e fechar em cabeçalhos de linha de matriz
+                - Copiar e colar entre ficheiros .pbix
+                - Guias de alinhamento inteligentes
+                - Suporte para o Conector do SAP BW 2.0
+            - Administradores
+                - Capacidade de restringir extensões de recursos que podem ser carregadas para o servidor de relatórios
+                - Capacidade de restringir esquemas de hiperligações suportados
+        - Correções de Erros
+            - Vulnerabilidade de Injeção de HMTL
+            - A funcionalidade Exportar para PDF não está a apresentar o símbolo de Euro
+            - Guardar uma palavra-passe com múltiplas origens de dados em relatórios do Power BI invalida as palavras-passe não alteradas
+            - Os elementos visuais apresentam problemas na Aplicação Power BI Mobile após estarem inativos
+
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+    - *Versão: 2.65.5313.1421 (janeiro de 2019), Lançamento: 22 de janeiro de 2019*
+        - Contém as alterações necessárias para a ligação ao Power BI Report Server (janeiro de 2019)  
 
 ## <a name="august-2018"></a>Agosto de 2018
 - **Power BI Report Server**

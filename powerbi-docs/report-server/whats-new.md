@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292459"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488943"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
 Saiba mais sobre as novidades no Power BI Report Server. Este artigo abrange áreas de funcionalidades importantes e é atualizada à medida que são lançados novos itens.
 
-Para transferir o Power BI Report Server e o Power BI Desktop otimizado para o Power BI Report Server, aceda a [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
-
-Verifique também estas origens para se manter atualizado relativamente a novas funcionalidades no Power BI Report Server.
-
-* [Blogue do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* [Blogue de Equipa do SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* [Canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
+Para transferir as versões mais recentes do Power BI Report Server e do Power BI Desktop otimizado para o Power BI Report Server, aceda a [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/).
 
 Para obter informações sobre “Novidades” do Power BI relacionadas, veja:
 
 * [Novidades do serviço Power BI](../service-whats-new.md)
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
 * [Novidades em aplicativos móveis para o Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>Janeiro de 2019
+
+Suporte para estas funcionalidades em relatórios do Power BI:
+
+[**Segurança ao nível da linha**](row-level-security-report-server.md) – a configuração da segurança ao nível da linha (RLS) com o Power BI Report Server pode restringir o acesso a dados para determinados utilizadores. Os filtros restringem o acesso aos dados ao nível da linha e pode definir filtros nas funções.
+
+[**Ações de expandir e fechar em cabeçalhos de linha de matriz**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) – adicionámos a capacidade de expandir e fechar cabeçalhos de linha individuais, uma das funcionalidades mais pedidas para elementos visuais.
+
+[**Copiar e colar entre ficheiros .pbix**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) – pode copiar elementos visuais entre ficheiros .pbix a partir do menu de contexto do elemento visual ou através do atalho de teclado Ctrl+C e colá-lo noutro relatório com o atalho Ctrl+V.
+
+[**Guias de alinhamento inteligentes**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) – verá guias de alinhamento inteligentes ao mover objetos na página do seu relatório, como vê no PowerPoint, para ajudar a alinhar todos os conteúdos na sua página. Verá guias inteligentes sempre que arrastar ou redimensionar conteúdos na sua página. Ao mover um objeto junto a outro objeto, o mesmo será alinhado com o outro objeto.
+
+**Funcionalidades de acessibilidade** – temos demasiadas funcionalidades de acessibilidade para listar, por exemplo, o [suporte de acessibilidade do painel de lista de campos](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). O painel de lista de campos é totalmente acessível. Pode navegar no painel ao utilizar apenas o seu teclado e um leitor de ecrã juntamente com o menu de contexto para adicionar campos à página do seu relatório.
+
+### <a name="administrator-settings"></a>Definições de administrador
+
+Os administradores podem definir as seguintes propriedades nas Propriedades Avançadas do SSMS para o farm do servidor:
+
+**AllowedResourceExtensionsForUpload** – defina extensões de recursos que podem ser carregadas para o servidor de relatórios. Não é necessário incluir extensões para tipos de ficheiro incorporados, como &ast;.rdl e &ast;.pbix. As predefinições são: "&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx". 
+
+**SupportedHyperlinkSchemes** – define uma lista separada por vírgulas dos esquemas URI com permissão para serem definidos em ações de Hiperligação com permissão para serem compostas ou "&ast;" para permitir todos os esquemas de hiperligação. Por exemplo, definir "http,https" permitiria hiperligações para "https://www. contoso.com", mas removeria hiperligações para "mailto:bill@contoso.com" ou "javascript:window.open(‘www.contoso.com’, ‘_blank’)". A predefinição é "&ast;".
 
 ## <a name="august-2018"></a>Agosto de 2018
 
@@ -325,10 +341,10 @@ Agora, o Power BI Report Server suporta os novos visuais de tabelas e matrizes d
 
 ## <a name="next-steps"></a>Próximos passos
 
-[O que é o Power BI Report Server?](get-started.md) 
-[Manual do administrador](admin-handbook-overview.md)  
-[Instalar o Power BI Report Server](install-report-server.md)  
-[Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+Veja estas páginas para se manter a par das novas funcionalidades no Power BI Report Server.
+
+* [Blogue do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blogue de Equipa do SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -1,20 +1,21 @@
-## <a name="validating-the-role-within-power-bi-desktop"></a>Validar a função no Power BI Desktop
-Depois de ter criado a função, pode testar os resultados da função no Power BI Desktop. Para tal, selecione **Ver Como Funções**.
+## <a name="validate-the-roles-within-power-bi-desktop"></a>Validar as funções no Power BI Desktop
+Depois de criar as suas funções, teste os resultados das mesmas no Power BI Desktop.
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
+1. Selecione  **Ver Como Funções**. 
 
-A caixa de diálogo **Ver como funções** permite-lhe alterar a vista do que está a ver para essa função ou utilizador específico. Pode ver as funções que criou.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
+    Em **Ver como funções**, pode ver as funções que criou.
 
-Selecione a função que criou e, em seguida, selecione **OK** para aplicar essa função ao que estiver a ver. Os relatórios compõem apenas os dados relevantes para essa função.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-Também pode selecionar **Outro utilizador** e fornecer um determinado utilizador. Recomendamos que forneça o Nome Principal de Utilizador (UPN), uma vez que é utilizado pelo serviço Power BI. Selecione **OK** e os relatórios serão compostos com base no que o utilizador pode ver. 
+3. Selecione uma função que criou e selecione  **OK**  para a aplicar. O relatório compõe os dados relevantes para essa função. 
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+4. Também pode selecionar **Outro utilizador** e fornecer um determinado utilizador. Recomendamos que forneça o Nome Principal de Utilizador (UPN), uma vez que é utilizado pelo serviço Power BI e pelo Power BI Report Server.
 
-> [!NOTE]
-> No Power BI Desktop, isto só apresentará resultados diferentes se estiver a utilizar a segurança dinâmica com base nas expressões DAX.
-> 
-> 
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+
+1. Selecione  **OK**  e o relatório será composto com base no que esse utilizador pode ver. 
+
+No Power BI Desktop, a opção **Outro utilizador** só apresentará resultados diferentes se estiver a utilizar a segurança dinâmica com base nas suas expressões DAX. 
 
