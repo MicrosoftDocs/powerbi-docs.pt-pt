@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394805"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838330"
 ---
 # <a name="apps-in-power-bi"></a>Aplicações no Power BI
 ## <a name="what-is-a-power-bi-app"></a>O que é uma aplicação do Power BI?
@@ -26,12 +26,14 @@ As suas aplicações estão organizadas na lista de conteúdos **Aplicações**.
 
 ![Aplicações no Power BI](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> A utilização da funcionalidade de aplicações requer uma licença do Power BI Pro. <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>***Designers*** e ***consumidores*** de aplicações
 Consoante o seu cargo, pode ser uma pessoa que cria aplicações (designer) para sua utilização ou para partilhar com colegas. Também pode ser uma pessoa que recebe e transfere aplicações (consumidor) criadas por outras pessoas. Este artigo é direcionado para *consumidores* de aplicações.
 
 ## <a name="advantages-of-apps"></a>Vantagens das aplicações
 As aplicações são fáceis de encontrar e instalar no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel.
-
 
 Com as aplicações, sempre que o autor da aplicação lançar atualizações, o utilizador pode vê-las automaticamente. O autor também controla quantas vezes os dados são agendados para atualização, para que não se tenha de preocupar em atualizá-los. 
 

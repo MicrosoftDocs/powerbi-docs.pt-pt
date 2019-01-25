@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 01/17/2019
+ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394691"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838284"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado pela categoria **nome de loja**.
@@ -30,7 +30,8 @@ Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualiza
 
    ![vídeo que mostra a ordem de seleção ascendente e descendente](media/end-user-change-sort/sort.gif)
 
-   **NOTA**: Nem todos os elementos visuais podem ser ordenados.  Por exemplo, os elementos visuais seguintes não podem ser ordenados: Treemap, Mapa, Mapa de Manchas, Dispersão, Medidor, Cartão, Cartão de Várias Linhas, Cascata.
+> [!NOTE]
+> Nem todos os elementos visuais podem ser ordenados. Por exemplo, os elementos visuais seguintes não podem ser ordenados: Treemap, Mapa, Mapa de Manchas, Dispersão, Medidor, Cartão, Cartão de Várias Linhas, Cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
 Os relatórios do Power BI mantêm os filtros, as segmentações de dados, a ordenação e outras alterações que fizer à vista de dados. Por isso, se sair de um relatório e regressar mais tarde, as alterações são guardadas.  Se quiser reverter as alterações para as definições do designer do relatório, selecione **Repor para predefinição** na barra de menus superior. 
