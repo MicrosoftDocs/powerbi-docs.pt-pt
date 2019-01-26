@@ -48,17 +48,17 @@ Colaborar no Office 365 começa a partir da área de trabalho de aplicação no 
    ![Menu Áreas de trabalho](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Neste menu, pode colaborar com o seu grupo de diversas formas: 
    
-   * Tenha uma [conversação em grupo no Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365).
+   * Tenha uma [conversa em grupo no Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365).
    * [Agende um evento](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar) no calendário de área de trabalho de grupo da aplicação.
    
    Da primeira vez que aceder à área de trabalho de grupo da sua aplicação no Office 365, poderá ser necessário algum tempo. Aguarde entre 15 a 30 minutos e, em seguida, atualize o browser.
 
-## <a name="have-a-group-conversation-in-office-365"></a>Ter uma conversação em grupo no Office 365
+## <a name="have-a-group-conversation-in-office-365"></a>Ter uma conversa em grupo no Office 365
 1. Selecione as reticências (…) junto ao nome da área de trabalho da sua aplicação \> **Conversações**. 
    
     ![Separador Conversações](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
-   É aberto o site de conversações e e-mails da área de trabalho de grupo da sua aplicação no Outlook para Office 365.
+   É aberto o site de conversas e e-mails da área de trabalho de grupo da sua aplicação no Outlook para Office 365.
    
    ![Item de menu de calendário](media/service-collaborate-power-bi-workspace/pbi_grps_o365convo.png)
 2. Saiba mais sobre as [conversações de grupo no Outlook para Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
