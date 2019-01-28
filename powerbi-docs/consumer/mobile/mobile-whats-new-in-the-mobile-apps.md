@@ -247,7 +247,7 @@ Leia o [resumo de funcionalidades para aplicações móveis publicado em julho d
 **Nova experiência de Perguntas e Respostas em dispositivos iOS (pré-visualização)** Em vez de apenas receber uma resposta à sua pergunta, agora pode utilizar linguagem natural para obter informações com âmbito definido. Mesmo se não tiver a certeza do que procura, as Perguntas e Respostas analisam proativamente as informações relevantes para os seus dados. A nova experiência de Perguntas e Respostas em dispositivos móveis, desenvolvida em colaboração com a equipa do Microsoft Research, demonstra poderosas tecnologias do nosso produto. Consulte o tutorial [Fazer perguntas sobre os seus dados nas aplicações móveis iOS](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Elementos visuais reativos
-**Elemento visual reativo para relatórios e dashboards de telemóvel ** Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. Leia o [blogue sobre elementos visuais reativos](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
+**Elemento visual reativo para relatórios e dashboards de telemóvel** Pode definir os elementos visuais no seu dashboard ou relatório para que sejam *reativos*, para que sejam alterados dinamicamente para apresentarem a quantidade máxima de dados e informações, independentemente do tamanho do ecrã. Leia o [blogue sobre elementos visuais reativos](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
 
 ### <a name="june-2107"></a>Junho de 2107
 #### <a name="all-devices"></a>Todos os dispositivos
@@ -331,10 +331,10 @@ Leia o [Resumo das funcionalidades do blogue de aplicações móveis publicado e
 **Relatório de telemóvel - disponibilidade geral** Os relatórios de telemóvel do Power BI estão agora geralmente disponíveis. No Power BI Desktop, pode personalizar uma vista vertical de um relatório existente para visualizadores em dispositivos móveis. Saiba mais sobre a [criação de relatórios de telemóvel no Power BI Desktop](../../desktop-create-phone-report.md) e a [experiência de relatório em telemóveis](mobile-apps-view-phone-report.md).
 
 #### <a name="ios"></a>iOS
-**Autenticação SSRS através da Pré-visualização dos Serviços de Federação do Active Directory (AD FS) ** Agora, pode iniciar sessão em servidores do SQL Server Reporting Services no local a partir do dispositivo móvel, com a sua conta profissional. Leia mais sobre como [utilizar OAuth para ligar a servidores SSRS](mobile-oauth-ssrs.md).
+**Autenticação SSRS através da Pré-visualização dos Serviços de Federação do Active Directory (AD FS)** Agora, pode iniciar sessão em servidores do SQL Server Reporting Services no local a partir do dispositivo móvel, com a sua conta profissional. Leia mais sobre como [utilizar OAuth para ligar a servidores SSRS](mobile-oauth-ssrs.md).
 
 #### <a name="android"></a>Android
-**Autenticação SSRS através da Pré-visualização dos Serviços de Federação do Active Directory (AD FS) ** Agora, pode iniciar sessão em servidores do SQL Server Reporting Services no local a partir do dispositivo móvel, com a sua conta profissional. Leia mais sobre como [utilizar OAuth para ligar a servidores SSRS](mobile-oauth-ssrs.md).
+**Autenticação SSRS através da Pré-visualização dos Serviços de Federação do Active Directory (AD FS)** Agora, pode iniciar sessão em servidores do SQL Server Reporting Services no local a partir do dispositivo móvel, com a sua conta profissional. Leia mais sobre como [utilizar OAuth para ligar a servidores SSRS](mobile-oauth-ssrs.md).
 
 **Novo e melhorado: Anote e partilhe informações rapidamente** A partilha e a anotação são agora totalmente funcionais em dispositivos Android. O menu melhorado torna mais fácil e rápido anotar e partilhar informações, e também pode partilhar um relatório anotado ou diretamente da aplicação do Power BI.
 
