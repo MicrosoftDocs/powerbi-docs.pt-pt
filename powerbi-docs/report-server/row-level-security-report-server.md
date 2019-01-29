@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: a03e571b2112772299492c82515496cd0e7180a7
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 2130a0b76c2ff3c333e78f05277bc10028e697df
+ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54489084"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "55068080"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Segurança ao nível da linha (RLS) no Power BI Report Server
 
@@ -106,7 +106,7 @@ Se tiver importado os dados para o Power BI Desktop, pode fazê-lo. Se estiver a
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>Posso utilizar a RLS para limitar as colunas ou medidas acessíveis pelos meus utilizadores? 
 
-Não. Se um utilizador tiver acesso a uma linha de dados específica, poderá ver todas as colunas de dados dessa linha. 
+Não. Se um utilizador tiver acesso a uma linha de dados específica, pode ver todas as colunas de dados dessa linha. 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>A RLS permite-me ocultar dados detalhados, mas dar acesso a dados resumidos nos elementos visuais? 
 
