@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284449"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147410"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
+# <a name="tour-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
 
 O *editor de relatórios* no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço do Power BI. 
 
-Enquanto criador de relatórios, a sua função é criar e editar dashboards e relatórios. Em seguida, distribui-os aos seus consumidores de relatórios. Estes podem interagir com os seus dashboards e relatórios na Vista de Leitura no serviço Power BI, mas não os podem editar. Conheça as diferenças entre a [Vista de Leitura e a Vista de Edição de relatórios no serviço Power BI](consumer/end-user-reading-view.md) 
+Enquanto criador de relatórios, a sua função é criar e editar dashboards e relatórios. Em seguida, distribui-os aos seus consumidores de relatórios. Estes podem interagir com os seus dashboards e relatórios na Vista de Leitura no serviço Power BI, mas não os podem editar. Leia mais sobre [o que os consumidores de relatórios podem fazer no serviço Power BI](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ O conteúdo exibido no editor de relatórios varia de acordo com as seleções f
 
 |  |  |
 | --- | --- |
-| ![Painéis do editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>a parte superior do painel Visualização identifica o tipo de visual em utilização: neste exemplo, um gráfico de colunas em Cluster.<br><br></li> <li>A parte inferior do painel Visualização (poderá ter de deslocar-se para baixo) mostra os campos utilizados no visual. Este gráfico utiliza a variância de FiscalMonth, DistrictManager e Vendas Totais. <br><br></li><li>O painel Filtros (poderá ter de deslocar-se para baixo) mostra os filtros que foram aplicados. <br><br></li><li>O painel Campos mostra as tabelas disponíveis e, se expandir o nome de uma tabela, os campos que constituem essa tabela. O tipo de letra amarelo mostra que pelo menos um campo dessa tabela está a ser utilizado na visualização.<br><br></li><li>![ícone de rolo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar o painel de formatação, para a visualização selecionada, selecione o ícone do rolo de pintura.<br><br></li><li>![ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para mostrar o painel Análise, selecione o ícone de lupa.</ul> |
+| ![Painéis do editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>a parte superior do painel Visualização identifica o tipo de visual em utilização: neste exemplo, um gráfico de colunas em Cluster.<br><br></li> <li>A parte inferior do painel Visualização (poderá ter de deslocar-se para baixo) mostra os campos utilizados no visual. Este gráfico utiliza a variância de FiscalMonth, DistrictManager e Vendas Totais. <br><br></li><li>O painel Filtros (poderá ter de deslocar-se para baixo) mostra os filtros que foram aplicados. <br><br></li><li>O painel Campos mostra as tabelas disponíveis e, se expandir o nome de uma tabela, os campos que constituem essa tabela. O tipo de letra amarelo mostra que pelo menos um campo dessa tabela está a ser utilizado na visualização.<br><br></li><li>![ícone de rolo de pintura](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar o painel de formatação, para a visualização selecionada, selecione o ícone do rolo de pintura.<br><br></li><li>![ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para apresentar o painel Análise, selecione o ícone de lupa.</ul> |
 
 ## <a name="the-visualizations-pane"></a>O painel Visualizações
 ![parte superior do painel Visualização](media/service-the-report-editor-take-a-tour/selectviz.png)
@@ -109,7 +109,7 @@ Para obter mais informações, consulte [Agregados em relatórios do Power BI](s
 Cada campo calculado tem a sua própria fórmula calculada. Não é possível alterar o cálculo; por exemplo, se for uma soma, só poderá ser uma soma. Para obter mais informações, consulte [Noções básicas sobre medidas](desktop-measures.md)
 
 ![ícone de Campos exclusivos](media/service-the-report-editor-take-a-tour/icon.png) **Campos exclusivos**  
-Os campos com este ícone foram importados do Excel e estão definidos para mostrar todos os valores, mesmo se tiverem duplicados. Por exemplo, os seus dados podem ter dois registos para pessoas chamadas “Mateus Rodrigues” e cada um deles será tratado como exclusivo – estes não serão somados.  
+Os campos com este ícone foram importados do Excel e estão definidos para mostrar todos os valores, mesmo se tiverem duplicados. Por exemplo, os seus dados podem ter dois registos para pessoas chamadas "Guilherme Sarmento" e cada um deles será tratado como exclusivo – estes não serão somados.  
 
 **![ícone de Campos geográficos](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Campos geográficos**  
 Os campos de localização podem ser utilizados para criar visualizações de mapas. 

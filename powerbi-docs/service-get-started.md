@@ -1,6 +1,6 @@
 ---
-title: Introdução ao serviço Power BI (Power BI Online)
-description: Introdução ao Power BI Online (app.powerbi.com)
+title: Introdução ao serviço Power BI
+description: Introdução ao serviço Power BI online (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291999"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147502"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
 
-![Ilustração a mostrar a relação entre o Power BI Desktop, o serviço Power BI e o Power BI Mobile](media/service-get-started/power-bi-components.png)
+![ilustração a mostrar a relação entre o Power BI Desktop, o serviço Power BI e o Power BI Mobile](media/service-get-started/power-bi-components.png)
 
 Neste tutorial, irá concluir os seguintes passos:
 
@@ -35,14 +35,14 @@ Neste tutorial, irá concluir os seguintes passos:
 > * Adicionar outra visualização ao dashboard com a ferramenta de linguagem natural Perguntas e Respostas
 > * Limpar recursos ao eliminar conjuntos de dados, relatórios e dashboards
 
-## <a name="sign-up-for-power-bi-service"></a>Inscrever-se no serviço Power BI
+## <a name="sign-up-for-the-power-bi-service"></a>Inscreva-se no serviço do Power BI
 Se não estiver inscrito no Power BI, [inscreva-se numa avaliação gratuita do Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
-Se já tiver uma conta, abra um browser e escreva app.powerbi.com para abrir o serviço Power BI. 
+Se já tiver uma conta, abra um browser e escreva app.powerbi.com para abrir o serviço Power BI. 
 
 ![Iniciar sessão ou Inscrever-se gratuitamente](media/service-get-started/power-bi-sign-up.png)
 
-Se estiver à procura de ajuda para o Power BI Desktop, consulte [Introdução ao Desktop](desktop-getting-started.md). Se procura ajuda no Power BI Mobile, consulte [Aplicações do Power BI para dispositivos móveis](consumer/mobile/mobile-apps-for-mobile-devices.md).
+Se estiver à procura de ajuda para o Power BI Desktop, veja [Introdução ao Power BI Desktop](desktop-getting-started.md). Se procura ajuda no Power BI Mobile, consulte [Aplicações do Power BI para dispositivos móveis](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > Prefere um curso gratuito de formação autónoma? [Inscreva-se no nosso curso Analyzing and Visualizing Data (Analisar e Visualizar Dados) no EdX](http://aka.ms/edxpbi).
@@ -52,7 +52,7 @@ Consulte a nossa [lista de reprodução no YouTube](https://www.youtube.com/play
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>O que é o serviço Power BI?
+## <a name="what-is-the-power-bi-service"></a>O que é o serviço Power BI?
 O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](consumer/end-user-basic-concepts.md).
 
 Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](service-create-distribute-apps.md) já publicadas para si.
@@ -87,7 +87,7 @@ Veja um exemplo de como obter dados de um ficheiro CSV. Deseja acompanhar este t
 
     ![Opção Vista de leitura](media/service-get-started/power-bi-editing-view.png)
 
-    Enquanto está na Vista de edição, pode criar e modificar os relatórios porque é o *proprietário* do relatório; é um *criador*. Quando partilha o relatório com os colegas, eles só poderão interagir com o relatório na Vista de leitura; são *consumidores*. Saiba mais sobre as [Vistas de leitura e de edição](consumer/end-user-reading-view.md).
+    Enquanto está na Vista de Edição, pode criar e modificar os relatórios porque é o *proprietário* do relatório; é um *criador*. Quando partilha o relatório com os colegas, eles só poderão interagir com o relatório na Vista de leitura; são *consumidores*. Saiba mais sobre as [Vistas de leitura e de edição](consumer/end-user-reading-view.md).
     
     Uma excelente forma de se familiarizar com o editor de relatórios é [fazer uma visita](service-the-report-editor-take-a-tour.md)
    > 
@@ -104,11 +104,11 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
    
    ![editor de relatórios com ícone selecionado](media/service-get-started/gettingstart5new.png)
 
-3. Este conteúdo parece ser interessante, por isso, vamos *afixá-lo* a um dashboard. Passe o cursor sobre a visualização e selecione o ícone **Afixar**.  Quando afixar esta visualização, esta é armazenada no dashboard e mantida atualizada para que possa acompanhar rapidamente o valor mais recente.
+3. Este gráfico parece ser interessante, por isso, vamos *afixá-lo* a um dashboard. Passe o cursor sobre a visualização e selecione o ícone **Afixar**.  Quando afixar esta visualização, esta é armazenada no dashboard e mantida atualizada para que possa acompanhar rapidamente o valor mais recente.
    
    ![ícone afixar](media/service-get-started/pinnew.png)
 
-4. Como este é um novo relatório, deverá guardá-lo para poder afixar uma visualização num dashboard. Dê um nome ao relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Guardar e Continuar**. 
+4. Como este relatório é novo, deverá guardá-lo para poder afixar uma visualização num dashboard. Dê um nome ao relatório (por exemplo, *Vendas ao longo do tempo*) e selecione **Guardar e Continuar**. 
    
    ![Caixa de diálogo Guardar relatório](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
