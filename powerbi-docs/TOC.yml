@@ -316,8 +316,8 @@ items:
         href: visuals/power-bi-map-tips-and-tricks.md
       - name: Personalizar as propriedades dos eixos X e Y
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: Mapas ArcGIS no Power BI
-        href: power-bi-visualization-arcgis.md
+      - name: Mapas ArcGIS
+        href: visuals/power-bi-visualization-arcgis.md
       - name: Gráfico de área básico
         href: visuals/power-bi-visualization-basic-area-chart.md
       - name: Cartas (mosaicos com números grandes) no Power BI
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147525"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234491"
