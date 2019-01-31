@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5115abd45d8eafe68b6e6ab0b97a05be51463af4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294363"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430132"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é a administração do Power BI?
 
@@ -83,7 +83,7 @@ Esperamos que este artigo lhe tenha fornecido algumas informações rápidas rel
 
 [Utilizar o portal de administração do Power BI](service-admin-portal.md)
 
-[Utilizar cmdlets do PowerShell](/powershell/power-bi/overview?toc=%2Fen-us%2Fpower-bi%2FTOC.json&bc=%2Fen-us%2Fpower-bi%2Fbreadcrumb%2Ftoc.json&view=powerbi-ps)
+[Utilizar cmdlets do PowerShell](/powershell/power-bi/overview)
 
 [FAQ de administração do Power BI](service-admin-faq.md)
 

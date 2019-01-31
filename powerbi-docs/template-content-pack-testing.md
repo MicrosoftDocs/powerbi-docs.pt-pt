@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281235"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430677"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Testar pacotes de conteúdos de modelo para o Power BI
 Existem várias formas de testar o seu pacote de conteúdos antes de submetê-lo para publicação.  
@@ -68,7 +68,7 @@ Sugerimos que atribua um nome ao dashboard, ao relatório e ao conjunto de dados
 <a name="submission"></a>
 
 ## <a name="submission"></a>Submissão
-O processo de submissão através do [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) permite-lhe publicar o pacote de conteúdos de modelo na galeria de pacotes de conteúdos de serviço no PowerBI.com, bem como listar o pacote de conteúdos no [Microsoft AppSource ](http://appsource.microsoft.com).
+O processo de submissão através do [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) permite-lhe publicar o pacote de conteúdos de modelo na galeria de pacotes de conteúdos de serviço no PowerBI.com, bem como listar o pacote de conteúdos no [Microsoft AppSource ](http://appsource.microsoft.com).
 
 ### <a name="before-submission"></a>Antes da submissão
 * Reveja as sugestões de criação para cada um dos artefactos no pacote de conteúdos
@@ -77,7 +77,7 @@ O processo de submissão através do [Microsoft AppSource](https://appsource.mic
 * Certifique-se de que o pacote de conteúdos responde corretamente às perguntas e respostas; sugerimos que teste, pelo menos, 30 perguntas variadas no modelo de dados. (Ignore este passo se desenvolveu o seu próprio [Conector de Dados](https://aka.ms/DataConnectors) personalizado)
 
 ### <a name="submission"></a>Submissão
-Quando estiver pronto para submeter, visite a [página de submissão de aplicações](https://appsource.microsoft.com/en-us/partners/list-an-app) no AppSource e submeta as suas informações. Certifique-se de que seleciona o Power BI na lista de produtos disponíveis
+Quando estiver pronto para submeter, visite a [página de submissão de aplicações](https://appsource.microsoft.com/partners/list-an-app) no AppSource e submeta as suas informações. Certifique-se de que seleciona o Power BI na lista de produtos disponíveis
 
 A equipa do Power BI analisará a sua submissão e irá contactá-lo para garantir que todos os artefactos cumprem os requisitos de submissão. Além da conclusão, iremos também validar a qualidade do dashboard e dos relatórios fornecidos para garantir que cumprem o cenário empresarial descrito na aplicação.
 

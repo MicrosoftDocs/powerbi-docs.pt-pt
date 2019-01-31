@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 474001a183540edb65d8e2b2ed4c0d6c55dc28d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283489"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430107"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Utilizar as Perguntas e Respostas no Power BI Desktop para consultas de linguagem natural
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no **Power BI Desktop** lhe permitem fazer.
@@ -25,7 +25,7 @@ Para que a funcionalidade Perguntas e Respostas interprete com êxito a abrangen
 > [!NOTE]
 > As Perguntas e Respostas só estão disponíveis quando trabalha com um modelo que tenha dados **importados**. As ligações em direto para modelos SSAS e DirectQuery não são suportadas.
 >
-> As Perguntas e Respostas requerem a seguinte atualização do C runtime se estiver a utilizar uma versão do Windows anterior ao Windows 10. Pode tentar instalar atualizações importantes do Windows Update ou instalar manualmente o componente necessário da Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
+> As Perguntas e Respostas requerem a seguinte atualização do C runtime se estiver a utilizar uma versão do Windows anterior ao Windows 10. Pode tentar instalar atualizações importantes do Windows Update ou instalar manualmente o componente necessário da Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 

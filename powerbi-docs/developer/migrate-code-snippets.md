@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: e1c608279bd725870e52348b2f36fd729a0e9d13
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292919"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429979"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
 Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo. Para obter fluxos relacionados para determinados tipos de relatório, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI para o Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
@@ -73,7 +73,7 @@ using System.Threading.Tasks;
 
 ## <a name="import-report-to-saas-workspace"></a>Importar relatório para área de trabalho SaaS
 ```
-    AuthenticationContext authContext = new AuthenticationContext("https://login.windows.net/common/oauth2/authorize");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentials = new TokenCredentials(PBISaaSAuthResult.AccessToken);
     var client = new PowerBIClient(new Uri($"{"https://api.powerbi.com"}"), credentials);
@@ -112,7 +112,7 @@ using System.Threading.Tasks;
         public string connection { get; set; }
     }
 
-    AuthenticationContext authContext = new AuthenticationContext("https://login.windows.net/common/oauth2/authorize");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api",<myclient_id>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentials = new TokenCredentials(PBISaaSAuthResult.AccessToken);
     var client = new PowerBIClient(new Uri($"{"https://api.powerbi.com"}"), credentials);
@@ -147,7 +147,7 @@ Neste fragmento, estamos a utilizar as credenciais não encriptadas para maior s
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);
     // Set authorization header from you acquired Azure AD token
-    AuthenticationContext authContext = new AuthenticationContext("https://login.windows.net/common/oauth2/authorize");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myclient_id>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
 
     request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", PBISaaSAuthResult.AccessToken);
@@ -199,7 +199,7 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
     }
 
     // step 4 -> Upload dummy PBIX to SaaS workspace
-    AuthenticationContext authContext = new AuthenticationContext("https://login.windows.net/common/oauth2/authorize");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <Your client ID>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentialsSaaS = new TokenCredentials(PBISaaSAuthResult.AccessToken);
     var clientSaaS = new Microsoft.PowerBI.Api.V2.PowerBIClient(new Uri($"{"https://api.powerbi.com"}"), credentialsSaaS);

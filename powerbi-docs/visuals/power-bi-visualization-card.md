@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275807"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430194"
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
 Por vezes, um único número é a coisa mais importante que pretende controlar no seu dashboard ou relatório do Power BI, como as vendas totais, a quota de mercado ano após ano ou o total de oportunidades. Este tipo de visualização é denominado um *Cartão*. Tal como acontece com quase todas as visualizações nativas do Power BI, os Cartões podem ser criados com o editor de relatórios ou as Perguntas e Respostas.
@@ -49,7 +49,7 @@ Estas instruções utilizam o Exemplo de Análise de Retalho. Para acompanhar, [
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Criar um cartão a partir da caixa de Perguntas e Respostas
-A caixa de Perguntas e Respostas é a forma mais fácil de criar um Cartão. A caixa de Perguntas e Respostas está disponível no serviço Power BI (app.powerbi.com) de um dashboard ou na vista de relatório do Desktop. Os passos abaixo descrevem a criação de um Cartão a partir de um dashboard do serviço do Power BI. Se gostaria de criar um cartão com as Perguntas e Respostas no Power BI Desktop, [siga estas instruções](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) para a pré-visualização de Perguntas e Respostas para relatórios do Desktop.
+A caixa de Perguntas e Respostas é a forma mais fácil de criar um Cartão. A caixa de Perguntas e Respostas está disponível no serviço Power BI (app.powerbi.com) de um dashboard ou na vista de relatório do Desktop. Os passos abaixo descrevem a criação de um Cartão a partir de um dashboard do serviço do Power BI. Se gostaria de criar um cartão com as Perguntas e Respostas no Power BI Desktop, [siga estas instruções](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) para a pré-visualização de Perguntas e Respostas para relatórios do Desktop.
 
 1. Crie um [dashboard](../service-dashboards.md) e [obtenha dados](../service-get-data.md). Este exemplo utiliza o [Exemplo de Análise de Oportunidade](../sample-opportunity-analysis.md).
 

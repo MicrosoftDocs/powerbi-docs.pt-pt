@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008586"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430815"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Ligar-se ao Salesforce com o Power BI
 Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. A criação dessa ligação devolver os dados, além de fornecer automaticamente um dashboard e relatórios relacionados com base nesses dados.
@@ -60,11 +60,9 @@ Pode alterar esse dashboard para mostrar os dados de qualquer modo que desejar. 
 
 **O que se segue?**
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
-* [Alterar os mosaicos](service-dashboard-edit-tile.md) no dashboard <<<<<<< CABEÇALHO
-* [Selecionar um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente =======
+* Tente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
+* [Alterar os blocos](service-dashboard-edit-tile.md) no dashboard
 * [Selecionar um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="system-requirements-and-considerations"></a>Requisitos de sistema e considerações

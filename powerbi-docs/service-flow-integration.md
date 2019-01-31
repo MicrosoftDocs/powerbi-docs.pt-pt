@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406621"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430769"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
 
-O [Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started) é uma oferta SaaS para automatizar fluxos de trabalho entre o número cada vez maior de aplicações e serviços SaaS em que os utilizadores empresariais confiam. Com o Flow, pode automatizar tarefas ao integrar os seus serviços e aplicações favoritos (incluindo o Power BI) de forma a obter notificações, sincronizar ficheiros, recolher dados e muito mais. As tarefas repetitivas tornam-se mais fáceis com a automatização de fluxos de trabalho.
+O [Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) é uma oferta SaaS para automatizar fluxos de trabalho entre o número cada vez maior de aplicações e serviços SaaS em que os utilizadores empresariais confiam. Com o Flow, pode automatizar tarefas ao integrar os seus serviços e aplicações favoritos (incluindo o Power BI) de forma a obter notificações, sincronizar ficheiros, recolher dados e muito mais. As tarefas repetitivas tornam-se mais fáceis com a automatização de fluxos de trabalho.
 
 [Comece agora a utilizar o Flow.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -31,7 +31,7 @@ Veja o Sirui a criar um Fluxo que envia um e-mail detalhado aos colegas quando u
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Criar um fluxo acionado por um alerta de dados do Power BI
 
 ### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial mostra-lhe como criar dois fluxos diferentes: um a partir de um modelo e um de raiz. Para acompanhar, [crie um alerta de dados no Power BI](service-set-data-alerts.md), crie uma conta do Slack gratuita e [inscreva-se no Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (é gratuito).
+Este tutorial mostra-lhe como criar dois fluxos diferentes: um a partir de um modelo e um de raiz. Para acompanhar, [crie um alerta de dados no Power BI](service-set-data-alerts.md), crie uma conta do Slack gratuita e [inscreva-se no Microsoft Flow](https://flow.microsoft.com/#home-signup) (é gratuito).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Criar um fluxo que utilize o Power BI a partir de um modelo
 Nesta tarefa vamos utilizar um modelo para criar um fluxo simples que é acionado por um alerta de dados do Power BI (notificação).
@@ -108,7 +108,7 @@ Nesta tarefa vamos criar de raiz um fluxo simples que é acionado por um alerta 
     ![O fluxo aciona uma notificação do Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Próximos passos
-* [Introdução ao Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
+* [Introdução ao Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
 * [Definir alertas de dados no serviço Power BI](service-set-data-alerts.md)
 * [Definir alertas de dados no iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Definir alertas de dados na aplicação móvel do Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
