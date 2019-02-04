@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5998f4b63a168c3056a5464844d008bd657ef7c9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a37daca38c13cff08be13da619735214002646a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294281"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430539"
 ---
 # <a name="using-an-alternate-email-address"></a>Utilizar um endereço de e-mail alternativo
 
@@ -64,7 +64,7 @@ O Power BI seleciona o endereço de e-mail a utilizar com base na seguinte sequ
 
 1. Se o atributo de correio estiver presente no objeto de utilizador do Microsoft Azure AD, o Power BI utilizará esse atributo de correio para o endereço de e-mail.
 
-1. Se o e-mail UPN *não* for um endereço de e-mail com o domínio **\*.onmicrosoft.com** (a informação apresentada após o símbolo “@”), o Power BI utilizará esse atributo de correio para o endereço de e-mail.
+1. Se o e-mail UPN *não* for um endereço de e-mail com o domínio **\*.onmicrosoft.com** (a informação apresentada após o símbolo "\@"), o Power BI utilizará esse atributo de correio para o endereço de e-mail.
 
 1. Se o atributo de matriz do *outro endereço de e-mail* estiver presente no objeto de utilizador do Microsoft Azure AD, será utilizado o primeiro e-mail dessa lista (dado que pode existir uma lista de e-mails neste atributo).
 

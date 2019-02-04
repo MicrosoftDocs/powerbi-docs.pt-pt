@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294133"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431229"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -99,6 +99,14 @@ O back-end da aplicação poderá ter de atualizar o token de autenticação ant
 
 ## <a name="authentication"></a>Autenticação
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>A autenticação falhou com o erro AADSTS90002: Inquilino "autorizar" não encontrado
+
+ Se estiver a receber mensagens como ***error: invalid_request, error_description: AADSTS90002: Inquilino "autorizar" não encontrado*** ao iniciar sessão, isto é porque a ADAL 4.x não suporta "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" como um URL de autoridade.
+ 
+Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu URL de autoridade. Para obter mais informações, veja [Power BI Developer Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) (Exemplos para Programadores do Power BI).
+
+ Veja ainda a secção [Better Authority validation](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) (Melhor validação de autoridades) das notas de versão da ADAL 4.x.
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A autenticação falhou com o erro AADSTS70002 ou AADSTS50053
 
 **_(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_**
@@ -243,7 +251,7 @@ Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/
 
 Verifique se tem todos os pré-requisitos adequados antes de utilizar a Ferramenta de configuração de incorporação. Precisa de uma conta do **Power BI Pro** e de uma subscrição do **Microsoft Azure**.
 
-* Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/en-us/pricing/) antes de começar.
+* Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 * Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
 * Tem de ter a sua própria configuração de [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md).
 * Precisa do [Visual Studio](https://www.visualstudio.com/) instalado (versão 2013 ou posterior).
@@ -294,9 +302,9 @@ Para obter mais informações, veja [Perguntas frequentes sobre o Power BI Embe
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
-Se precisar de mais assistência, [contacte o suporte](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) ou [crie um pedido de suporte através do portal do Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e indique as mensagens de erro que encontrar.
+Se precisar de mais assistência, [contacte o suporte](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) ou [crie um pedido de suporte através do portal do Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e indique as mensagens de erro que encontrar.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Para obter mais informações, veja as [FAQs](embedded-faq.md).
 

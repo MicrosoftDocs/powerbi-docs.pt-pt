@@ -1,5 +1,5 @@
 ---
-title: Trabalhar com Visualizações
+title: Trabalhar com Visualizações como um consumidor
 description: Conceitos e terminologia do Power BI – visualizações, elementos visuais. O que é uma visualização, um elemento visual do Power BI.
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287647"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234353"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Visualizações para os **consumidores** do Power BI
 
@@ -35,7 +35,7 @@ Mas antes de tudo, uma palavra sobre as perguntas e respostas. As perguntas e re
 
 |Coluna1  |Num dashboard  |Num relatório  | Nas perguntas e respostas
 |---------|---------|---------|--------|
-|[Adicionar comentários a uma visualização para si próprio ou iniciar uma conversação com os colegas sobre a visualização](end-user-comment.md).     |  sim       |   não      |  não  |
+|[Adicionar comentários a uma visualização para si próprio ou iniciar uma conversa com os colegas sobre a visualização](end-user-comment.md).     |  sim       |   não      |  não  |
 |[Abrir e explorar o relatório em que a visualização foi criada](end-user-tiles.md).     |    sim     |   na      |  na |
 |[Abrir e explorar uma visualização em perguntas e respostas (se as perguntas e respostas foram utilizadas para criar a visualização)](end-user-q-and-a.md)     |   sim      |   na      |  na  |
 |[Peça ao Power BI para procurar por si factos interessantes ou tendências](end-user-insights.md) nos dados da visualização.  Estes são denominados *informações automáticas*.     |    sim     |   sim      | não   |
@@ -51,6 +51,7 @@ Mas antes de tudo, uma palavra sobre as perguntas e respostas. As perguntas e re
 | Adicione um destaque a uma visualização. | não  | sim  |  não |
 | Analise (consoante o tipo de visualização). | não  | sim  | não  |
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Regressar a [Conceitos básicos para consumidores](end-user-basic-concepts.md)    
-[Selecionar uma visualização para abrir um relatório](end-user-report-open.md)
+[Selecionar uma visualização para abrir um relatório](end-user-report-open.md)    
+[Tipos de visualizações disponíveis no Power BI](end-user-visual-type.md)

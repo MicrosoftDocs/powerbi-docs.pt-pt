@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284225"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234422"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 
@@ -57,7 +57,7 @@ Se pretende utilizar quaisquer funcionalidades do Excel Online que utilizam o ac
 1. Transfira o Office Online Server a partir do [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). A transferência está localizada nesses produtos do Office no portal do VLSC. Para fins de desenvolvimento, pode transferir o OOS a partir de transferências de subscritor do MSDN.
 2. Execute o Setup.exe.
 3. Na página **Leia os Termos de Licenciamento de Software Microsoft**, selecione **Aceito os termos deste contrato** e selecione **Continuar**.
-4. Na página **Escolha uma localização de ficheiro**, selecione a pasta onde quer que os ficheiros do Office Online Server sejam instalados (por exemplo, C:\Program Files\Microsoft Office Web Apps*) e selecione **Instalar Agora**. Se a pasta que especificou não existir, a Configuração cria a mesma por si.
+4. Na página **Escolha uma localização de ficheiro**, selecione a pasta onde quer que os ficheiros do Office Online Server sejam instalados (por exemplo, C:\Program Files\Microsoft Office Web Apps\*) e selecione **Instalar Agora**. Se a pasta que especificou não existir, a Configuração cria a mesma por si.
 
     Recomendamos que instale o Office Online Server na unidade do sistema.
 
@@ -182,7 +182,7 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 
 * Terá apenas a capacidade de leitura nos livros.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  

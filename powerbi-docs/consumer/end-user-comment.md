@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394660"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234537"
 ---
 # <a name="add-comments-to-a-dashboard"></a>Adicionar comentários a um dashboard
 Adicione um comentário pessoal ou inicie uma conversa sobre um dashboard com os seus colegas. A funcionalidade de **comentário** é apenas uma das formas de como um *consumidor* pode colaborar com outros. 
@@ -73,7 +73,7 @@ Os comentários podem ser adicionados a todo o dashboard ou a elementos visuais 
 5. Selecione **Fechar** para voltar ao dashboard ou relatório.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Chame a atenção dos seus colegas ao utilizar o símbolo @
-Quer esteja a criar comentários no dashboard ou a comentar um elemento visual específico, chame a atenção dos seus colegas ao utilizar o símbolo "@".  Quando escreve o símbolo "@", o Power BI abre uma lista pendente onde pode procurar e selecionar pessoas da sua organização. Qualquer nome verificado que tenha o símbolo "@" no início é apresentado a azul. 
+Quer esteja a criar comentários no dashboard ou a comentar um elemento visual específico, chame a atenção dos seus colegas ao utilizar o símbolo "\@".  Quando escreve o símbolo "\@", o Power BI abre uma lista pendente onde pode procurar e selecionar pessoas da sua organização. Qualquer nome verificado que tenha o símbolo "\@" no início é apresentado a azul. 
 
 Aqui está uma conversa que estou a ter com o *designer* da visualização. Ele utiliza o símbolo @ para garantir que vejo o comentário. Eu sei que este comentário é para mim. Quando abro o dashboard desta aplicação no Power BI, seleciono **Comentários** no cabeçalho. O painel **Comentários** apresenta a nossa conversa.
 
@@ -81,6 +81,6 @@ Aqui está uma conversa que estou a ter com o *designer* da visualização. Ele 
 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Voltar às [visualizações para os consumidores](end-user-visualizations.md)    
 <!--[Select a visualization to open a report](end-user-open-report.md)-->
