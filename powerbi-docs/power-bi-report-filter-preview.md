@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be6496f6445c78250c17c98ac4b343eb0b0a0c66
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290021"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482712"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>A nova experiência de filtros nos relatórios do Power BI (Pré-visualização)
 
@@ -108,7 +108,7 @@ Também pode formatar estes elementos para cartões de filtros, dependendo se es
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Ver filtros de um elemento visual no Modo de leitura
 
-No Modo de leitura, pode pairar o rato sobre um elemento visual e verá um pop-up com todos os filtros, segmentações de dados, entre outros, que afetam esse elemento visual. A formatação do pop-up é igual à formatação do painel de filtros. 
+No Modo de leitura, pode pairar o rato sobre um elemento visual no ícone de filtro para ver um pop-up com todos os filtros, segmentações de dados, entre outros, que afetam esse elemento visual. A formatação do pop-up é igual à formatação do painel de filtros. 
 
 ![Filtros que afetam um elemento visual](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 

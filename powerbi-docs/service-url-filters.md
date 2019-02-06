@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/31/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
+ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234445"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "55648703"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -40,6 +40,14 @@ URL?filter=***Tabela***/***Campo*** eq '***valor***'
 
 * Os nomes de **Tabela** e **Campo** são sensíveis a maiúsculas e minúsculas, ao contrário de **valor**.
 * Os campos que são ocultados da vista de relatórios também podem ser filtrados.
+
+### <a name="reports-in-apps"></a>Relatórios nas aplicações
+
+Se pretender adicionar um filtro de URL a um relatório numa aplicação, a formatação é um pouco diferente. As ligações para relatórios numa aplicação têm um parâmetro de consulta (ctid) que é adicionado ao URL. Os parâmetros de consulta têm de ser separados por um e comercial (&). Por isso, tem de anexar a consulta com "&filter=" (após o parâmetro ctid) em vez de "&filter=". 
+
+Tal como este exemplo:
+
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
 
 ### <a name="field-types"></a>Tipos de campo
 
@@ -118,10 +126,10 @@ Um filtro de URL do Power BI pode incluir números nos seguintes formatos.
 |Tipo de número  |Exemplo  |
 |---------|---------|
 |**inteiro**     |   5      |
-|**longo**     |   5L ou 5l      |
+|**longo**     |   5 L ou 5 l      |
 |**duplo**     |   5,5 ou 55e-1 ou 0,55e+1 ou 5D ou 5d ou 0,5e1D ou 0,5e1d ou 5,5D ou 5,5d ou 55e-1D ou 55e-1d     |
-|**decimal**     |   5M ou 5m ou 5,5M ou 5,5m      |
-|**flutuante**     | 5F ou 5f ou 0,5e1F ou 0,5e-1d        |
+|**decimal**     |   5 M ou 5 m ou 5,5 M ou 5,5 m      |
+|**flutuante**     | 5 F ou 5 f ou 0,5e1 F ou 0,5e-1 d        |
 
 ### <a name="date-data-types"></a>Tipos de dados de data
 
@@ -174,7 +182,7 @@ Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de 
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.
 * Os filtros de URL de relatório têm um limite de 10 expressões (10 filtros ligados por AND).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Afixar uma visualização a um dashboard](service-dashboard-pin-tile-from-report.md)  
 [Inscrever-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/)
