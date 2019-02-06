@@ -2,21 +2,22 @@
 title: Instalar o Power BI Desktop otimizado para o Power BI Report Server
 description: Saiba como instalar o Power BI Desktop otimizado para o Power BI Report Server
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/24/2019
-ms.author: maggies
-ms.openlocfilehash: c118e3c2f8b30635982a37c47da9fb9e337aff05
-ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
+ms.openlocfilehash: 63550950b21231909c32ac63f5f2930ebf93c0af
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "54907533"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762220"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
+
 Saiba como instalar o Power BI Desktop otimizado para o Power BI Report Server.
 
 Para criar relatórios do Power BI para o Power BI Report Server, tem de transferir e instalar o Power BI Desktop otimizado para o Power BI Report Server. Esta versão é diferente da do Power BI Desktop utilizada no serviço Power BI. Por exemplo, a versão do Power BI Desktop do serviço Power BI inclui funcionalidades de pré-visualização que não serão incluídas na versão do Power BI Report Server até serem lançadas. A utilização desta versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
@@ -44,7 +45,7 @@ A forma mais fácil de garantir que tem a versão mais atualizada do Power BI De
 1. Após transferir o instalador, execute o Assistente de Configuração do Power BI Desktop (janeiro de 2019).
 
 2. No final da instalação, selecione a opção **Iniciar o Power BI Desktop agora**.
-   
+
     Este inicia automaticamente e está pronto para começar.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Confirmar que está a utilizar a versão correta
@@ -64,9 +65,11 @@ Pode sempre começar por abrir a versão do Power BI Desktop que pretende utiliz
 Ao editar um relatório do Power BI a partir do Power BI Report Server, ou criar um novo relatório do Power BI a partir do portal Web, abre sempre a versão correta do Power BI Desktop.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
+
 Os relatórios do Power BI no Power BI Report Server, no serviço Power BI (http://app.powerbi.com) e nas aplicações móveis do Power BI têm um comportamento quase igual, mas com algumas diferenças em funcionalidades.
 
 ### <a name="in-a-browser"></a>Num browser
+
 Os relatórios do Power BI Report Server suportam todas as visualizações, incluindo:
 
 * Elementos visuais personalizados
@@ -79,6 +82,7 @@ Os relatórios do Power BI Report Server não suportam:
 * Funcionalidades de pré-visualização do Power BI Desktop
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Nas aplicações móveis do Power BI
+
 Os relatórios do Power BI Report Server suportam todas as funcionalidades básicas nas [aplicações móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), incluindo:
 
 * [Esquema de relatório de telemóvel](../desktop-create-phone-report.md): pode otimizar um relatório para as aplicações móveis do Power BI. No telemóvel, os relatórios otimizados têm um ícone ![Ícone de esquema de relatório em telemóvel](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) e um esquema especiais.
@@ -100,10 +104,10 @@ Se o seu servidor de relatórios se encontrar numa versão anterior, irá precis
 - Microsoft Power BI Desktop ([Otimizado para o Power BI Report Server – agosto de 2018](https://www.microsoft.com/download/details.aspx?id=57271))
 
 ## <a name="next-steps"></a>Próximos passos
+
 Agora que o Power BI Desktop está instalado, pode começar a criar relatórios do Power BI.
 
 [Criar um relatório do Power BI para o Power BI Report Server](quickstart-create-powerbi-report.md)  
 [O que é o Power BI Report Server?](get-started.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

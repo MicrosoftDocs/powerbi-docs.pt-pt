@@ -2,22 +2,21 @@
 title: Esquemas personalizados com conteúdo incorporado do Power BI
 description: Saiba mais sobre esquemas personalizados ao incorporar conteúdo do Power BI na sua aplicação.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288940"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762312"
 ---
 # <a name="custom-layouts"></a>Esquemas personalizados
-
 
 Utilize o esquema personalizado para incorporar um relatório com um esquema diferente do que num relatório original. Definir um novo esquema varia entre definir apenas um tamanho de página, controlar os tamanhos dos elementos visuais ou a posição e a visibilidade.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, altura: define o novo tamanho do elemento visual.
 - `displayState`: define a visibilidade do elemento visual.
 
-
 ## <a name="update-layout"></a>Atualizar o esquema
 
 Pode utilizar o método updateSettings para atualizar o esquema do relatório em qualquer altura enquanto o relatório é carregado. Veja [Definições de Atualização](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings).
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>Veja também
 
 [Incorporar os dashboards, os relatórios e os mosaicos do Power BI](embedding-content.md)   
 [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
-

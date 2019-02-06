@@ -2,21 +2,22 @@
 title: Fragmentos de código para a migração de conteúdo a partir do Power BI Embedded
 description: Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429979"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762519"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
+
 Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo. Para obter fluxos relacionados para determinados tipos de relatório, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI para o Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 Existe uma **ferramenta de migração** à sua disposição para ajudar a copiar o conteúdo do Power BI Embedded (PaaS) para o serviço Power BI (SaaS). Especialmente se tiver muito conteúdo. Para obter mais informações, veja [Ferramenta de migração do Power BI Embedded](migrate-tool.md).
@@ -25,7 +26,7 @@ Os códigos abaixo são exemplos da utilização de C# e do [SDK .NET do Power B
 
 Certifique-se de que está a utilizar os seguintes espaços de nomes para executar os fragmentos de código abaixo.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>Exportar relatório de área de trabalho PaaS
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>Importar relatório para área de trabalho SaaS
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>Extrair a cadeia de ligação do DirectQuery do relatório PaaS
+
 É utilizado para atualizar o PBIX depois de migrar para o SaaS.
 
 ```
@@ -105,6 +108,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>Atualizar a cadeia de ligação de DirectQuery na área de trabalho SaaS
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>Definir as credenciais do DirectQuery na área de trabalho SaaS
+
 Neste fragmento, estamos a utilizar as credenciais não encriptadas para maior simplicidade: o envio de credenciais encriptadas também é suportado.
 
 ```
@@ -159,6 +164,7 @@ Neste fragmento, estamos a utilizar as credenciais não encriptadas para maior s
 ```
 
 ## <a name="push-dataset--report"></a>Enviar o conjunto de dados e o relatório por push
+
 Terá de recriar o relatório para o conjunto de dados criado.
 
 Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por push já está numa área de trabalho de aplicação do ambiente SaaS. Para obter informações sobre a API push, veja [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md).
@@ -223,6 +229,7 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
 ```
 
 ## <a name="next-steps"></a>Passos seguintes
+
 [Ferramenta de migração Power BI Embedded](migrate-tool.md)  
 [Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdo da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
 [Documento técnico do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-

@@ -2,26 +2,28 @@
 title: Listagem de código completo
 description: Instruções para enviar dados por push - Listagem de código completo
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429942"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762243"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Enviar dados por push para a listagem de código completo de um conjunto de dados
+
 Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
 Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dados**, o seu código fonte completo deve ser semelhante ao seguinte.
 
 ## <a name="push-data-to-dataset-code"></a>Código para enviar dados por push para conjunto de dados
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dado
           }
       }
 
-
 ## <a name="next-steps"></a>Próximos passos
+
 [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md)  
 [Passo a passo - Enviar dados por push a um conjunto de dados do Power BI](walkthrough-push-data.md)  
 [Registar uma aplicação no Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dado
 [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 
-
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

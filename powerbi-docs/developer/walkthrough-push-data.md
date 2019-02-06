@@ -4,17 +4,17 @@ description: Enviar dados por push para um conjunto de dados do Power BI
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/05/2017
-ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278499"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762266"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push para um conjunto de dados do Power BI
 

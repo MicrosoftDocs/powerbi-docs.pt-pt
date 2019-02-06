@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431229"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762105"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -106,7 +106,7 @@ O back-end da aplicação poderá ter de atualizar o token de autenticação ant
 Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu URL de autoridade. Para obter mais informações, veja [Power BI Developer Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) (Exemplos para Programadores do Power BI).
 
  Veja ainda a secção [Better Authority validation](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) (Melhor validação de autoridades) das notas de versão da ADAL 4.x.
- 
+
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A autenticação falhou com o erro AADSTS70002 ou AADSTS50053
 
 **_(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_**
@@ -185,7 +185,7 @@ O consentimento do utilizador está desativado no inquilino.
 
 *Conceder permissões* para a aplicação por um administrador: para todo o inquilino ou para um utilizador específico.
 
-## <a name="data-sources"></a>Origens de dados
+## <a name="data-sources"></a>Data sources
 
 ### <a name="isv-wants-to-have-different-credentials-for-the-same-data-source"></a>O ISV pretende ter credenciais diferentes para a mesma origem de dados
 
@@ -304,7 +304,7 @@ Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.co
 
 Se precisar de mais assistência, [contacte o suporte](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) ou [crie um pedido de suporte através do portal do Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e indique as mensagens de erro que encontrar.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 Para obter mais informações, veja as [FAQs](embedded-faq.md).
 
