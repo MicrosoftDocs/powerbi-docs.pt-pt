@@ -45,6 +45,8 @@ items:
         href: end-user-report-filter.md
       - name: Saiba como os elementos visuais do relatório realizam a filtragem cruzada entre si
         href: end-user-interactions.md
+      - name: Export a report to PDF (Exportar um relatório para PDF)
+        href: end-user-pdf.md
     - name: Visualizações
       items:
       - name: O que posso fazer com visualizações?
@@ -189,9 +191,9 @@ items:
     items:
     - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 623c45cf4522e7596dd1b83925b62d7957474548
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 39f29c1fdc719defe1afe1f9bcdb5ef98a34c3c5
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234330"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794527"

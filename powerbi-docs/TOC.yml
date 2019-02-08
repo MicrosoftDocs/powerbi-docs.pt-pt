@@ -870,6 +870,8 @@ items:
       items:
       - name: Melhores Práticas para o Desempenho
         href: developer/embedded-performance-best-practices.md
+      - name: Service principal (Principal de serviço)
+        href: developer/embed-service-principal.md
       - name: Row-level security
         href: developer/embedded-row-level-security.md
       - name: Manage multi-tenants (Gerir vários inquilinos)
@@ -886,9 +888,9 @@ items:
         href: developer/embed-from-apps.md
       - name: Criar um inquilino do Azure Active Directory
         href: developer/create-an-azure-active-directory-tenant.md
-      - name: Register an application (Registar uma aplicação)
+      - name: Registar uma aplicação
         href: developer/register-app.md
-      - name: Authenticate to Power BI service (Autenticar no serviço Power BI)
+      - name: Obter um token de acesso do Azure AD
         href: developer/get-azuread-access-token.md
       - name: Embedding Q&A (Incorporação das Perguntas e Respostas)
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Adicionar linhas a uma tabela
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Encrypt credentials (Encriptar credenciais)
+        href: developer/encrypt-credentials.md
     - name: Referência
       items:
       - name: APIs REST
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Manage Power BI Premium (Gerir o Power BI Premium)
         href: service-admin-premium-manage.md
-      - name: Monitorizar as capacidades Premium com a aplicação
+      - name: Monitorizar capacidades com a aplicação
         href: service-admin-premium-monitor-capacity.md
-      - name: Monitor Premium capacities in the admin portal (Monitorizar as capacidades Premium no portal de administração)
+      - name: Monitor capacities in the Admin portal (Monitorizar capacidades no Portal de administração)
         href: service-admin-premium-monitor-portal.md
       - name: Restart a Premium capacity (Reiniciar uma capacidade Premium)
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760401"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794509"
