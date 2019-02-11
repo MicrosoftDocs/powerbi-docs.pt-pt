@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431160"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762680"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Incorporar um dashboard, mosaico ou relatório do Power BI na sua aplicação de clouds soberanas
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>Tutorial: incorporar conteúdos do Power BI na sua aplicação para clouds soberanas
 
 Saiba como incorporar conteúdo analítico nas suas aplicações de processo de negócio para a cloud soberana. Pode utilizar o SDK .NET do Power BI com a API de JavaScript do Power BI para incorporar um relatório, dashboard ou mosaico nas suas aplicações Web.
 
@@ -37,7 +37,7 @@ As diferentes clouds soberanas:
 
 ![Dashboard incorporado](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para começar a utilizar estas instruções, precisa de uma **conta do Power BI**. Se não tiver uma conta configurada, consoante o tipo de cloud soberana, pode inscrever-se numa [conta do Power BI do Governo dos EUA](../service-govus-signup.md), numa [conta do Power BI para Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) ou numa [conta do Power BI para China Cloud](http://www.21vbluecloud.com/powerbi/).
+Para começar a utilizar estas instruções, precisa de uma **conta do Power BI**. Se não tiver uma conta configurada, pode escolher a cloud soberana certa para si, consoante o tipo de governo ou país. Pode inscrever-se numa [conta do Power BI do Governo dos EUA](../service-govus-signup.md), numa [conta do Power BI para Germany Cloud](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) ou numa [conta do Power BI para China Cloud](http://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Pretende incorporar um dashboard para a sua organização em alternativa? Veja [Integrar um dashboard numa aplicação para a sua organização](integrate-dashboard.md).
@@ -229,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Criar o token de incorporação
 
-Com a API JavaScript, pode gerar um token de incorporação. O token de incorporação é específico do item que está a incorporar. Sempre que incorporar um fragmento de conteúdo do Power BI, tem de criar um novo token de incorporação para o mesmo. Para obter mais informações, incluindo que **accessLevel** utilizar, veja [Token de Incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Com a API JavaScript, pode gerar um token de incorporação. O token de incorporação é específico do item que está a incorporar. Sempre que incorporar um fragmento de conteúdo do Power BI, tem de criar um novo token de incorporação para o mesmo. Para obter mais informações, incluindo que **accessLevel** utilizar, veja [Token de Incorporação](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
 > Visto que os tokens de incorporação se destinam apenas a testes de programadores, o número de tokens de incorporação que uma conta principal do Power BI pode gerar é limitado. Tem de [comprar capacidade](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de incorporação de tokens. Não existe limite para a geração de tokens de incorporação quando é comprada capacidade.
@@ -435,7 +435,7 @@ Um exemplo de aplicação está disponível em [Exemplo de incorporação para a
 
 * [Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI](migrate-from-powerbi-embedded.md)
 
-Limitações e considerações
+Considerações e limitações
 
 * Atualmente, as contas de GCC só suportam funcionalidades P e EM
 

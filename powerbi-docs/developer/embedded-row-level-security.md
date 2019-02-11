@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284179"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762703"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>Utilize segurança de nível de linha com conteúdo incorporado do Power BI
+# <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 
 Pode utilizar a **segurança ao nível da linha (RLS)** para restringir o acesso do utilizador a dashboards, mosaicos, relatórios e conjuntos de dados. Utilizadores diferentes podem trabalhar com os mesmos artefactos enquanto veem dados diferentes. A incorporação suporta a RLS.
 
@@ -247,7 +247,7 @@ Os clientes que armazenam os dados na **Base de Dados SQL do Azure** já podem b
 
 Ao gerar o token de incorporação, pode especificar a identidade em vigor de um utilizador no SQL do Azure. Pode especificar a identidade em vigor de um utilizador ao transmitir o token de acesso do AAD para o servidor. O token de acesso é utilizado para extrair apenas os dados relevantes desse utilizador do SQL do Azure, dessa sessão específica.
 
-Pode ser utilizado para gerir a vista de cada utilizador no SQL do Azure ou para iniciar sessão no SQL do Azure como um cliente específico numa BD multi-inquilinos. Também pode ser utilizado para aplicar a segurança ao nível da linha nessa sessão no SQL do Azure e obter apenas os dados relevantes para essa sessão, ao eliminar a necessidade de gerir a RLS no Power BI.
+Pode ser utilizado para gerir a vista de cada utilizador no SQL do Azure ou para iniciar sessão no SQL do Azure como um cliente específico numa BD multi-inquilinos. Também pode aplicar a segurança ao nível da linha nessa sessão no SQL do Azure e obter apenas os dados relevantes para essa sessão, eliminando a necessidade de gerir a RLS no Power BI.
 
 Tais problemas de identidade em vigor aplicam-se diretamente às regras da RLS no SQL Server do Azure. O Power BI Embedded utiliza o token de acesso fornecido ao consultar os dados SQL Server do Azure. O UPN do utilizador (para o qual o token de acesso foi fornecido) está acessível devido à função SQL USER_NAME().
 
@@ -308,6 +308,18 @@ O valor fornecido no blob de identidade deve ser um token de acesso válido para
 
    ![Registo de aplicações](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Gateway de dados no local com o principal de serviço (Pré-visualização)
+
+Os clientes que configuram a segurança ao nível da linha (RLS) através de uma origem de dados dinâmica no local do SQL Server Analysis Services (SSAS) podem usufruir da nova capacidade do [principal de serviço](embed-service-principal.md) para gerir os utilizadores e o respetivo acesso a dados no SSAS ao integrar com o **Power BI Embedded**.
+
+Utilizar as [APIs REST Power BI](https://docs.microsoft.com/rest/api/power-bi/) permite-lhe especificar a identidade efetiva das ligações dinâmicas no local do SSAS para um token de incorporação através de um [objeto de principal de serviço](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+
+Até agora, para poder especificar a identidade efetiva da ligação dinâmica no local do SSAS, o utilizador principal que gere o token de incorporação devia ser um administrador do gateway. Agora, em vez de exigir que o utilizador seja um administrador do gateway, o administrador do gateway pode dar ao utilizador permissão dedicada à origem de dados. Isto permite que o utilizador ignore a identidade efetiva ao gerar o token de incorporação. Esta nova capacidade permite incorporar com o principal de serviço numa ligação SSAS dinâmica.
+
+Para ativar este cenário, o administrador do gateway utiliza a [API REST Adicionar Utilizador da Origem de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) para dar ao principal de serviço a permissão *ReadOverrideEffectiveIdentity* do Power BI Embedded.
+
+Não pode configurar esta permissão com o portal de administração. Esta permissão só é configurada com a API. No portal de administração, verá uma indicação para utilizadores e SPNs com essas permissões.
+
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 * A atribuição de utilizadores às funções no serviço Power BI não afeta a RLS ao utilizar um token de incorporação.
@@ -315,7 +327,7 @@ O valor fornecido no blob de identidade deve ser um token de acesso válido para
 * As ligações ao vivo do Analysis Services são suportadas para servidores locais.
 * As ligações ao vivo do Azure Analysis Services suportam a filtragem por funções. A filtragem dinâmica pode ser efetuada com CustomData.
 * Se o conjunto de dados subjacente não solicitar a RLS, o pedido GenerateToken **não** pode conter uma identidade eficaz.
-* Se o conjunto de dados subjacente for um modelo cloud (modelo em cache ou DirectQuery), a identidade em vigor terá de incluir, pelo menos, uma função. Caso contrário, a atribuição da função não ocorrerá.
+* Se o conjunto de dados subjacente for um modelo cloud (modelo em cache ou DirectQuery), a identidade efetiva terá de incluir pelo menos uma função. Caso contrário, a atribuição da função não ocorrerá.
 * Uma lista de identidades permite vários tokens de identidade para incorporação do dashboard. Para todos os outros artefactos, a lista contém uma única identidade.
 
 ### <a name="token-based-identity-limitations-preview"></a>Limitações da Identidade baseada em tokens (pré-visualização)

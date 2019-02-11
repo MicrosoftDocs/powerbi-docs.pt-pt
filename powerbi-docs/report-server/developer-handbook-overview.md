@@ -9,34 +9,34 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291631"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794711"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Descrição geral do manual de programador, Power BI Report Server
 Bem-vindo ao manual de programador para o Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI.
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-Este manual irá realçar as opções disponíveis, como programador, para trabalhar no Power BI Report Server.
+Este manual realça as opções disponíveis, como programador, para trabalhar no Power BI Report Server.
 
 ## <a name="embedding"></a>Incorporação
-Para qualquer relatório do Power BI Report Server, pode incorporar numa iFrame, ao adicionar o parâmetro de cadeia de consulta `?rs:Embed=true` ao URL. Isto funciona com relatórios do Power BI, bem como outros tipos de relatório.
+Para qualquer relatório do Power BI Report Server, pode incorporar numa iFrame, ao adicionar o parâmetro de cadeia de consulta `?rs:Embed=true` ao URL. Esta técnica funciona com relatórios do Power BI, bem como outros tipos de relatório.
 
 ### <a name="report-viewer-control"></a>Controlo do Visualizador de Relatórios
-Para obter relatórios paginados, pode tirar partido do Controlo do Visualizador de Relatórios. Isto permite-lhe colocar o controlo dentro do Windows .NET ou aplicação Web. Para obter mais informações, veja [Introdução ao Controlo do Visualizador de Relatórios](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+Para obter relatórios paginados, pode tirar partido do Controlo do Visualizador de Relatórios. Com o mesmo, pode colocar o controlo dentro do Windows .NET ou aplicação Web. Para obter mais informações, veja [Introdução ao Controlo do Visualizador de Relatórios](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 ## <a name="apis"></a>APIs
-Existem várias opções de API para interagir com o Power BI Report Server. Isto inclui o seguinte.
+Existem várias opções de API para interagir com o Power BI Report Server. Esta técnica inclui o seguinte.
 
 * [APIs REST](rest-api.md)
 * [Acesso por URL](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
 * [Fornecedor de WMI](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-Também pode utilizar a open source [Utilitários do PowerShell](https://github.com/Microsoft/ReportingServicesTools) para gerir o servidor de relatórios.
+Também pode utilizar os [utilitários do PowerShell](https://github.com/Microsoft/ReportingServicesTools) open source para gerir o servidor de relatórios.
 
 > [!NOTE]
 > Os utilitários do PowerShell não suportam atualmente ficheiros do Power BI Desktop (.pbix).
@@ -55,7 +55,7 @@ Pode criar vários tipos de extensões.
 
 Para obter mais informações, veja [Biblioteca de extensões](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Controlo do Visualizador de Relatórios](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
 [Criar Aplicações com o Serviço Web e o .NET Framework](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [Acesso por URL](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  

@@ -3,22 +3,22 @@ title: Subscrever relatórios e dashboards
 description: Saiba como subscrever a receção de instantâneos de relatórios ou dashboards do Power BI para que sejam enviados por e-mail para si e para os seus colegas.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/05/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a35067af531f6da29edef7638fc9a743c948b8ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430263"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794329"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
-Nunca foi tão fácil manter-se atualizado relativamente ao seus dashboards e relatórios mais importantes. Subscreva as páginas de relatório e dashboards mais importantes para si e o Power BI enviará um instantâneo por e-mail para a sua caixa de entrada. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente ou mediante a atualização dos dados. Também pode definir uma altura específica para o Power BI enviar os e-mails.  
+Nunca foi tão fácil manter-se atualizado relativamente ao seus dashboards e relatórios mais importantes. Subscreva as páginas de relatório e dashboards mais importantes para si e o Power BI enviará um instantâneo por e-mail para a sua caixa de entrada. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente ou mediante a atualização dos dados. Também pode definir uma hora específica para o Power BI enviar os e-mails ou executar o envio agora.  
 
 O e-mail e o instantâneo utilizarão o idioma definido nas definições do Power BI (veja os [Idiomas e países/regiões com suporte no Power BI](../supported-languages-countries-regions.md)). Se não for definido qualquer idioma, o Power BI utilizará o idioma de acordo com a definição de local do browser atual. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem ![ícone de engrenagem](./media/end-user-subscribe/power-bi-settings-icon.png) > **Definições > Geral > Idioma**. 
 
@@ -40,23 +40,23 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
    
    ![ícone Subscrever](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Janela Subscrever](./media/end-user-subscribe/power-bi-emails2.png)
+   ![Janela Subscrever](./media/end-user-subscribe/power-bi-emails-new.png)
     
     O ecrã do lado esquerdo é apresentado quando estiver num dashboard e selecionar **Subscrever**. O ecrã do lado direito é apresentado quando estiver numa página de relatório e selecionar **Subscrever**. Para subscrever mais do que uma página num relatório, selecione **Adicionar outra subscrição** e selecione uma página diferente. 
 
-3. Utilize o controlo de deslize amarelo para ativar e desativar a subscrição.  Definir o controlo de deslize para Desativado não elimina a subscrição. Para eliminar a subscrição, selecione o ícone de recipiente do lixo.
+4. Utilize o controlo de deslize amarelo para ativar e desativar a subscrição.  Definir o controlo de deslize para Desativado não elimina a subscrição. Para eliminar a subscrição, selecione o ícone de recipiente do lixo.
 
 4. Em opção, preencha os detalhes da mensagem de e-mail. 
 
 5. Selecione uma **Frequência** para a sua subscrição.  Pode selecionar as opções Diariamente, Semanalmente ou Depois da atualização de dados (Diariamente).  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Semanalmente** e escolha os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione a opção **Semanalmente** como frequência e desselecione as caixas Sáb. e Dom.   
 
-
 6. Agende a hora de envio do e-mail ao selecionar a opção Diariamente ou Semanalmente como frequência e ao introduzir uma **Hora** **Agendada** para a subscrição.   
 
 7. Agende a data de início e de fim ao introduzir as mesmas nos campos de data. Por predefinição, a data de início da sua subscrição será a data em que a criou e a data de fim será um ano após a criação. Quando uma subscrição atinge a data de fim, esta é interrompida até que a volte a ativar.  Receberá notificações antes da data de fim agendada a perguntar se quer prolongar a subscrição.     
 
+8. Para rever a sua subscrição e testá-la, selecione **Executar agora**.  Esta opção faz com que o e-mail seja imediatamente enviado para si. 
 
-5. Selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou relatório dentro do agendamento que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
+8. Se tudo estiver correto, selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou relatório dentro do agendamento que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
    
    ![instantâneo do dashboard num e-mail](media/end-user-subscribe/power-bi-subscribe-email.png)
    
@@ -74,7 +74,7 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança aplicada ao nível da linha (RLS), o mesmo não será apresentado.  Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, não poderá criar uma subscrição.
-* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e for-lhe atribuído um nome novo, terá de criar novamente a sua subscrição.
+* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e lhe for atribuído um nome novo, terá de criar novamente a sua subscrição.
 * Se não conseguir utilizar a funcionalidade de subscrição, contacte o seu administrador de sistema. A sua organização pode ter desativado esta funcionalidade por questões de autenticação ou outros motivos.  
 * As subscrições por e-mail não suportam a maioria dos [elementos visuais personalizados](../power-bi-custom-visuals.md).  A exceção são os elementos visuais personalizados que foram [certificados](../power-bi-custom-visuals-certified.md).  
 * De momento, as subscrições por e-mail não suportam elementos visuais personalizados baseados em R.  
@@ -82,7 +82,6 @@ Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatór
 * As subscrições podem falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho por e-mail.    
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.    
 
-## <a name="next-steps"></a>Passos seguintes
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)    
-* [Ler a mensagem de blogue](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+## <a name="next-steps"></a>Próximos passos
 
+[Pesquisar e ordenar conteúdos](end-user-search-sort.md)

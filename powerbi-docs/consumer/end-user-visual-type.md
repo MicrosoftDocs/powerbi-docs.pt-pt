@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234697"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794861"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 Encontrará visualizações em relatórios, dashboards, aplicações e Perguntas e Respostas. Alguns destes tipos de visualização estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers de relatórios* os adicionem a aplicações, dashboards e relatórios do Power BI. 
@@ -26,7 +26,7 @@ Este artigo é uma descrição geral das visualizações incorporadas no Power B
 > Para saber mais sobre elementos visuais personalizados, procure-os na secção **Power BI visuals** (Elementos visuais do Power BI) do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada elemento visual, encontrará uma descrição, informações do criador e capturas de ecrã ou um vídeo. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
-Todas estas visualizações podem ser encontradas em relatórios, dashboards e aplicações do Power BI e [especificadas nas Perguntas e Respostas](#gna).
+Todas estas visualizações podem ser encontradas em relatórios, dashboards e aplicações do Power BI e [especificadas nas Perguntas e Respostas](#qna). Para saber como interagir com visualizações, veja [Interagir com visualizações em relatórios, dashboards e aplicações](end-user-visualizations.md).
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos das áreas: Básica (em camadas) e Empilhada
 ![gráfico de área](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -125,7 +125,7 @@ Utilize um mapa básico para associar informações categóricas e quantitativas
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![mapa ArcGIS](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa a um nível totalmente novo. As opções disponíveis para mapas de base, tipos de localização, temas, estilos de símbolos e camadas de referência cria belíssimas visualizações de mapas informativos. A combinação de camadas de dados autoritativas (como dados de censo) num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados na visualização.
+A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa, a um nível totalmente novo. As opções disponíveis para mapas de base, tipos de localização, temas, estilos de símbolos e camadas de referência cria belíssimas visualizações de mapas informativos. A combinação de camadas de dados autoritativas (como dados de censo) num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados na visualização.
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
 ![mapa de manchas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -231,6 +231,6 @@ Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power
 
 ![sessão de perguntas e respostas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
-## <a name="next-steps"></a>Passos seguintes
-[Visualizações nos relatórios do Power BI](end-user-visualizations.md)    
+## <a name="next-steps"></a>Próximos passos
+[Interagir com visualizações em relatórios, dashboards e aplicações](end-user-visualizations.md)    
 [A referência correta do elemento visual de sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
