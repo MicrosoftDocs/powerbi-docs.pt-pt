@@ -1,6 +1,6 @@
 ---
 title: Adicionar comentários a um dashboard ou visualização
-description: Este documento mostra como adicionar comentários a um dashboard ou elemento visual e como utilizar os comentários para ter conversações com os colaboradores.
+description: Este documento mostra como adicionar comentários a um dashboard ou elemento visual e como utilizar os comentários para ter conversas com os colaboradores.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -50,7 +50,7 @@ Os comentários podem ser adicionados a todo o dashboard ou a elementos visuais 
 
     Os comentários deste dashboard terão o seguinte aspeto.
 
-    ![Conversações nos comentários](media/end-user-comment/power-bi-comment-conversation.png)
+    ![Conversas nos comentários](media/end-user-comment/power-bi-comment-conversation.png)
 
 ### <a name="add-a-comment-to-a-specific-dashboard-visual"></a>Adicionar um comentário a um elemento visual específico do dashboard
 1. Paire o cursor do rato sobre do elemento visual e selecione as reticências (...).    

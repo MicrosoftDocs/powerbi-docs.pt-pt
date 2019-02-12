@@ -24,7 +24,7 @@ ms.locfileid: "54296738"
 ## <a name="introduction"></a>Introdução
 Este documento disponibiliza melhores práticas para criar relatórios no Power BI. A começar pelo planeamento, aborda os princípios de design que pode aplicar aos seus relatórios e páginas e os elementos visuais individuais que constituem os relatórios.  Muitas destas melhores práticas também se aplicam ao design de dashboards.
 
-Esperamos que este documento seja um ponto de partida e que aplique o que vai aprender aos seus próprios relatórios e visualizações e que continue o debate em community.powerbi.com. A utilização de designs e visualizações de relatórios de BI é um dos principais tópicos da atualidade e há muitos líderes criativos, bloggers e sites que o encaram muito seriamente (mostramos alguns no final).   
+Esperamos que este documento seja um ponto de partida e que aplique o que vai aprender aos seus próprios relatórios e visualizações e que continue a troca de ideias em community.powerbi.com. A utilização de designs e visualizações de relatórios de BI é um dos principais tópicos da atualidade e há muitos líderes criativos, bloggers e sites que o encaram muito seriamente (mostramos alguns no final).   
 
 > [!NOTE]
 > As recomendações feitas neste documento técnico são diretrizes que deve aplicar quando e onde faça sentido. Para cada princípio descrito abaixo, existem, geralmente, motivos válidos para “fugir à regra”.

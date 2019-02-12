@@ -1,6 +1,6 @@
 ---
 title: Colaborar na sua área de trabalho de aplicação do Power BI
-description: Leia mais sobre colaborar em ficheiros do Power BI Desktop na sua área de trabalho de aplicação e com serviços do Office 365, como partilhar ficheiros no OneDrive para Empresas, conversações no Exchange, calendário e tarefas.
+description: Leia mais sobre colaborar em ficheiros do Power BI Desktop na sua área de trabalho de aplicação e com serviços do Office 365, como partilhar ficheiros no OneDrive para Empresas, conversas no Exchange, calendário e tarefas.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -18,7 +18,7 @@ ms.lasthandoff: 01/15/2019
 ms.locfileid: "54288526"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar na sua área de trabalho de aplicação do Power BI
-As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. A colaboração não termina com as áreas de trabalho no Power BI. O Office 365 fornece serviços de grupo como a partilha de ficheiros no OneDrive para Empresas, conversações no Exchange, tarefas e calendário partilhados, entre outros. Saiba mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. A colaboração não termina com as áreas de trabalho no Power BI. O Office 365 fornece serviços de grupo como a partilha de ficheiros no OneDrive para Empresas, conversas no Exchange, tarefas e calendário partilhados, entre outros. Saiba mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
 > [!NOTE]
 > A pré-visualização da nova experiência de área de trabalho vai mudar a relação entre as áreas de trabalho do Power BI e os grupos do Office 365. Não irá criar automaticamente um grupo do Office 365 sempre que criar uma das novas áreas de trabalho. Leia mais informações em [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md)
@@ -56,12 +56,12 @@ Colaborar no Office 365 começa a partir da área de trabalho de aplicação no 
 ## <a name="have-a-group-conversation-in-office-365"></a>Ter uma conversa em grupo no Office 365
 1. Selecione as reticências (…) junto ao nome da área de trabalho da sua aplicação \> **Conversações**. 
    
-    ![Separador Conversações](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
+    ![Separador Conversas](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
    É aberto o site de conversas e e-mails da área de trabalho de grupo da sua aplicação no Outlook para Office 365.
    
    ![Item de menu de calendário](media/service-collaborate-power-bi-workspace/pbi_grps_o365convo.png)
-2. Saiba mais sobre as [conversações de grupo no Outlook para Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
+2. Saiba mais sobre as [conversas de grupo no Outlook para Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Agendar um evento no calendário de área de trabalho de grupo da aplicação
 1. Selecione as reticências (**…**) junto ao nome da área de trabalho da sua aplicação \> **Calendário**. 
