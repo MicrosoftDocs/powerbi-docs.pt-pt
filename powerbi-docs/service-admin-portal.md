@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430379"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888239"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -287,16 +287,6 @@ Os utilizadores na organização podem identificar os dashboards com classifica�
 ### <a name="embed-content-in-apps"></a>Incorporar conteúdo em aplicações
 
 Os utilizadores na organização podem incorporar dashboards e relatórios do Power BI em aplicações Software como Serviço (SaaS). Desativar esta definição impede os utilizadores de usarem as APIs REST para incorporar conteúdo do Power BI na respetiva aplicação. [Saiba mais](developer/embedding.md)
-
-## <a name="workspaces-and-import-settings"></a>Áreas de trabalho e definições de importação
-
-### <a name="author-content-in-workspaces"></a>Conteúdo do autor em áreas de trabalho
-
-Os utilizadores na organização podem aceder a áreas de trabalho para ligar a conteúdos de dados e de autor. [Saiba mais](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>Importar dados para o Power BI
-
-Os utilizadores na organização podem importar dados para o serviço, tal como publicar relatórios do Power BI Desktop, carregar ficheiros de relatório do Power BI e ligar a dados diretamente a partir do serviço. [Saiba mais](desktop-upload-desktop-files.md)
 
 ## <a name="dataflow-settings-preview"></a>Definições de fluxos de dados (pré-visualização)
 
