@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763122"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223519"
 ---
 # <a name="encrypt-credentials"></a>Encriptar credenciais
 Quando chama [Criar Origem de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) ou [Atualizar Origens de Dados](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) num **gateway empresarial no local** através da [API REST Power BI](https://docs.microsoft.com/rest/api/power-bi/), o valor das credenciais tem de estar encriptado com a chave pública do gateway.
@@ -24,28 +24,28 @@ Veja o exemplo de código abaixo para encriptar as credenciais em .NET.
 As credenciais fornecidas para o método EncodeCredentials abaixo devem estar num dos seguintes formatos, consoante o tipo de credenciais:
 
 **Credenciais básicas/do Windows**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Credenciais de chave**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **Credenciais do OAuth2**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **Credenciais anónimas**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Encriptar credenciais**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 54d768e4d2ad1b2eab4559ee5d9db0705fb55542
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762657"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223749"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
 * Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
 * Ainda tem problemas? Visite a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
-## <a name="general"></a>General
+## <a name="general"></a>Geral
 
 ### <a name="what-is-power-bi-embedded"></a>O que é o Power BI Embedded?
 
@@ -79,7 +79,7 @@ Segue-se uma lista parcial de diferenças que pode utilizar para cada um.
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Comprar  |Portal do Azure |Office |Office |
-|Casos de utilização | Incorporar conteúdo na sua própria aplicação | <li> Incorporar conteúdo na sua própria aplicação <br><br></br> <li> Incorporar conteúdo nas aplicações do MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (exclui a aplicação móvel)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Incorporar conteúdo na sua própria aplicação <br><br></br> <li> Incorporar conteúdo nas aplicações do MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (exclui a aplicação móvel)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Partilhar conteúdo com os utilizadores do Power BI através do [serviço Power BI](https://powerbi.microsoft.com/)  |
+|Casos de utilização | Incorporar conteúdo na sua própria aplicação | <li> Incorporar conteúdo na sua própria aplicação <br><br><br> <li> Incorporar conteúdo nas aplicações do MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (exclui a aplicação móvel)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Incorporar conteúdo na sua própria aplicação <br><br><br> <li> Incorporar conteúdo nas aplicações do MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (exclui a aplicação móvel)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Partilhar conteúdo com os utilizadores do Power BI através do [serviço Power BI](https://powerbi.microsoft.com/)  |
 |Faturação |Hora a hora |Mensal |Mensal |
 |Alocação  |Sem alocação |Anual  |Mensal/anual |
 |Diferenciação |Elasticidade completa-pode aumentar/reduzir verticalmente, colocar em pausa/retomar recursos no portal do Azure ou através da API  |Pode ser utilizado para incorporar conteúdo no SharePoint Online e no Microsoft Teams (exclui a aplicação móvel) |Combinar a integração nas aplicações e utilizar o serviço do Power BI na mesma capacidade |
@@ -266,7 +266,7 @@ Dado que o Power BI Embedded permite utilizar o portal do Power BI para gerir e 
 
 No entanto, para [criar/editar relatórios incorporados](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) na sua aplicação, o utilizador final não precisa de uma licença Pro, uma vez que não é obrigatório que seja um utilizador do Power BI.
 
-### <a name="can-i-get-started-for-free"></a>Posso começar a utilizar gratuitamente?
+### <a name="can-i-get-started-for-free"></a>Pode começar a utilizar gratuitamente?
 
 Sim, pode utilizar os seus [créditos do Azure](https://azure.microsoft.com/free/) para o Power BI Embedded.
 

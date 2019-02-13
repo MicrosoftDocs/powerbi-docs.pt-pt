@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761967"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216568"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passo 2: Obter um token de acesso de autenticação
 
@@ -47,7 +47,7 @@ Adicione este código a Program {...}.
 
 * Uma variável de token para chamar operações:
   
-  ```
+  ```csharp
   private static string token = string.Empty;
   
   static void Main(string[] args)
@@ -56,7 +56,7 @@ Adicione este código a Program {...}.
   ```
 * Em static void Main(string[] args):
   
-  ```
+  ```csharp
   static void Main(string[] args)
   {
     //Get an authentication access token
@@ -65,7 +65,7 @@ Adicione este código a Program {...}.
   ```
 * Adicione um método GetToken():
 
-```
+```csharp
        #region Get an authentication access token
        private static string GetToken()
        {
@@ -116,64 +116,66 @@ Segue-se a [listagem de código completo](#code).
 
 ## <a name="complete-code-listing"></a>Lista completa de códigos
 
-    using System;
-    using Microsoft.IdentityModel.Clients.ActiveDirectory;
+```csharp
+using System;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-    namespace walkthrough_push_data
+namespace walkthrough_push_data
+{
+    class Program
     {
-        class Program
+        private static string token = string.Empty;
+
+        static void Main(string[] args)
         {
-            private static string token = string.Empty;
 
-            static void Main(string[] args)
-            {
-
-                //Get an authentication access token
-                token = GetToken();
-
-            }
-
-            #region Get an authentication access token
-            private static string GetToken()
-            {
-                // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
-                // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
-
-                //The client id that Azure AD created when you registered your client app.
-                string clientID = "{Client_ID}";
-
-                //RedirectUri you used when you register your app.
-                //For a client app, a redirect uri gives Azure AD more details on the application that it will authenticate.
-                // You can use this redirect uri for your client app
-                string redirectUri = "https://login.live.com/oauth20_desktop.srf";
-
-                //Resource Uri for Power BI API
-                string resourceUri = "https://analysis.windows.net/powerbi/api";
-
-                //OAuth2 authority Uri
-                string authorityUri = "https://login.microsoftonline.net/common/";
-
-                //Get access token:
-                // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
-                // AuthenticationContext is part of the Active Directory Authentication Library NuGet package
-                // To install the Active Directory Authentication Library NuGet package in Visual Studio,
-                //  run "Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory" from the nuget Package Manager Console.
-
-                // AcquireToken will acquire an Azure access token
-                // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
-                AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-                string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
-
-                Console.WriteLine(token);
-                Console.ReadLine();
-
-                return token;
-            }
-
-            #endregion
+            //Get an authentication access token
+            token = GetToken();
 
         }
+
+        #region Get an authentication access token
+        private static string GetToken()
+        {
+            // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
+            // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
+
+            //The client id that Azure AD created when you registered your client app.
+            string clientID = "{Client_ID}";
+
+            //RedirectUri you used when you register your app.
+            //For a client app, a redirect uri gives Azure AD more details on the application that it will authenticate.
+            // You can use this redirect uri for your client app
+            string redirectUri = "https://login.live.com/oauth20_desktop.srf";
+
+            //Resource Uri for Power BI API
+            string resourceUri = "https://analysis.windows.net/powerbi/api";
+
+            //OAuth2 authority Uri
+            string authorityUri = "https://login.microsoftonline.net/common/";
+
+            //Get access token:
+            // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
+            // AuthenticationContext is part of the Active Directory Authentication Library NuGet package
+            // To install the Active Directory Authentication Library NuGet package in Visual Studio,
+            //  run "Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory" from the nuget Package Manager Console.
+
+            // AcquireToken will acquire an Azure access token
+            // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
+            AuthenticationContext authContext = new AuthenticationContext(authorityUri);
+            string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
+
+            Console.WriteLine(token);
+            Console.ReadLine();
+
+            return token;
+        }
+
+        #endregion
+
     }
+}
+```
 
 [Próximo Passo >](walkthrough-push-data-create-dataset.md)
 

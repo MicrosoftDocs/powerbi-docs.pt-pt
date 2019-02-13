@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296576"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223926"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
 
@@ -35,11 +35,15 @@ O gateway é executado como um serviço Windows, por isso pode iniciar e pará-l
 
 * Para parar o serviço, execute este comando:
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * Para iniciar o serviço, execute este comando:
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>Configuração de ficheiros de registo
 
@@ -115,7 +119,7 @@ Por predefinição, o Gateway de dados no local utiliza o TLS (Transport Layer S
 > [!NOTE]
 > Adicionar ou modificar estas chaves de registo aplica a alteração a todas as aplicações .NET. Para obter informações sobre as alterações de registo que afetam o TLS de outras aplicações, veja [Definições de registo do TLS (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
 
-## <a name="data-sources"></a>Origens de dados
+## <a name="data-sources"></a>Data sources
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Erro: Não é possível ligar. Detalhes: “Credenciais de ligação inválidas”
 
@@ -318,7 +322,7 @@ No ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, al
 > [!IMPORTANT]
 > Ativar EmitQueryTraces poderia aumentar o tamanho do registo significativamente, consoante a utilização do gateway. Quando tiver terminado de rever os registos, poderá ter de definir EmitQueryTraces para Falso. Não é aconselhável deixar esta definição ativada por um longo período de tempo.
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ No ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, al
 > [!IMPORTANT]
 > A ativação de TracingVerbosity para `5` poderá aumentar significativamente o tamanho do registo, consoante a utilização do gateway. Quando tiver terminado de rever os registos, terá de definir TraceVerbosity para `4`. Não é aconselhável deixar esta definição ativada por um longo período de tempo.
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ Será apresentado o erro 1033 quando o seu ID externo configurado no SAP HANA n�
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762105"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223841"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -161,7 +161,7 @@ Para verificar qual é o motivo, experimente os passos abaixo.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: A concessão requer permissões de administrador
 
-**_Sintomas:_**</br>
+**_Sintomas:_**<br>
 Quando um utilizador que não é administrador tenta iniciar sessão numa aplicação pela primeira vez ao dar consentimento, obtém um dos seguintes erros:
 
 * O ConsentTest precisa de permissão para aceder a recursos na sua organização que apenas um administrador pode conceder. Peça permissão a um administrador para aceder a esta aplicação antes de a utilizar.
@@ -171,7 +171,7 @@ Quando um utilizador que não é administrador tenta iniciar sessão numa aplica
 
 Um utilizador administrador pode iniciar sessão e dar consentimento com êxito.
 
-**_Causa raiz:_**</br>
+**_Causa raiz:_**<br>
 O consentimento do utilizador está desativado no inquilino.
 
 **_São possíveis várias correções:_**

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: bb87bc95e9d0bbde4d9239d172d341cbebb716cc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234422"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216844"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure o servidor de relatórios para alojar livros do Excel com o Office Online Server (OOS)
 
@@ -32,13 +32,13 @@ Execute estes procedimentos no servidor que irá executar o Office Online Server
 
     **Windows Server 2012 R2:**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
     **Windows Server 2016:**
 
-    ```
+    ```powershell
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
 
@@ -80,7 +80,7 @@ Para instalar os pacotes de idiomas, siga estes passos.
 
 Utilize o comando New-OfficeWebAppsFarm para criar um novo farm do Office Online Server, que consiste num único servidor, conforme mostrado no exemplo seguinte.
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "https://wacweb01.contoso.com" -CertificateName "OfficeWebApps Certificate"
 ```
 
@@ -94,7 +94,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 Utilize o comando New-OfficeWebAppsFarm para criar um novo farm do Office Online Server, que consiste num único servidor, conforme mostrado no exemplo seguinte.
 
-```
+```powershell
 New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 ```
 
@@ -113,11 +113,11 @@ Depois de o farm estar criado, são apresentados os detalhes sobre o farm na lin
 
 Se o Office Online Server funcionar conforme esperado, deverá ver um ficheiro XML de deteção de Protocolo de Interface de Plataforma Aberta de Aplicação Web (WOPI) no seu browser. As primeiras linhas desse ficheiro devem assemelhar-se ao seguinte exemplo:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?> 
-- <wopi-discovery>
-- <net-zone name="internal-http">
-- <app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
+<wopi-discovery>
+<net-zone name="internal-http">
+<app name="Excel" favIconUrl="<InternalUrl>/x/_layouts/images/FavIcon_Excel.ico" checkLicense="true">
 <action name="view" ext="ods" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xls" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
 <action name="view" ext="xlsb" default="true" urlsrc="<InternalUrl>/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
@@ -128,7 +128,7 @@ Se o Office Online Server funcionar conforme esperado, deverá ver um ficheiro X
 
 O tamanho máximo de todos os ficheiros no Power BI Report Server é de 100 MB. Para estar sincronizado com o mesmo, tem de definir esta opção manualmente no OOS.
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelWorkbookSizeMax 100
 ```
 
@@ -140,7 +140,7 @@ Apenas as ligações incorporadas do Analysis Services são atualmente suportada
 
 Execute os seguintes comandos do PowerShell no Servidor do OOS.
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelUseEffectiveUserName:$true
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 Set-OfficeWebAppsFarm -ExcelWarnOnDataRefresh:$false
@@ -152,13 +152,13 @@ Instalar uma instância do modo do Analysis Services Power Pivot permite-lhe tra
 
 Para o OOS utilizar a instância de modo do Power Pivot, execute o seguinte comando.
 
-```
+```powershell
 New-OfficeWebAppsExcelBIServer -ServerId <server_name>\POWERPIVOT
 ```
 
 Se ainda não permitiu dados externos, a partir do passo do Analysis Services acima, execute o seguinte comando.
 
-```
+```powershell
 Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 ```
 
@@ -182,7 +182,7 @@ Depois de introduzir o URL de deteção e selecionar **Aplicar**, selecionar um 
 
 * Terá apenas a capacidade de leitura nos livros.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  

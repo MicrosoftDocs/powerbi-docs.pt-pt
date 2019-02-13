@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287077"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215718"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Adicionar imagem, texto, vídeo e muito mais ao dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ Cole ou introduza qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, com
 ## <a name="tips-for-embedding-web-content"></a>Sugestões para incorporar o conteúdo Web
 * Para iframes, utilize uma origem segura. Se introduzir o código de incoporação do iframe e obter um mosaico em branco, verifique se está a utilizar **http** para a origem de iframe.  Nesse caso, altere-a para **https**.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * Edite as informações de largura e de altura. Este código de incorporação incorpora um vídeo e define o leitor de vídeo para 560 x 315 pixels.  Este tamanho não será alterado ao redimensionar o mosaico.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ Cole ou introduza qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, com
   
   Se quiser que o leitor seja redimensionado para ser ajustado ao tamanho do mosaico, defina a largura e a altura para 100%.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * Este código incorpora um tweet e mantém, como ligações separadas no dashboard, as ligações para o podcast **AFK**, **a página do Twitter do @GuyInACube**, **Seguir**, **#analytics**, **responder**, **fazer retweet** e **gostar**.  Selecionar o mosaico propriamente dito leva-o até ao podcast no Twitter.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

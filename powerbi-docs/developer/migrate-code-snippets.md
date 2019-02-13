@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: c3357b89ef02d29c0518b12780339d8612c75387
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762519"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215096"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
 
@@ -49,7 +49,7 @@ using System.Threading.Tasks;
 
 ## <a name="export-report-from-paas-workspace"></a>Exportar relatório de área de trabalho PaaS
 
-```
+```csharp
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
 
@@ -74,7 +74,7 @@ using System.Threading.Tasks;
 
 ## <a name="import-report-to-saas-workspace"></a>Importar relatório para área de trabalho SaaS
 
-```
+```csharp
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentials = new TokenCredentials(PBISaaSAuthResult.AccessToken);
@@ -90,7 +90,7 @@ using System.Threading.Tasks;
 
 É utilizado para atualizar o PBIX depois de migrar para o SaaS.
 
-```
+```csharp
     // Extract connection string from PaaS - DirectQuery report
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -109,7 +109,7 @@ using System.Threading.Tasks;
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>Atualizar a cadeia de ligação de DirectQuery na área de trabalho SaaS
 
-```
+```csharp
     public class ConnectionString
     {
         [JsonProperty(PropertyName = "connectionString")]
@@ -130,7 +130,7 @@ using System.Threading.Tasks;
 
 Neste fragmento, estamos a utilizar as credenciais não encriptadas para maior simplicidade: o envio de credenciais encriptadas também é suportado.
 
-```
+```csharp
     public class ConnectionString
     {
         [JsonProperty(PropertyName = "connectionString")]
@@ -169,14 +169,14 @@ Terá de recriar o relatório para o conjunto de dados criado.
 
 Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por push já está numa área de trabalho de aplicação do ambiente SaaS. Para obter informações sobre a API push, veja [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md).
 
-```
+```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");
 
     // Instantiate your Power BI client passing in the required credentials
     var client = new Microsoft.PowerBI.Api.V1.PowerBIClient(credentials);
     client.BaseUri = new Uri("https://api.powerbi.com");
 
-    // step 1 -> create dummy dataset at PaaS worksapce
+    // step 1 -> create dummy dataset at PaaS workspace
     var fileStream = File.OpenRead(<Path to your dummy dataset>);
     var import = client.Imports.PostImportWithFileAsync(<Your WSC NAME>, <Your workspace ID>, fileStream, "dummyDataset");
     while (import.Result.ImportState != "Succeeded" && import.Result.ImportState != "Failed")

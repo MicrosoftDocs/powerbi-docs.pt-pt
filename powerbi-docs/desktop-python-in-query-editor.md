@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283328"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217051"
 ---
 # <a name="using-python-in-query-editor"></a>Utilizar o Python no Editor de Consultas
 Pode utilizar o **Python**, uma linguagem de programação amplamente utilizada por estatísticos, cientistas de dados e analistas de dados no **Editor de Consultas** do Power BI Desktop. Esta integração do Python no **Editor de Consultas** permite-lhe efetuar a limpeza dos dados e fazer a formatação e análise de dados avançadas em conjuntos de dados, incluindo a conclusão de dados em falta, predições e clustering, apenas para mencionar alguns exemplos. O **Python** é uma linguagem avançada e pode ser utilizada no **Editor de Consultas** para preparar o seu modelo de dados e criar relatórios.
@@ -43,10 +43,12 @@ Para mostrar como utilizar o **Python** no **Editor de Consultas**, veja este ex
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. Neste exemplo, introduza o seguinte código de script:
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > Terá de ter a biblioteca *pandas* instalada no seu ambiente de Python para o código de script anterior funcionar corretamente. Para instalar a biblioteca pandas, execute o seguinte comando na instalação do Python: |      > pip install pandas
    > 
