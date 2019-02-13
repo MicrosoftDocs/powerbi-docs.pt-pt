@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763101"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971677"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
 
@@ -108,9 +108,6 @@ Ao contrário da utilização tradicional de uma conta principal, a utilização
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > Os grupos de segurança do AAD só podem ser criados por um administrador global do AAD.
-
 3. Como administrador do Power BI, tem de ativar o principal de serviço nas **Definições de programador** no portal de administração do Power BI. Adicione o grupo de segurança que criou no Azure AD à secção **Grupo de segurança específico** nas **Definições de programador**.
 
    > [!Important]
@@ -173,6 +170,7 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
 * Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não conseguem utilizar o principal de serviço.
+* A gestão de [fluxos de dados](../service-dataflows-overview.md) não é suportada.
 
 ## <a name="next-steps"></a>Próximos passos
 

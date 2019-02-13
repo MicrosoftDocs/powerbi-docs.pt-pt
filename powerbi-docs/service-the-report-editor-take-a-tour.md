@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147410"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971700"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
 
-O *editor de relatórios* no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes. Este vídeo mostra o editor de relatórios no Power BI Desktop e este artigo mostra o editor de relatórios no serviço do Power BI. 
+O *editor de relatórios* no serviço Power BI e o editor de relatórios no Power BI Desktop são semelhantes. Normalmente, começa por criar relatórios no Power BI Desktop. Em seguida, publica-os no serviço Power BI, onde pode continuar a modificá-los. É também no serviço Power BI que cria os dashboards com base nos seus relatórios.
 
-Enquanto criador de relatórios, a sua função é criar e editar dashboards e relatórios. Em seguida, distribui-os aos seus consumidores de relatórios. Estes podem interagir com os seus dashboards e relatórios na Vista de Leitura no serviço Power BI, mas não os podem editar. Leia mais sobre [o que os consumidores de relatórios podem fazer no serviço Power BI](consumer/end-user-reading-view.md) 
+Depois de criar os seus dashboards e relatórios, distribui-os aos consumidores dos relatórios. Dependendo da forma como os partilha, os utilizadores finais poderão interagir com os mesmos na Vista de leitura no serviço Power BI, mas não podem editá-los. Leia mais sobre [o que os consumidores de relatórios podem fazer no serviço Power BI](consumer/end-user-reading-view.md). 
+
+Este vídeo mostra o editor de relatórios no Power BI Desktop. Este artigo mostra o editor de relatórios no serviço Power BI. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ As possibilidades de formatação são praticamente infinitas.  Para saber mais,
 Selecione o ícone da lupa para mostrar o painel Análise. As opções disponíveis dependem do tipo de visualização selecionada.
 
 ![Painel Análise no editor de relatórios](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-Com o painel Análise no serviço do Power BI, pode adicionar linhas de referência dinâmicas a visualizações e dar foco a tendências ou informações importantes. Para saber mais, consulte o [painel Análise no serviço Power BI](service-analytics-pane.md) ou o [painel Análise no Power BI Desktop](desktop-analytics-pane.md).
+Com o painel Análise no serviço Power BI, pode adicionar linhas de referência dinâmicas a visualizações e dar foco a tendências ou informações importantes. Para saber mais, veja o [painel Análise no serviço Power BI](service-analytics-pane.md) ou o [painel Análise no Power BI Desktop](desktop-analytics-pane.md).
 
 - - -
 ## <a name="the-filters-pane"></a>O painel Filtros
@@ -90,6 +92,12 @@ O painel Filtros possui uma outra funcionalidade poderosa: a capacidade de filtr
 ![Painel Filtros](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Para obter mais informações, consulte [Adicionar um filtro a um relatório](power-bi-report-add-filter.md).
+
+Uma nova experiência de filtros está atualmente em pré-visualização. Nos novos filtros, pode formatá-los para que se pareçam com o relatório propriamente dito. Também pode bloquear filtros ou ocultá-los dos consumidores dos seus relatórios. 
+
+![Nova experiência de filtro](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+Leia mais sobre [a nova experiência de filtros](power-bi-report-filter-preview.md).
 
 - - -
 ## <a name="the-fields-pane"></a>O painel Campos

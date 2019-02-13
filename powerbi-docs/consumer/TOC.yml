@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Common tasks (Tarefas comuns)
       items:
+      - name: Look up the content owner and last refreshed date (Pesquisar o proprietário do conteúdo e a data da última atualização)
+        href: end-user-fresh.md
       - name: Diferentes formas de aplicar zoom no conteúdo com os modos de ecrã Foco e Ecrã total
         href: end-user-focus.md
       - name: Dashboards, relatórios e aplicações favoritas no Power BI
@@ -191,9 +193,9 @@ items:
     items:
     - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 39f29c1fdc719defe1afe1f9bcdb5ef98a34c3c5
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794527"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086569"
