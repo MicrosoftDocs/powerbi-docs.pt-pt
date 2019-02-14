@@ -43,7 +43,7 @@ Eis uma lista dos nomes de domínio completamente qualificados utilizados pelo g
 
 Pode forçar o gateway a comunicar com o Azure Service Bus através de HTTPS, em vez de TCP direto. A utilização de HTTPS poderá ter impacto no desempenho. Para o fazer, modifique o ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* ao alterar o valor de `AutoDetect` para `Https`, conforme mostrado no fragmento de código logo a seguir a este parágrafo. Este ficheiro está localizado, por predefinição, em *C:\Programas\Gateway de dados no local*.
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
