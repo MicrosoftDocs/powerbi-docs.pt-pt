@@ -83,8 +83,10 @@ items:
         href: end-user-insights.md
     - name: Obter dados
       items:
-      - name: Instalar e utilizar aplicações
+      - name: Aplicações no Power BI
         href: end-user-apps.md
+      - name: Instalar e utilizar aplicações
+        href: end-user-app-view.md
       - name: Connect to services (Ligar aos serviços)
         href: end-user-connect-to-services.md
     - name: Ask questions of your data (Fazer perguntas sobre os seus dados)
@@ -193,9 +195,9 @@ items:
     items:
     - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086569"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248982"

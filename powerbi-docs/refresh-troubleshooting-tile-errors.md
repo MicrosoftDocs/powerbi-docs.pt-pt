@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289791"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086638"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
@@ -30,11 +30,16 @@ Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explica
 **O Power BI encontrou um erro inesperado ao carregar o modelo. Tente novamente mais tarde.**
 ou **Não foi possível recuperar o modelo de dados. Entre em contacto com o proprietário do dashboard para ter certeza de que as origens e o modelo de dados existem e estão acessíveis.**
 
-Não conseguimos aceder aos dados, porque a origem de dados não estava acessível. Isso pode ocorrer se a origem de dados tiver sido removida, ter tido o nome alterado, movida, estivesse offline ou se as permissões fossem alteradas. Verifique se a origem ainda está no local para o qual estamos apontando e se ainda tem permissão para aceder a ela. Se esse não for o problema, a origem pode estar lenta. Tente novamente mais tarde numa hora em que a carga na origem seja menor. Se for uma origem local, o proprietário da origem de dados pode conseguir fornecer mais informações.
+Não conseguimos aceder aos dados, porque a origem de dados não estava acessível. Este problema pode ocorrer se o nome da origem de dados tiver sido alterado ou se a mesma tiver sido removida ou movida, estiver offline ou se as permissões tiverem sido alteradas. Verifique se a origem ainda está no local para o qual estamos apontando e se ainda tem permissão para aceder a ela. Se esse não for o problema, a origem pode estar lenta. Tente novamente mais tarde numa hora em que a carga na origem seja menor. Se for uma origem local, o proprietário da origem de dados pode conseguir fornecer mais informações.
 
 **Não tem permissão para ver este bloco ou abrir o livro.**
 
-Entre em contacto com o proprietário do dashboard para ter certeza de que as origem e o modelo de dados existem e estão acessíveis para sua conta.
+Entre em contacto com o proprietário do dashboard para ter a certeza de que as origens e o modelo de dados existem e estão acessíveis para a sua conta.
+
+**Os elementos visuais personalizados foram desativados pelo administrador.**
+
+O administrador do Power BI desativou a utilização de elementos visuais personalizados para a sua organização ou o seu grupo de segurança. Não poderá utilizar elementos visuais personalizados a partir do [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ou importar elementos visuais privados de um ficheiro. Só poderá utilizar o conjunto de elementos visuais pré-empacotados.
+
 
 **As formas de dados devem conter pelo menos um grupo ou cálculo que produza dados. Entre em contacto com o proprietário do dashboard.**
 
@@ -42,11 +47,11 @@ Não temos nenhum dado para exibir, pois a consulta está vazia. Tente adicionar
 
 **Não é possível exibir os dados, porque o Power BI não pode determinar a relação entre dois ou mais campos.**
 
-Está a tentar utilizar dois ou mais campos de tabelas que não estão relacionadas. Precisa de remover os campos não relacionados com visual e, em seguida, criar um relacionamento entre as tabelas. Depois disso, pode adicionar os campos de volta ao visual. Isso pode ser feito no Power BI Desktop ou no Power Pivot para Excel. [Saiba mais](desktop-create-and-manage-relationships.md)
+Está a tentar utilizar dois ou mais campos de tabelas que não estão relacionadas. Precisa de remover os campos não relacionados com visual e, em seguida, criar um relacionamento entre as tabelas. Depois de fazer esta alteração, pode adicionar os campos de volta ao elemento visual. Isso pode ser feito no Power BI Desktop ou no Power Pivot para Excel. [Saiba mais](desktop-create-and-manage-relationships.md)
 
 **Os grupos no eixo primário e no eixo secundário sobrepõem-se. Os grupos no eixo primário não podem ter as mesmas chaves que os grupos no eixo secundário.**
 
-Isso geralmente é um problema temporário. Isso geralmente acontece quando está a mover grupos de linhas para colunas. Nesse caso, o erro deverá desaparecer quando terminar de mover todos os grupos. Se ainda vir a mensagem, tente alternar os campos entre as linhas e colunas ou a legenda de eixo ou remover campos do visual.  
+Isto é geralmente um problema temporário. Isso geralmente acontece quando está a mover grupos de linhas para colunas. Nesse caso, o erro deverá desaparecer quando terminar de mover todos os grupos. Se ainda vir a mensagem, tente alternar os campos entre as linhas e colunas ou a legenda de eixo ou remover campos do visual.  
 
 **Este elemento visual excedeu os recursos disponíveis. Tente filtrar para diminuir a quantidade de dados exibidos.**
 
@@ -60,8 +65,8 @@ O campo provavelmente foi eliminado ou o seu nome foi alterado. É possível rem
 
 Isso geralmente é um problema temporário. Se tentar novamente mais tarde e continuar a receber essa mensagem, entre em contacto com o suporte.
 
-## <a name="contact-support"></a>Contactar o suporte
-Se ainda estiver tendo problemas, [entre em contacto com o suporte](https://support.powerbi.com) para investigá-los mais detalhadamente.
+## <a name="contact-support"></a>Contact support
+Se ainda estiver com problemas, [entre em contacto com o suporte](https://support.powerbi.com) para investigá-los mais aprofundadamente.
 
 ## <a name="next-steps"></a>Próximos passos
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
