@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888239"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086477"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -236,12 +236,17 @@ Os utilizadores na organização podem utilizar as funcionalidades de pesquisa e
 
 ## <a name="custom-visuals-settings"></a>Definições de elementos visuais personalizados
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>Ativar os elementos visuais personalizados para toda a organização
+### <a name="add-and-use-custom-visuals"></a>Adicionar e utilizar elementos visuais personalizados
 
 Os utilizadores na organização podem interagir e partilhar elementos visuais personalizados. [Saiba mais](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
+> Esta definição pode ser aplicada a toda a organização ou pode ser limitada a grupos específicos.
+
+### <a name="allow-only-certified-visuals"></a>Permitir apenas elementos visuais certificados
+
+Os utilizadores na organização que receberam permissões para adicionar e utilizar elementos visuais personalizados, representado pela definição "Adicionar e utilizar elementos visuais personalizados", só poderão utilizar [elementos visuais personalizados certificados](https://go.microsoft.com/fwlink/?linkid=2002010) (os elementos visuais não certificados serão bloqueados e apresentarão uma mensagem de erro quando utilizados). 
+
 
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 
