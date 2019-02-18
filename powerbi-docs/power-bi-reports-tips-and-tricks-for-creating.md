@@ -1,7 +1,7 @@
 ---
 title: Sugestões para a criação de relatórios fantásticos
 description: Sugestões e truques para criar relatórios no serviço Power BI e no Power BI Desktop
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290504"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223818"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugestões e truques para criar relatórios no Power BI Desktop e no serviço Power BI
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop, no serviço Power BI *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento Power Pivot ativado e o Power Query instalado e ativado.
@@ -135,7 +135,7 @@ Se carregarmos conjuntos de dados de pedidos de suporte ao cliente ativos e outr
 >
 >
 
-Quando quisermos acompanhar todos os incidentes e itens de trabalho relacionados com um CustomerName específico, não podemos simplesmente criar uma relação entre esses dois conjuntos de dados.  Alguns WorkItems não podem estar relacionados com um CustomerName, portanto, esse campo estaria em branco ou seria NULL.  Se tiver todos os valores nulos ou em branco na tabela CustomerNames, talvez ainda não consiga criar uma relação. Veja Criar relações quando os dados têm valores nulos ou em branco.  Pode, existir vários WorkItems e CustomerIncidents para um único CustomerName.  
+Quando quisermos acompanhar todos os incidentes e itens de trabalho relacionados com um CustomerName específico, não podemos simplesmente criar uma relação entre esses dois conjuntos de dados.  Alguns WorkItems não podem estar relacionados com um CustomerName, portanto, esse campo estaria em branco ou seria NULL.  Se tiver todos os valores nulos ou em branco na tabela CustomerNames, talvez ainda não consiga criar uma relação. Veja Criar relações quando os dados têm valores nulos ou em branco.  Podem existir vários WorkItems e CustomerIncidents para um único CustomerName.  
 
 Para criar uma relação neste caso, temos de criar um conjunto de dados lógico de todos os CustomerNames nos dois conjuntos de dados.  No separador Consulta, pode utilizar a seguinte sequência para criar o conjunto de dados lógico:
 
@@ -145,7 +145,7 @@ Para criar uma relação neste caso, temos de criar um conjunto de dados lógico
 4. Na consulta **CustomerNames**, selecione a opção **Acrescentar** na faixa de opções e, em seguida, selecione a consulta **Temp**.
 5. Na consulta **CustomerNames**, selecione **Remover Duplicados**.
 
-Agora tem uma tabela de dimensões que pode ser utilizada para relacionar CustomerIndicents e WorkItems com todos os valores de cada um.  
+Agora tem uma tabela de dimensões que pode ser utilizada para relacionar CustomerIncidents e WorkItems com todos os valores de cada um.  
 
 ### <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Padrões para acelerar a utilização do Editor de Consultas
 O Editor de Consultas é bastante eficiente em como consegue manipular dados para formatar e limpá-los para que estejam prontos para serem visualizados ou modelados. Existem alguns padrões que deve conhecer.
@@ -207,7 +207,7 @@ Evite várias visualizações.  As visualizações devem ter uma visão geral e 
 * Tente também evitar misturar medidas grandes e pequenas na mesma escala, como num gráfico de linhas ou de barras.  Por exemplo, uma medida pode estar em milhões e outras medidas em milhares.  Com uma escala grande, seria difícil ver as diferenças da medida que está em milhares.  Se precisar de misturar, escolha uma visualização, como um gráfico de combinação, que permita a utilização de um segundo eixo.    
 * Evite sobrecarregar os gráficos com etiquetas de dados desnecessárias. Os valores em gráficos de barras, ***se forem suficientemente grandes***, são normalmente bem compreendidos sem apresentar o número real.   
 * Preste atenção a como [os gráficos são ordenados](consumer/end-user-change-sort.md).  Se quiser chamar a atenção para o número mais alto ou mais baixo, ordene pela medida.  Se quiser que as pessoas localizem rapidamente uma categoria específica de entre muitas outras categorias, ordene pelo eixo.  
-* Os gráficos circulares são recomendados se tiverem menos de oito categorias. Uma vez que não pode comparar valores lado a lado, é mais difícil comparar valores num gráfico circular do que em gráficos de barras e colunas. Os gráficos circulares pode ser bons para ver relações de parte a um todo em vez de comparar as partes. Os gráficos de medidor são ótimos para apresentar o estado atual no contexto de um objetivo.    
+* Os gráficos circulares são recomendados se tiverem menos de oito categorias. Uma vez que não pode comparar valores lado a lado, é mais difícil comparar valores num gráfico circular do que em gráficos de barras e colunas. Os gráficos circulares podem ser bons para ver relações de parte a um todo em vez de comparar as partes. Os gráficos de medidor são ótimos para apresentar o estado atual no contexto de um objetivo.    
 
 Para obter instruções específicas de visualização, consulte [Tipos de visualização no Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 

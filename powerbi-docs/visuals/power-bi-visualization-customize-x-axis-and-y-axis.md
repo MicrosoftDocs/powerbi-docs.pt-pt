@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287008"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223312"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos X e Y
 Neste tutorial, aprenderá várias formas diferentes de personalizar os eixos X e Y dos seus elementos visuais. Nem todos os elementos visuais têm eixos ou podem ser personalizados; os gráficos circulares, por exemplo, não têm eixos. As opções de personalização variam consoante o elemento visual, demasiadas opções para abranger num único artigo. Por isso, vamos ver algumas das personalizações de eixos mais utilizadas e familiarizá-lo com a utilização do separador de formatação visual na tela do relatório do Power BI.  
@@ -134,11 +134,11 @@ Para obter mais informações, veja [Sugestões e truques para formatação com 
 Se o eixo X for categorizado pelo proprietário do relatório como um tipo de data, a opção **Tipo** será apresentada e pode selecionar entre contínuo ou categórico.
 
 ## <a name="next-steps"></a>Passos seguintes
-Mais sobre [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
+Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)
 
-[Personalizar t](power-bi-visualization-customize-title-background-and-legend.md)[ítulos, fundos e legendas](power-bi-visualization-customize-title-background-and-legend.md)
+[Personalizar títulos, fundos e legendas](power-bi-visualization-customize-title-background-and-legend.md)
 
-[Personalizar as cores e as propriedades dos eixos](service-getting-started-with-color-formatting-and-axis-properties.md)
+[Personalizar propriedades de cores e de eixo](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 [Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)
 

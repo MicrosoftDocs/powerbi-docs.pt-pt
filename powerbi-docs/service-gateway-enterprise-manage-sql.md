@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6771e2da33448fe3aa54a0184a220437ffb54fce
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277628"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215862"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gerir a origem de dados – SQL Server
 Depois de instalar o Gateway de dados no local, pode adicionar as origens de dados que podem ser utilizadas com o gateway. Este artigo abordará como trabalhar com gateways e origens de dados. Pode utilizar a origem de dados do SQL Server para a atualização agendada ou para o DirectQuery.
@@ -60,7 +60,7 @@ Em seguida, é necessário preencher as informações sobre a origem de dados, q
 Também é necessário selecionar um **Método de Autenticação**.  Pode ser **Windows** ou **Básico**.  Deve selecionar **Básico** se for utilizar a Autenticação do SQL em vez da Autenticação do Windows. Em seguida, introduza as credenciais que serão utilizadas nesta origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executada através destas credenciais, exceto se o Início de Sessão Único (SSO) Kerberos estiver configurado e ativado para a origem de dados. Com o SSO, os conjuntos de dados de importação utilizam as credenciais armazenadas, mas os conjuntos de dados do DirectQuery utilizam o utilizador atual do Power BI para executar as consultas através de SSO. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas ou o artigo que descreve como [utilizar o Kerberos para SSO (início de sessão único) no Power BI para origens de dados no local](service-gateway-sso-kerberos.md).
+> Todas as consultas à origem de dados serão executadas através destas credenciais, exceto se o Início de Sessão Único (SSO) Kerberos estiver configurado e ativado para a origem de dados. Com o SSO, os conjuntos de dados de importação utilizam as credenciais armazenadas, mas os conjuntos de dados do DirectQuery utilizam o utilizador atual do Power BI para executar as consultas através de SSO. Para obter mais informações, veja o artigo principal sobre o Gateway de dados no local para saber mais sobre como as [credenciais](service-gateway-onprem.md#credentials) são armazenadas ou o artigo que descreve como [utilizar o Kerberos para SSO (início de sessão único) no Power BI para origens de dados no local](service-gateway-sso-kerberos.md).
 > 
 > 
 

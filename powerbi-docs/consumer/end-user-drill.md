@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282362"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216591"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de desagregação numa visualização no Power BI
 
@@ -112,7 +112,7 @@ Este método utiliza o ícone de desagregação apresentado no canto superior di
 
 2. Selecione a *folha* para **TN**. O mapa de árvore apresenta agora todas as cidades no Tennessee que têm uma loja. 
 
-    ![o mapa de árvore mostra apenas os dados de Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![o mapa de árvore mostra apenas os dados de Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 2. A partir deste ponto, pode continuar a desagregação para Tennessee, desagregar para uma determinada cidade do Tennessee ou expandir (veja **Expandir todos os campos de uma vez** abaixo). Continuemos a desagregar um campo de cada vez.  Selecione **Knoxville, TN**. O mapa de árvore mostra agora o código postal para a sua loja em Knoxville. 
 
@@ -129,7 +129,7 @@ Ter um mapa de árvore que apresenta apenas um código postal não é informativ
 
 2. Para ver os quatro níveis de dados da hierarquia para Tennessee, selecione a seta de agregação até chegar ao segundo nível do mapa de árvore, **Unidades totais este ano por território e cidade**. 
 
-    ![mapa de árvore que mostra todos os dados para Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![mapa de árvore que mostra todos os dados para Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. Certifique-se de que a desagregação continua ativada ![desagregação ativada](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo* ![ícone de expandir para baixo](./media/end-user-drill/power-bi-drill-icon6.png). O mapa de árvore apresenta agora alguns detalhes adicionais. Em vez de apresentar apenas a cidade e o estado, apresenta agora também o código postal. 
@@ -191,7 +191,7 @@ Além da visualização, podemos ver a hierarquia refletida nos dados compostos 
 Tenha em atenção que os dados são os mesmos para relatórios trimestrais e anuais, mas após desagregar o nível de detalhe especificado para **Valores**, pode ver que o relatório único é mais específico e o relatório "todos os meses" tem mais dados.
 
 
-|Modo Expandir|Ano|Trimestre|Mês|Dia|
+|Modo Expandir|Ano|Trimestre|Mês|Day|
 | ---|:---:|:---:|:---:|---|
 |Único|![ano único](./media/end-user-drill/power-bi-hierarchical-year.png)|![trimestre único](media/end-user-drill/power-bi-hierarchical-quarter.png)|![mês único](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![dia único](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Tudo|![todos os anos](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos os trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos os meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos os dias](media/end-user-drill/power-bi-hierarchical-all-day.png)|

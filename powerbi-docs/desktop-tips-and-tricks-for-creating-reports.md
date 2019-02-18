@@ -1,7 +1,7 @@
 ---
 title: Sugestões e truques para criar relatórios no Power BI
 description: Aprenda as melhores práticas para a criação de relatórios no serviço Power BI e no Power BI Desktop
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fa3d24de1f54be127f3f9b23ca33677987464150
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296001"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223864"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -133,9 +133,9 @@ Se carregarmos conjuntos de dados a partir de pedidos de suporte ao cliente ativ
 > 
 > 
 
-Quando quisermos acompanhar todos os incidentes e itens de trabalho relacionados com um CustomerName específico, não podemos simplesmente criar uma relação entre esses dois conjuntos de dados.  Alguns WorkItems não podem estar relacionados com um CustomerName, portanto, esse campo estaria em branco ou seria NULL.  Se tiver todos os valores nulos ou em branco na tabela CustomerNames, talvez ainda não consiga criar uma relação. Veja Criar relações quando os dados têm valores nulos ou em branco.  Pode, existir vários WorkItems e CustomerIncidents para um único CustomerName.  
+Quando quisermos acompanhar todos os incidentes e itens de trabalho relacionados com um CustomerName específico, não podemos simplesmente criar uma relação entre esses dois conjuntos de dados.  Alguns WorkItems não podem estar relacionados com um CustomerName, portanto, esse campo estaria em branco ou seria NULL.  Se tiver todos os valores nulos ou em branco na tabela CustomerNames, talvez ainda não consiga criar uma relação. Veja Criar relações quando os dados têm valores nulos ou em branco.  Podem existir vários WorkItems e CustomerIncidents para um único CustomerName.  
 
-Para criar uma relação neste caso, temos de criar um conjunto de dados lógico de todos os CustomerNames entre os dois conjuntos de dados.  No separador Consulta, pode urilizar a seguinte sequência para criar o conjunto de dados lógico:
+Para criar uma relação neste caso, temos de criar um conjunto de dados lógico de todos os CustomerNames entre os dois conjuntos de dados.  No separador Consulta, pode utilizar a seguinte sequência para criar o conjunto de dados lógico:
 
 1. Duplique duas consultas, nomeando a primeira **Temp** e a segunda **CustomerNames**.
 2. Em cada consulta, remova todas as colunas, *exceto* a coluna CustomerName
@@ -143,7 +143,7 @@ Para criar uma relação neste caso, temos de criar um conjunto de dados lógico
 4. Na consulta **CustomerNames**, selecione a opção **Acrescentar** na faixa de opções e, em seguida, selecione a consulta **Temp**.
 5. Na consulta **CustomerNames**, selecione **Remover Duplicados**.
 
-Agora tem uma tabela de dimensões que pode ser utilizada para relacionar CustomerIndicents e WorkItems com todos os valores de cada um.  
+Agora tem uma tabela de dimensões que pode ser utilizada para relacionar CustomerIncidents e WorkItems com todos os valores de cada um.  
 
 ## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Padrões para acelerar a utilização do Editor de Consultas
 O Editor de Consultas é bastante eficiente em como consegue manipular dados para formatar e limpá-los para que estejam prontos para serem visualizados ou modelados. Existem alguns padrões que deve conhecer.

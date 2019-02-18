@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 130c18bb51c99813999f87c69c465dc59783e638
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276727"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216775"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Ativar a Cortana para aceder a relatórios do Power BI (e conjuntos de dados associados)
 Leu a [Introdução à Cortana e ao Power BI](service-cortana-intro.md) (se não a leu, recomendamos que a leia primeiro e depois regresse a esta secção). Agora, quer experimentar.  Antes de poder fazer perguntas em linguagem natural na Cortana e encontrar respostas de dados armazenados em ***relatórios*** do Power BI, existem alguns requisitos. Especificamente, precisa do seguinte.
@@ -75,7 +75,7 @@ Terá de executar a versão 1511 ou posterior do Windows 10.
    * Abra as **Definições** > **Contas**.
      
        ![Definições - Contas](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Navegue até à parte inferior e selecione **Adicionar uma conta escolar ou profissional**. Ou, na página **Contas**, selecione **Acesso profissional ou escolar > Ligar**.
+   * Navegue até à parte inferior e selecione **Adicionar uma conta escolar ou profissional**. Em alternativa, na página **Contas**, selecione **Aceder a profiss./escolar > Ligar**.
      
      ![Adicionar conta profissional](media/service-cortana-enable/power-bi-add-work-account2.png)
 

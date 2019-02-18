@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762358"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216384"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
 
@@ -165,7 +165,7 @@ No caso de uma transferência com êxito, verá o estado *Concluído*, que irá 
 
 Quando a transferência estiver concluída, selecione o separador **Criar Grupos**.
 
-## <a name="step-3-create-groups"></a>Passo 3: Criar Grupos
+## <a name="step-3-create-groups"></a>Passo 3: Create Groups
 
 Depois de transferir os relatórios que estão disponíveis, pode ir para o separador **Criar Grupos**. Este separador irá criar as áreas de trabalho de aplicação no serviço Power BI com base no plano de migração que criou. Irá criar a área de trabalho de aplicação com o nome que indicou no separador **Carregar** em **Analisar e Planear a Migração**.
 
@@ -207,7 +207,7 @@ Para fazer a alteração, é preciso fechar a ferramenta de migração e, em seg
 
 No exemplo acima, um dos relatórios clonados falhou com a indicação de que existia um relatório com o mesmo nome. Se formos observar o XML do plano de migração, veremos o seguinte.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ No exemplo acima, um dos relatórios clonados falhou com a indicação de que ex
 
 Para o item falhado, podemos alterar o nome do SaaSTargetReportName.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Voltando ao Power BI, podemos ver que os relatórios e conjuntos de dados foram 
 
 Pode carregar uma versão local de um ficheiro do Power BI Desktop. Terá de fechar a ferramenta, editar o XML e colocar o caminho completo para o PBIX local na propriedade **PbixPath**.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ Depois de editar o xml, reabra o plano na ferramenta de migração e carregue o 
 
 ### <a name="directquery-reports"></a>Relatórios de DirectQuery
 
-Terá de atualizar a cadeia de ligação para relatórios de DirectQuery. Pode fazê-lo em *powerbi.com* ou pode consultar através de programação a cadeia de ligação do Power BI Embedded (Paas). Por exemplo, veja [Extrair a cadeia de ligação de DirectQuery do relatório de PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
+Terá de atualizar a cadeia de ligação para relatórios de DirectQuery. Pode fazê-lo em *powerbi.com* ou pode consultar através de programação a cadeia de ligação do Power BI Embedded (PaaS). Por exemplo, veja [Extrair a cadeia de ligação de DirectQuery do relatório de PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
 
-Em seguida, pode atualizar a cadeia de ligação para o conjunto de dados no serviço Power BI (Saas) e definir as credenciais da origem de dados. Pode observar os exemplos seguintes para ver como fazê-lo.
+Em seguida, pode atualizar a cadeia de ligação para o conjunto de dados no serviço Power BI (SaaS) e definir as credenciais da origem de dados. Pode observar os exemplos seguintes para ver como fazê-lo.
 
 * [Atualizar a cadeia de ligação de DirectQuery na área de trabalho de SaaS](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [Definir as credenciais de DirectQuery na área de trabalho de SaaS](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

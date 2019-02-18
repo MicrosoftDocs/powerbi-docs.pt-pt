@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280264"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216959"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Criar um novo relatório no serviço Power BI através da importação de um conjunto de dados
 Leu o artigo [Relatórios no Power BI](consumer/end-user-reports.md) e pretende agora criar o seu. Existem várias formas diferentes de criar um relatório. Neste artigo, vamos começar por criar um relatório muito básico a partir de um conjunto de dados do Excel com o serviço Power BI. Após compreender as noções básicas da criação de um relatório, os **Passos seguintes** na parte inferior irão direcioná-lo para os tópicos de relatórios mais avançados.  
@@ -56,7 +56,7 @@ Agora que o nosso conjunto de dados foi importado, vamos começar a responder a 
 1. No painel Campos, selecione **Sales (Vendas)** > **This Year Sales (Vendas Deste Ano)** > **Value (Valor)**.
    
     ![gráfico de barras no editor de relatórios](media/service-report-create-new/power-bi-report-step1.png)
-2. Converta o visual para um Medidor ao selecionar o modelo Medidor ![ícone de Medidor](media/service-report-create-new/powerbi-gauge-icon.png) no painel **Visualizações**.
+2. Converta o visual num Medidor ao selecionar o modelo Medidor ![ícone de Medidor](media/service-report-create-new/powerbi-gauge-icon.png) no painel **Visualizações**.
    
     ![Elemento visual do Medidor no editor de relatórios](media/service-report-create-new/power-bi-report-step2.png)
 3. Arraste **Sales (Vendas)** > **This Year Sales (Vendas Este Ano)** > **Goal (Objetivo)** para o well **Target value (Valor de destino)**. Parece que estamos bastante próximos do nosso objetivo.
@@ -73,7 +73,7 @@ A nossa CMO quer que respondamos a algumas perguntas adicionais. Ela quer compar
 2. Desselecione o medidor. No painel Campos, selecione **Sales (Vendas)** > **This Year Sales (Vendas Este Ano)** > **Value (Valor)** e selecione **Sales (Vendas)** > **Last Year Sales (Vendas no Ano Passado)**.
    
     ![editor de relatórios com o Medidor e um gráfico de barras](media/service-report-create-new/power-bi-report-step4.png)
-3. Converta o elemento visual para um Gráfico de área ao selecionar o modelo Gráfico de área ![ícone do gráfico](media/service-report-create-new/power-bi-areachart-icon.png) no painel **Visualizações**.
+3. Converta o elemento visual num Gráfico de área ao selecionar o modelo Gráfico de Área ![ícone do gráfico](media/service-report-create-new/power-bi-areachart-icon.png) no painel **Visualizações**.
 4. Selecione **Time (Tempo)** > **Period (Período)** para adicioná-lo ao well **Axis (Eixo)**.
    
     ![editor de relatórios com o Gráfico de área ativo](media/service-report-create-new/power-bi-report-step5.png)

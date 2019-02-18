@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431091"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216867"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
@@ -31,10 +31,41 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>Setembro de 2018
-* [Comentários no dashboard](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) no serviço Power BI.
 
-## <a name="previous-months-2018"></a>Meses anteriores (2018)
+## <a name="february-2019"></a>Fevereiro de 2019
+* Cargas de trabalho e métricas de tamanho de conjuntos de dados ativos na [aplicação Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Exportação para PDF e subscrições de e-mail a pedido (service-report-subscribe.md).
+* Operações em massa no Portal de Administração.
+
+## <a name="previous-months-2019"></a>Meses anteriores (2019)
+### <a name="january-2019"></a>Janeiro de 2019
+* [Incorporação de relatórios seguros do Power BI ](service-embed-secure.md) em portais ou sites internos.
+* Atualizações do editor de [fluxos de dados](service-dataflows-overview.md) com novos conectores e suporte de consultas nativas do SQL, e transformações do Power Query Online.
+* [Marcadores pessoais](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/) no serviço Power BI.
+* Agendamento baseado no tempo com subscrições de e-mail.
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>Dezembro de 2018
+* [Aplicações recomendadas](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) com tecnologia de IA na Home Page do Power BI.
+* [Gestão de áreas de trabalho](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/) no Portal de Administração.
+* Pré-visualização de Fluxos de Dados do Power BI e Integração do Azure Data Lake Storage Gen2 em [fluxos de dados](service-dataflows-overview.md).
+* Os modelos de soluções do Power BI tornaram-se open source.
+
+### <a name="november-2018"></a>Novembro de 2018
+* Preparação de dados do Power BI disponível com a pré-visualização pública de [fluxos de dados](service-dataflows-overview.md).
+* Pré-visualização pública de [relatórios paginados](paginated-reports-report-builder-power-bi.md) no Power BI Premium.
+* Tamanho dos dados e número de conjuntos de dados em memória na [aplicação Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+
+### <a name="october-2018"></a>Outubro de 2018
+* Agregações [desktop-aggregations.md] no serviço Power BI.
+* O Power BI foi expandido para três novas regiões: Índia Central, Leste da Austrália e E.U.A. Central (Iowa). 
+* A exportação para PowerPoint ficou disponível para o público.
+
+### <a name="september-2018"></a>Setembro de 2018
+* [Comentários no dashboard](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) no serviço Power BI.
+* Pré-visualização pública da [Home Page do Power BI e da Pesquisa Global](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Capacidade de [monitorizar consultas](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) na [aplicação Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+
 ### <a name="august-2018"></a>Agosto de 2018
 * [Aplicação de Monitorização da Capacidade](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) para o Power BI Premium.
 * Melhorias ao [Filtro de URL de Relatórios](service-url-filters.md) do Power BI.
@@ -78,7 +109,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 *   Suporte de atualização agendada para o Azure Analysis Services (AAS).
 
 ## <a name="previous-months-2017"></a>Meses anteriores (2017)
-## <a name="october-and-november-2017"></a>Outubro e novembro de 2017
+### <a name="october-and-november-2017"></a>Outubro e novembro de 2017
 *   Publicação seletiva de conteúdo com [Aplicações do Power BI](service-create-distribute-apps.md).
 *   Distribuição a utilizadores externos com a [B2B do Azure Active Directory](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
 * Recomendações de aplicações da AI.
@@ -86,7 +117,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Suporte de subscrições de e-mail para aplicações. 
 * Controlo de administração granular para [publicar na Web](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings).
 
-## <a name="september-2017"></a>Setembro de 2017
+### <a name="september-2017"></a>Setembro de 2017
 * Na capacidade Premium, pode partilhar dashboards com os utilizadores que não têm uma licença do Power BI Pro.
 * Atribua as capacidades de acordo com as suas necessidades de negócio com o agrupamento de núcleos virtuais.
 * Aumente ou reduza verticalmente e de imediato as capacidades com um único clique.
@@ -104,16 +135,16 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Suporte para [subscrições de correio eletrónico](consumer/end-user-subscribe.md) nos dashboards.
 * Inspecione e faça o diagnóstico da razão pela qual o tempo de carregamento é fraco para dashboards utilizando o Inspector de Desempenho.
 * Snowflake e SAP BusinessWarehouse DirectQuery agora suportados para o gateway de dados no local.
-* Novas [APIs para gerir a atualizçaão de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço Power BI.
+* Novas [APIs para gerir a atualização de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço Power BI.
 
 ### <a name="june-2017"></a>Junho de 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) disponibilizado.
-* Vários melhoramentos de API para [automarizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar e efetuar o reenlace de relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [atualizar enlaces do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito, muito mais
+* Vários melhoramentos de API para [automatizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar e efetuar o reenlace de relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [atualizar enlaces do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito, muito mais
 * Ligações relativas nas aplicações de Power BI desde mosaicos do dashboard a outros dashboards e relatórios.
 * [Conector impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) geralmente disponível no Power BI Desktop.
 * Expanda as funcionalidades visuais do Power BI com [visuais interativos personalizados de R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
 
-### <a name="april-and-may-2017"></a>Abril e Maio de 2017
+### <a name="april-and-may-2017"></a>Abril e maio de 2017
 * Medir e aumentar o seu impacto com [métricas de utilização para o dashboard e criadores de relatórios](service-usage-metrics.md).
 * Estabeleça ligação ao PostgreSQL com o Gateway de dados no local.
 * Peça Web do SharePoint do Power BI disponibilizada a todos os utilizadores.
@@ -247,7 +278,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 ***Analyze in Excel***
 
 * [Analisar no Excel](service-analyze-in-excel.md) disponível a todos os utilizadores: a capacidade para aceder aos seus modelos de dados do Power BI no Excel foi expandida a todos os utilizadores, independentemente da licença que lhes foi atribuída.
-* Experiência de conta de multiutilizador melhorada: se tiver mais do que 1 conta de utilizador do Power BI, agora é mais fácil para iníciar sessão.
+* Experiência de conta de multiutilizador melhorada: se tiver mais do que 1 conta de utilizador do Power BI, agora é mais fácil para iniciar sessão.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
@@ -532,7 +563,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 * Com a atualização de serviço desta semana, quando cria novos relatórios, pode agora escolher de entre vários tamanhos de página, bem como definir o seu próprio tamanho de página. Esta opção controla o tamanho e a proporção de cada página no relatório.
 * Adicionámos suporte adicional de formatação visual para imagens e gráficos de bolhas. Pode bloquear a proporção durante o redimensionamento de imagens para evitar a distorção da imagem, e as bolhas do gráfico de dispersão podem ser configuradas para serem preenchidas ou não.
 * Atualmente, o Power BI enviará convites de partilha para um endereço de e-mail alternativo. Quando um dashboard é partilhado consigo, enviamos a ligação de convite de partilha para o seu endereço de e-mail original e para o seu endereço de e-mail alternativo (se o tiver configurado).
-* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utlizadores utilizando as instruções descritas [aqui](http://go.microsoft.com/fwlink/?LinkId=627174).
+* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utilizadores utilizando as instruções descritas [aqui](http://go.microsoft.com/fwlink/?LinkId=627174).
 * Os Registos de Auditoria do Azure permitem-lhe visualizar registos operacionais do plano de controlo na sua subscrição do Azure. O pacote de conteúdos dos Registos de Auditoria do Azure do Power BI pode ajudá-lo a analisar e visualizar facilmente a imensa informação contida nestes registos. O pacote de conteúdos permite-lhe ligar-se aos seus dados e começar a descobrir informações com um dashboard e relatórios prontos a utilizar. Leia o nosso [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx) e a [documentação online](service-connect-to-azure-audit-logs.md) para obter mais informações.
 
 [Saiba mais através do nosso blogue](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx).

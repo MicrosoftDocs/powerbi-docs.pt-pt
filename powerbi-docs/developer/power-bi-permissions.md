@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 70883adbc224f568e8a7a3a2843fb419d1c15308
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 548f84c38705e269998fd3c124b4f93d3c83d2ef
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278991"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215464"
 ---
 # <a name="power-bi-permissions"></a>Permissões do Power BI
 
@@ -27,7 +27,7 @@ As permissões do Power BI fornecem a uma aplicação a capacidade de executar d
 | Ver Todos os Conjuntos de Dados |A aplicação pode ver todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.Read.All |
 | Ler e Escrever Todos os Conjuntos de Dados |A aplicação pode ver e escrever em todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.ReadWrite.All |
 | Adicionar dados ao conjunto de dados de um utilizador |Dá acesso a uma aplicação para adicionar ou eliminar linhas de conjuntos de dados de um utilizador. Esta permissão não concede o acesso da aplicação aos dados do utilizador. |Data.Alter_Any |
-| Criar conteúdos |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
+| Create content |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
 | Ver Grupos de Utilizadores |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read |
 | Ver todos os grupos |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read.All |
 | Ler e escrever todos os Grupos |A aplicação pode ver e escrever em todos os grupos do utilizador com a sessão iniciada e todos os grupos a que o utilizador tenha acesso. |Group.ReadWrite.All |

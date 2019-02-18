@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008862"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223358"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Ligar-se ao Xero com o Power BI
 O Xero é um software de contabilidade online fácil de utilizar e especificamente concebido para as pequenas empresas. Crie visualizações apelativas com base nos seus dados financeiros do Xero através deste pacote de conteúdos do Power BI. O seu dashboard predefinido inclui muitas métricas para pequenas empresas, como fundo de maneio, receita versus despesa, tendência de perda de lucro, dias de vencimento e retorno sobre o investimento.
@@ -85,7 +85,7 @@ As seguintes funções são necessárias para ter acesso ao pacote de conteúdos
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Localizar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 Indique um nome da sua organização para a controlar no Power BI. Isto permite-lhe ligar-se a múltiplas organizações diferentes. Note que não pode ligar-se à mesma organização várias vezes, pois irá interferir com a atualização agendada.   
 
 ## <a name="troubleshooting"></a>Resolução de problemas

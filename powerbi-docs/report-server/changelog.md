@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482758"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224048"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -169,7 +169,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
     - *Versão: 2.51.4885.3981 (outubro de 2017), Lançamento: 10 de abril de 2018*
         - Atualizações de Segurança
 
-    - *Versão: 2.51.4885.2501 (outubro de 2017), Lançamento: 10 de Janeiro de 2018*
+    - *Versão: 2.51.4885.2501 (outubro de 2017), Lançamento: 10 de janeiro de 2018*
         - Atualizações de Segurança
 
     - *Versão: 2.51.4885.1423 (outubro de 2017), Lançamento: 17 de novembro de 2017*
@@ -180,7 +180,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 
     - *Versão: 2.51.4885.1041 (outubro de 2017), Lançamento: 31 de outubro de 2017*
         - Funcionalidades
-            - Contém as alterações necessárias para a ligação com o Power BI Report Server (Outubro de 2017)
+            - Contém as alterações necessárias para a ligação com o Power BI Report Server (outubro de 2017)
 
 ## <a name="june-2017"></a>Junho de 2017
 
@@ -203,7 +203,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
         - Versão inicial do Power BI Report Server
 
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
-    - *Versão: 2.47.4766.4901 (Junho de 2017), Lançamento: 10 de Janeiro de 2018*
+    - *Versão: 2.47.4766.4901 (junho de 2017), Lançamento: 10 de Janeiro de 2018*
         - Atualizações de Segurança
 
 ## <a name="next-steps"></a>Próximos passos
