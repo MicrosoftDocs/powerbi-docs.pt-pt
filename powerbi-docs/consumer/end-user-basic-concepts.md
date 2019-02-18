@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430608"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216200"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceitos básicos para os ***consumidores*** do serviço Power BI
 
