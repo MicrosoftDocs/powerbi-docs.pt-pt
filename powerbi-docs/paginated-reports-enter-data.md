@@ -1,20 +1,20 @@
 ---
 title: Introduzir dados diretamente num relatório paginado no Report Builder (Pré-visualização)
 description: Neste artigo, irá aprender a introduzir dados diretamente num relatório paginado no Report Builder.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.author: maggies
-ms.openlocfilehash: 732b90a5d325665cbe82c87bd1247ff72af9e6e5
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215142"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324996"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Introduzir dados diretamente num relatório paginado no Report Builder (Pré-visualização) – Power BI
 

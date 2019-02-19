@@ -1,43 +1,44 @@
 ---
 title: Adicionar comentários a um relatório no Power BI Report Server
 description: Saiba como adicionar comentários a um relatório do Power BI ou paginado no Power BI Report Server ou no servidor de relatórios do SQL Server Reporting Services.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7e2dcc24cde68275899b25ff457b7731583c1bc5
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275393"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324237"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Adicionar comentários a um relatório no servidor de relatórios - Power BI Report Server
+
 Pode adicionar comentários a relatórios, incluindo relatórios do Power BI, no portal Web de um servidor de relatórios. Os comentários permanecem no relatório, e qualquer pessoa com as permissões corretas pode ver os comentários do relatório. Veja a secção [Permissões](#permissions) abaixo para obter detalhes.
 
 ## <a name="add-or-view-comments"></a>Adicionar ou ver os comentários
+
 1. Abra um relatório paginado ou do Power BI num servidor de relatórios.
 2. No canto superior direito, selecione **Comentários**.
-   
+
     ![Selecionar Comentários](media/add-comments/report-server-web-portal-comments-button.png)
-   
+
     No painel Comentários, pode ver quaisquer comentários existentes.
 3. Escreva o seu comentário e selecione **Publicar Comentário**.
-   
+
     ![Publicar Comentário](media/add-comments/report-server-web-portal-comments-pane.png)
-   
+
     Mostra o comentário no painel do portal Web, com quaisquer comentários anteriores. Não são apresentados com o relatório nas aplicações móveis do Power BI.
-   
+
    > [!TIP]
    > Sabia que? Pode [anotar relatórios do Power BI nas aplicações móveis do Power BI](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) e partilhar os relatórios anotados com outras pessoas.
-   > 
-   > 
 
 ## <a name="permissions"></a>Permissões
+
 Consoante as suas permissões, pode:
 
 * Não ver os comentários.

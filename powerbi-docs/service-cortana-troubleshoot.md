@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296323"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249051"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Resolução de problemas do Cortana para Power BI
 Este artigo faz parte de uma série. Se ainda não o fez, recomendamos que leia os três artigos seguintes.
@@ -79,7 +79,7 @@ Continua a ter problemas?  Agora é uma boa altura para executar a ferramenta de
 
    ![Cartão de resposta](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Separador Cartão de resposta no Power BI](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. Por vezes, quando escreve algo pela primeira vez no campo **Expressão**, nada acontece. Pense nisto como estar a ativar o sistema; está a indicar à ferramenta de resolução de problemas que está na altura de começar a funcionar. Corte e cole ou volte a escrever no **Expressão**. Neste exemplo, o nome do cartão de resposta é **Arquivos do Cortana**. Colar ou escrever **Arquivos do Cortana** na ferramenta produz um resultado único apresentado no campo **Interpretações**. Clique para ver o cartão de resposta apresentado na janela do Cortana, neste caso, **Arquivos do Cortana**.

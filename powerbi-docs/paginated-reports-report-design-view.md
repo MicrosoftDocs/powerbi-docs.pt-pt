@@ -1,20 +1,20 @@
 ---
 title: Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
 description: A Vista de Estrutura de Relatório no Report Builder é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283535"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324842"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
 
@@ -22,12 +22,12 @@ A Vista de Estrutura de Relatório no Report Builder é o espaço de estrutura p
 
 ![Vista de Estrutura de Relatório do Report Builder](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1.  [Painel Dados do relatório](#report-data-pane) 
-2.  [Superfície de desenho do relatório](#report-design-surface)  
-3.  [Painel Parâmetros](#parameters-pane) 
-4.  [Painel Propriedades](#properties-pane) 
-5.  [Painel Agrupamento](#grouping-pane) 
-6.  [Barra de estado do relatório atual](#current-report-status-bar)  
+1. [Painel Dados do relatório](#report-data-pane) 
+2. [Superfície de desenho do relatório](#report-design-surface)  
+3. [Painel Parâmetros](#parameters-pane) 
+4. [Painel Propriedades](#properties-pane) 
+5. [Painel Agrupamento](#grouping-pane) 
+6. [Barra de estado do relatório atual](#current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 Painel Dados do Relatório  
  No painel Dados do Relatório, vai definir os dados do relatório e os recursos de relatório que precisa para um relatório antes de criar o layout do relatório. Por exemplo, pode adicionar origens de dados, conjuntos de dados, campos calculados, parâmetros de relatórios e imagens ao painel Dados do Relatório.  

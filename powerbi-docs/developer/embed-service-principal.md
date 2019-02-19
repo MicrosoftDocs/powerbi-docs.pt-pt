@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971677"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248913"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
 
@@ -53,7 +53,7 @@ Só pode utilizar o principal de serviço se os seus artefactos e recursos do Po
 
 Existem diferenças entre utilizar um principal de serviço e uma conta principal padrão (licença do Power BI Pro) para autenticação. A tabela abaixo destaca algumas diferenças significativas.
 
-| Função | Conta de Utilizador Principal </br> (Licença do Power BI Pro) | Principal de Serviço </br> (token apenas de aplicação) |
+| Função | Conta de Utilizador Principal <br> (Licença do Power BI Pro) | Principal de Serviço <br> (token apenas de aplicação) |
 |------------------------------------------------------|---------------------|-------------------|
 | Pode iniciar sessão no serviço Power BI  | Sim | Não |
 | Ativado no portal de administração do Power BI | Não | Sim |

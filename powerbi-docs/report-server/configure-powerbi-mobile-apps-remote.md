@@ -1,20 +1,20 @@
 ---
 title: Configurar o acesso da aplicação móvel iOS a um servidor de relatórios remotamente
 description: Saiba como configurar as aplicações móveis para iOS remotamente para o seu servidor de relatórios.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293586"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324375"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar o acesso da aplicação móvel do Power BI para iOS a um servidor de relatórios remotamente
 
@@ -35,10 +35,10 @@ A seguinte tabela enuncia os pares.
 
 |Chave  |Tipo  |Descrição  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | Cadeia | URL do Servidor de Relatórios </br> Deve começar por http/https |
-| com.microsoft.powerbi.mobile.ServerUsername | Cadeia | [opcional] </br> O nome de utilizador a utilizar para ligar o servidor. </br> Se não existir, a aplicação pedirá ao utilizador para escrever o nome de utilizador para a ligação.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | Cadeia | [opcional] </br> O valor predefinido é "Servidor de relatórios" </br> Um nome amigável utilizado na aplicação para representar o servidor | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | O valor predefinido é Verdadeiro </br>Quando definido como "True", substitui todas as definições do Servidor de Relatórios já existente no dispositivo móvel. Os servidores existentes que já estiverem configurados serão eliminados. </br> Quando a substituição está definida como Verdadeiro, isto impede também que o utilizador remova essa configuração. </br> Se estiver definido como "Falso", adicionará os valores emitidos, mantendo as definições existentes. </br> Se o mesmo URL do servidor já estiver configurado na aplicação móvel, esta manterá essa configuração tal como está. A aplicação não pedirá ao utilizador para voltar a autenticar para o mesmo servidor. |
+| com.microsoft.powerbi.mobile.ServerURL | Cadeia | URL do Servidor de Relatórios <br> Deve começar por http/https |
+| com.microsoft.powerbi.mobile.ServerUsername | Cadeia | [opcional] <br> O nome de utilizador a utilizar para ligar o servidor. <br> Se não existir, a aplicação pedirá ao utilizador para escrever o nome de utilizador para a ligação.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Cadeia | [opcional] <br> O valor predefinido é "Servidor de relatórios" <br> Um nome amigável utilizado na aplicação para representar o servidor | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | O valor predefinido é Verdadeiro <br>Quando definido como "True", substitui todas as definições do Servidor de Relatórios já existente no dispositivo móvel. Os servidores existentes que já estiverem configurados serão eliminados. <br> Quando a substituição está definida como Verdadeiro, isto impede também que o utilizador remova essa configuração. <br> Se estiver definido como "Falso", adicionará os valores emitidos, mantendo as definições existentes. <br> Se o mesmo URL do servidor já estiver configurado na aplicação móvel, esta manterá essa configuração tal como está. A aplicação não pedirá ao utilizador para voltar a autenticar para o mesmo servidor. |
 
 Eis um exemplo de definição da política de configuração com o Intune.
 

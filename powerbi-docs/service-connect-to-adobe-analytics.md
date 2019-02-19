@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008701"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249028"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Ligar ao Adobe Analytics com o Power BI
 A ligação ao Adobe Analytics através do Power BI começa pela ligação à sua conta do Adobe Analytics Marketing Cloud. Obtém uma aplicação com um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre as dimensões de tráfego e utilizadores do seu site. Os dados são atualizados automaticamente uma vez por dia. Pode interagir com o dashboard e os relatórios, mas não pode guardar as alterações.
@@ -53,19 +53,19 @@ O Power BI utiliza a API de Relatório do Adobe Analytics para definir e executa
 
 | **Nome da Tabela** | **Detalhes da Coluna** |
 | --- | --- |
-| Produtos |elementos = "product" (os 25 primeiros) </br> métricas= "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| Navegadores |elementos= "browser" (os 25 primeiros)</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
-| Páginas |elementos= "page" (as 25 primeiras)</br>  métricas= "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
+| Produtos |elementos = "product" (os 25 primeiros) <br> métricas= "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Navegadores |elementos= "browser" (os 25 primeiros)<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
+| Páginas |elementos= "page" (as 25 primeiras)<br>  métricas= "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
 | JavaScript Ativado |elementos= "javascriptenabled”, “browser” (os 25 primeiros) |
-| SO Móvel |elementos= "mobileos" (os 25 primeiros)</br> métricas= "bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "checkouts", "revenue", "units", "pageviews" |
-| Palavras-chave de Mecanismos de Pesquisa |elementos= "searchengine" "searchenginekeyword"</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Mecanismo de Pesquisa para Produtos |elementos= "searchengine", "product"</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Páginas de Referência |elementos= "referrer" (os 15 primeiros), "page" (as 10 primeiras)</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Páginas de Geocountry |elementos= "geocountry" (os 20 primeiros), "page"</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| Produto de Geocountry |elementos= "geocountry" (os 20 primeiros), "product"</br> métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| Pesquisa de Região e País |elementos = "geocountry" (os 200 primeiros)</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| Idioma |elementos= "language", "browser" (os 25 primeiros)</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews", "cartadditions", "cartremovals", "checkouts", "carts", "cartviews" |
-| Pesquisa de mecanismos de pesquisa |elementos= "searchengine" (os 100 primeiros)</br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| SO Móvel |elementos= "mobileos" (os 25 primeiros)<br> métricas= "bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "checkouts", "revenue", "units", "pageviews" |
+| Palavras-chave de Mecanismos de Pesquisa |elementos= "searchengine" "searchenginekeyword"<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Mecanismo de Pesquisa para Produtos |elementos= "searchengine", "product"<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Páginas de Referência |elementos= "referrer" (os 15 primeiros), "page" (as 10 primeiras)<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Páginas de Geocountry |elementos= "geocountry" (os 20 primeiros), "page"<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| Produto de Geocountry |elementos= "geocountry" (os 20 primeiros), "product"<br> métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Pesquisa de Região e País |elementos = "geocountry" (os 200 primeiros)<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| Idioma |elementos= "language", "browser" (os 25 primeiros)<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews", "cartadditions", "cartremovals", "checkouts", "carts", "cartviews" |
+| Pesquisa de mecanismos de pesquisa |elementos= "searchengine" (os 100 primeiros)<br>  métricas= "bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
 | Pesquisa de navegador |elementos= "browser" (os 25 primeiros) |
 
 ## <a name="system-requirements"></a>Requisitos de sistema
