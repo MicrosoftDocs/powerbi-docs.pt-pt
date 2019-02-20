@@ -310,8 +310,6 @@ items:
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Alterar a forma como os elementos visuais interagem num relatório
         href: service-reports-visual-interactions.md
-      - name: Histogramas
-        href: visuals/service-histograms.md
       - name: Truques e sugestões para visualizações de mapa do Power BI
         href: visuals/power-bi-map-tips-and-tricks.md
       - name: Personalizar as propriedades dos eixos X e Y
@@ -442,7 +440,7 @@ items:
           href: service-govus-overview.md
         - name: FAQ para os clientes da Germany Cloud
           href: service-govde-faq.md
-      - name: Outras
+      - name: Outros
         items:
         - name: Microsoft Flow e Power BI
           href: service-flow-integration.md
@@ -1309,9 +1307,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d7cf2ab01727a120c5bac4b8dbc9e9eb9ccc483a
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: a4884b701b89ef0d92cacff12b6a75fda56c6e6e
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325226"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426821"
