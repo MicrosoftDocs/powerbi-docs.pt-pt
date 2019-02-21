@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126630"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249143"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registo de diagnóstico do Power BI Embedded no Azure
 
@@ -114,13 +114,13 @@ A categoria Motor instrui o recurso a registar os seguintes eventos e, para cada
 |    Fim de Sessão de Auditoria    |    Regista todos os eventos de ligação interrompida do motor desde o início do rastreio.    |
 |    Error    |    Regista todos eventos de erro do motor desde o início do rastreio.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | Nome da Propriedade | Exemplo de Fim da Consulta Vertipaq | Descrição da Propriedade |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | A Classe de Evento é utilizada para categorizar os eventos. |
-| EventSubclass | 0 | A Subclasse de Evento fornece informações adicionais sobre cada classe de evento. (por exemplo, 0: Análise VertiPaq) |
+| EventSubclass | 0 | A Subclasse de Evento fornece informações adicionais sobre cada classe de evento. (Por exemplo, 0: Análise VertiPaq) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | ID da atividade raiz. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Hora em que o evento começou, quando disponível. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Hora em que o evento começou, quando disponível. |

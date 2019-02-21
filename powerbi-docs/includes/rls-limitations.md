@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56333963"
+---
 ## <a name="limitations"></a>Limitações
 
 Segue-se uma lista das limitações atuais da segurança ao nível de linha nos modelos da cloud.
@@ -8,7 +21,7 @@ Segue-se uma lista das limitações atuais da segurança ao nível de linha nos 
 
 * Só são suportadas ligações ETL e DirectQuery. As ligações em direto para o Analysis Services são processadas no modelo no local.
 
-* Neste momento, as Perguntas e Respostas e a Cortana não são suportadas com a RLS. Não verá a caixa de entrada de Perguntas e Respostas para os dashboards, se todos os modelos tiverem a RLS configurada. Isto está planeado, mas não está disponível uma data futura.
+* A Cortana não é suportada com a RLS neste momento.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
@@ -20,4 +33,4 @@ Existe um problema conhecido em que é apresentada uma mensagem de erro ao tenta
 
 1. A Teresa vê um erro.
 
-**Solução:** publicar novamente o ficheiro do Power BI Desktop a partir do serviço Power BI, até que o problema seja resolvido. Pode fazê-lo ao selecionar **Obter Dados** > **Ficheiros**.
+**Solução:** publicar novamente o ficheiro do Power BI Desktop a partir do serviço Power BI até que o problema seja resolvido. Pode fazê-lo ao selecionar **Obter Dados** > **Ficheiros**.

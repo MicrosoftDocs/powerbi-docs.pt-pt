@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292075"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249350"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, na maioria dos casos, não tem de fazer nada: a funcionalidade de Deteção Automática pode fazer isso por si. No entanto, em alguns casos, talvez tenha de criar relações ou talvez seja necessário fazer algumas alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
@@ -58,6 +58,8 @@ Quando cria ou edita uma relação, pode configurar opções adicionais.  Por pr
 **Muitos para um (\*: 1)** – Este é o tipo de predefinição mais comum. Isto significa que a coluna numa tabela pode ter mais de uma instância de um valor, enquanto que a outra tabela relacionada, geralmente conhecida como Tabela de referência, tem apenas uma instância de um valor.
 
 **Um para um (1:1)** – Isto significa que a coluna numa tabela tem apenas uma instância de um valor específico e a outra tabela relacionada tem apenas uma instância de um valor específico.
+
+**Relações muitos para muitos**: com os modelos compostos, pode estabelecer relações muitos-para-muitos entre tabelas. Esta abordagem remove os requisitos de valores exclusivos nas tabelas. Também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter informações mais detalhadas, veja [Relações com uma cardinalidade de muitos-para-muitos](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a cardinalidade.
 

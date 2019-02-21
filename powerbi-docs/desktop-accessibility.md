@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280062"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249120"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -141,6 +141,11 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 ### <a name="pane-navigation"></a>Navegação no Painel
 | Para esta ação           | Prima                |
 | :------------------- | :------------------- |
+| Seleção múltipla | CTRL + Espaço |
+| Fechar uma tabela única | Tecla Seta Para a Esquerda |
+| Expandir uma tabela única | Tecla Seta Para a Direita |
+| Fechar todas as tabelas | Alt+Shift+1 |
+| Expandir todas as tabelas | Alt+Shift+9 |
 | Abrir um menu de contexto | <ul><li>Teclado do Windows: tecla de contexto do Windows + F10.  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: Shift+F10</li></ul> |
 
 ### <a name="slicer"></a>Segmentação de Dados
@@ -148,7 +153,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | :------------------- | :------------------- |
 | Interagir com uma segmentação de dados | Ctrl+Tecla Seta Para a Direita |
 
-### <a name="selection-pane"></a>Painel de Seleção
+### <a name="selection-pane"></a>Painel Seleção
 | Para esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Ativar o painel de seleção | F6 |

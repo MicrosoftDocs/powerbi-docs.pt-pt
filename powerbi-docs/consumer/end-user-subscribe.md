@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 12/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df167f8693708c08bc44e935cff184917d8aaf54
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 26ba6d0ea23451863d05b13a79e57d483b15881f
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794329"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298851"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 Nunca foi tão fácil manter-se atualizado relativamente ao seus dashboards e relatórios mais importantes. Subscreva as páginas de relatório e dashboards mais importantes para si e o Power BI enviará um instantâneo por e-mail para a sua caixa de entrada. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente ou mediante a atualização dos dados. Também pode definir uma hora específica para o Power BI enviar os e-mails ou executar o envio agora.  
@@ -27,7 +27,7 @@ O e-mail e o instantâneo utilizarão o idioma definido nas definições do Powe
 Quando receber o e-mail, verá que este inclui uma ligação para "ir para o relatório/dashboard". Nos dispositivos móveis com aplicações do Power BI instaladas, a seleção desta ligação inicia a aplicação (por oposição à ação predefinida de abrir o relatório ou dashboard no site do Power BI).
 
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 **Criar** uma subscrição é uma funcionalidade do Power BI Pro.   
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Subscrever um dashboard ou uma página de relatórios
@@ -73,8 +73,9 @@ Só pode gerir as suas subscrições. Selecione **Subscrever** novamente e escol
 Uma subscrição terminará se a licença Pro expirar, o dashboard ou o relatório for eliminado pelo proprietário ou a conta de utilizador utilizada para criar a subscrição for eliminada.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+* É possível que os dashboards com mais de 25 mosaicos afixados ou mais de quatro páginas de relatórios dinâmicos afixadas não sejam apresentados por inteiro nos e-mails de subscrição enviados aos utilizadores. Sugerimos que reduza o número de mosaicos afixados para 25 e o de relatórios dinâmicos afixados para menos de quatro, de modo a garantir que o e-mail é apresentado corretamente.  
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança aplicada ao nível da linha (RLS), o mesmo não será apresentado.  Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, não poderá criar uma subscrição.
-* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e lhe for atribuído um nome novo, terá de criar novamente a sua subscrição.
+* As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e for-lhe atribuído um nome novo, terá de criar novamente a sua subscrição.
 * Se não conseguir utilizar a funcionalidade de subscrição, contacte o seu administrador de sistema. A sua organização pode ter desativado esta funcionalidade por questões de autenticação ou outros motivos.  
 * As subscrições por e-mail não suportam a maioria dos [elementos visuais personalizados](../power-bi-custom-visuals.md).  A exceção são os elementos visuais personalizados que foram [certificados](../power-bi-custom-visuals-certified.md).  
 * De momento, as subscrições por e-mail não suportam elementos visuais personalizados baseados em R.  

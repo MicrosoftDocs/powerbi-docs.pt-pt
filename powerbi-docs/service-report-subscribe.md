@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430953"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408121"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI para si e para outras pessoas
 
@@ -60,12 +60,10 @@ Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante
 7. Selecione **Guardar e fechar**. Os utilizadores subscritos receberão um e-mail e um instantâneo do dashboard ou da página de relatório com a frequência e na hora que selecionou. Pode criar até 24 subscrições por relatório ou dashboard e pode indicar frequências, horas e destinatários exclusivos para cada subscrição.  Todas as subscrições definidas para **Depois da Atualização de Dados** para o dashboard ou relatório só enviarão um e-mail após a primeira atualização agendada.   
       
    > [!TIP]
-   > Quer ver o e-mail de imediato? Acione um e-mail ao atualizar um dos conjuntos de dados associados ao dashboard ou o conjunto de dados associado ao relatório. Se não tiver permissões de edição para o conjunto de dados, peça a alguém que tenha essas permissões para atualizar por si. Para ver conjuntos de dados relacionados, selecione o ícone **Ver relacionados** ![ícone Ver relacionados](media/service-report-subscribe/power-bi-view-related.png) para abrir **Conteúdo relacionado** e, em seguida, selecione o ícone de atualização ![ícone de atualização](media/service-report-subscribe/power-bi-refresh.png). 
+   > Quer enviar o e-mail de uma subscrição diretamente ou a pedido a qualquer momento? Selecione **Executar Agora** para as subscrições do dashboard ou relatório que pretende enviar. Verá uma notificação a informar que será enviado um e-mail para todos os utilizadores dessa subscrição específica.  Pode efetuar esta ação quantas vezes quiser. A mesma não conta para o seu limite de 24 execuções de subscrições agendadas por dia e por relatório ou dashboard. Tenha em atenção que isto NÃO irá acionar uma atualização de dados no conjunto de dados subjacente. 
    > 
    > 
    
-   ![Conjuntos de dados relacionados](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>Idiomas do e-mail
 
 O e-mail e o instantâneo utilizam o idioma definido nas definições do Power BI (veja os [Idiomas e países/regiões com suporte no Power BI](supported-languages-countries-regions.md)). Se não for definido qualquer idioma, o Power BI utilizará o idioma de acordo com a definição de local do browser atual. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem ![ícone de engrenagem](media/service-report-subscribe/power-bi-settings-icon.png) > **Definições > Geral > Idioma**. 
@@ -84,6 +82,7 @@ As subscrições específicas apresentadas dependem da área de trabalho atualme
 Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar o dashboard ou relatório, ou a conta de utilizador utilizada para criar a subscrição for eliminada.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+* É possível que os dashboards com mais de 25 mosaicos afixados ou mais de 4 páginas de relatórios dinâmicos afixadas não sejam apresentados por inteiro nos e-mails de subscrição enviados para os utilizadores.  As subscrições de dashboards que ultrapassarem este número de mosaicos não serão bloqueadas. No entanto, serão consideradas como não suportadas se ocorrerem problemas e deverão ser modificadas de forma a se enquadrarem num intervalo suportado.
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança aplicada ao nível da linha (RLS), o mesmo não será apresentado.  Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, não poderá criar uma subscrição.
 * As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e, em seguida, mudar o nome da mesma, terá de voltar a criar a sua subscrição.
 * A sua organização pode configurar determinadas definições no Azure Active Directory que podem limitar a capacidade de utilizar as subscrições de e-mail no Power BI.  Estas limitações incluem, mas não se limitam a, ter uma autenticação multifator ou restrições de intervalos de IP quando se acede a recursos.
@@ -100,7 +99,7 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 * Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) pode receber e-mails. [A equipa do Power BI está a trabalhar para simplificar este requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), por isso, mantenha-se atento. 
 * Se o dashboard ou relatório estiver em capacidade Premium, pode utilizar aliases de e-mail de grupo para subscrições, em vez de subscrever colegas individualmente através dos endereços de e-mail. Os aliases são baseados no Active Directory atual. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)    
 * [Ler a mensagem de blogue](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
 

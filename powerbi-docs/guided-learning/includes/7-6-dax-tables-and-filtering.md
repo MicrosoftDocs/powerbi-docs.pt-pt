@@ -21,7 +21,7 @@ Pode combinar funções de tabela na sua expressão, desde que cada função uti
 
 Essa expressão colocaria um filtro sobre a totalidade da *Tabela*, ignorando qualquer conteúdo de filtro atual.
 
-A função DISTINCT devolve os valores distintos de uma coluna que também são visíveis no contexto atual. Assim, para utilizar o exemplo de expressão DAX acima, utilizar **ALL** nessa expressão ignora os filtros, enquanto que substituir **ALL** por **DISTINCT** os respeitaria.
+A função DISTINCT devolve os valores distintos de uma coluna que também são visíveis no contexto atual. Sendo assim, para utilizar o exemplo de expressão DAX acima, utilizar **ALL** nessa expressão ignora os filtros, enquanto substituir **ALL** por **DISTINCT** os respeitaria.
 
 ## <a name="counting-values-with-dax"></a>Contar valores com o DAX
 Uma pergunta comum à qual os construtores de relatórios do Power BI querem responder é a seguinte:

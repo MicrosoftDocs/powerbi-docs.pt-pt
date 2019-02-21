@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482712"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298828"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>A nova experiência de filtros nos relatórios do Power BI (Pré-visualização)
 
 Este artigo descreve a nova experiência de filtragem: Os filtros no Power BI têm novas funcionalidades e um novo design. Quando estrutura relatórios no Power BI Desktop ou no serviço Power BI, pode alterar o aspeto do Painel de filtros e fazer com que interaja com todo o relatório. Na nova experiência, o Painel de filtros antigo atua como um painel de edição de filtros e o novo painel Filtros é o único que os consumidores de relatórios veem. 
  
 ![Vista predefinida (sem a aplicação de personalização adicional)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> A nova experiência de filtros encontra-se no modo de pré-visualização. As novas compilações podem substituir a formatação que tiver definido.
 
 Enquanto estruturador de relatórios, eis o que pode fazer com os novos filtros:
 
@@ -83,6 +86,7 @@ Uma parte importante desta nova experiência passa por agora poder formatar o pa
 - Transparência do fundo
 - Limite do painel de filtros ativado ou desativado
 - Cor do limite do painel de filtros
+- Título do painel de filtros e tipo de letra, cor e tamanho do texto do cabeçalho
 
 Também pode formatar estes elementos para cartões de filtros, dependendo se estão aplicados (definidos para algo) ou disponíveis (desmarcados): 
 
@@ -90,6 +94,8 @@ Também pode formatar estes elementos para cartões de filtros, dependendo se es
 - Transparência do fundo
 - Limite: ativado ou desativado
 - Cor dos limites
+- Tipo de letra, cor e tamanho do texto
+- Cor de caixa de entrada
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>Definir o formato do Painel de filtros e dos cartões
 
@@ -100,11 +106,11 @@ Também pode formatar estes elementos para cartões de filtros, dependendo se es
 
 1. Expanda **Painel de filtros** para definir a cor do fundo, o ícone e o limite esquerdo, para complementar a página do relatório.
 
-    ![Expandir o Painel de filtros](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![Expandir o Painel de filtros](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. Expanda **Cartões de filtros** para definir a cor e o limite **Disponível** e **Aplicado**. Se disponibilizar cores diferentes para cartões disponíveis e aplicados, será óbvio quais são os filtros aplicados. 
   
-    ![Expandir o Cartão de filtros](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![Expandir o Cartão de filtros](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Ver filtros de um elemento visual no Modo de leitura
 

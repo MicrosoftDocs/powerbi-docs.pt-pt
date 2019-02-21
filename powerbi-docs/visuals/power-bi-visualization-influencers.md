@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a82bbc3e4b31dca0a304c1d3f64d4bc63e4e7fb3
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086776"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325157"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
 O elemento visual de influenciadores principais ajuda a compreender os fatores que estão por trás de uma métrica que seja do seu interesse. Este analisa os seus dados, classifica os fatores que são importantes e apresenta-os como influenciadores principais. Por exemplo, imaginemos que gostaria de descobrir o que influencia a rotatividade dos colaboradores. Um dos fatores pode ser a duração dos contratos de trabalho e outro a idade dos colaboradores. 
@@ -167,11 +167,11 @@ Neste grupo, 74,3% das pessoas atribuiu uma classificação baixa. O cliente com
  
 Atualmente, o elemento visual de influenciadores principais encontra-se no modo de pré-visualização pública e existem várias limitações das quais os utilizadores devem ter conhecimento. As funcionalidades atualmente indisponíveis incluem o seguinte: 
 - Análise de métricas que são agregados/medidas 
-- Consumo do elemento visual no Power BI Embedded 
-- Consumo do elemento visual no Power BI Mobile 
+- Consumo do elemento visual no Power BI Embedded
+- Consumo do elemento visual em aplicações móveis do Power BI
 - Suporte para RLS 
 - Suporte para Consultas Diretas 
-- Suporte para Consultas Dinâmicas 
+- Suporte para Ligações em Direto 
  
 **Estou a ver um erro que indica que não foram encontrados influenciadores/segmentos. Porque é que isto acontece?**  
 
@@ -247,15 +247,16 @@ Tal deve-se ao facto de a visualização também ter em consideração o número
 
 **Como se calculam os influenciadores principais?**
 
-A visualização de IA executa uma regressão logística em segundo plano para calcular os influenciadores principais. Uma regressão logística é um modelo estatístico que compara diferentes grupos entre si. Se examinássemos o que motiva a atribuição de classificação baixas, a regressão logística avaliaria a forma como os clientes que atribuíram uma classificação baixa diferem daqueles que atribuíram uma classificação alta. Se tivéssemos múltiplas categorias (classificação alta, neutra e baixa), passaríamos a analisar a forma como os clientes que atribuíram uma classificação baixa diferem daqueles que não atribuíram uma classificação baixa (como diferem de quem atribuiu uma classificação alta OU uma classificação neutra). 
+A visualização de IA utiliza [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para executar uma regressão logística em segundo plano para calcular os influenciadores principais. Uma regressão logística é um modelo estatístico que compara diferentes grupos entre si. Se examinássemos o que motiva a atribuição de classificação baixas, a regressão logística avaliaria a forma como os clientes que atribuíram uma classificação baixa diferem daqueles que atribuíram uma classificação alta. Se tivéssemos múltiplas categorias (classificação alta, neutra e baixa), passaríamos a analisar a forma como os clientes que atribuíram uma classificação baixa diferem daqueles que não atribuíram uma classificação baixa (como diferem de quem atribuiu uma classificação alta OU uma classificação neutra). 
  
 A regressão logística procura padrões nos dados, analisando a forma como os clientes que atribuíram uma classificação baixa podem diferir dos que atribuíram uma classificação alta. Por exemplo, a regressão pode apurar que os clientes com maior número de pedidos de suporte atribuíram uma percentagem de classificações baixas bastante maior do que os clientes com poucos ou nenhum pedido de suporte.
  
 A regressão logística também tem em consideração a quantidade de pontos de dados existentes. Se, por exemplo, os clientes com uma função de administrador atribuíssem uma proporção maior de classificações negativas, mas só existisse um número restrito de administradores, tal não seria considerado um fator influente. Tal acontece porque não existem pontos de dados suficientes para deduzir que há um padrão. Um teste estatístico (teste de Wald) é utilizado para determinar se um fator pode ser considerado um influenciador. O elemento visual utiliza um valor-p de 0,05 para determinar o limite. 
- 
+
+
 **Como se calculam os segmentos?**
 
-A visualização de IA executa uma árvore de decisões de forma a detetar subgrupos de interesse. O objetivo da árvore de decisões consiste em obter um subgrupo de pontos de dados relativamente alto na métrica em que estamos interessados (por exemplo, os clientes que atribuíram uma classificação baixa). 
+A visualização de IA utiliza [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para executar uma árvore de decisões de forma a detetar subgrupos de interesse. O objetivo da árvore de decisões consiste em obter um subgrupo de pontos de dados relativamente alto na métrica em que estamos interessados (por exemplo, os clientes que atribuíram uma classificação baixa). 
 
 A árvore de decisões analisa cada fator explicativo e tenta determinar qual deles proporciona a melhor "divisão". Por exemplo, se filtrarmos os dados de modo a incluir apenas clientes empresariais de grande dimensão, será que essa ação irá separar os clientes que atribuíram uma classificação alta dos que atribuíram uma classificação baixa? Por outro lado, será melhor filtrar os dados de forma a incluir apenas os clientes que fizeram comentários sobre a segurança? 
 

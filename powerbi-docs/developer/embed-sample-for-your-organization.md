@@ -1,6 +1,6 @@
 ---
 title: Análise incorporada para incorporar conteúdo do Power BI na aplicação para a sua organização
-description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
+description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762473"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249442"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -57,7 +57,7 @@ Para permitir que a aplicação aceda às APIs REST do Power BI, registe a apli
 
 3. No painel de navegação à esquerda, escolha **Todos os serviços** e selecione **Registos de aplicações**. Em seguida, selecione **Novo registo de aplicação**.
 
-    ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+    ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
 
     ![Registo de nova aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
@@ -367,7 +367,7 @@ window.onload = function () {
     // client side click to embed a selected report.
     var el = document.getElementById("bEmbedReportAction");
     if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReporte, false);
+        el.addEventListener("click", updateEmbedReport, false);
     } else {
         el.attachEvent('onclick', updateEmbedReport);
     }

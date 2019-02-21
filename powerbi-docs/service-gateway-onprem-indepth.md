@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279326"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325020"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
 É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas para se poderem ligar à sua origem de dados no local, é necessário instalar e configurar um Gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
@@ -44,12 +44,12 @@ O Analysis Services também pode fornecer a filtragem com base nesta conta. A fi
 ## <a name="role-based-security"></a>Segurança baseada em funções
 Os modelos fornecem uma segurança baseada nas funções de utilizadores. As funções são definidas para um determinado projeto modelo durante a criação de conteúdos no SQL Server Data Tools – Business Intelligence (SSDT-BI) ou após a implementação de um modelo com o SQL Server Management Studio (SSMS). As funções contêm membros por nome de utilizador do Windows ou grupo do Windows. As funções definem as permissões que um utilizador tem para consultar ou realizar ações no modelo. A maioria dos utilizadores irá pertencer a uma função com permissões de Leitura. As outras funções são destinadas a administradores com permissões para processar itens, gerir bases de dados e gerir outras funções.
 
-## <a name="row-level-security"></a>Segurança ao nível da linha
+## <a name="row-level-security"></a>Row-level security
 A segurança ao nível da linha é específica do Analysis Services. Os modelos podem fornecer uma segurança dinâmica ao nível da linha. A segurança dinâmica não é necessária num modelo tabular, ao contrário do que acontece quando existe pelo menos uma função à qual os utilizadores pertencem. Num nível elevado, a segurança dinâmica define o acesso de leitura de um utilizador aos dados diretamente para uma linha específica numa determinada tabela. De forma semelhante às funções, a segurança ao nível da linha depende do nome de utilizador do Windows de um utilizador.
 
 A capacidade de um utilizador consultar e ver dados de modelo é determinada, primeiro, pelas funções das quais a conta de utilizador do Windows é membro e, em segundo lugar, pela segurança ao nível da linha dinâmica, se estiver configurada.
 
-A implementação de segurança baseada em funções e a segurança ao nível da linha dinâmica em modelos ultrapassa o âmbito deste artigo.  Pode saver mais em [Funções (SSAS Tabular)](https://msdn.microsoft.com/library/hh213165.aspx) e [Funções de Segurança (Analysis Services - Dados Multidimensionais)](https://msdn.microsoft.com/library/ms174840.aspx) no MSDN. Além disso, para obter uma compreensão mais detalhada da segurança do modelo de tabela, transfira e leia o documento técnico [Proteger o Modelo Semântico Tabular do BI](https://msdn.microsoft.com/library/jj127437.aspx).
+A implementação de segurança baseada em funções e a segurança ao nível da linha dinâmica em modelos ultrapassa o âmbito deste artigo.  Pode saber mais em [Funções (SSAS Tabular)](https://msdn.microsoft.com/library/hh213165.aspx) e [Funções de Segurança (Analysis Services - Dados Multidimensionais)](https://msdn.microsoft.com/library/ms174840.aspx) no MSDN. Além disso, para obter uma compreensão mais detalhada da segurança do modelo de tabela, transfira e leia o documento técnico [Proteger o Modelo Semântico Tabular do BI](https://msdn.microsoft.com/library/jj127437.aspx).
 
 ## <a name="what-about-azure-active-directory"></a>E o Azure Active Directory?
 Os serviços cloud da Microsoft utilizam o [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) para lidar com os utilizadores que estão a efetuar a autenticação. O Azure Active Directory é o inquilino que contém nomes de utilizador e grupos de segurança. Normalmente, o endereço de e-mail de início de sessão de um utilizador é o mesmo que o UPN da conta.
@@ -90,7 +90,7 @@ A utilização do Azure AD Connect assegura que o UPN terá correspondência ent
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>É aqui que entra o gateway
-O gateway funciona como uma ponte entre a cloud e o servidor no local. A transferência de dados entre a cloud e o gateway é protegida pelo [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). O Service Bus cria um canal seguro entre a cloud e o servidor no local através de uma ligação de saída no gateway.  Não existem ligações de entrada que tenha de abrir na firewall no local.
+O gateway funciona como uma ponte entre a cloud e o servidor no local. A transferência de dados entre a cloud e o gateway é protegida pelo [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). O Service Bus cria um canal seguro entre a cloud e o servidor no local através de uma ligação de saída no gateway.  Não existem ligações de entrada que tenha de abrir na firewall no local. O Power BI gere o Service Bus automaticamente, pelo que não são necessários passos de configuração nem existem custos adicionais.
 
 Se tiver uma origem de dados do Analysis Services, terá de instalar o gateway num computador associado ao mesmo domínio que o seu servidor do Analysis Services.
 

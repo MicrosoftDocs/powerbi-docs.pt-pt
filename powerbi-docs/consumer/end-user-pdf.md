@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55795008"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298874"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 Com o Power BI, pode publicar o seu relatório em formato PDF e criar facilmente um documento com base no seu relatório do Power BI. Quando **exportar para PDF**, cada página no relatório do Power BI irá tornar-se numa página individual do seu PDF.
@@ -28,6 +28,10 @@ No serviço Power BI, selecione um relatório para apresentá-lo na tela. També
 
     ![Selecionar Ficheiro na barra de menus, com a seta a apontar para Exportar para PDF](media/end-user-pdf/power-bi-export-pdf.png)
 
+    Será apresentado um pop-up onde poderá selecionar a opção **Vista atual** ou **Vista predefinida**.  A opção **Vista atual** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção.  Em alternativa, ao selecionar a opção **Vista predefinida** exporta o relatório no estado original (conforme partilhado pelo autor) e não reflete as alterações que tiver efetuado ao estado original.
+    
+    Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório.  Selecione esta caixa se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser.  Se preferir obter todos os separadores ocultos como parte da exportação, pode manter a caixa desselecionada.  Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório.  Após efetuar as suas seleções, clique no botão Exportar para continuar.
+    
     É apresentada uma barra de progresso no canto superior direito. A exportação poderá demorar alguns minutos e poderá continuar a trabalhar no Power BI enquanto o relatório estiver a ser exportado.
 
     ![Mensagem do progresso da exportação](media/end-user-pdf/power-bi-export-message.png)
@@ -41,10 +45,8 @@ No serviço Power BI, selecione um relatório para apresentá-lo na tela. També
 E é tudo. Pode transferir o ficheiro e abri-lo com qualquer visualizador de PDFs, como o que está disponível no Microsoft Edge.
 
 
-## <a name="limitations-and-considerations"></a>Limitações e observações
+## <a name="limitations-and-considerations"></a>Limitações e considerações
 Há algumas observações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para PDF**.
-
-- A interatividade em sessão (como realçar, filtrar e desagregar, entre outros) ainda não é suportada ao exportar para PDF. O PDF exportado mostra os elementos visuais originais conforme estes foram guardados no relatório. Se tiver aplicado filtros e segmentações de dados e quiser mantê-los ao realizar a exportação, guarde o relatório antes de efetuar este processo.
 
 * Os **visuais R** não são atualmente suportados. No PDF, estes elementos visuais irão estar em branco e será apresentada uma mensagem de erro.  
 
@@ -60,7 +62,7 @@ Há algumas observações e limitações a ter em conta ao trabalhar com a funci
 
 * Os relatórios pertencentes a um utilizador fora do seu domínio de inquilino do Power BI (por exemplo, um relatório pertencente a alguém fora da sua organização e partilhado consigo) não podem ser publicados em PDF.
 
-* Se partilhar um dashboard com alguém fora da sua organização (e, portanto, um utilizador que não esteja no seu inquilino do Power BI), esse utilizador já não poderá exportar os relatórios associados do dashboard partilhado para PDF. Por exemplo, se for aaron@contoso.com, poderá partilhar com cassie@cohowinery.com. No entanto, cassie@cohowinery.com não poderá exportar os relatórios associados para PDF.
+* Se partilhar um dashboard com alguém fora da sua organização (e, portanto, um utilizador que não esteja no seu inquilino do Power BI), esse utilizador já não poderá exportar os relatórios associados do dashboard partilhado para PDF. Por exemplo, se for aaron@contoso.com, pode partilhar com cassie@cohowinery.com. No entanto, cassie@cohowinery.com não poderá exportar os relatórios associados para PDF.
 
 * O serviço Power BI utiliza a sua definição de idioma do Power BI como o idioma da exportação para PDF. Para ver ou definir a sua preferência de idioma, selecione o ícone de engrenagem > **Definições** > **Geral** > **Idioma**.
 

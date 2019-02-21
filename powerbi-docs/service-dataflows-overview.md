@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223680"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324843"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparação personalizada de dados no Power BI (Pré-visualização)
 
@@ -52,6 +52,9 @@ Veja a seguir alguns exemplos de como os fluxos de dados podem trabalhar para si
 ## <a name="how-to-use-dataflows"></a>Como utilizar os fluxos de dados
 
 Na seção anterior, descrevemos várias formas de utilização dos fluxos de dados para criar rapidamente análises poderosas no Power BI. Nesta secção, vamos apresentar quão rapidamente pode criar informações ao utilizar fluxos de dados numa organização, obter uma vista rápida sobre como os profissionais de BI podem criar os seus próprios fluxos de dados e personalizar as informações para a sua própria organização.
+
+> [!NOTE]
+> Tem de ter uma conta paga do Power BI para utilizar fluxos de dados, como uma conta do Power BI Pro ou Power BI Premium. No entanto, a utilização de fluxos de dados não lhe será cobrada separadamente. 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>Alargar o Common Data Service às suas necessidades de negócio
 Para organizações que desejam alargar o Common Data Service (CDS), os fluxos de dados permitem aos profissionais de business intelligence personalizar as entidades padrão ou criar novas. Esta abordagem de gestão personalizada para personalizar o modelo de dados pode, em seguida, ser utilizada com fluxos de dados para criar aplicações e dashboards do Power BI adaptados a uma organização.

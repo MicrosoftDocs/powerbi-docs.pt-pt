@@ -14,7 +14,7 @@ Também pode alterar a cor com base num valor ou medida. Para tal, arraste um ca
 
 ![](media/3-9a-modifying-colors/3-9a_4.png)
 
-Além disso, pode alterar a escala e as cores utilizadas ao preencher as cores dos elementos de dados. Também pode selecionar uma escala divergente, ativando o controlo de deslize Divergente, que permite uma escala de cores entre três cores. E também pode definir os valores de *Mínimo*, *Centro* e *Máximo* apresentados no gráfico.
+Além disso, pode alterar a escala e as cores utilizadas ao preencher as cores dos elementos de dados. Também pode selecionar uma escala divergente, ativando o controlo de deslize Divergente, que permite uma escala de cores entre três cores. Ainda pode definir os valores *Mínimo*, *Centro* e *Máximo* apresentados no seu gráfico.
 
 ![](media/3-9a-modifying-colors/3-9a_5.png)
 

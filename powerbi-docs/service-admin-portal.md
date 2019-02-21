@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086477"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408190"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -172,11 +172,11 @@ A imagem seguinte mostra a opção para exportar os dados de um mosaico.
 > [!NOTE]
 > Desativar a opção **Exportar Dados** também impede os utilizadores de usarem a funcionalidade **Analisar no Excel**, bem como a ligação em direto do serviço Power BI.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Exportar relatórios como apresentações do PowerPoint
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportar relatórios como apresentações do PowerPoint ou documentos PDF
 
-Os utilizadores na organização podem exportar relatórios do Power BI como ficheiros do PowerPoint. [Saiba mais](consumer/end-user-powerpoint.md)
+Os utilizadores na organização podem exportar relatórios do Power BI como ficheiros do PowerPoint ou documentos PDF. [Saiba mais](consumer/end-user-powerpoint.md)
 
-A imagem seguinte mostra o menu **Ficheiro** para um relatório quando a definição **Exportar relatórios como apresentações do PowerPoint** está ativada.
+A seguinte imagem mostra o menu **Ficheiro** de um relatório quando a definição **Exportar relatórios como apresentações do PowerPoint ou documentos PDF** está ativada.
 
 ![Exportar relatórios como apresentações do PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ A imagem seguinte mostra a opção **A minha organização inteira** durante a c
 
 ![Publicar o pacote de conteúdos para a organização](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Criar pacotes e aplicações de conteúdos organizacionais de modelo
+### <a name="create-template-apps"></a>Create template apps (Criar aplicações de modelo)
 
-Os utilizadores na organização podem criar pacotes de conteúdos de modelo que utilizam conjuntos de dados incorporados no Power BI Desktop. [Saiba mais](template-content-pack-authoring.md)
+Os utilizadores na organização podem criar aplicações de modelo que utilizam conjuntos de dados incorporados no Power BI Desktop. Saiba mais sobre as [aplicações de modelo](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>Aplicações push para utilizadores finais
 
@@ -287,7 +287,7 @@ Os utilizadores na organização podem identificar os dashboards com classifica�
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
 
-## <a name="developer-settings"></a>Definições do programador
+## <a name="developer-settings"></a>Definições de programador
 
 ### <a name="embed-content-in-apps"></a>Incorporar conteúdo em aplicações
 
@@ -301,6 +301,18 @@ Os utilizadores na organização podem criar e utilizar fluxos de dados. Para ob
 
 > [!NOTE]
 > Esta definição aplica-se a toda a organização e não pode estar limitada a grupos específicos.
+
+## <a name="template-apps-settings-preview"></a>Definições de aplicações de modelo (pré-visualização)
+
+Existem duas definições que controlam aplicações de modelo. 
+
+![Definições de aplicações de modelo no portal de administração do Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+A primeira definição, **Criar aplicações de modelo**, controla as pessoas na sua organização que podem criar aplicações de modelo. Em seguida, os criadores de aplicações de modelo podem distribuí-las para os clientes fora da sua organização através do AppSource ou de outro método de distribuição.
+
+![Portal de administração do Power BI. Definição Criar aplicações de modelo](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+A segunda definição, **Instalar aplicações de modelo**, permite-lhe controlar as pessoas na sua organização que podem transferir e instalar aplicações de modelo a partir do AppSource ou de outra origem
 
 ## <a name="capacity-settings"></a>Definições de capacidade
 

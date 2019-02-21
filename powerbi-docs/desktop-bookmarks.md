@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216441"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325046"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -61,7 +61,7 @@ O **Power BI Desktop** cria um marcador e atribui-lhe um nome genérico. Pode f
 
 Depois de ter um marcador, pode apresentá-lo ao clicar simplesmente nele no painel **Marcadores**. 
 
-Pode também selecionar se cada marcador aplicará propriedades de *dados* tais como filtros e segmentações de dados, propriedades de *visualização* tais como destaque e a sua visibilidade, bem como alterações à página que apresenta a página que estava visível quando o marcador foi adicionado. Estas capacidades são úteis quando utiliza marcadores para alternar entre tipos de elementos visuais, caso em que pretenderá, provavelmente, desativar as propriedades dos dados para que os filtros não sejam repostos quando os utilizadores alteram os tipos de elementos visuais. 
+Pode também selecionar se cada marcador aplicará propriedades de *dados* tais como filtros e segmentações de dados, propriedades de *visualização* tais como destaque e a sua visibilidade, bem como alterações à página que apresenta a página que estava visível quando o marcador foi adicionado. Estas funcionalidades são úteis quando utiliza marcadores para alternar entre vistas de relatórios ou seleções de elementos visuais, caso em que pretenderá, provavelmente, desativar as propriedades dos dados para que os filtros não sejam repostos quando os utilizadores alternarem entre vistas ao selecionar um marcador. 
 
 Para fazer essas alterações, selecione as reticências junto ao nome do marcador, conforme mostrado na imagem anterior e, em seguida, selecione ou desselecione as marcas de verificação junto a *Dados*, *Apresentar* e outros controlos. 
 

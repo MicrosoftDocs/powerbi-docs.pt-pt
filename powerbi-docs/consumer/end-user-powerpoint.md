@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281557"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298920"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 Com o Power BI, pode publicar o seu relatório no **Microsoft PowerPoint** e criar facilmente um conjunto de diapositivos com base no seu relatório do Power BI. Quando **exportar para o PowerPoint**, acontece o seguinte:
@@ -35,6 +35,10 @@ No serviço Power BI, selecione um relatório para apresentá-lo na tela. També
 Quando o relatório que quer exportar para o PowerPoint for apresentado na tela, selecione **Ficheiro > Exportar para o PowerPoint** a partir da barra de menus no serviço Power BI.
 
 ![Fechar a barra de navegação esquerda com a opção A Minha Área de Trabalho selecionada e o menu pendente Ficheiro selecionado](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+Será apresentado um pop-up onde poderá selecionar a opção **Vista atual** ou **Vista predefinida**.  A opção **Vista atual** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção.  Em alternativa, selecionar a opção **Vista predefinida** exporta o relatório no estado original (conforme partilhado pelo autor) e não reflete as alterações que tiver efetuado ao estado original.
+    
+Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório.  Selecione esta caixa se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser.  Se preferir obter todos os separadores ocultos como parte da exportação, pode manter a caixa desselecionada.  Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório.  Após efetuar as suas seleções, clique em **Exportar** para continuar.
 
 Irá ver uma faixa de notificação no canto superior direito da janela de browser do serviço Power BI a informar que o relatório está a ser exportado para o PowerPoint. Poderão demorar alguns minutos e pode continuar a trabalhar no Power BI enquanto o relatório estiver a ser exportado.
 
@@ -74,7 +78,6 @@ O que fazer com o conjunto do PowerPoint a partir daí, ou com as imagens de alt
 ## <a name="limitations"></a>Limitações
 Há algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para o PowerPoint**.
 
-* A interatividade em sessão, como realçar e filtrar, desagregar, entre outros, ainda não é suportada ao exportar para o PowerPoint. O PowerPoint exportado mostra os visuais originais conforme estes foram guardados no relatório. Se tiver aplicado filtros e segmentações de dados e quiser isso preservado na exportação, guarde o relatório e, em seguida, faça a exportação.
 * Os **visuais R** não são atualmente suportados. Estes visuais são exportados como imagem em branco para o PowerPoint com uma mensagem de erro a indicar que o visual não é suportado.
 * Os **visuais personalizados** que tenham sido **certificados** são suportados. Para obter mais informações sobre visuais personalizados certificados, incluindo como certificar um visual personalizado, consulte [certificar um visual personalizado](../power-bi-custom-visuals-certified.md). Os visuais personalizados que não tenham sido certificados não são suportados, sendo exportados como imagem em branco para o PowerPoint com uma mensagem de erro a indicar que o visual não é suportado.
 * Atualmente, não pode exportar relatórios com mais de 30 páginas.

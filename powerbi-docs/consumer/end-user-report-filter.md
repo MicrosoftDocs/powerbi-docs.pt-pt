@@ -1,5 +1,5 @@
 ---
-title: Adicionar um filtro a um relatório
+title: Fazer uma visita ao painel Filtros de relatórios
 description: Como adicionar um filtro a um relatório no serviço Power BI para consumidores
 author: mihart
 manager: kvivek
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1f1d3c410a74f7a015472deef79072fcefaf5e2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 161f699014fcc342ba238cad38d28103f9a63991
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281879"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298943"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 Este artigo analisa o painel Filtros de relatórios no serviço Power BI.
@@ -75,7 +75,7 @@ Qualquer pessoa a ver este relatório pode interagir com estes filtros.
 
 ## <a name="types-of-filters-text-field-filters"></a>Tipos de filtros: filtros de campo de texto
 ### <a name="list-mode"></a>Modo de lista
-Marcar uma caixa de verificação ou seleciona ou deseleciona o valor. A caixa de verificação **Tudo** pode ser utilizada para ativar ou desativar o estado de todas as caixas de verificação. As caixas de verificação representam todos os valores disponíveis para esse campo.  À medida que ajusta o filtro, a reformulação é ajustada para refletir as suas escolhas. 
+Marcar uma caixa de verificação ou seleciona ou desseleciona o valor. A caixa de verificação **Tudo** pode ser utilizada para ativar ou desativar o estado de todas as caixas de verificação. As caixas de verificação representam todos os valores disponíveis para esse campo.  À medida que ajusta o filtro, a reformulação é ajustada para refletir as suas escolhas. 
 
 ![filtro de modo de lista](media/end-user-report-filter/power-bi-restatement-new.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430010"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408075"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
 
@@ -22,6 +22,10 @@ Até recentemente, o **Marketplace (AppSource)** aceitava apenas elementos visua
 
 > [!Note]
 > Para o elemento visual ser certificado, não deve aceder a serviços externos ou recursos.
+
+> [!Note]
+> Todos os elementos visuais gratuitos deverão manter as mesmas funcionalidades gratuitas oferecidas anteriormente. Opcionalmente, pode adicionar funcionalidades avançadas pagas para além das antigas funcionalidades gratuitas. Recomendamos que submeta os elementos visuais de IAP com as funcionalidades avançadas como novos elementos visuais e que não atualize as antigas funcionalidades gratuitas.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>O que está a ser alterado no processo de submissão?
 
