@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794861"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426775"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 Encontrará visualizações em relatórios, dashboards, aplicações e Perguntas e Respostas. Alguns destes tipos de visualização estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers de relatórios* os adicionem a aplicações, dashboards e relatórios do Power BI. 
@@ -74,7 +74,7 @@ Os gráficos em anel são semelhantes aos gráficos circulares.  Mostram a rela�
 Os funis ajudam a visualizar um processo que contém fases e itens que seguem uma sequência de uma fase para a seguinte.  Um exemplo é um processo de vendas que começa com oportunidades potenciais e termina com a realização da compra.
 
 Por exemplo, um funil de vendas que controla os clientes por fases: Oportunidade Potencial > Oportunidade Potencial Qualificada > Potencial Interessado > Contrato > Fecho. Num relance, a forma do funil transmite a integridade do processo que está a controlar.
-Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor. Um funil em forma de pêra também é útil - pode identificar um problema no processo. Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
+Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor. Um funil em forma de pera também é útil - pode identificar um problema no processo. Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
 
 Os gráficos de funil são uma ótima opção:
 - Quando os dados são sequenciais e movimentam-se em pelo menos 4 fases.
@@ -98,10 +98,12 @@ Os medidores radiais são uma ótima opção para:
 - mostrar a integridade de uma única medida
 - mostrar informações que podem ser analisadas e compreendidas rapidamente
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Gráfico de principais influenciadores
+![principal influenciador](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+Um gráfico de principais influenciadores apresenta os maiores contribuidores para um determinado resultado ou valor.
+
+Os principais influenciadores são uma ótima opção para ajudá-lo a compreender os fatores que influenciam uma métrica principal. Por exemplo, *o que influencia os clientes a fazer uma segunda encomenda *ou* por que é que as vendas foram tão altas no último mês de junho*. 
 
 ### <a name="kpis"></a>KPIs
 ![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

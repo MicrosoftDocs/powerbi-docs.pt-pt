@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279050"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426637"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Criar e utilizar fluxos de dados no Power BI (Pré-visualização)
 
@@ -155,6 +155,10 @@ Em determinadas ocasiões, pode deparar-se com problemas ao ligar a origens de d
 * **Conector do Salesforce** – utilizar uma conta de avaliação para o Salesforce com fluxos de dados resulta numa falha de ligação e não é apresentada nenhuma informação. Para resolver este problema, utilize uma conta do Salesforce de produção ou uma conta de programador para fins de teste.
 
 * **Conector do SharePoint** – garanta que indica o endereço raiz do site do SharePoint, sem subpastas nem documentos. Por exemplo, utilize uma ligação semelhante à seguinte: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+
+* **Conector do Ficheiro JSON** – atualmente pode ligar-se a um ficheiro JSON apenas através da autenticação básica.  Atualmente **não** é suportado ligar-se a um ficheiro JSON ao fornecer credenciais no URL (por exemplo, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...).  
+
+* **Azure SQL Data Warehouse** – os fluxos de dados não suportam atualmente a autenticação do Azure Active Directory (AAD) para o Azure SQL Data Warehouse. Utilize a autenticação Básica neste cenário.
 
 ## <a name="next-steps"></a>Próximos Passos
 

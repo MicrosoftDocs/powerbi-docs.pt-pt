@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408075"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426545"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
 
@@ -33,7 +33,10 @@ Os programadores carregam os elementos visuais de IAP no AppSource através do D
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>O que é um elemento visual do Power BI com funcionalidades de IAP?
 
-Um elemento visual de IAP oferece funcionalidades gratuitas e ainda funcionalidades adicionais que podem exigir custos extra para serem utilizadas. Os programadores têm de notificar os utilizadores na descrição do elemento visual sobre as funcionalidades que exigem compras adicionais para poderem ser utilizadas. Atualmente, a Microsoft não fornece interface de programação de aplicações (APIs) nativas para suportar as compras via aplicação e suplementos. Os programadores podem utilizar qualquer sistema de pagamento externo para essas compras. Consulte a [política](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) da nossa loja.
+Os elementos visuais de IAP são gratuitos e oferecem funcionalidades gratuitas, mas também oferecem funcionalidades avançadas adicionais que podem exigir custos extra para serem utilizadas. Os programadores têm de notificar os utilizadores na descrição do elemento visual sobre as funcionalidades que exigem compras adicionais para poderem ser utilizadas. Atualmente, a Microsoft não fornece interface de programação de aplicações (APIs) nativas para suportar as compras via aplicação e suplementos. Os programadores podem utilizar qualquer sistema de pagamento externo para essas compras. Consulte a [política](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) da nossa loja.
+
+> [!NOTE]
+> Não são permitidas marcas d’água nas funcionalidades gratuitas. Os programadores poderão apresentar uma janela de pop-up ou marca d'água se as funcionalidades avançadas pagas forem utilizadas sem uma licença válida.  
 
 ## <a name="logo-guidelines"></a>Diretrizes de logótipo
 

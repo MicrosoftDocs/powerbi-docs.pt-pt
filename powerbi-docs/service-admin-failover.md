@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448227"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426568"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -29,7 +29,7 @@ O Power BI é um software como um serviço (SaaS) totalmente gerido.  Foi conceb
 
 O Power BI mantém múltiplas instâncias de cada componente nos datacenters do Azure (também denominados regiões) para garantir a continuidade de negócio. Se houver uma indisponibilidade ou um problema que cause a inacessibilidade ou inoperabilidade do Power BI numa região, o Power BI efetua a ativação pós-falha de todos os seus componentes nessa região para uma instância de cópia de segurança. A ativação pós-falha restaura a disponibilidade e operabilidade da instância do serviço Power BI numa nova região (normalmente, na mesma localização geográfica, conforme indicado no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
 
-Uma instância do serviço Power BI ativada após a falha suporta apenas _operações de leitura_, o que significa que as seguintes operações não são suportadas durante a ativação pós-falha: atualizações, operações de publicação de relatórios, modificações de dashboards ou relatórios e outras operações que exigem alterações a metadados do Power BI (por exemplo, a inserção de um comentário num relatório).  As operações de leitura, como a apresentação de dashboards e de relatórios (que não são baseadas no DirectQuery no Live Connect para origens de dados no local), continuam a funcionar normalmente.
+Uma instância do serviço Power BI ativada após a falha suporta apenas _operações de leitura_, o que significa que as seguintes operações não são suportadas durante a ativação pós-falha: atualizações, operações de publicação de relatórios, modificações de dashboards ou relatórios e outras operações que exigem alterações a metadados do Power BI (por exemplo, a inserção de um comentário num relatório).  As operações de leitura, como a apresentação de dashboards e de relatórios (que não são baseadas no DirectQuery ou no Live Connect para origens de dados no local), continuam a funcionar normalmente.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>Como é mantida a sincronização das instâncias de cópia de segurança com os meus dados?
 
@@ -39,7 +39,7 @@ Todos os componentes do serviço Power BI sincronizam regularmente as respetivas
 
 As instâncias de cópia de segurança residem na mesma área geográfica que selecionou quando inscreveu a sua organização no Power BI, exceto nas áreas indicadas no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Uma área geográfica pode conter várias regiões e a Microsoft pode replicar dados para qualquer região de uma determinada área geográfica, para resiliência de dados. A Microsoft não irá replicar ou mover dados de clientes para fora da área geográfica. Para obter um mapeamento das áreas geográficas oferecidas pelo Power BI e das regiões dentro delas, veja o [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Como é que a Microsoft determinam quando realizar uma ativação pós-falha?
+## <a name="how-does-microsoft-decide-to-failover"></a>Como é que a Microsoft determina quando realizar uma ativação pós-falha?
 
 Há dois sistemas diferentes que indicam quando poderá ser necessária uma ativação pós-falha:
 

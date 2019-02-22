@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290225"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426614"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar elementos visuais R no serviço Power BI
 O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
@@ -66,11 +66,19 @@ Como outro exemplo, a imagem seguinte mostra a mensagem de erro apresentada quan
 ## <a name="licensing"></a>Licensing
 Os elementos visuais R requerem uma licença do [Power BI Pro](../service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../service-premium.md)
 
-Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios. Para obter mais informações, veja [Comprar o Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
+Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios nas áreas de trabalho Premium. Para obter mais informações, veja [Comprar o Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
 
 A tabela seguinte descreve as capacidades dos elementos visuais R com base no licenciamento.
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |Criar elementos visuais R no Power BI Desktop  | Criar relatórios de serviço do PBI com elementos visuais R |Ver visuais R em relatórios  | Ver mosaicos R em dashboards |
+|---------|---------|---------|---------|--------|
+|**Convidado** (Power BI Embedded)     |  Não relevante|  Não relevante       | Não suportado  | Não relevante |
+|**Inquilino não gerido** (domínio não verificado) | Suportado | Não suportado |  Não suportado |Suportado (cenário B2B) |
+|**Inquilino gerido** com uma licença gratuita    |  Suportado       |  Não suportado       |    Suportado apenas na capacidade Premium    | Suportado |
+**Inquilino gerido** com uma licença Pro     |   Suportado      | Suportado      | Suportado    |Suportado|
+
+
 
 ## <a name="known-limitations"></a>Limitações Conhecidas
 Os elementos visuais R no serviço Power BI têm algumas limitações:

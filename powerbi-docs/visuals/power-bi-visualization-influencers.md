@@ -3,19 +3,19 @@ title: Tutorial de visualizações de influenciadores principais
 description: Tutorial – criar uma visualização de influenciadores principais no Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325157"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426798"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
 O elemento visual de influenciadores principais ajuda a compreender os fatores que estão por trás de uma métrica que seja do seu interesse. Este analisa os seus dados, classifica os fatores que são importantes e apresenta-os como influenciadores principais. Por exemplo, imaginemos que gostaria de descobrir o que influencia a rotatividade dos colaboradores. Um dos fatores pode ser a duração dos contratos de trabalho e outro a idade dos colaboradores. 
@@ -46,7 +46,7 @@ A métrica que está a analisar tem de ser um campo categórico.
 
 6. ***Painel direito*** – o painel direito contém um elemento visual. Neste caso, o gráfico de colunas apresenta todos os valores do **influenciador principal**, o **Tema**, que está selecionado no painel esquerdo. O valor específico (**Usabilidade**) do painel esquerdo está a verde e todos os outros valores de **Tema** estão a preto.
 
-7. ***Linha média*** – a média é calculada para todos os outros valores possíveis de **Tema**, à exceção de **Usabilidade**. Deste modo, o cálculo aplica-se a todos os valores a preto. A média indica-nos a percentagem de outros **Temas** que devolveram uma classificação baixa. Por outras palavras, quando uma classificação é atribuída por um cliente, este também descreve o motivo ou o **tema** da classificação. Alguns dos temas podem ser a utilização, velocidade, segurança, etc. O **Tema** **Usabilidade** é o segundo maior influenciador principal na atribuição de uma classificação baixa, de acordo com o elemento visual no painel esquerdo. Se estabelecermos uma média de todos os outros temas e da respetiva contribuição para uma classificação **baixa**, o resultado será apresentado aqui a vermelho. 
+7. ***Linha média*** – a média é calculada para todos os outros valores possíveis de **Tema**, à exceção de **Usabilidade**. Deste modo, o cálculo aplica-se a todos os valores a preto. A média indica-nos a percentagem de outros **Temas** que devolveram uma classificação baixa. Por outras palavras, quando uma classificação é atribuída por um cliente, este também descreve o motivo ou o **tema** da classificação. Alguns dos temas podem ser a utilização, velocidade, segurança, etc. O **Tema** **Usabilidade** é o segundo maior influenciador principal na atribuição de uma classificação baixa, de acordo com o elemento visual no painel esquerdo. Se estabelecermos uma média de todos os outros temas e da respetiva contribuição para uma classificação **baixa**, o resultado será apresentado aqui a vermelho. De todos os outros temas indicados, apenas 11,35% são superiores à **usabilidade**. 
 
 8. ***Caixa de verificação*** – só mostra os valores que são influenciadores.
 
@@ -217,7 +217,7 @@ Mais precisamente, os clientes que não utilizam o browser para consumir o servi
 
 ![erro – resolvido](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Estou a ver um aviso a indicar que as medidas não foram incluídas na minha análise. Porque é que isto acontece?** [2052261] 
+**Estou a ver um aviso a indicar que as medidas não foram incluídas na minha análise. Porque é que isto acontece?** 
 
 ![erro – medidas não incluídas](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 
