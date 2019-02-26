@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 161f699014fcc342ba238cad38d28103f9a63991
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 2303f5b357008de141f084eb0394701420a24dbe
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298943"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661497"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Fazer uma visita do painel Filtros
 Este artigo analisa o painel Filtros de relatórios no serviço Power BI.
@@ -75,7 +75,7 @@ Qualquer pessoa a ver este relatório pode interagir com estes filtros.
 
 ## <a name="types-of-filters-text-field-filters"></a>Tipos de filtros: filtros de campo de texto
 ### <a name="list-mode"></a>Modo de lista
-Marcar uma caixa de verificação ou seleciona ou desseleciona o valor. A caixa de verificação **Tudo** pode ser utilizada para ativar ou desativar o estado de todas as caixas de verificação. As caixas de verificação representam todos os valores disponíveis para esse campo.  À medida que ajusta o filtro, a reformulação é ajustada para refletir as suas escolhas. 
+Marcar uma caixa de verificação ou seleciona ou deseleciona o valor. A caixa de verificação **Tudo** pode ser utilizada para ativar ou desativar o estado de todas as caixas de verificação. As caixas de verificação representam todos os valores disponíveis para esse campo.  À medida que ajusta o filtro, a reformulação é ajustada para refletir as suas escolhas. 
 
 ![filtro de modo de lista](media/end-user-report-filter/power-bi-restatement-new.png)
 

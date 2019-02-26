@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426775"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662394"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 Encontrará visualizações em relatórios, dashboards, aplicações e Perguntas e Respostas. Alguns destes tipos de visualização estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers de relatórios* os adicionem a aplicações, dashboards e relatórios do Power BI. 
@@ -74,7 +74,7 @@ Os gráficos em anel são semelhantes aos gráficos circulares.  Mostram a rela�
 Os funis ajudam a visualizar um processo que contém fases e itens que seguem uma sequência de uma fase para a seguinte.  Um exemplo é um processo de vendas que começa com oportunidades potenciais e termina com a realização da compra.
 
 Por exemplo, um funil de vendas que controla os clientes por fases: Oportunidade Potencial > Oportunidade Potencial Qualificada > Potencial Interessado > Contrato > Fecho. Num relance, a forma do funil transmite a integridade do processo que está a controlar.
-Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor. Um funil em forma de pera também é útil - pode identificar um problema no processo. Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
+Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor. Um funil em forma de pêra também é útil - pode identificar um problema no processo. Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
 
 Os gráficos de funil são uma ótima opção:
 - Quando os dados são sequenciais e movimentam-se em pelo menos 4 fases.

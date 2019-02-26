@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Getting started
-ms.openlocfilehash: f8c57e48fceb989a2a18ea8d9acbde375c8b08dc
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: d828748cf4b625ee555bbc98b91b3ec0c6d85365
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234683"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661443"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Iniciar sessão no serviço Power BI
 
 ## <a name="power-bi-accounts"></a>Contas do Power BI
 Antes de poder iniciar sessão no Power BI, tem de ter uma conta. Existem duas formas de obter uma conta do Power BI. A primeira é quando a sua empresa compra licenças do Power BI para os respetivos colaboradores. A segunda é quando um utilizador individual se inscreve para obter uma versão de avaliação gratuita ou uma licença pessoal. Este artigo abrange o primeiro cenário.
 
-## <a name="sign-in-for-the-first-time"></a>Iniciar sessão pela primeira vez
+## <a name="sign-in-for-the-first-time"></a>Sign in for the first time (Iniciar sessão pela primeira vez)
 
 ### <a name="step-one-open-a-browser"></a>Passo 1: abrir um browser
 O serviço Power BI é executado num browser.  Portanto, o primeiro passo é abrir o seu browser favorito e escrever **app.powerbi.com**.
@@ -76,5 +76,5 @@ Caso esteja a partilhar um computador, recomendamos que termine sessão sempre q
 
 - Se utilizar o Power BI com mais do que uma conta, ser-lhe-á pedido que selecione uma conta na lista apresentada e que introduza uma palavra-passe ao iniciar sessão. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [View a Power BI app](end-user-app-view.md) (Ver uma aplicação do Power BI)

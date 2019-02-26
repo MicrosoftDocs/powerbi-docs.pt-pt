@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bdf8cc88148ffd5fe3730ae04f0cc0e37a3a7a08
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 766f92c855420cc2fdc891a28207ab5c2e03fa06
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278337"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661610"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Dashboards em destaque no serviço Power BI
 ## <a name="create-a-featured-dashboard"></a>Criar um Dashboard Em Destaque
