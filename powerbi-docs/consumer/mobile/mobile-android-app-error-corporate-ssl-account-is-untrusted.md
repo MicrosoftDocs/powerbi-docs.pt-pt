@@ -10,12 +10,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280798"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662325"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Corrigir “O certificado SSL empresarial não é fidedigno” – Power BI
 Quando iniciar sessão na aplicação móvel Android do Microsoft Power BI, pode ver a mensagem "Não foi possível autenticar porque o seu certificado SSL empresarial não é fidedigno para este dispositivo. Contacte o administrador de TI da sua empresa”. 
@@ -41,9 +41,9 @@ As definições de fuso horário no dispositivo poderão estar incorretas.
 Aceda a **Definições** > **Sistema** > **Data e hora** para verificar.
 
 ## <a name="custom-authentication-server"></a>Servidor de autenticação personalizada
-Se estiver a utilizar um servidor de autenticação personalizada, o certificado SSL no servidor de autenticação empresarial pode não ser válido. Contacte o administrador de TI da organização para ajudá-lo.
+Se estiver a utilizar um servidor de autenticação personalizada, o certificado SSL no servidor de autenticação empresarial pode não ser válido. Trabalhe em conjunto com o departamento de TI da sua organização para testar a configuração do servidor de autenticação empresarial. Para tal, siga as orientações [neste artigo](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Transfira a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) da loja de aplicações Android.
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/) 
 

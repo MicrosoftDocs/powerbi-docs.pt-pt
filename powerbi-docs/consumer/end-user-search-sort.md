@@ -4,22 +4,22 @@ description: documentação para pesquisar e ordenar conteúdo em áreas de trab
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
+ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef8d7c61d35f15517db4fdbbea347a525a130f31
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288227"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661888"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisar, localizar e ordenar conteúdo no serviço Power BI
-Existem várias formas de navegar no conteúdo no serviço Power BI. O conteúdo está organizado por tipos nas áreas de trabalhos: dashboards, relatórios, livros e conjuntos de dados.  O conteúdo também está organizado por utilização: favoritos, recentes, aplicações, partilhados comigo e em destaque. Para uma navegação num só local, a página Base organiza todo o conteúdo numa única página. Estes diferentes caminhos no conteúdo permitem-lhe localizar rapidamente o que precisa no serviço Power BI.  
+Existem várias formas de navegar no conteúdo no serviço Power BI. O conteúdo está organizado por tipos na área de trabalho: dashboards, relatórios, livros e conjuntos de dados.  O conteúdo também está organizado por utilização: favoritos, recentes, aplicações, partilhados comigo e em destaque. Para uma navegação num só local, a página Base organiza todo o conteúdo numa única página. Estes diferentes caminhos no conteúdo permitem-lhe localizar rapidamente o que precisa no serviço Power BI.  
 
 ## <a name="navigation-within-workspaces"></a>Navegação nas áreas de trabalho
 

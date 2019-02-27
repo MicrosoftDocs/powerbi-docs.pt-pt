@@ -563,7 +563,7 @@ Modifique o ficheiro **capabilities.json** para definir os mapeamentos da visual
     ```
     ![Substituir textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. No método **update**, substitua **.text("Label")**** pelo seguinte.
+3. No método **update**, substitua **.text("Label")** pelo seguinte.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)
