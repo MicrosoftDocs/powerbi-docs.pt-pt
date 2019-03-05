@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324639"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014191"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>O que são relatórios paginados no Power BI Premium? (Pré-visualização)
 
@@ -24,7 +24,7 @@ Os relatórios paginados podem ter muitas páginas. Por exemplo, este relatório
 
 ![Relatório paginado no serviço Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, http://app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou nas áreas de trabalho da aplicação, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, um administrador do Power BI tem de ativar os relatórios paginados no portal de administração do Power BI. Saiba mais sobre a [configuração de cargas de trabalho](service-admin-premium-manage.md#configure-workloads). 
+Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, http://app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou nas áreas de trabalho da aplicação, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, um administrador do Power BI tem de ativar os relatórios paginados no portal de administração do Power BI. 
 
 ## <a name="create-reports-in-report-builder"></a>Criar relatórios no Report Builder
 

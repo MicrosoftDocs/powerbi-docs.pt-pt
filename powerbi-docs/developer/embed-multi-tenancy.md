@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430723"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014260"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gerir multi-inquilinos com a análise incorporada do Power BI
 
@@ -142,7 +142,7 @@ Para acrescentar isolamento adicional, um programador de aplicações pode defin
 
 ### <a name="scalability"></a>Escalabilidade
 
-Uma vantagem deste modelo é que a separação dos dados em vários conjuntos de dados para cada inquilino supera os [limites de tamanho de um único conjunto de dados](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (atualmente 10 GB numa capacidade). Quando a capacidade fica sobrecarregada, [esta pode remover conjuntos de dados não utilizados](../service-premium-understand-how-it-works.md) para libertar memória para os conjuntos de dados ativos. Esta tarefa não pode ser realizada com um conjunto de dados único de grandes dimensões. Ao utilizar vários conjuntos de dados, também pode separar os inquilinos em várias capacidades do Power BI, se necessário. [Saiba mais sobre o funcionamento da capacidade](../service-admin-premium-manage.md).
+Uma vantagem deste modelo é que a separação dos dados em vários conjuntos de dados para cada inquilino supera os [limites de tamanho de um único conjunto de dados](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (atualmente 10 GB numa capacidade). Quando a capacidade fica sobrecarregada, [esta pode remover conjuntos de dados não utilizados](../service-premium-understand-how-it-works.md) para libertar memória para os conjuntos de dados ativos. Esta tarefa não pode ser realizada com um conjunto de dados único de grandes dimensões. Ao utilizar vários conjuntos de dados, também pode separar os inquilinos em várias capacidades do Power BI, se necessário.
 
 Apesar destas vantagens, deve considerar a escala que a aplicação SaaS pode atingir no futuro. Por exemplo, pode atingir limitações em torno do número de artefactos que pode gerir. Veja as [limitações](#summary-comparison-of-the-different-approaches) da implementação mais adiante neste artigo para obter mais detalhes. O SKU de capacidade utilizado introduz um limite no tamanho da memória que os conjuntos de dados podem comportar, [o número de atualizações que podem ser executadas ao mesmo tempo](../service-premium-understand-how-it-works.md) e a frequência máxima das atualizações dos dados. É recomendado realizar testes durante a gestão de centenas ou milhares de conjuntos de dados. Também é recomendável considerar a média e o pico do volume de utilização, bem como quaisquer inquilinos específicos com grandes conjuntos de dados ou padrões de utilização diferentes, que são geridos de forma diferente dos outros inquilinos.
 
@@ -182,7 +182,7 @@ Para os casos de utilização primária de criação de conteúdo, o programador
 
 Com o isolamento baseado na segurança ao nível da linha, a aplicação SaaS utiliza uma área de trabalho única para alojar vários inquilinos, o que significa que todos os relatórios de artefactos, dashboards e conjuntos de dados do Power BI são criados assim que todos os inquilinos os utilizam. A separação de dados entre inquilinos é obtida com a [segurança ao nível da linha](embedded-row-level-security.md) no conjunto de dados multi-inquilinos. Quando os utilizadores finais iniciam sessão na aplicação SaaS e abrem conteúdos, é gerado um Token de incorporação para a sessão desse utilizador, com as funções e os filtros que asseguram que o utilizador acede apenas aos dados para os quais tem permissão. Se os utilizadores do mesmo inquilino não tiverem permissão para ver os mesmos dados, o programador de aplicações precisará de implementar funções hierárquicas tanto entre inquilinos como no mesmo inquilino.
 
-![Segurança ao nível da linha](media/multi-tenant-saas/multi-tenant-saas-rls.png)
+![Row-level security](media/multi-tenant-saas/multi-tenant-saas-rls.png)
 
 ### <a name="data-architecture"></a>Arquitetura dos dados
 
