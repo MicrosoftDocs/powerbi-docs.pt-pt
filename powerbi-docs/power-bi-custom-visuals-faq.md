@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408144"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892327"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Perguntas frequentes sobre os elementos visuais personalizados do Power BI
 
@@ -57,8 +57,44 @@ Sim, se o administrador desativar os elementos visuais personalizados no portal 
 
 ### <a name="what-are-certified-custom-visuals"></a>O que são os elementos visuais personalizados certificados?
 
-Os elementos visuais personalizados certificados são os elementos visuais do [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) que cumprem determinados testes e requisitos de código [especificados](power-bi-custom-visuals-certified.md) pela equipa do Power BI.  Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. No entanto, a Microsoft não é responsável pela criação de elementos visuais personalizados de terceiros. Recomendamos que os clientes entrem diretamente em contacto com o autor para verificar a funcionalidade de um elemento visual.
+São elementos visuais do [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) que cumprem determinados testes e requisitos de código [especificados](power-bi-custom-visuals-certified.md) pela equipa do Power BI.  Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. Contudo, a Microsoft não é responsável pela criação dos elementos visuais personalizados de terceiros e recomenda que os clientes entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>Que testes são realizados durante o processo de certificação?
+
+Os testes do processo de certificação incluem, mas não estão limitados a: Análises de código, análises de código estático, fugas de dados, fuzzing de dados, testes de penetração, testes de acesso XSS, injeção de dados maliciosos, testes funcionais e validação de entrada.
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>Todas as submissões de elementos visuais são certificadas?
+
+Sim. Sempre que a nova versão de um elemento visual certificado é submetida para o Marketplace, a atualização da versão do elemento visual passa pelas mesmas verificações de certificação.
+
+Nota para os programadores: se estiver a submeter a atualização de versão de um elemento visual certificado, não precisa de enviar um e-mail separado como [primeiro pedido de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification). A certificação de atualizações de versões é efetuada automaticamente. Para todas as violações que causem uma rejeição, é enviado um e-mail a explicar o que precisa de ser corrigido. 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>É possível que um elemento visual certificado deixe de o ser após uma nova atualização?
+
+Não, isto não é possível. Um elemento visual não pode perder a certificação após uma nova atualização. No entanto, a atualização é rejeitada.
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>Preciso de partilhar o meu código no repositório público se estiver a efetuar uma submissão para o processo de certificação?
+
+Não precisa de partilhar o seu código para o público. No entanto, precisa de nos conceder permissões de leitura para verificar o código dos elementos visuais. Por exemplo: um repositório privado no GitHub.
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>É necessário [publicar](https://docs.microsoft.com/power-bi/developer/office-store) o elemento visual no [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) para o certificar?
+
+Sim. Publicar o elemento visual primeiro no Marketplace é um requisito de certificação obrigatório.
+Para certificar um elemento visual personalizado, o mesmo tem de estar nos nossos servidores. Não podemos certificar elementos visuais privados.
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>A certificação do meu elemento visual demora quanto tempo?
+
+Uma versão atualizada pode demorar até duas semanas. Uma nova submissão (primeira certificação) pode demorar até três semanas. 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>O processo de Certificação garante que não ocorrem fugas de dados?
+
+Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. Contudo, a Microsoft não é responsável pela criação dos elementos visuais personalizados de terceiros e recomenda que os clientes entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>É seguro utilizar elementos visuais personalizados não certificados?
+
+Os elementos visuais personalizados não certificados não são necessariamente inseguros.
+Alguns elementos visuais não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Um exemplo disto é a ligação a um serviço externo, como elementos visuais de mapa, ou elementos visuais que utilizam bibliotecas comerciais.
+ 
 ## <a name="visuals-with-additional-purchases"></a>Elementos visuais com possibilidade de compras adicionais
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>O que é um elemento visual com possibilidade de compras adicionais?
@@ -100,7 +136,6 @@ Se tiver um logótipo no elemento visual, certifique-se de que cumpre as diretri
 Também encontrará notas de melhores práticas nas diretrizes.  
 > [!Note]
 > Todos os elementos visuais gratuitos deverão manter as mesmas funcionalidades gratuitas oferecidas anteriormente. Opcionalmente, pode adicionar funcionalidades avançadas pagas para além das antigas funcionalidades gratuitas. Recomendamos que submeta os elementos visuais de IAP com as funcionalidades avançadas como novos elementos visuais e que não atualize as antigas funcionalidades gratuitas.
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>Posso certificar o meu elemento visual personalizado de IAP?
 
