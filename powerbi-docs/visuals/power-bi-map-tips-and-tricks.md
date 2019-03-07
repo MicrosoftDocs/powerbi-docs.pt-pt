@@ -8,15 +8,15 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286688"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014467"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugestões e Truques para visualizações de mapa do Power BI
 O Power BI é integrado no Bing Maps para oferecer as coordenadas de mapa padrão (um processo chamado geocodificação), para que possa criar mapas. Em conjunto, utilizam algoritmos para identificar a localização correta, mas por vezes, é a melhor estimativa. Se as tentativas do Power BI não conseguirem criar a visualização de mapa por conta própria, ele pede ajuda ao Bing Maps. 
@@ -31,8 +31,8 @@ Para aumentar a probabilidade de uma geocodificação correta, utilize as seguin
 ## <a name="what-is-sent-to-bing-maps"></a>O que é enviado ao Bing Maps?
 O serviço Power BI e o Power BI Desktop enviam ao Bing os dados geográficos precisos para criar a visualização do mapa. Isto pode incluir os dados nos registos de **Localização**, **Latitude** e **Longitude** e campos geográficos em quaisquer registos de filtro de **Nível do relatório**,  **Nível de página** ou **Nível de elemento visual**. Os dados exatos que são enviados variam consoante o tipo de mapa. Para saber mais, veja [Bing Maps privacy (Privacidade do Bing Maps)](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Para mapas (mapas de bolhas), se a latitude e a longitude forem indicadas, então não são enviados dados para o Bing. Caso contrário, quaisquer dados nos registos de Localização (e filtro) são enviados para o Bing.     
-* Os mapas de manchas precisam de um campo no registo de Localização; mesmo se a latitude e a longitude forem indicadas. Quaisquer dados que estejam nos registos de Localização, Latitude ou Longitude são enviados para o Bing.
+* Para mapas (mapas de bolhas), se a latitude e a longitude forem indicadas, então não são enviados dados para o Bing. Caso contrário, quaisquer dados nos registos de **Localização** (e filtro) são enviados para o Bing.     
+* Os mapas de manchas precisam de um campo no registo de **Localização**, mesmo se a latitude e a longitude forem indicadas. Quaisquer dados que estejam nos registos de **Localização**, **Latitude** ou **Longitude** são enviados para o Bing.
   
     No exemplo abaixo, o campo **Fornecedor** está a ser utilizado para geocodificação, para que todos os dados de fornecedor sejam enviados para o Bing. Os dados dos registos **Tamanho** e **Saturação da cor** não são enviados para o Bing.
   

@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248913"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014421"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
 
@@ -165,7 +165,7 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 
 * O principal de serviço só funciona com as [novas áreas de trabalho de aplicação](../service-create-the-new-workspaces.md).
 * **A Minha Área de Trabalho** não é suportada quando utilizar o principal de serviço.
-* É necessária [capacidade dedicada](../service-admin-premium-manage.md) quando avançar para a produção.
+* É necessária capacidade Premium dedicada quando avançar para a produção.
 * Não pode iniciar sessão no portal do Power BI com o principal de serviço.
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
 * Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.

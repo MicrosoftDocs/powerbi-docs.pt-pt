@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662266"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196465"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceitos básicos para os ***consumidores*** do serviço Power BI
 
@@ -88,6 +88,10 @@ Quando um criador partilha uma aplicação consigo, pode ver os conjuntos de dad
 * As visualizações desse conjunto de dados podem ser apresentadas em vários dashboards diferentes
   
   ![Relações M:1 de um conjunto de dados](media/end-user-basic-concepts/drawing2.png)
+
+Além disso, os conjuntos de dados de outras áreas de trabalho podem ser utilizados para criar conteúdos (relatórios, dashboards) na sua área de trabalho. Estes conjuntos de dados são apresentados com o ícone de conjunto de dados de referência: 
+
+![ícone de base de dados com ligação](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 Vamos avançar para o elemento seguinte: as visualizações
 __________________________________________________________

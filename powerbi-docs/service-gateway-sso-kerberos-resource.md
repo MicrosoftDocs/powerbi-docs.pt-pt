@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291810"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226118"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos baseado em recursos para o início de sessão único (SSO) no Power BI para as origens de dados no local
 
@@ -39,7 +39,7 @@ Numa instalação padrão, o gateway é executado como uma conta de serviço da 
 
 ![Conta do domínio](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Para ativar a **Delegação Restrita de Kerberos, o gateway tem de ser executado como uma conta de domínio, a menos que o Azure AD já esteja sincronizado com o Active Directory local (através do Azure AD DirSync/Connect). Se precisar de mudar a conta para uma conta de domínio, veja [Mudar o gateway para uma conta de domínio](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account) mais adiante neste artigo.
+Para ativar a **Delegação Restrita de Kerberos, o gateway tem de ser executado como uma conta de domínio, a menos que o Azure AD já esteja sincronizado com o Active Directory local (através do Azure AD DirSync/Connect). Se precisar de mudar a conta para uma conta de domínio, veja [Mudar o gateway para uma conta de domínio](service-gateway-sso-kerberos.md).
 
 Se o Azure AD DirSync/Connect estiver configurado e as contas de utilizador estiverem sincronizadas, o serviço de gateway não precisará de realizar pesquisas de AD locais no runtime. Pode utilizar o SID de Serviço local (em vez de exigir uma conta de domínio) para o serviço de gateway. Os passos de configuração da Delegação Restrita de Kerberos descritos neste artigo são os mesmos da configuração (a diferença é que são aplicados ao objeto do computador do gateway no Active Directory, em vez de à conta do domínio).
 
