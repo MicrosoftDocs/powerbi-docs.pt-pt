@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224025"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892258"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Utilizar informações no Power BI Desktop para explicar aumentos ou diminuições observadas em elementos visuais (Pré-visualização)
 
 Nos elementos visuais, é possível ver muitas vezes um grande aumento dos valores e, em seguida, uma queda acentuada dos mesmos e sabemos que pode questionar-se acerca dessas flutuações. Com as **informações** no **Power BI Desktop** pode saber a causa das flutuações com apenas alguns cliques.
 
-Por exemplo, considere o seguinte elemento visual que mostra o *Valor de Vendas* por *Ano* e *País*. Em 2014 ocorreu uma grande queda das vendas e estas diminuíram drasticamente entre o *Trimestre 1* e o *Trimestre 2*. Nesses casos, pode explorar os dados para ajudar a explicar a alteração que ocorreu. 
+Por exemplo, considere o seguinte elemento visual que mostra o *Valor de Vendas* por *Ano* e *Trimestre*. Em 2014 ocorreu uma grande queda das vendas e estas diminuíram drasticamente entre o *Trimestre 1* e o *Trimestre 2*. Nesses casos, pode explorar os dados para ajudar a explicar a alteração que ocorreu. 
 
 ![Elemento visual com aumentos e diminuições](media/desktop-insights/insights_01a.png)
 
@@ -49,7 +49,7 @@ Ao selecionar os pequenos ícones na parte inferior do visual de cascata, pode o
 
 ![trio de elementos visuais de informações](media/desktop-insights/insights_04.png)
 
-Os ícones de *polegar para cima* e *polegar para baixo* na parte inferior da página são fornecidos para que possa dar feedback sobre o visual e a funcionalidade. Fazer isso fornece feedback mas não prepara o algoritmo para influenciar os resultados devolvidos da próxima vez que utilizar a funcionalidade.
+Os ícones de *polegar para cima* e *polegar para baixo* na parte inferior da página são fornecidos para que possa dar feedback sobre o visual e a funcionalidade. Fazer isso fornece feedback, mas não prepara o algoritmo para influenciar os resultados devolvidos da próxima vez que utilizar a funcionalidade.
 
 Uma nota importante: o botão **+** na parte superior do visual permite-lhe adicionar o visual selecionado ao relatório, como se tivesse criado o visual manualmente. Depois, pode formatar ou ajustar de outra forma o visual adicionado, como faria com outros visuais no seu relatório. Só pode adicionar um visual de informação selecionado quando estiver a editar um relatório no **Power BI Desktop**.
 
@@ -127,7 +127,7 @@ Além disso, os seguintes tipos de modelos e origens de dados não são atualmen
 * Reporting Services no local
 * Incorporação
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre o **Power BI Desktop**, e sobre como começar, consulte os seguintes artigos.
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

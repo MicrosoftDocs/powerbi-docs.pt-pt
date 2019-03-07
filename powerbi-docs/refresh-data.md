@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277670"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892488"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificar-se de que obtém sempre os dados mais recentes, muitas vezes, é fundamental para tomar as decisões certas. Provavelmente já usou Obter Dados no Power BI para se ligar e carregar alguns dados, e já criou alguns relatórios e um dashboard. E agora quer certificar-se de que os seus dados são realmente os mais recentes e os melhores.
@@ -216,7 +216,7 @@ Os dashboards em tempo real usam a API REST do Microsoft Power BI ou o Microsoft
 Para saber como configurar a atualização agendada, consulte [Configurar a atualização agendada](refresh-scheduled-refresh.md)
 
 ## <a name="common-data-refresh-scenarios"></a>Cenários de atualização de dados comuns
-Às vezes, a melhor maneira de aprender sobre a atualização de dados no Power BI é ver exemplos. Aqui estão alguns dos cenários de atualização de dados mais comuns:
+Por vezes, a melhor forma de aprender sobre a atualização de dados no Power BI é através de exemplos. Aqui estão alguns dos cenários de atualização de dados mais comuns:
 
 ### <a name="excel-workbook-with-tables-of-data"></a>Livro do Excel com tabelas de dados
 Tem um livro do Excel com várias tabelas de dados, mas nenhuma delas é carregada no modelo de dados do Excel. Use Obter Dados para carregar o ficheiro de livro da sua unidade local para o Power BI e criar um dashboard. Mas agora efetuou algumas alterações nalgumas tabelas do livro na sua unidade local e pretende atualizar o dashboard no Power BI com os novos dados.
@@ -269,7 +269,7 @@ Quando as coisas correm mal, normalmente, deve-se ao facto de o Power BI não co
 
 Para mais informações sobre a resolução de problemas, consulte [Ferramentas para resolução de problemas de atualização](service-gateway-onprem-tshoot.md) e [Resolução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md).
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 [Ferramentas para resolver problemas de atualização](service-gateway-onprem-tshoot.md)  
 [Resolução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  

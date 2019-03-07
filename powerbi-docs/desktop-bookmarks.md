@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325046"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892419"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -25,6 +25,9 @@ Também pode criar uma coleção de marcadores, dispô-los pela ordem que quiser
 ![Marcadores no Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
 Existem muitas utilizações de marcadores. Pode utilizá-los para controlar o seu próprio progresso de criação de relatórios (os marcadores são fáceis de adicionar, eliminar e mudar o nome) e pode criar uma apresentação do PowerPoint que utilize marcadores por ordem, contando assim uma história com o seu relatório. Podem existir outras utilizações com base na forma como considera que os marcadores podem ser melhor utilizados.
+
+> [!TIP]
+> Para obter informações sobre como utilizar Marcadores Pessoais no serviço Power BI, veja o [anúncio do blogue](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) relativo à funcionalidade Marcadores Pessoais. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Ativar a pré-visualização de marcadores (versões anteriores a março de 2018)
 A partir da versão de março de 2018 do Power BI Desktop, os marcadores estarão disponíveis para todos os utilizadores. 
@@ -177,7 +180,7 @@ Nesta versão dos **marcadores**, existem algumas limitações e considerações
 * O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

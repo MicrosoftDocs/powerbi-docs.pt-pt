@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8568013438f6be84b2d4a48efdeffd99db352ed8
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285628"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892373"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de ficheiros de livros do Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -76,9 +76,9 @@ No Excel 2016, também é possível utilizar Publicar > Exportar. É quase a mes
 ### <a name="connect-manage-and-view-excel-in-power-bi"></a>Ligar, gerir e ver o Excel no Power BI
 Ao escolher **Ligar**, o livro será apresentado no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas excelentes funcionalidades para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente nos dashboards.
 
-Não é possível editar o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações feitas são guardadas no livro no OneDrive.
+Não é possível editar o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações efetuadas são guardadas no livro no OneDrive.
 
-Ao escolher essa opção, nenhum conjunto de dados será criado no Power BI. O livro será apresentado no painel de navegação da área de trabalho do Power BI em Relatórios. Os livros ligados têm um ícone especial do Excel.
+Ao optar por esta forma, o Power BI irá criar um conjunto de dados correspondente para o livro ligado. Se for necessário, pode utilizar este conjunto de dados para criar um relatório do Power BI. O seu livro também será apresentado no painel de navegação da área de trabalho do Power BI, em Relatórios. Os livros ligados têm um ícone especial do Excel.
 
 Escolha esta opção se tiver apenas dados em folhas de cálculo ou se desejar afixar intervalos, Tabelas Dinâmicas e gráficos nos dashboards.
 
@@ -124,11 +124,11 @@ Atualmente, ao escolher a opção Importar, o Power BI importa apenas os dados q
 ## <a name="next-steps"></a>Passos seguintes
 **Explore os dados** – Depois de obter dados e relatórios do seu ficheiro no Power BI, está na altura de explorá-los. Basta clicar com o botão direito do rato no novo conjunto de dados e clicar em Explorar. Caso tenha decidido ligar a um ficheiro de livro no OneDrive no passo 4, o livro será apresentado em Relatórios. Ao clicar nele, será aberto no Power BI, da mesma forma como seria aberto se estivesse no Excel Online.
 
-**Agendar atualização** – Se o ficheiro de livro do Excel ligar a origens de dados externas ou se tiver sido importado de uma unidade local, pode configurar a atualização agendada para garantir que o conjunto de dados ou relatório está sempre atualizado. Na maioria dos casos, é muito fácil configurar a atualização agendada, no entanto, não entraremos em detalhes sobre esta configuração porque está fora do âmbito deste artigo. Veja [Atualização de dados no Power BI](refresh-data.md) para saber mais.
+**Agendar atualização** – Se o ficheiro de livro do Excel ligar a origens de dados externas ou se tiver sido importado de uma unidade local, pode configurar a atualização agendada para garantir que o conjunto de dados ou relatório está sempre atualizado. Na maioria dos casos, é muito fácil configurar a atualização agendada, no entanto, não entraremos em detalhes sobre esta configuração porque está fora do âmbito deste artigo. Veja [Atualizar dados no Power BI](refresh-data.md) para saber mais.
 
 [Publicar no Power BI a partir do Excel 2016](service-publish-from-excel.md)
 
 [Power BI Publisher para Excel](publisher-for-excel.md)
 
-[Atualização de dados no Power BI](refresh-data.md)
+[Atualizar dados no Power BI](refresh-data.md)
 

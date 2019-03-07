@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899233"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892281"
 ---
 # <a name="connect-to-an-oracle-database"></a>Ligar a uma base de dados Oracle
 Para se ligar a uma base de dados do Oracle com o **Power BI Desktop**, tem de ser instalado o software cliente Oracle correto no computador a executar o Power BI Desktop. O software cliente Oracle que utiliza depende da versão do Power BI Desktop que tem instalada: a versão de **32 bits** ou a versão de **64 bits**.
@@ -43,8 +43,13 @@ Após ser instalado o controlador de cliente Oracle adequado, pode ligá-lo a um
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
 2. Na caixa de diálogo **Base de Dados Oracle** que for apresentada, indique o nome do servidor e selecione **Ligar**. Se for necessário um SID, pode especificá-lo com o formato: *ServerName/SID*, em que SID é o nome exclusivo da base de dados. Se o formato *ServerName/SID* não funcionar, experimente utilizar *ServerName/ServiceName*, em que ServiceName é o alias utilizado ao estabelecer ligação.
-   
+
+
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+
+   > [!TIP]
+   > Se estiver com problemas de ligação neste passo, experimente utilizar o seguinte formato no campo ServerName: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   
 3. Se pretender importar dados utilizando uma consulta de base de dados nativa, pode colocar a sua consulta na caixa **Instrução SQL**, disponível ao expandir a secção **Opções avançadas** da caixa de diálogo **Base de Dados Oracle**.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
