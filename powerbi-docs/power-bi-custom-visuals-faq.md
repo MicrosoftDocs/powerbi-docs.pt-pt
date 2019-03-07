@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892327"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014168"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Perguntas frequentes sobre os elementos visuais personalizados do Power BI
 
@@ -65,7 +65,7 @@ Os testes do processo de certificação incluem, mas não estão limitados a: An
  
 ### <a name="do-you-certify-visuals-every-submission"></a>Todas as submissões de elementos visuais são certificadas?
 
-Sim. Sempre que a nova versão de um elemento visual certificado é submetida para o Marketplace, a atualização da versão do elemento visual passa pelas mesmas verificações de certificação.
+Yes. Sempre que a nova versão de um elemento visual certificado é submetida para o Marketplace, a atualização da versão do elemento visual passa pelas mesmas verificações de certificação.
 
 Nota para os programadores: se estiver a submeter a atualização de versão de um elemento visual certificado, não precisa de enviar um e-mail separado como [primeiro pedido de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification). A certificação de atualizações de versões é efetuada automaticamente. Para todas as violações que causem uma rejeição, é enviado um e-mail a explicar o que precisa de ser corrigido. 
 
@@ -79,7 +79,7 @@ Não precisa de partilhar o seu código para o público. No entanto, precisa de 
  
 ### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>É necessário [publicar](https://docs.microsoft.com/power-bi/developer/office-store) o elemento visual no [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) para o certificar?
 
-Sim. Publicar o elemento visual primeiro no Marketplace é um requisito de certificação obrigatório.
+Yes. Publicar o elemento visual primeiro no Marketplace é um requisito de certificação obrigatório.
 Para certificar um elemento visual personalizado, o mesmo tem de estar nos nossos servidores. Não podemos certificar elementos visuais privados.
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>A certificação do meu elemento visual demora quanto tempo?
@@ -99,7 +99,7 @@ Alguns elementos visuais não estão certificados porque não cumprem um ou mais
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>O que é um elemento visual com possibilidade de compras adicionais?
 
-Um elemento visual com possibilidade de compras adicionais é semelhante aos suplementos com compras via aplicação (IAP) no marketplace. Estes suplementos têm uma etiqueta  **Pode ser necessária uma compra adicional**.
+Um elemento visual com possibilidade de compras adicionais é semelhante aos suplementos com compras via aplicação (IAP) no marketplace. Estes suplementos têm uma etiqueta **Pode ser necessária uma compra adicional**.
 
 Os utilizadores podem transferir e utilizar gratuitamente estes elementos visuais personalizados de IAP a partir do marketplace. Os elementos visuais de IAP disponibilizam compras via aplicação adicionais opcionais para obter funcionalidades avançadas.  
 

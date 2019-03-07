@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892396"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014145"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 
-Este artigo descreve como pode comprar capacidade do Power BI Premium (P1-P3) para a sua organização. Pode comprar a capacidade do Power BI Premium no Centro de administração do Office 365 e [gerir as suas capacidades](service-admin-premium-manage.md) no portal de administração do Power BI. Para obter informações sobre os planos e preços atuais, veja a [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/) e a [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/).
+> [!NOTE]
+> Este artigo está a ser atualizado para descrever novas funcionalidades, fornecer mais detalhes e melhorar a legibilidade. 
+
+Este artigo descreve como pode comprar capacidade do Power BI Premium (P1-P3) para a sua organização. As capacidades do Power BI Premium são compradas no Centro de administração do Office 365. A gestão das capacidades é feita no portal de administração do Power BI. Para obter informações sobre os planos e preços atuais, veja a [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/) e a [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/).
 
 Os criadores de conteúdos continuam a precisar de uma licença do Power BI Pro, mesmo que a sua organização utilize o Power BI Premium. Certifique-se de que compra, pelo menos, uma licença do Power BI Pro para a sua organização.
 
