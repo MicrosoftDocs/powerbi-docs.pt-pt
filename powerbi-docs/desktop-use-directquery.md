@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276796"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555688"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o **Power BI Desktop**. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o **DirectQuery**.
@@ -48,19 +48,19 @@ Tem algumas vantagens ao utilizar o **DirectQuery**:
 ## <a name="limitations-of-directquery"></a>Limitações do DirectQuery
 Atualmente, existem algumas limitações na utilização do **DirectQuery**:
 
-* Todas as tabelas têm de ser provenientes de uma base de dados individual
+* Todas as tabelas têm de ser provenientes de uma base de dados individual, a menos que utilize [modelos compostos](desktop-composite-models.md)
 * Se a consulta do **Editor de Consultas** for excessivamente complexa, ocorrerá um erro. Para corrigir esse erro, deve eliminar o passo que apresenta problemas no **Editor de Consultas** ou *Importar* os dados, em vez de utilizar o **DirectQuery**. Para origens multidimensionais, como o SAP Business Warehouse, não existe nenhum **Editor de Consultas**
 * A filtragem de relação está limitada a uma única direção, em vez de ambas as direções (embora seja possível ativar a filtragem cruzada em ambas as direções para **DirectQuery**, como uma funcionalidade de Pré-visualização). Para origens multidimensionais, como o SAP Business Warehouse, não existem relações definidas no modelo
 * Não estão disponíveis capacidades de inteligência de tempo no **DirectQuery**. Por exemplo, o tratamento especial de colunas de data (ano, trimestre, mês, dia, etc.) não é suportado no modo **DirectQuery**.
 * Por padrão, as limitações são colocadas em expressões DAX permitidas em medidas; veja o parágrafo a seguir (após esta lista com marcas) para obter mais informações
-* Existe um limite de linhas de 1 milhão para devolver dados ao utilizar o **DirectQuery**. Isto não afeta as agregações ou cálculos utilizados para criar o conjunto de dados devolvido com o **DirectQuery**, apenas as linhas devolvidas. Por exemplo, pode agregar 10 milhões de linhas à sua consulta que é executada na origem de dados e devolver com precisão os resultados dessa agregação para o Power BI com o **DirectQuery**, desde que os dados devolvidos ao Power BI sejam inferiores a 1 milhão de linhas. Se forem devolvidas mais de 1 milhão de linhas do **DirectQuery**, o Power BI devolve um erro.
+* Existe um limite de linhas de um milhão para devolver dados ao utilizar o **DirectQuery**. Isto não limita as agregações ou cálculos utilizados para criar o conjunto de dados devolvido com o **DirectQuery**, apenas as linhas devolvidas. Por exemplo, pode agregar 10 milhões de linhas à sua consulta que é executada na origem de dados e devolver com precisão os resultados dessa agregação para o Power BI com o **DirectQuery**, desde que os dados devolvidos ao Power BI sejam inferiores a 1 milhão de linhas. Se forem devolvidas mais de 1 milhão de linhas do **DirectQuery**, o Power BI devolve um erro.
 
 Para garantir que as consultas enviadas à origem de dados subjacente têm um desempenho aceitável, por predefinição, são impostas limitações às medidas. Os utilizadores avançados podem optar por ignorar esta limitação ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, **DirectQuery** e ao selecionar a opção *Permitir medidas não restritas no modo DirectQuery*. Quando essa opção for selecionada, qualquer expressão DAX válida para uma medida poderá ser utilizada. No entanto, os utilizadores devem estar cientes de que algumas expressões que funcionam muito bem quando os dados são importados podem resultar em consultas muito lentas à origem de back-end quando estiverem no modo DirectQuery.
 
 ## <a name="important-considerations-when-using-directquery"></a>Considerações importantes ao utilizar o DirectQuery
 Os seguintes três pontos devem ser considerados ao utilizar o **DirectQuery**:
 
-* **Desempenho e carga** - todos os pedidos do **DirectQuery** são enviados para a base de dados de origem, pelo que o tempo preciso para atualizar um elemento visual depende de quanto tempo a origem de back-end demora a responder com os resultados da consulta (ou consultas). O tempo de resposta recomendado (com os dados solicitados a serem devolvidos) para utilizar o **DirectQuery** para elementos visuais é de cinco segundos ou menos, com um tempo máximo recomendado de resposta de resultados de 30 segundos. Se demorar mais tempo, a experiência de um utilizador que consuma o relatório torna-se inaceitavelmente fraca. Além disso, assim que um relatório é publicado no serviço Power BI, qualquer consulta que demore mais do que alguns minutos atingirá o tempo limite e o utilizador irá receber um erro.
+* **Desempenho e carga** - todos os pedidos do **DirectQuery** são enviados para a base de dados de origem, pelo que o tempo preciso para atualizar um elemento visual depende de quanto tempo a origem de back-end demora a responder com os resultados da consulta (ou consultas). O tempo de resposta recomendado (com os dados solicitados a serem devolvidos) para utilizar o **DirectQuery** para elementos visuais é de cinco segundos ou menos, com um tempo máximo recomendado de resposta de resultados de 30 segundos. Se demorar mais tempo, a experiência de um utilizador que consuma o relatório torna-se inaceitavelmente fraca. Além disso, assim que um relatório é publicado no serviço Power BI, qualquer consulta que demore mais do que alguns minutos excederá o tempo limite e o utilizador receberá um erro.
   
   A carga na base de dados de origem também deve ser considerada, com base no número de utilizadores do Power BI que irão consumir o relatório publicado. Utilizar a *Segurança de Nível de Linha* (RLS) também pode ter um impacto significativo; um mosaico do dashboard não RLS partilhado por vários utilizadores resulta numa única consulta à base de dados, mas utilizar o RLS num mosaico do dashboard, normalmente significa que a atualização de um mosaico exige uma consulta *por utilizador*, aumentando assim significativamente a carga na base de dados de origem e potencialmente afetando o desempenho.
   

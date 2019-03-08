@@ -1,5 +1,5 @@
 ---
-title: Utilizar o modo de armazenamento no Power BI Desktop (pré-visualização)
+title: Utilizar o modo de armazenamento no Power BI Desktop
 description: Utilizar o modo de armazenamento para controlar se os dados estão em cache na memória para os relatórios do Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279188"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555855"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de armazenamento no Power BI Desktop (pré-visualização)
+# <a name="storage-mode-in-power-bi-desktop"></a>Modo de armazenamento no Power BI Desktop
 
 No Microsoft Power BI Desktop, pode especificar o *modo de armazenamento* das tabelas. O *Modo de armazenamento* permite-lhe controlar se o Power BI Desktop coloca em cache os dados das tabelas na memória para os relatórios. 
 
@@ -37,9 +37,9 @@ A definição do modo de armazenamento oferece muitas vantagens. Pode definir o 
 
 A definição do modo de armazenamento no Power BI Desktop é uma das três funcionalidades relacionadas:
 
-* **Modelos compostos**: permitem que um relatório tenha duas ou mais ligações de dados, incluindo ligações DirectQuery ou de Importação, em qualquer combinação. Para obter mais informações, veja [Modelos compostos no Power BI Desktop (pré-visualização)](desktop-composite-models.md).
+* **Modelos compostos**: permitem que um relatório tenha duas ou mais ligações de dados, incluindo ligações DirectQuery ou de Importação, em qualquer combinação. Para obter mais informações, veja [Modelos compostos no Power BI Desktop](desktop-composite-models.md).
 
-* **Relações muitos para muitos**: com os *modelos compostos*, pode estabelecer *relações muitos para muitos* entre tabelas. As *Relações muitos para muitos* removem os requisitos de valores exclusivos nas tabelas. Esta operação também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter mais informações, veja [Relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md).
+* **Relações muitos para muitos**: com os *modelos compostos*, pode estabelecer *relações muitos para muitos* entre tabelas. As *Relações muitos para muitos* removem os requisitos de valores exclusivos nas tabelas. Esta operação também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter mais informações, veja [Relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Modo de armazenamento**: agora pode especificar que elementos visuais precisam de uma consulta às origens de dados de back-end. Os elementos visuais que não precisam de uma consulta são importados, mesmo que sejam baseados no DirectQuery. Esta funcionalidade ajuda a melhorar o desempenho e a reduzir a carga de back-end. Anteriormente, até os elementos visuais simples, como as segmentações, iniciavam consultas que eram enviadas para origens de back-end. O modo de armazenamento é descrito mais detalhadamente neste artigo.
 
@@ -85,7 +85,7 @@ A lógica de propagação passa apenas para um lado das relações **1 para-muit
 ## <a name="storage-mode-usage-example"></a>Exemplo de utilização do modo de armazenamento
 Vamos continuar com o exemplo da secção anterior e imaginar que aplicamos as seguintes definições de propriedade do modo de armazenamento:
 
-| Table                   | Modo de armazenamento         |
+| Tabela                   | Modo de armazenamento         |
 | ----------------------- |----------------------| 
 | *Vendas*                 | DirectQuery          | 
 | *SurveyResponse*        | Importar               | 
@@ -127,13 +127,13 @@ A seguinte consulta é interessante porque combina as duas colunas. Esta consult
 ![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Este comportamento é diferente das [relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md) ao combinar tabelas em cache e tabelas que não estão em cache.
+> Este comportamento é diferente das [relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md) ao combinar tabelas em cache e tabelas que não estão em cache.
 
 ## <a name="caches-should-be-kept-in-sync"></a>As caches devem ser mantidas sincronizadas
 
 As consultas apresentadas na secção anterior mostram que, por vezes, as tabelas **Dual** acertam na cache e, outras vezes, não. Como resultado, se a cache estiver desatualizada, poderão ser devolvidos valores diferentes. A execução da consulta não tentará dissimular os problemas de dados quando, por exemplo, filtra os resultados do DirectQuery para corresponder aos valores da cache. É da sua responsabilidade conhecer os seus fluxos de dados e criá-los em conformidade. Existem técnicas estabelecidas para lidar com esses casos na origem, se necessário.
 
-O modo de armazenamento *Dual* é uma otimização de desempenho. Só deverá ser utilizado de formas que não comprometam a capacidade de satisfazer os requisitos da empresa. Para obter um comportamento alternativo, considere utilizar as técnicas descritas no artigo [Relações muitos para muitos no Power BI Desktop (pré-visualização)](desktop-many-to-many-relationships.md).
+O modo de armazenamento *Dual* é uma otimização de desempenho. Só deverá ser utilizado de formas que não comprometam a capacidade de satisfazer os requisitos da empresa. Para obter um comportamento alternativo, considere utilizar as técnicas descritas no artigo [Relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md).
 
 ## <a name="data-view"></a>Vista de dados
 Se, pelo menos, uma tabela no conjunto de dados tiver o seu modo de armazenamento definido como **Importação** ou **Dual**, será apresentado o separador **Vista de dados**.
@@ -152,7 +152,7 @@ As seguintes origens do Live Connect (multidimensionais) não podem ser utilizad
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Conjuntos de dados do Power BI
+* Conjuntos de dados do Power BI
 * Azure Analysis Services
 
 Quando se liga a estas origens multidimensionais através do DirectQuery, não se pode ligar a outra origem do DirectQuery nem combiná-las com dados importados.
@@ -162,7 +162,7 @@ As limitações existentes da utilização do DirectQuery ainda se aplicam ao ut
 ## <a name="next-steps"></a>Próximos passos
 
 Para obter mais informações sobre os modelos compostos e o DirectQuery, veja os artigos seguintes:
-* [Modelos compostos no Power BI Desktop (pré-visualização)](desktop-composite-models.md)
-* [Relações muitos para muitos no Power BI Desktop (pé-visualização)](desktop-many-to-many-relationships.md)
+* [Modelos compostos no Power BI Desktop](desktop-composite-models.md)
+* [Relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md)
 * [Utilizar o DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery no Power BI](desktop-directquery-data-sources.md)
