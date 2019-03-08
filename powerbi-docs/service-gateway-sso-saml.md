@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327740"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555648"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o formato SAML (Security Assertion Markup Language) para início de sessão único (SSO) do Power BI em origens de dados no local
 
@@ -38,6 +38,8 @@ Para utilizar SAML, primeiro tem de gerar um certificado para o fornecedor de id
     ```
 
 1. No SAP HANA Studio, clique com o botão direito do rato no seu servidor SAP HANA e, em seguida, navegue até **Security** (Segurança)  > **Open Security Console** (Abrir Consola de Segurança)  > **SAML Identity Provider** (Fornecedor de Identidade de SAML)  > **OpenSSL Cryptographic Library** (Biblioteca Criptográfica OpenSSL).
+
+    Também é possível utilizar a Biblioteca Criptográfica SAP (também conhecida como CommonCryptoLib ou sapcrypto) em vez de OpenSSL para concluir estes passos de configuração. Veja a documentação oficial do SAP para obter mais informações.
 
 1. Selecione **Import** (Importar), navegue até samltest.crt e importe o certificado.
 
@@ -121,6 +123,37 @@ Por fim, siga estes passos para adicionar o thumbprint do certificado à configu
 Agora pode utilizar a página **Gerir Gateways** no Power BI para configurar a origem de dados e ativar o SSO nas respetivas **Definições Avançadas**. Em seguida, pode publicar relatórios e conjuntos de dados vinculados a essa origem de dados.
 
 ![Definições avançadas](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>Resolução de problemas
+
+Depois de configurar o SSO, poderá ver o erro seguinte no portal do Power BI: "Não pode utilizar as credenciais disponibilizadas para a origem SapHana." Este erro indica que a credencial SAML foi rejeitada pelo SAP HANA.
+
+Os rastreios de autenticação proporcionam informações detalhadas para a resolução de problemas de credenciais no SAP HANA. Siga estes passos para configurar o rastreio para o seu servidor SAP HANA.
+
+1. No servidor SAP HANA, ative o rastreio de autenticação ao executar a consulta seguinte.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. Reproduza o problema com o qual se depara.
+
+1. No HANA Studio, abra a consola de administração e aceda ao separador **Ficheiros de Diagnóstico**.
+
+1. Abra o rastreio indexserver mais recente e procure SAMLAuthenticator.cpp.
+
+    Deve encontrar uma mensagem de erro detalhada que indica a causa raiz, tal como no exemplo seguinte.
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. Assim que a resolução de problemas estiver concluída, desative o rastreio de autenticação ao executar a consulta seguinte.
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>Próximos passos
 
