@@ -710,6 +710,8 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização falhar
         href: service-refresh-xero-credentials.md
+      - name: Não consegue iniciar sessão
+        href: power-bi-cannot-sign-in.md
     - name: Outras tarefas
       items:
       - name: Mudar o nome do conteúdo no Power BI
@@ -1315,9 +1317,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 745db3e8002feaa9728a746167e585c62a4420a4
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580272"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757444"
