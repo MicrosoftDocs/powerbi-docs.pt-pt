@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 50dd529366a06cc46b2ca906bfc8987a3988cb72
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 92b2026be33a6be25c4ad27c0d563a811eb0f4e6
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56226081"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580341"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -89,7 +89,7 @@ As atualizações seguintes são novas no **Power BI Desktop** este mês:
 * Intercalação difusa – suporte para as N Principais correspondências [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=1480) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
 
 
-### <a name="other"></a>Outras
+### <a name="other"></a>Outros
 * Suporte de alto contraste para todos os painéis e o rodapé de relatório [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=1631) [[artigo]](desktop-connect-pdf.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
 * Caixa de diálogo de atalhos de teclado atualizada [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=1654) [[artigo]](desktop-accessibility.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
 
@@ -107,6 +107,7 @@ O canal de vídeo seguinte descreve e mostra cada uma dessas atualizações. Tam
 
 > [!NOTE]
 > Também poderá ter interesse em saber quais são as [novidades do serviço Power BI](service-whats-new.md), bem como ver as [novidades nas aplicações móveis do Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="november-2018-update-2645285461"></a>Atualização de novembro de 2018 (2.64.5285.461)
 
@@ -398,7 +399,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em junho:
 * Melhorias do conector de OData V4 [[vídeo]](https://youtu.be/4VpGtWSrssE?t=25m12s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * Melhorias do conector ODBC (suporte de dobragem para as Linhas Superiores, capacidade para filtrar a navegação por catálogo DSN) [[vídeo]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
-### <a name="other"></a>Outras
+### <a name="other"></a>Outros
 
 * Seletor de cloud soberana [[vídeo]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
@@ -418,7 +419,7 @@ O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode
 
 ## <a name="may-2018-update-2585103281"></a>Atualização de maio de 2018 (2.58.5103.281)
 
-As atualizações de maio foram uma grande coleção de funcionalidades e melhorias que esperamos que venham dar vida aos seus relatórios e fazer com que estes surjam com informações apelativas.
+As atualizações de Maio foram uma grande coleção de funcionalidades e melhorias que esperamos que venham dar vida aos seus relatórios e fazer com que estes surjam com informações apelativas.
 
 As atualizações seguintes eram novas no **Power BI Desktop** em maio:
 
@@ -543,7 +544,7 @@ Estamos confiantes quanto às atualizações de março do **Power BI Desktop**. 
 * O DirectQuery no SAP BW está agora disponível globalmente [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artigo]](desktop-directquery-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * O conector do Azure Analysis Services está agora disponível globalmente [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artigo]](desktop-directquery-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Outras
+### <a name="other"></a>Outros
 
 * Relatórios de erros melhorados [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artigo]](desktop-directquery-about.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Ver os erros anteriores que detetou [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -603,7 +604,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em fevereiro de 2
 
 * Melhorias no DirectQuery através de SAP HANA (Pré-visualização) [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=30m1s) [[artigo]](desktop-directquery-sap-hana.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Outras
+### <a name="other"></a>Outros
 
 * Melhorias de desempenho no DirectQuery [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=32m24s) [[artigo]](desktop-directquery-about.md) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Melhorias de desempenho das ações Abrir e Guardar [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -1626,7 +1627,7 @@ O vídeo seguinte descreve e mostra cada uma destas atualizações. Também pode
 
 Pode sempre [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop).
 
-Em abril, enchemos os nossos fantásticos clientes do Power BI com outra coleção de atualizações apelativas para o Power BI Desktop. As melhorias seguintes são novas para o Power BI Desktop este mês:
+Em Abril, enchemos os nossos fantásticos clientes do Power BI com outra coleção de atualizações apelativas para o Power BI Desktop. As melhorias seguintes são novas para o Power BI Desktop este mês:
 
 ### <a name="report-view"></a>Vista de Relatório:
 

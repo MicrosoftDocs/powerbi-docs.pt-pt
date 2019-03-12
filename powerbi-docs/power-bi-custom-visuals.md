@@ -1,21 +1,21 @@
 ---
 title: Elementos visuais personalizados no Power BI
 description: Visualizações personalizadas no Power BI
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431137"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695042"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuais personalizados no Power BI
 
