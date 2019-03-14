@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/09/2019
+ms.date: 03/07/2019
 ms.author: maggies
-ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295831"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580019"
 ---
 # <a name="whitepapers-for-power-bi"></a>Documentos técnicos do Power BI
 
 Os documentos técnicos permitem explorar os tópicos do Power BI num nível mais aprofundado. Aqui, encontra-se uma lista de documentos técnicos disponíveis para Power BI.
 
-| Documento técnico | Descrição | Data |
+| Documento técnico | Descrição | Date |
 | --- | --- | --- |
 | [Power BI e Fluxos de Dados](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Este documento técnico descreve os fluxos de dados em detalhes técnicos e descreve as capacidades e as iniciativas subjacentes às funcionalidades dos fluxos de dados. | Novembro de 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Descreve o Power BI Premium, tanto a sua situação aquando do lançamento como a evolução futura. | Outubro de 2017 |
@@ -28,8 +28,8 @@ Os documentos técnicos permitem explorar os tópicos do Power BI num nível mai
 | [Planear capacidade para análises incorporadas com o Power BI Premium](https://aka.ms/pbiewhitepaper) |Este documento fornece orientações para o ISV/programador da aplicação determinar a capacidade mais adequada à respetiva empresa. | Outubro de 2017 |
 | [Planear uma Implementação Empresarial do Power BI](https://go.microsoft.com/fwlink/?linkid=2057861) |Este documento técnico descreve as considerações para uma implementação organizacional do Power BI segura e com bom desempenho. | Julho de 2018 |
 | [Orientações de planeamento de capacidade do Power BI Report Server](report-server/capacity-planning.md) |Este documento destina-se a oferecer orientação sobre o planeamento da capacidade do Power BI Report Server ao partilhar resultados de numerosas execuções do teste de carga das várias cargas de trabalho em relação a um servidor de relatório. | Março de 2018 |
-| [Segurança](service-admin-power-bi-security.md) |Fornece uma explicação detalhada da segurança no Power BI. | Julho de 2018 |
-| [Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Este documento descreve como distribuir conteúdos a utilizadores fora da organização através da integração do Azure Active Directory Business-to-Business (AAD B2B).| Março de 2018 |
+| [Segurança](service-admin-power-bi-security.md) |Fornece uma explicação detalhada da segurança no Power BI. | Março de 2019 |
+| [Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Este documento descreve como distribuir conteúdos a utilizadores fora da organização através da integração do Azure Active Directory Business-to-Business (AAD B2B).| Março de 2018 |
 | [Análise Avançada com o Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Descreve as capacidades de análise avançada do Power BI, incluindo análise preditiva, visualizações personalizadas, integração com R e expressões de análises de dados. | Fevereiro de 2017 |
 | [Melhores práticas de design para relatórios e visuais](visuals/power-bi-visualization-best-practices.md) |Disponibiliza as melhores práticas para criar relatórios no Power BI. | Junho de 2018 |
 | [Filtragem bidirecional](desktop-bidirectional-filtering.md) |Explica a filtragem cruzada bidirecional no Power BI Desktop (o documento técnico também abrange o SQL Server Analysis Services 2016, sendo que ambos têm o mesmo comportamento). | Julho de 2018 |

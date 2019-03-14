@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555929"
+---
 O Power BI permite-lhe criar relações entre várias tabelas, incluindo tabelas provenientes de origens de dados completamente diferentes. Pode ver essas relações para qualquer modelo de dados na vista **Relações** do Power BI Desktop.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_1.png)
@@ -7,7 +15,7 @@ A DAX tem **funções relacionais** que lhe permitem interagir com as tabelas qu
 
 Pode devolver o valor de uma coluna ou pode devolver todas as linhas numa relação através das funções da DAX.
 
-Por exemplo, a função **TABLE** segue relações e devolve o valor de uma coluna, enquanto **RELATEDTABLE** segue relações e devolve uma tabela completa que é filtrada para incluir apenas linhas relacionadas.
+Por exemplo, a função **RELATED** segue relações e devolve o valor de uma coluna, enquanto **RELATEDTABLE** segue relações e devolve uma tabela completa que é filtrada para incluir apenas linhas relacionadas.
 
 ![](media/7-5-table-relationships-and-dax/dax-relationships_2.png)
 

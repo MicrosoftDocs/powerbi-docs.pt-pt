@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277394"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580249"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar os seus dashboards e relatórios do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -98,13 +98,15 @@ Quando partilha com pessoas fora da sua organização, estas recebem um e-mail c
 
 Após iniciarem sessão, verão o dashboard ou o relatório partilhados nas janelas do browser sem o painel de navegação esquerdo, não no portal do Power BI normal. Têm de adicionar a ligação aos Favoritos para acederem a este dashboard ou relatório no futuro.
 
-Não podem editar conteúdos neste dashboard ou relatório. Estes podem interagir com os gráficos e alterar os filtros ou as segmentações de dados no relatório, mas não podem guardar as alterações.
+Não podem editar conteúdos neste dashboard ou relatório. Estes podem interagir com os gráficos e alterar os filtros ou as segmentações de dados no relatório, mas não podem guardar as alterações. 
 
 Apenas os destinatários diretos podem ver o dashboard ou relatório partilhado. Por exemplo, se tiver enviado o e-mail para Vicki@contoso.com, apenas a Vicki poderá ver o dashboard. Mais ninguém consegue ver esse dashboard (mesmo que tenham uma ligação) e a Vicki tem de utilizar o mesmo endereço de e-mail para aceder a esse dashboard. Se ela iniciar sessão com outro endereço de e-mail, também não terá acesso ao dashboard.
 
 As pessoas de fora da sua organização não poderão ver os dados se a segurança em nível de linha ou de função for implementada nos modelos de tabela Analysis Services no local.
 
 Se enviar uma ligação de uma aplicação móvel do Power BI para pessoas externas à sua organização, quando estas clicarem na ligação, o dashboard é aberto num browser, não na aplicação móvel do Power BI.
+
+Se os utilizadores convidados tiverem permissão através da definição [Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](service-admin-portal.md#export-and-sharing-settings), a experiência predefinida limitada apenas ao consumo de conteúdos não se aplica aos mesmos. [Saiba mais](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Elementos a ter em conta sobre a partilha de dashboards e relatórios:

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8415e731fd8749397b9604277f9f37f126b5413f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 957c6d5fe8797f1b03eaab3a54846e7110b302fb
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893362"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580295"
 ---
 # <a name="power-bi-security-whitepaper"></a>Documento técnico de segurança do Power BI
 
@@ -42,7 +42,7 @@ Este artigo descreve a segurança do Power BI ao fornecer uma explicação sobre
 
 O serviço **Power BI** baseia-se no **Azure**, a [plataforma de informática na cloud](http://azure.microsoft.com/overview/what-is-azure/) da Microsoft. O Power BI está a ser implementado em vários datacenters em todo o mundo. Existem diversas implementações ativas disponibilizadas para clientes nas regiões servidas por esses datacenters e um número equivalente de implementações passivas que funcionam como cópias de segurança para cada implementação ativa.
 
-Cada implementação do Power BI consiste em dois clusters: um cluster de Front-end da Web (**WFE**) e um cluster de **Back-end**. Estes dois clusters são apresentados na seguinte imagem e servem de base para o resto deste artigo. 
+Cada implementação do Power BI consiste em dois clusters – um cluster de Front-end da Web (**WFE**) e um cluster de **Back-end**. Estes dois clusters são apresentados na seguinte imagem e servem de base para o resto deste artigo. 
 
 ![O WFE e o Back-end](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
@@ -56,7 +56,7 @@ O cluster **WFE** gere o processo de ligação e autenticação inicial do Power
 
 Quando os utilizadores tentam ligar ao serviço Power BI, o serviço DNS do cliente poderá comunicar com o **Gestor de Tráfego do Azure** para localizar o datacenter mais próximo com uma implementação do Power BI. Para obter mais informações sobre este processo, veja [Método de encaminhamento de tráfego de desempenho do Gestor de Tráfego](https://azure.microsoft.com/documentation/articles/traffic-manager-routing-methods/#performance-traffic-routing-method).
 
-O cluster WFE mais próximo do utilizador gere a sequência de início de sessão e autenticação (descrita mais adiante neste artigo) e fornece um token do AAD ao utilizador assim que a autenticação for bem-sucedida. O componente ASP.NET no cluster WFE analisa o pedido para determinar a organização à qual o utilizador pertence e, em seguida, consulta o **Serviço Global** do Power BI. O Serviço Global é uma Tabela do Azure única partilhada entre todos os clusters WFE e de Back-end em todo o mundo que mapeia os utilizadores e as organizações dos clientes para o datacenter que aloja o respetivo inquilino do Power BI. O WFE especifica no browser que cluster de Back-end aloja o inquilino da organização. Assim que um utilizador é autenticado, ocorrem interações de cliente subsequentes diretamente com o cluster de Back-end, sem que o WFE seja um intermediário para esses pedidos.
+O cluster WFE mais próximo do utilizador gere a sequência de início de sessão e autenticação (descrita mais adiante neste artigo) e fornece um token do AAD ao utilizador assim que a autenticação for bem-sucedida. O componente ASP.NET no cluster WFE analisa o pedido para determinar a organização à qual o utilizador pertence e, em seguida, consulta o **Serviço Global** do Power BI. O Serviço Global é uma Tabela do Azure única partilhada entre todos os clusters WFE e de Back-end em todo o mundo que mapeia os utilizadores e as organizações dos clientes ao datacenter que aloja o respetivo inquilino do Power BI. O WFE especifica no browser que cluster de Back-end aloja o inquilino da organização. Assim que um utilizador é autenticado, ocorrem interações de cliente subsequentes diretamente com o cluster de Back-end, sem que o WFE seja um intermediário para esses pedidos.
 
 ### <a name="the-power-bi-back-end-cluster"></a>O Cluster de Back-end do Power BI
 
@@ -66,7 +66,7 @@ O cluster de **Back-end** é como os clientes autenticados interagem com o servi
 
 A **Função do Gateway** age como um gateway entre os pedidos de utilizador e o serviço Power BI. Os utilizadores não interagem diretamente com nenhuma função, exceto a Função do Gateway.
 
-**Importante:** é fundamental ter em mente que _apenas_ as funções de Gestão de API do Azure (**APIM**) e de Gateway (**GW**) estão acessíveis através da Internet pública. Fornecem autenticação, autorização, proteção contra DDoS, Limitação, Balanceamento de Carga, Encaminhamento e outras capacidades.
+**Importante:** É fundamental ter em mente que _apenas_ as funções de Gestão de API do Azure (**APIM**) e de Gateway (**GW**) estão acessíveis através da Internet pública. Fornecem autenticação, autorização, proteção contra DDoS, Limitação, Balanceamento de Carga, Encaminhamento e outras capacidades.
 
 A linha pontilhada na imagem do cluster de **Back-end**, representada acima, esclarece o limite entre as duas únicas funções que podem ser acedidas pelos utilizadores (à esquerda da linha ponteada) e as funções que só podem ser acedidas pelo sistema. Quando um utilizador autenticado se liga ao Serviço Power BI, a ligação e qualquer pedido feito pelo cliente são aceites e geridos pela **Função do Gateway** e pela **Gestão de API do Azure**, que em seguida interage em nome do utilizador com o resto do Serviço Power BI. Por exemplo, quando um cliente tenta ver um dashboard, a **Função do Gateway** aceita esse pedido e envia separadamente um pedido para a **Função de Apresentação** para obter os dados necessários para o browser compor o dashboard.
 
@@ -78,7 +78,7 @@ O **Power BI Premium** proporciona uma área de trabalho de serviço dedicada, a
 
 ![Power BI Premium](media/whitepaper-powerbi-security/powerbi-security-whitepaper_05.png)
 
-Após a criação, todas as comunicações com o cluster Premium são encaminhadas através do cluster de Back-end do Power BI, sendo estabelecida uma ligação às máquinas virtuais dedicadas da subscrição do **Power BI Premium**.
+Após a criação, todas as comunicações com o cluster Premium são encaminhadas através do cluster de Back-end do Power BI, sendo estabelecida uma ligação às máquinas virtuais dedicadas da subscrição do **Power BI Premium** do cliente.
 
 ### <a name="data-storage-architecture"></a>Arquitetura de armazenamento de dados
 
@@ -98,7 +98,7 @@ Um inquilino aloja os utilizadores de uma empresa e as informações sobre os me
 
 Um inquilino do Power BI é criado no datacenter considerado mais próximo do país (ou da região) e são fornecidas informações de estado para o inquilino no Azure Active Directory, que foi fornecido quando o serviço do Office 365 ou Power BI foi inicialmente aprovisionado. O inquilino do Power BI não é atualmente movido dessa localização do datacenter.
 
-### <a name="multiple-geographies-multi-geo---preview"></a>Múltiplas localizações geográficas (Multi-Geo) – Pré-visualização
+### <a name="multiple-geographies-multi-geo"></a>Múltiplas Localizações Geográficas (Multi-Geo)
 
 Algumas organizações exigem uma presença do Power BI em múltiplas localizações geográficas ou regiões com base nas necessidades empresariais. Por exemplo, uma empresa poderá ter o respetivo inquilino do Power BI nos Estados Unidos, mas poderá também fazer negócios noutras áreas geográficas, como a Austrália, e necessitar que os serviços do Power BI e os dados permaneçam nessa região remota.  Desde o segundo semestre de 2018 que as organizações com o respetivo inquilino numa localização geográfica também podem aceder a recursos do Power BI noutra localização geográfica, caso o aprovisionamento seja o adequado. Esta funcionalidade é denominada **Multi-Geo** para conveniência e referência ao longo deste documento.
 
@@ -121,42 +121,9 @@ As seguintes ligações fornecem informações adicionais sobre os datacenters d
 - [Regiões do Azure](http://azure.microsoft.com/regions/) – informações sobre a presença global e as localizações do Azure
 - [Serviços do Azure, por região](http://azure.microsoft.com/regions/#services) – uma lista completa dos serviços do Azure (tanto serviços de infraestrutura como serviços de plataforma) disponibilizados pela Microsoft em cada região.
 
-Atualmente, o serviço Power BI está disponível nas regiões abaixo servidas pelos seguinte datacenters principais:
+Atualmente, o serviço Power BI está disponível em regiões específicas, processado por datacenters como descrito no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). A seguinte ligação apresenta um mapa dos datacenters do Power BI. Pode pairar com o ponteiro do rato por cima de uma região para ver os datacenters da mesma:
 
-- Estados Unidos
-  - E.U.A. Leste
-  - E.U.A. Leste 2
-  - E.U.A. Centro-Norte
-  - E.U.A. Centro-Sul
-  - E.U.A. Oeste
-  - E.U.A. Oeste 2
-- Canadá
-  - Canadá Central
-  - Leste do Canadá
-- Reino Unido
-  - Oeste do Reino Unido
-  - Sul do Reino Unido
-- Brasil
-  - Sul do Brasil
-- Alemanha
-  - Alemanha Central
-  - Nordeste da Alemanha
-- Europa
-  - Europa do Norte
-  - Europa Ocidental
-- Japão
-  - Leste do Japão
-  - Oeste do Japão
-- Índia
-  - Índia Central
-  - Sul da Índia
-  - Oeste da Índia
-- Ásia-Pacífico
-  - Ásia Oriental
-  - Sudeste Asiático
-- Austrália
-  - Leste da Austrália
-  - Sudeste da Austrália
+* [Datacenters do Power BI](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 A Microsoft também fornece datacenters para soberanias. Para obter mais informações sobre a disponibilidade do serviço Power BI para clouds soberanas, veja as [clouds soberanas do Power BI](https://powerbi.microsoft.com/clouds/).
 
@@ -200,11 +167,23 @@ Após a conclusão desses itens, o browser inicia o contacto com o cluster de Ba
 
 No serviço Power BI, os dados encontram-se _inativos_ (dados disponíveis para um utilizador do Power BI que não estão a ser alvo de ações) ou _em processamento_ (por exemplo, consultas em execução, ligações de dados e modelos que estão a ser alvo de ações, dados e/ou modelos que estão a ser carregados para o serviço Power BI e outras ações que os utilizadores ou o serviço Power BI poderá executar nos dados que estão a ser ativamente acedidos ou atualizados). Os dados que se encontram em processamento são conhecidos como _dados em processamento_. Os dados inativos no Power BI são encriptados. Os dados que se encontram em trânsito, ou seja, que estão a ser enviados ou recebidos pelo serviço Power BI, também são encriptados.
 
-O serviço Power BI também gere os dados de forma diferente consoante sejam acedidos com uma **DirectQuery** ou _não_ sejam acedidos com uma DirectQuery. Por conseguinte, existem duas categorias de dados de utilizador para o Power BI: dados acedidos por DirectQuery e dados não acedidos por DirectQuery.
+O serviço Power BI também gere os dados de forma diferente consoante sejam acedidos com uma **DirectQuery** ou importados. Por conseguinte, existem duas categorias de dados de utilizador para o Power BI: dados acedidos por DirectQuery e dados não acedidos por DirectQuery.
 
 Uma **DirectQuery** é uma consulta para a qual a consulta de um utilizador do Power BI foi traduzida da linguagem Data Analysis Expressions (DAX) da Microsoft, ou seja, a linguagem utilizada pelo Power BI e outros produtos da Microsoft para criar consultas, e que se encontra na linguagem de dados nativa da origem de dados (por exemplo, T-SQL ou outras linguagens de bases de dados nativas). Os dados associados a uma DirectQuery são armazenados apenas por referência, o que significa que os dados de origem não são armazenados no Power BI quando a DirectQuery não está ativa (exceto para os dados de visualização utilizados para apresentar dashboards e relatórios, conforme descrito na secção _Dados em o processamento (movimento de dados)_ abaixo). Em vez disso, são armazenadas as referências aos dados de DirectQuery que permitem aceder a esses dados quando a DirectQuery é executada. Uma DirectQuery contém todas as informações necessárias para executar a consulta, incluindo a cadeia de ligação e as credenciais utilizadas para aceder às origens de dados, o que permite que a DirectQuery ligue às origens de dados incluídas para atualização automática. Com uma DirectQuery, as informações de modelos de dados subjacentes são incorporadas na mesma.
 
-Uma consulta que **não** utiliza a DirectQuery consiste numa coleção de consultas DAX que _não_ é traduzida diretamente para a linguagem nativa de qualquer origem de dados subjacente. As consultas que não são de DirectQuery não incluem as credenciais para os dados subjacentes e estes são carregados para o serviço Power BI, a menos que se trate de dados no local acedidos através de um [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/) e, nesse caso, a consulta só armazena referências aos dados no local.
+Uma consulta para um conjunto de dados importados consiste numa coleção de consultas DAX que _não_ são traduzidas diretamente para a linguagem nativa de qualquer origem de dados subjacente. As consultas de importação não incluem as credenciais para os dados subjacentes e estes são carregados para o serviço Power BI, a menos que se tratem de dados no local acedidos através de um [Power BI Gateway](service-gateway-onprem.md) e, nesse caso, a consulta só armazena referências aos dados no local.
+
+A seguinte tabela descreve os dados do Power BI com base no tipo de consulta utilizado. Um **X** indica a presença de dados do Power BI ao utilizar o tipo de consulta associado.
+
+
+|  |Importar  |DirectQuery  |Live Connect  |
+|---------|---------|---------|---------|
+|Esquema     |     X    |    X     |         |
+|Dados da linha     |    X     |         |         |
+|Colocação em cache dos dados dos elementos visuais     |    X     |     X    |    X     |
+
+
+
 
 A distinção entre uma DirectQuery e outras consultas determina a forma como o serviço Power BI processa os dados inativos e se a própria consulta é encriptada. As secções seguintes descrevem os dados inativos e em movimento, e explicam a encriptação, a localização e o processo de tratamento de dados.
 
@@ -216,7 +195,7 @@ Quando os dados estão inativos, o serviço Power BI armazena conjuntos de dados
 
 - As chaves de encriptação para as chaves de Blobs do Azure são armazenadas encriptadas no Azure Key Vault.
 - As chaves de encriptação da tecnologia TDE das Bases de Dados SQL do Azure são geridas pelo próprio SQL do Azure.
-- As chave de encriptação do serviço Movimento de Dados e do gateway de dados no local são armazenadas da seguinte forma:
+- As chaves de encriptação do serviço Movimento de Dados e do gateway de dados no local são armazenadas da seguinte forma:
   - No gateway de dados no local, na infraestrutura do cliente – para origens de dados no local
   - Na Função de Movimento de Dados – para origens de dados baseadas na cloud
 
@@ -329,7 +308,7 @@ Segue-se uma descrição dos dados armazenados transitoriamente em dispositivos 
 
 ### <a name="data-in-process"></a>Dados em processamento
 
-Os dados encontram-se em processamento quando estão a ser utilizados ou acedidos ativamente por um utilizador. Por exemplo, os dados encontram-se em processamento quando um utilizador acede a um conjunto de dados, consulta ou modifica um dashboard ou um relatório, ou quando ocorre uma atualização ou outras atividades de acesso a dados. Quando qualquer um desses eventos ocorre e os dados são colocados em processamento, a **Função de Dados** no serviço Power BI cria uma base de dados do Analysis Services (AS) na memória e o conjunto de dados é carregado para a mesma. Independentemente de o conjunto de dados ser ou não baseado numa DirectQuery, os dados carregados na base de dados AS encontram-se não encriptados, para permitir o acesso à **Função de Dados**, e são mantidos na memória para acesso posterior até que o serviço Power BI deixe de necessitar do conjunto de dados. Para os clientes com uma subscrição do Power BI Premium, o Power BI cria uma base de dados do Analysis Services (AS) na memória, na coleção de máquinas virtuais do Power BI do cliente aprovisionada em separado.
+Os dados encontram-se em processamento quando estão a ser utilizados ou acedidos ativamente por um utilizador. Por exemplo, os dados encontram-se em processamento quando um utilizador acede a um conjunto de dados, consulta ou modifica um dashboard ou um relatório, ou quando ocorre uma atualização ou outras atividades de acesso a dados. Quando qualquer um desses eventos ocorre e os dados são colocados em processamento, a **Função de Dados** no serviço Power BI cria uma base de dados do Analysis Services (AS) na memória e o conjunto de dados é carregado para a mesma. Independentemente de o conjunto de dados ser ou não baseado numa DirectQuery, os dados carregados na base de dados do AS encontram-se não encriptados, para permitir o acesso à **Função de Dados**, e são mantidos na memória para acesso posterior até que o serviço Power BI deixe de necessitar do conjunto de dados. Para os clientes com uma subscrição do Power BI Premium, o Power BI cria uma base de dados do Analysis Services (AS) na memória, na coleção de máquinas virtuais do Power BI do cliente aprovisionada em separado.
 
 Assim que os dados forem alvo de ações, o que inclui carregar inicialmente os dados para o Power BI, o serviço Power BI poderá colocar em cache os dados de visualização numa **Base de Dados SQL do Azure** encriptada, independentemente de o conjunto de dados ser baseado numa DirectQuery.
 
@@ -361,7 +340,7 @@ Se o Duarte acedesse ao dashboard ou ao relatório partilhado, a mesma sequênci
 
 Com o Power BI e o ExpressRoute, pode criar uma ligação de rede privada entre a sua organização e o Power BI (ou através de um recurso de colocação de um ISP) ao ignorar a Internet para proteger melhor as ligações e os dados confidenciais do Power BI.
 
-O ExpressRoute é um serviço do Azure que permite criar ligações privadas entre datacenters do Azure (nos quais o Power BI reside) e a sua infraestrutura no local ou entre datacenters do Azure e o seu ambiente de colocação. Para obter mais informações, veja o artigo [Power BI e ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/).
+O ExpressRoute é um serviço do Azure que permite criar ligações privadas entre datacenters do Azure (nos quais o Power BI reside) e a sua infraestrutura no local ou entre datacenters do Azure e o seu ambiente de colocação. Para obter mais informações, veja o artigo [Power BI e ExpressRoute](service-admin-power-bi-expressroute.md).
 
 ## <a name="power-bi-mobile"></a>Power BI Mobile
 
@@ -391,7 +370,7 @@ A **aplicação Power BI no dispositivo** armazena dados no dispositivo que faci
 
 A cache de dados do Power BI Mobile permanece no dispositivo durante duas semanas ou até a aplicação ser removida, o utilizador terminar sessão no Power BI Mobile ou o utilizador não conseguir iniciar sessão (por exemplo, um evento de expiração de token ou uma alteração de palavra-passe). A cache de dados inclui dashboards e relatórios acedidos anteriormente através da aplicação do Power BI Mobile.
 
-As aplicações do Power BI Mobile não analisam pastas no dispositivo. [Saiba mais sobre dados offline em aplicações do Power BI Mobile](https://powerbi.microsoft.com/documentation/powerbi-mobile-offline-android/).
+As aplicações do Power BI Mobile não analisam pastas no dispositivo. 
 
 As três plataformas para as quais o Power BI Mobile está disponível suportam o Microsoft Intune, um serviço de software que permite gerir dispositivos e aplicações móveis. Com o Intune ativado e configurado, os dados no dispositivo móvel são encriptados e a própria aplicação Power BI não pode ser instalada num cartão SD. [Saiba mais sobre o Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune).
 
@@ -403,7 +382,7 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 * **Credenciais do Power BI e credenciais de domínio:** os utilizadores iniciam sessão no Power BI através de um endereço de e-mail. Quando um utilizador tenta ligar a um recurso de dados, o Power BI transmite o endereço de e-mail de início de sessão no Power BI como credencial. Para recursos ligados por domínio (no local ou baseados na cloud), é efetuada a correspondência do e-mail de início de sessão com um _Nome Principal de Utilizador_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) pelo serviço de diretório, para determinar se existem credenciais suficientes para permitir o acesso. Para organizações que utilizam endereços de e-mail profissionais para iniciar sessão no Power BI (o mesmo e-mail que utilizam para iniciar sessão em recursos de trabalho, como _david@contoso.com_), o mapeamento pode ocorrer de forma totalmente integrada. Para organizações que não utilizam endereços de e-mail profissionais (como _david@contoso.onmicrosoft.com_), é necessário estabelecer o mapeamento do diretório para permitir o acesso a recursos no local com as credenciais de início de sessão do Power BI.
 
-* **SQL Server Analysis Services e Power BI:** para organizações que utilizam o SQL Server Analysis Services no local, o Power BI disponibiliza o gateway de dados no local do Power BI (que é um **Gateway**, conforme referido nas secções anteriores).  O gateway de dados no local do Power BI pode impor a segurança ao nível da função (RLS) em origens de dados. Para obter mais informações sobre a RLS, veja **Autenticação de Utilizadores para Origens de Dados** mais acima neste documento. Também pode ler um artigo detalhado sobre o [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/).
+* **SQL Server Analysis Services e Power BI:** para organizações que utilizam o SQL Server Analysis Services no local, o Power BI disponibiliza o gateway de dados no local do Power BI (que é um **Gateway**, conforme referido nas secções anteriores).  O gateway de dados no local do Power BI pode impor a segurança ao nível da função (RLS) em origens de dados. Para obter mais informações sobre a RLS, veja **Autenticação de Utilizadores para Origens de Dados** mais acima neste documento. Também pode ler um artigo detalhado sobre o [Power BI Gateway](service-gateway-manage.md).
 
   Além disso, as organizações podem utilizar o Kerberos para o **início de sessão único** (SSO) e ligar-se facilmente através do Power BI a origens de dados no local, como o SQL Server, SAP HANA e Teradata. Para obter mais informações e os requisitos de configuração específicos, veja [**Use Kerberos for SSO from Power BI to on-premises data sources**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data) (Utilizar o Kerberos para SSO através do Power BI para origens de dados no local).
 
@@ -443,7 +422,7 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Que portas são utilizadas pelo gateway de dados no local e pelo gateway pessoal? Existem nomes de domínio que têm de ser permitidos para fins de conectividade?**
 
-* A resposta detalhada a esta pergunta está disponível na seguinte ligação: [https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise).
+* A resposta detalhada a esta pergunta está disponível na seguinte ligação: [Power BI Gateway](service-gateway-manage.md)
 
 **Ao trabalhar com o gateway de dados no local, como são utilizadas as chaves de recuperação e onde são armazenadas? E quanto à gestão segura de credenciais?**
 
@@ -462,7 +441,7 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
   - **AMQP 1.0 – TCP + TLS**: este protocolo necessita que as portas 443, 5671, 5672 e 9350-9354 estejam abertas para o envio de comunicações. Esse protocolo é preferível, uma vez que tem uma menor sobrecarga de comunicações.
 
-  - **HTTPS – WebSockets através de HTTPS + TLS**: este protocolo utiliza apenas a porta 443. O WebSocket é iniciado por uma única mensagem HTTP CONNECT. Assim que o canal é estabelecido, a comunicação é essencialmente TCP + TLS. Pode forçar o gateway a utilizar este protocolo ao modificar uma definição descrita no [artigo Gateway no Local](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/).
+  - **HTTPS – WebSockets através de HTTPS + TLS**: este protocolo utiliza apenas a porta 443. O WebSocket é iniciado por uma única mensagem HTTP CONNECT. Assim que o canal é estabelecido, a comunicação é essencialmente TCP + TLS. Pode forçar o gateway a utilizar este protocolo ao modificar uma definição descrita no [artigo Gateway no Local](service-gateway-manage.md).
 
 **Qual é a função da CDN do Azure no Power BI?**
 
@@ -476,7 +455,7 @@ Seguem-se perguntas e respostas comuns relacionadas com a segurança do Power BI
 
 **Existem outros elementos visuais do Power BI que enviam informações para fora da rede do cliente?**
 
-* Sim. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços. Para obter mais informações e descrições detalhadas sobre o tráfego de inquilinos para fora do Power BI, veja [**Power BI e ExpressRoute**](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/).
+* Yes. Os elementos visuais do Mapas Bing e da ESRI transmitem dados para fora do serviço Power BI, caso utilizem esses serviços. Para obter mais informações e descrições detalhadas sobre o tráfego de inquilinos para fora do Power BI, veja [**Power BI e ExpressRoute**](service-admin-power-bi-expressroute.md).
 
 **E quanto à soberania de dados? É possível aprovisionar inquilinos em datacenters em localizações geográficas específicas, para garantir que os dados não saem do país?**
 
@@ -500,15 +479,15 @@ Valorizamos o seu feedback. Estamos interessados em receber as sugestões que po
 
 ## <a name="additional-resources"></a>Recursos Adicionais
 
-Para obter informações adicionais sobre o Power BI, veja os recursos seguintes.
+Para obter mais informações sobre o Power BI, veja os recursos seguintes.
 
 - [Grupos no Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Introdução ao Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise/)
+- [Power BI Gateway](service-gateway-manage.md)
 - [API REST do Power BI – Descrição Geral](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Referência da API do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Gateway de dados no local](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)
-- [Power BI e ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)
+- [Gateway de dados no local](service-gateway-manage.md)
+- [Power BI e ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Clouds Soberanas do Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-- [Utilizar o Kerberos para SSO a partir do Power BI para origens de dados no local](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data)
+- [Utilizar o Kerberos para SSO a partir do Power BI para origens de dados no local](service-gateway-sso-overview.md)

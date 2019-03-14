@@ -1,5 +1,5 @@
 ---
-title: Suporte Multi-Geo para o Power BI Embedded (Pré-visualização)
+title: Suporte da Multi-Geo para o Power BI Embedded
 description: Saiba como pode implementar conteúdo em datacenters em regiões diferentes da região base do Power BI Embedded.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762427"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572031"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Suporte Multi-Geo para o Power BI Embedded (Pré-visualização)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Suporte da Multi-Geo para o Power BI Embedded
 
-**Suporte Multi-Geo para o Power BI Embedded (Pré-visualização)** significa que os ISVs e as organizações que criam aplicações com o Power BI Embedded para incorporar análises nas suas aplicações, podem agora implementar os seus dados em diferentes regiões em todo o mundo.
+**Suporte da Multi-Geo para o Power BI Embedded** significa que os ISVs e as organizações que criam aplicações com o Power BI Embedded para incorporar análises nas suas aplicações podem agora implementar os seus dados em diferentes regiões em todo o mundo.
 
 Agora, os clientes que utilizam o **Power BI Embedded** podem configurar uma **Capacidade A** através das opções **Multi-Geo**, com base nas mesmas funcionalidades e limitações que o [Power BI Premium suporta através da Multi-Geo](../service-admin-premium-Multi-Geo.md).
 
@@ -78,7 +78,7 @@ Para suportar a gestão das capacidades com a Multi-Geo através da API, fizemos
 
 * Uma consulta em cache armazenada numa região remota permanece inativa nessa região. No entanto, os outros dados em trânsito podem ir e voltar entre diferentes localizações geográficas.
 
-* Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem pode permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
+* Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem podem permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
 
 * A Multi-Geo não resulta num melhor desempenho em geral. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base.
 

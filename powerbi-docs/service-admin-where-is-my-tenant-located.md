@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e71844110eb3452cbcb3b224bbca9db57475367e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08536d412796b1516b689ed728af0126330edf93
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282178"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580149"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Onde está localizado o meu inquilino do Power BI?
 
@@ -29,7 +29,7 @@ Para localizar a região na qual está o seu inquilino, siga estes passos.
 
 1. No serviço Power BI, no menu superior, selecione ajuda (**?**) e, em seguida, **Acerca do Power BI**.
 
-1. Procure o valor junto a **Os dados estão armazenados em**. Esta é a região onde está localizado o seu inquilino.
+1. Procure o valor junto a **Os dados estão armazenados em**. Esta é a região onde está localizado o seu inquilino. Esta é também a região onde os seus dados são armazenados, a menos que esteja a utilizar capacidades dedicadas em regiões diferentes para as suas áreas de trabalho.
 
     ![Região de dados](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

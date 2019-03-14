@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014651"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757352"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -192,6 +192,13 @@ A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definiç�
 
 ![Imprimir relatório](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização
+Os utilizadores convidados do Azure B2B podem editar e gerir o conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
+
+A seguinte imagem mostra a opção Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização.
+
+![Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>Definições da aplicação e do pacote de conteúdos
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Publicar pacotes de conteúdo e aplicações em toda a organização
@@ -243,10 +250,45 @@ Os utilizadores na organização podem interagir e partilhar elementos visuais p
 > [!NOTE]
 > Esta definição pode ser aplicada a toda a organização ou pode ser limitada a grupos específicos.
 
+
+O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais personalizados nos computadores implementados numa organização.
+
+<table>
+<tr><th>Attribute</th><th>Valor</th>
+</tr>
+<td>chave</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+Um valor de 1 (decimal) ativa a utilização de elementos visuais personalizados no Power BI (esta é a predefinição).
+
+Um valor de 0 (decimal) desativa a utilização de elementos visuais personalizados no Power BI.
+
 ### <a name="allow-only-certified-visuals"></a>Permitir apenas elementos visuais certificados
 
 Os utilizadores na organização que receberam permissões para adicionar e utilizar elementos visuais personalizados, representado pela definição "Adicionar e utilizar elementos visuais personalizados", só poderão utilizar [elementos visuais personalizados certificados](https://go.microsoft.com/fwlink/?linkid=2002010) (os elementos visuais não certificados serão bloqueados e apresentarão uma mensagem de erro quando utilizados). 
 
+
+O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais personalizados não certificados nos computadores implementados numa organização.
+
+<table>
+<tr><th>Attribute</th><th>Valor</th>
+</tr>
+<td>chave</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+Um valor de 1 (decimal) ativa a utilização de elementos visuais personalizados não certificados no Power BI (esta é a predefinição).
+
+Um valor de 0 (decimal) desativa a utilização de elementos visuais personalizados não certificados no Power BI (esta opção só ativa a utilização de [elementos visuais personalizados certificados](https://go.microsoft.com/fwlink/?linkid=2002010)).
 
 ## <a name="r-visuals-settings"></a>Definições de elementos visuais R
 

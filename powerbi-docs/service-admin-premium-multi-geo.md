@@ -1,5 +1,5 @@
 ---
-title: Suporte Multi-Geo para o Power BI Premium (Pré-visualização)
+title: Suporte da Multi-Geo para o Power BI Premium
 description: Saiba como pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI.
 author: minewiskan
 ms.author: owend
@@ -10,18 +10,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794666"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571985"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Suporte Multi-Geo para o Power BI Premium (Pré-visualização)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Suporte da Multi-Geo para o Power BI Premium
 
 A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e EUA Centro-Oeste e EUA Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
 
-- Portugal
+- Estados Unidos
 - Canadá
 - Reino Unido
 - Brasil
@@ -33,7 +33,7 @@ A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes mul
 
 A Multi-Geo não está disponível para o Power BI Alemanha, o Power BI China operado pela 21Vianet ou o Power BI para o Governo dos EUA.
 
-A Multi-Geo também está agora disponível no Power BI Embedded. Leia mais em [Suporte Multi-Geo no Power BI Embedded (Pré-visualização)](developer/embedded-multi-geo.md).
+A Multi-Geo também está agora disponível no Power BI Embedded. Leia mais em [Suporte da Multi-Geo no Power BI Embedded](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Utilizar a Multi-Geo
 
@@ -92,7 +92,7 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 
 - Confirme que qualquer movimentação que efetuar entre regiões está conforme todos os requisitos de conformidade empresariais e governamentais antes de iniciar a transferência de dados.
 - Uma consulta em cache armazenada numa região remota permanece inativa nessa região. No entanto, os outros dados em trânsito podem ir e voltar entre várias localizações geográficas.
-- Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem pode permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
+- Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem podem permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
 - A Multi-Geo não resulta num melhor desempenho em geral. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base.
 - A funcionalidade de [fluxos de trabalho](service-dataflows-overview.md) (em pré-visualização) não é suportada na Multi-Geo.
 

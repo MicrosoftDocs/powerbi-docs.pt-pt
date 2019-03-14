@@ -1,30 +1,34 @@
 ---
-title: Pode ser necessária uma compra adicional – Diretrizes para elementos visuais do Power BI
+title: Diretrizes para elementos visuais do Power BI
 description: Saiba como pode publicar o seu elemento visual personalizado no AppSource para que outros o possam encontrar e utilizar através de uma compra.
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826589"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757306"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
+# <a name="guidelines-for-power-bi-visuals"></a>Diretrizes de elementos visuais do Power BI
 
-Até recentemente, o Marketplace (AppSource) aceitava apenas elementos visuais do Power BI gratuitos. Esta política foi alterada, para que também possa enviar os elementos visuais para o AppSource com uma etiqueta de preço “Pode ser necessária uma compra adicional”. 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
+
+Até recentemente, o Marketplace (AppSource) aceitava apenas elementos visuais do Power BI gratuitos. Esta política foi alterada (dezembro de 2018) para que também possa submeter os elementos visuais para o AppSource com uma etiqueta de preço "Pode ser necessária a compra adicional". 
 
 Os elementos visuais com a etiqueta “Pode ser necessária uma compra adicional” são semelhantes aos suplementos de compras via aplicação (IAP) na Loja Office. Os programadores também podem submeter estes elementos visuais para obter uma certificação depois de a equipa do AppSource os aprovar e confirmar que estão em conformidade com os requisitos de certificação. Para obter mais informações sobre os requisitos, veja [Elementos visuais personalizados certificados](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
-> * Para o elemento visual ser certificado, não deve aceder a serviços externos ou recursos.
-> * Todos os elementos visuais gratuitos deverão manter as mesmas funcionalidades gratuitas oferecidas anteriormente. Opcionalmente, pode adicionar funcionalidades avançadas pagas para além das funcionalidades gratuitas existentes. Recomendamos que submeta os elementos visuais de IAP com as funcionalidades avançadas como novos elementos visuais e que não atualize as funcionalidades gratuitas existentes.
+> Para o elemento visual ser certificado, não deve aceder a serviços externos ou recursos.
+
+>[!IMPORTANT]  
+> Se atualizar o seu elemento visual de gratuito para "Pode ser necessária a compra adicional", os utilizadores têm de receber o mesmo nível de funcionalidades gratuitas como antes da atualização. Opcionalmente, pode adicionar funcionalidades avançadas pagas para além das funcionalidades gratuitas existentes. Recomendamos que submeta os elementos visuais de IAP com as funcionalidades avançadas como novos elementos visuais e que não atualize as funcionalidades gratuitas existentes.
 
 
 ## <a name="what-changed-in-the-submission-process"></a>O que foi alterado no processo de submissão?
@@ -33,19 +37,19 @@ Os programadores carregam os elementos visuais de IAP no AppSource através do D
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>O que é um elemento visual do Power BI com funcionalidades de IAP?
 
-Um elemento visual de IAP é um elemento visual gratuito que oferece funcionalidades gratuitas. Também tem algumas funcionalidades avançadas para as quais podem ser aplicados custos adicionais para serem utilizadas. Na descrição do elemento visual, os programadores têm de notificar os utilizadores sobre as funcionalidades que exigem compras adicionais para poderem ser utilizadas. Atualmente, a Microsoft não disponibiliza APIs nativas para suportar a compra de aplicações e suplementos.
+Um elemento visual de IAP é um elemento visual **gratuito** que oferece **funcionalidades gratuitas**. Também tem algumas funcionalidades avançadas para as quais podem ser aplicados custos adicionais para serem utilizadas. Na descrição do elemento visual, os programadores têm de notificar os utilizadores sobre as funcionalidades que exigem compras adicionais para poderem ser utilizadas. Atualmente, a Microsoft não disponibiliza APIs nativas para suportar a compra de aplicações e suplementos.
 
 Os programadores podem utilizar qualquer sistema de pagamento externo para estas compras. Para obter mais informações, veja a [nossa política de loja](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
-> Não são permitidas marcas d’água nas funcionalidades gratuitas. Os programadores poderão apresentar uma janela de pop-up ou marca d'água se as funcionalidades avançadas pagas forem utilizadas sem uma licença válida.  
+> Não são permitidas marcas d'água nas funcionalidades ou elementos visuais gratuitos. As marcas d'água só podem ser utilizadas em funcionalidades pagas utilizadas sem uma licença válida. Recomendamos que seja apresentada uma janela pop-up com todas as informações relacionadas com a licença, caso as funcionalidades pagas avançadas sejam utilizadas sem uma licença válida.  
 
 ## <a name="logo-guidelines"></a>Diretrizes de logótipo
 
 Esta secção descreve as especificações para adicionar logótipos aos elementos visuais.
 
-> [!NOTE]
-> Os logótipos só são permitidos no modo de edição. Os logótipos não podem ser apresentados no modo de visualização.
+> [!IMPORTANT]
+> Os logótipos são permitidos no **modo só de edição**. Os logótipos **não podem** ser apresentados no modo de visualização.
 
 ![Definições](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 
