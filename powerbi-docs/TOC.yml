@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: Connect to a GitHub sample (Ligar a um exemplo do GitHub)
       href: service-tutorial-connect-to-github.md
+    - name: Utilizar os Serviços Cognitivos no Power BI
+      href: service-tutorial-use-cognitive-services.md
+    - name: Integração do Machine Learning com o Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: Conceitos
     items:
     - name: What's new in the Power BI service (Novidades no serviço Power BI)
@@ -644,8 +648,12 @@ items:
         href: service-dataflows-connect-azure-data-lake-storage-gen2.md
       - name: Configure workspace dataflow settings (Preview) (Configurar as definições de fluxos de dados da área de trabalho [Pré-visualização])
         href: service-dataflows-configure-workspace-storage-settings.md
-      - name: Add a CDM folder to Power BI as a dataflow (Preview) (Adicionar uma pasta do CDM ao Power BI como um fluxo de dados [Pré-visualização])
+      - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
         href: service-dataflows-add-cdm-folder.md
+      - name: Integrar o Machine Learning no Power BI
+        href: service-machine-learning-integration.md
+      - name: Utilizar os Serviços Cognitivos no Power BI
+        href: service-cognitive-services.md
     - name: Relatórios paginados no Power BI
       items:
       - name: O que são relatórios paginados? (Pré-visualização)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: Connect to services (Ligar aos serviços)
         items:
-        - name: Connect to services (Ligar aos serviços)
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757444"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964922"
