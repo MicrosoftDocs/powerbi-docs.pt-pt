@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288526"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174574"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar na sua área de trabalho de aplicação do Power BI
 As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. A colaboração não termina com as áreas de trabalho no Power BI. O Office 365 fornece serviços de grupo como a partilha de ficheiros no OneDrive para Empresas, conversas no Exchange, tarefas e calendário partilhados, entre outros. Saiba mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -49,12 +49,12 @@ Colaborar no Office 365 começa a partir da área de trabalho de aplicação no 
 2. Neste menu, pode colaborar com o seu grupo de diversas formas: 
    
    * Tenha uma [conversa em grupo no Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365).
-   * [Agende um evento](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar) no calendário de área de trabalho de grupo da aplicação.
+   * [Agende um evento](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar) no calendário de área de trabalho de grupo da aplicação.
    
    Da primeira vez que aceder à área de trabalho de grupo da sua aplicação no Office 365, poderá ser necessário algum tempo. Aguarde entre 15 a 30 minutos e, em seguida, atualize o browser.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Ter uma conversa em grupo no Office 365
-1. Selecione as reticências (…) junto ao nome da área de trabalho da sua aplicação \> **Conversações**. 
+1. Selecione as reticências (…) junto ao nome da área de trabalho da sua aplicação \>**Conversas**. 
    
     ![Separador Conversas](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275324"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174597"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Criar relatórios otimizados para as aplicações móveis do Power BI
-Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis num telemóvel ou tablet. Crie um esquema vertical de um relatório, especificamente para telemóveis e tablets. No Power BI Desktop e no serviço Power BI, pode adaptar o relatório ao reorganizar e redimensionar os elementos visuais, num esquema vertical para proporcionar a melhor experiência possível. Não tem de incluir todos. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório otimizado. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
+Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis num telemóvel ou tablet. Crie um esquema vertical de um relatório, especificamente para telemóveis e tablets. No Power BI Desktop e no serviço Power BI, pode adaptar o relatório ao reorganizar e redimensionar os elementos visuais, num esquema vertical para proporcionar a melhor experiência possível. Não tem de incluir todos. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório otimizado. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
 
 ![Relatório otimizado num telemóvel](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
