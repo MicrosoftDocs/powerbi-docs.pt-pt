@@ -10,18 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: a29d251c629437184ff31de275a17c1d152abff3
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 1605293474a7cbfefb448d74127639153e29325c
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757783"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964623"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Resolução de problemas de início de sessão no Power BI
 
-Este artigo descreve como gerar [conteúdo de suporte](https://powerbi.microsoft.com/support/) que detalha o caminho que pode seguir para resolver os seus problemas de início de sessão.
+Este artigo descreve como obter [suporte](https://powerbi.microsoft.com/support/) quando ocorrerem problemas de início de sessão no Power BI.
 
-A primeira ação que precisa de realizar é **contactar a sua equipa de suporte interno** para obter assistência. No entanto, se for um **administrador de inquilinos** da sua organização e não conseguir iniciar sessão no Power BI, continue a ler as informações abaixo.
+A primeira ação que precisa de realizar é **contactar a equipa de suporte interno da sua organização** para obter assistência.
+
+No entanto, se for um **administrador de inquilinos** da sua organização e ainda não conseguir iniciar sessão no Power BI, continue a ler as informações abaixo.
 
 ## <a name="engage-the-support-team"></a>Contactar a equipa de suporte
 
@@ -30,11 +32,13 @@ Primeiro, tente criar um pedido de suporte através da [página de suporte do Po
 Se não conseguir aceder à página de suporte do Power BI, tente criar um pedido através da [página de suporte do Office 365 (O365)](https://support.office.com/home/contact).
 
 Se não conseguir criar um pedido através da página de suporte do Power BI ou do Office 365, tente contactar o suporte pelo telefone.
+
 * Para os clientes nos Estados Unidos (E.U.A.) e o resto da América: +1-800-936-5800
 * Para os clientes na Europa, Médio Oriente e Ásia (EMEA): +44-844-800-2400
 * Para os clientes na Índia: +1-800-419-5666
 
-Outra opção para contactar o suporte da Microsoft para obter ajuda é comprar o [suporte Premier da Microsoft](https://support.microsoft.com/premier). Se souber que a sua organização comprou o suporte Premier da Microsoft e ainda não conseguir criar um incidente a partir de qualquer canal do Office 365 ou Power BI, pode contactar o suporte Premier por telefone.
+Outra opção para contactar o suporte da Microsoft para obter ajuda é comprar o [suporte Premier da Microsoft](https://support.microsoft.com/premier). Se souber que a sua organização comprou o suporte Premier da Microsoft e ainda não conseguir criar um incidente a partir de qualquer canal do Power BI ou do Office 365, pode contactar o suporte Premier por telefone.
+
 * Para os clientes nos Estados Unidos (E.U.A.) e o resto da América: +1-800-936-3100
 * Para os clientes na Europa, Médio Oriente e Ásia (EMEA): +44-844-800-8338
 * Para os clientes na Índia: +1-800-425-5666

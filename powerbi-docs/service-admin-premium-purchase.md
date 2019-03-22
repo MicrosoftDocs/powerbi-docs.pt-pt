@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014145"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964853"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 
@@ -95,13 +95,15 @@ Pode cancelar a sua subscrição no centro de administração do Office 365. Par
 
 1. Leia as informações e, se pretender avançar, selecione **Cancelar subscrição**.
 
+### <a name="when-canceling-or-your-license-expires"></a>Quando cancelar ou a licença expirar
+
+Quando cancelar a sua subscrição Premium, ou a licença de capacidade expirar, pode continuar a aceder às suas capacidades Premium durante um período de 30 dias a contar da data de cancelamento ou da expiração da licença. Após 30 dias, deixará de poder aceder às capacidades Premium ou áreas de trabalho nas mesmas.
+
 ## <a name="next-steps"></a>Próximos passos
 
-[Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)
-[Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/)
-[O que é o Power BI Premium?](service-premium.md)
-[FAQ do Power BI Premium](service-premium-faq.md)
-[Microsoft Power BI Premium whitepaper](https://aka.ms/pbipremiumwhitepaper) (Documento técnico do Microsoft Power BI Premium) 
-[Documento técnico Plan a Power BI Enterprise Deployment](https://aka.ms/pbienterprisedeploy) (Planear uma Implementação Empresarial do Power BI)
+[Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)   
+[Calculadora do Power BI Premium](https://powerbi.microsoft.com/calculator/)   
+[FAQ do Power BI Premium](service-premium-faq.md)   
+[Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

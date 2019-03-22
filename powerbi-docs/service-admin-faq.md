@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430289"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980433"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -29,17 +29,17 @@ Este artigo aborda perguntas mais frequentes relativas à administração do Pow
 * [Como é que os utilizadores se inscrevem no Power BI?](#how-do-users-sign-up-for-power-bi)
 * [Como é que os utilizadores individuais na minha organização se inscrevem?](#how-do-individual-users-in-my-organization-sign-up)
 * [Como posso impedir que os utilizadores se associem ao inquilino existente do Office 365?](#how-can-i-prevent-users-from-joining-my-existing-office-365-tenant)
-* [Como posso permitir que os utilizadores sejam adicionados ao meu inquilino existente do Office 365?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
+* [Como posso permitir que os utilizadores se associem ao inquilino existente do Office 365?](#how-can-i-allow-users-to-join-my-existing-office-365-tenant)
 * [Como posso verificar se tenho o bloqueio ativado no meu inquilino?](#how-do-i-verify-if-i-have-the-block-on-in-the-tenant)
 * [Como posso impedir que os utilizadores existentes comecem a utilizar o Power BI?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [Como posso permitir que os utilizadores se inscrevam no Power BI?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)
 
 ### <a name="administration-of-power-bi-section"></a>Secção Administração do Power BI
 
-* [De que forma isto irá alterar a forma como faço a gestão de identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
+* [Como isto mudará a minha forma de gerir as identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Como gerir o Power BI?](#how-do-we-manage-power-bi)
 * [Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
-* [Se tiver vários domínios, posso controlar os utilizadores que são adicionados ao inquilino do Office 365?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
+* [Se eu tiver vários domínios, posso controlar o inquilino do Office 365 ao qual os utilizadores são adicionados?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to)
 * [Como posso remover o Power BI para os utilizadores já inscritos?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Como posso saber quando são associados novos utilizadores ao inquilino?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [Devo estar preparado para outras questões?](#are-there-any-additional-things-i-should-be-prepared-for)
@@ -82,9 +82,9 @@ Há três cenários que podem aplicar-se aos utilizadores na sua organização:
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-office-365-tenant"></a>Como posso impedir que os utilizadores se associem ao inquilino existente do Office 365?
 
-Existem passos que pode seguir, como administrador, para impedir os utilizadores de se associarem ao inquilino existente do Office 365. Se bloquear esta ação, as tentativas dos utilizadores para se inscreverem falharão e serão instruídos a contactar o administrador da organização. Não terá de repetir este processo se já tiver desativado a distribuição de licenças automática (por exemplo, Office 365 para Educação para Alunos, Docentes e Funcionários).
+Existem passos que pode seguir, como administrador, para impedir os utilizadores de se associarem ao inquilino existente do Office 365. Se bloquear esta ação, as tentativas dos utilizadores para se inscreverem falharão e serão intru+idos a contactar o administrador da organização. Não terá de repetir este processo se já tiver desativado a distribuição de licenças automática (por exemplo, Office 365 para Educação para Alunos, Docentes e Funcionários).
 
-Utilize o seguinte script do PowerShell para impedir que os utilizadores novos se associem a um inquilino gerido. [Saiba mais acerca do PowerShell](#basic-powershell-information)
+Utilize o seguinte script do PowerShell para impedir que os utilizadores novos se associem a um inquilino gerido. ([Saiba mais acerca do PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Como posso permitir que os utilizadores sejam adicionados ao meu inquilino existente do Office 365?
 
-Utilize o seguinte script do PowerShell para permitir que os utilizadores novos se associem a um inquilino gerido. [Saiba mais acerca do PowerShell](#basic-powershell-information)
+Utilize o seguinte script do PowerShell para permitir que os utilizadores novos se associem a um inquilino gerido. ([Saiba mais acerca do PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Como posso verificar se tenho o bloqueio ativado no meu inquilino?
 
-Execute o seguinte script do PowerShell para verificar as definições. *AllowEmailVerifiedUsers* deve ser falso. [Saiba mais acerca do PowerShell](#basic-powershell-information)
+Execute o seguinte script do PowerShell para verificar as definições. *AllowEmailVerifiedUsers* deve ser falso. ([Saiba mais acerca do PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 A definição do Microsoft Azure AD que controla isto é **AllowAdHocSubscriptions**. A maioria dos inquilinos tem essa definição definida como verdadeiro, o que significa que está ativada. Se adquiriu o Power BI através de um parceiro, poderá estar definida como falso, o que significa que está desativada.
 
-Utilize o seguinte script do PowerShell para desativar as subscrições ad hoc. [Saiba mais acerca do PowerShell](#basic-powershell-information)
+Utilize o seguinte script do PowerShell para desativar as subscrições ad hoc. ([Saiba mais acerca do PowerShell][1].)
 
 1. Entre no Azure Active Directory com as suas credenciais do Office 365. A primeira linha do seguinte script do PowerShell pede-lhe as suas credenciais. Na segunda linha, será ligado ao Azure Active Directory.
 
@@ -270,3 +270,5 @@ O Power BI foi criado de acordo com a base do Office 365 que, por sua vez, basei
 [Gestão de grupos do Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

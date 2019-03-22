@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426729"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174758"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados (Pré-visualização)
 
@@ -65,13 +65,13 @@ Siga os passos descritos no artigo [Criar a conta de armazenamento do Azure Data
 
 Em seguida, tem de conceder uma função de leitor ao serviço Power BI na sua conta de armazenamento criada. Trata-se de uma função incorporada, pelo que os passos não colocam dificuldades. 
 
-Siga os passos descritos no artigo [Atribuir uma função a um principal de segurança](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal).
+Siga os passos em [Atribuir uma função RBAC incorporada](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
 Na janela **Adicionar atribuição de função**, selecione a função **Leitor** para a atribuir ao serviço Power BI. Em seguida, utilize a pesquisa para localizar o **Serviço Power BI**. A imagem seguinte mostra a função **Leitor** atribuída ao serviço Power BI.
 
 ![Função Leitor atribuída ao serviço Power BI](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
 
-Nota: permita um período mínimo de 30 minutos na permissão para propagar para o Power BI a partir do Portal. Sempre que alterar a permissão no Portal, deverá dar 30 minutos para refletir o mesmo no Power BI até que possa voltar a tentar. 
+Note: permita um período mínimo de 30 minutos na permissão para propagar para o Power BI a partir do Portal. Sempre que alterar a permissão no Portal, deverá dar 30 minutos para refletir o mesmo no Power BI até que possa voltar a tentar. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Criar um sistema de ficheiros para o Power BI
@@ -150,6 +150,9 @@ Para ligar a sua conta do **Azure Data Lake Storage Gen2**, siga estes passos:
 6. Selecione **Ligar**.
 
 Após a conclusão bem-sucedida desses passos, a sua conta do Azure Data Lake Storage Gen2 está ligada ao Power BI. 
+
+> [!NOTE]
+> Para configurar uma ligação ao Azure Data Lake Storage Gen2 no portal de administração do Power BI, tem de ter permissões de Administrador Global. No entanto, os Administradores Globais não podem ligar o armazenamento externo no portal de administração.  
 
 Em seguida, precisa de ativar as pessoas da sua organização para configurar as respetivas áreas de trabalho, o que lhes permite utilizar esta conta de armazenamento para definir fluxos de dados e armazenar dados. Esse será o próximo passo a efetuar na secção seguinte. 
 

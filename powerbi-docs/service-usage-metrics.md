@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430310"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174942"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorizar as métricas de utilização para dashboards e relatórios do Power BI
 
@@ -47,7 +47,7 @@ Quando seleciona **Métrica de utilização** ou o ícone ![ícone de métrica d
 
 Os relatórios de métrica de utilização não aparecem em **Recente**, **Áreas de trabalho**, **Favoritos**, ou outras listas de conteúdo. Não podem ser adicionados a uma aplicação. Se fixar um mosaico de um relatório de métrica de utilização a um dashboard, esse dashboard não pode ser adicionar a uma aplicação ou pacote de conteúdos.
 
-Para ter acesso aos dados de relatório ou criar os seus próprios relatórios em relação ao conjunto de dados, utilize **Guardar como** (consulte [Guardar o relatório de métrica de utilização como um relatório completo do Power BI](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
+Para ter acesso aos dados de relatório ou criar os seus próprios relatórios em relação ao conjunto de dados, utilize **Guardar como** (veja [Guardar o relatório de métrica de utilização como um relatório completo do Power BI](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Abrir um relatório de métrica de utilização de um dashboard ou relatório
 
@@ -95,7 +95,7 @@ Para ter acesso aos dados de relatório ou criar os seus próprios relatórios e
 
 ![Relatório da métrica de utilização](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Guarde o relatório Métrica de Utilização como um relatório completo do Power BI (personalizar)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Guarde o relatório da métrica de utilização como um relatório completo do Power BI (personalizar)
 
 ![Guardar como](media/service-usage-metrics/power-bi-save-as.png)
 

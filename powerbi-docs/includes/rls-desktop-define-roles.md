@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58051953"
+---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definir funções e regras no Power BI Desktop
 Pode definir funções e regras no Power BI Desktop. Quando publicar no Power BI, este também publicará as definições de funções.
 
@@ -21,7 +29,7 @@ Siga estes passos para definir funções de segurança.
 7. Introduza as expressões DAX. Esta expressão deverá devolver um valor de verdadeiro ou falso. Por exemplo: [ID de Entidade] = “Valor”.
    
    > [!NOTE]
-   > Pode utilizar *username()* nesta expressão. Tenha em conta que *username()* tem o formato *DOMAIN\username* no Power BI Desktop. No serviço Power BI e no Power BI Report Server, estará no formato do Nome Principal de Utilizador (UPN). Em alternativa, pode utilizar *userprincipalname()*, que irá sempre devolver o utilizador no formato do respetivo nome principal de utilizador, *username@contoso.com*.
+   > Pode utilizar *username()* nesta expressão. Tenha em conta que *username()* tem o formato *DOMAIN\username* no Power BI Desktop. No serviço Power BI e no Power BI Report Server, estará no formato do Nome Principal de Utilizador (UPN). Em alternativa, pode utilizar *userprincipalname()*, que vai sempre devolver o utilizador no formato do respetivo nome principal de utilizador, *nomedeutilizador\@contoso.com*.
    > 
    > 
    

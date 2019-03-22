@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757329"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980364"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Perguntas frequentes sobre os elementos visuais personalizados do Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757329"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Como é que o administrador pode gerir os elementos visuais personalizados organizacionais?
 
-No Portal de administração, no separador “Elementos visuais personalizados organizacionais”, o administrador pode ver e [gerir todos os elementos visuais personalizados organizacionais da empresa](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals): adicionar, desativar, ativar e eliminar.
+No portal de administração, no separador "Elementos visuais personalizados organizacionais", o administrador pode ver e [gerir todos os elementos visuais personalizados organizacionais da empresa](service-admin-portal.md#organizational-visuals): adicionar, desativar, ativar e eliminar.
 Nunca mais terá de partilhar esses elementos visuais através de e-mails ou pastas partilhadas! Depois de implementados no repositório organizacional, os utilizadores na organização poderão facilmente localizá-los e importar os elementos visuais personalizados organizacionais para os respetivos relatórios diretamente a partir do Power BI Desktop ou do Serviço Power BI. Os elementos visuais personalizados organizacionais encontram-se na loja integrada (no Power BI Desktop ou no serviço Power BI) no separador *A MINHA ORGANIZAÇÃO*. Quando o administrador carrega uma nova versão de um elemento visual personalizado organizacional, todas as pessoas na organização recebem a mesma versão atualizada. Os autores do relatório não precisam de eliminar o elemento visual nos respetivos relatórios para obter a nova versão dos mesmos, pois todos os relatórios que utilizarem esses elementos visuais serão atualizados automaticamente! O mecanismo de atualização é semelhante ao dos elementos visuais do marketplace.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Se um administrador carregar um elemento visual personalizado do marketplace público para a loja da organização, este será automaticamente atualizado assim que o fornecedor atualizar o elemento visual no marketplace público?

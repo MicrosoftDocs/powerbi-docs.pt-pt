@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223841"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174827"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -290,7 +290,7 @@ Quando executa a aplicação de exemplo **Incorporar para a sua organização**,
 
 Este erro ocorre porque o URL de redirecionamento especificado para a aplicação de servidor Web é diferente do URL do exemplo. Se quiser registar a aplicação de exemplo, utilize `http://localhost:13526/` como o URL de redirecionamento.
 
-Se quiser editar a aplicação registada, saiba como editar a [aplicação registada no AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) para que a aplicação possa dar acesso às APIs Web.
+Se quiser editar a aplicação registada, saiba como [atualizar a aplicação registada no Azure AD](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) para que a aplicação possa dar acesso às APIs Web.
 
 Se quiser editar o seu perfil ou os seus dados de utilizador do Power BI, saiba como editar os seus [dados do Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 

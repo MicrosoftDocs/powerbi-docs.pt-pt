@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: f327cb95c10756f079778d20e62cba4871b95c02
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226141"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964945"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>O que é o Microsoft Power BI Premium?
 
@@ -66,15 +66,15 @@ O Power BI Premium está disponível em configurações de nós com diferentes c
 
 * Os nós EM podem ser utilizados apenas em implementações incorporadas. Os nós EM não têm acesso às funcionalidades premium, como a partilha de aplicações para utilizadores que não têm uma licença do Power BI Pro.
 
-| Nó de Capacidade | Núcleos virtuais totais<br/>*(Back-end + front-end)*  | Núcleos Virtuais de Back-end <sup>[1](#fn1)</sup> | Núcleos Virtuais de Front-end <sup>[2](#fn2)</sup> | Limites do DirectQuery/ligação em direto | Máx. de atualizações em simultâneo |  Disponibilidade
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EM1 (mês a mês) |1 núcleo virtual |0.5 núcleos virtuais, 2.5 GB de RAM |0,5 núcleos virtuais |3,75 por segundo |  1 | Disponível |
-| EM2 (mês a mês) |2 núcleos virtuais |1 núcleo virtual, 5 GB de RAM |1 núcleo virtual |7,5 por segundo |  2 | Disponível |
-| EM3 (mês a mês) |4 núcleos virtuais |2 núcleos virtuais, 10 GB de RAM |2 núcleos virtuais | | 3 |  Disponível |
-| P1 |8 núcleos virtuais |4 núcleos virtuais, 25 GB de RAM |4 núcleos virtuais |30 por segundo | 6 | Disponível (também está disponível mês a mês) |
-| P2 |16 núcleos virtuais |8 núcleos virtuais, 50 GB de RAM |8 núcleos virtuais |60 por segundo | 12 | Disponível |
-| P3 |32 núcleos virtuais |16 núcleos virtuais, 100 GB de RAM |16 núcleos virtuais |120 por segundo | 24 | Disponível |
-| | | | | | | |
+| Nó de Capacidade | Núcleos virtuais totais<br/>*(Back-end + front-end)*  | Núcleos Virtuais de Back-end <sup>[1](#fn1)</sup> | Núcleos Virtuais de Front-end <sup>[2](#fn2)</sup> | Limites do DirectQuery/ligação em direto | Máx. de atualizações em simultâneo |
+| --- | --- | --- | --- | --- | --- |
+| EM1 (mês a mês) |1 núcleo virtual |0.5 núcleos virtuais, 2.5 GB de RAM |0,5 núcleos virtuais |3,75 por segundo |  1 |
+| EM2 (mês a mês) |2 núcleos virtuais |1 núcleo virtual, 5 GB de RAM |1 núcleo virtual |7,5 por segundo |  2 |
+| EM3 (mês a mês) |4 núcleos virtuais |2 núcleos virtuais, 10 GB de RAM |2 núcleos virtuais | 15 | 3 |
+| P1 |8 núcleos virtuais |4 núcleos virtuais, 25 GB de RAM |4 núcleos virtuais |30 por segundo | 6 |
+| P2 |16 núcleos virtuais |8 núcleos virtuais, 50 GB de RAM |8 núcleos virtuais |60 por segundo | 12 |
+| P3 |32 núcleos virtuais |16 núcleos virtuais, 100 GB de RAM |16 núcleos virtuais |120 por segundo | 24 |
+| | | | | | |
 
 <a name="fn1">1</a>: Os núcleos virtuais de front-end são responsáveis pelo serviço Web. Por exemplo,são responsáveis pela gestão de documentos de relatórios e dashboards, gestão de direitos de acesso, agendamento, APIs, carregamentos e transferências e, de forma geral, por tudo o que tem a ver com a experiência de utilizador. 
 
@@ -82,32 +82,7 @@ O Power BI Premium está disponível em configurações de nós com diferentes c
 
 ## <a name="workloads-in-premium-capacity"></a>Cargas de trabalho na capacidade Premium
 
-Por predefinição, as capacidades do **Power BI Premium** e do **Power BI Embedded** suportam apenas a carga de trabalho associada à execução de consultas do Power BI na cloud. O Premium também suporta cargas de trabalho adicionais para **IA**, **Fluxos de dados** e **Relatórios paginados**. Pode ativar estas cargas de trabalho no portal de administração do Power BI ou através da API REST do Power BI. Também pode definir o máximo de memória que cada carga de trabalho pode consumir, para que possa controlar como as diferentes cargas de trabalho se afetam mutuamente. Para saber mais, veja [Configurar cargas de trabalho](service-admin-premium-workloads.md).
-
-### <a name="default-memory-settings"></a>Predefinições de memória
-
-As seguintes tabelas mostram os valores da memória predefinidos e mínimos, com base nos diferentes [nós de capacidade](#premium-capacity-nodes) disponíveis. A memória é alocada dinamicamente aos fluxos de dados, mas é alocada estaticamente aos relatórios paginados. Para obter mais informações, veja a secção seguinte [Considerações sobre relatórios paginados](#considerations-for-paginated-reports).
-
-#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKUs do Microsoft Office para cenários de software como serviço (SaaS)
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Relatórios paginados | N/D | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
-| Fluxos de dados | 20% predefinido; 8% mínimo  | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo  |
-| | | | | |
-
-#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKUs do Microsoft Azure para cenários de plataforma como serviço (PaaS)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Relatórios paginados | N/D                      | N/D                      | N/D                     | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
-| Fluxos de dados         | 27% predefinido; 27% mínimo | 20% predefinido; 16% mínimo | 20% predefinido; 8% mínimo | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo   |
-
-### <a name="considerations-for-paginated-reports"></a>Considerações sobre relatórios paginados
-
-Se utilizar a carga de trabalho de relatórios paginados, tenha em atenção que estes lhe permitem executar o seu próprio código ao compor um relatório (por exemplo, alterar dinamicamente a cor do texto com base nos conteúdos). Devido a este facto, protegemos a capacidade do Power BI Premium ao executar relatórios paginados num espaço contido dentro da capacidade. Atribuímos a memória máxima que especificar a este espaço, independentemente de a carga de trabalho estar ou não ativa. Se utilizar fluxos de dados ou relatórios do Power BI na mesma capacidade, certifique-se de que define a memória suficientemente baixa para relatórios paginados de modo a não afetar as outras cargas de trabalho de forma negativa.
-
-Em circunstâncias raras, a carga de trabalho Relatórios paginados pode ficar indisponível. Neste caso, a carga de trabalho apresenta um estado de erro no portal de administração e os utilizadores veem tempos limite para a composição do relatório. Para mitigar este problema, desative a carga de trabalho e, em seguida, ative-a novamente.
+Por predefinição, as funcionalidades do Power BI Premium e do Power BI Embedded suportam apenas a carga de trabalho associada à execução de consultas do Power BI na cloud. O Premium também suporta cargas de trabalho adicionais para **IA**, **Fluxos de dados** e **Relatórios paginados**. Antes destas cargas de trabalho poderem utilizar os recursos da sua capacidade, têm de ser ativadas no portal de administração do Power BI ou através da API REST do Power BI. Cada carga de trabalho tem predefinições para a quantidade máxima de memória que cada uma pode consumir. No entanto, pode configurar diferentes definições de consumo de memória para determinar de que forma as cargas de trabalho se afetam entre si e consomem os recursos de capacidade. Para saber mais, veja [Configurar cargas de trabalho](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 

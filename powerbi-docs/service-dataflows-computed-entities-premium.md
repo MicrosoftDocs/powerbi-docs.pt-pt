@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277808"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220960"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Utilizar entidades calculadas no Power BI Premium (Pré-visualização)
 
@@ -79,7 +79,9 @@ E é tudo. A transformação é executada nos dados no fluxo de dados que reside
 
 Ao trabalhar com fluxos de dados criados especificamente numa conta do Azure Data Lake Storage Gen2 de uma organização, as entidades ligadas e as entidades calculadas só funcionam corretamente quando as entidades residem na mesma conta de armazenamento. Para mais informações, veja [Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados (Pré-visualização)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 
-Alem disso, as entidades ligadas não estão disponíveis para fluxos de dados criados a partir de pastas do CDM. Veja [Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (Pré-visualização)](service-dataflows-add-cdm-folder.md).
+As entidades ligadas não estão disponíveis para fluxos de dados criados a partir de pastas do CDM (Common Data Model). Para obter mais informações, veja [Adicionar uma pasta do CDM ao Power BI como um fluxo de dados (Pré-visualização)](service-dataflows-add-cdm-folder.md).
+
+Como melhor prática, quando efetuar cálculos em dados associados no local e na cloud, crie uma nova entidade para efetuar esses cálculos. Isto fornece uma experiência melhor do que utilizar uma entidade existente para cálculos, como uma entidade que também consulta dados de ambas as origens e efetua transformações no repositório.
 
 ## <a name="next-steps"></a>Próximos Passos
 

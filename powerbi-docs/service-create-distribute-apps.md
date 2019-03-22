@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294101"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964692"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Publicar aplicações com dashboards e relatórios no Power BI
 
 No Power BI pode publicar *aplicações* com coleções de dashboards e relatórios relacionados. Crie aplicações nas *áreas de trabalho de aplicações*, onde pode colaborar em conteúdos do Power BI com os seus colegas. Em seguida, pode publicar aplicações concluídas em grandes grupos de pessoas na sua organização. Leia mais sobre como [criar áreas de trabalho de aplicações](service-create-workspaces.md).
 
-![Power BI apps](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+![Aplicações do Power BI](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
 Muitas vezes, os utilizadores empresariais precisam de vários dashboards e relatórios do Power BI para realizarem os seus negócios. Nas aplicações do Power BI, pode criar coleções de dashboards e relatórios e publicar estas aplicações para toda a organização ou para pessoas específicas ou grupos. Enquanto criador ou administrador de relatórios, as aplicações facilitam a gestão de permissões nestas coleções.
 
@@ -121,6 +121,11 @@ Seguem-se alguns aspetos a ter em atenção quando enviar aplicações por push 
 
 ## <a name="unpublish-an-app"></a>Anular publicação de uma aplicação
 Qualquer membro da área de trabalho da aplicação pode anular a publicação da aplicação.
+
+>[!NOTE]
+>Quando anular a publicação de uma aplicação, os utilizadores da aplicação perdem as suas personalizações. Isto significa que quaisquer marcadores pessoais, comentários ou subscrições associadas ao conteúdo na aplicação são perdidos. Apenas anule a publicação de uma aplicação se precisar de a remover.
+> 
+> 
 
 * Na área de trabalho da aplicação, selecione as reticências (**...** ) no canto superior direito > **Anular aplicação**.
   
