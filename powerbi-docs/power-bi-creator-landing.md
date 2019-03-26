@@ -6,16 +6,16 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
-ms.date: 11/19/2018
+ms.date: 03/20/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: e9d1d1b40116d05e4a6ecb72e6efcd6a0bd27209
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5af159c43a5b6e02f66c4c24cde3aaf378797c51
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277509"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306441"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para designers de relatórios
 
@@ -24,139 +24,184 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
 É um consumidor do Power BI? Seja também bem-vindo! Sugerimos que comece por ver a secção [Power BI para consumidores](consumer/power-bi-consumer-landing.md).
 
 <ul class="panelContent cardsF"> 
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Começar a criar com o Power BI</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="desktop-what-is-desktop.md">Começar a utilizar o Power BI Desktop</a><br/> 
-                                                                                            <a href="power-bi-overview.md">Começar a utilizar o serviço Power BI</a><br/> 
-                                                                                            <a href="report-server/get-started.md">O que é o Power BI Report Server?</a>
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Licenciamento do Power BI</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="service-admin-licensing-organization.md">Licenciamento do Power BI na sua organização</a><br/> 
-                                                                                            <a href="service-premium.md">Power BI Premium: O que é?</a> 
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Ligar-se a dados</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="desktop-quickstart-connect-to-data.md">Ligar a Dados no Power BI Desktop</a><br/> 
-                                                                                            <a href="service-dataflows-overview.md">Fluxos de dados: Preparação personalizada de dados</a><br/> 
-                                                                                            <a href="service-gateway-install.md">Gateways para dados no local</a>
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Transformar e formatar dados</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="desktop-common-query-tasks.md">Formatar dados no Editor do Power Query</a><br/> 
-                                                                                            <a href="desktop-shape-and-combine-data.md">Formatar e combinar as origens de dados</a><br/> 
-                                                                                            <a href="desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md">Analisar dados de página da Web</a>
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                       <div class="cardText"> 
-                                                                                      <h3>Modelagem de dados e relações</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="desktop-create-and-manage-relationships.md">Criar e gerir Relações</a><br/>
-                                                                                            <a href="desktop-quickstart-learn-dax-basics.md">Noções básicas do DAX no Power BI Desktop</a><br/> 
-                                                                                            <a href="service-admin-rls.md">Segurança ao nível da linha no Power BI Desktop</a> 
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Criar relatórios, elementos visuais e dashboards</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="desktop-report-view.md">Relatórios no Power BI Desktop</a><br/> 
-                                                                                            <a href="power-bi-report-add-visualizations-i.md">Adicionar um elemento visual a um relatório</a><br/> 
-                                                                                            <a href="service-dashboard-create.md">Dashboards no serviço Power BI</a>
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Partilhar o seu trabalho</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Como devo colaborar e partilhar?</a><br/>
-                                                                                            <a href="service-create-workspaces.md">Áreas de trabalhos de aplicação no serviço Power BI</a> 
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Programar para o Power BI</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="developer/embedding.md">Incorporar com o Power BI</a><br/> 
-                                                                                            <a href="developer/custom-visual-develop-tutorial.md">Desenvolver elementos visuais personalizados</a><br/> 
-                                                                                            <a href="https://docs.microsoft.com/rest/api/power-bi">APIs REST do Power BI</a>
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
-              <li> 
-                             <div class="cardSize"> 
-                                           <div class="cardPadding"> 
-                                                          <div class="card"> 
-                                                                        <div class="cardText"> 
-                                                                                      <h3>Administrar Power BI</h3> 
-                                                                                      <p></p>
-                                                                                            <a href="service-admin-administering-power-bi-in-your-organization.md">O que é a administração do Power BI?</a><br/> 
-                                                                                            <a href="service-admin-purchasing-power-bi-pro.md">Comprar licenças do Power BI Pro</a><br/>
-                                                                                            <a href="service-admin-reference.md">Cmdlets do PowerShell, APIs REST e SDK de .NET</a>
-                                                                        </div> 
-                                                          </div> 
-                                           </div> 
-                             </div> 
-              </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Get started creating with Power BI" src="media/power-bi-creator-landing/power-bi-designer-get-started.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Começar a criar com o Power BI</h3> 
+                                          <p></p>
+                                               <a href="desktop-what-is-desktop.md">Começar a utilizar o Power BI Desktop</a><br/> 
+                                               <a href="power-bi-overview.md">Começar a utilizar o serviço Power BI</a><br/> 
+                                               <a href="report-server/get-started.md">O que é o Power BI Report Server?</a>
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Power BI licensing" src="media/power-bi-creator-landing/power-bi-designer-licensing.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Licenciamento do Power BI</h3> 
+                                          <p></p>
+                                                <a href="service-admin-licensing-organization.md">Licenciamento do Power BI na sua organização</a><br/> 
+                                                <a href="service-premium.md">Power BI Premium: O que é?</a> 
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Connect to data with Power BI" src="media/power-bi-creator-landing/power-bi-designer-connect-data.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Ligar-se a dados</h3> 
+                                          <p></p>
+                                                <a href="desktop-quickstart-connect-to-data.md">Ligar a Dados no Power BI Desktop</a><br/> 
+                                                <a href="service-dataflows-overview.md">Fluxos de dados: Preparação personalizada de dados</a><br/> 
+                                                <a href="service-gateway-install.md">Gateways para dados no local</a>
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Transform and shape data with Power BI" src="media/power-bi-creator-landing/power-bi-designer-transform-shape-data.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Transformar e formatar dados</h3> 
+                                          <p></p>
+                                                <a href="desktop-common-query-tasks.md">Formatar dados no Editor do Power Query</a><br/> 
+                                                <a href="desktop-shape-and-combine-data.md">Formatar e combinar as origens de dados</a><br/> 
+                                                <a href="desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md">Analisar dados de página da Web</a>
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Modeling data and relationships with Power BI" src="media/power-bi-creator-landing/power-bi-designer-modeling-data-relationships.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Modelagem de dados e relações</h3> 
+                                          <p></p>
+                                                <a href="desktop-create-and-manage-relationships.md">Criar e gerir Relações</a><br/>
+                                                <a href="desktop-quickstart-learn-dax-basics.md">Noções básicas do DAX no Power BI Desktop</a><br/> 
+                                                <a href="service-admin-rls.md">Segurança ao nível da linha no Power BI Desktop</a> 
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Create reports, visuals, and dashboards with Power BI" src="media/power-bi-creator-landing/power-bi-designer-create-reports-visuals-dashboards.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Criar relatórios, elementos visuais e dashboards</h3> 
+                                          <p></p>
+                                                <a href="desktop-report-view.md">Relatórios no Power BI Desktop</a><br/> 
+                                                <a href="power-bi-report-add-visualizations-i.md">Adicionar um elemento visual a um relatório</a><br/> 
+                                                <a href="service-dashboard-create.md">Dashboards no serviço Power BI</a>
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Share your work in Power BI" src="media/power-bi-creator-landing/power-bi-designer-share-work.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Partilhar o seu trabalho</h3> 
+                                          <p></p>
+                                                <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Como devo colaborar e partilhar?</a><br/>
+                                                <a href="service-create-workspaces.md">Áreas de trabalhos de aplicação no serviço Power BI</a> 
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Develop for Power BI" src="media/power-bi-creator-landing/power-bi-designer-develop-power-bi.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Programar para o Power BI</h3> 
+                                          <p></p>
+                                                <a href="developer/embedding.md">Incorporar com o Power BI</a><br/> 
+                                                <a href="developer/custom-visual-develop-tutorial.md">Desenvolver elementos visuais personalizados</a><br/> 
+                                                <a href="https://docs.microsoft.com/rest/api/power-bi">APIs REST do Power BI</a>
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
+            <li> 
+                  <div class="cardSize"> 
+                        <div class="cardPadding"> 
+                              <div class="card"> 
+                                    <div class="cardImageOuter">
+                                          <div class="cardImage">
+                                                <img alt="Administer Power BI" src="media/power-bi-creator-landing/power-bi-designer-administer-power-bi.svg" data-linktype="relative-path">
+                                          </div>
+                                    </div>
+                                    <div class="cardText"> 
+                                          <h3>Administrar Power BI</h3> 
+                                          <p></p>
+                                                <a href="service-admin-administering-power-bi-in-your-organization.md">O que é a administração do Power BI?</a><br/> 
+                                                <a href="service-admin-purchasing-power-bi-pro.md">Comprar licenças do Power BI Pro</a><br/>
+                                                <a href="service-admin-reference.md">Cmdlets do PowerShell, APIs REST e SDK de .NET</a>
+                                    </div> 
+                              </div> 
+                        </div> 
+                  </div> 
+            </li>
 </ul>
 
 
