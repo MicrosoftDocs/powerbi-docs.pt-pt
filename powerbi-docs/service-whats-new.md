@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216867"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383721"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
@@ -144,7 +144,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * [Conector impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) geralmente disponível no Power BI Desktop.
 * Expanda as funcionalidades visuais do Power BI com [visuais interativos personalizados de R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
 
-### <a name="april-and-may-2017"></a>Abril e maio de 2017
+### <a name="april-and-may-2017"></a>Abril e Maio de 2017
 * Medir e aumentar o seu impacto com [métricas de utilização para o dashboard e criadores de relatórios](service-usage-metrics.md).
 * Estabeleça ligação ao PostgreSQL com o Gateway de dados no local.
 * Peça Web do SharePoint do Power BI disponibilizada a todos os utilizadores.
@@ -346,7 +346,7 @@ Hoje lançámos uma longa lista das funcionalidades mais pedidas. [Leia a mensag
 
 ***Portal de Administração***
 
-* Gestão de utilizadores fácil com uma ligação para o Centro de Administração do O365
+* Gestão de utilizadores fácil com uma ligação para o centro de administração do Microsoft 365
 * Capacidade para desativar a publicação na Web
 * Impedir que os utilizadores publiquem pacotes de conteúdos para toda a organização
 * Capacidade para desativar a partilha de conteúdos para utilizadores externos
@@ -508,7 +508,7 @@ Para obter todos os detalhes, visite o [Blogue do Power BI](http://blogs.msdn.co
 * Novo site para a documentação do Power BI, localizado
 * Tempo de carregamento melhorado para relatórios
 * Atualizar pacotes de conteúdos organizacionais com alterações apenas de relatório
-* Estado de funcionamento do Power BI no Portal de Administração do Office 365
+* Estado de funcionamento do Power BI no centro de administração do Microsoft 365
 * KPIs e imagens em tabelas, matrizes e cartões
 
 Para obter todos os detalhes, visite o [Blogue do Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)
@@ -563,7 +563,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 * Com a atualização de serviço desta semana, quando cria novos relatórios, pode agora escolher de entre vários tamanhos de página, bem como definir o seu próprio tamanho de página. Esta opção controla o tamanho e a proporção de cada página no relatório.
 * Adicionámos suporte adicional de formatação visual para imagens e gráficos de bolhas. Pode bloquear a proporção durante o redimensionamento de imagens para evitar a distorção da imagem, e as bolhas do gráfico de dispersão podem ser configuradas para serem preenchidas ou não.
 * Atualmente, o Power BI enviará convites de partilha para um endereço de e-mail alternativo. Quando um dashboard é partilhado consigo, enviamos a ligação de convite de partilha para o seu endereço de e-mail original e para o seu endereço de e-mail alternativo (se o tiver configurado).
-* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utilizadores utilizando as instruções descritas [aqui](http://go.microsoft.com/fwlink/?LinkId=627174).
+* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utilizadores ao seguir as instruções descritas [aqui](http://go.microsoft.com/fwlink/?LinkId=627174).
 * Os Registos de Auditoria do Azure permitem-lhe visualizar registos operacionais do plano de controlo na sua subscrição do Azure. O pacote de conteúdos dos Registos de Auditoria do Azure do Power BI pode ajudá-lo a analisar e visualizar facilmente a imensa informação contida nestes registos. O pacote de conteúdos permite-lhe ligar-se aos seus dados e começar a descobrir informações com um dashboard e relatórios prontos a utilizar. Leia o nosso [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx) e a [documentação online](service-connect-to-azure-audit-logs.md) para obter mais informações.
 
 [Saiba mais através do nosso blogue](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx).

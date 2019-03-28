@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249120"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306303"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -137,6 +137,13 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | :------------------- | :------------------- |
 | Mover o foco para o menu visual | Alt+Shift+F10 |
 | Mostrar dados | Alt+Shift+F11  |
+| Introduzir um elemento visual | Ctrl + Seta para a direita |
+| Introduzir uma camada | Enter |
+| Sair de uma camada ou elemento visual | Esc |
+| Selecionar ou desselecionar um ponto de dados | Enter ou Espaço |
+| Seleção múltipla | Ctrl + Enter ou Ctrl + Espaço |
+| Clicar com o botão direito do rato | <ul><li>Teclado do Windows: tecla de contexto do Windows + F10.  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: Shift+F10</li></ul> |
+| Limpar seleção | Ctrl+Shift+C |
 
 ### <a name="pane-navigation"></a>Navegação no Painel
 | Para esta ação           | Prima                |
@@ -153,7 +160,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | :------------------- | :------------------- |
 | Interagir com uma segmentação de dados | Ctrl+Tecla Seta Para a Direita |
 
-### <a name="selection-pane"></a>Painel Seleção
+### <a name="selection-pane"></a>Painel de Seleção
 | Para esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Ativar o painel de seleção | F6 |

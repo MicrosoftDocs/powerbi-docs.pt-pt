@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 76288ca77f184b27b5839377190a1708c69567af
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430700"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383092"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Comprar e atribuir licenças Power BI Pro
 
@@ -33,7 +33,7 @@ Para atribuir licenças no Azure, tem de ser um proprietário da subscrição do
 
 Siga estes passos para comprar licenças do Power BI Pro:
 
-1. Abra o [Centro de Administração do Office 365](https://portal.office.com/adminportal/home#/homepage).
+1. Abra o [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
 2. No painel de navegação esquerdo, selecione **Faturação** > **Subscrições**.
 
@@ -71,7 +71,7 @@ Siga estes passos para comprar licenças do Power BI Pro:
 
 Siga estes passos para atribuir licenças do Power BI Pro a contas de utilizador individuais:
 
-1. Abra o [Centro de Administração do Office 365](https://portal.office.com/adminportal/home#/homepage).
+1. Abra o [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
 2. No painel de navegação à esquerda, expanda **Utilizadores** e, em seguida, selecione **Utilizadores ativos**.
 

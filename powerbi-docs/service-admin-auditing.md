@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980410"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383491"
 ---
 # <a name="using-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -34,7 +34,7 @@ Tem de cumprir estes requisitos para aceder aos registos de auditoria:
 
     Para dar acesso a contas de utilizadores não administradores ao registo de auditoria, tem de adicionar esses utilizadores como membros de um daqueles grupos de funções. Em alternativa, pode criar um grupo de funções personalizado no centro de administração do Exchange, atribuir a função Registos de Auditoria ou Ver Apenas Registos de Auditoria ao mesmo e, depois, adicionar a conta do utilizador não administrador ao grupo novo. Para obter mais informações, veja [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Gerir grupos de funções no Exchange Online).
 
-    Se não conseguir aceder ao centro de administração do Exchange a partir do centro de administração do Office 365, aceda a https://outlook.office365.com/ecp e inicie sessão com as suas credenciais.
+    Se não conseguir aceder ao centro de administração do Exchange a partir do centro de administração do Microsoft 365, aceda a https://outlook.office365.com/ecp e inicie sessão com as suas credenciais.
 
 * Se tiver acesso ao registo de auditoria, mas não for um administrador global ou um administrador de Serviço do Power BI, não terá acesso ao portal de Administrador do Power BI. Neste caso, tem de utilizar uma ligação direta para o [Centro de Conformidade e Segurança do Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
@@ -50,9 +50,9 @@ Os registos de auditoria do Power BI estão disponíveis diretamente através d
 
 1. Selecione **Registos de auditoria**.
 
-1. Selecione **Aceder ao Centro de Administração do Office 365**.
+1. Selecione **Aceda ao centro de administração do Microsoft 365**.
 
-   ![Ir para Centro de Administração do O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Aceda ao centro de administração do Microsoft 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Procurar apenas atividades do Power BI
 
@@ -92,7 +92,7 @@ A área **Resultados** contém as seguintes informações para cada evento devol
 
 | **Coluna** | **Definição** |
 | --- | --- |
-| Date |A data e a hora (no formato UTC) em que ocorreu o evento. |
+| Data |A data e a hora (no formato UTC) em que ocorreu o evento. |
 | Endereço IP |O endereço IP do dispositivo que foi utilizado quando a atividade foi registada. O endereço IP é apresentado no formato de endereço IPv4 ou IPv6. |
 | Utilizador |O utilizador (ou a conta de serviço) que efetuou a ação que, por sua vez, acionou o evento. |
 | Atividade |A atividade efetuada pelo utilizador. Este valor corresponde às atividades que selecionou na lista pendente **Atividades**. Para um evento do registo de auditoria de administrador do Exchange, o valor nesta coluna é um cmdlet do Exchange. |
@@ -214,7 +214,7 @@ As seguintes atividades são auditadas pelo Power BI.
 | Controlou uma origem de dados do Power BI                   | TakeOverDatasource                          |                                          |
 | Controlou um conjunto de dados do Power BI                        | TakeOverDataset                             |                                          |
 | Aplicação do Power BI não publicada                          | UnpublishApp                                |                                          |
-| Atualizar definições de governação do recurso da capacidade      | UpdateCapacityResourceGovernanceSettings    | Não está atualmente no portal de administração do Office 365 |
+| Atualizar definições de governação do recurso da capacidade      | UpdateCapacityResourceGovernanceSettings    | Não está atualmente no centro de administração do Microsoft 365 |
 | Administrador de capacidade atualizado                            | UpdateCapacityAdmins                        |                                          |
 | Nome a apresentar da capacidade atualizado                     | UpdateCapacityDisplayName                   |                                          |
 | Definições do Power BI da organização atualizadas          | UpdatedAdminFeatureSwitch                   |                                          |

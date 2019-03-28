@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325020"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383422"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Gateway de dados no local detalhado
 É possível que os utilizadores na sua organização acedam a dados no local (para os quais já tenham autorização de acesso), mas para se poderem ligar à sua origem de dados no local, é necessário instalar e configurar um Gateway de dados no local. O gateway facilita a comunicação rápida e segura em segundo plano entre um utilizador na cloud, a sua origem de dados no local e, em seguida, de volta para a cloud.
@@ -77,7 +77,7 @@ Os serviços cloud apenas conhecem as contas no Azure Active Directory. É irrel
 
 1. Pode adicionar contas manualmente ao Azure Active Directory.
    
-   Pode criar uma conta no portal do Azure ou no Portal de Administração do Office 365 e o nome da conta tem de corresponder ao UPN da conta do Active Directory local.
+   Pode criar uma conta no portal do Azure ou no centro de administração do Microsoft 365 e o nome da conta tem de corresponder ao UPN da conta do Active Directory local.
 2. Pode utilizar a ferramenta [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) para sincronizar as contas locais no inquilino do Azure Active Directory.
    
    A ferramenta Azure AD Connect fornece opções para a sincronização de diretórios e a configuração da autenticação, incluindo a sincronização de hash da palavra-passe, autenticação pass-through e federação. Se não for um administrador do inquilino ou um administrador do domínio local, terá de contactar o administrador de TI para efetuar esta configuração.
