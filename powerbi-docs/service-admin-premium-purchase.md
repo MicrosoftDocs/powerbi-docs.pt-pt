@@ -10,19 +10,19 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964853"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383014"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 
 > [!NOTE]
 > Este artigo está a ser atualizado para descrever novas funcionalidades, fornecer mais detalhes e melhorar a legibilidade. 
 
-Este artigo descreve como pode comprar capacidade do Power BI Premium (P1-P3) para a sua organização. As capacidades do Power BI Premium são compradas no Centro de administração do Office 365. A gestão das capacidades é feita no portal de administração do Power BI. Para obter informações sobre os planos e preços atuais, veja a [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/) e a [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/).
+Este artigo descreve como pode comprar capacidade do Power BI Premium (P1-P3) para a sua organização. As capacidades do Power BI Premium são compradas no centro de administração do Microsoft 365. A gestão das capacidades é feita no portal de administração do Power BI. Para obter informações sobre os planos e preços atuais, veja a [Página de preços do Power BI](https://powerbi.microsoft.com/pricing/) e a [Calculadora Power BI Premium](https://powerbi.microsoft.com/calculator/).
 
 Os criadores de conteúdos continuam a precisar de uma licença do Power BI Pro, mesmo que a sua organização utilize o Power BI Premium. Certifique-se de que compra, pelo menos, uma licença do Power BI Pro para a sua organização.
 
@@ -42,7 +42,7 @@ Para comprar uma capacidade Premium, siga estes passos.
 
     ![Seletor de aplicações do Office 365](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    Em alternativa, pode navegar para o Centro de administração do Office 365. Para lá chegar, aceda a https://portal.office.com e selecione **Administrador**.
+    Em alternativa, pode navegar para o centro de administração do Microsoft 365. Para lá chegar, aceda a https://portal.office.com e selecione **Administrador**.
 
 1. Selecione **Faturação** > **Comprar serviços**.
 
@@ -62,7 +62,7 @@ Depois de concluir a compra, a página **Comprar serviços** vai mostrar que o i
 
 Agora que possui uma capacidade, pode adicionar mais capacidades conforme as suas necessidades aumentarem. Pode utilizar uma combinação de SKUs com capacidade Premium (P1 a P3) na sua organização. Os vários SKUs oferecem-lhe diferentes capacidades de recursos.
 
-1. No Centro de administração do Office 365, selecione **Faturação** > **Comprar serviços**.
+1. No centro de administração do Microsoft 365, selecione **Faturação** > **Comprar serviços**.
 
 1. Procure o item do Power BI Premium do qual pretende comprar mais em **Outros planos**.
 
@@ -81,9 +81,9 @@ A página **Comprar serviços** irá depois indicar o número de instâncias que
 
 ## <a name="cancel-your-subscription"></a>Cancelar a sua subscrição
 
-Pode cancelar a sua subscrição no centro de administração do Office 365. Para cancelar a sua subscrição Premium, faça o seguinte.
+Pode cancelar a sua subscrição no centro de administração do Microsoft 365. Para cancelar a sua subscrição Premium, faça o seguinte.
 
-1. Navegue para o Centro de administração do Office 365.
+1. Navegue para o centro de administração do Microsoft 365.
 
 1. Selecione **Faturação** > **Subscrições**.
 
