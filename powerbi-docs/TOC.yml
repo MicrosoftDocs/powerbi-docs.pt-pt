@@ -922,8 +922,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Pause and start a capacity in Azure (Colocar em pausa e iniciar uma capacidade no Azure)
           href: developer/azure-pbie-pause-start.md
-      - name: Resolução de Problemas
-        items:
         - name: Resolver problemas da sua aplicação incorporada
           href: developer/embedded-troubleshoot.md
       - name: Migrar de Coleções de Áreas de Trabalho
@@ -1270,6 +1268,8 @@ items:
         href: service-premium-incremental-refresh.md
       - name: Suporte de Multi-Geo
         href: service-admin-premium-multi-geo.md
+      - name: Connect to datasets with client applications and tools (Ligar a conjuntos de dados com ferramentas e aplicações cliente)
+        href: service-premium-connect-tools.md
       - name: Perguntas Frequentes do Power BI Premium
         href: service-premium-faq.md
     - name: Função de administração no Office 365
@@ -1327,9 +1327,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9c5c6c85422fa9094e28d6e84d3ef6b861a3a324
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.openlocfilehash: 3259c3fe3bc8756355dd75324a84dd0322bfef3a
+ms.sourcegitcommit: c98fe18c52cd06a52b12aa9aa09d58e8a406542a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473896"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "58563672"
