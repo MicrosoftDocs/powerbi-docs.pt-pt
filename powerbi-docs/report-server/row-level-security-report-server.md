@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226210"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489574"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Segurança ao nível da linha (RLS) no Power BI Report Server
 
@@ -28,11 +28,11 @@ Pode configurar a RLS para relatórios importados no Power BI com o Power BI Des
 
 Por predefinição, a filtragem de segurança ao nível da linha utiliza filtros unidirecionais, independentemente de as relações estarem definidas como unidirecionais ou bidirecionais. Pode ativar a filtragem cruzada bidirecional manualmente com a segurança ao nível da linha.
 
-- Selecione a relação e selecione a caixa de verificação  **Aplicar filtros de segurança em ambas as direções** . 
+- Selecione a relação e selecione a caixa de verificação **Aplicar filtros de segurança em ambas as direções**. 
 
     ![Aplicar o filtro de segurança](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Selecione esta caixa de verificação ao implementar a  [segurança dinâmica ao nível da linha](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) com base no nome de utilizador ou ID de início de sessão. 
+Selecione esta caixa de verificação ao implementar a [segurança dinâmica ao nível da linha](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) com base no nome de utilizador ou ID de início de sessão. 
 
 Para obter mais informações, veja [Filtragem cruzada bidirecional ao utilizar o DirectQuery no Power BI Desktop](../desktop-bidirectional-filtering.md) e o documento técnico [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Proteger o Modelo Semântico de BI em Tabela).
 
@@ -46,7 +46,7 @@ Após guardar o seu relatório no Power BI Report Server, irá gerir a seguranç
  Se o relatório não tiver as funções necessárias, terá de o abrir no Power BI Desktop, adicionar ou modificar funções e, em seguida, guardá-lo novamente no Power BI Report Server. 
 
 1. No Power BI Desktop, guarde o relatório no Power BI Report Server. Terá de utilizar a versão do Power BI Desktop otimizada para o Power BI Report Server.
-2. No Power BI Report Service, selecione as reticências (**…**) junto ao relatório. 
+2. No Power BI Report Server, selecione as reticências (**…**) junto ao relatório. 
 
 3. Selecione **Gerir** > **Segurança ao nível da linha**. 
 
@@ -85,7 +85,7 @@ Seguem-se as limitações atuais da segurança ao nível de linha nos modelos do
 
 Os utilizadores que tinham relatórios com a função DAX username() irão agora observar um novo comportamento, em que o Nome Principal de Utilizador (UPN) será devolvido, EXCETO ao utilizar o DirectQuery com segurança integrada.  Como a RLS não é respeitada neste cenário, o comportamento deste não é alterado.
 
-Só pode definir a RLS em conjuntos de dados criados com o Power BI Desktop. Para ativar a RLS para os conjuntos de dados criados com o Excel, primeiro tem de converter os seus ficheiros em ficheiros do Power BI Desktop (PBIX). Obtenha mais informações sobre a [conversão de ficheiros do Excel](../desktop-import-excel-workbooks.md).
+Só pode definir a RLS em conjuntos de dados criados com o Power BI Desktop. Para ativar a RLS para os conjuntos de dados criados com o Excel, primeiro tem de converter os seus ficheiros em ficheiros do Power BI Desktop (PBIX). Obtenha mais informações sobre a [conversão de ficheiros do Excel](../desktop-import-excel-workbooks.md).
 
 Só são suportadas as ligações de Extração, Transformação e Carregamento (ETL) e do DirectQuery com credenciais armazenadas. As ligações em direto ao Analysis Services e as ligações do DirectQuery que utilizam autenticação integrada são processadas na origem de dados subjacente. 
 

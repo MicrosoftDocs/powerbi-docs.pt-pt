@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762151"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473850"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Criar um inquilino do Azure Active Directory para utilizar com o Power BI
 
@@ -88,7 +88,7 @@ Agora que temos um diretório, vamos criar pelo menos dois utilizadores. Um que 
    > [!NOTE]
    > Certifique-se de que se inscreve com o endereço de e-mail que deu a essa conta de utilizador.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Passos seguintes
 
 Agora que tem um inquilino do Azure AD, pode utilizá-lo para testar itens no Power BI e/ou pode avançar e incorporar os dashboards e relatórios do Power BI na sua aplicação. Para obter mais informações sobre como incorporar itens, consulte [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embedding-content.md).
 
