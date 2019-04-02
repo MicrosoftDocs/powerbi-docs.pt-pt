@@ -448,7 +448,7 @@ items:
           href: service-govus-overview.md
         - name: FAQ para os clientes da Germany Cloud
           href: service-govde-faq.md
-      - name: Outros
+      - name: Outro
         items:
         - name: Microsoft Flow e Power BI
           href: service-flow-integration.md
@@ -628,21 +628,21 @@ items:
         href: publisher-for-excel.md
     - name: Preparação personalizada de dados
       items:
-      - name: Preparação personalizada de dados com fluxos de dados (pré-visualização)
+      - name: Preparação personalizada de dados com fluxos de dados
         href: service-dataflows-overview.md
-      - name: Criar e utilizar fluxos de dados (pré-visualização)
+      - name: Criar e utilizar fluxos de dados
         href: service-dataflows-create-use.md
-      - name: Entidades calculadas com o Power BI Premium (pré-visualização)
+      - name: Entidades calculadas com o Power BI Premium
         href: service-dataflows-computed-entities-premium.md
-      - name: Connect to data sources with dataflows (preview) (Ligar a origem de dados com fluxos de dados [pré-visualização])
+      - name: Ligar a origens de dados com fluxos de dados
         href: service-dataflows-data-sources.md
-      - name: Utilizar fluxos de dados com origens de dados no local (pré-visualização)
+      - name: Utilizar fluxos de dados com origens de dados no local
         href: service-dataflows-on-premises-gateways.md
-      - name: Ligar a entidades entre fluxos de dados (pré-visualização)
+      - name: Ligar entidades entre fluxos de dados
         href: service-dataflows-linked-entities.md
-      - name: Utilizar a atualização incremental com fluxos de dados (pré-visualização)
+      - name: Utilizar a atualização incremental com os fluxos de dados
         href: service-dataflows-incremental-refresh.md
-      - name: Recursos para programadores para fluxos de dados (pré-visualização)
+      - name: Recursos para programadores para fluxos de dados
         href: service-dataflows-developer-resources.md
       - name: Ligar a fluxos de dados no Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -654,9 +654,9 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
         href: service-dataflows-add-cdm-folder.md
-      - name: Integrar o Machine Learning no Power BI
+      - name: Integrar o Machine Learning no Power BI (Pré-visualização)
         href: service-machine-learning-integration.md
-      - name: Utilizar os Serviços Cognitivos no Power BI
+      - name: Utilizar os Serviços Cognitivos no Power BI (Pré-visualização)
         href: service-cognitive-services.md
       - name: Machine Learning automatizada no Power BI (Pré-visualização)
         href: service-machine-learning-automated.md
@@ -1331,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1de602579c97a56c7db5b0b92a8b6bc9f1134ec6
-ms.sourcegitcommit: 6070b5726629dde6dee262f77e9957496405d501
+ms.openlocfilehash: 82627f07ebaca2c0d80444c979e660802b8dd561
+ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58639374"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58795757"
