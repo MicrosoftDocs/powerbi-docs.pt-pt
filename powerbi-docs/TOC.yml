@@ -880,6 +880,18 @@ items:
         href: developer/embedding.md
       - name: What is Power BI Embedded in Azure (O que é o Power BI Embedded no Azure?)
         href: developer/azure-pbie-what-is-power-bi-embedded.md
+    - name: Inícios rápidos
+      items:
+      - name: Gerir capacidades no Azure
+        items:
+        - name: Create a capacity in Azure (Criar uma capacidade no Azure)
+          href: developer/azure-pbie-create-capacity.md
+        - name: Create a capacity using Multi-Geo in Azure (Criar uma capacidade com a Multi-Geo no Azure)
+          href: developer/embedded-multi-geo.md
+        - name: Scale a capacity in Azure (Dimensionar uma capacidade no Azure)
+          href: developer/azure-pbie-scale-capacity.md
+        - name: Pause and start a capacity in Azure (Colocar em pausa e iniciar uma capacidade no Azure)
+          href: developer/azure-pbie-pause-start.md
     - name: Tutoriais
       items:
       - name: Incorporar conteúdo para clientes
@@ -1034,6 +1046,16 @@ items:
       items:
       - name: Enviar dados por push para um conjunto de dados
         href: developer/walkthrough-push-data.md
+      - name: Registar uma aplicação no Azure AD
+        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
+      - name: Get an authentication access token (Obter um token de acesso de autenticação)
+        href: developer/walkthrough-push-data-get-token.md
+      - name: Create a dataset (Criar um conjunto de dados)
+        href: developer/walkthrough-push-data-create-dataset.md
+      - name: Get a dataset to add rows (Obter um conjunto de dados para adicionar linhas)
+        href: developer/walkthrough-push-data-get-datasets.md
+      - name: Adicionar linhas a uma tabela
+        href: developer/walkthrough-push-data-add-rows.md
     - name: Conceitos
       items:
       - name: Automatic retention policy for real-time data (Política de retenção automática para dados em tempo real)
@@ -1048,16 +1070,6 @@ items:
           href: developer/api-data-model-versioning.md
     - name: Procedimentos
       items:
-      - name: Registar uma aplicação no Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
-      - name: Get an authentication access token (Obter um token de acesso de autenticação)
-        href: developer/walkthrough-push-data-get-token.md
-      - name: Create a dataset (Criar um conjunto de dados)
-        href: developer/walkthrough-push-data-create-dataset.md
-      - name: Get a dataset to add rows (Obter um conjunto de dados para adicionar linhas)
-        href: developer/walkthrough-push-data-get-datasets.md
-      - name: Adicionar linhas a uma tabela
-        href: developer/walkthrough-push-data-add-rows.md
       - name: Configurar credenciais
         href: developer/configure-credentials.md
       - name: Encriptar credenciais
@@ -1331,9 +1343,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 82627f07ebaca2c0d80444c979e660802b8dd561
-ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
+ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58795757"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872599"
