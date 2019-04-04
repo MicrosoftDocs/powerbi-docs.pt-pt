@@ -500,8 +500,10 @@ items:
         href: refresh-excel-file-local-drive.md
       - name: Atualizar um conjunto de dados a partir de um livro do Excel – cloud
         href: refresh-excel-file-onedrive.md
-      - name: Atualizar um conjunto de dados criado a partir de um ficheiro .CSV no OneDrive
+      - name: Atualizar um conjunto de dados a partir de um ficheiro .CSV no OneDrive
         href: refresh-csv-file-onedrive.md
+      - name: Colocação em cache de consultas no Power BI Premium
+        href: power-bi-query-caching.md
       - name: Resolver problemas de atualização
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Dashboards
@@ -1343,9 +1345,9 @@ items:
       href: service-admin-governance.md
     - name: Power BI security (Segurança do Power BI)
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: acffbdf5b7a4951baae0dc6a4afc624371da560b
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872599"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914219"
