@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762450"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872714"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análise incorporada com o Power BI
 
@@ -46,7 +53,7 @@ A solução **Incorporar para a sua organização** permite-lhe alargar o servi�
 
 Para incorporação na sua organização, veja abaixo:
 
-* [Integrar uma relatório numa aplicação](embed-sample-for-your-organization.md)
+* [Integrar um relatório numa aplicação](embed-sample-for-your-organization.md)
 
 Capacidades self-service, como editar, guardar, entre outras, estão disponíveis na [API de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript) na incorporação para utilizadores do Power BI.
 

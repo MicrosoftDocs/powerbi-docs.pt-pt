@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014421"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872553"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
 
@@ -111,13 +111,15 @@ Ao contrário da utilização tradicional de uma conta principal, a utilização
 3. Como administrador do Power BI, tem de ativar o principal de serviço nas **Definições de programador** no portal de administração do Power BI. Adicione o grupo de segurança que criou no Azure AD à secção **Grupo de segurança específico** nas **Definições de programador**.
 
    > [!Important]
-   > Os principais de serviço herdam as permissões de todas as definições do inquilino do Power BI do respetivo grupo de segurança. Para restringir as permissões, crie um grupo de segurança dedicado para os principais de serviço e adicione-o à lista "Exceto grupos de segurança específicos" para as definições do Power BI relevantes ativadas.
+   > Os principais de serviço têm acesso a todas as definições do inquilino ativadas para a organização inteira ou ativadas para grupos de segurança que tenham principais de serviço como parte do grupo. Para restringir o acesso do principal de serviço a definições do inquilino específicas, permita o acesso apenas a grupos de segurança específicos ou crie um grupo de segurança dedicado para principais de serviço e exclua-o.
 
     ![Portal de administração](media/embed-service-principal/admin-portal.png)
 
 4. Configure o seu [ambiente do Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment).
 
 5. Adicione o principal de serviço como um **administrador** à nova área de trabalho que criou. Pode gerir esta tarefa através das [APIs](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) ou com o serviço Power BI.
+
+    ![Adicionar um principal de serviço a uma área de trabalho](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Opte por incorporar os seus conteúdos numa aplicação de exemplo ou na sua própria aplicação.
 
@@ -171,6 +173,7 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 * Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não conseguem utilizar o principal de serviço.
 * A gestão de [fluxos de dados](../service-dataflows-overview.md) não é suportada.
+* O principal de serviço não suporta APIs de administração.
 
 ## <a name="next-steps"></a>Próximos passos
 

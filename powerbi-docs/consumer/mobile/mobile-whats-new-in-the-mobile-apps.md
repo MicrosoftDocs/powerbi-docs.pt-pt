@@ -9,19 +9,29 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826727"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872737"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
-Para informações sobre “Novidades” relacionadas, veja:
+Para obter informações sobre “Novidades” relacionadas, veja:
 
-* [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
-* [Novidades do serviço Power BI](../../service-whats-new.md)  
+* [Blogue da equipa do Power BI para aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
+* [Novidades no Power BI Desktop](../../desktop-latest-update.md)  
+* [What's new in the Power BI service (Novidades no serviço Power BI)](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>Março de 2019
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Suporte de utilizadores convidados externos nas aplicações do Power BI (iOS e Android)
+
+Pode aceder aos conteúdos do Power BI partilhados consigo por outra organização diretamente na aplicação (também conhecida como B2B). Leia mais sobre as aplicações móveis B2B do Power BI [aqui](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/).
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Melhoria do modo de apresentação do Windows com a apresentação de diapositivos (Windows)
+
+Com a [apresentação de diapositivos](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/), pode utilizar ecrãs públicos localizados no seu escritório para executar relatórios do Power BI em ecrã inteiro e alternar automaticamente entre as páginas do relatório.  
 
 ## <a name="january---february-2019"></a>Janeiro – fevereiro de 2019
  
@@ -305,7 +315,7 @@ Melhorámos a interação tátil para a segmentação de dados de tempo.
 
 Agora, pode ter ligações de até cinco servidores do SQL Server Reporting Services (SSRS) ao mesmo tempo.
 
-**Pedir acesso aos dashboards** 
+**Pedir acesso a dashboards** 
 
 Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
 
@@ -316,7 +326,7 @@ Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora
 Agora, pode percorrer gráficos de barras e de colunas num relatório ao tocar no próprio gráfico, em vez de tocar na barra de deslocamento lateral.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Faça perguntas dos seus dados com uma pré-visualização de Perguntas e Respostas** 
+**Faça perguntas sobre os seus dados com uma pré-visualização das Perguntas e Respostas** 
 
 Com as Perguntas e Respostas, faça perguntas sobre os seus dados nas suas próprias palavras, e o Power BI fornece as respostas. As Perguntas e Respostas já se encontram no serviço Power BI, em http://powerbi.com. Agora também está [disponível na aplicação móvel no seu iPhone ou iPad](mobile-apps-ios-qna.md).
 
@@ -357,14 +367,14 @@ Leia o [Resumo das funcionalidades do blogue de aplicações móveis publicado e
 Para ter a certeza de que consegue aceder aos dados mais recentes estando offline, efetuámos uma atualização da aplicação em segundo plano para que as suas informações comerciais estejam atualizadas, mesmo se não tiver acedido às mesmas durante um tempo. Para certificar-se de que determinados dashboards estão sempre atualizados, basta marcá-los como favoritos. Saiba mais sobre as [capacidades offline das aplicações móveis do Power BI](mobile-apps-offline-data.md).
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Anotar e partilhar**
+**Anote e partilhe**
 
 Agora, pode anotar e partilhar um mosaico, relatório ou visualização da aplicação móvel Power BI para iOS. 
 
 * [No iPhone](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [No iPad](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-**Pedir acesso aos dashboards**
+**Pedir acesso a dashboards**
 
 Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
 
