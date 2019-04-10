@@ -40,7 +40,7 @@ Este artigo descreve a segurança do Power BI ao fornecer uma explicação sobre
 
 ## <a name="power-bi-architecture"></a>Arquitetura do Power BI
 
-O serviço **Power BI** baseia-se no **Azure**, a [plataforma de informática na cloud](http://azure.microsoft.com/overview/what-is-azure/) da Microsoft. O Power BI está a ser implementado em vários datacenters em todo o mundo. Existem diversas implementações ativas disponibilizadas para clientes nas regiões servidas por esses datacenters e um número equivalente de implementações passivas que funcionam como cópias de segurança para cada implementação ativa.
+O serviço **Power BI** baseia-se no **Azure**, a [plataforma de computação na cloud](http://azure.microsoft.com/overview/what-is-azure/) da Microsoft. O Power BI está a ser implementado em vários datacenters em todo o mundo. Existem diversas implementações ativas disponibilizadas para clientes nas regiões servidas por esses datacenters e um número equivalente de implementações passivas que funcionam como cópias de segurança para cada implementação ativa.
 
 Cada implementação do Power BI consiste em dois clusters – um cluster de Front-end da Web (**WFE**) e um cluster de **Back-end**. Estes dois clusters são apresentados na seguinte imagem e servem de base para o resto deste artigo. 
 
