@@ -48,7 +48,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **assign (atribuir)** [Power BI Premium] Verbo para mover uma área de trabalho para dentro ou para fora da capacidade dedicada. Não utilizar promover para mover uma área de trabalho para a capacidade dedicada, porque isto tem a conotação de dedicada ser superior à capacidade partilhada.  
 
-## <a name="b"></a>N
+## <a name="b"></a>B
 
 **BI, business intelligence**
 
@@ -121,7 +121,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 **environment (ambiente)** [Power BI Desktop, Power BI Mobile, etc.] Utilizar o ambiente do Power BI. Para clientes multi-inquilinos, utilize este termo para referir-se à escolha do inquilino ao qual se liga.
 Não há problema em utilizar o ambiente do Power BI (inquilino) na documentação dado que pode ajudar os analistas de negócios que estão familiarizados com o termo inquilino para saberem que é a mesma coisa.
 
-## <a name="f"></a>S
+## <a name="f"></a>F
 
 **favorite, unfavorite (adicionar favorito, anular favorito)** Verbo que significa adicionar à lista de Favoritos para acesso rápido aos dashboards e relatórios frequentemente visitados no Power BI. Quando já não quiser tê-los como favoritos, anule essa ação.
 
@@ -293,12 +293,12 @@ Pode subscrever páginas, aplicações e dashboards de relatórios e receber e-m
 
 **summarization (resumo)** [Power BI Desktop] A operação a ser aplicada aos valores numa coluna.
 
-## <a name="t"></a>Q
+## <a name="t"></a>T
 **tiles (mosaicos)**  
 Os dashboards do Power BI contêm mosaicos de relatório.
 
 
-## <a name="u"></a>S
+## <a name="u"></a>U
 
 
 ## <a name="v"></a>V
@@ -308,7 +308,7 @@ Os dashboards do Power BI contêm mosaicos de relatório.
 
 **Visualizations pane (Painel de visualizações)** O nome para os modelos de visualização que são disponibilizados na tela do relatório partilhado para o Power BI Desktop e o serviço Power BI. Contém pequenos modelos, também chamados ícones, para cada tipo de visualização nativo.  
 
-## <a name="w"></a>Q
+## <a name="w"></a>W
 
 **workbook (pasta de trabalho)** Um livro do Excel a ser utilizado como origem de dados. Os livros podem conter um modelo de dados com uma ou mais tabelas de dados carregadas, ao utilizar tabelas ligadas, o Power Query ou o Power Pivot.
 
