@@ -1,7 +1,7 @@
 ---
 title: Introduzir dados diretamente num relatório paginado no Report Builder (Pré-visualização)
 description: Neste artigo, irá aprender a introduzir dados diretamente num relatório paginado no Report Builder.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424552"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Introduzir dados diretamente num relatório paginado no Report Builder (Pré-visualização) – Power BI
 
@@ -23,7 +23,7 @@ Neste artigo, irá conhecer uma funcionalidade da nova versão do SQL Server 201
 ## <a name="prerequisites"></a>Pré-requisitos
 
 - Para introduzir dados diretamente num relatório paginado, instale a nova versão do [Report Builder a partir do Centro de Transferências da Microsoft](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Para guardar o seu relatório paginado no serviço Power BI, precisa de uma [conta do Power BI Pro](service-self-service-signup-for-power-bi.md) e de acesso de escrita a uma área de trabalho numa [capacidade do Power BI Premium](service-premium.md).
+- Para guardar o seu relatório paginado no serviço Power BI, precisa de uma [conta do Power BI Pro](service-self-service-signup-for-power-bi.md) e de acesso de escrita a uma área de trabalho numa [capacidade do Power BI Premium](service-premium-what-is.md).
 - Para guardar o seu relatório paginado num servidor de relatórios, precisa de permissões para [editar o ficheiro RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Introdução

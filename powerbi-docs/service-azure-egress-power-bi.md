@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 528d31a72d2c78b0a00f853d2df82f3a4eb04eae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 720ef2f059c3c87be84c3d8db98e89400c161ad0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295349"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514396"
 ---
 # <a name="power-bi-and-azure-egress"></a>Saída do Power BI e Azure
 
@@ -33,7 +33,7 @@ Para clientes do Multi-Geo no Power BI Premium, se o seu inquilino do Power BI n
 
 Para obter mais informações sobre o Power BI Premium ou a funcionalidade Multi-Geo, consulte os seguintes recursos:
 
-* [O que é o Microsoft Power BI Premium?](service-premium.md)
+* [O que é o Microsoft Power BI Premium?](service-premium-what-is.md)
 * [Como comprar o Power BI Premium](service-admin-premium-purchase.md)
 * [Suporte Multi-Geo para o Power BI Premium (Pré-visualização)](service-admin-premium-multi-geo.md)
 * [Onde está localizado o meu inquilino do Power BI?](service-admin-where-is-my-tenant-located.md)

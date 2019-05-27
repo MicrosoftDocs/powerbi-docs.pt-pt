@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d80d0a2d976661f2b62476be7742b755d11f1c9
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216545"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513702"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análise do Facebook com o Power BI Desktop
 
@@ -39,7 +39,7 @@ Este tutorial utiliza dados da [página do Facebook do Microsoft Power BI](http
    
 4. Escreva ou cole o nome da página **microsoftbi** na caixa de texto **Nome de utilizador**, selecione **Mensagens** na lista pendente **Ligação** e, em seguida, Selecione **OK**.
    
-   ![Ligar](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Connect](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. Quando lhe forem pedidas as credenciais, inicie sessão na sua conta do Facebook e permita o acesso do Power BI à mesma.
    

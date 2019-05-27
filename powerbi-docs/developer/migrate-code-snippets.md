@@ -1,20 +1,20 @@
 ---
 title: Fragmentos de código para a migração de conteúdo a partir do Power BI Embedded
 description: Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c3357b89ef02d29c0518b12780339d8612c75387
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61269235"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
 
@@ -234,7 +234,7 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
 [Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdo da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md)  
-[Power BI Premium – o que é?](../service-premium.md)  
+[Power BI Premium – o que é?](../service-premium-what-is.md)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

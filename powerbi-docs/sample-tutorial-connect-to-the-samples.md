@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275554"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625062"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Ligar aos exemplos no serviço Power BI
 
@@ -78,7 +78,7 @@ Agora explore o dashboard, o conjunto de dados e o relatório por conta própria
     ![Página de relatório com elemento visual correspondente realçado](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Se o mosaico tiver sido criado com as [Perguntas e Respostas do Power BI](consumer/end-user-q-and-a.md), deve ter sido aberta a página Perguntas e Respostas. Se o mosaico tiver sido [afixado do Excel](service-dashboard-pin-tile-from-excel.md), o Excel Online será aberto no Power BI.
+   > Se o mosaico tiver sido criado com as [Perguntas e Respostas do Power BI](power-bi-tutorial-q-and-a.md), deve ter sido aberta a página Perguntas e Respostas. Se o mosaico tiver sido [afixado do Excel](service-dashboard-pin-tile-from-excel.md), o Excel Online será aberto no Power BI.
    > 
    > 
 1. De volta ao separador **Conjuntos de dados**, tem várias opções para explorar o conjunto de dados.  Não poderá abrir e ver todas as linhas e colunas (como no Power BI Desktop ou no Excel).  Quando alguém partilha um pacote de conteúdos com colegas, normalmente, quer partilhar as informações e não dar aos colegas acesso direto aos dados. No entanto, isso não significa que não pode explorar o conjunto de dados.  
@@ -129,11 +129,9 @@ Agora, explore o conjunto de dados, as relações e o relatório. Para obter aju
 
 
 ## <a name="next-steps"></a>Próximos passos
-[Conceitos básicos do Power BI](consumer/end-user-basic-concepts.md)
 
-[Exemplos para o serviço Power BI](sample-datasets.md)
-
-[Origens de dados para o Power BI](service-get-data.md)
+- [Conceitos básicos do Power BI](consumer/end-user-basic-concepts.md)
+- [Exemplos para o serviço Power BI](sample-datasets.md)
+- [Origens de dados para o Power BI](service-get-data.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
-

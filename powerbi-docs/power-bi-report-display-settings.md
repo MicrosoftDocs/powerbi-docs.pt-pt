@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 67a090b64a8243ed2a77d66ae633f8a64e494c89
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 01e37d34c5a4914206056d19d888cace782ba8f4
+ms.sourcegitcommit: 15d4d4ea18014c64de77b01a5d79207589ba51fc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289078"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "64906557"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Por vezes, isso representa um desafio, uma vez que visualiza esses relatórios, e os seus colegas também, em ecrãs de diferentes proporções e tamanhos. 
@@ -73,7 +73,7 @@ As definições *Tamanho da Página* só estão disponíveis para os proprietár
 ## <a name="next-steps"></a>Próximos Passos
 [Saiba como usar as definições Vista de página e Tamanho da página nos relatórios do Power BI](consumer/end-user-report-view.md).
 
-Leia mais sobre [relatórios no Power BI](consumer/end-user-reports.md)
+Leia mais sobre os [relatórios no Power BI](consumer/end-user-reports.md)
 
 [Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
 

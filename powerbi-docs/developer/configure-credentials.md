@@ -1,20 +1,20 @@
 ---
 title: Configurar credenciais para o Power BI através de programação
 description: Como configurar credenciais para automatização do Power BI através de programação
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380187"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais para o Power BI através de programação
 
@@ -54,7 +54,7 @@ Siga estes passos para configurar credenciais para o Power BI através de progra
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>Fluxo de credenciais da origem de dados no local expirado
 
-1. [Siga os passos 1 e 2 do cenário anterior](#configure-credential-flow-for-data-sources).
+1. [Siga os passos 1 e 2 do cenário anterior](#configure-a-credential-flow-for-data-sources).
 
 2. Chame a API [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) para obter a chave pública do gateway.
 
