@@ -1,27 +1,25 @@
 ---
 title: Descrição geral de administração, Power BI Report Server
 description: Este artigo é a descrição geral da administração do Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 745db7ea9c1a702389f2afae4408024ddb54b734
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288089"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187392"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Descrição geral de administração, Power BI Report Server
 Este artigo é a descrição geral da administração do Power BI Report Server, uma localização no local para armazenar e gerir os relatórios móveis e paginados do Power BI. Este artigo apresenta os conceitos de planeamento, implementação e gestão do Power BI Report Server, com ligações para obter mais informações.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
-
-
 
 ## <a name="installing-and-migration"></a>Instalação e migração
 Tem de instalar o Power BI Report Server para começar a utilizá-lo. Temos artigos que explicam como realizar esta tarefa.

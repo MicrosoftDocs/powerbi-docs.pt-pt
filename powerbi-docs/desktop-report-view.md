@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d569bbde70949f553a391062c41358038ec92f34
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275462"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514609"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de Relatório no Power BI Desktop
 Se já trabalhou com o Power BI, sabe como é fácil criar relatórios que fornecem informações e perspetivas dinâmicas sobre os seus dados. O Power BI também conta com funcionalidades mais avançadas no Power BI Desktop. Com o Power BI Desktop, pode criar consultas avançadas, efetuar mashup dos dados provenientes de várias origens, criar relações entre tabelas e muito mais.
