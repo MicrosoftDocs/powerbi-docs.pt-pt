@@ -8,15 +8,15 @@ editor: davidi
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/21/2017
+ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292643"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513596"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
 Este tutorial demonstra os passos necessários para implementar **segurança ao nível da linha** no seu **Modelo em Tabela do Analysis Services** e mostra como utilizá-la num relatório do Power BI. Os passos neste tutorial foram concebidos para permitir-lhe acompanhar e conhecer os passos necessários, concluindo um conjunto de dados de exemplo.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8568013438f6be84b2d4a48efdeffd99db352ed8
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892373"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513109"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de ficheiros de livros do Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -124,11 +124,11 @@ Atualmente, ao escolher a opção Importar, o Power BI importa apenas os dados q
 ## <a name="next-steps"></a>Passos seguintes
 **Explore os dados** – Depois de obter dados e relatórios do seu ficheiro no Power BI, está na altura de explorá-los. Basta clicar com o botão direito do rato no novo conjunto de dados e clicar em Explorar. Caso tenha decidido ligar a um ficheiro de livro no OneDrive no passo 4, o livro será apresentado em Relatórios. Ao clicar nele, será aberto no Power BI, da mesma forma como seria aberto se estivesse no Excel Online.
 
-**Agendar atualização** – Se o ficheiro de livro do Excel ligar a origens de dados externas ou se tiver sido importado de uma unidade local, pode configurar a atualização agendada para garantir que o conjunto de dados ou relatório está sempre atualizado. Na maioria dos casos, é muito fácil configurar a atualização agendada, no entanto, não entraremos em detalhes sobre esta configuração porque está fora do âmbito deste artigo. Veja [Atualizar dados no Power BI](refresh-data.md) para saber mais.
+**Agendar atualização** – Se o ficheiro de livro do Excel ligar a origens de dados externas ou se tiver sido importado de uma unidade local, pode configurar a atualização agendada para garantir que o conjunto de dados ou relatório está sempre atualizado. Na maioria dos casos, é muito fácil configurar a atualização agendada, no entanto, não entraremos em detalhes sobre esta configuração porque está fora do âmbito deste artigo. Veja [Atualização de dados no Power BI](refresh-data.md) para saber mais.
 
 [Publicar no Power BI a partir do Excel 2016](service-publish-from-excel.md)
 
 [Power BI Publisher para Excel](publisher-for-excel.md)
 
-[Atualizar dados no Power BI](refresh-data.md)
+[Atualização de dados no Power BI](refresh-data.md)
 

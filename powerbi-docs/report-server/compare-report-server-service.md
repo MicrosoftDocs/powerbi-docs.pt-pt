@@ -2,20 +2,20 @@
 title: Comparar o Power BI Report Server e o serviço Power BI
 description: Este artigo compara as funcionalidades do Power BI Report Server e do serviço Power BI.
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327924"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187680"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -38,7 +38,7 @@ O Power BI Report Server e o serviço Power BI têm muitas semelhanças e alguma
 | Distribuir grupo de relatórios através de aplicações | Não | Sim | [Criar e publicar aplicações com dashboards e relatórios](../service-create-distribute-apps.md) |
 | Pacotes de conteúdos | Não | Sim | [Pacotes de conteúdos organizacionais: Introdução](../service-organizational-content-pack-introduction.md) |
 | Ligar a serviços como o Salesforce | Sim | Sim | [Ligue-se aos serviços que utiliza](../service-connect-to-services.md) com pacotes de conteúdos no serviço Power BI. No Power BI Report Server, utilize conectores certificados para ligar a serviços. Veja [Origens de dados de relatórios do Power BI no Power BI Report Server](data-sources.md) para obter detalhes. |
-| Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Informações rápidas | Não | Sim | [Gerar automaticamente as informações de dados com o Power BI](../consumer/end-user-insights.md) |
 | Analisar no Excel | Não | Sim | [Analyze in Excel](../service-analyze-in-excel.md) 
 | Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço Power BI](../paginated-reports-report-builder-power-bi.md) em pré-visualização numa capacidade Premium |
