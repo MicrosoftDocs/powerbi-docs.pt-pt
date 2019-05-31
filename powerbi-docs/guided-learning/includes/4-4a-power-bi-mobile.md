@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257054"
+---
 Se quiser monitorizar os seus dados enquanto se desloca, pode utilizar uma das aplicações móveis do Power BI para dispositivos iOS, Android e Windows.
 
 Quando utilizar a aplicação Power BI, inicie sessão primeiro na sua conta com as suas informações de conta do serviço Power BI. Num dispositivo móvel Windows (neste caso, um tablet), o início de sessão é semelhante ao seguinte.

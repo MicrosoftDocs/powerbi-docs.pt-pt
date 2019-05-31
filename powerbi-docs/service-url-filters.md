@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648703"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051294"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -43,11 +43,11 @@ URL?filter=***Tabela***/***Campo*** eq '***valor***'
 
 ### <a name="reports-in-apps"></a>Relatórios nas aplicações
 
-Se pretender adicionar um filtro de URL a um relatório numa aplicação, a formatação é um pouco diferente. As ligações para relatórios numa aplicação têm um parâmetro de consulta (ctid) que é adicionado ao URL. Os parâmetros de consulta têm de ser separados por um e comercial (&). Por isso, tem de anexar a consulta com "&filter=" (após o parâmetro ctid) em vez de "&filter=". 
+Se pretender adicionar um filtro de URL a um relatório numa aplicação, a formatação é um pouco diferente. As ligações para relatórios numa aplicação têm um parâmetro de consulta (ctid) que é adicionado ao URL. Separe os parâmetros de consulta com um e comercial (&). Manter "? filtro =" e mover o parâmetro ctid para o final do URL, precedido por um e comercial (&). 
 
 Tal como este exemplo:
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
 
 ### <a name="field-types"></a>Tipos de campo
 
@@ -83,7 +83,7 @@ Para filtrar o relatório de forma a mostrar dados apenas para lojas na Carolina
 
 O nosso relatório está filtrado para a Carolina do Norte. Todas as visualizações na página de relatório mostram dados apenas para a Carolina do Norte.
 
-![](media/service-url-filters/power-bi-report4.png)
+![Relatório filtrado para a Carolina do Norte](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>Filtrar em múltiplos campos
 
@@ -133,19 +133,19 @@ Um filtro de URL do Power BI pode incluir números nos seguintes formatos.
 
 ### <a name="date-data-types"></a>Tipos de dados de data
 
-O Power BI suporta o OData V3 e V4 para os tipos de dados **Data** e **DateTimeOffset**.  As datas são representadas através do formato EDM (2019-02-12T00:00:00), por isso, quando especifica uma data como AAAA-MM-DD, o Power BI interpreta-a como AAAA-MM-DDT00:00:00.
+O Power BI suporta o OData V3 e V4 para os tipos de dados **Data** e **DateTimeOffset**.  As datas são representadas utilizando o formato do EDM (2019-02-12T00:00:00), por isso, quando especificar uma data como 'Aaaa-MM-DD', o Power BI interpreta-o como ' aaaa-MM-DDT00:00:00'.
 
-Por que motivo esta distinção é importante? Imaginemos que criou o parâmetro de cadeia de consulta **Tabela/Data gt 2018-08-03**.  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? Uma vez que o Power BI traduz a sua consulta para **Tabela/Data gt 2018-08-03T00:00:00**, os resultados incluem todas as datas que tiverem uma parte de hora diferente de zero, uma vez que essas datas seriam maiores do que **2018-08-03T00:00:00**.
+Por que motivo esta distinção é importante? Digamos que cria um parâmetro de cadeia de caracteres de consulta **gt de tabela/data ' 2018-08-03'** .  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? Uma vez que o Power BI traduz-se a sua consulta **gt de tabela/data ' 2018-08-03T00:00:00'** , os resultados incluem qualquer datas que têm uma parte do tempo de diferente de zero, uma vez que essas datas seria maior do que **' 2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>Carateres especiais em filtros de URL
 
-Os carateres especiais e espaços requerem alguma formatação adicional. Quando a sua consulta contém espaços, travessões ou outros carateres que não forem ASCII, prefixe esses carateres especiais com um *código de escape* que comece com um caráter de sublinhado e um X (**_x**) e, em seguida, o **Unicode** de quatro dígitos, seguido de outro caráter de sublinhado. Se o Unicode tiver menos de quatro carateres, tem de acrescentar zeros ao mesmo. Eis alguns exemplos.
+Os carateres especiais e espaços requerem alguma formatação adicional. Quando a sua consulta contém espaços, travessões ou outros carateres que não forem ASCII, prefixe esses carateres especiais com um *código de escape* que comece com um caráter de sublinhado e um X ( **_x**) e, em seguida, o **Unicode** de quatro dígitos, seguido de outro caráter de sublinhado. Se o Unicode tiver menos de quatro carateres, tem de acrescentar zeros ao mesmo. Eis alguns exemplos.
 
 |Identificador  |Unicode  | Códigos do Power BI  |
 |---------|---------|---------|
 |**Nome da Tabela**     | O espaço é 0x20        |  Nome_x0020_Tabela       |
 |**Número**@**Coluna**     |   @ é 0x40     |  Número_x0040_Coluna       |
-|**[Coluna]**     |  [é 0x0058] é 0x0050       |  _x0058_Coluna_x0050       |
+|**[Coluna]**     |  [é 0x0058] é 0x0050       |  _x0058_Column_x0050_       |
 |**Coluna+SinalDeAdição**     | + é 0x2B        |  Coluna_x002B_SinalDeAdição       |
 
 Tabela_x0020_Nome/Coluna_x002B_SinalDeAdição eq 3 ![carateres especiais de composição de elementos visuais da tabela](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de 
 
 * Ao utilizar o operador *in*, os valores à direita de *in* têm de ser uma lista separada por vírgulas entre parênteses.    
 * No Servidor de Relatórios do Power BI, pode [transmitir parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) ao incluí-los num URL de relatório. Estes parâmetros de URL não têm prefixos porque são transmitidos diretamente ao motor de processamento de relatórios.
-* A filtragem de cadeia de consulta não funciona em [Publicar na Web](service-publish-to-web.md).
+* Filtragem de cadeia de caracteres de consulta não funciona com o [publicar na web](service-publish-to-web.md) ou [exportar para PDF](consumer/end-user-pdf.md).
 * [Incorporar com peças Web de relatórios no SharePoint Online](service-embed-report-spo.md) não suporta filtros de URL.
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.
 * Os filtros de URL de relatório têm um limite de 10 expressões (10 filtros ligados por AND).

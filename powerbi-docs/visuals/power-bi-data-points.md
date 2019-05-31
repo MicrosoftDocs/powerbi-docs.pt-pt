@@ -11,11 +11,11 @@ ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430448"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61276437"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -153,7 +153,7 @@ O mapa de manchas pode utilizar estatísticas ou limites dinâmicos.
 - Categorias: Primeiros 500
 - Série (quando X e Y estão ambos presentes): Primeiros 20
 
-### <a name="table"></a>Table
+### <a name="table"></a>Tabela
 - Valores: virtualização (apresentação de dados em janelas) com utilização de Janela de 500 linhas de cada vez
 
 ### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Mapa de árvore (pode utilizar estatísticas ou limites dinâmicos)

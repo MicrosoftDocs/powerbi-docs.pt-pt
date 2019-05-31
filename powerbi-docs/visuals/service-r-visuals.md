@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426614"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389869"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar elementos visuais R no serviço Power BI
 O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
@@ -64,7 +64,7 @@ Como outro exemplo, a imagem seguinte mostra a mensagem de erro apresentada quan
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Licensing
-Os elementos visuais R requerem uma licença do [Power BI Pro](../service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../service-premium.md)
+Os elementos visuais R requerem uma licença do [Power BI Pro](../service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../service-premium-what-is.md)
 
 Os utilizadores gratuitos do Power BI só podem consumir mosaicos partilhados com os próprios nas áreas de trabalho Premium. Para obter mais informações, veja [Comprar o Power BI Pro](../service-admin-purchasing-power-bi-pro.md).
 

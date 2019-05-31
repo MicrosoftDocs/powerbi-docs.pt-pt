@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276428"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238663"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações de dados automaticamente com o Power BI
 Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?

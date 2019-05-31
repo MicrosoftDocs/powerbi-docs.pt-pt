@@ -9,30 +9,27 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 766f92c855420cc2fdc891a28207ab5c2e03fa06
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661610"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608637"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Dashboards em destaque no serviço Power BI
 ## <a name="create-a-featured-dashboard"></a>Criar um Dashboard Em Destaque
 Muitos utilizadores têm um dashboard ao qual acedem com mais frequência.  Poderá ser o dashboard utilizado para gerir o negócio ou poderá ser um dashboard que contém uma agregação de mosaicos de vários dashboards e relatórios.
 
-![ícone definir como dashboard em destaque](./media/end-user-featured/power-bi-feature-nav.png)
+![ícone definir como dashboard em destaque](./media/end-user-featured/power-bi-dropdown.png)
 
-Quando seleciona um dashboard como *em destaque*, sempre que abrir o serviço Power BI, será aberto com esse dashboard apresentado.  
+Quando seleciona um dashboard como *em destaque*, sempre que abrir o serviço Power BI, ele será aberto com esse dashboard apresentado.  
 
 Também pode selecionar alguns dashboards e defini-los como *favoritos*. Veja [Favoritos do dashboard](end-user-favorite.md).
 
-> [!NOTE] 
->Este tópico aplica-se ao serviço Power BI e não ao Power BI Desktop.
-
-Se ainda não tiver definido um dashboard em destaque, o Power BI irá abrir o último dashboard que utilizou.  
+Se ainda não tiver definido um dashboard em destaque, o Power BI irá abrir para o último dashboard que utilizou ou para o Power BI home page.  
 
 ### <a name="to-set-a-dashboard-as-featured"></a>Para definir um dashboard como **em destaque**
 Veja a Amanda a criar um dashboard em destaque e siga as instruções por baixo do vídeo para experimentar.
@@ -42,12 +39,12 @@ Veja a Amanda a criar um dashboard em destaque e siga as instruções por baixo 
 
 
 1. Abra o dashboard que pretende definir como *Em Destaque*. 
-2. Na barra de menu principal, verá **Definir como dashboard em destaque** ou apenas o ![ícone em destaque](./media/end-user-featured/power-bi-featured-icon.png). Selecione um deles.
+2. Na barra de menus superior, selecione as reticências (...) e escolha **definido como em destaque**.  
    
-    ![Ícone Definir como dashboard em destaque](./media/end-user-featured/power-bi-set-as-featured.png)
+    ![Ícone Definir como dashboard em destaque](./media/end-user-featured/power-bi-dropdown.png)
 3. Confirme a sua seleção.
    
-    ![definir como dashboard em destaque](./media/end-user-featured/power-bi-create-featured.png)
+    ![definir como dashboard em destaque](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>Alterar o dashboard em destaque
 Obviamente, se mudar de ideias mais tarde, pode definir outro dashboard como o dashboard em destaque.
@@ -57,18 +54,16 @@ Obviamente, se mudar de ideias mais tarde, pode definir outro dashboard como o d
     ![Janela Alterar dashboard em destaque](./media/end-user-featured/power-bi-change-feature.png)
 2. Selecione **Definir como em destaque**. Anular o destaque de um dashboard não o remove da sua área de trabalho.  
    
-    ![mensagem de êxito](./media/end-user-featured/power-bi-success.png)
+    ![mensagem de êxito](./media/end-user-featured/power-bi-unfeature-new.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Remover o dashboard em destaque
 Se decidir que não pretende qualquer dashboard em destaque, eis como anular a funcionalidade em destaque de um dashboard.
 
 1. Abra o dashboard atualmente em destaque.
-2. Na barra de menus superior, selecione **Desativar o que está em destaque**.
+2. Na barra de menus superior, selecione as reticências (...) e escolha **desativar em destaque**.
+
+    ![desativar o dashboard em destaque selecionado](./media/end-user-featured/power-bi-unfeature-newer.png)
    
-    ![eliminar dashboard em destaque](./media/end-user-featured/power-bi-unfeature.png)
-
-Agora, o Power BI irá abrir o último dashboard que utilizou.  
-
 ## <a name="next-steps"></a>Próximos passos
 [Adicionar um dashboard como favorito](end-user-favorite.md)
 

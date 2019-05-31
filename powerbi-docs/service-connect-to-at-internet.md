@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008379"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61178351"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Ligue-se ao AT Internet Bridge com o Power BI
 O AT Internet ajuda-o extrair o valor imediato de seus dados com a sua plataforma analítica digital unificada, o Analytics Suite. O pacote de conteúdos do AT Internet Bridge para o Power BI inclui dados sobre visitas, origens, localização e dispositivos para seu site.

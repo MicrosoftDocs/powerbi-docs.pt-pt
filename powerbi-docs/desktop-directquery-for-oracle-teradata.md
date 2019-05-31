@@ -11,11 +11,11 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 7a5447ce377a3205d293559a78c1041d7cb8277c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274450"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61304036"
 ---
 # <a name="directquery-for-oracle-and-teradata-databases"></a>DirectQuery para bases de dados Oracle e Teradata
 Consulte [Origens de Dados DirectQuery](desktop-directquery-data-sources.md) para obter informações sobre origens de dados e DirectQuery.

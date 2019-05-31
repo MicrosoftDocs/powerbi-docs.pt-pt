@@ -1,21 +1,21 @@
 ---
 title: Configurar a atualização agendada
 description: Isto inclui os passos para selecionar um gateway e configurar a atualização agendada.
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289424"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413887"
 ---
 # <a name="configuring-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -69,7 +69,7 @@ Se estiver a utilizar o Gateway de dados no local para atualizar os dados, não 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)*. O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
+> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)* . O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
 > 
 > 
 
@@ -124,7 +124,7 @@ Por vezes, atualizar os dados pode não correr como esperado. Normalmente, este 
 ## <a name="next-steps"></a>Próximos passos
 [Atualização de dados no Power BI](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[Gateway de dados no local](service-gateway-onprem.md)  
+[On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

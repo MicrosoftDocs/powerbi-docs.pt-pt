@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
 ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430562"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60972414"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Ver os dados offline em aplicações móveis do Power BI
 Aplica-se a:
@@ -59,7 +59,7 @@ Quando estiver offline com o Power BI no dispositivo móvel, pode encontrar esta
 * Nas aplicações móveis do Power BI, não pode ver os ficheiros do Power BI Desktop (.pbix) guardados no Power BI Report Server. 
 * Os relatórios paginados (RDL) não estão disponíveis enquanto a rede estiver offline.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto, não se esqueça de votar noutros recursos que gostaria de ver nas aplicações móveis do Power BI. 
 
 * [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)

@@ -11,11 +11,11 @@ ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
 ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980364"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977208"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Perguntas frequentes sobre os elementos visuais personalizados do Power BI
 
@@ -149,7 +149,7 @@ O pedido de certificação é um processo opcional. É você que decide se quer 
 
 ### <a name="how-to-get-support"></a>Como posso obter suporte?
 
-Não hesite em enviar perguntas, comentários ou comunicar problemas à equipa de suporte de elementos visuais personalizados para o endereço:  *pbicvsupport@microsoft.com* .  
+Não hesite em enviar perguntas, comentários ou comunicar problemas à equipa de suporte de elementos visuais personalizados para o endereço:  *pbicvsupport@microsoft.com*  .  
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -11,11 +11,11 @@ ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290895"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394790"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
 Criar um elemento visual **Mapa de Forma** para comparar regiões num mapa com cores. Ao contrário do elemento visual **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa. Em vez disso, o seu objetivo principal é mostrar comparações relativas de regiões num mapa ao colori-los de forma diferente.
@@ -23,7 +23,7 @@ Criar um elemento visual **Mapa de Forma** para comparar regiões num mapa com c
 Os elementos visuais do **Mapa de Forma** são baseados em mapas ESRI/TopoJSON que têm a capacidade convincente de utilizar mapas personalizados que pode criar. Os exemplos de mapas personalizados são: geográficos, disposições de lugares, plantas e outros. A capacidade de utilizar mapas personalizados não está disponível neste lançamento de Pré-visualização do **Mapa de Forma**.
 
 ## <a name="creating-shape-maps"></a>Criar Mapas de Forma
-Pode testar o controlo **Mapa de Forma** com os mapas que são enviados com esta versão de Pré-visualização, ou pode utilizar o seu próprio mapa personalizado, desde que este cumpra os requisitos descritos na secção seguinte, designada **Use Custom Maps (Utilizar Mapas Personalizados)**.
+Pode testar o controlo **Mapa de Forma** com os mapas que são enviados com esta versão de Pré-visualização, ou pode utilizar o seu próprio mapa personalizado, desde que este cumpra os requisitos descritos na secção seguinte, designada **Use Custom Maps (Utilizar Mapas Personalizados)** .
 
 O visual **Mapa de Forma** está em Pré-visualização e tem ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Elementos Visuais do Mapa de Forma**. Terá de reiniciar o Power BI Desktop depois de efetuar a seleção.
 
@@ -42,7 +42,7 @@ Execute os seguintes passos para criar um **Mapa de Forma**:
 1. No painel **Campos**, arraste um campo de dados com os nomes de região (ou abreviaturas) para o registo **Localização** e um campo de medida de dados para o registo **Saturação da cor** (ainda não verá um mapa).
 
    > [!NOTE]
-   > Veja a secção intitulada **Getting Map Data (Obter Dados de Mapa)**, abaixo, para obter informações sobre como obter rapidamente os dados do mapa para testar o **Mapa de Forma**.
+   > Veja a secção intitulada **Getting Map Data (Obter Dados de Mapa)** , abaixo, para obter informações sobre como obter rapidamente os dados do mapa para testar o **Mapa de Forma**.
    > 
    > 
 

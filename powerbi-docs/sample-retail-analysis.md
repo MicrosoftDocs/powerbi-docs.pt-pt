@@ -11,11 +11,11 @@ ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291470"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61239631"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda do Power BI: veja uma apresentação
 
@@ -43,7 +43,7 @@ Este dashboard de exemplo do setor, juntamente com o relatório subjacente, anal
    
 5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
    
-   ![Retail Analysis Sample](media/sample-retail-analysis/retail17.png)
+   ![Exemplo de Análise de Revenda](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327993"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325645"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Analisar os custos e dados de utilização do Azure no Power BI Desktop
 
@@ -24,7 +24,9 @@ O Power BI Desktop pode ligar ao Azure e obter dados detalhados sobre a utiliza�
 
 Atualmente, o Power BI suporta a ligação a contas de faturação de Contrato Enterprise e Contrato de Cliente.
 
-Os utilizadores do Contrato Enterprise devem ligar com o conector Azure Consumption Insights. Os utilizadores de contas de contrato de cliente devem ligar com o conector Azure Cost Management.
+* **Enterprise Agreement** os usuários devem se conectar com o **conector Azure Consumption Insights**.
+
+* **Contrato de cliente** os usuários devem se conectar com o **conector do Azure Cost Management**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Ligar com o Azure Consumption Insights
 
@@ -34,7 +36,7 @@ Nesta secção, ficará a saber como se ligar para obter os dados de que precisa
 
 Para ligar com êxito através do conector **Informações sobre Consumo do Azure**, tem de ter acesso às funcionalidades empresariais (Enterprise) no portal do Azure.
 
-Para ligar através do conector **Informações sobre Consumo do Azure**, selecione **Obter Dados** no friso **Base** do **Power BI Desktop**. Selecione **Serviços Online** na lista de categorias no lado esquerdo para encontrar **Informações sobre Consumo do Microsoft Azure (Beta)**. Selecione **Ligar**.
+Para ligar através do conector **Informações sobre Consumo do Azure**, selecione **Obter Dados** no friso **Base** do **Power BI Desktop**. Selecione **Serviços Online** na lista de categorias no lado esquerdo para encontrar **Informações sobre Consumo do Microsoft Azure (Beta)** . Selecione **Ligar**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -107,7 +109,7 @@ Quando estiver a trabalhar com relatórios e a criar consultas, utilize o seguin
 * *Não* utilize *numberOfMonth* em conjunto com *startBillingDataWindow* ou *endBillingDataWindow*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrar a partir do Conector Empresarial do Azure
-Alguns clientes criaram elementos visuais com o *Conector Empresarial do Azure (Beta)*, o qual será eventualmente descontinuado e está a ser substituído pelo conector **Informações sobre Consumo do Azure**. O conector **Informações sobre Consumo do Azure** tem funcionalidades e melhoramentos que incluem o seguinte:
+Alguns clientes criaram elementos visuais com o *Conector Empresarial do Azure (Beta)* , o qual será eventualmente descontinuado e está a ser substituído pelo conector **Informações sobre Consumo do Azure**. O conector **Informações sobre Consumo do Azure** tem funcionalidades e melhoramentos que incluem o seguinte:
 
 * Origens de dados adicionais disponíveis para *Resumo do Saldo* e *Compras no Mercado*
 * Novos parâmetros avançados, como *startBillingDataWindow* e *endBillingDataWindow*
@@ -155,7 +157,7 @@ Muitos dashboards têm tabelas adicionais que são utilizadas para pesquisa ou f
 Quando chegar a esta fase, a maior parte dos elementos visuais, tabelas e desagregações originais deverão estar a funcionar conforme esperado. No entanto, poderão ser necessários alguns pequenos ajustes em termos de formatação, para que tudo tenha o aspeto desejado. Dedique algum tempo à visualização de cada um dos dashboards e elementos visuais, para garantir que está tudo de acordo com os seus padrões estéticos.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Utilizar a API Informações sobre Consumo do Azure (ACI) para obter dados de consumo
-O Azure também disponibiliza a [**API Informações sobre Consumo do Azure (ACI)**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Pode criar as suas próprias soluções personalizadas para recolher, comunicar e visualizar informações sobre consumo do Azure através da API ACI.
+O Azure também disponibiliza a [**API Informações sobre Consumo do Azure (ACI)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Pode criar as suas próprias soluções personalizadas para recolher, comunicar e visualizar informações sobre consumo do Azure através da API ACI.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Mapear nomes e detalhes de utilização entre o portal, o conector e a API
 As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e no conector, mas nem sempre são idênticos. Para ajudar a esclarecer as diferenças, a tabela seguinte fornece um mapeamento entre a API, o conector e as colunas apresentadas no Portal do Azure. Também é indicado se a coluna está obsoleta. Para obter mais informações e definições sobre estes termos, consulte o [Dicionário de dados de faturação do Azure](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
@@ -212,7 +214,12 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 
 Nesta secção, irá aprender a ligar-se à conta de faturação de Contrato de Cliente.
 
-Para ligar através do conector **Azure Cost Management**, selecione **Obter Dados** no friso **Base** do **Power BI Desktop**.  Selecione **Azure** nas categorias à esquerda e verá **Azure Cost Management (Beta)**. Selecione **Ligar**.
+> [!NOTE]
+> O conector do Azure Cost Management suporta atualmente clientes sobre o **contrato de cliente**.  **Enterprise Agreement** os clientes devem utilizar o conector do Microsoft Azure Consumption Insights.
+> 
+> 
+
+Para ligar através do conector **Azure Cost Management**, selecione **Obter Dados** no friso **Base** do **Power BI Desktop**.  Selecione **Azure** nas categorias à esquerda e verá **Azure Cost Management (Beta)** . Selecione **Ligar**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
 
@@ -227,13 +234,13 @@ Pode obter o seu ID de perfil de faturação no [portal do Azure](https://portal
 Ser-lhe-á pedido para iniciar sessão com o seu e-mail e palavra-passe do Azure.  Após efetuar a autenticação, será apresentada a janela **Navegador** com as doze tabelas disponíveis para si:
 
 * **Billing events** (Eventos de faturação): indica o registo de eventos de novas faturas, compras de crédito e muito mais.
-* **Budgets**: indica os detalhes dos orçamentos para ver os custos reais ou a utilização em comparação com os objetivos orçamentais existentes. 
+* **Budgets**: Indica os detalhes dos orçamentos para ver os custos reais ou a utilização em comparação com os objetivos orçamentais existentes. 
 * **Charges** (Encargos): indica um resumo mensal da utilização do Azure, encargos do Marketplace e encargos faturados separadamente.
 * **Credit lots** (Lotes de crédito): indica os detalhes de compra de lotes de crédito do Azure para o perfil de faturação fornecido.
 * **Credit summary** (Resumo de crédito): indica o resumo de crédito do perfil de faturação fornecido.
-* **Marketplace**: indica as cobranças do Microsoft Azure Marketplace com base na utilização.
+* **Marketplace**: Indica as cobranças do Microsoft Azure Marketplace com base na utilização.
 * **Pricesheets** (Folhas de preços): indica as taxas aplicáveis pelo medidor para o perfil de faturação fornecido.
-* **RI charges** (Encargos de RI): indica as cobranças associadas às Instâncias Reservadas nos últimos 24 meses.
+* **RI charges** (Encargos de RI): Indica as cobranças associadas às Instâncias Reservadas nos últimos 24 meses.
 * **RI recommendations (single)** (Recomendações de RI [única]): Indica recomendações de compra de Instâncias Reservadas com base nas suas tendências de utilização numa subscrição individual ao longo dos últimos 7, 30 ou 60 dias.
 * **RI recommendations (shared)** (Recomendações de RI [partilhada]): Indica recomendações de compra de Instâncias Reservadas com base nas suas tendências de utilização em todas as suas subscrições ao longo dos últimos 7, 30 ou 60 dias.
 * **RI usage** (Utilização de RI): Indica os detalhes de consumo das Instâncias Reservadas existentes ao longo do mês anterior.

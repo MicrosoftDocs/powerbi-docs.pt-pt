@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a0510b9f9bc7303d7ed63a5a1c4c7ee9862d7c85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256953"
+---
 Conseguiu! **Parabéns!** Concluiu o curso **Aprendizagem Orientada** do Power BI. Chegou ao fim do ciclo: começou por aprender os elementos básicos do Power BI, percorreu as respetivas funcionalidades e elementos de software e aprendeu como todos eles funcionam em conjunto.
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)

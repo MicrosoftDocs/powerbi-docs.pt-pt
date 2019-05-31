@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430107"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285043"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Utilizar as Perguntas e Respostas no Power BI Desktop para consultas de linguagem natural
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no **Power BI Desktop** lhe permitem fazer.
@@ -23,7 +23,7 @@ Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os se
 Para que a funcionalidade Perguntas e Respostas interprete com êxito a abrangente quantidade de perguntas às quais consegue responder, esta tem de fazer suposições sobre o modelo. Se a estrutura do seu modelo não corresponder a uma ou mais destas suposições, terá de ajustar o seu modelo. Esses ajustes às Perguntas e Respostas são as mesmas otimizações recomendadas para qualquer modelo no Power BI, independentemente se utiliza as Perguntas e Respostas. 
 
 > [!NOTE]
-> As Perguntas e Respostas só estão disponíveis quando trabalha com um modelo que tenha dados **importados**. As ligações em direto para modelos SSAS e DirectQuery não são suportadas.
+> As perguntas e respostas só estão disponível quando trabalhar com um modelo que contém **importados** dados ou para ligações em direto do SSAS. Os modelos do DirectQuery não são suportados.
 >
 > As Perguntas e Respostas requerem a seguinte atualização do C runtime se estiver a utilizar uma versão do Windows anterior ao Windows 10. Pode tentar instalar atualizações importantes do Windows Update ou instalar manualmente o componente necessário da Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >

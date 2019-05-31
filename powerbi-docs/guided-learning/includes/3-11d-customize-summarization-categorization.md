@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397688"
+---
 O Power BI tem propriedades que pode atribuir a campos no seu modelo, que podem ajudar a comunicar, visualizar e apresentar dados, de forma a oferecer mais clareza. Por exemplo, por vezes pretende calcular a média de uma lista de números, mas o Power BI soma a lista automaticamente. Com o Power BI, pode ajustar a forma como essas listas de números estão resumidas.
 
 ## <a name="numeric-control-over-summarization"></a>Controlo numérico sobre o resumo

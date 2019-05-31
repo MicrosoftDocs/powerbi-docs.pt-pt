@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282247"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231574"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerir a área de trabalho da aplicação no Power BI e no Office 365
 Como criador ou administrador de uma [área de trabalho de aplicação no Power BI](service-create-distribute-apps.md) ou no Office 365, gere alguns aspetos da área de trabalho no Power BI. Outros aspetos que gere no Office 365. 
@@ -36,10 +36,10 @@ Como criador ou administrador de uma [área de trabalho de aplicação no Power 
 * Ver o endereço de e-mail do grupo.
 * Eliminar o grupo.
 
-É preciso uma licença do [Power BI Pro](service-features-license-type.md) para ser administrador ou membro de uma área de trabalho da aplicação. Os utilizadores da aplicação também precisam de uma licença do Power BI Pro, a menos que a sua área de trabalho da aplicação esteja numa capacidade Premium do Power BI. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
+É preciso uma licença do [Power BI Pro](service-features-license-type.md) para ser administrador ou membro de uma área de trabalho da aplicação. Os utilizadores da aplicação também precisam de uma licença do Power BI Pro, a menos que a sua área de trabalho da aplicação esteja numa capacidade Premium do Power BI. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium-what-is.md).
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Editar a área de trabalho da aplicação no Power BI
-1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione as reticências (**…**) junto ao nome da sua área de trabalho > **Editar área de trabalho**. 
+1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione as reticências ( **…** ) junto ao nome da sua área de trabalho > **Editar área de trabalho**. 
    
    ![Editar áreas de trabalho no Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ Como criador ou administrador de uma [área de trabalho de aplicação no Power 
 3. Selecione **Guardar** ou **Cancelar**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Editar propriedades da área de trabalho da aplicação no Office 365
-1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione as reticências (**…**) junto ao nome da sua área de trabalho > **Membros**. 
+1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione as reticências ( **…** ) junto ao nome da sua área de trabalho > **Membros**. 
    
    ![Editar áreas de trabalho no Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Esta ação abre a vista de grupo do Outlook para o Office 365 da sua área de trabalho da aplicação.
    
    Poderá ter de iniciar sessão na sua conta empresarial.
-2. Toque no botão de reticências (**…**) junto ao nome de um membro para tornar o membro administrador ou eliminar o membro da área de trabalho da aplicação. 
+2. Toque no botão de reticências ( **…** ) junto ao nome de um membro para tornar o membro administrador ou eliminar o membro da área de trabalho da aplicação. 
    
    ![Editar um grupo no Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

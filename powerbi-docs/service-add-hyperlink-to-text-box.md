@@ -12,16 +12,16 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406598"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61199528"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Adicionar uma hiperligação a uma caixa de texto num relatório
 As caixas de texto podem ser adicionadas a relatórios, afixadas em dashboards de relatórios e adicionadas diretamente a dashboards. Pode adicionar hiperligações a uma caixa de texto, independentemente do local onde esta se encontre.  
 
-> **NOTA**: Para obter informações sobre hiperligações nas tabelas e matrizes do Power BI, veja [Hyperlinks in tables](power-bi-hyperlinks-in-tables.md) (Hiperligações nas tabelas). Para obter informações sobre como adicionar caixas de texto ao **dashboard**, veja [Adicionar um mosaico diretamente a partir do dashboard](service-dashboard-add-widget.md). 
+> **NOTA**: para obter informações sobre hiperligações nas tabelas e matrizes do Power BI, veja [Hyperlinks in tables](power-bi-hyperlinks-in-tables.md) (Hiperligações nas tabelas). Para obter informações sobre como adicionar caixas de texto ao **dashboard**, veja [Adicionar um mosaico diretamente a partir do dasboard](service-dashboard-add-widget.md). 
 > 
 > 
 

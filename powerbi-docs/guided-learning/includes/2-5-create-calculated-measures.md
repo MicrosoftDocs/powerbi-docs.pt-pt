@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a4d51bb3295c2b5512b98fe2ac231ed1b3467c8a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257022"
+---
 Uma *medida* é um cálculo que existe no seu modelo de dados do Power BI. Para criar uma medida, na vista de**Relatório**, selecione **Nova Medida** no separador **Modelação**.
 
 ![](media/2-5-create-calculated-measures/2-5_1.png)

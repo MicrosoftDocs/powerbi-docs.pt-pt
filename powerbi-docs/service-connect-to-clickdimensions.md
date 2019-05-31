@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007859"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180894"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Ligar ao ClickDimensions com o Power BI
 O pacote de conteúdos do ClickDimensions para o Power BI permite que os utilizadores utilizem os dados de marketing do ClickDimensions no Power BI, fornecendo às equipas de gestão mais informações sobre o sucesso dos seus esforços de vendas e marketing. Visualize e analise as interações de e-mail, as visitas na Web e os envios de formulário nos relatórios e dashboards do Power BI.

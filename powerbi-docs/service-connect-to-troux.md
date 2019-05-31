@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9152538204089ed9c75b69b79a08dc7496a8cca9
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007712"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156156"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Ligar ao Troux para o Power BI
 Com o pacote de conteúdos do Troux, pode visualizar o seu repositório de Arquitetura Empresarial de formas totalmente novas diretamente no Power BI. O pacote de conteúdos fornece um conjunto de informações sobre as suas capacidades de negócios, as aplicações que fornecem essas funcionalidades e as tecnologias que suportam essas aplicações que podem ser totalmente personalizadas com o Power BI.

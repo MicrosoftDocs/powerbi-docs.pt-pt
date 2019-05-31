@@ -1,5 +1,5 @@
 ---
-title: Utilizar a Vista de modelação no Power BI Desktop (pré-visualização)
+title: Utilize a vista de modelação no Power BI Desktop
 description: Utilizar a Vista de modelação para ver conjuntos de dados complexos num formato visual no Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216315"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941357"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Vista de Modelação no Power BI Desktop (pré-visualização)
+# <a name="modeling-view-in-power-bi-desktop"></a>Vista de modelação no Power BI Desktop
 
-Na **Vista de modelação** do **Power BI Desktop**, pode visualizar e trabalhar com conjuntos de dados complexos que contenham muitas tabelas. Na Vista de modelação, pode fazer o seguinte:
+Na **Vista de modelação** do **Power BI Desktop**, pode visualizar e trabalhar com conjuntos de dados complexos que contenham muitas tabelas.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>Ativar a funcionalidade de pré-visualização da Vista de modelação
-
-A funcionalidade da Vista de modelação está em pré-visualização e tem se der ativada no **Power BI Desktop**. Para ativar a Vista de modelação, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Vista de modelação** conforme mostrado na seguinte imagem.
-
-![Ativar a funcionalidade de pré-visualização da Vista de modelação no Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
-
-Ser-lhe-á indicado que terá de reiniciar o **Power BI Desktop** para a funcionalidade de pré-visualização ser ativada. 
-
-![Reiniciar o Power BI Desktop para ativar as funcionalidades de pré-visualização](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>Utilizar a Vista de modelação
 
@@ -66,9 +56,9 @@ Por exemplo, pode alterar o [modo de armazenamento](desktop-storage-mode.md) de 
 Os artigos seguintes descrevem de forma mais detalhada os modelos de dados e também o DirectQuery.
 
 * [Agregações no Power BI Desktop (Pré-visualização)](desktop-aggregations.md)
-* [Modelos compostos no Power BI Desktop (Pré-visualização)](desktop-composite-models.md)
+* [Modelos compostos no Power BI Desktop](desktop-composite-models.md)
 * [Modo de armazenamento no Power BI Desktop (Pré-visualização)](desktop-storage-mode.md)
-* [Relações muitos para muitos no Power BI Desktop (Pré-visualização)](desktop-many-to-many-relationships.md)
+* [Relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md)
 
 
 Artigos do DirectQuery:

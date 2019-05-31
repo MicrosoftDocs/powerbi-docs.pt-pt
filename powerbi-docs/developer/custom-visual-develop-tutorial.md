@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174688"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61383952"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)
 
-Estamos a permitir que os programadores adicionem elementos visuais personalizados facilmente ao Power BI para utilização no dashboard e em relatórios. Para o ajudar a começar, publicámos o código de todas as nossas visualizações no GitHub.
+Estamos a permitir que os programadores adicionem elementos visuais personalizados facilmente ao Power BI para utilização no dashboard e em relatórios. Para ajudar a começar, Publicámos o código para todas as nossas visualizações no GitHub.
 
 Em conjunto com a estrutura de visualização, oferecemos o nosso conjunto de testes e ferramentas para ajudar a comunidade a criar elementos visuais personalizados de alta qualidade para o Power BI.
 
@@ -79,7 +79,7 @@ Agora, precisa de instalar o pacote **pbiviz**.
     pbiviz --create-cert
     ```
 
-  Devolve um resultado que produz uma *frase de acesso*. Neste caso, a *frase de acesso* é  **_15105661266553327_**.
+  Devolve um resultado que produz uma *frase de acesso*. Neste caso, a *frase de acesso* é  **_15105661266553327_** .
 
   ![Certificado criado através do PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
@@ -95,7 +95,7 @@ Agora, precisa de instalar o pacote **pbiviz**.
 
 4. No passo **Ficheiro a Importar**, selecione *Seguinte*.
 
-5. No passo **Proteção da Chave Privada**, na caixa Palavra-passe, cole a frase de acesso que recebeu quando criou o certificado.  Neste caso, é novamente **_15105661266553327_**.
+5. No passo **Proteção da Chave Privada**, na caixa Palavra-passe, cole a frase de acesso que recebeu quando criou o certificado.  Neste caso, é novamente **_15105661266553327_** .
 
       ![Copiar a frase de acesso](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
@@ -559,14 +559,14 @@ Modifique o ficheiro **capabilities.json** para definir os mapeamentos da visual
 
     Esta instrução atribui *dataView* a uma variável para facilitar o acesso e declara a variável para fazer referência ao objeto *dataView*.
 
-2. No método **update**, substitua .text("Value")** pelo seguinte.
+2. Na **atualizar** método, substitua **.text("Value")** com o seguinte.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![Substituir textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. No método **update**, substitua **.text("Label")** pelo seguinte.
+3. Na **atualizar** método, substitua **.text("Label")** com o seguinte.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

@@ -11,11 +11,11 @@ ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223703"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61184112"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Criar linhas de referência dinâmicas para elementos visuais no serviço Power BI
 

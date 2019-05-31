@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eeb063707e9a81b3d3551dd4e79e9da01bfe7178
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257128"
+---
 Nesta lição, vamos aprender a partilhar um relatório do Power BI numa página Web ou partilhá-lo através de e-mail, em apenas alguns passos simples. Esta funcionalidade do Power BI é muitas vezes designada por **Publicar na Web** e é fácil de utilizar e gerir.
 
 No Power BI, selecione o relatório que pretende partilhar, para que seja apresentado na tela. Em seguida, no menu, selecione **Ficheiro > Publicar na Web**.

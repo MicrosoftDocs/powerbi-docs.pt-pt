@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426637"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61144608"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Criar e utilizar fluxos de dados no Power BI (Pré-visualização)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>Criar e utilizar fluxos de dados no Power BI
 
 Com a preparação de dados avançada disponível no **Power BI**, pode criar uma coleção de dados chamada fluxo de dados, que, em seguida, pode utilizar para estabelecer ligação a dados de negócio de várias origens, limpar os dados, transformá-los e, em seguida, carregá-los no armazenamento do Power BI.
 
@@ -34,9 +34,6 @@ Existem três passos principais para utilizar um fluxo de dados:
 3. Criar o conjunto de dados com o seu fluxo de dados, através do Power BI Desktop 
 
 Nas seções a seguir, vamos examinar cada um desses passos e familiarizarmo-nos com as ferramentas disponibilizadas para concluir cada passo. Vamos começar.
-
-> [!NOTE]
-> A funcionalidade de fluxos de dados está em pré-visualização e está sujeita a alterações e atualizações antes da disponibilidade geral.
 
 ## <a name="creating-a-dataflow"></a>Criar um fluxo de dados
 Para criar um fluxo de dados, inicie o serviço Power BI num browser, em seguida, selecione uma **área de trabalho de aplicação** (os fluxos de dados não estão disponíveis na *minha área de trabalho* no serviço Power BI) no painel de navegação esquerdo, como mostrado no ecrã seguinte. Também pode criar uma nova área para criar o novo fluxo de dados. 
@@ -133,7 +130,7 @@ Para obter mais informações sobre o agendamento da atualização, veja o artig
 
 Depois de criar o fluxo de dados e ter agendado a frequência de atualização para cada origem de dados que irá preencher o modelo, está pronto para o terceiro e último passo, que é ligar ao fluxo de dados a partir do **Power BI Desktop**. 
 
-Para ligar a um fluxo de dados, no Power BI Desktop, selecione **Obter Dados > Power BI > Fluxos de dados do Power BI (Beta)**, conforme mostrado na imagem seguinte.
+Para ligar a um fluxo de dados, no Power BI Desktop, selecione **Obter Dados > Power BI > Fluxos de dados do Power BI (Beta)** , conforme mostrado na imagem seguinte.
 
 ![Ligar a fluxos de dados a partir do Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
@@ -165,9 +162,9 @@ Em determinadas ocasiões, pode deparar-se com problemas ao ligar a origens de d
 Este artigo descreveu como pode criar os seus próprios **fluxos de dados** e criar um conjunto de dados e um relatório no **Power BI Desktop** para tirar partido dos mesmos. Os artigos seguintes são úteis para obter mais informações e cenários quando utilizar fluxos de dados:
 
 * [Preparação personalizada de dados com fluxos de dados](service-dataflows-overview.md)
-* [Utilizar entidades calculadas no Power BI Premium (Pré-visualização)](service-dataflows-computed-entities-premium.md)
-* [Utilizar fluxos de dados com origens de dados no local (Pré-visualização)](service-dataflows-on-premises-gateways.md)
-* [Recursos para programadores para fluxos de dados do Power BI (Pré-visualização)](service-dataflows-developer-resources.md)
+* [Usando entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
+* [Recursos para desenvolvedores de fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 * [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md)
 
 Para obter mais informações sobre o Common Data Service, pode ler o seguinte artigo de descrição geral:

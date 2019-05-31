@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215741"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989328"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
 Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou outro tema de cores. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
@@ -24,21 +24,7 @@ Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, 
 
 Quando aplica um **Tema de Relatório**, precisa de um ficheiro JSON que utilize uma estrutura básica. Em seguida, pode importar este ficheiro JSON para o Power BI Desktop e aplicá-lo ao relatório. A estrutura do ficheiro JSON e o seu processo de importação são rápidos e fáceis (são necessários apenas alguns cliques).
 
-A partir da versão de setembro de 2017 do **Power BI Desktop**, pode definir ainda mais elementos de temas de relatório com um ficheiro JSON. Também pode personalizar e padronizar quase todos os elementos. Para personalizar, utilize o ficheiro JSON, que pode ajustar manualmente no painel **Formatação**. O objetivo da versão de setembro de 2017 (e posterior) é fornecer o controlo total sobre o aspeto e a funcionalidade dos seus relatórios, a um nível granular.
-
-### <a name="enable-report-themes"></a>Ativar Temas de relatório
-A partir da versão de agosto de 2018 do **Power BI Desktop**, a personalização de relatórios está disponível para o público e não precisa de ser ativada. 
-
-Se estiver a utilizar uma versão anterior do **Power BI Desktop**, poderá ativá-la como uma funcionalidade de pré-visualização ao executar os seguintes passos: 
-
-1. Selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização**. 
-2. Em seguida, selecione a caixa de verificação junto a **Temas de Relatório Personalizados**. 
-
-Terá de reiniciar o **Power BI Desktop** depois de efetuar a seleção.
-
-![Temas de relatório personalizados](media/desktop-report-themes/report-themes_2.png)
-
-Recomendamos sempre que atualize para a versão mais recente do **Power BI Desktop**, que pode obter através de uma ligação em [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
+Também pode personalizar e padronizar quase todos os elementos. Para personalizar, utilize o ficheiro JSON, que pode ajustar manualmente no painel **Formatação**. O objetivo é dar-lhe controlo total sobre a forma como os relatórios de aspeto e a funcionalidade, para um nível granular.
 
 ## <a name="how-report-themes-work"></a>Como funcionam os Temas de Relatório
 Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione numa lista de temas de relatório incorporados disponíveis ou importe um tema personalizado.
@@ -113,7 +99,7 @@ Segue-se o texto do ficheiro *St Patricks Day.json* que pode utilizar para criar
 
 A partir daí, pode introduzir o seu próprio código hexadecimal para as cores selecionadas.
 
-A partir da versão de setembro de 2017 do **Power BI Desktop**, o ficheiro JSON pode ser muito mais elaborado. No ficheiro JSON, define apenas a formatação que quer ajustar, o que *não* estiver especificado no ficheiro JSON reverte simplesmente para as predefinições do Power BI.
+No ficheiro JSON, define apenas a formatação que quer ajustar, o que *não* estiver especificado no ficheiro JSON reverte simplesmente para as predefinições do Power BI.
 
 São várias as vantagens de criar um ficheiro JSON. Por exemplo, pode especificar que todos os gráficos utilizam um tamanho de tipo de letra 12 ou que determinados elementos visuais utilizam uma determinada família de tipos de letra. Alternativamente, pode desativar as etiquetas de dados para tipos de gráfico específicos.
 

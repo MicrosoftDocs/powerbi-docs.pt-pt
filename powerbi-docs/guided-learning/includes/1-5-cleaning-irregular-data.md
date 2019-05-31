@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa6296485897b983c3ca4044ffa2875de3326dec
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265111"
+---
 Enquanto o Power BI consegue importar os dados a partir de praticamente qualquer origem, a respetiva visualização e ferramentas de modelação funcionam melhor com dados em colunas. Por vezes, os dados não serão formatados em colunas simples, o que é muitas vezes o caso das folhas de cálculo do Excel, onde um esquema de tabela que parece bem ao olho humano não é necessariamente ideal para consultas automatizadas. Por exemplo, a seguinte folha de cálculo tem cabeçalhos que abrangem várias colunas.
 
 ![](media/1-5-cleaning-irregular-data/1-5_1.png)

@@ -1,5 +1,5 @@
 ---
-title: Criar relatórios otimizados para as aplicações móveis
+title: Otimizar os relatórios para as aplicações móveis - Power BI
 description: Saiba como otimizar páginas de relatórios para as aplicações móveis do Power BI ao criar uma versão vertical do relatório especificamente para telemóveis e tablets.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174597"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61310791"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Criar relatórios otimizados para as aplicações móveis do Power BI
-Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis num telemóvel ou tablet. Crie um esquema vertical de um relatório, especificamente para telemóveis e tablets. No Power BI Desktop e no serviço Power BI, pode adaptar o relatório ao reorganizar e redimensionar os elementos visuais, num esquema vertical para proporcionar a melhor experiência possível. Não tem de incluir todos. Além disso, pode criar [visuais *reativos*](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-work-well-in-phone-reports) que sejam corretamente redimensionados para visualização num telemóvel. Também pode adicionar filtros ao relatório. Esses filtros aparecem automaticamente no relatório otimizado. Os leitores de relatórios podem vê-los e filtrar o relatório com os mesmos.
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Otimizar os relatórios para as aplicações móveis do Power BI
+Pode melhorar a experiência de visualização de relatórios nas aplicações móveis através da criação de um layout de retrato. No Power BI Desktop e no serviço Power BI, reorganizar e redimensionar os elementos visuais do relatório para uma experiência ideal em modo retrato.  
+
+À procura de informações sobre a visualização de relatórios num dispositivo móvel em vez disso? Experimente este início rápido [Explore dashboards e relatórios nas aplicações móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Relatório otimizado num telemóvel](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+
+Além disso, pode criar [ *reativas* elementos visuais](#optimize-a-visual-for-any-size) e [segmentações de dados reativas](#enhance-slicers-to-work-well-in-phone-reports) que redimensionar bem em qualquer lugar. Pode adicionar filtros ao relatório, eles aparecem automaticamente no relatório otimizado.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Mostrar uma versão vertical de uma página de relatório
 
@@ -40,7 +44,7 @@ Depois de criar um relatório, pode otimizá-lo para telemóveis e tablets.
    
     ![Arrastar e largar um elemento visual](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    Pode adicionar alguns ou todos os elementos visuais do relatório principal à página de relatório de telemóvel. Pode adicionar cada elemento visual apenas uma vez.
+    Pode adicionar alguns ou todos os elementos visuais do relatório principal à página de relatório de telemóvel. Pode adicionar cada elemento visual apenas uma vez. Não tem de incluir todos os elementos visuais.
 
 4. Pode redimensionar os elementos visuais na grelha, tal como faria para mosaicos em dashboards e dashboards móveis.
    

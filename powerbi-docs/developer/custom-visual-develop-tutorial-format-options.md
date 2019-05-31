@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695156"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380456"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adicionar opções de formatação a um elemento visual personalizado do Power BI
 
@@ -211,7 +211,7 @@ Introduza os valores de propriedade para o projeto do elemento visual personaliz
 
 6. Guarde o ficheiro **pbiviz.json**.
 
-7. No objeto **recursos**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_**. Tem de ser um ficheiro **PNG** com *20 por 20 pixéis*.
+7. No objeto **recursos**, observe que o documento define um caminho para um ícone. O ícone é a imagem que aparece no painel **_Visualizações_** . Tem de ser um ficheiro **PNG** com *20 por 20 pixéis*.
 
 8. No Explorador do Windows, copie o ficheiro icon.png e, em seguida, cole-o para substituir o ficheiro padrão localizado na pasta de recursos.
 
@@ -239,7 +239,7 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 1. Abra o **Power BI Desktop** e crie um novo relatório com qualquer *conjunto de dados de exemplo*.
 
-2. No painel **_Visualizações_**, selecione as **reticências** e, em seguida, selecione **Importar** em Ficheiro.
+2. No painel **_Visualizações_** , selecione as **reticências** e, em seguida, selecione **Importar** em Ficheiro.
 
     ![Adicionar uma visualização personalizada no Power BI Desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -251,7 +251,7 @@ Agora, pode abrir o relatório do Power BI Desktop e importar o elemento visual
 
 6. Assim que o elemento visual for importado com êxito, selecione **OK**.
 
-7. Confirme que o elemento visual foi adicionado ao painel **_Visualizações_**.
+7. Confirme que o elemento visual foi adicionado ao painel **_Visualizações_** .
 
     ![Ver no painel de visualizações do PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

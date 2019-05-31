@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 9aac366f04d53da56b62c10fdb85229d0d412834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397699"
+---
 Quando adiciona um campo de *data* a um elemento visual no registo de campo *Eixo*, o Power BI adiciona automaticamente uma hierarquia de tempo que inclui *Ano*, *Trimestre*, *Mês* e *Dia*. Ao fazê-lo, o Power BI permite que os seus elementos visuais tenham uma interação com base no tempo com as pessoas que visualizam os seus relatórios, ao permitir que os utilizadores desagreguem esses diferentes níveis de tempo.
 
 ![](media/3-11g-visual-hierarchies-drilling/3-11g_1.png)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2ba689be99955c649930c1ee4b203b67577619c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397759"
+---
 Muitas vezes, poderá querer modificar as cores utilizadas em gráficos ou elementos visuais. O Power BI dá-lhe um grande controlo sobre a forma como as cores são apresentadas. Para começar, selecione um elemento visual e, em seguida, no painel **Visualizações**, clique no ícone de **pincel**.
 
 ![](media/3-9a-modifying-colors/3-9a_1.png)

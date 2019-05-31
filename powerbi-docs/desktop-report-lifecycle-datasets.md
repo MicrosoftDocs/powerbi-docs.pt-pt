@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275577"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60988024"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço Power BI e pode, tal como as outras pessoas, criar vários relatórios diferentes (em ficheiros .pbix separados) a partir desse mesmo modelo de dados comum. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -77,9 +77,8 @@ Depois de concluído, o **Power BI Desktop** mostra-lhe o êxito e fornece algum
 Em seguida, vamos ver como outros colegas com acesso à área de trabalho onde o relatório e o conjunto de dados foram publicados podem ligar ao conjunto de dados e criar os seus próprios relatórios.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Estabelecer uma ligação em direto do serviço Power BI com o conjunto de dados publicado
-Para estabelecer uma ligação com o relatório publicado e criar o seu próprio relatório baseado no conjunto de dados publicado, selecione **Obter Dados** no friso **Base** no **Power BI Desktop** e selecione **Serviço Power BI**. Também o pode selecionar em **Obter Dados > Serviços Online > Serviço Power BI**.
+Para estabelecer uma ligação para o relatório publicado e criar seu próprio relatório baseado num conjunto de dados publicado, selecione **obter dados** partir do **home page** Friso no **Power BI Desktop** , selecione **Power BI** no painel esquerdo e, em seguida, selecione **conjuntos de dados do Power BI**.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Se não tiver iniciado sessão no Power BI, ser-lhe-á pedido para o fazer. Depois de iniciar sessão, é apresentada uma janela que mostra as áreas de trabalho de que é membro e pode selecionar qual delas contém o conjunto de dados com o qual quer estabelecer uma **ligação em direto do serviço Power BI**.
 

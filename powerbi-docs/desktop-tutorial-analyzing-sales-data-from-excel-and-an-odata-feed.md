@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285766"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368784"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinar dados de vendas do Excel e de um feed OData
 
@@ -114,7 +114,7 @@ O Editor do Power Query permite-lhe criar cálculos e campos personalizados para
    
 2. Na caixa de diálogo **Coluna Personalizada**, escreva **LineTotal** no campo **Nome da coluna nova**.
 
-3. No campo **Fórmula de coluna personalizada** após o **=**, introduza **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]**. (Também pode selecionar os nomes de campo na caixa de deslocamento **Colunas disponíveis** e selecione **<< Inserir**, em vez de os escrever.) 
+3. No campo **Fórmula de coluna personalizada** após o **=** , introduza **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (Também pode selecionar os nomes de campo na caixa de deslocamento **Colunas disponíveis** e selecione **<< Inserir**, em vez de os escrever.) 
 3. Selecione **OK**.
    
    ![Caixa de diálogo Coluna Personalizada](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
@@ -208,7 +208,7 @@ Primeiro, crie um gráfico de colunas empilhadas que utilize os campos de ambas 
    
 2. Selecione **ProductName** em **Produtos** no painel **Campos** ou arraste-o para o gráfico, para mostrar a quantidade de cada produto encomendado. 
    
-3. Para ordenar os produtos dos mais encomendados para os menos encomendados, selecione as reticências **Mais opções** (**...**) no canto superior direito da visualização e, em seguida, selecione **Ordenar por Quantidade**.
+3. Para ordenar os produtos dos mais encomendados para os menos encomendados, selecione as reticências **Mais opções** ( **...** ) no canto superior direito da visualização e, em seguida, selecione **Ordenar por Quantidade**.
    
 4. Utilize as alças nos cantos do gráfico para o ampliar, para que fiquem visíveis mais nomes de produtos. 
    

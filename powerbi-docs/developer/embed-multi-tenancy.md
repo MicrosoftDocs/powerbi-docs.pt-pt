@@ -1,20 +1,20 @@
 ---
 title: Gerir multi-inquilinos com a análise incorporada do Power BI
 description: Crie uma aplicação multi-inquilinos com a análise incorporada.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 60441e950eb8ddea386e38731b794a58c2342620
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014260"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374694"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gerir multi-inquilinos com a análise incorporada do Power BI
 
@@ -53,7 +53,7 @@ Este artigo descreve as diferentes abordagens e analisa-as, de acordo com vário
 
 **Utilizador da Aplicação do ADD (principal de serviço)** – a identidade que representa a aplicação SaaS no Power BI e que a aplicação SaaS utiliza quando chama as APIs Power BI. Tem de ser uma aplicação Web do AAD. Pode substituir a utilização de um utilizador *principal* para se autenticar com o Power BI.
 
-**Capacidade** – um conjunto de recursos dedicados à execução do serviço Power BI. As [capacidades do Power BI Premium](../service-premium.md) destinam-se a empresas que utilizam o Power BI internamente, enquanto as [capacidades do Power BI Embedded](azure-pbie-create-capacity.md) destinam-se a programadores de aplicações para o desenvolvimento de aplicações SaaS para terceiros.
+**Capacidade** – um conjunto de recursos dedicados à execução do serviço Power BI. As [capacidades do Power BI Premium](../service-premium-what-is.md) destinam-se a empresas que utilizam o Power BI internamente, enquanto as [capacidades do Power BI Embedded](azure-pbie-create-capacity.md) destinam-se a programadores de aplicações para o desenvolvimento de aplicações SaaS para terceiros.
 
 **[Licença do Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** – uma licença baseada no utilizador, que concede direitos para publicar conteúdo em áreas de trabalho de aplicações, consumir aplicações sem capacidade Premium, partilhar dashboards e subscrever dashboards e relatórios.
 
@@ -142,9 +142,9 @@ Para acrescentar isolamento adicional, um programador de aplicações pode defin
 
 ### <a name="scalability"></a>Escalabilidade
 
-Uma vantagem deste modelo é que a separação dos dados em vários conjuntos de dados para cada inquilino supera os [limites de tamanho de um único conjunto de dados](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (atualmente 10 GB numa capacidade). Quando a capacidade fica sobrecarregada, [esta pode remover conjuntos de dados não utilizados](../service-premium-understand-how-it-works.md) para libertar memória para os conjuntos de dados ativos. Esta tarefa não pode ser realizada com um conjunto de dados único de grandes dimensões. Ao utilizar vários conjuntos de dados, também pode separar os inquilinos em várias capacidades do Power BI, se necessário.
+Uma vantagem deste modelo é que a separação dos dados em vários conjuntos de dados para cada inquilino supera os [limites de tamanho de um único conjunto de dados](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (atualmente 10 GB numa capacidade). Quando a capacidade está sobrecarregada, pode expulsar a conjuntos de dados não utilizados para liberar memória para conjuntos de dados Active Directory. Esta tarefa não pode ser realizada com um conjunto de dados único de grandes dimensões. Ao utilizar vários conjuntos de dados, também pode separar os inquilinos em várias capacidades do Power BI, se necessário.
 
-Apesar destas vantagens, deve considerar a escala que a aplicação SaaS pode atingir no futuro. Por exemplo, pode atingir limitações em torno do número de artefactos que pode gerir. Veja as [limitações](#summary-comparison-of-the-different-approaches) da implementação mais adiante neste artigo para obter mais detalhes. O SKU de capacidade utilizado introduz um limite no tamanho da memória que os conjuntos de dados podem comportar, [o número de atualizações que podem ser executadas ao mesmo tempo](../service-premium-understand-how-it-works.md) e a frequência máxima das atualizações dos dados. É recomendado realizar testes durante a gestão de centenas ou milhares de conjuntos de dados. Também é recomendável considerar a média e o pico do volume de utilização, bem como quaisquer inquilinos específicos com grandes conjuntos de dados ou padrões de utilização diferentes, que são geridos de forma diferente dos outros inquilinos.
+Apesar destas vantagens, deve considerar a escala que a aplicação SaaS pode atingir no futuro. Por exemplo, pode atingir limitações em torno do número de artefactos que pode gerir. Veja as [limitações](#summary-comparison-of-the-different-approaches) da implementação mais adiante neste artigo para obter mais detalhes. A capacidade que SKU utilizado apresenta um limite no tamanho de memória que precisam de conjuntos de dados para caber numa, quantas atualizações podem ser executados em simultâneo e a frequência máxima de atualizações de dados. É recomendado realizar testes durante a gestão de centenas ou milhares de conjuntos de dados. Também é recomendável considerar a média e o pico do volume de utilização, bem como quaisquer inquilinos específicos com grandes conjuntos de dados ou padrões de utilização diferentes, que são geridos de forma diferente dos outros inquilinos.
 
 ### <a name="automation--operational-complexity"></a>Automatização e complexidade operacional
 
@@ -245,17 +245,17 @@ O controlador primário de custo com isolamento baseado na segurança ao nível 
 
 **Considerações e limitações da Capacidade do Power BI:**
 
-* Cada capacidade apenas pode utilizar a memória alocada e núcleos virtuais, de acordo com o [SKU comprado](../service-premium.md).
-* Para saber o tamanho do conjunto de dados recomendado para cada SKU, veja [Conjuntos de dados grandes Premium](../service-premium-large-datasets.md).
+* Cada capacidade apenas pode utilizar a memória alocada e núcleos virtuais, de acordo com o [SKU comprado](../service-premium-what-is.md).
+* Para saber o tamanho do conjunto de dados recomendado para cada SKU, veja [Conjuntos de dados grandes Premium](../service-premium-what-is.md#large-datasets).
 * O tamanho máximo do conjunto de dados numa capacidade dedicada é de 10 GB.
 * O número de atualizações agendadas para um conjunto de dados no *modo de importação* num dia é 48.
 * O período de tempo entre atualizações agendadas para um conjunto de dados no *modo de importação* é de 30 minutos.
-* Para o número de atualizações que podem ser executadas simultaneamente numa capacidade, veja [gestão e otimização de recursos](../service-premium-understand-how-it-works.md).
+* Para o número de atualizações que podem ser executadas simultaneamente numa capacidade, veja [gestão e otimização de recursos](../service-premium-what-is.md#capacity-nodes).
 * O tempo médio de dimensionamento de uma capacidade está entre 1 e 2 minutos. Durante esse tempo, a capacidade não está disponível. Recomendamos que utilize uma abordagem de escalamento horizontal para [evitar períodos de inatividade](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script).
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Análise incorporada com o Power BI](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../service-premium.md)
+* [Power BI Premium](../service-premium-what-is.md)
 * [Segurança ao nível da linha](embedded-row-level-security.md)

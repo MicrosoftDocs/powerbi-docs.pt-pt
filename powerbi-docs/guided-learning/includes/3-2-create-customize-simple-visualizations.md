@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397659"
+---
 Neste artigo, vai aprender a criar novos gráficos de barras, gráficos circulares e gráficos treemap, e a personalizá-los de acordo com os seus relatórios.
 
 Existem duas formas diferentes de criar uma nova visualização no Power BI Desktop:

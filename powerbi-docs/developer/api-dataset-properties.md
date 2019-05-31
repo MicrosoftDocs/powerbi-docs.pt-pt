@@ -1,20 +1,20 @@
 ---
 title: Propriedades do conjunto de dados do Power BI
 description: Saiba mais sobre as propriedades das APIs de conjuntos de dados do Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248936"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386299"
 ---
 # <a name="dataset-properties"></a>Dataset properties (Propriedades do conjunto de dados)
 
@@ -31,9 +31,9 @@ ID     |  GUID       | Identificador exclusivo ao nível do sistema para o conju
 nome     | Cadeia        | Nome do conjunto de dados definido pelo utilizador.        | Falso        | Verdadeiro        
 tables     | Tabela[]        | Coleção de tabelas.        |  Falso       | Falso        
 relationships     | Relação[]        | Coleção de relações entre tabelas.        | Falso        |  Falso  
-defaultMode     | Cadeia        | Determina se o conjunto de dados foi emitido, transmitido ou ambos com os valores "Push", "Streaming" e "PushStreaming".         | Falso        |  Falso
+defaultMode     | Cadeia        | Determina se o conjunto de dados é emitidos via push, transmitidos em fluxo, ou ambos, com valores de "Push" e "Transmissão em fluxo."         | Falso        |  Falso
 
-## <a name="table"></a>Table
+## <a name="table"></a>Tabela
 
 Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
 ---------|---------|---------|---------|---------
@@ -42,7 +42,7 @@ colunas     |  coluna[]       |  Coleção de colunas.       | Falso        |  V
 measures     | medida[]        |  Coleção de medidas.       | Falso        |  Falso       
 isHidden     | Booleano        | Se for verdadeiro, a tabela será ocultada das ferramentas de cliente.        | Falso        | Falso        
 
-## <a name="column"></a>Estruturada
+## <a name="column"></a>Coluna
 
 Nome  |Tipo  |Descrição  |Só de Leitura  |Obrigatório
 ---------|---------|---------|---------|---------

@@ -1,21 +1,21 @@
 ---
 title: Análise incorporada para incorporar conteúdo do Power BI na aplicação para a sua organização
 description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757467"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355520"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -116,17 +116,17 @@ Para obter o **applicationId**, siga estes passos:
 
 2. No painel de navegação à esquerda, selecione **Todos os serviços** e **Registos de aplicações**.
 
-    ![Pesquisa de registo de aplicações](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
 3. Selecione a aplicação que precisa do **applicationId**.
 
-    ![Escolher Aplicação](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![Escolher Aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. Existe um **ID da Aplicação** listado como um GUID. Utilize este **ID da Aplicação** como o **applicationId** da aplicação.
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>Segredo da aplicação
+
+Este atributo só é necessário para o AuthenticationType [principal de serviço](embed-service-principal.md).
 
 Preencha as informações de **ApplicationSecret** na secção **Chaves** da sua secção **Registos das aplicações** no **Azure**.  Este atributo funciona ao utilizar o [principal de serviço](embed-service-principal.md).
 
@@ -136,23 +136,17 @@ Para obter o **ApplicationSecret**, siga estes passos:
 
 2. No painel de navegação à esquerda, selecione **Todos os serviços** e, em seguida, **Registos de aplicações**.
 
-    ![Pesquisa de registo de aplicações](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
-
 3. Selecione a aplicação que precisa de utilizar o **ApplicationSecret**.
 
-    ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. Selecione **Configurações**.
+4. Selecione **certificados e segredos** sob **gerir**.
 
-    ![Selecionar Definições](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Selecione **Chaves**.
-
-    ![Selecionar Chaves](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Selecione **novo segredo do cliente**.
 
 6. Introduza um nome na caixa **Descrição** e selecione uma duração. Em seguida, selecione **Guardar** para obter o **Valor** para a sua aplicação. Quando fecha o painel **Chaves** depois de guardar o valor da chave, o campo do valor é apresentado apenas como oculto. Nesse momento, não é possível obter o valor da chave. Se perder o valor da chave, crie um novo no portal do Azure.
 
-    ![Valor da chave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Valor da chave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>ID da área de trabalho
 
@@ -190,9 +184,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Preencha as informações **AADAuthorityUrl** com o URL que lhe permite incorporar dentro do seu inquilino organizacional ou incorporar com um utilizador convidado.
 
-Para incorporar com o seu inquilino organizacional, utilize o URL: *https://login.microsoftonline.com/common/oauth2/authorize*.
+Para incorporar com o seu inquilino organizacional, utilize o URL: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Para incorporar com um utilizador convidado, utilize o URL: *https://login.microsoftonline.com/report-owner-tenant-id*. Substitua *report-owner-tenant-id* pelo ID do inquilino do proprietário do relatório.
+Para incorporar com um utilizador convidado, utilize o URL: *https://login.microsoftonline.com/report-owner-tenant-id* . Substitua *report-owner-tenant-id* pelo ID do inquilino do proprietário do relatório.
 
 ### <a name="run-the-application"></a>Executar a aplicação
 
@@ -226,7 +220,7 @@ Para obter um relatório do [Power BI](https://docs.microsoft.com/rest/api/power
 
 A operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) devolve uma lista de relatórios. Pode obter um único relatório a partir da lista de relatórios.
 
-Para efetuar a chamada à API REST, tem de incluir um cabeçalho de *Autorização* no formato de *Portador {token de acesso}*.
+Para efetuar a chamada à API REST, tem de incluir um cabeçalho de *Autorização* no formato de *Portador {token de acesso}* .
 
 #### <a name="get-reports-with-the-rest-api"></a>Obter relatórios com a API REST
 
@@ -400,7 +394,7 @@ Agora que concluiu o desenvolvimento da sua aplicação, está na altura de atri
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium.md).
+Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
 
 A tabela seguinte lista as SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../service-admin-premium-purchase.md):
 

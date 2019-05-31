@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397679"
+---
 O Power BI Desktop oferece-lhe a capacidade de controlar o esquema e a formatação das suas páginas do relatório, como o tamanho e a orientação.
 
 Utilize o menu **Vista de Página** do separador da Home page para alterar a forma como as páginas do relatório são dimensionadas. As opções disponíveis são **Ajustar À Página** (predefinição), **Ajustar A Largura** e **Tamanho Real**.

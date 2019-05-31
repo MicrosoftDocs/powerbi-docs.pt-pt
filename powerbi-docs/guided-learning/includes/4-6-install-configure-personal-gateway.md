@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: ea958349988cade1045e80b073254ab1f29bbe9e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263847"
+---
 Nos tópicos anteriores, vimos como utilizar o Power BI para ligar a origens de dados e como atualizar manualmente os conjuntos de dados no serviço Power BI. No entanto, não vai querer atualizar manualmente tudo sempre que os seus dados mudam e, por isso, pode utilizar o Power BI para configurar uma atualização agendada que irá ligar às suas origens de dados e publicá-las automaticamente no Serviço Power BI. Este método também lhe permite ligar o serviço a qualquer origem de dados no local, incluindo ficheiros do Excel, bases de dados do Access, bases de dados SQL e muito mais.
 
 O sistema que lhe permite ligar as suas origens de dados no local ao serviço Power BI chama-se **gateway de dados**. É uma pequena aplicação que é executada no seu computador e utiliza um agendamento previamente configurado para ligar aos seus dados, recolher todas as atualizações e emiti-las no serviço Power BI. O **gateway pessoal** é uma versão do **gateway de dados** que pode ser utilizada sem qualquer configuração do administrador.

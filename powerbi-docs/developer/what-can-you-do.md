@@ -1,20 +1,20 @@
 ---
 title: Que podem os programadores fazer com o Power BI?
 description: O Power BI oferece uma vasta gama de opções para programadores. Isto varia, desde a incorporação aos elementos visuais personalizados e conjuntos de dados de transmissão em fluxo.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872691"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61262724"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
@@ -58,9 +58,9 @@ Para ver algumas das coisas que pode fazer com as APIs do Power BI, veja [O que 
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Incorporação com o Power BI](embedding.md)  
+[Incorporar com o Power BI](embedding.md)  
 
-[Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
+[Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (Desenvolver um elemento visual personalizado do Power BI)
 
 [O que podem os programadores fazer com a API Power BI?](overview-of-power-bi-rest-api.md)
 

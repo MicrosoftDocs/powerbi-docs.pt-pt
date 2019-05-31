@@ -3,7 +3,7 @@ title: Resolver problemas de origem de dados sem suporte para atualização
 description: Resolver problemas de origem de dados sem suporte para atualização
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 340c3fe2dc18fadb6be0ac47556547e6131833bc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280407"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188101"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Resolver problemas de origem de dados sem suporte para atualização
 Vai ver um erro ao tentar configurar um conjunto de dados para atualização agendada.
@@ -41,7 +41,7 @@ Se não tiver a certeza de que origem de dados foi utilizara, pode encontrar ao 
 ## <a name="next-steps"></a>Próximos passos
 [Atualização de Dados](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[Gateway de dados no local](service-gateway-onprem.md)  
+[On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)  
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolver problemas do Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

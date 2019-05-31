@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cab4d5f47c7e0518bae3c11b3f298802cb67f6d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397639"
+---
 Se quiser comparar duas medidas diferentes, como, por exemplo, vendas unitárias versus receita, uma visualização comum a utilizar é um gráfico de dispersão.
 
 ![](media/3-7-create-scatter-charts/3-7_1.png)

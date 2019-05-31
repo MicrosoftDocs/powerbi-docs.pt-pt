@@ -1,5 +1,5 @@
 ---
-title: Formas de partilhar o seu trabalho
+title: Formas de partilhar o seu trabalho no Power BI
 description: No Power BI, pode partilhar e colaborar em dashboards, relatórios, mosaicos e aplicações de diferentes formas. Cada um tem as suas vantagens.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 04/15/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: cd2413c8f9387a5ebc7de758108e382265c3af42
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 10f287c72cbdec8885952dd7cec766420eabfb2e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290438"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234897"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de partilhar o seu trabalho no Power BI
 
@@ -29,7 +29,7 @@ Neste artigo, comparamos estas opções de colaboração e partilha no Power BI:
 * Imprimir relatórios.
 * Incorporar relatórios em sites públicos ou portais seguros.
 
-Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licença do Power BI Pro](service-features-license-type.md) ou o conteúdo precisa de estar numa [capacidade Premium](service-premium.md). Os requisitos de licença variam para os colegas que veem os seus dashboards, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
+Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licença do Power BI Pro](service-features-license-type.md) ou o conteúdo precisa de estar numa [capacidade Premium](service-premium-what-is.md). Os requisitos de licença variam para os colegas que veem os seus dashboards, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
 
 ![Aplicações no serviço Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -37,7 +37,7 @@ Seja qual for a sua escolha, para partilhar um dashboard, precisa de uma [licen�
 
 ## <a name="collaborate-with-coworkers-in-a-workspace"></a>Colaborar com colegas numa área de trabalho
 
-Quando as equipas trabalham em conjunto, precisam de acesso aos mesmos documentos para poderem colaborar rapidamente. As áreas de trabalho no Power BI proporcionam um local onde as equipas se reúnem para partilhar a propriedade e gestão de dashboards, relatórios, conjuntos de dados e livros relevantes. Por vezes, os utilizadores do Power BI organizam as respetivas áreas de trabalho com base em estruturas organizacionais, outras vezes criam-nas para projetos específicos. No entanto, existem outras organizações que utilizam várias áreas de trabalho para armazenar diferentes versões dos relatórios ou dashboards que utilizam. 
+Quando as equipas trabalham em conjunto, precisam de acesso aos mesmos documentos para poderem colaborar rapidamente. Em áreas de trabalho do Power BI, as equipes se reúnem para compartilhar a propriedade e a gestão dos seus dashboards, relatórios, conjuntos de dados e pastas de trabalho. Por vezes, os utilizadores do Power BI organizam as respetivas áreas de trabalho com base em estruturas organizacionais, outras vezes criam-nas para projetos específicos. No entanto, existem outras organizações que utilizam várias áreas de trabalho para armazenar diferentes versões dos relatórios ou dashboards que utilizam. 
 
 As áreas de trabalho disponibilizam funções que determinam as permissões que os seus colegas têm. Pode utilizar essas funções para determinar quem pode gerir toda a área de trabalho ou fornecer conteúdos para a mesma.
 
@@ -45,11 +45,16 @@ As áreas de trabalho disponibilizam funções que determinam as permissões que
 
 Alguns utilizadores colocam os conteúdos em A Minha Área de Trabalho e partilham-nos. As áreas de trabalho funcionam melhor para a colaboração do que A Minha Área de Trabalho, já que permitem a propriedade partilhada dos conteúdos. Você e toda a sua equipa podem fazer atualizações ou conceder acesso a terceiros facilmente. A Minha Área de Trabalho funciona melhor para conteúdos pontuais ou pessoais de utilizadores individuais.
 
-Imaginemos que terminou um dashboard que precisa de partilhar com os seus colegas. Qual é a melhor forma de lhes conceder acesso ao dashboard? A resposta depende de vários fatores. Se um colega específico precisar de ser proprietário do dashboard e de o manter atualizado, ou precisar de acesso a todos os conteúdos na área de trabalho, a melhor opção poderá ser adicioná-lo à área de trabalho. Se o seu colega apenas precisar de aceder ao dashboard e não a todos os conteúdos na área de trabalho, pode escolher entre várias alternativas. Se o dashboard fizer parte de um conjunto de conteúdos maior que precisa de distribuir por diversos colegas, publicar uma aplicação será provavelmente a melhor opção. Contudo, se o colega apenas precisar desse dashboard, partilhar o mesmo poderá ser a escolha acertada.
+Imaginemos que terminou um dashboard que precisa de partilhar com os seus colegas. Qual é a melhor forma de lhes conceder acesso ao dashboard? A resposta depende de vários fatores. 
+
+- Se precisam de colegas manter o dashboard atualizados ou precisam de acesso a todo o conteúdo na área de trabalho, considere a adicioná-los para a área de trabalho. 
+- Se colegas apenas precisam de ver esse dashboard e não o conteúdo na área de trabalho, tem novamente alternativas. 
+- Se o dashboard fizer parte de um conjunto de conteúdos maior que precisa de distribuir por diversos colegas, publicar uma aplicação será provavelmente a melhor opção. 
+- No entanto, se colegas precisam apenas esse dashboard, em seguida, partilhar o dashboard pode ser a melhor solução.
 
 Leia mais sobre como [criar áreas de trabalho](service-create-workspaces.md).
 
-**Sabia que?** O Power BI está a apresentar uma nova experiência de área de trabalho em modo de pré-visualização. Leia [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md) para saber como as áreas de trabalho irão mudar no futuro. 
+**Sabia que?** O Power BI tem uma nova experiência de área de trabalho. Leia [criar novas áreas de trabalho](service-create-the-new-workspaces.md) para ver como as áreas de trabalho estão mudando. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Distribuir dados e informações ao criar uma aplicação
 
@@ -61,7 +66,7 @@ Suponhamos que pretende distribuir a sua área de trabalho para um público alar
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
-Para que os seus utilizadores vejam a sua aplicação, precisam de ter também uma licença do Power BI Pro, ou a aplicação precisa de ser armazenada numa capacidade do Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium.md).
+Para que os seus utilizadores vejam a sua aplicação, precisam de ter também uma licença do Power BI Pro, ou a aplicação precisa de ser armazenada numa capacidade do Power BI Premium. Para mais detalhes, leia [O que é o Power BI Premium?](service-premium-what-is.md).
 
 Também pode publicar aplicações para os utilizadores exteriores à sua organização. Estes podem ver e interagir com os conteúdos da aplicação mas não podem partilhá-la com terceiros.
 
@@ -71,7 +76,7 @@ Suponhamos que finalizou um dashboard e um relatório em A Minha Área de Trabal
 
 ![Ícone Partilhar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-Necessita de uma licença do Power BI Pro para partilhar os seus conteúdos, assim como as pessoas com quem os partilhar, ou os conteúdos precisam de estar numa área de trabalho numa [capacidade Premium](service-premium.md). Ao partilhar um dashboard ou relatório, os destinatários podem ver e interagir com o mesmo, mas não o podem editar. Podem ver os mesmos dados que vê no dashboard e nos relatórios, a menos que seja aplicada RLS (Segurança em nível de linha) ao conjunto de dados subjacente. Os funcionários com quem o partilhar também o podem partilhar com os respetivos colegas, se assim o permitir. 
+Necessita de uma licença do Power BI Pro para partilhar os seus conteúdos, assim como as pessoas com quem os partilhar, ou os conteúdos precisam de estar numa área de trabalho numa [capacidade Premium](service-premium-what-is.md). Ao partilhar um dashboard ou relatório, os destinatários podem ver e interagir com o mesmo, mas não o podem editar. Podem ver os mesmos dados que vê no dashboard e nos relatórios, a menos que seja aplicada RLS (Segurança em nível de linha) ao conjunto de dados subjacente. Os funcionários com quem o partilhar também o podem partilhar com os respetivos colegas, se assim o permitir. 
 
 Pode também partilhar com pessoas fora da sua organização. Estas também podem ver e interagir com o dashboard ou relatório, mas não o podem partilhar. 
 
@@ -83,7 +88,7 @@ Nas aplicações móveis do Power BI para dispositivos iOS e Android, pode anota
 
 ![Anotar e partilhar nas aplicações móveis](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-Está a partilhar um instantâneo do mosaico, relatório ou visual e os seus destinatários veem-no exatamente da mesma forma que quando enviou o e-mail. O e-mail também contém uma ligação para o dashboard ou relatório. Se os destinatários tiverem uma licença do Power BI Pro ou se os conteúdos estiverem numa [capacidade Premium](service-premium.md) e já tiver partilhado o objeto com eles, estes poderão abri-los. Pode enviar instantâneos de mosaicos para qualquer pessoa, não apenas para colegas de trabalho no mesmo domínio de e-mail.
+Está a partilhar um instantâneo do mosaico, relatório ou visual e os seus destinatários veem-no exatamente da mesma forma que quando enviou o e-mail. O e-mail também contém uma ligação para o dashboard ou relatório. Se os destinatários tiverem uma licença do Power BI Pro ou se os conteúdos estiverem numa [capacidade Premium](service-premium-what-is.md) e já tiver partilhado o objeto com eles, estes poderão abri-los. Pode enviar instantâneos de mosaicos para qualquer pessoa, não apenas para colegas de trabalho no mesmo domínio de e-mail.
 
 Mais informações sobre [anotar e partilhar mosaicos, relatórios e visuais](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) das aplicações móveis para iOS e Android.
 
@@ -96,8 +101,12 @@ Pode imprimir ou guardar como PDF (ou outro formato de ficheiro estático) todo 
 ## <a name="embed-reports-in-secure-portals-or-public-websites"></a>Incorporar relatórios em sites públicos ou portais seguros
 
 Pode incorporar relatórios do Power BI nos portais ou sites onde os seus utilizadores esperam vê-los.  
+As opções **Incorporar no SharePoint Online** e **Incorporar** no serviço Power BI permitem-lhe incorporar relatórios para os seus utilizadores internos de forma segura. 
 
-As opções **Incorporar no SharePoint Online** e **Incorporar** no serviço Power BI permitem-lhe incorporar relatórios para os seus utilizadores internos de forma segura. A opção Incorporar no SharePoint Online funciona com a peça Web do Power BI para SharePoint Online e proporciona uma experiência de início de sessão único com controlo sobre a forma como o relatório é incorporado. A opção Incorporar funciona com qualquer portal ou site que suporte a incorporação de conteúdos através de um URL ou iFrame. Ambas as opções garantem que todas as permissões e a segurança dos dados são impostas antes de um utilizador poder ver os conteúdos. A pessoa que vir o relatório precisa da licença adequada. Saiba mais sobre as opções [Incorporar no SharePoint Online](service-embed-report-spo.md) e [Incorporar](service-embed-secure.md) no Power BI.
+- **Incorporar no SharePoint Online** funciona com a peça web Power BI para o SharePoint Online. Ele fornece uma experiência de início de sessão único com o controle sobre como o relatório é incorporado. 
+- **Incorporar** funciona com qualquer portal ou o site que oferece suporte ao incorporar conteúdo através de um URL ou um iFrame. 
+
+Independentemente da opção de escolher, Power BI, aplica todas as permissões e segurança dos dados antes dos utilizadores podem ver o conteúdo. A pessoa que vir o relatório precisa da licença adequada. Saiba mais sobre [incorporar no SharePoint Online](service-embed-report-spo.md) e o [incorporação](service-embed-secure.md) opção no Power BI.
 
 A opção **Publicar na Web** permite-lhe publicar relatórios do Power BI para toda a Internet ao incorporar visualizações interativas em mensagens de blogue, sites, redes sociais e outras comunicações online em qualquer dispositivo. Qualquer pessoa na Internet pode ver os seus relatórios e o utilizador não pode controlar quem vê o que publicou. As pessoas não precisam de uma licença do Power BI. A publicação na Web só está disponível para relatórios que o utilizador pode editar. Não pode publicar relatórios na Web se estes forem partilhados consigo ou se estiverem numa aplicação. Mais informações sobre [publicar na Web](service-publish-to-web.md).
 

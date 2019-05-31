@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c7af7eb4a75ebe22416dba74a40c2edcf00c1194
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397779"
+---
 Se pretender visualizar duas medidas que têm escalas muito diferentes, como receita e unidades, um **gráfico de combinação** que mostra uma linha e uma barra com escalas de eixo diferentes é muito útil. O Power BI suporta vários tipos de gráficos de combinação por predefinição, incluindo os gráficos de **Linha** e **Colunas Empilhadas** populares.
 
 ![](media/3-3-create-combination-charts/3-3_1.png)

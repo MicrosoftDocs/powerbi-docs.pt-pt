@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397628"
+---
 Com o Power BI Desktop, pode executar análises analíticas e estatísticas e criar elementos visuais convincentes através da integração com o R. Pode alojar essas visualizações do R no relatório do Power BI Desktop.
 
 Quando seleciona o ícone **Elemento visual R** no painel **Visualizações**, o Power BI cria um marcador de posição no ecrã para alojar o seu elemento visual R e, em seguida, apresenta um editor de script R para que possa utilizar diretamente no ecrã. À medida que adiciona campos ao elemento visual R, o Power BI Desktop adiciona-os ao painel do editor de script R.

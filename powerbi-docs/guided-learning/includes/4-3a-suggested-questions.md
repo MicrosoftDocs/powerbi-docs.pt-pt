@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4a9d873632853a69c835d7326653102107dd239f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263811"
+---
 Com o Power BI, pode adicionar as suas próprias perguntas sugeridas para outros utilizadores que utilizam a caixa de consulta de linguagem natural para um dashboard, frequentemente referido como a caixa de **perguntas e respostas**. Estas perguntas sugeridas são o que os utilizadores irão ver quando clicarem na caixa de entrada na parte superior de um dashboard.
 
 ![](media/4-3a-suggested-questions/4-3a_1.png)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cda7b38aa89e368028f966c3cd00c00ee2cb4e84
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271511"
+---
 Obtenha uma integração perfeita entre o Power BI e o Excel ao guardar os seus livros do Excel no OneDrive.
 
 ![](media/5-4-connect-onedrive-for-business/5-4_1.png)

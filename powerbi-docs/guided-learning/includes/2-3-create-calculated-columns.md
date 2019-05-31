@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257102"
+---
 Criar colunas calculadas é uma forma simples de melhorar e aperfeiçoar os seus dados. Uma **coluna calculada** é uma nova coluna que cria ao definir um cálculo que transforma ou combina dois ou mais elementos de dados existentes. Por exemplo, pode criar uma nova coluna ao combinar duas colunas numa só.
 
 Uma das razões úteis para criar uma coluna calculada é para estabelecer uma relação entre tabelas, quando não existem campos exclusivos que possam ser utilizados para estabelecer uma relação. A falta de uma relação torna-se visível quando cria um elemento visual de tabela simples no Power BI Desktop e obtém o mesmo valor para todas as entradas, embora saiba que os dados subjacentes são diferentes.

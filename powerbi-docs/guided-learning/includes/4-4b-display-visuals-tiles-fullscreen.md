@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263793"
+---
 Quando estiver a olhar para dashboards ou relatórios do Power BI no serviço, por vezes, pode ser útil concentrar-se num gráfico ou visualização individual. Pode fazê-lo de duas formas diferentes.
 
 Quando estiver num dashboard, paire o rato sobre um mosaico para ver algumas opções de ícones diferentes no canto superior direito. Quando seleciona as reticências (os três pontos), verá uma coleção de ícones que representam as ações que pode executar no mosaico.

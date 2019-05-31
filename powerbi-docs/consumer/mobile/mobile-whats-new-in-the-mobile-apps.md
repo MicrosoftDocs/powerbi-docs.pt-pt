@@ -7,21 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872737"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991046"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
-Para obter informações sobre “Novidades” relacionadas, veja:
+Para informações sobre “Novidades” relacionadas, veja:
 
-* [Blogue da equipa do Power BI para aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Novidades no Power BI Desktop](../../desktop-latest-update.md)  
-* [What's new in the Power BI service (Novidades no serviço Power BI)](../../service-whats-new.md)  
+* [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
+* [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
+* [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>Abril de 2019
+
+### <a name="key-influencers-visual"></a>Influenciadores chave visual 
+Influenciadores chave visual está agora disponível na sua aplicação móvel. Este elemento visual permite-lhe realizar análise dos fatores determinantes sobre os seus dados com apenas alguns toques.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Adicionar comentários ao conteúdo do relatório (Android e iOS)
+Agora, pode utilizar comentários para colaborar e partilhar os seus comentários sobre páginas de relatórios e elementos visuais. Saiba mais sobre o relatório de comentários no serviço Power BI e Mobile [neste blogue](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximizar a exibição com o modo de ecrã inteiro (Android e iOS)
+Adicionamos o novo botão que permitem controlar quando se concentrar nos seus dados ao remover o relatório cabeçalhos e rodapés e dando-lhe espaço máximo para visualizar os seus relatórios.
 
 ## <a name="march-2019"></a>Março de 2019
 
@@ -31,7 +42,20 @@ Pode aceder aos conteúdos do Power BI partilhados consigo por outra organizaç�
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Melhoria do modo de apresentação do Windows com a apresentação de diapositivos (Windows)
 
-Com a [apresentação de diapositivos](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/), pode utilizar ecrãs públicos localizados no seu escritório para executar relatórios do Power BI em ecrã inteiro e alternar automaticamente entre as páginas do relatório.  
+Com o [slideshow](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) pode utilizar pública Apresenta localizada no seu escritório para executar os relatórios do Power BI em ecrã inteiro, que será automaticamente Rodar entre páginas de relatório.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Suporte a relatórios de PBI-RS em detrimento da configuração do AD FS e WAP (apenas iOS)
+
+Relatórios de BI Power (PBIX) alojados no PBI-RS em detrimento da configuração do AD FS agora podem ser acedidos a partir da aplicação de iOS do Power BI.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Ativar a interação de toque único com elementos visuais do relatório
+
+Alterámos a interação de relatório para que esta operação requer apenas um toque num elemento visual, botão ou segmentação de dados para interagir com seus dados imediatamente. Os utilizadores já não necessita de toque num elemento visual para selecioná-lo e toque novamente para interagir com o mesmo, um único toque fará a ambos.
+
+![Interação de toque único](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> Os utilizadores existentes terão de ativar este comportamento na definição da aplicação. Para obter mais informações, consulte a [como configurar a interação de relatório único toque](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) artigo.
 
 ## <a name="january---february-2019"></a>Janeiro – fevereiro de 2019
  
@@ -315,7 +339,7 @@ Melhorámos a interação tátil para a segmentação de dados de tempo.
 
 Agora, pode ter ligações de até cinco servidores do SQL Server Reporting Services (SSRS) ao mesmo tempo.
 
-**Pedir acesso a dashboards** 
+**Pedir acesso aos dashboards** 
 
 Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
 
@@ -326,7 +350,7 @@ Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora
 Agora, pode percorrer gráficos de barras e de colunas num relatório ao tocar no próprio gráfico, em vez de tocar na barra de deslocamento lateral.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Faça perguntas sobre os seus dados com uma pré-visualização das Perguntas e Respostas** 
+**Faça perguntas dos seus dados com uma pré-visualização de Perguntas e Respostas** 
 
 Com as Perguntas e Respostas, faça perguntas sobre os seus dados nas suas próprias palavras, e o Power BI fornece as respostas. As Perguntas e Respostas já se encontram no serviço Power BI, em http://powerbi.com. Agora também está [disponível na aplicação móvel no seu iPhone ou iPad](mobile-apps-ios-qna.md).
 
@@ -367,14 +391,14 @@ Leia o [Resumo das funcionalidades do blogue de aplicações móveis publicado e
 Para ter a certeza de que consegue aceder aos dados mais recentes estando offline, efetuámos uma atualização da aplicação em segundo plano para que as suas informações comerciais estejam atualizadas, mesmo se não tiver acedido às mesmas durante um tempo. Para certificar-se de que determinados dashboards estão sempre atualizados, basta marcá-los como favoritos. Saiba mais sobre as [capacidades offline das aplicações móveis do Power BI](mobile-apps-offline-data.md).
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Anote e partilhe**
+**Anotar e partilhar**
 
 Agora, pode anotar e partilhar um mosaico, relatório ou visualização da aplicação móvel Power BI para iOS. 
 
 * [No iPhone](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [No iPad](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-**Pedir acesso a dashboards**
+**Pedir acesso aos dashboards**
 
 Se digitalizar um código QR de um dashboard ao qual não tem acesso, pode agora enviar um pedido para obter o direito de acesso a partir da aplicação móvel.
 

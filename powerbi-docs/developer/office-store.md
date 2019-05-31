@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695202"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269942"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 
@@ -30,7 +30,7 @@ O **AppSource** é o local onde pode encontrar aplicações SaaS e suplementos p
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparar a submissão do seu elemento visual personalizado
 
-Depois de concluir a codificação e os [testes do elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md), e de o compactar num ficheiro pbiviz, também deverá ter os seguintes itens prontos para serem submetidos.
+Depois de concluir a ler nosso [diretrizes de elementos visuais do Power BI](guidelines-powerbi-visuals.md), codificação e [teste o seu elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e ter compactado num ficheiro pbiviz, também deverá ter os seguintes itens prontos para a sua submissão.
 
 | Item | Necessário | Descrição |
 | --- | --- | --- |

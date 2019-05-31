@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274519"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389925"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Guia de introdução com propriedades de eixo e formatação de cor
 No **Power BI**, pode alterar a cor da série de dados, os pontos de dados e até mesmo o fundo das visualizações. Também pode alterar como os eixos x e y são apresentados, tendo controlo total sobre como os seus dashboards e relatórios são mostrados.

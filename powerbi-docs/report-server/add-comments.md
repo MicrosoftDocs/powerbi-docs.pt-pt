@@ -1,20 +1,20 @@
 ---
 title: Adicionar comentários a um relatório no Power BI Report Server
 description: Saiba como adicionar comentários a um relatório do Power BI ou paginado no Power BI Report Server ou no servidor de relatórios do SQL Server Reporting Services.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.openlocfilehash: 7e2dcc24cde68275899b25ff457b7731583c1bc5
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324237"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769652"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Adicionar comentários a um relatório no servidor de relatórios - Power BI Report Server
 

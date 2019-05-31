@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397648"
+---
 Quando tem várias visualizações na mesma página de relatório, a seleção de um determinado segmento ao clicar ou utilizar uma segmentação de dados irá afetar todos os elementos visuais nessa página. Porém, em alguns casos, pode querer segmentar apenas os dados de elementos visuais específicos. Este é particularmente o caso quando utilizamos elementos como dispersões, onde a limitação dos dados a um segmento específico retirará significado crucial. Felizmente, o Power BI Desktop permite-lhe controlar a forma como as interações fluem entre os elementos visuais.
 
 Para alterar a interação entre as visualizações, selecione **Editar** na secção Elementos Visuais do friso **Base** para ativar o **Modo de Edição**.

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d9388977c088c51094cf2835c8dab9e7d019a59
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260456"
+---
 Tudo o que faz no Power BI pode ser dividido em alguns **blocos modulares** básicos. Assim que compreender estes blocos modulares, pode expandir com base em cada um deles e começar a criar relatórios elaborados e complexos. No fim de contas, até as coisas aparentemente mais complexas são criadas a partir de blocos modulares básicos: os edifícios são construídos com madeira, aço, betão e vidro. Os automóveis são feitos de metal, tecido e borracha. Como é óbvio, os edifícios e os automóveis também podem ser básicos ou elaborados, dependendo da forma como utilizamos esses blocos modulares básicos.
 
 Vamos dar uma vista de olhos por estes blocos modulares básicos, falar sobre algumas coisas simples que podemos construir com os mesmos e, depois, ficar com uma ideia geral da complexidade das coisas que se pode criar.

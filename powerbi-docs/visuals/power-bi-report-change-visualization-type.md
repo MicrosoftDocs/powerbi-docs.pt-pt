@@ -11,11 +11,11 @@ ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 201e4e75c9a1ce0d05c85112457191a8d306c596
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287031"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61248084"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Alterar o tipo de visualização num relatório do Power BI
 Experimente diferentes tipos de visualizações no serviço Power BI e Power BI Desktop para ver qual demonstra melhor os seus dados. 

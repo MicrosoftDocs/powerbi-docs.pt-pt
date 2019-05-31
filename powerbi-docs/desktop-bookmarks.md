@@ -11,11 +11,11 @@ ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892419"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61326238"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
@@ -180,7 +180,7 @@ Nesta versão dos **marcadores**, existem algumas limitações e considerações
 * O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os artigos seguintes:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)

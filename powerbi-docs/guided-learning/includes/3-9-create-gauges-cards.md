@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3fd97374836978a4902a878da141865c271df643
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397668"
+---
 Geralmente, as visualizações servem para comparar dois ou mais valores diferentes. No entanto, por vezes, ao criar relatórios poderá querer controlar apenas um Indicador de Desempenho de Chave único (KPI) ou métrica ao longo do tempo. A melhor forma de o fazer no Power BI Desktop é com um visual de cartão de **Medidor** ou de  **número único**. Para criar um gráfico em branco de qualquer tipo, selecione o respetivo ícone do painel **Visualizações**.
 
 ![](media/3-9-create-gauges-cards/3-9_1.png)

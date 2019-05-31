@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695133"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61278742"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Utilizar elementos visuais personalizados baseados em R no Power BI
 

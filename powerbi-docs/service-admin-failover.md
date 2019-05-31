@@ -11,11 +11,11 @@ ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426568"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61196917"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -39,7 +39,7 @@ Todos os componentes do serviço Power BI sincronizam regularmente as respetivas
 
 As instâncias de cópia de segurança residem na mesma área geográfica que selecionou quando inscreveu a sua organização no Power BI, exceto nas áreas indicadas no [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Uma área geográfica pode conter várias regiões e a Microsoft pode replicar dados para qualquer região de uma determinada área geográfica, para resiliência de dados. A Microsoft não irá replicar ou mover dados de clientes para fora da área geográfica. Para obter um mapeamento das áreas geográficas oferecidas pelo Power BI e das regiões dentro delas, veja o [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Como é que a Microsoft determina quando realizar uma ativação pós-falha?
+## <a name="how-does-microsoft-decide-to-failover"></a>Como é que a Microsoft determinam quando realizar uma ativação pós-falha?
 
 Há dois sistemas diferentes que indicam quando poderá ser necessária uma ativação pós-falha:
 

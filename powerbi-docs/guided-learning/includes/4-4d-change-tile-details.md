@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8fc17759ea38cc96c69e7639ed25172e782a9d4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263796"
+---
 Depois de criar um dashboard, pode editar os respetivos **Mosaicos* no serviço Power BI para fazer algumas alterações de formatação.
 
 Para fazer alterações a um mosaico, paire o rato sobre o mosaico e selecione as reticências (três pontos) para mostrar uma coleção de ícones que lhe permitem fazer alterações ao mosaico.

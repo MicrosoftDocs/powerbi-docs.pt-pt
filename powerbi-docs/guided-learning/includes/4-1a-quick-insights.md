@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263832"
+---
 Quando estiver a trabalhar com um dashboard, relatório ou conjunto de dados no serviço Power BI, pode configurar o Power BI para procurar informações rápidas nos dados. No Power BI, na secção **Conjuntos de dados** no painel esquerdo, selecione as *reticências* (os três pontos) junto ao conjunto de dados no qual está interessado. É apresentado um menu de opções e, na extremidade direita, verá uma opção chamada **Informações Rápidas**.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

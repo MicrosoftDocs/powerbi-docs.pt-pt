@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263778"
+---
 O Power BI é fornecido com um avançado motor de reconhecimento de linguagem, que lhe permite fazer perguntas sobre os seus dados com expressões e perguntas coloquiais. Por isso, para além de criar relatórios e visualizações com o Power BI, também pode criar quadros e gráficos ao fazer apenas algumas perguntas simples.
 
 Para fazer uma pergunta sobre os seus dados, abra um dashboard no Power BI e, na parte superior do ecrã, verá uma caixa de entrada, onde pode fazer perguntas sobre os dados apresentados. Por vezes, esta funcionalidade é designada por *Perguntas e Respostas* ou, mais frequentemente, é apenas designada por **Q&A**.

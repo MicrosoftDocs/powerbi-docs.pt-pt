@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430078"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513225"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscrever a sua organização do Governo dos EUA no serviço Power BI
-O **serviço Power BI** tem uma versão disponível para clientes do Governo dos EUA como parte das subscrições do **Office 365 US Government Community**. A versão do **serviço Power BI** abordada neste artigo foi concebida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
+O **serviço Power BI** tem uma versão disponível para clientes da Administração Pública dos EUA como parte das subscrições do **Office 365 US Government Community**. O **serviço Power BI** versão discutido neste artigo foi concebido para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
 
 Para obter mais informações sobre o **serviço Power BI** para o Governo dos EUA, incluindo as respetivas funcionalidades e limitações, veja [Power BI para clientes do Governo dos Estados Unidos – Descrição geral](service-govus-overview.md).
 
@@ -58,7 +58,7 @@ Se a sua organização for um cliente do **Office Government Cloud** existente, 
 > 
 > 
 
-1. Inicie sessão na conta do Office Government Cloud existente e aceda ao portal de administração
+1. Inicie sessão na sua conta do Office Government Cloud existente e aceda ao portal de administração
 2. Selecione **Faturação**.
 3. Selecione **Serviço de Compra**.
 4. Selecione a opção Power BI Pro Government e escolha entre **Experimentar** e **Comprar Agora**
@@ -66,7 +66,7 @@ Se a sua organização for um cliente do **Office Government Cloud** existente, 
 6. Atribua utilizadores à conta.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. Inicie sessão no **serviço Power BI** para os clientes do Governo dos EUA em [https://app.powerbigov.us](https://app.powerbigov.us)
+7. Inicie sessão para o **serviço Power BI** para clientes do Governo dos EUA em [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>Informações de Inscrição Adicionais
 Seguem-se informações adicionais para a inscrição no **Power BI US Government** em vários casos de migração de licenciamento.
@@ -75,7 +75,7 @@ Seguem-se informações adicionais para a inscrição no **Power BI US Governmen
 * Clique e siga para Faturação > Serviço de Compra > Power BI Pro Gov e selecione Compra e não Versão de Avaliação
 * Preencher as informações necessárias e obter as licenças
 * Remover a Versão de Avaliação do Power BI Pro ou as licenças antigas e atribuir as novas aos utilizadores
-* Iniciar sessão em [https://app.powerbigov.us](https://app.powerbigov.us)
+* Inicie sessão no [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Revenda da Versão de Avaliação do Power BI para o Pro Customer Onboarding
 Aceda a **Faturação > Subscrições** e selecione a subscrição **Power BI Pro for Government**. Aí, verá:
@@ -90,19 +90,19 @@ Aceda a **Faturação > Subscrições** e selecione a subscrição **Power BI Pr
 ### <a name="whitelisting-instructions"></a>Instruções para Adicionar à Lista de Permissões
 *Adicionar à Lista de Permissões* é um processo utilizado pela equipa de engenharia do Power BI para mover os clientes do ambiente cloud comercial para o ambiente cloud governamental seguro. Isto assegura que as funcionalidades disponíveis na cloud Governo dos EUA funcionam conforme esperado. Todos os clientes do Governo dos EUA existentes (ou novos) que comprem os serviços **Power BI** para o Governo dos EUA pela primeira vez *têm* de iniciar o processo de adição à lista de permissões seguinte. O processo tem de ser efetuado antes da configuração ou da migração para os serviços **Power BI** do Governo dos EUA. 
 
-Para adicionar o seu inquilino à *lista de permissões* da cloud do Governo dos EUA, contacte a equipa da conta Microsoft para obter ajuda com a adição à lista de permissões. Tenha em atenção que apenas os administradores podem efetuar este pedido. O processo de *adição à lista de permissões* demora cerca de três semanas, período durante o qual a equipa de engenharia do Power BI faz alterações adequadas para garantir que o seu inquilino funciona corretamente na cloud do Governo dos EUA.
+Para que o seu inquilino *na lista de permissões* da cloud do Governo dos EUA, contacte a equipa da conta Microsoft para obter assistência com a lista de permissões. Apenas os administradores podem efetuar este pedido. O processo de *adição à lista de permissões* demora cerca de três semanas, período durante o qual a equipa de engenharia do Power BI faz alterações adequadas para garantir que o seu inquilino funciona corretamente na cloud do Governo dos EUA.
 
 Os clientes que estejam a migrar de licenças **Gratuitas** do Power BI para o **Power BI US Government** (e, por definição, a migrar para a licença **Pro** associada descrita anteriormente neste artigo) irão ter os problemas descritos na secção seguinte deste artigo, até que o inquilino seja *adicionado à lista de permissões* pela equipa de engenharia do Power BI.
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>Licenças Gratuitas e Pro combinadas em inquilinos do Governo dos EUA
 Se tiver licenças Gratuitas e Pro do Governo dos EUA no inquilino, estas permanecem presentes, mas um ou o outro tipo de licença não funcionará corretamente. Se o inquilino concluir com êxito o processo de *adição à lista de permissões*, ocorre o seguinte:
 
-* Todos os utilizadores de licenças Gratuitas deixarão de conseguir iniciar sessão no Power BI através do **Power BI Desktop** e ocorrerão as falhas de funcionalidade descritas na secção seguinte.
+* Qualquer licença gratuita os utilizadores já não poderão iniciar sessão no Power BI através de **Power BI Desktop**e experienciar falhas de funcionalidade descritas na secção seguinte.
 * Todos os clientes atribuídos a licenças Pro do Governo dos EUA irão usufruir de um funcionamento conforme esperado, incluindo a utilização de gateways, do Power BI Desktop e das aplicações Móveis.
 
 Quando utilizar uma combinação de licenças Gratuitas e Pro num inquilino do Governo dos EUA e efetuar o processo de *adição à lista de permissões*, pode ocorrer o seguinte:
 
-**Antes da _adição à lista de permissões_**:
+**Antes da _adição à lista de permissões_** :
 
 * Os utilizadores com licenças Gratuitas estão a utilizar a cloud comercial
 * As licenças Pro do Governo dos EUA são apresentadas no portal e o administrador pode atribui-las aos utilizadores. Os utilizadores Pro do Governo dos EUA não irão perder os dados das licenças Gratuitas depois de o administrador atribuir uma licença Pro do Governo dos EUA. Os utilizadores atribuídos têm acesso às funcionalidades do Power BI Pro para clientes do Governo dos EUA, mas ocorrerão as seguintes falhas de funcionalidade indicadas na lista com marcas até o inquilino ser *adicionado à lista de permissões* com êxito:
@@ -112,7 +112,7 @@ Quando utilizar uma combinação de licenças Gratuitas e Pro num inquilino do G
   * Os ficheiros PBIX têm de ser carregados manualmente do serviço Power BI comercial
   * As aplicações móveis do Power BI não estão disponíveis
 
-**Após a _adição à lista de permissões_**:
+**Após a _adição à lista de permissões_** :
 
 * Os utilizadores gratuitos com o serviço Power BI comercial podem continuar a utilizá-lo, mas deixarão de autenticar conforme esperado.
 * Os utilizadores Pro na cloud do Governo dos EUA podem utilizar o serviço **Power BI para clientes do Governo dos EUA** conforme esperado.

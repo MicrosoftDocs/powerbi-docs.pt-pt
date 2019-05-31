@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397719"
+---
 Por predefinição, os cabeçalhos de coluna são apresentados nos seus relatórios apenas se tiverem dados. Por exemplo, se apresentasse a receita por país e não tivesse vendas na Noruega, então a Noruega não iria aparecer em qualquer local na sua visualização.
 
 Para apresentar categorias vazias, clique na seta para baixo no campo que pretende alterar no painel **Visualizações** e selecione **Mostrar itens sem dados**.

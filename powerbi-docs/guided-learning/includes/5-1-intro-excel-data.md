@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271516"
+---
 Bem-vindo à secção **Power BI e Excel** do curso **Aprendizagem Orientada** do Power BI.
 
 É muito provável que já tenha utilizado o **Excel**. Talvez tenha utilizado o Excel para criar ou ver relatórios, ou para criar gráficos circulares ou outros elementos visuais. Ou talvez tenha utilizado o **Power Pivot** ou o **Power Query** para criar soluções um pouco mais técnicas. Se assim for, sentir-se-á familiarizado no Power BI, assim como os seus livros.

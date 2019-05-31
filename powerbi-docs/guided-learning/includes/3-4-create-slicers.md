@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3f21c41bb0cf97db8b988a80d9792e1ba0b0b4f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397748"
+---
 As segmentações de dados são um dos tipos mais poderosos de visualizações, particularmente como parte de um relatório ocupado. Uma **segmentação** é um filtro visual no ecrã do **Power BI Desktop** que permite que qualquer pessoa que esteja a ver o relatório segmente os dados por um valor específico, como por ano ou por localização geográfica.
 
 Para adicionar uma segmentação ao relatório, selecione **Segmentação** a partir do painel **Visualizações**.

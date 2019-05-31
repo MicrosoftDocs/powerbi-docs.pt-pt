@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826566"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305461"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origens de dados suportadas pelo DirectQuery no Power BI
 
@@ -24,26 +24,29 @@ O **Power BI Desktop** e o **serviço Power BI** têm várias origens de dados �
 As seguintes origens de dados suportam o DirectQuery no Power BI:
 
 * Amazon Redshift
-* Azure HDInsight Spark (Beta)
+* AtScale (Beta)
+* Azure HDInsight Spark
 * Base de Dados SQL do Azure
-* SQL Data Warehouse do Azure
-* Google BigQuery (Beta)
+* Azure SQL Data Warehouse
+* Google BigQuery
+* Interactive Query do HDInsight
 * Base de dados DB2 da IBM
-* IBM Netezza (Beta)
+* IBM Netezza
 * Impala (versão 2.x)
 * Base de dados Oracle (versão 12 e posteriores)
+* Oracle Essbase
 * SAP Business Warehouse Application Server
-* SAP Business Warehouse Message Server (Beta)
+* SAP Business Warehouse Message Server
 * SAP HANA
 * Snowflake
-* Spark (Beta) (versão 0.9 e posteriores)
+* Spark (versão 0.9 e posteriores)
 * SQL Server
 * Base de Dados Teradata
-* Vertica (Beta)
+* Vertica
 
 As origens de dados com **(Beta)** ou **(Pré-visualização)** após o respetivo nome estão sujeitas a alterações e não são suportadas para utilização em produção. Também poderão não ser suportadas depois de publicar um relatório para o **serviço Power BI**, o que significa que abrir um relatório publicado ou explorar o conjunto de dados pode resultar num erro.
 
-A única diferença entre as origens de dados **(Beta)** e **(Pré-visualização)** é que as origens **(Pré-visualização)** têm de ser ativadas como uma funcionalidade de Pré-visualização antes de ficarem disponíveis para utilização. Para ativar um conector de dados **(Pré-visualização)**, no **Power BI Desktop** aceda a **Ficheiro > Opções e Definições > Opções** e, em seguida, selecione **Funcionalidades de pré-visualização**.
+A única diferença entre as origens de dados **(Beta)** e **(Pré-visualização)** é que as origens **(Pré-visualização)** têm de ser ativadas como uma funcionalidade de Pré-visualização antes de ficarem disponíveis para utilização. Para ativar um conector de dados **(Pré-visualização)** , no **Power BI Desktop** aceda a **Ficheiro > Opções e Definições > Opções** e, em seguida, selecione **Funcionalidades de pré-visualização**.
 
 > [!NOTE]
 > As consultas de DirectQuery para o SQL Server exigem autenticação com credenciais atuais do Windows ou credenciais de bases de dados para estabelecer acesso. Não são suportadas credenciais alternativas.

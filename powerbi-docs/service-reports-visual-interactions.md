@@ -13,11 +13,11 @@ ms.date: 02/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426591"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61405991"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Alterar a forma como os elementos visuais interagem num relatório do Power BI
 Se tiver permissões de edição para um relatório, pode utilizar as **interações visuais** para alterar a forma como as visualizações têm impacto umas nas outras numa página de relatório. 

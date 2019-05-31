@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275140"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374065"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicação Power BI for Mixed Reality (Pré-visualização)
 Veja os seus dashboards e relatórios na aplicação Power BI for Mixed Reality (Preview) no mundo virtual ou coloque-os em localizações específicas no contexto do seu ambiente. 

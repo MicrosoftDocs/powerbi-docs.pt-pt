@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8fc00df58620afe56e863fe42f899e0116ab36f2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286341"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137601"
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>Add an image to a Power BI dashboard (Adicionar uma imagem a um dashboard do Power BI)
 Existem várias formas de adicionar uma imagem autónoma a um dashboard: uma forma é afixar uma imagem a partir de um relatório a um dashboard e outra forma consiste em adicioná-la diretamente ao dashboard utilizando **Adicionar mosaico**.  Para obter mais informações, visite nestes artigos:

@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174873"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61399103"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
-Este artigo inclui as listas de idiomas e países/regiões suportados do serviço Power BI, do Power BI Desktop e da documentação do Power BI.
+Este artigo apresenta uma lista de idiomas suportados e países/regiões para o serviço Power BI, Power BI Desktop e documentação do Power BI.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Países e regiões onde o Power BI está disponível
 Para obter uma lista de países e regiões onde o Power BI está disponível, consulte a [lista de disponibilidade internacional](https://products.office.com/business/international-availability). 
@@ -73,11 +73,11 @@ O serviço Power BI (no browser) está disponível nos seguintes 44 idiomas:
 * Vietnamita - Tiếng Việt
 
 ### <a name="whats-translated"></a>O que é traduzido
-Menus, botões, mensagens e outros elementos da experiência são convertidos no seu idioma, tornando mais fácil navegar e interagir com o Power BI.
+Power BI converte menus, botões, mensagens e outros elementos de experiência no seu idioma.
 
 Neste momento, alguns recursos estão disponíveis apenas em inglês:
 
-* os dashboards e relatórios que o Power BI cria para si quando se liga a serviços como o Microsoft Dynamics CRM, Google Analytics, Salesforce e assim sucessivamente. (Pode ainda criar os seus próprios dashboards e relatórios no seu próprio idioma.)
+* Dashboards e relatórios que o Power BI cria quando se liga a serviços como o Microsoft Dynamics CRM, Google Analytics e o Salesforce. Pode ainda criar seus próprios dashboards e relatórios em seu próprio idioma.
 * Explorar dados com P e R.
 
 Fique atento: estamos trabalhando para traduzir os recursos adicionais para outros idiomas. 
@@ -142,7 +142,7 @@ O idioma que selecionou para o Power BI Desktop afeta o formato de apresentaçã
 Para alterar o idioma do Power BI Desktop, regresse à página de transferências e transfira-o num idioma diferente.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Escolher a região para importar dados para o Power BI Desktop
-Tenha transferido o Power BI Desktop ou instalado o mesmo a partir da Loja Windows, pode selecionar uma região para um relatório específico como uma diferente da região na sua versão do Power BI Desktop. Esta alteração muda a forma como os dados são interpretados quando são importados da sua origem de dados, por exemplo, se "3/4/2017" é interpretado como 3 de abril ou 4 de março. 
+Tenha transferido o Power BI Desktop ou instalado o mesmo a partir da Loja Windows, pode selecionar uma região para um relatório específico como uma diferente da região na sua versão do Power BI Desktop. As alterações de localidade, os dados de forma são interpretados quando são importado a partir dos seus dados de origem, por exemplo se "3/4/2017" é interpretado como 3 4 de Abril ou de Março. 
 
 1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**.
 2. Em **Ficheiro atual**, selecione **Definições Regionais**.
@@ -193,5 +193,5 @@ A ajuda está traduzida nos seguintes 10 idiomas:
 ## <a name="next-steps"></a>Próximos passos
 * Está a utilizar uma das aplicações móveis do Power BI? Consulte os [Idiomas suportados nas aplicações móveis do Power BI](consumer/mobile/mobile-apps-supported-languages.md) para obter detalhes.
 * Perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
-* Ainda tem problemas? Consulte a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
+* Ainda tem problemas? Visite a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 

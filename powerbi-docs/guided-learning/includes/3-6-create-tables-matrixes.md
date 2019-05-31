@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 867e528c43126ae9073c0113905d59a835c46a96
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397608"
+---
 Para além de uma abundância de gráficos, o Power BI Desktop também suporta mais visualizações de tabela. Na realidade, quando captar um campo categórico ou campo de texto e arrastá-lo para o ecrã de relatórios, recebe uma tabela de resultados por predefinição. Pode percorrer para cima e para baixo na tabela e inicialmente será ordenado por ordem alfabética.
 
 ![](media/3-6-create-tables-matrixes/3-6_1.png)

@@ -11,11 +11,11 @@ ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383320"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61198248"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é a administração do Power BI?
 
@@ -35,7 +35,7 @@ A tarefa é tornar os utilizadores empresariais produtivos e garantir a seguran�
 
 Existem várias funções relacionadas com a administração do Power BI, abordadas na tabela seguinte.
 
-| **Tipo de administrador** | **Âmbito administrativo** | **Âmbito do Power BI** |
+| **Tipo de administrator** | **Âmbito administrativo** | **Âmbito do Power BI** |
 | --- | --- | --- |
 | Administrador Global do Office 365 | Office 365 | Pode gerir todos os aspetos de um inquilino do Power BI e outros serviços. |
 | Administrador de Faturação do Office 365 | Office 365 | Pode adquirir licenças do Power BI através de subscrições do Office 365. |
@@ -62,7 +62,7 @@ Os administradores executam bastantes tarefas para suportar o inquilino do Power
 | Garantir a conformidade com políticas internas, leis e regulamentos | <ul><li>Gerir a classificação de dados de negócio<br><li>Ajudar a impor políticas de partilha e publicação de conteúdos</ul>|
 | Gerir recursos do Power BI |<ul><li>Gerir áreas de trabalho<br><li>Publicar elementos visuais personalizados<br><li>Validar códigos que servem para incorporar o Power BI noutras aplicações|
 | Fornecer ajuda e suporte aos utilizadores inquilinos |<ul><li>Resolver problemas de acesso a dados e outros problemas</ul>|
-| Outras tarefas |<ul><li>Implementar o Power BI Desktop, por exemplo, com o System Center Configuration Manager<br><li>Gerir a implementação de aplicações móveis do Power BI com o Intune<br><li>Gerir a privacidade e a segurança dos dados, como a segurança dos dados de origem</ul>|
+| Outras tarefas |<ul><li>Implementar o Power BI Desktop, por exemplo, com o System Center Configuration Manager<br><li>Gerir a implementação de aplicações móveis do Power BI com o Intune<br><li>Gerir a privacidade e a segurança dos dados,como a segurança dos dados de origem</ul>|
 
 ## <a name="administrative-tools"></a>Ferramentas administrativas
 
