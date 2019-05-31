@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181679"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar na sua área de trabalho de aplicação do Power BI
 As áreas de trabalho de aplicações do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. A colaboração não termina com as áreas de trabalho no Power BI. O Office 365 fornece serviços de grupo como a partilha de ficheiros no OneDrive para Empresas, conversas no Exchange, tarefas e calendário partilhados, entre outros. Saiba mais sobre os [grupos no Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -43,7 +43,7 @@ Após criar um ficheiro do Power BI Desktop, se o publicar na sua área de traba
 ## <a name="collaborate-in-office-365"></a>Colaborar no Office 365
 Colaborar no Office 365 começa a partir da área de trabalho de aplicação no Power BI.
 
-1. No serviço Power BI, selecione a seta junto a Áreas de trabalho > selecione as reticências (**…**) junto ao nome da sua área de trabalho. 
+1. No serviço Power BI, selecione a seta junto a Áreas de trabalho > selecione as reticências ( **…** ) junto ao nome da sua área de trabalho. 
    
    ![Menu Áreas de trabalho](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Neste menu, pode colaborar com o seu grupo de diversas formas: 
@@ -64,7 +64,7 @@ Colaborar no Office 365 começa a partir da área de trabalho de aplicação no 
 2. Saiba mais sobre as [conversas de grupo no Outlook para Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Agendar um evento no calendário de área de trabalho de grupo da aplicação
-1. Selecione as reticências (**…**) junto ao nome da área de trabalho da sua aplicação \> **Calendário**. 
+1. Selecione as reticências ( **…** ) junto ao nome da área de trabalho da sua aplicação \> **Calendário**. 
    
    ![Separador Calendário](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216591"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61053500"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de desagregação numa visualização no Power BI
 
@@ -191,7 +191,7 @@ Além da visualização, podemos ver a hierarquia refletida nos dados compostos 
 Tenha em atenção que os dados são os mesmos para relatórios trimestrais e anuais, mas após desagregar o nível de detalhe especificado para **Valores**, pode ver que o relatório único é mais específico e o relatório "todos os meses" tem mais dados.
 
 
-|Modo Expandir|Ano|Trimestre|Mês|Day|
+|Modo Expandir|Ano|Trimestre|Mês|Dia|
 | ---|:---:|:---:|:---:|---|
 |Único|![ano único](./media/end-user-drill/power-bi-hierarchical-year.png)|![trimestre único](media/end-user-drill/power-bi-hierarchical-quarter.png)|![mês único](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![dia único](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Tudo|![todos os anos](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos os trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos os meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos os dias](media/end-user-drill/power-bi-hierarchical-all-day.png)|

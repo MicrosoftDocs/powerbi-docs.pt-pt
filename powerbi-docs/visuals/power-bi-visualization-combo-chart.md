@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275761"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187801"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráfico de Combinação no Power BI
 No Power BI, um gráfico de combinação é uma visualização única que combina um gráfico de linhas e um gráfico de colunas. Combinar os 2 gráficos em um, permite-lhe fazer uma comparação rápida dos dados.
@@ -52,7 +52,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 
     b.  Arraste **Vendas** \> **Margem Bruta Deste Ano** para o painel **Valor**.
 
-    c.  Selecione **Hora** \> **MêsFiscal** para adicionar este campo ao painel **Eixo**.
+    c. Selecione **Hora** \> **MêsFiscal** para adicionar este campo ao painel **Eixo**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecione as reticências (…) no canto superior direito da visualização e selecione **Ordenar por > MêsFiscal**. Para alterar a sequência de ordenação, selecione as reticências novamente e selecione **Ordenação ascendente** ou **Ordenação descendente**.
@@ -71,7 +71,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 ## <a name="create-a-combo-chart-with-two-axes"></a>Criar um gráfico de combinação com dois eixos
 Nesta tarefa, vamos comparar as vendas e a margem bruta.
 
-1. Crie um novo gráfico de linhas que acompanha a **% da Margem Bruta do ano passado**  por **Mês**. Selecione as reticências para ordenar por **Mês** e **Ascendente**.  
+1. Criar um novo gráfico de linhas que controla **margem bruta % do ano passado** por **Mêsfiscal**. Selecione as reticências para ordenar por **Mês** e **Ascendente**.  
 Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45% em abril, caindo em julho e chegando ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45%
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. Arraste **% de Margem Bruta no Ano Passado** de **Valores de Coluna** para **Valores de Linha**. O Power BI cria dois eixos, o que permite que os conjuntos de dados sejam escalados de modo diferente: o eixo à esquerda calcula as vendas em dólares e o eixo à direita calcula a percentagem. Vemos a resposta à nossa pergunta: sim, podemos ver um padrão semelhante.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Adicionar títulos aos eixos
 1. Selecione o ícone de rolo de tinta ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir o painel Formatar.
 2. Selecione a seta para baixo para expandir as opções do **eixo Y** .
-3. Para **Eixo Y (Coluna)**, defina **Posição** como **Esquerda**, **Título** como **Ativado**, **Estilo** como **Mostrar apenas título** e **Apresentar** como **Milhões**.
+3. Para **eixo y (coluna)** , defina **posição** para **esquerda**, defina **Title** para **no**,  **Estilo** para **Mostrar apenas título**, e **unidades de apresentação** como **milhões**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. Em **Eixo Y (Coluna)**, desloque para baixo e certifique-se de que **Mostrar Secundário** também está definido como **Ativado**. Esta ação apresenta as opções de formatação da parte do gráfico de linhas do gráfico de combinação.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. Sob **eixo y (coluna)** , desloque para baixo até ver **Mostrar secundário**. Como existem muitas opções para os eixos Y, poderá ter de utilizar ambas as barras de rolagem. A secção de secundária Show apresenta as opções de formatação a parte do gráfico de linha do gráfico de combinação.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
-5. Para **Eixo Y (Linha)**, deixe **Posição** como **Direita**, **Título** como **Ativado** e defina **Estilo** como **Mostrar apenas título**.
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
+5. Para **Eixo Y (Linha)** , deixe **Posição** como **Direita**, **Título** como **Ativado** e defina **Estilo** como **Mostrar apenas título**.
 
    O gráfico de combinação apresenta agora eixos duplos, ambos com títulos.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. Opcionalmente, modifique o tipo de letra do texto, o tamanho e a cor, e defina outras opções de formatação para melhorar o ecrã e a facilidade de leitura do gráfico.
 

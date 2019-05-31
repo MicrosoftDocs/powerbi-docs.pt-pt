@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051076"
+---
 Bem-vindo à **Aprendizagem Orientada** do Power BI. Este curso online personalizado explica o Power BI de uma forma sequencial, para poder desenvolver o seu conhecimento desde o início.
 
 O curso foi concebido para fornecer orientações em blocos compreensíveis, com um fluxo lógico que o ajuda a assimilar conceitos, detalhes e exemplos. Inclui também vários elementos visuais e vídeos para o ajudar a aprender.
@@ -23,7 +31,7 @@ Estes três elementos – o **Desktop**, o **serviço** e o **Mobile** – foram
 ## <a name="how-power-bi-matches-your-role"></a>Como o Power BI corresponde à sua função
 O modo de utilização do Power BI poderá depender da sua função num projeto ou numa equipa. Outras pessoas, noutras funções, poderão utilizar o Power BI de forma diferente, o que é normal.
 
-Por exemplo, poderá utilizar principalmente o **serviço Power BI**, mas um dos seus colegas que cria relatórios empresariais com muitos cálculos matemáticos poderá fazer um uso extensivo do **Power BI Desktop** (e publicar relatórios do Desktop no serviço Power BI, que, em seguida, poderá ver). E outra das suas colegas, no departamento de vendas, poderá utilizar principalmente a aplicação do Power BI para telemóvel para monitorizar o progresso nas suas quotas de vendas e para explorar detalhes de novas oportunidades potenciais de vendas.
+Por exemplo, poderá utilizar principalmente o **serviço Power BI**, mas um dos seus colegas que cria relatórios empresariais com muitos cálculos matemáticos poderá fazer um uso extensivo do **Power BI Desktop** (e publicar relatórios do Desktop no serviço Power BI, que, em seguida, poderá ver). E outra das suas colegas, nas vendas, poderá utilizar principalmente a aplicação de telemóvel do Power BI para monitorizar o progresso no cotas de vendas e para explorar novos detalhes de oportunidades potenciais de vendas.
 
 Também poderá utilizar cada elemento do **Power BI** em alturas diferentes, consoante o que estiver a tentar obter ou consoante a sua função num determinado projeto ou esforço.
 

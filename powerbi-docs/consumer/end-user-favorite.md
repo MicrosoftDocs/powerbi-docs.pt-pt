@@ -9,44 +9,40 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f38110e743018f66249c471705b8a25652ef2a3a
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661682"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374981"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Marcar dashboards, relatórios e aplicações como favoritos no serviço Power BI
-Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos em todas as suas áreas de trabalho.  Normalmente, os favoritos são os conteúdos que visita com mais frequência.
+Ao marcar conteúdos uma *favorito*, poderá acessá-lo rapidamente a partir a **Favoritos** lista de conteúdo e de **Power BI home page**  >   **Favoritos e frequentes**.  Os favoritos são, normalmente, conteúdos que visita com mais frequência e são identificados com um asterisco amarelo.
 
-> [!NOTE]
-> Este tópico aplica-se ao serviço Power BI e não ao Power BI Desktop.
-> 
-> 
+   ![ícone Favorito](./media/end-user-favorite/power-bi-favorite-nav.png)
 
-Também pode selecionar um único dashboard como um [dashboard em destaque](end-user-featured.md) no serviço Power BI.
+   ![ícone Favorito](./media/end-user-favorite/power-bi-home.png)
+
+Também pode selecionar um único dashboard como um [dashboard em destaque](end-user-featured.md) no serviço Power BI.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Adicionar um dashboard ou relatório como *favorito*
-Veja a Amanda a adicionar favoritos à sua área de trabalho e, em seguida, siga as instruções passo a passo abaixo do vídeo para experimentar.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
-
 
 1. Abra um dashboard ou relatório que utiliza frequentemente. Até os conteúdos que foram partilhados consigo podem ser marcados como *favoritos*.
-2. No canto superior direito do serviço Power BI, selecione **Favorito** ou o ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png).
+
+2. No Friso superior do serviço Power BI e selecione **favorito** ou a estrela ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png) ícone.
    
    ![ícone Favorito](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   Também pode marcar um dashboard ou relatório como favorito a partir do separador **Dashboards** ou **Relatórios** da vista de conteúdos da sua área de trabalho.
+   Pode também favorito um dashboard ou relatório em qualquer lugar, ver o ícone de estrela, como Home, recente, aplicações e partilhado comigo. 
    
-   ![Separador Dashboard com estrela amarela](./media/end-user-favorite/power-bi-dashboard-favorite.png)
+   ![Separador Dashboard com estrela amarela](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Adicionar uma aplicação como *favorita*
 
-1. No painel de navegação esquerdo, selecione **Aplicações**.
+1. No painel de navegação, selecione **aplicações**.
 
    ![dashboard](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -55,10 +51,10 @@ Veja a Amanda a adicionar favoritos à sua área de trabalho e, em seguida, siga
    ![pairar o cursor sobre uma aplicação](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Trabalhar com *favoritos*
-1. Para aceder aos favoritos, em qualquer área de trabalho, selecione a seta de lista de opções à direita de **Favoritos**.  Aqui pode selecionar um item favorito para o abrir. São listados apenas cinco favoritos (por ordem alfabética). Se tiver mais de cinco, selecione **Ver todos** para abrir o ecrã de favoritos (veja o passo 2, abaixo). 
+1. Para aceder aos seus favoritos, selecione a seta de lista de opções à direita da **Favoritos**.  Aqui pode selecionar um item favorito para o abrir. São listados apenas cinco favoritos (por ordem alfabética). Se tiver mais de cinco, selecione **ver todas as** para abrir os conteúdo de Favoritos listam (veja #2, abaixo). 
    
-   ![Lista de opções Favoritos](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
-2. Para ver **todos** os conteúdos adicionados aos favoritos, no painel de navegação esquerdo, selecione **Favoritos** ou o ![ícone Favoritos](./media/end-user-favorite/power-bi-favorites-icon.png).  
+   ![Lista de opções Favoritos](./media/end-user-favorite/power-bi-favorite-flyout.png)
+2. Para ver **todos os** os conteúdos que adicionou como favoritos, no painel de navegação, selecione **Favoritos** ou o ![ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png) ícone.  
    
     ![janela favoritos](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -72,13 +68,14 @@ Já não precisa de utilizar um relatório com tanta frequência?  Pode anulá-l
    ![Ecrã Favoritos](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Selecione a estrela amarela junto aos conteúdos que pretende remover dos favoritos.
 
-> **NOTA**: também pode remover um dashboard, relatório ou até uma aplicação dos favoritos. Basta abrir e desselecionar o ícone amarelo.   
+> [!NOTE]
+> também pode remover um dashboard, relatório ou até uma aplicação dos favoritos. Basta abrir e desselecionar o ícone amarelo.   
 > 
 > 
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+Neste momento, pode tornar uma aplicação favorita e este automaticamente Favoritos todos os relatórios e dashboards para essa aplicação. Não é possível para aplicações individuais favoritos relatórios ou dashboards. 
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](../power-bi-overview.md)
-
 [Power BI - Conceitos Básicos](end-user-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430329"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404545"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Tutorial: Invocar um modelo do Machine Learning Studio no Power BI (Pré-visualização)
 
@@ -48,7 +48,7 @@ Inicie sessão no [portal do Azure](https://portal.azure.com) e navegue para a p
 
 ![Portal do Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selecione a subscrição do Azure que utilizou para publicar o modelo e selecione **Controlo de Acesso (IAM)**. Em seguida, selecione **Adicionar atribuição de função**, depois selecione a função **Leitor** e, por último, selecione o utilizador do Power BI. Selecione **Guardar** quando terminar. A imagem seguinte mostra as seleções indicadas.
+Selecione a subscrição do Azure que utilizou para publicar o modelo e selecione **Controlo de Acesso (IAM)** . Em seguida, selecione **Adicionar atribuição de função**, depois selecione a função **Leitor** e, por último, selecione o utilizador do Power BI. Selecione **Guardar** quando terminar. A imagem seguinte mostra as seleções indicadas.
 
 ![Controlo de Acesso do portal do Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -90,7 +90,7 @@ Selecione **Ficheiro de Texto/CSV** como origem de dados.
 
 No ecrã seguinte, é-lhe pedido para ligar a uma origem de dados. Cole a ligação para os dados que utilizou para criar o seu modelo do Azure ML. Se utilizou os dados de _Preço de Automóvel_, pode colar a seguinte ligação na caixa **Caminho de ficheiro ou URL** e depois selecione **Seguinte**.
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![Ligar a origem de dados](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 

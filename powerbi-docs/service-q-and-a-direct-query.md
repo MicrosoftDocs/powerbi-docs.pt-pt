@@ -1,6 +1,6 @@
 ---
 title: Utilizar as Perguntas e Respostas com ligações em direto no Power BI
-description: Documentação para utilizar consultas em linguagem natural de Perguntas e Respostas do Power BI com ligações em direto a dados do Analysis Services e ao Gateway de dados no local.
+description: Documentação para utilizar consultas em linguagem natural de Perguntas e Respostas do Power BI com ligações em direto a dados do Analysis Services e ao gateway de dados no local.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: mihart
@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 1484d1dc646270de6f789dc102c6d75343dac832
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65624929"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Ativar as Perguntas e Respostas para ligações em direto no Power BI
-## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é um Gateway de dados no local?  O que é uma ligação em direto?
-Os conjuntos de dados no Power BI podem ser importados para o Power BI ou o utilizador pode criar uma ligação em direto aos mesmos. Os conjuntos de dados de ligações em direto costumam ser conhecidos como "no local". As ligações em direto são geridas através de um [gateway](service-gateway-onprem.md) e os dados e questões são enviados em ambos os sentidos através de consultas em direto.
+## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados no local?  O que é uma ligação em direto?
+Os conjuntos de dados no Power BI podem ser importados para o Power BI ou o utilizador pode criar uma ligação em direto aos mesmos. Geralmente são chamados de conjuntos de dados de ligação em direto como "no local". As ligações em direto são geridas através de um [gateway](service-gateway-onprem.md) e os dados e questões são enviados em ambos os sentidos através de consultas em direto.
 
-## <a name="qa-for-on-premises-data-gateway-datasets"></a>Perguntas e Respostas dos conjuntos de dados do Gateway de dados no local
+## <a name="qa-for-on-premises-data-gateway-datasets"></a>Perguntas e Respostas para conjuntos de dados de gateway de dados
 Se pretende utilizar as Perguntas e Respostas com conjuntos de dados aos quais acede através de um gateway, terá de os ativar primeiro.
 
 Após a ativação, o Power BI cria um índice da sua origem de dados e carrega um subconjunto desses dados para o Power BI para permitir a colocação de perguntas. Poderão ser necessários vários minutos para criar o índice inicial e o Power BI mantém e atualiza o índice automaticamente à medida que os seus dados mudam. Utilizar as Perguntas e Respostas com estes conjuntos de dados tem o mesmo comportamento que com os dados publicados no Power BI. O conjunto completo de funcionalidades disponíveis na experiência de Perguntas e Respostas é suportado em ambos os casos, incluindo a utilização da origem de dados com a Cortana.
@@ -32,8 +32,8 @@ Uma vez que as Perguntas e Respostas do Power BI utilizam os valores de esquema 
 
 Para obter mais informações, veja:
 
-* O que é o [Gateway de dados no local](service-gateway-onprem.md)?
-* [Introdução às Perguntas e Respostas do Power BI](consumer/end-user-q-and-a.md)
+* O que é o [gateway de dados no local](service-gateway-onprem.md)?
+* [Power BI P e r para os consumidores](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>Ativar as Perguntas e Respostas
 Após o gateway de dados ser configurado, ligue-se aos seus dados a partir do Power BI.  Crie um dashboard ao utilizar os seus dados no local ou carregue um ficheiro .pbix que utilize dados no local.  Também pode já ter dados no local em dashboards, relatórios e conjuntos de dados que tenham sido partilhados consigo.
@@ -52,18 +52,19 @@ Após o gateway de dados ser configurado, ligue-se aos seus dados a partir do Po
 Quando ativar as Perguntas e Respostas para os seus dados no local, um subconjunto dos seus dados será colocado em cache no serviço. Isto serve para garantir que as Perguntas e Respostas funcionam com um desempenho razoável. O Power BI exclui valores com mais de 24 carateres da colocação em cache. A cache é eliminada dentro de poucas horas quando desativa as Perguntas e Respostas ao desmarcar a opção **Ativar as Perguntas e Respostas para este conjunto de dados**, ou quando elimina o seu conjunto de dados.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-Durante a fase de Pré-visualização desta funcionalidade, existem diversas limitações:
+A funcionalidade tem algumas limitações:
 
-* Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. A experiência das Perguntas e Respostas ainda não é suportada em origens multidimensionais. As origens de dados adicionais suportadas pelo Gateway de dados no local serão implementadas ao longo do tempo.
-* O suporte integral para segurança ao nível de linha definido no SQL Server Analysis Services não está inicialmente disponível na pré-visualização pública. Ao colocar perguntas nas Perguntas e Respostas, o "preenchimento automático" de perguntas ao escrever pode mostrar valores de cadeias às quais um utilizador não tem acesso. No entanto, a RLS definida no modelo é respeitada em visuais de gráficos e relatórios, o que impede a exposição dos dados numéricos subjacentes. As opções para controlar este comportamento serão lançadas em atualizações futuras.
-* A segurança ao nível do objeto (OLS) não é suportada. As Perguntas e Respostas não respeitam a segurança ao nível do objeto e podem revelar os nomes das colunas ou tabelas a utilizadores que não têm acesso aos mesmos. Deve ativar o RLS para garantir que os valores de dados também estão protegidos adequadamente. 
-* As ligações em direto só são suportadas com o Gateway de dados no local. Como resultado, não é possível utilizar esta funcionalidade com o gateway pessoal.
+* Inicialmente, a funcionalidade só está disponível para origens de dados do SQL Server 2016 Analysis Services Tabular. A funcionalidade está otimizada para trabalhar com dados de tabela. Perguntas e respostas uma experiência ainda não é suportada para multidimensional. Origens de dados adicionais suportadas pelo gateway de dados no local serão implementadas ao longo do tempo.
+* Suporte integral para segurança ao nível da linha definida no SQL Server Analysis Services não está disponível inicialmente. Ao fazer perguntas nas perguntas e respostas, o "preenchimento automático" de perguntas ao escrever pode mostrar valores de cadeia de um utilizador não tem acesso a. No entanto, a RLS definida no modelo é respeitada em visuais de gráficos e relatórios, o que impede a exposição dos dados numéricos subjacentes. As opções para controlar este comportamento serão lançadas em atualizações futuras.
+* Segurança ao nível do objeto (OLS) não é suportada. As perguntas e respostas não respeitam a segurança ao nível do objeto e podem revelar nomes de tabela ou coluna para utilizadores que não têm acesso aos mesmos. Deve ativar o RLS para garantir que os valores de dados também estão protegidos adequadamente. 
+* As ligações em direto só são suportadas com o gateway de dados no local. Como resultado, isso não pode ser utilizado com o gateway pessoal.
 
-## <a name="next-steps"></a>Passos seguintes
-[Gateway de dados no local](service-gateway-onprem.md)  
-[Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)  
-[Descrição Geral de Perguntas e Respostas do Power BI](consumer/end-user-q-and-a.md)  
+## <a name="next-steps"></a>Próximos passos
+
+- [Gateway de dados no local](service-gateway-onprem.md)  
+- [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+- [Power BI: Conceitos básicos](consumer/end-user-basic-concepts.md)  
+- [Descrição Geral de Perguntas e Respostas do Power BI](consumer/end-user-q-and-a.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

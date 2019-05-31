@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fc013df4526c62a9f2e1aa25328119983aaa30e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278107"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65239761"
 ---
 # <a name="customizing-tooltips-in-power-bi-desktop"></a>Personalizar Descrições no Power BI Desktop
 As descrições são uma forma elegante de fornecer informações mais contextuais e detalhes para pontos de dados num elemento visual. A imagem seguinte mostra uma descrição aplicada a um gráfico no Power BI Desktop.
 
 ![Descrição predefinida](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Quando uma visualização é criada, a descrição predefinida apresenta o valor e a categoria do ponto de dados. Existem várias instâncias em que a capacidade de personalizar as informações de descrição seria útil e forneceria contexto e informações adicionais aos utilizadores que visualizam o elemento visual. As descrições personalizadas permitem-lhe especificar os pontos de dados adicionais que são apresentados como parte da descrição.
+Quando uma visualização é criada, a descrição predefinida apresenta o valor e a categoria do ponto de dados. Existem muitas instâncias quando as informações de descrição de personalização é útil e poderiam fornecer contexto adicional e informações para utilizadores que visualizam o elemento visual. As descrições personalizadas permitem-lhe especificar os pontos de dados adicionais que são apresentados como parte da descrição.
 
 ## <a name="how-to-customize-tooltips"></a>Como personalizar descrições
-Para criar uma descrição personalizada, no poço **Campos** do painel **Visualizações**, arraste um campo para o registo **Descrições**, conforme mostrado na imagem seguinte. Na seguinte imagem, foram colocados dois campos no registo **Descrições**.
+Para criar uma descrição personalizada, no **campos** do **visualizações** painel arraste um campo para o **descrições** bucket, mostrado na imagem seguinte. Na seguinte imagem, foram colocados dois campos no registo **Descrições**.
 
 ![Adicionar campos de descrição](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ Pode personalizar ainda mais uma descrição, ao selecionar uma função de agre
 
 ![Descrição com Cálculo Rápido](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-Existem várias formas de personalizar **Descrições**, com qualquer campo disponível no conjunto de dados, para transmitir informações rápidas aos utilizadores que visualizam os dashboards ou relatórios.
+Existem várias formas de personalizar **descrições**, com qualquer campo disponível no conjunto de dados, para transmitir informações rápidas aos utilizadores que visualizam os dashboards ou relatórios.
 

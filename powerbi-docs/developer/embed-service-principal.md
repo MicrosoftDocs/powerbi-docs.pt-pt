@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710523"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375051"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
 
@@ -120,7 +120,7 @@ Ao contrário da utilização tradicional de uma conta principal, a utilização
 
 5. Adicione o principal de serviço como um **administrador** à nova área de trabalho que criou. Pode gerir esta tarefa através das [APIs](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) ou com o serviço Power BI.
 
-    ![Adicionar um principal de serviço a uma área de trabalho](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Adicionar um principal de serviço como um administrador para uma área de trabalho](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Opte por incorporar os seus conteúdos numa aplicação de exemplo ou na sua própria aplicação.
 
@@ -174,10 +174,11 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 * Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não conseguem utilizar o principal de serviço.
 * A gestão de [fluxos de dados](../service-dataflows-overview.md) não é suportada.
-* O principal de serviço não suporta APIs de administração.
+* Principal de serviço não suporta atualmente a qualquer administrador APIs.
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Registar uma aplicação](register-app.md)
 * [Power BI Embedded para clientes](embed-sample-for-customers.md)
 * [Objetos do principal de serviço e aplicação no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Segurança ao nível da linha com o gateway de dados no local com o principal de serviço (pré-visualização)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

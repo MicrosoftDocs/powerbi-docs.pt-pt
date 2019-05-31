@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514302"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
@@ -134,11 +134,11 @@ Se ainda não tiver dados de transmissão em fluxo configurados, não se preocup
 
 ![](media/service-real-time-streaming/real-time-streaming_2.png)
 
-Nesta página, pode introduzir o ponto final do seu conjunto de dados de transmissão em fluxo se já tiver um criado (na caixa de texto). No caso de ainda não ter um conjunto de dados de transmissão em fluxo, selecione o ícone de adição (**+**) no canto superior direito para ver as opções disponíveis para a criação de um conjunto de dados de transmissão em fluxo.
+Nesta página, pode introduzir o ponto final do seu conjunto de dados de transmissão em fluxo se já tiver um criado (na caixa de texto). No caso de ainda não ter um conjunto de dados de transmissão em fluxo, selecione o ícone de adição ( **+** ) no canto superior direito para ver as opções disponíveis para a criação de um conjunto de dados de transmissão em fluxo.
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
-Quando clicar no ícone **+**, ser-lhe-ão apresentadas duas opções:
+Quando clicar no ícone **+** , ser-lhe-ão apresentadas duas opções:
 
 ![](media/service-real-time-streaming/real-time-streaming_4a.png)
 

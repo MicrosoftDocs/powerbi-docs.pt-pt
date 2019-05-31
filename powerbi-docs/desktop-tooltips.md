@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514530"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
@@ -27,7 +27,7 @@ Pode criar as páginas de descrição que pretender. Cada página de descrição
 Existem inúmeras coisas interessantes que pode fazer com as descrições de relatórios. Veja como pode criar descrições e o que tem de fazer para as configurar.
 
 ## <a name="create-a-report-tooltip-page"></a>Criar uma página de descrições de relatórios
-Para começar, crie uma nova página de relatório ao clicar no botão **+**, que se encontra na parte inferior da tela do **Power BI Desktop**, na área de separadores de página. O botão encontra-se junto à última página no relatório. 
+Para começar, crie uma nova página de relatório ao clicar no botão **+** , que se encontra na parte inferior da tela do **Power BI Desktop**, na área de separadores de página. O botão encontra-se junto à última página no relatório. 
 
 ![Criar uma nova página de relatório para a descrição](media/desktop-tooltips/desktop-tooltips_02.png)
 

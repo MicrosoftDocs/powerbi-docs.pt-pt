@@ -1,22 +1,22 @@
 ---
 title: Resolver problemas de erros de mosaico
 description: Erros comuns que podem ser encontrados quando um mosaico tenta ser atualizado no Power BI
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086638"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051002"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
@@ -64,6 +64,17 @@ O campo provavelmente foi eliminado ou o seu nome foi alterado. É possível rem
 **Não foi possível recuperar os dados deste elemento visual. Tente novamente mais tarde.**
 
 Isso geralmente é um problema temporário. Se tentar novamente mais tarde e continuar a receber essa mensagem, entre em contacto com o suporte.
+
+**Mosaicos continuam a mostrar os dados não filtrados depois de ativar o início de sessão único (SSO).**
+
+Isto pode acontecer se o conjunto de dados subjacente é configurado para utilizar o modo DirectQuery ou de uma ligação em direto ao Analysis Services por meio de um gateway de dados no local. Neste caso, os mosaicos continuam mostrar os dados não filtrados depois de ativar o SSO para a origem de dados até que a atualização de mosaico seguinte é concluída. Na próxima atualização de mosaico, o Power BI utiliza o SSO, conforme configurado e os mosaicos mostram os dados filtrados de acordo com a identidade do utilizador. 
+
+Se quiser ver os dados filtrados imediatamente, pode forçar uma atualização do mosaico ao selecionar as reticências (...) no canto superior direito de um dashboard e selecionar **atualizar mosaicos do dashboard**.
+
+Como um proprietário de conjunto de dados, também pode alterar a frequência de atualização de mosaico e defini-lo como 15 minutos para acelerar a atualização de mosaicos. Selecione o ícone de engrenagem no canto superior direito do serviço Power BI, em seguida, selecione **definições**. Sobre o **definições** página, selecione a **conjuntos de dados** separador. Expanda **atualização de cache agendada** e altere **frequência de atualização**. Certifique-se de que reposição da configuração para a frequência de atualização original depois do Power BI executa a seguinte atualização de mosaicos.
+
+> [!NOTE]
+> O **atualização de cache agendada** secção só está disponível para conjuntos de dados no modo DirectQuery/LiveConnection. Conjuntos de dados no modo de importação não necessitam de uma atualização de mosaicos separadas porque os mosaicos são atualizados automaticamente durante a atualização de dados agendada seguinte.
 
 ## <a name="contact-support"></a>Contact support
 Se ainda estiver com problemas, [entre em contacto com o suporte](https://support.powerbi.com) para investigá-los mais aprofundadamente.

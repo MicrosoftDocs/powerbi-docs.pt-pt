@@ -1,20 +1,20 @@
 ---
 title: Configure o Kerberos para usar relatórios do Power BI
 description: Saiba como configurar o servidor de relatórios para a autenticação Kerberos das origens de dados utilizadas nos seus relatórios do Power BI para obter um ambiente distribuído.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223772"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770722"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configure o Kerberos para usar relatórios do Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -23,7 +23,7 @@ Saiba como configurar o servidor de relatórios para a autenticação Kerberos d
 
 O Power BI Report Server inclui a capacidade de alojar relatórios do Power BI. Várias origens de dados são suportadas pelo seu servidor de relatórios. Embora este artigo incida especificamente no SQL Server Analysis Services, pode utilizar os conceitos e aplicá-los a outras origens de dados, como o SQL Server.
 
-Pode instalar o Power BI Report Server, o SQL Server e os Analysis Services num único computador, não sendo necessário configuração adicional. Isto é excelente para um ambiente de teste. Podem aparecer erros se estes serviços tiverem sido instalados em computadores diferentes. Isto é aquilo que se apelida de ambiente distribuído. Neste ambiente, tem de utilizar a autenticação Kerberos. Há passos de configuração necessários para implementar isto. 
+Pode instalar o Power BI Report Server, o SQL Server e os Analysis Services num único computador, não sendo necessário configuração adicional. Isto é excelente para um ambiente de teste. Podem aparecer erros se estes serviços tiverem sido instalados em computadores diferentes. Isto é aquilo que se apelida de ambiente distribuído. Neste ambiente, tem de utilizar a autenticação Kerberos. É necessário configuração para implementar isto. 
 
 Especificamente, terá de configurar a delegação restrita. Pode ter Kerberos configurado no seu ambiente, mas não pode ser configurado para a delegação restrita.
 
@@ -101,7 +101,7 @@ O Power BI Report Server utiliza um serviço de HTTP. Para os SPN HTTP não vai 
 > 
 > 
 
-Se o nome do computador fosse ContosoRS, os SPN seriam os seguintes:
+Se o nome do computador for ContosoRS, os SPN seriam o seguintes:
 
 | Tipo SPN | SPN |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Adicionar hiperligações a uma tabela
-description: Utilize o Power BI Desktop para criar hiperligações. Em seguida, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório.
+description: Utilize o Power BI Desktop para criar hiperligações. Em seguida, utilize o Power BI Desktop ou no serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406667"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421681"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Adicionar hiperligações a uma tabela
 Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Em seguida, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 
@@ -24,11 +24,11 @@ Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Em
 ![Tabela com hiperligações](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> As hiperligações em [mosaicos nos dashboards](service-dashboard-edit-tile.md) e [caixas de texto nos dashboards](service-dashboard-add-widget.md) podem ser criadas no momento com o serviço Power BI. As hiperligações em [caixas de texto em relatórios](service-add-hyperlink-to-text-box.md) podem ser criadas no momento com o serviço Power BI e o Power BI Desktop.
+> Pode criar as hiperligações em [mosaicos nos dashboards](service-dashboard-edit-tile.md) e [caixas de texto nos dashboards](service-dashboard-add-widget.md) no momento com o serviço Power BI. Pode criar as hiperligações em [caixas de texto em relatórios](service-add-hyperlink-to-text-box.md) no momento com o serviço Power BI e Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Criar uma hiperligação numa tabela ou matriz com o Power BI Desktop
-As hiperligações em tabelas e matrizes podem ser criadas no Power BI Desktop, mas não a partir do serviço Power BI. Também é possível criar hiperligações no Excel Power Pivot antes que o livro seja importado para o Power BI. Ambos os métodos são descritos abaixo.
+Pode criar as hiperligações em tabelas e matrizes no Power BI Desktop, mas não no serviço Power BI. Também é possível criar hiperligações no Excel Power Pivot antes de importar o livro no Power BI. Ambos os métodos são descritos abaixo.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Criar uma hiperligação de tabela ou matriz no Power BI Desktop
 O procedimento para adicionar uma hiperligação depende de os dados terem sido importados ou de ter ligado aos mesmos com o DirectQuery. Ambos os cenários são descritos abaixo.
@@ -49,10 +49,15 @@ O procedimento para adicionar uma hiperligação depende de os dados terem sido 
    
 1. Se não quiser apresentar um URL longo numa tabela, pode apresentar, um ícone de hiperligação  ![Ícone de hiperligação](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) como alternativa. Tenha em atenção que não é possível apresentar ícones em matrizes.
    
-   * Selecione o gráfico para ativá-lo.
-   * Selecione o ícone de rolo de pintura ![Ícone de rolo de pintura](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) para abrir o separador Formatação.
-   * Expanda **Valores**, localize o **ícone de URL** e defina-o como **Ativo**.
-6. (Opcional) [Publique o relatório do Desktop no serviço Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) e abra o relatório no serviço Power BI. As hiperligações também funcionarão aí.
+    Selecione o gráfico para ativá-lo.
+
+    Selecionar o ícone Formatar ![Ícone de rolo de pintura](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) para abrir o separador Formatação.
+
+    Expanda **Valores**, localize o **ícone de URL** e defina-o como **Ativo**.
+
+    ![Ativar o ícone de URL](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
+
+1. (Opcional) [Publique o relatório do Desktop no serviço Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) e abra o relatório no serviço Power BI. As hiperligações também funcionarão aí.
 
 ### <a name="for-data-connected-with-directquery"></a>Para dados ligados com DirectQuery
 Não pode criar uma nova coluna no modo DirectQuery.  Porém, pode transformá-los em hiperligações se os dados já contiverem URLs.

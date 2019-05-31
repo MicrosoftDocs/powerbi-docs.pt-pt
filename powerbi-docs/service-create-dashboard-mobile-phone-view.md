@@ -1,5 +1,5 @@
 ---
-title: Criar uma vista de um dashboard do Power BI para telemóveis
+title: Otimizar um dashboard para telemóveis - Power BI
 description: Saiba como criar uma vista personalizada de um dashboard no serviço Power BI especificamente para visualização em telemóveis.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288158"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61158260"
 ---
-# <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Criar uma vista de um dashboard do Power BI otimizada para telemóveis
-Quando vê dashboards na aplicação móvel do Power BI num telemóvel, pode reparar que os mosaicos do dashboard estão dispostos um a seguir ao outro, todos com o mesmo tamanho. No serviço Power BI, pode criar uma vista personalizada de qualquer dashboard que lhe pertença, especificamente para telemóveis.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Otimizar um dashboard para telemóveis - Power BI 
+Quando vê dashboards no modo retrato num telemóvel, observe os mosaicos do dashboard estão dispostos um após o outro, tudo com o mesmo tamanho. No serviço Power BI, pode criar uma vista personalizada de um dashboard, especificamente para o modo retrato telefones. Mesmo que cria uma vista de telefone, quando vira o telemóvel, ver o dashboard como ela será disposta no serviço.
 
-Quando vira o telemóvel de lado, vê o dashboard tal como está disposto no serviço e não como o projetou para o telemóvel.
+Está à procura de informações sobre a visualização de dashboards num dispositivo móvel? Experimente este início rápido [Explore dashboards e relatórios nas aplicações móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) em vez disso.
 
 > [!NOTE]
 > À medida que edita a vista de telefone, qualquer pessoa que esteja a ver o dashboard num telemóvel pode ver as alterações que faz em tempo real. Por exemplo, se remover todos os mosaicos na vista de telefone do dashboard, o dashboard no telemóvel ficará subitamente sem mosaicos. 

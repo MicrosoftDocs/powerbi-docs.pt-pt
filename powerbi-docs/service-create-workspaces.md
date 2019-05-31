@@ -1,36 +1,34 @@
 ---
-title: Criar áreas de trabalho com os seus colegas no Power BI
-description: Saiba como criar áreas de trabalho, coleções de dashboards e relatórios criados para fornecer métricas importantes à sua organização.
+title: Criar áreas de trabalho clássicas no Power BI
+description: Saiba como criar áreas de trabalho, coleções de dashboards, relatórios e relatórios paginados criados para proporcionar métricas importantes para a sua organização.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23c011eded113a0249f5e4a354f909a30bc97148
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: dcf9b8befabfec98fcae154e6276f8e698b3ddc2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277923"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61151050"
 ---
-# <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Criar áreas de trabalho com os seus colegas no Power BI
+# <a name="create-classic-workspaces-in-power-bi"></a>Criar áreas de trabalho clássicas no Power BI
 
-No Power BI, pode criar *áreas de trabalho*, ou seja, locais onde pode colaborar com colegas para criar e otimizar coleções de dashboards e relatórios. Depois poderá agrupar a coleção em *aplicações* e distribuir por toda a organização ou por um conjunto de pessoas ou grupos específico. 
+No Power BI, pode criar *áreas de trabalho*, coloca a colaborar com colegas para criar e refinar coleções de dashboards, relatórios e relatórios paginados. Em seguida, pode agrupar a coleção em *aplicações* que podem ser distribuídos para toda a organização ou para pessoas específicas ou grupos. 
 
-![Power BI apps](media/service-create-workspaces/power-bi-apps-left-nav.png)
+**Sabia que?** O Power BI oferece uma nova experiência de área de trabalho, que agora é o padrão. Leia [organizar o trabalho em áreas de trabalho nova](service-new-workspaces.md) para obter detalhes sobre as novas áreas de trabalho. 
 
-Ao criar uma área de trabalho, está também a criar um grupo subjacente associado ao Office 365. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. 
-
-**Sabia que?** O Power BI está a apresentar uma nova experiência de área de trabalho em modo de pré-visualização. Para obter detalhes sobre a nova área de trabalho, leia [Organize work in the new workspaces (preview)](service-new-workspaces.md) (Organizar o seu trabalho nas novas áreas de trabalho [pré-visualização]). 
+Quando cria uma área de trabalho clássica, está a criar um grupo do Office 365 subjacente, associado. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicações e áreas de trabalho de aplicações
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Criar uma área de trabalho de aplicação baseada num grupo do Office 365
+## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Criar uma área de trabalho de aplicação clássico com base num grupo do Office 365
 
 Quando cria uma área de trabalho de aplicação, esta é criada com base num grupo do Office 365.
 
@@ -52,6 +50,8 @@ Por predefinição, o Power BI cria um círculo ligeiramente colorido para a apl
 3. Selecione novamente o ícone de lápis e localize a imagem que pretende utilizar.
    
      ![Selecionar o lápis novamente](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+
+     Imagens podem ser arquivos. bmp,. jpg ou. png. Seu tamanho de ficheiro pode ser grande, cópia de segurança para 3 MB. 
 
 4. Selecione **Guardar**.
    
@@ -77,9 +77,16 @@ Também pode ligar-se a serviços nas áreas de trabalho atuais através de paco
 
 ## <a name="distribute-an-app"></a>Distribuir uma aplicação
 
-Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e, em seguida, publique-os como uma *aplicação*. Os seus colegas podem obter as suas aplicações de algumas formas diferentes. Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. Caso contrário, os utilizadores podem encontrar e instalar as aplicações a partir do Microsoft AppSource ou pode enviar-lhes uma ligação direta. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Veja [Publicar aplicações com dashboards e relatórios no Power BI](service-create-distribute-apps.md) para obter detalhes.
+Se pretender distribuir conteúdo oficial para uma vasta audiência dentro da sua organização, pode publicar uma aplicação da sua área de trabalho.  Quando o conteúdo estiver pronto, selecione os dashboards e relatórios que pretende publicar e, em seguida, publicá-la como uma *aplicação*. Pode criar uma aplicação a partir de cada área de trabalho.
 
-## <a name="power-bi-apps-faq"></a>Perguntas frequentes sobre as aplicações do Power BI
+A lista de aplicações no painel de navegação à esquerda mostra todas as aplicações de que instalou. Os seus colegas podem obter a sua aplicação de algumas formas diferentes. 
+- Eles possam localizar e instalar a aplicação do Microsoft AppSource
+- Pode enviar-lhes uma ligação direta. 
+- Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. 
+
+Os utilizadores veem o conteúdo da aplicação atualizada automaticamente depois de publicar uma atualização da sua área de trabalho. Pode controlar a frequência de atualização dos dados ao definir a agenda de atualização em conjuntos de dados utilizados pelo conteúdo da aplicação na sua área de trabalho. Ver [publicar uma aplicação a partir de novas áreas de trabalho no Power BI](service-create-distribute-apps.md) para obter detalhes.
+
+## <a name="power-bi-classic-apps-faq"></a>Aplicações do Power BI clássicas FAQ
 
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Quais são as diferenças entre as aplicações e os pacotes de conteúdos organizacionais?
 As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se já tiver pacotes de conteúdos organizacionais, estes continuarão a funcionar lado a lado com as aplicações. As aplicações e os pacotes de conteúdos apresentam algumas diferenças importantes. 

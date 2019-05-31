@@ -11,11 +11,11 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662026"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059921"
 ---
 # <a name="your-content-is-up-to-date"></a>Os seus conteúdos estão atualizados
 Enquanto *consumidor*, interage com conteúdos que são feitos por *criadores* e partilhados consigo. Poderá perguntar-se se esses conteúdos estarão atualizados ou talvez queira saber quando foi a última atualização dos mesmos. O conhecimento de que está a trabalhar com os conteúdos mais recentes transmite-lhe confiança.  

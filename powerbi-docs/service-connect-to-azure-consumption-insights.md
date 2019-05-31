@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 05/20/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8a8b6d930dcb5ded8c8913ca9e706fe50d16048f
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: 089f8c31a0b1eb11f6871268f2f848949be95d9b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008218"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222134"
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>Ligar ao Microsoft Azure Consumption Insights com o Power BI
-Explore e monitorize os seus dados de consumo do Microsoft Azure no Power BI com o pacote de conteúdos do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
+Explore e monitorize os seus dados de consumo do Microsoft Azure no Power BI com o pacote de conteúdos do Power BI. Os dados são atualizados automaticamente uma vez por dia.
 
 Ligue-se ao [pacote de conteúdos Microsoft Azure Consumption Insights](https://app.powerbi.com/getdata/services/azureconsumption) para o Power BI.
 
@@ -29,16 +29,16 @@ Ligue-se ao [pacote de conteúdos Microsoft Azure Consumption Insights](https://
 2. Na caixa **Serviços**, selecione **Obter**.
    
    ![](media/service-connect-to-azure-consumption-insights/services.png)
-3. Selecione **Microsoft Azure Consumption Insights** \> **Obter**. 
+3. Selecione **Microsoft Azure Consumption Insights** \> **obter agora**. 
    
    ![](media/service-connect-to-azure-consumption-insights/mazureconsumption.png)
 4. Forneça o número de meses de dados que deseja importar e o seu número de registo do Azure Enterprise. Veja detalhes sobre [como encontrar estes parâmetros](#FindingParams) abaixo.
    
     ![](media/service-connect-to-azure-consumption-insights/azureconsumptionparams.png)
-5. Forneça a sua Chave de Acesso para se ligar. A chave para a sua inscrição pode ser encontrada no Portal EA do Azure. 
+5. Forneça a sua Chave de Acesso para se ligar. Pode encontrar a chave de inscrição no Portal de EA do Azure. 
    
     ![](media/service-connect-to-azure-consumption-insights/msazureconsumptioncreds.png)
-6. O processo de importação será iniciado automaticamente. Quando concluído, um novo dashboard, relatório e modelo aparecerão no Painel de Navegação. Selecione o dashboard para ver os seus dados importados.
+6. O processo de importação é iniciado automaticamente. Quando terminar, um novo dashboard, relatório e modelo aparecem no painel de navegação. Selecione o dashboard para ver os seus dados importados.
    
    ![](media/service-connect-to-azure-consumption-insights/msazureconsumptiondashboard.png)
 
@@ -47,40 +47,40 @@ Ligue-se ao [pacote de conteúdos Microsoft Azure Consumption Insights](https://
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
+* Enquanto o conjunto de dados está agendado para serem atualizadas diariamente, pode alterar a agenda de atualização ou tentar atualizá-lo a pedido através de **atualizar agora**
 
 ## <a name="whats-included"></a>O que está incluído
-O pacote de conteúdos do Microsoft Azure Consumption Insights inclui dados de relatórios mensais para o intervalo de meses que fornece durante o fluxo de ligação. O intervalo é uma janela móvel, portanto as datas incluídas são atualizadas à medida que o conjunto de dados é atualizado.
+O pacote de conteúdos do Microsoft Azure Consumption Insights inclui dados para o intervalo de meses que forneceu ao ligar-se de relatórios mensais. O intervalo é uma janela móvel, para que as datas incluídas são atualizadas conforme o conjunto de dados é atualizada.
 
 ## <a name="system-requirements"></a>Requisitos de Sistema
-O pacote de conteúdos exige acesso às funcionalidades do Enterprise no Portal do Azure. 
+O pacote de conteúdos requer acesso a funcionalidades do Enterprise no portal do Azure. 
 
 <a name="FindingParams"></a>
 
-## <a name="finding-parameters"></a>Localizar parâmetros
-Os relatórios do Power BI estão disponíveis para EA Direto, Parceiros e Clientes Indiretos que podem ver as informações de faturação. Leia abaixo para obter detalhes sobre a localização de cada um dos valores esperados pelo fluxo de ligação.
+## <a name="finding-parameters"></a>Parâmetros de localização
+Relatórios do Power BI estão disponíveis para EA direto, parceiros e clientes Indiretos que pode ver informações de faturação. Leia abaixo para obter detalhes sobre como encontrar cada um dos valores que espera o fluxo de ligação.
 
 **Número de Meses**
 
-* Deve ser um número entre 1 e 36, que representa o número de meses de dados (a partir de hoje) que quer importar.
+* O número de meses (1 e 36) de dados de hoje que pretende importar.
 
 **Número da Inscrição**
 
-* Este é o número de inscrição do Azure Enterprise que pode ser encontrado no ecrã inicial do [Azure Enterprise Portal](https://ea.azure.com/) em "Detalhes da Inscrição".
+* Seu número de inscrição do Azure Enterprise, que pode ser encontrado no [Azure Enterprise Portal](https://ea.azure.com/) ecrã principal, sob **detalhes da inscrição**.
   
     ![](media/service-connect-to-azure-consumption-insights/params2.png)
 
 **Chave de Acesso**
 
-* A chave pode ser encontrada no portal do Azure Enterprise, em "Transferir Utilização" > "Chave de Acesso da API"
+* Pode encontrar a chave de acesso no portal do Azure Enterprise, em **transferir utilização** > **chave de acesso de API**.
   
     ![](media/service-connect-to-azure-consumption-insights/creds2.png)
 
 **Ajuda Adicional**
 
-* Para ter ajuda adicional na configuração do pacote Power BI do Azure Enterprise, inicie a sessão no Azure Enterprise Portal para ver o ficheiro de ajuda da API em "Ajuda" e as instruções adicionais em Relatórios -> Transferir Utilização -> Chave de Acesso da API. 
+* Para obter ajuda adicional configurar o pacote do Azure Enterprise para o Power BI, inicie sessão no Azure Enterprise Portal e ver o arquivo de ajuda de API em **ajudar**. Também pode encontrar as instruções adicionais em **relatórios** -> **transferir utilização** -> **chave de acesso de API**.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)
 
 [Obter dados no Power BI](service-get-data.md)

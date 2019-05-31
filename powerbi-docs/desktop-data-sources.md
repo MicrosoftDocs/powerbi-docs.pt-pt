@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225920"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853406"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -51,7 +51,7 @@ A categoria **Ficheiro** fornece as seguintes ligações de dados:
 * XML
 * JSON
 * Pasta
-* PDF (Beta)
+* PDF
 * Pasta do SharePoint
 
 A imagem seguinte mostra a janela **Obter Dados** para **Ficheiro**.
@@ -79,14 +79,16 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (Beta)
-* Dremio
-* Exasol
-* MarkLogic (Beta)
+* Essbase
 * Cubos AtScale (Beta)
 * Conector BI
+* Dremio
+* Exasol
+* Indexima (Beta)
+* InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence Enterprise (Beta)
+* MarkLogic (Beta)
 
 > [!NOTE]
 > Alguns conectores de base de dados requerem que os ative ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, selecionar **Funcionalidades de Pré-visualização** e ativar o conector. Se não vir alguns dos conectores mencionados acima e pretender utilizá-los, consulte as suas definições de **Funcionalidades de Pré-visualização**. Note também que qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção.
@@ -98,7 +100,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Base de dados**.
 A categoria **Power BI** fornece as seguintes ligações de dados:
 
 * Conjuntos de dados do Power BI
-* Fluxos de dados do Power BI (Beta)
+* Fluxos de dados do Power BI
 
 A imagem a seguir mostra a janela **Obter Dados** para **Power BI**.
 
@@ -112,11 +114,12 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Storage
+* Geração 1 Lake armazenamento de dados do Azure
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Interactive Query do HDInsight
-* Azure Data Explorer (Beta)
+* Explorador de dados do Azure (Kusto)
+* Gestão de custos do Azure (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -139,7 +142,7 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Google Analytics
 * Adobe Analytics
 * appFigures (Beta)
-* Data.World - Obter Conjunto de Dados (Beta)
+* Data.World – Obter Conjunto de Dados (Beta)
 * Facebook
 * GitHub (Beta)
 * MailChimp (Beta)
@@ -157,9 +160,10 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * ZenDesk (Beta)
-* TeamDesk (Beta)
 * Origem de Dados Emigo (Beta)
+* IndustrialAppStore (Beta)
 * Segurança do Microsoft Graph (Beta)
+* TeamDesk (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
 
@@ -178,12 +182,16 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Script de Python
 * ODBC
 * OLEDB
-* Workforce Dimensions (Beta)
+* BI360 - orçamento e financeiro relatórios (Beta)
 * Denado
-* Paxata (Beta)
-* SurveyMonkey (Beta)
+* Grelha de informações (Beta)
+* Paxata 
 * QubolePresto (Beta)
 * Quick Base (Beta)
+* Roamler (Beta)
+* SurveyMonkey (Beta)
+* Tenforce (Beta)
+* Workforce Dimensions (Beta)
 * Consulta em Branco
 
 A imagem a seguir mostra a janela **Obter Dados** para **Outros**.

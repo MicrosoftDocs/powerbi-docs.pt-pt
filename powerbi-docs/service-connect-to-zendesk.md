@@ -1,89 +1,98 @@
 ---
 title: Ligue-se ao Zendesk com Power BI
 description: Zendesk para o Power BI
-author: SarinaJoan
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: sarinas
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 04/26/2019
+ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 72b934357ec4208fa07266143b08af861659e465
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: 1edc4179b000191dfeff87387417009bc28e0ee5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008333"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578781"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Ligue-se ao Zendesk com Power BI
-O pacote de conteúdos do Zendesk oferece um dashboard e um conjunto de relatórios do Power BI que fornecem informações sobre os volumes de pedidos e o desempenho do agente. Pode utilizar o dashboard e os relatórios fornecidos, ou então personalizá-los para destacar as informações que mais interessam.  Os dados são atualizados automaticamente uma vez por dia. 
+
+Este artigo orienta-o por meio de receber os seus dados da sua conta do Zendesk com uma aplicação de modelo do Power BI. A aplicação do Zendesk oferece um dashboard do Power BI e um conjunto de relatórios do Power BI que fornecem informações sobre os volumes de pedidos e o desempenho do agente. Os dados são atualizados automaticamente uma vez por dia. 
+
+Depois de instalar a aplicação de modelo, pode personalizar o dashboard e relatório para realçar as informações que mais lhe interessa. Em seguida, pode distribuí-la como uma aplicação para os colegas na sua organização.
 
 Ligue-se ao [pacote de conteúdos do Zendesk](https://app.powerbi.com/getdata/services/zendesk) ou leia mais sobre a [Integração do Zendesk](https://powerbi.microsoft.com/integrations/zendesk) com o Power BI.
 
+Depois de instalar a aplicação de modelo, pode alterar o dashboard e relatório. Em seguida, pode distribuí-la como uma aplicação para os colegas na sua organização.
+
 >[!NOTE]
->Uma conta de administrador do Zendesk é necessária para ligar-se. Mais detalhes sobre os [requisitos](#Requirements) abaixo.
+>Precisa de uma conta de administrador do Zendesk para se ligar. Mais detalhes sobre os [requisitos](#system-requirements) abaixo.
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
+
+[!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
+
+3. Selecione **Zendesk** \> **obter agora**.
+4. Na **instalar esta aplicação do Power BI?** selecionar **instalar**.
+4. Na **aplicações** painel, selecione a **Zendesk** mosaico.
+
+    ![Mosaico de aplicação do Power BI Zendesk](media/service-connect-to-zendesk/power-bi-zendesk-tile.png)
+
+6. Na **introdução à sua nova aplicação**, selecione **ligar a dados**.
+
+    ![Comece a utilizar a sua nova aplicação](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+
+4. Forneça o URL associado à sua conta. O URL tem o formato **https://company.zendesk.com** . Veja detalhes sobre [como encontrar estes parâmetros](#finding-parameters) abaixo.
    
-   ![](media/service-connect-to-zendesk/pbi_getdata.png)
-2. Na caixa **Serviços**, selecione **Obter**.
-   
-   ![](media/service-connect-to-zendesk/pbi_getservices.png) 
-3. Selecione **Zendesk** \> **Obter.**
-   
-   ![](media/service-connect-to-zendesk/zendesk.png)
-4. Forneça o URL associado à sua conta. O URL terá o formato **https://company.zendesk.com**. Veja os detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
-   
-   ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
-5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Entrar**. Siga o fluxo de autenticação do Zendesk. (Se já tiver iniciado a sessão no Zendesk no seu browser, talvez as suas credenciais não sejam solicitadas.)
+   ![Ligar ao Zendesk](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
+
+5. Quando solicitado, insira as suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Entrar**. Siga o fluxo de autenticação do Zendesk. (Se já tem sessão iniciada Zendesk no seu browser, pode não ser solicitadas credenciais.)
    
    > [!NOTE]
-   > Este pacote de conteúdo requer a conexão com uma conta de Administrador do Zendesk. 
-   > 
+   > Este pacote de conteúdos requer que ligue com uma conta de administrador do Zendesk. 
    > 
    
-   ![](media/service-connect-to-zendesk/pbi_zendesksignin.png)
+   ![Inicie sessão com o oAuth2](media/service-connect-to-zendesk/pbi_zendesksignin.png)
 6. Clique em **Permitir** para permitir que o Power BI aceda aos seus dados do Zendesk.
    
-   ![](media/service-connect-to-zendesk/zendesk2.jpg)
-7. Clique em **Conectar** para iniciar o processo de importação. Depois do Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação esquerdo. Os novos itens estão marcados com um asterisco amarelo \*.
+   ![Clique em permitir](media/service-connect-to-zendesk/zendesk2.jpg)
+7. Clique em **Conectar** para iniciar o processo de importação. 
+8. Depois do Power BI importar os dados, consulte a lista de conteúdo para a sua aplicação de Zendesk: um novo dashboard, relatório e conjunto de dados.
+9. Selecione o dashboard para iniciar o processo de exploração.
+
+    ![Dashboard do Zendesk](media/service-connect-to-zendesk/power-bi-zendesk-dashboard.png)
    
-   ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
+## <a name="modify-and-distribute-your-app"></a>Modificar e distribuir a sua aplicação
 
-**O que se segue?**
+Instalou a aplicação de modelo do Zendesk. Isso significa que criou também a área de trabalho de aplicação do Zendesk. Na área de trabalho, pode alterar o relatório e dashboard e, em seguida, distribuí-la como uma *aplicação* aos colegas na sua organização. 
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
-* [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
+1. Para ver todo o conteúdo do seu novo espaço de trabalho de Zendesk, na barra de navegação esquerdo, selecione **áreas de trabalho** > **Zendesk**. 
 
-## <a name="whats-included"></a>O que está incluído
-O pacote de conteúdos do Power BI inclui dados sobre o seguinte:  
+    ![Área de trabalho do Zendesk no painel de navegação à esquerda](media/service-connect-to-zendesk/power-bi-zendesk-workspace-left-nav.png)
 
-* Utilizadores (utilizadores finais e agentes)  
-* Organizações  
-* Grupos  
-* Pedidos  
+    Esta vista é a lista de conteúdo para a área de trabalho. No canto superior direito, verá **atualizar aplicação**. Quando estiver pronto para distribuir a sua aplicação para os seus colegas, que é onde começar. 
 
-Há também um conjunto de medidas que foram calculadas, como tempo médio de espera e pedidos resolvidos nos últimos sete dias. Uma lista completa está incluída no pacote de conteúdos.
+    ![Lista de conteúdos do Zendesk](media/service-connect-to-zendesk/power-bi-zendesk-content-list.png)
 
-<a name="Requirements"></a>
+2. Selecione **relatórios** e **conjuntos de dados** para ver os outros elementos na área de trabalho.
 
-## <a name="system-requirements"></a>Requisitos do sistema
-Uma conta de administrador do Zendesk é necessária para aceder ao pacote de conteúdos do Zendesk. Se é um agente ou um utilizador final e estiver interessado em ver os seus dados no Zendesk, adicione uma sugestão e examine o conector do Zendesk no [Power BI Desktop](desktop-connect-to-data.md).
+    Leia sobre [distribuir aplicações](service-create-distribute-apps.md) para os seus colegas.
 
-<a name="FindingParams"></a>
+## <a name="system-requirements"></a>Requisitos de sistema
+Uma conta de administrador do Zendesk é necessária para aceder ao pacote de conteúdos do Zendesk. Se for um agente ou um utilizador final e estiver interessado em visualizar os dados do Zendesk, adicione uma sugestão e rever o conector do Zendesk no [Power BI Desktop](desktop-connect-to-data.md).
 
-## <a name="finding-parameters"></a>A localizar parâmetros
+## <a name="finding-parameters"></a>Parâmetros de localização
 O URL do Zendesk vai ser igual ao URL que utiliza para se ligar à sua conta do Zendesk. Se não se lembrar do URL do Zendesk, utilize a [ajuda de início de sessão](https://www.zendesk.com/login/) do Zendesk.
 
 ## <a name="troubleshooting"></a>Resolução de problemas
-Se estiver com problemas para se ligar, verifique o URL do Zendesk e confirme que está a utilizar uma conta de administrador do Zendesk.
+Se estiver a ter problemas de ligação, verifique o URL do Zendesk e confirme que está a utilizar uma conta de administrador do Zendesk.
 
 ## <a name="next-steps"></a>Próximos passos
-* [O que é o Power BI?](power-bi-overview.md)
-* [Obter Dados](service-get-data.md)
+
+* [Criar novas áreas de trabalho no Power BI](service-create-the-new-workspaces.md)
+* [Instalar e utilizar aplicações no Power BI](consumer/end-user-apps.md)
+* [Ligar a aplicações do Power BI para serviços externos](service-connect-to-services.md)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

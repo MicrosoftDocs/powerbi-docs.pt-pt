@@ -8,26 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 05/24/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.openlocfilehash: cb4fdeeea228d388197c35c69d934c0bf04c8033
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964761"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374615"
 ---
-# <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar os seus dashboards e relatórios do Power BI com colegas e outras pessoas
+# <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Partilhar dashboards e relatórios do Power BI com colegas e outras pessoas
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. O Power BI também disponibiliza [várias outras formas de colaborar e distribuir dashboards e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Ícone Partilhar numa lista de dashboards favoritos](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [licença do Power BI Pro](service-features-license-type.md). Os destinatários necessitam também de licenças do Power BI Pro, ou os conteúdos precisam de estar numa [capacidade Premium](service-premium.md). 
+Para partilhar, seja conteúdo dentro ou fora da organização, precisa de uma [licença do Power BI Pro](service-features-license-type.md). Os destinatários necessitam também licenças do Power BI Pro, a menos que o conteúdo está numa [capacidade Premium](service-premium-what-is.md). 
 
-Pode partilhar dashboards e relatórios a partir da maioria dos locais no serviço Power BI: Favoritos, Recente, Partilhado comigo (se o proprietário o permitir), A Minha Área de Trabalho ou outras áreas de trabalho. Ao partilhar um dashboard ou relatório, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. As pessoas verão os mesmos dados que vê no dashboard ou no relatório, a menos que seja aplicada a [RLS (Segurança em nível de linha)](service-admin-rls.md). Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização também podem ver e interagir com os dashboards ou relatórios, mas não os podem partilhar. 
+Pode partilhar dashboards e relatórios a partir da maioria dos locais no serviço Power BI: Favoritos, recente, partilhado comigo (se o proprietário o permitir), a minha área de trabalho ou outras áreas de trabalho. Ao partilhar um dashboard ou relatório, as pessoas com quem os partilhar poderão ver e interagir com os mesmos, mas não os poderão editar. As pessoas verão os mesmos dados que vê no dashboard ou no relatório, a menos que seja aplicada a [RLS (Segurança em nível de linha)](service-admin-rls.md). Os colegas com quem partilhar também os podem partilhar com os colegas deles, se assim o permitir. As pessoas fora da organização também podem também ver e interagirem com o dashboard ou relatório, mas não podem partilhá-lo. 
 
-Também pode [partilhar um dashboard a partir de qualquer uma das aplicações móveis do Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Pode partilhar dashboards a partir do serviço do Power BI e das aplicações móveis do Power BI, mas não a partir do Power BI Desktop.
+Também pode [partilhar um dashboard a partir de qualquer uma das aplicações móveis do Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). No entanto, não é possível partilhar dashboards do Power BI Desktop.
 
 ## <a name="video-share-a-dashboard"></a>Vídeo: Partilhar um dashboard
 Veja a Amanda a partilhar o dashboard dela com colegas dentro e fora da empresa. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
@@ -45,87 +45,87 @@ Veja a Amanda a partilhar o dashboard dela com colegas dentro e fora da empresa.
    ![Aviso sobre partilha externa](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
    >[!NOTE]
-   >A caixa de entrada suporta um máximo de cem utilizadores ou grupos. Pode partilhar várias vezes ou partilhar com um grupo de utilizadores se precisar de partilhar com um grande número de utilizadores.
+   >A caixa de entrada suporta, no máximo, 100 utilizadores ou grupos. Se precisar de partilhar com um grande número de utilizadores, considere criar o dashboard numa área de trabalho e [distribuí-lo como uma aplicação](service-create-distribute-apps.md).
    > 
    > 
 
 
 3. Se preferir, adicione uma mensagem. É opcional.
-4. Para permitir que os seus colegas partilhem o conteúdo com outras pessoas, marque a opção **Permitir aos destinatários partilhar o dashboard/relatório**.
+4. Para permitir que seus colegas partilhem o seu conteúdo com outras pessoas, marque **permitir aos destinatários partilhar o seu dashboard (ou relatório)** .
    
-   Permitir a partilha a outras pessoas denomina-se *voltar a partilhar*. Se o permitir, eles podem voltar a partilhar a partir do serviço do Power BI e das aplicações móveis ou encaminhar o convite por e-mail para outras pessoas na sua organização. O convite expira após um mês. As pessoas fora da sua organização não podem voltar a partilhar. Como proprietário do conteúdo, pode desativar ou revogar a possibilidade de voltar a partilhar a nível individual. Veja [Deixar de partilhar ou impedir outras pessoas de partilhar](service-share-dashboards.md#stop-sharing-or-stop-others-from-sharing) abaixo.
+   Permitir a partilha a outras pessoas denomina-se *voltar a partilhar*. Se o permitir, eles podem voltar a partilhar a partir do serviço do Power BI e das aplicações móveis ou encaminhar o convite por e-mail para outras pessoas na sua organização. O convite expira após um mês. As pessoas fora da sua organização não podem voltar a partilhar. Como proprietário do conteúdo, pode desativar ou revogar a possibilidade de voltar a partilhar a nível individual. Ver [deixar de partilhar ou impedir outras pessoas de partilhar](#stop-sharing-or-stop-others-from-sharing).
 
 5. Selecione **Partilhar**.
    
    ![Selecione o botão Partilhar](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
-   O Power BI envia um convite por e-mail às pessoas, mas não aos grupos, com uma ligação para o conteúdo partilhado. Verá uma notificação de **Êxito**. 
+   Para os indivíduos, mas não para grupos, com uma ligação para o conteúdo partilhado, o Power BI envia um convite por e-mail. Verá uma notificação de **Êxito**. 
    
    Quando os destinatários na organização clicam na ligação, o Power BI adiciona o dashboard ou o relatório à página da lista **Partilhado comigo**. Esses destinatários podem selecionar o seu nome para ver todo o conteúdo que partilhou com eles. 
    
    ![Página de lista Partilhado comigo](media/service-share-dashboards/power-bi-shared-with-me-dashboards-reports.png)
    
-   Quando os destinatários externos à sua organização clicam na ligação, veem o dashboard ou o relatório, mas não no portal do Power BI habitual. Para obter mais detalhes, veja [Partilhar com pessoas fora da organização](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization) abaixo.
+   Quando os destinatários externos à sua organização clicam na ligação, veem o dashboard ou o relatório, mas não no portal do Power BI habitual. Para obter mais informações, consulte [partilhar um dashboard ou relatório com pessoas fora da sua organização](#share-a-dashboard-or-report-with-people-outside-your-organization).
 
 ## <a name="who-has-access-to-a-dashboard-or-report-you-shared"></a>Quem tem acesso a um dashboard ou relatório que partilhou?
-Por vezes, é necessário ver as pessoas com quem partilhou e as pessoas com quem estas os partilharam.
+Às vezes precisa ver as pessoas que partilhou com e ver quem estas os partilharam com:
 
-1. Na lista de dashboards e relatórios, ou nos próprios dashboards ou relatórios, selecione **Partilhar** ![Ícone Partilhar](media/service-share-dashboards/power-bi-share-icon.png). 
-2. Na caixa de diálogo **Partilhar dashboard/relatório**, selecione **Acesso**.
+1. Na lista de dashboards e relatórios, ou nos próprios dashboard ou relatórios, selecione **Partilhar** ![Ícone Partilhar](media/service-share-dashboards/power-bi-share-icon.png). 
+2. Na **partilhar dashboard** ou **partilhar relatório** caixa de diálogo, selecione **acesso**.
    
     ![Caixa de diálogo Partilhar dashboard, separador Acesso](media/service-share-dashboards/power-bi-share-dialog-access.png)
-   
+
     As pessoas fora da sua organização estão listadas como **Convidado**.
 
 ## <a name="stop-sharing-or-stop-others-from-sharing"></a>Deixar de partilhar ou impedir outras pessoas de partilhar
 Apenas o proprietário do dashboard ou do relatório pode ativar ou desativar a possibilidade de voltar a partilhar.
 
 ### <a name="if-you-havent-sent-the-sharing-invitation-yet"></a>Se ainda não enviou o convite de partilha
-* Desmarque a caixa de verificação **Permitir que os destinatários partilhem este dashboard/relatório**, na parte inferior do convite, antes de enviar.
+* Limpar o **permitir aos destinatários partilhar o seu dashboard (ou relatório)** caixa de verificação na parte inferior do convite, antes de enviar.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Se já partilhou o dashboard ou o relatório
 1. Na lista de dashboards e relatórios, ou nos próprios dashboard ou relatórios, selecione **Partilhar** ![Ícone Partilhar](media/service-share-dashboards/power-bi-share-icon.png). 
-2. Na caixa de diálogo **Partilhar dashboard/relatório**, selecione **Acesso**.
+2. Na **partilhar dashboard** ou **partilhar relatório** caixa de diálogo, selecione **acesso**.
    
     ![Caixa de diálogo Partilhar dashboard, separador Acesso](media/service-share-dashboards/power-bi-share-dialog-access.png)
-3. Clique nas reticências (**...**) junto a **Ler e voltar a partilhar** e selecione:
+3. Clique nas reticências ( **...** ) junto a **Ler e voltar a partilhar** e selecione:
    
    ![Reticências Ler e voltar a partilhar](media/service-share-dashboards/power-bi-change-access.png)
    
    * **Leitura** para impedir a pessoa de partilhar com outros.
    * **Remover acesso** para impedir a pessoa de ver o conteúdo partilhado na íntegra.
 
-4. Na caixa de diálogo **Remover acesso**, pode decidir se também quer remover o acesso a conteúdos relacionados, como relatórios e conjuntos de dados. Se remover itens com um ícone de aviso ![ícone de aviso do Power BI](media/service-share-dashboards/power-bi-warning-icon.png), será melhor remover os conteúdos relacionados, porque não serão apresentados de forma adequada.
+4. Na **remover o acesso** diálogo caixa, decidir se também pretender remover o acesso a conteúdos relacionados, como relatórios e conjuntos de dados. Se remover itens com um ícone de aviso ![ícone de aviso do Power BI](media/service-share-dashboards/power-bi-warning-icon.png), é melhor também remover conteúdos relacionados, porque não será exibido corretamente.
 
     ![Caixa de diálogo de aviso das definições de partilha do Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
 
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Partilhar um dashboard ou relatório com pessoas fora da organização
-Quando partilha com pessoas fora da sua organização, estas recebem um e-mail com uma ligação para o dashboard ou o relatório partilhado e têm de iniciar sessão no Power BI para os ver. Se elas não tiverem uma licença do Power BI Pro, poderão inscrever-se para uma após clicarem na ligação.
+Quando partilha com pessoas fora da sua organização, eles recebem um e-mail com uma ligação para o dashboard partilhado ou relatório, que devem iniciar sessão no Power BI para ver. Se elas não tiverem uma licença do Power BI Pro, poderão inscrever-se para uma após clicarem na ligação.
 
-Após iniciarem sessão, verão o dashboard ou o relatório partilhados nas janelas do browser sem o painel de navegação esquerdo, não no portal do Power BI normal. Têm de adicionar a ligação aos Favoritos para acederem a este dashboard ou relatório no futuro.
+Após iniciarem sessão, verão o dashboard ou relatório partilhado em sua própria janela do browser, não no seu portal do Power BI normal. Para mais tarde aceder a este dashboard ou relatório, tem de marcador a ligação.
 
-Não podem editar conteúdos neste dashboard ou relatório. Estes podem interagir com os gráficos e alterar os filtros ou as segmentações de dados no relatório, mas não podem guardar as alterações. 
+Não podem editar conteúdos neste dashboard ou relatório. Embora podem interagir com os gráficos e alterar filtros ou as segmentações de dados, eles não é possível guardar as alterações. 
 
-Apenas os destinatários diretos podem ver o dashboard ou relatório partilhado. Por exemplo, se tiver enviado o e-mail para Vicki@contoso.com, apenas a Vicki poderá ver o dashboard. Mais ninguém consegue ver esse dashboard (mesmo que tenham uma ligação) e a Vicki tem de utilizar o mesmo endereço de e-mail para aceder a esse dashboard. Se ela iniciar sessão com outro endereço de e-mail, também não terá acesso ao dashboard.
+Apenas os destinatários diretos podem ver o dashboard ou relatório partilhado. Por exemplo, se tiver enviado o e-mail para Vicki@contoso.com, apenas a Vicki poderá ver o dashboard. Ninguém mais pode ver o dashboard, mesmo que tenham uma ligação. Vicki tem de utilizar o mesmo endereço de e-mail para acessá-lo; se ela iniciar sessão com qualquer outro endereço de e-mail, ela não terá acesso ao dashboard.
 
-As pessoas de fora da sua organização não poderão ver os dados se a segurança em nível de linha ou de função for implementada nos modelos de tabela Analysis Services no local.
+As pessoas fora da sua organização não podem ver todos os dados se a segurança de nível de função ou de linha é implementada nos modelos em tabela do Analysis Services no local.
 
-Se enviar uma ligação de uma aplicação móvel do Power BI para pessoas externas à sua organização, quando estas clicarem na ligação, o dashboard é aberto num browser, não na aplicação móvel do Power BI.
+Se enviar uma ligação de uma aplicação móvel do Power BI para pessoas fora da sua organização, clicando na hiperligação abre o dashboard num navegador, não na aplicação móvel do Power BI.
 
-Se os utilizadores convidados tiverem permissão através da definição [Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](service-admin-portal.md#export-and-sharing-settings), a experiência predefinida limitada apenas ao consumo de conteúdos não se aplica aos mesmos. [Saiba mais](service-admin-azure-ad-b2b.md)
+Se [permitir que os utilizadores convidados externos editar e gerir conteúdos na organização](service-admin-portal.md#export-and-sharing-settings), a experiência padrão de somente de consumo não se aplica aos mesmos. [Saiba mais](service-admin-azure-ad-b2b.md).
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Elementos a ter em conta sobre a partilha de dashboards e relatórios:
 
 * Em geral, o utilizador e os seus colegas veem os mesmos dados no dashboard ou no relatório. Portanto, se tiver permissões para ver mais dados do que os seus colegas, eles conseguirão ver todos os seus dados no dashboard ou no relatório. No entanto, se a [RLS (segurança em nível de linha)](service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um dashboard ou a um relatório, as credenciais de cada pessoa serão utilizadas para determinar a que dados podem aceder.
-* Todas as pessoas com quem partilha o dashboard podem vê-lo e interagir com os relatórios relacionados na [Vista de Leitura](consumer/end-user-reading-view.md). Não podem criar relatórios ou guardar alterações a relatórios existentes.
-* Ninguém pode ver ou transferir o conjunto de dados, mas podem aceder ao conjunto de dados diretamente, através da funcionalidade Analisar no Excel. Um administrador pode impedir que as pessoas utilizem a funcionalidade Analisar no Excel, ao restringir a capacidade para todos os utilizadores num grupo. No entanto, a restrição destina-se a todos os utilizadores desse grupo para cada área de trabalho a que o grupo pertence.
+* Todas as pessoas que partilha o dashboard podem vê-lo e interagir com os relatórios relacionados na [vista de leitura](consumer/end-user-reading-view.md#reading-view). Não podem criar relatórios ou guardar alterações a relatórios existentes.
+* Embora ninguém pode ver ou transferir o conjunto de dados, eles podem acessar o conjunto de dados diretamente, usando a analisar na funcionalidade do Excel. Um administrador pode restringir a capacidade de utilizar o analisar no Excel para todos os utilizadores num grupo. No entanto, a restrição destina-se a todos os utilizadores desse grupo para cada área de trabalho a que o grupo pertence.
 * Todas as pessoas podem [atualizar os dados](refresh-data.md) manualmente.
 * Se utilizar o Office 365 para e-mail, pode partilhar com membros de um grupo de distribuição ao introduzir o endereço de e-mail associado ao grupo de distribuição.
-* Os colegas com o mesmo domínio de e-mail que o utilizador e os colegas com um domínio diferente, mas que estejam registados no mesmo inquilino, podem partilhar o dashboard com outras pessoas. Por exemplo, suponhamos que os domínios contoso.com e contoso2.com estão registados no mesmo inquilino. Se o seu endereço de e-mail for konrads@contoso.com, isso quer dizer que ravali@contoso.com e gustav@contoso2.com podem partilhar, desde que lhes tenha dado permissão para partilhar.
-* Se os seus colegas já tiverem acesso a um dashboard ou a um relatório específico, poderá enviar uma ligação direta ao copiar o URL quando estiver no dashboard ou no relatório. Por exemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
-* De igual modo, se os seus colegas já tiverem acesso a um dashboard específico, pode [enviar uma ligação direta para o relatório subjacente](service-share-reports.md). 
-* Pode partilhar com um máximo de cem utilizadores ou grupos numa única ação de partilha. No entanto, pode dar acesso a um item a mais de 500 utilizadores. Para tal, pode partilhar várias vezes ao especificar os utilizadores individualmente ou partilhar com um grupo de utilizadores com todos os utilizadores.
+* Os seus colegas que compartilham o seu domínio de e-mail e os colegas com um domínio é diferente, mas registados no mesmo inquilino, podem partilhar o dashboard com outras pessoas. Por exemplo, se os domínios contoso.com e contoso2.com estão registados no mesmo inquilino e o seu endereço de e-mail será konrads@contoso.com, em seguida, ambos ravali@contoso.com e gustav@contoso2.com poder partilhar, desde que deu permissão para partilhar.
+* Se os seus colegas já tiverem acesso a um dashboard específico ou um relatório, pode enviar uma ligação direta ao copiar o URL quando estiver no dashboard ou relatório. Por exemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
+* Da mesma forma, se os seus colegas já tiverem acesso a um dashboard específico, pode [enviar uma ligação direta para o relatório subjacente](service-share-reports.md). 
+* Pode partilhar com, no máximo, 100 utilizadores ou grupos numa ação única partilha. No entanto, pode dar acesso a um item a mais de 500 utilizadores. Para tal, partilhe várias vezes ao especificar os utilizadores individualmente ou partilhar com um grupo de utilizadores que contém todos os utilizadores.
 
 ## <a name="troubleshoot-sharing"></a>Resolução de problemas da partilha
 
@@ -135,15 +135,15 @@ As pessoas com quem partilha vêm um ícone de cadeado num dashboard ou a mensag
 
 ![Mosaico bloqueado do Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
 
-Se for o caso, terá de lhes conceder permissão para o conjunto de dados subjacente. Eis como fazê-lo.
+Nesse caso, terá de lhes conceder permissão para o conjunto de dados subjacente:
 
 1. Aceda ao separador **Conjuntos de dados** na sua lista de conteúdos.
 
-1. Selecione as reticências (**...**) junto ao conjunto de dados > **Gerir permissões**.
+1. Selecione as reticências ( **...** ) junto ao conjunto de dados, em seguida, selecione **gerir permissões**.
 
     ![Gerir permissões](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
 
-3. Selecione **Adicionar utilizador**.
+1. Selecione **Adicionar utilizador**.
 
     ![Selecione Adicionar utilizador](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
 
@@ -151,11 +151,12 @@ Se for o caso, terá de lhes conceder permissão para o conjunto de dados subjac
 
     ![Adicionar endereços de e-mail](media/service-share-dashboards/power-bi-add-user-dataset.png)
 
-5. Selecione **Adicionar**.
+
+1. Selecione **Adicionar**.
 
 ### <a name="i-cant-share-a-dashboard-or-report"></a>Não consigo partilhar um dashboard nem um relatório
 
-Para partilhar um dashboard ou um relatório, tem de ter permissão para voltar a partilhar os conteúdos subjacentes: relatórios e conjuntos de dados relacionados. Se vir uma mensagem a informá-lo que não pode partilhar, peça ao autor do relatório que lhe dê permissão para voltar a partilhar esses relatórios e conjuntos de dados.
+Para partilhar um dashboard ou relatório, necessita de permissão para partilhar os conteúdos subjacentes; ou seja, quaisquer relacionadas com relatórios e conjuntos de dados. Se vir uma mensagem a indicar que não é possível partilhar, peça ao autor do relatório para dar a voltar a partilhar a permissão para os relatórios e conjuntos de dados.
 
 ![Mensagem "Não é possível partilhar"](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
@@ -163,6 +164,6 @@ Para partilhar um dashboard ou um relatório, tem de ter permissão para voltar 
 ## <a name="next-steps"></a>Próximos passos
 * Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 * [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Partilhar um relatório do Power BI filtrado](service-share-reports.md)
+* [Partilhar um relatório do Power BI filtrado](service-share-reports.md).
 * Perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
 

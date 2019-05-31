@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
-ms.translationtype: HT
+ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971723"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770788"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço Power BI
 
@@ -44,22 +44,22 @@ Aprofundaremos estas funcionalidades mais tarde, mas primeiro vamos examinar alg
 
 
 ## <a name="power-bi-concepts"></a>Conceitos do Power BI
-Os quatro componentes principais do Power BI são: **_dashboards_**, **_relatórios_**, **_livros_** e **_conjuntos de dados_**. Além disso, estão todos organizados em **_áreas de trabalho_**. É importante compreender as áreas de trabalho antes de examinarmos os quatro elementos base, por isso comecemos por aí.
+Os quatro componentes principais do Power BI são: **_dashboards_** , **_relatórios_** , **_livros_** e **_conjuntos de dados_** . Além disso, estão todos organizados em **_áreas de trabalho_** . É importante compreender as áreas de trabalho antes de examinarmos os quatro elementos base, por isso comecemos por aí.
 
 ## <a name="workspaces"></a>Áreas de trabalho
 As áreas de trabalho são os contentores para dashboards, relatórios, livros e conjuntos de dados no Power BI. Existem dois tipos de áreas de trabalho: *A minha área de trabalho* e as *áreas de trabalho de aplicações*. Assim, o que é uma *aplicação*? Uma *aplicação* do Power BI é uma coleção de dashboards e relatórios criados para fornecer métricas importantes aos utilizadores finais do Power BI da sua organização. As aplicações são interativas, mas os utilizadores finais não podem editá-las.
 
 - *A minha área de trabalho* é a área de trabalho pessoal para qualquer cliente do Power BI trabalhar com o seu próprio conteúdo. Só o utilizador tem acesso à Minha área de trabalho. Pode partilhar dashboards e relatórios a partir de A Minha Área de Trabalho. Se quiser colaborar em dashboards e relatórios (ou criar uma aplicação), significa que quer trabalhar numa área de trabalho da aplicação.      
--  As *áreas de trabalho da aplicação* são utilizadas para permitir a colaboração e a partilha de conteúdo com os seus colegas. Também são os locais onde cria, publica e faz a gestão das aplicações da organização. Considere esses locais como áreas de transição e contentores para o conteúdo que irá formar a aplicação Power BI. Pode adicionar os seus colegas a áreas de trabalho da aplicação e colaborar em dashboards, relatórios, livros e conjuntos de dados. Todos os membros da área de trabalho da aplicação têm licenças Power BI Pro, mas os consumidores da aplicação (os colegas que têm acesso às aplicações) não precisam necessariamente de licenças Pro.  
+-  As *áreas de trabalho da aplicação* são utilizadas para permitir a colaboração e a partilha de conteúdo com os seus colegas. Também são os locais onde cria, publica e faz a gestão das aplicações da organização. Considere esses locais como áreas de transição e contentores para o conteúdo que irá formar a aplicação Power BI. Pode adicionar os seus colegas a áreas de trabalho da aplicação e colaborar em dashboards, relatórios, livros e conjuntos de dados. Todos os membros da área de trabalho da aplicação tem licenças do Power BI Pro. Os consumidores da aplicação, os colegas que têm acesso às aplicações, não precisam necessariamente licenças Pro. Leia mais sobre o [novas áreas de trabalho](service-create-the-new-workspaces.md).  
 
-Para saber mais, comece pelo artigo [Formas de partilhar o seu trabalho](service-how-to-collaborate-distribute-dashboards-reports.md).
+Para saber mais sobre a partilha em geral, começar com [formas de partilhar dashboards seu trabalho](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Voltemos agora aos blocos modulares do Power BI. Não pode ter dashboards ou relatórios sem dados (aliás, pode ter dashboards vazios e relatórios vazios, mas não são úteis até que tenham dados), por isso vamos começar pelos **conjuntos de dados**.
 
 ## <a name="datasets"></a>Conjuntos de Dados
 Um *conjunto de dados* é uma coleção de dados que *importa* ou à qual se *liga*. O Power BI permite ligar-se e importar todos os tipos de conjuntos de dados e reuni-los num único lugar.  
 
-Os conjuntos de dados estão associados às *áreas de trabalho* e um único conjunto de dados pode fazer parte de várias áreas de trabalho. Quando abre uma área de trabalho, os conjuntos de dados associados são apresentados no separador **Conjuntos de dados**. Cada conjunto de dados listado representa uma origem de dados única, por exemplo, um livro do Excel no OneDrive, um conjunto de dados tabular SSAS local ou um conjunto de dados do Salesforce. São suportadas muitas origens de dados diferentes e estamos sempre a adicionar novas. [Consulte a lista de tipos de conjuntos de dados que podem ser utilizados com o Power BI](service-get-data.md).
+Os conjuntos de dados estão associados às *áreas de trabalho* e um único conjunto de dados pode fazer parte de várias áreas de trabalho. Quando abre uma área de trabalho, os conjuntos de dados associados são apresentados no separador **Conjuntos de dados**. Cada conjunto de dados listado representa uma origem de dados única, por exemplo, um livro do Excel no OneDrive, um conjunto de dados tabular SSAS local ou um conjunto de dados do Salesforce. São suportadas muitas origens de dados diferentes e estamos sempre a adicionar novas. Ver a lista de [tipos de conjunto de dados que pode utilizar com o Power BI](service-get-data.md).
 
 No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e marketing” e cliquei no separador de **Conjuntos de dados**.
 
@@ -75,41 +75,41 @@ No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e mar
 
 Para se [ligar ou importar um conjunto de dados](service-get-data.md), selecione **Obter Dados** na parte inferior da barra de navegação esquerda. Siga as instruções para se ligar ou importar uma origem específica e adicionar o conjunto de dados à área de trabalho. Os novos conjuntos de dados são marcados com um asterisco amarelo. O trabalho que realiza no Power BI não altera o conjunto de dados subjacente.
 
-Se fizer [parte de uma **_área de trabalho de aplicação_**](service-collaborate-power-bi-workspace.md), os conjuntos de dados adicionados por um membro da área de trabalho serão disponibilizados para os restantes membros da área de trabalho.
+Os DataSets adicionados por um membro da área de trabalho estão disponíveis para os outros membros da área de trabalho com um *administrador*, *membro*, ou *contribuinte* função.
 
 Os conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Utilize um conjunto de dados para criar um relatório a partir do zero ou ao executar as [informações rápidas](service-insights.md).  Para ver quais os relatórios e dashboards que já utilizam um conjunto de dados, selecione **Ver relacionados**. Para explorar um conjunto de dados, selecione-o. O que está realmente a fazer é abrir o conjunto de dados no editor de relatórios, onde pode de facto começar a explorar os dados e a criar visualizações. Vamos então passar para o próximo tópico – relatórios.
 
 ### <a name="dig-deeper"></a>Explorar mais
-* [O que é o Power BI Premium?](service-premium.md)
+* [O que é o Power BI Premium?](service-premium-what-is.md)
 * [Obter dados para o Power BI](service-get-data.md)
 * [Conjuntos de dados de exemplo do Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Relatórios
-Um relatório do Power BI é composto por uma ou mais páginas de visualizações, tais como mapas, gráficos de linhas e treemap. As visualizações também são denominadas **_elementos visuais_**. Todas as visualizações num relatório vêm de um único conjunto de dados. Os relatórios podem ser criados do zero no Power BI, podem ser importados com dashboards que os seus colegas partilham consigo ou podem ser criados quando se liga a conjuntos de dados do Excel, do Power BI Desktop, das bases de dados, das aplicações SaaS e das [aplicações](service-get-data.md).  Por exemplo, quando se liga a um livro do Excel que contém folhas do Power View, o Power BI cria um relatório baseado nessas folhas. E quando se liga a uma aplicação SaaS, o Power BI importa um relatório previamente criado.
+Um relatório do Power BI é composto por uma ou mais páginas de visualizações, tais como mapas, gráficos de linhas e treemap. As visualizações também são denominadas **_elementos visuais_** . Todas as visualizações num relatório vêm de um único conjunto de dados. Pode criar relatórios a partir do zero no Power BI, importe-as com dashboards que colegas partilham consigo ou Power BI pode criá-los quando se liga a conjuntos de dados do Excel, Power BI Desktop, bases de dados e aplicações SaaS.  Por exemplo, quando se liga a um livro do Excel que contém folhas do Power View, o Power BI cria um relatório baseado nessas folhas. E quando se liga a uma aplicação SaaS, o Power BI importa um relatório previamente criado.
 
-Existem duas formas de ver e interagir com os relatórios: a [Vista de Leitura e a Vista de Edição](service-reading-view-and-editing-view.md).  Apenas a pessoa que criou o relatório, os coproprietários e as pessoas com permissões concedidas têm acesso a todas as funcionalidades de exploração, estruturação, criação e partilha da **_Vista de Edição_** desse relatório. As pessoas com quem partilharem o relatório podem explorar e interagir com o relatório através da **_Vista de Leitura_**.   
+Existem duas formas de ver e interagir com os relatórios: *Vista de leitura* e *vista de edição*. Quando abrir um relatório, ele é aberto na vista de leitura. Se tiver permissões de edição, então verá **Editar relatório** no canto superior esquerdo, e pode ver o relatório na vista de edição.  Se um relatório está numa área de trabalho, todos com uma *administrador*, *membro*, ou *contribuinte* função pode editá-lo. Eles têm acesso a todos os a explorar, conceber, criar e a partilha de recursos de edição visualizar para esse relatório. As pessoas com que quem partilharem o relatório com podem explorar e interagir com o relatório na vista de leitura.   
 
 Quando abre uma área de trabalho, os relatórios associados estão listados no separador **Relatórios**. Cada relatório listado representa uma ou mais páginas de visualizações, com base apenas num dos conjuntos de dados subjacentes. Para abrir um relatório, selecione-o.
 
-Quando abre uma aplicação, será apresentado um dashboard.  Para aceder a um relatório subjacente, selecione um mosaico do dashboard (aprofundaremos estes mosaicos posteriormente) que foi afixado a partir de um relatório. Tenha em atenção que nem todos os mosaicos são afixados a partir dos relatórios, pelo que poderá ter de clicar em alguns mosaicos para localizar um relatório.
+Quando abre uma aplicação, é apresentada com um dashboard.  Para aceder a um relatório subjacente, selecione um mosaico do dashboard (aprofundaremos estes mosaicos posteriormente) que foi afixado a partir de um relatório. Tenha em atenção que nem todos os mosaicos são afixados a partir dos relatórios, pelo que poderá ter de clicar em alguns mosaicos para localizar um relatório.
 
 Por predefinição, o relatório é aberto primeiro na Vista de leitura.  Basta selecionar **Editar relatório** para o abrir na Vista de edição (se tiver as permissões necessárias).
 
-No exemplo abaixo, selecionei a área de trabalho da aplicação “Vendas e marketing” e cliquei no separador de **Relatórios**.
+No exemplo abaixo, selecionei a área de trabalho de aplicação "Vendas e marketing" e cliquei no separador de **relatórios**.
 
 ![Relatórios selecionados](media/service-basic-concepts/power-bi-reports.png)
 
 **UM** relatório...
 
 * Está contido numa única área de trabalho.
-* pode ser associado a vários dashboards nessa área de trabalho (os mosaicos afixados a partir desse relatório único podem aparecer em vários dashboards).
-* pode ser criado utilizando dados de um conjunto de dados. (a pequena exceção é que o Power BI Desktop pode combinar mais de um conjunto de dados num único relatório que pode, por sua vez, ser importado para o Power BI).
+* pode ser associado a vários dashboards nessa área de trabalho. Mosaicos afixados a partir de que o único relatório pode aparecer em vários dashboards.
+* pode ser criado utilizando dados de um conjunto de dados. Power BI Desktop pode combinar mais do que uma origem de dados num único conjunto de dados num relatório, e esse relatório pode ser importado para o Power BI.
 
   ![Diagrama de relatórios](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>Explorar mais
-* [Reports in Power BI service and Power BI Desktop (Relatórios no serviço Power BI e no Power BI Desktop)](service-reports.md)
-* [Reports in the Power BI mobile apps (Relatórios nas aplicações móveis do Power BI)](mobile-reports-in-the-mobile-apps.md)
+- [Criar um relatório no serviço Power BI através da importação de um conjunto de dados](service-report-create-new.md)
+- [Otimizar os relatórios para as aplicações móveis do Power BI](desktop-create-phone-report.md)
 
 ## <a name="dashboards"></a>Dashboards
 Um *dashboard* é algo que cria **no serviço Power BI** ou algo que um colega cria **no serviço Power BI** e partilha consigo. Trata-se de uma única tela, que contém zero ou mais mosaicos e widgets. Cada mosaico afixado a partir de um relatório ou a partir de [Perguntas e Respostas](power-bi-q-and-a.md) mostra uma única [visualização](power-bi-report-visualizations.md), que foi criada a partir de um conjunto de dados e afixada ao dashboard. Pode também afixar páginas de relatórios inteiras a um dashboard como um mosaico único. Há várias formas de adicionar mosaicos ao seu dashboard; demasiadas para serem abordadas neste tópico de descrição geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](service-dashboard-tiles.md).
@@ -136,7 +136,7 @@ Existem muitas formas diferentes de o utilizador ou de um colega poder [partilha
   ![Dashboard selecionado](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>Explorar mais
-* [Criar um novo dashboard em branco e obter alguns dados](service-dashboard-create.md)
+* [Criar um dashboard em branco e, em seguida, obter alguns dados](service-dashboard-create.md) .
 * [Duplicar um dashboard](service-dashboard-copy.md)
 * [Criar uma vista do telefone de um dashboard](service-create-dashboard-mobile-phone-view.md)
 
@@ -200,7 +200,7 @@ Os ícones no canto superior direito são recursos para as definições, as noti
 
 ![botões de ícone](media/service-basic-concepts/power-bi-icons.png)
 
-### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Título do dashboard** (caminho de navegação, também conhecido como trilhos)
+### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **Título do dashboard** (caminho de navegação ou trilhos)
 Como nem sempre é fácil descobrir quais as áreas de trabalho e os dashboards que estão ativos, o Power BI cria um caminho de navegação para si.  Neste exemplo, vemos a área de trabalho (A minha área de trabalho) e o título do dashboard (Exemplo de Análise de Revenda).  Se abrirmos um relatório, o nome do relatório será acrescentado ao fim do caminho de navegação.  Cada secção do caminho é uma hiperligação ativa.  
 
 Repare no ícone “C” após o título do dashboard. Este dashboard tem uma [etiqueta de classificação de dados](service-data-classification.md) “confidencial”. A etiqueta identifica a confidencialidade e o nível de segurança dos dados. Se o Administrador tiver ativado a classificação de dados, cada dashboard terá um conjunto de etiquetas predefinidas. Os proprietários do dashboard devem alterar a etiqueta para corresponder ao nível de segurança adequado do dashboard deles.

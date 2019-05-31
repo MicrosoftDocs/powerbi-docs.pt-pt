@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710924"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicações móveis do Power BI com o Microsoft Intune
@@ -50,11 +50,11 @@ Para obter o URL da aplicação para iOS, temos de utilizar o iTunes.
 
     ![URL da aplicação iTunes](media/service-admin-mobile-intune/itunes-url.png)
 
-Deve ser semelhante ao seguinte: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*.
+Deve ser semelhante ao seguinte: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
 
 ### <a name="get-android-url"></a>Obter o URL para Android
 
-Pode obter o URL para o Google Play na [página de aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile/). Selecione **Transferir do Google Play** para avançar para a página da aplicação. Pode copiar o URL da barra de endereços do browser. Deve ser semelhante ao seguinte: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
+Pode obter o URL para o Google Play na [página de aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile/). Selecione **Transferir do Google Play** para avançar para a página da aplicação. Pode copiar o URL da barra de endereços do browser. Deve ser semelhante ao seguinte: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>Passo 2: Criar uma política de gestão de aplicações móveis
 
@@ -66,7 +66,7 @@ Pode criar a aplicação ou a política primeiro. Não importa a ordem com que s
 
     ![Portal do Intune](media/service-admin-mobile-intune/intune-policy.png)
 
-1. Selecione **Adicionar...**.
+1. Selecione **Adicionar...** .
 
 1. Em **Software**, pode selecionar a Gestão de Aplicações Móveis para Android ou iOS. Para começar rapidamente, pode selecionar **Criar uma política com as definições recomendadas** ou criar uma política personalizada.
 
@@ -122,7 +122,7 @@ Depois de ter adicionado a aplicação, tem de implementá-la para que fique dis
 
 ### <a name="deploy-for-ios"></a>Implementar para iOS
 
-1. No ecrã de aplicações, selecione a aplicação que criou. Selecione a ligação **Gerir Implementação…**.
+1. No ecrã de aplicações, selecione a aplicação que criou. Selecione a ligação **Gerir Implementação…** .
 
     ![Gerir implementação](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
@@ -144,7 +144,7 @@ Depois de implementar a aplicação, deverá ser mostrado **Sim** para implement
 
 ### <a name="deploy-for-android"></a>Implementar para Android
 
-1. No ecrã de aplicações, selecione a aplicação que criou. Selecione a ligação **Gerir Implementação…**.
+1. No ecrã de aplicações, selecione a aplicação que criou. Selecione a ligação **Gerir Implementação…** .
 
     ![Gerir implementação](media/service-admin-mobile-intune/intune-deploy-android1.png)
 1. No ecrã **Selecionar Grupos**, pode escolher os grupos nos quais quer implementar a aplicação. Selecione **Seguinte**.

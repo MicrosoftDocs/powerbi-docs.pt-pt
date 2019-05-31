@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256988"
+---
 Bem-vindo à secção **Publicar e Partilhar** do curso **Aprendizagem Orientada** do Power BI.
 
 Agora que aprendeu como o Excel e o Power BI funcionam perfeitamente em conjunto, e aprendeu tudo sobre os elementos visuais que pode criar em relatórios e dashboards, é provável que queira partilhá-los com os seus colegas e amigos. Com o Power BI, as ações **publicar e partilhar** são fáceis de executar.

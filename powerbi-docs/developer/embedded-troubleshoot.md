@@ -1,20 +1,20 @@
 ---
 title: Resolução de problemas de aplicações incorporadas
 description: Este artigo aborda alguns problemas comuns que poderá encontrar ao incorporar conteúdos do Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174827"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770491"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -109,7 +109,7 @@ Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu UR
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A autenticação falhou com o erro AADSTS70002 ou AADSTS50053
 
-**_(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_**
+** _(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_ **
 
 Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client, error_description:AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta***, porque a autenticação direta já não está em utilização desde 14 de junho de 2018 por predefinição.
 
@@ -161,7 +161,7 @@ Para verificar qual é o motivo, experimente os passos abaixo.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: A concessão requer permissões de administrador
 
-**_Sintomas:_**<br>
+**_Sintomas:_ **<br>
 Quando um utilizador que não é administrador tenta iniciar sessão numa aplicação pela primeira vez ao dar consentimento, obtém um dos seguintes erros:
 
 * O ConsentTest precisa de permissão para aceder a recursos na sua organização que apenas um administrador pode conceder. Peça permissão a um administrador para aceder a esta aplicação antes de a utilizar.
@@ -171,10 +171,10 @@ Quando um utilizador que não é administrador tenta iniciar sessão numa aplica
 
 Um utilizador administrador pode iniciar sessão e dar consentimento com êxito.
 
-**_Causa raiz:_**<br>
+**_Causa raiz:_ **<br>
 O consentimento do utilizador está desativado no inquilino.
 
-**_São possíveis várias correções:_**
+**_São possíveis várias correções:_ **
 
 *Ativar o consentimento do utilizador para todo o inquilino (todos os utilizadores, aplicações)*
 
@@ -185,7 +185,11 @@ O consentimento do utilizador está desativado no inquilino.
 
 *Conceder permissões* para a aplicação por um administrador: para todo o inquilino ou para um utilizador específico.
 
-## <a name="data-sources"></a>Data sources
+### <a name="cs1061-error"></a>Erro de CS1061
+
+Baixe [ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) se ocorrer um "'AuthenticationContext' não contém uma definição para 'AcquireToken' e não acessível"AcquireToken' abertos ao recebimento de um primeiro argumento de tipo ' AuthenticationContext' foi encontrada (não têm um usando diretiva ou uma referência ao assembly?) "erro.
+
+## <a name="data-sources"></a>Origens de dados
 
 ### <a name="isv-wants-to-have-different-credentials-for-the-same-data-source"></a>O ISV pretende ter credenciais diferentes para a mesma origem de dados
 

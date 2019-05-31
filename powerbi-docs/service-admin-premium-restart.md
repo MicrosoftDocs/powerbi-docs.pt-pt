@@ -1,8 +1,8 @@
 ---
 title: Reiniciar uma capacidade do Power BI Premium
 description: Saiba como pode reiniciar uma capacidade do Power BI Premium para resolver problemas de desempenho.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7fbd8bd9c7712dbd2476544fef900547310f35fa
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794965"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564916"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reiniciar uma capacidade do Power BI Premium
 
@@ -31,7 +31,7 @@ O Power BI esforça-se por melhorar continuamente a forma como protege os utiliz
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>O processo de reinício é seguro? Vou perder dados?
 
-Todos os dados, definições, relatórios e dashboards na sua capacidade permanecerão totalmente intactos após reiniciá-la. Ao reiniciar uma capacidade, todas as atualizações agendadas e ad hoc em curso são interrompidas. As atualizações serão reiniciadas quando a capacidade estiver disponível. Os utilizadores que interagirem com a capacidade vão perder o trabalho que não tiverem guardado. É recomendável que estes atualizem os respetivos browsers quando a reinicialização estiver concluída.
+Todos os dados, definições, relatórios e dashboards na sua capacidade permanecerão totalmente intactos após reiniciá-la. Ao reiniciar uma capacidade, todas as atualizações agendadas e ad hoc em curso são interrompidas. O serviço tenta repetir é atualizado quando a capacidade está disponível. Os utilizadores que interagirem com a capacidade vão perder o trabalho que não tiverem guardado. É recomendável que estes atualizem os respetivos browsers quando a reinicialização estiver concluída.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Como posso reiniciar uma capacidade?
 
@@ -57,6 +57,6 @@ Também recomendamos que [monitorize as suas capacidades](service-admin-premium-
 
 ## <a name="next-steps"></a>Próximos passos
 
-[O que é o Power BI Premium?](service-premium.md)
+[O que é o Power BI Premium?](service-premium-what-is.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

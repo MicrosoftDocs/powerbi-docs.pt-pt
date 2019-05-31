@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285873"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101580"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Erro: Não conseguimos encontrar dados no seu livro do Excel
 
->[!NOTE]
+>[!NOTE]  
 >Este artigo aplica-se ao Excel 2007 e posterior.
 
 Quando importa um livro do Excel para o Power BI, poderá ver o seguinte erro:
 
-*Erro: Não conseguimos encontrar dados no seu livro do Excel. Os seus dados poderão não estar corretamente formatados. Precisará de editar o seu livro no Excel e, em seguida, importá-lo novamente.*
+*Erro: Não foi possível encontrar quaisquer dados formatados como uma tabela. Para importar a partir do Excel para o serviço Power BI, terá de formatar os dados como uma tabela. Selecione todos os dados que pretende na tabela e prima Ctrl + T.*
 
-![Não conseguimos encontrar dados no livro](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![Não conseguimos encontrar dados no livro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>Solução rápida
 1. Edite o seu livro no Excel.
@@ -36,7 +36,7 @@ Quando importa um livro do Excel para o Power BI, poderá ver o seguinte erro:
 4. Guarde o seu livro.
 5. Volte ao Power BI e importe o seu livro novamente ou, se estiver a trabalhar no Excel 2016 e tiver guardado o livro no OneDrive para Empresas, no Excel, clique em Ficheiro > Publicar.
 
-## <a name="details"></a>Detalhes
+## <a name="details"></a>Details
 ### <a name="cause"></a>Motivo
 No Excel, pode criar uma **tabela** a partir de um intervalo de células, o que torna mais fácil ordenar, filtrar e formatar os dados.
 
@@ -47,28 +47,28 @@ Quando importa um livro do Excel, o Power BI procura estas tabelas e importa-as 
     >[!NOTE]
     >As imagens são referentes ao Excel 2013. Se estiver a utilizar outra versão, pode ter um aspeto ligeiramente diferente, mas os passos são iguais.
     
-    ![Abrir livro](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Abrir livro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. Selecione o intervalo de células que contém os seus dados. A primeira linha deve conter os cabeçalhos de coluna (os nomes das colunas):
    
-    ![Selecionar intervalo de células](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Selecionar intervalo de células](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
 3. No friso, no separador **INSERIR**, clique em **Tabela**. (Em alternativa, como atalho, prima **Alt+T**.)
    
-    ![Inserir tabela](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Inserir tabela](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
 4. Verá a seguinte caixa de diálogo. Certifique-se de que a opção **A minha tabela tem cabeçalhos** está selecionada e selecione **OK**:
    
-    ![Criar tabela](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Criar tabela](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. Agora os seus dados estão formatados como uma tabela:
    
-    ![Dados formatados como uma tabela](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Dados formatados como uma tabela](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Guarde o seu livro.
 7. Volte ao Power BI. Selecione Obter Dados na parte inferior do painel de navegação esquerdo.
    
-    ![Obter dados](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Obter dados](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. Na caixa **Ficheiros** , selecione **Obter**.
    
-    ![Obter ficheiros](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Obter ficheiros](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. Importe o seu livro do Excel novamente. Desta vez, a importação deverá localizar a tabela e ser concluída com êxito.
    
     Se a importação ainda falhar, entre em contacto connosco ao clicar em **Comunidade** no menu de ajuda:
    
-    ![Ligação da comunidade](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Ligação da comunidade](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)

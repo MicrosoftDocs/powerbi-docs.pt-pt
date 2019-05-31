@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263865"
+---
 No Power BI, **Dashboards** são coleções de uma página de visualizações criadas a partir do serviço Power BI. Os dashboards são criados ao **afixar** visualizações de relatórios que criou e publicou com o Power BI Desktop ou visualizações que criou no próprio serviço Power BI. **Afixar** um elemento visual a um dashboard é muito semelhante a afixar uma fotografia a um quadro de cortiça na parede - prende o elemento visual num determinado lugar, para que outras pessoas o possam ver. Para afixar um elemento visual, abra o respetivo relatório no serviço Power BI. Paire o rato sobre o elemento visual que pretende afixar e selecione o ícone de **pin**.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

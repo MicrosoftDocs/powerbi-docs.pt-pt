@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513702"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análise do Facebook com o Power BI Desktop
@@ -23,7 +23,7 @@ Neste tutorial, vai aprender a importar dados do Facebook e a utilizá-los no Po
 
 ## <a name="connect-to-a-facebook-page"></a>Ligar a uma página do Facebook
 
-Este tutorial utiliza dados da [página do Facebook do Microsoft Power BI](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). Não precisa de credenciais especiais para se ligar e importar dados desta página, a não ser as de uma conta pessoal do Facebook.
+Este tutorial utiliza dados da [página do Facebook do Microsoft Power BI](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ). Não precisa de credenciais especiais para se ligar e importar dados desta página, a não ser as de uma conta pessoal do Facebook.
 
 1. Abra o Power BI Desktop e selecione **Obter Dados** na caixa de diálogo **Introdução** ou, no separador do friso **Base**, selecione **Obter Dados** e, em seguida, selecione **Mais...**
    
@@ -220,7 +220,7 @@ Opta por dar ao gráfico um título mais descritivo e apelativo.
 1. Com o gráfico selecionado, escolha o ícone **Formato** e selecione a seta da lista pendente para expandir **Título**.
 2. Altere o **Texto do título** para **Comentários por mensagem**. 
 3. Selecione a seta da lista pendente junto a **Cor do tipo de letra** e selecione a cor verde para corresponder às barras verdes da visualização.
-4. Aumente o **Tamanho do texto** para **10** e altere a **Família do tipo de letra** para **Segoe (Negrito)**.
+4. Aumente o **Tamanho do texto** para **10** e altere a **Família do tipo de letra** para **Segoe (Negrito)** .
 
 ![Formatar o título do gráfico](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283122"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375180"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Utilizar a pormenorização no Power BI Desktop
 Com a **pormenorização** no **Power BI Desktop**, pode criar uma página no relatório centrada numa entidade específica, por exemplo, um fornecedor, um cliente ou um fabricante. Os utilizadores podem clicar com o botão direito do rato no ponto de dados noutras páginas do relatório. Em seguida, podem explorar a página em destaque para obter detalhes filtrados em função desse contexto.
@@ -81,5 +81,6 @@ Ao adicionar uma medida ou uma coluna numérica resumida, pode explorar a págin
 
 Poderá também estar interessado nos seguintes artigos:
 
-* [Utilizar a segmentação de dados no Power BI Desktop](visuals/desktop-slicers.md)
+* [Utilizar a análise do relatório no Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Utilizar a segmentação de dados no Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

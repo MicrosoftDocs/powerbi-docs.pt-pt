@@ -1,20 +1,20 @@
 ---
 title: Migrar uma instalação do servidor de relatórios
 description: Saiba como migrar a sua instância existente do SQL Server Reporting Services para uma instância do Power BI Report Server.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 6c2ea78d4be7cd830c9f9e79da6575366b8de9a3
-ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
-ms.translationtype: HT
+ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54420769"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770185"
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrar uma instalação do servidor de relatórios
 
@@ -41,7 +41,7 @@ Migrar de uma instância do SSRS (Modo nativo) para o Power BI Report Server con
 > O SQL Server 2008 Reporting Services e posteriores são suportados para migração.
 
 * Criar uma cópia de segurança da base de dados, da aplicação e dos ficheiros de configuração
-* Criar uma cópia de segurança da chave de encriptação
+* Criar cópia de segurança da chave de encriptação
 * Clonar a base de dados do servidor de relatórios que aloja os seus relatórios
 * Instalar o Power BI Report Server. Se estiver a utilizar o mesmo hardware, pode instalar o Power BI Report Server no mesmo servidor que a instância do SSRS. Para saber mais sobre instalar o Power BI Report Server, consulte [Instalar o Power BI Report Server](install-report-server.md).
 
@@ -84,7 +84,7 @@ Migrar de um servidor do Power BI Report Server é um processo idêntico a migra
 ![Migrar do Power BI Report Server para o Power BI Report Server](media/migrate-report-server/migrate-from-pbirs.png "Migrar do Power BI Report Server para o Power BI Report Server")
 
 * Criar uma cópia de segurança da base de dados, da aplicação e dos ficheiros de configuração
-* Criar uma cópia de segurança da chave de encriptação
+* Criar cópia de segurança da chave de encriptação
 * Clonar a base de dados do servidor de relatórios que aloja os seus relatórios
 * Instalar o Power BI Report Server. *Não* pode instalar o Power BI Report Server no mesmo servidor a partir do qual está a migrar. Para saber mais sobre instalar o Power BI Report Server, consulte [Instalar o Power BI Report Server](install-report-server.md).
 
