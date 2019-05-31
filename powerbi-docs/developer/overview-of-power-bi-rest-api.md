@@ -1,20 +1,20 @@
 ---
 title: O que posso fazer com a API Power BI
 description: O que posso fazer com a API Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872576"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269455"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 
@@ -24,12 +24,12 @@ Com a API REST do Power BI, pode realizar tarefas de gestão em objetos do Power
 
 Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 
-| **Para saber mais sobre:** | **Veja estas informações** |
+| **Para saber mais** | **Estas informações de referência** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Incorporar relatórios, dashboards e mosaicos para utilizadores do Power BI e pessoas que não utilizam o Power BI. | [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI ](embedding-content.md) |
-| Realizar tarefas de gestão em objetos do Power BI. | [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
-| Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. | [Push data into a dashboard (Enviar dados por push para um dashboard) ](walkthrough-push-data.md) |
-| Autenticação no Power BI. | [Autenticar-se no Power BI ](get-azuread-access-token.md) |
+| Realize tarefas de gestão em objetos do Power BI. | [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. | [Enviar dados para um dashboard ](walkthrough-push-data.md) |
+| Autenticação no Power BI. | [Autenticação no Power BI ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > As APIs do Power BI ainda se referem às áreas de trabalho de aplicações como grupos. Quaisquer referências a grupos significam que está a trabalhar com áreas de trabalho de aplicações.
@@ -38,8 +38,8 @@ Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 
 | Ferramentas | Descrição |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Experimente exemplos completos sobre a utilização das APIs de JavaScript do Power BI. Esta ferramenta também proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. |  |  |
-| [Wiki de JavaScript do Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obter mais informações sobre as APIs de JavaScript do Power BI. |  |  |
+| [Ferramenta de recreio](https://microsoft.github.io/PowerBI-JavaScript/demo) | Experimente exemplos completos sobre a utilização das APIs de JavaScript do Power BI. Esta ferramenta também proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. |  |  |
+| [Wiki do Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obter mais informações sobre as APIs de JavaScript do Power BI. |  |  |
 | [Postman](https://www.getpostman.com/) | Execute pedidos, testes, depurações, monitorizações, testes automatizados e mais. |
 
 ## <a name="push-data-into-power-bi"></a>Enviar dados por push para o Power BI
@@ -50,15 +50,15 @@ Pode utilizar a API do Power BI para [enviar dados por push para um conjunto de 
 
 ## <a name="github-repositories"></a>Repositórios do GitHub
 
-* [Exemplos para Programadores do Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples)
-* [SDK .NET](https://github.com/Microsoft/PowerBI-CSharp)
+* [Amostras do Power BI Developer](https://github.com/Microsoft/PowerBI-Developer-Samples)
+* [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
 * [API de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)
 
 ## <a name="next-steps"></a>Próximos Passos
 
-* [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md)
-* [Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)](custom-visual-develop-tutorial.md)
+* [Envio de dados por push para um conjunto de dados](walkthrough-push-data.md)
+* [Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)
 * [Referência da API REST do Power BI](rest-api-reference.md)
-* [Power BI REST APIs (APIs REST do Power BI)](https://docs.microsoft.com/rest/api/power-bi/)
+* [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

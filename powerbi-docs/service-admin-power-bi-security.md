@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
 ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430375"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187388"
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 
@@ -40,7 +40,7 @@ O cluster de **Back-end** é como os clientes autenticados interagem com o servi
 
 ## <a name="data-storage-security"></a>Segurança de Armazenamento de Dados
 
-O Power BI utiliza dois repositórios principais para armazenar e gerir dados: os dados carregados pelos utilizadores são enviados normalmente para o armazenamento do **BLOB do Azure**, enquanto que todos os metadados e os artefactos do próprio sistema são armazenados na **Base de Dados SQL do Azure**.
+O Power BI utiliza dois repositórios principais para armazenar e gerir dados: os dados carregados pelos utilizadores são enviados normalmente para o armazenamento do **BLOB do Azure**, enquanto que todos os metadados e os artefatos do próprio sistema são armazenados na **Base de Dados SQL do Azure**.
 
 A linha ponteada na imagem do cluster de **Back-end**, representada acima, esclarece o limite entre os dois únicos componentes que podem ser acedidos pelos utilizadores (à esquerda da linha ponteada) e as funções que só podem ser acedidas pelo sistema. Quando um utilizador autenticado se liga ao Serviço Power BI, a ligação e qualquer pedido feito pelo cliente são aceites e geridos pela **Função do Gateway** (para serem processados eventualmente pela **Gestão de API do Azure**), que interage em nome do utilizador com o resto do Serviço Power BI. Por exemplo, quando um cliente tenta ver um dashboard, a **Função do Gateway** aceita esse pedido e envia separadamente um pedido para a **Função de Apresentação** para obter os dados necessários para o browser compor o dashboard.
 

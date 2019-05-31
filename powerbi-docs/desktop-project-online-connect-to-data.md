@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f55d09de68d5ac29b81c72f3b1dc6cf98c1597
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289952"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513765"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: ligar aos dados a partir do Power BI Desktop
 Pode ligar aos dados no Project Online a partir do Power BI Desktop.
@@ -30,16 +30,16 @@ Pode ligar aos dados no Project Online a partir do Power BI Desktop.
 3. Selecione **Feed OData** e selecione **Ligar**.
 4. Introduza o endereço para o feed OData na caixa URL e, em seguida, clique em OK.
    
-   Se o endereço do seu site Project Web App for semelhante a https://\<nomeinquilino\>.sharepoint.com/sites/pwa, o endereço que vai introduzir para o Feed OData é https://\<nomeinquilino\>.sharepoint.com/sites/pwa/\_api/Projectdata.
+   Se o endereço do site do Project Web App é semelhante *https://\<tenantname\>.sharepoint.com/sites/pwa*, em seguida, o endereço que vai introduzir para o OData Feed é *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    No nosso exemplo, estamos a utilizar https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. O Power BI Desktop pedirá para se autenticar com a sua conta do Office 365. Selecione Conta organizacional e, em seguida, introduza as suas credenciais.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-Tenha em atenção que a conta que utiliza para se ligar ao feed OData tem de ter pelo menos acesso ao Visualizador de Portefólio para o site do Project Web App. 
+A conta que utiliza para ligar ao OData feed tem de ter, pelo menos, acesso ao Visualizador de portefólio para o site do Project Web App. 
 
-Aqui, pode escolher as tabelas às quais quer ligar e criar uma consulta.  Quer uma ideia de como começar?  A mensagem de blogue seguinte mostra como criar um gráfico de evolução com base nos dados do Project Online.  A mensagem de blogue refere-se à utilização do Power Query para ligar ao Project Online, mas isto aplica-se também ao Power BI Desktop.
+Aqui, pode escolher as tabelas às quais quer ligar e criar uma consulta.  Quer uma ideia de como começar?  A mensagem de blogue seguinte mostra como criar um gráfico de dados do Project Online de progresso.  A mensagem de blogue refere-se à utilização do Power Query para ligar ao Project Online, mas isto aplica-se também ao Power BI Desktop.
 
-[Criar gráficos burndown para o Project através do Power Pivot e do Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[Criação de progresso gráficos para o projeto com o Power Pivot e o Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

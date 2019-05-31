@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f66cc9f911c63703accb348e49133dbf3587d58a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265144"
+---
 É possível ligar o **Power BI Desktop** a uma grande variedade de origens de dados, incluindo bases de dados no local, livros do Excel, toda e serviços cloud. Atualmente, mais de 59 serviços cloud diferentes, como o GitHub e o Marketo, têm conectores específicos e é possível ligar a origens genéricas através de XML, CSV, texto e ODBC. O Power BI consegue até extrair dados tabulares a partir diretamente do URL de um site! Mas vamos começar do início, com a abertura do Power BI Desktop e a ligação a dados.
 
 Quando inicia o **Power BI Desktop** e passa o ecrã inicial, pode escolher Obter Dados no friso no separador **Base**.

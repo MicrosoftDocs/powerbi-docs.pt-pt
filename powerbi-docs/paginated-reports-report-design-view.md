@@ -1,24 +1,24 @@
 ---
 title: Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
 description: A Vista de Estrutura de Relatório no Report Builder é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174781"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61423365"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
 
-A Vista de Estrutura de Relatório no Report Builder é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI. A superfície de desenho está no centro do Report Builder, com o friso e os painéis em seu redor. A superfície de desenho é onde pode adicionar e organizar os seus itens de relatório. Este artigo explica os painéis que utiliza para adicionar, selecionar e organizar os recursos de relatório e alterar as propriedades do item de relatório.  
+Vista de estrutura de relatório no Power BI Report Builder é o espaço de design para a criação de relatórios paginados, que pode publicar no serviço Power BI. A superfície de desenho está no centro do Report Builder, com o friso e os painéis em seu redor. A superfície de desenho é onde pode adicionar e organizar os seus itens de relatório. Este artigo explica os painéis que utiliza para adicionar, selecionar e organizar os recursos de relatório e alterar as propriedades do item de relatório.  
 
 ![Vista de Estrutura de Relatório do Report Builder](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 

@@ -1,32 +1,32 @@
 ---
-title: Amostragem de Linhas de Alta Densidade no Power BI
-description: Amostragem de Linhas de Alta Densidade no Power BI
+title: Amostragem de linhas de alta densidade no Power BI
+description: Amostragem de linhas de alta densidade no Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: cb4a0f81766aa030b1981cb67a26c296dab2ba2a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 357611d36fd59be1b674f06ce72c5aba8d020822
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277210"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454340"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Amostragem de linhas de alta densidade no Power BI
-A partir da versão de junho de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar os elementos visuais que fornecem uma amostra dos dados de alta densidade. Por exemplo, pode criar um gráfico de linhas a partir dos resultados de vendas das suas lojas de revenda, em que cada loja tem mais de dez mil recibos de vendas por ano. Um gráfico de linhas dessas informações de vendas forneceria uma amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar a variação das vendas ao longo do tempo) de cada loja e criaria um gráfico de linhas com várias séries que, desse modo, representa os dados subjacentes. Trata-se de uma prática corrente na visualização de dados de elevada densidade. O Power BI Desktop melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
+A partir da versão de junho de 2017 do **Power BI Desktop** e das atualizações ao **serviço Power BI**, há um novo algoritmo de amostragem disponível destinado a melhorar os elementos visuais que fornecem uma amostra dos dados de alta densidade. Por exemplo, pode criar um gráfico de linhas a partir dos resultados de vendas das suas lojas de revenda, em que cada loja tem mais de dez mil recibos de vendas por ano. Um gráfico de linhas dessas informações de vendas seria amostra dos dados (selecione uma representação expressiva desses dados, para ilustrar como vendas variam ao longo do tempo) de dados para cada loja e criar um gráfico de linhas com várias séries que, deste modo, representa os dados subjacentes. Trata-se de uma prática corrente na visualização de dados de elevada densidade. O Power BI Desktop melhorou a respetiva capacidade de amostragem de dados de alta densidade, cujos detalhes são descritos neste artigo.
 
 ![](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
 > [!NOTE]
 > O algoritmo de **Amostragem de Alta Densidade** descrito neste artigo está disponível tanto no **Power BI Desktop** como no **serviço Power BI**.
 
-## <a name="how-high-density-line-sampling-works"></a>Modo de funcionamento da amostragem de linhas de alta densidade
-Anteriormente, o **Power BI** selecionava, de uma forma determinista, uma coleção de pontos de dados de amostra no intervalo completo de dados subjacentes. Por exemplo, para os dados de alta densidade contidos num elemento visual referente a um ano de calendário, podem existir 350 pontos de dados de amostra apresentados no elemento visual, tendo cada um deles sido selecionado para garantir a representação do intervalo completo de dados (a série global de dados subjacentes) no elemento visual. Para ajudar a compreender como isto acontece, imagine representar preços de ações ao longo do período de um ano e selecionar 365 pontos de dados para criar um gráfico de linhas (ou seja, um ponto de dados para cada dia).
+## <a name="how-high-density-line-sampling-works"></a>Linha como alta densidade de funcionamento da amostragem
+Anteriormente, o **Power BI** selecionava, de uma forma determinista, uma coleção de pontos de dados de amostra no intervalo completo de dados subjacentes. Por exemplo, para os dados de alta densidade contidos num elemento visual referente a um ano de calendário, podem existir 350 pontos de dados de amostra apresentados no elemento visual, tendo cada um deles sido selecionado para garantir a representação do intervalo completo de dados (a série global de dados subjacentes) no elemento visual. Para ajudar a compreender como isto acontece, imagine representar preços de ações durante um período de um ano e selecionar 365 pontos de dados para criar um gráfico de linhas (ou um ponto de dados para cada dia).
 
 Nessa situação, existem inúmeros valores para um preço de ações em cada dia. Naturalmente, existe um valor diário alto e outro baixo, mas estes podem ocorrer em qualquer altura do dia enquanto a bolsa de valores está aberta. No que se refere à amostragem de linhas de alta densidade, se a amostra de dados subjacente tiver sido extraída às 10:30 e às 12:00 de cada dia, obtém um instantâneo representativo dos dados subjacentes (o preço às 10:30 e às 12:00), mas este pode não recolher os valores alto e baixo reais do preço das ações para esse ponto de dados representativo (desse dia). Nessa situação, bem como noutras, a amostragem é representativa dos dados subjacentes, mas nem sempre capta pontos importantes, o que, neste caso, seriam os valores diários altos e baixos do preço das ações.
 
@@ -35,9 +35,9 @@ Por definição, a amostragem de dados de alta densidade é efetuada para criar 
 ## <a name="how-the-new-line-sampling-algorithm-works"></a>Modo de funcionamento do novo algoritmo de amostragem de linhas
 O novo algoritmo para a amostragem de linhas de alta densidade está disponível para os seguintes elementos visuais: gráfico de linhas e gráfico de área com um eixo X contínuo.
 
-Para um elemento visual de alta densidade, o **Power BI** reparte inteligentemente os dados em segmentos de alta resolução e, em seguida, escolhe pontos importantes para representar cada segmento. Esse processo de repartição de dados de alta resolução está especificamente otimizado para garantir que o gráfico resultante é visualmente indistinguível no que toca a composição de todos os pontos de dados subjacentes, mas de uma forma muito mais rápida e interativa.
+Para um visual de alta densidade, **Power BI** reparte inteligentemente os dados em segmentos de alta resolução e, em seguida, escolhe pontos importantes para representar cada segmento. Processo de dividir os dados de alta resolução está especificamente otimizado para garantir que o gráfico resultante é visualmente distinguir a composição de todos os pontos de dados subjacente, mas muito mais rápido e mais interativa.
 
-### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Valores mínimos e máximos para elementos visuais de linhas de alta densidade
+### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Valores mínimo e máximo para os elementos visuais de linhas de alta densidade
 As limitações de elementos visuais que se seguem aplicam-se a qualquer visualização fornecida:
 
 * **3500** é o número máximo de pontos de dados *apresentados* na maioria dos elementos visuais, independentemente do número de pontos de dados ou séries subjacentes (veja as *exceções* na lista com marcas que se segue). Como tal, se tiver 10 séries com 350 pontos de dados cada, o elemento visual terá atingido o limite máximo de pontos de dados global. Se tiver uma série, esta poderá ter até 3500 pontos de dados caso o novo algoritmo considere que essa é a melhor amostragem para os dados subjacentes.
@@ -67,7 +67,7 @@ Isto pode parecer um elevado grau de análise para garantir a recolha de um ou o
 ## <a name="tooltips-and-high-density-line-sampling"></a>Descrições e amostragem de linhas de alta densidade
 É importante ter em atenção que este processo de discretização, que resulta na recolha e apresentação dos valores mínimo e máximo de um contentor, pode afetar o modo como as descrições apresentam dados quando faz pairar o rato sobre os pontos de dados. Para explicar como e por que razão isto acontece, vamos rever o exemplo sobre os preços de ações.
 
-Vamos supor que está a criar um elemento visual baseado no preço das ações e a comparar duas ações diferentes, sendo que ambas estão a utilizar a **Amostragem de Alta Densidade**. Os dados subjacentes de cada série têm inúmeros pontos de dados (talvez esteja a recolher o preço das ações a cada segundo do dia). O algoritmo de amostragem de linhas de alta densidade realiza a discretização de cada série de forma independente da seguinte.
+Digamos que está criando um elemento visual baseado no preço das ações e a comparar duas ações diferentes, sendo que ambas estão a utilizar **High-Density amostragem**. Os dados subjacentes de cada série têm inúmeros pontos de dados (talvez esteja a recolher o preço das ações a cada segundo do dia). O algoritmo de amostragem de linhas de alta densidade realiza a discretização de cada série de forma independente da seguinte.
 
 Agora, vamos supor que o preço da primeira ação sobe às 12:02 e, em seguida, volta rapidamente a baixar dez segundos depois. É um ponto de dados importante. Quando a discretização ocorre para essa ação, o valor alto registado às 12:02 será um ponto de dados representativo para esse contentor.
 
@@ -75,15 +75,15 @@ No entanto, na segunda ação, 12:02 não foi um valor alto nem baixo no content
 
 Esta situação é frequente com as descrições. Os valores alto e baixo para um determinado contentor poderão não corresponder de forma exata aos pontos de valor do eixo X dimensionados uniformemente, pelo que a descrição não apresentará o valor.  
 
-## <a name="how-to-turn-on-high-density-line-sampling"></a>Como ativar a amostragem de linhas de alta densidade
-Por predefinição, o novo algoritmo está **ativado**. Para alterar esta definição, aceda ao painel **Formatação**, na secção **Geral** e, ao longo da parte inferior, encontrará um controlo de deslize de alternar chamado **Amostragem de Alta Densidade**. Para o desativar, deslize para a posição **Desativado**.
+## <a name="how-to-turn-on-high-density-line-sampling"></a>Como ativar a amostragem de linhas de alta densidade de
+Por predefinição, o novo algoritmo está **ativado**. Para alterar esta definição, vá para o **formatação** painel, na **gerais** cartão e na parte inferior, verá um controlo de deslize de alternar chamado **High-Density amostragem**. Para o desativar, deslize para a posição **Desativado**.
 
 ![](media/desktop-high-density-sampling/high-density-sampling_02.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 O novo algoritmo para a amostragem de linhas de alta densidade é uma melhoria importante para o Power BI, mas existem algumas considerações que precisa de ter em conta quando trabalhar com dados e valores de alta densidade.
 
-* Em virtude de uma maior granularidade e do processo de discretização, as **Descrições** poderão mostrar um valor apenas se os dados representativos estiverem alinhados com o cursor. Veja a secção *Descrições e amostragem de linhas de alta densidade* neste artigo para obter mais informações.
+* Em virtude de uma maior granularidade e do processo de discretização, as **Descrições** poderão mostrar um valor apenas se os dados representativos estiverem alinhados com o cursor. Consulte a *descrições e amostragem de linhas de alta densidade* secção deste artigo para obter mais informações.
 * Quando o tamanho de uma origem de dados global é demasiado grande, o novo algoritmo elimina séries (elementos de legenda) para acomodar a restrição relativa ao máximo de importação de dados.
   
   * Nesta situação, o novo algoritmo ordena as séries de legendas por ordem alfabética e percorre a lista de elementos de legenda por ordem alfabética, até o máximo de importação de dados ser atingido, e não importa séries adicionais.

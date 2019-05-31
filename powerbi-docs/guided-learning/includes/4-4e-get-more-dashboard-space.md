@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263814"
+---
 Pode achar que, ocasionalmente, quando cria os seus dashboards, tem mais conteúdo do que o que pode caber no seu ecrã. Existem algumas soluções que o ajudam a gerir a forma como o espaço do dashboard é apresentado, para que tenha uma visão completa do conteúdo do dashboard.
 
 O método mais simples para apresentar o dashboard completo num ecrã é selecionar o botão **Modo de Ecrã Completo** no canto superior direito do dashboard.

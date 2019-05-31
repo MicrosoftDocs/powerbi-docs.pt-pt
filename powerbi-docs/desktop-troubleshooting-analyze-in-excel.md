@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514568"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Resolução de Problemas de Analyze Excel
@@ -47,7 +47,7 @@ Para transferir as bibliotecas mais recentes do Excel, visite o Power BI e selec
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
-Na caixa de diálogo apresentada, selecione **Transferir (pré-visualização)**.
+Na caixa de diálogo apresentada, selecione **Transferir (pré-visualização)** .
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
@@ -67,7 +67,7 @@ Em alternativa, se a nova versão que está a instalar for mais recente que a ve
 Se vir a caixa de diálogo a pedir-lhe para atualizar, deve continuar com a instalação para obter a versão mais recente do fornecedor de OLE DB instalado no seu computador.
 
 ## <a name="connection-cannot-be-made-error"></a>Erro de falha de ligação
-A causa principal para um erro de *falha ao ligar* é as bibliotecas de cliente do fornecedor de OLE DB do seu computador não estarem atualizadas. Para obter informações sobre como determinar a atualização correta e para obter ligações de transferência, veja **Atualizar bibliotecas do Excel para o fornecedor de OLE DB)**, mencionadas anteriormente neste artigo.
+A causa principal para um erro de *falha ao ligar* é as bibliotecas de cliente do fornecedor de OLE DB do seu computador não estarem atualizadas. Para obter informações sobre como determinar a atualização correta e para obter ligações de transferência, veja **Atualizar bibliotecas do Excel para o fornecedor de OLE DB)** , mencionadas anteriormente neste artigo.
 
 ## <a name="forbidden-error"></a>Erro de proibição
 Alguns utilizadores têm mais do que uma conta do Power BI e, quando o Excel tenta ligar ao Power BI com credenciais existentes, pode utilizar as credenciais que não têm acesso ao conjunto de dados ou relatório que pretende aceder.

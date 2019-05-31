@@ -7,34 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 05/14/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 37108c88b3a4f1efe2d324d2b182276252072d78
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383159"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710441"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Controlar o estado de funcionamento do serviço Power BI no Office 365
 
-O centro de administração do Microsoft 365 fornece ferramentas importantes aos administradores do Power BI, incluindo informações atuais e históricas sobre o estado de funcionamento do serviço. Para aceder a estas informações, deve ter uma das seguintes funções: Administrador de Serviços do Power BI ou Administrador Global do Office 365. Para obter mais informações sobre as funções, veja [Funções de administrador relacionadas com o Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
+O Centro de administração do Microsoft 365 fornece ferramentas importantes para administradores do Power BI. As ferramentas incluem informações atuais e históricas sobre o estado de funcionamento do serviço. Para aceder a informações de estado de funcionamento do serviço, tem de ser de uma das seguintes funções:
+
+* Administrador do Serviço Power BI
+
+* Administrador Global do Office 365
+
+Para obter mais informações sobre as funções, consulte [funções de administrador relativo ao Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 
 1. Inicie sessão no [centro de administração do Microsoft 365](https://portal.office.com/adminportal).
 
-1. Selecione o mosaico **Service Health**.
+1. Na barra de navegação esquerda, selecione **Mostrar tudo** > **estado de funcionamento** > **estado de funcionamento do serviço**. É apresentada a página de estado de funcionamento do serviço:
 
-    ![Mosaico Service Health](media/service-admin-health/service-health-tile.png)
+    ![Captura de ecrã do Centro de administração do Microsoft 365 com as opções de estado de funcionamento de estado de funcionamento e o serviço chamado.](media/service-admin-health/service-health-tile.png)
 
-1. Na lista atual, selecione **Aconselhamentos N** ou **Incidentes N** e reveja os resultados. No gráfico abaixo, é visível um dos três aconselhamentos ativos.
+1. Do **todos os serviços** lista, selecione **Consultorias** ou **incidentes** e rever os resultados. A captura de ecrã abaixo, vê um dos três aconselhamentos sobre o Active Directory.
 
-    ![Aconselhamentos ativos](media/service-admin-health/active-advisories.png)
+    ![Captura de ecrã da página de estado de funcionamento do serviço com as consultorias de três para Power BI e a opção de detalhes de Show chamado.](media/service-admin-health/active-advisories.png)
 
-1. Para obter mais informações, selecione **Mostrar detalhes** de um item. No gráfico abaixo, pode ver detalhes adicionais, incluindo atualizações de estado recentes.
+1. Para obter mais informações, selecione **Mostrar detalhes** de um item. A captura de ecrã abaixo, ver detalhes adicionais, incluindo atualizações recentes de estado.
 
-    ![Detalhes do aconselhamento](media/service-admin-health/advisory-details.png)
+    ![Captura de ecrã de consultadoria detalhes.](media/service-admin-health/advisory-details.png)
 
     Desloque-se para baixo para ver mais informações e, em seguida, feche o painel quando tiver terminado.
 
-1. Para ver informações históricas em todos os serviços, no canto superior direito da lista de principal, selecione **Ver histórico**. Em seguida, selecione **Últimos 7 dias** ou **Últimos 30 dias**. Para voltar ao Service Health atual, selecione **Ver estado atual**.
+1. Para ver informações do histórico em todos os serviços, no canto superior direito do **estado de funcionamento do serviço** página, selecione **ver o histórico**. Em seguida, selecione **Últimos 7 dias** ou **Últimos 30 dias**. 
+
+1. Para voltar ao Service Health atual, selecione **Ver estado atual**.

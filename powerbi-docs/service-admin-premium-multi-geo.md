@@ -1,8 +1,8 @@
 ---
 title: Suporte da Multi-Geo para o Power BI Premium
 description: Saiba como pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571985"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564953"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Suporte da Multi-Geo para o Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o Multi-Geo suporte do Power BI Premium
 
 A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e EUA Centro-Oeste e EUA Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
 
@@ -35,7 +35,7 @@ A Multi-Geo não está disponível para o Power BI Alemanha, o Power BI China 
 
 A Multi-Geo também está agora disponível no Power BI Embedded. Leia mais em [Suporte da Multi-Geo no Power BI Embedded](developer/embedded-multi-geo.md).
 
-## <a name="using-multi-geo"></a>Utilizar a Multi-Geo
+## <a name="enable-and-configure"></a>Ativar e configurar
 
 Para obter as novas capacidades, ative a Multi-Geo ao selecionar uma região diferente da região predefinida na lista pendente.  Cada capacidade disponível mostra a região onde está atualmente localizada, por exemplo, **EUA Centro-Oeste**.
 
@@ -68,7 +68,7 @@ Estes itens permanecem na região base do inquilino:
 - Permissões
 - Credenciais dos conjuntos de dados
 
-## <a name="view-capacity-regions"></a>Ver as Regiões das Capacidades
+## <a name="view-capacity-regions"></a>Capacidade de ver regiões
 
 No Portal de Administração, pode ver todas as capacidades do seu inquilino do Power BI e as regiões onde atualmente se encontram.
 
@@ -92,13 +92,13 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 
 - Confirme que qualquer movimentação que efetuar entre regiões está conforme todos os requisitos de conformidade empresariais e governamentais antes de iniciar a transferência de dados.
 - Uma consulta em cache armazenada numa região remota permanece inativa nessa região. No entanto, os outros dados em trânsito podem ir e voltar entre várias localizações geográficas.
-- Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem podem permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
+- Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem pode permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
 - A Multi-Geo não resulta num melhor desempenho em geral. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base.
 - A funcionalidade de [fluxos de trabalho](service-dataflows-overview.md) (em pré-visualização) não é suportada na Multi-Geo.
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Power BI Premium: O que é?](service-premium.md)
+- [O que é o Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo para as capacidades do Power BI Embedded](developer/embedded-multi-geo.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

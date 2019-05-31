@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661888"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048284"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisar, localizar e ordenar conteúdo no serviço Power BI
 Existem várias formas de navegar no conteúdo no serviço Power BI. O conteúdo está organizado por tipos na área de trabalho: dashboards, relatórios, livros e conjuntos de dados.  O conteúdo também está organizado por utilização: favoritos, recentes, aplicações, partilhados comigo e em destaque. Para uma navegação num só local, a página Base organiza todo o conteúdo numa única página. Estes diferentes caminhos no conteúdo permitem-lhe localizar rapidamente o que precisa no serviço Power BI.  

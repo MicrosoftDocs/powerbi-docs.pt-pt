@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265100"
+---
 Bem-vindo à segunda secção deste curso **Aprendizagem Orientada** do Power BI, chamada **Obter Dados**. Esta secção analisa as muitas funcionalidades e ferramentas centradas nos dados do Power BI, concentrando-se no Power BI Desktop. Muitas destas ferramentas também se aplicam ao serviço Power BI, pelo que a sua aprendizagem desta secção tem dupla função.
 
 Quando obtém dados, às vezes não estão tão corretamente formados ou *limpos* como gostaria que estivessem. Por isso, nesta secção, vai aprender a obter dados, a limpá-los (por vezes, designado por *limpar* ou *transformar* dados), bem como aprender alguns truques avançados que podem facilitar a sua obtenção de dados.

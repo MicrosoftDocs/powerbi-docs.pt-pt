@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 445f5f087bd9589b18f798e8db40a63b0ddceafe
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249988"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578517"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>O que são as aplicações de modelo do Power BI? (pré-visualização)
 
@@ -24,10 +24,10 @@ As aplicações de modelo são um substituto dos atuais pacotes de conteúdos do
 
 Pode criar aplicações de modelo que permitam que os seus clientes estabeleçam ligação e criem instâncias com as respetivas contas. Como especialistas de domínio, podem desbloquear os dados de forma a serem facilmente consumíveis pelos respetivos utilizadores empresariais.  
 
-Deve submeter as suas aplicações de parceiro modelo no Cloud Partner Portal. Em seguida, as aplicações são disponibilizadas publicamente na Galeria de aplicações do Power BI (app.powerbi.com/getdata/services) e no Microsoft AppSource (appsource.microsoft.com). Eis um exemplo da experiência de aplicação de modelo pública.  
+Submeta as suas aplicações de modelo para o Portal de parceiro de Cloud. Em seguida, as aplicações são disponibilizadas publicamente na Galeria de aplicações do Power BI (app.powerbi.com/getdata/services) e no Microsoft AppSource (appsource.microsoft.com). Aqui está uma visão de alto nível a experiência de criação da aplicação de modelo público.  
 
-## <a name="overview"></a>Descrição geral
-O processo geral para programar e submeter uma aplicação de modelo envolve várias fases. Entre estas, algumas podem contemplar mais do que uma atividade em simultâneo.
+## <a name="process"></a>Processo
+O processo geral para desenvolver e submeter uma aplicação de modelo envolve vários estágios. Alguns estágios podem incluir mais de uma atividade ao mesmo tempo.
 
 
 | Fase | Power BI Desktop |  |serviço Power BI  |  |Cloud Partner Portal  |
@@ -37,7 +37,7 @@ O processo geral para programar e submeter uma aplicação de modelo envolve vá
 | **Três** | |  | Promova o pacote de teste na pré-produção para validação fora do seu inquilino do Power BI e submeta-o no AppSource  |  | Crie uma oferta de aplicação de modelo do Power BI com o seu pacote de pré-produção e inicie o processo de validação |
 | **Quatro** | |  | Promova o pacote de pré-produção para produção |  | Publique a aplicação |
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as Definições de aplicação de modelo do portal de administração do Power BI para obter detalhes. 
 
@@ -64,7 +64,7 @@ Eis os passos gerais.
 1. Altere o estado da sua oferta para "Em direto" no AppSource e mude a sua aplicação para produção no Power BI.
 2. Agora pode começar a desenvolver a versão seguinte na mesma área de trabalho em pré-produção. 
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Para criar a aplicação de modelo, necessita de permissões para esse efeito. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings-preview) do Power BI para obter detalhes. 
 

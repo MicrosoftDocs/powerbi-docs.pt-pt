@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263850"
+---
 Bem-vindo à secção **Explorar Dados** do curso **Aprendizagem Orientada** do Power BI. Agora que sabe mais sobre o Power BI Desktop e como obter e visualizar dados, está pronto para explorar os dados no serviço do Power BI.
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

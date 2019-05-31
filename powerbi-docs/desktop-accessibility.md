@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306303"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770402"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -144,6 +144,12 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Seleção múltipla | Ctrl + Enter ou Ctrl + Espaço |
 | Clicar com o botão direito do rato | <ul><li>Teclado do Windows: tecla de contexto do Windows + F10.  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: Shift+F10</li></ul> |
 | Limpar seleção | Ctrl+Shift+C |
+
+### <a name="table--matrix-navigation"></a>Tabela e matriz de navegação
+| Para esta ação           | Prima                |
+| :------------------- | :------------------- |
+| Mover o foco para cima ou para baixo de uma célula (em todas as células em todas as áreas)  | Seta para a chave / premida a tecla de seta para cima |
+| Mover o foco de esquerda / direita de uma célula (em todas as células em todas as áreas)  | Tecla de seta para a esquerda / direita tecla de seta |
 
 ### <a name="pane-navigation"></a>Navegação no Painel
 | Para esta ação           | Prima                |

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292091"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222270"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formatação condicional em tabelas 
 Com a formatação condicional para tabelas, pode especificar cores personalizadas para células, com base nos valores de célula ou noutros valores ou campos, incluindo cores com gradação. Também pode apresentar os valores de célula com barras de dados. 
@@ -129,6 +129,12 @@ Poderá então obter resultados como a seguinte matriz.
 ![Elemento visual de matriz com uma cor baseada num valor KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 Pode criar muitas mais variações apenas com a sua imaginação e um pouco de DAX.
+
+Pode utilizar qualquer um dos valores listados nas especificações de cor CSS em [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) para colorir os elementos visuais:
+* 3, por exemplo, #3E4AFF códigos de 6 ou 8 hexadecimal de um dígito. Certifique-se de que incluir o símbolo # no início do código. "3E4AFF" não é aceite. 
+* Por exemplo, RGBA (234, 234, 234, 0,5) de valores RGB ou RGBA
+* Por exemplo, valores de HSL ou HSLA HSLA (123, 75%, 75%, 0,5)
+* Por exemplo, Green, SkyBlue, PeachPuff os nomes de cor 
 
 ## <a name="next-steps"></a>Próximos passos
 Para obter mais informações, veja o seguinte artigo:  

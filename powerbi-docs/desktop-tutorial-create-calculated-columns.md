@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514546"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Criar colunas calculadas no Power BI Desktop
@@ -44,7 +44,7 @@ No Relatório de Vendas, quer ver categorias e subcategorias dos produtos como u
     
     ![Barra de fórmulas](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  Por predefinição, a nova coluna calculada é simplesmente denominada Coluna. Se não alterar o seu nome, as novas colunas adicionais serão denominadas Coluna 2, Coluna 3 e assim sucessivamente. Pretende que a coluna seja identificada com mais facilidade e, uma vez que o nome **Coluna** já está realçado na barra de fórmulas, altere-o ao introduzir **ProductFullCategory** e, em seguida, um sinal de igual (**=**).
+2.  Por predefinição, a nova coluna calculada é simplesmente denominada Coluna. Se não alterar o seu nome, as novas colunas adicionais serão denominadas Coluna 2, Coluna 3 e assim sucessivamente. Pretende que a coluna seja identificada com mais facilidade e, uma vez que o nome **Coluna** já está realçado na barra de fórmulas, altere-o ao introduzir **ProductFullCategory** e, em seguida, um sinal de igual ( **=** ).
     
 3.  Quer que os valores na coluna nova comecem com o nome ProductCategory. Como esta coluna está numa tabela diferente, mas relacionada, pode utilizar a função [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) para a obter.
     
@@ -56,19 +56,19 @@ No Relatório de Vendas, quer ver categorias e subcategorias dos produtos como u
     
     ![Escolher ProductCategory](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-4.  Quer a coluna **ProductCategory** na tabela **ProductCategory**. Selecione **ProductCategory[ProductCategory]**, prima **Enter** e, em seguida, introduza um parêntese de fecho.
+4.  Quer a coluna **ProductCategory** na tabela **ProductCategory**. Selecione **ProductCategory[ProductCategory]** , prima **Enter** e, em seguida, introduza um parêntese de fecho.
     
     > [!TIP]
     > Os erros de sintaxe são, na maior parte das vezes, causados por um parêntese de fecho em falta ou mal colocado, apesar de, por vezes, o Power BI Desktop poder adicioná-lo por si.
     
-4. Pretende usar travessões e espaços para separar ProductCategories e ProductSubcategories nos valores novos, por isso, após o parêntese de fecho da primeira expressão, insira um espaço, E comercial (**&**), aspas (**"**), espaço, travessão (**-**), outro espaço, outras aspas e outro E comercial. A sua fórmula agora deve ter este aspeto:
+4. Pretende usar travessões e espaços para separar ProductCategories e ProductSubcategories nos valores novos, por isso, após o parêntese de fecho da primeira expressão, insira um espaço, E comercial ( **&** ), aspas ( **"** ), espaço, travessão ( **-** ), outro espaço, outras aspas e outro E comercial. A sua fórmula agora deve ter este aspeto:
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > Se precisar de mais espaço, selecione a divisa para baixo do lado direito da barra de fórmulas para aumentar o editor de fórmulas. No editor, prima **Alt + Enter** para mover uma linha para baixo e prima **Tab** para mudar a posição das coisas.
     
-5.  Insira um parêntese reto de abertura (**[**) e, em seguida, selecione a coluna **[ProductSubcategory]** para terminar a fórmula. 
+5.  Insira um parêntese reto de abertura ( **[** ) e, em seguida, selecione a coluna **[ProductSubcategory]** para terminar a fórmula. 
     
     ![Escolher ProductSubcategory](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -102,15 +102,15 @@ Felizmente, a tabela Lojas tem uma coluna chamada **Status**, com valor “Ativa
 
 1.  Crie uma nova coluna calculada na tabela **Stores** e dê-lhe o nome **Active StoreName** na barra de fórmulas.
     
-2.  Depois do sinal **=**, comece a escrever **IF**. A lista de sugestões mostrará o que pode adicionar. Selecione **IF**.
+2.  Depois do sinal **=** , comece a escrever **IF**. A lista de sugestões mostrará o que pode adicionar. Selecione **IF**.
     
     ![Selecionar IF](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-3.  O primeiro argumento de IF é um teste lógico para verificar se o Status de uma loja é “Ativado”. Introduza um parêntese reto de abertura **[**, para listar as colunas na tabela Stores, e selecione **[Status]**.
+3.  O primeiro argumento de IF é um teste lógico para verificar se o Status de uma loja é “Ativado”. Introduza um parêntese reto de abertura **[** , para listar as colunas na tabela Stores, e selecione **[Status]** .
     
     ![Selecionar Status](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  Logo após **[Status]**, digite **="On"** e, em seguida, introduza uma vírgula (**,**) para terminar o argumento. A descrição apresenta uma sugestão a indicar que precisa de adicionar um valor a devolver quando o resultado é TRUE.
+4.  Logo após **[Status]** , digite **="On"** e, em seguida, introduza uma vírgula ( **,** ) para terminar o argumento. A descrição apresenta uma sugestão a indicar que precisa de adicionar um valor a devolver quando o resultado é TRUE.
     
     ![Adicionar valor TRUE](media/desktop-tutorial-create-calculated-columns/if3.png)
     

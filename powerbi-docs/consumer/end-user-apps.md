@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662141"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608360"
 ---
 # <a name="apps-in-power-bi"></a>Aplicações no Power BI
 ## <a name="what-is-a-power-bi-app"></a>O que é uma aplicação do Power BI?
@@ -30,10 +30,10 @@ As suas aplicações estão organizadas na lista de conteúdos **Aplicações**.
 > A utilização da funcionalidade de aplicações requer uma licença do Power BI Pro. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>***Designers*** e ***consumidores*** de aplicações
-Consoante o seu cargo, pode ser uma pessoa que cria aplicações (designer) para sua utilização ou para partilhar com colegas. Também pode ser uma pessoa que recebe e transfere aplicações (consumidor) criadas por outras pessoas. Este artigo é direcionado para *consumidores* de aplicações.
+Consoante o seu cargo, pode ser alguém que cria aplicações (*designer*) para sua utilização ou para partilhar com colegas. Em alternativa, pode ser uma pessoa que recebe e downloads de aplicações (*consumidor*) criados por outros utilizadores. Este artigo é direcionado para *consumidores* de aplicações.
 
 ## <a name="advantages-of-apps"></a>Vantagens das aplicações
-As aplicações são fáceis de encontrar e instalar no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel.
+É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)) e no seu dispositivo móvel. Depois de instalar uma aplicação, não terá de memorizar os nomes de vários dashboards, uma vez que estes estão juntos numa aplicação, tanto no seu browser como no seu dispositivo móvel.
 
 Com as aplicações, sempre que o autor da aplicação lançar atualizações, o utilizador pode vê-las automaticamente. O autor também controla quantas vezes os dados são agendados para atualização, para que não se tenha de preocupar em atualizá-los. 
 

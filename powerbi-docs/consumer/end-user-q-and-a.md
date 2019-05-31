@@ -1,5 +1,5 @@
 ---
-title: Descrição geral das Perguntas e Respostas no serviço Power BI
+title: As perguntas e respostas para os consumidores do Power BI
 description: Tópico de descrição geral de documentação para perguntas e respostas sobre linguagem natural em consultas do Power BI.
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661983"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625118"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Perguntas e Respostas para **consumidores** do Power BI
 ## <a name="what-is-qa"></a>O que são as Perguntas e Respostas?
-Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural. Por exemplo, "qual foi o total de vendas no ano passado".  
+Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural. Por exemplo, "qual foi o total de vendas no ano passado".
+
 Utilize as Perguntas e Respostas para explorar os seus dados com recursos intuitivos em linguagem natural e receba as respostas na forma de quadros e gráficos. As Perguntas e Respostas são diferentes de um motor de busca -- as Perguntas e Respostas fornecem apenas resultados relativos aos dados no Power BI.
 
 As **Perguntas e Respostas do Power BI** só suportam responder a consultas de linguagem natural feitas em inglês. Existe uma pré-visualização disponível para espanhol que pode ser ativada pelo seu administrador do Power BI.
@@ -35,7 +36,7 @@ A pergunta é apenas o início.  Divirta-se viajando pelos seus dados, refinando
 A experiência é verdadeiramente interativa... e rápida! Com tecnologia de armazenamento dentro da memória, a resposta é praticamente instantânea.
 
 ## <a name="where-can-i-use-qa"></a>Onde posso utilizar as Perguntas e Respostas?
-Poderá encontrar as Perguntas e Respostas em dashboards no serviço Power BI, na parte inferior dos dashboards no Power BI Mobile e acima da visualização no Power BI Embedded. A menos que o designer lhe tenha dado permissões de edição, poderá utilizar as Perguntas e Respostas para explorar dados, mas não conseguirá guardar quaisquer visualizações criadas com as Perguntas e Respostas.
+Encontrará as perguntas e respostas em dashboards e relatórios no serviço Power BI e, na parte inferior do dashboard do Power BI móvel. A menos que o designer lhe tenha dado permissões de edição, poderá utilizar as Perguntas e Respostas para explorar dados, mas não conseguirá guardar quaisquer visualizações criadas com as Perguntas e Respostas.
 
 ![caixa de perguntas](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -68,7 +69,7 @@ Também pode informar ao P e R a visualização que será utilizada ao adicioná
 **Resposta 1**: Se não vir uma caixa de perguntas, verifique primeiro as suas definições. Para fazê-lo, selecione o ícone de engrenagem no canto superior direito da barra de ferramentas do Power BI.   
 ![ícone de engrenagem](media/end-user-q-and-a/power-bi-settings.png)
 
-Em seguida, selecione **Definições** > **Dashboards**. Certifique-se de que existe uma marca de verificação junto a **Mostrar a caixa de pesquisa Perguntas e Respostas neste dashboard**.
+Em seguida, selecione **Definições** > **Dashboards**. Certifique-se de que existe uma marca de verificação junto a **Mostrar a caixa de pesquisa Perguntas e Respostas neste dashboard**.    
 ![Definições de Perguntas e Respostas do dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 

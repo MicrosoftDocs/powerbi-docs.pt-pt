@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2019376373268ff57802525ba5b7ee6b7a8ff32e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397788"
+---
 Quando tiver muitos elementos num relatório, o Power BI permite-lhe gerir a forma como estes se sobrepõem entre si. A forma como os itens estão sobrepostos, ou dispostos por cima uns dos outros é frequentemente referida como a ordem z.
 
 Para gerir a ordem z de elementos num relatório, selecione um elemento e utilize o botão **Dispor** no separador **Home page** do friso para alterar a ordem z.

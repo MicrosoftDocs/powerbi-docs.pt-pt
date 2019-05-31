@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 3897464cbc2a233f7b1aa6ee2f0fd70d39ff16aa
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872507"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65990609"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -22,10 +22,34 @@ Este registo de alterações destina-se ao Power BI Report Server e lista novos 
 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
 
+## <a name="may-2019"></a>Maio de 2019
+
+- **Power BI Report Server**          
+    - *Versão 1.5.7074.36177 (compilação 15.0.1102.371), lançada: 21 de Maio de 2019*
+        - Correções de Erros
+            - Relatórios Paginados
+                - Correção para sempre habilitar a incorporação de tipo de letra do pdf.
+                - Correção para definir cookies enviados através de https como seguro
+                - Corrigir problemas com o pop ups devido a erros de script
+                - Correção para problemas de exibição com a aplicação móvel em telemóveis Android
+                - Correção para o navegador de tempo de relatório móvel mostrar os números corretos da semana, independentemente do início do Ano Fiscal
+                - Tipos de mime adicionado "RestrictedResourceMimeTypeForUpload' propriedade configurável para especificar que os administradores banida
+         - Funcionalidades
+            - Adicionando suporte para elementos visuais fidedigna ao PBIRS
+
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+    - *Versão: 2.69.5467.1801 (Maio de 2019), lançada: 21 de Maio de 2019*
+        - Correções de erros
+            - Correção para evitar a reintrodução das credenciais durante o carregamento PBIX para PBIRS
+            - Correções de abrir documentos com n. º no nome de ficheiro
+            - Foi adicionada ligação mais fácil para navegação regressiva na janela de seleção de PBIRS
+            - Correção para modo de alto contraste no PBIRS para apresentar o botão voltar, Mostrar visual mensagens de aviso.
+            - Correções de interface do Usuário ao painel de seleção, baseadas em telas de dimensionamento.
+
 ## <a name="january-2019"></a>Janeiro de 2019
 
 - **Power BI Report Server**          
-    - *Versão 1.4.7024.16477 (Compilação 15.0.1102.299), Lançamento: 28 de março de 2019*
+    - *Versão 1.4.7024.16477 (compilação 15.0.1102.299), lançada: 28 de Março de 2019*
         - Correções de Erros
             - Relatórios do Power BI
                 - Correção de um problema com as credenciais básicas ao utilizar o DirectQuery para SAP Hana e SAP BW
@@ -104,7 +128,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
                 - Os Relatórios podem ser atualizados quando um servidor é configurado para utilizar a autenticação personalizada
                 - Modificar as propriedades de um relatório não repõe as credenciais de origem de dados
             - Para Relatórios Paginados (RDL)
-                - A utilização de funções derivativas ou de `Lookup()`, como `LookupSet()` e `MultiLookup()`, em Expressões de RDL já não resulta em: `#Error`
+                - A utilização de funções derivativas ou de `Lookup()`, como `LookupSet()` e `MultiLookup()` em Expressões de RDL já não resulta em `#Error`
                 - Os relatórios ligados respeitam o tamanho da página do relatório de destino durante a impressão
                 - Podem ser criadas subscrições de relatórios ligados que utilizem parâmetros em cascata
                 - As predefinições de parâmetros de valores múltiplos podem ser modificadas com o IE11

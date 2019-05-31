@@ -1,20 +1,20 @@
 ---
 title: Melhores práticas para o desempenho do Power BI Embedded
 description: Este artigo fornece recomendações de melhores práticas para a análise incorporada
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: ac8052b78e452f5da1f3db8988a180923c08e0b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430356"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61343174"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI Embedded
 
@@ -26,7 +26,7 @@ O método powerbi.embed() recebe poucos parâmetros para incorporar um relatóri
 
 ### <a name="embed-url"></a>URL de Incorporação
 
-Evite gerar o seu próprio URL de incorporação. Em vez disso, certifique-se de que obtém o URL de Incorporação ao chamar a API [Obter relatórios](/rest/api/power-bi/reports/getreportsingroup), [Obter dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) ou [Obter mosaicos](/rest/api/power-bi/dashboards/gettilesingroup). Adicionámos um novo parâmetro ao URL, chamado **_config_**, que é utilizado para melhorar o desempenho.
+Evite gerar o seu próprio URL de incorporação. Em vez disso, certifique-se de que obtém o URL de Incorporação ao chamar a API [Obter relatórios](/rest/api/power-bi/reports/getreportsingroup), [Obter dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) ou [Obter mosaicos](/rest/api/power-bi/dashboards/gettilesingroup). Adicionámos um novo parâmetro ao URL, chamado **_config_** , que é utilizado para melhorar o desempenho.
 
 ### <a name="permissions"></a>Permissões
 

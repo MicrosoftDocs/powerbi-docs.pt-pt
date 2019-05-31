@@ -7,15 +7,15 @@ ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/03/2019
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: ''
-ms.openlocfilehash: fbfd8c98743144e0c9604aca4174d6ef32916e77
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: c981a3e2a05129a470c8d26675226bfb42c1bb68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914282"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769549"
 ---
 # <a name="query-caching-in-power-bi-premium"></a>Colocação em cache de consultas no Power BI Premium
 
@@ -26,9 +26,7 @@ As organizações com o Power BI Premium podem tirar partido da *colocação em 
 
 Os resultados de consultas em cache são específicos do contexto do utilizador e conjunto de dados e respeitam sempre as regra de segurança. Neste momento, o serviço só efetua a colocação em cache de consultas da página inicial à qual aceder. Ou seja, as consultas não são colocadas em cache quando interagir com o relatório. A cache reflete os marcadores pessoais e filtros persistentes. Os [mosaicos do dashboard](service-dashboard-tiles.md) que são alimentados pelas mesmas consultas também beneficiam da colocação em cache da consulta. O desempenho é particularmente otimizado quando um conjunto de dados é acedido com frequência e não precisa de ser atualizado muitas vezes. A colocação em cache de consultas também pode reduzir a carga na sua capacidade Premium ao reduzir o número geral de consultas.
 
-Pode controlar o comportamento da colocação em cache de consultas na página **Definições** do conjunto de dados no serviço Power BI. Existem três definições possíveis:
-
-- **Predefinição de Capacidade**: o conjunto de dados herda a definição da capacidade Premium. A predefinição de capacidade é controlada pelo administrador da capacidade do Power BI Premium.
+Pode controlar o comportamento da colocação em cache de consultas na página **Definições** do conjunto de dados no serviço Power BI. Ele tem duas configurações possíveis:
 
 - **Inativa**: não utilizar a colocação em cache da consulta para este conjunto de dados.
 

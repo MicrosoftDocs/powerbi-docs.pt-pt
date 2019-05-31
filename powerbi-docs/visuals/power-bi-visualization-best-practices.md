@@ -11,11 +11,11 @@ ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296738"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61147851"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Melhores práticas de design para relatórios e elementos visuais
 <!-- Shared newnav Include -->
@@ -673,7 +673,7 @@ Neste gráfico de linhas, é mais fácil ver que as receitas comerciais tiveram 
 * Tal como com os gráficos de colunas/barras, tem a opção de apresentar na horizontal ou na vertical.   Horizontal é uma opção melhor se tiver etiquetas mais compridas e vertical se tiver dados de séries temporais.  
 * Evite gráficos de barras/colunas empilhadas se quiser mostrar tendências e outros padrões de alterações ao longo do tempo.  Pode fazê-lo muito melhor com outros gráficos, como de linhas.
 * Também pode basear a distribuição no volume total ou como % do total.  
-* Como Few observou,  *é difícil comparar os segmentos das barras empilhadas. Se os segmentos fossem dispostos lado a lado e todos crescessem a partir da mesma linha base, seria fácil comparar as respetivas alturas. Contudo, se fossem empilhados uns sobre os outros, a comparação tornar-se-ia difícil. Além disso, embora seja relativamente fácil ver como evoluíram (as receitas) de mês para mês, é muito difícil ver como é que evoluíram nas outras (categorias)*.  
+* Como Few observou,  *é difícil comparar os segmentos das barras empilhadas. Se os segmentos fossem dispostos lado a lado e todos crescessem a partir da mesma linha base, seria fácil comparar as respetivas alturas. Contudo, se fossem empilhados uns sobre os outros, a comparação tornar-se-ia difícil. Além disso, embora seja relativamente fácil ver como evoluíram (as receitas) de mês para mês, é muito difícil ver como é que evoluíram nas outras (categorias)* .  
 * Os gráficos 100% empilhados são uma boa opção se forem utilizadas percentagens que somem 100.  No exemplo abaixo, vemos a distribuição de categorias por equipa.  As percentagens são relativas e permitem-nos ver padrões rapidamente. Por exemplo, as receitas do Everton provêm sobretudo de Transmissões (mais de 70%), ao passo que o PSG só vai buscar 20% das receitas a esta categoria.  Escolher a apresentação horizontal permite ajustar as etiquetas das equipas mais facilmente e ver o impacto dos tipos de receitas.
   
   ![](media/power-bi-visualization-best-practices/power-bi-deloite3.png)

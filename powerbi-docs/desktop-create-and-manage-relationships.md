@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249350"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61312710"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, na maioria dos casos, não tem de fazer nada: a funcionalidade de Deteção Automática pode fazer isso por si. No entanto, em alguns casos, talvez tenha de criar relações ou talvez seja necessário fazer algumas alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
 
 ## <a name="autodetect-during-load"></a>Deteção automática durante o carregamento
-Se consultar duas ou mais tabelas ao mesmo tempo, quando os dados forem carregados, o Power BI Desktop tentará localizar e criar relações para si. As propriedades Cardinalidade, Direção de filtro cruzado e Ativo são definidas automaticamente. O Power BI Desktop procura os nomes de coluna nas tabelas que está a consultar para determinar se existem potenciais relações. Se houver, essas relações são criadas automaticamente. Se o Power BI Desktop não conseguir determinar com um elevado nível de confiança que existe uma correspondência, não criará automaticamente a relação. Pode também utilizar a caixa de diálogo Gerir Relações para criar ou editar relações.
+Se consultar duas ou mais tabelas ao mesmo tempo, quando os dados são carregados, Power BI Desktop tentará localizar e criar relações para si. As propriedades Cardinalidade, Direção de filtro cruzado e Ativo são definidas automaticamente. O Power BI Desktop procura os nomes de coluna nas tabelas que está a consultar para determinar se existem potenciais relações. Se houver, essas relações são criadas automaticamente. Se o ambiente de trabalho do Power BI não conseguir determinar com um elevado nível de confiança, existe uma correspondência, ele não cria automaticamente a relação. Pode também utilizar a caixa de diálogo Gerir Relações para criar ou editar relações.
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>Criar uma relação com Deteção Automática
 No separador **Página Principal**, clique em **Gerir Relações** \> **AutoDetect**.
@@ -30,21 +30,21 @@ No separador **Página Principal**, clique em **Gerir Relações** \> **AutoDete
 
 ## <a name="create-a-relationship-manually"></a>Criar uma relação manualmente
 1. No separador **Página Principal**, clique em **Gerir Relações** \> **Novo**.
-2. Na caixa de diálogo **Criar Relação**, na primeira lista pendente de tabelas, selecione uma tabela e, em seguida, selecione a coluna que pretende utilizar na relação.
-3. Na segunda lista pendente de tabelas, selecione a outra tabela que pretende ter na relação e, em seguida, a outra coluna que quer utilizar. Depois, clique em **OK**.
+2. Na **criar relação** caixa de diálogo, a primeira tabela na lista pendente, selecione uma tabela e, em seguida, selecione a coluna que pretende utilizar na relação.
+3. A segunda tabela na lista pendente, selecione a outra tabela que pretende na relação e, depois, a outra coluna que pretende utilizar e, em seguida, clique em **OK**.
 
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Por predefinição, o Power BI Desktop configurará automaticamente as propriedades Cardinalidade (direção), Direção de filtro cruzado e Ativo para a sua nova relação; no entanto, pode alterá-las, se necessário. Para obter mais informações, veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo.
+Por predefinição, o ambiente de trabalho do Power BI configura automaticamente a cardinalidade (direção), cruzada de direção de filtro e propriedades de Active Directory para a sua nova relação; No entanto, pode alterar as definições, se necessário. Para obter mais informações, veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo.
 
-Tenha em atenção que verá um erro a indicar que *Uma das colunas tem de ter valores exclusivos* se nenhuma das tabelas selecionadas para a relação tiver valores exclusivos. Pelo menos uma tabela numa relação *tem* de ter uma lista distinta e exclusiva de valores-chave, que é um requisito comum para todas as tecnologias de bases de dados relacionais. 
+Verá um erro que indica *uma das colunas tem de ter valores exclusivos* se nenhuma das tabelas selecionadas para a relação tem valores exclusivos. Pelo menos uma tabela numa relação *tem* de ter uma lista distinta e exclusiva de valores-chave, que é um requisito comum para todas as tecnologias de bases de dados relacionais. 
 
 Se ocorrer esse erro, existem algumas formas de corrigir o problema:
 
 * Utilize a opção "Remover Linhas Duplicadas" para criar uma coluna com valores exclusivos. A desvantagem desta abordagem é o facto de que perderá informações quando remover as linhas duplicadas e, muitas vezes, uma chave (linha) é duplicada por um bom motivo.
 * Adicione uma tabela intermediária criada a partir da lista de valores-chave distintos ao modelo, que será então associada a ambas as colunas originais na relação.
 
-Para obter mais informações, veja a [mensagem de blogue](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) que o explica em detalhe.
+Para obter mais informações, consulte a [mensagem de blogue](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/).
 
 
 ## <a name="edit-a-relationship"></a>Editar uma relação
@@ -52,38 +52,38 @@ Para obter mais informações, veja a [mensagem de blogue](https://blogs.technet
 2. Na caixa de diálogo **Gerir Relações**, selecione a relação e, em seguida, clique em **Editar**.
 
 ## <a name="configure-additional-options"></a>Configurar opções adicionais
-Quando cria ou edita uma relação, pode configurar opções adicionais.  Por predefinição, as opções adicionais são configuradas automaticamente com base na melhor estimativa. Isto pode ser diferente para cada relação, com base nos dados contidos nas colunas.
+Quando cria ou edita uma relação, pode configurar opções adicionais. Por predefinição, as opções adicionais são automaticamente configuradas com base na melhor estimativa, que pode ser diferente para cada relação com base nos dados nas colunas.
 
 ## <a name="cardinality"></a>Cardinalidade
-**Muitos para um (\*: 1)** – Este é o tipo de predefinição mais comum. Isto significa que a coluna numa tabela pode ter mais de uma instância de um valor, enquanto que a outra tabela relacionada, geralmente conhecida como Tabela de referência, tem apenas uma instância de um valor.
+**Muitos para um (\*: 1)** – a maioria dos comum, tipo de padrão, o que significa que a coluna numa tabela pode ter mais de uma instância de um valor e a outra tabela relacionada, geralmente conhecida como tabela de referência, tem apenas uma instância de um valor.
 
-**Um para um (1:1)** – Isto significa que a coluna numa tabela tem apenas uma instância de um valor específico e a outra tabela relacionada tem apenas uma instância de um valor específico.
+**Um para um (1:1)** – a coluna numa tabela tem apenas uma instância de um valor específico e a outra tabela relacionada tem apenas uma instância de um valor específico.
 
-**Relações muitos para muitos**: com os modelos compostos, pode estabelecer relações muitos-para-muitos entre tabelas. Esta abordagem remove os requisitos de valores exclusivos nas tabelas. Também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter informações mais detalhadas, veja [Relações com uma cardinalidade de muitos-para-muitos](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
+**Relações muitos para muitos**: Com modelos de compostos, pode estabelecer relações muitos-para-muitos entre as tabelas, que remove os requisitos para valores exclusivos nas tabelas. Também remove soluções anteriores como, por exemplo, apresentar novas tabelas apenas para estabelecer relações. Para obter informações mais detalhadas, veja [Relações com uma cardinalidade de muitos-para-muitos](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a cardinalidade.
 
 ## <a name="cross-filter-direction"></a>Direção de filtro cruzado
-**Ambos** – Esta é a direção predefinida mais comum. Isto significa que, para fins de filtragem, ambas as tabelas são tratadas como se fossem uma única tabela.  Isto funciona bem com uma única tabela que tem uma série de tabelas de referência à sua volta.  Um exemplo é uma tabela de dados reais de Vendas com uma tabela de referência por departamento.  Isto é frequentemente chamado de Configuração de esquema em estrela (uma tabela central com várias tabelas de referência).  No entanto, se tiver duas ou mais tabelas que também têm tabelas de referência (com algumas em comum), não é vantajoso utilizar a definição Ambas.  Para continuar o exemplo anterior, neste caso, também tem uma tabela de vendas de orçamento que regista o orçamento de destino de cada departamento.  A tabela de departamento está ligada tanto à tabela de vendas como à de orçamento.  Evite a definição Ambas para este tipo de configuração.
+**Ambos** - o mais comum, direção predefinida, o que significa que para filtragem fins, ambas as tabelas são tratadas como se fossem uma única tabela. **Ambos** funciona bem com uma única tabela que tem um número de tabelas de pesquisa à sua volta. Um exemplo é uma tabela de dados reais de Vendas com uma tabela de referência por departamento. Isto é frequentemente chamado de Configuração de esquema em estrela (uma tabela central com várias tabelas de referência). No entanto, se tiver duas ou mais tabelas que também têm tabelas de referência (com algumas em comum), não é vantajoso utilizar a definição Ambas. Para continuar o exemplo anterior, neste caso, também tem uma tabela de vendas de orçamento que regista o orçamento de destino de cada departamento. A tabela de departamento está ligada tanto à tabela de vendas como à de orçamento. Evite a definição Ambas para este tipo de configuração.
 
-**Único** – Isto significa que as opções de filtragem nas tabelas ligadas funcionam na tabela em que os valores estão a ser agregados. Se importar uma tabela do Power Pivot no Excel 2013 ou um modelo de dados anterior, todas as relações terão uma única direção. 
+**Único** -opções de filtragem em tabelas ligadas funcionam na tabela em que os valores estão a ser agregados. Se importar uma tabela do Power Pivot no Excel 2013 ou um modelo de dados anterior, todas as relações terão uma única direção. 
 
 Veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a direção de filtro cruzado.
 
 ## <a name="make-this-relationship-active"></a>Tornar esta relação ativa
-Quando selecionado, significa que a relação serve de relação ativa predefinida.  Em casos em que existe mais de uma relação entre duas tabelas, a relação ativa fornece uma forma de o Power BI Desktop criar automaticamente visualizações que incluem ambas as tabelas.
+Quando selecionado, significa que a relação serve de relação ativa predefinida. Em casos em que existe mais de uma relação entre duas tabelas, a relação ativa fornece uma forma de o Power BI Desktop criar automaticamente visualizações que incluem ambas as tabelas.
 
 Consulte a secção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando tornar ativa uma relação específica.
 
 ## <a name="understanding-relationships"></a>Noções básicas sobre relações
-Depois de ter ligado duas tabelas através de uma relação, pode trabalhar com os dados em ambas as tabelas como se fossem uma única e não tem de se preocupar com os detalhes da relação nem unir essas tabelas numa única antes de importá-las.  Em muitas situações, o Power BI Desktop pode criar relações automaticamente, pelo que talvez nem seja necessário criar essas relações por si. No entanto, se o Power BI Desktop não conseguir determinar com um elevado grau de certeza que deve existir uma relação entre duas tabelas, não criará automaticamente a relação. Nesse caso, terá de criar a relação.   
+Depois de ter ligado duas tabelas através de uma relação, pode trabalhar com os dados em ambas as tabelas como se fossem uma única e não tem de se preocupar com os detalhes da relação nem unir essas tabelas numa única antes de importá-las. Em muitas situações, o Power BI Desktop pode criar relações automaticamente, pelo que talvez nem seja necessário criar essas relações por si. No entanto, se o ambiente de trabalho do Power BI não conseguir determinar com um elevado grau de certeza que deve existir uma relação entre duas tabelas, ele não cria automaticamente a relação. Nesse caso, tem de criar a relação. 
 
-Vamos fazer um pequeno tutorial, para mostrar melhor como funcionam as relações no Power BI Desktop.
+Vamos percorrer um tutorial rápido, para mostrar melhor como funcionam as relações no Power BI Desktop.
 
 >[!TIP]
 >Pode concluir esta lição por si. Copie a tabela ProjectHours abaixo para uma folha de cálculo do Excel, selecione todas as células e clique em **INSERIR** \> **Tabela**. Na caixa de diálogo **Criar Tabela**, basta clicar em **OK**. Em seguida, em **Nome da Tabela**, escreva **ProjectHours**. Faça o mesmo para a tabela CompanyProject. Em seguida, pode importar os dados utilizando a opção **Obter Dados** no Power BI Desktop. Selecione o livro e as tabelas como uma origem de dados.
 
-Esta primeira tabela, ProjectHours, é um registo de pedidos de trabalho que registam o número de horas que uma pessoa trabalhou num projeto específico.  
+Esta primeira tabela, ProjectHours, é um registo de pedidos de trabalho que registam o número de horas que uma pessoa trabalhou num projeto específico. 
 
 **ProjectHours**
 
@@ -114,7 +114,7 @@ Esta segunda tabela, CompanyProject, é uma lista de projetos aos quais é atrib
 | Roxo |B |
 | Laranja |C |
 
-Repare que cada tabela tem uma coluna de projeto. Cada uma é nomeada de modo ligeiramente diferente, mas os valores parecem ser os mesmos. Isso é importante e voltaremos a esse assunto em breve.
+Repare que cada tabela tem uma coluna de projeto. Cada uma é nomeada de modo ligeiramente diferente, mas os valores parecem ser os mesmos. Isso é importante, e vamos entrar em contacto a ele em breve.
 
 Agora que temos as duas tabelas importadas num modelo, vamos criar um relatório. A primeira coisa que queremos obter é o número de horas submetido por prioridade de projeto, pelo que vamos selecionar **Prioridade** e **Horas** em Campos.
 
@@ -132,14 +132,14 @@ Se observarmos a coluna ProjName na tabela CompanyProject, vemos que existe apen
 
 ### <a name="to-create-the-new-relationship"></a>Para criar a nova relação
 1. Clique em **Gerir Relações**.
-2. Em **Gerir Relações**, clique em **Nova**. Esta ação abre a caixa de diálogo **Criar Relação**, onde podemos selecionar as tabelas, colunas e quaisquer definições adicionais que queremos para a relação.
+2. Na **gerir relações**, clique em **New** para abrir o **criar relação** caixa de diálogo, onde podemos selecionar as tabelas, colunas e quaisquer definições adicionais que queremos para nosso relação.
 3. Na primeira tabela, selecione **ProjectHours** e, em seguida, selecione a coluna **Project**. Este é o lado muitos da relação.
-4. Na segunda tabela, selecione **CompanyProject** e, em seguida, selecione a coluna **ProjName**. Este é o lado um da relação.  
+4. Na segunda tabela, selecione **CompanyProject** e, em seguida, selecione a coluna **ProjName**. Este é o lado um da relação. 
 5. Avance e clique em **OK** em ambas as caixas de diálogo **Criar Relação** e **Gerir Relações**.
 
 ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj.png)
 
-Com o intuito de fazer a divulgação completa, acabámos realmente por criar esta relação da forma mais complicada. Poderia ter simplesmente clicado no botão Deteção Automática na caixa de diálogo Gerir Relações. Na verdade, a Deteção Automática já teria feito isso automaticamente quando carregou os dados se ambas as colunas tivessem o mesmo nome. Mas qual é o desafio disso?
+Com o intuito de divulgação completa, que acabou de criar esta relação da forma mais difícil. Poderia apenas clicar no botão deteção automática na caixa de diálogo Gerir relações. Na verdade, a Deteção Automática já teria feito isso automaticamente quando carregou os dados se ambas as colunas tivessem o mesmo nome. Mas qual é o desafio disso?
 
 Agora, vamos analisar novamente a tabela na tela Relatório.
 
@@ -147,19 +147,37 @@ Agora, vamos analisar novamente a tabela na tela Relatório.
 
 A aparência está muito melhor, não está?
 
-Quando somamos as horas por prioridade, o Power BI Desktop procura cada instância dos valores de cor exclusivos na tabela de referência CompanyProject e procura cada instância de cada um desses valores na tabela CompanyProject; por fim, calcula uma soma total para cada valor exclusivo.
+Quando somamos horas por prioridade, o Power BI Desktop procura cada instância de valores de cor exclusivos na tabela de referência CompanyProject e, em seguida, procure todas as ocorrências de cada um desses valores na tabela CompanyProject e calcular uma soma total para cada valor exclusivo .
 
-Foi bastante fácil; na verdade, com a Deteção Automática, talvez nem tenha de fazer tudo isto.
+Foi fácil; na verdade, com a deteção automática, talvez nem tenha de fazer tudo isto.
 
 ## <a name="understanding-additional-options"></a>Noções básicas sobre opções adicionais
-Quando uma relação é criada, seja com a Deteção Automática ou manualmente, o Power BI Desktop configurará opções adicionais automaticamente com base nos dados das tabelas. Pode configurar estas propriedades de relação adicionais na parte inferior da caixa de diálogo Criar/Editar relação.
+Quando uma relação é criada, seja com deteção automática ou que manualmente, o Power BI Desktop configura automaticamente as opções adicionais com base nos dados das tabelas. Pode configurar estas propriedades de relação adicionais na parte inferior da caixa de diálogo Criar/Editar relação.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
 Como dissemos, geralmente são definidas automaticamente e não tem de lidar com elas; no entanto, há várias situações em que talvez queira configurar estas opções.
 
+## <a name="automatic-relationship-updates"></a>Atualizações automáticas de relação
+
+Pode gerenciar como o Power BI trata e ajusta automaticamente relações nos relatórios e modelos. Para especificar a forma como o Power BI processa as opções de relações, selecione **ficheiro > Opções e definições > opções** do Power BI Desktop, em seguida, selecione **carregamento de dados** no painel esquerdo. Em seguida, vê as opções para **relações**.
+
+ ![Opções de relações](media/desktop-create-and-manage-relationships/relationships-options-01.png)
+
+Existem três opções que podem ser selecionadas e ativadas. 
+
+A primeira opção é *Importar relações de origens de dados*, e é selecionado por predefinição. Quando selecionada, Power BI verifica a existência de relações definidas na origem de dados, como a chave externa / primário relações no seu armazém de dados da chave. Se existirem tais relações, eles são espelhados para o modelo de dados do Power BI ao carregar dados inicialmente. Esta opção permite-lhe rapidamente começar a trabalhar com o seu modelo, em vez de exigir que encontre ou definir essas relações por conta própria.
+
+A segunda opção é *atualizar ou eliminar relações ao atualizar dados*, e ele está desativada por predefinição. Se selecionado (ativado por marcar a caixa junto a opção), Power BI verifica a existência de alterações de relações de origem de dados quando o conjunto de dados é atualizado. Se essas relações alterado ou são removidas, o Power BI Espelha essas alterações no seu próprio modelo de dados, atualizar ou excluí-los para corresponder.
+
+> [!WARNING]
+> Se estiver a utilizar segurança ao nível da linha que se baseie as relações definidas, não recomendamos que selecione a segunda opção, *atualizar ou eliminar relações ao atualizar dados*. Se uma relação de remoção do que as definições de RLS contam, seu modelo pode tornar-se menos seguro. 
+
+A terceira opção é *Autodetect novas relações depois dos dados são carregados*, que está descrito com o [deteção automática durante o carregamento](#autodetect-during-load) secção, encontrada anteriormente neste artigo. 
+
+
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Atualizações futuras aos dados requerem uma cardinalidade diferente
-Normalmente, o Power BI Desktop pode determinar automaticamente a melhor cardinalidade para a relação.  Se tiver de substituir a definição automática por saber que os dados serão alterados no futuro, pode selecioná-la no controlo Cardinalidade. Vejamos um exemplo em que temos de selecionar uma cardinalidade diferente.
+Normalmente, o Power BI Desktop pode determinar automaticamente a melhor cardinalidade para a relação. Se tiver de substituir a definição automática por saber que os dados serão alterados no futuro, pode selecioná-la no controlo Cardinalidade. Vejamos um exemplo em que temos de selecionar uma cardinalidade diferente.
 
 A tabela CompanyProjectPriority abaixo é uma lista de todos os projetos da empresa, incluindo a prioridade de cada um. A tabela ProjectBudget é o conjunto de projetos para os quais o orçamento foi aprovado.
 
@@ -186,7 +204,7 @@ Se criarmos uma relação entre a coluna Project na tabela CompanyProjectPriorit
 
  ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj_appproj2.png)
 
-A cardinalidade é definida automaticamente como Um Para Um (1:1) e a direção da filtragem cruzada como Ambas (conforme mostrado).  Isto ocorre porque, para o Power BI Desktop, a melhor combinação das duas tabelas tem agora esta aparência:
+A cardinalidade é definida automaticamente como Um Para Um (1:1) e a direção da filtragem cruzada como Ambas (conforme mostrado). Isto ocorre porque, para o Power BI Desktop, a melhor combinação das duas tabelas tem agora esta aparência:
 
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
@@ -224,22 +242,22 @@ Mas digamos que sabe que os dados serão alterados da próxima vez que os atuali
 | Azul |A |80000 |6/1/2013 |
 | Vermelho |B |90000 |6/1/2013 |
 
-Nesta nova tabela combinada, existe repetição de valores na coluna Project.  As duas tabelas originais não terão uma relação um para um depois de a tabela ser atualizada. Neste caso, por sabermos que as atualizações futuras farão com que a coluna Project tenha duplicados, queremos definir a Cardinalidade como Muitos Para Um (\*:1), com Muitos no lado de ProjectBudget e Um no lado de CompanyProjectPriority.
+Nesta nova tabela combinada, existe repetição de valores na coluna Project. As duas tabelas originais não terão uma relação um para um depois de a tabela ser atualizada. Neste caso, por sabermos que as atualizações futuras farão com que a coluna Project tenha duplicados, queremos definir a Cardinalidade como Muitos Para Um (\*:1), com Muitos no lado de ProjectBudget e Um no lado de CompanyProjectPriority.
 
 ## <a name="adjusting-cross-filter-direction-for-a-complex-set-of-tables-and-relationships"></a>Ajustar a direção de filtro cruzado para um conjunto complexo de tabelas e relações
-Para a maioria das relações, a direção de filtro cruzado é definida como "Ambas".  No entanto, existem algumas circunstâncias mais invulgares em que talvez tenha de definir isto de forma diferente da predefinição, como se estivesse a importar um modelo de uma versão anterior do PowerPivot, na qual cada relação é configurada para uma única direção. 
+Para a maioria das relações, a direção de filtro cruzado é definida como "Ambas". No entanto, existem algumas circunstâncias mais invulgares em que talvez tenha de definir isto de forma diferente da predefinição, como se estivesse a importar um modelo de uma versão anterior do PowerPivot, na qual cada relação é configurada para uma única direção. 
 
-A definição Ambas permite ao Power BI Desktop tratar todos os aspetos das tabelas ligadas como se fossem uma única tabela.  No entanto, existem algumas situações em que o Power BI Desktop não pode definir a direção de filtro cruzado da relação como "Ambas" e, ao mesmo tempo, manter um conjunto inequívoco de predefinições disponíveis para relatórios. Se a direção de filtro cruzado de uma relação não estiver definida como Ambas, é geralmente porque iria criar ambiguidade.  Se a predefinição de filtro cruzado não estiver a funcionar, experimente defini-la para uma tabela específica ou Ambas.
+A definição Ambas permite ao Power BI Desktop tratar todos os aspetos das tabelas ligadas como se fossem uma única tabela. No entanto, existem algumas situações em que o Power BI Desktop não pode definir a direção de filtro cruzado da relação como "Ambas" e, ao mesmo tempo, manter um conjunto inequívoco de predefinições disponíveis para relatórios. Se a direção de filtro cruzado de uma relação não estiver definida como Ambas, é geralmente porque iria criar ambiguidade. Se a predefinição de filtro cruzado não estiver a funcionar, experimente defini-la para uma tabela específica ou Ambas.
 
-A filtragem cruzada numa única direção funciona em inúmeras situações.  Na verdade, se importar um modelo do PowerPivot no Excel 2013 ou anterior, todas as relações serão definidas para uma única direção.  A utilização de uma única direção significa que as opções de filtragem, em tabelas ligadas, funcionam na tabela na qual está a ocorrer o trabalho de agregação de valores.  Por vezes, compreender a filtragem cruzada pode ser um pouco difícil, por isso, vamos analisar um exemplo.
+A filtragem cruzada numa única direção funciona em inúmeras situações. Na verdade, se importar um modelo do PowerPivot no Excel 2013 ou anterior, todas as relações serão definidas para uma única direção. A utilização de uma única direção significa que as opções de filtragem, em tabelas ligadas, funcionam na tabela na qual está a ocorrer o trabalho de agregação de valores. Por vezes, compreender a filtragem cruzada pode ser um pouco difícil, por isso, vamos analisar um exemplo.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 
-Com a filtragem cruzada de direção única, se criar um relatório que resume as horas de projeto, pode optar por resumir (ou filtrar) por CompanyProject, Priority ou CompanyEmployee, City.   No entanto, se quiser contar o número de colaboradores por projeto (uma pergunta menos comum), isso não funcionará. Obterá uma coluna de valores todos iguais.  No exemplo abaixo, a direção de filtragem cruzada de ambas as relações está definida como uma única direção, em direção à tabela ProjectHours:
+Com a filtragem cruzada de direção única, se criar um relatório que resume as horas de projeto, pode optar por resumir (ou filtrar) por CompanyProject, Priority ou CompanyEmployee, City. No entanto, se quiser contar o número de colaboradores por projeto (uma pergunta menos comum), isso não funcionará. Obterá uma coluna de valores todos iguais. No exemplo abaixo, a direção de filtragem cruzada de ambas as relações está definida como uma única direção, em direção à tabela ProjectHours:
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-A especificação de filtro fluirá de CompanyProject para CompanyEmployee (conforme mostrado na imagem abaixo), mas, o fluxo não chegará até CompanyEmployee.  No entanto, se definir a direção de filtragem cruzada como Ambas, funcionará.  A definição Ambas permite à especificação de filtro fluir até Employee.
+Especificação de filtro fluirá de CompanyProject para CompanyEmployee (conforme mostrado na imagem abaixo), mas, fluxo não chegará até CompanyEmployee. No entanto, se definir a direção de filtragem cruzada como Ambas, funcionará. A definição Ambas permite à especificação de filtro fluir até Employee.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_bidircrossfiltering.png)
 
@@ -260,12 +278,12 @@ Se tiver um padrão de tabela como este, com ciclos, a filtragem cruzada pode cr
 Tal como acontece com relações ativas/inativas, o Power BI Desktop não permite que uma relação seja definida como Ambas se isso gerar ambiguidade nos relatórios. Existem várias formas diferentes de lidar com isto. Seguem-se as duas mais comuns:
 
 * Eliminar ou marcar as relações como inativas para reduzir a ambiguidade. Em seguida, pode definir a filtragem cruzada de uma relação como Ambas.
-* Inclua uma tabela duas vezes (com um nome diferente na segunda vez) para eliminar os ciclos.  Isto torna o padrão de relações semelhante a um esquema em estrela.  Com um esquema em estrela, todas as relações podem ser definidas como Ambas.
+* Inclua uma tabela duas vezes (com um nome diferente na segunda vez) para eliminar os ciclos. Isto torna o padrão de relações semelhante a um esquema em estrela. Com um esquema em estrela, todas as relações podem ser definidas como Ambas.
 
 ## <a name="wrong-active-relationship"></a>Relação ativa errada
-Quando o Power BI Desktop cria relações automaticamente, por vezes encontra mais de uma relação entre duas tabelas.  Quando isso acontece, apenas uma das relações é definida como ativa.  A relação ativa serve de relação padrão para que, quando selecionar campos de duas tabelas diferentes, o Power BI Desktop possa criar automaticamente uma visualização.  No entanto, em alguns casos, a relação selecionada automaticamente pode estar errada.  Pode utilizar a caixa de diálogo Gerir Relações para definir uma relação como ativa ou inativa, ou definir a relação ativa na caixa de diálogo Editar relação. 
+Quando o Power BI Desktop cria relações automaticamente, por vezes encontra mais de uma relação entre duas tabelas. Quando isso acontece, apenas uma das relações é definida como ativa. A relação ativa serve de relação padrão para que, quando selecionar campos de duas tabelas diferentes, o Power BI Desktop possa criar automaticamente uma visualização. No entanto, em alguns casos, a relação selecionada automaticamente pode estar errada. Pode utilizar a caixa de diálogo Gerir Relações para definir uma relação como ativa ou inativa, ou definir a relação ativa na caixa de diálogo Editar relação. 
 
-Para garantir que existe uma relação padrão, o Power BI Desktop permite apenas uma relação ativa entre duas tabelas num determinado momento.  Assim, tem de definir primeiro a relação atual como inativa e, em seguida, definir como ativa a relação desejada.
+Para garantir que existe uma relação padrão, o Power BI Desktop permite apenas uma relação ativa entre duas tabelas num determinado momento. Assim, tem de definir primeiro a relação atual como inativa e, em seguida, definir como ativa a relação desejada.
 
 Vejamos um exemplo. Esta primeira tabela é ProjectTickets, a tabela a seguir é EmployeeRole.
 
@@ -307,7 +325,7 @@ Se adicionarmos ambas as relações no modelo (OpenedBy primeiro), a caixa de di
 
  ![](media/desktop-create-and-manage-relationships/candmrel_managerelactive.png)
 
-Agora, se criarmos um relatório que utiliza os campos Role e Employee de EmployeeRole, e o campo Hours de ProjectTickets numa visualização de tabela na tela Relatório, veremos apenas os patrocinadores de projeto, porque são os únicos que têm um pedido de projeto aberto.
+Agora, se criarmos um relatório que utilize os campos Role e Employee de EmployeeRole e o campo Hours de ProjectTickets numa visualização de tabela na tela de relatório, veremos os patrocinadores de projeto só porque eles são os únicos que abriu um pedido de projeto.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png)
 
