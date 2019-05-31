@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662417"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412899"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -141,6 +141,8 @@ Não há problema em utilizar o ambiente do Power BI (inquilino) na documentaç�
 
 ## <a name="h"></a>H
 **high-density visuals (elementos visuais de alta densidade)** Elementos visuais com mais pontos de dados do que o Power BI pode compor. O Power BI exemplifica os dados para mostrar a forma e os valores atípicos.
+
+**Home page** a predefinição de antiguidade para utilizadores do serviço Power BI de destino. Não modificar nada. Pode ser chamado Power BI, casa ou simplesmente home page.
 
 ## <a name="i"></a>I
 
@@ -288,7 +290,7 @@ Em dispositivos móveis, partilha pode referir-se à funcionalidade de partilha 
 
 **streaming data (dados de transmissão em fluxo)** Ver *transmissão em fluxo em tempo real*.
 
-**subscriptions (subscrições)**, **Subscrever**  
+**subscriptions (subscrições)** , **Subscrever**  
 Pode subscrever páginas, aplicações e dashboards de relatórios e receber e-mails que contenham um instantâneo. Requer uma licença do Power BI Pro.
 
 **summarization (resumo)** [Power BI Desktop] A operação a ser aplicada aos valores numa coluna.
