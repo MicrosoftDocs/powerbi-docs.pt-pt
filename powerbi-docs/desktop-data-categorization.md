@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454487"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Categorização de dados no Power BI Desktop
@@ -33,7 +33,7 @@ O Power BI Desktop deve tratar os códigos na coluna GeoCode como uma abreviatur
 **Para especificar uma Categoria de Dados**
 
 1. Na Vista de Relatório ou de Dados, na lista **Campos**, selecione o campo que deseja classificar por uma categorização diferente.
-2. No friso, no separador **Modelação**, clique na lista pendente **Categoria de Dados:**.  Isto mostra a lista de categorias de dados possíveis que pode escolher para a coluna.  Algumas seleções podem estar desativadas se não funcionarem com o tipo de dados atual da coluna.  Por exemplo, se uma coluna for um tipo de dados binário, o Power BI Desktop não permite que escolha categorias de dados geográficos. 
+2. No friso, no separador **Modelação**, clique na lista pendente **Categoria de Dados:** .  Isto mostra a lista de categorias de dados possíveis que pode escolher para a coluna.  Algumas seleções podem estar desativadas se não funcionarem com o tipo de dados atual da coluna.  Por exemplo, se uma coluna for um tipo de dados binário, o Power BI Desktop não permite que escolha categorias de dados geográficos. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

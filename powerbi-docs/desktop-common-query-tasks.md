@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239459"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
@@ -63,7 +63,7 @@ Outras ligações de dados são semelhantes. Se precisar de autenticar-se para f
 Para ver uma demonstração passo a passo da ligação a dados no Power BI Desktop, consulte [Ligar-se a Dados no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Formatar e combinar dados
-Pode formatar e combinar dados facilmente com o Editor de Consultas. Esta secção inclui alguns exemplos sobre como pode formatar dados. Para obter uma demonstração mais completa da formatação e da combinação de dados, veja **[Formatar e Combinar Dados com o Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
+Pode formatar e combinar dados facilmente com o Editor de Consultas. Esta secção inclui alguns exemplos sobre como pode formatar dados. Para obter uma demonstração mais completa da formatação e da combinação de dados, veja **[Formatar e Combinar Dados com o Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** .
 
 Na secção anterior, ligámos os dois conjuntos de dados – um livro do Excel e um recurso da Web. Depois de carregados no Editor de Consultas, vemos o seguinte, com a consulta da página da Web selecionada (obtida das consultas disponíveis listadas no painel **Consultas**, no lado esquerdo da janela do Editor de Consultas).
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513740"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
@@ -47,9 +47,9 @@ Esta fórmula inclui os seguintes elementos de sintaxe:
 
 **A.** O nome da medida **Total Sales**.
 
-**B.** O operador de sinal de igual (**=**) indica o início da fórmula. Quando calculada, devolve um resultado.
+**B.** O operador de sinal de igual ( **=** ) indica o início da fórmula. Quando calculada, devolve um resultado.
 
-**C.** A função **SUM** do DAX soma todos os números na coluna **Sales[SalesAmount]**. Irá aprender mais sobre as funções mais tarde.
+**C.** A função **SUM** do DAX soma todos os números na coluna **Sales[SalesAmount]** . Irá aprender mais sobre as funções mais tarde.
 
 **D.** Os parênteses **()** envolvem uma expressão que contém um ou mais argumentos. Todas as funções exigem pelo menos um argumento. Um argumento transmite um valor a uma função.
 
@@ -91,19 +91,19 @@ Para concluir esta tarefa, precisará de abrir o ficheiro Exemplo de Vendas da C
 
    Irá usar a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. A isto chamamos aninhamento de funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
    
-4. Depois do parêntesis de abertura **(** para a função **CALCULATE**, escreva **SUM** seguido de outro parêntesis de abertura **(**. Agora precisamos de passar um argumento para a função SUM.
+4. Depois do parêntesis de abertura **(** para a função **CALCULATE**, escreva **SUM** seguido de outro parêntesis de abertura **(** . Agora precisamos de passar um argumento para a função SUM.
 
-5. Comece a escrever **Sal** e, em seguida, selecione **Sales [SalesAmount]**, seguido de um parêntesis de fecho **)**. Este é o primeiro argumento de expressão para a função CALCULATE.
+5. Comece a escrever **Sal** e, em seguida, selecione **Sales [SalesAmount]** , seguido de um parêntesis de fecho **)** . Este é o primeiro argumento de expressão para a função CALCULATE.
     
-6. Escreva uma vírgula (**,**) seguida de um espaço para especificar o primeiro filtro e, em seguida, escreva **PREVIOUSQUARTER**. Este será o nosso filtro.
+6. Escreva uma vírgula ( **,** ) seguida de um espaço para especificar o primeiro filtro e, em seguida, escreva **PREVIOUSQUARTER**. Este será o nosso filtro.
     
    Irá utilizar a função de análise de tempo PREVIOUSQUARTER para filtrar os resultados SUM pelo trimestre anterior.
     
-7. Depois do parêntesis de abertura **(** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]**.
+7. Depois do parêntesis de abertura **(** da função PREVIOUSQUARTER, escreva **Calendar[DateKey]** .
     
    A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas. No nosso caso, é a coluna DateKey na tabela Calendário.
     
-8. Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são fechados ao escrever dois parêntesis de fecho **))**.
+8. Certifique-se de que ambos os argumentos transmitidos para as funções PREVIOUSQUARTER e CALCULATE são fechados ao escrever dois parêntesis de fecho **))** .
     
    A sua fórmula agora deve ter este aspeto:
     
@@ -176,7 +176,7 @@ Esta fórmula inclui os seguintes elementos de sintaxe:
 
 **A.** O nome da medida **Store Sales**.
 
-**B.** O operador de sinal de igual (**=**) indica o início da fórmula.
+**B.** O operador de sinal de igual ( **=** ) indica o início da fórmula.
 
 **C.** A função **CALCULATE** avalia uma expressão, como um argumento, num contexto que é modificado pelos filtros especificados.
 
@@ -184,9 +184,9 @@ Esta fórmula inclui os seguintes elementos de sintaxe:
 
 **E.** Uma medida **[Total Sales]** na mesma tabela como uma expressão. A medida Total Sales tem a fórmula: =SUM(Sales[SalesAmount]).
 
-**F.** Uma vírgula (**,**) separa o primeiro argumento de expressão do argumento de filtro.
+**F.** Uma vírgula ( **,** ) separa o primeiro argumento de expressão do argumento de filtro.
 
-**G.** A coluna referenciada completamente qualificada, **Channel[ChannelName]**. Este é o nosso contexto de linha. Cada linha nesta coluna especifica um canal: Store, Online, etc.
+**G.** A coluna referenciada completamente qualificada, **Channel[ChannelName]** . Este é o nosso contexto de linha. Cada linha nesta coluna especifica um canal: Store, Online, etc.
 
 **H.** O valor específico, **Store**, como um filtro. Este é o nosso contexto de filtro.
 

@@ -1,57 +1,75 @@
 ---
 title: Ligar ao MailChimp com o Power BI
 description: MailChimp para Power BI
-author: SarinaJoan
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 04/26/2019
+ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e4986227b408dfec7ac10a880ff6110aa2ad5b9a
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: 8599c22246183d28d13eb80f05250baa8dc27f5d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007681"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64579127"
 ---
 # <a name="connect-to-mailchimp-with-power-bi"></a>Ligar ao MailChimp com o Power BI
-O pacote de conteúdos do Power BI extrai dados da sua conta do MailChimp e gera um dashboard, um conjunto de relatórios e um conjunto de dados para permitir que explore os seus dados. Utilize a análise para [dashboards do MailChimp](https://powerbi.microsoft.com/integrations/mailchimp) para identificar rapidamente as tendências existentes nas suas campanhas, relatórios e subscritores individuais. Os dados são configurados para serem atualizados diariamente, o que garante que os dados que está a monitorizar são atuais.
+Este artigo orienta-o por meio de receber os seus dados da sua conta do MailChimp com uma aplicação de modelo do Power BI. A aplicação de modelo gera uma área de trabalho com um dashboard, um conjunto de relatórios e um conjunto de dados para que possa explorar os seus dados do MailChimp. Utilize a análise para [dashboards do MailChimp](https://powerbi.microsoft.com/integrations/mailchimp) para identificar rapidamente as tendências existentes nas suas campanhas, relatórios e subscritores individuais. Os dados é atualizada diariamente, garantir que os dados que está a monitorizar estão atualizados.
 
-Ligue-se ao [pacote de conteúdo do MailChimp](https://app.powerbi.com/getdata/services/mailchimp) para o Power BI.
+Depois de instalar a aplicação de modelo, pode alterar o dashboard e relatório. Em seguida, pode distribuí-la como uma aplicação para os colegas na sua organização.
+
+Ligar para o [aplicação de modelo do MailChimp](https://app.powerbi.com/getdata/services/mailchimp) para o Power BI.
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
-   
-    ![](media/service-connect-to-mailchimp/pbi_getdata.png)
-2. Na caixa **Serviços**, selecione **Obter**.
-   
-   ![](media/service-connect-to-mailchimp/pbi_getservices.png)
-3. Selecione **MailChimp** \> **Obter**.
-   
-   ![](media/service-connect-to-mailchimp/mailchimp.png)
-4. Como Método de Autenticação, selecione **oAuth2** \> **Iniciar Sessão**.
+
+[!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
+
+3. Selecione **MailChimp** \> **obter agora**.
+4. Na **instalar esta aplicação do Power BI?** selecionar **instalar**.
+4. Na **aplicações** painel, selecione a **MailChimp** mosaico.
+
+    ![Mosaico de aplicação do Power BI MailChimp](media/service-connect-to-mailchimp/power-bi-connect-mailchimp.png)
+
+6. Na **introdução à sua nova aplicação**, selecione **ligar a dados**.
+
+    ![Comece a utilizar a sua nova aplicação](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+
+1. Como Método de Autenticação, selecione **oAuth2** \> **Iniciar Sessão**.
    
     Quando solicitado, insira as suas credenciais do MailChimp e siga o processo de autenticação.
    
-    Na primeira vez que se ligar, o Power BI solicita o acesso apenas de leitura à sua conta. Selecione **Permitir** para iniciar o processo de importação, que pode demorar alguns minutos dependendo do volume de dados na conta.
+    Quando ligar pela primeira vez, o Power BI pede-lhe para permitir acesso só de leitura à sua conta. Selecione **Permitir** para iniciar o processo de importação. Pode demorar alguns minutos, dependendo do volume de dados na sua conta.
    
-    ![](media/service-connect-to-mailchimp/allow.png)
-5. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Esse é o dashboard padrão criado pelo Power BI para exibir os seus dados. Pode alterar este dashboard para ver os seus dados de qualquer modo que queira.
+    ![Conector do Power BI para MailChimp](media/service-connect-to-mailchimp/allow.png)
+
+5. Depois do Power BI importar os dados, é aberto o dashboard do MailChimp.
    
-   ![](media/service-connect-to-mailchimp/pbi_mailchimpnewdash.png)
+    ![Dashboard do Power BI MailChimp](media/service-connect-to-mailchimp/power-bi-mailchimp-dashboard.png)
 
-**E agora?**
+## <a name="modify-and-distribute-your-app"></a>Modificar e distribuir a sua aplicação
 
-* Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
-* [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.
-* [Selecione um mosaico](consumer/end-user-tiles.md) para abrir o relatório subjacente.
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
+Instalou a aplicação de modelo do MailChimp. Isso significa que criou também a área de trabalho de aplicação do MailChimp. Na área de trabalho, pode alterar o relatório e dashboard e, em seguida, distribuí-la como uma *aplicação* aos colegas na sua organização. 
+
+1. Para ver todo o conteúdo do seu novo espaço de trabalho de MailChimp, na barra de navegação esquerdo, selecione **áreas de trabalho** > **MailChimp**. 
+
+    ![Área de trabalho do MailChimp no painel de navegação à esquerda](media/service-connect-to-mailchimp/power-bi-mailchimp-left-nav.png)
+
+    Esta vista é a lista de conteúdo para a área de trabalho. No canto superior direito, verá **atualizar aplicação**. Quando estiver pronto para distribuir a sua aplicação para os seus colegas, que é onde começar.
+
+    ![Lista de conteúdo do MailChimp](media/service-connect-to-mailchimp/power-bi-mailchimp-content-list.png)
+
+2. Selecione **relatórios** e **conjuntos de dados** para ver os outros elementos na área de trabalho. 
+
+    Leia sobre [distribuir aplicações](service-create-distribute-apps.md) para os seus colegas.
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](power-bi-overview.md)
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+* [Criar novas áreas de trabalho no Power BI](service-create-the-new-workspaces.md)
+* [Instalar e utilizar aplicações no Power BI](consumer/end-user-apps.md)
+* [Aplicações do Power BI para serviços externos](service-connect-to-services.md)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

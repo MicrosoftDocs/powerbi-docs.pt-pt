@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282616"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403024"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Partilhar um dashboard do Power BI associado a um ficheiro do Excel no OneDrive
 No Power BI, pode [ligar a livros do Excel no OneDrive para Empresas](service-excel-workbook-files.md) e afixar mosaicos a um dashboard desse livro. Quando partilha esse dashboard ou cria um pacote de conteúdos que o inclui:

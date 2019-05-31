@@ -1,20 +1,20 @@
 ---
 title: Segurança ao nível da linha (RLS) no Power BI Report Server
 description: Aprenda a utilizar segurança ao nível da linha (RLS) no Power BI Report Server.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769815"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Segurança ao nível da linha (RLS) no Power BI Report Server
 
@@ -46,7 +46,7 @@ Após guardar o seu relatório no Power BI Report Server, irá gerir a seguranç
  Se o relatório não tiver as funções necessárias, terá de o abrir no Power BI Desktop, adicionar ou modificar funções e, em seguida, guardá-lo novamente no Power BI Report Server. 
 
 1. No Power BI Desktop, guarde o relatório no Power BI Report Server. Terá de utilizar a versão do Power BI Desktop otimizada para o Power BI Report Server.
-2. No Power BI Report Server, selecione as reticências (**…**) junto ao relatório. 
+2. No Power BI Report Server, selecione as reticências ( **…** ) junto ao relatório. 
 
 3. Selecione **Gerir** > **Segurança ao nível da linha**. 
 
