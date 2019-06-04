@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324869"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469785"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Gerir um gateway no local do Power BI
 
@@ -38,26 +38,26 @@ O Power BI suporta várias origens de dados no local, sendo que cada uma delas 
 
     ![Gerir gateways](media/service-gateway-manage/manage-gateways.png)
 
-2. Selecione um gateway > **Adicionar origem de dados** ou aceda a Gateways > **Adicionar origem de dados**.
+1. Selecione um gateway > **Adicionar origem de dados** ou aceda a Gateways > **Adicionar origem de dados**.
 
     ![Adicionar origem de dados](media/service-gateway-manage/add-data-source.png)
 
-3. Selecione o **Tipo de Origem de Dados**.
+1. Selecione o **Tipo de Origem de Dados**.
 
     ![Selecionar SQL Server](media/service-gateway-manage/select-sql-server.png)
 
 
-4. Introduza as informações da origem de dados. Neste exemplo, trata-se de **Servidor**, **Base de dados** e outras informações.  
+1. Introduza as informações da origem de dados. Neste exemplo, trata-se de **Servidor**, **Base de dados** e outras informações.  
 
     ![Definições da origem de dados](media/service-gateway-manage/data-source-settings.png)
 
-5. Para o SQL Server, deveria escolher um **Método de Autenticação** do **Windows** ou **Básico** (Autenticação SQL).  Se optar por **Básico**, introduza as credenciais da sua origem de dados.
+1. Para o SQL Server, deveria escolher um **Método de Autenticação** do **Windows** ou **Básico** (Autenticação SQL).  Se optar por **Básico**, introduza as credenciais da sua origem de dados.
 
-6. Em **Definições avançadas**, opcionalmente, configure o [nível de privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) da sua origem de dados (não é aplicável ao [DirectQuery](desktop-directquery-about.md)).
+1. Em **Definições avançadas**, opcionalmente, configure o [nível de privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) da sua origem de dados (não é aplicável ao [DirectQuery](desktop-directquery-about.md)).
 
     ![Definições avançadas](media/service-gateway-manage/advanced-settings.png)
 
-7. Selecione **Adicionar**. Aparece a mensagem *Ligação Efetuada com Êxito* se o processo for bem-sucedido.
+1. Selecione **Adicionar**. Aparece a mensagem *Ligação Efetuada com Êxito* se o processo for bem-sucedido.
 
     ![Ligação estabelecida com êxito](media/service-gateway-manage/connection-successful.png)
 
