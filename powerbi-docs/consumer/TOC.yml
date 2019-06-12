@@ -176,12 +176,20 @@
           items:
             - name: Introdução à aplicação iOS
               href: mobile/mobile-iphone-app-get-started.md
+            - name: 'Protect with Face ID, Touch ID, or Passcode (Proteger com Face ID, Touch ID ou Código)'
+              href: mobile/mobile-ios-native-secure-access.md
             - name: Analista virtual de Perguntas e Respostas em aplicações móveis para iOS
               href: mobile/mobile-apps-ios-qna.md
+            - name: Power BI mobile app integration with Siri Shortcuts (Integração de Atalhos da Siri na aplicação móvel do Power BI)
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: iOS device search integration (Integração da pesquisa de dispositivos iOS)
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: Aplicação Power BI Apple Watch
               href: mobile/mobile-apple-watch.md
             - name: Ler um código de barras a partir da aplicação no iPhone
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Configure using mobile device management (Configurar com a gestão de dispositivos móveis)
+              href: mobile/mobile-app-configuration.md
         - name: Dispositivos Android
           items:
             - name: Introdução à aplicação Android

@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Add a custom column (Adicionar uma coluna personalizada)
               href: desktop-add-custom-column.md
-            - name: Create responsive visuals in Power BI (Criar elementos visuais reativos no Power BI)
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Utilizar etiquetas de hierarquia inline no Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: Use the numeric range slicer (Utilizar a segmentação de dados do intervalo numérico)
@@ -681,32 +679,14 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
               href: service-dataflows-add-cdm-folder.md
-            - name: Integrar o Machine Learning no Power BI (Pré-visualização)
+            - name: Integrar o Machine Learning no Power BI
               href: service-machine-learning-integration.md
-            - name: Utilizar os Serviços Cognitivos no Power BI (Pré-visualização)
+            - name: Utilizar os Serviços Cognitivos no Power BI
               href: service-cognitive-services.md
             - name: Machine Learning automatizada no Power BI (Pré-visualização)
               href: service-machine-learning-automated.md
         - name: Relatórios paginados no Power BI
           items:
-            - name: O que são relatórios paginados? (Pré-visualização)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: FAQ sobre relatórios paginados (Pré-visualização)
-              href: paginated-reports-faq.md
-            - name: Criar um relatório paginado e carregá-lo (Pré-visualização)
-              href: paginated-reports-quickstart-aw.md
-            - name: Navegar na Vista de Estrutura do Relatório (Pré-visualização)
-              href: paginated-reports-report-design-view.md
-            - name: Introduzir dados diretamente num relatório paginado (Pré-visualização)
-              href: paginated-reports-enter-data.md
-            - name: Criar uma origem de dados incorporada (Pré-visualização)
-              href: paginated-reports-embedded-data-source.md
-            - name: Criar um conjunto de dados incorporado (Pré-visualização)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Criar parâmetros (Pré-visualização)
-              href: paginated-reports-parameters.md
-            - name: Publicar um relatório paginado (Pré-visualização)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Ver um relatório paginado (Pré-visualização)
               href: paginated-reports-view-power-bi-service.md
             - name: Interagir com parâmetros (Pré-visualização)
@@ -745,8 +725,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Resolver problemas de origem de dados sem suporte para atualização
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Troubleshooting Nested Values returned as text (Resoução de Problemas de Valores Aninhados devolvidos como texto)
-              href: service-troubleshooting-nested-values.md
             - name: A resolução de problemas da atualização agendada para Base de Dados SQL do Azure
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'Erro: Não conseguimos encontrar dados no seu livro do Excel'
@@ -927,10 +905,58 @@
           href: service-premium-incremental-refresh.md
         - name: Configurar Multi-Geo
           href: service-admin-premium-multi-geo.md
+        - name: 'Bring your own encryption keys (Chaves de encriptação por BYOK [Bring Your Own Key])'
+          href: service-encryption-byok.md
         - name: Restart a Premium capacity (Reiniciar uma capacidade Premium)
           href: service-admin-premium-restart.md
         - name: Connect to datasets with client applications and tools (Ligar a conjuntos de dados com ferramentas e aplicações cliente)
           href: service-premium-connect-tools.md
+- name: Paginated Report Builder do Power BI
+  items:
+    - name: Descrição geral
+      items:
+        - name: O que são relatórios paginados?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Report Builder in Power BI (O Report Builder no Power BI)
+          href: report-builder-power-bi.md
+    - name: Tutoriais
+      items:
+        - name: 'Create a paginated report and upload Interact (Criar um relatório paginado, carregá-lo e interagir)'
+          href: paginated-reports-quickstart-aw.md
+    - name: Conceitos
+      items:
+        - name: Navegar na Vista de Estrutura do Relatório
+          href: paginated-reports-report-design-view.md
+        - name: Planning a report (Planear um relatório)
+          href: report-builder-planning-report.md
+        - name: Report Builder data (Dados do Report Builder)
+          href: report-builder-data.md
+        - name: Design tips (Sugestões de estrutura)
+          href: report-builder-design-tips.md
+        - name: 'Tables, matrixes, lists (Tabelas, matrizes, listas)'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parâmetros
+          href: report-builder-parameters.md
+        - name: Expressions (Expressões)
+          href: report-builder-expressions.md
+        - name: Expression examples (Exemplos de expressões)
+          href: report-builder-expression-examples.md
+        - name: Previewing reports (Pré-visualizar relatórios)
+          href: report-builder-previewing-reports.md
+        - name: FAQ sobre relatórios paginados
+          href: paginated-reports-faq.md
+    - name: Procedimentos
+      items:
+        - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
+          href: paginated-reports-enter-data.md
+        - name: Criar uma origem de dados incorporada
+          href: paginated-reports-embedded-data-source.md
+        - name: Criar um conjunto de dados incorporado
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Criar parâmetros
+          href: paginated-reports-parameters.md
+        - name: Publicar um relatório paginado
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI para programadores
   items:
     - name: O que podem os programadores fazer com o Power BI
