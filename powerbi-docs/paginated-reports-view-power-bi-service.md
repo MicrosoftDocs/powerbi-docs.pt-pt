@@ -1,5 +1,5 @@
 ---
-title: Visualizar um relatório paginado no serviço Power BI (Pré-visualização)
+title: Visualizar um relatório paginado no serviço Power BI
 description: Neste tutorial, vai aprender sobre a visualização de relatórios paginados no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 8a87cb292da1a1fb3f4fc3e14d569ad8c97c60b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f80b13ccd1393e98199acbcaabfbf80ad63707c8
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769668"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839576"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Visualizar um relatório paginado no serviço Power BI (Pré-visualização)
+# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Visualizar um relatório paginado no serviço Power BI
 
 Neste artigo, vai aprender sobre a visualização de um relatório paginado no serviço Power BI. Os relatórios paginados são relatórios criados no Report Builder e carregados para qualquer área de trabalho numa capacidade Premium. Procure o ícone do losango ![Ícone de losango da capacidade do Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto ao nome da área de trabalho. 
 
@@ -55,4 +55,4 @@ Também pode exportar relatórios paginados para vários formatos:
 
 ## <a name="next-steps"></a>Próximos passos
 
-[O que são relatórios paginados no Power BI Premium? (Pré-visualização)](paginated-reports-report-builder-power-bi.md)
+[O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
