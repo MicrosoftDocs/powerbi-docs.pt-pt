@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9029d5b6268cacf17fc862a4c0a3d19f440f7de1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6fa16cf59ece7f701fc50f1914138b9ca5362c45
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61164095"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720452"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Ligue-se ao Lithium com o Power BI
 O Lithium cria relações de confiança entre marcas melhor do mundo e os seus clientes, ajudando as pessoas a obter respostas e partilhar as suas experiências. Ao ligar ao pacote de conteúdos do Lithium ao Power BI, pode medir as métricas-chave sobre a sua comunidade online para ajudar a estimular as vendas, reduzir os custos de serviço e aumentar a fidelidade. 
@@ -60,5 +60,5 @@ O pacote de conteúdo do Lithium exige uma comunidade do Lithium v15.9 ou superi
 ## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 

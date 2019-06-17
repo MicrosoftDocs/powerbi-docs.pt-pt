@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/27/2019
+ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565322"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497980"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorizar as capacidades Premium com a aplicação
 
@@ -49,7 +49,7 @@ Para verificar quando foi a última atualização da sua aplicação Premium Cap
 
 ## <a name="monitor-capacities-with-the-app"></a>Monitorizar capacidades com a aplicação
 
-Agora que instalou a aplicação, pode ver as métricas das capacidades na sua organização. A aplicação fornece um Dashboard com resumos de métricas e relatórios de métricas detalhadas.
+Agora que instalou a aplicação, pode ver as métricas das capacidades na sua organização. A aplicação disponibiliza um Dashboard com resumos de métricas e Relatórios de métricas detalhadas.
 
 ### <a name="dashboard"></a>Dashboard
 
@@ -137,14 +137,14 @@ O dashboard inclui as seguintes métricas:
 
 | Métrica | Descrição |
 | --- | --- |
-| Total de Atualizações | Número total de atualizações nos últimos sete dias. |
-| Fiabilidade das Atualizações (%) | O número de atualizações com êxito dividido pelo número total de atualizações nos últimos sete dias. |
-| Máx. de CPU (%)| Consumo de CPU máxima pela carga de trabalho de ia nos últimos sete dias. |
-| Máx. de memória (GB) | Máx. consumo de memória a carga de trabalho de ia nos últimos sete dias.|
-| Atualiza o tempo de espera máximo (MS) | Quantidade máxima de tempo antes de iniciar a atualização. |
-| Tempo médio de espera de atualizações (MS)| O período médio de tempo antes de iniciar a atualização. |
-| Duração Máx. de atualizações (MS) | Quantidade máxima de tempo para atualização completa. |
-| Duração média de atualizações (MS)| O período médio de tempo para concluir a atualização. |
+| Execução de Funções de IA | Número total de execuções nos últimos sete dias. |
+| Fiabilidade da Execução de Funções de IA (%) | Número de execuções com êxito dividido pelo número total de execuções nos últimos sete dias. |
+| Consumo Máximo de CPU (%)| O consumo máximo de CPU pela carga de trabalho de IA nos últimos sete dias. |
+| Consumo Máximo de Memória (GB) | O consumo máximo de memória pela carga de trabalho de IA nos últimos sete dias.|
+| Tempo Máximo de Espera da Execução de Funções de IA (MS) | O período máximo de tempo antes de iniciar a execução. |
+| Tempo Médio de Espera da Execução de Funções de IA (MS)| O período médio de tempo antes de iniciar a execução. |
+| Duração Máxima da Execução de Funções de IA (MS) | O período máximo de tempo para concluir a execução. |
+| Duração Média da Execução de Funções de IA (MS)| O período médio de tempo para concluir a execução. |
 | | |
 
 ### <a name="reports"></a>Relatórios
@@ -156,7 +156,7 @@ Na parte inferior do relatório, há cinco *separadores*:
 [**Conjuntos de Dados**](#datasets) – apresenta as métricas detalhadas sobre o estado de funcionamento dos conjuntos de dados do Power BI nas suas capacidades.
 [**Relatórios Paginados**](#paginated-reports) – apresenta as métricas detalhadas sobre o estado de funcionamento dos relatórios paginados nas suas capacidades.
 [**Fluxos de Dados**](#dataflows) – apresenta as métricas de atualização detalhadas dos fluxos de dados nas suas capacidades.
-[**IA** ](#ai) -fornece métricas detalhadas sobre o estado de funcionamento das funções de IA usado em suas capacidades.
+[**IA**](#ai) – fornece métricas detalhadas sobre o estado de funcionamento das funções de IA utilizadas nas suas capacidades.
 [**Consumo de Recursos**](#resource-consumption) – apresenta as métricas detalhadas dos recursos, incluindo a utilização elevada da CPU e da memória.
 [**IDs e Informações**](#ids-and-info): os nomes, IDs e proprietários das capacidades, áreas de trabalho e cargas de trabalho.
 
@@ -170,7 +170,7 @@ A página Conjuntos de Dados tem diferentes *áreas*, que incluem **Atualizaçõ
 
 | Secção Relatório | Métricas |
 | --- | --- |
-| Atualizações |  Número Total: as atualizações totais de cada conjunto de dados.<br>  Confiabilidade: A percentagem de atualizações foi concluída para cada conjunto de dados.<br>  Tempo Médio de Espera: o atraso médio entre a hora agendada e o início da atualização do conjunto de dados, em minutos.<br>  Tempo Máximo de Espera: o tempo máximo de espera do conjunto de dados, em minutos.<br>  Duração Média: a duração média da atualização do conjunto de dados, em minutos.<br>  Duração Máxima: a duração da atualização de execução mais longa do conjunto de dados, em minutos. |
+| Atualizações |  Número Total: as atualizações totais de cada conjunto de dados.<br>  Fiabilidade: a percentagem de atualizações que foi concluída para cada conjunto de dados.<br>  Tempo Médio de Espera: o atraso médio entre a hora agendada e o início da atualização do conjunto de dados, em minutos.<br>  Tempo Máximo de Espera: o tempo máximo de espera do conjunto de dados, em minutos.<br>  Duração Média: a duração média da atualização do conjunto de dados, em minutos.<br>  Duração Máxima: a duração da atualização de execução mais longa do conjunto de dados, em minutos. |
 | Primeiros Cinco Conjuntos de Dados por Duração Média (minutos) |  Os cinco conjuntos de dados com a duração média de atualização mais longa, em minutos. |
 | Primeiros Cinco Conjuntos de Dados por Média de Tempo de Espera (minutos) |  Os cinco conjuntos de dados com o tempo médio de espera de atualização mais longo, em minutos. |
 | Contagem de Atualizações e Consumo de Memória por Hora (GB) |  Êxitos, falhas e consumo de memória, divididos em registos de uma hora, comunicados na hora UTC. |
@@ -224,22 +224,20 @@ A página Conjuntos de Dados tem diferentes *áreas*, que incluem **Atualizaçõ
 
 | **Secção Relatório** | **Métricas** |
 | --- | --- |
-| Atualizações |  Total: o número total de atualizações de cada fluxo de dados.<br>  Confiabilidade: A percentagem de atualizações foi concluída para cada fluxo de dados.<br>  Tempo Médio de Espera: o atraso médio entre a hora agendada e o início da atualização do fluxo de dados, em minutos.<br>  Tempo Máximo de Espera: o tempo máximo de espera do fluxo de dados, em minutos.<br>  Duração Média: a duração média da atualização do fluxo de dados, em minutos.<br>  Duração Máxima: a duração da atualização de execução mais longa do fluxo de dados, em minutos. |
+| Atualizações |  Total: o número total de atualizações de cada fluxo de dados.<br>  Fiabilidade: a percentagem de atualizações que foi concluída para cada fluxo de dados.<br>  Tempo Médio de Espera: o atraso médio entre a hora agendada e o início da atualização do fluxo de dados, em minutos.<br>  Tempo Máximo de Espera: o tempo máximo de espera do fluxo de dados, em minutos.<br>  Duração Média: a duração média da atualização do fluxo de dados, em minutos.<br>  Duração Máxima: a duração da atualização de execução mais longa do fluxo de dados, em minutos. |
 | Primeiros Cinco fluxos de dados por Média de Duração da Atualização |  Os cinco fluxos de dados com a duração média de atualização mais longa, em minutos. |
 | Principais Cinco fluxos de dados por Tempo Médio de Espera |  Os cinco fluxos de dados com o tempo médio de espera de atualização mais longo, em minutos. |
 | Média dos Tempos de Espera das Atualizações por Hora |  O tempo médio de espera de atualização, dividido em registos de uma hora, comunicado na hora UTC. Os vários picos com tempo de espera da atualização são indicativos da execução frequente da capacidade. |
 | Contagem de Atualizações e Consumo de Memória por Hora |  Êxitos, falhas e consumo de memória, divididos em registos de uma hora, comunicados na hora UTC. |
 |  |  |
 
-### <a name="ai"></a>AI
+### <a name="ai"></a>IA
 
 | **Secção Relatório** | **Métricas** |
 | --- | --- |
-| Utilização Global | Contagem total: Número de funções de IA numa área de trabalho ou fluxo de dados. <br> Confiabilidade: A percentagem de atualizações que foram concluídos.<br> Média Tempo de espera: O desfasamento médio entre a hora agendada e o início de uma atualização, em milissegundos.<br> Tempo Máximo de Espera: O tempo de espera máximo, em milissegundos.<br> Média Duração: A duração média de uma atualização, em milissegundos.<br> Duração Máxima: A duração da atualização mais longa execução, em milissegundos.<br> Tamanho médio de entrada: O tamanho médio de entrada, em bytes, para a função de IA executado por uma atualização de fluxo de dados.<br> Tamanho médio de saída: O tamanho médio de saída, em bytes, para a função de IA executado por uma atualização de fluxo de dados. |
-| 5 principais funções de IA por duração média | As cinco funções com a média mais longa atualizar duração, em milissegundos. |
-| 5 principais funções de IA por tamanho médio de entrada | As cinco funções com os dados de média de maior tamanho de entrada, em bytes. |
-| Contagem de Atualizações e Consumo de Memória por Hora | Êxitos, falhas e consumo de memória, divididos em registos de uma hora, comunicados na hora UTC. |
-| Tempo de duração média por hora | A duração média de uma atualização, divididos em registos de uma hora, comunicado no fuso horário UTC. |
+| Consumo de Memória da IA | O consumo de memória em GB, dividido em registos de uma hora e comunicado no fuso horário UTC. |
+| Execução de Funções de IA por Hora e Tempo Médio de Espera | Execuções de IA e o tempo médio de espera, em milissegundos, divididos em registos de uma hora e comunicados na UTC. |
+| Utilização Global | Número total: número de funções de IA numa área de trabalho ou num fluxo de dados. <br> Fiabilidade do Sistema: a percentagem de execuções concluídas.<br> Média Médio de Espera: o atraso médio entre a hora agendada e o início de uma execução, em milissegundos.<br> Tempo Máximo de Espera: o tempo máximo de espera, em milissegundos.<br> Média Média: a duração média de uma execução, em milissegundos.<br> Duração Máxima: a duração da execução mais longa, em milissegundos.<br> Tamanho Médio Total: o tamanho médio, em bytes, dos dados de entrada e saída da função de IA. |
 | | |
 
 ### <a name="resource-consumption"></a>Consumo de Recursos
@@ -296,7 +294,7 @@ Pode utilizar a aplicação Power BI Premium Capacity Metrics para monitorizar a
 
 1. Abra a capacidade no portal do Azure.
 
-1. Clique em **Controlo de acesso (IAM)** e adicione a aplicação **Power BI Premium** à função de leitor. Se não for possível encontrar a aplicação por nome, também pode adicioná-lo ao identificador de cliente: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. Clique em **Controlo de acesso (IAM)** e adicione a aplicação **Power BI Premium** à função de leitor. Se não conseguir encontrar a aplicação pelo nome, poderá também adicioná-la pelo identificador de cliente: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Permissões do Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 

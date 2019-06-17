@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: efea81ab0a65b336e01c7a69af2189e31ae5d9f8
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163080"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721166"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Ligar-se ao Mandrill com o Power BI
 O pacote de conteúdos do Power BI extrai dados da sua conta do Mandrill e gera um dashboard, um conjunto de relatórios e um conjunto de dados para permitir que explore seus dados. Utilize a análise do Mandrill para obter informações rapidamente sobre a sua campanha de newsletter e de marketing. Os dados são configurados para serem atualizados diariamente, o que garante que os dados que está a monitorizar são atuais.
@@ -49,5 +49,5 @@ Ligue-se ao [pacote de conteúdo do Mandrill para o Power BI.](http://app.powerb
 ## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 51cd08959b0d8ee58a5f121f9ff3269fa8e76511
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138551"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720429"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Ligue-se ao Ziosk Survey Analytics com o Power BI
 O pacote de conteúdoS do Ziosk Survey Analytics para o Power BI oferece aos restaurantes que disponibilizam tablets do Ziosk acesso incomparável às informações fornecidas pelos dados de pesquisa do Ziosk, incluindo segmentação por dia, local, funcionários e muito mais.
@@ -73,5 +73,5 @@ O pacote de conteúdos inclui dados das seguintes tabelas:
 ## <a name="next-steps"></a>Próximos passos
 [O que é o Power BI?](power-bi-overview.md)
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 

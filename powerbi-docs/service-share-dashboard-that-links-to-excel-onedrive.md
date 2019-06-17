@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61403024"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721444"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Partilhar um dashboard do Power BI associado a um ficheiro do Excel no OneDrive
 No Power BI, pode [ligar a livros do Excel no OneDrive para Empresas](service-excel-workbook-files.md) e afixar mosaicos a um dashboard desse livro. Quando partilha esse dashboard ou cria um pacote de conteúdos que o inclui:
@@ -56,6 +56,6 @@ a partilha de um dashboard a partir de uma área de trabalho do Power BI é seme
 
 ## <a name="next-steps"></a>Próximos passos
 * [Afixar um mosaico a um dashboard do Power BI a partir do Excel](service-dashboard-pin-tile-from-excel.md)
-* [Conceitos Básicos do Power BI](consumer/end-user-basic-concepts.md)
+* [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 * Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

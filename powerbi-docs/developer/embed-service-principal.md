@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375051"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720335"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
 
@@ -120,7 +120,7 @@ Ao contrário da utilização tradicional de uma conta principal, a utilização
 
 5. Adicione o principal de serviço como um **administrador** à nova área de trabalho que criou. Pode gerir esta tarefa através das [APIs](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) ou com o serviço Power BI.
 
-    ![Adicionar um principal de serviço como um administrador para uma área de trabalho](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Adicionar um principal de serviço como um administrador a uma área de trabalho](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Opte por incorporar os seus conteúdos numa aplicação de exemplo ou na sua própria aplicação.
 
@@ -168,17 +168,17 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 
 * O principal de serviço só funciona com as [novas áreas de trabalho de aplicação](../service-create-the-new-workspaces.md).
 * **A Minha Área de Trabalho** não é suportada quando utilizar o principal de serviço.
-* É necessária capacidade Premium dedicada quando avançar para a produção.
+* É necessária capacidade dedicada quando avançar para a produção.
 * Não pode iniciar sessão no portal do Power BI com o principal de serviço.
 * São necessários direitos de administrador do Power BI para ativar o principal de serviço nas definições de programador no portal de administração do Power BI.
 * Não pode instalar ou gerir um gateway de dados no local com o principal de serviço.
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não conseguem utilizar o principal de serviço.
 * A gestão de [fluxos de dados](../service-dataflows-overview.md) não é suportada.
-* Principal de serviço não suporta atualmente a qualquer administrador APIs.
+* O principal de serviço atualmente não suporta APIs de administração.
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Registar uma aplicação](register-app.md)
 * [Power BI Embedded para clientes](embed-sample-for-customers.md)
 * [Objetos do principal de serviço e aplicação no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Segurança ao nível da linha com o gateway de dados no local com o principal de serviço (pré-visualização)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Segurança ao nível de linhas com o gateway de dados no local com o principal de serviço (Pré-visualização)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

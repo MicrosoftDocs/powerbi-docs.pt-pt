@@ -1,6 +1,6 @@
 ---
 title: Encontrar utilizadores do Power BI que iniciaram sessão
-description: Se for um administrador de inquilino e quiser ver quem iniciou sessão no Power BI, pode utilizar os relatórios de acesso e utilização do Azure Active Directory para ganhar visibilidade.
+description: Se for um administrador inquilino e quiser ver quem iniciou sessão no Power BI, pode utilizar os relatórios de acesso e utilização do Azure Active Directory para obter visibilidade.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,27 +10,25 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e513607dd89aee15f10145cf62bd461621cc12c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7149d8601aa7a834f91a8d98f3a7a9deac7bf43b
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906681"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721332"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar utilizadores do Power BI que iniciaram sessão
 
-Se for um administrador de inquilino e quiser ver quem iniciou sessão no Power BI, utilize o [relatórios de acesso e utilização do Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins) ganhar visibilidade.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
+Se for administrador de inquilinos e quiser ver quem iniciou sessão no Power BI, utilize os [relatórios de acesso e utilização do Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins) para obter visibilidade.
 
 > [!NOTE]
-> O **inícios de sessão** relatório fornece informações úteis, mas ele não identifica o tipo de licença, cada utilizador tem. Utilize o centro de administração do Microsoft 365 para ver as licenças.
+> O relatório de **Inícios de sessão** fornece informações úteis, mas não identifica o tipo de licença que cada utilizador tem. Utilize o centro de administração do Microsoft 365 para ver as licenças.
 
 ## <a name="requirements"></a>Requirements
 
 Qualquer utilizador (incluindo não administradores) pode ver um relatório dos seus inícios de sessão, mas tem de cumprir os requisitos seguintes para ver um relatório de todos os utilizadores.
 
-* O inquilino tem de ter uma licença do Azure Active Directory Premium associada a ele.
+* O seu inquilino tem de ter uma licença do Azure Active Directory Premium associada.
 
 * Deve estar numa das seguintes funções: Administrador Global, Administrador de Segurança ou Leitor de Segurança.
 
@@ -42,29 +40,29 @@ Para ver a atividade de início de sessão, siga estes passos.
 
 1. Em **Monitorização**, selecione **Inícios de sessão**.
    
-    ![Captura de ecrã da interface do Usuário do Azure com as opções do Azure Active Directory e inícios de sessão realçadas.](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![Captura de ecrã a mostrar a IU do Azure com as opções Azure Active Directory e Inícios de sessão realçadas.](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
 1. Filtre a aplicação por **Microsoft Power BI** ou **Power BI Gateway** e selecione **Aplicar**.
 
-    **Microsoft Power BI** filtros para a atividade de início de sessão relacionada com o serviço, enquanto **Power BI Gateway** filtros para início de sessão atividade específica para o gateway de dados no local.
+    O **Microsoft Power BI** filtra a atividade de início de sessão relacionada com o serviço, enquanto o **Power BI Gateway** filtra a atividade de início de sessão específica do gateway de dados no local.
    
-    ![Captura de ecrã do filtro de inícios de sessão com o campo de aplicativos realçado.](media/service-admin-access-usage/sign-in-filter.png)
+    ![Captura de ecrã a mostrar o filtro Inícios de sessão com o campo Aplicações realçado.](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>Exportar os dados
 
-Pode [transferir um relatório de início de sessão](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) em qualquer um dos dois formatos: um ficheiro CSV ou um ficheiro JSON.
+Pode [transferir um relatório de início de sessão](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) num de dois formatos: um ficheiro .CSV ou um ficheiro .JSON.
 
-![Captura de ecrã do botão de transferência.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![Captura de ecrã a mostrar o botão Transferir.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
-Na parte superior a **inícios de sessão** relatório, selecione **transferir** e, em seguida, selecione uma das seguintes opções:
+Na parte superior do relatório **Inícios de sessão**, selecione **Transferir** e, em seguida, selecione uma das seguintes opções:
 
-* **CSV** para transferir um ficheiro CSV para os dados atualmente filtrados.
+* **CSV** para transferir um ficheiro .CSV com os dados atualmente filtrados.
 
-* **JSON** para transferir um ficheiro JSON para os dados atualmente filtrados.
+* **JSON** para transferir um ficheiro .JSON com os dados atualmente filtrados.
 
 ## <a name="data-retention"></a>Retenção de dados
 
-Os dados relacionados com os inícios de sessão estão disponíveis durante um máximo de 30 dias. Para mais informações, veja [políticas de retenção de relatórios do Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
+Os dados relacionados com os inícios de sessão estão disponíveis durante um máximo de 30 dias. Para obter mais informações, veja [Políticas de retenção de relatórios do Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
 ## <a name="next-steps"></a>Próximos passos
 

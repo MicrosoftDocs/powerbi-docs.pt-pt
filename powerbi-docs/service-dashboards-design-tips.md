@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0e523707caa38c808c777eb29bb8dcbdc6af5ebf
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150337"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721205"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugestões para criar um dashboard excelente no Power BI
 Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como tornar o dashboard não apenas bonito, mas também funcional. Em geral, significa destacar as informações mais importantes e torná-las claras e organizadas.
@@ -81,5 +81,5 @@ Para dominar a arte da excelente criação de dashboards, considere aprender os 
 
 ## <a name="next-steps"></a>Próximos passos
 [Criar um dashboard a partir de um relatório](service-dashboard-create.md)  
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)  
+[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)  
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

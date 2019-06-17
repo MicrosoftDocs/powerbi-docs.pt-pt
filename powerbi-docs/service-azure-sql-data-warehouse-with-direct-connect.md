@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770242"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448426"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse com DirectQuery
 
@@ -40,7 +40,7 @@ Estas restrições e notas podem mudar à medida que continuamos a melhorar as e
 
 A forma mais fácil de se mover entre o SQL Data Warehouse e o Power BI é com o botão **Abrir no Power BI** do portal do Azure. Este botão permite-lhe começar a criar novos dashboards no Power BI.
 
-1. Para começar, navegue até à instância do SQL Data Warehouse no portal do Azure. Tenha em atenção que, de momento, o SQL Data Warehouse só está presente no portal de Pré-visualização do Azure.
+1. Para começar, navegue até à instância do SQL Data Warehouse no portal do Azure. Tenha em atenção que, de momento, o SQL Data Warehouse só está presente no portal do Azure.
 
 2. Clique no botão **Abrir no Power BI**
 
@@ -56,7 +56,7 @@ O SQL Data Warehouse também está listado na página Obter Dados do Power BI.
 
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.  
 
-    ![Botão obter dados](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![Botão Obter dados](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. Em **Bases de dados**, selecione **Obter**.
 
@@ -64,13 +64,13 @@ O SQL Data Warehouse também está listado na página Obter Dados do Power BI.
 
 3. Selecione **SQL Data Warehouse** \> **Ligar**.
 
-    ![Ligar o AD SQL do Azure com o direct](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Azure SQL Data Warehouse com ligação direta](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. Introduza as informações necessárias para ligar. A secção **A localizar Parâmetros** a seguir mostra onde estes dados podem estar localizados no Portal do Azure.
+4. Introduza as informações necessárias para ligar. A secção **Localizar Parâmetros** abaixo mostra onde estes dados podem estar localizados no portal do Azure.
 
     ![Nome do servidor](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![Nome do servidor avançadas](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![Nome do servidor avançado](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![Nome de utilizador](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -79,20 +79,22 @@ O SQL Data Warehouse também está listado na página Obter Dados do Power BI.
 
 5. Analise o conjunto de dados ao selecionar o novo mosaico ou o conjunto de dados recém-criado, indicado pelo asterisco. Este conjunto de dados terá o mesmo nome da base de dados.
 
-    ![2 de conjunto de dados](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
+    ![Conjunto de dados 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
 
 6. Pode explorar todas as tabelas e colunas. Selecionar uma coluna resultará no envio de uma consulta de volta para a origem, o que cria dinamicamente o elemento visual. Os filtros também serão convertidos em consultas de volta para o armazém de dados. Estes elementos visuais podem ser guardados num novo relatório e afixados ao dashboard.
 
-    ![Explore 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![Explorar 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Localizar Valores de Parâmetro
 
-O nome de servidor completamente qualificado e o nome da base de dados podem ser encontrados no portal do Azure. Tenha em atenção que, de momento, o SQL Data Warehouse só está presente no portal de Pré-visualização do Azure.
+O nome de servidor completamente qualificado e o nome da base de dados podem ser encontrados no portal do Azure. Tenha em atenção que, de momento, o SQL Data Warehouse só está presente no portal do Azure.
 
 ![Portal do Azure](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Se o seu inquilino do Power BI estiver na mesma região que o Azure SQL Data Warehouse, não existirão custos de saída. Pode saber onde o seu inquilino do Power BI se encontra com [estas instruções](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Próximos passos
 

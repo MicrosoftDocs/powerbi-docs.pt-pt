@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407323"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720824"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Guarde um relatório no serviço Power BI e no Power BI Desktop
 Depois de fazer alterações a um relatório no Power BI, pode guardá-lo, guardar com um novo nome ou apenas fechá-lo sem guardar as suas alterações. Digamos que abre o relatório, cria uma visualização e afixa-a no dashboard. Se a fechar agora sem guardar as alterações, o mosaico permanece no dashboard, mas a visualização não é guardada no relatório. Ao clicar no mosaico no dashboard, o relatório é aberto, mas a visualização não existe no relatório.
@@ -39,7 +39,7 @@ Depois de fazer alterações a um relatório no Power BI, pode guardá-lo, guard
 ### <a name="next-steps"></a>Próximos passos
 Leia mais sobre os [relatórios no Power BI](consumer/end-user-reports.md)
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

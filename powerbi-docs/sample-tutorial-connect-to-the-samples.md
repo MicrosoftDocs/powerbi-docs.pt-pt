@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625062"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721409"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Ligar aos exemplos no serviço Power BI
 
@@ -130,7 +130,7 @@ Agora, explore o conjunto de dados, as relações e o relatório. Para obter aju
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Conceitos básicos do Power BI](consumer/end-user-basic-concepts.md)
+- [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 - [Exemplos para o serviço Power BI](sample-datasets.md)
 - [Origens de dados para o Power BI](service-get-data.md)
 

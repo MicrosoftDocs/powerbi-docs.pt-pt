@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232506"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448353"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Integração do Azure Machine Learning no Power BI (Pré-visualização)
 
@@ -68,7 +68,14 @@ Os passos indicados neste artigo descrevem como conceder acesso a um utilizador 
 
 Os cientistas de dados utilizam o Python sobretudo para desenvolver e, inclusivamente, implementar os respetivos modelos de aprendizagem automática no Serviço do Machine Learning.  Ao contrário do Machine Learning Studio, que ajuda a automatizar a tarefa de criação de um ficheiro de esquema para o modelo, no caso do Serviço do Machine Learning, o cientista de dados tem de gerar explicitamente o ficheiro de esquema com o Python.
 
-Este ficheiro de esquema tem de estar incluído no
+O ficheiro de esquema tem de estar incluído no serviço Web implementado para modelos do Serviço Machine Learning. Para gerar automaticamente o esquema para o serviço Web, tem de disponibilizar um exemplo de entrada/saída no script de entrada para o modelo implementado. Veja a subsecção sobre a geração de esquemas Swagger Automáticos (Opcional) nos Modelos de implementação com a documentação do serviço Azure Machine Learning. A ligação inclui o script de entrada de exemplo com as instruções para a geração de esquemas. 
+
+Em específico, as funções *@input_schema* e *@output_schema* no script de entrada fazem referência aos formatos de exemplo de entrada e de saída nas variáveis *exemplo_entrada* e *exemplo_saída* e utilizam estes exemplos para gerar uma especificação OpenAPI (Swagger) para o serviço Web durante a implementação.
+
+Estas instruções para a geração de esquemas ao atualizar o script de entrada também têm de ser aplicadas aos modelos criados com experimentações de aprendizagem automática com o SDK do Azure Machine Learning.
+
+> [!NOTE]
+> Os modelos criados através da interface visual do serviço Azure Machine Learning (pré-visualização) não suportam a geração de esquema atualmente, mas irão suportá-la em versões subsequentes. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Invocar o modelo do Azure ML no Power BI
 
@@ -106,9 +113,9 @@ Este artigo forneceu uma descrição geral da integração do Machine Learning n
 
 Para obter mais informações sobre fluxos de dados, leia estes artigos:
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Utilizar entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
-* [Recursos para desenvolvedores de fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 * [Fluxos de dados e integração do Azure Data Lake (Pré-visualização)](service-dataflows-azure-data-lake-integration.md)
 
 

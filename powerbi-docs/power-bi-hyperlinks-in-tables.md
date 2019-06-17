@@ -1,6 +1,6 @@
 ---
 title: Adicionar hiperligações a uma tabela
-description: Utilize o Power BI Desktop para criar hiperligações. Em seguida, utilize o Power BI Desktop ou no serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório.
+description: Utilize o Power BI Desktop para criar hiperligações. Em seguida, utilize o Power BI Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421681"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721375"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Adicionar hiperligações a uma tabela
 Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Em seguida, utilize o Desktop ou o serviço Power BI para adicionar essas hiperligações às suas matrizes e tabelas de relatório. 
@@ -24,11 +24,11 @@ Este tópico ensina a utilizar o Power BI Desktop para criar hiperligações. Em
 ![Tabela com hiperligações](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Pode criar as hiperligações em [mosaicos nos dashboards](service-dashboard-edit-tile.md) e [caixas de texto nos dashboards](service-dashboard-add-widget.md) no momento com o serviço Power BI. Pode criar as hiperligações em [caixas de texto em relatórios](service-add-hyperlink-to-text-box.md) no momento com o serviço Power BI e Power BI Desktop.
+> Pode criar hiperligações em [mosaicos nos dashboards](service-dashboard-edit-tile.md) e [caixas de texto nos dashboards](service-dashboard-add-widget.md) no momento com o serviço Power BI. Pode criar hiperligações em [caixas de texto em relatórios](service-add-hyperlink-to-text-box.md) no momento com o serviço Power BI e o Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Criar uma hiperligação numa tabela ou matriz com o Power BI Desktop
-Pode criar as hiperligações em tabelas e matrizes no Power BI Desktop, mas não no serviço Power BI. Também é possível criar hiperligações no Excel Power Pivot antes de importar o livro no Power BI. Ambos os métodos são descritos abaixo.
+Pode criar hiperligações em tabelas e matrizes no Power BI Desktop, mas não no serviço Power BI. Também pode criar hiperligações no Power Pivot no Excel antes de importar o livro para o Power BI. Ambos os métodos são descritos abaixo.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Criar uma hiperligação de tabela ou matriz no Power BI Desktop
 O procedimento para adicionar uma hiperligação depende de os dados terem sido importados ou de ter ligado aos mesmos com o DirectQuery. Ambos os cenários são descritos abaixo.
@@ -99,7 +99,7 @@ R: Não. Pode utilizar um ícone de ligação. Se necessitar de texto personaliz
 ## <a name="next-steps"></a>Próximos passos
 [Visualizações em relatórios do Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI - Conceitos Básicos](consumer/end-user-basic-concepts.md)
+[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

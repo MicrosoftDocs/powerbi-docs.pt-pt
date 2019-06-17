@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
+ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187702"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66453776"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -78,7 +78,7 @@ Veja as sessões gravadas em qualquer altura
 <br>por Wim Coorevits e Enrique Plaza Garcia
 <br>[Registar-se e ver agora](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
-**Melhores práticas para gerir o Power BI Embedded Analytics para implementações de multi-inquilinos**
+**Best Practices for Managing Power BI Embedded Analytics for Multi-Tenant Deployments** (Melhores Práticas para Gerir a Análise Incorporada do Power BI para Implementações em Múltiplos Inquilinos)
 <br>por Nimrod Shalit
 <br>[Registar-se e ver agora](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
 
@@ -118,10 +118,11 @@ Veja as sessões gravadas em qualquer altura
 <br>por Reid Havens
 <br>[Ver agora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-### <a name="partners"></a>Partners ###
+### <a name="partner-solutions-series"></a>Partner Solutions Series (Série de Soluções para Parceiros) ###
+[Ver esta série](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
 
 **Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Alcançar uma Vitória para Fabricantes e Revendedores de Bens de Consumo)
-<br>por Liz McCreesh de Thorogood
+<br>por Liz McCreesh da Thorogood
 <br>[Registar-se e ver agora](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **Transform Customer Data into Retail Success with Power Bi** (Transformar os Dados de Cliente em Êxito de Revenda com o Power BI)

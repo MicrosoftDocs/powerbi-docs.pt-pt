@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7eb30d00cdb03c0f0f879d0cb4b0ab152d1dae37
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61238876"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721521"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Introdução ao serviço Power BI (app.powerbi.com)
 Este tutorial ajuda-o a começar a utilizar o ***serviço Power BI***. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos vivamente que comece por ler [O que é o Power BI?](power-bi-overview.md).
@@ -53,7 +53,7 @@ Consulte a nossa [lista de reprodução no YouTube](https://www.youtube.com/play
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>O que é o serviço Power BI?
-O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os blocos modulares que compõem o Power BI?  Veja [Power BI – Conceitos básicos](consumer/end-user-basic-concepts.md).
+O serviço Microsoft Power BI é por vezes referido como Power BI Online ou app.powerbi.com. O Power BI ajuda-o a manter-se atualizado em relação às informações importantes para si.  Com o serviço Power BI, os ***dashboards*** ajudam-no a controlar com um clique o ritmo da sua empresa.  Os seus dashboards mostram ***mosaicos*** nos quais pode clicar para abrir ***relatórios*** para explorar mais detalhadamente.  Ligue-se a vários ***conjuntos de dados*** para juntar todos os seus dados relevantes num único local. Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?  Veja [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md).
 
 Se tem dados importantes em ficheiros do Excel ou CSV, é possível criar um dashboard do Power BI para manter-se informado em qualquer lugar e partilhar informações com outras pessoas.  Tem uma subscrição de uma aplicação SaaS como o Salesforce?  Comece por se ligar ao Salesforce para criar automaticamente um dashboard com base nesses dados ou [descubra todas as outras aplicações SaaS](service-get-data.md) às quais se pode ligar. Se fizer parte de uma organização, veja se há [aplicações](service-create-distribute-apps.md) já publicadas para si.
 
