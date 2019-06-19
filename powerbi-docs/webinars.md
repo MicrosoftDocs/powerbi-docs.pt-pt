@@ -1,20 +1,20 @@
 ---
 title: Webinars do Power BI
 description: Webinars do Power BI
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453776"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750982"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -22,7 +22,15 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
-Ainda não existe nenhum webinar agendado. Volte a consultar esta secção em breve para mais eventos futuros.
+Registe-se para ouvir os peritos do Power BI e participar em sessões de Perguntas e Respostas em direto.
+
+**Microsoft Runs on Power BI: Using Power BI in Modern Treasury** (Sessões da Microsoft Sobre o Power BI – Utilizar o Power BI na Tesouraria Moderna)
+<br>por Pankaj Gudimella e Guru Kirthigavasan
+<br>[Registe-se para ver este webinar no dia 25 de junho, das 10:00 às 11:00 (Hora Padrão do Pacífico)](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: How to Get Insights from Your Workday HR Data** (Power BI: Como Obter Informações dos seus Dados Diários de Recursos Humanos)
+<br>por Iman Eftekhari e Julia Paton da Agile Analytics, e Shahram Karimi da QBE Insurance
+<br>[Registe-se para ver este webinar no dia 27 de junho, das 13:30 às 14:30 (Hora Padrão do Pacífico)](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Próximos webinars da comunidade do Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
+ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66459583"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826639"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -61,9 +61,17 @@ Quando os dashboards e relatórios na sua área de trabalho estiverem prontos, p
    
      ![Navegação da aplicação](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. Em **Permissão**, decida quem vai ter acesso à aplicação e o que essas pessoas podem fazer com a mesma. 
+5. Em **Permissões**, decida quem vai ter acesso à aplicação e o que essas pessoas podem fazer com a mesma. 
     - Em [áreas de trabalho clássicas](service-create-workspaces.md): todas as pessoas na sua organização, pessoas específicas ou grupos de segurança do Azure Active Directory (AAD).
-    - Na [nova experiência de áreas de trabalho](service-create-the-new-workspaces.md): pessoas específicas, grupos de segurança e listas de distribuição do AAD e Grupos do Office 365.
+    - Na [nova experiência de áreas de trabalho](service-create-the-new-workspaces.md): pessoas específicas, grupos de segurança e listas de distribuição do AAD e Grupos do Office 365. Todos os utilizadores da área de trabalho recebem automaticamente acesso à aplicação da mesma.
+    - Pode permitir que os utilizadores da aplicação se liguem aos conjuntos de dados subjacentes da aplicação através da permissão Compilação. Estes conjuntos de dados serão apresentados em experiências de pesquisa de conjuntos de dados.
+    - Pode permitir que os utilizadores da aplicação façam cópias dos relatórios na mesma para A minha área de trabalho. 
+    
+    >[!IMPORTANT]
+    >Se a sua aplicação se basear em conjuntos de dados de outras áreas de trabalho, é responsável por garantir que todos os utilizadores da aplicação têm acesso aos conjuntos de dados subjacentes.
+> 
+>     
+
 
 6. Pode instalar a aplicação automaticamente para os destinatários se o seu administrador do Power BI tiver ativado esta definição no Portal de Administração do Power BI. Leia mais sobre como [instalar automaticamente uma aplicação](#automatically-install-apps-for-end-users) neste artigo.
 
@@ -151,6 +159,14 @@ Seguem-se alguns aspetos a ter em atenção quando enviar aplicações por push 
 * Tente não sobrecarregar os utilizadores. Tenha cuidado e não envie demasiadas aplicações por push para que os seus utilizadores compreendam que as aplicações pré-instaladas são úteis. É recomendável controlar quem pode enviar aplicações por push para os utilizadores finais para coordenar os horários. Estabeleça um ponto de contacto para emitir aplicações por push para os utilizadores finais na sua organização.
 
 * Os utilizadores convidados que não tiverem aceitado um convite não recebem as aplicações automaticamente instaladas.  
+
+## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Permitir que os utilizadores se liguem aos conjuntos de dados subjacentes da aplicação
+Ao selecionar a opção para permitir que todos os utilizadores se liguem aos conjuntos de dados subjacentes da aplicação, estes recebem a permissão Compilação para o conjunto de dados subjacente. Isto permite que os utilizadores [utilizem os conjuntos de dados da aplicação em áreas de trabalho](service-datasets-across-workspaces.md) para procurá-los no Power BI Desktop e nas experiências de obtenção de dados do serviço, bem como para criar relatórios e dashboards. 
+
+Ao desselecionar esta opção, os novos utilizadores que adicionar à aplicação deixarão de receber a permissão Compilação. No entanto, as permissões existentes nos conjuntos de dados subjacentes não serão alteradas. Pode utilizar a interface de utilizador fornecida para remover manualmente a permissão Compilação dos utilizadores da aplicação que já não deviam tê-la. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Permitir que os utilizadores façam cópias dos relatórios na aplicação
+Ao selecionar a opção **Permitir que os utilizadores façam uma cópia dos relatórios nesta aplicação**, está a permitir que os utilizadores guardem quaisquer relatórios na aplicação em A Minha Área de Trabalho. Desta forma, os utilizadores podem personalizar os relatórios consoante as suas necessidades. Esta ação exige que a opção **Permitir que todos os utilizadores se liguem aos conjuntos de dados subjacentes da aplicação através da permissão Compilação** esteja ativada. Esta funcionalidade tem um comportamento semelhante ao da nova funcionalidade [Copiar relatórios de outras áreas de trabalho](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Anular publicação de uma aplicação
 Qualquer membro da área de trabalho da aplicação pode anular a publicação da aplicação.

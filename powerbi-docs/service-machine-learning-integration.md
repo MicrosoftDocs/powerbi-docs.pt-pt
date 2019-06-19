@@ -1,5 +1,5 @@
 ---
-title: Integração do Azure Machine Learning no Power BI (Pré-visualização)
+title: Integração do Azure Machine Learning no Power BI
 description: Saiba como utilizar o Machine Learning com o Power BI
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448353"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823476"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Integração do Azure Machine Learning no Power BI (Pré-visualização)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>Integração do Azure Machine Learning no Power BI
 
 Muitas organizações utilizam os modelos do **Machine Learning** para obter melhores informações e previsões sobre os seus negócios. A capacidade de visualizar e invocar informações a partir destes modelos, nos seus relatórios, dashboards e outras análises, pode ajudar a disseminar estas informações junto dos utilizadores empresariais que mais precisam delas.  Agora, o Power BI simplifica a incorporação de informações de modelos alojados no serviço Azure Machine Learning, através de gestos simples de apontar e clicar.
 
@@ -75,7 +75,7 @@ Em específico, as funções *@input_schema* e *@output_schema* no script de ent
 Estas instruções para a geração de esquemas ao atualizar o script de entrada também têm de ser aplicadas aos modelos criados com experimentações de aprendizagem automática com o SDK do Azure Machine Learning.
 
 > [!NOTE]
-> Os modelos criados através da interface visual do serviço Azure Machine Learning (pré-visualização) não suportam a geração de esquema atualmente, mas irão suportá-la em versões subsequentes. 
+> Os modelos criados através da interface visual do serviço Azure Machine Learning não suportam atualmente a geração de esquemas, mas irão suportá-la em versões futuras. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Invocar o modelo do Azure ML no Power BI
 
@@ -107,9 +107,9 @@ Depois de guardar o fluxo de dados, o modelo será invocado automaticamente quan
 
 Este artigo forneceu uma descrição geral da integração do Machine Learning no serviço Power BI. Os artigos que se seguem também podem ser úteis e interessantes. 
 
-* [Tutorial: Invocar um modelo do Machine Learning Studio no Power BI (Pré-visualização)](service-tutorial-invoke-machine-learning-model.md)
+* [Tutorial: invocar um modelo do Machine Learning Studio no Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [Tutorial: Utilizar os Serviços Cognitivos no Power BI](service-tutorial-use-cognitive-services.md)
-* [Serviços Cognitivos no Power BI (Pré-visualização)](service-cognitive-services.md)
+* [Serviços Cognitivos no Power BI](service-cognitive-services.md)
 
 Para obter mais informações sobre fluxos de dados, leia estes artigos:
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)

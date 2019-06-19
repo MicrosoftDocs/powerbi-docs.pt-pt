@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720335"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823292"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Principal de serviço com o Power BI (Pré-visualização)
+# <a name="service-principal-with-power-bi"></a>Principal de serviço com o Power BI
 
 Com o **principal de serviço**, pode incorporar conteúdos do Power BI numa aplicação e utilizar a automatização com o Power BI com um token **apenas de aplicação**. O principal de serviço é vantajoso quando utiliza o **Power BI Embedded** ou quando **automatiza tarefas e processos do Power BI**.
 
@@ -94,7 +94,7 @@ Ao contrário da utilização tradicional de uma conta principal, a utilização
    > [!Important]
    > Assim que ativar o principal de serviço a ser utilizado com o Power BI, as permissões do AD da aplicação deixarão de estar em vigor. Em seguida, as permissões da aplicação serão geridas através do portal de administração do Power BI.
 
-2. Crie um [grupo de segurança no Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) e adicione a aplicação que criou a esse grupo de segurança. Pode criar um grupo de segurança do AAD com o [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Ação recomendada** – crie um [grupo de segurança no Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) e adicione a aplicação que criou a esse grupo de segurança. Pode criar um grupo de segurança do AAD com o [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     Abaixo encontra-se um script de exemplo para criar um novo grupo de segurança e adicionar uma aplicação ao mesmo.
 
@@ -109,7 +109,7 @@ Ao contrário da utilização tradicional de uma conta principal, a utilização
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Como administrador do Power BI, tem de ativar o principal de serviço nas **Definições de programador** no portal de administração do Power BI. Adicione o grupo de segurança que criou no Azure AD à secção **Grupo de segurança específico** nas **Definições de programador**.
+3. Como administrador do Power BI, tem de ativar o principal de serviço nas **Definições de programador** no portal de administração do Power BI. Adicione o grupo de segurança que criou no Azure AD à secção específica de grupos de segurança nas **Definições de programador**. Também pode ativar o acesso a principais de serviço para toda a organização. Neste caso, não tem de seguir o passo 2.
 
    > [!Important]
    > Os principais de serviço têm acesso a todas as definições do inquilino ativadas para a organização inteira ou ativadas para grupos de segurança que tenham principais de serviço como parte do grupo. Para restringir o acesso do principal de serviço a definições do inquilino específicas, permita o acesso apenas a grupos de segurança específicos ou crie um grupo de segurança dedicado para principais de serviço e exclua-o.
@@ -181,4 +181,4 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 * [Registar uma aplicação](register-app.md)
 * [Power BI Embedded para clientes](embed-sample-for-customers.md)
 * [Objetos do principal de serviço e aplicação no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Segurança ao nível de linhas com o gateway de dados no local com o principal de serviço (Pré-visualização)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Segurança ao nível da linha com o gateway de dados no local com o principal de serviço](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
