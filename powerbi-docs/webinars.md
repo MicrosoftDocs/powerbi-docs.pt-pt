@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: d62ad0624a19666e4ac1e59927df9eade6e4df33
-ms.sourcegitcommit: 8054aa9622d97b196ef6cd087fd9e1d8dad3d9de
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "67144915"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389541"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -23,10 +23,6 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
 Registe-se para ouvir os peritos do Power BI e participar em sessões de Perguntas e Respostas em direto.
-
-**Microsoft Runs on Power BI: Using Power BI in Modern Treasury** (Sessões da Microsoft Sobre o Power BI – Utilizar o Power BI na Tesouraria Moderna)
-<br>por Pankaj Gudimella e Guru Kirthigavasan
-<br>[Registe-se para ver este webinar no dia 25 de junho, das 10:00 às 11:00 (Hora Padrão do Pacífico)](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: How to Get Insights from Your Workday HR Data** (Power BI: Como Obter Informações dos seus Dados Diários de Recursos Humanos)
 <br>por Iman Eftekhari e Julia Paton da Agile Analytics, e Shahram Karimi da QBE Insurance
@@ -61,6 +57,10 @@ Introdução aos webinars a pedido populares
 **Microsoft Runs on Power BI – Financial Planning & Analysis Made Easy** (Execuções da Microsoft no Power BI – Análise e Planeamento Financeiro Simplificados)
 <br>por Cory Hrncirik e Miguel Martinez
 <br>[Registar-se e ver agora](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Microsoft Runs on Power BI: Using Power BI in Modern Treasury** (Sessões da Microsoft Sobre o Power BI – Utilizar o Power BI na Tesouraria Moderna)
+<br>por Pankaj Gudimella e Guru Kirthigavasan
+<br>[Registar-se e ver agora](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Supercharge Your Applications Using the Power BI JavaScript API** (Sobrecarregar as Aplicações com a API de JavaScript do Power BI)
 <br>por Nimrod Shalit
