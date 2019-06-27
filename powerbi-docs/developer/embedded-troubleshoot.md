@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770491"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823310"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Resolver problemas da sua aplicação incorporada
 
@@ -80,6 +80,7 @@ Poderá ser necessária uma captura de fiddler para se investigar mais aprofunda
 * O token de autenticação do Azure AD expirou.
 * O utilizador autenticado não é um membro do grupo (área de trabalho de aplicação).
 * O utilizador autenticado não é um administrador do grupo (área de trabalho de aplicação).
+* O utilizador autenticado não tem permissões. As permissões podem ser atualizadas através da [API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions).
 * O cabeçalho de autorização poderá não estar corretamente listado. Certifique-se de que não existem gralhas.
 
 O back-end da aplicação poderá ter de atualizar o token de autenticação antes de chamar o GenerateToken.
@@ -185,9 +186,9 @@ O consentimento do utilizador está desativado no inquilino.
 
 *Conceder permissões* para a aplicação por um administrador: para todo o inquilino ou para um utilizador específico.
 
-### <a name="cs1061-error"></a>Erro de CS1061
+### <a name="cs1061-error"></a>Erro CS1061
 
-Baixe [ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) se ocorrer um "'AuthenticationContext' não contém uma definição para 'AcquireToken' e não acessível"AcquireToken' abertos ao recebimento de um primeiro argumento de tipo ' AuthenticationContext' foi encontrada (não têm um usando diretiva ou uma referência ao assembly?) "erro.
+Transfira o [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) caso lhe seja apresentada a mensagem de erro "'AuthenticationContext' não contém uma definição para 'AcquireToken' e não foi possível localizar nenhum método de extensão 'AcquireToken' que aceitasse um primeiro argumento do tipo 'AuthenticationContext' (falta-lhe uma directiva de utilização ou uma referência de assemblagem?)".
 
 ## <a name="data-sources"></a>Origens de dados
 

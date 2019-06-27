@@ -1,5 +1,5 @@
 ---
-title: Criar um conjunto de dados incorporado para um relatório paginado do Power BI (Pré-visualização)
+title: Criar um conjunto de dados incorporado para um relatório paginado do Power BI
 description: Neste artigo, vai aprender a criar um conjunto de dados incorporado, com base numa origem de dados incorporada, para um relatório paginado no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: 3e095da10e9f96c7ec0f10ffbb94995d44effab4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423770"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839036"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Criar um conjunto de dados incorporado para um relatório paginado no serviço Power BI (Pré-visualização)
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Criar um conjunto de dados incorporado para um relatório paginado no serviço Power BI
 
-Neste artigo, vai aprender a criar um conjunto de dados incorporado, com base numa origem de dados incorporada, para um relatório paginado no serviço Power BI. Os conjuntos de dados incorporados estão contidos num único relatório paginado, para utilização nesse relatório. Atualmente, os relatórios paginados publicados no serviço Power BI precisam de conjuntos de dados incorporados e origens de dados incorporadas. Criar a origem de dados incorporada e o conjunto de dados no Power BI Report Builder, enquanto está a criar o seu relatório. 
+Neste artigo, vai aprender a criar um conjunto de dados incorporado, com base numa origem de dados incorporada, para um relatório paginado no serviço Power BI. Os conjuntos de dados incorporados estão contidos num único relatório paginado, para utilização nesse relatório. Atualmente, os relatórios paginados publicados no serviço Power BI precisam de conjuntos de dados incorporados e origens de dados incorporadas. Enquanto estiver a criar o seu relatório, irá também criar a origem de dados e o conjunto de dados incorporados no Report Builder do Power BI. 
 
 Para poder criar o conjunto de dados, terá de criar uma origem de dados. Veja [Origens de dados incorporadas para relatórios paginados](paginated-reports-embedded-data-source.md) no serviço Power BI para aprender como fazê-lo.
   
 ## <a name="create-an-embedded-dataset"></a>Criar um conjunto de dados incorporado
   
-1. No painel de dados do relatório no Power BI Report Builder, selecione **New** > **conjunto de dados**.
+1. No painel Dados do Relatório no Report Builder do Power BI, selecione **Novo** > **Conjunto de dados**.
 
 1. No separador **Consulta** da caixa de diálogo **Propriedades do Conjunto de Dados**, dê um nome ao conjunto de dados. A origem de dados incorporada já está na caixa **Origem de dados** ou pode selecionar **Nova** para criar uma origem de dados incorporada diferente.
  
@@ -56,7 +56,7 @@ Para poder criar o conjunto de dados, terá de criar uma origem de dados. Veja [
  
 ## <a name="next-steps"></a>Próximos passos 
 
-- [O que são relatórios paginados no Power BI Premium? (Pré-visualização)](paginated-reports-report-builder-power-bi.md)  
+- [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
 - [Tutorial: Criar um relatório paginado e carregá-lo para o serviço Power BI](paginated-reports-quickstart-aw.md)
 - [Publicar um relatório paginado no serviço Power BI](paginated-reports-save-to-power-bi-service.md)
 

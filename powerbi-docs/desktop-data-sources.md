@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853406"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823541"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 O Power BI Desktop permite ligar-se a dados de várias origens diferentes. Veja uma lista completa das origens de dados disponíveis na parte inferior desta página.
@@ -114,12 +114,12 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB (Beta)
-* Geração 1 Lake armazenamento de dados do Azure
+* Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Interactive Query do HDInsight
-* Explorador de dados do Azure (Kusto)
-* Gestão de custos do Azure (Beta)
+* Azure Data Explorer (Kusto)
+* Azure Cost Management (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -133,7 +133,7 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (no local)
-* Common Data Service para Aplicações (Beta)
+* Common Data Service
 * Microsoft Azure Consumption Insights (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,8 +161,11 @@ A categoria **Serviços Online** fornece as seguintes ligações de dados:
 * Webtrends (Beta)
 * ZenDesk (Beta)
 * Origem de Dados Emigo (Beta)
-* IndustrialAppStore (Beta)
+* Entersoft Business Suite (Beta)
+* Industrial App Store
+* Intune Data Warehouse (Beta)
 * Segurança do Microsoft Graph (Beta)
+* Quick Base
 * TeamDesk (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Serviços Online**.
@@ -182,15 +185,14 @@ A categoria **Outros** fornece as seguintes ligações de dados:
 * Script de Python
 * ODBC
 * OLEDB
-* BI360 - orçamento e financeiro relatórios (Beta)
+* BI360 - Budgeting & Financial Reporting (Beta)
 * Denado
-* Grelha de informações (Beta)
+* Information Grid (Beta)
 * Paxata 
 * QubolePresto (Beta)
-* Quick Base (Beta)
 * Roamler (Beta)
 * SurveyMonkey (Beta)
-* Tenforce (Beta)
+* Tenforce (Smart)List (Beta)
 * Workforce Dimensions (Beta)
 * Consulta em Branco
 

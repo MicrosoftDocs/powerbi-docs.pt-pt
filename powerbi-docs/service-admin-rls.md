@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d57cd2db38e099fffc73c813f0298cfea5a34aad
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6f7e6848b292e1e2d24cc946b2a52449b5c74376
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194098"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751212"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Segurança ao nível da linha (RLS) com o Power BI
 
@@ -52,7 +52,7 @@ Só poderá criar ou modificar funções dentro do Power BI Desktop.
 
 ### <a name="add-members"></a>Adicionar membros
 
-Pode adicionar um membro à função ao introduzir o endereço de e-mail ou o nome do utilizador, grupo de segurança ou lista de distribuição que pretende adicionar. Este membro tem de estar na sua organização. Não é possível adicionar Grupos criados no Power BI.
+Pode adicionar um membro à função ao introduzir o endereço de e-mail ou o nome do utilizador, grupo de segurança ou lista de distribuição que pretende adicionar. Não é possível adicionar Grupos criados no Power BI. Pode adicionar membros [externos à sua organização](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners).
 
 ![Adicionar um membro](media/service-admin-rls/rls-add-member.png)
 

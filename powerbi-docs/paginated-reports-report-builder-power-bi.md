@@ -1,5 +1,5 @@
 ---
-title: O que são relatórios paginados no Power BI Premium? (Pré-visualização)
+title: O que são relatórios paginados no Power BI Premium?
 description: Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Estes relatórios podem ser impressos ou partilhados. Pode controlar o esquema do relatório com exatidão. Os relatórios paginados apresentam todos os dados numa tabela, por exemplo, mesmo que a tabela se estenda por várias páginas.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,41 +8,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/20/2019
-ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991077"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839616"
 ---
-# <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>O que são relatórios paginados no Power BI Premium? (Pré-visualização)
+# <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
 Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Estes relatórios podem ser impressos ou partilhados. Os relatórios são designados "paginados" porque são formatados para se ajustarem a uma página. Os relatórios paginados apresentam todos os dados numa tabela, mesmo que a tabela ocupe múltiplas páginas. Às vezes são chamados “imagem perfeita”, uma vez que pode controlar o esquema de página do relatório com exatidão. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. O Report Builder é a ferramenta autónoma para a criação de relatórios paginados. 
 
 Os relatórios paginados podem ter muitas páginas. Por exemplo, este relatório tem 563 páginas. Cada página está disposta com exatidão, com uma página por fatura e cabeçalhos e rodapés repetidos.
 
-![Relatório paginado no serviço Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, http://app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou nas áreas de trabalho da aplicação, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, um administrador do Power BI tem de ativar os relatórios paginados no portal de administração do Power BI. 
+![Relatório paginado no serviço Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-## <a name="create-reports-in-power-bi-report-builder"></a>Criar relatórios no Power BI Report Builder
+Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, http://app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou nas áreas de trabalho da aplicação, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, os relatórios paginados têm de ser ativados por um administrador do Power BI na secção [Capacidades Premium](service-admin-premium-workloads.md#paginated-reports-preview) do portal de administração do Power BI. 
 
-Relatórios paginados tem sua própria ferramenta de design, o Power BI Report Builder. É uma ferramenta nova que compartilha a mesma base como as ferramentas que anteriormente tinha utilizou para criar relatórios paginados para o Power BI Report Server ou SQL Server Reporting Services (SSRS). Na verdade, os relatórios paginados que criar para o SSRS 2016 e 2017 ou para o Power BI Report Server no local, são compatíveis com o serviço Power BI. O serviço Power BI mantém a retrocompatibilidade, pelo que pode mudar os relatórios para a versão mais recente e pode atualizar os relatórios paginados de qualquer versão anterior. Nem todas as funcionalidades de relatórios estão disponíveis no lançamento. Veja a secção [Limitações e considerações](#limitations-and-considerations) neste artigo para obter detalhes.
+## <a name="create-reports-in-power-bi-report-builder"></a>Criar relatórios no Report Builder do Power BI
+
+Os relatórios paginados têm a sua própria ferramenta de criação, o Report Builder do Power BI. Trata-se de uma nova ferramenta que tem a mesma base das ferramentas que utilizou anteriormente para criar relatórios paginados para o Power BI Report Server ou o SQL Server Reporting Services (SSRS). Na verdade, os relatórios paginados que criar para o SSRS 2016 e 2017 ou para o Power BI Report Server no local, são compatíveis com o serviço Power BI. O serviço Power BI mantém a retrocompatibilidade, pelo que pode mudar os relatórios para a versão mais recente e pode atualizar os relatórios paginados de qualquer versão anterior. Nem todas as funcionalidades de relatórios estão disponíveis no lançamento. Veja a secção [Limitações e considerações](#limitations-and-considerations) neste artigo para obter detalhes.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Relatório de diversas origens de dados
 
-Um único relatório paginado pode ter uma série de origens de dados diferentes, não tem um modelo de dados subjacente, ao contrário dos relatórios do Power BI. Para a versão inicial dos relatórios paginados no serviço Power BI, irá criar origens de dados e conjuntos de dados incorporados no relatório propriamente dito. Por agora, não pode utilizar conjuntos de dados partilhados ou origens de dados partilhadas. Vai criar os relatórios no Report Builder no computador local. Se um relatório ligar a dados no local, depois de carregar o relatório no serviço Power BI, terá de criar um gateway e redirecionar a ligação de dados. Seguem-se as origens de dados, que pode ligar a neste momento:
+Um único relatório paginado pode ter uma série de origens de dados diferentes, não tem um modelo de dados subjacente, ao contrário dos relatórios do Power BI. Para a versão inicial dos relatórios paginados no serviço Power BI, irá criar origens de dados e conjuntos de dados incorporados no relatório propriamente dito. Por agora, não pode utilizar conjuntos de dados partilhados ou origens de dados partilhadas. Vai criar os relatórios no Report Builder no computador local. Se um relatório ligar a dados no local, depois de carregar o relatório no serviço Power BI, terá de criar um gateway e redirecionar a ligação de dados. Eis as origens de dados às quais pode ligar-se atualmente:
 
 - Base de Dados SQL do Azure e Azure SQL Data Warehouse
-- Azure Analysis Services (através de SSO)
+- Azure Analysis Services (através do SSO)
 - SQL Server através de um gateway
 - SQL Server Analysis Services através de um gateway
-- Conjuntos de dados do Power BI Premium
+- Conjuntos de Dados do Power BI Premium
 - Oracle
 - Teradata
- 
-Estarão disponíveis mais origens de dados durante o período de pré-visualização.
+- Mais origens à medida que forem adicionadas
 
 ## <a name="design-your-report"></a>Criar o relatório  
 
@@ -69,9 +70,9 @@ Pode ver o relatório paginado no serviço Power BI num browser e também nas a
 
 ## <a name="create-a-subscription-to-your-report"></a>Criar uma subscrição para o seu relatório
 
-Agora pode configurar subscrições de e-mail para si e para outras pessoas para relatórios paginados no serviço Power BI. Em geral, o processo é igual a subscrever relatórios e dashboards no serviço Power BI. Na configuração de subscrições, escolha com que frequência quer receber os e-mails: diária, semanal ou por hora. A subscrição contém um anexo de PDF do resultado completo de relatório.
+Agora pode configurar subscrições de e-mail de relatórios paginados no serviço Power BI para si e para outras pessoas. De modo geral, o processo é idêntico a subscrever relatórios e dashboards no serviço Power BI. Ao configurar subscrições, pode selecionar com que frequência quer receber os e-mails: diariamente, semanalmente ou de hora a hora. A subscrição inclui um anexo PDF com todo o resultado do relatório.
 
-Para obter detalhes, consulte o artigo [subscrever relatórios paginados no serviço Power BI por conta própria e outros](paginated-reports-subscriptions.md). 
+Para obter detalhes, veja o artigo [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](paginated-reports-subscriptions.md). 
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
@@ -85,7 +86,7 @@ Apresentamos a seguir mais algumas funcionalidades que não são suportadas na v
  
 ## <a name="next-steps"></a>Próximos passos
 
-- [Instalar o Power BI Report Builder a partir do Centro de transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Instalar o Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
 - [Introduzir dados diretamente num relatório paginado](paginated-reports-enter-data.md)
 

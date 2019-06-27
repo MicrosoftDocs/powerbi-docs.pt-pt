@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412899"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750998"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -142,7 +142,7 @@ Não há problema em utilizar o ambiente do Power BI (inquilino) na documentaç�
 ## <a name="h"></a>H
 **high-density visuals (elementos visuais de alta densidade)** Elementos visuais com mais pontos de dados do que o Power BI pode compor. O Power BI exemplifica os dados para mostrar a forma e os valores atípicos.
 
-**Home page** a predefinição de antiguidade para utilizadores do serviço Power BI de destino. Não modificar nada. Pode ser chamado Power BI, casa ou simplesmente home page.
+**Home Page** – a página de destino predefinida para utilizadores do serviço Power BI. Não modifica nada. Pode ser chamada Home Page do Power BI ou simplesmente Home Page.
 
 ## <a name="i"></a>I
 

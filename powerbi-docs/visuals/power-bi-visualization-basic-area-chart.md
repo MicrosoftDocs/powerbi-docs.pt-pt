@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393242"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839854"
 ---
 # <a name="basic-area-chart"></a>Gráfico de Área básico
 O gráfico de área básico (também conhecido como gráfico de área em camadas) baseia-se no gráfico de linhas. A área entre o eixo e a linha é preenchida com cores para indicar o volume. 
@@ -40,11 +40,11 @@ Para acompanhar, inicie sessão no Power BI e selecione **Obter Dados\> Exemplos
  
 
 1. No dashboard "Exemplo de Análise de Revenda", selecione o mosaico **Total de Lojas** para abrir o relatório "Exemplo de Análise de Revenda".
-2. Selecione **Editar Relatório** para abrir o relatório na Vista de Edição.
+2. Selecione **Editar** para abrir o relatório na Vista de edição.
 3. Adicione uma nova página de relatório ao selecionar o ícone de adição amarelo (+) na parte inferior do relatório.
 4. Crie um novo gráfico de área que mostre as vendas deste ano e do ano passado por mês.
    
-   a. No painel CAMPOS, selecione **Vendas \> Vendas do Ano Passado** e **Vendas Deste Ano > Valor**.
+   a. No painel Campos, selecione **Vendas \> Vendas do Ano Passado** e **Vendas Deste Ano > Valor**.
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 

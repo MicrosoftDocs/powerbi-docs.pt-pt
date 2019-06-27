@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578517"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751102"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>O que são as aplicações de modelo do Power BI? (pré-visualização)
 
@@ -24,10 +24,10 @@ As aplicações de modelo são um substituto dos atuais pacotes de conteúdos do
 
 Pode criar aplicações de modelo que permitam que os seus clientes estabeleçam ligação e criem instâncias com as respetivas contas. Como especialistas de domínio, podem desbloquear os dados de forma a serem facilmente consumíveis pelos respetivos utilizadores empresariais.  
 
-Submeta as suas aplicações de modelo para o Portal de parceiro de Cloud. Em seguida, as aplicações são disponibilizadas publicamente na Galeria de aplicações do Power BI (app.powerbi.com/getdata/services) e no Microsoft AppSource (appsource.microsoft.com). Aqui está uma visão de alto nível a experiência de criação da aplicação de modelo público.  
+Pode submeter as suas aplicações de modelo no Cloud Partner Portal. Em seguida, as aplicações são disponibilizadas publicamente na Galeria de aplicações do Power BI (app.powerbi.com/getdata/services) e no Microsoft AppSource (appsource.microsoft.com). Eis uma descrição geral da experiência pública de criação de aplicações de modelo.  
 
 ## <a name="process"></a>Processo
-O processo geral para desenvolver e submeter uma aplicação de modelo envolve vários estágios. Alguns estágios podem incluir mais de uma atividade ao mesmo tempo.
+O processo geral para desenvolver e submeter uma aplicação de modelo inclui várias fases. Algumas fases podem incluir mais do que uma atividade em simultâneo.
 
 
 | Fase | Power BI Desktop |  |serviço Power BI  |  |Cloud Partner Portal  |

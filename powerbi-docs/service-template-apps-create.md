@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: maggies
-ms.openlocfilehash: 653050fbe5c860ef1902a4700c3a70a8af2f7092
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514956"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751182"
 ---
 # <a name="create-a-template-app-in-power-bi-preview"></a>Criar uma aplicação de modelo no Power BI (pré-visualização)
 
 As novas *aplicações de modelo* do Power BI permitem que os parceiros do mesmo criem aplicações do Power BI com pouco ou nenhum código e que as implementem para qualquer cliente do Power BI.  Este artigo contém instruções passo a passo para criar uma aplicação de modelo do Power BI.
 
-Se pode criar relatórios do Power BI e dashboards, pode se tornar um *criador de aplicações do modelo* e cria e empacota o conteúdo analítico para um *aplicação*. Pode implementar a sua aplicação para outros inquilinos do Power BI através de qualquer plataforma disponível, como o AppSource, ou ao utilizá-lo no seu próprio web service. Como um construtor, tem a possibilidade de criar um pacote de análise protegido para distribuição.
+Se conseguir criar relatórios e dashboards do Power BI, pode tornar-se um *criador de aplicações de modelo* que cria e empacota conteúdos de análise numa *aplicação*. Pode implementar a sua aplicação noutros inquilinos do Power BI através de qualquer plataforma disponível, como o AppSource, ou ao utilizá-la no seu próprio serviço Web. Enquanto criador, pode criar um pacote de análise protegido para distribuição.
 
-Os administradores de inquilinos do Power BI gerem e controlam quem na sua organização pode criar aplicações de modelo e quem pode instalá-las. Esses utilizadores que têm autorização podem instalar a aplicação de modelo, em seguida, modificá-lo e distribuí-la para os consumidores do Power BI na sua organização.
+Os administradores de inquilinos do Power BI gerem e controlam quem na sua organização pode criar aplicações de modelo e quem pode instalá-las. Os utilizadores que tiverem autorização para tal podem instalar a aplicação de modelo e, em seguida, modificar e distribuí-la para os consumidores do Power BI na organização.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -30,7 +30,7 @@ Eis os requisitos para a criação de uma aplicação de modelo:
 
 - Uma [licença do Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Uma [instalação do Power BI Desktop](desktop-get-the-desktop.md) (opcional)
-- Familiaridade com o [conceitos básicos do Power BI](service-basic-concepts.md)
+- Conhecer os [conceitos básicos do Power BI](service-basic-concepts.md)
 - Permissões para criar uma aplicação de modelo. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings-preview) do Power BI para obter detalhes.
 
 ## <a name="enable-app-developer-mode"></a>Ativar o modo de programador da aplicação
@@ -66,7 +66,7 @@ Para criar uma aplicação de modelo que possa distribuir para outros inquilinos
 
 5. Selecione **Guardar**.
 >[!NOTE]
->Precisa de permissões do seu administrador do Power BI para promover aplicações de modelo.
+>Necessita de permissões do administrador do Power BI para promover aplicações de modelo.
 
 ## <a name="create-the-content-in-your-template-app"></a>Criar os conteúdos na sua aplicação de modelo
 
@@ -86,43 +86,43 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
 
     ![Criar aplicação](media/service-template-apps-create/power-bi-create-app.png)
 
-    Aqui, preencha as opções de criação adicionais para a sua aplicação de modelo, em cinco categorias:
+    Neste passo, irá preencher as opções de criação adicionais da sua aplicação de modelo em cinco categorias:
 
     **Personalização**
 
     ![Imagem corporativa](media/service-template-apps-create/power-bi-create-branding.png)
     - Nome da aplicação
     - Descrição
-    - Site de suporte (ligação é apresentada em informações da aplicação após a aplicação de modelo como aplicação de organização de redistribuição)
-    - Logótipo da aplicação (limite de tamanho de ficheiro de 45K, taxa de proporção de 1:1,. png. jpg. JPEG formatos)
-    - Cor do tema de aplicação
+    - Site de suporte (a ligação é apresentada nas informações da aplicação, após a redistribuição da aplicação de modelo como aplicação de organização)
+    - Logótipo da aplicação (limite de tamanho do ficheiro de 45 KB, proporção de 1:1, formatos .png, .jpg e .jpeg)
+    - Cor do tema da aplicação
 
     **Conteúdo**
 
-    **Página de destino da aplicação:** Defina um relatório ou dashboard para ser a página de destino da sua aplicação, utilize uma página de aterrissagem que dará a impressão certa:
+    **Página de destino da aplicação:** Defina um relatório ou dashboard como a página de destino da sua aplicação. Utilize uma página de destino que dê uma impressão certa:
 
     ![Conteúdo](media/service-template-apps-create/power-bi-create-content.png)
 
     **Controlo**
 
-    Definir limites e restrições que os usuários do aplicativo terá com o conteúdo do seu aplicativo. Pode utilizar este controlo para proteger a propriedade intelectual na sua aplicação.
+    Defina limites e restrições que os utilizadores da aplicação terão relativamente aos conteúdos da sua aplicação. Pode utilizar este controlo para proteger propriedades intelectuais na sua aplicação.
 
     ![Controlo](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
-    >Exportar para o formato. pbix estarão sempre bloqueado para os utilizadores a instalar a aplicação.
+    >A exportação para o formato .pbix é sempre bloqueada aos utilizadores que instalam a aplicação.
 
     **Parâmetros**
 
-    Utilize esta categoria para gerir o comportamento de parâmetro ao ligar a origens de dados. Saiba mais sobre [criar parâmetros de consulta](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
+    Utilize esta categoria para gerir o comportamento dos parâmetros ao ligar a origens de dados. Saiba mais sobre a [criação de parâmetros de consulta](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
 
     ![Parâmetros](media/service-template-apps-create/power-bi-create-parameters.png)
     - **Valor**: valor de parâmetro predefinido.
-    - **Necessário**: Utilize esta opção para exigir que o instalador para um parâmetro específico do usuário de entrada.
-    - **Bloqueio**: Bloqueio impede que o instalador a atualizar um parâmetro.
-    - **Estático**: Ativar no caso da aplicação contiver *apenas* dados de exemplo. Quando seleciona **estático**, o Assistente de instalação não pede aos utilizadores ligar uma origem de dados.
+    - **Obrigatório**: utilize esta opção para exigir que o instalador introduza um parâmetro específico do utilizador.
+    - **Bloquear**: o bloqueio impede que o instalador atualize um parâmetro.
+    - **Estático**: ative esta opção se a aplicação *apenas* tiver dados de exemplo. Ao selecionar **Estático**, o assistente de instalação não irá pedir aos utilizadores para ligar uma origem de dados.
 
-    **Acesso** na fase de teste, decidir que outras pessoas na sua organização podem instalar e testar a aplicação. Não se preocupe, pode sempre voltar atrás e alterar estas definições mais tarde (definição não afeta o acesso da aplicação de modelo distribuído).
+    **Acesso**: na fase de teste, decida que pessoas na sua organização podem instalar e testar a sua aplicação. Não se preocupe, pode sempre regressar e alterar estas definições mais tarde (as definições não afetam o acesso à Aplicação de modelo distribuída).
 
 2. Selecione **Criar aplicação**.
 
@@ -141,9 +141,9 @@ Antes de lançar esta aplicação de modelo publicamente, é importante garantir
 - Promover o pacote de pré-produção para Produção: versão de produção.
 - Eliminar um pacote ou começar a partir da fase anterior.
 
-O URL não é alterado ao se mover entre fases de liberação. Promoção não afeta o URL em si.
+O URL não sofre alterações à medida que avança nas fases de lançamento. A promoção não afeta o URL.
 
-Vejamos as fases:
+Vamos percorrer todas as fases:
 
 1. Na área de trabalho de aplicação de modelo, selecione **Gestão de Versões**.
 
@@ -171,15 +171,15 @@ Vejamos as fases:
     ![Comece já com a sua aplicação](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. Selecione **Explorar a aplicação** para verificar a aplicação de teste com os dados de exemplo.
 9. Para fazer alterações, volte à aplicação na área de trabalho original. Atualize a aplicação de teste até obter os resultados que pretende.
-10. Quando estiver pronto para promover a sua aplicação para pré-produção para fazer testes adicionais fora do seu inquilino, volte para o **gerenciamento de liberação** painel e selecione **aplicação de promover**. 
+10. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel **Gestão de Versões** e selecione **Promover aplicação**. 
 
     ![Promover aplicação para pré-produção](media/service-template-apps-create/power-bi-template-app-promote.png)
 
     >[!NOTE]
-    > Quando a aplicação é promovida torna-se publicamente disponível fora da sua organização.
+    > Quando a aplicação é promovida, fica publicamente disponível fora da sua organização.
 
 11. Selecione **Promover** para confirmar a sua escolha.
-12. Copie este novo URL para partilhar fora do seu inquilino para fins de teste. Esta ligação também é aquele que submeter para iniciar o processo de distribuir a sua aplicação no AppSource através da criação de um [nova oferta de Cloud Partner Portal](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Submeta ligações apenas de pré-produção para o Portal de parceiro de Cloud. Depois da aplicação é aprovada e recebe notificação que é publicado no AppSource, em seguida, pode promover este pacote para a produção em Power BI.
+12. Copie este novo URL para partilhar fora do seu inquilino para fins de teste. Esta ligação é a mesma que irá submeter para iniciar o processo de distribuição da sua aplicação no AppSource ao criar uma [nova oferta do Cloud Partner Portal](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Submeta apenas ligações de pré-produção no Cloud Partner Portal. Só após a aplicação ser aprovada e receber uma notificação de que esta foi publicada no AppSource, poderá promover este pacote para produção no Power BI.
 13. Quando a aplicação está pronta para produção ou partilha através do AppSource, regresse ao painel **Gestão de Versões** e selecione **Promover aplicação** junto a **Pré-produção**.
 14. Selecione **Promover** para confirmar a sua escolha.
 
@@ -202,11 +202,11 @@ Agora que a aplicação está em produção, pode recomeçar a fase de teste sem
 
     ![Duas versões de uma aplicação de modelo](media/service-template-apps-create/power-bi-template-app-2-versions.png)
 
-5. Quando estiver pronto para promover a sua aplicação para pré-produção para fazer testes adicionais fora do seu inquilino, volte ao painel de gerenciamento de liberação e selecione **aplicação de promover** junto a **teste**.
-6. A ligação está agora ativa, submetê-lo novamente para o Portal do Cloud Partner, seguindo os passos indicados em [atualização de oferta de aplicação do Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
+5. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel Gestão de Versões e selecione **Promover aplicação** junto a **Teste**.
+6. A sua ligação está agora ativada. Submeta-a novamente no Cloud Partner Portal ao seguir os passos em [Atualização da oferta da Aplicação Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
 
 >[!NOTE]
->Promova seu aplicativo para a fase de produção apenas após a sua aplicação é aprovada pelo Portal de parceiro de Cloud e publicou-lo.
+>Promova a sua aplicação para a fase de produção apenas após a sua aplicação ser aprovada pelo Cloud Partner Portal e após publicá-la.
 
 ## <a name="next-steps"></a>Próximos passos
 

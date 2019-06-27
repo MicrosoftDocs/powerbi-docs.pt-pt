@@ -1,5 +1,5 @@
 ---
-title: Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
+title: Explorar a Vista de Estrutura de Relatório dos relatórios paginados
 description: A Vista de Estrutura de Relatório no Report Builder é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423365"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839535"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados (Pré-visualização)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados
 
-Vista de estrutura de relatório no Power BI Report Builder é o espaço de design para a criação de relatórios paginados, que pode publicar no serviço Power BI. A superfície de desenho está no centro do Report Builder, com o friso e os painéis em seu redor. A superfície de desenho é onde pode adicionar e organizar os seus itens de relatório. Este artigo explica os painéis que utiliza para adicionar, selecionar e organizar os recursos de relatório e alterar as propriedades do item de relatório.  
+A Vista de Estrutura de Relatório no Report Builder do Power BI é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI. A superfície de desenho está no centro do Report Builder, com o friso e os painéis em seu redor. A superfície de desenho é onde pode adicionar e organizar os seus itens de relatório. Este artigo explica os painéis que utiliza para adicionar, selecionar e organizar os recursos de relatório e alterar as propriedades do item de relatório.  
 
 ![Vista de Estrutura de Relatório do Report Builder](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ A barra de estado do relatório atual mostra o nome do servidor a que o relatór
 
 ## <a name="next-steps"></a>Próximos passos
 
-[O que são relatórios paginados no Power BI Premium? (Pré-visualização)](paginated-reports-report-builder-power-bi.md) 
+[O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md) 
 
   
   

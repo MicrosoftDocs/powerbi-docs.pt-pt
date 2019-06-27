@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051166"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809260"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implementar um gateway de dados para o Power BI
 
@@ -42,7 +42,7 @@ Há uma restrição no **Power BI** que permite apenas *um* gateway por *relató
 ### <a name="connection-type"></a>Tipo de ligação
 O **Power BI** oferece dois tipos de ligações: **DirectQuery** e **Importação**. Nem todas as origens de dados suportam os dois tipos de ligação e muitos motivos podem contribuir para escolher um em detrimento de outros, tais como requisitos de segurança, desempenho, limites de dados e tamanhos de modelos de dados. Pode saber mais sobre o tipo de ligação e as origens de dados suportadas na secção *lista de tipos de origens de dados disponíveis* do [artigo sobre o gateway de dados no local](service-gateway-onprem.md).
 
-Dependendo de qual tipo de ligação é usado, utilização do gateway pode ser diferente. Por exemplo, deve utilizar origens de dados **DirectQuery** diferentes das origens de dados **Atualização Agendada** sempre que possível (partindo do princípio de que estão em relatórios diferentes e podem ser separadas). Isso impede que o gateway tenha milhares de **DirectQuery** pedidos em fila, ao mesmo tempo que a atualização agendada da manhã de um modelo de dados de tamanho grande que é utilizado para o dashboard principal da empresa. Eis o que considerar para cada:
+A utilização do gateway pode variar consoante o tipo de ligação utilizada. Por exemplo, deve utilizar origens de dados **DirectQuery** diferentes das origens de dados **Atualização Agendada** sempre que possível (partindo do princípio de que estão em relatórios diferentes e podem ser separadas). Deste modo, impede que o gateway tenha milhares de pedidos **DirectQuery** em fila ao mesmo tempo que a atualização agendada da manhã de um modelo de dados de grande dimensão utilizado para o dashboard principal da empresa. Eis o que considerar para cada:
 
 * Para **Atualização Agendada**: consoante o tamanho da consulta e o número de atualizações que ocorrem por dia, pode optar por manter os requisitos mínimos de hardware recomendados ou atualizar para um computador de desempenho superior. Se uma determinada consulta não for integrada, as transformações ocorrem no computador do gateway e, como tal, o computador do gateway beneficia de um maior número de RAM disponível.
 * Para o **DirectQuery**: deve ser enviada uma consulta sempre que qualquer utilizador abrir o relatório ou analisar os dados. Por isso, se prever que um número superior a 1000 utilizadores vai aceder os dados em simultâneo, pode ser útil certificar-se de que o seu computador em componentes de hardware robustas e capazes. Um maior número de núcleos de CPU irá resultar num melhor débito de uma ligação **DirectQuery**.
@@ -104,14 +104,34 @@ O gateway cria uma ligação de saída para o **Barramento de Serviço do Azure*
 
 O gateway *não* requer portas de entrada. Todas as portas necessárias estão listadas na lista acima.
 
-Recomenda-se que coloque os endereços IP na lista branca, para a sua região de dados, na firewall. Pode transferir a lista de endereços IP, que estão indicadas na [lista de IP do Centro de Dados do Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Essa lista é atualizada semanalmente. O gateway comunica com o **Barramento de Serviço do Azure** utilizando o IP especificado, em conjunto com o nome de domínio completamente qualificado (FQDN). Se estiver a forçar o gateway para comunicar através de HTTPS, o gateway utiliza estritamente apenas FQDN e não ocorre qualquer comunicação com os endereços IP.
+Recomendamos que adicione os endereços IP a uma lista de permissões, para a sua região de dados, na firewall. Pode transferir a lista de endereços IP, que estão indicadas na [lista de IP do Centro de Dados do Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Essa lista é atualizada semanalmente. O gateway comunica com o **Barramento de Serviço do Azure** utilizando o IP especificado, em conjunto com o nome de domínio completamente qualificado (FQDN). Se estiver a forçar o gateway para comunicar através de HTTPS, o gateway utiliza estritamente apenas FQDN e não ocorre qualquer comunicação com os endereços IP.
 
-#### <a name="forcing-https-communication-with-azure-service-bus"></a>Forçar a comunicação HTTPS com o Barramento de Serviço do Azure
-Pode forçar o gateway a comunicar com o **Barramento de Serviço do Azure** utilizando HTTPS, em vez de TCP direto. Se o fizer, o desempenho diminui ligeiramente. Pode também forçar o gateway a comunicar com o **Barramento de Serviço do Azure** através de HTTPS utilizando a interface de utilizador do gateway (que terá início a março de 2017 com o lançamento do gateway).
+#### <a name="forcing-https-communication-with-azure-service-bus"></a>Forçar a comunicação HTTPS com o Azure Service Bus
 
-Para tal, no gateway selecione **rede**, em seguida, ativar o **modo de conectividade do Service Bus do Azure** **no**.
+Pode forçar o gateway a comunicar com o Azure Service Bus através de HTTPS, em vez de TCP direto.
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> A partir da versão de junho de 2019, as novas instalações (e não atualizações) passam a utilizar por predefinição o protocolo HTTPS em vez de TCP, com base nas recomendações do Azure Service Bus.
+
+Para forçar a comunicação através de HTTPS, modifique o ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* ao alterar o valor de `AutoDetect` para `Https`, conforme mostrado no fragmento de código logo a seguir a este parágrafo. Este ficheiro está localizado, por predefinição, em *C:\Programas\Gateway de dados no local*.
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+O valor do parâmetro *ServiceBusSystemConnectivityModeString* é sensível a maiúsculas e minúsculas. Os valores válidos são *AutoDetect* e *Https*.
+
+Em alternativa, pode forçar o gateway a adotar este comportamento ao utilizar a interface de utilizador do gateway. Na interface de utilizador do gateway, selecione **Rede**e mude o **modo de conectividade Azure Service Bus** para **Ativado**.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+Depois da alteração, quando selecionar **Aplicar** (um botão que surge apenas depois de efetuar alterações), o *serviço Windows de gateway* reinicia automaticamente, para que a alteração entre em vigor.
+
+Futuramente, poderá reiniciar o *serviço Windows de gateway* da caixa de diálogo da interface de utilizador ao selecionar **Definições de Serviço** e, em seguida, selecionar *Reiniciar Agora*.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>Orientações adicionais
 Esta secção fornece orientação adicional para implementação e gestão de gateways.

@@ -1,5 +1,5 @@
 ---
-title: Criar parâmetros para relatórios paginados no serviço Power BI (Pré-visualização)
+title: Criar parâmetros para relatórios paginados no serviço Power BI
 description: Neste artigo, vai aprender a criar parâmetros para relatórios paginados no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987709"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838992"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Criar parâmetros para relatórios paginados no serviço Power BI (Pré-visualização)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço Power BI
 
 Neste artigo, vai aprender a criar parâmetros para relatórios paginados no serviço Power BI.  Um parâmetro de relatório proporciona uma forma de escolher os dados do relatório e de variar a apresentação do relatório. Pode indicar um valor padrão e uma lista de valores disponíveis e os leitores do seu relatório podem alterar a seleção.  
 
-A ilustração seguinte mostra o modo de exibição Design no Power BI Report Builder para um relatório com os parâmetros @BuyingGroup, @Customer, @FromDate, e @ToDate. 
+A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI para um relatório com os parâmetros @BuyingGroup, @Customer, @FromDate e @ToDate. 
   
 ![Parâmetros no Report Builder](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ A ilustração seguinte mostra o modo de exibição Design no Power BI Report Bu
   
 ## <a name="create-or-edit-a-report-parameter"></a>Criar ou editar um parâmetro de relatório  
   
-1.  Abra o relatório paginado no Power BI Report Builder.
+1.  Abra o relatório paginado no Report Builder do Power BI.
 
 1. No painel **Dados do Relatório**, clique com o botão direito do rato no nó **Parâmetros** > **Adicionar Parâmetro**. A caixa de diálogo **Propriedades do Parâmetro de Relatório** é apresentada.  
   
@@ -67,4 +67,4 @@ A ilustração seguinte mostra o modo de exibição Design no Power BI Report Bu
 
 Veja [Ver parâmetros dos relatórios paginados](paginated-reports-view-parameters.md) para ver o aspeto dos parâmetros no serviço Power BI.
 
-Para obter informações aprofundadas sobre os parâmetros dos relatórios paginados, veja o artigo [Parâmetros de Relatório (Report Builder e Report Designer)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer) na documentação do SQL Server Reporting Services  
+Para obter informações aprofundadas sobre parâmetros em relatórios paginados, veja [Report parameters in Power BI Report Builder](report-builder-parameters.md) (Parâmetros de relatórios no Report Builder do Power BI).

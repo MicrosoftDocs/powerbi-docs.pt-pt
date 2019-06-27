@@ -1,21 +1,21 @@
 ---
 title: Atualização incremental no Power BI Premium
 description: Saiba como utilizar conjuntos de dados muito grandes no serviço Power BI Premium.
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536148"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408571"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Atualização incremental no Power BI Premium
 
@@ -41,7 +41,7 @@ Os conjuntos de dados grandes com potencialmente milhares de milhões de linhas 
 
 #### <a name="rangestart-and-rangeend-parameters"></a>Parâmetros RangeStart e RangeEnd
 
-Para a atualização incremental, os conjuntos de dados são filtrados ao utilizar os parâmetros de data/hora do Power Query com os nomes **RangeStart** e **RangeEnd** reservados e sensíveis às maiúsculas e minúsculas. Estes parâmetros são utilizados para filtrar os dados importados para o Power BI Desktop, bem como para particionar de forma dinâmica os dados em intervalos assim que forem publicados no serviço Power BI. Os valores do parâmetro são substituídos pelo serviço para filtrar por cada partição. Uma vez publicados, os valores de parâmetro são substituídos automaticamente pelo serviço Power BI. Não precisa de os definir nas definições dos conjuntos de dados no serviço. Uma vez publicados, os valores de parâmetro são substituídos automaticamente pelo serviço Power BI. 
+Para a atualização incremental, os conjuntos de dados são filtrados ao utilizar os parâmetros de data/hora do Power Query com os nomes **RangeStart** e **RangeEnd** reservados e sensíveis às maiúsculas e minúsculas. Estes parâmetros são utilizados para filtrar os dados importados para o Power BI Desktop, bem como para particionar de forma dinâmica os dados em intervalos assim que forem publicados no serviço Power BI. Os valores do parâmetro são substituídos pelo serviço para filtrar por cada partição. Não precisa de os definir nas definições dos conjuntos de dados no serviço. Uma vez publicados, os valores de parâmetro são substituídos automaticamente pelo serviço Power BI.
 
 Para definir os parâmetros com valores predefinidos, no Editor do Power Query, selecione **Gerir Parâmetros**.
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>Limitações
 
-Atualmente, para [modelos compostos](desktop-composite-models.md), a atualização incremental é suportada para o SQL, Oracle, e origens de dados de Teradata apenas.
+Atualmente, para [modelos compostos](desktop-composite-models.md), a atualização incremental apenas é suportada em origens de dados do SQL, Oracle e Teradata.

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174988"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809273"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 
@@ -146,7 +146,7 @@ Por fim, na máquina a executar o serviço de gateway (**PBIEgwTestGW** no nosso
 
     Clique com o botão direito do rato e abra as **Propriedades**. Verifique a lista de contas. Tem de incluir a conta do serviço de gateway (**PBIEgwTest\GatewaySvc**).
 
-1. Em **Atribuição de Direitos de Utilizadores**, na lista de políticas, selecione **Atuar como parte do sistema operativo (SeTcbPrivilege)**. Certifique-se de que a conta do serviço de gateway também está incluída na lista de contas.
+1. Em **Atribuição de Direitos de Utilizadores**, na lista de políticas, selecione **Atuar como parte do sistema operativo (SeTcbPrivilege)** . Certifique-se de que a conta do serviço de gateway também está incluída na lista de contas.
 
 1. Reinicie o processo do serviço de **Gateway de dados no local**.
 
@@ -195,9 +195,7 @@ Este guia tenta ser tão abrangente quanto possível. Se já tiver concluído al
 ### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>Configurar a biblioteca gsskrb5 nos computadores cliente e no servidor do SAP BW
 
 > [!NOTE]
-> A biblioteca `gsskrb5` deixou de ser suportada ativamente pelo SAP. Para obter mais informações, veja [SAP Note 352295](https://launchpad.support.sap.com/#/notes/352295) (Nota SAP 352295). Além disso, tenha em atenção que a biblioteca `gsskrb5` não permite ligações SSO do gateway de dados a Servidores de Mensagens do SAP BW. Apenas são possíveis ligações para Servidores Aplicacionais do SAP BW.
-
-A biblioteca `gsskrb5` tem de ser utilizada pelo cliente e pelo servidor para estabelecer uma ligação SSO através do gateway. A Common Crypto Library (sapcrypto) não é suportada atualmente.
+> A biblioteca `gsskrb5` deixou de ser suportada ativamente pelo SAP. Para obter mais informações, veja [SAP Note 352295](https://launchpad.support.sap.com/#/notes/352295) (Nota SAP 352295). Além disso, tenha em atenção que a biblioteca `gsskrb5` não permite ligações SSO do gateway de dados a Servidores de Mensagens do SAP BW. Apenas são possíveis ligações para Servidores Aplicacionais do SAP BW. A biblioteca `gsskrb5` tem de ser utilizada pelo cliente e pelo servidor para estabelecer uma ligação SSO através do gateway. A Common Crypto Library (sapcrypto) para SAP BW é agora suportada.
 
 1. Transfira a biblioteca `gsskrb5` - `gx64krb5` de [SAP Note 2115486](https://launchpad.support.sap.com/) (necessário um utilizador S do SAP). Garanta que tem, pelo menos, a versão 1.0.11 do gsskrb5.dll e do gx64krb5.dll.
 
@@ -243,7 +241,7 @@ Além da configuração do gateway que efetuou, existem mais alguns passos adici
         | --- | --- |
         | snc/data\_protection/max | 3 |
         | snc/data\_protection/min | 1 |
-        | snc/data\_protection/use | 09 |
+        | snc/data\_protection/use | 9 |
         | snc/accept\_insecure\_cpic | 1 |
         | snc/accept\_insecure\_gui | 1 |
         | snc/accept\_insecure\_r3int\_rfc | 1 |
@@ -398,7 +396,7 @@ O resultado é que o gateway não consegue representar o utilizador de origem co
 
 Para obter mais informações sobre o **Gateway de dados no local** e o **DirectQuery**, consulte os seguintes recursos:
 
-* [Gateway de dados no local](service-gateway-onprem.md)
+* [On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)

@@ -1,7 +1,7 @@
 ---
 title: Registo de alterações para o Power BI Report Server
 description: Este registo de alterações destina-se ao Power BI Report Server e lista novos itens, juntamente com correções de erros para cada compilação lançada.
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990609"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751125"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -25,31 +25,31 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 ## <a name="may-2019"></a>Maio de 2019
 
 - **Power BI Report Server**          
-    - *Versão 1.5.7074.36177 (compilação 15.0.1102.371), lançada: 21 de Maio de 2019*
+    - *Versão 1.5.7074.36177 (Compilação 15.0.1102.371), lançada a 21 de maio de 2019*
         - Correções de Erros
             - Relatórios Paginados
-                - Correção para sempre habilitar a incorporação de tipo de letra do pdf.
-                - Correção para definir cookies enviados através de https como seguro
-                - Corrigir problemas com o pop ups devido a erros de script
-                - Correção para problemas de exibição com a aplicação móvel em telemóveis Android
-                - Correção para o navegador de tempo de relatório móvel mostrar os números corretos da semana, independentemente do início do Ano Fiscal
-                - Tipos de mime adicionado "RestrictedResourceMimeTypeForUpload' propriedade configurável para especificar que os administradores banida
+                - Correção para permitir sempre a incorporação de tipo de letra de PDF.
+                - Correção para definir os cookies enviados por HTTPS como Seguros
+                - Correção de problemas com pop-ups devido a erros de script
+                - Correção de erros de apresentação da Aplicação Móvel em telemóveis Android
+                - Correção para que o Navegador de Tempo de Relatórios Móveis mostre os números da semana corretos, independentemente do início do Ano fiscal
+                - Foi adicionada a propriedade configurável "RestrictedResourceMimeTypeForUpload" para administradores especificarem tipos de MIME banidos
          - Funcionalidades
-            - Adicionando suporte para elementos visuais fidedigna ao PBIRS
+            - Adição de suporte de Elementos Visuais Fidedignos para PBIRS
 
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
-    - *Versão: 2.69.5467.1801 (Maio de 2019), lançada: 21 de Maio de 2019*
+    - *Versão: 2.69.5467.1801 (maio de 2019), lançada a 21 de maio de 2019*
         - Correções de erros
-            - Correção para evitar a reintrodução das credenciais durante o carregamento PBIX para PBIRS
-            - Correções de abrir documentos com n. º no nome de ficheiro
-            - Foi adicionada ligação mais fácil para navegação regressiva na janela de seleção de PBIRS
-            - Correção para modo de alto contraste no PBIRS para apresentar o botão voltar, Mostrar visual mensagens de aviso.
-            - Correções de interface do Usuário ao painel de seleção, baseadas em telas de dimensionamento.
+            - Correção para evitar a reintrodução de credenciais durante o carregamento de ficheiros PBIX para o PBIRS
+            - Correções na abertura de documentos com # no nome de ficheiro
+            - Adição de uma ligação para retroceder mais facilmente na Janela de seleção do PBIRS
+            - Correção do modo Alto Contraste no PBIRS para apresentar o botão Anterior e mostrar mensagens visuais de aviso.
+            - Correções da IU do painel Seleção, dimensionamento da tela.
 
 ## <a name="january-2019"></a>Janeiro de 2019
 
 - **Power BI Report Server**          
-    - *Versão 1.4.7024.16477 (compilação 15.0.1102.299), lançada: 28 de Março de 2019*
+    - *Versão 1.4.7024.16477 (Compilação 15.0.1102.299), lançada a 28 de março de 2019*
         - Correções de Erros
             - Relatórios do Power BI
                 - Correção de um problema com as credenciais básicas ao utilizar o DirectQuery para SAP Hana e SAP BW

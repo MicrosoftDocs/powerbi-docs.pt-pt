@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354145"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823419"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 
@@ -215,7 +215,7 @@ Estes são os passos para começar a configurar a funcionalidade CustomData() co
 
 7. Utilize as APIs Power BI para utilizar a funcionalidade CustomData na aplicação.  Ao gerar um token com a funcionalidade CustomData, precisa de ter um nome de utilizador. O nome de utilizador tem de ser igual ao UPN do utilizador principal. O utilizador principal tem de ser membro das funções que criou. Se não for especificada nenhuma função, serão utilizadas para a avaliação da RLS todas as funções das quais o utilizador principal é membro.
 
-    Ao trabalhar com um [principal de serviço](embed-service-principal.md), também precisa de realizar os passos acima em vez de utilizar uma conta principal. Ao gerar um token de incorporação, utilize o [ID de objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id) como o nome de utilizador.
+    Ao trabalhar com um [principal de serviço](embed-service-principal.md), também precisa de seguir os passos acima em vez de utilizar uma conta principal. Utilize o [ID de objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id) como nome de utilizador quando gerar o token de incorporação.
 
     > [!Note]
     > Quando estiver pronto para implementar a aplicação para produção, a opção ou o campo da conta do utilizador principal não deve estar visível para o utilizador final.
@@ -310,7 +310,7 @@ O valor fornecido no blob de identidade deve ser um token de acesso válido para
 
    ![Registo de aplicações](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Gateway de dados no local com o principal de serviço (Pré-visualização)
+## <a name="on-premises-data-gateway-with-service-principal"></a>Gateway de dados no local com o principal de serviço
 
 Os clientes que configuram a segurança ao nível da linha (RLS) através de uma origem de dados dinâmica no local do SQL Server Analysis Services (SSAS) podem usufruir da nova capacidade do [principal de serviço](embed-service-principal.md) para gerir os utilizadores e o respetivo acesso a dados no SSAS ao integrar com o **Power BI Embedded**.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234529"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809132"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes da Administração Pública dos EUA
 O **serviço Power BI** tem uma versão disponível para clientes da Administração Pública dos EUA como parte das subscrições do **Office 365 US Government Community**. A versão do **serviço Power BI** abordada neste artigo foi concebida especificamente para clientes da Administração Pública dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
@@ -41,7 +41,7 @@ As seguintes funcionalidades estão disponíveis para clientes do **Power BI par
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Conectividade entre os serviços Cloud do Azure global e de Administração Pública 
 
-O Azure é distribuído entre várias clouds. Por predefinição, os inquilinos podem abrir as regras de firewall para uma instância específica da cloud, mas a rede entre clouds é diferente e requer a abertura de regras de firewall específicas para comunicar entre os serviços. Se for um cliente do Power BI e tiver instâncias do SQL Server existentes na cloud pública que precisa de acesso, tem de abrir regras específicas de firewall no SQL para o espaço de IP da Cloud do Azure Government, para os datacenters seguintes:
+O Azure é distribuído entre várias clouds. Por predefinição, os inquilinos podem abrir as regras de firewall de uma instância específica da cloud, mas a rede entre clouds é diferente e exige a abertura de regras de firewall específicas para comunicar entre os serviços. Se for um cliente do Power BI e tiver instâncias do SQL Server existentes na cloud pública que precisa de acesso, tem de abrir regras específicas de firewall no SQL para o espaço de IP da Cloud do Azure Government, para os datacenters seguintes:
 
 * USGov Iowa
 * USGov Virginia
