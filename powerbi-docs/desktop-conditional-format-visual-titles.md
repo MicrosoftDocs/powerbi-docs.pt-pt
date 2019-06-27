@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b90ef66d2c118a70f1b18ed4fe302ce1db23e45c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769755"
@@ -57,7 +57,7 @@ Depois de criar a expressão DAX para o campo que criar no seu modelo, precisa p
 
 Selecione o campo e aplicá-lo, vá para o **visualizações** painel. Na **formato** área, selecione **Title** para mostrar as opções de título para o elemento visual. 
 
-Quando com o botão direito **texto do título**, é apresentado um menu de contexto que permite-lhe selecionar ***fx * a formatação condicional**. Quando seleciona esse item de menu, um **texto do título** é apresentada a caixa de diálogo. 
+Quando com o botão direito **texto do título**, é apresentado um menu de contexto que permite-lhe selecionar ***fx* a formatação condicional**. Quando seleciona esse item de menu, um **texto do título** é apresentada a caixa de diálogo. 
 
 ![Caixa de diálogo de texto de captura de ecrã do título](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

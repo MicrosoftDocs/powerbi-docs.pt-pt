@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65941450"
@@ -86,7 +86,7 @@ Nas versões do Power BI Desktop anteriores ao lançamento de julho de 2018, os
   * Uma tabela com base numa consulta definida no Editor de Consultas, que podia apresentar os IDs exclusivos desenhados a partir de uma das tabelas.
   * O conjunto completo combinado.
 
-* Relacionar as duas tabelas originais com essa nova tabela, através de relações **Muitos para 1* comuns.
+* Relacionar as duas tabelas originais com essa nova tabela, através de relações *Muitos para 1* comuns.
 
 Podia deixar a tabela alternativa visível ou ocultá-la para não aparecer na lista **Campos**. Se ocultasse a tabela, as relações *Muitos para 1* seriam normalmente definidas para filtrar em ambas as direções e podia utilizar o campo *Estado* a partir de qualquer tabela. A filtragem cruzada subsequente seria propagada para a outra tabela. Essa abordagem é mostrada na imagem seguinte:
 
