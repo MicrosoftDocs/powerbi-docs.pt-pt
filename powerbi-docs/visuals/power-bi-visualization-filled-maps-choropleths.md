@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839753"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299406"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas de manchas (coropletos) no Power BI
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
@@ -70,10 +70,10 @@ Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
 1. No painel Campos, selecione o campo **Geo** \> **Estado**.    
 
    ![Marca de verificação amarela junto a State](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [Converta o gráfico](power-bi-report-change-visualization-type.md) num mapa de manchas. Repare que o **Estado** está, agora, no grupo **Local**. O Bing Maps usa o campo no grupo **Local** para criar o mapa.  O local pode ser uma variedade de locais válidos: países, estados, condados, cidades, CEPs ou outros códigos postais, etc. O Bing Maps fornece formas de mapa de manchas para locais em todo o mundo. Sem uma entrada válida no painel Localização, o Power BI não pode criar o mapa de manchas.  
+2. [Converta o gráfico](power-bi-report-change-visualization-type.md) num mapa de manchas. Repare que o **Estado** está, agora, no grupo **Local**. O Bing Maps usa o campo no grupo **Local** para criar o mapa.  O local pode ser uma variedade de locais válidos: países, estados, condados, cidades, CEPs ou outros códigos postais, etc. O Bing Maps fornece formas de mapa de manchas para locais em todo o mundo. Sem uma entrada válida no painel Localização, o Power BI não pode criar o mapa de manchas.  
 
    ![Modelos com o ícone de mapa de manchas realçado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. Filtre o mapa para apresentar apenas os Estados Unidos.
+3. Filtre o mapa para apresentar apenas os Estados Unidos.
 
    a.  Na parte inferior do painel Visualizações, procure a área **Filtros** .
 
@@ -83,21 +83,24 @@ Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
    c.  Coloque uma marca de verificação junto a **Todos** e remova a marca de verificação junto a **AK**.
 
    ![Menu pendente State com as opções Tudo e AK não selecionadas](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. Selecione **SalesFact** \>  **Sentimento** para adicioná-lo ao painel **Saturação da cor**. O campo no painel **Valores** controla o sombreado do mapa.  
-   ![Opção Sentiment no campo Saturação da Cor](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. O mapa de manchas é sombreado a verde e vermelho, com o vermelho a representar os números de sentimento inferiores e o verde a representar o sentimento superior mais positivo.  Aqui, destacamos o estado de Wyoming (WY) e vemos que o Sentimento é muito bom, 74.  
-   ![Caixa de diálogo preta a mostrar as informações State e Sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [Guarde o relatório](../service-report-save.md).
-##    <a name="adjust-the-color-formatting"></a>Ajustar a formatação da cor
-O Power BI oferece muito controlo sobre o aspeto do seu mapa de manchas.
-1. Selecione o ícone de rolo de tinta para abrir o painel Formatação.
+4. Selecione o ícone de rolo de tinta para abrir o painel Formatação e selecione **Cores de dados**.
 
-    ![Painel de formatação](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![Painel de formatação que mostra a opção de Cores de dados](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. Selecione **Cores de dados** para apresentar as opções de cor.
-3. Defina as cores Mínima e Máxima para amarelo e azul. Adicione também os valores Mínima e Máxima, com base nos seus dados. Experimente estes controlos até obter o aspeto pretendido. 
+5. Selecione o ícone de três pontos verticais e selecione **Formatação condicional**.
 
-    ![cores não divergentes](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![Botão de formatação condicional de cores de dados](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. Utilize o ecrã **Cor predefinida - Cores de dados** para determinar como é que o mapa de manchas será sombreado. As opções disponíveis incluem o campo no qual o sombreado se irá basear e como o aplicar. Neste exemplo, estamos a utilizar o campo **Sentimento** > **SalesFact** e a definir o valor mais baixo como vermelho e o valor mais alto como verde. Os valores que ficarem entre o número máximo e o mínimo terão tons de vermelho e verde. A ilustração na parte inferior do ecrã mostra a variedade de cores que vai ser utilizada. 
+
+    ![Painel de cor padrão com o Sentimento selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. O mapa de manchas é sombreado a verde e vermelho, com o vermelho a representar os números de sentimento inferiores e o verde a representar o sentimento superior mais positivo.  Para apresentar detalhes adicionais, arraste um campo para a zona das Descrições.  Aqui, adicionei o **Intervalo de Sentimento** e destaquei o estado de Idaho (ID). Podemos ver que o intervalo de sentimento é baixo (6).
+   ![mapa de manchas que mostra as descrições de Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [Guarde o relatório](../service-report-save.md).
+
+O Power BI permite controlar praticamente todo o aspeto do mapa de manchas. Experimente estes controlos de cores de dados até obter o aspeto desejado. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
 Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).

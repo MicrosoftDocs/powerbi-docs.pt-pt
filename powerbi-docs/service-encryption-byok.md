@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7adcfeec771796aa9fe322512f8ca8584559cea0
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66829394"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264472"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI (pré-visualização)
 
@@ -27,18 +27,17 @@ O BYOK torna mais fácil de cumprir os requisitos de conformidade que especifica
 
 ## <a name="data-source-and-storage-considerations"></a>Considerações sobre a origem e o armazenamento de dados
 
-Para utilizar o BYOK, tem de carregar os dados para o serviço Power BI a partir de um ficheiro do Power BI Desktop (PBIX). Ao estabelecer ligação a origens de dados no Power BI Desktop, tem de especificar um modo de armazenamento de Importação. Não pode utilizar o BYOK nos seguintes cenários:
+Para utilizar o BYOK, tem de carregar os dados para o serviço Power BI a partir de um ficheiro do Power BI Desktop (PBIX). Não pode utilizar o BYOK nos seguintes cenários:
 
-- DirectQuery
 - Ligação em Direto do Analysis Services
 - Livros do Excel (a menos que os dados sejam importados primeiro para o Power BI Desktop)
 - Conjuntos de dados push
 
-Na secção seguinte, irá aprender a configurar o Azure Key Vault, que é o local onde vai armazenar as chaves de encriptação para o BYOK.
+O BYOK aplica-se apenas ao conjunto de dados associado ao ficheiro PBIX, não às caches de resultado da consulta para mosaicos e elementos visuais.
 
 ## <a name="configure-azure-key-vault"></a>Configurar o Azure Key Vault
 
-O Azure Key Vault é uma ferramenta concebida para armazenar e aceder a segredos de forma segura, tais como chaves de encriptação. Pode utilizar um cofre de chaves existente para armazenar chaves de encriptação ou pode criar um novo para ser utilizado especificamente com o Power BI.
+Nesta secção, aprende a configurar o Azure Key Vault, uma ferramenta concebida para armazenar e aceder a segredos de forma segura, tais como chaves de encriptação. Pode utilizar um cofre de chaves existente para armazenar chaves de encriptação ou pode criar um novo para ser utilizado especificamente com o Power BI.
 
 As instruções nesta secção pressupõem que detém conhecimentos básicos sobre o Azure Key Vault. Para obter mais informações, veja [O que é o Azure Key Vault?](/azure/key-vault/key-vault-whatis) Configure o seu cofre de chaves da seguinte forma:
 
@@ -86,7 +85,7 @@ Com o Azure Key Vault devidamente configurado, estará pronto para ativar o BYOK
 
 ## <a name="enable-byok-on-your-tenant"></a>Ativar o BYOK no seu inquilino
 
-Para ativar o BYOK ao nível do inquilino com o PowerShell, primeiro introduza as chaves de encriptação que criou e armazenou no Azure Key Vault no seu inquilino do Power BI. Em seguida, atribua estas chaves de encriptação por capacidade Premium para encriptar conteúdos na capacidade.
+Para ativar o BYOK ao nível do inquilino com o [PowerShell](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt.Admin), primeiro introduza as chaves de encriptação que criou e armazenou no Azure Key Vault no seu inquilino do Power BI. Em seguida, atribua estas chaves de encriptação por capacidade Premium para encriptar conteúdos na capacidade.
 
 ### <a name="important-considerations"></a>Considerações importantes
 
@@ -98,35 +97,39 @@ Antes de ativar o BYOK, tenha as seguintes considerações em conta:
 
 ### <a name="enable-byok"></a>Ativar o BYOK
 
-Para ativar o BYOK, tem de ser um administrador inquilino do serviço Power BI e de ter sessão iniciada com o cmdlet `Connect-PowerBIServiceAccount`. Em seguida, utilize `Add-PowerBIEncryptionKey` para ativar o BYOK, conforme ilustrado no seguinte exemplo:
+Para ativar o BYOK, tem de ser um administrador inquilino do serviço Power BI e de ter sessão iniciada com o cmdlet `Connect-PowerBIServiceAccount`. Em seguida, utilize [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) para ativar o BYOK, conforme ilustrado no seguinte exemplo:
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-O cmdlet aceita três parâmetros opcionais que afetam a encriptação das atuais e de futuras capacidades. Por predefinição, nenhum dos parâmetros opcionais é definido:
+O cmdlet aceita dois parâmetros opcionais que afetam a encriptação das atuais e futuras capacidades. Por predefinição, nenhum dos parâmetros opcionais é definido:
 
 - `-Activate`: indica que esta chave será utilizada para todas as capacidades existentes no inquilino.
 
 - `-Default`: indica que esta chave é a atual predefinição em todo o inquilino. Quando criar uma nova capacidade, a mesma irá herdar esta chave.
 
-- `-DefaultAndActivate`: indica que esta chave será utilizada para todas as capacidades existentes e todas as novas capacidades que criar.
+Se especificar os parâmetros `-Default`, todas as capacidades criadas neste inquilino a partir deste ponto serão encriptadas com a chave que especificar (ou uma chave atualizada predefinida). Não pode anular a operação predefinida, pelo que deixará de conseguir criar uma capacidade Premium que não utilize o BYOK no seu inquilino.
 
-Se especificar os parâmetros `-Default` ou `-DefaultAndActivate`, todas as capacidades criadas neste inquilino a partir deste ponto serão encriptadas com a chave que especificar (ou uma chave atualizada predefinida). Não pode anular a operação predefinida, pelo que deixará de conseguir criar uma capacidade Premium que não utilize o BYOK no seu inquilino.
-
-Pode controlar a forma como utiliza o BYOK no seu inquilino. Por exemplo, para encriptar uma única capacidade, chame o cmdlet `Add-PowerBIEncryptionKey` sem o parâmetro `-Activate`, `-Default` ou `-DefaultAndActivate`. Em seguida, chame o cmdlet `Set-PowerBICapacityEncryptionKey` para a capacidade onde pretende ativar o BYOK.
+Pode controlar a forma como utiliza o BYOK no seu inquilino. Por exemplo, para encriptar uma única capacidade, chame o cmdlet `Add-PowerBIEncryptionKey` sem o parâmetro `-Activate` ou `-Default`. Em seguida, chame o cmdlet `Set-PowerBICapacityEncryptionKey` para a capacidade onde pretende ativar o BYOK.
 
 ## <a name="manage-byok"></a>Gerir o BYOK
 
 O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inquilino:
 
-- Utilize `Get-PowerBIEncryptionKey` para obter a chave que o seu inquilino está a utilizar atualmente:
+- Utilize [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity) para obter a chave que a capacidade está a utilizar atualmente:
+
+    ```powershell
+    Get-PowerBICapacity -Scope Organization -ShowEncryptionKey
+    ```
+
+- Utilize [`Get-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiencryptionkey) para obter a chave que o seu inquilino está a utilizar atualmente:
 
     ```powershell
     Get-PowerBIEncryptionKey
     ```
 
-- Utilize `Get-PowerBIWorkspaceEncryptionStatus` para ver quais são os conjuntos de dados numa área de trabalho que estão encriptados e se o respetivo estado de encriptação está sincronizado com a área de trabalho:
+- Utilize [`Get-PowerBIWorkspaceEncryptionStatus`](/powershell/module/microsoftpowerbimgmt.admin/get-powerbiworkspaceencryptionstatus) para ver quais são os conjuntos de dados numa área de trabalho que estão encriptados e se o respetivo estado de encriptação está sincronizado com a área de trabalho:
 
     ```powershell
     Get-PowerBIWorkspaceEncryptionStatus -Name'Contoso Sales'
@@ -134,13 +137,13 @@ O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inqui
 
     Tenha em atenção que a encriptação é ativada ao nível da capacidade, mas que irá obter o estado de encriptação ao nível do conjunto de dados para a área de trabalho especificada.
 
-- Utilize `Set-PowerBICapacityEncryptionKey` para atualizar a chave de encriptação da capacidade do Power BI:
+- Utilize [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para atualizar a chave de encriptação da capacidade do Power BI:
 
     ```powershell
     Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
     ```
 
-- Utilize `Use Switch-PowerBIEncryptionKey` para mudar (ou _rodar_) a versão da chave atualmente utilizada para fins de encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
+- Utilize [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para alternar (ou _rodar_) a versão da chave que está a ser utilizada para encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

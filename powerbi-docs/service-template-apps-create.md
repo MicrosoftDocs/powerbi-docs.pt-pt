@@ -1,22 +1,22 @@
 ---
-title: Criar aplicações de modelo no Power BI (pré-visualização)
+title: Criar aplicações de modelo no Power BI
 description: Como criar aplicações de modelo no Power BI que podem ser distribuídas para qualquer cliente do Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751182"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264540"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Criar uma aplicação de modelo no Power BI (pré-visualização)
+# <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
 As novas *aplicações de modelo* do Power BI permitem que os parceiros do mesmo criem aplicações do Power BI com pouco ou nenhum código e que as implementem para qualquer cliente do Power BI.  Este artigo contém instruções passo a passo para criar uma aplicação de modelo do Power BI.
 
@@ -31,20 +31,7 @@ Eis os requisitos para a criação de uma aplicação de modelo:
 - Uma [licença do Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Uma [instalação do Power BI Desktop](desktop-get-the-desktop.md) (opcional)
 - Conhecer os [conceitos básicos do Power BI](service-basic-concepts.md)
-- Permissões para criar uma aplicação de modelo. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings-preview) do Power BI para obter detalhes.
-
-## <a name="enable-app-developer-mode"></a>Ativar o modo de programador da aplicação
-
-Para criar uma aplicação de modelo que possa distribuir para outros inquilinos do Power BI, terá de estar no modo de Programador da Aplicação. Caso contrário, estará apenas a criar uma aplicação para consumidores do Power BI na sua própria organização.
-
-1. Abra o serviço Power BI num browser.
-2. Aceda a **Definições** > **Geral** > **Programador** > **Ativar o modo de desenvolvimento de aplicações de modelos**.
-
-    ![Ativar aplicações de modelo](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    Se não vir essa opção, contacte o seu administrador do Power BI para que lhe conceda [permissões para a programação de aplicações de modelo](service-admin-portal.md#template-apps-settings-preview) no portal de administração.
-
-3. Selecione **Aplicar**.
+- Permissões para partilhar uma aplicação de modelo publicamente. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
 ## <a name="create-the-template-app-workspace"></a>Criar a área de trabalho de aplicação de modelo
 
@@ -54,9 +41,9 @@ Para criar uma aplicação de modelo que possa distribuir para outros inquilinos
 
     ![Criar área de trabalho de aplicação](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Em **Criar uma área de trabalho de aplicação**, em **Pré-visualizar as áreas de trabalho melhoradas**, selecione **Experimente agora**.
+2. Em **Criar uma área de trabalho de aplicação**, selecione **Atualizar para nova**.
 
-    ![Experimentar novas áreas de trabalho](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![Experimentar novas áreas de trabalho](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. Introduza um nome, uma descrição (opcional) e uma imagem de logótipo (opcional) para a sua área de trabalho de aplicação.
 
@@ -70,13 +57,13 @@ Para criar uma aplicação de modelo que possa distribuir para outros inquilinos
 
 ## <a name="create-the-content-in-your-template-app"></a>Criar os conteúdos na sua aplicação de modelo
 
-Tal como acontece com uma área de trabalho de aplicação do Power BI normal, o próximo passo é criar os conteúdos na área de trabalho.  Nesta versão de pré-visualização das aplicações de modelo, suportamos apenas um conteúdo de cada tipo: um conjunto de dados, um relatório e um dashboard.
+Tal como acontece com uma área de trabalho de aplicação do Power BI normal, o próximo passo é criar os conteúdos na área de trabalho.  
 
 - [Crie os seus conteúdos do Power BI](power-bi-creator-landing.md) na sua área de trabalho de aplicação.
 
 Se estiver a utilizar parâmetros no Power Query, certifique-se de que define corretamente o tipo (por exemplo, Texto). Os tipos Qualquer e Binário não são suportados.
 
-O artigo [Tips for authoring template apps in Power BI (preview)](service-template-apps-tips.md) (Sugestões para a criação de aplicações de modelo no Power BI [pré-visualização]) apresenta sugestões a considerar ao criar relatórios e dashboards para a sua aplicação de modelo.
+O artigo [Tips for authoring template apps in Power BI](service-template-apps-tips.md) (Sugestões para a criação de aplicações de modelo no Power BI) apresenta sugestões a considerar ao criar relatórios e dashboards para a sua aplicação de modelo.
 
 ## <a name="create-the-test-template-app"></a>Criar a aplicação de modelo de teste
 
@@ -174,10 +161,10 @@ Vamos percorrer todas as fases:
 10. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel **Gestão de Versões** e selecione **Promover aplicação**. 
 
     ![Promover aplicação para pré-produção](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > Quando a aplicação é promovida, fica publicamente disponível fora da sua organização.
 
+    Se não vir essa opção, contacte o seu administrador do Power BI para que lhe conceda [permissões para a programação de aplicações de modelo](service-admin-portal.md#template-apps-settings) no portal de administração.
 11. Selecione **Promover** para confirmar a sua escolha.
 12. Copie este novo URL para partilhar fora do seu inquilino para fins de teste. Esta ligação é a mesma que irá submeter para iniciar o processo de distribuição da sua aplicação no AppSource ao criar uma [nova oferta do Cloud Partner Portal](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Submeta apenas ligações de pré-produção no Cloud Partner Portal. Só após a aplicação ser aprovada e receber uma notificação de que esta foi publicada no AppSource, poderá promover este pacote para produção no Power BI.
 13. Quando a aplicação está pronta para produção ou partilha através do AppSource, regresse ao painel **Gestão de Versões** e selecione **Promover aplicação** junto a **Pré-produção**.
@@ -188,25 +175,6 @@ Vamos percorrer todas as fases:
     ![Aplicação em produção](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Para disponibilizar a sua aplicação para milhares de utilizadores do Power BI em todo o mundo, recomendamos que a submeta no AppSource. Veja a [Oferta da aplicação Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) para obter detalhes.
-
-## <a name="update-your-app"></a>Atualizar a sua aplicação
-
-Agora que a aplicação está em produção, pode recomeçar a fase de teste sem interromper a aplicação em produção.
-
-1. No painel **Gestão de Versões**, selecione **Criar aplicação**.
-2. Repita o processo de criação de aplicações.
-3. Após definir as categorias **Personalização**, **Conteúdo**, **Controlo** e **Acesso**, selecione novamente **Criar aplicação**.
-4. Selecione **Fechar** e regresse ao painel **Gestão de Versões**.
-
-   Verá que agora tem duas versões: A versão em produção e uma nova versão em modo de teste.
-
-    ![Duas versões de uma aplicação de modelo](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel Gestão de Versões e selecione **Promover aplicação** junto a **Teste**.
-6. A sua ligação está agora ativada. Submeta-a novamente no Cloud Partner Portal ao seguir os passos em [Atualização da oferta da Aplicação Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-
->[!NOTE]
->Promova a sua aplicação para a fase de produção apenas após a sua aplicação ser aprovada pelo Cloud Partner Portal e após publicá-la.
 
 ## <a name="next-steps"></a>Próximos passos
 

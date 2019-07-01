@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838941"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345485"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
 
 Neste artigo, vai aprender a criar e a modificar uma origem de dados incorporada para um relatório paginado no serviço Power BI. Vai definir uma origem de dados incorporada num único relatório e utilizá-la apenas nesse relatório. Atualmente, os relatórios paginados publicados no serviço Power BI precisam de conjuntos de dados incorporados e origens de dados incorporadas e podem ligar-se a estas origens de dados:
 
-- Base de Dados SQL do Azure e Azure SQL Data Warehouse
+- Azure Analysis Services
+- Base de Dados SQL do Azure e 
+- Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ Neste artigo, vai aprender a criar e a modificar uma origem de dados incorporada
 
 Utilize a opção [Ligação do SQL Server Analysis Services](service-premium-connect-tools.md) para as seguintes origens de dados:
 
-- Azure Analysis Services
 - Conjuntos de dados do Power BI Premium
 
 Os relatórios paginados ligam-se às origens de dados no local através de um [gateway do Power BI](service-gateway-getting-started.md). Vai configurar o gateway depois de publicar o relatório no serviço Power BI.
@@ -66,6 +67,30 @@ Para obter informações mais detalhadas, veja [Dados de Relatórios no Report B
 5.  Selecione **OK**.  
   
      A origem de dados é apresentada no painel Dados do Relatório.  
+     
+## <a name="limitations-and-considerations"></a>Limitações e considerações
+
+Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seguem as regras para conjuntos de dados partilhados no Power BI, com algumas pequenas alterações.  Para que os utilizadores vejam corretamente os relatórios paginados que utilizam conjuntos de dados do Power BI, assim como para garantir que a segurança ao nível da linha (RLS) está ativada e é imposta para quem vir o seu relatório, certifique-se de que segue estas regras:
+
+### <a name="classic-apps-and-app-workspaces"></a>Aplicações clássicas e áreas de trabalho de aplicações
+
+- .rdl na mesma área de trabalho como conjunto de dados (mesmo proprietário): Suportado
+- .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
+- .rdl partilhado: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Aplicação partilhada: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- .rdl na mesma área de trabalho que o conjunto de dados (utilizador diferente): Suportado
+- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Segurança ao nível da função: precisa de permissões de complicação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta.
+
+### <a name="new-experience-apps-and-app-workspaces"></a>Aplicações de nova experiência e áreas de trabalho de aplicação
+
+- .rdl na mesma área de trabalho que o conjunto de dados: Suportado
+- .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
+- .rdl partilhado: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Aplicação partilhada: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- .rdl na mesma área de trabalho que o conjunto de dados (utilizador diferente) – suportado
+- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Segurança ao nível da função: precisa de permissões de complicação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
 
 ## <a name="next-steps"></a>Próximos passos
 

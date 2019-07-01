@@ -1,22 +1,22 @@
 ---
-title: Distribuir aplicações de modelo na sua organização – Power BI (pré-visualização)
+title: Distribuir aplicações de modelo na sua organização – Power BI
 description: Aprenda a instalar, personalizar e distribuir aplicações de modelo na sua organização com o Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751232"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264529"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Instalar e distribuir aplicações de modelo na sua organização – Power BI (pré-visualização)
+# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicações de modelo na sua organização – Power BI
 
 É um analista do Power BI? Se for, veja este artigo para aprender a instalar *aplicações de modelo* para ligar a muitos dos serviços que utiliza para gerir a sua empresa, nomeadamente o Salesforce, o Microsoft Dynamics e o Google Analytics. Pode modificar o dashboard e os relatórios para satisfazer as necessidades da sua organização e, em seguida, distribuí-los aos seus colegas como uma *aplicação*. 
 
@@ -55,14 +55,13 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
 
 3. Navegue ou procure a aplicação e, em seguida, selecione **Obter agora**.
 
-2. Na caixa de diálogo, selecione **Instalar**.
+4. Na caixa de diálogo, selecione **Instalar**.
 
-    Se tiver uma licença do Power BI Pro, a aplicação será instalada com a respetiva área de trabalho da aplicação. Irá personalizar a aplicação na área de trabalho associada.
+    ![Instalar aplicação](media/service-template-apps-install-distribute/power-install-dialog.png) Se tiver uma licença do Power BI Pro, a aplicação será instalada com a respetiva área de trabalho da aplicação. Irá personalizar a aplicação na área de trabalho associada.
 
-    Quando a instalação for concluída com êxito, será apresentada uma notificação a indicar que a sua nova aplicação está pronta. 
-
-3. Selecione **Ir para a aplicação**.
-4. Em **Comece já com a sua nova aplicação** , selecione uma das três opções:
+    Quando a instalação for concluída com êxito, será apresentada uma notificação a indicar que a sua nova aplicação está pronta.
+4. Selecione **Ir para a aplicação**.
+5. Em **Comece já com a sua nova aplicação** , selecione uma das três opções:
 
     ![Comece já com a sua aplicação](media/service-template-apps-create/power-bi-template-app-get-started.png)
 
@@ -70,13 +69,22 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
     - **Ligar dados**: altere a origem de dados dos dados de exemplo para a sua própria origem de dados. Pode redefinir os parâmetros do conjunto de dados e as credenciais da origem de dados. Veja a secção [Limitações conhecidas](service-template-apps-tips.md#known-limitations) no artigo de sugestões sobre as aplicações de modelo. 
     - **Ir para a área de trabalho** (opção mais avançada): pode fazer todas as alterações permitidas pelo criador da aplicação.
 
-    Em alternativa, ignore esta caixa de diálogo e aceda à área de trabalho diretamente através da opção **Áreas de trabalho** no painel de navegação esquerdo.   
+    Em alternativa, ignore esta caixa de diálogo e aceda à área de trabalho diretamente através da opção **Áreas de trabalho** no painel de navegação esquerdo.
+    >[!NOTE]
+    >Instalar uma aplicação de modelo instalada numa *aplicação organizacional* e numa *área de trabalho de aplicação*. Leia mais sobre a [distribuição de aplicações no Power BI](service-create-distribute-apps.md).
  
-5. Antes de partilhar a aplicação com os seus colegas, poderá querer ligar aos seus próprios dados. Também poderá querer modificar o relatório ou o dashboard de acordo com as necessidades da sua organização. Além disso, poderá adicionar outros relatórios ou dashboards neste passo.
+6. Antes de partilhar a aplicação com os seus colegas, poderá querer ligar aos seus próprios dados. Também poderá querer modificar o relatório ou o dashboard de acordo com as necessidades da sua organização. Além disso, poderá adicionar outros relatórios ou dashboards neste passo.
+
+   Se selecionar uma ligação de instalação para uma aplicação que não esteja listada no AppSource, obterá a caixa de diálogo de validação que lhe pede para confirmar a sua escolha.
+
+   ![Instalar a aplicação](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+
+   >[!NOTE]
+   >Para poder instalar aplicações de modelo que não estão listadas no AppSource, tem de pedir as permissões ao seu administrador. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
 ## <a name="update-and-distribute-the-app"></a>Atualizar e distribuir a aplicação
 
-Depois de atualizar a aplicação para a sua organização, estará tudo pronto para publicá-la. Os passos são os mesmos que segue para publicar outra aplicação. 
+Depois de atualizar a aplicação para a sua organização, estará tudo pronto para publicá-la. Os passos são os mesmos que segue para publicar outra aplicação.
 
 1. Quando concluir a personalização, na vista de lista da área de trabalho, selecione **Atualizar aplicação** no canto superior direito.  
 
@@ -106,6 +114,6 @@ Depois de atualizar a aplicação para a sua organização, estará tudo pronto 
 
 
 
-￼ 
+  
 
  
