@@ -8,118 +8,163 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051216"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389931"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizar títulos, legendas e fundos de visualização
-Neste tutorial, aprenderá várias formas de personalizar as visualizações.   Existem muitas opções para personalizar as visualizações. A melhor forma de obter informações sobre todas estas opções é explorar o painel de Formatação (selecione o ícone do rolo de tinta).  Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda e um fundo de visualização.  
 
-Nem todas as visualizações podem ser personalizadas; [veja a lista completa](#list).  
+Neste tutorial, vai aprender várias formas de personalizar as visualizações. Existem muitas opções para personalizar as visualizações. A melhor forma de saber mais sobre todas elas é explorar o painel **Formatação** (selecione o ícone de rolo de pintura). Para começar, este artigo mostra-lhe como pode personalizar um título, uma legenda e um fundo de visualização.
 
-Alavanque para 4:50 do vídeo para uma demonstração de como personalizar as visualizações. Em seguida, siga as instruções por baixo do vídeo para experimentar com os seus próprios dados.
+Não pode personalizar todas as visualizações. Veja a [lista completa](#visualization-types-that-you-can-customize) das visualizações para obter mais detalhes.
+
+Avance para o minuto 04:50 do vídeo para ver uma demonstração sobre como personalizar visualizações:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-### <a name="prerequisites"></a>Pré-requisitos
-- Serviço Power BI ou Power BI Desktop
-- Exemplo de Análise de Revenda
+Agora, siga as instruções abaixo para experimentar com os seus próprios dados.
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+- O serviço Power BI ou Power BI Desktop
+
+- Relatório de Exemplo de Análise de Revenda
 
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizar títulos de visualização em relatórios
-Para acompanhar, inicie sessão no serviço Power BI (app.powerbi.com) e [abra o relatório Exemplo de Análise de Revenda](../sample-datasets.md) na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
+
+Para acompanhar, inicie sessão no [serviço Power BI](https://app.powerbi.com) e abra o relatório [Exemplo de Análise de Revenda](../sample-datasets.md) na vista [Editar relatório](../service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
-> Ao afixar uma visualização num dashboard, ela se torna um mosaico do dashboard.  Os próprios mosaicos também podem ser personalizados com [novos títulos e subtítulos, assim como hiperligações, e podem ser redimensionados](../service-dashboard-edit-tile.md).
-> 
-> 
+> Ao afixar uma visualização num dashboard, ela se torna um mosaico do dashboard. Também pode personalizar os próprios mosaicos com [novos títulos e subtítulos, hiperligações e redimensionar os mesmos](../service-dashboard-edit-tile.md).
 
-1. Navegue até a página "Nossas Lojas" do relatório e selecione o gráfico de colunas "Abrir contagem de armazenamento por mês em aberto...".
-2. No painel Visualizações, selecione o ícone do rolo de tinta para apresentar as opções de formatação.  e selecione **Título** para expandir essa secção.  
+1. Aceda à página **Novas Lojas** do relatório **Exemplo de Análise de Revenda**.
 
-   ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
-3. Ative e desative o  **Título** selecionando o controlo deslizante Ativar (ou Desativar). Por enquanto, deixe em **Ativar**.  
+1. Selecione o gráfico de colunas agrupadas **Contagem de Lojas Abertas por Mês de Abertura e Cadeia**.
 
-   ![](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
-4. Altere o **Texto do Título** escrevendo **Contagem de armazenamento por mês em aberto** no campo de texto.  
-5. Altere a **Cor da origem** para cor de laranja e a **Cor do Plano de Fundo** para amarelo.
+1. No painel **Visualizações**, selecione o ícone de rolo de pintura para apresentar as opções de formatação.
 
-   * Selecione o menu suspenso e escolha uma cor em **Cores do Tema**, **Cores Recentes**ou **Cores Personalizadas**.
-   * Selecione o menu suspenso para fechar a janela de cores.  
-     ![](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
+1. Selecione **Título** para expandir essa secção.
 
-   Pode sempre voltar às cores predefinidas selecionando **Reverter para predefinido** na janela de cores.
-6. Aumente o tamanho do texto para 12.
-7. A última personalização que faremos no título do gráfico é alinhá-lo no centro da visualização. A posição do título por predefinição é alinhada à esquerda.  
-   ![](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
+   ![Captura de ecrã do painel Formatação com o ícone de rolo de pintura destacado e uma seta para a lista pendente Título.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-formatting-menu.png)
 
-    Nesta fase do tutorial, o gráfico de colunas **título** deverá ter um aspeto semelhante ao seguinte:  
-    ![](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
+1. Mova o controlo de deslize **Mosaico** para **Ativado**.
 
-    Para reverter toda a personalização de título que fizemos até agora, selecione **Reverter para Padrão**na parte inferior do painel de personalização **Título** .  
-    ![](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
+   ![Captura de ecrã do controlo de deslize Ativado.](media/power-bi-visualization-customize-title-background-and-legend/onoffslider.png)
+
+1. Para alterar o título, insira a *Contagem de lojas por mês de abertura* no campo **Texto do título**.
+
+1. Altere a **Cor do tipo de letra** para cor de laranja e a **Cor de fundo** para amarelo.
+
+    1. Selecione a lista suspensa e escolha uma cor em **Cores do tema**, **Cores recentes**ou **Cor personalizada**.
+
+        ![Captura de ecrã das opções da Cor do tipo de letra e da Cor de fundo.](media/power-bi-visualization-customize-title-background-and-legend/customizecolorpicker.png)
+
+    1. Selecione a lista suspensa para fechar a janela de cores.
+
+       Guarde as alterações feitas.
+
+       Se precisar de reverter todas as alterações, poderá voltar às cores predefinidas ao selecionar **Reverter para predefinição** na janela de cores.
+
+1. Aumente o tamanho do texto para **12 pt**.
+
+1. A última personalização feita ao título do gráfico será o seu alinhamento ao centro da visualização.
+
+    ![Captura de ecrã dos controlos de Alinhamento com a opção Centrar selecionada.](media/power-bi-visualization-customize-title-background-and-legend/customizealign.png)
+
+Nesta fase do tutorial, o título do gráfico de colunas agrupadas deverá ter um aspeto semelhante ao seguinte:
+
+![Captura de ecrã do gráfico de colunas agrupadas recém-configurado.](media/power-bi-visualization-customize-title-background-and-legend/tutorialprogress1.png)
+
+Guarde as alterações realizadas e avance para a secção seguinte.
+
+Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Título**.
+
+![Captura de ecrã da opção Reverter para predefinição.](media/power-bi-visualization-customize-title-background-and-legend/revertall.png)
 
 ## <a name="customize-visualization-backgrounds"></a>Personalizar planos de fundo de visualização
-Com o mesmo gráfico de coluna selecionado, expanda as opções do fundo.
 
-1. Ative e desative o fundo selecionando o controlo deslizante Ativar (ou Desativar). Por enquanto, deixe em **Ativar**.
-2. Altere a cor de fundo para 74% cinzento.
+Com o mesmo gráfico de colunas agrupadas selecionado, expanda as opções **Fundo**.
 
-   * Selecione o menu pendente e escolha uma cor cinzenta em **Cores de Tema**, **Cores Recentes**ou **Cor personalizada**.
-   * Altere a Transparência para 74%.   
-     ![](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
+1. Mova o controlo de deslize **Fundo** para **Ativado**.
 
-   Para reverter a personalização do fundo do título que fizemos até agora, selecione **Reverter para padrão**na parte inferior do painel de personalização **Plano de fundo** .
+1. Selecione a lista suspensa e escolha uma cor cinzenta.
+
+1. Altere a **Transparência** para **74%** .
+
+Nesta fase do tutorial, o fundo do gráfico de colunas agrupadas deverá ter um aspeto semelhante ao seguinte:
+
+![Captura de ecrã do gráfico de colunas agrupadas com a cor de fundo atualizada.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-customize-background.png)
+
+Guarde as alterações realizadas e avance para a secção seguinte.
+
+Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Fundo**.
 
 ## <a name="customize-visualization-legends"></a>Personalizar legendas de visualização
-1. Abra a página **Visão geral** do relatório e selecione o gráfico "Variação das vendas totais por mês fiscal e gerente do distrito".
-2. No separador Visualização, selecione o ícone de pincel para abrir o painel de formatação.  
-3. Expanda as opções de **Legenda** .
 
-      ![](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
-4. Ative e desative a legenda selecionando o controlo deslizante Ativar (ou Desativar). Por enquanto, deixe em **Ativar**.
-5. Mova a legenda para a esquerda da visualização.    
-6. Adicione um título de legenda alternando o **Título** para **Ativado** e, no campo **Nome da legenda**, escrevendo **Gerentes**.
-   ![](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
+1. Abra a página de relatório **Visão geral** e selecione o gráfico **Variação das Vendas Totais por MêsFiscal e Gestor Distrital**.
 
-   Para reverter toda a personalização de legenda que fizemos até agora, selecione **Reverter para Predefinição**na parte inferior do painel de personalização **Legenda** .
+1. No separador **Visualização**, selecione o ícone de rolo de pintura para abrir o painel Formatação.
 
-<a name="list"></a>
+1. Expanda as opções de **Legenda**:
 
-## <a name="visualization-types-that-can-be-customized"></a>Tipos de visualização que podem ser personalizados
+      ![Captura de ecrã da opção Legenda.](media/power-bi-visualization-customize-title-background-and-legend/legend.png)
+
+1. Mova o controlo de deslize **Legenda** para **Ativado**.
+
+1. Mova a legenda para a esquerda da visualização.
+
+1. Adicione um título de legenda ao alternar o **Título** para **Ativado**.
+
+1. Introduza *Gestores* no campo **Nome da legenda**.
+
+Nesta fase do tutorial, a legenda do gráfico de colunas agrupadas deverá ter um aspeto semelhante ao seguinte:
+
+![Captura de ecrã da Legenda atualizada no gráfico de colunas agrupadas.](media/power-bi-visualization-customize-title-background-and-legend/legend-move.png)
+
+Guarde as alterações realizadas e avance para a secção seguinte.
+
+Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Legenda**.
+
+## <a name="visualization-types-that-you-can-customize"></a>Tipos de visualizações que pode personalizar
+
+Veja a seguir uma lista de visualizações e as opções de personalização disponíveis para cada uma:
 
 | Visualização | Título | Fundo | Legenda |
 |:--- |:--- |:--- |:--- |
-| área |sim |sim |sim |
-| barra |sim |sim |sim |
-| cartão |sim |sim |n/a |
-| cartão de várias linhas |sim |sim |n/a |
-| coluna |sim |sim |sim |
-| combinação |sim |sim |sim |
-| rosca |sim |sim |sim |
-| mapa de manchas |sim |sim |sim |
-| funil |sim |sim |n/a |
-| medidor |sim |sim |n/a |
-| kpi |sim |sim |n/a |
-| linha |sim |sim |sim |
-| mapa |sim |sim |sim |
-| matriz |sim |sim |n/a |
-| circular |sim |sim |sim |
-| dispersão |sim |sim |sim |
-| segmentação de dados |sim |sim |n/a |
-| tabela |sim |sim |n/a |
-| caixa de texto |não |sim |n/a |
-| mapa de árvore |sim |sim |sim |
-| cascata |sim |sim |sim |
+| Área | sim | sim |sim |
+| Barras | sim | sim |sim |
+| Cartão | sim | sim |n/a |
+| Cartão de Linhas múltiplas | sim | sim | n/a |
+| Coluna | sim | sim | sim |
+| Combinação | sim | sim | sim |
+| Anel | sim | sim | sim |
+| Mapa de manchas | sim | sim | sim |
+| Funil | sim | sim | n/a |
+| Medidor | sim | sim | n/a |
+| KPI | sim | sim | n/a |
+| Linha | sim | sim | sim |
+| Mapa | sim | sim | sim |
+| Matriz | sim | sim | n/a |
+| Circular | sim | sim | sim |
+| Dispersão | sim | sim | sim |
+| Segmentação de Dados | sim | sim | n/a |
+| Tabela | sim | sim | n/a |
+| Caixa de texto | não | sim | n/a |
+| Treemap | sim | sim | sim |
+| Cascata | sim | sim | sim |
 
 ## <a name="next-steps"></a>Próximos passos
-[Personalizar os eixos X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
-[Personalizar propriedades de cores e de eixo](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - Conceitos Básicos](../consumer/end-user-basic-concepts.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 
+- [Personalizar as propriedades dos Eixos X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)
+
+- [Getting started with color formatting and axis properties](service-getting-started-with-color-formatting-and-axis-properties.md) (Introdução às propriedades de eixo e formatação de cor)
+
+- [Conceitos básicos para os consumidores do serviço Power BI](../consumer/end-user-basic-concepts.md)
+
+Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
