@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498072"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264615"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
@@ -28,8 +28,12 @@ Só pode criar subscrições no serviço Power BI. Receberá um e-mail com um in
 
 ## <a name="requirements"></a>Requirements
 
-- **Criar** uma subscrição é uma funcionalidade do Power BI Pro.
-- Não precisa de permissões de edição para o conteúdo (dashboard ou relatório) para criar uma subscrição para si próprio, mas tem de ter permissões de edição para criar uma subscrição para outra pessoa. 
+Uma subscrição pode ser **criada** por:
+
+- Utilizadores com uma licença do Power BI Pro
+- Os utilizadores que visualizam o conteúdo numa área de trabalho ou aplicação Premium também podem subscrever os conteúdos aí localizados, mesmo sem uma licença do Power BI Pro.
+
+Não precisa de permissões de edição para o conteúdo (dashboard ou relatório) para criar uma subscrição para si próprio, mas tem de ter permissões de edição para criar uma subscrição para outra pessoa. 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Subscrever um dashboard, uma página de relatórios ou um relatório paginado
 
@@ -87,7 +91,6 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
 * É possível que os dashboards com mais de 25 mosaicos afixados ou mais de 4 páginas de relatórios dinâmicos afixadas não sejam apresentados por inteiro nos e-mails de subscrição enviados para os utilizadores.  As subscrições de dashboards que ultrapassem este número de mosaicos não serão bloqueadas. No entanto, se tiver problemas, estas não terão suporte. Pondere modificá-las para ficar dentro de um intervalo suportado.
-* Esta é a hora de início da tarefa de subscrição. Em determinados cenários, poderá demorar alguns minutos até o e-mail ser entregue na sua caixa de entrada.
 * Em ocasiões raras, as subscrições de e-mail poderão demorar mais de 15 minutos a serem entregues aos destinatários. Se for o caso, recomendamos que execute a atualização de dados e a subscrição de e-mail separadamente para assegurar uma entrega atempada. Se o problema persistir, contacte o suporte do Power BI.
 * Para subscrições de e-mail do dashboard, se um mosaico tiver segurança ao nível da linha (RLS) aplicada, o mesmo não será apresentado.  
 * Para subscrições de e-mail do relatório, se o conjunto de dados utilizar RLS, poderá criar uma subscrição para si próprio. Não pode subscrever um relatório para outras pessoas com segurança ao nível da linha (RLS) aplicada.
