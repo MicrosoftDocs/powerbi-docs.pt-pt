@@ -7,117 +7,124 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3fc93f255d6645ffa6f15676b9a70f24326fcfdc
+ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232793"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67349163"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Descrição geral do IT Spend Analysis Sample (Exemplo de Análise de Gastos em TI)
-O [pacote de conteúdos](service-organizational-content-pack-introduction.md) da Análise de Gastos de TI (dashboard, relatório e conjunto de dados) analisa os custos programados vs. custos reais de um departamento de TI. Esta comparação ajuda-nos a perceber em que medida a empresa planeou corretamente o seu ano e permite-nos investigar as áreas com grandes desvios em relação ao plano. Este exemplo mostra um ciclo de planeamento anual da empresa e apresenta trimestralmente uma nova Latest Estimate (Estimativa Mais Recente (LE)) para ajudar a analisar as alterações dos gastos de TI ao longo do ano fiscal.
+O pacote de conteúdos de exemplo de Análise de Gastos de TI contém um dashboard, um relatório e um conjunto de dados que analisa os custos programados vs. os custos reais de um departamento de TI. Esta comparação ajuda-nos a perceber em que medida a empresa planeou corretamente o seu ano e permite-nos investigar as áreas com grandes desvios em relação ao plano. Este exemplo mostra um ciclo de planeamento anual da empresa e apresenta trimestralmente uma nova estimativa mais recente (LE) para ajudar a analisar as alterações dos gastos de TI ao longo do ano fiscal.
 
-![](media/sample-it-spend/it1.png)
+![Dashboard do exemplo de Análise de Gastos de TI](media/sample-it-spend/it1.png)
 
-Este exemplo faz parte de uma série que ilustra a forma como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Os exemplos são dados reais da obviEnce (<http://obvience.com/>) que foram mantidos anónimos.
+Este exemplo faz parte de uma série que mostra como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Foi criado com dados reais da [obviEnce](http://www.obvience.com/), que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, ficheiro .pbix do Power BI Desktop ou livro do Excel. Veja [Exemplos do Power BI](sample-datasets.md). 
+
+Este tutorial utiliza o serviço Power BI e o pacote de conteúdos de exemplo de Análise de Gastos de TI. Uma vez que as experiências do relatório são muito semelhantes, também pode acompanhar com o Power BI Desktop e o ficheiro .pbix de exemplo.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/power-bi/sample-it-spend#get-the-content-pack-for-this-sample), um [ficheiro .pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) ou um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529783).
+ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](#get-the-content-pack-for-this-sample), um [ficheiro .pbix](#get-the-pbix-file-for-this-sample) ou um [livro do Excel](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 
-1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
-2. No canto inferior esquerdo, selecione **Obter dados**.
+1. Abra o serviço Power BI (app.powerbi.com), inicie sessão e abra a área de trabalho onde quer guardar o exemplo.
+
+2. No canto inferior esquerdo, selecione **Obter Dados**.
    
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Na página Obter Dados que aparece, selecione **Exemplos**.
+   ![Selecionar Obter Dados](media/sample-datasets/power-bi-get-data.png)
+3. Na página **Obter Dados** apresentada, selecione **Exemplos**.
    
-   ![](media/sample-datasets/power-bi-samples-icon.png)
-4. Selecione o **IT Spend Analysis Sample** (Exemplo de Análise de Gastos de TI) e em seguida, escolha **Ligar**.  
+4. Selecione o **Exemplo de Análise de Gastos de TI** e, em seguida, escolha **Ligar**.  
   
-   ![Obter Dados](media/sample-it-spend/it-connect.png)
+   ![Ligar ao exemplo](media/sample-it-spend/it-connect.png)
    
-5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
+5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, um relatório e um conjunto de dados à área de trabalho atual.
    
-   ![Aterisk](media/sample-it-spend/it-asterisk.png)
+   ![Entrada do Exemplo de Análise de Gastos de TI](media/sample-it-spend/it-spend-analysis-sample-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
-
- * [IT Spend Analysis Sample](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) (Exemplo de Análise de Gastos de TI)
+Em alternativa, pode transferir o exemplo de Análise de Gastos de TI como um [ficheiro .pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
-Também pode [transferir apenas o conjunto de dados (livro do Excel)](http://go.microsoft.com/fwlink/?LinkId=529783) para este exemplo. O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
 
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529783). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
-## <a name="the-it-spend-analysis-sample-dashboard"></a>Dashboard do IT Spend Analysis Sample (Exemplo de Análise de Gastos de TI)
-Os dois mosaicos de números no dashboard, **Var Plan %** (% do Plano de variação) e **Variance Latest Estimate % Quarter 3** (% da Estimativa mais recente da variação do 3.º trimestre), fornecem uma visão geral do nosso desempenho em relação ao plano e à Estimativa mais recente do último trimestre (LE3 = Estimativa mais recente do 3º trimestre). Em geral, estamos cerca de 6% fora do plano. Vamos explorar a causa desta variação – quando, onde e qual categoria?
+## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard de Exemplo de Análise de Gastos de TI
+Os dois mosaicos de números à esquerda no dashboard, **% do Plano de Variação** e **% da Estimativa mais Recente da Variação do 3.º Trimestre**, fornecem uma descrição geral do nosso desempenho em relação ao plano e à estimativa mais recente do último trimestre (LE3 = Estimativa mais recente do 3.º trimestre). No geral, estamos cerca de 6% fora do plano. Vamos explorar a causa desta variação: quando, onde e em que categoria.
 
-## <a name="ytd-it-spend-trend-analysis-page"></a>Página "YTD IT Spend Trend Analysis" ("Análise das Tendências de Gastos de TI Acumulados no Ano")
-A seleção do mosaico do dashboard **Var Plan % by Sales Region** (% do Plano de variação por região de vendas) leva-o até à página "IT Spend Trend Analysis" ("Análise das tendências de gastos de TI") do relatório IT Spend Analysis Sample (Exemplo de análise de gastos de TI). Vemos rapidamente que temos uma variação positiva nos EUA e na Europa e uma variação negativa no Canadá, América Latina e Austrália. Os EUA tinham um variação +LE de cerca de 6% e a Austrália tem uma variação -LE de cerca de 7%.
+## <a name="ytd-it-spend-trend-analysis-page"></a>Página da Análise das Tendências de Gastos de TI do Ano Até à Data
+Quando seleciona o mosaico do dashboard **% do Plano de Variação por Região de Vendas**, este apresenta a página **Análise das Tendências de Gastos de TI do Ano Até à Data** do relatório de Exemplo de Análise de Gastos de TI. Num instante, vemos que temos uma variação positiva nos Estados Unidos e na Europa e uma variação negativa no Canadá, na América Latina e na Austrália. Os Estados Unidos têm uma variação +LE de cerca de 6% e a Austrália tem uma variação -LE de cerca de 7%.
 
-![](media/sample-it-spend/it2.png)
+![% do Plano de Variação por Região de Vendas](media/sample-it-spend/it2.png)
 
-Mas observar apenas este gráfico e tirar conclusões pode ser enganoso. Temos de analisar as quantias reais em dólares para ver tudo de forma objetiva.
+Porém, observar apenas este gráfico e tirar conclusões pode ser enganoso. Temos de analisar as quantias reais em dólares para ver tudo de forma objetiva.
 
-1. Selecione **Aus and NZ** no gráfico Var Plan % by Sales Region (% do Plano de variação por região de vendas) e observe o gráfico Var Plan by IT Area (Plano de variação por Área de TI).
+1. Selecione **AU e NZ** no gráfico **% do Plano de Variação por Região de Vendas** e, em seguida, observe o gráfico **Plano de Variação por Área de TI**.
 
-   ![](media/sample-it-spend/it3.png)
-2. Agora, selecione **USA**. Ficou com a ideia: a Austrália é uma parte realmente pequena dos nossos gastos gerais em comparação com os EUA.
+   ![Página da Análise das Tendências de Gastos de TI do Ano Até à Data](media/sample-it-spend/it3.png)
+2. Agora, selecione **USA**. Tenha em atenção que a Austrália e a Nova Zelândia são uma parte muito pequena dos nossos gastos gerais em comparação com os Estados Unidos.
 
-    Já restringimos para os EUA, agora qual o próximo passo? Vamos explorar que categoria nos EUA está a causar a variação.
+    A seguir, vamos explorar que categoria nos EUA está a causar a variação.
 
 ## <a name="ask-questions-of-the-data"></a>Fazer perguntas sobre os dados
-1. Selecione **IT Spend Analysis Sample** (Exemplo de Análise de Gastos de TI) na barra de navegação superior para regressar aos Dashboards.
-2. Na caixa de perguntas, escreva "show IT areas, var plan % and var le3 % bar chart" ("mostrar gráfico de barras de % do plano de variação e % de le3 por áreas de TI").
+1. Selecione **Exemplo de Análise de Gastos de TI** na barra de navegação superior para regressar ao dashboard de exemplo.
+2. Selecione **Fazer uma pergunta sobre os dados**.
+3. Na lista **Perguntas para começar** no lado esquerdo, selecione **qual é o plano por área de TI**.
 
-   ![](media/sample-it-spend/it4.png)
+   ![Gráfico Plano por Área de TI](media/sample-it-spend/it-area-chart.png)
 
-   Na primeira Área de TI, **Infrastructure** (Infraestrutura), a percentagem mudou drasticamente entre o plano de variação inicial e a estimativa mais recente do plano de variação.
+4. Na caixa Perguntas e Respostas, limpe a entrada anterior e introduza *mostrar gráfico de barras da % do plano de variação, da % da le3 da variação e das áreas de TI*.
 
-## <a name="ytd-spend-by-cost-elements-page"></a>Página "YTD Spend by Cost Elements" ("Gastos Acumulados no Ano por Elementos de Custo")
-Regresse ao dashboard e analise o mosaico do painel **Var Plan %, Var LE3%** (% do Plano de variação, % de LE3 da variação).
+   ![Gráfico % do Plano de Variação e % da LE3 da Variação por Área de TI](media/sample-it-spend/it4.png)
 
-![](media/sample-it-spend/it5.png)
+   Na primeira Área de TI, **Infraestrutura**, observe que a percentagem mudou significativamente entre o plano de variação inicial e a estimativa mais recente do plano de variação.
 
-A infraestrutura salta com uma grande variação positiva em relação ao plano.
+## <a name="ytd-spend-by-cost-elements-page"></a>Página Gastos do Ano Até à Data por Elementos de Custo
 
-1. Clique neste mosaico para ir para a página "YTD Spend by Cost Elements" ("Gastos Acumulados no Ano por Elementos de Custo") do relatório IT Spend Analysis Sample (Exemplo de Análise de Gastos de TI).
-2. Clique na barra **Infrastructure** (Infraestrutura) no canto inferior esquerdo do gráfico "Var Plan % and Var LE3 % by IT Area" ("% do Plano de variação e % da LE3 da variação por Área de TI") e observe a variação ao plano em "Var Plan % by Sales Region" ("% do Plano de variação por região de vendas") à esquerda.
+1. Regresse ao dashboard e examine o mosaico do dashboard **% do Plano de Variação, % da Estimativa mais Recente da Variação – 3.º Trimestre**.
 
-    ![](media/sample-it-spend/it6.png)
-3. Clique no nome de cada Cost Element Group (Grupo de Elementos de Custo) na segmentação de dados para localizar o elemento de custo com uma grande variação.
-4. Com a opção **Other** (Outros) selecionada, clique em **Infrastructure** (Infraestrutura) na IT Area (Área de TI) e clique nas subáreas na segmentação de dados IT Sub Area (Subárea de TI) para localizar a subárea com a maior variação.  
+   ![Mosaico % do Plano de Variação, LE3 da Variação](media/sample-it-spend/it5.png)
 
-   Vemos uma enorme variação em **Networking** (Rede).
+   Tenha em atenção que a área Infraestrutura destaca-se com uma grande variação positiva no plano.
 
-   Aparentemente, a empresa decidiu oferecer aos seus funcionários serviços telefónicos como benefício, mas esta mudança não estava planeada.
+1. Selecione este mosaico para abrir o relatório e ver a página **Gastos do Ano Até à Data por Elementos de Custo**.
+2. Selecione a barra **Infraestrutura** no gráfico **% do Plano de Variação e % da LE3 da Variação por Área de TI** no canto inferior esquerdo e observe os valores da variação para o plano no gráfico **% do Plano de Variação por Região de Vendas** no canto inferior esquerdo.
 
-## <a name="plan-variance-analysis-page"></a>Página "Plan Variance Analysis" ("Análise de Variação do Plano")
-Ainda no relatório, clique no separador "Plan Variance Analysis" ("Análise de Variação do Plano") na parte inferior do relatório e vá para a página 3 do relatório.
+    ![Página Gastos do Ano Até à Data por Elementos de Custo](media/sample-it-spend/it6.png)
+3. Selecione um nome de cada vez na segmentação de dados **Grupo de Elementos de Custo** para localizar o elemento de custo com a maior variação.
+4. Com a opção **Outros** marcada, selecione **Infraestrutura** na segmentação de dados **Área de TI** e, em seguida, selecione as subáreas na segmentação de dados **Subárea de TI** para localizar a subárea com a maior variação.  
 
-No gráfico de combinação "Var Plan, and Var Plan % by Business Area" ("Plano de Variação e % do Plano de Variação por Área de Negócio") à esquerda, clique na coluna Infrastructure (Infraestrutura) para realçar os valores de infraestrutura no resto da página.
+   Observe a grande variação para **Redes**. Aparentemente, a empresa decidiu oferecer aos seus funcionários serviços telefónicos como benefício, apesar de esta mudança não estar planeada.
 
-![](media/sample-it-spend/it7.png)
+## <a name="plan-variance-analysis-page"></a>Página Análise de Variação do Plano
 
-Observe no gráfico "Var plan% by Month and Business Area" ("% do plano de variação por Mês e Área de Negócio") que a infraestrutura começou a ter uma variação positiva por volta de fevereiro e, em seguida, continuou a aumentar. Além disso, observe como a variação do valor do plano da infraestrutura varia por país, em comparação com o valor de todas as áreas de negócio. Utilize as segmentações de dados "IT Area" ("Área de TI") e "IT Sub Areas" ("Subáreas de TI") à direita para filtrar os valores no resto da página em vez de realçá-los. Clique nas diferentes IT Areas (Áreas de TI) à direita para explorar os dados de outra forma. Também pode clicar nas IT Sub Areas (Subáreas de TI) e ver a variação nesse nível.
+1. Selecione o separador **Análise de Variação do Plano** na parte inferior da página.
+
+2. No gráfico **Plano de Variação e % do Plano de Variação por Área de Negócio** à esquerda, selecione a coluna **Infraestrutura** para realçar os valores de área de negócios da infraestrutura no resto da página.
+
+    ![Página Análise de Variação do Plano](media/sample-it-spend/it7.png)
+
+   Observe no gráfico **% do plano de variação por Mês e Área de Negócio** que a área de negócio da infraestrutura iniciou uma variação positiva em fevereiro. Além disso, observe como o valor da variação para o plano da área de negócios varia por país, em comparação com o valor de todas as áreas de negócio. 
+
+3. Utilize as segmentações de dados **Área de TI** e **Subárea de TI** à direita para filtrar os valores no resto da página e explorar os dados. 
 
 ## <a name="edit-the-report"></a>Editar o relatório
-Clique em **Editar Relatório** no canto superior esquerdo de canto e explore-o em Vista de Edição.
+Selecione **Editar Relatório** no canto superior esquerdo para explorar na Vista de edição:
 
-* Veja como as páginas são feitas – os campos em cada gráfico, filtros nas páginas
-* Adicione páginas e gráficos com base nos mesmos dados
-* Altere o tipo de visualização de cada gráfico
-* Afixe-os no seu dasboard
+* Veja como as páginas são constituídas, os campos em cada gráfico e os filtros nas páginas.
+* Adicione páginas e gráficos com base nos mesmos dados.
+* Altere o tipo de visualização de cada gráfico.
+* Afixe gráficos de interesse ao dashboard.
 
-Este é um ambiente seguro para experimentar. Pode sempre optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a Obter Dados para obter uma nova cópia deste exemplo.
+Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
 ## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
-Esperamos que esta apresentação tenha mostrado de que forma os como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados de gastos de TI. Agora, é sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Saiba mais sobre como [começar a utilizar o Power BI](service-get-started.md).
+Esperamos que esta apresentação tenha mostrado de que forma os como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados de gastos de TI. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
