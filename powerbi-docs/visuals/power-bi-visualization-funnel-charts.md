@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61068013"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161105"
 ---
 # <a name="funnel-charts"></a>Gráficos de funil
 Um gráfico de funil ajuda-o a visualizar um processo linear com fases ligadas de forma sequencial. Por exemplo, um funil de vendas que controla os clientes por fases: Oportunidade Potencial \> Oportunidade Potencial Qualificada \> Potencial Interessado \> Contrato \> Fecho.  Num relance, a forma do funil transmite a integridade do processo que está a controlar.
@@ -53,7 +53,7 @@ Veja este vídeo para ver o Will a criar um gráfico de funil através do exempl
 
 Agra crie o seu próprio gráfico de funil que mostra o número de oportunidades que temos em cada uma das nossas fases de vendas.
 
-Estas instruções utilizam o Exemplo de Análise de Oportunidade. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.   
+Estas instruções utilizam o Exemplo de Análise de Oportunidade. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço Power BI (app.powerbi.com) ou o Power BI Desktop.   
 
 1. Comece numa página de relatório em branco e selecione o campo **SalesStage** \> **Fase de Venda**. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](../service-interact-with-a-report-in-editing-view.md).
    
@@ -61,7 +61,7 @@ Estas instruções utilizam o Exemplo de Análise de Oportunidade. Para acompanh
 2. [Converta o gráfico](power-bi-report-change-visualization-type.md) num funil. Repare que **Fase de Vendas** está no **Grupo**. 
 3. No painel **Campos**, selecione **Facto** \> **Contagem de Oportunidades**.
    
-    ![criação do gráfico de funil](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![criação do gráfico de funil](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Passar o rato por cima de uma barra mostra uma variedade de informações.
    
    * O nome da fase

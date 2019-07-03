@@ -1,74 +1,89 @@
 ---
-title: Gráficos de linhas no Power BI
-description: Gráficos de linhas no Power BI
+title: Gráficos de linhas no Power BI
+description: Gráficos de linhas no Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0654dccf55b1e13f26d8ecaabee0349f0e56afc6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65535796"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408597"
 ---
-# <a name="line-charts-in-power-bi"></a>Gráficos de linhas no Power BI
-Um gráfico de linhas é uma série de pontos de dados que são representados por pontos e ligados por linhas retas. Um gráfico de linhas pode ter uma ou várias linhas. Gráficos de linhas de ter um X e um eixo Y. 
+# <a name="line-charts-in-power-bi"></a>Gráficos de linhas no Power BI
+Um gráfico de linhas é uma série de pontos de dados representados por pontos e ligados por linhas retas. Um gráfico de linhas pode ter uma ou várias linhas. Os gráficos de linhas têm um eixo X e um eixo Y. 
 
 ![gráfico de linhas simples](media/power-bi-line-charts/power-bi-line.png)
 
 ## <a name="create-a-line-chart"></a>Criar um gráfico de linhas
-Estas instruções de utilização de vendas e a aplicação de exemplo de Marketing para criar um gráfico de linhas que mostre as vendas deste ano por categoria. Para acompanhar, obtenha a aplicação de exemplo de appsource.com.
+Estas instruções utilizam a aplicação Exemplo de Vendas e Marketing para criar um gráfico de linhas que apresenta as vendas deste ano por categoria. Para acompanhar, obtenha a aplicação de exemplo em appsource.com.
 
-1. Comece numa página de relatório em branco. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de edição](../service-interact-with-a-report-in-editing-view.md).
+1. Comece numa página de relatório em branco. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
 
-2. No painel campos, selecione **SalesFact** \> **Total de unidades**e selecione **data** > **mês**.  Power BI cria um gráfico de colunas na tela de relatórios.
+2. No painel Campos, selecione **FactosDeVendas** \> **Total de unidades** e, em seguida, **Data** > **Mês**.  O Power BI cria um gráfico de colunas na tela do relatório.
 
-    ![Selecione a partir do painel de campos](media/power-bi-line-charts/power-bi-step1.png)
+    ![Selecionar a partir do painel Campos](media/power-bi-line-charts/power-bi-step1.png)
 
-4. Converta para um gráfico de linhas ao selecionar o modelo de gráfico de linha a partir do painel de visualizações. 
+4. Converta-o num gráfico de linhas ao selecionar o modelo de gráfico de linhas no painel Visualizações. 
 
-    ![converter em gráfico de linhas](media/power-bi-line-charts/power-bi-convert-to-line.png)
+    ![converter num gráfico de linhas](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Filtre o gráfico de linhas para mostrar dados nos anos 2014 de 2012. Se o painel filtros é fechada, expanda-o agora. No painel campos, selecione **data** \> **ano** e arraste-o para o painel filtros. Solte-o sob o cabeçalho **filtros neste elemento visual**. 
+4. Filtre o gráfico de linhas para mostrar os dados de 2012 a 2014. Se o painel Filtros estiver fechado, expanda-o agora. No painel Campos, selecione **Data** \> **Ano** e arraste para o painel Filtros. Largue sob o título **Filtros neste elemento visual**. 
      
-    ![linha junto ao painel de campos](media/power-bi-line-charts/power-bi-year-filter.png)
+    ![linha junto ao painel Campos](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    Alteração **filtros avançados** ao **filtros básicos** e selecione **2012**, **2013** e **2014**.
+    Altere **Filtros avançados** para **Filtros básicos** e selecione **2012**, **2013** e **2014**.
 
-    ![Filtro para o ano](media/power-bi-line-charts/power-bi-filter-year.png)
+    ![Filtrar por Ano](media/power-bi-line-charts/power-bi-filter-year.png)
 
 6. Opcionalmente, [ajuste o tamanho e a cor do texto do gráfico](power-bi-visualization-customize-title-background-and-legend.md). 
 
-    ![Aumentar o tamanho da fonte e altere Y axisfont](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![Aumentar o tamanho do tipo de letra e alterar o tipo de letra do eixo Y](media/power-bi-line-charts/power-bi-line-3years.png)
 
-## <a name="add-additional-lines-to-the-chart"></a>Adicionar linhas adicionais ao gráfico
-Gráficos de linhas podem ter muitas linhas diferentes. E, em alguns casos, os valores nas linhas podem ser tão divergentes que não forem apresentados bem em conjunto. Vamos dar uma olhada na adição de linhas adicionais para nosso atual do gráfico e, em seguida, saiba como formatar o nosso gráfico quando os valores representados pelas linhas são muito diferentes. 
+## <a name="add-additional-lines-to-the-chart"></a>Adicionar outras linhas ao gráfico
+Os gráficos de linhas podem ter várias linhas diferentes. Em alguns casos, os valores das linhas podem ser tão divergentes que não são adequadamente apresentados em conjunto. Vamos ver como adicionar outras linhas ao gráfico atual e, em seguida, saber como o formatar quando os valores representados pelas linhas são muito diferentes. 
 
-### <a name="add-additional-lines"></a>Adicionar linhas adicionais
-Em vez de olhar o total de unidades para todas as regiões como uma única linha no gráfico, vamos dividir o total de unidades por região. Adicionar linhas adicionais ao arrastar **Geo** > **região** para o bem de legenda.
+### <a name="add-additional-lines"></a>Adicionar outras linhas
+Em vez de apresentarmos o total de unidades para todas as regiões como uma única linha no gráfico, vamos dividi-lo por região. Adicione outras linhas ao arrastar **Área geográfica** > **Região** para o espaço de Legenda.
 
    ![Uma linha para cada região](media/power-bi-line-charts/power-bi-line-regions.png)
 
 
 ### <a name="use-two-y-axes"></a>Utilizar dois eixos Y
-E se deseja examinar o total de vendas e total de unidades no mesmo gráfico? Números de vendas são muito superiores aos números de unidade, tornando o gráfico de linhas não utilizável. Na verdade, a linha vermelha para total de unidades é apresentado como zero.
+E se pretender examinar o total de vendas e o total de unidades no mesmo gráfico? Os números de vendas são muito superiores aos números de unidades, o que torna o gráfico de linhas inutilizável. Na verdade, a linha vermelha que representa o total de unidades parece estar no zero.
 
-   ![altamente diverging valores](media/power-bi-line-charts/power-bi-diverging.png)
+   ![valores altamente divergentes](media/power-bi-line-charts/power-bi-diverging.png)
 
-Para exibir a valores divergentes altamente num gráfico, use um gráfico de combinação. Pode aprender tudo sobre os gráficos de combinação lendo [gráficos de combinação no Power BI](power-bi-visualization-combo-chart.md). No nosso exemplo a seguir, podemos exibir vendas e total de unidades em conjunto num gráfico, adicionando um segundo eixo Y. 
+Para apresentar valores altamente divergentes num gráfico, utilize um gráfico de combinação. Pode saber tudo sobre os gráficos de combinação ao ler [Gráficos de combinação no Power BI](power-bi-visualization-combo-chart.md). No exemplo a seguir, podemos apresentar as vendas e o total de unidades em conjunto num gráfico ao adicionar um segundo eixo Y. 
 
-   ![altamente diverging valores](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![valores altamente divergentes](media/power-bi-line-charts/power-bi-dual-axes.png)
+
+## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
+Para obter informações sobre como utilizar o painel Filtros, veja [Adicionar um filtro a um relatório](../power-bi-report-add-filter.md).
+
+Selecionar um ponto de dados num gráfico de linhas realça e filtra de forma cruzada as outras visualizações na página de relatório e vice-versa. Para acompanhar, abra o separador **Quota de Mercado**.  
+
+Num gráfico de linhas, um único ponto de dados é a intersecção de um ponto no eixo X e no eixo Y. Quando seleciona um ponto de dados, o Power BI adiciona marcadores que indicam que ponto (se existir uma única linha) ou pontos (se existirem duas ou mais linhas) são a origem para o realce e a filtragem cruzados dos outros elementos visuais na página de relatório. Se o seu elemento visual for muito denso, o Power BI irá selecionar o ponto mais próximo do local onde clica no elemento visual.
+
+Neste exemplo, selecionámos um ponto de dados que abrange: julho de 2014, % da Participação no Mercado de Unidades R12 de 33,16 e % da Participação no Mercado de Unidades de 34,74.
+
+![selecionar um único ponto de dados num gráfico de linhas](media/power-bi-line-charts/power-bi-single-select.png)
+
+Repare como o gráfico de colunas apresenta um realce cruzado e o medidor apresenta uma filtragem cruzada.
+
+Para gerir a forma como os gráficos se destacam e filtram entre si de forma cruzada, veja [Interações de visualização num relatório do Power BI](../service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-* Um gráfico de linhas não pode ter eixos duplos de Y.  Precisará usar um gráfico de combinação em vez disso.
-* Nos exemplos acima, os gráficos foram formatados para aumentar o tamanho da fonte, alterar a cor da fonte, adicionar os títulos dos eixos, center o título do gráfico e uma legenda, iniciar ambos os eixos em zero e muito mais. O painel de formatação (ícone de rolo de pintura) tem um conjunto aparentemente interminável de opções para fazer a forma como pretende que a sua aparência de gráficos. A melhor forma de aprender é abrir o painel Formatting e explorar.
+* Um gráfico de uma linha não pode ter eixos Y duplos.  Em alternativa, terá de utilizar um gráfico de combinação.
+* Nos exemplos acima, os gráficos foram formatados para aumentar o tamanho do tipo de letra, alterar a cor do tipo de letra, adicionar títulos dos eixos, centrar o título e a legenda do gráfico, começar ambos os eixos em zero e muito mais. O painel Formatação (ícone de rolo de pintura) tem um conjunto aparentemente interminável de opções para dar o aspeto que pretende aos seus gráficos. A melhor forma de aprender consiste em abrir o painel Formatação e explorar.
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -7,36 +7,36 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0a9e4986ae2f686eb8a8fd2d9fa07b169661ce60
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6a95ddd8f13be2407736c126b087723ceb5d9f31
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853485"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409154"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>A nova experiência de filtros nos relatórios do Power BI (Pré-visualização)
 
-Filtros no Power BI têm novas funcionalidades e um novo design. Quando escolher para a nova experiência de filtro, pode formatar o painel filtros para se parecer com o restante do relatório. Pode bloquear e até mesmo ocultar filtros. Ao projetar o seu relatório, já não verá o painel de filtros antigo em todos os no painel visualizações. Isso é feito o filtro de edição e formatação num único painel de filtros. 
+Os filtros no Power BI têm novas funcionalidades e um novo design. Quando opta ativamente por participar na nova experiência de filtros, pode formatar o painel Filtros para se parecer com o resto do relatório. Pode bloquear e até mesmo ocultar filtros. Ao estruturar o seu relatório, já não vê o painel Filtros antigo no painel Visualizações. Faz toda a edição e formatação dos filtros num único painel Filtros. 
 
 ![Nova experiência de filtro](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
 > [!NOTE]
 > A nova experiência de filtros encontra-se no modo de pré-visualização. As novas compilações podem substituir a formatação que tiver definido.
 
-Como um designer de relatório, este é o que pode fazer no novo painel único de filtros:
+Enquanto estruturador de relatórios, eis o que pode fazer no novo painel Filtros:
 
 - Adicionar e remover campos a filtrar. 
-- Altere o estado do filtro.
-- Formatar e personalizar o painel filtros para que o que a maior parte do seu relatório.
+- Alterar o estado do filtro.
+- Formatar e personalizar o painel Filtros para se integrar melhor com o relatório.
 - Definir se o Painel de filtros está aberto ou fechado por predefinição quando um consumidor abre o relatório.
-- Oculta o painel de filtros todo ou filtros específicos que não pretende que os consumidores de relatórios para ver.
-- Controlar e até mesmo de marcador a visibilidade, o estado aberto e fechado do painel de filtros do novo.
+- Ocultar o painel Filtros completo ou filtros específicos que não quer que os consumidores de relatórios vejam.
+- Controlar e até mesmo marcar o estado da visibilidade, o estado aberto e o estado fechado do novo painel Filtros.
 - Bloquear filtros que não quer que os consumidores editem.
 
-Com a nova experiência de filtro, os consumidores de relatórios podem também passar o mouse sobre qualquer elemento visual para ver uma lista só de leitura de todos os filtros ou as segmentações de dados que afetam esse elemento visual.
+Com a nova experiência de filtros, os consumidores de relatórios também podem pairar sobre qualquer elemento visual para ver uma lista só de leitura de todos os filtros ou segmentações de dados que o afetam.
 
 ![Lista de filtros para um elemento visual](media/power-bi-report-filter-preview/power-bi-filter-visual.png)
 
@@ -56,12 +56,12 @@ Depois de reiniciar o Power BI Desktop, a nova experiência fica ativada por pr
 Também pode ativar os novos filtros para relatórios existentes.
 
 1. No Power BI Desktop, num relatório existente, selecione **Ficheiro** > **Opções e Definições** > **Opções**.
-2. Na barra de navegação esquerdo, sob **ficheiro atual**, selecione **comunicar definições**.
-3. Sob **experiência de filtragem**, selecione **ativar o painel de filtro atualizada e mostrar os filtros no cabeçalho visual para este relatório**.
+2. Na barra de navegação esquerda, em **Ficheiro atual**, selecione **Definições de relatório**.
+3. Em **Experiência de filtragem**, selecione **Ativar o painel de filtros atualizado e apresentar filtros no cabeçalho do elemento visual deste relatório**.
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Ver filtros de um elemento visual no Modo de leitura
 
-No Modo de leitura, pode pairar o rato sobre um elemento visual no ícone de filtro para ver um pop-up com todos os filtros, segmentações de dados, entre outros, que afetam esse elemento visual. A formatação de pop-up é o mesmo que a formatação de painel de filtros. 
+No Modo de leitura, pode pairar o rato sobre um elemento visual no ícone de filtro para ver um pop-up com todos os filtros, segmentações de dados, entre outros, que afetam esse elemento visual. A formatação do pop-up é igual à formatação do painel Filtros. 
 
 ![Filtros que afetam um elemento visual](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 
@@ -77,39 +77,39 @@ Veja a seguir os tipos de filtros que esta vista apresenta:
 - Filtros de Inclusão/Exclusão
 - Filtros passados por um URL
 
-## <a name="build-the-new-filters-pane"></a>Criar o novo painel de filtros
+## <a name="build-the-new-filters-pane"></a>Criar o novo painel Filtros
 
-Depois de ativar o novo painel de filtros, vê-lo para a direita da página do relatório, formatada por predefinição, com base nas suas definições de relatório atual. Utilize o novo painel de filtros para configurar os filtros para incluir e para atualizar os filtros existentes no novo painel. O novo painel de filtros mostra que os consumidores do relatório, verá quando publicar o relatório. 
+Depois de ativar o novo painel Filtros, este é apresentado à direita da página do relatório, formatado por predefinição com base nas suas definições de relatório atuais. Pode utilizar o novo painel Filtros para configurar os filtros a incluir e atualizar os filtros existentes. O novo painel Filtros mostra o que os consumidores do relatório verão quando o publicar. 
 
-1. Por predefinição, os consumidores de relatórios podem ver o painel filtros. Se não quisê-los para vê-lo, selecione o ícone do olho junto a **filtros**.
+1. Por predefinição, os consumidores do relatório podem ver o painel Filtros. Se não pretender que o vejam, selecione o ícone de olho junto a **Filtros**.
 
-    ![Ícone de olho de filtro do Power BI](media/power-bi-report-filter-preview/power-bi-filter-eye.png)
+    ![Ícone de olho dos filtros do Power BI](media/power-bi-report-filter-preview/power-bi-filter-eye.png)
 
-2. Para começar a criar o seu novo painel de filtros, arrastar campos de interesse para o novo painel de filtros como visual, página ou filtros de nível de relatório.
+2. Para começar a criar o novo painel Filtros, arraste campos de interesse para o mesmo como filtros de nível de elemento visual, de página ou de relatório.
 
-Quando adiciona um elemento visual para uma tela de relatório, o Power BI adiciona automaticamente um filtro para o painel filtros para cada campo no elemento visual. 
+Quando adiciona um elemento visual à tela do relatório, o Power BI adiciona automaticamente um filtro ao painel Filtros para cada campo no elemento visual. 
 
 ## <a name="lock-or-hide-filters"></a>Bloquear ou ocultar filtros
 
 Pode bloquear ou ocultar cartões de filtros individuais. Se bloquear um filtro, os consumidores de relatórios poderão vê-lo, mas não o poderão alterar. Se o ocultar, nem sequer o poderão ver. Ocultar cartões de filtros será especialmente útil se precisar de ocultar filtros de limpeza de dados que excluem valores nulos ou valores inesperados. 
 
-- No novo painel de filtros, selecione ou desmarque os **Zamknout filtr** ou **ocultar filtro** ícones num cartão de filtro.
+- No novo painel Filtros, selecione ou desmarque os ícones **Bloquear filtro** ou **Ocultar filtro** no cartão de filtro.
 
    ![Ocultar ou bloquear filtros](media/power-bi-report-filter-preview/power-bi-filter-lock-hide.png)
 
-Como ativar estas definições e desativado no novo painel de filtros, verá as alterações serão refletidas no relatório. Os filtros ocultos não aparecem no pop-up de filtros de um elemento visual.
+À medida que ativa e desativa estas definições no novo painel Filtros, vê as alterações refletidas no relatório. Os filtros ocultos não aparecem no pop-up de filtros de um elemento visual.
 
-Também pode configurar o novo estado do painel de filtros para o fluxo com seus indicadores de relatório. O estado aberto, fechado e estado de visibilidade do painel são todos passíveis de marcação.
+Também pode configurar o estado do novo painel Filtros de forma a criar um fluxo juntamente com os seus marcadores de relatório. O estado aberto, fechado e estado de visibilidade do painel são todos passíveis de marcação.
  
 ## <a name="format-the-new-filters-pane"></a>Formatar o novo painel Filtros
 
-Uma grande parte desta nova experiência é que pode formatar o painel de filtros de acordo com a aparência do seu relatório. Pode formatar o painel de filtros de forma diferente para cada página no relatório. Estes são os elementos que pode formatar: 
+Uma parte importante desta nova experiência passa por poder formatar o painel Filtros de acordo com o aspeto e a funcionalidade do seu relatório. Pode formatar o painel Filtros de forma diferente para cada página do relatório. Estes são os elementos que pode formatar: 
 
 - Cor de fundo
 - Transparência do fundo
-- Border ativada ou desativada
+- Limite ativado ou desativado
 - Cor dos limites
-- Tamanho de fonte, cores e texto do título e o cabeçalho
+- Tipo de letra, cor e tamanho do texto do título e do cabeçalho
 
 Também pode formatar estes elementos para cartões de filtros, dependendo se estão aplicados (definidos para algo) ou disponíveis (desmarcados): 
 
@@ -120,10 +120,10 @@ Também pode formatar estes elementos para cartões de filtros, dependendo se es
 - Tipo de letra, cor e tamanho do texto
 - Cor da caixa de entrada
 
-### <a name="format-the-filters-pane-and-cards"></a>Formatar o painel filtros e cartões
+### <a name="format-the-filters-pane-and-cards"></a>Formatar o painel Filtros e os Cartões de filtros
 
 1. No relatório, clique no relatório propriamente dito ou no fundo (*imagem de fundo*), em seguida, no painel **Visualizações** e selecione **Formatar**. 
-    Verá as opções de formatação a página de relatório, a imagem de fundo e também para o painel de filtros e cartões de filtro.
+    Verá as opções de formatação da página do relatório, da imagem de fundo e também do painel Filtros e dos Cartões de filtros.
 
     ![Selecionar o ícone Formatar](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
@@ -135,8 +135,8 @@ Também pode formatar estes elementos para cartões de filtros, dependendo se es
   
     ![Expandir o Cartão de filtros](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
-## <a name="theming-for-filter-pane"></a>Temas para o painel de filtro
-Agora pode modificar as predefinições do painel de filtro com o arquivo de tema. Este é um trecho do tema de exemplo para começar:
+## <a name="theming-for-filter-pane"></a>Temas para o painel Filtros
+Agora, pode modificar as predefinições do painel Filtros com o ficheiro de tema. Segue-se um recorte do tema de exemplo para começar:
 
  
 ```
@@ -207,41 +207,42 @@ Agora pode modificar as predefinições do painel de filtro com o arquivo de tem
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>Classificar o painel de filtro
+## <a name="sort-the-filter-pane"></a>Ordenar o painel Filtros
 
-Funcionalidade de classificação personalizada é parte da nova experiência de painel de filtro. Os criadores de relatórios podem arrastar e largar filtros para reorganizá-las na ordem que desejarem.
+A funcionalidade de ordenação personalizada faz parte da experiência do novo painel Filtros. Os criadores de relatórios podem arrastar e largar filtros para os reorganizar na ordem que pretenderem.
 
-![Reorganizar a ordem de classificação de filtro](media/power-bi-report-filter-preview/power-bi-filter-sort.gif)
+![Reorganizar a sequência de ordenação dos filtros](media/power-bi-report-filter-preview/power-bi-filter-sort.gif)
 
-A ordem de classificação padrão é alfabética para filtros. Para iniciar o modo de tipo personalizado, basta arraste qualquer filtro para uma nova posição. Apenas pode ordenar os filtros no nível a que se aplicam – por exemplo, um filtro de nível visual, nível de página ou ao nível do relatório.
+A sequência de ordenação predefinida dos filtros é alfabética. Para iniciar o modo de ordenação personalizada, basta arrastar qualquer filtro para uma nova posição. Apenas pode ordenar os filtros no nível a que se aplicam, por exemplo, um filtro de nível de elemento visual, de nível de página ou de nível de relatório.
 
-## <a name="filters-pane-scaling"></a>Dimensionamento do painel de filtros
+## <a name="filters-pane-scaling"></a>Dimensionamento do painel Filtros
 
-O novo painel de filtros dimensiona com a página de relatório e os elementos visuais, por isso, a página de relatório e filtros mantenha-se de painel na mesma proporção entre si.
+O novo painel Filtros é dimensionado de acordo com a página de relatório e os elementos visuais, pelo que a página de relatório e o painel Filtros mantêm-se proporcionais.
 
-## <a name="improved-filters-pane-accessibility"></a>Acessibilidade melhorada de painel de filtros
+## <a name="improved-filters-pane-accessibility"></a>Acessibilidade melhorada do painel Filtros
 
-Melhorámos a navegação do teclado para o novo painel de filtros. Pode percorrer todas as partes do painel de filtros e utilizar a chave de contexto no seu teclado ou SHIFT+F10 para abrir o menu de contexto.
+Melhorámos a navegação do teclado no novo painel Filtros. Pode percorrer todas as partes do painel Filtros e utilizar a tecla de contexto no seu teclado ou Shift+F10 para abrir o menu de contexto.
 
-![Acessibilidade do painel de filtros](media/power-bi-report-filter-preview/power-bi-filter-accessible.png)
+![Acessibilidade do painel Filtros](media/power-bi-report-filter-preview/power-bi-filter-accessible.png)
 
-## <a name="rename-filters"></a>Mudar o nome de filtros
-Quando estiver a editar o painel filtros, pode clicar duas vezes o título para editá-lo. Mudar o nome é útil se pretender atualizar o cartão de filtro para fazer mais sentido para seus usuários finais. Lembre-se de mudar o nome do cartão de filtro faz *não* mudar o nome o nome a apresentar do campo na lista campos. Ela apenas muda o nome a apresentar utilizado o cartão de filtro.
+## <a name="rename-filters"></a>Mudar o nome dos filtros
+Durante a edição do painel Filtros, pode clicar duas vezes no título para o editar. Mudar o nome é útil se pretender atualizar o cartão de filtro de forma a que faça mais sentido para os seus utilizadores finais. Lembre-se de que mudar o nome do cartão de filtro *não* muda o nome a apresentar do campo na lista campos. Muda apenas o nome a apresentar utilizado no cartão de filtro.
 
 ![Mudar o nome de um filtro](media/power-bi-report-filter-preview/power-bi-filter-rename.png)
 
-## <a name="restrict-changes-to-filter-type"></a>Restringir alterações para o tipo de filtro
+## <a name="restrict-changes-to-filter-type"></a>Restringir as alterações ao tipo de filtro
 
-Sob a filtragem experiência secção das definições do relatório que tem uma opção para controlar se os utilizadores podem alterar o tipo de filtro.
+Na secção Experiência de filtragem das definições de relatório, tem uma opção para controlar se os utilizadores podem alterar o tipo de filtro.
 
-![Restringir o tipo de filtro de alteração](media/power-bi-report-filter-preview/power-bi-filter-restrict-change.png)
+![Restringir a alteração do tipo de filtro](media/power-bi-report-filter-preview/power-bi-filter-restrict-change.png)
 
 ## <a name="next-steps"></a>Próximos passos
 
-Experimente a nova experiência de filtros. Forneça seus comentários para esta funcionalidade, e como podemos continuar a melhorá-lo, no [site do Power BI ideias](https://ideas.powerbi.com/forums/265200-power-bi). 
+Experimente a nova experiência de filtros. Envie-nos os seus comentários sobre esta funcionalidade e indique-nos como a podemos continuar a melhorar no [site Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). 
 
 - [Como utilizar filtros de relatório](consumer/end-user-report-filter.md)
 - [Filtros e realce em relatórios](power-bi-reports-filters-and-highlighting.md)
+- [Different kinds of filters in Power BI](power-bi-report-filter-types.md) (Os diferentes tipos de filtros no Power BI)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

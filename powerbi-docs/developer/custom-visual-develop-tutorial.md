@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383952"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161223"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)
 
-Estamos a permitir que os programadores adicionem elementos visuais personalizados facilmente ao Power BI para utilização no dashboard e em relatórios. Para ajudar a começar, Publicámos o código para todas as nossas visualizações no GitHub.
+Estamos a permitir que os programadores adicionem elementos visuais personalizados facilmente ao Power BI para utilização no dashboard e em relatórios. Para o ajudar a começar, publicámos o código de todas as nossas visualizações no GitHub.
 
 Em conjunto com a estrutura de visualização, oferecemos o nosso conjunto de testes e ferramentas para ajudar a comunidade a criar elementos visuais personalizados de alta qualidade para o Power BI.
 
@@ -73,21 +73,15 @@ Agora, precisa de instalar o pacote **pbiviz**.
 
 #### <a name="windows"></a>Windows
 
-1. Para criar um certificado, introduza o seguinte comando.
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  Devolve um resultado que produz uma *frase de acesso*. Neste caso, a *frase de acesso* é  **_15105661266553327_** .
-
-  ![Certificado criado através do PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. Agora, tem de instalar o certificado. Para instalar o certificado, introduza o seguinte comando.
+1. Para criar e instalar um certificado, introduza o seguinte comando.
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  Devolve um resultado que produz uma *frase de acesso*. Neste caso, a *frase de acesso* é  **_15105661266553327_** e inicia o Assistente de Importação do Certificado.
+
+  ![Certificado criado através do PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. No Assistente para Importar Certificados, verifique se a localização de armazenamento está definida como Utilizador Atual. e selecione *Seguinte*.
 
@@ -559,14 +553,14 @@ Modifique o ficheiro **capabilities.json** para definir os mapeamentos da visual
 
     Esta instrução atribui *dataView* a uma variável para facilitar o acesso e declara a variável para fazer referência ao objeto *dataView*.
 
-2. Na **atualizar** método, substitua **.text("Value")** com o seguinte.
+2. No método **update**, substitua **.text("Value")** pelo seguinte.
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![Substituir textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. Na **atualizar** método, substitua **.text("Label")** com o seguinte.
+3. No método **update**, substitua **.text("Label")** pelo seguinte.
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

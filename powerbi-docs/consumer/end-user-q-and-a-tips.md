@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048140"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408179"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecidas pelas Perguntas e Respostas
-Esta lista de palavras-chave nesta página não é exaustiva.  A melhor forma de saber se o Power BI reconhece uma palavra-chave é escrevê-la na caixa de perguntas.  Se a palavra ou o termo estiver a cinzento, o Power BI não o reconhece.
+A lista de palavras-chave nesta página não é exaustiva.  A melhor forma de saber se o Power BI reconhece uma palavra-chave é escrevê-la na caixa de perguntas.  Se a palavra ou o termo estiver a cinzento, o Power BI não o reconhece.
 
-A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhecidos na maioria dos casos. Por exemplo, "é" inclui: **são**, **foi**, **foram**, **será**, **têm**, **tem**, **tinha**, **terá**, **teve**, **fazer**, **faz**, **fez**.  "Ordena" inclui **ordenado** e **ordenação**.  Além disso, o Power BI reconhece e inclui versões singulares e plurais de uma palavra. 
+A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhecidos na maioria dos casos. Por exemplo, "é" inclui: **são**, **foi**, **foram**, **será**, **têm**, **tem**, **tinha**, **terá**, **teve**, **fazer**, **faz**, **fez**.  "Ordena" inclui **ordenado** e **ordenação**.  Além disso, o Power BI reconhece e inclui versões singulares e plurais de uma palavra. 
 
 > [!NOTE]
 > O P e R também está disponível na [aplicação Microsoft Power BI para iOS em iPads, iPhones e dispositivos iPod Touch](mobile/mobile-apps-ios-qna.md).
@@ -41,7 +41,7 @@ A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhe
 |     |         |         |
 |**Conjunções**     |  e, ou, cada, com, versus, &, e, mas, nem, juntamente com, além de       |         
 |          |         |
-|**Contrações**     |  As Perguntas e Respostas reconhecem quase todas as contrações. Experimente.  Eis alguns exemplos: não foi, não fez, ele fez, ele é, não é, é, ela irá, eles fizeram, não foram, onde irão, quem é, não vai, não iria          |
+|**Contrações**     |  As Perguntas e Respostas reconhecem quase todas as contrações. Experimente.  Eis alguns exemplos: não foi, não fez, ele fez, ele é, não é, é, ela vai, eles fizeram, não foram, quem é, não vai, não iria          |
 |        |         |
 |**Datas**     |       O Power BI reconhece a maioria dos termos de datas (dia, semana, mês, ano, trimestre, década, etc.) e datas escritas em muitos formatos diferentes (veja abaixo). O Power BI também reconhece as seguintes palavras-chave: MonthName, dias 1-31, década. Exemplos: 3 de janeiro de 1995, 3 janeiro 1995, 03 jan 1995, 3 jan 1995, dia 3 de janeiro, janeiro de 1995, 1995 janeiro, 1995-01, 01/1995, nomes de meses         |
 |        |         |
@@ -66,25 +66,25 @@ A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhe
 |  |  |
 |**Maiores N**     |     (ordem, classificação): maiores, menores, mais altos, mais baixos, primeiro, último, seguinte, primeiros, mais recentes, mais antigos, últimos, mais recente, próximo            |
 |        |         |
-|**Tipos visuais**     |  todos os tipos visuais nativos do Power BI.  Se for uma opção no painel Visualizações, pode incluí-lo na sua pergunta.  A exceção são os [visuais personalizados](../power-bi-custom-visuals.md) que adicionou manualmente ao painel Visualização.  |
+|**Tipos visuais**     |  todos os tipos visuais nativos do Power BI.  Se for uma opção no painel Visualizações, pode incluí-lo na sua pergunta.  A exceção à regra são os [elementos visuais personalizados](../power-bi-custom-visuals.md) que adicionou manualmente ao painel Visualização.  |
 |  |  Exemplo: mostrar distritos por mês e total de vendas como gráfico de barras               |
 |        |         |
 |**Q (relação qualificada)**  | quando, onde, qual, quem, a quem, quantos, quanto, quantas vezes, com que frequência, montante, número, quantidade, quanto tempo, o quê                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>As Perguntas e Respostas ajudam-no a formular a pergunta
-As perguntas e respostas tentam ao máximo compreender e responder à pergunta que está a ser feita. E fá-lo de várias formas. Em todas elas é possível aceitar a ação por completo, parcialmente ou não aceitá-la. Ao escrever a sua pergunta, as Perguntas e Respostas:
+As perguntas e respostas tentam ao máximo compreender e responder à pergunta que está a ser feita. Tentam entender de várias formas. Pode aceitar a ação por completo, parcialmente ou de modo algum em todas estas expressões. Ao escrever a sua pergunta, as Perguntas e Respostas:
 
-* preenchem automaticamente palavras e perguntas. Utilizam várias estratégias, incluindo palavras reconhecidas com preenchimento automático e perguntas utilizadas anteriormente que devolveram respostas válidas. Se houver mais do que uma opção de preenchimento automático disponível, as mesmas serão apresentadas numa lista pendente.
+* preenchem automaticamente palavras e perguntas. Utilizam várias estratégias, incluindo palavras reconhecidas com preenchimento automático, palavras armazenadas e perguntas utilizadas anteriormente que devolveram respostas válidas. Se houver mais do que uma opção de preenchimento automático disponível, as mesmas serão apresentadas numa lista pendente.
 * corrige a ortografia.
-* apresenta uma pré-visualização da resposta sob a forma de uma visualização. A visualização é atualizada à medida que escreve e edita a pergunta (não espera até que prima Enter).
+* apresentam uma pré-visualização da resposta sob a forma de um elemento visual. O elemento visual é atualizado à medida que escreve e edita a pergunta (não espera até que prima Enter).
 * sugerem automaticamente termos de substituição do(s) conjunto(s) de dados subjacente(s) quando move o cursor de novo para a caixa de perguntas.
 * reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). As perguntas e respostas substituem as palavras que utilizou por sinónimos do(s) conjunto(s) de dados subjacente(s). Ao ler a reformulação, sabe se as perguntas e respostas perceberam a sua pergunta ou não. 
 * esbate as palavras que não são entendidas.
 
 ## <a name="dont-stop-now"></a>Não parar agora
-Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! Use as funcionalidades interativas da visualização e as Perguntas e Respostas para descobrir mais informações.
+Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! Use as funcionalidades interativas do elemento visual e as Perguntas e Respostas para descobrir mais informações.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Voltar a [Perguntas e Respostas do Power BI](end-user-q-and-a.md)  
 
 [Power BI - conceitos básicos](end-user-basic-concepts.md)  

@@ -1,5 +1,5 @@
 ---
-title: 'Relatórios paginados no Power BI: FAQ (Pré-Visualização)'
+title: 'Relatórios paginados no Power BI: PERGUNTAS FREQUENTES'
 description: Este artigo responde às perguntas mais frequentes sobre os relatórios paginados. Estes relatórios são uma saída de imagem perfeita, altamente formatada e otimizada para impressão ou geração de PDFs.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/05/2018
-ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/18/2019
+ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987791"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345514"
 ---
-# <a name="paginated-reports-in-power-bi-faq-preview"></a>Relatórios paginados no Power BI: FAQ (Pré-Visualização)
+# <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
 Este artigo responde às perguntas mais frequentes sobre os relatórios paginados. Estes relatórios são uma saída de imagem perfeita, altamente formatada e otimizada para impressão ou geração de PDFs. Os relatórios são designados “paginados” porque são formatados para se ajustarem a várias páginas. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. 
 
@@ -26,11 +26,11 @@ Este artigo responde a perguntas muito comuns que as pessoas têm sobre os relat
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Preciso de que tamanho de capacidade Premium para os relatórios paginados?
 
-A carga de trabalho dos relatórios paginados está disponível nos SKUs P1-P3 para pré-visualização pública.  Também pode utilizá-la para cenários de teste/desenvolvimento com os SKUs A4-A6.
+A carga de trabalho dos relatórios paginados está disponível nas SKUs P1 – P3.  Também pode utilizá-la com SKUs A4 – A6 para os cenários incorporados de SaaS.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Qual é o limiar máximo de memória que posso definir para os relatórios paginados na minha capacidade?
 
-Atualmente, pode reservar apenas 50% da memória para esta carga de trabalho. 
+Pode utilizar até 100% da memória para esta carga de trabalho até ao final de junho de 2019. 
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>Como funciona o acesso de utilizador para os relatórios paginados?
 
@@ -38,7 +38,7 @@ O acesso de utilizador para os relatórios paginados é o mesmo que o acesso de 
 
 ### <a name="how-do-i-turn-onoff-my-paginated-reports-workload"></a>Como ativar/desativar a minha carga de trabalho dos relatórios paginados?
 
-O administrador de capacidade pode ativar ou desativar a carga de trabalho dos relatórios paginados na página do portal do administrador de capacidade.  
+O administrador de capacidade pode ativar ou desativar a carga de trabalho dos relatórios paginados na página do portal do administrador de capacidade.  Por predefinição, a carga de trabalho estará disponível para qualquer nova capacidade que criar.  
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Como posso monitorizar a utilização dos relatórios paginados no meu inquilino?
 
@@ -63,7 +63,7 @@ Sim, a monitorização está disponível como um novo separador com os mesmos de
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>Preciso de uma licença Pro para criar e publicar relatórios paginados?
 
-Yes. Não pode carregar relatórios para a área de trabalho sem uma licença Pro. Incentivamos a transferir e utilizar o Power BI Report Builder, mesmo sem a licença Pro, mas não é possível publicar os relatórios paginados que criar sem ele. 
+Pode carregar relatórios paginados para A Minha Área de Trabalho sem uma licença Pro, desde que pertença a uma Capacidade Premium.  Noutras áreas de trabalho, tem de ter uma licença Pro para criar e publicar conteúdo nas mesmas. Incentivamo-lo a transferir e a utilizar o Report Builder do Power BI mesmo sem a licença Pro, mas não pode publicar os relatórios paginados que criar sem esta ferramenta. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>E se eu tiver um relatório paginado numa área de trabalho e a carga de trabalho do relatório paginado estiver desativada?
 
@@ -85,13 +85,13 @@ Os relatórios paginados são melhores para os cenários que exigem uma saída d
 
 Os relatórios do Power BI estão otimizados para a exploração e a interatividade.  Os relatórios do Power BI constituiriam uma melhor solução no caso dos relatórios de vendas em que os diferentes vendedores pretendem segmentar os dados no mesmo relatório pela sua região/indústria/cliente específicos e ver como os números se alteram.
 
-### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>A documentação diz o que Power BI Report Builder é a ferramenta de autoria preferencial. Posso criar relatórios paginados no SQL Server Data Tools para o Power BI?
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>A documentação indica que o Report Builder do Power BI é a ferramenta de criação preferencial. Posso criar relatórios paginados no SQL Server Data Tools para o Power BI?
 
 Sim, mas o serviço Power BI permite-lhe apenas carregar um único item de cada vez, assim, muitos dos cenários que os autores utilizam com o SQL Server Data Tools (SSDT) não são ainda suportados. Veja a [lista completa de funcionalidades não suportadas](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), disponível mais adiante nestas perguntas frequentes.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Quais são as versões do Report Builder suportadas?
 
-Recentemente, foram lançadas Power BI Report Builder como a principal ferramenta de criação para relatórios paginados no serviço Power BI. Instale [do Power BI Report Builder do Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513).
+Lançámos recentemente o Report Builder do Power BI como a principal ferramenta de criação dos relatórios paginados no serviço Power BI. Instale o [Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>Como faço para mover os relatórios existentes, que guardei no SQL Server Reporting Services, para o Power BI?
 
@@ -99,7 +99,7 @@ Terá de transferir os relatórios do servidor e, em seguida, carregá-los no Po
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>Posso abrir relatórios e publicar diretamente no serviço?
 
-Neste momento, não. Estamos a adicionar suporte a abertura de relatórios e publicá-los a diretamente para o serviço do Power BI Report Builder antes da disponibilidade geral, como pode fazer com o Power BI Desktop.
+Yes. Adicionámos recentemente suporte para abrir relatórios e publicá-los diretamente no serviço a partir do Report Builder do Power BI.
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Quais as funcionalidades dos relatórios paginados no SSRS que não são ainda suportadas no Power BI?
 
@@ -108,9 +108,8 @@ Atualmente, os relatórios paginados não suportam os seguintes itens:
 - Origens de dados partilhadas
 - Conjuntos de dados partilhados
 - Sub-relatórios
-- Ações por clique e de pormenorização
+- Pormenorização e click-through para outros relatórios
 - Relatórios ligados
-- Marcadores
 - Camadas de mapa Bing
 - Tipos de letra personalizados
 
@@ -118,13 +117,14 @@ Receberá uma mensagem de erro se tentar carregar um ficheiro que tem uma funcio
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Quais as origens de dados que são suportadas atualmente para os relatórios paginados?
 
-Suportamos a origem de dados seguintes- 
+Suportamos as seguintes origens de dados – 
 
-- Conjuntos de dados do Power BI Premium
-- O Azure Analysis Services (por meio de início de sessão único (SSO))
-- Base de Dados SQL do Azure
+- Conjuntos de dados do Power BI Premium
+- Azure Analysis Services (através do início de sessão único (SSO) e do oAuth)
+- Azure SQL Data Warehouse
+- Base de Dados SQL do Azure (nome de utilizador/palavra-passe e oAuth)
 - SQL Server*
-- SQL Server Analysis Services (SSAS) tabela (DAX) e multidimensionais (MDX) modelos * 
+- Modelos em tabela (DAX) e multidimensionais (MDX) do SQL Server Analysis Services (SSAS)* 
 - Oracle* 
 - Teradata* 
 
@@ -134,11 +134,11 @@ Ao aceder ao SSAS através do Gateway, o utilizador cujas credenciais estão arm
 
 ### <a name="what-authentication-methods-do-you-support"></a>Quais os métodos de autenticação suportados?
 
-Suportamos o SSO para origens de dados do Azure Analysis Services e Power BI Premium.  Para todas as outras origens de dados, atualmente tem de armazenar um nome de utilizador e palavra-passe com a origem de dados no portal ou de gateway.  
+Suportamos o SSO para o Azure Analysis Services e para as origens de dados do Power BI Premium e suportamos o oAuth e o SSO para a Base de Dados SQL do Azure.  Noutras origens de dados, tem de armazenar um nome de utilizador e uma palavra-passe com a origem de dados no portal ou no gateway.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>Posso utilizar um conjunto de dados do Power BI como uma origem de dados para o meu relatório paginado?
 
-Sim, suportamos agora conjuntos de dados do Power BI Premium como fontes de dados para os relatórios paginados.
+Sim, suportamos os conjuntos de dados do Power BI Premium como origens de dados para os relatórios paginados.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>Posso utilizar os procedimentos armazenados através do Gateway?
 
@@ -150,27 +150,19 @@ Pode exportar para o Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF,
 
 ### <a name="can-i-print-paginated-reports"></a>Posso imprimir relatórios paginados?
 
-Sim, impressão está disponível para os relatórios paginados, incluindo uma experiência de visualização de impressão novas e aprimoradas. 
+Sim, a impressão está disponível para os relatórios paginados, incluindo uma experiência de pré-visualização nova e melhorada. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>As subscrições por e-mail já estão disponíveis para os relatórios paginados?
 
-Não, as subscrições por e-mail estarão disponíveis brevemente.
-
-### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Quais as funcionalidades do SSRS que terão suporte no serviço Power BI?
-
-O nosso plano é fornecer a paridade de funcionalidades para a maioria dos cenários. No entanto, poderá não fazer sentido alterar determinadas funcionalidades do SSRS e do Power BI para se ajustar aos padrões do SSRS existentes.  Por exemplo, os vários modelos de permissão do Power BI não podem ser mapeados novamente ao SSRS.  Estaremos atentos ao feedback dos clientes e parceiros para tomar estes tipos de decisões.
+Sim, as subscrições por e-mail são totalmente suportadas para relatórios paginados e incluem o suporte para seis formatos de ficheiro e valores de parâmetros diferentes.
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>Posso executar código personalizado no meu relatório?
 
 Sim, suportamos a capacidade de executar código nos seus relatórios, tal como no SSRS.
 
-### <a name="does-this-mean-ssrs-is-going-away"></a>Este suporte significa que o SSRS está a acabar?
-
-De modo algum.  Esta nova oferta disponibiliza aos clientes uma opção com base na cloud para os relatórios paginados.  
-
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Posso utilizar o Power BI incorporado para incorporar os meus relatórios paginados numa aplicação que estou a alojar?
 
-Planeamos suportar este cenário com as APIs existentes do Power BI, mas não temos ainda uma calendarização para quando este cenário estará disponível.
+A incorporação do SaaS será suportada durante o mês de junho.  Planeamos suportar também o PaaS incorporado com as APIs do Power BI existentes, mas não temos ainda um intervalo de tempo para quando este cenário estará disponível.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Posso pormenorizar de um relatório do Power BI para um relatório paginado?
 
@@ -178,7 +170,7 @@ Ainda não, mas planeamos suportar este cenário.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>Posso partilhar o meu conteúdo de relatório paginado através de uma aplicação do Power BI?
 
-Sim, os relatórios paginados são suportados a serem implantados com aplicações de áreas de trabalho de ambos o v1 e v2. 
+Sim, os relatórios paginados são suportados para serem implantados com aplicações das áreas de trabalho v1 e v2. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>As outras funcionalidades específicas do relatório do Power BI, como afixar mosaicos de relatório em dashboards, funcionarão com os relatórios paginados?
 
@@ -190,7 +182,7 @@ Estamos a avaliar as opções para permitir que os conteúdos sejam movidos para
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Serei alguma vez capaz de criar relatórios paginados e relatórios do Power BI numa única ferramenta de criação?
 
-Poderá vir a ser possível.  Atualmente, estamos a analisar as formas de permitir este cenário e a determinar se apenas distribuiremos as ferramentas de criação como um único conjunto do Power BI ou se teremos transferências/aplicações de imagens corporativas individuais.
+Procurámos formas de ativar este cenário, mas isso não faz parte dos nossos planos neste momento.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Existe um controlo de visualizador de relatório para relatórios paginados no serviço Power BI?
 
@@ -198,9 +190,9 @@ Não, atualmente, não está disponível um controlo de visualizador de relatór
 
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Pode-se procurar os relatórios paginados na nova experiência Raiz no serviço Power BI?
 
-Não, atualmente não pode procurar os relatórios paginados na Raiz.  No entanto, pode vê-los noutras partes da nova experiência Raiz.
+Sim, atualmente não pode procurar os relatórios paginados na Home Page.  Mas poderá vê-los noutras partes da nova experiência da Home Page.
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Instalar o Power BI Report Builder a partir do Centro de transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Instalar o Report Builder do Power BI a partir do Centro de Transferências da Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)

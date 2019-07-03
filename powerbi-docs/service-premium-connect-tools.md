@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/18/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
+ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448316"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67235064"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Ligar aos conjuntos de dados com ferramentas e aplicações cliente (Pré-visualização)
 
@@ -100,6 +100,10 @@ Os seguintes conjuntos de dados não estão acessíveis ao utilizar pontos finai
 Os seguintes conjuntos de dados não são suportados no serviço Power BI:   
 
 - Conjuntos de dados com Ligação em Direto para um conjunto de dados do Power BI.
+
+### <a name="roles-and-role-memberships"></a>Funções e associações de funções
+
+Atualmente, as funções de modelo e as associações de funções não são detetáveis nem apresentadas ao utilizar pontos finais XMLA.
 
 ## <a name="audit-logs"></a>Registos de auditoria 
 
