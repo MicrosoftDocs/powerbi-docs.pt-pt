@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389541"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418654"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -22,11 +22,7 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
-Registe-se para ouvir os peritos do Power BI e participar em sessões de Perguntas e Respostas em direto.
-
-**Power BI: How to Get Insights from Your Workday HR Data** (Power BI: Como Obter Informações dos seus Dados Diários de Recursos Humanos)
-<br>por Iman Eftekhari e Julia Paton da Agile Analytics, e Shahram Karimi da QBE Insurance
-<br>[Registe-se para ver este webinar no dia 27 de junho, das 13:30 às 14:30 (Hora Padrão do Pacífico)](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+Ainda não existe nenhum webinar agendado. Volte a consultar esta secção em breve para mais eventos futuros.
 
 >[Próximos webinars da comunidade do Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ Veja as sessões gravadas em qualquer altura
 
 ### <a name="partner-solutions-series"></a>Partner Solutions Series (Série de Soluções para Parceiros) ###
 [Ver esta série](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: How to Get Insights from Your Workday HR Data** (Power BI: Como Obter Informações dos seus Dados Diários de Recursos Humanos)
+<br>por Iman Eftekhari e Julia Paton da Agile Analytics, e Shahram Karimi da QBE Insurance
+<br>[Registar-se e ver agora](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Alcançar uma Vitória para Fabricantes e Revendedores de Bens de Consumo)
 <br>por Liz McCreesh da Thorogood

@@ -10,23 +10,22 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349307"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418758"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação
 
-## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
 O pacote de conteúdos de exemplo Rentabilidade do Cliente contém um dashboard, um relatório e um conjunto de dados para uma empresa que fabrica materiais de marketing. Este dashboard foi criado por uma diretora financeira para ver as principais métricas sobre os seus cinco gestores (executivos) de unidade de negócio, produtos, clientes e margens brutas (GM). Desta forma, pode ver rapidamente que fatores têm impacto na rentabilidade.
 
 ![Dashboard do exemplo de Rentabilidade do Cliente](media/sample-customer-profitability/power-bi-dash.png)
 
-Este exemplo faz parte de uma série que mostra como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Foi criado com dados reais anónimos da [obviEnce](http://www.obvience.com/), que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, ficheiro .pbix do Power BI Desktop ou livro do Excel. Veja [Samples for Power BI](sample-datasets.md) (Exemplos para o Power BI). 
+Este exemplo faz parte de uma série que mostra como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Foi criado com dados reais da [obviEnce](http://www.obvience.com/), que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote/aplicação de conteúdos, ficheiro .pbix do Power BI Desktop ou livro do Excel. Veja [Exemplos do Power BI](sample-datasets.md). 
 
-Este tutorial utiliza o serviço Power BI e o pacote de conteúdos de exemplo Rentabilidade do Cliente. Uma vez que as experiências do relatório são muito semelhantes, também pode acompanhar com o Power BI Desktop e o ficheiro .pbix de exemplo. 
+Este tutorial utiliza o serviço Power BI e o pacote de conteúdos de exemplo Rentabilidade do Cliente. Uma vez que as experiências do relatório são muito semelhantes, também pode acompanhar com o Power BI Desktop e o ficheiro .pbix de exemplo. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -34,7 +33,7 @@ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de c
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 
-1. Abra o serviço Power BI (app.powerbi.com), inicie sessão e abra a área de trabalho onde quer guardar o exemplo.
+1. Abra o serviço Power BI (app.powerbi.com), inicie sessão e abra a área de trabalho onde quer guardar o exemplo.
 
 2. No canto inferior esquerdo, selecione **Obter Dados**.
 
@@ -44,7 +43,7 @@ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de c
 4. Selecione **Exemplo de Rentabilidade do Cliente** e, em seguida, **Ligar**.  
 
     ![Ligar ao exemplo](media/sample-customer-profitability/get-supplier-sample.png)
-5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados à sua área de trabalho atual.
+5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, um relatório e um conjunto de dados à área de trabalho atual.
 
     ![Entrada do Exemplo de Rentabilidade do Cliente](media/sample-customer-profitability/customer-profitability-sample-entry.png)
 
@@ -203,9 +202,8 @@ Analisemos o setor de Distribuição.
 
     Podemos explorar de forma semelhante a outros setores e até mesmo adicionar clientes aos nossos visuais para compreender as causas para o desempenho de Valery.
 
+## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
-Esperamos que esta tour tenha mostrado como os dashoards do Power BI, perguntas e respostas, e os relatórios podem fornecer informações sobre dados do cliente. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
+Esperamos que esta tour tenha mostrado como os dashoards do Power BI, perguntas e respostas, e os relatórios podem fornecer informações sobre dados do cliente. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
 
-[Samples for Power BI](sample-datasets.md) (Exemplos para o Power BI)  

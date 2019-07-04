@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: ae2e4dcfe1fdcd88c3e6ff9e4942afdedf9d126b
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: 762a28d2340a691316b1aaf26b7ce62d45cc7496
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349426"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418748"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: veja uma apresentação
 
-## <a name="overview-of-the-human-resources-sample"></a>Descrição geral de exemplo para os Recursos Humanos
 O pacote de conteúdos de exemplo de Recursos Humanos contém um dashboard, um relatório e um conjunto de dados para um departamento de recursos humanos. Neste exemplo, o departamento de recursos humanos tem o mesmo modelo de relatório em diferentes empresas, mesmo quando existem diferenças no setor ou na dimensão. Este exemplo aborda novas contratações, funcionários ativos e funcionários que saíram. Tenta identificar as tendências na estratégia de contratação. Os nossos principais objetivos devem compreender:
 
 * Quem contratamos
@@ -159,7 +158,7 @@ Na [caixa Perguntas e Respostas](power-bi-tutorial-q-and-a.md) no dashboard, pod
 
    Veja que a maioria das más contratações de mulheres estão abaixo de 30 anos.
 
+## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
 Esperamos que este tour tenha mostrado como os dashboards, o P e R e os relatórios do Power BI podem apresentar informações sobre os dados de recursos humanos. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
