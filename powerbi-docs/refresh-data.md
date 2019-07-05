@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038941"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418796"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -234,7 +234,7 @@ Existem duas opções para configurar um gateway de dados que suporte a intercal
 
 ![Atualizar através do cluster de gateway](media/refresh-data/refresh-gateway-cluster.png)
 
-Caso selecione a caixa de verificação **Permitir que as origens de dados na cloud do utilizador atualizem através deste cluster de gateway na configuração do gateway**, tal como na captura de ecrã acima, o Power BI poderá utilizar a configuração que o utilizador definiu para a origem na cloud em **Credenciais da origem de dados** nas definições do conjunto de dados. Isto pode ajudar a reduzir a sobrecarga da configuração do gateway. Por outro lado, se quiser ter maior controlo sobre as ligações que o gateway estabelece, não deve ativar esta caixa de verificação. Neste caso, tem de adicionar uma definição de origem de dados explícita para cada origem na cloud para a qual pretenda suporte no seu gateway. Também é possível selecionar a caixa de verificação e adicionar definições de origem de dados explícitas para as origens na cloud a um gateway. Neste caso, o gateway utiliza as definições da origem de dados para todas as origens correspondentes.
+Caso selecione a caixa de verificação **Permitir que as origens de dados de cloud do utilizador atualizem através deste cluster de gateway na configuração do gateway**, tal como na captura de ecrã acima, o Power BI poderá utilizar a configuração que o utilizador definiu para a origem na cloud em **Credenciais da origem de dados** nas definições do conjunto de dados. Isto pode ajudar a reduzir a sobrecarga da configuração do gateway. Por outro lado, se quiser ter maior controlo sobre as ligações que o gateway estabelece, não deve ativar esta caixa de verificação. Neste caso, tem de adicionar uma definição de origem de dados explícita para cada origem na cloud para a qual pretenda suporte no seu gateway. Também é possível selecionar a caixa de verificação e adicionar definições de origem de dados explícitas para as origens na cloud a um gateway. Neste caso, o gateway utiliza as definições da origem de dados para todas as origens correspondentes.
 
 ### <a name="configuring-query-parameters"></a>Configurar parâmetros de consulta
 
@@ -272,7 +272,7 @@ A secção **Atualização agendada** é o local no qual define a frequência e 
 
 ![Configurar a atualização agendada](media/refresh-data/configure-scheduled-refresh.png)
 
-Depois de configurar uma agenda de atualização, a página de definições do conjunto de dados informa-o sobre a próxima hora de atualização, tal como na captura de ecrã acima. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, faça uma atualização a pedido com a opção Atualizar Agora no menu do conjunto de dados no painel de navegação esquerdo. As atualizações a pedido não afetam a hora de atualização agendada seguinte, mas contam para o limite diário de atualizações, conforme explicado anteriormente neste artigo.
+Depois de configurar uma agenda de atualização, a página de definições do conjunto de dados informa-o sobre a próxima hora de atualização, tal como na captura de ecrã acima. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, faça uma atualização a pedido com a opção **Atualizar Agora** no menu do conjunto de dados no painel de navegação esquerdo. As atualizações a pedido não afetam a hora de atualização agendada seguinte, mas contam para o limite diário de atualizações, conforme explicado anteriormente neste artigo.
 
 Tenha também em atenção que a hora de atualização configurada pode não ser a hora exata em que o Power BI inicia o processo agendado seguinte. O Power BI inicia as atualizações agendadas com base no melhor esforço. O objetivo é iniciar a atualização no espaço de 15 minutos do intervalo de tempo agendado, mas pode ocorrer um atraso de até uma hora, se o serviço não conseguir alocar os recursos necessários mais cedo.
 
@@ -283,7 +283,7 @@ Tenha também em atenção que a hora de atualização configurada pode não ser
 
 Por predefinição, o Power BI envia notificações de falha de atualização por e-mail para o proprietário do conjunto de dados para que o proprietário possa agir atempadamente caso ocorram problemas de atualização. O Power BI também lhe envia uma notificação quando o serviço desativa a sua agenda devido a falhas consecutivas. A Microsoft recomenda que deixe a caixa de verificação **Enviar e-mails de notificação de falha de atualização para mim** selecionada.
 
-Tenha em atenção que o Power BI não só envia notificações sobre falhas de atualização, mas também quando o serviço coloca em pausa uma atualização agendada devido a inatividade. Após dois meses, se nenhum utilizador tiver visitado nenhum dos dashboards ou relatórios incorporados no conjunto de dados, o Power BI considera o conjunto de dados inativo. Nesta situação, o Power BI envia uma mensagem de e-mail para o proprietário do conjunto de dados com a indicação de que o serviço desativou a agenda de atualização para o conjunto de dados. Veja a seguinte captura de ecrã para obter um exemplo de uma notificação desse tipo.
+Tenha em atenção que o Power BI não só envia notificações sobre falhas de atualização, mas também quando o serviço coloca em pausa uma atualização agendada devido a inatividade. Após dois meses, se nenhum utilizador tiver visitado nenhum dos dashboards ou relatórios incorporados no conjunto de dados, o Power BI considera o conjunto de dados inativo. Nesta situação, o Power BI envia uma mensagem de e-mail para o proprietário do conjunto de dados com a indicação de que o serviço colocou a agenda de atualização em pausa para o conjunto de dados. Veja a seguinte captura de ecrã para obter um exemplo de uma notificação desse tipo.
 
 ![E-mail para a atualização em pausa](media/refresh-data/email-paused-refresh.png)
 
