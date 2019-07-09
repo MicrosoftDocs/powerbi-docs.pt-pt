@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
+ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418796"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67561803"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -177,6 +177,8 @@ A Microsoft recomenda utilizar um gateway de dados empresarial em vez de um gate
 Ligar um conjunto de dados a um gateway empresarial é relativamente simples se for administrador de um gateway. Com permissões de administrador, pode atualizar de imediato o gateway e adicionar origens de dados em falta, se for necessário. Na verdade, pode adicionar uma origem de dados em falta ao seu gateway diretamente a partir da página de definições do conjunto de dados. Expanda o botão de alternar para ver as origens de dados e selecione a ligação **Adicionar ao gateway**, conforme apresentado na seguinte captura de ecrã. Por outro lado, se não for administrador de um gateway, utilize as informações de contactos apresentadas para enviar um pedido para o administrador do gateway para adicionar a definição de origem de dados necessária.
 
 ![Adicionar ao gateway](media/refresh-data/add-to-gateway.png)
+
+Certifique-se de que mapeia a definição da origem de dados correta à sua origem de dados. Como a captura de ecrã acima ilustra, os administradores do gateway podem criar múltiplas definições num único gateway ligado à mesma origem de dados – cada um com credenciais diferentes. Nos exemplos mostrados, um proprietário de um conjunto de dados do Departamento de Vendas escolheria a definição de origem de dados AdventureWorksProducts-Vendas, enquanto um proprietário de um conjunto de dados do Departamento de Suporte mapearia esse mesmo conjunto de dados à definição de origem de dados AdventureWorksProducts-Suporte. Se os nomes da definição da origem de dados não forem intuitivos, contacte o seu administrador do gateway para saber quais definições deve escolher.
 
 > [!NOTE]
 > Um conjunto de dados só pode utilizar uma única ligação de gateway. Por outras palavras, não é possível aceder a origens de dados no local através de múltiplas ligações de gateway. Da mesma forma, tem de adicionar todas as definições de origem de dados necessárias ao mesmo gateway.
