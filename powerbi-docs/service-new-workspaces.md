@@ -1,5 +1,5 @@
 ---
-title: Organizar o trabalho nas novas áreas de trabalho – Power BI
+title: Organizar o trabalho nas novas áreas de trabalho no Power BI
 description: Saiba mais sobre as novas áreas de trabalho, que são coleções de dashboards e relatórios criadas para disponibilizar métricas importantes à sua organização.
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345546"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418663"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -135,7 +135,7 @@ Algumas funcionalidades funcionam de forma diferente das áreas de trabalho atua
 - Os membros podem ou não podem voltar a partilhar: esta opção foi substituída pela função Contribuidor
 - Áreas de trabalho só de leitura: em vez de conceder aos utilizadores acesso só de leitura a uma área de trabalho, atribua os utilizadores à função Visualizador, que permite um acesso só de leitura semelhante ao conteúdo numa área de trabalho.
 - Quando a área de trabalho está numa capacidade do Power BI Premium, os utilizadores sem uma licença do Pro podem aceder à mesma, mesmo que tenham apenas a função Visualizador.
-- Para permitir aos utilizadores com a função Visualizador exportar dados, confirme que têm permissão de Compilação nos conjuntos de dados da área de trabalho.
+- Para permitir aos utilizadores com a função Visualizador exportar dados, confirme que têm permissão de Compilação nos conjuntos de dados da área de trabalho. Saiba mais sobre as [Permissões de compilação para conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 - O botão **Sair da área de trabalho** não existe.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

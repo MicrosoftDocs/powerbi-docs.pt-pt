@@ -1,16 +1,37 @@
+---
+title: Criar uma área de trabalho – Power BI
+description: Como criar uma área de trabalho – incluir
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: pt-PT
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534713"
+---
 1. Comece por criar a área de trabalho. Selecione **Áreas de Trabalho** > **Criar área de trabalho de aplicação**. 
    
      ![Criar área de trabalho de aplicação](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    Este será o local para colocar conteúdos nos quais irá colaborar, bem como os seus colegas.
+    Aqui pode colocar os conteúdos em que colabora com os seus colegas.
 
-2. Atribua um nome à área de trabalho. Se o **ID da área de trabalho** correspondente não estiver disponível, edite-o para obter um ID exclusivo.
+2. Na faixa **Está a criar uma área de trabalho atualizada**, clique em **Reverter para clássica**. 
+
+    ![Opção Reverter para clássica referente à área de trabalho](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. Atribua um nome à área de trabalho. Se o **ID da área de trabalho** correspondente não estiver disponível, edite-o para obter um ID exclusivo.
    
-     Este será também o nome da aplicação.
+     A aplicação terá o mesmo nome.
    
      ![Atribuir um nome à área de trabalho](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. Tem algumas opções a definir. Se optar por **Pública**, qualquer pessoa na sua organização pode ver o que está na área de trabalho. **Privada**, por outro lado, significa que apenas os membros da área de trabalho podem ver o respetivo conteúdo.
+3. Tem algumas opções a definir. Se optar por **Pública**, qualquer pessoa na sua organização pode ver o que está na área de trabalho. **Privada** significa que apenas os membros da área de trabalho podem ver os seus conteúdos.
    
      ![Definir como Privada ou Pública](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    
@@ -20,7 +41,7 @@
    
      ![Definir editar ou só de visualização](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Adicione pessoas à área de trabalho para que possam editar o conteúdo. Se só virem o conteúdo, nãos as adicione à área de trabalho. Pode inclui-las quando publicar a aplicação.
+     Adicione pessoas à área de trabalho para que possam editar o conteúdo. Se só virem o conteúdo, nãos as adicione à área de trabalho. Pode incluí-las quando publicar a aplicação.
 
 5. Adicione os endereços de e-mail das pessoas que pretende que tenham acesso à área de trabalho e selecione **Adicionar**. Não é possível adicionar aliases de grupo, apenas indivíduos.
 

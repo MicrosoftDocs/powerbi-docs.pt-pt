@@ -8,72 +8,74 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 5/10/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 02652bd027d7dab8a40d77fb92c5aae8f09d8820
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65607879"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532171"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
-## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
-Um Power BI ***relatório*** é uma vista de várias perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas repletas de elementos visuais. Consoante o seu cargo, pode ser alguém que *designs* relatórios e/ou pode ser alguém que *consome* ou utiliza relatórios.
 
-![página de relatório](./media/end-user-reports/power-bi-report.png)
+Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser alguém que *consome* ou utiliza relatórios.
 
-Este relatório tem seis páginas (ou separadores) e estamos atualmente a ver a página de sentimentos. Nesta página são 6 diferentes elementos visuais e um título de página.  
+![Captura de ecrã a mostrar uma página de relatórios.](./media/end-user-reports/power-bi-report.png)
 
-Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](end-user-basic-concepts.md)
+Este relatório tem quatro páginas (ou separadores) e está atualmente a ver a página **Sentiment** (Sentimento). Nesta página, existem cinco elementos visuais diferentes e um título de página.
 
-Relatórios estão disponíveis para ver, partilhar e anotar em dispositivos móveis. Para obter mais informações, consulte [relatórios móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
+Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, partilha e criação de notas em dispositivos móveis. Para obter mais informações, veja [Explorar relatórios nas aplicações móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Vantagens dos relatórios
-Um relatório é baseado num único conjunto de dados. Os elementos visuais num relatório são criados por relatório *designers* e representam uma, um grupo de informações. E os elementos visuais não são estáticos; pode interagir com os elementos visuais e filtros à medida que investiga os dados para descobrir informações e procurar respostas. Tal como um dashboard, mas mais ainda, um relatório é altamente interativo e personalizável e os elementos visuais atualizam à medida que os dados correspondentes mudam.
+
+O Power BI baseia um relatório num único conjunto de dados. Os *estruturadores* de relatórios criam os elementos visuais que representam um grupo de informações num relatório. Os elementos visuais não são estáticos.  São atualizados à medida que os dados subjacentes sofrem alterações. Pode interagir com os elementos visuais e os filtros à medida que explora os dados para descobrir informações e procurar respostas. Tal como um dashboard, um relatório é altamente interativo e personalizável.
 
 ### <a name="safely-interact-with-content"></a>Interagir com conteúdos de forma segura
-À medida que explora e interage com o seu conteúdo, filtragem, de fragmentação, subscrever e exportar, esteja certo; seu trabalho não afeta o conjunto de dados subjacente ou o conteúdo partilhado original (dashboards, relatórios e aplicações).
- 
-> [!NOTE]
-> Lembre-se de que não pode prejudicar o seus dados. O Power BI é um ótimo lugar para que possa explorar e experimente sem se preocupar "estragar" nada.
 
-### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Guardar as alterações ou reverter para as predefinições
-Isso não significa que não é possível guardar as alterações; Pode, mas essas alterações afetam apenas o modo de exibição do conteúdo. Reverter para o modo de exibição original do padrão é tão simples como selecionar a reposição do botão padrão.
+À medida que explora e interage com os seus conteúdos, ao filtrar, segmentar dados, subscrever e exportar, não pode danificar o funcionamento dos relatórios. O seu trabalho não afeta o conjunto de dados subjacente ou os conteúdos partilhados originais. Esta afirmação aplica-se a dashboards, relatórios e aplicações.
+
+> [!NOTE]
+> Lembre-se de que não pode danificar os seus dados. O Power BI é um excelente local para explorar e experimentar sem se preocupar com a possibilidade de danificar dados.
+
+### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Guardar as suas alterações ou reverter para as predefinições
+
+Esta ação não significa que não pode guardar as suas alterações. Pode fazê-lo, mas essas alterações só irão afetar a sua vista dos conteúdos. Para reverter para a vista predefinida original do relatório, selecione **Repor para predefinição**.
 
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
-[Dashboards](end-user-dashboards.md) costumam ser confundidos com os relatórios, pois também são telas preenchidas com elementos visuais. No entanto, existem algumas diferenças importantes.  
+
+Os [Dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios pois também são telas preenchidas com elementos visuais. No entanto, existem algumas diferenças importantes.  
 
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
-| Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando são cumpridas determinadas condições |Não |
-| Destaque |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
-| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados mas não é possível ver o conjunto de dados tabelas e campos no próprio dashboard. |Yes. Pode ver o conjunto de dados tabelas e campos e os valores que tem permissões para ver. |
-| Personalização |Não  |Pode filtrar, exportar, ver conteúdos relacionados, adicionar marcadores, gerar códigos QR, analisar no Excel e muito mais.   |
+| Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando um dashboard cumpre determinadas condições |Não |
+| Funcionalidade |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
+| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver os campos e tabelas do conjunto de dados no próprio dashboard |Yes. Pode ver campos e tabelas de conjuntos de dados e valores para os quais tem permissões de visualização |
+| Personalização |Não  |Pode filtrar, exportar, ver conteúdos relacionados, adicionar marcadores, gerar códigos QR, analisar no Excel e mais |
 
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-creators-and-report-consumers"></a>***Criadores*** e ***consumidores*** de relatórios.
-Consoante o seu cargo, pode ser um *designer*, alguém que cria relatórios para sua utilização ou para partilhar com colegas. Quer saber como criar e partilhar relatórios. Também pode ser uma pessoa que recebe relatórios de terceiros. Quer saber como compreender e interagir com os relatórios. Se for um relatório **consumidor**, estas ligações são para. 
+## <a name="report-designers-and-report-consumers"></a>Estruturadores e consumidores de relatórios
+
+Consoante a sua função, pode ser um *estruturador*, isto é, uma pessoa que cria relatórios para sua utilização ou para partilhar com colegas. Assim, vai querer saber como pode criar e partilhar relatórios.
+
+Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relatórios de terceiros. Vai querer saber como pode compreender e interagir com os relatórios. Se for um *consumidor* de relatórios, veja estas ligações:
 
 * Comece por uma [apresentação do serviço Power BI](end-user-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
 * Saiba como [abrir um relatório](end-user-report-open.md) e todas as interações disponíveis na [Vista de leitura](end-user-reading-view.md).
 * Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](../sample-tutorial-connect-to-the-samples.md).  
-<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
-* Para ver que conjunto de dados o relatório está a utilizar e que dashboards têm esta informação afixada do relatório, [veja os conteúdos relacionados](end-user-related.md).
+* Para ver que conjunto de dados está a ser utilizado pelo relatório e que dashboards têm mosaicos afixados do relatório, veja [Ver conteúdos relacionados no serviço Power BI](end-user-related.md).
 
 > [!TIP]
-> Se não encontrou aqui o que procurava, utilize o Índice à esquerda para procurar todos os tópicos de *relatórios*.
-> 
-> 
+> Se não encontrou aqui o que procurava, utilize o índice à esquerda para procurar todos os artigos sobre *Relatórios*.
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](../power-bi-overview.md) 
 
-[Power BI - Conceitos Básicos](end-user-basic-concepts.md)
+[O que é o Power BI?](../power-bi-overview.md)
 
+[Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md)

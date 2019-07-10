@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144116"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533162"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Adicionar imagem, texto, vídeo e muito mais ao dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -99,7 +99,7 @@ Cole ou introduza qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, com
       ![dashboard com 4 mosaicos](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Sugestões para incorporar o conteúdo Web
-* Para iframes, utilize uma origem segura. Se introduzir o código de incoporação do iframe e obter um mosaico em branco, verifique se está a utilizar **http** para a origem de iframe.  Nesse caso, altere-a para **https**.
+* Para iframes, utilize uma origem segura. Se introduzir o código de incorporação do iframe e obter um mosaico em branco, verifique se está a utilizar **http** para a origem de iframe.  Nesse caso, altere-a para **https**.
   
   ```html
   <iframe src="https://xyz.com">
@@ -119,7 +119,7 @@ Cole ou introduza qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, com
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* Este código incorpora um tweet e mantém, como ligações separadas no dashboard, as ligações para o podcast **AFK**, **a página do Twitter do @GuyInACube** , **Seguir**, **#analytics**, **responder**, **fazer retweet** e **gostar**.  Selecionar o mosaico propriamente dito leva-o até ao podcast no Twitter.
+* Este código incorpora um tweet e mantém, como ligações separadas no dashboard, as ligações para o podcast **AFK**, **\@a página do Twitter de GuyInACube**, **Seguir**, **#analytics**, **responder**, **fazer retweet** e **gostar**.  Selecionar o mosaico propriamente dito leva-o até ao podcast no Twitter.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

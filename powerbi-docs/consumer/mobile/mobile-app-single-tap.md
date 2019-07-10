@@ -1,6 +1,6 @@
 ---
-title: Configurar a interação de relatório para único toque
-description: Saiba como configurar a interação de relatório de toque simples ou dupla.
+title: Configurar a interação em relatórios para toque único
+description: Saiba como configurar a interação em relatórios para toque único ou duplo.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c7f5476ed9d47cc42f275d51801a44c4ee3482ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61340724"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558974"
 ---
-# <a name="configure-report-interaction-to-single-tap-or-double-tap-preview"></a>Configurar a interação de relatório para toque único ou duplo toque (pré-visualização)
+# <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>Configurar a interação em relatórios para toque único ou duplo
 Aplica-se a:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Telemóvel Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | 
@@ -25,24 +25,24 @@ Aplica-se a:
 
 Um relatório do Power BI é uma vista interativa dos seus dados, com visuais que representam diferentes descobertas e informações obtidas por meio desses dados.
 
-É possível configurar como interagir com os seus dados. Pode decidir se deseja ter a interação de toque único ou duplo toque interação.
+Pode configurar o modo de interação com os seus dados. Pode decidir se pretende uma interação de toque único ou duplo.
 
-* Interação de duplo toque, sua primeira toque num elemento visual seleciona-lo e, apenas o segundo toque num elemento visual executa a ação em si, como seleção de item de segmentação de dados, realce cruzado ou clique num link, botão e assim por diante.
+* No caso da interação de toque duplo, um elemento visual é selecionado com o primeiro toque. A ação seguinte, como a seleção de itens em segmentações de dados, o realce cruzado ou o clique numa ligação ou botão, só é realizada com o segundo toque.
 
-* Interação de toque único, um toque ambos – seleciona o elemento visual e executa a ação.
-![Power BI móvel único toque](./media/mobile-app-single-tap/single-tap-2.gif)
+* Com uma interação de toque único, um toque seleciona o elemento visual e executa a ação.
+![Toque único no Power BI para dispositivos móveis](./media/mobile-app-single-tap/single-tap-2.gif)
 
 
-A partir do Power BI 18.0 de versão da aplicação para iOS e 112540 para Android, todas as novas instalações serão configuradas com toque único como um comportamento predefinido.
-Os utilizadores que já tem instalado no telemóvel do Power BI e irão atualizar para estas novas versões, será oferecido para mudar para o único toque.
+A partir das versões do Power BI 18.0 para iOS e 112540 para Android, todas as novas instalações serão configuradas com o Toque único como comportamento predefinido.
+Será sugerida a alteração para toque único aos utilizadores que já têm o Power BI instalado no telemóvel e pretendem fazer a atualização para estas novas versões.
 
-## <a name="change-interaction-behavior"></a>Alterar o comportamento de interação
+## <a name="change-interaction-behavior"></a>Alterar comportamento de interação
 
-Para alterar o comportamento de interação, pode ir para as definições da aplicação e ativar/desativar a interação de toque único.
+Para alterar o comportamento de interação, aceda às definições da aplicação e ative/desative a interação de toque único.
 
-![Power BI mobile alterar a interação de relatório](./media/mobile-app-single-tap/configure-single-tap.png)
+![Alterar a interação em relatórios da aplicação móvel Power BI](./media/mobile-app-single-tap/configure-single-tap.png)
 
-Este artigo aplica-se para relatórios de telefone e ambos paisagem.
+Este artigo aplica-se a relatórios de telemóveis e a relatórios no modo horizontal.
 
 ## <a name="next-steps"></a>Próximos passos
 * [Ver e interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)

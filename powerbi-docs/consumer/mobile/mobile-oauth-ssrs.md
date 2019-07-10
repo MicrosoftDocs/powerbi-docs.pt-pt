@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770364"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559078"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 
@@ -25,7 +25,7 @@ Saiba como configurar o ambiente para suportar a autenticação OAuth com a apli
 Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Services para apresentar relatórios móveis ou KPIs. O Windows Server 2016 inclui algumas melhorias na função do Proxy de Aplicações Web (WAP) para permitir este tipo de autenticação.
 
    > [!NOTE]
-   > Ver relatórios do Power BI alojado no servidor de relatórios do Power BI através de WAP para autenticar é atualmente suportado apenas na aplicação iOS. Aplicação Android não é oficialmente suportada neste momento.
+   > A visualização de relatórios do Power BI alojados no Power BI Report Server com a utilização de WAP para autenticação é agora suportada para aplicações iOS e Android.
 
 ## <a name="requirements"></a>Requirements
 
@@ -63,7 +63,7 @@ Para obter informações sobre como configurar o Nome do Principal do Serviço (
 
 ### <a name="enabling-negotiate-authentication"></a>Ativar a autenticação de negociação
 
-Para permitir que um servidor de relatórios utilize a autenticação Kerberos, terá de configurar o Tipo de Autenticação do servidor de relatórios para ser RSWindowsNegotiate. Isto é realizado no ficheiro rsreportserver.config.
+Para permitir que um servidor de relatórios utilize a autenticação Kerberos, terá de configurar o Tipo de Autenticação do servidor de relatórios para ser RSWindowsNegotiate. Pode fazê-lo no ficheiro rsreportserver.config.
 
 ```xml
 <AuthenticationTypes>  
@@ -81,7 +81,7 @@ Terá de configurar o AD FS num servidor do Windows 2016 no seu ambiente. Isto p
 
 ### <a name="create-an-application-group"></a>Criar um grupo de aplicações
 
-No ecrã de Gestão do AD FS, irá criar um grupo de aplicações para o Reporting Services que irá incluir informações das aplicações móveis do Power BI.
+No ecrã de Gestão do AD FS, crie um grupo de aplicações para o Reporting Services, que irá incluir informações das aplicações Power BI Mobile.
 
 Pode criar o grupo de aplicações com os seguintes passos.
 
@@ -118,7 +118,7 @@ Pode criar o grupo de aplicações com os seguintes passos.
    > [!NOTE]
    > Este URL é sensível a maiúsculas e minúsculas!
 
-   *https://< url do servidor de relatórios > / relatórios*
+   *https://< URL do servidor de relatórios >/reports*
 
    ![Assistente de Grupo de Aplicações 03 dos AD FS](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Selecione **Seguinte**.
@@ -141,7 +141,7 @@ Quando tiver terminado, as propriedades do grupo de aplicações deverão ser se
 
 ## <a name="web-application-proxy-wap-configuration"></a>Configuração de Proxy de Aplicações Web (WAP)
 
-Deverá ativar a função do Proxy de Aplicações Web (Função) do Windows num servidor do seu ambiente. Tem de ser num servidor do Windows 2016. Para obter mais informações, veja [Web Application Proxy in Windows Server 2016 (Proxy de Aplicações Web no Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) e [Publishing Applications using AD FS Preauthentication (Publicar aplicações com a Pré-autenticação do AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Deverá ativar a função do Proxy de Aplicações Web (Função) do Windows num servidor do seu ambiente. Esta ação só é suportada num servidor do Windows 2016. Para obter mais informações, veja [Web Application Proxy in Windows Server 2016 (Proxy de Aplicações Web no Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) e [Publishing Applications using AD FS Preauthentication (Publicar aplicações com a Pré-autenticação do AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Configuração de delegação restrita
 
@@ -239,7 +239,7 @@ Pode ativar a autenticação multifator para ativar segurança adicional no seu 
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Vê o erro Falha ao iniciar sessão no servidor SSRS. Verifique a configuração do servidor.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Vê o erro Falha ao iniciar sessão no servidor SSRS. Verifique a configuração do servidor.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

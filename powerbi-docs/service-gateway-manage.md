@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469785"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559063"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Gerir um gateway no local do Power BI
 
@@ -31,6 +31,8 @@ Se instalou recentemente um gateway, recomendamos que [adicione uma origem de da
 
 O Power BI suporta várias origens de dados no local, sendo que cada uma delas tem os seus próprios requisitos. Pode utilizar um gateway para uma única origem de dados ou para múltiplas origens de dados. Neste exemplo, vamos mostrar-lhe como adicionar o SQL Server como uma origem de dados, mas os passos são semelhantes para outras origens de dados.
 
+> [!NOTE]
+> Os administradores do Gateway podem agora criar múltiplas origens de dados ligadas à mesma origem – cada uma com credenciais diferentes – e adicionar utilizadores a todas as origens de dados com base no nível de acesso.
 
 ### <a name="add-a-data-source"></a>Adicionar uma origem de dados
 
@@ -53,6 +55,11 @@ O Power BI suporta várias origens de dados no local, sendo que cada uma delas 
 
 1. Para o SQL Server, deveria escolher um **Método de Autenticação** do **Windows** ou **Básico** (Autenticação SQL).  Se optar por **Básico**, introduza as credenciais da sua origem de dados.
 
+1. Se esta origem de dados estiver lenta ou não estiver atualmente disponível, selecione **Ignorar Ligação de Teste**. Caso contrário, poderá ocorrer uma falha na criação da origem de dados.
+
+    > [!NOTE]
+    > A opção Ignorar Ligação de Teste não é suportada para o Analysis Services.
+
 1. Em **Definições avançadas**, opcionalmente, configure o [nível de privacidade](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) da sua origem de dados (não é aplicável ao [DirectQuery](desktop-directquery-about.md)).
 
     ![Definições avançadas](media/service-gateway-manage/advanced-settings.png)
@@ -74,7 +81,7 @@ Para remover uma origem de dados, aceda à origem de dados e, em seguida, seleci
 
 ## <a name="manage-users-and-administrators"></a>Gerir utilizadores e administradores
 
-Depois de adicionar uma origem de dados para um gateway, concede a grupos de segurança e a utilizadores acesso à origem de dados específica (não a todo o gateway). A lista de utilizadores da origem de dados controla apenas quem está autorizado a publicar relatórios que incluam dados da origem de dados. Os proprietários de relatórios podem criar dashboards, pacotes de conteúdos e aplicações e, em seguida, partilhá-los com outros utilizadores.
+Depois de adicionar uma origem de dados a um gateway, pode dar aos utilizadores e aos grupos de segurança com o e-mail ativado acesso a origens de dados específicas (não a todo o gateway). A lista de utilizadores da origem de dados controla apenas quem está autorizado a publicar relatórios que incluam dados da origem de dados. Os proprietários de relatórios podem criar dashboards, pacotes de conteúdos e aplicações e, em seguida, partilhá-los com outros utilizadores.
 
 Também pode conceder aos utilizadores e grupos de segurança acesso administrativo ao gateway.
 
@@ -98,14 +105,14 @@ E é tudo. Lembre-se que tem de adicionar utilizadores a cada origem de dados pa
 
 ### <a name="remove-users-from-a-data-source"></a>Remover utilizadores de uma origem de dados
 
-No separador **Utilizadores** da origem de dados, pode remover utilizadores e grupos de segurança que utilizam esta origem de dados.
+No separador **Utilizadores** da origem de dados, pode remover os utilizadores e os grupos de segurança com o e-mail ativado que utilizam esta origem de dados.
 
 ![Remover utilizador](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>Adicionar e remover administradores
 
-No separador **Administradores** no gateway, adicione e remova os utilizadores (ou grupos de segurança) que podem administrar o gateway.
+No separador **Administradores**, no gateway, adicione e remova os utilizadores (ou grupos de segurança com o e-mail ativado) que podem administrar o gateway.
 
 ![Separador Administradores](media/service-gateway-manage/administrators-tab.png)
 

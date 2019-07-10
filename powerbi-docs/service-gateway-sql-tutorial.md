@@ -3,206 +3,205 @@ title: 'Tutorial: Ligar a dados no local no SQL Server'
 description: Saiba como utilizar o SQL Server como uma origem de dados do gateway, incluindo como atualizar os dados.
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96ea117ff0ba28a158eb9f0eaf748d66b25f90d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278935"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468258"
 ---
-# <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: Ligar a dados no local no SQL Server
+# <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar dados de uma base de dados do SQL Server no local
 
-Um gateway de dados no local é software que instala dentro de uma rede no local; facilita o acesso aos dados nessa rede. Neste tutorial, vai criar um relatório no Power BI Desktop com base nos dados de exemplo importados a partir do SQL Server. Em seguida, publica o relatório no serviço Power BI e configura um gateway para que o serviço possa aceder os dados no local. Este acesso significa que o serviço pode atualizar os dados para manter o relatório atualizado.
+Neste tutorial, irá explorar de que forma pode atualizar um conjunto de dados do Power BI proveniente de uma base de dados relacionais no local que está na sua rede local. Este tutorial utiliza uma base de dados do SQL Server de exemplo, a que o Power BI tem de aceder através de um gateway de dados no local.
 
-Neste tutorial, vai aprender a:
+Neste tutorial, irá concluir os seguintes passos:
+
 > [!div class="checklist"]
-> * Criar um relatório a partir dos dados no SQL Server
-> * Publicar o relatório no Serviço Power BI
-> * Adicionar o SQL Server como uma origem de dados do gateway
-> * Atualizar os dados no relatório
-
-Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
-
+> * Criar e publicar um ficheiro do Power BI Desktop (.pbix) que importe dados de uma base de dados do SQL Server no local.
+> * Configurar as definições de origens e conjuntos de dados no Power BI para obter conectividade do SQL Server através de um gateway de dados.
+> * Configurar uma data e uma hora de atualização para garantir que o seu conjunto de dados do Power BI tem dados recentes.
+> * Efetuar uma atualização a pedido do seu conjunto de dados.
+> * Rever o histórico de atualizações para analisar os resultados dos últimos ciclos de atualização.
+> * Limpar recursos ao eliminar os artefactos criados neste tutorial.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-* [Instalar o Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-* [Instalar o SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server) num computador local 
-* [Instalar um gateway de dados no local](service-gateway-install.md) no mesmo computador local (na produção, normalmente, seria um computador diferente)
+- Se ainda não tiver uma [versão de avaliação gratuita do Power BI](https://app.powerbi.com/signupredirect?pbi_source=web), inscreva-se numa antes de começar.
+- [Instale o Power BI Desktop](https://powerbi.microsoft.com/desktop/) num computador local.
+- [Instale o SQL Server](/sql/database-engine/install-windows/install-sql-server) num computador local e restaure a [base de dados de exemplo a partir de uma cópia de segurança]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). Para obter mais informações sobre a AdventureWorks, veja [AdventureWorks installation and configuration](/sql/samples/adventureworks-install-configure) (Instalação e configuração da AdventureWorks).
+- [Instale um gateway de dados no local](service-gateway-install.md) no mesmo computador local do SQL Server (normalmente, na fase de produção, seria um computador diferente).
 
+> [!NOTE]
+> Se não for um administrador de gateways e não quiser instalar um gateway, contacte um administrador de gateways na sua organização. Este poderá criar a definição de origem de dados necessária para ligar o seu conjunto de dados à sua base de dados do SQL Server.
 
-## <a name="set-up-sample-data"></a>Configurar dados de exemplo
+## <a name="create-and-publish-a-power-bi-desktop-file"></a>Criar e publicar um ficheiro do Power BI Desktop
 
-Começa por adicionar dados de exemplo ao SQL Server, pelo que pode utilizar esses dados no resto do tutorial.
+Utilize o procedimento seguinte para criar um relatório básico do Power BI com a base de dados de exemplo AdventureWorksDW. Publique o relatório no serviço Power BI para obter um conjunto de dados no Power BI que poderá configurar e atualizar nos passos subsequentes.
 
-1. No SQL Server Management Studio (SSMS), ligue-se à sua instância do SQL Server e crie uma base de dados de teste.
+1. No Power BI Desktop, no separador **Home Page**, selecione **Obter Dados** \> **SQL Server**.
 
-    ```sql
-    CREATE DATABASE TestGatewayDocs
-    ```
+2. Na caixa de diálogo **Base de dados do SQL Server**, introduza os nomes do **Servidor** e da **Base de dados (opcional)** , certifique-se de que o modo de **Conectividade de Dados** é **Importar** e, em seguida, selecione **OK**.
 
-2. Na base de dados que criou, adicione uma tabela e insira os dados.
+    ![Base de dados do SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
-    ```sql
-    USE TestGatewayDocs
+3. Verifique as suas **credenciais** e, em seguida, selecione **Ligar**.
 
-    CREATE TABLE Product (
-        SalesDate DATE,
-        Category  VARCHAR(100),
-        Product VARCHAR(100),
-        Sales MONEY,
-        Quantity INT
-    )
+    > [!NOTE]
+    > Se não conseguir efetuar a autenticação, certifique-se de que selecionou o método de autenticação correto e utilize uma conta com acesso de base de dados. Em ambientes de teste, poderá utilizar Autenticação de base de dados com um nome de utilizador e uma palavra-passe explícitos. Em ambientes de produção, é normalmente utilizada a autenticação do Windows. Veja o artigo [Resolver problemas de atualização](refresh-troubleshooting-refresh-scenarios.md) e contacte o seu administrador da base de dados para obter mais ajuda.
 
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Carrying Case',9924.60,68)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Tripod',1350.00,18)
-    INSERT INTO Product VALUES('2018-05-11','Accessories','Lens Adapter',1147.50,17)
-    INSERT INTO Product VALUES('2018-05-05','Accessories','Mini Battery Charger',1056.00,44)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','Telephoto Conversion Lens',1380.00,18)
-    INSERT INTO Product VALUES('2018-05-06','Accessories','USB Cable',780.00,26)
-    INSERT INTO Product VALUES('2018-05-08','Accessories','Budget Movie-Maker',3798.00,9)
-    INSERT INTO Product VALUES('2018-05-09','Digital video recorder','Business Videographer',10400.00,13)
-    INSERT INTO Product VALUES('2018-05-10','Digital video recorder','Social Videographer',3000.00,60)
-    INSERT INTO Product VALUES('2018-05-11','Digital','Advanced Digital',7234.50,39)
-    INSERT INTO Product VALUES('2018-05-07','Digital','Compact Digital',10836.00,84)
-    INSERT INTO Product VALUES('2018-05-08','Digital','Consumer Digital',2550.00,17)
-    INSERT INTO Product VALUES('2018-05-05','Digital','Slim Digital',8357.80,44)
-    INSERT INTO Product VALUES('2018-05-09','Digital SLR','SLR Camera 35mm',18530.00,34)
-    INSERT INTO Product VALUES('2018-05-07','Digital SLR','SLR Camera',26576.00,88)
-    ```
+1. Se a caixa de diálogo **Suporte de Encriptação** for apresentada, selecione **OK**.
 
-3. Selecione os dados da tabela para validação.
+2. Na caixa de diálogo **Navegador**, selecione a tabela **DimProduct** e, em seguida, selecione **Carregar**.
 
-    ```sql
-    SELECT * FROM Product
-    ```
+    ![Navegador de origens de dados](./media/service-gateway-sql-tutorial/data-source-navigator.png)
 
-    ![Resultados da consulta](media/service-gateway-sql-tutorial/query-results.png)
+3. Na vista **Relatório** do Power BI Desktop, no painel **Visualizações**, selecione o **Gráfico de colunas empilhadas**.
 
+    ![Gráfico de colunas empilhadas](./media/service-gateway-sql-tutorial/stacked-column-chart.png)
 
-## <a name="build-and-publish-a-report"></a>Criar e publicar um relatório
+4. Com o gráfico de colunas selecionado na tela do relatório, no painel **Campos**, selecione os campos **EnglishProductName** e **ListPrice**.
 
-Agora que tem dados de exemplo nos quais pode trabalhar, pode ligar-se ao SQL Server no Power BI Desktop e criar um relatório com base nesses dados. Em seguida, publica o relatório no serviço Power BI.
+    ![Painel Campos](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-1. No Power BI Desktop, no separador **Base**, selecione **Obter Dados** > **SQL Server**.
+5. Arraste a **EndDate** para **Filtros de nível de relatório** e, em **Filtragem básica**, selecione apenas a caixa de verificação de **(Vazio)** .
 
-2. Em **Servidor**, introduza o nome do seu servidor e, em **Base de dados** introduza “TestGatewayDocs”. Selecione **OK**. 
-
-    ![Aceder ao servidor e à base de dados](media/service-gateway-sql-tutorial/server-database.png)
-
-3. Valide as suas credenciais e, em seguida, selecione **Ligar**.
-
-4. Em **Navegador**, selecione a tabela **Produto** e, em seguida, selecione **Carregar**.
-
-    ![Selecione Tabela de produtos](media/service-gateway-sql-tutorial/select-product-table.png)
-
-5. Na vista **Relatório** do Power BI Desktop, no painel **Visualizações**, selecione o **Gráfico de colunas empilhadas**.
-
-    ![Gráfico de colunas empilhadas](media/service-gateway-sql-tutorial/column-chart.png)    
-
-6. Com o gráfico de colunas selecionado na tela do relatório, no painel **Campos**, selecione os campos **Produto** e **Vendas**.  
-
-    ![Selecionar campos](media/service-gateway-sql-tutorial/select-fields.png)
+    ![Filtros de nível de relatório](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     O gráfico deverá passar a ter este aspeto.
 
-    ![Selecione Tabela de produtos](media/service-gateway-sql-tutorial/finished-chart.png)
+    ![Gráfico de colunas concluído](./media/service-gateway-sql-tutorial/finished-column-chart.png)
 
-    Tenha em atenção que **Câmara SLR** é o líder de vendas atual. Esta situação vai mudar quando atualizar os dados e atualizar o relatório numa fase posterior deste tutorial.
+    Repare que os cinco produtos **Road-250** têm o preço mais elevado da lista. Esta situação irá mudar quando atualizar os dados e atualizar o relatório numa fase posterior deste tutorial.
 
-7. Guarde o relatório com o nome "TestGatewayDocs.pbix".
+6. Guarde o relatório com o nome "ProdutosAdventureWorks.pbix".
 
-8. No separador **Base**, selecione **Publicar** > **A Minha Área de Trabalho** > **Selecionar**. Caso lhe seja solicitado, inicie sessão no serviço Power BI. 
+7. No separador **Home Page**, selecione **Publicar** \> **A Minha Área de Trabalho** \> **Selecionar**. Caso lhe seja solicitado, inicie sessão no serviço Power BI.
 
-    ![Publicar relatório](media/service-gateway-sql-tutorial/publish-report.png)
+8. No ecrã **Com êxito**, selecione **Abrir "ProdutosAdventureWorks.pbix" no Power BI**.
 
-9. No ecrã **Êxito**, selecione **Abrir “TestGatewayDocs.pbix” no Power BI**.
+    [Publicar no Power BI](./media/service-gateway-sql-tutorial/publish-to-power-bi.png)
 
+## <a name="connect-a-dataset-to-a-sql-server-database"></a>Ligar um conjunto de dados a uma base de dados do SQL Server
 
-## <a name="add-sql-server-as-a-gateway-data-source"></a>Adicionar o SQL Server como uma origem de dados do gateway
+No Power BI Desktop, ligou diretamente à sua base de dados do SQL Server no local, mas o serviço Power BI exige um gateway de dados que sirva de ponte entre a cloud e a sua rede no local. Siga estes passos para adicionar a sua base de dados do SQL Server no local como uma origem de dados a um gateway e, em seguida, ligue o seu conjunto de dados a esta origem de dados.
 
-No Power BI Desktop, liga-se diretamente ao SQL Server, mas o serviço Power BI exige que um gateway atue como uma ponte. Agora, deve adicionar a sua instância do SQL Server como origem de dados para o gateway que criou num artigo anterior (indicado em [Pré-requisitos](#prerequisites)). 
+1. Inicie sessão no Power BI. No canto superior direito, selecione o ícone de engrenagem das definições e, em seguida, selecione **Definições**.
 
-1. No canto superior direito do serviço Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de Definições](media/service-gateway-sql-tutorial/icon-gear.png) > **Gerir gateways**.
+    ![Definições do Power BI](./media/service-gateway-sql-tutorial/power-bi-settings.png)
 
-    ![Gerir gateways](media/service-gateway-sql-tutorial/manage-gateways.png)
+2. No separador **Conjuntos de dados**, selecione o conjunto de dados **ProdutosAdventureWorks** para poder ligar à sua base de dados do SQL Server no local através de um gateway de dados.
 
-2. Selecione **Adicionar origem de dados** e introduza “test-sql-source” para o **Nome da Origem de Dados**.
+3. Expanda a **Ligação de gateway** e certifique-se de que está listado pelo menos um gateway. Se não tiver um gateway, veja a secção [Pré-requisitos](#prerequisites) apresentada anteriormente neste tutorial para obter uma ligação para a documentação de produto que explica como instalar e configurar um gateway.
 
-    ![Adicionar origem de dados](media/service-gateway-sql-tutorial/add-data-source.png)
+    ![Ligação do gateway](./media/service-gateway-sql-tutorial/gateway-connection.png)
 
-3. Selecione um **Tipo de Origem de Dados** do **SQL Server** e, em seguida, introduza outros valores, conforme mostrado.
+4. Em **Ações**, expanda o botão de alternar para ver as origens de dados e selecione a ligação **Adicionar a um gateway**.
 
-    ![Introduzir definições de origens de dados](media/service-gateway-sql-tutorial/data-source-settings.png)
+    ![Adicionar uma origem de dados a um gateway](./media/service-gateway-sql-tutorial/add-data-source-gateway.png)
 
+    > [!NOTE]
+    > Se não for um administrador de gateways e não quiser instalar um gateway, contacte um administrador de gateways na sua organização. Este poderá criar a definição de origem de dados necessária para ligar o seu conjunto de dados à sua base de dados do SQL Server.
 
-   |          Opção           |                                               Valor                                                |
-   |---------------------------|----------------------------------------------------------------------------------------------------|
-   |   **Nome da Origem de Dados**    |                                          test-sql-source                                           |
-   |   **Tipo de Origem de Dados**    |                                             SQL Server                                             |
-   |        **Servidor**         | O nome da sua instância do SQL Server (tem de ser idêntico ao que especificou no Power BI Desktop) |
-   |       **Base de dados**        |                                          TestGatewayDocs                                           |
-   | **Método de Autenticação** |                                              Windows                                               |
-   |       **Nome de utilizador**        |             A conta, como michael@contoso.com, que utiliza para se ligar ao SQL Server             |
-   |       **Palavra-passe**        |                   A palavra-passe da conta que utiliza para se ligar ao SQL Server                    |
+5. Na página de gestão **Gateways**, no separador **Definições da Origem de Dados**, introduza e verifique as seguintes informações e selecione **Adicionar**.
 
+    | Opção | Valor |
+    | --- | --- |
+    | Nome da Origem de Dados | ProdutosAdventureWorks |
+    | Tipo de Origem de Dados | SQL Server |
+    | Servidor | O nome da sua instância do SQL Server, como SQLServer01 (tem de ser idêntico ao que especificou no Power BI Desktop). |
+    | Base de Dados | O nome da sua base de dados do SQL Server, como AdventureWorksDW (tem de ser idêntico ao que especificou no Power BI Desktop). |
+    | Método de Autenticação | Básico ou do Windows (normalmente, é o do Windows). |
+    | Nome de utilizador | A conta de utilizador que utiliza para ligar ao SQL Server. |
+    | Palavra-passe | A palavra-passe da conta que utiliza para ligar ao SQL Server. |
 
-4. Selecione **Adicionar**. Aparece a mensagem *Ligação Efetuada com Êxito* quando o processo for bem-sucedido.
+    ![Definições da origem de dados](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    ![Ligação estabelecida com êxito](media/service-gateway-sql-tutorial/connection-successful.png)
+6. No separador **Conjuntos de dados**, expanda novamente a secção **Ligação do gateway**. Selecione o gateway de dados que configurou, que apresenta um **Estado** de execução no computador em que o instalou e selecione **Aplicar**.
 
-    Agora, pode utilizar esta origem de dados para incluir dados do SQL Server nos seus dashboards e relatórios do Power BI.
+    ![Atualizar a ligação do gateway](./media/service-gateway-sql-tutorial/update-gateway-connection.png)
 
+## <a name="configure-a-refresh-schedule"></a>Configurar um agendamento de atualização
 
-## <a name="configure-and-use-data-refresh"></a>Configurar e utilizar atualização de dados
+Agora que já ligou o seu conjunto de dados no Power BI à sua base de dados do SQL Server no local através de um gateway de dados, siga estes passos para configurar um agendamento de atualização. A atualização agendada do seu conjunto de dados ajuda a garantir que os seus relatórios e dashboards têm os dados mais recentes.
 
-Tem um relatório publicado no serviço Power BI e a origem de dados do SQL Server configurada. Com estes fatores estabelecidos, agora efetua uma alteração na tabela Produto, sendo que essa alteração passa pelo gateway até ao relatório publicado. Também configura a atualização agendada para processar quaisquer alterações futuras.
+1. No painel de navegação à esquerda, abra **A Minha Área de Trabalho** \> **Conjuntos de dados**. Selecione as reticências ( **. . .** ) do conjunto de dados **ProdutosAdventureWorks** e, em seguida, selecione **Agendar atualização**.
 
-1. No SSMS, atualize os dados na tabela Produto.
+    > [!NOTE]
+    > Certifique-se de que seleciona as reticências do conjunto de dados **ProdutosAdventureWorks** e não as reticências do relatório com o mesmo nome. O menu de contexto do relatório **ProdutosAdventureWorks** não inclui uma opção **Agendar atualização**.
 
-    ```sql
-    UPDATE Product
-    SET Sales = 32508, Quantity = 252
-    WHERE Product='Compact Digital'     
+2. Na secção **Atualização agendada**, em **Manter os dados atualizados**, defina a atualização para **Ativa**.
 
-    ```
+3. Selecione a **Frequência de atualização** mais adequada (**Diariamente**, neste exemplo) e, em seguida, em **Hora**, selecione **Adicionar outra hora** para especificar a hora de atualização pretendida (6:30 e 18:30, neste exemplo).
 
-2. No Serviço Power BI, no painel de navegação à esquerda, selecione **A Minha Área de Trabalho**.
+    ![Configurar a atualização agendada](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
-3. Em **Conjuntos de dados**, para o conjunto de dados **TestGatewayDocs**, selecione **mais** (**. . .**) > **Atualizar agora**.
+    > [!NOTE]
+    > Pode configurar até 8 intervalos de tempo diários se o conjunto de dados estiver na capacidade partilhada ou 48 intervalos de tempo no Power BI Premium.
 
-    ![Atualizar agora](media/service-gateway-sql-tutorial/refresh-now.png)
+4. Deixe a caixa de verificação **Enviar-me notificação de falha de atualização por e-mail** selecionada e selecione **Aplicar**.
 
-4. Selecione **A Minha Área de Trabalho** > **Relatórios** > **TestGatewayDocs**. Veja como a atualização se processou e como o líder de vendas passou a ser a **Compact Digital**. 
+## <a name="perform-an-on-demand-refresh"></a>Efetuar uma atualização a pedido
 
-    ![Dados atualizados](media/service-gateway-sql-tutorial/updated-data.png)
+Agora que configurou um agendamento de atualização, o Power BI irá atualizar o seu conjunto de dados na próxima hora agendada, com uma margem de 15 minutos. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, efetue uma atualização a pedido com a opção **Atualizar Agora** no menu do conjunto de dados no painel de navegação à esquerda. As atualizações a pedido não afetam a hora de atualização agendada seguinte, mas contam para o limite diário de atualizações, mencionado na secção anterior.
 
-5. Selecione **A Minha Área de Trabalho** > **Relatórios** > **TestGatewayDocs**. Selecione **mais** (**. . .**) > **Agendar atualização**.
+Para fins de exemplificação, simule uma alteração aos dados de exemplo ao atualizar a tabela DimProduct na base de dados AdventureWorksDW com o SQL Server Management Studio (SSMS).
 
-6. Em **Agendar atualização**, defina atualizar para **Ligada** e, em seguida, selecione **Aplicar**. O conjunto de dados é atualizado diariamente por predefinição.
+```sql
 
-    ![Agendar atualização](media/service-gateway-sql-tutorial/schedule-refresh.png)
+UPDATE [AdventureWorksDW].[dbo].[DimProduct]
+SET ListPrice = 5000
+WHERE EnglishProductName ='Road-250 Red, 58'
+
+```
+
+Agora, siga estes passos, para que os dados atualizados possam passar pela ligação do gateway para o conjunto de dados e os relatórios no Power BI.
+
+1. No Serviço Power BI, no painel de navegação à esquerda, selecione e expanda **A Minha Área de Trabalho**.
+
+2. Em **Conjuntos de dados**, no conjunto de dados **ProdutosAdventureWorks**, selecione as reticências ( **. . .** ) e, em seguida, selecione **Atualizar agora**.
+
+    ![Atualizar agora](./media/service-gateway-sql-tutorial/refresh-now.png)
+
+    Observe o canto superior direito e repare que o Power BI se está a preparar para realizar a atualização pedida.
+
+3. Selecione **A Minha Área de Trabalho \> Relatórios \> ProdutosAdventureWorks**. Veja a forma como os dados atualizados passaram e observe que, agora, o produto com o preço mais elevado na lista é **Road-250 Red, 58**.
+
+    ![Gráfico de colunas atualizado](./media/service-gateway-sql-tutorial/updated-column-chart.png)
+
+## <a name="review-the-refresh-history"></a>Rever o histórico de atualizações
+
+É recomendada a verificação periódica dos resultados de ciclos de atualização anteriores no histórico de atualizações. As credenciais da base de dados podem ter expirado ou o gateway selecionado pode ter estado offline quando uma atualização agendada devia ter sido realizada. Siga estes passos para examinar o histórico de atualizações e verificar a existência de problemas.
+
+1. No canto superior direito da interface de utilizador do Power BI, selecione o ícone de engrenagem das definições e, em seguida, selecione **Definições**.
+
+2. Mude para **Conjuntos de dados** e selecione o conjunto de dados que pretende examinar, como **ProdutosAdventureWorks**.
+
+3. Selecione a ligação **Histórico de atualizações** para abrir a caixa de diálogo **Histórico de atualizações**.
+
+    ![Ligação Histórico de Atualizações](./media/service-gateway-sql-tutorial/refresh-history-link.png)
+
+4. No separador **Agendado**, veja as últimas atualizações agendadas e a pedido com as suas horas de **Início** e **Fim** e o **Estado** **Concluído**, que indica que o Power BI realizou as atualizações com êxito. No caso das atualizações que falharam, poderá ver as mensagens de erro e examinar os detalhes dos erros.
+
+    ![Detalhes do histórico de atualizações](./media/service-gateway-sql-tutorial/refresh-history-details.png)
+
+    > [!NOTE]
+    > O separador OneDrive só é relevante para conjuntos de dados ligados a ficheiros do Power BI Desktop, livros do Excel ou ficheiros CSV no OneDrive ou SharePoint Online, como é explicado mais detalhadamente em [Atualização de dados no Power BI](refresh-data.md).
 
 ## <a name="clean-up-resources"></a>Limpar recursos
-Se quiser deixar de utilizar os dados de exemplo, execute `DROP DATABASE TestGatewayDocs` no SSMS. Se não quiser utilizar a origem de dados do SQL Server, [remova a origem de dados](service-gateway-manage.md#remove-a-data-source). 
 
+Se já não quiser utilizar os dados de exemplo, elimine a base de dados do SQL Server Management Studio (SSMS). Se não quiser utilizar a origem de dados do SQL Server, remova a origem de dados do seu gateway de dados. Pondere a desinstalação do gateway de dados se o tiver instalado apenas para este tutorial. Também deve eliminar o conjunto de dados ProdutosAdventureWorks e o relatório ProdutosAdventureWorks que o Power BI criou quando carregou o ficheiro ProdutosAdventureWorks.pbix.
 
 ## <a name="next-steps"></a>Próximos passos
-Neste tutorial, aprendeu a:
-> [!div class="checklist"]
-> * Criar um relatório a partir dos dados no SQL Server
-> * Publicar o relatório no Serviço Power BI
-> * Adicionar o SQL Server como uma origem de dados do gateway
-> * Atualizar os dados no relatório
 
-Avance para o artigo seguinte para saber mais
-> [!div class="nextstepaction"]
-> [Gerir um Gateway do Power BI](service-gateway-manage.md)
+Neste tutorial, descobriu como pode importar dados de uma base de dados do SQL Server no local para um conjunto de dados do Power BI e como pode atualizar este conjunto de dados de forma agendada e a pedido para manter os relatórios e dashboards que utilizam este conjunto de dados atualizados no Power BI. Agora, pode saber mais sobre a gestão de gateways de dados e origens de dados no Power BI. Também é recomendado rever o artigo conceptual Atualização de dados no Power BI.
 
+- [Gerir um gateway no local do Power BI](service-gateway-manage.md)
+- [Gerir a origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)
+- [Atualização de dados no Power BI](refresh-data.md)

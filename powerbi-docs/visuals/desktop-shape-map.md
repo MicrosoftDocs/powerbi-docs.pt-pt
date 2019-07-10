@@ -1,31 +1,31 @@
 ---
-title: Utilizar os Mapas de Forma no Power BI Desktop (Pré-visualização)
-description: Crie comparações relativas para regiões com mapas de forma no Power BI Desktop
+title: Utilizar os Mapas de Forma do Power BI Desktop (Pré-visualização)
+description: Crie comparações relativas entre regiões com os Mapas de Forma do Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839265"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533049"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
 Criar um elemento visual **Mapa de Forma** para comparar regiões num mapa com cores. Ao contrário do elemento visual **Mapa**, o **Mapa de Forma** não pode mostrar localizações geográficas precisas de pontos de dados num mapa. Em vez disso, o seu objetivo principal é mostrar comparações relativas de regiões num mapa ao colori-los de forma diferente.
 
-Os elementos visuais do **Mapa de Forma** são baseados em mapas ESRI/TopoJSON que têm a capacidade convincente de utilizar mapas personalizados que pode criar. Os exemplos de mapas personalizados são: geográficos, disposições de lugares, plantas e outros. A capacidade de utilizar mapas personalizados não está disponível neste lançamento de Pré-visualização do **Mapa de Forma**.
+Os elementos visuais do **Mapa de Forma** são baseados em mapas ESRI/TopoJSON que têm a capacidade convincente de utilizar mapas personalizados que pode criar. Eis alguns exemplos de mapas personalizados: geográficos, disposições de lugares, plantas de pisos e outros. A capacidade de utilizar mapas personalizados não está disponível neste lançamento de Pré-visualização do **Mapa de Forma**.
 
 ## <a name="creating-shape-maps"></a>Criar Mapas de Forma
 Pode testar o controlo **Mapa de Forma** com os mapas que são enviados com esta versão de Pré-visualização, ou pode utilizar o seu próprio mapa personalizado, desde que este cumpra os requisitos descritos na secção seguinte, designada **Use Custom Maps (Utilizar Mapas Personalizados)** .
 
-O visual **Mapa de Forma** está em Pré-visualização e tem de ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Elementos Visuais do Mapa de Forma**. Terá de reiniciar o Power BI Desktop depois de efetuar a seleção.
+O visual **Mapa de Forma** está em Pré-visualização e tem ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Elementos Visuais do Mapa de Forma**. Terá de reiniciar o Power BI Desktop depois de efetuar a seleção.
 
 ![ativar a funcionalidade de pré-visualização Mapa de forma](media/desktop-shape-map/power-bi-preview-features.png)
 
@@ -102,17 +102,18 @@ Pode introduzir uma nova coluna ao escrever simplesmente um novo nome de coluna 
 ## <a name="preview-behavior-and-requirements"></a>Comportamento e requisitos da pré-visualização
 Existem algumas considerações e requisitos para esta versão de Pré-visualização do **Mapa de Forma**:
 
-* O visual **Mapa de Forma** está em Pré-visualização e tem de ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Elementos Visuais do Mapa de Forma**.
+* O visual **Mapa de Forma** está em Pré-visualização e tem ser ativado no Power BI Desktop. Para ativar o **Mapa de Forma**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação **Elementos Visuais do Mapa de Forma**.
 * Atualmente, também tem de ter o registo **Saturação da cor** definido, para que a classificação de **Legenda** funcione corretamente.
 * A versão final do **Mapa de Forma** terá uma interface de utilizador que mostra as chaves do mapa atualmente selecionado (não existe uma data definida para a versão final e o **Mapa de Forma** ainda está na fase de Pré-visualização). Nesta versão de Pré-visualização, pode fazer referência às chaves de região do mapa nas tabelas presentes na seguinte secção **Chaves de Região** deste artigo.
 * O visual **Mapa de Forma** resultará num máximo de 1000 pontos de dados.
 
 ## <a name="region-keys"></a>Chaves de região
-Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização para testar o **Mapa de Forma**.
+
+Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização para testar o **Mapa de forma**.
 
 ### <a name="australia-states"></a>Austrália: Estados
 
-| `id` | `abbr` | `iso` | `name` | `postal` |
+| ID | abbr | iso | nome | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
 | au-vic |Vic |AU-VIC |Vitória |VIC |
@@ -125,7 +126,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="austria-states"></a>Áustria: Estados
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Viena |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -133,13 +134,13 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | at-st |AT-6 |Estíria |Estíria |ST |
 | at-sz |AT-5 |Salzburgo |Salzburgo |SZ |
 | at-oo |AT-4 |Alta Áustria |Alta Áustria |OO |
-| at-no |AT-3 |Baixa Áustria |Baixa Áustria |NÃO |
+| at-no |AT-3 |Baixa Áustria |Baixa Áustria |NO |
 | at-ka |AT-2 |Caríntia |Caríntia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brasil: Estados
 
-| `id` |
+| ID |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -175,7 +176,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="canada-provinces"></a>Canadá: Províncias
 
-| `id` | `iso` | `name` | `postal` |
+| ID | iso | nome | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territórios do Noroeste |NT |
@@ -193,7 +194,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="france-regions"></a>França: Regiões
 
-| `id` | `name` | `name-en` |
+| ID | nome | name-en |
 | --- | --- | --- |
 | Alsácia |Alsácia |Alsácia |
 | Ródano-Alpes |Ródano-Alpes |Ródano-Alpes |
@@ -220,7 +221,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="germany-states"></a>Alemanha: Estados
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlim |Berlim |BE |
 | de-th |DE-TH |Turíngia |Turíngia |TH |
@@ -241,7 +242,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="ireland-counties"></a>Irlanda: Condados
 
-| `id` |
+| ID |
 | --- |
 | Wicklow |
 | Wexford |
@@ -272,7 +273,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="italy-regions"></a>Itália: Regiões
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| ID | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Véneto |Véneto |VN |
 | it-vd |IT-23 |Vale de Aosta |Vale de Aosta |VD |
@@ -297,7 +298,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="mexico-states"></a>México: Estados
 
-| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
+| ID | abreviatura | iso | nome | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Iucatã |Iucatã |YU |
@@ -334,7 +335,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="netherlands-provinces"></a>Países Baixos: Províncias
 
-| `id` | `iso` | `name` | `name-en` |
+| ID | iso | nome | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |
 | nl-ze |NL-ZE |Zelândia |Zelândia |
@@ -351,7 +352,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="uk-countries"></a>Reino Unido: Países
 
-| `id` | `iso` | `name` |
+| ID | iso | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escócia |
@@ -360,7 +361,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 
 ### <a name="usa-states"></a>EUA: Estados
 
-| `id` | `name` | `postal` |
+| ID | nome | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alasca |AK |
@@ -415,6 +416,7 @@ Utilize as seguintes **Chaves de Região** nesta versão de Pré-visualização 
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>Próximos passos
-[Elemento visual Matriz no Power BI](desktop-matrix-visual.md)
 
-[Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Elemento visual Matriz no Power BI](desktop-matrix-visual.md)
+
+* [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

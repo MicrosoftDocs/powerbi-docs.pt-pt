@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264472"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498979"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI (pré-visualização)
 
@@ -103,13 +103,22 @@ Para ativar o BYOK, tem de ser um administrador inquilino do serviço Power BI e
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
-O cmdlet aceita dois parâmetros opcionais que afetam a encriptação das atuais e futuras capacidades. Por predefinição, nenhum dos parâmetros opcionais é definido:
+Para adicionar múltiplas chaves, execute `Add-PowerBIEncryptionKey` com valores diferentes para `-Name` e `-KeyVaultKeyUri`. 
 
-- `-Activate`: indica que esta chave será utilizada para todas as capacidades existentes no inquilino.
+O cmdlet aceita dois parâmetros opcionais que afetam a encriptação das atuais e futuras capacidades. Por predefinição, nenhum dos parâmetros opcionais está definido:
+
+- `-Activate`: indica que esta chave será utilizada para todas as capacidades existentes no inquilino que ainda não foram encriptadas.
 
 - `-Default`: indica que esta chave é a atual predefinição em todo o inquilino. Quando criar uma nova capacidade, a mesma irá herdar esta chave.
 
-Se especificar os parâmetros `-Default`, todas as capacidades criadas neste inquilino a partir deste ponto serão encriptadas com a chave que especificar (ou uma chave atualizada predefinida). Não pode anular a operação predefinida, pelo que deixará de conseguir criar uma capacidade Premium que não utilize o BYOK no seu inquilino.
+> [!IMPORTANT]
+> Se especificar o parâmetro `-Default`, todas as capacidades criadas no seu inquilino a partir deste ponto serão encriptadas com a chave que especificar (ou uma chave atualizada predefinida). Não pode anular a operação predefinida, pelo que deixará de conseguir criar uma capacidade Premium no seu inquilino que não utilize o BYOK.
+
+Após ativar o BYOK no seu inquilino, utilize [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para definir a chave de encriptação de uma ou mais capacidades do Power BI:
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 Pode controlar a forma como utiliza o BYOK no seu inquilino. Por exemplo, para encriptar uma única capacidade, chame o cmdlet `Add-PowerBIEncryptionKey` sem o parâmetro `-Activate` ou `-Default`. Em seguida, chame o cmdlet `Set-PowerBICapacityEncryptionKey` para a capacidade onde pretende ativar o BYOK.
 
@@ -136,12 +145,6 @@ O Power BI fornece cmdlets adicionais para ajudá-lo a gerir o BYOK no seu inqui
     ```
 
     Tenha em atenção que a encriptação é ativada ao nível da capacidade, mas que irá obter o estado de encriptação ao nível do conjunto de dados para a área de trabalho especificada.
-
-- Utilize [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para atualizar a chave de encriptação da capacidade do Power BI:
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - Utilize [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para alternar (ou _rodar_) a versão da chave que está a ser utilizada para encriptação. O cmdlet apenas atualiza o `-KeyVaultKeyUri` para o `-Name` de uma chave:
 

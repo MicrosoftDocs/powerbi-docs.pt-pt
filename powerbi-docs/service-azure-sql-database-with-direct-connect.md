@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448363"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468122"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Base de Dados SQL do Azure com DirectQuery
 
@@ -26,12 +26,12 @@ Com o DirectQuery, as consultas são enviadas de volta para a Base de Dados SQL 
 
 **Notas:**
 
-* Especifique o nome de servidor completamente qualificado ao ligar (veja abaixo para obter mais detalhes)
-* Verifique se as regras de firewall da base de dados estão configuradas como “[Permitir acesso aos serviços do Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)”
-* Cada ação, como selecionar uma coluna ou adicionar um filtro, enviará uma consulta de volta à base de dados
-* Os mosaicos são atualizados todas as horas (a atualização não tem de ser agendada). Isto pode ser ajustado nas Definições avançadas quando ligar.
-* As Perguntas e Respostas não estão disponíveis para conjuntos de dados do DirectQuery
-* As alterações de esquema não são aplicadas automaticamente
+* Especifique o nome de servidor completamente qualificado ao ligar (veja abaixo para obter mais detalhes).
+* Verifique se as regras de firewall da base de dados estão configuradas como "[Permitir acesso aos serviços do Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Cada ação, como selecionar uma coluna ou adicionar um filtro, enviará uma consulta de volta à base de dados.
+* Os mosaicos são atualizados todas as horas (a atualização não tem de ser agendada). Quando ligar, poderá ajustar a frequência da atualização nas Definições avançadas.
+* As Perguntas e Respostas não estão disponíveis para conjuntos de dados do DirectQuery.
+* As alterações de esquema não são selecionadas automaticamente.
 
 Estas restrições e notas podem mudar à medida que continuamos a melhorar as experiências. Os passos para ligar são detalhados abaixo.
 
@@ -40,11 +40,11 @@ Estas restrições e notas podem mudar à medida que continuamos a melhorar as e
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop e DirectQuery
 
-Para ligar à Base de Dados SQL do Azure com o DirectQuery, terá de utilizar o Power BI Desktop. Esta abordagem fornece mais flexibilidade e funcionalidades. Os relatórios criados com o Power BI Desktop podem ser publicados no serviço Power BI. Pode obter mais informações sobre como ligar à [Base de Dados SQL do Azure com o DirectQuery](desktop-use-directquery.md) no Power BI Desktop.
+Para ligar à Base de Dados SQL do Azure com o DirectQuery, tem de utilizar o Power BI Desktop. Esta abordagem fornece mais flexibilidade e funcionalidades. Os relatórios criados com o Power BI Desktop podem ser publicados no serviço Power BI. Pode obter mais informações sobre como ligar à [Base de Dados SQL do Azure com o DirectQuery](desktop-use-directquery.md) no Power BI Desktop.
 
-## <a name="finding-parameter-values"></a>Localizar Valores de Parâmetro
+## <a name="find-parameter-values"></a>Localizar valores de parâmetros
 
-O nome de servidor completamente qualificado e o nome da base de dados podem ser encontrados no portal do Azure.
+Pode encontrar o nome de servidor completamente qualificado e o nome da base de dados no portal do Azure.
 
 ![Nova atualização do portal do Azure](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
@@ -56,6 +56,6 @@ O nome de servidor completamente qualificado e o nome da base de dados podem ser
 
 * [Utilização do DirectQuery no Power BI Desktop](desktop-use-directquery.md)  
 * [O que é o Power BI?](power-bi-overview.md)  
-* [Obter Dados para o Power BI](service-get-data.md)  
+* [Obter dados para o Power BI](service-get-data.md)  
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à comunidade do Power BI](http://community.powerbi.com/)

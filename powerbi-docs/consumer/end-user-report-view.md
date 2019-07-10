@@ -8,43 +8,52 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e2d3bec59078577e2b4d4595c0925753b2cbb53a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608137"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532333"
 ---
-# <a name="change-the-display-of-a-report-page"></a>Alterar a exibição de uma página de relatório
-Os relatórios são visualizados em vários dispositivos diferentes com diversos tamanhos de ecrã e proporções.  Alterar a forma como uma página de relatório apresenta às suas necessidades.    
+# <a name="change-the-display-of-a-report-page"></a>Alterar a visualização de uma página de relatório
 
-![relatório apresenta na tela](media/end-user-report-view/power-bi-report.png)
+As pessoas visualizam relatórios em múltiplos dispositivos diferentes, com diversos tamanhos de ecrã e proporções. Altere a visualização de uma página de relatório para ajustá-la às suas necessidades.
 
-## <a name="explore-the-view-menu"></a>Explorar o menu exibir
-As opções no menu exibir dão-lhe flexibilidade para exibir páginas de relatório no tamanho e a largura que escolher.
+![Captura de ecrã a mostrar a visualização de um relatório na tela.](media/end-user-report-view/power-bi-report.png)
 
-- Vamos supor que está a ver um relatório num dispositivo pequeno e é difícil ver os títulos e legendas.  Selecione **View** > **tamanho real** para aumentar o tamanho da página do relatório. Utilize as barras de deslocamento para mover-se o relatório. 
+## <a name="explore-the-view-menu"></a>Explorar o menu Ver
 
-    ![relatório apresentado na tela, com duas barras de deslocamento](media/end-user-report-view/power-bi-actual-size-new.png)
+![Captura de ecrã a mostrar as opções pendentes do menu Ver.](media/end-user-report-view/power-bi-view-menu.png)
 
 
-- Outra opção é ajustar o relatório para a largura da tela selecionando **ajustar à largura**. Isso ainda pode exigir a utilização de uma barra de rolagem vertical.
+As opções no menu **Ver** dão-lhe flexibilidade para visualizar as páginas de relatórios no tamanho e largura que escolher:
 
-  ![relatório é exibido utilizando a largura da tela completo](media/end-user-report-view/power-bi-fit-to-width-new.png)
+- Imagine que está a visualizar um relatório num dispositivo pequeno e que é difícil ler os títulos e as legendas.  Selecione **Ver** > **Tamanho real** para aumentar o tamanho da página de relatório. Utilize as barras de deslocamento para ver mais partes do relatório.
 
-- Se não quiser que qualquer barras de deslocamento, mas deseja fazer o melhor uso de seu tamanho do ecrã.  Selecione **ajustar à página**.
+    ![Captura de ecrã a mostrar um relatório definido para a opção Tamanho real com duas barras de deslocamento destacadas.](media/end-user-report-view/power-bi-actual-size-new.png)
 
-   ![relatório apresentado sem barras de rolagem](media/end-user-report-view/power-bi-fit-to-width.png)
+- Outra opção é ajustar o relatório à largura do seu ecrã ao selecionar **Ajustar à largura**. Como esta opção só ajusta à largura e não à altura, poderá ter de continuar a utilizar a barra de deslocamento vertical.
 
-   
-- A última opção **ecrã inteiro**, apresenta a página de relatório sem barras e cabeçalhos. Ecrã inteiro pode ser uma boa escolha para ecrãs pequenos em que são difíceis de ver os detalhes.  Ecrã inteiro também pode ser uma boa opção ao projetar páginas do relatório em grandes telas para pessoas ver, mas não interagir.  
+  ![Captura de ecrã a mostrar um relatório definido para a opção Ajustar à largura com a barra de deslocamento vertical destacada.](media/end-user-report-view/power-bi-fit-to-width-new.png)
 
-    ![relatório apresentado em ecrã inteiro](media/end-user-report-view/power-bi-full-screen.png)
+- Se não quiser utilizar as barras de deslocamento, mas quiser otimizar o tamanho do seu ecrã, selecione **Ajustar à Página**.
 
-Quando sair do relatório, as definições de vista não foram guardadas, mas reverter para a predefinição. Se for importante para salvar essas configurações, utilize [marcadores](end-user-bookmarks.md). 
+   ![Captura de ecrã a mostrar um relatório definido para a opção Ajustar à página.](media/end-user-report-view/power-bi-fit-to-width.png)
+
+- Também pode escolher uma de quatro **Cores de alto contraste**: Alto contraste n.º1, Alto contraste n.º2, Alto contraste preto e Alto contraste branco. É uma funcionalidade de acessibilidade que pode utilizar para que as pessoas com deficiências visuais possam ver os relatórios mais facilmente:
+
+    ![Captura de ecrã a mostrar um relatório definido para Alto contraste n.º1.](media/end-user-report-view/power-bi-high-contrast-1.png)![Captura de ecrã a mostrar um relatório definido para Alto contraste n.º2.](media/end-user-report-view/power-bi-high-contrast-2.png)
+    ![Captura de ecrã a mostrar um relatório definido para Alto contraste preto.](media/end-user-report-view/power-bi-high-contrast-black.png)![Captura de ecrã a mostrar um relatório definido para Alto contraste branco.](media/end-user-report-view/power-bi-high-contrast-white.png)
+
+- A opção final, **Ecrã inteiro**, apresenta a sua página de relatório sem barras de menus e cabeçalhos. A opção Ecrã inteiro pode ser adequada para ecrãs pequenos em que é difícil ver os detalhes.  Também é uma opção adequada ao projetar páginas de relatórios em ecrãs grandes, para que as pessoas as vejam, mas não interajam.  
+
+    ![Relatório visualizado em ecrã inteiro](media/end-user-report-view/power-bi-full-screen.png)
+
+Quando sai do relatório, as definições do menu **Ver** não são guardadas, mas são revertidas para a predefinição. Se quiser guardar estas definições, utilize [marcadores](end-user-bookmarks.md).
 
 ## <a name="next-steps"></a>Próximos passos
-[Criar relatórios para a Cortana](../service-cortana-answer-cards.md)
+
+* [ Fazer uma visita do painel Filtros](end-user-report-filter.md)
