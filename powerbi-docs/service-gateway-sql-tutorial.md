@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468258"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596644"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar dados de uma base de dados do SQL Server no local
 
@@ -35,7 +35,7 @@ Neste tutorial, irá concluir os seguintes passos:
 
 - Se ainda não tiver uma [versão de avaliação gratuita do Power BI](https://app.powerbi.com/signupredirect?pbi_source=web), inscreva-se numa antes de começar.
 - [Instale o Power BI Desktop](https://powerbi.microsoft.com/desktop/) num computador local.
-- [Instale o SQL Server](/sql/database-engine/install-windows/install-sql-server) num computador local e restaure a [base de dados de exemplo a partir de uma cópia de segurança]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). Para obter mais informações sobre a AdventureWorks, veja [AdventureWorks installation and configuration](/sql/samples/adventureworks-install-configure) (Instalação e configuração da AdventureWorks).
+- [Instale o SQL Server](/sql/database-engine/install-windows/install-sql-server) num computador local e restaure a [base de dados de exemplo a partir de uma cópia de segurança](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). Para obter mais informações sobre a AdventureWorks, veja [AdventureWorks installation and configuration](/sql/samples/adventureworks-install-configure) (Instalação e configuração da AdventureWorks).
 - [Instale um gateway de dados no local](service-gateway-install.md) no mesmo computador local do SQL Server (normalmente, na fase de produção, seria um computador diferente).
 
 > [!NOTE]
