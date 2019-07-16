@@ -7,21 +7,19 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 507af4de9d57d2d54fe3e28bca8b1aff7da5cf30
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461471"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567400"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outras áreas de trabalho (Pré-visualização)
 
-Aprenda a copiar um relatório de uma área de trabalho e guardá-lo numa área de trabalho diferente. Em seguida, poderá modificar esse relatório ao adicionar ou eliminar elementos visuais e outros elementos.
-
-Quando encontrar um relatório do seu agrado, numa área de trabalho ou numa aplicação, poderá fazer uma cópia do mesmo e, em seguida, modificá-lo para que este se ajuste às suas necessidades. Não tem de se preocupar com a criação do modelo de dados. Já terá sido criado automaticamente. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero.
+Quando encontrar um relatório do seu agrado numa área de trabalho ou numa aplicação, poderá fazer uma cópia do mesmo e guardá-lo numa área de trabalho diferente. Em seguida, poderá modificar esse relatório ao adicionar ou eliminar elementos visuais e outros elementos. Não tem de se preocupar com a criação do modelo de dados. Já terá sido criado automaticamente. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, não é possível publicar a sua cópia do relatório numa aplicação a partir da nova área de trabalho. Veja a lista de outras [considerações e limitações](service-datasets-across-workspaces.md#considerations-and-limitations) no artigo "Utilizar conjuntos de dados em várias áreas de trabalho".
 
 ## <a name="save-a-copy-of-a-report"></a>Guardar uma cópia de um relatório
 
@@ -60,10 +58,25 @@ Quando tiver um relatório na sua área de trabalho, poderá ter de saber em que
 
 1. A caixa de diálogo **Conteúdos relacionados** apresenta todos os itens relacionados. Nesta lista, o conjunto de dados tem um aspeto semelhante a qualquer outro. Não é possível perceber que reside numa área de trabalho diferente. Este problema é conhecido.
  
-    ![Caixa de diálogo Conteúdos relacionados](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+    ![Caixa de diálogo Conteúdo relacionado](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+
+## <a name="delete-a-report-and-its-shared-dataset"></a>Eliminar um relatório e o respetivo conjunto de dados partilhado
+
+Pode decidir que não quer mais o relatório e o respetivo conjunto de dados partilhado associado na área de trabalho.
+
+1. Elimine o relatório. Na lista de relatórios na área de trabalho, selecione o ícone **Eliminar**.
+
+    ![Ícone de Eliminar relatório](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
+
+2. Na lista de conjuntos de dados, pode ver que os conjuntos de dados partilhados não têm ícones **Eliminar**. Atualize a página ou aceda a uma página diferente e regresse. O conjunto de dados desaparecerá. Se tal não acontecer, verifique **Ver relacionados**. O conjunto de dados pode estar relacionado com outra tabela na sua área de trabalho.
+
+    ![ícone Ver relacionados](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+
+    > [!NOTE]
+    > Eliminar o conjunto de dados partilhado nesta área de trabalho não elimina o conjunto de dados. Elimina apenas a referência ao mesmo.
 
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em áreas de trabalho [Pré-visualização])
+- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

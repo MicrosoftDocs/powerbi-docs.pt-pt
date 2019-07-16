@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2018
-ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.date: 07/03/2019
+ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67559078"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567816"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 
 Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao Power BI Report Server e ao SQL Server Reporting Services 2016 ou posterior.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+![Ligar a um servidor](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
 Pode utilizar o OAuth para se ligar ao Power BI Report Server e aos Reporting Services para apresentar relatórios móveis ou KPIs. O Windows Server 2016 inclui algumas melhorias na função do Proxy de Aplicações Web (WAP) para permitir este tipo de autenticação.
 
@@ -118,7 +118,7 @@ Pode criar o grupo de aplicações com os seguintes passos.
    > [!NOTE]
    > Este URL é sensível a maiúsculas e minúsculas!
 
-   *https://< URL do servidor de relatórios >/reports*
+   *https://< URL do servidor de relatórios >/*
 
    ![Assistente de Grupo de Aplicações 03 dos AD FS](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Selecione **Seguinte**.
@@ -209,7 +209,7 @@ Depois de adicionar a aplicação do WAP, terá de definir o BackendServerAuthen
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-id.png)
+![Adicionar Grupo de Aplicações](media/mobile-oauth-ssrs/wap-application-id.png)
 
 Execute o comando seguinte para definir o BackendServerAuthenticationMode com o ID da Aplicação do WAP.
 
@@ -217,21 +217,19 @@ Execute o comando seguinte para definir o BackendServerAuthenticationMode com o 
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
-![](media/mobile-oauth-ssrs/wap-application-backendauth.png)
+![Assistente de Adicionar Grupo de Aplicações](media/mobile-oauth-ssrs/wap-application-backendauth.png)
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>Ligar à Aplicação do Power BI Mobile
 
 Na aplicação móvel do Power BI, irá ligar à sua instância do Reporting Services. Para fazê-lo, indique o **URL Externo** da sua Aplicação do WAP.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
+![Escrever o endereço do servidor](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
-Quando seleciona **Ligar**, será direcionado para a página de início de sessão do AD FS. Introduza as credenciais válidas para o seu domínio.
+Quando selecionar **Ligar**, será direcionado para a página de início de sessão do ADFS. Introduza as credenciais válidas para o seu domínio.
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
+![Iniciar sessão no ADFS](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 Depois de selecionar **Iniciar sessão**, verá os elementos do seu servidor do Reporting Services.
-
-![](media/mobile-oauth-ssrs/powerbi-mobile-app2.png)
 
 ## <a name="multi-factor-authentication"></a>Autenticação multifator
 
@@ -239,9 +237,9 @@ Pode ativar a autenticação multifator para ativar segurança adicional no seu 
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Vê o erro Falha ao iniciar sessão no servidor SSRS. Verifique a configuração do servidor.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>Vê o erro "Falha ao iniciar sessão no servidor SSRS"
 
-![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
+![Erro "Falha ao iniciar sessão no servidor SSRS"](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
 Pode configurar o [Fiddler](http://www.telerik.com/fiddler) para atuar como um proxy para os seus dispositivos móveis, para até onde chegou o pedido. Para ativar um proxy do Fiddler para o seu dispositivo móvel, terá de configurar o [CertMaker para iOS e Android](http://www.telerik.com/fiddler/add-ons) no computador com o Fiddler. Este é um suplemento da Telerik para o Fiddler.
 

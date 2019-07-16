@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99769b78060756c557223dd366da550ad3e11056
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461287"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567447"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Criar relatórios baseados em conjuntos de dados de diferentes áreas de trabalho (Pré-visualização)
 
@@ -45,13 +45,13 @@ Ao clicar em **Criar**, cria uma ligação em direto ao conjunto de dados e a ex
 
 Pode guardar o relatório na área de trabalho atual no serviço Power BI ou publicar o relatório numa área de trabalho do Power BI Desktop. O Power BI irá criar automaticamente uma entrada na lista de conjuntos de dados, se o relatório for baseado num conjunto de dados fora da área de trabalho. O ícone deste conjunto de dados é diferente do ícone dos conjuntos de dados na área de trabalho: ![Ícone Conjunto de dados partilhado](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
 
-Desta forma, os membros da área de trabalho podem perceber que relatórios e dashboards utilizam conjuntos de dados que estão fora da mesma. A entrada apresenta informações sobre o conjunto de dados e algumas ações de seleção.
+Desta forma, os membros da área de trabalho podem perceber quais os relatórios e dashboards que utilizam conjuntos de dados fora da mesma. A entrada apresenta informações sobre o conjunto de dados e algumas ações de seleção.
 
 ![Ações de conjuntos de dados](media/service-datasets-across-workspaces/power-bi-dataset-actions.png)
 
 ## <a name="find-an-endorsed-dataset"></a>Encontrar um conjunto de dados recomendado
 
-Há dois tipos de conjuntos de dados recomendados. Os proprietários de conjuntos de dados podem *promover* um conjunto de dados que lhe recomendam. O administrador de inquilinos do Power BI pode nomear peritos para *certificarem* conjuntos de dados para todos utilizarem na sua organização. Os conjuntos de dados promovidos e certificados apresentam *destaques* que vê ao procurar um conjunto de dados e na lista de conjuntos de dados numa área de trabalho. 
+Há dois tipos de conjuntos de dados recomendados. Os proprietários de conjuntos de dados podem *promover* um conjunto de dados que lhe recomendam. Além disso, o administrador de inquilinos do Power BI pode nomear peritos para *certificarem* conjuntos de dados para todos utilizarem na sua organização. Os conjuntos de dados promovidos e certificados apresentam *destaques* que vê ao procurar um conjunto de dados e na lista de conjuntos de dados numa área de trabalho. O nome da pessoa que certificou um conjunto de dados é apresentado numa descrição durante a experiência de deteção do conjunto de dados; paire o cursor sobre a etiqueta **Certificado** e veja-o.
 
 - No serviço Power BI: **Obter dados** > **Conjuntos de dados publicados**.
 - No Power BI Desktop: **Obter dados** > **Conjuntos de dados do Power BI**.
@@ -62,5 +62,5 @@ Há dois tipos de conjuntos de dados recomendados. Os proprietários de conjunto
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em áreas de trabalho [Pré-visualização])
+- [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
