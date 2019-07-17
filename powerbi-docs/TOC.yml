@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Resolução de problemas de erros de mosaico
               href: refresh-troubleshooting-tile-errors.md
-            - name: Resolução de problemas do gateway de dados no local
-              href: service-gateway-onprem-tshoot.md
-            - name: Resolução de problemas do Power BI Gateway – Personal
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Resolução de problemas de análise no Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Erro: Não conseguimos encontrar dados no seu livro do Excel'
@@ -1279,38 +1275,38 @@
   items:
     - name: Descrição geral
       items:
-        - name: "O que são os gateways do Power\_BI?"
-          href: service-gateway-getting-started.md
-    - name: Tutoriais
-      items:
-        - name: Ligar a dados do SQL Server
-          href: service-gateway-sql-tutorial.md
+        - name: What is an on-premises data gateway? (O que é um gateway de dados no local?)
+          href: service-gateway-onprem.md
     - name: Conceitos
       items:
         - name: Guidance for deploying a data gateway (Diretrizes para implementar um gateway de dados)
           href: service-gateway-deployment-guidance.md
         - name: FAQ do gateway de dados no local
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: Procedimentos
       items:
-        - name: Instalar gateways
-          href: service-gateway-install.md
-        - name: Gerir gateways
-          href: service-gateway-manage.md
-        - name: Monitorizar o desempenho de gateways
-          href: service-gateway-performance-monitoring.md
-        - name: Manage your enterprise data source - Analysis Services (Gerir a sua origem de dados empresarial – Analysis Services)
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: Manage your enterprise data source - SAP HANA (Gerir a sua origem de dados empresarial – SAP HANA)
-          href: service-gateway-enterprise-manage-sap.md
-        - name: Manage your enterprise data source - SQL (Gerir a sua origem de dados empresarial – SQL)
-          href: service-gateway-enterprise-manage-sql.md
-        - name: Gerir a origem de dados – Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: Gerir a sua origem de dados empresarial - atualização importada/agendada
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: Merge on-premises and cloud data sources (Intercalar origens de dados na nuvem e no local)
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: Gateway de dados no local - detalhado
+          href: service-gateway-onprem-indepth.md
+        - name: Gateway de dados local (modo pessoal)
+          href: service-gateway-personal-mode.md
+        - name: Manage users and admins (Gerir utilizadores e administradores)
+          href: service-gateway-manage-admins.md
+        - name: Gerir origens de dados
+          items:
+            - name: Gerir origens de dados
+              href: service-gateway-data-sources.md
+            - name: Manage your enterprise data source - Analysis Services (Gerir a sua origem de dados empresarial – Analysis Services)
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: Manage your enterprise data source - SAP HANA (Gerir a sua origem de dados empresarial – SAP HANA)
+              href: service-gateway-enterprise-manage-sap.md
+            - name: Manage your enterprise data source - SQL (Gerir a sua origem de dados empresarial – SQL)
+              href: service-gateway-enterprise-manage-sql.md
+            - name: Gerir a origem de dados – Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: Gerir a sua origem de dados empresarial - atualização importada/agendada
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: Merge on-premises and cloud data sources (Intercalar origens de dados na nuvem e no local)
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: Ativar o início de sessão único (SSO)
           items:
             - name: 'Single sign-on (SSO) - overview (Início de sessão único [SSO] – descrição geral)'
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: 'Single sign-on (SSO) - SAML (Início de sessão único [SSO] – SAML)'
               href: service-gateway-sso-saml.md
-        - name: Definir configurações de proxy
-          href: service-gateway-proxy.md
-        - name: Clusters de elevada disponibilidade para gateways de dados no local
-          href: service-gateway-high-availability-clusters.md
-        - name: Gateway de dados no local
-          href: service-gateway-onprem.md
-        - name: Gateway de dados no local - detalhado
-          href: service-gateway-onprem-indepth.md
-        - name: Gateway de dados local (modo pessoal)
-          href: service-gateway-personal-mode.md
-        - name: Conectores personalizados
-          href: service-gateway-custom-connectors.md
-        - name: Resolução de problemas do gateway de dados no local
+        - name: Troubleshoot the gateway (Resolução de problemas do gateway)
           href: service-gateway-onprem-tshoot.md
+        - name: 'Troubleshoot the gateway (personal mode) (Resolução de problemas do gateway [modo pessoal])'
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: Use custom connectors (Utilizar conectores personalizados)
+          href: service-gateway-custom-connectors.md
     - name: Recursos
       items:
         - name: Monthly gateway updates (Atualizações de gateways mensais)
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: Administração
   items:
     - name: Descrição geral

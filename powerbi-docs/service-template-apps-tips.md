@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408344"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791814"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugestões para criar aplicações de modelo no Power BI
 
@@ -126,6 +126,7 @@ As aplicações de modelo podem ser publicadas no AppSource. Siga estas diretriz
 
 * Certifique-se de que cria uma aplicação de modelo com dados de exemplo apelativos que podem ajudar o instalador a compreender o que a aplicação pode fazer (não são aprovados relatórios e dashboards vazios).
 As aplicações de modelo suportam aplicações apenas de dados de exemplo, por isso, assegure-se de que seleciona a caixa de verificação de aplicação estática. [Saiba mais](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Em geral, apenas a aplicação com funcionalidades de valor pode ser aprovada para utilização geral no AppSource. A aplicação com conteúdo de dados de exemplo tem de ter valor de orientação ou valor estatístico.
 * Tenha instruções que a equipa de validação deverá seguir, incluindo as credenciais e os parâmetros necessários para ligar aos dados.
 * A aplicação tem de incluir um ícone de Aplicação no Power BI e na sua oferta CPP. [Saiba mais](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * A página de destino está configurada. [Saiba mais](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
