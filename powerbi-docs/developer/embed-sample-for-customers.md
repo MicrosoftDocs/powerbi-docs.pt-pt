@@ -12,7 +12,7 @@ ms.custom: seodec18
 ms.date: 04/02/2019
 ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710962"
@@ -365,7 +365,7 @@ Utilize a tabela abaixo para determinar que capacidade do Power BI Embedded melh
 | A5 |16 núcleos virtuais |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |
 | A6 |32 núcleos virtuais |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |
 
-**_Com os SKUs A, não pode aceder a conteúdos do Power BI com uma licença do Power BI GRATUITA._ **
+**_Com os SKUs A, não pode aceder a conteúdos do Power BI com uma licença do Power BI GRATUITA._**
 
 A utilização de tokens de incorporação com a licença PRO destina-se a testes de desenvolvimento. O número de tokens de incorporação que um principal de serviço ou uma conta principal do Power BI pode gerar é limitado. Uma capacidade dedicada necessita de incorporação num ambiente de produção. Não existe um limite de tokens de incorporação que pode gerar com uma capacidade dedicada. Aceda a [Funcionalidades Disponíveis](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) para verificar o valor de utilização que indica a utilização atual incorporada em valores percentuais. O valor de utilização baseia-se na conta principal.
 

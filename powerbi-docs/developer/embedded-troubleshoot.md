@@ -110,7 +110,7 @@ Para resolver este problema, deve retirar "oauth2/authorize/" do final do seu UR
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>A autenticação falhou com o erro AADSTS70002 ou AADSTS50053
 
-** _(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_ **
+** _(AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta)_**
 
 Se estiver a utilizar o Power BI Embedded e a Autenticação Direta do Azure AD e estiver a receber mensagens ao iniciar sessão, tal como ***error:unauthorized_client, error_description:AADSTS70002: Erro ao validar as credenciais. AADSTS50053: Tentou iniciar sessão demasiadas vezes com um ID de Utilizador ou palavra-passe incorreta***, porque a autenticação direta já não está em utilização desde 14 de junho de 2018 por predefinição.
 
@@ -162,7 +162,7 @@ Para verificar qual é o motivo, experimente os passos abaixo.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: A concessão requer permissões de administrador
 
-**_Sintomas:_ **<br>
+**_Sintomas:_**<br>
 Quando um utilizador que não é administrador tenta iniciar sessão numa aplicação pela primeira vez ao dar consentimento, obtém um dos seguintes erros:
 
 * O ConsentTest precisa de permissão para aceder a recursos na sua organização que apenas um administrador pode conceder. Peça permissão a um administrador para aceder a esta aplicação antes de a utilizar.
@@ -172,10 +172,10 @@ Quando um utilizador que não é administrador tenta iniciar sessão numa aplica
 
 Um utilizador administrador pode iniciar sessão e dar consentimento com êxito.
 
-**_Causa raiz:_ **<br>
+**_Causa raiz:_**<br>
 O consentimento do utilizador está desativado no inquilino.
 
-**_São possíveis várias correções:_ **
+**_São possíveis várias correções:_**
 
 *Ativar o consentimento do utilizador para todo o inquilino (todos os utilizadores, aplicações)*
 
