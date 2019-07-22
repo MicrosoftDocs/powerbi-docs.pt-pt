@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 37337d7b544bcad5c1f357b00eb73d7af6c6da7d
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404887"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342235"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
 
@@ -97,7 +97,7 @@ Uma nova experiência de filtros está atualmente em pré-visualização. Nos no
 
 ![Nova experiência de filtro](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
 
-Leia mais sobre [a nova experiência de filtros](power-bi-report-filter-preview.md).
+Leia mais sobre [a nova experiência de filtros](power-bi-report-filter.md).
 
 - - -
 ## <a name="the-fields-pane"></a>O painel Campos

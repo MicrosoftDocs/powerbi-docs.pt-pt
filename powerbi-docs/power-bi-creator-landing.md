@@ -10,12 +10,12 @@ ms.date: 03/20/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 192066c34e99ecd4088d2253063bed7f2defd4e6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60978855"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271810"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para designers de relatórios
 
@@ -77,7 +77,7 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
                                           <p></p>
                                                 <a href="desktop-quickstart-connect-to-data.md">Ligar a Dados no Power BI Desktop</a><br/> 
                                                 <a href="service-dataflows-overview.md">Fluxos de dados: Preparação personalizada de dados</a><br/> 
-                                                <a href="service-gateway-install.md">Gateways para dados no local</a>
+                                                <a href="service-gateway-onprem.md">Gateways para dados no local</a>
                                     </div> 
                               </div> 
                         </div> 
