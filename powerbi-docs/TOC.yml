@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: Vista de modelação no Power BI Desktop
           href: desktop-modeling-view.md
-        - name: Agregações no Power BI Desktop (Pré-visualização)
+        - name: Aggregations in Power BI Desktop (Agregações no Power BI Desktop)
           href: desktop-aggregations.md
         - name: "Modelos compostos no Power\_BI Desktop"
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: Tipos de filtros
               href: power-bi-report-filter-types.md
             - name: Experimentar a nova experiência de filtro
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: Utilizar Medidas Rápidas
               href: desktop-quick-measures.md
             - name: Using What if parameters (Utilizar parâmetros "E se")
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: Dez sugestões para obter ajuda
               href: service-tips-for-finding-help.md
+            - name: Service interruption notifications (Notificações de interrupção do serviço)
+              href: service-interruption-notifications.md
         - name: Expandir o Power BI
           items:
             - name: Microsoft Flow e Power BI
@@ -685,6 +687,8 @@
           items:
             - name: Ver um relatório paginado
               href: paginated-reports-view-power-bi-service.md
+            - name: Supported data sources (Origens de dados suportadas)
+              href: paginated-reports-data-sources.md
             - name: Interagir com parâmetros
               href: paginated-reports-view-parameters.md
             - name: Subscrever-se ou subscrever outros
