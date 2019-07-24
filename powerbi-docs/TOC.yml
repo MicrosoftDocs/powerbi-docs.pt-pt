@@ -71,9 +71,9 @@
           href: desktop-directquery-data-sources.md
         - name: Pré-requisitos de origem de dados do Power BI
           href: desktop-data-source-prerequisites.md
-        - name: Default member in multidimensional models in Power BI (Membro predefinido em modelos multidimensionais no Power BI)
+        - name: "Membro predefinido em modelos multidimensionais no Power\_BI"
           href: desktop-default-member-multidimensional-models.md
-        - name: Custom visuals FAQ (FAQ sobre elementos visuais personalizados)
+        - name: Visuals FAQ (FAQ sobre elementos visuais)
           href: power-bi-custom-visuals-faq.md
     - name: Procedimentos
       items:
@@ -1067,48 +1067,70 @@
       items:
         - name: Descrição geral
           items:
-            - name: Elementos visuais personalizados no Power BI
+            - name: Visuals in Power BI (Elementos visuais no Power BI)
               href: power-bi-custom-visuals.md
         - name: Tutoriais
           items:
-            - name: Developing a Power BI custom visual (Desenvolver um elemento visual personalizado do Power BI)
+            - name: Develop a Power BI visual (Criar um elemento visual do Power BI)
               href: developer/custom-visual-develop-tutorial.md
-            - name: Adding formatting options (Adicionar opções de formatação)
+            - name: Add formatting options (Adicionar opções de formatação)
               href: developer/custom-visual-develop-tutorial-format-options.md
+            - name: Add unit tests for visual project (Adicionar testes de unidades nos projetos de elementos visuais)
+              href: developer/visuals/unit-tests-introduction.md
         - name: Conceitos
           items:
-            - name: Custom visuals for organizations in Power BI (Elementos visuais personalizados para organizações no Power BI)
+            - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
               href: power-bi-custom-visuals-organization.md
             - name: Diretrizes de elementos visuais do Power BI
               href: developer/guidelines-powerbi-visuals.md
-            - name: Custom visuals FAQ (FAQ sobre elementos visuais personalizados)
+            - name: Visuals FAQ (FAQ sobre elementos visuais)
               href: power-bi-custom-visuals-faq.md
-            - name: Using Capabilities (Utilizar Capacidades)
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
-            - name: Data View Mappings (Mapeamentos de Vista de Dados)
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
-            - name: Objects and Properties (Objetos e Propriedades)
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+            - name: Using capabilities (Utilizar capacidades)
+              href: developer/visuals/capabilities.md
+            - name: Data view mappings (Mapeamentos de vista de dados)
+              href: developer/visuals/dataview-mappings.md
+            - name: Objects and properties (Objetos e propriedades)
+              href: developer/visuals/objects-properties.md
             - name: Advanced Edit Mode (Modo de Edição Avançado)
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: Migrating to versioned API guide (Guia de migração para uma API com versões)
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+              href: developer/visuals/advanced-edit-mode.md
         - name: Procedimentos
           items:
-            - name: Get a custom visual certified (Obter um elemento visual personalizado certificado)
+            - name: Get a visual certified (Criar um certificado de elementos visuais)
               href: power-bi-custom-visuals-certified.md
             - name: Publicar visuais personalizados no AppSource
               href: developer/office-store.md
             - name: Utilizar elementos visuais personalizados baseados em R no Power BI
               href: desktop-r-powered-custom-visuals.md
-            - name: Resolução de Problemas
-              items:
-                - name: Troubleshoot developing custom visuals (Resolver problemas com elementos visuais personalizados)
-                  href: power-bi-custom-visuals-troubleshoot.md
+            - name: Visuals interactions (Interações de elementos visuais)
+              href: developer/visuals/visuals-interactions.md
+            - name: Add visuals tooltips (Adicionar descrições em elementos visuais)
+              href: developer/visuals/add-tooltips.md
+            - name: Add analytics pane (Adicionar painel de análise)
+              href: developer/visuals/analytics-pane.md
+            - name: Filter visuals (Filtrar elementos visuais)
+              href: developer/visuals/filter-api.md
+            - name: Fetch more data (Obter mais dados)
+              href: developer/visuals/fetch-more-data.md
+            - name: Add bookmarks support (Adicionar suporte para marcadores)
+              href: developer/visuals/bookmarks-support.md
+            - name: Highlight data in visuals (Destacar dados em elementos visuais)
+              href: developer/visuals/highlight.md
+            - name: Add High-Contrast mode support (Adicionar suporte para o modo Alto Contraste)
+              href: developer/visuals/high-contrast-support.md
+            - name: Enable sync slicers (Ativar segmentação de dados)
+              href: developer/visuals/enable-sync-slicers.md
+            - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Referência
           items:
-            - name: APIs
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+            - name: Landing page (Página de destino)
+              href: developer/visuals/landing-page.md
+            - name: Launch URL (Iniciar URL)
+              href: developer/visuals/launch-url.md
+            - name: Rendering events (Eventos de composição)
+              href: developer/visuals/event-service.md
+            - name: Ordenação
+              href: developer/visuals/sort-options.md
         - name: Recursos
           items:
             - name: Dev Center
@@ -1117,6 +1139,8 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: Custom Visuals Git Repo (Repositório Git de Elementos Visuais Personalizados)
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: Creating SSL certificate (Criar um certificado SSL)
+              href: developer/visuals/create-ssl-certificate.md
     - name: Automatização
       items:
         - name: Descrição geral
