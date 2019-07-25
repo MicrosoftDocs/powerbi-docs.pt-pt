@@ -311,7 +311,7 @@ Segue-se a [listagem de código completo](#code).
     }
 ```
 
-Apesar de especificarmos que ** _//obtemos o primeiro id_** no código acima, o mais correto a fazer é procurar o conjunto de dados por nome.
+Apesar de especificarmos que **_//obtemos o primeiro id_** no código acima, o mais correto a fazer é procurar o conjunto de dados por nome.
 
 ## <a name="next-steps"></a>Próximos passos
 [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
