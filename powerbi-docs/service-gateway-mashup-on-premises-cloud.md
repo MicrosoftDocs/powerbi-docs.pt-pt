@@ -7,24 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272658"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352169"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Intercalar ou anexar origens de dados na cloud e no local
 
-O gateway de dados no local permite-lhe intercalar ou anexar origens de dados no local e na cloud na mesma consulta. Isto é útil quando quer fazer o mashup de dados de múltiplas origens sem ter de utilizar consultas separadas.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+O gateway de dados no local permite-lhe intercalar ou acrescentar origens de dados no local e na cloud na mesma consulta. Isto é útil quando quer combinar dados de múltiplas origens sem ter de utilizar consultas separadas.
+
+>[!NOTE]
+>Este artigo só se aplica a conjuntos de dados que têm origens de dados no local e na cloud intercaladas ou acrescentadas numa única consulta. No caso dos conjuntos de dados que incluem consultas separadas (uma ligada a uma origem de dados no local e outra a uma origem de dados na cloud), a consulta que utiliza a origem de dados na cloud não será executada através do gateway.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-- Um [gateway instalado](service-gateway-install.md) num computador local.
+- Um [gateway instalado](/data-integration/gateway/service-gateway-install) num computador local.
 - Um ficheiro do Power BI Desktop com consultas que combinem origens de dados no local e na cloud.
+
+>[!NOTE]
+>Para aceder a qualquer origem de dados na nuvem, tem de garantir que o gateway tem acesso a essas origens de dados.
 
 1. No canto superior direito do serviço Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de Definições](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Gerir gateways**.
 
@@ -46,10 +54,11 @@ O gateway de dados no local permite-lhe intercalar ou anexar origens de dados no
 
    - Em **Credenciais da origem de dados**, edite as credenciais de origem de dados na cloud, conforme necessário.
 
+    Certifique-se de que os níveis de privacidade das origens de dados no local e na cloud estão devidamente definidos para assegurar que as associações são tratadas de forma segura.
+
      ![Definições do conjunto de dados](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
 7. Com as credenciais da cloud definidas, pode atualizar o conjunto de dados através da opção **Atualizar agora** ou agendá-la para ser atualizada periodicamente.
-
 
 ## <a name="next-steps"></a>Próximos passos
 

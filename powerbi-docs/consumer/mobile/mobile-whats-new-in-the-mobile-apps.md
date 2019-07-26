@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558984"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230220"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -22,6 +22,18 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>Julho de 2019
+
+### <a name="report-page-tooltips"></a>Descrições de página do relatório
+
+As descrições da página de relatório são agora suportadas durante a visualização de relatórios na sua aplicação móvel. Basta tocar sem soltar num elemento visual que tenha uma descrição de relatório associada para que esta seja apresentada.  
+
+![Descrição de tela de relatórios](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> As descrições de relatório são suportadas em dispositivos com mais de 640 píxeis e 320 janelas viewport. Os dispositivos de menores dimensões utilizam descrições predefinidas.
+
 
 ## <a name="june-2019"></a>Junho de 2019
 

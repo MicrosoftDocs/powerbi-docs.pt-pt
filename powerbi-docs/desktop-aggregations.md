@@ -1,5 +1,5 @@
 ---
-title: Utilizar Agregações no Power BI Desktop (Pré-visualização)
+title: Utilizar Agregações no Power BI Desktop
 description: Realizar análises interativas de macrodados no Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239587"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325169"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Agregações no Power BI Desktop (Pré-visualização)
+# <a name="aggregations-in-power-bi-desktop"></a>Aggregations in Power BI Desktop (Agregações no Power BI Desktop)
 
 A utilização de **agregações** no Power BI permite realizar análises interativas de macrodados de uma forma que não era possível anteriormente. As **agregações** podem reduzir drasticamente o custo de desbloqueio de grandes conjuntos de dados para a tomada de decisões.
 
@@ -36,16 +36,6 @@ Normalmente, o armazenamento ao nível da tabela é utilizado com a funcionalida
 As agregações são utilizadas com origens de dados que representam modelos dimensionais, tais como armazéns de dados e data marts, bem como origens de macrodados baseadas no Hadoop. Este artigo descreve as diferenças de modelação típica no Power BI para cada tipo de origem de dados.
 
 Todas as origens de importação e do DirectQuery (não multidimensionais) do Power BI funcionam com agregações.
-
-## <a name="enabling-the-aggregations-preview-feature"></a>Ativar a funcionalidade de pré-visualização de agregações
-
-A funcionalidade **agregações** está em Pré-visualização e tem de ser ativada no **Power BI Desktop**. Para ativar as **agregações**, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de pré-visualização** e, em seguida, selecione as caixas de verificação **Modelos compostos** e **Gerir agregações**. 
-
-![ativar as funcionalidades de pré-visualização](media/desktop-aggregations/aggregations_01.jpg)
-
-Terá de reiniciar o **Power BI Desktop** para que a funcionalidade seja ativada.
-
-![reinício necessário para que as alterações entrem em vigor](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>Agregações baseadas em relações
 
@@ -103,8 +93,10 @@ O único caso em que uma relação de *origem cruzada* é considerada segura é 
 
 Para obter resultados da agregação de *origem cruzada* que não dependem de relações, veja a seção a seguir sobre as agregações baseadas em colunas Agrupar por.
 
-### <a name="aggregation-table-is-hidden"></a>A tabela de agregação está oculta
-A tabela **Sales Agg** (Agregação de Vendas) está oculta. As tabelas de agregação devem estar sempre ocultadas para os consumidores do conjunto de dados. Os consumidores e as consultas referem-se à tabela de detalhes e não à tabela de agregação, os consumidores nem precisam de saber que a tabela de agregação existe.
+### <a name="aggregation-tables-are-not-addressable"></a>As tabelas de agregação não são endereçáveis
+Os utilizadores com acesso só de leitura ao conjunto de dados não podem consultar tabelas de agregação. Isso evita preocupações com a segurança ao utilizar a RLS. Os consumidores e as consultas referem-se à tabela de detalhes e não à tabela de agregação, os consumidores nem precisam de saber que a tabela de agregação existe.
+
+Por esse motivo, a tabela **Agregação de Vendas** deverá estar oculta. Se não estiver, a caixa de diálogo Gerir agregações irá defini-la como oculta ao clicar no botão Aplicar tudo.
 
 ### <a name="manage-aggregations-dialog"></a>Caixa de diálogo Gerir agregações
 Em seguida, vamos definir as agregações. Selecione o menu de contexto **Gerir agregações** para a tabela **Sales Agg** (Agregação de Vendas) ao clicar com o botão direito do rato na tabela.
@@ -136,11 +128,7 @@ A caixa de diálogo impõe as seguintes validações relevantes:
 * A coluna de detalhes selecionada tem de ter o mesmo tipo de dados que a coluna de agregação, exceto para as funções de resumo Contagem e Contagem de linhas da tabela. A Contagem e as Contagem de linhas da tabela são apenas disponibilizadas para as colunas de agregação de número inteiro e não necessitam de um tipo de dados correspondente.
 * Não são permitidas agregações em cadeia que abranjam três ou mais tabelas. Por exemplo, não é possível configurar agregações na **Tabela A** que se referem à **Tabela B** que tem agregações que se referem à **Tabela C**.
 * Não são permitidas agregações duplicadas em que duas entradas utilizem a mesma função de resumo e se refiram à mesma tabela/coluna de detalhes.
-
-Durante esta pré-visualização pública das **agregações**, também são impostas as validações seguintes. Pretendemos remover estas validações após o lançamento para disponibilidade geral.
-
-* Não se podem utilizar agregações com segurança ao nível da linha (RLS). *Limitação de pré-visualização pública.*
-* A tabela de detalhes tem de ser do DirectQuery e não de Importação. *Limitação de pré-visualização pública.*
+* A tabela de detalhes tem de ser do DirectQuery e não de Importação.
 
 A maioria destas validações são impostas através da desativação dos valores de lista pendente e da apresentação do texto explicativo na descrição, tal como mostra a imagem seguinte.
 
@@ -149,6 +137,9 @@ A maioria destas validações são impostas através da desativação dos valore
 ### <a name="group-by-columns"></a>Colunas Agrupar por
 
 Neste exemplo, as três entradas GroupBy são opcionais e não afetam o comportamento de agregação (exceto para a consulta de exemplo DISTINCTCOUNT mostrada na imagem abaixo). Estas foram incluídas principalmente para fins de legibilidade. Sem estas entradas GroupBy, as agregações poderiam continuar a ser acedidas com base nas relações. Este é um comportamento diferente daquele que obtém ao utilizar agregações sem relações, cujo tema será abordado através do exemplo de macrodados apresentado mais adiante neste artigo.
+
+### <a name="inactive-relationships"></a>Relações inativas
+Não é suportado o agrupamento por uma coluna de chave externa utilizada por uma relação inativa e com base na função USERELATIONSHIP para resultados da agregação.
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>Detetar se as agregações dão ou não resultados através de consultas
 
@@ -191,6 +182,17 @@ Em alguns casos, a função DISTINCTCOUNT pode beneficiar com as agregações. A
 
 ![exemplo de consulta](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+As expressões RLS (segurança ao nível da linha) devem filtrar a tabela de agregação e a tabela de detalhes para que funcionem corretamente. Seguindo o exemplo, uma expressão RLS na tabela **Geography** (Geografia) irá funcionar porque Geografia está no lado da filtragem das relações com as tabelas **Sales** (Vendas) e **Sales Agg** (Agregação de Vendas). As consultas correspondentes e não correspondentes à tabela de agregação terão a RLS aplicada com êxito.
+
+![gerir funções de agregações](media/desktop-aggregations/manage-roles.jpg)
+
+Uma expressão RLS na tabela **Product** (Produto) filtraria apenas a tabela **Sales** (Vendas) e não a tabela **Sales Agg** (Agregação de Vendas). Não recomendamos isto. As consultas submetidas por utilizadores que acedem ao conjunto de dados ao utilizar esta função não beneficiariam dos resultados da agregação. Uma vez que a tabela de agregação é outra representação dos mesmos dados na tabela de detalhes, não seria seguro responder a consultas da tabela de agregação porque não é possível aplicar o filtro RLS.
+
+Uma expressão RLS na própria tabela **Sales Agg** filtraria apenas a tabela de agregação e não a tabela de detalhes. Isso não é permitido.
+
+![gerir funções de agregações](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>Agregações baseadas em colunas Agrupar por 
 
 Os modelos de macrodados baseados no Hadoop têm caraterísticas diferentes das dos modelos dimensionais. Para evitar associações entre tabelas grandes, estes modelos muitas vezes não se baseiam em relações. Em vez disso, os atributos de dimensão são muitas vezes desnormalizados para tabelas de factos. Esses modelos de macrodados podem ser desbloqueados para análise interativa através de **agregações** baseadas em colunas Agrupar por.
@@ -225,6 +227,10 @@ A consulta seguinte obtém resultados da agregação porque a coluna **Activity 
 
 ![caixa de diálogo de filtros](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+As mesmas regras de RLS detalhadas acima para agregações baseadas em relações, relativas à possibilidade de uma expressão RLS filtrar a tabela de agregação, a tabela de detalhes ou ambas, também se aplicam a agregações baseadas em colunas Agrupar por. No exemplo, uma expressão RLS aplicada à tabela **Driver Activity** (Atividade do Condutor) pode ser utilizada para filtrar a tabela **Driver Activity Agg** (Agregação de Atividades do Condutor), uma vez que todas as colunas Agrupar por na tabela de agregação são abrangidas pela tabela de detalhes. Por outro lado, um filtro RLS na tabela **Driver Activity Agg** (Agregação de Atividades do Condutor) não pode ser aplicado à tabela **Driver Activity** (Atividade do Condutor), pelo que não é permitido.
+
 ## <a name="aggregation-precedence"></a>Precedência de agregação
 
 A precedência de agregação permite que múltiplas tabelas de agregação sejam consideradas por uma subconsulta única.
@@ -232,8 +238,11 @@ A precedência de agregação permite que múltiplas tabelas de agregação seja
 Considere o exemplo seguinte. Trata-se de um [modelo composto](desktop-composite-models.md) que contém múltiplas origens do DirectQuery.
 
 * A tabela de importação **Driver Activity Agg2** (Agregação de Atividades do Condutor2) tem um nível de detalhe elevado porque os atributos Agrupar por são poucos e têm uma cardinalidade baixa. O número de linhas poderia estar apenas na ordem dos milhares para que a tabela coubesse facilmente numa cache dentro da memória. Estes atributos costumavam ser utilizados por um dashboard executivo com uma posição de relevo, pelo que as consultas que se referem a esses atributos devem ser o mais rápidas possível.
-* A tabela **Driver Activity Agg** (Agregação de Atividades do Condutor) é uma tabela de agregação intermediária no modo DirectQuery. Contém mais de mil milhões de linhas e está otimizada na origem com índices columnstore.
+* A tabela **Driver Activity Agg** (Agregação de Atividades do Condutor) é uma tabela de agregação intermediária no modo DirectQuery. Contém mais de mil milhões de linhas no Azure SQL DW e está otimizada na origem com índices columnstore.
 * A tabela **Driver Activity** (Atividade do Condutor) é do DirectQuery e contém mais de um bilião de linhas de dados de IoT obtidos a partir de um sistema de macrodados. Destina-se a consultas de pormenorização para ver leituras de IoT individuais em contextos de filtros controlados.
+
+> [!NOTE]
+> As tabelas de agregação do DirectQuery que utilizam uma origem de dados diferente para a tabela de detalhes só são suportadas se a tabela de agregação for de uma origem do SQL Server, Azure SQL ou Azure SQL DW.
 
 A quantidade de memória deste modelo é relativamente pequena, mas permitirá desbloquear um enorme conjunto de dados. Representa uma arquitetura equilibrada porque distribui a carga de consultas pelos componentes da arquitetura ao utilizá-los com base nos seus pontos fortes.
 
@@ -261,8 +270,6 @@ A tabela seguinte mostra as entradas definidas na caixa de diálogo **Gerir agre
 
 ![Tabela de agregações Sales Agg (Agregação de Vendas)](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Nota: este modelo exige que a tabela **Data** esteja no modo DirectQuery para preencher a caixa de diálogo Gerir agregações porque se trata de uma tabela de detalhes. Esta é uma limitação de Pré-visualização que pretendemos remover na Disponibilidade Geral.
-
 ### <a name="query-examples"></a>Exemplos de consulta
 
 A consulta seguinte obtém resultados da agregação porque CalendarMonth (MêsDoCalendário) está abrangido pela tabela de agregação e CategoryName (NomeDaCategoria) é acessível através de relações um-para-muitos. É utilizada a agregação Soma para **SalesAmount** (MontanteDeVendas).
@@ -285,9 +292,9 @@ As **agregações** que combinam o modo DirectQuery e o modo Importação do arm
 
 Os artigos seguintes descrevem de forma mais detalhada os modelos compostos e o DirectQuery.
 
-* [Modelos compostos no Power BI Desktop (Pré-visualização)](desktop-composite-models.md)
-* [Relações muitos para muitos no Power BI Desktop (Pré-visualização)](desktop-many-to-many-relationships.md)
-* [Modo de armazenamento no Power BI Desktop (Pré-visualização)](desktop-storage-mode.md)
+* [Modelos compostos no Power BI Desktop](desktop-composite-models.md)
+* [Relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md)
+* [Modo de Armazenamento no Power BI Desktop](desktop-storage-mode.md)
 
 Artigos do DirectQuery:
 

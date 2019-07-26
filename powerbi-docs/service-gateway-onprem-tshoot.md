@@ -1,6 +1,6 @@
 ---
-title: Resolução de Problemas do Gateway de Dados no Local
-description: Este artigo fornece formas de resolver problemas do Gateway de dados no local. Fornece possíveis soluções para problemas conhecidos, bem como as ferramentas para ajudá-lo.
+title: Resolver problemas de gateways – Power BI
+description: Este artigo fornece formas de resolver problemas do gateway de dados no local e do Power BI. Fornece possíveis soluções para problemas conhecidos, bem como as ferramentas para ajudá-lo.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -8,118 +8,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: a013b42f1cd7cc9b2c5c24f9636683a52687ceb8
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223926"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271411"
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de Problemas do Gateway de Dados no Local
+# <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 
-Este artigo aborda alguns problemas comuns ao utilizar o **Gateway de dados no local**.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-<!-- Shared Community & support links Include -->
-[!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
-
-<!-- Shared Troubleshooting Install Include -->
-[!INCLUDE [gateway-onprem-tshoot-install-include](./includes/gateway-onprem-tshoot-install-include.md)]
+Este artigo aborda alguns problemas comuns ao utilizar o **gateway de dados no local** com o Power BI. Caso encontre um problema que não esteja listado abaixo, pode utilizar o [site da comunidade](http://community.powerbi.com) do Power BI ou criar um [pedido de suporte](http://powerbi.microsoft.com/support).
 
 ## <a name="configuration"></a>Configuração
 
-### <a name="how-to-restart-the-gateway"></a>Como reiniciar o gateway
-
-O gateway é executado como um serviço Windows, por isso pode iniciar e pará-lo de algumas formas. Por exemplo, pode abrir uma linha de comandos com permissões elevadas na máquina onde o gateway está em execução e, em seguida, executar um dos seguintes comandos:
-
-* Para parar o serviço, execute este comando:
-
-    ```
-    net stop PBIEgwService
-    ```
-
-* Para iniciar o serviço, execute este comando:
-
-    ```
-    net start PBIEgwService
-    ```
-
-### <a name="log-file-configuration"></a>Configuração de ficheiros de registo
-
-Os registos dos serviços de gateway são categorizados em três grupos: informações, erros e redes. Esta categorização proporciona uma melhor experiência de resolução de problemas que lhe permite focar-se numa área específica, consoante o erro ou problema. Pode ver as três categorias no seguinte fragmento do ficheiro de configuração do gateway: `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`.
-
-```xml
-  <system.diagnostics>
-    <trace autoflush="true" indentsize="4">
-      <listeners>
-        <remove name="Default" />
-        <add name="ApplicationFileTraceListener"
-             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
-             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
-      </listeners>
-    </trace>
-  </system.diagnostics>
-```
-
-A localização predefinida deste ficheiro é: *\Programas\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Para configurar o número de ficheiros de registo a reter, altere o primeiro número (neste exemplo é o número 20): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
-
-### <a name="error-failed-to-create-a-gateway-try-again"></a>Erro: Falha ao criar um gateway. Tente novamente
-
-Todos os detalhes estão disponíveis, mas a chamada para o serviço Power BI devolveu um erro. O erro e um ID de atividade serão apresentados. Isto pode acontecer por diferentes motivos. Pode recolher e rever os registos, conforme mencionado abaixo, para obter mais detalhes.
-
-Isto também pode dever-se a problemas de configuração de proxy. A interface de utilizador agora permite a configuração de proxy. Pode saber mais sobre como efetuar [alterações da configuração de proxy](service-gateway-proxy.md)
-
-### <a name="error-failed-to-update-gateway-details-please-try-again"></a>Erro: Falha ao atualizar os detalhes do gateway. Tente novamente
-
-As informações foram recebidas do serviço Power BI para o gateway. As informações foram transmitidas para o serviço Windows local, mas ocorreu uma falha ao devolver. Em alternativa, a geração de uma chave simétrica falhou. A exceção interna será apresentada em **Mostrar detalhes**. Para obter mais detalhes, pode recolher e rever os registos mencionados abaixo.
-
 ### <a name="error-power-bi-service-reported-local-gateway-as-unreachable-restart-the-gateway-and-try-again"></a>Erro: O serviço Power BI reportou o gateway local como inacessível. Reinicie o gateway e tente novamente
 
-No final da configuração, o serviço Power BI será chamado novamente para validar o gateway. O serviço Power BI não reporta o gateway como *dinâmico*. Reiniciar o serviço Windows pode permitir que a comunicação seja bem-sucedida. Pode recolher e rever os registos, conforme mencionado abaixo, para obter mais detalhes.
+No final da configuração, o serviço Power BI será chamado novamente para validar o gateway. O serviço Power BI não reporta o gateway como dinâmico. Reiniciar o serviço Windows pode permitir que a comunicação seja bem-sucedida. Pode recolher e rever os registos, conforme descrito na secção [Recolher relatórios da aplicação do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app), para obter mais detalhes.
 
-### <a name="script-error-during-sign-into-power-bi"></a>Erro de script durante o início de sessão no Power BI
-
-Poderá receber um erro de script ao iniciar sessão no Power BI, como parte da configuração do Gateway de dados no local. Instalar a seguinte atualização de segurança resolve o problema. Pode ser instalada através do Windows Update.
-
-[MS16-051: Atualização de segurança para o Internet Explorer: 10 de maio de 2016 (KB 3154070)](https://support.microsoft.com/kb/3154070)
-
-### <a name="gateway-configuration-failed-with-a-null-reference-exception"></a>A configuração do gateway falhou com uma exceção de referência nula
-
-Pode encontrar um erro semelhante ao seguinte.
-
-        Failed to update gateway details.  Please try again.
-        Error updating gateway configuration.
-
-Isto inclui um rastreio de pilha, que poderá incluir a seguinte mensagem.
-
-        Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.CouldNotUpdateGatewayConfigurationException: Error updating gateway configuration. ----> System.ArgumentNullException: Value cannot be null.
-        Parameter name: serviceSection
-
-Se estiver a atualizar a partir de um gateway antigo, mantemos o ficheiro de configuração. Uma secção poderá estar em falta. Quando o gateway tentar lê-la, poderemos obter a exceção de referência nula mencionada acima.
-
-Para corrigir isto, siga os seguintes passos.
-
-1. Desinstale o gateway.
-2. Elimine a pasta seguinte.
-
-        c:\Program Files\On-premises data gateway
-3. Reinstale o gateway.
-4. Opcionalmente, aplique a chave de recuperação para restaurar um gateway existente.
-
-## <a name="support-for-tls-12"></a>Suporte para TLS 1.2
-
-Por predefinição, o Gateway de dados no local utiliza o TLS (Transport Layer Security) 1.2 para comunicar com o serviço Power BI. Para garantir que todo o tráfego do gateway utiliza o TLS 1.2, poderá ter de adicionar ou modificar as seguintes chaves de registo no computador que executa o serviço de gateway:
-
-```
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-```
-
-> [!NOTE]
-> Adicionar ou modificar estas chaves de registo aplica a alteração a todas as aplicações .NET. Para obter informações sobre as alterações de registo que afetam o TLS de outras aplicações, veja [Definições de registo do TLS (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
-
-## <a name="data-sources"></a>Data sources
+## <a name="data-sources"></a>Origens de dados
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Erro: Não é possível ligar. Detalhes: “Credenciais de ligação inválidas”
 
@@ -145,7 +55,7 @@ Em **Mostrar detalhes**, poderá ver um código de erro de **DM_GWPipeline_Unkno
 
 Também pode observar os Registos de Eventos > **Registos de Aplicações e Serviços** > **Serviço de Gateway de dados no local** para obter mais detalhes.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: Ocorreu um erro ao tentar ligar a <server>. Detalhes: “Acedemos ao gateway de dados, mas o gateway não consegue aceder à origem de dados no local.”
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: Encontrámos um erro ao tentar ligar ao \<servidor\>. Detalhes: “Acedemos ao gateway de dados, mas o gateway não consegue aceder à origem de dados no local.”
 
 Não é possível ligar à origem de dados especificada. Certifique-se de que valida as informações fornecidas para essa origem de dados.
 
@@ -188,7 +98,7 @@ Certifique-se de que a sua conta está listada no separador **Utilizadores** da 
 
 ### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Erro: Não tem nenhum gateway instalado ou configurado para as origens de dados neste conjunto de dados
 
-Certifique-se de que adicionou uma ou mais origens de dados ao gateway, conforme descrito em [Adicionar uma origem de dados](service-gateway-manage.md#add-a-data-source). Se o gateway não aparecer no portal de administração em **Gerir gateways**, experimente limpar a cache do browser ou terminar e voltar a iniciar sessão no serviço.
+Certifique-se de que adicionou uma ou mais origens de dados ao gateway, conforme descrito em [Adicionar uma origem de dados](service-gateway-data-sources.md#add-a-data-source). Se o gateway não aparecer no portal de administração em **Gerir gateways**, experimente limpar a cache do browser ou terminar e voltar a iniciar sessão no serviço.
 
 ## <a name="datasets"></a>Conjuntos de Dados
 
@@ -200,7 +110,7 @@ Isto ocorrerá se tiver uma única linha com um tamanho superior a 4 MB. Tem de 
 
 Isto pode ocorrer quando o CN do certificado se destina ao nome de domínio completamente qualificado (FQDN) do servidor, mas só tiver fornecido o nome NetBIOS do servidor. Isto irá causar um erro de correspondência do certificado. Para resolver este problema, terá de fazer com que o nome do servidor na origem de dados do gateway e o ficheiro PBIX utilizem o FQDN do servidor.
 
-### <a name="i-dont-see-the-on-premises-data-gateway-present-when-configuring-scheduled-refresh"></a>Não consigo ver o Gateway de dados no local ao configurar a atualização agendada
+### <a name="i-dont-see-the-on-premises-data-gateway-present-when-configuring-scheduled-refresh"></a>Não consigo ver o gateway de dados no local ao configurar a atualização agendada
 
 Isto pode dever-se a alguns cenários diferentes.
 
@@ -214,12 +124,12 @@ A limitação exata é de 10 GB de dados não comprimidos por tabela. Se este pr
 
 ## <a name="reports"></a>Relatórios
 
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não conseguiu aceder à origem de dados porque não tem acesso aos nossos dados através de um Gateway de dados no local
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não conseguiu aceder à origem de dados porque não tem acesso aos nossos dados através de um gateway de dados no local
 
 Geralmente, isto deve-se a um dos seguintes motivos.
 
-1. As informações da origem de dados não correspondem às que estão no conjunto de dados subjacente. Os nomes do servidor e da base de dados têm de corresponder entre a origem de dados definida no Gateway de dados no local e o que fornecer no Power BI Desktop. Se utilizar um endereço IP no Power BI Desktop, a origem de dados do Gateway de dados no local terá de utilizar o mesmo endereço IP.
-2. Não há uma origem de dados disponível em qualquer gateway na organização. Pode configurar a origem de dados num Gateway de dados no local novo ou existente.
+1. As informações da origem de dados não correspondem às que estão no conjunto de dados subjacente. O nome do servidor e da base de dados têm de corresponder entre a origem de dados definida no gateway de dados no local e o que fornecer no Power BI Desktop. Se utilizar um Endereço IP no Power BI Desktop, a origem de dados do gateway de dados no local terá de utilizar o mesmo Endereço IP.
+2. Não existe nenhuma origem de dados disponível nos gateways da organização. Pode configurar a origem de dados num gateway de dados no local novo ou existente.
 
 ### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Erro: Erro de acesso à origem de dados. Contacte o administrador do gateway
 
@@ -227,7 +137,7 @@ Se este relatório estiver a utilizar uma ligação em direto do Analysis Servic
 
 Para confirmação, pode fazer o seguinte.
 
-1. Localize o nome do utilizador efetivo nos [registos do gateway](#logs).
+1. Localize o nome do utilizador efetivo nos [registos do gateway](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 2. Assim que o valor estiver a ser transmitido, confirme se está correto. Se for o seu utilizador, pode utilizar o seguinte comando numa linha de comandos para ver o UPN. O UPN tem o aspeto de um endereço de e-mail.
 
         whoami /upn
@@ -241,213 +151,11 @@ Opcionalmente, pode ver o que o Power BI obtém do Azure Active Directory.
         https://graph.windows.net/me?api-version=1.5
 4. Procure **userPrincipalName**.
 
-Se o seu UPN do Azure Active Directory não corresponder ao seu UPN local do Azure Active Directory, pode utilizar a funcionalidade [Mapear nomes de utilizador](service-gateway-enterprise-manage-ssas.md#map-user-names) para substituí-lo por um valor válido. Em alternativa, pode consultar o seu administrador de inquilinos ou administrador do Active Directory local para alterar o seu UPN.
-
-<!-- Shared Troubleshooting Firewall/Proxy Include -->
-[!INCLUDE [gateway-onprem-tshoot-firewall-include](./includes/gateway-onprem-tshoot-firewall-include.md)]
-
-Pode saber qual a região do datacenter em que se encontra, efetuando o seguinte procedimento:
-
-1. Selecione o **?** no canto superior direito do serviço Power BI.
-2. Selecione **Acerca do Power BI**.
-3. A sua região de dados está listada em **Os seus dados estão armazenados no**.
-
-    ![Região de dados](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
-
-Se, mesmo assim, não conseguir, pode tentar obter um rastreio de rede com uma ferramenta com o [fiddler](#fiddler) ou netsh, embora sejam métodos de recolha avançados e talvez precise de ajuda para analisar os dados recolhidos. Pode contactar o [suporte](https://support.microsoft.com) para obter assistência.
-
-## <a name="performance"></a>Desempenho
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IJ_DJ30VNk4?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-### <a name="performance-counters"></a>Contadores de Desempenho
-
-Existem vários contadores de desempenho que podem ser utilizados para medir as atividades do gateway. Os contadores podem ser úteis para compreender se temos uma grande carga de atividade que precise de um novo gateway. Estes contadores não refletem o tempo de duração de uma tarefa.
-
-Estes contadores podem ser acedidos através da ferramenta Monitor de Desempenho do Windows.
-
-![](media/service-gateway-onprem-tshoot/gateway-perfmon.png)
-
-Não existem agrupamentos gerais destes contadores.
-
-| Tipo de Contador | Descrição |
-| --- | --- |
-| ADO.NET |É utilizado para qualquer ligação DirectQuery. |
-| ADOMD |É utilizado para o Analysis Services 2014 e versões anteriores. |
-| OLEDB |É utilizado por determinadas origens de dados. Isto inclui o SAP HANA e Analysis Services 2016 ou posterior. |
-| Aplicação Híbrida |Isto inclui qualquer origem de dados importada. Se estiver a agendar uma atualização ou a efetuar uma atualização a pedido, esta irá passar pelo motor de aplicação híbrida. |
-
-Eis uma lista dos contadores de desempenho disponíveis.
-
-| Contador | Descrição |
-| --- | --- |
-| N. º de ligações ADO.NET abertas executadas/seg |O número de ações de ligações ADO.NET abertas executadas por segundo (com êxito ou falhadas). |
-| N. º de ligações ADO.NET abertas falhadas/seg |O número de ações de ligações ADO.NET abertas falhadas por segundo. |
-| N. º de consultas ADO.NET executadas/seg |O número de consultas ADO.NET executadas por segundo (com êxito ou falhadas). |
-| N. º de consultas ADO.NET falhadas/seg |O número de consultas ADO.NET falhadas executadas por segundo. |
-| N. º de ligações ADOMD abertas executadas/seg |O número de ações de ligações ADOMD abertas executadas por segundo (com êxito ou falhadas). |
-| N. º de ligações ADOMD abertas falhadas/seg |O número de ações de ligações ADOMD abertas falhadas por segundo. |
-| N. º de consultas ADOMD executadas/seg |O número de consultas ADOMD executadas por segundo (com êxito ou falhadas). |
-| N. º de consultas ADOMD falhadas/seg |O número de consultas ADOMD falhadas executadas por segundo. |
-| N. º de todas as ligações abertas executadas/seg |O número de ações de ligações abertas executadas por segundo (com êxito ou falhadas). |
-| N. º de todas as ligações abertas falhadas/seg |O número de ações de ligações abertas falhadas executadas por segundo. |
-| N. º de todas as consultas executadas/seg |O número de consultas executadas por segundo (com êxito ou falhadas). |
-| N. º de itens no conjunto de ligações ADO.NET |O número de itens no conjunto de ligações ADO.NET. |
-| N. º de itens no conjunto de ligações OLEDB |O número de itens no conjunto de ligações OLEDB. |
-| N. º de itens no conjunto do Service Bus |O número de itens no conjunto do Service Bus. |
-| N. º de ligações de Aplicações Híbridas abertas executadas/seg |O número de ações de ligações de Aplicações Híbridas abertas executadas por segundo (com êxito ou falhadas). |
-| N. º de ligações de Aplicações Híbridas abertas falhadas/seg |O número de ações de ligações de Aplicações Híbridas abertas falhadas por segundo. |
-| N. º de consultas de Aplicações Híbridas executadas/seg |O número de consultas de Aplicações Híbridas executadas por segundo (com êxito ou falhadas). |
-| N. º de consultas de Aplicações Híbridas falhadas/seg |O número de consultas de Aplicações Híbridas falhadas executadas por segundo |
-| N.º de consultas OLEDB de vários conjuntos de resultados falhadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados falhadas executadas por segundo. |
-| N.º de consultas OLEDB de múltiplos conjuntos de resultados executadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados executadas por segundo (com êxito ou falhadas). |
-| N. º de ligações OLEDB abertas executadas/seg |O número de ações de ligações OLEDB abertas executadas por segundo (com êxito ou falhadas). |
-| N. º de ligações OLEDB abertas falhadas/seg |O número de ações de ligações OLEDB abertas falhadas por segundo. |
-| N. º de consultas OLEDB executadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados executadas por segundo (com êxito ou falhadas). |
-| N. º de consultas OLEDB falhadas/seg |O número de consultas OLEDB de múltiplos conjuntos de resultados falhadas executadas por segundo. |
-| N.º de consultas OLEDB de um único conjunto de resultados executadas/seg |O número de consultas OLEDB de um único conjunto de resultados executadas por segundo (com êxito ou falhadas). |
-| N. º de consultas falhadas/seg |O número de consultas falhadas executadas por segundo. |
-| N. º de consultas OLEDB de um único conjunto de resultados falhadas/seg |O número de consultas OLEDB de um único conjunto de resultados falhadas executadas por segundo. |
-
-## <a name="reviewing-slow-performing-queries"></a>Rever as consultas com desempenho lento
-
-Pode achar que a resposta através do gateway é lenta. Isto pode aplicar-se a consultas de DirectQuery ou ao atualizar um conjunto de dados importados. Pode ativar o registo adicional para consultas de saída e os respetivos tempos para ajudar a compreender a diminuição do desempenho. Quando encontrar uma consulta de longa duração, esta pode precisar de modificações adicionais na sua origem de dados para otimizar o desempenho da consulta. Por exemplo, para ajustar os índices de uma consulta do SQL Server.
-
-Terá de modificar dois ficheiros de configuração para determinar a duração de uma consulta.
-
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-
-No ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, altere o valor `EmitQueryTraces`, de `False` para `True`. Este ficheiro está localizado, por predefinição, em *C:\Programas\Gateway de dados no local*. Ativar `EmitQueryTraces` irá iniciar o registo das consultas que são enviadas do gateway para uma origem de dados.
-
-> [!IMPORTANT]
-> Ativar EmitQueryTraces poderia aumentar o tamanho do registo significativamente, consoante a utilização do gateway. Quando tiver terminado de rever os registos, poderá ter de definir EmitQueryTraces para Falso. Não é aconselhável deixar esta definição ativada por um longo período de tempo.
-
-```xml
-<setting name="EmitQueryTraces" serializeAs="String">
-    <value>True</value>
-</setting>
-```
-
-**Entrada de consulta de exemplo**
-
-```
-DM.EnterpriseGateway Information: 0 : 2016-09-15T16:09:27.2664967Z DM.EnterpriseGateway    4af2c279-1f91-4c33-ae5e-b3c863946c41    d1c77e9e-3858-4b21-3e62-1b6eaf28b176    MGEQ    c32f15e3-699c-4360-9e61-2cc03e8c8f4c    FF59BC20 [DM.GatewayCore] Executing query (timeout=224) "<pi>
-SELECT
-TOP (1000001) [t0].[ProductCategoryName],[t0].[FiscalYear],SUM([t0].[Amount])
- AS [a0]
-FROM
-(
-(select [$Table].[ProductCategoryName] as [ProductCategoryName],
-    [$Table].[ProductSubcategory] as [ProductSubcategory],
-    [$Table].[Product] as [Product],
-    [$Table].[CustomerKey] as [CustomerKey],
-    [$Table].[Region] as [Region],
-    [$Table].[Age] as [Age],
-    [$Table].[IncomeGroup] as [IncomeGroup],
-    [$Table].[CalendarYear] as [CalendarYear],
-    [$Table].[FiscalYear] as [FiscalYear],
-    [$Table].[Month] as [Month],
-    [$Table].[OrderNumber] as [OrderNumber],
-    [$Table].[LineNumber] as [LineNumber],
-    [$Table].[Quantity] as [Quantity],
-    [$Table].[Amount] as [Amount]
-from [dbo].[V_CustomerOrders] as [$Table])
-)
- AS [t0]
-GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
-```
-
-### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
-
-No ficheiro *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, altere o valor `TracingVerbosity`, de `4` para `5`. Este ficheiro está localizado, por predefinição, em *C:\Programas\Gateway de dados no local*. Alterar esta definição irá iniciar o registo das entradas verbosas no registo do gateway. Isto inclui entradas que mostram a duração. Também pode ativar entradas verbosas ao ativar o botão "Registo Adicional" na aplicação Gateway no Local.
-
-   ![registo adicional](media/service-gateway-onprem-tshoot/additional-logging.png)
-
-> [!IMPORTANT]
-> A ativação de TracingVerbosity para `5` poderá aumentar significativamente o tamanho do registo, consoante a utilização do gateway. Quando tiver terminado de rever os registos, terá de definir TraceVerbosity para `4`. Não é aconselhável deixar esta definição ativada por um longo período de tempo.
-
-```xml
-<setting name="TracingVerbosity" serializeAs="String">
-    <value>5</value>
-</setting>
-```
-
-<a name="activities"></a>
-
-### <a name="activity-types"></a>Tipos de Atividade
-
-| Tipo de Atividade | Descrição |
-| --- | --- |
-| MGEQ |Consultas executadas através de ADO.NET. Isto inclui outras origens de dados do DirectQuery. |
-| MGEO |Consultas executadas através de OLEDB. Isto inclui o SAP HANA e Analysis Services 2016. |
-| MGEM |Consultas executadas a partir do motor de Aplicação Híbrida. Isto é utilizado com conjuntos de dados importados que utilizam a atualização agendada ou a atualização a pedido. |
-
-### <a name="determine-the-duration-of-a-query"></a>Determinar a duração de uma consulta
-Para determinar o tempo de duração da consulta da origem de dados, pode fazer o seguinte.
-
-1. Abra o registo do gateway.
-2. Procure um [Tipo de Atividade](#activities) para localizar a consulta. Um exemplo seria MGEQ.
-3. Anote o segundo GUID, pois este é o ID do pedido.
-4. Continue a pesquisar MGEQ até encontrar a entrada FireActivityCompletedSuccessfullyEvent com a duração. Pode verificar que a entrada tem o mesmo id do pedido. A duração está em milissegundos.
-
-        DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-
-   > [!NOTE]
-   > FireActivityCompletedSuccessfullyEvent é uma entrada verbosa. Esta entrada não será registada, a menos que TraceVerbosity esteja no nível 5.
-
-## <a name="firewall-or-proxy"></a>Firewall ou Proxy
-
-Para obter informações sobre o fornecimento informações de proxy para o gateway, veja [Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md).
-
-Pode testar para ver se a firewall, ou o proxy, pode estar a bloquear ligações ao executar [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) a partir de uma linha de comandos do PowerShell. Isto testa a conectividade ao Azure Service Bus. Testa apenas a conectividade de rede e não está relacionado com o serviço do servidor na cloud ou com o gateway. Ajuda a determinar se a máquina consegue realmente aceder à Internet.
-
-    Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
-
-> [!NOTE]
-> Test-NetConnection só está disponível no Windows Server 2012 R2 e posterior. Também está disponível no Windows 8.1 e posterior. Em versões de SO anteriores, pode utilizar o Telnet para testar a conectividade de porta.
-
-Os resultados terão um aspeto semelhante ao seguinte. A diferença será com TcpTestSucceeded. Se **TcpTestSucceeded** não for *verdadeiro*, pode estar bloqueado por uma firewall.
-
-    ComputerName           : watchdog.servicebus.windows.net
-    RemoteAddress          : 70.37.104.240
-    RemotePort             : 5672
-    InterfaceAlias         : vEthernet (Broadcom NetXtreme Gigabit Ethernet - Virtual Switch)
-    SourceAddress          : 10.120.60.105
-    PingSucceeded          : False
-    PingReplyDetails (RTT) : 0 ms
-    TcpTestSucceeded       : True
-
-Se pretender ser exaustivo, substitua os valores de **ComputerName** e **Porta** pelos valores listados em [portas](https://docs.microsoft.com/power-bi/service-gateway-onprem#ports)
-
-A firewall também pode estar a bloquear as ligações estabelecidas pelo Azure Service Bus para os datacenters do Azure. Se for esse o caso, poderá querer colocar na lista de permissões (desbloquear) os endereços IP da sua região para esses datacenters. Pode obter uma lista de endereços IP do Azure [aqui](https://www.microsoft.com/download/details.aspx?id=41653).
-
-### <a name="network-ports-test"></a>Teste de Portas de Rede
-
-O teste de portas de rede é uma ferramenta para verificar se o seu gateway pode aceder às portas corretas de todos os servidores remotos de que o seu gateway precisa para transferir dados. Se o teste de portas de rede não conseguir ligar a nenhuma das portas, o seu gateway poderá ter problemas de rede. Se estiver a deparar-se com problemas de rede com o seu gateway, execute um teste de portas de rede para garantir que tem o ambiente de rede ideal.  
-
-#### <a name="start-a-new-test"></a>Iniciar um novo teste
-
-Para executar um novo teste de portas de rede na interface de utilizador do Gateway de dados no local.
-
-![Iniciar Teste de Porta](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-starttest.png)
-
-Ao executar o teste de portas de rede, o seu gateway irá obter uma lista de portas e servidores do Azure Service Bus e, em seguida, irá tentar ligar a todos os servidores e portas. Quando a ligação Iniciar novo teste for apresentada novamente, significa que o teste de portas de rede terminou de ser executado.  
-
-#### <a name="test-results"></a>Resultados do teste
-
-Pode ver um resumo do teste abaixo da ligação Iniciar novo teste, em Resultados de teste recentes. Os dois resultados são: Concluído (Com êxito) e Concluído (Falha, veja os últimos resultados de teste). Se o teste for concluído com êxito, o seu gateway foi ligado com êxito a todas as portas necessárias. Se o teste for concluído com falha, o seu ambiente de rede poderá estar a bloquear estes servidores e portas necessários. 
-
-![Resultados do teste de porta](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result.png)
-
-Para ver os resultados do último teste concluído, selecione a ligação Abrir os últimos resultados de teste concluídos, conforme mostrado abaixo. Os resultados do teste são abertos no editor de texto predefinido do Windows.  
-
-Os resultados do teste listam todos os servidores, portas e endereços IP de que o seu gateway precisa. Se os resultados do teste apresentarem Fechado para alguma porta, conforme mostrado abaixo, certifique-se de que o seu ambiente de rede não está a bloquear a ligação. Poderá ter de contactar o seu administrador de rede para abrir as portas necessárias.
-
-![Ficheiro de resultados do teste de porta](media/service-gateway-onprem-tshoot/gateway-onprem-porttest-result-file.png)
+Se o UPN do Azure Active Directory não corresponder ao seu UPN local do Azure Active Directory, pode utilizar a funcionalidade [Mapear nomes de utilizador](service-gateway-enterprise-manage-ssas.md#mapping-usernames-for-analysis-services-data-sources) para substituí-lo por um valor válido. Em alternativa, pode consultar o seu administrador de inquilinos ou administrador do Active Directory local para alterar o seu UPN.
 
 ## <a name="kerberos"></a>Kerberos
 
-Se o servidor de bases de dados subjacente e o Gateway de dados no local não estiverem configurados corretamente para a [Delegação Restrita de Kerberos](service-gateway-sso-kerberos.md), ative o [registo verboso](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) no gateway e investigue com base nos erros/rastreios nos ficheiros de registo do gateway como um ponto de partida para a resolução de problemas.
+Se o servidor de bases de dados subjacente e o gateway de dados no local não estiverem configurados corretamente para a [Delegação Restrita de Kerberos](service-gateway-sso-kerberos.md), ative o [registo verboso](/data-integration/gateway/service-gateway-performance#slow-performing-queries) no gateway e investigue com base nos erros/rastreios nos ficheiros de registo do gateway como um ponto de partida para a resolução de problemas. Para recolher registos do gateway para visualização, veja a secção [Recolher relatórios da aplicação do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
@@ -460,8 +168,9 @@ O ImpersonationLevel está relacionado com a configuração do SPN ou a definiç
 **Solução**
 
 Siga estes passos para resolver o problema:
-1. Configure um SPN para o Gateway no Local
-2. Configure a delegação restrita no Active Directory (AD)
+
+1. Configure um SPN para o Gateway no Local.
+2. Configure a delegação restrita no Active Directory (AD).
 
 ### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Falha ao criar a identidade do Windows para o ID do utilizador
 
@@ -469,12 +178,12 @@ FailedToImpersonateUserException ocorrerá se não conseguir representar em nome
 
 **Solução**
 
-* Confirme se a configuração está correta de acordo com os passos na secção ImpersonationLevel acima
-* Verifique se o ID de utilizador que está a tentar representar é uma conta AD válida
+* Confirme se a configuração está correta de acordo com os passos na secção ImpersonationLevel acima.
+* Verifique se o ID de utilizador que está a tentar representar é uma conta do AD válida.
 
 ### <a name="general-error-1033-error-while-parsing-the-protocol"></a>Erro geral; erro 1033 ao analisar o protocolo
 
-Será apresentado o erro 1033 quando o seu ID externo configurado no SAP HANA não corresponder ao início de sessão se o utilizador for representado com o UPN (alias@domain.com). Nos registos, verá o "UPN Original alias@domain.com substituído por um UPN novo alias@domain.com na parte superior dos registos de erros, conforme mostrado abaixo".
+Será apresentado o erro 1033 quando o seu ID externo configurado no SAP HANA não corresponder ao início de sessão se o utilizador for representado com o UPN (alias@domain.com). Nos registos, verá o UPN Original "alias@domain.com" substituído por um UPN novo "alias@domain.com" no topo dos registos de erros, como mostrado abaixo.
 
 ```
 [DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com.'
@@ -486,7 +195,7 @@ Será apresentado o erro 1033 quando o seu ID externo configurado no SAP HANA n�
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
-* Nos registos, verá sAMAccountName (alias) e não o UPN, que é o alias seguido do domínio (alias@doimain.com)
+* Nos registos, verá sAMAccountName (alias) e não o UPN, que é o alias seguido do domínio (alias@doimain.com).
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
@@ -510,34 +219,39 @@ Será apresentada a mensagem de erro -10709 Falha na ligação se a sua delegaç
 
 **Solução**
 
-* Verifique se tem o servidor do SAP Hana no separador Delegação no AD da conta do serviço de gateway
+* Verifique se tem o servidor do SAP Hana no separador Delegação no AD da conta do serviço de gateway.
 
    ![separador Delegação](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
 
-<!-- Shared Troubleshooting tools Include -->
-[!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
+## <a name="refresh-history"></a>Histórico de Atualizações
 
-### <a name="refresh-history"></a>Histórico de Atualizações
-
-Ao utilizar o gateway para uma atualização agendada, o **Histórico de Atualizações** pode ajudá-lo a ver os erros que ocorreram, bem como fornecer dados úteis caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas ou pedidas. Aqui está como pode aceder ao **Histórico de Atualização**.
+Ao utilizar o gateway para uma atualização agendada, o **Histórico de Atualizações** pode ajudá-lo a ver os erros que ocorreram, bem como fornecer dados úteis caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas ou pedidas. Os passos seguintes mostram como pode aceder ao **Histórico de Atualizações**.
 
 1. No painel de navegação do Power BI, em **Conjuntos de Dados** , selecione um conjunto de dados &gt; Abrir Menu &gt; **Agendar Atualização**.
 
-    ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
-2. Em **Definições para...** &gt; **Atualização Agendada**, selecione **Histórico de Atualizações**.
+    ![Como selecionar Agendar Atualização](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
-    ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
+2. Em **Definições para...** &gt; **Agendar Atualização**, selecione **Histórico de Atualizações**.
 
-    ![](media/service-gateway-onprem-tshoot/refresh-history.png)
+    ![Selecionar Histórico de Atualizações](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
+
+    ![Aspeto do Histórico de Atualizações](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Para obter mais informações sobre a resolução de problemas em cenários de atualização, consulte o artigo [Resolução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md).
 
-## <a name="next-steps"></a>Passos seguintes
-[Configurar definições de proxy para os gateways do Power BI](service-gateway-proxy.md)  
-[Gateway de dados no local](service-gateway-onprem.md)  
-[Gateway de dados no local - detalhado](service-gateway-onprem-indepth.md)  
-[Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
-[Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
-[Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
+## <a name="fiddler-trace"></a>Rastreio do Fiddler
+
+O [Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP. Pode ver as comunicações com o serviço Power BI a partir do computador de cliente. Isto pode mostrar erros e outras informações relacionadas.
+
+![Utilizar o rastreio do Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
+
+## <a name="next-steps"></a>Próximos passos
+
+* [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
+* [Configurar definições de proxy para o gateway de dados no local](/data-integration/gateway/service-gateway-proxy)  
+* [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+* [Gerir a sua origem de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
+* [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
+* [Gerir a sua origem de dados – Atualização Importada/Agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
+
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

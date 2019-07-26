@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/24/2019
-ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.date: 07/15/2019
+ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839562"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307072"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas 
 
@@ -26,15 +26,15 @@ Ao configurar subscrições, pode selecionar com que frequência quer receber os
 
 - Ao contrário das subscrições de dashboards ou relatórios do Power BI, a sua subscrição contém um anexo dos resultados do relatório.  São suportados os seguintes tipos de anexo: PDF, apresentação do PowerPoint (PPTX), Livro do Excel (XLSX), Documento do Word (DOCX), ficheiro CSV e XML.
 
-- Não há uma imagem de pré-visualização do relatório no corpo do e-mail.  Estamos a planear a inclusão da imagem da primeira página do relatório como um item opcional. 
+- Pode incluir uma imagem de pré-visualização do relatório no corpo do e-mail.  Isto é opcional e pode ser ligeiramente diferente da primeira página do documento de relatório anexado, consoante o formato do anexo selecionado. 
 
 - O tamanho máximo do anexo do relatório é 25 MB. 
 
 - Pode subscrever relatórios paginados que ligam a quaisquer origens de dados atualmente suportadas (incluindo o Azure Analysis Services ou conjuntos de dados do Power BI) para outros utilizadores. Tenha em atenção que o anexo do relatório reflete os dados com base nas suas permissões, tal como o SQL Server Reporting Services faz atualmente. 
 
-- As subscrições de páginas de relatório estão associadas ao nome do relatório.  
+- As subscrições de e-mail podem ser enviadas com os parâmetros atualmente selecionados ou com os parâmetros predefinidos do seu relatório.  Pode definir valores de parâmetros diferentes para cada subscrição que criar para o relatório. 
 
-- As subscrições de e-mail são enviadas com os valores de parâmetros predefinidos do relatório. 
+- Se o autor do relatório tiver definido parâmetros baseados em expressões (por exemplo, o parâmetro predefinido é sempre a data de hoje), a subscrição utilizará os mesmos como o valor predefinido. Pode alterar outros valores de parâmetros e optar por utilizar valores atuais. No entanto, a menos que também altere explicitamente esses valores, a subscrição utilizará os parâmetros baseados em expressões.
 
 - Não existe a opção **Depois da Atualização de Dados** para a frequência dos relatórios paginados. Irá obter sempre os valores mais recentes da origem de dados subjacente. 
 

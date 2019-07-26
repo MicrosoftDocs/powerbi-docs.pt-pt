@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
-ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
+ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67561803"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325044"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -55,7 +55,7 @@ Uma vez que o Power BI coloca os dados em cache, os tamanhos do conjunto de dado
 | --- | --- |
 | Partilhado, A1, A2 ou A3 | 1 GB |
 | A4 ou P1 | 3 GB |
-| A4 ou P2 | 6 GB |
+| A5 ou P2 | 6 GB |
 | A6 ou P3 | 10 GB |
 | | |
 
@@ -160,7 +160,7 @@ Independentemente dos modos de armazenamento, nenhuma atualização de dados pod
 
 ### <a name="connecting-to-on-premises-data-sources"></a>Ligação a origens de dados no local
 
-Se o conjunto de dados utilizar uma origem de dados à qual o Power BI não consegue aceder através de uma ligação de rede direta, tem de configurar uma ligação de gateway para este conjunto de dados antes de poder ativar uma agenda de atualização ou fazer uma atualização de dados a pedido. Para obter mais informações sobre gateways de dados e como funcionam, veja [O que são gateways de dados no local?](service-gateway-getting-started.md)
+Se o conjunto de dados utilizar uma origem de dados à qual o Power BI não consegue aceder através de uma ligação de rede direta, tem de configurar uma ligação de gateway para este conjunto de dados antes de poder ativar uma agenda de atualização ou fazer uma atualização de dados a pedido. Para obter mais informações sobre gateways de dados e como funcionam, veja [O que são gateways de dados no local?](service-gateway-onprem.md)
 
 Tem as seguintes opções:
 
@@ -174,7 +174,10 @@ Tem as seguintes opções:
 
 A Microsoft recomenda utilizar um gateway de dados empresarial em vez de um gateway pessoal para ligar um conjunto de dados a uma origem de dados no local. Certifique-se de que o gateway está corretamente configurado, o que significa que o gateway tem de ter as atualizações mais recentes e todas as definições de origem de dados necessárias. Uma definição de origem de dados fornece ao Power BI informações de ligação para uma determinada origem, incluindo pontos finais de ligações, modo de autenticação e credenciais. Para obter mais informações sobre a gestão de origens de dados num gateway, veja [Gerir a origem de dados - importação/atualização agendada](service-gateway-enterprise-manage-scheduled-refresh.md).
 
-Ligar um conjunto de dados a um gateway empresarial é relativamente simples se for administrador de um gateway. Com permissões de administrador, pode atualizar de imediato o gateway e adicionar origens de dados em falta, se for necessário. Na verdade, pode adicionar uma origem de dados em falta ao seu gateway diretamente a partir da página de definições do conjunto de dados. Expanda o botão de alternar para ver as origens de dados e selecione a ligação **Adicionar ao gateway**, conforme apresentado na seguinte captura de ecrã. Por outro lado, se não for administrador de um gateway, utilize as informações de contactos apresentadas para enviar um pedido para o administrador do gateway para adicionar a definição de origem de dados necessária.
+Ligar um conjunto de dados a um gateway empresarial é relativamente simples se for administrador de um gateway. Com permissões de administrador, pode atualizar de imediato o gateway e adicionar origens de dados em falta, se for necessário. Na verdade, pode adicionar uma origem de dados em falta ao seu gateway diretamente a partir da página de definições do conjunto de dados. Expanda o botão de alternar para ver as origens de dados e selecione a ligação **Adicionar ao gateway**, conforme apresentado na seguinte captura de ecrã. Se, por outro lado, não for administrador de gateway, tem de contactar um administrador de gateway para adicionar a definição da origem de dados necessária.
+
+> [!NOTE]
+> Apenas os administradores de gateway podem adicionar origens de dados a um gateway. Certifique-se também de que o administrador do gateway adiciona a sua conta de utilizador à lista de utilizadores com permissões para utilizar a origem de dados. A página de definições do conjunto de dados só lhe permite selecionar um gateway empresarial com uma origem de dados correspondente que tenha permissão para utilizar.
 
 ![Adicionar ao gateway](media/refresh-data/add-to-gateway.png)
 
@@ -284,6 +287,8 @@ Tenha também em atenção que a hora de atualização configurada pode não ser
 ### <a name="getting-refresh-failure-notifications"></a>Receber notificações de falha de atualização
 
 Por predefinição, o Power BI envia notificações de falha de atualização por e-mail para o proprietário do conjunto de dados para que o proprietário possa agir atempadamente caso ocorram problemas de atualização. O Power BI também lhe envia uma notificação quando o serviço desativa a sua agenda devido a falhas consecutivas. A Microsoft recomenda que deixe a caixa de verificação **Enviar e-mails de notificação de falha de atualização para mim** selecionada.
+
+Também é boa ideia especificar outros destinatários através da caixa de texto **Enviar e-mail a estes utilizadores quando a atualização falhar**. Neste caso, tanto o proprietário do conjunto de dados como os destinatários especificados recebem notificações de falha de atualização. Poderá, por exemplo, tratar-se de um colega que está encarregue de tratar dos seus conjuntos de dados durante as suas férias. Também pode ser o alias de e-mail da sua equipa de suporte que está a resolver problemas de atualização para o seu departamento ou organização. O envio de notificações de falha de atualização para outras pessoas além do proprietário do conjunto de dados ajuda a garantir que os problemas são considerados e resolvidos atempadamente.
 
 Tenha em atenção que o Power BI não só envia notificações sobre falhas de atualização, mas também quando o serviço coloca em pausa uma atualização agendada devido a inatividade. Após dois meses, se nenhum utilizador tiver visitado nenhum dos dashboards ou relatórios incorporados no conjunto de dados, o Power BI considera o conjunto de dados inativo. Nesta situação, o Power BI envia uma mensagem de e-mail para o proprietário do conjunto de dados com a indicação de que o serviço colocou a agenda de atualização em pausa para o conjunto de dados. Veja a seguinte captura de ecrã para obter um exemplo de uma notificação desse tipo.
 

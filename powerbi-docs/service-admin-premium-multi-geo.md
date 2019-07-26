@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564953"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289839"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o Multi-Geo suporte do Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte da Multi-Geo para o Power BI Premium
 
 A Multi-Geo é uma funcionalidade do Power BI Premium que ajuda os clientes multinacionais a cumprir os requisitos regionais, específicos da indústria ou da residência dos dados organizacionais. Como cliente do Power BI Premium, pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI. Uma área geográfica (geografia) pode conter mais do que uma região. Por exemplo, os Estados Unidos são uma área geográfica e EUA Centro-Oeste e EUA Centro-Sul são regiões nos Estados Unidos. Pode optar por implementar conteúdo em qualquer uma das seguintes áreas geográficas:
 
@@ -68,7 +68,7 @@ Estes itens permanecem na região base do inquilino:
 - Permissões
 - Credenciais dos conjuntos de dados
 
-## <a name="view-capacity-regions"></a>Capacidade de ver regiões
+## <a name="view-capacity-regions"></a>Ver as regiões das capacidades
 
 No Portal de Administração, pode ver todas as capacidades do seu inquilino do Power BI e as regiões onde atualmente se encontram.
 
@@ -94,7 +94,7 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 - Uma consulta em cache armazenada numa região remota permanece inativa nessa região. No entanto, os outros dados em trânsito podem ir e voltar entre várias localizações geográficas.
 - Ao mover dados de uma região para outra num ambiente Multi-Geo, os dados de origem pode permanecer na região da qual foram movidos até um máximo de 30 dias. Durante esse período, os utilizadores finais não terão acesso aos dados. São removidos desta região e destruídos durante esse período de 30 dias.
 - A Multi-Geo não resulta num melhor desempenho em geral. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base.
-- A funcionalidade de [fluxos de trabalho](service-dataflows-overview.md) (em pré-visualização) não é suportada na Multi-Geo.
+- De momento, a funcionalidade de [fluxos de trabalho](service-dataflows-overview.md) não é suportada na Multi-Geo.
 
 ## <a name="next-steps"></a>Próximos passos
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839603"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271203"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço Power BI
 
@@ -79,7 +79,7 @@ Tal como qualquer outro relatório do Power BI, se a origem de dados do relató
 
    ![Gerir o relatório paginado](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Veja o artigo do serviço Power BI [Instalar um gateway](service-gateway-install.md) para obter os detalhes e os passos seguintes.
+1. Veja o artigo do serviço Power BI [O que é um gateway de dados no local](service-gateway-onprem.md) para obter detalhes e os passos seguintes.
 
 ### <a name="gateway-limitations"></a>Limitações do gateway
 

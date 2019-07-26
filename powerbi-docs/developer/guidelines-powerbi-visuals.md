@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343151"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271194"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes de elementos visuais do Power BI
+Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) o seu elemento visual no AppSource para que outras pessoas o descubram e utilizem, certifique-se de que segue as diretrizes para criar uma ótima experiência para os seus utilizadores. 
+
+## <a name="context-menu"></a>Menu de contexto
+O menu de contexto é o menu de clique com o botão direito do rato apresentado quando o utilizador passa o rato sobre um elemento visual.
+Todos os elementos visuais do Power BI devem permitir que o menu de contexto proporcione uma experiência unificada. Veja [este artigo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para saber como adicionar um menu de contexto.
+
+
+## <a name="logo-guidelines"></a>Diretrizes de logótipo
+
+Esta secção descreve as especificações para adicionar logótipos aos elementos visuais.
+
+> [!IMPORTANT]
+> Os logótipos são permitidos no *modo só de edição*. Os logótipos *não podem* ser apresentados no modo de visualização.
+
+![Definições](media/guidelines-powerbi-visuals/definitions.png)
+
+![Aspetos a ter em conta](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![Aspetos a evitar](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![Tamanho e formato](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![Margens e dimensionamento](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![Modo de edição](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
 
@@ -36,31 +62,13 @@ Os programadores carregam os elementos visuais de IAP no AppSource através do D
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>O que é um elemento visual do Power BI com funcionalidades de IAP?
 
-Um elemento visual de IAP é um elemento visual **gratuito** que oferece **funcionalidades gratuitas**. Também tem algumas funcionalidades avançadas para as quais podem ser aplicados custos adicionais para serem utilizadas. Na descrição do elemento visual, os programadores têm de notificar os utilizadores sobre as funcionalidades que exigem compras adicionais para poderem ser utilizadas. Atualmente, a Microsoft não disponibiliza APIs nativas para suportar a compra de aplicações e suplementos.
+Um elemento visual de IAP é um elemento visual *gratuito* que oferece *funcionalidades gratuitas*. Também tem algumas funcionalidades avançadas para as quais podem ser aplicados custos adicionais para serem utilizadas. Na descrição do elemento visual, os programadores têm de notificar os utilizadores sobre as funcionalidades que exigem compras adicionais para poderem ser utilizadas. Atualmente, a Microsoft não disponibiliza APIs nativas para suportar a compra de aplicações e suplementos.
 
 Os programadores podem utilizar qualquer sistema de pagamento externo para estas compras. Para obter mais informações, veja a [nossa política de loja](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
 > Não são permitidas marcas d'água nas funcionalidades ou elementos visuais gratuitos. As marcas d'água só podem ser utilizadas em funcionalidades pagas utilizadas sem uma licença válida. Recomendamos que seja apresentada uma janela pop-up com todas as informações relacionadas com a licença, caso as funcionalidades pagas avançadas sejam utilizadas sem uma licença válida.  
 
-## <a name="logo-guidelines"></a>Diretrizes de logótipo
-
-Esta secção descreve as especificações para adicionar logótipos aos elementos visuais.
-
-> [!IMPORTANT]
-> Os logótipos são permitidos no **modo só de edição**. Os logótipos **não podem** ser apresentados no modo de visualização.
-
-![Definições](media/guidelines-powerbi-visuals/definitions.png)
-
-![Aspetos a ter em conta](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![Aspetos a evitar](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![Tamanho e formato](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![Margens e dimensionamento](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![Modo de edição](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Melhores práticas
 
