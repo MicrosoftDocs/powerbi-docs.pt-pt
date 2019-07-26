@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: Report Builder data (Dados do Report Builder)
           href: report-builder-data.md
+        - name: Use Power BI shared datasets (Utilizar conjuntos de dados partilhados do Power BI)
+          href: report-builder-shared-datasets.md
         - name: Design tips (Sugestões de estrutura)
           href: report-builder-design-tips.md
         - name: 'Tables, matrixes, lists (Tabelas, matrizes, listas)'
@@ -1315,7 +1317,7 @@
       items:
         - name: Gateway de dados no local - detalhado
           href: service-gateway-onprem-indepth.md
-        - name: Gateway de dados local (modo pessoal)
+        - name: Gateway de dados no local (modo pessoal)
           href: service-gateway-personal-mode.md
         - name: Gerir origens de dados
           items:
