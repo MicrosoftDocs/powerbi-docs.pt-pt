@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514530"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590533"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 
@@ -113,7 +113,6 @@ Quando um elemento visual é realçado de forma cruzada num relatório, as descr
 Existem algumas limitações e considerações a ter em conta relativamente às **descrições**.
 
 * A partir da versão de dezembro de 2018 do **Power BI Desktop**, os elementos visuais de botões também suportam descrições.
-* As descrições de relatórios não são suportadas durante a visualização de relatórios em aplicações móveis. 
 * As descrições de relatórios não são suportadas para elementos visuais personalizados. 
 * Atualmente, os clusters não são suportados como campos que podem ser apresentados em descrições de relatórios. 
 * Ao selecionar um campo a apresentar em descrições de relatórios, se utilizar um campo em vez de uma categoria, os elementos visuais que contêm esse campo só mostrarão a descrição especificada quando o resumo do campo selecionado corresponder. 
