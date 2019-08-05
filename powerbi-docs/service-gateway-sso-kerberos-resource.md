@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: b6cd8df15080e10b1da73e6f4da41c5354dd867a
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271928"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624018"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos baseado em recursos para o início de sessão único (SSO) no Power BI para as origens de dados no local
 
@@ -141,7 +141,7 @@ Esta configuração irá funcionar na maioria dos casos. No entanto, com o Kerbe
 
 Para obter mais informações sobre o **gateway de dados no local** e o **DirectQuery**, consulte os seguintes recursos:
 
-* [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-onprem.md) (O que é um gateway de dados no local?)
+* [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-onprem) (O que é um gateway de dados no local?)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)

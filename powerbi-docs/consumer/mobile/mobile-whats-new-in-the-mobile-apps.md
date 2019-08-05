@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230220"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665442"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -649,8 +649,6 @@ Leia o [blogue de Aplicações Power BI Mobile publicado em março de 2016](http
 Veja dashboards no [modo horizontal em telemóveis Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Aplicação Power BI para dispositivos Windows 10
-Veja dashboards no [modo horizontal em telemóveis Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device).
-
 Veja [relatórios no seu telemóvel Windows 10](mobile-reports-in-the-mobile-apps.md).
 
 Maior rapidez das [informações nos dashboards móveis do Windows 10](mobile-tiles-in-the-mobile-apps.md): Partilhe um instantâneo do mosaico ou abra um relatório diretamente a partir do dashboard.
