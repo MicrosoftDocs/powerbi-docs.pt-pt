@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235064"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475641"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Ligar aos conjuntos de dados com ferramentas e aplicações cliente (Pré-visualização)
 
-As áreas de trabalho e os conjuntos de dados do Power BI Premium suportam ligações *só de leitura* da Microsoft e ferramentas e aplicações cliente de terceiros. 
+As áreas de trabalho e os conjuntos de dados do Power BI Premium suportam ligações *só de leitura* da Microsoft e ferramentas e aplicações cliente de terceiros. Por predefinição, as ligações estão ativadas
 
 > [!NOTE]
 > O único objetivo deste artigo é apresentar a conectividade só de leitura às áreas de trabalho e conjuntos de dados do Power BI Premium. O artigo *não* se destina a fornecer informações aprofundadas sobre programação, aplicações e ferramentas específicas, arquitetura e gestão de área de trabalho e de conjunto de dados. Os assuntos aqui descritos requerem uma compreensão sólida da administração e arquitetura de base de dados de modelo em tabela do Analysis Services.
@@ -104,6 +104,10 @@ Os seguintes conjuntos de dados não são suportados no serviço Power BI:
 ### <a name="roles-and-role-memberships"></a>Funções e associações de funções
 
 Atualmente, as funções de modelo e as associações de funções não são detetáveis nem apresentadas ao utilizar pontos finais XMLA.
+
+## <a name="disable-connectivity"></a>Desativar a conectividade
+
+Por predefinição, a conectividade do Ponto Final de XMLA está ativada para a carga de trabalho dos Conjuntos de Dados. Pode desativar a conectividade nas [Definições de carga de trabalho](service-admin-premium-workloads.md#workload-settings).
 
 ## <a name="audit-logs"></a>Registos de auditoria 
 

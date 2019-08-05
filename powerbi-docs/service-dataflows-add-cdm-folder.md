@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160996"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522750"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
 
@@ -76,7 +76,7 @@ Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armazena
 
 1.  A Ana cria uma nova área de trabalho de aplicação e configura-a para armazenar os fluxos de dados de uma pasta de CDM.
 2.  O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
-3.  O Nuno recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
+3.  O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
 
     ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -96,9 +96,9 @@ Para obter mais informações sobre fluxos de dados, CDM e o Azure Data Lake Sto
 Para obter informações sobre fluxos de dados em geral, veja estes artigos:
 
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Utilizar entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
-* [Recursos para desenvolvedores de fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o armazenamento do Azure, leia estes artigos:
 * [Guia de segurança de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

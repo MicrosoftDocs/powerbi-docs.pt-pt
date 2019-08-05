@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 310afbf845550eaca666543397dd78eb0a0d15dc
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791981"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462399"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda do Power BI: veja uma apresentação
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c7a2b3580516c563d8a2a6d79fdc48d241e89849
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239872"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522204"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Utilizar colunas calculadas no Power BI Desktop
 Com as colunas calculadas pode adicionar novos dados a uma tabela já presente no seu modelo. Mas em vez de consultar e carregar valores para a nova coluna a partir de uma origem de dados, cria uma fórmula DAX (Data Analysis Expressions) que define os valores da coluna. No Power BI Desktop, as colunas calculadas são criadas através da funcionalidade Nova Coluna na Vista de Relatório.
@@ -31,23 +31,23 @@ As colunas calculadas calculam os resultados através de [DAX](https://msdn.micr
 As fórmulas DAX são semelhantes às fórmulas do Excel. Na verdade, o DAX tem muitas das mesmas funções usadas no Excel. As funções DAX, no entanto, destinam-se a trabalhar com dados fracionados interativamente ou filtrados num relatório, como no Power BI Desktop. Ao contrário do Excel, no qual pode ter uma fórmula diferente para cada linha de uma tabela, uma fórmula DAX criada para uma nova coluna calculará um resultado para cada linha na tabela. Os valores de coluna são recalculados conforme necessário, como quando os dados subjacentes foram atualizados e os valores mudaram.
 
 ## <a name="lets-look-at-an-example"></a>Vejamos um exemplo
-Jeff é um gestor de expedição da Contoso. Pretende criar um relatório que mostre o número de remessas para cidades diferentes. Tem uma tabela Geography com campos separados para cidade e estado. No entanto, Jeff quer que os seus relatórios mostrem a cidade e o estado como um único valor, na mesma linha. De momento, a tabela Geography de Jeff não tem o campo que ele pretende.
+O João é um gestor de expedição da Contoso e quer criar um relatório que mostre o número de envios para cidades diferentes. O João tem uma tabela Geografia com campos separados para cidade e estado. No entanto, ele pretende que os seus relatórios mostrem a Cidade e o Estado como um único valor na mesma linha. De momento, a tabela Geografia do João não tem o campo pretendido.
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
-Todavia, com uma coluna calculada, Jeff pode simplesmente juntar ou concatenar as cidades da coluna City com os estados da coluna State.
+Todavia, com uma coluna calculada, ele pode juntar ou concatenar as cidades da coluna Cidade com os estados da coluna Estado.
 
-Jeff clica na tabela Geography e, em seguida, clica em Nova Coluna. Depois, introduz a seguinte fórmula DAX na barra de fórmulas:
+Jeff clica na tabela Geography e, em seguida, clica em Nova Coluna. Em seguida, o João introduz a seguinte fórmula DAX na barra de fórmulas:
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
 Esta fórmula simplesmente cria uma nova coluna chamada CityState e, para cada linha na tabela Geography, usa os valores da coluna City, adiciona uma vírgula e um espaço e, em seguida, concatena os valores da coluna State.
 
-Agora, Jeff tem o campo que pretende.
+Agora, o João tem o campo pretendido.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Pode adicioná-lo à tela de relatório juntamente com o número de remessas. Muito rapidamente e com um mínimo de esforço, o João tem agora um campo "City, State" que pode adicionar a praticamente qualquer tipo de visualização. O João vê que, quando cria uma visualização de mapa, o Power BI Desktop sabe inclusive como ler os valores de "City, State" na sua nova coluna.
+Agora, pode adicioná-lo à tela de relatório juntamente com o número de envios. De forma rápida e simples, o João tem agora um campo Cidade, Estado que pode adicionar a praticamente qualquer tipo de visualização. O João vê que, quando cria uma visualização de mapa, o Power BI Desktop já sabe como ler os valores de Cidade, Estado na nova coluna.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

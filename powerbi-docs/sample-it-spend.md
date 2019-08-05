@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75fa566b4b60e9f15e1641a49ea3c5ffa95420a9
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791918"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462251"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação
 

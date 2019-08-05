@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 967f513502fd85ef28f867bdc5bba199ce51ccbc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 63c10a0507b5e484ac4c104a5a1e83f5dd411d9d
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513908"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523269"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Ligar a dados criados por fluxos de dados do Power BI no Power BI Desktop (Beta)
 No **Power BI Desktop**, pode ligar a dados criados por **fluxos de dados do Power BI** tal como faria com outra origem de dados no Power BI Desktop.
@@ -42,7 +42,7 @@ A maioria dos fluxos de dados reside no inquilino do serviço Power BI. No entan
 
 1.  A Ana cria uma nova área de trabalho de aplicação e configura-a para armazenar os fluxos de dados no data lake da organização.
 2.  O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
-3.  O Nuno recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
+3.  O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
 
     ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

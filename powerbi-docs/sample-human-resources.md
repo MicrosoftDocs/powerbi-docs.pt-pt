@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bf10d6a87cb97e1c1ca5164580d0aa556ffc86fc
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791948"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462334"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos do Power BI: veja uma apresentação
 

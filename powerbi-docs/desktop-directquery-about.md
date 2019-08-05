@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 07/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19ed4e4505ed2d8eb4f3b559c0af46b2b82a0ec0
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342205"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590544"
 ---
 # <a name="using-directquery-in-power-bi"></a>Utilizar o DirectQuery no Power BI
 Pode ligar-se a todos os diferentes tipos de origens de dados através do **Power BI Desktop** ou do **serviço Power BI** e pode efetuar essas ligações de dados de formas diferentes. Pode *importar* dados para o Power BI, que é a forma mais comum de os obter, ou ligar-se diretamente aos dados no respetivo repositório de origem original, conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e as respetivas funcionalidades:
@@ -72,7 +72,7 @@ Quando utiliza **Obter Dados** no **Power BI Desktop** para se ligar a uma orige
 * Os elementos visuais, bem como as páginas de relatórios inteiras, podem ser afixados como mosaicos do dashboard. Para garantir que a abertura dos dashboards será rápida, os mosaicos são atualizados automaticamente com base numa agenda (por exemplo, a cada hora). A frequência desta atualização pode ser controlada para refletir a frequência com que os dados são alterados e a importância de ver os dados mais recentes. Assim, ao abrir um dashboard, os mosaicos irão refletir os dados a partir do momento da última atualização e não necessariamente as últimas alterações feitas à origem subjacente. Os dashboards abertos podem sempre ser Atualizados para garantir que mostram os dados mais recentes.    
 
 ### <a name="live-connections"></a>Ligações em direto
-Ao ligar ao **SQL Server Analysis Services** (SSAS), há uma opção para importar os dados ou ligar-se em direto ao modelo de dados selecionado. Se selecionar **importar**, vai definir uma consulta nessa origem SSAS externa e os dados são importados normalmente. Se selecionar **ligar em direto**, não é definida qualquer consulta e todo o modelo externo é apresentado na lista de campos. Se optar pelo **DirectQuery**, à medida que são criados elementos visuais, as consultas são enviadas para a origem SSAS externa. No entanto, ao contrário do DirectQuery, não faz sentido criar um *modelo* novo; por outras palavras, não é possível definir colunas calculadas novas, hierarquias, relações, etc. Em vez disso, vai simplesmente ligar de forma direta ao modelo SSAS externo.
+Ao ligar ao **SQL Server Analysis Services** (SSAS), há uma opção para importar os dados ou ligar-se em direto ao modelo de dados selecionado. Se selecionar **importar**, vai definir uma consulta nessa origem SSAS externa e os dados são importados normalmente. Se selecionar **ligar em direto**, não é definida qualquer consulta e todo o modelo externo é apresentado na lista de campos.
 
 A situação descrita no parágrafo anterior aplica-se igualmente à ligação às seguintes origens, exceto que não há nenhuma opção para importar os dados:
 
@@ -116,8 +116,8 @@ Quando utiliza o **DirectQuery**, a experiência global depende muito do desempe
 
 Juntamente com o desempenho da origem subjacente, é preciso ter em conta a carga que vai ser colocada na mesma (que afeta muitas vezes o desempenho). Tal como referido mais abaixo, cada utilizador que abra um relatório partilhado e cada mosaico de dashboard que seja atualizado periodicamente enviará, pelo menos, uma consulta por elemento visual à origem subjacente. Este facto exige que a origem consiga lidar com esta carga de consultas, mantendo, ao mesmo tempo, um desempenho razoável.
 
-### <a name="limited-to-a-single-source"></a>Limitado a uma única origem
-Ao importar dados, é possível combinar dados de várias origens num único modelo para, por exemplo, associar facilmente alguns dados de uma base de dados empresarial do SQL Server a alguns dados locais presentes num ficheiro do Excel. Isto não é possível se for utilizado o DirectQuery. Se selecionar o DirectQuery para uma origem, só será possível utilizar dados dessa origem individual (como uma base de dados do SQL Server individual).
+### <a name="security-implications-when-combining-data-sources"></a>Implicações de segurança ao combinar origens de dados
+Pode utilizar múltiplas origens de dados num modelo do DirectQuery, tal como quando importa dados, com a funcionalidade [Modelos compostos](desktop-composite-models.md). Ao fazer isso, é importante compreender como os dados são transmitidos entre as origens de dados subjacentes e as [implicações de segurança](desktop-composite-models.md#security-implications) inerentes.
 
 ### <a name="limited-data-transformations"></a>Transformações de dados limitadas
 Da mesma forma, existem limitações nas transformações de dados que podem ser aplicadas no **Editor de Consultas**. Com os dados importados, pode ser facilmente aplicado um conjunto sofisticado de transformações para limpar e reformatar os dados antes de utilizá-los para criar elementos visuais (como analisar documentos JSON ou deslocar dados de formulários orientados por colunas para formulários orientados por linhas). Estas transformações mais são limitadas no DirectQuery. Em primeiro lugar, ao ligar a uma origem OLAP, como o SAP Business Warehouse, não é possível definir nenhuma transformação e todo o “modelo” externo é obtido a partir da origem. Nas origens relacionais, como o SQL Server, continua a ser possível definir um conjunto de transformações por consulta, mas estas são limitadas por motivos de desempenho. Qualquer uma destas transformações terá de ser aplicada a todas as consultas feitas na origem subjacente e não apenas uma vez na atualização dos dados, pelo que estão limitadas às transformações que podem ser razoavelmente traduzida numa única consulta nativa. Se utilizar uma transformação demasiado complexa, receberá um erro que diz que tem de ser eliminada ou que o modelo tem de ser alterado para o modo Importar.
@@ -139,7 +139,6 @@ Quando utiliza o **DirectQuery**, continua a ser possível fazer muitas destas m
 * **Sem hierarquia de data incorporada:** ao importar dados, por predefinição, todas as colunas de data/data e hora terão também uma hierarquia de data incorporada disponível. Por exemplo, se importar uma tabela de ordens de vendas que inclua uma coluna OrderDate, então, se utilizar OrderDate num elemento visual, será possível escolher o nível adequado (Ano, Mês, Dia) a utilizar. Esta hierarquia de dados incorporada não está disponível se o modo DirectQuery estiver a ser utilizado. Contudo, tenha em atenção que se a tabela Data estiver disponível na origem subjacente (o que é comum em muitos armazéns de dados), as funções DAX de Análise de Tempo podem ser utilizadas normalmente.
 * **Limitações nas colunas calculadas:** as colunas calculadas estão limitadas a ser intralinhas, no sentido em que apenas podem referenciar valores de outras colunas da mesma tabela sem utilizar qualquer função de agregação. Além disso, as funções escalares DAX (como LEFT()) permitidas estarão limitadas às que podem simplesmente ser enviadas para a origem subjacente, pelo que variarão consoante as capacidades exatas da origem. As funções que não são suportadas não serão listadas na conclusão automática durante a criação do DAX para uma coluna calculada e, se forem utilizadas, resultarão em erro.
 * **Sem suporte para funções DAX principal/subordinado:** no modelo DirectQuery, não pode utilizar a família de funções DAX PATH(), as quais, geralmente, processam as estruturas Principal/Subordinado (como um gráfico de contas ou hierarquias de funcionários).
-* **Limitações de medidas:** as funções e expressões DAX que podem ser utilizadas nas medidas são restritas. Mais uma vez, a conclusão automática irá restringir as funções listadas e, se for utilizada uma função ou expressão inválida, ocorrerá um erro. O motivo é simplesmente garantir que as medidas são restritas a medidas simples que, por si só, tenham poucas probabilidades de provocar problemas de desempenho.
 * **As tabelas calculadas não são suportadas:** a capacidade de definir uma tabela calculada com uma expressão DAX não é suportada no modo DirectQuery.
 * **A filtragem de relação está limitada a um único sentido:** ao utilizar o DirectQuery, não pode definir o sentido do Filtro Cruzado numa relação como “Ambos”. Por exemplo, com as três tabelas abaixo, não seria possível criar um elemento visual que mostrasse cada Customer[Gender] e o número de Product[Category] que cada um comprou. A utilização desta filtragem bidirecional está descrita [neste documento técnico detalhado](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (o documento apresenta exemplos no contexto do SQL Server Analysis Services, mas os pontos fundamentais aplicam-se igualmente ao Power BI).
   
@@ -304,11 +303,11 @@ Quando o relatório for publicado, o número máximo de consultas simultâneas e
 ### <a name="diagnosing-performance-issues"></a>Diagnosticar problemas de desempenho
 Esta secção descreve como diagnosticar problemas de desempenho ou como obter informações mais detalhadas para permitir a otimização dos relatórios.
 
-Recomenda-se vivamente que qualquer diagnóstico de problemas de desempenho seja iniciado no **Power BI Desktop** em vez de no **serviço Power BI**. Em muitos casos, os problemas de desempenho têm por base simplesmente o nível de desempenho da origem subjacente e são mais facilmente identificados e diagnosticados no ambiente muito mais isolado do **Power BI Desktop**, que elimina inicialmente alguns componentes (como o gateway do Power BI). Só se não forem encontrados problemas de desempenho no Power BI Desktop é que a investigação se deve concentrar nas especificidades dos relatórios no serviço Power BI.
+Recomenda-se vivamente que qualquer diagnóstico de problemas de desempenho seja iniciado no **Power BI Desktop** em vez de no **serviço Power BI**. Em muitos casos, os problemas de desempenho têm por base simplesmente o nível de desempenho da origem subjacente e são mais facilmente identificados e diagnosticados no ambiente muito mais isolado do **Power BI Desktop**, que elimina inicialmente alguns componentes (como o gateway do Power BI). Só se não forem encontrados problemas de desempenho no Power BI Desktop é que a investigação se deve concentrar nas especificidades dos relatórios no serviço Power BI. O [analisador de desempenho](desktop-performance-analyzer.md) é uma ferramenta útil para identificar problemas ao longo deste processo.
 
 Da mesma forma, recomenda-se tentar primeiro isolar problemas num elemento visual individual em vez de em muitos elementos numa página.
 
-Assim, vamos supor que aqueles passos (nos parágrafos anteriores desta secção) foram seguidos. Temos agora um único elemento visual numa página no **Power BI Desktop** que ainda está lenta. Para determinar as consultas que o Power BI Desktop envia para a origem subjacente, é possível ver informações de rastreio/diagnóstico que essa origem pode emitir. Estes rastreios também podem conter informações úteis relativamente aos detalhes de execução das consultas e como pode ser melhorada.
+Vamos supor que aqueles passos (nos parágrafos anteriores desta secção) foram seguidos. Temos agora um único elemento visual numa página no **Power BI Desktop** que ainda está lenta. Para determinar as consultas que são enviadas para a origem subjacente pelo Power BI Desktop, pode utilizar o [analisador de desempenho](desktop-performance-analyzer.md). Também é possível ver rastreios/informações de diagnóstico que podem ser emitidos pela origem de dados subjacente. Estes rastreios também podem conter informações úteis relativamente aos detalhes de execução das consultas e como pode ser melhorada.
 
 Além disso, mesmo que estes rastreios da origem não estejam disponíveis, é possível ver as consultas que o Power BI envia, juntamente com os tempos de execução, conforme descrito a seguir.
 

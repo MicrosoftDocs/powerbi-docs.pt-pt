@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352169"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462226"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Intercalar ou anexar origens de dados na cloud e no local
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-O gateway de dados no local permite-lhe intercalar ou acrescentar origens de dados no local e na cloud na mesma consulta. Isto é útil quando quer combinar dados de múltiplas origens sem ter de utilizar consultas separadas.
+Pode utilizar o gateway de dados no local para intercalar ou anexar origens de dados no local e na cloud na mesma consulta. Esta solução é útil quando quer combinar dados de múltiplas origens sem ter de utilizar consultas separadas.
 
 >[!NOTE]
->Este artigo só se aplica a conjuntos de dados que têm origens de dados no local e na cloud intercaladas ou acrescentadas numa única consulta. No caso dos conjuntos de dados que incluem consultas separadas (uma ligada a uma origem de dados no local e outra a uma origem de dados na cloud), a consulta que utiliza a origem de dados na cloud não será executada através do gateway.
+>Este artigo só se aplica a conjuntos de dados que têm origens de dados no local e na cloud intercaladas ou acrescentadas numa única consulta. No caso dos conjuntos de dados que incluem consultas separadas (uma ligada a uma origem de dados no local e outra a uma origem de dados na cloud), o gateway não executa a consulta que utiliza a origem de dados na cloud.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -51,14 +51,13 @@ O gateway de dados no local permite-lhe intercalar ou acrescentar origens de dad
 6. Na página **Definições do conjunto de dados** para o novo conjunto de dados:
 
    - Para a origem no local, selecione o gateway associado a esta origem de dados.
-
    - Em **Credenciais da origem de dados**, edite as credenciais de origem de dados na cloud, conforme necessário.
 
     Certifique-se de que os níveis de privacidade das origens de dados no local e na cloud estão devidamente definidos para assegurar que as associações são tratadas de forma segura.
 
      ![Definições do conjunto de dados](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. Com as credenciais da cloud definidas, pode atualizar o conjunto de dados através da opção **Atualizar agora** ou agendá-la para ser atualizada periodicamente.
+7. Com as credenciais da cloud definidas, pode atualizar o conjunto de dados através da opção **Atualizar agora**. Em alternativa, pode agendá-la para ser atualizada periodicamente.
 
 ## <a name="next-steps"></a>Próximos passos
 

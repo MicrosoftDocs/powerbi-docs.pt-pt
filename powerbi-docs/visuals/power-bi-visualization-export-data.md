@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299444"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523338"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de visualizações
 
@@ -150,9 +150,9 @@ Estas limitações e considerações aplicam-se ao Power BI Desktop e ao servi�
 
 - Para exportar os dados de um elemento visual, tem de ter ativada a opção [Criar permissão do conjunto de dados subjacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
 
--  O número máximo de linhas que o **Power BI Desktop** e o **serviço Power BI** podem exportar para um ficheiro *.csv* é 30 000.
+-  O número máximo de linhas que o **Power BI Desktop** e o **serviço Power BI** podem exportar de um **relatório em modo de importação** para um ficheiro *.csv* é 30 000.
 
-- O número máximo de linhas que as aplicações podem exportar para um ficheiro *.xlsx* é 150 000.
+- O número máximo de linhas que as aplicações podem exportar de um **relatório em modo de importação** para um ficheiro *.xlsx* é 150 000.
 
 - A exportação com *Dados subjacentes* não funcionará se:
 
@@ -166,7 +166,7 @@ Estas limitações e considerações aplicam-se ao Power BI Desktop e ao servi�
 
 - A exportação com *Dados subjacentes* não funcionará se a opção *Mostrar itens sem dados* estiver ativada para a visualização que o Power BI estiver a exportar.
 
-- Ao utilizar o DirectQuery, a quantidade máxima de dados que o Power BI pode exportar é 16 MB. Um resultado indesejado pode ser uma exportação inferior ao número máximo de linhas. É provável que esta situação aconteça se:
+- Ao utilizar o DirectQuery, a quantidade máxima de dados que o Power BI pode exportar é 16 MB de dados não comprimidos. Um resultado indesejado pode ser uma exportação inferior ao número máximo de linhas. É provável que esta situação aconteça se:
 
     - Existirem várias colunas.
 

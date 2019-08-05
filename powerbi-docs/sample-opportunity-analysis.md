@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791882"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523465"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Oportunidade do Power BI: veja uma apresentação
 
@@ -70,7 +70,7 @@ Em alternativa, pode transferir o exemplo de Análise de Oportunidade como um [f
 Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529782). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
-A nossa gestora de vendas criou um dashboard para monitorizar as métricas mais importantes para ela. Quando vê algo interessante, pode selecionar um mosaico para examinar os dados:
+O nosso gestor de vendas criou um dashboard para monitorizar as métricas mais importantes. Quando vê algo interessante, pode selecionar um mosaico para examinar os dados:
 
 - A receita da empresa é de 2 mil milhões de USD e a receita faturada de 461 milhões de USD.
 - A contagem de oportunidades e a receita seguem um padrão de funil familiar, com totais que diminuem em cada fase subsequente.
@@ -127,7 +127,7 @@ Para esta página estamos a analisar fatores semelhantes, mas numa perspetiva de
  
 ![Página Oportunidades Futuras](media/sample-opportunity-analysis/opportunity6.png)
 
-A nossa CFO usa esta página para gerir a carga de trabalho. Ao examinar as oportunidades de receita por mês e o nível de vendas, ela pode efetuar o devido planeamento.
+A nossa CFO usa esta página para gerir a carga de trabalho. Ao examinar as oportunidades de receita por mês e o nível de vendas, pode efetuar o devido planeamento.
 
 Repare nos seguintes detalhes:
 * A receita média para a fase Finalizar é a mais alta. Fechar estes negócios são a prioridade maior.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514142"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523221"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas no Power BI Desktop
 
@@ -43,19 +43,19 @@ As fórmulas DAX são muito semelhantes às fórmulas do Excel. O DAX tem até m
 ## <a name="lets-look-at-an-example"></a>Vejamos um exemplo
 Júlia é gestora de vendas da Contoso. Foi-lhe pedido para fornecer projeções de vendas de revendedores para o próximo ano fiscal. Júlia decide basear as estimativas nos valores de vendas do ano anterior, com um aumento anual de 6% resultante de várias promoções agendadas para os próximos seis meses.
 
-Para criar um relatório das estimativas, Júlia importa os dados de vendas do ano anterior para o Power BI Desktop. Localiza o campo SalesAmount na tabela Reseller Sales. Como os dados que importou contêm apenas os valores de vendas do último ano, Júlia muda o nome do campo SalesAmount para Last Years Sales. Em seguida, Júlia arrasta Last Years Sales para a tela de relatórios. Aparece numa visualização de gráfico como um valor único, que é a soma de todas as vendas dos revendedores do ano anterior.
+Para criar um relatório das estimativas, Júlia importa os dados de vendas do ano anterior para o Power BI Desktop. Localiza o campo SalesAmount na tabela Reseller Sales (Vendas dos Revendedores). Como os dados que importou contêm apenas os valores de vendas do último ano, Júlia muda o nome do campo SalesAmount para Last Years Sales. Em seguida, arrasta Last Years Sales (Vendas do Ano Passado) para a tela de relatórios. Aparece numa visualização de gráfico como um valor único, que é a soma de todas as vendas dos revendedores do ano anterior.
 
 Júlia repara que foi fornecido automaticamente um cálculo, embora não tenha especificado nenhum. O Power BI Desktop criou a sua própria medida ao somar todos os valores em Last Years Sales.
 
-No entanto, Júlia precisa de uma medida para calcular as projeções de vendas para o próximo ano, que serão baseadas nas vendas do ano anterior multiplicadas por 1,06, para considerar o aumento de 6% esperado no negócio. Para este cálculo, criará a sua própria medida. Ao utilizar a funcionalidade Nova Medida, cria uma nova medida e, em seguida, introduz a seguinte fórmula DAX:
+No entanto, Júlia precisa de uma medida para calcular as projeções de vendas para o próximo ano, que serão baseadas nas vendas do ano anterior multiplicadas por 1,06, para considerar o aumento de 6% esperado no negócio. Para este cálculo, Júlia criará a sua própria medida. Ao utilizar a funcionalidade Nova Medida, cria uma nova medida e, em seguida, introduz a seguinte fórmula DAX:
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
-Em seguida, Júlia arrasta a nova medida Projected Sales para o gráfico.
+Em seguida, Júlia arrasta a nova medida Projected Sales (Vendas Projetadas) para o gráfico.
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-Rapidamente e com o mínimo esforço, Júlia tem agora uma medida para calcular as vendas projetadas. Júlia também pode analisar as suas projeções ao filtrar revendedores específicos ou ao adicionar outros campos ao relatório.
+Rapidamente e com o mínimo esforço, Júlia tem agora uma medida para calcular as vendas projetadas. Júlia também pode analisar as projeções ao filtrar revendedores específicos ou ao adicionar outros campos ao relatório.
 
 ## <a name="data-categories-for-measures"></a>Categorias de dados para medidas
 

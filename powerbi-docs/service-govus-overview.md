@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809132"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590447"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes da Administração Pública dos EUA
 O **serviço Power BI** tem uma versão disponível para clientes da Administração Pública dos EUA como parte das subscrições do **Office 365 US Government Community**. A versão do **serviço Power BI** abordada neste artigo foi concebida especificamente para clientes da Administração Pública dos EUA e é separada e diferente da versão comercial do **serviço Power BI**.
@@ -48,8 +48,7 @@ O Azure é distribuído entre várias clouds. Por predefinição, os inquilinos 
 * USGov Texas
 * USGov Arizona
 
-Os espaços IP estão disponíveis na cloud pública, mas para a cloud da administração pública, tem de abrir um Pedido de suporte do Azure para pedir os intervalos de IP para os datacenters listados acima. 
-
+Os espaços IP estão disponíveis na cloud pública. Para a cloud governamental, consulte a [documentação do serviço governamental do Azure](https://www.microsoft.com/download/details.aspx?id=57063) para transferência, para obter as informações mais recentes.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitações do Power BI para a Administração Pública dos EUA
 Algumas das funcionalidades disponíveis na versão comercial do **serviço Power BI** *não* estão disponíveis no **serviço Power BI** para clientes da Administração Pública dos EUA. A equipa do Power BI está a trabalhar ativamente no sentido de disponibilizar estas funcionalidades para clientes da administração pública dos EUA e irá atualizar este artigo quando estas funcionalidades forem disponibilizadas.

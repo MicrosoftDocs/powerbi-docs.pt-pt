@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826671"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523225"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
 
@@ -77,11 +77,11 @@ Os passos aqui descritos necessitam da utilização da base de dados relacional 
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
 
-5. Em seguida, adicione as funções adequadas para as tabelas **DimSalesTerritory** e **DimUserSecurity**, conforme mostrado no separador **Row Filters** (Filtros de Linha).
+5. Em seguida, adicione as funções adequadas para as tabelas **DimSalesTerritory** e **DimUserSecurity**, conforme mostrado por baixo do separador **Filtros de Linha**.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-6. Neste passo, utilize a função **LOOKUPVALUE** para devolver os valores de uma coluna na qual o nome de utilizador do Windows corresponde ao que a função **USERNAME** devolve. Em seguida, pode restringir as consultas aos casos em que os valores devolvidos por **LOOKUPVALUE** correspondem aos na mesma tabela ou numa tabela relacionada. Na coluna **DAX Filter** (Filtro DAX), escreva a seguinte fórmula:
+6. Neste passo, utilize a função **LOOKUPVALUE** para devolver os valores de uma coluna na qual o nome de utilizador do Windows corresponde ao que a função **USERNAME** devolve. Em seguida, pode restringir as consultas aos casos em que os valores devolvidos por **LOOKUPVALUE** correspondem aos na mesma tabela ou numa tabela relacionada. Na coluna **Filtro DAX**, escreva a seguinte fórmula:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
 
@@ -144,7 +144,7 @@ Depois de o seu modelo de tabela estar implementado e pronto para utilizar, tem 
    
    Na função **Gestor de Vendas**, o Sumit pode ver os dados de todas as regiões de vendas diferentes. O Sumit cria este relatório (o relatório criado nos passos das tarefas anteriores) e publica-o no serviço Power BI.
    
-   Assim que publica o relatório, cria um dashboard no serviço Power BI chamado **TabularDynamicSec**, com base nesse relatório. Na seguinte imagem, repare que o Sumit consegue ver os dados correspondentes a toda a região de vendas.
+   Assim que publica o relatório, o próximo passo consiste em criar um dashboard no serviço Power BI chamado **TabularDynamicSec** com base nesse relatório. Na seguinte imagem, repare que o Sumit consegue ver os dados correspondentes a toda a região de vendas.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ Depois de o seu modelo de tabela estar implementado e pronto para utilizar, tem 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Quando Jon Doe iniciar sessão no serviço **Power BI** e vir o dashboard partilhado que o Sumit criou, deverá ver **apenas** as vendas da sua região. 
+3. Quando o Jon Doe iniciar sessão no serviço **Power BI** e vir o dashboard partilhado que o Sumit criou, deverá ver **apenas** as vendas da sua região. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

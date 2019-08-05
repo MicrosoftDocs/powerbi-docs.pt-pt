@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136722"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523196"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Criar uma cópia de um dashboard no serviço Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
- Existem muitas razões diferentes para fazer uma cópia de um dashboard. Talvez queira efetuar alterações e testar o desempenho relativamente ao original; ou criar versões ligeiramente diferentes para distribuir por colega, região ou equipa. Talvez um colega admire a estrutura do dashboard e queira utilizá-lo nos relatórios para os seus gestores. Outra razão seria se tiver uma nova base de dados com a mesma estrutura de dados e tipos de dados e quiser reutilizar o dashboard já criado. Isto também pode ser feito, mas iria requerer algum trabalho no Power BI Desktop. 
+ Existem muitas razões diferentes para fazer uma cópia de um dashboard. Talvez queira efetuar alterações e testar o desempenho relativamente ao original; ou criar versões ligeiramente diferentes para distribuir por colega, região ou equipa. Talvez um colega admire a estrutura do seu dashboard e queira utilizá-lo nos relatórios para os gestores. Outra razão seria se tiver uma nova base de dados com a mesma estrutura de dados e tipos de dados e quiser reutilizar o dashboard já criado. Isto também pode ser feito, mas iria requerer algum trabalho no Power BI Desktop. 
 
 Os dashboards são criados (e copiados) através do serviço Power BI e podem ser vistos no Power BI mobile e no Power BI Embedded.  Os dashboards não estão disponíveis no Power BI Desktop. 
 

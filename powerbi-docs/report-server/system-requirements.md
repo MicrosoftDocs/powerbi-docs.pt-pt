@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770025"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415366"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de software e hardware para instalar o Power BI Report Server
 
@@ -50,6 +50,7 @@ Quando criar a base de dados do servidor de relatórios num computador remoto, t
 
 O Power BI Report Server irá instalar os valores predefinidos para configurar as principais definições necessárias para tornar um servidor de relatórios operacional. Tem os seguintes requisitos:
 
+* Os idiomas suportados para o Power BI Report Server são: inglês, alemão, espanhol, japonês, italiano, francês, russo, chinês simplificado, chinês tradicional, português do Brasil e coreano.
 * Tem de estar disponível um Motor de Base de Dados do SQL Server após a configuração e antes de configurar a base de dados para o servidor de relatórios. A instância do Motor de Base de Dados aloja a base de dados do servidor de relatórios que o Gestor de Configuração do Reporting Services irá criar. O Motor de Base de Dados não é necessário para a experiência de configuração propriamente dita.
 * [Reporting Services Features Supported by the Editions of SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) (Recursos do SQL Server Reporting Services Suportados pelas Edições do SQL Server) descreve as diferenças entre as edições do SQL Server.
 * A conta de utilizador que executa a Configuração tem de ser de um membro do grupo local de Administradores.

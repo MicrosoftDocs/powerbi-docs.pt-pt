@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140965"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523141"
 ---
 # <a name="dashboard-data-classification"></a>Classificação de dados dos dashboards
 Todos os dashboards são diferentes e, consoante a origem de dados à qual se está a ligar, é provável que o utilizador e os colegas com quem partilha tenham de tomar diferentes precauções, dependendo da confidencialidade dos dados. Alguns dashboards nunca devem ser partilhados com pessoas externas à empresa nem imprimidos. Outros podem ser livremente partilhados. Ao utilizar a classificação de dados de dashboard, poderá sensibilizar as pessoas que virem os seus dashboards sobre o nível de segurança a empregar. Pode marcar os seus dashboards com classificações definidas pelo departamento de TI da sua empresa, para que todas as pessoas a ver os conteúdos tenham o mesmo nível de compreensão sobre a confidencialidade dos dados.
@@ -45,7 +45,7 @@ Os administradores também podem definir um URL de uma etiqueta para fornecer ma
 ## <a name="setting-a-dashboards-classification"></a>Definir a classificação de um dashboard
 Se a classificação de dados estiver ativada na sua empresa, todos os dashboards começam com um tipo predefinido de classificação mas, enquanto proprietário do dashboard, pode alterar a classificação para corresponder ao nível de segurança do seu dashboard.
 
-Para alterar o tipo de classificação, faça o seguinte.
+Para alterar o tipo de classificação, faça o seguinte:
 
 1. Aceda às definições do dashboard ao selecionar as **reticências** junto ao nome do dashboard e selecionar **Definições**.
    
@@ -58,7 +58,7 @@ Para alterar o tipo de classificação, faça o seguinte.
 Após aplicar a alteração, qualquer pessoa com quem tiver partilhado irá ver a atualização da próxima vez que atualizar o dashboard.
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>Trabalhar com etiquetas de classificação de dados como administrador
-A classificação de dados é configurada pelo administrador global da sua organização. Para ativar a classificação de dados, faça o seguinte.
+A classificação de dados é configurada pelo administrador global da sua organização. Para ativar a classificação de dados, faça o seguinte:
 
 1. Selecione a engrenagem das definições e selecione **Portal de Administração**.
    
@@ -79,7 +79,7 @@ Após preencher o formulário com os seus tipos de classificação, selecione **
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-Nesta altura, todos os dashboards receberão a classificação predefinida e os proprietários do dashboard poderão agora atualizar o tipo de classificação para um mais adequado ao conteúdo. Pode regressar a este local posteriormente para adicionar ou remover tipos de classificação ou alterar a predefinição.  
+Nesta fase, todos os dashboards serão atribuídos à classificação predefinida. Os proprietários do dashboard podem agora atualizar o tipo de classificação para o que for mais adequado aos respetivos conteúdos. Pode regressar a este local posteriormente para adicionar ou remover tipos de classificação ou alterar a predefinição.  
 
 > [!NOTE]
 > Há alguns elementos importantes a ter em conta quando regressar para efetuar alterações:

@@ -12,15 +12,15 @@ ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd92374a23a2ee7023c75cfb2612c00d513e9895
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64da077e079ca3df11ce2a89da546e24865eaf0e
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065769"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522889"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Tutorial: Definir alertas de dados no serviço Power BI
-Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu. 
+Defina alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu.  
 
 Pode definir alertas em mosaicos se tiver uma licença do Power BI Pro ou se um dashboard tiver sido partilhado consigo a partir de uma [capacidade Premium](../service-premium-what-is.md). Os alertas só podem ser definidos nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em elementos visuais criados a partir de conjuntos de dados de transmissão em fluxo que foram afixados a partir de um relatório a um dashboard, mas não podem ser definidos em mosaicos de transmissão em fluxo criados diretamente no dashboard com a opção **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**. 
 
@@ -44,7 +44,7 @@ Este tutorial abrange o seguinte.
 Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>Definir alertas de dados no serviço Power BI
-Veja a Amanda a adicionar alguns alertas a mosaicos no seu dashboard. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
+Veja a Margarida a adicionar alguns alertas a mosaicos no dashboard. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar definições de fluxos de dados da área de trabalho
-description: Configurar uma área de trabalho de aplicação no Power BI para armazenar a definição de fluxo de dados e ficheiros de dados na geração 2 de armazenamento do Azure Data Lake
+description: Configurar uma área de trabalho da aplicação no Power BI para armazenar a definição de fluxos de dados e os ficheiros de dados no Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168614"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523509"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
 
@@ -105,7 +105,7 @@ Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armazena
 
 1.  A Ana cria uma nova área de trabalho de aplicação e configura-a para armazenar os fluxos de dados no data lake da organização.
 2.  O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
-3.  O Nuno recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
+3.  O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
 
     ![Erro ao tentar utilizar o fluxo de dados](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

@@ -8,128 +8,132 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: dfa8ff694a1f4a4ba4e5078fe93300e4bf26cc73
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721409"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391495"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Ligar aos exemplos no serviço Power BI
 
-Este tutorial ensina-o a: 
+Este tutorial mostra-lhe como: 
 - Importar um pacote de conteúdos de exemplo, adicioná-lo ao serviço Power BI e abrir o conteúdo. Um *pacote de conteúdos* é um tipo de exemplo em que o conjunto de dados é fornecido num pacote com um dashboard e relatório. 
 - Abra um ficheiro .pbix de exemplo no Power BI Desktop.
 
-Se quiser obter mais informações, recomendamos que comece pelo artigo [Conjuntos de dados de exemplo do Power BI](sample-datasets.md). Nesse artigo, irá aprender tudo sobre os exemplos; como obtê-los, onde guardá-los, como utilizá-los e algumas das histórias de cada um deles. Em seguida, quando tiver algumas noções básicas, volte a este Tutorial.   
+Caso queira obter mais informações detalhadas, veja [Conjuntos de dados de exemplo do Power BI](sample-datasets.md). Nesse artigo, irá aprender tudo sobre os exemplos; como obtê-los, onde guardá-los, como utilizá-los e algumas das histórias de cada um deles. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Os exemplos estão disponíveis para o serviço Power BI e para o Power BI Desktop. Para acompanhar, vamos utilizar o exemplo da Análise de Revenda.
 
 O pacote de conteúdos de exemplo de *Análise de Retalho* utilizado neste tutorial consiste num dashboard, relatório e conjunto de dados.
-Para se familiarizar com este pacote de conteúdos específico e o respetivo cenário, pode [ver uma apresentação do exemplo Análise de Revenda](sample-retail-analysis.md) antes de começar.
+Para se familiarizar com este pacote de conteúdos específico e o respetivo cenário, veja [Exemplo de Análise de Revenda do Power BI: ver uma apresentação](sample-retail-analysis.md) antes de começar.
 
-## <a name="samples-and-power-bi-service"></a>Exemplos e serviço Power BI
+## <a name="samples-in-the-power-bi-service"></a>Exemplos no serviço Power BI
 
-1. Abra e inicie sessão no serviço Power BI (app.powerbi.com).
-2. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo. Se a opção **Obter Dados** não for apresentada, expanda o painel de navegação ao selecionar ![ícone de mais opções](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
-   
-   ![Ícone Obter dados](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
-5. Selecione **Exemplos**.  
-   
-   ![Botão Exemplos](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
-6. Selecione o *Exemplo de Análise de Revenda* e selecione **Ligar**.   
-   
-   ![Botão Ligar amarelo](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+1. Abra o serviço Power BI (app.powerbi.com), inicie sessão e abra a área de trabalho onde quer guardar o exemplo. 
 
-## <a name="what-exactly-was-imported"></a>O que foi importado exatamente?
-Com os pacotes de conteúdos de exemplo, quando seleciona **Ligar**, o Power BI está, na verdade, a trazer uma cópia desse pacote de conteúdos e a armazená-la na cloud. Uma vez que a pessoa que criou o pacote de conteúdos incluiu um conjunto de dados, um relatório e um dashboard, é isso que obtém ao clicar em **Ligar**. 
+    Se não tiver uma licença do Power BI Pro, pode guardar o exemplo em A Minha Área de Trabalho.
 
-1. O Power BI cria o novo dashboard e lista-o no separador **Dashboards**. O asterisco amarelo permite-lhe saber que é novo.
+2. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo. 
+
+   ![Selecionar Obter Dados](media/sample-datasets/power-bi-get-data.png)
+
+   Se não vir **Obter Dados**, expanda o painel de navegação ao selecionar o ![ícone de mais opções](media/sample-tutorial-connect-to-the-samples/expand-nav.png) na parte superior do painel.
+
+5. Na página **Obter Dados** apresentada, selecione **Exemplos**.
    
-   ![mensagem de êxito](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
-2. Abra o separador **Relatórios**.  Aqui, verá um novo relatório denominado *Exemplo de Análise de Revenda*.
+6. Selecione **Exemplo de Análise de Revenda** e, em seguida, selecione **Ligar**.   
    
-   ![Caixa vermelha em redor do Exemplo de Análise de Revenda e estrela amarela](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
+   ![Botão Ligar](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+
+## <a name="what-was-imported"></a>O que foi importado?
+Com os pacotes de conteúdos de exemplo, quando seleciona **Ligar**, o Power BI obtém uma cópia desse pacote de conteúdos e armazena-a na cloud. Uma vez que a pessoa que criou o pacote de conteúdos incluiu um conjunto de dados, um relatório e um dashboard, é isso que obtém ao selecionar **Ligar**. 
+
+1. Quando seleciona **Ligar**, o Power BI cria o novo dashboard e lista-o no separador **Dashboards**. 
    
-   Veja o separador **Conjuntos de dados**.  Existe também um novo conjunto de dados.
+   ![Entrada do Exemplo de Análise de Revenda](media/sample-retail-analysis/retail-entry.png)
+2. Abra o separador **Relatórios**. Aqui, verá um novo relatório denominado *Exemplo de Análise de Revenda*.
    
-   ![Caixa vermelha em redor do Exemplo de Análise de Revenda](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
+   ![Entrada do Relatório de Exemplo de Análise de Revenda](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
+   
+   Consulte o separador **Conjuntos de Dados**. Também há lá um novo conjunto de dados.
+   
+   ![Entrada de conjunto de dados do Exemplo de Análise de Revenda](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
 ## <a name="explore-your-new-content"></a>Explorar o conteúdo novo
-Agora explore o dashboard, o conjunto de dados e o relatório por conta própria. Existem muitas formas diferentes de navegar para os dashboards, relatórios e conjuntos de dados e apenas uma dessas formas está descrita abaixo.  
+Agora explore o dashboard, o conjunto de dados e o relatório por conta própria. Existem muitas formas diferentes de navegar para os dashboards, relatórios e conjuntos de dados. Uma dessas formas está descrita no procedimento que se segue.  
 
-> [!TIP]
-> Quer uma pequena ajuda primeiro?  Experimente ver a [Apresentação do exemplo de Análise de Revenda](sample-retail-analysis.md) para obter instruções passo a passo deste exemplo.
-> 
-> 
+1. Regresse ao separador **Dashboards** e, em seguida, selecione o dashboard **Exemplo de Análise de Revenda** para o abrir.       
 
-1. Regresse ao separador **Dashboards** e selecione o dashboard *Exemplo de Análise de Revenda* para abri-lo.    
+   O dashboard é aberto e tem vários mosaicos de visualização.   
+ 
+1. Selecione um dos mosaicos do dashboard para abrir o relatório subjacente. Neste exemplo, selecionaremos o gráfico de área **Vendas deste Ano, Vendas do Ano Passado por Mês Fiscal**.  
+
+   ![Dashboard do Exemplo de Análise de Revenda com o elemento visual realçado](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
+
+   O relatório é aberto na página que contém o gráfico de área selecionado, sendo nesse caso a página **Vendas Mensais Distritais** do relatório.
    
-   ![Separador Dashboard selecionado](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
-2. É aberto o dashboard.  Tem uma variedade de mosaicos de visualização.
-   
-   ![Dashboard com elemento visual realçado](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
-3. Selecione um dos mosaicos para abrir o relatório subjacente.  Neste exemplo, vamos selecionar o gráfico de área (descrito a rosa na imagem anterior). O relatório é aberto na página que contém esse gráfico de área.
-   
-    ![Página de relatório com elemento visual correspondente realçado](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
+   ![Página Vendas Mensais Distritais do relatório](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Se o mosaico tiver sido criado com as [Perguntas e Respostas do Power BI](power-bi-tutorial-q-and-a.md), deve ter sido aberta a página Perguntas e Respostas. Se o mosaico tiver sido [afixado do Excel](service-dashboard-pin-tile-from-excel.md), o Excel Online será aberto no Power BI.
+   > Se o mosaico tiver sido criado com recurso às [Perguntas e Respostas do Power BI](power-bi-tutorial-q-and-a.md), será aberta a página Perguntas e Respostas em vez da página Vendas Mensais Distritais. Se o mosaico tiver sido [afixado do Excel](service-dashboard-pin-tile-from-excel.md), o Excel Online será aberto no Power BI.
    > 
    > 
-1. De volta ao separador **Conjuntos de dados**, tem várias opções para explorar o conjunto de dados.  Não poderá abrir e ver todas as linhas e colunas (como no Power BI Desktop ou no Excel).  Quando alguém partilha um pacote de conteúdos com colegas, normalmente, quer partilhar as informações e não dar aos colegas acesso direto aos dados. No entanto, isso não significa que não pode explorar o conjunto de dados.  
+1. Quando alguém partilha um pacote de conteúdos com colegas, normalmente quer partilhar apenas as informações e não dar aos colegas acesso direto aos dados. No separador **Conjuntos de Dados**, tem várias opções para explorar o conjunto de dados. No entanto, não consegue ver as linhas nem as colunas dos seus dados como consegue no Power BI Desktop ou no Excel. 
    
-   ![Separador Conjuntos de Dados](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
+   ![Entrada de conjunto de dados do Exemplo de Análise de Revenda](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
    
-   * Uma forma de explorar o conjunto de dados é ao criar as suas próprias visualizações e relatórios do zero.  Selecione o ícone de gráfico ![Ícone Relatório](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) para abrir o conjunto de dados no modo de edição de relatórios.
+1. Uma forma de explorar o conjunto de dados é ao criar as suas próprias visualizações e relatórios do zero. Selecione o ícone de gráfico ![Ícone de gráfico](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) para abrir o conjunto de dados no modo de edição de relatórios.
      
-       ![Novo relatório](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Outra forma de explorar o conjunto de dados é executar as [Informações Rápidas](consumer/end-user-insights.md). Selecione as reticências (...) e a opção **Obter informações**. Quando as informações estiverem prontas, selecione **Ver informações**.
+   ![Relatório totalmente novo](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
+
+1. Outra forma de explorar o conjunto de dados é executar as [informações rápidas](consumer/end-user-insights.md). Selecione as reticências (...) e, em seguida, a opção **Obter informações rápidas**. Quando as informações estiverem prontas, selecione **Ver informações**.
      
-       ![Relatório de informações](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+    ![Relatório de informações](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-and-power-bi-desktop"></a>Exemplos e Power BI Desktop 
-Quando abre o ficheiro PBIX de exemplo pela primeira vez, é apresenta a Vista de relatório na qual pode explorar, criar e modificar qualquer número de páginas de relatórios com visualizações. A Vista de relatório proporciona praticamente a mesma experiência de design que a Vista de edição de um relatório no serviço Power BI. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc.
+## <a name="samples-in-power-bi-desktop"></a>Exemplos no Power BI Desktop 
+Quando abre o ficheiro .pbix de exemplo no Power BI Desktop pela primeira vez, este apresenta a Vista de Relatório, na qual pode explorar, criar e modificar qualquer número de páginas de relatórios com visualizações. A Vista de Relatório proporciona praticamente a mesma experiência de design que a Vista de Edição de um relatório no serviço Power BI. Pode mover as visualizações de um lado para o outro, copiar e colar, unir, etc. 
 
-A diferença é que ao utilizar o Power BI Desktop, pode trabalhar com as suas consultas e modelar os seus dados para certificar-se que os seus dados suportam as melhores informações nos seus relatórios. Então pode guardar o seu ficheiro do Power BI Desktop onde quiser, quer seja na sua unidade local ou na cloud.
+Ao contrário do que acontece quando se edita um relatório no serviço Power BI, no Power BI Desktop também pode trabalhar com as suas consultas e modelar os seus dados para se certificar de que os seus dados suportam as melhores informações nos seus relatórios. Em seguida, pode guardar o seu ficheiro do Power BI Desktop onde quiser, quer seja na sua unidade local ou na cloud.
 
-1. Abra o [ficheiro .pbix de exemplo da Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) no Power BI Desktop. 
+1. Transfira o [ficheiro .pbix Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) e abra-o no Power BI Desktop. 
 
-    ![Exemplo aberto na vista de relatório do Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+    ![Exemplo na vista de relatório do Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
-1. O ficheiro é aberto na Vista de relatório. Reparou nos quatro separadores na parte inferior do editor de relatórios? Tal significa que existem quatro páginas neste relatório e que a página “Novas Lojas” está atualmente selecionada. 
+1. O ficheiro é aberto na Vista de relatório. Repare que há quatro separadores na parte inferior do editor de relatório. Estes separadores representam as quatro páginas deste relatório. Neste exemplo, está atualmente selecionada a página **Novas Lojas**. 
 
-    ![Grande plano dos separadores na parte inferior e opção Novas Lojas realçada](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
+    ![Separador Novas Lojas realçado](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
-3. Para obter uma descrição detalhada do editor de relatórios, veja [Apresentação do editor de relatórios](service-the-report-editor-take-a-tour.md)
+1. Para obter uma descrição detalhada do editor de relatórios, veja [Apresentação do editor de relatórios](service-the-report-editor-take-a-tour.md).
 
-## <a name="what-exactly-was-imported"></a>O que foi importado exatamente?
-Quando abre o ficheiro PBIX de exemplo no Desktop, o Power BI está, na verdade, a trazer uma cópia desses dados e a armazená-la na cloud. No Desktop, o utilizador tem acesso ao relatório ***e ao conjunto de dados subjacente***. Quando os dados forem carregados, o Power BI Desktop tentará localizar e criar relações para o utilizador.  
+## <a name="whats-in-your-report"></a>O que há no seu relatório?
+Quando transfere um ficheiro .pbix de exemplo, transfere não apenas um relatório, como também o *conjunto de dados subjacente*. Quando abre o ficheiro, o Power BI Desktop carrega os dados com as consultas e relações associadas. Pode ver os dados e as relações subjacentes, mas não pode ver as consultas subjacentes no Editor de Consultas.
 
-1. Mude para a [Vista de dados](desktop-data-view.md) ao selecionar o ícone de tabela ![ícone de tabela](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png).
+
+1. Mude para a [Vista de Dados](desktop-data-view.md) ao selecionar o ícone de tabela ![ícone de tabela](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png).
  
     ![Vista de dados do Power BI Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
-    A Vista de Dados ajuda a inspecionar, explorar e compreender os dados no modelo do Power BI Desktop. É diferente do modo como vê as tabelas, as colunas e os dados no Editor de Consultas. Com a Vista de Dados, está a ver os seus dados após eles terem sido carregados no modelo.
+    Na Vista de Dados, pode inspecionar, explorar e compreender os dados no seu modelo do Power BI Desktop. É diferente do modo como vê as tabelas, as colunas e os dados no Editor de Consultas. Na Vista de Dados, os dados já estão carregados no modelo.
 
-    Quando está a modelar seus dados, às vezes deseja ver o que está realmente numa tabela ou coluna, sem criar um elemento visual na tela de relatório, geralmente imediatamente abaixo do nível de linha. Isso é particular verdadeiro quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
+    Quando está a modelar os seus dados, às vezes quer ver o que está realmente nas linhas e colunas de uma tabela sem criar um elemento visual na tela de relatório. Isso é particular verdadeiro quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
 
-1. Mude para a [Vista de relações](desktop-relationship-view.md) ao selecionar o ícone ![ícone semelhante a 3 caixas ligadas](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
+1. Mude para a [Vista de Relações](desktop-relationship-view.md) ao selecionar o seguinte ícone: ![Ícone de Vista de Relações](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png).
  
     ![Vista de relações no Power BI Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
     A Vista de Relações mostra todas as tabelas, colunas e relações no modelo. Aqui pode ver, alterar e criar relações.
 
-## <a name="explore-your-new-content"></a>Explorar o conteúdo novo
-Agora, explore o conjunto de dados, as relações e o relatório. Para obter ajuda para começar, aceda a [Guia de Introdução ao Desktop](desktop-getting-started.md).    
-
-
 ## <a name="next-steps"></a>Próximos passos
+Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
+Esperamos que esta apresentação tenha mostrado como os dashboards, os conjuntos de dados, as relações e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md) e [Introdução ao Power BI Desktop](desktop-getting-started.md).  
+
+Para obter mais informações, veja:  
 - [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 - [Exemplos para o serviço Power BI](sample-datasets.md)
 - [Origens de dados para o Power BI](service-get-data.md)

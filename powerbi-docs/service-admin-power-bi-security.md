@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: df2e31ea9c8030e00001081e5fbe280605188bc5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187388"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523310"
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 
@@ -56,7 +56,7 @@ A segurança da plataforma do Power BI também inclui a segurança do ambiente m
 
 Para obter mais informações, visite o [Centro de Confiança da Microsoft](https://www.microsoft.com/trustcenter).
 
-Conforme descrito anteriormente neste artigo, o início de sessão de um utilizador no Power BI é utilizado pelos servidores do Active Directory no local para mapear um UPN para as credenciais. No entanto, é **importante** observar que os utilizadores são responsáveis pelos dados que partilham: se um utilizador se ligar a origens de dados através das suas credenciais e partilhar um relatório (ou um dashboard ou conjunto de dados) com base nesses dados, os utilizadores com quem o dashboard é partilhado não são autenticados em relação à origem de dados original e ser-lhes-á concedido acesso ao relatório.
+Conforme descrito anteriormente neste artigo, o início de sessão de um utilizador no Power BI é utilizado pelos servidores do Active Directory no local para mapear um UPN para as credenciais. No entanto, é **importante** ter em conta que os utilizadores são responsáveis pelos dados que partilham: se um utilizador se ligar a origens de dados através das respetivas credenciais e partilhar um relatório (ou um dashboard ou conjunto de dados) com base nesses dados, os utilizadores com quem o dashboard é partilhado não são autenticados na origem de dados original e ser-lhes-á concedido acesso ao relatório.
 
 Uma exceção ocorre em ligações ao **SQL Server Analysis Services** através do **Gateway de dados no local**. Os dashboards são armazenados em cache no Power BI, mas o acesso a relatórios ou conjuntos de dados subjacentes inicia a autenticação do utilizador que está a tentar aceder ao relatório (ou conjunto de dados). No entanto, o acesso só será concedido se o utilizador tiver credenciais suficientes para aceder aos dados. Para obter mais informações, veja a [Descrição detalhada do gateway de dados no local](service-gateway-onprem-indepth.md).
 

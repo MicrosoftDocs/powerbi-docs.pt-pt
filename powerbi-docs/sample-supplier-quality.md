@@ -7,165 +7,169 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239606"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391318"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação
 
-## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Uma breve descrição geral de exemplo da Análise de Qualidade do Fornecedor
-Este dashboard de exemplo do setor e o respetivo relatório subjacente focam-se num dos desafios típicos da cadeia de fornecimento – a análise de qualidade do fornecedor.
-Duas métricas principais estão envolvidas na análise: o número total de defeitos e o tempo de inatividade total que causou estes defeitos. Este exemplo tem dois objetivos principais:
+Este dashboard de exemplo do setor e o respetivo relatório subjacente focam-se num dos desafios típicos da cadeia de fornecimento: a análise de qualidade do fornecedor. Esta análise depende de duas métricas principais: o número total de defeitos e o período de indisponibilidade total que estes defeitos causaram. 
 
-* Compreender quem são os melhores e os piores fornecedores, no que respeita à qualidade
-* Identificar as instalações fabris que melhor localizam e rejeitam defeitos, para minimizar o período de indisponibilidade
+Este exemplo tem dois objetivos principais:
 
-![](media/sample-supplier-quality/supplier1.png)
+* Compreender quem são os melhores e os piores fornecedores, no que respeita à qualidade.
+* Identificar as instalações fabris que melhor localizam e rejeitam defeitos, para minimizar o período de indisponibilidade.
 
-Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser utilizado com dados, relatórios e dashboards voltados para os negócios.
-Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anónimos.
+![Dashboard do exemplo Supplier Quality Analysis Sample](media/sample-supplier-quality/supplier1.png)
 
-## <a name="prerequisites"></a>Pré-requisitos
+Este exemplo faz parte de uma série que mostra como pode utilizar o Power BI com dados, relatórios e dashboards orientados para negócios. Foi criado com dados reais da [obviEnce](http://www.obvience.com/), que foram mantidos anónimos. Os dados estão disponíveis em vários formatos: pacote de conteúdos, ficheiro .pbix do Power BI Desktop ou livro do Excel. Veja [Exemplos do Power BI](sample-datasets.md). 
 
- Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), um [ficheiro .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) ou um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
+Este tutorial explora o pacote de conteúdos do exemplo Supplier Quality Analysis Sample no serviço Power BI. Uma vez que a experiência do relatório é semelhante no Power BI Desktop e no serviço, também pode acompanhar com o ficheiro .pbix de exemplo no Power BI Desktop. 
+
+Não precisa de uma licença do Power BI para explorar os exemplos no Power BI Desktop. Se não tiver uma licença do Power BI Pro, pode guardar o exemplo em A Minha Área de Trabalho no serviço Power BI. 
+
+## <a name="get-the-sample"></a>Obter o exemplo
+
+Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de conteúdos](#get-the-content-pack-for-this-sample), um [ficheiro .pbix](#get-the-pbix-file-for-this-sample) ou um [livro do Excel](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdos para este exemplo
 
-1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
-2. No canto inferior esquerdo, selecione **Obter dados**.
+1. Abra o serviço Power BI (app.powerbi.com), inicie sessão e abra a área de trabalho onde quer guardar o exemplo.
+
+   Se não tiver uma licença do Power BI Pro, pode guardar o exemplo em A Minha Área de Trabalho.
+
+2. No canto inferior esquerdo, selecione **Obter Dados**.
    
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. Na página Obter Dados que aparece, selecione **Exemplos**.
+   ![Selecionar Obter Dados](media/sample-datasets/power-bi-get-data.png)
+3. Na página **Obter Dados** apresentada, selecione **Exemplos**.
    
-   ![](media/sample-datasets/power-bi-samples-icon.png)
-4. Selecione o **exemplo de Análise de Qualidade do Fornecedor**, em seguida, escolha **Ligar**.  
-  
-   ![Exemplo de Análise de Qualidade do Fornecedor](media/sample-supplier-quality/supplier16.png)
+4. Selecione **Supplier Quality Analysis Sample** e, em seguida, selecione **Ligar**.  
    
-5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual. O novo conteúdo é assinalado com um asterisco amarelo. 
+   ![Ligar ao exemplo](media/sample-supplier-quality/supplier16.png)
+
+5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, um relatório e um conjunto de dados à área de trabalho atual.
    
-   ![Asterisk](media/sample-supplier-quality/supplier17.png)
+   ![Entrada do exemplo Supplier Quality Analysis Sample](media/sample-supplier-quality/supplier17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo como um ficheiro .pbix, que foi concebido para utilização com o Power BI Desktop. 
-
- * [Ficheiro PBIX de Exemplo de Análise de Qualidade do Fornecedor](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+Em alternativa, pode transferir o exemplo Supplier Quality Analysis Sample como um [ficheiro .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), concebido para utilização com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
-Também pode [transferir apenas o conjunto de dados (livro do Excel)](http://go.microsoft.com/fwlink/?LinkId=529779) para este exemplo. O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, selecione **Power Pivot > Gerir**.
 
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529779). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tempo de inatividade causado por materiais com defeito
 Vamos analisar o tempo de inatividade causado por material defeituoso e ver os fornecedores que são responsáveis.  
 
-1. No dashboard, selecione o mosaico de número **Quantidade Total de Defeitos** ou **Total de Minutos de Inatividade**.  
+1. No dashboard, selecione o mosaico **Total Defect Quantity** ou **Total Downtime Minutes**.
 
-   ![](media/sample-supplier-quality/supplier2.png)  
+   ![Selecionar mosaico para abrir o relatório](media/sample-supplier-quality/supplier2.png)  
 
-   O relatório "Exemplo de Análise de Qualidade do Fornecedor" abre a página "Análise de Tempo de Inatividade". Observe que temos um total de 33 M peças com defeito, e o tempo de inatividade total causado por estas peças com defeito é de 77 K minutos. Alguns materiais têm menos peças com defeito, mas podem causar um atraso enorme, resultando num maior tempo de inatividade. Vamos explorá-los na página do relatório.  
-2. Ao observarmos a linha **Total de Minutos de Inatividade** no gráfico de combinação **Defeitos e Tempo de Inatividade (min) por Tipo de Material**, vemos que os materiais ondulados causam a maior parte do tempo de inatividade.  
-3. Selecione a coluna **Ondulado** no mesmo gráfico de combinação para ver as fábricas que são mais afetadas por este defeito e o fornecedor responsável.  
+   O relatório Supplier Quality Analysis Sample abre a página **Downtime Analysis**.
 
-   ![](media/sample-supplier-quality/supplier3.png)  
-4. Selecione fábricas individuais no mapa para ver que fornecedores ou material é responsável pelo tempo de inatividade nessa fábrica.
+   Observe que existem 33 milhões de peças com defeito, o que provoca um tempo de inatividade de 77 000 minutos. Embora alguns materiais contenham menos peças com defeito, estes podem provocar atrasos, o que por sua vez contribuirá para o aumento do tempo de inatividade. Vamos explorá-los na página do relatório.  
+2. Se observarmos a linha **Total Downtime Minutes** no gráfico de combinação **Defects and Downtime (min) by Material Type**, podemos ver que os materiais ondulados causam a maior parte do tempo de inatividade.  
+3. Selecione a coluna **Corrugate** para ver as fábricas que são mais afetadas por este defeito e o fornecedor responsável.  
+
+   ![Selecionar a coluna Corrugate](media/sample-supplier-quality/supplier3.png)  
+4. No mapa **Downtime (min) by Plant**, selecione uma fábrica no mapa de cada vez para ver que fornecedores ou material é responsável pelo tempo de inatividade nessa fábrica.
 
 ### <a name="which-are-the-worst-suppliers"></a>Quais são os piores fornecedores?
- Queremos encontrar os oito piores fornecedores e determinar qual é a percentagem do tempo de inatividade de que eles são responsáveis. Podemos fazê-lo ao alterar o gráfico de área **Tempo de Inatividade (min) por Fornecedor** para um treemap.  
+ Queremos encontrar os oito piores fornecedores e determinar qual é a percentagem de tempo de inatividade pela qual são responsáveis. Podemos fazê-lo ao alterar o gráfico de área **Downtime (min) by Vendor** para um treemap.  
 
-1. Na página 3 do relatório, "Análise de Inatividade", selecione **Editar Relatório** no canto superior esquerdo.  
-2. Selecione o gráfico de área **Tempo de Inatividade (min) por Fornecedor** e, no painel Visualizações, selecione Treemap.  
+1. Na página **Downtime Analysis** do relatório, selecione **Editar relatório** no canto superior esquerdo.  
+2. Selecione o gráfico de área **Downtime (min) by Vendor** e, no painel **Visualizações**, selecione o ícone **Treemap**.  
 
-   ![](media/sample-supplier-quality/supplier4.png)  
+   ![Selecionar o ícone treemap](media/sample-supplier-quality/supplier4.png)  
 
-    O treemap coloca automaticamente o campo **Fornecedor** como **Grupo**.  
+    O treemap define automaticamente o campo **Vendor** como **Grupo**.  
 
-    ![](media/sample-supplier-quality/supplier5.png)  
+    ![Gráfico treemap de Downtime (min) by Vendor](media/sample-supplier-quality/supplier5.png)  
 
    Neste treemap, podemos ver quais são os oito principais fornecedores nos oito blocos à esquerda do treemap. Também podemos ver que se responsabilizam por cerca de 50% de todos os minutos de inatividade.  
-3. Selecione **Exemplo de Análise de Qualidade do Fornecedor** na barra de navegação superior para voltar ao dashboard.
+3. Selecione **Supplier Quality Analysis Sample** na barra de navegação superior para voltar ao dashboard.
 
 ### <a name="comparing-plants"></a>Comparar fábricas
 Agora vamos explorar as fábricas que fazem um trabalho de melhor gestão de material com defeito, resultando num tempo de inatividade inferior.  
 
-1. Selecione o mosaico do mapa **Relatórios do Total de Defeitos por Fábrica, Tipo de Defeito**.  
+1. No dashboard, selecione o mosaico de mapa **Total Defect Reports by Plant, Defect Type**.      
 
-    O relatório abre a página "Qualidade do Fornecedor".  
+   ![Mosaico Total Defect Reports by Plant, Defect Type](media/sample-supplier-quality/supplier6.png)  
 
-   ![](media/sample-supplier-quality/supplier6.png)  
-2. Na legenda do mapa, selecione o círculo **Impacto**.  
+   O relatório abre a página **Supplier Quality Analysis**.  
 
-    ![](media/sample-supplier-quality/supplier7.png)  
+2. Na legenda da página **Total Defect Reports por Plant e Defect Type**, selecione o círculo **Impact**.  
 
-    Repare no gráfico de bolhas que **Logística** é categoria mais problemática – é a maior em termos de quantidade total de defeitos, relatórios do total de defeitos e total de minutos de inatividade. Vamos explorar melhor esta categoria.  
-3. Selecione a bolha de Logística no gráfico de bolhas e observe as fábricas em Springfield, IL e Naperville, IL. Naperville parece fazer um melhor trabalho de gestão de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, comparado ao grande número de impactos de Springfield.  
+    ![Selecionar Impact](media/sample-supplier-quality/supplier7.png)  
 
-   ![](media/sample-supplier-quality/supplier8.png)  
-4. Selecione **Exemplo de Análise de Qualidade do Fornecedor** na barra de navegação superior para voltar à área de trabalho ativa.
+    No gráfico de bolhas, verá que a categoria **Logistics** é a mais problemática. É a que apresenta maior impacto em termos da quantidade total de defeitos, relatórios de defeitos e minutos de inatividade. Vamos explorar melhor esta categoria.  
+3. Selecione a bolha **Logistics** no gráfico de bolhas e observe as fábricas em Springfield e Naperville, IL. Naperville parece fazer um melhor trabalho de gestão de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, comparado ao grande número de impactos de Springfield.  
+
+   ![Selecionar Logistics](media/sample-supplier-quality/supplier8.png)  
+4. Selecione **Supplier Quality Analysis Sample** na barra de navegação superior para voltar ao dashboard.
 
 ## <a name="which-material-type-is-best-managed"></a>Que tipo de material é melhor gerido?
 O melhor tipo de material gerido é o que tem o tempo de inatividade mais baixo ou nenhum impacto, independentemente da quantidade de defeitos.
 
-* No dashboard, observe o mosaico **Quantidade Total de Defeitos por Tipo de Material, Tipo de Defeito**.
+1. No dashboard, observe o mosaico **Quantidade Total de Defeitos por Tipo de Material, Tipo de Defeito**.
 
-  ![](media/sample-supplier-quality/supplier9.png)
+   ![Mosaico Total Defect Quantity by Material Type, Defect Type](media/sample-supplier-quality/supplier9.png)
 
-Repare que **Matérias-Primas** tem um total elevado de defeitos, mas a maioria dos defeitos é rejeitada ou não tem impacto.
+   Repare que, embora o tipo de material **Raw Materials** tenha um total de defeitos elevado, a maioria dos defeitos é rejeitada ou não tem impacto.
 
-Vamos ver se as matérias-primas não causam muito tempo de inatividade, apesar da quantidade de defeito alta.
+   Vamos ver se este tipo de material não causa demasiado tempo de inatividade, apesar da quantidade de defeitos elevada.
 
-* No dashboard, observe o mosaico **Quantidade Total de Defeitos, Total de Minutos de Inatividade por Tipo de Material**.
+2. No dashboard, observe o mosaico **Quantidade Total de Defeitos, Total de Minutos de Inatividade por Tipo de Material**.
 
-  ![](media/sample-supplier-quality/supplier10.png)
+   ![Mosaico Total Defect Qty, Total Downtime Minutes by Material Type](media/sample-supplier-quality/supplier10.png)
 
-Aparentemente as matérias-primas são bem geridas: elas têm mais defeitos, mas menos minutos de inatividade total.
+   As matérias-primas aparentam ser bem geridas. Embora tenham mais defeitos, apresentam menos minutos de inatividade total.
 
 ### <a name="compare-defects-to-downtime-by-year"></a>Comparar defeitos com o tempo de inatividade por ano
-1. Selecione o mosaico do mapa **Relatórios do Total de Defeitos por Fábrica, Tipo de Defeito** para abrir o relatório na primeira página do relatório, Qualidade do Fornecedor.
-2. Repare que **Quantidade de Defeitos** é maior em 2014 do que em 2013.  
+1. Selecione o mosaico de mapa **Total Defect Reports by Plant, Defect Type** para abrir o relatório na página **Supplier Quality Analysis**.
+2. No gráfico **Total Defect Qty por Month e Year**, repare que a quantidade de defeitos é maior no ano de 2014 do que em 2013.  
 
-    ![](media/sample-supplier-quality/supplier11.png)  
-3. Mais defeitos traduz-se em mais tempo de inatividade? Podemos fazer perguntas na caixa de P e R para descobrir.  
-4. Selecione **Exemplo de Análise de Qualidade do Fornecedor** na barra de navegação superior para voltar ao dashboard.  
-5. Como sabemos que as matérias-primas têm o maior número de defeitos, na caixa de pergunta, escreva "mostrar tipos de materiais, ano e quantidade total de defeitos".  
+    ![Gráfico Total Defect Qty por Month e Year](media/sample-supplier-quality/supplier11.png)  
+3. Mais defeitos traduz-se em mais tempo de inatividade? Faça perguntas na caixa de Perguntas e Respostas para descobrir.  
+4. Selecione **Supplier Quality Analysis Sample** na barra de navegação superior para voltar ao dashboard.  
+5. Como sabemos que as matérias-primas têm o maior número de defeitos, escreva na caixa de perguntas: *show material types, year, and total defect qty* (mostrar tipos de materiais, ano e quantidade total de defeitos).  
 
     Havia muitos mais defeitos de matérias-primas em 2014 do que em 2013.  
 
-    ![](media/sample-supplier-quality/supplier12.png)  
-6. Agora, altere a pergunta para "mostrar tipos de materiais, ano e total de minutos de tempo de inatividade".  
+    ![Pergunta nas Perguntas e Respostas: show material types, year and total defect qty (mostrar tipos de materiais, ano e quantidade total de defeitos)](media/sample-supplier-quality/supplier12.png)  
+6. Em seguida, altere a pergunta para: *show material types, year, and total **downtime minutes*** (mostrar tipos de materiais, ano e total de minutos de tempo de inatividade).  
 
-   ![](media/sample-supplier-quality/supplier13.png)
+   ![Pergunta nas Perguntas e Respostas: show material types, year and total downtime minutes (mostrar tipos de materiais, ano e total de minutos de tempo de inatividade)](media/sample-supplier-quality/supplier13.png)
 
-O tempo de inatividade de matérias-primas era quase o mesmo em 2013 e 2014, mesmo que houvesse muitos mais defeitos que matérias-primas do que em 2014.
-
-O que acontece é que mais matérias-primas com defeitos em 2014 não levaram a mais tempo de inatividade no mesmo período.
+   Repare que o tempo de inatividade para matérias-primas foi quase o mesmo em 2013 e 2014, mesmo que tenha havido muito mais defeitos do que matérias-primas em 2014. Aparentemente, a existência de mais defeitos comparativamente a matérias-primas em 2014 não causou um grande tempo de inatividade adicional para as matérias-primas em 2014.
 
 ### <a name="compare-defects-to-downtime-month-to-month"></a>Compare defeitos com o tempo de inatividade mês a mês
 Vejamos outro mosaico de dashboard relacionado com a quantidade total de defeitos.  
 
-1. Selecione a seta para voltar ![](media/sample-supplier-quality/backarrow.png) no canto superior esquerdo acima da caixa de pergunta para voltar ao dashboard.  
+1. Selecione **Sair das Perguntas e Respostas** no canto superior esquerdo para voltar ao dashboard.  
 
-    Ao analisarmos mais atentamente o mosaico **Quantidade Total de Defeitos por Mês, Ano**, vemos que o primeiro semestre de 2014 tinha um número semelhante de defeitos a 2013, mas no segundo semestre de 2014, o número de defeitos aumentou significativamente.  
+    Observe o mosaico **Total Defect Quantity by Month, Year** mais atentamente. Este permite ver que o primeiro semestre de 2014 teve um número semelhante de defeitos a 2013, mas que, no segundo semestre de 2014, o número de defeitos aumentou significativamente.  
 
-    ![](media/sample-supplier-quality/supplier14.png)  
+    ![Mosaico Total Defect Quantity by Month, Year](media/sample-supplier-quality/supplier14.png)  
 
     Vamos ver se este aumento na quantidade de defeitos conduziu a um aumento igual em minutos do tempo de inatividade.  
-2. Na caixa de pergunta, escreva "total de minutos de inatividade por mês e ano como um gráfico de linhas".  
+2. Na caixa de perguntas, escreva *total downtime minutes by month and year as a line chart* (total de minutos de inatividade por mês e ano como um gráfico de linhas).  
 
-   ![](media/sample-supplier-quality/supplier15.png)
+   ![Pergunta nas Perguntas e Respostas: Total downtime minutes by month and year as a line chart (total de minutos de inatividade por mês e ano como um gráfico de linhas)](media/sample-supplier-quality/supplier15.png)
 
-   Vemos um salto em minutos de inatividade durante junho e outubro, mas fora isso, o salto no número de defeitos não resulta em tempo de inatividade consideravelmente maior. Isto mostra que estamos a gerir bem os defeitos.  
-3. Para afixar este gráfico ao seu dashboard, selecione o ícone de pino ![](media/sample-supplier-quality/pin.png) à direita da caixa de pergunta.  
-4. Para explorar os meses de exceções, verifique os minutos de tempo de inatividade durante outubro por tipo de material, localização da fábrica, categoria, etc., ao fazer perguntas como "minutos de tempo de inatividade total em outubro pela fábrica".    
-5. Selecione a seta para voltar ![](media/sample-supplier-quality/backarrow.png) no canto superior esquerdo acima da caixa de pergunta para voltar ao dashboard.
-
-Este é um ambiente seguro para experimentar. Pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
+   Em vez de um salto nos minutos de inatividade durante junho e outubro, o número de defeitos não resultou num tempo de inatividade consideravelmente maior. Este resultado mostra que estamos a gerir bem os defeitos.  
+3. Para afixar este gráfico no seu dashboard, selecione o ícone de afixar ![Ícone de afixar](media/sample-supplier-quality/pin.png) por cima da caixa de perguntas.  
+4. Para explorar os meses de exceções, verifique os minutos de tempo de inatividade durante outubro por tipo de material, localização da fábrica, categoria e assim por diante ao fazer perguntas como *total downtime minutes in October by plant* (minutos de tempo de inatividade total em outubro pela fábrica). 
+5. Selecione **Sair das Perguntas e Respostas** no canto superior esquerdo para voltar ao dashboard.
 
 ## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
-Esperamos que este tour tenha mostrado como os dashboards, o P e R e os relatórios do Power BI podem apresentar informações sobre os dados de gastos na qualidade do fornecedor. Agora é a sua vez — ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Saiba mais sobre como [começar a utilizar o Power BI](service-get-started.md).
+Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
+
+Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).

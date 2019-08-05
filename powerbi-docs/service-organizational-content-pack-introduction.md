@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721190"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523442"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdos organizacionais no Power BI
 > [!NOTE]
@@ -54,20 +54,20 @@ O ciclo de vida é parecido com este:
    > 
    > 
 2. O João envia uma mensagem de e-mail ao grupo de distribuição, informando-o sobre o novo pacote de conteúdos.
-3. No Power BI Pro, Júlia, membro do grupo de distribuição Marketing, procura e liga a esse pacote de conteúdos no AppSource. Agora, ela uma cópia só de leitura.  Ela sabe que é só de leitura porque, no Painel de Navegação esquerdo, existe um ícone de partilha à esquerda do nome do dashboard e do nome do relatório. E quando ela seleciona o dashboard, um ícone de cadeado informa-a de que está a ver um dashboard do pacote de conteúdos. 
+3. No Power BI Pro, a Júlia, membro do grupo de distribuição Marketing, procura e liga a um pacote de conteúdos no AppSource. Agora, a Júlia tem uma cópia só de leitura. Ela sabe que é só de leitura porque, no Painel de Navegação esquerdo, existe um ícone de partilha à esquerda do nome do dashboard e do nome do relatório. E quando ela seleciona o dashboard, um ícone de cadeado informa-a de que está a ver um dashboard do pacote de conteúdos. 
 4. Suponhamos que ela decide personalizá-lo. Agora, ela tem a sua própria cópia do dashboard e dos relatórios. O trabalho dela não afeta a origem, o pacote de conteúdos original, nem os outros membros do grupo de distribuição. Agora está a trabalhar na sua própria cópia do dashboard e do relatório.
-5. A Nate faz atualizações ao dashboard e, quando está pronto, publica uma nova versão do pacote de conteúdos.
+5. O João faz atualizações ao dashboard e, quando está pronto, publica uma nova versão do pacote de conteúdos.
    
-   * O Júlio, outro membro do grupo de distribuição, não personalizou o pacote de conteúdos original. As novas alterações são aplicadas automaticamente à sua versão do pacote de conteúdos.  
-   * A Jane personalizou o pacote de conteúdos. Ela recebe uma notificação de que existe uma nova versão.  Ela pode aceder ao AppSource e obter o pacote de conteúdos atualizado sem perder a sua versão personalizada. Agora, ela terá duas versões: a sua versão personalizada e o pacote de conteúdos atualizado.
+   * O Júlio, outro membro do grupo de distribuição, não personalizou o pacote de conteúdos original. As novas alterações são aplicadas automaticamente à versão da Júlia do pacote de conteúdos.  
+   * A Jane personalizou o pacote de conteúdos. Ela recebe uma notificação de que existe uma nova versão.  Ela pode aceder ao AppSource e obter o pacote de conteúdos atualizado sem perder a sua versão personalizada. A Júlia tem agora as duas versões: a versão personalizada e o pacote de conteúdos atualizado.
 6. Suponhamos que a Nate altera as definições de segurança. O Julio e a Jane deixam de ter acesso ao conteúdo. Ou suponhamos que foram removidos do grupo de distribuição Marketing.
    
    * O Julio não personalizou o pacote de conteúdos original, pelo que o conteúdo é removido automaticamente. 
-   * A Jane personalizou o pacote de conteúdos. Da próxima vez que ela abrir o dashboard, todos os mosaicos do pacote de conteúdos original terão desaparecido, mas os mosaicos que afixou a partir de outros relatórios (que ainda tem permissão para utilizar) continuam a aparecer. Os relatórios e o conjunto de dados associados já não estão disponíveis (e não aparecem no painel de navegação à esquerda).
+   * A Jane personalizou o pacote de conteúdos. Da próxima vez que ela abrir o dashboard, todos os mosaicos do pacote de conteúdos original terão desaparecido, mas os mosaicos que afixou a partir de outros relatórios (que ainda tem permissão para utilizar) continuam a ser apresentados. Os relatórios e o conjunto de dados associados já não estão disponíveis (e não são apresentados no painel de navegação à esquerda).
 7. Ou então, a Nate elimina o pacote de conteúdos.
    
    * O Julio não personalizou o pacote de conteúdos original, pelo que o conteúdo é removido automaticamente. 
-   * A Jane personalizou o pacote de conteúdos. Da próxima vez que ela abrir o dashboard, todos os mosaicos do pacote de conteúdos original terão desaparecido, mas os mosaicos que afixou a partir de outros relatórios continuam a aparecer. Os relatórios e o conjunto de dados associados já não estão disponíveis (e não aparecem no painel de navegação à esquerda).
+   * A Jane personalizou o pacote de conteúdos. Da próxima vez que ela abrir o dashboard, todos os mosaicos do pacote de conteúdos original terão desaparecido, mas os mosaicos que afixou a partir de outros relatórios continuam a ser apresentados. Os relatórios e o conjunto de dados associados já não estão disponíveis (e não são apresentados no painel de navegação à esquerda).
 
 ## <a name="data-security"></a>Segurança de dados
 Todos os membros do grupo de distribuição têm as mesmas permissões para os dados que o criador do pacote de conteúdos. A única exceção são os conjuntos de dados de tabela no local do SQL Server Analysis Services (SSAS). Como os relatórios e dashboards estão a ligar em direto ao modelo SSAS no local, as credenciais de cada membro individual do grupo de distribuição são utilizadas para determinar os dados aos quais pode aceder.

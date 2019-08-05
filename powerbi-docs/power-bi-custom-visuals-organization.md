@@ -1,6 +1,6 @@
 ---
-title: Elementos visuais personalizados da organização no Power BI
-description: Utilizar, gerir e criar elementos visuais personalizados organizacionais no Power BI
+title: Elementos visuais da organização no Power BI
+description: Utilizar, gerir e criar elementos visuais organizacionais no Power BI
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421909"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415332"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Elementos visuais personalizados da organização no Power BI
+# <a name="organizational-visuals-in-power-bi"></a>Elementos visuais organizacionais no Power BI
 
 Pode utilizar elementos visuais personalizados no Power BI para criar um tipo de elemento visual único adaptado a si. Os elementos visuais personalizados são criados pelos programadores e são, muitas vezes, criados quando os diversos elementos visuais que estão incluídos no Power BI não satisfazem as necessidades daqueles.
 

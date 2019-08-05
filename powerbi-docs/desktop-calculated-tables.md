@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239484"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522217"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Utilizar as tabelas calculadas no Power BI Desktop
 Com tabelas calculadas, pode adicionar uma nova tabela ao modelo. Mas em vez de consultar e carregar valores nas colunas da sua nova tabela a partir de uma origem de dados, cria uma fórmula DAX (Data Analysis Expressions) que define os valores da tabela. No Power BI Desktop, as tabelas calculadas são criadas através da funcionalidade Nova Tabela na Vista de Relatório ou Vista de Dados.
@@ -39,7 +39,7 @@ O João, um gestor de projetos da Contoso, tem uma tabela com colaboradores no N
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Com uma tabela calculada, é muito fácil unir essas duas tabelas. Embora Jeff possa criar uma tabela calculada na Vista de Relatório ou Vista de Dados, é um pouco mais fácil fazê-lo na Vista de Dados porque assim pode ver de imediato a nova tabela calculada.
+Com uma tabela calculada, é muito fácil unir essas duas tabelas. Embora o Jeff possa criar uma tabela calculada na Vista de Relatório ou Vista de Dados, é um pouco mais fácil fazê-lo na Vista de Dados, porque assim pode ver de imediato a nova tabela calculada.
 
 Na **Vista de Dados**, no separador **Modelação**, o Jeff clica em **Nova Tabela**. Uma barra de fórmulas é exibida.
 
@@ -53,7 +53,7 @@ Jeff introduz então a seguinte fórmula:
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-A nova tabela Western Region Employees de Jeff aparece como qualquer outra tabela na lista de Campos. Ele pode criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar qualquer dos seus campos a relatórios, tal como com qualquer outra tabela.
+A nova tabela Western Region Employees de Jeff aparece como qualquer outra tabela na lista de Campos. O Jeff pode inclusivamente criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar qualquer dos seus campos a relatórios, tal como com qualquer outra tabela.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

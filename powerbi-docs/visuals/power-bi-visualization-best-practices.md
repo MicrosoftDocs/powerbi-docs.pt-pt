@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299735"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523731"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Melhores práticas de design para relatórios e elementos visuais
 
@@ -407,7 +407,7 @@ Mesmo se escolher o elemento visual mais eficaz de todos para a história, pode,
 
 A história que o elemento visual está a contar é apelativa? É importante? Não crie elementos visuais só porque sim. Se calhar, achava que os dados contavam uma história interessante, mas afinal não contam. Não tenha medo de começar do zero e de procurar uma história mais interessante. Talvez a história esteja lá, mas precisa de a avaliar de outra forma.
 
-Imagine que pretende avaliar o sucesso dos seus gestores de vendas. Que medida pode utilizar para o fazer? Seria mais eficaz analisar as vendas totais ou os lucros totais, o crescimento ao longo do último ano ou o desempenho em relação a um objetivo? A vendedora Sally pode ter os maiores lucros. Se mostrar os lucros totais por vendedor num gráfico de barras, ela arrasaria os outros vendedores. Se a Sally tiver despesas elevadas (despesas de viagens, custos de envio, custos de fabrico, etc.), olhar simplesmente para as vendas não contará a história da melhor forma.
+Imagine que pretende avaliar o sucesso dos seus gestores de vendas. Que medida pode utilizar para o fazer? Seria mais eficaz analisar as vendas totais ou os lucros totais, o crescimento ao longo do último ano ou o desempenho em relação a um objetivo? A vendedora Sally pode ter os maiores lucros. Se apresentasse os lucros totais por vendedor num gráfico de barras, ela arrasaria os outros vendedores. Se a Sally tiver despesas elevadas (despesas de viagens, custos de envio, custos de fabrico, etc.), olhar simplesmente para as vendas não contará a história da melhor forma.
 
 #### <a name="reflect-reality-dont-distort-reality"></a>Refletir a realidade versus não distorcer a realidade
 
@@ -1007,7 +1007,7 @@ Para obter mais informações sobre os treemaps:
 
 De um modo geral, os Gráficos de barras, de colunas e de linhas são adequados para a maioria das finalidades. É do conhecimento geral que os humanos têm dificuldade em interpretar corretamente os Gráficos circulares e de anel. Na verdade, estes podem distorcer muitas vezes os factos. Evite-os sempre que possível. Stephen Few descreve perfeitamente a história e os perigos em [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf) (Guardar as Tartes para a sobremesa).
 
-Stephen explica que estes gráficos só são úteis para comparar relações da parte com o todo. Este é raramente melhor do que um gráfico de Barras Empilhadas a 100%.
+O Stephen explica que estes gráficos só são úteis para comparar relações da parte com o todo. Este é raramente melhor do que um gráfico de Barras Empilhadas a 100%.
 
 Pode encontrar outro artigo divertido (e animação) sobre os Gráficos circulares no site [Darkhorse Analytics](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
 

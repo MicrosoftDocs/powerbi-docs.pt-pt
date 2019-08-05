@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751266"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590608"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
 O elemento visual de influenciadores principais ajuda a compreender os fatores que motivam uma métrica em que esteja interessado. Este analisa os seus dados, classifica os fatores que são importantes e apresenta-os como influenciadores principais. Por exemplo, imagine que pretende determinar o que influencia a rotatividade dos colaboradores. Alguns dos fatores podem ser a duração dos contratos de trabalho e a idade dos colaboradores. 
@@ -67,11 +67,11 @@ O seu Gestor de Produtos pretende que descubra quais são os fatores que levam o
 
 2. Mova a métrica que pretende investigar para o campo **Analisar**. O campo **Analisar** só suporta variáveis categóricas ou não contínuas. Para ver o que motiva um cliente a classificar a qualidade do serviço como baixa, selecione **Customer Table** (Tabela de Clientes)  > **Rating** (Classificação). 
 3. Mova os campos que acredita que podem influenciar a **Rating** (Classificação) para o campo **Explicar por**. Pode mover os campos que quiser. Neste caso, comece pelos campos:
-    - Country-Region (País/Região) 
-    - Role in Org (Função na Organização) 
-    - Subscription Type (Tipo de Subscrição) 
-    - Company Size (Tamanho da Empresa) 
-    - Theme (Tema) 
+    - País/Região 
+    - Função na Organização 
+    - Tipo de Subscrição 
+    - Tamanho da Empresa 
+    - Tema 
 1. Para se focar nas classificações negativas, selecione **Low** (Baixa) na caixa pendente **O que influencia Rating (Classificação) para que seja**.  
 
     ![Selecionar Low (Baixa) na caixa pendente](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
@@ -132,8 +132,13 @@ A visualização indica que sempre que a antiguidade sobe 13,44 meses, a probabi
  
 O gráfico de dispersão no painel direito indica a percentagem média de classificações baixas por cada valor de antiguidade. O declive é realçado com uma linha de tendência.
 
-
 ![Gráfico de tendência para Tenure (Antiguidade)](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>Influenciadores principais contínuos posicionados
+
+Em alguns casos, poderá reparar que os seus fatores contínuos foram automaticamente transformados em fatores categóricos. Isto ocorre porque nos apercebemos de que a relação entre variáveis não é linear, pelo que não podemos descrever a relação simplesmente como uma relação que está a aumentar ou a diminuir (como fizemos no exemplo acima).
+
+Executamos testes de correlação para determinar o grau de linearidade do influenciador em relação ao destino. Se o destino for contínuo, executamos a correlação de Pearson e, se o destino for categórico, executamos testes de correlação ponto-bisserial. Se detetarmos que a relação não é suficientemente linear, realizamos discretização supervisionada e geramos um máximo de 5 discretizações. Para descobrir que discretizações fazem mais sentido, utilizamos um método de discretização supervisionada que observa a relação entre o fator explicativo e o destino a ser analisado.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretar medidas e agregações como influenciadores principais 
  
@@ -146,7 +151,7 @@ Vejamos o número de IDs. Cada linha de cliente tem um número de pedidos de sup
 ![Influência do campo Support Ticket ID (ID de Pedido de Suporte)](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
 
 
-## <a name="interpret-the-results-top-segments"></a>Interpretar os resultados: segmentos superiores 
+## <a name="interpret-the-results-top-segments"></a>Interpretar os resultados: Segmentos superiores 
  
 Pode utilizar o separador **Principais influenciadores** para avaliar cada fator individualmente. Também pode utilizar o separador **Segmentos superiores** para ver como uma combinação de fatores afeta a métrica analisada. 
  
@@ -176,7 +181,7 @@ Em alternativa, poderíamos perguntar "O que influencia o Preço de uma Casa par
 
 ![Pergunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
-## <a name="interpret-the-results-key-influencers"></a>Interpretar os resultados: principais influenciadores 
+## <a name="interpret-the-results-key-influencers"></a>Interpretar os resultados: Principais influenciadores 
 
 Neste cenário, analisamos a pergunta "O que influencia o Preço de uma casa para que aumente?". Temos em consideração vários fatores explicativos que podem afetar o preço de uma casa, como o **YearBuilt** (ano de construção da casa), **KitchenQual** (qualidade da cozinha) e **YearRemodAdd** (ano de remodelação da casa). 
 
@@ -209,15 +214,14 @@ Os segmentos superiores de destinos numéricos mostram grupos em que os preços 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas 
  
-**Quais são as limitações de pré-visualização?** 
+**Quais são as limitações do elemento visual?** 
  
-O elemento visual de influenciadores principais está atualmente em pré-visualização pública e tem algumas limitações. As funcionalidades atualmente indisponíveis incluem: 
-- Análise de métricas que sejam agregações ou medidas.
-- Consumo do elemento visual no Power BI Embedded.
-- Consumo do elemento visual nas aplicações móveis do Power BI.
-- Suporte para RLS.
-- Suporte para DirectQuery.
-- Suporte para Ligações em Direto.
+O elemento visual dos influenciadores principais tem algumas limitações:
+
+- O Direct Query não é suportado
+- A ligação em direto com o Azure Analysis Services e o SQL Server Analysis Services não é suportada
+- A publicação na Web não é suportada
+- É necessário o .NET Framework 4.6 ou posterior
 
 ![Pergunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ Este erro é apresentado porque o dispositivo não está definido ao nível do c
 - Pode alterar o resumo de dispositivos a contabilizar. Por exemplo, utilize a contagem caso o número de dispositivos possa afetar a classificação atribuída por um cliente. 
 - Pode dinamizar a coluna de dispositivos para ver se a utilização do serviço num dispositivo específico tem influência sobre a classificação de um cliente.
  
-Neste exemplo, os dados foram dinamizados para criar novas colunas para browser, mobile (telemóvel) e tablet. Agora pode utilizar estes dispositivos específicos em **Explicar por**. Todos os dispositivos são influenciadores e a utilização de um browser tem o maior impacto na classificação dos clientes.
+Neste exemplo, os dados foram dinamizados para criar novas colunas para browser, telemóvel e tablet (certifique-se de que exclui e recria as suas relações na vista de modelação depois de dinamizar os seus dados). Agora pode utilizar estes dispositivos específicos em **Explicar por**. Todos os dispositivos são influenciadores e a utilização de um browser tem o maior impacto na classificação dos clientes.
 
 Mais precisamente, os clientes que não utilizam o browser para consumir o serviço apresentam uma probabilidade 3,79 vezes maior de atribuir uma classificação baixa do que os clientes que utilizam o browser. Mais abaixo na lista, ocorre o inverso para mobile (telemóvel). Os clientes que utilizam a aplicação móvel apresentam uma maior probabilidade de atribuir uma classificação baixa do que os clientes que não a utilizam. 
 
