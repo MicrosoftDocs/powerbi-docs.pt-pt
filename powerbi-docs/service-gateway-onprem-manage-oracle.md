@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271498"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730240"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerir a origem de dados – Oracle
 
@@ -73,7 +73,7 @@ Após selecionar o tipo de origem de dados Oracle, irá preencher as informaçõ
 Também é necessário selecionar um **Método de Autenticação**.  Pode ser **Windows** ou **Básico**.  É recomendado selecionar **Básico** se quiser utilizar uma conta criada no Oracle em vez da Autenticação do Windows. Em seguida, insira as credenciais que serão utilizadas para esta origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas com estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Todas as consultas à origem de dados serão executadas com estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preenchimento das definições de origem de dados](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 
@@ -106,7 +106,7 @@ Depois de publicar, a partir do Power BI Desktop ou de **Obter Dados**, os seus 
 
 ### <a name="using-the-data-source-with-scheduled-refresh"></a>Utilizar a origem de dados com a atualização agendada
 
-Se estiver listado no separador **Utilizadores** da origem de dados configurada no gateway e o nome do servidor e da base de dados corresponderem, irá ver o gateway como uma opção a utilizar com a atualização agendada.
+Se estiver listado no separador **Utilizadores** da origem de dados configurada no gateway e o nome do servidor e da base de dados corresponderem, verá o gateway como uma opção a utilizar com a atualização agendada.
 
 ![Apresentar os utilizadores](media/service-gateway-onprem-manage-oracle/powerbi-gateway-enterprise-schedule-refresh.png)
 

@@ -7,59 +7,59 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 07/17/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 61d7bf9f9794545e963ca19c8f983d6d6cfefa54
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150419"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624031"
 ---
-# <a name="intro-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
+# <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
 
-Um ***dashboard*** do Power BI é uma página única, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitado a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história. Os leitores podem ver relatórios relacionados para obter detalhes.
+Um *dashboard* do Power BI é uma página única, frequentemente denominada tela, que utiliza visualizações para contar uma história. Como está limitado a uma página, um dashboard bem concebido contém apenas os elementos mais importantes da história. Os leitores podem ver relatórios relacionados para obter detalhes.
 
-![dashboard](media/service-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
-Os dashboards são uma funcionalidade do serviço Power BI. Não estão disponíveis no Power BI Desktop. Não pode criar dashboards em dispositivos móveis, mas pode [ver e partilhá-los](mobile-apps-view-dashboard.md) lá.
+Os dashboards são uma funcionalidade apenas do serviço Power BI. Não estão disponíveis no Power BI Desktop. Embora não possa criar dashboards em dispositivos móveis, pode [ver e partilhá-los](mobile-apps-view-dashboard.md).
 
 ## <a name="dashboard-basics"></a>Conceitos básicos dos dashboard 
 
-As visualizações que vê no dashboard são denominadas *mosaicos*. Pode *afixar* os mosaicos num dashboard a partir de relatórios. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [conceitos básicos do Power BI](service-basic-concepts.md).
+As visualizações que vê no dashboard são denominadas *mosaicos*. Pode *afixar* os mosaicos num dashboard a partir de relatórios. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os designers do serviço Power BI](service-basic-concepts.md).
 
 > [!IMPORTANT]
 > É necessário uma licença [Power BI Pro](service-free-vs-pro.md) para criar dashboards.
 
 As visualizações num dashboard são provenientes de relatórios e cada relatório baseia-se num conjunto de dados. Uma forma de pensar num dashboard é pensar numa entrada para os relatórios e conjuntos de dados subjacentes. Selecionar uma visualização leva-o ao relatório (e ao conjunto de dados) em que se baseia.
 
-![diagrama a mostrar as relações entre dashboards, relatórios, conjuntos de dados](media/service-dashboards/power-bi-diagram.png)
+![Diagrama a mostrar as relações entre dashboards, relatórios, conjuntos de dados](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Vantagens dos dashboards
-Os dashboards são uma forma fantástica de monitorizar a sua empresa e ver rapidamente todas as métricas mais importantes. As visualizações num dashboard podem ser provenientes de um ou vários conjuntos de dados subjacentes ou de um ou vários relatórios subjacentes. Um dashboard combina dados no local e na cloud ao fornecer uma vista consolidada, independentemente de onde os dados residem.
+Os dashboards são uma forma fantástica de monitorizar a sua empresa e ver rapidamente todas as métricas mais importantes. As visualizações num dashboard podem ser provenientes de um ou vários conjuntos de dados subjacentes, ou de um ou vários relatórios subjacentes. Um dashboard combina dados no local e na cloud ao fornecer uma vista consolidada, independentemente de onde os dados residem.
 
 Um dashboard não é apenas uma imagem bonita. É também altamente interativa e os mosaicos são atualizados à medida que os dados subjacentes são alterados.
 
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
-Os [Relatórios](service-reports.md) e os dashboards parecem semelhantes porque ambos são telas preenchidas com visualizações. No entanto, existem diferenças importantes.
+Os [Relatórios](service-reports.md) e os dashboards parecem semelhantes porque ambos são telas preenchidas com visualizações. No entanto, há grandes diferenças, tal como pode ver na tabela abaixo.
 
 | **Capacidade** | **Dashboards** | **Relatórios** |
 | --- | --- | --- |
 | Páginas |Uma página |Uma ou mais páginas |
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
-| Disponível no Power BI Desktop |Não | Podem criar e ver relatórios no Power BI Desktop |
-| Subscrever |Pode subscrever um dashboard |Pode subscrever páginas de relatório |
-| Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
-| Destaques |Pode definir um dashboard como o seu dashboard "em destaque" |Não pode criar um relatório em destaque |
-| Favorito | Pode definir dashboards como *favoritos* | Pode definir relatórios como *favoritos*
-| Definir alertas |Disponível para mosaicos de dashboards em determinadas circunstâncias |Não disponível nos relatórios |
-| Consultas de linguagem natural (Perguntas e Respostas) |Disponível nos dashboards | Disponível nos relatórios |
-| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados mas não pode ver tabelas e campos no próprio dashboard. |Sim. Pode ver tabelas, campos e valores de conjuntos de dados. |
+| Disponível no Power BI Desktop |Não | Yes. Podem criar e ver relatórios no Power BI Desktop |
+| Subscrever |Yes. Pode subscrever um dashboard |Yes. Pode subscrever uma página de relatório |
+| Filtragem |Não. Não pode filtrar nem segmentar |Yes. Várias formas diferentes de filtrar, realçar e segmentar |
+| Destaques |Yes. Pode definir um dashboard como o seu dashboard *em destaque* |Não |
+| Favorito | Yes. Pode definir múltiplos dashboards como *favoritos* | Yes. Pode definir múltiplos relatórios como *favoritos*
+| Definir alertas |Yes. Disponível para mosaicos de dashboards em determinadas circunstâncias |Não |
+| Consultas de linguagem natural (Perguntas e Respostas) |Sim | Sim, desde que tenha permissões de edição para o relatório e o conjunto de dados subjacente |
+| Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver tabelas e campos no próprio dashboard |Sim |
 
 
 ## <a name="next-steps"></a>Próximos passos
 * Conheça melhor os dashboards ao ver uma apresentação de um dos nossos [dashboards de exemplo](sample-tutorial-connect-to-the-samples.md).
 * Saiba mais sobre os [mosaicos de dashboards](service-dashboard-tiles.md).
-* Quer controlar um mosaico do dashboard individual e receber um e-mail quando atingir um determinado limiar? [Crie alertas nos mosaicos](service-set-data-alerts.md).
+* Quer controlar um mosaico do dashboard individual e receber um e-mail quando atingir um determinado limiar? [Criar um alerta num mosaico](service-set-data-alerts.md).
 * Saiba como utilizar as [Perguntas e Respostas do Power BI](power-bi-tutorial-q-and-a.md) para fazer uma pergunta sobre os dados e receber uma resposta na forma de uma visualização.

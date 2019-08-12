@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840309"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624142"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Report Builder do Power BI
 As expressões são utilizadas com frequência nos relatórios paginados do Paginated Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios. As expressões são escritas no Microsoft Visual Basic e pode utilizar funções incorporadas, código personalizado, variáveis de grupos e relatórios e variáveis definidas pelo utilizador. As expressões começam com um sinal de igual (=).   
@@ -40,7 +40,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
 ##  <a name="VisualBasicFunctions"></a> Funções do Visual Basic  
  Pode utilizar funções do Visual Basic para manipular os dados que são apresentados nas caixas de texto ou que são utilizados em parâmetros, propriedades ou outras áreas do relatório. Esta secção mostra exemplos que demonstram algumas dessas funções. Para obter mais informações, veja [Visual Basic Runtime Library Members (Membros da Biblioteca de Runtime do Visual Basic)](https://go.microsoft.com/fwlink/?LinkId=198941) no MSDN.  
   
- O .NET Framework fornece muitas opções de formatação personalizada, por exemplo, formatos de data específicos. Para obter mais informações, veja [Formatting Types](https://go.microsoft.com/fwlink/?LinkId=112024) (Tipos de Formatação) no MSDN.  
+ O .NET Framework fornece muitas opções de formatação personalizada, por exemplo, formatos de data específicos. Para obter mais informações, veja [Formatting Types](/dotnet/standard/base-types/formatting-types) (Tipos de Formatação).  
   
 ### <a name="math-functions"></a>Funções matemáticas  
   

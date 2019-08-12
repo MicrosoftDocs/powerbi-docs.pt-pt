@@ -8,65 +8,63 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a8acb5ab382c541b330d3448da8187238c42a3f5
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720285"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624092"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Afixar um mosaico a um dashboard do Power BI a partir de um relatório
-## <a name="pinning-tiles-from-a-report"></a>Afixar mosaicos a partir de um relatório
-Uma maneira de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md) é a partir de um [relatório do Power BI](consumer/end-user-reports.md). Na verdade, pode adicionar vários novos mosaicos a partir de um relatório.  Quando clica em cada um desses mosaicos, é direcionado de volta para o relatório.
 
-Pode adicionar páginas de relatório inteiras a um dashboard.  Esta ação também é conhecida como afixação de um mosaico *dinâmico*.  É *dinâmico* porque pode interagir com o mosaico no dashboard e porque, ao contrário dos mosaicos de visualização individual, as alterações feitas no relatório são sincronizadas com o dashboard. Leia mais sobre isto a seguir.
+Uma forma de adicionar um [mosaico de dashboard](consumer/end-user-tiles.md) é a partir de um [relatório do Power BI](consumer/end-user-reports.md). Quando seleciona um destes mosaicos, o mesmo é aberto no relatório.
+
+É possível afixar uma página de relatório inteira num dashboard, que se designa por afixar um mosaico *dinâmico*. É denominado mosaico dinâmico porque é possível interagir com o mosaico no dashboard. Ao contrário dos mosaicos de visualização individual, as alterações feitas no relatório são sincronizadas automaticamente com o dashboard. Para obter mais informações, veja [Afixar uma página de relatório inteira](#pin-an-entire-report-page).
 
 Não é possível afixar mosaicos de relatórios que tenham sido partilhados consigo ou do Power BI Desktop. 
 
-> **SUGESTÃO**: algumas visualizações utilizam imagens de fundo. A afixação poderá não funcionar se a imagem de fundo for demasiado grande.  Tente reduzir o tamanho da imagem ou utilizar a compressão de imagem.  
+> [!TIP]
+> Como algumas visualizações utilizam imagens de fundo, poderá não ser possível afixar se a imagem de fundo for muito grande. Tente reduzir o tamanho da imagem ou utilizar a compressão de imagem.  
 > 
 > 
 
 ## <a name="pin-a-tile-from-a-report"></a>Afixar um mosaico a partir de um relatório
 Veja a Amanda criar um dashboard ao afixar elementos visuais e imagens a partir de um relatório do Power BI.
+    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
-Agora, crie o seu próprio dashboard utilizando um dos relatórios de exemplo do Power BI.
+Agora, crie o seu próprio dashboard através de um dos relatórios de exemplo do Power BI.
 
-1. Paire o rato sobre a visualização que quer afixar e selecione o ícone de afixar ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). O Power BI abre o ecrã **Afixar no dashboard**.
+1. No relatório, paire o cursor sobre a visualização que pretende afixar e selecione o ícone de afixar. ![Ícone de afixar](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png). O Power BI abre o ecrã **Afixar no dashboard**.
    
      ![Janela Afixar no dashboard](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
-2. Decida se quer fixar a um dashboard existente ou a um novo.
+2. Selecione se quer afixar num dashboard existente ou num novo.
    
-   * Dashboard existente: selecione o nome do dashboard na lista pendente. Os dashboard que foram partilhados consigo não aparecerão na lista pendente.
-   * Novo dashboard: escreva o nome do novo dashboard.
-3. Em alguns casos, o item afixado pode ter um *tema* já aplicado.  Por exemplo, os elementos visuais afixados a partir de um livro do Excel. Nesse caso, selecione o tema a aplicar ao mosaico.
+   * **Dashboard existente**: selecione o nome do dashboard a partir da lista pendente. Os dashboards partilhados consigo não serão apresentados na lista pendente.
+   * **Novo dashboard**: escreva o nome do novo dashboard.
+3. Em alguns casos, o item que está a afixar poderá ter um *tema* já aplicado. Por exemplo, os elementos visuais afixados a partir de um livro do Excel. Nesse caso, selecione o tema a aplicar ao mosaico.
 4. Selecione **Afixar**.
    
-   Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
+   Uma mensagem de êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
    
-   ![mensagem de êxito](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. No painel de navegação, selecione o dashboard com o novo mosaico. Selecione o mosaico para voltar ao relatório. Ou, [edite a apresentação e o comportamento do mosaico](service-dashboard-edit-tile.md).
+   ![Mensagem de êxito](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+5. No painel de navegação, selecione o dashboard com o novo mosaico. [Edite a apresentação e o comportamento do mosaico](service-dashboard-edit-tile.md) ou selecione o mosaico para regressar ao relatório.
 
 ## <a name="pin-an-entire-report-page"></a>Afixar uma página de relatório inteira
-Outra opção é afixar uma página de relatório inteira a um dashboard. Esta é uma forma fácil de afixar mais de uma visualização de cada vez.  Além disso, quando afixa uma página inteira, os mosaicos são *dinâmicos*; pode interagir com eles diretamente no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos utilizados no gráfico, também são refletidas no mosaico do dashboard.  
+Também é possível afixar uma página de relatório inteira num dashboard, o que torna mais fácil afixar mais de uma visualização de cada vez. Quando afixa uma página inteira, os mosaicos são *dinâmicos*. Isto significa que pode interagir com os mesmos no dashboard. As alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos utilizados no gráfico, também são refletidas no mosaico do dashboard.  
 
-Para obter mais informações, veja [Afixar uma página de relatório inteira](service-dashboard-pin-live-tile-from-report.md)
+Para obter mais informações, veja [Afixar uma página de relatório inteira](service-dashboard-pin-live-tile-from-report.md).
 
 ## <a name="next-steps"></a>Próximos passos
-[Dashboards no Power BI](consumer/end-user-dashboards.md)
-
-[Mosaicos de dashboard no Power BI](consumer/end-user-tiles.md)
-
-[Relatórios no Power BI](consumer/end-user-reports.md)
-
-[Atualização de dados no Power BI](refresh-data.md)
-
-[Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
+- [Dashboards para consumidores do serviço Power BI](consumer/end-user-dashboards.md)
+- [Mosaicos do dashboard no Power BI](consumer/end-user-tiles.md)
+- [Relatórios no Power BI](consumer/end-user-reports.md)
+- [Atualização de dados no Power BI](refresh-data.md)
+- [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269942"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623806"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 
@@ -22,7 +22,7 @@ Saiba como pode publicar o seu visual personalizado no AppSource para que outros
 
 Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Tem de fazer alguns preparativos para o poder fazer. Para obter mais informações sobre como criar um elemento visual personalizado, veja Desenvolver um [Elemento Visual Personalizado do Power BI](custom-visual-develop-tutorial.md).
 
-   ![Loja do Office](media/office-store/AppSource_01.jpg)
+   ![Loja do Office](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>O que é o AppSource?
 
@@ -30,7 +30,7 @@ O **AppSource** é o local onde pode encontrar aplicações SaaS e suplementos p
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparar a submissão do seu elemento visual personalizado
 
-Depois de concluir a ler nosso [diretrizes de elementos visuais do Power BI](guidelines-powerbi-visuals.md), codificação e [teste o seu elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e ter compactado num ficheiro pbiviz, também deverá ter os seguintes itens prontos para a sua submissão.
+Depois de concluir a leitura das nossas [diretrizes sobre elementos visuais do Power BI](guidelines-powerbi-visuals.md), de codificar e [testar o seu elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e de o ter compactado num ficheiro pbiviz, também deverá ter os seguintes itens prontos para serem submetidos.
 
 | Item | Necessário | Descrição |
 | --- | --- | --- |

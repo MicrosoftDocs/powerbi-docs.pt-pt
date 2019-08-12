@@ -1,6 +1,6 @@
 ---
 title: Análise incorporada para incorporar conteúdo do Power BI na aplicação para a sua organização
-description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
+description: Saiba como integrar ou incorporar um relatório (do Power BI ou Paginado), dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61355520"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665539"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
-No **Power BI**, pode incorporar relatórios, dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem ao Utilizador. O esquema **User Owns Data** (Dados Pertencem ao Utilizador) permite que a sua aplicação expanda o serviço Power BI para que possa utilizar a análise incorporada. Este tutorial demonstra como integrar um relatório numa aplicação. Utilize o SDK de .NET do Power BI com a API JavaScript do Power BI para incorporar o Power BI numa aplicação para a sua organização.
+No **Power BI**, pode incorporar relatórios (do Power BI ou Paginados), dashboards ou mosaicos numa aplicação através do esquema Dados Pertencem ao Utilizador. O esquema **User Owns Data** (Dados Pertencem ao Utilizador) permite que a sua aplicação expanda o serviço Power BI para que possa utilizar a análise incorporada. Este tutorial demonstra como integrar um relatório (do Power BI ou Paginado) numa aplicação. Utilize o SDK de .NET do Power BI com a API JavaScript do Power BI para incorporar o Power BI numa aplicação para a sua organização.
 
 ![Power BI Embed Report](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 Neste tutorial, irá aprender as seguintes tarefas:
 > [!div class="checklist"]
 > * Registe uma aplicação no Azure.
-> * Incorporar um relatório do Power BI numa aplicação com o seu inquilino do Power BI.
+> * Incorporar um relatório do Power BI ou um relatório Paginado numa aplicação com o seu inquilino do Power BI.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -35,6 +35,7 @@ Para começar, precisa de:
 * Uma [conta do Power BI Pro](../service-self-service-signup-for-power-bi.md).
 * Uma [subscrição do Microsoft Azure](https://azure.microsoft.com/).
 * Tem de ter a sua própria configuração de [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md).
+* Para incorporar relatórios paginados, tem de dispor de uma capacidade mínima de A4/P1. Veja [Preciso de que tamanho de capacidade Premium para os relatórios paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 
@@ -44,9 +45,9 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente permite a incorporação com o Power BI.
 
-Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório.
+Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir uma capacidade mínima de A4/P1 para a área de trabalho da aplicação criada.
 
-No entanto, se optar por configurar o ambiente manualmente, pode continuar abaixo.
+Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Registar uma aplicação no Azure Active Directory
 
@@ -60,7 +61,7 @@ Tem de continuar com o registo de uma **aplicação Web do lado do servidor**. R
 
 Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, coloque o conteúdo dentro de uma área de trabalho de aplicação. Existem diferentes tipos de áreas de trabalho que pode configurar: [áreas de trabalho tradicionais](../service-create-workspaces.md) ou as [novas áreas de trabalho](../service-create-the-new-workspaces.md).
 
-### <a name="create-and-publish-your-reports"></a>Criar e publicar os seus relatórios
+### <a name="create-and-publish-your-power-bi-reports"></a>Criar e publicar relatórios do Power BI
 
 Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em seguida, pode publicar esses relatórios numa área de trabalho da aplicação. O utilizador final que publica os relatórios tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
 
@@ -79,7 +80,11 @@ Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em s
     Agora pode ver o relatório no serviço Power BI online.
 
    ![Visualizar um relatório do Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>Criar e publicar relatórios paginados
 
+Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho da aplicação atribuída a uma capacidade mínima de A4/P1. O utilizador final que carregar o relatório precisa de ter uma licença do Power BI Pro para publicar numa área de trabalho de aplicação.
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporar os seus conteúdos com a aplicação de exemplo
 
 Este exemplo foi simplificado de forma deliberada para fins de demonstração.
@@ -124,30 +129,6 @@ Para obter o **applicationId**, siga estes passos:
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>Segredo da aplicação
-
-Este atributo só é necessário para o AuthenticationType [principal de serviço](embed-service-principal.md).
-
-Preencha as informações de **ApplicationSecret** na secção **Chaves** da sua secção **Registos das aplicações** no **Azure**.  Este atributo funciona ao utilizar o [principal de serviço](embed-service-principal.md).
-
-Para obter o **ApplicationSecret**, siga estes passos:
-
-1. Inicie sessão no [portal do Azure](https://portal.azure.com).
-
-2. No painel de navegação à esquerda, selecione **Todos os serviços** e, em seguida, **Registos de aplicações**.
-
-3. Selecione a aplicação que precisa de utilizar o **ApplicationSecret**.
-
-    ![Escolher uma aplicação](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. Selecione **certificados e segredos** sob **gerir**.
-
-5. Selecione **novo segredo do cliente**.
-
-6. Introduza um nome na caixa **Descrição** e selecione uma duração. Em seguida, selecione **Guardar** para obter o **Valor** para a sua aplicação. Quando fecha o painel **Chaves** depois de guardar o valor da chave, o campo do valor é apresentado apenas como oculto. Nesse momento, não é possível obter o valor da chave. Se perder o valor da chave, crie um novo no portal do Azure.
-
-    ![Valor da chave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>ID da área de trabalho
 
 Preencha as informações do **workspaceId** com o GUID da área de trabalho de aplicação (grupo) do Power BI. Pode obter estas informações a partir do URL (quando tiver sessão iniciada no serviço Power BI) ou através do PowerShell.
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 Preencha as informações do **reportId** com o GUID de relatório do Power BI. Pode obter estas informações a partir do URL (quando tiver sessão iniciada no serviço Power BI) ou através do PowerShell.
 
-URL <br>
+URL do Relatório do Power BI <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![reportId do PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+URL do Relatório Paginado <br>
+
+
+
+URL do Relatório Paginado<br>
+
+![reportId paginado](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 PowerShell <br>
 
@@ -214,7 +203,7 @@ Na sua aplicação, terá de obter um token de acesso do Azure AD antes de poder
 
 ### <a name="get-a-report"></a>Obter um relatório
 
-Para obter um relatório do [Power BI](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), utilize a operação Obter Relatórios, que obtém uma lista dos relatórios do Power BI. Da lista de relatórios, pode obter um ID de relatório.
+Para obter um relatório do Power BI ou um relatório paginado, utilize a operação [Obter Relatórios](https://docs.microsoft.com/rest/api/power-bi/reports/getreports), que obtém uma lista de relatórios do Power BI e relatórios paginados. Da lista de relatórios, pode obter um ID de relatório.
 
 ### <a name="get-reports-by-using-an-access-token"></a>Obter relatórios com um token de acesso
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ Agora que concluiu o desenvolvimento da sua aplicação, está na altura de atri
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
+Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. A sua área de trabalho da aplicação precisa de uma capacidade mínima de A4/P1 para suportar relatórios paginados. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
 
 A tabela seguinte lista as SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -435,7 +425,7 @@ Os administradores globais ou os administradores de serviço Power BI podem perm
 
 ## <a name="next-steps"></a>Próximos passos
 
-Neste tutorial, aprendeu a incorporar conteúdos do Power BI numa aplicação com a sua conta de organização do Power BI. Agora pode tentar incorporar conteúdos do Power BI numa aplicação ao utilizar outras aplicações. Também pode tentar incorporar conteúdos do Power BI para os seus clientes:
+Neste tutorial, aprendeu a incorporar conteúdos do Power BI numa aplicação com a sua conta de organização do Power BI. Agora pode tentar incorporar conteúdos do Power BI numa aplicação ao utilizar outras aplicações. Também pode tentar incorporar conteúdos do Power BI para os seus clientes (ainda não é suportada a incorporação de relatórios paginados):
 
 > [!div class="nextstepaction"]
 > [Incorporar a partir de aplicações](embed-from-apps.md)

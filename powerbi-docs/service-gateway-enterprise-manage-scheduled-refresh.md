@@ -1,5 +1,5 @@
 ---
-title: Gerir a origem de dados – Atualização Importada/Agendada
+title: Gerir a origem de dados – Atualização importada/agendada
 description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway. Este artigo é específico para origens de dados que podem ser utilizadas com a atualização importada/agendada.
 author: mgblythe
 manager: kfile
@@ -10,54 +10,54 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a3cdc3e6c4fc4f18613994a919f8ab733df5e14
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271679"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757668"
 ---
-# <a name="manage-your-data-source---importscheduled-refresh"></a>Gerir a origem de dados – Atualização Importada/Agendada
+# <a name="manage-your-data-source---importscheduled-refresh"></a>Gerir a origem de dados – Atualização importada/agendada
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Depois de [instalar o gateway de dados no local](/data-integration/gateway/service-gateway-install), terá de [adicionar as origens de dados](service-gateway-data-sources.md#add-a-data-source) que podem ser utilizadas com o gateway. Este artigo analisa como trabalhar com gateways e origens de dados utilizadas para atualização agendada em vez do DirectQuery ou de ligações dinâmicas.
+Depois de [instalar o gateway de dados no local](/data-integration/gateway/service-gateway-install), tem de [adicionar origens de dados](service-gateway-data-sources.md#add-a-data-source) que podem ser utilizadas com o gateway. Este artigo analisa como trabalhar com gateways e origens de dados utilizadas para atualização agendada em vez do DirectQuery ou de ligações dinâmicas.
 
 ## <a name="add-a-data-source"></a>Adicionar uma origem de dados
 
-Para obter informações sobre como adicionar uma origem de dados, veja [Adicionar uma origem de dados](service-gateway-data-sources.md#add-a-data-source).
+Para obter mais informações sobre como adicionar uma origem de dados, veja [Adicionar uma origem de dados](service-gateway-data-sources.md#add-a-data-source). Selecione um tipo de origem de dados.
 
-Todos os tipos de origens de dados relacionadas podem ser utilizadas para a atualização agendada com o gateway de dados no local. O Analysis Services, o SQL Server e o SAP HANA podem ser utilizados para atualização agendada ou DirectQuery/ligações dinâmicas.
+Todos os tipos de origens de dados relacionadas podem ser utilizadas para a atualização agendada com o gateway de dados no local. O Analysis Services, o SQL Server e o SAP HANA podem ser utilizados para a atualização agendada ou o DirectQuery/ligações em direto.
 
 ![Selecionar a origem de dados](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings2.png)
 
-Em seguida, é necessário preencher as informações sobre a origem de dados, que incluem as informações de origem e as credenciais utilizadas para aceder à origem de dados.
+Em seguida, preencha as informações sobre a origem de dados, que incluem as informações de origem e as credenciais utilizadas para aceder à origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas com estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Todas as consultas à origem de dados irão ser executadas ao utilizar estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preenchimento das definições de origem de dados](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 
 Para obter uma lista dos tipos de origens de dados que podem ser utilizados com as atualizações agendadas, veja [Lista de tipos de origens de dados disponíveis](service-gateway-data-sources.md#list-of-available-data-source-types).
 
-Selecione **Adicionar** depois de preencher tudo. Pode agora utilizar esta origem de dados para atualização agendada com os seus dados no local. Verá *Ligação Estabelecida com Êxito* se tiver êxito.
+Depois de preencher todos os campos, selecione **Adicionar.** Pode agora utilizar esta origem de dados para atualização agendada com os seus dados no local. Verá *Ligação Estabelecida com Êxito* se tiver êxito.
 
 ![Apresentar o estado da ligação](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
 ### <a name="advanced-settings"></a>Definições avançadas
 
-Opcionalmente, pode configurar o nível de privacidade da sua origem de dados. Isto controla a forma como os dados podem ser combinados. É utilizado apenas para atualização agendada. Para saber mais sobre os níveis de privacidade da sua origem de dados, veja [Níveis de privacidade (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
+Opcionalmente, pode configurar o nível de privacidade da sua origem de dados. Esta definição controla a forma como os dados podem ser combinados. É utilizada apenas para a atualização agendada. Para saber mais sobre os níveis de privacidade da sua origem de dados, veja [Níveis de privacidade (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
 ![Definir o nível de privacidade](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings9.png)
 
-## <a name="using-the-data-source-for-scheduled-refresh"></a>Utilizar a origem de dados para a atualização agendada
+## <a name="use-the-data-source-for-scheduled-refresh"></a>Utilizar a origem de dados para a atualização agendada
 
-Depois de criar a origem de dados, esta ficará disponível para utilização com qualquer uma das ligações do DirectQuery ou através da atualização agendada.
+Depois de criar a origem de dados, esta fica disponível para utilização com as ligações do DirectQuery ou através da atualização agendada.
 
 > [!NOTE]
-> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados do gateway de dados no local.
+> Os nomes do servidor e da base de dados têm de corresponder entre o Power BI Desktop e a origem de dados no gateway de dados no local.
 
-A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes têm de corresponder. Por exemplo, se fornecer um Endereço IP ao nome do servidor no Power BI Desktop, terá de utilizar o Endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA*, no Power BI Desktop, terá de utilizar o mesmo na origem de dados configurada para o gateway.
+A ligação entre o conjunto de dados e a origem de dados no gateway é baseada no nome do servidor e no nome da base de dados. Estes nomes têm de corresponder. Por exemplo, se fornecer um endereço IP ao nome do servidor, no Power BI Desktop, terá de utilizar o endereço IP para a origem de dados na configuração do gateway. Se utilizar *SERVIDOR\INSTÂNCIA* no Power BI Desktop, também terá de o utilizar na origem de dados configurada para o gateway.
 
 Se estiver listado no separador **Utilizadores** da origem de dados configurada no gateway e o nome do servidor e da base de dados corresponderem, verá o gateway como uma opção a utilizar com a atualização agendada.
 
@@ -68,11 +68,11 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 
 ## <a name="limitations"></a>Limitações
 
-O OAuth não é um esquema de autenticação suportado com o gateway de dados no local. Não é possível adicionar origens de dados que necessitam o OAuth. Se o conjunto de dados tiver uma origem de dados que necessita de OAuth, não poderá utilizar o gateway para a atualização agendada.
+O OAuth não é um esquema de autenticação suportado com o gateway de dados no local. Não é possível adicionar origens de dados que exigem o OAuth. Se o conjunto de dados tiver uma origem de dados que exige o OAuth, não poderá utilizar o gateway para a atualização agendada.
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).

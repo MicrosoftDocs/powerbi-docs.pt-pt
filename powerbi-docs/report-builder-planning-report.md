@@ -1,22 +1,23 @@
 ---
 title: Planear um relatório no Report Builder do Power BI
 description: O Paginated Report Builder do Power BI permite-lhe criar vários tipos de relatórios paginados. Para criar um relatório útil e fácil de compreender, recomendamos que faça um plano primeiro.
-ms.date: 06/06/2019
+ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: fd4a318d7a61f6f2298de6b9d5d23ad2ae063d28
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840516"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623864"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planear um relatório no Report Builder do Power BI
-  O Paginated Report Builder do Power BI permite-lhe criar vários tipos de relatórios paginados. Por exemplo, pode criar relatórios que apresentem dados de vendas detalhados ou resumidos, tendências de marketing e vendas, relatórios operacionais ou dashboards. Também pode criar relatórios que tirem partido de texto formatado, por exemplo, para ordens de venda, catálogos de produtos ou cartas de formulário. Todos estes relatórios são criados através de diferentes combinações dos mesmos componentes principais básicos do Report Builder. Para criar um relatório útil e fácil de compreender, recomendamos que faça um plano primeiro. Eis algumas questões que deve considerar antes de começar:  
+
+O Paginated Report Builder do Power BI permite-lhe criar vários tipos de relatórios paginados. Por exemplo, pode criar relatórios que apresentem dados de vendas detalhados ou resumidos, tendências de marketing e vendas, relatórios operacionais ou dashboards. Também pode criar relatórios que tirem partido de texto formatado, por exemplo, para ordens de venda, catálogos de produtos ou cartas de formulário. Todos estes relatórios são criados através de diferentes combinações dos mesmos componentes principais básicos do Report Builder. Para criar um relatório útil e fácil de compreender, recomendamos que faça um plano primeiro. Eis algumas questões que deve considerar antes de começar:  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>Pretende que o relatório seja apresentado em que formato?
   
@@ -36,7 +37,7 @@ Poderá querer restringir o âmbito do relatório para localizações, utilizado
   
 ## <a name="do-you-need-to-create-calculations"></a>Precisa de criar cálculos? 
   
-     Sometimes, your data source and datasets do not contain the exact fields that you need for your report. In that situation, you might have to create your own calculated fields. For example, you might want to multiply the price per unit times the quantity to get a line item sales amount. Expressions are also used to provide conditional formatting and other advanced features. For more information, see [Expressions in Power BI Report Builder](report-builder-expressions.md).  
+Por vezes, a origem de dados e os conjuntos de dados não contêm os campos exatos que precisa para o relatório. Nesse caso, talvez seja necessário criar os seus próprios campos calculados. Por exemplo, poderá querer multiplicar o preço por unidade vezes a quantidade para obter um montante de vendas do item de linha. As expressões também são utilizadas para fornecer formatação condicional e outras funcionalidades avançadas. Para obter mais informações, veja [Expressões no Report Builder do Power BI](report-builder-expressions.md).  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>Quer ocultar itens de relatório inicialmente?
   
@@ -44,7 +45,7 @@ Considere se quer ocultar itens de relatório, incluindo colunas, grupos e regi�
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>Como vai entregar o seu relatório?  
   
-     You can save your report to your local computer and continue to work on it, or run it locally for your own information. However, to share your report with others, you need to save the report to Power BI. Saving it to Power BI lets others run it whenever they want to. Alternatively, you can set up a subscription and e-mail delivery of the report to other individuals. You can have the report delivered in a specific export format if you prefer. 
+Pode guardar o relatório no computador local e continuar a trabalhar no mesmo ou abri-lo localmente para efeitos de consulta. No entanto, para partilhar o seu relatório com outras pessoas, precisa de guardá-lo no Power BI. Ao guardá-lo no Power BI, permite que outras pessoas o utilizem sempre que quiserem. Em alternativa, pode configurar uma subscrição e a entrega de e-mail do relatório para outros utilizadores individuais. Se preferir, o relatório pode ser entregue num formato de exportação específico à sua escolha. 
   
 ## <a name="next-steps"></a>Próximos passos
 

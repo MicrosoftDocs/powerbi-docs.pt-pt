@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751125"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729799"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -45,6 +45,10 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
             - Adição de uma ligação para retroceder mais facilmente na Janela de seleção do PBIRS
             - Correção do modo Alto Contraste no PBIRS para apresentar o botão Anterior e mostrar mensagens visuais de aviso.
             - Correções da IU do painel Seleção, dimensionamento da tela.
+
+    - *Versão: 2.69.5467.5201 (maio de 2019). Lançamento: 30 de julho de 2019*
+        - Correções de erros
+            - Correção do registo de telemetria incorreto
 
 ## <a name="january-2019"></a>Janeiro de 2019
 
@@ -93,8 +97,11 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
         - O atalho e os ícones afixados permanecem depois de desinstalar o Power BI Report Server
         - Correção da afixação do Power BI Report Server apresentar texto preto num ícone preto no menu Iniciar
 
-    - *Versão: 2.65.5313.1421 (janeiro de 2019), Lançamento: 22 de janeiro de 2019*
-        - Contém as alterações necessárias para a ligação ao Power BI Report Server (janeiro de 2019)  
+    - *Versão: 2.65.5313.1421 (janeiro de 2019), Lançamento: 22 de janeiro de 2019* (nova compilação e nova versão)
+        - Contém as alterações necessárias para a ligação ao Power BI Report Server (janeiro de 2019) 
+    - *Versão: 2.65.5313.5141 (janeiro de 2019). Lançamento: 31 de julho de 2019* (nova compilação e nova versão)
+        - Correções de erros
+            - Correção do registo de telemetria incorreto
 
 ## <a name="august-2018"></a>Agosto de 2018
 

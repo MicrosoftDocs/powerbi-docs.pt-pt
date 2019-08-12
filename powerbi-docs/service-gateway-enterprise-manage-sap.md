@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b61d794701d18fd25ab9acb5d5208ae289376eb6
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: a09388e8b22131c9b82771385b69142b18e3cc84
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271761"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730008"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Gerir a sua origem de dados – SAP HANA
 
@@ -32,7 +32,7 @@ Para obter informações sobre como adicionar uma origem de dados, veja [Adicion
 Após selecionar o tipo de origem de dados SAP HANA, irá preencher as informações **Servidor**, **Nome de utilizador** e **Palavra-passe** referentes à origem de dados.
 
 > [!NOTE]
-> Todas as consultas à origem de dados serão executadas com estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Todas as consultas à origem de dados serão executadas com estas credenciais. Para saber mais sobre a forma como as credenciais são armazenadas, veja [Armazenar credenciais encriptadas na cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Preenchimento das definições de origem de dados](media/service-gateway-enterprise-manage-sap/datasourcesettings3-sap.png)
 

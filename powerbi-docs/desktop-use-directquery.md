@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324797"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757619"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o **Power BI Desktop**. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o **DirectQuery**.
@@ -62,10 +62,9 @@ Os seguintes três pontos devem ser considerados ao utilizar o **DirectQuery**:
   
   A carga na base de dados de origem também deve ser considerada, com base no número de utilizadores do Power BI que irão consumir o relatório publicado. Utilizar a *Segurança de Nível de Linha* (RLS) também pode ter um impacto significativo; um mosaico do dashboard não RLS partilhado por vários utilizadores resulta numa única consulta à base de dados, mas utilizar o RLS num mosaico do dashboard, normalmente significa que a atualização de um mosaico exige uma consulta *por utilizador*, aumentando assim significativamente a carga na base de dados de origem e potencialmente afetando o desempenho.
   
-  O Power BI cria consultas que são tão eficientes quanto possível. No entanto, em determinadas situações, a consulta gerada pode não ser suficientemente eficiente para evitar a falha da atualização. Um exemplo desta situação é quando uma consulta gerada teria de obter um número excessivamente grande de linhas (mais de 1 milhão) da origem de dados de back-end, caso em que ocorre o seguinte erro:
+  O Power BI cria consultas que são tão eficientes quanto possível. No entanto, em determinadas situações, a consulta gerada pode não ser suficientemente eficiente para evitar a falha da atualização. Por exemplo, quando uma consulta gerada tem de obter um número excessivamente grande de linhas da origem de dados back-end, ocorre o seguinte erro:
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   Esta situação pode ocorrer com um gráfico simples que inclui uma coluna de cardinalidade muito elevada, com a opção de agregação definida como *Não Resumir*. O elemento visual precisa de ter apenas colunas com uma cardinalidade abaixo de 1 milhão ou ter filtros adequados aplicados.
 * **Segurança** - todos os utilizadores que consomem um relatório publicado ligam à origem de dados de back-end com as credenciais introduzidas após a publicação no serviço Power BI. Esta é a mesma situação que os dados que são importados: todos os utilizadores veem os mesmos dados, independentemente de quaisquer regras de segurança definidas na origem de back-end. Os clientes que pretendem segurança por utilizador implementada com origens do DirectQuery devem utilizar o RLS. [Saiba mais sobre o RLS](service-admin-rls.md).
