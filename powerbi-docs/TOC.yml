@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: Filtrar um relatório usando parâmetros no URL
               href: service-url-filters.md
+            - name: Edit SAP variables (Editar variáveis do SAP)
+              href: service-edit-sap-variables.md
             - name: Melhores práticas para criar relatórios rápidos e fiáveis
               href: power-bi-reports-performance.md
         - name: Ask questions of your data (Fazer perguntas sobre os seus dados)
