@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61399103"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867132"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
-Este artigo apresenta uma lista de idiomas suportados e países/regiões para o serviço Power BI, Power BI Desktop e documentação do Power BI.
+Este artigo lista os idiomas e países/regiões suportados da documentação do Power BI, do serviço Power BI e do Power BI Desktop.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Países e regiões onde o Power BI está disponível
 Para obter uma lista de países e regiões onde o Power BI está disponível, consulte a [lista de disponibilidade internacional](https://products.office.com/business/international-availability). 
@@ -73,11 +73,11 @@ O serviço Power BI (no browser) está disponível nos seguintes 44 idiomas:
 * Vietnamita - Tiếng Việt
 
 ### <a name="whats-translated"></a>O que é traduzido
-Power BI converte menus, botões, mensagens e outros elementos de experiência no seu idioma.
+O Power BI tem os menus, os botões, as mensagens e outros elementos da experiência traduzidos para o seu idioma. São traduzidos os conteúdos de relatórios, como descrições, filtros e títulos gerados automaticamente, mas os seus dados não são traduzidos automaticamente. Se estiver a utilizar um idioma de leitura da direita para a esquerda, como o hebraico, o esquema dos elementos visuais não é alterado dentro dos relatórios.
 
 Neste momento, alguns recursos estão disponíveis apenas em inglês:
 
-* Dashboards e relatórios que o Power BI cria quando se liga a serviços como o Microsoft Dynamics CRM, Google Analytics e o Salesforce. Pode ainda criar seus próprios dashboards e relatórios em seu próprio idioma.
+* Dashboards e relatórios que o Power BI cria quando liga a serviços como o Microsoft Dynamics CRM, Google Analytics e Salesforce. Também pode criar os seus próprios dashboards e relatórios no seu idioma.
 * Explorar dados com P e R.
 
 Fique atento: estamos trabalhando para traduzir os recursos adicionais para outros idiomas. 
@@ -134,15 +134,20 @@ Existem duas formas de obter o Power BI Desktop: pode transferi-lo ou instalá-
    
      Da próxima vez que iniciar o Power BI Desktop, este irá utilizar o idioma que predefiniu. 
 
+Para substituir a predefinição e utilizar o Power BI Desktop noutro idioma que não o do Windows, faça o seguinte.
+1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**.
+2. Em **Definições Globais**, selecione **Definições Regionais**.
+3. Na caixa **Idioma da Aplicação**, selecione uma região diferente. 
+
+O suporte de idiomas no Power BI Desktop está limitado aos idiomas apresentados na lista pendente Idioma da Aplicação.
+
 ### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Selecionar um idioma ao transferir o Power BI Desktop
-O idioma que selecionou para o Power BI Desktop afeta o formato de apresentação dos números e datas nos relatórios. 
+Se utilizar a versão .msi do instalador do Power BI Desktop, o idioma será definido quando transferir este programa. Pode escolher o idioma na página [Transferir o Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=45331). 
 
-* Selecione um idioma ao [transferir o Power BI Desktop](https://powerbi.microsoft.com/desktop). 
-
-Para alterar o idioma do Power BI Desktop, regresse à página de transferências e transfira-o num idioma diferente.
+Para alterar o idioma do Power BI Desktop instalado desta forma, regresse à página de transferência e transfira o programa num idioma diferente.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Escolher a região para importar dados para o Power BI Desktop
-Tenha transferido o Power BI Desktop ou instalado o mesmo a partir da Loja Windows, pode selecionar uma região para um relatório específico como uma diferente da região na sua versão do Power BI Desktop. As alterações de localidade, os dados de forma são interpretados quando são importado a partir dos seus dados de origem, por exemplo se "3/4/2017" é interpretado como 3 4 de Abril ou de Março. 
+Tenha transferido o Power BI Desktop ou instalado o mesmo a partir da Loja Windows, pode selecionar uma região para um relatório específico como uma diferente da região na sua versão do Power BI Desktop. A região muda a forma como os dados são interpretados quando são importados da sua origem de dados, por exemplo, se "03/04/2017" é interpretado como 3 de abril ou 4 de março. 
 
 1. No Power BI Desktop, aceda a **Ficheiro** > **Opções e definições** > **Opções**.
 2. Em **Ficheiro atual**, selecione **Definições Regionais**.

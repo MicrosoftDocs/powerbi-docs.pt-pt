@@ -1,6 +1,6 @@
 ---
 title: Incorporar um relatório num site ou portal seguro
-description: O Power BI incorpora a funcionalidade permite aos utilizadores facilmente e com segurança incorporar relatórios em portais da web internos.
+description: A funcionalidade de incorporação do Power BI permite que os utilizadores incorporem relatórios com facilidade e segurança em portais Web internos.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -10,18 +10,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222246"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867117"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
-Com o novo **incorporação** relatórios de opção para o Power BI, pode facilmente e com segurança incorporar relatórios em portais da web interno. Podem ser estes portais **baseado na nuvem** ou **alojadas no local**, como o SharePoint 2019. Todos os itens permissões e segurança de dados por meio de respeitam a relatórios incorporados [ao nível da linha (RLS) de segurança](service-admin-rls.md). Eles fornecem sem código de incorporação em qualquer portal que aceita um URL ou um iFrame. 
+Com a nova opção **Incorporar** dos relatórios do Power BI, pode permitir que os utilizadores incorporem relatórios com facilidade e segurança em portais Web internos. Estes portais podem ser **baseados na cloud** ou **alojados no local**, como o SharePoint 2019. Os relatórios incorporados respeitam todas as permissões de itens e a segurança de dados através da [segurança ao nível da linha (RLS)](service-admin-rls.md). Fornecem incorporação sem código em qualquer portal que aceite um URL ou um iFrame. 
 
-O **incorporação** opção suporta [filtros de URL](service-url-filters.md) e definições de URL. Ele permite-lhe integrar portais usando uma abordagem de codificação reduzida que requerem apenas conhecimento HTML e JavaScript básico.
+A opção **Incorporar** suporta [Filtros de URL](service-url-filters.md) e definições de URL. Permite-lhe integrar portais através de uma abordagem de código reduzido que apenas requer conhecimento básico de HTML e JavaScript.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Como **Incorporar** relatórios do Power BI em portais
 
@@ -29,46 +29,46 @@ O **incorporação** opção suporta [filtros de URL](service-url-filters.md) e 
 
     ![Opção de menu pendente da opção Incorporar segura](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. Selecione o **incorporação** opção de abrir uma caixa de diálogo que fornece uma ligação e um iFrame, pode usar para incorporar o relatório de forma segura.
+2. Selecione a opção **Incorporar** para abrir uma caixa de diálogo que apresenta uma ligação e um iFrame que pode utilizar para incorporar o relatório de forma segura.
 
     ![Caixa de diálogo da opção Incorporar](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. Se um utilizador abre um URL de relatório diretamente ou um incorporada num web portal, o acesso de relatório requer autenticação. É apresentado o ecrã seguinte se um utilizador não iniciou sessão no Power BI na sua sessão de browser. Quando seleciona **início de sessão**, foi possível abrir uma nova janela do browser ou separador. Tê-los a verificar a existência de fatores que impedem a pop-up se eles não recebe o pedido para iniciar sessão.
+3. Se um utilizador abrir um URL do relatório diretamente ou um URL incorporado num portal Web, o acesso ao relatório requer autenticação. O ecrã seguinte é apresentado se um utilizador não tiver iniciado sessão no Power BI na sessão do browser. Quando o utilizador seleciona **Iniciar sessão**, um novo separador ou janela do browser poderá ser aberto. Se não receber o pedido para iniciar sessão, o utilizador deve verificar se existem bloqueadores de janelas pop-up.
 
     ![Iniciar sessão para ver este relatório](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. Depois do utilizador tem sessão iniciada, o relatório é aberto, mostrando os dados e permitindo a navegação de página e a definição de filtro. Apenas os utilizadores que têm permissão de visualização, podem ver o relatório no Power BI. Todos os [ao nível da linha (RLS) de segurança](service-admin-rls.md) também são aplicadas as regras. Por último, o utilizador tem de estar licenciado corretamente, seja porque precisa de uma licença do Power BI Pro ou porque o relatório tem de estar numa área de trabalho que esteja numa capacidade do Power BI Premium. O utilizador tem de iniciar sessão sempre que abrem uma nova janela do browser. No entanto, depois de iniciar sessão, outros relatórios carregado automaticamente.
+4. Depois de o utilizador iniciar sessão, o relatório é aberto e mostra os dados, permitindo que navegue nas páginas e defina filtros. Apenas os utilizadores com permissão de visualização podem ver o relatório no Power BI. Todas as regras de [segurança ao nível da linha (RLS)](service-admin-rls.md) também são aplicadas. Por último, o utilizador tem de estar licenciado corretamente, seja porque precisa de uma licença do Power BI Pro ou porque o relatório tem de estar numa área de trabalho que esteja numa capacidade do Power BI Premium. O utilizador precisa de iniciar sessão sempre que abrir uma nova janela do browser. No entanto, assim que tiver sessão iniciada, os outros relatórios são carregados automaticamente.
 
     ![Incorporar relatório](media/service-embed-secure/secure-embed-report.png)
 
-5. Ao usar um iFrame, poderá ter de editar a **altura** e **largura** para que ela se encaixe na página da web do seu portal.
+5. Quando utilizar um iFrame, poderá ter de editar a **altura** e a **largura** para se ajustar à página Web do portal.
 
     ![Definir altura e largura](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-report-access"></a>Conceder acesso de relatório
+## <a name="granting-report-access"></a>Conceder acesso ao relatório
 
-O **incorporação** opção automaticamente não permite aos utilizadores ver o relatório. Ver permissões são definidas no serviço Power BI.
+A opção **Incorporar** não permite automaticamente aos utilizadores ver o relatório. As permissões de visualização são definidas no serviço Power BI.
 
-No serviço Power BI, pode partilhar relatórios incorporados com utilizadores que necessitam de acesso. Se estiver a utilizar um grupo do Office 365, pode listar o utilizador como membro da área de trabalho de aplicação. Para obter mais informações, consulte como [gerir a sua área de trabalho de aplicação no Power BI e do Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+No serviço Power BI, pode partilhar relatórios incorporados com utilizadores que precisam de acesso. Se estiver a utilizar um Grupo do Office 365, pode listar o utilizador como membro da área de trabalho da aplicação. Para obter mais informações, veja como [gerir a área de trabalho da aplicação no Power BI e no Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Licensing
 
-Para ver o relatório incorporado, os utilizadores precisam de qualquer uma licença do Power BI Pro ou os conteúdos precisam de estar numa área de trabalho que está numa [capacidade do Power BI Premium (EM ou P SKU)](service-admin-premium-purchase.md).
+Para ver o relatório incorporado, os utilizadores precisam de uma licença do Power BI Pro ou o conteúdo tem de estar numa área de trabalho com [capacidade do Power BI Premium (SKU EM ou P)](service-admin-premium-purchase.md).
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>Personalizar a experiência de incorporação com definições de URL
 
-Pode personalizar a experiência do usuário com as definições de entrada o URL de incorporação. Em iFrame fornecido, pode atualizar o URL **src** definições.
+Pode personalizar a experiência de utilizador com as definições de introdução de URL de incorporação. No iFrame fornecido, pode atualizar as definições **src** do URL.
 
 | Propriedade  | Descrição  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | Pode utilizar o **pageName** consultar o parâmetro de cadeia de caracteres para definir qual página de relatório para abrir. Pode encontrar este valor no final do URL do relatório ao visualizar um relatório no serviço Power BI, conforme mostrado abaixo. |  |  |  |
-| Filtros de URL  | Pode usar [filtros de URL](service-url-filters.md) no URL de incorporação que recebeu da interface do Usuário do Power BI para filtrar o conteúdo de incorporação. Desta forma, pode criar integrações de código reduzido tendo apenas experiência básica de HTML e JavaScript.  |  |  |  |
+| pageName  | Pode utilizar o parâmetro de cadeia de consulta **pageName** para definir a página de relatório que pretende abrir. Pode encontrar este valor no final do URL do relatório ao visualizar um relatório no serviço Power BI, conforme mostrado abaixo. |  |  |  |
+| Filtros de URL  | Pode utilizar [Filtros de URL](service-url-filters.md) no URL de incorporação que recebeu da IU do Power BI para filtrar o conteúdo da incorporação. Desta forma, pode criar integrações de código reduzido tendo apenas experiência básica de HTML e JavaScript.  |  |  |  |
 
-## <a name="set-which-page-opens-for-an-embedded-report"></a>Conjunto a página que abre-se para um relatório incorporado 
+## <a name="set-which-page-opens-for-an-embedded-report"></a>Definir que página é aberta para um relatório incorporado 
 
-Pode encontrar os **pageName** valor no final do URL do relatório ao visualizar um relatório no serviço Power BI.
+Pode encontrar o valor **pageName** no final do URL do relatório ao visualizar um relatório no serviço Power BI.
 
-1. Abra o relatório a partir do serviço Power BI no seu navegador da web e, em seguida, copie o URL da barra de endereço.
+1. Abra o relatório a partir do serviço Power BI no seu browser e, em seguida, copie o URL da barra de endereço.
 
     ![Secção Relatório](media/service-embed-secure/secure-embed-report-section.png)
 
@@ -78,17 +78,17 @@ Pode encontrar os **pageName** valor no final do URL do relatório ao visualizar
 
 ## <a name="filter-report-content-using-url-filters"></a>Filtrar conteúdo do relatório com filtros de URL 
 
-Pode usar [filtros de URL](service-url-filters.md) para fornecer vistas de relatório diferente. Por exemplo, o URL abaixo filtra o relatório para mostrar dados do setor da Energia.
+Pode utilizar [Filtros de URL](service-url-filters.md) para fornecer vistas de relatório diferentes. Por exemplo, o URL abaixo filtra o relatório para mostrar dados do setor da Energia.
 
 A utilização da combinação de **pageName** e [Filtros de URL](service-url-filters.md) pode ser eficiente. Pode criar experiências com HTML e JavaScript básicos.
 
-Por exemplo, aqui está um botão, que pode adicionar a uma página HTML:
+Por exemplo, eis um botão que pode adicionar a uma página HTML:
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-Quando selecionada, o botão chama uma função para atualizar a iFrame com um URL atualizada, o que inclui o filtro de setor da energia.
+Quando selecionado, o botão chama uma função para atualizar o iFrame com um URL atualizado, que inclui o filtro para o setor da Energia.
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,22 @@ Pode adicionar quantos botões quiser para criar uma experiência personalizada 
 
 * A incorporação segura funciona para os relatórios publicados no serviço Power BI.
 
-* O utilizador tem de iniciar sessão ver o relatório, sempre que abrirem uma nova janela do browser.
+* O utilizador precisa de iniciar sessão para ver o relatório sempre que abrir uma nova janela do browser.
 
-* Alguns browsers requerem que Atualize a página após o início de sessão, especialmente quando se utilizam modos InPrivate ou Incognito.
+* Nalguns browsers, terá de atualizar a página depois de iniciar sessão, especialmente nos modos InPrivate ou Incógnito.
 
-* Para obter uma experiência de início de sessão único, utilize a incorporação no SharePoint Online opção ou crie uma utilizando a integração personalizada a [utilizador detém os dados](developer/embed-sample-for-your-organization.md) incorporar o método. 
+* Para obter uma experiência de início de sessão único, utilize a opção Incorporar no SharePoint Online ou crie uma integração personalizada através do método de incorporação [O utilizador detém os dados](developer/embed-sample-for-your-organization.md). 
 
-* A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize o [utilizador detém os dados](developer/embed-sample-for-your-organization.md) incorporar o método. 
+* A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize o método de incorporação [O utilizador detém os dados](developer/embed-sample-for-your-organization.md). 
+
+* A duração do token de autenticação é controlada com base nas definições do AAD. Quando o token de autenticação expirar, o utilizador terá de atualizar o browser para obter um token de autenticação atualizado. A duração predefinida é uma hora, mas pode ser mais curta ou mais longa na sua organização.
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Formas de partilhar o seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [Filtrar um relatório com parâmetros de cadeia de caracteres de consulta no URL](service-url-filters.md)
+* [Filtrar um relatório usando parâmetros de cadeia de consulta no URL](service-url-filters.md)
 
-* [Incorporar com a peça web relatório no SharePoint Online](service-embed-report-spo.md)
+* [Incorporar com peças Web de relatórios no SharePoint Online](service-embed-report-spo.md)
 
 * [Publicar na Web do Power BI](service-publish-to-web.md)

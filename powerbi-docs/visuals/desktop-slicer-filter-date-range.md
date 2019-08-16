@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c039b00ced1bf62c8be72d218177d04a9fd3accf
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: e1dfda3c759d225019cc50d36cfe746976bd797a
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532652"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867076"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Utilizar uma segmentação e filtro de data relativa no Power BI Desktop
 
@@ -75,7 +75,7 @@ Nessa lista, se selecionar **Meses** e introduzir *2* na definição intermédia
 
 * os dados incluídos nos elementos visuais restringidos pela segmentação irão incluir os dados dos dois meses anteriores
 
-* a partir do dia 20 de maio até dia 20 de julho (hoje)
+* a partir do dia 21 de maio até dia 20 de julho (hoje)
 
 Em comparação, se selecionar *Meses (Calendário)* , os elementos visuais restringidos mostram os dados de 1 de maio até 30 de junho (os últimos dois meses de calendário completos).
 

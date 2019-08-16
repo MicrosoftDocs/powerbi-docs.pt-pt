@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730269"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867058"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>FAQ do gateway de dados no local – Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730269"
 
 ## <a name="power-bi"></a>Power BI
 
-**Pergunta:** Preciso de atualizar o gateway pessoal? 
+**Pergunta:** Tenho de atualizar o gateway de dados no local (modo pessoal)?
 
-**Resposta:** Não: Pode continuar a utilizar o gateway pessoal do Power BI.
+**Resposta:** Não. Pode continuar a utilizar o gateway (modo pessoal) do Power BI.
 
 **Pergunta:** São necessárias permissões especiais para instalar o gateway e geri-lo no serviço Power BI?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730269"
 
 **Pergunta:** Por que não consigo ligar ao meu servidor do Oracle? 
 
-**Resposta:** Poderá ter de instalar o cliente Oracle e configurar o ficheiro tnsnames.ora com as devidas informações de servidor para se ligar ao servidor Oracle. Trata-se de uma instalação separada fora do gateway. Para obter mais informações, veja [Instalar o cliente Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Resposta:** Poderá ter de instalar o cliente Oracle e configurar o ficheiro tnsnames.ora com as devidas informações de servidor para se ligar ao servidor Oracle. Trata-se de uma instalação separada fora do gateway. Para obter mais informações, veja [Instalar o cliente Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
 
 **Pergunta:** O gateway funciona com o Azure ExpressRoute? 
 
@@ -73,5 +73,5 @@ ms.locfileid: "68730269"
 
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 
-Mais perguntas? Experimente a [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
 

@@ -53,6 +53,8 @@
       items:
         - name: Novidades na atualização mais recente do Power BI Desktop
           href: desktop-latest-update.md
+        - name: Agrupar elementos visuais no Power BI Desktop
+          href: desktop-grouping-visuals.md
         - name: Vista de modelação no Power BI Desktop
           href: desktop-modeling-view.md
         - name: Aggregations in Power BI Desktop (Agregações no Power BI Desktop)

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665539"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808239"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -83,7 +83,7 @@ Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em s
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Criar e publicar relatórios paginados
 
-Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho da aplicação atribuída a uma capacidade mínima de A4/P1. O utilizador final que carregar o relatório precisa de ter uma licença do Power BI Pro para publicar numa área de trabalho de aplicação.
+Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho da aplicação atribuída a uma capacidade mínima de A4/P1. O utilizador final que carrega o relatório tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporar os seus conteúdos com a aplicação de exemplo
 

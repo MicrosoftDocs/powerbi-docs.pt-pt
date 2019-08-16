@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729799"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940906"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
@@ -124,7 +124,10 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
     - *Versão: 2.61.5192.641 (agosto de 2018), Lançamento: 15 de agosto de 2018*
         - Contém as alterações necessárias para a ligação com o Power BI Report Server (agosto de 2018)         
-        
+    - *Versão: 2.61.5192.7701 (agosto de 2018), Lançamento: 8 de agosto de 2019* (nova compilação e nova versão)
+        - Correções de erros
+            - Correção do registo de telemetria incorreto
+            
 ## <a name="march-2018"></a>Março de 2018
 
 - **Power BI Report Server**
