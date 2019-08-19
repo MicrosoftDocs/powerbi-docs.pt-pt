@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: Agrupar elementos visuais no Power BI Desktop
           href: desktop-grouping-visuals.md
+        - name: Using templates in Power BI Desktop (Utilizar modelos no Power BI Desktop)
+          href: desktop-templates.md
         - name: Vista de modelação no Power BI Desktop
           href: desktop-modeling-view.md
         - name: Aggregations in Power BI Desktop (Agregações no Power BI Desktop)
@@ -1219,7 +1221,7 @@
       items:
         - name: Novidades
           href: report-server/whats-new.md
-        - name: Change log (Registo de alterações)
+        - name: Change log
           href: report-server/changelog.md
         - name: Support timeline (Linha cronológica de suporte)
           href: report-server/support-timeline.md
