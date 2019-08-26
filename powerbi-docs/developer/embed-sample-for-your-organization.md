@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808239"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490395"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -35,7 +35,7 @@ Para começar, precisa de:
 * Uma [conta do Power BI Pro](../service-self-service-signup-for-power-bi.md).
 * Uma [subscrição do Microsoft Azure](https://azure.microsoft.com/).
 * Tem de ter a sua própria configuração de [inquilino do Azure Active Directory](create-an-azure-active-directory-tenant.md).
-* Para incorporar relatórios paginados, tem de dispor de uma capacidade mínima de A4/P1. Veja [Preciso de que tamanho de capacidade Premium para os relatórios paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* Para incorporar relatórios paginados, tem de dispor de uma capacidade mínima de P1 [Veja Preciso de que tamanho de capacidade Premium para os relatórios paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports).
 
 Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 
@@ -45,7 +45,7 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente permite a incorporação com o Power BI.
 
-Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir uma capacidade mínima de A4/P1 para a área de trabalho da aplicação criada.
+Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir uma capacidade mínima de P1 para a área de trabalho da aplicação criada.
 
 Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
@@ -83,7 +83,7 @@ Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em s
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Criar e publicar relatórios paginados
 
-Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, pode [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho da aplicação atribuída a uma capacidade mínima de A4/P1. O utilizador final que carrega o relatório tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
+Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, poderá [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho de aplicação atribuída a, no mínimo, uma capacidade P1. O utilizador final que carrega o relatório tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporar os seus conteúdos com a aplicação de exemplo
 
@@ -152,9 +152,6 @@ Preencha as informações do **reportId** com o GUID de relatório do Power BI.
 URL do Relatório do Power BI <br>
 
 ![reportId do PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-URL do Relatório Paginado <br>
-
 
 
 URL do Relatório Paginado<br>
@@ -384,7 +381,7 @@ Agora que concluiu o desenvolvimento da sua aplicação, está na altura de atri
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. A sua área de trabalho da aplicação precisa de uma capacidade mínima de A4/P1 para suportar relatórios paginados. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
+Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. Para relatórios paginados, deve proteger a sua área de trabalho de aplicação com uma capacidade mínima de P1. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
 
 A tabela seguinte lista as SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../service-admin-premium-purchase.md):
 

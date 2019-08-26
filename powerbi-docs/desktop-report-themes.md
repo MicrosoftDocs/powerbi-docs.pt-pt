@@ -7,24 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0c098baa42e4fdc45b23519856eed824dbab5cad
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989328"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023396"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
-Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais ou outro tema de cores. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
+Com **Temas de Relatório**, pode aplicar um tema de cores a todo o relatório, como cores empresariais, cores sazonais, conjuntos de ícones ou outro tema de cores. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
 
 ![Temas de relatório](media/desktop-report-themes/report-themes_1.png)
 
 Quando aplica um **Tema de Relatório**, precisa de um ficheiro JSON que utilize uma estrutura básica. Em seguida, pode importar este ficheiro JSON para o Power BI Desktop e aplicá-lo ao relatório. A estrutura do ficheiro JSON e o seu processo de importação são rápidos e fáceis (são necessários apenas alguns cliques).
 
-Também pode personalizar e padronizar quase todos os elementos. Para personalizar, utilize o ficheiro JSON, que pode ajustar manualmente no painel **Formatação**. O objetivo é dar-lhe controlo total sobre a forma como os relatórios de aspeto e a funcionalidade, para um nível granular.
+Também pode personalizar e padronizar quase todos os elementos. Para personalizar, utilize o ficheiro JSON, que pode ajustar manualmente no painel **Formatação**. O objetivo é fornecer o controlo total sobre o aspeto e a funcionalidade dos seus relatórios, a um nível granular.
 
 ## <a name="how-report-themes-work"></a>Como funcionam os Temas de Relatório
 Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione numa lista de temas de relatório incorporados disponíveis ou importe um tema personalizado.

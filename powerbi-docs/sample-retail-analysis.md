@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462399"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962222"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda do Power BI: veja uma apresentação
 
@@ -92,10 +92,10 @@ Se quiser ver a origem de dados deste exemplo, também está disponível como um
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Rever um mosaico criado com as Perguntas e Respostas do Power BI
 Vamos analisar mais detalhadamente.
 
-1. Altere a pergunta para *vendas deste ano **por distrito***. Veja o resultado: Perguntas e Respostas coloca a resposta automaticamente num gráfico de barras e sugere outras frases:
+1. Altere a pergunta para _vendas deste ano **por distrito**_ . Veja o resultado: Perguntas e Respostas coloca a resposta automaticamente num gráfico de barras e sugere outras frases:
 
    ![Vendas deste ano por distrito no Perguntas e Respostas](media/sample-retail-analysis/retail8.png)
-2. Agora, altere a pergunta para *vendas deste ano **por código postal e cadeia***.
+2. Agora, altere a pergunta para _vendas deste ano **por código postal e cadeia**_ .
 
    Observe como a pergunta é respondida pelo Power BI à medida que escreve e o gráfico adequado é apresentado.
 3. Experimente com mais perguntas e veja que tipo de resultados são obtidos.

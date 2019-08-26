@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567400"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530607"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outras áreas de trabalho (Pré-visualização)
 
-Quando encontrar um relatório do seu agrado numa área de trabalho ou numa aplicação, poderá fazer uma cópia do mesmo e guardá-lo numa área de trabalho diferente. Em seguida, poderá modificar esse relatório ao adicionar ou eliminar elementos visuais e outros elementos. Não tem de se preocupar com a criação do modelo de dados. Já terá sido criado automaticamente. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, não é possível publicar a sua cópia do relatório numa aplicação a partir da nova área de trabalho. Veja a lista de outras [considerações e limitações](service-datasets-across-workspaces.md#considerations-and-limitations) no artigo "Utilizar conjuntos de dados em várias áreas de trabalho".
+Quando encontrar um relatório do seu agrado numa área de trabalho ou numa aplicação, poderá fazer uma cópia do mesmo e guardá-lo numa área de trabalho diferente. Em seguida, poderá modificar a sua cópia do relatório ao adicionar ou eliminar elementos visuais e outros elementos. Não tem de se preocupar com a criação do modelo de dados. Já terá sido criado automaticamente. Além disso, é muito mais fácil modificar um relatório existente do que começar do zero. No entanto, quando criar uma aplicação a partir da nova área de trabalho, nem sempre é possível publicar a sua cópia do relatório na aplicação. Veja [Considerações e limitações no artigo "Utilizar conjuntos de dados em várias áreas de trabalho"](service-datasets-across-workspaces.md#considerations-and-limitations) para obter detalhes.
+
+> [!NOTE]
+> Para criar uma cópia, precisa de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium.
 
 ## <a name="save-a-copy-of-a-report"></a>Guardar uma cópia de um relatório
 

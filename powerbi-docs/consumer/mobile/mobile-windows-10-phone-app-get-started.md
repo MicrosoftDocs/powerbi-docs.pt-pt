@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a60fe526e83e5220e9b310097c8ba37682a396e
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61337738"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995222"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
-A aplicação móvel do Power BI para Windows 10 leva o Power BI ao seu tablet ou telemóvel com acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com seus dashboards de empresa de qualquer lugar &#151; diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
+A aplicação móvel Power BI para Windows 10 traz o Power BI para o seu tablet ou telemóvel. Obtém acesso móvel atualizado e tátil às suas informações empresariais. Veja e interaja com os seus dashboards de empresa de qualquer lugar, diretamente no [ecrã de Início do Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
 ![Mosaico dinâmico do Windows](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
@@ -28,12 +28,12 @@ Em seguida, interaja com os seus dashboards e relatórios, explore os dados e pa
 ## <a name="first-things-first"></a>As coisas mais importantes primeiro
 * [**Obtenha a aplicação móvel do Power BI para Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) na Windows Store.
   
-  O seu dispositivo precisa de executar o Windows 10. A aplicação funciona em dispositivos com, pelo menos, 3 GB de RAM e 8 GB de armazenamento interno.
+  O seu dispositivo deve executar o Windows 10. A aplicação funciona em dispositivos com pelo menos 3 GB de RAM e 8 GB de armazenamento interno.
    
 * Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Inscrever-se no serviço Power BI na Web
-Se ainda não se inscreveu, vá para o [serviço do Power BI](http://powerbi.com/) para se inscrever e obter a conta e criar e armazenar dashboards e relatórios e reunir dados. Em seguida, entre no Power BI de seu dispositivo Windows 10 para ver os seus próprios dashboards, a partir de qualquer lugar.
+Se ainda não se inscreveu, aceda ao [serviço Power BI](http://powerbi.com/). Inscreva-se numa conta própria, para criar e armazenar dashboards e relatórios, e coloque os seus dados no mesmo local. Em seguida, entre no Power BI do seu dispositivo Windows 10 para ver os seus próprios dashboards, a partir de qualquer lugar.
 
 1. No serviço do Power BI, toque em [Inscrever-se](http://go.microsoft.com/fwlink/?LinkID=513879) para criar uma conta do Power BI.
 2. Comece a [criar os seus próprios dashboards e relatórios](../../service-get-started.md).
@@ -52,8 +52,8 @@ Se ainda não se inscreveu, vá para o [serviço do Power BI](http://powerbi.com
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimentar os exemplos do Power BI e do Reporting Services
 Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte para os exemplos sempre que quiser, na página inicial dos dashboards.
 
-### <a name="power-bi-samples"></a>Exemplos do Power BI
-Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com estes. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
+### <a name="power-bi-samples"></a>Amostras do Power BI
+Pode ver e interagir com os exemplos no dashboard do Power BI. No entanto, há coisas que não pode fazer com os mesmos. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
 
 1. Toque no botão de navegação global ![Botão de navegação global](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) no canto superior esquerdo.
 2. Toque no ícone das **Definições**![ Ícone Definições](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), toque no seu nome e, em seguida, toque em **Ver exemplos**.
@@ -91,8 +91,8 @@ Os seus dashboards e relatórios são armazenados em locais diferentes nas aplic
 
 ![Navegação à esquerda do Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Ver os seus dashboards, KPIs e relatórios favoritos
-Pode ver todos os seus dashboards favoritos do Power BI, juntamente com relatórios móveis e KPIs do Reporting Services, na página Favoritos nas aplicações móveis. Quando tornar um dashboard *favorito* na aplicação móvel do Power BI, pode aceder ao mesmo em todos os seus dispositivos, incluindo o serviço Power BI no seu browser. 
+## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Ver os dashboards, KPIs e relatórios favoritos
+Ver os seus dashboards favoritos do Power BI, juntamente com relatórios móveis e KPIs do Reporting Services, na página Favoritos nas aplicações móveis. Quando tornar um dashboard *favorito* na aplicação móvel do Power BI, pode aceder ao mesmo em todos os seus dispositivos, incluindo o serviço Power BI no seu browser. 
 
 * Toque em **Favoritos**.
   
@@ -104,8 +104,8 @@ Pode ver todos os seus dashboards favoritos do Power BI, juntamente com relatór
 
 Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
 
-## <a name="next-steps"></a>Passos seguintes
-Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Windows 10 com dashboards e relatórios no Power BI e relatórios móveis e KPIs do Reporting Services no portal Web do Reporting Services
+## <a name="next-steps"></a>Próximos passos
+Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Windows 10 com dashboards e relatórios no Power BI e relatórios móveis e KPIs do Reporting Services no portal Web do Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboards e relatórios do Power BI
 * Veja [as suas aplicações](../../service-create-distribute-apps.md).

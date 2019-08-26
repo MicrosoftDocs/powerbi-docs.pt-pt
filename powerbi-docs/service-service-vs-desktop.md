@@ -8,31 +8,31 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7583c108bd996505937242cc083c4aa9abbaa5a8
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61403444"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68961710"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparar o Power BI Desktop e o serviço Power BI
 
-Num diagrama Venn a comparar o Power BI Desktop e o serviço Power BI, a área no meio mostraria como os dois se sobrepõem. Algumas tarefas podem ser efetuadas no Power BI Desktop ou no serviço Power BI. No entanto, nos dois lados do diagrama Venn, a aplicação e o serviço apresentam funcionalidades exclusivas.  
+Num diagrama Venn a comparar o Power BI Desktop e o serviço Power BI, a área no meio mostra como os dois se sobrepõem. Algumas tarefas podem ser efetuadas no Power BI Desktop ou no serviço Power BI. Os dois lados do diagrama Venn mostram as funcionalidades que são exclusivas da aplicação e do serviço.  
 
 ![Diagrama Venn do Power BI Desktop e do serviço Power BI](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-O **Power BI Desktop** é uma ferramenta completa de criação de relatórios e análise de dados. Ao instalar a aplicação gratuita no seu computador local, pode ligar-se a várias origens de dados diferentes e combiná-las (frequentemente denominado modelação) num modelo de dados. O [guia de introdução do Power BI Desktop](desktop-getting-started.md) explica o processo.
+O **Power BI Desktop** é uma ferramenta completa de análises de dados e criação de relatórios que pode instalar gratuitamente no computador local. Inclui o Editor de Consultas, no qual pode ligar-se a várias origens de dados diferentes e combiná-las (frequentemente denominado modelação) num modelo de dados. Em seguida, cria um relatório com base nesse modelo de dados. O [guia de introdução do Power BI Desktop](desktop-getting-started.md) explica o processo.
 
-O **serviço Power BI** é um serviço online baseado na cloud para colaboração e edição simples de relatórios para equipas e empresas. Também se pode ligar a origens de dados no serviço Power BI, mas a modelação é limitada. 
+O **serviço Power BI** é um serviço com base na cloud. Permite alguma edição de relatórios, bem como colaboração para equipas e organizações. Também se pode ligar a origens de dados no serviço Power BI, mas a modelação é limitada. 
 
-A maioria dos designers de relatórios que trabalha em projetos de business intelligence utiliza o **Power BI Desktop** para criar relatórios e, em seguida, utiliza o **serviço Power BI** para partilhar os seus relatórios com outras pessoas.
+A maioria dos designers de relatórios que trabalha em projetos de business intelligence utiliza o **Power BI Desktop** para criar relatórios e, em seguida, utiliza o **serviço Power BI** para distribuir os seus relatórios junto de outras pessoas.
 
 ## <a name="report-editing"></a>Edição de relatórios
 
-Na aplicação e no serviço, pode criar e editar *relatórios*. Um relatório pode ter uma ou várias páginas, com elementos visuais e coleções de elementos visuais. Pode adicionar marcadores, botões, filtros e pormenorização para melhorar a navegação nos seus relatórios.
+Na aplicação e no serviço, pode criar e editar *relatórios*. Um relatório pode ter uma ou várias páginas, com elementos visuais e coleções de elementos visuais. Adicione marcadores, botões, filtros e pormenorização para melhorar a navegação nos seus relatórios.
 
 ![Editar um relatório no Power BI Desktop ou no serviço Power BI](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -46,9 +46,16 @@ Este vídeo mostra o editor de relatórios no Power BI Desktop.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-## <a name="collaborating-in-the-power-bi-service"></a>Colaborar no serviço Power BI
+## <a name="working-in-the-power-bi-service"></a>Trabalhar no serviço Power BI
 
-Depois de criar os seus relatórios, pode guardá-los numa *área de trabalho* no **serviço Power BI**, onde você e os seus colegas colaboram. Pode criar *dashboards* sobre esses relatórios. Em seguida, pode partilhar esses dashboards e relatórios com consumidores de relatórios dentro e fora da sua organização. Os consumidores de relatórios veem-nos no serviço Power BI na [Vista de Leitura](consumer/end-user-reading-view.md) e não na Vista de Edição. Eles não têm acesso a todas as funcionalidades disponíveis para os criadores de relatórios. 
+### <a name="collaborating"></a>Colaboração
+
+
+Depois de criar os seus relatórios, pode guardá-los numa *área de trabalho* no **serviço Power BI**, onde você e os seus colegas colaboram. Pode criar *dashboards* sobre esses relatórios. Em seguida, pode partilhar esses dashboards e relatórios com consumidores de relatórios dentro e fora da sua organização. Os consumidores de relatórios veem-nos no serviço Power BI numa *Vista de leitura* e não na Vista de edição. Não têm acesso a todas as funcionalidades disponíveis aos criadores de relatórios.  Também pode partilhar os seus conjuntos de dados e permitir que outras pessoas criem os seus próprios relatórios a partir dos mesmos. Leia mais sobre [colaborar no serviço Power BI](service-new-workspaces.md).
+
+### <a name="self-service-data-prep-with-dataflows"></a>Preparação personalizada de dados com fluxos de dados
+
+Os fluxos de dados ajudam as organizações a uniformizar os dados de diferentes origens e a prepará-los para a modelação. Os analistas podem criar facilmente fluxos de dados, com ferramentas de gestão personalizada conhecidas. Os analistas utilizam fluxos de dados para ingerir, transformar, integrar e enriquecer grandes volumes de dados ao definir ligações de origem de dados, lógica ETL, agendas de atualização e muito mais. Leia mais sobre a [preparação personalizada de dados com fluxos de dados](service-dataflows-overview.md).
 
 ## <a name="next-steps"></a>Próximos passos
 

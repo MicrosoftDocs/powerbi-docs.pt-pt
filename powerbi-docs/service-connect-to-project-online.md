@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324978"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023769"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Ligar-se ao Project Web App com o Power BI
 O Microsoft Project Web App é uma solução online flexível para PPM (gestão de portefólios de projetos) e para o trabalho quotidiano. O Project Web App permite que as organizações comecem, atribuam prioridades a investimentos de portefólio de projetos e entreguem o valor comercial pretendido. A Aplicação de Modelos do Project Web App para o Power BI permite-lhe obter informações do Project Web App para ajudar na gestão de projetos, portefólios e recursos.
@@ -24,49 +24,51 @@ Ligue-se à [Aplicação de Modelos do Project Web App](https://appsource.micros
 
 ## <a name="how-to-connect"></a>Como se ligar
 
-   ![](media/service-connect-to-project-online/GetApps.png)
 1. Selecione **Aplicações** no painel de navegação esquerdo e selecione **Obter aplicações** no canto superior direito.
+
+    ![Obter aplicações](media/service-connect-to-project-online/GetApps.png)
+
 2. Na caixa **Serviços**, selecione **Obter**.
    
-   ![](media/service-connect-to-project-online/AppSource.png)
+   ![AppSource](media/service-connect-to-project-online/AppSource.png)
 3. No AppSource, selecione o separador **Aplicações** e procure/selecione **Microsoft Project Web App**.
    
 4. Será apresentada a mensagem **Instalar esta aplicação do Power BI?** . Selecione **Instalar**. 
 
-   ![](media/service-connect-to-project-online/ProjectTile.png)
+   ![Instalar o Project Web](media/service-connect-to-project-online/ProjectTile.png)
 5. No painel **Aplicações**, selecione o mosaico **Microsoft Project Web App**. 
    
-   ![](media/service-connect-to-project-online/getstarted.png)
+   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. Em **Comece já com a sua nova aplicação** , selecione **Ligar dados**.
    
-   ![](media/service-connect-to-project-online/mproject.png)
+   ![Ligar-se a dados](media/service-connect-to-project-online/mproject.png)
 7. Na caixa de texto **URL do Project Web App**, introduza o URL para o PWA (Project Web App) ao qual pretende ligar-se.  Observe que isso pode ser diferente do exemplo, caso tenha um domínio personalizado. Na caixa de texto **Idioma do Site do PWA**, escreva o número que corresponde ao seu idioma do site do PWA. Escreva o dígito "1" para inglês, "2" para francês, "3" para alemão, "4" para português (Brasil), "5" para português (Portugal) e "6" para espanhol. 
    
-   ![](media/service-connect-to-project-online/params.png)
+   ![Ligar a Microsoft Project Online](media/service-connect-to-project-online/params.png)
 8. Como Método de Autenticação, selecione **oAuth2** \> **Iniciar Sessão**. Quando lhe for pedido, introduza as suas credenciais do Project Web App e siga o processo de autenticação.
 
-    
-Tenha em atenção que é necessário ter permissões de Visualizador de Portefólio, Gestor de Portefólio ou Administrador para o Project Web App ao qual se está a ligar.
+    > [!NOTE]
+    > É necessário ter permissões de Visualizador de Portefólio, Gestor de Portefólio ou Administrador para o Project Web App ao qual se está a ligar.
 
 9. Vai ver uma notificação a indicar que os dados estão a ser carregados. Dependendo do tamanho da sua conta, pode levar algum tempo. Após o Power BI importar os dados, verá os conteúdos da sua nova área de trabalho. Poderá ter de atualizar o conjunto de dados para obter as atualizações mais recentes. 
 
-Após o Power BI importar os dados, verá o relatório com 13 páginas e o conjunto de dados no painel de navegação à esquerda. 
+    Após o Power BI importar os dados, verá o relatório com 13 páginas e o conjunto de dados no painel de navegação à esquerda. 
 
 10. Quando os seus relatórios estiverem prontos, pode começar a explorar os seus dados do Project Web App! A Aplicação de Modelos inclui 13 relatórios avançados e detalhados de Descrição Geral do Portefólio (6 páginas de relatórios), Descrição Geral do Recurso (5 páginas de relatórios) e Estado do Projeto (2 páginas de relatórios). 
 
-   ![](media/service-connect-to-project-online/report1.png)
+    ![Dashboard do Portefólio](media/service-connect-to-project-online/report1.png)
    
-   ![](media/service-connect-to-project-online/report3.png)
+    ![Disponibilidade](media/service-connect-to-project-online/report3.png)
    
-   ![](media/service-connect-to-project-online/report2.png)
+    ![Estado do Projeto](media/service-connect-to-project-online/report2.png)
 
 **O que se segue?**
 
-* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
+* Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**.
 
 **Expandir a Aplicação de Modelos**
 
-Transfira o [ficheiro PBIT do GitHub](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) para atualizar e personalizar ainda mais o Pacote de Conteúdos
+Transfira o [ficheiro PBIT do GitHub](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) para atualizar e personalizar ainda mais o Pacote de Conteúdos.
 
 ## <a name="next-steps"></a>Próximos passos
 [Introdução ao Power BI](service-get-started.md)

@@ -1,6 +1,6 @@
 ---
-title: Ver o Power BI conteúdo como um utilizador de convidados externos (Azure AD B2B)
-description: Utilize aplicações móveis do Power BI para ver o conteúdo partilhado consigo, de uma organização externa.
+title: Ver conteúdos do Power BI como um utilizador convidado externo (Azure AD B2B)
+description: Utilize as aplicações móveis Power BI para ver conteúdos de uma organização externa que foram partilhados consigo.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: a15da4349ce97e34c8321909abc862e424b2839c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61338779"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490376"
 ---
-# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Conteúdo do Power BI vista partilhado consigo, a partir de uma organização externa
+# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Ver conteúdos do Power BI de uma organização externa partilhados consigo
 
-Power BI está integrado no Azure Active Directory business-to-business (Azure AD B2B) para permitir uma distribuição segura de conteúdos do Power BI para utilizadores convidados fora da sua organização. E os utilizadores convidados externos podem utilizar a aplicação móvel do Power BI para aceder a esse conteúdo do Power BI partilhado com eles. 
+O Power BI integra-se no Azure Active Directory business-to-business (Azure AD B2B) para permitir uma distribuição segura de conteúdos do Power BI a utilizadores convidados fora da sua organização. Além disso, os utilizadores convidados externos podem utilizar a aplicação móvel Power BI para aceder aos conteúdos do Power BI partilhados com os mesmos. 
 
 
 Aplica-se a:
@@ -27,28 +27,30 @@ Aplica-se a:
 |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Telemóveis Android |Tablets Android |
 
-## <a name="accessing-shared-content"></a>Aceder ao conteúdo partilhado
+## <a name="accessing-shared-content"></a>Aceder a conteúdos partilhados
 
-**Em primeiro lugar, precisa de alguém de uma organização externa para compartilhar um item com.** Quando alguém [compartilha um item com](../../service-share-dashboards.md), a partir da mesma organização ou de uma organização externa, receberá um e-mail com uma ligação para que o item partilhado. Seguir essa ligação em seu dispositivo móvel, abre-se a aplicação móvel do Power BI. Se a aplicação reconhece que o item foi partilhado a partir de uma organização externa, volta ligar a aplicação dessa organização com a sua identidade. A aplicação, em seguida, carrega todos os itens que foram partilhados dessa organização.
+**Em primeiro lugar, algum membro de uma organização externa tem de partilhar um item consigo.** Quando alguém da mesma organização ou de uma organização externa [partilha um item consigo](../../service-share-dashboards.md), recebe um e-mail com uma ligação para este item partilhado. Se abrir esta ligação no seu dispositivo móvel, abrirá a aplicação móvel Power BI. Se a aplicação reconhecer que o item foi partilhado por uma organização externa, a aplicação voltará a ligar a esta organização com a sua identidade. Em seguida, a aplicação carrega todos os itens que esta organização partilhou consigo.
 
-![O Power BI Abrir item partilhado do e-mail ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Item partilhado do Power BI aberto a partir de um e-mail ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
 
 > [!NOTE]
-> Se este for o primeiro item partilhado consigo, como um utilizador de convidados externos, deve solicitar o convite num browser. Pode não é possível afirmar o convite na aplicação do Power BI.
+> Se este for o primeiro item partilhado consigo enquanto utilizador convidado externo, tem de reclamar o convite num browser. Não pode reclamar o convite na aplicação Power BI.
 
-Enquanto estiver ligado a uma organização externa, um cabeçalho preto aparece na aplicação. Esse cabeçalho indica que não está ligado à sua organização da página principal. Para ligar-se na sua organização de casa, sair do modo de convidado.
+Se estiver ligado a uma organização externa, será apresentado um cabeçalho preto na aplicação. Este cabeçalho indica que não está ligado à sua organização. Para voltar a ligar à sua organização, saia do modo de convidado.
 
-![Cabeçalho de utilizador do Power BI convidado](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Cabeçalho de utilizador convidado do Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-Mesmo que precisa ter uma ligação de artefacto do Power BI para ligar a uma organização externa, depois que a sua aplicação muda, pode acessar todos os itens partilhados consigo (não apenas o item abertos a partir do e-mail). Para ver todos os itens que pode aceder na organização externa, aceda ao menu da aplicação e selecione **partilhado comigo**. Sob **aplicações** encontrar aplicações que pode utilizar também.
+Embora tenha de ter uma ligação de artefacto do Power BI para ligar a uma organização externa, assim que a sua aplicação for aberta, poderá aceder a todos os itens partilhados consigo (e não apenas ao item que abriu a partir do e-mail). Para ver todos os itens a que pode aceder na organização externa, aceda ao menu da aplicação e selecione **Partilhado comigo**. Em **Aplicações**, irá encontrar aplicações que também pode utilizar.
 
-![Menu de aplicação do Power BI como utilizador externo de convidado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menu da aplicação Power BI como utilizador convidado externo](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 
 ## <a name="limitations"></a>Limitações
 
-- Acesso condicional e de outras políticas do Intune não são suportadas no Azure AD B2B e no Power BI mobile. Isso significa que a aplicação aplica apenas as políticas da organização raiz, caso existam.
-- Notificações push são recebidas a partir apenas o site da organização da página principal (mesmo quando o usuário estiver conectado como um convidado para uma organização externa). Abrir a notificação de volta a estabelecer ligação a aplicação ao site de organização da página principal do utilizador.
-- Se o usuário encerra a aplicação, quando voltar aberto a aplicação liga-se automaticamente a organização da página principal do utilizador.
-- Quando ligado a uma organização externa, algumas ações estão desativadas: favorito itens, alertas de dados, comentários e a partilha.
-- Dados offline não estão disponíveis enquanto estiver ligado a uma organização externa.
-- Se tiver a aplicação Portal da empresa instalada no seu dispositivo, em seguida, o dispositivo têm de estar inscritos.
+- Os utilizadores têm de ter uma conta ativa do Power BI e um inquilino principal.
+- Os utilizadores têm de ter sessão iniciada no respetivo inquilino principal do Power BI para poderem aceder aos conteúdos partilhados com eles a partir de um inquilino externo.
+- O acesso condicional e outras políticas do Intune não são suportados no Azure AD B2B e no Power BI Mobile. A aplicação impõe apenas as políticas da sua organização, se estas existirem.
+- Apenas são recebidas notificações push do site da sua organização (mesmo quando o utilizador está ligado como um convidado a uma organização externa). A abertura da notificação volta a ligar a aplicação ao site da organização do utilizador.
+- Se o utilizador encerrar a aplicação, quando esta for aberta novamente, será automaticamente ligada à organização do utilizador.
+- Com uma ligação a uma organização externa, algumas ações são desativadas: itens favoritos, alertas de dados, comentários e partilha.
+- Os dados offline não estão disponíveis quando um utilizador está ligado a uma organização externa.
+- Se tiver a aplicação Portal da Empresa instalada no seu dispositivo, terá de o inscrever.

@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61238663"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994947"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações de dados automaticamente com o Power BI
 Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
@@ -38,61 +38,63 @@ Veja a Amanda a executar as informações rápidas num conjunto de dados, a abri
 
 Agora, é a sua vez. Explore as informações através do [exemplo de Análise de Qualidade do Fornecedor](sample-supplier-quality.md).
 
-1. No separador **Conjuntos de dados**, selecione as reticências (...) e escolha **Obter informações**.
+1. No separador **Conjuntos de dados**, selecione as reticências (...) e selecione **Obter informações rápidas**.
    
     ![Separador Conjuntos de Dados](media/service-insights/power-bi-ellipses.png)
    
-    ![menu de reticências](media/service-insights/power-bi-tab.png)
+    ![Menu de reticências](media/service-insights/power-bi-tab.png)
 2. O Power BI usa [vários algoritmos](service-insight-types.md) para pesquisar tendências no conjunto de dados.
    
     ![Caixa de diálogo A procurar informações](media/service-insights/pbi_autoinsightssearching.png)
 3. Em poucos segundos, as informações estão prontas.  Selecione **Ver informações** para apresentar as visualizações.
    
-    ![mensagem de êxito](media/service-insights/pbi_autoinsightsuccess.png)
+    ![Mensagem de êxito](media/service-insights/pbi_autoinsightsuccess.png)
    
     > [!NOTE]
     > Alguns conjuntos de dados não conseguem gerar informações, porque os dados não são estatisticamente significativos.  Para saber mais, veja [Optimize your data for insights (Otimizar os dados das informações)](service-insights-optimize.md).
-   > 
+    > 
     
-1. As visualizações são apresentadas numa tela especial de **Informações Rápidas** com até 32 cartões de informações diferentes. Cada cartão contém um gráfico e uma breve descrição.
+4. As visualizações são apresentadas numa tela especial de **Informações Rápidas** com até 32 cartões de informações diferentes. Cada cartão contém um gráfico e uma breve descrição.
    
     ![tela Informações Rápidas](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Interagir com os cartões das informações
-  ![ícone afixar](media/service-insights/pbi_hover.png)
 
 1. Passe o cursor sobre um cartão e selecione o ícone do pino para adicionar a visualização a um dashboard.
-2. Coloque o cursor sobre um cartão, selecione as reticências (…) e escolha **Ver informações**. Esta ação abre a informação no ecrã inteiro.
+
+2. Coloque o cursor sobre um cartão, selecione as reticências (…) e, em seguida, selecione **Ver informações**. 
+
+    É aberto o ecrã de informações em Modo de detalhe.
    
-    ![Informação no ecrã inteiro](media/service-insights/power-bi-insight-focus.png)
+    ![Modo de detalhe de informações](media/service-insights/power-bi-insight-focus.png)
 3. No Modo de detalhe, pode:
    
-   * Filtrar as visualizações.  Para mostrar os filtros, no canto superior direito, selecione a seta para expandir o painel Filtros.
-        ![informação e menu Filtros expandido](media/service-insights/power-bi-insights-filter-new.png)
-   * Afixe o cartão de informações num dashboard ao selecionar o ícone ![ícone afixar](media/service-insights/power-bi-pin-icon.png) afixar ou **Afixar visual**.
-   * Executar as informações no próprio cartão. Esta operação é muitas vezes denominada **informações confinadas**. No canto superior direito, selecione o ícone da lâmpada ![ícone Obter Informações](media/service-insights/power-bi-bulb-icon.png) ou **Obter informações**.
+   * Filtrar as visualizações. Se o painel **Filtros** ainda não estiver aberto, expanda-o ao selecionar a seta no lado direito da janela.
+
+       ![Menu Filtros de Informações expandido](media/service-insights/power-bi-insights-filter-new.png)
+   * Afixe o cartão de informações a um dashboard ao selecionar **Afixar visual**.
+   * Execute informações no próprio cartão, normalmente conhecido como *informações com âmbito*. No canto superior direito, selecione o ícone da lâmpada ![ícone Obter Informações](media/service-insights/power-bi-bulb-icon.png) ou **Obter Informações**.
      
-       ![barra de menus a mostrar o ícone Obter Informações](media/service-insights/pbi-autoinsights-tile.png)
+       ![Ícone Obter Informações](media/service-insights/pbi-autoinsights-tile.png)
      
      A informação é apresentada à esquerda e os cartões novos, com base apenas nos dados dessa informação, são apresentados à direita.
      
-       ![informações em informações](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![Informações sobre informações](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Para voltar à tela original das informações, no canto superior direito, selecione **Sair do Modo de detalhe**.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Executar as informações num mosaico do dashboard
-Em vez de procurar informações em todo um conjunto de dados, filtre a sua pesquisa de forma a procurar os dados utilizados para criar um único mosaico de dashboard. Esta operação também é muitas vezes denominada **informações confinadas**.
+Em vez de procurar informações em todo um conjunto de dados, filtre a sua pesquisa de forma a obter informações apenas dos dados que são utilizados para criar um único mosaico de dashboard. 
 
 1. Abre um dashboard.
-2. Coloque o cursor sobre um mosaico, selecione as reticências (...) e escolha **Ver informações**. O mosaico abre-se no [Modo de detalhe](service-focus-mode.md) com os cartões de informações apresentados no lado direito.    
+2. Coloque o cursor sobre um mosaico, selecione as reticências (...) e, em seguida, selecione **Ver informações**. O mosaico abre-se no [Modo de detalhe](service-focus-mode.md) com os cartões de informações apresentados no lado direito.    
    
     ![Modo de detalhe](media/service-insights/pbi-insights-tile.png)    
-4. Há alguma informação que desperte o seu interesse? Selecione esse cartão de informação para investigar melhor. A informação selecionada é apresentada à esquerda e os cartões de informações novos, com base apenas nos dados dessa informação, são apresentados à direita.    
-6. Continue a investigar os dados e, quando encontrar uma informação interessante, afixe-o ao dashboard ao selecionar **Afixar visual** no canto superior direito.
+3. Há alguma informação que desperte o seu interesse? Selecione esse cartão de informação para investigar melhor. A informação selecionada é apresentada à esquerda e os cartões de informações novos, com base apenas nos dados dessa informação, são apresentados à direita.    
+4. Continue a investigar os dados e, quando encontrar uma informação interessante, afixe-o ao dashboard ao selecionar **Afixar visual** no canto superior direito.
 
 ## <a name="next-steps"></a>Próximos passos
-Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md)
+- Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md).
+- Saiba mais sobre os [tipos de Informações Rápidas disponíveis](service-insight-types.md).
 
-Saiba mais sobre os [tipos de Informações Rápidas disponíveis](service-insight-types.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
 

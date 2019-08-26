@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/21/2019
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: 3105736c6576428af2d00b6f502c94f94c409977
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230276"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995249"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -38,26 +38,27 @@ Em listas e menus, irá encontrar um ícone junto ao nome de um relatório para 
 
 Existem dois ícones para relatórios nas aplicações móveis do Power BI:
 
-* ![Ícone Relatório](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) Indica um relatório que será apresentado na orientação horizontal na aplicação e terá um aspeto igual ao que tem no browser.
+* ![Ícone Relatório](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica um relatório que é apresentado na orientação horizontal na aplicação e tem um aspeto igual ao que tem no browser.
 
-* ![ícone de relatório no telemóvel](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) Indica um relatório que tem, pelo menos, uma página de relatório otimizada para telemóveis, que será apresentada na orientação vertical. 
+* ![ícone de relatório no telemóvel](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica um relatório que tem pelo menos uma página de relatório otimizada para telemóveis, apresentada na orientação vertical. 
 
-Note: se segurar o seu telemóvel na horizontal, será sempre apresentado o esquema horizontal, mesmo se a página do relatório tiver o esquema de telemóvel. 
+> [!NOTE]
+> Se segurar o seu telemóvel na horizontal, será sempre apresentado o esquema horizontal, mesmo se a página do relatório tiver o esquema de telemóvel. 
 
 Para aceder a um relatório a partir de um dashboard, toque nas reticências (...) no canto superior direito de um mosaico > **Abrir relatório**.
   
   ![Abrir relatório](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  Nem todos os mosaicos têm a opção de abrir num relatório. Por exemplo, os mosaicos criados ao fazer uma pergunta na caixa de Perguntas e Respostas não abrem os relatórios ao tocar nos mesmos. 
+  Nem todos os mosaicos podem ser abertos num relatório. Por exemplo, os mosaicos criados ao fazer uma pergunta na caixa de Perguntas e Respostas não abrem os relatórios ao tocar nos mesmos. 
   
 ## <a name="interacting-with-reports"></a>Interagir com relatórios
-Quando tiver um relatório aberto na aplicação, poderá começar a trabalhar com a mesma. Pode realizar várias ações com o seu relatório e os respetivos dados. No rodapé do relatório, encontrará ações que pode realizar no mesmo. Ao tocar e tocar sem soltar nos dados apresentados no relatório, também poderá segmentar e dividir os dados.
+Quando tiver um relatório aberto na aplicação, poderá começar a trabalhar com a mesma. Pode realizar várias ações com o seu relatório e os respetivos dados. No rodapé do relatório, encontrará ações para realizar no relatório. Ao tocar sem soltar nos dados apresentados no relatório, pode dividir e repartir os mesmos.
 
 ### <a name="using-tap-and-long-tap"></a>Tocar e tocar sem soltar
-Um toque é igual a um clique do rato. Assim, se quiser fazer um realce cruzado no relatório com base nesse ponto de dados, toque no mesmo.
+Um toque é equivalente a um clique do rato. Assim, se quiser fazer um realce cruzado no relatório com base nesse ponto de dados, toque no mesmo.
 Se tocar num valor de segmentação de dados, seleciona esse valor e segmenta o resto do relatório por esse valor. Se tocar num marcador, botão ou ligação, irá ativá-lo com base na ação definida pelo autor.
 
-Já deve ter reparado que é apresentado um limite sempre que toca num elemento visual. No canto superior direito do limite, existem umas reticências (...). Tocar nas mesmas irá apresentar um menu com ações que pode efetuar nesse elemento visual.
+Já deve ter reparado que é apresentado um limite sempre que toca num elemento visual. No canto superior direito do limite, vê umas reticências (...). Tocar nas mesmas apresenta um menu com ações que pode realizar nesse elemento visual.
 
 ![menu e elemento visual do relatório](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -78,7 +79,7 @@ Os autores de relatórios podem definir hierarquias nos dados e nas relações e
 
 ![ações de exploração do relatório](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-Com a *pormenorização*, ao tocar numa parte específica de um elemento visual, o Power BI direciona-o para uma página diferente no relatório, filtrada para apresentar o valor no qual tocou.  O autor de um relatório pode definir uma ou mais opções de pormenorização que encaminhem o utilizador para diferentes páginas. Nesse caso, poderá escolher que página pretende explorar. O botão Anterior permite-lhe voltar à página anterior do relatório.
+Com a *pormenorização*, ao tocar numa parte específica de um elemento visual, o Power BI direciona-o para uma página diferente no relatório, filtrada para apresentar o valor no qual tocou. O autor de um relatório pode definir uma ou mais opções de pormenorização que encaminhem o utilizador para diferentes páginas. Poderá escolher que página pretende explorar. O botão Anterior permite-lhe voltar à página anterior do relatório.
 
 Saiba mais sobre como [adicionar a pormenorização no Power BI Desktop](../../desktop-drillthrough.md).
    
@@ -92,7 +93,7 @@ O rodapé do relatório inclui ações que pode efetuar na página atual do rela
 
 ![rodapé do relatório](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-As ações que pode efetuar a partir do rodapé são as seguintes:
+As ações que pode fazer a partir do rodapé são as seguintes:
 1) Repor o estado original do filtro do relatório e das seleções realçadas de forma cruzada.
 2) Abrir o painel de conversação para ver ou adicionar comentários a este relatório.
 3) Abrir o painel de filtro para ver e modificar o filtro atualmente aplicado ao relatório.
@@ -101,7 +102,7 @@ Pode alternar entre as páginas do relatório ao fazer o gesto de percorrer a pa
 5) Ver todas as ações do relatório.
 
 #### <a name="all-report-actions"></a>Todas as ações do relatório
-Tocar na opção "..." no rodapé do relatório apresenta todas as ações que pode efetuar num relatório. 
+Tocar na opção "..." no rodapé do relatório apresenta todas as ações que pode realizar num relatório. 
 
 ![todas as ações do relatório](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
@@ -109,8 +110,8 @@ Tocar na opção "..." no rodapé do relatório apresenta todas as ações que p
 Por exemplo:
 1) **Filtrar pela localização atual** – esta ação está ativada se os dados do relatório foram categorizados pelo autor com dados geográficos. [Saiba como identificar dados geográficos no seu relatório](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
 2) **Ler para filtrar o relatório por código de barras** – esta ação só está ativada se o conjunto de dados do seu relatório foi identificado como um código de barras. [Identificar códigos de barras no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
-3) **Convidar** – esta ação só está ativada se tiver permissão para partilhar este relatório com outras pessoas. Apenas terá permissão caso seja o proprietário do relatório ou caso lhe tenha sido concedida permissão para voltar a partilhar pelo proprietário.
-4) **Anotar e partilhar** – estas ações podem estar desativadas caso exista uma [política de proteção do Intune](https://docs.microsoft.com/intune/app-protection-policies) na sua organização que impeça a partilha a partir da aplicação Power BI Mobile. 
+3) A ação **Convidar** só está ativada se tiver permissão para partilhar este relatório com outras pessoas. Apenas terá permissão caso seja o proprietário do relatório ou caso lhe tenha sido concedida permissão para voltar a partilhar pelo proprietário.
+4) As ações **Anotar e partilhar** podem estar desativadas caso exista uma [política de proteção do Intune](https://docs.microsoft.com/intune/app-protection-policies) na sua organização que impeça a partilha a partir da aplicação Power BI Mobile. 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Ver e interagir com relatórios do Power BI otimizados para o seu telemóvel](mobile-apps-view-phone-report.md)

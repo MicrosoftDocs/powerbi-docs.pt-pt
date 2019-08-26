@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418663"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530496"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -36,7 +36,7 @@ Com as novas áreas de trabalho, pode:
 Ao criar uma das novas áreas de trabalho, não está a criar um grupo do Office 365 subjacente associado. Todas as tarefas de administração da área de trabalho são efetuadas no Power BI, não no Office 365. Na nova experiência de área de trabalho, pode adicionar um grupo do Office 365 na lista de acesso da área de trabalho para continuar a gerir o acesso dos utilizadores aos conteúdos através de grupos do Office 365.
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>Administrar áreas de trabalho da nova experiência
-Como a administração das áreas de trabalho da nova experiência é agora feita no Power BI, os administradores do Power BI decidem quem na organização as pode criar. Também podem gerir e recuperar áreas de trabalho. Para tal, têm de utilizar o portal de administração do Power BI ou os cmdlets do PowerShell. No caso das áreas de trabalho clássicas com base em Grupos do Office 365, a administração continua a ocorrer no portal de administração do Office 365 e no Azure Active Directory.
+Como a administração das áreas de trabalho da nova experiência é agora feita no Power BI, os administradores do Power BI decidem quem na organização as pode criar. Também podem gerir e recuperar áreas de trabalho, recorrendo apenas ao portal de administração do Power BI ou a CmdLets do PowerShell. No caso das áreas de trabalho clássicas com base em Grupos do Office 365, a administração continua a ocorrer no portal de administração do Office 365 e no Azure Active Directory.
 
 Em **Definições da área de trabalho** no portal de administração, os administradores podem utilizar a definição Criar áreas de trabalho (nova experiência de área de trabalho) para permitir a criação de áreas de trabalho da nova experiência por todas as pessoas ou por ninguém numa organização. Também podem limitar a criação a membros de grupos de segurança específicos.
 
@@ -59,11 +59,11 @@ Para conceder acesso a uma nova área de trabalho, adicione grupos de utilizador
 
 As funções permitem-lhe gerir as ações de cada utilizador numa área de trabalho, para que as equipas possam colaborar. As novas áreas de trabalho permitem-lhe atribuir funções a utilizadores individuais e a grupos de utilizadores: grupos de segurança, grupos do Office 365 e listas de distribuição. 
 
-Quando atribui funções a um grupo de utilizadores, os utilizadores nesse grupo têm acesso aos conteúdos. Se aninhar grupos de utilizadores, todos os utilizadores incluídos nos mesmos têm permissão. Um utilizador que esteja em vários grupos de utilizadores com diferentes funções obtém o nível mais elevado de permissão concedida. 
+Quando atribui funções a um grupo de utilizadores, os utilizadores nesse grupo têm acesso aos conteúdos. Se aninhar grupos de utilizadores, todos os utilizadores incluídos nos mesmos têm permissão.
 
-As novas áreas de trabalho dispõem de quatro funções: administradores, membros, contribuidores e visualizadores.
+Eis as capacidades das quatro funções: administradores, membros, contribuidores e visualizadores.
 
-|Capacidade   | Admin  | Membro  | Contribuidor  | Visualizador |
+|Capacidade   | Administrador  | Membro  | Contribuidor  | Visualizador |
 |---|---|---|---|---|
 | Atualizar e eliminar a área de trabalho.  | X  |   |   |   | 
 | Adicionar/remover pessoas, incluindo outros administradores.  | X  |   |   |   |
@@ -74,23 +74,26 @@ As novas áreas de trabalho dispõem de quatro funções: administradores, membr
 | Criar, editar e eliminar conteúdos na área de trabalho.  |  X | X  | X  |   |
 | Publicar relatórios na área de trabalho, eliminar conteúdos.  |  X | X  | X  |   |
 | Ver um item. |  X | X  | X  | X  |
- 
+| Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho. |  X | X  | X  | X <sup>1</sup>  |
+| Copiar um relatório. | X | X | X | X <sup>1</sup> |
+
+**1** É necessária uma licença do Power BI Pro e [Permissão de compilação de conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
 ## <a name="licensing"></a>Licensing
 Todas as pessoas que adiciona a uma área de trabalho na capacidade partilhada precisam de ter uma licença do Power BI Pro. Na área de trabalho, estes utilizadores podem colaborar nos dashboards e relatórios que planear publicar para um vasto público ou mesmo para toda a organização. 
 
 Se quiser distribuir conteúdos para outras pessoas na sua organização, pode atribuir licenças do Power BI Pro a esses utilizadores ou colocar a área de trabalho numa capacidade do Power BI Premium.
 
-Quando a área de trabalho está numa capacidade do Power BI Premium, os utilizadores com a função Visualizador podem aceder à área de trabalho, mesmo que não tenham uma licença do Power BI Pro. No entanto, se atribuir a esses utilizadores uma função superior, como Administrador, Membro ou Contribuidor, os mesmos não poderão aceder à área de trabalho. Quando o tentarem fazer, ser-lhe-ás pedido que iniciem uma Versão de avaliação do Pro. Para tirar partido da capacidade de Visualizador para utilizadores sem licenças do Pro, confirme que não estão atribuídas outras funções da área de trabalho aos utilizadores com a função Visualizador, individualmente ou através de um grupo de utilizadores. 
+Quando a área de trabalho está numa capacidade do Power BI Premium, os utilizadores com a função Visualizador podem aceder à área de trabalho, mesmo que não tenham uma licença do Power BI Pro. No entanto, se atribuir a esses utilizadores uma função superior, como Administrador, Membro ou Contribuidor, ser-lhes-á pedido que iniciem uma Versão de Avaliação do Pro quando tentarem aceder à área de trabalho. Para tirar partido da capacidade de Visualizador para utilizadores sem licenças do Pro, confirme que não estão atribuídas outras funções da área de trabalho aos utilizadores com a função Visualizador, individualmente ou através de um grupo de utilizadores. 
 
 > [!NOTE]
-> As regras de licenciamento existentes são impostas com maior rigor à publicação de relatórios na nova experiência de área de trabalho. Os utilizadores que tentarem publicar a partir do Power BI Desktop ou de outras ferramentas de cliente sem uma licença do Pro veem o erro "Apenas os utilizadores com licenças do Power BI Pro podem publicar nesta área de trabalho".
+> As regras de licenciamento existentes são impostas com maior rigor à publicação de relatórios na nova experiência de área de trabalho. Os utilizadores que tentarem publicar a partir do Power BI Desktop ou de outras ferramentas cliente sem uma licença do Pro verão o erro "Apenas utilizadores com licenças do Power BI Pro podem publicar nesta área de trabalho".
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Como é que as novas áreas de trabalho diferem das áreas de trabalho atuais?
+## <a name="how-the-new-workspaces-are-different"></a>As diferenças das novas áreas de trabalho
 
-Com as novas áreas de trabalho, estamos a reestruturar algumas funcionalidades. Eis as alterações que podem ser permanentes. 
+Reestruturámos algumas funcionalidades nas novas áreas de trabalho. Eis as alterações que podem ser permanentes. 
 
-* A criação destas áreas de trabalho não irá criar grupos do Office 365, ao contrário do que acontece nas áreas de trabalho clássicas. No entanto, agora pode utilizar um grupo do Office 365 para conceder aos utilizadores acesso à área de trabalho ao atribuir-lhes uma função. 
+* A criação destas áreas de trabalho não irá criar grupos do Office 365, ao contrário do que acontece nas áreas de trabalho clássicas. No entanto, agora pode utilizar um grupo do Office 365 para conceder aos utilizadores acesso à área de trabalho ao atribuir-lhes uma função. 
 * Nas áreas de trabalho clássicas, só pode adicionar utilizadores individuais à lista de membros e administradores. Nas novas áreas de trabalho, pode adicionar múltiplos grupos de segurança do AD, listas de distribuição ou grupos do Office 365 a estas listas para uma gestão de utilizadores mais fácil. 
 - Pode criar um pacote de conteúdos organizacionais a partir de uma área de trabalho clássica. Não pode criar um pacote a partir das novas áreas de trabalho.
 - Pode utilizar um pacote de conteúdos organizacionais a partir de uma área de trabalho clássica. Não pode utilizar um pacote a partir das novas áreas de trabalho.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370506"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560825"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Mostrar itens sem dados no Power BI
 
@@ -25,7 +25,7 @@ O Power BI permite-lhe visualizar todos os tipos de dados de várias origens. Ao
 
 ## <a name="determining-relevant-data"></a>Determinar os dados relevantes
 
-Para começar a compreender a forma como o Power BI determina os dados cuja apresentação é relevante, consideremos uma tabela como um exemplo simples. Utilizando o modelo representado na secção de exemplos, disponível na parte final deste artigo, considere criar uma tabela com as definições abaixo:
+Para começar a compreender a forma como o Power BI determina os dados cuja apresentação é relevante, consideremos uma tabela como um exemplo simples. Com o modelo representado na secção [modelo de dados de exemplo](#example-data-model), disponível no fim deste artigo, pondere criar uma tabela com as seguintes definições:
 
 **1. Grupos da mesma tabela:** *Product[Color] - Product[Size]*
 
@@ -152,6 +152,25 @@ Como aparece se a funcionalidade **Mostrar itens sem dados** estiver ativada:
 |Vermelho     |Brilhante         |         |
 
 Neste caso, repare como *ProductStyle[Finish]=None* não aparece na tabela. Isto deve-se ao facto de que, neste caso, o Power BI selecionou primeiro todos os valores de *Color* na tabela *Product*. Depois, para cada cor, selecionou os valores de *Finish* correspondentes que continham dados. Uma vez que *Nenhum* não aparece em nenhuma combinação de *Color*, não é selecionado.
+
+
+## <a name="power-bi-visual-behavior"></a>Comportamento dos elementos visuais do Power BI
+
+Quando a opção **Mostrar itens sem dados** está ativa num campo de um elemento visual, a funcionalidade é automaticamente ativada para todos os outros campos que estão no mesmo *registo de elemento visual* ou na mesma hierarquia. Um registo de elemento visual ou uma hierarquia pode ser o **Eixo** ou a **Legenda** ou a **Categoria**, as **Linhas** e as **Colunas**.
+
+![Campos do eixo e da legenda](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+Por exemplo, num Elemento visual de matriz com quatro campos no registo **Linhas**, se um campo tiver a opção **Mostrar itens sem dados** ativa, todos os itens na matriz também a terão. Na seguinte imagem, a opção **Mostrar itens sem dados** está ativa no primeiro campo do registo **Linhas**, o campo *IDdeFornecedor*. Os outros campos no registo **Linhas** também têm a opção ativa automaticamente.
+
+![Os campos no mesmo elemento visual ativam automaticamente a opção Mostrar itens sem dados](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+Em contrapartida, o campo *Continente* apresentado no registo **Colunas** *não* tem a opção **Mostrar itens sem dados** ativa automaticamente. 
+
+O comportamento deste elemento visual é comum quando um elemento visual é convertido num tipo diferente, por exemplo, quando ocorre a conversão de um Elemento visual de matriz num elemento visual de tabela. Nestas conversões, a opção **Mostrar itens sem dados** é automaticamente ativada em qualquer campo movido para um registo que inclua um campo que tenha a funcionalidade ativa. No exemplo anterior, se o campo *IDdeFornecedor* tivesse a funcionalidade **Mostrar itens sem dados** ativa e o elemento visual fosse convertido numa tabela, o campo *Continente* do registo **Colunas** seria movido (juntamente com os campos no registo **Linhas**) para o único registo utilizado num elemento visual de tabela – o registo **Valores**. Assim, todos os campos no registo **Valores** teriam a funcionalidade **Mostrar itens sem dados** ativa.
+
+### <a name="exporting-data"></a>Exportar dados
+
+Ao utilizar a funcionalidade **Exportar dados resumidos**, o comportamento da funcionalidade **Mostrar itens sem dados** será o mesmo que se verificaria se o resultado da exportação fosse convertido num Elemento visual de tabela. Assim, ao exportar um elemento visual como um elemento de Matriz de Gráfico, os dados exportados podem aparecer de forma diferente do elemento visual apresentado. Esta situação deve-se ao facto de a conversão num elemento visual de tabela, como parte do processo de exportação, levar à ativação da opção **Mostrar itens sem dados** para todos os campos a ser exportados. 
 
 ## <a name="example-data-model"></a>Modelo de dados de exemplo
 
