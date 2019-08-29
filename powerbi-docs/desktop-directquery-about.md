@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590544"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654758"
 ---
 # <a name="using-directquery-in-power-bi"></a>Utilizar o DirectQuery no Power BI
 Pode ligar-se a todos os diferentes tipos de origens de dados através do **Power BI Desktop** ou do **serviço Power BI** e pode efetuar essas ligações de dados de formas diferentes. Pode *importar* dados para o Power BI, que é a forma mais comum de os obter, ou ligar-se diretamente aos dados no respetivo repositório de origem original, conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e as respetivas funcionalidades:
@@ -140,11 +140,8 @@ Quando utiliza o **DirectQuery**, continua a ser possível fazer muitas destas m
 * **Limitações nas colunas calculadas:** as colunas calculadas estão limitadas a ser intralinhas, no sentido em que apenas podem referenciar valores de outras colunas da mesma tabela sem utilizar qualquer função de agregação. Além disso, as funções escalares DAX (como LEFT()) permitidas estarão limitadas às que podem simplesmente ser enviadas para a origem subjacente, pelo que variarão consoante as capacidades exatas da origem. As funções que não são suportadas não serão listadas na conclusão automática durante a criação do DAX para uma coluna calculada e, se forem utilizadas, resultarão em erro.
 * **Sem suporte para funções DAX principal/subordinado:** no modelo DirectQuery, não pode utilizar a família de funções DAX PATH(), as quais, geralmente, processam as estruturas Principal/Subordinado (como um gráfico de contas ou hierarquias de funcionários).
 * **As tabelas calculadas não são suportadas:** a capacidade de definir uma tabela calculada com uma expressão DAX não é suportada no modo DirectQuery.
-* **A filtragem de relação está limitada a um único sentido:** ao utilizar o DirectQuery, não pode definir o sentido do Filtro Cruzado numa relação como “Ambos”. Por exemplo, com as três tabelas abaixo, não seria possível criar um elemento visual que mostrasse cada Customer[Gender] e o número de Product[Category] que cada um comprou. A utilização desta filtragem bidirecional está descrita [neste documento técnico detalhado](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (o documento apresenta exemplos no contexto do SQL Server Analysis Services, mas os pontos fundamentais aplicam-se igualmente ao Power BI).
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  Mais uma vez, a limitação é imposta devido às implicações no desempenho. Uma aplicação particularmente importante desta situação é quando definir a Segurança ao Nível da Linha como parte do relatório, pois um padrão comum consiste em ter uma relação de muitos para muitos entre os utilizadores e as entidades às quais aqueles podem aceder e é necessário utilizar a filtragem bidirecional para impor essa relação. No entanto, a utilização da filtragem bidirecional em modelos do DirectQuery deve ser utilizada com cuidado, dando especial atenção a eventuais impactos negativos no desempenho.  
+* **Filtragem de relações:** A utilização da filtragem bidirecional está descrita [neste documento técnico detalhado](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (o documento apresenta exemplos no contexto do SQL Server Analysis Services, mas os pontos fundamentais aplicam-se igualmente ao Power BI).
+
 * **Sem Clustering:** ao utilizar o DirectQuery, não pode utilizar a capacidade de Clustering para encontrar grupos automaticamente
 
 ### <a name="reporting-limitations"></a>Limitações de relatórios

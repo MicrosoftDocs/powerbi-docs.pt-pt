@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530529"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654901"
 ---
 # <a name="share-a-dataset-preview"></a>Partilhar um conjunto de dados (Pré-visualização)
 
@@ -42,7 +42,7 @@ Enquanto criador de *modelos de dados* no Power BI Desktop, pode partilhá-los c
 
 ## <a name="build-permissions-for-shared-datasets"></a>Permissões de compilação para conjuntos de dados partilhados
 
-Uma permissão de compilação só serve para conjuntos de dados. Com esta permissão, os utilizadores podem compilar novos conteúdos num conjunto de dados, como relatórios, dashboards, mosaicos afixados das Perguntas e Respostas e Deteção de Informações. Também podem compilar novos conteúdos no conjunto de dados, como folhas do Excel, fora do Power BI, através da funcionalidade Analisar no Excel, de XMLA e de exportação.
+Uma permissão de compilação só serve para conjuntos de dados. Com esta permissão, os utilizadores podem compilar novos conteúdos num conjunto de dados, como relatórios, dashboards, mosaicos afixados das Perguntas e Respostas e Deteção de Informações. Também podem compilar novos conteúdos no conjunto de dados, como folhas do Excel, fora do Power BI, através da funcionalidade Analisar no Excel, de XMLA e de exportação de dados subjacentes.
 
 Os utilizadores podem obter permissões de compilação de várias formas diferentes:
 
@@ -72,7 +72,7 @@ Com esta permissão de compilação mais granular, pode selecionar quem apenas p
 
 Se o seu conjunto de dados estiver a ser utilizado por um relatório fora da área de trabalho do mesmo, não poderá eliminá-lo. Se tentar eliminar o conjunto de dados, será apresentada uma mensagem de erro.
 
-Pode remover permissões de compilação. Se o fizer, as pessoas a quem revogar permissões ainda irão poder ver o relatório, mas já não irão poder editá-lo.
+Pode remover permissões de compilação. Se o fizer, as pessoas a quem revogar permissões ainda irão poder ver o relatório, mas já não irão poder editá-lo ou exportar dados subjacentes. Os utilizadores com permissão só de leitura continuarão a poder exportar dados resumidos. 
 
 ## <a name="track-your-dataset-usage"></a>Controlar a utilização do seu conjunto de dados
 

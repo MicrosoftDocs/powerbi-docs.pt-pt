@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522187"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621258"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Títulos baseados em expressões no Power BI Desktop
 
@@ -57,7 +57,7 @@ Depois de criar a expressão DAX para o campo que criar no seu modelo, precisar�
 
 Para selecionar e aplicar o campo, aceda ao painel **Visualizações**. Na área **Formatação**, selecione **Título** para mostrar as opções de título para o elemento visual. 
 
-Quando clicar com o botão direito do rato em **Texto do título**, será apresentado um menu de contexto que lhe permite selecionar a ***fx* formatação condicional**. Quando selecionar esse item de menu, aparece uma caixa de diálogo **Texto do título**. 
+Quando clicar com o botão direito do rato em **Texto do título**, será apresentado um menu de contexto que lhe permite selecionar a **<em>fx</em>Formatação condicional**. Quando selecionar esse item de menu, aparece uma caixa de diálogo **Texto do título**. 
 
 ![Captura de ecrã a mostrar a caixa de diálogo do texto do título](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

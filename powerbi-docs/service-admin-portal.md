@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757723"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655163"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -174,7 +174,7 @@ Também pode especificar um URL para direcionar os utilizadores para uma soluç�
 
 Os grupos de segurança com capacidade de correio receberão notificações de e-mail se este inquilino for afetado por um incidente ou uma indisponibilidade do serviço. Saiba mais sobre as [Notificações de interrupção do serviço](service-interruption-notifications.md).
 
-## <a name="workspace-settings"></a>Definições de área de trabalho
+## <a name="workspace-settings"></a>Definições da área de trabalho
 
 ### <a name="create-workspaces"></a>Criar áreas de trabalho
 
@@ -188,7 +188,7 @@ No portal de administração, também controla quais os utilizadores que têm pe
 
 ### <a name="share-content-with-external-users"></a>Partilhar conteúdo com utilizadores externos
 
-Os utilizadores na organização podem partilhar dashboards com utilizadores fora da organização. [Saiba mais](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+Os utilizadores na organização podem partilhar dashboards com utilizadores fora da organização. Saiba mais sobre a [partilha externa](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Definição Utilizadores externos](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -377,7 +377,7 @@ As métricas de utilização para os criadores de conteúdo irão expor nomes a 
 
 Por predefinição, os dados por utilizador estão ativados para métricas de utilização e as informações da conta do criador de conteúdo estão incluídas no relatório de métricas. Se não pretender recolher estas informações para todos os utilizadores, poderá desativar a funcionalidade para grupos de segurança específicos ou para toda a organização. As informações da conta dos utilizadores excluídos serão apresentadas no relatório como *Sem nome*.
 
-## <a name="dashboard-settings"></a>Definições do dashboard
+## <a name="dashboard-settings"></a>Definições de dashboard
 
 ### <a name="data-classification-for-dashboards"></a>Classificação de dados para dashboards
 

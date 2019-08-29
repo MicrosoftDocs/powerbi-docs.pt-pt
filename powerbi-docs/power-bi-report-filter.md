@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346393"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654462"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtros nos relatórios do Power BI
 
@@ -48,6 +48,10 @@ Por predefinição, a nova experiência de filtros é ativada para novos relató
 3. Em **Experiência de filtragem**, selecione **Ativar o painel de filtros atualizado e apresentar filtros no cabeçalho do elemento visual deste relatório**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Ativar os novos filtros para um relatório existente no serviço
+
+Se tiver ativado o **Novo aspeto** no serviço Power BI ![Novo aspeto ligado](media/power-bi-report-filter/power-bi-new-look-on.png), a nova experiência de filtro ficará automaticamente ativa. Leia mais sobre o [novo aspeto do serviço Power BI](service-new-look.md).
+
+Mesmo que não tenha ativado o novo aspeto, pode ver a nova experiência de filtro ao seguir estes passos.
 
 1. No serviço Power BI, selecione o separador **Relatórios** na lista de conteúdos de uma área de trabalho.
 2. Localize o relatório que pretende ativar e selecione o ícone de **Definições** ![ícone de Definições de Relatórios](media/power-bi-report-filter/power-bi-settings-icon.png) desse relatório.
@@ -114,22 +118,20 @@ Também pode formatar estes elementos para cartões de filtros, dependendo se es
 - Limite: ativado ou desativado
 - Cor dos limites
 - Tipo de letra, cor e tamanho do texto
-- Cor da caixa de entrada
+- Cor de caixa de entrada
 
 ### <a name="format-the-filters-pane-and-cards"></a>Formatar o painel Filtros e os Cartões de filtros
 
 1. No relatório, clique no relatório propriamente dito ou no fundo (*imagem de fundo*), em seguida, no painel **Visualizações** e selecione **Formatar**. 
     Verá as opções de formatação da página do relatório, da imagem de fundo e também do painel Filtros e dos Cartões de filtros.
 
-    ![Selecionar o ícone Formatar](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. Expanda **Painel de filtros** para definir a cor do fundo, o ícone e o limite esquerdo, para complementar a página do relatório.
 
-    ![Expandir o Painel de filtros](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![Expandir o Painel de filtros](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Expanda **Cartões de filtros** para definir a cor e o limite **Disponível** e **Aplicado**. Se disponibilizar cores diferentes para cartões disponíveis e aplicados, será óbvio quais são os filtros aplicados. 
   
-    ![Expandir o Cartão de filtros](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![Expandir o Cartão de filtros](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>Temas para o painel Filtros
 Agora, pode modificar as predefinições do painel Filtros com o ficheiro de tema. Segue-se um recorte do tema de exemplo para começar:

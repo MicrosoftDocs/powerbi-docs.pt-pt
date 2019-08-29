@@ -1,8 +1,8 @@
 ---
 title: Editar variáveis de SAP no serviço Power BI (pré-visualização)
 description: Azure e Power BI
-author: maggiesMSFT
-ms.author: maggies
+author: Sujata994
+ms.author: sunaraya
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aff72d8efed716af2e7f4c881b22af12e248c207
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962901"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654878"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>Editar variáveis de SAP no serviço Power BI (pré-visualização)
 
@@ -48,7 +48,7 @@ Há alguns requisitos para utilizar a funcionalidade de edição de variáveis d
 
 ## <a name="how-to-enable-the-feature"></a>Como ativar a funcionalidade
 
-Para ativar a funcionalidade de **edição de variáveis de SAP**, ligue a uma origem de dados SAP HANA ou SAP BW no Power BI Desktop. Em seguida, aceda a **Ficheiro > Opções e definições > Opções** e, na secção Ficheiro Atual no painel esquerdo, selecione **DirectQuery**. Quando selecionar esta opção, irá ver no painel direito opções do DirectQuery e uma caixa de verificação em que pode **Permitir que os utilizadores finais alterem variáveis de SAP no relatório (pré-visualização)**, conforme apresentado na seguinte imagem.
+Para ativar a funcionalidade de **edição de variáveis de SAP**, ligue a uma origem de dados SAP HANA ou SAP BW no Power BI Desktop. Em seguida, aceda a **Ficheiro > Opções e definições > Opções** e, na secção Ficheiro Atual no painel esquerdo, selecione **DirectQuery**. Quando selecionar esta opção, irá ver no painel direito opções do DirectQuery e uma caixa de verificação em que pode **Permitir que os utilizadores finais alterem variáveis de SAP no relatório (pré-visualização)** , conforme apresentado na seguinte imagem.
 
 ![Opções do DirectQuery](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 

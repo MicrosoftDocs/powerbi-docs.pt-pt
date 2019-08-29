@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 49a1f02e5aa327c2704b6c2d789934a43b760ad0
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962017"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985704"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
-Este artigo descreve como ativar e configurar cargas de trabalho para capacidades Premium do Power BI. Por predefinição, as capacidades só suportam as cargas de trabalho associadas à execução de consultas do Power BI. Também pode ativar e configurar cargas de trabalho adicionais para **[IA (Serviços Cognitivos)](service-cognitive-services.md)**, **[Fluxos de dados](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[Relatórios paginados](paginated-reports-save-to-power-bi-service.md)**.
+Este artigo descreve como ativar e configurar cargas de trabalho para capacidades Premium do Power BI. Por predefinição, as capacidades só suportam as cargas de trabalho associadas à execução de consultas do Power BI. Também pode ativar e configurar cargas de trabalho adicionais para **[IA (Serviços Cognitivos)](service-cognitive-services.md)** , **[Fluxos de dados](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[Relatórios paginados](paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Predefinições de memória
 
@@ -47,43 +47,71 @@ As cargas de trabalho de consulta são otimizadas e limitadas por recursos deter
 
 ### <a name="ai-preview"></a>IA (Pré-visualização)
 
-Além da definição **Memória Máxima**, a carga de trabalho de IA tem uma definição adicional, **Permitir a utilização a partir do Power BI Desktop**. A predefinição é **Inativa**. Esta definição é reservada para utilização futura e poderá não ser apresentada em todos os inquilinos.
+A carga de trabalho de IA permite-lhe utilizar os serviços cognitivos e a Machine Learning Automatizada no Power BI. Utilize as seguintes definições para controlar o comportamento da carga de trabalho.
 
-### <a name="datasets-preview"></a>Conjuntos de dados (Pré-visualização)
+| Nome da Definição | Descrição |
+|---------------------------------|----------------------------------------|
+| **Memória Máxima (%)** | A percentagem máxima de memória disponível que os processos de IA podem utilizar numa capacidade. |
+| **Permitir a utilização a partir do Power BI Desktop** | Esta definição está reservada para utilização futura e não é apresentada em todos os inquilinos. |
+| **Permitir a compilação de modelos de machine learning** | Especifica se os analistas de negócios podem preparar, validar e invocar modelos de machine learning diretamente no Power BI. Para obter mais informações, veja [Machine Learning Automatizado no Power BI (Pré-visualização)](service-machine-learning-automated.md). |
+| **Ativar o paralelismo de pedidos de IA** | Especifica se os pedidos de IA podem ser executados em paralelo. |
+|  |  |
 
-Por predefinição, a carga de trabalho Conjuntos de dados está ativada e não pode ser desativada. Esta carga de trabalho contém uma definição adicional para o _ponto final de XMLA_ e um conjunto de definições relacionadas com o desempenho. Esta definição do **Ponto Final de XMLA** especifica que as ligações das aplicações cliente são feitas de acordo com a associação de grupo de segurança definida aos níveis da área de trabalho e da aplicação. Para saber mais, veja [Ligar a conjuntos de dados com ferramentas e aplicações cliente](service-premium-connect-tools.md).
+### <a name="datasets"></a>Conjuntos de Dados
 
-As definições relacionadas com o desempenho estão descritas na tabela seguinte.
+A carga de trabalho dos conjuntos de dados está ativada por predefinição e não pode ser desativada. Utilize as seguintes definições para controlar o comportamento da carga de trabalho.
 
-| Nome da Definição | Descrição | Utilização |
-|---------------------------------|----------------------------------------|----------------------------------------|
-| **Contagem Máxima do Conjunto de Linhas Intermediárias** | O número máximo de linhas intermediárias devolvido pelo DirectQuery. O valor predefinido é 1000000 e o intervalo de valores permitido é entre 100000 e 2147483647 | Controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
-| **Tamanho Máximo do Conjunto de Dados Offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Este valor corresponde ao tamanho comprimido em disco. O valor predefinido é determinado pelo SKU e o intervalo permitido é entre 0,1 – 10 GB | Impedir que os criadores de relatórios publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. |
-| **Contagem Máxima do Conjunto de Linhas de Resultados** | Define o número máximo de linhas devolvidas numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647 | Controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
-| **Limite de Memória de Consulta (%)** | Aplica-se apenas a medidas e consultas DAX. Especificado em % e restringe a quantidade de memória que pode ser utilizada pelos resultados temporários durante uma consulta. | Controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
-| **Tempo Limite de Consulta (segundos)** | Um número inteiro que define o tempo limite, em segundos, para as consultas. A predefinição é 3600 segundos (ou 60 minutos). O valor Zero (0) especifica que nenhuma consulta irá atingir o tempo limite. | Manter um melhor controlo sobre consultas de execução longa. |
+| Nome da Definição | Descrição |
+|---------------------------------|----------------------------------------|
+| **Memória Máxima (%)** | A percentagem máxima de memória disponível que os conjuntos de dados podem utilizar numa capacidade. |
+| **Ponto Final de XMLA** | Especifica que as ligações das aplicações cliente são feitas de acordo com a associação de grupo de segurança definida aos níveis da área de trabalho e da aplicação. Para obter mais informações, veja [Ligar aos conjuntos de dados com ferramentas e aplicações cliente](service-premium-connect-tools.md). |
+| **Contagem Máxima do Conjunto de Linhas Intermediárias** | O número máximo de linhas intermediárias devolvido pelo DirectQuery. O valor predefinido é 1000000 e o intervalo de valores permitido é entre 100000 e 2147483647. Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
+| **Tamanho Máximo do Conjunto de Dados Offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Este valor corresponde ao tamanho comprimido em disco. O valor predefinido é determinado pelo SKU e o intervalo permitido é entre 0,1 e 10 GB. Utilize esta definição para impedir que os criadores de relatórios publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. |
+| **Contagem Máxima do Conjunto de Linhas de Resultados** | O número máximo de linhas devolvido numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647. Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
+| **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível que pode ser utilizada para obter resultados temporários numa consulta ou medida DAX. Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
+| **Tempo Limite de Consulta (segundos)** | O limite máximo de tempo de uma consulta. A predefinição é 3600 segundos (1 hora). O valor 0 especifica que as consultas não irão exceder o limite de tempo. Utilize esta definição para manter um melhor controlo sobre consultas de execução longa. |
 |  |  |  |
 
 ### <a name="dataflows"></a>Fluxos de Dados
 
-Além da definição **Memória Máxima**, a carga de trabalho Fluxos de dados tem uma definição adicional, **Tamanho do contentor**. Esta definição permite-lhe otimizar o desempenho da carga de trabalho Fluxos de dados para processar fluxos de dados mais complexos que exijam mais recursos de computação.
+A carga de trabalho dos fluxos de dados permite-lhe utilizar a preparação personalizada de fluxos de dados para ingerir, transformar, integrar e enriquecer os dados. Utilize as seguintes definições para controlar o comportamento da carga de trabalho.
 
-Ao atualizar um fluxo de dados, a carga de trabalho Fluxo de dados gera um contentor para cada entidade no fluxo de dados. Cada contentor pode ocupar memória até ao volume especificado na definição Tamanho do contentor. A predefinição para todos os SKUs é **700 MB**. É aconselhável alterar esta definição se:
+| Nome da Definição | Descrição |
+|---------------------------------|----------------------------------------|
+| **Memória Máxima (%)** | A percentagem máxima de memória disponível que os fluxos de dados podem utilizar numa capacidade. |
+| **Motor de Computação de Fluxos de Dados Avançado (Pré-visualização)** | Ative esta opção para obter um cálculo de entidades 20 vezes mais rápido ao trabalhar com grandes volumes de dados. **Tem de reiniciar a capacidade para ativar o novo motor.** Para obter mais informações, veja [Motor de computação de fluxos de dados avançado](#enhanced-dataflows-compute-engine). |
+| **Tamanho do Contentor** | O tamanho máximo do contentor utilizado para cada entidade num fluxo de dados. O valor predefinido é 700 MB. Para obter mais informações, veja [Tamanho do contentor](#container-size). |
+|  |  |
+
+#### <a name="enhanced-dataflows-compute-engine"></a>Motor de computação de fluxos de dados avançado
+
+Para tirar partido do novo motor de computação, divida a ingestão de dados em fluxos de dados separados e coloque a lógica de transformação em entidades calculadas em fluxos de dados diferentes. Esta abordagem é recomendada porque o motor de computação funciona em fluxos de dados que fazem referência a um fluxo de dados existente. O motor de computação não funciona em fluxos de dados de ingestão. O seguimento destas orientações garante que o novo motor de computação processa os passos de transformação, como associações e intercalações, para um desempenho ideal.
+
+#### <a name="container-size"></a>Tamanho do contentor
+
+Ao atualizar um fluxo de dados, a carga de trabalho Fluxo de dados gera um contentor para cada entidade no fluxo de dados. Cada contentor pode ocupar memória até ao volume especificado na definição **Tamanho do Contentor. A predefinição para todos os SKUs é 700 MB. É aconselhável alterar esta definição se:
 
 - Os fluxos de dados demorarem muito tempo a atualizarem ou se a atualização do fluxo de dados falhar e atingir o tempo limite.
 - As entidades do fluxo de dados incluírem passos de computação, por exemplo, uma associação.  
 
-É recomendável utilizar a aplicação [Métricas de Capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md) para analisar o desempenho da carga de trabalho Fluxo de dados. 
+É recomendável utilizar a aplicação [Métricas de Capacidade do Power BI Premium](service-admin-premium-monitor-capacity.md) para analisar o desempenho da carga de trabalho Fluxo de dados.
 
 Em alguns casos, aumentar o tamanho do contentor pode não melhorar o desempenho. Por exemplo, se o fluxo de dados de dados estiver a obter dados a partir de uma única origem sem efetuar cálculos significativos, é provável que o aumento do tamanho do contentor não resolva o problema. Aumentar o tamanho do contentor pode ajudar se permitir alocar mais memória na carga de trabalho Fluxo de dados para as operações de atualização de entidades. Ao alocar mais memória, pode reduzir o tempo necessário para atualizar entidades que exijam muitos recursos de computação.
 
 O valor em Tamanho do Contentor não pode exceder a memória máxima da carga de trabalho Fluxo de dados. Por exemplo, uma capacidade P1 tem 25 GB de memória. Se a Memória Máxima (%) da carga de trabalho Fluxo de dados (%) estiver definida para 20%, o Tamanho do Contentor (MB) não poderá exceder 5000. Em todos os casos, o Tamanho do Contentor não pode exceder a Memória Máxima, mesmo que defina um valor mais alto.
 
-### <a name="paginated-reports-preview"></a>Relatórios paginados (Pré-visualização)
+### <a name="paginated-reports"></a>Relatórios paginados
+
+A carga de trabalho de relatórios paginados permite-lhe executar relatórios paginados, com base no formato padrão do SQL Server Reporting Services, no serviço Power BI. Utilize a seguinte definição para controlar o comportamento da carga de trabalho.
+
+| Nome da Definição | Descrição |
+|---------------------------------|----------------------------------------|
+| **Memória Máxima (%)** | A percentagem máxima de memória disponível que os relatórios paginados podem utilizar numa capacidade. |
+|  |  |
 
 Os relatórios paginados permitem a execução de código personalizado na composição do relatório. Por exemplo, alterar dinamicamente a cor do texto com base nos conteúdos, que pode ocupar memória adicional. O Power BI Premium executa relatórios paginados num espaço contido dentro da capacidade. A Memória Máxima especificada é utilizada, *independentemente* de a carga de trabalho estar ou não ativa. Se alterar a definição Memória Máxima da predefinição, certifique-se de que a define para um valor inferior o suficiente para não afetar negativamente outras cargas de trabalho.
 
-Em alguns casos, a carga de trabalho Relatórios Paginados pode ficar indisponível. Neste caso, a carga de trabalho apresenta um estado de erro no Portal de administração e os utilizadores veem tempos limite para a composição do relatório. Para mitigar este problema, desative a carga de trabalho e, em seguida, ative-a novamente.
+Em alguns casos, a carga de trabalho de relatórios paginados pode ficar indisponível. Neste caso, a carga de trabalho apresenta um estado de erro no Portal de administração e os utilizadores veem tempos limite para a composição do relatório. Para mitigar este problema, desative a carga de trabalho e, em seguida, ative-a novamente.
 
 ## <a name="configure-workloads"></a>Configurar cargas de trabalho
 

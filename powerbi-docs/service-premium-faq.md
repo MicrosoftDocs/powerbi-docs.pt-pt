@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565391"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654275"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 
@@ -76,7 +76,7 @@ O Power BI Premium está disponível como um suplemento para o Power BI Pro. O O
 
 **O que é o Power BI Report Server? Isto significa que o Power BI fica disponível no local?**
 
-O Power BI Report Server é um servidor no local que permite a implementação e distribuição de relatórios interativos do Power BI e relatórios paginados, completamente dentro dos limites da firewall da organização. O Power BI Report Server está disponível através do Power BI Premium ou enquanto vantagem para os clientes com o SQL Server Enterprise Edition com Software Assurance. Contacte o representante da Microsoft para obter mais informações.
+O Power BI Report Server é um servidor no local que permite a implementação e distribuição de relatórios interativos do Power BI e relatórios paginados, completamente dentro dos limites da firewall da organização. O Power BI Report Server está disponível através do Power BI Premium ou enquanto vantagem para os clientes com o SQL Server Enterprise Edition com Software Assurance. Para obter informações sobre o licenciamento, veja [Licenciar o Power BI Report Server](report-server/get-started.md#licensing-power-bi-report-server). Contacte o representante da Microsoft para obter detalhes.
 
 Com o Power BI Premium, o mesmo número de núcleos virtuais que uma organização aprovisiona na cloud também pode ser implementado no local através do Power BI Report Server. Não é necessário dividir a capacidade. As organizações podem escolher o Power BI na cloud ou optar por manter relatórios no local com o Power BI Report Server e passar para a cloud ao seu ritmo.
 

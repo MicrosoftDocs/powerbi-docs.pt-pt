@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324779"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654965"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicações e conectores que funcionam em conjunto para transformar as origens de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Os dados podem ser uma folha de cálculo do Excel ou uma coleção de armazéns de dados híbridos no local e com base na cloud. O Power BI permite-lhe ligar-se facilmente às suas origens de dados, visualizar e descobrir o que é importante, bem como partilhar os seus conteúdos com qualquer pessoa.
@@ -25,11 +25,11 @@ O Power BI pode ser simples e rápido e tem capacidade de criar informações r�
 
 ## <a name="the-parts-of-power-bi"></a>As partes do Power BI
 O Power BI consiste: 
-- Numa aplicação de ambiente de trabalho do Windows chamada **Power BI Desktop**
-- Num serviço SaaS (*Software como Serviço*) online chamado **serviço Power BI** 
-- Nas **aplicações móveis** do Power BI para dispositivos Windows, iOS e Android
+- Numa aplicação para computadores com Windows, chamada **Power BI Desktop**.
+- Num serviço SaaS (*Software como Serviço*) online chamado **serviço Power BI**. 
+- Nas **aplicações móveis** do Power BI para dispositivos Windows, iOS e Android.
 
-![Power BI Desktop, serviço, móvel](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop, serviço, móvel](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Estes três elementos&mdash;o Power BI Desktop, o serviço Power BI e as aplicações móveis do Power BI&mdash;foram concebidos para permitir que as pessoas criem, partilhem e consumam informações empresariais de forma a satisfazer ao máximo as suas necessidades pessoais ou profissionais.
 

@@ -1,5 +1,5 @@
 ---
-title: Explore o "novo aspeto" do serviço Power BI
+title: O "novo aspeto" do serviço Power BI
 description: O serviço Power BI (app.powerbi.com) tem um novo aspeto. Este artigo descreve como pode navegar em relatórios com o novo aspeto.
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471313"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654922"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Explore o "novo aspeto" do serviço Power BI
+# <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
 
-O serviço Power BI tem um novo aspeto. Tornámos a visualização de relatórios mais fácil. O novo aspeto é uma experiência moderna mais simples que se baseia na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
+O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é uma experiência moderna mais simples que se baseia na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
 
 ![Descrição geral das alterações do novo aspeto](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -31,11 +31,11 @@ Esta animação demonstra as alterações ao aspeto de um relatório.
 
 ## <a name="1-opt-in-to-the-new-look"></a>1. Ativar o novo aspeto
 
-Qualquer utilizador do serviço Power BI pode utilizar o novo aspeto. Basta clicar em **Novo aspeto desativado** para a opção mudar para **Novo aspeto ativado**.
+Qualquer utilizador do serviço Power BI pode utilizar o novo aspeto. Basta clicar em **Novo aspeto desligado** para a opção mudar para **Novo aspeto ligado**.
 
 ![Ativar o novo aspeto](media/service-new-look/power-bi-new-look-off.png)
 
-Se quiser voltar a utilizar o aspeto antigo, selecione o menu de reticências no canto superior direito.
+Se precisar de regressar ao aspeto antigo, **desative** o novo aspeto ao clicar em ![Novo aspeto ligado](media/service-new-look/power-bi-new-look-toggle-on.png). Se esta opção não for apresentada, selecione o menu de reticências no canto superior direito.
 
 ![Desativar o novo aspeto](media/service-new-look/power-bi-new-look-on.png)
 
@@ -82,7 +82,7 @@ Os dashboards também têm uma barra de ação simplificada, como os relatórios
 
 ## <a name="no-changes-to-edit-mode"></a>Não fizemos alterações ao modo de edição 
 
-Mantivemos a experiência de criação semelhante à do Desktop. As alterações do novo aspeto aplicam-se apenas à vista de leitura.
+Mantivemos a experiência de criação semelhante à experiência do Desktop. As alterações do novo aspeto aplicam-se apenas à vista de leitura.
 
 ## <a name="next-steps"></a>Próximos passos
 

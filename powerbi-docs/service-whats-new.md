@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375273"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655041"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
@@ -31,31 +31,31 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ## <a name="may-2019"></a>Maio de 2019
-* [Navegação personalizada](service-create-distribute-apps.md) para aplicações do Power BI.
-* Anexos adicionais tipos (PPTX, XLSX, DOCX, CSV, XML) disponíveis para email subcriptions nos relatórios paginados.
+* [Navegação personalizada](service-create-distribute-apps.md) para Aplicações do Power BI.
+* Tipos de anexos adicionais (PPTX, XLSX, DOCX, CSV e XML) disponíveis para subscrições de e-mail em relatórios paginados.
 
 ## <a name="previous-months-2019"></a>Meses anteriores (2019)
 ### <a name="april-2019"></a>Abril de 2019
-* Disponibilidade geral do Power BI [fluxos de dados](service-dataflows-overview.md).
-* Disponibilidade geral da nova experiência de áreas de trabalho.
-* Novas regiões do Power BI em França e Coreia.
-* P atualizado e uma experiência para os dashboards.
-* Suporte para o Azure Analysis Services dentro [relatórios paginados](paginated-reports-report-builder-power-bi.md).
-* Relatórios paginados suportados nas aplicações do Power BI.
-* [As assinaturas de email](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) com anexos em PDF para relatórios paginados.
-* Power BI Premium resumo da carga de trabalho as métricas e suportadas no Portal de administração
-* [Colocação em cache de consulta](power-bi-query-caching.md) disponíveis no Power BI Premium.
-* Disponibilidade geral do [Power BI home page](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/).
+* [Fluxos de dados](service-dataflows-overview.md) do Power BI disponíveis para o público.
+* Nova experiência de áreas de trabalho disponível para o público.
+* Novas regiões do Power BI em França e na Coreia do Sul.
+* Experiência de perguntas e respostas atualizada para dashboards.
+* Suporte do Azure Analysis Services em [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Relatórios paginados suportados nas Aplicações do Power BI.
+* [Subscrições de e-mail](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/) com anexos PDF para relatórios paginados.
+* Resumo do Power BI Premium e métricas de carga de trabalho suportados no Portal de Administração
+* [Colocação em cache de consultas](power-bi-query-caching.md) disponível no Power BI Premium.
+* [Home Page do Power BI](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/) disponível para o público.
 
 ### <a name="march-2019"></a>Março de 2019
 * Disponibilidade Geral da Multi-Geo para o Power BI Premium.
 * Suporte de edição e gestão de conteúdos do Power BI para o Azure B2B.
-* Pré-visualização pública de só de leitura [ponto final XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/).
+* Pré-visualização pública do [ponto final de XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) só de leitura.
 
 ### <a name="february-2019"></a>Fevereiro de 2019
 * Cargas de trabalho e métricas de tamanho de conjuntos de dados ativos na [aplicação Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 * Exportar para PDF para relatórios do Power BI.
-* [Subscrições de correio eletrónico de sob demanda](service-report-subscribe.md).
+* [Subscrições de e-mail a pedido](service-report-subscribe.md).
 * Operações em massa no Portal de Administração.
 * Exportação filtrada para PPT e PDF.
 * [Definições da ajuda e do suporte](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) no Portal de Administração.
@@ -87,8 +87,8 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 
 ### <a name="september-2018"></a>Setembro de 2018
 * [Comentários no dashboard](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) no serviço Power BI.
-* Pré-visualização pública de [Power BI home page e a pesquisa Global](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
-* Capacidade de [monitorização de consultas](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) no [aplicação de monitorização de capacidade](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Pré-visualização pública da [Home Page do Power BI e da Pesquisa Global](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/).
+* Capacidade de [monitorizar consultas](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) na [aplicação Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
 ### <a name="august-2018"></a>Agosto de 2018
 * [Aplicação de Monitorização da Capacidade](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) para o Power BI Premium.
@@ -302,7 +302,7 @@ Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://po
 ***Analyze in Excel***
 
 * [Analisar no Excel](service-analyze-in-excel.md) disponível a todos os utilizadores: a capacidade para aceder aos seus modelos de dados do Power BI no Excel foi expandida a todos os utilizadores, independentemente da licença que lhes foi atribuída.
-* Experiência de conta de multiutilizador melhorada: se tiver mais do que 1 conta de utilizador do Power BI, agora é mais fácil para iníciar sessão.
+* Experiência de conta multiutilizador melhorada: se tiver mais do que uma conta de utilizador do Power BI, agora é mais fácil iniciar sessão.
 
 Para obter todos os detalhes, [visite o blogue da Equipa do Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
@@ -350,7 +350,7 @@ Este mês fizemos algumas atualizações nos dashboards, Insights Rápidos e Per
 
 ***Quick Insights (Informações Rápidas)***
 
-* Agora, as informações de tendência e a correlação tem linhas de tendência para torná-lo mais fácil ver padrões nos dados.
+* Agora, as informações de Tendência e Correlação têm linhas de tendência para facilitar a deteção de padrões nos dados.
 
 ***Perguntas e Repostas***
 
@@ -371,7 +371,7 @@ Hoje lançámos uma longa lista das funcionalidades mais pedidas. [Leia a mensag
 ***Portal de Administração***
 
 * Gestão de utilizadores fácil com uma ligação para o centro de administração do Microsoft 365
-* Capacidade para desativar a publicação na Web
+* Capacidade de desativar a publicação na Web
 * Impedir que os utilizadores publiquem pacotes de conteúdos para toda a organização
 * Capacidade para desativar a partilha de conteúdos para utilizadores externos
 
@@ -502,7 +502,7 @@ Para todos os detalhes, incluindo um vídeo que demonstra muitas dessas atualiza
 * [Visualizar os dados do VMob no Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [Integração do Power BI com o Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Pré-visualização do gateway do Power BI para enterprise](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* Introduzir um novo pacote de conteúdos: [Search Analytics from Bing on Power BI dashboards](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx) (Pesquisar a Análise no Bing nos dashboards do Power BI)
+* Apresentação de um novo pacote de conteúdos: [Search Analytics from Bing on Power BI dashboards](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx) (Pesquisar a Análise no Bing nos dashboards do Power BI)
 * Novos melhoramentos centrados no programador: [duas novas APIs e registo de aplicações mais fácil](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 de novembro de 2015**
@@ -620,12 +620,8 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 * O Webtrends ajuda as empresas na análise dos dados dos seus clientes com vista ao sucesso do marketing digital. Os utilizadores têm a capacidade de observar, analisar e apresentar ideias sobre o percurso do visitante nos canais da Web, sociais, móveis e do SharePoint. Com o lançamento do [pacote de conteúdos do Webtrends](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx), os utilizadores poderão utilizar o Power BI para monitorizar, analisar e visualizar os seus dados de análise de Webtrends. O pacote de conteúdos do Webtrends para a [página de ajuda](service-connect-to-webtrends.md) do Power BI tem mais informações.
 * Começar a utilizar as Perguntas e Respostas é ainda mais simples. No momento em que coloca o cursor dentro da caixa de texto das Perguntas e Respostas, apresentamos instantaneamente uma lista de perguntas e métricas-chave que são relevantes para os seus dados.  Na lista pendente, por predefinição, verá as perguntas para os mosaicos já afixados no dashboard, bem como uma entrada para cada tabela que tem no seu conjunto de dados.
-* O tamanho de tela dinâmico que apresentamos por predefinição compõe todos os itens de relatório com dimensões ideais para o tamanho de janela do browser. Se quiser bloquear a proporção ou ajustar o seu relatório de forma diferente, suportamos agora três outras opções: Ajustar à Página, Ajustar à Largura e Tamanho Real.
+* O tamanho de tela dinâmico que apresentamos por predefinição compõe todos os itens de relatório com dimensões ideais para o tamanho de janela do browser. Se quiser bloquear a proporção ou ajustar o tamanho do seu relatório de forma diferente, suportamos agora três outras opções: Ajustar à Página, Ajustar à Largura e Tamanho Real.
 * Também aumentámos o limite do número de conjuntos de dados e relatórios que pode ter. Agora, pode ter até 200 conjuntos de dados e 200 relatórios para cada conjunto de dados na sua conta do Power BI.
-
-**25 de agosto de 2015**
-
-* Agora pode utilizar o Power BI para monitorizar, explorar e [visualizar os seus dados do Adobe Analytics](http://blogs.msdn.com/b/powerbi/archive/2015/08/25/exploring-your-adobe-analytics-data-in-power-bi.aspx). Com um pacote de conteúdos pronto a utilizar, pode ligar-se e descobrir informações nos seus dados de imediato. Para aprender mais, visite o [pacote de conteúdos do Adobe Analytics para a página de ajuda do Power BI](service-connect-to-adobe-analytics.md).
 
 **18 de agosto de 2015**
 
@@ -682,10 +678,6 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 * O SweetIQ permite-lhe controlar facilmente as suas listagens locais ao fornecer dados de localização e análise a partir do seu ecossistema de pesquisa local. O Power BI permite analisar e monitorizar esses dados, oferecendo [conteúdo inovador](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx) criado através dos dados SweetIQ. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do SweetIQ na [página de ajuda](service-connect-to-sweetiq.md) do Power BI.
 
-**9 de junho de 2015**
-
-* O Power BI permite monitorizar e explorar esses dados utilizando as [APIs do MailChimp](http://blogs.msdn.com/b/powerbi/archive/2015/06/09/user-power-bi-to-monitor-and-visualize-your-mailchimp-data.aspx), oferecendo um conjunto de conteúdo inovador para análise. O dashboard, relatórios e conjunto de dados estruturados para o cenário MailChimp permitem-lhe aceder facilmente a dados, como Campanhas Principais de Aberturas Totais por Dia da Semana. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do MailChimp na [documentação](service-connect-to-mailchimp.md) do Power BI.
-
 **2 de junho de 2015**
 
 * É fácil acompanhar estatísticas importantes sobre as suas aplicações com o Power BI e o [pacote de conteúdos do appFigures](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx). Para obter detalhes adicionais sobre como se ligar e começar, consulte a [documentação](service-connect-to-appfigures.md) para o pacote de conteúdos appFigures do Power BI.
@@ -697,7 +689,6 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **13 de maio de 2015**
 
-* Com a atualização mais recente do Power BI, pode ligar-se aos dados registados pela **Auditoria da Base de Dados SQL** com um conjunto de relatórios e um dashboard personalizado. Este pacote de conteúdos facilita a deteção de eventos suspeitos, atividade invulgar e tendências, com base num conjunto de dados criado para o relatório. Saiba mais na [mensagem do blogue](http://blogs.msdn.com/b/powerbi/archive/2015/05/14/monitor-your-azure-sql-database-auditing-activity-with-power-bi.aspx) e [documentação](service-connect-to-azure-sql-database-auditing.md).
 * Pode ligar-se diretamente aos dados armazenados na sua **base de dados SQL do Azure**. Geramos e enviamos dinamicamente consultas para a origem, permitindo-lhe criar relatórios interativos diretamente na sua base de dados. Pode ler a [mensagem do blogue](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx) e [documentação](service-azure-sql-database-with-direct-connect.md) para obter mais informações.
 
 **7 de maio de 2015**
@@ -714,7 +705,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **15 de abril de 2015**
 
-* Pode visualizar e explorar os seus dados do **Google Analytics** com nosso novo pacote de conteúdos! Com o pacote de conteúdos do Google Analytics, terá um dashboard, relatório e conjunto de dados que lhe permitem obter informações sobre a utilização do site nos últimos 6 meses. Pode ler [nossa mensagem de blogue](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
+* Pode visualizar e explorar os seus dados do **Google Analytics** com nosso novo pacote de conteúdos! Com o pacote de conteúdos do Google Analytics, terá um dashboard, relatório e conjunto de dados que lhe permitem obter informações sobre a utilização do site nos últimos 6 meses. Pode ler [a nossa mensagem de blogue](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx).
 * Agora pode **fixar todos os cartões** com KPIs e imagens das Perguntas e Respostas e dos relatórios
 * Agora pode **utilizar cartões nas Perguntas e Respostas** utilizando a frase "como cartão" no final da consulta
 
@@ -732,7 +723,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **26 de janeiro de 2015**
 
-* A facilidade de utilização e fiabilidade do serviço foram melhoradas através de várias correções de erros.
+* A facilidade de utilização e a fiabilidade do serviço foram melhoradas através de várias correções de erros.
 
 ## <a name="2014"></a>2014
 **11 de dezembro de 2014**

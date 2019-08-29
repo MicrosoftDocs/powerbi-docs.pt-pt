@@ -1,5 +1,5 @@
 ---
-title: Utilizar modelos no Power BI Desktop
+title: Using templates in Power BI Desktop (Utilizar modelos no Power BI Desktop)
 description: Criar e partilhar modelos no Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563672"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985658"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Utilizar modelos no Power BI Desktop
+# <a name="using-templates-in-power-bi-desktop"></a>Using templates in Power BI Desktop (Utilizar modelos no Power BI Desktop)
 
 Com o **Power BI Desktop,** pode criar relatórios apelativos para partilhar informações em toda a sua organização. Com os **modelos** do Power BI Desktop, pode simplificar o seu trabalho ao criar um modelo de relatório, com base num modelo existente, que você ou outras pessoas na sua organização possam utilizar como ponto de partida para consultas, modelos de dados e esquemas de um novo relatório. Os modelos no **Power BI Desktop** ajudam-no a agilizar e normalizar a criação de relatórios.
 
@@ -70,7 +70,10 @@ Após os parâmetros e os dados terem sido especificados, será criado um relat�
 Já está! Criar e utilizar modelos de relatório no Power BI Desktop é fácil e permite-lhe reproduzir esquemas apelativos e outros aspetos do relatório, e partilhá-lo com outras pessoas.
 
 ## <a name="next-steps"></a>Próximos passos
-Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
+Também pode estar interessado em aprender a utilizar os **Parâmetros de Consulta**:
+* [Using Query Parameters in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters) (Utilizar Parâmetros de Consulta no Power BI Desktop)
+
+Para além de criar e utilizar Parâmetros de Consulta, existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
 * [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
