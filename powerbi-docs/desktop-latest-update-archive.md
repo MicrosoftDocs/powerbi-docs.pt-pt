@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c2af7db67c637ca795bd501609d05d317d2a3e00
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: a7061597df08e82f3128b6fc85ed2841569922c4
+ms.sourcegitcommit: 2b340946ed5f1deedeace4071845e1720ea155c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023448"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "70064640"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -492,19 +492,6 @@ O canal de vídeo seguinte descreve e mostra cada uma dessas atualizações. Tam
 
 > [!NOTE]
 > Também poderá ter interesse em saber quais são as [novidades do serviço Power BI](service-whats-new.md), bem como ver as [novidades nas aplicações móveis do Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
-
-
-Também pode transferir as versões anteriores do Power BI Desktop se a sua organização o exigir. Recomendamos sempre que utilize a versão mais recente do Power BI Desktop, em vez de uma versão anterior. Todas as versões anteriores têm as seguintes limitações:
-
-* As versões anteriores do Power BI Desktop não estão a ser servidas – deve sempre utilizar a versão mais recente para obter as funcionalidades e as atualizações mais recentes.
-* Pode não ser possível abrir ficheiros que criou ou guardou em versões mais recentes do Power BI Desktop com versões anteriores do Power BI Desktop. 
-* Se receber um aviso quando carregar um relatório guardado numa versão mais recente do Power BI Desktop e guardar esse relatório na versão anterior, perderá todas as informações relacionadas com as novas funcionalidades.
-* Apenas arquivamos as versões em inglês do Power BI Desktop.
-
-Selecione as seguintes ligações para transferir esta versão anterior: 
-
-* [Versão de fevereiro de 2019 do Power BI Desktop - 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02.msi)
-* [Versão de fevereiro de 2019 do Power BI Desktop - 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-02_x64.msi)
 
 
 ## <a name="january-2019-update"></a>Atualização de janeiro de 2019

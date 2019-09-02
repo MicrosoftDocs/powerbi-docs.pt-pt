@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3919d869c696617fa97351f352084e5a57e6b06e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239524"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160179"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Utilizar o painel Análise no Power BI Desktop
 Com o painel **Análise** no **Power BI Desktop**, pode adicionar *linhas de referência* dinâmicas a visuais e dar foco a tendências ou informações importantes. O painel **Análise** encontra-se na área **Visualizações** do Power BI Desktop.
@@ -84,7 +84,6 @@ Utilização integral de linhas dinâmicas disponível nos seguintes visuais:
 * Gráfico de área
 * Gráfico de linhas
 * Gráfico de dispersão
-* Gráfico de Colunas agrupadas
 * Gráfico de barras agrupadas
 
 Os seguintes visuais só podem utilizar uma *linha constante* no painel **Análise**:

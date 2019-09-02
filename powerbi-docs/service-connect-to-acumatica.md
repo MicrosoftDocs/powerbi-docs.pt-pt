@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: aec463a4ce72f89f0cbbcf1bd42737605657a43c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181237"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186156"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Ligar ao Acumatica com o Power BI
 O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI recupera os seus dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/services/acumatica) ou leia mais sobre a [Integração do Acumatica](https://powerbi.microsoft.com/integrations/acumatica) com o Power BI.
 

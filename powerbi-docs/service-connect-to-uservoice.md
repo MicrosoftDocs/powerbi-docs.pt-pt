@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 18b346f4b6e8712d9eec2d2d8a46fdd130844acf
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61171611"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70184601"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Ligue-se ao UserVoice com o Power BI
 É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdos do UserVoice. O Power BI obtem os seus dados, incluindo pedidos de suporte, sugestões e classificações de satisfação, e cria um dashboard pronto a usar e relatórios com base nesses dados.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Ligue-se ao [pacote de conteúdos do UserVoice](https://app.powerbi.com/getdata/services/uservoice) para o Power BI.
 

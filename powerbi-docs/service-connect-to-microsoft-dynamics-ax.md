@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6a13c7fa6e1c33c3a839b4c835c991c143b77072
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174416"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185881"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Ligar ao pacote de conteúdos do Microsoft Dynamics AX com o Power BI
 O Microsoft Dynamics AX tem três pacotes de conteúdos do Power BI destinados a diferentes utilizadores empresariais. O pacote de conteúdos de Desempenho Financeiro, concebido especificamente para CFOs (diretores financeiros), fornece acesso a informações sobre o desempenho financeiro da sua organização. O pacote de conteúdos de Desempenho do Canal de Revenda destina-se a gestores de canal com foco no desempenho de vendas para prever tendências e descobrir informações diretamente dos dados de Revenda e Comércio. A Gestão de Custo foi concebida para COOs e CFOs e fornece detalhes sobre o desempenho da operação.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Ligue-se ao pacote de conteúdos [Desempenho de Canal de Revenda](https://app.powerbi.com/getdata/services/dynamics-ax-retail-channel-performance), ao [Desempenho Financeiro](https://app.powerbi.com/getdata/services/dynamics-ax-financial-performance) ou à [Gestão de Custos](https://app.powerbi.com/getdata/services/dynamics-ax-cost-management) do Microsoft Dynamics AX para o Power BI.
 

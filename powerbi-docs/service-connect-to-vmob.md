@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e6c63d93c876377da7a5d36e814431dfda8665c3
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61151889"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185779"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Ligar VMob com o Power BI
 É fácil acompanhar e explorar dados do VMob com o Power BI e o pacote de conteúdos do VMob. O Power BI devolve os seguintes dados: Estatísticas do Utilizador desde sempre e dos últimos 30 dias, KPI de Revenda dos últimos 30 dias e Desempenho da Campanha dos últimos 30 dias.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Ligue-se ao [pacote de conteúdo do VMob](https://app.powerbi.com/getdata/services/vmob) para o Power BI.
 
