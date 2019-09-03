@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665442"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030168"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -22,6 +22,12 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>Agosto de 2019
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Acesso protegido com o Proxy da Aplicação do Azure Active Directory (AD)
+
+Estabelecemos parceria com a equipa do Azure Active Directory para integrar aplicações móveis do Power BI com o Proxy da Aplicação do Azure Active Directory (AAD). Com esta configuração, pode ligar-se ao Servidor de Relatórios alojado dentro dos limites da empresa a partir da aplicação Power BI Mobile, sem ter de fazer uma complexa configuração no local. Leia mais sobre a [integração do Power BI Mobile e do Proxy de Aplicações do Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Saiba [como configurar o Proxy de Aplicações do Azure AD e o Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Julho de 2019
 

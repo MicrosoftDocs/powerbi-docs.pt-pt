@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590490"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160335"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o seu modelo de dados ideal no Power BI Desktop e publicá-lo no serviço Power BI. Em seguida, é possível criar múltiplos relatórios diferentes (em ficheiros .pbix separados) a partir do mesmo modelo de dados comum e guardá-los em diferentes áreas de trabalho. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -108,4 +108,5 @@ Quando utilizar a **ligação em direto do serviço Power BI**, existem algumas 
 * Para Pacotes de Conteúdo, tem de criar primeiro uma cópia de um pacote de conteúdo antes de o utilizar como base para partilhar um relatório .pbix e o conjunto de dados no **serviço Power BI**.
 * Para Pacotes de Conteúdo de *A Minha Organização*, depois de o copiar, não pode substituir o relatório criado no serviço e/ou um relatório criado como parte da cópia de um Pacote de Conteúdo com uma ligação em direto. As tentativas para o fazer resultam num aviso que lhe pede para mudar o nome do ficheiro e publicar. Nesta situação, apenas pode substituir os relatórios ligados em direto publicados.
 * Eliminar um conjunto de dados partilhado no **serviço Power BI** significa que todas as pessoas perderam o acesso a esse conjunto de dados a partir do **Power BI Desktop**.
+* Os relatórios que partilham um conjunto de dados no serviço Power BI não suportam implementações automatizadas que utilizam a API REST Power BI.
 

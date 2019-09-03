@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307195"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185688"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -75,6 +75,9 @@ As sugestões seguintes podem ajudar a criar relatórios do **Power BI Desktop**
 * Forneça texto alternativo para todos os objetos num relatório. Isto garante que os consumidores do seu relatório compreendem a mensagem que está a tentar transmitir com um elemento visual. Além disso, isto pode ajudar caso os utilizadores não consigam ver o elemento visual, imagem, forma ou caixa de texto. Pode fornecer texto alternativo para qualquer objeto num relatório do **Power BI Desktop** ao selecionar o objeto (como um elemento visual, forma, entre outros) e, no painel **Visualizações**, selecionar a secção **Formato**. Em seguida, expanda a secção **Geral**, desloque-se até à parte inferior e preencha a caixa de texto **Texto Alternativo**.
   
   ![É possível adicionar texto alternativo para qualquer objeto num relatório, em Visualizações > Formato > Geral > caixa Texto Alternativo](media/desktop-accessibility/accessibility-02.png)
+  
+  O texto alternativo também pode ser alterado dinamicamente por uma expressão, por exemplo, ao refletir filtros que são aplicados a um elemento visual. O procedimento para definir uma expressão é igual ao que utiliza para definir o título do elemento visual. [Formatação condicional para títulos de elementos visuais](desktop-conditional-format-visual-titles.md)
+  
 * Certifique-se de que os seus relatórios têm contraste suficiente entre o texto e as cores de fundo. Existem várias ferramentas, como o [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/), que pode utilizar para verificar as cores do seu relatório. 
 * Utilize tamanhos e tipos de letra de texto que sejam facilmente legíveis. Um tamanho de texto pequeno, ou tipos de letra que poderão ser difíceis de ler, são inúteis para a acessibilidade.
 * Inclua um título, etiquetas do eixo e etiquetas de dados em todos os elementos visuais.
@@ -122,7 +125,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 
 
 ### <a name="frequently-used-shortcuts"></a>Atalhos frequentes
-| Para executar esta ação           | Prima                |
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco entre secções  | **Ctrl+F6** |
 | Mover o foco para a frente na secção | **Tecla de Tabulação**         |
@@ -131,7 +134,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Selecionar vários objetos | **Ctrl+Barra de Espaço** |
 
 ### <a name="on-visual"></a>No visual
-| Para executar esta ação           | Prima                |
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco para o menu visual | **Alt+Shift+F10** |
 | Mostrar dados | **Alt+Shift+F11**  |
@@ -144,13 +147,13 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Limpar seleção | **Ctrl+Shift+C** |
 
 ### <a name="table--matrix-navigation"></a>Navegação em tabelas e matrizes
-| Para executar esta ação          | Prima                |
+| Para efetuar esta ação          | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco uma célula para cima/baixo (aplica-se a todas as células em todas as áreas)  | **Seta Para Cima** / **Seta Para Baixo** |
 | Mover o foco uma célula para a esquerda/direita (aplica-se a todas as células em todas as áreas)  | **Seta Para a Esquerda** / **Seta Para a Direita** |
 
-### <a name="pane-navigation"></a>Navegação no painel
-| Para executar esta ação           | Prima                |
+### <a name="pane-navigation"></a>Painel de navegação
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Seleção múltipla | **Ctrl+Barra de Espaço** |
 | Fechar uma tabela única | **Seta Para a Esquerda** |
@@ -160,12 +163,12 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Abrir um menu de contexto | <ul><li>Teclado do Windows: **Tecla de Contexto do Windows+F10.**  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: **Shift+F10**</li></ul> |
 
 ### <a name="slicer"></a>Segmentação de Dados
-| Para executar esta ação         | Prima                |
+| Para efetuar esta ação         | Prima                |
 | :------------------- | :------------------- |
 | Interagir com uma segmentação de dados | **Ctrl+Seta Para a Direita** |
 
 ### <a name="selection-pane"></a>Painel de seleção
-| Para executar esta ação           | Prima                |
+| Para efetuar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Ativar o painel de seleção | **F6** |
 | Mover um objeto para cima nas camadas | **Ctrl+Shift+F** |

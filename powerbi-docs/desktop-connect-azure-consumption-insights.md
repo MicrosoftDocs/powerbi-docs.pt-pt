@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561028"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160209"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Analisar os custos e dados de utilização do Azure no Power BI Desktop
 
@@ -27,6 +27,10 @@ Atualmente, o Power BI suporta a ligação a contas de faturação de Contrato E
 * Os utilizadores com **Contrato Enterprise** devem ligar com o **conector do Azure Consumption Insights** (abaixo).
 
 * Os utilizadores com **Contrato de Cliente** devem ligar com o [**conector do Azure Cost Management**](#connect-with-azure-cost-management).
+
+> [!NOTE]
+> Se for um cliente com um Contrato Enterprise que utiliza o Conector do Azure Cost Management e não conseguir ver o *ID do Perfil de Faturação* no painel Gestão de Custos, significa que não está na Modern Commerce Platform. Nesses casos, utilize o conector do Azure Consumption Insights, que, em vez de pedir o *ID do Perfil de Faturação*, irá pedir o número de inscrição EA.
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>Ligar com o Azure Consumption Insights
 
@@ -72,7 +76,7 @@ Depois de indicar a *Chave de acesso* e selecionar **Ligar**, é apresentada a j
 |------------- | -------------------------------------------------------------|
 | **Orçamentos** | Detalhes dos orçamentos para ver os custos reais ou a utilização em comparação com os objetivos orçamentais existentes. |
 | **MarketPlace** | Cobranças do Azure Marketplace com base na utilização. |
-| **PriceSheets** | Taxas aplicáveis pelo medidor para uma inscrição. |
+| **PriceSheets** (Folhas de preços) | Taxas aplicáveis pelo medidor para uma inscrição. |
 | **RICharges** | Cobranças associadas às Instâncias Reservadas nos últimos 24 meses. |
 | **RIRecommendations_Single** | Recomendações de compra de Instâncias Reservadas com base nas suas tendências de utilização de subscrição individual nos últimos 7, 30 ou 60 dias. |
 | **RIRecommendations_Shared** | Recomendações de compra de Instâncias Reservadas com base nas suas tendências de utilização em todas as suas subscrições nos últimos 7, 30 ou 60 dias. |

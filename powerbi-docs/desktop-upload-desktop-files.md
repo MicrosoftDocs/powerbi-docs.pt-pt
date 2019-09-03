@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f67f73dd66da7f1d3e8d84a3373a15d20f81645e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69e458d966e656847a4e2122df148e90c1834a58
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513806"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160328"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Publicar a partir do Power BI Desktop
 Quando publica um ficheiro do **Power BI Desktop** no **serviço do Power BI**, os dados no modelo e quaisquer relatórios criados na vista de **Relatório** são publicados na sua área de trabalho do Power BI. Verá um novo conjunto de dados com o mesmo nome e todos os relatórios no navegador da Área de Trabalho.
@@ -28,7 +28,7 @@ Publicar através do **Power BI Desktop** tem o mesmo efeito que utilizar **Obte
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Para publicar um conjunto de dados e relatórios do Power BI Desktop
-1. No Power BI Desktop, selecione **arquivo** \> **publicar** \> **publicar no Power BI** ou clique em **publicar** sobre o faixa de opções.  
+1. No Power BI Desktop, selecione **Ficheiro** \> **Publicar** \> **Publicar no Power BI** ou clique em **Publicar** no friso.  
 
    ![Botão Publicar](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
@@ -44,10 +44,11 @@ Quando terminar, receberá uma ligação para o seu relatório. Clique na ligaç
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Publicar novamente ou substituir um conjunto de dados publicado a partir do Power BI Desktop
 Ao publicar um ficheiro do **Power BI Desktop**, o conjunto de dados e relatórios criados no **Power BI Desktop** são carregados no seu site do Power BI. Quando publicar novamente o ficheiro do **Power BI Desktop**, o conjunto de dados no seu site Power BI será substituído pelo conjunto de dados atualizado do ficheiro do **Power BI Desktop**.
 
-Isso é tudo muito simples, mas existem algumas coisas que deve saber:
+Isto é tudo muito simples, mas existem alguns aspetos que deve saber:
 
 * Se tiver dois ou mais conjuntos de dados no Power BI com o mesmo nome que o ficheiro do **Power BI Desktop**, a publicação pode falhar. Verifique se tem apenas um conjunto de dados no Power BI com o mesmo nome. Também pode mudar o nome do ficheiro e publicar ao criar um novo conjunto de dados com o mesmo nome do ficheiro.
 * Se mudar o nome ou eliminar uma coluna ou medida, quaisquer visualizações já existentes no Power BI com esse campo podem ficar corrompidas. 
 * O Power BI ignora as alterações de formato de colunas existentes. Por exemplo, se alterar o formato de uma coluna de 0,25 para 25%.
 * Se tiver uma agenda de atualização configurada para o conjunto de dados existente no Power BI e adicionar novas origens de dados para o ficheiro e, em seguida, publicar novamente, tem de iniciar a sessão em *Gerir Origens de Dados* antes da próxima atualização agendada.
+* Quando publica novamente um conjunto de dados a partir do **Power BI Desktop** e tem uma agenda de atualização definida, é iniciada uma atualização do conjunto de dados assim que volta a publicar. 
 

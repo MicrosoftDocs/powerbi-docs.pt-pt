@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514163"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200919"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Ligar a ficheiros CSV no Power BI Desktop
 Ligar-se a um ficheiro de valores separados por vírgulas (*CSV*) do Power BI Desktop é muito parecido com ligar a um livro do Excel. Ambas as ações são simples e este artigo mostra-lhe os passos para ligar-se a ficheiros CSV aos quais tenha acesso.
@@ -45,7 +45,11 @@ Após carregar os dados para o Power BI Desktop, verá a tabela e respetivas col
 
 Pode utilizar esses dados no Power BI Desktop para criar visuais, relatórios ou interagir com outros dados aos quais se possa querer ligar e importar, como livros do Excel, bases de dados ou outra origem de dados.
 
-## <a name="next-steps"></a>Passos seguintes
+> [!IMPORTANT]
+> Quando importa um ficheiro CSV, o Power BI Desktop gera um campo *colunas=x* (em que *x* representa o número de colunas no ficheiro CSV durante a importação inicial) como um passo no Editor do Power Query. Se adicionar mais colunas posteriormente e a origem de dados estiver definida para ser atualizada, as colunas para além da contagem de *x* colunas iniciais não serão atualizadas. 
+
+
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

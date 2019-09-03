@@ -1,29 +1,29 @@
 ---
 title: Ligue-se ao Office365Mon com o Power BI
 description: Office365Mon para o Power BI
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170230"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159913"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Ligue-se ao Office365Mon com o Power BI
-Analisar os seus dados de desempenho de estado de funcionamento e interrupções do Office 365 é fácil com o Power BI e o pacote de conteúdos Office365Mon. O Power BI recupera os seus dados, incluindo investigações de integridade e interrupções e, em seguida, compila um dashboard e relatórios prontos para uso com base nesses dados.
+Com o Power BI e a aplicação de modelo Office365Mon, é fácil analisar os seus dados de desempenho de estado de funcionamento e falhas do Office 365. O Power BI recupera os seus dados, incluindo investigações de integridade e interrupções e, em seguida, compila um dashboard e relatórios prontos para uso com base nesses dados.
 
-Ligue-se ao pacote de conteúdo [Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI.
+Ligue-se à [aplicação de modelo Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI.
 
 >[!NOTE]
->É necessária uma conta de administrador do Office365Mon para ligar e carregar o pacote de conteúdo do Power BI.
+>É necessária uma conta de administrador do Office365Mon para ligar e carregar a aplicação de modelo do Power BI.
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
@@ -46,7 +46,7 @@ Ligue-se ao pacote de conteúdo [Office365Mon](https://app.powerbi.com/groups/me
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 
-**E agora?**
+**O que se segue?**
 
 * Experimente [fazer uma pergunta na caixa de Perguntas e Respostas](consumer/end-user-q-and-a.md) na parte superior do dashboard
 * [Altere os mosaicos](service-dashboard-edit-tile.md) no dashboard.

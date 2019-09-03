@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654859"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201024"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução do Power BI Desktop**. Esta breve apresentação do Power BI Desktop apresentará como ele funciona, demonstrará o que pode fazer e acelerará a sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam os seus esforços de business intelligence. 
@@ -105,6 +105,9 @@ Ao selecionarmos **Editar**, o Editor de Consultas é iniciado e é apresentada 
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Para obter mais informações sobre como ligar a dados, veja [Ligar-se a Dados no Power BI Desktop](desktop-connect-to-data.md).
+
+> [!NOTE]
+> Os dados da tabela referidos neste artigo podem mudar ao longo do tempo. Como tal, os passos que tem de seguir poderão variar entre os mencionados e terá de utilizar a sua criatividade de forma a ajustar os passos ou resultados, mas tudo isto faz parte do processo de aprendizagem. 
 
 Na próxima secção, vamos ajustar os dados para que correspondam às nossas necessidades. O processo de ajuste de dados ligados é chamado *formatação* de dados.
 
@@ -339,5 +342,5 @@ Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais 
 * [Descrição Geral da Consulta com o Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   

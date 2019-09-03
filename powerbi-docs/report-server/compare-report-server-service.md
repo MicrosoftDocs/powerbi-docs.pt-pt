@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 05/22/2019
-ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 08/29/2019
+ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187680"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186073"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -40,14 +40,14 @@ O Power BI Report Server e o serviço Power BI têm muitas semelhanças e alguma
 | Ligar a serviços como o Salesforce | Sim | Sim | [Ligue-se aos serviços que utiliza](../service-connect-to-services.md) com pacotes de conteúdos no serviço Power BI. No Power BI Report Server, utilize conectores certificados para ligar a serviços. Veja [Origens de dados de relatórios do Power BI no Power BI Report Server](data-sources.md) para obter detalhes. |
 | Perguntas e Respostas | Não | Sim | [Perguntas e Respostas no serviço Power BI e no Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Informações rápidas | Não | Sim | [Gerar automaticamente as informações de dados com o Power BI](../consumer/end-user-insights.md) |
-| Analisar no Excel | Não | Sim | [Analyze in Excel](../service-analyze-in-excel.md) 
+| Analisar no Excel | Não | Sim | [Analisar no Excel](../service-analyze-in-excel.md) 
 | Relatórios paginados | Sim | Sim | [Os relatórios paginados estão disponíveis no serviço Power BI](../paginated-reports-report-builder-power-bi.md) em pré-visualização numa capacidade Premium |
 | Aplicações móveis do Power BI | Sim | Sim | [Descrição geral das aplicações móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas ARC GIS | Não | Sim | [Mapas ArcGIS no serviço Power BI e Power BI Desktop pela Esri](../visuals/power-bi-visualization-arcgis.md) |
-| Subscrições de e-mail para relatórios do Power BI | Não | Sim | [Subscrever um relatório ou dashboard](../service-report-subscribe.md) para si ou para outras pessoas no serviço Power BI |
-| Subscrições de e-mail para relatórios paginados | Sim | Não | [Entrega de e-mail no Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| Subscrições de e-mail para relatórios do Power BI | Sim | Sim | [Subscrever um relatório ou dashboard](../service-report-subscribe.md) para si ou para outras pessoas no serviço Power BI |
+| Subscrições de e-mail para relatórios paginados | Sim | Sim | [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](../paginated-reports-subscriptions.md)<br><br>[Email delivery in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (Entrega de e-mail no Reporting Services)  |
 | Alertas de dados | Não | Sim | [Alertas de dados](../service-set-data-alerts.md) no serviço Power BI
-| Segurança ao nível da linha (RLS) | Sim | Sim | Disponível no DirectQuery (origem de dados) e no Modo de importação <br>Segurança ao nível da linha no [serviço Power BI](../service-admin-rls.md) <br>service-report-subscribe [Power BI Report Server](row-level-security-report-server.md) |
+| Segurança ao nível da linha (RLS) | Sim | Sim | Disponível no DirectQuery (origem de dados) e no Modo de importação <br><br>Segurança ao nível da linha no [serviço Power BI](../service-admin-rls.md) <br><br>service-report-subscribe [Power BI Report Server](row-level-security-report-server.md) |
 | Modo de ecrã inteiro | Não | Sim | [Modo de ecrã inteiro](../consumer/end-user-focus.md) no serviço Power BI |
 | Colaboração avançada no Office 365 | Não | Sim | [Colaborar na área de trabalho de uma aplicação](../service-collaborate-power-bi-workspace.md) com o Office 365 |
 | Visuais R | Não | Sim | [Crie visuais R](../desktop-r-visuals.md) no Power BI Desktop e publique-os no serviço Power BI. Não pode guardar relatórios do Power BI com visuais R no Power BI Report Server.  |

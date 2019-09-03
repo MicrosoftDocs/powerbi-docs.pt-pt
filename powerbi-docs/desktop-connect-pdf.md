@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 77a036cd1852c237c827dca07363492c94d8a272
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513998"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160280"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Ligar a um ficheiro PDF no Power BI Desktop
 No Power BI Desktop, pode ligar a um **ficheiro PDF** e utilizar os dados incluídos do ficheiro tal como faria com outra origem de dados no Power BI Desktop.
 
-![Ligar a dados em ficheiros PDF](media/desktop-connect-pdf/connect-pdf_04.png)
+![Ligar a dados em ficheiros PDF](media/desktop-connect-pdf/connect-pdf-04.png)
 
 As secções seguintes descrevem como pode ligar a um **ficheiro PDF**, selecionar dados e importar esses dados para o **Power BI Desktop**.
 
 Recomendamos sempre que atualize para a versão mais recente do **Power BI Desktop**, que pode obter através de uma ligação no artigo [Obter o Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="connect-to-a-pdf-file"></a>Ligar a um ficheiro PDF
-Para ligar a um ficheiro **PDF**, selecione **Obter Dados** no friso **Base** do Power BI Desktop. Selecione **Ficheiro** nas categorias no lado esquerdo e verá **PDF (beta)** .
+Para ligar a um ficheiro **PDF**, selecione **Obter Dados** no friso **Base** do Power BI Desktop. Selecione **Ficheiro** nas categorias no lado esquerdo e verá **PDF**.
 
-![Selecionar PDF em Obter Dados](media/desktop-connect-pdf/connect-pdf_01.png)
+![Selecionar PDF em Obter Dados](media/desktop-connect-pdf/connect-pdf-01.png)
 
 É-lhe pedido para indicar a localização do ficheiro PDF que pretende utilizar. Depois de indicar a localização do ficheiro e de o ficheiro PDF ser carregado, é apresentada a janela **Navegador** que apresenta os dados disponíveis no ficheiro, a partir do qual pode selecionar um ou vários elementos a importar e utilizar no **Power BI Desktop**.
 
-![Ligar a dados em ficheiros PDF](media/desktop-connect-pdf/connect-pdf_04.png)
+![Ligar a dados em ficheiros PDF](media/desktop-connect-pdf/connect-pdf-04.png)
 
 Se selecionar a caixa de verificação junto aos elementos detetados no ficheiro PDF, estes são apresentados no painel à direita. Quando estiver pronto para importar, selecione o botão **Carregar** para importar os dados para o **Power BI Desktop**.
 

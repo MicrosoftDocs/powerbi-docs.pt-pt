@@ -8,25 +8,25 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 92dd8d7221c9c60fa4ffcd3e3ceefeda319d8670
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940918"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185730"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
-Pode subscrever as páginas de relatórios, os dashboards e os relatórios paginados mais importantes para si e para os seus colegas. O Power BI irá enviar-lhe um instantâneo por e-mail. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente ou uma vez por dia depois da atualização de dados inicial.  Se selecionar diariamente ou semanalmente, pode escolher a hora em que pretende que a subscrição seja executada.  Pode configurar até 24 subscrições diferentes por dia, para cada página de relatório e dashboard.
+Pode subscrever as páginas de relatórios, os dashboards e os relatórios paginados mais importantes para si e para os seus colegas. O Power BI irá enviar-lhe um instantâneo por e-mail. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente, mensalmente, de hora a hora ou uma vez por dia depois da atualização de dados inicial.  Se selecionar diariamente, semanalmente, mensalmente ou de hora a hora, pode escolher a hora em que pretende que a subscrição seja executada.  Pode configurar até 24 subscrições diferentes por dia, para cada página de relatório e dashboard.
 
 ![instantâneo do dashboard num e-mail](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
 Só pode criar subscrições no serviço Power BI. Receberá um e-mail com um instantâneo da página de relatório ou do dashboard, com uma ligação para abrir o relatório ou dashboard. Nos dispositivos móveis com aplicações do Power BI instaladas, a seleção desta ligação inicia a aplicação Power BI, em vez de abrir o relatório ou dashboard no site do Power BI.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Requisitos
 
 Uma subscrição pode ser **criada** por:
 
@@ -54,9 +54,9 @@ A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscre
 
 5. Preencha os detalhes **Assunto** e **Mensagem** do e-mail. 
 
-5. Selecione uma **Frequência** para a sua subscrição: **Diariamente**, **Hora a hora**, **Semanalmente** ou **Depois da Atualização de Dados (Diariamente)** .  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Hora a hora** ou **Semanalmente** e selecione os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione **Semanalmente** e desselecione as caixas **Sáb** e **Dom**.  
+5. Selecione uma **Frequência** para a sua subscrição: **Diariamente**, **Hora a Hora**, **Semanalmente**, **Mensalmente** ou **Depois da Atualização de Dados (Uma Vez por Dia)** .  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Hora a hora** ou **Semanalmente** e selecione os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione **Semanalmente** e desselecione as caixas **Sáb** e **Dom**.  Se selecionar **Mensalmente**, introduza os dias do mês nos quais pretende receber o e-mail de subscrição.  
 
-6. Se escolher **Diariamente** ou **Semanalmente**, também pode escolher uma **Hora Agendada** para a subscrição.  Pode definir para que seja executada a cada hora ou a cada 15, 30 ou 45 minutos.  Selecione manhã ou tarde/noite. Também pode especificar o fuso horário.  Se escolher **Hora a hora**, selecione a **Hora Agendada** para o início da subscrição, que ocorrerá a cada hora subsequente.
+6. Se escolher **Diariamente**, **Hora a Hora, **Mensalmente** ou **Semanalmente**, também pode escolher uma **Hora Agendada** para a subscrição.  Pode definir para que seja executada a cada hora ou a cada 15, 30 ou 45 minutos.  Selecione manhã ou tarde/noite. Também pode especificar o fuso horário.  Se escolher **Hora a hora**, selecione a **Hora Agendada** para o início da subscrição e esta será executada a cada hora seguinte.
 
 7. Por predefinição, a data de início da sua subscrição é a data em que a criou. Tem a opção de selecionar uma data de fim. Se não definir uma data de fim, esta será definida automaticamente para um ano após a data de início. Pode alterá-la para qualquer data no futuro (até ao ano 9999) em qualquer altura antes de a subscrição terminar. Quando uma subscrição atinge a data de fim, esta é interrompida até que a volte a ativar. Receberá notificações antes da data de fim agendada a perguntar se quer prolongar a subscrição.    
 
@@ -67,7 +67,7 @@ A subscrição de relatórios paginados é ligeiramente diferente. Veja [Subscre
 7. Selecione **Guardar e fechar**. Os utilizadores subscritos receberão um e-mail e um instantâneo do dashboard ou da página de relatório com a frequência e na hora que selecionou. Pode criar até 24 subscrições por relatório ou dashboard e pode indicar frequências, horas e destinatários exclusivos para cada subscrição.  Todas as subscrições definidas para **Depois da Atualização de Dados** para o dashboard ou relatório só enviarão um e-mail após a primeira atualização agendada.   
       
    > [!TIP]
-   > Quer enviar o e-mail de uma subscrição diretamente ou a pedido a qualquer momento? Selecione **Executar Agora** para as subscrições do dashboard ou relatório que pretende enviar. Verá uma notificação a informar que será enviado um e-mail para todos os utilizadores dessa subscrição específica.  Pode efetuar esta ação quantas vezes quiser. A mesma não conta para o seu limite de 24 execuções de subscrições agendadas por dia e por relatório ou dashboard. Esta ação NÃO irá acionar uma atualização de dados no conjunto de dados subjacente. 
+   > Quer enviar o e-mail de uma subscrição diretamente ou a pedido a qualquer momento? Selecione **Executar Agora** para as subscrições do dashboard ou relatório que pretende enviar. Verá uma notificação a informar que será enviado um e-mail para todos os utilizadores dessa subscrição específica.  Realizar esta ação não conta para o seu limite de 24 execuções de subscrições agendadas por dia e por relatório ou dashboard. Esta ação NÃO irá acionar uma atualização de dados no conjunto de dados subjacente. 
    > 
    > 
    
@@ -103,7 +103,7 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 * Especificamente para subscrições de dashboards, determinados tipos de mosaicos ainda não são suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     
 * Se partilhar um dashboard com um colega fora do seu inquilino, também não poderá criar uma subscrição para esse colega. Por isso, se for aaron@xyz.com, poderá partilhar com anyone@ABC.com, mas ainda não poderá subscrever anyone@ABC.com e o mesmo não poderá subscrever o conteúdo partilhado.      
 * O Power BI interrompe automaticamente a atualização nos conjuntos de dados associados a dashboards e relatórios que não tenham sido acedidos durante mais de dois meses.  No entanto, se adicionar uma subscrição a um dashboard ou relatório, este não será interrompido, mesmo se não for acedido.    
-* Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) pode receber e-mails. [A equipa do Power BI está a trabalhar para simplificar este requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), por isso, mantenha-se atento. 
+* Se não estiver a receber os e-mails de subscrição, certifique-se de que o Nome Principal de Utilizador (UPN) pode receber e-mails. 
 * Se o dashboard ou relatório estiver em capacidade Premium, pode utilizar aliases de e-mail de grupo para subscrições, em vez de subscrever colegas individualmente através dos endereços de e-mail. Os aliases são baseados no Active Directory atual. 
 
 ## <a name="next-steps"></a>Próximos passos

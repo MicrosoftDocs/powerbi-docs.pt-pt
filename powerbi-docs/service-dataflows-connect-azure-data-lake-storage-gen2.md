@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621244"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160355"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados (Pré-visualização)
 
@@ -115,19 +115,19 @@ Para encontrar aplicações do inquilino, siga estes passos:
 
     ![Procurar aplicações começadas por Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selecione e copie os IDs de Objeto do serviço Power BI e do Power Query online nos resultados da pesquisa. Prepare-se para colar esses valores em passos subsequentes.
+5. Selecione e copie os IDs de Objeto do serviço Power BI Premium e do Power Query online nos resultados da pesquisa. Prepare-se para colar esses valores em passos subsequentes.
 
-7. Em seguida, utilize o **Explorador de Armazenamento do Azure** para navegar para o sistema de ficheiros *powerbi* que criou na secção anterior. Siga as instruções apresentadas na secção [Gerir o acesso](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) do artigo [Definir permissões ao nível do ficheiro e do diretório com o Explorador de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
+6. Em seguida, utilize o **Explorador de Armazenamento do Azure** para navegar para o sistema de ficheiros *powerbi* que criou na secção anterior. Siga as instruções apresentadas na secção [Gerir o acesso](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) do artigo [Definir permissões ao nível do ficheiro e do diretório com o Explorador de Armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer).
 
-8. Para cada um dos dois IDs de Objeto do Power BI recolhidos no passo 5, atribua ACLs de Predefinição e Acesso de **Leitura**, **Escrita** e **Execução** ao seu sistema de ficheiros *powerbi*.
+7. Para cada um dos dois IDs de Objeto do Power BI Premium recolhidos no passo 5, atribua ACLs de Predefinição e Acesso de **Leitura**, **Escrita** e **Execução** ao seu sistema de ficheiros *powerbi*.
 
    ![para ambos, atribuir as três](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Para o ID de Objeto Online do Power Query recolhido no passo 4, atribua ACLs de Predefinição e Acesso de **Escrita** e **Execução** ao seu sistema de ficheiros *powerbi*.
+8. Para o ID de Objeto Online do Power Query recolhido no passo 4, atribua ACLs de Predefinição e Acesso de **Escrita** e **Execução** ao seu sistema de ficheiros *powerbi*.
 
    ![em seguida, atribua permissões de escrita e execução](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. Além disso, para a opção **Outro**, atribua ACLs de Predefinição e Acesso de **Execução**.
+9. Além disso, para a opção **Outro**, atribua ACLs de Predefinição e Acesso de **Execução**.
 
     ![por último, para a opção Outro, atribua a permissão de execução](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

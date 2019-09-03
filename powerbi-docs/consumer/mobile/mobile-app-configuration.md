@@ -1,7 +1,7 @@
 ---
 title: Definições de configuração da aplicação Power BI para iOS
 description: Como personalizar o comportamento do Power BI para iOS com a ferramenta MDM
-author: mshenhav
+author: paulinbar
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: a0883927f3a0a09bbe4d1ed618b7d5f708807464
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66817013"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160166"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente a aplicação Power BI para iOS com a ferramenta de gestão de dispositivos móveis (MDM)
 
