@@ -1,6 +1,6 @@
 ---
-title: Visuals interactions (Interações de elementos visuais)
-description: Como verificar se o elemento visual do Power BI deve permitir interações de elementos visuais
+title: Interações visuais em elementos visuais do Power BI
+description: Este artigo aborda a forma de verificar se os elementos visuais do Power BI devem permitir interações visuais.
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,26 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 739e59c6da3c1e464e0462a928bc4f33ea0d01f8
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f2fb2d451deb63b5e9c08472654e28d0e1a469db
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424499"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236614"
 ---
-# <a name="visuals-interactions"></a>Visuals interactions (Interações de elementos visuais)
+# <a name="visual-interactions-in-power-bi-visuals"></a>Interações visuais em elementos visuais do Power BI
 
-Os elementos visuais podem consultar o valor do sinalizador "allowInteractions", que indica se o elemento visual deve ou não permitir interações de elementos visuais.
-Por exemplo, os elementos visuais são interativos durante a visualização ou edição de relatórios, mas não são interativos quando são vistos num dashboard.
-Essas interações são, entre outras, clicar, deslocar, ampliar e selecionar.
-Tenha em atenção que as descrições devem estar ativadas em todos os cenários independentemente deste sinalizador.
+Os elementos visuais podem consultar o valor do sinalizador `allowInteractions`, que indica se o elemento visual deve ou não permitir interações de elementos visuais. Por exemplo, os elementos visuais são interativos durante a visualização ou edição de relatórios, mas não são interativos quando são vistos num dashboard. Essas interações são, entre outras, *clicar*, *deslocar*, *ampliar* e *selecionar*. 
 
-O sinalizador "allowInteractions" é transmitido sob a forma de booleano durante a inicialização do elemento visual como membro da interface IVisualHost.
+> [!NOTE]
+> O utilizador deve ativar as descrições em todos os cenários, seja qual for o sinalizador indicado.
 
-O sinalizador "allowInteractions" será definido como falso em todos os cenários do Power BI que exijam que os elementos visuais não sejam interativos (por exemplo, mosaicos de dashboard).
-Caso contrário (por exemplo, relatório), "allowInteractions" estará definido como verdadeiro.
+O sinalizador `allowInteractions` é transmitido sob a forma de Booleano durante a inicialização do elemento visual como membro da interface IVisualHost.
 
-Para obter mais informações, veja o [repositório de elementos visuais do SampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/59a47935d8f5272ce145fe804193599ddb7e2001)
+O sinalizador `allowInteractions` será definido como `false` em todos os cenários do Power BI que exijam que os elementos visuais não sejam interativos (por exemplo, mosaicos de dashboard). Caso contrário (por exemplo, Relatório), `allowInteractions` é definido como `true`.
+
+Para obter mais informações, veja o [repositório de elementos visuais do SampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/59a47935d8f5272ce145fe804193599ddb7e2001).
 
 ```typescript
    ...

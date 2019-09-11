@@ -1,6 +1,6 @@
 ---
-title: Ordenar
-description: Comportamento de ordenação predefinido do Elemento Visual do Power BI.
+title: Opções de ordenação dos elementos visuais do Power BI
+description: Este artigo aborda o comportamento de ordenação predefinido dos elementos visuais do Power BI.
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f3d913e2bce34850dfae4c9486b2e43c78521a58
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: cecec80dc9fe8570535cbd1e0c1e7114363472d8
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424522"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236676"
 ---
-# <a name="sorting-options"></a>Opções de ordenação
+# <a name="sorting-options-for-power-bi-visuals"></a>Opções de ordenação dos elementos visuais do Power BI
 
-`Sorting` especifica o comportamento de ordenação predefinido do elemento visual.
-A funcionalidade necessita de um dos parâmetros descritos abaixo:
+Este artigo descreve como é que as opções de *ordenação* especificam o comportamento de ordenação predefinido dos elementos visuais do Power BI. 
+
+A capacidade de ordenação requer um dos seguintes parâmetros.
 
 ## <a name="default-sorting"></a>Ordenação predefinida
 
-A opção `default` é a forma mais simples. Permite a ordenação dos dados apresentados na secção "DataMappings".
-Esta opção permite a ordenação de "DataMappings" pelo utilizador e a especificação da direção da ordenação.
+A opção `default` é a forma mais simples. Permite a ordenação dos dados apresentados na secção "DataMappings". A opção permite a ordenação dos mapas de dados pelo utilizador e especifica a direção da ordenação.
 
 ```json
     "sorting": {
@@ -36,15 +36,12 @@ Esta opção permite a ordenação de "DataMappings" pelo utilizador e a especif
 
 ## <a name="implicit-sorting"></a>Ordenação implícita
 
-`implicit` refere-se à ordenação com parâmetro de matriz – `clauses` que descreve a ordenação para cada função de dados.
-`implicit` significa que o utilizador do elemento visual não pode alterar a ordem de ordenação.
-O Power BI não apresentará opções de ordenação no menu do elemento visual. No entanto, o Power BI irá classificar os dados de acordo com as definições especificadas.
+A ordenação implícita refere-se à ordenação com o parâmetro de matriz `clauses`, que descreve a ordenação para cada função de dados. `implicit` significa que o utilizador do elemento visual não pode alterar a ordem de ordenação. O Power BI não apresenta opções de ordenação no menu do elemento visual. No entanto, o Power BI classifica os dados de acordo com as definições especificadas.
 
 Os parâmetros `clauses` podem conter vários objetos com dois parâmetros:
 
-- `role` – determina `DataMapping` para ordenação.
-
-- `direction` – determina a direção da ordenação (1 = ascendente, 2 = descendente).
+- `role`: determina `DataMapping` para ordenação
+- `direction`: determina a direção da ordenação (1 = Ascendente, 2 = Descendente)
 
 ```json
     "sorting": {
@@ -65,4 +62,4 @@ Os parâmetros `clauses` podem conter vários objetos com dois parâmetros:
 
 ## <a name="custom-sorting"></a>Ordenação personalizada
 
-`custom` significa que a ordenação é gerida pelo programador no código do elemento visual.
+A ordenação personalizada significa que a ordenação é gerida pelo programador no código do elemento visual.

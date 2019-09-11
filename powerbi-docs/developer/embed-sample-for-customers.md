@@ -1,21 +1,21 @@
 ---
 title: Análise incorporada para incorporar conteúdo do Power BI na aplicação para os seus clientes
 description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para os seus clientes. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
-ms.reviewer: nishalit
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
+ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710962"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391794"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -198,9 +198,9 @@ Para obter o **ApplicationSecret**, siga estes passos:
 
     ![Escolher uma aplicação](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Selecione **certificados e segredos** sob **gerir**.
+4. Em **Gerir**, selecione **Certificados e segredos**.
 
-5. Selecione **segredos do novo cliente**.
+5. Selecione **Novo segredo do cliente**.
 
 6. Introduza um nome na caixa **Descrição** e selecione uma duração. Em seguida, selecione **Guardar** para obter o **Valor** para a sua aplicação. Quando fecha o painel **Chaves** depois de guardar o valor da chave, o campo do valor é apresentado apenas como oculto. Nesse momento, não é possível obter o valor da chave. Se perder o valor da chave, crie um novo no portal do Azure.
 

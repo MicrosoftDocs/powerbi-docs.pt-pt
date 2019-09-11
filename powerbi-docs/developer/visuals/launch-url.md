@@ -1,6 +1,6 @@
 ---
-title: Launch URL (Iniciar URL)
-description: Os elementos visuais do Power BI podem abrir o URL num novo separador
+title: Criar um URL de iniciação
+description: Este artigo descreve como pode abrir o URL num novo separador ao utilizar os Elementos Visuais do Power BI.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1a7002c3b45f341c0cbc0db683bc4f8a113e21f9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424867"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236657"
 ---
-# <a name="launch-url"></a>Launch URL (Iniciar URL)
+# <a name="create-a-launch-url"></a>Criar um URL de iniciação
 
-Iniciar URL permite abrir um novo separador (ou janela) do browser ao delegar o trabalho real no Power BI.
+Ao criar um URL de iniciação, pode abrir um novo separador (ou janela) do browser ao delegar o trabalho real no Power BI.
 
 ## <a name="sample"></a>Exemplo
 
@@ -36,18 +36,21 @@ this.host.launchUrl('http://some.link.net');
 
 ## <a name="restrictions"></a>Restrições
 
-* Utilize apenas caminhos absolutos e não relativos. `http://some.link.net/subfolder/page.html` está bem; `/page.html` não será aberto.
-* De momento, só são suportados os protocolos `http` e `https`. Evite `ftp`, `mailto`, etc.
+* Utilize apenas caminhos absolutos e não relativos. Por exemplo, utilize um caminho absoluto como `http://some.link.net/subfolder/page.html`. O caminho relativo (`/page.html`) não será aberto.
+
+* De momento, só são suportados os protocolos *HTTP* e *HTTPS*. Evite o *FTP*, o *MAILTO* e assim por adiante.
 
 ## <a name="best-practices"></a>Melhores práticas
 
-1. Na maioria dos casos, é melhor abrir apenas uma ligação como resposta a uma ação explícita de um utilizador. Faça com que seja fácil o utilizador compreender que, se clicar na ligação ou no botão, será aberto um novo separador. O utilizador poderá ficar confuso ou frustrado se acionar uma chamada `launchUrl()` sem ter realizado uma ação ou como efeito secundário de uma ação diferente.
-2. Se a ligação não for essencial para o funcionamento do elemento visual, recomenda-se fornecer ao autor do relatório uma forma de desativar e ocultar a ligação. Isto é especialmente relevante em casos de utilização do Power BI especiais, tais como a incorporação de um relatório numa aplicação de terceiros ou a respetiva publicação na Web.
-3. Evite acionar uma chamada `launchUrl()` dentro de um ciclo, da função `update` do elemento visual ou de outro código que surja frequentemente.
+* Geralmente, é melhor abrir uma ligação apenas como resposta a uma ação explícita de um utilizador. Faça com que seja fácil o utilizador compreender que, se clicar na ligação ou no botão, será aberto um novo separador. O utilizador poderá ficar confuso ou frustrado se acionar uma chamada `launchUrl()` sem ter realizado uma ação ou como efeito secundário de uma ação diferente.
 
-## <a name="step-by-step-example"></a>Exemplo passo a passo
+* Se a ligação não for essencial para o funcionamento do elemento visual, recomendamos que forneça ao autor do relatório uma forma de desativar e ocultar a ligação. Esta recomendação é especialmente relevante em casos de utilização do Power BI especiais, tais como a incorporação de um relatório numa aplicação de terceiros ou a respetiva publicação na Web.
 
-### <a name="adding-a-link-launching-element"></a>Adicionar um elemento de inicialização de ligação
+* Evite acionar uma chamada `launchUrl()` dentro de um ciclo, da função `update` do elemento visual ou de outro código que surja frequentemente.
+
+## <a name="a-step-by-step-example"></a>Um exemplo passo a passo
+
+### <a name="add-a-link-launching-element"></a>Adicionar um elemento de inicialização de ligação
 
 As seguintes linhas foram adicionadas à função `constructor` do elemento visual:
 
@@ -56,7 +59,7 @@ As seguintes linhas foram adicionadas à função `constructor` do elemento visu
     options.element.appendChild(this.helpLinkElement);
 ```
 
-Além disso, adicionou-se uma função privada que cria e anexa o elemento de âncora:
+Foi adicionada uma função privada que cria e anexa o elemento de âncora:
 
 ```typescript
 private createHelpLinkElement(): Element {
@@ -71,7 +74,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-Por último, uma entrada no ficheiro visual.less define o estilo para o elemento de ligação:
+Por último, uma entrada no ficheiro *visual.less* define o estilo para o elemento de ligação:
 
 ```less
 .helpLink {
@@ -103,10 +106,11 @@ Por último, uma entrada no ficheiro visual.less define o estilo para o elemento
 }
 ```
 
-### <a name="adding-a-toggling-mechanism"></a>Adicionar um mecanismo de alternância
+### <a name="add-a-toggling-mechanism"></a>Adicionar um mecanismo de alternância
 
-Isto requer a adição de um objeto estático (veja o [tutorial relativo a objetos estáticos](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)) para que o autor do relatório possa alternar a visibilidade do elemento de ligação (a predefinição está definida como oculto).
-Foi adicionado um objeto estático booleano `showHelpLink` à entrada de objetos `capabilities.json`:
+Para adicionar um mecanismo de alternância, precisa de adicionar um objeto estático para que o autor do relatório possa alternar a visibilidade do elemento de ligação. (A predefinição está definida como *Oculta*). Para obter mais informações, veja o [tutorial relativo a objetos estáticos](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties).
+
+Foi adicionado um objeto estático booleano `showHelpLink` à entrada de objetos do ficheiro *capabilities.json*, conforme mostrado no seguinte código:
 
 ```typescript
 "objects": {
@@ -136,4 +140,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-A classe `hidden` está definida em visual.less para controlar a apresentação do elemento.
+A classe *Oculta* está definida no *visual.less* para controlar a apresentação do elemento.

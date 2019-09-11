@@ -4,20 +4,19 @@ description: Este tópico mostra os consumidores e os utilizadores finais do Pow
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184799"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391764"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *designers* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
 
 Há muitas formas diferentes de abrir um relatório. Eis dois exemplos: abrir a partir da Home Page e abrir a partir de um dashboard. 
@@ -31,7 +30,7 @@ Vamos abrir um relatório que foi partilhado consigo diretamente e, em seguida, 
    ![Página Base](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que tenha sido partilhado consigo
-Os *designers* do Power BI podem partilhar um relatório diretamente consigo. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** na barra de navegação e na secção **Partilhado comigo** da tela Home Page.
+Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la à sua Home Page do Power BI. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** na barra de navegação e na secção **Partilhado comigo** da tela Home Page.
 
 1. Abra o serviço Power BI (app.powerbi.com).
 
@@ -45,13 +44,13 @@ Os *designers* do Power BI podem partilhar um relatório diretamente consigo. O 
 
 4. Basta selecionar o *cartão* de relatório para abrir o relatório.
 
-   ![página de relatório](./media/end-user-report-open/power-bi-report-open.png)
+   ![página de relatório](./media/end-user-report-open/power-bi-open.png)
 
 5. Repare nos separadores à esquerda.  Cada separador representa uma *página* do relatório. Atualmente, temos a página *Oportunidade de Crescimento* aberta. Selecione o separador *YTD Category* para abrir a página de relatório. 
 
    ![separadores de página de relatório](./media/end-user-report-open/power-bi-ytd.png)
 
-6. Neste momento, estamos a ver a página de relatório inteira. Para alterar a apresentação (zoom) da página, selecione Ver no menu de lista pendente no canto superior direito ( **>** ) e selecione **Tamanho real**.
+6. Neste momento, estamos a ver a página de relatório inteira. Para alterar a apresentação (zoom) da página, selecione Ver no menu de lista pendente no canto superior direito e selecione **Tamanho real**.
 
    ![alterar zoom](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações es
 
    ![Página Base](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Selecione uma das aplicações para a abrir. Consoante as opções definidas pelo *estruturador* de aplicações, a aplicação abrirá um dashboard, um relatório ou uma lista de conteúdos da aplicação. Se, ao selecionar a aplicação:
+8. Selecione uma das aplicações para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Se, ao selecionar a aplicação:
     - o relatório for aberto, estará tudo pronto.
     - um dashboard for aberto, veja ***Abrir um relatório a partir de um dashboard***, abaixo.
 
@@ -95,5 +94,5 @@ Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [m
 - e muito mais
 
 ## <a name="next-steps"></a>Próximos passos
-Existem [muitas maneiras de interagir com um relatório](end-user-reading-view.md).  Comece a explorá-las ao selecionar cada separador na parte lateral da tela do relatório.
+[Abrir e ver um dashboard](end-user-dashboard-open.md)
 

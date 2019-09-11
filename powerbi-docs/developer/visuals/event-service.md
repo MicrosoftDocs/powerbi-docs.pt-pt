@@ -1,6 +1,6 @@
 ---
-title: Rendering events (Eventos de composição)
-description: Os elementos visuais do Power BI podem notificar o Power BI de que estão prontos para exportar para o Power Point/PDF
+title: Eventos de composição nos elementos visuais do Power BI
+description: Os elementos visuais do Power BI podem notificar o Power BI de que estão prontos para exportar para o PowerPoint ou PDF.
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425097"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237158"
 ---
-# <a name="event-service"></a>Serviço de eventos
+# <a name="render-events-in-power-bi-visuals"></a>Eventos de composição nos elementos visuais do Power BI
 
-A nova API consiste em três métodos (iniciada, concluída ou com falhas) que devem ser chamados durante a composição.
+A nova API consiste em três métodos (`started`, `finished` ou `failed`) que devem ser chamados durante a composição.
 
-Quando a composição é iniciada, o código do elemento visual personalizado chama o método renderingStarted para indicar que o processo de composição começou.
+Quando a composição é iniciada, o código do elemento visual do Power BI chama o método `renderingStarted` para indicar que o processo de composição começou.
 
-Se a composição for concluída com sucesso, o código do elemento visual personalizado chamará imediatamente o método `renderingFinished` e notificará os serviços de escuta **(principalmente "exportar para PDF" e "exportar para o PowerPoint"** ) de que a imagem do elemento visual está pronta.
+Se a composição for concluída com êxito, o código do elemento visual do Power BI chama imediatamente o método `renderingFinished` e notifica os serviços de escuta (principalmente, *exportar para PDF* e *exportar para o PowerPoint*) de que a imagem do elemento visual está pronta para ser exportada.
 
-Caso tenha ocorrido um problema durante o processo de composição que impeça que o elemento visual personalizado seja concluído com sucesso, o código do elemento visual personalizado deverá chamar o método `renderingFailed` e notificar o serviço de escuta de que o processo de composição não foi concluído. Este método também fornece uma cadeia de carateres opcional para a causa da falha.
+Se ocorrer um problema durante o processo, o elemento visual do Power BI será impedido de ser composto com êxito. De modo a notificar os serviços de escuta que o processo de composição não foi concluído, o código do elemento visual do Power BI deverá chamar o método `renderingFailed`. Este método também fornece uma cadeia de carateres opcional para justificar a falha.
 
 ## <a name="usage"></a>Utilização
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>Exemplo simples. O elemento visual não tem animações na composição
+### <a name="sample-the-visual-displays-no-animations"></a>Exemplo: o elemento visual não apresenta qualquer animação
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,7 +83,7 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>Exemplo. O elemento visual tem uma animação
+### <a name="sample-the-visual-displays-animations"></a>Exemplo: o elemento visual apresenta animações
 
 Se o elemento visual tiver animações ou funções assíncronas a compor, o método `renderingFinished` deverá ser chamado após a animação ou dentro da função assíncrona.
 
@@ -104,7 +104,7 @@ Se o elemento visual tiver animações ou funções assíncronas a compor, o mé
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ Se o elemento visual tiver animações ou funções assíncronas a compor, o mé
 
 ## <a name="rendering-events-for-visual-certification"></a>Eventos de composição para a certificação de elementos visuais
 
-O suporte dos eventos de composição por parte do elemento visual é um dos requisitos da certificação de elementos visuais. Leia mais sobre [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).
+O suporte dos eventos de composição por parte do elemento visual é um dos requisitos da certificação de elementos visuais. Para obter mais informações, veja os [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).

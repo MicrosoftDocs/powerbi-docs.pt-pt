@@ -4,49 +4,47 @@ description: Alterar as definições de visualização de uma página num relat�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: fb4bffe36c24f83d81501554edffa0bb3ae5a3c0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532333"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391682"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Alterar a visualização de uma página de relatório
 
 As pessoas visualizam relatórios em múltiplos dispositivos diferentes, com diversos tamanhos de ecrã e proporções. Altere a visualização de uma página de relatório para ajustá-la às suas necessidades.
 
-![Captura de ecrã a mostrar a visualização de um relatório na tela.](media/end-user-report-view/power-bi-report.png)
+![Captura de ecrã a mostrar a visualização de um relatório na tela.](media/end-user-report-view/power-bi-canvas.png)
 
 ## <a name="explore-the-view-menu"></a>Explorar o menu Ver
 
-![Captura de ecrã a mostrar as opções pendentes do menu Ver.](media/end-user-report-view/power-bi-view-menu.png)
+![Captura de ecrã a mostrar as opções pendentes do menu Ver.](media/end-user-report-view/power-bi-viewmenu.png)
 
 
 As opções no menu **Ver** dão-lhe flexibilidade para visualizar as páginas de relatórios no tamanho e largura que escolher:
 
 - Imagine que está a visualizar um relatório num dispositivo pequeno e que é difícil ler os títulos e as legendas.  Selecione **Ver** > **Tamanho real** para aumentar o tamanho da página de relatório. Utilize as barras de deslocamento para ver mais partes do relatório.
 
-    ![Captura de ecrã a mostrar um relatório definido para a opção Tamanho real com duas barras de deslocamento destacadas.](media/end-user-report-view/power-bi-actual-size-new.png)
+    ![Captura de ecrã a mostrar um relatório definido para a opção Tamanho real com duas barras de deslocamento destacadas.](media/end-user-report-view/power-bi-view-actual.png)
 
 - Outra opção é ajustar o relatório à largura do seu ecrã ao selecionar **Ajustar à largura**. Como esta opção só ajusta à largura e não à altura, poderá ter de continuar a utilizar a barra de deslocamento vertical.
 
-  ![Captura de ecrã a mostrar um relatório definido para a opção Ajustar à largura com a barra de deslocamento vertical destacada.](media/end-user-report-view/power-bi-fit-to-width-new.png)
+  ![Captura de ecrã a mostrar um relatório definido para a opção Ajustar à largura com a barra de deslocamento vertical destacada.](media/end-user-report-view/power-bi-view-width.png)
 
 - Se não quiser utilizar as barras de deslocamento, mas quiser otimizar o tamanho do seu ecrã, selecione **Ajustar à Página**.
 
-   ![Captura de ecrã a mostrar um relatório definido para a opção Ajustar à página.](media/end-user-report-view/power-bi-fit-to-width.png)
+   ![Captura de ecrã a mostrar um relatório definido para a opção Ajustar à página.](media/end-user-report-view/power-bi-view-fit.png)
 
-- Também pode escolher uma de quatro **Cores de alto contraste**: Alto contraste n.º1, Alto contraste n.º2, Alto contraste preto e Alto contraste branco. É uma funcionalidade de acessibilidade que pode utilizar para que as pessoas com deficiências visuais possam ver os relatórios mais facilmente:
+- Também pode escolher uma de quatro **Cores de alto contraste**: Alto contraste n.º1, Alto contraste n.º2, Alto contraste preto e Alto contraste branco. É uma funcionalidade de acessibilidade que pode utilizar para que as pessoas com deficiências visuais possam ver os relatórios mais facilmente. O exemplo abaixo é um alto contraste n.º1. 
 
-    ![Captura de ecrã a mostrar um relatório definido para Alto contraste n.º1.](media/end-user-report-view/power-bi-high-contrast-1.png)![Captura de ecrã a mostrar um relatório definido para Alto contraste n.º2.](media/end-user-report-view/power-bi-high-contrast-2.png)
-    ![Captura de ecrã a mostrar um relatório definido para Alto contraste preto.](media/end-user-report-view/power-bi-high-contrast-black.png)![Captura de ecrã a mostrar um relatório definido para Alto contraste branco.](media/end-user-report-view/power-bi-high-contrast-white.png)
+    ![Captura de ecrã a mostrar um relatório definido para a opção Alto contraste n.º1.](media/end-user-report-view/power-bi-contrast1.png)
 
 - A opção final, **Ecrã inteiro**, apresenta a sua página de relatório sem barras de menus e cabeçalhos. A opção Ecrã inteiro pode ser adequada para ecrãs pequenos em que é difícil ver os detalhes.  Também é uma opção adequada ao projetar páginas de relatórios em ecrãs grandes, para que as pessoas as vejam, mas não interajam.  
 

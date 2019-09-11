@@ -1,6 +1,6 @@
 ---
-title: Advanced Edit Mode (Modo de Edição Avançado)
-description: Elementos visuais do Power BI com controlos de IU avançados
+title: Modo de edição avançado nos elementos visuais do Power BI
+description: Este artigo aborda como definir controlos avançados de IU em elementos visuais do Power BI.
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,51 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 625105aed773bce5cf70932f092faf60ea001c2c
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 54cd9d106132979e5ace71a2617a9e2520363176
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425557"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237358"
 ---
-# <a name="advanced-edit-mode"></a>Modo de edição avançada
+# <a name="advanced-edit-mode-in-power-bi-visuals"></a>Modo de edição avançado nos elementos visuais do Power BI
 
-Os elementos visuais que necessitam de controlos de IU avançados podem declarar suporte para o Modo de Edição Avançada.
-Se for suportado, no modo de edição de relatórios, será apresentado um botão `Edit` no menu do elemento visual.
-Ao clicar no botão `Edit`, o EditMode é definido como `Advanced`.
-O elemento visual pode utilizar o sinalizador EditMode para determinar se esses controlos de IU devem ser apresentados.
+Se precisar de controlos avançados de IU no seu elemento visual do Power BI, poderá tirar proveito do modo de edição avançado. No modo de edição de relatórios, selecione o botão **Editar** para definir o modo de edição para **Avançado**. O elemento visual pode utilizar o sinalizador `EditMode` para determinar se esse controlo de IU deve ser apresentado.
 
-Por predefinição, o elemento visual não é suportado pelo Modo de Edição Avançada.
-Se for necessário um comportamento diferente, este deve ser declarado explicitamente no ficheiro `capabilities.json` do elemento visual, através da definição da propriedade `advancedEditModeSupport`.
+Por predefinição, o elemento visual não suporta o modo de edição avançado. Se for necessário um comportamento diferente, pode declará-lo explicitamente no ficheiro *capabilities.json* do elemento visual, através da definição da propriedade `advancedEditModeSupport`.
 
 Os valores possíveis são:
 
-- 0 – NotSupported
+- `0` – NotSupported
 
-- 1 – SupportedNoAction
+- `1` – SupportedNoAction
 
-- 2 – SupportedInFocus
+- `2` – SupportedInFocus
 
-## <a name="entering-advanced-edit-mode"></a>Entrar no Modo de Edição Avançada
+## <a name="enter-advanced-edit-mode"></a>Entrar no modo de edição avançado
 
-O botão `Edit` ficará visível se:
+Um botão **Editar** será apresentado se:
 
- 1 – a propriedade `advancedEditModeSupport` for definida em capabilities.json como `SupportedNoAction` ou `SupportedInFocus`.
+* A propriedade `advancedEditModeSupport` estiver definida no ficheiro *capabilities.json* para `SupportedNoAction` ou `SupportedInFocus`.
 
- 2 – o elemento visual for visualizado no modo de edição de relatórios.
+* O elemento visual for visualizado no modo de edição de relatórios.
 
-Se a propriedade `advancedEditModeSupport` estiver fora do ficheiro capabilities.json ou estiver definida como `NotSupported`, o botão "Editar" desaparecerá.
+Se a propriedade `advancedEditModeSupport` estiver fora do ficheiro *capabilities.json* ou estiver definida como `NotSupported`, o botão **Editar** não é apresentado.
 
 ![Entrar no modo de edição](./media/edit-mode.png)
 
-Quando o utilizador clicar em `Edit`, o elemento visual irá receber uma chamada de atualização com o EditMode definido como `Advanced`.
-De acordo com o valor definido nas capacidades, serão executadas as seguintes ações:
+Ao selecionar **Editar**, o elemento visual obtém uma chamada de atualização() com EditMode definido como `Advanced`. Consoante o valor definido no ficheiro *capabilities.json*, irão ocorrer as seguintes ações:
 
-* `SupportedNoAction` – não será necessária qualquer ação adicional da parte do anfitrião.
-* `SupportedInFocus` – o anfitrião irá apresentar o elemento visual no modo de detalhe.
+* `SupportedNoAction`: Não será necessária qualquer ação adicional da parte do anfitrião.
+* `SupportedInFocus`: O anfitrião irá apresentar o elemento visual no modo de detalhe.
 
-## <a name="exiting-advanced-edit-mode"></a>Sair do Modo de Edição Avançada
+## <a name="exit-advanced-edit-mode"></a>Sair do modo de edição avançado
 
-O botão `Back to report` ficará visível se:
+O botão **Voltar ao relatório** é apresentado se:
 
-1 – a propriedade `advancedEditModeSupport` for definida em capabilities.json como `SupportedInFocus`.
+* A propriedade `advancedEditModeSupport` estiver definida no ficheiro *capabilities.json* para `SupportedInFocus`.

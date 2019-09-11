@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655171"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391870"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local
 
@@ -377,7 +377,7 @@ Caso se depare com problemas, siga estes passos para resolver o problema da inst
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>Adicionar entradas de registo ao computador do gateway
 
-Adicione as entradas de registo necessárias ao registo da máquina onde o gateway está instalado. Eis os comandos a executar:
+Adicione entradas de registo necessárias ao registo do computador no qual o gateway está instalado, bem como em computadores destinados a ligar-se a partir do Power BI Desktop. Eis os comandos a executar:
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 

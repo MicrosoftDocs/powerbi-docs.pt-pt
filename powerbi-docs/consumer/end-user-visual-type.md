@@ -1,5 +1,5 @@
 ---
-title: Tipos de elementos visuais no Power BI para os consumidores
+title: Tipos de elementos visuais no Power BI para consumidores
 description: Tipos de elementos visuais no serviço Power BI
 author: mihart
 manager: kvivek
@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711311"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302533"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
-Encontrará os elementos visuais em relatórios, dashboards, aplicações e as perguntas e respostas. Alguns destes tipos de elementos visuais são empacotados com o Power BI, e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers de relatórios* os adicionem a aplicações, dashboards e relatórios do Power BI. 
+Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas. Alguns destes tipos de elementos visuais estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers* de relatórios os adicionem a dashboards e relatórios do Power BI. 
 
-Este artigo é uma visão geral dos elementos visuais que são empacotados com o Power BI.  Estes são os elementos visuais que encontrará com mais frequência. 
+Este artigo é uma descrição geral dos elementos visuais que estão incorporados no serviço Power BI.  Estes são os elementos visuais que encontrará com mais frequência. Para obter informações detalhadas sobre um destes elementos visuais, veja [Documentação sobre tipos de elementos visuais para *designers* de relatórios do Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 > [!NOTE]
 > Para saber mais sobre elementos visuais personalizados, procure-os na secção **Power BI visuals** (Elementos visuais do Power BI) do [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada elemento visual, encontrará uma descrição, informações do criador e capturas de ecrã ou um vídeo. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lista de elementos visuais disponíveis no Power BI
-Todos estes elementos visuais podem ser encontrados em aplicações do Power BI, dashboards, relatórios, e [especificadas nas perguntas e respostas](end-user-q-and-a.md). Para saber como interagir com elementos visuais, veja [interagir com elementos visuais nos relatórios, dashboards e aplicações](end-user-visualizations.md)
+Todos estes elementos visuais podem ser encontrados em dashboards e relatórios do Power BI, e podem ser [especificados em Perguntas e Respostas](end-user-q-and-a.md). Para saber como interagir com elementos visuais, veja [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md).
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos das áreas: Básica (em camadas) e Empilhada
 ![gráfico de área](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ Um gráfico de combinação combina um gráfico de colunas e um gráfico de linh
 Os gráficos de combinação são uma ótima opção:
 - quando tem um gráfico de linhas e um gráfico de colunas com o mesmo eixo X.
 - para comparar várias medidas com intervalos de valores diferentes
-- para ilustrar a correlação entre duas medidas num elemento visual
+- para ilustrar a correlação entre duas medidas num só elemento visual
 - para verificar se uma medida atende o destino definido pela outra medida
 - para conservar o espaço da tela
 
@@ -76,14 +76,6 @@ Os funis ajudam a visualizar um processo que contém fases e itens que seguem um
 Por exemplo, um funil de vendas que controla os clientes por fases: Oportunidade Potencial > Oportunidade Potencial Qualificada > Potencial Interessado > Contrato > Fecho. Num relance, a forma do funil transmite a integridade do processo que está a controlar.
 Cada fase do funil representa um ponto percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com a primeiro fase, sendo a maior e cada fase subsequente menor do que a antecessor. Um funil em forma de pêra também é útil - pode identificar um problema no processo. Mas, em geral, a primeira fase, a fase de "entrada", é a maior.
 
-Os gráficos de funil são uma ótima opção:
-- Quando os dados são sequenciais e movimentam-se em pelo menos 4 fases.
-- Quando o número de "itens" na primeira for maior que o número na fase final.
-- calcular o potencial (receita de vendas/negociações/etc.) por fases.
-- calcular e controlar as taxas de conversão e retenção.
-- revelar afunilamentos num processo linear.
-- controlar o fluxo de trabalho do carrinho de compras.
-- acompanhar o progresso e o sucesso das campanhas de publicidade/marketing.
 
 ### <a name="gauge-charts"></a>Gráficos de medidor
 ![gráfico de medidor](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ Utilize um mapa básico para associar informações categóricas e quantitativas
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas ArcGIS
 ![mapa ArcGIS](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa, a um nível totalmente novo. As opções disponíveis para mapas de base, tipos de localização, temas, estilos de símbolos e camadas de referência cria elementos visuais de mapas informativos belíssimas. A combinação de camadas de dados autoritativas (como dados de censo) num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados no seu elemento visual.
+A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa, a um nível totalmente novo. As opções disponíveis para mapas de base, tipos de localização, temas, estilos de símbolos e camadas de referência cria elementos visuais de mapas bastante apelativos. A combinação de camadas de dados autoritativas (como dados do censo) num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados no elemento visual.
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
 ![mapa de manchas](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como u
 ### <a name="maps-shape-maps"></a>Mapas: mapas de formas
 ![mapa de forma](media/end-user-visual-type/power-bi-shape-map2.png)
 
-Os mapas de formas comparam regiões num mapa com cores. Ao contrário do elemento visual de mapa, os mapas de formas não podem mostrar localizações geográficas precisas de pontos de dados num mapa. Em vez disso, o seu objetivo principal é mostrar comparações relativas de regiões num mapa ao colori-los de forma diferente.
+Os mapas de formas comparam regiões num mapa com cores. Um mapa de forma não pode mostrar localizações geográficas precisas de pontos de dados num mapa. Em vez disso, o seu objetivo principal é mostrar comparações relativas de regiões num mapa ao colori-los de forma diferente.
 
 ### <a name="matrix"></a>Matriz
 ![matriz](media/end-user-visual-type/matrix.png)
@@ -163,12 +155,16 @@ Um gráfico de dispersão tem sempre dois eixos de valor para mostrar um conjunt
 
 Um gráfico de bolhas substitui os pontos de dados por bolhas, sendo que o tamanho das bolhas representa uma dimensão adicional dos dados.
 
-Um gráfico de pontos é semelhante a um gráfico de bolhas e a um gráfico de dispersão, exceto no facto de poder desenhar dados numéricos ou categóricos ao longo do eixo X.
+
+
+Um gráfico de pontos é semelhante a um gráfico de bolhas e a um gráfico de dispersão, exceto no facto de poder desenhar dados numéricos ou categóricos ao longo do eixo X. Este exemplo utiliza quadrados em vez de círculos e apresenta as vendas no eixo X.
+
+![gráfico de pontos](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Dispersão de alta densidade
 ![dispersão de alta densidade](media/end-user-visual-type/density-scatter.png)
 
-Por definição, os dados de alta densidade são efetuados para criar elementos visuais forma razoavelmente rápida sejam permeáveis à interatividade. A amostragem de alta densidade utiliza um algoritmo que elimina pontos sobrepostos e garante que todos os pontos no conjunto de dados são representados no elemento visual. Não apresenta apenas uma amostra representativa dos dados.  
+Por definição, a amostragem de dados de alta densidade é efetuada para criar elementos visuais reativos à interação com alguma rapidez. A amostragem de alta densidade utiliza um algoritmo que elimina pontos sobrepostos e garante que todos os pontos no conjunto de dados são representados no elemento visual. Não apresenta apenas uma amostra representativa dos dados.  
 
 Isto garante a melhor combinação de capacidade de resposta, representação e preservação dos pontos importantes no conjunto geral dos dados.
 
@@ -226,8 +222,8 @@ Os gráficos de cascata são uma ótima opção:
 - para ilustrar o início e final do número de funcionários da sua empresa num ano
 - para visualizar a quantidade de dinheiro ganho e gasto em cada mês, e o saldo parcial da sua conta.
 
-## <a name="qna"></a>Informe as perguntas e respostas o controlo a utilizar
-Quando escrever consultas em linguagem natural com o Power BI Q e R, pode especificar o tipo de elemento visual na sua consulta.  Por exemplo:
+## <a name="qna"></a>Utilizar as Perguntas e Respostas para determinar o elemento visual a utilizar
+Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power BI, pode especificar o tipo de elemento visual na consulta.  Por exemplo:
 
 
 "***vendas por estado como um mapa de árvore***"
@@ -235,5 +231,5 @@ Quando escrever consultas em linguagem natural com o Power BI Q e R, pode especi
 ![sessão de perguntas e respostas](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Interagir com elementos visuais nos relatórios, dashboards e aplicações](end-user-visualizations.md)    
+[Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md)    
 [A referência correta do elemento visual de sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

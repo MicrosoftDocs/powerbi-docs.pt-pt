@@ -1,6 +1,6 @@
 ---
-title: Analytics pane (Painel de análise)
-description: Como criar linhas de referência dinâmicas em Elementos Visuais do Power BI
+title: O Painel de análise em elementos visuais do Power BI
+description: Este artigo descreve como criar linhas de referência dinâmicas em elementos visuais do Power BI.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,34 +9,36 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b3b50f8dbcf40a3923e86422e24f8ed020894445
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 208c6cbbd4cd8cdabde039c53aab536ee989bc7d
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425534"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237333"
 ---
-# <a name="analytics-pane-in-power-bi-visuals"></a>Painel de Análise em Elementos Visuais do Power BI
+# <a name="the-analytics-pane-in-power-bi-visuals"></a>O Painel de análise em elementos visuais do Power BI
 
-O **Painel de Análise** foi [apresentado para elementos visuais nativos](https://docs.microsoft.com/power-bi/desktop-analytics-pane) em novembro de 2018.
-Os elementos visuais com a API v2.5.0 podem apresentar e gerir as suas propriedades no **Painel de Análise**.
+O Painel de **análise** foi apresentado para [elementos visuais nativos](https://docs.microsoft.com/power-bi/desktop-analytics-pane) em novembro de 2018.
+Este artigo aborda a forma como os elementos visuais do Power BI com a API v2.5.0 podem apresentar e gerir as suas propriedades no Painel de **análise**.
 
-![Painel de Análise](./media/visualization-pane-analytics-tab.png)
+![O Painel de análise](./media/visualization-pane-analytics-tab.png)
 
-É tratado de forma semelhante a [gerir propriedades no painel Formatar](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), ao definir um objeto no ficheiro capabilities.json do elemento visual. 
+## <a name="manage-the-analytics-pane"></a>Gerir o Painel de análise
 
-As diferenças são as seguintes:
+Do mesmo modo que gere as propriedades no painel [**Formatação** ](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual. 
 
-1. Por baixo da definição de `object`, adicione um campo `objectCategory` com o valor 2.
+Relativamente ao Painel de **análise**, as diferenças são as seguintes:
+
+* Por baixo da definição do objeto, adicione um campo **objectCategory** com o valor de 2.
 
     > [!NOTE]
-    > `objectCategory` é um campo opcional apresentado na API 2.5.0. Define o aspeto do elemento visual que o objeto controla (1 = Formatação, 2 = Análise). A "Formatação" é utilizada para o aspeto e funcionalidade, cores, eixos, etiquetas, etc. A "Análise" é utilizada para previsões, linhas de tendência, linhas de referência, formas, etc.
+    > O campo opcional `objectCategory` foi apresentado na API 2.5.0. Define o aspeto do elemento visual que o objeto controla (1 = Formatação, 2 = Análise). `Formatting` é utilizado para elementos como o aspeto e a funcionalidade, cores, eixos e etiquetas. `Analytics` é utilizado para elementos como previsões, linhas de tendência, linhas de referência e formas.
     >
-    > `objectCategory` é predefinido para "Formatação", se for omitido.
+    > Se o valor não for especificado, `objectCategory` assume a predefinição de "Formatação".
 
-2. O objeto tem de ter as duas propriedades seguintes:
-    1. `show` de tipo booleano, com o valor predefinido falso.
-    2. `displayName` de tipo de texto. O valor predefinido que escolher será o nome a apresentar inicial da instância.
+* O objeto tem de ter as duas propriedades seguintes:
+    * `show` de tipo `bool`, com um valor predefinido de `false`.
+    * `displayName` de tipo `text`. O valor predefinido que escolher torna-se o nome a apresentar inicial da instância.
 
 ```json
 {
@@ -63,13 +65,13 @@ As diferenças são as seguintes:
 }
 ```
 
-As outras propriedades podem ser definidas da mesma forma que os objetos de Formato. A enumeração de objeto é feita exatamente da mesma forma que no **painel Formato**.
+Pode definir outras propriedades da mesma forma que faz para os objetos de **Formatação**. Pode ainda enumerar objetos tal como faz no painel **Formatação**.
 
-***Limitações e problemas conhecidos***
+## <a name="known-limitations-and-issues-of-the-analytics-pane"></a>Limitações e problemas conhecidos do Painel de análise
 
-  1. Ainda não existe suporte de várias instâncias. Os objetos não podem ter um [seletor](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector) diferente de estático (ou seja, "seletor": nulo) e os elementos visuais personalizados não podem ter múltiplas instâncias de um cartão definidas pelo utilizador.
-  2. As propriedades do tipo `integer` não são apresentadas corretamente. Como alternativa, utilize o tipo `numeric`.
+* O painel **Análise** ainda não tem suporte de várias instâncias. Os objetos não podem ter um [seletor](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector) diferente de estático (ou seja, "seletor": nulo) e os elementos visuais do Power BI não podem ter múltiplas instâncias de um cartão definidas pelo utilizador.
+* As propriedades do tipo `integer` não são apresentadas corretamente. Como alternativa, utilize o tipo `numeric`.
 
 > [!NOTE]
-> Utilize o Painel de Análise apenas para objetos que adicionam novas informações ou que revelam detalhes sobre as informações apresentadas. Por exemplo, as linhas de referência dinâmicas ilustram tendências importantes.
-> Quaisquer opções que controlem o aspeto e funcionalidade do elemento visual, ou seja, a formatação, devem ser mantidas no painel Formatação.
+> * Utilize o Painel de **análise** apenas para objetos que adicionam novas informações ou que revelam detalhes sobre as informações apresentadas (por exemplo, linhas de referência dinâmicas que ilustram tendências importantes).
+> * Qualquer opção que controle o aspeto e funcionalidade do elemento visual, ou seja, a formatação, deve ser limitada ao painel **Formatação**.

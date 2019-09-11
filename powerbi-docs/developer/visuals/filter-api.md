@@ -1,6 +1,6 @@
 ---
-title: API de Filtros de Elementos Visuais
-description: Como os Elementos Visuais do Power BI podem filtrar outros elementos visuais
+title: API de Filtros de Elementos Visuais nos Elementos Visuais do Power BI
+description: Este artigo aborda como os elementos visuais do Power BI podem filtrar outros elementos visuais.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 50e9601faf497675ebc3f24609a856a600e3bcb1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fc0b21116888c8455d4d7b8efc5c476bfc592483
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425051"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237125"
 ---
-# <a name="power-bi-visual-filters-api"></a>API de Filtros de Elementos Visuais do Power BI
+# <a name="the-visual-filters-api-in-power-bi-visuals"></a>API de Filtros de Elementos Visuais nos Elementos Visuais do Power BI
 
-A filtragem de elementos visuais permite a filtragem de dados. A principal diferença das seleções é que os outros elementos visuais serão filtrados de qualquer forma, apesar do suporte de destaque do outro elemento visual.
+A API de Filtros de Elementos Visuais permite-lhe filtrar dados em elementos visuais do Power BI. A principal diferença das outras seleções é que os outros elementos visuais serão filtrados de qualquer forma, apesar do suporte de destaque do outro elemento visual.
 
-Para ativar a filtragem do elemento visual, o mesmo deve conter o objeto `filter` na secção `general` do conteúdo de capabilities.json.
+Para ativar a filtragem do elemento visual, o mesmo deve conter o objeto `filter` na secção `general` do código *capabilities.json*.
 
 ```json
 "objects": {
@@ -38,15 +38,15 @@ Para ativar a filtragem do elemento visual, o mesmo deve conter o objeto `filter
     }
 ```
 
-As interfaces de API de filtro estão disponíveis no pacote [`powerbi-models`](https://www.npmjs.com/package/powerbi-models). O pacote também contém classes para criar instâncias de filtro.
+As interfaces da API de Filtros de Elementos Visuais estão disponíveis no pacote [powerbi-models](https://www.npmjs.com/package/powerbi-models). O pacote também contém classes para criar instâncias de filtro.
 
 ```cmd
 npm install powerbi-models --save
 ```
 
-Se utilizar ferramentas com versões antigas (versão inferior a 3.X.X), deve incluir `powerbi-models` no pacote do elemento visual. [Breve guia sobre como incluir o pacote](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md)
+Se utilizar uma versão mais antiga (anterior a 3.X.X) das ferramentas, deve incluir `powerbi-models` no pacote de elementos visuais. Para obter mais informações, veja o breve guia [Adicionar a API de Filtro Avançado ao elemento visual](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/AddingAdvancedFilterAPI.md).
 
-Todos os filtros expandem a interface `IFilter`.
+Todos os filtros expandem a interface `IFilter`, conforme apresentado no seguinte código:
 
 ```typescript
 export interface IFilter {
@@ -54,12 +54,12 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
+Onde:
+* `target` é a coluna de tabela na origem de dados.
 
-`target` – é uma coluna de tabela na origem de dados.
+## <a name="the-basic-filter-api"></a>API de Filtro Básico
 
-## <a name="basic-filter-api"></a>API de filtro básico
-
-A interface de filtro básico é
+A interface de filtro básico é apresentada no seguinte código:
 
 ```typescript
 export interface IBasicFilter extends IFilter {
@@ -68,9 +68,9 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-`operator` – é uma enumeração com os valores "In", "NotIn", "All"
-
-`values` – são valores da condição
+Onde:
+* `operator` é uma enumeração com os valores *In*, *NotIn* e *All*.
+* `values` são valores da condição.
 
 Exemplo de filtro básico:
 
@@ -84,9 +84,9 @@ let basicFilter = {
 }
 ```
 
-O filtro significa "dê-me todas as linhas em que `col1` é igual a um dos valores 1, 2 ou 3".
+O filtro significa "Dê-me todas as linhas em que `col1` é igual ao valor 1, 2 ou 3".
 
-O equivalente do SQL é
+O equivalente do SQL é:
 
 ```sql
 SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
@@ -94,7 +94,7 @@ SELECT * FROM table WHERE col1 IN ( 1 , 2 , 3 )
 
 Para criar um filtro, pode utilizar a classe BasicFilter em `powerbi-models`.
 
-Se utilizar a versão antiga das ferramentas, deve obter uma instância dos modelos no objeto de janela por `window['powerbi-models']`:
+Se utilizar uma versão mais antiga da ferramenta, deverá obter uma instância de modelos no objeto de janela ao utilizar `window['powerbi-models']`, conforme apresentado no seguinte código:
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -115,15 +115,15 @@ O elemento visual invoca o filtro com o método applyJsonFilter() na interface d
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-## <a name="advanced-filter-api"></a>API de filtro avançado
+## <a name="the-advanced-filter-api"></a>API de Filtro Avançado
 
-A [API de Filtro Avançado](https://github.com/Microsoft/powerbi-models) permite consultas complexas de filtragem/seleção de pontos de dados entre elementos visuais com base em múltiplos critérios (tal como, "LessThan", "Contains", "Is", "IsBlank", entre outros).
+A [API de Filtro Avançado](https://github.com/Microsoft/powerbi-models) permite consultas complexas de filtragem e seleção de pontos de dados entre elementos visuais com base em múltiplos critérios (tal como, *LessThan*, *Contains*, *Is*, *IsBlank*, entre outros).
 
 O filtro foi apresentado na API de Elementos Visuais 1.7.0.
 
-A API de Filtro Avançado também requer `target` com os nomes `table` e `column`. No entanto, os operadores da API de Filtro Avançado são `"And" | "Or"`. 
+A API de Filtro Avançado também requer `target` com os nomes `table` e `column`. No entanto, os operadores da API de Filtro Avançado são *And* e *Or*. 
 
-Além disso, o filtro utiliza condições em vez de valores com interface:
+Além disso, o filtro utiliza condições em vez de valores com a interface:
 
 ```typescript
 interface IAdvancedFilterCondition {
@@ -132,7 +132,7 @@ interface IAdvancedFilterCondition {
 }
 ```
 
-Os operadores de condição do parâmetro `operator` são `"None" | "LessThan" | "LessThanOrEqual" | "GreaterThan" | "GreaterThanOrEqual" | "Contains" | "DoesNotContain" | "StartsWith" | "DoesNotStartWith" | "Is" | "IsNot" | "IsBlank" | "IsNotBlank"`
+Os operadores de condição do parâmetro `operator` são *None*, *LessThan*, *LessThanOrEqual*, *GreaterThan*, *GreaterThanOrEqual*, *Contains*, *DoesNotContain*, *StartsWith*, *DoesNotStartWith*, *Is*, *IsNot*, *IsBlank* e "IsNotBlank"
 
 ```javascript
 let categories: DataViewCategoricalColumn = this.dataView.categorical.categories[0];
@@ -155,21 +155,19 @@ let filter: IAdvancedFilter = new window['powerbi-models'].AdvancedFilter(target
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-O equivalente do SQL é
+O equivalente do SQL é:
 
 ```sql
 SELECT * FROM table WHERE col1 < 0;
 ```
 
-Pode encontrar o código de exemplo completo para utilizar a API de Filtro Avançado no [repositório](https://github.com/Microsoft/powerbi-visuals-sampleslicer) `Sampleslicer visual`.
+Para obter o código de exemplo completo para utilizar a API de Filtro Avançado, aceda ao [repositório de elementos visuais do Sampleslicer](https://github.com/Microsoft/powerbi-visuals-sampleslicer).
 
-## <a name="tuple-filter-api-multi-column-filter"></a>API de filtro de cadeia de identificação (filtro de múltiplas colunas)
+## <a name="the-tuple-filter-api-multi-column-filter"></a>API de Filtro de Cadeia de Identificação (filtro de múltiplas colunas)
 
-A API de Filtro de Cadeia de Identificação foi apresentada na API de Elementos Visuais 2.3.0.
+A API de Filtro de Cadeia de Identificação foi apresentada na API de Elementos Visuais 2.3.0. É semelhante à API de Filtro Básico, mas permite definir condições para várias colunas e tabelas.
 
-A API de filtro de cadeia de identificação é semelhante ao filtro básico, mas permite definir condições para várias colunas e tabelas.
-
-Um filtro tem uma interface: 
+A interface de filtro é apresentada no seguinte código: 
 
 ```typescript
 interface ITupleFilter extends IFilter {
@@ -181,21 +179,22 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-`target` é uma variedade de colunas com nomes de tabela:
+Onde:
+* `target` é uma variedade de colunas com nomes de tabela:
 
-```typescript
-declare type ITupleFilterTarget = IFilterTarget[];
-```
+    ```typescript
+    declare type ITupleFilterTarget = IFilterTarget[];
+    ```
 
-  O filtro pode abordar colunas de tabelas diferentes.
+  O filtro pode abordar colunas de várias tabelas.
 
-`$schema` é "http://powerbi.com/product/schema#tuple"
+* `$schema` é http://powerbi.com/product/schema#tuple.
 
-`filterType` é `FilterType.Tuple`
+* `filterType` é *FilterType.Tuple*.
 
-`operator` apenas permite utilizar o operador `"In"`
+* `operator` só pode ser utilizado no operador *In*.
 
-`values` é uma variedade de cadeias de identificação de valor, em que cada cadeia de identificação representa uma combinação permitida de valores de coluna de destino 
+* `values` é uma variedade de cadeias de identificação de valor e cada cadeia de identificação representa uma combinação permitida de valores de coluna de destino. 
 
 ```typescript
 declare type TupleValueType = ITupleElementValue[];
@@ -221,16 +220,16 @@ let target: ITupleFilterTarget = [
 
 let values = [
     [
-        // the 1st column combination value (aka column tuple/vector value) that the filter will pass through
+        // the first column combination value (or the column tuple/vector value) that the filter will pass through
         {
-            value: "Team1" // the value for `Team` column of `DataTable` table
+            value: "Team1" // the value for the `Team` column of the `DataTable` table
         },
         {
-            value: 5 // the value for `Value` column of `DataTable` table
+            value: 5 // the value for the `Value` column of the `DataTable` table
         }
     ],
     [
-        // the 2nd column combination value (aka column tuple/vector value) that the filter will pass through
+        // the second column combination value (or the column tuple/vector value) that the filter will pass through
         {
             value: "Team2" // the value for `Team` column of `DataTable` table
         },
@@ -252,17 +251,18 @@ let filter: ITupleFilter = {
 visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 ```
 
-**A ordem dos nomes da coluna e os valores da condição são confidenciais.**
+> [!IMPORTANT]
+> A ordem dos nomes da coluna e valores da condição é sensível.
 
-O equivalente do SQL é
+O equivalente do SQL é:
 
 ```sql
 SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team2" AND Value = 6 );
 ```  
 
-## <a name="restoring-json-filter-from-dataview"></a>Restaurar o Filtro JSON a partir de DataView
+## <a name="restore-the-json-filter-from-the-data-view"></a>Restaurar o filtro JSON a partir da vista de dados
 
-A partir da API 2.2, os **Filtros JSON** podem ser restaurados a partir de **VisualUpdateOptions**
+A partir da versão 2.2 da API, pode restaurar o filtro JSON a partir de *VisualUpdateOptions*, conforme apresentado no seguinte código:
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -276,16 +276,17 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 }
 ```
 
-O Power BI chama o método `update` do elemento visual quando utiliza marcadores de mudança e o elemento visual obtém o objeto `filter` correspondente.
-[Leia mais sobre o suporte de marcadores](bookmarks-support.md)
+Quando muda de marcadores, o Power BI chama o método `update` do elemento visual e o elemento visual obtém o objeto `filter` correspondente. Para obter mais informações, veja [Adicionar suporte de marcadores para elementos visuais do Power BI](bookmarks-support.md).
 
-### <a name="sample-json-filter"></a>Filtro JSON de Exemplo
+### <a name="sample-json-filter"></a>Filtro JSON de exemplo
 
-![Captura de ecrã a mostrar o Filtro JSON](./media/json-filter.png)
+Algum código de filtro JSON de exemplo é apresentado na seguinte imagem:
 
-### <a name="clear-json-filter"></a>Limpar o Filtro JSON
+![Código de filtro JSON](./media/json-filter.png)
 
-A API de filtro aceita o valor `null` do filtro como redefinido ou limpo.
+### <a name="clear-the-json-filter"></a>Limpar o filtro JSON
+
+A API de Filtro aceita o valor `null` do filtro como *redefinido* ou *limpo*.
 
 ```typescript
 // invoke the filter

@@ -1,6 +1,6 @@
 ---
-title: Ativar segmentação de dados de sincronização
-description: Como adicionar a funcionalidade de segmentação de dados de sincronização para elementos visuais do Power BI
+title: Ativar a funcionalidade Segmentação de Dados de Sincronização em elementos visuais do Power BI
+description: Este artigo descreve como pode adicionar a funcionalidade Segmentação de Dados de Sincronização a elementos visuais do Power BI.
 author: EugeneElkin
 ms.author: v-evelk
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 9966475e8bcaccad2090451b47ef09ef0a9af125
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 4d7b73a5d06f34fd197464d4444d0e19d6c1c026
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425028"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237204"
 ---
-# <a name="sync-slicers"></a>Segmentação de dados de sincronização
+# <a name="sync-slicers-in-power-bi-visuals"></a>Segmentação de Dados de Sincronização em elementos visuais do Power BI
 
-Para suportar a [segmentação de dados de sincronização](https://docs.microsoft.com/power-bi/desktop-slicers), o seu elemento visual de segmentação de dados personalizado tem de utilizar a API 1.13 ou posterior.
+Para suportar a funcionalidade [Segmentação de Dados de Sincronização](https://docs.microsoft.com/power-bi/desktop-slicers), o seu elemento visual de segmentação de dados personalizado tem de utilizar a versão de API 1.13 ou posterior.
 
-Também é necessário que a opção esteja ativada em `capabilities.json` (veja o exemplo abaixo).
+Além disso, tem de ativar a opção no ficheiro *capabilities.json*, conforme mostrado no seguinte código:
 
 ```json
 {
@@ -34,11 +34,11 @@ Também é necessário que a opção esteja ativada em `capabilities.json` (veja
 }
 ```
 
-Após a realização das alterações em `capabilities.json`, pode ver o painel de opções da segmentação de dados de sincronização quando clicar no seu elemento visual de segmentação de dados personalizado.
+Depois de atualizar o ficheiro *capabilities.json*, poderá ver o painel de opções **Segmentação de dados de sincronização** quando selecionar o seu elemento visual de segmentação de dados personalizado.
 
 > [!NOTE]
-> Se a sua segmentação de dados tiver mais do que um campo (categoria ou medida), a funcionalidade será desativada porque a segmentação de dados de sincronização não suporta vários campos.
+> A funcionalidade Segmentação de Dados de Sincronização não suporta mais do que um campo. Se a sua segmentação de dados tiver mais do que um campo (**Categoria** ou **Medida**), a funcionalidade será desativada.
 
-![Painel de segmentação de dados de sincronização](./media/sync-slicers-panel.png)
+![O painel "Segmentação de dados de sincronização"](./media/sync-slicers-panel.png)
 
-No painel, pode ver que a visibilidade da sua segmentação de dados e a respetiva filtragem poderão ser aplicadas a várias páginas de relatório.
+No painel **Segmentação de dados de sincronização**, pode ver que a visibilidade e os filtros da segmentação de dados podem ser aplicados a várias páginas do relatório.

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f4beb98c195c5af9967f988015959806d485696
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159975"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391892"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Por vezes, pode querer utilizar o Excel para ver e interagir com um conjunto de dados que tenha no Power BI. Com a opção **Analisar no Excel**, pode fazê-lo e aceder às funcionalidades Tabela Dinâmica, gráfico e segmentação de dados no Excel com base no conjunto de dados que existe no Power BI.
@@ -67,7 +67,7 @@ Embora tenha sessão iniciada no Power BI no seu browser, a primeira vez que abr
 ### <a name="users-with-multiple-power-bi-accounts"></a>Utilizadores com várias contas do Power BI
 Alguns utilizadores têm várias contas do Power BI e esses utilizadores podem deparar-se com uma situação em que têm sessão iniciada no Power BI com uma conta, mas a conta que tem acesso ao conjunto de dados que está a ser utilizado em Analisar no Excel é uma conta diferente. Nessas situações, poderá receber o erro **Proibido** ou uma falha no início de sessão quando tentar aceder a um conjunto de dados que está a ser utilizado num livro Analisar no Excel.
 
-Terá a oportunidade de iniciar sessão novamente e, nesta altura, pode iniciar sessão com a conta do Power BI que tem acesso ao conjunto de dados que está a ser acedido pela funcionalidade Analisar no Excel. Também pode selecionar **Perfil** no separador do friso **Power BI** no Excel, que identifica a conta com a qual tem sessão iniciada e fornece uma ligação que lhe permite terminar sessão (e, posteriormente, iniciar sessão com uma conta diferente).
+Terá a oportunidade de iniciar sessão novamente e, nesta altura, pode iniciar sessão com a conta do Power BI que tem acesso ao conjunto de dados que está a ser acedido pela funcionalidade Analisar no Excel. Também pode selecionar **Perfil** no separador do friso **Power BI** no Excel, que identifica a conta com a qual tem sessão iniciada e fornece uma ligação que lhe permite terminar sessão (e, posteriormente, iniciar sessão com uma conta diferente). Pode [transferir o Power BI Publisher para Excel](https://www.microsoft.com/download/details.aspx?id=50729) se ainda não o tiver instalado, pois é assim que o friso do Power BI no Excel é instalado.
 
 ![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 

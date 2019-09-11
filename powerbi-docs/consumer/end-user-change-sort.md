@@ -4,19 +4,18 @@ description: Alterar a forma como um gráfico é ordenado num relatório do Powe
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aa6193045ba1c399eaae1b48bf813738edba99f1
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750837"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302731"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado pela categoria **nome de loja**.
@@ -31,12 +30,12 @@ Num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualiza
    ![vídeo que mostra a ordem de seleção ascendente e descendente](media/end-user-change-sort/sort.gif)
 
 > [!NOTE]
-> Nem todos os elementos visuais podem ser ordenados. Por exemplo, os elementos visuais seguintes não podem ser ordenados: Treemap, Mapa, Mapa de Manchas, Dispersão, Medidor, Cartão, Cartão de Várias Linhas, Cascata.
+> Nem todos os elementos visuais podem ser ordenados. Por exemplo, os seguintes elementos visuais não podem ser ordenados: treemap, mapa, mapa de manchas, dispersão, medidor, cartão, cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
 Os relatórios do Power BI mantêm os filtros, as segmentações de dados, a ordenação e outras alterações que fizer à vista de dados. Por isso, se sair de um relatório e regressar mais tarde, as alterações são guardadas.  Se quiser reverter as alterações para as definições do designer do relatório, selecione **Repor para predefinição** na barra de menus superior. 
 
-![Ordenação persistente](media/end-user-change-sort/power-bi-reset-to-default.png)
+![Ordenação persistente](media/end-user-change-sort/power-bi-reset.png)
 
 Se, no entanto, o botão **Repor para predefinição** for apresentado a cinzento, isso significa que o designer do relatório desativou a capacidade de guardar (fazer persistir) as suas alterações.
 

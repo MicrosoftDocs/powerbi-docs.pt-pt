@@ -1,30 +1,29 @@
 ---
-title: Ver um relatório no Power BI
-description: Relatórios no Power BI
+title: Relatórios no serviço Power BI
+description: Relatórios no serviço Power BI, para consumidores
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532171"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391366"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 
 Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser alguém que *consome* ou utiliza relatórios.
 
-![Captura de ecrã a mostrar uma página de relatórios.](./media/end-user-reports/power-bi-report.png)
+![Captura de ecrã a mostrar uma página de relatórios.](./media/end-user-reports/power-bi-reports.png)
 
-Este relatório tem quatro páginas (ou separadores) e está atualmente a ver a página **Sentiment** (Sentimento). Nesta página, existem cinco elementos visuais diferentes e um título de página.
+Este relatório tem seis páginas (ou separadores) e está atualmente a ver a página **Sentiment** (Sentimento). Nesta página, existem cinco elementos visuais diferentes e um título de página. O painel *Filters* (Filtros) mostra um filtro aplicado a todas as páginas do relatório. Para fechar o painel Filters (Filtros), selecione a seta ( **>** ).
 
 Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, partilha e criação de notas em dispositivos móveis. Para obter mais informações, veja [Explorar relatórios nas aplicações móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -43,6 +42,8 @@ O Power BI baseia um relatório num único conjunto de dados. Os *estruturadore
 
 Esta ação não significa que não pode guardar as suas alterações. Pode fazê-lo, mas essas alterações só irão afetar a sua vista dos conteúdos. Para reverter para a vista predefinida original do relatório, selecione **Repor para predefinição**.
 
+![Captura de ecrã a mostrar o ícone Reverter para predefinição.](./media/end-user-reports/power-bi-reset.png)
+
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
 
 Os [Dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios pois também são telas preenchidas com elementos visuais. No entanto, existem algumas diferenças importantes.  
@@ -53,7 +54,7 @@ Os [Dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
 | Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando um dashboard cumpre determinadas condições |Não |
-| Funcionalidade |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
+| Feature |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
 | Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver os campos e tabelas do conjunto de dados no próprio dashboard |Yes. Pode ver campos e tabelas de conjuntos de dados e valores para os quais tem permissões de visualização |
 | Personalização |Não  |Pode filtrar, exportar, ver conteúdos relacionados, adicionar marcadores, gerar códigos QR, analisar no Excel e mais |
 
@@ -76,6 +77,5 @@ Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relató
 
 ## <a name="next-steps"></a>Próximos passos
 
-[O que é o Power BI?](../power-bi-overview.md)
-
-[Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md)
+[Abrir e ver um relatório](end-user-report-open.md)    
+[Dashboards no serviço Power BI](end-user-dashboards.md)

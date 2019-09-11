@@ -1,6 +1,6 @@
 ---
-title: Landing page (Página de destino)
-description: Como adicionar uma página de destino a elementos visuais do Power BI
+title: Adicionar uma página de destino aos elementos visuais do Power BI
+description: Este artigo descreve como adicionar uma página de destino a elementos visuais do Power BI.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424890"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236704"
 ---
-# <a name="landing-page"></a>Landing page (Página de destino)
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Adicionar uma página de destino aos elementos visuais do Power BI
 
-Com a API 2.3.0, pode adicionar uma página de destino ao seu elemento visual. Para tal, adicione `supportsLandingPage` às capacidades e defina-o como verdadeiro. Isto fará com que o seu elemento visual seja iniciado e atualizado antes mesmo de adicionar dados ao mesmo (o que significa que deixará de mostrar uma marca d'água) para que possa estruturar a sua página de destino de forma que seja apresentada no elemento visual enquanto não tiver dados.
+Com a API 2.3.0, pode adicionar uma página de destino aos elementos visuais do Power BI. Para tal, adicione `supportsLandingPage` às capacidades e defina-o como verdadeiro. Esta ação inicializa e atualiza o seu elemento visual antes de adicionar dados ao mesmo. Uma vez que o elemento visual já não mostra uma marca d'água, pode criar a sua própria página de destino para ser apresentada no elemento visual, desde que não tenha dados.
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-Exemplo
+A seguinte imagem apresenta uma página de destino de exemplo:
 
 ![captura de ecrã a mostrar a página de destino](./media/landing-page.png)
