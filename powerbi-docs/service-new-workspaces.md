@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530496"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750891"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -61,7 +61,7 @@ As funções permitem-lhe gerir as ações de cada utilizador numa área de trab
 
 Quando atribui funções a um grupo de utilizadores, os utilizadores nesse grupo têm acesso aos conteúdos. Se aninhar grupos de utilizadores, todos os utilizadores incluídos nos mesmos têm permissão.
 
-Eis as capacidades das quatro funções: administradores, membros, contribuidores e visualizadores.
+Eis as capacidades das quatro funções: administradores, membros, contribuidores e visualizadores. Todas estas capacidades, exceto a última, exigem uma licença do Power BI Pro.
 
 |Capacidade   | Administrador  | Membro  | Contribuidor  | Visualizador |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Eis as capacidades das quatro funções: administradores, membros, contribuidore
 | Permitir que outras pessoas voltem a partilhar itens. |  X | X  |   |   |
 | Criar, editar e eliminar conteúdos na área de trabalho.  |  X | X  | X  |   |
 | Publicar relatórios na área de trabalho, eliminar conteúdos.  |  X | X  | X  |   |
-| Ver um item. |  X | X  | X  | X  |
 | Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho. |  X | X  | X  | X <sup>1</sup>  |
 | Copiar um relatório. | X | X | X | X <sup>1</sup> |
+| Ver e interagir com um item. |  X | X  | X  | X  |
 
 **1** É necessária uma licença do Power BI Pro e [Permissão de compilação de conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
