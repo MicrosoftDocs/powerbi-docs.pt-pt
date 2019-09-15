@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: Use incremental refresh with dataflows (Utilizar a atualização incremental com os fluxos de dados)
               href: service-dataflows-incremental-refresh.md
-            - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
-              href: service-dataflows-best-practices.md
             - name: Recursos para programadores para fluxos de dados
               href: service-dataflows-developer-resources.md
             - name: Ligar a fluxos de dados no Power BI Desktop
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: Orientação
   items:
+    - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
+      href: service-dataflows-best-practices.md
     - name: O que é um esquema de estrela?
       href: guidance/star-schema.md
     - name: Reduce data model size (Reduzir o tamanho do modelo de dados)
