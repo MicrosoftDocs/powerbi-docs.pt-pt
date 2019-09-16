@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: d18e61343496eef63dee29afae0a9e95fb382848
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497987"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987009"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -137,7 +137,7 @@ A funcionalidade **Publicar na Web** é suportada na grande maioria das origens 
 - Relatórios que contêm medidas DAX ao nível do relatório.
 - Modelos de consulta de dados de início de sessão único.
 - [Informações confidenciais proprietárias](#publish-to-web-from-power-bi).
-- A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem [O utilizador detém os dados](developer/embed-sample-for-your-organization.md) para incorporar. Saiba mais sobre o [utilizador detém os dados](developer/embed-sample-for-your-organization.md).
+- A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize a abordagem [O utilizador detém os dados](developer/embed-sample-for-your-organization.md) para incorporar.
 
 ## <a name="tenant-setting"></a>Definição de inquilino
 

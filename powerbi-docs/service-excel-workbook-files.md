@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513109"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840957"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obter dados de ficheiros de livros do Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ No Excel 2016, também é possível utilizar Publicar > Exportar. É quase a mes
 Ao escolher **Ligar**, o livro será apresentado no Power BI, exatamente como apareceria no Excel Online. Mas, ao contrário do Excel Online, terá algumas excelentes funcionalidades para ajudá-lo a afixar elementos das suas folhas de cálculo diretamente nos dashboards.
 
 Não é possível editar o livro no Power BI. No entanto, se precisar de fazer alterações, clique em Editar e escolha a opção para editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações efetuadas são guardadas no livro no OneDrive.
-
-Ao optar por esta forma, o Power BI irá criar um conjunto de dados correspondente para o livro ligado. Se for necessário, pode utilizar este conjunto de dados para criar um relatório do Power BI. O seu livro também será apresentado no painel de navegação da área de trabalho do Power BI, em Relatórios. Os livros ligados têm um ícone especial do Excel.
 
 Escolha esta opção se tiver apenas dados em folhas de cálculo ou se desejar afixar intervalos, Tabelas Dinâmicas e gráficos nos dashboards.
 
