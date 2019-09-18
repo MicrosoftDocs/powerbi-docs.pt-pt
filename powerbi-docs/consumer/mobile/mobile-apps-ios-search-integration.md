@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
 ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/10/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "66817082"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Integração da funcionalidade de Pesquisa (Spotlight) de Dispositivos iOS na Aplicação Power BI Mobile para iOS (pré-visualização)

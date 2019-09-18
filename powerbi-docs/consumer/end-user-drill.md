@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265131"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de desagregação numa visualização no Power BI
@@ -225,7 +225,7 @@ Neste exemplo:
 
 Além da visualização, podemos ver a hierarquia refletida nos dados compostos para cada relatório. Selecione o botão das reticências (...) no canto superior direito e, em seguida, selecione **Mostrar Dados**. A seguinte tabela mostra os resultados da desagregação de um único mês ou de todos os meses:
 
-|Modo Expandir|Ano|Trimestre|Mês|Dia|
+|Modo Expandir|Year|Trimestre|Mês|Dia|
 | --- |:---:|:---:|:---:|---|
 |Único|![ano único](./media/end-user-drill/power-bi-hierarchical-year.png)|![trimestre único](media/end-user-drill/power-bi-hierarchical-quarter.png)|![mês único](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![dia único](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Tudo|![todos os anos](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos os trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos os meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos os dias](media/end-user-drill/power-bi-hierarchical-all-day.png)|
