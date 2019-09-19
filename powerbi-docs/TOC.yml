@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: Ativar o início de sessão único (SSO)
           items:
-            - name: 'Single sign-on (SSO) - overview (Início de sessão único [SSO] – descrição geral)'
+            - name: SSO overview (Descrição geral do SSO)
               href: service-gateway-sso-overview.md
-            - name: 'Single sign-on (SSO) - Kerberos (Início de sessão único [SSO] – Kerberos)'
-              href: service-gateway-sso-kerberos.md
-            - name: 'Single sign-on (SSO) - Kerberos - resource-based (Início de sessão único [SSO] – Kerberos – baseado em recursos)'
-              href: service-gateway-sso-kerberos-resource.md
-            - name: 'Single sign-on (SSO) - SAML (Início de sessão único [SSO] – SAML)'
+            - name: Kerberos-based SSO (SSO baseado no Kerberos)
+              items:
+                - name: Configure Kerberos-based SSO (Configurar o SSO baseado no Kerberos)
+                  href: service-gateway-sso-kerberos.md
+                - name: Datasource-specific configuration (Configuração específica da Origem de dados)
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP BW - sapcrypto.dll (Common Crypto Library)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP BW - gx64krb5.dll and gsskrb5.dll (SAP BW - gx64krb5.dll e gsskrb5.dll)
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: SAML-based SSO (SSO baseado no SAML)
               href: service-gateway-sso-saml.md
         - name: Troubleshoot the gateway (Resolução de problemas do gateway)
           href: service-gateway-onprem-tshoot.md
