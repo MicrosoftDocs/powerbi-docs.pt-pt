@@ -6,17 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 05/29/2019
+ms.date: 09/11/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 7dae9f7a2768a8e9f51d5454019cff740304fe2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66270624"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073385"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -42,7 +42,7 @@ ms.locfileid: "66270624"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Introdução</h3>
-                                                <p><a href="/power-bi/service-get-started" data-linktype="absolute-path">Ver uma apresentação do serviço Power BI</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-reading-view" data-linktype="absolute-path">Ver uma apresentação do serviço Power BI</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">O que é um consumidor do <b><i>Power BI</i></b>?</a></p>
                                                 <p><b>Qual é a diferença entre</b> <a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">relatórios</a>, <a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">dashboards</a> e <a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">aplicações</a>?</p>
                                                 <p><a href="/power-bi/consumer/end-user-sign-in" data-linktype="absolute-path">Iniciar e terminar sessão</a></p>
@@ -122,7 +122,7 @@ ms.locfileid: "66270624"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Obter ajuda</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Treinamento de Microsoft LEARN personalizado</a></p>
+                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Formação personalizada do Microsoft LEARN</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Ler o blogue do Power BI</a></p>
                                                 <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">Fazer perguntas nos fóruns do Power BI</a></p>
                                             </div>
@@ -152,10 +152,10 @@ ms.locfileid: "66270624"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark"> Conceitos e Terminologia</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark">Conceitos &amp; Terminologia</a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark">Conceitos e Terminologia</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark">Conceitos &amp; Terminologia</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>
@@ -314,25 +314,6 @@ ms.locfileid: "66270624"
                                                 <div class="cardText">
                                                     <h3>Acessibilidade</h3>
                                                     <p>Saiba como a Microsoft permite que as pessoas portadoras de deficiência consumam e interajam mais facilmente com o Power BI. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                            
-                            <li>
-                                <a href="/power-bi/consumer/end-user-browsers" data-linktype="absolute-path">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/end-user-consumer/browser-info.svg" alt="Browsers Info" data-linktype="relative-path">
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Informações sobre browsers</h3>
-                                                    <p>Veja a lista dos browsers que proporcionam o melhor funcionamento do Power BI. </p>
                                                 </div>
                                             </div>
                                         </div>

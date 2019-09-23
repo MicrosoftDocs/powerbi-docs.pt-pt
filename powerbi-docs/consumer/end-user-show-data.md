@@ -1,5 +1,5 @@
 ---
-title: Mostrar os dados que foi utilizados para criar o elemento visual
+title: Mostrar os dados utilizados para criar o elemento visual
 description: Este documento explica como os consumidores do Power BI podem "ver" os dados utilizados para criar um elemento visual.
 author: mihart
 manager: kvivek
@@ -12,15 +12,15 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65607978"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Mostrar os dados que foi utilizados para criar o elemento visual
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Mostrar os dados utilizados para criar o elemento visual
 
-Um elemento visual do Power BI é construída com dados de conjuntos de dados subjacentes. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Quando seleciona **Mostrar dados**, o Power BI apresenta os dados abaixo (ou junto a) o elemento visual.
+Um elemento visual do Power BI é criado com dados dos conjuntos de dados subjacentes. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Ao selecionar **Mostrar Dados**, o Power BI apresenta os dados por baixo do elemento visual (ou junto ao mesmo).
 
 
 1. No serviço Power BI, [abra um relatório](end-user-report-open.md) e selecione um elemento visual.  
@@ -36,5 +36,5 @@ Um elemento visual do Power BI é construída com dados de conjuntos de dados su
    ![apresentação horizontal dos dados e elemento visual](./media/end-user-show-data/power-bi-show-data-rotate.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Elementos visuais nos relatórios do Power BI](../visuals/power-bi-report-visualizations.md)    
+[Elementos visuais em relatórios do Power BI](../visuals/power-bi-report-visualizations.md)    
 [Relatórios do Power BI](end-user-reports.md)    
