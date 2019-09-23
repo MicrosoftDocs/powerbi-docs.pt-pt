@@ -1,6 +1,6 @@
 ---
 title: Imprimir a partir do serviço Power BI
-description: Imprimir um dashboard, mosaico ou página de relatório do serviço Power BI.
+description: Imprimir um dashboard, um mosaico ou uma página de relatório a partir do serviço Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -13,21 +13,21 @@ ms.date: 05/13/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608491"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Imprimir a partir do serviço Power BI
-Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou elemento visual de relatório do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
+Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
 
    > [!NOTE]
    > A caixa de diálogo de impressão que é apresentada depende do browser que está a utilizar.
    > 
 ## <a name="print-a-dashboard"></a>Imprimir um dashboard
 1. Abra o dashboard que quer imprimir.
-2. No canto superior esquerdo, selecione a exportação e selecione **imprima esta página**.
+2. No canto superior esquerdo, selecione Exportar e **Imprimir esta página**.
    
     ![Opção de impressão do dashboard](./media/end-user-print/power-bi-dashboard-print.png)
 3. A janela Imprimir do browser abre. Escolha as definições e o destino de impressão, e selecione **Imprimir**.
@@ -37,8 +37,8 @@ Imprima um dashboard completo, um mosaico do dashboard, uma página de relatóri
     ![caixa de diálogo Imprimir](./media/end-user-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir um mosaico do dashboard
-1. Abra o dashboard na [modo de ecrã inteiro](end-user-focus.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen-icon.png) na barra de menus superior.
-3. [Abra o mosaico no modo de detalhe](end-user-focus.md) pairar o rato para revelar as reticências (...) e escolhendo **aberto no modo de detalhe** ou o ícone de detalhe ![ícone de detalhe](./media/end-user-print/power-bi-focus-icon.png).
+1. Abra o dashboard no [modo de ecrã inteiro](end-user-focus.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen-icon.png) na barra de menus superior.
+3. [Abra o mosaico no Modo de detalhe](end-user-focus.md) ao pairar o rato para apresentar as reticências (...) e ao selecionar **Abrir no modo de detalhe** ou o ícone de detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png).
    
     ![menu de reticências](./media/end-user-print/power-bi-menu-options.png)
 4. Paire o rato sobre o mosaico para revelar o menu de Opções.
@@ -50,7 +50,7 @@ Imprima um dashboard completo, um mosaico do dashboard, uma página de relatóri
 ## <a name="print-a-report-page"></a>Imprimir uma página de relatório
 Os relatórios podem ser impressos uma página de cada vez.
 
-1. Abra o relatório e selecione **exportar** > **imprimir** para imprimir a página de relatório atual.
+1. Abra o relatório e selecione **Exportar** > **Imprimir** para imprimir a página de relatório atual.
    
     ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-report-print.png)
 3. A janela Imprimir do browser abre.
@@ -60,7 +60,7 @@ Os relatórios podem ser impressos uma página de cada vez.
 ## <a name="print-a-report-visual"></a>Imprimir um elemento visual de relatório
 1. [Abra o elemento visual no Modo de detalhe](end-user-focus.md) ao pairar o rato sobre o mosaico e selecionar o ícone de Detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png) no canto superior direito.
 
-2. No canto superior esquerdo, selecione **exportar** > **imprimir** para imprimir o elemento visual.
+2. No canto superior esquerdo, selecione **Exportar** > **Imprimir** para imprimir o elemento visual.
 
     ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-report-print.png)
 
@@ -75,7 +75,7 @@ Os relatórios podem ser impressos uma página de cada vez.
 * P: O que vejo quando seleciono **Imprimir** não corresponde ao que estão a mostrar aqui.    
 * R: Os ecrãs de impressão variam consoante o browser e a versão do software.
 * P: A minha impressão não é dimensionada corretamente.  O meu dashboard não cabe na página. Outras perguntas sobre dimensionamento e orientação.    
-* R: Não podemos garantir que a cópia impressa será exatamente o mesmo como é apresentado no serviço Power BI. Aspetos como o dimensionamento, as margens, os detalhes visuais, a orientação e o tamanho não são controlados pelo Power BI. Para obter ajuda com problemas como este, consulte a documentação relativa ao seu browser específico.      
+* R: Não podemos garantir que a cópia impressa será exatamente igual ao que é apresentado no serviço Power BI. Aspetos como o dimensionamento, as margens, os detalhes visuais, a orientação e o tamanho não são controlados pelo Power BI. Para obter ajuda com problemas como este, consulte a documentação relativa ao seu browser específico.      
 
 ## <a name="next-steps"></a>Próximos passos
 [Partilhar dashboards e relatórios com colegas e outras pessoas](../service-share-dashboards.md)
