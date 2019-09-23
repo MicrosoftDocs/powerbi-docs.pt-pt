@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
 ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65101012"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
@@ -24,7 +24,7 @@ Aplica-se a:
 |:--- |:--- |
 | iPhones |Telemóveis Android |
 
-Quando exibe um relatório do Power BI no seu telemóvel, o Power BI verifica se o relatório foi otimizado para telemóveis. Em caso afirmativo, o Power BI abre automaticamente o relatório otimizado na vista vertical.
+Quando abre um relatório do Power BI no seu telemóvel, o Power BI verifica se o relatório foi otimizado para telemóveis. Se tiver sido, o Power BI abre automaticamente o relatório otimizado na vista vertical.
 
 ![Relatório no modo vertical](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -38,7 +38,7 @@ Todas as restantes funcionalidades de relatórios do Power BI continuam a funcio
 * [Relatórios em telemóveis Android](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrar a página de relatório num telemóvel
-Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o relatório num telemóvel, pode utilizar esses filtros. O relatório é aberto no seu telemóvel, filtrada para os valores a serem filtrados no relatório na web. Aparece uma mensagem a indicar que existem filtros ativos na página. Pode alterar os filtros no seu telemóvel.
+Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o relatório num telemóvel, pode utilizar esses filtros. O relatório é aberto no seu telemóvel, filtrado com os valores que estão a ser filtrados no relatório na Web. Aparece uma mensagem a indicar que existem filtros ativos na página. Pode alterar os filtros no seu telemóvel.
 
 1. Toque no ícone de filtro ![Ícone de filtro no telemóvel](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página. 
 2. Utilize a filtragem básica ou avançada para ver os resultados em que está interessado.
@@ -46,7 +46,7 @@ Se um relatório otimizado para telemóvel tiver filtros definidos, quando vir o
     ![Filtro avançado de relatórios do Power BI no telemóvel](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Realce cruzado de visuais
-Realce cruzado de visuais em retrato vista funciona da forma que ele faz no serviço Power BI e em telemóveis na vista horizontal: quando selecionar dados num elemento visual, este realça dados relacionados noutros elementos visuais nessa página.
+O realce cruzado dos elementos visuais funciona na vista vertical no serviço Power BI e na vista horizontal em telemóveis: quando selecionar dados num elemento visual, este realça dados relacionados noutros elementos visuais nessa página.
 
 Saiba mais sobre [filtrar e realçar no Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -56,13 +56,13 @@ Nos relatórios no telemóvel, ao selecionar um visual, o relatório no telemóv
 Com o visual selecionado, pode fazer coisas como deslocar-se no visual. Para desmarcar um visual, basta tocar em qualquer lugar fora da área visual.
 
 ## <a name="open-visuals-in-focus-mode"></a>Abrir visuais no modo de detalhe
-Relatórios de telemóvel também oferecem um modo de detalhe: Obtenha uma vista mais alargada de um único elemento visual e explorá-lo mais facilmente.
+Os relatórios no telemóvel também disponibilizam um modo de detalhe: obtém uma vista maior de um único elemento visual e explora-o mais facilmente.
 
 * No relatório de telemóvel, toque nas reticências ( **...** ) no canto superior direito de um visual > **Expandir para o modo de detalhe**.
   
     ![Expandir para o modo de foco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-O que fazer no modo de detalhe apresenta para a tela de relatório e vice-versa. Por exemplo, se realça um valor num elemento visual, em seguida, regressar ao relatório completo, o relatório é filtrado para o valor que realçou no elemento visual.
+O que for feito no modo de detalhe é aplicado à tela de relatório e vice-versa. Por exemplo, se realçar um valor num elemento visual e depois regressar ao relatório completo, o relatório será filtrado com o valor que realçou no elemento visual.
 
 Algumas ações só são possíveis no modo de detalhe, devido às limitações de tamanho de ecrã:
 
@@ -74,7 +74,7 @@ Algumas ações só são possíveis no modo de detalhe, devido às limitações 
   
     ![Reverter](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
-    Reverter está disponível ao nível do relatório, limpar a exploração de todos os elementos visuais, ou ao nível visual, limpar a exploração do elemento visual selecionado.   
+    A reversão está disponível ao nível do relatório, ao limpar a exploração de todos os elementos visuais, ou ao nível do elemento visual, ao limpar a exploração do elemento visual selecionado.   
 
 ## <a name="drill-down-in-a-visual"></a>Desagregar num visual
 Se os níveis de hierarquia estiverem definidos num visual, pode desagregar até às informações detalhadas mostradas num visual e, em seguida, voltar para cima. Pode [adicionar desagregações a um visual](../end-user-drill.md) no serviço Power BI ou no Power BI Desktop.
@@ -82,15 +82,15 @@ Se os níveis de hierarquia estiverem definidos num visual, pode desagregar até
 Existem alguns tipos de desagregação:
 
 ### <a name="drill-down-on-a-value"></a>Desagregar um valor
-1. Há muito tempo toque (tap e hold) num ponto de dados num elemento visual.
-2. Descrição será apresentada e, se a hierarquia esteja definida, em seguida, o rodapé de descrição mostrará desagregação para baixo e seta para cima.
-3. Toque na seta para baixo para desagregar
+1. Toque sem soltar num ponto de dados num elemento visual.
+2. Será apresentada uma descrição e, se estiver definida uma hierarquia, o rodapé da descrição irá apresentar setas para desagregar e agregar.
+3. Toque na seta para baixo para desagregar.
 
-    ![Toque de desagregação](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Tocar para desagregar](././media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Toque na seta para cima para agregar.
 
-### <a name="drill-to-next-level"></a>Desagregar para o nível seguinte
+### <a name="drill-to-next-level"></a>Explorar o nível seguinte
 1. Num relatório num telemóvel, toque nas reticências ( **...** ) no canto superior direito > **Expandir para o modo de detalhe**.
    
     ![Expandir para o modo de detalhe](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
@@ -113,21 +113,21 @@ Existem alguns tipos de desagregação:
    
     ![Reverter](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
-## <a name="drill-through-from-a-value"></a>Pesquisar através de um valor
-Exploração do liga-se os valores na página de único relatório, com outras páginas de relatório. Quando pesquisar através de um ponto de dados para outra página de relatório, os valores de ponto de dados são utilizados para filtrar o drilled através da página ou é no contexto dos dados selecionados.
-Os autores do relatório podem [definir a exploração do](https://docs.microsoft.com/power-bi/desktop-drillthrough) quando criam o relatório.
+## <a name="drill-through-from-a-value"></a>Pormenorizar a partir de um valor
+A pormenorização liga valores numa página de relatório a outras páginas de relatório. Ao pormenorizar de um ponto de dados para outra página de relatório, os valores do ponto de dados são utilizados para filtrar a página pormenorizada ou o contexto será o dos dados selecionados.
+Os autores do relatório podem [definir a pormenorização](https://docs.microsoft.com/power-bi/desktop-drillthrough) ao criarem o relatório.
 
-1. Há muito tempo toque (tap e hold) num ponto de dados num elemento visual.
-2. Descrição será apresentada e se exploração é definida, em seguida, o rodapé de descrição mostrará exploração do seta.
-3. Toque na seta para a exploração do
+1. Toque sem soltar num ponto de dados num elemento visual.
+2. Será apresentada uma descrição e, se estiver definida a pormenorização, o rodapé da descrição irá apresentar uma seta para pormenorizar.
+3. Toque na seta para pormenorizar.
 
-    ![Exploração do toque](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Tocar para pormenorizar](././media/mobile-apps-view-phone-report/report-drill-through1.png)
 
-4. Escolha qual página de relatório para pormenorizar
+4. Escolha a página do relatório a pormenorizar.
 
-    ![Escolha a página de relatório](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Selecionar a página do relatório](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
-5. Utilize o botão voltar, no cabeçalho da aplicação para voltar à página de iniciada a partir de.
+5. Utilize o botão Anterior no cabeçalho da aplicação para voltar à página na qual começou.
 
 
 ## <a name="next-steps"></a>Próximos passos

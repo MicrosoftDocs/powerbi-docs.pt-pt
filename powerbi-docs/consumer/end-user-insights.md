@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61049243"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Ver informações de dados nos mosaicos do dashboard com o Power BI
@@ -59,7 +59,7 @@ Para voltar à tela original das informações, no canto superior direito, selec
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 - **Visualizar informações**: não trabalha com o DirectQuery. Só funciona com dados carregados para o Power BI.
-- **Ver informações** não funciona com todos os tipos de mosaicos do dashboard. Por exemplo, não está disponível para os elementos visuais personalizados.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **Ver informações** não funciona com todos os tipos de mosaicos do dashboard. Por exemplo, não está disponível para elementos visuais personalizados.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Próximos passos
