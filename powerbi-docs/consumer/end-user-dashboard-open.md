@@ -3,20 +3,19 @@ title: Ver um dashboard do Power BI
 description: Os dashboards são uma funcionalidade essencial do serviço Power BI. Saiba como abrir e ver um dashboard.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608459"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141352"
 ---
 # <a name="view-a-dashboard"></a>Visualizar um dashboard
 Os *consumidores* do Power BI passam muito tempo a visualizar dashboards. Os dashboards foram criados para realçar as informações específicas de relatórios e conjuntos de dados subjacentes. E os consumidores do Power BI utilizam essas informações para controlar, monitorizar, responder a perguntas, testar e muito mais – para tomar decisões condicionadas pelos dados empresariais.
@@ -39,7 +38,7 @@ O Power BI Pro é necessário tanto para partilhar um dashboard como para visual
 
 Poderá encontrar dashboards em todos os contentores na barra de navegação esquerda. 
 
-![ícone do dashboard](media/end-user-dashboard-open/opendash.gif)
+![ícone do dashboard](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **Home Page** 
 - **Favoritos** – se definiu [um dashboard como favorito](end-user-favorite.md)
