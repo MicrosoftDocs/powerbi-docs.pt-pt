@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490309"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877801"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -119,9 +119,9 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Como posso impedir que os utilizadores existentes comecem a utilizar o Power BI?
 
-A definição do Microsoft Azure AD que controla isto é **AllowAdHocSubscriptions**. A maioria dos inquilinos tem essa definição definida como verdadeiro, o que significa que está ativada. Se adquiriu o Power BI através de um parceiro, poderá estar definida como falso, o que significa que está desativada.
+A definição do Microsoft Azure AD que controla isto é **AllowAdHocSubscriptions**. A maioria dos inquilinos tem esta opção definida como *verdadeiro*, o que significa que está ativada. Se tiver adquirido o Power BI através de um parceiro, a opção poderá estar definida como *falso*, o que significa que está desativada.
 
-Utilize o seguinte script do PowerShell para desativar as subscrições ad hoc. ([Saiba mais acerca do PowerShell][1].)
+Utilize o seguinte script do PowerShell para desativar as subscrições ad hoc. ([Saiba mais sobre o PowerShell][1].)
 
 1. Entre no Azure Active Directory com as suas credenciais do Office 365. A primeira linha do seguinte script do PowerShell pede-lhe as suas credenciais. Na segunda linha, será ligado ao Azure Active Directory.
 
@@ -145,7 +145,7 @@ Utilize o seguinte script do PowerShell para desativar as subscrições ad hoc.
     ```
 
 > [!NOTE]
-> Utilize o sinalizador **AllowAdHocSubscriptions** para controlar várias capacidades dos utilizadores na organização, incluindo a capacidade de se inscreverem no Azure Rights Management Service. A alteração deste sinalizador afeta todas estas capacidades.
+> Utilize o sinalizador **AllowAdHocSubscriptions** para controlar várias capacidades dos utilizadores na organização, incluindo a capacidade de se inscreverem no Azure Rights Management Service. A alteração deste sinalizador afeta todas estas capacidades. Com uma definição de *falso*, os utilizadores ainda se podem inscrever numa avaliação gratuita Pro.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>Como posso permitir que os utilizadores se inscrevam no Power BI?
 

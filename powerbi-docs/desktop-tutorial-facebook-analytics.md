@@ -7,19 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513702"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841387"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análise do Facebook com o Power BI Desktop
 
 Neste tutorial, vai aprender a importar dados do Facebook e a utilizá-los no Power BI Desktop. Vai ligar e importar dados da página do Facebook do Power BI, aplicar transformações aos dados importados e utilizar os dados em visualizações de relatórios.
+
+> [!WARNING]
+> Devido às restrições das permissões da Aplicação do Facebook, as funções de conector descritas neste artigo não estão atualmente a funcionar corretamente. Estamos a trabalhar com o Facebook para disponibilizar esta funcionalidade o mais rapidamente possível.
+
 
 ## <a name="connect-to-a-facebook-page"></a>Ligar a uma página do Facebook
 
@@ -39,7 +43,7 @@ Este tutorial utiliza dados da [página do Facebook do Microsoft Power BI](http
    
 4. Escreva ou cole o nome da página **microsoftbi** na caixa de texto **Nome de utilizador**, selecione **Mensagens** na lista pendente **Ligação** e, em seguida, Selecione **OK**.
    
-   ![Connect](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Ligar](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. Quando lhe forem pedidas as credenciais, inicie sessão na sua conta do Facebook e permita o acesso do Power BI à mesma.
    

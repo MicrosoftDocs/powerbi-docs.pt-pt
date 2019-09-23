@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273612"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847722"
 ---
 Existem dois cálculos principais que pode criar com o DAX:
 
@@ -26,7 +26,7 @@ A imagem seguinte mostra uma fórmula DAX a ser criada no Power BI:
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_1.png)
 
-Também pode omitir por completo o nome da tabela e utilizar apenas o nome da coluna, mas esta é uma má prática para escrever funções claras (e, por conseguinte, código DAX claro). Os nomes de colunas têm de incluir sempre parênteses retos.
+Também pode omitir por completo o nome da tabela e utilizar apenas o nome da coluna, mas esta não é a melhor prática para escrever funções claras (e, por conseguinte, código DAX claro). Os nomes de colunas têm de incluir sempre parênteses retos.
 
 A melhor prática é fazer *sempre* o seguinte:
 

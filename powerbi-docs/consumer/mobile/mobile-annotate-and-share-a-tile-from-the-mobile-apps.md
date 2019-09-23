@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342997"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841476"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotar e partilhar um mosaico, relatório ou visual nas aplicações móveis do Power BI
 Aplica-se a:
@@ -29,7 +29,7 @@ Pode anotar e partilhar um instantâneo de um mosaico, relatório ou visual a pa
 
 *Um relatório com anotações*
 
-O e-mail com o instantâneo do mosaico, relatório ou visual também inclui uma ligação para o objeto real no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Os seus destinatários podem clicar na ligação e aceder diretamente a esse mosaico, relatório ou visual, se eles e o utilizador tiverem licenças do Power BI Pro ou se os conteúdos estiverem em [capacidade Premium](../../service-premium-what-is.md) e se já tiver partilhado o item com eles. 
+O e-mail com o instantâneo do mosaico, relatório ou visual também inclui uma ligação para o objeto real no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Os destinatários poderão clicar na ligação e aceder diretamente a esse mosaico, relatório ou elemento visual se os destinatários e o utilizador tiverem licenças do Power BI Pro ou se os conteúdos estiverem numa [capacidade Premium](../../service-premium-what-is.md) e se já tiver partilhado o item com eles. 
 
 Também pode [partilhar um mosaico da aplicação móvel do Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md), mas não pode anotá-lo.
 

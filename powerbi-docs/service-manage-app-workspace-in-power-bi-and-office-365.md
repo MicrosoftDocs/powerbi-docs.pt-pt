@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962010"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903783"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerir a área de trabalho da aplicação no Power BI e no Office 365
 
@@ -72,7 +72,7 @@ Também pode editar aspetos de uma área de trabalho de aplicação diretamente 
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Adicionar uma imagem e definir outras propriedades da área de trabalho
 
-Quando distribuir a aplicação a partir da área de trabalho da aplicação, a imagem que adicionar aqui será a imagem da sua aplicação. Veja a secção [Add an image to your Office 365 app workspace (optional)](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) (Adicionar uma imagem à sua área de trabalho de aplicação do Office 365 [opcional]) do artigo **Create the new workspaces** (Criar as novas áreas de trabalho).
+Quando distribuir a aplicação a partir da área de trabalho da aplicação, a imagem que adicionar aqui será a imagem da sua aplicação. Veja [Adicionar uma imagem à área de trabalho da aplicação do Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) no artigo **Criar as novas áreas de trabalho**.
 
 1. Na vista do Outlook para Office 365 da sua área de trabalho de aplicação, aceda ao separador **Acerca de** e selecione **Editar**.
 

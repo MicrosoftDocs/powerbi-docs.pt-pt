@@ -1,6 +1,6 @@
 ---
-title: Filtrar um relatório e partilhá-lo com colegas de trabalho - Power BI
-description: Saiba como filtrar um relatório do Power BI e partilhá-lo com colegas na sua organização.
+title: Duas formas de partilhar um relatório do Power BI filtrado
+description: Fique a conhecer duas formas de filtrar um relatório do Power BI e partilhá-lo com colegas na sua organização.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,62 +8,72 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/24/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f3808884e63521ec1dd775d876f1cf707bbe56b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770698"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877709"
 ---
-# <a name="filter-a-power-bi-report-and-share-it-with-coworkers"></a>Filtrar um relatório do Power BI e partilhá-lo com colegas de trabalho
+# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Duas formas de partilhar um relatório do Power BI filtrado
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. E se pretender partilhar uma versão filtrada de um relatório? Por exemplo, um relatório que mostre apenas os dados de um vendedor, cidade ou ano específico. Tente filtrar um relatório e partilhá-lo ou criar um URL personalizado. O relatório será filtrado quando os destinatários o abrirem. É possível remover o filtro ao modificar o URL. 
 
-O Power BI também disponibiliza [várias outras formas de colaborar e distribuir os seus relatórios](service-how-to-collaborate-distribute-dashboards-reports.md). Na partilha, o utilizador e os seus destinatários necessitam de uma [licença do Power BI Pro](service-features-license-type.md), ou os conteúdos precisam de estar numa [capacidade Premium](service-premium-what-is.md). 
+![Relatório filtrado](media/service-share-reports/power-bi-share-filter-pane-report.png)
+
+O Power BI também disponibiliza [outras formas de colaborar e distribuir os relatórios](service-how-to-collaborate-distribute-dashboards-reports.md). Na partilha, o utilizador e os seus destinatários necessitam de uma [licença do Power BI Pro](service-features-license-type.md), ou os conteúdos precisam de estar numa [capacidade Premium](service-premium-what-is.md). 
 
 ## <a name="two-ways-to-filter-a-report"></a>Duas formas de filtrar um relatório
 
-### <a name="set-a-filter"></a>Defina um filtro
+Para ambas as técnicas de filtragem, estamos a utilizar a aplicação de modelo de exemplo Marketing e Vendas. Deseja experimentá-la? Também pode instalar a [aplicação de modelo de exemplo Marketing e Vendas](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview).
 
-Abra o relatório na [Vista de edição](consumer/end-user-reading-view.md), aplique o filtro e guarde o relatório.
-   
-Neste caso, estamos a filtrar o [Exemplo de Análise de Revenda](sample-tutorial-connect-to-the-samples.md) de forma a mostrar apenas valores em que **Territory** (Território) seja igual a **NC**.
-   
-![Painel de filtros do relatório](media/service-share-reports/power-bi-filter-report2.png)
+### <a name="set-a-filter"></a>Definir um filtro
+
+Abra um relatório na [Vista de edição](consumer/end-user-reading-view.md) e aplique um filtro.
+
+Neste exemplo, estamos a filtrar a página de Categoria do Ano da aplicação de modelo de exemplo Marketing e Vendas para mostrar apenas os valores em que a **Região** é igual a **Central**. 
+ 
+![Painel de filtros do relatório](media/service-share-reports/power-bi-share-report-filter.png)
+
+Guarde o relatório.
 
 ### <a name="create-a-filter-in-the-url"></a>Criar um filtro no URL
 
+Quando adiciona o filtro ao final do URL da página de relatório, o comportamento é um pouco diferente. O aspeto da página filtrada não é alterado. No entanto, o Power BI adiciona o filtro a todo o relatório e remove os outros valores do painel do filtro.  
+
 Adicione o seguinte ao final do URL da página do relatório:
    
-?filter=*tablename*/*fieldname* eq *value*
+    ?filter=*tablename*/*fieldname* eq *value*
    
-O campo tem de ser do tipo número, datetime ou uma cadeia. Os valores *tablename* ou *fieldname* não podem ter espaços.
+O campo deve ser do tipo número, data/hora ou cadeia de caracteres. Os valores *tablename* ou *fieldname* não podem ter espaços.
    
-No nosso exemplo, o nome da tabela é **Store** (Loja), o nome do campo é **Territory** (Território) e o valor com base no qual pretendemos filtrar é **NC**:
+No nosso exemplo, o nome da tabela é **Área geográfica**, o nome do campo é **Região** e o valor com base no qual pretendemos filtrar é **Central**:
    
-?filter=Store/Territory eq 'NC'
-   
-![URL de relatório filtrado](media/service-share-reports/power-bi-filter-url3.png)
-   
-O browser adiciona carateres especiais para representar barras, espaços e apóstrofos pelo que o resultado será:
-   
-app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+    ?filter=Geo/Region eq 'Central'
 
-Consulte o artigo [filtrar um relatório com parâmetros de cadeia de caracteres de consulta no URL](service-url-filters.md) para muito mais detalhes.
+O browser adiciona carateres especiais para representar barras, espaços e apóstrofos pelo que o resultado será parecido com este:
+   
+    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
+
+![Relatório com filtro de URL](media/service-share-reports/power-bi-share-report-filter-url.png)
+
+Guarde o relatório.
+
+Veja o artigo [Filtrar um relatório com os parâmetros de cadeia de consulta no URL](service-url-filters.md) para obter muitos mais detalhes.
 
 ## <a name="share-the-filtered-report"></a>Partilhar o relatório filtrado
 
-1. Quando [partilhar o relatório](service-share-dashboards.md), desmarque a **enviar a notificação por e-mail aos destinatários** caixa de verificação.
+1. Quando [partilha o relatório](service-share-dashboards.md), desmarque a caixa de verificação **Enviar notificação por e-mail aos destinatários**.
 
     ![Caixa de diálogo Partilhar relatório](media/service-share-reports/power-bi-share-report-dialog.png)
 
 4. Envie a ligação com o filtro criado anteriormente.
 
 ## <a name="next-steps"></a>Próximos passos
-* Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
-* [Como devo colaborar e partilhar os meus dashboards e relatórios?](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Formas de partilhar o seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
 * Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+* Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 

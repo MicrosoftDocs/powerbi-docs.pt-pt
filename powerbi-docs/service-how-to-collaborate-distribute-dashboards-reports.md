@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816539"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841725"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de partilhar o seu trabalho no Power BI
 
@@ -31,7 +31,7 @@ Acabou de criar dashboards e relatórios. Talvez já tenha colaborado nos mesmos
 
 Seja qual for a sua escolha, para partilhar os seus conteúdos, precisa de uma [licença do Power BI Pro](service-features-license-type.md) ou os conteúdos precisam de estar numa [capacidade Premium](service-premium-what-is.md). Os requisitos de licença variam para os colegas que veem os seus conteúdos, consoante a opção que selecionar. As secções seguintes indicam detalhes. 
 
-![Aplicações no serviço Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Aplicações no serviço Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 *Aplicações no serviço Power BI*
 
@@ -41,7 +41,7 @@ Quando as equipas trabalham em conjunto, precisam de acesso aos mesmos documento
 
 As áreas de trabalho disponibilizam funções que determinam as permissões que os seus colegas têm. Pode utilizar essas funções para determinar quem pode gerir toda a área de trabalho, editar os respetivos conteúdos e distribuir os respetivos conteúdos.
 
-![Áreas de trabalho](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Áreas de trabalho](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 Naturalmente, pode colocar conteúdos na sua A Minha Área de Trabalho e partilhá-los a partir dali. No entanto, as áreas de trabalho funcionam melhor para a colaboração do que A Minha Área de Trabalho, já que permitem a propriedade partilhada dos conteúdos. Você e toda a sua equipa podem fazer atualizações ou conceder acesso a terceiros facilmente. A Minha Área de Trabalho funciona melhor para conteúdos pontuais ou pessoais de utilizadores individuais.
 
@@ -55,11 +55,11 @@ O Power BI apresenta uma nova experiência de área de trabalho. Leia o tópico 
 
 ## <a name="distribute-insights-in-an-app"></a>Distribuir informações numa aplicação
 
-Suponhamos que pretende distribuir o seu dashboard para um público alargado na sua organização. Você e os seus colegas criaram uma *área de trabalho* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados na área de trabalho. Agora, selecione os dashboards e relatórios que pretende e publique-os como uma aplicação, quer seja para um grupo ou para toda a organização.
+Suponhamos que pretende distribuir o seu dashboard para um público alargado na sua organização. Você e os seus colegas criaram uma *área de trabalho* e, em seguida, criaram e refinaram dashboards, relatórios e conjuntos de dados na área de trabalho. Agora, selecione os dashboards e os relatórios pretendidos e publique-os como uma aplicação, quer seja para um grupo ou para toda a organização.
 
-![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![Ícone Publicar aplicação](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-É fácil encontrar e instalar aplicações no serviço Power BI ([https://powerbi.com](https://powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Se o seu administrador do Power BI lhe der permissões, pode instalar uma aplicação automaticamente nas contas do Power BI dos seus colegas. Leia mais sobre [publicar as suas aplicações](service-create-distribute-apps.md).
+É fácil encontrar e instalar aplicações no serviço Power BI ([https://app.powerbi.com](https://app.powerbi.com)). Pode enviar aos seus utilizadores empresariais uma ligação direta para a aplicação, ou estes podem pesquisá-la no AppSource. Se o seu administrador do Power BI lhe der permissões, pode instalar uma aplicação automaticamente nas contas do Power BI dos seus colegas. Leia mais sobre [publicar as suas aplicações](service-create-distribute-apps.md).
 
 Após estes instalarem uma aplicação, podem vê-la no browser ou dispositivo móvel.
 
@@ -71,15 +71,17 @@ Também pode publicar aplicações para os utilizadores exteriores à sua organi
 
 Sejamos realistas, algumas pessoas são mais competentes na criação de modelos de dados de alta qualidade e bem estruturados nos seus relatórios. Talvez seja essa pessoa. Toda a sua organização pode beneficiar da utilização dos mesmos modelos de dados bem estruturados. Os *conjuntos de dados partilhados* preenchem essa função. Quando cria um relatório com um modelo de dados que todos os utilizadores devem utilizar, pode guardar esse relatório no serviço Power BI e conceder às pessoas certas permissão para utilizá-lo. Em seguida, estas podem criar os respetivos relatórios no seu conjunto de dados. Dessa forma, todas as pessoas estão a basear os respetivos relatórios nos mesmos dados e a ver a mesma versão.
 
+![Localizar um conjunto de dados partilhado](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
+
 Saiba mais sobre como [criar e utilizar conjuntos de dados partilhados](service-datasets-across-workspaces.md).
 
 ## <a name="share-dashboards-and-reports"></a>Partilhar dashboards e relatórios
 
 Suponhamos que finalizou um dashboard e um relatório em A Minha Área de Trabalho ou numa área de trabalho e pretende que outras pessoas tenham acesso aos mesmos. Uma forma de o conseguir é *partilhá-lo*. 
 
-![Ícone Partilhar](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![Partilhar um relatório](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-Necessita de uma licença do Power BI Pro para partilhar os seus conteúdos, assim como as pessoas com quem os partilhar, ou os conteúdos precisam de estar numa área de trabalho numa [capacidade Premium](service-premium-what-is.md). Ao partilhar um dashboard ou relatório, os destinatários podem ver e interagir com o mesmo, mas não o podem editar. Podem ver os mesmos dados que vê no dashboard e nos relatórios, a menos que seja aplicada RLS (Segurança em nível de linha) ao conjunto de dados subjacente. Os funcionários com quem o partilhar também o podem partilhar com os respetivos colegas, se assim o permitir. 
+Precisa de uma licença do Power BI Pro para partilhar os conteúdos, assim como as pessoas com quem os partilhar. Em alternativa, os conteúdos precisam de estar numa área de trabalho numa [capacidade Premium](service-premium-what-is.md). Ao partilhar um dashboard ou relatório, os destinatários podem ver e interagir com o mesmo, mas não o podem editar. Podem ver os mesmos dados que vê no dashboard e nos relatórios, a menos que seja aplicada RLS (Segurança em nível de linha) ao conjunto de dados subjacente. Os funcionários com quem o partilhar também o podem partilhar com os respetivos colegas, se assim o permitir. 
 
 Pode também partilhar com pessoas fora da sua organização. Estas também podem ver e interagir com o dashboard ou relatório, mas não o podem partilhar. 
 

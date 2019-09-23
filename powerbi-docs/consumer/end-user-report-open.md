@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391764"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903800"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *designers* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
@@ -30,7 +30,7 @@ Vamos abrir um relatório que foi partilhado consigo diretamente e, em seguida, 
    ![Página Base](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que tenha sido partilhado consigo
-Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la à sua Home Page do Power BI. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** na barra de navegação e na secção **Partilhado comigo** da tela Home Page.
+Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la automaticamente. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** na barra de navegação e na secção **Partilhado comigo** da tela Home Page.
 
 1. Abra o serviço Power BI (app.powerbi.com).
 
@@ -50,6 +50,12 @@ Os *designers* do Power BI podem partilhar um relatório individual diretamente 
 
    ![separadores de página de relatório](./media/end-user-report-open/power-bi-ytd.png)
 
+6. Repare no painel **Filtros** no lado direito. Os filtros que foram aplicados a esta página de relatório ou a todo o relatório são apresentados aqui.
+
+7. Pairar o curso sobre um elemento visual de relatório revela vários ícones e as reticências (...). Para ver os filtros aplicados a um elemento visual específico, selecione o ícone de filtro. Aqui, selecionamos o ícone de filtro para o gráfico de linhas *Unidades totais por período de implementação e região*.
+
+   ![separadores de página de relatório](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. Neste momento, estamos a ver a página de relatório inteira. Para alterar a apresentação (zoom) da página, selecione Ver no menu de lista pendente no canto superior direito e selecione **Tamanho real**.
 
    ![alterar zoom](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,21 +65,26 @@ Os *designers* do Power BI podem partilhar um relatório individual diretamente 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Abrir um relatório que faz parte de uma aplicação
 Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações estarão disponíveis na Home Page e no contentor **Aplicações** na sua barra de navegação. Uma [aplicação](end-user-apps.md) é um grupo de dashboards e relatórios.
 
+### <a name="prerequisites"></a>Pré-requisitos
+Para acompanhar, transfira a aplicação Vendas e Marketing.
+1. No browser, navegue para appsource.microsoft.com.
+1. Procure “Vendas e Marketing” e selecione **Exemplo Microsoft Sample – Vendas e Marketing**.
+1. Selecione **Obter agora** > **Continuar** > **Instalar** para instalar a aplicação no Contentor de aplicações. 
+
+Pode abrir a aplicação a partir do Contentor de aplicações ou a partir da Home Page.
 1. Volte para a Home Page ao selecionar **Home Page** na barra de navegação.
 
 7. Desloque para baixo até ver **As Minhas Aplicações**.
 
-   ![Página Base](./media/end-user-report-open/power-bi-my-apps.png)
+   ![Home page](./media/end-user-report-open/power-bi-app.png)
 
-8. Selecione uma das aplicações para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Se, ao selecionar a aplicação:
-    - o relatório for aberto, estará tudo pronto.
-    - um dashboard for aberto, veja ***Abrir um relatório a partir de um dashboard***, abaixo.
+8. Selecione a nova aplicação Vendas e marketing para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Esta aplicação é aberta num dashboard.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Abrir um relatório a partir de um dashboard
 Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [mosaicos](end-user-tiles.md) do dashboard são *afixados* a partir dos relatórios. Selecionar um mosaico abre o relatório que foi utilizado para criar o mosaico. 
 
-1. A partir de um dashboard, selecione um mosaico. Neste exemplo, selecionámos o mosaico de gráfico de colunas "Total Units YTD...".
+1. No dashboard, selecione um mosaico. Neste exemplo, selecionámos o mosaico de gráfico de colunas "Total Units YTD...".
 
     ![dashboard com um mosaico selecionado](./media/end-user-report-open/power-bi-dashboard.png)
 
@@ -94,5 +105,6 @@ Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [m
 - e muito mais
 
 ## <a name="next-steps"></a>Próximos passos
-[Abrir e ver um dashboard](end-user-dashboard-open.md)
+[Abrir e ver um dashboard](end-user-dashboard-open.md)    
+[Filtros do relatório](end-user-report-filter.md)
 

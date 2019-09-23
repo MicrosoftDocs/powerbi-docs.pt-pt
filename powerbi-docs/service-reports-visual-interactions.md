@@ -14,7 +14,7 @@ ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61405991"

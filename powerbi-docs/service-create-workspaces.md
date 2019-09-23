@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0bb8d796af5139cd89f4bdfa0a8da10603acb2ed
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530556"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903899"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar áreas de trabalho clássicas no Power BI
 
@@ -23,53 +23,49 @@ No Power BI, pode criar *áreas de trabalho*, ou seja, locais onde pode colabora
 
 **Sabia que?** O Power BI oferece uma nova experiência de áreas de trabalho, que é agora a predefinição. Para obter detalhes sobre as novas áreas de trabalho, leia [Organize work in the new workspaces](service-new-workspaces.md) (Organizar o seu trabalho nas novas áreas de trabalho). 
 
-Ao criar uma área de trabalho clássica, está também a criar um grupo subjacente associado ao Office 365. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho de uma aplicação precisam de ter uma licença do Power BI Pro. 
+Ao criar uma área de trabalho clássica, está também a criar um grupo subjacente associado ao Office 365. Todas as tarefas de administração da área de trabalho são efetuadas no Office 365. Pode adicionar colegas a estas áreas de trabalho como membros ou administradores. Na área de trabalho, todos podem colaborar nos dashboards, relatórios e outros artigos que planeiam publicar para um público mais vasto. Todas as pessoas que adicionar à área de trabalho precisam de ter uma licença do Power BI Pro. 
 
-## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicações e áreas de trabalho de aplicações
+## <a name="video-apps-and-workspaces"></a>Vídeo: Aplicações e áreas de trabalho
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>Criar uma área de trabalho de aplicação clássica baseada num grupo do Office 365
+## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Criar uma área de trabalho clássica baseada num grupo do Office 365
 
-Quando cria uma área de trabalho de aplicação, esta é criada com base num grupo do Office 365.
+Quando cria uma área de trabalho, esta é criada com base num grupo do Office 365.
 
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 Ao criá-la pela primeira vez, poderá ter de aguardar aproximadamente uma hora para a área de trabalho ser propagada para o Office 365. 
 
-### <a name="add-an-image-to-your-office-365-app-workspace-optional"></a>Adicionar uma imagem à área de trabalho de aplicação do Office 365 (opcional)
+### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adicionar uma imagem à área de trabalho do Office 365 (opcional)
 Por predefinição, o Power BI cria um círculo ligeiramente colorido para a aplicação, com as iniciais da aplicação. Mas talvez o queira personalizar com uma imagem. Para adicionar uma imagem, precisa de uma licença do Exchange Online.
 
 1. Selecione **Áreas de trabalho**, selecione as reticências (…) junto ao nome da área de trabalho e, em seguida, **Membros**. 
    
-     ![Selecionar Membros da Área de Trabalho](media/service-create-distribute-apps/power-bi-apps-workspace-members.png)
+     ![Selecionar Membros da Área de Trabalho](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
     A conta do Office 365 Outlook para a área de trabalho é aberta numa nova janela do browser.
-2. Quando paira o rato sobre o círculo colorido no canto superior esquerdo, transforma-se num ícone de lápis. Selecione-o.
+2. Selecione o lápis **Editar**.
    
-     ![Ícone de lápis do Office 365](media/service-create-distribute-apps/power-bi-apps-workspace-edit-image.png)
-3. Selecione novamente o ícone de lápis e localize a imagem que pretende utilizar.
+     ![Ícone de lápis do Office 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+3. Selecione a imagem da câmera e localize a imagem que quer utilizar.
    
-     ![Selecionar o lápis novamente](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+     ![Selecionar a imagem da câmera](media/service-create-workspaces/power-bi-workspace-old-camera.png)
 
      As imagens podem ser ficheiros .png, .jpg ou .bmp. O ficheiro pode ter um tamanho grande, até 3 MB. 
 
-4. Selecione **Guardar**.
-   
-     ![Selecionar Guardar](media/service-create-distribute-apps/power-bi-apps-workspace-save-image.png)
+4. Selecione **OK** e, em seguida, **Guardar**.
    
     A imagem substitui o círculo colorido na janela do Office 365 Outlook. 
    
-     ![Imagem personalizada](media/service-create-distribute-apps/power-bi-apps-workspace-image-in-office-365.png)
+     ![Imagem personalizada](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
     Em alguns minutos, irá ser também apresentada na aplicação do Power BI.
-   
-     ![Imagem personalizada](media/service-create-distribute-apps/power-bi-apps-image.png)
 
-## <a name="add-content-to-your-app-workspace"></a>Adicionar conteúdos à área de trabalho da sua aplicação
+## <a name="add-content-to-your-workspace"></a>Adicionar conteúdos à área de trabalho
 
-Depois de ter criado uma área de trabalho de aplicação, é altura de adicionar conteúdos à mesma. O processo é igual ao de adicionar conteúdos em A Minha Área de Trabalho, exceto que as outras pessoas na área de trabalho também a podem ver e trabalhar nela. Uma grande diferença é que, quando tiver concluído, pode publicar o conteúdo como uma aplicação. Ao visualizar os conteúdos na lista de conteúdos de uma área de trabalho de aplicação, o nome da área de trabalho de aplicação é indicado como sendo o do proprietário.
+Depois de ter criado uma área de trabalho, é altura de adicionar conteúdos à mesma. O processo é igual ao de adicionar conteúdos em A Minha Área de Trabalho, exceto que as outras pessoas na área de trabalho também a podem ver e trabalhar nela. Uma grande diferença é que, quando tiver concluído, pode publicar o conteúdo como uma aplicação. Ao visualizar os conteúdos na lista de conteúdos de uma área de trabalho, o nome da área de trabalho é indicado como sendo o do proprietário.
 
-### <a name="connect-to-third-party-services-in-app-workspaces"></a>Ligar a serviços de terceiros em áreas de trabalho de aplicações
+### <a name="connect-to-third-party-services-in-workspaces"></a>Ligar a serviços de terceiros nas áreas de trabalho
 
 As aplicações são disponibilizadas para todos os serviços de terceiros suportados pelo Power BI, para que possa obter dados dos serviços que utiliza mais facilmente, como o Microsoft Dynamics CRM, o Salesforce ou o Google Analytics. Pode publicar aplicações organizacionais para fornecer aos utilizadores os dados de que estes precisam.
 
@@ -96,7 +92,7 @@ As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se 
 * Ao longo do tempo, planeamos preterir pacotes de conteúdos organizacionais, pelo que recomendamos que crie aplicações a partir de agora.  
 * Com a pré-visualização da nova experiência de área de trabalho, estamos a dar os primeiros passos no sentido de preterir os pacotes de conteúdos organizacionais. Não os poderá utilizar ou criar em áreas de trabalho de pré-visualização.
 
-Veja [How are the new app workspaces different from existing app workspaces](service-new-workspaces.md#how-the-new-workspaces-are-different) (Em que diferem as novas áreas de trabalho de aplicação das já existentes) para comparar ambas as áreas de trabalho de aplicação. 
+Veja [Diferenças entre as novas áreas de trabalho e as existentes](service-new-workspaces.md#how-the-new-workspaces-are-different) para comparar ambas as áreas de trabalho. 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Instalar e utilizar aplicações no Power BI](service-create-distribute-apps.md)

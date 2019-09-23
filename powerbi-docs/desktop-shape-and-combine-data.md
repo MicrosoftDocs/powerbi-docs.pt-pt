@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 2835dd34ce5ba2d7bc6be8659b87eb1f550fdc28
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514578"

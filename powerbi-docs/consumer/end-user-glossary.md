@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750998"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903665"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -60,14 +60,19 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **calculation (cálculo)** A determinação matemática do tamanho ou do número de algo.
 
+**card (cartão)** (tipo de elemento visual) Um [tipo de elemento visual](end-user-visual-type.md) do Power BI.
+
+**card (cartão)** (Home Page do Power BI) A Home Page do Power BI apresenta imagens retangulares e quadradas que representam dashboards, relatórios, aplicações e muito mais. Estas imagens são conhecidas como *cartões*.
+
 **certified custom visual (elemento visual personalizado certificado)** Um elemento visual personalizado do Power BI que cumpriu requisitos e passou testes rigorosos de segurança.
 
 **classification (classificação)** Também denominada classificação de dados. Esta opção pode ser ativada por administradores do Power BI para aumentar a consciencialização do nível de segurança necessário para um dashboard. Os tipos de classificação podem ser personalizados por uma organização.
 
 **connect live (ligar em direto)** Um método de ligação a modelos de dados do SQL Server Analysis Services. Também denominado ligação em direto.
 
-**content (conteúdo)**
+**container (contentor)** As áreas na barra de navegação são *contentores*. Na barra de navegação, encontrará contentores para: Favoritos, Recentes, Aplicações, Partilhado comigo e Home Page. 
 
+**content (conteúdo)** Os conteúdos do serviço Power BI são geralmente dashboards, relatórios e aplicações. Também pode incluir livros e conjuntos de valores.
 
 **content list (lista de conteúdo)** O índice de conteúdo para uma aplicação.
 
@@ -109,7 +114,8 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **Editing View (Vista de edição)** O modo no qual os *designers* de relatórios podem explorar, conceber, criar e partilhar um relatório.
 
-**ellipsis (botão de reticências)** ...
+**ellipsis (botão de reticências)** ...    
+A seleção de um botão de reticências apresenta opções de menu adicionais.
 
 **embed code (código de incorporação)** Um padrão comum na Internet. No Power BI, o cliente pode gerar um código de incorporação e copiá-lo para colocar conteúdo, como um elemento visual de relatório num site ou blog.
 
@@ -158,7 +164,8 @@ Não há problema em utilizar o ambiente do Power BI (inquilino) na documentaç�
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (navegação à esquerda (nav esq))** Os controlos na margem esquerda do serviço Power BI.
+**left navigation (left nav) (navegação à esquerda (nav esq))** Foi substituído por **barra nav**, mas ainda pode aparecer em alguma documentação.    
+Os controlos na margem esquerda do serviço Power BI.
 
 Primeira instância: navegação à esquerda Menções subsequentes ou em pouco espaço: nav esq
 
@@ -176,7 +183,11 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 
 **native (nativo)** Incluído com o produto. Por exemplo, o Power BI vem com um conjunto de tipos de visualização *nativos*. Mas também pode importar outros tipos, como os elementos visuais personalizados.
 
-**navigation pane (painel de navegação)** Ver **Navegação à esquerda**
+**barra de navegação** ou **barra nav** Os controlos na margem esquerda do serviço Power BI.
+
+Primeira instância: barra de navegação: Menções subsequentes ou em pouco espaço: barra nav
+
+**navigation pane (painel de navegação)** Ver **navigation bar (barra de navegação)**
 
 **notification (notificação)** As mensagens enviadas por e para o Centro de Notificações do Power BI.  
 

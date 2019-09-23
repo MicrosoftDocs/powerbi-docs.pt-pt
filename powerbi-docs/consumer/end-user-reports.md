@@ -7,23 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391366"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903702"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 
-Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser alguém que *consome* ou utiliza relatórios.
+Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser alguém que *consome* ou utiliza relatórios. Este artigo é direcionado para os *consumidores*.
 
-![Captura de ecrã a mostrar uma página de relatórios.](./media/end-user-reports/power-bi-reports.png)
+![Captura de ecrã a mostrar uma página de relatórios.](./media/end-user-reports/power-bi-report.png)
 
-Este relatório tem seis páginas (ou separadores) e está atualmente a ver a página **Sentiment** (Sentimento). Nesta página, existem cinco elementos visuais diferentes e um título de página. O painel *Filters* (Filtros) mostra um filtro aplicado a todas as páginas do relatório. Para fechar o painel Filters (Filtros), selecione a seta ( **>** ).
+A. Este relatório tem seis páginas (ou separadores) e está atualmente a ver a página **Sentiment** (Sentimento).    
+B. Nesta página, existem cinco elementos visuais diferentes e um título de página.    
+C. O painel *Filters* (Filtros) mostra um filtro aplicado a todas as páginas do relatório. Para fechar o painel Filters (Filtros), selecione a seta ( **>** ).    
+D. A faixa do Power BI apresenta o nome do relatório e a data da última atualização. Selecione a seta para abrir um menu que também mostra o nome do proprietário do relatório.    
+E. A barra de ação contém ações que pode executar neste relatório.  Por exemplo, pode adicionar um comentário, ver um indicador ou exportar dados do relatório.  Selecione as reticências (...) para revelar uma lista de funcionalidades de relatório adicionais.    
 
 Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, partilha e criação de notas em dispositivos móveis. Para obter mais informações, veja [Explorar relatórios nas aplicações móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -68,9 +72,9 @@ Consoante a sua função, pode ser um *estruturador*, isto é, uma pessoa que cr
 Em alternativa, pode ser um *consumidor*, isto é, uma pessoa que recebe relatórios de terceiros. Vai querer saber como pode compreender e interagir com os relatórios. Se for um *consumidor* de relatórios, veja estas ligações:
 
 * Comece por uma [apresentação do serviço Power BI](end-user-basic-concepts.md) para saber onde procurar relatórios e ferramentas de relatórios.
-* Saiba como [abrir um relatório](end-user-report-open.md) e todas as interações disponíveis na [Vista de leitura](end-user-reading-view.md).
+* Saiba como [abrir um relatório](end-user-report-open.md) e todas as [interações disponíveis para os consumidores](end-user-reading-view.md).
 * Conheça melhor os relatórios ao ver uma apresentação de um dos nossos [exemplos](../sample-tutorial-connect-to-the-samples.md).  
-* Para ver que conjunto de dados está a ser utilizado pelo relatório e que dashboards têm mosaicos afixados do relatório, veja [Ver conteúdos relacionados no serviço Power BI](end-user-related.md).
+* Para ver que conjunto de dados está a ser utilizado pelo relatório e que dashboards estão a apresentar elementos visuais do relatório (*marcadores*), veja [Ver conteúdos relacionados no serviço Power BI](end-user-related.md).
 
 > [!TIP]
 > Se não encontrou aqui o que procurava, utilize o índice à esquerda para procurar todos os artigos sobre *Relatórios*.

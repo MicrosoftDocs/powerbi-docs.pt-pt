@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272249"
@@ -159,7 +159,7 @@ Tem duas opções.
 * Selecionar relatórios específicos e selecionar **Transferir Selecionados**
 * Selecione **Transferir Tudo**.
 
-![Opções de download](media/migrate-tool/migrate-tool-download-options.png)
+![Opções de transferência](media/migrate-tool/migrate-tool-download-options.png)
 
 No caso de uma transferência com êxito, verá o estado *Concluído*, que irá refletir que o ficheiro PBIX existe.
 

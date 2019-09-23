@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498032"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073619"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -122,7 +122,7 @@ Eis as definições que pode ajustar para a peça Web do Power BI do SharePoint 
 | Propriedade | Descrição |
 | --- | --- |
 | Nome da página |Define a página predefinida da peça Web. Selecione um valor no menu pendente. Se não forem apresentadas páginas, significa que o seu relatório tem uma página ou que o URL que colou contém um nome de página. Remova a secção de relatório do URL para selecionar uma página específica. |
-| Display |Define a forma como o relatório se ajusta à página do SharePoint Online. |
+| Ecrã |Define a forma como o relatório se ajusta à página do SharePoint Online. |
 | Mostrar Painel de Navegação |Mostra ou oculta o painel de navegação de páginas. |
 | Mostrar Painel de Filtro |Mostra ou oculta o painel de filtro. |
 
@@ -157,7 +157,7 @@ Os utilizadores que visualizam um relatório no SharePoint precisam de uma **lic
 
 * O Power BI não suporta os mesmos idiomas localizados que o SharePoint Online. Como tal, poderá não ver uma devida localização no relatório incorporado.
 
-* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. Pode ver a [compatibilidade de browsers do Power BI](consumer/end-user-browsers.md) e do [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
+* Poderá encontrar problemas se estiver a utilizar o Internet Explorer 10. <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * A peça Web do Power BI não está disponível para [clouds nacionais](https://powerbi.microsoft.com/clouds/).
 
