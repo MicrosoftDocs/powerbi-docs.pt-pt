@@ -11,7 +11,7 @@ ms.date: 10/22/2018
 ms.author: maggies
 ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64770505"
@@ -55,7 +55,7 @@ Na primeira página do assistente de Gráfico, **Selecione um conjunto de dados*
 
 1. Selecione **Procurar** > selecionar um conjunto de dados partilhado num servidor > **Abrir** > **Seguinte**.
    
-    ![Assistente de Gráficos: Selecionar um conjunto de dados](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
+    ![Assistente de Gráficos: Escolher um conjunto de dados](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
      Precisa de criar um conjunto de dados? Consulte [Criar um conjunto de dados partilhado ou incorporado](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Selecione um tipo de gráfico (neste caso, um gráfico de barras).

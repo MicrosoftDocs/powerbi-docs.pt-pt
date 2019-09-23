@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454410"
@@ -44,7 +44,7 @@ Após iniciar como administrador e estabelecer a ligação, os DLLs necessários
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Ajuda com outros problemas ao iniciar o Power BI Desktop
 Esforçamo-os por cobrir o máximo possível de problemas que ocorram com o **Power BI Desktop**. Estamos regularmente à procura de problemas que possam afetar muitos clientes para incluí-los nos nossos artigos.
 
-Se o problema em iniciar o **Power BI Desktop** não estiver associado ao Gateway de dados no local ou quando as resoluções anteriores não funcionarem, poderá enviar um incidente de suporte ao [suporte do Power BI](https://support.powerbi.com) (https://support.powerbi.com)) para ajudar a identificar e resolver o problema.
+Se o problema em iniciar o **Power BI Desktop** não estiver associado ao Gateway de dados no local ou quando as resoluções anteriores não funcionarem, poderá enviar um incidente de suporte ao [suporte do Power BI](https://support.powerbi.com) (https://support.powerbi.com) ) para ajudar a identificar e resolver o problema.
 
 Para outros problemas que possa encontrar futuramente no **Power BI Desktop** (que esperamos que sejam muito poucos ou nenhuns), é útil ativar o rastreio e reunir ficheiros de registo, para ajudar a isolar e identificar o problema. Para ativar o rastreio, selecione **Ficheiro > Opções e definições > Opções** selecione **Diagnóstico** e, em seguida, marque a opção **Ativar o rastreio** em *Opções de Diagnóstico*. Compreendemos que o **Power BI Desktop** tem de estar em execução para definir esta opção, que é mais útil para futuros problemas associados à inicialização do **Power BI Desktop**.
 

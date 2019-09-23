@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: f7d23c291e77ebacd3ed19a14ed7ce2921da5673
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654275"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073339"
 ---
 # <a name="power-bi-premium-faq"></a>Perguntas Frequentes do Power BI Premium
 

@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976761"
@@ -29,8 +29,8 @@ Sob uma topologia de quatro servidores do Power BI Report Server e as expectativ
 
 | Carga de trabalho | 8 core/32 GB de RAM | 16 core/64 GB de RAM |
 | --- | --- | --- |
-| **Relatório Pesado do Power BI** (>60%) |1.000 utilizadores |3.000 utilizadores |
-| **Relatório Paginado Pesado (RDL)** (>60%) |2.000 utilizadores |3.200 utilizadores |
+| **Relatório Pesado do Power BI** (>60%) |1\.000 utilizadores |3\.000 utilizadores |
+| **Relatório Paginado Pesado (RDL)** (>60%) |2\.000 utilizadores |3\.200 utilizadores |
 
 Em cada execução, o recurso mais sobrecarregado foi a CPU. Devido a isto, o aumento do número de núcleos do Power BI Report Server produziria ganhos superiores na fiabilidade do sistema do que aumentar a quantidade de espaço de memória ou disco rígido. 
 
@@ -86,8 +86,8 @@ Na Microsoft, temos uma implementação de produção do Power BI Report Server 
 
 | Carga de trabalho | 8 núcleos/32 GB | 16 núcleos/64 GB |
 | --- | --- | --- |
-| **Servidor de Relatório do Power BI** |1.000 utilizadores |3.000 utilizadores |
-| **Relatório Paginado Pesado** |2.000 utilizadores |3.200 utilizadores |
+| **Servidor de Relatório do Power BI** |1\.000 utilizadores |3\.000 utilizadores |
+| **Relatório Paginado Pesado** |2\.000 utilizadores |3\.200 utilizadores |
 
 ### <a name="view-results"></a>Ver resultados
 Selecione um relatório para ver os resultados do teste de carga.

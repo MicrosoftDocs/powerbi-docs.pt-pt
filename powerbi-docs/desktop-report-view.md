@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514609"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142181"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de Relatório no Power BI Desktop
 Se já trabalhou com o Power BI, sabe como é fácil criar relatórios que fornecem informações e perspetivas dinâmicas sobre os seus dados. O Power BI também conta com funcionalidades mais avançadas no Power BI Desktop. Com o Power BI Desktop, pode criar consultas avançadas, efetuar mashup dos dados provenientes de várias origens, criar relações entre tabelas e muito mais.
@@ -61,9 +61,11 @@ Pode facilmente transportar um elemento visual de um relatório do Power BI Des
 
 A capacidade de copiar e colar os elementos visuais é útil para quem cria e atualiza vários relatórios com frequência. Quando copia entre ficheiros, as definições e a formatação que tiverem sido explicitamente definidas no painel de formatação serão transportadas, enquanto os elementos visuais que dependem de um tema ou das definições predefinidas são automaticamente atualizados para corresponder ao tema do relatório de destino. Por isso, quando receber um elemento visual formatado e com o aspeto pretendido, pode copiar e colar esse elemento visual em novos relatórios e preservar todo o bom trabalho de formatação.
 
-![Erro ao copiar/colar elemento visual – nenhum campo de dados](media/desktop-report-view/report-view_05.png)
+Se os campos do seu modelo forem diferentes, verá um erro no elemento visual e um aviso sobre os campos que não existem. O erro é semelhante à experiência que é apresentada quando elimina um campo no modelo que um elemento visual está a utilizar. 
 
-Se os campos do seu modelo forem diferentes, verá um erro no elemento visual e um aviso sobre os campos que não existem. O erro é semelhante à experiência que é apresentada quando elimina um campo no modelo que um elemento visual está a utilizar. Para corrigir o erro, basta substituir os campos com problemas pelos campos do modelo que quer utilizar no relatório em que colou o elemento visual. Se estiver a utilizar um elemento visual personalizado, também terá de importar esse elemento visual personalizado para o relatório de destino.
+![Erro ao copiar/colar elemento visual – nenhum campo de dados](media/desktop-report-view/report-view_07.png)
+
+Para corrigir o erro, basta substituir os campos com problemas pelos campos do modelo que quer utilizar no relatório em que colou o elemento visual. Se estiver a utilizar um elemento visual personalizado, também terá de importar esse elemento visual personalizado para o relatório de destino.
 
 
 
