@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: Ativar as funcionalidades de pré-visualização
               href: end-user-preview-features.md
+            - name: Get notifications in the Power BI service (Obter notificações no serviço Power BI)
+              href: end-user-notification-center.md
         - name: Obter dados
           items:
             - name: Aplicações no Power BI
