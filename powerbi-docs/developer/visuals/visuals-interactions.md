@@ -1,20 +1,20 @@
 ---
 title: Interações visuais em elementos visuais do Power BI
 description: Este artigo aborda a forma de verificar se os elementos visuais do Power BI devem permitir interações visuais.
-author: shaym83
-ms.author: shaym
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f2fb2d451deb63b5e9c08472654e28d0e1a469db
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 0155f0fce1bc0fec5c96aef1c7e1dc9cf64b122f
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236614"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193901"
 ---
 # <a name="visual-interactions-in-power-bi-visuals"></a>Interações visuais em elementos visuais do Power BI
 

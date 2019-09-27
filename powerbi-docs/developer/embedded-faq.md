@@ -64,7 +64,7 @@ O Power BI Embedded é um conjunto de APIs PaaS (Plataforma como Serviço) que o
 
 Eis uma lista parcial das diferenças de funcionalidades.
 
-| Feature | Power BI Incorporado | Capacidade do Power BI Premium | Capacidade do Power BI Premium |
+| Feature | Power BI Embedded | Capacidade do Power BI Premium | Capacidade do Power BI Premium |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | Capacidade do Azure do SKU A | Capacidade do Office 365 do SKU EM | Capacidade do Office 365 do SKU P |
 | Incorporar artefactos de uma área de trabalho da Aplicação Power BI | Sim | Sim | Sim |

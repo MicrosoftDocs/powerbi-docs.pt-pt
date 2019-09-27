@@ -121,7 +121,7 @@ Existem duas abordagens para as aplicações SaaS que fornecem aos utilizadores 
 
 Com o isolamento baseado na área de trabalho do Power BI, a aplicação SaaS suporta vários inquilinos a partir de um único inquilino do Power BI. O isolamento baseado na área de trabalho contém todo o conteúdo do Power BI utilizado por diferentes inquilinos. A separação de inquilinos é feita ao nível da área de trabalho do Power BI, através da criação de várias áreas de trabalho. Cada área de trabalho contém os conjuntos de dados, os relatórios e os dashboards relevantes desse inquilino. Além disso, cada área de trabalho está ligada apenas aos dados desse inquilino. Se precisar de isolamento adicional, poderá criar um utilizador *principal* ou um principal de serviço para cada área de trabalho e conteúdo.
 
-![Área de Trabalho](media/multi-tenant-saas/multi-tenant-saas-workspace.png)
+![Área de trabalho](media/multi-tenant-saas/multi-tenant-saas-workspace.png)
 
 ### <a name="data-architecture"></a>Arquitetura dos dados
 
