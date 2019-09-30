@@ -1,26 +1,26 @@
 ---
 title: Desenvolver um elemento visual do Power BI
 description: Um tutorial sobre como desenvolver um elemento visual personalizado do Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415430"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194488"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desenvolver um elemento visual do Power BI
 
-Estamos a permitir que os programadores adicionem elementos visuais personalizados facilmente ao Power BI para utilização no dashboard e em relatórios. Para o ajudar a começar, publicámos o código de todas as nossas visualizações no GitHub.
+Estamos a permitir que os programadores adicionem elementos visuais do Power BI facilmente ao Power BI para utilização no dashboard e em relatórios. Para o ajudar a começar, publicámos o código de todas as nossas visualizações no GitHub.
 
-Em conjunto com a estrutura de visualização, oferecemos o nosso conjunto de testes e ferramentas para ajudar a comunidade a criar elementos visuais personalizados de alta qualidade para o Power BI.
+Em conjunto com a estrutura de visualização, oferecemos o nosso conjunto de testes e ferramentas para ajudar a comunidade a criar elementos visuais do Power BI de alta qualidade para o Power BI.
 
 Este tutorial mostra como desenvolver um elemento visual personalizado do Power BI designado Cartão Circular para apresentar um valor de medida formatado dentro de um círculo. O elemento visual Cartão Circular suporta a personalização da cor de preenchimento e da espessura do contorno.
 

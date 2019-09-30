@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386299"
@@ -31,7 +31,7 @@ ID     |  GUID       | Identificador exclusivo ao nível do sistema para o conju
 nome     | Cadeia        | Nome do conjunto de dados definido pelo utilizador.        | Falso        | Verdadeiro        
 tables     | Tabela[]        | Coleção de tabelas.        |  Falso       | Falso        
 relationships     | Relação[]        | Coleção de relações entre tabelas.        | Falso        |  Falso  
-defaultMode     | Cadeia        | Determina se o conjunto de dados é emitidos via push, transmitidos em fluxo, ou ambos, com valores de "Push" e "Transmissão em fluxo."         | Falso        |  Falso
+defaultMode     | Cadeia        | Determina se o conjunto de dados foi emitido, transmitido ou ambos com os valores "Push" e "Streaming".         | Falso        |  Falso
 
 ## <a name="table"></a>Tabela
 

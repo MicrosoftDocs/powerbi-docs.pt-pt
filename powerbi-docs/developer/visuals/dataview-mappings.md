@@ -1,20 +1,20 @@
 ---
 title: Compreender o mapeamento de vista de dados em elementos visuais do Power BI
 description: Este artigo descreve como é que o Power BI transforma os dados antes de os converter em elementos visuais.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237232"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193550"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Compreender o mapeamento de vista de dados em elementos visuais do Power BI
 
@@ -281,9 +281,9 @@ Eis o mapeamento de vista de dados:
 
 A vista de dados categóricos poderia ser visualizada desta forma:
 
-| Categorical |  |  | | | |
+| Categórico |  |  | | | |
 |-----|-----|------|------|------|------|
-| | Ano | 2013 | 2014 | 2015 | 2016 |
+| | Year | 2013 | 2014 | 2015 | 2016 |
 | País | | |
 | EUA | | x | x | 125 | 100 |
 | Canadá | | x | 50 | 200 | x |
@@ -397,7 +397,7 @@ Com as capacidades fornecidas:
 
 Pode visualizar a vista de dados em tabela da seguinte forma:  
 
-| País| Ano | Vendas |
+| País| Year | Vendas |
 |-----|-----|------|
 | EUA | 2016 | 100 |
 | EUA | 2015 | 50 |
@@ -618,7 +618,7 @@ O elemento visual obtém a respetiva estrutura de dados conforme descrito no seg
 
 Para controlar a quantidade de dados a receber na vista de dados, pode aplicar-se um algoritmo de redução de dados.
 
-Por predefinição, todos os elementos visuais personalizados têm o principal algoritmo de redução de dados aplicado com a *contagem* definida como 1000 pontos de dados. Isto é equivalente a definir as seguintes propriedades no ficheiro *capabilities.json*:
+Por predefinição, todos os elementos visuais do Power BI têm o principal algoritmo de redução de dados aplicado com a *contagem* definida como 1000 pontos de dados. Isto é equivalente a definir as seguintes propriedades no ficheiro *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Por predefinição, todos os elementos visuais personalizados têm o principal a
 }
 ```
 
-Pode mudar o valor de *contagem* para qualquer valor inteiro até 30 000. Os elementos visuais personalizados baseados em R conseguem suportar até 150 000 linhas.
+Pode mudar o valor de *contagem* para qualquer valor inteiro até 30 000. Os elementos visuais do Power BI baseados em R conseguem suportar até 150 000 linhas.
 
 ## <a name="data-reduction-algorithm-types"></a>Tipos de algoritmo de redução de dados
 

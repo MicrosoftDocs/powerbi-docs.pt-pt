@@ -1,20 +1,20 @@
 ---
 title: Introdução aos testes de unidades para projetos de elementos visuais do Power BI
 description: Este artigo descreve como escrever testes de unidades para projetos de elementos visuais do Power BI
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236732"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192471"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adicionar testes de unidades para projetos de elementos visuais do Power BI
 
@@ -616,4 +616,4 @@ No âmbito do ficheiro, pode ver o código fonte. Os utilitários `Coverage` rea
 
 ## <a name="next-steps"></a>Próximos passos
 
-Quando o elemento visual estiver pronto, pode enviá-lo para publicação. Para obter mais informações, veja [Publicar elementos visuais personalizados no AppSource](../office-store.md).
+Quando o elemento visual estiver pronto, pode enviá-lo para publicação. Para obter mais informações, veja [Publicar elementos visuais do Power BI no AppSource](../office-store.md).

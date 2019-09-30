@@ -1,24 +1,24 @@
 ---
 title: Adicionar suporte de marcadores para elementos visuais do Power BI
 description: Os elementos visuais do Power BI suportam a mudança de marcadores
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237278"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194455"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adicionar suporte de marcadores para elementos visuais do Power BI
 
-Com os marcadores de relatório do Power BI, pode captar a vista configurada de uma página de relatório, estado de seleção e estado de filtragem do elemento visual. Contudo, isso requer a realização de ações adicionais do lado dos elementos visuais personalizados para suportar o marcador e reagir corretamente às alterações.
+Com os marcadores de relatório do Power BI, pode captar a vista configurada de uma página de relatório, estado de seleção e estado de filtragem do elemento visual. Contudo, requer a realização de ações adicionais do lado dos elementos visuais do Power BI para suportar o marcador e reagir corretamente às alterações.
 
 Para obter mais informações sobre marcadores, veja [Utilizar marcadores para partilhar informações e criar histórias no Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
@@ -32,7 +32,7 @@ Se o seu elemento visual interagir com outros elementos visuais, selecionar pont
 
 2. Atualize a API do elemento visual para a versão 1.11.0 para utilizar o `registerOnSelectCallback` numa instância do `SelectionManager`. É necessário para elementos visuais sem filtro que utilizam o `SelectionManager` simples em vez do `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Como os elementos visuais personalizados interagem com o Power BI em marcadores de relatório
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Como os elementos visuais do Power BI interagem com o Power BI em marcadores de relatório
 
 Vamos considerar o seguinte cenário: quer criar vários marcadores na página de relatório, com um estado de seleção diferente em cada marcador.
 

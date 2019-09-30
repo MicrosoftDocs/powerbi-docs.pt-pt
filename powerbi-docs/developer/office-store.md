@@ -1,22 +1,22 @@
 ---
-title: Publicar visuais personalizados no AppSource
+title: Publicar elementos visuais do Power BI no AppSource
 description: Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623806"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194520"
 ---
-# <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
+# <a name="publish-power-bi-visuals-to-appsource"></a>Publicar elementos visuais do Power BI no AppSource
 
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
 
@@ -40,13 +40,13 @@ Depois de concluir a leitura das nossas [diretrizes sobre elementos visuais do P
 | Capturas de ecrã |Sim |Tem de fornecer, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 1366 x 768 px (largura x altura). O tamanho do ficheiro não pode ser superior a 1024 KB. *Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã.* |
 | Ligação de transferência do suporte |Sim |Forneça o URL para prestar suporte aos clientes que tenham problemas com o elemento visual. Esta ligação é introduzida como parte da sua lista SellerDashboard e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato do URL deve incluir https:// ou http://. |
 | Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade destinada aos clientes que utilizam o elemento visual. Esta ligação é introduzida como parte da sua lista SellerDashboard e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato da ligação deve incluir https:// ou http://. |
-| Contrato de licença do utilizador final (EULA) |Sim |Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais personalizados do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro "Contrato de Licença do Utilizador Final" do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Contrato de licença do utilizador final (EULA) |Sim |Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro "Contrato de Licença do Utilizador Final" do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Ligação para vídeo |Não |Para aumentar o interesse dos utilizadores relativamente ao seu elemento visual personalizado, recomenda-se que forneça uma ligação para um vídeo sobre o elemento visual. O formato do URL deve incluir https:// ou http://. |
 | Repositório do GitHub |Não |O ideal será ter uma ligação pública e válida para um repositório do [GitHub](https://www.github.com) com as origens do elemento visual e dos dados de exemplo incluídas para que outros programadores possam fornecer comentários e propor melhoramentos para o seu código. |
 
 ## <a name="submitting-to-power-bi"></a>Submeter no Power BI
 
-O processo de submissão começa com o envio de uma mensagem de e-mail à equipa de submissão de elementos visuais personalizados do Power BI. Pode enviar a mensagem de e-mail para [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+O processo de submissão começa com o envio de uma mensagem de e-mail para a equipa de submissão de elementos visuais do Power BI. Pode enviar a mensagem de e-mail para [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
 
 > [!IMPORTANT]
 > Terá de preencher os campos seguintes no ficheiro pbiviz.json: “descrição”, “supportUrl”, “autor”, “nome” e “e-mail” antes de criar o pacote .pbiviz.
@@ -89,7 +89,7 @@ Siga os passos abaixo para concluir a submissão.
    * *Título da submissão:* O nome a utilizar para a submissão no Centro de Programadores
    * *Versão:* O número da versão é povoado automaticamente com base no pacote de aplicação do suplemento.
    * *Data de Lançamento (UTC):* Selecione uma data para a aplicação ser lançada na loja. Se for escolhida uma data no futuro, a aplicação só estará disponível na Loja a partir dessa data.
-   * *Categoria:* A primeira categoria será povoada automaticamente como "Visualização de Dados + BI". Esta é a forma como todos os elementos visuais personalizados do Power BI serão etiquetados. Pode indicar até duas categorias adicionais, para facilitar a pesquisa do elemento visual por parte dos utilizadores
+   * *Categoria:* A primeira categoria será povoada automaticamente como "Visualização de Dados + BI". Esta é a forma como todos os elementos visuais do Power BI serão etiquetados. Pode indicar até duas categorias adicionais, para facilitar a pesquisa do elemento visual por parte dos utilizadores
    * *Notas de teste:* é opcional, no caso de querer fornecer algumas instruções aos técnicos de testes da Microsoft.
    * *A minha aplicação chama, suporta, contém ou utiliza criptografia ou encriptação:* deixe desmarcado.
    * *Disponibilizar este suplemento no catálogo de suplementos do Office no iPad:* deixe desmarcado.
@@ -104,7 +104,7 @@ Siga os passos abaixo para concluir a submissão.
    * Ligação para vídeo
    * Contrato de Licença do Utilizador Final (EULA)
 
-       Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais personalizados do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro "Contrato de Licença do Utilizador Final" do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
+       Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro "Contrato de Licença do Utilizador Final" do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 
 8. Selecione **Seguinte** para avançar para a página **Detalhes**.
 

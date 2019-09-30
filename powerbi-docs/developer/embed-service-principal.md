@@ -1,21 +1,21 @@
 ---
 title: Principal de serviço com o Power BI
 description: Saiba como registar uma aplicação no Azure Active Directory com o principal de serviço para utilizar ao incorporar conteúdos do Power BI.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823292"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073089"
 ---
 # <a name="service-principal-with-power-bi"></a>Principal de serviço com o Power BI
 

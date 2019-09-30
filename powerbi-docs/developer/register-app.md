@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269691"
@@ -53,7 +53,7 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
 
     ![Tipo de aplicação](media/register-app/register-app-new-design-app-type.png)
 
-5. Se selecionou **Aplicação Web do lado do servidor** para o tipo de aplicação, então continue a introduzir um valor para o **URL da Home Page** e **URL de Redirecionamento**. O **URL de redirecionamento** funciona com qualquer URL válido e deve corresponder com o aplicativo que criou. Se selecionou **Nativa**, então avance para o passo 6.
+5. Se selecionou **Aplicação Web do lado do servidor** para o tipo de aplicação, então continue a introduzir um valor para o **URL da Home Page** e **URL de Redirecionamento**. O **URL de Redirecionamento** funciona com qualquer URL válido e deve corresponder à aplicação que criou. Se selecionou **Nativa**, então avance para o passo 6.
 
 6. Selecione as APIs Power BI de que a sua aplicação precisa. Para obter mais informações sobre as permissões de acesso do Power BI, veja [Permissões do Power BI](power-bi-permissions.md). Em seguida, selecione **Registar**.
 
@@ -62,7 +62,7 @@ Veja aqui como registar a sua aplicação com a Ferramenta de Registo de Aplica�
     > [!Important]
     > Se ativar os principais de serviço a serem utilizados com o Power BI, as permissões do Azure Active Directory deixarão de estar em vigor. As permissões são geridas através do portal de administração do Power BI.
 
-7. Se escolher **nativo** para o tipo de aplicação, em seguida, é-lhe, em seguida, fornecido um **ID de aplicação**. Se selecionar **Aplicação Web do lado do servidor** para o tipo de aplicação, irá receber um **ID de Aplicação** e um **Segredo da aplicação**.
+7. Se selecionar **Nativa** para o tipo de aplicação, ser-lhe-á fornecido um **ID de Aplicação**. Se selecionar **Aplicação Web do lado do servidor** para o tipo de aplicação, irá receber um **ID de Aplicação** e um **Segredo da aplicação**.
 
     > [!Note]
     > O **ID de Aplicação** pode ser obtido a partir do portal do Azure, posteriormente, se necessário. Se perder o **Segredo da aplicação**, terá de criar um novo no portal do Azure.
@@ -83,11 +83,11 @@ A outra opção para registar a aplicação é fazê-lo diretamente no portal do
 
 3. Escolha o seu inquilino do Azure AD ao selecionar a sua conta no canto superior direito da página.
 
-4. No painel de navegação esquerdo, aceda a **todos os serviços**, selecione **registos das aplicações** e, em seguida, selecione **novo registo**.
+4. No painel de navegação esquerdo, aceda a **Todos os serviços**, selecione **Registos das Aplicações** e, em seguida, selecione **Novo registo**.
 
 5. Siga as instruções e crie uma nova aplicação.
 
-   Para obter mais informações sobre como registar aplicações no Azure Active Directory, consulte [registar uma aplicação com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
+   Para obter mais informações sobre como registar aplicações no Azure Active Directory, veja [Register an app with the Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app) (Registar aplicações com o Azure Active Directory)
 
 ## <a name="how-to-get-the-application-id"></a>Como obter o ID de Aplicação
 
@@ -107,21 +107,21 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
 
 1. Navegue até aos [Registos de aplicações](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) no portal do Azure e selecione a aplicação que estiver a utilizar para incorporar.
 
-2. Selecione **permissões de API** sob **gerir**.
+2. Selecione **Permissões de API** em **Gerir**.
 
-3. Dentro **permissões de API**, selecione **adicionar uma permissão**, em seguida, selecione **serviço Power BI**.
+3. Em **Permissões de API**, selecione **Adicionar uma permissão** e, em seguida, selecione **Serviço Power BI**.
 
     ![Permissões de aplicação 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-4. Selecione as permissões específicas necessárias sob **permissões delegadas**. Selecione-as uma a uma para guardar as seleções. Selecione **Guardar** quando terminar.
+4. Selecione as permissões específicas de que precisa em **Permissões Delegadas**. Selecione-as uma a uma para guardar as seleções. Selecione **Guardar** quando terminar.
 
-5. Selecione **concessão de consentimento**.
+5. Selecione **Conceder Consentimento**.
 
-    O **concessão de consentimento** precisa de ação para o *conta mestra* para evitar que lhe seja pedido consentimento pelo Azure AD. Se a conta que executa esta ação for de um Administrador Global, concede permissões a todos os utilizadores na sua organização para esta aplicação. Se a conta que realiza esta ação for a *conta principal* e não for de um Administrador Global, concede permissões apenas à *conta principal* para esta aplicação.
+    A ação **Conceder Consentimento** precisa da *conta principal* para evitar que lhe seja pedido consentimento pelo Azure AD. Se a conta que executa esta ação for de um Administrador Global, concede permissões a todos os utilizadores na sua organização para esta aplicação. Se a conta que realiza esta ação for a *conta principal* e não for de um Administrador Global, concede permissões apenas à *conta principal* para esta aplicação.
 
 ### <a name="applying-permissions-programmatically"></a>Aplicar permissões programaticamente
 
-1. Tem de obter os principais de serviço existentes (utilizadores) no seu inquilino. Para obter informações sobre como fazer isso, consulte [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta).
+1. Tem de obter os principais de serviço existentes (utilizadores) no seu inquilino. Para obter informações sobre como fazê-lo, veja [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta).
 
     Pode chamar a *API Obter servicePrincipal* sem {ID} e esta irá apresentar-lhe todos os principais de serviço no inquilino.
 
@@ -176,8 +176,8 @@ Precisa de ter sessão iniciada com uma conta *mestra*, utilizada para incorpora
 
    O valor para **consentType** pode indicar **AllPrincipals** ou **Principal**.
 
-   * **AllPrincipals** só pode ser utilizado por um administrador de inquilino para conceder permissões para todos os utilizadores no inquilino.
-   * **Principal** é utilizado para conceder permissões para um utilizador específico. Neste caso, deve ser adicionada uma propriedade adicional ao corpo do pedido: *principalId = {User_ObjectId}* .
+   * **AllPrincipals** só pode ser utilizado por um administrador de inquilinos para conceder permissões para todos os utilizadores no inquilino.
+   * **Principal** serve para conceder permissões a um utilizador específico. Neste caso, deve ser adicionada uma propriedade adicional ao corpo do pedido: *principalId = {User_ObjectId}* .
 
    Precisa de *Conceder permissões* para a conta principal, para evitar que lhe seja pedido consentimento pelo Azure AD, o que não é possível ao efetuar um início de sessão não interativo.
 

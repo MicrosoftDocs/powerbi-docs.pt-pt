@@ -1,20 +1,20 @@
 ---
 title: Diretrizes para elementos visuais do Power BI
 description: Saiba como pode publicar o seu elemento visual personalizado no AppSource para que outros o possam encontrar e utilizar através de uma compra.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380207"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327739"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes de elementos visuais do Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) o seu elemento visual no AppSource para que outras pessoas o descubram e utilizem, certifique-se de que segue as diretrizes para criar uma ótima experiência para os seus utilizadores. 
@@ -25,11 +25,14 @@ Todos os elementos visuais do Power BI devem permitir que o menu de contexto pro
 
 
 ## <a name="logo-guidelines"></a>Diretrizes de logótipo
+> [!NOTE]
+> A palavra logótipo neste artigo refere-se a qualquer ícone de empresa comercial, conforme descrito nas imagens abaixo. 
 
-Esta secção descreve as especificações para adicionar logótipos aos elementos visuais. Os logótipos não são obrigatórios. Se forem adicionados, têm de seguir estas diretrizes. 
+Esta secção descreve as especificações para adicionar logótipos aos elementos visuais do Power BI. Os logótipos não são obrigatórios. Se forem adicionados, têm de seguir estas diretrizes. 
 
 > [!IMPORTANT]
 > Os logótipos são permitidos no *modo só de edição*. Os logótipos *não podem* ser apresentados no modo de visualização.
+
 
 ![Definições](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ Esta secção descreve as especificações para adicionar logótipos aos element
 ![Modo de edição](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+Os ícones informativos, se existirem, no modo de leitura devem estar em conformidade com a cor, o tamanho e o local como logótipos acima.
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Diretrizes para elementos visuais do Power BI com compras adicionais
 
 Até recentemente, o Marketplace (AppSource) aceitava apenas elementos visuais do Power BI gratuitos. Esta política foi alterada (dezembro de 2018) para que também possa submeter os elementos visuais para o AppSource com uma etiqueta de preço "Pode ser necessária a compra adicional". 
 
-Os elementos visuais com a etiqueta “Pode ser necessária uma compra adicional” são semelhantes aos suplementos de compras via aplicação (IAP) na Loja Office. Os programadores também podem submeter estes elementos visuais para obter uma certificação depois de a equipa do AppSource os aprovar e confirmar que estão em conformidade com os requisitos de certificação. Para obter mais informações sobre os requisitos, veja [Elementos visuais personalizados certificados](../power-bi-custom-visuals-certified.md).
+Os elementos visuais com a etiqueta “Pode ser necessária uma compra adicional” são semelhantes aos suplementos de compras via aplicação (IAP) na Loja Office. Os programadores também podem submeter estes elementos visuais para obter uma certificação depois de a equipa do AppSource os aprovar e confirmar que estão em conformidade com os requisitos de certificação. Para obter mais informações sobre os requisitos, veja [Elementos visuais certificados do Power BI](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
 > Para o elemento visual ser certificado, não deve aceder a serviços externos ou recursos.

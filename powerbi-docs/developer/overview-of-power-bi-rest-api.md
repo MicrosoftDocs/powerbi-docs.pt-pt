@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 03/25/2019
 ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269455"
@@ -24,12 +24,12 @@ Com a API REST do Power BI, pode realizar tarefas de gestão em objetos do Power
 
 Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 
-| **Para saber mais** | **Estas informações de referência** |
+| **Para saber mais** | **Veja estas informações** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Incorporar relatórios, dashboards e mosaicos para utilizadores do Power BI e pessoas que não utilizam o Power BI. | [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI ](embedding-content.md) |
+| Incorporar relatórios, dashboards e mosaicos para utilizadores do Power BI e pessoas que não utilizam o Power BI. | [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](embedding-content.md) |
 | Realize tarefas de gestão em objetos do Power BI. | [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
-| Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. | [Enviar dados para um dashboard ](walkthrough-push-data.md) |
-| Autenticação no Power BI. | [Autenticação no Power BI ](get-azuread-access-token.md) |
+| Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. | [Push data into a dashboard ](walkthrough-push-data.md)(Emitir dados para um dashboard) |
+| Autenticação no Power BI. | [Autenticar-se no Power BI ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > As APIs do Power BI ainda se referem às áreas de trabalho de aplicações como grupos. Quaisquer referências a grupos significam que está a trabalhar com áreas de trabalho de aplicações.
@@ -38,8 +38,8 @@ Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 
 | Ferramentas | Descrição |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Ferramenta de recreio](https://microsoft.github.io/PowerBI-JavaScript/demo) | Experimente exemplos completos sobre a utilização das APIs de JavaScript do Power BI. Esta ferramenta também proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. |  |  |
-| [Wiki do Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obter mais informações sobre as APIs de JavaScript do Power BI. |  |  |
+| [Ferramenta Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Experimente exemplos completos sobre a utilização das APIs de JavaScript do Power BI. Esta ferramenta também proporciona uma forma rápida de testar vários tipos de exemplos do Power BI Embedded. |  |  |
+| [Wiki de JavaScript do Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Para obter mais informações sobre as APIs de JavaScript do Power BI. |  |  |
 | [Postman](https://www.getpostman.com/) | Execute pedidos, testes, depurações, monitorizações, testes automatizados e mais. |
 
 ## <a name="push-data-into-power-bi"></a>Enviar dados por push para o Power BI

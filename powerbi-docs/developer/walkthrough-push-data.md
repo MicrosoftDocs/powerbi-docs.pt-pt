@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66222144"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push para um conjunto de dados do Power BI
 
-A API do Power BI permite-lhe enviar dados por push para um conjunto de dados do Power BI. Neste artigo, mostramos como enviar um conjunto de dados de Marketing de vendas que contém uma tabela de produto para um conjunto de dados existente.
+A API Power BI permite enviar dados por push para um conjunto de dados do Power BI. Neste artigo, mostraremos como enviar por push um conjunto de dados de Marketing de Vendas que tem uma Tabela de produto para um conjunto de dados existente.
 
-Antes de começar, terá de um Azure Active Directory (Azure AD) e um [conta do Power BI](create-an-azure-active-directory-tenant.md).
+Antes de começar, necessita de um Azure Active Directory (Azure AD) e uma [conta do Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Passos para o envio dados por push para um conjunto de dados
 
@@ -34,7 +34,7 @@ A secção seguinte é uma discussão geral sobre as operações da API Power BI
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operações da API Power BI para enviar dados por push
 
-Com a API REST do Power BI, pode enviar por push origens de dados ao Power BI. Quando uma aplicação adiciona linhas a um conjunto de dados, o dashboard mosaicos atualização automaticamente com os novos dados. Para enviar dados por push, utilize o [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) e [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) operações. Para localizar um conjunto de dados, utilize o [obter conjuntos de dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) operação. Pode passar um ID de grupo para trabalhar com um grupo para qualquer uma destas operações. Para obter uma lista de ID de grupo, utilize o [obter grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) operação.
+Com a API REST do Power BI, pode enviar por push origens de dados ao Power BI. Quando uma aplicação adiciona linhas a um conjunto de dados, os mosaicos do dashboard são atualizados automaticamente com os novos dados. Para enviar dados por push, utilize as operações [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) e [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Para encontrar um conjunto de dados, utilize a operação [Obter Conjuntos de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Para qualquer uma destas operações, pode transmitir um ID de grupo para trabalhar com um grupo. Para obter uma lista de IDs de grupo, utilize a operação [Obter Grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups).
 
 Estas são as operações para enviar dados por push a um conjunto de dados:
 
@@ -59,7 +59,7 @@ A cadeia JSON para um conjunto de dados tem o seguinte formato:
         ]
     }
 
-No nosso exemplo de conjunto de dados Marketing de vendas, transmite uma cadeia JSON, conforme mostrado abaixo. Neste exemplo, **SalesMarketing** é o nome do conjunto de dados, e **produto** é o nome da tabela. Depois de definir a tabela, pode definir o esquema de tabela. Para o conjunto de dados **SalesMarketing**, o esquema da tabela tem as seguintes colunas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
+No nosso exemplo de conjunto de dados de Marketing de Vendas, transmite uma cadeia JSON conforme apresentado abaixo. Neste exemplo, **SalesMarketing** é o nome do conjunto de dados e **Product** é o nome da tabela. Depois de definir a tabela, pode definir o esquema da tabela. Para o conjunto de dados **SalesMarketing**, o esquema da tabela tem as seguintes colunas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **JSON de objeto de conjunto de dados de exemplo**
 
@@ -105,9 +105,9 @@ Para um esquema de tabela do Power BI, pode utilizar os seguintes tipos de dados
 | **Tipo de dados** | **Restrições** |
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue não permitidos. |
-| Double |Valores de Double.MaxValue e Double.MinValue não permitidos. NaN não suportado. + Infinity e - Infinity não suportados em algumas funções (por exemplo, Min e Max). |
+| Double |Valores de Double.MaxValue e Double.MinValue não permitidos. NaN não suportado. +Infinity e -Infinity não suportados em algumas funções (por exemplo, Min e Max). |
 | Booleano |Nenhum |
-| Datetime |Durante o carregamento de dados, podemos quantificar os valores com frações de dias para múltiplos inteiros de 1/300 segundos (3,33 ms). |
+| Datetime |Durante o carregamento de dados, podemos quantificar os valores com frações de dias para múltiplos inteiros de 1/300 de segundo (3,33 ms). |
 | Cadeia |Atualmente, permite até 128 mil carateres. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Saiba mais sobre como enviar dados por push ao Power BI
