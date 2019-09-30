@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513500"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141958"
 ---
 # <a name="what-is-power-bi-desktop"></a>O que é o Power BI Desktop?
 
@@ -32,6 +32,16 @@ Eis as utilizações as mais comuns para o **Power BI Desktop**:
 * Partilhar relatórios com outros utilizadores com o **serviço Power BI**
 
 As pessoas mais frequentemente responsáveis por essas tarefas são bastantes vezes consideradas *analistas de dados* (por vezes apenas denominadas *analistas*) ou profissionais de Business Intelligence (frequentemente denominadas *criadores de relatórios*). No entanto, muitas pessoas que não se consideram um analista ou um criador de relatórios utilizam o **Power BI Desktop** para criar relatórios convincentes ou para obter dados de várias origens e criar modelos de dados, que podem partilhar com os seus colegas e organizações.
+
+Existem três vistas no Power BI Desktop, mostradas ao longo do lado esquerdo da tela. As vistas, mostradas pela ordem em que aparecem, são as seguintes:
+* **Vista de Relatório** – aqui é onde cria relatórios e elementos visuais e onde a maior parte do tempo de criação é passado.
+* **Vista de Dados** – aqui pode ver as tabelas, as medidas e outros dados usados no modelo de dados associado ao relatório e transformar os dados para melhor utilização no modelo do relatório.
+* **Vista de Modelo** – nesta vista, vê e gere as relações entre tabelas no seu modelo de dados.
+
+A imagem seguinte mostra as três Vistas, conforme apresentadas ao longo do lado esquerdo da tela:
+
+![vistas diferentes](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 Com o **Power BI Desktop**, pode criar relatórios visualmente avançados e complexos com dados de várias origens, todos num relatório que pode partilhar com outras pessoas na sua organização. 
 

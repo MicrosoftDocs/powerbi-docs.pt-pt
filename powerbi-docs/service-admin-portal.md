@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655163"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175258"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -47,6 +47,7 @@ Existem nove separadores no portal. O resto deste artigo disponibiliza informaç
 * [Elemento visuais da organização](#organizational-visuals)
 * [Armazenamento do fluxo de dados (pré-visualização)](#dataflowStorage)
 * [Áreas de trabalho](#workspaces)
+* [Imagem corporativa personalizada](#custom-branding)
 
 ## <a name="usage-metrics"></a>Métricas de utilização
 
@@ -428,7 +429,7 @@ Os utilizadores na organização podem transferir e instalar aplicações de mod
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>Instalar aplicações de modelo não listadas no AppSource
 
-Controle quais os utilizadores na organização que podem transferir e instalar aplicações de modelo **não listadas no [AppSource](https://appsource.microsoft.com)** .
+Controle quais os utilizadores na organização que podem transferir e instalar aplicações de modelo **não listadas no [AppSource](https://appsource.microsoft.com)**.
 
 ![Portal de administração do Power BI, definição Instalar aplicações de modelo](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
@@ -440,7 +441,7 @@ O separador **Power BI Premium** permite-lhe gerir todas as capacidades do Powe
 
 ![Sem acesso às definições Premium](media/service-admin-portal/premium-settings-no-access.png)
 
-### <a name="power-bi-embedded"></a>Power BI Incorporado
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
 O separador **Power BI Embedded** permite-lhe ver as capacidades do Power BI Embedded (SKU A) que comprou para o seu cliente. Uma vez que apenas pode comprar SKUs A no Azure, vai [gerir as capacidades incorporadas no Azure](developer/azure-pbie-create-capacity.md) no **Portal do Azure**.
 
@@ -522,7 +523,22 @@ Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquili
 
 ![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>Imagem corporativa personalizada
 
+Como administrador, pode personalizar o aspeto do Power BI para toda a sua organização. Atualmente, existem três opções principais:
+
+![Opções de imagem corporativa personalizada](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **Carregar Logótipo**: Para obter melhores resultados, carregue um logótipo que seja guardado como. png, 10 KB ou menor e, pelo menos, 200 x 30 píxeis.
+
+* **Carregar imagem de capa**: Para obter melhores resultados, carregue uma imagem de capa que seja guardada como .jpg ou .png, 1 MB ou menor e, pelo menos, 1920 x 160 píxeis.
+
+* **Selecionar cor do tema**: Pode selecionar o seu tema com base num número hexadecimal, RGB, valor ou na paleta fornecida.
+
+
+Para obter mais informações, veja [Custom branding for your organization](http://aka.ms/orgBranding) (Imagem corporativa personalizada para a sua organização).
+
+![Lista de áreas de trabalho](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Próximos passos
 
 [Administrar o Power BI na sua Organização](service-admin-administering-power-bi-in-your-organization.md)  

@@ -5,22 +5,21 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608637"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141282"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Dashboards em destaque no serviço Power BI
-## <a name="create-a-featured-dashboard"></a>Criar um Dashboard Em Destaque
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Dashboards em destaque no serviço Power BI
+## <a name="create-a-featured-dashboard"></a>Criar um dashboard em destaque
 Muitos utilizadores têm um dashboard ao qual acedem com mais frequência.  Poderá ser o dashboard utilizado para gerir o negócio ou poderá ser um dashboard que contém uma agregação de mosaicos de vários dashboards e relatórios.
 
 ![ícone definir como dashboard em destaque](./media/end-user-featured/power-bi-dropdown.png)
@@ -52,7 +51,7 @@ Obviamente, se mudar de ideias mais tarde, pode definir outro dashboard como o d
 1. Siga os passos 1 e 2 acima.
    
     ![Janela Alterar dashboard em destaque](./media/end-user-featured/power-bi-change-feature.png)
-2. Selecione **Definir como em destaque**. Anular o destaque de um dashboard não o remove da sua área de trabalho.  
+2. Selecione **Definir como em destaque**. Anular o destaque de um dashboard não o remove do Power BI.  
    
     ![mensagem de êxito](./media/end-user-featured/power-bi-unfeature-new.png)
 

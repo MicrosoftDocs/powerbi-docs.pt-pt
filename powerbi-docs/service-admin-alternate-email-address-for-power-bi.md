@@ -1,6 +1,6 @@
 ---
-title: Utilizar um endereço de correio eletrónico alternativo
-description: Utilizar um endereço de correio eletrónico alternativo
+title: Utilizar um endereço de e-mail alternativo
+description: Utilizar um endereço de e-mail alternativo
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -12,35 +12,35 @@ ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64906674"
 ---
-# <a name="use-an-alternate-email-address"></a>Utilizar um endereço de correio eletrónico alternativo
+# <a name="use-an-alternate-email-address"></a>Utilizar um endereço de e-mail alternativo
 
 Quando se inscreve no Power BI, deve fornecer um endereço de e-mail. Por predefinição, o Power BI utiliza este endereço para lhe enviar atualizações sobre a atividade no serviço. Por exemplo, um convite de partilha é enviado para este endereço.
 
-Em alguns casos, pode querer que estes e-mails sejam entregues num endereço de e-mail alternativo em vez de serem entregues no e-mail que forneceu durante a inscrição. Este artigo explica como especificar um endereço alternativo no Office 365 e no PowerShell. O artigo também explica como o Azure Active Directory (Azure AD) resolve um endereço de e-mail.
+Em alguns casos, pode querer que estes e-mails sejam entregues num endereço de e-mail alternativo em vez de serem entregues no e-mail que forneceu durante a inscrição. Este artigo explica como especificar um endereço alternativo no Office 365 e no PowerShell. O artigo também explica como o Microsoft Azure Active Directory (Microsoft Azure AD) resolve um endereço de e-mail.
 
 > [!NOTE]
-> Especificar um endereço alternativo não afeta o endereço de e-mail que o Power BI utiliza para atualizações de serviço, newsletters e outras comunicações promocionais. Esses comunicados sempre são enviados para o endereço de e-mail que utilizou quando se inscreveu no Power BI.
+> Especificar um endereço alternativo não afeta o endereço de e-mail que o Power BI utiliza para atualizações de serviço, newsletters e outras comunicações promocionais. Estas comunicações são sempre enviadas para o endereço de e-mail que utilizou quando se inscreveu no Power BI.
 
 ## <a name="use-office-365"></a>Utilizar o Office 365
 
 Para especificar um endereço alternativo no Office 365, siga estes passos.
 
-1. Abra a [página de informações pessoais do Office 365](https://portal.office.com/account/#personalinfo). Se a aplicação irá pedir-lhe, inicie sessão com o endereço de e-mail e palavra-passe que utiliza para o Power BI.
+1. Abra a [página de informações pessoais do Office 365](https://portal.office.com/account/#personalinfo). Se a aplicação lhe pedir, inicie sessão com o endereço de e-mail e a palavra-passe que utiliza no Power BI.
 
 1. No menu esquerdo, selecione **Informações pessoais**.
 
 1. Na secção **Detalhes de contacto**, selecione **Editar**.
 
-    Se não pode editar os detalhes da sua, isso significa que o seu administrador do Office 365 gere o seu endereço de e-mail. Contacte o administrador para atualizar o endereço de e-mail.
+    Se não conseguir editar os seus detalhes, isso significa que o seu administrador do Office 365 gere o seu endereço de e-mail. Contacte o administrador para atualizar o endereço de e-mail.
 
     ![Detalhes de contacto](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
-1. Na **e-mail alternativo** , insira o endereço de e-mail que pretende que o Office 365 para utilizar para atualizações do Power BI.
+1. No campo **E-mail alternativo**, introduza o endereço de e-mail que pretende que o Office 365 utilize para atualizações do Power BI.
 
 ## <a name="use-powershell"></a>Utilizar o PowerShell
 
@@ -52,9 +52,9 @@ Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.co
 
 ## <a name="email-address-resolution-in-azure-ad"></a>Resolução do endereços de e-mail no Microsoft Azure AD
 
-Para capturar um Azure AD token de incorporação para o Power BI, pode utilizar um dos três tipos diferentes de endereços de e-mail:
+Para capturar um token incorporado do Microsoft Azure AD para o Power BI, pode utilizar um dos três tipos de endereços de e-mail diferentes:
 
-* O endereço de e-mail principal associado à conta do Azure AD de um utilizador
+* O endereço de e-mail principal associado à conta do Microsoft Azure AD do utilizador
 
 * O endereço de e-mail UPN (UserPrincipalName)
 
@@ -66,8 +66,8 @@ O Power BI seleciona o endereço de e-mail a utilizar com base na seguinte sequ
 
 1. Se o e-mail UPN *não* for um endereço de e-mail com o domínio **\*.onmicrosoft.com** (a informação apresentada após o símbolo "\@"), o Power BI utilizará esse atributo de correio para o endereço de e-mail.
 
-1. Se o *outro endereço de e-mail* atributo de matriz no objeto de utilizador do Azure AD está presente, em seguida, o Power BI utiliza o primeiro e-mail nessa lista (uma vez que pode haver uma lista de e-mails neste atributo).
+1. Se o atributo de matriz do *outro endereço de e-mail* estiver presente no objeto de utilizador do Microsoft Azure AD, o Power BI utiliza o primeiro e-mail dessa lista (dado que pode existir uma lista de e-mails neste atributo).
 
-1. Se nenhuma das condições acima estiver presente, o Power BI utiliza o endereço UPN.
+1. Se não se verificar nenhuma das condições mencionadas acima, o Power BI utiliza o endereço UPN.
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

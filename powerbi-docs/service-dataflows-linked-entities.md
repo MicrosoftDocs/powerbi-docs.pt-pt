@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136503"
@@ -88,11 +88,11 @@ Existem algumas limitações a ter em mente ao trabalhar com entidades ligadas:
 
 Os artigos seguintes podem ser úteis à medida que criar ou trabalhar com fluxos de dados. 
 
-* [Preparação de dados de gestão personalizada no Power BI](service-dataflows-overview.md)
+* [Preparação personalizada de dados no Power BI](service-dataflows-overview.md)
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Utilizar entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
-* [Recursos para desenvolvedores de fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
 * [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)

@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61048031"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141246"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 Com o Power BI, pode publicar o seu relatório em formato PDF e criar facilmente um documento com base no seu relatório do Power BI. Quando **exportar para PDF**, cada página no relatório do Power BI irá tornar-se numa página individual do seu PDF.
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Como exportar o seu relatório do Power BI para PDF
-No serviço Power BI, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir da secção Página inicial, da secção Aplicações ou de qualquer outra secção no painel de navegação esquerdo.
+No serviço Power BI, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir do contentor Página inicial, do contentor Aplicações ou de qualquer outro contentor no painel de navegação esquerdo.
 
-1. Selecione **Ficheiro** > **Exportar para PDF** na barra de menus.
+1. Selecione **Exportar** > **PDF** na barra de menus.
 
-    ![Selecionar Ficheiro na barra de menus, com a seta a apontar para Exportar para PDF](media/end-user-pdf/power-bi-export-pdf.png)
+    ![Selecionar Exportar na barra de menus, com a seta a apontar para Exportar para PDF](media/end-user-pdf/power-bi-export.png)
 
-    Será apresentado um pop-up onde poderá selecionar a opção **Vista atual** ou **Vista predefinida**.  A opção **Vista atual** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção.  Em alternativa, ao selecionar a opção **Vista predefinida** exporta o relatório no estado original (conforme partilhado pelo autor) e não reflete as alterações que tiver efetuado ao estado original.
+    Será apresentado um pop-up onde terá a opção de selecionar **Valores atuais** ou **Valores predefinidos**.  A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção.  Em alternativa, ao selecionar a opção **Valores predefinidos**, exporta o relatório no estado original (conforme partilhado pelo *designer*) e não reflete as alterações que tiver efetuado ao estado original.
     
-    Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório.  Selecione esta caixa se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser.  Se preferir obter todos os separadores ocultos como parte da exportação, pode manter a caixa desselecionada.  Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório.  Após efetuar as suas seleções, clique no botão Exportar para continuar.
+    Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório.  Selecione esta caixa se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser.  Se preferir obter todos os separadores ocultos como parte da exportação, pode manter a caixa desselecionada.  Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório.  Após efetuar as suas seleções, selecione o botão Exportar para continuar.
     
     É apresentada uma barra de progresso no canto superior direito. A exportação poderá demorar alguns minutos e poderá continuar a trabalhar no Power BI enquanto o relatório estiver a ser exportado.
 
-    ![Mensagem do progresso da exportação](media/end-user-pdf/power-bi-export-message.png)
+    ![Mensagem do progresso da exportação](media/end-user-pdf/power-bi-export-progress.png)
 
     Quando a exportação for concluída, a faixa de notificação será alterada para informar que o serviço Power BI concluiu o processo de exportação.
 
 2. Quando isto acontecer, o seu ficheiro ficará disponível onde o browser mostra os ficheiros descarregados. Na imagem seguinte, é mostrado como faixa de transferência na parte inferior da janela do browser.
 
-    ![Localização do ficheiro transferido](media/end-user-pdf/power-bi-save-file.png)
+    ![Localização do ficheiro transferido](media/end-user-pdf/power-bi-export-done.png)
 
 E é tudo. Pode transferir o ficheiro e abri-lo com qualquer visualizador de PDFs, como o que está disponível no Microsoft Edge.
 

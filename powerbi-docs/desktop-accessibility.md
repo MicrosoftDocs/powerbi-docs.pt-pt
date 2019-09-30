@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2621446fe7954297ffb7167823ab67f9b2dd9b11
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185688"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142333"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade nos relatórios do Power BI Desktop
 O Power BI tem funcionalidades que permitem a pessoas com incapacidades consumir e interagir mais facilmente com os relatórios do Power BI. Estas funcionalidades incluem a capacidade de consumir um relatório com o teclado ou um leitor de ecrã, utilizando a tabulação para colocar o foco em vários objetos numa página e a utilização cuidada de marcadores em visualizações.
@@ -125,7 +125,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 
 
 ### <a name="frequently-used-shortcuts"></a>Atalhos frequentes
-| Para efetuar esta ação           | Prima                |
+| Para executar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco entre secções  | **Ctrl+F6** |
 | Mover o foco para a frente na secção | **Tecla de Tabulação**         |
@@ -134,7 +134,7 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Selecionar vários objetos | **Ctrl+Barra de Espaço** |
 
 ### <a name="on-visual"></a>No visual
-| Para efetuar esta ação           | Prima                |
+| Para executar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco para o menu visual | **Alt+Shift+F10** |
 | Mostrar dados | **Alt+Shift+F11**  |
@@ -147,13 +147,13 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Limpar seleção | **Ctrl+Shift+C** |
 
 ### <a name="table--matrix-navigation"></a>Navegação em tabelas e matrizes
-| Para efetuar esta ação          | Prima                |
+| Para executar esta ação          | Prima                |
 | :------------------- | :------------------- |
 | Mover o foco uma célula para cima/baixo (aplica-se a todas as células em todas as áreas)  | **Seta Para Cima** / **Seta Para Baixo** |
 | Mover o foco uma célula para a esquerda/direita (aplica-se a todas as células em todas as áreas)  | **Seta Para a Esquerda** / **Seta Para a Direita** |
 
 ### <a name="pane-navigation"></a>Painel de navegação
-| Para efetuar esta ação           | Prima                |
+| Para executar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Seleção múltipla | **Ctrl+Barra de Espaço** |
 | Fechar uma tabela única | **Seta Para a Esquerda** |
@@ -163,12 +163,12 @@ Através dos nossos esforços contínuos de melhorar a acessibilidade, a lista a
 | Abrir um menu de contexto | <ul><li>Teclado do Windows: **Tecla de Contexto do Windows+F10.**  A tecla de contexto do Windows está entre a tecla Alt à direita e a tecla Seta Para a Esquerda</li><li>Outro teclado: **Shift+F10**</li></ul> |
 
 ### <a name="slicer"></a>Segmentação de Dados
-| Para efetuar esta ação         | Prima                |
+| Para executar esta ação         | Prima                |
 | :------------------- | :------------------- |
 | Interagir com uma segmentação de dados | **Ctrl+Seta Para a Direita** |
 
 ### <a name="selection-pane"></a>Painel de seleção
-| Para efetuar esta ação           | Prima                |
+| Para executar esta ação           | Prima                |
 | :------------------- | :------------------- |
 | Ativar o painel de seleção | **F6** |
 | Mover um objeto para cima nas camadas | **Ctrl+Shift+F** |

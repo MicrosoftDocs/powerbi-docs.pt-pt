@@ -12,16 +12,16 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 948ead2cfa551d6342f9bab87b281d9b6d1e15bc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514137"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Selecionar vários elementos de dados em elementos visuais com o Power BI Desktop
 
-No Power BI Desktop, pode realçar um ponto de dados num determinado elemento visual ao clicar simplesmente no ponto de dados no elemento visual. Por exemplo, se tiver um elemento do gráfico ou barra importante e pretender outros elementos visuais na página do relatório para realçar os dados com base na seleção, poderá clicar no elemento de dados num elemento visual e ver os resultados refletidos noutros elementos visuais na página. Trata-se de um realce básico ou de seleção única. A imagem seguinte mostra um realce básico. 
+No Power BI Desktop, pode realçar um ponto de dados num determinado elemento visual ao clicar simplesmente no ponto de dados no elemento visual. Por exemplo, se tiver um elemento do gráfico ou barra importante e pretender outros elementos visuais na página do relatório para realçar os dados com base na seleção, poderá clicar no elemento de dados num elemento visual e ver os resultados refletidos noutros elementos visuais na página. Trata-se de um realce básico ou de seleção única. A imagem seguinte mostra um realce básico. 
 
-![Único ponto de dados selecionado](media/desktop-multi-select/multi-select_01.png)
+![Ponto de dados único selecionado](media/desktop-multi-select/multi-select_01.png)
 
 Com a seleção múltipla, pode agora selecionar mais do que um ponto de dados na página de relatório do **Power BI Desktop** e realçar os resultados nos vários elementos visuais na página. Este procedimento é equivalente a uma funcionalidade ou instrução **e**, como “realçar resultados para Lisboa **e** Porto”. Para selecionar vários pontos de dados em elementos visuais, basta utilizar **CTRL+Clique**. A imagem seguinte mostra **vários pontos de dados** selecionados (seleção múltipla).
 

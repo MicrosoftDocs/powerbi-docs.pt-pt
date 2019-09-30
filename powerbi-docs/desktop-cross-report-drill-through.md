@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903761"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100110"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Utilizar a pormenorização entre relatórios no Power BI Desktop
 
@@ -32,7 +32,7 @@ Com a funcionalidade de pormenorização entre relatórios no Power BI Desktop
 
 
 > [!NOTE]
-> Os relatórios partilhados individualmente em *A Minha Área de Trabalho*, que são os relatórios que aparecem como *[Partilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report)* , só podem ser acedidos na área de trabalho da qual foram partilhados originalmente. 
+> Com a funcionalidade de pormenorização entre relatórios no Power BI Desktop, pode saltar contextualmente de um relatório para outro, o que funcionará se os relatórios estiverem dentro da mesma área de trabalho ou aplicação no serviço Power BI. Tal não é aplicável quando acede individualmente a relatórios partilhados em *A Minha Área de Trabalho* ([Relatórios partilhados comigo](service-share-dashboards.md#share-a-dashboard-or-report)); em vez disso, tem de aceder ao relatório na área de trabalho a partir da qual este foi partilhado originalmente.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Ativar a pormenorização entre relatórios

@@ -12,14 +12,14 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454367"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Definir e utilizar tabelas de datas no Power BI Desktop
 
-**Power BI Desktop** funciona nos bastidores para identificar automaticamente as colunas que representam as datas e, em seguida, cria hierarquias de datas e outros metadados de ativação para o modelo, em seu nome. Em seguida, pode utilizar essas hierarquias incorporadas ao criar funcionalidades do relatório, como elementos visuais, tabelas, medidas rápidas, segmentações de dados e assim sucessivamente. O Power BI Desktop fá-lo ao criar tabelas ocultas em seu nome, que, em seguida, pode utilizar para os relatórios e expressões DAX.
+O **Power BI Desktop** funciona nos bastidores para identificar automaticamente colunas que representam datas e, em seguida, cria hierarquias de datas e outros metadados de ativação para o modelo, em seu nome. Em seguida, pode utilizar essas hierarquias incorporadas ao criar funcionalidades do relatório, como elementos visuais, tabelas, medidas rápidas, segmentações de dados e assim sucessivamente. O Power BI Desktop fá-lo ao criar tabelas ocultas em seu nome, que, em seguida, pode utilizar para os relatórios e expressões DAX.
 
 Muitos analistas de dados preferem criar as suas próprias tabelas de datas. No **Power BI Desktop**, pode especificar a tabela que pretende que o modelo utilize como a **tabela de datas** e, subsequentemente, pode criar, por exemplo, elementos visuais, tabelas e medidas rápidas relacionados com as datas através dos dados das datas dessa tabela. Quando especificar a sua própria tabela de datas, controla as hierarquias de datas criadas no seu modelo e pode utilizá-las em **medidas rápidas** e outras operações que utilizam a tabela de datas do modelo. 
 
@@ -52,7 +52,7 @@ Depois de especificar uma tabela de datas, pode selecionar a coluna dessa tabela
 
 ![](media/desktop-date-tables/date-tables_03.png)
 
-É importante ter em conta que quando especificar a sua própria tabela de datas, o **Power BI Desktop** não cria automaticamente as hierarquias que iria criar no modelo em seu nome. Se mais tarde, desmarcar a tabela de datas (e deixará de ter uma tabela de datas manualmente definida), o Power BI Desktop recria as tabelas de datas incorporadas criadas automaticamente para si, para as colunas de datas na tabela.
+É importante ter em conta que quando especificar a sua própria tabela de datas, o **Power BI Desktop** não cria automaticamente as hierarquias que iria criar no modelo em seu nome. Se, mais tarde, desmarcar a tabela de datas (e já não tiver uma tabela de datas manualmente definida), o Power BI Desktop recria as tabelas de datas incorporadas criadas automaticamente para as colunas de datas na tabela.
 
 Também é importante ter em atenção que ao marcar uma tabela como uma tabela de datas, a tabela de datas (criada automaticamente) incorporada que o Power BI Desktop criou é removida e todos os elementos visuais ou expressões DAX que criou anteriormente com base nessas tabelas incorporadas deixarão de funcionar corretamente. 
 

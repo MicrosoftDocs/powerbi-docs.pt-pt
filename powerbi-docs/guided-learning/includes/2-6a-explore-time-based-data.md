@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61257116"
@@ -31,7 +31,7 @@ Para voltar às datas individuais em vez de utilizar a hierarquia de datas, bast
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-**Parabéns!** Concluiu esta secção do curso **Aprendizagem Orientada** do Power BI. Agora que conhece *modelagem* dados, está pronto para saber mais sobre a diversão coisas em espera na secção seguinte: **Visualizações**.
+**Parabéns!** Concluiu esta secção do curso **Aprendizagem Orientada** do Power BI. Agora que já sabe mais sobre a *modelação* de dados, está preparado para aprender as coisas divertidas que o aguardam na secção seguinte: **Visualizações**.
 
 Tal como mencionámos anteriormente, este curso desenvolve o seu conhecimento, seguindo o fluxo de trabalho comum no Power BI:
 

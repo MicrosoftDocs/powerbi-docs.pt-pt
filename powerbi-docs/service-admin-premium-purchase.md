@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565290"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175240"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 
@@ -101,9 +101,10 @@ Quando cancelar a sua subscrição Premium, ou a licença de capacidade expirar,
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)   
-[Calculadora do Power BI Premium](https://powerbi.microsoft.com/calculator/)   
-[FAQ do Power BI Premium](service-premium-faq.md)   
+[Configurar e gerir capacidades no Power BI Premium](service-admin-premium-manage.md)\
+[Página de preços do Power BI](https://powerbi.microsoft.com/pricing/)\
+[Calculadora do Power BI Premium](https://powerbi.microsoft.com/calculator/)\
+[FAQ do Power BI Premium](service-premium-faq.md)\
 [Documento técnico sobre Planear uma Implementação Empresarial do Power BI](https://aka.ms/pbienterprisedeploy)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

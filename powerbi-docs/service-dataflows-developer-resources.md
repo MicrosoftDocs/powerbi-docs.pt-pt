@@ -1,5 +1,5 @@
 ---
-title: Recursos para desenvolvedores de fluxos de dados do Power BI
+title: Recursos para programadores para fluxos de dados do Power BI
 description: Encontrar recursos para programação e fluxos de dados do Power BI
 author: davidiseminger
 manager: kfile
@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136774"
 ---
-# <a name="developer-resources-for-power-bi-dataflows"></a>Recursos para desenvolvedores de fluxos de dados do Power BI
+# <a name="developer-resources-for-power-bi-dataflows"></a>Recursos para programadores para fluxos de dados do Power BI
 
 Existem várias formas de utilizar fluxos de dados sem qualquer código, ao criar ou ao ligar a entidades no serviço Power BI e ao ligar os mesmos no Power BI Desktop. Muitas organizações querem ter flexibilidade para desenvolver as suas próprias soluções. Este artigo fornece informações sobre a API REST do Power BI e outros recursos para programadores.
 
@@ -38,7 +38,7 @@ Este artigo forneceu informações sobre os recursos para programadores para flu
 
 * [Preparação personalizada de dados com fluxos de dados](service-dataflows-overview.md)
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Utilizar entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
 
 Para obter informações sobre o desenvolvimento do CDM e os recursos de tutoriais, veja o seguinte:

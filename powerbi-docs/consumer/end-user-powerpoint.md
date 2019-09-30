@@ -3,20 +3,19 @@ title: Exportar relatórios do Power BI para o PowerPoint
 description: Saiba como exportar um relatório do Power BI para o PowerPoint.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063992"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141397"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar relatórios do Power BI para o PowerPoint
 Com o Power BI, pode publicar o seu relatório no **Microsoft PowerPoint** e criar facilmente um conjunto de diapositivos com base no seu relatório do Power BI. Quando **exportar para o PowerPoint**, acontece o seguinte:
@@ -29,27 +28,24 @@ Com o Power BI, pode publicar o seu relatório no **Microsoft PowerPoint** e cri
 É rápido exportar o seu **relatório do Power BI** para o **PowerPoint**. Basta seguir os passos enumerados na secção seguinte.
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Como exportar o seu relatório do Power BI para o PowerPoint
-No serviço Power BI, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir da sua **Página Inicial**, **Aplicações** ou qualquer outra secção no painel de navegação esquerdo.
+No serviço Power BI, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir do contentor **Página inicial**, do contentor **Aplicações** ou de qualquer outro contentor do painel de navegação esquerdo.
 
-![Selecionar Ficheiro na barra de menus, com a seta a apontar para Exportar para PowerPoint](media/end-user-powerpoint/power-bi-publish.png)
+Quando o relatório que quer exportar para o PowerPoint for apresentado na tela, selecione **Exportar > PowerPoint** a partir da barra de menus.
 
-Quando o relatório que quer exportar para o PowerPoint for apresentado na tela, selecione **Ficheiro > Exportar para o PowerPoint** a partir da barra de menus no serviço Power BI.
+![Selecione Exportar na barra de menus](media/end-user-powerpoint/power-bi-export.png)
 
-![Fechar a barra de navegação esquerda com a opção A Minha Área de Trabalho selecionada e o menu pendente Ficheiro selecionado](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-Será apresentado um pop-up onde poderá selecionar a opção **Vista atual** ou **Vista predefinida**.  A opção **Vista atual** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção.  Em alternativa, selecionar a opção **Vista predefinida** exporta o relatório no estado original (conforme partilhado pelo autor) e não reflete as alterações que tiver efetuado ao estado original.
+Será apresentado um pop-up onde poderá selecionar a opção **Valores atuais** ou **Valores predefinidos**.  A opção **Valores atuais** exporta o relatório no estado atual, que inclui as alterações ativas que efetuou na segmentação de dados e nos valores de filtro.  A maioria dos utilizadores seleciona esta opção.  Em alternativa, selecionar a opção **Valores predefinidos** exporta o relatório no estado original (conforme partilhado pelo autor) e não reflete as alterações que tiver efetuado ao estado original.
+
+![Selecione o que Exportar](media/end-user-powerpoint/power-bi-current-values.png)
     
-Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório.  Selecione esta caixa se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser.  Se preferir obter todos os separadores ocultos como parte da exportação, pode manter a caixa desselecionada.  Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório.  Após efetuar as suas seleções, clique em **Exportar** para continuar.
+Além disso, existe uma caixa de verificação para selecionar se quer exportar os separadores ocultos de um relatório.  Selecione esta caixa se quiser exportar apenas os separadores do relatório que estiverem visíveis no seu browser.  Se preferir obter todos os separadores ocultos como parte da exportação, pode manter a caixa desselecionada.  Se a caixa de verificação aparecer a cinzento, significa que não existem separadores ocultos no relatório.  Após efetuar as suas seleções, selecione **Exportar** para continuar.
 
 Irá ver uma faixa de notificação no canto superior direito da janela de browser do serviço Power BI a informar que o relatório está a ser exportado para o PowerPoint. Poderão demorar alguns minutos e pode continuar a trabalhar no Power BI enquanto o relatório estiver a ser exportado.
 
-![notificação de exportação para PowerPoint em curso](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![notificação de exportação para PowerPoint em curso](media/end-user-powerpoint/power-bi-export-progress.png)
 
-Quando a exportação for concluída, a faixa de notificação será alterada para informar que o serviço Power BI concluiu o processo de exportação.
-
-![Mensagem de êxito apresentada](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-Quando isto acontecer, o seu ficheiro ficará disponível onde o browser mostra os ficheiros descarregados. Na imagem seguinte, é mostrado como faixa de transferência na parte inferior da janela do browser.
+Quando a exportação for concluída, a faixa de notificação será alterada para informar que o serviço Power BI concluiu o processo de exportação. Quando isto acontecer, o seu ficheiro ficará disponível onde o browser mostra os ficheiros descarregados. Na imagem seguinte, é mostrado como faixa de transferência na parte inferior da janela do browser.
 
 ![seta a apontar para a notificação do browser, na parte inferior do ecrã](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

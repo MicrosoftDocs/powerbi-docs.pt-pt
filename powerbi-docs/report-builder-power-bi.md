@@ -1,28 +1,33 @@
 ---
 title: Paginated Report Builder do Power BI
 description: O Paginated Report Builder do Power BI é uma ferramenta para criar relatórios paginados.
-ms.date: 06/06/2019
+ms.date: 09/16/2019
 ms.service: powerbi
 ms.subservice: report-builder
+featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 7ae945be1941fea4303b5cc74f9a2a4f104e8754
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840493"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076068"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Paginated Report Builder do Power BI
 
- O Paginated Report Builder do Power BI é uma ferramenta para criar relatórios paginados.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pode pré-visualizar o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
+ O Paginated Report Builder do Power BI é uma ferramenta para criar relatórios paginados.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
+
+Prefere aprender com vídeos? Veja a série de vídeos de relatórios paginados do Power BI no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+
+O relatório paginado que se segue inclui uma matriz com grupos de linhas e colunas, gráficos sparkline, indicadores, um gráfico circular de resumo na célula do canto e um mapa com dois conjuntos de dados geográficos representados por cor e pelo tamanho de círculo.  
 
 ![Relatório paginado no serviço Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
- Este relatório paginado inclui uma matriz com grupos de linhas e colunas, gráficos sparkline, indicadores, um gráfico circular de resumo na célula do canto e um mapa com dois conjuntos de dados geográficos representados por cor e pelo tamanho de círculo.  
-  
 ##  <a name="JumpStartReptCreation"></a> Iniciar a criação de relatórios  
  
 -   **Comece pelo Assistente de Tabelas, Matrizes ou Gráficos**. Crie uma ligação de origem de dados, arraste e largue os campos para criar uma consulta de conjunto de dados, selecione um esquema e um estilo e personalize o relatório.  
@@ -52,6 +57,9 @@ ms.locfileid: "66840493"
 -   **Escolha um formato de apresentação** ao abrir o relatório ou após abrir o relatório. Pode selecionar os formatos Orientado para a Web, Orientado para página e Aplicação de ambiente de trabalho. Os formatos incluem MHTML, PDF, XML, CSV, Word e Excel.  
   
 -   **Configure subscrições.** Após a publicação do relatório no serviço Power BI, poderá configurar o seu relatório para ser executado a uma hora específica e enviado como uma subscrição de e-mail.  
+
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+
+- Veja a [série de vídeos de relatórios paginados do Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan

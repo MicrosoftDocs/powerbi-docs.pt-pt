@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160335"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164485"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o seu modelo de dados ideal no Power BI Desktop e publicá-lo no serviço Power BI. Em seguida, é possível criar múltiplos relatórios diferentes (em ficheiros .pbix separados) a partir do mesmo modelo de dados comum e guardá-los em diferentes áreas de trabalho. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -74,7 +74,7 @@ Depois de concluído, o **Power BI Desktop** mostra-lhe o êxito e fornece algum
 
 ![Publicação com êxito](media/desktop-report-lifecycle-datasets/report-lifecycle_07.png)
 
-Agora que o seu relatório com o respetivo conjunto de dados está no serviço Power BI, também pode *promovê-lo* para verificar a sua qualidade e fiabilidade. Pode ainda pedir que o relatório seja *certificado* por uma autoridade central no seu inquilino do Power BI. Com uma destas recomendações, o seu conjunto de dados será sempre apresentado no tópico da lista quando as pessoas estiverem à procura de conjuntos de dados. Se for do seu interesse, pode ler mais sobre o processo de [promover o seu conjunto de dados](service-datasets-promote.md). 
+Agora que o seu relatório com o respetivo conjunto de dados está no serviço Power BI, também pode *promovê-lo* para verificar a sua qualidade e fiabilidade. Pode ainda pedir que o relatório seja *certificado* por uma autoridade central no seu inquilino do Power BI. Com uma destas recomendações, o seu conjunto de dados será sempre apresentado na parte superior da lista quando as pessoas estiverem à procura de conjuntos de dados. Se for do seu interesse, pode ler mais sobre o processo de [promover o seu conjunto de dados](service-datasets-promote.md). 
 
 O último passo é definir a *Permissão de compilação* para o conjunto de dados em que o relatório se baseia. A Permissão de compilação determina quem pode ver e utilizar o seu conjunto de dados. Pode vê-la na área de trabalho em si ou ao partilhar uma aplicação a partir da área de trabalho. Saiba mais sobre como definir a [Permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 

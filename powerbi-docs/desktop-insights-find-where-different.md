@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454153"
@@ -48,7 +48,7 @@ Em seguida, o **Power BI Desktop** executa os respetivos algoritmos de aprendiza
 
 Os valores com o filtro selecionado aplicado são apresentados com a cor normal predefinida. Os valores gerais, como mostra o elemento visual inicial, são apresentados a cinzento para facilitar a comparação. Podem ser incluídos até três filtros diferentes (*Bicicletas de Passeio*, *Bicicletas de Montanha*, *Bicicletas de Estrada* neste exemplo) e podem ser selecionados filtros diferentes ao clicar nos mesmos (ou ao utilizar o atalho Ctrl+clique para selecionar vários filtros).
 
-Para medidas de adição simples, como o *Total de Vendas* neste exemplo, a comparação baseia-se nos valores relativos e não nos absolutos. Por conseguinte, das vendas mundial bicicletas são mais baixos do que as vendas gerais para todas as categorias, por predefinição o elemento visual utiliza um eixo de dual para permitir a comparação entre a proporção de vendas em países diferentes, para bicicletas mundial em comparação com todas as categorias de bicicletas.  Ativar o botão abaixo do elemento visual permite que ambos os valores sejam apresentados no mesmo eixo, o que permite que os valores absolutos sejam facilmente comparados (como mostra a imagem seguinte).    
+Para medidas de adição simples, como o *Total de Vendas* neste exemplo, a comparação baseia-se nos valores relativos e não nos absolutos. Por isso, embora as vendas de Bicicletas de Passeio sejam mais baixas do que as vendas gerais em todas as categorias, por predefinição o elemento visual utiliza um eixo duplo para permitir a comparação entre a proporção de vendas em diferentes países, para Bicicletas de Passeio em comparação com todas as categorias de bicicletas.  Ativar o botão abaixo do elemento visual permite que ambos os valores sejam apresentados no mesmo eixo, o que permite que os valores absolutos sejam facilmente comparados (como mostra a imagem seguinte).    
 
 ![elementos visuais apresentados ao utilizar as informações](media/desktop-insights-find-where-different/find-where-different_04.png)
 
@@ -63,7 +63,7 @@ Pode utilizar as informações quando o seu relatório estiver em modo de leitur
 ## <a name="details-of-the-returned-results"></a>Detalhes dos resultados devolvidos
 O algoritmo utiliza todas as outras colunas no modelo e todos os valores dessa coluna ao aplicá-los como filtros do elemento visual original e ao localizar que valores de filtro geram os resultados mais *diferentes* do original.
 
-Provavelmente se perguntar o que *diferentes* significa. Por exemplo, imagine que a divisão geral das vendas entre os E.U.A. e o Canadá é a seguinte:
+Poderá estar a perguntar-se o que significa *diferente*. Por exemplo, imagine que a divisão geral das vendas entre os E.U.A. e o Canadá é a seguinte:
 
 |País  |Vendas (M. €)|
 |---------|----------|
@@ -97,7 +97,7 @@ Tendo em conta a natureza de tais medidas, isto *é* considerado significativame
 
 Os elementos visuais apresentados destinam-se claramente a mostrar as diferenças encontradas entre a distribuição geral (como se vê no elemento visual original) e o valor com o filtro em particular aplicado.  
 
-Para as medidas aditivas, como as *Vendas* no exemplo anterior, é utilizado um gráfico de linhas e colunas em que é utilizado um eixo duplo com a escala adequada para que os valores relativos possam ser facilmente comparados. As colunas mostram o valor com o filtro aplicado e a linha mostra o valor geral (com o eixo da coluna à esquerda e o eixo da linha à direita, como é normal). A linha é mostrada com uma *gradual* estilo, com uma linha tracejada, preenchido com cinzento. No exemplo anterior, se o valor máximo do eixo de coluna é 4 e o valor máximo do eixo de linha é 20, em seguida, permitiria fácil comparação dos valores relativas entre os EUA e Canadá para os valores de filtrado e geral. 
+Para as medidas aditivas, como as *Vendas* no exemplo anterior, é utilizado um gráfico de linhas e colunas em que é utilizado um eixo duplo com a escala adequada para que os valores relativos possam ser facilmente comparados. As colunas mostram o valor com o filtro aplicado e a linha mostra o valor geral (com o eixo da coluna à esquerda e o eixo da linha à direita, como é normal). A linha é mostrada com um estilo *gradual*, com uma linha tracejada, preenchida com cinza. Para o exemplo anterior, se o valor máximo do eixo da coluna for 4 e o valor máximo do eixo da linha for 20, permite uma fácil comparação dos valores relativos entre os EUA e o Canadá para os valores filtrados e gerais. 
 
 Da mesma forma, para medidas não aditivas como a *Margem* no exemplo anterior, é utilizado um gráfico de linhas e colunas, em que a utilização de um único eixo significa que os valores absolutos podem ser facilmente comparados. Novamente, a linha (preenchida com cinzento) mostra o valor geral. Seja ao comparar números relativos ou reais, a determinação do grau para o qual duas distribuições são diferentes não é só uma questão de calcular a diferença nos valores. Por exemplo:
 
@@ -107,7 +107,7 @@ Da mesma forma, para medidas não aditivas como a *Margem* no exemplo anterior, 
 
 * São utilizados vários processos para selecionar os resultados mais significativos, por exemplo, ao considerar outras relações entre os dados.
      
-Após examinar as diferentes colunas e os valores para cada uma dessas colunas, o conjunto de valores que dão as maiores diferenças é escolhido. Para uma compreensão fácil, estes são depois agrupados externamente por coluna, com a coluna cujos valores dão uma maior diferença listada em primeiro lugar. Até três valores são mostrados por coluna, mas menos pode ser mostrado se houvesse menos de três valores que tem um efeito de grandes ou se alguns valores estão muito mais apelativos que outros. 
+Após examinar as diferentes colunas e os valores para cada uma dessas colunas, o conjunto de valores que dão as maiores diferenças é escolhido. Para uma compreensão fácil, estes são depois agrupados externamente por coluna, com a coluna cujos valores dão uma maior diferença listada em primeiro lugar. São apresentados até três valores por coluna, mas poderão ser apresentados menos se existirem menos de três valores com grande efeito ou se alguns valores tiverem um impacto muito maior do que outros. 
 
 Nem todas as colunas no modelo serão examinadas durante o tempo disponível, por isso não é garantido que as colunas e os valores com maior impacto sejam apresentados. No entanto, são utilizados vários processos para garantir que as colunas com mais probabilidade são examinadas em primeiro lugar. Por exemplo, imagine que após examinar todas as colunas, determina-se que os seguintes valores/colunas têm o maior impacto na distribuição, do maior impacto para o menor:
 

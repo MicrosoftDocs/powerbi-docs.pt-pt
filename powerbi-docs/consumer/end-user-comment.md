@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073538"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100564"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adicionar comentários a um dashboard ou relatório
 Adicione um comentário pessoal ou inicie uma conversa sobre um dashboard ou relatório com os seus colegas. A funcionalidade de **comentário** é apenas uma das formas de como um *consumidor* pode colaborar com outros. 
@@ -29,60 +28,61 @@ Os comentários podem ser adicionados a um dashboard completo, a elementos visua
 
 Quando adiciona um comentário a um relatório, o Power BI captura os valores atuais do filtro e da segmentação de dados. Isto significa que, quando seleciona ou responde a um comentário, a página de relatório ou o elemento visual de relatório pode mudar para mostrar as seleções de filtro e segmentação de dados que estavam ativas quando o comentário foi criado.  
 
-![vídeo a mostrar um relatório com filtros](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
+![vídeo a mostrar um relatório com filtros](media/end-user-comment/power-bi-comment.gif)
 
 Porque é que isto é importante? Imagine que um colega aplicou um filtro que revelou uma informação interessante que pretende partilhar com a equipa. Sem esse filtro selecionado, o comentário pode não fazer sentido.
 
 Se estiver a utilizar um relatório paginado, só poderá deixar um comentário geral sobre o relatório.  O suporte para deixar comentários em elementos visuais de relatório individuais não está disponível.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Adicionar um comentário geral a um dashboard ou relatório
-Os processos para adicionar comentários a um dashboard ou relatório são semelhantes.  Neste exemplo, estamos a utilizar um dashboard. 
+O processo para adicionar comentários a um dashboard ou relatório é semelhante.  Neste exemplo, estamos a utilizar um dashboard. 
 
 1. Abra o dashboard ou relatório do Power BI e selecione o ícone de **Comentários**. Esta ação abre a caixa de diálogo Comentários.
 
-    ![ícone de comentários](media/end-user-comment/power-bi-comment-icon.png)
+    ![ícone de comentários](media/end-user-comment/power-bi-comment-menu.png)
 
     Aqui podemos ver que o criador do dashboard já adicionou um comentário geral.  Qualquer pessoa com acesso a este dashboard pode ver este comentário.
 
-    ![ícone de comentários](media/end-user-comment/power-bi-dash-comment.png)
+    ![ícone de comentários](media/end-user-comment/power-bi-first-comments.png)
 
 2. Para responder, selecione **Responder**, introduza a sua resposta e selecione **Publicar**.  
 
     ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-comment-reply.png)
 
-    Por predefinição, o Power BI encaminha a sua resposta para o colega que iniciou o tópico do comentário, neste caso o Samuel F. 
+    Por predefinição, o Power BI encaminha a sua resposta para o colega que iniciou o tópico do comentário, neste caso o Samuel. 
 
-    ![Comentário com resposta](media/end-user-comment/power-bi-response.png)
+    ![Comentário com resposta](media/end-user-comment/power-bi-respond.png)
 
  3. Se quiser adicionar um comentário que não faça parte do tópico existente, escreva o seu comentário no campo de texto superior.
 
-    ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-new-comment.png)
+    ![ícone de Resposta a Comentários](media/end-user-comment/power-bi-new-comments.png)
 
     Os comentários deste dashboard terão o seguinte aspeto.
 
-    ![Conversas nos comentários](media/end-user-comment/power-bi-comment-conversation.png)
+    ![Conversas nos comentários](media/end-user-comment/power-bi-conversation.png)
 
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Adicionar um comentário a um elemento visual específico do dashboard ou relatório
 Além de adicionar comentários a um dashboard completo ou a uma página de relatório completa, pode adicionar comentários a mosaicos do dashboard individuais e a elementos visuais de relatório individuais. Os processos são semelhantes e, neste exemplo, estamos a utilizar um relatório.
 
 1. Paire o cursor do rato sobre do elemento visual e selecione as reticências (...).    
-2. No menu pendente, selecione **Adicionar um comentário**.
+2. No menu pendente, selecione **Abrir comentários**.
 
-    ![Adicionar um comentário é a primeira opção](media/end-user-comment/power-bi-comment-report.png)  
+    ![Adicionar um comentário é a primeira opção](media/end-user-comment/power-bi-report-comment.png)  
 
 3.  A caixa de diálogo **Comentários** é aberta e os outros elementos visuais na página ficam a cinzento. Este elemento visual ainda não tem comentários. 
 
-    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-bar.png)  
+    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-column.png)  
 
 4. Escreva o seu comentário e selecione **Publicar**.
 
-    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-june.png)  
+    ![Adicionar um comentário para si próprio](media/end-user-comment/power-bi-comment-logistics.png)  
 
     - Numa página de relatório, selecionar um comentário feito num elemento visual realça esse elemento visual (ver acima).
 
     - Num dashboard, o ícone de gráfico ![comentário com o ícone de gráfico](media/end-user-comment/power-bi-comment-chart-icon.png) permite-nos saber que o comentário está ligado a um elemento visual específico. Os comentários que se aplicam a todo o dashboard não têm um ícone especial. A seleção do ícone de gráfico realça o elemento visual relacionado no dashboard.
+    
 
-        ![o elemento visual realçado](media/end-user-comment/power-bi-comment-highlight2.png)
+    ![o elemento visual realçado](media/end-user-comment/power-bi-highlight.png)
 
 5. Selecione **Fechar** para voltar ao dashboard ou relatório.
 

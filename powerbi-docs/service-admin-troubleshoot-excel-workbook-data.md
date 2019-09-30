@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101580"
@@ -25,7 +25,7 @@ ms.locfileid: "65101580"
 
 Quando importa um livro do Excel para o Power BI, poderá ver o seguinte erro:
 
-*Erro: Não foi possível encontrar quaisquer dados formatados como uma tabela. Para importar a partir do Excel para o serviço Power BI, terá de formatar os dados como uma tabela. Selecione todos os dados que pretende na tabela e prima Ctrl + T.*
+*Erro: não conseguimos encontrar quaisquer dados formatados como uma tabela. Para importar do Excel para o serviço Power BI, tem de formatar os dados como uma tabela. Selecione todos os dados que pretende na tabela e prima Ctrl + T.*
 
 ![Não conseguimos encontrar dados no livro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
@@ -36,7 +36,7 @@ Quando importa um livro do Excel para o Power BI, poderá ver o seguinte erro:
 4. Guarde o seu livro.
 5. Volte ao Power BI e importe o seu livro novamente ou, se estiver a trabalhar no Excel 2016 e tiver guardado o livro no OneDrive para Empresas, no Excel, clique em Ficheiro > Publicar.
 
-## <a name="details"></a>Details
+## <a name="details"></a>Detalhes
 ### <a name="cause"></a>Motivo
 No Excel, pode criar uma **tabela** a partir de um intervalo de células, o que torna mais fácil ordenar, filtrar e formatar os dados.
 

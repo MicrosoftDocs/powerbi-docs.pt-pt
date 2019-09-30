@@ -1,5 +1,5 @@
 ---
-title: Capturar informações de diagnóstico adicionais
+title: Recolher informações de diagnóstico adicionais
 description: Estas instruções fornecem duas opções possíveis para recolher manualmente informações de diagnóstico adicionais do cliente Web do Power BI.
 author: mgblythe
 manager: kfile
@@ -13,48 +13,48 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 710fb4cdcf9efb051434966d47c2eaced17ac9ba
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65100257"
 ---
-# <a name="capture-additional-diagnostic-information-for-power-bi"></a>Capturar informações de diagnóstico adicionais para o Power BI
+# <a name="capture-additional-diagnostic-information-for-power-bi"></a>Recolher informações de diagnóstico adicionais para o Power BI
 
-Este artigo fornece instruções para recolher manualmente informações de diagnóstico adicionais do cliente de web do Power BI.
+Este artigo fornece instruções para recolher manualmente informações de diagnóstico adicionais do cliente Web do Power BI.
 
-1. Navegue até [do Power BI](https://app.powerbi.com) com o Microsoft Edge ou o Internet Explorer.
+1. Navegue até ao [Power BI](https://app.powerbi.com) com o Microsoft Edge ou o Internet Explorer.
 
-1. Prima **F12** para abrir as ferramentas de desenvolvimento do Microsoft Edge.
+1. Prima **F12** para abrir as ferramentas de programador do Microsoft Edge.
 
-   ![Guia de elementos de ferramentas de captura de ecrã do Microsoft Edge Developer.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Captura de ecrã do separador Elementos das ferramentas de Programador do Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. Selecione o separador **Network** (Rede). Este irá listar o tráfego já capturado.
 
-   ![Guia de rede de ferramentas de captura de ecrã do Microsoft Edge Developer.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Captura de ecrã do separador Rede das ferramentas de Programador do Microsoft Edge.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     Pode:
 
-    * Procurar dentro da janela e reproduzir qualquer problema que pode encontrar.
+    * Procure dentro da janela e reproduza qualquer problema que possa encontrar.
 
-    * Ocultar e mostrar a janela de ferramentas de desenvolvedor em qualquer altura durante a sessão, premindo F12.
+    * Oculte e mostre a janela de ferramentas de programador, em qualquer altura durante a sessão, ao premir F12.
 
-1. Para parar a sessão de criação de perfis, pode selecionar o quadrado vermelho na **rede** Guia do programador da área de ferramentas.
+1. Para parar a criação de perfis da sessão, pode selecionar o quadrado vermelho no separador **Rede** da área de ferramentas de programador.
 
-   ![Guia de rede de ferramentas de captura de ecrã do Microsoft Edge Developer com uma chamada fora o botão Parar.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Captura de ecrã do separador Rede das ferramentas de programador do Microsoft Edge com uma chamada do botão Parar.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
-1. Selecione o ícone de disquete, exportar os dados como um ficheiro de arquivo (HAR de HTTP).
+1. Selecione o ícone de disquete para exportar os dados como um ficheiro de HTTP Archive (HAR).
 
-   ![Guia de rede de ferramentas de captura de ecrã do Microsoft Edge Developer com uma nota de aviso do ícone diskette.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Captura de ecrã do separador Rede das ferramentas de programador do Microsoft Edge com uma chamada do ícone da disquete.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. Escreva um nome de ficheiro e guarde o ficheiro HAR.
 
-    O ficheiro HAR conterá todas as informações sobre pedidos de rede entre a janela do browser e o Power BI, incluindo:
+    O ficheiro HAR conterá todas as informações sobre pedidos de rede entre a janela do navegador e o Power BI, incluindo:
 
-    * Os IDs de atividade para cada solicitação.
+    * Os IDs de atividade para cada pedido.
 
-    * O período de tempo preciso para cada solicitação.
+    * O carimbo de data/hora preciso para cada pedido.
 
-    * Qualquer informação de erro devolvida ao cliente.
+    * Quaisquer informações de erro devolvidas ao cliente.
 
     Este rastreio também conterá os dados utilizados para povoar os elementos visuais mostrados no ecrã.
 

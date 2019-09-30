@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136389"
 ---
-# <a name="self-service-data-prep-in-power-bi"></a>Preparação de dados de gestão personalizada no Power BI
+# <a name="self-service-data-prep-in-power-bi"></a>Preparação personalizada de dados no Power BI
 
 À medida que o volume de dados continua a crescer, o mesmo acontece com o desafio de preparação desses dados em informações acionáveis e bem formadas. Queremos dados que estejam prontos para análises, para preencher elementos visuais, relatórios e dashboards, para que possamos transformar rapidamente os nossos volumes de dados em informações acionáveis. Com a **preparação personalizada de dados** para grandes volumes de dados no Power BI, pode ir dos dados às informações do Power BI com apenas alguns cliques.
 
@@ -108,10 +108,10 @@ Ao armazenar dados de negócio no formato padronizado do **Common Data Service**
 Este artigo forneceu uma descrição geral da preparação personalizada para macrodados no Power BI e as várias formas de utilização. Os artigos seguintes entram em mais detalhes sobre os cenários de utilização comuns dos fluxos de dados. 
 
 * [Criar e utilizar fluxos de dados no Power BI](service-dataflows-create-use.md)
-* [Usando entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Utilizar entidades calculadas no Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Utilizar fluxos de dados com origens de dados no local](service-dataflows-on-premises-gateways.md)
-* [Recursos para desenvolvedores de fluxos de dados do Power BI](service-dataflows-developer-resources.md)
-* [Integração de fluxos de dados e o Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
+* [Recursos para programadores para fluxos de dados do Power BI](service-dataflows-developer-resources.md)
+* [Integração dos fluxos de dados e do Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 Para obter mais informações sobre o Power Query e a atualização agendada, pode ler estes artigos:
 * [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)

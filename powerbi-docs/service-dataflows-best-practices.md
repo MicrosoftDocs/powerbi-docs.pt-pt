@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c5aeb74277379b46398dc709f5deda1d10dc0926
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: c499a83b87eb15031d75974084468f418a17804a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919612"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142313"
 ---
 # <a name="dataflows-best-practice"></a>Melhores práticas dos fluxos de dados
 

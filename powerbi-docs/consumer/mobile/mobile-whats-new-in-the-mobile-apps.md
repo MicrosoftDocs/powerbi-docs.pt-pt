@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841349"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164511"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -81,7 +81,7 @@ Os utilizadores podem utilizar a proteção incorporada do dispositivo para prot
 
 ### <a name="one-page-report-slideshow-windows"></a>Apresentação de diapositivos de relatórios de uma página (Windows)
 
-Os relatórios de uma página agora também suportam a atualização automática na apresentação de diapositivos. Assim, se a origem de dados realçada do relatório for atualizada, atualizaremos os dados na página.
+Os relatórios de uma página agora também suportam a atualização automática na apresentação de diapositivos. Assim, se a origem de dados subjacente do relatório for atualizada, atualizaremos os dados na página.
 
 
 ## <a name="april-2019"></a>Abril de 2019

@@ -4,24 +4,23 @@ description: Tudo sobre mosaicos de dashboard no Power BI para consumidores. Inc
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050259"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142042"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Mosaicos de dashboard no Power BI
-Um mosaico é um instantâneo dos seus dados, afixado ao dashboard por um *designer*. Um mosaico pode ser criado a partir de um relatório, conjunto de dados, dashboard, a partir da caixa de Perguntas e Respostas, do Excel, do SQL Server Reporting Services (SSRS) e muito mais.  Esta captura de ecrã mostra vários mosaicos diferentes afixados a um dashboard.
+Um mosaico é um instantâneo dos seus dados, afixado ao dashboard por um *designer*. Os *designers* podem criar mosaicos a partir de um relatório, conjunto de dados, dashboard, a partir da caixa de Perguntas e Respostas, do Excel, do SQL Server Reporting Services (SSRS) e muito mais.  Esta captura de ecrã mostra vários mosaicos diferentes afixados a um dashboard.
 
-![Dashboard do Power BI](./media/end-user-tiles/power-bi-dashboard.png)
+![Dashboard do Power BI](./media/end-user-tiles/power-bi-dash.png)
 
 
 Além de mosaicos afixados a partir de relatórios, os *designers* podem adicionar mosaicos autónomos diretamente no dashboard através da opção **Adicionar mosaico**. Os mosaicos autónomos incluem: caixas de texto, imagens, vídeos, dados de transmissão em fluxo e conteúdo Web.
@@ -38,15 +37,15 @@ Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?
 
     - mosaico criado com as Perguntas e Respostas
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-menu1.png)
+        ![ícone de reticências](./media/end-user-tiles/power-bi-options-1.png)
 
     - mosaico criado a partir de um livro
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-menu2.png)
+        ![ícone de reticências](./media/end-user-tiles/power-bi-options-2.png)
 
     - mosaico criado a partir de um relatório
    
-        ![ícone de reticências](./media/end-user-tiles/power-bi-menu3.png)
+        ![ícone de reticências](./media/end-user-tiles/power-bi-options-3.png)
    
     A partir daqui, pode:
    
@@ -56,9 +55,12 @@ Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?
    
 
    * [Abrir o livro que foi utilizado para criar este mosaico ](end-user-reports.md) ![ícone de folha de cálculo](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [Ver o mosaico no modo de detalhe ](end-user-focus.md) ![ícone de detalhe](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Executar informações ](end-user-insights.md) ![ícone informações](./media/end-user-tiles/power-bi-insights.png)
-    * [Adicionar um comentário e iniciar um debate](end-user-comment.md) ![ícone de comentário](./media/end-user-tiles/comment-icons.png)
+   * [Ver o mosaico no modo de detalhe ](end-user-focus.md) ![ícone de detalhe](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Ver informações ](end-user-insights.md) ![ícone informações](./media/end-user-tiles/power-bi-insights.png)
+   * [Adicionar um comentário e iniciar um debate](end-user-comment.md) ![ícone de comentário](./media/end-user-tiles/comment-icons.png)
+   * [Gerir alertas definidos num mosaico do dashboard](end-user-alerts.md)  ![ícone de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Abrir os dados no Excel](end-user-export.md)  ![ícone de exportação](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 

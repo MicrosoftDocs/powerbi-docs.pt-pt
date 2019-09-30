@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877801"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175183"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -38,6 +38,7 @@ Este artigo aborda perguntas mais frequentes relativas à administração do Pow
 
 * [Como isto mudará a minha forma de gerir as identidades dos utilizadores na minha organização hoje em dia?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Como gerir o Power BI?](#how-do-we-manage-power-bi)
+* [Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Se tiver múltiplos domínios, posso controlar o inquilino do Office 365 ao qual os utilizadores são adicionados?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Como posso remover o Power BI para os utilizadores já inscritos?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Como posso saber quando são associados novos utilizadores ao inquilino?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -172,6 +173,14 @@ Há três cenários que podem aplicar-se aos utilizadores na sua organização:
 O Power BI fornece um portal de administração que lhe permite ver as estatísticas de utilização, fornece uma ligação para o centro de administração do Microsoft 365 para gerir utilizadores e grupos e a capacidade de controlar as definições do inquilino.
 
 Para utilizar o portal de administração do Power BI, tem de marcar a sua conta como **Administrador Global** no Office 365 ou no Azure Active Directory, ou alguém tem de atribuir a função de administrador do serviço Power BI à sua conta de utilizador. Para obter mais informações, veja [Compreender a função de administrador do Power BI](service-admin-role.md) e [Portal de Administração do Power BI](service-admin-portal.md).
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual é o processo para gerir um inquilino criado pela Microsoft para os meus utilizadores?
+
+Quando um utilizador self-service se inscreve num serviço cloud que utiliza o Azure AD, o serviço adiciona esse utilizador a um diretório não gerido do Azure AD com base no respetivo domínio de e-mail. Pode reclamar e gerir o inquilino que alguém criou com um processo conhecido como *obtenção de controlo administrativo*. Para obter mais informações, veja [Obter o controlo de um diretório não gerido como administrador no Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover). O tipo de obtenção de controlo que realiza está dependente de existir um inquilino gerido associado ao seu domínio:
+
+* O Power BI suporta a obtenção de controlo administrativo interno. Quando executa uma obtenção de controlo administrativo _interno_ de um diretório do Azure não gerido, é adicionado como o administrador global do diretório não gerido. Nenhum utilizador, domínio ou plano de serviço é migrado para qualquer outro diretório administrado por si.
+
+* O Power BI já não suporta a obtenção de controlo administrativo externo. Quando executa uma obtenção de controlo administrativo _externo_ de um diretório do Azure não gerido, adiciona o nome de domínio DNS do diretório não gerido ao seu diretório gerido do Azure. Quando adiciona o nome de domínio, um mapeamento dos utilizadores de recursos é criado no seu diretório gerido do Azure para que os utilizadores possam continuar a aceder aos serviços sem interrupções.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Se tiver múltiplos domínios, posso controlar o inquilino do Office 365 ao qual os utilizadores são adicionados?
 

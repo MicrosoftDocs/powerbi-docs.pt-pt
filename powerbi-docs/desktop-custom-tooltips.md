@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239761"
@@ -22,10 +22,10 @@ As descrições são uma forma elegante de fornecer informações mais contextua
 
 ![Descrição predefinida](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Quando uma visualização é criada, a descrição predefinida apresenta o valor e a categoria do ponto de dados. Existem muitas instâncias quando as informações de descrição de personalização é útil e poderiam fornecer contexto adicional e informações para utilizadores que visualizam o elemento visual. As descrições personalizadas permitem-lhe especificar os pontos de dados adicionais que são apresentados como parte da descrição.
+Quando uma visualização é criada, a descrição predefinida apresenta o valor e a categoria do ponto de dados. Existem várias instâncias em que a personalização das informações de descrição é útil e poderia fornecer contexto e informações adicionais aos utilizadores que visualizam o elemento visual. As descrições personalizadas permitem-lhe especificar os pontos de dados adicionais que são apresentados como parte da descrição.
 
 ## <a name="how-to-customize-tooltips"></a>Como personalizar descrições
-Para criar uma descrição personalizada, no **campos** do **visualizações** painel arraste um campo para o **descrições** bucket, mostrado na imagem seguinte. Na seguinte imagem, foram colocados dois campos no registo **Descrições**.
+Para criar uma descrição personalizada, no poço **Campos** do painel **Visualizações**, arraste um campo para o registo **Descrições**, mostrado na imagem seguinte. Na seguinte imagem, foram colocados dois campos no registo **Descrições**.
 
 ![Adicionar campos de descrição](media/desktop-custom-tooltips/custom-tooltips-2.png)
 

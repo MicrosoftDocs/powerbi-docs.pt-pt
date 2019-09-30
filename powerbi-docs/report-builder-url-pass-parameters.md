@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189375"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075991"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Transmitir um parâmetro de relatório num URL para um relatório paginado no Power BI 
 
-Pode transmitir parâmetros de relatório para um relatório ao incluí-los num URL de relatório paginado. Todos os parâmetros de consulta podem ter parâmetros de relatório correspondentes. Por conseguinte, pode transmitir um parâmetro de consulta para um relatório ao transmitir o parâmetro de relatório correspondente. Tem de colocar o prefixo  `rp:` no nome do parâmetro para que o Power BI o reconheça no URL. 
+Pode transmitir parâmetros de relatório para um relatório ao incluí-los num URL de relatório paginado. Todos os parâmetros de consulta podem ter parâmetros de relatório correspondentes. Por conseguinte, pode transmitir um parâmetro de consulta para um relatório ao transmitir o parâmetro de relatório correspondente. Tem de colocar o prefixo `rp:` no nome do parâmetro para que o Power BI o reconheça no URL. 
 
 Os parâmetros de relatório são sensíveis às maiúsculas e minúsculas e utilizam os seguintes carateres especiais: 
 
@@ -60,10 +60,10 @@ Por exemplo:
 rp:SalesOrderNumber:isnull=true
 ```
 
-Para transmitir um valor booleano, utilize 0 para falso e 1 verdadeiro. Para transmitir um valor flutuante, inclua o separador decimal da região do servidor.
+Para transmitir um valor booleano, utilize 0 para falso e 1 verdadeiro. Para transmitir um valor Flutuante, inclua o separador decimal da região do servidor.
 
 > [!NOTE]
-> Se o seu relatório contiver um parâmetro de relatório com um valor predefinido e o valor da propriedade  **Prompt**  for  **falso** (ou seja, se a propriedade **Prompt User** não estiver selecionada no Report Manager), não poderá transmitir um valor a esse parâmetro de relatório num URL. Isto permite que os administradores possam impedir os utilizadores finais de adicionarem ou modificarem os valores de determinados parâmetros de relatório.
+> Se o seu relatório contiver um parâmetro de relatório com um valor predefinido e o valor da propriedade **Prompt** for **falso** (ou seja, se a propriedade **Prompt User** não estiver selecionada no Report Manager), não poderá transmitir um valor a esse parâmetro de relatório num URL. Isto permite que os administradores possam impedir os utilizadores finais de adicionarem ou modificarem os valores de determinados parâmetros de relatório.
 
 ## <a name="additional-examples"></a>Exemplos adicionais 
 
@@ -73,7 +73,7 @@ O seguinte URL de exemplo inclui um parâmetro "Salesperson" de múltiplos valor
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:Salesperson=Tie+Bear&rp:Salesperson=Mickey 
 ```
 
-O seguinte URL de exemplo transmite um único parâmetro de "SellStartDate" (DataDeInícioDaVenda) com um valor de "7/1/2005" a um servidor de relatórios de modo nativo.
+O seguinte URL de exemplo transmite um único parâmetro de  SellStartDate  com um valor de "7/1/2005" a um servidor de relatórios de modo nativo.
 
 ```
 https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d?rp:SellStartDate=7/1/2005

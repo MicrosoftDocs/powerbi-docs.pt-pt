@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769924"
@@ -31,15 +31,15 @@ No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis S
 
 1. Em **A Minha Área de Trabalho**, selecione **Obter dados**. Também pode mudar para uma área de trabalho de grupo, se estiver disponível.
 
-   ![Ligar ao botão obter dados](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![Botão Ligar-se para obter dados](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. Selecione **Bases de Dados e Mais**.
 
-   ![Ligue-se para obter dados 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Ligar-se para obter dados 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. Selecione **SQL Server Analysis Services** > **Ligar**.
 
-   ![Ligue-se para obter dados 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Ligar-se para obter dados 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Selecione um servidor. Se não vir nenhum servidor listado aqui, significa que não está configurado um gateway e uma origem de dados ou a conta não está listada no separador **Utilizadores** da origem de dados, no gateway. Contacte o seu administrador.
 
@@ -47,7 +47,7 @@ No Power BI, existem duas formas de ligar a um servidor do SQL Server Analysis S
 
 Depois de ligar ao modelo, este será apresentado no site do Power BI em **A Minha Área de Trabalho/Conjuntos de Dados**. Se mudou para uma área de trabalho de grupo, o conjunto de dados será apresentado no grupo.
 
-![Ligar ao conjunto de dados](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![Ligar-se a conjunto de dados](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>Os mosaicos do dashboard
 

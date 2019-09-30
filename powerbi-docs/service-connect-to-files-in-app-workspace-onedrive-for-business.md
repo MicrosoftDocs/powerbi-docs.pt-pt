@@ -11,16 +11,16 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-PT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61175069"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho de aplicação do Power BI
-Depois de [criar uma área de trabalho de aplicação no Power BI](service-create-distribute-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho de aplicação do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive. Essas atualizações são automaticamente refletidas nos relatórios do Power BI e dashboards com base nos ficheiros. 
+Depois de [criar uma área de trabalho de aplicação no Power BI](service-create-distribute-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho de aplicação do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros. 
 
 > [!NOTE]
-> A nova experiência de área de trabalho altera a relação entre áreas de trabalho do Power BI e grupos do Office 365. Não crie automaticamente um grupo do Office 365 sempre que criar uma das novas áreas de trabalho. Leia sobre [criar novas áreas de trabalho](service-create-the-new-workspaces.md)
+> A nova experiência de área de trabalho muda a relação entre as áreas de trabalho do Power BI e os grupos do Office 365. Não cria automaticamente um grupo do Office 365 sempre que cria uma das novas áreas de trabalho. Leia mais sobre como [criar as novas áreas de trabalho](service-create-the-new-workspaces.md)
 
 A adição de ficheiros à área de trabalho de aplicação é um processo de dois passos: 
 
@@ -48,7 +48,7 @@ A adição de ficheiros à área de trabalho de aplicação é um processo de do
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Importar ficheiros do Excel como conjuntos de dados ou como livros do Excel Online
 Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de trabalho da aplicação, tem uma opção. Pode: 
 
-* [Importar os dados do livro do Excel como um conjunto de dados](service-get-data-from-files.md). Em seguida, utilize os dados para criar relatórios e dashboards que pode ver num browser e em dispositivos móveis.
+* [Importe os dados do livro do Excel como um conjunto de dados](service-get-data-from-files.md). Em seguida, utilize os dados para criar relatórios e dashboards que pode ver num browser e em dispositivos móveis.
 * Ou [ligar a um livro do Excel inteiro no Power BI](service-excel-workbook-files.md) e apresentá-lo exatamente como aparece no Excel Online.
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>Importar ou ligar a ficheiros na sua área de trabalho de aplicação
@@ -64,7 +64,7 @@ Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. Selecione o ficheiro desejado > **Ligar**.
    
-    Neste momento, decidir se pretende [importar os dados do livro do Excel](service-get-data-from-files.md), ou [ligar a livros inteiros do Excel](service-excel-workbook-files.md).
+    Neste momento, deve decidir se deseja [importar os dados do livro do Excel](service-get-data-from-files.md) ou [ligar-se a livros completos do Excel](service-excel-workbook-files.md).
 6. Selecione **Importar** ou **Ligar**.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)

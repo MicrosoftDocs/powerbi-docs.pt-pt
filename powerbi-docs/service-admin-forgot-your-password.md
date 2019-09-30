@@ -1,21 +1,21 @@
 ---
 title: Esqueceu-se da sua palavra-passe para o Power BI?
-description: Se esqueceu-se a palavra-passe, pode utilizar uma ligação para pedir uma palavra-passe reposta.
+description: Se se tiver esquecido da palavra-passe, pode utilizar uma ligação para pedir uma reposição de palavra-passe.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 855fae9f23527c47802eef6dac2ded5ffcc8b786
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710348"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075189"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Esqueceu-se da sua palavra-passe para o Power BI?
 
@@ -23,15 +23,15 @@ Se se tiver esquecido da palavra-passe, pode utilizar a ligação seguinte para 
 
 <https://passwordreset.microsoftonline.com>
 
-Se receber informação no sentido a sua conta não está definida para obter a palavra-passe repor, contacte o administrador do Office 365. Se estiver a utilizar a versão de avaliação gratuita, o administrador é a primeira pessoa na sua organização, que se inscreveu.
+Se for informado de que a sua conta não está configurada para reposição de palavra-passe, contacte o seu administrador do Office 365. Se estiver a utilizar a avaliação gratuita, o administrador é a primeira pessoa na sua organização que se inscreveu.
 
-Se ainda estiver a ter problemas ao aceder à sua conta, pode tentar contactar a equipa de suporte para uma reposição de palavra-passe.
+Se ainda estiver a ter problemas de acesso à conta pode tentar contactar a equipa de suporte para uma reposição de palavra-passe.
 
 *1-800-642-7676*
 
-É importante observar que este número de telefone não é o número de suporte de serviço do Power BI.
+É importante observar que este número de telefone não é o número do suporte do serviço Power BI.
 
 > [!NOTE]
-> O Power BI fornece suporte durante o horário normal no fuso horário hora padrão do Leste (EST). Suporte está atualmente apenas fornecido em inglês.
+> O Power BI fornece suporte durante o horário comercial comum no fuso horário da Hora Padrão do Leste (EST). Neste momento, o suporte é fornecido apenas em inglês.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
