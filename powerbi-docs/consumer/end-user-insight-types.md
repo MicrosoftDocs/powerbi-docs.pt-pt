@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 9/23/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 216c58644ee13cc6015878fc31d83e47e5673398
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61064386"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327767"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 ## <a name="how-does-insights-work"></a>Como funcionam as Informações?

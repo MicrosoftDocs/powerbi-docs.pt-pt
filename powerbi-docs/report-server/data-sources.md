@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808230"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401839"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
@@ -71,7 +71,7 @@ Outras origens de dados podem funcionar apesar de não estarem na lista suportad
 | Lista do SharePoint Online |Sim |Não |Não |
 | Snowflake |Sim |Não |Não |
 | Base de Dados Sybase |Sim |Sim |Não |
-| Base de Dados Teradata |Sim |Sim |Sim |
+| Teradata |Sim |Sim |Sim |
 | Texto/CSV |Sim |Sim |Não |
 | Web |Sim |Sim |Não |
 | XML |Sim |Sim |Não |
