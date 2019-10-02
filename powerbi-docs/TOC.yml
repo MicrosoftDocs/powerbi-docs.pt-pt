@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Machine Learning automatizada no Power BI (Pré-visualização)
               href: service-machine-learning-automated.md
+        - name: Linhagem de dados
+          href: service-data-lineage.md
         - name: Relatórios paginados no Power BI
           items:
             - name: Ver um relatório paginado
@@ -867,6 +869,8 @@
       items:
         - name: Idiomas e países/regiões suportados
           href: supported-languages-countries-regions.md
+        - name: Browsers suportados
+          href: power-bi-browsers.md
     - name: Recursos
       items:
         - name: Whitepapers (Documentos técnicos)
