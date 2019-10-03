@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: Recursos
       items:
-        - name: Whitepapers (Documentos técnicos)
-          items:
-            - name: Descrição geral dos documentos técnicos
-              href: whitepapers.md
-            - name: Documento técnico de segurança do Power BI
-              href: whitepaper-powerbi-security.md
-            - name: Implementação do Power BI Premium
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: Distribute Power BI externally using Azure Active Directory B2B (Distribuir o Power BI externamente através do Azure Active Directory B2B)
-              href: whitepaper-azure-b2b-power-bi.md
         - name: Vídeos
           href: videos.md
         - name: Webinars
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
       href: service-dataflows-best-practices.md
+    - name: Whitepapers (Documentos técnicos)
+      items:
+        - name: Descrição geral dos documentos técnicos
+          href: whitepapers.md
+        - name: Documento técnico de segurança do Power BI
+          href: whitepaper-powerbi-security.md
+        - name: Implementação do Power BI Premium
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: Distribute Power BI externally using Azure Active Directory B2B (Distribuir o Power BI externamente através do Azure Active Directory B2B)
+          href: whitepaper-azure-b2b-power-bi.md
