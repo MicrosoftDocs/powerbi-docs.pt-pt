@@ -9,18 +9,43 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940906"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325734"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registo de alterações para o Power BI Report Server
 
 Este registo de alterações destina-se ao Power BI Report Server e lista novos itens, juntamente com correções de erros para cada compilação lançada.
 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
+
+## <a name="september-2019"></a>Setembro de 2019
+
+- **Power BI Report Server**          
+    - *Versão 1.6.7206.38019 (Compilação 15.0.1102.597), lançada a: 26 de setembro de 2019*
+        - Atualizações de segurança
+        - Correções de Erros
+           - Relatórios Paginados
+             - Correção de problemas de acessibilidade encontrados ao utilizar o IE e o Edge.
+             - Correção de problemas de SAP HANA durante testes de ligação.
+             - Correção de problemas encontrados ao fornecer a lista de endereços de e-mail.
+             - Correção para relatórios do Power BI que utilizem uma origem de dados do DirectQuery e autenticação integrada.
+             - Correção para relatórios Paginados para serem compostos com parâmetros de filtro quando o instantâneo é ativado.
+             - Correção para a execução dupla de procedimentos armazenados durante a execução do relatório.
+             - Correção da concessão de permissões de início de sessão do SQL Server à conta de serviço predefinida, quando a conta de serviço está configurada para executar o Power BI Report Server.
+             - Correção para o acesso a relatórios durante a atualização no fuso horário japonês.
+             - Correção para modelos obsoletos quando uma nova versão do relatório é carregada durante a atualização.
+             - Correção para os valores de parâmetros que contêm o caráter "&".
+         - Capacidade de programação
+             - API Web atualizada: /PowerBIReports({Id})/DataSources (PATCH) para permitir atualizações de cadeia de ligação.
+         
+- **Power BI Desktop (otimizado para o Power BI Report Server)**
+    - *Versão: 2.73.5586.821 (setembro de 2019), Lançamento: 26 de setembro de 2019* (nova compilação e nova versão)
+    - Contém as alterações necessárias para a ligação ao Power BI Report Server (setembro de 2019)
+
 
 ## <a name="may-2019"></a>Maio de 2019
 

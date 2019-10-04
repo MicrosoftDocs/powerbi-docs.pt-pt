@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867195"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193350"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Uma tabela é uma grelha que contém dados relacionados numa série lógica de linhas e colunas. Também pode conter cabeçalhos e uma linha para totais. As tabelas funcionam bem com comparações quantitativas, onde pode observar vários valores para uma única categoria. Por exemplo, esta tabela apresenta cinco medidas diferentes para **Categoria**.
 
-![Captura de ecrã de uma tabela que apresenta cinco medidas diferentes para Categoria.](media/power-bi-visualization-tables/table.png)
+![Captura de ecrã de uma tabela que apresenta cinco medidas diferentes para Categoria.](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 Crie tabelas em relatórios e realce de forma cruzada os elementos na tabela com outros elementos visuais na mesma página do relatório. Pode selecionar linhas, colunas e até células individuais e realces cruzados. Além disso, pode copiar e colar células individuais e múltiplas seleções de célula noutras aplicações.
 
@@ -36,25 +38,23 @@ As tabelas são uma excelente opção:
 
 * Para apresentar dados numéricos por categorias.
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisite"></a>Pré-requisito
 
-* O serviço Power BI ou Power BI Desktop
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Relatório de Exemplo de Análise de Revenda
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**
+   
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-## <a name="get-the-retail-analysis-sample-report"></a>Obter o relatório de Exemplo de Análise de Revenda
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-Essas instruções utilizam o Exemplo de Análise de Revenda. A criação de uma visualização exige permissões de edição para o conjunto de dados e para o relatório. Felizmente, todos os exemplos do Power BI são editáveis. Se alguém partilhar um relatório consigo, não poderá criar visualizações nos relatórios. Para acompanhar, obtenha o [relatório de Exemplo de Análise de Revenda](../sample-datasets.md).
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
-Depois de obter o conjunto de dados **Exemplo de Análise de Revenda**, pode começar a trabalhar.
 
 ## <a name="create-a-table"></a>Criar uma tabela
 
 Vai criar a tabela ilustrada no início do artigo para apresentar os valores de vendas por categoria de item.
 
-1. Em **A Minha Área de Trabalho**, selecione **Conjuntos de dados** > **Criar um relatório**.
-
-    ![Captura de ecrã de Conjuntos de dados > Criar um relatório.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. No painel **Campos**, selecione **Item** > **Categoria**.
 
@@ -66,11 +66,10 @@ Vai criar a tabela ilustrada no início do artigo para apresentar os valores de 
 
 1. Em seguida, selecione **Vendas > Vendas Deste Ano** e selecione as três opções: **Valor**, **Objetivo** e **Estado**.
 
-1. No painel **Visualizações**, localize o painel **Valores** e arraste os valores até que a ordem das colunas do gráfico corresponda à primeira imagem desta página. O painel **Valores** terá o seguinte aspeto:
+1. No painel **Visualizações**, localize o painel **Valores** e selecione os valores até que a ordem das colunas do gráfico corresponda à primeira imagem desta página. Arraste os valores na área, se for necessário. O painel **Valores** terá o seguinte aspeto:
 
     ![Área valores](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. Afixe a tabela ao dashboard, selecionando o ícone de pin ![pionés](media/power-bi-visualization-tables/pbi_pintile.png) no canto superior direito do visual.
 
 ## <a name="format-the-table"></a>Formatar a tabela
 
@@ -170,10 +169,6 @@ Para copiar mais do que uma única célula:
 1. Selecione **Copiar** > **Copiar seleção**.
 
     ![opções de cópia](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    A cópia inclui os cabeçalhos de coluna e de linha.
-
-    ![colar no Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Ajustar a largura da coluna de uma tabela
 

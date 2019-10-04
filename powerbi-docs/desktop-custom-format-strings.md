@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919496"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305722"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Utilizar cadeias de formato personalizado no Power BI Desktop
 
@@ -148,13 +148,14 @@ A tabela a seguir identifica os carateres que pode utilizar para criar **formato
 | ( **E- E+ e- e+** ) | Formato científico. Se a expressão de formato contiver pelo menos um marcador de posição de dígito (**0** ou **#** ) à direita de E-, E+, e- ou e+, o número será apresentado no formato científico e será introduzido E ou e entre o número e o expoente. O número de marcadores de posição de dígitos à direita determina o número de dígitos no expoente. Utilize E- ou e- para colocar um sinal de menos junto dos expoentes negativos. Utilize E+ ou e+ para colocar um sinal de menos junto dos expoentes negativos e um sinal de mais junto dos expoentes positivos. |
 | **- + $**  ( ) | Apresenta um caráter literal. Para apresentar um caráter diferente de um daqueles listados, preceda-o por uma barra invertida (\) ou coloque-o entre aspas duplas (&quot; &quot;). |
 | ( * *\** ) | Apresenta o próximo caráter na cadeia de formato. Para apresentar um caráter que tenha um significado especial como um caráter literal, preceda-o por uma barra invertida (\). A própria barra invertida não é apresentada. Utilizar uma barra invertida é o mesmo que colocar o próximo caráter entre aspas duplas. Para apresentar uma barra invertida, utilize duas barras invertidas (\\). Exemplos de carateres que não podem ser apresentados como carateres literais são os carateres de formatação de data e hora (a, c, d, h, m, n, p, q, s, t, w, y, / e :), os carateres de formatação numérica (#, 0, %, E, e, vírgula e ponto) e os carateres de formatação de cadeia (@, &amp;, \&lt;, \&gt; e !). |
-| (&quot;ABC&quot;) | Apresenta a cadeia de carateres entre aspas duplas (&quot; &quot;). Para incluir uma cadeia de carateres no **formato** dentro do código, tem de utilizar **Chr(34)** para colocar o texto dentro (34 é o código de caráter de aspas (&quot;)). |
+| (&quot;ABC&quot;) | Apresenta a cadeia de carateres entre aspas duplas (&quot; &quot;). |
 
 
 ## <a name="next-steps"></a>Próximos passos
 Poderá também estar interessado nos seguintes artigos:
 
 * [VBA format strings](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) (Cadeias de formato VBA)
+* [Medidas no Power BI Desktop](desktop-measures.md)
+* [Tipos de dados no Power BI Desktop](desktop-data-types.md)
 * [Formatação condicional em tabelas](desktop-conditional-table-formatting.md)
-* [Títulos baseados em expressões no Power BI Desktop](desktop-conditional-format-visual-titles.md)
 

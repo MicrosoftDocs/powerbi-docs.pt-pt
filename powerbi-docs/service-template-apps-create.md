@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264540"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195421"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
@@ -47,7 +47,7 @@ Para criar uma aplicação de modelo que possa distribuir para outros inquilinos
 
 3. Introduza um nome, uma descrição (opcional) e uma imagem de logótipo (opcional) para a sua área de trabalho de aplicação.
 
-4. Selecione **Desenvolver uma aplicação de modelo**.
+4. Expanda a secção **Avançado** e selecione **Desenvolver uma aplicação de modelo**.
 
     ![Desenvolver uma aplicação de modelo](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -77,18 +77,20 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
 
     **Personalização**
 
-    ![Imagem corporativa](media/service-template-apps-create/power-bi-create-branding.png)
+    ![Personalização](media/service-template-apps-create/power-bi-create-branding.png)
     - Nome da aplicação
     - Descrição
     - Site de suporte (a ligação é apresentada nas informações da aplicação, após a redistribuição da aplicação de modelo como aplicação de organização)
     - Logótipo da aplicação (limite de tamanho do ficheiro de 45 KB, proporção de 1:1, formatos .png, .jpg e .jpeg)
     - Cor do tema da aplicação
 
-    **Conteúdo**
+    **Navegação**
 
-    **Página de destino da aplicação:** Defina um relatório ou dashboard como a página de destino da sua aplicação. Utilize uma página de destino que dê uma impressão certa:
+    Ative o **Novo construtor de navegação**, onde pode definir o painel de navegação esquerdo da aplicação (veja [Conceber a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
 
-    ![Conteúdo](media/service-template-apps-create/power-bi-create-content.png)
+   ![Definir página de destino da aplicação](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **Página de destino da aplicação:** se decidir desativar o construtor de navegação, terá a opção de selecionar a página de destino da aplicação. defina um relatório ou dashboard como página de destino da sua aplicação. Utilize uma página de destino que dê a impressão certa.
 
     **Controlo**
 
@@ -107,7 +109,6 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
     - **Valor**: valor de parâmetro predefinido.
     - **Obrigatório**: utilize esta opção para exigir que o instalador introduza um parâmetro específico do utilizador.
     - **Bloquear**: o bloqueio impede que o instalador atualize um parâmetro.
-    - **Estático**: ative esta opção se a aplicação *apenas* tiver dados de exemplo. Ao selecionar **Estático**, o assistente de instalação não irá pedir aos utilizadores para ligar uma origem de dados.
 
     **Acesso**: na fase de teste, decida que pessoas na sua organização podem instalar e testar a sua aplicação. Não se preocupe, pode sempre regressar e alterar estas definições mais tarde (as definições não afetam o acesso à Aplicação de modelo distribuída).
 

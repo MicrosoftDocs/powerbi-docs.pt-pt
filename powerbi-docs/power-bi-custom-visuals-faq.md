@@ -1,65 +1,65 @@
 ---
 title: Perguntas frequentes sobre os elementos visuais do Power BI
-description: Navegue numa lista de perguntas frequentes e respostas sobre os elementos visuais personalizados do Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+description: Consulte uma lista de perguntas frequentes e respostas sobre elementos visuais do Power BI
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 58fa65abfa2d2cff5e02b34fe8db8aa10b36ee14
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5c4c13d021891ad591b2411a1f0b3219b750478d
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415374"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195449"
 ---
 # <a name="frequently-asked-questions-about-power-bi-visuals"></a>Perguntas frequentes sobre os elementos visuais do Power BI
 
-## <a name="organizational-custom-visuals"></a>Elementos visuais personalizados organizacionais
+## <a name="organizational-visuals"></a>Elementos visuais da organização
 
 O portal de administração permite-lhe gerir os elementos visuais do Power BI da sua organização.
 
-### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>Como é que o administrador pode gerir os elementos visuais personalizados organizacionais?
+### <a name="how-can-the-admin-manage-the-organizational-power-bi-visuals"></a>Como é que o administrador pode gerir os elementos visuais organizacionais do Power BI?
 
-No portal de administração, no separador "Elementos visuais personalizados organizacionais", o administrador pode ver e [gerir todos os elementos visuais personalizados organizacionais da empresa](service-admin-portal.md#organizational-visuals): adicionar, desativar, ativar e eliminar.
-Nunca mais terá de partilhar esses elementos visuais através de e-mails ou pastas partilhadas! Depois de implementados no repositório organizacional, os utilizadores na organização poderão facilmente localizá-los e importar os elementos visuais personalizados organizacionais para os respetivos relatórios diretamente a partir do Power BI Desktop ou do Serviço Power BI. Os elementos visuais personalizados organizacionais encontram-se na loja integrada (no Power BI Desktop ou no serviço Power BI) no separador *A MINHA ORGANIZAÇÃO*. Quando o administrador carrega uma nova versão de um elemento visual personalizado organizacional, todas as pessoas na organização recebem a mesma versão atualizada. Os autores do relatório não precisam de eliminar o elemento visual nos respetivos relatórios para obter a nova versão dos mesmos, pois todos os relatórios que utilizarem esses elementos visuais serão atualizados automaticamente! O mecanismo de atualização é semelhante ao dos elementos visuais do marketplace.
+No portal de administração, no separador "Elementos visuais organizacionais", o administrador pode ver e [gerir todos os elementos visuais organizacionais do Power BI da empresa](service-admin-portal.md#organizational-visuals): adicionar, desativar, ativar e eliminar.
+Nunca mais terá de partilhar esses elementos visuais através de e-mails ou pastas partilhadas! Depois de implementados no repositório organizacional, os utilizadores na organização poderão facilmente localizá-los e importar os elementos visuais organizacionais para os respetivos relatórios diretamente a partir do Power BI Desktop ou do Serviço Power BI. Os elementos visuais organizacionais encontram-se na loja integrada (no Power BI Desktop ou no serviço Power BI) no separador *A MINHA ORGANIZAÇÃO*. Quando o administrador carrega uma nova versão de um elemento visual personalizado organizacional, todas as pessoas na organização recebem a mesma versão atualizada. Os autores do relatório não precisam de eliminar o elemento visual nos respetivos relatórios para obter a nova versão dos mesmos, pois todos os relatórios que utilizarem esses elementos visuais serão atualizados automaticamente! O mecanismo de atualização é semelhante ao dos elementos visuais do marketplace.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Se um administrador carregar um elemento visual personalizado do marketplace público para a loja da organização, este será automaticamente atualizado assim que o fornecedor atualizar o elemento visual no marketplace público?
 
 Não, não existem atualizações automáticas no marketplace público.
-O Administrador é responsável por atualizar a versão dos elementos visuais personalizados organizacionais.
+O Administrador é responsável por atualizar a versão dos elementos visuais organizacionais.
 
 ### <a name="is-there-a-way-to-disable-the-organizational-store"></a>Há alguma forma de desativar a loja organizacional?
 
-Não, os utilizadores veem sempre o separador “A MINHA ORGANIZAÇÃO” no Power BI Desktop e no serviço. O administrador pode desativar ou eliminar todos os elementos visuais personalizados organizacionais no portal de administração e a loja organizacional fica vazia.
+Não, os utilizadores veem sempre o separador “A MINHA ORGANIZAÇÃO” no Power BI Desktop e no serviço. O administrador pode desativar ou eliminar todos os elementos visuais organizacionais no portal de administração e a loja organizacional fica vazia.
   
-### <a name="if-the-administrator-disables-custom-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-custom-visuals"></a>Se o administrador desativar os elementos visuais personalizados no Portal de administração (Definições de inquilino), os utilizadores ainda terão acesso aos elementos visuais personalizados organizacionais?
+### <a name="if-the-administrator-disables-power-bi-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-visuals"></a>Se o administrador desativar os elementos visuais do Power BI no Portal de administração (Definições de inquilino), os utilizadores ainda terão acesso aos elementos visuais organizacionais?
 
-Sim, se o administrador desativar os elementos visuais personalizados no portal de administração, a loja organizacional não será afetada. Algumas organizações desativam os elementos visuais personalizados e ativam apenas os elementos visuais selecionados manualmente que foram importados e carregados pelo administrador do Power BI para a loja organizacional. No Power BI Desktop, não é imposta a desativação dos elementos visuais personalizados no Portal de administração. Os utilizadores do Power BI Desktop continuam a poder adicionar e utilizar os elementos visuais personalizados do marketplace público nos respetivos relatórios. No entanto, esses elementos visuais personalizados públicos deixam de ser compostos assim que são publicados no Serviço Power BI e emitem um erro apropriado. Quando utilizar o serviço Power BI, não poderá importar elementos visuais personalizados do marketplace público. Pode importar apenas os elementos visuais da loja organizacional porque a definição dos elementos visuais personalizados no portal de administração é imposta no serviço Power BI.
+Sim, se o administrador desativar os elementos visuais do Power BI no portal de administração, a loja organizacional não será afetada. Algumas organizações desativam os elementos visuais do Power BI e ativam apenas os elementos visuais selecionados manualmente que foram importados e carregados pelo administrador do Power BI para a loja organizacional. No Power BI Desktop, não é imposta a desativação dos elementos visuais do Power BI no Portal de administração. Os utilizadores do Power BI Desktop continuam a poder adicionar e utilizar os elementos visuais do Power BI do marketplace público nos respetivos relatórios. No entanto, esses elementos visuais do Power BI públicos deixam de ser compostos assim que são publicados no Serviço Power BI e emitem um erro apropriado. Quando utilizar o serviço Power BI, não poderá importar elementos visuais do Power BI do marketplace público. Pode importar apenas os elementos visuais da loja organizacional porque a definição dos elementos visuais do Power BI no portal de administração é imposta no serviço Power BI.
 
-### <a name="why-does-the-organizational-store-and-organizational-custom-visuals-make-a-great-enterprise-solution"></a>Porque é que a loja organizacional e os elementos visuais personalizados organizacionais são uma ótima solução empresarial?
+### <a name="why-does-the-organizational-store-and-organizational-visuals-make-a-great-enterprise-solution"></a>Porque é que a loja organizacional e os elementos visuais organizacionais são uma ótima solução empresarial?
 
 * Todos recebem a mesma versão do elemento visual, que é controlada pelo administrador do Power BI. Assim que o administrador atualiza a versão do elemento visual no portal de administração, todos os utilizadores da organização recebem automaticamente a versão atualizada.
 
 * Nunca mais terá de partilhar ficheiros de elementos visuais por e-mail ou pastas partilhadas! Um único local, visíveis para todos os membros com sessão iniciada.
 
-* Segurança e compatibilidade: as novas versões dos elementos visuais personalizados organizacionais são atualizadas automaticamente em todos os relatórios, à semelhança dos elementos visuais do marketplace.
+* Segurança e compatibilidade: as novas versões dos elementos visuais organizacionais são atualizadas automaticamente em todos os relatórios, à semelhança dos elementos visuais do marketplace.
 
-* Os utilizadores da organização que utilizam os elementos visuais personalizados organizacionais têm de ter sessão iniciada para ver e utilizar esses elementos visuais, que representam um elemento de segurança para a organização.
+* Os utilizadores da organização que utilizam os elementos visuais organizacionais têm de ter sessão iniciada para ver e utilizar esses elementos visuais, que representam um elemento de segurança para a organização.
 
-* Os administradores podem controlar quais são os elementos visuais personalizados disponíveis na organização.
+* Os administradores podem controlar quais são os elementos visuais do Power BI disponíveis na organização.
 
 * Os administradores podem ativar/desativar os elementos visuais para fins de teste no portal de administração. Esse procedimento resulta numa melhor imposição da segurança, uma vez que esses elementos visuais apenas serão disponibilizados aos membros da organização.
 
-## <a name="certified-custom-visuals"></a>Elementos visuais personalizados certificados
+## <a name="certified-power-bi-visuals"></a>Elementos visuais do Power BI certificados
 
-### <a name="what-are-certified-custom-visuals"></a>O que são os elementos visuais personalizados certificados?
+### <a name="what-are-certified-power-bi-visuals"></a>O que são elementos visuais do Power BI certificados?
 
-São elementos visuais do [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) que cumprem determinados testes e requisitos de código [especificados](power-bi-custom-visuals-certified.md) pela equipa do Power BI.  Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. Contudo, a Microsoft não é responsável pela criação dos elementos visuais personalizados de terceiros e recomenda que os clientes entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
+São elementos visuais do [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) que cumprem determinados testes e requisitos de código [especificados](power-bi-custom-visuals-certified.md) pela equipa do Power BI.  Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. Contudo, a Microsoft não é responsável pela criação dos elementos visuais do Power BI de terceiros e recomenda que os clientes entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
 
 ### <a name="what-tests-are-done-during-the-certification-process"></a>Que testes são realizados durante o processo de certificação?
 
@@ -90,11 +90,11 @@ Uma versão atualizada pode demorar até três semanas. Uma nova submissão (pri
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>O processo de Certificação garante que não ocorrem fugas de dados?
 
-Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. Contudo, a Microsoft não é responsável pela criação dos elementos visuais personalizados de terceiros e recomenda que os clientes entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
+Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. Contudo, a Microsoft não é responsável pela criação dos elementos visuais do Power BI de terceiros e recomenda que os clientes entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
  
-### <a name="are-uncertified-custom-visuals-safe-to-use"></a>É seguro utilizar elementos visuais personalizados não certificados?
+### <a name="are-uncertified-power-bi-visuals-safe-to-use"></a>É seguro utilizar elementos visuais do Power BI não certificados?
 
-Os elementos visuais personalizados não certificados não são necessariamente inseguros.
+Os elementos visuais do Power BI não certificados não são necessariamente inseguros.
 Alguns elementos visuais não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Um exemplo disto é a ligação a um serviço externo, como elementos visuais de mapa, ou elementos visuais que utilizam bibliotecas comerciais.
  
 ## <a name="visuals-with-additional-purchases"></a>Elementos visuais com possibilidade de compras adicionais
@@ -103,11 +103,11 @@ Alguns elementos visuais não estão certificados porque não cumprem um ou mais
 
 Um elemento visual com possibilidade de compras adicionais é semelhante aos suplementos com compras via aplicação (IAP) no marketplace. Estes suplementos têm uma etiqueta **Pode ser necessária uma compra adicional**.
 
-Os utilizadores podem transferir e utilizar gratuitamente estes elementos visuais personalizados de IAP a partir do marketplace. Os elementos visuais de IAP disponibilizam compras via aplicação adicionais opcionais para obter funcionalidades avançadas.  
+Os utilizadores podem transferir e utilizar gratuitamente estes elementos visuais do Power BI de IAP a partir do marketplace. Os elementos visuais de IAP disponibilizam compras via aplicação adicionais opcionais para obter funcionalidades avançadas.  
 
 ### <a name="whats-the-benefit-to-developers"></a>Quais são as vantagens para programadores?
 
-Os elementos visuais personalizados de IAP no AppSource serão detetáveis para vários visitantes diários, o que gera tráfego útil e proporciona um maior reconhecimento dos seus elementos visuais personalizados de IAP e do seu papel como programador.
+Os elementos visuais do Power BI de IAP no AppSource serão detetáveis para vários visitantes diários, o que gera tráfego útil e proporciona um maior reconhecimento dos seus elementos visuais do Power BI de IAP e do seu papel como programador.
 
 Se até recentemente geria esses elementos visuais através do seu site, agora pode submetê-los para o AppSource. Isto irá aumentar o nível de deteção e visibilidade dos elementos visuais de IAP na comunidade do Power BI.
 
@@ -115,15 +115,15 @@ Os elementos visuais no AppSource tiram partido de um canal de feedback Direto d
 
 Assim que um elemento visual de IAP for aprovado pela equipa de validação do AppSource, também poderá submetê-lo para certificação. Este é um processo opcional.  
 
-Quando um elemento visual personalizado de IAP for certificado, poderá ser exportado para o PowerPoint e apresentado nos e-mails recebidos quando um utilizador subscrever páginas de relatórios. Agora, ao submeter elementos visuais personalizados de IAP para o marketplace, os mesmos também poderão ser certificados e suportar um conjunto adicional de funcionalidades.  
+Quando um elemento visual do Power BI de IAP for certificado, poderá ser exportado para o PowerPoint e apresentado nos e-mails recebidos quando um utilizador subscrever páginas de relatórios. Agora, ao submeter elementos visuais do Power BI de IAP para o marketplace, os mesmos também poderão ser certificados e suportar um conjunto adicional de funcionalidades.  
 
 ### <a name="do-iap-visuals-need-to-be-certified"></a>Os elementos visuais de IAP precisam de ser certificados?
 
-O processo de certificação é opcional. O programador é que decide se quer certificar os respetivos elementos visuais personalizados de IAP ou os elementos visuais gratuitos.
+O processo de certificação é opcional. O programador é que decide se quer certificar os respetivos elementos visuais do Power BI de IAP ou os elementos visuais gratuitos.
 
 ### <a name="what-is-changing-in-the-submission-process"></a>O que será alterado no processo de submissão?
 
-O processo de submissão de elementos visuais personalizados de IAP e de elementos visuais gratuitos para o marketplace é o mesmo. Pode ser feito através do Dashboard de Vendedor.  A única alteração ao processo de submissão é que os programadores têm de indicar nas notas de programador no Dashboard de Vendedor o seguinte: "Elemento visual com compra na aplicação". Caso seja necessário, também terá de fornecer uma chave de licença/token para validar as funcionalidades pagas/avançadas.  
+O processo de submissão de elementos visuais do Power BI de IAP e de elementos visuais gratuitos para o marketplace é o mesmo. Pode ser feito através do Dashboard de Vendedor.  A única alteração ao processo de submissão é que os programadores têm de indicar nas notas de programador no Dashboard de Vendedor o seguinte: "Elemento visual com compra na aplicação". Caso seja necessário, também terá de fornecer uma chave de licença/token para validar as funcionalidades pagas/avançadas.  
 
 Não estará disponível nenhuma opção nova no Dashboard de Vendedor: *gratuito com compras via aplicação*. Terá de submeter os seus elementos visuais de IAP como *gratuitos*.
 
@@ -151,8 +151,8 @@ O pedido de certificação é um processo opcional. É você que decide se quer 
 
 ### <a name="how-to-get-support"></a>Como posso obter suporte?
 
-Não hesite em enviar perguntas, comentários ou comunicar problemas à equipa de suporte de elementos visuais personalizados para o endereço:  *pbicvsupport@microsoft.com*  .  
+Não hesite em enviar perguntas, comentários ou comunicar problemas à equipa de suporte de elementos visuais do Power BI para o endereço:  *pbicvsupport@microsoft.com*  .  
 
 ## <a name="next-steps"></a>Próximos passos
 
-Para obter mais informações, visite [Resolver problemas com os seus elementos visuais personalizados do Power BI](power-bi-custom-visuals-troubleshoot.md).
+Para obter mais informações, visite [Resolver problemas com os seus elementos visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).

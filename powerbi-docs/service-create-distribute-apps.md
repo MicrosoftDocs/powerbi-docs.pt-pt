@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751558"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305754"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -190,6 +190,13 @@ Esta ação desinstala a aplicação de todas as pessoas para as quais a publico
 Quando os consumidores da sua aplicação abrirem a mesma, verão o painel de navegação que criou em vez do painel de navegação esquerdo padrão do Power BI. As listas de navegação da aplicação apresentam os relatórios e dashboards nas secções que definiu. Também apresentam as páginas individuais em cada relatório em vez de apenas mostrarem o nome do relatório.
 
 ![Aplicação com navegação](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>Considerações e Limitações
+Elementos a ter em conta sobre a publicação de aplicações:
+
+* Pode ter até 100 utilizadores ou grupos na lista de acesso à aplicação. No entanto, pode permitir o acesso à aplicação a mais de 100 utilizadores. Para tal, utilize um ou mais grupos de utilizadores que contenham todos os utilizadores pretendidos.
+* Relativamente à nova experiência de área de trabalho, se o utilizador adicionado à lista de acesso à aplicação já tiver acesso à aplicação através da área de trabalho, não será apresentado na lista de acesso da aplicação.  
+
 
 ## <a name="next-steps"></a>Próximos passos
 * [Criar uma área de trabalho](service-create-workspaces.md)

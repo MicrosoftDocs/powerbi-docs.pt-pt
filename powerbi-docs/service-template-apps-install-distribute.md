@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264529"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195339"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicações de modelo na sua organização – Power BI
 
@@ -82,7 +82,7 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
    >[!NOTE]
    >Para poder instalar aplicações de modelo que não estão listadas no AppSource, tem de pedir as permissões ao seu administrador. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
-## <a name="update-and-distribute-the-app"></a>Atualizar e distribuir a aplicação
+## <a name="customize-and-publish-the-app"></a>Personalizar e publicar a aplicação
 
 Depois de atualizar a aplicação para a sua organização, estará tudo pronto para publicá-la. Os passos são os mesmos que segue para publicar outra aplicação.
 
@@ -94,7 +94,7 @@ Depois de atualizar a aplicação para a sua organização, estará tudo pronto 
 
    ![Definir a cor e descrição da aplicação](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. Em **Conteúdo**, pode selecionar uma página de destino (o dashboard ou o relatório).
+3. Em **Navegação**, pode utilizar o novo construtor de navegação para a sua aplicação, ou selecionar o dashboard ou o relatório para a página de destino. Veja [Conceber a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) para obter detalhes.
 
    ![Definir página de destino da aplicação](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ Depois de atualizar a aplicação para a sua organização, estará tudo pronto 
 
 6. Após publicar a aplicação com êxito, pode copiar a ligação e partilhá-la com as pessoas a quem concedeu acesso. Caso a tenha partilhado, essas pessoas também a verão no separador **A minha organização** no AppSource.
 
-## <a name="next-steps"></a>Próximos passos 
+## <a name="update-a-template-app"></a>Atualizar uma aplicação de modelo
+
+Os criadores de aplicações de modelo podem lançar novas versões de aplicações de modelo através do AppSource ou de uma ligação direta. Quando o fizerem, pode atualizar a aplicação de modelo ao reinstalar a aplicação com a mesma versão ou com uma versão mais recente.
+
+  >[!NOTE]
+  >Se instalar uma nova versão, todas as alterações feitas aos relatórios e dashboards serão substituídas. Para manter os seus relatórios e dashboards atualizados, pode guardá-los com um nome ou localização diferente antes da instalação.
+
+- **Substituir uma versão existente:** substitui a área de trabalho existente com a versão atualizada da aplicação de modelo.
+
+   ![Atualizar uma aplicação de modelo](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Instalar numa nova área de trabalho:** instala uma nova versão da área de trabalho e da aplicação que tem de reconfigurar
+
+### <a name="overwrite-behavior"></a>Comportamento de substituição
+
+* A substituição faz com que os relatórios, dashboards e conjuntos de dados sejam atualizados na *área de trabalho*, mas não na aplicação. A substituição não altera a navegação, configuração e permissão da aplicação.
+* Depois de atualizar a área de trabalho, tem de *atualizar a aplicação* para aplicar as alterações da área de trabalho para a aplicação da organização.
+* A substituição mantém a configuração dos parâmetros e da autenticação. Após a atualização, é iniciada uma atualização automática do conjunto de dados. Durante esse período, os relatórios, os dashboards e a aplicação da organização proporcionam a experiência de *dados de exemplo*.
+  ![Dados de exemplo](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* A substituição apresenta sempre dados de exemplo até à conclusão da atualização. Se o autor da aplicação de modelo tiver feito alterações no conjunto de dados ou nos parâmetros, os utilizadores da área de trabalho e da aplicação continuarão a ver a experiência de *dados de exemplo*.
+* A substituição nunca elimina *novos* relatórios ou dashboards que adicionou à área de trabalho. Contudo, substitui os relatórios e dashboards originais com alterações do autor original.
+
+>[!IMPORTANT]
+>Lembre-se de [atualizar a aplicação](#customize-and-publish-the-app) depois da substituição para aplicar as alterações aos relatórios e ao dashboard para os utilizadores da aplicação da organização.
+
+## <a name="next-steps"></a>Próximos passos
 
 [Criar áreas de trabalho com os seus colegas no Power BI](service-create-workspaces.md)
-
-
-
-
-
-  
-
- 

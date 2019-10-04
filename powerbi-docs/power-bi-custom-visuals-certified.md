@@ -1,47 +1,47 @@
 ---
-title: Elementos visuais personalizados do Power BI certificados
-description: Requisitos e processo de submissão de um visual personalizado para certificação. E uma lista de visuais personalizados já certificados.
-author: sranins
-ms.author: rasala
-manager: kfile
+title: Elementos visuais do Power BI certificados
+description: Requisitos e processo de submissão de um visual personalizado para certificação. E uma lista de elementos visuais do Power BI já certificados.
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d806a0ed35a6e8270a154708279faacefeb6e510
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454568"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195710"
 ---
-# <a name="certified-custom-visuals"></a>Elementos visuais personalizados certificados
+# <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
-## <a name="what-are-_certified_-custom-visuals"></a>O que são os elementos visuais personalizados **_certificados_** ?
+## <a name="what-are-_certified_-power-bi-visuals"></a>O que são elementos visuais do Power BI **_certificados_** ?
 
-Os elementos visuais personalizados certificados são os elementos visuais do **Marketplace** que cumprem determinados requisitos **de código especificados** que foram testados e aprovados pela **equipa do Microsoft Power BI**. Quando um elemento visual personalizado é certificado, oferece mais funcionalidades. Alguns exemplos são as possibilidades de [exportar para o PowerPoint](consumer/end-user-powerpoint.md) e de apresentar o elemento visual em e-mails recebidos quando um utilizador [subscreve as páginas de relatório](consumer/end-user-subscribe.md).
+Os elementos visuais do Power BI certificados são os elementos visuais do **Marketplace** que cumprem determinados requisitos **de código especificados** que foram testados e aprovados pela **equipa do Microsoft Power BI**. Quando um elemento visual personalizado é certificado, oferece mais funcionalidades. Alguns exemplos são as possibilidades de [exportar para o PowerPoint](consumer/end-user-powerpoint.md) e de apresentar o elemento visual em e-mails recebidos quando um utilizador [subscreve as páginas de relatório](consumer/end-user-subscribe.md).
 
-Os **elementos visuais personalizados certificados** são utilizados como os [elementos visuais personalizados padrão](power-bi-custom-visuals.md). Os elementos visuais personalizados certificados podem ser adicionados ao **serviço Power BI** e a um **relatório do Power BI Desktop**, e visualizados com o **Power BI mobile** e o **Power BI Embedded**.
+Os **elementos visuais do Power BI certificados** são utilizados como os [elementos visuais do Power BI padrão](power-bi-custom-visuals.md). Os elementos visuais do Power BI certificados podem ser adicionados ao **serviço Power BI** e a um **relatório do Power BI Desktop**, e visualizados com o **Power BI Mobile** e o **Power BI Embedded**.
 
-Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. A **Microsoft** *não* é responsável pela criação dos elementos visuais de terceiros e recomenda aos clientes que entrem diretamente em contacto com o criador para verificar a funcionalidade desses elementos visuais.
+Os testes realizados são concebidos para verificar que o elemento visual não acede a serviços ou recursos externos. A **Microsoft** *não* é responsável pela criação dos elementos visuais do Power BI de terceiros e recomenda aos clientes que entrem diretamente em contacto com o autor para verificar a funcionalidade desses elementos visuais.
 
 O processo de certificação é opcional e cabe aos programadores decidir se querem a certificação do seu elemento visual no marketplace.  
 
-Os **elementos visuais personalizados não certificados** não são necessariamente inseguros. Alguns elementos visuais não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Um exemplo disto é a ligação a um serviço externo, como elementos visuais de mapa, ou elementos visuais que utilizam bibliotecas comerciais.
+Os **elementos visuais do Power BI não certificados** não são necessariamente inseguros. Alguns elementos visuais não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Um exemplo disto é a ligação a um serviço externo, como elementos visuais de mapa, ou elementos visuais que utilizam bibliotecas comerciais.
 
 É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Veja  **[Develop a Power BI custom visual](developer/custom-visual-develop-tutorial.md)** (Desenvolver um elemento visual personalizado do Power BI) para saber como o pode fazer.
 
-## <a name="removal-of-power-bi-certified-custom-visuals"></a>Remoção dos visuais personalizados Certificados do Power BI
+## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Remoção dos elementos visuais do Power BI Certificados
 
-A Microsoft pode remover um elemento visual da [lista de certificados](#list-of-custom-visuals-that-have-been-certified) a seu critério exclusivo.
+A Microsoft pode remover um elemento visual da [lista de certificados](#list-of-power-bi-visuals-that-have-been-certified) a seu critério exclusivo.
 
 ## <a name="getting-a-custom-visualcertified"></a>Certificar um elemento visual personalizado
 
 ### <a name="certification-requirements"></a>Requisitos de certificação
 
-Para [certificar](#certified-custom-visuals) o seu elemento visual personalizado, certifique-se de que este cumpre os requisitos apresentados abaixo:  
+Para [certificar](#get-a-power-bi-visual-certified) o seu elemento visual personalizado, certifique-se de que este cumpre os requisitos apresentados abaixo:  
 
 * Aprovação pelo Microsoft AppSource. O seu elemento visual personalizado deve estar no nosso [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 * O elemento visual personalizado é escrito com a **API com versão 2.5** ou superior.
@@ -84,15 +84,15 @@ Para [certificar](#certified-custom-visuals) o seu elemento visual personalizado
 
 Para enviar um visual personalizado para certificação:
 
-1. Envie um e-mail para a Equipa de Suporte dos Elementos Visuais Personalizados do Power BI (pbicvsupport@microsoft.com). No e-mail, inclua as seguintes informações:
+1. Envie um e-mail para a equipa de suporte para elementos visuais do Power BI (pbicvsupport@microsoft.com). No e-mail, inclua as seguintes informações:
     * Título: Pedido de Certificação de Elemento Visual
     * Forneça uma ligação para o repositório do GitHub em que está alojado o código-fonte legível por humanos
     * [Cumprir os requisitos](#certification-requirements)
     * Passar na análise de código
 
-2. A equipa de Elementos Visuais Personalizados da Microsoft irá enviar-lhe uma notificação a informar que o seu elemento visual personalizado foi certificado e adicionado à [lista de elementos certificados](#list-of-custom-visuals-that-have-been-certified) ou que foi rejeitado. No segundo caso, será enviado um relatório dos problemas a corrigir. O programador é responsável por manter a comunicação aberta com a Microsoft e atualizar os seus elementos visuais certificados consoante necessário.
+2. A equipa de elementos visuais do Power BI da Microsoft irá enviar-lhe uma notificação a informar que o seu elemento visual personalizado foi certificado e adicionado à [lista de elementos visuais certificados](#list-of-power-bi-visuals-that-have-been-certified) ou que foi rejeitado. No segundo caso, será enviado um relatório dos problemas a corrigir. O programador é responsável por manter a comunicação aberta com a Microsoft e atualizar os seus elementos visuais certificados consoante necessário.
 
-## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lista de visuais personalizados que foram certificados
+## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>Lista de elementos visuais do Power BI que foram certificados
 
 | Ligação para o AppSource | Ligação para o vídeo |
 | --- | --- |
@@ -192,7 +192,7 @@ Para enviar um visual personalizado para certificação:
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas frequentes sobre os elementos visuais certificados](power-bi-custom-visuals-faq.md#certified-custom-visuals).
+Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas frequentes sobre os elementos visuais certificados](#get-a-power-bi-visual-certified).
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -200,6 +200,6 @@ Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas
 * [Lista de reprodução visual personalizada da Microsoft no YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualizações no Power BI](visuals/power-bi-report-visualizations.md)  
 * [Visualizações Personalizadas no Power BI](power-bi-custom-visuals.md)  
-* [Publicar visuais personalizados no Microsoft AppSource](developer/office-store.md)  
+* [Publicar elementos visuais do Power BI no Microsoft AppSource](developer/office-store.md)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

@@ -11,27 +11,27 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b61705051dfaba4eb2f8192daf170d5fb60bffd0
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141656"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256375"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Marcar dashboards, relatórios e aplicações como favoritos no serviço Power BI
-Ao tornar um conteúdo *favorito*, poderá aceder ao mesmo rapidamente na lista de conteúdos **Favoritos** e na **Home Page do Power BI** > **Favoritos + frequentes**.  Os favoritos são conteúdos aos quais acede com mais frequência e são identificados com uma estrela amarela.
+Ao marcar um conteúdo como *favorito*, poderá aceder ao mesmo rapidamente na lista de conteúdos **Favoritos** e na **Home Page do Power BI** > **Favoritos + Frequentes**. Os favoritos são conteúdos aos quais acede com mais frequência e são identificados com uma estrela amarela.
 
-   ![ícone Favorito](./media/end-user-favorite/power-bi-favorite-nav.png)
+   ![Ícone Favoritos](./media/end-user-favorite/power-bi-favorite-nav.png)
 
-   ![ícone Favorito](./media/end-user-favorite/power-bi-home.png)
+   ![Ícone Favoritos + Frequentes](./media/end-user-favorite/power-bi-home.png)
 
-Também pode selecionar um único dashboard como um [dashboard em destaque](end-user-featured.md) no serviço Power BI.
+Também pode selecionar um único dashboard como um [Dashboard em destaque](end-user-featured.md) no serviço Power BI.
 
-## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Adicionar um dashboard ou relatório como *favorito*
+## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Adicionar um dashboard ou relatório como favorito
 
-1. Abra um dashboard ou relatório que utiliza frequentemente. Até os conteúdos que foram partilhados consigo podem ser marcados como *favoritos*.
+1. Abra um dashboard ou relatório que utiliza frequentemente. Até os conteúdos que foram partilhados consigo podem ser marcados como favoritos.
 
-2. Na barra de menus superior do serviço Power BI, selecione **Favorito** ou o ícone de estrela ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png).
+2. Na barra de menus superior do serviço Power BI, selecione **Favorito** ou o ícone de estrela ![Ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png).
    
    ![ícone Favorito](./media/end-user-favorite/power-bi-favorite.png)
    
@@ -39,28 +39,28 @@ Também pode selecionar um único dashboard como um [dashboard em destaque](end-
    
    ![Separador Dashboard com estrela amarela](./media/end-user-favorite/power-bi-recent.png)
 
-## <a name="add-an-app-as-a-favorite"></a>Adicionar uma aplicação como *favorita*
+## <a name="add-an-app-as-a-favorite"></a>Adicionar uma aplicação como favorita
 
 1. No painel de navegação, selecione **Aplicações**.
 
-   ![dashboard](./media/end-user-favorite/power-bi-app.png)
+   ![Dashboard](./media/end-user-favorite/power-bi-app.png)
 
-2. Paire o rato sobre uma aplicação para apresentar mais detalhes.  Selecione o ícone de estrela ![ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png)  para definir como favorito.
+2. Paire o rato sobre uma aplicação para apresentar mais detalhes. Selecione o ícone de estrela ![Ícone de estrela](./media/end-user-favorite/power-bi-favorite-icon.png) para definir como favorito.
    
-   ![pairar o cursor sobre uma aplicação](./media/end-user-favorite/power-bi-hover-app.png)
+   ![Pairar o cursor sobre uma aplicação](./media/end-user-favorite/power-bi-hover-app.png)
 
-## <a name="working-with-favorites"></a>Trabalhar com *favoritos*
-1. Para aceder aos favoritos, selecione a seta de lista de opções à direita de **Favoritos**.  Aqui pode selecionar um item favorito para o abrir. São listados até cinco favoritos (por ordem alfabética). Se tiver mais de cinco, selecione **Ver tudo** para abrir a lista de conteúdos favoritos (ver o passo 2, abaixo). 
+## <a name="work-with-favorites"></a>Trabalhar com favoritos
+1. Para aceder aos favoritos, selecione a seta de lista de opções à direita de **Favoritos**. A partir daí, pode selecionar um favorito para o abrir. São listados até cinco favoritos por ordem alfabética. Se tiver mais de cinco, selecione **Ver tudo** para abrir a lista de conteúdos favoritos. 
    
    ![Lista de opções Favoritos](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. Para ver **todos** os conteúdos adicionados aos favoritos, no painel de navegação esquerdo selecione **Favoritos** ou o ícone Favoritos ![ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png).  
+2. Para ver todos os conteúdos que adicionou como favoritos, no painel de navegação, selecione **Favoritos** ou o ícone de Favoritos ![Ícone de estrela](./media/end-user-favorite/power-bi-favorites-icon.png). 
    
-    ![janela favoritos](./media/end-user-favorite/power-bi-fav-screen.png)
+    ![Janela de favoritos](./media/end-user-favorite/power-bi-fav-screen.png)
    
-   Aqui pode realizar várias ações: abrir, identificar os proprietários e até partilhar com os seus colegas.
+   A partir daí, pode realizar outras ações. Pode abrir um favorito, identificar os proprietários e até partilhar favoritos com os seus colegas.
 
 ## <a name="unfavorite-content"></a>Remover conteúdos dos favoritos
-Já não precisa de utilizar um relatório com tanta frequência?  Pode anulá-lo como favorito. Ao remover conteúdos dos favoritos, estes são removidos da sua lista Favoritos, mas não do Power BI.
+Se já não utilizar um relatório tanto como antes, pode removê-lo dos favoritos. Quando remove conteúdos dos favoritos, estes são removidos da lista Favoritos, mas não do Power BI.
 
 1. No painel de navegação esquerdo, selecione **Favoritos** para abrir o ecrã **Favoritos**.
    
@@ -68,14 +68,13 @@ Já não precisa de utilizar um relatório com tanta frequência?  Pode anulá-l
 2. Selecione a estrela amarela junto aos conteúdos que pretende remover dos favoritos.
 
 > [!NOTE]
-> também pode remover um dashboard, relatório ou até uma aplicação dos favoritos. Basta abrir e desselecionar o ícone amarelo.   
+> Também pode anular o favorito de um dashboard, relatório ou aplicação. Basta abrir e desselecionar o ícone amarelo. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-Atualmente, ao tornar uma aplicação favorita, todos os relatórios e dashboards dessa aplicação tornam-se automaticamente favoritos. Não é possível marcar os relatórios ou dashboards individuais de uma aplicação como favoritos. 
+Atualmente, ao tornar uma aplicação favorita, todos os relatórios e dashboards dessa aplicação tornam-se automaticamente favoritos. Não é possível marcar dashboards ou relatórios de aplicações individuais como favoritos. 
 
 ## <a name="next-steps"></a>Próximos passos
-[Power BI - Conceitos Básicos](end-user-basic-concepts.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+- [Power BI: conceitos básicos](end-user-basic-concepts.md)
+- Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
 

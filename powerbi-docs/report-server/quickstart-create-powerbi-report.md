@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187491"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325649"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Criar um relatório do Power BI para o Power BI Report Server
 Pode armazenar e gerir relatórios do Power BI no local no portal Web do Power BI Report Server, tal como pode armazenar relatórios do Power BI na cloud no serviço Power BI (https://powerbi.com). Pode criar e editar relatórios no Power BI Desktop e publicá-los no portal Web. Depois, os leitores de relatórios na sua organização podem visualizá-los num browser ou numa aplicação móvel do Power BI, num dispositivo móvel.
@@ -31,7 +31,7 @@ Se já criou relatórios do Power BI no Power BI Desktop, está quase pronto par
 
     ![Transferir o Power BI Desktop a partir do portal Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Ou aceda diretamente à [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (otimizado para o Power BI Report Server – Maio de 2019) no Microsoft Download Center.
+    Em alternativa, aceda à home page do [Power BI Report Server](https://powerbi.microsoft.com/report-server/) e selecione **Opções de transferência avançadas**.
 
 2. Na página do Centro de Transferências, selecione **Transferir**.
 
@@ -41,13 +41,13 @@ Se já criou relatórios do Power BI no Power BI Desktop, está quase pronto par
 
     - **PBIDesktopRS_x64.msi** (a versão de 64 bits).
 
-4. Depois de transferir o instalador, execute o Assistente de configuração do Power BI Desktop (Maio de 2019).
+4. Após transferir o instalador, execute o Assistente de Configuração do Power BI Desktop (setembro de 2019).
 
 2. No final da instalação, selecione a opção **Iniciar o Power BI Desktop agora**.
    
-    Este inicia automaticamente e está pronto para começar. Pode dizer que tem a versão correta "Power BI Desktop (Maio de 2019)" na barra de título.
+    Este inicia automaticamente e está pronto para começar. O texto **Power BI Desktop (setembro de 2019)** na barra de título indica que tem a versão correta.
 
-    ![Power BI Desktop versão de Maio de 2019](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop (setembro de 2019)](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. Se não estiver familiarizado com o Power BI Desktop, considere ver os vídeos no ecrã de boas-vindas.
    
@@ -61,7 +61,7 @@ Pode ligar a diversas origens de dados. Saiba mais sobre [ligar a origens de dad
     Em alternativa, no separador **Base**, selecione **Obter Dados**.
 2. Selecione a sua origem de dados. Neste exemplo, **Analysis Services**.
    
-    ![Selecionar origem de dados](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![Selecionar origem de dados](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. Preencha **Servidor** e, opcionalmente, **Base de Dados**. Certifique-se de que **Ligar em direto** está selecionado > **OK**.
    
     ![Nome do servidor](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

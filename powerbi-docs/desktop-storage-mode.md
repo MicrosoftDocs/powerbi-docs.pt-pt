@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841302"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327704"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de armazenamento no Power BI Desktop
 
 No Microsoft Power BI Desktop, pode especificar o *modo de armazenamento* das tabelas. O *Modo de armazenamento* permite-lhe controlar se o Power BI Desktop coloca em cache os dados das tabelas na memória para os relatórios. 
 
-![Modo de armazenamento no Power BI Desktop](media/desktop-storage-mode/storage-mode_01.png)
+![Modo de armazenamento no Power BI Desktop](media/desktop-storage-mode/storage-mode-01.png)
 
 A definição do modo de armazenamento oferece muitas vantagens. Pode definir o modo de armazenamento para cada tabela individualmente no seu modelo. Esta ação ativa um único conjunto de dados, o que proporciona os seguintes benefícios:
 
@@ -48,13 +48,10 @@ A definição do modo de armazenamento no Power BI Desktop é uma das três fun
 
 ## <a name="use-the-storage-mode-property"></a>Utilizar a propriedade do modo de armazenamento
 
-O modo de armazenamento é uma propriedade que pode ser definida em cada tabela no modelo. Para definir o modo de armazenamento, no painel **Campos**, clique com o botão direito do rato na tabela cujas propriedades pretende definir e, em seguida, selecione **Propriedades**.
+O modo de armazenamento é uma propriedade que pode ser definida em cada tabela no modelo. Para definir o modo de armazenamento ou ver a definição atual, na vista de **Modelo**, selecione a tabela cujas propriedades pretende ver ou definir e, em seguida, selecione o painel **Propriedades** e expanda a secção **Avançado**. Em seguida, expanda o menu pendente **Modo de armazenamento**.
 
-![Comando Propriedades no menu de contexto](media/desktop-storage-mode/storage-mode_02.png)
+![Comando Propriedades no menu de contexto](media/desktop-storage-mode/storage-mode-02.png)
 
-A propriedade atual é apresentada na lista pendente do **Modo de armazenamento** no painel **Propriedades de campo** da tabela. Nesse painel, pode visualizar o modo de armazenamento atual ou modificá-lo.
-
-![Definir o modo de armazenamento de uma tabela](media/desktop-storage-mode/storage-mode_03.png)
 
 Há três valores para o modo de armazenamento:
 
@@ -77,11 +74,11 @@ As tabelas Dual têm as mesmas restrições funcionais que as tabelas DirectQuer
 ## <a name="propagation-of-dual"></a>Propagação da Dual
 Considere o seguinte modelo simples, em que todas as tabelas têm uma origem única que suporta a Importação e o DirectQuery.
 
-![Vista de relação de exemplo do modo de armazenamento](media/desktop-storage-mode/storage-mode_04.png)
+![Vista de relação de exemplo do modo de armazenamento](media/desktop-storage-mode/storage-mode-04.png)
 
 Digamos que à partida todas as tabelas neste modelo são DirectQuery. Se, em seguida, alterarmos o **modo de armazenamento** da tabela *SurveyResponse* para Importação, será mostrada a seguinte janela de aviso:
 
-![Janela de aviso do modo de armazenamento](media/desktop-storage-mode/storage-mode_05.png)
+![Janela de aviso do modo de armazenamento](media/desktop-storage-mode/storage-mode-05.png)
 
 As tabelas de dimensão (*Cliente*, *Geografia* e *Data*) podem ser definidas como **Dual** para reduzir o número de relações fracas no conjunto de dados e para melhorar o desempenho. As relações fracas normalmente envolvem pelo menos uma tabela do DirectQuery em que a lógica de associação não pode ser emitida para os sistemas de origem. O facto de as tabelas **Dual** poderem atuar como DirectQuery ou Importação ajuda a evitar esta situação.
 
@@ -123,15 +120,15 @@ As consultas que fazem referência a tabelas de modo **Dual** devolvem dados da 
 
 Continuando o exemplo anterior, a seguinte consulta refere-se apenas a uma coluna da tabela *Data*, que está no modo **Dual**. Como tal, a consulta deve acertar na cache.
 
-![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_06.png)
+![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-06.png)
 
 A seguinte consulta refere-se apenas a uma coluna da tabela *Vendas*, que está no modo **DirectQuery**. Por isso, a mesma *não* deve acertar na cache.
 
-![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_07.png)
+![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-07.png)
 
 A seguinte consulta é interessante porque combina as duas colunas. Esta consulta não acerca na cache. No início, pode esperar obter os valores *CalendarYear* da cache e os valores *SalesAmount* da origem e, em seguida, combinar os resultados, mas esta abordagem seria menos eficaz do que a operação SUM/GROUP BY para o sistema de origem. Se a operação estiver a ser enviada para a origem, o número de linhas devolvidas provavelmente será muito menor. 
 
-![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode_08.png)
+![Script do diagnóstico do modo de armazenamento](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Este comportamento é diferente das [relações muitos para muitos no Power BI Desktop](desktop-many-to-many-relationships.md) ao combinar tabelas em cache e tabelas que não estão em cache.
@@ -145,7 +142,7 @@ O modo de armazenamento *Dual* é uma otimização de desempenho. Só deverá se
 ## <a name="data-view"></a>Vista de dados
 Se, pelo menos, uma tabela no conjunto de dados tiver o seu modo de armazenamento definido como **Importação** ou **Dual**, será apresentado o separador **Vista de dados**.
 
-![Vista de dados no Power BI Desktop](media/desktop-storage-mode/storage-mode_09.png)
+![Vista de dados no Power BI Desktop](media/desktop-storage-mode/storage-mode-03.png)
 
 Quando selecionadas na **Vista de dados**, as tabelas **Dual** e **Importação** apresentam os dados em cache. As tabelas DirectQuery não mostram dados e é apresentada uma mensagem que diz que as tabelas DirectQuery não podem ser apresentadas.
 

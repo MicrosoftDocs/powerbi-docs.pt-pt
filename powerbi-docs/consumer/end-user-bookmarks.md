@@ -3,20 +3,18 @@ title: Descrição geral dos marcadores nos relatórios do serviço Power BI
 description: Tópico de descrição geral de documentação para perguntas e respostas sobre linguagem natural em consultas do Power BI.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2019
+ms.date: 09/22/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
+ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608315"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71207603"
 ---
 # <a name="what-are-bookmarks"></a>O que são marcadores?
 Os marcadores capturam a vista atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos elementos visuais. Ao selecionar um marcador, o Power BI permite-lhe voltar a essa vista. Existem dois tipos de marcadores: os criados por si e os criados por *designers* de relatórios.
@@ -26,15 +24,15 @@ Os marcadores podem ser utilizados de várias formas. Suponhamos que descobre in
 
 Também pode criar uma coleção de marcadores, dispô-los pela ordem que quiser e, posteriormente, seguir cada marcador numa apresentação para realçar uma série de informações que contam uma história.  
 
-![Mostrar o Painel de Marcadores ao selecioná-lo no friso.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![Mostrar o Painel de Marcadores ao selecioná-lo no friso.](media/end-user-bookmarks/power-bi-select-bookmark.png)
 
-## <a name="using-bookmarks"></a>Utilizar marcadores
-Para abrir o painel Marcadores, selecione **Marcadores** na barra de menus. Para regressar à vista publicada original do relatório, selecione **Repor para predefinição**.
+## <a name="open-bookmarks"></a>Abrir marcadores
+Para abrir o painel Marcadores, selecione **Marcadores** > **Mostrar mais marcadores** na barra de menus. Para regressar à vista publicada original do relatório, selecione **Repor para predefinição**.
 
 ### <a name="report-bookmarks"></a>Marcadores de relatório
-Se o *designer* de relatórios tiver incluído marcadores de relatório, irá encontrá-los no título **Marcadores de relatório**. 
+Se o *designer* de relatórios tiver incluído marcadores de relatório, irá encontrá-los no título **Marcadores de relatório**. Esta página de relatórios tem dois marcadores, B1 e B2. 
 
-![Mostrar Marcadores de relatório.](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![Mostrar Marcadores de relatório.](media/end-user-bookmarks/power-bi-report.png)
 
 Selecione um marcador para mudar para essa vista de relatório. 
 
@@ -55,13 +53,13 @@ Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 
 Configure uma página de relatório conforme quiser que apareça no marcador. Depois da página de relatório e dos elementos visuais serem dispostos como pretende, selecione **Adicionar** no painel **Marcadores** para adicionar um marcador. Neste exemplo, adicionámos alguns filtros para a região e a data. 
 
-![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-add-personal.png)
+![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
 
-O **Power BI** cria um marcador e atribui-lhe um nome genérico ou um nome que introduzir. Pode *mudar o nome*, *eliminar* ou *atualizar* um marcador ao selecionar as reticências junto ao nome do mesmo e, em seguida, ao selecionar uma ação no menu apresentado.
+O **Power BI** cria um marcador pessoal e atribui-lhe um nome genérico ou um nome que introduzir. Pode *mudar o nome*, *eliminar* ou *atualizar* o seu marcador ao selecionar as reticências junto ao nome do mesmo e, em seguida, ao selecionar uma ação no menu apresentado.
 
 Depois de ter um marcador, pode visualizar o mesmo ao selecioná-lo simplesmente no painel **Marcadores**. 
 
-![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![Adicionar Marcadores pessoais.](media/end-user-bookmarks/power-bi-bookmark-west.png)
 
 
 <!--
@@ -81,11 +79,11 @@ Para apresentar ou ver marcadores, por ordem, selecione **Visualização** no pa
 
 Quando estiver no modo **Visualização**, existem alguns aspetos a ter em consideração:
 
-1. O nome do marcador é apresentado na barra de título, que aparece na parte inferior da tela.
-2. A barra de título do marcador tem setas que lhe permitem mover para o marcador anterior ou seguinte.
-3. Pode sair do modo **Visualização** ao selecionar **Sair** no painel **Marcadores** ou ao selecionar o **X** localizado na barra de título do marcador. 
+- O nome do marcador é apresentado na barra de título, que aparece na parte inferior da tela.
+- A barra de título do marcador tem setas que lhe permitem mover para o marcador anterior ou seguinte.
+- Pode sair do modo **Visualização** ao selecionar **Sair** no painel **Marcadores** ou ao selecionar o **X** localizado na barra de título do marcador.
 
-![Apresentação de diapositivos de marcadores](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![Apresentação de diapositivos de marcadores](media/end-user-bookmarks/power-bi-slideshow.png)
 
 Quando estiver no **Visualização**, pode fechar o painel **Marcadores** (ao clicar no X nesse painel) para dar mais espaço à sua apresentação. No modo **Visualização**, todos os elementos visuais são interativos e estão disponíveis para realce cruzado, tal como acontece quando interage com eles. 
 
@@ -154,7 +152,6 @@ Nesta versão dos **marcadores**, existem algumas limitações e considerações
 
 * A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
 * Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este será apresentado no estado predefinido. Isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
-* O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
 * Em geral, os seus marcadores não serão afetados se o *designer* de relatórios atualizar ou republicar o relatório. No entanto, se o designer fizer alterações significativas ao relatório, como remover campos utilizados por um marcador, será apresentada uma mensagem de erro na próxima vez que tentar abrir esse marcador. 
 
 <!--

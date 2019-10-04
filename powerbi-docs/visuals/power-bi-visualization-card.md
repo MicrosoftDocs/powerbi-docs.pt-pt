@@ -10,102 +10,92 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b3b773d7c28cb4528edb59a92e07874b53fc9c20
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839945"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195629"
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Por vezes, um único número é a coisa mais importante que pretende controlar no seu dashboard ou relatório do Power BI, como as vendas totais, a quota de mercado ano após ano ou o total de oportunidades. Este tipo de visualização é denominado um *Cartão*. Tal como acontece com quase todas as visualizações nativas do Power BI, os Cartões podem ser criados com o editor de relatórios ou as Perguntas e Respostas.
 
 ![visualização de cartão](media/power-bi-visualization-card/pbi-opptuntiescard.png)
 
-## <a name="create-a-card-using-the-report-editor"></a>Criar um cartão com o editor de relatórios
-Estas instruções utilizam o Exemplo de Análise de Retalho. Para acompanhar, [transfira o exemplo](../sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou o Power BI Desktop.   
+## <a name="prerequisite"></a>Pré-requisito
 
-1. Comece numa página de relatório em branco e selecione o campo **Arquivo** \> **Contagem de arquivos abertos**. Se estiver a utilizar o serviço do Power BI, terá de abrir o relatório na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
+Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** \> **Abrir**.
+   
+2. Encontre a sua cópia do **ficheiro PBIX de Exemplo de Análise de Revenda**.
+
+1. Abra o **Ficheiro PBIX de Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã do ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
+## <a name="option-1-create-a-card-using-the-report-editor"></a>Opção 1: Criar um cartão com o editor de relatórios
+
+O primeiro método para criar um cartão é utilizar o editor de relatórios no Power BI Desktop.
+
+1. Comece numa página de relatório em branco e selecione o campo **Arquivo** \> **Contagem de arquivos abertos**.
 
     O Power BI cria um gráfico de colunas com um número.
 
-   ![](media/power-bi-visualization-card/pbi-rptnumbertilechart.png)
-2. No painel de Visualizações, selecione o ícone de Cartão.
+   ![gráfico de mosaico com número de exemplo](media/power-bi-visualization-card/pbi-overview-chart.png)
 
-   ![](media/power-bi-visualization-card/power-bi-templates.png)
-6. Passe o cursor sobre um cartão e selecione o ícone de afixar ![](media/power-bi-visualization-card/pbi-pintile.png) para adicionar a visualização a um dashboard.
+2. No painel Visualizações, selecione o ícone de cartão.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
-7. Afixe o mosaico num dashboard existente ou num novo dashboard.
+   ![cartão de título com número de exemplo](media/power-bi-visualization-card/power-bi-card-visualization.png)
 
-   * Dashboard existente: selecione o nome do dashboard na lista pendente.
-   * Novo dashboard: escreva o nome do novo dashboard.
-8. Selecione **Afixar**.
+Acabou de criar com êxito um cartão com o editor de relatórios. Segue abaixo a segunda opção para criar um cartão com a caixa de Perguntas e Respostas.
 
-   Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.
+## <a name="option-2-create-a-card-from-the-qa-question-box"></a>Opção 2: Criar um cartão a partir da caixa de Perguntas e Respostas
+A caixa de Perguntas e Respostas constitui outra opção para criar um cartão. Esta caixa está disponível na vista de relatório do Power BI Desktop.
 
-   ![](media/power-bi-visualization-card/power-bi-success2.png)
-9. Selecione **Ir para o dashboard**. Aqui, pode [editar e mover](../service-dashboard-edit-tile.md) a visualização afixada.
+1. Começar numa página de relatório em branco
 
+1. Na parte superior da janela, selecione o ícone **Faça uma Pergunta**. 
 
-## <a name="create-a-card-from-the-qa-question-box"></a>Criar um cartão a partir da caixa de Perguntas e Respostas
-A caixa de Perguntas e Respostas é a forma mais fácil de criar um Cartão. A caixa de Perguntas e Respostas está disponível no serviço Power BI (app.powerbi.com) de um dashboard ou na vista de relatório do Desktop. Os passos abaixo descrevem a criação de um Cartão a partir de um dashboard do serviço do Power BI. Se quiser criar um cartão com as Perguntas e Respostas no Power BI Desktop, [siga estas instruções](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) sobre como utilizar as Perguntas e Respostas para relatórios do Power BI Desktop.
+    O Power BI criará um cartão e uma caixa para a sua pergunta. 
 
-Este exemplo utiliza o [Exemplo de Análise de Oportunidade](../sample-opportunity-analysis.md).
+   ![localização do ícone faça uma pergunta](media/power-bi-visualization-card/power-bi-q-and-a-overview.png)
 
-1. Na parte superior do dashboard, comece a escrever o que deseja saber sobre os dados na caixa de perguntas. 
+2. Por exemplo, escreva "Total Sales for Tina" (Total de Vendas de Tina) na caixa de perguntas.
 
-   ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
+    A caixa de perguntas ajuda-o com sugestões e reformulações e, finalmente, apresenta o número total.  
 
-> [!TIP]
-> A partir de um relatório de serviço do Power BI, em Editar vista, selecione **Fazer uma pergunta** na barra de menu superior. A partir de um relatório do Power BI Desktop, encontre algum espaço livre num relatório e clique duas vezes para abrir uma caixa de perguntas.
+   ![exemplo de caixa de perguntas](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
-2. Por exemplo, escreva "número de oportunidades" na caixa de perguntas.
+   ![exemplo de cartão do método de pergunta](media/power-bi-visualization-card/power-bi-q-and-a-card.png)
 
-   ![](media/power-bi-visualization-card/power-bi-q-and-a.png)
-
-   A caixa de perguntas ajuda-o com sugestões e reformulações e, finalmente, apresenta o número total.  
-4. Selecione o ícone de afixar ![](media/power-bi-visualization-card/pbi-pintile.png) no canto superior direito para adicionar o cartão a um dashboard.
-
-   ![](media/power-bi-visualization-card/power-bi-pin.png)
-5. Afixe o cartão, como um mosaico, num dashboard existente ou num novo dashboard.
-
-   * Dashboard existente: selecione o nome do dashboard a partir da lista pendente. As suas opções estão limitadas apenas a estes dashboards na área de trabalho atual.
-   * Novo dashboard: escreva o nome do novo dashboard e este será adicionado à sua área de trabalho atual.
-6. Selecione **Afixar**.
-
-   Uma mensagem de Êxito (junto ao canto superior direito) informa que a visualização foi adicionada, como um mosaico, ao dashboard.  
-
-   ![](media/power-bi-visualization-card/power-bi-success2.png)
-7. Selecione **Ir para o dashboard** para ver o novo mosaico. Aqui, pode [mudar o nome, redimensionar, adicionar uma hiperligação, reposicionar o mosaico e muito mais](../service-dashboard-edit-tile.md) no seu dashboard.
-
-   ![](media/power-bi-visualization-card/power-bi-pinned-2.png)
-
-
-
+Concluiu a criação com êxito de um cartão com a caixa de Perguntas e Respostas. Seguem-se abaixo os passos para formatar o seu cartão de acordo com as suas necessidades específicas.
 
 ## <a name="format-a-card"></a>Formatar um cartão
 Tem várias opções para alterar etiquetas, texto, cor e muito mais. A melhor forma de aprender é criar um cartão e, em seguida, explorar o Painel de formatação. Seguem-se algumas das opções de formatação disponíveis. 
 
-O painel Formatação está disponível ao interagir com o cartão num relatório. Se fizer alterações a um cartão num relatório, volte a afixá-lo para ver essas alterações no seu dashboard. 
+O painel Formatação está disponível ao interagir com o cartão num relatório. 
 
 1. Comece por selecionar o ícone de rolo de pintura para abrir o painel Formatação. 
 
     ![cartão com o ícone de rolo de pintura realçado com contorno](media/power-bi-visualization-card/power-bi-format-card-2.png)
+
 2. Com o cartão selecionado, expanda **Etiqueta de dados** e altere a cor, o tamanho e a família do tipo de letra. Se tiver milhares de arquivos, pode utilizar **Mostrar unidades** para mostrar o número de arquivos por milhares e controlar as casas decimais. Por exemplo, 125,8 mil em vez de 125 832,00.
+
+    ![exemplo de formato de cartão com dados](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
 3.  Expanda **Etiqueta de categoria** e altere a cor e o tamanho.
 
-    ![cor azul escuro selecionada](media/power-bi-visualization-card/power-bi-card-format-2.png)
+    ![exemplo de cartão com categoria](media/power-bi-visualization-card/power-bi-card-format-category.png)
 
 4. Expanda **Fundo** e mova o controlo de deslize para Ativo.  Agora, pode alterar a cor de fundo e a transparência.
 
     ![controlo de deslize definido como LIGADO](media/power-bi-visualization-card/power-bi-format-color-2.png)
 
 5. Continue a explorar as opções de formatação até que o cartão esteja exatamente como gostaria. 
-
-    ![Cartão após conclusão de toda a formatação](media/power-bi-visualization-card/power-bi-formatted-2.png)
-
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 Se não vir uma caixa de perguntas, contacte o administrador do sistema ou inquilino.    

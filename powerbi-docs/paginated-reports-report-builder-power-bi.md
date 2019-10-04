@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985721"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305689"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
@@ -36,14 +36,13 @@ Os relatórios paginados têm a sua própria ferramenta de criação, o Report B
 
 Um único relatório paginado pode ter uma série de origens de dados diferentes, não tem um modelo de dados subjacente, ao contrário dos relatórios do Power BI. Para a versão inicial dos relatórios paginados no serviço Power BI, irá criar origens de dados e conjuntos de dados incorporados no relatório propriamente dito. Por agora, não pode utilizar conjuntos de dados partilhados ou origens de dados partilhadas. Vai criar os relatórios no Report Builder no computador local. Se um relatório ligar a dados no local, depois de carregar o relatório no serviço Power BI, terá de criar um gateway e redirecionar a ligação de dados. Eis as origens de dados às quais pode ligar-se atualmente:
 
-- Base de Dados SQL do Azure e Azure SQL Data Warehouse
+- Base de Dados SQL do Azure e Azure SQL Data Warehouse (via Básico e oAuth)
 - Azure Analysis Services (através do SSO)
 - SQL Server através de um gateway
 - SQL Server Analysis Services através de um gateway
-- Conjuntos de Dados do Power BI Premium
+- Conjuntos de dados do Power BI
 - Oracle
 - Teradata
-- Mais origens à medida que forem adicionadas
 
 ## <a name="design-your-report"></a>Criar o relatório  
 
@@ -79,10 +78,10 @@ Para obter detalhes, veja o artigo [Subscrever relatórios paginados no serviço
 Apresentamos a seguir mais algumas funcionalidades que não são suportadas na versão inicial:
 
 - Afixar páginas de relatórios ou elementos visuais em dashboards do Power BI. Pode ainda afixar visualizações a um dashboard do Power BI a partir de um relatório paginado no local num servidor de relatórios do Power BI Report Server ou do Reporting Services. Veja [Afixar itens do Reporting Services nos dashboards do Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) para obter mais informações.
-- Funcionalidades interativas como mapas de documentos e os botões mostrar/ocultar.
-- Sub-relatórios e relatórios de pormenorização.
+- Mapas de Documentos.
+- Sub-relatórios e relatórios de pormenorização.  No entanto, pode considerar a utilização de parâmetros de URL com relatórios paginados para conseguir cenários de pormenorização.
 - Origens de dados partilhadas e conjuntos de dados partilhados.
-- Elementos visuais de relatórios do Power BI.
+
  
 ## <a name="next-steps"></a>Próximos passos
 
