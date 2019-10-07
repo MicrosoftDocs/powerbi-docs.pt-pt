@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994832"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715187"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Transferir um relatório do serviço Power BI para o Power BI Desktop (Pré-visualização)
 No Power BI Desktop, pode publicar um relatório (um ficheiro *.pbix*) do seu computador local no serviço Power BI. Os relatórios do Power BI também podem ir noutra direção: Pode transferir um relatório do serviço Power BI para o Power BI Desktop. A extensão de um relatório do Power BI, em ambos os casos, é .pbix.
@@ -26,7 +26,7 @@ Existem algumas limitações e considerações a ter em conta, que são abrangid
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Transferir o relatório como ficheiro .pbix
 
-Só pode transferir relatórios que tenham [criados com o Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) após 23 de novembro de 2016 e atualizados desde então. Se tiver sido criado antes disso, a opção **Transferir relatório** no serviço Power BI ficará indisponível.
+Só pode transferir relatórios que tenham [criados com o Power BI Desktop](/learn/modules/publish-share-power-bi/2-publish-reports) após 23 de novembro de 2016 e atualizados desde então. Se tiver sido criado antes disso, a opção **Transferir relatório** no serviço Power BI ficará indisponível.
 
 Para transferir o ficheiro .pbix, siga estes passos:
 

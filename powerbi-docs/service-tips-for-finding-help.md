@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61401260"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715440"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugestões para obter ajuda com as suas perguntas do Power BI
 Já lhe aconteceu sentir-se frustrado ao utilizar o Power BI ou sentir dificuldades porque não consegue obter respostas para as suas perguntas sobre o Power BI quando precisa delas? 
@@ -45,7 +45,7 @@ Os vídeos adequam-se melhor ao seu estilo de aprendizagem? O Power BI tem dois 
 ## <a name="6-attend-training"></a>6 Participar em formações
 As opções de formação disponíveis são quase intermináveis, desde formação interna presencial a vídeos breves.
 
-* [Aprendizagem guiada](guided-learning/gettingstarted.yml?tutorial-step=1) no site do Power BI.
+* [Aprendizagem guiada](guided-learning/index.md) no site do Power BI.
 * [Webinars gratuitos do Power BI](webinars.md), em direto e a pedido, no site do Power BI.
 
 Pode encontrar opções adicionais online. Por exemplo:
