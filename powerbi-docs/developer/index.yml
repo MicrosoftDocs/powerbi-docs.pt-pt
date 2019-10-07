@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: Documentação do Power BI para programadores
+summary: A documentação do Power BI fornece informações de especialistas e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+metadata:
+  title: Power BI para programadores
+  description: A documentação do Power BI fornece informações de especialistas e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/02/2019
+  ms.openlocfilehash: 11e9bc6d2e848fcc1b827f52985c573cba382415
+  ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "71951031"
+landingContent:
+- title: Sobre o Power BI para programadores
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que podem os programadores fazer com o Power BI
+      url: what-can-you-do.md
+    - text: Visuals in Power BI (Elementos visuais no Power BI)
+      url: ../power-bi-custom-visuals.md
+    - text: O que é a incorporação com o Power BI?
+      url: embedding.md
+    - text: O que é a API Power BI?
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: reference
+    links:
+    - text: Centro para Programadores do Power BI
+      url: https://powerbi.microsoft.com/developers/
+    - text: Exemplos para programadores do Power BI
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+    - text: Wiki de JavaScript do Power BI
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: Power BI REST APIs (APIs REST do Power BI)
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: APIs REST do Azure Resource Manager
+      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+- title: Elementos Visuais do Power BI
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Develop a Power BI visual (Criar um elemento visual do Power BI)
+      url: custom-visual-develop-tutorial.md
+  - linkListType: concept
+    links:
+    - text: FAQ sobre elementos visuais do Power BI
+      url: ../power-bi-custom-visuals-faq.md
+    - text: Diretrizes de elementos visuais do Power BI
+      url: guidelines-powerbi-visuals.md
+    - text: Modo de edição avançado nos elementos visuais
+      url: /advanced-edit-mode.md
+  - linkListType: how-to-guide
+    links:
+    - text: Get a visual certified (Criar um certificado de elementos visuais)
+      url: ../power-bi-custom-visuals-certified.md
+    - text: Publicar visuais personalizados no AppSource
+      url: office-store.md
+- title: Análise incorporada
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Incorporar conteúdo para clientes
+      url: embed-sample-for-customers.md
+    - text: Embed content for your organization (Incorporar conteúdos para a sua organização)
+      url: embed-sample-for-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Row-level security
+      url: embedded-row-level-security.md
+    - text: Gerir multi-inquilinos
+      url: embed-multi-tenancy.md
+    - text: FAQ sobre o Embedded
+      url: embedded-faq.md
+    - text: Permissões do Power BI
+      url: power-bi-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: Incorporar a partir de aplicações
+      url: embed-from-apps.md
+    - text: Criar um inquilino do Azure Active Directory
+      url: create-an-azure-active-directory-tenant.md
+    - text: Obter um token de acesso do Azure AD
+      url: get-azuread-access-token.md
+    - text: Perguntas e Respostas no Power BI Embedded
+      url: qanda.md
