@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730144"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715384"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas no Power BI Desktop
 
 O **Power BI Desktop** ajuda-o a criar informações sobre os seus dados com apenas alguns cliques. Por vezes, estes dados simplesmente não incluem tudo o que precisa para responder a algumas das suas perguntas mais importantes. As medidas podem ajudá-lo a conseguir isso.
 
-As medidas são utilizadas em algumas das análises de dados mais comuns. Resumos simples, como somas, médias, mínimo, máximo e contagens podem ser definidos através da Secção Campos, conforme discutido no vídeo [Summarization and category](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16) (Resumo e categoria). Pode criar cálculos mais avançados pessoalmente com uma fórmula DAX. Os resultados calculados das medidas estão sempre a mudar em resposta à sua interação com os relatórios, o que permite uma exploração de dados ad-hoc rápida e dinâmica. Vamos ver isso mais de perto.
+As medidas são utilizadas em algumas das análises de dados mais comuns. Resumos simples, como somas, médias, mínimo, máximo e contagens, podem ser definidos através da secção Campos. Os resultados calculados das medidas estão sempre a mudar em resposta à sua interação com os relatórios, o que permite uma exploração de dados ad-hoc rápida e dinâmica. Vamos ver isso mais de perto. Para obter mais informações, veja [Criar medidas calculadas](/learn/modules/model-data-power-bi/4b-create-calculated-measures).
 
 ## <a name="understanding-measures"></a>Noções básicas sobre medidas
 

@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/01/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4e94781b3a424e894e0f0e2209ec48efb25c5db5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 9e7bdb0ae2f1e512e3e431cf69395d601cbc7b3f
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71106314"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968539"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>Utilizar o Kerberos para início de sessão único (SSO) na SAP HANA
 
-Este artigo descreve como configurar o seu servidor SAP HANA para ativar o SSO a partir do serviço Power BI.
+Este artigo descreve como configurar a sua origem de dados SAP HANA para ativar o SSO a partir do serviço Power BI.
 
 > [!NOTE]
 > Conclua os passos neste artigo, além dos passos em [Configurar SSO do Kerberos](service-gateway-sso-kerberos.md) antes de tentar atualizar um relatório baseado em SAP HANA que usa o SSO do Kerberos.

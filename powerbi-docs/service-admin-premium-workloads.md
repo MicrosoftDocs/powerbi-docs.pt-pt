@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985704"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968908"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -59,18 +59,59 @@ A carga de trabalho de IA permite-lhe utilizar os serviços cognitivos e a Machi
 
 ### <a name="datasets"></a>Conjuntos de Dados
 
-A carga de trabalho dos conjuntos de dados está ativada por predefinição e não pode ser desativada. Utilize as seguintes definições para controlar o comportamento da carga de trabalho.
+A carga de trabalho dos conjuntos de dados está ativada por predefinição e não pode ser desativada. Utilize as seguintes definições para controlar o comportamento da carga de trabalho. Por baixo da tabela, há informações de utilização adicionais para algumas das definições.
 
 | Nome da Definição | Descrição |
 |---------------------------------|----------------------------------------|
 | **Memória Máxima (%)** | A percentagem máxima de memória disponível que os conjuntos de dados podem utilizar numa capacidade. |
 | **Ponto Final de XMLA** | Especifica que as ligações das aplicações cliente são feitas de acordo com a associação de grupo de segurança definida aos níveis da área de trabalho e da aplicação. Para obter mais informações, veja [Ligar aos conjuntos de dados com ferramentas e aplicações cliente](service-premium-connect-tools.md). |
-| **Contagem Máxima do Conjunto de Linhas Intermediárias** | O número máximo de linhas intermediárias devolvido pelo DirectQuery. O valor predefinido é 1000000 e o intervalo de valores permitido é entre 100000 e 2147483647. Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
-| **Tamanho Máximo do Conjunto de Dados Offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Este valor corresponde ao tamanho comprimido em disco. O valor predefinido é determinado pelo SKU e o intervalo permitido é entre 0,1 e 10 GB. Utilize esta definição para impedir que os criadores de relatórios publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. |
-| **Contagem Máxima do Conjunto de Linhas de Resultados** | O número máximo de linhas devolvido numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647. Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
-| **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível que pode ser utilizada para obter resultados temporários numa consulta ou medida DAX. Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. |
-| **Tempo Limite de Consulta (segundos)** | O limite máximo de tempo de uma consulta. A predefinição é 3600 segundos (1 hora). O valor 0 especifica que as consultas não irão exceder o limite de tempo. Utilize esta definição para manter um melhor controlo sobre consultas de execução longa. |
+| **Contagem Máxima do Conjunto de Linhas Intermediárias** | O número máximo de linhas intermediárias devolvido pelo DirectQuery. O valor predefinido é 1000000 e o intervalo de valores permitido é entre 100000 e 2147483647. |
+| **Tamanho Máximo do Conjunto de Dados Offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Este valor corresponde ao tamanho comprimido em disco. O valor predefinido é determinado pelo SKU e o intervalo permitido é entre 0,1 e 10 GB. |
+| **Contagem Máxima do Conjunto de Linhas de Resultados** | O número máximo de linhas devolvido numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647. |
+| **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível que pode ser utilizada para obter resultados temporários numa consulta ou medida DAX. |
+| **Tempo Limite de Consulta (segundos)** | O limite máximo de tempo de uma consulta. A predefinição é 3600 segundos (1 hora). O valor 0 especifica que as consultas não irão exceder o limite de tempo. |
 |  |  |  |
+
+#### <a name="max-intermediate-row-set-count"></a>Contagem Máxima do Conjunto de Linhas Intermediárias
+
+Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. Quando uma consulta a um conjunto de dados do DirectQuery devolve um resultado muito grande da base de dados de origem, pode ocorrer um pico na utilização de memória e uma sobrecarga de processamento. Esta situação pode fazer com que outros utilizadores e relatórios fiquem com poucos recursos. Esta definição permite que o administrador da capacidade ajuste a quantidade de linhas que uma consulta individual pode obter da origem de dados.
+
+Em alternativa, se tiver um conjunto de dados grande e a capacidade conseguir suportar mais do que a predefinição de um milhão de linhas, aumente esta definição para obter mais linhas.
+
+Tenha em atenção que esta definição apenas afeta as consultas do DirectQuery, enquanto a [Contagem Máxima do Conjunto de Linhas de Resultados](#max-result-row-set-count) afeta as consultas do DAX.
+
+#### <a name="max-offline-dataset-size"></a>Tamanho Máximo do Conjunto de Dados Offline
+
+Utilize esta definição para impedir que os criadores de relatórios publiquem um grande conjunto de dados que possa afetar negativamente a capacidade. Tenha em atenção que o Power BI não consegue determinar o tamanho real em memória até o conjunto de dados ser carregado para a mesma. É possível que um conjunto de dados com um tamanho offline inferior tenha uma maior quantidade de memória do que um conjunto de dados com um tamanho offline superior.
+
+Se tiver um conjunto de dados existente com tamanho superior ao especificado para esta definição, não será possível carregar o conjunto de dados quando um utilizador tentar aceder ao mesmo.
+
+#### <a name="max-result-row-set-count"></a>Contagem Máxima do Conjunto de Linhas de Resultados
+
+Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. Se este limite for alcançado numa consulta do DAX, o utilizador do relatório verá a seguinte mensagem de erro. O utilizador deve copiar os detalhes do erro e contactar um administrador.
+
+![Não foi possível carregar os dados deste elemento visual](media/service-admin-premium-workloads/could-not-load-data.png)
+
+Tenha em atenção que esta definição apenas afeta as consultas do DAX, enquanto a [Contagem Máxima do Conjunto de Linhas Intermediárias](#max-intermediate-row-set-count) afeta as consultas do DirectQuery.
+
+#### <a name="query-memory-limit"></a>Limite de Memória de Consulta
+
+Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. Alguns cálculos e consultas podem devolver resultados intermediários que utilizam muita memória na capacidade. Esta situação pode fazer com que a execução de outras consultas seja muito lenta, provocar a expulsão de outros conjuntos de dados da capacidade e causar erros fora da memória para outros utilizadores da capacidade.
+
+Esta definição aplica-se à atualização de dados e à composição de relatório. A atualização de dados consiste na atualização de dados da origem de dados e na atualização de consultas, a menos que esta esteja desativada. Se a atualização de consultas estiver desativada, este limite de memória também se aplica a estas consultas. As consultas que falham fazem com que o estado de atualização agendada também indique a ocorrência de uma falha, mesmo que a atualização de dados tenha sido efetuada com êxito.
+
+#### <a name="query-timeout"></a>Tempo Limite de Consulta
+
+Utilize esta definição para controlar melhor as consultas de execução longa, que podem fazer com que o carregamento dos relatórios para os utilizadores seja lento. Esta definição aplica-se à atualização de dados e à composição de relatório. A atualização de dados consiste na atualização de dados da origem de dados e na atualização de consultas, a menos que esta esteja desativada. Se a atualização de consultas estiver desativada, este tempo limite também se aplica a estas consultas.
+
+Esta definição aplica-se a uma consulta única e não ao tempo que demora a executar todas as consultas associadas à atualização de um conjunto de dados ou relatório. Considere o exemplo seguinte:
+
+- A definição de **Tempo Limite da Consulta** é 1200 (20 minutos).
+- Há cinco consultas para executar e cada uma é executada durante 15 minutos.
+
+O tempo total para todas as consultas é de 75 minutos, mas o limite da definição não é alcançado, pois cada consulta é executada durante menos de 20 minutos.
+
+Tenha em atenção que os relatórios do Power BI substituem esta predefinição por um tempo limite muito inferior para cada consulta da capacidade. Normalmente, o tempo limite de cada consulta é cerca de três minutos.
 
 ### <a name="dataflows"></a>Fluxos de Dados
 

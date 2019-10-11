@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380266"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968822"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Add a filter to a report in Power BI (Adicionar um filtro a um relatório no Power BI)
 
+[!INCLUDE [power-bi-service-new-look-include](includes/power-bi-service-new-look-include.md)]
+
 Este artigo explica como adicionar um filtro de página, um filtro de visualização, um filtro de relatório ou um filtro de pormenorização a um relatório no Power BI. Os exemplos presentes neste artigo estão no serviço Power BI. Os passos são praticamente idênticos aos do Power BI Desktop.
 
-**Sabia que?** O Power BI tem uma nova experiência de filtros, atualmente em pré-visualização. Leia mais sobre [a nova experiência de filtros nos relatórios do Power BI](power-bi-report-filter.md).
+**Sabia que?** O Power BI tem uma nova experiência de filtros. Leia mais sobre [a nova experiência de filtros nos relatórios do Power BI](power-bi-report-filter.md).
 
 ![Nova experiência de filtro](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 
@@ -140,7 +142,7 @@ Para acompanhar, transfira o [Exemplo de Rentabilidade do Cliente](sample-custom
 Vamos ver como funciona o filtro de pormenorização.
 
 1. Comece na página do relatório **Tabela de Indicadores da Equipa**.    
-2. Suponhamos que é o Andrew Ma e pretende ver a página do relatório Equipa Executiva filtrada para apenas os seus dados.  No gráfico de área na parte superior esquerda, clique com o botão direito do rato em qualquer ponto de dados verde para abrir a opção de menu Pormenorização.
+2. Suponhamos que é o Andrew Ma e pretende ver a página do relatório Equipa Executiva filtrada para apenas os seus dados.  No gráfico de área no canto superior esquerdo, clique com o botão direito do rato em qualquer ponto de dados verde para abrir a opção de menu Pormenorização.
    
     ![Iniciar a ação de pormenorização](media/power-bi-report-add-filter/power-bi-drillthrough.png)
 3. Selecione **Pormenorização > Equipa Executiva** para pormenorizar até à página do relatório com o nome **Equipa Executiva**. A página é filtrada para mostrar informações sobre o ponto de dados no qual clicou com o botão direito do rato, neste caso, Andrew Ma. Apenas o campo que está na área Filtros de pormenorização passa para a página do relatório de pormenorização.  

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ebbc277f2a269ebaf2d1bdb99f1aa800576b466
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70936499"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715563"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Apresentar imagens numa tabela, matriz ou segmentação de dados num relatório
 
@@ -44,7 +44,7 @@ Uma boa maneira de melhorar os relatórios é através da adição de imagens. A
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Adicionar formas estáticas, caixas de texto e imagens a um relatório](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=11)
+[Formatação e esquema de página](/learn/modules/visuals-in-power-bi/12-formatting)
 
 [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 

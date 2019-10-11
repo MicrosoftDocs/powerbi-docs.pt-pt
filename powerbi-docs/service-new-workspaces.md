@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750891"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715200"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750891"
 A nova experiência de área de trabalho atingiu a disponibilidade geral (GA) e é agora a área de trabalho predefinida. Pode continuar a criar e utilizar [áreas de trabalho clássicas](service-create-workspaces.md) com base em Grupos do Office 365. 
 
 > [!NOTE]
-> Para impor segurança ao nível da linha (RLS) aos utilizadores que procuram conteúdos numa área de trabalho, utilize a função Visualizador. Se a função Visualizador ainda não estiver disponível no seu inquilino, continue a utilizar as [áreas de trabalho clássicas](service-create-workspaces.md) e selecione a opção **Os membros podem visualizar apenas conteúdo do Power BI**. Em alternativa, publique uma aplicação do Power BI para esses utilizadores ou utilize a partilha para distribuir conteúdos.
+> Para impor segurança ao nível da linha (RLS) aos utilizadores que procuram conteúdos numa área de trabalho, utilize a função Visualizador. Para impor a RLS sem dar acesso à área de trabalho, publique uma aplicação do Power BI para estes utilizadores ou utilize a partilha para distribuir conteúdos.
 
 Com as novas áreas de trabalho, pode:
 
@@ -73,11 +73,14 @@ Eis as capacidades das quatro funções: administradores, membros, contribuidore
 | Permitir que outras pessoas voltem a partilhar itens. |  X | X  |   |   |
 | Criar, editar e eliminar conteúdos na área de trabalho.  |  X | X  | X  |   |
 | Publicar relatórios na área de trabalho, eliminar conteúdos.  |  X | X  | X  |   |
-| Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho. |  X | X  | X  | X <sup>1</sup>  |
-| Copiar um relatório. | X | X | X | X <sup>1</sup> |
+| Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho. |  X | X  | X  |   |
+| Copiar um relatório. | X | X | X |  |
 | Ver e interagir com um item. |  X | X  | X  | X  |
 
-**1** É necessária uma licença do Power BI Pro e [Permissão de compilação de conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
+> [!NOTE]
+>Para copiar um relatório e criar um relatório noutra área de trabalho com base num conjunto de dados da mesma, as pessoas terão de cumprir critérios adicionais:
+>- Precisam de uma licença do Power BI Pro. 
+>- Precisam de permissão de Compilação para o conjunto de dados. Para conjuntos de dados nesta área de trabalho, as pessoas com as funções Administrador, Membro e Contribuidor têm permissão de Compilação através da função da área de trabalho.
  
 ## <a name="licensing"></a>Licensing
 Todas as pessoas que adiciona a uma área de trabalho na capacidade partilhada precisam de ter uma licença do Power BI Pro. Na área de trabalho, estes utilizadores podem colaborar nos dashboards e relatórios que planear publicar para um vasto público ou mesmo para toda a organização. 

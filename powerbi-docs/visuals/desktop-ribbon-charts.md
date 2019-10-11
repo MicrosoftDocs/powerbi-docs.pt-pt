@@ -1,6 +1,6 @@
 ---
 title: Utilizar gráficos de friso no Power BI
-description: Criar e consumir gráficos de friso no serviço Power BI e no Power BI Desktop
+description: Criar e consumir gráficos de friso no Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,20 +10,34 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840116"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715490"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Utilizar gráficos de friso no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Pode utilizar gráficos de friso para visualizar dados e, rapidamente, descobrir que categoria de dados tem a classificação mais elevada (maior valor). Os gráficos de friso são uma forma eficaz de mostrar as alterações de classificação, com a classificação (valor) mais elevada sempre mostrada na parte superior de cada período temporal. 
 
-![gráfico do friso](media/desktop-ribbon-charts/ribbon-charts_01.png)
+![gráfico do friso](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
+   
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
+
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 ## <a name="create-a-ribbon-chart"></a>Criar um gráfico de friso
-Para acompanhar, abra o [exemplo de relatório Análise de revenda](../sample-retail-analysis.md). 
 
 1. Para criar um gráfico de friso, selecione **Gráfico de friso** no painel **Visualizações**.
 
@@ -31,13 +45,13 @@ Para acompanhar, abra o [exemplo de relatório Análise de revenda](../sample-re
 
     Os gráficos de friso ligam uma categoria de dados ao longo do período de tempo visualizado através de frisos, permitindo-lhe ver qual a classificação de uma determinada categoria ao longo do eixo X do gráfico (que é normalmente a linha cronológica).
 
-2. Selecione os campos para **Eixo**, **Legenda** e **Valor**.  Neste exemplo, selecionámos o seguinte: **Date** (Data), **Category** (Categoria) e **This year sales** (Vendas deste ano).  
+2. Selecione os campos para **Eixo**, **Legenda** e **Valor**.  Neste exemplo, selecionámos o seguinte: **Store** (Loja)  > **OpenDate** (Data de Abertura), **Item** > **Category** (Categoria) e **Sales** (Vendas) > **This year sales** (Vendas deste ano)  > **Value** (Valor).  
 
     ![campos selecionados](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    Como o conjunto de dados contém somente dados de um ano, também removemos o campo **Year** (Ano) do **Eixo**. 
+    Como o conjunto de dados contém apenas os dados relativos a um ano, também removemos os campos **Year** (Ano) e **Quarter** (Trimestre) do **Eixo**.
 
-3. O gráfico do friso mostra a classificação dos restantes meses. Observe como a classificação muda ao longo do tempo.  Por exemplo, a categoria Home (Casa) passa da terceira para a quarta posição e regressa novamente à terceira posição. A categoria Juniors (Júnior) mudou da terceira para a quinta posição em julho. 
+3. O gráfico do friso mostra a classificação de todos os meses. Observe como a classificação muda ao longo do tempo. Por exemplo, a categoria Home (Casa) passa da segunda para a quinta posição de fevereiro a março.
 
     ![gráfico do friso](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
@@ -57,7 +71,7 @@ Visto que o gráfico do friso não possui etiquetas do eixo Y, poderá adicionar
 
 ![opções de formatação para etiquetas de dados](media/desktop-ribbon-charts/power-bi-labels.png)
 
-Defina as opções de formatação das suas etiquetas de dados.  Neste exemplo, definimos a cor do texto para branco, as casas decimais para zero e as unidades de apresentação para milhares. 
+Defina as opções de formatação das suas etiquetas de dados. Neste exemplo, definimos a cor do texto para branco e as unidades de apresentação para milhares.
 
 ![modelo de friso no painel Visualização](media/desktop-ribbon-charts/power-bi-data-labels.png)
 

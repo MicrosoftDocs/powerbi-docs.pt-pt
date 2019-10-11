@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: Power BI para administradores
+summary: A documentação do Power BI fornece informações de especialistas e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+metadata:
+  title: Power BI para administradores
+  description: A documentação do Power BI fornece informações de especialistas e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: pt-PT
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245656"
+landingContent:
+- title: Sobre o Power BI para administradores
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que é a administração do Power BI?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Função de administração no Office 365
+      url: ../service-admin-role.md
+- title: Introdução
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Licenciamento para a sua organização
+      url: ../service-admin-licensing-organization.md
+    - text: Usar o portal de administração
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Comprar o Power BI Pro
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Inscreva-se com uma Versão de Avaliação do Office 365
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Adicionar o Power BI com um parceiro do Office 365
+      url: ../service-admin-syndication-partner.md
+- title: Inquilinos
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Where is my tenant located? (Onde está localizado o meu inquilino?)
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
+      url: ../service-admin-access-usage.md
+    - text: Auditing Power BI (Auditar o Power BI)
+      url: ../service-admin-auditing.md
+    - text: Controlar o estado de funcionamento do serviço
+      url: ../service-admin-health.md
+    - text: Fechar a sua conta do Power BI
+      url: ../service-admin-closing-your-account.md

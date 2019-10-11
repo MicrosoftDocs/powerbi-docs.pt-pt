@@ -403,7 +403,7 @@
           href: desktop-accessibility.md
         - name: Gerir o formulário de início de sessão do Power BI Desktop
           href: desktop-admin-sign-in-form.md
-- name: Serviço Power BI
+- name: "Serviço Power\_BI"
   items:
     - name: Descrição geral
       items:
@@ -502,6 +502,8 @@
             - name: Utilizar conjuntos de dados em áreas de trabalho
               href: service-datasets-across-workspaces.md
             - name: Partilhar conjunto de dados (Pré-visualização)
+              href: service-datasets-share.md
+            - name: Permissão de criação para conjuntos de dados partilhados
               href: service-datasets-build-permissions.md
             - name: Create reports based on datasets (Criar relatórios baseados em conjuntos de dados)
               href: service-datasets-discover-across-workspaces.md
@@ -757,6 +759,8 @@
           items:
             - name: Mudar o nome do conteúdo no Power BI
               href: service-rename.md
+            - name: Set item contacts (Definir contactos para itens)
+              href: service-item-contact.md
             - name: Enroll your US Government organization (Inscrever a sua organização de Administração Pública dos EUA)
               href: service-govus-signup.md
             - name: Eliminar praticamente qualquer coisa no Power BI
@@ -773,8 +777,6 @@
                   href: service-connect-to-appfigures.md
                 - name: Application Insights
                   href: service-connect-to-application-insights.md
-                - name: AT Internet Bridge
-                  href: service-connect-to-at-internet.md
                 - name: Registos de Auditoria do Azure
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
@@ -799,8 +801,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Marketo
-                  href: service-connect-to-marketo.md
                 - name: Microsoft Dynamics AX
                   href: service-connect-to-microsoft-dynamics-ax.md
                 - name: Microsoft Dynamics CRM
@@ -809,14 +809,10 @@
                   href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
-                - name: Planview Enterprise
-                  href: service-connect-to-planview.md
                 - name: Prevedere
                   href: service-connect-to-prevedere.md
                 - name: Project Online
                   href: service-connect-to-project-online.md
-                - name: Projectplace
-                  href: service-connect-to-projectplace.md
                 - name: QuickBooks Online
                   href: service-connect-to-quickbooks-online.md
                 - name: Salesforce
@@ -843,8 +839,6 @@
                   href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
-                - name: Webtrends
-                  href: service-connect-to-webtrends.md
                 - name: Windows Dev Center
                   href: service-connect-to-windows-dev-center.md
                 - name: Xero
@@ -967,136 +961,6 @@
           href: report-builder-url-pass-parameters.md
         - name: Publicar um relatório paginado
           href: paginated-reports-save-to-power-bi-service.md
-    - name: Elementos Visuais Personalizados
-      items:
-        - name: Descrição geral
-          items:
-            - name: Visuals in Power BI (Elementos visuais no Power BI)
-              href: power-bi-custom-visuals.md
-        - name: Tutoriais
-          items:
-            - name: Develop a Power BI visual (Criar um elemento visual do Power BI)
-              href: developer/custom-visual-develop-tutorial.md
-            - name: Add formatting options (Adicionar opções de formatação)
-              href: developer/custom-visual-develop-tutorial-format-options.md
-            - name: Add unit tests for visual project (Adicionar testes de unidades nos projetos de elementos visuais)
-              href: developer/visuals/unit-tests-introduction.md
-        - name: Conceitos
-          items:
-            - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
-              href: power-bi-custom-visuals-organization.md
-            - name: Diretrizes de elementos visuais do Power BI
-              href: developer/guidelines-powerbi-visuals.md
-            - name: Visuals FAQ (FAQ sobre elementos visuais)
-              href: power-bi-custom-visuals-faq.md
-            - name: Using capabilities (Utilizar capacidades)
-              href: developer/visuals/capabilities.md
-            - name: Data view mappings (Mapeamentos de vista de dados)
-              href: developer/visuals/dataview-mappings.md
-            - name: Objects and properties (Objetos e propriedades)
-              href: developer/visuals/objects-properties.md
-            - name: Advanced Edit Mode (Modo de Edição Avançado)
-              href: developer/visuals/advanced-edit-mode.md
-        - name: Procedimentos
-          items:
-            - name: Get a visual certified (Criar um certificado de elementos visuais)
-              href: power-bi-custom-visuals-certified.md
-            - name: Publicar visuais personalizados no AppSource
-              href: developer/office-store.md
-            - name: Utilizar elementos visuais personalizados baseados em R no Power BI
-              href: desktop-r-powered-custom-visuals.md
-            - name: Visuals interactions (Interações de elementos visuais)
-              href: developer/visuals/visuals-interactions.md
-            - name: Add visuals tooltips (Adicionar descrições em elementos visuais)
-              href: developer/visuals/add-tooltips.md
-            - name: Add analytics pane (Adicionar painel de análise)
-              href: developer/visuals/analytics-pane.md
-            - name: Filter visuals (Filtrar elementos visuais)
-              href: developer/visuals/filter-api.md
-            - name: Fetch more data (Obter mais dados)
-              href: developer/visuals/fetch-more-data.md
-            - name: Add bookmarks support (Adicionar suporte para marcadores)
-              href: developer/visuals/bookmarks-support.md
-            - name: Highlight data in visuals (Destacar dados em elementos visuais)
-              href: developer/visuals/highlight.md
-            - name: Add High-Contrast mode support (Adicionar suporte para o modo Alto Contraste)
-              href: developer/visuals/high-contrast-support.md
-            - name: Enable sync slicers (Ativar segmentação de dados)
-              href: developer/visuals/enable-sync-slicers.md
-            - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
-              href: power-bi-custom-visuals-troubleshoot.md
-        - name: Referência
-          items:
-            - name: Landing page (Página de destino)
-              href: developer/visuals/landing-page.md
-            - name: Launch URL (Iniciar URL)
-              href: developer/visuals/launch-url.md
-            - name: Rendering events (Eventos de composição)
-              href: developer/visuals/event-service.md
-            - name: Ordenação
-              href: developer/visuals/sort-options.md
-        - name: Recursos
-          items:
-            - name: Dev Center
-              href: 'https://powerbi.microsoft.com/developers/'
-            - name: Exemplos
-              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Custom Visuals Git Repo (Repositório Git de Elementos Visuais Personalizados)
-              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-            - name: Creating SSL certificate (Criar um certificado SSL)
-              href: developer/visuals/create-ssl-certificate.md
-    - name: Automatização
-      items:
-        - name: Descrição geral
-          items:
-            - name: What can I do with the Power BI API? (O que posso fazer com a API do Power BI?)
-              href: developer/overview-of-power-bi-rest-api.md
-        - name: Tutoriais
-          items:
-            - name: Enviar dados por push para um conjunto de dados
-              href: developer/walkthrough-push-data.md
-            - name: Obter um token de acesso de autenticação
-              href: developer/walkthrough-push-data-get-token.md
-            - name: Create a dataset (Criar um conjunto de dados)
-              href: developer/walkthrough-push-data-create-dataset.md
-            - name: Get a dataset to add rows (Obter um conjunto de dados para adicionar linhas)
-              href: developer/walkthrough-push-data-get-datasets.md
-            - name: Adicionar linhas a uma tabela
-              href: developer/walkthrough-push-data-add-rows.md
-        - name: Conceitos
-          items:
-            - name: Automatic retention policy for real-time data (Política de retenção automática para dados em tempo real)
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-            - name: Enviar dados por push
-              items:
-                - name: Power BI REST API limitations (Limitações da API REST do Power BI)
-                  href: developer/api-rest-api-limitations.md
-                - name: Dataset properties (Propriedades do conjunto de dados)
-                  href: developer/api-dataset-properties.md
-                - name: Data model versioning (Controlo de versões do modelo de dados)
-                  href: developer/api-data-model-versioning.md
-        - name: Procedimentos
-          items:
-            - name: Configurar credenciais
-              href: developer/configure-credentials.md
-            - name: Encriptar credenciais
-              href: developer/encrypt-credentials.md
-        - name: Referência
-          items:
-            - name: APIs REST
-              href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Referência da API REST do Power BI
-              href: developer/rest-api-reference.md
-            - name: Listagem de código completo
-              href: developer/walkthrough-push-data-complete-code.md
-        - name: Recursos
-          items:
-            - name: Dev Center
-              href: 'https://powerbi.microsoft.com/en-us/developers/'
-            - name: 'Power BI C# Git Repo (Repositório Git C# do Power BI)'
-              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-            - name: .NET SDK Download (Transferência do SDK do .NET)
-              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Power BI Report Server
   items:
     - name: Descrição geral
@@ -1267,69 +1131,6 @@
       items:
         - name: Monthly gateway updates (Atualizações de gateways mensais)
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Administração
-  items:
-    - name: Descrição geral
-      items:
-        - name: "O que é a administração do Power\_BI?"
-          href: service-admin-administering-power-bi-in-your-organization.md
-    - name: Conceitos
-      items:
-        - name: Função de administração no Office 365
-          href: service-admin-role.md
-        - name: Perguntas Frequentes (FAQ)
-          href: service-admin-faq.md
-        - name: High availability and failover FAQ (FAQ sobre elevada disponibilidade e ativação pós-falha)
-          href: service-admin-failover.md
-    - name: Procedimentos
-      items:
-        - name: Licenciamento e inscrição
-          items:
-            - name: Licenciamento para a sua organização
-              href: service-admin-licensing-organization.md
-            - name: Comprar o Power BI Pro
-              href: service-admin-purchasing-power-bi-pro.md
-            - name: Inscreva-se com uma Versão de Avaliação do Office 365
-              href: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Adicionar o Power BI com um parceiro do Office 365
-              href: service-admin-syndication-partner.md
-        - name: Usar o portal de administração
-          href: service-admin-portal.md
-        - name: Where is my tenant located? (Onde está localizado o meu inquilino?)
-          href: service-admin-where-is-my-tenant-located.md
-        - name: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
-          href: service-admin-access-usage.md
-        - name: Auditing Power BI (Auditar o Power BI)
-          href: service-admin-auditing.md
-        - name: Controlar o estado de funcionamento do serviço
-          href: service-admin-health.md
-        - name: Fechar a sua conta do Power BI
-          href: service-admin-closing-your-account.md
-        - name: Power BI e ExpressRoute
-          href: service-admin-power-bi-expressroute.md
-        - name: Utilizar o Azure AD B2B
-          href: service-admin-azure-ad-b2b.md
-        - name: Row-level security with Power BI (Segurança de nível de linha com o Power BI)
-          href: service-admin-rls.md
-        - name: Área de trabalho arquivada do Power BI
-          href: service-admin-power-bi-archived-workspace.md
-        - name: Configure mobile apps with Intune (Configurar aplicações móveis com o Intune)
-          href: service-admin-mobile-intune.md
-    - name: Referência
-      items:
-        - name: 'PowerShell, REST APIs, and .NET SDK (PowerShell, APIs REST e SDK .NET)'
-          href: service-admin-reference.md
-        - name: Power BI cmdlets for PowerShell (Cmdlets do Power BI para o PowerShell)
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
-          maintainContext: true
-        - name: Service URL reference (Referência de URLs do serviço)
-          href: power-bi-whitelist-urls.md
-    - name: Recursos
-      items:
-        - name: Abordagens de governação e implementação do Power BI
-          href: service-admin-governance.md
-        - name: Power BI security (Segurança do Power BI)
-          href: service-admin-power-bi-security.md
 - name: Orientação
   items:
     - name: Descrição geral
@@ -1340,6 +1141,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: função DIVIDIR vs. operador dividir (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Appropriate use of error functions (Utilização adequada de funções de erro)
+      href: guidance/dax-error-functions.md
     - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
       href: service-dataflows-best-practices.md
     - name: Whitepapers (Documentos técnicos)

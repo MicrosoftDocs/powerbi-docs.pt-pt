@@ -1,22 +1,21 @@
 ---
-title: Power BI para consumidores de relatórios
-description: Está a começar a utilizar o Power BI? Conheça as funcionalidades e capacidades do Power BI, e veja o que pode fazer com elas como consumidor ou utilizador final do Power BI.
+title: Power BI para consumidores
+description: Está a começar a utilizar o Power BI? Conheça as funcionalidades e capacidades do serviço Power BI e veja como pode tirar partido das mesmas enquanto consumidor ou utilizador final do Power BI.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073385"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829621"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -105,7 +104,8 @@ ms.locfileid: "71073385"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">Navegação: encontre rapidamente os conteúdos de que precisa</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">Perguntas e Respostas: fazer perguntas com linguagem natural</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">Interagir com filtros e segmentações de dados</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Conhecer os tipos de elementos visuais disponíveis no Power BI</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Conhecer os tipos de elementos visuais</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">Transferir uma aplicação de exemplo</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,10 +152,10 @@ ms.locfileid: "71073385"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark">Conceitos &amp; Terminologia</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark"> Conceitos e Terminologia</a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark">Conceitos &amp; Terminologia</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark">Conceitos e Terminologia</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>
