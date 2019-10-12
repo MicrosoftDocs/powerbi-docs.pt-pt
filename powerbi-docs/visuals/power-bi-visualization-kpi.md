@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715233"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239935"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Elementos visuais do Indicador Chave de Desempenho (KPI)
 
@@ -50,12 +50,12 @@ Um conjunto de dados de KPI deve conter valores de objetivo para um KPI. Se o co
 Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
-   
-2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+1. Abra o **ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório. ![Captura de ecrã do ícone de vista de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Selecione **+** para adicionar uma nova página. ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>Como criar um KPI
 
