@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987009"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239912"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -113,7 +113,7 @@ Depois de criar um código de incorporação **Publicar na Web**, poderá gerir 
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Atualizações a relatórios e atualização de dados
 
-Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. No entanto, após esta ação inicial, as atualizações dos relatórios ou elementos visuais poderão demorar aproximadamente uma hora até ficarem visíveis para os seus utilizadores. Se precisar que as atualizações fiquem imediatamente disponíveis, pode eliminar o código de incorporação e criar um novo. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
+Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. No entanto, após esta ação inicial, as atualizações dos relatórios ou elementos visuais poderão demorar aproximadamente uma hora até ficarem visíveis para os seus utilizadores. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
 
 ## <a name="data-refresh"></a>Atualização de dados
 

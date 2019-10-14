@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471589"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021022"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Utilizar conjuntos de dados partilhados no Power BI Report Builder
 
@@ -20,14 +20,14 @@ Pode utilizar um conjunto de dados que criou no Power BI Desktop como uma origem
 
 ![Power BI Desktop para o relatório paginado do Report Builder](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-O conjunto de dados não tem de estar numa área de trabalho na capacidade Premium e não tem de ser membro dessa área de trabalho. Só tem de ter [Permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) para a base de dados. Para publicar o seu relatório paginado, precisa de uma licença do Power BI Pro. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium.
+O conjunto de dados não tem de estar numa área de trabalho na capacidade Premium e não tem de ser membro dessa área de trabalho. Só tem de ter [Permissão de compilação](service-datasets-build-permissions.md) para a base de dados. Para publicar o seu relatório paginado, precisa de uma licença do Power BI Pro. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium.
 
 ## <a name="what-you-need"></a>O que precisa
 
 Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados partilhado no Power BI Report Builder.
 
 - Power BI Report Builder. [Transferir e instalar o Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](service-datasets-build-permissions.md).
 - Não precisa de uma licença do Power BI Pro para criar um relatório paginado no Report Builder. 
 - Precisa de uma licença do Power BI Pro para publicar o seu relatório paginado. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium. 
 - Opcional: se quiser acompanhar este artigo, transfira o ficheiro [Exemplo de Análise de Revenda.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) do Power BI Desktop, abra-o no Power BI Desktop e adicione uma tabela com várias colunas. No painel **Formatar**, desative a opção **Totais**. Em seguida, publique numa área de trabalho no serviço Power BI.
@@ -121,7 +121,7 @@ Uma forma rápida de criar uma tabela é através do Assistente de Tabelas.
 
 1. Selecione o conjunto de dados que criou com a consulta DAX > **Seguinte**.
 
-    ![Selecionar um conjunto de dados](media/report-builder-shared-datasets/power-bi-report-builder-choose-dataset.png)
+    ![Escolher um conjunto de dados](media/report-builder-shared-datasets/power-bi-report-builder-choose-dataset.png)
 
 1. Para criar uma tabela simples, selecione os campos que pretende em **Campos disponíveis**. Pode selecionar múltiplos campos de cada vez ao selecionar o primeiro que pretende, premir a tecla Shift e selecionar o último.
 
