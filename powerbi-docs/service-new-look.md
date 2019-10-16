@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654922"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239965"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>O "novo aspeto" do serviço Power BI
 
-O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é uma experiência moderna mais simples que se baseia na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
+O serviço Power BI (app.powerbi.com) tem um novo aspeto que facilita a visualização dos seus relatórios e a interação com os mesmos. O novo aspeto é mais simples e baseia-se na sua familiaridade com outros produtos da Microsoft. Fizemos dos conteúdos dos relatórios o principal foco do serviço Power BI, ao atualizarmos os ícones e mudarmos para um tema de cores mais claro. Eis uma descrição geral das alterações do novo aspeto. Veja as secções numeradas para obter mais detalhes:
 
 ![Descrição geral das alterações do novo aspeto](media/service-new-look/power-bi-new-look-changes.png)
+
+Procura uma ação específica? Veja [The "new look": Where did the actions go?](service-new-look-where-actions.md) (O “novo aspeto”: onde se encontram as ações?)
 
 ## <a name="quick-tour-of-the-changes"></a>Breve apresentação das alterações
 
@@ -70,7 +72,7 @@ Está à procura das ações do menu **Ficheiro**? As ações que estavam no men
 
 ## <a name="6-new-filter-experience"></a>6. Nova experiência de filtro
 
-As atualizações recentes, como a capacidade de ver os filtros aplicados e o novo painel de filtros, estão disponíveis por predefinição com o novo aspeto. Mesmo que os designers de relatórios não tenham atualizado para a nova experiência de filtros, poderá ver o novo painel de filtros.
+As atualizações recentes, como a capacidade de ver os filtros aplicados e o novo painel de filtros, estão disponíveis por predefinição com o novo aspeto. Mesmo que o Report Designer não tenha sido atualizado para a nova experiência de filtros, poderá ver o novo painel de filtros.
 
 ![Redefinição de filtros](media/service-new-look/power-bi-new-look-filters.png)
 

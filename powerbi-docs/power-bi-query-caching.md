@@ -2,20 +2,20 @@
 title: Colocação em cache de consultas no Power BI Premium
 description: Colocação em cache de consultas no Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076184"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020493"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Colocação em cache de consultas no Power BI Premium/Embedded
 
@@ -26,13 +26,13 @@ As organizações com o Power BI Premium ou Power BI Embedded podem tirar partid
 
 Os resultados de consultas em cache são específicos do contexto do utilizador e conjunto de dados e respeitam sempre as regra de segurança. Neste momento, o serviço só efetua a colocação em cache de consultas da página inicial à qual aceder. Ou seja, as consultas não são colocadas em cache quando interagir com o relatório. A cache de consulta respeita os [marcadores pessoais](consumer/end-user-bookmarks.md#personal-bookmarks) e os [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/), pelo que as consultas geradas por um relatório personalizado serão colocadas em cache. Os [mosaicos do dashboard](service-dashboard-tiles.md) que são alimentados pelas mesmas consultas também beneficiam da colocação em cache da consulta. O desempenho é particularmente otimizado quando um conjunto de dados é acedido com frequência e não precisa de ser atualizado muitas vezes. A colocação em cache de consultas também pode reduzir a carga na sua capacidade Premium/Embedded ao reduzir o número geral de consultas.
 
-Pode controlar o comportamento da colocação em cache de consultas na página **Definições** do conjunto de dados no serviço Power BI. Existem duas definições possíveis:
+Pode controlar o comportamento da colocação em cache de consultas na página **Definições** do conjunto de dados no serviço Power BI. Existem três definições possíveis:
 
+- **Capacidade predefinida**: colocação de consultas em cache desligada
 - **Inativa**: não utilizar a colocação em cache da consulta para este conjunto de dados.
-
 - **Ativa**: utilizar a colocação em cache da consulta para este conjunto de dados.
 
-![Caixa de diálogo da colocação em cache da consulta](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Caixa de diálogo da colocação em cache da consulta](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530607"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020820"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outras áreas de trabalho (Pré-visualização)
 
@@ -32,7 +32,7 @@ Quando encontrar um relatório do seu agrado numa área de trabalho ou numa apli
 
     ![Guardar uma cópia de um relatório](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    O ícone **Guardar uma cópia** só será apresentado se o relatório estiver numa nova experiência de área de trabalho e se tiver [Permissões de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Mesmo com acesso à área de trabalho, terá de ter Permissões de compilação para o conjunto de dados.
+    O ícone **Guardar uma cópia** só será apresentado se o relatório estiver numa nova experiência de área de trabalho e se tiver a [Permissão de compilação](service-datasets-build-permissions.md). Mesmo com acesso à área de trabalho, terá de ter a Permissão de compilação para o conjunto de dados.
 
 3. Em **Guardar uma cópia deste relatório**, dê um nome ao relatório e selecione a área de trabalho de destino.
 

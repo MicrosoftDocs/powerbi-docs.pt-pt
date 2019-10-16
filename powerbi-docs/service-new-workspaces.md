@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715200"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020677"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -78,8 +78,8 @@ Eis as capacidades das quatro funções: administradores, membros, contribuidore
 | Ver e interagir com um item. |  X | X  | X  | X  |
 
 > [!NOTE]
->Para copiar um relatório e criar um relatório noutra área de trabalho com base num conjunto de dados da mesma, as pessoas terão de cumprir critérios adicionais:
->- Precisam de uma licença do Power BI Pro. 
+>Para copiar um relatório, bem como para criar um relatório noutra área de trabalho com base num conjunto de dados nessa área de trabalho, os utilizadores têm de cumprir critérios adicionais:
+>- Precisam de uma licença do Power BI Pro. Veja a próxima secção, [Licenciamento](#licensing), para obter mais informações.
 >- Precisam de permissão de Compilação para o conjunto de dados. Para conjuntos de dados nesta área de trabalho, as pessoas com as funções Administrador, Membro e Contribuidor têm permissão de Compilação através da função da área de trabalho.
  
 ## <a name="licensing"></a>Licensing
@@ -141,7 +141,7 @@ Algumas funcionalidades funcionam de forma diferente das áreas de trabalho atua
 - Os membros podem ou não podem voltar a partilhar: esta opção foi substituída pela função Contribuidor
 - Áreas de trabalho só de leitura: em vez de conceder aos utilizadores acesso só de leitura a uma área de trabalho, atribua os utilizadores à função Visualizador, que permite um acesso só de leitura semelhante ao conteúdo numa área de trabalho.
 - Quando a área de trabalho está numa capacidade do Power BI Premium, os utilizadores sem uma licença do Pro podem aceder à mesma, mesmo que tenham apenas a função Visualizador.
-- Para permitir aos utilizadores com a função Visualizador exportar dados, confirme que têm permissão de Compilação nos conjuntos de dados da área de trabalho. Saiba mais sobre as [Permissões de compilação para conjuntos de dados](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Para permitir aos utilizadores com a função Visualizador exportar dados, confirme que têm permissão de Compilação nos conjuntos de dados da área de trabalho. Saiba mais sobre as [Permissões de compilação para conjuntos de dados](service-datasets-build-permissions.md).
 - O botão **Sair da área de trabalho** não existe.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
