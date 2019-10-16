@@ -11,14 +11,17 @@ ms.topic: tutorial
 ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9b6bab357a206184f07da96d3b516107628a851d
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710913"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164427"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Quer que os leitores de relatórios consigam observar as métricas gerais das vendas e, ao mesmo tempo, consigam realçar o desempenho dos Gestores Distritais individuais e os diferentes períodos de tempo. Pode criar relatórios separados ou gráficos comparativos ou pode utilizar segmentações de dados. A segmentação de dados é uma forma alternativa de filtrar que restringe a parte do conjunto de dados apresentada nas outras visualizações num relatório. 
 
 Este tutorial utiliza o [Exemplo de Análise de Revenda](../sample-retail-analysis.md) gratuito para o ajudar a criar, formatar e utilizar segmentações de dados de lista e de intervalo de datas. Divirta-se a descobrir maneiras de formatar e utilizar as segmentações de dados. 
@@ -36,41 +39,40 @@ As segmentações de dados são uma ótima escolha quando quer:
 As segmentações de dados do Power BI têm as seguintes limitações:
 
 - As segmentações de dados não suportam campos de texto.
-- As segmentações de dados não podem ser afixadas a um dashboard.
 - A desagregação não é suportada para segmentações de dados.
 - As segmentações de dados não suportam filtros ao nível dos elementos visuais.
 
 ## <a name="create-slicers"></a>Criar segmentações de dados
 
-Para criar uma nova segmentação de dados, pode selecionar o ícone de segmentação de dados e, em seguida, selecione o campo de dados para filtrar em (ou arraste-o para o **filtros** caixa o **visualizações** painel), ou pode selecionar ou arrastar o campo de dados pela primeira vez para criar uma visualização e, em seguida, selecione o ícone de segmentação de dados para ativar a visualização numa segmentação de dados. Tipos de dados diferentes criam tipos de segmentações de dados diferentes, com efeitos e opções diferentes. 
+**Criar uma nova segmentação de dados para filtrar dados por Gestor Distrital**
 
-A primeira vez que alterar um relatório, o botão **Repor para predefinição** será realçado. Trata-se de um lembrete para informar que fez uma alteração às definições originais do relatório. Se sair do relatório, essa alteração será guardada (persistirá). Quando regressar ao relatório, não tem de voltar a segmentar o relatório.  No entanto, se quiser repor o relatório para as predefinições do autor, selecione o botão **Repor para predefinição** na barra de menus superior.
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-![reverter para o botão predefinido](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
+   
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-> [!NOTE]
-> Se o botão **Repor para predefinição** continuar desativado, significa que o autor do relatório desativou a funcionalidade para o relatório ou que o relatório contém um elemento visual personalizado. Basta pairar o rato sobre o botão para ler uma explicação. 
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-**Criar uma nova segmentação de dados para filtrar dados por gestor distrital**
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
-1. No Power BI Desktop ou no serviço Power BI, abra a [exemplo de análise de revenda](../sample-retail-analysis.md). (No serviço Power BI, selecione **Editar Relatório** no canto superior esquerdo.)
-2. Na página de descrição geral, sem nada selecionado na tela, selecione o **segmentação de dados** ícone ![ícone segmentação de dados](media/power-bi-visualization-slicers/slicer-icon.png) no **visualizações** painel para criar uma nova segmentação de dados. 
-3. Com a nova segmentação de dados selecionada, no painel campos, selecione **Distrito** > **DM** para preencher a segmentação de dados. A nova segmentação de dados é uma lista com caixas de seleção antes dos nomes. 
+2. Na página Descrição Geral, sem nada selecionado na tela, selecione o ícone da **Segmentação de dados** ![ícone da segmentação de dados](media/power-bi-visualization-slicers/slicer-icon.png) no painel **Visualizações** para criar uma nova segmentação de dados. 
+3. Com a nova segmentação de dados selecionada, no painel Campos, selecione **Distrito** > **GD** para preencher a segmentação de dados. A nova segmentação de dados é uma lista com caixas de seleção antes dos nomes. 
     
     ![nova segmentação de dados](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
 4. Redimensione e arraste a segmentação de dados e os outros elementos na tela para criar espaço para a segmentação de dados. Note que os itens da segmentação de dados serão cortados se o redimensionamento da segmentação de dados for demasiado pequeno. 
-5. Selecione os nomes na segmentação de dados e observe os efeitos nas outras visualizações na página. Selecione os nomes novamente para os desselecionar e mantenha premida a tecla **Ctrl** para selecionar mais do que um nome. Selecionar todos os nomes tem o mesmo efeito que selecionar nenhum. \
+5. Selecione os nomes na segmentação de dados e observe os efeitos nas outras visualizações na página. Selecione os nomes novamente para os desselecionar e mantenha premida a tecla **Ctrl** para selecionar mais do que um nome. Selecionar todos os nomes tem o mesmo efeito que selecionar nenhum. 
 
-6. Em alternativa, selecione o ícone de rolo para formatar a segmentação de dados. Há simplesmente muitas opções para descrevê-los tudo aqui – então, experimentar e criar uma segmentação de dados que funciona para si. Nos exemplos abaixo, a primeira segmentação de dados foi convertida numa lista pendente para conservar espaço e foi adicionada a opção "Selecionar tudo".  A segunda segmentação de dados foi formatada com cores, tamanhos de fontes e só permite uma única seleção.
+6. Em alternativa, selecione o ícone de rolo de pintura para formatar a segmentação de dados. Existem demasiadas opções para as descrever todas aqui. Assim, experimente e crie uma segmentação de dados que funcione para si. Nos exemplos abaixo, a primeira segmentação de dados utiliza uma orientação horizontal e fundos coloridos para os itens. A segunda segmentação de dados foi mantida na vertical e apresenta o texto colorido para um aspeto mais padronizado.
 
    ![nova segmentação de dados](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->Por predefinição, os itens da segmentação de dados da lista são ordenados por ordem alfanumérica ascendente. Para inverter a ordenação para a ordem descendente, selecione as reticências ( **...** ), no canto superior direito da segmentação de dados, e selecione **Ordenar por Gestor Distrital** na lista pendente. 
+>Por predefinição, os itens da segmentação de dados da lista são ordenados por ordem ascendente. Para inverter a ordenação para a ordem descendente, selecione as reticências ( **...** ) no canto superior direito da segmentação de dados e escolha **Ordenação descendente**.
 
 **Para criar uma nova segmentação de dados para filtrar dados por intervalo de datas**
 
-1. Sem nada selecionado na tela, menu pendente **data** no painel campos e arraste **data** para o **valores** caixa no painel visualizações para criar uma nova visualização.
+1. Sem nada selecionado na tela, abra o menu **Loja** no painel Campos e arraste **DataDeAbertura** para a área **Valores** no painel Visualizações para criar uma nova visualização.
 2. Com a nova visualização selecionada, selecione o ícone **Segmentação de Dados** para converter a nova visualização numa segmentação de dados. Esta segmentação de dados é um controlo de deslize com o intervalo de datas preenchido.
     
     ![nova segmentação de dados do intervalo](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
@@ -83,12 +85,16 @@ A primeira vez que alterar um relatório, o botão **Repor para predefinição**
     >Por predefinição, os tipos de dados numéricos e de data/hora criam segmentações de dados de controlo de deslize de intervalo. A partir da atualização de fevereiro de 2018 do Power BI, os controlos de deslize de intervalo de tipo de dados de número inteiro ajustam-se aos valores de número inteiro em vez de mostrar casas decimais. 
 
 
-5. Agora, altere o valor do campo partir **data** ao **MonthIndex**.  Isso produz um **entre** tipo de segmentação de dados de controlo de deslize de intervalo por predefinição, mas pode alterá-lo para outros tipos de segmentação de dados e opções de seleção. Para alterar o tipo de segmentação de dados, com a segmentação de dados selecionada, paire o cursos sobre a área superior direita da segmentação de dados, largue o acento circunflexo que aparece e escolha uma das outras opções, tais como **Lista** ou **Antes**. Observe como muda o aspecto da segmentação de dados e das opções de seleção. 
+5. Para alterar o tipo de segmentação de dados, com a segmentação de dados selecionada, paire o cursos sobre a área superior direita da segmentação de dados, largue o acento circunflexo que aparece e escolha uma das outras opções, tais como **Lista** ou **Antes**. Observe como muda o aspecto da segmentação de dados e das opções de seleção. 
  
     ![nova segmentação de dados do intervalo](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
 
 
 Para obter mais informações sobre como criar segmentações de dados de intervalo numérico e de datas, veja [Utilizar a segmentação de dados de intervalo numérico no Power BI Desktop](../desktop-slicer-numeric-range.md) e o vídeo seguinte.
+   > [!NOTE]
+   > Este vídeo utiliza uma versão mais antiga do Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Controlar que elementos visuais da página são afetados pelas segmentações de dados
@@ -96,9 +102,8 @@ Por predefinição, as segmentações de dados nas páginas de relatórios afeta
 
 Pode utilizar as **Interações visuais** para impedir que algumas visualizações da página sejam afetadas pelas outras. Na página **Descrição Geral**, o gráfico “Variação das Vendas Totais por Mês Fiscal e Gestor Distrital” mostra dados comparativos gerais para os Gestores Distritais por Mês, os quais pretende manter sempre visíveis. Pode utilizar **Interações visuais** para impedir que as seleções da segmentação de dados filtrem este gráfico. 
 
-1. Com a segmentação de dados Gestor Distrital selecionada:
+1. Com a segmentação de dados Gestor Distrital na página **Vendas Mensais Distritais** selecionada:
     - No Power BI Desktop, selecione o menu **Formato** em **Ferramentas Visuais** e, em seguida, selecione **Editar interações**.
-    - No serviço Power BI, clique no menu pendente **Interações visuais** na barra de menus e ative a opção **Editar interações**. 
    
    Os controlos de filtro ![controlos de filtro](media/power-bi-visualization-slicers/filter-controls.png) são apresentados acima de todos os outros elementos visuais na página. Inicialmente, todos os ícones **Filtro** estão selecionados.
    
@@ -110,17 +115,27 @@ Veja [Interações visuais num relatório do Power BI](../service-reports-visual
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronizar e utilizar segmentações de dados noutras páginas
 A partir da atualização de fevereiro de 2018 do Power BI, pode sincronizar uma segmentação de dados e utilizá-la em qualquer uma ou em todas as páginas de um relatório. 
 
-No relatório atual, a página **Vendas Mensais Distritais** também tem uma segmentação de dados **Gestor Distrital**, mas não está sincronizada com aquela que criou na página **Descrição Geral** (as duas segmentações de dados podem ter diferentes seleções de itens). A página **Novas Lojas** tem apenas uma segmentação de dados **Nome de Loja**. Pode sincronizar a nova segmentação de dados **Gestor Distrital** nestas páginas, para que as seleções de segmentação de dados em qualquer página afetem as visualizações em todas as três páginas. 
+No relatório atual, a página **Vendas Mensais Distritais** também tem uma segmentação de dados **Gestor Distrital**. Mas, e se também quiséssemos a segmentação de dados na página **Descrição Geral**? A página **Novas Lojas** também tem uma segmentação de dados, mas fornece apenas informações sobre o **Nome da Loja**. Com o painel **Sincronizar segmentação de dados**, podemos sincronizar a segmentação de dados **Gestor Distrital** para estas páginas, de forma a que as seleções da segmentação de dados em qualquer página afetem as visualizações nas três páginas.
 
-1. No menu **Ver**, selecione **Sincronizar segmentação de dados** no Power BI Desktop (ou ative o painel **Sincronizar segmentação de dados** no serviço Power BI). É apresentado o painel **Sincronizar segmentação de dados**. 
-2. Na página **Descrição Geral**, selecione a segmentação de dados **Gestor Distrital**. Note que a página **Vendas Mensais Distritais** já está selecionada na coluna **Visível**, porque existe também uma segmentação de dados do Gestor Distrital nessa página, mas não está selecionada na coluna **Sincronização**. 
+1. No Power BI Desktop, no menu **Ver**, selecione **Sincronizar segmentação de dados**.
+
+    ![segmentação de dados de sincronização](media/power-bi-visualization-slicers/power-bi-slicer-view-sync.png)
+
+1.  O painel **Sincronizar segmentação de dados** é apresentado entre o painel **Filtros** e o painel **Visualizações**.  
+
+    ![segmentação de dados de sincronização](media/power-bi-visualization-slicers/power-bi-slicer-sync-pane.png)
+
+1. Na página **Vendas Mensais Distritais**, selecione a segmentação de dados **Gestor Distrital**. 
     
     ![segmentação de dados de sincronização](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
-3. Na coluna **Sincronização**, selecione a página **Novas Lojas** e a página **Vendas Mensais Distritais** para sincronizar a segmentação de dados **Descrição Geral** com essas páginas. 
+3. Na coluna **Sincronizar**, selecione a página **Novas Lojas** e a página **Descrição Geral** para sincronizar a segmentação de dados **Vendas Mensais Distritais** dessas páginas. 
     
-3. Na coluna **Visível**, selecione a página **Novas Lojas** e deixe a página **Vendas Mensais Distritais** selecionada. 
-4. Observe os efeitos da sincronização da segmentação de dados e de a tornar visível nas outras páginas. Na página **Vendas Mensais Distritais**, a segmentação de dados **Gestor Distrital** mostra agora as mesmas seleções que as da página **Descrição Geral**. Na página **Novas Lojas**, as seleções na segmentação de dados **Gestor Distrital** afetam as seleções que estão disponíveis na segmentação de dados **Nome da Loja**. 
+3. Na coluna **Visível**, selecione a página **Novas Lojas** e a página **Descrição Geral**. O painel **Sincronizar segmentação de dados** deve, agora, ser semelhante à imagem abaixo:
+
+    ![segmentação de dados de sincronização](media/power-bi-visualization-slicers/power-bi-sync-slicer-finished.png)
+
+1. Observe os efeitos da sincronização da segmentação de dados e de a tornar visível nas outras páginas. Na página **Vendas Mensais Distritais**, a segmentação de dados **Gestor Distrital** mostra agora as mesmas seleções que as da página **Descrição Geral**. Na página **Novas Lojas**, as seleções na segmentação de dados **Gestor Distrital** afetam as seleções que estão disponíveis na segmentação de dados **Nome da Loja**. 
     
     >[!TIP]
     >Embora a segmentação de dados inicialmente seja apresentada nas páginas sincronizadas com o mesmo tamanho e posição da página original, pode mover, redimensionar e formatar as segmentações de dados sincronizadas nas várias páginas de forma independente. 
@@ -131,7 +146,7 @@ No relatório atual, a página **Vendas Mensais Distritais** também tem uma seg
 ## <a name="format-slicers"></a>Formatar as segmentações de dados
 Estão disponíveis diferentes opções de formatação, dependendo do tipo de segmentação de dados. Ao utilizar a orientação **Horizontal**, o esquema **Reativo** e a cor **Item**, pode criar botões ou mosaicos em vez de itens de lista padrão e fazer com que os itens da segmentação de dados sejam redimensionados para se ajustarem aos diferentes tamanhos de ecrã e esquemas.  
 
-1. Com a segmentação de dados **Gestor Distrital** selecionada em qualquer página, no painel **Visualizações**, selecione o ícone **Formato** ![](media/power-bi-visualization-slicers/power-bi-paintroller.png) para mostrar os controlos de formatação. 
+1. Com a segmentação de dados **Gestor Distrital** selecionada em qualquer página, no painel **Visualizações**, selecione o ícone **Formatação** ![ícone de formatação](media/power-bi-visualization-slicers/power-bi-paintroller.png) para apresentar os controlos de formatação. 
     
     ![formatação](media/power-bi-visualization-slicers/3-format.png)
     
@@ -156,17 +171,17 @@ Estão disponíveis diferentes opções de formatação, dependendo do tipo de s
 
 Veja [Criar uma segmentação de dados reativa que pode redimensionar no Power BI](../power-bi-slicer-filter-responsive.md) para saber mais sobre a orientação horizontal e o esquema reativo.
 
-### <a name="selection-controls-options-list-slicers-only"></a>Opções de Controlos de Seleção (apenas segmentações de dados de lista)
+### <a name="selection-controls-options-list-slicers-only"></a>Opções de controlos de seleção (apenas segmentações de dados de lista)
 1. A opção **Mostrar a opção “Selecionar Tudo”** está **Inativa**, por predefinição. Altere-a para **Ativa** para adicionar um item **Selecionar Tudo** à segmentação de dados e selecionar ou desselecionar todos os itens ao a ativar/desativar. Quando todos os itens estiverem selecionados, ao clicar ou tocar num deles desseleciona esta opção, o que permite criar um filtro do tipo “is-not”. 
     
     ![selecionar tudo](media/power-bi-visualization-slicers/7-select-all.png)
     
 2. A opção **Seleção Única** está **Ativa**, por predefinição. Clicar ou tocar num item seleciona-o e manter premida a tecla **Ctrl** ao clicar ou tocar permite selecionar vários itens. Mude a opção **Seleção Única** para **Inativa** para poder selecionar vários itens sem manter premida a tecla **Ctrl**. Ao clicar ou tocar num item novamente desseleciona-o. 
 
-### <a name="header-options"></a>Secção de opções Cabeçalho
-A opção **Cabeçalho** está **Ativa**, por predefinição, e mostra o nome do campo de dados na parte superior da segmentação de dados. 
-1. Formate o texto do cabeçalho para tornar a **Cor do tipo de letra** vermelha, o **Tamanho do texto** 14 e a **Família de tipos de letra** Arial Black. 
-2. Em **Contorno**, escolha **Inferior apenas** para criar uma linha de sublinhado com o tamanho e a cor que definiu nas opções em **Geral**. 
+### <a name="title-options"></a>Opções de título
+Por predefinição, o **Título** está **Ativo** e mostra o nome do campo de dados na parte superior da segmentação de dados. 
+1. Formate o texto do título para que a **Cor do tipo de letra** seja vermelha, o **Tamanho do texto** 14, o **Alinhamento** centrado e a **Família de tipos de letra** Arial Black. 
+
 
 ### <a name="item-options-list-slicers-only"></a>Opções do item (apenas segmentações de dados de lista)
 1. Formate o texto e o fundo do item para tornar a **Cor do tipo de letra** preta, o **Fundo** vermelho claro, o **Tamanho do texto** 10 e a **Família de tipos de letra** Arial. 
@@ -184,7 +199,6 @@ A opção **Cabeçalho** está **Ativa**, por predefinição, e mostra o nome do
 
 ### <a name="other-formatting-options"></a>Outras opções de formatação
 As outras opções de formatação estão desativadas por predefinição. Quando estão **Ativas**: 
-- **Título:** Adiciona e formata um título (além de e independente do cabeçalho) à parte superior da segmentação de dados. 
 - **Fundo:** Adiciona uma cor de fundo a toda a segmentação de dados e define a transparência.
 - **Manter proporção:** Mantém a forma da segmentação de dados se esta for redimensionada.
 - **Limite:** Adiciona um limite de um pixel à volta da segmentação e define a respetiva cor. (Este limite da segmentação de dados é separado das definições de Contorno Geral e não é afetado pelas mesmas.) 
