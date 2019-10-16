@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523442"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020611"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introdução aos pacotes de conteúdos organizacionais no Power BI
 > [!NOTE]
-> Não pode criar nem instalar pacotes de conteúdos organizacionais na nova pré-visualização das experiências de áreas de trabalho. Agora é uma boa altura para atualizar os seus pacotes de conteúdos para aplicações, se ainda não tiver começado. Saiba [mais sobre a nova experiência de área de trabalho](service-create-the-new-workspaces.md).
+> Não pode criar nem instalar pacotes de conteúdos organizacionais nas novas experiências de áreas de trabalho. Agora é uma boa altura para atualizar os seus pacotes de conteúdos para aplicações, se ainda não tiver começado. Saiba [mais sobre a nova experiência de área de trabalho](service-create-the-new-workspaces.md).
 > 
 
 Distribui regularmente relatórios por e-mail à sua equipa? Em alternativa, experimente fazer isto: empacote os dashboards, os relatórios, os livros do Excel e os conjuntos de dados e publique-os para a sua equipa como um *pacote de conteúdos organizacionais*. A sua equipa pode encontrar facilmente os pacotes de conteúdos que criar &#151; estão todos no AppSource. Como fazem parte do Power BI, tiram partido de todas as funcionalidades do Power BI, incluindo a exploração interativa de dados, novos elementos visuais, Perguntas e Respostas, integração com outras origens de dados, atualização de dados e muito mais.

@@ -7,22 +7,22 @@ ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 77be33787599cfbb50916093d0445cf586511d90
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903783"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020751"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gerir a área de trabalho da aplicação no Power BI e no Office 365
 
 Como criador ou administrador de uma [área de trabalho de aplicação no Power BI](service-create-distribute-apps.md) ou no Office 365, gere alguns aspetos da área de trabalho no Power BI. Outros aspetos que gere no Office 365.
 
 > [!NOTE]
-> A pré-visualização da nova experiência de área de trabalho vai mudar a relação entre as áreas de trabalho do Power BI e os grupos do Office 365. Não irá criar automaticamente um grupo do Office 365 sempre que criar uma das novas áreas de trabalho. Leia mais sobre como [criar as novas áreas de trabalho](service-create-the-new-workspaces.md).
+> A nova experiência de área de trabalho muda a relação entre as áreas de trabalho do Power BI e os grupos do Office 365. Não criará automaticamente um grupo do Office 365 sempre que criar uma das novas áreas de trabalho. Leia mais sobre como [criar as novas áreas de trabalho](service-create-the-new-workspaces.md).
 
 No **Power BI**, pode:
 

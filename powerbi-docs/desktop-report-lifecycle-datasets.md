@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164485"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020470"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o seu modelo de dados ideal no Power BI Desktop e publicá-lo no serviço Power BI. Em seguida, é possível criar múltiplos relatórios diferentes (em ficheiros .pbix separados) a partir do mesmo modelo de dados comum e guardá-los em diferentes áreas de trabalho. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -35,7 +35,7 @@ Vamos supor que a Ana (uma analista de negócios) está na sua equipa e tem comp
 Todas as pessoas adoram o relatório e conjunto de dados da Ana e era aí que começariam os problemas: todas as pessoas na sua equipa iriam tentar criar *a sua própria versão* desse conjunto de dados e, em seguida, partilhar os próprios relatórios com a equipa. De repente, existiriam inúmeros relatórios (de diferentes conjuntos de dados) na área de trabalho da equipa no **serviço Power BI**. Qual era o mais recente? Os conjuntos de dados foram os mesmos ou apenas quase? Quais eram as diferenças? Com a funcionalidade **Ligação em Direto do serviço Power BI**, tudo isso pode melhorar. Na secção seguinte, vamos ver como as outras pessoas podem utilizar o conjunto de dados publicado da Ana para os seus próprios relatórios (e nas respetivas áreas de trabalho) e permitir a todos utilizar o mesmo conjunto de dados sólido, aprovado e publicado para criar relatórios exclusivos.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Ligar a um conjunto de dados do serviço Power BI através de uma ligação em direto
-A Ana cria um relatório (e o conjunto de dados em que se baseia) e publica-o no **serviço Power BI**. O relatório é apresentado na área de trabalho da equipa no serviço Power BI. Se o guardar numa *nova experiência de área de trabalho*, ela poderá definir a permissão de Compilação para tornar o relatório disponível para visualização e utilização a todas as pessoas que estiverem dentro e fora da sua área de trabalho.
+A Ana cria um relatório (e o conjunto de dados em que se baseia) e publica-o no **serviço Power BI**. O relatório é apresentado na área de trabalho da equipa no serviço Power BI. Se a Ana o guardar numa *nova experiência de área de trabalho*, poderá definir a Permissão de compilação para tornar o relatório disponível para visualização e utilização para todas as pessoas que estiverem dentro e fora da sua área de trabalho.
 
 Para saber mais sobre a nova experiência de áreas de trabalho, veja [áreas de trabalho de aplicação](service-new-workspaces.md).
 
@@ -76,7 +76,7 @@ Depois de concluído, o **Power BI Desktop** mostra-lhe o êxito e fornece algum
 
 Agora que o seu relatório com o respetivo conjunto de dados está no serviço Power BI, também pode *promovê-lo* para verificar a sua qualidade e fiabilidade. Pode ainda pedir que o relatório seja *certificado* por uma autoridade central no seu inquilino do Power BI. Com uma destas recomendações, o seu conjunto de dados será sempre apresentado na parte superior da lista quando as pessoas estiverem à procura de conjuntos de dados. Se for do seu interesse, pode ler mais sobre o processo de [promover o seu conjunto de dados](service-datasets-promote.md). 
 
-O último passo é definir a *Permissão de compilação* para o conjunto de dados em que o relatório se baseia. A Permissão de compilação determina quem pode ver e utilizar o seu conjunto de dados. Pode vê-la na área de trabalho em si ou ao partilhar uma aplicação a partir da área de trabalho. Saiba mais sobre como definir a [Permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+O último passo é definir a *Permissão de compilação* para o conjunto de dados em que o relatório se baseia. A Permissão de compilação determina quem pode ver e utilizar o seu conjunto de dados. Pode vê-la na área de trabalho em si ou ao partilhar uma aplicação a partir da área de trabalho. Saiba mais sobre como definir a [Permissão de compilação](service-datasets-build-permissions.md).
 
 Em seguida, vamos ver como outros colegas com acesso à área de trabalho onde o relatório e o conjunto de dados foram publicados podem ligar ao conjunto de dados e criar os seus próprios relatórios.
 

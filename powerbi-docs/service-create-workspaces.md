@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903899"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020238"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar áreas de trabalho clássicas no Power BI
 
@@ -90,11 +90,11 @@ As aplicações são a evolução dos pacotes de conteúdos organizacionais. Se 
 * Depois de os utilizadores empresariais instalarem um pacote de conteúdos, este perde a respetiva identidade agrupada: é apenas uma lista de dashboards e relatórios misturados com outros dashboards e relatórios. As aplicações, por outro lado, mantêm o respetivo agrupamento e identidade, mesmo após a instalação. Este agrupamento torna mais fácil aos utilizadores empresariais continuarem a navegar nas aplicações ao longo do tempo.
 * Pode criar vários pacotes de conteúdos a partir de qualquer área de trabalho, mas uma aplicação tem uma relação de 1:1 com a respetiva área de trabalho. 
 * Ao longo do tempo, planeamos preterir pacotes de conteúdos organizacionais, pelo que recomendamos que crie aplicações a partir de agora.  
-* Com a pré-visualização da nova experiência de área de trabalho, estamos a dar os primeiros passos no sentido de preterir os pacotes de conteúdos organizacionais. Não os poderá utilizar ou criar em áreas de trabalho de pré-visualização.
+* Com a nova experiência de área de trabalho, estamos a dar os primeiros passos no sentido de preterir os pacotes de conteúdos organizacionais. Não os poderá utilizar nem criar nas novas áreas de trabalho.
 
 Veja [Diferenças entre as novas áreas de trabalho e as existentes](service-new-workspaces.md#how-the-new-workspaces-are-different) para comparar ambas as áreas de trabalho. 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Instalar e utilizar aplicações no Power BI](service-create-distribute-apps.md)
-- [Criar as novas áreas de trabalho (pré-visualização)](service-create-the-new-workspaces.md)
+- [Criar as novas áreas de trabalho](service-create-the-new-workspaces.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

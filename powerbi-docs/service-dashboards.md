@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624031"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019599"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introdução aos dashboards para designers do Power BI
 
@@ -29,9 +29,6 @@ Os dashboards são uma funcionalidade apenas do serviço Power BI. Não estão d
 
 As visualizações que vê no dashboard são denominadas *mosaicos*. Pode *afixar* os mosaicos num dashboard a partir de relatórios. Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os designers do serviço Power BI](service-basic-concepts.md).
 
-> [!IMPORTANT]
-> É necessário uma licença [Power BI Pro](service-free-vs-pro.md) para criar dashboards.
-
 As visualizações num dashboard são provenientes de relatórios e cada relatório baseia-se num conjunto de dados. Uma forma de pensar num dashboard é pensar numa entrada para os relatórios e conjuntos de dados subjacentes. Selecionar uma visualização leva-o ao relatório (e ao conjunto de dados) em que se baseia.
 
 ![Diagrama a mostrar as relações entre dashboards, relatórios, conjuntos de dados](media/service-dashboards/power-bi-diagram.png)
@@ -40,6 +37,13 @@ As visualizações num dashboard são provenientes de relatórios e cada relató
 Os dashboards são uma forma fantástica de monitorizar a sua empresa e ver rapidamente todas as métricas mais importantes. As visualizações num dashboard podem ser provenientes de um ou vários conjuntos de dados subjacentes, ou de um ou vários relatórios subjacentes. Um dashboard combina dados no local e na cloud ao fornecer uma vista consolidada, independentemente de onde os dados residem.
 
 Um dashboard não é apenas uma imagem bonita. É também altamente interativa e os mosaicos são atualizados à medida que os dados subjacentes são alterados.
+
+## <a name="who-can-create-a-dashboard"></a>Como posso criar um dashboard?
+A capacidade de criar um dashboard é considerada uma funcionalidade de *criador* e exige permissões de edição no relatório. As permissões de edição estão disponíveis para os criadores de relatórios e para os colegas aos quais o criador concede acesso. Por exemplo, se o David criar um relatório na área de trabalho ABC e o adicionar como um membro dessa área de trabalho, ambos terão permissões de edição. Por outro lado, se um relatório tiver sido partilhado consigo diretamente ou como parte de uma [aplicação do Power BI](service-create-distribute-apps.md), estará a *consumir* o relatório. Poderá não conseguir afixar mosaicos a um dashboard. 
+
+> [!IMPORTANT]
+> Necessita de uma licença do [Power BI Pro](service-free-vs-pro.md) para criar dashboards nas áreas de trabalho. Pode criar dashboards na sua própria A Minha Área de Trabalho sem uma licença Power BI Pro.
+
 
 ## <a name="dashboards-versus-reports"></a>Dashboards versus relatórios
 Os [Relatórios](service-reports.md) e os dashboards parecem semelhantes porque ambos são telas preenchidas com visualizações. No entanto, há grandes diferenças, tal como pode ver na tabela abaixo.

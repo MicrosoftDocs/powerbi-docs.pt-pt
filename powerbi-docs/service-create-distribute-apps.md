@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305754"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020217"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -30,7 +30,7 @@ Os utilizadores empresariais obtêm as suas aplicações de algumas formas difer
 - Pode enviar-lhes uma ligação direta.
 - Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão.
 
-Pode criar a aplicação com a sua própria navegação incorporada, para que os utilizadores possam navegar facilmente nos seus conteúdos. Estes não podem modificar os conteúdos da aplicação. No entanto, podem interagir com a mesma no serviço Power BI ou numa das aplicações móveis para filtrar, realçar e ordenar os dados. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Também pode conceder-lhes permissão de compilação para se ligarem aos conjuntos de dados subjacentes e criar cópias dos relatórios na aplicação. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Pode criar a aplicação com a sua própria navegação incorporada, para que os utilizadores possam navegar facilmente nos seus conteúdos. Estes não podem modificar os conteúdos da aplicação. No entanto, podem interagir com a mesma no serviço Power BI ou numa das aplicações móveis para filtrar, realçar e ordenar os dados. Obtêm as atualizações automaticamente e pode controlar a frequência de atualização dos dados. Pode também conceder-lhes Permissão de compilação para se ligarem aos conjuntos de dados subjacentes e criarem cópias dos relatórios na aplicação. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md).
 
 ## <a name="licenses-for-apps"></a>Licenças para aplicações
 Para criar ou atualizar uma aplicação, necessita de uma licença do Power BI Pro. Para os *consumidores* da aplicação, existem duas opções.
@@ -166,11 +166,11 @@ Ao marcar a opção para **Permitir que os utilizadores se liguem aos conjuntos 
 - Procurar estes conjuntos de dados no Power BI Desktop e na experiência de obtenção de dados no serviço Power BI.
 - Criar relatórios e dashboards com base nestes conjuntos de dados.
 
-Ao desselecionar esta opção, os novos utilizadores que adicionar à aplicação não receberão a permissão de compilação. No entanto, para utilizadores de aplicações existentes, as permissões nos conjuntos de dados subjacentes não serão alteradas. Pode remover manualmente a permissão Compilação dos utilizadores da aplicação que já não deviam tê-la. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Ao desmarcar esta opção, os novos utilizadores que adicionar à aplicação não obterão a Permissão de compilação. No entanto, para utilizadores de aplicações existentes, as permissões nos conjuntos de dados subjacentes não serão alteradas. Pode remover manualmente a Permissão de compilação dos utilizadores da aplicação que já não deviam tê-la. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md).
 
 ## <a name="allow-users-to-copy-reports"></a>Permitir que os utilizadores copiem relatórios
 
-Quando selecionar a opção **Permitir que os utilizadores façam uma cópia dos relatórios nesta aplicação**, os seus utilizadores podem guardar quaisquer relatórios na aplicação em A Minha Área de Trabalho ou noutra área de trabalho. Para criar uma cópia, os utilizadores precisam de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium. Desta forma, os utilizadores podem personalizar os relatórios consoante as suas necessidades. Tem de selecionar a opção **Permitir que todos os utilizadores se liguem aos conjuntos de dados subjacentes da aplicação através da permissão Compilação** primeiro. Ao selecionar estas opções, está a ativar a nova capacidade [copiar relatórios de outras áreas de trabalho](service-datasets-copy-reports.md).
+Quando selecionar a opção **Permitir que os utilizadores façam uma cópia dos relatórios nesta aplicação**, os seus utilizadores podem guardar quaisquer relatórios na aplicação em A Minha Área de Trabalho ou noutra área de trabalho. Para criar uma cópia, os utilizadores precisam de uma licença Pro, mesmo que o relatório original esteja numa área de trabalho numa capacidade Premium. Desta forma, os utilizadores podem personalizar os relatórios consoante as suas necessidades. Primeiro tem de selecionar a opção **Permitir que todos os utilizadores se liguem aos conjuntos de dados subjacentes da aplicação através da Permissão de compilação**. Ao selecionar estas opções, está a ativar a nova capacidade [copiar relatórios de outras áreas de trabalho](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Anular publicação de uma aplicação
 Qualquer membro da área de trabalho pode anular a publicação da aplicação.
