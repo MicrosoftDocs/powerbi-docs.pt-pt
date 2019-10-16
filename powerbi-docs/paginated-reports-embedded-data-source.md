@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270834"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020795"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
 
@@ -76,21 +76,21 @@ Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seg
 
 - .rdl na mesma área de trabalho como conjunto de dados (mesmo proprietário): Suportado
 - .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
-- .rdl partilhado: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Aplicação partilhada: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- .rdl partilhado: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Aplicação partilhada: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
 - .rdl na mesma área de trabalho que o conjunto de dados (utilizador diferente): Suportado
-- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Segurança ao nível da função: precisa de permissões de complicação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta.
+- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Segurança ao nível da função: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta.
 
 ### <a name="new-experience-apps-and-app-workspaces"></a>Aplicações de nova experiência e áreas de trabalho de aplicação
 
 - .rdl na mesma área de trabalho que o conjunto de dados: Suportado
 - .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
-- .rdl partilhado: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Aplicação partilhada: precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
+- .rdl partilhado: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Aplicação partilhada: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
 - .rdl na mesma área de trabalho que o conjunto de dados (utilizador diferente) – suportado
-- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de permissões de compilação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Segurança ao nível da função: precisa de permissões de complicação atribuídas a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
+- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Segurança ao nível da função: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
 
 ## <a name="next-steps"></a>Próximos passos
 

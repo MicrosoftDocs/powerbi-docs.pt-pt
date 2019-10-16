@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074111"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020788"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)
 
@@ -23,7 +23,7 @@ O business intelligence é uma atividade de colaboração. É importante estabel
 
 ![Selecionar um conjunto de dados partilhado](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-No Power BI, os criadores de conjuntos de dados podem controlar quem tem acesso aos seus dados através da [permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Os criadores de conjuntos de dados também podem *certificar* ou *promover* os mesmos, para que outras pessoas possam detetá-los. Desta forma, os autores de relatórios sabem quais são os conjuntos de dados oficiais e de alta qualidade e podem utilizá-los onde quer que criem no Power BI. Os administradores de inquilinos têm uma nova definição de inquilino para [controlar a utilização de conjuntos de dados em várias áreas de trabalho](service-datasets-admin-across-workspaces.md).
+No Power BI, os criadores de conjuntos de dados podem controlar quem tem acesso aos seus dados através da [permissão de compilação](service-datasets-build-permissions.md). Os criadores de conjuntos de dados também podem *certificar* ou *promover* os mesmos, para que outras pessoas possam detetá-los. Desta forma, os autores de relatórios sabem quais são os conjuntos de dados oficiais e de alta qualidade e podem utilizá-los onde quer que criem no Power BI. Os administradores de inquilinos têm uma nova definição de inquilino para [controlar a utilização de conjuntos de dados em várias áreas de trabalho](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Partilha de conjuntos de dados e a nova experiência de área de trabalho
 
@@ -44,7 +44,7 @@ Quando encontrar um relatório do seu agrado numa área de trabalho ou numa apli
 
 ## <a name="build-permission-for-datasets"></a>Permissão de compilação de conjuntos de dados
 
-Com o tipo de permissão de Compilação, se for um criador de conjuntos de dados, poderá determinar quem na sua organização pode compilar novos conteúdos nos seus conjuntos de dados. As pessoas com permissão de compilação também podem compilar novos conteúdos no conjunto de dados, como folhas do Excel, fora do Power BI, através da funcionalidade Analisar no Excel, de XMLA e de exportação. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Com o tipo de Permissão de compilação, se for um criador de conjuntos de dados, poderá determinar quem na sua organização pode compilar novos conteúdos nos seus conjuntos de dados. As pessoas com Permissão de compilação também podem compilar novo conteúdo no conjunto de dados, como folhas do Excel, fora do Power BI, através da funcionalidade Analisar no Excel, de XMLA e de exportação. Saiba mais sobre a [permissão de compilação](service-datasets-build-permissions.md).
 
 ## <a name="promotion-and-certification"></a>Promoção e certificação
 
@@ -54,19 +54,17 @@ Se criar um conjunto de dados de que outras pessoas podem tirar partido, poderá
 
 As funcionalidades e experiências específicas baseadas nas capacidades de conjuntos de dados partilhados são licenciadas de acordo com os respetivos cenários existentes. Por exemplo:
 
-- Geralmente, a deteção e ligação a conjuntos de dados partilhados está disponível para todas as pessoas. No entanto, os utilizadores sem uma licença Pro só podem ligar a conjuntos de dados que residem nas suas áreas de trabalho pessoais.
-- Os utilizadores sem uma licença Pro só podem consumir relatórios e dashboards criados num conjunto de dados partilhado se ambas as áreas de trabalho (a que contém o conteúdo e a que contém o conjunto de dados) forem alojadas numa capacidade Premium.
-- No Power BI Desktop, os utilizadores sem uma licença Pro só podem ver conjuntos de dados de A Minha Área de Trabalho.
+- Geralmente, a deteção e a ligação a conjuntos de dados partilhados está disponível para todas as pessoas – não é uma funcionalidade reservada ao Premium.
+- Os utilizadores sem licenças Pro só poderão utilizar os conjuntos de dados entre áreas de trabalho para a criação de relatórios se esses conjuntos de dados residirem em A Minha Área de Trabalho pessoal dos utilizadores ou numa área de trabalho com suporte Premium. A mesma restrição de licenciamento aplica-se quer criem relatórios no Power BI Desktop, quer no serviço Power BI.
 - A cópia de relatórios entre áreas de trabalho exige uma licença Pro.
 - A cópia de relatórios de uma aplicação exige uma licença Pro, tal como era necessário para pacotes de conteúdos organizacionais.
 - A promoção e a certificação de conjuntos de dados exige uma licença Pro.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
+- Enquanto publicador de aplicações, tem de garantir que o seu público tem acesso aos conjuntos de dados fora da área de trabalho da aplicação. Caso contrário, os utilizadores encontrarão problemas quando interagirem com a aplicação: os relatórios não abrirão sem o acesso aos conjuntos de dados e os mosaicos do dashboard serão mostrados como bloqueados. Além disso, os utilizadores não poderão abrir a aplicação se o primeiro item na navegação for um relatório sem acesso ao conjunto de dados.
 - A compilação de um relatório baseado num conjunto de dados numa área de trabalho diferente exige a nova experiência de área de trabalho a ambos os níveis: tanto o relatório como o conjunto de dados têm de estar numa nova experiência de área de trabalho.
-- Suponhamos que cria um relatório na Área de Trabalho A que se baseia num conjunto de dados na Área de Trabalho B. Ao criar uma aplicação para a área de Trabalho A, só pode incluir esse relatório na aplicação da Área de Trabalho A se também for um membro da Área de Trabalho B.
 - Numa área de trabalho clássica, ao detetar conjuntos de dados, apenas são apresentados os conjuntos nessa área de trabalho.
-- Se quiser adicionar um relatório baseado num conjunto de dados partilhado a uma aplicação, terá de ser um membro da área de trabalho do conjunto de dados. Este problema já é conhecido.
 - Por predefinição, a opção “Publicar na Web” não funciona para um relatório baseado num conjunto de dados partilhado.
 - Se duas pessoas forem membros de uma área de trabalho que está a aceder a um conjunto de dados partilhado, é possível que apenas uma delas consiga ver o conjunto de dados relacionado na área de trabalho. Apenas as pessoas com pelo menos acesso de leitura ao conjunto de dados podem ver o conjunto de dados partilhado. 
 
