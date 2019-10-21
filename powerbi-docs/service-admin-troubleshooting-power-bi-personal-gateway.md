@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: db74f38dac655ee4d3eac8722a1cd3f70b5ab1a3
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832605"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543539"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Resolver problemas do gateway do Power BI (modo pessoal)
 
@@ -108,7 +108,7 @@ Atualmente, o Power BI não suporta a autenticação do Windows para uma origem 
 Se for apresentada uma mensagem de erro ao atualizar os mosaicos do dashboard, veja [Resolver problemas de erros de mosaicos](refresh-troubleshooting-tile-errors.md).
 
 ## <a name="tools-for-troubleshooting"></a>Ferramentas para resolução de problemas
-### <a name="refresh-history"></a>Atualizar histórico
+### <a name="refresh-history"></a>Histórico de atualizações
 Com o **Histórico de atualizações**, pode ver os erros que ocorreram e encontrar dados úteis, caso precise de criar um pedido de suporte. Pode ver as atualizações agendadas e a pedido. Eis como pode aceder ao **Histórico de atualizações**.
 
 1. No painel de navegação do Power BI, em **Conjuntos de Dados**, selecione um conjunto de dados. Abra o menu e selecione **Agendar Atualização**.

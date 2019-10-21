@@ -7,15 +7,15 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6a846a0588aff7dd52e725bfed1435276730e2a3
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757693"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543834"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 
@@ -223,7 +223,7 @@ Será apresentada a mensagem de erro "-10709 Falha na ligação" se a sua delega
 
    ![Separador Delegação](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
 
-## <a name="refresh-history"></a>Atualizar histórico
+## <a name="refresh-history"></a>Histórico de atualizações
 
 Quando utiliza o gateway para uma atualização agendada, o **Histórico de atualizações** pode ajudar a ver que erros ocorreram. Também pode fornecer dados úteis se precisar de criar um pedido de suporte. Pode ver as atualizações agendadas ou a pedido. Os seguintes passos mostram como pode aceder ao histórico de atualizações.
 
@@ -254,4 +254,4 @@ Para obter mais informações sobre a resolução de problemas de cenários de a
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Gerir a origem de dados – atualização importada/agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Mais perguntas? Experimente a [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61262724"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307458"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
@@ -44,7 +44,7 @@ Os elementos visuais personalizados permitem-lhe criar os seus elementos visuais
 
 ![Exemplo de CV](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-Para começar a saber mais sobre o desenvolvimento de elementos visuais personalizados, veja [Desenvolver um elemento visual personalizado do Power BI](custom-visual-develop-tutorial.md).
+Para começar a saber mais sobre o desenvolvimento de elementos visuais personalizados, veja [Desenvolver um elemento visual personalizado do Power BI](visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="using-api-automation"></a>Com a automatização de API
 

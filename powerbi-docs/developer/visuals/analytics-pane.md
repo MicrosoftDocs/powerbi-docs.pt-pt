@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 67f9bc793b78d2019875b8165ea71fa712fd9d23
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 0782ea63a9833c220e4d96886d79d42af643e111
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193695"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307589"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>O Painel de análise em elementos visuais do Power BI
 
@@ -26,7 +26,7 @@ Este artigo aborda a forma como os elementos visuais do Power BI com a API v2.5.
 
 ## <a name="manage-the-analytics-pane"></a>Gerir o Painel de análise
 
-Do mesmo modo que gere as propriedades no painel [**Formatação** ](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual. 
+Do mesmo modo que gere as propriedades no painel [**Formatação** ](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual.
 
 Relativamente ao Painel de **análise**, as diferenças são as seguintes:
 

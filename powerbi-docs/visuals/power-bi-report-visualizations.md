@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aabc58e34e5ba61f44673905450c8feb8d6ace47
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532241"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307169"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
@@ -28,7 +28,7 @@ Existem vários tipos de elementos visuais disponíveis diretamente a partir do 
 
 ![](media/power-bi-report-visualizations/power-bi-templates.png)
 
-E para ter ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [elementos visuais personalizados](../developer/custom-visual-develop-tutorial.md) fornecidos pela Microsoft e pela comunidade.
+E para ter ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [elementos visuais personalizados](../developer/visuals/custom-visual-develop-tutorial.md) fornecidos pela Microsoft e pela comunidade.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ Se for novo no Power BI, ou se precisar de relembrar alguns aspetos, utilize as 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Carregar uma visualização personalizada e utilizá-la no Power BI
 
-Adicione uma visualização personalizada que criou ou que encontrou no [site da comunidade do Microsoft AppSource ](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Sente-se criativo? Aprofunde o nosso código fonte e utilize as nossas [ferramentas de programador](../developer/custom-visual-develop-tutorial.md) para criar um novo tipo de visualização e [partilhá-la com a comunidade](../developer/office-store.md). Para saber mais sobre como desenvolver um elemento visual personalizado, aceda a [Desenvolver um elemento visual personalizado do Power BI](../developer/custom-visual-develop-tutorial.md).
+Adicione uma visualização personalizada que criou ou que encontrou no [site da comunidade do Microsoft AppSource ](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Sente-se criativo? Aprofunde o nosso código fonte e utilize as nossas [ferramentas de programador](../developer/visuals/custom-visual-develop-tutorial.md) para criar um novo tipo de visualização e [partilhá-la com a comunidade](../developer/office-store.md). Para saber mais sobre como desenvolver um elemento visual personalizado, aceda a [Desenvolver um elemento visual personalizado do Power BI](../developer/visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="personalize-your-visualization-pane-preview"></a>Personalizar o seu painel de visualização (pré-visualização)
 

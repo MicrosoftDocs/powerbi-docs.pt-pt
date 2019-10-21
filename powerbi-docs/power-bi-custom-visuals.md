@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946182"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307486"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
@@ -57,7 +57,7 @@ O que é o [AppSource](developer/office-store.md)? É o local onde se encontram 
 Os elementos visuais certificados do Power BI são elementos visuais do marketplace que passaram em testes rigorosos adicionais ao nível da qualidade e são suportados em cenários adicionais, tais como as [subscrições de e-mails](service-report-subscribe.md) e a [exportação para o PowerPoint](service-publish-to-powerpoint.md).
 Para ver a lista de elementos visuais do Power BI certificados ou para submeter o seu, veja [Elementos visuais do Power BI certificados](power-bi-custom-visuals-certified.md).
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao AppSource? Veja [Desenvolver um elemento visual personalizado do Power BI](developer/custom-visual-develop-tutorial.md) e saiba como [publicar elementos visuais do Power BI no AppSource](developer/office-store.md).
+É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao AppSource? Veja [Desenvolver um elemento visual personalizado do Power BI](developer/visuals/custom-visual-develop-tutorial.md) e saiba como [publicar elementos visuais personalizados no AppSource](developer/office-store.md).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Importar um elemento visual personalizado de um ficheiro
 

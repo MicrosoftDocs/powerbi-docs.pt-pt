@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946221"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307819"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -31,7 +31,7 @@ O processo de certificação é opcional e cabe aos programadores decidir se que
 
 Os **elementos visuais do Power BI não certificados** não são necessariamente inseguros. Alguns elementos visuais não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Um exemplo disto é a ligação a um serviço externo, como elementos visuais de mapa, ou elementos visuais que utilizam bibliotecas comerciais.
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Veja  **[Develop a Power BI custom visual](developer/custom-visual-develop-tutorial.md)** (Desenvolver um elemento visual personalizado do Power BI) para saber como o pode fazer.
+É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Veja  **[Develop a Power BI custom visual](developer/visuals/custom-visual-develop-tutorial.md)** (Desenvolver um elemento visual personalizado do Power BI) para saber como o pode fazer.
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Remoção dos elementos visuais do Power BI Certificados
 
@@ -196,7 +196,7 @@ Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas
 
 ## <a name="next-steps"></a>Próximos passos
 
-* [Developing a Power BI custom visual](developer/custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)
+* [Developing a Power BI custom visual](developer/visuals/custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)
 * [Lista de reprodução visual personalizada da Microsoft no YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualizações no Power BI](visuals/power-bi-report-visualizations.md)  
 * [Visualizações Personalizadas no Power BI](power-bi-custom-visuals.md)  
