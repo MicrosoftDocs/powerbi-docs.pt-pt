@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823476"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259957"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Integração do Azure Machine Learning no Power BI
 
@@ -70,7 +70,7 @@ Os cientistas de dados utilizam o Python sobretudo para desenvolver e, inclusiva
 
 O ficheiro de esquema tem de estar incluído no serviço Web implementado para modelos do Serviço Machine Learning. Para gerar automaticamente o esquema para o serviço Web, tem de disponibilizar um exemplo de entrada/saída no script de entrada para o modelo implementado. Veja a subsecção sobre a geração de esquemas Swagger Automáticos (Opcional) nos Modelos de implementação com a documentação do serviço Azure Machine Learning. A ligação inclui o script de entrada de exemplo com as instruções para a geração de esquemas. 
 
-Em específico, as funções *@input_schema* e *@output_schema* no script de entrada fazem referência aos formatos de exemplo de entrada e de saída nas variáveis *exemplo_entrada* e *exemplo_saída* e utilizam estes exemplos para gerar uma especificação OpenAPI (Swagger) para o serviço Web durante a implementação.
+Em específico, as funções *\@input_schema* e *\@output_schema* no script de entrada fazem referência aos formatos de exemplo de entrada e de saída nas variáveis *input_sample* e *output_sample* e utilizam estes exemplos para gerar uma especificação OpenAPI (Swagger) para o serviço Web durante a implementação.
 
 Estas instruções para a geração de esquemas ao atualizar o script de entrada também têm de ser aplicadas aos modelos criados com experimentações de aprendizagem automática com o SDK do Azure Machine Learning.
 

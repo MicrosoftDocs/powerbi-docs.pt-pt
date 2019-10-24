@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995273"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544016"
 ---
 # <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 O elemento visual de influenciadores principais ajuda a compreender os fatores que motivam uma métrica em que esteja interessado. Este analisa os seus dados, classifica os fatores que são importantes e apresenta-os como influenciadores principais. Por exemplo, imagine que pretende determinar o que influencia a rotatividade dos colaboradores. Alguns dos fatores podem ser a duração dos contratos de trabalho e a idade dos colaboradores. 
  
 ## <a name="when-to-use-key-influencers"></a>Quando devem ser utilizados os influenciadores principais 
@@ -49,6 +52,10 @@ O elemento visual de influenciadores principais é uma ótima opção caso queir
  
 Veja este vídeo para saber como criar um elemento visual de influenciadores principais com uma métrica categórica. Em seguida, siga estes passos para criar um. 
 
+   > [!NOTE]
+   > Este vídeo utiliza uma versão anterior do Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 O seu Gestor de Produtos pretende que descubra quais são os fatores que levam os clientes a tecer críticas negativas sobre o nosso serviço cloud. Para acompanhar, abra o [ficheiro PBIX Customer Feedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) (Feedback dos Clientes) no Power BI Desktop. Também pode transferir o [ficheiro do Excel Customer Feedback (Feedback dos Clientes) para o serviço Power BI ou Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
@@ -137,7 +144,7 @@ O gráfico de dispersão no painel direito indica a percentagem média de classi
 
 Em alguns casos, poderá reparar que os seus fatores contínuos foram automaticamente transformados em fatores categóricos. Isto ocorre porque nos apercebemos de que a relação entre variáveis não é linear, pelo que não podemos descrever a relação simplesmente como uma relação que está a aumentar ou a diminuir (como fizemos no exemplo acima).
 
-Executamos testes de correlação para determinar o grau de linearidade do influenciador em relação ao destino. Se o destino for contínuo, executamos a correlação de Pearson e, se o destino for categórico, executamos testes de correlação ponto-bisserial. Se detetarmos que a relação não é suficientemente linear, realizamos discretização supervisionada e geramos um máximo de 5 discretizações. Para descobrir que discretizações fazem mais sentido, utilizamos um método de discretização supervisionada que observa a relação entre o fator explicativo e o destino a ser analisado.
+Executamos testes de correlação para determinar o grau de linearidade do influenciador em relação ao destino. Se o destino for contínuo, executamos a correlação de Pearson e, se o destino for categórico, executamos os testes de correlação Ponto-Bisserial. Se detetarmos que a relação não é suficientemente linear, realizamos discretização supervisionada e geramos um máximo de 5 discretizações. Para descobrir que discretizações fazem mais sentido, utilizamos um método de discretização supervisionada que observa a relação entre o fator explicativo e o destino a ser analisado.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretar medidas e agregações como influenciadores principais 
  
@@ -245,7 +252,7 @@ As medidas e colunas resumidas são analisadas automaticamente ao nível dos cam
 
 ![Tabela de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
-Esta análise é muito resumida e, portanto, será difícil para o modelo de regressão encontrar padrões nos dados a partir dos quais pode aprender. Devemos executar a análise a um nível mais detalhado para obter resultados melhores. Se quiséssemos analisar o preço da casa ao nível da casa, teríamos de adicionar explicitamente o campo **ID** à análise. No entanto, não queremos que o ID da casa seja considerado um influenciador. Não é útil saber que, à medida que o ID da casa aumenta, o preço de uma casa aumenta. É aqui que a opção **Expandir por** se torna útil. Pode utilizar a opção **Expandir por** para adicionar campos que pretende utilizar para definir o nível da análise sem procurar novos influenciadores.
+Esta análise é muito resumida e, portanto, será difícil para o modelo de regressão encontrar padrões nos dados a partir dos quais pode aprender. Devemos executar a análise a um nível mais detalhado para obter resultados melhores. Se quiséssemos analisar o preço da casa ao nível da casa, teríamos de adicionar explicitamente o campo **ID** à análise. No entanto, não queremos que o ID da casa seja considerado um influenciador. Não é útil saber que, à medida que o ID da casa aumenta, o preço de uma casa aumenta. É aqui que a opção do grupo de campos **Expandir por** se torna útil. Pode utilizar a opção **Expandir por** para adicionar campos que pretende utilizar para definir o nível da análise sem procurar novos influenciadores.
 
 Observe o aspeto da visualização assim que adicionarmos **ID** a **Expandir por**. Assim que definir o nível a que pretende que a sua medida seja avaliada, a interpretação dos influenciadores é exatamente igual para [colunas numéricas não resumidas](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
 

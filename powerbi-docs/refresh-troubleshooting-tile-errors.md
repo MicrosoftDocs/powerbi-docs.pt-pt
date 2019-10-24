@@ -7,16 +7,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051002"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544276"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
@@ -65,16 +65,16 @@ O campo provavelmente foi eliminado ou o seu nome foi alterado. É possível rem
 
 Isso geralmente é um problema temporário. Se tentar novamente mais tarde e continuar a receber essa mensagem, entre em contacto com o suporte.
 
-**Mosaicos continuam a mostrar os dados não filtrados depois de ativar o início de sessão único (SSO).**
+**Os mosaicos continuam a mostrar os dados não filtrados após ativar o início de sessão único (SSO).**
 
-Isto pode acontecer se o conjunto de dados subjacente é configurado para utilizar o modo DirectQuery ou de uma ligação em direto ao Analysis Services por meio de um gateway de dados no local. Neste caso, os mosaicos continuam mostrar os dados não filtrados depois de ativar o SSO para a origem de dados até que a atualização de mosaico seguinte é concluída. Na próxima atualização de mosaico, o Power BI utiliza o SSO, conforme configurado e os mosaicos mostram os dados filtrados de acordo com a identidade do utilizador. 
+Este problema poderá ocorrer se o conjunto de dados subjacente estiver configurado para utilizar o modo DirectQuery ou uma Ligação em Direto para o Analysis Services através de um gateway de dados no local. Neste caso, os mosaicos continuam a mostrar os dados não filtrados depois de ativar o SSO para a origem de dados até que o próximo mosaico seja atualizado. Na próxima atualização do mosaico, o Power BI utiliza o SSO conforme configurado e os mosaicos mostram os dados filtrados de acordo com a identidade do utilizador. 
 
-Se quiser ver os dados filtrados imediatamente, pode forçar uma atualização do mosaico ao selecionar as reticências (...) no canto superior direito de um dashboard e selecionar **atualizar mosaicos do dashboard**.
+Se quiser ver os dados filtrados imediatamente, poderá forçar uma atualização do mosaico ao selecionar as reticências (...) no canto superior direito de um dashboard e, em seguida, **Atualizar mosaicos do dashboard**.
 
-Como um proprietário de conjunto de dados, também pode alterar a frequência de atualização de mosaico e defini-lo como 15 minutos para acelerar a atualização de mosaicos. Selecione o ícone de engrenagem no canto superior direito do serviço Power BI, em seguida, selecione **definições**. Sobre o **definições** página, selecione a **conjuntos de dados** separador. Expanda **atualização de cache agendada** e altere **frequência de atualização**. Certifique-se de que reposição da configuração para a frequência de atualização original depois do Power BI executa a seguinte atualização de mosaicos.
+Como proprietário de um conjunto de dados, também pode alterar a frequência de atualização dos mosaicos e defini-la como 15 minutos para acelerar a atualização dos mosaicos. Selecione o ícone da engrenagem no canto superior direito do serviço Power BI e, em seguida, selecione **Definições**. Na página **Definições**, selecione o separador **Conjunto de dados**. Expanda **Atualização de cache agendada** e altere a **Frequência de atualização**. Confirme que repõe a configuração da frequência de atualização original após o Power BI executar a próxima atualização de mosaico.
 
 > [!NOTE]
-> O **atualização de cache agendada** secção só está disponível para conjuntos de dados no modo DirectQuery/LiveConnection. Conjuntos de dados no modo de importação não necessitam de uma atualização de mosaicos separadas porque os mosaicos são atualizados automaticamente durante a atualização de dados agendada seguinte.
+> A seção **Atualização de cache agendada** só está disponível para conjuntos de dados no modo DirectQuery/LiveConnection. Os conjuntos de dados no modo de Importação não precisam de uma atualização de mosaico em separado, dado que os mosaicos são atualizados automaticamente durante a próxima atualização de dados agendada.
 
 ## <a name="contact-support"></a>Contact support
 Se ainda estiver com problemas, [entre em contacto com o suporte](https://support.powerbi.com) para investigá-los mais aprofundadamente.

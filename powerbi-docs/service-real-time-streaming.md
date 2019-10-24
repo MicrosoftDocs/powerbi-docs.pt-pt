@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514302"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307341"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.
@@ -236,7 +236,14 @@ Segue-se uma lista de verificação que pode utilizar para resolver o problema:
 5. A tarefa do Azure Stream Analytics tem dados que estejam a ser transmitidos em fluxo? O conjunto de dados só será criado se estiverem a ser transmitidos dados.
 6. Consegue consultar os registos do Azure Stream Analytics para verificar se foram emitidos avisos ou erros?
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="automatic-page-refresh"></a>Atualização automática de página
+
+A atualização automática de página funciona ao nível da página de relatório e permite que os autores de relatórios definam um intervalo de atualização para os elementos visuais numa página que só está ativa quando está a ser consumida. A atualização automática de página só está disponível para origens de dados DirectQuery. O intervalo de atualização mínimo depende do tipo de área de trabalho na qual o relatório é publicado e das definições de administração de capacidades das áreas de trabalho Premium.
+
+Saiba mais sobre a atualização automática de página no artigo de [atualização automática de página](desktop-automatic-page-refresh.md).
+
+
+## <a name="next-steps"></a>Próximos passos
 Seguem-se algumas ligações que poderão ser úteis quando estiver a trabalhar com a transmissão em fluxo em tempo real no Power BI:
 
 * [Descrição geral da API REST do Power BI com dados em tempo real](https://docs.microsoft.com/rest/api/power-bi/)

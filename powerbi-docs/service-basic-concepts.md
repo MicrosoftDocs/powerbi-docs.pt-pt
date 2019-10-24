@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770788"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543099"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço Power BI
 
@@ -33,10 +33,11 @@ Quando abrir o serviço Power BI num browser, começa no seu ecrã principal. Ei
 3. botão Início do Power BI
 4. Botões de ícone, incluindo as definições, a ajuda e o feedback
 5. Caixa de pesquisa
-6. Mosaicos de um dashboard favorito
-7. Dashboards e relatórios favoritos e frequentes
+6. Dashboards, relatórios e áreas de trabalho favoritos e frequentes
+7. Dashboards, relatórios e áreas de trabalho recentes
+8. As áreas de trabalho
 
-Os utilizadores finais dos seus relatórios e dashboards têm a mesma experiência de início no serviço Power BI num browser.
+Você e os utilizadores finais dos relatórios e dos dashboards têm a mesma experiência de início no serviço Power BI num browser.
 
 Aprofundaremos estas funcionalidades mais tarde, mas primeiro vamos examinar alguns conceitos do Power BI. Ou talvez queira ver este vídeo em primeiro lugar.  No vídeo, o Will revê os conceitos básicos e faz uma apresentação do serviço Power BI.
 
@@ -195,8 +196,8 @@ As Perguntas e Respostas procuram uma resposta no conjunto(s) de dados ligado ao
 
 Assim que começa a escrever a sua pergunta, as Perguntas e Respostas levam-no até a página de Perguntas e Respostas. À medida que digita, as Perguntas e Respostas ajudam-no a fazer a pergunta certa e a encontrar a melhor resposta com reformulações frásicas, preenchimento automático, sugestões e muito mais. Quando encontrar uma visualização (resposta) de que gosta, afixe-a no seu dashboard. Para obter mais informações, consulte [Perguntas e Respostas no Power BI](power-bi-q-and-a.md).
 
-### <a name="4-icon-buttons"></a>4. **Botões de ícone**
-Os ícones no canto superior direito são recursos para as definições, as notificações, as transferências, obter ajuda e fornecer comentários à equipa do Power BI. Selecione a seta dupla para abrir o dashboard no modo de **Ecrã inteiro**.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **Ícones na barra de cabeçalho preta**
+Os ícones no canto superior direito são recursos para as definições, as notificações, as transferências, para obter ajuda, para ligar e desligar o **Novo aspeto** e para fornecer comentários à equipa do Power BI.  
 
 ![botões de ícone](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Selecionar o **Power BI** reencaminha-o novamente para a sua página inicial do 
 
    !["Power BI" no serviço](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **Botões de ícone etiquetados**
-Esta área do ecrã contém opções adicionais para interagir com o conteúdo (neste caso, com o dashboard).  Além dos ícones etiquetados que pode ver, se selecionar as reticências, poderá ver as opções para duplicar, imprimir e atualizar o dashboard, entre outras.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Ícones etiquetados na barra de menus cinzenta**
+Esta área do ecrã contém opções adicionais para interagir com o conteúdo (neste caso, com o dashboard).  Além dos ícones etiquetados que pode ver, se selecionar **Mais opções (...)** , poderá ver as opções para duplicar, imprimir e atualizar o dashboard, entre outras.
 
    ![botões de ícone etiquetados](media/service-basic-concepts/power-bi-labeled-icons.png)
 

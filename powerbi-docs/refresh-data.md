@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325044"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307937"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -108,7 +108,7 @@ Se tiver criado os conjuntos de dados e os relatórios com base num ficheiro do 
 
 Ao contrário de uma atualização do conjunto de dados, durante a qual o Power BI importa dados de uma origem de dados para um conjunto de dados, a atualização do OneDrive sincroniza os conjuntos de dados e relatórios com os respetivos ficheiros de origem. Por predefinição, o Power BI verifica de hora a hora se um conjunto de dados ligado a um ficheiro no OneDrive ou SharePoint Online necessita de sincronização. Para rever os últimos ciclos de sincronização, consulte o separador OneDrive no histórico de atualizações. A seguinte captura de ecrã mostra um ciclo de sincronização concluído para um conjunto de dados de exemplo.
 
-![Atualizar histórico](media/refresh-data/refresh-history.png)
+![Histórico de atualizações](media/refresh-data/refresh-history.png)
 
 Como mostra a captura de ecrã acima, o Power BI identificou esta atualização do OneDrive como uma atualização **Agendada**, mas não é possível configurar o intervalo de atualização. A atualização do OneDrive só pode ser desativada nas definições do conjunto de dados. A desativação da atualização é útil se não quiser que os conjuntos de dados e os relatórios no Power BI detetem automaticamente as alterações dos ficheiros de origem.
 
@@ -309,6 +309,13 @@ O ícone de aviso ajuda a indicar problemas de conjuntos de dados atuais, mas ta
 > [!NOTE]
 > Encontrará uma ligação para apresentar o histórico de atualizações nas definições do conjunto de dados. Também pode obter o histórico de atualizações programaticamente ao utilizar a [API REST do Power BI](/rest/api/power-bi/datasets/getrefreshhistoryingroup). Ao utilizar uma solução personalizada, pode monitorizar o histórico de atualizações de múltiplos conjuntos de dados de forma centralizada.
 
+## <a name="automatic-page-refresh"></a>Atualização automática de página
+
+A atualização automática de página funciona ao nível da página de relatório e permite que os autores de relatórios definam um intervalo de atualização para os elementos visuais numa página que só está ativa quando está a ser consumida. A atualização automática de página só está disponível para origens de dados DirectQuery. O intervalo de atualização mínimo depende do tipo de área de trabalho na qual o relatório é publicado e das definições de administração de capacidades das áreas de trabalho Premium.
+
+Saiba mais sobre a atualização automática de página no artigo de [atualização automática de página](desktop-automatic-page-refresh.md).
+
+
 ## <a name="best-practices"></a>Melhores práticas
 
 Verificar o histórico de atualizações dos conjuntos de dados regularmente é uma das melhores práticas mais importantes que pode adotar para garantir que os relatórios e dashboards utilizam dados atuais. Se detetar problemas, resolva-os imediatamente e acompanhe os proprietários das origens de dados e os administradores de gateway, se necessário.
@@ -324,6 +331,7 @@ Além disso, considere as seguintes recomendações para estabelecer e manter pr
 - Utilize uma implementação de gateway de dados empresarial fiável para ligar os conjuntos de dados a origens de dados no local. Se observar falhas de atualização relacionadas com o gateway, tais como gateway indisponível ou sobrecarregado, acompanhe os administradores de gateway para adicionar gateways adicionais a um cluster existente ou implementar um novo cluster (aumento vertical em comparação com aumento horizontal).
 - Utilize gateways de dados separados para conjuntos de dados de Importação e conjuntos de dados DirectQuery/LiveConnect, para que as importações de dados durante a atualização agendada não afetem o desempenho de relatórios e dashboards sobre conjuntos de dados DirectQuery/LiveConnect, que consultam as origens de dados com cada interação do utilizador.
 - Certifique-se de que o Power BI pode enviar notificações de falha de atualização para sua caixa de correio. Os filtros de spam podem bloquear as mensagens de e-mail ou movê-las para uma pasta separada, onde poderá não reparar nelas imediatamente.
+
 
 ## <a name="next-steps"></a>Próximos passos
 

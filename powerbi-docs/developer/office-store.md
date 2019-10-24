@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944804"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307667"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Publicar elementos visuais do Power BI no AppSource
 
 Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
 
-Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Tem de fazer alguns preparativos para o poder fazer. Para obter mais informações sobre como criar um elemento visual personalizado, veja Desenvolver um [Elemento Visual Personalizado do Power BI](custom-visual-develop-tutorial.md).
+Depois de criar o seu visual personalizado, pode querer publicá-lo no AppSource para que outros o possam encontrar e utilizar. Tem de fazer alguns preparativos para o poder fazer. Para obter mais informações sobre como criar um elemento visual personalizado, veja Desenvolver um [Elemento Visual Personalizado do Power BI](visuals/custom-visual-develop-tutorial.md).
 
    ![Loja do Office](media/office-store/appsource-01.png)
 
@@ -30,7 +30,7 @@ O **AppSource** é o local onde pode encontrar aplicações SaaS e suplementos p
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparar a submissão do seu elemento visual personalizado
 
-Depois de concluir a leitura das nossas [diretrizes sobre elementos visuais do Power BI](guidelines-powerbi-visuals.md), de codificar e [testar o seu elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e de o ter compactado num ficheiro pbiviz, também deverá ter os seguintes itens prontos para serem submetidos.
+Depois de concluir a leitura das nossas [diretrizes sobre elementos visuais do Power BI](guidelines-powerbi-visuals.md), de codificar e [testar o elemento visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e de o ter compactado num ficheiro pbiviz, também deverá ter os seguintes itens prontos para serem submetidos.
 
 | Item | Necessário | Descrição |
 | --- | --- | --- |
@@ -147,7 +147,7 @@ Uma vez criado o elemento visual, pode proceder opcionalmente à certificação 
 
 ## <a name="next-steps"></a>Próximos passos
 
-[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)  
+[Developing a Power BI custom visual](visuals/custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)  
 [Visualizações no Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizações Personalizadas no Power BI](../power-bi-custom-visuals.md)  
 [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md)

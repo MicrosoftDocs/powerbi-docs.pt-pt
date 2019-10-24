@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968822"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544607"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Add a filter to a report in Power BI (Adicionar um filtro a um relatório no Power BI)
 
@@ -51,11 +51,12 @@ Pode adicionar um filtro ao nível do elemento visual a um elemento visual espec
 * Filtrar um campo que já está a ser utilizado pela visualização.
 * Identificar um campo que ainda não está a ser utilizado pela visualização e adicionar esse campo diretamente ao registo **Filtros de nível de elemento visual**.
 
-A propósito, este procedimento utiliza o exemplo de Análise de Revenda, caso o queira transferir e acompanhar. Transferir o [exemplo de Análise de Revenda](sample-retail-analysis.md).
+
+A propósito, este procedimento utiliza o exemplo de Análise de Revenda, caso o queira transferir e acompanhar. Transfira o pacote de conteúdos de [Exemplo de Análise de Revenda](sample-retail-analysis.md#get-the-content-pack-for-this-sample).
 
 ### <a name="filter-the-fields-in-the-visual"></a>Filtrar os campos no elemento visual
 
-1. Selecione **Editar relatório** para abrir o relatório na Vista de edição.
+1. Selecione **Mais opções (...)**  > **Editar relatório** para abrir o relatório na Vista de edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ A propósito, este procedimento utiliza o exemplo de Análise de Revenda, caso o
 
 Agora, vamos adicionar um novo campo à nossa visualização como um filtro de nível de elemento visual.
    
-1. No painel Campos, selecione o campo que quer adicionar como um novo filtro de nível de elemento visual e arraste-o para a área **Filtros de nível de elemento visual**.  Neste exemplo, vamos arrastar **Gestor Distrital** para o registo **Filtros de nível de elemento visual**, procurar **an** e selecionar esses três gestores. 
+1. No painel Campos, selecione o campo que quer adicionar como um novo filtro de nível de elemento visual e arraste-o para a área **Filtros de nível de elemento visual**.  Neste exemplo, vamos arrastar **Gestor Distrital** para o registo **Filtros de nível de elemento visual**, procurar **an** e selecionar esses três gestores.
      
     ![Adicionar um campo ao painel Filtros](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Agora, vamos adicionar um novo campo à nossa visualização como um filtro de n
 
 Também pode adicionar um filtro ao nível da página para filtrar uma página inteira.
 
-1. Selecione **Editar relatório** para abrir o relatório na Vista de edição.
+1. No serviço Power BI, abra o relatório de Análise de Revenda e vá para a página **Vendas Mensais Distritais**. 
+
+2. Selecione **...**  > **Editar relatório** para abrir o relatório na Vista de edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Abra o painel Visualizações e Filtros e o painel Campos (se ainda não estiverem abertos).
@@ -122,19 +125,21 @@ Também pode adicionar um filtro ao nível da página para filtrar uma página i
 Com a pormenorização no serviço Power BI e no Power BI Desktop, pode criar uma página de relatório de *destino* que se foca numa entidade específica - por exemplo, um fornecedor, cliente ou fabricante. Agora, a partir das outras páginas do relatório, os utilizadores podem clicar com o botão direito do rato num ponto de dados para essa entidade e pormenorizar até à página focada.
 
 ### <a name="create-a-drillthrough-filter"></a>Criar um filtro de pormenorização
-Para acompanhar, transfira o [Exemplo de Rentabilidade do Cliente](sample-customer-profitability.md). Suponhamos que quer uma página que se foque em Áreas de negócio executivas.
+Para acompanhar, transfira o [Exemplo de Rentabilidade do Cliente](sample-customer-profitability.md#get-the-content-pack-for-this-sample). Suponhamos que quer uma página que se foque em Áreas de negócio executivas.
 
-1. Selecione **Editar relatório** para abrir o relatório na Vista de edição.
+1. No serviço Power BI, abra o relatório de Análise de Revenda e vá para a página **Vendas Mensais Distritais**.
+
+2. Selecione **Mais opções (...)**  > **Editar relatório** para abrir o relatório na Vista de edição.
    
    ![Botão Editar relatório](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Adicione uma nova página ao relatório e dê-lhe o nome **Equipa Executiva**. Esta será a página de *destino* da pormenorização.
 2. Adicione visualizações que controlam as métricas-chave para as áreas de negócio da equipa executiva.    
-3. Adicione **Executivo > Nome do Executivo** à área Filtros de pormenorização.    
+3. Na tabela **Executivos**, arraste **Executivo** para a área de filtros de Pormenorização.    
    
     ![Adicionar um valor aos Filtros pormenorização](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Tenha em atenção que o Power BI adiciona uma seta para trás à página do relatório.  Quando os utilizadores selecionam a seta para trás, voltam à página de relatório de *origem* – a página onde estavam quando optaram pela pormenorização. A seta para trás só funciona na Vista de leitura.
+    Tenha em atenção que o Power BI adiciona uma seta para trás à página do relatório.  Quando os utilizadores selecionam a seta para trás, voltam à página de relatório de *origem* – a página onde estavam quando optaram pela pormenorização. Na Vista de edição, mantenha premida a tecla Ctrl para selecionar a seta para trás.
    
      ![A seta para trás](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Vamos ver como funciona o filtro de pormenorização.
 2. Suponhamos que é o Andrew Ma e pretende ver a página do relatório Equipa Executiva filtrada para apenas os seus dados.  No gráfico de área no canto superior esquerdo, clique com o botão direito do rato em qualquer ponto de dados verde para abrir a opção de menu Pormenorização.
    
     ![Iniciar a ação de pormenorização](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. Selecione **Pormenorização > Equipa Executiva** para pormenorizar até à página do relatório com o nome **Equipa Executiva**. A página é filtrada para mostrar informações sobre o ponto de dados no qual clicou com o botão direito do rato, neste caso, Andrew Ma. Apenas o campo que está na área Filtros de pormenorização passa para a página do relatório de pormenorização.  
+3. Selecione **Pormenorização > Equipa Executiva** para pormenorizar até à página do relatório com o nome **Equipa Executiva**. A página é filtrada para mostrar informações sobre o ponto de dados no qual clicou com o botão direito do rato, neste caso, Andrew Ma. Todos os filtros na página de origem são aplicados à página de relatório de pormenorização.  
    
     ![Selecionar a ação de pormenorização](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

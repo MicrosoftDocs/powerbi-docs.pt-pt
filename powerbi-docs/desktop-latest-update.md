@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 646372dbba995a359b732e46a8689cb295565c1f
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0ccd89bfa868569f6547c67d3673d0afd664d6a7
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903544"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307715"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop 
 
 
-## <a name="september-2019-update-2735586561"></a>Atualização de setembro de 2019 (2.73.5586.561)
+## <a name="october-2019-update-2745619621"></a>Atualização de outubro de 2019 (2.74.5619.621)
 
-A nossas atualizações de setembro proporcionam uma sensação semelhante à do excitante regresso à escola – coisas novas para aprender, colocar a conversa em dia com amigos de que sentimos a falta no verão e oportunidades para aplicar o que sabemos em melhores relatórios futuros. 
+As nossas atualizações de outubro são tão divertidas como a noite de Halloween e ainda mais emocionantes que uma visita a uma casa assombrada. 
 
 Já pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop), agora entregue como um só ficheiro .exe que contém todos os idiomas suportados. Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, mesmo que a numeração da versão possa diferir entre as duas, independentemente do modo como instala o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
 
@@ -42,46 +42,57 @@ Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
 ### <a name="reporting"></a>Relatórios
-* Classes de cores e texto em temas [[vídeo]](https://youtu.be/neq0THnRJzo?t=11)  [[artigo]](desktop-report-themes.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
-* Novos temas padrão  [[vídeo]](https://youtu.be/neq0THnRJzo?t=334)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
-* Melhorias no painel de visualização personalizado (pré-visualização) [[vídeo]](https://youtu.be/neq0THnRJzo?t=601)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+* Atualização automática de página do DirectQuery [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=12)  [[artigo]](desktop-automatic-page-refresh.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
+
 
 
 ### <a name="analytics"></a>Análise
-* Cadeias de formato personalizado [[vídeo]](https://youtu.be/neq0THnRJzo?t=731)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
-* Formatação condicional para as opções de formatação mais visual [[vídeo]](https://youtu.be/neq0THnRJzo?t=813)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
-* Melhoria na capacidade de deteção da pormenorização [[vídeo]](https://youtu.be/neq0THnRJzo?t=959)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
-* Novas expressões DAX: REMOVEFILTERS e CONVERT [[vídeo]](https://youtu.be/neq0THnRJzo?t=1048)  [   [blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+* O novo visual das Perguntas e Respostas [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=144)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
+* Experiência do utilizador melhorada nas Perguntas e Respostas [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=144)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
+    * Controlo de listas pendentes melhorado
+    * Sublinhado a vermelho e azul
+    * Resultados visuais melhorados
+* Melhorias à linguagem natural nas Perguntas e Respostas[[vídeo]](https://youtu.be/A8A9baUQsXQ?t=322)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements) 
+    * Integração com o Office/Dicionário de sinónimos do Bing
+    * Suporte para tabelas de medição e melhor gestão dos nomes das tabelas e das ambiguidades
+* Ferramentas das Perguntas e Respostas (pré-visualização) [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=376)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
+    * Rever as perguntas
+    * Ensinar Perguntas e Respostas
+    * Rever todas as alterações feitas
+* Suporte para SSAS e Azure AS, incluindo RLS [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=480)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS) 
 
 
 ### <a name="visuals"></a>Visuais
-* O elemento visual do PowerApps está agora disponível globalmente [[vídeo]](https://youtu.be/neq0THnRJzo?t=1063)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
-
+* Elemento visual do PowerApps agora incluído por predefinição [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=505)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps) 
+* Novos elementos visuais xViz [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=538)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
 
 ### <a name="data-connectivity"></a>Conectividade de dados
-* Melhorias do conector PostgreSQL [[vídeo]](https://youtu.be/neq0THnRJzo?t=1112)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+* O conector Sagra Emigo está disponível para o público [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=778)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
+* Conector do Azure Cost Management atualizado [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=805)  [[artigo]](desktop-connect-azure-cost-management.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
+* Novo conector do Workplace Analytics [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=830)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
+
 
 ### <a name="data-preparation"></a>Preparação de dados
-* Copiar para a área de transferência a partir da criação de perfil [[vídeo]](https://youtu.be/neq0THnRJzo?t=1146)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+* Diagnóstico de consultas [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=907)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
+* Melhoria na criação de perfis de dados [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=953)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
 
 
 ### <a name="template-apps"></a>Aplicações de modelo
-* Relatório do Google Analytics [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+* Project Web App [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=850)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
 
 ### <a name="other"></a>Outros
-* Melhorias de desempenho para modelos multidimensionais [[vídeo]](https://youtu.be/neq0THnRJzo?t=1208)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
-* Melhorias de desempenho de consulta para modelos DirectQuery [[vídeo]](https://youtu.be/neq0THnRJzo?t=1272)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+* Novo formato de ficheiro: .PBIDS [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=2455)  [[artigo]](desktop-data-sources.md#pbids-file-examples)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
+* Melhorias de desempenho para as operações de modelagem [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=2583)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
 
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
 O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A8A9baUQsXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > Também poderá ter interesse em saber quais são as [novidades do serviço Power BI](service-whats-new.md), bem como ver as [novidades nas aplicações móveis do Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).

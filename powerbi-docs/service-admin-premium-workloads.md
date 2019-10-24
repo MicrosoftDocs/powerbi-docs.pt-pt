@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968908"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307365"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -70,6 +70,8 @@ A carga de trabalho dos conjuntos de dados está ativada por predefinição e n�
 | **Contagem Máxima do Conjunto de Linhas de Resultados** | O número máximo de linhas devolvido numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647. |
 | **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível que pode ser utilizada para obter resultados temporários numa consulta ou medida DAX. |
 | **Tempo Limite de Consulta (segundos)** | O limite máximo de tempo de uma consulta. A predefinição é 3600 segundos (1 hora). O valor 0 especifica que as consultas não irão exceder o limite de tempo. |
+| **Atualização automática de página (pré-visualização)** | Ative e desative esta definição para as áreas de trabalho premium terem relatórios com atualização automática de página. |
+| **Intervalo de atualização mínimo** | Se a atualização automática de página estiver ativada, deverá definir o intervalo mínimo permitido para o intervalo de atualização da página. O valor predefinido são cinco minutos e o mínimo permitido é um segundo. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Contagem Máxima do Conjunto de Linhas Intermediárias
@@ -112,6 +114,19 @@ Esta definição aplica-se a uma consulta única e não ao tempo que demora a ex
 O tempo total para todas as consultas é de 75 minutos, mas o limite da definição não é alcançado, pois cada consulta é executada durante menos de 20 minutos.
 
 Tenha em atenção que os relatórios do Power BI substituem esta predefinição por um tempo limite muito inferior para cada consulta da capacidade. Normalmente, o tempo limite de cada consulta é cerca de três minutos.
+
+#### <a name="automatic-page-refresh-preview"></a>Atualização automática de página (pré-visualização)
+
+Quando ativada, a atualização automática de página permite que os utilizadores na capacidade Premium atualizem as páginas no relatório num intervalo definido, para as origens do DirectQuery. Como administrador da capacidades, pode fazer o seguinte:
+
+1.  Ativar/deasativar a atualização automática de página
+2.  Definir um intervalo de atualização mínimo
+
+A seguinte imagem mostra a localização da definição do intervalo de atualização automático:
+
+![definição do administrador para o intervalo de atualização automático](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+As consultas criadas pela atualização automática de página vão diretamente para a origem de dados; assim, é importante considerar a fiabilidade e a carga nessas origens ao permitir a atualização automática de página na sua organização. 
 
 ### <a name="dataflows"></a>Fluxos de Dados
 
@@ -180,6 +195,7 @@ A [aplicação Métricas de Capacidade do Power BI Premium](service-admin-premiu
 
 [Otimizar as capacidades do Power BI Premium](service-premium-capacity-optimize.md)     
 [Preparação personalizada de dados no Power BI com Fluxos de dados](service-dataflows-overview.md)   
-[O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Atualização automática de página no Power BI Desktop (pré-visualização)](desktop-automatic-page-refresh.md)
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)

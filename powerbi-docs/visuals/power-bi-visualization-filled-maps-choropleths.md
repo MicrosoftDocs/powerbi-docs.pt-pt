@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299406"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544508"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas de manchas (coropletos) no Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Um mapa de manchas utiliza sombreado, tonalidade ou padrões para mostrar como um valor difere em proporção numa localização geográfica ou região.  Exiba rapidamente estas diferenças relativas com sombreado que varia de claro (menos frequente/inferior) a escuro (mais frequente/mais).    
 
 ![Mapa dos E.U.A.](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Os mapas de manchas são uma ótima opção:
 * para obter uma visão geral da distribuição entre as localizações geográficas.
 
 ### <a name="prerequisites"></a>Pré-requisitos
-- Serviço Power BI ou Power BI Desktop
-- Sales and Marketing Sample
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
+   
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-Para acompanhar, o tutorial utiliza o serviço Power BI, não o Power BI Desktop.
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
 
 ## <a name="create-a-basic-filled-map"></a>Criar um mapa de manchas básico
 Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
+   > [!NOTE]
+   > Este vídeo utiliza uma versão anterior do Power BI Desktop.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Obter dados e adicionar uma nova página em branco ao relatório
-1. Para criar o seu próprio mapa de manchas, [transfira o exemplo Vendas e Marketing](../sample-datasets.md) ao iniciar sessão no Power BI e ao selecionar **Obter Dados \> Exemplos \> Vendas e Marketing \> Ligar**. Em alternativa, obtenha a aplicação **Sales and Marketing do Power BI** em appsource.com. 
-
-2. Abra o relatório Vendas e Marketing.
-
-   ![É apresentado o relatório Vendas e marketing](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. O Power BI abre o relatório. Selecione **Editar relatório** para abrir o relatório na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
-
-4. Adicione uma nova página ao selecionar o sinal de adição amarelo na parte inferior do ecrã do relatório.
-
-    ![Separadores de relatório](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>Criar um mapa de manchas
 1. No painel Campos, selecione o campo **Geo** \> **Estado**.    
@@ -75,9 +75,9 @@ Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
    ![Modelos com o ícone de mapa de manchas realçado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Filtre o mapa para apresentar apenas os Estados Unidos.
 
-   a.  Na parte inferior do painel Visualizações, procure a área **Filtros** .
+   a.  Na parte esquerda do painel Visualizações, procure o painel **Filtros**. Expanda-o se estiver minimizado
 
-   b.  Passe o rato sobre **Estado** e clique na divisa de expansão  
+   b.  Passe o rato sobre **Estado** e selecione a divisa de expansão  
    ![Filtros de nível visual a mostrar State (Tudo)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Coloque uma marca de verificação junto a **Todos** e remova a marca de verificação junto a **AK**.
@@ -115,11 +115,11 @@ Destacar um local num Mapa de Manchas faz a filtragem cruzada com outras visuali
 
     ![Separador Sentimento selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Mova e redimensione as visualizações na página para libertar algum espaço. Em seguida, utilize Ctrl+V para colar o mapa de manchas do relatório anterior.
+4. Mova e redimensione as visualizações na página para libertar algum espaço. Em seguida, utilize Ctrl+V para colar o mapa de manchas do relatório anterior. Veja as seguintes imagens.
 
    ![Mapa de manchas adicionado à página de Sentimentos](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. No mapa de manchas, selecione um estado.  Isto destaca as outras visualizações na página. Se selecionar **Texas**, por exemplo, mostra que o Sentimento é 74 e Texas encontra-se no Distrito Central \#23.   
+5. No mapa de manchas, selecione um estado.  As outras visualizações na página serão apresentadas com realce cruzado e com filtragem cruzada. A seleção de **Texas**, por exemplo, mostra que o Sentimento é 75 e que Texas se encontra no Distrito Central N.º 23.   
    ![Texas selecionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. Selecione um ponto de dados no gráfico de linhas VanArsdel – Sentimentos por Mês. Isto filtra o mapa de manchas para mostrar dados de Sentimento para VanArsdel e não para a concorrência de VanArsdel.  
    ![novo sombreado](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

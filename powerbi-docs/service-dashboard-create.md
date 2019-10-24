@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020339"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543510"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
 Leu a [Introdução aos dashboards no Power BI](service-dashboards.md) e, agora, quer criar o seu. Existem várias formas diferentes de criar um dashboard. Por exemplo, pode criar um dashboard a partir de um relatório, de raiz, de um conjunto de dados ou ao duplicar um dashboard existente.  
@@ -68,9 +68,9 @@ Nestas instruções passo a passo, vamos importar um dos conjuntos de dados de e
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abrir o relatório e afixar mosaicos no dashboard
 1. Na mesma área de trabalho, selecione o separador **Relatórios** e, em seguida, selecione **Exemplo de Análise de Aprovisionamento** para abrir o relatório.
 
-    ![Separador Relatórios](media/service-dashboard-create/power-bi-reports.png) O relatório é aberto na Vista de leitura. Repare que tem dois separadores na parte inferior: **Discount Analysis** (Análise de Desconto) e **Spend Overview** (Descrição Geral de Gastos). Cada separador representa uma página do relatório.
+    ![Separador Relatórios](media/service-dashboard-create/power-bi-reports.png) O relatório é aberto na Vista de leitura. Repare que tem dois separadores na parte esquerda: **Discount Analysis** (Análise de Desconto) e **Spend Overview** (Descrição Geral de Gastos). Cada separador representa uma página do relatório.
 
-2. Selecione **Editar relatório** para abrir o relatório na Vista de edição.
+2. Selecione **Mais opções (...)**  > **Editar relatório** para abrir o relatório na Vista de edição.
 
     ![Relatório na Vista de leitura](media/service-dashboard-create/power-bi-reading-view.png)
 3. Passe o cursor sobre uma visualização para ver as opções disponíveis. Para adicionar uma visualização a um dashboard, selecione o ícone de afixar ![Ícone de afixar](media/service-dashboard-create/power-bi-pin-icon.png).
