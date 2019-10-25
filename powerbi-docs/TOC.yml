@@ -209,10 +209,8 @@
               href: desktop-calculated-columns.md
             - name: Calculated tables in Power BI Desktop (Tabelas calculadas no Power BI Desktop)
               href: desktop-calculated-tables.md
-            - name: Medidas no Power BI Desktop
+            - name: Measures in Power BI Desktop (Medidas no Power BI Desktop)
               href: desktop-measures.md
-            - name: Editar o esquema linguístico de Perguntas e Respostas
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: 'Import and display KPIs (Preview) (Importar e apresentar os KPIs [Pré-visualização])'
               href: desktop-import-and-display-kpis.md
         - name: Create reports (Criar relatórios)
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: Export to PDF and print reports (Exportar para PDF e imprimir relatórios)
               href: desktop-export-to-pdf.md
-            - name: Q&A in Power BI Desktop (Perguntas e Respostas no Power BI Desktop)
-              href: desktop-qna-in-reports.md
             - name: Analytics pane in Power BI Desktop (Painel Análise no Power BI Desktop)
               href: desktop-analytics-pane.md
             - name: Utilizar informações para explicar aumentos ou diminuições
@@ -443,7 +439,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Integração do Machine Learning
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Criar um modelo de Machine Learning (Pré-visualização)
+        - name: Criar um modelo de Machine Learning
           href: service-tutorial-build-machine-learning-model.md
         - name: Atualizar dados a partir de um SQL Server
           href: service-gateway-sql-tutorial.md
@@ -717,7 +713,7 @@
               href: service-machine-learning-integration.md
             - name: Utilizar os Serviços Cognitivos no Power BI
               href: service-cognitive-services.md
-            - name: Machine Learning automatizada no Power BI (Pré-visualização)
+            - name: Machine Learning automatizada no Power BI
               href: service-machine-learning-automated.md
         - name: Linhagem de dados
           href: service-data-lineage.md
@@ -1161,6 +1157,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: função DIVIDIR vs. operador dividir (/)
       href: guidance/dax-divide-function-operator.md
+    - name: A importância da dobragem de consultas
+      href: guidance/power-query-folding.md
     - name: Appropriate use of error functions (Utilização adequada de funções de erro)
       href: guidance/dax-error-functions.md
     - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
