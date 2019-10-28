@@ -1,4 +1,6 @@
-- name: Administração do Power BI
+- name: Power BI admin documentation (Documentação de administrador do Power BI)
+  href: index.yml
+  expanded: true
   items:
     - name: Descrição geral
       expanded: true
@@ -8,7 +10,7 @@
     - name: Conceitos
       expanded: true
       items:
-        - name: Função de administração no Office 365
+        - name: Administration role in Microsoft 365 (Função de administração no Microsoft 365)
           href: ../service-admin-role.md
         - name: Perguntas Frequentes (FAQ)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Comprar o Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Inscreva-se com uma Versão de Avaliação do Office 365
+            - name: Sign up with an Microsoft 365 Trial (Inscrever-se numa Avaliação Gratuita do Microsoft 365)
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Adicionar o Power BI com um parceiro do Office 365
+            - name: Add Power BI with a Microsoft 365 partner (Adicionar o Power BI com um parceiro Microsoft 365)
               href: ../service-admin-syndication-partner.md
         - name: Usar o portal de administração
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
           href: ../service-admin-access-usage.md
-        - name: Auditing Power BI (Auditar o Power BI)
+        - name: Auditoria
           href: ../service-admin-auditing.md
         - name: Controlar o estado de funcionamento do serviço
           href: ../service-admin-health.md
-        - name: Fechar a sua conta do Power BI
+        - name: Closing your account (Encerrar a sua conta)
           href: ../service-admin-closing-your-account.md
-        - name: Power BI e ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Utilizar o Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
-        - name: Row-level security with Power BI (Segurança de nível de linha com o Power BI)
+        - name: Row-level security
           href: ../service-admin-rls.md
-        - name: Área de trabalho arquivada do Power BI
+        - name: Archived workspace (Área de trabalho arquivada)
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Configure mobile apps with Intune (Configurar aplicações móveis com o Intune)
           href: ../service-admin-mobile-intune.md
