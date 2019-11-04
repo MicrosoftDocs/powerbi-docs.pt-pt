@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 535a5b0d24abcd76d7c7b9becedad152e17829ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 665640596dba13dbd444b7a3f98b677380300d29
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159338"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060500"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>Ligue-se ao SweetIQ com o Power BI
 O pacote de conteúdos para o Power BI extrai dados da sua conta do SweetIQ e gera um conjunto de conteúdos pronto a utilizar, o que permite que explore os seus dados com facilidade. Utilize o pacote de conteúdos do SweetIQ para analisar dados sobre os seus locais, listas, classificações e análises. Os dados são configurados para serem atualizados diariamente, o que garante que os dados que está a monitorizar são atuais.
@@ -54,7 +54,7 @@ Selecione um ID do Cliente de um dos clientes aos quais a sua conta tem acesso. 
 Fale com o seu administrador para obter sua chave de API, para aceder os dados de um cliente específico.
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](power-bi-overview.md)
+[O que é o Power BI?](fundamentals/power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 53d0deaf68c2c0fde4f5243394914a44b9c59feb
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cc4f2dc328b58e65f89b5fae4efc0a9303638af4
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61341141"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060192"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>Corrigir “Tem de atualizar o Android System WebView”
 Quando iniciar sessão na aplicação móvel Android para o Microsoft Power BI, poderá receber uma mensagem a pedir para atualizar o Android System WebView. 
@@ -30,6 +30,6 @@ Ao que parece, tem de atualizar a aplicação do Chrome.
 
 ## <a name="next-steps"></a>Próximos passos
 * [Transfira a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicações Android.
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

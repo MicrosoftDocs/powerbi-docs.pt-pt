@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 843d7769685c8ad960d4a4bc496bb7f8180da3da
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185948"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060571"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Ligar ao Circuit ID com o Power BI
 É fácil analisar os dados de comunicação do Circuit ID com o Power BI. O Power BI recupera seus dados e cria um dashboard predefinido e relatórios relacionados com base nesses dados. Após ter criado a ligação, pode explorar os dados e personalizar o dashboard para corresponder às suas necessidades. Os dados são atualizados automaticamente todos os dias.
@@ -49,7 +49,7 @@ Ligue-se ao [pacote de conteúdos do Circuit ID](https://app.powerbi.com/getdata
 * Embora o seu conjunto de dados seja agendado para atualizações diárias, pode alterar o agendamento das atualizações ou tentar atualizá-lo a pedido através da opção **Atualizar Agora**
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](power-bi-overview.md)
+[O que é o Power BI?](fundamentals/power-bi-overview.md)
 
 [Obter Dados para o Power BI](service-get-data.md)
 

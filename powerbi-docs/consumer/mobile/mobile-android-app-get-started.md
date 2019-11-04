@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61350950"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060275"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução à aplicação móvel Power BI em dispositivos Android
 A aplicação Android para Microsoft Power BI dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -23,7 +23,7 @@ A aplicação Android para Microsoft Power BI dá a experiência BI móvel para 
 
 Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
-* [Publique-os no serviço Power BI](../../power-bi-overview.md) e crie dashboards.
+* [Publique-os no serviço Power BI](../../fundamentals/power-bi-overview.md) e crie dashboards.
 * [Publique-os no local no Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md).
 
 Em seguida, na aplicação Power BI para Android, interaja com os seus dashboards e relatórios, seja no local ou na cloud.
@@ -136,7 +136,7 @@ Eis outras coisas que pode fazer na aplicação para dispositivo Android do Powe
 
 ### <a name="see-also"></a>Veja também
 * [Transfira a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) na loja de aplicações Android.
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715440"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060305"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugestões para obter ajuda com as suas perguntas do Power BI
 Já lhe aconteceu sentir-se frustrado ao utilizar o Power BI ou sentir dificuldades porque não consegue obter respostas para as suas perguntas sobre o Power BI quando precisa delas? 
@@ -69,6 +69,6 @@ Se todas as outras soluções falharem, a última sugestão é observar o sistem
 Por exemplo, imaginemos que quer saber se pode partilhar dashboards com um grupo de segurança. Para responder a essa questão, aceda à caixa de diálogo de partilha e experimente adicionar um grupo de segurança. De qualquer forma, terá a sua resposta após este teste.
 
 ## <a name="next-steps"></a>Próximos passos
-* [O que é o Power BI?](power-bi-overview.md)
+* [O que é o Power BI?](fundamentals/power-bi-overview.md)
 * Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/)
 * Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)

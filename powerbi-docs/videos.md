@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9f6139376a713c85500a2e6bd430d5ee52f5b7ad
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514888"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060319"
 ---
 # <a name="power-bi-videos"></a>Vídeos do Power BI
 Temos um canal do YouTube para o Power BI! Pode visitar o [nosso canal](https://www.youtube.com/user/mspowerbi/videos) e, se for novo no Power BI, um bom lugar para começar é a [Lista de reprodução Analisar e Visualizar dados com o Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -47,7 +47,7 @@ Consulte a seguinte coleção de origens e conteúdo para mais vídeos.
 * [Canal Guy in a Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) - vídeos atuais sobre as funcionalidades e capacidades do Power BI
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](power-bi-overview.md)
+[O que é o Power BI?](fundamentals/power-bi-overview.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
