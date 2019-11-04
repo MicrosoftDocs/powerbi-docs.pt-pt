@@ -11,15 +11,16 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d50ed2c06c81514fa6fb129ca3691ec56b8116b9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 0f7926e536ba80549e8a6e1cdce5a7cf609efaba
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256220"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716713"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizar os dashboards e os relatórios partilhados comigo
 
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Quando um colega partilha conteúdo consigo, através do botão **Partilhar**, ele aparece no seu contentor **Partilhado comigo**. O dashboard ou relatório só está disponível a partir **Partilhado comigo** e não a partir de **Aplicações**.
 

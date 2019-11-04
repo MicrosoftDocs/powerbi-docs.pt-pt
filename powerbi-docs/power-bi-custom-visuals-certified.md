@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307819"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021361"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -71,7 +71,7 @@ Para [certificar](#get-a-power-bi-visual-certified) o seu elemento visual person
 
 * Se alguma propriedade em capabilities.json for alterada, confirme que não interrompem os relatórios do utilizador existentes.
 
-* Verifique se o elemento visual está em conformidade com as [diretrizes para elementos visuais do Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Não são permitidas marcas d'água**.
+* Verifique se o elemento visual está em conformidade com as [diretrizes para elementos visuais do Power BI](./developer/guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Não são permitidas marcas d'água**.
 
 * O elemento visual utiliza apenas componentes OSS que podem ser analisados pelo público (TypeScript ou bibliotecas JS públicos. O código-fonte está disponível para análise e não apresenta vulnerabilidades conhecidas). Não é possível verificar um elemento visual personalizado com um componente comercial.
 
@@ -192,7 +192,7 @@ Para enviar um visual personalizado para certificação:
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas frequentes sobre os elementos visuais certificados](#get-a-power-bi-visual-certified).
+Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas frequentes sobre os elementos visuais certificados](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
 
 ## <a name="next-steps"></a>Próximos passos
 

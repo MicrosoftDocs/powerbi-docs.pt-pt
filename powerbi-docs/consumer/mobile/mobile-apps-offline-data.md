@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d0d9b10c24d3d9da60ecf1afde7347f53d20f224
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60972414"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059423"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Ver os dados offline em aplicações móveis do Power BI
 Aplica-se a:
@@ -65,5 +65,5 @@ Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto,
 * [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)
 * Siga o @MSPowerBI no Twitter
 * Participe na conversa na [Comunidade do Power BI](http://community.powerbi.com/)
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 

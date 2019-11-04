@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307727"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429718"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Atualizações mensais anteriores do Power BI Desktop
 
@@ -107,8 +107,8 @@ Também pode transferir as versões anteriores do Power BI Desktop se a sua orga
 
 Selecione as seguintes ligações para transferir esta versão anterior: 
 
-* [Versão de setembro de 2019 do Power BI Desktop – 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [Versão de setembro de 2019 do Power BI Desktop – 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [Versão de setembro de 2019 do Power BI Desktop – 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [Versão de setembro de 2019 do Power BI Desktop – 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>Atualização de agosto de 2019 (2.72.5556.801)
@@ -767,7 +767,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em outubro:
 ### <a name="reporting"></a>Relatórios
 
 * Pesquisa em cartões de filtro [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=56)[[artigo]](power-bi-reports-filters-and-highlighting.md)[[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* Melhorias de acessibilidade para a criação de experiências [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=118)[[artigo]](desktop-accessibility.md#arranging-items-in-field-buckets)[[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* Melhorias de acessibilidade para a criação de experiências [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=118)[[artigo]](desktop-accessibility-overview.md)[[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * Melhorias de desempenho para o Mapa ArcGIS [[vídeo]](https://youtu.be/cT3L2VzgBRU?t=333) [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ As atualizações seguintes eram novas no **Power BI Desktop** em junho:
 
 ### <a name="reporting"></a>Relatórios
 
-* Suporte de alto contraste para relatórios  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=13s)  [[artigo]](desktop-accessibility.md#high-contrast-support-for-reports)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* Suporte de alto contraste para relatórios  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=13s)  [[artigo]](desktop-accessibility-overview.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * Controlo do raio do anel  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=6m1s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * Controlo de posição das etiquetas de detalhe circulares e de anel  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=7m19s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * Formatação de etiquetas de dados em separado para cada medida num gráfico de combinação  [[vídeo]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 

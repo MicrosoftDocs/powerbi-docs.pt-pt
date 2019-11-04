@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60978250"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059763"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -71,7 +71,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    * Toque no gráfico para mover a barra num gráfico de linhas, barras, colunas ou bolhas, para ver os valores de um ponto específico na visualização.  
    * Tocar no ícone Partilhar instantâneo ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [anotar e partilhar o mosaico](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) com outras pessoas.
    * Tocar no ícone Abrir relatório ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver o relatório](mobile-reports-in-the-mobile-apps.md) na aplicação móvel.
-3. Por vezes, o criador do dashboard adiciona uma ligação a um mosaico. Se for esse o caso, ao tocar nas reticências verticais (**...**), verá **Abrir ligação** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. Por vezes, o criador do dashboard adiciona uma ligação a um mosaico. Se for esse o caso, ao tocar nas reticências verticais ( **...** ), verá **Abrir ligação** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -122,6 +122,6 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
 4. Toque na seta ou no botão anterior para fechar o mosaico e voltar ao dashboard.
 
 ## <a name="next-steps"></a>Próximos passos
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
