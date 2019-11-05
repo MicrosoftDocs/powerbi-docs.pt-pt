@@ -10,20 +10,20 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b3d455e0deff676d20c316422d4715773e0a85d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655060"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432363"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implantando e gerenciando capacidades de Power BI Premium
 
 **Resumo:** O Power BI Premium fornece um desempenho mais consistente, suporte para grandes volumes de dados e a flexibilidade de um autoatendimento unificado e plataforma de BI empresarial para todos em sua organização. Este white paper técnico de nível 300 foi escrito especificamente para administradores de Power BI, além de autores e editores de conteúdo. Ele visa ajudá-los a entender o potencial do Power BI Premium e explicar como projetar, implantar, monitorar e solucionar problemas de soluções escalonáveis.
 
-**Autorização** [Peter Myers](https://www.linkedin.com/in/peterjsmyers) (MVP de plataforma de dados e especialista independente de BI com soluções bit a bit)
+**Autor:** [Peter Myers](https://www.linkedin.com/in/peterjsmyers) (MVP de plataforma de dados e especialista independente de BI com soluções de bit de bits)
 
-**Revisores Técnicos:** Adam Saxton, Akshai Mirchandani, Bhavik comerciante, David Magar, Josh Caplan, Michael Blythe, Nimrod Shalit, Olivier Matrat, Swati Gupta
+**Revisores técnicos:** Adam Saxton, Akshai Mirchandani, Bhavik comerciante, David Magar, Josh Caplan, Michael Blythe, Nimrod Shalit, Olivier Matrat, Swati Gupta
 
 **Aplica-se a:** Serviço do Power BI, Power BI Premium e capacidades de Power BI Embedded do Azure
 
@@ -34,9 +34,9 @@ ms.locfileid: "69655060"
 
 O Power BI é um serviço de análise de negócios projetado para fornecer informações que permitem decisões rápidas e informadas. Desde seu lançamento no 2015, ele se tornou rapidamente um serviço popular usado para fornecer soluções para o menor das organizações para as maiores empresas.
 
-Ele é disponibilizado de duas maneiras: Como um serviço de nuvem e como uma solução de relatório local chamada **servidor de relatórios do Power bi**. \[[uma](#endnote-01)\]
+Ele é disponibilizado de duas maneiras: como um serviço de nuvem e como uma solução de relatório local chamada **servidor de relatórios do Power bi**. \[[1](#endnote-01)\]
 
-Power BI como um serviço de nuvem é o software como um serviço (SaaS) \[ [2](#endnote-02)\]. Ele representa um conjunto de serviços e aplicativos que permitem que as organizações desenvolvam, implantem, gerenciem, compartilhem soluções para monitorar seus negócios.
+Power BI como um serviço de nuvem é o SaaS (software como serviço) \[[2](#endnote-02)\]. Ele representa um conjunto de serviços e aplicativos que permitem que as organizações desenvolvam, implantem, gerenciem, compartilhem soluções para monitorar seus negócios.
 
 Não é a intenção deste White Paper fornecer uma descrição abrangente do serviço do Power BI. Em vez disso, ele se concentra em tópicos relevantes ao assunto de Power BI Premium. Para obter informações gerais sobre Power BI, consulte a documentação abrangente do [Power bi](service-admin-premium-multi-geo.md). Para obter uma explicação mais detalhada do serviço do Power BI com foco na obtenção de implantações empresariais com bom desempenho, consulte o White paper sobre [planejamento abrangente de uma Power bi de implantação empresarial](https://aka.ms/pbienterprisedeploy) .
 
@@ -44,19 +44,19 @@ No contexto do assunto deste whitepaper, esta seção apresenta e descreve as ca
 
 ### <a name="capacities"></a>Capacidades
 
-As **capacidades** são um conceito de Power bi básica que representa um conjunto de recursos (armazenamento, processador e memória) usados para hospedar e entregar Power bi conteúdo. As capacidades são compartilhadas ou dedicadas. Uma **capacidade compartilhada** é compartilhada com outros clientes da Microsoft, enquanto uma **capacidade dedicada** é totalmente comprometida com um único cliente. As capacidades dedicadas são introduzidas no tópico [capacidades Premium](#premium-capacities) .
+As **capacidades** são um conceito de Power bi básica que representa um conjunto de recursos (armazenamento, processador e memória) usados para hospedar e entregar Power bi conteúdo. As capacidades podem ser partilhadas ou dedicadas. Uma **Capacidade Partilhada** é partilhada com outros clientes da Microsoft, enquanto uma **Capacidade Dedicada** é totalmente alocada a um único cliente. As capacidades dedicadas são introduzidas no tópico [capacidades Premium](#premium-capacities) .
 
-Na capacidade compartilhada, as cargas de trabalho são executadas em recursos computacionais compartilhados com outros clientes. Como a capacidade deve compartilhar recursos, as limitações são impostas para garantir a "atividade justa", como o tamanho máximo do modelo (1 GB) e a frequência máxima de atualização diária (oito vezes por dia).
+Na capacidade partilhada, as cargas de trabalho são executadas em recursos computacionais partilhados com outros clientes. Como a capacidade deve compartilhar recursos, as limitações são impostas para garantir a "atividade justa", como o tamanho máximo do modelo (1 GB) e a frequência máxima de atualização diária (oito vezes por dia).
 
 ### <a name="workspaces"></a>Áreas de trabalho
 
-Os espaços de trabalho Power BI residem em capacidades e representam contêineres de segurança, colaboração e implantação. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. As áreas de trabalho adicionais podem ser criadas para permitir a colaboração e a implementação, e são conhecidas como **Áreas de Trabalho de Aplicações**. Por padrão, espaços de trabalho-incluindo espaços de trabalho pessoais – são criados na capacidade compartilhada.
+Os espaços de trabalho Power BI residem em capacidades e representam contêineres de segurança, colaboração e implantação. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. Espaços de trabalho adicionais podem ser criados para permitir a colaboração e a implantação, e eles são conhecidos como **espaços de trabalho**. Por padrão, espaços de trabalho-incluindo espaços de trabalho pessoais – são criados na capacidade compartilhada.
 
 ### <a name="power-bi-content-types"></a>Tipos de conteúdo de Power BI
 
 Para apresentar Power BI Premium tópicos, é importante começar com uma discussão completa sobre a arquitetura de Power BI, incluindo tipos de conteúdo fundamentais.
 
-Todo o conteúdo de Power BI é armazenado e gerenciado em espaços de trabalho que são contêineres para Power BI conteúdo. Cada usuário Power BI tem seu próprio espaço de trabalho pessoal, mas a prática recomendada geral é criar espaços de trabalho de aplicativo. Os espaços de trabalho de aplicativo permitem a copropriedade de conteúdo e a capacidade de colaborar com o conteúdo. Eles também fornecem a capacidade de preparar e distribuir conteúdo para grandes audiências como aplicativos.
+Todo o conteúdo de Power BI é armazenado e gerenciado em espaços de trabalho que são contêineres para Power BI conteúdo. Cada usuário Power BI tem seu próprio espaço de trabalho pessoal, mas a prática recomendada geral é criar espaços de trabalho. Os espaços de trabalho permitem a copropriedade do conteúdo e a capacidade de colaborar com o conteúdo. Eles também fornecem a capacidade de preparar e distribuir conteúdo para grandes audiências como aplicativos.
 
 O conteúdo de Power BI a seguir é armazenado em espaços de trabalho:
 
@@ -70,7 +70,7 @@ O conteúdo de Power BI a seguir é armazenado em espaços de trabalho:
 
 Power BI Dataflows ajudam as organizações a unificarem dados de fontes diferentes. Eles podem ser considerados como dados preparados e preparado para uso em modelos, no entanto, não podem ser usados diretamente como uma fonte para relatórios. Eles aproveitam a ampla coleção de conectores de dados da Microsoft, permitindo a ingestão de dados de fontes de dados locais e baseadas em nuvem.
 
-Os fluxos de dados só podem ser criados e gerenciados em espaços de trabalho de aplicativo e são armazenados como entidades no Common Data Service (CDM) no Azure Data Lake Storage Gen2. Normalmente, eles são agendados para atualização em uma base recorrente para armazenar dados atualizados.
+Os fluxos de dados só podem ser criados e gerenciados em espaços de trabalho, e são armazenados como entidades no Common Data Service (CDM) no Azure Data Lake Storage Gen2. Normalmente, eles são agendados para atualização em uma base recorrente para armazenar dados atualizados.
 
 Para obter mais informações, consulte a [preparação de dados de autoatendimento no documento Power bi (versão prévia)](service-dataflows-overview.md) .
 
@@ -83,7 +83,7 @@ Power BI DataSets representam uma fonte de dados prontos para relatórios e visu
 - Carregando uma pasta de trabalho do Excel (contendo uma ou mais tabelas do Excel e/ou um modelo de dados de pasta de trabalho) ou carregando um arquivo CSV (valores separados por vírgulas)
 - Usando o serviço do Power BI para criar um conjunto de fluxos de transmissão por push, streaming ou híbrido
 
-Exceto para os conjuntos \[de dados de streaming [3](#endnote-03)\], o DataSet representa um modelo que aproveita as tecnologias de modelagem maduras do Analysis Services.
+Exceto para os conjuntos de dados de streaming \[[3](#endnote-03)\], o conjunto representa um modelo que aproveita as tecnologias de modelagem maduras do Analysis Services.
 
 Observe que na documentação, às vezes as terminologias e os modelos de conjuntos de valores são intercambiáveis. Em geral, de um serviço do Power BI perspectiva, ele é conhecido como um **conjunto** de uma perspectiva de desenvolvimento, que é conhecido como um **modelo**. No contexto deste White Paper, eles significam muito a mesma coisa.
 
@@ -95,7 +95,7 @@ Conectar-se a um modelo hospedado externamente envolve a instalação do [Gatewa
 
 ##### <a name="power-bi-desktop-developed-models"></a>Modelos desenvolvidos pelo Power BI Desktop
 
-Power BI Desktop-um aplicativo cliente destinado ao desenvolvimento de Power BI-pode ser usado para desenvolver um modelo que é efetivamente um modelo de tabela de Analysis Services. Os modelos podem ser desenvolvidos importando dados de fluxos de dados, que podem ser integrados a outras fontes. Embora as informações específicas sobre como a modelagem possa ser obtida estejam fora do escopo deste White Paper, é importante entender que há três tipos ou modos diferentes de modelos que podem ser desenvolvidos usando Power BI Desktop. Esses modos determinam se os dados são importados para o modelo ou se eles permanecem na fonte de dados. Os três modos são: Importar, DirectQuery e composto. Uma discussão completa de cada modo será abordada no tópico [modos de armazenamento de modelo](#model-storage-modes) .
+Power BI Desktop-um aplicativo cliente destinado ao desenvolvimento de Power BI-pode ser usado para desenvolver um modelo que é efetivamente um modelo de tabela de Analysis Services. Os modelos podem ser desenvolvidos importando dados de fluxos de dados, que podem ser integrados a outras fontes. Embora as informações específicas sobre como a modelagem possa ser obtida estejam fora do escopo deste White Paper, é importante entender que há três tipos ou modos diferentes de modelos que podem ser desenvolvidos usando Power BI Desktop. Esses modos determinam se os dados são importados para o modelo ou se eles permanecem na fonte de dados. Os três modos são: Import, DirectQuery e Composite. Uma discussão completa de cada modo será abordada no tópico [modos de armazenamento de modelo](#model-storage-modes) .
 
 Modelos e modelos hospedados externamente desenvolvidos em Power BI área de trabalho podem impor a RLS (segurança em nível de linha) para limitar os dados que podem ser recuperados para um determinado usuário. Por exemplo, os usuários atribuídos ao grupo de segurança vendedores só podem exibir dados de relatório para as regiões de vendas às quais eles são atribuídos. As funções RLS podem ser dinâmicas ou estáticas. As **funções dinâmicas** são filtradas pelo usuário do relatório, enquanto as **funções estáticas** aplicam os mesmos filtros para todos os usuários atribuídos à função.
 
@@ -125,7 +125,7 @@ A criação de modelos otimizados é discutida posteriormente neste documento t�
 
 #### <a name="workbooks"></a>Livros
 
-Power bi pastas de trabalho são um tipo \[de conteúdo de Power bi [4](#endnote-04)\]. Elas são pastas de trabalho do Excel que foram carregadas no serviço do Power BI e não devem ser confundidas com pastas de trabalho do Excel carregadas que criam conjuntos de os (modelos). O tipo de conteúdo da pasta de trabalho representa uma conexão com uma pasta de trabalho, que pode ser carregada para a serviço do Power BI ou permanecer no armazenamento em nuvem no OneDrive ou no SharePoint Online.
+Power BI pastas de trabalho são um tipo de conteúdo Power BI \[[4](#endnote-04)\]. Elas são pastas de trabalho do Excel que foram carregadas no serviço do Power BI e não devem ser confundidas com pastas de trabalho do Excel carregadas que criam conjuntos de os (modelos). O tipo de conteúdo da pasta de trabalho representa uma conexão com uma pasta de trabalho, que pode ser carregada para a serviço do Power BI ou permanecer no armazenamento em nuvem no OneDrive ou no SharePoint Online.
 
 É importante entender que esse tipo de conteúdo não está disponível como uma fonte de dados para Power BI visualizações de dados. Em vez disso, ele pode ser aberto como uma pasta de trabalho no serviço do Power BI usando o Excel online. A principal intenção desse tipo de conteúdo é permitir que os relatórios herdados da pasta de trabalho do Excel sejam acessíveis no serviço do Power BI e para permitir que suas visualizações de dados sejam fixadas em painéis de Power BI.
 
@@ -141,11 +141,11 @@ No contexto deste White Paper, é importante entender como a arquitetura de Powe
 
 - Para carregar e interagir com relatórios com base em modelos de importação, o modelo deve ser totalmente carregado na memória (se hospedado no serviço do Power BI ou hospedado externamente)
 - Cada visual de relatório emite uma consulta para recuperar dados consultando o modelo
-- Em geral, as interações de filtro e segmentação envolvem consultar o modelo. Por exemplo, alterar uma seleção de segmentação de texto – por padrão, exigirá o recarregamento de cada \[Visual na página [5](#endnote-05)\]
+- Em geral, as interações de filtro e segmentação envolvem consultar o modelo. Por exemplo, alterar uma seleção de segmentação de texto – por padrão, exigirá o recarregamento de cada Visual na página \[[5](#endnote-05)\]
 - Power BI relatórios não garantem a exibição dos dados atuais e podem exigir que o usuário atualize o relatório para recarregar a página de relatório e seus visuais
 - Os usuários podem se envolver com o Q & um recurso de linguagem natural para fazer perguntas, fornecendo ao design de relatório de Power BI permite que ele e o conjunto de dados representem um modelo de importação de dado hospedado por Power BI ou um conjunto de dados LC configurado para habilitar a p & A
 
-**Relatórios** paginados que permitem a publicação e renderização de relatórios do SQL Server Reporting Services (\*SSRS) (formato. RDL). Como o nome sugere, os relatórios paginados são normalmente usados quando os requisitos determinam a necessidade de impressão em um tamanho de página fixo ou quando há listas de dados variáveis que devem ser totalmente expandidas. Por exemplo, uma fatura criada para renderização de várias páginas (em vez de rolagem dentro de um Visual) e impressão.
+**Relatórios paginados** que permitem a publicação e renderização de relatórios SQL Server Reporting Services (SSRS) (\*formato. RDL). Como o nome sugere, os relatórios paginados são normalmente usados quando os requisitos determinam a necessidade de impressão em um tamanho de página fixo ou quando há listas de dados variáveis que devem ser totalmente expandidas. Por exemplo, uma fatura criada para renderização de várias páginas (em vez de rolagem dentro de um Visual) e impressão.
 
 Os dois tipos de relatório com suporte fornecem opções para autores de relatório, permitindo que eles selecionem o tipo com base nos requisitos e no uso pretendido. Em geral, Power BI relatórios são ideais para experiências interativas, permitindo que o usuário Explore e descubra informações de dados, enquanto os relatórios paginados são mais adequados para layouts de página controlados por parâmetros.
 
@@ -161,7 +161,7 @@ O serviço do Power BI atualiza automaticamente os caches de consulta do painel 
 
 As atualizações de cache de consulta de painel baseadas em modelos de DQ e de LC podem impactar significativamente em serviço do Power BI recursos e fontes de dados externas. Considere um painel com 20 blocos, tudo com base em um modelo de Azure Analysis Services que impõe a RLS dinâmica e que é atualizado a cada hora e que esse painel é compartilhado com 100 usuários. Se o conjunto de resultados estiver configurado para atualizar a cada hora, isso resultaria em pelo menos 2000 (20 x 100) consultas de LC. Isso pode fazer uma enorme carga no serviço do Power BI e nas fontes de dados externas e também pode exceder os limites impostos sobre os recursos disponíveis. Os limites e recursos de capacidade são descritos no tópico [nós de capacidade](#capacity-nodes) .
 
-Os usuários podem interagir com um painel de várias maneiras, o que exige serviço do Power BI recursos. Especificamente, eles podem:
+Os usuários podem interagir com um painel de várias maneiras, o que exige serviço do Power BI recursos. Especificamente, podem:
 
 - Disparar uma atualização de blocos de painéis, o que pode resultar em uma atualização sob demanda de todos os modelos de importação de dados relacionados ao Power BI hospedados
 - Entre em contato com o p & um recurso de linguagem natural para fazer perguntas (fornecendo ao design do painel permite que ele e o conjunto de dados seja um modelo de importação de dado Power BI hospedado ou um conjunto de dados LC configurado para habilitar a p & A)
@@ -218,7 +218,7 @@ Há várias vantagens associadas aos modelos do DQ:
 
 No entanto, há várias desvantagens e limitações associadas aos modelos do DQ:
 
-- O modelo deve ser baseado em uma única fonte de dados com suporte e, portanto, qualquer integração de dados já deve ser obtida na fonte de dados. As fontes de dados com suporte são sistemas relacionais e analíticos, com suporte para \[muitos armazenamentos de dados populares [7](#endnote-07)\].
+- O modelo deve ser baseado em uma única fonte de dados com suporte e, portanto, qualquer integração de dados já deve ser obtida na fonte de dados. As fontes de dados com suporte são sistemas relacionais e analíticos, com suporte para muitos armazenamentos de dados populares \[[7](#endnote-07)\].
 - O desempenho pode ser lento, causando impacto negativo no serviço do Power BI (as consultas podem ser com uso intensivo de CPU) e na fonte de dados (que pode não ser otimizada para consultas analíticas)
 - Power Query consultas não podem ser excessivamente complexas e são limitadas a expressões e funções M que podem ser transpostas a consultas nativas compreendidas pela fonte de dados
 - As funções DAX são limitadas àquelas que podem ser transpostas a consultas nativas compreendidas pela fonte de dados, e não há suporte para tabelas calculadas ou funcionalidades de inteligência de tempo internas
@@ -249,7 +249,7 @@ Em geral, as vantagens e desvantagens, associadas a cada modo de modelo, podem s
 
 Para obter mais informações, consulte o documento [usar modelos compostos no Power bi desktop](desktop-composite-models.md) .
 
-### <a name="licensing"></a>Licensing
+### <a name="licensing"></a>Licenças
 
 Power BI tem três licenças:
 
@@ -259,7 +259,7 @@ Power BI tem três licenças:
 
 O **Power bi licença gratuita** permite que um indivíduo entre no serviço do Power bi e trabalhe em seu espaço de trabalho pessoal publicando modelos e relatórios. É importante entender que não é possível compartilhar Power BI conteúdo usando essa licença. Essa licença, como seu nome sugere, é gratuita.
 
-A licença de **Power bi pro** permite que um indivíduo crie e colabore em espaços de trabalho de aplicativo e Compartilhe e distribua Power bi conteúdo. Eles também podem configurar a atualização para seus conjuntos de dados para manter automaticamente o data atual, incluindo as fontes de dados locais. Além disso, eles podem auditar e determinar como os dados são acessados e usados. Essa licença é necessária para receber conteúdo compartilhado de outras pessoas, a menos que o usuário esteja associado a uma Power BI Premium capacidade dedicada.
+A licença de **Power bi pro** permite que um indivíduo crie e colabore em espaços de trabalho e Compartilhe e distribua Power bi conteúdo. Eles também podem configurar a atualização para seus conjuntos de dados para manter automaticamente o data atual, incluindo as fontes de dados locais. Além disso, eles podem auditar e determinar como os dados são acessados e usados. Essa licença é necessária para receber conteúdo compartilhado de outras pessoas, a menos que o usuário esteja associado a uma Power BI Premium capacidade dedicada.
 
 A licença de **Power bi Premium** é uma licença de nível de locatário e é discutida na seção [introdução Power bi Premium](#introducing-power-bi-premium) .
 
@@ -272,7 +272,7 @@ O Power BI Premium fornece uma plataforma unificada de BI e de autoatendimento c
 Além disso, Power BI Premium fornece muitos recursos corporativos:
 
 - Distribuição de conteúdo econômica, permitindo o compartilhamento de conteúdo de Power BI para usuários ilimitados Power BI gratuitos, incluindo usuários externos
-- Suporte para tamanhos \[maiores de DataSet [8](#endnote-08)\]
+- Suporte para tamanhos maiores de conjuntos de grandes \[[8](#endnote-08)\]
 - Taxas de atualização mais altas de fluxos de data e conjuntos de data (até 48 vezes por dia)
 - Atualização incremental de fluxos de os e conjuntos de os
 - Entidades vinculadas de Dataflow e execução paralela de transformações
@@ -289,9 +289,9 @@ O Power BI Premium é uma subscrição do Office 365 ao nível do inquilino disp
 - Em SKUs (EM1-EM3) para inserção, exigindo um compromisso anual, cobrado mensalmente
 - **P** SKUs (P1-P3) para inserção e recursos empresariais, exigindo um compromisso mensal ou anual, cobrado mensalmente e inclui uma licença para instalar servidor de relatórios do Power bi local
 
-Uma abordagem alternativa é comprar uma assinatura de Power BI Embedded do Azure que tenha uma única família de SKUs: SKUs (a1-a6) para inserção e somente para fins de teste de capacidade.
+Uma abordagem alternativa é comprar uma assinatura de Power BI Embedded do Azure que tenha uma única **família de SKUs: SKUs** (a1-a6) para inserção e somente para fins de teste de capacidade.
 
-Todos os SKUs fornecem núcleos de v para criar \[capacidades [9](#endnote-09)\], mas os SKUs em são restritos para inserção de escala menor. Embora o foco deste White Paper seja nas SKUs do P, grande parte do que é discutido também é relevante também para as SKUs.
+Todos os SKUs fornecem núcleos de v para criar capacidades \[[9](#endnote-09)\], mas os SKUs em são restritos para inserção de escala menor. Embora o foco deste White Paper seja nas SKUs do P, grande parte do que é discutido também é relevante também para as SKUs.
 
 Em contraste com os SKUs da subscrição Premium, os SKUs do Azure não necessitam de fidelização e são faturados à hora. Fornecem elasticidade total e permitem aumentar verticalmente, reduzir verticalmente, colocar em pausa, retomar e eliminar.
 
@@ -313,13 +313,13 @@ O foco deste White Paper é a **capacidade Premium** , o que significa que ele e
 
 #### <a name="capacity-nodes"></a>Nós de Capacidade
 
-Conforme descrito no tópico assinaturas e licenciamento, há duas famílias Power BI Premium SKU: Em e P. Todas as SKUs de Power BI Premium estão disponíveis como nós de capacidade, cada uma representando uma quantidade definida de recursos que consistem em processador, memória e armazenamento. Além dos recursos, cada SKU tem limites operacionais sobre o número de conexões do (DQ) e de conexão dinâmica (LC) por segundo e o número de atualizações de modelo paralelas.
+Conforme descrito no tópico assinaturas e licenciamento, há duas famílias Power BI Premium SKU: em e P. Todas as SKUs de Power BI Premium estão disponíveis como nós de capacidade, cada uma representando uma quantidade definida de recursos que consistem em processador, memória e armazenamento. Além dos recursos, cada SKU tem limites operacionais sobre o número de conexões do (DQ) e de conexão dinâmica (LC) por segundo e o número de atualizações de modelo paralelas.
 
 O processamento é obtido por um número definido de núcleos virtuais, dividido igualmente entre o back-end e o front-end.
 
 Os **núcleos virtuais de back-end** são responsáveis pela funcionalidade principal do Power BI, incluindo processamento de consultas, gestão de cache, execução de serviços R, atualização de modelos, processamento de linguagem natural (Perguntas e Respostas) e composição de relatórios e imagens no servidor. Os núcleos virtuais de back-end recebem uma quantidade fixa de memória que é primária usada para hospedar modelos que também são chamados de conjuntos de ativos.
 
-Os núcleos virtuais de **front-end** são responsáveis pelo gerenciamento de documentos do serviço Web, Dashboard e relatório, gerenciamento de direitos de acesso, agendamento, APIs, uploads e downloads e, em geral, para tudo relacionado às experiências do usuário.
+Os **núcleos virtuais de front-end** são responsáveis pelo gerenciamento de documentos do serviço Web, Dashboard e relatório, gerenciamento de direitos de acesso, agendamento, APIs, uploads e downloads e, em geral, para tudo relacionado às experiências do usuário.
 
 O armazenamento é definido como 100 TB por nó de capacidade.
 
@@ -327,7 +327,7 @@ Os recursos e limites de cada SKU Premium (e um SKU de tamanho equivalente) são
 
 | Nós de Capacidade | Núcleos virtuais totais | Núcleos virtuais de back-end | RAM (GB) | Núcleos virtuais de front-end | DQ/LC (por segundo) | Paralelismo de Atualização do Modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
@@ -349,17 +349,17 @@ As operações de capacidade são classificadas como interativas ou em segundo p
 
 É importante entender que as operações interativas sempre são priorizadas em operações em segundo plano para garantir a melhor experiência possível do usuário. Se existirem recursos insuficientes, as operações de segundo plano são adicionadas a uma fila para processamento quando estiverem disponíveis recursos. Operações em segundo plano, como atualizações de conjunto de informações e funções de ia, podem ser interrompidas por meio do serviço do Power BI e adicionadas a uma fila.
 
-Os modelos de importação devem ser totalmente carregados na memória para que possam ser consultados ou atualizados. O serviço do Power BI gerencia o uso de memória usando algoritmos sofisticados para garantir o uso máximo da memória disponível e pode obter excesso de comprometimento da capacidade: Embora seja possível que uma capacidade armazene vários modelos de importação (até 100 TB por capacidade Premium), quando o armazenamento em disco combinado excede a memória com suporte (e memória adicional é necessária para consulta e atualização), elas não podem ser carregadas na memória em ao mesmo tempo.
+Os modelos de importação devem ser totalmente carregados na memória para que possam ser consultados ou atualizados. O serviço do Power BI gerencia o uso de memória usando algoritmos sofisticados para garantir o uso máximo da memória disponível e pode obter excesso de comprometimento da capacidade: embora seja possível para uma capacidade armazenar muitos modelos de importação (até 100 TB por capacidade Premium), Quando o armazenamento em disco combinado excede a memória com suporte (e a memória adicional é necessária para consulta e atualização), elas não podem ser carregadas na memória ao mesmo tempo.
 
 Os modelos de importação, portanto, são carregados em-e removidos da memória de acordo com o uso. Um modelo de importação é carregado quando é consultado (operação interativa) e ainda não está na memória, ou quando é necessário atualizá-lo (operação em segundo plano).
 
-A remoção de um modelo da memória é conhecida como **remoção** , e é uma operação que Power bi pode executar rapidamente, dependendo do tamanho dos modelos. Se a capacidade não tiver pressão de memória, os modelos são simplesmente carregados para a memória e permanecem lá. \[[](#endnote-10)10\] no entanto, quando memória insuficiente estiver disponível para carregar um modelo, a serviço do Power bi precisará primeiro liberar memória. Ele libera memória detectando modelos que se tornaram inativos procurando modelos que não foram usados nos últimos três minutos \[ [11](#endnote-11)\]e, em seguida, removendo-os. Se não existirem modelos inativos para expulsar, o serviço Power BI tentará expulsar modelos carregados para operações de segundo plano. Isso pode incluir a remoção de cargas de trabalho em segundo plano, como a carga de trabalho de ia. Um último recurso, após 30 segundos de tentativas \[com falha [11](#endnote-11)\], é a falha da operação interativa. Nesse caso, o usuário de relatório é normalmente notificado de falha com uma sugestão para tentar novamente em breve.
+A remoção de um modelo da memória é conhecida como **remoção** , e é uma operação que Power bi pode executar rapidamente, dependendo do tamanho dos modelos. Se a capacidade não tiver pressão de memória, os modelos são simplesmente carregados para a memória e permanecem lá. \[[10](#endnote-10)\] no entanto, quando memória insuficiente estiver disponível para carregar um modelo, a serviço do Power bi primeiro precisará liberar memória. Ele libera memória detectando modelos que se tornaram inativos ao procurar modelos que não foram usados nos últimos três minutos \[[11](#endnote-11)\]e, em seguida, removê-los. Se não existirem modelos inativos para expulsar, o serviço Power BI tentará expulsar modelos carregados para operações de segundo plano. Isso pode incluir a remoção de cargas de trabalho em segundo plano, como a carga de trabalho de ia. Um último recurso, após 30 segundos de tentativas com falha \[[11](#endnote-11)\], é a falha da operação interativa. Nesse caso, o usuário de relatório é normalmente notificado de falha com uma sugestão para tentar novamente em breve.
 
 É importante enfatizar que a remoção do conjunto de tráfego é um comportamento normal e esperado. Esforça-se por maximizar a utilização da memória ao carregar e descarregar modelos cujos tamanhos combinados podem exceder a memória disponível. Este comportamento é predefinido e completamente transparente para os utilizadores do relatório. As taxas de expulsão elevadas não significam necessariamente que a capacidade não tem recursos suficientes. No entanto, pode ser preocupante se a capacidade de resposta de atualização ou consulta for afetada por causa das taxas de expulsão elevadas.
 
 As atualizações dos modelos de importação são sempre intensivas de memória, pois os modelos devem ser carregados na memória e é necessária memória adicional para o processamento. Uma atualização total pode utilizar aproximadamente o dobro da quantidade de memória exigida pelo modelo. Isso garante que o modelo possa ser consultado mesmo quando processado (as consultas são enviadas para o modelo existente, até que a atualização seja concluída e os novos dados de modelo estejam disponíveis). Observe que a atualização incremental exigirá menos memória e poderá ser concluída mais rapidamente e, assim, poderá reduzir substancialmente a pressão dos recursos de capacidade. As atualizações também podem exigir bastante CPU para os modelos, especialmente aquelas com transformações complexas do Power Query ou colunas/tabelas calculadas que são complexas ou baseadas em tabelas de grandes dimensões.
 
-Consultas do tipo atualizações – exigem que o modelo seja carregado na memória. Se não existir memória suficiente, o serviço Power BI irá tentar expulsar modelos inativos, e se isso não for possível (todos os modelos estão ativos), a tarefa de atualização será colocada em fila. As atualizações normalmente são muito intensivas da CPU, ainda mais do que as consultas. Por este motivo, existem limites de capacidade no número de atualizações simultâneas, definido como 1,5 vezes o número de núcleos virtuais de back-end, arredondados. Se existirem muitas atualizações simultâneas, uma atualização agendada será colocada em fila. Quando estas situações ocorrem, demora mais tempo para a atualização ser concluída. Observe que as atualizações sob demanda (disparadas por uma solicitação de usuário ou chamada à API) serão repetidas três vezes \[ [](#endnote-11)\]e, em seguida, falharão se ainda não houver recursos suficientes.
+Consultas do tipo atualizações – exigem que o modelo seja carregado na memória. Se não existir memória suficiente, o serviço Power BI irá tentar expulsar modelos inativos, e se isso não for possível (todos os modelos estão ativos), a tarefa de atualização será colocada em fila. As atualizações normalmente são muito intensivas da CPU, ainda mais do que as consultas. Por este motivo, existem limites de capacidade no número de atualizações simultâneas, definido como 1,5 vezes o número de núcleos virtuais de back-end, arredondados. Se existirem muitas atualizações simultâneas, uma atualização agendada será colocada em fila. Quando estas situações ocorrem, demora mais tempo para a atualização ser concluída. Observe que as atualizações sob demanda (disparadas por uma solicitação de usuário ou chamada de API) tentarão novamente três vezes \[[11](#endnote-11)\]e, em seguida, falharão se ainda não houver recursos suficientes.
 
 ## <a name="managing-power-bi-premium"></a>Gerenciando Power BI Premium
 
@@ -374,24 +374,24 @@ Ao criar uma capacidade Premium, o administrador precisa definir:
 - Nome da capacidade (exclusivo dentro do locatário)
 - Administrador (es) de capacidade
 - Tamanho da capacidade
-- Região para residência \[de dados [12](#endnote-12)\]
+- Região para residência de dados \[[12](#endnote-12)\]
 
-Pelo menos um administrador de capacidade deve ser atribuído. Os usuários atribuídos como administradores de capacidade podem:
+Pelo menos um Administrador de Capacidade tem de ser atribuído. Os utilizadores atribuídos como Administradores de Capacidade podem:
 
 - Atribuir espaços de trabalho à capacidade
 - Gerenciar permissões de usuário para adicionar administradores de capacidade ou usuários adicionais com permissões de atribuição (para permitir que eles atribuam espaços de trabalho à capacidade)
 - Gerenciar cargas de trabalho para configurar o uso máximo de memória para cargas de trabalho de relatórios paginados e fluxos de
-- Reiniciar a capacidade, para redefinir todas as operações no caso de sobrecarga \[do sistema [13](#endnote-13)\]
+- Reinicie a capacidade, para redefinir todas as operações em caso de sobrecarga do sistema \[[13](#endnote-13)\]
 
-Os administradores de capacidade não podem acessar o conteúdo do espaço de trabalho (a menos que explicitamente atribuídas permissões de espaço de trabalho) e eles não têm acesso a todas as áreas de administração de Power BI (a menos que explicitamente atribuídas), como métricas de uso, logs de auditoria É importante que os administradores de capacidade não tenham permissões para criar novas capacidades ou dimensionar as capacidades existentes. Além disso, eles são atribuídos por uma base de capacidade, garantindo que eles só possam exibir e gerenciar capacidades às quais eles são atribuídos.
+Os administradores de capacidade não podem acessar o conteúdo do espaço de trabalho (a menos que explicitamente atribuídas permissões de espaço de trabalho) e eles não têm acesso a todas as áreas de administração de Power BI (a menos que explicitamente atribuídas), como métricas de uso, logs de auditoria É importante ter em conta que os Administradores de Capacidade não dispõem de permissões para criar novas capacidades ou dimensionar as capacidades existentes. Além disso, eles são atribuídos por uma base de capacidade, garantindo que eles só possam exibir e gerenciar capacidades às quais eles são atribuídos.
 
-O tamanho da capacidade deve ser selecionado em uma lista disponível de opções de SKU que é restrita pelo número de núcleos v disponíveis no pool. É possível criar várias capacidades do pool que podem ser originadas de uma ou mais SKUs adquiridas. Por exemplo, um SKU P3 (32 v-cores) pode ser usado para criar três capacidades: um P2 (16 núcleos) e dois P1 (2 x 8 núcleos de v). O desempenho e a escala aprimorados podem ser obtidos com a criação de capacidades de tamanho menor, e este tópico é discutido na seção [otimizando capacidades Premium](#optimizing-premium-capacities) . A imagem a seguir mostra um exemplo de configuração para a organização fictícia da Contoso que consiste em cinco capacidades Premium (3 x P1 e 2 x P3) com cada um contendo espaços de trabalho de aplicativo e vários espaços de trabalho na capacidade compartilhada.
+O tamanho da capacidade deve ser selecionado em uma lista disponível de opções de SKU que é restrita pelo número de núcleos v disponíveis no pool. É possível criar várias capacidades do pool que podem ser originadas de uma ou mais SKUs adquiridas. Por exemplo, um SKU P3 (32 núcleos virtuais) poderia servir para criar três capacidades: um P2 (16 núcleos virtuais) e dois P1 (2 x 8 núcleos virtuais). O desempenho e a escala aprimorados podem ser obtidos com a criação de capacidades de tamanho menor, e este tópico é discutido na seção [otimizando capacidades Premium](#optimizing-premium-capacities) . A imagem a seguir mostra um exemplo de configuração para a organização fictícia da Contoso que consiste em cinco capacidades Premium (3 x P1 e 2 x P3) com cada espaço de trabalho contendo e vários espaços de trabalho na capacidade compartilhada.
 
-![Um exemplo de configuração para a organização fictícia da contoso](media/whitepaper-premium-deployment/contoso-organization-example.png)
+![Um exemplo de configuração para a organização fictícia Contoso](media/whitepaper-premium-deployment/contoso-organization-example.png)
 
 Uma capacidade Premium pode ser atribuída a uma região que não seja a região de residência do locatário do Power BI, fornecendo controle administrativo sobre quais data centers (em regiões geográficas definidas) Power BI conteúdo reside. \[[12](#endnote-12)\]
 
-Os administradores do serviço do Power BI e os administradores globais do Office 365 podem modificar as capacidades Premium. Especificamente, eles podem:
+Os administradores de serviço do Power BI e os Administradores Globais do Office 365 podem modificar as capacidades Premium. Especificamente, podem:
 
 - Altere o tamanho da capacidade para escalar verticalmente ou reduzir os recursos. No entanto, não é possível fazer downgrade de uma SKU P para uma SKU em ou atualizar vice-versa.
 - Adicionar ou remover administradores de capacidade
@@ -399,64 +399,64 @@ Os administradores do serviço do Power BI e os administradores globais do Offic
 - Adicionar ou remover cargas de trabalho adicionais
 - Alterar regiões
 
-São necessárias permissões de atribuição para atribuir um espaço de trabalho a uma capacidade Premium específica. As permissões podem ser concedidas a toda a organização, a usuários ou grupos específicos.
+São obrigatórias permissões de atribuição para atribuir uma área de trabalho a uma capacidade Premium específica. As permissões podem ser concedidas a toda a organização, a usuários ou grupos específicos.
 
-Por padrão, as capacidades Premium dão suporte a cargas de trabalho associadas à execução de Power BI consultas. Ele também dá suporte a três cargas de trabalho adicionais: **Relatórios**paginados, **fluxos de fluxo**de os e o **ia**. Cada carga de trabalho requer a configuração da memória máxima (como uma porcentagem da memória total disponível) que pode ser usada pela carga de trabalho. É importante entender que o aumento das alocações de memória máximas pode afetar o número de modelos ativos que podem ser hospedados e a taxa de transferência de atualizações.
+Por predefinição, as capacidades Premium suportam cargas de trabalho associadas à execução de consultas do Power BI. Ele também dá suporte a três cargas de trabalho adicionais: **relatórios paginados**, **Dataflows**e **ia**. Cada carga de trabalho exige a configuração da memória máxima (como uma percentagem da memória total disponível) que pode ser utilizada pela carga de trabalho. É importante entender que o aumento das alocações de memória máximas pode afetar o número de modelos ativos que podem ser hospedados e a taxa de transferência de atualizações.
 
-A memória é alocada dinamicamente aos fluxos de dados, mas é alocada estaticamente aos relatórios paginados. O motivo da alocação estática da memória máxima é que os relatórios paginados são executados em um espaço independente protegido da capacidade. Deve-se ter cuidado ao definir a memória de relatórios paginados, pois reduz a memória disponível para o carregamento de modelos.
+A memória é alocada dinamicamente aos fluxos de dados, mas é alocada estaticamente aos relatórios paginados. O motivo da alocação estática da memória máxima é que os relatórios paginados são executados num espaço independente protegido da capacidade. Deve ter atenção ao definir a memória de relatórios paginados, pois tal reduz a memória disponível para o carregamento de modelos.
 
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Relatórios paginados | N/A | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
-| Fluxos de dados | 20% predefinido; 8% mínimo  | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo  |
-| IA | N/A | 20% padrão; mínimo de 20%  | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo  |
+| Relatórios paginados | N/D | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
+| Fluxos de Dados | 20% predefinido; 8% mínimo  | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo  |
+| IA | N/D | 20% predefinido; 20% mínimo  | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo  |
 | | | | | |
 
 A exclusão de uma capacidade Premium é possível e não resultará na exclusão de seus espaços de trabalho e conteúdo. Em vez disso, ele moverá quaisquer espaços de trabalho atribuídos para a capacidade compartilhada. Quando a capacidade Premium foi criada em uma região diferente, o espaço de trabalho será movido para a capacidade compartilhada da região de residência.
 
 ### <a name="assigning-workspaces-to-capacities"></a>Atribuindo espaços de trabalho a capacidades
 
-Os espaços de trabalho podem ser atribuídos a uma capacidade Premium no**portal** de **Administração do Power bi**ou-para um espaço de trabalho de aplicativo-no painel **espaço de trabalho** .
+Os espaços de trabalho podem ser atribuídos a uma capacidade Premium no**portal** de **Administração do Power bi**ou-para um espaço de trabalho-no painel do **espaço de trabalho** .
 
-Os administradores de capacidade, bem como administradores globais do Office 365 ou administradores de serviço do Power BI, podem atribuir espaços de trabalho em massa no**portal**de **Administração do Power bi**. A atribuição em massa pode se aplicar a:
+Os administradores de capacidade, bem como administradores globais do Office 365 ou administradores de serviço do Power BI, podem atribuir espaços de trabalho em massa no**portal**de **Administração do Power bi**. A atribuição em massa pode aplicar-se a:
 
-- **Espaços de trabalho por usuários** : Todos os espaços de trabalho pertencentes a esses usuários, incluindo espaços de trabalho pessoais, são atribuídos à capacidade Premium. Isso incluirá a reatribuição de espaços de trabalho quando eles já estiverem atribuídos a uma capacidade Premium diferente. Além disso, os usuários também recebem permissões de atribuição de espaço de trabalho.
+- **Espaços de trabalho por usuários** : todos os espaços de trabalho pertencentes a esses usuários, incluindo espaços de trabalho pessoais, são atribuídos à capacidade Premium. Isso incluirá a reatribuição de espaços de trabalho quando eles já estiverem atribuídos a uma capacidade Premium diferente. Além disso, os utilizadores também recebem permissões de atribuição de áreas de trabalho.
 
 - **Áreas de trabalho específicas**
-- **Os espaços de trabalho de toda a organização** : Todos os espaços de trabalho, incluindo espaços de trabalho pessoais, são atribuídos à capacidade Premium. Além disso, todos os usuários atuais e futuros recebem permissões de atribuição de espaço de trabalho. \[[140](#endnote-14)\]
+- **Os espaços de trabalho de toda a organização** : todos os espaços de trabalho, incluindo espaços de trabalho pessoais, são atribuídos à capacidade Premium. Além disso, todos os usuários atuais e futuros recebem permissões de atribuição de espaço de trabalho. \[[14](#endnote-14)\]
 
-Um espaço de trabalho pode ser adicionado a uma capacidade Premium usando o painel **espaço de trabalho** que fornece ao usuário um administrador de espaço de trabalho e tem permissões de atribuição.
+Uma área de trabalho pode ser adicionada a uma capacidade Premium com o painel **Área de Trabalho**, desde que o utilizador seja um administrador de área de trabalho e tenha permissões de atribuição.
 
-![Usando o painel de espaço de trabalho para atribuir um espaço de trabalho a uma capacidade Premium](media/whitepaper-premium-deployment/assign-workspace-capacity.png)
+![Utilizar o painel Área de trabalho para atribuir uma área de trabalho a uma capacidade Premium](media/whitepaper-premium-deployment/assign-workspace-capacity.png)
 
-Os administradores de espaço de trabalho podem remover um espaço de trabalho de uma capacidade (para capacidade compartilhada) sem a necessidade de permissão de atribuição. A remoção de espaços de trabalho de capacidades dedicadas efetivamente realoca o espaço de trabalho para a capacidade compartilhada. Observe que a remoção de um espaço de trabalho de uma capacidade Premium pode ter consequências negativas resultantes, por exemplo, no conteúdo compartilhado ficando indisponível para Power BI usuários licenciados gratuitos ou a suspensão da atualização agendada quando elas excederem as concessões com suporte por capacidades compartilhadas.
+Os administradores de áreas de trabalho podem remover uma área de trabalho de uma capacidade (para capacidade partilhada) sem ser preciso uma permissão de atribuição. A remoção de áreas de trabalho de capacidades dedicadas realoca efetivamente a área de trabalho para a capacidade partilhada. Observe que a remoção de uma área de trabalho de uma capacidade Premium pode ter consequências negativas que resultam, por exemplo, em conteúdo partilhado que fica indisponível para os utilizadores com uma licença Gratuita do Power BI ou na suspensão da atualização agendada quando excedem as permissões suportadas pelas capacidades partilhadas.
 
-Na serviço do Power BI, um espaço de trabalho atribuído a uma capacidade Premium é facilmente identificado pelo ícone de losango que adorna o nome do espaço de trabalho.
+No serviço Power BI, uma área de trabalho atribuída a uma capacidade Premium é facilmente identificada pelo ícone de losango que adorna o nome da área de trabalho.
 
-![Identificando um espaço de trabalho atribuído a uma capacidade Premium](media/whitepaper-premium-deployment/premium-diamond-icon.png)
+![Identificar uma área de trabalho atribuída a uma capacidade Premium](media/whitepaper-premium-deployment/premium-diamond-icon.png)
 
 ### <a name="monitoring-capacities"></a>Capacidades de monitoramento
 
-O monitoramento de capacidades Premium fornece aos administradores uma compreensão de como as capacidades estão sendo executadas. As capacidades podem ser monitoradas usando o aplicativo de métricas de [capacidade Power bi Premium](service-admin-premium-monitor-capacity.md) ou o [portal de administração Power bi](service-admin-premium-monitor-portal.md).
+A monitorização das capacidades Premium indica aos administradores o desempenho das capacidades. As capacidades podem ser monitoradas usando o [aplicativo de métricas de capacidade Power bi Premium](service-admin-premium-monitor-capacity.md) ou o [portal de administração Power bi](service-admin-premium-monitor-portal.md).
 
 #### <a name="interpreting-metrics"></a>Interpretando métricas
 
-As métricas devem ser monitoradas para estabelecer uma compreensão de linha de base do uso de recursos e da atividade de carga de trabalho. Se a capacidade se tornar lenta, é importante entender quais métricas monitorar e as conclusões que você pode fazer.
+As métricas devem ser monitorizadas para estabelecer uma compreensão base da utilização de recursos e da atividade de cargas de trabalho. Se a capacidade se tornar lenta, é importante compreender quais métricas deve monitorizar e as conclusões que pode tirar.
 
-O ideal é que as consultas sejam concluídas em um segundo para fornecer experiências responsivas aos usuários de relatório e permitir uma maior taxa de transferência de consulta. Normalmente, é de menor preocupação quando processos em segundo plano-incluindo atualizações-demoram mais tempo para serem concluídos.
+Idealmente, as consultas devem estar concluídas num segundo para proporcionar experiências reativas aos utilizadores de relatórios e permitir um maior débito de consultas. Normalmente, não é preocupante quando processos em segundo plano, incluindo atualizações, demoram mais tempo a serem concluídos.
 
-Em geral, relatórios lentos podem ser uma indicação de uma capacidade de excesso de aquecimento. Quando os relatórios falham ao serem carregados, essa é uma indicação de uma capacidade superaquecido. Em qualquer situação, a causa raiz pode ser atribuível a muitos fatores, incluindo:
+Em geral, os relatórios lentos podem ser uma indicação de uma capacidade sobrecarregada. Quando os relatórios não podem ser carregados, é uma indicação de uma capacidade sobrecarregada. Em qualquer situação, a causa raiz pode ser atribuível a vários fatores, incluindo:
 
-- **Consultas com falha** certamente indicam pressão de memória e que um modelo não pôde ser carregado na memória. O serviço do Power BI tentará carregar um modelo por 30 segundos antes de falhar.
+- As **consultas falhadas** indicam certamente a pressão da memória e que um modelo não pôde ser carregado na memória. O serviço Power BI tentará carregar um modelo durante 30 segundos antes de falhar.
 
-- **Tempos de espera de consulta excessivos** podem ser devido a vários motivos:
+- Os **tempos de espera de consulta excessivos** podem dever-se a vários motivos:
   - A necessidade do serviço do Power BI primeiro remover modelo (s) e, em seguida, carregar o modelo a ser consultado (Lembre-se de que as taxas de remoção de conjunto de mais altas sozinhos não são uma indicação de sobrecarga de capacidade, a menos que acompanhado por tempos de espera de consulta longos que indicam a memória ultrapaginação)
   - Tempos de carregamento de modelo (especialmente a espera para carregar um modelo grande na memória)
   - Consultas de longa execução
   - Muitas conexões LC\DQ (excedendo os limites de capacidade)
   - Saturação da CPU
   - Designs de relatório complexos com um número excessivo de visuais em uma página (Lembre-se de que cada visual é uma consulta)
-- As **durações de consulta longas** podem indicar que os designs de modelo não são otimizados, especialmente quando vários conjuntos de valores estão ativos em uma capacidade, e apenas um conjunto de um DataSet está produzindo durações de consulta longas. Isso sugere que a capacidade seja de origem suficiente e que o conjunto de espaço em questão seja abaixo do ideal ou que seja apenas lento. As consultas de longa execução podem ser problemáticas, pois podem bloquear o acesso aos recursos exigidos por outros processos.
+- As **durações de consulta longas** podem indicar que os designs de modelo não são otimizados, especialmente quando vários conjuntos de dados estão ativos numa capacidade e apenas um conjunto de dados está a produzir durações de consulta longas. Tal sugere que a capacidade tem recursos suficientes e que o conjunto de dados em questão esteja abaixo do ideal ou seja apenas lento. As consultas de execução prolongada podem ser problemáticas, pois podem bloquear o acesso aos recursos exigidos por outros processos.
 - **Tempos de espera de atualização longos ou tempos de espera de chamada de ia** indicam memória insuficiente devido a muitos modelos ativos consumindo memória ou que uma atualização problemática está bloqueando outras atualizações (excedendo os limites de atualização paralela).
 
 Uma explicação mais detalhada de como usar as métricas é abordada em seguida na seção [otimizando capacidades Premium](#optimizing-premium-capacities) .
@@ -474,9 +474,9 @@ Por fim, as abordagens de teste e o dimensionamento da capacidade Premium conclu
 
 ### <a name="general-best-practices"></a>Práticas recomendadas gerais
 
-Ao se empenhar em obter melhor utilização e desempenho, há algumas práticas recomendadas que podem ser tomadas no quadro como recomendações gerais. Estas incluem:
+Ao se empenhar em obter melhor utilização e desempenho, há algumas práticas recomendadas que podem ser tomadas no quadro como recomendações gerais. Incluem-se:
 
-- Usando espaços de trabalho de aplicativo em vez de espaços de trabalho pessoais
+- Usando espaços de trabalho em vez de espaços de trabalho pessoais
 - Separação de SSBI (BI crítico e de autoatendimento) para diferentes capacidades
 
   ![Separação de crítico para empresas e BI com gestão personalizada em diferentes capacidades](media/whitepaper-premium-deployment/separate-capacities.png)
@@ -522,13 +522,13 @@ As tabelas seguintes mostram possíveis problemas e maneiras de identificá-los 
 
 | Explicações Possíveis | Como Identificar | Como Resolver |
 | --- | --- | --- |
-| Memória ativa total alta (o modelo não pode ser removido porque está em uso nos últimos três minutos)<br><br> Vários picos altos nos tempos de espera da consulta<br><br> Vários picos altos em tempos de espera de atualização | Monitorar as métricas \[de memória [18](#endnote-18)\]e as contagens \[de remoção [19](#endnote-19)\] | Diminuir o tamanho do modelo ou converter para o modo DirectQuery-consulte o tópico [otimizando modelos](#optimizing-models) nesta seção<br><br> Escalar verticalmente a capacidade<br><br> Atribuir o conteúdo a uma capacidade diferente |
+| Memória ativa total alta (o modelo não pode ser removido porque está em uso nos últimos três minutos)<br><br> Vários picos altos nos tempos de espera da consulta<br><br> Vários picos altos em tempos de espera de atualização | Monitorar as métricas de memória \[[18](#endnote-18)\]e as contagens de remoção \[[19](#endnote-19)\] | Diminuir o tamanho do modelo ou converter para o modo DirectQuery-consulte o tópico [otimizando modelos](#optimizing-models) nesta seção<br><br> Escalar verticalmente a capacidade<br><br> Atribuir o conteúdo a uma capacidade diferente |
 
 ##### <a name="inefficient-report-designs"></a>Designs de relatório ineficientes
 
 | Explicações Possíveis | Como Identificar | Como Resolver |
 | --- | --- | --- |
-| As páginas de relatório contêm vários visuais (a filtragem interativa pode disparar pelo menos uma consulta por Visual)<br><br> Os visuais recuperam mais dados do que o necessário | Examinar designs de relatório<br><br> Usuários de relatório de entrevistas para entender como eles interagem com os relatórios<br><br> Monitorar métricas \[de consulta de conjunto de conjuntos [20](#endnote-20)\] | Reprojetar relatórios com menos visuais por página |
+| As páginas de relatório contêm vários visuais (a filtragem interativa pode disparar pelo menos uma consulta por Visual)<br><br> Os visuais recuperam mais dados do que o necessário | Examinar designs de relatório<br><br> Usuários de relatório de entrevistas para entender como eles interagem com os relatórios<br><br> Monitorar métricas de consulta de conjunto de \[[20](#endnote-20)\] | Reprojetar relatórios com menos visuais por página |
 
 ##### <a name="dataset-slow-especially-when-reports-have-previously-performed-well"></a>DataSet lento (especialmente quando os relatórios tiverem sido bem executados)
 
@@ -540,7 +540,7 @@ As tabelas seguintes mostram possíveis problemas e maneiras de identificá-los 
 
 | Explicações Possíveis | Como Identificar | Como Resolver |
 | --- | --- | --- |
-| Tempos de espera de consulta alta<br><br> Saturação da CPU<br><br> Limites de conexão do DQ/LC excedidos | Monitorar a utilização \[da CPU [21](#endnote-21)\], os tempos de espera da consulta e \[a utilização do DQ/LC [22](#endnote-22) \] métricas + durações da consulta – se a flutuação puder indicar problemas de simultaneidade | Escalar verticalmente a capacidade ou atribuir o conteúdo a uma capacidade diferente<br><br> Reprojetar relatórios com menos visuais por página |
+| Tempos de espera de consulta alta<br><br> Saturação da CPU<br><br> Limites de conexão do DQ/LC excedidos | Monitorar a utilização da CPU \[[21](#endnote-21)\], tempos de espera de consulta e utilização de DQ/LC \[[22](#endnote-22)\] métricas + durações de consulta – se a flutuação puder indicar problemas de simultaneidade | Escalar verticalmente a capacidade ou atribuir o conteúdo a uma capacidade diferente<br><br> Reprojetar relatórios com menos visuais por página |
 
 #### <a name="why-are-reports-not-loading"></a>Por que motivo é que os relatórios não estão a carregar?
 
@@ -586,10 +586,10 @@ Os Administradores de Capacidade (e os administradores do serviço Power BI) pod
 
 A atualização incremental pode reduzir significativamente a duração da atualização de dados, especialmente para grandes tabelas de modelos. Existem quatro benefícios associados à atualização incremental:
 
-- As **atualizações são mais rápidas** : Somente um subconjunto de uma tabela precisa ser carregado, reduzindo o uso de CPU e memória e o paralelismo pode ser maior ao atualizar várias partições
-- As **atualizações ocorrem somente quando necessário** : As políticas de atualização incremental podem ser configuradas para carregar somente quando os dados forem alterados
-- As **atualizações são mais confiáveis** : Conexões de execução mais curtas para sistemas de fonte de dados voláteis são menos suscetíveis à desconexão
-- Os **modelos permanecem cortados** : As políticas de atualização incremental podem ser configuradas para remover automaticamente o histórico além de uma janela deslizante de tempo
+- As **atualizações são mais rápidas** : apenas um subconjunto de uma tabela precisa ser carregado, reduzindo o uso de CPU e memória e o paralelismo pode ser maior ao atualizar várias partições
+- As **atualizações ocorrem somente quando necessário** : as políticas de atualização incremental podem ser configuradas para carregar somente quando os dados forem alterados
+- As **atualizações são mais confiáveis** : conexões mais curtas em execução a sistemas de fonte de dados voláteis são menos suscetíveis à desconexão
+- Os **modelos permanecem cortados** : as políticas de atualização incremental podem ser configuradas para remover automaticamente o histórico além de uma janela deslizante de tempo
 
 Para obter mais informações, consulte a [atualização incremental no documento Power bi Premium](service-premium-incremental-refresh.md) .
 
@@ -670,7 +670,7 @@ Uma consideração adicional para conjuntos de dados alojados externamente é o 
 
 Além disso, pode ser interessante observar que as bases de dados do Azure Analysis Services e as bases de dados tabulares do SQL Server Analysis Services exigem que os seus modelos sejam carregados totalmente na memória e que permaneçam ali sempre para dar suporte à consulta. Assim como o serviço Power BI, tem de haver memória suficiente para atualizar, caso o modelo tenha de permanecer online durante a atualização. Ao contrário do serviço Power BI, não existe o conceito de que os modelos sejam automaticamente colocados e retirados da memória de acordo com a utilização. Desse modo, o Power BI Premium oferece uma abordagem mais eficiente para maximizar a consulta de modelos com menor utilização da memória.
 
-### <a name="capacity-planning"></a>Planeamento da Capacidade
+### <a name="capacity-planning"></a>Planejamento de capacidade
 
 O tamanho de uma capacidade Premium determina a sua memória disponível e os limites e recursos de processamento impostos sobre a capacidade. O número de capacidades Premium também é algo a considerar, uma vez que a criação de várias capacidades Premium pode ajudar a isolar as cargas de trabalho umas das outras. Observe que o armazenamento é de 100 TB por nó de capacidade e isto será provavelmente mais do que suficiente para qualquer carga de trabalho.
 
@@ -678,11 +678,11 @@ Determinar o tamanho e o número das capacidades Premium pode ser desafiante, es
 
 Portanto, os Administradores de Capacidade terão de considerar muitos fatores específicos ao seu ambiente, conteúdos e utilização esperada. O objetivo prioritário consiste em maximizar a utilização da capacidade e, ao mesmo tempo, fornecer tempos de consulta consistentes, tempos de espera aceitáveis e taxas de expulsão. Os fatores a considerar podem incluir:
 
-- **Características de dados e tamanho do modelo** : Os modelos de importação devem ser totalmente carregados na memória para permitir a consulta ou a atualização. Os conjuntos de dados de LC/DQ podem exigir um tempo de processamento significativo e, possivelmente, uma quantidade de memória substancial para avaliar medidas complexas ou regras de RLS. O tamanho da memória e do processador, bem como o débito de consultas de LC/DQ são restritos pelo tamanho da capacidade.
-- **Modelos ativos simultâneos** : A consulta simultânea de diferentes modelos de importação fornecerá melhor capacidade de resposta e desempenho quando eles permanecerem na memória. Deve existir memória suficiente para alojar todos os modelos de consulta intensa, com memória adicional para permitir a sua atualização.
-- **Importar atualização do modelo** : O tipo de atualização (completo ou incremental), a duração e a complexidade de Power Query consultas e a lógica de tabela/coluna calculada podem afetar a memória e, especialmente, o uso do processador. As atualizações simultâneas são restritas pelo tamanho da capacidade (1,5 x núcleos virtuais de back-end, arredondado).
-- **Consultas simultâneas** : Muitas consultas simultâneas podem resultar em relatórios sem resposta quando as conexões de processador ou LC/DQ excedem o limite de capacidade. Isto adequa-se especialmente a páginas de relatório que incluem muitos elementos visuais.
-- **Funções de fluxo de os, relatórios paginados e ai** : A capacidade pode ser configurada para dar suporte a fluxos de os, relatórios paginados e funções de ia, cada um exigindo um percentual máximo configurável de memória de capacidade. A memória é alocada dinamicamente para fluxos de trabalho, mas é alocada estaticamente para relatórios paginados e a carga de trabalho de ia.
+- **Características de dados e tamanho do modelo: os modelos de** importação devem ser totalmente carregados na memória para permitir a consulta ou a atualização. Os conjuntos de dados de LC/DQ podem exigir um tempo de processamento significativo e, possivelmente, uma quantidade de memória substancial para avaliar medidas complexas ou regras de RLS. O tamanho da memória e do processador, bem como o débito de consultas de LC/DQ são restritos pelo tamanho da capacidade.
+- **Modelos ativos simultâneos** : a consulta simultânea de diferentes modelos de importação fornecerá melhor capacidade de resposta e desempenho quando eles permanecerem na memória. Deve existir memória suficiente para alojar todos os modelos de consulta intensa, com memória adicional para permitir a sua atualização.
+- **Importar atualização do modelo** : o tipo de atualização (completo ou incremental), a duração e a complexidade das consultas de Power Query e a lógica de tabela/coluna calculada podem afetar a memória e principalmente o uso do processador. As atualizações simultâneas são restritas pelo tamanho da capacidade (1,5 x núcleos virtuais de back-end, arredondado).
+- **Consultas simultâneas** : muitas consultas simultâneas podem resultar em relatórios sem resposta quando as conexões de processador ou LC/DQ excedem o limite de capacidade. Isto adequa-se especialmente a páginas de relatório que incluem muitos elementos visuais.
+- **Funções de fluxo de os, relatórios paginados e ai** : a capacidade pode ser configurada para dar suporte a fluxos de os, relatórios paginados e funções de ia, cada um deles exigindo um percentual máximo configurável de memória de capacidade. A memória é alocada dinamicamente para fluxos de trabalho, mas é alocada estaticamente para relatórios paginados e a carga de trabalho de ia.
 
 Além destes fatores, os Administradores de Capacidade podem considerar a criação de múltiplas capacidades. Múltiplas capacidades permitem o isolamento de cargas de trabalho e podem ser configuradas para garantir que as cargas de trabalho prioritárias têm recursos garantidos. Por exemplo, podem ser criadas duas capacidades para separar cargas de trabalho críticas para empresas de cargas de trabalho de BI de gestão personalizada (SSBI). A capacidade crítica para empresas pode ser utilizada para isolar grandes modelos corporativos, ao fornecer-lhes recursos garantidos, com o acesso de criação concedido apenas ao departamento de TI. A capacidade do SSBI pode ser utilizada para alojar um número cada vez maior de modelos menores, com acesso concedido a analistas empresariais. A capacidade SSBI pode, por vezes, apresentar esperas de consulta ou atualização toleráveis.
 
@@ -696,9 +696,9 @@ Quando o tamanho da capacidade estiver decidido, o teste pode ser executado ao c
 
 Os conteúdos do teste podem ser adicionados às áreas de trabalho criadas na capacidade do Azure e, em seguida, um utilizador pode executar relatórios para gerar uma carga de trabalho de consultas realista e representativa. Se existirem modelos de importação, deve ser também efetuada uma atualização para cada modelo. As ferramentas de monitorização podem ser utilizadas para analisar todas as métricas para entender a utilização de recursos.
 
-É importante que os testes sejam repetíveis: Os testes devem ser executados várias vezes e devem fornecer sempre resultados praticamente idênticos. Uma média destes resultados pode ser utilizada para extrapolar e estimar uma carga de trabalho em condições de produção verdadeiras.
+É importante que os testes sejam repetíveis: os testes devem ser executados várias vezes e devem fornecer aproximadamente o mesmo resultado a cada vez. Uma média destes resultados pode ser utilizada para extrapolar e estimar uma carga de trabalho em condições de produção verdadeiras.
 
-Se já tiver uma capacidade e os relatórios para os quais pretende efetuar o teste de carga, utilize a [ferramenta de geração de carga do PowerShell](https://aka.ms/PowerBILoadTestingTool) para gerar rapidamente um teste de carga. A ferramenta permite-lhe calcular o número de instâncias de cada relatório que a sua capacidade consegue executar numa hora. Pode utilizar a ferramenta para avaliar a aptidão da capacidade para compor relatórios individuais ou compor vários relatórios diferentes em paralelo. Para obter mais informações, veja o vídeo [Microsoft Power BI: Capacidade Premium](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
+Se já tiver uma capacidade e os relatórios para os quais pretende efetuar o teste de carga, utilize a [ferramenta de geração de carga do PowerShell](https://aka.ms/PowerBILoadTestingTool) para gerar rapidamente um teste de carga. A ferramenta permite-lhe calcular o número de instâncias de cada relatório que a sua capacidade consegue executar numa hora. Pode utilizar a ferramenta para avaliar a aptidão da capacidade para compor relatórios individuais ou compor vários relatórios diferentes em paralelo. Para obter mais informações, consulte o vídeo [Microsoft Power bi: capacidade Premium](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
 Para gerar um teste mais complexo, considere desenvolver uma aplicação de teste de carga que simule uma carga de trabalho realista. Para obter mais informações, veja o webinar [Load Testing Power BI Applications with Visual Studio Load Test](https://www.youtube.com/watch?v=UFbCh5TaR4w) (Teste de carga de Aplicações do Power BI com o Teste de Carga do Visual Studio).
 
@@ -712,7 +712,7 @@ Nesta seção, vários cenários do mundo real serão introduzidos para descreve
 - [Determinando se há memória suficiente](#determining-whether-there-is-enough-memory)
 - [Determinando se há CPU suficiente](#determining-whether-there-is-enough-cpu)
 
-As etapas, juntamente com os exemplos de gráfico e tabela, são do aplicativo de métricas de **capacidade Power bi Premium** (aplicativo) ao qual um administrador de Power bi terá acesso.
+As etapas, juntamente com os exemplos de gráfico e tabela, são do aplicativo de **métricas de capacidade Power bi Premium** (aplicativo) ao qual um administrador de Power bi terá acesso.
 
 ### <a name="keeping-datasets-up-to-date"></a>Mantendo os conjuntos de dados atualizados
 
@@ -740,7 +740,7 @@ Para ajudar a investigar isso, o administrador de Power BI pode procurar:
 - Conjuntos de valores que não estavam sendo atualizados e não estavam na memória antes de uma atualização, mas que começaram a mostrar tráfego interativo durante tempos de atualização pesadas. Para ver quais conjuntos de dados foram carregados na memória a qualquer momento, um administrador de Power BI pode examinar a área conjuntos de dados da guia **conjuntos** de dados no aplicativo e cruzar o filtro para um determinado horário clicando em uma das barras na **contagem**de conjuntos de dados carregados por hora. Um pico local (mostrado na imagem abaixo) indica uma hora em que vários conjuntos de valores foram carregados na memória, o que pode atrasar o início das atualizações agendadas
 - As remoções de conjunto de dados aumentam quando as atualizações são agendadas para iniciar, indicando que houve uma alta pressão de memória causada pelo fornecimento de muitos relatórios interativos diferentes antes do momento da atualização. A **remoção de conjunto de e de consumo de memória por hora** pode indicar claramente picos em remoções.
 
-A imagem a seguir mostra um pico local nos conjuntos de valores carregados, que sugere a consulta interativa início de atualizações. A seleção de um período no **conjunto** de tempo de contagem de DataSets carregados por hora irá cruzar o filtro do Visual **dos tamanhos do conjunto** de um.
+A imagem a seguir mostra um pico local nos conjuntos de valores carregados, que sugere a consulta interativa início de atualizações. A seleção de um período no conjunto de tempo de **contagem de DataSets carregados por hora** irá cruzar o filtro do Visual **dos tamanhos do conjunto** de um.
 
 ![Um pico local em conjuntos de datacarregados sugere A consulta interativa o início atrasado de atualizações](media/whitepaper-premium-deployment/hourly-loaded-dataset-counts.png)
 
@@ -774,7 +774,7 @@ Depois que o conjunto de informações de desempenho insatisfatório em um perí
 
 Há várias razões possíveis para o tempo de espera da consulta se acumular nos conjuntos de valores:
 
-- Um design de modelo abaixo do ideal, expressões de medida ou até mesmo design de relatório – todas as circunstâncias que podem contribuir para consultas de longa execução que consomem altos níveis de CPU. Isso força novas consultas a aguardar até que os threads de CPU fiquem disponíveis e possam criar um efeito de comboio (think emperramento de tráfego), normalmente visto durante o horário comercial de pico. A página esperas de **consulta** será o recurso principal para determinar se os conjuntos de valores têm tempos de espera médios de consulta.
+- Um design de modelo abaixo do ideal, expressões de medida ou até mesmo design de relatório – todas as circunstâncias que podem contribuir para consultas de longa execução que consomem altos níveis de CPU. Isso força novas consultas a aguardar até que os threads de CPU fiquem disponíveis e possam criar um efeito de comboio (think emperramento de tráfego), normalmente visto durante o horário comercial de pico. A página **esperas de consulta** será o recurso principal para determinar se os conjuntos de valores têm tempos de espera médios de consulta.
 - Um alto número de usuários de capacidade simultânea (centenas a milhares) consumindo o mesmo relatório ou conjunto de mesmos. Até mesmo os conjuntos de itens bem projetados podem executar incorretamente um limite de simultaneidade. Isso geralmente é indicado por um único conjunto de um, mostrando um valor consideravelmente mais alto para contagens de consulta do que outros conjuntos de valores mostram (ou seja, consultas 300 mil para um conjunto de um DataSet em comparação com as consultas < 30 mil para todos os outros conjuntos de os). Em algum momento, a consulta aguardará esse conjunto de DataSet começará a ser escalonada, e isso será visto no Visual **duração da consulta** .
 - Muitos conjuntos de datadiferentes consultados simultaneamente, que causam ultrapaginação como conjuntos de valores frequentemente percorrerão e esgotarão a memória. Isso faz com que os usuários tenham desempenho lento quando o conjunto de resultados é carregado na memória. Para confirmar isso, o administrador do Power BI pode referir-se ao Visual por **hora de remoção e consumo de memória** , o que pode indicar que um grande número de conjuntos de linhas carregados na memória está sendo removido repetidamente.
 
@@ -784,7 +784,7 @@ Nesse cenário, uma investigação foi disparada quando os usuários descreveam 
 
 Dentro do aplicativo, a seção **duração da consulta** foi usada para encontrar o conjunto de aplicativos culpado da seguinte maneira:
 
-- No, a **consulta** tem como Visual o conjunto de linhas filtradas pelo administrador por conjunto de valores (começando nos conjuntos de os principais consultados) e examinou as barras com filtro cruzado no Visual de distribuições de **consulta por hora** .
+- No, a **consulta** tem como Visual o conjunto de linhas filtradas pelo administrador por conjunto de valores (começando nos conjuntos de os principais consultados) e examinou as barras com filtro cruzado no Visual de **distribuições de consulta por hora** .
 - Quando uma única barra de uma hora mostrou alterações significativas na proporção entre todos os grupos de duração da consulta vs. outras barras de uma hora para esse conjunto de um (ou seja, as taxas entre as alterações das cores são drasticamente), isso significa que esse conjunto de DataSet demonstrou uma alteração esporádica no desempenho.
 - As barras de uma hora que mostram uma parte irregular das consultas de baixa execução, indicaram um TimeSpan em que esse conjunto de tais foi afetado por um efeito vizinho ruidosa, causado por outras atividades de conjuntos de valores.
 
@@ -800,13 +800,13 @@ O inverso também pode ser verdadeiro. O administrador de Power BI pode identifi
 
 ### <a name="determining-whether-there-is-enough-memory"></a>Determinando se há memória suficiente
 
-Para determinar se há memória suficiente para a capacidade de concluir suas cargas de trabalho, o administrador de Power BI pode consultar o Visual de **porcentagens de memória** consumidas na guia **conjuntos** de aplicativos do aplicativo. **Todos** (total) a memória representa a memória consumida por conjuntos de valores carregados na memória, independentemente de serem consultadas ou processadas ativamente. A memória **ativa** representa a memória consumida pelos conjuntos de valores que estão sendo processados ativamente.
+Para determinar se há memória suficiente para a capacidade de concluir suas cargas de trabalho, o administrador de Power BI pode consultar o Visual de **porcentagens de memória consumidas** na guia **conjuntos** de aplicativos do aplicativo. **Toda** a memória (total) representa a memória consumida pelos conjuntos de valores carregados na memória, independentemente de eles serem consultados ou processados ativamente. A memória **ativa** representa a memória consumida pelos conjuntos de valores que estão sendo processados ativamente.
 
 Em uma capacidade íntegra, o Visual terá esta aparência, mostrando uma lacuna entre todas as (total) e a memória ativa:
 
 ![Uma capacidade íntegra mostrará uma lacuna entre todas as (total) e a memória ativa](media/whitepaper-premium-deployment/memory-healthy-capacity.png)
 
-Em uma capacidade que está sofrendo pressão de memória, o mesmo Visual mostrará claramente a memória ativa e a convergente de memória total, o que significa que é impossível carregar conjuntos de os adicionais na memória naquele ponto no tempo. Nesse caso, o administrador de Power BI pode clicar em reinicialização de **capacidade** (em **Opções avançadas** da área configurações de capacidade do portal de administração). Reiniciar os resultados da capacidade em todos os conjuntos de dados sendo liberados da memória e permitir que eles recarreguem na memória conforme necessário (por consultas ou atualização de dados).
+Em uma capacidade que está sofrendo pressão de memória, o mesmo Visual mostrará claramente a memória ativa e a convergente de memória total, o que significa que é impossível carregar conjuntos de os adicionais na memória naquele ponto no tempo. Nesse caso, o administrador de Power BI pode clicar em **reinicialização de capacidade** (em **Opções avançadas** da área configurações de capacidade do portal de administração). Reiniciar os resultados da capacidade em todos os conjuntos de dados sendo liberados da memória e permitir que eles recarreguem na memória conforme necessário (por consultas ou atualização de dados).
 
 ![\* * Active * * memória convergente com * * toda a * * memória](media/whitepaper-premium-deployment/memory-unhealthy-capacity.png)
 
@@ -814,7 +814,7 @@ Em uma capacidade que está sofrendo pressão de memória, o mesmo Visual mostra
 
 Em geral, a utilização média da CPU de uma capacidade deve permanecer abaixo de 80%. Exceder esse valor significa que a capacidade está se aproximando da saturação da CPU.
 
-Os efeitos da saturação de CPU são expressos por operações que demoram mais do que deveriam devido à capacidade de executar muitas opções de contexto de CPU, uma vez que ele tenta processar todas as operações. Em uma capacidade Premium com um alto número de consultas simultâneas, isso é indicado por tempos de espera de consulta altos. Uma conseqüência de tempos de espera de consulta altos é a capacidade de resposta mais lenta do que o normal. O administrador de Power BI pode identificar facilmente quando a CPU é saturada exibindo o Visual de distribuições de **tempo de espera de consulta por hora** . Picos periódicos de contagens de tempo de espera de consulta indicam saturação de CPU potencial.
+Os efeitos da saturação de CPU são expressos por operações que demoram mais do que deveriam devido à capacidade de executar muitas opções de contexto de CPU, uma vez que ele tenta processar todas as operações. Em uma capacidade Premium com um alto número de consultas simultâneas, isso é indicado por tempos de espera de consulta altos. Uma conseqüência de tempos de espera de consulta altos é a capacidade de resposta mais lenta do que o normal. O administrador de Power BI pode identificar facilmente quando a CPU é saturada exibindo o Visual de **distribuições de tempo de espera de consulta por hora** . Picos periódicos de contagens de tempo de espera de consulta indicam saturação de CPU potencial.
 
 ![Os picos periódicos de contagens de tempo de espera de consulta indicam uma potencial saturação de CPU](media/whitepaper-premium-deployment/peak-query-wait-times.png)
 
@@ -834,46 +834,46 @@ Para implantar e gerenciar recursos de Power BI Premium, os administradores e os
 
 ## <a name="end-notes"></a>Notas finais
 
-<a name="endnote-01"></a>\[1\] este documento técnico se preocupa com Power bi Premium que tem suporte apenas do serviço de nuvem Power bi e, portanto, servidor de relatórios do Power bi não está no escopo, exceto para declarar que a licença necessária para instalar o servidor de relatórios do Power bi está incluída em alguns Power BI Premium SKUs.
+<a name="endnote-01"></a>\[1\] este documento técnico se preocupa com Power BI Premium que é suportado apenas pelo serviço de nuvem Power BI e, portanto, Servidor de Relatórios do Power BI não está no escopo, exceto para declarar que a licença necessária para instalar o Servidor de Relatórios do Power BI está incluída no alguns Power BI Premium SKUs.
 
 <a name="endnote-02"></a>\[2\] Power BI como um serviço de nuvem quando usado para inserir conteúdo em nome dos usuários do aplicativo é a PaaS (plataforma como serviço). Esse tipo de incorporação pode ser obtido com dois produtos diferentes, um dos quais é Power BI Premium.
 
-<a name="endnote-03"></a>\[3\] os conjuntos de linhas de envio por push, transmissão e híbrido não são armazenados em capacidades Premium e, portanto, não são uma consideração ao implantar, gerenciar e monitorar capacidades Premium.
+<a name="endnote-03"></a>os conjuntos de \[3\] Push, streaming e híbrido não são armazenados em capacidades Premium e, portanto, não são uma consideração ao implantar, gerenciar e monitorar capacidades Premium.
 
-<a name="endnote-04"></a>\[4\] as pastas de trabalho do Excel como um tipo de conteúdo Power bi não são armazenadas em capacidades Premium e, portanto, não são uma consideração ao implantar, gerenciar ou monitorar as capacidades Premium.
+<a name="endnote-04"></a>\[4\] pastas de trabalho do Excel como um tipo de conteúdo Power BI não são armazenadas em capacidades Premium e, portanto, não são uma consideração ao implantar, gerenciar ou monitorar as capacidades Premium.
 
-<a name="endnote-05"></a>\[5\] os visuais podem ser configurados para ignorar interações com a segmentação de elementos. Para obter mais informações, consulte as [interações de visualização em um documento de relatório Power bi](service-reports-visual-interactions.md) .
+<a name="endnote-05"></a>os elementos visuais do \[5\] podem ser configurados para ignorar interações com a segmentação. Para obter mais informações, consulte as [interações de visualização em um documento de relatório Power bi](service-reports-visual-interactions.md) .
 
-<a name="endnote-06"></a>\[6\] a diferença no tamanho pode ser determinada comparando o tamanho do arquivo de Power bi desktop com a memória do Gerenciador de tarefas usando para o arquivo.
+<a name="endnote-06"></a>\[6\] a diferença no tamanho pode ser determinada comparando o tamanho do arquivo de Power BI Desktop com a memória do Gerenciador de tarefas usando para o arquivo.
 
-<a name="endnote-07"></a>\[7\] o suporte para fontes de dados da Microsoft inclui SQL Server, Bricks de dados do Azure, Azure HDInsight Spark (beta), banco de dados SQL do Azure e Azure SQL data warehouse. Para obter informações sobre fontes adicionais, consulte as [fontes de dados com suporte pela consulta direta no documento Power bi](desktop-directquery-data-sources.md) .
+<a name="endnote-07"></a>\[7\] suporte a fontes de dados da Microsoft incluem SQL Server, Bricks de dados do Azure, Azure HDInsight Spark (beta), banco de dado SQL do Azure e SQL Data Warehouse do Azure. Para obter informações sobre fontes adicionais, consulte as [fontes de dados com suporte pela consulta direta no documento Power bi](desktop-directquery-data-sources.md) .
 
-<a name="endnote-08"></a>\[8\] Power bi Premium dá suporte ao carregamento de um arquivo de Power bi desktop (. pbix) de até 10 GB de tamanho. Uma vez carregado, um conjunto de um DataSet pode crescer até 12 GB de tamanho como resultado da atualização. O tamanho máximo de upload varia por SKU. Para obter mais informações, consulte o documento [suporte a Power bi Premium para grandes conjuntos de](service-premium-large-datasets.md) dados.
+<a name="endnote-08"></a>o \[8\] Power BI Premium dá suporte ao carregamento de um arquivo Power BI Desktop (. pbix) de até 10 GB de tamanho. Uma vez carregado, um conjunto de um DataSet pode crescer até 12 GB de tamanho como resultado da atualização. O tamanho máximo de upload varia por SKU. Para obter mais informações, consulte o documento [suporte a Power bi Premium para grandes conjuntos de](service-premium-large-datasets.md) dados.
 
 <a name="endnote-09"></a>\[9\] SKUs com menos de quatro núcleos de v não são executados na infraestrutura dedicada. Isso inclui os SKUs EM1, EM2, a1 e a2.
 
-<a name="endnote-10"></a>\[10\] embora sejam raros, os modelos podem ser descarregados da memória devido a operações de serviço.
+<a name="endnote-10"></a>\[10\], embora raros, os modelos podem ser descarregados da memória devido a operações de serviço.
 
 <a name="endnote-11"></a>\[11\] esses intervalos estão sujeitos a alterações a qualquer momento.
 
-<a name="endnote-12"></a>\[12\] isso é conhecido como várias regiões geográficas, atualmente em visualização. A lógica para uma implantação de várias regiões é normalmente para conformidade corporativa ou governamental, em vez de desempenho e escala. O carregamento de relatório e de Dashboard ainda envolve solicitações para a região de base para metadados. Para obter mais informações, consulte o [suporte de várias regiões para Power bi Premium (versão prévia)](service-admin-premium-multi-geo.md) do documento.
+<a name="endnote-12"></a>\[12\] isso é conhecido como várias regiões geográficas, atualmente em visualização. A lógica para uma implementação multi-geo é normalmente para conformidade corporativa ou governamental, em vez de desempenho e dimensionamento. O carregamento de relatórios e dashboards ainda envolve pedidos de metadados à região base. Para obter mais informações, consulte o [suporte de várias regiões para Power bi Premium (versão prévia)](service-admin-premium-multi-geo.md) do documento.
 
-<a name="endnote-13"></a>\[13\] é possível que os usuários possam causar problemas de desempenho sobrecarregando o serviço do Power bi com trabalhos, escrevendo consultas excessivamente complexas, criando referências circulares, etc.
+<a name="endnote-13"></a>\[13\] é possível que os usuários possam causar problemas de desempenho sobrecarregando o serviço do Power BI com trabalhos, escrevendo consultas excessivamente complexas, criando referências circulares, etc.
 
-<a name="endnote-14"></a>\[14\] a opção de atribuir os espaços de trabalho de toda a organização não é recomendada e uma abordagem mais direcionada é preferida. Em geral, não é recomendável usar espaços de trabalho pessoais para conteúdo de produção.
+<a name="endnote-14"></a>\[14\] a opção de atribuir os espaços de trabalho da organização inteira não é recomendada e uma abordagem mais direcionada é preferida. Em geral, não é recomendável usar espaços de trabalho pessoais para conteúdo de produção.
 
-<a name="endnote-15"></a>\[15\] é possível monitorar os SKUs no aplicativo ou no portal do Azure, mas não no portal de administração do Power bi. Para monitorar os SKUs, a atualização do relatório falhará se o aplicativo não tiver sido adicionado à função leitor do recurso. Para obter mais informações, consulte o documento [monitorar Power bi Premium e capacidades de Power bi Embedded](service-admin-premium-monitor-capacity.md) .
+<a name="endnote-15"></a>\[15\] é possível monitorar os SKUs no aplicativo ou no portal do Azure, mas não no portal de administração do Power BI. Para monitorar os SKUs, a atualização do relatório falhará se o aplicativo não tiver sido adicionado à função leitor do recurso. Para obter mais informações, consulte o documento [monitorar Power bi Premium e capacidades de Power bi Embedded](service-admin-premium-monitor-capacity.md) .
 
 <a name="endnote-16"></a>\[16\] atualizações podem esperar quando não há CPU ou memória suficiente para iniciar.
 
 <a name="endnote-17"></a>\[17\] o tamanho do conjunto de espaço na memória pode ser maior do que o tamanho em disco em até 20%.
 
-<a name="endnote-18"></a>\[18\] uso médio de memória (GB) e maior consumo de memória (GB)
+<a name="endnote-18"></a>\[18\] de uso médio de memória (GB) e maior consumo de memória (GB)
 
-<a name="endnote-19"></a>\[19\] remoções de conjunto de
+<a name="endnote-19"></a>remoções de conjunto de\] \[19
 
 <a name="endnote-20"></a>\[20\] consultas de conjunto de data, duração média da consulta do conjunto de tempo (MS), contagem de espera do conjunto de
 
-<a name="endnote-21"></a>\[21\] contagem de alta utilização de CPU e tempo de CPU de maior utilização (últimos sete dias)
+<a name="endnote-21"></a>\[21\] contagem de alta utilização da CPU e tempo de CPU de maior utilização (últimos sete dias)
 
-<a name="endnote-22"></a>\[22\] contagem de alta utilização de DQ/LC e tempo de DQ/LC de maior utilização (últimos sete dias)
+<a name="endnote-22"></a>\[22\] contagem de alta utilização de DQ/LC e tempo de DQ/LC de utilização mais alta (últimos sete dias)
