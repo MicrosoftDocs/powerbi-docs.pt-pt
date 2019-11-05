@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: Embed content for your organization (Incorporar conteúdos para a sua organização)
               href: embed-sample-for-your-organization.md
+            - name: Embed paginated reports for customers (Incorporar relatórios paginados para clientes)
+              href: embed-paginated-reports-customers.md
             - name: Embed content for national clouds (Incorporar conteúdos para clouds nacionais)
               href: embed-sample-for-customers-national-clouds.md
         - name: Conceitos
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: Row-level security
               href: embedded-row-level-security.md
+            - name: Paginated reports Row-level security (Segurança ao nível de linha em relatórios paginados)
+              href: paginated-reports-row-level-security.md
             - name: Manage multi-tenants (Gerir vários inquilinos)
               href: embed-multi-tenancy.md
             - name: Registo de diagnóstico do Power BI Embedded no Azure
