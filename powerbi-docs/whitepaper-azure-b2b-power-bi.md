@@ -2,7 +2,7 @@
 title: Distribuir conteúdo de Power BI para usuários convidados externos usando Azure Active Directory B2B
 description: Whitepaper que descreve como usar Azure Active Directory B2B para distribuir Power BI a usuários convidados externos
 author: davidiseminger
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b8e6d046509dd9e2d3cf35a3d46e0812b2774587
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432411"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787351"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuir conteúdo de Power BI para usuários convidados externos usando Azure Active Directory B2B
 
@@ -219,7 +219,7 @@ A integração do Power BI com o Azure AD B2B oferece à contoso uma maneira dir
 
 - A equipe de BI da Contoso cria um espaço de trabalho no Power BI
 
-    ![Espaço](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![espaço](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Outros autores são adicionados ao espaço de trabalho
@@ -398,7 +398,7 @@ Sempre que as funções são definidas no relatório, um usuário deve ser atrib
 
 Isso abre uma página na qual a equipe de BI da Contoso pode ver as duas funções que eles criaram.  Agora, a equipe de BI da Contoso pode atribuir usuários às funções.
 
-![Row-level security](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
+![Row-level security (Segurança ao nível da linha)](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
 No exemplo, a Contoso está adicionando um usuário em uma organização parceira com o endereço de email "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" à função Europe:
 
@@ -607,7 +607,7 @@ Motivos para não escolher essa alternativa:
 
 
 
-## <a name="faq"></a>FAQ
+## <a name="faq"></a>PERGUNTAS FREQUENTES
 
 **A Contoso pode enviar um convite que é resgatado automaticamente, para que o usuário esteja apenas "pronto para começar"? Ou o usuário sempre precisa clicar na URL de resgate?**
 
@@ -617,7 +617,7 @@ Se você estiver convidando muitos usuários convidados, recomendamos que você 
 
 **A Contoso pode forçar a autenticação multifator para usuários convidados se seus parceiros não tiverem a autenticação multifator?**
 
-Sim. Para obter mais informações, consulte [acesso condicional para usuários de colaboração B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions).
+Yes. Para obter mais informações, consulte [acesso condicional para usuários de colaboração B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions).
 
 **Como funciona a colaboração B2B quando o parceiro convidado está usando a Federação para adicionar sua própria autenticação local?**
 

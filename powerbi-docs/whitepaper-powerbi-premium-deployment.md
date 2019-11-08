@@ -3,19 +3,19 @@ title: Implantando e gerenciando capacidades de Power BI Premium
 description: Entenda o potencial do Power BI Premium e aprenda a projetar, implantar, monitorar e solucionar problemas de soluções escalonáveis.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432363"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786351"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implantando e gerenciando capacidades de Power BI Premium
 
@@ -60,13 +60,13 @@ Todo o conteúdo de Power BI é armazenado e gerenciado em espaços de trabalho 
 
 O conteúdo de Power BI a seguir é armazenado em espaços de trabalho:
 
-- Fluxos de Dados
-- Conjuntos de dados
+- Fluxos de dados
+- Conjuntos de Dados
 - Livros
-- Relatórios
-- Dashboards
+- Reports
+- Painéis
 
-#### <a name="dataflows"></a>Fluxos de Dados
+#### <a name="dataflows"></a>Fluxos de dados
 
 Power BI Dataflows ajudam as organizações a unificarem dados de fontes diferentes. Eles podem ser considerados como dados preparados e preparado para uso em modelos, no entanto, não podem ser usados diretamente como uma fonte para relatórios. Eles aproveitam a ampla coleção de conectores de dados da Microsoft, permitindo a ingestão de dados de fontes de dados locais e baseadas em nuvem.
 
@@ -74,7 +74,7 @@ Os fluxos de dados só podem ser criados e gerenciados em espaços de trabalho, 
 
 Para obter mais informações, consulte a [preparação de dados de autoatendimento no documento Power bi (versão prévia)](service-dataflows-overview.md) .
 
-#### <a name="datasets"></a>Conjuntos de dados
+#### <a name="datasets"></a>Conjuntos de Dados
 
 Power BI DataSets representam uma fonte de dados prontos para relatórios e visualização. Há muitos tipos de conjuntos de valores, criados por:
 
@@ -131,7 +131,7 @@ Power BI pastas de trabalho são um tipo de conteúdo Power BI \[[4](#endnote-04
 
 Para obter mais informações, consulte o documento [obter dados de arquivos de pasta de trabalho do Excel](service-excel-workbook-files.md) .
 
-#### <a name="reports"></a>Relatórios
+#### <a name="reports"></a>Reports
 
 Há dois tipos de relatórios: Power BI relatórios e relatórios paginados.
 
@@ -151,7 +151,7 @@ Os dois tipos de relatório com suporte fornecem opções para autores de relat�
 
 Independentemente do tipo de relatório, a obtenção de atualizações de dados e de carga de relatório responsivas (quando filtros ou parâmetros são alterados) é imperativa para fornecer uma experiência de usuário confiável e de bom desempenho.
 
-#### <a name="dashboards"></a>Dashboards
+#### <a name="dashboards"></a>Painéis
 
 Os painéis de Power BI destinam-se a fornecer experiências de monitoramento e são conceitualmente muito diferentes dos relatórios Power BI. Os painéis são projetados para exibição em um único painel para valores expressos e visualizações de dados em blocos. Geralmente, os painéis oferecem menos experiências de interação do que Power BI relatórios, com alguns designs de Dashboard que não esperam nenhuma interação. Por exemplo, um painel autônomo apresentado em uma tela não sensível ao toque em uma sala de servidor. Outra diferença significativa é que os painéis podem apresentar blocos que são dados de origem de vários conjuntos, enquanto um relatório de Power BI só pode ser baseado em um único conjunto.
 
@@ -408,7 +408,7 @@ A memória é alocada dinamicamente aos fluxos de dados, mas é alocada estatica
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
 | Relatórios paginados | N/D | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo | 20% predefinido; 2,5% mínimo |
-| Fluxos de Dados | 20% predefinido; 8% mínimo  | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo  |
+| Fluxos de dados | 20% predefinido; 8% mínimo  | 20% predefinido; 4% mínimo  | 20% predefinido; 2% mínimo | 20% predefinido; 1% mínimo  |
 | IA | N/D | 20% predefinido; 20% mínimo  | 20% predefinido; 10% mínimo | 20% predefinido; 5% mínimo  |
 | | | | | |
 
