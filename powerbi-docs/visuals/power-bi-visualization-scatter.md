@@ -2,7 +2,6 @@
 title: Gráficos de dispersão, de bolhas e de pontos no Power BI
 description: Gráficos de dispersão, de pontos e de bolhas no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192967"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870821"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, de bolhas e de pontos no Power BI
 
@@ -78,9 +77,9 @@ São uma escolha excelente se quiser incluir dados categóricos ao longo do Eixo
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
    
 2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
@@ -172,4 +171,4 @@ Para criar um novo campo [utilize o Editor de Consultas do Power BI Desktop para
 
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

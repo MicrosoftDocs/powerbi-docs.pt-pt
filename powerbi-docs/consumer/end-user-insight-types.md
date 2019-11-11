@@ -2,20 +2,19 @@
 title: Tipos de Informações suportados pelo Power BI
 description: Informações Rápidas e Ver informações com o Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f754c1164448be88a3269cb8e3d129b63a6115f
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379893"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863495"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 
@@ -32,17 +31,17 @@ Estes são alguns dos algoritmos que usamos:
 ## <a name="category-outliers-topbottom"></a>Valores Atípicos das Categorias (superior/inferior)
 Realça os casos em que, para uma medida no modelo, um ou dois membros de uma dimensão têm valores muito mais altos do que outros membros da dimensão.  
 
-![Exemplo de Valores atípicos das categorias](./media/end-user-insight-types/pbi_auto_insight_types_category_outliers.png)
+![Exemplo de Valores atípicos das categorias](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>Alterar os pontos numa série de tempo
 Realça os casos em que há alterações significativas nas tendências numa série de tempo de dados.
 
-![Exemplo de alteração dos pontos numa série de tempo](./media/end-user-insight-types/pbi_auto_insight_types_changepoint.png)
+![Exemplo de alteração dos pontos numa série de tempo](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
 ## <a name="correlation"></a>Correlação
 Deteta os casos em que várias medidas mostram uma correlação entre si quando representadas numa dimensão no conjunto de dados.
 
-![Exemplo de Correlação](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
+![Exemplo de Correlação](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ## <a name="low-variance"></a>Desvio Baixo
 Deteta casos em que os pontos de dados não estão longe da média.
@@ -52,30 +51,30 @@ Deteta casos em que os pontos de dados não estão longe da média.
 ## <a name="majority-major-factors"></a>Maioria (Principais fatores)
 Encontra casos em que a maioria de um valor total pode ser atribuída a um único fator quando dividida por outra dimensão.  
 
-![Exemplo de principais fatores](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![Exemplo de principais fatores](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Tendências gerais na série de tempo
 Deteta as tendências ascendentes ou descendentes em dados de série de tempo.
 
-![Exemplo de Tendências gerais na série de tempo](./media/end-user-insight-types/pbi_auto_insight_types_trend.png)
+![Exemplo de Tendências gerais na série de tempo](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
 ## <a name="seasonality-in-time-series"></a>Sazonalidade na série de tempo
 Encontra padrões periódicos nos dados de série de tempo, como a sazonalidade semanal, mensal ou anual.
 
-![Exemplo de Sazonalidade](./media/end-user-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![Exemplo de Sazonalidade](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ## <a name="steady-share"></a>Partilha constante
 Realça os casos em que há uma correlação de pai-filho entre a partilha de um valor do filho em relação ao valor geral do pai numa variável contínua.
 
-![Exemplo de Partilha constante](./media/end-user-insight-types/pbi_auto_insight_types_steadyshare.png)
+![Exemplo de Partilha constante](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
 ## <a name="time-series-outliers"></a>Valores atípicos de série de tempo
 Para dados numa série de tempo, deteta quando há datas ou horas específicas com valores significativamente diferentes dos outros valores de data/hora.
 
-![Exemplo de Valores atípicos de série de tempo](./media/end-user-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![Exemplo de Valores atípicos de série de tempo](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
 ## <a name="next-steps"></a>Próximos passos
 [Informações do Power BI](end-user-insights.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 
