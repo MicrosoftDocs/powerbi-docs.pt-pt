@@ -2,19 +2,18 @@
 title: Orientações para o Power BI
 description: A documentação de orientação indica as práticas recomendadas para a utilização do Power BI.
 author: guyinacube
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 3e8a4a92ce3a1e5cbc9459732cdd12225ae901e1
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691249"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875575"
 ---
 # <a name="guidance-for-power-bi"></a>Orientações para o Power BI
 
@@ -37,6 +36,6 @@ Neste documento, irá encontrar orientações e práticas recomendadas para o Po
 
 | Orientação | Descrição |
 | --- | --- |
-| [Melhores práticas dos fluxos de dados](/service-dataflows-best-practices.md) | Descreve as melhores práticas para criar fluxos de dados no Power BI. |
+| [Melhores práticas dos fluxos de dados](../service-dataflows-best-practices.md) | Descreve as melhores práticas para criar fluxos de dados no Power BI. |
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

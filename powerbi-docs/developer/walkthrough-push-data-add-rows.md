@@ -3,18 +3,17 @@ title: Adicionar linhas a uma tabela
 description: Passo a passo para enviar dados por push - Adicionar linhas a uma tabela do Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710397"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879834"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passo 5: Adicionar linhas a uma tabela do Power BI
 
@@ -317,4 +316,4 @@ Apesar de especificarmos que **_//obtemos o primeiro id_** no código acima, o m
 [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

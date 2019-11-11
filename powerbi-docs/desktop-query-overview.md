@@ -2,7 +2,6 @@
 title: Descrição geral de consulta no Power BI Desktop
 description: Descrição geral de consulta no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513553"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876290"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Descrição geral de consulta no Power BI Desktop
 Com o **Power BI Desktop**, pode ligar-se ao mundo dos dados, criar relatórios apelativos e fundamentais e partilhar os seus trabalhos com outras pessoas, que poderão basear-se no seu trabalho e expandir os seus esforços de business intelligence.
@@ -47,7 +46,7 @@ Sem ligações de dados, o **Editor de Consultas** é apresentado como um painel
 
 Após uma consulta ser carregada, a vista do **Editor de Consultas** torna-se mais interessante. Se nos ligarmos à seguinte origem de dados, o **Editor de Consultas** carrega informações sobre os dados, que pode depois começar a formatar.
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Eis o aspeto do **Editor de Consultas** após uma ligação de dados ser estabelecida:
 

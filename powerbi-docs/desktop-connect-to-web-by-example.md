@@ -2,7 +2,6 @@
 title: Extrair dados de uma página Web por exemplo no Power BI Desktop
 description: Extrair dados de uma página Web ao fornecer um exemplo de o que pretende extrair
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514075"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869042"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Obter dados de uma página Web ao fornecer um exemplo
 

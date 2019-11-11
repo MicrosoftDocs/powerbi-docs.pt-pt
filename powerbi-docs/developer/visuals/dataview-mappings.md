@@ -3,18 +3,17 @@ title: Compreender o mapeamento de vista de dados em elementos visuais do Power 
 description: Este artigo descreve como é que o Power BI transforma os dados antes de os converter em elementos visuais.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193550"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880162"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Compreender o mapeamento de vista de dados em elementos visuais do Power BI
 

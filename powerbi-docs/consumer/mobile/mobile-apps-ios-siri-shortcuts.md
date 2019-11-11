@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391505"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783561"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Utilizar Atalhos da Siri na Aplicação Power BI Mobile para iOS (pré-visualização)
 
@@ -66,7 +66,7 @@ Para eliminar um atalho, aceda ao item e, no menu de ações (...), toque na aç
 ## <a name="next-steps"></a>Próximos passos
 Saiba mais sobre a aplicação móvel do Power BI ao fazer o seguinte: 
 
-* Transfira a [aplicação móvel do Power BI para iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* Transfira a [aplicação móvel do Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * Siga [@MSPowerBI no Twitter](https://twitter.com/MSPowerBI)
-* Participe na conversa na [Comunidade do Power BI](http://community.powerbi.com/)
+* Participe na conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Adicionar uma coluna de um exemplo no Power BI Desktop
 description: Crie uma nova coluna rapidamente no Power BI Desktop com as colunas existentes como exemplos
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869448"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Adicionar uma coluna de um exemplo no Power BI Desktop
 Começando com a versão de abril de 2017 do **Power BI Desktop**, pode adicionar novas colunas de dados ao seu modelo com o **Editor de Consultas** ou ao apresentar simplesmente um ou mais valores de exemplo para a nova coluna. Pode criar um novo exemplo de coluna de uma seleção atual ou apresentar entradas com base em todas as colunas (ou colunas selecionadas) numa determinada tabela.

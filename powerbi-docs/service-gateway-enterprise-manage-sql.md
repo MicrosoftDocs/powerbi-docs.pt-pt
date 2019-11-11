@@ -2,7 +2,6 @@
 title: Gerir a origem de dados – SQL
 description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ca8cf2e9c20f2efb4fe4b9f80a936ba887cccc93
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 66e9b53761fa154fe76cefea99cb5c88345b97aa
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832387"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881644"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gerir a origem de dados – SQL Server
 
@@ -81,5 +80,5 @@ Se estiver listado no separador **Utilizadores** da origem de dados configurada 
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)
 * [Utilizar o Kerberos para SSO (início de sessão único) a partir do Power BI para origens de dados no local](service-gateway-sso-kerberos.md)
 
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

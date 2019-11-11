@@ -3,18 +3,17 @@ title: API de Filtros de Elementos Visuais nos Elementos Visuais do Power BI
 description: Este artigo aborda como os elementos visuais do Power BI podem filtrar outros elementos visuais.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 98ebc87cf5a6b7bf8f0b8b88d4ff498edfd5bf9a
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194022"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880062"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>API de Filtros de Elementos Visuais nos Elementos Visuais do Power BI
 
@@ -188,7 +187,7 @@ Onde:
 
   O filtro pode abordar colunas de várias tabelas.
 
-* `$schema` é http://powerbi.com/product/schema#tuple.
+* `$schema` é https://powerbi.com/product/schema#tuple.
 
 * `filterType` é *FilterType.Tuple*.
 
@@ -240,7 +239,7 @@ let values = [
 ];
 
 let filter: ITupleFilter = {
-    $schema: "http://powerbi.com/product/schema#tuple",
+    $schema: "https://powerbi.com/product/schema#tuple",
     filterType: FilterType.Tuple,
     operator: "In",
     target: target,

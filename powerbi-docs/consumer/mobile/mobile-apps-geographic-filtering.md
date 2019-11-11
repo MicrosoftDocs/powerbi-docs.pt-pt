@@ -2,18 +2,17 @@
 title: Filtrar relatório por localização geográfica numa aplicação móvel do Power BI
 description: Saiba como pode filtrar um relatório com base na sua localização geográfica nas aplicações móveis do Power BI, se o proprietário do relatório tiver definido etiquetas geográficas.
 author: mshenhav
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305782"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870640"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtrar um relatório por localização geográfica nas aplicações móveis do Power BI
 Aplica-se a:
@@ -51,5 +50,5 @@ Leia mais sobre [configurar a filtragem geográfica](../../desktop-mobile-geofil
 ### <a name="next-steps"></a>Próximos passos
 * [Ligar-se a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
 * [Categorização de dados no Power BI Desktop](../../desktop-data-categorization.md) 
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Introdução aos mosaicos dos dashboards para designers do Power BI
 description: Este artigo descreve os mosaicos do dashboard no Power BI, que incluem os mosaicos que forem criados a partir dos relatórios do SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994849"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872788"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introdução aos mosaicos dos dashboards para designers do Power BI
 
@@ -99,8 +98,8 @@ Ao selecionar um mosaico, o que ocorre a seguir depende de como o criou. Caso co
 - [Introdução aos dashboards para designers do Power BI](service-dashboards.md)  
 - [Atualização de dados no Power BI](refresh-data.md)
 - [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
-- [Integrar mosaicos do Power BI em documentos do Office](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Integrar mosaicos do Power BI em documentos do Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Afixar itens do Reporting Services nos dashboards do Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

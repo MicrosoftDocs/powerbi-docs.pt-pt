@@ -2,7 +2,6 @@
 title: Certificar conjuntos de dados (Pré-visualização) – Power BI
 description: Aprenda a orientar os utilizadores empresariais na obtenção de conjuntos de dados fiáveis e de alta qualidade.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567323"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877146"
 ---
 # <a name="certify-datasets-preview"></a>Certificar conjuntos de dados (Pré-visualização)
 
@@ -43,4 +42,4 @@ Saiba mais no artigo [Control the use of datasets across workspaces](service-dat
 ## <a name="next-steps"></a>Próximos passos
 
 * Leia o artigo [Using datasets across workspaces](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em áreas de trabalho)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

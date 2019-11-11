@@ -3,19 +3,18 @@ title: Como configurar cargas de trabalho no Power BI Premium
 description: Saiba como configurar cargas de trabalho numa capacidade Premium do Power BI.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307365"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856817"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -198,4 +197,4 @@ A [aplicação Métricas de Capacidade do Power BI Premium](service-admin-premiu
 [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
 [Atualização automática de página no Power BI Desktop (pré-visualização)](desktop-automatic-page-refresh.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

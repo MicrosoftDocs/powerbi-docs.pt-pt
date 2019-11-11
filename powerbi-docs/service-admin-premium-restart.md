@@ -3,19 +3,18 @@ title: Reiniciar uma capacidade do Power BI Premium
 description: Saiba como pode reiniciar uma capacidade do Power BI Premium para resolver problemas de desempenho.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 758d630a06ed0194dec69013535df53f9a2825a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305660"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873431"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Reiniciar uma capacidade do Power BI Premium
 
@@ -59,4 +58,4 @@ Também recomendamos que [monitorize as suas capacidades](service-admin-premium-
 
 [O que é o Power BI Premium?](service-premium-what-is.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

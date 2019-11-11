@@ -2,7 +2,6 @@
 title: Gráficos em anel no Power BI
 description: Gráficos em anel no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195109"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870942"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Gráficos em anel no Power BI
 
@@ -25,13 +24,13 @@ Um gráfico em anel é semelhante a um gráfico circular que mostra a relação 
 
 ## <a name="prerequisite"></a>Pré-requisito
 
-Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
    
-2. Procure a sua cópia do **ficheiro PBIX de Exemplo de Análise de Revenda**
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-1. Abra o **Ficheiro PBIX de Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 

@@ -2,7 +2,6 @@
 title: Visualizações de cartão (mosaicos de número grande)
 description: Criar uma Visualização de cartão no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 268b69362f0f8c98ba01fbd0673fc46856d54ba2
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195629"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870976"
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
 
@@ -27,13 +26,13 @@ Por vezes, um único número é a coisa mais importante que pretende controlar n
 
 ## <a name="prerequisite"></a>Pré-requisito
 
-Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** \> **Abrir**.
    
 2. Encontre a sua cópia do **ficheiro PBIX de Exemplo de Análise de Revenda**.
 
-1. Abra o **Ficheiro PBIX de Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã do ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 

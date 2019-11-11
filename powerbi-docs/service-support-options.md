@@ -2,19 +2,18 @@
 title: Opções de suporte para o Power BI Pro e Power BI Premium
 description: Este artigo descreve as opções de suporte que estão disponíveis para os clientes do Power BI Pro e do Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305821"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871396"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opções de suporte para o Power BI Pro e Power BI Premium
 
@@ -55,4 +54,4 @@ Irá dar-lhe uma noção geral completa das funcionalidades do Power BI. Abrange
 
   - **WorkshopPLUS - Data AI: Análise de Dados Avançada com o Power BI** (WorkshopPLUS – IA de Dados: Análise de Dados Avançada com o Power BI): este curso irá dar-lhe os conhecimentos necessários para compreender e implementar os princípios-chave sobre os aspetos da Modelação de Dados no Power BI, através de ferramentas como o Power BI Desktop e ao acompanhar o serviço cloud na publicação e consumo de Recursos do Power BI. Este curso irá então abranger as noções básicas do desenvolvimento de relatórios, da análise incorporada no Power BI para incorporar os conteúdos nas aplicações personalizadas, da criação de dashboards em tempo real e da análise avançada que envolve o desenvolvimento e ciência de dados no Power BI.
 
-Contacte o seu Gestor Técnico de Conta da Microsoft para obter mais detalhes. Se ainda não tiver um contrato de Suporte Premier da Microsoft, saiba mais em [Suporte Premier](https://support.microsoft.com/en-us/premier).
+Contacte o seu Gestor Técnico de Conta da Microsoft para obter mais detalhes. Se ainda não tiver um contrato de Suporte Premier da Microsoft, saiba mais em [Suporte Premier](https://support.microsoft.com/premier).

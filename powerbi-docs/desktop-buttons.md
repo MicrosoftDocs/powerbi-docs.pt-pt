@@ -2,7 +2,6 @@
 title: Utilizar botões no Power BI
 description: Os botões no Power BI Desktop permitem-lhe criar relatórios e dashboards que têm um comportamento semelhante às aplicações, o que aumenta a interação com os utilizadores
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a38b54bdacd0f60ee0151ad7c1a2084cebac2a37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239490"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878719"
 ---
 # <a name="using-buttons-in-power-bi"></a>Utilizar botões no Power BI
 A utilização de **botões** no Power BI permite-lhe criar relatórios e dashboards que têm um comportamento semelhante às aplicações e, deste modo, poderá criar um ambiente apelativo onde os utilizadores podem pairar o rato, clicar e ter uma maior interação com os conteúdos do Power BI. Pode adicionar botões a relatórios no **Power BI Desktop** e partilhar ou publicar esses relatórios no serviço Power BI para criar dashboards que proporcionam aos utilizadores um comportamento semelhante às aplicações.
@@ -42,7 +41,7 @@ Os seguintes cartões no painel **Visualizações** permitem-lhe ajustar a forma
 * Texto do Botão
 * Ícone
 * Contorno
-* Preencher
+* Preenchimento
 
 Para selecionar a forma como um botão deve ser apresentado em cada estado, expanda um desses cartões e selecione a lista pendente apresentada na parte superior do cartão. Na imagem seguinte, pode ver o cartão **Contorno** expandido, com a lista pendente selecionada para apresentar os três estados:
 
@@ -57,7 +56,7 @@ Pode selecionar qual a ação efetuada quando o utilizador seleciona um botão n
 
 As opções para ações do botão são:
 
-* Anterior
+* Back
 * Marcador
 * Perguntas e Respostas
 

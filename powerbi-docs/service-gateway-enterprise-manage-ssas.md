@@ -2,7 +2,6 @@
 title: Gerir a sua origem de dados – Analysis Services
 description: Como gerir o gateway de dados no local e as origens de dados que pertencem a esse gateway. Isto aplica-se ao Analysis Services no modo multidimensional e de tabela.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730189"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881664"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerir a sua origem de dados – Analysis Services
 
@@ -284,5 +283,5 @@ Pode utilizar uma ligação em direto para instâncias em tabela ou multidimensi
 * [Resolução de problemas do gateway de dados no local](/data-integration/gateway/service-gateway-tshoot)
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)
 
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

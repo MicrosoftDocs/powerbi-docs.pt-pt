@@ -2,7 +2,6 @@
 title: Gerir origens de dados
 description: Saiba como gerir origens de dados no Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164521"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881767"
 ---
 # <a name="manage-data-sources"></a>Gerir origens de dados
 
@@ -178,4 +177,4 @@ O gateway de dados no local suporta as seguintes origens de dados para o Power B
 * [Gerir a origem de dados – atualização importada/agendada](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Diretrizes para implementar um gateway de dados](service-gateway-deployment-guidance.md)
 
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).

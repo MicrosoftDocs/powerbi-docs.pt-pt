@@ -2,7 +2,6 @@
 title: Gráficos de medidores radiais no Power BI
 description: Gráficos de medidores radiais no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194317"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880911"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidores radiais no Power BI
 
@@ -49,7 +48,7 @@ Os medidores radiais são uma ótima opção para:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Na secção superior esquerda da barra de menus, selecione **Obter Dados** > **Excel**
    
@@ -153,4 +152,4 @@ Após concluir estes passos, deverá ter um gráfico de medidor semelhante ao se
 
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

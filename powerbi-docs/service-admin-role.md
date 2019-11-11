@@ -2,7 +2,6 @@
 title: Compreender a função de administrador do Power BI
 description: Este artigo descreve a função de administrador do serviço Power BI e como a utilizar na sua organização.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256428"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856713"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Compreender a função de administrador do serviço Power BI
 
@@ -111,4 +110,4 @@ Também pode atribuir utilizadores às funções com o PowerShell. Os utilizador
 [Administrar o Power BI na sua Organização](service-admin-administering-power-bi-in-your-organization.md)  
 [Portal de administração do Power BI](service-admin-portal.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

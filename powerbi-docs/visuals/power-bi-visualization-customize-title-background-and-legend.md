@@ -2,7 +2,6 @@
 title: Introdução à formatação de visualizações do Power BI
 description: Personalizar o título, fundo e legenda da visualização
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389931"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880855"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizar títulos, legendas e fundos de visualização
 
@@ -167,4 +166,4 @@ Veja a seguir uma lista de visualizações e as opções de personalização dis
 
 - [Conceitos básicos para os consumidores do serviço Power BI](../consumer/end-user-basic-concepts.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

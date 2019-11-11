@@ -3,19 +3,18 @@ title: Formas de partilhar o seu trabalho no Power BI
 description: No Power BI, pode partilhar e colaborar em dashboards, relatórios, mosaicos e aplicações de diferentes formas. Cada forma tem as suas vantagens.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841725"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881327"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de partilhar o seu trabalho no Power BI
 
@@ -135,4 +134,4 @@ As *aplicações de modelo* foram concebidas para serem distribuídas publicamen
 
 Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

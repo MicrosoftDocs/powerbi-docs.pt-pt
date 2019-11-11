@@ -2,7 +2,6 @@
 title: Saiba como ligar a fluxos de dados no Power BI
 description: Saiba como funcionam os fluxos de dados no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ae260e36d0ca7363a3b21242087813d951cf4983
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945795"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872670"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Ligar a origens de dados de fluxos de dados do Power BI
 
@@ -61,7 +60,7 @@ A categoria **Todas as categorias** contém todas as origens de dados, de todas 
 
 A categoria **Ficheiro** inclui as seguintes ligações de dados disponíveis para fluxos de dados:
 
-* Aceder
+* Acesso
 * Excel
 * JSON
 * Texto/CSV

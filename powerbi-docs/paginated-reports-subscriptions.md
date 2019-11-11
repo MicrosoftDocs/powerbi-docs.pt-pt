@@ -3,18 +3,17 @@ title: Subscrever relatórios paginados no serviço Power BI
 description: Neste artigo, irá aprender noções importantes da subscrição de relatórios paginados no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.openlocfilehash: 4b0ead5697dc94497609ac925a0a46142584f0ba
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: dfdacef52ea601e26121dfcaa59ba2b66bb90182
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185608"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874612"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas 
 

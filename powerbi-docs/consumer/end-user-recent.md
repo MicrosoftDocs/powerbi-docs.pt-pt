@@ -2,7 +2,6 @@
 title: Apresentar o conteúdo acedido recentemente no serviço Power BI
 description: documentação de sincronização no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256245"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862430"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Conteúdos **recentes** no serviço Power BI
 Os conteúdos recentes são os últimos itens (até 20 itens) aos quais acedeu no serviço Power BI.  Incluem: dashboards, relatórios, aplicações e livros.
@@ -53,5 +52,5 @@ As ações disponíveis dependem das definições atribuídas pelo *designer* do
 ## <a name="next-steps"></a>Próximos passos
 [Aplicações do serviço Power BI](end-user-apps.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

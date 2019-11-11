@@ -2,7 +2,6 @@
 title: Partilhar o dashboard associado a um ficheiro do Excel no OneDrive – Power BI
 description: Leia sobre a partilha de dashboards associados a um livro do Excel no OneDrive para Empresas, com os mosaicos afixados nesse livro.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721444"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871468"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Partilhar um dashboard do Power BI associado a um ficheiro do Excel no OneDrive
 No Power BI, pode [ligar a livros do Excel no OneDrive para Empresas](service-excel-workbook-files.md) e afixar mosaicos a um dashboard desse livro. Quando partilha esse dashboard ou cria um pacote de conteúdos que o inclui:
@@ -57,5 +56,5 @@ a partilha de um dashboard a partir de uma área de trabalho do Power BI é seme
 ## <a name="next-steps"></a>Próximos passos
 * [Afixar um mosaico a um dashboard do Power BI a partir do Excel](service-dashboard-pin-tile-from-excel.md)
 * [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

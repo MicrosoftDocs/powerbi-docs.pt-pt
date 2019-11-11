@@ -3,18 +3,17 @@ title: Criar um URL de iniciação
 description: Este artigo descreve como pode abrir o URL num novo separador ao utilizar os Elementos Visuais do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307318"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879931"
 ---
 # <a name="create-a-launch-url"></a>Criar um URL de iniciação
 
@@ -31,12 +30,12 @@ Ao criar um URL de iniciação, pode abrir um novo separador (ou janela) do brow
 Utilize a chamada à API `host.launchUrl()` ao transmitir o seu URL de destino como argumento de cadeia de carateres:
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>Restrições
 
-* Utilize apenas caminhos absolutos e não relativos. Por exemplo, utilize um caminho absoluto como `http://some.link.net/subfolder/page.html`. O caminho relativo (`/page.html`) não será aberto.
+* Utilize apenas caminhos absolutos e não relativos. Por exemplo, utilize um caminho absoluto como `https://some.link.net/subfolder/page.html`. O caminho relativo (`/page.html`) não será aberto.
 
 * De momento, só são suportados os protocolos *HTTP* e *HTTPS*. Evite o *FTP*, o *MAILTO* e assim por adiante.
 

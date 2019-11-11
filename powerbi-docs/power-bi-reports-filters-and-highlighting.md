@@ -2,7 +2,6 @@
 title: Filtros e realces em relatórios do Power BI
 description: Sobre filtros e realces em relatórios do Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 53bca7d1c0fd4d8592ec694d67148a7e3ccd46ff
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891867"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877619"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros e realces em relatórios do Power BI
  Este artigo apresenta-lhe os filtros e os realces no serviço Power BI. A experiência é praticamente a mesma no Power BI Desktop. Os *Filtros* removem tudo, menos os dados em que se pretende focar. Os *Realces* não são filtros. Não removem dados, mas realçam um subconjunto de dados visíveis; os dados não realçados permanecem visíveis, mas ficam esbatidos.
@@ -100,5 +99,5 @@ Selecione uma etiqueta de eixo ou valor num elemento visual para realçar os out
 
 [Alterar como os elementos visuais de relatórios realizam filtragem cruzada e realce cruzado entre si](consumer/end-user-interactions.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

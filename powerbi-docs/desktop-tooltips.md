@@ -2,7 +2,6 @@
 title: Utilizar páginas de descrições de relatórios no Power BI
 description: As páginas de descrição no Power BI Desktop permitem-lhe criar descrições que surgem ao pairar o cursor para os elementos visuais nos seus relatórios
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879644"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Criar descrições com base em páginas de relatório no Power BI Desktop
 Pode criar **descrições de relatórios** visualmente avançadas que surgem ao pairar o cursor sobre elementos visuais, com base nas páginas de relatórios que criar no **Power BI Desktop**. Ao criar uma página de relatório que serve como descrição, as suas descrições personalizadas podem incluir elementos visuais, imagens e qualquer outra coleção de itens que criar na página do relatório. 

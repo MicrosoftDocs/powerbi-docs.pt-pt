@@ -2,7 +2,6 @@
 title: Obter dados de ficheiros do Power BI Desktop
 description: Aprenda a obter dados e relatórios do Power BI Desktop para o Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e0ad4ed93fac06ace7c8e0569ebb0c2aeac9a87
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea5e4a4af3f4049ccb9d69fbe95a13dc08a8cf05
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513096"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877115"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Obter dados de ficheiros do Power BI Desktop
 ![](media/service-desktop-files/pbid_file_icon.png)

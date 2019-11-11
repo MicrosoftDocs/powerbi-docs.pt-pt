@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431503"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791273"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Utilizar conjuntos de dados partilhados no Power BI Report Builder
 
@@ -30,7 +30,7 @@ Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados p
 - Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](service-datasets-build-permissions.md).
 - Não precisa de uma licença do Power BI Pro para criar um relatório paginado no Report Builder. 
 - Precisa de uma licença do Power BI Pro para publicar o seu relatório paginado. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium. 
-- Opcional: se quiser acompanhar este artigo, transfira o ficheiro [Exemplo de Análise de Revenda.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) do Power BI Desktop, abra-o no Power BI Desktop e adicione uma tabela com várias colunas. No painel **Formatar**, desative a opção **Totais**. Em seguida, publique numa área de trabalho no serviço Power BI.
+- Opcional: se quiser acompanhar este artigo, transfira o ficheiro [Exemplo de Análise de Revenda.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) do Power BI Desktop, abra-o no Power BI Desktop e adicione uma tabela com várias colunas. No painel **Formatar**, desative a opção **Totais**. Em seguida, publique numa área de trabalho no serviço Power BI.
 
     ![Totais desativados](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

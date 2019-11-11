@@ -2,7 +2,6 @@
 title: Resolução de Problemas de Valores Aninhados devolvidos como Texto no serviço Power BI
 description: Aprenda a corrigir a conversão de valores aninhados numa cadeia devido à utilização de definições de privacidade de origens de dados inadequadas
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544253"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871293"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Resolução de Problemas de Valores Aninhados devolvidos como Texto no serviço Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "72544253"
 
 Anteriormente, ocorreram casos em que era possível atualizar um relatório do Power BI no Power BI Desktop, mas a atualização falhava no serviço Power BI, com uma mensagem de erro como "Não conseguimos converter o valor "[Table]" para o tipo Tabela". Uma das causas deste problema é o facto de os valores não escalares aninhados (como tabelas, registos, listas e funções) serem automaticamente convertidos em valores de texto (como "[Table]" ou "[Record]") quando a Firewall de Privacidade de Dados coloca uma origem de dados em memória intermédia.
 
-Agora que o serviço Power BI suporta a definição de níveis de privacidade (ou a desativação total da Firewall), estes problemas podem ser evitados ao [configurar as definições de privacidade de origens de dados](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) no serviço Power BI para que as origens não sejam privadas.
+Agora que o serviço Power BI suporta a definição de níveis de privacidade (ou a desativação total da Firewall), estes problemas podem ser evitados ao [configurar as definições de privacidade de origens de dados](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) no serviço Power BI para que as origens não sejam privadas.
 
 A partir da versão de junho do Power BI, quando a Firewall colocar um(a) tabela/registo/lista/etc. aninhado(a) em memória intermédia, em vez de estes valores serem automaticamente convertidos em texto, será apresentada a seguinte mensagem de erro: 
 
@@ -57,4 +56,4 @@ Se não conseguir remover a coluna, deve conseguir replicar o comportamento anti
 `if [MyColumn] is table then "[Table]" else if [MyColumn] is record then "[Record]" else if [MyColumn] is list then "[List]" else if [MyColumn] is function then "[Function]" else [MyColumn]`
 
 O problema ocorre no Power BI Desktop se definir todas as definições de privacidade de origens de dados para Privado?
-Se for este o caso, deve conseguir resolver o erro ao [configurar as definições de privacidade de origens de dados](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) no serviço Power BI para que as origens não sejam privadas.
+Se for este o caso, deve conseguir resolver o erro ao [configurar as definições de privacidade de origens de dados](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) no serviço Power BI para que as origens não sejam privadas.

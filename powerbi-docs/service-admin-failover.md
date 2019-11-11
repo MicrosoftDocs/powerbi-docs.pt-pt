@@ -2,7 +2,6 @@
 title: FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 description: Compreenda de que forma o serviço Power BI oferece elevada disponibilidade, continuidade de negócio e recuperação após desastre aos seus utilizadores.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075242"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873671"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -23,7 +22,7 @@ Este artigo explica de que forma o serviço Power BI oferece elevada disponibili
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Qual é o significado da "elevada disponibilidade" no Power BI?
 
-O Power BI é um software como um serviço (SaaS) totalmente gerido.  Foi concebido e é operado pela Microsoft para ser resiliente a falhas de infraestrutura, para que os utilizadores possam sempre ter acesso aos seus relatórios.  O serviço é suportado por um [SLA de 99,9%](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+O Power BI é um software como um serviço (SaaS) totalmente gerido.  Foi concebido e é operado pela Microsoft para ser resiliente a falhas de infraestrutura, para que os utilizadores possam sempre ter acesso aos seus relatórios.  O serviço é suportado por um [SLA de 99,9%](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
 
 ## <a name="what-is-a-power-bi-failover"></a>O que é uma ativação pós-falha do Power BI?
 
@@ -50,7 +49,7 @@ Em ambos os casos, são os membros da equipa executiva do Power BI que decidem r
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>Como é que sei se o Power BI está em modo de ativação pós-falha?
 
-É publicada uma notificação na página de suporte do Power BI ([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)). A notificação inclui as principais operações que não estão disponíveis durante a ativação pós-falha, incluindo publicações, atualizações, criação de dashboards, duplicação de dashboards e alterações de permissões.
+É publicada uma notificação na página de suporte do Power BI ([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)). A notificação inclui as principais operações que não estão disponíveis durante a ativação pós-falha, incluindo publicações, atualizações, criação de dashboards, duplicação de dashboards e alterações de permissões.
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Quanto tempo demora a ativação pós-falha do Power BI?
 

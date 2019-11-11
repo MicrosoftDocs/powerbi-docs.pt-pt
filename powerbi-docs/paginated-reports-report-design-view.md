@@ -3,18 +3,17 @@ title: Explorar a Vista de Estrutura de Relatório dos relatórios paginados
 description: A Vista de Estrutura de Relatório no Report Builder é o espaço de estrutura para a criação de relatórios paginados que pode publicar no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 6be5121c91d64a4bd9437a1d7d111d10627b8330
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751600"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874692"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Explorar a Vista de Estrutura de Relatório dos relatórios paginados
 

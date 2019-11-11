@@ -2,7 +2,6 @@
 title: Ligar-se à API de Segurança do Microsoft Graph no Power BI Desktop
 description: Ligue-se facilmente à API de Segurança do Microsoft Graph no Power BI Desktop
 author: preetikr
-manager: kfile
 ms.reviewer: ''
 ms.custom: seojan19
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61317980"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876492"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Ligar-se à API de Segurança do Microsoft Graph no Power BI Desktop
 

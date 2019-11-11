@@ -2,7 +2,6 @@
 title: A página exibe as definições num relatório do Power BI
 description: Definições de apresentação de página e definições de vista de página num relatório
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720842"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875126"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
 Compreendemos que é essencial manter o esquema do seu relatório perfeito. Por vezes, isso representa um desafio, uma vez que você e os seus colegas poderão ver esses relatórios em ecrãs de diferentes proporções e tamanhos. 
@@ -80,5 +79,5 @@ Leia mais sobre os [relatórios no Power BI](consumer/end-user-reports.md)
 
 [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

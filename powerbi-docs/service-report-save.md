@@ -2,7 +2,6 @@
 title: Guardar um relatório no Power BI
 description: Guarde um relatório no serviço Power BI e no Power BI Desktop
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720824"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871617"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Guarde um relatório no serviço Power BI e no Power BI Desktop
 Depois de fazer alterações a um relatório no Power BI, pode guardá-lo, guardar com um novo nome ou apenas fechá-lo sem guardar as suas alterações. Digamos que abre o relatório, cria uma visualização e afixa-a no dashboard. Se a fechar agora sem guardar as alterações, o mosaico permanece no dashboard, mas a visualização não é guardada no relatório. Ao clicar no mosaico no dashboard, o relatório é aberto, mas a visualização não existe no relatório.
@@ -41,5 +40,5 @@ Leia mais sobre os [relatórios no Power BI](consumer/end-user-reports.md)
 
 [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

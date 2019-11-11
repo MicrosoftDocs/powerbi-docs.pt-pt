@@ -2,7 +2,6 @@
 title: Organizar o trabalho nas novas áreas de trabalho no Power BI
 description: Saiba mais sobre as novas áreas de trabalho, que são coleções de dashboards e relatórios criadas para disponibilizar métricas importantes à sua organização.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020677"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872045"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -162,4 +161,4 @@ Yes. Uma vez que suportamos ambos os tipos de áreas de trabalho lado a lado, co
 * [Create the new workspaces in Power BI](service-create-the-new-workspaces.md) (Criar as novas áreas de trabalho no Power BI)
 * [Create the classic workspaces](service-create-workspaces.md) (Criar as áreas de trabalho clássicas)
 * [Instalar e utilizar aplicações no Power BI](service-create-distribute-apps.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

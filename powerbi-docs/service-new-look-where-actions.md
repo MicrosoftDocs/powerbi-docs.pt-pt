@@ -2,7 +2,6 @@
 title: 'O "novo visual": onde se encontram as ações?'
 description: O serviço Power BI (app.powerbi.com) tem um novo aspeto e muitas ações foram movidas. Este artigo apresenta tabelas que mapeiam as localizações antigas para as novas.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e10c2757bf843d504e5caafb949e742261c6209d
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72245452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872031"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>O "novo visual": onde se encontram as ações?
 

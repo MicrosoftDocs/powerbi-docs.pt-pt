@@ -2,19 +2,18 @@
 title: Origens de dados de relatórios do Power BI no Power BI Report Server
 description: Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945817"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874186"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
@@ -164,8 +163,8 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | Azure HDInsight Spark (Beta) |Não |Não |Não |Não |
 | Common Data Service (Beta) |Não |Não |Não |Não |
 | comScore Digital Analytix (Beta) |Não |Não |Não |Não |
-| Dynamics 365 for Customer Insights (Beta) |Não |Não |Não |Não |
-| Dynamics 365 for Financials (Beta) |Não |Não |Não |Não |
+| Dynamics 365 for Customer Insights (Beta) |Não |Não |Não |Não |
+| Dynamics 365 for Financials (Beta) |Não |Não |Não |Não |
 | GitHub (Beta) |Não |Não |Não |Não |
 | Google BigQuery (Beta) |Não |Não |Não |Não |
 | Base de dados IBM Informix (Beta) |Não |Não |Não |Não |

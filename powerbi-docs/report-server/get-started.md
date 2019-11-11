@@ -8,14 +8,13 @@ ms.date: 05/22/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 59913e5d17d15dad8729cd5c96582d09f708c30a
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 26593f4869d6b8d2c1c206a8bedd3c0d214581b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791843"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859543"
 ---
 # <a name="what-is-power-bi-report-server"></a>O que é o Power BI Report Server?
 

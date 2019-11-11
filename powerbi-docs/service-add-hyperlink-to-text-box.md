@@ -2,7 +2,6 @@
 title: Adicionar uma hiperligação a uma caixa de texto num relatório
 description: Adicionar uma hiperligação a uma caixa de texto no Power BI Desktop e no serviço Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832400"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873802"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Adicionar uma hiperligação a uma caixa de texto num relatório
 Pode adicionar uma caixa de texto a um relatório no Power BI Desktop ou no serviço Power BI. Pode afixar uma caixa de texto de um relatório num dashboard ou adicionar diretamente uma caixa de texto a um dashboard. Pode adicionar hiperligações a uma caixa de texto, independentemente do local onde esta se encontre. Este artigo explica como pode adicionar uma hiperligação a uma caixa de texto num relatório. 
@@ -63,5 +62,5 @@ Para obter informações sobre as hiperligações em tabelas e matrizes do Power
 ## <a name="next-steps"></a>Próximos passos
 [Caixas de texto e formas em relatórios do Power BI](power-bi-reports-add-text-and-shapes.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

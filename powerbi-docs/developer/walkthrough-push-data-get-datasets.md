@@ -3,18 +3,17 @@ title: Obter um conjunto de dados para adicionar linhas
 description: Passo a passo para enviar dados por push - Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 1edf73aa20301e86146de0d9ef924ad45c6f1f33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596457"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875728"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Passo 4: Obter um conjunto de dados para adicionar linhas numa tabela do Power BI
 
@@ -22,7 +21,7 @@ Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push
 
 No **passo 3** de Enviar dados por push para um conjunto de dados, [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md), invocou a operação [Criar Conjunto de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets) para criar um conjunto de dados no Power BI. Neste passo, irá utilizar a operação [Obter Conjuntos de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json para obter um ID do conjunto de dados. Pode utilizar o ID do conjunto de dados no passo 4 para adicionar linhas a um conjunto de dados. 
 
-Para enviar dados por push para um conjunto de dados do Power BI, tem de referenciar a tabela no conjunto de dados. Para referenciar uma tabela num conjunto de dados, é necessário primeiro obter o **ID do Conjunto de Dados**. O **ID do Conjunto de Dados** é obtido com a operação [Obter Conjuntos de Dados](/rest/api/power-bi/datasets/getdatasets). A operação **Obter Conjuntos de Dados** devolve uma cadeia de carateres JSON que contém uma lista de todos os conjuntos de dados no Power BI. A forma recomendada para anular a serialização de uma cadeia de carateres JSON é com [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Para enviar dados por push para um conjunto de dados do Power BI, tem de referenciar a tabela no conjunto de dados. Para referenciar uma tabela num conjunto de dados, é necessário primeiro obter o **ID do Conjunto de Dados**. O **ID do Conjunto de Dados** é obtido com a operação [Obter Conjuntos de Dados](/rest/api/power-bi/datasets/getdatasets). A operação **Obter Conjuntos de Dados** devolve uma cadeia de carateres JSON que contém uma lista de todos os conjuntos de dados no Power BI. A forma recomendada para anular a serialização de uma cadeia de carateres JSON é com [Newtonsoft.Json](https://www.newtonsoft.com/json).
 
 Eis como obter um conjunto de dados.
 
@@ -270,10 +269,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Passos seguintes
 
 [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
-[Newtonsoft.Json](http://www.newtonsoft.com/json)  
+[Newtonsoft.Json](https://www.newtonsoft.com/json)  
 [Obter Conjuntos de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Enviar dados por push para o Power BI](walkthrough-push-data.md)  
 [Descrição Geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

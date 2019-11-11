@@ -2,7 +2,6 @@
 title: Ordenação por coluna no Power BI Desktop
 description: Ordenação por coluna no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 53fc561e2f8dcb4869eff6e6fd172c8a3663840d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514052"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879707"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Ordenação por coluna no Power BI Desktop
 No **Power BI Desktop** e no **serviço Power BI**, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir e certificar-se de que o elemento visual reflete essa tendência (ou ênfase).

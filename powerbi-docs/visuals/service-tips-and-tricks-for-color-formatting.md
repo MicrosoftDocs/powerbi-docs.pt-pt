@@ -2,7 +2,6 @@
 title: Dicas e truques para formatação com cores no Power BI
 description: Dicas e truques para formatação com cores no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e115b886a0fd952a8d3d28f345a0594fae7f0a49
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3865647a056e28735894e40f71045305518642c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838213"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880650"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Dicas e truques para formatação com cores no Power BI
 O Power BI fornece diversas maneiras de personalizar os painéis e relatórios. Este artigo detalha uma coleção de dicas que podem tornar suas visualizações do Power BI mais convincentes, interessantes e personalizadas para suas necessidades.
@@ -88,7 +87,7 @@ Também pode formatar a cor do elemento visual através de um campo que não fa�
 Como podemos ver, embora tenhamos vendido mais unidades nos pontos de dados **Produtividade** e **Extremo** (as colunas são maiores), **Moderação** possui uma **% de Quota de Mercado Desde o Ano Passado Até à Data** maior (a coluna tem mais saturação de cor).
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>Personalizar as cores usadas na escala de cores
-Também pode alterar a forma como os valores mapeiam essas cores. Na imagem a seguir, as cores **mínimo** e **máximo** são definidas como laranja e verde, respetivamente.
+Também pode alterar a forma como os valores mapeiam essas cores. Na imagem a seguir, as cores **mínimo** e **máximo** são definidas como laranja e verde, respectivamente.
 
 Nesta primeira imagem, veja como as barras no gráfico refletem o gradiente mostrado na barra; o valor mais alto é verde, o mais baixo é laranja e cada barra é colorida com um tom do espectro entre verde e laranja.
 

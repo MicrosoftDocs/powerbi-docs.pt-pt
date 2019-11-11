@@ -2,7 +2,6 @@
 title: Utilizar Agregações no Power BI Desktop
 description: Realizar análises interativas de macrodados no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325169"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876745"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Aggregations in Power BI Desktop (Agregações no Power BI Desktop)
 
@@ -52,7 +51,7 @@ Vamos supor que as seguintes tabelas de dimensão são as tabelas normalmente ut
 * Geografia
 * Cliente
 * Data
-* Product Subcategory
+* Subcategoria de Produto
 * Product Category (Categoria de Produto)
 
 A imagem seguinte ilustra este modelo.
@@ -60,7 +59,7 @@ A imagem seguinte ilustra este modelo.
 ![tabela de agregação num modelo](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> A tabela **Sales Agg** (Agregação de Vendas) é apenas outra tabela, pelo que tem a flexibilidade de ser carregada de várias formas. Por exemplo, a agregação pode ser executada na base de dados de origem através de processos ETL/ELT ou através da [expressão M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) para a tabela. A agregação pode utilizar o modo Importação do armazenamento com ou sem [atualização incremental no Power BI Premium](service-premium-incremental-refresh.md), ou pode utilizar o modo DirectQuery e ser otimizada para consultas rápidas com [índices columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Esta flexibilidade permite obter arquiteturas equilibradas que distribuem a carga de consulta para evitar estrangulamentos.
+> A tabela **Sales Agg** (Agregação de Vendas) é apenas outra tabela, pelo que tem a flexibilidade de ser carregada de várias formas. Por exemplo, a agregação pode ser executada na base de dados de origem através de processos ETL/ELT ou através da [expressão M](/powerquery-m/power-query-m-function-reference) para a tabela. A agregação pode utilizar o modo Importação do armazenamento com ou sem [atualização incremental no Power BI Premium](service-premium-incremental-refresh.md), ou pode utilizar o modo DirectQuery e ser otimizada para consultas rápidas com [índices columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Esta flexibilidade permite obter arquiteturas equilibradas que distribuem a carga de consulta para evitar estrangulamentos.
 
 ### <a name="storage-mode"></a>Modo de armazenamento 
 Vamos continuar com o exemplo que estamos a utilizar. Vamos definir o modo de armazenamento da tabela **Sales Agg** (Agregação de Vendas) para **Importar** para acelerar as consultas.

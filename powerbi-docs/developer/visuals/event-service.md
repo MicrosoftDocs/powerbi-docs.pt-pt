@@ -3,18 +3,17 @@ title: Eventos de composição nos elementos visuais do Power BI
 description: Os elementos visuais do Power BI podem notificar o Power BI de que estão prontos para exportar para o PowerPoint ou PDF.
 author: Yarovinsky
 ms.author: alexyar
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 261987a199af68611792367f514bef60dd584db8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237158"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880112"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Eventos de composição nos elementos visuais do Power BI
 

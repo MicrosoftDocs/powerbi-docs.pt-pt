@@ -2,7 +2,6 @@
 title: Utilizar Temas de Relatório no Power BI Desktop
 description: Saiba como utilizar uma paleta de cores personalizadas e aplicá-la a um relatório completo no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327842"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879998"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
 Com os **Temas de Relatório**, pode aplicar alterações de conceção a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
@@ -417,7 +416,7 @@ A tabela seguinte define os valores de *cardName*. O primeiro valor em cada cél
 | columnFormatting: Formatação de campos |
 | columnHeaders: Cabeçalhos de coluna |
 | dataLabels: Etiquetas de dados |
-| preencher: Preencher |
+| preencher: Preenchimento |
 | fillPoint: Ponto de preenchimento |
 | previsão: Previsão |
 | geral: Geral |
@@ -443,7 +442,7 @@ A tabela seguinte define os valores de *cardName*. O primeiro valor em cada cél
 | rowHeaders: Cabeçalhos de linha |
 | seleção: Controlos de Seleção |
 | sentimentColors: Cores de sentimentos |
-| formas: Formas |
+| formas: Forma |
 | controlo de deslize: Controlo de deslize |
 | estado: Codificação de cores |
 | subtotais: Subtotais |

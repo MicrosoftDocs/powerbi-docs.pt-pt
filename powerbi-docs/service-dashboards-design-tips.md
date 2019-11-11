@@ -2,7 +2,6 @@
 title: Sugestões para criar um dashboard excelente no Power BI
 description: Sugestões para criar um dashboard excelente no Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023758"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877408"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugestões para criar um dashboard excelente no Power BI
 Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como tornar o dashboard não apenas bonito, mas também funcional. Em geral, significa destacar as informações mais importantes e torná-las claras e organizadas.
@@ -24,8 +23,6 @@ Agora que já criou um dashboard e adicionou alguns mosaicos, pense em como torn
 
 > [!TIP]
 > Gosta deste dashboard? Pode transferi-lo, assim como os relatórios relacionados, a partir do AppSource. Aceda a **Obter dados** > **Serviços**. Procure **Exemplo Microsoft - Vendas e Marketing** > **Obter agora**.
-
-Muitos dos princípios de estrutura dos relatórios aplicam-se também aos dashboards. Leia o nosso documento técnico [Melhores práticas de design para relatórios e elementos visuais](visuals/power-bi-visualization-best-practices.md) para saber mais.
 
 Eis algumas sugestões para dashboards.
 
@@ -85,4 +82,4 @@ Para dominar a arte da excelente criação de dashboards, considere aprender os 
 ## <a name="next-steps"></a>Próximos passos
 [Criar um dashboard a partir de um relatório](service-dashboard-create.md)  
 [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

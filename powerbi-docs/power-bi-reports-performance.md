@@ -3,19 +3,18 @@ title: Melhores práticas para o desempenho do Power BI
 description: Este artigo fornece orientação para construir relatórios rápidos e fiáveis no Power BI
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841496"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875114"
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI
 
@@ -152,7 +151,7 @@ O Gateway de dados no local é uma excelente ferramenta para ligar o serviço Po
 
 A latência de rede pode ter um impacto no desempenho do relatório ao aumentar o tempo necessário para os pedidos chegarem ao serviço Power BI e para as respostas serem devolvidas. Os inquilinos no Power BI estão atribuídos a uma região específica. Pode ver a região "base" do seu inquilino ao aceder a powerbi.cim, selecionar **?** no canto superior direito e, em seguida, selecionar **Sobre o Power BI**. Quando os utilizadores de um inquilino acedem ao serviço Power BI, os respetivos pedidos são sempre encaminhados para esta região. Quando os pedidos chegarem ao serviço Power BI, o mesmo poderá enviar pedidos adicionais (por exemplo, para a origem de dados subjacente ou o gateway) que também estão sujeitos à latência de rede.
 
-As ferramentas como o [Azure Speed Test](http://azurespeedtest.azurewebsites.net/) podem fornecer um indicador da latência de rede entre o cliente e a região do Azure. No geral, para minimizar o impacto da latência de rede, tente manter as origens de dados, os gateways e o seu cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, experimente colocar os gateways e as origens de dados mais perto do seu cluster do Power BI ao colocá-los em máquinas virtuais.
+As ferramentas como o [Azure Speed Test](https://azurespeedtest.azurewebsites.net/) podem fornecer um indicador da latência de rede entre o cliente e a região do Azure. No geral, para minimizar o impacto da latência de rede, tente manter as origens de dados, os gateways e o seu cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, experimente colocar os gateways e as origens de dados mais perto do seu cluster do Power BI ao colocá-los em máquinas virtuais.
 
 Para melhorar a latência de rede, pondere utilizar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que consegue criar ligações de rede mais rápidas e fiáveis entre os seus clientes e os datacenters do Azure.
 

@@ -2,7 +2,6 @@
 title: Criar perguntas em destaque para as Perguntas e Respostas do Power BI
 description: Documentação sobre como criar perguntas em destaque para as Perguntas e Respostas do Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721133"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881107"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Criar perguntas em destaque para as Perguntas e Respostas do Power BI
 Se possui um conjunto de dados, pode adicionar as suas próprias perguntas em destaque para esse conjunto de dados. As Perguntas e Respostas do Power BI mostrarão essas perguntas a colegas que consumem relatórios baseados nesse conjunto de dados.  As perguntas em destaque fornecem aos seus colegas algumas ideias sobre os tipos de perguntas que eles podem fazer sobre o conjunto de dados. As perguntas em destaque adicionadas são decididas por si; pode adicionar perguntas populares, perguntas que mostram resultados interessantes ou perguntas que podem ser difíceis de formular.
@@ -50,5 +49,5 @@ Este artigo usa o [exemplo de Vendas de Análise de Revenda](sample-datasets.md)
 - [Utilizar Perguntas e Respostas em dashboards e relatórios](power-bi-tutorial-q-and-a.md)  
 - [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)  
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

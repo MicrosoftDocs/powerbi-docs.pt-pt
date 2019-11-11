@@ -3,18 +3,17 @@ title: Opções de ordenação dos elementos visuais do Power BI
 description: Este artigo aborda o comportamento de ordenação predefinido dos elementos visuais do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: a360f619428a01c4e7a30481374d042b8e368682
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 546480ae863c63d6517fde7c98e7c9787c022ab6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193911"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875532"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Opções de ordenação dos elementos visuais do Power BI
 

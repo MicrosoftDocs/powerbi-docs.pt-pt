@@ -4,18 +4,17 @@ description: Este artigo explica como dimensionar uma capacidade do Power BI Emb
 services: power-bi-embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a30c8cb6af80e74cbf2513c24aee55483338fb4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61388515"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875913"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Dimensionar a sua capacidade do Power BI Embedded no portal do Azure
 
@@ -62,4 +61,4 @@ Para colocar em pausa ou iniciar a sua capacidade, veja [Colocar em pausa e inic
 
 Para começar a incorporar conteúdos do Power BI na sua aplicação, veja [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

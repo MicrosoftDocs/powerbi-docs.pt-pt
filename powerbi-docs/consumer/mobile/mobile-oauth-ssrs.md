@@ -3,18 +3,17 @@ title: Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 description: Saiba como configurar o ambiente para suportar a autenticação OAuth com a aplicação móvel do Power BI, para se ligar ao SQL Server Reporting Services 2016 ou posterior.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903642"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870086"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Utilizar OAuth para ligar ao Power BI Report Server e SSRS
 
@@ -193,7 +192,7 @@ Para configurar a delegação restrita, deve realizar os seguintes passos.
 Embora possa publicar aplicações na Consola de Gestão de Acesso de Relatórios, iremos criar a aplicação através do PowerShell. Eis o comando para adicionar a aplicação.
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | Parâmetro | Comentários |
@@ -243,7 +242,7 @@ Pode ativar a autenticação multifator para ativar segurança adicional no seu 
 
 ![Erro "Falha ao iniciar sessão no servidor SSRS"](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-Pode configurar o [Fiddler](http://www.telerik.com/fiddler) para atuar como um proxy para os seus dispositivos móveis, para até onde chegou o pedido. Para ativar um proxy do Fiddler para o dispositivo móvel, tem de configurar o [CertMaker para iOS e Android](http://www.telerik.com/fiddler/add-ons) no computador com o Fiddler. O suplemento é do Telerik para o Fiddler.
+Pode configurar o [Fiddler](https://www.telerik.com/fiddler) para atuar como um proxy para os seus dispositivos móveis, para até onde chegou o pedido. Para ativar um proxy do Fiddler para o dispositivo móvel, tem de configurar o [CertMaker para iOS e Android](https://www.telerik.com/fiddler/add-ons) no computador com o Fiddler. O suplemento é do Telerik para o Fiddler.
 
 Se o início de sessão for bem-sucedido ao utilizar o Fiddler, poderá ocorrer um problema de certificado com a aplicação WAP ou o servidor ADFS. Pode utilizar uma ferramenta como o [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226), para verificar se os certificados são válidos.
 
@@ -256,4 +255,4 @@ Se o início de sessão for bem-sucedido ao utilizar o Fiddler, poderá ocorrer 
 [Proxy de Aplicação Web no Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Publicar Aplicações com a Pré-autenticação do AD FS](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
 [Configurar o AD FS 2016 e o MFA do Azure](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

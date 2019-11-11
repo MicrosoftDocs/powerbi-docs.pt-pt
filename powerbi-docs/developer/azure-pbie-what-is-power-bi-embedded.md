@@ -3,7 +3,6 @@ title: O que é o Azure Power BI Embedded e a análise incorporada | Microsoft D
 description: O Power BI Embedded é uma ferramenta de análise incorporada que se destina a simplificar a forma como os ISVs e os programadores utilizam as capacidades do Power BI, ajudando-os a adicionar rapidamente elementos visuais, relatórios e dashboards fantásticos às suas aplicações. Saiba como utilizar software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada através do Power BI Embedded.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -11,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: c74bd97a3323f28ba6d66fad03307f28c1b0c270
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391476"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864941"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>O que é o Power BI Embedded no Azure?
 

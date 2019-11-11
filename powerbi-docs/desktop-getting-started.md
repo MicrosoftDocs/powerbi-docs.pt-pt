@@ -2,7 +2,6 @@
 title: Introdução ao Power BI Desktop
 description: Introdução ao Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201024"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868023"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução do Power BI Desktop**. Esta breve apresentação do Power BI Desktop apresentará como ele funciona, demonstrará o que pode fazer e acelerará a sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam os seus esforços de business intelligence. 
 
-Prefere ver em vez de ler? Aproveite para [ver o nosso vídeo de introdução](desktop-videos.md). Se quiser acompanhar o vídeo com dados de exemplo correspondentes, pode [transferir este livro do Excel de exemplo](http://go.microsoft.com/fwlink/?LinkID=521962).
+Prefere ver em vez de ler? Aproveite para [ver o nosso vídeo de introdução](desktop-videos.md). Se quiser acompanhar o vídeo com dados de exemplo correspondentes, pode [transferir este livro do Excel de exemplo](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Imagine que vai reformar-se – deseja morar onde há muito sol, impostos favor�
 
 De qualquer modo, o seguinte recurso Web tem dados interessantes sobre esses tópicos e muito mais:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Selecione **Obter Dados \> Web** e cole o endereço.
 
@@ -158,7 +157,7 @@ Esses dados sobre vários estados são interessantes e serão úteis para a cria
 
 Estamos com sorte: há outra origem de dados pública que faz exatamente isso, mas também precisa de formatação considerável antes de a podermos ligar à nossa tabela de reforma. Eis o recurso Web para abreviaturas de estado:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 No friso **Base** no **Editor de Consultas**, selecionamos **Obter Dados \> Web** e escrevemos o endereço, selecionamos **OK** e janela **Navegador** mostra o que encontrou nessa página Web.
 
@@ -342,5 +341,5 @@ Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais 
 * [Descrição Geral da Consulta com o Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   

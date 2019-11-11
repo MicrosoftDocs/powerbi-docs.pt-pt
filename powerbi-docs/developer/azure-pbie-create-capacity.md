@@ -3,19 +3,18 @@ title: Criar capacidade do Power BI Embedded no portal do Azure | Microsoft Docs
 description: Este artigo explica como criar uma capacidade do Power BI Embedded no Microsoft Azure.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
-ms.openlocfilehash: 7a469de22d0432da595f404e72414fb0a686dbc8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 72c7211647254c97b3cb7ce088d400112a9e288a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385232"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864988"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Criar capacidade do Power BI Embedded no portal do Azure
 
@@ -67,4 +66,4 @@ Se não precisar de utilizar esta capacidade, pode colocá-la em pausa para para
 
 Para começar a incorporar conteúdos do Power BI na sua aplicação, veja [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

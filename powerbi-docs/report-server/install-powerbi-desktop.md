@@ -3,18 +3,17 @@ title: Instalar o Power BI Desktop otimizado para o Power BI Report Server
 description: Saiba como instalar o Power BI Desktop otimizado para o Power BI Report Server
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874124"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
 
@@ -55,7 +54,7 @@ A versão do Power BI Desktop para o serviço Power BI não tem o mês e ano na 
 ## <a name="file-extension-association"></a>Associação de extensões de ficheiros
 Se instalar o Power BI Desktop e o Power BI Desktop otimizado para o Power BI Report Server no mesmo computador, a instalação do Power BI Desktop mais recente será associada a ficheiros .pbix. Por conseguinte, ao fazer duplo clique num ficheiro .pbix, este irá iniciar a versão do Power BI Desktop que instalou mais recentemente.
 
-Se tiver o Power BI Desktop e, em seguida, instalar o Power BI Desktop otimizado para o Power BI Report Server, todos os ficheiros .pbix serão abertos no Power BI Desktop otimizado para o Power BI Report Server por predefinição. Se preferir que o Power BI Desktop seja iniciado por predefinição ao abrir um ficheiro pbix, reinstale o [Power BI Desktop a partir da Microsoft Store](http://aka.ms/pbidesktopstore).
+Se tiver o Power BI Desktop e, em seguida, instalar o Power BI Desktop otimizado para o Power BI Report Server, todos os ficheiros .pbix serão abertos no Power BI Desktop otimizado para o Power BI Report Server por predefinição. Se preferir que o Power BI Desktop seja iniciado por predefinição ao abrir um ficheiro pbix, reinstale o [Power BI Desktop a partir da Microsoft Store](https://aka.ms/pbidesktopstore).
 
 Pode sempre começar por abrir a versão do Power BI Desktop que pretende utilizar. Em seguida, abra o ficheiro no Power BI Desktop.
 
@@ -63,7 +62,7 @@ Ao editar um relatório do Power BI a partir do Power BI Report Server ou criar 
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-Os relatórios do Power BI no Power BI Report Server, no serviço Power BI (http://app.powerbi.com) e nas aplicações móveis do Power BI têm um comportamento quase igual, mas com algumas diferenças em funcionalidades.
+Os relatórios do Power BI no Power BI Report Server, no serviço Power BI (https://app.powerbi.com) e nas aplicações móveis do Power BI têm um comportamento quase igual, mas com algumas diferenças em funcionalidades.
 
 ### <a name="selecting-a-language"></a>Selecionar um idioma
 

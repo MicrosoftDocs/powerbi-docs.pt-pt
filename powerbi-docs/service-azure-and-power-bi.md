@@ -3,19 +3,18 @@ title: Azure e Power BI
 description: Azure e Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513356"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873228"
 ---
 # <a name="azure-and-power-bi"></a>Azure e Power BI
 
@@ -31,7 +30,7 @@ Pode iniciar uma ligação simples com uma Base de Dados SQL do Azure e criar re
 
 ![SQL para PBI](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-Existe bastante informação para descobrir sobre a [Base de Dados SQL do Azure](http://azure.microsoft.com/services/sql-database/).
+Existe bastante informação para descobrir sobre a [Base de Dados SQL do Azure](https://azure.microsoft.com/services/sql-database/).
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Transformar, formatar e intercalar os dados na cloud
 
@@ -43,13 +42,13 @@ Pode criar relatórios diferentes para públicos-alvo diferentes com as mesmas l
 
 Para obter mais informações, veja os seguintes recursos:
 
-* [Base de Dados SQL do Azure](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Armazenamento do Azure](http://azure.microsoft.com/services/storage/) (Armazenamento de blobs e Armazenamento de tabelas)
+* [Base de Dados SQL do Azure](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Armazenamento do Azure](https://azure.microsoft.com/services/storage/) (Armazenamento de blobs e Armazenamento de tabelas)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Aprofundar (e ficar à frente) com os Serviços do Azure e o Power BI
 
-Pode expandir conforme as suas necessidades com o Azure e o Power BI. Aproveite o processamento de dados de várias origens, utilize grandes sistemas em tempo real, utilize o [Stream Analytics](http://azure.microsoft.com/services/stream-analytics/)e os [Hubs de Eventos](http://azure.microsoft.com/services/event-hubs/) e reúna os diversos serviços de SaaS em relatórios de business intelligence que oferecem vantagens ao seu negócio.
+Pode expandir conforme as suas necessidades com o Azure e o Power BI. Aproveite o processamento de dados de várias origens, utilize grandes sistemas em tempo real, utilize o [Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)e os [Hubs de Eventos](https://azure.microsoft.com/services/event-hubs/) e reúna os diversos serviços de SaaS em relatórios de business intelligence que oferecem vantagens ao seu negócio.
 
 ![Complexidade do Azure](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ Pode expandir conforme as suas necessidades com o Azure e o Power BI. Aproveite 
 
 Incorpore fantásticas visualizações de dados interativas em aplicações, sites, portais e muito mais para tirar partido dos seus dados empresariais. Com o [Power BI Embedded como recurso no Azure](https://azure.microsoft.com/services/power-bi-embedded/), pode incorporar facilmente dashboards e relatórios interativos, para que os seus utilizadores possam desfrutar de experiências consistentes de elevada fidelidade em todos os dispositivos.  O Power BI utilizado com a análise incorporada serve para o ajudar ao longo do seu percurso, desde os Dados -> Conhecimento -> Informações -> Ações.  Além disso, pode obter mais valor do Power BI e do Azure através da incorporação de análise nos [portais e aplicações internas da sua organização](https://powerbi.microsoft.com/developers/embedded-analytics/organization/).
 
-Existem várias informações sobre as APIs do Power BI no [Portal do Programador do Power BI](http://dev.powerbi.com).
+Existem várias informações sobre as APIs do Power BI no [Portal do Programador do Power BI](https://dev.powerbi.com).
 
 Para obter mais informações, veja [O que podem os programadores fazer com o Power BI?](developer/what-can-you-do.md).
 

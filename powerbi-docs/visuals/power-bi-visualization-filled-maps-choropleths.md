@@ -2,7 +2,6 @@
 title: Mapas de Manchas (Coropletos) no Power BI
 description: Documentação sobre a criação de Mapas de Manchas (Coropletos) no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544508"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870966"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas de manchas (coropletos) no Power BI
 
@@ -47,7 +46,7 @@ Os mapas de manchas são uma ótima opção:
 * para obter uma visão geral da distribuição entre as localizações geográficas.
 
 ### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
 1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
    
 2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**

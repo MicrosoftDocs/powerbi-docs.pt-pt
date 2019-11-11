@@ -2,7 +2,6 @@
 title: Selecionar vários elementos de dados em elementos visuais com o Power BI Desktop
 description: Pode selecionar vários pontos de dados em elementos visuais do Power BI Desktop com CTRL+clique simples
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 948ead2cfa551d6342f9bab87b281d9b6d1e15bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 46072ca4c21857476dea6308a891f261109a2388
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514137"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878059"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Selecionar vários elementos de dados em elementos visuais com o Power BI Desktop
 

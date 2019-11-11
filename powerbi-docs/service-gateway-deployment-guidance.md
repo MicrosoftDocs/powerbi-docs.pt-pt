@@ -2,7 +2,6 @@
 title: Diretrizes para implementar um gateway de dados para o Power BI
 description: Conheça as melhores práticas e considerações para implementar um gateway para o Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729978"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881683"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implementar um gateway de dados para o Power BI
 
@@ -69,5 +68,5 @@ Se tenciona utilizar o gateway do Power BI com o Azure Analysis Services, certif
 * [Resolver problemas de gateways – Power BI](service-gateway-onprem-tshoot.md)  
 * [FAQ do gateway de dados no local – Power BI](service-gateway-power-bi-faq.md)  
 
-Mais perguntas? Experimente a [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

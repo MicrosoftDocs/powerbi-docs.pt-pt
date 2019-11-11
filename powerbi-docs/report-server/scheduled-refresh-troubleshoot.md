@@ -2,19 +2,18 @@
 title: Resolução de problemas da atualização agendada no Power BI Report Server
 description: Este artigo aborda os recursos disponíveis para resolver problemas com a atualização agendada no Power BI Report Server.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: 6f35ab1dfb14fe5a48fce0b56823ce7bab32d05d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 37eb5c0e68a6895ac105cc7f12d3353c04641204
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543934"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874037"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Resolução de problemas da atualização agendada no Power BI Report Server
 Este artigo aborda os recursos disponíveis para resolver problemas com a atualização agendada no Power BI Report Server.

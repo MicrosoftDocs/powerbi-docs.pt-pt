@@ -2,7 +2,6 @@
 title: Tipos de elementos visuais no Power BI para consumidores
 description: Tipos de elementos visuais no serviço Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861331"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas. Alguns destes tipos de elementos visuais estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers* de relatórios os adicionem a dashboards e relatórios do Power BI. 
@@ -232,4 +231,4 @@ Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power
 
 ## <a name="next-steps"></a>Próximos passos
 [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md)    
-[A referência correta do elemento visual de sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[A referência correta do elemento visual de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

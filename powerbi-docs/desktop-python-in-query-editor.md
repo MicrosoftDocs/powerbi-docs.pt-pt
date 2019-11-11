@@ -2,7 +2,6 @@
 title: Utilizar o Python no Editor de Consultas do Power BI
 description: Utilizar o Python no Editor de Consultas do Power BI Desktop para análise avançada
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286879"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878024"
 ---
 # <a name="using-python-in-query-editor"></a>Utilizar o Python no Editor de Consultas
 Pode utilizar o **Python**, uma linguagem de programação amplamente utilizada por estatísticos, cientistas de dados e analistas de dados no **Editor de Consultas** do Power BI Desktop. Esta integração do Python no **Editor de Consultas** permite-lhe efetuar a limpeza dos dados e fazer a formatação e análise de dados avançadas em conjuntos de dados, incluindo a conclusão de dados em falta, predições e clustering, apenas para mencionar alguns exemplos. O **Python** é uma linguagem avançada e pode ser utilizada no **Editor de Consultas** para preparar o seu modelo de dados e criar relatórios.
@@ -24,7 +23,7 @@ Pode utilizar o **Python**, uma linguagem de programação amplamente utilizada 
 Para utilizar o **Python** no **Editor de Consultas** do Power BI Desktop, tem de instalar o **Python** no seu computador local. Pode transferir e instalar o **Python** gratuitamente a partir de vários locais, incluindo a partir da [página de transferência do Python Oficial](https://www.python.org/) e a partir do [Anaconda](https://anaconda.org/anaconda/python/).
 
 ## <a name="using-python-in-query-editor"></a>Utilizar o Python no Editor de Consultas
-Para mostrar como utilizar o **Python** no **Editor de Consultas**, veja este exemplo de um conjunto de dados da bolsa de valores, com base num ficheiro .CSV que pode [transferir a partir daqui](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) e acompanhar. Os passos para este exemplo são os seguintes:
+Para mostrar como utilizar o **Python** no **Editor de Consultas**, veja este exemplo de um conjunto de dados da bolsa de valores, com base num ficheiro .CSV que pode [transferir a partir daqui](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) e acompanhar. Os passos para este exemplo são os seguintes:
 
 1. Primeiro, carregue os dados para o **Power BI Desktop**. Neste exemplo, carregue o ficheiro *EuStockMarkets_NA.csv* e selecione **Obter Dados > CSV** a partir do friso **Base** no **Power BI Desktop**.
    
@@ -77,7 +76,7 @@ Agora, podemos criar um elemento visual para ver como o código de script de Pyt
 Depois de esse elemento visual estar preenchido, assim como todos os outros elementos visuais que possa querer criar através do **Power BI Desktop**, pode guardar o ficheiro do **Power BI Desktop** (guardado como um ficheiro .pbix) e utilizar o modelo de dados, incluindo os scripts de Python que fazem parte do mesmo, no serviço Power BI.
 
 > [!NOTE]
-> Quer ver um ficheiro .pbix preenchido com estes passos? Está com sorte; pode transferir o ficheiro do **Power BI Desktop** preenchido utilizado nestes exemplos [aqui](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
+> Quer ver um ficheiro .pbix preenchido com estes passos? Está com sorte; pode transferir o ficheiro do **Power BI Desktop** preenchido utilizado nestes exemplos [aqui](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
 
 Depois de carregar o ficheiro .pbix para o serviço Power BI, são necessários mais alguns passos para ativar a atualização dos dados e dos elementos visuais no serviço (os dados precisam de aceder ao Python para os elementos visuais serem atualizados). Os passos adicionais são os seguintes:
 

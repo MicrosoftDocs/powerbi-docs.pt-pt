@@ -2,7 +2,6 @@
 title: Títulos baseados em expressões no Power BI Desktop
 description: Crie títulos dinâmicos no Power BI Desktop que mudam em função de expressões programáticas com recurso à formatação programática condicional
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: f3c1f047e3be7520005458294381877d1198ee21
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621258"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878615"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>Títulos baseados em expressões no Power BI Desktop
 

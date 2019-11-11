@@ -2,7 +2,6 @@
 title: Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop
 description: Utilize linhas de grelha, ajustar à grelha, ordenação z, alinhamento e distribuição em relatórios do Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b304a917e2b3e09e93f7f01b3b31d75023777bb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b7be8601a535843fc012cf7ea0f2ae723ea6ba79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454302"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878202"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Utilizar linhas de grelha e ajustar à grelha em relatórios do Power BI Desktop
 A tela de relatório do **Power BI Desktop** fornece linhas de grelha que lhe permitem, de forma organizada, alinhar elementos visuais numa página de relatório utilizar funcionalidades de ajuste à grelha, para que os elementos visuais no seu relatório tenham um aspeto organizado, alinhado e com espaçamentos regulares.

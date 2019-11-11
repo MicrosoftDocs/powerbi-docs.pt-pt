@@ -2,7 +2,6 @@
 title: Using templates in Power BI Desktop (Utilizar modelos no Power BI Desktop)
 description: Criar e partilhar modelos no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985658"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879570"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Using templates in Power BI Desktop (Utilizar modelos no Power BI Desktop)
 

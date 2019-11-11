@@ -2,7 +2,6 @@
 title: Utilizar o R no Editor do Power Query
 description: Utilizar o R no Editor de Consultas do Power BI Desktop para análise avançada
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841503"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877930"
 ---
 # <a name="use-r-in-query-editor"></a>Utilizar o R no Editor de Consultas
 
@@ -50,7 +49,7 @@ Para instalar a biblioteca **mice**:
 
 Para demonstrar a utilização de **R** no **Editor de Consultas**, iremos utilizar um conjunto de dados da bolsa de valores contido num ficheiro .csv e trabalhar no mesmo através dos seguintes passos:
 
-1. [Transfira o ficheiro **EuStockMarkets_NA.csv**](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Lembre-se de onde o guardou.
+1. [Transfira o ficheiro **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Lembre-se de onde o guardou.
 
 1. Carregue o ficheiro para o **Power BI Desktop**: no friso **Base**, selecione **Obter Dados > Texto/CSV**.
 
@@ -108,7 +107,7 @@ Agora, podemos criar um elemento visual para ver como o código de script R util
 Pode guardar todos os elementos visuais concluídos num ficheiro .pbix do **Power BI Desktop** e utilizar o modelo de dados e os respetivos scripts R no serviço Power BI.
 
 > [!NOTE]
-> Pode [transferir um ficheiro .pbix](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) quando tiver concluído todos estes passos.
+> Pode [transferir um ficheiro .pbix](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) quando tiver concluído todos estes passos.
 
 Após carregar o ficheiro .pbix para o serviço Power BI, precisa de seguir passos adicionais para ativar a atualização de dados de serviço e a apresentação de elementos visuais atualizados:  
 

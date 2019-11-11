@@ -2,19 +2,18 @@
 title: Digitalizar um código QR do Power BI a partir do dispositivo móvel
 description: Os códigos QR no Power BI podem ligar qualquer coisa do mundo real diretamente às informações do BI relacionadas nas aplicações móveis do Power BI para iPhones e dispositivos Android.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236740"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879196"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Digitalizar um código QR do Power BI a partir do dispositivo móvel
 Aplica-se a:
@@ -50,7 +49,7 @@ Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pe
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Digitalizar um código QR de um scanner externo no iPhone
 1. Com qualquer scanner instalado no seu telemóvel, aponte o scanner para o código QR relevante do Power BI para ter acesso imediato ao mosaico ou relatório. 
-2. Caso não tenha a aplicação do Power BI instalada, será redirecionado para a [Apple App Store para transferi-la](http://go.microsoft.com/fwlink/?LinkId=522062) no seu iPhone.
+2. Caso não tenha a aplicação do Power BI instalada, será redirecionado para a [Apple App Store para transferi-la](https://go.microsoft.com/fwlink/?LinkId=522062) no seu iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Digitalizar um código QR do Power BI no dispositivo Android com o scanner do Power BI
 1. Na aplicação móvel do Power BI, abra o botão de navegação principal ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) na parte superior esquerda. 
@@ -67,12 +66,12 @@ Se o seu colega não tiver partilhado o dashboard ou relatório consigo, pode pe
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Digitalizar um código QR de um scanner externo no dispositivo Android
 1. Com qualquer scanner instalado no dispositivo Android, aponte o scanner para o código QR relevante do Power BI para ter acesso imediato ao mosaico ou relatório. 
-2. Se não tiver a aplicação Power BI instalada, será redirecionado para o [Google Play para transferi-la](http://go.microsoft.com/fwlink/?LinkID=544867). 
+2. Se não tiver a aplicação Power BI instalada, será redirecionado para o [Google Play para transferi-la](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Passos seguintes
 * [Ligar a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com as aplicações móveis
 * [Criar um código QR para um mosaico no serviço Power BI](../../service-create-qr-code-for-tile.md)
 * [Criar um código QR para um relatório no serviço Power BI](../../service-create-qr-code-for-report.md)
 * Também pode [ler um código QR com a aplicação Power BI for Mixed Reality](mobile-mixed-reality-app.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

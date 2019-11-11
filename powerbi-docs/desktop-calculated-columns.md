@@ -2,7 +2,6 @@
 title: Utilizar colunas calculadas no Power BI Desktop
 description: Colunas calculadas no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522204"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876619"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Utilizar colunas calculadas no Power BI Desktop
 Com as colunas calculadas pode adicionar novos dados a uma tabela já presente no seu modelo. Mas em vez de consultar e carregar valores para a nova coluna a partir de uma origem de dados, cria uma fórmula DAX (Data Analysis Expressions) que define os valores da coluna. No Power BI Desktop, as colunas calculadas são criadas através da funcionalidade Nova Coluna na Vista de Relatório.

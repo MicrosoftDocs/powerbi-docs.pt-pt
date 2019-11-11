@@ -2,7 +2,6 @@
 title: Instalar e utilizar a aplicação Sales and Marketing no serviço Power BI
 description: No Power BI, as aplicações juntam dashboards e relatórios num único local. Instale a aplicação Sales and Marketing a partir do AppSource.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/02/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: aaab001653fbcc0d887b8cd252dc49687e703c3e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944639"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851165"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Instalar e utilizar a aplicação de exemplo Sales and Marketing no serviço Power BI
 Agora que já possui [noções básicas sobre como obter conteúdos do Power BI](end-user-app-view.md), vamos obter a aplicação Sales and Marketing a partir do Microsoft AppSource (appsource.com). 

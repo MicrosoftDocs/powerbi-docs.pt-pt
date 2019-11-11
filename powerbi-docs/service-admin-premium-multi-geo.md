@@ -3,19 +3,18 @@ title: Suporte da Multi-Geo para o Power BI Premium
 description: Saiba como pode implementar conteúdo em centros de dados em regiões diferentes da região base do inquilino do Power BI.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 129cef8a923b27582bd6424c8d025b93ecbe5532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665417"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873448"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar o suporte da Multi-Geo para o Power BI Premium
 
@@ -102,4 +101,4 @@ Pode retirar as áreas de trabalho da capacidade Multi-Geo de uma das seguintes 
 - [O que é o Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo para as capacidades do Power BI Embedded](developer/embedded-multi-geo.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

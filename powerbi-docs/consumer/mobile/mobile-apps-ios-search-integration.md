@@ -2,19 +2,18 @@
 title: Integração da funcionalidade de pesquisa de dispositivos iOS no Power BI
 description: Utilize a funcionalidade de pesquisa (Spotlight) do dispositivo para encontrar e aceder aos conteúdos de que precisa
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817082"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879214"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Integração da funcionalidade de Pesquisa (Spotlight) de Dispositivos iOS na Aplicação Power BI Mobile para iOS (pré-visualização)
 Utilize a funcionalidade de pesquisa dos dispositivos iOS para encontrar e aceder aos conteúdos de que precisa.
@@ -51,7 +50,7 @@ A pesquisa do dispositivo, com tecnologia da Siri, irá também incluir sugestõ
 ## <a name="next-steps"></a>Próximos passos
 Saiba mais sobre a aplicação móvel do Power BI ao fazer o seguinte: 
 
-* Transfira a [aplicação móvel do Power BI para iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* Transfira a [aplicação móvel do Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * Siga [@MSPowerBI no Twitter](https://twitter.com/MSPowerBI)
-* Participe na conversa na [Comunidade do Power BI](http://community.powerbi.com/)
+* Participe na conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 

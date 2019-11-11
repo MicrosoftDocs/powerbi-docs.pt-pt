@@ -2,7 +2,6 @@
 title: Criar elementos visuais do Power BI com o R
 description: Criar elementos visuais do Power BI com o R
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 969dc53f97156724d6c2b6b7dd6036b3fe8310aa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1889c7327bd6f0123dd2ab79b296e7449155ac26
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514436"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879830"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar elementos visuais do Power BI com o R
 Com o **Power BI Desktop**, pode utilizar o **R** para visualizar os dados.

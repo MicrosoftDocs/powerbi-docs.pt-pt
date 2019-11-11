@@ -3,18 +3,17 @@ title: Criar um conjunto de dados incorporado para um relatório paginado do Pow
 description: Neste artigo, vai aprender a criar um conjunto de dados incorporado, com base numa origem de dados incorporada, para um relatório paginado no serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3ca950f5562998a1591d94ee690b76fee4f3d98f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839036"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874872"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Criar um conjunto de dados incorporado para um relatório paginado no serviço Power BI
 

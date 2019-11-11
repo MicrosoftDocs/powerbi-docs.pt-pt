@@ -2,7 +2,6 @@
 title: Obter o Power BI Desktop
 description: Transferir e instalar o Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: 9f503ad8d5ae7b26a87da4e1d6664315b6119652
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878233"
 ---
 # <a name="get-power-bi-desktop"></a>Obter o Power BI Desktop
 O **Power BI Desktop** permite-lhe criar consultas avançadas, modelos e relatórios que visualizam os dados. No **Power BI Desktop**, pode criar modelos de dados, criar relatórios e partilhar o seu trabalho ao publicar no serviço Power BI.  O **Power BI Desktop** é transferido gratuitamente.
@@ -56,7 +55,7 @@ Quando iniciar o pacote de instalação, o **Power BI Desktop** será instalado 
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>Instalar como uma aplicação a partir da Microsoft Store
 Também pode obter o **Power BI Desktop** na Microsoft Store através da seguinte ligação:
 
-* [Instalar o **Power BI Desktop** a partir da **Microsoft Store**](http://aka.ms/pbidesktopstore)
+* [Instalar o **Power BI Desktop** a partir da **Microsoft Store**](https://aka.ms/pbidesktopstore)
 
   ![Obter o Power BI Desktop a partir da Microsoft Store](media/desktop-get-the-desktop/getpbid_04.png)
 

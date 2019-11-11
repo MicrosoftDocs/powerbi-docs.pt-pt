@@ -3,18 +3,17 @@ title: Configurar credenciais para o Power BI através de programação
 description: Como configurar credenciais para automatização do Power BI através de programação
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52daf96a4ff6ca7eac4d996f5891740538c88e74
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380187"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875866"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurar credenciais para o Power BI através de programação
 

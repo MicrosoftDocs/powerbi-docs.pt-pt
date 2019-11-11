@@ -2,19 +2,18 @@
 title: Ver relatórios do Power BI otimizados para o seu telemóvel
 description: Saiba mais sobre a interação com as páginas de relatórios otimizadas para visualização nas aplicações móveis do Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
-ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65101012"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870523"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver relatórios do Power BI otimizados para o seu telemóvel
 
@@ -134,5 +133,5 @@ Os autores do relatório podem [definir a pormenorização](https://docs.microso
 * [Criar relatórios otimizados para aplicações de telemóvel do Power BI](../../desktop-create-phone-report.md)
 * [Criar uma vista de telemóvel de um dashboard no Power BI](../../service-create-dashboard-mobile-phone-view.md)
 * [Criar visuais responsivos otimizados para qualquer tamanho](../../visuals/desktop-create-responsive-visuals.md)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

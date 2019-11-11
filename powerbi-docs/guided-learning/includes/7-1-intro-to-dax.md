@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847723"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800063"
 ---
 Bem-vindo à secção da **Aprendizagem Orientada** do Power BI que visa apresentar o **DAX**.
 
 **DAX** significa **Data Analysis Expressions** e é a linguagem de fórmulas utilizada em todo o Power BI (também é utilizada pelo Power BI nos bastidores). O DAX também se encontra noutras ofertas da Microsoft, como o Power Pivot e o SSAS Tabular, mas estes tópicos de Aprendizagem Orientada centram-se na forma como o DAX é utilizado (e pode ser utilizado por si ) no Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX e a série de vídeos desta Aprendizagem Orientada
-O objetivo desta secção da **Aprendizagem Orientada** é ensinar-lhe as noções básicas e os princípios do DAX – como pensar no DAX, como funciona e as funcionalidades mais úteis, tal como explicadas (e aprendidas com muita experiências) por uma especialista de renome no DAX, [ Alberto Ferrari](http://www.sqlbi.com/learning-dax).
+O objetivo desta secção da **Aprendizagem Orientada** é ensinar-lhe as noções básicas e os princípios do DAX – como pensar no DAX, como funciona e as funcionalidades mais úteis, tal como explicadas (e aprendidas com muita experiências) por uma especialista de renome no DAX, [ Alberto Ferrari](https://www.sqlbi.com/learning-dax).
 
 ![Retrato de Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ O DAX utiliza a sobrecarga de operadores, o que significa que pode misturar tipo
 
 Há um tipo de dados em particular com o qual irá, provavelmente, trabalhar com frequência no Power BI: **DateTime**. **DateTime** é armazenado como um valor de vírgula flutuante com partes de número inteiro e decimal. DateTime pode ser utilizado com precisão para cálculos de qualquer período de tempo após 1 de março de 1900.
 
-> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Conteúdo de vídeo cortesia de [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 
 > 
 

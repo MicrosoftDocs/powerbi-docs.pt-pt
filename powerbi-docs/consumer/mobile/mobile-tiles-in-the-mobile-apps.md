@@ -2,19 +2,18 @@
 title: Explorar mosaicos nas aplicações móveis do Power BI
 description: Os mosaicos são instantâneos dinâmicos dos seus dados, afixados a um dashboard. Saiba mais sobre a interação com mosaicos nas aplicações móveis do Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059763"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870040"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -123,5 +122,5 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
 
 ## <a name="next-steps"></a>Próximos passos
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Duas formas de partilhar um relatório do Power BI filtrado
 description: Fique a conhecer duas formas de filtrar um relatório do Power BI e partilhá-lo com colegas na sua organização.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877709"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871450"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Duas formas de partilhar um relatório do Power BI filtrado
 A *Partilha* é uma boa forma de dar a algumas pessoas acesso aos seus dashboards e relatórios. E se pretender partilhar uma versão filtrada de um relatório? Por exemplo, um relatório que mostre apenas os dados de um vendedor, cidade ou ano específico. Tente filtrar um relatório e partilhá-lo ou criar um URL personalizado. O relatório será filtrado quando os destinatários o abrirem. É possível remover o filtro ao modificar o URL. 
@@ -74,6 +73,6 @@ Veja o artigo [Filtrar um relatório com os parâmetros de cadeia de consulta no
 ## <a name="next-steps"></a>Próximos passos
 * [Formas de partilhar o seu trabalho no Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Partilhar um dashboard](service-share-dashboards.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 * Tem comentários? Vá ao [site da Comunidade do Power BI](https://community.powerbi.com/) e envie as suas sugestões.
 

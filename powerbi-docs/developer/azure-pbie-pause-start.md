@@ -4,18 +4,17 @@ description: Este artigo explica como colocar em pausa e iniciar uma capacidade 
 services: power-bi-embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
-ms.openlocfilehash: 8a02654f264fb83f501679e4e205e08017f083f6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c851e76a57618ad1b683e1fa56251423b8d6eeb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61387479"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865004"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Colocar em pausa e iniciar a sua capacidade do Power BI Embedded no portal do Azure
 
@@ -78,4 +77,4 @@ Se quiser aumentar ou diminuir o dimensionamento da sua capacidade, veja [Scale 
 
 Para começar a incorporar conteúdos do Power BI na sua aplicação, veja [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

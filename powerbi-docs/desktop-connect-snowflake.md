@@ -2,7 +2,6 @@
 title: Ligar a um armazém de informática de Snowflake no Power BI Desktop
 description: Ligar e utilizar facilmente um armazém de informática de Snowflake no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513830"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876415"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Ligar ao Snowflake no Power BI Desktop
 No Power BI Desktop, pode ligar a um armazém de informática de **Snowflake** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop. 
 
 > [!NOTE]
-> Também *tem* de instalar o **Controlador ODBC do Snowflake** nos computadores que utilizam o conector **Snowflake**, utilizando a arquitetura que corresponda à instalação do **Power BI Desktop**, de 32 ou 64 bits. Basta seguir a seguinte ligação e [transferir o controlador ODBC do Snowflake adequado](http://go.microsoft.com/fwlink/?LinkID=823762).
+> Também *tem* de instalar o **Controlador ODBC do Snowflake** nos computadores que utilizam o conector **Snowflake**, utilizando a arquitetura que corresponda à instalação do **Power BI Desktop**, de 32 ou 64 bits. Basta seguir a seguinte ligação e [transferir o controlador ODBC do Snowflake adequado](https://go.microsoft.com/fwlink/?LinkID=823762).
 > 
 > 
 

@@ -2,7 +2,6 @@
 title: Resolver Problemas ao iniciar o Power BI Desktop
 description: Resolver Problemas ao iniciar o Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 19dc98b4f402176b2ae511236015ea25d7e4178b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: eeaf2c48baddaccbaeb80b788e9f8a5bc3263000
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454410"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878248"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Resolver Problemas quando o Power BI Desktop não é iniciado
 No **Power BI Desktop**, os utilizadores que instalaram e estão a executar versões anteriores do **Gateway de dados no local do Power BI** podem ser impedidos de iniciar o Power BI Desktop, devido às restrições de políticas administrativas que o gateway no local do Power BI estabeleceu nos pipes nomeados no computador local. 

@@ -2,7 +2,6 @@
 title: Como afixar um mosaico a um dashboard do Power BI a partir do Excel
 description: Afixe um mosaico a um dashboard do Power BI a partir do Excel no OneDrive para Empresas. Afixar intervalos, gráficos e tabelas
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139224"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877434"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Afixar um mosaico num dashboard do Power BI a partir do Excel
 Para poder afixar um mosaico a partir do livro do Excel, primeiro terá de ligar esse livro ao serviço Power BI (app.powerbi.com). Ligar um livro coloca, essencialmente, uma versão só de leitura ligada desse livro no serviço Power BI e permite-lhe afixar intervalos a dashboards. Pode até afixar uma folha de cálculo inteira a um dashboard.  
 Se um livro tiver sido partilhado consigo, terá a capacidade de ver os mosaicos afixados pelo proprietário, mas não poderá criar os mosaicos do dashboard. 
 
-Para obter informações aprofundadas sobre como o Excel e o Power BI funcionam em conjunto, veja [Obter dados de ficheiros de livro do Excel](http://go.microsoft.com/fwlink/?LinkID=521962).
+Para obter informações aprofundadas sobre como o Excel e o Power BI funcionam em conjunto, veja [Obter dados de ficheiros de livro do Excel](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 Veja o Will a demonstrar várias formas de importar dados de livros do Excel e a ligar a livros do Excel.
 
@@ -81,12 +80,12 @@ Selecionar um mosaico do livro abre o livro ligado no Power BI. Como o ficheiro 
  ![vídeo](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para obter os mosaicos do livro. Por isso, como algumas das funcionalidades do Excel não são suportadas na API REST dos Serviços do Excel, não serão vistas nos mosaicos no Power BI. Por exemplo: gráficos sparkline, formatação condicional de conjunto de ícones e segmentação de dados de tempo. Para obter uma lista completa das funcionalidades não suportadas, veja [Funcionalidades Não Suportadas na API REST dos Serviços do Excel](http://msdn.microsoft.com/library/office/ff394477.aspx)
+Funcionalidades não suportadas: o Power BI utiliza os Serviços do Excel para obter os mosaicos do livro. Por isso, como algumas das funcionalidades do Excel não são suportadas na API REST dos Serviços do Excel, não serão vistas nos mosaicos no Power BI. Por exemplo: gráficos sparkline, formatação condicional de conjunto de ícones e segmentação de dados de tempo. Para obter uma lista completa das funcionalidades não suportadas, veja [Funcionalidades Não Suportadas na API REST dos Serviços do Excel](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Próximos passos
 [Partilhar um dashboard que contém ligações para um livro do Excel](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Obter dados de livros do Excel](service-excel-workbook-files.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 
