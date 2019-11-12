@@ -188,6 +188,8 @@
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Ler um código de barras a partir da aplicação no iPhone
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: Configure using mobile device management (Configurar com a gestão de dispositivos móveis)
+              href: mobile/mobile-app-configuration.md
         - name: iOS
           items:
             - name: Introdução à aplicação iOS
@@ -202,8 +204,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Aplicação Power BI Apple Watch
               href: mobile/mobile-apple-watch.md
-            - name: Configure using mobile device management (Configurar com a gestão de dispositivos móveis)
-              href: mobile/mobile-app-configuration.md
         - name: Dispositivos Android
           items:
             - name: Introdução à aplicação Android
