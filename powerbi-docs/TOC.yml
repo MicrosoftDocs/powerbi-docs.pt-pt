@@ -119,6 +119,8 @@
           items:
             - name: Origens de dados no Power BI Desktop
               href: desktop-data-sources.md
+            - name: 'Connect to LinkedIn Sales Navigator (preview) (Ligar ao LinkedIn Sales Navigator [pré-visualização])'
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Ligar a uma página Web por exemplo (pré-visualização)
               href: desktop-connect-to-web-by-example.md
             - name: Connect to datasets in the Power BI service (Ligar a conjuntos de dados no serviço Power BI)
@@ -201,6 +203,8 @@
           items:
             - name: Combine binaries (Combinar binários)
               href: desktop-combine-binaries.md
+            - name: 'Use AI Insights in Power BI Desktop (preview) (Utilizar as informações de IA no Power BI Desktop [pré-visualização])'
+              href: desktop-ai-insights.md
         - name: Model your data (Modelar os seus dados)
           items:
             - name: Categorização de dados no Power BI Desktop
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Gráfico de combinação no Power BI
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: 'Decomposition tree in Power BI (Preview) (Árvore de decomposição no Power BI [Pré-visualização])'
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: "Gráficos em anel no Power\_BI"
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Mapas de manchas (Coropletos) no Power BI
@@ -405,6 +411,8 @@
       items:
         - name: Tipos de dados no Power BI Desktop
           href: desktop-data-types.md
+        - name: 'Use the updated ribbon in Power BI Desktop (preview) (Utilizar o friso atualizado no Power BI Desktop [pré-visualização])'
+          href: desktop-ribbon.md
         - name: Formula editor shortcuts for Power BI Desktop (Atalhos do editor de fórmulas do Power BI Desktop)
           href: desktop-formula-editor.md
         - name: Níveis de privacidade do Power BI Desktop
