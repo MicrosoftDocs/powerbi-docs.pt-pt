@@ -45,8 +45,10 @@
               href: office-store.md
             - name: Utilizar elementos visuais personalizados baseados em R no Power BI
               href: ../desktop-r-powered-custom-visuals.md
-            - name: Visuals interactions (Interações de elementos visuais)
+            - name: Allow visuals interactions (Permitir interações de elementos visuais)
               href: visuals/visuals-interactions.md
+            - name: Add selections (Adicionar seleções)
+              href: visuals/selection-api.md
             - name: Add visuals tooltips (Adicionar descrições em elementos visuais)
               href: visuals/add-tooltips.md
             - name: Add analytics pane (Adicionar painel de análise)
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: Add bookmarks support (Adicionar suporte para marcadores)
               href: visuals/bookmarks-support.md
+            - name: Add context menu support (Adicionar suporte de menu de contexto)
+              href: visuals/context-menu.md
             - name: Highlight data in visuals (Destacar dados em elementos visuais)
               href: visuals/highlight.md
             - name: Add High-Contrast mode support (Adicionar suporte para o modo Alto Contraste)
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: Migrate to the new powerbi-visuals-tools (Migrar para o novo powerbi-visuals-tools)
+              href: visuals/migrate-to-new-tools.md
         - name: Referência
           items:
             - name: Landing page (Página de destino)
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: Ordenação
               href: visuals/sort-options.md
+            - name: Interactivity utils (Utilitários de interatividade)
+              href: visuals/utils-interactivity-selections.md
         - name: Recursos
           items:
             - name: Dev Center
