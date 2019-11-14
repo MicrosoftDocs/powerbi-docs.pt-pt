@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: "Gráficos de cascata no Power\_BI"
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: Criar linhas de referência dinâmicas
-              href: service-analytics-pane.md
         - name: Linguagem natural
           items:
             - name: Q&A introduction (Introdução às Perguntas e Respostas)
