@@ -12,7 +12,7 @@
         - name: Descrição geral
           items:
             - name: Visuals in Power BI (Elementos visuais no Power BI)
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: Tutoriais
           items:
             - name: Develop a Power BI visual (Criar um elemento visual do Power BI)
@@ -24,11 +24,11 @@
         - name: Conceitos
           items:
             - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Diretrizes de elementos visuais do Power BI
               href: guidelines-powerbi-visuals.md
             - name: Visuals FAQ (FAQ sobre elementos visuais)
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: Using capabilities (Utilizar capacidades)
               href: visuals/capabilities.md
             - name: Data view mappings (Mapeamentos de vista de dados)
@@ -40,12 +40,12 @@
         - name: Procedimentos
           items:
             - name: Get a visual certified (Criar um certificado de elementos visuais)
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: Publicar visuais personalizados no AppSource
               href: office-store.md
             - name: Utilizar elementos visuais personalizados baseados em R no Power BI
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: Allow visuals interactions (Permitir interações de elementos visuais)
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: Visuals interactions (Interações de elementos visuais)
               href: visuals/visuals-interactions.md
             - name: Add selections (Adicionar seleções)
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: Enable sync slicers (Ativar segmentação de dados)
               href: visuals/enable-sync-slicers.md
             - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: Migrate to the new powerbi-visuals-tools (Migrar para o novo powerbi-visuals-tools)
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Referência
           items:
             - name: Landing page (Página de destino)
