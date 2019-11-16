@@ -15,6 +15,9 @@
         - name: Aprendizagem Orientada
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
-        - name: Servidor de Relatórios
+        - name: Report Server
           tocHref: /power-bi/report-server/
           topicHref: /power-bi/report-server/get-started
+        - name: Orientação
+          tocHref: /power-bi/guidance/
+          topicHref: /power-bi/guidance/index
