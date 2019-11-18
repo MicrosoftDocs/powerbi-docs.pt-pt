@@ -1,8 +1,7 @@
 ---
-title: Utilizar o analisador de desempenho para examinar o desempenho de elemento de relatório no Power BI Desktop
-description: Descubra como os elementos visuais e elementos do relatório estão a efetuar em termos de utilização de recursos e a capacidade de resposta
+title: Utilizar o Analisador de Desempenho para examinar o desempenho do elemento de relatório no Power BI Desktop
+description: Saiba como os elementos visuais e elementos de relatórios estão em termos de utilização de recursos e capacidade de resposta
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,74 +9,74 @@ ms.topic: conceptual
 ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1851e0a55bf01073a6591f64de43830a72eca89b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65854419"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866433"
 ---
-# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Utilizar o analisador de desempenho para examinar o desempenho de elemento de relatório
+# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Utilizar o Analisador de Desempenho para examinar o desempenho do elemento de relatório
 
-Na **Power BI Desktop** pode encontrar fora como cada um dos elementos do relatório, como os elementos visuais e as fórmulas DAX está a efetuar. Utilizar o **Performance Analyzer**, pode ver e registos de registo que medir a forma como cada um dos elementos do relatório executa quando os utilizadores interagem com eles e quais aspectos do seu desempenho são a maior parte (ou menos) utilizar muitos recursos.
+No **Power BI Desktop**, pode saber o desempenho de cada um dos seus elementos de relatórios, como elementos visuais e fórmulas DAX. Com o **Analisador de Desempenho**, pode ver e criar registos que medem o desempenho de cada um dos seus elementos de relatórios quando os utilizadores interagem com os mesmos, bem como os aspetos do seu desempenho que consomem mais (ou menos) recursos.
 
-![Analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
+![Analisador de Desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
-Analisador de desempenho inspeciona e apresenta o período necessário para a atualização ou atualizar todos os elementos visuais que interações de utilizador iniciar e apresenta as informações para que pode ver, desagregar ou exportar os resultados. Analisador de desempenho pode ajudá-lo a identificar os elementos visuais que estejam a afetar o desempenho dos seus relatórios e identificar o motivo para o impacto.
+O Analisador de Desempenho inspeciona e mostra a duração necessária para atualizar todos os elementos visuais que as interações com utilizadores iniciam, e apresenta as informações para que possa ver, desagregar ou exportar os resultados. O Analisador de Desempenho pode ajudá-lo a identificar elementos visuais que estão a afetar o desempenho dos seus relatórios e a identificar o motivo do impacto.
 
-## <a name="displaying-the-performance-analyzer-pane"></a>Exibindo o painel do analisador de desempenho
+## <a name="displaying-the-performance-analyzer-pane"></a>Mostrar o painel do Analisador de Desempenho
 
-Na **Power BI Desktop** selecione a **vista** faixa de opções. Na **mostrar** área da **vista** faixa de opções, pode selecionar a caixa de verificação junto a **analisador de desempenho** para mostrar o painel do analisador de desempenho.
+No **Power BI Desktop**, selecione o friso **Ver**. Na área **Mostrar** do friso **Ver**, pode selecionar a caixa de verificação junto a **Analisador de Desempenho** para mostrar o painel do Analisador de Desempenho.
 
-![Selecione o analisador de desempenho no Friso ver](media/desktop-performance-analyzer/performance-analyzer-02.png)
+![Selecione o Analisador de Desempenho no friso Ver](media/desktop-performance-analyzer/performance-analyzer-02.png)
 
-Depois de selecionada, o analisador de desempenho é apresentado no seu próprio painel, à direita da tela do relatório.
+Depois de selecionado, o Analisador de Desempenho é mostrado no próprio painel, à direita da tela do relatório.
 
-## <a name="using-performance-analyzer"></a>Utilizar o analisador de desempenho
+## <a name="using-performance-analyzer"></a>Utilizar o Analisador de Desempenho
 
-Medidas de analisador de desempenho o tempo de processamento (incluindo o tempo para criar ou atualizar um elemento visual) necessário para atualizar os elementos de relatório iniciados como resultado de qualquer interação do utilizador que resulta na execução de uma consulta. Por exemplo, ajustar uma segmentação de dados requer o visual de segmentação de dados deve ser modificada, uma consulta a serem enviados para o modelo de dados e os elementos visuais afetados que têm de ser atualizados como resultado das novas definições. 
+O Analisador de Desempenho mede o tempo de processamento (incluindo o tempo para criar ou atualizar um elemento visual) necessário para atualizar os elementos de relatórios iniciados devido a interações dos utilizadores e que resultem na execução de uma consulta. Por exemplo, ajustar uma segmentação de dados exige que o elemento visual da segmentação de dados seja modificado, que uma consulta seja enviada para o modelo de dados e que os elementos visuais afetados tenham de ser atualizados como resultado das novas definições. 
 
-Para que o analisador de desempenho, iniciar a gravação, basta selecionar **iniciar a gravação**
+Para que o Analisador de Desempenho comece a gravar, basta selecionar **Iniciar gravação**
 
 ![Iniciar gravação](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
-Todas as ações tomadas durante o relatório são apresentadas e com sessão iniciadas no painel de analisador de desempenho, na ordem em que o elemento visual é carregado pelo Power BI. Por exemplo, talvez tenha um relatório que os utilizadores disseram demora muito tempo a atualizar. Ou, determinados elementos visuais num relatório demoram muito tempo a apresentar quando um controlo de deslize é ajustado. Analisador de desempenho pode informar a o controlo é o culpado e identifica quais aspectos do elemento visual está a demorar a duração mais longa para processar. 
+Todas as ações que efetuar no relatório são apresentadas e registadas no painel do Analisador de Desempenho, para que o elemento visual seja carregado pelo Power BI. Por exemplo, talvez tenha um relatório que os utilizadores afirmam demorar muito tempo a ser atualizado. Ou determinados elementos visuais no relatório podem demorar muito tempo a ser apresentados quando um controlo de deslize é ajustado. O Analisador de Desempenho pode informar que elemento visual é responsável e identifica quais os aspetos do elemento visual que duram mais tempo a processar. 
 
-Depois de começar a gravação, o **inicio a gravação** botão está desativado fora (inativa, uma vez que já tenha começado gravação) e o **parar** botão está ativo. 
+Após iniciar a gravação, o botão **Iniciar gravação** fica a cinzento (inativo, pois já foi iniciada a gravação) e o botão **Parar** fica ativo. 
 
-Analisador de desempenho recolhe e apresenta as informações de medição de desempenho em tempo real. Para que cada vez que clica num elemento visual, mover uma segmentação de dados ou interaja de qualquer outra forma, o analisador de desempenho mostra imediatamente os resultados de desempenho no seu painel.
+O Analisador de Desempenho recolhe e mostra as informações de medição de desempenho em tempo real. Por isso, sempre que clicar num elemento visual, mover uma segmentação de dados ou interagir de outra forma, o Analisador de Desempenho mostra imediatamente os resultados de desempenho no respetivo painel.
 
-Se o painel tem mais informações que podem ser apresentados, é apresentada uma barra de rolagem navegar para obter informações adicionais.
+Se o painel tiver mais informações do que as que podem ser apresentadas, aparece uma barra de deslocamento que permite navegar para informações adicionais.
 
-Cada interação do utilizador tem um identificador de seção no painel, que descreve a ação que iniciou as entradas de registo. Na imagem seguinte, a interação era que os utilizadores alterada uma segmentação de dados.
+Cada interação tem um identificador de secção no painel, que descreve a ação que iniciou as entradas de registo. Na imagem seguinte, a interação consistiu nos utilizadores a alterarem uma segmentação de dados.
 
-![Com base no tipo de interação de secções](media/desktop-performance-analyzer/performance-analyzer-04.png)
+![Secções baseadas no tipo de interação](media/desktop-performance-analyzer/performance-analyzer-04.png)
 
-Informações de registo de cada elemento visual incluem o tempo gasto (duração) para concluir as seguintes categorias de tarefas:
+As informações de registo de cada elemento visual incluem o tempo passado (duração) para concluir as seguintes categorias de tarefas:
 
-* **Consulta DAX** -se de uma consulta DAX era necessária, este é o tempo entre o elemento visual enviando a consulta e para o Analysis Services devolver os resultados.
-* **Apresentação visual** -tempo necessário para o elemento visual desenhar na tela, incluindo o tempo necessário para obter as imagens de web ou de uma geocodificação. 
-* **Outros** -tempo necessário pelo elemento visual para consultas de preparação, à espera de outros elementos visuais concluir ou efetuar outro processamento em segundo plano.
+* **Consulta DAX** – se for necessária uma consulta DAX, este é o tempo entre a altura em que o elemento visual envia a consulta e a altura em que o Analysis Services devolve os resultados.
+* **Apresentação do elemento visual** – o tempo necessário para que o elemento visual surja no ecrã, incluindo o tempo necessário para obter imagens Web ou geocodificação. 
+* **Outros** – o tempo que o elemento visual necessita para preparar consultas, aguardar que outros elementos visuais sejam concluídos ou executar outro processamento em segundo plano.
 
 ![elementos de informações de registo](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
-Após interagir com elementos do relatório que pretende medir com o analisador de desempenho, pode selecionar o **parar** botão. As informações de desempenho permanecem no painel de depois de selecionar **parar** para analisar.
+Após interagir com os elementos do relatório que pretende medir com o Analisador de Desempenho, pode selecionar o botão **Parar**. As informações de desempenho permanecem no painel após ter selecionado **Parar**, para que as possa analisar.
 
-Para limpar as informações no painel de analisador de desempenho, selecione **limpar**. Todas as informações são apagadas e não são guardadas quando seleciona **clara**. Veja a secção seguinte para aprender a guardar as informações nos registos. 
+Para limpar as informações no painel do Analisador de Desempenho, selecione **Limpar**. Todas as informações são apagadas quando seleciona **Limpar**, e não são guardadas. Veja a secção seguinte para saber como guardar informações nos registos. 
 
-## <a name="refreshing-visuals"></a>Atualizar os elementos visuais
+## <a name="refreshing-visuals"></a>Atualizar elementos visuais
 
-Pode selecionar **atualizar elementos visuais** no painel de analisador de desempenho para atualizar todos os elementos visuais na página atual do relatório e, deste modo, ter o analisador de desempenho a recolher informações sobre todos esses elementos visuais.
+Pode selecionar **Atualizar elementos visuais** no painel do Analisador de Desempenho para atualizar todos os elementos visuais na página atual do relatório, para que o Analisador de Desempenho recolha informações sobre todos esses elementos visuais.
 
-Também pode atualizar os elementos visuais individuais. Quando o analisador de desempenho está gravando, pode selecionar **atualizar este elemento visual** encontrado no canto superior direito de cada elemento visual, para atualizar esse elemento visual e capturar as informações de desempenho.
+Também pode atualizar elementos visuais individuais. Quando o Analisador de Desempenho estiver a gravar, pode selecionar **Atualizar este elemento visual**, no canto superior direito de cada elemento visual, para atualizar o mesmo, e capturar as respetivas informações de desempenho.
 
 ![atualizar um elemento visual individual](media/desktop-performance-analyzer/performance-analyzer-07.png)
 
-## <a name="saving-performance-information"></a>Ao guardar as informações de desempenho
+## <a name="saving-performance-information"></a>Guardar informações de desempenho
 
-Pode salvar as informações que cria o analisador de desempenho sobre um relatório ao selecionar o **exportar** botão. Selecionando **exportar** cria um ficheiro. JSON com informações a partir do painel de analisador de desempenho. 
+Pode guardar as informações que o Analisador de Desempenho cria sobre um relatório ao selecionar o botão **Exportar**. Selecionar **Exportar** cria um ficheiro .json com informações do painel do Analisador de Desempenho. 
 
-![Guarde o ficheiro de registo para o analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-05.png)
+![Guardar o ficheiro de registo do analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
 ## <a name="next-steps"></a>Próximos passos

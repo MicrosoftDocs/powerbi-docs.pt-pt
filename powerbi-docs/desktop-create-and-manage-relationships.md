@@ -2,7 +2,6 @@
 title: Criar e gerir relações no Power BI Desktop
 description: Criar e gerir relações no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312710"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869118"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
 Quando importa múltiplas tabelas, é provável que faça algumas análises com dados de todas essas tabelas. As relações entre essas tabelas são necessárias para calcular os resultados com precisão e apresentar as informações corretas nos seus relatórios. O Power BI Desktop facilita a criação dessas relações. Na verdade, na maioria dos casos, não tem de fazer nada: a funcionalidade de Deteção Automática pode fazer isso por si. No entanto, em alguns casos, talvez tenha de criar relações ou talvez seja necessário fazer algumas alterações a uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e como criá-las e editá-las.
@@ -64,9 +63,9 @@ Quando cria ou edita uma relação, pode configurar opções adicionais. Por pre
 Veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a cardinalidade.
 
 ## <a name="cross-filter-direction"></a>Direção de filtro cruzado
-**Ambas** – A direção predefinida mais comum, o que significa que, para fins de filtragem, ambas as tabelas são tratadas como se fossem uma única tabela. **Ambas** funciona bem com uma única tabela que tem uma série de tabelas de referência à sua volta. Um exemplo é uma tabela de dados reais de Vendas com uma tabela de referência por departamento. Isto é frequentemente chamado de Configuração de esquema em estrela (uma tabela central com várias tabelas de referência). No entanto, se tiver duas ou mais tabelas que também têm tabelas de referência (com algumas em comum), não é vantajoso utilizar a definição Ambas. Para continuar o exemplo anterior, neste caso, também tem uma tabela de vendas de orçamento que regista o orçamento de destino de cada departamento. A tabela de departamento está ligada tanto à tabela de vendas como à de orçamento. Evite a definição Ambas para este tipo de configuração.
+**Ambos** – para fins de filtragem, ambas as tabelas são tratadas como se fossem uma única tabela. **Ambas** funciona bem com uma única tabela que tem uma série de tabelas de referência à sua volta. Um exemplo é uma tabela de dados reais de Vendas com uma tabela de referência por departamento. Isto é frequentemente chamado de Configuração de esquema em estrela (uma tabela central com várias tabelas de referência). No entanto, se tiver duas ou mais tabelas que também têm tabelas de referência (com algumas em comum), não é vantajoso utilizar a definição Ambas. Para continuar o exemplo anterior, neste caso, também tem uma tabela de vendas de orçamento que regista o orçamento de destino de cada departamento. A tabela de departamento está ligada tanto à tabela de vendas como à de orçamento. Evite a definição Ambas para este tipo de configuração.
 
-**Único** – As opções de filtragem nas tabelas ligadas funcionam na tabela em que os valores estão a ser agregados. Se importar uma tabela do Power Pivot no Excel 2013 ou um modelo de dados anterior, todas as relações terão uma única direção. 
+**Único** – o mais comum e a direção predefinida, que significa que as opções de filtragem nas tabelas ligadas funcionam na tabela em que os valores estão a ser agregados. Se importar uma tabela do Power Pivot no Excel 2013 ou um modelo de dados anterior, todas as relações terão uma única direção. 
 
 Veja a secção Noções básicas sobre opções adicionais, mais adiante neste artigo, para obter mais detalhes sobre quando alterar a direção de filtro cruzado.
 

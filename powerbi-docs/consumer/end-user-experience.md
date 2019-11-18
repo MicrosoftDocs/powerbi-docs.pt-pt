@@ -2,22 +2,21 @@
 title: Introdução ao serviço Power BI
 description: Descrição geral da experiência de navegação do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589460"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851533"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido: Introdução ao serviço Power BI
 
@@ -57,7 +56,7 @@ Na Minha Área de Trabalho, o conteúdo está organizado em quatro separadores: 
 
 ![Ecrã A Minha Área de Trabalho](./media/end-user-experience/power-bi-my-workspace.png)
 
-Selecione uma área de trabalho no painel de navegação esquerdo (navegação esquerda) e os separadores do conteúdo associado (dashboards, relatórios, livros, conjuntos de dados) preenchem o ecrã do Power BI à direita.
+Selecione uma área de trabalho no painel de navegação e os separadores do conteúdo associado (dashboards, relatórios, livros, conjuntos de dados) preenchem o ecrã do Power BI à direita.
 
 Se for um novo utilizador, só verá uma área de trabalho: **A Minha Área de Trabalho**.
 
@@ -82,7 +81,7 @@ Os **Favoritos** permitem-lhe aceder rapidamente aos conteúdos que são mais im
    
    ![remover favorito](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. Para apresentar uma lista de todos os conteúdos que adicionou como favoritos, no painel de navegação esquerdo, selecione a seta à direita de **Favoritos**. Uma vez que o painel de navegação esquerdo é uma funcionalidade permanente do serviço Power BI, tem acesso a esta lista a partir de qualquer local no serviço Power BI.
+2. Para apresentar uma lista de todos os conteúdos que adicionou como favoritos, no painel de navegação, selecione a seta à direita de **Favoritos**. Uma vez que o painel de navegação é uma funcionalidade permanente do serviço Power BI, tem acesso a esta lista a partir de qualquer local no serviço Power BI.
    
     ![lista de opções Favoritos](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ Os **Favoritos** permitem-lhe aceder rapidamente aos conteúdos que são mais im
    
    ![marcar como favorito](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. Abra o **painel** *Favoritos* ao selecionar **Favoritos** no painel de navegação esquerdo ou ao selecionar o ícone de estrela ![](media/end-user-experience/powerbi-star-icon.png).
+3. Abra o *painel* **Favoritos** ao selecionar **Favoritos** no painel de navegação ou ao selecionar o ícone de estrela ![captura de ecrã a mostrar um ícone de estrela amarela](media/end-user-experience/powerbi-star-icon.png).
    
    ![Ecrã Favoritos aberto](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Para saber mais, veja [Favoritos](end-user-favorite.md)
 
 ## <a name="locate-your-most-recent-content"></a>Localizar os seus conteúdos mais recentes
 
-1. Tal como no caso dos Favoritos, pode ver rapidamente os conteúdos a que acedeu mais recentemente em qualquer parte do serviço Power BI ao selecionar a seta junto a **Recentes** no painel de navegação esquerdo.
+1. Tal como no caso dos Favoritos, pode ver rapidamente os conteúdos a que acedeu mais recentemente em qualquer parte do serviço Power BI ao selecionar a seta junto a **Recentes** no painel de navegação.
 
    ![lista de opções Recentes](./media/end-user-experience/power-bi-recent-flyout.png)
 
     Na lista de opções, selecione os conteúdos para os abrir.
 
-2. Por vezes, poderá não querer apenas abrir os conteúdos recentes, mas sim ver informações ou realizar outras ações, como ver Informações ou exportar para o Excel. Nestes casos, abra o painel **Recentes** ao selecionar **Recente** ou o respetivo ícone no painel de navegação esquerdo. Se tiver mais do que uma área de trabalho, esta lista incluirá conteúdos de todas as suas áreas de trabalho.
+2. Por vezes, poderá não querer apenas abrir os conteúdos recentes, mas sim ver informações ou realizar outras ações, como ver Informações ou exportar para o Excel. Nestes casos, abra o painel **Recentes** ao selecionar **Recente** ou o respetivo ícone no painel de navegação. Se tiver mais do que uma área de trabalho, esta lista incluirá conteúdos de todas as suas áreas de trabalho.
 
    ![painel Recentes](./media/end-user-experience/power-bi-recent.png)
 
@@ -137,8 +136,8 @@ Para saber mais, veja [Power BI navigation: search and sort](end-user-search-sor
 ## <a name="clean-up-resources"></a>Limpar recursos
 Depois de concluir este manual de início rápido, se desejar, pode eliminar o dashboard, o relatório e o conjunto de dados de exemplo da Análise de Revenda.
 
-1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.    
-2. No painel de navegação à esquerda, selecione **Áreas de Trabalho > A Minha Área de Trabalho**.  
+1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.    
+2. No painel de navegação, selecione **Áreas de trabalho > A Minha Área de Trabalho**.  
     Reparou na estrela amarela a indicar que é um favorito?    
 3. No separador **Dashboards**, selecione o ícone **Eliminar** de caixote do lixo junto ao dashboard Retail Analysis (Análise de Revenda).    
 

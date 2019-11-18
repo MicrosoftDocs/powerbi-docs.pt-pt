@@ -2,7 +2,6 @@
 title: Utilizar o DirectQuery no Power BI Desktop
 description: Utilize o DirectQuery, também designado por uma Ligação em direto, no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654794"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876074"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o **Power BI Desktop**. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o **DirectQuery**.
@@ -70,7 +69,7 @@ Os seguintes três pontos devem ser considerados ao utilizar o **DirectQuery**:
       The resultset of a query to external data source has exceeded
   
   Esta situação pode ocorrer com um gráfico simples que inclui uma coluna de cardinalidade muito elevada, com a opção de agregação definida como *Não Resumir*. O elemento visual precisa de ter apenas colunas com uma cardinalidade abaixo de 1 milhão ou ter filtros adequados aplicados.
-* **Segurança** - todos os utilizadores que consomem um relatório publicado ligam à origem de dados de back-end com as credenciais introduzidas após a publicação no serviço Power BI. Esta é a mesma situação que os dados que são importados: todos os utilizadores veem os mesmos dados, independentemente de quaisquer regras de segurança definidas na origem de back-end. Os clientes que pretendem segurança por utilizador implementada com origens do DirectQuery devem utilizar o RLS. [Saiba mais sobre o RLS](service-admin-rls.md).
+* **Segurança** – por predefinição, todos os utilizadores que consomem um relatório publicado ligam à origem de dados de back-end com as credenciais introduzidas após a publicação no serviço Power BI. Esta é a mesma situação que os dados que são importados: todos os utilizadores veem os mesmos dados, independentemente de quaisquer regras de segurança definidas na origem de back-end. Os clientes que pretendam uma segurança por utilizador implementada com origens do DirectQuery deverão utilizar RLS para configurar a autenticação restrita do Kerberos relativamente à origem. O Kerberos não está disponível para todas as origens. [Saiba mais sobre o RLS](service-admin-rls.md). [Saiba mais sobre o Kerberos no DirectQuery](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
 * **Funcionalidades suportadas** - nem todas as funcionalidades no **Power BI Desktop** são suportadas no modo **DirectQuery** ou têm algumas limitações. Além disso, existem algumas capacidades no serviço Power BI (como as *Informações Rápidas*) que não estão disponíveis para conjuntos de dados com o **DirectQuery**. Como tal, a limitação de funcionalidades ao utilizar o **DirectQuery** deve ser considerada ao determinar se deve utilizar o **DirectQuery**.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Publicar no serviço Power BI
@@ -88,7 +87,7 @@ O Power BI apresenta a janela **Definições**. A partir daí, selecione o separ
 
 Até que as credenciais sejam fornecidas, abrir um relatório publicado ou explorar um conjunto de dados criado com uma ligação do **DirectQuery** a essas origens de dados irá originar um erro.
 
-Para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, deve ser instalado um **Gateway de dados no local** e a origem de dados deve ser registada para ligar aos dados. Pode [saber mais sobre o Gateway de dados no local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
+Para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, deve ser instalado um **Gateway de dados no local** e a origem de dados deve ser registada para ligar aos dados. Pode [saber mais sobre o Gateway de dados no local](https://go.microsoft.com/fwlink/p/?LinkID=627094).
 
 ## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre o **DirectQuery**, veja os seguintes recursos:

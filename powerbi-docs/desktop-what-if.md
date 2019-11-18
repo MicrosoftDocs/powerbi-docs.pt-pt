@@ -2,7 +2,6 @@
 title: Utilizar parâmetros "E se" para visualizar variáveis
 description: Crie a sua própria variável "E se" para imaginar e visualizar variáveis no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513491"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876056"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Criar e utilizar um parâmetro "E se" para visualizar variáveis no Power BI Desktop
 A partir da versão de agosto de 2018 do **Power BI Desktop**, pode criar variáveis **E se** para os seus relatórios, interagir com a variável como uma segmentação de dados, visualizar e quantificar diferentes valores-chave nos seus relatórios.
@@ -50,7 +49,7 @@ Vamos criar um exemplo simples de utilização de um parâmetro **E se**. Criám
 
 ![](media/desktop-what-if/what-if_05.png)
 
-A nova medida vai ser simplesmente o valor total de vendas, com a taxa de desconto aplicada. Pode criar medidas complexas e interessantes, obviamente, que permitem aos consumidores dos relatórios visualizar a variável do parâmetro **E se**. Por exemplo, pode criar um relatório que permite que os vendedores ver a que respetiva compensação se cumprir determinados objetivos de vendas ou percentagens, ou ver o efeito de aumento de vendas em descontos.
+A nova medida vai ser simplesmente o valor total de vendas, com a taxa de desconto aplicada. Pode criar medidas complexas e interessantes, obviamente, que permitem aos consumidores dos relatórios visualizar a variável do parâmetro **E se**. Por exemplo, pode criar um relatório que permita aos vendedores ver a respetiva compensação se cumprirem determinados objetivos ou percentagens de vendas, bem como ver o impacto do aumento de vendas em descontos maiores.
 
 Depois de introduzirmos a fórmula da medida na barra de fórmulas e dar-lhe o nome **Vendas após Desconto**, vemos o respetivo resultado:
 

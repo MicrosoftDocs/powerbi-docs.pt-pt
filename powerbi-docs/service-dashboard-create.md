@@ -2,7 +2,6 @@
 title: Criar um dashboard do Power BI a partir de um relatório
 description: Criar um dashboard do Power BI a partir de um relatório
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543510"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853414"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI a partir de um relatório
 Leu a [Introdução aos dashboards no Power BI](service-dashboards.md) e, agora, quer criar o seu. Existem várias formas diferentes de criar um dashboard. Por exemplo, pode criar um dashboard a partir de um relatório, de raiz, de um conjunto de dados ou ao duplicar um dashboard existente.  
@@ -44,11 +43,11 @@ Veja a Amanda a criar um novo dashboard ao afixar visualizações de um relatór
 ## <a name="import-a-dataset-with-a-report"></a>Importar um conjunto de dados com um relatório
 Nestas instruções passo a passo, vamos importar um dos conjuntos de dados de exemplo do Power BI e utilizá-lo para criar o nosso novo dashboard. O exemplo que utilizamos é um livro do Excel com duas folhas do PowerView. Quando o Power BI importar o livro, adiciona um conjunto de dados e um relatório à sua área de trabalho. O relatório é automaticamente criado a partir das folhas do PowerView.
 
-1. Transfira o ficheiro Excel [Exemplo de Análise de Aprovisionamento](http://go.microsoft.com/fwlink/?LinkId=529784). Recomendamos que o guarde no seu OneDrive para Empresas.
+1. Transfira o ficheiro Excel [Exemplo de Análise de Aprovisionamento](https://go.microsoft.com/fwlink/?LinkId=529784). Recomendamos que o guarde no seu OneDrive para Empresas.
 2. Abra o serviço Power BI no browser (app.powerbi.com).
-3. No painel de navegação à esquerda, selecione **A Minha Área de Trabalho** e, em seguida, **Obter Dados**.
+3. No painel de navegação, selecione **A Minha Área de Trabalho** e, em seguida, **Obter Dados**.
 
-    ![Painel de navegação à esquerda](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![painel de navegação](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. Em **Ficheiros**, selecione **Obter**.
 
    ![Obter ficheiros](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ Nestas instruções passo a passo, vamos importar um dos conjuntos de dados de e
    ![Mensagem de êxito](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> Sabia que? Pode diminuir a barra de navegação esquerda ao selecionar o ícone com três linhas na parte superior ![Mostrar ou ocultar ícone do painel de navegação](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png), o que lhe permite ter mais espaço para o relatório propriamente dito.
+> Sabia que? Pode diminuir o painel de navegação ao selecionar o ícone com três linhas na parte superior ![Mostrar ou ocultar ícone do painel de navegação](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png), o que lhe permite ter mais espaço para o relatório propriamente dito.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abrir o relatório e afixar mosaicos no dashboard
 1. Na mesma área de trabalho, selecione o separador **Relatórios** e, em seguida, selecione **Exemplo de Análise de Aprovisionamento** para abrir o relatório.
@@ -118,4 +117,4 @@ Parabéns pela criação do seu primeiro dashboard! Agora que tem um dashboard, 
 * [Power BI - Conceitos Básicos](service-basic-concepts.md)
 * [Sugestões para criar um excelente dashboard](service-dashboards-design-tips.md)
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).

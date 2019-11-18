@@ -3,25 +3,24 @@ title: Resolver problemas de gateways – Power BI
 description: Este artigo fornece formas de resolver problemas do gateway de dados no local e do Power BI. Fornece possíveis soluções para problemas conhecidos, bem como as ferramentas para ajudá-lo.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543834"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881561"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Este artigo aborda alguns problemas comuns ao utilizar o gateway de dados no local com o Power BI. Caso se depare com um problema que não está indicado aqui, pode utilizar o site da [Comunidade](http://community.powerbi.com) do Power BI. Em alternativa, pode criar um [pedido de suporte](http://powerbi.microsoft.com/support).
+Este artigo aborda alguns problemas comuns ao utilizar o gateway de dados no local com o Power BI. Caso se depare com um problema que não está indicado aqui, pode utilizar o site da [Comunidade](https://community.powerbi.com) do Power BI. Em alternativa, pode criar um [pedido de suporte](https://powerbi.microsoft.com/support).
 
 ## <a name="configuration"></a>Configuração
 
@@ -241,7 +240,7 @@ Para obter mais informações sobre a resolução de problemas de cenários de a
 
 ## <a name="fiddler-trace"></a>Rastreio do Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP. Pode ver as comunicações com o serviço Power BI a partir do computador de cliente. Esta lista de tráfego pode mostrar erros e outras informações relacionadas.
+[Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP. Pode ver as comunicações com o serviço Power BI a partir do computador de cliente. Esta lista de tráfego pode mostrar erros e outras informações relacionadas.
 
 ![Utilizar o rastreio do Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ Para obter mais informações sobre a resolução de problemas de cenários de a
 * [Gerir a sua origem de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Gerir a origem de dados – atualização importada/agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).

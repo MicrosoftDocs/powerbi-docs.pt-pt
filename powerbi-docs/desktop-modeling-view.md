@@ -1,8 +1,7 @@
 ---
-title: Utilize a vista de modelação no Power BI Desktop
+title: Utilizar a vista de modelação no Power BI Desktop
 description: Utilizar a Vista de modelação para ver conjuntos de dados complexos num formato visual no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6869430e3fece78210d538c9886234c7728b667a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941357"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866530"
 ---
 # <a name="modeling-view-in-power-bi-desktop"></a>Vista de modelação no Power BI Desktop
 

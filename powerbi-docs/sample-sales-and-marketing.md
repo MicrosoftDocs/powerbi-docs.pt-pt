@@ -2,7 +2,6 @@
 title: 'Exemplo de Vendas e Marketing do Power BI: veja uma apresentação'
 description: 'Exemplo de Vendas e Marketing do Power BI: veja uma apresentação'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391411"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873820"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de Vendas e Marketing do Power BI: veja uma apresentação
 
@@ -56,11 +55,11 @@ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de c
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de Vendas e Marketing como um [ficheiro .pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), que foi concebido para utilização com o Power BI Desktop.
+Em alternativa, pode transferir o exemplo de Vendas e Marketing como um [ficheiro .pbix](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), que foi concebido para utilização com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529785). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529785). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que nos diz o nosso dashboard?
 Vamos começar o nosso tour no dashboard e examinar os mosaicos que o CMO decidiu afixar. Podemos ver informações sobre a nossa participação no mercado, vendas e sensibilidade. Os dados estão divididos por região, hora e concorrência.
@@ -82,7 +81,7 @@ Ao utilizar as Perguntas e Respostas, pode descobrir detalhes adicionais nos dad
 
    ![Pergunta nas Perguntas e Respostas: Total units por segment para VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. A nossa quota nas categorias **Moderation** (Moderação) e **Convenience** (Conveniência) é alta; é nestes segmentos que podemos concorrer.
-4. Volte ao dashboard ao selecionar o **Exemplo de Vendas e Marketing** na barra de navegação superior.
+4. Volte ao dashboard ao selecionar o **Exemplo de Vendas e Marketing** no painel de navegação superior.
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Com o que se aparece a participação de mercado total para a categoria (versus região)?
 1. Observe o mosaico **Total Units YTD by Manufacturer, Region** (Total de Unidades Ano Até à Data por Fabricante, Região). Qual é o total da quota de mercado em unidades por categoria?

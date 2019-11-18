@@ -2,7 +2,6 @@
 title: Ligue-se ao Office365Mon com o Power BI
 description: Office365Mon para o Power BI
 author: teddybercovitz
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060833"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854726"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Ligue-se ao Office365Mon com o Power BI
 Com o Power BI e a aplicação de modelo Office365Mon, é fácil analisar os seus dados de desempenho de estado de funcionamento e falhas do Office 365. O Power BI recupera os seus dados, incluindo investigações de integridade e interrupções e, em seguida, compila um dashboard e relatórios prontos para uso com base nesses dados.
@@ -26,7 +25,7 @@ Ligue-se à [aplicação de modelo Office365Mon](https://app.powerbi.com/groups/
 >É necessária uma conta de administrador do Office365Mon para ligar e carregar a aplicação de modelo do Power BI.
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
+1. Selecione **Obter Dados** na parte inferior do painel de navegação.
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
 2. Na caixa **Serviços**, selecione **Obter**.
@@ -42,7 +41,7 @@ Ligue-se à [aplicação de modelo Office365Mon](https://app.powerbi.com/groups/
    ![](media/service-connect-to-office365mon/creds.png)
    
    ![](media/service-connect-to-office365mon/creds2.png)
-5. Após o Power BI importar os dados, verá novos elementos (dashboard, relatório e conjunto de dados) no painel de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \*; selecione a entrada do Office365Mon.
+5. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação. Os novos itens são marcados com um asterisco amarelo \*; selecione a entrada do Office365Mon.
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 

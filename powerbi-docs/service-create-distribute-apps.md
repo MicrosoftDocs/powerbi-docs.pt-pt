@@ -2,19 +2,18 @@
 title: Publicar uma aplicação no Power BI
 description: Saiba como pode publicar novas aplicações, que são coleções de dashboards e relatórios com uma navegação incorporada.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020217"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853649"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicar uma aplicação no Power BI
 
@@ -115,7 +114,7 @@ Pode personalizar ainda mais a navegação da aplicação ao:
 * Mudar o nome dos itens nos **Detalhes do relatório**, nos **Detalhes do dashboard** e nos **Detalhes do livro**.
 * Ocultar determinados itens da navegação.
 * Utilizar a opção **Novo** para adicionar **secções** a conteúdos relacionados com grupos.
-* Utilizar a opção **Novo** para adicionar uma **ligação** a um recurso externo ao painel de navegação esquerdo. 
+* Utilizar a opção **Novo** para adicionar uma **ligação** a um recurso externo ao painel de navegação. 
 
 Ao adicionar uma **ligação**, em **Detalhes da ligação** pode selecionar o local onde a ligação será aberta. Por predefinição, as ligações são abertas no **Separador atual**, mas pode selecionar as opções **Novo separador** ou **Área de conteúdo**. 
 
@@ -187,7 +186,7 @@ Esta ação desinstala a aplicação de todas as pessoas para as quais a publico
 
 ## <a name="view-your-published-app"></a>Ver a aplicação publicada
 
-Quando os consumidores da sua aplicação abrirem a mesma, verão o painel de navegação que criou em vez do painel de navegação esquerdo padrão do Power BI. As listas de navegação da aplicação apresentam os relatórios e dashboards nas secções que definiu. Também apresentam as páginas individuais em cada relatório em vez de apenas mostrarem o nome do relatório.
+Quando os consumidores da sua aplicação abrirem a mesma, verão o painel de navegação que criou em vez do painel de navegação padrão do Power BI. As listas de navegação da aplicação apresentam os relatórios e dashboards nas secções que definiu. Também apresentam as páginas individuais em cada relatório em vez de apenas mostrarem o nome do relatório.
 
 ![Aplicação com navegação](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Elementos a ter em conta sobre a publicação de aplicações:
 * [Instalar e utilizar aplicações no Power BI](consumer/end-user-apps.md)
 * [Aplicações do Power BI para serviços externos](service-connect-to-services.md)
 * [Portal de Administração do Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

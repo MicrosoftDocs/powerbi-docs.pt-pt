@@ -2,7 +2,6 @@
 title: Ligar-se ao Salesforce com o Power BI
 description: Salesforce para o Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060823"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854630"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Ligar-se ao Salesforce com o Power BI
 Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. Com esta ligação, pode obter os seus dados do Salesforce, bem como receber automaticamente um dashboard e relatórios.
@@ -23,7 +22,7 @@ Com o Power BI, pode ligar-se facilmente à sua conta do Salesforce.com. Com est
 Leia mais sobre a [Integração do Salesforce](https://powerbi.microsoft.com/integrations/salesforce) no Power BI.
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. No Power BI, selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
+1. No Power BI, selecione **Obter Dados** na parte inferior do painel de navegação.
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. Na caixa **Serviços**, selecione **Obter**.
@@ -53,7 +52,7 @@ Leia mais sobre a [Integração do Salesforce](https://powerbi.microsoft.com/int
      
      Se não vir quaisquer relatórios, adicione ou crie-os em sua conta do Salesforce e tente ligar-se novamente.
 
-7. Clique em **Ligar** para iniciar o processo de importação. Durante a importação, verá uma notificação a indicar que a importação está em curso. Quando a importação for concluída, verá um dashboard, um relatório e um conjunto de dados para os seus dados do Salesforce listados no painel de navegação esquerdo.
+7. Clique em **Ligar** para iniciar o processo de importação. Durante a importação, verá uma notificação a indicar que a importação está em curso. Quando a importação for concluída, verá um dashboard, um relatório e um conjunto de dados para os seus dados do Salesforce listados no painel de navegação.
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

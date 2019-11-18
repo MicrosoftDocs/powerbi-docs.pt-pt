@@ -2,7 +2,6 @@
 title: Trabalhar com visualizações (elementos visuais) como um consumidor
 description: Conceitos e terminologia do Power BI – visualizações, elementos visuais. O que é uma visualização, um elemento visual do Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860968"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com elementos visuais em relatórios, dashboards e aplicações
 
@@ -52,7 +51,7 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 |[Pedir ao Power BI para procurar factos interessantes ou tendências](end-user-insights.md) nos dados do elemento visual.  Estes elementos visuais gerados automaticamente chamam-se *informações*.     |    sim     |  para todo o relatório, não por elemento visual       | não   |
 |[Ver apenas um elemento visual de cada vez, através do *modo* de detalhe](end-user-focus.md).     | sim        |   sim      | na  |
 |[Ver quando é que o elemento visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | na  |
-|[Ver apenas um elemento visual de cada vez, sem limites ou barras de navegação, através do modo de *ecrã inteiro* ou do modo de *detalhe*](end-user-focus.md).     |   sim      |  sim       | por predefinição  |
+|[Ver apenas um elemento visual de cada vez, sem limites ou painéis de navegação, através do modo de *ecrã inteiro* ou do modo de *detalhe*](end-user-focus.md).     |   sim      |  sim       | por predefinição  |
 |[Imprima](end-user-print.md).     |  sim       |   sim      | não  |
 |[Examinar o elemento visual ao adicionar e modificar os filtros.](end-user-report-filter.md)     |    não     |   sim      | não  |
 |Passar o cursor sobre um elemento visual para revelar outros detalhes e sugestões de ferramentas.     |    sim     |   sim      | sim  |

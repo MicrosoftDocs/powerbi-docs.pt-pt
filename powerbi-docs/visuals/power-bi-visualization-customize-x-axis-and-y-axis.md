@@ -1,79 +1,83 @@
 ---
-title: Personalizar as propriedades dos Eixos X e Y
-description: Personalizar as propriedades dos Eixos X e Y
+title: Personalizar as propriedades dos eixos X e Y
+description: Personalizar as propriedades dos eixos X e Y
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3bfe84acdf73fcb5ace791c9a84943262d0f73ab
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389990"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880932"
 ---
-# <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos Eixos X e Y
+# <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos X e Y
 
-Neste tutorial, vai aprender várias formas diferentes de personalizar os Eixos X e Y dos elementos visuais. Nem todos os elementos visuais têm eixos. Por exemplo, os gráficos circulares não têm eixos. Por sua vez, as opções de personalização variam conforme o elemento visual. Existem demasiadas opções para abordar num único artigo, por isso, pode ver algumas das personalizações de eixos mais utilizadas e familiarizar-se com a utilização do painel **Formatação** do elemento visual na tela do relatório do Power BI.  
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+Neste tutorial, vai aprender várias formas diferentes de personalizar os eixos X e Y dos elementos visuais. Nem todos os elementos visuais têm eixos. Por exemplo, os gráficos circulares não têm eixos. Por sua vez, as opções de personalização variam conforme o elemento visual. Existem demasiadas opções para abordar num único artigo, por isso, vamos ver algumas das personalizações mais utilizadas e familiarizarmo-nos com a utilização do painel **Formatação** do elemento visual na tela do relatório do Power BI.  
+
+Veja a Amália a personalizar os eixos X e Y. Vai também demonstrar as diferentes formas de controlar a concatenação ao utilizar a desagregação e a agregação.
 
 > [!NOTE]
-> Esta página aplica-se tanto ao serviço Power BI como ao Power BI Desktop. Estas personalizações, que ficam disponíveis quando o ícone **Formatação** (o ícone de rolo de pintura ![Captura de ecrã do ícone de rolo de pintura](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) é selecionado, também estão disponíveis no Power BI Desktop.
-
-Veja a Amália a personalizar os Eixos X e Y. Vai demonstrar as diferentes formas de controlar a concatenação ao utilizar a desagregação e a agregação.
+> Este vídeo utiliza uma versão mais antiga do Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9DeAKM4SNJM" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-- O serviço Power BI
+- Power BI Desktop
 
-- Relatório de Exemplo de Análise de Revenda
+- [Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-## <a name="customize-visualization-x--and-y-axes-in-reports"></a>Personalizar os Eixos X e Y de visualização nos relatórios
 
-Para acompanhar, inicie sessão no [serviço Power BI](https://app.powerbi.com) e abra o relatório [Exemplo de Análise de Revenda](../sample-datasets.md) na vista [Editar relatório](../service-interact-with-a-report-in-editing-view.md).
-
-### <a name="create-a-stacked-column-chart-visualization"></a>Criar uma visualização de gráficos de colunas empilhadas
+## <a name="add-a-new-visualization"></a>Adicionar uma nova visualização
 
 Antes de personalizar a visualização, tem de a compilar.
 
-1. No serviço Power BI, expanda **A Minha Área de Trabalho**.
+1. No Power BI Desktop, abra o exemplo de Análise de Revenda.  
 
-1. Desloque-se para baixo e selecione **Exemplo de Análise de Revenda** na lista de **Conjuntos de dados**.
+2. Na parte inferior, selecione o ícone de mais amarelo para adicionar uma nova página. 
 
-1. No painel **Visualizações**, selecione o ícone do gráfico de colunas empilhadas.
+    ![sinal de mais amarelo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-new-page-icon.png)
 
-    ![Captura de ecrã do painel Visualizações e um gráfico de colunas empilhadas vazio](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stacked-column-chart.png)
+1. No painel **Visualizações**, selecione o ícone do gráfico de colunas empilhadas. Isto adiciona um modelo vazio à tela de relatório.
 
-1. Para definir os valores do Eixo X, no painel **Campos**, selecione **Altura** > **MêsFiscal**.
+    ![Captura de ecrã do painel Visualizações e um gráfico de colunas empilhadas vazio](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-column-chart.png)
 
-1. Para definir os valores do Eixo Y, no painel **Campos**, selecione **Vendas** > **Vendas do Ano Passo** e **Vendas** > **Vendas Deste Ano** > **Valor**.
+1. Para definir os valores do eixo X, no painel **Campos**, selecione **Altura** > **MêsFiscal**.
 
-    ![Captura de ecrã do gráfico de colunas empilhadas preenchido.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-create-chart.png)
+1. Para definir os valores do eixo Y, no painel **Campos**, selecione **Vendas** > **Vendas do Ano Passado** e **Vendas** > **Vendas deste Ano** > **Valor**.
 
-### <a name="customize-the-x-axis"></a>Personalizar o Eixo X
+    ![Captura de ecrã do gráfico de colunas empilhadas preenchido.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-build-visual.png)
 
-Agora, pode personalizar o Eixo X.
+    Agora, pode personalizar o eixo X. O Power BI fornece opções quase ilimitadas para formatar a sua visualização. 
 
-1. No painel **Visualizações**, selecione **Formatação** (ícone de rolo de pintura![Captura de ecrã do ícone de rolo de pintura](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) para revelar as opções de personalização.
+## <a name="customize-the-x-axis"></a>Personalizar o eixo X
+Existem muitos recursos personalizáveis para o eixo X. Pode adicionar e modificar as etiquetas de dados e o título do eixo X. Em categorias, pode modificar a largura, o tamanho e o preenchimento de barras, colunas, linhas e áreas. E em valores, pode modificar as unidades, as casas decimais e as linhas de grelha apresentadas. O exemplo seguinte mostra a personalização de um gráfico de colunas. Vamos adicionar algumas personalizações para que saiba as opções. Depois, pode explorar o resto por sua conta.
 
-1. Expanda as opções do eixo X.
+### <a name="customize-the-x-axis-labels"></a>Personalizar as etiquetas do eixo X
+As etiquetas do eixo X são mostradas abaixo das colunas no gráfico. Neste momento, estão a cinzento claro, são pequenas e difíceis de ler. Vamos mudá-las.
 
-   ![Captura de ecrã das opções do eixo X.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-axis.png)
+1. No painel **Visualizações**, selecione **Formatação** (ícone de rolo de pintura![Captura de ecrã do ícone de rolo de pintura.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png) ) para mostrar as opções de personalização.
 
-1. Mova o controlo de deslize do **Eixo X** para **Ativo**.
+2. Expanda as opções do eixo X.
 
-    ![Captura de ecrã do controlo de deslize Ativo.](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
+   ![Captura de ecrã das opções do eixo X.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-x.png)
 
-    Uma razão para querer desativar o Eixo X é poupar espaço para obter mais dados.
+3. Mova o controlo de deslize do **eixo X** para **Ativo**.
 
-1. Formate a cor, o tamanho e o tipo de letra do texto:
+    ![Captura de ecrã do controlo de deslize Ativo.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+
+    Alguns motivos pelos quais pode querer definir o eixo X como **Desativado** são, por exemplo, se a visualização for evidente e não precisar de etiquetas ou se tiver uma página de relatório muito preenchida e precisar de criar espaço para mostrar mais dados.
+
+4. Formate a cor, o tamanho e o tipo de letra do texto:
 
     - **Cor**: selecione preto
 
@@ -81,137 +85,147 @@ Agora, pode personalizar o Eixo X.
 
     - **Família de tipos de letra**: selecione **Arial Black**
 
-1. Deslize a opção **Título** para **Ativo** para apresentar o nome do Eixo X. Neste caso, é **MêsFiscal**.
+    - **Área interna**: Introduzir *40%*
+
+        ![Captura de ecrã com etiquetas num ângulo](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
+    
+5. Talvez não goste da forma como o texto do eixo x aparece na diagonal. Tem várias opções. 
+    - Altere o tamanho do texto para menor do que 14.
+    - Aumente a visualização. 
+    - Mostre menos colunas e adicione uma barra de deslocamento aumentando a **Largura mínima da categoria**. 
+    
+    Aqui, selecionámos a segunda opção e pegámos numa das barras de redimensionamento para tornar a visualização mais larga. Agora, tem espaço para texto de tamanho 14 sem ser preciso apresentar o texto num ângulo ou com uma barra de deslocamento. 
+
+   ![Painel de formatação e gráfico com as etiquetas na horizontal](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stretch.png)
+
+### <a name="customize-the-x-axis-title"></a>Personalizar o título do eixo X
+Quando o título do eixo X é **Em**, o título do eixo X é apresentado abaixo das etiquetas do eixo X. 
+
+1. Comece por mudar o título do eixo X para **Em**.  
+
+    ![Controlo de deslize do título](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-title-on.png)
+
+    A primeira coisa que verá é que a sua visualização tem agora um título predefinido do eixo X.  Neste caso, é **MêsFiscal**.
+
+   ![Gráfico com o título mostrado na parte inferior](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title.png)
 
 1. Formate a cor, o tamanho e o tipo de letra do texto do título:
 
     - **Cor do título**: selecione cor de laranja
 
-    - **Título do eixo**: introduza *Mês Fiscal*
+    - **Título do eixo**: Escreva *Mês Fiscal* (com espaço)
 
-    - **Tamanho do texto do título**: introduza *21*
+    - **Tamanho do texto do título**: Introduza *18*
 
-Depois de concluir as personalizações, o gráfico de colunas empilhadas vai ter o seguinte aspeto:
+    Depois de concluir as personalizações, o gráfico de colunas empilhadas tem o seguinte aspeto:
 
-![Captura de ecrã do gráfico de colunas empilhadas personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-customize-axis.png)
+    ![Captura de ecrã do gráfico de colunas empilhadas personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title-formatted.png)
 
-Guarde as alterações realizadas e avance para a secção seguinte.
+1. Guarde as alterações realizadas e avance para a secção seguinte. Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Eixo X**. Em seguida, vai personalizar o Eixo Y.
 
-Se precisar de reverter todas as alterações, selecione **Reverter para predefinição**, na parte inferior do painel de personalização **Eixo X**.
+## <a name="customize-the-y-axis"></a>Personalizar o eixo Y
+Existem muitas funcionalidades que podem ser personalizadas no eixo Y. Pode adicionar e modificar as etiquetas de dados, o título do eixo Y e as linhas de grelha. Em valores, pode modificar as unidades apresentadas, as casas decimais, o ponto de partida e o ponto final. E em categorias, pode modificar a largura, o tamanho e o preenchimento de barras, colunas, linhas e áreas. 
 
-### <a name="customize-the-y-axis"></a>Personalizar o Eixo Y
+O seguinte exemplo continua a nossa personalização de um gráfico de colunas. Vamos fazer algumas alterações para que fique a par das opções. Depois, pode explorar o resto por sua conta.
 
-Em seguida, vai personalizar o Eixo Y.
+### <a name="customize-the-y-axis-labels"></a>Personalizar as etiquetas do eixo Y
+As etiquetas do eixo Y são apresentadas à esquerda por predefinição. Neste momento, estão a cinzento claro, são pequenas e difíceis de ler. Vamos mudá-las.
 
 1. Expanda as opções do eixo Y.
 
-   ![Captura de ecrã das opções do eixo Y.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis.png)
+   ![Captura de ecrã das opções do eixo Y.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-y.png)
 
 1. Mova o controlo de deslize do **Eixo Y** para **Ativo**.  
 
-    ![Captura de ecrã do controlo de deslize Ativo.](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
+    ![Captura de ecrã do controlo de deslize Ativo.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
-    Uma razão para querer desativar o Eixo Y é poupar espaço para obter mais dados.
-
-1. Defina a **Posição** do Eixo Y para **Direita**.
+    Uma razão para querer desativar o eixo Y é poupar espaço para obter mais dados.
 
 1. Formate a cor, o tamanho e o tipo de letra do texto:
 
     - **Cor**: selecione preto
 
-    - **Tamanho do texto**: introduza *14*
+    - **Tamanho do texto**: Introduza *10*
 
-    - **Família de tipos de letra**: selecione **Arial Black**
+    - **Mostrar unidades**: selecione **Milhões**
 
-1. Defina **Apresentar unidades** como **Milhões** e **Casas decimais de valor** como *0*.
+    ![Gráfico após a formatação do eixo Y](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
-1. Nesta visualização, ter um título do Eixo Y não melhora o elemento visual, por isso, deixe a opção **Título** **Desativada**.  
+### <a name="customize-the-y-axis-title"></a>Personalizar o título do eixo Y
+Quando o título do eixo Y é **Em**, o título do eixo Y é apresentado ao lado das etiquetas do eixo Y. Nesta visualização, ter um título do Eixo Y não melhora o elemento visual, por isso, deixe a opção **Título** **Desativada**. Vamos adicionar os títulos do eixo Y a um elemento visual de eixo duplo mais adiante neste tutorial. 
 
-1. Vamos destacar as linhas de grelha ao alterar a cor e ao aumentar o traço:
+### <a name="customize-the-gridlines"></a>Personalizar as linhas de grelha
+Vamos destacar as linhas de grelha ao alterar a cor e ao aumentar o traço:
 
-    - **Cor**: selecione cinzento-escuro
+- **Cor**: selecione cor de laranja
 
-    - **Traço**: introduza *2*
+- **Traço**: introduza *2*
 
 Depois de todas estas personalizações, o gráfico de colunas deve ser assim:
 
-![Captura de ecrã do gráfico com o Eixo Y personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-complete.png)
+![Captura de ecrã do gráfico com o Eixo Y personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-gridline.png)
 
-## <a name="customizing-visualizations-with-dual-y-axes"></a>Personalizar as visualizações com Eixo Y duplo
+## <a name="customizing-visualizations-with-dual-y-axes"></a>Personalizar as visualizações com eixo Y duplo
 
-Em primeiro lugar, vai criar um gráfico de combinação que examina o impacto da contagem da loja nas vendas. Este é o mesmo gráfico criado no [Tutorial do gráfico de combinação](power-bi-visualization-combo-chart.md). Em seguida, vai formatar o Eixo Y duplo.
+Algumas visualizações podem tirar partido de ter dois eixos Y. Os gráficos de combinação são um bom exemplo. Antes de podermos formatar eixos Y duplos, vamos criar um gráfico de combinação que compara tendências de vendas e margem bruta.  
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Criar um gráfico com dois Eixos Y
 
-1. Crie um novo gráfico de linhas que acompanhe **Vendas > % de Margem Bruta do ano passado** por **Tempo > MêsFiscal**.
+1. Selecione o gráfico de colunas e mude-o para gráfico de *Linhas e colunas empilhadas*. 
 
-    ![Captura de ecrã do novo gráfico de linhas.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
+    ![Captura de ecrã do painel Visualizações, com o ícone de gráfico de linhas e colunas empilhadas destacado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
+   
 
-    > [!NOTE]
-    > Para obter ajuda a ordenar por mês, veja [Ordenar através de outros critérios](../consumer/end-user-change-sort.md#other).
+2. Arraste **Vendas** >  **% da Margem Bruta do Ano Passado** do painel de Campos para o registo **Valores de Linhas**.
 
-    Em janeiro, a percentagem da Margem Bruta era de 35%, atingiu o pico em abril aos 45%, tendo caído em julho e chegado ao novamente ao pico em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
+    ![Captura de ecrã do gráfico de linhas e colunas empilhadas com todos os três valores claramente representados.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-add-line.png)
 
-1. Adicione **Vendas Deste Ano > Valor** e **Vendas do Ano Passado** ao gráfico de linhas.
+    
+3. Reformate a visualização para remover as etiquetas do eixo X em ângulo. 
 
-    ![Captura de ecrã do gráfico de linhas com os novos dados adicionados.](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+   ![Gráfico de combinação e painel Formatação com o tamanho do tipo de letra reduzido a 12](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-    A escala da **% de Margem Bruta do Ano Passado** (a linha azul ao longo da linha de grelha **0M%** ) é muito menor do que a escala de **Vendas**, o que dificulta a comparação. As percentagens das etiquetas do eixo Y são ridículas.
+   O Power BI cria dois eixos Y que permitem que os valores sejam dimensionados de modo diferente. O eixo à esquerda avalia os dólares e o eixo à direita avalia a percentagem.
 
-1. Para facilitar a leitura e a interpretação do elemento visual, converta o gráfico de linhas num Gráfico de linhas e colunas empilhadas.
-
-   ![Captura de ecrã do painel Visualizações, com o ícone de gráfico de linhas e colunas empilhadas destacado.](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
-
-1. Arraste **% de Margem Bruta no Ano Passado** de **Valores de Coluna** para **Valores de Linha**.
-
-    ![Captura de ecrã do gráfico de linhas e colunas empilhadas com todos os três valores claramente representados.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
-
-    Agora, tem o gráfico de colunas empilhadas que criou na primeira secção com um gráfico de linhas sobreposto a este. Opcionalmente, aplique o que aprendeu acima para formatar a cor e o tamanho do tipo de letra dos eixos.
-
-   ![Captura de ecrã do gráfico de linhas e colunas empilhadas personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
-
-   O Power BI cria dois Eixos Y que permitem que os conjuntos de dados sejam dimensionados de modo diferente. O eixo à esquerda avalia os dólares e o eixo à direita avalia a percentagem.
-
-### <a name="format-the-secondary-y-axis"></a>Formatar o Eixo Y secundário
+### <a name="format-the-second-y-axis"></a>Formatar o segundo Eixo Y
+Uma vez que começámos com uma visualização com um eixo Y formatado, o Power BI criou o segundo eixo Y com as mesmas definições. Mas podemos mudar isso. 
 
 1. No painel **Visualizações**, selecione o ícone de rolo de pintura para apresentar as opções de formatação.
 
 1. Expanda as opções do eixo Y.
 
-1. Desloque-se para baixo até encontrar a opção **Mostrar secundário**. Verifique se está **Ativo**.
+1. Desloque-se para baixo até encontrar a opção **Mostrar secundário**. Verifique se está **Ativo**. O nosso eixo Y secundário representa o gráfico de linhas.
 
-   ![Captura de ecrã da opção Mostrar secundário.](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
+   ![Captura de ecrã da opção Mostrar secundário.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-secondary.png)
 
-1. (Opcional) Personalize os dois eixos. Se mudar a **posição** para o eixo de coluna ou o eixo de linha, os dois eixos mudam de lado.
+1. (Opcional) Personalize o tamanho e a cor do tipo de letra e mostre as unidades para ambos os eixos. Se mudar a **posição** para o eixo de coluna ou o eixo de linha, os dois eixos mudam de lado.
 
 ### <a name="add-titles-to-both-axes"></a>Adicionar títulos aos dois eixos
 
-Com uma visualização tão complicada, convém adicionar títulos aos eixos.  Os títulos ajudam os seus colegas a perceberem a história que a visualização mostra.
+Com uma visualização complexa, convém adicionar títulos aos eixos.  Os títulos ajudam os seus colegas a compreender a história que a sua visualização mostra.
 
 1. Coloque **Título** como **Ativado** para **Eixo Y (Coluna)** e **Eixo Y (Linha)** .
 
 1. Defina o **Estilo** como **Mostrar apenas o título** para ambos.
 
-   ![Captura de ecrã das opções Título e Estilo.](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![Captura de ecrã das opções Título e Estilo.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-title.png)
 
 1. O gráfico de combinação apresenta agora os eixos duplos, ambos com títulos.
 
-   ![Captura de ecrã do gráfico do Eixo Y duplo personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)
+   ![Captura de ecrã do gráfico do Eixo Y duplo personalizado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-titles-on.png)
 
-Para obter mais informações, veja [Sugestões e truques de formatação de cores no Power BI](service-tips-and-tricks-for-color-formatting.md).
+1. Formate os títulos. Neste exemplo, abreviámos um dos títulos e reduzimos o tamanho do tipo de letra em ambos os casos. 
+    - Tamanho do tipo de letra: **9**
+    - Abreviámos o **Título do eixo** no primeiro eixo Y (o gráfico de colunas): Vendas deste ano e do ano passado
 
-## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+    ![Captura de ecrã do gráfico de combinação com os títulos completos apresentados.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-Se o Eixo X for categorizado pelo proprietário do relatório como um tipo de data, a opção **Tipo** será apresentada e poderá selecionar entre contínuo ou categórico.
+
+
+Para mais informações, consulte [Dicas e truques para formatação com cores no Power BI](service-tips-and-tricks-for-color-formatting.md) e [Personalizar títulos, legendas e fundos de visualização](power-bi-visualization-customize-title-background-and-legend.md). Esteja também atento a novas atualizações para formatação de títulos em breve. 
 
 ## <a name="next-steps"></a>Próximos passos
 
 - [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
 
-- [Personalizar os títulos, as legendas e os fundos das visualizações](power-bi-visualization-customize-title-background-and-legend.md)
-
-- [Getting started with color formatting and axis properties](service-getting-started-with-color-formatting-and-axis-properties.md) (Introdução às propriedades de eixo e formatação de cor)
-
-- [Conceitos básicos para os consumidores do serviço Power BI](../consumer/end-user-basic-concepts.md)
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -3,18 +3,17 @@ title: Utilize segurança de nível de linha com conteúdo incorporado do Power 
 description: Saiba mais sobre os passos que precisa de tomar para incorporar conteúdo do Power BI na sua aplicação.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073357"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875824"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Segurança ao nível da linha com o Power BI Embedded
 
@@ -33,7 +32,7 @@ Para tirar partido da RLS, é importante compreender três conceitos principais:
 **Funções** – utilizadores que pertencem a funções. Uma função é um contentor para regras e pode ter um nome semelhante ao seguinte *Gestor de Vendas* ou *Representante de Vendas*. O utilizador cria funções dentro do Power BI Desktop. Para obter mais informações, veja [Row-level security (RLS) with Power BI Desktop (Segurança de nível de linha (RLS) com o Power BI Desktop)](../desktop-rls.md).
 
 **Regras** – funções têm regras e essas regras são os filtros reais que vão ser aplicados nos dados. As regras podem ser tão simples como “País = EUA” ou algo muito mais dinâmico.
-Neste artigo, vamos ainda apresentar um exemplo de RLS de criação e, em seguida, consumi-la numa aplicação incorporada. O nosso exemplo utiliza o ficheiro PBIX de [Exemplo de Análise de Revenda](http://go.microsoft.com/fwlink/?LinkID=780547).
+Neste artigo, vamos ainda apresentar um exemplo de RLS de criação e, em seguida, consumi-la numa aplicação incorporada. O nosso exemplo utiliza o ficheiro PBIX de [Exemplo de Análise de Revenda](https://go.microsoft.com/fwlink/?LinkID=780547).
 
 ![Relatório de exemplo](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -73,7 +72,7 @@ Eis como:
 
     Os relatórios mostram os dados como se tivesse sessão iniciada como **AndrewMa**.
 
-A aplicação do filtro, conforme fizemos aqui, irá filtrar todos os registos nas tabelas **Distrito**, **Loja** e **Vendas**. No entanto, devido à direção do filtro nas relações entre as tabelas **Vendas** e **Tempo**, **Vendas** e **Item** e **Item** e **Tempo**, estas tabelas não são filtradas. Para obter mais informações sobre a filtragem cruzada bidirecional, transfira o documento [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Filtragem cruzada bidirecional no SQL Server Analysis Services 2016 e no Power BI Desktop)](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
+A aplicação do filtro, conforme fizemos aqui, irá filtrar todos os registos nas tabelas **Distrito**, **Loja** e **Vendas**. No entanto, devido à direção do filtro nas relações entre as tabelas **Vendas** e **Tempo**, **Vendas** e **Item** e **Item** e **Tempo**, estas tabelas não são filtradas. Para obter mais informações sobre a filtragem cruzada bidirecional, transfira o documento [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (Filtragem cruzada bidirecional no SQL Server Analysis Services 2016 e no Power BI Desktop)](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicar utilizador e função num token incorporado
 
@@ -241,7 +240,7 @@ A [segurança ao nível da linha](../service-admin-rls.md) é uma funcionalidade
 
 Os [filtros de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) são utilizados para permitir ao utilizador consumir uma vista dos dados reduzida, dentro de um âmbito ou filtrada. No entanto, o utilizador continua a ter acesso às tabelas, às colunas e às medidas do esquema do modelo e, potencialmente, pode aceder aos dados a partir das mesmas. A restrição do acesso aos dados apenas pode ser aplicada com a RLS e não através de APIs de filtragem do lado do cliente.
 
-## <a name="token-based-identity-with-azure-sql-database-preview"></a>Identidade baseada em tokens com a Base de Dados SQL do Azure (Pré-Visualização)
+## <a name="token-based-identity-with-azure-sql-database"></a>Identidade baseada em tokens com a Base de Dados SQL do Azure
 
 A **identidade baseada em tokens** permite-lhe especificar a identidade em vigor de um token de incorporação com o token de acesso **Azure Active Directory (AAD)** para uma **Base de Dados SQL do Azure**.
 
@@ -332,7 +331,7 @@ Não pode configurar esta permissão com o portal de administração. Esta permi
 * Se o conjunto de dados subjacente for um modelo cloud (modelo em cache ou DirectQuery), a identidade efetiva terá de incluir pelo menos uma função. Caso contrário, a atribuição da função não ocorrerá.
 * Uma lista de identidades permite vários tokens de identidade para incorporação do dashboard. Para todos os outros artefactos, a lista contém uma única identidade.
 
-### <a name="token-based-identity-limitations-preview"></a>Limitações da Identidade baseada em tokens (pré-visualização)
+### <a name="token-based-identity-limitations"></a>Limitações da Identidade baseada em tokens
 
 * Esta capacidade restringe apenas a utilização com o Power BI Premium.
 * Esta capacidade não funciona com o SQL Server no local.

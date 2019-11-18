@@ -2,7 +2,6 @@
 title: Exportar relatórios para PDF
 description: Saiba como exportar um relatório do Power BI para PDF.
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716997"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862876"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716997"
 Com o Power BI, pode publicar o seu relatório para o formato PDF e criar facilmente um documento baseado no seu relatório do Power BI. Quando exporta para PDF, cada página do relatório do Power BI torna-se uma página individual no seu documento PDF.
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Exportar o seu relatório do Power BI para PDF
-No serviço Power BI, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir da **Home Page**, de **Aplicações** ou de qualquer outro contentor do painel de navegação esquerdo.
+No serviço Power BI, selecione um relatório para apresentá-lo na tela. Também pode selecionar um relatório a partir do contentor **Página inicial**, do contentor **Aplicações** ou de qualquer outro contentor do painel de navegação.
 
 1. Selecione **Exportar** > **PDF** na barra de menus.
 

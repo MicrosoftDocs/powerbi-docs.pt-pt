@@ -2,21 +2,20 @@
 title: Sugestões e Truques para mapas (incluindo a integração do Bing Maps)
 description: 'Dicas e Truques para Visualizações de mapas do Power BI, visualizações, localizações, longitude e latitude, e como funcionam com o Bing Maps. '
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd35f06a685d1fd4620ef6a2ee3dc7f90e702a6a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61411910"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881044"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugestões e Truques para visualizações de mapa do Power BI
 O Power BI é integrado no Bing Maps para oferecer as coordenadas de mapa padrão (um processo chamado geocodificação), para que possa criar mapas. Em conjunto, utilizam algoritmos para identificar a localização correta, mas por vezes, é a melhor estimativa. Se as tentativas do Power BI não conseguirem criar a visualização de mapa por conta própria, ele pede ajuda ao Bing Maps. 
@@ -26,12 +25,13 @@ O utilizador ou o administrador, pode ter que atualizar a sua firewall para perm
 * https://platform.bing.com/geo/spatial/v1/public/Geodata
 * https://www.bing.com/api/maps/mapcontrol
 
-Para aumentar a probabilidade de uma geocodificação correta, utilize as seguintes dicas. O primeiro conjunto de sugestões é para utilizar, se tiver acesso ao próprio conjunto de dados. O segundo conjunto de sugestões são coisas que pode fazer no Power BI, se não tiver acesso ao conjunto de dados. E o conjunto final é uma lista de URLs
+Para aumentar a probabilidade de uma geocodificação correta, utilize as seguintes dicas. O primeiro conjunto de sugestões é para utilizar, se tiver acesso ao próprio conjunto de dados. O segundo conjunto de sugestões são coisas que pode fazer no Power BI, se não tiver acesso ao conjunto de dados. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>O que é enviado ao Bing Maps?
 O serviço Power BI e o Power BI Desktop enviam ao Bing os dados geográficos precisos para criar a visualização do mapa. Isto pode incluir os dados nos registos de **Localização**, **Latitude** e **Longitude** e campos geográficos em quaisquer registos de filtro de **Nível do relatório**,  **Nível de página** ou **Nível de elemento visual**. Os dados exatos que são enviados variam consoante o tipo de mapa. Para saber mais, veja [Bing Maps privacy (Privacidade do Bing Maps)](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Para mapas (mapas de bolhas), se a latitude e a longitude forem indicadas, então não são enviados dados para o Bing. Caso contrário, quaisquer dados nos registos de **Localização** (e filtro) são enviados para o Bing.     
+* Para mapas (mapas de bolhas, dispersão e desenho com pontos), se a latitude e a longitude forem indicadas, então não são enviados dados para o Bing. Caso contrário, quaisquer dados nos registos de **Localização** (e filtro) são enviados para o Bing.     
+
 * Os mapas de manchas precisam de um campo no registo de **Localização**, mesmo se a latitude e a longitude forem indicadas. Quaisquer dados que estejam nos registos de **Localização**, **Latitude** ou **Longitude** são enviados para o Bing.
   
     No exemplo abaixo, o campo **Fornecedor** está a ser utilizado para geocodificação, para que todos os dados de fornecedor sejam enviados para o Bing. Os dados dos registos **Tamanho** e **Saturação da cor** não são enviados para o Bing.
@@ -47,7 +47,7 @@ Se tiver acesso ao conjunto de dados que está a ser utilizado para criar a visu
 
 **1. Categorizar campos geográficos no Power BI Desktop**
 
-No Power BI Desktop, pode assegurar que os campos são geocodificados corretamente ao definir a *Categoria de Dados* nos campos de dados. Selecione a tabela desejada, aceda ao friso **Avançado** e defina a **Categoria de Dados** como **Morada**, **Cidade**, **Continente**, **País/Região**, **Distrito**, **Código Postal**, **Estado** ou **Província**. Estas categorias de dados ajudam o Bing a codificar corretamente a data. Para saber mais, veja [Data categorization in Power BI Desktop (Categorização de dados no Power BI Desktop)](../desktop-data-categorization.md). Se estiver a ligar em direto ao SQL Server Analysis Services, terá de definir a categorização de dados fora da utilização do Power BI [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
+No Power BI Desktop, pode assegurar que os campos são geocodificados corretamente ao definir a *Categoria de Dados* nos campos de dados. Na vista de Dados, selecione a coluna desejada. No friso, selecione o separador **Modelação** e, em seguida, defina a **Categoria de Dados** como **Morada**, **Cidade**, **Continente**, **País/Região**, **Distrito**, **Código Postal**, **Estado** ou **Província**. Estas categorias de dados ajudam o Bing a codificar corretamente a data. Para saber mais, veja [Data categorization in Power BI Desktop (Categorização de dados no Power BI Desktop)](../desktop-data-categorization.md). Se estiver a ligar em direto ao SQL Server Analysis Services, terá de definir a categorização de dados fora da utilização do Power BI [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Utilize mais do que uma coluna de localização.**     
  Às vezes, até mesmo definir as categorias de dados de mapeamento não é suficiente para o Bing adivinhar corretamente a intenção. Algumas designações são ambíguas porque a localização existe em vários países ou regiões. Por exemplo, existe ***Southampton*** em Inglaterra, na Pennsylvania e em Nova Iorque.
@@ -56,7 +56,7 @@ O Power BI utiliza o [serviço de modelo de URL não estruturado](https://msdn.m
 
  Por exemplo, se tiver apenas uma coluna de Cidade, o Bing pode ter dificuldade em geocodificar. Adicione colunas geográficas adicionais para tornar a localização inequívoca.  Por vezes, basta apenas adicionar mais uma coluna de localização ao conjunto de dados - neste caso, estado/província. E não se esqueça de a categorizar corretamente, veja o n.º 1 acima.
 
-Certifique-se de que cada campo tem apenas informações específicas associadas à categorização.  Por exemplo, o campo de localização de Cidade deve ser **Southampton**, e não **Southampton, Nova Iorque**.  E os campos de localização de Morada devem ser **1 Microsoft Way**, e não **1 Microsoft Way, Redmond, WA**.
+Certifique-se de que cada campo apenas tem uma categoria de localização. Por exemplo, o campo de localização de Cidade deve ser **Southampton**, e não **Southampton, Nova Iorque**.  E os campos de localização de Morada devem ser **1 Microsoft Way**, e não **1 Microsoft Way, Redmond, WA**.
 
 **3. Utilize Latitude e Longitude específicas**
 
@@ -84,8 +84,8 @@ Quando o conjunto de dados já tiver diferentes níveis de dados de localizaçã
 
 Ao explorar as geohierarquias, é importante saber como funciona cada botão de movimentação e o que é enviado para o Bing Maps. 
 
-* O botão de movimentação na extremidade direita, chamado Modo de Movimentação ![](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png), permite-lhe selecionar uma Localização de mapa e desagregar para essa localização específica, um nível de cada vez. Por exemplo, se Desagregar e clicar na América do Norte, avança para baixo para o próximo nível na hierarquia – estados na América do Norte. Para geocodificação, o Power BI envia dados do país e do estado para o Bing Maps apenas da América do Norte.  
-* No lado esquerdo existem duas outras opções de movimentação. A primeira opção, ![](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png), avança para o próximo nível da hierarquia para todas as localizações de uma só vez. Por exemplo, se está atualmente a visualizar os países e, em seguida, utiliza esta opção para mover para o próximo nível, os estados, o Power BI apresenta dados de estado de todos os países. Para geocodificação, o Power BI envia dados de estado do Bing Maps (sem dados de país) de todas as localizações. Esta opção é útil se cada nível da hierarquia não estiver relacionado com o nível acima. 
+* O botão de pormenorização à direita, chamado Modo de Pormenorização ![Ícone do modo de pormenorização](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) Permite-lhe selecionar uma Localização de mapa e desagregar para essa localização específica, um nível de cada vez. Por exemplo, se Desagregar e clicar na América do Norte, avança para baixo para o próximo nível na hierarquia – estados na América do Norte. Para geocodificação, o Power BI envia dados do país e do estado para o Bing Maps apenas da América do Norte.  
+* No lado esquerdo existem duas outras opções de movimentação. A primeira opção, ![primeiro ícone de pormenorização](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) avança para o próximo nível da hierarquia para todas as localizações de uma só vez. Por exemplo, se está atualmente a visualizar os países e, em seguida, utiliza esta opção para mover para o próximo nível, os estados, o Power BI apresenta dados de estado de todos os países. Para geocodificação, o Power BI envia dados de estado do Bing Maps (sem dados de país) de todas as localizações. Esta opção é útil se cada nível da hierarquia não estiver relacionado com o nível acima. 
 * A segunda opção, ![desagregar com mapas](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) , é semelhante a Desagregar, exceto não ter de clicar no mapa.  Este expande-se para o próximo nível da hierarquia, memorizando o contexto do nível atual. Por exemplo, se está atualmente a visualizar países e seleciona este ícone, avança para baixo na hierarquia para o próximo nível – estados. Para geocodificação, o Power BI envia dados para cada estado e o respetivo país, para ajudar o Bing Maps a geocodificar com mais exatidão. Na maioria dos mapas, irá utilizar esta opção ou a opção Desagregar na extremidade direita, para que possa enviar ao Bing o máximo de informações possíveis para obter informações sobre a localização exata. 
 
 ## <a name="next-steps"></a>Passos seguintes
@@ -93,5 +93,5 @@ Ao explorar as geohierarquias, é importante saber como funciona cada botão de 
 
 [Visualizações do Power BI](power-bi-report-visualizations.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

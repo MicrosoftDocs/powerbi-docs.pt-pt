@@ -3,18 +3,17 @@ title: Instalar o Power BI Report Server
 description: Saiba como instalar o Power BI Report Server.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839435"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874143"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -127,14 +126,14 @@ As reservas de URL contêm um prefixo, nome de anfitrião, porta e diretório vi
 | Parte | Descrição |
 | --- | --- |
 | Prefixo |O prefixo predefinido é HTTP. Se instalou anteriormente um certificado Secure Sockets Layer (SSL), a Configuração tenta criar reservas de URL que utilizem o prefixo HTTPS. |
-| Nome do anfitrião |O nome de anfitrião predefinido é um caráter universal forte (+). Especifica que o servidor de relatório aceita qualquer pedido HTTP na porta designada para qualquer nome de anfitrião que resolva para o computador, incluindo `http://<computername>/reportserver`, `http://localhost/reportserver` ou `http://<IPAddress>/reportserver.` |
+| Nome do anfitrião |O nome de anfitrião predefinido é um caráter universal forte (+). Especifica que o servidor de relatório aceita qualquer pedido HTTP na porta designada para qualquer nome de anfitrião que resolva para o computador, incluindo `https://<computername>/reportserver`, `https://localhost/reportserver` ou `https://<IPAddress>/reportserver.` |
 | Porta |A porta predefinida é 80. Se utilizar uma porta que não a 80, tem de adicioná-la explicitamente ao URL quando abrir o portal Web numa janela do browser. |
 | Diretório virtual |Por predefinição, os diretórios virtuais são criados no formato de ReportServer para o serviço Web do Report Server e Relatórios para o portal Web. Para o serviço Web do Report Server, o diretório virtual predefinido é **reportserver**. No portal Web, o diretório virtual predefinido é **reports**. |
 
 Eis um exemplo da cadeia de URL completa:
 
-* `http://+:80/reportserver` fornece acesso ao servidor de relatório.
-* `http://+:80/reports` fornece acesso ao portal Web.
+* `https://+:80/reportserver` fornece acesso ao servidor de relatório.
+* `https://+:80/reports` fornece acesso ao portal Web.
 
 ## <a name="firewall"></a>Firewall
 

@@ -2,7 +2,6 @@
 title: 'Exemplo de Análise de Aprovisionamento: veja uma apresentação'
 description: 'Exemplo de Análise de Aprovisionamento do Power BI: veja uma apresentação'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462286"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873862"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Aprovisionamento do Power BI: veja uma apresentação
 
@@ -58,11 +57,11 @@ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de c
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de Análise de Aprovisionamento como um [ficheiro .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop. 
+Em alternativa, pode transferir o exemplo de Análise de Aprovisionamento como um [ficheiro .pbix](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529784). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529784). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 
 ## <a name="spending-trends"></a>Tendências de gastos
@@ -99,7 +98,7 @@ Vamos explorar as áreas de gastos no México.
       ![Serviços e Produtos Indiretos desagregados para México](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selecione a seta para cima no canto superior esquerdo do gráfico para voltar para cima.
 4. Selecione a seta de busca detalhada novamente para desativar os detalhes.  
-5. Na barra de navegação superior, selecione **IT Spend Analysis Sample** (Exemplo de Análise de Gastos de TI) para regressar ao dashboard.
+5. No painel de navegação superior, selecione **IT Spend Analysis Sample** (Exemplo de Análise de Gastos de TI) para regressar ao dashboard.
 
 ## <a name="evaluate-different-cities"></a>Avaliar cidades diferentes
 Podemos utilizar o realce para avaliar cidades diferentes.

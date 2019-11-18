@@ -2,7 +2,6 @@
 title: Veja a introdução dos exemplos disponíveis com o Power BI
 description: Pacotes de conteúdo de exemplo, ficheiros PBIX e conjuntos de dados para o Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721500"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858975"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Talvez tenha um conjunto de dados. Como (ainda) não compreende o funcionamento do Power BI, está preocupado com a possibilidade de danificar o conjunto de dados?
@@ -78,7 +77,7 @@ Este exemplo do setor analisa as métricas-chave de um CFO para os executivos, p
 
 Este exemplo do setor analisa dados de vendas de retalho dos itens vendidos em várias lojas e distritos. As métricas comparam o desempenho do ano atual com o último ano nas seguintes áreas: vendas, unidades, margem bruta e desvio, bem como a análise de novas lojas.
 
-### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Exemplo de Vendas e Marketing  ![Exemplo de Vendas e Marketing](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Sales and Marketing sample  ![Sales and Marketing sample](media/sample-datasets/power-bi-sm.png)
 [Veja uma apresentação do exemplo de Vendas e Marketing](sample-sales-and-marketing.md)
 
 Este exemplo do setor analisa uma empresa industrial, VanArsdel Ltd. Permite ao Diretor de Marketing uma observação do setor e da quota de mercado da VanArsdel.  Ao explorar o exemplo, pode encontrar a quota de mercado da empresa, o volume de produtos, as vendas e o sentimento.
@@ -116,16 +115,16 @@ Agora que tem dados, está no bom caminho.  Experimente alguns dos nossos tutori
 ## <a name="the-power-bi-samples-as-excel-files"></a>Exemplos do Power BI como ficheiros Excel
 Cada um dos pacotes de conteúdos de exemplo também está disponível como livro do Excel. Os livros do Excel foram concebidos para serem utilizados com o serviço Power BI.  
 
-1. Transfira os ficheiros individualmente utilizando as ligações abaixo ou [transfira um ficheiro zip de todos os ficheiros de exemplo](http://go.microsoft.com/fwlink/?LinkId=535020). Os utilizadores avançados podem transferir os livros do Excel para explorar ou editar os modelos de dados.
+1. Transfira os ficheiros individualmente utilizando as ligações abaixo ou [transfira um ficheiro zip de todos os ficheiros de exemplo](https://go.microsoft.com/fwlink/?LinkId=535020). Os utilizadores avançados podem transferir os livros do Excel para explorar ou editar os modelos de dados.
 
-   * [Exemplo de Análise de Retalho](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [Exemplo de Análise de Qualidade do Fornecedor](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [Exemplo de Recursos Humanos](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [Exemplo de Rentabilidade do Cliente](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [Exemplo de Acompanhamento de Oportunidades](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [Exemplo de Análise de Gastos de TI](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [Exemplo de Análise de Compras](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [Exemplo de Vendas e Marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [Exemplo de Análise de Retalho](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [Exemplo de Análise de Qualidade do Fornecedor](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [Exemplo de Recursos Humanos](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [Exemplo de Rentabilidade do Cliente](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [Exemplo de Acompanhamento de Oportunidades](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [Exemplo de Análise de Gastos de TI](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [Exemplo de Análise de Compras](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [Exemplo de Vendas e Marketing](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Guarde o ficheiro transferido. O local onde guarda o ficheiro é importante.
 
    * ![Local](media/sample-datasets/power-bi-local-file2.png)  **Local**: se guardar o ficheiro numa unidade local no computador ou noutro local na sua organização, através do Power BI, é possível importar o ficheiro para o Power BI. Na verdade, o ficheiro permanecerá na unidade local; portanto, o ficheiro completo não é importado para o Power BI. O que ocorre é que um novo conjunto de dados é criado no site do Power BI e os dados (e, em alguns casos, o modelo de dados) são carregados para esse conjunto de dados. Se o ficheiro tiver relatórios, estes serão apresentados no site do Power BI, em Relatórios.
@@ -154,7 +153,7 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como livr
 
     ![Importar ou Ligar](media/sample-datasets/power-bi-import.png)
 9. Se selecionar **Importar**, o Power BI importa o livro de exemplo e adiciona-o como um novo conjunto de dados com o nome **Exemplo de Análise de Compras**.  Se o livro tiver quaisquer folhas do Power View, tabelas ou intervalos ou um modelo de dados, o Power BI também cria um relatório (com o mesmo nome). E, se ainda não tiver um dashboard aberto, o Power BI cria um dashboard novo. (Se tiver um dashboard aberto quando clicou **Obter Dados**, verá um novo mosaico em branco nesse dashboard.  Clicar nesse mosaico leva-o ao relatório do conjunto de dados que acabou de adicionar). O novo conteúdo é denominado com base no exemplo e assinalado com um asterisco amarelo.
-10. Quando aparece o ecrã **O conjunto de dados está pronto!** selecione **Ver conjunto de dados** ou **Obter Informações Rápidas**, ou utilize a barra de navegação esquerda do Power BI para localizar e abrir o relatório associado ou o dashboard.  
+10. Quando aparece o ecrã **O conjunto de dados está pronto!** selecione **Ver conjunto de dados** ou **Obter Informações Rápidas**, ou utilize o painel de navegação do Power BI para localizar e abrir o relatório associado ou o dashboard.  
 
      ![Ver conjunto de dados](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como fich
 
 1. Transfira os ficheiros individualmente utilizando as ligações abaixo. Selecionar estas ligações guarda o ficheiro automaticamente na pasta Transferências. 
 
-   * [Ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [Ficheiro PBIX de Exemplo de Análise de Qualidade do Fornecedor](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Qualidade do Fornecedor](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [Ficheiro PBIX de Exemplo de Recursos Humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [Ficheiro PBIX de Exemplo de Rentabilidade do Cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [Ficheiro PBIX de Exemplo de Acompanhamento de Oportunidades](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [Ficheiro PBIX de Exemplo de Análise de Gastos de TI](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [Ficheiro PBIX de Exemplo de Análise de Aprovisionamento](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [Ficheiro PBIX de Exemplo de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Recursos Humanos](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Rentabilidade do Cliente](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Acompanhamento de Oportunidades](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Gastos de TI](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Análise de Aprovisionamento](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Ficheiro PBIX de Exemplo de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. A partir do Power BI Desktop, selecione **Ficheiro > Abrir** e navegue para a localização onde guardou o .pbix de exemplo.
 
@@ -198,4 +197,4 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como fich
 
 [Origens de dados para o Power BI](service-get-data.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

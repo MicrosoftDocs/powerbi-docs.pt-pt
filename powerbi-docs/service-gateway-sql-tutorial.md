@@ -2,7 +2,6 @@
 title: 'Tutorial: Ligar a dados no local no SQL Server'
 description: Saiba como utilizar o SQL Server como uma origem de dados do gateway, incluindo como atualizar os dados.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307406"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881534"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar dados de uma base de dados do SQL Server no local
 
@@ -131,7 +130,7 @@ No Power BI Desktop, ligou diretamente à sua base de dados do SQL Server no loc
 
 Agora que já ligou o seu conjunto de dados no Power BI à sua base de dados do SQL Server no local através de um gateway de dados, siga estes passos para configurar um agendamento de atualização. A atualização agendada do seu conjunto de dados ajuda a garantir que os seus relatórios e dashboards têm os dados mais recentes.
 
-1. No painel de navegação à esquerda, abra **A Minha Área de Trabalho** \> **Conjuntos de dados**. Selecione as reticências ( **. . .** ) do conjunto de dados **ProdutosAdventureWorks** e, em seguida, selecione **Agendar atualização**.
+1. No painel de navegação, abra **A Minha Área de Trabalho** \> **Conjuntos de dados**. Selecione as reticências ( **. . .** ) do conjunto de dados **ProdutosAdventureWorks** e, em seguida, selecione **Agendar atualização**.
 
     > [!NOTE]
     > Certifique-se de que seleciona as reticências do conjunto de dados **ProdutosAdventureWorks** e não as reticências do relatório com o mesmo nome. O menu de contexto do relatório **ProdutosAdventureWorks** não inclui uma opção **Agendar atualização**.
@@ -149,7 +148,7 @@ Agora que já ligou o seu conjunto de dados no Power BI à sua base de dados do 
 
 ## <a name="perform-an-on-demand-refresh"></a>Efetuar uma atualização a pedido
 
-Agora que configurou um agendamento de atualização, o Power BI irá atualizar o seu conjunto de dados na próxima hora agendada, com uma margem de 15 minutos. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, efetue uma atualização a pedido com a opção **Atualizar Agora** no menu do conjunto de dados no painel de navegação à esquerda. As atualizações a pedido não afetam a hora de atualização agendada seguinte, mas contam para o limite diário de atualizações, mencionado na secção anterior.
+Agora que configurou um agendamento de atualização, o Power BI irá atualizar o seu conjunto de dados na próxima hora agendada, com uma margem de 15 minutos. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, efetue uma atualização a pedido com a opção **Atualizar Agora** no menu do conjunto de dados no painel de navegação. As atualizações a pedido não afetam a hora de atualização agendada seguinte, mas contam para o limite diário de atualizações, mencionado na secção anterior.
 
 Para fins de exemplificação, simule uma alteração aos dados de exemplo ao atualizar a tabela DimProduct na base de dados AdventureWorksDW com o SQL Server Management Studio (SSMS).
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 Agora, siga estes passos, para que os dados atualizados possam passar pela ligação do gateway para o conjunto de dados e os relatórios no Power BI.
 
-1. No Serviço Power BI, no painel de navegação à esquerda, selecione e expanda **A Minha Área de Trabalho**.
+1. No Serviço Power BI, no painel de navegação, selecione e expanda **A Minha Área de Trabalho**.
 
 2. Em **Conjuntos de dados**, no conjunto de dados **ProdutosAdventureWorks**, selecione as reticências ( **. . .** ) e, em seguida, selecione **Atualizar agora**.
 

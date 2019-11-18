@@ -2,7 +2,6 @@
 title: A nova experiência de filtros nos relatórios do Power BI
 description: Os filtros no Power BI têm novas funcionalidades e um novo design.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841283"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875151"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtros nos relatórios do Power BI
 
@@ -44,7 +43,7 @@ Por predefinição, a nova experiência de filtros é ativada para novos relató
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Ativar os novos filtros para um relatório existente no Power BI Desktop
 
 1. No Power BI Desktop, num relatório existente, selecione **Ficheiro** > **Opções e Definições** > **Opções**.
-2. Na barra de navegação esquerda, em **Ficheiro atual**, selecione **Definições de relatório**.
+2. No painel de navegação, em **Ficheiro atual**, selecione **Definições de relatório**.
 3. Em **Experiência de filtragem**, selecione **Ativar o painel de filtros atualizado e apresentar filtros no cabeçalho do elemento visual deste relatório**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Ativar os novos filtros para um relatório existente no serviço
@@ -238,5 +237,5 @@ Experimente a nova experiência de filtros. Envie-nos os seus comentários sobre
 - [Filtros e realce em relatórios](power-bi-reports-filters-and-highlighting.md)
 - [Different kinds of filters in Power BI](power-bi-report-filter-types.md) (Os diferentes tipos de filtros no Power BI)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

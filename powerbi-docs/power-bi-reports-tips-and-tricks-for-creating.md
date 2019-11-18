@@ -2,7 +2,6 @@
 title: Sugestões para a criação de relatórios fantásticos
 description: Sugestões e truques para criar relatórios no serviço Power BI e no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721350"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860897"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugestões e truques para criar relatórios no Power BI Desktop e no serviço Power BI
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop, no serviço Power BI *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento Power Pivot ativado e o Power Query instalado e ativado.
@@ -115,7 +114,7 @@ Vejamos um exemplo:
 
 Se carregarmos conjuntos de pedidos de suporte ao cliente ativos e outro conjunto de dados de itens de trabalho com os seguintes esquemas:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
@@ -163,12 +162,9 @@ DAX é a linguagem de fórmula de cálculo no Power BI Desktop.  Está otimizado
 
 [Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Central de Recursos do DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Central de Recursos do DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Serviço Power BI *e* Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Leia o documento técnico: [Principles for designing Power BI reports](visuals/power-bi-visualization-best-practices.md) (Princípios de conceção de relatórios do Power BI)
-Este documento disponibiliza as melhores práticas para criar relatórios no Power BI. A começar pelo planeamento, aborda os princípios de design que pode aplicar aos seus relatórios e páginas e os elementos visuais individuais que constituem os relatórios. Muitas destas melhores práticas também se aplicam ao design de dashboards.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leia e/ou veja "Como conceber visualmente fantásticos relatórios (e dashboards) no Power BI"
 O membro da comunidade Miguel Myers é um Cientista de Dados e também Designer Gráfico.
@@ -226,4 +222,4 @@ Alguns dos nossos livros favoritos incluem:
 
 [Relatórios no Power BI](consumer/end-user-reports.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

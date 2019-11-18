@@ -100,13 +100,13 @@ Não aplicável
 
 Não aplicável
 
-## <a name="disclaimer"></a>Exclusão de Responsabilidade
+## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. Todos os direitos reservados. Os nomes das empresas e dos produtos reais aqui mencionados podem ser marcas comerciais dos seus respetivos proprietários. As informações contidas neste documento representam a visão atual da Microsoft Corporation sobre os problemas discutidos na data da publicação. A Microsoft não pode garantir a precisão das informações apresentadas após a data da publicação. A Microsoft atualiza regularmente os seus sites com novas informações sobre a acessibilidade de produtos à medida que essas informações ficam disponíveis.
+© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
-A personalização do produto anula esta instrução de conformidade da Microsoft. Consulte os fornecedores de Tecnologia de Apoio (AT) para ver as especificações de compatibilidade de produtos de AT específicos.
+Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-Este documento destina-se apenas a fins informativos. A MICROSOFT NÃO OFERECE QUALQUER GARANTIA, EXPRESSA OU IMPLÍCITA, NESTE DOCUMENTO.
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>Próximos passos

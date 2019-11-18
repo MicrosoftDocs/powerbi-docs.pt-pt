@@ -2,19 +2,18 @@
 title: O que são as aplicações de modelo do Power BI?
 description: Este artigo é uma descrição geral do programa de aplicações de modelo do Power BI. Saiba como criar aplicações do Power BI com pouco ou nenhum código e implemente-as para qualquer cliente do Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: tebercov
-ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408221"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871325"
 ---
 # <a name="what-are-power-bi-template-apps"></a>O que são as aplicações de modelo do Power BI?
 
@@ -30,7 +29,7 @@ Pode submeter as suas aplicações de modelo no Cloud Partner Portal. Em seguida
 O processo geral para desenvolver e submeter uma aplicação de modelo inclui várias fases. Algumas fases podem incluir mais do que uma atividade em simultâneo.
 
 
-| Fase | Power BI Desktop |  |serviço Power BI  |  |Cloud Partner Portal  |
+| Fase | Power BI Desktop |  |Serviço Power BI  |  |Cloud Partner Portal  |
 |---|--------|--|---------|---------|---------|
 | **Um** | Crie um modelo de dados e um relatório num ficheiro .pbix |  | Crie uma área de trabalho. Importe o ficheiro .pbix. Crie um dashboard complementar  |  | Registe-se como um parceiro |
 | **Dois** |  |  | Crie um pacote de teste e execute uma validação interna        |  | |

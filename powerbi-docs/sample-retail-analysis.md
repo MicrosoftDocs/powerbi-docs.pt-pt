@@ -2,7 +2,6 @@
 title: 'Exemplo de Análise de Revenda do Power BI: veja uma apresentação'
 description: 'Exemplo de Análise de Revenda do Power BI: veja uma apresentação'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962222"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858552"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Revenda do Power BI: veja uma apresentação
 
@@ -54,11 +53,11 @@ Não precisa de uma licença do Power BI para explorar os exemplos no Power BI D
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de Análise de Revenda como um [ficheiro .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop. 
+Em alternativa, pode transferir o exemplo de Análise de Revenda como um [ficheiro .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529778). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529778). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniciar no dashboard e abrir o relatório
 
@@ -78,7 +77,7 @@ Se quiser ver a origem de dados deste exemplo, também está disponível como um
 
    O distrito **FD-01** tem a maior média de **Vendas por Metro Quadrado** e FD-02 tem a menor **Variação do Total de Vendas** em comparação com o ano passado. FD-03 e FD-04 têm os piores desempenhos gerais.
 4. Selecione algumas das bolhas individuais ou outros gráficos para ver o realce cruzado e revelar o impacto das suas seleções.
-5. Para regressar ao dashboard, selecione **Exemplo de Análise de Revenda** na barra de navegação superior.
+5. Para regressar ao dashboard, selecione **Exemplo de Análise de Revenda** no painel de navegação superior.
 
    ![Barra de navegação](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. No dashboard, selecione o mosaico **Vendas de Lojas Novas e Existentes Neste Ano**, o que é equivalente a escrever *Vendas Deste Ano* na caixa de perguntas das Perguntas e Respostas.

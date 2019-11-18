@@ -2,20 +2,19 @@
 title: Mostrar os dados que foram utilizados para criar a visualização do Power BI
 description: Este documento explica como mostrar os dados utilizados para criar um elemento visual no Power BI e como exportar esses dados para um ficheiro. csv.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389881"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880624"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Mostrar os dados que foram utilizados para criar a visualização
 ## <a name="show-data"></a>Mostrar dados
@@ -28,17 +27,20 @@ Também pode exportar os dados que estão a ser utilizados para criar a visualiz
 > 
 > 
 
-## <a name="using-show-data-in-power-bi-service"></a>Utilizar *Mostrar Dados* no serviço Power BI
-1. No serviço Power BI, abra um relatório na [Vista de leitura ou Vista de edição](../service-interact-with-a-report-in-editing-view.md) e selecione um elemento visual.  No Power BI Desktop, abra a vista de Relatório.
-2. Para apresentar os dados subjacentes ao elemento visual, selecione **Explorar** > **Mostrar dados**.
-   
-   ![selecionar Mostrar Dados](media/service-reports-show-data/power-bi-show-data.png)
+## <a name="using-show-data"></a>Utilizar *Mostrar Dados* 
+1. No Power BI Desktop, selecione a visualização para ativá-la.
+
+2. Selecione **Mais ações** (...) e escolha **Mostrar dados**. 
+    ![mostrar opção para Mostrar Dados](media/service-reports-show-data/power-bi-more-action.png)
+
+
 3. Por predefinição, os dados são apresentados por baixo do elemento visual.
    
-   ![apresentação vertical dos dados e elemento visual](media/service-reports-show-data/power-bi-explore-show-data.png)
-4. Para alterar a orientação, selecione o esquema vertical ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) no canto superior direito da visualização.
+   ![apresentação vertical dos dados e elemento visual](media/service-reports-show-data/power-bi-show-data-below.png)
+
+4. Para alterar a orientação, selecione o esquema vertical ![pequena captura de ecrã do ícone utilizado para alterar para esquema vertical](media/service-reports-show-data/power-bi-vertical-icon-new.png) no canto superior direito da visualização.
    
-   ![apresentação horizontal dos dados e elemento visual](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![apresentação horizontal dos dados e elemento visual](media/service-reports-show-data/power-bi-show-data-side.png)
 5. Para exportar os dados para um ficheiro .csv, selecione as reticências e escolha **Exportar dados**.
    
     ![selecionar Exportar dados](media/service-reports-show-data/power-bi-export-data-new.png)
@@ -46,9 +48,30 @@ Também pode exportar os dados que estão a ser utilizados para criar a visualiz
     Para obter mais informações sobre como exportar dados para o Excel, veja [Exportar dados de visualizações do Power BI](power-bi-visualization-export-data.md).
 6. Para ocultar os dados, anule a seleção **Explorar** > **mostrar dados**.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="using-show-records"></a>Utilizar Mostrar registos
+Também pode concentrar-se num registo de dados numa visualização e explorar os dados. 
+
+1. Para utilizar a opção **Ver registos**, selecione uma visualização para ativá-la. 
+
+2. No friso de Ambiente de trabalho, selecione o separador de **Ferramentas visuais** > **Dados/Pormenorização** > **Ver registos**. 
+
+    ![Captura de ecrã com Ver Registos selecionado.](media/service-reports-show-data/power-bi-see-record.png)
+
+3. Selecione um ponto de dados ou linha na visualização. Neste exemplo, selecionámos a quarta coluna a contar da esquerda. O Power BI mostra-nos o registo do conjunto de dados deste ponto de dados.
+
+    ![Captura de ecrã de registo único do conjunto de dados.](media/service-reports-show-data/power-bi-row.png)
+
+4. Selecione **Voltar ao relatório** para regressar à tela de relatório do Ambiente de trabalho. 
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+
+- Se o botão **Ver registos** no friso estiver desativado e indisponível, significa que a visualização selecionada não suporta a opção Ver Registos.
+- Não pode alterar os dados na vista Ver Registos e guardá-los novamente no relatório.
+- Não pode utilizar Ver Registos quando o elemento visual utiliza uma medida calculada.
+- Não pode utilizar Ver Registos quando estiver ligado a um modelo multidimensional (MD).  
+
+## <a name="next-steps"></a>Próximos passos
 [Exportar dados de visualizações do Power BI](power-bi-visualization-export-data.md)    
-[Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)    
-[Relatórios do Power BI](../consumer/end-user-reports.md)    
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

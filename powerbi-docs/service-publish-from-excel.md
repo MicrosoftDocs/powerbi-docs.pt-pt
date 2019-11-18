@@ -2,7 +2,6 @@
 title: Publicar no Power BI a partir do Excel 2016
 description: Saiba como publicar um livro do Excel num site do Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514803"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881123"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Publicar no Power BI a partir do Excel 2016
 Com o Excel 2016, é possível publicar livros do Excel diretamente no site do [Power BI](https://powerbi.microsoft.com), no qual é possível criar relatórios e dashboards altamente interativos com base nos dados do livro. Em seguida, pode partilhar ideias com outras pessoas na organização.
@@ -63,7 +62,7 @@ Ao escolher essa opção, o livro será apresentado no Power BI, exatamente como
 
 Não pode editar o livro quando estiver aberto no Power BI, mas se precisar de fazer alterações, pode selecionar **Editar** e optar por editar o livro no Excel Online ou abri-lo no Excel no seu computador. Todas as alterações efetuadas são guardadas no livro no OneDrive.
 
-Ao efetuar o carregamento, nenhum conjunto de dados será criado no Power BI. O livro será apresentado em Relatórios, no painel de navegação do espaço de trabalho. Os livros carregados no Power BI têm um ícone especial do Excel, que os identifica como livros do Excel carregados.
+Ao efetuar o carregamento, nenhum conjunto de dados será criado no Power BI. O livro será apresentado em Relatórios, no painel de navegação da área de trabalho. Os livros carregados no Power BI têm um ícone especial do Excel, que os identifica como livros do Excel carregados.
 
 Escolha esta opção se tiver apenas dados em folhas de cálculo ou se desejar ver Tabelas Dinâmicas e Gráficos no Power BI.
 No Excel, a utilização da funcionalidade Carregar a partir de Publicar no Power BI no Excel é praticamente o mesmo que usar Obter Dados > Ficheiro > OneDrive para Empresas > Ligar, Gerir e Ver o Excel no Power BI, a partir do Power BI no seu browser.
@@ -88,5 +87,5 @@ Quando concluída, pode ir para o Power BI diretamente através do Excel.
 
 ## <a name="next-steps"></a>Próximos passos
 [Dados do Excel no Power BI](service-excel-workbook-files.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

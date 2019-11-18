@@ -2,7 +2,6 @@
 title: Controlar o estado de funcionamento do serviço Power BI no Office 365
 description: Saiba como ver o estado de funcionamento de serviço atual e histórico no centro de administração do Microsoft 365.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075367"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857687"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Controlar o estado de funcionamento do serviço Power BI no Office 365
 
@@ -29,7 +28,7 @@ Para obter mais informações sobre as funções, veja [Funções de administrad
 
 1. Inicie sessão no [centro de administração do Microsoft 365](https://portal.office.com/adminportal).
 
-1. Na barra de navegação à esquerda, selecione **Mostrar tudo** > **Estado de funcionamento** > **Estado de funcionamento do serviço**. A página Estado de funcionamento do serviço aparece:
+1. No painel de navegação à esquerda, selecione **Mostrar tudo** > **Estado de funcionamento** > **Estado de funcionamento do serviço**. A página Estado de funcionamento do serviço aparece:
 
     ![Captura de ecrã do centro de administração Microsoft 365 com as opções de Estado de funcionamento e Estado de funcionamento do serviço em destaque.](media/service-admin-health/service-health-tile.png)
 

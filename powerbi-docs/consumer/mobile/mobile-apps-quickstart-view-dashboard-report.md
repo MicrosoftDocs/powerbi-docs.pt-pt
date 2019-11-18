@@ -2,19 +2,18 @@
 title: 'Início Rápido: Explorar dashboards e relatórios nas aplicações móveis'
 description: Neste manual de início rápido, o utilizador explora um dashboard e um relatório de exemplo nas aplicações móveis do Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60976120"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879262"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: Explorar dashboards e relatórios nas aplicações móveis do Power BI
 Neste manual de início rápido, pode explorar um dashboard e um relatório de exemplo na aplicação móvel do Power BI num telemóvel Android. Também pode acompanhar o processo noutras aplicações móveis. 
@@ -35,7 +34,7 @@ Os dashboards são um portal para o ciclo de vida e processos de sua empresa. Um
 Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
 ### <a name="install-the-power-bi-for-android-app"></a>Instalar a aplicação Power BI para Android
-[Transfira a aplicação do Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
+[Transfira a aplicação do Power BI para Android](https://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
 
 O Power BI funciona em dispositivos Android com o sistema operativo Android 5.0 ou posterior. Para verificar o seu dispositivo, aceda a **Definições** > **Acerca do dispositivo** > **Versão do Android**.
 
@@ -44,11 +43,11 @@ O primeiro passo deste manual de início rápido é transferir o exemplo de Aná
 
 1. Abra o serviço Power BI no seu browser (app.powerbi.com) e inicie sessão.
 
-1. Selecione o ícone de navegação global para abrir o painel de navegação à esquerda.
+1. Selecione o ícone de navegação global para abrir o painel de navegação.
 
     ![ícone de navegação global](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. No painel de navegação à esquerda, selecione **Áreas de Trabalho** > **A Minha Área de Trabalho**.
+2. No painel de navegação, selecione **Áreas de trabalho** > **A Minha Área de Trabalho**.
 
     ![A Minha Área de Trabalho](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,7 +134,7 @@ Depois de concluir este manual de início rápido, se desejar, pode eliminar o d
 
 1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
 
-2. No painel de navegação à esquerda, selecione **Áreas de Trabalho** > **A Minha Área de Trabalho**.
+2. No painel de navegação, selecione **Áreas de trabalho** > **A Minha Área de Trabalho**.
 
     Reparou na estrela amarela a indicar que é um favorito?
 

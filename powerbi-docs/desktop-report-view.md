@@ -2,7 +2,6 @@
 title: Vista de Relatório no Power BI Desktop
 description: Vista de Relatório no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142181"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877876"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de Relatório no Power BI Desktop
 Se já trabalhou com o Power BI, sabe como é fácil criar relatórios que fornecem informações e perspetivas dinâmicas sobre os seus dados. O Power BI também conta com funcionalidades mais avançadas no Power BI Desktop. Com o Power BI Desktop, pode criar consultas avançadas, efetuar mashup dos dados provenientes de várias origens, criar relações entre tabelas e muito mais.
@@ -29,7 +28,7 @@ Quando carrega dados pela primeira vez no Power BI Desktop, vai ver a **Vista de
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-Pode alternar entre a **Vista de Relatório**, **Vista de Dados** e **Vista de Relações** ao selecionar os ícones na barra de navegação da esquerda:
+Pode alternar entre a **Vista de Relatório**, **Vista de Dados** e **Vista de Relações** ao selecionar os ícones no painel de navegação da esquerda:
 
 ![Ícone da vista de relatório](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

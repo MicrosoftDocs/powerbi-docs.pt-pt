@@ -2,7 +2,6 @@
 title: Ligar ao Acumatica com o Power BI
 description: Acumatica para o Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186156"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873206"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Ligar ao Acumatica com o Power BI
 O pacote de conteúdos do Acumatica para o BI Power permite que obtenha informações rapidamente sobre os seus dados de oportunidade. O Power BI recupera os seus dados, incluindo oportunidades, contas e clientes, e cria um dashboard predefinido e relatórios relacionados com base nesses dados.
@@ -28,7 +27,7 @@ Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/s
 >Este pacote de conteúdo exige o Acumatica v5.2 ou superior.
 
 ## <a name="how-to-connect"></a>Como se ligar
-1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.
+1. Selecione **Obter Dados** na parte inferior do painel de navegação.
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. Na caixa **Serviços**, selecione **Obter**.
@@ -47,7 +46,7 @@ Ligue-se ao [pacote de conteúdo do Acumatica](https://app.powerbi.com/getdata/s
 5. Como Método de Autenticação, selecione **Básico**. Introduza o nome de utilizador e a palavra-passe da conta do Acumatica e clique em **Iniciar Sessão**.
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no dashboard de navegação esquerdo. Os novos itens são marcados com um asterisco amarelo \* que desaparece quando é selecionado; escolher o dashboard mostrará um modelo semelhante ao seguinte:
+6. Depois de o Power BI importar os dados, verá um novo dashboard, relatório e conjunto de dados no painel de navegação. Os novos itens são marcados com um asterisco amarelo \* que desaparece quando é selecionado; escolher o dashboard mostrará um modelo semelhante ao seguinte:
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

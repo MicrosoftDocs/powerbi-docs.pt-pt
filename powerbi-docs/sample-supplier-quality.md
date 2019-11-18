@@ -2,7 +2,6 @@
 title: 'Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação'
 description: 'Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621320"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858413"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Qualidade do Fornecedor do Power BI: veja uma apresentação
 
@@ -59,11 +58,11 @@ Para poder utilizar o exemplo, primeiro tem de transferi-lo como um [pacote de c
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo Supplier Quality Analysis Sample como um [ficheiro .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), concebido para utilização com o Power BI Desktop.
+Em alternativa, pode transferir o exemplo Supplier Quality Analysis Sample como um [ficheiro .pbix](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), concebido para utilização com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529779). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529779). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tempo de inatividade causado por materiais com defeito
 Vamos analisar o tempo de inatividade causado por material defeituoso e ver os fornecedores que são responsáveis.  
@@ -94,7 +93,7 @@ Vamos analisar o tempo de inatividade causado por material defeituoso e ver os f
     ![Gráfico treemap de Downtime (min) by Vendor](media/sample-supplier-quality/supplier5.png)  
 
    Neste treemap, podemos ver quais são os oito principais fornecedores nos oito blocos à esquerda do treemap. Também podemos ver que se responsabilizam por cerca de 50% de todos os minutos de inatividade.  
-3. Selecione **Supplier Quality Analysis Sample** na barra de navegação superior para voltar ao dashboard.
+3. Selecione **Supplier Quality Analysis Sample** no painel de navegação superior para voltar ao dashboard.
 
 ### <a name="comparing-plants"></a>Comparar fábricas
 Agora vamos explorar as fábricas que fazem um trabalho de melhor gestão de material com defeito, resultando num tempo de inatividade inferior.  
@@ -113,7 +112,7 @@ Agora vamos explorar as fábricas que fazem um trabalho de melhor gestão de mat
 3. Selecione a bolha **Logistics** no gráfico de bolhas e observe as fábricas em Springfield e Naperville, IL. Naperville parece fazer um melhor trabalho de gestão de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, comparado ao grande número de impactos de Springfield.  
 
    ![Selecionar Logistics](media/sample-supplier-quality/supplier8.png)  
-4. Selecione **Supplier Quality Analysis Sample** na barra de navegação superior para voltar ao dashboard.
+4. Selecione **Supplier Quality Analysis Sample** no painel de navegação superior para voltar ao dashboard.
 
 ## <a name="which-material-type-is-best-managed"></a>Que tipo de material é melhor gerido?
 O melhor tipo de material gerido é o que tem o tempo de inatividade mais baixo ou nenhum impacto, independentemente da quantidade de defeitos.
@@ -138,7 +137,7 @@ O melhor tipo de material gerido é o que tem o tempo de inatividade mais baixo 
 
     ![Gráfico Total Defect Qty por Month e Year](media/sample-supplier-quality/supplier11.png)  
 3. Mais defeitos traduz-se em mais tempo de inatividade? Faça perguntas na caixa de Perguntas e Respostas para descobrir.  
-4. Selecione **Supplier Quality Analysis Sample** na barra de navegação superior para voltar ao dashboard.  
+4. Selecione **Supplier Quality Analysis Sample** no painel de navegação superior para voltar ao dashboard.  
 5. Como sabemos que as matérias-primas têm o maior número de defeitos, escreva na caixa de perguntas: *show material types, year, and total defect qty* (mostrar tipos de materiais, ano e quantidade total de defeitos).  
 
     Havia muitos mais defeitos de matérias-primas em 2014 do que em 2013.  

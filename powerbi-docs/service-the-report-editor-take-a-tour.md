@@ -1,8 +1,7 @@
 ---
-title: Apresentação do editor de relatórios
+title: O editor de relatórios... Faça uma visita
 description: No Power BI Desktop e no serviço Power BI, o editor de relatórios é o local em que pode criar relatórios para os seus utilizadores finais. O editor é semelhante nos dois ambientes.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023724"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871348"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Apresentação do editor de relatórios no Power BI
 
@@ -34,14 +33,14 @@ No serviço Power BI, o editor de relatórios está disponível apenas na Vista 
 
 O editor de relatórios do Power BI está dividido em várias secções principais:  
 
-1. Barra de navegação superior
+1. Painel de navegação superior
 1. Tela de relatório
 1. Painel Filtros
 1. Painel Visualizações
 1. Painel Campos
 
-## <a name="1-the-top-navigation-bar"></a>1. A barra de navegação superior
-As ações disponíveis na barra de navegação superior são bastantes e estão sempre a ser adicionadas novas ações. Para obter informações sobre uma ação específica, utilize a caixa de pesquisa ou o índice da documentação do Power BI.
+## <a name="1-the-top-nav-pane"></a>1. O painel de navegação superior
+As ações disponíveis no painel de navegação superior são bastantes e estão sempre a ser adicionadas novas ações. Para obter informações sobre uma ação específica, utilize a caixa de pesquisa ou o índice da documentação do Power BI.
 
 
 ## <a name="2-the-report-canvas"></a>2. A tela de relatórios
@@ -156,5 +155,5 @@ Mais informações sobre relatórios no [serviço Power BI](service-report-creat
 
 [Conceitos básicos para designers do Power BI](service-basic-concepts.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

@@ -2,19 +2,18 @@
 title: Analista virtual Perguntas e Respostas em aplicações iOS – Power BI
 description: Faça perguntas sobre dados de exemplo por palavras próprias com o analista virtual Perguntas e Respostas na aplicação móvel Power BI no seu dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977479"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879385"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual Perguntas e Respostas em aplicações iOS – Power BI
 
@@ -35,7 +34,7 @@ Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuit
 ## <a name="prerequisites"></a>Pré-requisitos
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Instalar a aplicação Power BI para iOS
-[Transfira a aplicação para iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Transfira a aplicação para iPhone") da Apple App Store para o seu iPad, iPhone ou iPod Touch.
+[Transfira a aplicação para iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Transferir a aplicação para iPhone") para o seu iPad, iPhone ou iPod Touch a partir da Apple App Store.
 
 Estas versões suportam a aplicação Power BI para iOS:
 - iPad com o iOS 10 ou posterior.
@@ -49,7 +48,7 @@ O primeiro passo é transferir os exemplos Análise de Retalho e Análise de Opo
 
 1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
 
-2. No painel de navegação à esquerda, selecione **Áreas de Trabalho**, **A Minha Área de Trabalho**.
+2. No painel de navegação, selecione **Áreas de trabalho**, **A Minha Área de Trabalho**.
 
 3. No canto inferior esquerdo, selecione **Obter Dados**.
    

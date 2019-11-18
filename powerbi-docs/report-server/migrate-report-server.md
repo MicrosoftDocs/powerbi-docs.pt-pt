@@ -3,18 +3,17 @@ title: Migrar uma instalação do servidor de relatórios
 description: Saiba como migrar a sua instância existente do SQL Server Reporting Services para uma instância do Power BI Report Server.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770185"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858882"
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrar uma instalação do servidor de relatórios
 
@@ -55,7 +54,7 @@ Migrar de uma instância do SSRS (Modo nativo) para o Power BI Report Server con
 
 Migrar de um SSRS (modo integrado no SharePoint) para o Power BI Report Server não é um processo tão simples como no modo nativo. Apesar de estes passos lhe darem alguma orientação, é possível que tenha outros ficheiros e recursos no SharePoint que têm de ser geridos fora destes passos.
 
-![Migrar do modo SSRS integrado no SharePoint para o Power BI Report Server](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Migrar do modo SSRS integrado no SharePoint para o Power BI Report Server")
+![Migrar do modo integrado no SharePoint SSRS para o Power BI Report Server](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Migrar do modo integrado no SharePoint SSRS para o Power BI Report Server")
 
 Tem de migrar os conteúdos específicos do servidor de relatórios do SharePoint para o Power BI Report Server. Tem de ter o Power BI Report Server instalado no seu ambiente. Para saber mais sobre instalar o Power BI Report Server, consulte [Instalar o Power BI Report Server](install-report-server.md).
 
@@ -70,10 +69,10 @@ Se quiser copiar os conteúdos do servidor de relatórios do seu ambiente do Sha
 Sample Script
 rs.exe
 -i ssrs_migration.rss -e Mgmt2010
--s http://SourceServer/_vti_bin/reportserver
+-s https://SourceServer/_vti_bin/reportserver
 -v st="sites/bi" -v f="Shared Documents“
 -u Domain\User1 -p Password
--v ts=http://TargetServer/reportserver
+-v ts=https://TargetServer/reportserver
 -v tu="Domain\User" -v tp="Password"
 ```
 

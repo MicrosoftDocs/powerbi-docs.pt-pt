@@ -2,7 +2,6 @@
 title: Favoritos no serviço Power BI (dashboards, relatórios, aplicações)
 description: Documentação sobre como definir dashboards, relatórios e aplicações como favoritos no serviço Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256375"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852663"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Marcar dashboards, relatórios e aplicações como favoritos no serviço Power BI
 Ao marcar um conteúdo como *favorito*, poderá aceder ao mesmo rapidamente na lista de conteúdos **Favoritos** e na **Home Page do Power BI** > **Favoritos + Frequentes**. Os favoritos são conteúdos aos quais acede com mais frequência e são identificados com uma estrela amarela.
@@ -62,7 +61,7 @@ Também pode selecionar um único dashboard como um [Dashboard em destaque](end-
 ## <a name="unfavorite-content"></a>Remover conteúdos dos favoritos
 Se já não utilizar um relatório tanto como antes, pode removê-lo dos favoritos. Quando remove conteúdos dos favoritos, estes são removidos da lista Favoritos, mas não do Power BI.
 
-1. No painel de navegação esquerdo, selecione **Favoritos** para abrir o ecrã **Favoritos**.
+1. No painel de navegação, selecione **Favoritos** para abrir o ecrã **Favoritos**.
    
    ![Ecrã Favoritos](./media/end-user-favorite/power-bi-un-favorite.png)
 2. Selecione a estrela amarela junto aos conteúdos que pretende remover dos favoritos.
@@ -76,5 +75,5 @@ Atualmente, ao tornar uma aplicação favorita, todos os relatórios e dashboard
 
 ## <a name="next-steps"></a>Próximos passos
 - [Power BI: conceitos básicos](end-user-basic-concepts.md)
-- Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+- Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

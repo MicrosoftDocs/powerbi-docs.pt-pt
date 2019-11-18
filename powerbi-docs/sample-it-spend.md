@@ -2,7 +2,6 @@
 title: 'Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação'
 description: 'Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462251"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873914"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI do Power BI: veja uma apresentação
 
@@ -54,11 +53,11 @@ Não precisa de uma licença do Power BI para explorar os exemplos no Power BI D
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o ficheiro .pbix para este exemplo
 
-Em alternativa, pode transferir o exemplo de Análise de Gastos de TI como um [ficheiro .pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop.
+Em alternativa, pode transferir o exemplo de Análise de Gastos de TI como um [ficheiro .pbix](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), concebido para utilização com o Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter o livro do Excel para este exemplo
 
-Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](http://go.microsoft.com/fwlink/?LinkId=529783). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
+Se quiser ver a origem de dados deste exemplo, também está disponível como um [livro do Excel](https://go.microsoft.com/fwlink/?LinkId=529783). O livro contém as folhas do Power View que pode ver e modificar. Para ver os dados não processados, ative os suplementos de Análise de Dados e, em seguida, selecione **Power Pivot > Gerir**. Para ativar os suplementos Power View e Power Pivot, veja [Observe os exemplos de Excel a partir do interior do próprio Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obter detalhes.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard de Exemplo de Análise de Gastos de TI
 Os dois mosaicos de números à esquerda no dashboard, **% do Plano de Variação** e **% da Estimativa mais Recente da Variação do 3.º Trimestre**, fornecem uma descrição geral do nosso desempenho em relação ao plano e à estimativa mais recente do último trimestre (LE3 = Estimativa mais recente do 3.º trimestre). No geral, estamos cerca de 6% fora do plano. Vamos explorar a causa desta variação: quando, onde e em que categoria.
@@ -78,7 +77,7 @@ Porém, observar apenas este gráfico e tirar conclusões pode ser enganoso. Tem
     A seguir, vamos explorar que categoria nos EUA está a causar a variação.
 
 ## <a name="ask-questions-of-the-data"></a>Fazer perguntas sobre os dados
-1. Selecione **Exemplo de Análise de Gastos de TI** na barra de navegação superior para regressar ao dashboard de exemplo.
+1. Selecione **Exemplo de Análise de Gastos de TI** no painel de navegação superior para regressar ao dashboard de exemplo.
 2. Selecione **Fazer uma pergunta sobre os dados**.
 3. Na lista **Perguntas para começar** no lado esquerdo, selecione **qual é o plano por área de TI**.
 

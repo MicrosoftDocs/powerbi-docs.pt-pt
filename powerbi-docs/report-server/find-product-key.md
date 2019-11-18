@@ -2,19 +2,18 @@
 title: Como localizar a chave de produto do servidor de relatórios
 description: Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769621"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859689"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Como localizar a chave de produto do servidor de relatórios
 Saiba como pode encontrar a chave de produto do Microsoft Power BI Report Server para instalar o servidor num ambiente de produção.
@@ -48,7 +47,7 @@ Se tem um contrato do SQL Server Enterprise SA, pode obter a sua chave de produt
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Instalar o Power BI Desktop otimizado para o Power BI Report Server](install-powerbi-desktop.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Transferir o SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

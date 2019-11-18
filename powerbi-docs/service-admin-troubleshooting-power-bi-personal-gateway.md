@@ -2,7 +2,6 @@
 title: Resolver problemas do gateway do Power BI (modo pessoal)
 description: Resolver problemas do gateway do Power BI (modo pessoal)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543539"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873380"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Resolver problemas do gateway do Power BI (modo pessoal)
 
@@ -128,7 +127,7 @@ O **Data Management Gateway** e os registos do **PowerBIGateway** estão present
 ![Registos do Gateway de Gestão de Dados e do Gateway do PowerBI](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Rastreio do Fiddler
-O [Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP. Pode ver as comunicações com o serviço Power BI a partir do computador cliente. Estas comunicações podem mostrar erros e outras informações relacionadas.
+O [Fiddler](https://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitoriza o tráfego HTTP. Pode ver as comunicações com o serviço Power BI a partir do computador cliente. Estas comunicações podem mostrar erros e outras informações relacionadas.
 
 ![Rastreio do Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ Em alternativa, pode aceder à pasta Temp (%temp%) e procurar os ficheiros come�
 - [Resolução de problemas de erros de mosaico](refresh-troubleshooting-tile-errors.md)  
 - [Resolução de problemas do gateway de dados no local](service-gateway-onprem-tshoot.md) 
  
-Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

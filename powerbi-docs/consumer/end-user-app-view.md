@@ -1,21 +1,20 @@
 ---
 title: Instalar e utilizar aplicações com dashboards e relatórios no Power BI
-description: No Power BI, as aplicações juntam dashboards e relatórios num único local.
+description: Localize, instale e utilize aplicações no serviço Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5b73a5a2d0a4381981cd5c98accc48df662bd24
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716454"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851292"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e utilizar aplicações com dashboards e relatórios no Power BI
 
