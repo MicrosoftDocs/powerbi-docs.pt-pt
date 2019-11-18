@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862876"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099142"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -51,7 +51,7 @@ E é tudo. Pode transferir o ficheiro e abri-lo com qualquer visualizador de PDF
 Existem algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para PDF**.
 
 * Os elementos visuais de R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
-* Os elementos visuais personalizados que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais personalizados certificados, incluindo como certificar um elemento visual, veja [Certificar um elemento visual personalizado](../power-bi-custom-visuals-certified.md). Não são suportados elementos visuais personalizados que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro. 
+* Os elementos visuais personalizados que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais personalizados certificados, incluindo como certificar um elemento visual, veja [Certificar um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais personalizados que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro. 
 * Os relatórios com mais de 30 páginas não podem ser exportados atualmente.
 * O processo de exportar o relatório para PDF pode demorar alguns minutos a ser concluído, por isso pedimos que seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço Power BI.
 * Se o item de menu **Exportar para PDF** não estiver disponível no serviço Power BI, é provável que o seu administrador de inquilinos tenha desativado a funcionalidade. Contacte o seu administrador de inquilinos para obter informações.
