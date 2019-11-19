@@ -8,13 +8,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259977"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922569"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -23,15 +23,22 @@ Este registo de alterações destina-se ao Power BI Report Server e lista novos 
 Para obter informações detalhadas sobre as novas funcionalidades, veja [Novidades no Power BI Report Server](whats-new.md). 
 
 ## <a name="september-2019"></a>Setembro de 2019
-
 - **Power BI Report Server**
+    - *Versão: 1.6.7236.4246 (Compilação 15.0.1102.646), Lançamento: 25 de outubro de 2019*
+        - Atualizações de segurança
+        - Correções de erros
+            - Correção para o .NET Framework 4.7 não instalado.
+            - Correção para relatórios paginados Teradata com parâmetros de valores múltiplos com o erro 110083.
+            - A correção para o valor URLRoot não funciona se houver múltiplos enlaces de URL de serviço Web e um dos mesmos for http://+80/reportserver.
+          - Correção para valores de parâmetros com múltiplos valores em relatórios paginados que aparecem fora da área do relatório.
+          
     - *Versão: 1.6.7221.30698 (Compilação 15.0.1102.620), Lançamento: 9 de outubro de 2019*
         - Correções de erros
             - Correção do elemento visual personalizado do Filtro de Texto.
             - Correção do desempenho da lista pendente de segmentação de dados.
             - Correção para Retirar o PII da telemetria.
           - Correção para os URLs não serem sensíveis às maiúsculas e minúsculas.
-             
+          
     - *Versão 1.6.7206.38019 (Compilação 15.0.1102.597), lançada a: 26 de setembro de 2019*
         - Atualizações de segurança
         - Correções de erros
@@ -50,7 +57,10 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
              - API Web atualizada: /PowerBIReports({Id})/DataSources (PATCH) para permitir atualizações de cadeia de ligação.
          
 - **Power BI Desktop (otimizado para o Power BI Report Server)**
-
+    - *Versão: 2.73.5586.1501 (setembro de 2019), Lançamento: 25 de outubro de 2019*
+        - Correções de erros
+            - Correção para Telemetria.
+            
     - *Versão: 2.73.5586.1241 (setembro de 2019), Lançamento: 9 de outubro de 2019*
         - Correções de erros
             - Correção do elemento visual personalizado do Filtro de Texto.

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270477"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429097"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
 
@@ -20,7 +20,7 @@ Saiba como migrar a partir da Coleção de Áreas de Trabalho do Power BI para o
 
 Recentemente, a Microsoft [anunciou o Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/), um novo modelo de licenciamento baseado em capacidades que aumenta a flexibilidade com que os utilizadores acedem, partilham e distribuem conteúdos. Esta oferta também proporciona desempenho e escalabilidade adicionais.
 
-Com o Power BI Embedded, ao incorporar os conteúdos, terá uma superfície de API, um conjunto consistente de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho de aplicações. Daqui em diante, poderá começar com o Power BI Desktop e mudar para a implementação com o Power BI Embedded.
+Com o Power BI Embedded, ao incorporar os conteúdos, terá uma superfície de API, um conjunto consistente de capacidades e acesso às funcionalidades mais recentes do Power BI, como dashboards, gateways e áreas de trabalho. Daqui em diante, poderá começar com o Power BI Desktop e mudar para a implementação com o Power BI Embedded.
 
 A Coleção de Áreas de Trabalho do Power BI atual continuará disponível por tempo limitado. Os clientes que tiverem um Contrato Enterprise terão acesso até à expiração dos contratos existentes; os clientes que adquiriram a Coleção de Áreas de Trabalho do Power BI através de canais diretos ou CSP irão continuar a usufruir do acesso durante um ano a contar da data de Disponibilidade Geral do Power BI Embedded.  Este artigo fornece algumas orientações sobre a migração da Coleção de Áreas de Trabalho do Power BI para a nova experiência do Power BI Embedded e que alterações deve esperar encontrar na sua aplicação.
 
@@ -56,19 +56,19 @@ Tem de efetuar alguns procedimentos para preparar a migração da Coleção de �
 As contas que se seguem têm de existir no seu inquilino.
 
 > [!NOTE]
-> Estas contas têm de ter licenças do Power BI Pro para poderem utilizar as áreas de trabalho da aplicação.
+> Estas contas têm de ter licenças do Power BI Pro para poderem utilizar áreas de trabalho.
 
 1. Um utilizador administrador do inquilino.
 
-    Recomenda-se que este utilizador seja membro de todas as áreas de trabalho da aplicação criadas para fins de incorporação.
+    Recomenda-se que este utilizador seja membro de todas as áreas de trabalho criadas para fins de incorporação.
 
 2. Contas para os analistas que irão criar o conteúdo.
 
-    Estes utilizadores devem ser atribuídos a áreas de trabalho da aplicação conforme necessário.
+    Estes utilizadores devem ser atribuídos a áreas de trabalho conforme necessário.
 
 3. Uma conta de utilizador *principal* da aplicação ou uma conta do Power BI Embedded.
 
-    O back-end da aplicação irá armazenar as credenciais desta conta e utilizá-las para obter um token do Azure AD para utilização com as APIs REST do Power BI. Esta conta será utilizada para gerar o token de incorporação para a aplicação. Esta conta também tem de ser um administrador das áreas de trabalho da aplicação criadas para fins de incorporação.
+    O back-end da aplicação irá armazenar as credenciais desta conta e utilizá-las para obter um token do Azure AD para utilização com as APIs REST do Power BI. Esta conta será utilizada para gerar o token de incorporação para a aplicação. Esta conta também tem de ser um administrador das áreas de trabalho criadas para fins de incorporação.
 
 > [!NOTE]
 > Esta é apenas uma conta de utilizador normal na sua organização que será utilizada para fins de incorporação.
@@ -83,14 +83,14 @@ Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST.
 
 Deve registar a aplicação com a conta **principal** da aplicação.
 
-## <a name="create-app-workspaces-required"></a>Criar áreas de trabalho da aplicação (Obrigatório)
+## <a name="create-workspaces-required"></a>Criar áreas de trabalho (Obrigatório)
 
-Poderá tirar partido das Áreas de trabalho da aplicação para proporcionar um isolamento melhor se a aplicação estiver a prestar serviços a vários clientes. Os dashboards e relatórios estariam isolados entre os clientes. Em seguida, poderia utilizar uma conta do Power BI por área de trabalho da aplicação para isolar ainda mais as experiências da aplicação entre os clientes.
+Poderá tirar partido das áreas de trabalho para proporcionar um isolamento melhor se a aplicação estiver a prestar serviços a múltiplos clientes. Os dashboards e relatórios estariam isolados entre os clientes. Em seguida, poderia utilizar uma conta do Power BI por área de trabalho para isolar ainda mais as experiências da aplicação entre os clientes.
 
 > [!IMPORTANT]
 > Não pode utilizar uma área de trabalho pessoal de modo a tirar partido da incorporação para utilizadores que não utilizam o Power BI.
 
-Precisa de um utilizador que tenha uma licença do Pro para criar uma área de trabalho da aplicação no Power BI. Por predefinição, o utilizador do Power BI que cria a área de trabalho da aplicação será o administrador dessa área de trabalho.
+Precisa de um utilizador que tenha uma licença do Pro para criar uma área de trabalho no Power BI. Por predefinição, o utilizador do Power BI que cria a área de trabalho será o administrador dessa área de trabalho.
 
 > [!NOTE]
 > A conta *principal* da aplicação tem de ser um administrador da área de trabalho.
@@ -163,7 +163,7 @@ A API Transferir PBIX não suporta conjuntos de dados da *API Push*. Os dados de
 
 ## <a name="create-and-upload-new-reports"></a>Criar e carregar novos relatórios
 
-Além do conteúdo migrado a partir da Coleção de Áreas de Trabalho do Power BI, pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop e, em seguida, publicar esses relatórios numa área de trabalho da aplicação. O utilizador final que publica os relatórios tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
+Além do conteúdo migrado a partir da Coleção de Áreas de Trabalho do Power BI, pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop e, em seguida, publicar esses relatórios numa área de trabalho. O utilizador final que publica os relatórios tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho.
 
 ## <a name="rebuild-your-application"></a>Reconstruir a aplicação
 
@@ -179,9 +179,9 @@ Na sua aplicação, irá mapear os utilizadores que gere na aplicação para uma
 
 Quando estiver pronto para avançar para a produção, terá de fazer o seguinte.
 
-* Se estiver a utilizar um inquilino separado para o desenvolvimento, terá de se certificar de que as áreas de trabalho da aplicação, a par dos dashboards e relatórios, estão disponíveis no seu ambiente de produção. Também terá de se certificar de que criou a aplicação no Azure AD para o seu inquilino de produção e que atribuiu as permissões de aplicação corretas, conforme indicado no Passo 1.
+* Se estiver a utilizar um inquilino separado para o desenvolvimento, terá de se certificar de que as áreas de trabalho, a par dos dashboards e relatórios, estão disponíveis no seu ambiente de produção. Também terá de se certificar de que criou a aplicação no Azure AD para o seu inquilino de produção e que atribuiu as permissões de aplicação corretas, conforme indicado no Passo 1.
 * Compre uma capacidade adequada às suas necessidades. Para compreender melhor a quantidade e o tipo de capacidade que precisa, veja o [Documento técnico de planeamento da capacidade de análise do Power BI Embedded](https://aka.ms/pbiewhitepaper). Pode [comprar capacidade](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) no Azure.
-* Edite a área de trabalho da aplicação e atribua-a a uma capacidade Premium em Avançadas.
+* Edite a área de trabalho e atribua-a a uma capacidade Premium em Avançadas.
 
     ![Capacidade Premium](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
 

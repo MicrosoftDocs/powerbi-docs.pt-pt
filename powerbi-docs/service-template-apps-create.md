@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195421"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432156"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
@@ -33,19 +33,19 @@ Eis os requisitos para a criação de uma aplicação de modelo:
 - Conhecer os [conceitos básicos do Power BI](service-basic-concepts.md)
 - Permissões para partilhar uma aplicação de modelo publicamente. Veja as [Definições de aplicação de modelo do portal de administração](service-admin-portal.md#template-apps-settings) do Power BI para obter detalhes.
 
-## <a name="create-the-template-app-workspace"></a>Criar a área de trabalho de aplicação de modelo
+## <a name="create-the-template-workspace"></a>Criar a área de trabalho de modelo
 
-Para criar uma aplicação de modelo que possa distribuir para outros inquilinos do Power BI, terá de o fazer numa das novas áreas de trabalho de aplicações.
+Para criar uma aplicação de modelo que possa distribuir para outros inquilinos do Power BI, terá de o fazer numa das novas áreas de trabalho.
 
-1. No serviço Power BI, selecione **Áreas de trabalho** > **Criar área de trabalho de aplicação**.
+1. No serviço Power BI, selecione **Áreas de trabalho** > **Criar área de trabalho**.
 
-    ![Criar área de trabalho de aplicação](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Criar área de trabalho](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. Em **Criar uma área de trabalho de aplicação**, selecione **Atualizar para nova**.
+2. Em **Criar uma área de trabalho**, selecione **Atualizar para nova**.
 
     ![Experimentar novas áreas de trabalho](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. Introduza um nome, uma descrição (opcional) e uma imagem de logótipo (opcional) para a sua área de trabalho de aplicação.
+3. Introduza um nome, uma descrição (opcional) e uma imagem de logótipo (opcional) para a sua área de trabalho.
 
 4. Expanda a secção **Avançado** e selecione **Desenvolver uma aplicação de modelo**.
 
@@ -57,9 +57,9 @@ Para criar uma aplicação de modelo que possa distribuir para outros inquilinos
 
 ## <a name="create-the-content-in-your-template-app"></a>Criar os conteúdos na sua aplicação de modelo
 
-Tal como acontece com uma área de trabalho de aplicação do Power BI normal, o próximo passo é criar os conteúdos na área de trabalho.  
+Tal como acontece com uma área de trabalho do Power BI normal, o próximo passo é criar os conteúdos na área de trabalho.  
 
-- [Crie os seus conteúdos do Power BI](power-bi-creator-landing.md) na sua área de trabalho de aplicação.
+- [Crie os seus conteúdos do Power BI](power-bi-creator-landing.md) na sua área de trabalho.
 
 Se estiver a utilizar parâmetros no Power Query, certifique-se de que define corretamente o tipo (por exemplo, Texto). Os tipos Qualquer e Binário não são suportados.
 
@@ -69,7 +69,7 @@ O artigo [Tips for authoring template apps in Power BI](service-template-apps-ti
 
 Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os empacotar numa aplicação de modelo. O primeiro passo é criar uma aplicação de modelo de teste que seja acessível apenas a partir do seu inquilino na sua organização.
 
-1. Na área de trabalho de aplicação de modelo, selecione **Criar aplicação**.
+1. Na área de trabalho de modelo, selecione **Criar aplicação**.
 
     ![Criar aplicação](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ O URL não sofre alterações à medida que avança nas fases de lançamento. A 
 
 Vamos percorrer todas as fases:
 
-1. Na área de trabalho de aplicação de modelo, selecione **Gestão de Versões**.
+1. Na área de trabalho de modelo, selecione **Gestão de Versões**.
 
     ![Ícone de gestão de versões](media/service-template-apps-create/power-bi-release-management-icon.png)
 

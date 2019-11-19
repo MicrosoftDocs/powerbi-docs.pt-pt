@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770125"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021465"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gerir conteúdo no portal Web 
 O portal Web do Power BI Report Server é uma localização no local para ver, armazenar e gerir relatórios móveis paginados do Power BI e KPIs.
@@ -56,7 +56,7 @@ A aplicação portal Web é executada num browser. Quando inicia o portal Web, a
 ## <a name="manage-items-in-the-web-portal"></a>Gerir itens no portal Web
 O Power BI Report Server disponibiliza um controlo detalhado dos itens que armazena no portal Web. Por exemplo, pode configurar subscrições, a colocação em cache, instantâneos e a segurança em relatórios paginados individuais.
 
-1. Selecione as reticências (...) no canto superior direito de um item e, em seguida, selecione **Gerir**.
+1. Selecione **Mais opções** (...) no canto superior direito de um item e, em seguida, selecione **Gerir**.
    
     ![Selecionar a opção Gerir](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. Escolha a propriedade ou outra funcionalidade que queira definir.

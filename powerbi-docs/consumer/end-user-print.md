@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100203"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019561"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Imprimir a partir do serviço Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
 
    > [!NOTE]
@@ -37,7 +40,7 @@ Imprima um dashboard completo, um mosaico do dashboard, uma página de relatóri
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir um mosaico do dashboard
 1. Abra o dashboard no [modo de ecrã inteiro](end-user-focus.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen-icon.png) na barra de menus superior.
-3. [Abra o mosaico no Modo de detalhe](end-user-focus.md) ao pairar o rato para apresentar as reticências (...) e ao selecionar **Abrir no modo de detalhe** ou o ícone de detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png).
+3. [Abra o mosaico no Modo de detalhe](end-user-focus.md) ao pairar o rato para apresentar **Mais opções** (...) e ao selecionar **Abrir no modo de detalhe** ou o ícone de detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png).
    
     ![menu de reticências](./media/end-user-print/power-bi-menu-options.png)
 4. Paire o rato sobre o mosaico para revelar o menu de Opções.

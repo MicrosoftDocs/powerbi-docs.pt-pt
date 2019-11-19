@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61221269"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020067"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização falhar
 Se utilizar o pacote de conteúdos do Xero Power BI, podem ter ocorrido alguns problemas na atualização diária do pacote de conteúdos devido a um incidente recente do serviço Power BI.
@@ -26,7 +26,7 @@ Pode ver se o pacote de conteúdos é atualizado com êxito ao verificar o últi
 
 Se vir que a atualização falhou, conforme mostrado acima, siga estes passos para renovar as credenciais do pacote de conteúdos.
 
-1. Clique nas reticências (…) junto ao conjunto de dados do Xero e clique em **Agendar atualização**. Esta ação abre a página de definições do pacote de conteúdos do Xero.
+1. Clique em **Mais opções** (...) junto ao conjunto de dados do Xero e clique em **Agendar atualização**. Esta ação abre a página de definições do pacote de conteúdos do Xero.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. Na página **Definições do Xero**, selecione **Credenciais da origem de dados** > **Editar credenciais**.
@@ -38,10 +38,10 @@ Se vir que a atualização falhou, conforme mostrado acima, siga estes passos pa
 4. Inicie sessão com a sua conta do Xero.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. Agora que as suas credenciais estão atualizadas, vamos assegurar que o agendamento da atualização está definido para ser executado diariamente. Verifique ao clicar nas reticências (…) junto ao conjunto de dados do Xero e clique novamente em **Agendar atualização**.
+5. Agora que as suas credenciais estão atualizadas, vamos assegurar que o agendamento da atualização está definido para ser executado diariamente. Verifique ao clicar em **Mais opções** (...) junto ao conjunto de dados do Xero e clique novamente em **Agendar atualização**.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. Também pode optar por atualizar o conjunto de dados de imediato. Clique nas reticências (…) junto ao conjunto de dados do Xero e clique em **Atualizar agora**.
+6. Também pode optar por atualizar o conjunto de dados de imediato. Clique em **Mais opções** (...) junto ao conjunto de dados do Xero e clique em **Atualizar agora**.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 9f1289b5fce74c60e5b3802054cef008dd33ada2
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816552"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021561"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -30,7 +30,7 @@ Este artigo descreve as opções disponíveis para o [Gateway de dados no local 
 
 Para aceder ao ecrã **Atualização agendada**, pode fazer o seguinte:
 
-1. Selecione as **reticências (...)** junto a um conjunto de dados listado em **Conjuntos de Dados**.
+1. Selecione **Mais opções** (...) junto a um conjunto de dados listado em **Conjuntos de Dados**.
 2. Selecione **Agendar Atualização**.
 
     ![Agendar Atualização](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -69,7 +69,7 @@ Se estiver a utilizar o Gateway de dados no local para atualizar os dados, não 
 ![Comando Agendar Atualização](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)* . O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
+> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)*. O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
 >
 >
 
@@ -106,7 +106,7 @@ Alguns conjuntos de dados são suportados em gateways diferentes para a atualiza
 >
 >
 
-* Todas as origens de dados online apresentadas no Power Query.
+* Todas as origens de dados online mostradas no Power Query.
 * Todas as origens de dados locais apresentadas no Power Query, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.
 * Todas as origens de dados online apresentadas no Power Pivot.
 * Todas as origens de dados locais apresentadas no Power Pivot, exceto o ficheiro do Hadoop (HDFS) e o Microsoft Exchange.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195339"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432331"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicações de modelo na sua organização – Power BI
 
@@ -57,7 +57,7 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
 
 4. Na caixa de diálogo, selecione **Instalar**.
 
-    ![Instalar aplicação](media/service-template-apps-install-distribute/power-install-dialog.png) Se tiver uma licença do Power BI Pro, a aplicação será instalada com a respetiva área de trabalho da aplicação. Irá personalizar a aplicação na área de trabalho associada.
+    ![Instalar aplicação](media/service-template-apps-install-distribute/power-install-dialog.png) Se tiver uma licença do Power BI Pro, a aplicação será instalada com a respetiva área de trabalho. Irá personalizar a aplicação na área de trabalho associada.
 
     Quando a instalação for concluída com êxito, será apresentada uma notificação a indicar que a sua nova aplicação está pronta.
 4. Selecione **Ir para a aplicação**.
@@ -71,7 +71,7 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
 
     Em alternativa, ignore esta caixa de diálogo e aceda à área de trabalho diretamente através da opção **Áreas de trabalho** no painel de navegação esquerdo.
     >[!NOTE]
-    >Instalar uma aplicação de modelo instalada numa *aplicação organizacional* e numa *área de trabalho de aplicação*. Leia mais sobre a [distribuição de aplicações no Power BI](service-create-distribute-apps.md).
+    >Instalar uma aplicação de modelo instalada numa *aplicação organizacional* e numa *área de trabalho*. Leia mais sobre a [distribuição de aplicações no Power BI](service-create-distribute-apps.md).
  
 6. Antes de partilhar a aplicação com os seus colegas, poderá querer ligar aos seus próprios dados. Também poderá querer modificar o relatório ou o dashboard de acordo com as necessidades da sua organização. Além disso, poderá adicionar outros relatórios ou dashboards neste passo.
 

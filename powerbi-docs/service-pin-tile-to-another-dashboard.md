@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225912"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020105"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Afixar um mosaico de um dashboard noutro dashboard
 Uma forma de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 
@@ -26,7 +26,7 @@ Uma forma de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md
 ## <a name="pin-a-tile-to-another-dashboard"></a>Fixar um mosaico a outro dashboard
 1. [Obter dados](service-get-data.md). Este exemplo utiliza a [amostra de IT Spend Analysis](sample-it-spend.md).
 2. Abrir um [dashboard](consumer/end-user-dashboards.md).
-3. Passe o rato sobre o mosaico que quer afixar, selecione as reticências (...) e escolha **Afixar mosaico**.  
+3. Paire o rato sobre o mosaico que pretende afixar, selecione **Mais opções** (...) e, em seguida, **Afixar mosaico**.  
    
    ![menu de reticências](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Afixe o mosaico num dashboard existente ou num novo dashboard. 

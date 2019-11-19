@@ -1,6 +1,6 @@
 ---
 title: Gerir o armazenamento de dados nas suas áreas de trabalho
-description: Saiba como pode gerir o armazenamento de dados na sua área de trabalho individual ou de aplicação, para certificar-se de que pode continuar a publicar relatórios e conjuntos de dados.
+description: Saiba como pode gerir o armazenamento de dados na sua área de trabalho individual para certificar-se de que pode continuar a publicar relatórios e conjuntos de dados.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,24 +11,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61191075"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431381"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gerir o armazenamento de dados nas áreas de trabalho do Power BI
 
-Saiba como pode gerir o armazenamento de dados na sua área de trabalho individual ou de aplicação, para certificar-se de que pode continuar a publicar relatórios e conjuntos de dados.
+Saiba como pode gerir o armazenamento de dados na sua área de trabalho individual para certificar-se de que pode continuar a publicar relatórios e conjuntos de dados.
 
-Os utilizadores e as áreas de trabalho de aplicação têm as suas próprias capacidades de dados:
+Os utilizadores e as áreas de trabalho têm as suas próprias capacidades de dados:
 
 * Todos os utilizadores têm um máximo de 10 GB de armazenamento de dados.
-* Os utilizadores com uma licença do Power BI Pro podem criar áreas de trabalho de aplicação com um máximo de 10 GB de armazenamento de dados em cada uma.
-* Uma área de trabalho de aplicação numa capacidade Premium não conta para o armazenamento de um utilizador do Power BI Pro.
+* Os utilizadores com uma licença do Power BI Pro podem criar áreas de trabalho com um máximo de 10 GB de armazenamento de dados em cada uma.
+* Uma área de trabalho numa capacidade Premium não conta para o armazenamento de um utilizador do Power BI Pro.
 
-Ao nível do inquilino, a utilização total não pode exceder 10 GB por utilizador Pro em todos os utilizadores e áreas de trabalho de aplicação Pro no inquilino.
+Ao nível do inquilino, a utilização total não pode exceder os 10 GB por utilizador Pro em todos os utilizadores e áreas de trabalho Pro no inquilino.
 
 Leia sobre outras funcionalidades do [modelo de preços do Power BI](https://powerbi.microsoft.com/pricing).
 
@@ -63,15 +63,15 @@ Veja a quantidade de armazenamento de dados que está a utilizar na sua conta do
 
 Tenha em atenção que tanto o utilizador como outra pessoa podem ter relatórios e dashboards com base num conjunto de dados. Se eliminar o conjunto de dados, os relatórios e dashboards deixarão de funcionar.
 
-## <a name="manage-your-app-workspace"></a>Gerir a área de trabalho de aplicação
-1. Selecione a seta junto a **Áreas de Trabalho** \> selecione o nome da área de trabalho de aplicação.
+## <a name="manage-your-workspace"></a>Gerir a sua área de trabalho
+1. Selecione a seta junto a **Áreas de trabalho** \> selecione o nome da área de trabalho.
    
-    ![Selecionar uma área de trabalho de aplicação](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![Selecione uma área de trabalho](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. Selecione o ícone de engrenagem ![ícone de engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) no canto superior direito\> **Gerir armazenamento do grupo**.
    
     A barra superior mostra o limite de armazenamento de grupo utilizado.
    
-    ![Gerir o armazenamento da área de trabalho de aplicação](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Gerir o armazenamento da área de trabalho](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Os conjuntos de dados e os relatórios são separados em dois separadores:
    
@@ -80,7 +80,7 @@ Tenha em atenção que tanto o utilizador como outra pessoa podem ter relatório
 3. Para eliminar um conjunto de dados ou um relatório, selecione o ícone de caixote do lixo ![ícone de caixote do lixo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > Qualquer membro, com permissões de edição, de uma área de trabalho de aplicação tem permissões para eliminar conjuntos de dados e relatórios da área de trabalho de aplicação.
+   > Qualquer membro, com permissões de edição, de uma área de trabalho tem permissões para eliminar conjuntos de dados e relatórios da área de trabalho.
    > 
    > 
 

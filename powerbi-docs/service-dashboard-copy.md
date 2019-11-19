@@ -2,7 +2,6 @@
 title: Criar uma cópia de um dashboard do Power BI
 description: 'Como duplicar um dashboard do Power BI '
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523196"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872834"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Criar uma cópia de um dashboard no serviço Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -28,7 +27,7 @@ Os dashboards são criados (e copiados) através do serviço Power BI e podem se
 Para fazer uma cópia de um dashboard, o utilizador tem de ser o *criador* do dashboard. Os dashboards foram partilhados consigo como uma aplicação que não pode ser duplicada.
 
 1. Abra o dashboard.
-2. No canto superior direito, selecione as reticências (...) e selecione **Duplicar dashboard**.
+2. No canto superior direito, selecione **Mais opções** (...) e selecione **Duplicar dashboard**.
    
    ![menu de reticências](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Dê um nome ao dashboard e selecione **Duplicar**. 
@@ -40,15 +39,15 @@ Para fazer uma cópia de um dashboard, o utilizador tem de ser o *criador* do da
 
 5.    Abra o novo dashboard e edite conforme necessário. Eis algumas coisas que pode fazer em seguida:    
     a. [Mover, mudar o nome, redimensionar ou até mesmo eliminar mosaicos](service-dashboard-edit-tile.md).  
-    b. Editar detalhes do mosaico e hiperligações ao selecionar as reticências (…) do mosaico e escolher **Editar detalhes**.  
+    b. Editar detalhes do mosaico e hiperligações ao selecionar o mosaico **Mais opções** (...) e selecionar **Editar detalhes**.  
     c. [Adicionar novos mosaicos a partir da barra de menu do dashboard](service-dashboard-add-widget.md) (**Adicionar mosaico**)  
     d. Afixar mosaicos novos [das Perguntas e Respostas](service-dashboard-pin-tile-from-q-and-a.md) ou [dos relatórios](service-dashboard-pin-tile-from-report.md).  
-    e. Mudar o nome do dashboard, ativar ou desativar as Perguntas e Respostas e definir o fluxo de mosaico a partir do painel de Definições do dashboard.  (selecione a lista pendente das reticências (…) do dashboard e escolha **Definições**)  
+    e. Mudar o nome do dashboard, ativar ou desativar as Perguntas e Respostas e definir o fluxo de mosaico a partir do painel de Definições do dashboard.  (selecione a lista pendente **Mais opções** (…) do dashboard e escolha **Definições**)  
     f. Partilhe o seu dashboard diretamente com os seus colegas ou como parte de uma aplicação do Power BI. 
 
 
 ## <a name="next-steps"></a>Próximos passos
 * [Sugestões para criar um excelente dashboard](service-dashboards-design-tips.md) 
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

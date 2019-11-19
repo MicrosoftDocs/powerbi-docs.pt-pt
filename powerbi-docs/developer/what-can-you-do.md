@@ -3,18 +3,17 @@ title: Que podem os programadores fazer com o Power BI?
 description: O Power BI oferece uma vasta gama de opções para programadores. Isto varia, desde a incorporação aos elementos visuais personalizados e conjuntos de dados de transmissão em fluxo.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307458"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875673"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que podem os programadores fazer com o Power BI?
 
@@ -22,7 +21,7 @@ Os programadores têm várias opções para tentar incluir conteúdo do Power B
 
 ## <a name="embedding-power-bi-content"></a>Incorporar conteúdo do Power BI
 
-O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Esta funcionalidade significa que pode aceder às funcionalidades mais recentes do Power BI, tais como dashboards, gateways e áreas de trabalho de aplicações, quando incorporar o seu conteúdo.
+O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Esta funcionalidade significa que pode aceder às funcionalidades mais recentes do Power BI, tais como dashboards, gateways e áreas de trabalho, quando incorporar o seu conteúdo.
 
 Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
 

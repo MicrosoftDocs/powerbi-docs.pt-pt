@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256320"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019841"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Dashboards em destaque no serviço Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Muitos utilizadores têm um dashboard ao qual acedem com mais frequência. Poderá ser o dashboard utilizado para gerir a empresa. Em alternativa, poderá ser um dashboard que contém uma agregação de mosaicos de vários dashboards e relatórios.
 
 ## <a name="create-a-featured-dashboard"></a>Criar um dashboard em destaque
@@ -37,7 +40,7 @@ Veja o vídeo da Amanda a criar um dashboard em destaque. Em seguida, siga os pa
 
 
 1. Abra o dashboard que pretende definir como em destaque. 
-2. Na barra de menus superior, selecione as reticências (...) e selecione **Definir como em destaque**. 
+2. Na barra de menus superior, selecione **Mais opções** (...) e selecione **Definir como em destaque**. 
    
     ![Ícone Definir como dashboard em destaque](./media/end-user-featured/power-bi-dropdown.png)
 3. Confirme a sua seleção.
@@ -58,7 +61,7 @@ Se mudar de ideias mais tarde, pode definir outro dashboard como o dashboard em 
 Se decidir que não quer nenhum dashboard em destaque, eis como anular a funcionalidade em destaque de um dashboard.
 
 1. Abra o dashboard atualmente em destaque.
-2. Na barra de menus superior, selecione as reticências (...) e selecione **Desativar o que está em destaque**.
+2. Na barra de menus superior, selecione **Mais opções** (...) e selecione **Desativar o que está em destaque**.
 
     ![Desativar o dashboard em destaque selecionado](./media/end-user-featured/power-bi-unfeature-newer.png)
    

@@ -2,7 +2,6 @@
 title: Relatórios no serviço Power BI
 description: Relatórios no serviço Power BI, para consumidores
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,14 +9,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903702"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851233"
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Um relatório do Power BI é uma vista de múltiplas perspetivas sobre um conjunto de dados, com elementos visuais que representam diferentes achados e informações desse conjunto de dados.  Um relatório pode ter um único elemento visual ou páginas cheias de elementos visuais. Consoante a sua função, pode ser um *estruturador* de relatórios. Também pode ser alguém que *consome* ou utiliza relatórios. Este artigo é direcionado para os *consumidores*.
 
@@ -27,7 +28,7 @@ A. Este relatório tem seis páginas (ou separadores) e está atualmente a ver a
 B. Nesta página, existem cinco elementos visuais diferentes e um título de página.    
 C. O painel *Filters* (Filtros) mostra um filtro aplicado a todas as páginas do relatório. Para fechar o painel Filters (Filtros), selecione a seta ( **>** ).    
 D. A faixa do Power BI apresenta o nome do relatório e a data da última atualização. Selecione a seta para abrir um menu que também mostra o nome do proprietário do relatório.    
-E. A barra de ação contém ações que pode executar neste relatório.  Por exemplo, pode adicionar um comentário, ver um indicador ou exportar dados do relatório.  Selecione as reticências (...) para revelar uma lista de funcionalidades de relatório adicionais.    
+E. A barra de ação contém ações que pode executar neste relatório.  Por exemplo, pode adicionar um comentário, ver um indicador ou exportar dados do relatório.  Selecione **Mais opções** (...) para revelar uma lista de funcionalidades de relatório adicionais.    
 
 Se for um novo utilizador do Power BI, pode obter uma boa base de aprendizagem ao ler os [Conceitos básicos para os consumidores do serviço Power BI](end-user-basic-concepts.md). Os relatórios estão disponíveis para visualização, partilha e criação de notas em dispositivos móveis. Para obter mais informações, veja [Explorar relatórios nas aplicações móveis do Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 

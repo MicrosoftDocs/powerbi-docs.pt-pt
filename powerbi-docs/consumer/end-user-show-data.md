@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d35cdc6e2c6d2c2632fe8a9776ddc366436cff94
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 8a4eee43aeab8be096e8e7b7021763c7e77bd26d
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71251510"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019312"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Mostrar dados com relatórios do Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Um elemento visual do Power BI é criado com dados dos conjuntos de dados subjacentes. Se estiver interessado em conhecer os bastidores, o serviço Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar um elemento visual num relatório. Ao selecionar **Mostrar Dados**, o Power BI apresenta os dados por baixo do elemento visual (ou junto ao mesmo).
 
@@ -25,7 +27,7 @@ Num dashboard, utilize a opção [Exportar para o Excel](end-user-export.md) par
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>Mostrar os dados que estão a ser utilizados para criar um elemento visual de relatório
 1. No serviço Power BI, [abra um relatório](end-user-report-open.md) e selecione um elemento visual.  
-2. Para apresentar os dados subjacentes ao elemento visual, selecione as reticências (...) e selecione **Mostrar dados**.
+2. Para apresentar os dados subjacentes ao elemento visual, selecione **Mais opções** (...) e selecione **Mostrar dados**.
    
    ![selecionar Mostrar dados](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
 3. Por predefinição, os dados são apresentados por baixo do elemento visual.

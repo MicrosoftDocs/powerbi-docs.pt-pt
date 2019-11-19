@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994947"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020225"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações de dados automaticamente com o Power BI
 Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
@@ -38,7 +38,7 @@ Veja a Amanda a executar as informações rápidas num conjunto de dados, a abri
 
 Agora, é a sua vez. Explore as informações através do [exemplo de Análise de Qualidade do Fornecedor](sample-supplier-quality.md).
 
-1. No separador **Conjuntos de dados**, selecione as reticências (...) e selecione **Obter informações rápidas**.
+1. No separador **Conjuntos de dados**, selecione **Mais opções** (...) e selecione **Obter informações rápidas**.
    
     ![Separador Conjuntos de Dados](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
 
 1. Passe o cursor sobre um cartão e selecione o ícone do pino para adicionar a visualização a um dashboard.
 
-2. Coloque o cursor sobre um cartão, selecione as reticências (…) e, em seguida, selecione **Ver informações**. 
+2. Coloque o cursor sobre um cartão, selecione **Mais opções** (…) e, em seguida, selecione **Ver informações**. 
 
     É aberto o ecrã de informações em Modo de detalhe.
    
@@ -86,7 +86,7 @@ Agora, é a sua vez. Explore as informações através do [exemplo de Análise d
 Em vez de procurar informações em todo um conjunto de dados, filtre a sua pesquisa de forma a obter informações apenas dos dados que são utilizados para criar um único mosaico de dashboard. 
 
 1. Abre um dashboard.
-2. Coloque o cursor sobre um mosaico, selecione as reticências (...) e, em seguida, selecione **Ver informações**. O mosaico abre-se no [Modo de detalhe](service-focus-mode.md) com os cartões de informações apresentados no lado direito.    
+2. Coloque o cursor sobre um mosaico, selecione **Mais opções** (...) e, em seguida, selecione **Ver informações**. O mosaico abre-se no [Modo de detalhe](service-focus-mode.md) com os cartões de informações apresentados no lado direito.    
    
     ![Modo de detalhe](media/service-insights/pbi-insights-tile.png)    
 3. Há alguma informação que desperte o seu interesse? Selecione esse cartão de informação para investigar melhor. A informação selecionada é apresentada à esquerda e os cartões de informações novos, com base apenas nos dados dessa informação, são apresentados à direita.    

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: e694add3fd275cc2d3e9e0e6799adc9a16f32bbd
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307990"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429928"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Automatic page refresh in Power BI Desktop (preview) (Atualização automática de páginas no Power BI Desktop [pré-visualização])
 
@@ -108,11 +108,11 @@ No serviço Power BI, as restrições da atualização automática de páginas 
 
 Para esclarecer como isto funciona, vamos começar com algum contexto sobre as [capacidades e áreas de trabalho](whitepaper-powerbi-premium-deployment.md#capacities)
 
-As **capacidades**  são um conceito base do Power BI que representa um conjunto de recursos (armazenamento, processador e memória) utilizados para hospedar e fornecer conteúdos do Power BI. As capacidades podem ser partilhadas ou dedicadas. Uma **Capacidade Partilhada** é partilhada com outros clientes da Microsoft, enquanto uma **Capacidade Dedicada** é totalmente alocada a um único cliente. As capacidades dedicadas são apresentadas no artigo [Capacidades premium](whitepaper-powerbi-premium-deployment.md#capacities).
+As **capacidades** são um conceito base do Power BI que representa um conjunto de recursos (armazenamento, processador e memória) utilizados para hospedar e fornecer conteúdos do Power BI. As capacidades podem ser partilhadas ou dedicadas. Uma **Capacidade Partilhada** é partilhada com outros clientes da Microsoft, enquanto uma **Capacidade Dedicada** é totalmente alocada a um único cliente. As capacidades dedicadas são apresentadas no artigo [Capacidades premium](whitepaper-powerbi-premium-deployment.md#capacities).
 
 Na capacidade partilhada, as cargas de trabalho são executadas em recursos computacionais partilhados com outros clientes. Dado que a capacidade deve partilhar recursos, são impostos limites para garantir *fair play*, como definir um tamanho máximo de modelo (1 GB) e uma frequência máxima de atualização diária (oito vezes por dia).
 
-As **áreas de trabalho** do Power BI residem nas capacidades e representam contentores de implementação, colaboração e segurança. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. As áreas de trabalho adicionais podem ser criadas para permitir a colaboração e a implementação, e são conhecidas como **Áreas de Trabalho de Aplicações**. Por predefinição, as áreas de trabalho, incluindo as áreas de trabalho pessoais, são criadas na **capacidade partilhada**.
+As **áreas de trabalho** do Power BI residem nas capacidades e representam contentores de implementação, colaboração e segurança. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. As áreas de trabalho adicionais podem ser criadas para permitir a colaboração e a implementação, e são conhecidas como **áreas de trabalho**. Por predefinição, as áreas de trabalho, incluindo as áreas de trabalho pessoais, são criadas na **capacidade partilhada**.
 
 Veja a seguir alguns detalhes dos dois cenários de área de trabalho:
 

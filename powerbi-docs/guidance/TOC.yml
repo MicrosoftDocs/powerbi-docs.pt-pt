@@ -1,0 +1,36 @@
+- name: Documentação de orientação do Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: Descrição geral
+          href: overview.md
+    - name: Conceitos
+      expanded: true
+      items:
+        - name: O que é um esquema de estrela?
+          href: star-schema.md
+        - name: Reduce data model size (Reduzir o tamanho do modelo de dados)
+          href: import-modeling-data-reduction.md
+        - name: função DIVIDIR vs. operador dividir (/)
+          href: dax-divide-function-operator.md
+        - name: A importância da dobragem de consultas
+          href: power-query-folding.md
+        - name: Appropriate use of error functions (Utilização adequada de funções de erro)
+          href: dax-error-functions.md
+        - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
+          href: ../service-dataflows-best-practices.md
+        - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
+          href: directquery-model-guidance.md
+    - name: Whitepapers (Documentos técnicos)
+      items:
+        - name: Descrição geral dos documentos técnicos
+          href: ../whitepapers.md
+        - name: Documento técnico de segurança do Power BI
+          href: ../whitepaper-powerbi-security.md
+        - name: Implementação do Power BI Premium
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Distribute Power BI externally using Azure Active Directory B2B (Distribuir o Power BI externamente através do Azure Active Directory B2B)
+          href: ../whitepaper-azure-b2b-power-bi.md

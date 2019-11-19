@@ -2,7 +2,6 @@
 title: Gráficos de cascata no Power BI
 description: Gráficos de cascata no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191520"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881955"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascata no Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "71191520"
 
 Os gráficos de cascata mostram um total em execução conforme o Power BI adiciona e subtrai valores. São úteis para entender como um valor inicial (como a receita líquida) é afetado por uma série de alterações positivas e negativas.
 
-As colunas são codificadas para que possa verificar rapidamente os aumentos e as diminuições. Muitas vezes, as colunas de valores iniciais e finais [começam no ](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "eixo horizontal"), enquanto os valores intermediários são colunas flutuantes. Devido a esse estilo, os gráficos de cascata também são chamados de gráficos de ponte.
+As colunas são codificadas para que possa verificar rapidamente os aumentos e as diminuições. Muitas vezes, as colunas de valores iniciais e finais [começam no eixo horizontal](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "iniciar no eixo horizontal"), enquanto os valores intermediários são colunas flutuantes. Devido a esse estilo, os gráficos de cascata também são chamados de gráficos de ponte.
 
    > [!NOTE]
    > Este vídeo utiliza uma versão mais antiga do Power BI Desktop.
@@ -49,13 +48,13 @@ Os gráficos de cascata são uma ótima opção:
 
 ## <a name="prerequisite"></a>Pré-requisito
 
-Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
    
-2. Encontre a sua cópia do **ficheiro PBIX de Exemplo de Análise de Revenda**.
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-1. Abra o **Ficheiro PBIX de Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã do ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
@@ -64,7 +63,7 @@ Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](http:/
 
 Vai criar um gráfico de cascata que mostra a variação de vendas (vendas estimadas vs. vendas reais) por mês.
 
-1. No painel **Campos**, selecione **Vendas**  > **Variação de Vendas Total**.
+1. No painel **Campos**, selecione **Vendas** > **Variação de Vendas Total**.
 
    ![Captura de ecrã de Sales > Total Sales Variance e o elemento visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
 
@@ -76,7 +75,7 @@ Vai criar um gráfico de cascata que mostra a variação de vendas (vendas estim
 
     ![cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Confirme que o Power BI ordenou o gráfico de cascata por ordem cronológica. Selecione as reticências (...) no canto superior direito do gráfico.
+1. Confirme que o Power BI ordenou o gráfico de cascata por ordem cronológica. Selecione **Mais opções** (...) no canto superior direito do gráfico.
 
     Para este exemplo, vamos selecionar **Ordenação ascendente**
 

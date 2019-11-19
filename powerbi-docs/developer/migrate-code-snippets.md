@@ -3,18 +3,17 @@ title: Fragmentos de código para a migração de conteúdo a partir do Power BI
 description: Seguem-se alguns fragmentos de código de operações básicas necessários para a migração de conteúdo
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269235"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880501"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
 
@@ -167,7 +166,7 @@ Neste fragmento, estamos a utilizar as credenciais não encriptadas para maior s
 
 Terá de recriar o relatório para o conjunto de dados criado.
 
-Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por push já está numa área de trabalho de aplicação do ambiente SaaS. Para obter informações sobre a API push, veja [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md).
+Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por push já está numa área de trabalho do ambiente SaaS. Para obter informações sobre a API push, veja [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md).
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");
@@ -240,4 +239,4 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Documento técnico do Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

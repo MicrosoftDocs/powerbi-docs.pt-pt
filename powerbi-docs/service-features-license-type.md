@@ -1,8 +1,7 @@
 ---
 title: Funcionalidades do serviço Power BI por tipo de licença
-description: 'No serviço Power BI, os utilizadores têm capacidades definidas com base em dois tipos de licenças: por utilizador (versões gratuita e Pro) e com base na capacidade.'
+description: No serviço Power BI, os utilizadores têm capacidades definidas com base no tipo de licença por utilizador que têm (gratuita ou Pro) e se o conteúdo com o qual interagem está numa área de trabalho atribuída a uma capacidade Premium do Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 47070a7e215235826a35ba777683c2114ba612ec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554439"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881809"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Funcionalidades do serviço Power BI por tipo de licença
 
@@ -37,7 +36,7 @@ Segue-se uma lista das funcionalidades suportadas pelo tipo de licença por util
 | Incorporar APIs e controlos |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | **Colaboração** | | |
 | Partilha ponto a ponto |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
-| Áreas de trabalho de aplicações |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
+| Áreas de trabalho |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 | Analisar no Excel e no Power BI Desktop |![Funcionalidade não disponível](media/features-license-type/not-available.png) |![Funcionalidade disponível](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>Próximos passos

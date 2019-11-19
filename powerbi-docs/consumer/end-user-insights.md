@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207591"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019635"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Ver informações de dados nos mosaicos do dashboard com o Power BI
 Cada [mosaico](end-user-tiles.md) de elemento visual no dashboard é uma porta para a exploração de dados. Ao selecionar um mosaico, é aberto um relatório ou uma página de [Perguntas e Respostas](end-user-q-and-a.md) onde pode filtrar e ordenar, bem como aprofundar o conjunto de dados associado ao relatório. E quando executa as informações, o Power BI faz a exploração de dados por si.
@@ -31,7 +31,7 @@ A funcionalidade de informações é criada com base num [conjunto de algoritmos
 Quando executa as informações num mosaico do dashboard, o Power BI procura apenas os dados utilizados para criar esse único mosaico do dashboard. 
 
 1. [Abra um dashboard](end-user-dashboards.md).
-2. Coloque o cursor sobre um mosaico, selecione as reticências (...) e escolha **Ver informações**. 
+2. Coloque o cursor sobre um mosaico, selecione **Mais opções** (...) e selecione **Ver informações**. 
 
     ![modo de menu de reticências](./media/end-user-insights/power-bi-hovers.png)
 

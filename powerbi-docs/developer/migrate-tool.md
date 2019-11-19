@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272249"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429443"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
 
@@ -130,9 +130,9 @@ Um caminho será criado automaticamente para si. Se quiser, pode alterar este ca
 > [!NOTE]
 > Esta ação não executa efetivamente a transferência. Está apenas a especificar a estrutura do local para onde os relatórios serão transferidos.
 
-#### <a name="upload-plan"></a>Plano de Carregamento
+#### <a name="upload-plan"></a>Upload Plan
 
-Aqui, pode especificar um prefixo que será utilizado para as Áreas de Trabalho de Aplicação que serão criadas no serviço Power BI. Depois do prefixo, irá especificar o GUID para a área de trabalho que existia no Azure.
+Aqui, pode especificar um prefixo que será utilizado para as áreas de trabalho que serão criadas no serviço Power BI. Depois do prefixo, irá especificar o GUID para a área de trabalho que existia no Azure.
 
 ![Plano de carregamento](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +167,21 @@ Quando a transferência estiver concluída, selecione o separador **Criar Grupos
 
 ## <a name="step-3-create-groups"></a>Passo 3: Create Groups
 
-Depois de transferir os relatórios que estão disponíveis, pode ir para o separador **Criar Grupos**. Este separador irá criar as áreas de trabalho de aplicação no serviço Power BI com base no plano de migração que criou. Irá criar a área de trabalho de aplicação com o nome que indicou no separador **Carregar** em **Analisar e Planear a Migração**.
+Depois de transferir os relatórios que estão disponíveis, pode ir para o separador **Criar Grupos**. Este separador irá criar as áreas de trabalho no serviço Power BI com base no plano de migração que criou. Irá criar a área de trabalho com o nome que indicou no separador **Carregar** em **Analisar e Planear a Migração**.
 
 ![Criar grupos](media/migrate-tool/migrate-tool-create-groups.png)
 
-Para criar as áreas de trabalho de aplicação, pode selecionar **Criar Grupos Selecionados** ou **Criar Todos os Grupos em Falta**.
+Para criar as áreas de trabalho, pode selecionar **Criar Grupos Selecionados** ou **Criar Todos os Grupos em Falta**.
 
-Quando seleciona uma destas opções, ser-lhe-á pedido que inicie sessão. *Deverá utilizar as credenciais do serviço Power BI no qual pretende criar as áreas de trabalho da aplicação.*
+Quando seleciona uma destas opções, ser-lhe-á pedido que inicie sessão. *Deverá utilizar as credenciais do serviço Power BI no qual pretende criar as áreas de trabalho.*
 
 ![Criar o início de sessão de grupo](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-Esta ação irá criar a área de trabalho da aplicação no serviço Power BI. Não carrega os relatórios para a área de trabalho da aplicação.
+Esta ação irá criar a área de trabalho no serviço Power BI. Não carrega os relatórios para a área de trabalho.
 
-Pode verificar se a área de trabalho da aplicação foi criada ao iniciar sessão no Power BI e confirma que a área de trabalho existe. Vai notar que a área de trabalho está vazia.
+Pode verificar se a área de trabalho foi criada ao iniciar sessão no Power BI e confirmar se a área de trabalho existe. Vai notar que a área de trabalho está vazia.
 
-![Aplicação numa área de trabalho](media/migrate-tool/migrate-tool-app-workspace.png)
+![área de trabalho](media/migrate-tool/migrate-tool-app-workspace.png)
 
 Após a criação da área de trabalho, pode passar para o separador **Carregar**.
 
@@ -235,9 +235,9 @@ Para o item falhado, podemos alterar o nome do SaaSTargetReportName.
 
 Em seguida, podemos reabrir o plano, na ferramenta de migração, e carregar o relatório falhado.
 
-Voltando ao Power BI, podemos ver que os relatórios e conjuntos de dados foram carregados na área de trabalho da aplicação.
+Ao voltar ao Power BI, podemos ver que os relatórios e conjuntos de dados foram carregados na área de trabalho.
 
-![Carregar a área de trabalho de aplicação](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![Carregar área de trabalho](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +264,7 @@ Em seguida, pode atualizar a cadeia de ligação para o conjunto de dados no ser
 
 ## <a name="embedding"></a>Incorporação
 
-Agora que os seus relatórios foram migrados do serviço Power BI Embedded do Azure para o serviço Power BI, já pode atualizar a sua aplicação e começar a incorporar os relatórios na área de trabalho desta aplicação.
+Agora que os seus relatórios foram migrados do serviço Power BI Embedded do Azure para o serviço Power BI, já pode atualizar a sua aplicação e começar a incorporar os relatórios nesta área de trabalho.
 
 Para obter mais informações, veja [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md).
 

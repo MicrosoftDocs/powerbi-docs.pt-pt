@@ -7,22 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
+ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce6305ccaee7fac44917c1b3911cdd360ac204b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 80b68e3a122c84e57dd059cb840fa076be8e5c36
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065253"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169108"
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Copiar e colar uma visualização no serviço Power BI e no Power BI Desktop
-Copiar e colar uma visualização exige permissões de edição para o relatório. No serviço Power BI, isto significa abrir o relatório na [Vista de Edição](../consumer/end-user-reading-view.md).
+# <a name="copy-and-paste-a-report-visualization"></a>Copiar e colar uma visualização de relatório
+Copiar e colar uma visualização exige permissões de edição para o relatório. No serviço Power BI, isto significa abrir o relatório na [Vista de Edição](../consumer/end-user-reading-view.md). As visualizações nos dashboards não podem ser copiadas e coladas.
 
 1. Abra um relatório que tenha, pelo menos, uma visualização.  
 
-2. Selecione a visualização e use **Ctrl + C** para copiar, e **Ctrl + V** para colar.  
+2. Selecione a visualização e use **Ctrl + C** para copiar, e **Ctrl + V** para colar.      
+
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 
 ### <a name="next-steps"></a>Próximos passos

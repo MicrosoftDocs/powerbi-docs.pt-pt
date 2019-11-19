@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144608"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432074"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Criar e utilizar fluxos de dados no Power BI
 
 Com a preparação de dados avançada disponível no **Power BI**, pode criar uma coleção de dados chamada fluxo de dados, que, em seguida, pode utilizar para estabelecer ligação a dados de negócio de várias origens, limpar os dados, transformá-los e, em seguida, carregá-los no armazenamento do Power BI.
 
-Um **fluxo de dados** é uma coleção de *entidades* (as entidades são semelhantes a tabelas) que são criadas e geridas em áreas de trabalho de aplicação no serviço Power BI. Pode adicionar e editar entidades no seu fluxo de dados, bem como gerir agendas de atualização de dados, diretamente a partir da área de trabalho na qual o seu fluxo de dados foi criado.
+Um **fluxo de dados** é uma coleção de *entidades* (as entidades são semelhantes a tabelas) que são criadas e geridas em áreas de trabalho no serviço Power BI. Pode adicionar e editar entidades no seu fluxo de dados, bem como gerir agendas de atualização de dados, diretamente a partir da área de trabalho na qual o seu fluxo de dados foi criado.
 
 Depois de criar um fluxo de dados, pode utilizar o **Power BI Desktop** e o **serviço Power BI** para criar conjuntos de dados, relatórios, dashboards e aplicações que se baseiam nos dados que coloca nos fluxos de dados do Power BI e, dessa forma, obter informações sobre as suas atividades de negócios.
 
@@ -36,13 +36,13 @@ Existem três passos principais para utilizar um fluxo de dados:
 Nas seções a seguir, vamos examinar cada um desses passos e familiarizarmo-nos com as ferramentas disponibilizadas para concluir cada passo. Vamos começar.
 
 ## <a name="creating-a-dataflow"></a>Criar um fluxo de dados
-Para criar um fluxo de dados, inicie o serviço Power BI num browser, em seguida, selecione uma **área de trabalho de aplicação** (os fluxos de dados não estão disponíveis na *minha área de trabalho* no serviço Power BI) no painel de navegação esquerdo, como mostrado no ecrã seguinte. Também pode criar uma nova área para criar o novo fluxo de dados. 
+Para criar um fluxo de dados, inicie o serviço Power BI num browser e, em seguida, selecione uma **área de trabalho** (os fluxos de dados não estão disponíveis em  *A minha área de trabalho* no serviço Power BI) no painel de navegação esquerdo, conforme mostrado no ecrã seguinte. Também pode criar uma nova área para criar o novo fluxo de dados. 
 
 ![Criar um fluxo de dados no Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Assim que estiver numa **área de trabalho de aplicação**, onde pode criar um fluxo de dados, o botão **+ Criar** aparece no canto superior direito da tela. Selecione o botão **+ Criar** e, em seguida, selecione **Fluxo de dados** na lista pendente. 
+Assim que estiver numa **área de trabalho**, onde pode criar um fluxo de dados, o botão **+ Criar** aparece no canto superior direito da tela. Selecione o botão **+ Criar** e, em seguida, selecione **Fluxo de dados** na lista pendente. 
 
-É importante saber que existe apenas *um proprietário* para qualquer fluxo de dados, que é a pessoa que o cria. Apenas o proprietário pode editar o fluxo de dados. Todos os membros da **área de trabalho de aplicação** que têm permissões de leitura ou de escrita para a área de trabalho de aplicação onde é criado o fluxo de dados podem ligar-se ao fluxo de dados a partir do **Power BI Desktop**, conforme descrito mais à frente neste artigo.
+É importante saber que existe apenas *um proprietário* para qualquer fluxo de dados, que é a pessoa que o cria. Apenas o proprietário pode editar o fluxo de dados. Todos os membros da **área de trabalho** que têm permissões de leitura ou de escrita para a área de trabalho onde é criado o fluxo de dados podem ligar-se ao fluxo de dados a partir do **Power BI Desktop**, conforme descrito mais à frente neste artigo.
 
 ![Botão + Criar no serviço Power BI para criar um fluxo de dados](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ Quando estiver pronto e selecionar o botão **Guardar**, é apresentada uma jane
 
 Após guardar o fluxo de dados, vai querer agendar a frequência de atualização para cada uma das suas origens de dados ligadas.
 
-Os fluxos de dados do Power BI utilizam o processo de atualização de dados do Power BI para manter os dados atualizados. No **serviço Power BI**, na secção **área de trabalho de aplicação**, existe uma coleção de áreas onde as suas informações podem ser listadas, incluindo os fluxos de dados, conforme mostrado na imagem seguinte.
+Os fluxos de dados do Power BI utilizam o processo de atualização de dados do Power BI para manter os dados atualizados. No **serviço Power BI**, na secção **área de trabalho**, existe uma coleção de áreas onde as suas informações podem ser listadas, incluindo os fluxos de dados, conforme mostrado na imagem seguinte.
 
 ![Gerir os fluxos de dados no serviço Power BI](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Para ligar a um fluxo de dados, no Power BI Desktop, selecione **Obter Dados > 
 
 ![Ligar a fluxos de dados a partir do Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-A partir daí, navegue para a **área de trabalho de aplicação** onde guardou o fluxo de dados, selecione o fluxo de dados e, em seguida, selecione as entidades que criou na lista.
+A partir daí, navegue para a **área de trabalho** onde guardou o fluxo de dados, selecione o fluxo de dados e, em seguida, selecione as entidades que criou na lista.
 
 Também pode utilizar a **barra de pesquisa**, junto da parte superior da janela, para localizar rapidamente o nome do seu fluxo de dados ou as entidades entre as muitas entidades de fluxo de dados.
 

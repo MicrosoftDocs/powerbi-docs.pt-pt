@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514773"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019252"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Utilizar Ver Dados e Ver Registos no Power BI Desktop
 No **Power BI Desktop**, pode explorar os detalhes de uma visualização e ver representações textuais dos dados subjacentes ou registos dos dados individuais do elemento visual selecionado. Estas funcionalidades são, por vezes, referidas como *clicável*, *exploração* ou *exploração de detalhes*.
@@ -41,7 +41,7 @@ Pode utilizar **Ver Dados** para ver uma versão textual dos valores utilizados 
 
 ![Ver Dados no friso](media/desktop-see-data-see-records/see-data1.png)
 
-Também pode ver os dados ao clicar com o botão direito do rato numa visualização e, em seguida, selecionar **Mostrar Dados** no menu apresentado; ou ao selecionar as reticências de **Mais opções** (…) no canto superior direito de uma visualização e, em seguida, selecionar **Mostrar Dados**.
+Também pode ver os dados ao clicar com o botão direito do rato numa visualização e, em seguida, selecionar **Mostrar Dados** no menu apresentado; ou ao selecionar **Mais opções** (…) no canto superior direito de uma visualização e, em seguida, selecionar **Mostrar Dados**.
 
 ![Mostrar Dados com o botão direito do rato](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Mostrar Dados com Mais Opções](media/desktop-see-data-see-records/see-data3.png)
 

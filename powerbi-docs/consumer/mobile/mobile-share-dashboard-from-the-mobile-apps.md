@@ -2,19 +2,18 @@
 title: Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 description: Convide outros utilizadores para ver os seus dashboards e relatórios ao partilhar ligações a partir das aplicações móveis do Power BI. Saiba como.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274654"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879087"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Partilhar um dashboard ou relatório a partir das aplicações móveis do Power BI
 Aplica-se a:
@@ -86,7 +85,7 @@ Só pode anular a partilha se for o proprietário.
 3. Para anular a partilha, toque no círculo vermelho junto a um nome e toque em **Eliminar**.
 
 ## <a name="share-from-your-android-device"></a>Partilhar a partir do seu dispositivo Android
-1. Na página inicial dos dashboards ou relatórios, toque nas reticências (...) e, em seguida, toque em **Convidar um colega**.
+1. Na home page de dashboards ou relatórios, toque em **Mais opções** (...) e, em seguida, toque em **Convidar um colega**.
    
    ![Convidar um colega](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. Em alternativa, num dashboard ou relatório, toque no ícone Convidar ![Ícone de convite](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
@@ -147,5 +146,5 @@ Só pode anular a partilha se for o proprietário.
 ## <a name="next-steps"></a>Próximos passos
 * [Anotar e partilhar um instantâneo de um mosaico, relatório ou visual nas aplicações móveis](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Partilhar um dashboard ou relatório no Power BI](../../service-share-dashboards.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

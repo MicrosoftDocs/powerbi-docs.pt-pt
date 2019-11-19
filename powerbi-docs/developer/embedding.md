@@ -17,16 +17,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391514"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430721"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análise incorporada com o Power BI
 
-O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Ao incorporar conteúdos, terá acesso às mais recentes funcionalidades do Power BI, como dashboards, gateways e áreas de trabalho de aplicações.
+O serviço Power BI (SaaS) e o serviço Power BI Embedded no Azure (PaaS) têm APIs para incorporar os seus dashboards e relatórios. Ao incorporar conteúdos, terá acesso às mais recentes funcionalidades do Power BI, como dashboards, gateways e áreas de trabalho.
 
 Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup) para começar rapidamente e transferir uma aplicação de exemplo.
 
@@ -85,7 +85,7 @@ Os programadores que utilizam o Power BI Embedded podem ter tempo para se focar 
 > [!IMPORTANT]
 > Embora o serviço Power BI seja necessário para a incorporação, os seus clientes não precisam de ter uma conta do Power BI para ver os conteúdos incorporados da sua aplicação. 
 
-Quando estiver pronto para passar à produção, terá de ser atribuída uma capacidade dedicada à sua área de trabalho de aplicação. O Power BI Embedded, no Microsoft Azure, disponibiliza [capacidades dedicadas](azure-pbie-create-capacity.md) para as suas aplicações.
+Quando estiver pronto para passar à produção, terá de ser atribuída uma capacidade dedicada à sua área de trabalho. O Power BI Embedded, no Microsoft Azure, disponibiliza [capacidades dedicadas](azure-pbie-create-capacity.md) para as suas aplicações.
 
 Para obter informações sobre a incorporação, veja [Como incorporar conteúdos do Power BI](embed-sample-for-customers.md).
 

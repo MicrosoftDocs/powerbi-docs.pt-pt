@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375144"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020501"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Ativar a Cortana para aceder a relatórios do Power BI (e conjuntos de dados associados)
 Leu a [Introdução à Cortana e ao Power BI](service-cortana-intro.md) (se não a leu, recomendamos que a leia primeiro e depois regresse a esta secção). Agora, quer experimentar.  Antes de poder fazer perguntas em linguagem natural na Cortana e encontrar respostas de dados armazenados em ***relatórios*** do Power BI, existem alguns requisitos. Especificamente, precisa do seguinte.
 
 > [!IMPORTANT]
-> Integração da Cortana está a ser preterida no Power BI. A partir 11 de Junho, Cortana deixará de funcionar para todos os dashboards e relatórios.
+> A integração da Cortana irá ser preterida no Power BI. A partir de 11 de junho, a Cortana deixará de funcionar para os dashboards e relatórios.
 
 No serviço Power BI
 
@@ -42,7 +42,7 @@ Terá de iniciar sessão no serviço Power BI (não no Power BI Desktop) e repet
 2. O conjunto de dados associado a este relatório é **Contoso Sales** (Vendas Contoso).
    
     ![Conjunto de dados Contoso Sales (Vendas Contoso)](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. À direita do nome do conjunto de dados, selecione as **reticências (…) > Definições**.  
+3. À direita do nome do conjunto de dados, selecione **Mais opções** (...) > Definições**.  
    
     ![Selecionar Definições](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. Selecione **Perguntas e Respostas e Cortana** > **Ativar a Cortana para aceder a este conjunto de dados** > **Aplicar**.

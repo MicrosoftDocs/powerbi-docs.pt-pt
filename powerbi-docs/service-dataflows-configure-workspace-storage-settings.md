@@ -1,6 +1,6 @@
 ---
 title: Configurar definições de fluxos de dados da área de trabalho
-description: Configurar uma área de trabalho da aplicação no Power BI para armazenar a definição de fluxos de dados e os ficheiros de dados no Azure Data Lake Storage Gen2
+description: Configurar uma área de trabalho no Power BI para armazenar a definição de fluxos de dados e os ficheiros de dados no Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523509"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431999"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
 
@@ -35,11 +35,11 @@ Iremos analisar cada uma delas nas secções a seguir.
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Criar uma nova área de trabalho e configurar o respetivo armazenamento de fluxos de dados
 
-Para criar uma nova área de trabalho da aplicação no serviço Power BI, selecione **Áreas de trabalho > Criar área de trabalho da aplicação**.
+Para criar uma nova área de trabalho no serviço Power BI, selecione **Áreas de trabalho > Criar área de trabalho**.
 
 ![Adicionar nova área de Trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-Na caixa de diálogo Criar uma área de trabalho da aplicação, pode ser apresentada uma caixa amarela intitulada **Pré-visualizar as áreas de trabalho melhoradas**. Nessa área, selecione **Experimentar**.
+Na caixa de diálogo Criar uma área de trabalho, pode ser apresentada uma caixa amarela intitulada **Pré-visualizar as áreas de trabalho melhoradas**. Nessa área, selecione **Experimentar**.
 
 ![Pré-visualizar as áreas de trabalho melhoradas](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +47,7 @@ Na caixa de diálogo apresentada, pode atribuir um nome exclusivo à nova área 
 
 ![Atribuir um nome à nova área de trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Em seguida, expanda a área **Avançadas** da caixa de diálogo **Criar uma área de trabalho da aplicação**, onde pode ativar a definição **Armazenamento de fluxos de dados (pré-visualização)** .
+Em seguida, expanda a área **Avançadas** da caixa de diálogo **Criar uma área de trabalho**, onde pode ativar a definição **Armazenamento de fluxos de dados (pré-visualização)** .
 
 ![Definições avançadas para a nova área de trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +57,7 @@ Selecione **Guardar** para criar a nova área de trabalho. Qualquer fluxo de dad
 
 Como alternativa à criação de uma nova área de trabalho, pode atualizar uma área de trabalho existente para armazenar o ficheiro de definições e os dados na conta do Azure Data Lake Storage Gen2 da sua organização. Não se esqueça que só é possível alterar a definição de armazenamento de fluxos de dados se a área de trabalho não contiver já um fluxo de dados.
 
-Para editar uma área de trabalho da aplicação, selecione as reticências **(...)** e, em seguida, selecione **Editar área de trabalho**. 
+Para editar uma área de trabalho, selecione as reticências **(...)** e, em seguida, selecione **Editar área de trabalho**. 
 
 ![Editar área de trabalho](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +103,7 @@ Existem algumas considerações adicionais, descritas na lista seguinte:
 
 Os clientes do **Power BI Desktop** não podem aceder a fluxos de dados armazenados numa conta do Azure Data Lake Storage Gen2, salvo se forem os proprietários do fluxo de dados. Considere a situação seguinte:
 
-1.  A Ana cria uma nova área de trabalho de aplicação e configura-a para armazenar os fluxos de dados no data lake da organização.
+1.  A Ana cria uma nova área de trabalho e configura-a para armazenar os fluxos de dados no data lake da organização.
 2.  O Nuno, que também é membro da área de trabalho criada pela Ana, quer utilizar o Power BI Desktop e o conector de fluxo de dados para obter dados do fluxo de dados criado pela Ana.
 3.  O Miguel recebe um erro porque não foi adicionado como utilizador autorizado à pasta de CDM do fluxo de dados no data lake.
 

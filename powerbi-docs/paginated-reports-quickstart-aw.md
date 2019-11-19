@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839741"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431665"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: criar um relatório paginado e carregá-lo para o serviço Power BI
 
@@ -44,7 +44,7 @@ Seguem-se os pré-requisitos para a criação do relatório paginado:
 Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço Power BI:
 
 - Precisa de uma [licença do Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- Precisa de uma área de trabalho de aplicação no serviço numa [capacidade do Power BI Premium](service-premium-what-is.md). Essa capacidade tem um ícone de losango ![Ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) junto do nome da área de trabalho.
+- Precisa de uma área de trabalho no serviço numa [capacidade do Power BI Premium](service-premium-what-is.md). Essa capacidade tem um ícone de losango ![Ícone de losango Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) junto do nome da área de trabalho.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Criar a matriz com um assistente
   
@@ -137,7 +137,7 @@ Seguem-se os pré-requisitos para carregar o relatório paginado para o serviço
 
     - OrderQty
     - PreçoUnitário
-    - Total
+    - TotalDaLinha
 
     O Report Builder faz com que os campos na caixa **Valores** sejam somados.
 
@@ -287,7 +287,7 @@ Mais uma melhoria na formatação antes de publicar o relatório no serviço Pow
 
 Agora que criou o relatório paginado, chegou a hora de o carregar no serviço Power BI.
 
-1. No serviço Power BI (http://app.powerbi.com), na navegação esquerda, selecione **Áreas de trabalho** > **Criar área de trabalho de aplicação**.
+1. No serviço Power BI (http://app.powerbi.com), no painel de navegação esquerdo, selecione **Áreas de trabalho** > **Criar área de trabalho**.
 
 2. Dê o nome **Azure AW** ou outro nome exclusivo à área de trabalho. É o único membro por enquanto. 
 

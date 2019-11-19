@@ -2,21 +2,19 @@
 title: Sugestões e truques para fazer perguntas com as Perguntas e Respostas
 description: Dicas e truques para fazer perguntas com as Perguntas e Respostas do Power BI
 author: mihart
-manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408179"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099019"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas nas Perguntas e Respostas do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecidas pelas Perguntas e Respostas
@@ -66,7 +64,7 @@ A lista abaixo utiliza o tempo verbal presente, mas todos os tempos são reconhe
 |  |  |
 |**Maiores N**     |     (ordem, classificação): maiores, menores, mais altos, mais baixos, primeiro, último, seguinte, primeiros, mais recentes, mais antigos, últimos, mais recente, próximo            |
 |        |         |
-|**Tipos visuais**     |  todos os tipos visuais nativos do Power BI.  Se for uma opção no painel Visualizações, pode incluí-lo na sua pergunta.  A exceção à regra são os [elementos visuais personalizados](../power-bi-custom-visuals.md) que adicionou manualmente ao painel Visualização.  |
+|**Tipos visuais**     |  todos os tipos visuais nativos do Power BI.  Se for uma opção no painel Visualizações, pode incluí-lo na sua pergunta.  A exceção à regra são os [elementos visuais personalizados](../developer/power-bi-custom-visuals.md) que adicionou manualmente ao painel Visualização.  |
 |  |  Exemplo: mostrar distritos por mês e total de vendas como gráfico de barras               |
 |        |         |
 |**Q (relação qualificada)**  | quando, onde, qual, quem, a quem, quantos, quanto, quantas vezes, com que frequência, montante, número, quantidade, quanto tempo, o quê                |
@@ -79,7 +77,9 @@ As perguntas e respostas tentam ao máximo compreender e responder à pergunta q
 * apresentam uma pré-visualização da resposta sob a forma de um elemento visual. O elemento visual é atualizado à medida que escreve e edita a pergunta (não espera até que prima Enter).
 * sugerem automaticamente termos de substituição do(s) conjunto(s) de dados subjacente(s) quando move o cursor de novo para a caixa de perguntas.
 * reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). As perguntas e respostas substituem as palavras que utilizou por sinónimos do(s) conjunto(s) de dados subjacente(s). Ao ler a reformulação, sabe se as perguntas e respostas perceberam a sua pergunta ou não. 
-* esbate as palavras que não são entendidas.
+* adiciona um sublinhado duplo às palavras que não entende.
+* adiciona um sublinhado simples às palavras que entende.
+* permite-lhe contactar o proprietário do relatório ou dashboard quando o seu termo não é encontrado ou quando a sua pergunta não gera resultados.
 
 ## <a name="dont-stop-now"></a>Não parar agora
 Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! Use as funcionalidades interativas do elemento visual e as Perguntas e Respostas para descobrir mais informações.
@@ -89,5 +89,5 @@ Voltar a [Perguntas e Respostas do Power BI](end-user-q-and-a.md)
 
 [Power BI - conceitos básicos](end-user-basic-concepts.md)  
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

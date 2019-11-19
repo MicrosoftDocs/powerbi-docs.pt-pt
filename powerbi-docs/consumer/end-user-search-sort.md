@@ -3,22 +3,25 @@ title: Procurar e ordenar os seus conteúdos no serviço Power BI
 description: documentação para procurar e ordenar conteúdos nas minhas áreas de trabalho do Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302809"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891773"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisar, localizar e ordenar conteúdo no serviço Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Existem muitas formas de navegar até aos seus conteúdos no serviço Power BI. Os conteúdos estão organizados por tipos na área de trabalho: dashboards e relatórios.  O conteúdo também está organizado por utilização: favoritos, recentes, aplicações, partilhados comigo e em destaque. Para uma navegação num só local, a *Home Page* do Power BI organiza todos os conteúdos numa única página. Estes diferentes caminhos nos conteúdos permitem-lhe localizar rapidamente o que precisa no serviço Power BI.  
 
 ## <a name="navigation-within-workspaces"></a>Navegação nas áreas de trabalho
@@ -41,13 +44,13 @@ Também pode ordenar o conteúdo por nome ou proprietário. Repare na seta para 
 
 ![ordenar conteúdos](./media/end-user-experience/power-bi-sort-new.png)
 
-Nem todas as colunas podem ser ordenadas. Paire com o cursor sobre os cabeçalhos de coluna para descobrir quais podem ser ordenados.
+Nem todas as colunas podem ser ordenadas. Paire o cursor sobre os cabeçalhos de coluna para descobrir quais podem ser ordenados.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>Navegação com a barra de navegação esquerda
-A barra de navegação esquerda classifica os conteúdos de forma a ajudá-lo a encontrar rapidamente o que precisa.  
+## <a name="navigation-using-the-navigation-pane"></a>Navegação com o painel de navegação
+O painel de navegação classifica os conteúdos de forma a ajudá-lo a encontrar rapidamente o que precisa.  
 
-![barra de navegação esquerda](./media/end-user-search-sort/power-bi-navbar.png)
+![painel de navegação esquerdo](./media/end-user-search-sort/power-bi-navbar.png)
 
 
 - O conteúdo partilhado consigo está disponível em **Partilhado comigo**.

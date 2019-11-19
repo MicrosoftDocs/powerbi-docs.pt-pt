@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903800"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019478"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Um relatório é uma ou mais páginas de elementos visuais. Os relatórios são criados pelos *designers* do Power BI e [partilhados com os *consumidores* diretamente](end-user-shared-with-me.md) ou como parte de uma [aplicação](end-user-apps.md). 
 
 Há muitas formas diferentes de abrir um relatório. Eis dois exemplos: abrir a partir da Home Page e abrir a partir de um dashboard. 
@@ -52,7 +55,7 @@ Os *designers* do Power BI podem partilhar um relatório individual diretamente
 
 6. Repare no painel **Filtros** no lado direito. Os filtros que foram aplicados a esta página de relatório ou a todo o relatório são apresentados aqui.
 
-7. Pairar o curso sobre um elemento visual de relatório revela vários ícones e as reticências (...). Para ver os filtros aplicados a um elemento visual específico, selecione o ícone de filtro. Aqui, selecionamos o ícone de filtro para o gráfico de linhas *Unidades totais por período de implementação e região*.
+7. Pairar o cursor sobre um elemento visual de relatório revela vários ícones e **Mais opções** (...). Para ver os filtros aplicados a um elemento visual específico, selecione o ícone de filtro. Aqui, selecionamos o ícone de filtro para o gráfico de linhas *Unidades totais por período de implementação e região*.
 
    ![separadores de página de relatório](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [m
 - Com a opção [Ver relacionados](end-user-related.md)    
 - Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](end-user-alerts.md)    
 - A partir do [Centro de notificações](end-user-notification-center.md)    
+- A partir de uma área de trabalho
 - e muito mais
 
 ## <a name="next-steps"></a>Próximos passos

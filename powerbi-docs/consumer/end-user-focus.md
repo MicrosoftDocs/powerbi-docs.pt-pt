@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327810"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019810"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ Existem duas formas de abrir o modo de detalhe: uma para os mosaicos do dashboar
 
 1. Abra um dashboard no serviço Power BI.
 
-2. Paire o cursor sobre um mosaico do dashboard ou sobre um elemento visual do relatório, selecione as reticências (…) e selecione **Abrir no modo de detalhe**.
+2. Paire o cursor sobre um mosaico do dashboard ou sobre um elemento visual do relatório, selecione **Mais opções** (…) e selecione **Abrir no modo de detalhe**.
 
     ![menu de reticências do mosaico](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. O mosaico é aberto e ocupa toda a tela do relatório. Repare que continuará a poder utilizar o painel **Filtros** para interagir com o elemento visual. O painel **Filtros** pode ser fechado. 
+2. O mosaico é aberto e ocupa toda a tela do relatório. Repare que continuará a poder utilizar o painel **Filtros** para interagir com o elemento visual. O painel **Filtros** pode ser fechado.
 
    ![mosaico a ocupar a tela do relatório](media/end-user-focus/power-bi-focus-filter.png)
 

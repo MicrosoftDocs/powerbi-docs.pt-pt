@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194989"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017750"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráfico de combinação no Power BI
 
@@ -36,13 +36,13 @@ Os gráficos de combinação são uma ótima opção:
 * para conservar o espaço da tela.
 
 ### <a name="prerequisites"></a>Pré-requisitos
-Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX do Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
    
-2. Procure a sua cópia do **ficheiro PBIX de Exemplo de Análise de Revenda**
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
 
-1. Abra o **Ficheiro PBIX de Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
@@ -67,7 +67,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
     c. Selecione **Hora** \> **MêsFiscal** para adicionar este campo ao painel **Eixo**.
 
     ![exemplo de tutorial de combinação](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Selecione as reticências (…) no canto superior direito da visualização e selecione **Ordenar por > MêsFiscal**. Para alterar a sequência de ordenação, selecione as reticências novamente e selecione **Ordenação ascendente** ou **Ordenação descendente**. Para este exemplo, vamos utilizar **Ordenação ascendente**.
+5. Selecione **Mais opções** (...) no canto superior direito da visualização e, em seguida, **Ordenar por > MêsFiscal**. Para alterar a sequência de ordenação, selecione as reticências novamente e selecione **Ordenação ascendente** ou **Ordenação descendente**. Para este exemplo, vamos utilizar **Ordenação ascendente**.
 
 6. Converta o gráfico de colunas num gráfico de combinação. Estão disponíveis dois gráficos de combinação: **Coluna de linhas e empilhada** e **Coluna de linhas e em cluster**. Com o gráfico de colunas selecionado, no painel **Visualizações**, selecione **Gráfico de linhas e de colunas agrupadas**.
 
@@ -83,7 +83,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 ## <a name="create-a-combo-chart-with-two-axes"></a>Criar um gráfico de combinação com dois eixos
 Nesta tarefa, vamos comparar as vendas e a margem bruta.
 
-1. Crie um novo gráfico de linhas que acompanha a **% da Margem Bruta do ano passado**  por **Mês Fiscal**. Selecione as reticências para ordenar por **Mês** e **Ascendente**.  
+1. Crie um novo gráfico de linhas que acompanha a **% da Margem Bruta do ano passado** por **Mês Fiscal**. Selecione as reticências para ordenar por **Mês** e **Ascendente**.  
 Em janeiro, a percentagem de Margem Bruta foi de 35%, chegando ao máximo de 45% em abril, caindo em julho e chegando ao máximo novamente em agosto. Será que vamos ver um padrão semelhante nas vendas do ano passado e deste ano?
 
    ![exemplo de gráfico de combinação de vendas](media/power-bi-visualization-combo-chart/combo1-new.png)

@@ -8,61 +8,67 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c5838d12351c06d0a76a975c9c473b1c00856d97
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: e25db5ab57e3a52ffc08020dc980553e515256bf
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299287"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73049034"
 ---
 # <a name="part-1-add-visualizations-to-a-power-bi-report"></a>Parte 1, Adicionar visualizações a um relatório do Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Este artigo apresenta uma breve introdução à criação de uma visualização num relatório. Aplica-se ao serviço Power BI e ao Power BI Desktop. Para obter conteúdos mais avançados, [veja a Parte 2](power-bi-report-add-visualizations-ii.md) desta série. Veja a Amanda a demonstrar algumas formas diferentes de criar, editar e formatar visuais a tela de relatórios. Em seguida, experimente utilizando o [exemplo Vendas e Marketing](../sample-datasets.md) para criar os seus próprios relatórios.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-## <a name="open-a-report-and-add-a-new-page"></a>Abra um relatório e adicione uma nova página
+## <a name="prerequisites"></a>Pré-requisitos
 
-1. Abra um [relatório na Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
+Este tutorial utiliza o [ficheiro PBIX de Vendas e marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
 
-    Este tutorial utiliza o [exemplo de Vendas e Marketing](../sample-datasets.md).
+1. Na secção superior esquerda da barra de menus do Power BI Desktop, selecione **Ficheiro** > **Abrir**
+   
+2. Localize a sua cópia do **ficheiro PBIX de Vendas e marketing**.
 
-1. Se o painel **Campos** não estiver visível, selecione o ícone de seta para o abrir.
+1. Abra o **ficheiro PBIX de Vendas e marketing** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-   ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-
-1. Adicione uma página em branco ao relatório.
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
 
 ## <a name="add-visualizations-to-the-report"></a>Adicione visualizações ao relatório
 
 1. Crie uma visualização selecionando um campo no painel **Campos**.
 
-    Comece com um campo numérico, como **FactosDeVendas** > **Vendas $** . O Power BI cria um gráfico de colunas com uma única coluna.
+    Comece com um campo numérico, como **Vendas** > **TotalDeVendas**. O Power BI cria um gráfico de colunas com uma única coluna.
 
-    ![Captura de ecrã de um gráfico de colunas com uma única coluna.](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
+    ![Captura de ecrã de um gráfico de colunas com uma única coluna.](media/power-bi-report-add-visualizations-i/power-bi-column-chart.png)
 
     Em alternativa, comece com um campo de categoria, como **Nome** ou **Produto**. O Power BI cria uma tabela e adiciona esse campo ao conjunto **Valores**.
 
-    ![GIF de uma pessoa a selecionar Produto e, em seguida, a categoria para criar uma tabela.](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
+    ![Captura de ecrã a mostrar uma tabela com quatro categorias](media/power-bi-report-add-visualizations-i/power-bi-product.png)
 
     Também pode começar com um campo geográfico, como **Área Geográfica** > **Cidade**. O Power BI e o Bing Maps criam uma visualização de mapa.
 
-    ![Captura de ecrã de uma visualização de mapa.](media/power-bi-report-add-visualizations-i/power-bi-map.png)
+    ![Captura de ecrã de uma visualização de mapa.](media/power-bi-report-add-visualizations-i/power-bi-maps.png)
 
-1. Crie uma visualização e, em seguida, altere o respetivo tipo. Selecione **Produto** > **Categoria** e, em seguida, **Produto** > **Contagem do Produto** para adicionar ambos ao conjunto **Valores**.
+## <a name="change-the-type-of-visualization"></a>Alterar o tipo de visualização
 
-   ![Captura de ecrã do painel Campos com o conjunto Valores destacado.](media/power-bi-report-add-visualizations-i/part1table1.png)
+ Crie uma visualização e, em seguida, altere o respetivo tipo. 
+ 
+ 1. Selecione **Produto** > **Categoria** e, em seguida, **Produto** > **Contagem do Produto** para adicionar ambos ao conjunto **Valores**.
+
+    ![Captura de ecrã do painel Campos com o conjunto Valores destacado.](media/power-bi-report-add-visualizations-i/power-bi-create-visual.png)
 
 1. Altere a visualização para um gráfico de colunas ao selecionar o ícone **Gráfico de colunas empilhadas**.
 
-   ![Captura de ecrã do painel Visualizações, com o ícone Gráfico de colunas empilhadas destacado.](media/power-bi-report-add-visualizations-i/part1converttocolumn.png)
+   ![Captura de ecrã do painel Visualizações, com o ícone Gráfico de colunas empilhadas destacado.](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Quando criar visualizações no relatório, pode [afixá-las ao dashboard](../service-dashboard-pin-tile-from-report.md). Para afixar a visualização, selecione o ícone afixar ![Captura de ecrã do ícone afixar](media/power-bi-report-add-visualizations-i/pinnooutline.png).
+1. Para alterar a forma como o elemento visual é ordenado, selecione **Mais ações** (...).  Utilize as opções de ordenação para alterar o sentido da ordenação (crescente ou decrescente) e alterar a coluna que está a ser utilizada para ordenar (**Ordenar por**).
 
-   ![Captura de ecrã de uma visualização do gráfico de colunas com o ícone afixar destacado.](media/power-bi-report-add-visualizations-i/part1pin1.png)
+   ![Captura de ecrã a mostrar o menu pendente Mais ações.](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   
 ## <a name="next-steps"></a>Próximos passos
 
@@ -72,6 +78,3 @@ Este artigo apresenta uma breve introdução à criação de uma visualização 
 
 * [Interaja com as visualizações](../consumer/end-user-reading-view.md) no relatório.
 
-* [Faça mais com visualizações](power-bi-report-visualizations.md).
-
-* [Guarde o relatório](../service-report-save.md).

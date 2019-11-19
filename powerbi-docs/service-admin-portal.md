@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305883"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442883"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -169,9 +169,11 @@ As próximas secções fornecem uma descrição geral dos diferentes tipos de de
 
 Os utilizadores na organização podem aceder aos recursos de ajuda e suporte internos a partir do menu de ajuda do Power BI. Especificamente, estes parâmetros alteram o comportamento dos itens de menu de ajuda Saber mais, Comunidade e Obter ajuda.
 
-Também pode especificar um URL para direcionar os utilizadores para uma solução personalizada para pedidos de licenciamento. Este parâmetro personaliza o URL de destino do botão Atualizar conta que um utilizador sem uma licença do Power BI Pro pode encontrar na caixa de diálogo Atualizar para o Power BI Pro, bem como na página Gerir o armazenamento pessoal.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receba notificações por e-mail sobre incidentes ou indisponibilidades do serviço
+Ao especificar um URL para pedidos de licenciamento, personaliza o URL de destino do botão **Atualizar conta** que um utilizador sem uma licença do Power BI Pro pode encontrar na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerir o armazenamento pessoal**. Além disso, o Power BI já não oferece o botão **Experimentar o Pro gratuitamente** nesta caixa de diálogo ou na página de armazenamento para garantir que o Power BI orienta os seus utilizadores de forma fiável pelos processos definidos na sua organização através da sua solução de gestão de licenças.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receber notificações por e-mail sobre incidentes ou indisponibilidades do serviço
 
 Os grupos de segurança com capacidade de correio receberão notificações de e-mail se este inquilino for afetado por um incidente ou uma indisponibilidade do serviço. Saiba mais sobre as [Notificações de interrupção do serviço](service-interruption-notifications.md).
 
@@ -179,7 +181,7 @@ Os grupos de segurança com capacidade de correio receberão notificações de e
 
 ### <a name="create-workspaces"></a>Criar áreas de trabalho
 
-Os administradores utilizam a definição **Criar áreas de trabalho** para indicar quais os utilizadores na organização que podem criar áreas de trabalho de aplicações para colaborar em dashboards, relatórios e outros conteúdos. Saiba mais sobre as [áreas de trabalho da aplicação](service-create-the-new-workspaces.md).
+Os administradores utilizam a definição **Criar áreas de trabalho** para indicar quais os utilizadores na organização que podem criar áreas de trabalho para colaborar em dashboards, relatórios e outros conteúdos. Saiba mais sobre as [áreas de trabalho](service-create-the-new-workspaces.md).
 
 O portal de administração tem outra secção de definições sobre as áreas de trabalho no seu inquilino. Nesta secção, pode ordenar e filtrar a lista de áreas de trabalho e ver os detalhes de cada área de trabalho. Veja [Áreas de trabalho](#workspaces) para obter detalhes.
 
@@ -293,7 +295,7 @@ Os utilizadores na organização podem utilizar o Excel para ver e interagir com
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>Utilizar o ArcGIS Maps for Power BI
 
-Os utilizadores na organização podem utilizar a visualização dos ArcGIS Maps for Power BI fornecida pela Esri. [Saiba mais](visuals/power-bi-visualization-arcgis.md)
+Os utilizadores na organização podem utilizar a visualização dos ArcGIS Maps for Power BI fornecida pela Esri. [Saiba mais](visuals/power-bi-visualization-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Utilizar a pesquisa global para o Power BI (Pré-visualização)
 
@@ -312,7 +314,7 @@ Os utilizadores na organização podem interagir e partilhar elementos visuais p
 O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais personalizados nos computadores implementados numa organização.
 
 <table>
-<tr><th>Attribute</th><th>Valor</th>
+<tr><th>Atributo</th><th>Valor</th>
 </tr>
 <td>chave</td>
     <td>Software\Policies\Microsoft\Power BI Desktop\</td>
@@ -334,7 +336,7 @@ Os utilizadores na organização que receberam permissões para adicionar e util
 O Power BI Desktop (a partir do lançamento de março de 2019) suporta a utilização da **Política de Grupo** para desativar a utilização de elementos visuais personalizados não certificados nos computadores implementados numa organização.
 
 <table>
-<tr><th>Attribute</th><th>Valor</th>
+<tr><th>Atributo</th><th>Valor</th>
 </tr>
 <td>chave</td>
     <td>Software\Policies\Microsoft\Power BI Desktop\</td>
@@ -400,7 +402,7 @@ As aplicações Web registadas no Azure Active Directory (Azure AD) utilizarão
 > [!NOTE]
 > Os principais de serviço herdam as permissões de todas as definições do inquilino do Power BI do respetivo grupo de segurança. Para restringir as permissões, crie um grupo de segurança dedicado para os principais de serviço e adicione-o à lista "Exceto grupos de segurança específicos" para as definições do Power BI relevantes ativadas.
 
-## <a name="dataflow-settings"></a>Definições de fluxos de dados
+## <a name="dataflow-settings"></a>Definições do fluxo de dados
 
 ### <a name="create-and-use-dataflows"></a>Criar e utilizar fluxos de dados
 
@@ -429,7 +431,7 @@ Os utilizadores na organização podem transferir e instalar aplicações de mod
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>Instalar aplicações de modelo não listadas no AppSource
 
-Controle quais os utilizadores na organização que podem transferir e instalar aplicações de modelo **não listadas no [AppSource](https://appsource.microsoft.com)** .
+Controle quais os utilizadores na organização que podem transferir e instalar aplicações de modelo **não listadas no [AppSource](https://appsource.microsoft.com)**.
 
 ![Portal de administração do Power BI, definição Instalar aplicações de modelo](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
@@ -525,14 +527,14 @@ Enquanto administrador, pode ver as áreas de trabalho existentes no seu inquili
 
 No separador **Áreas de trabalho**, vê o *estado* de cada área de trabalho. A tabela abaixo fornece mais detalhes sobre o significado desses estados.
 
-|State  |Descrição  |
+|Estado  |Descrição  |
 |---------|---------|
 | Ativo | Uma área de trabalho normal. Não indica nada sobre a utilização ou os respetivos conteúdos; apenas indica que a própria área de trabalho é "normal". |
 | Isolado | Uma área de trabalho sem utilizador administrador. |
 | Eliminado | Uma área de trabalho eliminada. Mantemos metadados suficientes para restaurar a área de trabalho, se for pretendido. |
 | A remover | Uma área de trabalho prestes a ser eliminada, mas que ainda não foi. Os utilizadores podem eliminar as suas próprias áreas de trabalho, colocando-as em A remover e, por fim, em Eliminado. |
 
-## <a name="custom-branding"></a>Imagem corporativa personalizada
+## <a name="custom-branding"></a>(Aplicação de) Imagem corporativa personalizada
 
 Como administrador, pode personalizar o aspeto do Power BI para toda a sua organização. Atualmente, existem três opções principais:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307937"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442946"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -93,14 +93,14 @@ Uma operação de atualização do Power BI pode consistir em múltiplos tipos d
 
 #### <a name="data-refresh"></a>Atualização de dados
 
-Para utilizadores do Power BI, atualizar dados significa normalmente importar dados das origens de dados originais para um conjunto de dados, com base numa agenda de atualização ou a pedido. Pode fazer múltiplas atualizações ao conjunto de dados diariamente, o que poderá ser necessário se a origem de dados subjacente for alterada com frequência. O Power BI limita os conjuntos de dados na capacidade partilhada a oito atualizações diárias. Se o conjunto de dados residir numa capacidade Premium, pode fazer até 48 atualizações por dia. Para obter mais informações, veja Configurar a atualização agendada, mais adiante neste artigo.
+Para utilizadores do Power BI, atualizar dados significa normalmente importar dados das origens de dados originais para um conjunto de dados, com base numa agenda de atualização ou a pedido. Pode fazer múltiplas atualizações ao conjunto de dados diariamente, o que poderá ser necessário se a origem de dados subjacente for alterada com frequência. O Power BI limita os conjuntos de dados na capacidade partilhada a oito atualizações diárias. Se o conjunto de dados residir numa capacidade Premium, pode agendar até 48 atualizações por dia nas definições de conjuntos de dados. Para obter mais informações, veja Configurar a atualização agendada, mais adiante neste artigo.
 
-É também importante destacar que a limitação de atualização diária se aplica a ambas as atualizações, agendadas e a pedido. Pode acionar uma atualização a pedido ao selecionar **Atualizar Agora** no menu do conjunto de dados, como ilustra a seguinte captura de ecrã. Também pode acionar uma atualização de dados programaticamente ao utilizar a API REST do Power BI. Veja [Conjuntos de Dados - Atualizar o Conjunto de Dados](/rest/api/power-bi/datasets/refreshdataset) se tiver interesse em criar a sua própria solução de atualização.
+É também importante destacar que a limitação de capacidade partilhada para atualizações diárias aplica-se conjuntamente a atualizações agendadas e atualizações de API. Pode também acionar uma atualização a pedido ao selecionar **Atualizar Agora** no menu do conjunto de dados, como ilustra a seguinte captura de ecrã. As atualizações a pedido não estão incluídas na limitação de atualizações. Tenha também em atenção que os conjuntos de dados numa capacidade Premium não impõem limitações para atualizações de API. Se estiver interessado em criar a sua própria solução de atualização com a API REST do Power BI, veja [Datasets - Refresh Dataset](/rest/api/power-bi/datasets/refreshdataset) (Conjuntos de Dados – Atualizar Conjunto de Dados).
 
 ![Atualizar agora](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> As atualizações de dados têm de ser concluídas em menos de 2 horas. Se os conjuntos de dados necessitarem de operações de atualização mais longas, considere mover o conjunto de dados para uma capacidade Premium. No Premium, a duração máxima de atualização é de 5 horas.
+> As atualizações de dados têm de ser concluídas em menos de 2 horas na capacidade partilhada. Se os conjuntos de dados necessitarem de operações de atualização mais longas, considere mover o conjunto de dados para uma capacidade Premium. No Premium, a duração máxima de atualização é de 5 horas.
 
 #### <a name="onedrive-refresh"></a>Atualização do OneDrive
 
@@ -134,7 +134,7 @@ No entanto, após uma atualização de dados, os resultados de consultas anterio
 
 #### <a name="tile-refresh"></a>Atualização de mosaico
 
-O Power BI mantém uma cache para cada elemento visual de mosaico nos dashboards e atualiza proativamente as caches de mosaico quando os dados são alterados. Por outras palavras, a atualização de mosaicos ocorre automaticamente após uma atualização de dados. Isto é válido para ambas as operações de atualização, agendadas e a pedido. Também pode forçar uma atualização de mosaico ao selecionar as reticências (...) no canto superior direito de um dashboard e selecionar **Atualizar mosaicos do dashboard**.
+O Power BI mantém uma cache para cada elemento visual de mosaico nos dashboards e atualiza proativamente as caches de mosaico quando os dados são alterados. Por outras palavras, a atualização de mosaicos ocorre automaticamente após uma atualização de dados. Isto é válido para ambas as operações de atualização, agendadas e a pedido. Também pode forçar uma atualização de mosaico ao selecionar **Mais opções** (...) no canto superior direito de um dashboard e selecionar **Atualizar mosaicos do dashboard**.
 
 ![Atualizar mosaicos do dashboard](media/refresh-data/refresh-dashboard-tiles.png)
 

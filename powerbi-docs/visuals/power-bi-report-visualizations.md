@@ -9,24 +9,24 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/01/2019
+ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 075985ce2d4eec1244827c65476c81774196a449
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307169"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73048851"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
-As visualizações (também conhecidas como elementos visuais) apresentam informações que foram descobertas nos dados. Um relatório do Power BI poderá ter uma única página com um elemento visual ou poderá ter páginas repletas de elementos visuais. No serviço Power BI, os elementos visuais podem ser [afixados a partir de relatórios a dashboards](../service-dashboard-pin-tile-from-report.md).
+As visualizações (também conhecidas como elementos visuais) apresentam informações que foram descobertas nos dados. Um relatório do Power BI poderá ter uma única página com um elemento visual ou poderá ter páginas repletas de elementos visuais. No serviço Power BI, os elementos visuais podem ser [afixados de relatórios a dashboards](../service-dashboard-pin-tile-from-report.md).
 
-É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um **consumidor** do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá guardar as alterações principais.
+É importante saber distinguir *estruturadores* e *consumidores* de relatórios.  Se for a pessoa que cria ou modifica o relatório, é um estruturador.  Os estruturadores têm permissões de edição para o relatório e o respetivo conjunto de dados subjacente. No Power BI Desktop, isto significa que pode abrir o conjunto de dados na Vista de dados e criar elementos visuais na Vista de relatório. No serviço Power BI, significa que pode abrir o relatório ou conjunto de dados no editor de relatórios na [Vista de edição](../consumer/end-user-reading-view.md). Se um relatório ou dashboard tiver sido [partilhado consigo](../consumer/end-user-shared-with-me.md), você será um *consumidor* do relatório. Poderá ver e interagir com o relatório e os seus elementos visuais, mas não conseguirá fazer tantas alterações como um *estruturador*.
 
-Existem vários tipos de elementos visuais disponíveis diretamente a partir do painel de VISUALIZAÇÕES do Power BI.
+Existem vários tipos de elementos visuais disponíveis diretamente no painel Visualizações do Power BI.
 
-![](media/power-bi-report-visualizations/power-bi-templates.png)
+![Painel a mostrar ícones para cada tipo de visualização](media/power-bi-report-visualizations/power-bi-icons.png)
 
 E para ter ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [elementos visuais personalizados](../developer/visuals/custom-visual-develop-tutorial.md) fornecidos pela Microsoft e pela comunidade.
 
@@ -49,7 +49,7 @@ Se utilizar o mesmo elemento visual personalizado em muitos relatórios, pode af
 
 ![Afixar no painel de visualização](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-Quando um elemento visual é afixado, é apresentado junto aos outros elementos visuais incorporados. O elemento visual fica associado à conta com sessão iniciada, pelo que os novos relatórios criados irão ter este elemento visual automaticamente incluído, partindo do pressuposto que tem sessão iniciada. Esta situação facilita o estabelecimento de um determinado elemento visual como padrão e evita que tenha de o adicionar a cada relatório.
+Quando um elemento visual é afixado, é apresentado junto aos outros elementos visuais incorporados. O elemento visual fica associado à conta com sessão iniciada, pelo que os novos relatórios que criar irão ter este elemento visual automaticamente incluído, partindo do pressuposto de que tem sessão iniciada. Esta situação facilita o estabelecimento de um determinado elemento visual como padrão e evita que tenha de o adicionar a cada relatório.
 
 ![Painel de visualização personalizado](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237403"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431078"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -45,7 +45,7 @@ Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure
 
 Antes de começar a incorporar relatórios, dashboards ou mosaicos na sua aplicação, tem de certificar-se de que o seu ambiente permite a incorporação com o Power BI.
 
-Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir uma capacidade mínima de P1 para a área de trabalho da aplicação criada.
+Pode utilizar a [Ferramenta de configuração de incorporação](https://aka.ms/embedsetup/UserOwnsData) para começar e transferir rapidamente uma aplicação de exemplo que o ajuda a orientar-se durante a criação de um ambiente e a incorporação de um relatório. No caso de incorporar um relatório paginado, tem de atribuir, no mínimo, uma capacidade P1 para a área de trabalho criada.
 
 Se optar por configurar o ambiente manualmente, pode continuar abaixo.
 
@@ -57,13 +57,13 @@ Tem de continuar com o registo de uma **aplicação Web do lado do servidor**. R
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 
-### <a name="create-an-app-workspace"></a>Criar uma área de trabalho de aplicação
+### <a name="create-a-workspace"></a>Criar uma área de trabalho
 
-Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, coloque o conteúdo dentro de uma área de trabalho de aplicação. Existem diferentes tipos de áreas de trabalho que pode configurar: [áreas de trabalho tradicionais](../service-create-workspaces.md) ou as [novas áreas de trabalho](../service-create-the-new-workspaces.md).
+Se estiver a incorporar relatórios, dashboards ou mosaicos para os seus clientes, coloque os conteúdos numa área de trabalho. Existem diferentes tipos de áreas de trabalho que pode configurar: [áreas de trabalho tradicionais](../service-create-workspaces.md) ou as [novas áreas de trabalho](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Criar e publicar relatórios do Power BI
 
-Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em seguida, pode publicar esses relatórios numa área de trabalho da aplicação. O utilizador final que publica os relatórios tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
+Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em seguida, pode publicar esses relatórios numa área de trabalho. O utilizador final que publica os relatórios tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho.
 
 1. Transfira o exemplo de [Demonstração](https://github.com/Microsoft/powerbi-desktop-samples) a partir do GitHub.
 
@@ -73,7 +73,7 @@ Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em s
 
    ![Exemplo de relatório do Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Publique na área de trabalho da aplicação.
+3. Publique na área de trabalho.
 
    ![Publicar um relatório do Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ Pode criar os seus relatórios e conjuntos de dados com o Power BI Desktop. Em s
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Criar e publicar relatórios paginados
 
-Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, poderá [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho de aplicação atribuída a, no mínimo, uma capacidade P1. O utilizador final que carrega o relatório tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho da aplicação.
+Pode criar os seus relatórios paginados com o [Power BI Report Builder](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Depois, poderá [carregar o relatório](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) para uma área de trabalho atribuída a, no mínimo, uma capacidade P1. O utilizador final que carrega o relatório tem de ter uma licença do Power BI Pro para poder publicar numa área de trabalho.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporar os seus conteúdos com a aplicação de exemplo
 
@@ -130,7 +130,7 @@ Para obter o **applicationId**, siga estes passos:
 
 ### <a name="workspace-id"></a>ID da área de trabalho
 
-Preencha as informações do **workspaceId** com o GUID da área de trabalho de aplicação (grupo) do Power BI. Pode obter estas informações a partir do URL (quando tiver sessão iniciada no serviço Power BI) ou através do PowerShell.
+Preencha as informações do **workspaceId** com o GUID da área de trabalho (grupo) do Power BI. Pode obter estas informações a partir do URL (quando tiver sessão iniciada no serviço Power BI) ou através do PowerShell.
 
 URL <br>
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Utilizar uma capacidade dedicada do Power BI Premium
 
-Agora que concluiu o desenvolvimento da sua aplicação, está na altura de atribuir uma capacidade dedicada à área de trabalho da sua aplicação.
+Agora que concluiu o desenvolvimento da sua aplicação, está na altura de atribuir uma capacidade dedicada à sua área de trabalho.
 
 ### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
 
-Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho da sua aplicação. Para relatórios paginados, deve proteger a sua área de trabalho de aplicação com uma capacidade mínima de P1. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
+Ao criar uma capacidade dedicada, pode tirar partido da vantagem de ter um recurso dedicado ao conteúdo na área de trabalho. Para relatórios paginados, a sua área de trabalho tem de ter, no mínimo, uma capacidade P1. Pode criar uma capacidade dedicada com o [Power BI Premium](../service-premium-what-is.md).
 
 A tabela seguinte lista as SKUs do Power BI Premium disponíveis no [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -399,9 +399,9 @@ A tabela seguinte lista as SKUs do Power BI Premium disponíveis no [Microsoft O
 > - Quando estiver a tentar incorporar com aplicações do Microsoft Office, pode utilizar EM SKUs para aceder ao conteúdo com uma licença gratuita do Power BI. Mas não pode aceder a conteúdo com uma licença gratuita do Power BI quando estiver a utilizar o Powerbi.com ou o Power BI Mobile.
 > - Ao tentar incorporar com aplicações do Microsoft Office, ao utilizar o Powerbi.com ou o Power BI Mobile, pode aceder aos conteúdos com uma licença gratuita do Power BI.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Atribuir uma área de trabalho da aplicação a uma capacidade dedicada
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Atribuir uma área de trabalho a uma capacidade dedicada
 
-Após criar a capacidade dedicada, pode atribuir a área de trabalho da sua aplicação a essa capacidade dedicada. Para concluir este processo, siga estes passos:
+Depois de criar uma capacidade dedicada, pode atribuir a área de trabalho a essa capacidade dedicada. Para concluir este processo, siga estes passos:
 
 1. No serviço Power BI, expanda as áreas de trabalho e selecione as reticências da área de trabalho que está a utilizar para incorporar os seus conteúdos. Em seguida, selecione **Editar área de trabalho**.
 
@@ -411,9 +411,9 @@ Após criar a capacidade dedicada, pode atribuir a área de trabalho da sua apli
 
     ![Atribuir uma capacidade dedicada](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Após selecionar **Guardar**, deverá ver um diamante junto ao nome da área de trabalho da aplicação.
+3. Depois de selecionar **Guardar**, deverá ver um losango junto ao nome da área de trabalho.
 
-    ![Área de trabalho da aplicação associada a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![área de trabalho associada a uma capacidade](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Definições de administração
 

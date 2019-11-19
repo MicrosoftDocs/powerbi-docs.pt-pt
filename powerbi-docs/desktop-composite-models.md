@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654568"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017690"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Utilizar modelos compostos no Power BI Desktop
 
@@ -53,14 +53,14 @@ Por exemplo, ao utilizar os modelos compostos, pode criar um modelo que combina 
 Um modelo que combina dados de mais de uma origem do DirectQuery ou combina o DirectQuery com dados da Importação é designado por *modelo composto*.
 
 
-Pode criar relações entre as tabelas como sempre fez, até mesmo quando essas tabelas são provenientes de diferentes origens, com a seguinte restrição: todas as relações que tenham origens diferentes têm de ser definidas como tendo uma cardinalidade de *muitos para muitos* , independentemente da sua cardinalidade real. O comportamento de tais relações é então o mesmo que o comportamento normal das relações *muitos para muitos*, conforme descrito em [Relações muitos para muitos no Power BI Desktop (Pré-visualização)](desktop-many-to-many-relationships.md). 
+Pode criar relações entre tabelas como sempre fez, mesmo quando essas tabelas têm origens diferentes. Todas as relações de origem cruzada são criadas com uma cardinalidade de *muitos-para-muitos*, independentemente da cardinalidade real. Pode alterá-las para um-para-muitos, muitos-para-um ou um-para-um. Independentemente da cardinalidade que definir, as relações de origem cruzada têm um comportamento diferente em que não pode utilizar funções DAX para obter valores no lado um a partir do lado muitos. Também poderá ver um impacto no desempenho em comparação com as relações muitos-para-muitos na mesma origem.
 
 > [!NOTE]
 > Dentro do contexto dos modelos compostos, todas as tabelas importadas são, efetivamente, uma única origem, independentemente da origem de dados real subjacente da qual são importadas.   
 
 ## <a name="example-of-a-composite-model"></a>Exemplo de modelo composto
 
-Para obter um exemplo de um *modelo composto*, considere um relatório que tenha ligado a um armazém de dados da empresa no SQL Server com o DirectQuery. Neste caso, o armazém de dados contém os dados *Vendas por País*, *Trimestre* e *Bicicleta (Produto)* , conforme mostrado na imagem seguinte:
+Para obter um exemplo de um *modelo composto*, considere um relatório que tenha ligado a um armazém de dados da empresa no SQL Server com o DirectQuery. Neste caso, o armazém de dados contém os dados *Vendas por País*, *Trimestre* e *Bicicleta (Produto)*, conforme mostrado na imagem seguinte:
 
 ![Vista das relações dos modelos compostos](media/desktop-composite-models/composite-models_04.png)
 
@@ -88,7 +88,7 @@ Da mesma forma, na vista **Relações** no Power BI Desktop, agora vemos uma ta
 
 ![Vista das relações das tabelas](media/desktop-composite-models/composite-models_08.png)
 
-Agora, precisamos de relacionar essas tabelas com as outras tabelas no modelo. Como sempre, criamos uma relação entre a tabela **Bicicletas** do SQL Server e a tabela **Gestores de Produtos** importada. Ou seja, a relação é entre *Bicicletas[ProductName]* e *Gestores de Produtos[ProductName]* . Conforme foi abordado anteriormente, todas as relações que passam pela origem têm de ter a cardinalidade predefinida *muitos para muitos*. 
+Agora, precisamos de relacionar essas tabelas com as outras tabelas no modelo. Como sempre, criamos uma relação entre a tabela **Bicicletas** do SQL Server e a tabela **Gestores de Produtos** importada. Ou seja, a relação é entre *Bicicletas[ProductName]* e *Gestores de Produtos[ProductName]*. Conforme foi abordado anteriormente, todas as relações que passam pela origem têm a cardinalidade predefinida *muitos-para-muitos*. 
 
 ![Janela “Criar relação”](media/desktop-composite-models/composite-models_09.png)
 

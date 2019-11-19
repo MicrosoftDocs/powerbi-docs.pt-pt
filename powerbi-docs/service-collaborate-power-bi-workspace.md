@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832424"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021340"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)
 As áreas de trabalho do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. Este artigo é sobre as áreas de trabalho *clássicas* originais.  
@@ -45,7 +45,7 @@ Após criar um ficheiro do Power BI Desktop, pode publicá-lo numa área de trab
 ## <a name="collaborate-in-office-365"></a>Colaborar no Office 365
 A colaboração no Office 365 começa a partir da área de trabalho clássica no Power BI.
 
-1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione as reticências (…) junto ao nome da sua área de trabalho. 
+1. No serviço Power BI, selecione a seta junto a **Áreas de trabalho** > selecione **Mais opções** (…) junto ao nome da sua área de trabalho. 
    
    ![Menu Áreas de trabalho](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Neste menu, pode colaborar com o seu grupo de diversas formas: 
@@ -56,7 +56,7 @@ A colaboração no Office 365 começa a partir da área de trabalho clássica no
    Da primeira vez que aceder à área de trabalho de grupo no Office 365, esta poderá demorar algum tempo a ser apresentada. Aguarde entre 15 a 30 minutos e, em seguida, atualize o browser.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Ter uma conversa em grupo no Office 365
-1. Selecione as reticências (...) junto ao nome da sua área de trabalho \> **Conversações**. 
+1. Selecione **Mais opções** (...) junto ao nome da sua área de trabalho \> **Conversações**. 
    
     ![Separador Conversas](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ A colaboração no Office 365 começa a partir da área de trabalho clássica no
 2. Saiba mais sobre as [conversas de grupo no Outlook para Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Agendar um evento no calendário da área de trabalho de grupo
-1. Selecione as reticências (...) junto ao nome da área de trabalho \> **Calendário**. 
+1. Selecione **Mais opções** (...) junto ao nome da área de trabalho \> **Calendário**. 
    
    ![Separador Calendário](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -80,6 +80,6 @@ Se for o proprietário ou administrador de uma área de trabalho, também pode r
 
 ## <a name="next-steps"></a>Próximos passos
 * [Publique aplicações no Power BI](service-create-distribute-apps.md).
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/).
 * Comentários? Aceda a [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 

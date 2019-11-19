@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c2cc5f9da8ea12709d8244a1e82d8283f66f2413
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019582"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021021"
 ---
 # <a name="data-lineage-preview"></a>Linhagem de dados (pré-visualização)
 Em projetos modernos de business intelligence (BI), compreender o fluxo de dados desde a origem até ao destino pode ser um desafio. A dimensão deste desafio é ainda maior se tiver desenvolvido projetos de análise avançados que abranjam múltiplas origens de dados, artefactos e dependências.  Responder a perguntas como "O que acontece se alterar estes dados?" ou "Porque é que este relatório não está atualizado?" pode ser difícil. A compreensão destas questões pode exigir o trabalho de uma equipa de peritos ou uma investigação profunda. Para ajudar a responder a estas perguntas, criámos a vista de linhagem de dados.
@@ -55,7 +55,7 @@ Nos conjuntos de dados, verá a hora da última atualização e se o conjunto de
  
 Se um relatório na área de trabalho estiver incorporado num conjunto de dados noutra área de trabalho, verá o nome da área de trabalho de origem no cartão do conjunto de dados. Selecione o nome da área de trabalho de origem para aceder a essa área de trabalho.
  
-- Em qualquer artefacto, selecione as reticências (...) para ver o menu de opções. Este menu apresenta todas as ações disponíveis na vista de lista.
+- Em qualquer artefacto, selecione **Mais opções** (...) para ver o menu de opções. Este menu apresenta todas as ações disponíveis na vista de lista.
   
 Para ver mais metadados sobre os conjuntos de dados, selecione o próprio cartão do conjunto de dados. Serão apresentadas informações adicionais sobre o conjunto de dados num painel lateral.
 
@@ -89,7 +89,8 @@ A vista de linhagem é uma tela interativa. Pode utilizar o rato e o touchpad pa
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-A vista de linhagem não está disponível no Internet Explorer. Veja [Supported browsers for Power BI](power-bi-browsers.md) (Browsers suportados para o Power BI) para obter detalhes.
+- A vista de linhagem não está disponível no Internet Explorer. Veja [Supported browsers for Power BI](power-bi-browsers.md) (Browsers suportados para o Power BI) para obter detalhes.
+- A vista de linhagem não está disponível em A Minha Área de Trabalho.
 
 ## <a name="next-steps"></a>Próximos passos
 

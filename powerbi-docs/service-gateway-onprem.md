@@ -3,19 +3,18 @@ title: Gateway de dados no local
 description: Este artigo é uma descrição geral do gateway de dados no local do Power BI. Pode utilizar este gateway para trabalhar com origens de dados de DirectQuery. Também pode utilizar este gateway para atualizar os conjuntos de dados na cloud com dados no local.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730281"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872443"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>What is an on-premises data gateway? (O que é um gateway de dados no local?)
 
@@ -42,13 +41,13 @@ Há dois tipos diferentes de gateway, cada um para um cenário diferente:
 Existem quatro passos principais para utilizar um gateway.
 
 1. [Transferir e instalar o gateway](/data-integration/gateway/service-gateway-install) num computador local.
-2. [Configurar](/data-integration/gateway/service-gateway-app) o gateway com base na sua firewall e noutros requisitos de rede.
-3. [Adicionar administradores de gateway](/data-integration/gateway/service-gateway-manage) que também consigam gerir e administrar outros requisitos de rede.
-4. [Resolver problemas](service-gateway-onprem-tshoot.md) relacionados com o gateway em caso de erros.
+1. [Configurar](/data-integration/gateway/service-gateway-app) o gateway com base na sua firewall e noutros requisitos de rede.
+1. [Adicionar administradores de gateway](/data-integration/gateway/service-gateway-manage) que também consigam gerir e administrar outros requisitos de rede.
+1. [Utilize o gateway](service-gateway-sql-tutorial.md) para atualizar uma origem de dados no local.
+1. [Resolver problemas](service-gateway-onprem-tshoot.md) relacionados com o gateway em caso de erros.
 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Instalar o gateway de dados no local](/data-integration/gateway/service-gateway-install)
 
-
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

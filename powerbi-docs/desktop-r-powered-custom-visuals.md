@@ -3,19 +3,18 @@ title: Utilizar elementos visuais baseados em R no Power BI
 description: Utilizar elementos visuais baseados em R no Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945239"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128249"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Utilizar elementos visuais baseados em R no Power BI
 
@@ -50,12 +49,12 @@ Seguem-se os passos para procurar e selecionar elementos visuais no site do **Ap
 
    ![R visual 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   Não precisa de instalar o R para utilizar elementos visuais do Power BI baseados em R no **serviço Power BI**. No entanto, se quiser utilizar elementos visuais do Power BI baseados em R no **Power BI Desktop**,  *tem* de instalar o R no computador local. Pode transferir o R a partir das seguintes localizações:
+   Não precisa de instalar o R para utilizar elementos visuais do Power BI baseados em R no **serviço Power BI**. No entanto, se quiser utilizar elementos visuais do Power BI baseados em R no **Power BI Desktop**, *tem* de instalar o R no computador local. Pode transferir o R a partir das seguintes localizações:
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Assim que o elemento visual é transferido (que é como transferir qualquer ficheiro a partir do browser), aceda a **Power BI Desktop** e clique nas reticências (...) no painel **Visualizações** e selecione **Importar do ficheiro**.
+4. Assim que o elemento visual é transferido (tal como é transferido qualquer ficheiro a partir do browser), aceda a **Power BI Desktop** e clique em **Mais opções** (...) no painel **Visualizações** e selecione **Importar do ficheiro**.
 
    ![R visual 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. É avisado da importação de elementos visuais personalizados, conforme mostrado na imagem seguinte:

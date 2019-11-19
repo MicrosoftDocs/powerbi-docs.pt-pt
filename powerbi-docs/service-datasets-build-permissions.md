@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020841"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020308"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permissão de compilação para conjuntos de dados partilhados (pré-visualização)
 
@@ -29,7 +29,7 @@ Pode conceder a Permissão de compilação para um conjunto de dados de várias 
 
 - Os membros de uma área de trabalho com, pelo menos, uma função de Contribuidor têm automaticamente Permissão de compilação para os conjunto de dados nessa área de trabalho e permissão para copiar um relatório.
  
-- Os membros da área de trabalho em que o conjunto de dados reside podem atribuir a permissão a utilizadores ou grupos de segurança específicos no Centro de permissões. Se for um membro da área de trabalho, selecione as reticências (…) junto a um conjunto de dados > **Gerir Permissões**.
+- Os membros da área de trabalho em que o conjunto de dados reside podem atribuir a permissão a utilizadores ou grupos de segurança específicos no Centro de permissões. Se for um membro da área de trabalho, selecione **Mais opções** (…) junto a um conjunto de dados > **Gerir Permissões**.
 
     ![Selecionar as reticências](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +50,11 @@ Pode remover a Permissão de compilação atribuída a uma pessoa num conjunto d
 No futuro, talvez seja necessário remover a Permissão de compilação para alguns utilizadores de um conjunto de dados partilhado. 
 
 1. Numa área de trabalho, aceda à página da lista **Conjuntos de dados**. 
-1. Selecione as reticências (...) junto ao conjunto de dados > **Gerir permissão**.
+1. Selecione **Mais opções** (...) junto ao conjunto de dados > **Gerir permissão**.
 
     ![Gerir permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecione as reticências (...) junto a um nome > **Remover compilação**.
+1. Selecione **Mais opções** (...) junto a um nome > **Remover compilação**.
 
     ![Remover a Permissão de compilação](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +80,11 @@ Imagine que distribuiu uma aplicação de uma área de trabalho para um grupo de
 1. Selecione **Atualizar**.
 
 1. Numa área de trabalho, aceda à pagina da lista **Conjuntos de dados**. 
-1. Selecione as reticências (...) junto ao conjunto de dados > **Gerir permissão**.
+1. Selecione **Mais opções** (...) junto ao conjunto de dados > **Gerir permissão**.
 
     ![Gerir permissões](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecione as reticências (...) junto ao nome > **Remover compilação**.
+1. Selecione **Mais opções** (...) junto ao nome > **Remover compilação**.
 
     ![Remover a Permissão de compilação](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

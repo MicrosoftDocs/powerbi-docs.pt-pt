@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867163"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020018"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: ligar-se a um repositório do GitHub com o Power BI
 Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Vai ligar-se ao repositório de conteúdos públicos do Power BI (também conhecido como *repositório*) e ver respostas a perguntas como: Quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Entre outras perguntas. 
@@ -57,7 +57,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 5. Em **A sua nova aplicação está pronta**, selecione **Ir para a aplicação**.
 6. Em **Comece já com a sua nova aplicação** , selecione **Ligar**.
 
-    ![Comece a utilizar a sua nova aplicação](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
+    ![Comece já com a sua nova aplicação](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
 7. Escreva o nome do repositório e também o seu proprietário. O URL deste repositório é https://github.com/MicrosoftDocs/powerbi-docs, pelo que o **Proprietário do Repositório** é **MicrosoftDocs** e o **Repositório** é **powerbi-docs**. 
    
@@ -76,7 +76,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
     ![Aplicação no painel de navegação à esquerda](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Selecione as reticências (...) junto ao nome do dashboard > **Mudar o nome** > escreva **Dashboard do GitHub**.
+10. Selecione **Mais opções** (...) junto ao nome do dashboard > **Mudar o nome** > escreva **Dashboard do GitHub**.
  
     ![Power BI: mosaico do GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

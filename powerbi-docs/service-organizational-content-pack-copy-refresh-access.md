@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019620"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020144"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso
 
@@ -30,7 +30,7 @@ Criar pacotes de conteúdos é diferente de partilhar dashboards ou colaborar no
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Criar uma cópia de um pacote de conteúdos organizacionais
 Crie a sua cópia do pacote de conteúdos, que não é visível para outras pessoas.
 
-1. Selecione as reticências (…) junto ao dashboard do pacote de conteúdos > Fazer uma cópia.
+1. Selecione **Mais opções** (…) junto ao dashboard do pacote de conteúdos > Fazer uma cópia.
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selecione **Guardar**.  

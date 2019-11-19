@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073619"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431897"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -79,11 +79,11 @@ Incorporar um relatório no SharePoint Online não dá automaticamente permissã
 > [!IMPORTANT]
 > Certifique-se de que revê quem pode ver o relatório no serviço Power BI e conceda acesso aos que não estão listados.
 
-Há duas formas de fornecer acesso a relatórios no Power BI. A primeira forma, se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, é listar o utilizador como membro da **área de trabalho de aplicação no serviço Power BI** e da **página do SharePoint**. Para obter mais informações, veja como [gerir uma área de trabalho de aplicação](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Há duas formas de fornecer acesso a relatórios no Power BI. A primeira forma, se estiver a utilizar um Grupo do Office 365 para criar o seu site de equipa do SharePoint Online, é listar o utilizador como membro da **área de trabalho no serviço Power BI** e da **página do SharePoint**. Para obter mais informações, veja como [gerir uma área de trabalho](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 A segunda forma é incorporar um relatório numa aplicação e partilhá-lo diretamente com os utilizadores:  
 
-1. O autor, que tem de ser um utilizador Pro, cria um relatório na área de trabalho de uma aplicação. Para partilhar com *utilizadores do Power BI gratuito*, a área de trabalho da aplicação tem de ser definida como uma *Área de trabalho Premium*.
+1. O autor, que tem de ser um utilizador Pro, cria um relatório na área de trabalho. Para partilhar com *utilizadores do Power BI gratuito*, a área de trabalho tem de ser definida como uma *Área de trabalho Premium*.
 
 2. O autor publica a aplicação e instala-a. O autor tem de instalar a aplicação para que esta tenha acesso ao URL de relatório utilizado para a incorporação no SharePoint Online.
 
@@ -93,7 +93,7 @@ A segunda forma é incorporar um relatório numa aplicação e partilhá-lo dire
 
 4. O autor abre a aplicação e vai para o relatório.
 
-5. O autor copia o URL do relatório incorporado do relatório instalado pela aplicação. Não utilize o URL de relatório original da área de trabalho da aplicação.
+5. O autor copia o URL do relatório incorporado do relatório instalado pela aplicação. Não utilize o URL de relatório original da área de trabalho.
 
 6. Crie um novo site de equipa no SharePoint Online.
 

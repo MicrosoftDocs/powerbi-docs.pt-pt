@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: f96af87706fb289d5fe7216c8ba0b9b0d83b1391
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720572"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021133"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um mosaico do dashboard
 
@@ -83,9 +83,9 @@ Pode fazer muitos tamanhos diferentes de mosaicos - de unidades de mosaico 1x1 a
 ![vídeo](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>O menu de reticências (…)
+## <a name="more-options--menu"></a>Menu **Mais opções** (...)
 
-1. Selecione as reticências (...) no canto superior direito do mosaico. 
+1. Selecione **Mais opções** (...) no canto superior direito do mosaico. 
    
    ![reticências do mosaico](media/service-dashboard-edit-tile/power-bi-tile.png)
 

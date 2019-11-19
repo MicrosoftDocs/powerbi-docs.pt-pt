@@ -3,19 +3,18 @@ title: Principal de serviço com o Power BI
 description: Saiba como registar uma aplicação no Azure Active Directory com o principal de serviço para utilizar ao incorporar conteúdos do Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073089"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877660"
 ---
 # <a name="service-principal-with-power-bi"></a>Principal de serviço com o Power BI
 
@@ -58,8 +57,8 @@ Existem diferenças entre utilizar um principal de serviço e uma conta principa
 |------------------------------------------------------|---------------------|-------------------|
 | Pode iniciar sessão no serviço Power BI  | Sim | Não |
 | Ativado no portal de administração do Power BI | Não | Sim |
-| [Funciona com áreas de trabalho de aplicação (v1)](../service-create-workspaces.md) | Sim | Não |
-| [Funciona com as novas áreas de trabalho de aplicação (v2)](../service-create-the-new-workspaces.md) | Sim | Sim |
+| [Funciona com áreas de trabalho (v1)](../service-create-workspaces.md) | Sim | Não |
+| [Funciona com as novas áreas de trabalho (v2)](../service-create-the-new-workspaces.md) | Sim | Sim |
 | Tem de ser um administrador da área de trabalho, se for utilizado com o Power BI Embedded | Sim | Sim |
 | Pode utilizar as APIs REST do Power BI | Sim | Sim |
 | Tem de ser um administrador global para criar | Sim | Não |
@@ -141,7 +140,7 @@ Não existe uma funcionalidade de IU para mover artefactos e recursos do Power B
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>Como obter o ID do objeto do principal de serviço
 
-Para atribuir um principal de serviço a uma nova área de trabalho de aplicação, utilize as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para fazer referência a um principal de serviço para operações ou fazer alterações, é utilizado o **ID do objeto do principal de serviço** – por exemplo, para aplicar um principal de serviço como um administrador a uma área de trabalho.
+Para atribuir um principal de serviço a uma nova área de trabalho, utilize as [APIs REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para fazer referência a um principal de serviço para operações ou fazer alterações, é utilizado o **ID do objeto do principal de serviço** – por exemplo, para aplicar um principal de serviço como um administrador a uma área de trabalho.
 
 Abaixo encontram-se os passos para obter o ID de objeto do principal de serviço a partir do portal do Azure.
 
@@ -166,7 +165,7 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-* O principal de serviço só funciona com as [novas áreas de trabalho de aplicação](../service-create-the-new-workspaces.md).
+* O principal de serviço só funciona com as [novas áreas de trabalho](../service-create-the-new-workspaces.md).
 * **A Minha Área de Trabalho** não é suportada quando utilizar o principal de serviço.
 * É necessária capacidade dedicada quando avançar para a produção.
 * Não pode iniciar sessão no portal do Power BI com o principal de serviço.

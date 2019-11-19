@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832540"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020445"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adicionar imagens, vídeos e mais ao dashboard
 
@@ -232,7 +232,7 @@ Pode colar ou escrever qualquer conteúdo HTML, como um mosaico, ao seu relatór
 ## <a name="edit-a-tile"></a>Editar um mosaico
 Para alterar um mosaico existente:
 
-1. Paire o cursor do rato sobre o canto superior direito do mosaico e selecione as reticências (...).
+1. Paire o cursor do rato sobre o canto superior direito do mosaico e selecione **Mais opções** (...).
    
     ![selecionar reticências do mosaico](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecione **Editar detalhes** para apresentar a janela **Detalhes do mosaico** e fazer alterações.

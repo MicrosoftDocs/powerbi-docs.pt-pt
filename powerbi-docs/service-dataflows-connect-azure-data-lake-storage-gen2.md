@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160355"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432013"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados (Pré-visualização)
 
@@ -183,7 +183,7 @@ Também existem alguns problemas conhecidos, conforme descrito nesta secção.
 
 Os clientes do Power BI Desktop não podem aceder a fluxos de dados armazenados numa **Conta do Azure Data Lake Storage**, salvo se forem os proprietários do fluxo de dados ou se lhes tiver sido dada autorização à pasta de CDM no data lake. O cenário é o seguinte:
 
-1. A Ana criou uma nova área de trabalho da aplicação e configurou-a para armazenar fluxos de dados no data lake da organização. 
+1. A Ana criou uma nova área de trabalho e configurou-a para armazenar fluxos de dados no data lake da organização. 
 2. O Nuno, que também é membro da área de trabalho criada pela Ana, quer tirar partido do Power BI Desktop e do conector de fluxos de dados para obter dados do Fluxo de Dados criado pela Ana.
 3. O Miguel recebe um erro semelhante porque não lhe foi dada autorização para a pasta de CDM do fluxo de dados no data lake.
 

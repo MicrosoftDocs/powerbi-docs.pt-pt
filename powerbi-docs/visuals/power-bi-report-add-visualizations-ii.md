@@ -7,53 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/23/2018
+ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61410263"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73049133"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte 2, Adicionar visualizações a um relatório do Power BI
-Na [Parte 1](power-bi-report-add-visualizations-ii.md), criou uma visualização básica marcando as caixas de seleção ao lado dos nomes de campo.  Na parte 2, aprenderá a usar o arrastar e soltar e a utilizar de forma integral os painéis **Campos** e **Visualizações** para criar e modificar as visualizações.
 
-### <a name="prerequisites"></a>Pré-requisitos
-- [Parte 1](power-bi-report-add-visualizations-ii.md)
-- Power BI Desktop – pode adicionar visualizações aos relatórios com o serviço Power BI ou com o Power BI Desktop. Este tutorial utiliza o Power BI Desktop. 
-- [Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+Na [Parte 1](power-bi-report-add-visualizations-i.md), criou uma visualização básica marcando as caixas de seleção ao lado dos nomes de campo.  Na Parte 2, aprenderá a utilizar a funcionalidade de arrastar e largar e a utilizar de forma integral os painéis **Campos** e **Visualizações** para criar e modificar as visualizações.
+
 
 ## <a name="create-a-new-visualization"></a>Criar uma nova visualização
-Neste tutorial, vamos examinar nosso conjunto de dados de Análise de Revenda e criar algumas visualizações chave.
+Neste tutorial, vamos examinar o nosso conjunto de dados de Análise de Revenda e criar algumas visualizações chave.
 
-### <a name="open-a-report-and-add-a-new-blank-page"></a>Abra um relatório e adicione uma nova página em branco.
-1. Abra o ficheiro .pbix Exemplo de Análise de Revenda no Power BI Desktop. 
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
+## <a name="prerequisites"></a>Pré-requisitos
 
-2. Adicione uma nova página ao selecionar o ícone de adição amarelo na parte inferior da tela.
+Este tutorial utiliza o [ficheiro PBIX de Exemplo de análise de revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Adicione uma visualização que analise as vendas deste ano em comparação com o ano passado.
-1. Na tabela **Vendas**, selecione **Vendas Deste Ano** > **Valor** e **Vendas do Ano Passado**. O Power BI cria um gráfico de colunas.  Isto é interessante e quer investigar. O que torna as vendas semelhantes por mês?  
+1. Na secção superior esquerda da barra de menus do Power BI Desktop, selecione **Ficheiro** > **Abrir**
    
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-barchart.png)
+2. Procure a sua cópia do **ficheiro PBIX do Exemplo de Análise de Revenda**
+
+1. Abra o **Ficheiro PBIX do Exemplo de Análise de Revenda** na vista de relatório ![Captura de ecrã a mostrar o ícone da vista de relatório](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Selecionar ![Captura de ecrã do separador amarelo.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para adicionar uma nova página.
+
+## <a name="add-visualizations-to-the-report"></a>Adicione visualizações ao relatório
+
+Crie uma visualização selecionando um campo no painel **Campos**. O tipo de visualização criado dependerá do tipo de campo selecionado. O Power BI utiliza o tipo de dados para determinar qual a visualização a utilizar para mostrar os resultados. Pode alterar facilmente a visualização utilizada ao selecionar um ícone diferente no painel Visualizações. Tenha em conta que nem todas as visualizações podem mostrar os seus dados. Por exemplo, os dados geográficos não são devidamente mostrados num gráfico de funil ou gráfico de linhas. 
+
+
+### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Adicionar um gráfico de área que analise as vendas deste ano em comparação com o ano passado
+
+1. Na tabela **Vendas**, selecione **Vendas Deste Ano** > **Valor** e **Vendas do Ano Passado**. O Power BI cria um gráfico de colunas.  Este gráfico é interessante e quer investigar melhor. O que torna as vendas semelhantes por mês?  
+   
+   ![Captura de ecrã a mostrar um gráfico de colunas](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
+
 2. Na tabela Time (Hora), arraste **FiscalMonth** (MêsFiscal) para a área **Axis** (Eixo).  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-month.png)
-3. [Mude a visualização](power-bi-report-change-visualization-type.md) num gráfico de área.  Há muitos tipos de visualização dentre as quais escolher - consulte as [descrições de cada uma, dicas de práticas recomendadas e tutoriais](power-bi-visualization-types-for-reports-and-q-and-a.md) para decidir que tipo usar. No painel Visualizações, selecione o ícone do gráfico Area (Área) ![](media/power-bi-report-add-visualizations-ii/power-bi-areachart.png).
-4. Ordene a visualização ao selecionar as reticências e selecionar **Sort by FiscalMonth** (Ordenar por MêsFiscal).
+   ![Captura de ecrã a mostrar um gráfico de colunas com FiscalMonth (Mês Fiscal) como eixo](media/power-bi-report-add-visualizations-ii/power-bi-fiscalmonth.png)
+
+3. [Mude a visualização](power-bi-report-change-visualization-type.md) para um gráfico de área.  Há muitos tipos de visualização à escolha. Veja [descrições de cada uma, dicas de práticas recomendadas e tutoriais](power-bi-visualization-types-for-reports-and-q-and-a.md) para decidir que tipo utilizar. No painel Visualizações, selecione o ícone do gráfico de área ![ícone de gráfico de área do painel Visualizações](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png).
+
+4. Ordene a visualização ao selecionar **Mais ações** (...) e selecionar **Ordenar por** >  **FiscalMonth** (Mês Fiscal).
+
 5. [Redimensione a visualização](power-bi-visualization-move-and-resize.md)selecionando a visualização, pegando um dos círculos da estrutura de tópicos e arrastando. Torne-a grande o suficiente para eliminar a barra de deslocamento e pequena o suficiente para termos espaço para adicionar outra visualização.
    
    ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [Guarde o relatório](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Adicionar uma visualização de mapa que analise as vendas por local
-1. Na tabela **Arquivo** selecione **Território**. O Power BI reconhece que Território é um local e cria uma visualização de mapa.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-map.png)
-2. Arraste **Arquivos Totais** na área de Valores.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-map2.png)
-3. Adicione uma legenda.  Para ver os dados pelo nome do arquivo, arraste **Rede** para a área Legenda.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-legend.png)
+
+1. Na tabela **Arquivo** selecione **Território**. Arraste **Arquivos Totais** na área de Valores. O Power BI reconhece que Território é um local e cria uma visualização de mapa.  
+   ![Gráfico de área](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
+
+2. Adicione uma legenda.  Para ver os dados pelo nome da loja, arraste **Store** (Loja) > **Chain** (Cadeia) para a área Legenda.  
+   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Próximos passos
 * Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md).  

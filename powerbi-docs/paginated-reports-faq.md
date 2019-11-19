@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968498"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431578"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Relatórios paginados no Power BI: PERGUNTAS FREQUENTES 
 
 Este artigo responde às perguntas mais frequentes sobre os relatórios paginados. Estes relatórios são uma saída de imagem perfeita, altamente formatada e otimizada para impressão ou geração de PDFs. Os relatórios são designados “paginados” porque são formatados para se ajustarem a várias páginas. Os relatórios paginados baseiam-se na tecnologia de relatório RDL do SQL Server Reporting Services. 
 
-Este artigo responde a perguntas muito comuns que as pessoas têm sobre os relatórios paginados no Power BI Premium e sobre o Report Builder, a ferramenta autónoma para a criação de relatórios paginados. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou nas áreas de trabalho da aplicação, desde que a área de trabalho esteja numa capacidade do Power BI Premium. 
+Este artigo responde a perguntas muito comuns que as pessoas têm sobre os relatórios paginados no Power BI Premium e sobre o Report Builder, a ferramenta autónoma para a criação de relatórios paginados. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou em áreas de trabalho, desde que a área de trabalho esteja numa capacidade do Power BI Premium. 
 
 ## <a name="administration"></a>Administração
 
@@ -163,7 +163,7 @@ Sim, suportamos a capacidade de executar código nos seus relatórios, tal como 
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Posso utilizar o Power BI incorporado para incorporar os meus relatórios paginados numa aplicação que estou a alojar?
 
-Já é suportada a incorporação SaaS. Atualmente, não é suportada a incorporação PaaS.
+A incorporação SaaS, incluindo o suporte para a Incorporação Segura, já está disponível.  O suporte para a incorporação PaaS está previsto para ainda este ano.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Posso pormenorizar de um relatório do Power BI para um relatório paginado?
 
@@ -179,7 +179,7 @@ Planeamos que os relatórios suportem os mesmos cenários principais no serviço
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>Está planeada uma ferramenta de migração para que os clientes do SSRS possam mover os relatórios existentes e os recursos para o Power BI?
 
-Estamos a avaliar as opções para permitir que os conteúdos sejam movidos para o Power BI de forma automatizada, mas esta funcionalidade só estará disponível após a Disponibilidade Geral.
+Um projeto no GitHub suporta agora a migração de conteúdos do SQL Server Reporting Services para o Power BI.  Veja os detalhes e transfira a ferramenta aqui: [https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration).
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Existe um controlo de visualizador de relatório para relatórios paginados no serviço Power BI?
 

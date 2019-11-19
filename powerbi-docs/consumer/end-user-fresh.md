@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141845"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019784"
 ---
 # <a name="your-content-is-up-to-date"></a>Os seus conteúdos estão atualizados
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Enquanto *consumidor*, interage com conteúdos que são feitos por *criadores* e partilhados consigo. Poderá perguntar-se se esses conteúdos estarão atualizados ou talvez queira saber quando foi a última atualização dos mesmos. O conhecimento de que está a trabalhar com os conteúdos mais recentes transmite-lhe confiança.  
  
 ![Dashboard do Power BI](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ Se quiser, pode encontrar a última data de atualização de grande parte dos co
 ### <a name="dashboard-tiles"></a>Os mosaicos do dashboard
 Para os mosaicos do dashboard, consulte o mosaico em modo de Detalhe para ver o carimbo de data/hora da Última atualização.
 
-1. No mosaico do dashboard, selecione as reticências (…) e selecione **Abrir no modo de Detalhe**.
+1. No mosaico do dashboard, selecione **Mais opções** (...) e, em seguida, **Abrir no modo de Detalhe**.
 
     ![menu que é apresentado após selecionar as reticências](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ Para os mosaicos do dashboard, consulte o mosaico em modo de Detalhe para ver o 
     ![browser expandido a mostrar a última atualização](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>Dashboards e relatórios
-Outra forma de pesquisar a data da última atualização é ao utilizar a opção **Ver relacionados**.  A opção **Ver relacionados** está disponível ao selecionar as reticências (…) na barra de menus superior do Power BI.
+Outra forma de pesquisar a data da última atualização é ao utilizar a opção **Ver relacionados**.  A opção **Ver relacionados** está disponível ao selecionar **Mais opções** (…) na barra de menus superior do Power BI.
 
 ![Selecionar Ver relacionados do menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

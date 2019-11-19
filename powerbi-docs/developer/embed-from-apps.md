@@ -1,6 +1,6 @@
 ---
 title: Incorporar relatórios ou dashboards a partir de aplicações
-description: Saiba como integrar ou incorporar um relatório ou dashboard a partir de uma aplicação do Power BI e não de uma área de trabalho de aplicação.
+description: Saiba como integrar ou incorporar um relatório ou dashboard a partir de uma aplicação do Power BI e não de uma área de trabalho.
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750893"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430850"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Incorporar relatórios ou dashboards a partir de aplicações
 
@@ -42,7 +42,7 @@ No Power BI, pode criar aplicações para juntar dashboards e relatórios num ú
 
 ## <a name="next-steps"></a>Próximos passos
 
-Reveja como incorporar áreas de trabalho de aplicações para os seus clientes terceiros e a sua organização:
+Reveja como incorporar áreas de trabalho para os seus clientes terceiros e a sua organização:
 
 > [!div class="nextstepaction"]
 >[Incorporar para clientes terceiros](embed-sample-for-customers.md)

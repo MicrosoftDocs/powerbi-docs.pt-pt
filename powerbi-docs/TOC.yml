@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: "Origens de dados do Power\_BI"
               href: service-get-data.md
+            - name: Compreender os conjuntos de dados do Power BI
+              href: service-datasets-understand.md
+            - name: Compreender os modos dos conjuntos de dados do Power BI
+              href: service-dataset-modes-understand.md
             - name: Atualizar dados no Power BI
               href: refresh-data.md
         - name: Colaborar no Power BI
@@ -1125,31 +1129,3 @@
       items:
         - name: Monthly gateway updates (Atualizações de gateways mensais)
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Orientação
-  items:
-    - name: Descrição geral
-      href: guidance/overview.md
-    - name: O que é um esquema de estrela?
-      href: guidance/star-schema.md
-    - name: Reduce data model size (Reduzir o tamanho do modelo de dados)
-      href: guidance/import-modeling-data-reduction.md
-    - name: função DIVIDIR vs. operador dividir (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: A importância da dobragem de consultas
-      href: guidance/power-query-folding.md
-    - name: Appropriate use of error functions (Utilização adequada de funções de erro)
-      href: guidance/dax-error-functions.md
-    - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
-      href: service-dataflows-best-practices.md
-    - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
-      href: guidance/directquery-model-guidance.md
-    - name: Whitepapers (Documentos técnicos)
-      items:
-        - name: Descrição geral dos documentos técnicos
-          href: whitepapers.md
-        - name: Documento técnico de segurança do Power BI
-          href: whitepaper-powerbi-security.md
-        - name: Implementação do Power BI Premium
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: Distribute Power BI externally using Azure Active Directory B2B (Distribuir o Power BI externamente através do Azure Active Directory B2B)
-          href: whitepaper-azure-b2b-power-bi.md

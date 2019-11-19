@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985747"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019375"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -45,7 +45,7 @@ Existem dois ícones para relatórios nas aplicações móveis do Power BI:
 > [!NOTE]
 > Ao segurar o seu telemóvel na orientação horizontal, será sempre apresentado o esquema horizontal, mesmo que a página do relatório esteja no esquema de telemóvel.
 
-Para aceder a um relatório a partir de um dashboard, toque nas reticências (...) no canto superior direito de um mosaico e, em seguida, toque em **Abrir relatório**:
+Para aceder a um relatório a partir de um dashboard, toque em **Mais opções** (...) no canto superior direito de um mosaico e, em seguida, toque em **Abrir relatório**:
   
   ![Abrir relatório](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +59,7 @@ Um toque tem o mesmo efeito que um clique com o rato. Assim, se quiser fazer um 
 Quando tocar num valor de segmentação de dados, este será selecionado e irá dividir o resto do relatório.
 Quando tocar numa ligação, num botão ou num marcador, irá ocorrer a ação definida pelo autor do relatório.
 
-Já deve ter reparado que é apresentado um limite sempre que toca num elemento visual. No canto superior direito do limite, são apresentadas reticências (...). Se tocar nas reticências, será apresentado um menu de ações que pode realizar nesse elemento visual:
+Já deve ter reparado que é apresentado um limite sempre que toca num elemento visual. No canto superior direito do limite, são apresentadas **Mais opções** (...). Se tocar nas reticências, será apresentado um menu de ações que pode realizar nesse elemento visual:
 
 ![Elemento visual e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +92,7 @@ Para obter mais informações, saiba mais sobre como [adicionar pormenorização
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>Utilizar as ações no rodapé do relatório
-A partir do rodapé do relatório, pode realizar várias ações na página atual do relatório ou em todo o relatório. O rodapé proporciona um acesso rápido às ações utilizadas com mais frequência. Pode aceder a outras ações ao tocar no botão de reticências (...):
+A partir do rodapé do relatório, pode realizar várias ações na página atual do relatório ou em todo o relatório. O rodapé proporciona um acesso rápido às ações utilizadas com mais frequência. Pode aceder a outras ações ao tocar no botão **Mais opções** (...):
 
 ![Rodapé do relatório](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +105,7 @@ Pode alternar entre as páginas do relatório ao fazer o gesto de percorrer a pa
 - Ver todas as ações do relatório.
 
 #### <a name="all-report-actions"></a>Todas as ações do relatório
-Ao tocar no botão de reticências (...) no rodapé do relatório, serão apresentadas todas as ações que pode realizar num relatório:
+Ao tocar no botão **Mais opções** (...) no rodapé do relatório, serão apresentadas todas as ações que pode realizar num relatório:
 
 
 ![Todas as ações do relatório](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143712"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020402"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Utilizar Temas de Dashboard no serviço Power BI
 Com **Temas de Dashboard**, pode aplicar um tema de cores a todo o dashboard, como cores empresariais, cores sazonais ou qualquer outro tema de cores que pretenda aplicar. Quando aplica um **Tema do Dashboard**, todos os elementos visuais no dashboard utilizam as cores do tema selecionado (aplicam-se algumas exceções, descritas mais à frente neste artigo).
@@ -30,7 +30,7 @@ Alterar as cores dos elementos visuais do relatório no dashboard não afetará 
 
 
 ## <a name="how-dashboard-themes-work"></a>Como funcionam os Temas de Dashboard
-Para começar, abra um dashboard que tenha criado (ou no qual tenha permissão de edição) e que pretenda personalizar. Selecione as reticências (...) e selecione **Tema do dashboard**. 
+Para começar, abra um dashboard que tenha criado (ou no qual tenha permissão de edição) e que pretenda personalizar. Selecione **Mais opções** (...) e selecione **Tema do dashboard**. 
 
 ![opção do tema do dashboard](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

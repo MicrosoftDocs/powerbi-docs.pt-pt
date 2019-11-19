@@ -2,19 +2,18 @@
 title: Ver dashboards e relatórios nas aplicações móveis do Power BI
 description: Crie ou ligue-se a dashboards e relatórios no serviço Power BI. Em seguida, visualize-os nas aplicações móveis do Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654632"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870651"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -40,7 +39,7 @@ Segue-se um dashboard do Power BI no serviço Power BI:
 ## <a name="view-dashboards-on-your-iphone"></a>Ver dashboards no seu iPhone
 1. Abra a aplicação Power BI no seu iPhone e inicie sessão.
    
-   É necessário [transferir a aplicação para iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) a partir da Apple App Store?
+   É necessário [transferir a aplicação para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) a partir da Apple App Store?
 2. Toque num dashboard para abri-lo.  
    
     ![Toque no dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
 ## <a name="view-dashboards-on-your-ipad"></a>Ver dashboards no seu iPad
 1. Abra a aplicação Power BI.
    
-   É necessário [transferir a aplicação iPad](http://go.microsoft.com/fwlink/?LinkId=522062) da Apple App Store primeiro?
+   É necessário [transferir a aplicação iPad](https://go.microsoft.com/fwlink/?LinkId=522062) da Apple App Store primeiro?
 2. Toque em **Dashboards** na parte superior da aplicação.  
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
 ## <a name="view-dashboards-on-your-android-phone"></a>Ver dashboards no seu telemóvel Android
 1. Abra a aplicação Power BI no seu telemóvel Android e inicie sessão.
    
-   É necessário [transferir a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
+   É necessário [transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
 2. Toque num dashboard para abri-lo.   
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -118,7 +117,7 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
 
     Se for o proprietário do dashboard, no serviço Power BI, pode [criar uma vista do dashboard especificamente para telemóveis](../../service-create-dashboard-mobile-phone-view.md) no modo vertical. 
 
-1. Enquanto estiver no dashboard, pode tocar nas reticências (...) verticais junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
+1. Enquanto estiver no dashboard, pode tocar no botão vertical (...) **Mais opções** junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Passe o dedo para cima e para baixo para ver todos os [mosaicos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
@@ -127,14 +126,14 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
 ## <a name="view-dashboards-on-your-android-tablet"></a>Ver dashboards no seu tablet Android
 1. Abra a aplicação Power BI no seu tablet Android e inicie sessão.
    
-   É necessário [transferir a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
+   É necessário [transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) primeiro?
 2. Toque num dashboard para abri-lo.   
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
    * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
-3. Enquanto estiver no dashboard, pode tocar nas reticências (...) verticais junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
+3. Enquanto estiver no dashboard, pode tocar no botão vertical (...) **Mais opções** junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
    ![Menu de reticências](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Passe o dedo para cima e para baixo para ver todos os [mosaicos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
@@ -154,8 +153,8 @@ Se for o proprietário do dashboard, no serviço Power BI, pode *criar uma vista
 Leia mais sobre como [criar uma vista de telemóvel de um dashboard](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Passos seguintes
-* [Transferir a aplicação Android](http://go.microsoft.com/fwlink/?LinkID=544867) do Google Play  
+* [Transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) do Google Play  
 * [Introdução à aplicação Android para o Power BI](mobile-android-app-get-started.md)  
-* [O que é o Power BI?](../../power-bi-overview.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

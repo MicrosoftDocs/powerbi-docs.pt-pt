@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325448"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060684"
 ---
 # <a name="use-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -162,7 +162,9 @@ As seguintes atividades são auditadas pelo Power BI:
 | Conta de armazenamento do fluxo de dados anexada ao inquilino pelo administrador | AdminAttachedDataflowStorageAccountToTenant | Não é atualmente utilizado                       |
 | Conjunto de dados analisado do Power BI                         | AnalyzedByExternalApplication               |                                          |
 | Relatório do Power BI analisado                          | AnalyzeInExcel                              |                                          |
+| Conta de armazenamento do fluxo de dados anexada                 | AttachedDataflowStorageAccount              |                                          |
 | Conjunto de dados do Power BI vinculado ao gateway                | BindToGateway                               |                                          |
+| Atualização do fluxo de dados cancelada                        | CancelDataflowRefresh                       |                                          |
 | Estado de capacidade alterado                            | ChangeCapacityState                         |                                          |
 | Atribuição de utilizador da capacidade alterada                  | UpdateCapacityUsersAssignment               |                                          |
 | Ligações de dados do Power BI alteradas              | SetAllConnections                           |                                          |
@@ -194,6 +196,7 @@ As seguintes atividades são auditadas pelo Power BI:
 | Relatório do Power BI eliminado                           | DeleteReport                                |                                          |
 | Origens de dados do conjunto de dados do Power BI detetadas          | GetDatasources                              |                                          |
 | Relatório do Power BI transferido                        | DownloadReport                              |                                          |
+| Propriedades do fluxo de dados editadas                        | EditDataflowProperties                      |                                          |
 | Permissão de certificação do Power BI editada          | EditCertificationPermission                 | Não é atualmente utilizado                       |
 | Dashboard do Power BI editado                         | EditDashboard                               | Não é atualmente utilizado                       |
 | Conjunto de dados do Power BI editado                           | EditDataset                                 |                                          |
@@ -213,7 +216,7 @@ As seguintes atividades são auditadas pelo Power BI:
 | Dashboard do Power BI impresso                        | PrintDashboard                              |                                          |
 | Página de relatório do Power BI impressa                      | PrintReport                                 |                                          |
 | Relatório do Power BI publicado na Web                  | PublishToWebReport                          |                                          |
-| Segredo do fluxo de dados do Power BI recebido do Key Vault  | ReceiveDataflowSecretFromKeyVault           | Não é atualmente utilizado                       |
+| Segredo do fluxo de dados do Power BI recebido do Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Origem de dados removida do gateway do Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Membros do grupo do Power BI removidos                    | DeleteGroupMembers                          |                                          |
 | Área de trabalho removida de uma capacidade                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +224,7 @@ As seguintes atividades são auditadas pelo Power BI:
 | Atualização do fluxo de dados do Power BI pedida               | RequestDataflowRefresh                      | Não é atualmente utilizado                       |
 | Atualização do conjunto de dados do Power BI pedida                | RefreshDataset                              |                                          |
 | Áreas de trabalho do Power BI obtidas                     | GetWorkspaces                               |                                          |
+| Definir o local de armazenamento do fluxo de dados para uma área de trabalho     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Configurar atualização agendada no fluxo de dados do Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | Atualização agendada do conjunto de dados do Power BI configurada         | SetScheduledRefresh                         |                                          |
 | Dashboard do Power BI partilhado                         | ShareDashboard                              |                                          |
@@ -229,10 +233,12 @@ As seguintes atividades são auditadas pelo Power BI:
 | Versão de avaliação do Power BI iniciada                            | OptInForProTrial                            |                                          |
 | Controlou uma origem de dados do Power BI                   | TakeOverDatasource                          |                                          |
 | Controlou um conjunto de dados do Power BI                        | TakeOverDataset                             |                                          |
+| Controlou um fluxo de dados do Power BI                     | TookOverDataflow                             |                                          |
 | Aplicação do Power BI não publicada                          | UnpublishApp                                |                                          |
 | Atualizar definições de governação do recurso da capacidade      | UpdateCapacityResourceGovernanceSettings    | Não está atualmente no centro de administração do Microsoft 365 |
 | Administrador de capacidade atualizado                            | UpdateCapacityAdmins                        |                                          |
 | Nome a apresentar da capacidade atualizado                     | UpdateCapacityDisplayName                   |                                          |
+| Permissões de atribuição de armazenamento do fluxo de dados atualizadas   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Definições do Power BI da organização atualizadas          | UpdatedAdminFeatureSwitch                   |                                          |
 | Aplicação do Power BI atualizada                              | UpdateApp                                   |                                          |
 | Fluxo de dados do Power BI atualizado                         | UpdateDataflow                              |                                          |

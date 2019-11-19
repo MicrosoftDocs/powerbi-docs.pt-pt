@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236936"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019581"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Guia de Início Rápido: saiba mais sobre as funcionalidades do Power BI para *consumidores*
 Neste guia de início rápido, ficará a saber como interagir com o Power BI para obter informações empresariais baseadas em dados. Este artigo não pretende ser uma descrição detalhada, mas uma apresentação rápida de muitas das ações disponíveis para os **consumidores** do Power BI.
@@ -118,7 +118,7 @@ Os elementos visuais são compostos por pontos de dados e, ao pairar o cursor so
 ### <a name="favorite-a-dashboard"></a>Adicionar um dashboard como favorito
 Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos na barra de navegação. A barra de navegação é apresentada em praticamente qualquer área do Power BI. Normalmente, os favoritos são os dashboards, as páginas de relatórios e as aplicações a que acede com mais frequência.
 
-No canto superior direito do serviço Power BI, selecione **Favorito** ou, se não estiver visível, selecione as reticências (...) e, em seguida, **Favorito** no menu pendente. 
+No canto superior direito do serviço Power BI, selecione **Favorito** ou, se não estiver visível, selecione **Mais opções** (...) e, em seguida, **Favorito** no menu pendente. 
    
 ![ícone Favorito](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Saiba mais sobre o [modo de detalhe e o modo de ecrã inteiro](end-user-focus.md
 ### <a name="sort-a-visualization"></a>Ordenar uma visualização
 Os elementos visuais numa página de relatório podem ser ordenados e guardados com as alterações aplicadas. 
 
-Paire o cursor sobre um elemento visual para o tornar ativo e selecione as reticências (...) para abrir as opções de ordenação.
+Paire o cursor sobre um elemento visual para o tornar ativo e selecione **Mais opções** (...) para abrir as opções de ordenação.
 
 ![ordenar um gráfico](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Saiba mais sobre a [ordenação dos elementos visuais](end-user-search-sort.md)
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrar os dados utilizados para criar uma visualização
 Uma visualização do Power BI é construída com dados dos conjuntos de dados subjacentes. Se estiver interessado em conhecer os bastidores, o Power BI permite-lhe *apresentar* os dados que estão a ser utilizados para criar o elemento visual. Quando seleciona **Mostrar Dados**, o Power BI apresenta os dados por baixo da visualização (ou junto da mesma).
 
-Com um elemento visual ativo, selecione as reticências (...) e selecione **Mostrar dados**.
+Com um elemento visual ativo, selecione **Mais opções** (...) e selecione **Mostrar dados**.
    
    ![selecionar Mostrar Dados](./media/end-user-show-data/power-bi-explore-show-data.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: db79c33abe6f9e472dc29db007c4485d7a8d861e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020795"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431596"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
 
@@ -72,7 +72,7 @@ Para obter informações mais detalhadas, veja [Dados de Relatórios no Report B
 
 Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seguem as regras para conjuntos de dados partilhados no Power BI, com algumas pequenas alterações.  Para que os utilizadores vejam corretamente os relatórios paginados que utilizam conjuntos de dados do Power BI, assim como para garantir que a segurança ao nível da linha (RLS) está ativada e é imposta para quem vir o seu relatório, certifique-se de que segue estas regras:
 
-### <a name="classic-apps-and-app-workspaces"></a>Aplicações clássicas e áreas de trabalho de aplicações
+### <a name="classic-apps-and-workspaces"></a>Aplicações clássicas e áreas de trabalho
 
 - .rdl na mesma área de trabalho como conjunto de dados (mesmo proprietário): Suportado
 - .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
@@ -82,7 +82,7 @@ Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seg
 - .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
 - Segurança ao nível da função: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>Aplicações de nova experiência e áreas de trabalho de aplicação
+### <a name="new-experience-apps-and-workspaces"></a>Aplicações de nova experiência e áreas de trabalho
 
 - .rdl na mesma área de trabalho que o conjunto de dados: Suportado
 - .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado

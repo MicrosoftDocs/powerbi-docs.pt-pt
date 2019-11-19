@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020470"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429814"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Ligar a conjuntos de dados no serviço Power BI a partir do Power BI Desktop
 Pode estabelecer uma ligação em direto com um conjunto de dados partilhado no serviço Power BI e criar muitos relatórios diferentes a partir do mesmo conjunto de dados. Isto significa que pode criar o seu modelo de dados ideal no Power BI Desktop e publicá-lo no serviço Power BI. Em seguida, é possível criar múltiplos relatórios diferentes (em ficheiros .pbix separados) a partir do mesmo modelo de dados comum e guardá-los em diferentes áreas de trabalho. Esta funcionalidade é denominada **Ligação em direto do serviço Power BI**.
@@ -37,7 +37,7 @@ Todas as pessoas adoram o relatório e conjunto de dados da Ana e era aí que co
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Ligar a um conjunto de dados do serviço Power BI através de uma ligação em direto
 A Ana cria um relatório (e o conjunto de dados em que se baseia) e publica-o no **serviço Power BI**. O relatório é apresentado na área de trabalho da equipa no serviço Power BI. Se a Ana o guardar numa *nova experiência de área de trabalho*, poderá definir a Permissão de compilação para tornar o relatório disponível para visualização e utilização para todas as pessoas que estiverem dentro e fora da sua área de trabalho.
 
-Para saber mais sobre a nova experiência de áreas de trabalho, veja [áreas de trabalho de aplicação](service-new-workspaces.md).
+Para saber mais sobre a nova experiência de áreas de trabalho, veja [áreas de trabalho](service-new-workspaces.md).
 
 Os outros membros que estiverem dentro e fora da área de trabalho podem agora estabelecer uma ligação em direto ao modelo de dados partilhado da Ana (através da funcionalidade **ligação em direto do serviço Power BI**) e criar os seus próprios relatórios exclusivos, a partir do *conjunto de dados original* na *respetiva nova experiência de áreas de trabalho*.
 

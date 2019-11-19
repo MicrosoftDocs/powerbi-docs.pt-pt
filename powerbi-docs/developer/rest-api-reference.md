@@ -1,24 +1,28 @@
 ---
 title: Referência da API REST do Power BI
 description: Referência da API REST do Power BI
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 7677bbc71f141b0ca64bfa9d10d8c5b3c884904c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38e04049ad7fb4f2bc9a59f9680d257800e77148
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270133"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019118"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referência da API REST do Power BI
 
-O Power BI é um serviço com base na cloud que pode usar para criar aplicações de dashboard personalizados. A API REST do Power BI é uma API baseada em REST que fornece acesso programático a recursos de **Painel** como **Conjuntos de Dados**, **Tabelas**e **Linhas** no Power BI.
+O Power BI é um serviço com base na cloud que pode usar para criar aplicações de dashboard personalizados. A API REST do Power BI é uma API baseada em REST que fornece acesso programático a todos os artefactos que o serviço está a utilizar, nomeadamente:
+* Conjuntos de Dados
+* Dashboards
+* Relatórios
+* Gateways
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 

@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751276"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060400"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introdução ao serviço Power BI
-Este tutorial é uma introdução a algumas das funcionalidades do *serviço Power BI*. Aqui, irá aprender a ligar-se aos dados, a criar um relatório e um dashboard, e a fazer perguntas sobre os seus dados. As várias funcionalidades do serviço Power BI permitem-lhe fazer muito mais. Este tutorial é só o começo. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos que leia [O que é o Power BI?](power-bi-overview.md).
+Este tutorial é uma introdução a algumas das funcionalidades do *serviço Power BI*. Aqui, irá aprender a ligar-se aos dados, a criar um relatório e um dashboard, e a fazer perguntas sobre os seus dados. As várias funcionalidades do serviço Power BI permitem-lhe fazer muito mais. Este tutorial é só o começo. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos que leia [O que é o Power BI?](fundamentals/power-bi-overview.md).
 
 ![Ecrã principal do serviço Power BI](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
    
 8. Selecione o novo mosaico no seu dashboard para regressar ao relatório. O Power BI regressa ao relatório na Vista de leitura. 
 
-1. Para mudar novamente para a Vista de edição, selecione as reticências (...) na barra de navegação superior > **Editar**. Quando voltar à Vista de edição, pode continuar a explorar e a afixar mosaicos.
+1. Para mudar novamente para a Vista de edição, selecione **Mais opções** (...) na barra de navegação superior > **Editar**. Quando voltar à Vista de edição, pode continuar a explorar e a afixar mosaicos.
 
     ![Selecionar Editar para editar o relatório](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -152,7 +152,7 @@ Para explorar os dados rapidamente, experimente fazer uma pergunta na caixa de P
 
 1. Afixe também o gráfico de barras no dashboard **Exemplo Financeiro para o tutorial**.
 
-1. Coloque o cursor depois de *by month* (por mês) na caixa Perguntas e Respostas e escreva *como linha*. Selecione **linha (Tipo de Visualização)** . 
+1. Coloque o cursor depois de *by month* (por mês) na caixa Perguntas e Respostas e escreva *como linha*. Selecione **linha (Tipo de Visualização)**. 
 
     ![Gráfico como uma visualização de linha](media/service-get-started/power-bi-service-qanda-as-line.png)
 
@@ -200,7 +200,7 @@ Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e
 
 1. Na barra de navegação esquerda, certifique-se de que está em **A Minha Área de Trabalho**.
 2. Selecione o separador **Conjuntos de Dados** e procure o conjunto de dados que importou para este tutorial.  
-3. Selecione as reticências (...) > **Eliminar**.
+3. Selecione **Mais opções** (...) > **Eliminar**.
 
     ![Eliminar o conjunto de dados](media/service-get-started/power-bi-service-delete-dataset.png)
 

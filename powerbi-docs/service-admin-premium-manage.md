@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: c3c1b11b4445ceba67e272b7f652d61d8935fc16
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175731"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431414"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurar e gerir capacidades no Power BI Premium
 
@@ -98,7 +98,7 @@ Os administradores do Power BI e os Administradores Globais do Office 365 podem 
 
 ### <a name="manage-user-permissions"></a>Gerir permissões de utilizador
 
-Pode atribuir administradores de capacidade adicionais e utilizadores com permissões de *atribuição de capacidade*. Se forem administradores dessa área de trabalho, os utilizadores com permissões de atribuição podem atribuir uma área de trabalho de aplicação a uma capacidade. Podem também atribuir a respetiva *A minha área de trabalho* à capacidade. Os utilizadores com permissões de atribuição não têm acesso ao portal de administração.
+Pode atribuir administradores de capacidade adicionais e utilizadores com permissões de *atribuição de capacidade*. Se forem administradores dessa área de trabalho, os utilizadores com permissões de atribuição podem atribuir uma área de trabalho a uma capacidade. Podem também atribuir a respetiva *A minha área de trabalho* à capacidade. Os utilizadores com permissões de atribuição não têm acesso ao portal de administração.
 
 > [!NOTE]
 > Para a capacidade do Power BI Embedded, os administradores de capacidade são definidos no portal do Microsoft Azure.
@@ -109,7 +109,7 @@ Em **Permissões de utilizador**, expanda a secção **Utilizadores com permiss�
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Atribuir uma área de trabalho a uma capacidade
 
-Existem duas formas de atribuir uma área de trabalho a uma capacidade: no portal de administração e a partir de uma área de trabalho de aplicação.
+Existem duas formas de atribuir uma área de trabalho a uma capacidade: no portal de administração e a partir de uma área de trabalho.
 
 ### <a name="assign-from-the-admin-portal"></a>Atribuir a partir do portal de administração
 
@@ -127,22 +127,22 @@ Os administradores de capacidade, em conjunto com os administradores do Power BI
    | --- | --- |
    | **Áreas de trabalho por utilizadores** | Quando atribui áreas de trabalho por utilizador ou grupo, todas as áreas de trabalho pertencentes a esses utilizadores são atribuídas à capacidade de Premium, incluindo a área de trabalho pessoal do utilizador. Os utilizadores referidos obtêm automaticamente permissões de atribuição de áreas de trabalho.<br>Isto inclui áreas de trabalho já atribuídas a uma capacidade diferente. |
    | **Áreas de trabalho específicas** | Introduza o nome de uma área de trabalho específica a atribuir à capacidade selecionada. |
-   | **Todas as áreas de trabalho da empresa** | A atribuição das áreas de trabalho de toda a organização à capacidade Premium atribui todas as áreas de trabalho de aplicação e As Minhas Áreas de Trabalho, na sua organização, a esta capacidade Premium. Além disso, todos os utilizadores atuais e futuros terão permissão para atribuir de novo áreas de trabalho individuais a esta capacidade. |
+   | **Todas as áreas de trabalho da empresa** | A atribuição das áreas de trabalho de toda a organização à capacidade Premium atribui todas as áreas de trabalho e As Minhas Áreas de Trabalho, na sua organização, a esta capacidade Premium. Além disso, todos os utilizadores atuais e futuros terão permissão para atribuir de novo áreas de trabalho individuais a esta capacidade. |
    | | |
 
 1. Selecione **Aplicar**.
 
-### <a name="assign-from-app-workspace-settings"></a>Atribuir a partir das definições da área de trabalho de aplicação
+### <a name="assign-from-workspace-settings"></a>Atribuir a partir das definições da área de trabalho
 
-Também pode atribuir uma área de trabalho de aplicação a uma capacidade Premium a partir das definições dessa área de trabalho. Para mover uma área de trabalho para uma capacidade, tem de ter permissões de administração para essa área de trabalho, bem como permissões de atribuição de capacidade para essa capacidade. Tenha em atenção que os administradores de área de trabalho podem sempre remover uma área de trabalho da capacidade Premium.
+Também pode atribuir uma área de trabalho a uma capacidade Premium a partir das definições dessa área de trabalho. Para mover uma área de trabalho para uma capacidade, tem de ter permissões de administração para essa área de trabalho, bem como permissões de atribuição de capacidade para essa capacidade. Tenha em atenção que os administradores de área de trabalho podem sempre remover uma área de trabalho da capacidade Premium.
 
-1. Edite uma área de trabalho de aplicação ao selecionar as reticências **(. . .)** e, em seguida, **Editar área de trabalho**.
+1. Edite uma área de trabalho ao selecionar as reticências **(. . .)** e, em seguida, **Editar área de trabalho**.
 
     ![Editar a área de trabalho a partir do menu de contexto de reticências](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. Em **Editar área de trabalho**, expanda a secção **Avançado**.
 
-1. Selecione a capacidade à qual pretende atribuir esta área de trabalho de aplicação.
+1. Selecione a capacidade à qual pretende atribuir esta área de trabalho.
 
     ![Menu pendente de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
 

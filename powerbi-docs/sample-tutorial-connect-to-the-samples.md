@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391495"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020635"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Ligar aos exemplos no serviço Power BI
 
@@ -91,7 +91,7 @@ Agora explore o dashboard, o conjunto de dados e o relatório por conta própria
      
    ![Relatório totalmente novo](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. Outra forma de explorar o conjunto de dados é executar as [informações rápidas](consumer/end-user-insights.md). Selecione as reticências (...) e, em seguida, a opção **Obter informações rápidas**. Quando as informações estiverem prontas, selecione **Ver informações**.
+1. Outra forma de explorar o conjunto de dados é executar as [informações rápidas](consumer/end-user-insights.md). Selecione **Mais opções** (...) e, em seguida, selecione **Obter informações rápidas**. Quando as informações estiverem prontas, selecione **Ver informações**.
      
     ![Relatório de informações](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

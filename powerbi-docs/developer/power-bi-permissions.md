@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269361"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429128"
 ---
 # <a name="power-bi-permissions"></a>Permissões do Power BI
 
@@ -27,7 +27,7 @@ As permissões do Power BI fornecem a uma aplicação a capacidade de executar d
 | Ver Todos os Conjuntos de Dados |A aplicação pode ver todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.Read.All |
 | Ler e Escrever Todos os Conjuntos de Dados |A aplicação pode ver e escrever em todos os conjuntos de dados do utilizador com sessão iniciada e os conjuntos de dados a que o utilizador tem acesso. |Dataset.ReadWrite.All |
 | Adicionar dados ao conjunto de dados de um utilizador |Dá acesso a uma aplicação para adicionar ou eliminar linhas de conjuntos de dados de um utilizador. Esta permissão não concede o acesso da aplicação aos dados do utilizador. |Data.Alter_Any |
-| Create content |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
+| Criar conteúdos |A aplicação pode criar conteúdos e conjuntos de dados automaticamente para um utilizador. |Content.Create |
 | Ver Grupos de Utilizadores |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read |
 | Ver todos os grupos |A aplicação pode ver todos os grupos a que o utilizador com sessão iniciada pertence. |Group.Read.All |
 | Ler e escrever todos os Grupos |A aplicação pode ver e escrever em todos os grupos do utilizador com a sessão iniciada e todos os grupos a que o utilizador tenha acesso. |Group.ReadWrite.All |
@@ -42,7 +42,7 @@ As permissões do Power BI fornecem a uma aplicação a capacidade de executar d
 Uma aplicação pode pedir permissões quando tentar iniciar sessão pela primeira vez na página de um utilizador ao transmitir as permissões pedidas no parâmetro de âmbito da chamada. Se as permissões forem concedidas, será devolvido um token de acesso à aplicação, que pode ser utilizado nas chamadas de API futuras. O acesso pode ser utilizado apenas por uma aplicação específica.
 
 > [!NOTE]
-> As APIs do Power BI ainda se referem às áreas de trabalho de aplicações como grupos. Quaisquer referências a grupos significam que está a trabalhar com áreas de trabalho de aplicações.
+> As APIs Power BI ainda se referem às áreas de trabalho como grupos. Quaisquer referências a grupos significam que está a trabalhar com áreas de trabalho.
 
 ## <a name="requesting-permissions"></a>Pedir Permissões
 

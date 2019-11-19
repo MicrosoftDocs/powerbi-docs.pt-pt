@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161193"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775949"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
@@ -116,7 +116,7 @@ Para obter mais informações, veja [Sugestões e truques para elementos visuais
 
 Para obter mais informações, veja [Mapas ArcGIS no Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
+### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas de manchas (Coropleto)
 ![mapa de manchas](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -146,6 +146,14 @@ Para obter mais informações, veja [Matrix visuals in Power BI](desktop-matrix-
 
 >[!TIP]
 >Os gráficos circulares mostram a relação das partes com um todo. 
+
+### <a name="qa-visual"></a>Q&A visual (Elemento visual Perguntas e Respostas)
+![Elementos Visuais das Perguntas e Respostas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>Tal como a [experiência das Perguntas e Respostas em dashboards](../power-bi-tutorial-q-and-a.md), o elemento visual de Perguntas e Respostas permite que faça perguntas sobre os seus dados através de linguagem natural. 
+
+Para obter mais informações, veja [Elementos visuais das Perguntas e Respostas no Power BI](power-bi-visualization-q-and-a.md).
 
 ### <a name="r-script-visuals"></a>elementos visuais do script R
 ![Visuais R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)

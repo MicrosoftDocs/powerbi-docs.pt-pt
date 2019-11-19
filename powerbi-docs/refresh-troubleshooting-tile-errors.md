@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544276"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021544"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
@@ -69,7 +69,7 @@ Isso geralmente é um problema temporário. Se tentar novamente mais tarde e con
 
 Este problema poderá ocorrer se o conjunto de dados subjacente estiver configurado para utilizar o modo DirectQuery ou uma Ligação em Direto para o Analysis Services através de um gateway de dados no local. Neste caso, os mosaicos continuam a mostrar os dados não filtrados depois de ativar o SSO para a origem de dados até que o próximo mosaico seja atualizado. Na próxima atualização do mosaico, o Power BI utiliza o SSO conforme configurado e os mosaicos mostram os dados filtrados de acordo com a identidade do utilizador. 
 
-Se quiser ver os dados filtrados imediatamente, poderá forçar uma atualização do mosaico ao selecionar as reticências (...) no canto superior direito de um dashboard e, em seguida, **Atualizar mosaicos do dashboard**.
+Se quiser ver os dados filtrados imediatamente, poderá forçar uma atualização do mosaico ao selecionar **Mais opções** (...) no canto superior direito de um dashboard e, em seguida, **Atualizar mosaicos do dashboard**.
 
 Como proprietário de um conjunto de dados, também pode alterar a frequência de atualização dos mosaicos e defini-la como 15 minutos para acelerar a atualização dos mosaicos. Selecione o ícone da engrenagem no canto superior direito do serviço Power BI e, em seguida, selecione **Definições**. Na página **Definições**, selecione o separador **Conjunto de dados**. Expanda **Atualização de cache agendada** e altere a **Frequência de atualização**. Confirme que repõe a configuração da frequência de atualização original após o Power BI executar a próxima atualização de mosaico.
 

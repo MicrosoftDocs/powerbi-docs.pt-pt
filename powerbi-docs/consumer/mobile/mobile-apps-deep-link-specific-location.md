@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906517"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429901"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 Pode utilizar ligações para aceder diretamente a itens específicos no Power BI: Relatório, Dashboard e Mosaico.
@@ -69,7 +69,7 @@ Os **PARÂMETROS DE CONSULTA** são os seguintes:
 
 #### <a name="links-of-apps-and-items-in-app"></a>Ligações de aplicações e itens na aplicação
 
-Para **aplicações, relatórios e dashboards que fazem parte de uma aplicação**, a forma mais fácil de obter a ligação é aceder à área de trabalho da aplicação e selecionar "Atualizar aplicação". Será aberta a experiência "Publicar aplicação" e, no separador Acesso, irá encontrar a secção **Ligações**. Ao expandir esta secção, irá ver a lista da aplicação e todas as suas ligações de conteúdos que podem ser utilizadas para aceder diretamente aos mesmos.
+Para **aplicações, relatórios e dashboards que fazem parte de uma aplicação**, a forma mais fácil de obter a ligação é aceder à área de trabalho e selecionar "Atualizar aplicação". Será aberta a experiência "Publicar aplicação" e, no separador Acesso, irá encontrar a secção **Ligações**. Ao expandir esta secção, irá ver a lista da aplicação e todas as suas ligações de conteúdos que podem ser utilizadas para aceder diretamente aos mesmos.
 
 ![Ligações de Publicar aplicação do Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -89,7 +89,7 @@ Este é um exemplo de relatório de "A Minha Área de Trabalho":
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-O URL acima contém também a página de relatório específica **"ReportSection3"** .
+O URL acima contém também a página de relatório específica **"ReportSection3"**.
 
 Este é um exemplo de um relatório de uma área de trabalho (não de A Minha Área de Trabalho):
 
@@ -118,5 +118,5 @@ Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto,
 * [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)
 * Siga o @MSPowerBI no Twitter
 * Participe na conversa na [Comunidade do Power BI](http://community.powerbi.com/)
-* [O que é o Power BI?](../../power-bi-overview.md)
+* [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 

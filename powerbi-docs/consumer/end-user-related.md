@@ -12,14 +12,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100221"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019449"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Ver conteúdos relacionados no serviço Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 O painel **Conteúdo relacionado** mostra-lhe como os conteúdos de serviço do Power BI (dashboards, relatórios e conjuntos de dados) estão interligados. O painel **Conteúdos relacionados** também é uma plataforma de lançamento para ações. Aqui, pode efetuar tarefas como abrir um dashboard, abrir um relatório, gerar informações, analisar os dados no Excel e muito mais.  
 
 No Power BI, os relatórios são criados com base em conjuntos de dados, os visuais de relatórios são afixados aos dashboards e os visuais dos dashboards são ligados aos relatórios. Mas como se pode saber que dashboards alojam visuais do seu relatório de Marketing? E como se localizam esses dashboards? O seu dashboard de Aquisição utiliza visuais de mais de um conjunto de dados? Se for esse o caso, que nome têm e como se podem abrir e editar? O seu conjunto de dados de RH está a ser utilizado em relatórios ou dashboards? Ou pode ser movido sem causar ligações quebradas? O painel **Conteúdo relacionado** pode responder a estas e outras perguntas.  Além de o painel apresentar os conteúdos relacionados, também lhe permite realizar ações sobre os conteúdos e navegar facilmente pelos conteúdos relacionados.
@@ -36,7 +39,7 @@ Veja o Will a visualizar conteúdos relacionados de um dashboard. Depois, siga a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-Com um dashboard ou relatório aberto, selecione as reticências (...) na barra de menus e escolha **Ver relacionados** na lista pendente.
+Com um dashboard ou relatório aberto, selecione **Mais opções** (...) na barra de menus e selecione **Ver relacionados** na lista pendente.
 
 ![Lista pendente de reticências](./media/end-user-related/power-bi-dropdown.png)
 

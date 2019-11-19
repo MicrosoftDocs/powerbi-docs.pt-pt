@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139722"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432083"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas
@@ -52,7 +52,7 @@ Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-ret
    ![dashboard com mosaicos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-* Quando começa a escrever uma pergunta, o P e R começa imediatamente a procurar a melhor resposta de todos os conjuntos de dados associados ao dashboard atual.  O "dashboard atual" é o dashboard, listado na barra de navegação superior. Por exemplo, esta questão está a ser feita no dashboard **Exemplo de Análise de Revenda** que faz parte da área de trabalho da aplicação **mihart**.
+* Quando começa a escrever uma pergunta, o P e R começa imediatamente a procurar a melhor resposta de todos os conjuntos de dados associados ao dashboard atual.  O "dashboard atual" é o dashboard, listado na barra de navegação superior. Por exemplo, esta pergunta está a ser feita no dashboard **Exemplo de Análise de Revenda**, que faz parte da área de trabalho **mihart**.
 
   ![trilhos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **De que forma as Perguntas e Respostas sabem que conjuntos de dados devem utilizar**?  As Perguntas e Respostas têm acesso a todos os conjuntos de dados que têm, pelo menos, uma visualização afixada nesse dashboard.

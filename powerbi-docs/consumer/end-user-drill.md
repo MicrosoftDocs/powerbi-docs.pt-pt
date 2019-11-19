@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589497"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019903"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploração num elemento visual no Power BI
 
@@ -128,7 +128,7 @@ Um treemap a mostrar apenas um código postal não é algo informativo.  Por iss
 ## <a name="show-the-data-as-you-drill"></a>Mostrar os dados à medida que explora
 Utilize a opção **Mostrar dados** para ver o que acontece nos bastidores. Sempre que explorar ou expandir, a opção **Mostrar dados** irá apresentar os dados utilizados para criar o elemento visual. Isto pode ajudar a compreender como as hierarquias, a exploração e a expansão funcionam em conjunto para criar elementos visuais. 
 
-Selecione o botão das reticências (...) no canto superior direito e, em seguida, selecione **Mostrar Dados**. 
+No canto superior direito, selecione **Mais opções** (...) e, em seguida, selecione **Mostrar Dados**. 
 
 ![Captura de ecrã do menu de reticências.](./media/end-user-drill/power-bi-ellipses.png)
 

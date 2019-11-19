@@ -8,15 +8,15 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962499"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060378"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de dados no serviço Power BI
 
@@ -24,7 +24,7 @@ Defina alertas para receber notificações quando os dados nos seus dashboards f
 
 Pode definir alertas em mosaicos se tiver uma licença Power BI Pro. Também pode definir alertas se alguém partilhar um dashboard que esteja numa [capacidade Premium](service-premium-what-is.md). Os alertas só podem ser definidos nos mosaicos afixados a partir de elementos visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em elementos visuais criados a partir de fluxos de conjuntos de dados que afixa de um relatório a um dashboard. Os alertas não podem ser definidos em fluxos de mosaicos criados diretamente no dashboard com **Adicionar mosaico** > **Dados de transmissão em fluxo personalizados**.
 
-Só o utilizador pode ver os alertas que definir, mesmo que partilhe o dashboard. Os alertas de dados são totalmente sincronizados entre plataformas; defina e veja alertas de dados [nas aplicações móveis do Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço Power BI. Não estão disponíveis para o Power BI Desktop. Pode até automatizar e integrar alertas com o Microsoft Flow. Pode experimentá-lo neste artigo: [Microsoft Flow e Power BI](service-flow-integration.md).
+Só o utilizador pode ver os alertas que definir, mesmo que partilhe o dashboard. Mesmo o proprietário do dashboard não consegue ver os alertas que definiu na vista do respetivo dashboard. Os alertas de dados são totalmente sincronizados entre plataformas; defina e veja alertas de dados [nas aplicações móveis do Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço Power BI. Não estão disponíveis para o Power BI Desktop. Pode até automatizar e integrar alertas com o Microsoft Flow. Pode experimentá-lo neste artigo: [Microsoft Flow e Power BI](service-flow-integration.md).
 
 ![mosaicos](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +116,13 @@ Existem várias formas de gerir os alteras:
 
 1. A partir daqui, pode ativar e desativar alertas, abrir a janela **Gerir alertas** para fazer alterações ou eliminar o alerta.
 
-## <a name="tips-and-troubleshooting"></a>Sugestões e resolução de problemas
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
 * Os alertas não são suportados para mosaicos de cartões com medidas de data/hora.
-
 * Os alertas só funcionam com tipos de dados numéricos.
-
 * Os alertas só funcionam em dados atualizados. Não funcionam com dados estáticos.
-
 * Os alertas só funcionam em conjuntos de dados de transmissão em fluxo se criar um elemento visual de relatório de KPI, cartão ou medidor e, em seguida, afixar esse elemento visual ao dashboard.
+
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -132,6 +130,6 @@ Existem várias formas de gerir os alteras:
 
 * [Definir alertas de dados num dispositivo móvel](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
-* [O que é o Power BI?](power-bi-overview.md)
+* [O que é o Power BI?](fundamentals/power-bi-overview.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

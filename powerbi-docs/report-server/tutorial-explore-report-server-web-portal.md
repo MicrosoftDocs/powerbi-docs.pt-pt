@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240061"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021632"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal Web do Power BI Report Server numa VM
 Neste tutorial, vai criar uma máquina virtual do Azure com o Power BI Report Server já instalado, para poder experimentar a visualização, edição e gestão de relatórios paginados e do Power BI de exemplo, e KPIs.
@@ -125,7 +125,7 @@ Faça duplo clique no ícone **Portal Web do Report Server**. O browser abre `ht
 ## <a name="tag-your-favorites"></a>Etiquetar os favoritos
 Pode etiquetar os relatórios e KPIs que quer que sejam favoritos. São mais fáceis de localizar porque estão todos numa única pasta Favoritos, tanto no portal Web como nas aplicações móveis do Power BI. 
 
-1. Selecione as reticências ( **…** ) no canto superior direito da **Margem de Lucro** KPI > **Adicionar aos Favoritos**.
+1. Selecione as reticências (**…**) no canto superior direito da **Margem de Lucro** KPI > **Adicionar aos Favoritos**.
    
     ![Adicionar aos Favoritos](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Selecione **Favoritos** no friso do portal Web para vê-lo juntamente com os outros favoritos na página Favoritos no portal Web.
@@ -189,7 +189,7 @@ Pode ver e gerir relatórios paginados e iniciar o Report Builder no portal Web.
 
 ### <a name="manage-a-paginated-report"></a>Gerir um relatório paginado
 
-1. No portal Web em **Relatórios paginados**, selecione as reticências (…) junto a **Nota de Vendas** > **Gerir**.
+1. No portal Web em **Relatórios paginados**, selecione **Mais opções** (...) junto a **Nota de Vendas** > **Gerir**.
 
 1. Selecione **Parâmetros**, altere o valor predefinido para **SalesOrderNumber** para **SO50689** > **Aplicar**.
 
@@ -219,7 +219,7 @@ Pode ver e gerir relatórios paginados e iniciar o Report Builder no portal Web.
 
 Pode editar relatórios paginados no Report Builder e pode iniciar o Report Builder diretamente no browser.
 
-1. No portal Web, selecione as reticências (…) junto a **Nota de Vendas** > **Editar no Report Builder**.
+1. No portal Web, selecione **Mais opções** (...) junto a **Nota de Vendas** > **Editar no Report Builder**.
 
 1. Selecione **Permitir** para permitir que este site abra um programa no seu computador.
 

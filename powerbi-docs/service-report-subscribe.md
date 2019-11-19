@@ -1,26 +1,25 @@
 ---
-title: Subscrever relatórios e dashboards para si e para outras pessoas – Power BI
+title: 'Subscrever relatórios e dashboards: para si e para os seus colegas'
 description: Saiba como subscrever um instantâneo de uma página de relatórios, de um dashboard ou de um relatório paginado do Power BI para si e para outras pessoas.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073421"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099774"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Subscrever relatórios e dashboards no serviço Power BI para si e para outras pessoas
 
-Pode subscrever as páginas de relatórios, os dashboards e os relatórios paginados mais importantes para si e para os seus colegas. O Power BI irá enviar-lhe um instantâneo por e-mail. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente, mensalmente, de hora a hora ou uma vez por dia depois da atualização de dados inicial.  Se selecionar diariamente, semanalmente, mensalmente ou de hora a hora, pode escolher a hora em que pretende que a subscrição seja executada.  Pode configurar até 24 subscrições diferentes por dia, para cada página de relatório e dashboard.
+Pode subscrever as páginas de relatórios, os dashboards e os relatórios paginados mais importantes para si e para os seus colegas. O Power BI irá enviar-lhe um instantâneo por e-mail. Indique ao Power BI com que frequência quer receber os e-mails: diariamente, semanalmente, mensalmente, de hora a hora ou uma vez por dia depois da atualização de dados inicial.  Se selecionar diariamente, semanalmente, mensalmente ou de hora a hora, pode escolher a hora em que pretende que a subscrição seja executada.  Pode configurar até 24 subscrições diferentes por relatório ou dashboard.
 
 ![instantâneo do dashboard num e-mail](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -97,7 +96,7 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 * As subscrições de páginas de relatório estão associadas ao nome da página de relatório. Se subscrever uma página de relatório e, em seguida, mudar o nome da mesma, terá de voltar a criar a sua subscrição.
 * A sua organização pode configurar determinadas definições no Azure Active Directory que podem limitar a capacidade de utilizar as subscrições de e-mail no Power BI.  Estas limitações incluem, mas não se limitam a, ter uma autenticação multifator ou restrições de intervalos de IP quando se acede a recursos.
 * Atualmente, as subscrições de e-mail para relatórios/dashboards com conjuntos de dados de ligações em direto não são suportadas ao subscrever outros utilizadores, a menos que esteja a utilizar um relatório paginado, que irá permitir que envie a subscrição para outras pessoas com o seu contexto de segurança. 
-* As subscrições de e-mail não suportam a maioria dos [elementos visuais personalizados](power-bi-custom-visuals.md).  A única exceção são os elementos visuais personalizados que foram [certificados](power-bi-custom-visuals-certified.md).  
+* As subscrições de e-mail não suportam a maioria dos [elementos visuais personalizados](developer/power-bi-custom-visuals.md).  A única exceção são os elementos visuais personalizados que foram [certificados](developer/power-bi-custom-visuals-certified.md).  
 * Neste momento, as subscrições de e-mail não suportam elementos visuais personalizados baseados em R.  
 * As subscrições por e-mail são enviadas com as estatísticas de filtro e segmentação de dados predefinidas do relatório. Quaisquer alterações às predefinições efetuadas depois da subscrição não irão aparecer no e-mail.  Os Relatórios Paginados suportam esta funcionalidade e permitem-lhe definir os valores de parâmetros específicos por subscrição.   
 * Especificamente para subscrições de dashboards, determinados tipos de mosaicos ainda não são suportados.  Estes incluem: transmissão em fluxo de mosaicos, mosaicos de vídeos e mosaicos de conteúdo Web personalizados.     
@@ -109,5 +108,5 @@ Uma subscrição terminará se a licença Pro expirar, o proprietário eliminar 
 ## <a name="next-steps"></a>Próximos passos
 
 - [Subscrever um relatório paginado no serviço Power BI para si e para outras pessoas](paginated-reports-subscriptions.md)
-- Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)    
+- Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)    
 - [Ler a mensagem de blogue](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

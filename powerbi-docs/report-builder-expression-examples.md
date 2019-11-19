@@ -1,19 +1,19 @@
 ---
 title: Exemplos de expressões no Report Builder do Power BI
 description: As expressões são utilizadas com frequência nos relatórios paginados do Paginated Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624142"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728552"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Report Builder do Power BI
 As expressões são utilizadas com frequência nos relatórios paginados do Paginated Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios. As expressões são escritas no Microsoft Visual Basic e pode utilizar funções incorporadas, código personalizado, variáveis de grupos e relatórios e variáveis definidas pelo utilizador. As expressões começam com um sinal de igual (=).   
@@ -34,8 +34,8 @@ Este tópico fornece exemplos de expressões que podem ser utilizadas em tarefas
   
 Para obter mais informações sobre expressões simples e complexas, onde pode utilizar expressões e os tipos de referências que pode incluir numa expressão, consulte os tópicos em [Expressions in Power BI Report Builder](report-builder-expressions.md) (Expressões no Report Builder do Power BI). 
   
-## <a name="functions"></a>Funções  
- Muitas expressões num relatório contêm funções. Pode formatar dados, aplicar lógica e aceder a metadados de relatórios com estas funções. Pode escrever expressões que utilizam funções da biblioteca de runtime do Microsoft Visual Basic e dos espaços de nomes `xref:System.Convert` e `xref:System.Math`. Pode adicionar referências às funções de outras assemblagens ou código personalizado. Também pode utilizar classes do Microsoft .NET Framework, incluindo `xref:System.Text.RegularExpressions`.  
+## <a name="functions"></a>Functions  
+ Muitas expressões num relatório contêm funções. Pode formatar dados, aplicar lógica e aceder a metadados de relatórios com estas funções. Pode escrever expressões que utilizam funções da biblioteca de runtime do Microsoft Visual Basic e dos espaços de nomes `xref:System.Convert` e `xref:System.Math`. Pode adicionar referências a funções no código personalizado. Também pode utilizar classes do Microsoft .NET Framework, incluindo `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="VisualBasicFunctions"></a> Funções do Visual Basic  
  Pode utilizar funções do Visual Basic para manipular os dados que são apresentados nas caixas de texto ou que são utilizados em parâmetros, propriedades ou outras áreas do relatório. Esta secção mostra exemplos que demonstram algumas dessas funções. Para obter mais informações, veja [Visual Basic Runtime Library Members (Membros da Biblioteca de Runtime do Visual Basic)](https://go.microsoft.com/fwlink/?LinkId=198941) no MSDN.  
@@ -476,7 +476,7 @@ Para obter mais informações sobre expressões simples e complexas, onde pode u
     ```  
   
 ##  <a name="CustomCode"></a> Código personalizado  
- Pode utilizar código personalizado num relatório. O código personalizado é incorporado num relatório ou armazenado numa assemblagem personalizada que é utilizada no relatório.  
+ Pode utilizar código personalizado incorporado num relatório. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Utilizar variáveis de grupos para agregação personalizada  
  Pode inicializar o valor para uma variável de grupo local para um âmbito de grupo específico e, em seguida, incluir uma referência a essa variável em expressões. Uma das formas de utilizar uma variável de grupo com código personalizado é implementar uma agregação personalizada. 

@@ -10,12 +10,12 @@ ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 64e77a97ec8f316473d6b953b506b323b69bfd0e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239881"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431537"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para designers de relatórios
 
@@ -37,7 +37,7 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
                                           <h3>Começar a criar com o Power BI</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Começar a utilizar o Power BI Desktop</a><br/> 
-                                               <a href="power-bi-overview.md">Começar a utilizar o serviço Power BI</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Começar a utilizar o serviço Power BI</a><br/> 
                                                <a href="report-server/get-started.md">O que é o Power BI Report Server?</a>
                                     </div> 
                               </div> 
@@ -156,7 +156,7 @@ Liga-se a dados, estrutura consultas e cria relatórios e dashboards no Power BI
                                           <h3>Partilhar o seu trabalho</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Como devo colaborar e partilhar?</a><br/>
-                                                <a href="service-create-workspaces.md">Áreas de trabalhos de aplicação no serviço Power BI</a> 
+                                                <a href="service-create-workspaces.md">Áreas de trabalhos no serviço Power BI</a> 
                                     </div> 
                               </div> 
                         </div> 

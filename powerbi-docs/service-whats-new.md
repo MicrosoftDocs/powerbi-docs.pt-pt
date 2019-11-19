@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655041"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73061002"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
@@ -30,11 +30,43 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>Maio de 2019
-* [Navegação personalizada](service-create-distribute-apps.md) para Aplicações do Power BI.
-* Tipos de anexos adicionais (PPTX, XLSX, DOCX, CSV e XML) disponíveis para subscrições de e-mail em relatórios paginados.
+### <a name="october-2019"></a>Outubro de 2019
+* Nova ação do Microsoft Flow para atualizar conjuntos de dados do Power BI.
+* [Lista de contactos](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para relatórios e dashboards no serviço Power BI.
 
 ## <a name="previous-months-2019"></a>Meses anteriores (2019)
+### <a name="september-2019"></a>Setembro de 2019
+* Atualizações à configuração de ligação das [aplicações de modelo](service-template-apps-overview.md).
+
+### <a name="august-2019"></a>Agosto de 2019
+* Novas definições de capacidade para o Power BI Premium.
+* [Imagem corporativa personalizada](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) para a sua organização.
+* Exportação de dados resumidos com permissão de compilação.
+* Suporte para parâmetros de URL em [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Suporte para subscrições de e-mail mensais. 
+
+### <a name="july-2019"></a>Julho de 2019
+* Suporte para conjuntos de dados não premium em [relatórios paginados](paginated-reports-report-builder-power-bi.md).
+* Disponibilidade geral de [agregações](desktop-aggregations.md) do Power BI.
+* Envie notificações de atualização para outros utilizadores.
+* [Ferramenta de teste](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) para capacidades do Power BI Premium.
+* Pré-visualização pública de [notificações de disponibilidade do serviço](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/).
+* Pré-visualização pública do [Novo Aspeto](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) dos relatórios do Power BI.
+* Nova região do Power BI na África do Sul.
+
+### <a name="june-2019"></a>Junho de 2019
+* Pré-visualização pública de [conjuntos de dados Partilhados e Certificados](service-datasets-across-workspaces.md).
+* Métricas de IA disponíveis na [aplicação de Métricas de Capacidade Premium](service-admin-premium-monitor-capacity.md).
+* Disponibilidade geral das [aplicações de modelo](service-template-apps-overview.md) do Power BI.
+* Disponibilidade geral dos [relatórios paginados](paginated-reports-report-builder-power-bi.md) no Power BI.
+* Pré-visualização pública de Bring Your Own Key ([BYOK](service-encryption-byok.md)) para o Power BI Premium.
+* Função de Visualizador para a [nova experiência de áreas de trabalho](service-new-workspaces.md).
+
+### <a name="may-2019"></a>Maio de 2019
+* [Navegação personalizada](service-create-distribute-apps.md) para Aplicações do Power BI.
+* Tipos de anexos adicionais (PPTX, XLSX, DOCX, CSV e XML) disponíveis para subscrições de e-mail em relatórios paginados.
+* [Comentários](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) para relatórios do Power BI no serviço.
+
 ### <a name="april-2019"></a>Abril de 2019
 * [Fluxos de dados](service-dataflows-overview.md) do Power BI disponíveis para o público.
 * Nova experiência de áreas de trabalho disponível para o público.
@@ -633,7 +665,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 
 **4 de agosto de 2015**
 
-* O Power BI agora oferece aos utilizadores do [ID de Circuito](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) a capacidade de controlar e monitorizar todos os seus serviços de comunicações de nuvem do ID de Circuito para lhe permitir tomar as decisões comerciais certas. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do ID de Circuito na [página de ajuda do Power BI](service-connect-to-circuit-id.md).
+* O Power BI agora oferece aos utilizadores do [ID de Circuito](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx) a capacidade de controlar e monitorizar todos os seus serviços de comunicações de cloud do ID de Circuito para lhe permitir tomar as decisões comerciais certas. Para obter detalhes adicionais sobre como começar, consulte o pacote de conteúdos do ID de Circuito na [página de ajuda do Power BI](service-connect-to-circuit-id.md).
 * Hoje lançámos um melhoramento da funcionalidade Partilhar Dashboard para torná-la ainda mais fácil de utilizar.  Se a sua organização utilizar o Office 365 para e-mail, agora pode [partilhar com um grupo de distribuição de e-mail](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx) da mesma forma que enviaria um e-mail no Outlook.  Basta introduzir o endereço do grupo de distribuição e clicar em Partilhar.  Todos os membros do grupo de distribuição receberão um convite por e-mail para verem o dashboard.
 
 **28 de julho de 2015**
@@ -731,7 +763,7 @@ Consulte o [blogue](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-
 * A fiabilidade de atualização com o OneDrive foi melhorada.  Algumas situações em que os livros não eram atualizados a partir do OneDrive foram resolvidas.
 
 ## <a name="next-steps"></a>Próximos passos
-[O que é o Power BI?](power-bi-overview.md)  
+[O que é o Power BI?](fundamentals/power-bi-overview.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
