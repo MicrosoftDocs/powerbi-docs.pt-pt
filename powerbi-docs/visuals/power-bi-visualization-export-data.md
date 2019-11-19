@@ -3,24 +3,24 @@ title: Exportar dados de uma visualização do Power BI
 description: Exporte dados de uma visualização de relatório e visualização de dashboard e veja-os no Excel.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431109"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060468"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de visualizações
 
-Se quiser ver os dados que o Power BI utiliza para criar uma visualização, [poderá visualizar esses dados no Power BI](service-reports-show-data.md). Também pode exportar esses dados para o Excel como um ficheiro *.xlsx* ou *.csv*. A opção para exportar os dados requer uma licença Pro ou Premium e permissões de edição no conjunto de dados e no relatório.
+Se quiser ver os dados que o Power BI utiliza para criar uma visualização, [poderá visualizar esses dados no Power BI](service-reports-show-data.md). Também pode exportar esses dados para o Excel como um ficheiro *.xlsx* ou *.csv*. A opção para exportar os dados requer uma licença Pro ou Premium e permissões de edição no conjunto de dados e no relatório. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Veja o Will a exportar os dados a partir de uma das visualizações no seu relatório, a guardá-los como um ficheiro *.xlsx* e a abri o ficheiro no Excel. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
 
@@ -152,7 +152,7 @@ Também pode atualizar esta definição no serviço Power BI.
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Estas limitações e considerações aplicam-se ao Power BI Desktop e ao serviço Power BI, incluindo o Power BI Pro e o Premium.
 
-- Para exportar os dados de um elemento visual, tem de ter ativada a opção [Criar permissão do conjunto de dados subjacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
+- Para exportar os dados de um elemento visual, tem de ter ativada a opção [Criar permissão do conjunto de dados subjacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
 
 -  O número máximo de linhas que o **Power BI Desktop** e o **serviço Power BI** podem exportar de um **relatório em modo de importação** para um ficheiro *.csv* é 30 000.
 
@@ -160,13 +160,11 @@ Estas limitações e considerações aplicam-se ao Power BI Desktop e ao servi�
 
 - A exportação com *Dados subjacentes* não funcionará se:
 
-  - A origem de dados for uma ligação em direto do Analysis Services.
+  - a versão for anterior a 2016.
 
-  - A versão for anterior a 2016.
-
-  - As tabelas no modelo não tiverem uma chave exclusiva.
+  - as tabelas no modelo não tiverem uma chave exclusiva.
     
-  -  Se um administrador ou criador de relatórios tiver desativado esta funcionalidade.
+  -  um administrador ou criador de relatórios tiver desativado esta funcionalidade.
 
 - A exportação com *Dados subjacentes* não funcionará se a opção *Mostrar itens sem dados* estiver ativada para a visualização que o Power BI estiver a exportar.
 
@@ -196,4 +194,4 @@ Estas limitações e considerações aplicam-se ao Power BI Desktop e ao servi�
 
 - Os administradores do Power BI têm a capacidade de desativar a exportação de dados.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

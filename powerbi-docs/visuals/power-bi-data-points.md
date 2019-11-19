@@ -2,20 +2,19 @@
 title: Conjuntos de dados de grande dimensão, limites de pontos de dados e estratégias de dados
 description: Limites de dados para elementos visuais e estratégias de redução de dados
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276437"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011285"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Limites de pontos de dados e estratégias por tipo de elemento visual
 
@@ -64,7 +63,7 @@ Veja [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#
 - Quando em modo de categorização
     - Categorias: virtualização com utilização de Janela de 500 linhas de cada vez
     - Série: Primeiros 60
-    - Quando em modo escalar (pode usar limites dinâmicos)
+    - Quando em modo escalar (pode utilizar limites dinâmicos)
         - N.º máximo de pontos: 10 000
         - Categorias: Amostra de 500 valores
         - Série: Primeiros 20 valores
@@ -114,7 +113,7 @@ Dependendo da configuração, um mapa pode ter:
 - Latitude, Longitude, Tamanho: Primeiros 3500
 - Legenda, Latitude, Longitude: veja [Dispersão de elevada densidade](desktop-high-density-scatter-charts.md)
 - Legenda, Latitude, Longitude, Tamanho: Primeiras 233 legendas, Primeiras 15 latitudes e longitudes (pode utilizar estatísticas ou limites dinâmicos)
-- Localização, Legenda, Latitude, Longitude como agregações (Tamanho + /-): Primeiras 233 localizações, Primeiras 15 legendas (pode utilizar estatísticas ou limites dinâmicos)
+- Localização, Legenda, Latitude e Longitude como agregações (Tamanho + /-): Primeiras 233 localizações, Primeiras 15 legendas (pode utilizar estatísticas ou limites dinâmicos)
 
 ### <a name="matrix"></a>Matriz
 - Linhas: virtualização com utilização de Janela de 500 linhas de cada vez
@@ -142,21 +141,20 @@ Limitado a 150.000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas 
 - Quando em modo de categorização
     - Categorias: virtualização (apresentação de dados em janelas) com utilização de Janela de 500 linhas de cada vez
     - Série: Primeiros 60
-    - Quando em modo escalar (pode usar limites dinâmicos)
+    - Quando em modo escalar (pode utilizar limites dinâmicos)
         - N.º máximo de pontos: 10 000
         - Categorias: Amostra de 500 valores
         - Série: Primeiros 20 valores
 
-### <a name="shape-map"></a>Mapa de forma
-O mapa de manchas pode utilizar estatísticas ou limites dinâmicos. 
-- N.º máximo de pontos: 10 000
+### <a name="shape-map-preview"></a>Mapa de forma (Pré-visualização)
+O mapa de forma pode utilizar estatísticas ou limites dinâmicos. 
+- N.º máximo de pontos: 1500
 - Categorias: Primeiros 500
-- Série (quando X e Y estão ambos presentes): Primeiros 20
 
 ### <a name="table"></a>Tabela
 - Valores: virtualização (apresentação de dados em janelas) com utilização de Janela de 500 linhas de cada vez
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Mapa de árvore (pode utilizar estatísticas ou limites dinâmicos)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>Mapa de árvore (pode utilizar estatísticas ou limites dinâmicos)
 - N.º máximo de pontos: 3500
 - Grupo: Primeiros 500
 - Detalhes: Primeiros 20

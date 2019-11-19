@@ -3,18 +3,17 @@ title: Publicar elementos visuais do Power BI no AppSource
 description: Saiba como pode publicar o seu visual personalizado no AppSource para que outros o possam encontrar e utilizar.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307667"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128053"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Publicar elementos visuais do Power BI no AppSource
 
@@ -38,10 +37,10 @@ Depois de concluir a leitura das nossas [diretrizes sobre elementos visuais do P
 | Ficheiro de relatório. pbix de exemplo |Sim |Para evidenciar o seu elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Deve destacar o valor que o elemento visual proporciona ao utilizador e dar exemplos de utilização, opções de formatação, etc. Também pode adicionar uma página de *"sugestões"* no final com algumas sugestões e truques, aspetos a evitar e outras informações do género.<br>O ficheiro de relatório .pbix de exemplo deve funcionar offline, sem qualquer ligação externa |
 | Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 x 300 px (largura x altura). **Importante!** Reveja atentamente o [guia abreviado](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de submeter o Ícone. |
 | Capturas de ecrã |Sim |Tem de fornecer, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 1366 x 768 px (largura x altura). O tamanho do ficheiro não pode ser superior a 1024 KB. *Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã.* |
-| Ligação de transferência do suporte |Sim |Forneça o URL para prestar suporte aos clientes que tenham problemas com o elemento visual. Esta ligação é introduzida como parte da sua lista SellerDashboard e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato do URL deve incluir https:// ou http://. |
-| Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade destinada aos clientes que utilizam o elemento visual. Esta ligação é introduzida como parte da sua lista SellerDashboard e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato da ligação deve incluir https:// ou http://. |
+| Ligação de transferência do suporte |Sim |Forneça o URL para prestar suporte aos clientes que tenham problemas com o elemento visual. Esta ligação é introduzida como parte da sua lista SellerDashboard e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato do URL deve incluir https:// ou https://. |
+| Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade destinada aos clientes que utilizam o elemento visual. Esta ligação é introduzida como parte da sua lista SellerDashboard e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato da ligação deve incluir https:// ou https://. |
 | Contrato de licença do utilizador final (EULA) |Sim |Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro "Contrato de Licença do Utilizador Final" do dashboard de vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
-| Ligação para vídeo |Não |Para aumentar o interesse dos utilizadores relativamente ao seu elemento visual personalizado, recomenda-se que forneça uma ligação para um vídeo sobre o elemento visual. O formato do URL deve incluir https:// ou http://. |
+| Ligação para vídeo |Não |Para aumentar o interesse dos utilizadores relativamente ao seu elemento visual personalizado, recomenda-se que forneça uma ligação para um vídeo sobre o elemento visual. O formato do URL deve incluir https:// ou https://. |
 | Repositório do GitHub |Não |O ideal será ter uma ligação pública e válida para um repositório do [GitHub](https://www.github.com) com as origens do elemento visual e dos dados de exemplo incluídas para que outros programadores possam fornecer comentários e propor melhoramentos para o seu código. |
 
 ## <a name="submitting-to-power-bi"></a>Submeter no Power BI
@@ -143,13 +142,13 @@ Após a submissão, poderá ver o estado da submissão no [dashboard da aplicaç
 
 ## <a name="certify-your-visual"></a>Certificar o elemento visual
 
-Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, consulte [*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md).
+Uma vez criado o elemento visual, pode proceder opcionalmente à certificação do mesmo. Isto significa que pode ser executado no âmbito do serviço Power BI e ser utilizado com outras funcionalidades do serviço, como exportar para o PowerPoint. Para obter mais informações, consulte [*Certificar* um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md).
 
 ## <a name="next-steps"></a>Próximos passos
 
 [Developing a Power BI custom visual](visuals/custom-visual-develop-tutorial.md) (Desenvolver um elemento visual personalizado do Power BI)  
 [Visualizações no Power BI](../visuals/power-bi-report-visualizations.md)  
-[Visualizações Personalizadas no Power BI](../power-bi-custom-visuals.md)  
-[*Certificar* um elemento visual personalizado](../power-bi-custom-visuals-certified.md)
+[Visualizações Personalizadas no Power BI](../developer/power-bi-custom-visuals.md)  
+[*Certificar* um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
