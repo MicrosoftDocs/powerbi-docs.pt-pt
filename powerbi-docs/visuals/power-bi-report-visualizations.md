@@ -3,7 +3,6 @@ title: Descrição geral das visualizações de relatório no serviço Power BI 
 description: Descrição geral das visualizações de relatório (elementos visuais) no Microsoft Power BI.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 075985ce2d4eec1244827c65476c81774196a449
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048851"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099087"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizações em relatórios do Power BI
 
@@ -71,4 +70,4 @@ No serviço Power BI, quando a visualização estiver da forma que quer, pode [a
 ## <a name="next-steps"></a>Próximos passos
 
 * [Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Elementos visuais personalizados](../power-bi-custom-visuals.md)
+* [Elementos visuais personalizados](../developer/power-bi-custom-visuals.md)

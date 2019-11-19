@@ -2,7 +2,6 @@
 title: Como atualizar as suas credenciais do pacote de conteúdos do Xero
 description: Se utilizar o pacote de conteúdos do Xero Power BI, pode ter ocorrido um problema na atualização diária do pacote de conteúdos devido a um incidente recente do serviço Power BI.
 author: SarinaJoan
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020067"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871670"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização falhar
 Se utilizar o pacote de conteúdos do Xero Power BI, podem ter ocorrido alguns problemas na atualização diária do pacote de conteúdos devido a um incidente recente do serviço Power BI.
@@ -45,10 +44,10 @@ Se vir que a atualização falhou, conforme mostrado acima, siga estes passos pa
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-Se ainda estiver a ter problemas de atualização, não hesite em contactar-nos em [http://support.powerbi.com](http://support.powerbi.com) 
+Se ainda estiver a ter problemas de atualização, não hesite em contactar-nos em [https://support.powerbi.com](https://support.powerbi.com) 
 
 Para obter mais informações sobre o pacote de conteúdos do Xero do Power BI, aceda à [página de ajuda do pacote de conteúdos do Xero](service-connect-to-xero.md).
 
 ### <a name="next-steps"></a>Próximos passos
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

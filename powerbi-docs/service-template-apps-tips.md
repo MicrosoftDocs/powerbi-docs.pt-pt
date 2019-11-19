@@ -2,19 +2,18 @@
 title: Sugestões para criar aplicações de modelo no Power BI
 description: Sugestões sobre a criação de consultas, modelos de dados, relatórios e dashboards para criar boas aplicações de modelo
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432142"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099743"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugestões para criar aplicações de modelo no Power BI
 
@@ -147,7 +146,7 @@ As aplicações de modelo suportam aplicações apenas de dados de exemplo, por 
 | Origens de dados | São permitidas origens de dados suportadas para atualizações de Dados Agendadas da cloud. <br>Não suportado: <li> DirectQuery</li><li>Ligações em direto (no Azure Analysis Services)</li> <li>Origens de dados no local (não são suportados gateways empresariais e pessoais)</li> <li>Em tempo real (não existe suporte para conjuntos de dados de emissão)</li> <li>Modelos compostos</li></ul> |
 | Conjunto de dados: em várias áreas de trabalho | Não são permitidos conjuntos de dados em várias áreas de trabalho  |
 | Parâmetros de consulta | Não suportado: parâmetros do tipo "Qualquer" ou "Binário" bloqueiam a operação de atualização do conjunto de dados |
-| Elementos visuais personalizados | Só são suportados elementos visuais personalizados disponíveis para o público. Não são suportados [elementos visuais personalizados organizacionais](power-bi-custom-visuals-organization.md) |
+| Elementos visuais personalizados | Só são suportados elementos visuais personalizados disponíveis para o público. Não são suportados [elementos visuais personalizados organizacionais](developer/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>Próximos passos
 

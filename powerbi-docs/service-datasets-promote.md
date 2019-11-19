@@ -2,7 +2,6 @@
 title: Promover o seu conjunto de dados (pré-visualização) – Power BI
 description: Aprenda a promover o seu conjunto de dados, para orientar os utilizadores empresariais na obtenção de conjuntos de dados fiáveis e de alta qualidade.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a9c4f2e6348067b3a7029be8d8e7fdfb26e7045
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020951"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877118"
 ---
 # <a name="promote-your-dataset-preview"></a>Promover o seu conjunto de dados (Pré-visualização)
 
@@ -55,4 +54,4 @@ O seu administrador de inquilinos identificou pessoas que podem certificar conju
 ## <a name="next-steps"></a>Próximos passos
 
 * Leia o artigo [Using datasets across workspaces](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em áreas de trabalho)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

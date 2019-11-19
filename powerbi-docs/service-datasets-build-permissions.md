@@ -2,7 +2,6 @@
 title: Permissão de compilação para conjuntos de dados partilhados (pré-visualização)
 description: Saiba como pode controlar quem tem acesso aos dados com a Permissão de compilação.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020308"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872566"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permissão de compilação para conjuntos de dados partilhados (pré-visualização)
 
@@ -103,4 +102,4 @@ Pode remover a Permissão de compilação. Se o fizer, as pessoas a quem revogar
 ## <a name="next-steps"></a>Próximos passos
 
 - [Use datasets across workspaces (Preview)](service-datasets-across-workspaces.md) (Utilizar conjuntos de dados em várias áreas de trabalho [Pré-visualização])
-- Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

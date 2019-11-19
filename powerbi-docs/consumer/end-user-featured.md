@@ -2,7 +2,6 @@
 title: Selecione o dashboard que vai apresentar quando abrir o serviço Power BI
 description: Documentação sobre como criar um dashboard Em Destaque no serviço Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019841"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852535"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Dashboards em destaque no serviço Power BI
 
@@ -67,5 +66,5 @@ Se decidir que não quer nenhum dashboard em destaque, eis como anular a funcion
    
 ## <a name="next-steps"></a>Próximos passos
 - [Adicionar um dashboard como favorito](end-user-favorite.md)
-- Mais perguntas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/).
+- Mais perguntas? Experimente perguntar à [Comunidade do Power BI](https://community.powerbi.com/).
 

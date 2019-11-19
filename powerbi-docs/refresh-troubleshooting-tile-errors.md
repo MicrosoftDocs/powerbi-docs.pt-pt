@@ -2,7 +2,6 @@
 title: Resolver problemas de erros de mosaico
 description: Erros comuns que podem ser encontrados quando um mosaico tenta ser atualizado no Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021544"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877488"
 ---
 # <a name="troubleshooting-tile-errors"></a>Resolver problemas de erros de mosaico
 Veja abaixo os erros comuns que podem ser encontrados com mosaicos e uma explicação.
 
 > [!NOTE]
-> Se encontrar um erro que não esteja listado abaixo e que esteja a causar problemas, peça ajuda no [site da comunidade](http://community.powerbi.com/) ou crie um [pedido de suporte](https://powerbi.microsoft.com/support/).
+> Se encontrar um erro que não esteja listado abaixo e que esteja a causar problemas, peça ajuda no [site da comunidade](https://community.powerbi.com/) ou crie um [pedido de suporte](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -38,7 +37,7 @@ Entre em contacto com o proprietário do dashboard para ter a certeza de que as 
 
 **Os elementos visuais personalizados foram desativados pelo administrador.**
 
-O administrador do Power BI desativou a utilização de elementos visuais personalizados para a sua organização ou o seu grupo de segurança. Não poderá utilizar elementos visuais personalizados a partir do [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ou importar elementos visuais privados de um ficheiro. Só poderá utilizar o conjunto de elementos visuais pré-empacotados.
+O administrador do Power BI desativou a utilização de elementos visuais personalizados para a sua organização ou o seu grupo de segurança. Não poderá utilizar elementos visuais personalizados a partir do [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ou importar elementos visuais privados de um ficheiro. Só poderá utilizar o conjunto de elementos visuais pré-empacotados.
 
 
 **As formas de dados devem conter pelo menos um grupo ou cálculo que produza dados. Entre em contacto com o proprietário do dashboard.**
@@ -82,5 +81,5 @@ Se ainda estiver com problemas, [entre em contacto com o suporte](https://suppor
 ## <a name="next-steps"></a>Próximos passos
 [Resolução de problemas do Gateway de dados no local](service-gateway-onprem-tshoot.md)  
 [Resolução de Problemas do Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

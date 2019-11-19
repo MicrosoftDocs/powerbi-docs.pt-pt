@@ -2,7 +2,6 @@
 title: 'Início Rápido: ligar a dados'
 description: Ligar a uma origem de dados no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891695"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876219"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Início Rápido: Ligar a dados no Power BI Desktop
 
@@ -28,8 +27,8 @@ Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuit
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Para concluir os passos neste artigo, precisa do seguinte:
-* Transfira e instale o **Power BI Desktop**, que é uma aplicação gratuita que é executada num computador local. Pode [transferir **o Power BI Desktop**](https://powerbi.microsoft.com/desktop) diretamente ou pode obtê-lo a partir [da **Microsoft Store**](http://aka.ms/pbidesktopstore).
-* [Transfira este livro do Excel de exemplo](http://go.microsoft.com/fwlink/?LinkID=521962)e crie uma pasta denominada *C:\PBID-qs*, onde pode armazenar o ficheiro do Excel. Os passos subsequentes neste manual de início rápido partem do princípio de que esta é a localização do ficheiro para o livro do Excel transferido.
+* Transfira e instale o **Power BI Desktop**, que é uma aplicação gratuita que é executada num computador local. Pode [transferir **o Power BI Desktop**](https://powerbi.microsoft.com/desktop) diretamente ou pode obtê-lo a partir [da **Microsoft Store**](https://aka.ms/pbidesktopstore).
+* [Transfira este livro do Excel de exemplo](https://go.microsoft.com/fwlink/?LinkID=521962)e crie uma pasta denominada *C:\PBID-qs*, onde pode armazenar o ficheiro do Excel. Os passos subsequentes neste manual de início rápido partem do princípio de que esta é a localização do ficheiro para o livro do Excel transferido.
 
 ## <a name="launch-power-bi-desktop"></a>Iniciar o Power BI Desktop
 

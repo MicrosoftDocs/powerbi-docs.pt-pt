@@ -2,7 +2,6 @@
 title: Interagir com um relatório na Vista de Edição
 description: Interagir com um relatório na Vista de edição de um relatório no serviço Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 786357d2861b05c46ffb3c7b827d5c797fb5ea20
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9ae34a354d41987f291aa891b713542901180eb6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872190"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagir com um relatório na Vista de edição no serviço Power BI
 Os relatórios podem ser criados e editados no serviço Power BI e no Power BI Desktop. No serviço Power BI, os relatórios podem ser criados e editados na **Vista de edição**. No Power BI Desktop, os relatórios podem ser criados e editados na [**Vista de relatório**](desktop-report-view.md). Este artigo aborda a Vista de edição do serviço Power BI. 
@@ -45,5 +44,5 @@ Veja a lista de tópicos sob o cabeçalho **Relatórios** no Índice à esquerda
 ## <a name="next-steps"></a>Próximos passos
 Voltar para [Vista de leitura e Vista de edição no serviço Power BI](consumer/end-user-reading-view.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

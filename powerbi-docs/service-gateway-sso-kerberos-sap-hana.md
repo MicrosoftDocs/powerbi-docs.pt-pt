@@ -3,19 +3,18 @@ title: Utilizar o Kerberos para início de sessão único (SSO) na SAP HANA
 description: Configurar o seu servidor SAP HANA para ativar o SSO a partir do serviço Power BI
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4985e241811558c90298e72cf82cbec634e23eaa
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bf255e97bbce8360de6fba314ac181b7633e6db3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020817"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872354"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>Utilizar o Kerberos para início de sessão único (SSO) na SAP HANA
 
@@ -55,7 +54,7 @@ Agora, [Execute um relatório do Power BI](service-gateway-sso-kerberos.md#run-a
 
 Para obter mais informações sobre o gateway de dados no local e o DirectQuery, veja os seguintes recursos:
 
-* [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-getting-started) (O que é um gateway de dados no local?)
+* [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-onprem) (O que é um gateway de dados no local?)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)

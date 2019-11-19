@@ -2,19 +2,18 @@
 title: Ligar a ficheiros no OneDrive para uma área de trabalho do Power BI
 description: Saiba como armazenar e ligar aos seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para a sua área de trabalho do Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854887"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Ligar a ficheiros armazenados no OneDrive para a sua área de trabalho do Power BI
 Depois de [criar uma área de trabalho no Power BI](service-create-distribute-apps.md), pode armazenar os seus ficheiros do Excel, CSV e Power BI Desktop no OneDrive para Empresas para a sua área de trabalho do Power BI. Pode continuar a atualizar os ficheiros que armazena no OneDrive. Essas atualizações são automaticamente refletidas nos relatórios e dashboards do Power BI com base nos ficheiros. 
@@ -53,7 +52,7 @@ Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>Importar ou ligar a ficheiros na sua área de trabalho
 1. No Power BI, mude para a área de trabalho, de modo a que o nome da área de trabalho apareça no canto superior esquerdo. 
-2. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo. 
+2. Selecione **Obter Dados** na parte inferior do painel de navegação. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. Na caixa **Ficheiros** , selecione **Obter**.
@@ -80,6 +79,6 @@ Agora que os seus ficheiros estão no OneDrive para Empresas para a sua área de
 * [Criar aplicações e áreas de trabalho no Power BI](service-create-distribute-apps.md)
 * [Importar dados de livros do Excel](service-get-data-from-files.md)
 * [Ligar a livros inteiros do Excel](service-excel-workbook-files.md)
-* Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/)
 * Comentários? Visite [Ideias para o Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

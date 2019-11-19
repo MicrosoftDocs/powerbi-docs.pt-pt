@@ -2,7 +2,6 @@
 title: Mostrar os dados utilizados para criar o elemento visual
 description: Este documento explica como os consumidores do Power BI podem "ver" os dados utilizados para criar um elemento visual.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8a4eee43aeab8be096e8e7b7021763c7e77bd26d
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 83248967f721526f61e63aa92b1e51f22ddbefa9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019312"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861535"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Mostrar dados com relatórios do Power BI
 

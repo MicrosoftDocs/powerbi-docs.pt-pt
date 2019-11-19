@@ -2,7 +2,6 @@
 title: Alterar a forma como um gráfico é ordenado num relatório
 description: Alterar a forma como um gráfico é ordenado num relatório do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019935"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852376"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
 
@@ -29,7 +28,7 @@ Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de tex
 
 Os elementos visuais num dashboard não podem ser ordenados, mas num relatório do Power BI, pode ordenar alfabeticamente a maioria das visualizações pelos nomes das categorias no gráfico ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado alfabeticamente pela categoria **nome de loja**.
 
-![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/pbi_chartsortcategory.png)
+![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 É fácil alterar a ordenação de uma categoria (nome de arquivo) para um valor (vendas por metro quadrado).
 

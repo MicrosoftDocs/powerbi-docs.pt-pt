@@ -3,18 +3,17 @@ title: O que são relatórios paginados no Power BI Premium?
 description: Os relatórios paginados, que são há muito o formato de relatório padrão no SQL Server Reporting Services, estão agora disponíveis no serviço Power BI. Estes relatórios podem ser impressos ou partilhados. Pode controlar o esquema do relatório com exatidão. Os relatórios paginados apresentam todos os dados numa tabela, por exemplo, mesmo que a tabela se estenda por várias páginas.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 09/24/2019
-ms.openlocfilehash: a0172f655a53e80b4c5ef8a3bdb922ddaec789b4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431568"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874716"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
@@ -26,7 +25,7 @@ Os relatórios paginados podem ter muitas páginas. Por exemplo, este relatório
 
 ![Relatório paginado no serviço Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, http://app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou em áreas de trabalho, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, os relatórios paginados têm de ser ativados por um administrador do Power BI na secção [Capacidades Premium](service-admin-premium-workloads.md#paginated-reports) do portal de administração do Power BI. 
+Pode visualizar o relatório no Report Builder e, em seguida, publicá-lo no serviço Power BI, https://app.powerbi.com. Precisa de uma licença do Power BI Pro para publicar um relatório no serviço. Pode publicar e partilhar relatórios paginados em A Minha Área de Trabalho ou em áreas de trabalho, desde que a área de trabalho esteja numa capacidade do Power BI Premium. Além disso, os relatórios paginados têm de ser ativados por um administrador do Power BI na secção [Capacidades Premium](service-admin-premium-workloads.md#paginated-reports) do portal de administração do Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Criar relatórios no Report Builder do Power BI
 
@@ -62,7 +61,7 @@ Tudo num relatório paginado, desde o próprio relatório a cada caixa de texto,
 
 ## <a name="creating-a-report-definition"></a>Criar uma definição do relatório
 
-Quando cria um relatório paginado, está, na realidade, a criar uma *definição do relatório*, ou seja, não contém os dados, especifica onde obter os dados, quais os dados a obter e como apresentar os dados. Quando executar o relatório, o processador do relatório utiliza a definição do relatório que especificou, obtém os dados e combina-os com o esquema de relatório para gerar o relatório. Carregue a definição do relatório no serviço Power BI, http://app.powerbi.com, ou em A Minha Área de Trabalho ou numa área de trabalho partilhada com os seus colegas. Se a origem de dados do relatório for no local, depois de carregar o relatório, deverá redirecionar a ligação da origem de dados para passar por um gateway. 
+Quando cria um relatório paginado, está, na realidade, a criar uma *definição do relatório*, ou seja, não contém os dados, especifica onde obter os dados, quais os dados a obter e como apresentar os dados. Quando executar o relatório, o processador do relatório utiliza a definição do relatório que especificou, obtém os dados e combina-os com o esquema de relatório para gerar o relatório. Carregue a definição do relatório no serviço Power BI, https://app.powerbi.com, ou em A Minha Área de Trabalho ou numa área de trabalho partilhada com os seus colegas. Se a origem de dados do relatório for no local, depois de carregar o relatório, deverá redirecionar a ligação da origem de dados para passar por um gateway. 
 
 ## <a name="view-your-paginated-report"></a>Visualizar o relatório paginado
 Pode ver o relatório paginado no serviço Power BI num browser e também nas aplicações móveis do Power BI. No serviço Power BI, pode exportar o relatório para uma série de formatos, tais como HTML, MHTML, PDF, XML, CSV, TIFF, Word e Excel. Também pode partilhá-lo com outras pessoas.  

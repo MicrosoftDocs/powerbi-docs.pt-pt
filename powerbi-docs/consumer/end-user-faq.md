@@ -2,7 +2,6 @@
 title: Perguntas frequentes do utilizador final no Power BI
 description: Veja uma lista de perguntas frequentes e as respetivas respostas sobre o serviço Power BI e as aplicações móveis do Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430031"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852517"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 
-* Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
+* Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).
 * Ainda tem problemas? Visite a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>O que é o serviço Microsoft Power BI?
@@ -56,9 +55,9 @@ Sim, estão disponíveis preços para fins não lucrativos ao comprar diretament
 
 Sim. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
 
-* [Apple App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows Store](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows Store](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>O que é necessário instalar para usar o Power BI?
 
@@ -66,15 +65,15 @@ Para usar o serviço Power BI gratuitamente, basta um browser e e-mail.
 
 Pode transferir as aplicações móveis do Power BI a partir das respetivas lojas, também de forma gratuita:
 
-* [App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Windows Store](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Windows Store](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>Onde posso começar com o Power BI?
 
 Estão disponíveis os seguintes recursos para o ajudar a começar:
 
-* [Blogue do Power BI](http://blogs.msdn.com/b/powerbi/)
+* [Blogue do Power BI](https://blogs.msdn.com/b/powerbi/)
 * [Webinars](../webinars.md)
 * Vídeos de introdução no nosso [Canal do YouTube](https://www.youtube.com/user/mspowerbi)
 * Artigo [Introdução ao Power BI como *consumidor*](power-bi-consumer-landing.md)
@@ -91,19 +90,19 @@ Veja uma lista completa de [regiões e idiomas suportados para o Power BI](../su
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>Como posso comprar o Power BI Pro no meu país?
 
-Pode comprar licenças do Power BI Pro diretamente ou falar por chat com um representante em [www.powerbi.com](http://www.powerbi.com).
+Pode comprar licenças do Power BI Pro diretamente ou falar por chat com um representante em [www.powerbi.com](https://www.powerbi.com).
 
 Também pode encontrar um [Parceiro da Microsoft](https://partner.microsoft.com/) para ajudá-lo com a implementação do Power BI.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>O Power BI cumpre requisitos de conformidade nacionais, regionais e específicos da indústria?
 
-Saiba mais sobre a conformidade do Power BI no [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).
+Saiba mais sobre a conformidade do Power BI no [Microsoft Trust Center](https://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>Onde posso saber mais sobre segurança?
 
 Saiba mais aqui sobre a segurança, a privacidade e a conformidade do Power BI:
 
-* Este documento técnico sobre a [segurança do Power BI](http://go.microsoft.com/fwlink/?LinkId=829185)
+* Este documento técnico sobre a [segurança do Power BI](https://go.microsoft.com/fwlink/?LinkId=829185)
 
 * Este artigo sobre o [suporte de segurança do Power BI](../service-admin-power-bi-security.md)
 
@@ -117,5 +116,5 @@ Como muitos outros serviços e softwares da Microsoft, o Power BI fornece uma fo
 
 * [O que é um consumidor do Power BI?](end-user-consumer.md)
 * [Como é que um consumidor pode utilizar o Power BI?](end-user-reading-view.md)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 * Ainda tem problemas? Visite a [página de suporte do Power BI](https://powerbi.microsoft.com/support/)

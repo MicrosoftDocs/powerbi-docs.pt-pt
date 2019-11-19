@@ -2,7 +2,6 @@
 title: Definir alertas de dados no serviço Power BI
 description: Aprenda a definir alertas para receber notificações quando os dados nos seus dashboards forem alterados para além dos limites que definiu no serviço Microsoft Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060378"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871566"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de dados no serviço Power BI
 
@@ -132,4 +131,4 @@ Existem várias formas de gerir os alteras:
 
 * [O que é o Power BI?](fundamentals/power-bi-overview.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

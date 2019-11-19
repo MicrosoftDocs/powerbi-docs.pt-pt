@@ -2,7 +2,6 @@
 title: Gerar informações de dados automaticamente com o Power BI
 description: Saiba como obter informações sobre os conjuntos de dados e os mosaicos do dashboard.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020225"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872235"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Gerar informações de dados automaticamente com o Power BI
 Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Precisa criar um dashboard rapidamente?  Deseja procurar informações que pode ter perdido?
@@ -96,5 +95,5 @@ Em vez de procurar informações em todo um conjunto de dados, filtre a sua pesq
 - Se é proprietário de um conjunto de dados, [otimize-o para as Informações Rápidas](service-insights-optimize.md).
 - Saiba mais sobre os [tipos de Informações Rápidas disponíveis](service-insight-types.md).
 
-Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/).
+Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 

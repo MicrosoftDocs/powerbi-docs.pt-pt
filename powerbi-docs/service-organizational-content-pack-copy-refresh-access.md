@@ -2,7 +2,6 @@
 title: 'Pacotes de conteúdos organizacionais: aceder e copiar'
 description: Leia sobre a criação de cópias e resolução de problemas de acesso aos pacotes de conteúdos organizacionais no Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020144"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881318"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacotes de conteúdos organizacionais: copiar, atualizar e obter acesso
 
@@ -58,4 +57,4 @@ Veja [Gerir, atualizar e eliminar pacotes de conteúdos organizacionais](service
 ## <a name="next-steps"></a>Passos seguintes
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md)
 * [Criar um grupo no Power BI](service-create-distribute-apps.md)
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

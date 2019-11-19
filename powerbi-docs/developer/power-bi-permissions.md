@@ -3,18 +3,17 @@ title: Permissões do Power BI
 description: Permissões do Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429128"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880443"
 ---
 # <a name="power-bi-permissions"></a>Permissões do Power BI
 
@@ -46,7 +45,7 @@ Uma aplicação pode pedir permissões quando tentar iniciar sessão pela primei
 
 ## <a name="requesting-permissions"></a>Pedir Permissões
 
-Embora possa chamar a API para autenticar com um nome de utilizador e palavra-passe, para executar ações em nome de outro utilizador, é necessário pedir permissões que o utilizador aprovará e enviar o token de acesso resultante em todas as chamadas futuras. Para este processo, seguiremos o protocolo [OAuth 2.0](http://oauth.net/2/) padrão. Embora a implementação real possa variar, o fluxo do OAuth para o Power BI tem os seguintes elementos:
+Embora possa chamar a API para autenticar com um nome de utilizador e palavra-passe, para executar ações em nome de outro utilizador, é necessário pedir permissões que o utilizador aprovará e enviar o token de acesso resultante em todas as chamadas futuras. Para este processo, seguiremos o protocolo [OAuth 2.0](https://oauth.net/2/) padrão. Embora a implementação real possa variar, o fluxo do OAuth para o Power BI tem os seguintes elementos:
 
 * **IU de Início de Sessão** – Trata-se de uma IU que o programador pode evocar para pedir permissões. Exige que o utilizador inicie sessão, se ainda não o tiver feito. O utilizador também tem de aprovar as permissões que a aplicação está a pedir. A janela de início de sessão publicará um código de acesso ou uma mensagem de erro para um URL de redirecionamento fornecido.
   * É necessário o Power BI fornecer um URL de redirecionamento padrão para ser utilizado por aplicações nativas.
@@ -54,4 +53,4 @@ Embora possa chamar a API para autenticar com um nome de utilizador e palavra-pa
 * **Token de Autorização** – Utilizado para autenticar chamadas de API em nome de outro utilizador. O âmbito será uma aplicação específica. Os tokens têm um tempo de vida definido e quando expiram têm de ser atualizados.
 * **Atualizar Token** – Quando os tokens expiram, existe um processo para atualizá-los.
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

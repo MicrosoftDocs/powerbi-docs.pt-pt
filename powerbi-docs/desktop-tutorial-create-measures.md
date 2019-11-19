@@ -2,7 +2,6 @@
 title: 'Tutorial: Criar as suas próprias medidas no Power BI Desktop'
 description: 'Tutorial: Criar as suas próprias medidas no Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865943"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Criar as suas próprias medidas no Power BI Desktop
 Pode criar algumas das mais poderosas soluções de análise de dados no Power BI Desktop com a utilização de medidas. As medidas ajudam-no a executar cálculos sobre os dados à medida que interage com os relatórios. Este tutorial serve de guia para que compreenda as medidas e crie algumas das suas medidas básicas no Power BI Desktop.
@@ -23,7 +22,7 @@ Pode criar algumas das mais poderosas soluções de análise de dados no Power 
 ### <a name="prerequisites"></a>Pré-requisitos
 - Este tutorial destina-se aos utilizadores do Power BI já familiarizados com o Power BI Desktop para criar modelos mais avançados. Já deve estar familiarizado com as funcionalidades Obter Dados e Editor de Consultas para importar dados, trabalhar com várias tabelas relacionadas e adicionar campos à tela Relatório. Se ainda não estiver familiarizado com o Power BI Desktop, não deixe de conferir a [Introdução ao Power BI Desktop](desktop-getting-started.md).
   
-- Transfira o ficheiro [Exemplo de Vendas da Contoso para o Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que inclui os dados de vendas online da empresa fictícia, Contoso, Inc. Estes dados foram importados de uma base de dados; portanto, não conseguirá ligar-se à origem de dados nem visualizá-la no Editor de Consultas. Extraia o ficheiro para o seu computador e, em seguida, abra-o no Power BI Desktop.
+- Transfira o ficheiro [Exemplo de Vendas da Contoso para o Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que inclui os dados de vendas online da empresa fictícia, Contoso, Inc. Estes dados foram importados de uma base de dados; portanto, não conseguirá ligar-se à origem de dados nem visualizá-la no Editor de Consultas. Extraia o ficheiro para o seu computador e, em seguida, abra-o no Power BI Desktop.
 
 ## <a name="understand-measures"></a>Compreender as medidas
 
@@ -97,7 +96,7 @@ Pretende analisar as vendas líquidas ao subtrair descontos e devoluções a par
     
     
 5.  Para subtrair as outras duas colunas:
-    1. Após o parêntese direito da primeira expressão, insira um espaço, um operador de subtração (**-**) e outro espaço. 
+    1. Após o parêntese direito da primeira expressão, insira um espaço, um operador de subtração ( **-** ) e outro espaço. 
     2. Introduza outra função SUM e comece a escrever “DiscountAmount” até que possa escolher a coluna **Sales[DiscountAmount]** como o argumento. Adicione um parêntese direito. 
     3. Insira um espaço, outro operador de subtração, outra função SUM com **Sales[ReturnAmount]** como o argumento e um parêntese direito.
     
@@ -160,15 +159,15 @@ Pretende saber quais os produtos com a maior quantidade de vendas líquidas por 
 
 1.  Crie uma nova medida chamada **Vendas Líquidas por Unidade** na tabela Vendas.
     
-2.  Na barra de fórmulas, começa a escrever **Vendas Líquidas**. A lista de sugestões mostrará o que pode adicionar. Selecione **[Net Sales]**.
+2.  Na barra de fórmulas, começa a escrever **Vendas Líquidas**. A lista de sugestões mostrará o que pode adicionar. Selecione **[Net Sales]** .
     
     ![Fórmula a utilizar Vendas Líquidas](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    Também pode fazer referência a medidas ao introduzir apenas um parêntese reto esquerdo (**[**). A lista de sugestões mostrará apenas medidas para adicionar à sua fórmula.
+    Também pode fazer referência a medidas ao introduzir apenas um parêntese reto esquerdo ( **[** ). A lista de sugestões mostrará apenas medidas para adicionar à sua fórmula.
     
     ![O parêntese reto mostra apenas as medidas](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  Introduza um espaço, um operador de divisão (**/**), outro espaço, uma função SUM e, em seguida, escreva **Quantidade**. A lista de sugestões mostra todas as colunas cujo nome contém Quantidade. Selecione **Sales[SalesQuantity]**, insira o parêntese direito e prima ENTER ou selecione a marca de verificação para validar a fórmula. A fórmula deve ter este aspeto:
+3.  Introduza um espaço, um operador de divisão ( **/** ), outro espaço, uma função SUM e, em seguida, escreva **Quantidade**. A lista de sugestões mostra todas as colunas cujo nome contém Quantidade. Selecione **Sales[SalesQuantity]** , insira o parêntese direito e prima ENTER ou selecione a marca de verificação para validar a fórmula. A fórmula deve ter este aspeto:
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

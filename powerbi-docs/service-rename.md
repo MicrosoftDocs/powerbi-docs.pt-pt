@@ -2,7 +2,6 @@
 title: Mudar o nome de dashboards, relatórios, áreas de trabalho, páginas de relatório e conjuntos de dados
 description: Mude o nome de praticamente qualquer coisa no serviço Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e750b0c159e7844e28fd6e16db93a95e528a261e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432172"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871722"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Mudar o nome de praticamente qualquer coisa no serviço Power BI
 Este artigo mostra como mudar o nome de um dashboard, relatório, página de relatório, livro, conjunto de dados, aplicação e área de trabalho no serviço Power BI.
@@ -87,5 +86,5 @@ Não gosta do nome de uma página no relatório do Power BI?  Um novo nome está
 * Se o item cujo nome quer mudar foi partilhado consigo ou fizer parte de um pacote de conteúdos, não verá o ícone de engrenagem e não terá acesso às Definições.
 * No separador **Conjuntos de dados**, se não vir **Mais opções** (…), expanda a janela do browser.
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

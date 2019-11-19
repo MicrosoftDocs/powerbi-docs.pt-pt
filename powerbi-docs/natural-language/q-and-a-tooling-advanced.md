@@ -2,18 +2,17 @@
 title: Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas no Power BI Desktop
 description: Como utilizar o Power BI Desktop para editar o esquema linguístico utilizado pelas Perguntas e Respostas do Power BI.
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875336"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas no Power BI Desktop 
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Ainda mais útil quando os seus dados respondem. Quando coloca uma questão nas Perguntas e Respostas do Power BI, estas fazem todos os possíveis para responder corretamente. Porém, pode otimizar as respostas para obter interações das Perguntas e Respostas ainda melhores. Uma forma de o fazer é editar o esquema linguístico. 
@@ -338,4 +337,4 @@ Se fizer uma alteração a um ficheiro .lsdl.yaml que não esteja em conformidad
 
 ![Ficheiro yaml a mostrar erros](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Resolução de problemas do Cortana para Power BI
 description: Se estiver a ter problemas ao utilizar o Cortana com o Power BI, experimente estas sugestões.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432120"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872880"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Resolução de problemas do Cortana para Power BI
 Este artigo faz parte de uma série. 
@@ -96,4 +95,4 @@ Está à procura de um dashboard que foi partilhado consigo?  Abra o Power BI > 
 * A consulta tem de ter 2 ou mais palavras, por predefinição.  Se a consulta for demasiado pequena, adicione a palavra "mostrar".
 * Algumas cadeias de consulta com preposições podem não funcionar (por exemplo, vendas por item). Experimente termos de consulta diferentes que não utilizem preposições e sejam significativos/exclusivos.
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

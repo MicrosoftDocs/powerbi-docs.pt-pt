@@ -2,7 +2,6 @@
 title: Utilizar a auditoria na sua organização
 description: Saiba como pode utilizar o auditoria com o Power BI para monitorizar e investigar as ações executadas. Pode utilizar o Centro de Segurança e Conformidade ou utilizar o PowerShell
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060684"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873775"
 ---
 # <a name="use-auditing-within-your-organization"></a>Utilizar a auditoria na sua organização
 
@@ -261,4 +260,4 @@ As seguintes atividades são auditadas pelo Power BI:
 
 [Portal de Administração do Power BI](service-admin-portal.md)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

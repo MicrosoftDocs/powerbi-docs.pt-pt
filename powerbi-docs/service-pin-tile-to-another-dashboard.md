@@ -2,7 +2,6 @@
 title: Afixar um mosaico de um dashboard noutro dashboard
 description: Afixar um mosaico de um dashboard noutro dashboard
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020105"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881223"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Afixar um mosaico de um dashboard noutro dashboard
 Uma forma de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md) é copiando-o de outro dashboard. Ao clicar em cada um destes mosaicos, haverá uma ligação para onde foi criado – nas Perguntas e Respostas ou num relatório. 
@@ -44,5 +43,5 @@ Uma forma de adicionar um novo [mosaico de dashboard](consumer/end-user-tiles.md
 ## <a name="next-steps"></a>Próximos passos
 [Mosaicos no Power BI](consumer/end-user-tiles.md)  
 [Dashboards no Power BI](consumer/end-user-dashboards.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

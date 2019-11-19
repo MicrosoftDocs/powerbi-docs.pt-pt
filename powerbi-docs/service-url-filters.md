@@ -3,7 +3,6 @@ title: Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 description: Filtre um relatório através de parâmetros de cadeias de consulta de URL e, se pretender, filtre com base em mais de um campo.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891806"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876912"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -137,7 +136,7 @@ O Power BI suporta o OData V3 e V4 para os tipos de dados **Data** e **DateTimeO
   
 As datas são representadas através do formato EDM (2019-02-12T00:00:00): Quando especifica a data como 'AAAA-MM-DD', o Power BI interpreta-a como 'AAAA-MM-DDT00:00:00'. O mês e o dia devem ter apenas dois dígitos, MM e DD.
 
-Por que motivo esta distinção é importante? Imaginemos que criou o parâmetro de cadeia de consulta **Tabela/Data gt "2018-08-03"**.  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? O Power BI converte a consulta em **Tabela/Data gt '2018-08-03T00:00:00'**. Desta forma, os resultados incluirão todas as datas com uma parte correspondente à hora diferente de zero, uma vez que essas datas seriam maiores do que **'2018-08-03T00:00:00'**.
+Por que motivo esta distinção é importante? Imaginemos que criou o parâmetro de cadeia de consulta **Tabela/Data gt "2018-08-03"** .  Será que os resultados vão incluir 3 de agosto de 2018 ou começar por 4 de agosto de 2018? O Power BI converte a consulta em **Tabela/Data gt '2018-08-03T00:00:00'** . Desta forma, os resultados incluirão todas as datas com uma parte correspondente à hora diferente de zero, uma vez que essas datas seriam maiores do que **'2018-08-03T00:00:00'** .
 
 Há outras diferenças entre o V3 e o V4. O OData V3 não suporta Datas, apenas DateTime. Portanto, se utilizar o formato V3, deverá qualificá-lo com a data/hora completa. Os literais de datas como “datetime'2019-05-20'” não são suportados na notação V3. Contudo, pode simplesmente escrevê-los como “2019-05-20” na notação V4. Veja a seguir duas consultas de filtros equivalentes no formato V3 e V4:
 
@@ -147,7 +146,7 @@ Há outras diferenças entre o V3 e o V4. O OData V3 não suporta Datas, apenas
 
 ## <a name="special-characters-in-url-filters"></a>Carateres especiais em filtros de URL
 
-Os carateres especiais e espaços requerem alguma formatação adicional. Quando a sua consulta contém espaços, travessões ou outros carateres que não forem ASCII, prefixe esses carateres especiais com um *código de escape* que comece com um caráter de sublinhado e um X (**_x**) e, em seguida, o **Unicode** de quatro dígitos, seguido de outro caráter de sublinhado. Se o Unicode tiver menos de quatro carateres, tem de acrescentar zeros ao mesmo. Eis alguns exemplos.
+Os carateres especiais e espaços requerem alguma formatação adicional. Quando a sua consulta contém espaços, travessões ou outros carateres que não forem ASCII, prefixe esses carateres especiais com um *código de escape* que comece com um caráter de sublinhado e um X ( **_x**) e, em seguida, o **Unicode** de quatro dígitos, seguido de outro caráter de sublinhado. Se o Unicode tiver menos de quatro carateres, tem de acrescentar zeros ao mesmo. Eis alguns exemplos.
 
 |Identificador  |Unicode  | Códigos do Power BI  |
 |---------|---------|---------|
@@ -195,4 +194,4 @@ Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de 
 [Afixar uma visualização a um dashboard](service-dashboard-pin-tile-from-report.md)  
 [Inscrever-se numa avaliação gratuita](https://powerbi.microsoft.com/get-started/)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Configurar definições de fluxos de dados da área de trabalho
 description: Configurar uma área de trabalho no Power BI para armazenar a definição de fluxos de dados e os ficheiros de dados no Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431999"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877332"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
 
@@ -138,4 +137,4 @@ Para obter mais informações sobre o Common Data Service, pode ler o seguinte a
 * [Pastas de CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definição do ficheiro de modelo do CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Pode sempre experimentar [colocar perguntas à Comunidade do Power BI](http://community.powerbi.com/).
+Pode sempre experimentar [colocar perguntas à Comunidade do Power BI](https://community.powerbi.com/).

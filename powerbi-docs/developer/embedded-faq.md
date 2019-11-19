@@ -3,22 +3,21 @@ title: Perguntas frequentes sobre o Power BI Embedded
 description: Procure uma lista de perguntas frequentes e respostas sobre o Power BI Embedded.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429289"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864220"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
-* Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
+* Se tiver outras perguntas, [experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).
 * Ainda tem problemas? Visite a [Página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="general"></a>Geral
@@ -123,7 +122,7 @@ O utilizador pode resolver este problema ao chamar a [API refreshUserPermissions
 
 Pode utilizar o portal do Power BI para encontrar a sua região de Inquilino do PBI.
 
-[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Sobre o Power BI
+[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Sobre o Power BI
 
 ![Sobre o Power BI](media/embedded-faq/about-01.png)
 ![Região de inquilino](media/embedded-faq/tenant-location-01.png)
@@ -362,4 +361,4 @@ Pode saber como editar os seus dados do Power BI [aqui](https://docs.microsoft.c
 
 Para obter mais informações, veja [Resolver problemas da sua aplicação incorporada](embedded-troubleshoot.md).
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

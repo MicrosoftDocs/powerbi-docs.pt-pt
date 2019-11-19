@@ -3,18 +3,17 @@ title: Realce
 description: Realce de seleções de pontos de dados em elementos visuais do Power BI
 author: zBritva
 ms.author: v-ilgali
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: f2e073e173a0eb326556f34d834abce9f5957537
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430600"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880018"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Realçar pontos de dados em elementos visuais do Power BI
 

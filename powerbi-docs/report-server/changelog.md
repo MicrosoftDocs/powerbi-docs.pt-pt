@@ -3,18 +3,17 @@ title: Registo de alterações do Power BI Report Server
 description: Este registo de alterações destina-se ao Power BI Report Server e lista novos itens, juntamente com correções de erros para cada compilação lançada.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922569"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874278"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registo de alterações do Power BI Report Server
 
@@ -29,7 +28,7 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
         - Correções de erros
             - Correção para o .NET Framework 4.7 não instalado.
             - Correção para relatórios paginados Teradata com parâmetros de valores múltiplos com o erro 110083.
-            - A correção para o valor URLRoot não funciona se houver múltiplos enlaces de URL de serviço Web e um dos mesmos for http://+80/reportserver.
+            - A correção para o valor URLRoot não funciona se houver múltiplos enlaces de URL de serviço Web e um dos mesmos for https://+80/reportserver.
           - Correção para valores de parâmetros com múltiplos valores em relatórios paginados que aparecem fora da área do relatório.
           
     - *Versão: 1.6.7221.30698 (Compilação 15.0.1102.620), Lançamento: 9 de outubro de 2019*
@@ -305,6 +304,6 @@ Para obter informações detalhadas sobre as novas funcionalidades, veja [Novida
 [Descrição geral para administradores](admin-handbook-overview.md)  
 [Instalar o Power BI Report Server](install-report-server.md)  
 [Transferir o Report Builder](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Transferir o SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Transferir o SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

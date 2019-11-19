@@ -3,18 +3,17 @@ title: Gerir multi-inquilinos com a análise incorporada do Power BI
 description: Crie uma aplicação multi-inquilinos com a análise incorporada.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0456e1e56db3e291f359f266b1ac12073fb747da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429645"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864436"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gerir multi-inquilinos com a análise incorporada do Power BI
 
@@ -37,7 +36,7 @@ Este artigo descreve as diferentes abordagens e analisa-as, de acordo com vário
 
 **Inquilino** – um único cliente (organização) que utiliza a aplicação SaaS e quaisquer recursos ou dados que o cliente traz para a aplicação SaaS.
 
-**[Power BI](../fundamentals/power-bi-overview.md) ** – o serviço cloud do Power BI que serve como uma plataforma para o Power BI Embedded.
+**[Power BI](../fundamentals/power-bi-overview.md)**  – o serviço cloud do Power BI que serve como uma plataforma para o Power BI Embedded.
 
 **Inquilino do Power BI** – é um conjunto de recursos do Power BI associado a um único inquilino do AAD.
 

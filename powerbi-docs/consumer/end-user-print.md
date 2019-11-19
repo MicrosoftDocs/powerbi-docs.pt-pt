@@ -2,7 +2,6 @@
 title: Imprimir a partir do serviço Power BI
 description: Imprimir um dashboard, um mosaico ou uma página de relatório a partir do serviço Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019561"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862776"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Imprimir a partir do serviço Power BI
 
@@ -82,5 +81,5 @@ Os relatórios podem ser impressos uma página de cada vez.
 ## <a name="next-steps"></a>Próximos passos
 [Partilhar dashboards e relatórios com colegas e outras pessoas](../service-share-dashboards.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

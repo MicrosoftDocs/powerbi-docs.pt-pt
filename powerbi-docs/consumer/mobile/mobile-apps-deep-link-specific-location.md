@@ -2,19 +2,18 @@
 title: Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 description: Saiba como criar uma ligação avançada para um dashboard, mosaico ou relatório específico na aplicação móvel do Power BI com um identificador de recurso uniforme (URI).
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429901"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879300"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar uma ligação para uma localização específica nas aplicações móveis do Power BI
 Pode utilizar ligações para aceder diretamente a itens específicos no Power BI: Relatório, Dashboard e Mosaico.
@@ -89,7 +88,7 @@ Este é um exemplo de relatório de "A Minha Área de Trabalho":
 ```html
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
 ```
-O URL acima contém também a página de relatório específica **"ReportSection3"**.
+O URL acima contém também a página de relatório específica **"ReportSection3"** .
 
 Este é um exemplo de um relatório de uma área de trabalho (não de A Minha Área de Trabalho):
 
@@ -117,6 +116,6 @@ Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto,
 
 * [Aplicações do Power BI para dispositivos móveis](mobile-apps-for-mobile-devices.md)
 * Siga o @MSPowerBI no Twitter
-* Participe na conversa na [Comunidade do Power BI](http://community.powerbi.com/)
+* Participe na conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 

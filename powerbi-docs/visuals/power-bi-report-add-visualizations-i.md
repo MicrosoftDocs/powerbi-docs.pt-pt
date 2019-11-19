@@ -2,7 +2,6 @@
 title: Parte 1, Adicionar visualizações a um relatório do Power BI
 description: Parte 1, Adicionar visualizações a um relatório do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e25db5ab57e3a52ffc08020dc980553e515256bf
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: d68abc7b4509595d4dfa3071dc56673e6af89e4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049034"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871051"
 ---
 # <a name="part-1-add-visualizations-to-a-power-bi-report"></a>Parte 1, Adicionar visualizações a um relatório do Power BI
 
@@ -28,7 +27,7 @@ Este artigo apresenta uma breve introdução à criação de uma visualização 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Este tutorial utiliza o [ficheiro PBIX de Vendas e marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+Este tutorial utiliza o [ficheiro PBIX de Vendas e marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
 
 1. Na secção superior esquerda da barra de menus do Power BI Desktop, selecione **Ficheiro** > **Abrir**
    

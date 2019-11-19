@@ -2,7 +2,6 @@
 title: Utilizar modelos compostos no Power BI Desktop
 description: Criar modelos de dados com várias ligações de dados e relações muitos para muitos no Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c79994f2144dfe019c3ac10a51230d17b75b542e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017690"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876586"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Utilizar modelos compostos no Power BI Desktop
 
@@ -60,7 +59,7 @@ Pode criar relações entre tabelas como sempre fez, mesmo quando essas tabelas 
 
 ## <a name="example-of-a-composite-model"></a>Exemplo de modelo composto
 
-Para obter um exemplo de um *modelo composto*, considere um relatório que tenha ligado a um armazém de dados da empresa no SQL Server com o DirectQuery. Neste caso, o armazém de dados contém os dados *Vendas por País*, *Trimestre* e *Bicicleta (Produto)*, conforme mostrado na imagem seguinte:
+Para obter um exemplo de um *modelo composto*, considere um relatório que tenha ligado a um armazém de dados da empresa no SQL Server com o DirectQuery. Neste caso, o armazém de dados contém os dados *Vendas por País*, *Trimestre* e *Bicicleta (Produto)* , conforme mostrado na imagem seguinte:
 
 ![Vista das relações dos modelos compostos](media/desktop-composite-models/composite-models_04.png)
 
@@ -88,7 +87,7 @@ Da mesma forma, na vista **Relações** no Power BI Desktop, agora vemos uma ta
 
 ![Vista das relações das tabelas](media/desktop-composite-models/composite-models_08.png)
 
-Agora, precisamos de relacionar essas tabelas com as outras tabelas no modelo. Como sempre, criamos uma relação entre a tabela **Bicicletas** do SQL Server e a tabela **Gestores de Produtos** importada. Ou seja, a relação é entre *Bicicletas[ProductName]* e *Gestores de Produtos[ProductName]*. Conforme foi abordado anteriormente, todas as relações que passam pela origem têm a cardinalidade predefinida *muitos-para-muitos*. 
+Agora, precisamos de relacionar essas tabelas com as outras tabelas no modelo. Como sempre, criamos uma relação entre a tabela **Bicicletas** do SQL Server e a tabela **Gestores de Produtos** importada. Ou seja, a relação é entre *Bicicletas[ProductName]* e *Gestores de Produtos[ProductName]* . Conforme foi abordado anteriormente, todas as relações que passam pela origem têm a cardinalidade predefinida *muitos-para-muitos*. 
 
 ![Janela “Criar relação”](media/desktop-composite-models/composite-models_09.png)
 

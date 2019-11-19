@@ -2,7 +2,6 @@
 title: Executar e ver informações nos mosaicos do dashboard
 description: Como utilizador final do Power BI, saiba como obter informações sobre os mosaicos do dashboard.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019635"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863390"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Ver informações de dados nos mosaicos do dashboard com o Power BI
 Cada [mosaico](end-user-tiles.md) de elemento visual no dashboard é uma porta para a exploração de dados. Ao selecionar um mosaico, é aberto um relatório ou uma página de [Perguntas e Respostas](end-user-q-and-a.md) onde pode filtrar e ordenar, bem como aprofundar o conjunto de dados associado ao relatório. E quando executa as informações, o Power BI faz a exploração de dados por si.

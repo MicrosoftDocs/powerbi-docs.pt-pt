@@ -3,19 +3,18 @@ title: Não é possível contactar o suporte do Power BI
 description: Soluções para criar um incidente do Power BI se um utilizador não conseguir iniciar sessão
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: bdac9b5d0377055d842ae4b64b914deb76660a41
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021420"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874600"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Resolução de problemas de início de sessão no Power BI
 
@@ -27,7 +26,7 @@ No entanto, se for um **administrador de inquilinos** da sua organização e ain
 
 ## <a name="engage-the-support-team"></a>Contactar a equipa de suporte
 
-Primeiro, tente criar um pedido de suporte através da [página de suporte do Power BI](https://powerbi.microsoft.com/en-us/support/).
+Primeiro, tente criar um pedido de suporte através da [página de suporte do Power BI](https://powerbi.microsoft.com/support/).
 
 Se não conseguir aceder à página de suporte do Power BI, tente criar um pedido através da [página de suporte do Office 365 (O365)](https://support.office.com/home/contact).
 
@@ -58,4 +57,3 @@ Se não conseguir criar uma publicação no fórum da página da comunidade, é 
 Eis alguns sites que pode visitar para obter suporte adicional do Power BI:
 
 * [Microsoft Docs do Power BI](https://docs.microsoft.com/power-bi/)
-* [Creating Power BI Support Cases](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/) (Criar Incidentes de Suporte do Power BI)

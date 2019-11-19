@@ -2,7 +2,6 @@
 title: Consumir relatórios no Power BI com ferramentas de acessibilidade
 description: Ferramentas que tornam acessível o consumo de relatórios no Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b50b291b6d7f583252cce6e270ff135c1ba0de12
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181189"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878953"
 ---
 # <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>Consumir relatórios no Power BI com ferramentas de acessibilidade
 O Power BI tem várias funcionalidades incorporadas para ajudar as pessoas com incapacidades a consumir e interagir mais facilmente com os relatórios do Power BI. Estas ferramentas ajudam os utilizadores a obter as mesmas informações de um relatório que aqueles que não utilizam tecnologias de apoio.

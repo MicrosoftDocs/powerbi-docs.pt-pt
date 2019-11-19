@@ -3,18 +3,17 @@ title: Referência da API REST do Power BI
 description: Referência da API REST do Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 38e04049ad7fb4f2bc9a59f9680d257800e77148
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a42400c41d215a0cbe31bbb5fa0324abe4f6084
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019118"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880371"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referência da API REST do Power BI
 
@@ -35,4 +34,4 @@ A API REST do Power BI tem as seguintes operações:
 
 Para saber mais sobre a API REST do Power BI, veja [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

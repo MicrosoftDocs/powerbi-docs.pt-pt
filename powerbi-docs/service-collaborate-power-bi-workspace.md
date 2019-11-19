@@ -2,7 +2,6 @@
 title: Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)
 description: Leia mais sobre a colaboração em ficheiros do Power BI Desktop na sua área de trabalho e com serviços do Office 365, a como partilha de ficheiros no OneDrive para Empresas, as conversações no Exchange, o calendário e as tarefas.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021340"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873177"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)
 As áreas de trabalho do Power BI são locais excelentes para colaborar com os seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicações*. Este artigo é sobre as áreas de trabalho *clássicas* originais.  
@@ -80,6 +79,6 @@ Se for o proprietário ou administrador de uma área de trabalho, também pode r
 
 ## <a name="next-steps"></a>Próximos passos
 * [Publique aplicações no Power BI](service-create-distribute-apps.md).
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/).
+* Mais perguntas? [Experimente a Comunidade do Power BI](https://community.powerbi.com/).
 * Comentários? Aceda a [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 

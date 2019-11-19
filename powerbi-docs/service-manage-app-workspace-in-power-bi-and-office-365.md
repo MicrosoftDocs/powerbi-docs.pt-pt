@@ -2,7 +2,6 @@
 title: Gerir a sua área de trabalho no Power BI e no Office 365
 description: As áreas de trabalho no Power BI são uma experiência de colaboração baseada nos grupos do Office 365. Faça a gestão das suas áreas de trabalho no Power BI e também no Office 365.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431818"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872083"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gerir a sua área de trabalho no Power BI e no Office 365
 
@@ -87,4 +86,4 @@ Quando distribuir a aplicação a partir da área de trabalho, a imagem que adic
 
 * [Publicar uma aplicação no Power BI](service-create-distribute-apps.md)
 
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

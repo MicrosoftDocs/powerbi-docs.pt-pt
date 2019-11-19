@@ -2,7 +2,6 @@
 title: Resolver problemas de importação de .XLS e Access no Power BI Desktop
 description: Resolver problemas de importação de bases de dados do Access e folhas de cálculo .XLS no Power BI Desktop e Power Query
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922527"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878988"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Resolver problemas na importação de ficheiros .XLS e Access no Power BI Desktop
 
@@ -24,7 +23,7 @@ No Power BI Desktop, as Bases de dados do Access e as versões mais antigas dos
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>Situação 1: Nenhum Motor de Base de Dados do Access está instalado
 
-Se a mensagem de erro do Power BI Desktop indica que o Motor de Base de Dados do Access não está instalado, deve instalar a versão de 32 ou 64 bits do Motor de Base de Dados do Access que corresponde à sua versão do Power BI Desktop. Pode instalar o Motor de Base de Dados do Access a partir da [página de transferências](http://www.microsoft.com/download/details.aspx?id=13255).
+Se a mensagem de erro do Power BI Desktop indica que o Motor de Base de Dados do Access não está instalado, deve instalar a versão de 32 ou 64 bits do Motor de Base de Dados do Access que corresponde à sua versão do Power BI Desktop. Pode instalar o Motor de Base de Dados do Access a partir da [página de transferências](https://www.microsoft.com/download/details.aspx?id=13255).
 
 >[!NOTE]
 >Se a versão de bits instalada do Motor de Base de Dados do Access for diferente da versão de bits de instalação do Microsoft Office, as aplicações do Office não poderão utilizar o Motor de Base de Dados do Access.
@@ -72,7 +71,7 @@ Se as três soluções anteriores não forem viáveis, é possível instalar as 
 
 Para instalar as duas versões de bits do Motor de Base de Dados do Access, siga estes passos:
 
-1. Instale as duas versões de bits do Motor de Base de Dados do Access a partir da [página de transferência](http://www.microsoft.com/download/details.aspx?id=13255). 
+1. Instale as duas versões de bits do Motor de Base de Dados do Access a partir da [página de transferência](https://www.microsoft.com/download/details.aspx?id=13255). 
 
 1. Execute cada versão do Motor de Base de Dados do Access com a opção */passive*. Por exemplo:
    
@@ -84,7 +83,7 @@ Para instalar as duas versões de bits do Motor de Base de Dados do Access, siga
 
 Se estiver a utilizar uma subscrição do Office 365, seja o **Office 2013** ou o **Office 2016**, o fornecedor do Motor de Base de Dados do Access é registado numa localização de registo virtual que *só* está acessível para os processos do Microsoft Office. Como resultado, o Motor de Aplicação Híbrida (que é responsável por executar o Excel não Office 365 e o Power BI Desktop e não é um processo do Office), não pode utilizar o fornecedor do Motor de Base de Dados do Access.
 
-Para solucionar esta situação, [transfira e instale o Motor de Base de Dados do Access redistribuível](http://www.microsoft.com/download/details.aspx?id=13255) correspondente à versão de bits da sua instalação do Power BI Desktop. Para obter mais informações sobre as versões de bits, veja as secções anteriores neste artigo.
+Para solucionar esta situação, [transfira e instale o Motor de Base de Dados do Access redistribuível](https://www.microsoft.com/download/details.aspx?id=13255) correspondente à versão de bits da sua instalação do Power BI Desktop. Para obter mais informações sobre as versões de bits, veja as secções anteriores neste artigo.
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>Outras situações que podem originar problemas de importação
 
