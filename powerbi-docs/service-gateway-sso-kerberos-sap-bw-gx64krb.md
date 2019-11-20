@@ -3,19 +3,18 @@ title: Utilizar o Kerberos para início de sessão único (SSO) no SAP BW com gx
 description: Configurar o seu servidor SAP BW para ativar o SSO a partir do serviço Power BI com gx64krb5
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0063ca280667e12fb2cf4d0432651f8145495ac8
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a162ba686c3f548ed371e7a63c2d85dd1f697462
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020312"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881479"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Utilizar o Kerberos para início de sessão único (SSO) no SAP BW com gx64krb5
 
@@ -189,7 +188,7 @@ Caso se depare com algum dos seguintes problemas, siga estes passos para resolve
 
 1. Ative o rastreio do SAP BW e analise os ficheiros de registo gerados. Existem vários tipos diferentes de rastreio do SAP BW disponíveis (por exemplo, o rastreio de CPIC):
 
-   a. para ativar o rastreio de CPIC, defina duas variáveis de ambiente: **CPIC**TRACE\_ e \_CPIC**TRACE\_DIR**.
+   a. para ativar o rastreio de CPIC, defina duas variáveis de ambiente: **CPIC\_TRACE** e **CPIC\_TRACE\_DIR**.
 
       A primeira variável define o nível de rastreio e a segunda variável define o diretório do ficheiro de rastreio. O diretório tem de ser uma localização na qual os membros do grupo Utilizadores Autenticados possam escrever. 
  

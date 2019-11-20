@@ -3,19 +3,18 @@ title: Usar o início de sessão único Kerberos para SSO no SAP BW com CommonCr
 description: Configurar o servidor SAP BW para ativar o SSO a partir do serviço Power BI com CommonCryptoLib (sapcrypto.dll)
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020889"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872413"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usar o início de sessão único Kerberos para SSO no SAP BW com CommonCryptoLib (sapcrypto.dll)
 
@@ -31,7 +30,7 @@ Este artigo descreve como configurar a origem de dados SAP BW para ativar o SSO 
 
 1. Confirme que o seu servidor BW está configurado corretamente para o SSO do Kerberos com CommonCryptoLib. Se estiver, pode utilizar o SSO para aceder ao seu servidor BW (diretamente ou através de um Servidor de Mensagens SAP BW) com uma ferramenta SAP como o GUI do SAP, que foi configurado para utilizar a CommonCryptoLib. 
 
-   Para obter mais informações sobre os passos de configuração, veja [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Início de Sessão Único do SAP: autenticação com Kerberos/SPNEGO). O seu servidor BW deverá utilizar a CommonCryptoLib como a respetiva Biblioteca SNC e ter um nome SNC que comece por *CN=* , como *CN=BW1*. Para obter mais informações sobre os requisitos de nomes SNC (especificamente, o parâmetro snc/identity/as), veja [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html) (Parâmetros SNC para Configuração do Kerberos).
+   Para obter mais informações sobre os passos de configuração, veja [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Início de Sessão Único do SAP: autenticação com Kerberos/SPNEGO). O seu servidor BW deverá utilizar a CommonCryptoLib como a respetiva Biblioteca SNC e ter um nome SNC que comece por *CN=* , como *CN=BW1*. Para obter mais informações sobre os requisitos de nomes SNC (especificamente, o parâmetro snc/identity/as), veja [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) (Parâmetros SNC para Configuração do Kerberos).
 
 1. Se ainda não o tiver feito, instale a versão x64 do [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) no computador onde o gateway foi instalado. 
    
@@ -102,7 +101,7 @@ Se não conseguir atualizar o relatório no serviço Power BI, pode utilizar o r
 
 ### <a name="cpic-tracing"></a>Rastreio de CPIC
 
-1. para ativar o rastreio de CPIC, defina duas variáveis de ambiente: **CPIC**TRACE\_ e \_CPIC**TRACE\_DIR**. 
+1. para ativar o rastreio de CPIC, defina duas variáveis de ambiente: **CPIC\_TRACE** e **CPIC\_TRACE\_DIR**. 
 
    A primeira variável define o nível de rastreio e a segunda variável define o diretório do ficheiro de rastreio. O diretório tem de ser uma localização na qual os membros do grupo Utilizadores Autenticados possam escrever. 
  
