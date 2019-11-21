@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: Criar uma segmentação de dados que pode redimensionar
               href: power-bi-slicer-filter-responsive.md
-            - name: Criar cartões de resposta personalizados para a Cortana
-              href: service-cortana-answer-cards.md
             - name: Row-level security
               href: desktop-rls.md
             - name: Personalizar descrições
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: Use Q&A with live connections (Utilizar as Perguntas e Respostas com ligações em direto)
               href: service-q-and-a-direct-query.md
-            - name: Introdução à Cortana para o Power BI
-              href: service-cortana-intro.md
-            - name: Enable Cortana for Power BI (Ativar a Cortana para o Power BI)
-              href: service-cortana-enable.md
             - name: Quick Insights in Power BI (Informações Rápidas no Power BI)
               href: service-insights.md
             - name: Otimizar os dados para as Informações Rápidas
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Erro: Não conseguimos encontrar dados no seu livro do Excel'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: Troubleshoot Cortana (Resolução de problemas da Cortana)
-              href: service-cortana-troubleshoot.md
             - name: Como atualizar as suas credenciais do pacote de conteúdos Xero se a atualização falhar
               href: service-refresh-xero-credentials.md
         - name: Outras tarefas

@@ -12,7 +12,11 @@
         - name: Programador
           tocHref: /power-bi/developer/
           topicHref: /power-bi/developer/index
-        - name: Aprendizagem Orientada
+          items:
+            - name: Utilizar elementos visuais baseados em R no Power BI
+              tocHref: /power-bi/desktop-r-powered-custom-visuals/
+              topicHref: /power-bi/developer/index
+        - name: Aprendizagem Interativa
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
         - name: Report Server
