@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 52beebb839907a6b4141cec089184fcb693fe817
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875114"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010691"
 ---
 # <a name="power-bi-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI
 
@@ -152,8 +152,6 @@ O Gateway de dados no local é uma excelente ferramenta para ligar o serviço Po
 A latência de rede pode ter um impacto no desempenho do relatório ao aumentar o tempo necessário para os pedidos chegarem ao serviço Power BI e para as respostas serem devolvidas. Os inquilinos no Power BI estão atribuídos a uma região específica. Pode ver a região "base" do seu inquilino ao aceder a powerbi.cim, selecionar **?** no canto superior direito e, em seguida, selecionar **Sobre o Power BI**. Quando os utilizadores de um inquilino acedem ao serviço Power BI, os respetivos pedidos são sempre encaminhados para esta região. Quando os pedidos chegarem ao serviço Power BI, o mesmo poderá enviar pedidos adicionais (por exemplo, para a origem de dados subjacente ou o gateway) que também estão sujeitos à latência de rede.
 
 As ferramentas como o [Azure Speed Test](https://azurespeedtest.azurewebsites.net/) podem fornecer um indicador da latência de rede entre o cliente e a região do Azure. No geral, para minimizar o impacto da latência de rede, tente manter as origens de dados, os gateways e o seu cluster do Power BI o mais próximo possível. Se a latência de rede for um problema, experimente colocar os gateways e as origens de dados mais perto do seu cluster do Power BI ao colocá-los em máquinas virtuais.
-
-Para melhorar a latência de rede, pondere utilizar o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que consegue criar ligações de rede mais rápidas e fiáveis entre os seus clientes e os datacenters do Azure.
 
 ## <a name="next-steps"></a>Próximos passos
 

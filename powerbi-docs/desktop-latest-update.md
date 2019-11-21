@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a9fb691882c8f34aeb8006eee3ec30d428db72e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 101c735ab48c2596d2cd24ebef56bc4e0c4cad54
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878123"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009947"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop 
 
 
-## <a name="october-2019-update-2745619621"></a>Atualização de outubro de 2019 (2.74.5619.621)
+## <a name="november-2019-update-2755649341"></a>Atualização de novembro de 2019 (2.75.5649.341)
 
-As nossas atualizações de outubro são tão divertidas como a noite de Halloween e ainda mais emocionantes que uma visita a uma casa assombrada. 
+Estamos entusiasmados com as nossas atualizações de novembro, que são tão agradáveis quanto uma reunião de uma família feliz. 
 
 Já pode [transferir a versão mais recente do Power BI Desktop](https://powerbi.microsoft.com/desktop), agora entregue como um só ficheiro .exe que contém todos os idiomas suportados. Se estiver a executar o Windows 10, também pode obter o **Power BI Desktop** na Loja Microsoft. As versões mensais são as mesmas, mesmo que a numeração da versão possa diferir entre as duas, independentemente do modo como instala o **Power BI Desktop**. Veja [este artigo](desktop-get-the-desktop.md) para obter mais informações. 
 
@@ -40,58 +40,53 @@ Também pode ver o vídeo de **Atualizações Mais Recentes** no início, dentro
 
 As atualizações seguintes são novas no **Power BI Desktop** este mês:
 
-### <a name="reporting"></a>Relatórios
-* Atualização automática de página do DirectQuery [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=12)  [[artigo]](desktop-automatic-page-refresh.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
+### <a name="user-experience"></a>Experiência do Utilizador
+* Atualização do Friso (pré-visualização) [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=13)  [[artigo]](desktop-ribbon.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#ribbon) 
 
+
+### <a name="reporting"></a>Relatórios
+* Elemento visual da árvore de decomposição (pré-visualização) [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=464)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#decompTree) 
 
 
 ### <a name="analytics"></a>Análise
-* O novo visual das Perguntas e Respostas [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=144)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
-* Experiência do utilizador melhorada nas Perguntas e Respostas [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=144)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
-    * Controlo de listas pendentes melhorado
-    * Sublinhado a vermelho e azul
-    * Resultados visuais melhorados
-* Melhorias à linguagem natural nas Perguntas e Respostas[[vídeo]](https://youtu.be/A8A9baUQsXQ?t=322)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements) 
-    * Integração com o Office/Dicionário de sinónimos do Bing
-    * Suporte para tabelas de medição e melhor gestão dos nomes das tabelas e das ambiguidades
-* Ferramentas das Perguntas e Respostas (pré-visualização) [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=376)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
-    * Rever as perguntas
-    * Ensinar Perguntas e Respostas
-    * Rever todas as alterações feitas
-* Suporte para SSAS e Azure AS, incluindo RLS [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=480)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS) 
+* Formatação condicional do botão de formato [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=834)[[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#button) 
 
 
 ### <a name="visuals"></a>Visuais
-* Elemento visual do PowerApps agora incluído por predefinição [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=505)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps) 
-* Novos elementos visuais xViz [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=538)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
+* Atualização do ArcGIS Maps for Power BI [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1024)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#arcGIS) 
+* Novos elementos visuais xViz [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1071)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#xViz) 
+* Elemento visual de Cascata de Desagregação do ZoomCharts [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1405)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#zoomCharts) 
+* Matriz de Relatórios Financeiros da Profitbase [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1575)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#financialReporting) 
+* Distribuição [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1661)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#distribution) 
+* Árvore [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1733)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#tree) 
+
+
 
 ### <a name="data-connectivity"></a>Conectividade de dados
-* O conector Sagra Emigo está disponível para o público [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=778)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
-* Conector do Azure Cost Management atualizado [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=805)  [[artigo]](desktop-connect-azure-cost-management.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
-* Novo conector do Workplace Analytics [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=830)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
+* Conector do LinkedIn Sales Navigator [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1808)  [[artigo]](desktop-connect-linkedin-sales-navigator.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#linkedInSalesNavigator) 
+* Editar a experiência de variáveis de SAP (disponibilidade geral) [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1839)  [[artigo]](service-edit-sap-variables.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#sapVariables) 
+* Conector do Product Insights [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=830)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#productInsights) 
 
 
-### <a name="data-preparation"></a>Preparação de dados
-* Diagnóstico de consultas [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=907)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
-* Melhoria na criação de perfis de dados [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=953)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
+### <a name="data-transformation"></a>Transformação de dados
+* Funções de IA no Power Query (pré-visualização) [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1976)  [[artigo]](desktop-ai-insights.md)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#aiFunctions) 
+* Conector da Web por Exemplo – suporte para extrair ligações [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=1861)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#webConnector) 
 
 
 ### <a name="template-apps"></a>Aplicações de modelo
-* Project Web App [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=850)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
+* LinkedIn Sales Navigator para Operações de Vendas [[vídeo]](https://youtu.be/kVli3Vm_kDo?t=2039)  [[artigo]](desktop-connect-linkedin-sales-navigator.md#using-the-linkedin-sales-navigator-template-app)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#linkedInTemplateApp) 
 
-### <a name="other"></a>Outros
-* Novo formato de ficheiro: .PBIDS [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=2455)  [[artigo]](desktop-data-sources.md#pbids-file-examples)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
-* Melhorias de desempenho para as operações de modelagem [[vídeo]](https://youtu.be/A8A9baUQsXQ?t=2583)  [[blogue]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
+
 
 > [!NOTE]
 > Também pode [consultar todas as origens de dados disponíveis para o Power BI Desktop](desktop-data-sources.md); a nossa lista está sempre a aumentar, pelo que deve consultá-la com frequência.
 
-Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
+Deseja obter mais informações sobre estas atualizações? Veja a [mensagem de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/), onde pode obter informações mais detalhadas sobre cada uma destas novas funcionalidades (esta é a mesma mensagem de blogue referida na lista acima).
 
 
 O vídeo seguinte descreve e mostra cada uma dessas atualizações. Também pode ver o vídeo na mensagem de blogue.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A8A9baUQsXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
 
 > [!NOTE]
 > Também poderá ter interesse em saber quais são as [novidades do serviço Power BI](service-whats-new.md), bem como ver as [novidades nas aplicações móveis do Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).

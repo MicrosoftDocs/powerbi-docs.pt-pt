@@ -8,21 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879931"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060412"
 ---
 # <a name="create-a-launch-url"></a>Criar um URL de iniciação
 
 Ao criar um URL de iniciação, pode abrir um novo separador (ou janela) do browser ao delegar o trabalho real no Power BI.
 
+> [!IMPORTANT]
+> O `host.launchUrl()` foi apresentado na API de Elementos Visuais 1.9.0.
+
 ## <a name="sample"></a>Exemplo
 
+Importe a interface `IVisualHost` e guarde a ligação no objeto `host` no construtor do elemento visual.
+
 ```typescript
-   this.host.launchUrl('https://powerbi.microsoft.com');
+import powerbi from "powerbi-visuals-api";
+import IVisualHost = powerbi.extensibility.visual.IVisualHost;
+
+export class Visual implements IVisual {
+    private host: IVisualHost;
+    // ...
+    constructor(options: VisualConstructorOptions) {
+        // ...
+        this.host = options.host;
+        // ...
+    }
+
+    // ...
+}
 ```
 
 ## <a name="usage"></a>Utilização

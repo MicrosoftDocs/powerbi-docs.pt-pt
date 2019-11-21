@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c8ad6153ba1fcfb22987c5399bb82a9a8f4e664c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879800"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009619"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Model relationships in Power BI Desktop (Relações de modelos no Power BI Desktop)
 
@@ -169,7 +169,7 @@ No momento da consulta, as relações fortes permitem que a _expansão da tabela
 > [!NOTE]
 > As relações inativas também são expandidas, mesmo quando a relação não é utilizada por um cálculo. As relações bidirecionais não têm impacto na expansão da tabela.
 
-Para relações Muitos para muitos, a expansão da tabela ocorre de "muitos" para os lados "um", através da semântica EXTERNA à ESQUERDA. Quando um valor correspondente de "muitos" para o lado "um" não existir, é adicionada uma linha virtual em branco à tabela do lado "um".
+Para relações Um para muitos, a expansão da tabela ocorre dos lados “muitos” para “um”, através da semântica ASSOCIAÇÃO EXTERNA À ESQUERDA. Quando um valor correspondente de "muitos" para o lado "um" não existir, é adicionada uma linha virtual em branco à tabela do lado "um".
 
 A expansão de tabela também ocorre para relações intra ilha de Um para um, mas com a semântica EXTERNA COMPLETA. Desta forma, garante-se que as linhas virtuais em branco são adicionadas em ambos os lados, quando necessário.
 

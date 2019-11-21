@@ -3,18 +3,18 @@ title: Parâmetros de relatórios no Report Builder do Power BI
 description: Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Paginated Report Builder do Power BI, as propriedades que pode definir e muito mais.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840539"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128415"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatórios no Report Builder do Power BI
 
@@ -65,7 +65,7 @@ Pode criar parâmetros de relatórios de algumas formas diferentes.
   
  Adicione uma consulta do conjunto de dados que contém variáveis ou um procedimento armazenado do conjunto de dados que contém os parâmetros de entrada. É criado um parâmetro de conjunto de dados para cada variável ou parâmetro de entrada, e é também criado um parâmetro de relatório para cada parâmetro de conjunto de dados.  
   
-![Propriedades do Conjunto de Dados do parâmetro do Report Builder](media/report-builder-parameters/report-builder-parameter-dataset.png "Propriedades do Conjunto de Dados do parâmetro do Report Builder")
+![Propriedades de Conjuntos de Dado com os Parâmetros do Report Builder](media/report-builder-parameters/report-builder-parameter-dataset.png "Propriedades de Conjuntos de Dados de Parâmetros do Report Builder")
 
   
  Esta imagem do Report Builder mostra:  
