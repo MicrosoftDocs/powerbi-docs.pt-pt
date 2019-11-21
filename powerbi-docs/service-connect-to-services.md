@@ -2,25 +2,24 @@
 title: Ligar aos serviços que utiliza com o Power BI
 description: Ligue-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics CRM e Google Analytics.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159987"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925834"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
 Com o Power BI, pode ligar-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço. Em seguida, cria uma *área de trabalho* do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa.
 
 >[!IMPORTANT]
->Vamos preterir diversos pacotes de conteúdos a 25 de setembro de 2019. Todos os pacotes de conteúdos instalados continuarão a funcionar, mas não poderá instalar um novo depois disso. [As aplicações de modelo](https://docs.microsoft.com/power-bi/service-template-apps-overview) são o substituto dos pacotes de conteúdos do serviço.
+>Os pacotes de conteúdos do serviço estão a ser substituídos por [Aplicações de modelo](https://docs.microsoft.com/power-bi/service-template-apps-overview). A partir de 25 de setembro de 2019, vários pacotes de conteúdos foram preteridos. Qualquer pacote de conteúdos preterido que tenha instalado permanecerá na sua conta, mas não será fornecida nenhuma documentação ou suporte para o mesmo nem será possível instalá-lo novamente.
 
 Inicie sessão no Power BI para ver todos os [serviços aos quais se pode ligar](https://app.powerbi.com/getdata/services). 
 
@@ -36,7 +35,7 @@ Após instalar a aplicação, pode ver o dashboard e os relatórios na aplicaç�
 ## <a name="edit-the-dashboard-and-reports"></a>Editar o dashboard e os relatórios
 Quando a importação estiver concluída, a nova aplicação aparecerá na página Aplicações.
 
-1. Selecione **Aplicações** no painel de navegação à esquerda > selecione a aplicação.
+1. Selecione **Aplicações** no painel de navegação > selecione a aplicação.
    
      ![Página Aplicações](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. Pode fazer uma pergunta ao escrever na caixa de Perguntas e Respostas ou clicar num mosaico para abrir o relatório subjacente. 
@@ -71,6 +70,6 @@ Se estiver interessado em criar aplicações de modelo para distribuição próp
 ## <a name="next-steps"></a>Próximos passos
 * [Distribuir aplicações aos seus colegas](service-create-distribute-apps.md)
 * [Create the new workspaces in Power BI](service-create-the-new-workspaces.md) (Criar as novas áreas de trabalho no Power BI)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

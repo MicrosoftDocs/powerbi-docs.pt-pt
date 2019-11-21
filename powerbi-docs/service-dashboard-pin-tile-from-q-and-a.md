@@ -2,7 +2,6 @@
 title: Como afixar um mosaico num dashboard a partir das Perguntas e Respostas
 description: documentação sobre como afixar um mosaico a um dashboard do Power BI a partir da caixa de Perguntas e Respostas
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432083"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872819"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas
@@ -52,9 +51,9 @@ Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-ret
    ![dashboard com mosaicos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-* Quando começa a escrever uma pergunta, o P e R começa imediatamente a procurar a melhor resposta de todos os conjuntos de dados associados ao dashboard atual.  O "dashboard atual" é o dashboard, listado na barra de navegação superior. Por exemplo, esta pergunta está a ser feita no dashboard **Exemplo de Análise de Revenda**, que faz parte da área de trabalho **mihart**.
+* Quando começa a escrever uma pergunta, o P e R começa imediatamente a procurar a melhor resposta de todos os conjuntos de dados associados ao dashboard atual.  O “dashboard atual” é o dashboard listado no painel de navegação superior. Por exemplo, esta pergunta está a ser feita no dashboard **Exemplo de Análise de Revenda**, que faz parte da área de trabalho **mihart**.
 
-  ![trilhos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![trilhos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **De que forma as Perguntas e Respostas sabem que conjuntos de dados devem utilizar**?  As Perguntas e Respostas têm acesso a todos os conjuntos de dados que têm, pelo menos, uma visualização afixada nesse dashboard.
 
 * **Não vê a caixa de pergunta**? Fale com o seu administrador do Power BI. O administrador tem a capacidade de desativar as Perguntas e Respostas.
@@ -64,4 +63,4 @@ Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-ret
 [Mudar o nome, redimensionar, adicionar uma hiperligação, reposicionar o mosaico e muito mais](service-dashboard-edit-tile.md)    
 [Apresentar um mosaico do dashboard no Modo de detalhe](consumer/end-user-focus.md)     
 [Voltar às Perguntas e Repostas no Power BI](consumer/end-user-q-and-a.md)  
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 'Tutorial: ligar-se a um repositório do GitHub com o Power BI'
 description: Neste tutorial, irá ligar aos dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020018"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871257"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Tutorial: ligar-se a um repositório do GitHub com o Power BI
 Neste tutorial, irá ligar a dados reais no serviço GitHub com o Power BI e o Power BI criará automaticamente dashboards e relatórios. Vai ligar-se ao repositório de conteúdos públicos do Power BI (também conhecido como *repositório*) e ver respostas a perguntas como: Quantas pessoas contribuem para os conteúdos públicos do Power BI? Quem contribui mais? Que dia da semana tem mais contribuições? Entre outras perguntas. 
@@ -45,7 +44,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
 ## <a name="how-to-connect"></a>Como se ligar
 1. Inicie sessão no serviço Power BI (https://app.powerbi.com). 
-2. No painel de navegação à esquerda, selecione **Aplicações** e, em seguida, **Obter aplicações**.
+2. No painel de navegação, selecione **Aplicações** e, em seguida, **Obter aplicações**.
    
    ![Power BI: obter aplicações](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
    Agora, o Power BI pode ligar ao GitHub e aos dados.  Os dados são atualizados uma vez por dia.
 
 8. Após o Power BI importar os dados, verá os conteúdos da sua nova área de trabalho do GitHub. 
-9. Selecione a seta junto ao nome da área de trabalho na barra de navegação à esquerda. Verá que a área de trabalho contém um dashboard e um relatório. 
+9. Selecione a seta junto ao nome da área de trabalho no painel de navegação. Verá que a área de trabalho contém um dashboard e um relatório. 
 
-    ![Aplicação no painel de navegação à esquerda](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![Aplicação no painel de navegação](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. Selecione **Mais opções** (...) junto ao nome do dashboard > **Mudar o nome** > escreva **Dashboard do GitHub**.
  
     ![Power BI: mosaico do GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. Selecione o ícone de navegação global para minimizar a navegação à esquerda, para ter mais espaço.
+8. Selecione o ícone de navegação global para minimizar o painel de navegação e ter mais espaço.
 
     ![Ícone de navegação global](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ Para concluir este tutorial, precisa de uma conta do GitHub, se ainda não tiver
 
 Agora que concluiu o tutorial, pode eliminar a aplicação GitHub. 
 
-1. Na barra de navegação à esquerda, selecione **Aplicações**.
+1. No painel de navegação, selecione **Aplicações**.
 2. Coloque o cursor sobre o mosaico do GitHub e selecione o caixote do lixo **Eliminar**.
 
     ![Eliminar a aplicação GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

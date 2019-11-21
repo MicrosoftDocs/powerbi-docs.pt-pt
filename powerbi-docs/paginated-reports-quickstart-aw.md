@@ -3,18 +3,17 @@ title: 'Tutorial: criar um relatório paginado e carregá-lo para o serviço Pow
 description: Neste tutorial, vai ligar-se a uma base de dados SQL do Azure de exemplo. Em seguida, vai utilizar um assistente no Report Builder para criar um relatório paginado. Em seguida, vai carregar o relatório paginado para uma área de trabalho numa capacidade Premium do serviço Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431665"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875417"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: criar um relatório paginado e carregá-lo para o serviço Power BI
 
@@ -287,7 +286,7 @@ Mais uma melhoria na formatação antes de publicar o relatório no serviço Pow
 
 Agora que criou o relatório paginado, chegou a hora de o carregar no serviço Power BI.
 
-1. No serviço Power BI (http://app.powerbi.com), no painel de navegação esquerdo, selecione **Áreas de trabalho** > **Criar área de trabalho**.
+1. No serviço Power BI (https://app.powerbi.com), no painel de navegação, selecione **Áreas de trabalho** > **Criar área de trabalho**.
 
 2. Dê o nome **Azure AW** ou outro nome exclusivo à área de trabalho. É o único membro por enquanto. 
 

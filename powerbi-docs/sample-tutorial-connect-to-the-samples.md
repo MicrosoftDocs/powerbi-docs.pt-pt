@@ -2,7 +2,6 @@
 title: Ligar aos exemplos no serviço Power BI
 description: Saiba como instalar e explorar os exemplos no serviço Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020635"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873829"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Ligar aos exemplos no serviço Power BI
 
@@ -38,11 +37,11 @@ Para se familiarizar com este pacote de conteúdos específico e o respetivo cen
 
     Se não tiver uma licença do Power BI Pro, pode guardar o exemplo em A Minha Área de Trabalho.
 
-2. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo. 
+2. Selecione **Obter Dados** na parte inferior do painel de navegação. 
 
    ![Selecionar Obter Dados](media/sample-datasets/power-bi-get-data.png)
 
-   Se não vir **Obter Dados**, expanda o painel de navegação ao selecionar o ![ícone de mais opções](media/sample-tutorial-connect-to-the-samples/expand-nav.png) na parte superior do painel.
+   Se não vir **Obter Dados**, expanda o painel de navegação ao selecionar o seguinte ícone na parte superior do painel: ![ícone de mais opções](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
 
 5. Na página **Obter Dados** apresentada, selecione **Exemplos**.
    
@@ -100,7 +99,7 @@ Quando abre o ficheiro .pbix de exemplo no Power BI Desktop pela primeira vez, e
 
 Ao contrário do que acontece quando se edita um relatório no serviço Power BI, no Power BI Desktop também pode trabalhar com as suas consultas e modelar os seus dados para se certificar de que os seus dados suportam as melhores informações nos seus relatórios. Em seguida, pode guardar o seu ficheiro do Power BI Desktop onde quiser, quer seja na sua unidade local ou na cloud.
 
-1. Transfira o [ficheiro .pbix Exemplo de Análise de Revenda](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) e abra-o no Power BI Desktop. 
+1. Transfira o [ficheiro .pbix Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) e abra-o no Power BI Desktop. 
 
     ![Exemplo na vista de relatório do Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Para obter mais informações, veja:
 - [Exemplos para o serviço Power BI](sample-datasets.md)
 - [Origens de dados para o Power BI](service-get-data.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

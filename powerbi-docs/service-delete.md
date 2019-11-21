@@ -2,7 +2,6 @@
 title: Eliminar um dashboard, relatório, livro, conjunto de dados ou área de trabalho
 description: Saiba como eliminar praticamente qualquer coisa do Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872525"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar praticamente qualquer coisa no serviço Power BI
 Este artigo mostra como eliminar um dashboard, relatório, livro, conjunto de dados, aplicação, visualização e área de trabalho no serviço Power BI.
@@ -90,7 +89,7 @@ Se o conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organizac
 Como autor da área de trabalho, pode eliminá-la. Quando a eliminar, a aplicação associada também é eliminada para todos os membros do grupo e removida da sua AppSource se tiver publicado a aplicação para toda a organização. Eliminar uma área de trabalho é diferente de sair de uma área de trabalho.
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Eliminar uma área de trabalho – Administradores
-1. Na navegação à esquerda, selecione **Áreas de trabalho**
+1. No painel de navegação, selecione **Áreas de trabalho**
 
 2. Selecione **Mais opções** (...) à direita da área de trabalho a ser eliminada e selecione **Editar área de trabalho**.
 
@@ -125,7 +124,7 @@ As aplicações podem facilmente ser removidas da sua página da lista de aplica
 ### <a name="remove-an-app-from-your-app-list-page"></a>Remover uma aplicação da sua página de lista de aplicações
 Eliminar uma aplicação da página de lista de aplicações não elimina a aplicação para outros membros.
 
-1. Na navegação à esquerda, selecione **Aplicações** para abrir a página de lista de aplicações.
+1. No painel de navegação, selecione **Aplicações** para abrir a página de lista de aplicações.
 2. Passe o cursor sobre a aplicação para eliminar e selecione o ícone Eliminar ![](media/service-delete/power-bi-delete-report2.png).
 
    ![Selecionar aplicações](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ Este artigo abordou como eliminar os principais blocos modulares do serviço Pow
 * [Eliminar um mosaico de dashboard](service-dashboard-edit-tile.md)
 * [Eliminar uma visualização de relatório](service-delete.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

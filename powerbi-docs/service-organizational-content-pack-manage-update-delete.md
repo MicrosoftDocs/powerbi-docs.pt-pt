@@ -2,7 +2,6 @@
 title: 'Pacotes de conteúdos organizacionais: Gerir e atualizar'
 description: Leia sobre gestão, atualização e eliminação de pacotes de conteúdos organizacionais no Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431759"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881276"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gerir, atualizar e excluir pacotes de conteúdos organizacional
 > [!NOTE]
@@ -64,8 +63,8 @@ Outra modificação para criadores de pacotes de conteúdos está a expandir e a
    
    Para qualquer colaborador que não faça parte do novo alias:
    
-   * Para os membros do grupo que não personalizaram o pacote de conteúdos, o dashboard e os relatórios associados a esse pacote de conteúdos já não estarão disponíveis e o pacote de conteúdos não será apresentado no Painel de Navegação.
-   * Para os membros do grupo que personalizaram o pacote de conteúdos, a próxima vez que abrirem o dashboard personalizado, todos os mosaicos do pacote de conteúdos original desaparecerão.  Mas os mosaicos afixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdos original deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no painel de Navegação.   
+   * Para os membros do grupo que não personalizaram o pacote de conteúdos, o dashboard e os relatórios associados a esse pacote de conteúdos já não estarão disponíveis e o pacote de conteúdos não será apresentado no painel de navegação.
+   * Para os membros do grupo que personalizaram o pacote de conteúdos, a próxima vez que abrirem o dashboard personalizado, todos os mosaicos do pacote de conteúdos original desaparecerão.  Mas os mosaicos afixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdos original deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no painel de navegação.   
 
 ## <a name="refresh-an-organizational-content-pack"></a>Atualizar um pacote de conteúdos organizacional
 Como criador do pacote de conteúdos, pode [agendar a atualização dos conjuntos de dados](refresh-data.md).  Quando cria e carrega o pacote de conteúdos, essa agenda de atualização é carregada com os conjuntos de dados. Se alterar a agenda de atualização, precisará de publicar novamente o pacote de conteúdos (veja acima).
@@ -81,11 +80,11 @@ Só pode eliminar um pacote de conteúdos do AppSource se o tiver criado. Se tiv
 1. Para eliminar um pacote de conteúdos do AppSource, aceda à área de trabalho onde criou o pacote de conteúdos, selecione o ícone de engrenagem ![](media/service-organizational-content-pack-manage-update-delete/cog.png) e selecione **Ver Pacotes de Conteúdos**.
 2. Selecione **Eliminar \> Eliminar**. 
    
-   * Para os membros do grupo que não personalizaram o pacote de conteúdos, o dashboard e os relatórios associados a esse pacote de conteúdos serão removidos automaticamente. Eles deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no Painel de Navegação.
-   * Para os membros do grupo que personalizaram o pacote de conteúdos, a próxima vez que abrirem o dashboard personalizado, todos os mosaicos do pacote de conteúdos original desaparecerão.  Mas os mosaicos afixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdos original deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no painel de Navegação.   
+   * Para os membros do grupo que não personalizaram o pacote de conteúdos, o dashboard e os relatórios associados a esse pacote de conteúdos serão removidos automaticamente. Deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no painel de navegação.
+   * Para os membros do grupo que personalizaram o pacote de conteúdos, a próxima vez que abrirem o dashboard personalizado, todos os mosaicos do pacote de conteúdos original desaparecerão.  Mas os mosaicos afixados de outros relatórios ainda serão renderizados. Os relatórios e o conjunto de dados do pacote de conteúdos original deixarão de estar disponíveis, e o pacote de conteúdos não aparecerá no painel de navegação.   
 
 ## <a name="next-steps"></a>Próximos passos
 * [Introdução aos pacotes de conteúdos organizacionais](service-organizational-content-pack-introduction.md)
 * [Criar e distribuir uma aplicação no Power BI](service-create-distribute-apps.md) 
-* Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+* Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

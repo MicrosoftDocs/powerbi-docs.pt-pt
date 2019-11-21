@@ -2,26 +2,25 @@
 title: Tipos de visualização no Power BI
 description: Tipos de visualização no Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775949"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099931"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualização no Power BI
 ## <a name="power-bi-visualizations"></a>Visualizações do Power BI
 Estamos a adicionar novas visualizações, fique atento!
 
-E consulte o [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), onde encontrará uma lista cada vez maior dos [elementos visuais](../power-bi-custom-visuals.md) personalizados que pode transferir e utilizar nos seus próprios dashboards e relatórios. Sente-se criativo? [Saiba como criar e adicionar os seus próprios elementos visuais ao site da comunidade](../developer/office-store.md).  
+E consulte o [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), onde encontrará uma lista cada vez maior dos [elementos visuais](../developer/power-bi-custom-visuals.md) personalizados que pode transferir e utilizar nos seus próprios dashboards e relatórios. Sente-se criativo? [Saiba como criar e adicionar os seus próprios elementos visuais ao site da comunidade](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista das visualizações disponíveis no Power BI
 Todas estas visualizações podem ser adicionadas aos relatórios do Power BI, especificadas nas Perguntas e Respostas e afixadas a dashboards.
@@ -116,7 +115,7 @@ Para obter mais informações, veja [Sugestões e truques para elementos visuais
 
 Para obter mais informações, veja [Mapas ArcGIS no Power BI](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas de manchas (Coropleto)
+### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas preenchidos (Coropleto)
 ![mapa de manchas](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -226,8 +225,8 @@ Ao escrever consultas em linguagem natural com as Perguntas e Respostas do Power
 
 "***vendas por estado como um mapa de árvore***"
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Caixa de perguntas das Perguntas e Respostas a mostrar o tipo de visualização especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)    
-[A referência correta do elemento visual de sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[A referência correta do elemento visual de sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

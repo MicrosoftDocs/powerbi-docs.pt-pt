@@ -1,8 +1,7 @@
 ---
-title: Descrição geral da acessibilidade no Power BI
+title: Overview of accessibility in Power BI (Descrição geral da acessibilidade no Power BI)
 description: Funcionalidades e sugestões para criar relatórios do Power BI Desktop acessíveis
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180982"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878900"
 ---
-# <a name="overview-of-accessibility-in-power-bi"></a>Descrição geral da acessibilidade no Power BI
+# <a name="overview-of-accessibility-in-power-bi"></a>Overview of accessibility in Power BI (Descrição geral da acessibilidade no Power BI)
 Ao trabalhar com o Power BI, é importante considerar os diferentes tipos de utilizadores que podem estar a interagir com os seus relatórios. Criar e apresentar relatórios de fácil navegação e compreensão para utilizadores de teclado ou leitor de ecrã permite que os utilizadores que tenham deficiências visuais ou físicas recebam as mesmas informações.
 
 ![Definições de alto contraste do Windows](media/desktop-accessibility/accessibility-05b.png)
@@ -30,10 +29,10 @@ O design universal é o design de produtos que podem ser utilizados por tantas p
 
 ## <a name="accessibility-standards"></a>Normas de acessibilidade
 
-O Power BI está em conformidade com as seguintes normas de acessibilidade.  Isto ajuda a garantir que as suas experiências do Power BI são acessíveis para o máximo de pessoas possível.
+O Power BI está em conformidade com as seguintes normas de acessibilidade.  Isto ajuda a garantir que as suas experiências do Power BI são acessíveis para o máximo de pessoas possível.
 
 ### <a name="wcag-21"></a>WCAG 2.1
-O Power BI cumpre as diretrizes da WCAG (Web Content Accessibility) 2.1. Há três princípios-chave na WCAG:
+A Diretrizes de Acessibilidade para o Conteúdo da Web (WCAG) ajuda a tornar o conteúdo Web acessível a pessoas com deficiências. Há três princípios-chave na WCAG:
 
 1. **Percetível** – os componentes da interface do utilizador e as informações devem ser apresentados aos utilizadores de forma percetível.
 2. **Operável** – os componentes da interface do utilizador e a navegação devem ser operáveis.

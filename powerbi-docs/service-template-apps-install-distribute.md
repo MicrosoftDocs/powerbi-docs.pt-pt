@@ -2,19 +2,18 @@
 title: Distribuir aplicações de modelo na sua organização – Power BI
 description: Aprenda a instalar, personalizar e distribuir aplicações de modelo na sua organização com o Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432331"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871430"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicações de modelo na sua organização – Power BI
 
@@ -45,7 +44,7 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Procurar no AppSource a partir do serviço Power BI
 
-1. No painel de navegação esquerdo do serviço Power BI, selecione **Aplicações** > **Obter aplicações**.
+1. No painel de navegação do serviço Power BI, selecione **Aplicações** > **Obter aplicações**.
 
     ![Obter aplicações](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ Num browser, selecione a seguinte ligação para abrir o AppSource filtrado para
     - **Ligar dados**: altere a origem de dados dos dados de exemplo para a sua própria origem de dados. Pode redefinir os parâmetros do conjunto de dados e as credenciais da origem de dados. Veja a secção [Limitações conhecidas](service-template-apps-tips.md#known-limitations) no artigo de sugestões sobre as aplicações de modelo. 
     - **Ir para a área de trabalho** (opção mais avançada): pode fazer todas as alterações permitidas pelo criador da aplicação.
 
-    Em alternativa, ignore esta caixa de diálogo e aceda à área de trabalho diretamente através da opção **Áreas de trabalho** no painel de navegação esquerdo.
+    Em alternativa, ignore esta caixa de diálogo e aceda à área de trabalho diretamente através da opção **Áreas de trabalho** no painel de navegação.
     >[!NOTE]
     >Instalar uma aplicação de modelo instalada numa *aplicação organizacional* e numa *área de trabalho*. Leia mais sobre a [distribuição de aplicações no Power BI](service-create-distribute-apps.md).
  

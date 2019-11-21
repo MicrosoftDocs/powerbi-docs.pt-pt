@@ -2,7 +2,6 @@
 title: Procurar e ordenar os seus conteúdos no serviço Power BI
 description: documentação para procurar e ordenar conteúdos nas minhas áreas de trabalho do Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891773"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861742"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisar, localizar e ordenar conteúdo no serviço Power BI
 
@@ -47,10 +46,10 @@ Também pode ordenar o conteúdo por nome ou proprietário. Repare na seta para 
 Nem todas as colunas podem ser ordenadas. Paire o cursor sobre os cabeçalhos de coluna para descobrir quais podem ser ordenados.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>Navegação com o painel de navegação
+## <a name="navigation-using-the-nav-pane"></a>Navegação com o painel de navegação
 O painel de navegação classifica os conteúdos de forma a ajudá-lo a encontrar rapidamente o que precisa.  
 
-![painel de navegação esquerdo](./media/end-user-search-sort/power-bi-navbar.png)
+![painel de navegação](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - O conteúdo partilhado consigo está disponível em **Partilhado comigo**.
@@ -58,7 +57,7 @@ O painel de navegação classifica os conteúdos de forma a ajudá-lo a encontra
 - As suas aplicações podem ser encontradas ao selecionar **Aplicações**.
 - **Página Base** é uma vista de página única do conteúdo mais importante e de conteúdo sugerido e fontes de aprendizagem.
 
-Além disso, pode sinalizar conteúdo como [favorito](end-user-favorite.md) e [em destaque](end-user-featured.md). Escolha o dashboard ou o relatório que espera ver com mais frequência e defina-o como o conteúdo *em destaque*. Sempre que abrir o serviço Power BI, o dashboard em destaque será apresentado primeiro. Tem vários dashboards e aplicações que visita mais frequentemente? Se os definir como favoritos, estarão sempre disponíveis na barra de navegação esquerda.
+Além disso, pode sinalizar conteúdo como [favorito](end-user-favorite.md) e [em destaque](end-user-featured.md). Escolha o dashboard ou o relatório que espera ver com mais frequência e defina-o como o conteúdo *em destaque*. Sempre que abrir o serviço Power BI, o dashboard em destaque será apresentado primeiro. Tem vários dashboards e aplicações que visita mais frequentemente? Se os definir como favoritos, estarão sempre disponíveis no painel de navegação.
 
 ![Lista de opções Favoritos](./media/end-user-search-sort/power-bi-favorite.png).
 
@@ -70,4 +69,4 @@ Além disso, pode sinalizar conteúdo como [favorito](end-user-favorite.md) e [e
 ## <a name="next-steps"></a>Próximos passos
 [Ordenar os elementos visuais em relatórios](end-user-change-sort.md)
 
-Mais perguntas? [Pergunte à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

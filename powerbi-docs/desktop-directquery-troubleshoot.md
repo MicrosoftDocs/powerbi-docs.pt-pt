@@ -2,19 +2,18 @@
 title: DirectQuery model troubleshooting in Power BI Desktop (Resolver problemas com o modelo DirectQuery no Power BI Desktop)
 description: Resolva problemas do modelo do DirectQuery.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432963"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868054"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>DirectQuery model troubleshooting in Power BI Desktop (Resolver problemas com o modelo DirectQuery no Power BI Desktop)
 
@@ -92,7 +91,7 @@ A abordagem recomendada para capturar um rastreio que ajude a diagnosticar poten
 - Abra o SQL Server Profiler e examine o rastreio, conforme descrito anteriormente. Lembre-se de que o ficheiro de rastreio vai ser eliminado depois de fechar o Power BI Desktop. Além disso, não serão apresentadas imediatamente mais ações efetuadas no Power BI Desktop. Para ver os novos eventos, deverá fechar e voltar a abrir o ficheiro de rastreio.
 - Mantenha as sessões individuais razoavelmente pequenas (dez segundos de ações em vez de centenas de segundos), para facilitar a interpretação do ficheiro de rastreio (como existe um limite para o tamanho deste ficheiro, é possível que em sessões longas os primeiros eventos sejam eliminados).
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>Compreender o formato de consulta enviada pelo Power BI Desktop
+## <a name="understand-queries-sent-to-the-source"></a>Compreender as consultas enviadas para a origem
 
 O formato geral das consultas geradas e enviadas pelo Power BI Desktop utiliza subconsultas para cada uma das tabelas de modelo referenciadas, em que a subconsulta é definida pela consulta do Power Query. Por exemplo, imaginemos as seguintes tabelas TPC-DS numa base de dados relacional do SQL Server:
 

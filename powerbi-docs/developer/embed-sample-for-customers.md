@@ -3,19 +3,18 @@ title: Análise incorporada para incorporar conteúdo do Power BI na aplicação
 description: Saiba como integrar ou incorporar um relatório, dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para os seus clientes. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429669"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877700"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -120,7 +119,7 @@ Para obter o **applicationId**, siga estes passos:
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação à esquerda, selecione **Todos os serviços** e **Registos de aplicações**.
+2. No painel de navegação esquerdo, selecione **Todos os Serviços** e **Registos de Aplicações**.
 
     ![Pesquisa de registo de aplicações](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -187,7 +186,7 @@ Para obter o **ApplicationSecret**, siga estes passos:
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação à esquerda, selecione **Todos os serviços** e, em seguida, **Registos de aplicações**.
+2. No painel de navegação esquerdo, selecione **Todos os serviços** e, em seguida, **Registos de aplicações**.
 
     ![Pesquisa de registo de aplicações](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -460,4 +459,4 @@ Neste tutorial, aprendeu como incorporar conteúdos do Power BI numa aplicação
 > [!div class="nextstepaction"]
 >[Incorporar para a sua organização](embed-sample-for-your-organization.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

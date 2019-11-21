@@ -3,19 +3,18 @@ title: Análise incorporada para incorporar conteúdo do Power BI na aplicação
 description: Saiba como integrar ou incorporar um relatório (do Power BI ou Paginado), dashboard ou mosaico numa aplicação com as APIs do Power BI para análise incorporada para a sua organização. Saiba como integrar o Power BI na sua aplicação com o software de análise incorporada, ferramentas de análise incorporada ou ferramentas de business intelligence incorporada.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431078"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876004"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Incorporar conteúdos do Power BI numa aplicação para a sua organização
 
@@ -118,7 +117,7 @@ Para obter o **applicationId**, siga estes passos:
 
 1. Inicie sessão no [portal do Azure](https://portal.azure.com).
 
-2. No painel de navegação à esquerda, selecione **Todos os serviços** e **Registos de aplicações**.
+2. No painel de navegação esquerdo, selecione **Todos os Serviços** e **Registos de Aplicações**.
 
 3. Selecione a aplicação que precisa do **applicationId**.
 
@@ -429,4 +428,4 @@ Neste tutorial, aprendeu a incorporar conteúdos do Power BI numa aplicação co
 > [!div class="nextstepaction"]
 >[Incorporar para os seus clientes](embed-sample-for-customers.md)
 
-Se tiver mais perguntas, [experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/).
+Se tiver mais perguntas, [experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/).

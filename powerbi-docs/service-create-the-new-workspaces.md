@@ -2,7 +2,6 @@
 title: Criar as novas áreas de trabalho – Power BI
 description: Saiba como criar as novas áreas de trabalho, coleções de dashboards, relatórios e relatórios paginados criados para fornecer métricas importantes à sua organização.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877525"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
 
@@ -74,7 +73,7 @@ Pode especificar os utilizadores que receberão notificações sobre problemas q
 
     No painel **Criar uma área de trabalho** quando a cria pela primeira vez.
 
-    No painel de navegação esquerdo, selecione a seta junto a **Áreas de Trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
+    No painel de navegação, selecione a seta junto a **Áreas de trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
 
     ![Definições da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +93,7 @@ O Power BI não sincroniza as permissões de utilizadores ou grupos que estão 
 
     No painel **Criar uma área de trabalho** quando a cria pela primeira vez.
 
-    No painel de navegação esquerdo, selecione a seta junto a **Áreas de Trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
+    No painel de navegação, selecione a seta junto a **Áreas de trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
 
     ![Definições da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -145,4 +144,4 @@ Leia sobre como [publicar uma aplicação com base nas novas áreas de trabalho]
 * Leia mais no artigo [Organizar o trabalho na nova experiência de áreas de trabalho no Power BI](service-new-workspaces.md)
 * [Criar as áreas de trabalho clássicas](service-create-workspaces.md)
 * [Publicar uma aplicação a partir das novas áreas de trabalho no Power BI](service-create-distribute-apps.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

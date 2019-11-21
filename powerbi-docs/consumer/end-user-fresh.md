@@ -2,7 +2,6 @@
 title: Como o Power BI garante que os seus conteúdos estão atualizados
 description: Saiba como o Power BI garante que está a trabalhar com a versão mais recente dos dados, relatório, dashboard e aplicação.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019784"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863868"
 ---
 # <a name="your-content-is-up-to-date"></a>Os seus conteúdos estão atualizados
 
@@ -43,9 +42,9 @@ O nome do proprietário está disponível na barra de título de dashboards e re
 
 O ecrã da aplicação apresenta o nome do criador e a data em que a aplicação foi atualizada pela última vez.  
 
-1. No painel de navegação esquerdo, selecione **Aplicações**.
+1. No painel de navegação, selecione **Aplicações**.
 
-    ![painel de navegação esquerdo](media/end-user-fresh/power-bi-nav-app.png)
+    ![painel de navegação](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ O painel **Conteúdo relacionado** apresenta as informações da última atualiz
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>O que acontece se uma aplicação for eliminada pelo criador
 
-Se um criador eliminar uma aplicação, os dashboard e os relatórios associados com a mesma serão removidos automaticamente da sua área de trabalho do Power BI. Deixarão de estar disponíveis e a aplicação não aparecerá no contentor Aplicações ou noutro lugar na barra de navegação.
+Se um criador eliminar uma aplicação, os dashboard e os relatórios associados com a mesma serão removidos automaticamente da sua área de trabalho do Power BI. Deixarão de estar disponíveis e a aplicação não aparecerá no contentor Aplicações nem em qualquer outro lugar no painel de navegação.
 
 
 ## <a name="subscribe-to-see-changes"></a>Subscrever para ver alterações

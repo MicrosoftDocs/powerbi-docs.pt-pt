@@ -2,7 +2,6 @@
 title: Modo de detalhe e modo de ecrã inteiro – como ampliar para ver mais detalhes
 description: Documentação para apresentar um dashboard, um mosaico do dashboard, um relatório ou um elemento visual de relatório do Power BI no modo de detalhe ou no modo de ecrã inteiro
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019810"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852754"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
 
@@ -38,7 +37,7 @@ O modo de detalhe e o modo de ecrã inteiro são duas formas diferentes de ver m
 
 ![dashboard no modo de ecrã inteiro, antes e depois](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Mostre os seus conteúdos do serviço Power BI (dashboards, páginas, mosaicos e elementos visuais de relatórios) sem a distração dos menus e das barras de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Por vezes, esta vista é denominada Modo de TV.   
+Mostre os conteúdos do serviço Power BI (dashboards, páginas, mosaicos e elementos visuais de relatórios) sem a distração dos menus e dos painéis de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Por vezes, esta vista é denominada Modo de TV.   
 
 Para abrir o modo de ecrã inteiro, selecione o ícone **ecrã inteiro** ![ícone de ecrã inteiro ](media/end-user-focus/power-bi-full-screen-icon.png) na barra de menus do serviço Power BI acima do dashboard, do relatório, do mosaico no modo de detalhe ou do elemento visual no modo de detalhe.  O conteúdo selecionado ocupa o ecrã inteiro.
 Se estiver a utilizar o Power BI móvel, o [ecrã inteiro está disponível para as aplicações móveis do Windows 10](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -60,7 +59,7 @@ No modo de detalhe, um *consumidor* do Power BI pode interagir com quaisquer fi
 
 ## <a name="working-in-full-screen-mode"></a>Trabalhar no modo de ecrã inteiro
 
-Para abrir a página de um dashboard ou relatório no modo de ecrã inteiro, selecione o ícone de ecrã inteiro ![ícone de ecrã inteiro](media/end-user-focus/power-bi-full-screen-icon.png) na barra de navegação superior. Assim que estiver no modo de ecrã inteiro, mover o rato ou cursor apresenta um menu contextual. Como o ecrã inteiro está disponível para uma grande variedade de conteúdos, as opções do menu contextual são todas um pouco diferentes, mas bastante explícitas.  Basta pairar o cursor sobre um ícone para obter uma definição.
+Para abrir a página de um dashboard ou relatório no modo de ecrã inteiro, selecione o ícone de ecrã inteiro ![ícone de ecrã inteiro](media/end-user-focus/power-bi-full-screen-icon.png) no painel de navegação superior. Assim que estiver no modo de ecrã inteiro, mover o rato ou cursor apresenta um menu contextual. Como o ecrã inteiro está disponível para uma grande variedade de conteúdos, as opções do menu contextual são todas um pouco diferentes, mas bastante explícitas.  Basta pairar o cursor sobre um ícone para obter uma definição.
 
 Menu para dashboards    
 ![Menu para dashboards](media/end-user-focus/power-bi-full-screen-dash.png)    

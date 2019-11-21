@@ -2,7 +2,6 @@
 title: Gerir o armazenamento de dados nas suas áreas de trabalho
 description: Saiba como pode gerir o armazenamento de dados na sua área de trabalho individual para certificar-se de que pode continuar a publicar relatórios e conjuntos de dados.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431381"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873646"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gerir o armazenamento de dados nas áreas de trabalho do Power BI
 
@@ -46,7 +45,7 @@ O tamanho de um dashboard que partilha varia consoante o que está afixado ao me
 
 Veja a quantidade de armazenamento de dados que está a utilizar na sua conta do Power BI e faça a gestão da sua conta.
 
-1. Para gerir o seu próprio armazenamento, aceda a **A Minha Área de Trabalho** no painel de navegação à esquerda.
+1. Para gerir o seu próprio armazenamento, aceda a **A Minha Área de Trabalho** no painel de navegação.
    
     ![A Minha Área de Trabalho](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. Selecione o ícone de engrenagem ![Ícone de engrenagem](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) no canto superior direito\> **Gerir armazenamento pessoal**.
@@ -104,5 +103,5 @@ Este limite também é indicado em **Gerir armazenamento pessoal**.
 
  ![Excedeu o limite de armazenamento](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+ Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

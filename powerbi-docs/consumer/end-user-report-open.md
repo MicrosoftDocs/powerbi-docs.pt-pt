@@ -2,19 +2,18 @@
 title: Ver um relatório
 description: Este tópico mostra os consumidores e os utilizadores finais do Power BI que tiveram de abrir e ver um relatório do Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019478"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861975"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 
@@ -33,11 +32,11 @@ Vamos abrir um relatório que foi partilhado consigo diretamente e, em seguida, 
    ![Página Base](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que tenha sido partilhado consigo
-Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la automaticamente. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** na barra de navegação e na secção **Partilhado comigo** da tela Home Page.
+Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la automaticamente. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** no painel de navegação e na secção **Partilhado comigo** da tela Home Page.
 
 1. Abra o serviço Power BI (app.powerbi.com).
 
-2. Na barra de navegação, selecione **Home Page** para que lhe seja apresentada a tela Home Page.  
+2. No painel de navegação, selecione **Home Page** para visualizar a tela Home Page.  
 
    ![Tela Home Page](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Os *designers* do Power BI podem partilhar um relatório individual diretamente
    ![ajustar à página](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Abrir um relatório que faz parte de uma aplicação
-Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações estarão disponíveis na Home Page e no contentor **Aplicações** na sua barra de navegação. Uma [aplicação](end-user-apps.md) é um grupo de dashboards e relatórios.
+Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações estarão disponíveis na Home Page e no contentor **Aplicações** no painel de navegação. Uma [aplicação](end-user-apps.md) é um grupo de dashboards e relatórios.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Para acompanhar, transfira a aplicação Vendas e Marketing.
@@ -75,7 +74,7 @@ Para acompanhar, transfira a aplicação Vendas e Marketing.
 1. Selecione **Obter agora** > **Continuar** > **Instalar** para instalar a aplicação no Contentor de aplicações. 
 
 Pode abrir a aplicação a partir do Contentor de aplicações ou a partir da Home Page.
-1. Volte para a Home Page ao selecionar **Home Page** na barra de navegação.
+1. Volte para a Home Page ao selecionar **Home Page** no painel de navegação.
 
 7. Desloque para baixo até ver **As Minhas Aplicações**.
 

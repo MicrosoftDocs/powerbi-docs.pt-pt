@@ -3,7 +3,6 @@ title: O que é o Microsoft Power BI Premium?
 description: O Power BI Premium fornece capacidades dedicadas para a sua organização, oferecendo desempenho mais fiável e maiores volumes de dados sem exigir a compra de licenças por utilizador.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431645"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871812"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -166,9 +165,9 @@ Dependendo do SKU, o Power BI Premium suporta carregar ficheiros do modelo do Po
 
 ### <a name="size-considerations"></a>Considerações sobre o tamanho
 
-Os modelos de grandes dimensões podem exigir bastantes recursos. Deve ter pelo menos um SKU P1 para os modelos superiores a 1 GB. Embora a publicação de modelos de grandes dimensões em áreas de trabalho suportadas por SKUs A até ao A3 possa funcionar, não poderá atualizá-los.
+Os conjuntos de dados de grandes dimensões podem exigir bastantes recursos. Deve ter, pelo menos, um SKU P1 para os conjuntos de dados superiores a 1 GB. Embora a publicação de conjuntos de dados de grandes dimensões em áreas de trabalho suportadas por SKUs A até ao A3 possa funcionar, não poderá atualizá-los.
 
-A seguinte tabela descreve os SKUs recomendados para vários tamanhos de ficheiro .pbix:
+A tabela seguinte mostra os SKUs recomendados para o carregamento do ficheiro .pbix ou a publicação no serviço Power BI:
 
    |SKU  |Tamanho do ficheiro .pbix   |
    |---------|---------|
@@ -176,9 +175,11 @@ A seguinte tabela descreve os SKUs recomendados para vários tamanhos de ficheir
    |P2    | < 6 GB        |
    |P3, P4 e P5    | até 10 GB   |
 
-O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3. A publicação de modelos grandes em SKUs A e EM poderá devolver erros que não são específicos ao erro de limitação do tamanho dos modelos na capacidade partilhada. É provável que os erros de atualização de modelos grandes em SKUs A e EM indiquem limites de tempo excedidos como a causa. 
+O SKU A4 do Power BI Embedded é igual ao SKU P1, A5 = P2 e A6 = P3. A publicação de conjuntos de dados em SKUs A e EM poderá devolver erros que não são específicos ao erro de limitação do tamanho dos modelos na capacidade partilhada. É provável que os erros de atualização dos conjuntos de dados em SKUs A e EM indiquem limites de tempo excedidos como a causa.
 
-Os seus ficheiros .pbix representam dados num *estado altamente comprimido*. Provavelmente, os dados serão expandidos várias vezes quando forem carregados na memória. A partir daí, poderão ser expandidos mais algumas vezes durante a atualização de dados.
+Se ativar [modelos grandes](service-premium-large-models.md) num conjunto de dados, as limitações de tamanho do ficheiro .pbix continuarão a ser aplicáveis à publicação ou à transferência de ficheiros. No entanto, com a atualização incremental e os modelos grandes combinados, os conjuntos de dados podem crescer para lá desses limites. Com modelos grandes, o tamanho do conjunto de dados é limitado apenas pelo tamanho da capacidade do Power BI Premium.
+
+Os seus ficheiros .pbix representam dados num *estado altamente comprimido*. Provavelmente, os dados serão expandidos quando forem carregados na memória. A partir daí, poderão ser expandidos mais algumas vezes durante a atualização de dados.
 
 A atualização agendada de conjuntos de dados de grandes dimensões pode demorar muito tempo e exigir bastantes recursos. É importante que não agende demasiadas atualizações sobrepostas. É recomendável configurar a [atualização incremental](service-premium-incremental-refresh.md) porque é mais rápida e fiável e consome menos recursos.
 

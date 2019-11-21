@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429871"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764718"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -68,7 +68,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **connect live (ligar em direto)** Um método de ligação a modelos de dados do SQL Server Analysis Services. Também denominado ligação em direto.
 
-**container (contentor)** As áreas na barra de navegação são *contentores*. Na barra de navegação, encontrará contentores para: Favoritos, Recentes, Aplicações, Partilhado comigo e Home Page. 
+**contentor** As áreas no painel de navegação são *contentores*. No painel de navegação, encontrará contentores para: Favoritos, Recentes, Aplicações, Partilhado comigo e Home Page. 
 
 **content (conteúdo)** Os conteúdos do serviço Power BI são geralmente dashboards, relatórios e aplicações. Também pode incluir livros e conjuntos de valores.
 
@@ -162,12 +162,12 @@ Não há problema em utilizar o ambiente do Power BI (inquilino) na documentaç�
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (navegação à esquerda (nav esq))** Foi substituído por **barra nav**, mas ainda pode aparecer em alguma documentação.    
+**navegação do lado esquerdo (nav esq)** Foi substituído por **painel de navegação**, mas ainda pode aparecer em alguma documentação.    
 Os controlos na margem esquerda do serviço Power BI.
 
-Primeira instância: navegação à esquerda Menções subsequentes ou em pouco espaço: nav esq
+Primeira instância: painel de navegação. Menções subsequentes ou com pouco espaço: painel nav
 
-**list page (página de lista)** ou **lista de conteúdo** Uma das páginas de secção para os elementos na navegação à esquerda. Por exemplo, Favoritos, Recentes, A minha área de trabalho, etc.
+**página de lista** ou **lista de conteúdo** Uma das páginas de secção dos elementos no painel de navegação. Por exemplo, Favoritos, Recentes, A minha área de trabalho, etc.
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Primeira instância: navegação à esquerda Menções subsequentes ou em pouco 
 
 **native (nativo)** Incluído com o produto. Por exemplo, o Power BI vem com um conjunto de tipos de visualização *nativos*. Mas também pode importar outros tipos, como os elementos visuais personalizados.
 
-**barra de navegação** ou **barra nav** Os controlos na margem esquerda do serviço Power BI.
+**painel de navegação** ou **painel nav** Os controlos na margem esquerda do serviço Power BI.
 
-Primeira instância: barra de navegação: Menções subsequentes ou em pouco espaço: barra nav
+Primeira instância: painel de navegação. Menções subsequentes ou com pouco espaço: painel nav
 
-**navigation pane (painel de navegação)** Ver **navigation bar (barra de navegação)**
+**painel nav** Veja **painel de navegação**
 
 **notification (notificação)** As mensagens enviadas por e para o Centro de Notificações do Power BI.  
 
@@ -260,7 +260,7 @@ A adicionar a um URL para pré-filtrar os resultados vistos num relatório do Po
 
 **real-time streaming (transmissão em fluxo em tempo real)** A capacidade de transmitir em fluxo de dados e de atualizar dashboards em tempo real, a partir de fontes, como sensores, redes sociais, métricas de utilização e de tudo o resto a partir do qual dados sensíveis ao tempo podem ser recolhidos ou transmitidos.  
 
-**Recent (Recentes)** O contentor na navegação esquerda, que contém todos os artefactos individuais que foram acedidos pela última vez.
+**Recentes** O contentor no painel de navegação, que contém todos os artefactos individuais que foram acedidos mais recentemente.
 
 **related content (conteúdo relacionado)** Mostra as partes individuais de conteúdo que contribuem para o conteúdo atual. Por exemplo, para um dashboard, pode ver os relatórios e conjuntos de dados que disponibilizam os dados e as visualizações no dashboard.   
 
@@ -288,7 +288,7 @@ A adicionar a um URL para pré-filtrar os resultados vistos num relatório do Po
 **share, sharing (partilha, partilhar)** No Power BI, normalmente, significa que partilha diretamente um artefato individual (um dashboard ou relatório) com uma ou mais pessoas através do respetivo endereço de e-mail. Requer uma licença do Power BI Pro para o remetente e o destinatário.
 Em dispositivos móveis, partilha pode referir-se à funcionalidade de partilha de sistema operativo nativo, como "anotar e partilhar".  
 
-**Shared with me (Partilhado comigo)** O contentor na navegação esquerda, que contém todos os artefactos individuais que foram partilhados diretamente por outro utilizador do Power BI.
+**Partilhado comigo** O contentor no painel de navegação, que contém todos os artefactos individuais que foram partilhados diretamente por outro utilizador do Power BI.
 
 **snapshot (instantâneo)**
 
@@ -299,7 +299,7 @@ Em dispositivos móveis, partilha pode referir-se à funcionalidade de partilha 
 
 **streaming data (dados de transmissão em fluxo)** Ver *transmissão em fluxo em tempo real*.
 
-**subscriptions (subscrições)**, **Subscrever**  
+**subscriptions (subscrições)** , **Subscrever**  
 Pode subscrever páginas, aplicações e dashboards de relatórios e receber e-mails que contenham um instantâneo. Requer uma licença do Power BI Pro.
 
 **summarization (resumo)** [Power BI Desktop] A operação a ser aplicada aos valores numa coluna.

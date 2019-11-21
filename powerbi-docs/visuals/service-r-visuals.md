@@ -1,23 +1,25 @@
 ---
 title: Criar análises e visualizações avançadas com scripts R
-description: Utilizar scripts R no Power BI para criar análises e visualizações avançadas
+description: Utilizar scripts R no Power BI Desktop para criar análises e visualizações avançadas
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655011"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099890"
 ---
-# <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar elementos visuais R no serviço Power BI
+# <a name="r-visuals-in-power-bi"></a>Elementos visuais R no Power BI
+Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../desktop-r-visuals.md).
+
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Ver elementos visuais R no serviço Power BI
 O serviço Power BI suporta a visualização e interação com elementos visuais criados com scripts R. Os elementos visuais criados com scripts R, geralmente denominados *elementos visuais R*, podem apresentar formação e análise de dados avançadas, como previsão, ao utilizar o poder avançado de análise e visualização da linguagem R.
 
 > [!NOTE]
@@ -27,23 +29,23 @@ O serviço Power BI suporta a visualização e interação com elementos visuais
 
 A imagem seguinte mostra um dashboard do Power BI com uma coleção de elementos visuais R utilizados para análise avançada.
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Captura de ecrã a mostrar a tela de relatório do serviço Power BI](media/service-r-visuals/power-bi-r-visuals.png)
 
 Os elementos visuais R são criados num [relatório do Power BI Desktop](../desktop-get-the-desktop.md), tal como o relatório mostrado na imagem seguinte.
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![Relatório de Ambiente de trabalho com dois elementos visuais](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-Assim que o relatório for criado no **Power BI Desktop**, pode publicar o relatório que contém um ou mais elementos visuais R no serviço Power BI. Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI através da linguagem R (Power BI Desktop)](../desktop-r-visuals.md).
+Assim que o relatório for criado no **Power BI Desktop**, pode publicar o relatório que contém um ou mais elementos visuais R no serviço Power BI. 
 
-Tenha em atenção que o serviço não suporta todos os pacotes R. Obtenha a lista de pacotes atualmente suportados no serviço Power BI no final deste artigo.
+ Tenha em atenção que o serviço não suporta todos os pacotes R. Obtenha a lista de pacotes atualmente suportados no serviço Power BI no final deste artigo.
 
-Pode transferir este [ficheiro de exemplo do Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (ficheiro .pbix) que contém alguns elementos visuais R para ver como tudo funciona e experimentar.
+Pode transferir este [ficheiro de exemplo do Power BI Desktop](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (ficheiro .pbix) que contém alguns elementos visuais R para ver como tudo funciona e experimentar.
 
 Os elementos visuais R criados no **Power BI Desktop** e publicados no serviço Power BI, na maior parte dos casos, comportam-se como qualquer outro elemento visual no serviço Power BI; pode interagir, filtrar, dividir por setores e afixar a um dashboard ou partilhá-los com outras pessoas. Para obter mais informações sobre como partilhar dashboards e elementos visuais, veja [Partilhar um dashboard com colegas e outras pessoas](../service-share-dashboards.md). Uma diferença dos outros elementos visuais é que os elementos visuais R não podem mostrar sugestões nem ser utilizados para filtrar outros elementos visuais.
 
 Como pode ver na imagem seguinte, os elementos visuais R no serviço Power BI, em dashboards ou relatórios, na sua maioria, são apresentados e comportam-se como qualquer outro elemento visual e os utilizadores não precisam de considerar o script R subjacente que criou o elemento visual.
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![captura de ecrã da página de relatório no serviço Power BI](media/service-r-visuals/power-bi-r-visual.png)
 
 ## <a name="r-scripts-security"></a>Segurança dos scripts R
 Os elementos visuais R são criados a partir de scripts R, os quais podem conter potencialmente código com riscos de segurança ou privacidade.
@@ -57,11 +59,11 @@ Esta abordagem de *sandbox* impõe algumas restrições aos scripts R em execuç
 ## <a name="r-scripts-error-experience"></a>Experiência de erro de scripts R
 Quando um script R encontra um erro, o elemento visual R não é desenhado e é apresentada uma mensagem de erro. Para obter detalhes sobre o erro, selecione **Ver detalhes** no erro do elemento visual R na tela, conforme mostrado na imagem seguinte.
 
-![](media/service-r-visuals/r-visuals-service_4.png)
+![mensagem de erro](media/service-r-visuals/r-visuals-service-4.png)
 
 Como outro exemplo, a imagem seguinte mostra a mensagem de erro apresentada quando um script R não foi executado corretamente devido a um pacote R em falta no Azure.
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![Captura de ecrã a mostrar um erro de runtime](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>Licensing
 Os elementos visuais R requerem uma licença do [Power BI Pro](../service-self-service-signup-for-power-bi.md) para composição em relatórios, atualização, filtro e filtro cruzado. Para obter mais informações sobre as licenças do Power BI Pro e como diferem das licenças gratuitas, veja [Conteúdo do Power BI Pro - o que é isto?](../service-admin-purchasing-power-bi-pro.md)
@@ -83,7 +85,7 @@ A tabela seguinte descreve as capacidades dos elementos visuais R com base no li
 ## <a name="known-limitations"></a>Limitações Conhecidas
 Os elementos visuais R no serviço Power BI têm algumas limitações:
 
-* O suporte de elementos visuais R está limitado aos pacotes identificados na página seguinte <make this a link to the supported packages page per my excel>. Atualmente, não existe suporte de pacotes personalizados.
+* O suporte para os elementos visuais R está limitado aos pacotes identificados em [Saiba quais os pacotes R suportados](../service-r-packages-support.md). Atualmente, não existe suporte de pacotes personalizados.
 * Limitações de tamanho de dados – os dados utilizados pelo elemento visual do R para desenhar são limitados a 150.000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas as primeiras 150.000 linhas serão utilizadas e uma mensagem será apresentada na imagem.
 * Limite de tempo de cálculo – se um cálculo do elemento visual R exceder 60 segundos, o script atinge o tempo limite, resultando num erro.
 * Os elementos visuais do R são atualizados após atualizações, filtragem e destaque de dados. No entanto, a imagem propriamente dita não é interativa e não suporta sugestões.

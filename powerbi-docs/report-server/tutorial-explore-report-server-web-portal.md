@@ -2,19 +2,18 @@
 title: 'Tutorial: Explorar o Power BI Report Server numa VM'
 description: Neste tutorial, vai criar uma máquina virtual com o Power BI Report Server já instalado e explorar o portal Web.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021632"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859261"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal Web do Power BI Report Server numa VM
 Neste tutorial, vai criar uma máquina virtual do Azure com o Power BI Report Server já instalado, para poder experimentar a visualização, edição e gestão de relatórios paginados e do Power BI de exemplo, e KPIs.
@@ -72,7 +71,7 @@ Felizmente, a equipa do Power BI criou uma VM que inclui um Power BI Report Se
 
 ## <a name="connect-to-your-virtual-machine"></a>Ligar-se à sua máquina virtual
 
-1. No painel de navegação à esquerda do Azure, selecione **Máquinas virtuais**. 
+1. No painel de navegação do Azure, selecione **Máquinas virtuais**. 
 
 2. Na caixa **Filtrar por nome**, introduza “relatório”. 
 
@@ -108,7 +107,7 @@ Quando abre a sua VM, estes são os itens que aparecem no ambiente de trabalho.
 |![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre o portal Web do Power BI Report Server no browser |
 |![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia o SQL Server Data Tools para criar relatórios paginados (.RDL) |
 
-Faça duplo clique no ícone **Portal Web do Report Server**. O browser abre `http://localhost/reports/browse`. No portal Web, pode ver vários ficheiros agrupados por tipo. 
+Faça duplo clique no ícone **Portal Web do Report Server**. O browser abre `https://localhost/reports/browse`. No portal Web, pode ver vários ficheiros agrupados por tipo. 
 
 ![Portal Web do Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
@@ -125,7 +124,7 @@ Faça duplo clique no ícone **Portal Web do Report Server**. O browser abre `ht
 ## <a name="tag-your-favorites"></a>Etiquetar os favoritos
 Pode etiquetar os relatórios e KPIs que quer que sejam favoritos. São mais fáceis de localizar porque estão todos numa única pasta Favoritos, tanto no portal Web como nas aplicações móveis do Power BI. 
 
-1. Selecione as reticências (**…**) no canto superior direito da **Margem de Lucro** KPI > **Adicionar aos Favoritos**.
+1. Selecione as reticências ( **…** ) no canto superior direito da **Margem de Lucro** KPI > **Adicionar aos Favoritos**.
    
     ![Adicionar aos Favoritos](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Selecione **Favoritos** no friso do portal Web para vê-lo juntamente com os outros favoritos na página Favoritos no portal Web.

@@ -2,7 +2,6 @@
 title: Administrar o Power BI – perguntas mais frequentes (FAQ)
 description: Saiba as respostas às perguntas mais frequentes sobre a inscrição, a gestão de inquilinos e outras tarefas administrativas do Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442921"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857834"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
 
@@ -56,7 +55,7 @@ Este artigo aborda perguntas mais frequentes relativas à administração do Pow
 
 ### <a name="using-powershell"></a>Utilizar o PowerShell
 
-Alguns dos procedimentos nesta secção requerem scripts do Windows PowerShell. Se não estiver familiarizado com o PowerShell, recomendamos o [guia de introdução ao PowerShell ](http://go.microsoft.com/fwlink/p/?LinkID=286814). Para executar os scripts, primeiro instale a mais recente versão de 64 bits do [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/).
+Alguns dos procedimentos nesta secção requerem scripts do Windows PowerShell. Se não estiver familiarizado com o PowerShell, recomendamos o [guia de introdução ao PowerShell ](https://go.microsoft.com/fwlink/p/?LinkID=286814). Para executar os scripts, primeiro instale a mais recente versão de 64 bits do [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/).
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Como é que os utilizadores se inscrevem no Power BI?
 
@@ -193,7 +192,7 @@ Se um utilizador for inscrito no Power BI, mas já não quiser que este tenha a
 
 1. Aceda ao [centro de administração do Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
-1. Na barra de navegação esquerda, selecione **Utilizadores** > **Utilizadores Ativos**.
+1. No painel de navegação, selecione **Utilizadores** > **Utilizadores Ativos**.
 
 1. Localize o utilizador a quem quer remover a licença e, em seguida, selecione o seu nome.
 
@@ -211,7 +210,7 @@ Os utilizadores que se tiverem associado ao seu inquilino através de inscriçã
 
 1. Navegue para o [centro de administração do Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
-1. Na barra de navegação esquerda, selecione **Utilizadores** > **Utilizadores Ativos**.
+1. No painel de navegação, selecione **Utilizadores** > **Utilizadores Ativos**.
 
 1. No menu **Vistas**, selecione **Adicionar vista personalizada**.
 
@@ -235,7 +234,7 @@ Para obter informações acerca da região de dados na qual está o seu inquilin
 
 ### <a name="what-is-the-power-bi-sla"></a>O que é o SLA do Power BI?
 
-Para obter informações acerca do SLA (Contrato de Nível de Serviço) do Power BI, veja o artigo [Documentação e Termos de Licenciamento](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) na secção **Licenciamento** do site de Licenciamento da Microsoft.
+Para obter informações acerca do SLA (Contrato de Nível de Serviço) do Power BI, veja o artigo [Documentação e Termos de Licenciamento](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) na secção **Licenciamento** do site de Licenciamento da Microsoft.
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Como é que o Power BI lida com cenários de elevada disponibilidade e de ativação pós-falha?
 
@@ -264,6 +263,6 @@ A Microsoft criou o Power BI com base no Microsoft 365 que, por sua vez, se base
 [Gestão de contas de utilizador do Office 365](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
 [Gestão de grupos do Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
 [1]: https://docs.microsoft.com/powershell/scripting/overview

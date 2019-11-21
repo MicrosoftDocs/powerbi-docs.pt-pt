@@ -4,7 +4,6 @@ description: Neste guia de início rápido, os **consumidores** irão ficar a sa
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019581"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862678"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Guia de Início Rápido: saiba mais sobre as funcionalidades do Power BI para *consumidores*
 Neste guia de início rápido, ficará a saber como interagir com o Power BI para obter informações empresariais baseadas em dados. Este artigo não pretende ser uma descrição detalhada, mas uma apresentação rápida de muitas das ações disponíveis para os **consumidores** do Power BI.
@@ -50,7 +49,7 @@ Quando utilizamos o termo "conteúdo" em Power BI, estamos a referir-nos aos rel
 
 Uma *aplicação* é um tipo de conteúdo do Power BI que combina dashboards e relatórios relacionados num único local. Uma aplicação pode ter um ou mais dashboards ou relatórios em conjunto. As aplicações são criadas por *designers* do Power BI que distribuem e partilham as mesmas com *consumidores* como você. 
 
-Pode ver a aplicação ao selecionar **Aplicações** na barra de navegação e selecionar uma aplicação que pretenda abrir.
+Pode ver as aplicações ao selecionar **Aplicações** no painel de navegação e, em seguida, escolher a aplicação que quer abrir.
 
 ![Ícone Obter aplicações](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Os elementos visuais são compostos por pontos de dados e, ao pairar o cursor so
 ![passe o rato para ver os detalhes](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Adicionar um dashboard como favorito
-Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos na barra de navegação. A barra de navegação é apresentada em praticamente qualquer área do Power BI. Normalmente, os favoritos são os dashboards, as páginas de relatórios e as aplicações a que acede com mais frequência.
+Ao marcar conteúdos como *favoritos*, poderá aceder aos mesmos no painel de navegação. O painel de navegação é visível em praticamente qualquer área do Power BI. Normalmente, os favoritos são os dashboards, as páginas de relatórios e as aplicações a que acede com mais frequência.
 
 No canto superior direito do serviço Power BI, selecione **Favorito** ou, se não estiver visível, selecione **Mais opções** (...) e, em seguida, **Favorito** no menu pendente. 
    
@@ -194,9 +193,9 @@ Além de mostrar os dados que são utilizados para criar um elemento visual, tam
 Esta foi uma rápida descrição geral de apenas algumas das ações que podem ser levadas a cabo pelos *consumidores* através do serviço Power BI.  
 
 ## <a name="clean-up-resources"></a>Limpar recursos
-- Se estiver ligado a uma aplicação, na barra de navegação esquerda, selecione **Aplicações** para abrir a Lista de conteúdos da aplicação. Coloque o cursor sobre a aplicação para eliminar e selecione o ícone de caixote do lixo.
+- Se estiver ligado a uma aplicação, no painel de navegação, selecione **Aplicações** para abrir a Lista de conteúdos da aplicação. Coloque o cursor sobre a aplicação para eliminar e selecione o ícone de caixote do lixo.
 
-- Se tiver importado ou estiver ligado a um relatório de exemplo do Power BI, na barra de navegação esquerda, abra **A minha área de trabalho**. Ao utilizar os separadores na parte superior, localize o dashboard, o relatório e o conjunto de dados, e selecione o ícone de caixote do lixo para cada um.
+- Se tiver importado ou estiver ligado a um relatório de exemplo do Power BI, no painel de navegação, abra **A minha área de trabalho**. Ao utilizar os separadores na parte superior, localize o dashboard, o relatório e o conjunto de dados, e selecione o ícone de caixote do lixo para cada um.
 
 ## <a name="next-steps"></a>Próximos passos
 [Power BI para consumidores](end-user-consumer.md)

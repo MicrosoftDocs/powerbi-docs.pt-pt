@@ -2,7 +2,6 @@
 title: Introdução ao serviço Power BI
 description: Introdução ao serviço Power BI online (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060400"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872339"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introdução ao serviço Power BI
 Este tutorial é uma introdução a algumas das funcionalidades do *serviço Power BI*. Aqui, irá aprender a ligar-se aos dados, a criar um relatório e um dashboard, e a fazer perguntas sobre os seus dados. As várias funcionalidades do serviço Power BI permitem-lhe fazer muito mais. Este tutorial é só o começo. Para saber como o serviço Power BI se encaixa nas restantes ofertas do Power BI, recomendamos que leia [O que é o Power BI?](fundamentals/power-bi-overview.md).
@@ -35,7 +34,7 @@ Neste tutorial, irá concluir os seguintes passos:
 > * Limpar recursos ao eliminar conjuntos de dados, relatórios e dashboards.
 
 > [!TIP]
-> Prefere um curso gratuito de formação autónoma? [Inscreva-se no nosso curso Analyzing and Visualizing Data (Analisar e Visualizar Dados) no EdX](http://aka.ms/edxpbi).
+> Prefere um curso gratuito de formação autónoma? [Inscreva-se no nosso curso Analyzing and Visualizing Data (Analisar e Visualizar Dados) no EdX](https://aka.ms/edxpbi).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Inscreva-se no serviço do Power BI
 Se não tiver uma conta no Power BI, [inscreva-se numa avaliação gratuita do Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
@@ -46,10 +45,10 @@ Quando tiver uma conta, introduza *app.powerbi.com* no browser para abrir o serv
 
 Geralmente, quando quer criar um relatório do Power BI, começa no Power BI Desktop. Desta vez, vamos começar do zero ao criar um relatório no serviço Power BI.
 
-Neste tutorial, vamos obter os dados de um ficheiro CSV. Quer acompanhar? [Transfira o ficheiro CSV de Exemplo Financeiro](http://go.microsoft.com/fwlink/?LinkID=521962).
+Neste tutorial, vamos obter os dados de um ficheiro CSV. Quer acompanhar? [Transfira o ficheiro CSV de Exemplo Financeiro](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Inicie sessão no Power BI](http://www.powerbi.com/). Não tem uma conta? Não se preocupe. Pode inscrever-se numa avaliação gratuita.
-2. O Power BI é aberto no seu browser. Selecione **Obter dados** na parte inferior da barra de navegação esquerda.
+1. [Inicie sessão no Power BI](https://www.powerbi.com/). Não tem uma conta? Não se preocupe. Pode inscrever-se numa avaliação gratuita.
+2. O Power BI é aberto no seu browser. Selecione **Obter dados** na parte inferior do painel de navegação.
 
     É aberta a página **Obter Dados**.   
 
@@ -73,7 +72,7 @@ Neste tutorial, vamos obter os dados de um ficheiro CSV. Quer acompanhar? [Trans
 
     ![Tela de relatório em branco](media/service-get-started/power-bi-service-blank-report.png)
 
-7. Repare que há uma opção de **Vista de leitura** na barra de navegação superior. Como tem esta opção, significa que está atualmente na Vista de edição. Uma excelente forma de se familiarizar com o editor de relatórios é [fazer uma visita](service-the-report-editor-take-a-tour.md).
+7. Repare que há uma opção de **Vista de leitura** no painel de navegação superior. Como tem esta opção, significa que está atualmente na Vista de edição. Uma excelente forma de se familiarizar com o editor de relatórios é [fazer uma visita](service-the-report-editor-take-a-tour.md).
 
     ![Opção Vista de leitura](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Agora que já está ligado aos dados, pode começar a explorar.  Quando encontra
    
 8. Selecione o novo mosaico no seu dashboard para regressar ao relatório. O Power BI regressa ao relatório na Vista de leitura. 
 
-1. Para mudar novamente para a Vista de edição, selecione **Mais opções** (...) na barra de navegação superior > **Editar**. Quando voltar à Vista de edição, pode continuar a explorar e a afixar mosaicos.
+1. Para mudar novamente para a Vista de edição, selecione **Mais opções** (...) no painel de navegação superior > **Editar**. Quando voltar à Vista de edição, pode continuar a explorar e a afixar mosaicos.
 
     ![Selecionar Editar para editar o relatório](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>Passo 3: Explorar através da caixa Perguntas e Respostas
 
-Para explorar os dados rapidamente, experimente fazer uma pergunta na caixa de Perguntas e Respostas. A caixa Perguntas e Respostas permite-lhe fazer consultas com uma linguagem natural sobre os seus dados. Nos dashboards, a caixa Perguntas e Respostas está na parte superior (**Fazer uma pergunta sobre os dados**). Nos relatórios, a mesma está na barra de navegação superior (**Fazer uma pergunta**).
+Para explorar os dados rapidamente, experimente fazer uma pergunta na caixa de Perguntas e Respostas. A caixa Perguntas e Respostas permite-lhe fazer consultas com uma linguagem natural sobre os seus dados. Nos dashboards, a caixa Perguntas e Respostas está na parte superior (**Fazer uma pergunta sobre os dados**). Nos relatórios, essa caixa está no painel de navegação superior (**Fazer uma pergunta**).
 
 1. Para voltar ao dashboard, selecione **A minha área de trabalho** na barra preta do **Power BI**.
 
@@ -152,7 +151,7 @@ Para explorar os dados rapidamente, experimente fazer uma pergunta na caixa de P
 
 1. Afixe também o gráfico de barras no dashboard **Exemplo Financeiro para o tutorial**.
 
-1. Coloque o cursor depois de *by month* (por mês) na caixa Perguntas e Respostas e escreva *como linha*. Selecione **linha (Tipo de Visualização)**. 
+1. Coloque o cursor depois de *by month* (por mês) na caixa Perguntas e Respostas e escreva *como linha*. Selecione **linha (Tipo de Visualização)** . 
 
     ![Gráfico como uma visualização de linha](media/service-get-started/power-bi-service-qanda-as-line.png)
 
@@ -198,7 +197,7 @@ Antes de começar a criar os seus próprios dashboards e relatórios, eis uma ú
 ## <a name="clean-up-resources"></a>Limpar recursos
 Agora que concluiu o tutorial, pode eliminar o conjunto de dados, o relatório e o dashboard. 
 
-1. Na barra de navegação esquerda, certifique-se de que está em **A Minha Área de Trabalho**.
+1. No painel de navegação, confirme que está em **A Minha Área de Trabalho**.
 2. Selecione o separador **Conjuntos de Dados** e procure o conjunto de dados que importou para este tutorial.  
 3. Selecione **Mais opções** (...) > **Eliminar**.
 

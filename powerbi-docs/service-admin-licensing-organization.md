@@ -2,7 +2,6 @@
 title: Licenciamento do Power BI na sua organização
 description: 'Compreender os diferentes tipos de licença que estão disponíveis no Power BI: licenças gratuitas, Power BI Pro e Power BI Premium.'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442836"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857716"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licenciamento do Power BI na sua organização
 
@@ -55,7 +54,7 @@ Tenha em atenção o seguinte antes de seguir os passos para se inscrever:
 
 1. Navegue para o [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-1. No painel de navegação esquerdo, selecione **Faturação** e, em seguida, **Subscrições**.
+1. No painel de navegação, selecione **Faturação** e, em seguida, **Subscrições**.
 
    ![Faturação e subscrições](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -63,7 +62,7 @@ Tenha em atenção o seguinte antes de seguir os passos para se inscrever:
 
    ![Adicionar subscrições](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. Em **Outros Planos**, paire sobre a elipse (**. . .**) do Power BI Pro e selecione **Iniciar avaliação gratuita**.
+1. Em **Outros Planos**, paire sobre a elipse ( **. . .** ) do Power BI Pro e selecione **Iniciar avaliação gratuita**.
 
    ![Iniciar versão de avaliação gratuita](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
@@ -101,11 +100,11 @@ Se o bloco de licenças ilimitado do Power BI (gratuito) não está disponível 
 
 1. Navegue para o [centro de administração do Microsoft 365](https://portal.office.com/admin/default.aspx).
 
-1. No painel de navegação esquerdo, selecione **Faturação** > **Subscrições**.
+1. No painel de navegação, selecione **Faturação** > **Subscrições**.
 
-1. No lado direito, selecione **Adicionar subscrições +**.
+1. No lado direito, selecione **Adicionar subscrições +** .
 
-1. Em **Outros Planos**, passe o rato sobre a (**. . .**) para o Power BI (gratuito) e selecione **Comprar agora**.
+1. Em **Outros Planos**, passe o rato sobre a ( **. . .** ) para o Power BI (gratuito) e selecione **Comprar agora**.
 
     ![Comprar agora – Power BI (gratuito)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
@@ -156,4 +155,4 @@ A definição do Azure Active Directory que controla a inscrição é **AllowAdH
 
 [Comprar e atribuir licenças Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

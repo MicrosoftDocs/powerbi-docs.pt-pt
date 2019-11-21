@@ -2,7 +2,6 @@
 title: 'Tutorial: Criar um modelo de Machine Learning no Power BI'
 description: Neste tutorial, vai criar um modelo de Machine Learning no Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432256"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877007"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Criar um modelo de Machine Learning no Power BI
 
@@ -47,7 +46,7 @@ Pode transferir o conjunto de dados a partir do site da UC Irvine. Além disso, 
 
 Para criar as entidades no seu fluxo de dados, inicie sessão no serviço Power BI e navegue para uma área de trabalho na sua capacidade dedicada que tenha a IA ativada.
 
-Se ainda não tiver uma área de trabalho, poderá criar uma ao selecionar **Áreas de trabalho** no menu de navegação esquerdo do serviço Power BI e, em seguida, **Criar área de trabalho** na parte inferior do painel apresentado. Esta ação abre um painel no lado direito para introduzir os detalhes da área de trabalho. Introduza um nome de área de trabalho e selecione **Avançado**. Confirme se a área de trabalho utiliza uma Capacidade Dedicada com o botão de opção e se está atribuída a uma instância de capacidade dedicada que tenha a pré-visualização de IA ativada. Em seguida, selecione **Guardar**.
+Se ainda não tiver uma área de trabalho, poderá criar uma ao selecionar **Áreas de trabalho** no menu do painel de navegação do serviço Power BI e, em seguida, **Criar área de trabalho** na parte inferior do painel apresentado. Esta ação abre um painel no lado direito para introduzir os detalhes da área de trabalho. Introduza um nome de área de trabalho e selecione **Avançado**. Confirme se a área de trabalho utiliza uma Capacidade Dedicada com o botão de opção e se está atribuída a uma instância de capacidade dedicada que tenha a pré-visualização de IA ativada. Em seguida, selecione **Guardar**.
 
 ![Criar uma área de trabalho](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

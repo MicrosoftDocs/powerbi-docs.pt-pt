@@ -2,7 +2,6 @@
 title: Criar áreas de trabalho clássicas no Power BI
 description: Saiba como criar áreas de trabalho, coleções de dashboards, relatórios e relatórios paginados criados para fornecer métricas importantes à sua organização.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021102"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853538"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Criar áreas de trabalho clássicas no Power BI
 
@@ -75,7 +74,7 @@ Também pode ligar-se a serviços nas áreas de trabalho atuais através de paco
 
 Se quiser distribuir conteúdos oficiais para um grande público na sua organização, poderá publicar uma aplicação a partir da sua área de trabalho.  Quando os conteúdos estiverem prontos, selecione os dashboards e relatórios que pretende publicar e, em seguida, publique-os como uma *aplicação*. Pode criar uma aplicação a partir de cada área de trabalho.
 
-A lista de Aplicações no painel de navegação esquerdo mostra todas as aplicações que instalou. Os seus colegas podem obter a sua aplicação de algumas formas diferentes. 
+A lista Aplicações no painel de navegação mostra todas as aplicações que instalou. Os seus colegas podem obter a sua aplicação de algumas formas diferentes. 
 - Podem encontrar e instalar a sua aplicação a partir do Microsoft AppSource
 - Pode enviar-lhes uma ligação direta. 
 - Pode instalar aplicações automaticamente nas contas do Power BI dos seus colegas de trabalho, se o administrador do Power BI lhe der permissão. 
@@ -97,4 +96,4 @@ Veja [Diferenças entre as novas áreas de trabalho e as existentes](service-new
 ## <a name="next-steps"></a>Próximos passos
 * [Instalar e utilizar aplicações no Power BI](service-create-distribute-apps.md)
 - [Criar as novas áreas de trabalho](service-create-the-new-workspaces.md)
-* Perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+* Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

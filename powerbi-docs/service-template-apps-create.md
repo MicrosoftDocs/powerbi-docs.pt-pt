@@ -2,19 +2,18 @@
 title: Criar aplicações de modelo no Power BI
 description: Como criar aplicações de modelo no Power BI que podem ser distribuídas para qualquer cliente do Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432156"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871478"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
@@ -86,7 +85,7 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
 
     **Navegação**
 
-    Ative o **Novo construtor de navegação**, onde pode definir o painel de navegação esquerdo da aplicação (veja [Conceber a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
+    Ative o **Novo construtor de navegação**, onde pode definir o painel de navegação da aplicação (veja [Conceber a experiência de navegação](service-create-distribute-apps.md#design-the-navigation-experience) neste artigo para obter detalhes).
 
    ![Definir página de destino da aplicação](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     
