@@ -14,8 +14,8 @@
           topicHref: /power-bi/developer/index
           items:
             - name: Utilizar elementos visuais baseados em R no Power BI
-              tocHref: /power-bi/desktop-r-powered-custom-visuals/
-              topicHref: /power-bi/developer/index
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: Aprendizagem Interativa
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
