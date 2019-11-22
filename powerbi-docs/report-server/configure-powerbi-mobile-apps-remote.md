@@ -1,25 +1,31 @@
 ---
-title: Configurar o acesso da aplicação móvel iOS a um servidor de relatórios remotamente
-description: Saiba como configurar as aplicações móveis para iOS remotamente para o seu servidor de relatórios.
-author: maggiesMSFT
+title: Configurar o acesso da aplicação móvel para um Servidor de Relatórios remotamente
+description: Saiba como configurar as aplicações móveis remotamente para o servidor de relatórios.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874212"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925840"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar o acesso da aplicação móvel do Power BI para iOS a um servidor de relatórios remotamente
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configurar o acesso da aplicação móvel do Power BI para um Servidor de Relatórios remotamente
 
-Neste artigo, saiba como utilizar a ferramenta MDM da sua organização para configurar o acesso da aplicação móvel do Power BI para iOS a um servidor de relatórios. Para configurar esta opção, os administradores de TI criam uma política de configuração da aplicação com as informações necessárias para serem enviadas para a aplicação. 
+Aplica-se a:
 
- Com a ligação do servidor de relatórios já configurada, os utilizadores da aplicação móvel Power BI para iOS podem ligar-se ao servidor de relatórios da respetiva organização mais facilmente. 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Telemóvel Android](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+Neste artigo, saiba como utilizar a ferramenta MDM da sua organização para configurar o acesso da aplicação móvel do Power BI para um Servidor de Relatórios. Para configurar esta opção, os administradores de TI criam uma política de configuração da aplicação com as informações necessárias para serem enviadas para a aplicação. 
+
+ Com a ligação do Servidor de Relatórios já configurada, os utilizadores da aplicação móvel do Power BI podem ligar-se ao Servidor de Relatórios da organização mais facilmente. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Criar a política de configuração da aplicação na ferramenta MDM 
 
@@ -43,11 +49,11 @@ Eis um exemplo de definição da política de configuração com o Intune.
 
 ![Definições de configuração do Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>Ligação dos utilizadores finais a um servidor de relatórios
+## <a name="end-users-connecting-to-report-server"></a>Ligação dos utilizadores finais a um Servidor de Relatórios
 
- Imaginemos que publica a política de configuração da aplicação para uma lista de distribuição. Quando os utilizadores e dispositivos nessa lista de distribuição iniciarem a aplicação móvel para iOS, terão a seguinte experiência. 
+ Imaginemos que publica a política de configuração da aplicação para uma lista de distribuição. Quando os utilizadores e os dispositivos nessa lista de distribuição iniciarem a aplicação móvel, terão a seguinte experiência. 
 
-1. Veem uma mensagem a informar que a aplicação móvel está configurada com um servidor de relatórios e tocam em **Iniciar sessão**.
+1. Verão uma mensagem a informar que a aplicação móvel está configurada com um Servidor de Relatórios e deverão tocar em **Iniciar sessão**.
 
     ![Iniciar sessão no servidor de relatórios](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
@@ -59,7 +65,7 @@ Eis um exemplo de definição da política de configuração com o Intune.
 
     ![Detalhes do servidor de relatórios preenchidos](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
-Agora, podem ver e interagir com KPIs e relatórios do Power BI armazenados no servidor de relatórios.
+Agora, podem ver e interagir com os KPIs e os relatórios do Power BI armazenados no Servidor de Relatórios.
 
 ## <a name="next-steps"></a>Próximos passos
 

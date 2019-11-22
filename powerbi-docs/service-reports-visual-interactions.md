@@ -4,56 +4,82 @@ description: Documentação sobre como definir interações visuais num relatór
 author: mihart
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/11/2019
+ms.date: 11/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1b05acc111ce582c84706e5b63ba564f606576f6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871580"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011080"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Alterar a forma como os elementos visuais interagem num relatório do Power BI
 Se tiver permissões de edição para um relatório, pode utilizar as **interações visuais** para alterar a forma como as visualizações têm impacto umas nas outras numa página de relatório. 
 
+## <a name="introduction-to-visual-interactions"></a>Introdução às interações visuais
 Por predefinição, as visualizações numa página de relatório podem ser utilizadas para filtro cruzado e realce cruzado de outras visualizações na página.
 Por exemplo, selecionar um estado numa visualização de mapa realça o gráfico de colunas e filtra o gráfico de linhas para mostrar apenas os dados que se aplicam a um estado.
 Consulte [Sobre filtragem e realce](power-bi-reports-filters-and-highlighting.md). Se tiver uma visualização que suporte a [exploração](consumer/end-user-drill.md) por predefinição, a exploração de uma visualização não tem impacto nas outras visualizações na página de relatório. No entanto, estes comportamentos predefinidos podem ser substituídos e as interações podem ser definidas individualmente para cada visualização.
 
-Este artigo mostra-lhe como utilizar as **Interações visuais** na [Vista de edição](service-interact-with-a-report-in-editing-view.md) do serviço Power BI e no Power BI Desktop. Se um relatório foi partilhado consigo, não conseguirá alterar as definições das Interações visuais.
+Este artigo mostra-lhe como utilizar as **interações visuais** no Power BI Desktop. O processo é o mesmo na [Vista de edição](service-interact-with-a-report-in-editing-view.md) do serviço Power BI. Se possuir apenas acesso de Vista de leitura ou o relatório tiver sido partilhado consigo, não conseguirá alterar as definições das interações visuais.
+
+Os termos *filtro cruzado* e *realce cruzado* são utilizados para distinguir o comportamento descrito aqui do que acontece quando utiliza o painel **Filtros** para *filtrar* e *realçar* as visualizações.  
 
 > [!NOTE]
-> Os termos *filtro cruzado* e *realce cruzado* são utilizados para distinguir o comportamento descrito aqui do que acontece quando utiliza o painel **Filtros** para filtrar e realçar visualizações.  
-> 
-> 
+> Este vídeo utiliza versões mais antigas do Power BI Desktop e do serviço Power BI. 
+>
+>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/N_xYsCbyHPw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
+
+## <a name="enable-the-visual-interaction-controls"></a>Ativar os controlos de interação visual
+Se tiver permissões de edição num relatório, poderá ativar os controlos de interação visual e, em seguida, personalizar a forma como as visualizações na página de relatório são filtradas e realçadas. 
+
 1. Selecione a visualização para ativá-la.  
 2. Aceda às opções das **Interações Visuais**.
-    - No serviço Power BI, selecione o menu pendente na barra de menus do relatório.
-
-       ![Menu pendente Interações visuais](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+    
 
     - No Desktop, selecione **Formato > Interações**.
 
-        ![selecionar Formato e, em seguida, Interações](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![selecionar Formato e, em seguida, Interações](media/service-reports-visual-interactions/power-bi-interaction.png)
 
-3. Para ativar os controlos de interação de visualizações, selecione **Editar interações**. O Power BI adiciona ícones de filtragem cruzada e de realce cruzado a todas as outras visualizações na página de relatório.
+    - No serviço Power BI, abra o relatório na Vista de edição e selecione a lista pendente na barra de menus do relatório.
+
+        ![Menu pendente Interações visuais](media/service-reports-visual-interactions/power-bi-service.png)
+
+3. Para visualizar os controlos de interação de visualizações, selecione **Editar interações**. O Power BI adiciona ícones de filtragem e realce a todas as outras visualizações na página de relatório. Agora, pode alterar a forma como a visualização selecionada interage com as outras visualizações na página de relatório.
    
-    ![relatório com a opção Interações visuais ativada](media/service-reports-visual-interactions/power-bi-icons-on.png)
-3. Determine o impacto que a visualização selecionada deve ter nas outras visualizações.  Opcionalmente, repita para todas as outras visualizações na página do relatório.
+    ![relatório com a opção Interações visuais ativada](media/service-reports-visual-interactions/power-bi-turn-on.png)
+
+
+## <a name="change-the-interaction-behavior"></a>Alterar o comportamento da interação
+Familiarize-se com a forma como as visualizações interagem ao selecionar cada visualização na página de relatório, uma de cada vez.  Selecione um ponto de dados, uma barra ou uma forma e observe o impacto nas outras visualizações. Se o comportamento que vê não é o pretendido, poderá alterar as interações. Estas alterações são guardadas com o relatório, pelo que o utilizador e os consumidores do relatório terão a mesma experiência de interação visual.
+
+
+Determine o impacto que a **visualização selecionada** deve ter nas outras visualizações.  Opcionalmente, repita para todas as outras visualizações na página do relatório.
    
-   * Se quiser executar o filtro cruzado na visualização, selecione o ícone de **filtragem** ![ícone de filtragem](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Se quiser executar o realce cruzado na visualização, selecione o ícone de **realce** ![ícone de realce](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Se não quiser que tenha impacto, selecione o **ícone** sem impacto ![ícone sem impacto](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
+   * Se quiser executar o filtro cruzado na visualização, selecione o ícone de **filtragem** ![ícone de filtragem](media/service-reports-visual-interactions/power-bi-filter-icon.png).
+   * Se quiser executar o realce cruzado na visualização, selecione o ícone de **realce** ![ícone de realce](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
+   * Se não quiser que tenha impacto, selecione o **ícone** sem impacto ![ícone sem impacto](media/service-reports-visual-interactions/power-bi-no-impact.png).
 
-4. Para ativar os controlos de exploração, selecione **A exploração filtra outros elementos visuais**.  Agora, quando agregar ou desagregar numa visualização, as outras visualizações na página de relatório são alteradas para refletir a seleção de exploração atual. 
+## <a name="change-the-interactions-of-drillable-visualizations"></a>Alterar as interações das visualizações desagregáveis
+[Algumas visualizações de Power BI podem ser desagregadas](consumer/end-user-drill.md). Por predefinição, quando desagrega uma visualização, tal não tem impacto sobre as outras visualizações na página de relatório. No entanto, esse comportamento pode ser alterado. 
 
-   ![vídeo sobre a ativação dos controlos de exploração](media/service-reports-visual-interactions/drill2.gif)
+1. Selecione o elemento visual desagregável para o ativar. 
 
+> [!TIP]
+> Experimente utilizar o [ficheiro PBIX de amostra dos Recursos Humanos](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix). Existe um gráfico de colunas com uma desagregação no separador **Novas contratações**.
+>
+
+
+2. Na barra de menus, selecione **Formato** > **Filtros de desagregação de outros elementos visuais**.  Agora, quando agregar ou desagregar numa visualização, as outras visualizações na página de relatório são alteradas para refletir a seleção de exploração atual. 
+
+    ![ativar os filtros de desagregação de outros elementos visuais](media/service-reports-visual-interactions/power-bi-drill.png).
+    
+## <a name="next-steps"></a>Próximos passos
+[Filtros e realces em relatórios do Power BI](power-bi-reports-filters-and-highlighting.md)
