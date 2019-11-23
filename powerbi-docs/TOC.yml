@@ -407,6 +407,8 @@
       items:
         - name: Tipos de dados no Power BI Desktop
           href: desktop-data-types.md
+        - name: "Origens de dados do Power\_BI"
+          href: power-bi-data-sources.md
         - name: 'Use the updated ribbon in Power BI Desktop (preview) (Utilizar o friso atualizado no Power BI Desktop [pré-visualização])'
           href: desktop-ribbon.md
         - name: Formula editor shortcuts for Power BI Desktop (Atalhos do editor de fórmulas do Power BI Desktop)
