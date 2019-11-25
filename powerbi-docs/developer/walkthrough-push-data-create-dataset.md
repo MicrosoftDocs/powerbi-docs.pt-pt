@@ -1,19 +1,19 @@
 ---
 title: Criar um conjunto de dados
 description: Instruções – Enviar dados para um conjunto de dados – Criar um conjunto de dados no Power BI
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b0a1f2234490ae1c887b77395d87e41deb3319d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2a6c6a0e7860698ffd02625a413ca154898aab3b
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875462"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264978"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Passo 3: Criar um conjunto de dados no Power BI
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).

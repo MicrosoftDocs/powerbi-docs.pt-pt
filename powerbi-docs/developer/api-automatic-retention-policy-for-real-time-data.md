@@ -1,19 +1,19 @@
 ---
 title: API Power BI a utilizar uma política de retenção automática para os dados em tempo real
 description: Saiba mais acerca da política de retenção automática no serviço Power BI
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e2d81ac67ea5c070f31315a381b42e3a1379a49b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cdbf50ee5078eaade7794242b3ed522e043cab22
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865075"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265857"
 ---
 # <a name="automatic-retention-policy-for-real-time-data"></a>Automatic retention policy for real-time data (Política de retenção automática para dados em tempo real)
 

@@ -1,5 +1,5 @@
 ---
-title: Segurança dinâmica ao nível da linha com o modelo de tabela dos serviços de Análise do Power BI
+title: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
 description: Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
 author: selvarms
 ms.reviewer: davidi
@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09726bccdd5a0b9a88d4a2df4d5be3b902a64b8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876104"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311466"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Segurança dinâmica ao nível da linha com o modelo em tabela do Analysis Services
 

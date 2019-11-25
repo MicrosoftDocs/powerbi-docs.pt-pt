@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875126"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265875"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as definições num relatório do Power BI
 Compreendemos que é essencial manter o esquema do seu relatório perfeito. Por vezes, isso representa um desafio, uma vez que você e os seus colegas poderão ver esses relatórios em ecrãs de diferentes proporções e tamanhos. 
@@ -66,7 +66,6 @@ As definições **Tamanho da página** só estão disponíveis para os propriet�
 
 * proporção de 4:3
 * proporção de 16:9 (predefinição)
-* Cortana
 * Letter
 * Personalizado (altura e largura em pixels)
 
