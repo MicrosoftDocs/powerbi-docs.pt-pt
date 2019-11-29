@@ -813,10 +813,6 @@
               items:
                 - name: Ligar a serviços com aplicações
                   href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Registos de Auditoria do Azure
-                  href: service-connect-to-azure-audit-logs.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
@@ -907,7 +903,9 @@
           href: report-builder-power-bi.md
     - name: Tutoriais
       items:
-        - name: 'Create a paginated report and upload Interact (Criar um relatório paginado, carregá-lo e interagir)'
+        - name: 'Laboratório prático: Criar um relatório paginado'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Criar um relatório paginado e carregar
           href: paginated-reports-quickstart-aw.md
     - name: Conceitos
       items:
