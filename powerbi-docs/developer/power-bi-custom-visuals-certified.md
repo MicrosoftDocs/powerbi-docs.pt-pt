@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102600"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565241"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -70,7 +70,7 @@ Para [certificar](#get-a-power-bi-visual-certified) o seu elemento visual person
 
 * Se alguma propriedade em capabilities.json for alterada, confirme que não interrompem os relatórios do utilizador existentes.
 
-* Verifique se o elemento visual está em conformidade com as [diretrizes para elementos visuais do Power BI](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Não são permitidas marcas d'água**.
+* Verifique se o elemento visual está em conformidade com as [diretrizes para elementos visuais do Power BI](./guidelines-powerbi-visuals.md). **Não são permitidas marcas d'água**.
 
 * O elemento visual utiliza apenas componentes OSS que podem ser analisados pelo público (TypeScript ou bibliotecas JS públicos. O código-fonte está disponível para análise e não apresenta vulnerabilidades conhecidas). Não é possível verificar um elemento visual personalizado com um componente comercial.
 
