@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874027"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265556"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação
 
@@ -128,7 +128,7 @@ Muitos dos mosaicos no dashboard no exemplo de Rentabilidade do Cliente foram af
 
     * **Team Scorecard** (Tabela de Indicadores da Equipa) centra-se no desempenho dos cinco gestores e dos respetivos livros de negócio.
     * **Industry Margin Analysis** (Análise de Margem do Setor) fornece uma forma de analisar a rentabilidade em comparação com o que se passa em todo o setor.
-    * **Executive Scorecard** (Tabela de Indicadores de Executivos) fornece uma vista de cada um dos gestores formatada para visualização na Cortana.
+    * **Executive Scorecard** (Tabela de Indicadores de Executivos) fornece uma vista de cada um dos gestores num formato de tamanho de página personalizado.
 
 ### <a name="team-scorecard-page"></a>Página de pontuação da equipa
 ![Página do relatório da pontuação da equipa](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Esta página de relatório fornece uma secção diferente dos dados. Examina a m
    * Valery, que é responsável por apenas um produto, só trabalha com cinco segmentos do setor. A influência da Valery no setor é sazonal, mas produz sempre uma grande bolha, o que indica que há um impacto significativo sobre o resultado da empresa. Os segmentos do setor explicam o desempenho negativo?
 
 ### <a name="executive-scorecard"></a>Tabela de indicadores executiva
-Esta página está formatada como uma página de resposta. Para obter mais informações, veja [Criar uma página de resposta personalizada da Cortana](service-cortana-answer-cards.md).
+Esta página tem um formato de tamanho de página personalizado.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Investigue os dados fazendo perguntas em Perguntas e Respostas
 Para a nossa análise, poderá ser útil determinar que setor gera a maior parte da receita para Valery. Vamos usar Perguntas e Respostas.

@@ -1,5 +1,5 @@
 ---
-title: Incorporar relatórios paginados do Power BI na sua aplicação para os consumidores
+title: Incorporar relatórios paginados na sua aplicação para os consumidores
 description: Saiba como integrar ou incorporar um relatório paginado do Power BI numa aplicação com as APIs Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877719"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311434"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes (pré-visualização)
 
@@ -37,6 +37,11 @@ Para começar, precisa de:
 * Pelo menos uma [capacidade](#create-a-dedicated-capacity) A4 ou P1 com [relatórios paginados](../service-admin-premium-workloads.md#paginated-reports) ativados em carga de trabalho
 
 Se não tiver uma subscrição do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
+
+> [!IMPORTANT]
+> * Tem de utilizar um **principal de serviço**. O utilizador mestre não é suportado.
+> * As origens de dados que exigem o início de sessão único (SSO) não são suportadas.
+> * O conjunto de dados do Power BI não é suportado como uma [origem de dados](../service-get-data.md).
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurar o ambiente do Power BI
 

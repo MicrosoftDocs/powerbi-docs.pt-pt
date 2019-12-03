@@ -2,19 +2,19 @@
 title: Utilizar os Mapas de Forma do Power BI Desktop (Pré-visualização)
 description: Crie comparações relativas entre regiões com os Mapas de Forma do Power BI Desktop
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871128"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199463"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
 
@@ -198,28 +198,23 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 | ID | nome | name-en |
 | --- | --- | --- |
-| Alsácia |Alsácia |Alsácia |
-| Ródano-Alpes |Ródano-Alpes |Ródano-Alpes |
-| Provença-Alpes-Costa Azul |Provença-Alpes-Costa Azul |Provença-Alpes-Costa Azul |
-| Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
-| Picardia |Picardia |Picardia |
-| País do Loire |País do Loire |País do Loire |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |Nord-Pas-de-Calais |
-| Sul-Pirenéus |Sul-Pirenéus |Sul-Pirenéus |
-| Lorena |Lorena |Lorena |
-| Limusino |Limusino |Limusino |
-| Languedoque-Rossilhão |Languedoque-Rossilhão |Languedoque-Rossilhão |
-| Ilha de França |Ilha de França |Ilha de França |
-| Ilha de França |Ilha de França |Alta Normandia |
-| Franco-Condado |Franco-Condado |Franco-Condado |
-| Córsega |Córsega |Córsega |
-| Champanha-Ardenas |Champanha-Ardenas |Champanha-Ardenas |
-| Centro-Vale do Loire |Centro-Vale do Loire |Centro-Vale do Loire |
+| Auvérnia-Ródano-Alpes |  |  |
+| Borgonha-Franco-Condado |  |  |
 | Bretanha |Bretanha |Bretanha |
-| Borgonha |Borgonha |Borgonha |
-| Baixa Normandia |Baixa Normandia |Baixa Normandia |
-| Auvérnia |Auvérnia |Auvérnia |
-| Aquitânia |Aquitânia |Aquitânia |
+| Centro-Vale do Loire |Centro-Vale do Loire |Centro-Vale do Loire |
+| Córsega |Córsega |Córsega |
+| Grande Leste |  |  |
+| Guadalupe | |   |
+| Altos de França |  |  |
+| Ilha de França |Ilha de França |Ilha de França |
+| Ilha da Reunião |  |  |
+| Maiote  |  |  |
+| Normandia |Normandia |  |
+| Nova-Aquitânia |  |  |
+| Occitânia  |  |  |
+| País do Loire |País do Loire |País do Loire |
+| Provença-Alpes-Costa Azul |Provença-Alpes-Costa Azul |Provença-Alpes-Costa Azul |
+|  |  |  |
 
 ### <a name="germany-states"></a>Alemanha: Estados
 

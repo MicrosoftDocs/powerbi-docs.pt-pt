@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f149b816f7489b6a26e86af6360062d86083a7e5
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872443"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164284"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>What is an on-premises data gateway? (O que é um gateway de dados no local?)
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Um gateway de dados no local atua como uma ponte para permitir a transferência rápida e segura de dados entre dados no local (dados que não estão na cloud) e vários serviços cloud da Microsoft. Estes serviços cloud incluem o Power BI, PowerApps, Microsoft Flow, Azure Analysis Services e Azure Logic Apps. Através da utilização de um gateway, as organizações conseguem manter bases de dados e outras origens de dados nas suas redes no local, mas utilizar de forma segura esses dados no local em serviços cloud.
+Um gateway de dados no local atua como uma ponte para permitir a transferência rápida e segura de dados entre dados no local (dados que não estão na cloud) e vários serviços cloud da Microsoft. Estes serviços cloud incluem o Power BI, PowerApps, Power Automate, Azure Analysis Services e Azure Logic Apps. Através da utilização de um gateway, as organizações conseguem manter bases de dados e outras origens de dados nas suas redes no local, mas utilizar de forma segura esses dados no local em serviços cloud.
 
 ## <a name="how-the-gateway-works"></a>Como funciona o gateway
 

@@ -1,46 +1,37 @@
 ---
-title: Utilizar marcadores no Power BI
+title: Utilizar marcadores no Power BI Desktop para partilhar informações e criar histórias
 description: Os marcadores no Power BI Desktop permitem-lhe guardar vistas e definições nos seus relatórios, bem como criar apresentações como se fossem uma história
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876696"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311325"
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
-A utilização de **marcadores** no Power BI ajuda a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais, e permite-lhe voltar mais tarde a esse estado ao selecionar o marcador guardado. 
+# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Utilizar marcadores no Power BI Desktop para partilhar informações e criar histórias
+Com os *marcadores* no Power BI Desktop ajuda-o a capturar a vista atualmente configurada de uma página de relatório, incluindo a filtragem e o estado dos elementos visuais. Posteriormente, pode regressar a esse estado ao selecionar o marcador guardado. 
 
-Também pode criar uma coleção de marcadores, dispô-los pela ordem que quiser e, subsequentemente, seguir cada marcador numa apresentação para realçar uma série de informações ou a história que quer contar com os seus elementos visuais e relatórios. 
+Também pode criar uma coleção de marcadores, dispô-los pela ordem que quiser e, posteriormente, seguir cada marcador numa apresentação para realçar uma série de informações ou a história que quer contar com os seus elementos visuais e relatórios. 
 
 ![Marcadores no Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-Existem muitas utilizações de marcadores. Pode utilizá-los para controlar o seu próprio progresso de criação de relatórios (os marcadores são fáceis de adicionar, eliminar e mudar o nome) e pode criar uma apresentação do PowerPoint que utilize marcadores por ordem, contando assim uma história com o seu relatório. Podem existir outras utilizações com base na forma como considera que os marcadores podem ser melhor utilizados.
+Existem muitas utilizações de marcadores. Por exemplo, pode utilizar os marcadores para controlar o seu próprio progresso de criação de relatórios (os marcadores são fáceis de adicionar, eliminar e mudar o nome) e pode criar uma apresentação do PowerPoint que utilize marcadores por ordem, contando assim uma história com o seu relatório. 
 
 > [!TIP]
-> Para obter informações sobre como utilizar Marcadores Pessoais no serviço Power BI, veja o [anúncio do blogue](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) relativo à funcionalidade Marcadores Pessoais. 
-
-### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Ativar a pré-visualização de marcadores (versões anteriores a março de 2018)
-A partir da versão de março de 2018 do Power BI Desktop, os marcadores estarão disponíveis para todos os utilizadores. 
-
-Recomendamos sempre que atualize para a versão mais recente. Porém, se tiver uma versão anterior do Power BI Desktop, pode experimentar a nova funcionalidade de **marcadores** a partir da versão de **outubro de 2017** do **Power BI Desktop** e para relatórios compatíveis com marcadores, também no **serviço Power BI**. Para ativar a funcionalidade de pré-visualização, selecione **Ficheiro > Opções e Definições > Opções > Funcionalidades de Pré-visualização** e, em seguida, selecione a caixa de verificação junto a **Marcadores**. 
-
-![Ativar marcadores na janela Opções](media/desktop-bookmarks/bookmarks_02.png)
-
-Irá precisar de reiniciar o **Power BI Desktop** após fazer a seleção para ativar a versão de pré-visualização dos marcadores.
+> Para obter informações sobre como utilizar marcadores pessoais no serviço Power BI, veja [Anunciar marcadores pessoais no serviço Power BI](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/). 
 
 ## <a name="using-bookmarks"></a>Utilizar marcadores
-Para utilizar marcadores, selecione o friso **Ver** e, em seguida, selecione a caixa **Painel de Marcadores**. 
+Para utilizar marcadores, selecione o separador **Ver** do friso Power BI Desktop e, em seguida, selecione o **Painel de Marcadores**. 
 
-![O Painel de Marcadores pode ser ativado no friso Ver.](media/desktop-bookmarks/bookmarks_03.png)
+![Ativar o Painel de Marcadores](media/desktop-bookmarks/bookmarks_03.png)
 
 Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 
@@ -50,137 +41,169 @@ Quando criar um marcador, os elementos seguintes são guardados com o marcador:
 * Estado da seleção do elemento visual (por exemplo, os filtros de realce cruzado)
 * Sequência de ordenação
 * Localização de agregação
-* Visibilidade (de um objeto, através do painel **Seleção**)
+* Visibilidade de um objeto (através do painel **Seleção**)
 * Os modos de detalhe ou **Em Destaque** de qualquer objeto visível
 
-Configure uma página de relatório conforme quiser que apareça no marcador. Depois da página de relatório e dos elementos visuais serem dispostos como pretende, selecione **Adicionar** no painel **Marcadores** para adicionar um marcador. 
+Configure uma página de relatório conforme quiser que apareça no marcador. Depois de a página de relatório e dos elementos visuais serem dispostos como pretende, selecione **Adicionar** no painel **Marcadores** para adicionar um marcador. 
 
 ![Adicionar um marcador](media/desktop-bookmarks/bookmarks_04.png)
 
-O **Power BI Desktop** cria um marcador e atribui-lhe um nome genérico. Pode facilmente *mudar o nome*, *eliminar* ou *atualizar* um marcador ao selecionar as reticências junto ao nome e, em seguida, ao selecionar uma ação no menu apresentado.
+O Power BI Desktop cria um marcador e atribui-lhe um nome genérico. Pode facilmente **Mudar o nome**, **Eliminar** ou **Atualizar** um marcador ao selecionar as reticências junto ao nome e, em seguida, ao selecionar uma ação no menu apresentado.
 
-![Selecionar o submenu de um marcador através das reticências](media/desktop-bookmarks/bookmarks_05.png)
+![Selecione o menu de marcadores utilizando as reticências](media/desktop-bookmarks/bookmarks_05.png)
 
-Depois de ter um marcador, pode apresentá-lo ao clicar simplesmente nele no painel **Marcadores**. 
+Depois de criar um marcador, apresente-o ao selecioná-lo no painel **Marcadores**. 
 
-Pode também selecionar se cada marcador aplicará propriedades de *dados* tais como filtros e segmentações de dados, propriedades de *visualização* tais como destaque e a sua visibilidade, bem como alterações à página que apresenta a página que estava visível quando o marcador foi adicionado. Estas funcionalidades são úteis quando utiliza marcadores para alternar entre vistas de relatórios ou seleções de elementos visuais, caso em que pretenderá, provavelmente, desativar as propriedades dos dados para que os filtros não sejam repostos quando os utilizadores alternarem entre vistas ao selecionar um marcador. 
+Também pode selecionar se cada marcador aplicará propriedades de **Dados** tais como filtros e segmentações de dados; propriedades de **Visualização**, tais como destaque e a sua visibilidade; bem como alterações à **Página atual** que apresenta a página que estava visível quando o marcador foi adicionado. Estas funcionalidades são úteis quando utiliza marcadores para alternar entre vistas de relatórios ou seleções de elementos visuais, caso em que pretenderá, provavelmente, desativar as propriedades dos dados para que os filtros não sejam repostos quando os utilizadores alternarem entre vistas ao selecionar um marcador. 
 
-Para fazer essas alterações, selecione as reticências junto ao nome do marcador, conforme mostrado na imagem anterior e, em seguida, selecione ou desselecione as marcas de verificação junto a *Dados*, *Apresentar* e outros controlos. 
+Para fazer essas alterações, selecione as reticências junto ao nome do marcador, em seguida, selecione ou anule a seleção das marcas de verificação próximas de **Dados**, **Visualização** e outros controlos. 
 
 ## <a name="arranging-bookmarks"></a>Dispor marcadores
-À medida que cria marcadores, pode considerar que a ordem pela qual são criados não é necessariamente a mesma ordem pela qual quer apresentá-los ao seu público. Não há problema, pode reorganizar facilmente a ordem dos marcadores.
+À medida que cria marcadores, pode considerar que a ordem pela qual são criados é diferente da ordem pela qual quer apresentá-los ao seu público. Não há problema, pode reorganizar facilmente a ordem dos marcadores.
 
-No painel **Marcadores**, basta arrastar e largar marcadores para alterar a sua ordem, conforme mostrado na imagem seguinte. A barra amarela entre os marcadores designa onde o marcador arrastado será colocado.
+- No painel **Marcadores**, arraste e solte os marcadores para alterar a respetiva ordem. 
 
-![Alterar a ordem de marcadores ao arrastar e largar](media/desktop-bookmarks/bookmarks_06.png)
+   A barra amarela entre os marcadores designa onde o marcador arrastado será colocado.
 
-A ordem dos marcadores pode tornar-se importante quando utiliza a funcionalidade **Ver** dos marcadores, conforme descrito na secção seguinte.
+   ![Alterar a ordem de marcadores ao arrastar e largar](media/desktop-bookmarks/bookmarks_06.png)
+
+A ordem dos marcadores pode ser importante quando utiliza a funcionalidade **Ver** dos marcadores, conforme descrito na secção seguinte.
 
 ## <a name="bookmarks-as-a-slide-show"></a>Marcadores como uma apresentação de diapositivos
 Quando tiver uma coleção de marcadores que queira apresentar, por ordem, pode selecionar **Ver** no painel **Marcadores** para iniciar uma apresentação de diapositivos.
 
-Quando estiver no modo **Visualização**, existem alguns aspetos a ter em consideração:
+Quando estiver no modo **Ver**, existem alguns aspetos a ter em consideração.
+
+   ![Funcionalidades da barra de título do marcador](media/desktop-bookmarks/bookmarks_07.png)
 
 1. O nome do marcador é apresentado na barra de título, que aparece na parte inferior da tela.
+
 2. A barra de título do marcador tem setas que lhe permitem mover para o marcador anterior ou seguinte.
-3. Pode sair do modo **Visualização** ao selecionar **Sair** no painel **Marcadores** ou ao selecionar o **X** localizado na barra de título do marcador. 
 
-![Funcionalidades da barra de título do marcador](media/desktop-bookmarks/bookmarks_07.png)
+3. Pode sair do modo **Ver** ao selecionar **Sair** no painel **Marcadores** ou ao selecionar o **X** na barra de título do marcador. 
 
-Quando estiver no **Visualização**, pode fechar o painel **Marcadores** (ao clicar no X nesse painel) para dar mais espaço à sua apresentação. No modo **Visualização**, todos os elementos visuais são interativos e estão disponíveis para realce cruzado, tal como acontece quando interage com eles. 
+Quando estiver no modo **Ver**, pode fechar o painel **Marcadores**, ao selecionar o **X** nesse painel, para dar mais espaço à sua apresentação. Quando estão no modo **Ver**, todos os elementos visuais são interativos e estão disponíveis para realce cruzado, tal como acontece quando interage diretamente com eles. 
 
-## <a name="visibility---using-the-selection-pane"></a>Visibilidade – através do painel Seleção
-Com o lançamento de marcadores, também é introduzido o novo painel **Seleção**. O painel **Seleção** fornece uma lista de todos os objetos na página atual e permite-lhe selecionar o objeto e especificar se um determinado objeto está visível. 
+## <a name="visibility-using-the-selection-pane"></a>Visibilidade: Utilizar o painel Seleção
+Relacionado com o painel **Marcadores**, o painel **Seleção** fornece uma lista de todos os objetos na página atual e permite-lhe selecionar o objeto e especificar se está visível. 
 
 ![Ativar o painel Seleção](media/desktop-bookmarks/bookmarks_08.png)
 
-Pode selecionar um objeto através do painel **Seleção**. Além disso, pode alternar se o objeto está atualmente visível ao clicar no ícone de olho à direita do elemento visual. 
+No painel **Seleção**, seleciona um objeto e alterna se o objeto está visível no momento, ao selecionar o ícone de olho à direita do objeto. 
 
-![Painel Seleção](media/desktop-bookmarks/bookmarks_09.png)
+![Painel de seleção](media/desktop-bookmarks/bookmarks_09.png)
 
-Quando é adicionado um marcador, o estado visível de cada objeto também é guardado com base na respetiva definição no painel **Seleção**. 
+Quando adiciona um marcador, o estado de visibilidade de cada objeto também é guardado com base na respetiva definição no painel **Seleção**. 
 
-É importante ter em atenção que as **segmentações de dados** continuam a filtrar uma página de relatório, independentemente de estarem visíveis. Como tal, pode criar vários marcadores diferentes, com diversas definições de segmentação de dados e fazer uma única página de relatório parecer muito diferente (e realçar diferentes informações) em vários marcadores.
+É importante ter em atenção que as segmentações de dados continuam a filtrar uma página de relatório, independentemente de estarem visíveis. Como tal, pode criar vários marcadores diferentes, com diversas definições de segmentação de dados e fazer uma única página de relatório parecer diferente (e realçar diferentes informações) em vários marcadores.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Marcadores para formas e imagens
-Também pode ligar formas e imagens a marcadores. Com esta funcionalidade, quando clica num objeto, será apresentado o marcador associado a esse objeto. Essa funcionalidade pode ser especialmente útil ao trabalhar com botões. Pode obter mais informações ao ler o artigo sobre como [utilizar botões no Power BI](desktop-buttons.md). 
+Também pode ligar formas e imagens a marcadores. Com esta funcionalidade, quando seleciona num objeto, é apresentado o marcador associado a esse objeto. Este recurso pode ser especialmente útil quando trabalha com botões. Para obter mais informações, veja [Utilizar botões no Power BI](desktop-buttons.md). 
 
-Para atribuir um marcador a um objeto, selecione o objeto e, em seguida, expanda a secção **Ação** no painel **Formatar Forma**, conforme mostrado na imagem seguinte.
+Para atribuir um marcador a um objeto: 
 
-![Adicionar uma ligação de marcador a um objeto](media/desktop-bookmarks/bookmarks_10.png)
+1. Selecione o objeto na tela do relatório. Em seguida, no painel **Formatar forma** que aparece, coloque o controlo de deslize **Ação** na posição **Ativado**.
 
-Depois de colocar o controlo de deslize **Ação** como **Ativado**, pode selecionar se o objeto é um botão de retrocesso, um marcador ou um comando de Perguntas e Respostas. Se selecionar vários marcadores, pode selecionar a qual deles o objeto está ligado.
+2. Expanda a secção **ação**. Em **Tipo**, selecione **Marcador**.
 
-Existem todos os tipos de coisas interessantes que pode fazer com marcadores ligados a objetos. Pode criar um índice visual da página de relatório ou pode fornecer diferentes vistas (por exemplo, tipos visuais) dessas mesmas informações apenas ao clicar num objeto.
+3. Em **Marcadores**, selecione um marcador.
 
-Quando estiver no modo de edição, pode utilizar ctrl+clique para seguir a ligação e, quando não estiver nesse modo, basta clicar no objeto para seguir a ligação. 
+   ![Adicionar uma ligação de marcador a um objeto](media/desktop-bookmarks/bookmarks_10.png)
+
+Existem todos os tipos de coisas interessantes que pode fazer com marcadores ligados a objetos. Pode criar um índice visual da página de relatório ou pode fornecer diferentes vistas (por exemplo, tipos visuais) dessas mesmas informações.
+
+Quando estiver no modo de edição, prima **Ctrl** e selecione a ligação para a seguir. Quando não estiver no modo de edição, selecione o objeto para seguir a ligação. 
 
 ## <a name="bookmark-groups"></a>Grupos de marcadores
 
-A partir da versão de agosto de 2018 do **Power BI Desktop**, poderá criar e utilizar grupos de marcadores. Um grupo de marcadores é uma coleção de marcadores que especifica e que pode ser apresentada e organizada como um grupo. 
+A partir da versão de agosto de 2018 do Power BI Desktop, poderá criar e utilizar grupos de marcadores. Um grupo de marcadores é uma coleção de marcadores que especifica e que pode ser apresentada e organizada como um grupo. 
 
-Para criar um grupo de marcadores, mantenha a tecla Ctrl premida e selecione os marcadores que pretende incluir no grupo. Em seguida, clique nas reticências ao lado de qualquer marcador selecionado e selecione **Grupo** no menu que é apresentado.
+Para criar um grupo de marcadores: 
+1. Prima **Ctrl** e selecione os marcadores que pretende incluir no grupo. 
 
-![Criar um grupo de marcadores](media/desktop-bookmarks/bookmarks_15.png)
+2. Selecione as reticências ao lado dos marcadores selecionados e, em seguida, selecione **Grupo** no menu que aparece.
 
-O **Power BI Desktop** dá automaticamente o nome *Grupo 1* ao grupo. Felizmente, pode fazer duplo clique no nome e mudá-lo para outro à sua escolha.
+   ![Criar um grupo de marcadores](media/desktop-bookmarks/bookmarks_15.png)
+
+O Power BI Desktop dá automaticamente o nome ao grupo *Grupo 1*. Pode selecionar as reticências ao lado deste nome, selecionar **Mudar o Nome** e renomeá-lo como quiser.
 
 ![Mudar o nome de um grupo de marcadores](media/desktop-bookmarks/bookmarks_16.png)
 
-Clicar no nome de um grupo de marcadores só expande ou fecha esse grupo e não representa um marcador individual. 
+Tal como qualquer grupo de marcadores, expandir o nome do grupo de marcadores só expande ou fecha esse grupo e não representa um marcador individual. 
 
-Ao utilizar a funcionalidade **Ver** dos marcadores, aplica-se o seguinte:
+Ao utilizar a funcionalidade **Ver** dos marcadores, aplicam-se os seguintes detalhes:
 
 * Se o marcador selecionado estiver num grupo quando selecionar **Ver** nos marcadores, apenas os marcadores *nesse grupo* serão apresentados na sessão de visualização. 
 
 * Se o marcador selecionado não estiver num grupo, ou se estiver no nível superior (como o nome de um grupo de marcadores), todos os marcadores de todo o relatório serão apresentados, incluindo os marcadores em qualquer grupo. 
 
-Para desagrupar marcadores, selecione qualquer marcador num grupo, clique nas reticências e, em seguida, selecione **Desagrupar** no menu que é apresentado. 
+Para desagrupar os marcadores: 
+1. Selecione qualquer marcador num grupo e selecione as reticências. 
 
-![Desagrupar um grupo de marcadores](media/desktop-bookmarks/bookmarks_17.png)
+2. Selecione **Desagrupar** no menu que é apresentado.
 
-Tenha em atenção que a seleção de **Desagrupar** em qualquer marcador de um grupo removerá todos os marcadores do grupo (elimina o grupo, mas não os marcadores em si). Para remover um só marcador de um grupo, tem de **Desagrupar** um dos membros desse grupo (o que elimina o agrupamento) e, em seguida, selecionar os membros que pretende incluir no novo grupo (ao manter a tecla Ctrl premida e clicar em cada marcador) e selecionar **Grupo** novamente. 
+   ![Desagrupar um grupo de marcadores](media/desktop-bookmarks/bookmarks_17.png)
+
+   Selecionar **Desagrupar** em qualquer marcador de um grupo removerá todos os marcadores do grupo; elimina o grupo, mas não os marcadores em si. 
+
+Para remover um único marcador de um grupo: 
+1. **Desagrupe** qualquer membro desse grupo, o que elimina todo o agrupamento. 
+
+2. Selecione os membros que pretende incluir no novo grupo ao premir **Ctrl** e selecionar cada marcador, e selecione novamente **Grupo**. 
 
 
 ## <a name="using-spotlight"></a>Utilizar o modo Em Destaque
-Outra funcionalidade lançada com os marcadores é o modo **Em Destaque**. Com o modo **Em Destaque**, pode chamar a atenção para um gráfico específico, por exemplo, quando apresentar os seus marcadores no modo **Visualização**.
+Outra funcionalidade lançada com os marcadores é o modo *Em Destaque*. Com o modo Em Destaque, pode chamar a atenção para um gráfico específico, por exemplo, quando apresentar os seus marcadores no modo **Ver**.
 
-Vamos comparar o modo **Em Destaque** com o modo de **detalhe** para ver as diferenças.
+Vamos comparar o modo Em Destaque com o modo de detalhe para ver as diferenças:
 
-1. No modo de **detalhe**, pode ter um elemento visual a preencher toda a tela ao selecionar o ícone **modo de detalhe**.
-2. Ao utilizar o modo **Em Destaque**, pode realçar um elemento visual no respetivo tamanho original, fazendo com que todos os outros elementos visuais na página desvaneçam para uma quase transparência. 
+1. Com o modo de detalhe, seleciona o ícone **Modo de detalhe** de um elemento visual, o que faz com que o elemento visual preencha a tela inteira.
 
-![Comparar os modos de detalhe e Em Destaque](media/desktop-bookmarks/bookmarks_11.png)
+2. Com o modo Em Destaque, seleciona o modo **Em Destaque** das reticências de um elemento visual para realçar um elemento visual no seu tamanho original, o que faz com que todos os outros visuais na página se realcem à transparência próxima. 
 
-Quando o elemento visual na imagem anterior tiver o respetivo ícone de **detalhe** clicado, a página tem o seguinte aspeto:
+![Comparar o modo Em Destaque ao modo de detalhe](media/desktop-bookmarks/bookmarks_11.png)
 
-![modo de detalhe](media/desktop-bookmarks/bookmarks_12.png)
+Quando seleciona o ícone **Modo de detalhe** do elemento visual na imagem anterior, a página aparece da seguinte maneira:
 
-Em contrapartida, quando o modo **Em Destaque** é selecionado no menu de reticências do elemento visual, a página parece ter o seguinte aspeto:
+![Modo de detalhe](media/desktop-bookmarks/bookmarks_12.png)
 
-![modo em destaque](media/desktop-bookmarks/bookmarks_13.png)
+Em contrapartida, quando o modo **Em Destaque** é selecionado no menu de reticências do elemento visual, a página aparece como se segue:
 
-Se qualquer um dos modos for selecionado quando é adicionado um marcador, esse modo (detalhe ou Em Destaque) é mantido no marcador.
+![Modo Em Destaque](media/desktop-bookmarks/bookmarks_13.png)
+
+Se o modo de detalhe ou o modo Em Destaque for selecionado quando adiciona um marcador, esse modo será mantido no marcador.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Marcadores no serviço Power BI
-Quando publica um relatório no **serviço Power BI** com, pelo menos, um marcador, pode ver e interagir com esses marcadores no **serviço Power BI**. Quando estão disponíveis marcadores num relatório, pode selecionar **Ver > Painel de seleção** ou **Ver > Painel de marcadores** para mostrar todos os painéis.
+Quando publica um relatório no serviço Power BI com, pelo menos, um marcador, pode ver e interagir com esses marcadores no serviço Power BI. Quando os marcadores estão disponíveis num relatório, pode ver os painéis **Seleção** e **Marcadores** ao selecionar **Ver** > **painel de Seleção** ou **Ver** > **painel Marcadores**. 
 
 ![Ver os painéis de marcadores e de seleção no serviço Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
-No **serviço Power BI**, o **Painel de marcadores** funciona tal como no **Power BI Desktop**, incluindo a capacidade de selecionar **Ver** para mostrar os marcadores por ordem, como uma apresentação de diapositivos.
+No serviço Power BI, o painel **Marcadores** funciona tal como no Power BI Desktop, incluindo a capacidade de selecionar **Ver** para mostrar os marcadores por ordem, como uma apresentação de diapositivos.
 
-Tenha em atenção que tem de utilizar a barra de título do marcador cinzenta para navegar pelos marcadores e não as setas pretas (as setas pretas movem-no nas páginas de relatório, não nos marcadores).
+Utilize a barra de título do marcador cinzento, em vez das setas pretas, para navegar pelos marcadores. (As setas pretas permitem-lhe deslocar-se nas páginas do relatório, não nos marcadores.)
+
+## <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Ativar a pré-visualização de marcadores (versões anteriores a março de 2018)
+A partir da versão de março de 2018 do Power BI Desktop, os marcadores estarão disponíveis para todos os utilizadores. 
+
+Recomendamos sempre que atualize para a versão mais recente. Porém, se tiver uma versão anterior do Power BI Desktop, pode experimentar a nova funcionalidade de marcadores a partir da versão de outubro de 2017 do Power BI Desktop e para relatórios compatíveis com marcadores, também no serviço Power BI. 
+
+Para ativar a funcionalidade dos marcadores de pré-visualização: 
+
+1. Selecione **Ficheiro** > **Opções e Definições** > **Opções** > **Funcionalidades de Pré-visualização** e, em seguida, selecione **Marcadores**. 
+
+   ![Ativar marcadores na janela Opções](media/desktop-bookmarks/bookmarks_02.png)
+
+2. Reinicie Power BI Desktop para ativar a versão de pré-visualização dos marcadores.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-Nesta versão dos **marcadores**, existem algumas limitações e considerações a não esquecer.
+Nesta versão das funcionalidades dos marcadores, existem algumas limitações e considerações a não esquecer.
 
-* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
-* Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este será apresentado no estado predefinido. Isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
-* O movimento entre os elementos visuais depois de ser criado um marcador será refletido no marcador. 
-
+* A maioria dos elementos visuais personalizados deve funcionar devidamente com a marcação. Contudo, caso se depare com problemas com um marcador e um elemento visual personalizado, contacte o criador desse elemento visual personalizado e peça-lhe para adicionar suporte para marcadores ao elemento visual. 
+* Se adicionar um elemento visual numa página de relatório depois de criar um marcador, este é apresentado no estado predefinido. Ou seja, isto também significa que se apresentar uma segmentação de dados numa página onde criou anteriormente marcadores, esta irá estar no estado predefinido.
+* Mover o elemento visual depois de ser criado um marcador será refletido automaticamente no marcador. 
 
 ## <a name="next-steps"></a>Próximos passos
-Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os artigos seguintes:
+Para obter mais informações sobre funcionalidades semelhantes ou como interagir com marcadores, veja os seguintes artigos:
 
 * [Utilizar a pormenorização no Power BI Desktop](desktop-drillthrough.md)
 * [Apresentar um mosaico do dashboard ou um elemento visual do relatório no modo de detalhe](consumer/end-user-focus.md)

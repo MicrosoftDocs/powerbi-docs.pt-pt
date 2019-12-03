@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102071"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265193"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
@@ -49,7 +49,7 @@ Os administradores do Power BI aprovam e implementam elementos visuais do Power 
 
 Os membros da comunidade e a Microsoft contribuíram com os seus elementos visuais do Power BI para o benefício do público e publicaram-nos no marketplace do [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Pode transferir estes elementos visuais e adicioná-los aos seus relatórios do Power BI. A Microsoft testou e aprovou estes elementos visuais do Power BI ao nível da funcionalidade e da qualidade.
 
-O que é o [AppSource](office-store.md)? É o local onde se encontram as aplicações, os suplementos e as extensões para o seu software da Microsoft. O AppSource liga milhões de utilizadores de produtos como o Office 365, Azure, Dynamics 365, Cortana e Power BI a soluções que os ajudam a trabalhar com mais eficácia, mais informações e melhores visuais.
+O que é o [AppSource](office-store.md)? É o local onde se encontram as aplicações, os suplementos e as extensões para o seu software da Microsoft. O AppSource liga milhões de utilizadores de produtos como o Office 365, Azure, Dynamics 365 e Power BI a soluções que os ajudam a trabalhar com mais eficácia, mais informações e melhores visuais.
 
 ### <a name="certified-visuals"></a>Elementos visuais certificados
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875614"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410764"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Técnicas de redução de dados para modelos de importação
 
@@ -24,11 +24,11 @@ Os modelos de importação são carregados com dados que são comprimidos, otimi
 Apesar da eficácia do motor de armazenamento VertiPaq,é importante que faça todos os possíveis para minimizar os dados a carregar nos seus modelos. Esta recomendação é particularmente importante para grandes modelos ou modelos que se irão tornar maiores ao longo do tempo. Eis quatro motivos para esta recomendação:
 
 - Os tamanhos de modelo maiores podem não ser suportados pela sua capacidade. A capacidade partilhada pode alojar modelos com um tamanho máximo de 1 GB, enquanto as capacidades Premium podem alojar modelos com um tamanho máximo de 13 GB. Para obter mais informações, leia o artigo [Suporte do Power BI Premium para grandes conjuntos de dados](../service-premium-large-datasets.md).
-- Os tamanhos de modelo mais pequenos reduzem a disputa de recursos de capacidade, especialmente da memória. Esta situação permite o carregamento de mais modelos em simultâneo e por maiores períodos de tempo, o que resulta em taxas de expulsão mais baixas. Para obter mais informações, leia o tópico [Funcionamento das Capacidades](../whitepaper-powerbi-premium-deployment.md#how-capacities-function) do documento técnico [Implementação do Power BI Premium](../whitepaper-powerbi-premium-deployment.md).
+- Os tamanhos de modelo mais pequenos reduzem a disputa de recursos de capacidade, especialmente da memória. Esta situação permite o carregamento de mais modelos em simultâneo e por maiores períodos de tempo, o que resulta em taxas de expulsão mais baixas. Para obter mais informações, veja [Gerir capacidades Premium](../service-premium-capacity-manage.md).
 - Os modelos mais pequenos alcançam uma atualização de dados mais rápida, o que resulta em menores taxas de latência, num maior débito de atualização dos conjuntos de dados e em menos pressão sobre o sistema de origem e os recursos de capacidade.
 - As contagens de linhas de tabela mais pequenas podem levar a avaliações de cálculos mais rápidas, o que pode proporcionar um melhor desempenho das consultas em geral.
 
-Este artigo aborda oito técnicas de redução de dados diferentes. Incluem-se:
+Este artigo aborda oito técnicas de redução de dados diferentes. Estas técnicas incluem:
 
 - [Remover colunas desnecessárias](#remove-unnecessary-columns)
 - [Remover linhas desnecessárias](#remove-unnecessary-rows)
@@ -46,9 +46,9 @@ As colunas de tabela de modelo servem para dois fins principais:
 - **Criação de relatórios**, para conseguir estruturas de relatórios que filtram, agrupam e resumem os dados de modelo adequadamente
 - **Estruturação de modelos**, ao suportar relações de modelos, cálculos de modelos, funções de segurança e até mesmo a formatação de cor dos dados
 
-As colunas que não servem para estes fins irão provavelmente ser removidas. A remoção de colunas também se denomina _filtragem vertical_.
+As colunas que não servem para estes fins podem provavelmente ser removidas. A remoção de colunas também se denomina _filtragem vertical_.
 
-Recomendamos que crie modelos que tenham exatamente o número certo de colunas, com base nos requisitos de criação de relatórios conhecidos. Estes requisitos podem sofrer alterações ao longo do tempo, mas tenha em atenção que é mais fácil adicionar colunas posteriormente do que removê-las posteriormente. A remoção de colunas pode danificar os relatórios ou a estrutura dos modelos.
+Recomendamos que crie modelos que tenham exatamente o número certo de colunas, com base nos requisitos de criação de relatórios conhecidos. Os seus requisitos podem sofrer alterações ao longo do tempo, mas tenha em atenção que é mais fácil adicionar colunas posteriormente do que removê-las posteriormente. A remoção de colunas pode danificar os relatórios ou a estrutura dos modelos.
 
 ## <a name="remove-unnecessary-rows"></a>Remover linhas desnecessárias
 
@@ -62,7 +62,7 @@ A **filtragem pelo tempo** implica a limitação da quantidade do _histórico de
 
 A técnica mais eficaz para reduzir o tamanho de um modelo é, provavelmente, o carregamento de dados pré-resumidos. Esta técnica pode ser utilizada para aumentar a capacidade das tabelas de factos. No entanto, há uma clara contrapartida: a perda de detalhes.
 
-Por exemplo, uma tabela de factos de vendas de origem armazena uma linha por linha de ordem. É possível alcançar uma redução de dados significativa ao resumir todas as métricas de vendas e agrupar por data, cliente e produto. É possível alcançar uma redução de dados ainda mais significativa ao agrupar por data _ao nível do mês_. Esta estratégia pode levar a uma possível redução de 99% no tamanho do modelo. No entanto, a criação de relatórios a nível do dia ou a nível de ordem individual já não é possível. A decisão de resumir dados de factos implica sempre contrapartidas. Esta contrapartida pode ser mitigada por um Design de modelo misto. Esta opção será abordada posteriormente no tópico [Mudar para o Modo misto](#switch-to-mixed-mode).
+Por exemplo, uma tabela de factos de vendas de origem armazena uma linha por linha de ordem. É possível alcançar uma redução de dados significativa ao resumir todas as métricas de vendas e agrupar por data, cliente e produto. É possível alcançar uma redução de dados ainda mais significativa ao agrupar por data _ao nível do mês_. Esta estratégia pode levar a uma possível redução de 99% no tamanho do modelo. No entanto, a criação de relatórios a nível do dia ou a nível de ordem individual já não é possível. A decisão de resumir dados de factos implica sempre contrapartidas. A contrapartida pode ser mitigada por um Design de modelo misto e esta opção está descrita na técnica [Mudar para o Modo misto](#switch-to-mixed-mode).
 
 ## <a name="optimize-column-data-types"></a>Otimizar os tipos de dados de colunas
 
@@ -94,7 +94,7 @@ O Power BI Desktop inclui uma opção intitulada _Data/hora automáticas_. Quand
 
 No Power BI Desktop, um design de Modo misto produz um Modelo composto. Resumidamente, permite-lhe determinar o modo de armazenamento _de cada tabela_. Assim, cada tabela pode ter a sua propriedade de Modo de Armazenamento definida como Importar ou DirectQuery (outra opção é Duplo).
 
-Uma técnica eficaz para reduzir o tamanho do modelo é definir a propriedade Modo de Armazenamento de tabelas de factos maiores para DirectQuery. Tenha em atenção que esta abordagem de criação pode funcionar bem em conjunto com a estratégia abordada no anterior tópico [Agrupar por e resumir](#group-by-and-summarize). Por exemplo, os dados de vendas resumidos podem ser utilizados para alcançar relatórios resumidos com elevado desempenho. Uma página de pormenorização pode apresentar as vendas granulares de contextos de filtros específicos e diminuir estes contextos, apresentando todas as ordens de venda dentro do contexto. Neste exemplo, a página de pormenorização iria incluir elementos visuais com base numa tabela do DirectQuery para obter os dados de ordens de venda.
+Uma técnica eficaz para reduzir o tamanho do modelo é definir a propriedade Modo de Armazenamento de tabelas de factos maiores para DirectQuery. Tenha em atenção que esta abordagem de criação pode funcionar bem em conjunto com a estratégia abordada na técnica anterior [Agrupar por e resumir](#group-by-and-summarize). Por exemplo, os dados de vendas resumidos podem ser utilizados para alcançar relatórios resumidos com elevado desempenho. Uma página de pormenorização pode apresentar as vendas granulares de contextos de filtros específicos e diminuir estes contextos, apresentando todas as ordens de venda dentro do contexto. Neste exemplo, a página de pormenorização iria incluir elementos visuais com base numa tabela do DirectQuery para obter os dados de ordens de venda.
 
 No entanto, há muitas implicações de segurança e desempenho relacionadas com os Modelos compostos. Para obter mais informações, leia o artigo [Utilizar modelos compostos no Power BI Desktop](../desktop-composite-models.md).
 
@@ -104,3 +104,4 @@ Para obter mais informações sobre a criação de Modelos de importação do Po
 
 - [Utilizar modelos compostos no Power BI Desktop](../desktop-composite-models.md)
 - [Modo de armazenamento no Power BI Desktop](../desktop-storage-mode.md)
+- Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

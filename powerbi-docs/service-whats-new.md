@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099723"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265344"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>What's new in the Power BI service (Novidades no serviço Power BI)
 Consulte esta página para ver problemas conhecidos e funcionalidades lançados recentemente no **Serviço Power BI**. Para obter informações sobre “Novidades” relacionadas, veja:
@@ -30,7 +30,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>Outubro de 2019
-* Nova ação do Microsoft Flow para atualizar conjuntos de dados do Power BI.
+* Nova ação do Power Automate para atualizar conjuntos de dados do Power BI.
 * [Lista de contactos](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para relatórios e dashboards no serviço Power BI.
 
 ## <a name="previous-months-2019"></a>Meses anteriores (2019)
@@ -190,11 +190,11 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Suporte para [subscrições de correio eletrónico](consumer/end-user-subscribe.md) nos dashboards.
 * Inspecione e faça o diagnóstico da razão pela qual o tempo de carregamento é fraco para dashboards utilizando o Inspector de Desempenho.
 * Snowflake e SAP BusinessWarehouse DirectQuery agora suportados para o gateway de dados no local.
-* Novas [APIs para gerir a atualização de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço Power BI.
+* Novas [APIs para gerir a atualizçaão de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço Power BI.
 
 ### <a name="june-2017"></a>Junho de 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) disponibilizado.
-* Vários melhoramentos de API para [automatizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar e efetuar o reenlace de relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [atualizar enlaces do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito, muito mais
+* Vários melhoramentos de API para [automarizar a atualização agendada](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [clonar e efetuar o reenlace de relatórios](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [atualizar enlaces do gateway](https://msdn.microsoft.com/library/mt784650.aspx) e muito, muito mais
 * Ligações relativas nas aplicações de Power BI desde mosaicos do dashboard a outros dashboards e relatórios.
 * [Conector impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) geralmente disponível no Power BI Desktop.
 * Expanda as funcionalidades visuais do Power BI com [visuais interativos personalizados de R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/).
@@ -227,7 +227,7 @@ Consulte também os canais de YouTube para obter informações sobre "Novidades"
 * Estão disponíveis globalmente [registos de auditoria do Power BI ](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) no Office 365 que fazem a auditoria o portal.
 * A versão 1.4 das [ferramentas de programador e APIs dos visuais personalizados](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) foi lançada.
 * [Conjunto de funcionalidades de transmissão em fluxo em tempo real](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) lançado para disponibilidade geral.
-* [Envie dados para o Power BI com o Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) sem ter de escrever uma linha de código.
+* [Envie dados para o Power BI com o Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) sem ter de escrever uma linha de código.
 * Pré-visualização: [Subscrever páginas de relatórios](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) para se manter atualizado em relação aos dados.
 * Utilize o Pacote de Conteúdos do Azure AD para obter mais informações sobre como os seus colaboradores e parceiros estão a utilizar o Azure AD.
 
@@ -530,7 +530,6 @@ Para todos os detalhes, incluindo um vídeo que demonstra muitas dessas atualiza
 
 * Descobrir tendências e padrões automaticamente num conjunto de dados com o Insights Rápido:  [vídeo](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) ou  [artigo](consumer/end-user-insights.md)
 * [Visualizar os dados do VMob no Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Integração do Power BI com o Cortana](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Pré-visualização do gateway do Power BI para enterprise](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Apresentação de um novo pacote de conteúdos: [Search Analytics from Bing on Power BI dashboards](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx) (Pesquisar a Análise no Bing nos dashboards do Power BI)
 * Novos melhoramentos centrados no programador: [duas novas APIs e registo de aplicações mais fácil](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
@@ -617,7 +616,7 @@ Consulte o [blogue](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi
 * Com a atualização de serviço desta semana, quando cria novos relatórios, pode agora escolher de entre vários tamanhos de página, bem como definir o seu próprio tamanho de página. Esta opção controla o tamanho e a proporção de cada página no relatório.
 * Adicionámos suporte adicional de formatação visual para imagens e gráficos de bolhas. Pode bloquear a proporção durante o redimensionamento de imagens para evitar a distorção da imagem, e as bolhas do gráfico de dispersão podem ser configuradas para serem preenchidas ou não.
 * Atualmente, o Power BI enviará convites de partilha para um endereço de e-mail alternativo. Quando um dashboard é partilhado consigo, enviamos a ligação de convite de partilha para o seu endereço de e-mail original e para o seu endereço de e-mail alternativo (se o tiver configurado).
-* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utilizadores utilizando as instruções descritas [aqui](https://go.microsoft.com/fwlink/?LinkId=627174).
+* O Power BI está disponível para todos os clientes, incluindo os da arquitetura de O365 Dedicado a Multi-inquilino (DonMT). Irá utilizar o Power BI como um serviço partilhado no modo de multi-inquilino. Na maioria dos casos, pode registar-se no Power BI seguindo o [processo de inscrição automático](https://powerbi.microsoft.com/) – basta inserir o seu endereço de e-mail do trabalho, inserir o nome e palavra-passe para começar. Se for administrador de inquilino, pode atribuir licenças aos utlizadores utilizando as instruções descritas [aqui](https://go.microsoft.com/fwlink/?LinkId=627174).
 * Os Registos de Auditoria do Azure permitem-lhe visualizar registos operacionais do plano de controlo na sua subscrição do Azure. O pacote de conteúdos dos Registos de Auditoria do Azure do Power BI pode ajudá-lo a analisar e visualizar facilmente a imensa informação contida nestes registos. O pacote de conteúdos permite-lhe ligar-se aos seus dados e começar a descobrir informações com um dashboard e relatórios prontos a utilizar. Leia o nosso [blogue](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx) e a [documentação online](service-connect-to-azure-audit-logs.md) para obter mais informações.
 
 [Saiba mais através do nosso blogue](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx).

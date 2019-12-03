@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
+ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860802"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74415432"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -105,7 +105,14 @@ Para utilizadores do Power BI, atualizar dados significa normalmente importar da
 
 Se tiver criado os conjuntos de dados e os relatórios com base num ficheiro do Power BI Desktop, livro do Excel ou ficheiro .csv (valores separados por vírgulas) no OneDrive ou SharePoint Online, o Power BI faz outro tipo de atualização, conhecida como atualização do OneDrive. Para obter mais informações, veja [Obter dados de ficheiros para o Power BI](service-get-data-from-files.md).
 
-Ao contrário de uma atualização do conjunto de dados, durante a qual o Power BI importa dados de uma origem de dados para um conjunto de dados, a atualização do OneDrive sincroniza os conjuntos de dados e relatórios com os respetivos ficheiros de origem. Por predefinição, o Power BI verifica de hora a hora se um conjunto de dados ligado a um ficheiro no OneDrive ou SharePoint Online necessita de sincronização. Para rever os últimos ciclos de sincronização, consulte o separador OneDrive no histórico de atualizações. A seguinte captura de ecrã mostra um ciclo de sincronização concluído para um conjunto de dados de exemplo.
+Ao contrário de uma atualização do conjunto de dados, durante a qual o Power BI importa dados de uma origem de dados para um conjunto de dados, a atualização do OneDrive sincroniza os conjuntos de dados e relatórios com os respetivos ficheiros de origem. Por predefinição, o Power BI verifica de hora a hora se um conjunto de dados ligado a um ficheiro no OneDrive ou SharePoint Online necessita de sincronização.
+
+> [!IMPORTANT]
+> Tenha cuidado com a forma como lida com a gestão de ficheiros no OneDrive. Quando define um ficheiro do OneDrive como a origem de dados, o Power BI referencia o ID de item do ficheiro quando executa a atualização, o que pode provocar problemas em alguns cenários. Considere o cenário no qual tem um ficheiro mestre _A_ e uma cópia de produção desse ficheiro _B_, e configura a atualização do OneDrive para o ficheiro B. Se depois _copiar_ o ficheiro A em vez do ficheiro B, a operação de cópia eliminará o antigo ficheiro B e criará um novo ficheiro B com um ID de item diferente, o que interrompe a atualização do OneDrive. Em vez disso, deve carregar e substituir o ficheiro B, o que mantém o mesmo ID de item.
+
+Pode mover o ficheiro para outra localização (ao arrastar e soltar, por exemplo) e a atualização irá continuar a funcionar porque o PBI ainda conhece o fileID. No entanto, se copiar esse ficheiro para outra localização, serão criados uma nova instância do ficheiro e um novo fileID. Como tal, a sua referência de ficheiro do Power BI já não será válida e a atualização irá falhar.
+
+Para rever os últimos ciclos de sincronização, consulte o separador OneDrive no histórico de atualizações. A seguinte captura de ecrã mostra um ciclo de sincronização concluído para um conjunto de dados de exemplo.
 
 ![Histórico de atualizações](media/refresh-data/refresh-history.png)
 

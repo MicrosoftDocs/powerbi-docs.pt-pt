@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34b0bd1a59ec66cf7a2e5eb41d2c1ec12a39d1e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128116"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410830"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Atualizar as áreas de trabalho clássicas para as novas áreas de trabalho no Power BI
 
 Este artigo explica como atualizar uma área de trabalho clássica para a nova experiência de área de trabalho. Pode atualizar qualquer área de trabalho clássica. As novas áreas de trabalho têm funções de área de trabalho mais granulares, para que possa gerir melhor o acesso ao conteúdo. Tem maior flexibilidade para gerir as áreas de trabalho atualizadas, uma vez que estão ligadas mais livremente ao grupo original do Office 365. Saiba mais sobre a [nova experiência de área de trabalho](../service-new-workspaces.md). 
 
 >[!NOTE]
->Esta documentação é de pré-lançamento e aborda uma capacidade que ainda não está disponível. Publicámos esta informação para que se possa preparar para a nova capacidade e esclarecer quaisquer dúvidas que possa ter antes do lançamento.  
+>A atualização da área de trabalho está disponível como uma Pré-visualização Pública. 
 
 ![Atualização bem-sucedida](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -198,7 +198,15 @@ Algumas organizações querem mover muitas ou todas as áreas de trabalho para a
 2. Trabalhe com os proprietários individuais do grupo do Office 365 ou com o seu Administrador do Office 365, para que atualizem as áreas de trabalho. Se quiser atualizar a área de trabalho, precisará de se tornar num Proprietário do grupo.
 
 A funcionalidade de atualização da área de trabalho não fornece ferramentas para uma atualização em massa ou programática. Além disso, os novos grupos do Office 365 criados na sua organização continuarão a aparecer no Power BI. 
-    
+   
+   
+## <a name="known-issues"></a>Problemas conhecidos
+
+Existem vários problemas conhecidos que poderá encontrar:
+- Após a atualização, os utilizadores poderão ver uma caixa de diálogo de aviso "Falha ao carregar modelo". Esta mensagem é erradamente apresentada e pode ser ignorada. 
+- Após a atualização, alguns nomes de áreas de trabalho estão diferentes. Quando tal acontecer, o nome da área de trabalho será revertido para um nome anterior ou ficará em branco. Para resolver este problema, mude o nome da área de trabalho para o nome pretendido.
+- Após atualizar uma área de trabalho que tinha um pacote de conteúdos instalado, poderá ver dashboards adicionais na área de trabalho que não eram visíveis antes da atualização. Tal acontece em alguns casos, quando um pacote de conteúdos não foi atualizado recentemente. Pode remover estes dashboards com segurança.
+
 
 
 ## <a name="next-steps"></a>Próximos passos

@@ -2,20 +2,20 @@
 title: Gráficos de dispersão, de bolhas e de pontos no Power BI
 description: Gráficos de dispersão, de pontos e de bolhas no Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870821"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311661"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersão, de bolhas e de pontos no Power BI
 
@@ -131,13 +131,30 @@ Agora, vamos adicionar uma terceira dimensão.
     > [!NOTE]
     > Mais pontos de dados podem significar mais tempo de carregamento. Se optar por publicar os relatórios com os limites na extremidade maior da escala, confirme que testa os seus relatórios via Web e móvel. Confirme que o desempenho do gráfico corresponde às expetativas dos seus utilizadores.
 
-1. Pode [formatar as cores de visualização, as etiquetas, os títulos, o fundo e muito mais](service-getting-started-with-color-formatting-and-axis-properties.md).
-
-    Para [melhorar a acessibilidade](../desktop-accessibility.md), considere adicionar formas de marcador a cada linha. Para selecionar a forma de marcador, expanda **Formas**, selecione **Forma do marcador** e selecione uma forma.
+1. Continue a formatar as cores de visualização, as etiquetas, os títulos, o fundo e muito mais. Para [melhorar a acessibilidade](../desktop-accessibility.md), considere adicionar formas de marcador a cada linha. Para selecionar a forma de marcador, expanda **Formas**, selecione **Forma do marcador** e selecione uma forma.
 
     ![Captura de ecrã do menu pendente Formas com as opções de Forma do marcador realçadas.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    Pode alterar a forma do marcador para um diamante, triângulo ou quadrado. Utilizar uma forma do marcador diferente para cada linha permite que os leitores do relatório distingam mais facilmente as linhas (ou áreas) umas das outras.
+    Altere a forma do marcador para um diamante, triângulo ou quadrado. Utilizar uma forma do marcador diferente para cada linha permite que os leitores do relatório distingam mais facilmente as linhas (ou áreas) umas das outras.
+
+1. Abra o painel de Análise ![Captura de ecrã a mostrar o painel de Análise.](media/power-bi-visualization-scatter/power-bi-analytics.png) para adicionar informações adicionais à sua visualização.  
+    - Adicione uma Linha mediana. Selecione **Linha mediana** > **Adicionar**. Por predefinição, o Power BI adiciona uma linha mediana para *Sales per sq ft*. Isto não é muito útil, uma vez que temos conhecimento de que existem dez pontos de dados e sabemos que a mediana irá ser criada com cinco pontos de dados de cada lado. Em vez disso, mude a **Medida** para *Total sales variance %* .  
+
+        ![Captura de ecrã a mostrar o gráfico de bolhas com a linha mediana adicionada.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - Adicione sombreado de simetria para mostrar que pontos têm um valor mais alto da medida do eixo x em comparação com a medida do eixo y e vice-versa. Ao ativar o sombreado de simetria no painel de Análise, o Power BI apresenta-lhe o fundo do seu gráfico de dispersão simetricamente baseado nos limites superior e inferior do eixo atual. Esta é uma forma muito rápida de identificar a medida do eixo que um ponto de dados favorece, especialmente quando há um intervalo de eixos diferente para os eixos x e y.
+
+        a. Altere o campo **Total sales variance %** para **Gross margin last year %** .
+
+        ![Captura de ecrã a mostrar o gráfico de bolhas com a linha mediana adicionada.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. No painel de Análise, adicione o **Sombreado de simetria**. Com base no sombreado, podemos ver que Hosiery (a bolha verde na área sombreada rosa) é a única categoria que favorece a margem bruta em detrimento das respetivas vendas por metro quadrado da loja. 
+
+        ![Captura de ecrã a mostrar o gráfico de bolhas com o sombreado de simetria adicionado.](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - Continue a explorar o painel de Análise para descobrir informações relevantes sobre os seus dados. 
+
+        ![Captura de ecrã a mostrar o gráfico de bolhas com o sombreado de simetria adicionado.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Criar um gráfico de pontos
 

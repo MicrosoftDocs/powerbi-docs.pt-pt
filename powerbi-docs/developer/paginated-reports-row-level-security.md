@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880458"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311490"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementar segurança ao nível de linhas nos relatórios paginados incorporados (pré-visualização)
 
@@ -30,7 +30,7 @@ Ao aplicar a segurança ao nível de linha a um relatório paginado do Power BI,
 
 Após atribuir o parâmetro ao **UserID**, utilize a API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) para obter o token de incorporação.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>Utilizar UserID como filtro ao nível de relatório ou consulta
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Utilizar UserID como filtro ao nível de relatório ou consulta
 
 Pode utilizar **UserId** como *filtro* ou numa *consulta* para a origem de dados no [Paginated Report Builder do Power BI](../report-builder-power-bi.md).
 
@@ -66,7 +66,7 @@ Pode utilizar **UserId** como *filtro* ou numa *consulta* para a origem de dados
 
     ![Parâmetros do Power BI Report Builder](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. No **Nome de Parâmetro**, introduza **@UserID** ; no **Valor de Parâmetro**, adicione **[&UserID]** .
+2. No **Nome de Parâmetro**, introduza **\@UserID**; no **Valor de Parâmetro**, adicione **[&UserID]** .
 
     ![Nome de parâmetro do Power BI Report Builder](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 
