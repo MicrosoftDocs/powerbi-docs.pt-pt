@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
-  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.openlocfilehash: f0ce469a57eb36d53769272feaff1b124c2a77ff
+  ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 11/16/2019
-  ms.locfileid: "74133848"
+  ms.lasthandoff: 12/02/2019
+  ms.locfileid: "74695249"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -45,6 +45,14 @@ landingContent:
       url: dax-divide-function-operator.md
     - text: Appropriate use of error functions (Utilização adequada de funções de erro)
       url: dax-error-functions.md
+    - text: Utilizar SELECTEDVALUE em vez de VALUES
+      url: dax-selectedvalue.md
+    - text: COUNTROWS em vez de COUNT
+      url: dax-countrows.md
+    - text: Utilizar variáveis para melhorar fórmulas
+      url: dax-variables.md
+    - text: Evitar converter espaços em branco em valores
+      url: dax-avoid-converting-blank.md
 - title: Fluxos de Dados
   linkLists:
   - linkListType: concept

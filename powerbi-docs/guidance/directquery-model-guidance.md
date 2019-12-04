@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d7fcc054ccf0bea1a036eaf24cb9631a2abb3969
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410887"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478620"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
 
@@ -99,7 +99,7 @@ Os relatórios baseados num conjunto de dados do DirectQuery podem ser otimizado
     
 - **Aplique filtros primeiro:** Quando criar os relatórios pela primeira vez, recomendamos que aplique todos os filtros disponíveis, ao nível do relatório, da página ou do elemento visual, antes de mapear os campos para os campos visuais. Por exemplo, em vez de arrastar nas medidas **País** e **Vendas** e, em seguida, filtrar por um ano específico, aplique primeiro o filtro no campo **Ano**. Isto deve-se ao facto de que cada passo da criação de elementos visuais enviar uma consulta e, embora seja possível fazer outras alterações antes da conclusão da primeira consulta, continua a haver uma carga desnecessária na origem de dados subjacente. Normalmente, a aplicação de filtros logo no início faz com que estas consultas intermédias sejam menos dispendiosas e mais rápidas. Além disso, a não aplicação de filtros antecipadamente pode exceder o limite de um milhão de linhas, conforme descrito acima.
 - **Limite o número de elementos visuais numa página:** Quando uma página de relatório é aberta (e quando os filtros da página são aplicados), todos os elementos visuais numa página são atualizados. No entanto, existe um limite no número de consultas que podem ser enviadas em paralelo, imposto pelo ambiente do Power BI e pela definição do modelo **Máximo de Ligações por Origem de Dados**, conforme descrito acima. Assim, à medida que o número de elementos visuais da página aumenta, maior a probabilidade de serem atualizados em série. Isto aumenta o tempo necessário para atualizar a página inteira, bem como a probabilidade de os elementos visuais apresentarem resultados inconsistentes (para origens de dados voláteis). Por estes motivos, é recomendado limitar o número de elementos visuais em cada página e criar mais páginas simples. A substituição de múltiplos elementos visuais de cartão por um único elemento visual de cartão de várias linhas pode alcançar um esquema de página semelhante.
-- **Desative a interação entre elementos visuais:** As interações de destaque e filtragem cruzados exigem que as consultas sejam submetidas para a origem de dados subjacente. A menos que estas interações sejam necessárias, é recomendado desativá-las se o tempo necessário para responder às seleções dos utilizadores for excessivamente longo. Estas interações podem ser desativadas para todo o relatório (conforme descrito acima para as opções de Redução de Consultas) ou numa base caso a caso, conforme descrito no artigo [How visuals cross-filter each other in a Power BI report](../consumer/end-user-interactions.md) (Forma como os elementos visuais efetuam a filtragem cruzada entre si num relatório do Power BI).
+- **Desative a interação entre elementos visuais:** As interações de destaque e filtragem cruzados exigem que as consultas sejam submetidas para a origem de dados subjacente. A menos que estas interações sejam necessárias, é recomendado desativá-las se o tempo necessário para responder às seleções dos utilizadores for excessivamente longo. Estas interações podem ser desativadas para o relatório completo (conforme descrito acima para as Opções de redução de consultas) ou numa base caso a caso. Para obter mais informações, veja [Como os elementos visuais efetuam a filtragem cruzada entre si num relatório do Power BI](../consumer/end-user-interactions.md).
 
 Além da lista acima de técnicas de otimização, cada uma das seguintes capacidades de relatórios pode causar problemas de desempenho:
 
@@ -110,8 +110,8 @@ Além da lista acima de técnicas de otimização, cada uma das seguintes capaci
     
     Esta ação pode resultar no envio de duas consultas para a origem subjacente:
     
-      - A primeira consulta irá obter as categorias que cumprem a condição (Vendas > 15 milhões)
-      - A segunda consulta irá obter os dados necessários para o elemento visual, adicionando as categorias que cumprem a condição à cláusula WHERE
+    - A primeira consulta irá obter as categorias que cumprem a condição (Vendas > 15 milhões)
+    - A segunda consulta irá obter os dados necessários para o elemento visual, adicionando as categorias que cumprem a condição à cláusula WHERE
     
     Geralmente, estes filtros funcionam bem se existirem centenas ou milhares de categorias, como neste exemplo. No entanto, o desempenho pode diminuir caso o número de categorias seja muito superior (a consulta irá falhar se existirem mais de um milhão de categorias que cumpram a condição, devido ao limite de um milhão de linhas abordado acima).
 - **Filtros TopN:** Podem ser definidos filtros avançados para filtrar apenas os valores N superiores (ou inferiores) classificados por uma medida. Por exemplo, para apresentar apenas as cinco principais categorias no elemento visual acima. Tal como os filtros de medida, isto também resultará no envio de duas consultas para a origem de dados subjacente. No entanto, a primeira consulta devolverá todas as categorias da origem subjacente e os valores de N superiores são determinados com base nos resultados devolvidos. Consoante a cardinalidade da coluna envolvida, esta funcionalidade pode originar problemas de desempenho (ou falhas nas consultas, devido ao limite de um milhão de linhas).
@@ -127,7 +127,7 @@ Existem muitas melhorias funcionais e de desempenho que podem ser alcançadas co
 
 ## <a name="educate-users"></a>Dar formação aos utilizadores
 
-É importante instruir os utilizadores sobre como trabalhar eficientemente com relatórios baseados nos conjuntos de dados do DirectQuery. Os autores de relatórios devem ser instruídos sobre o conteúdo descrito em [Otimizar os designs de relatório](#optimize-report-designs).
+É importante instruir os utilizadores sobre como trabalhar eficientemente com relatórios baseados nos conjuntos de dados do DirectQuery. Os autores de relatórios devem ser instruídos sobre o conteúdo descrito em [Otimizar os designs de relatório](#optimize-report-designs section).
 
 Recomendamos que instrua os consumidores dos seus relatórios com base nos conjuntos de dados do DirectQuery. Pode ser útil compreenderem a arquitetura de dados geral, incluindo quaisquer limitações relevantes descritas neste artigo. Informe-os de que as respostas de atualização e a filtragem interativa podem por vezes ser lentas. Quando os utilizadores de relatórios compreendem por que a degradação do desempenho acontece, é menos provável que percam a confiança nos relatórios e dados.
 
