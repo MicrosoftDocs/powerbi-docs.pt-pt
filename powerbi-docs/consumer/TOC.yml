@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: Adicionar um marcador a um relatório
               href: end-user-bookmarks.md
+            - name: Relatórios paginados
+              href: end-user-paginated-report.md
         - name: Visualizações
           items:
             - name: O que posso fazer com visualizações?
