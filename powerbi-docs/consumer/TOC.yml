@@ -58,8 +58,16 @@
               href: end-user-pdf.md
             - name: Adicionar um marcador a um relatório
               href: end-user-bookmarks.md
-            - name: Relatórios paginados
-              href: end-user-paginated-report.md
+            - name: Relatórios paginados no Power BI
+              items:
+                - name: Relatórios paginados
+                  href: end-user-paginated-report.md
+                - name: Ver um relatório paginado
+                  href: paginated-reports-view-power-bi-service.md
+                - name: Interagir com parâmetros
+                  href: paginated-reports-view-parameters.md
+                - name: Subscrever-se ou subscrever outros
+                  href: paginated-reports-subscriptions.md
         - name: Visualizações
           items:
             - name: O que posso fazer com visualizações?
