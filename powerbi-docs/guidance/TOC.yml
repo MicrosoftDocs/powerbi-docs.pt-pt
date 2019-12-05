@@ -32,6 +32,10 @@
           href: ../service-dataflows-best-practices.md
         - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
           href: directquery-model-guidance.md
+        - name: Extending visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
+          href: report-page-tooltips.md
+        - name: Report page drillthrough (Pormenorização de páginas de relatórios)
+          href: report-drillthrough.md
     - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos
