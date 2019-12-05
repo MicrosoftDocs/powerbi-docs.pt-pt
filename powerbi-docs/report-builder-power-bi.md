@@ -1,7 +1,7 @@
 ---
 title: Paginated Report Builder do Power BI
 description: O Paginated Report Builder do Power BI é uma ferramenta para criar relatórios paginados.
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076068"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565299"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Paginated Report Builder do Power BI
 
  O Paginated Report Builder do Power BI é uma ferramenta para criar relatórios paginados.  Quando criar um relatório paginado, irá criar uma definição do relatório que especifica os dados a obter, o local de obtenção e a forma como estes são apresentados. Quando executar o relatório, o processador do relatório irá utilizar a definição do relatório que especificou, obter os dados e combiná-los com o esquema de relatório para gerar o relatório. Pré-visualize o seu relatório no Report Builder. Em seguida, publique o seu relatório no serviço Power BI.
+
+Experimente o laboratório prático [Hands-on lab: Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Laboratório prático: criar um relatório paginado do Microsoft Power BI).
 
 Prefere aprender com vídeos? Veja a série de vídeos de relatórios paginados do Power BI no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan.
 
@@ -61,5 +63,5 @@ O relatório paginado que se segue inclui uma matriz com grupos de linhas e colu
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-
+- Experimente o laboratório prático [Hands-on lab: Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Laboratório prático: criar um relatório paginado do Microsoft Power BI)
 - Veja a [série de vídeos de relatórios paginados do Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) no YouTube, pelo Gestor de Programas Principal do Power BI, Chris Finlan

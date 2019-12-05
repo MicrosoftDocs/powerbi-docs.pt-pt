@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874143"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565779"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -21,9 +21,9 @@ Saiba como instalar o Power BI Report Server.
 
 ## <a name="download-power-bi-report-server"></a>Transferir o Power BI Report Server
 
-[Transfira o Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722) no Centro de Transferências da Microsoft.
+Na página [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/), selecione **Transferir avaliação gratuita**.
 
-Também existe uma versão de avaliação gratuita. Na página [Relatórios no local com o Power BI Report Server](https://powerbi.microsoft.com/report-server/), selecione **Transferir avaliação gratuita**.
+Ao executar o ficheiro PowerBIReportServer.exe, selecione a versão de avaliação gratuita ou introduza a sua chave de produto. Continue a ler para obter mais informações.
 
 ## <a name="before-you-install"></a>Antes da instalação
 
@@ -43,7 +43,7 @@ Continue a ler para obter mais informações.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Se tiver adquirido o Power BI Premium, no separador **Definições Premium** do portal de administração do Power BI, terá acesso à sua chave de produto do Power BI Report Server. Esta opção está apenas disponível para Administradores Globais ou utilizadores com a função de administrador de serviços do Power BI atribuída.
+Se tiver adquirido o Power BI Premium, no separador **Definições premium** do portal de administração do Power BI, terá acesso à sua chave de produto do Power BI Report Server. O portal de administração está disponível apenas para Administradores Globais ou utilizadores com a função de administrador de serviço do Power BI atribuída.
 
 ![Definições Premium](../report-server/media/install-report-server/pbirs-product-key.png "Chave do Power BI Report Server nas definições Premium")
 
@@ -70,7 +70,7 @@ Não precisa de um servidor de Motor de Base de Dados do SQL Server aquando da i
 
     ![Selecionar uma edição](media/install-report-server/pbireportserver-choose-edition.png)
 
-    Pode selecionar a edição de Avaliação ou de Programador no menu pendente.
+    Selecione a edição de Avaliação ou de Programador.
 
     ![Edição 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ Não precisa de um servidor de Motor de Base de Dados do SQL Server aquando da i
 4. Leia e aceite os termos e condições de licenciamento e, em seguida, selecione **Seguinte**.
 
     ![Termos de licenciamento](media/install-report-server/pbireportserver-eula.png)
-5. Precisa de ter um Motor de Base de Dados disponível para armazenar a base de dados do servidor de relatório. Selecione **Seguinte** para instalar apenas o servidor de relatório.
+5. Precisa de um Motor de Base de Dados disponível para armazenar a base de dados do servidor de relatórios. Selecione **Seguinte** para instalar apenas o servidor de relatório.
 
     ![Instalar apenas ficheiros](media/install-report-server/pbireportserver-install-files-only.png)
 6. Especifique a localização de instalação para o servidor de relatório. Selecione **Instalar** para continuar.
@@ -95,11 +95,11 @@ Não precisa de um servidor de Motor de Base de Dados do SQL Server aquando da i
 
 Após selecionar **Configurar Servidor de Relatórios** na configuração, é-lhe apresentado o Gestor de Configuração do Reporting Services. Para obter mais informações, consulte [Reporting Services Configuration Manager (Gestor de Configuração do Reporting Services - em inglês)](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
-Terá de [criar uma base de dados do servidor de relatório](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) para concluir a configuração inicial do Reporting Services. É necessário um servidor de Base de dados do SQL Server para concluir este passo.
+Para concluir a configuração inicial do Reporting Services, [crie uma base de dados do servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). É necessário um servidor de Base de dados do SQL Server para concluir este passo.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Criar uma base de dados num servidor diferente
 
-Se estiver a criar a base de dados do servidor de relatório num servidor de base de dados num computador diferente, precisará de alterar a conta de serviço do servidor de relatório para uma credencial que seja reconhecida no servidor de base de dados. 
+Se estiver a criar a base de dados do servidor de relatórios num servidor de base de dados num computador diferente, altere a conta de serviço do servidor de relatórios para uma credencial que seja reconhecida no servidor de base de dados. 
 
 Por predefinição, o servidor de relatório utiliza a conta de serviços virtuais. Se tentar criar uma base de dados num servidor diferente, poderá receber o seguinte erro no passo Aplicar direitos de ligação.
 
@@ -137,9 +137,9 @@ Eis um exemplo da cadeia de URL completa:
 
 ## <a name="firewall"></a>Firewall
 
-Se estiver a aceder a um servidor de relatório num computador remoto, deve garantir que configurou eventuais regras de firewall, caso esta exista.
+Se estiver a aceder a um servidor de relatórios num computador remoto, certifique-se de que configurou regras para a firewall, caso esta exista.
 
-Terá de abrir a porta TCP que configurou para o seu URL de Serviço Web e URL do Portal Web. Por predefinição, estão configurados na porta TCP 80.
+Abra a porta TCP que configurou para o seu URL de Serviço Web e URL do Portal Web. Por predefinição, estão configurados na porta TCP 80.
 
 ## <a name="additional-configuration"></a>Configuração adicional
 

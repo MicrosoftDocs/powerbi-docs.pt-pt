@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/30/2019
+ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099688"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565348"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -60,7 +60,7 @@ As funções permitem-lhe gerir as ações de cada utilizador numa área de trab
 
 Quando atribui funções a um grupo de utilizadores, os utilizadores nesse grupo têm acesso aos conteúdos. Se aninhar grupos de utilizadores, todos os utilizadores incluídos nos mesmos têm permissão.
 
-Eis as capacidades das quatro funções: administradores, membros, contribuidores e visualizadores. Todas estas capacidades, exceto a última, exigem uma licença do Power BI Pro.
+Eis as capacidades das quatro funções: administradores, membros, contribuidores e visualizadores. Todas estas funcionalidades, exceto visualizar e interagir, exigem uma licença do Power BI Pro.
 
 |Capacidade   | Administrador  | Membro  | Contribuidor  | Visualizador |
 |---|---|---|---|---|
@@ -72,15 +72,15 @@ Eis as capacidades das quatro funções: administradores, membros, contribuidore
 | Permitir que outras pessoas voltem a partilhar itens. |  X | X  |   |   |
 | Criar, editar e eliminar conteúdos na área de trabalho.  |  X | X  | X  |   |
 | Publicar relatórios na área de trabalho, eliminar conteúdos.  |  X | X  | X  |   |
-| Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho. |  X | X  | X  |   |
-| Copiar um relatório. | X | X | X |  |
-| Ver e interagir com um item. |  X | X  | X  | X  |
+| Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho.<sup>1</sup> |  X | X  | X  |   |
+| Copiar um relatório.<sup>1</sup> | X | X | X |  |
+| Ver e interagir com um item.<sup>2</sup> |  X | X  | X  | X  |
 
-> [!NOTE]
->Para copiar um relatório, bem como para criar um relatório noutra área de trabalho com base num conjunto de dados nessa área de trabalho, os utilizadores têm de cumprir critérios adicionais:
->- Precisam de uma licença do Power BI Pro. Veja a próxima secção, [Licenciamento](#licensing), para obter mais informações.
->- Precisam de permissão de Compilação para o conjunto de dados. Para conjuntos de dados nesta área de trabalho, as pessoas com as funções Administrador, Membro e Contribuidor têm permissão de Compilação através da função da área de trabalho.
- 
+1. Para copiar um relatório, bem como para criar um relatório noutra área de trabalho com base num conjunto de dados nessa área de trabalho, tem de cumprir critérios adicionais:
+    - Precisa de uma licença do Power BI Pro. Veja a próxima secção, [Licenciamento](#licensing), para obter mais informações.
+    - Precisa de permissão de Compilação para o conjunto de dados. Para conjuntos de dados nesta área de trabalho, as pessoas com as funções Administrador, Membro e Contribuidor têm permissão de Compilação através da função da área de trabalho.
+2. Mesmo que não tenha uma licença do Power BI Pro, pode ver e interagir com itens no serviço Power BI se estes estiverem na área de trabalho de uma capacidade Premium.
+
 ## <a name="licensing"></a>Licensing
 Todas as pessoas que adiciona a uma área de trabalho na capacidade partilhada precisam de ter uma licença do Power BI Pro. Na área de trabalho, estes utilizadores podem colaborar nos dashboards e relatórios que planear publicar para um vasto público ou mesmo para toda a organização. 
 
