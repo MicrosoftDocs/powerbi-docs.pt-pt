@@ -1,21 +1,21 @@
 ---
 title: Clientes dedicados do Office 365 - problemas conhecidos
 description: Suporte para clientes dedicados do Office 365 - problemas conhecidos. Este tópico descreve problemas específicos a um cliente Dedicado do Office 365. Isso inclui limitações à funcionalidade de grupo, bem como à aplicação do iPhone com domínios intuitivos.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 010a45c08a3ed27b12b4fca91c64c87a00430f5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a5a9d080205e5f6a047ed820b8b5ed70fa9017d2
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873582"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699987"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Clientes dedicados do Office 365 - problemas conhecidos
 Agora há suporte para o Power BI para clientes do Office 365 Dedicado.  Se for um cliente do O365 Dedicado, pode entrar com uma conta de inquilino e utilizar o Power BI. Há dois problemas conhecidos no momento.

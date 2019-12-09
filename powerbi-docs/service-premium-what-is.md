@@ -1,8 +1,8 @@
 ---
 title: O que é o Microsoft Power BI Premium?
 description: O Power BI Premium fornece capacidades dedicadas para a sua organização, oferecendo desempenho mais fiável e maiores volumes de dados sem exigir a compra de licenças por utilizador.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871812"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699136"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 

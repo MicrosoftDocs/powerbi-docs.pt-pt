@@ -1,20 +1,20 @@
 ---
 title: Como configurar cargas de trabalho no Power BI Premium
 description: Saiba como configurar cargas de trabalho numa capacidade Premium do Power BI.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856817"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831303"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -164,7 +164,7 @@ A carga de trabalho de relatórios paginados permite-lhe executar relatórios pa
 | **Memória Máxima (%)** | A percentagem máxima de memória disponível que os relatórios paginados podem utilizar numa capacidade. |
 |  |  |
 
-Os relatórios paginados permitem a execução de código personalizado na composição do relatório. Por exemplo, alterar dinamicamente a cor do texto com base nos conteúdos, que pode ocupar memória adicional. O Power BI Premium executa relatórios paginados num espaço contido dentro da capacidade. A Memória Máxima especificada é utilizada, *independentemente* de a carga de trabalho estar ou não ativa. Se alterar a definição Memória Máxima da predefinição, certifique-se de que a define para um valor inferior o suficiente para não afetar negativamente outras cargas de trabalho.
+Os relatórios paginados permitem a execução de código personalizado na composição do relatório. Por exemplo, alterar dinamicamente a cor do texto com base nos conteúdos, que pode ocupar memória adicional. O Power BI Premium executa relatórios paginados num espaço contido dentro da capacidade. 
 
 Em alguns casos, a carga de trabalho de relatórios paginados pode ficar indisponível. Neste caso, a carga de trabalho apresenta um estado de erro no Portal de administração e os utilizadores veem tempos limite para a composição do relatório. Para mitigar este problema, desative a carga de trabalho e, em seguida, ative-a novamente.
 

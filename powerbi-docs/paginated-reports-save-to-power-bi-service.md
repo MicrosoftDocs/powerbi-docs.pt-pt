@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: 6cf3cd715915b5a6f3aa41e61c01c8b5b0a7d204
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874768"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831202"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicar um relatório paginado no serviço Power BI
 
@@ -87,6 +87,6 @@ Atualmente, os gateways não suportam parâmetros de valores múltiplos.
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Ver um relatório paginado no serviço Power BI](paginated-reports-view-power-bi-service.md)
+- [Ver um relatório paginado no serviço Power BI](consumer/paginated-reports-view-power-bi-service.md)
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 

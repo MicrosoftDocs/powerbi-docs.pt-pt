@@ -1,20 +1,20 @@
 ---
 title: O que é a administração do Power BI?
 description: Saiba mais sobre a configuração de políticas de governação do Power BI, monitorização de utilização e o aprovisionamento de licenças, capacidades e recursos organizacionais.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873716"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698975"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é a administração do Power BI?
 

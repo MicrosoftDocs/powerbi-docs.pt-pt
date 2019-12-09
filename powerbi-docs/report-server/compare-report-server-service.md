@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 09/13/2019
-ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.date: 12/03/2019
+ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128285"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831124"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -28,7 +28,7 @@ O Power BI Report Server e o serviço Power BI têm muitas semelhanças e alguma
 | Dados de origem | Na cloud e/ou no local | Na cloud e/ou no local |  |
 | Licença | Power BI Premium ou o SQL Server EE com Software Assurance (SA) | Power BI Pro e/ou Power BI Premium | |  
 | Ciclo de vida | Política de ciclo de vida moderna | Serviço totalmente gerido |  |
-| Ciclo de lançamento | Três vezes por ano (janeiro, maio, setembro) | Uma vez por mês | As funcionalidades e correções mais recentes estarão disponíveis primeiro no serviço Power BI. A maioria das funcionalidades principais estarão disponíveis no Power BI Report Server nos próximos lançamentos; algumas funcionalidades destinam-se apenas ao serviço Power BI. |
+| Ciclo de lançamento | Três vezes por ano (janeiro, maio, setembro) | Uma vez por mês | As funcionalidades e correções mais recentes estarão disponíveis primeiro no serviço Power BI. A maioria das funcionalidade principais estarão disponíveis no Power BI Report Server nos próximos lançamentos; algumas funcionalidades destinam-se apenas ao serviço Power BI. |
 | Criar relatórios do Power BI no Power BI Desktop | Sim | Sim |  |
 | Criar relatórios do Power BI no browser | Não | Sim |  |
 | Gateway necessário | Não | Sim para origens de dados no local |  |
@@ -44,7 +44,7 @@ O Power BI Report Server e o serviço Power BI têm muitas semelhanças e alguma
 | Aplicações móveis do Power BI | Sim | Sim | [Descrição geral das aplicações móveis do Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mapas ARC GIS | Não | Sim | [Mapas ArcGIS no serviço Power BI e Power BI Desktop pela Esri](../visuals/power-bi-visualization-arcgis.md) |
 | Subscrições de e-mail para relatórios do Power BI | Não | Sim | [Subscrever um relatório ou dashboard](../service-report-subscribe.md) para si ou para outras pessoas no serviço Power BI |
-| Subscrições de e-mail para relatórios paginados | Sim | Sim | [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](../paginated-reports-subscriptions.md)<br><br>[Email delivery in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (Entrega de e-mail no Reporting Services)  |
+| Subscrições de e-mail para relatórios paginados | Sim | Sim | [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](../consumer/paginated-reports-subscriptions.md)<br><br>[Email delivery in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (Entrega de e-mail no Reporting Services)  |
 | Alertas de dados | Não | Sim | [Alertas de dados](../service-set-data-alerts.md) no serviço Power BI
 | Segurança ao nível da linha (RLS) | Sim | Sim | Disponível no DirectQuery (origem de dados) e no Modo de importação <br><br>Segurança ao nível da linha no [serviço Power BI](../service-admin-rls.md) <br><br>service-report-subscribe [Power BI Report Server](row-level-security-report-server.md) |
 | Modo de ecrã inteiro | Não | Sim | [Modo de ecrã inteiro](../consumer/end-user-focus.md) no serviço Power BI |

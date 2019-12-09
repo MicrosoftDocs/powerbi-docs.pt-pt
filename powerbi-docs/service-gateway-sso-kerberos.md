@@ -1,20 +1,20 @@
 ---
 title: Configurar o SSO baseado no Kerberos a partir do serviço Power BI para as origens de dados no local
 description: Configurar o gateway com o Kerberos para permitir o SSO a partir do Power BI para origens de dados no local
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 346051c5db34e091a9647205e807178c79ba0ee8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881508"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699228"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado no Kerberos a partir do serviço Power BI para as origens de dados no local
 

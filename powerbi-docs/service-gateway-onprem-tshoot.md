@@ -1,20 +1,20 @@
 ---
 title: Resolver problemas de gateways – Power BI
 description: Este artigo fornece formas de resolver problemas do gateway de dados no local e do Power BI. Fornece possíveis soluções para problemas conhecidos, bem como as ferramentas para ajudá-lo.
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881561"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699343"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Resolver problemas de gateways – Power BI
 

@@ -1,19 +1,19 @@
 ---
 title: Opções de suporte para o Power BI Pro e Power BI Premium
 description: Este artigo descreve as opções de suporte que estão disponíveis para os clientes do Power BI Pro e do Power BI Premium.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: mblythe
-ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: kfollis
+ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871396"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696539"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opções de suporte para o Power BI Pro e Power BI Premium
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565705"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831164"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
@@ -70,7 +70,7 @@ Pode ver o relatório paginado no serviço Power BI num browser e também nas a
 
 Agora pode configurar subscrições de e-mail de relatórios paginados no serviço Power BI para si e para outras pessoas. De modo geral, o processo é idêntico a subscrever relatórios e dashboards no serviço Power BI. Ao configurar subscrições, pode selecionar com que frequência quer receber os e-mails: diariamente, semanalmente ou de hora a hora. A subscrição inclui um anexo PDF com todo o resultado do relatório.
 
-Para obter detalhes, veja o artigo [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](paginated-reports-subscriptions.md). 
+Para obter detalhes, veja o artigo [Subscrever relatórios paginados no serviço Power BI para si e para outras pessoas](consumer/paginated-reports-subscriptions.md). 
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 

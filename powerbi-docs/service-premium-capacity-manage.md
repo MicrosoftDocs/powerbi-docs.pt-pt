@@ -1,8 +1,8 @@
 ---
 title: Gerir capacidades Microsoft Power BI Premium
 description: Descreve as tarefas de gestão para capacidades Power BI Premium.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e8becd877165f456793d99951544156a9314290
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881202"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697480"
 ---
 # <a name="managing-premium-capacities"></a>Gerir as capacidades Premium
 

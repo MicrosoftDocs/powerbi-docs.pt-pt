@@ -1,20 +1,20 @@
 ---
 title: URLs do Power BI para adição à lista de permissões
 description: Este artigo descreve os pontos finais que os clientes do Power BI devem conseguir alcançar.
-author: mgblythe
-ms.author: mblythe
+author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 2771329aef1fe7258065c42269060dc1b9e50bd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860637"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698791"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URLs do Power BI para adição à lista de permissões
 

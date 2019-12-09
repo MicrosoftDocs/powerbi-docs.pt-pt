@@ -10,10 +10,10 @@ ms.author: mihart
 layout: HubPage
 LocalizationGroup: Get started
 ms.openlocfilehash: ad6f9f0bc231f54c35501be24bb03a47e205a27e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "73876712"
 ---
 <div id="main" class="v2">

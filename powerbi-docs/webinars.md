@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478651"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882761"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -24,10 +24,6 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 **Analytics in Azure virtual event: Accelerate time to insight with Azure Synapse Analytics** (Análise no evento virtual do Azure: Agilizar o tempo para obter informações com o Azure Synapse Analytics)
 <br>por Gayle Sheppard e John Macintyre
 <br>[Registar-se agora](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**How Microsoft Is Changing BI Data Protection** (Como a Microsoft está a alterar a Proteção de Dados de BI)
-<br>por Anton Fritz e Adi Regev
-<br>[Registe-se para assistir a 4 de dezembro](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Nine Trends Shaping the Future of Big Data Analytics** (Nove Tendências que Moldam o Futuro da Análise de Macrodados)
 <br>por Vijay Gopalakrishnan
@@ -42,6 +38,10 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 ## <a name="featured-webinars"></a>Webinars em destaque
 
 Introdução aos webinars a pedido populares
+
+**How Microsoft Is Changing BI Data Protection** (Como a Microsoft está a alterar a Proteção de Dados de BI)
+<br>por Anton Fritz e Adi Regev
+<br>[Registar-se e ver agora](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI and the Future of Modern and Enterprise BI** (O Power BI e o Futuro de BI Moderno e Empresarial)
 <br>por Arun Ulag e Amir Netz

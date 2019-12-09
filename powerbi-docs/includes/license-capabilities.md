@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: kfollis
 ms.service: powerbi
 ms.topic: include
 ms.date: 12/03/2018
-ms.author: mblythe
-ms.openlocfilehash: cc4d000f5a2f3ab6aad0897c7c751e22724c1804
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.author: kfollis
+ms.openlocfilehash: f7c5f5a65782be0911b5e181b8c5f7ab5bb7787c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431830"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698256"
 ---
 No serviço Power BI, os utilizadores têm capacidades definidas com base no tipo de licença por utilizador que têm e se o conteúdo com o qual interagem está numa área de trabalho atribuída a uma capacidade do Power BI Premium.
 

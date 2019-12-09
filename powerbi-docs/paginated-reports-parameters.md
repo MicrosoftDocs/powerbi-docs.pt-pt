@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: d1f23f52f484ec9e141b4870b50cc1b2758709d9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874728"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831184"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Criar parâmetros para relatórios paginados no serviço Power BI
 
@@ -64,6 +64,6 @@ A ilustração seguinte mostra a vista Estrutura no Report Builder do Power BI p
   
 ## <a name="next-steps"></a>Próximos passos
 
-Veja [Ver parâmetros dos relatórios paginados](paginated-reports-view-parameters.md) para ver o aspeto dos parâmetros no serviço Power BI.
+Veja [Ver parâmetros dos relatórios paginados](consumer/paginated-reports-view-parameters.md) para ver o aspeto dos parâmetros no serviço Power BI.
 
 Para obter informações aprofundadas sobre parâmetros em relatórios paginados, veja [Report parameters in Power BI Report Builder](report-builder-parameters.md) (Parâmetros de relatórios no Report Builder do Power BI).
