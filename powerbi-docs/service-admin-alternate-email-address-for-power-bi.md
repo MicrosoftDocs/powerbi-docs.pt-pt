@@ -1,20 +1,20 @@
 ---
 title: Utilizar um endereço de e-mail alternativo
 description: Utilizar um endereço de e-mail alternativo
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/23/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a6f1f692d615da14be9092290fd7c8c9e6bf168
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858078"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698653"
 ---
 # <a name="use-an-alternate-email-address"></a>Utilizar um endereço de e-mail alternativo
 

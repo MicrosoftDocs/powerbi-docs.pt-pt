@@ -1,21 +1,21 @@
 ---
 title: Recolher informações de diagnóstico adicionais
 description: Estas instruções fornecem duas opções possíveis para recolher manualmente informações de diagnóstico adicionais do cliente Web do Power BI.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 370ac3fad6f31c214ecafad7762acd8219831218
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873692"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698906"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Recolher informações de diagnóstico adicionais para o Power BI
 
