@@ -41,13 +41,13 @@
               href: visuals/advanced-edit-mode.md
         - name: Procedimentos
           items:
-            - name: Get a visual certified (Criar um certificado de elementos visuais)
+            - name: Certificar um elemento visual do Power BI
               href: power-bi-custom-visuals-certified.md
-            - name: Publicar visuais personalizados no AppSource
+            - name: Publicar elementos visuais do Power BI no AppSource
               href: office-store.md
-            - name: Utilizar elementos visuais personalizados baseados em R no Power BI
+            - name: Utilizar elementos visuais baseados em R no Power BI
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
-            - name: Visuals interactions (Interações de elementos visuais)
+            - name: Interações visuais
               href: visuals/visuals-interactions.md
             - name: Add selections (Adicionar seleções)
               href: visuals/selection-api.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: Enable sync slicers (Ativar segmentação de dados)
               href: visuals/enable-sync-slicers.md
-            - name: Adicionar suporte de Desagregação
-              href: visuals/drill-down-support.md
             - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Referência
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: Ordenação
               href: visuals/sort-options.md
-            - name: Localização
-              href: visuals/localization.md
-            - name: Utilitários dos elementos visuais do Power BI
-              items:
-                - name: Interactivity utils (Utilitários de interatividade)
-                  href: visuals/utils-interactivity-selections.md
-                - name: Formatting utils (Utilitários de formatação)
-                  href: visuals/utils-formatting.md
+            - name: Interactivity utils (Utilitários de interatividade)
+              href: visuals/utils-interactivity-selections.md
         - name: Recursos
           items:
             - name: Dev Center
