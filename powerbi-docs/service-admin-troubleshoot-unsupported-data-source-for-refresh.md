@@ -1,21 +1,21 @@
 ---
 title: Resolver problemas de origem de dados sem suporte para atualização
 description: Resolver problemas de origem de dados sem suporte para atualização
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856274"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791995"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Resolver problemas de origem de dados sem suporte para atualização
 Vai ver um erro ao tentar configurar um conjunto de dados para atualização agendada.
@@ -35,7 +35,7 @@ Se não tiver a certeza de que origem de dados foi utilizara, pode encontrar ao 
    ![Editor avançado](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Anote o fornecedor listado para a origem.  Neste exemplo, o fornecedor é Active Directory.  
    ![Fornecedor de origem de dados](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. Compare o provedor com a lista de origens de dados com suporte encontrada em [Atualizar dados no Power BI](refresh-data.md).  Pode ver que o Active Directory não é uma origem de dados com suporte para a atualização.  
+5. Compare o fornecedor com a lista de origens de dados suportadas encontrada em [Origens de dados do Power BI](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Próximos passos
 [Atualização de Dados](refresh-data.md)  

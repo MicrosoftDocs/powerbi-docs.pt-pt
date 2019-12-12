@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061897"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696448"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Adicionar interatividade ao elemento visual através das seleções de elementos visuais do Power BI
 
@@ -37,9 +37,9 @@ export interface ISelectionId {
 
 O objeto do anfitrião do elemento visual fornece o método para a criação de uma instância do gestor de seleções. O gestor de seleções é responsável por selecionar, limpar a seleção, mostrar o menu de contexto, armazenar as seleções atuais e verificar o estado das seleções. Além disso, o gestor de seleções tem métodos correspondentes para essas ações.
 
-### <a name="create-instance-of-selection-manager"></a>Criar uma instância do gestor de seleções
+### <a name="create-an-instance-of-the-selection-manager"></a>Criar uma instância do gestor de seleções
 
-Para utilizar o gestor de seleções, precisa de criar a instância do gestor de seleções. Normalmente, os elementos visuais criam a instância do gestor de seleções no `constructor` do objeto do elemento visual.
+Para utilizar o gestor de seleções, precisa de criar a instância do gestor de seleções. Normalmente, os elementos visuais criam uma instância do gestor de seleções no `constructor` do objeto do elemento visual.
 
 ```typescript
 export class Visual implements IVisual {
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>Criar uma instância do construtor de seleções
+### <a name="create-an-instance-of-the-selection-builder"></a>Criar uma instância do construtor de seleções
 
 Quando a instância do gestor de seleções estiver criada, terá de criar `selections` para cada ponto de dados do elemento visual. O objeto do anfitrião do elemento visual fornece o método `createSelectionIdBuilder` para gerar a seleção para cada ponto de dados. Este método devolve a instância do objeto com `powerbi.visuals.ISelectionIdBuilder` da interface:
 
@@ -74,12 +74,12 @@ export interface ISelectionIdBuilder {
 Este objeto tem métodos correspondentes para criar `selections` para diferentes tipos de mapeamentos de vista de dados.
 
 > [!NOTE]
-> Os métodos `withTable`, `withMatrixNode` foram introduzidos na API 2.5.0 dos elementos visuais do Power BI.
+> Os métodos `withTable` e `withMatrixNode` foram introduzidos na API 2.5.0 dos elementos visuais do Power BI.
 > Se precisar de utilizar seleções para mapeamentos de vista de dados em matrizes ou tabelas, terá de atualizar a versão da API para a 2.5.0 ou superior.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>Criar seleções para mapeamento de vista de dados categóricos
 
-Vamos rever como é que as seleções são representadas no mapeamento de vista de dados categóricos para um conjunto de dados de amostra:
+Vamos rever como é que as seleções são representadas no mapeamento de vista de dados categóricos para um conjunto de dados de exemplo:
 
 | Fabricante | Tipo | Valor |
 | - | - | - |
@@ -155,11 +155,11 @@ O elemento visual utiliza o seguinte mapeamento de vista de dados:
 }
 ```
 
-Na amostra, `Manafacturer` é `columns` e `Type` é `rows`. Existe uma série criada ao agrupar os valores por `rows` (`Type`).
+Na amostra, `Manufacturer` é `columns` e `Type` é `rows`. Existe uma série criada ao agrupar os valores por `rows` (`Type`).
 
-O elemento visual também deverá ser capaz de segmentar os dados por `Manafacturer` e `Type`.
+O elemento visual também deverá ser capaz de segmentar os dados por `Manufacturer` e `Type`.
 
-Por exemplo, quando o utilizador seleciona `Chrysler` por `Manafacturer`, os outros elementos visuais devem mostrar os seguintes dados:
+Por exemplo, quando o utilizador seleciona `Chrysler` por `Manufacturer`, os outros elementos visuais devem mostrar os seguintes dados:
 
 | Fabricante | Tipo | Valor |
 | - | - | - |
@@ -185,7 +185,7 @@ Quando o utilizador seleciona `Import Car` por `Type` (seleciona os dados por s�
 
 ![Registos dos dados dos elementos visuais com seleções](media/visual-selections-databuckets.png)
 
-Há `Manafacturer` como categoria (colunas), `Type` como série (linhas) e `Value` como `Values` para a série.
+Há `Manufacturer` como categoria (colunas), `Type` como série (linhas) e `Value` como `Values` para a série.
 
 > [!NOTE]
 > Os `Values` são necessários para a série, porque a vista dos dados correspondentes a mapear o elemento visual espera que os `Values` sejam agrupados pelos dados das `Rows`.
@@ -196,7 +196,7 @@ Há `Manafacturer` como categoria (colunas), `Type` como série (linhas) e `Valu
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -229,9 +229,9 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-No código de amostra, poderá ver que iterámos todas as categorias. E, em cada iteração, chamamos o `createSelectionIdBuilder` para criar a próxima seleção para cada categoria ao chamar o método `withCategory` do construtor de seleções. O método `createSelectionId` é utilizado como um método final para devolver o objeto `selection` gerado.
+No código de exemplo, poderá ver que iterámos todas as categorias. Em cada iteração, chamamos o `createSelectionIdBuilder` para criar a próxima seleção para cada categoria ao chamar o método `withCategory` do construtor de seleções. O método `createSelectionId` é utilizado como um método final para devolver o objeto `selection` gerado.
 
-No método `withCategory`, passamos a coluna da `category`, na amostra o `Manafacturer` e índice do elemento da categoria.
+No método `withCategory`, transmitimos a coluna da `category`, no exemplo o `Manufacturer` e índice do elemento da categoria.
 
 #### <a name="create-selections-for-series"></a>Criar seleções para séries
 
@@ -336,13 +336,13 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-Na amostra, `nodeWalker` chama de forma recursiva cada nó e nós subordinados.
+No exemplo, `nodeWalker` chama de forma recursiva cada nó e nós subordinados.
 
 `nodeWalker` cria o objeto `nodeSelection` em cada chamada. E cada `nodeSelection` representa a `selection` dos nós correspondentes.
 
 ## <a name="select-datapoints-to-slice-other-visuals"></a>Selecionar pontos de dados para segmentar outros elementos visuais
 
-Nos códigos de amostra de seleções para o mapeamento da vista de dados categóricos, viu que criámos um processador de clique para os elementos de botão. O processador chama o método `select` do gestor de seleções e passa o objeto de seleção.
+Nos códigos de exemplo de seleções para o mapeamento da vista de dados categóricos, viu que criámos um processador de clique para os elementos de botão. O processador chama o método `select` do gestor de seleções e transmite o objeto de seleção.
 
 ```typescript
 button.addEventListener("click", () => {
@@ -363,7 +363,7 @@ interface ISelectionManager {
 
 Pode ver que `select` aceita a matriz de seleções, o que significa que o elemento visual pode selecionar vários pontos de dados. O segundo parâmetro `multiSelect` é responsável pela seleção múltipla. Se o valor for verdadeiro, o Power BI não limpará o estado da seleção anterior e aplicará a seleção atual. Caso contrário, a seleção anterior será reposta.
 
-Cenário típico da utilização de `multiSelect` ao processar o estado do botão CTRL no evento de clique.
+Cenário típico da utilização de `multiSelect` ao processar o estado do botão Ctrl no evento de clique.
 
 ```typescript
 button.addEventListener("click", (mouseEvent) => {

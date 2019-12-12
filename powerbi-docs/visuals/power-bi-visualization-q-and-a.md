@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870849"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791807"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Introdução ao elemento visual das Perguntas e Respostas do Power BI
 
@@ -93,6 +93,10 @@ Se não sabe que tipo de perguntas fazer ou qual a terminologia a utilizar, expa
 6. Vamos mudar o elemento visual para um gráfico de colunas. 
 
     ![Elemento visual das Perguntas e Respostas com "as a column chart" adicionado à pergunta](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  Adicione mais elementos visuais à página do relatório e veja como o elemento visual de Perguntas e Respostas interage com os restantes elementos visuais na página. Neste exemplo, o elemento visual de Perguntas e Respostas fez uma filtragem cruzada do gráfico de linhas e do mapa, bem como um realce cruzado do gráfico de barras.
+
+    ![Elemento visual de Perguntas e Respostas com uma barra selecionada e o impacto nos restantes três elementos visuais na página do relatório](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>Formatar e personalizar o elemento visual das Perguntas e Respostas
 O elemento visual das Perguntas e Respostas pode ser personalizado com o painel de formatação e ao aplicar um tema. 

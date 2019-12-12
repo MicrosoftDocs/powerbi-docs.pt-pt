@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876745"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907959"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Aggregations in Power BI Desktop (Agregações no Power BI Desktop)
 
@@ -29,7 +29,7 @@ A lista seguinte apresenta as vantagens de utilizar **agregações**:
 * **Obter arquiteturas equilibradas** – permita que a cache dentro da memória do Power BI processe consultas agregadas, algo que faz com eficácia. Limite as consultas enviadas para a origem de dados no modo DirectQuery ao manter-se dentro dos limites de simultaneidade. As consultas que são enviadas são, normalmente, consultas filtradas e de nível transacional, que os armazéns de dados e os sistemas de macrodados costumam processar corretamente.
 
 ### <a name="table-level-storage"></a>Armazenamento ao nível da tabela
-Normalmente, o armazenamento ao nível da tabela é utilizado com a funcionalidade de agregações. Para obter mais informações, veja o artigo [Modo de armazenamento no Power BI Desktop](desktop-storage-mode.md).
+Normalmente, o armazenamento ao nível da tabela é utilizado com a funcionalidade de agregações. Para obter mais informações, veja o artigo [modo de armazenamento no Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Tipos de origem de dados
 As agregações são utilizadas com origens de dados que representam modelos dimensionais, tais como armazéns de dados e data marts, bem como origens de macrodados baseadas no Hadoop. Este artigo descreve as diferenças de modelação típica no Power BI para cada tipo de origem de dados.
@@ -44,7 +44,7 @@ Considere o modelo seguinte obtido a partir de uma origem de dados única. Digam
 
 ![tabelas num modelo](media/desktop-aggregations/aggregations_02.jpg)
 
-Em alternativa, criamos a tabela **Sales Agg** (Agregação de Vendas) como uma tabela de agregação. Tem uma granularidade superior a **Sales** (Vendas) e, por isso, terá muito menos linhas. O número de linhas deve ser igual à soma de **SalesAmount** (MontanteDeVendas) agrupada por **CustomerKey** (ClientePrincipal), **DateKey** (DataPrincipal) e **ProductSubcategoryKey** (SubcategoriaDeProdutoPrincipal). Em vez de mil milhões, poderão ser milhões de linhas, que são muito mais fáceis de gerir.
+Em alternativa, criamos a tabela **Sales Agg** (Agregação de Vendas) como uma tabela de agregação. Tem uma granularidade superior a **Sales** e, por isso, irá ter muito menos linhas. O número de linhas deve ser igual à soma de **SalesAmount** (MontanteDeVendas) agrupada por **CustomerKey** (ClientePrincipal), **DateKey** (DataPrincipal) e **ProductSubcategoryKey** (SubcategoriaDeProdutoPrincipal). Em vez de mil milhões, poderão ser milhões de linhas, que são muito mais fáceis de gerir.
 
 Vamos supor que as seguintes tabelas de dimensão são as tabelas normalmente utilizadas para as consultas com valores comerciais altos. São estas tabelas que conseguem filtrar a tabela **Sales Agg** (Agregação de Vendas) através de relações de *um-para-muitos* (ou *muitos-para-um*).
 
@@ -92,7 +92,7 @@ O único caso em que uma relação de *origem cruzada* é considerada segura é 
 
 Para obter resultados da agregação de *origem cruzada* que não dependem de relações, veja a seção a seguir sobre as agregações baseadas em colunas Agrupar por.
 
-### <a name="aggregation-tables-are-not-addressable"></a>As tabelas de agregação não são endereçáveis
+### <a name="aggregation-tables-arent-addressable"></a>As tabelas de agregação não são endereçáveis
 Os utilizadores com acesso só de leitura ao conjunto de dados não podem consultar tabelas de agregação. Isso evita preocupações com a segurança ao utilizar a RLS. Os consumidores e as consultas referem-se à tabela de detalhes e não à tabela de agregação, os consumidores nem precisam de saber que a tabela de agregação existe.
 
 Por esse motivo, a tabela **Agregação de Vendas** deverá estar oculta. Se não estiver, a caixa de diálogo Gerir agregações irá defini-la como oculta ao clicar no botão Aplicar tudo.
@@ -161,7 +161,7 @@ A consulta seguinte obtém resultados da agregação porque as colunas na tabela
 
 ![exemplo de consulta](media/desktop-aggregations/aggregations-code_02.jpg)
 
-A consulta seguinte não obtém resultados da agregação. Apesar de se pedir a soma de **SalesAmount** (MontanteDeVendas), está a realizar-se a operação agrupar por numa coluna na tabela **Product** (Produto), que não tem a granularidade que permite obter resultados da agregação. Se observar as relações no modelo, uma subcategoria de produto poderá ter múltiplas linhas **Product** (Produto). A consulta não seria capaz de determinar o produto ao qual se iria agregar. Neste caso, a consulta é revertida para o DirectQuery e submete uma consulta SQL para a origem de dados.
+A consulta seguinte não obtém resultados da agregação. Apesar de se pedir a soma de **SalesAmount**, está a realizar-se a operação agrupar por numa coluna na tabela **Product**, que não tem a granularidade que permite obter resultados da agregação. Se observar as relações no modelo, uma subcategoria de produto poderá ter múltiplas linhas **Product** (Produto). A consulta não seria capaz de determinar o produto ao qual se iria agregar. Neste caso, a consulta é revertida para o DirectQuery e submete uma consulta SQL para a origem de dados.
 
 ![exemplo de consulta](media/desktop-aggregations/aggregations-code_03.jpg)
 
@@ -184,9 +184,9 @@ Em alguns casos, a função DISTINCTCOUNT pode beneficiar com as agregações. A
 ### <a name="rls"></a>RLS
 As expressões RLS (segurança ao nível da linha) devem filtrar a tabela de agregação e a tabela de detalhes para que funcionem corretamente. Seguindo o exemplo, uma expressão RLS na tabela **Geography** (Geografia) irá funcionar porque Geografia está no lado da filtragem das relações com as tabelas **Sales** (Vendas) e **Sales Agg** (Agregação de Vendas). As consultas correspondentes e não correspondentes à tabela de agregação terão a RLS aplicada com êxito.
 
-![gerir funções de agregações](media/desktop-aggregations/manage-roles.jpg)
+![gerir funções de agregações](media/desktop-aggregations/manage-roles.png)
 
-Uma expressão RLS na tabela **Product** (Produto) filtraria apenas a tabela **Sales** (Vendas) e não a tabela **Sales Agg** (Agregação de Vendas). Não recomendamos isto. As consultas submetidas por utilizadores que acedem ao conjunto de dados ao utilizar esta função não beneficiariam dos resultados da agregação. Uma vez que a tabela de agregação é outra representação dos mesmos dados na tabela de detalhes, não seria seguro responder a consultas da tabela de agregação porque não é possível aplicar o filtro RLS.
+Uma expressão RLS na tabela **Product** (Produto) filtraria apenas a tabela **Sales** (Vendas) e não a tabela **Sales Agg** (Agregação de Vendas). Isto não é recomendado. As consultas submetidas por utilizadores que acedem ao conjunto de dados ao utilizar esta função não beneficiariam dos resultados da agregação. Uma vez que a tabela de agregação é outra representação dos mesmos dados na tabela de detalhes, não seria seguro responder a consultas da tabela de agregação porque não é possível aplicar o filtro RLS.
 
 Uma expressão RLS na própria tabela **Sales Agg** filtraria apenas a tabela de agregação e não a tabela de detalhes. Isso não é permitido.
 

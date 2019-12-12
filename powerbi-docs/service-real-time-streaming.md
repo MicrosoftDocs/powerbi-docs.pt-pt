@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871739"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699106"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![Captura de ecrã a mostrar os resultados dos sensores ambientais em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Este artigo mostra como configurar o conjunto de dados de transmissão em fluxo em tempo real no Power BI. No entanto, antes de abordarmos essa questão, convém compreender os tipos de conjunto de dados em tempo real concebidos para serem apresentados em mosaicos (e dashboards), bem como as diferenças que os distinguem entre si.
 
@@ -198,7 +198,7 @@ Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Na área de trabalho do Power BI, crie um novo dashboard e, em seguida, adicione um mosaico (veja acima para obter os passos, se necessário). Desta vez, quando criar um mosaico e selecionar **Dados de Transmissão em Fluxo Personalizados**, terá um conjunto de dados de transmissão em fluxo pronto a utilizar. Aproveite para o experimentar. Se adicionar campos *numéricos* a gráficos de linhas e, em seguida, adicionar outros mosaicos, poderá obter um dashboard em tempo real semelhante ao seguinte:
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![Captura de ecrã a mostrar os resultados dos sensores ambientais em tempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Experimente e explore o conjunto de dados de exemplo. Em seguida, dedique-se a criar os seus próprios conjuntos de dados e a transmitir dados dinâmicos em fluxo para o Power BI.
 

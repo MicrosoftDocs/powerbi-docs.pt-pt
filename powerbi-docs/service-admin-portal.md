@@ -1,21 +1,21 @@
 ---
 title: Portal de administração do Power BI
 description: O portal de administração permite a gestão de inquilinos do Power BI na sua organização. Inclui itens, como métricas de utilização, acesso ao centro de administração do Microsoft 365 e definições.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265890"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882887"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -176,7 +176,7 @@ Ao especificar um URL para pedidos de licenciamento, personaliza o URL de destin
 
 Os grupos de segurança com capacidade de correio receberão notificações de e-mail se este inquilino for afetado por um incidente ou uma indisponibilidade do serviço. Saiba mais sobre as [Notificações de interrupção do serviço](service-interruption-notifications.md).
 
-## <a name="workspace-settings"></a>Definições da área de trabalho
+## <a name="workspace-settings"></a>Definições de área de trabalho
 
 ### <a name="create-workspaces"></a>Criar áreas de trabalho
 
@@ -208,7 +208,7 @@ A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definiç�
 
 Os utilizadores veem opções diferentes na IU consoante a definição **Publicar na Web**.
 
-|Feature |Ativada para toda a organização |Desativada para toda a organização |Grupos de segurança específicos   |
+|Funcionalidade |Ativada para toda a organização |Desativada para toda a organização |Grupos de segurança específicos   |
 |---------|---------|---------|---------|
 |**Publicar na Web**, no menu **Ficheiro** do relatório.|Ativada para todos|Não visível para todos|Visível apenas para utilizadores ou grupos autorizados.|
 |**Gerir códigos de incorporação**, em **Definições**|Ativada para todos|Ativada para todos|Ativada para todos<br><br>* A opção **Eliminar** está ativada apenas para utilizadores e grupos autorizados.<br>* A opção **Obter códigos** está ativada para todos.|
@@ -247,13 +247,16 @@ A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definiç�
 ![Imprimir relatório](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização
-Os utilizadores convidados do Azure B2B podem editar e gerir o conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
+Os utilizadores convidados do Azure Active Directory B2B podem editar e gerir os conteúdos na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
 
 A seguinte imagem mostra a opção Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização.
 
 ![Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-### <a name="email-subscriptions"></a>Subscrições por E-mail
+> [!IMPORTANT]
+> Quando adiciona um utilizador externo ao seu inquilino do Azure AD (manualmente ou através da partilha de um relatório com esse utilizador), essa conta de utilizador passa a ser detetável para as contas internas. Um utilizador interno pode partilhar outas coisas com o utilizador externo, mesmo que a conta interna não tenha permissões de partilha externa.
+
+### <a name="email-subscriptions"></a>Subscrições de E-mail
 Os utilizadores na organização podem criar subscrições por e-mail. Saiba mais sobre as [subscrições](service-report-subscribe.md).
 
 ![Ativar as subscrições por e-mail](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
@@ -526,7 +529,7 @@ No separador **Áreas de trabalho**, vê o *estado* de cada área de trabalho. A
 | Eliminado | Uma área de trabalho eliminada. Mantemos metadados suficientes para restaurar a área de trabalho, se for pretendido. |
 | A remover | Uma área de trabalho prestes a ser eliminada, mas que ainda não foi. Os utilizadores podem eliminar as suas próprias áreas de trabalho, colocando-as em A remover e, por fim, em Eliminado. |
 
-## <a name="custom-branding"></a>(Aplicação de) Imagem corporativa personalizada
+## <a name="custom-branding"></a>Imagem corporativa personalizada
 
 Como administrador, pode personalizar o aspeto do Power BI para toda a sua organização. Atualmente, existem três opções principais:
 

@@ -1,20 +1,20 @@
 ---
 title: Atualizar dados no Power BI
 description: Este artigo descreve as funcionalidades de atualização de dados do Power BI e as respetivas dependências a nível conceitual.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/14/2019
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415432"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791679"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -92,7 +92,7 @@ Uma operação de atualização do Power BI pode consistir em múltiplos tipos d
 
 #### <a name="data-refresh"></a>Atualização de dados
 
-Para utilizadores do Power BI, atualizar dados significa normalmente importar dados das origens de dados originais para um conjunto de dados, com base numa agenda de atualização ou a pedido. Pode fazer múltiplas atualizações ao conjunto de dados diariamente, o que poderá ser necessário se a origem de dados subjacente for alterada com frequência. O Power BI limita os conjuntos de dados na capacidade partilhada a oito atualizações diárias. Se o conjunto de dados residir numa capacidade Premium, pode agendar até 48 atualizações por dia nas definições de conjuntos de dados. Para obter mais informações, veja Configurar a atualização agendada, mais adiante neste artigo.
+Para utilizadores do Power BI, atualizar dados significa normalmente importar dados das origens de dados originais para um conjunto de dados, com base numa agenda de atualização ou a pedido. Pode fazer múltiplas atualizações ao conjunto de dados diariamente, o que poderá ser necessário se a origem de dados subjacente for alterada com frequência. O Power BI limita os conjuntos de dados na capacidade partilhada a oito atualizações diárias. Se o conjunto de dados residir numa capacidade Premium, pode agendar até 48 atualizações por dia nas definições de conjuntos de dados. Para obter mais informações, veja [Configurar a atualização agendada](#configure-scheduled-refresh), mais adiante neste artigo.
 
 É também importante destacar que a limitação de capacidade partilhada para atualizações diárias aplica-se conjuntamente a atualizações agendadas e atualizações de API. Pode também acionar uma atualização a pedido ao selecionar **Atualizar Agora** no menu do conjunto de dados, como ilustra a seguinte captura de ecrã. As atualizações a pedido não estão incluídas na limitação de atualizações. Tenha também em atenção que os conjuntos de dados numa capacidade Premium não impõem limitações para atualizações de API. Se estiver interessado em criar a sua própria solução de atualização com a API REST do Power BI, veja [Datasets - Refresh Dataset](/rest/api/power-bi/datasets/refreshdataset) (Conjuntos de Dados – Atualizar Conjunto de Dados).
 
@@ -283,7 +283,7 @@ A secção **Atualização agendada** é o local no qual define a frequência e 
 
 ![Configurar a atualização agendada](media/refresh-data/configure-scheduled-refresh.png)
 
-Depois de configurar uma agenda de atualização, a página de definições do conjunto de dados informa-o sobre a próxima hora de atualização, tal como na captura de ecrã acima. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, efetue uma atualização a pedido com a opção **Atualizar Agora** no menu do conjunto de dados no painel de navegação. As atualizações a pedido não afetam a hora de atualização agendada seguinte, mas contam para o limite diário de atualizações, conforme explicado anteriormente neste artigo.
+Depois de configurar uma agenda de atualização, a página de definições do conjunto de dados informa-o sobre a próxima hora de atualização, tal como na captura de ecrã acima. Se quiser atualizar os dados mais cedo, como para testar a configuração do gateway e da origem de dados, efetue uma atualização a pedido com a opção **Atualizar Agora** no menu do conjunto de dados no painel de navegação. As atualizações a pedido não afetam a nova hora de atualização agendada.
 
 Tenha também em atenção que a hora de atualização configurada pode não ser a hora exata em que o Power BI inicia o processo agendado seguinte. O Power BI inicia as atualizações agendadas com base no melhor esforço. O objetivo é iniciar a atualização no espaço de 15 minutos do intervalo de tempo agendado, mas pode ocorrer um atraso de até uma hora, se o serviço não conseguir alocar os recursos necessários mais cedo.
 

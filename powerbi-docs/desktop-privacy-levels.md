@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878063"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791308"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
 No **Power BI Desktop**, os níveis de privacidade especificam um nível de isolamento que define o grau em que uma origem de dados será isolada de outras origens de dados. Apesar de o nível de isolamento restrito bloquear a troca de informações entre as origens de dados, poderá reduzir a funcionalidade e causar um impacto no desempenho.
@@ -44,9 +44,9 @@ Para configurar o nível de privacidade da origem de dados, selecione a origem d
 > 
 
 ## <a name="configure-privacy-levels"></a>Configurar Níveis de Privacidade
-**Níveis de Privacidade** é uma definição que está configurada para **Combinar os dados de acordo com as definições de Nível de Privacidade de cada origem** por predefinição, o que significa que os **Níveis de Privacidade** não estão ativados.
+Os **Níveis de Privacidade** estão configurados para **Combinar os dados de acordo com as definições de Nível de Privacidade de cada origem** por predefinição, o que significa que os **Níveis de Privacidade** são impostos.
 
-| Definição | Descrição |
+| Definições | Descrição |
 | --- | --- |
 | **Combinar os dados de acordo com as definições de Nível de Privacidade de cada origem** (ativada e a predefinição) |As configurações do nível de privacidade são utilizadas para determinar o nível de isolamento entre origens de dados ao combinar dados. |
 | **Ignorar os níveis de Privacidade e melhorar potencialmente o desempenho** (desativada) |Os níveis de privacidade não são considerados ao combinar os dados. No entanto, o desempenho e a funcionalidade dos dados podem aumentar. |

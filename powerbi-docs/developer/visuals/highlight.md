@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880018"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695410"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Realçar pontos de dados em elementos visuais do Power BI
 
@@ -26,6 +26,9 @@ Se definir a propriedade `supportsHighlight` no seu `capabilities.json` como `tr
 !["dataview" suporta o realce](./media/highlight-dataview-supports.png)
 
 No exemplo, verá que uma barra está selecionada. e que é o único valor na matriz "highlights". Também é importante referir que pode haver múltiplas seleções e realce parcial. Os valores realçados serão apresentados na vista de dados.
+
+> [!Note]
+> O mapeamento da vista de dados de tabela não suporta a funcionalidade de realce.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Realçar pontos de dados com o mapeamento categórico da vista de dados
 

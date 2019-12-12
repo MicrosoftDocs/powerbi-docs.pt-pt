@@ -9,21 +9,21 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061874"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696146"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Utilitários de interatividade dos elementos visuais do Microsoft Power BI
 
-O InteractivityUtils é um conjunto de funções e classes para simplificar a implementação de seleção e filtragem cruzadas para os elementos visuais personalizados do Power BI.
+O InteractivityUtils é um conjunto de funções e classes para simplificar a implementação de seleção e filtragem cruzadas para os elementos visuais personalizados do Power BI.
 
 ## <a name="installation"></a>Instalação
 
 > [!NOTE]
-> Se continuar a utilizar a versão antiga do powerbi-visuals-tools (número de versão inferior a 3.x.x), instale a nova versão da ferramenta (3.x.x).
+> Se continuar a utilizar a versão antiga do powerbi-visuals-tools (número de versão inferior a 3.X.X), instale a nova versão da ferramenta (3.X.X).
 
 > [!IMPORTANT]
 > As novas atualizações dos utilitários de interatividade apenas suportarão a versão mais recente das ferramentas. [Saiba mais sobre como atualizar o código dos elementos visuais para utilização com as ferramentas mais recentes](migrate-to-new-tools.md)
@@ -59,9 +59,9 @@ Como resultado, terá a seguinte estrutura de ficheiros:
 ```
 
 > [!NOTE]
-> Deve importar os ficheiros .css como ficheiros .less, uma vez que as Ferramentas do Power BI encapsulam as regras CSS externas.
+> Deve importar os ficheiros .css como ficheiros .less porque as Ferramentas de Elementos Visuais do Power BI encapsulam as regras CSS externas.
 
-## <a name="usage"></a>Utilização
+## <a name="usage"></a>Usage
 
 ### <a name="define-interface-for-data-points"></a>Definir a interface dos pontos de dados
 
@@ -80,7 +80,7 @@ Geralmente, os pontos de dados contêm seleções e valores. A interface estende
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-O primeiro passo da utilização dos utilitários de interatividade é criar uma instância de utilitários de interatividade e guardar o objeto como propriedade do elemento visual
+O primeiro passo da utilização dos utilitários de interatividade é criar uma instância de utilitários de interatividade e guardar o objeto como uma propriedade do elemento visual
 
 ```typescript
 export class Visual implements IVisual {
@@ -106,7 +106,7 @@ export interface VisualDataPoint extends interactivitySelectionService.Selectabl
 O segundo passo é estender a classe de comportamento base:
 
 > [!NOTE]
-> BaseBehavior, introduzido na [versão 5.6.x dos utilitários de interatividade](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Se utilizar uma versão antiga, crie a classe de comportamento a partir do exemplo abaixo (classe `BaseBehavior` é igual):
+> BaseBehavior, introduzido na [versão 5.6.x dos utilitários de interatividade](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Se utilizar a versão antiga, crie a classe de comportamento a partir do exemplo abaixo (a classe `BaseBehavior` é igual):
 
 Defina a interface das opções da classe de comportamento:
 
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-Defina a classe de `visual behaviour`. A classe responsável por processar os eventos do rato `click` e `contextmenu`.
-Quando utiliza cliques para elementos de dados, o elemento visual chama o processador de seleção para selecionar os pontos de dados. Ou desmarque a seleção, caso o utilizador clique no elemento de fundo do elemento visual. A classe tem os métodos correspondentes: `bindClick`, `bindClearCatcher` e `bindContextMenu`.
+Defina a classe de `visual behavior`. A classe é responsável por processar os eventos do rato `click` e `contextmenu`.
+Quando um utilizador clica em elementos de dados, o elemento visual chama o processador de seleção para selecionar os pontos de dados. Se o utilizador clicar no componente de fundo do elemento visual, este chama o processador de limpeza da seleção. A classe tem os métodos correspondentes: `bindClick`, `bindClearCatcher` e `bindContextMenu`.
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -230,7 +230,7 @@ Os utilitários de interatividade chamam os métodos `bindEvents` para atribuir 
   }
 ```
 
-O método `renderSelection` responsável pela atualização do estado dos elementos visuais no gráfico.
+O método `renderSelection` é responsável pela atualização do estado visual dos elementos no gráfico.
 
 Exemplo do método `renderSelection` de implementação:
 
@@ -257,11 +257,11 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 });
 ```
 
-* `selectionMerge` é um objeto de seleção D3, que representa todos os elementos selecionáveis no elemento visual.
+* `selectionMerge` é o objeto de seleção D3, que representa todos os elementos selecionáveis no elemento visual.
 
-* `select(this.target)` é um objeto de seleção D3, que representa os elementos DOM principais do elemento visual.
+* `select(this.target)` é o objeto de seleção D3, que representa todos os elementos DOM principais selecionáveis do elemento visual.
 
-* Pontos de dados `this.categories` com elementos, em que a interface é `VisualDataPoint` (ou `categories: VisualDataPoint[];`)
+* As instâncias `this.categories` são pontos de dados com elementos em que a interface é `VisualDataPoint` (ou `categories: VisualDataPoint[];`)
 
 * `this.behavior` é uma nova instância de `visual behavior`
 
@@ -278,7 +278,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
   }
   ```
 
-Agora, o elemento visual está pronto para a seleção do processador.
+Agora, o elemento visual está pronto para processar a seleção.
 
 ## <a name="next-steps"></a>Próximos passos
 
