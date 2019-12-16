@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791613"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958408"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
 
@@ -44,13 +44,13 @@ Se tiver um gateway pessoal configurado, este estará disponível para seleção
 
 Também poderá selecionar o gateway empresarial, se houver um disponível. Só verá um gateway empresarial disponível se a sua conta estiver listada no separador **Utilizadores** da origem de dados configurada para determinado gateway.
 
-## <a name="data-source-credentials"></a>Credenciais de origem de dados
+## <a name="data-source-credentials"></a>Credenciais da origem de dados
 
 ### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 
 Se estiver a utilizar o gateway pessoal para atualizar os dados, terá de fornecer as credenciais para ligar-se à origem de dados de back-end. Se estiver ligado a um pacote de conteúdos de um serviço online, as credenciais introduzidas para ligar-se serão transferidas para a atualização agendada.
 
-![Credenciais de origem de dados](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
+![Credenciais da origem de dados](media/refresh-scheduled-refresh/data-source-credentials-pgw.png)
 
 Só terá de iniciar sessão numa origem de dados na primeira vez que utilizar a atualização nesse conjunto de dados. Uma vez introduzidas, essas credenciais são mantidas com o conjunto de dados.
 
@@ -75,7 +75,7 @@ A secção **Atualização agendada** é o local onde define a frequência e os 
 Defina o controlo de deslize **Manter os dados atualizados** para **Ativado** para configurar as definições.
 
 > [!NOTE]
-> O serviço Power BI inicia a atualização dos dados dentro de **15 minutos** após a hora de atualização agendada.
+> O objetivo é iniciar a atualização no espaço de 15 minutos do intervalo de tempo agendado, mas pode ocorrer um atraso de até uma hora, se o serviço não conseguir alocar os recursos necessários mais cedo.
 
 ![Caixa de diálogo Atualização agendada](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
