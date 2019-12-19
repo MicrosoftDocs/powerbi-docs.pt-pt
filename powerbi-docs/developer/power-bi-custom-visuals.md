@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 1d176941f04bdaf06c9cdeda65271769098268fb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265193"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999819"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
@@ -122,7 +122,7 @@ Tem duas opções para transferir e importar elementos visuais do Power BI: a pa
 
 6. Desloque-se até à parte inferior para ver críticas.
 
-    ![Revisões](media/power-bi-custom-visuals/power-bi-reviews.png)
+    ![Críticas](media/power-bi-custom-visuals/power-bi-reviews.png)
 
 7. Selecione **Adicionar** para importar o elemento visual personalizado. O respetivo ícone é adicionado à parte inferior do painel **Visualizações** e fica agora disponível para utilizar no seu relatório.
 
@@ -168,11 +168,11 @@ Tem duas opções para transferir e importar elementos visuais do Power BI: a pa
 
 ## <a name="troubleshoot"></a>Resolução de Problemas
 
-Para resolver problemas, veja [Resolver problemas com os seus elementos visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).
+Para resolver problemas, veja [Resolver problemas com os seus elementos visuais do Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>PERGUNTAS FREQUENTES
 
-Para obter mais informações e respostas a perguntas, aceda às [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Para obter mais informações e respostas a perguntas, veja [Perguntas frequentes sobre os elementos visuais do Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 
 ## <a name="next-steps"></a>Próximos passos
 

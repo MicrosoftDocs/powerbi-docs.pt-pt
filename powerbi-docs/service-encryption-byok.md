@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698285"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958477"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI (pré-visualização)
 
@@ -30,7 +30,8 @@ Para utilizar o BYOK, tem de carregar os dados para o serviço Power BI a partir
 
 - Ligação em Direto do Analysis Services
 - Livros do Excel (a menos que os dados sejam importados primeiro para o Power BI Desktop)
-- Conjuntos de dados push
+- [Conjuntos de dados push](/rest/api/power-bi/pushdatasets)
+- [Conjuntos de dados de transmissão em fluxo](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Modelos grandes](service-premium-large-models.md)
 
 O BYOK aplica-se apenas ao conjunto de dados associado ao ficheiro PBIX, não às caches de resultado da consulta para mosaicos e elementos visuais.

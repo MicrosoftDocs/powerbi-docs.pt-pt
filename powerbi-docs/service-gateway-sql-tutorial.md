@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699320"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958448"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Atualizar dados de uma base de dados do SQL Server no local
 
@@ -46,9 +46,13 @@ Utilize o procedimento seguinte para criar um relatório básico do Power BI com
 
 1. No Power BI Desktop, no separador **Home Page**, selecione **Obter Dados** \> **SQL Server**.
 
-2. Na caixa de diálogo **Base de dados do SQL Server**, introduza os nomes do **Servidor** e da **Base de dados (opcional)** , certifique-se de que o modo de **Conectividade de Dados** é **Importar** e, em seguida, selecione **OK**.
+2. Na caixa de diálogo **Base de dados do SQL Server**, introduza os nomes do **Servidor** e da **Base de dados (opcional)**, certifique-se de que o modo de **Conectividade de Dados** é **Importar** e, em seguida, selecione **OK**.
 
     ![Base de dados do SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    Não estamos a utilizar as **Opções avançadas** neste tutorial, mas note que pode especificar uma instrução SQL e definir outras opções como utilizar a [Ativação Pós-falha do SQL Server](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server).
+
+    ![Opções avançadas do SQL Server](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. Verifique as suas **credenciais** e, em seguida, selecione **Ligar**.
 
@@ -69,7 +73,7 @@ Utilize o procedimento seguinte para criar um relatório básico do Power BI com
 
     ![Painel Campos](./media/service-gateway-sql-tutorial/fields-pane.png)
 
-5. Arraste a **EndDate** para **Filtros de nível de relatório** e, em **Filtragem básica**, selecione apenas a caixa de verificação de **(Vazio)** .
+5. Arraste a **EndDate** para **Filtros de nível de relatório** e, em **Filtragem básica**, selecione apenas a caixa de verificação de **(Vazio)**.
 
     ![Filtros de nível de relatório](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
@@ -130,7 +134,7 @@ No Power BI Desktop, ligou diretamente à sua base de dados do SQL Server no loc
 
 Agora que já ligou o seu conjunto de dados no Power BI à sua base de dados do SQL Server no local através de um gateway de dados, siga estes passos para configurar um agendamento de atualização. A atualização agendada do seu conjunto de dados ajuda a garantir que os seus relatórios e dashboards têm os dados mais recentes.
 
-1. No painel de navegação, abra **A Minha Área de Trabalho** \> **Conjuntos de dados**. Selecione as reticências ( **. . .** ) do conjunto de dados **ProdutosAdventureWorks** e, em seguida, selecione **Agendar atualização**.
+1. No painel de navegação, abra **A Minha Área de Trabalho** \> **Conjuntos de dados**. Selecione as reticências (**. . .**) do conjunto de dados **ProdutosAdventureWorks** e, em seguida, selecione **Agendar atualização**.
 
     > [!NOTE]
     > Certifique-se de que seleciona as reticências do conjunto de dados **ProdutosAdventureWorks** e não as reticências do relatório com o mesmo nome. O menu de contexto do relatório **ProdutosAdventureWorks** não inclui uma opção **Agendar atualização**.
@@ -164,7 +168,7 @@ Agora, siga estes passos, para que os dados atualizados possam passar pela liga�
 
 1. No Serviço Power BI, no painel de navegação, selecione e expanda **A Minha Área de Trabalho**.
 
-2. Em **Conjuntos de dados**, no conjunto de dados **ProdutosAdventureWorks**, selecione as reticências ( **. . .** ) e, em seguida, selecione **Atualizar agora**.
+2. Em **Conjuntos de dados**, no conjunto de dados **ProdutosAdventureWorks**, selecione as reticências (**. . .**) e, em seguida, selecione **Atualizar agora**.
 
     ![Atualizar agora](./media/service-gateway-sql-tutorial/refresh-now.png)
 

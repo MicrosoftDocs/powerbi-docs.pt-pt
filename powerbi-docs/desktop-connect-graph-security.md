@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876492"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999796"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Ligar-se à API de Segurança do Microsoft Graph no Power BI Desktop
 
@@ -40,7 +40,7 @@ Para conceder autorização para o conector, o seu administrador de inquilinos d
 
 * Responda a um pedido submetido pela sua aplicação lógica durante a primeira execução através da [experiência de autorização da aplicação](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
    
-A conta do utilizador que inicia sessão no conector de Segurança do Microsoft Graph tem de ser um membro da função Administrador Limitado do Leitor de Segurança no Azure AD como *Leitor de Segurança* ou *Administrador de Segurança*. Veja [Atribuir funções do Azure AD a utilizadores](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
+A conta do utilizador que inicia sessão no Conector de segurança do Microsoft Graph terá de ser atribuída à função Leitor de Segurança do Azure AD **se** o utilizador não for um membro da função *Administrador de Segurança*. Veja [Atribuir funções do Azure AD a utilizadores](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Utilizar o conector de Segurança do Microsoft Graph
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 125cb684cae6263d335ad959bb17d1e5c84f5f72
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855887"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958638"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Por vezes, pode querer utilizar o Excel para ver e interagir com um conjunto de dados que tenha no Power BI. Com a opção **Analisar no Excel**, pode fazê-lo e aceder às funcionalidades Tabela Dinâmica, gráfico e segmentação de dados no Excel com base no conjunto de dados que existe no Power BI.
@@ -27,7 +27,7 @@ Existem alguns requisitos para utilizar a opção **Analisar no Excel**:
 
 * As Tabelas Dinâmicas do Excel não suportam a agregação do tipo "arrastar e largar" dos campos numéricos. O seu conjunto de dados no Power BI *tem de ter medidas predefinidas*.
 * Algumas empresas podem ter regras de Política de Grupo que impedem a instalação das atualizações necessárias da funcionalidade **Analisar no Excel** no Excel. Se não conseguir instalar as atualizações, consulte o seu administrador.
-* A funcionalidade **Analisar no Excel** necessita que o conjunto de dados esteja no Power BI Premium ou que o utilizador tenha uma licença do Power BI Pro. Para saber mais sobre as diferenças ao nível de funcionalidades entre os tipos de licenças, veja [Funcionalidades do Power BI por tipo de licença](service-features-license-type.md). 
+* A funcionalidade **Analisar no Excel** necessita que o conjunto de dados esteja no Power BI Premium ou que o utilizador tenha uma licença do Power BI Pro. Para saber mais acerca das diferenças de funcionalidade entre os tipos de licença, veja a secção _Comparação das funcionalidades do Power BI_ na página [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
 * Os utilizadores podem ligar a conjuntos de dados através da funcionalidade Analisar no Excel, caso tenham permissão de leitura para o conjunto de dados subjacente.  Existem várias formas de um utilizador ter esta permissão, como ser membro da área de trabalho que contém o conjunto de dados, ter um relatório ou dashboard partilhado que utilize o conjunto de dados ou ter permissão para uma aplicação que contém o conjunto de dados.
 * O **Analisar no Excel** é uma funcionalidade do serviço Power BI e não está disponível no Microsoft Power BI Report Server ou no Power BI Embedded. 
 * A funcionalidade **Analisar no Excel** só é suportada em computadores com o Microsoft Windows.
@@ -49,7 +49,7 @@ No Power BI, selecione o menu de reticências junto a um relatório ou conjunto 
 ![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>Instalar atualizações do Excel
-Quando utilizar a opção **Analisar no Excel** pela primeira vez, tem de instalar as atualizações às bibliotecas do Excel. Ser-lhe-á pedido que transfira e execute as atualizações do Excel (esta ação inicia a instalação do pacote do Windows Installer *SQL_AS_OLEDDB.msi*). Este pacote instala o **Fornecedor OLE DB do Microsoft AS para SQL Server 2016 RC0 (Pré-visualização)** .
+Quando utilizar a opção **Analisar no Excel** pela primeira vez, tem de instalar as atualizações às bibliotecas do Excel. Ser-lhe-á pedido que transfira e execute as atualizações do Excel (esta ação inicia a instalação do pacote do Windows Installer *SQL_AS_OLEDDB.msi*). Este pacote instala o **Fornecedor OLE DB do Microsoft AS para SQL Server 2016 RC0 (Pré-visualização)**.
 
 > [!NOTE]
 > Certifique-se de que marca **Não voltar a mostrar** na caixa de diálogo **Instalar atualizações do Excel**. Só precisa de instalar a atualização uma vez.

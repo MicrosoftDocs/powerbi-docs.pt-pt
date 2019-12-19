@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565469"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000095"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Diretrizes de elementos visuais do Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) o seu elemento visual do Power BI no Microsoft AppSource para que outras pessoas o descubram e utilizem, certifique-se de que segue as diretrizes para criar uma ótima experiência para os seus utilizadores.
@@ -50,7 +50,12 @@ Pode utilizar uma janela de pop-up para explicar como é possível comprar licen
 
 ### <a name="submission-process"></a>Processo de submissão
 
-Os programadores carregam os elementos visuais de IAP do Power BI no Microsoft AppSource através do Dashboard de Vendedor, conforme têm vindo a fazer com os elementos visuais gratuitos. Para indicar que o elemento visual do Power BI submetido tem funcionalidades de IAP, os programadores têm de escrever nas notas do Dashboard de Vendedor: "Elemento visual com compra via aplicação". Além disso, os programadores necessitam de fornecer um token ou chave de licença para que a equipa de validação possa validar as funcionalidades de IAP. Quando o elemento visual do Power BI estiver validado e aprovado, a listagem do Microsoft AppSource para o elemento visual de IAP do Power BI apresentará a informação "Pode ser necessária uma compra adicional" sob as opções de preços.
+Siga o [processo de submissão](office-store.md#submitting-to-appsource) e, em seguida, navegue para o separador *Configuração do produto* e selecione a caixa de verificação *O meu produto requer a compra de um serviço*.
+
+Quando o elemento visual do Power BI estiver validado e aprovado, a listagem do Microsoft AppSource para o elemento visual de IAP do Power BI apresentará a informação "Pode ser necessária uma compra adicional" sob as opções de preços.
+
+>[!NOTE]
+>Se o elemento visual do Power BI já tiver sido submetido com o [Dashboard de Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) e quiser adicionar uma funcionalidade IAP, terá de escrever nas notas do Dashboard de Vendedor “Elemento visual com compra na aplicação”. Também terá de fornecer um token ou uma chave de licença para que a equipa de validação possa validar as funcionalidades IAP.
 
 ## <a name="context-menu"></a>Menu de contexto
 O menu de contexto é o menu de clique com o botão direito do rato apresentado quando o utilizador passa o rato sobre um elemento visual.

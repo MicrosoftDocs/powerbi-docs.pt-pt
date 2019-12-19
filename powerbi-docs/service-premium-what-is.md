@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699136"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958569"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?
 
@@ -29,16 +29,17 @@ O Power BI Premium fornece recursos dedicados e melhorados para executar o servi
 > * Suporte para residência dos dados por região (Multi-Geo)
 > * Partilhar dados com qualquer pessoa sem comprar uma licença por utilizador
 
-Este artigo apresenta as principais funcionalidades do Power BI Premium. Sempre que necessário, são fornecidas ligações para artigos adicionais com mais informações detalhadas.
+Este artigo apresenta as principais funcionalidades do Power BI Premium. Sempre que necessário, são fornecidas ligações para artigos adicionais com mais informações detalhadas. Para obter mais informações acerca do Power BI Pro e do Power BI Premium, veja a secção _Comparação das funcionalidades do Power BI_ na página [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="subscriptions-and-licensing"></a>Subscrições e licenciamento
 
 O Power BI Premium é uma subscrição do Office 365 ao nível do inquilino disponível em duas famílias de SKUs (Stock Keeping Unit):
 
-- Os SKUs **EM** (EM1-EM3) para incorporar necessitam de uma fidelização anual e são faturados mensalmente. Os SKUs EM1 e EM2 estão disponíveis apenas através de planos de licenciamento em volume. Não pode comprá-los diretamente.
 - Os SKUs **P** (P1-P3) para funcionalidades empresariais e de incorporação necessitam de fidelização mensal ou anual, são faturados mensalmente e incluem uma licença para instalar o Power BI Report Server no local.
 
-Uma abordagem alternativa é comprar uma subscrição do **Azure Power BI Embedded**, que tem uma única família de SKUs **A**  (A1-A6) apenas para incorporar e testar capacidades. Todos os SKUs fornecem núcleos virtuais para criar capacidades, mas os SKUs EM são restritos para incorporação em menor escala. Os SKUs EM1, EM2, A1 e A2 com menos de quatro núcleos virtuais não são executados na infraestrutura dedicada.
+- Os SKUs **EM** (EM1-EM3) para incorporar a nível _organizacional_ necessitam de uma fidelização anual e são faturados mensalmente. Os SKUs EM1 e EM2 estão disponíveis apenas através de planos de licenciamento em volume. Não pode comprá-los diretamente.
+
+Uma abordagem alternativa é comprar uma subscrição do **Power BI Embedded** no Azure. Existe uma única família de SKUs **A** (A1-A6) que não necessita de fidelização e é faturada à hora para utilizar o Power BI de marca branca em aplicações, portais e sites ou como uma forma de testar as funcionalidades P e EM. Todos os SKUs fornecem núcleos virtuais para criar capacidades, mas os SKUs EM são restritos para incorporação em menor escala. Os SKUs EM1, EM2, A1 e A2 com menos de quatro núcleos virtuais não são executados na infraestrutura dedicada.
 
 Embora o foco deste artigo sejam os SKUs P, a maior parte do que é descrito também é relevante para os SKUs A. Em contraste com os SKUs da subscrição Premium, os SKUs do Azure não necessitam de fidelização e são faturados à hora. Fornecem elasticidade total e permitem aumentar verticalmente, reduzir verticalmente, colocar em pausa, retomar e eliminar. 
 
@@ -50,7 +51,11 @@ As subscrições do Power BI Premium são compradas por administradores no centr
 
 ## <a name="dedicated-capacities"></a>Capacidades dedicadas
 
-Com o Power BI Premium, obtém *capacidades dedicadas*. Em contraste com a capacidade partilhada, em que as cargas de trabalho são executadas em recursos computacionais partilhados com outros clientes, uma capacidade dedicada é para utilização exclusiva de uma organização. Tem recursos computacionais dedicados que fornecem um desempenho consistente e fiável para os conteúdos alojados. 
+Com o Power BI Premium, obtém *capacidades dedicadas*. Em contraste com a capacidade partilhada, em que as cargas de trabalho são executadas em recursos computacionais partilhados com outros clientes, uma capacidade dedicada é para utilização exclusiva de uma organização. Tem recursos computacionais dedicados que fornecem um desempenho consistente e fiável para os conteúdos alojados. Note que os seguintes recursos são armazenados na capacidade partilhada e não na capacidade dedicada:
+
+* Livros do Excel (a menos que os dados sejam importados primeiro para o Power BI Desktop)
+* [Conjuntos de dados push](/rest/api/power-bi/pushdatasets)
+* [Conjuntos de dados de transmissão em fluxo](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 As áreas de trabalho residem nas capacidades. Cada utilizador do Power BI tem uma área de trabalho pessoal conhecida como **A Minha Área de Trabalho**. As áreas de trabalho adicionais conhecidas como **áreas de trabalho** podem ser criadas para permitir a colaboração. Por predefinição, as áreas de trabalho, incluindo as áreas de trabalho pessoais, são criadas na capacidade partilhada. Quando tem capacidades Premium, As Minhas Áreas de Trabalho e áreas de trabalho podem ser atribuídas a capacidades Premium.
 
@@ -77,6 +82,9 @@ Os recursos e limites de cada SKU Premium (e SKU A dimensionado de forma equival
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> Pode ser preferível utilizar um único SKU maior (por exemplo, um SKU P2) em vez de combinar SKUs mais pequenos (por exemplo, dois SKUs P1). Por exemplo, pode utilizar modelos maiores e obter um melhor paralelismo com o P2.
 
 ### <a name="capacity-workloads"></a>Cargas de trabalho de capacidade
 
@@ -235,5 +243,3 @@ Para saber mais, veja [Ligar a conjuntos de dados com ferramentas e aplicações
 > [Gerir as capacidades Premium](service-premium-capacity-manage.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-
-||||||

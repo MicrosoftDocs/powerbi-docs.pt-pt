@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875336"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958523"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar o esquema linguístico e adicionar expressões nas Perguntas e Respostas no Power BI Desktop 
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Ainda mais útil quando os seus dados respondem. Quando coloca uma questão nas Perguntas e Respostas do Power BI, estas fazem todos os possíveis para responder corretamente. Porém, pode otimizar as respostas para obter interações das Perguntas e Respostas ainda melhores. Uma forma de o fazer é editar o esquema linguístico. 
 
-Tudo começa com os dados da sua empresa.  Quanto melhor for o modelo de dados, mais fácil será para os utilizadores obter respostas de qualidade. Uma forma de melhorar o modelo é adicionar um esquema linguístico que defina e categorize a terminologia e as relações entre os nomes de tabelas e colunas no conjunto de dados. O Power BI Desktop é onde gere os seus esquemas linguísticos. 
+Tudo começa com os dados da sua empresa.  Quanto melhor for o modelo de dados, mais fácil será para os utilizadores obter respostas de qualidade. Uma forma de melhorar o modelo é adicionar um esquema linguístico que defina e categorize a terminologia e as relações entre os nomes de tabelas e colunas no conjunto de dados. O Power BI Desktop é onde gere os seus esquemas linguísticos. 
 
-Existem dois lados nas Perguntas e Respostas.  O primeiro é a preparação ou *modelação*.  O segundo é colocar questões e explorar os dados ou *consumir*. Em algumas empresas, os colaboradores conhecidos como *modeladores de dados* ou Administradores de TI podem ser aqueles que montam os conjuntos de dados, criam os modelos de dados e publicam os conjuntos de dados no Power BI.  Um outro conjunto de colaboradores seria constituído por aqueles que "consomem" os dados online.  Noutras empresas, estas funções podem estar combinadas. 
+Existem dois lados nas Perguntas e Respostas.  O primeiro é a preparação ou *modelação*.  O segundo é colocar questões e explorar os dados ou *consumir*. Em algumas empresas, os colaboradores conhecidos como *modeladores de dados* ou Administradores de TI podem ser aqueles que montam os conjuntos de dados, criam os modelos de dados e publicam os conjuntos de dados no Power BI.  Um outro conjunto de colaboradores seria constituído por aqueles que "consomem" os dados online.  Noutras empresas, estas funções podem estar combinadas. 
 
 Este artigo destina-se a modeladores de dados, as pessoas que otimizam conjuntos de dados para conseguir os melhores resultados possíveis das Perguntas e Respostas. 
 

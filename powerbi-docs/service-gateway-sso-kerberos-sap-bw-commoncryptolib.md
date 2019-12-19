@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697641"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000187"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usar o início de sessão único Kerberos para SSO no SAP BW com CommonCryptoLib (sapcrypto.dll)
 
@@ -30,7 +30,7 @@ Este artigo descreve como configurar a origem de dados SAP BW para ativar o SSO 
 
 1. Confirme que o seu servidor BW está configurado corretamente para o SSO do Kerberos com CommonCryptoLib. Se estiver, pode utilizar o SSO para aceder ao seu servidor BW (diretamente ou através de um Servidor de Mensagens SAP BW) com uma ferramenta SAP como o GUI do SAP, que foi configurado para utilizar a CommonCryptoLib. 
 
-   Para obter mais informações sobre os passos de configuração, veja [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Início de Sessão Único do SAP: autenticação com Kerberos/SPNEGO). O seu servidor BW deverá utilizar a CommonCryptoLib como a respetiva Biblioteca SNC e ter um nome SNC que comece por *CN=* , como *CN=BW1*. Para obter mais informações sobre os requisitos de nomes SNC (especificamente, o parâmetro snc/identity/as), veja [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) (Parâmetros SNC para Configuração do Kerberos).
+   Para obter mais informações sobre os passos de configuração, veja [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Início de Sessão Único do SAP: autenticação com Kerberos/SPNEGO). O seu servidor BW deverá utilizar a CommonCryptoLib como a respetiva Biblioteca SNC e ter um nome SNC que comece por *CN=*, como *CN=BW1*. Para obter mais informações sobre os requisitos de nomes SNC (especificamente, o parâmetro snc/identity/as), veja [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) (Parâmetros SNC para Configuração do Kerberos).
 
 1. Se ainda não o tiver feito, instale a versão x64 do [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) no computador onde o gateway foi instalado. 
    
@@ -89,7 +89,7 @@ Este artigo descreve como configurar a origem de dados SAP BW para ativar o SSO 
 
 ## <a name="troubleshooting"></a>Resolução de problemas
 
-Se não conseguir atualizar o relatório no serviço Power BI, pode utilizar o rastreio de gateways, o rastreio de CPIC e o rastreio de CommonCryptoLib para diagnosticar o problema. Uma vez que o rastreio de CPIC e de CommonCryptoLib são produtos do SAP, a Microsoft não pode fornecer suporte para os mesmos. Para os utilizadores do Active Directory aos quais é concedido acesso de SSO ao BW, algumas configurações do Active Directory poderão exigir que os utilizadores sejam membros do grupo Administradores no computador onde o gateway foi instalado.
+Se não conseguir atualizar o relatório no serviço Power BI, pode utilizar o rastreio de gateways, o rastreio de CPIC e o rastreio de CommonCryptoLib para diagnosticar o problema. Uma vez que o rastreio de CPIC e de CommonCryptoLib são produtos do SAP, a Microsoft não pode fornecer suporte para os mesmos.
 
 ### <a name="gateway-logs"></a>Registos do gateway
 
@@ -109,7 +109,49 @@ Se não conseguir atualizar o relatório no serviço Power BI, pode utilizar o r
 
    ![Rastreio de CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. Reproduza o problema e certifique-se de que a variável **CPIC\_TRACE\_DIR** contém os ficheiros de rastreio.
+3. Reproduza o problema e certifique-se de que a variável **CPIC\_TRACE\_DIR** contém os ficheiros de rastreio.
+ 
+    O rastreio de CPIC consegue diagnosticar problemas de nível mais elevado, como uma falha ao carregar a biblioteca sapcrypto.dll. Veja a seguir um exemplo de fragmento de um ficheiro de rastreio de CPIC em que ocorreu um erro de carregamento da .dll:
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    Caso se depare com tal falha mas tenha definido as permissões Ler e Executar em sapcrypto.dll e sapcrypto.ini como descrito [na secção acima](#configure-sap-bw-to-enable-sso-using-commoncryptolib), experimente definir as mesmas permissões Ler e Executar na pasta que contém os ficheiros.
+
+    Se ainda não for possível carregar a .dll, tente ativar a [auditoria para o ficheiro](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder). Examinar os registos de auditoria resultantes no Visualizador de Eventos do Windows pode ajudar a determinar o motivo pelo qual ocorre uma falha ao carregar o ficheiro. Procure uma entrada de falha iniciada pelo utilizador representado do Active Directory Domain Services. Por exemplo, para o utilizador representado `MYDOMAIN\mytestuser`, uma falha no registo de auditoria teria um aspeto semelhante ao seguinte:
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>Rastreio de CommonCryptoLib 
 
