@@ -7,6 +7,10 @@
       items:
         - name: "O que é a administração do Power\_BI?"
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: Where is my tenant located? (Onde está localizado o meu inquilino?)
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: Migrar para Regiões Geográficas na Alemanha
+          href: service-admin-migrate-data-germany.md
     - name: Conceitos
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: Usar o portal de administração
           href: ../service-admin-portal.md
-        - name: Where is my tenant located? (Onde está localizado o meu inquilino?)
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
           href: ../service-admin-access-usage.md
         - name: Auditoria

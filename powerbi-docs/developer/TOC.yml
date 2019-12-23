@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: Ordenação
               href: visuals/sort-options.md
-            - name: Interactivity utils (Utilitários de interatividade)
-              href: visuals/utils-interactivity-selections.md
+            - name: Localização
+              href: visuals/localization.md
+            - name: Utilitários dos elementos visuais do Power BI
+              items:
+                - name: Interactivity utils (Utilitários de interatividade)
+                  href: visuals/utils-interactivity-selections.md
+                - name: Formatting utils (Utilitários de formatação)
+                  href: visuals/utils-formatting.md
+                - name: Utilitários de gráficos
+                  href: visuals/utils-chart.md
+                - name: Utilitários de SVG
+                  href: visuals/utils-svg.md
+                - name: Utilitários de escrita
+                  href: visuals/utils-type.md
+                - name: Utilitários de vista de dados
+                  href: visuals/utils-dataview.md
         - name: Recursos
           items:
             - name: Dev Center

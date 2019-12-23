@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
           href: auto-date-time.md
+        - name: Guia de relações muitos-para-muitos
+          href: relationships-many-to-many.md
     - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos

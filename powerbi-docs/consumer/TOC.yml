@@ -8,9 +8,9 @@
           href: end-user-consumer.md
         - name: Conceitos básicos e terminologia para os consumidores do Power BI
           href: end-user-basic-concepts.md
-        - name: Localizar conteúdos com a sua Home page de destino
+        - name: Find content using your Home landing page (Localizar conteúdos com a sua Home page de destino)
           href: end-user-home.md
-        - name: Navegar pelo "novo aspeto"
+        - name: Navigate the 'new look' (Navegar pelo "novo aspeto")
           href: ../service-new-look.md
         - name: 'O "novo visual": onde estão as ações?'
           href: ../service-new-look.md
@@ -18,9 +18,9 @@
       items:
         - name: Navegar no Power BI
           href: end-user-experience.md
-        - name: O que posso fazer com o Power BI?
+        - name: What can I do with Power BI? (O que posso fazer com o Power BI?)
           href: end-user-reading-view.md
-        - name: Iniciar sessão pela primeira vez
+        - name: Sign in for the first time (Iniciar sessão pela primeira vez)
           href: end-user-sign-in.md
     - name: Tutoriais
       items:
@@ -48,13 +48,13 @@
               href: end-user-report-open.md
             - name: Alterar a maneira como um relatório é apresentado
               href: end-user-report-view.md
-            - name: Alterar a sequência de ordenação num elemento visual
+            - name: Change the sort order in a visual (Alterar a sequência de ordenação num elemento visual)
               href: end-user-change-sort.md
             - name: Utilizar filtros num relatório
               href: end-user-report-filter.md
             - name: Saiba como os elementos visuais do relatório realizam a filtragem cruzada entre si
               href: end-user-interactions.md
-            - name: Exportar um relatório para PDF
+            - name: Export a report to PDF (Exportar um relatório para PDF)
               href: end-user-pdf.md
             - name: Exportar um relatório para PowerPoint
               href: end-user-powerpoint.md
@@ -74,7 +74,7 @@
           items:
             - name: O que posso fazer com visualizações?
               href: end-user-visualizations.md
-            - name: Tipos de visualizações
+            - name: Types of visualizations (Tipos de visualizações)
               href: end-user-visual-type.md
             - name: Mostrar os dados que foram utilizados para criar a visualização
               href: end-user-show-data.md
@@ -82,17 +82,17 @@
               href: end-user-drill.md
             - name: Interagir com mapas ArcGIS
               href: ../power-bi-visualizations-arcgis.md
-        - name: Tarefas comuns
+        - name: Common tasks (Tarefas comuns)
           items:
-            - name: Exportar dados para o Excel
+            - name: Export data to Excel (Exportar dados para o Excel)
               href: end-user-export.md
-            - name: Pesquisar o proprietário do conteúdo e a data da última atualização
+            - name: Look up the content owner and last refreshed date (Pesquisar o proprietário do conteúdo e a data da última atualização)
               href: end-user-fresh.md
             - name: Diferentes formas de aplicar zoom no conteúdo com os modos de ecrã Foco e Ecrã total
               href: end-user-focus.md
             - name: "Dashboards, relatórios e aplicações favoritas no Power\_BI"
               href: end-user-favorite.md
-            - name: 'Imprimir um dashboard, um mosaico do dashboard, uma página de relatório'
+            - name: 'Print a dashboard, print a dashboard tile, print a report page (Imprimir um dashboard, um mosaico do dashboard, uma página de relatório)'
               href: end-user-print.md
             - name: Ver conteúdos relacionados
               href: end-user-related.md
@@ -100,7 +100,7 @@
               href: end-user-recent.md
             - name: Ver conteúdo no contentor Partilhado comigo
               href: end-user-shared-with-me.md
-            - name: Subscrever um relatório ou um dashboard
+            - name: Subscribe to a report or dashboard (Subscrever um relatório ou um dashboard)
               href: end-user-subscribe.md
             - name: Pesquisar e ordenar conteúdo no Power BI
               href: end-user-search-sort.md
@@ -108,7 +108,7 @@
               href: end-user-insights.md
             - name: Ativar as funcionalidades de pré-visualização
               href: end-user-preview-features.md
-            - name: Obter notificações no serviço Power BI
+            - name: Get notifications in the Power BI service (Obter notificações no serviço Power BI)
               href: end-user-notification-center.md
         - name: Obter dados
           items:
@@ -116,11 +116,11 @@
               href: end-user-apps.md
             - name: Instalar e utilizar aplicações
               href: end-user-app-view.md
-            - name: Ligar aos serviços
+            - name: Connect to services (Ligar aos serviços)
               href: end-user-connect-to-services.md
             - name: Obter uma aplicação de exemplo do AppSource
               href: end-user-app-marketing.md
-        - name: Fazer perguntas sobre os seus dados
+        - name: Ask questions of your data (Fazer perguntas sobre os seus dados)
           items:
             - name: Perguntas e Respostas no Power BI
               href: end-user-q-and-a.md
@@ -142,6 +142,8 @@
       items:
         - name: O que são as aplicações móveis?
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: Conhecer a home page
+          href: mobile/mobile-apps-home-page.md
     - name: Inícios rápidos
       items:
         - name: Explorar dashboards e relatórios
@@ -152,11 +154,11 @@
           href: mobile/tutorial-mobile-apps-ios-qna.md
     - name: Conceitos
       items:
-        - name: Novidades nas aplicações móveis
+        - name: What's new in the mobile apps (Novidades nas aplicações móveis)
           href: mobile/mobile-whats-new-in-the-mobile-apps.md
         - name: Obter dados do mundo real com as aplicações móveis
           href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: Ver os dados offline nas aplicações móveis
+        - name: View your data offline in the mobile apps (Ver os dados offline nas aplicações móveis)
           href: mobile/mobile-apps-offline-data.md
         - name: Aplicação Power BI for Mixed Reality (Pré-visualização)
           href: mobile/mobile-mixed-reality-app.md
@@ -164,25 +166,25 @@
       items:
         - name: Todas as aplicações móveis
           items:
-            - name: Dashboards do Power BI móvel
+            - name: Dashboards for mobile Power BI (Dashboards do Power BI móvel)
               href: mobile/mobile-apps-view-dashboard.md
-            - name: Relatórios nas aplicações móveis
+            - name: Reports in the mobile apps (Relatórios nas aplicações móveis)
               href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: Interagir com mosaicos nas aplicações móveis
+            - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
               href: mobile/mobile-tiles-in-the-mobile-apps.md
             - name: Partilhar um dashboard das aplicações móveis do Power BI
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: Favoritos nas aplicações móveis
+            - name: Favorites in the mobile apps (Favoritos nas aplicações móveis)
               href: mobile/mobile-apps-favorites.md
-            - name: Configurar a interação em relatórios nas aplicações (apenas telemóveis)
+            - name: 'Configure report interaction in the mobile apps (phone only) (Configurar a interação em relatórios nas aplicações [apenas telemóveis])'
               href: mobile/mobile-app-single-tap.md
             - name: Definir alertas de dados nas aplicações móveis do Power BI
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Receber notificações nas aplicações móveis do Power BI
               href: mobile/mobile-apps-notification-center.md
-            - name: Criar uma ligação avançada que direciona para uma determinada localização
+            - name: Create a deep link that goes to a specific location (Criar uma ligação avançada que direciona para uma determinada localização)
               href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: Filtrar um relatório pela localização nas aplicações móveis do Power BI
+            - name: Filter a report by location in the Power BI mobile apps (Filtrar um relatório pela localização nas aplicações móveis do Power BI)
               href: mobile/mobile-apps-geographic-filtering.md
             - name: Utilizar o OAuth para ligar ao Reporting Services
               href: mobile/mobile-oauth-ssrs.md
@@ -194,25 +196,25 @@
               href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
             - name: Aceder a conteúdos de uma organização externa (B2B)
               href: mobile/mobile-apps-b2b.md
-            - name: Digitalizar um código QR do Power BI a partir do seu telemóvel
+            - name: Scan a Power BI QR code from your phone (Digitalizar um código QR do Power BI a partir do seu telemóvel)
               href: mobile/mobile-apps-qr-code.md
             - name: Anotar e partilhar nas aplicações móveis
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Ler um código de barras a partir da aplicação no iPhone
+            - name: Ler um código de barras a partir da aplicação móvel do Power BI
               href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: Configurar com a gestão de dispositivos móveis
+            - name: Configure using mobile device management (Configurar com a gestão de dispositivos móveis)
               href: mobile/mobile-app-configuration.md
         - name: iOS
           items:
             - name: Introdução à aplicação iOS
               href: mobile/mobile-iphone-app-get-started.md
-            - name: 'Proteger com Face ID, Touch ID ou Código'
+            - name: 'Protect with Face ID, Touch ID, or Passcode (Proteger com Face ID, Touch ID ou Código)'
               href: mobile/mobile-ios-native-secure-access.md
             - name: Analista virtual de Perguntas e Respostas em aplicações móveis para iOS
               href: mobile/mobile-apps-ios-qna.md
-            - name: Integração de Atalhos da Siri na aplicação móvel do Power BI
+            - name: Power BI mobile app integration with Siri Shortcuts (Integração de Atalhos da Siri na aplicação móvel do Power BI)
               href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: Integração da pesquisa de dispositivos iOS
+            - name: iOS device search integration (Integração da pesquisa de dispositivos iOS)
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Aplicação Power BI Apple Watch
               href: mobile/mobile-apple-watch.md
@@ -238,5 +240,5 @@
               href: mobile/mobile-windows-10-app-single-sign-on-sso.md
     - name: Recursos
       items:
-        - name: Idiomas suportados nas aplicações móveis
+        - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
           href: mobile/mobile-apps-supported-languages.md
