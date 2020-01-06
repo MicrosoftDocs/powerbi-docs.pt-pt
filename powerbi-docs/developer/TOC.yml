@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: Tutoriais
           items:
-            - name: Conceito visual
-              href: visuals/power-bi-visuals-concept.md
             - name: Develop a Power BI visual (Criar um elemento visual do Power BI)
               href: visuals/custom-visual-develop-tutorial.md
             - name: Add formatting options (Adicionar opções de formatação)
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: Conceitos
           items:
+            - name: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
+              href: visuals/visual-project-structure.md
+            - name: Conceito visual
+              href: visuals/power-bi-visuals-concept.md
             - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
               href: power-bi-custom-visuals-organization.md
             - name: Diretrizes de elementos visuais do Power BI
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: Add context menu support (Adicionar suporte de menu de contexto)
               href: visuals/context-menu.md
+            - name: Adicionar suporte de Desagregação
+              href: visuals/drill-down-support.md
             - name: Highlight data in visuals (Destacar dados em elementos visuais)
               href: visuals/highlight.md
             - name: Add High-Contrast mode support (Adicionar suporte para o modo Alto Contraste)
@@ -109,7 +113,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: Creating SSL certificate (Criar um certificado SSL)
               href: visuals/create-ssl-certificate.md
-    - name: Análise incorporada
+    - name: Embedded analytics (Análise incorporada)
       expanded: true
       items:
         - name: Descrição geral
@@ -178,7 +182,7 @@
               items:
                 - name: Como migrar de Coleções de Áreas de Trabalho do Power BI
                   href: migrate-from-powerbi-embedded.md
-                - name: Ferramenta de migração
+                - name: Ferramentas de migração
                   href: migrate-tool.md
                 - name: Migration code snippets (Fragmentos de código de migração)
                   href: migrate-code-snippets.md
@@ -204,9 +208,9 @@
               href: 'https://aka.ms/embedsetup'
             - name: Exemplo do JavaScript Playground
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-            - name: Wiki de JavaScript do Power BI
+            - name: Wiki do Power BI JavaScript
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
-            - name: JavaScript Git Repo (Repositório Git do JavaScript)
+            - name: Repositório de Git de JavaScript
               href: 'https://go.microsoft.com/fwlink/?linkid=848276'
             - name: 'Power BI C# Git Repo (Repositório Git C# do Power BI)'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'

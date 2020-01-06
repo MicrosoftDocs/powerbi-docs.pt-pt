@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: Evitar converter espaços em branco em valores
           href: dax-avoid-converting-blank.md
+        - name: Column and measure references (Referências de colunas e de medidas)
+          href: dax-column-measure-references.md
         - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
           href: ../service-dataflows-best-practices.md
         - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: Guia de relações muitos-para-muitos
           href: relationships-many-to-many.md
+        - name: Disable Power Query background refresh (Desativar a atualização em segundo plano do Power Query)
+          href: power-query-background-refresh.md
     - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos

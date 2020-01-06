@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
           href: ../service-admin-access-usage.md
-        - name: Auditoria
+        - name: Track user activities (Controlar as atividades dos utilizadores)
           href: ../service-admin-auditing.md
         - name: Controlar o estado de funcionamento do serviço
           href: ../service-admin-health.md
