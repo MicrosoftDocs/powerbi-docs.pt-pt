@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: f44e8b44157f62b6b80e16b18a2c80d11e43eb77
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265309"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI
@@ -227,13 +227,13 @@ Neste fragmento, partimos do pressuposto que o conjunto de dados enviado por pus
     }
 ```
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Ferramenta de migração Power BI Embedded](migrate-tool.md)  
 [Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdo da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md)  
-[Power BI Premium – o que é?](../service-premium-what-is.md)  
+[Power BI Premium - what is it?](../service-premium-what-is.md) (Power BI Premium – o que é?)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

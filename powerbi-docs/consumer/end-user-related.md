@@ -12,10 +12,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73862267"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Ver conteúdos relacionados no serviço Power BI
@@ -58,7 +58,7 @@ No painel de navegação, localize o cabeçalho **Áreas de trabalho** e selecio
 ![áreas de trabalho no painel de navegação](./media/end-user-related/power-bi-workspace.png)
 
 
-Numa área de trabalho, selecione o separador **Conjuntos de Dados** e procure o ícone **Ver relacionados** ![ícone Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
+Numa área de trabalho, selecione o separador **Conjuntos de Dados** e procure o ícone **Ver relacionados**![ícone Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Separador Conjuntos de Dados](./media/end-user-related/power-bi-related-dataset.png)
 

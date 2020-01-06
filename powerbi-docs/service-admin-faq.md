@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698745"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administrar o Power BI – perguntas mais frequentes (FAQ)
@@ -250,7 +250,7 @@ Para saber mais sobre a conformidade do Power BI, veja o [Microsoft Trust Center
 
 A Microsoft criou o Power BI com base no Microsoft 365 que, por sua vez, se baseia nos serviços do Azure como o Azure Active Directory. Para obter uma descrição geral da arquitetura do Power BI, veja [Segurança do Power BI](service-admin-power-bi-security.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Portal de administração do Power BI](service-admin-portal.md)  
 [Compreender a função de administrador do Power BI](service-admin-role.md)  

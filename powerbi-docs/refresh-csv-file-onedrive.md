@@ -11,10 +11,10 @@ ms.date: 09/12/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699711"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados criado com base num ficheiro .CSV no OneDrive ou SharePoint Online
@@ -25,7 +25,7 @@ Se os ficheiros estiverem numa pasta partilhada no OneDrive for Business ou Shar
 
 Muitas organizações realizam processos que consultam automaticamente nas bases de dados os dados que são então guardados diariamente num ficheiro .csv. Se o ficheiro estiver armazenado no OneDrive ou SharePoint Online e o mesmo ficheiro for substituído todos os dias, em vez de criar um novo ficheiro com um nome diferente todos os dias, será possível se conectar a esse ficheiro no Power BI. O conjunto de dados que se conecta ao ficheiro será sincronizado logo depois que o ficheiro no OneDrive ou SharePoint Online for atualizado. Todas as visualizações com base no conjunto de dados também são atualizadas automaticamente.
 
-## <a name="whats-supported"></a>O que é suportado?
+## <a name="whats-supported"></a>O que tem suporte?
 Os ficheiros de valores separados por vírgulas são ficheiros de texto simples; portanto, não há suporte para conexões a relatórios e origens de dados externas. Não é possível agendar uma atualização num conjunto de dados criado por meio de um ficheiro delimitado por vírgulas. No entanto, quando o ficheiro estiver no OneDrive ou SharePoint Online, o Power BI sincronizará todas as alterações no ficheiro com o conjunto de dados automaticamente em intervalos aproximados de sessenta minutos.
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive ou OneDrive para Empresas. Qual é a diferença?

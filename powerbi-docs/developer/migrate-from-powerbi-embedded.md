@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 829724fb96b0122bc3bd2b346d8102947b0921f7
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74311543"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdos da Coleção de Áreas de Trabalho do Power BI para o Power BI Embedded
@@ -79,7 +79,7 @@ Terá de registar uma aplicação no Azure AD e conceder determinadas permissõe
 
 ### <a name="register-an-application"></a>Registar uma aplicação
 
-Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Isto inclui aceder ao portal do Azure para aplicar configuração adicional, bem como aceder à página de registo de aplicações do Power BI. Para obter mais informações, consulte [Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI](register-app.md).
+Terá de registar a sua aplicação no Azure AD para fazer chamadas à API REST. Isto inclui aceder ao portal do Azure para aplicar configuração adicional, bem como aceder à página de registo de aplicações do Power BI. Para obter mais informações, veja [Register an Azure AD app to embed Power BI content (Registar uma aplicação do Azure AD para incorporar conteúdo do Power BI)](register-app.md).
 
 Deve registar a aplicação com a conta **principal** da aplicação.
 
@@ -194,13 +194,13 @@ Deve fazer uma limpeza no Azure.
 * Remova todas as áreas de trabalho da solução implementada no Azure Embedded da Coleção de Áreas de Trabalho do Power BI.
 * Elimine as Coleções de Áreas de Trabalho existentes no Azure.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Incorporar com o Power BI](embedding.md)  
 [Ferramenta de migração da Coleção de Áreas de Trabalho do Power BI](migrate-tool.md)  
 [Fragmentos de código para a migração de conteúdo a partir da Coleção de Áreas de Trabalho do Power BI](migrate-code-snippets.md)  
 [Como incorporar os dashboards, relatórios e mosaicos do Power BI](embedding-content.md)  
-[Power BI Premium – o que é?](../service-premium-what-is.md)  
+[Power BI Premium - what is it?](../service-premium-what-is.md) (Power BI Premium – o que é?)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

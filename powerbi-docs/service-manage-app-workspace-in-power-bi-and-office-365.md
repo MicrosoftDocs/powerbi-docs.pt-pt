@@ -10,10 +10,10 @@ ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872083"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gerir a sua área de trabalho no Power BI e no Office 365

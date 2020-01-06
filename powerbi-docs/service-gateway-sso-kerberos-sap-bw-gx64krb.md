@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000141"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Utilizar o Kerberos para início de sessão único (SSO) no SAP BW com gx64krb5
@@ -49,7 +49,7 @@ A biblioteca gx64krb5 tem de ser utilizada pelo cliente e pelo servidor para est
 Conclua esta secção se ainda não tiver configurado o seu servidor do SAP BW para comunicação com o SNC (por exemplo, SSO) através da gx64krb5.
 
 > [!NOTE]
-> Esta secção pressupõe que já tenha criado um utilizador de serviço para BW e associado um SPN adequado ao mesmo (ou seja, um nome que comece por *SAP/*).
+> Esta secção pressupõe que já tenha criado um utilizador de serviço para BW e associado um SPN adequado ao mesmo (ou seja, um nome que comece por *SAP/* ).
 
 1. Conceda ao utilizador de serviço acesso ao Servidor Aplicacional do SAP BW:
 
@@ -75,9 +75,9 @@ Conclua esta secção se ainda não tiver configurado o seu servidor do SAP BW p
 
 1. No SAP Logon, inicie sessão no seu servidor e defina os parâmetros do seguinte perfil com a transação RZ10:
 
-    1. Defina o parâmetro de perfil **snc/identity/as** para *p:&lt;utilizador do serviço SAP BW que criou&gt;*. Por exemplo, *p:BWServiceUser\@MYDOMAIN.COM*. Observe que *p:* precede o UPN do utilizador do serviço, em oposição a *p:CN=*, que precede o UPN quando utiliza a CommonCryptoLib como biblioteca SNC.
+    1. Defina o parâmetro de perfil **snc/identity/as** para *p:&lt;utilizador do serviço SAP BW que criou&gt;* . Por exemplo, *p:BWServiceUser\@MYDOMAIN.COM*. Observe que *p:* precede o UPN do utilizador do serviço, em oposição a *p:CN=* , que precede o UPN quando utiliza a CommonCryptoLib como biblioteca SNC.
 
-    1. Defina o parâmetro de perfil **snc/gssapi\_lib** como *&lt;caminho para a biblioteca gx64krb5.dll no servidor BW&gt;*. Coloque a biblioteca numa localização à qual o Servidor de Aplicações do SAP BW possa aceder.
+    1. Defina o parâmetro de perfil **snc/gssapi\_lib** como *&lt;caminho para a biblioteca gx64krb5.dll no servidor BW&gt;* . Coloque a biblioteca numa localização à qual o Servidor de Aplicações do SAP BW possa aceder.
 
     1. Defina os seguintes parâmetros de perfil adicionais, ao alterar os valores conforme exigido para satisfazer as suas necessidades. As últimas cinco opções permitem que os clientes liguem ao servidor do SAP BW com o SAP Logon, sem ser necessário ter o SNC configurado.
 
@@ -108,7 +108,7 @@ Se ainda não o tiver feito, mapeie um utilizador do Active Directory a um utili
 
     ![Ecrã User maintenance (Manutenção de utilizadores) do SAP BW](media/service-gateway-sso-kerberos/user-maintenance.png)
 
-1. Selecione o separador **SNC**. Na caixa de entrada SNC Name (Nome do SNC), introduza *p:&lt;o seu utilizador do Active Directory&gt;@&lt;o seu domínio&gt;*. Para o nome SNC, *p:* tem de preceder o UPN do utilizador do Active Directory. Repare que o UPN é sensível a maiúsculas e minúsculas.
+1. Selecione o separador **SNC**. Na caixa de entrada SNC Name (Nome do SNC), introduza *p:&lt;o seu utilizador do Active Directory&gt;@&lt;o seu domínio&gt;* . Para o nome SNC, *p:* tem de preceder o UPN do utilizador do Active Directory. Repare que o UPN é sensível a maiúsculas e minúsculas.
 
    O utilizador do Active Directory que especificar deve pertencer à pessoa ou organização para a qual pretende ativar o acesso de SSO ao Servidor Aplicacional do SAP BW. Por exemplo, se quiser ativar o acesso de SSO para o utilizador testuser\@TESTDOMAIN.COM, introduza *p:testuser\@TESTDOMAIN.COM*.
 
@@ -134,7 +134,7 @@ Verifique se pode iniciar sessão no servidor com o SAP Logon através do SSO en
 
 1. Clique com o botão direito do rato na nova ligação, selecione **Properties** (Propriedades) e selecione o separador **Network** (Rede). 
 
-1. Na caixa **SNC Name** (Nome do SNC), introduza *p:&lt;UPN do utilizador do serviço SAP BW&gt;*. Por exemplo, *p:BWServiceUser\@MYDOMAIN.COM*. Selecione **OK**.
+1. Na caixa **SNC Name** (Nome do SNC), introduza *p:&lt;UPN do utilizador do serviço SAP BW&gt;* . Por exemplo, *p:BWServiceUser\@MYDOMAIN.COM*. Selecione **OK**.
 
     ![Ecrã System Entry Properties (Propriedades de Entrada do Sistema)](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
@@ -154,7 +154,7 @@ Adicione entradas de registo necessárias ao registo do computador no qual o gat
 
 1. Na janela de configuração da origem de dados, introduza o **Nome do anfitrião**, **Número do Sistema** e **ID de cliente** do Servidor de Aplicações do SAP BW como faria para iniciar sessão no seu servidor do SAP BW a partir do Power BI Desktop.
 
-1. No campo **Nome do Parceiro SNC**, introduza *p:&lt;SPN que mapeou ao utilizador do serviço SAP BW&gt;*. Por exemplo, se o SPN for SAP/BWServiceUser\@MYDOMAIN.COM, introduza *p:SAP/BWServiceUser\@MYDOMAIN.COM* no campo **Nome do Parceiro SNC**.
+1. No campo **Nome do Parceiro SNC**, introduza *p:&lt;SPN que mapeou ao utilizador do serviço SAP BW&gt;* . Por exemplo, se o SPN for SAP/BWServiceUser\@MYDOMAIN.COM, introduza *p:SAP/BWServiceUser\@MYDOMAIN.COM* no campo **Nome do Parceiro SNC**.
 
 1. Para a Biblioteca SNC, selecione **SNC\_LIB** ou **SNC\_LIB\_64**. Certifique-se de que **SNC\_LIB\_64** no computador do gateway aponta para gx64krb5.dll. Em alternativa, pode selecionar a opção **Personalizado** e fornecer o caminho absoluto da biblioteca gx64krb5.dll no computador do gateway.
 
@@ -207,5 +207,5 @@ Para obter mais informações sobre o gateway de dados no local e o DirectQuery,
 * [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-onprem) (O que é um gateway de dados no local?)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
-* [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery and SAP HANA](desktop-directquery-sap-bw.md) (DirectQuery e SAP HANA)
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)

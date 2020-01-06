@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74311473"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Otimizar relatórios para as aplicações móveis do Power BI

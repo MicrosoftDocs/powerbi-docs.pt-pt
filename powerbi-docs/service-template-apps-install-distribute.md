@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
 ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871430"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalar e distribuir aplicações de modelo na sua organização – Power BI

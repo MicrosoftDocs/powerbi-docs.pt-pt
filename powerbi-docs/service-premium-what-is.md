@@ -11,10 +11,10 @@ ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74958569"
 ---
 # <a name="what-is-power-bi-premium"></a>O que é o Power BI Premium?

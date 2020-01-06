@@ -11,10 +11,10 @@ ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b0ae068ebeae2d16984706340c6eb9b2f247db1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73867927"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Introduzir dados diretamente no Power BI Desktop
@@ -38,7 +38,7 @@ E já está – é tão simples introduzir dados no Power BI Desktop.
 
 Está agora pronto para utilizar os dados no Power BI Desktop para criar elementos visuais, relatórios ou interagir com outros dados aos quais se possa querer ligar e importar, como livros do Excel, bases de dados ou qualquer outra origem de dados.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

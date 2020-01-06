@@ -10,38 +10,38 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74697549"
 ---
-# <a name="what-is-an-on-premises-data-gateway"></a>What is an on-premises data gateway? (O que é um gateway de dados no local?)
+# <a name="what-is-an-on-premises-data-gateway"></a>O que é um gateway de dados no local?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Um gateway de dados no local atua como uma ponte para permitir a transferência rápida e segura de dados entre dados no local (dados que não estão na cloud) e vários serviços cloud da Microsoft. Estes serviços cloud incluem o Power BI, PowerApps, Power Automate, Azure Analysis Services e Azure Logic Apps. Através da utilização de um gateway, as organizações conseguem manter bases de dados e outras origens de dados nas suas redes no local, mas utilizar de forma segura esses dados no local em serviços cloud.
+Um gateway de dados no local atua como uma ponte para permitir a transferência de dados rápida e segura entre dados no local (dados que não estão na cloud) e vários serviços cloud da Microsoft. Estes serviços cloud incluem o Power BI, PowerApps, Power Automate, Azure Analysis Services e Azure Logic Apps. Através da utilização de um gateway, as organizações conseguem manter bases de dados e outras origens de dados nas redes no local e, ainda assim, utilizar esses dados no local de forma segura em serviços cloud.
 
 ## <a name="how-the-gateway-works"></a>Como funciona o gateway
 
 ![Descrição geral do gateway](media/service-gateway-onprem/on-premises-data-gateway.png)
 
-Para obter informações sobre a forma como o gateway funciona, veja [Arquitetura do gateway de dados no local](/data-integration/gateway/service-gateway-onprem-indepth).
+Para obter informações acerca da forma como o gateway funciona, veja [Arquitetura do gateway de dados no local](/data-integration/gateway/service-gateway-onprem-indepth).
 
 ## <a name="types-of-gateways"></a>Tipos de gateways
 
-Há dois tipos diferentes de gateway, cada um para um cenário diferente:
+Existem dois tipos diferentes de gateway, cada um para um cenário diferente:
 
-* O **gateway de dados no local** permite que múltiplos utilizadores se liguem a múltiplas origens de dados no local. Pode utilizar um gateway de dados no local com todos os serviços suportados através de uma única instalação de gateway. Este gateway é adequado a cenários complexos com múltiplas pessoas que acedem a múltiplas origens de dados.
+* O **gateway de dados no local** permite que múltiplos utilizadores se liguem a múltiplas origens de dados no local. Pode utilizar um gateway de dados no local com todos os serviços suportados através de uma única instalação de gateway. Este gateway é adequado para cenários complexos com várias pessoas a acederem às várias origens de dados.
 
-* O **gateway de dados no local (modo pessoal)** permite que um utilizador se ligue a origens e não pode ser partilhado com outras pessoas. O gateway de dados no local (modo pessoal) só pode ser utilizado com o Power BI. Este gateway é adequado para cenários em que o utilizador é a única pessoa responsável pela criação de relatórios e não precisa de partilhar nenhuma origem de dados com outras pessoas.
+* O **gateway de dados no local (modo pessoal)** permite que um utilizador se ligue a origens e não pode ser partilhado com outras pessoas. O gateway de dados no local (modo pessoal) só pode ser utilizado com o Power BI. Este gateway é adequado para cenários em que o utilizador é a única pessoa responsável pela criação de relatórios e não precisa de partilhar nenhuma origem de dados com outras pessoas.
 
 ## <a name="use-a-gateway"></a>Utilizar um gateway
 
 Existem quatro passos principais para utilizar um gateway.
 
 1. [Transferir e instalar o gateway](/data-integration/gateway/service-gateway-install) num computador local.
-1. [Configurar](/data-integration/gateway/service-gateway-app) o gateway com base na sua firewall e noutros requisitos de rede.
+1. [Configurar](/data-integration/gateway/service-gateway-app) o gateway com base na firewall e noutros requisitos de rede.
 1. [Adicionar administradores de gateway](/data-integration/gateway/service-gateway-manage) que também consigam gerir e administrar outros requisitos de rede.
 1. [Utilize o gateway](service-gateway-sql-tutorial.md) para atualizar uma origem de dados no local.
 1. [Resolver problemas](service-gateway-onprem-tshoot.md) relacionados com o gateway em caso de erros.

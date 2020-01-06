@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265711"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registo de diagnóstico do Power BI Embedded no Azure
@@ -110,7 +110,7 @@ A categoria Motor instrui o recurso a registar os seguintes eventos e, para cada
 |    Fim da Consulta    |    Regista todos os eventos de fim da consulta desde o início do rastreio.    |
 |    Fim da Consulta Vertipaq    |    Regista todos os eventos de fim da consulta SE VertiPaq desde o início do rastreio.    |
 |    Fim de Sessão de Auditoria    |    Regista todos os eventos de ligação interrompida do motor desde o início do rastreio.    |
-|    Error    |    Regista todos eventos de erro do motor desde o início do rastreio.    |
+|    Erro    |    Regista todos eventos de erro do motor desde o início do rastreio.    |
 
 <br>
 <br>
@@ -131,8 +131,8 @@ A categoria Motor instrui o recurso a registar os seguintes eventos e, para cada
 | ProgressTotal | 0 | Progresso total. |
 | IntegerData | 0 | Dados de números inteiros. |
 | Gravidade | 0 | Nível de gravidade de uma exceção. |
-| Com êxito | 1 | 1 = êxito. 0 = falha (por exemplo, 1 significa que uma verificação de permissões foi efetuada com êxito e 0 significa que essa verificação falhou). |
-| Error | 0 | Número do erro de um evento específico. |
+| Êxito | 1 | 1 = êxito. 0 = falha (por exemplo, 1 significa que uma verificação de permissões foi efetuada com êxito e 0 significa que essa verificação falhou). |
+| Erro | 0 | Número do erro de um evento específico. |
 | ConnectionID | 3 | ID de ligação exclusivo. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID do conjunto de dados no qual a instrução do utilizador está em execução. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID de Sessão. |
