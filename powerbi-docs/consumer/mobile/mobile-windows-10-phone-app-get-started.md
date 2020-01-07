@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73879059"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introdução à aplicação móvel do Power BI para Windows 10
@@ -48,7 +48,7 @@ Se ainda não se inscreveu, aceda ao [serviço Power BI](https://powerbi.com/). 
    ![Caixa de diálogo Ligar](./media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-connect.png)
 3. Toque em **Começar a explorar**  para ver os seus próprios dashboards.
 
-## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimentar os exemplos do Power BI e do Reporting Services
+## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimente os exemplos do Power BI e do Reporting Services
 Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Volte para os exemplos sempre que quiser, na página inicial dos dashboards.
 
 ### <a name="power-bi-samples"></a>Amostras do Power BI
@@ -64,7 +64,7 @@ Pode ver e interagir com os exemplos no dashboard do Power BI. No entanto, há c
 
 ### <a name="reporting-services-mobile-report-samples"></a>Exemplos de relatórios móveis do Reporting Services
 1. Toque no botão de navegação global ![botão de navegação global](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) no canto superior esquerdo.
-2. Toque no ícone das **Definições** ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), clique com o botão direito do rato, ou mantenha premido **Ligar ao servidor** e, em seguida, toque em **Ver exemplos**.
+2. Toque no ícone das **Definições**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), clique com o botão direito do rato, ou mantenha premido **Ligar ao servidor** e, em seguida, toque em **Ver exemplos**.
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Abra a pasta Relatórios de Revenda ou Relatórios de Vendas para explorar os respetivos KPIs e relatórios móveis.
@@ -80,12 +80,12 @@ Encontre os seus dashboards, relatórios e aplicações rapidamente ao escrever 
    
    O Power BI mostra os seus dashboards, relatórios e aplicações mais recentes.
    
-   ![Resultados de pesquisa](./media/mobile-windows-10-phone-app-get-started/pbi_win10_searchrecent.png)
+   ![Resultados da pesquisa](./media/mobile-windows-10-phone-app-get-started/pbi_win10_searchrecent.png)
 2. À medida que começa a escrever, o Power BI apresenta todos os resultados relevantes.
    
    ![Resultados de pesquisa relevantes](./media/mobile-windows-10-phone-app-get-started/pbi_win10_search_m.png)
 
-## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Procurar os seus conteúdos nas aplicações móveis do Power BI
+## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Encontre os seus conteúdos nas aplicações móveis do Power BI
 Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-quickstart-view-dashboard-report.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
 ![Painel de navegação do Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
@@ -118,7 +118,7 @@ Eis outras coisas que pode fazer na aplicação do Power BI para dispositivos Wi
 * Crie [KPIs no portal Web do Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx).
 * [Crie os seus próprios relatórios móveis com o Editor de Relatórios Móveis do SQL Server](https://msdn.microsoft.com/library/mt652547.aspx) e publique-os no portal Web do Reporting Services.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Transferir a aplicação Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) a partir da Windows Store  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

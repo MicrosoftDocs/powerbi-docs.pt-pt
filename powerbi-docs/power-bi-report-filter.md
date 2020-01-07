@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73875151"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtros nos relatórios do Power BI
@@ -53,7 +53,7 @@ Se tiver ativado o **Novo aspeto** no serviço Power BI ![Novo aspeto ligado](me
 Mesmo que não tenha ativado o novo aspeto, pode ver a nova experiência de filtro ao seguir estes passos.
 
 1. No serviço Power BI, selecione o separador **Relatórios** na lista de conteúdos de uma área de trabalho.
-2. Localize o relatório que pretende ativar e selecione o ícone de **Definições** ![ícone de Definições de Relatórios](media/power-bi-report-filter/power-bi-settings-icon.png) desse relatório.
+2. Localize o relatório que pretende ativar e selecione o ícone de **Definições**![ícone de Definições de Relatórios](media/power-bi-report-filter/power-bi-settings-icon.png) desse relatório.
 3. Em **Experiência de filtragem**, selecione **Ativar o painel de filtros atualizado e apresentar filtros no cabeçalho do elemento visual deste relatório**.
 
     ![Ativar o painel dos filtros atualizados](media/power-bi-report-filter/power-bi-service-filter-enable.png)

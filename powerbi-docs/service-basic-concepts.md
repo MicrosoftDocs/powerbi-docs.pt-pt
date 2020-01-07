@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74128358"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceitos básicos para designers no serviço Power BI
@@ -29,7 +29,7 @@ Para este artigo, caso ainda não tenha os seus próprios relatórios, experimen
 Quando abrir o serviço Power BI num browser, começa no seu ecrã principal. Eis os elementos que poderá ver:
 
 1. Painel de navegação
-2. Iniciador de aplicações do Office 365
+2. Iniciador da aplicações do Office 365
 3. botão Início do Power BI
 4. Botões de ícone, incluindo as definições, a ajuda e o feedback
 5. Caixa de pesquisa
@@ -135,7 +135,7 @@ No exemplo abaixo, selecionei a área de trabalho "Sales and marketing" (Vendas 
 ## <a name="dashboards"></a>Dashboards
 Um *dashboard* é algo que cria **no serviço Power BI** ou algo que um colega cria **no serviço Power BI** e partilha consigo. Trata-se de uma única tela, que contém zero ou mais mosaicos e widgets. Cada mosaico afixado a partir de um relatório ou a partir de [Perguntas e Respostas](power-bi-q-and-a.md) mostra uma única [visualização](power-bi-report-visualizations.md), que foi criada a partir de um conjunto de dados e afixada ao dashboard. Pode também afixar páginas de relatórios inteiras a um dashboard como um mosaico único. Há várias formas de adicionar mosaicos ao seu dashboard; demasiadas para serem abordadas neste tópico de descrição geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](service-dashboard-tiles.md).
 
-Porque é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
+Por que é que as pessoas criam dashboards?  Eis apenas alguns dos motivos:
 
 * Para ver rapidamente todas as informações necessárias para tomar decisões.
 * Para monitorizar as informações mais importantes sobre o seu negócio.

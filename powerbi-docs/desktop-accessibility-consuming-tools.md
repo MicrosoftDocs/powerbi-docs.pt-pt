@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73878953"
 ---
 # <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>Consumir relatórios no Power BI com ferramentas de acessibilidade

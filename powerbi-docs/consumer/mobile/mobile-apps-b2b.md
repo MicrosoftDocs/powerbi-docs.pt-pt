@@ -1,19 +1,19 @@
 ---
 title: Ver conteúdos do Power BI como um utilizador convidado externo (Azure AD B2B)
 description: Utilize as aplicações móveis Power BI para ver conteúdos de uma organização externa que foram partilhados consigo.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879329"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219903"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Ver conteúdos do Power BI de uma organização externa partilhados consigo
 
@@ -30,18 +30,18 @@ Aplica-se a:
 
 **Em primeiro lugar, algum membro de uma organização externa tem de partilhar um item consigo.** Quando alguém da mesma organização ou de uma organização externa [partilha um item consigo](../../service-share-dashboards.md), recebe um e-mail com uma ligação para este item partilhado. Se abrir esta ligação no seu dispositivo móvel, abrirá a aplicação móvel Power BI. Se a aplicação reconhecer que o item foi partilhado por uma organização externa, a aplicação voltará a ligar a esta organização com a sua identidade. Em seguida, a aplicação carrega todos os itens que esta organização partilhou consigo.
 
-![Item partilhado do Power BI aberto a partir de um e-mail ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Item partilhado do Power BI aberto a partir de um e-mail ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Se este for o primeiro item partilhado consigo enquanto utilizador convidado externo, tem de reclamar o convite num browser. Não pode reclamar o convite na aplicação Power BI.
 
 Se estiver ligado a uma organização externa, será apresentado um cabeçalho preto na aplicação. Este cabeçalho indica que não está ligado à sua organização. Para voltar a ligar à sua organização, saia do modo de convidado.
 
-![Cabeçalho de utilizador convidado do Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Cabeçalho de utilizador convidado do Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Embora tenha de ter uma ligação de artefacto do Power BI para ligar a uma organização externa, assim que a sua aplicação for aberta, poderá aceder a todos os itens partilhados consigo (e não apenas ao item que abriu a partir do e-mail). Para ver todos os itens a que pode aceder na organização externa, aceda ao menu da aplicação e selecione **Partilhado comigo**. Em **Aplicações**, irá encontrar aplicações que também pode utilizar.
 
-![Menu da aplicação Power BI como utilizador convidado externo](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menu da aplicação Power BI como utilizador convidado externo](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Limitações
 

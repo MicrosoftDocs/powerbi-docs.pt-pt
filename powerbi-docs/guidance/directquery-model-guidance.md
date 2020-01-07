@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478620"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223646"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
 
@@ -87,7 +87,7 @@ Um modelo do DirectQuery pode ser otimizado de várias formas, conforme descrito
 
     Aumentar o valor **Máximo de Ligações por Origem de Dados** garante que podem ser enviadas mais consultas (até ao número máximo especificado) à origem de dados subjacente. Isto é útil quando existem vários elementos visuais numa página ou vários utilizadores a aceder a um relatório ao mesmo tempo. Quando for atingido o número máximo de ligações, as consultas seguintes serão colocadas em fila até que uma ligação fique disponível. Aumentar o limite não resultará numa maior carga na origem de dados subjacente, pelo que a definição não garante melhorias do desempenho geral.
     
-    Quando o modelo é publicado no Power BI, o número máximo de consultas simultâneas enviadas à origem de dados subjacente também depende do ambiente. Diferentes ambientes (como o Power BI, o Power BI Premium ou o Power BI Report Server) podem impor diferentes restrições de débito. Para obter mais informações sobre limitações de recursos de capacidade do Power BI Premium, veja [Deploying and Managing Power BI Premium Capacities](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities) (Implementar e Gerir as Capacidades do Power BI Premium).
+    Quando o modelo é publicado no Power BI, o número máximo de consultas simultâneas enviadas à origem de dados subjacente também depende do ambiente. Diferentes ambientes (como o Power BI, o Power BI Premium ou o Power BI Report Server) podem impor diferentes restrições de débito. Para obter mais informações sobre limitações de recursos de capacidade do Power BI Premium, veja [Deploying and Managing Power BI Premium Capacities](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment) (Implementar e Gerir as Capacidades do Power BI Premium).
 
 ## <a name="optimize-report-designs"></a>Otimizar os designs de relatório
 

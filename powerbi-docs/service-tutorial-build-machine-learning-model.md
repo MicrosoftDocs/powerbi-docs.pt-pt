@@ -11,10 +11,10 @@ ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877007"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Tutorial: Criar um modelo de Machine Learning no Power BI
@@ -88,7 +88,7 @@ Selecione o botão **Guardar e fechar** para fechar o Editor do Power Query. For
 
 Para adicionar um modelo de machine learning, selecione o botão **Aplicar modelo de ML** na lista de **Ações** para a entidade base com os dados de preparação e as informações de etiqueta e, em seguida, selecione **Adicionar um modelo de machine learning**.
 
-![Adicione um modelo de machine learning](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-10.png)
+![Adicionar um modelo de machine learning](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-10.png)
 
 O primeiro passo para a criação do nosso modelo de machine learning é identificar os dados históricos, incluindo o campo de resultado que pretende prever. O modelo será criado através da aprendizagem desses dados.
 

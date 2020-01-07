@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882761"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548555"
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
 Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedido.
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
-
-**Analytics in Azure virtual event: Accelerate time to insight with Azure Synapse Analytics** (Análise no evento virtual do Azure: Agilizar o tempo para obter informações com o Azure Synapse Analytics)
-<br>por Gayle Sheppard e John Macintyre
-<br>[Registar-se agora](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Nine Trends Shaping the Future of Big Data Analytics** (Nove Tendências que Moldam o Futuro da Análise de Macrodados)
-<br>por Vijay Gopalakrishnan
-<br>[Registe-se para assistir a 18 de dezembro](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Três Formas Como a IA Está a Mudar o BI**
 <br>por Justyna Lucznik
@@ -39,6 +31,10 @@ Registe-se nos próximos webinars em direto ou veja as sessões gravadas a pedid
 
 Introdução aos webinars a pedido populares
 
+**Analytics in Azure virtual event: Accelerate time to insight with Azure Synapse Analytics** (Análise no evento virtual do Azure: Agilizar o tempo para obter informações com o Azure Synapse Analytics)
+<br>por Gayle Sheppard e John Macintyre
+<br>[Registar-se e ver agora](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **How Microsoft Is Changing BI Data Protection** (Como a Microsoft está a alterar a Proteção de Dados de BI)
 <br>por Anton Fritz e Adi Regev
 <br>[Registar-se e ver agora](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ Introdução aos webinars a pedido populares
 **Power BI and the Future of Modern and Enterprise BI** (O Power BI e o Futuro de BI Moderno e Empresarial)
 <br>por Arun Ulag e Amir Netz
 <br>[Registar-se e ver agora](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**Nine Trends Shaping the Future of Big Data Analytics** (Nove Tendências que Moldam o Futuro da Análise de Macrodados)
+<br>por Vijay Gopalakrishnan
+<br>[Registar-se e ver agora](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Introdução ao Power BI**
 <br>por Miguel Martinez
