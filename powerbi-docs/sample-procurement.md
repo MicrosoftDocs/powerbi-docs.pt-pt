@@ -10,10 +10,10 @@ ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873862"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Aprovisionamento do Power BI: veja uma apresentação
@@ -138,7 +138,7 @@ Selecione **Editar relatório** no canto superior esquerdo e explore em Vista de
 * Altere o tipo de visualização de um gráfico, por exemplo, altere o mapa de árvore para um gráfico em anel.
 * Afixe os gráficos no seu dashboard.
 
-## <a name="next-steps-connect-to-your-data"></a>Próximos passos: Ligar aos seus dados
+## <a name="next-steps-connect-to-your-data"></a>Next steps: Ligar aos seus dados
 Aqui pode explorar à vontade, pois pode optar por não guardar as alterações. No entanto, se as guardar, pode sempre aceder a **Obter Dados** para obter uma nova cópia deste exemplo.
 
 Esperamos que esta apresentação tenha mostrado como os dashboards, as Perguntas e Respostas e os relatórios do Power BI podem fornecer informações sobre os dados do exemplo. Agora, é a sua vez: ligue-se aos seus próprios dados. Com o Power BI, pode ligar-se a uma grande variedade de origens de dados. Para saber mais, veja [Introdução ao serviço Power BI](service-get-started.md).
