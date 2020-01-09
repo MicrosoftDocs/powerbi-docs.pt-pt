@@ -28,8 +28,10 @@
           href: dax-countrows.md
         - name: Evitar converter espaços em branco em valores
           href: dax-avoid-converting-blank.md
-        - name: Column and measure references (Referências de colunas e de medidas)
+        - name: Referências de colunas e de medidas
           href: dax-column-measure-references.md
+        - name: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
+          href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
           href: ../service-dataflows-best-practices.md
         - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)

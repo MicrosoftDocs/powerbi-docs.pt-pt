@@ -425,7 +425,7 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Gerir o formulário de início de sessão do Power BI Desktop
           href: desktop-admin-sign-in-form.md
-        - name: Acessibilidade
+        - name: Accessibility (Acessibilidade)
           items:
             - name: Acerca da acessibilidade no Power BI
               href: desktop-accessibility-overview.md
@@ -705,7 +705,7 @@
           items:
             - name: Preparação personalizada de dados com fluxos de dados
               href: service-dataflows-overview.md
-            - name: Criar e utilizar fluxos de dados
+            - name: Create and use dataflows (Criar e utilizar fluxos de dados)
               href: service-dataflows-create-use.md
             - name: Entidades calculadas com o Power BI Premium
               href: service-dataflows-computed-entities-premium.md
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: Supported data sources (Origens de dados suportadas)
           href: paginated-reports-data-sources.md
-        - name: Use Power BI shared datasets (Utilizar conjuntos de dados partilhados do Power BI)
-          href: report-builder-shared-datasets.md
         - name: Design tips (Sugestões de estrutura)
           href: report-builder-design-tips.md
         - name: 'Tables, matrixes, lists (Tabelas, matrizes, listas)'
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Criar um conjunto de dados incorporado
           href: paginated-reports-create-embedded-dataset.md
+        - name: Criar um relatório com um conjunto de dados partilhado do Power BI
+          href: report-builder-shared-datasets.md
         - name: Criar parâmetros
           href: paginated-reports-parameters.md
         - name: Passar um parâmetro de relatório num URL
@@ -989,6 +989,8 @@
       items:
         - name: Install Power BI Desktop (Instalar o Power BI Desktop)
           href: report-server/install-powerbi-desktop.md
+        - name: Instalar o Report Builder
+          href: report-server/install-report-builder.md
         - name: Noções básicas do servidor de relatórios
           items:
             - name: Criar um relatório do Power BI para um servidor de relatórios
