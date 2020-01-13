@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
+ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d4d6ed36ea849e2bc9ba3d5212c5d5973ea9c953
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128410"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691329"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Introduzir dados diretamente num relatório paginado no Report Builder – Power BI
 
@@ -75,7 +75,7 @@ Pode utilizar o seu conjunto de dados como a base para visualizações de dados 
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Carregar o relatório paginado para o serviço Power BI
 
-Agora que os relatórios paginado são suportados no serviço Power BI, pode carregar os seus relatórios paginados para uma capacidade Premium. Veja [Carregar um relatório paginado](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) para obter detalhes.
+Agora que os relatórios paginado são suportados no serviço Power BI, pode carregar os seus relatórios paginados para uma capacidade Premium. Veja [Carregar um relatório paginado](paginated-reports-save-to-power-bi-service.md) para obter detalhes.
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Carregar o relatório paginado para um servidor de relatórios
 

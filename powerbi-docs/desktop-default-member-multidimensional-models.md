@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: afd85404dd926cab396222d3ba9b4bf62e689054
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876347"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761255"
 ---
-# <a name="default-member-in-multidimensional-models-in-power-bi"></a>Membro predefinido em modelos multidimensionais no Power BI
+# <a name="work-with-multidimensional-models-in-power-bi"></a>Trabalhar com modelos multidimensionais no Power BI
 
 Pode ligar-se a modelos multidimensionais no Power BI e criar relatórios que visualizam todos os tipos de dados no modelo. Ao trabalhar com modelos multidimensionais, o Power BI aplica regras sobre como processa os dados, com base na coluna definida como *membro predefinido*. 
 
