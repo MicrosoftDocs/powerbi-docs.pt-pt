@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882887"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224169"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -164,13 +164,13 @@ As próximas secções fornecem uma descrição geral dos diferentes tipos de de
 
 ## <a name="help-and-support-settings"></a>Definições de ajuda e suporte
 
-### <a name="publish-get-help-information"></a>Publicar informações “Obter Ajuda”
+### <a name="publish-get-help-information"></a>Publicar informações para "Obter Ajuda"
 
 Os utilizadores na organização podem aceder aos recursos de ajuda e suporte internos a partir do menu de ajuda do Power BI. Especificamente, estes parâmetros alteram o comportamento dos itens de menu de ajuda Saber mais, Comunidade e Obter ajuda.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+Além disso, ao especificar um URL para pedidos de licenciamento, pode personalizar o URL de destino do botão **Atualizar conta**. Os utilizadores sem uma licença do Power BI Pro veem este botão na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerir armazenamento pessoal**. Além disso, o Power BI já não apresenta o botão **Experimentar o Pro gratuitamente** nesta caixa de diálogo ou página de armazenamento. Isto garante que o Power BI orienta os seus utilizadores de forma fiável pelos processos definidos na sua organização através da sua solução de gestão de licenças.
 
-Ao especificar um URL para pedidos de licenciamento, personaliza o URL de destino do botão **Atualizar conta** que um utilizador sem uma licença do Power BI Pro pode encontrar na caixa de diálogo **Atualizar para o Power BI Pro**, bem como na página **Gerir o armazenamento pessoal**. Além disso, o Power BI já não oferece o botão **Experimentar o Pro gratuitamente** nesta caixa de diálogo ou na página de armazenamento para garantir que o Power BI orienta os seus utilizadores de forma fiável pelos processos definidos na sua organização através da sua solução de gestão de licenças.
+![Definição Ativado com exceções](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Receber notificações por e-mail sobre incidentes ou indisponibilidades do serviço
 
@@ -399,7 +399,7 @@ As aplicações Web registadas no Azure Active Directory (Azure AD) utilizarão
 
 ## <a name="dataflow-settings"></a>Definições do fluxo de dados
 
-### <a name="create-and-use-dataflows"></a>Criar e utilizar fluxos de dados
+### <a name="create-and-use-dataflows"></a>Create and use dataflows (Criar e utilizar fluxos de dados)
 
 Os utilizadores na organização podem criar e utilizar fluxos de dados. Para obter uma descrição geral dos fluxos de dados, veja [Preparação personalizada de dados no Power BI](service-dataflows-overview.md). Para ativar os fluxos de dados numa capacidade Premium, veja [Configurar cargas de trabalho](service-admin-premium-workloads.md).
 

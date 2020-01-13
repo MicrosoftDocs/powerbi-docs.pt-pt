@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878833"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523033"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Utilizar os dados de tabela do Analysis Services no Power BI Desktop
 Com o Power BI Desktop, existem duas formas de ligar e obter dados dos modelos Tabulares do SQL Server Analysis Services: Explorar através de uma ligação dinâmica ou Selecionar itens e importá-los para o Power BI Desktop.
@@ -76,6 +76,12 @@ Se escolher selecionar itens e obter dados, importará dados do modelo de Tabela
 **Pergunta:** No Navegador, vejo um modelo e uma perspetiva. Qual é a diferença?
 
 **Resposta:** Uma perspetiva é uma vista específica de um modelo Tabular. Pode incluir apenas determinadas tabelas, colunas ou medidas consoante uma necessidade de análise de dados exclusiva. Um modelo Tabular contém sempre pelo menos uma perspetiva, que pode incluir tudo no modelo. Se não tiver a certeza de qual deve selecionar, contacte o seu administrador.
+
+**Pergunta:** Há alguma funcionalidade do Analysis Services que altere o comportamento do Power BI?
+
+**Resposta:** Yes. A experiência no Power BI Desktop pode variar consoante as funcionalidades que o seu modelo Tabular utiliza. Alguns exemplos incluem:
+* Poderá ver as medidas no modelo agrupadas no topo da Lista Campos em vez de nas tabelas ao lado das colunas. Não se preocupe! Poderá continuar a utilizá-las normalmente, mas é mais fácil encontrá-las desta forma!
+* Se o modelo Tabular tiver Grupos de Cálculo definidos, só poderá utilizá-los em conjunto com as medidas do modelo e não com as medidas implícitas que criar ao adicionar campos numéricos a um elemento visual. O modelo também poderá ter tido o sinalizador **DiscourageImplicitMeasures** definido manualmente, o que tem o mesmo efeito. Para saber mais, veja [Calculation groups in Analysis Services](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits) (Grupos de cálculo no Analysis Services)
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>Para alterar o nome do servidor após a ligação inicial
 Depois de criar um ficheiro do Power BI Desktop com uma ligação dinâmica de exploração, pode haver alguns casos em que quer alternar a ligação para um servidor diferente. Por exemplo, se tiver criado o ficheiro do Power BI Desktop ao ligar a um servidor de desenvolvimento e, antes da publicação no serviço Power BI, quer alternar a ligação para o servidor de produção.

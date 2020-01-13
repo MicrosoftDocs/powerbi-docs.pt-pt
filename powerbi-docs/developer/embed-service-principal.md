@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264191"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223359"
 ---
 # <a name="service-principal-with-power-bi"></a>Principal de serviço com o Power BI
 
@@ -150,7 +150,7 @@ Abaixo encontram-se os passos para obter o ID de objeto do principal de serviço
 
    ![Aplicação gerida no diretório local](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > O ID de objeto na imagem acima não é o ID utilizado com o principal de serviço.
 
 3. Selecione **Propriedades** para ver o ID de Objeto.
@@ -174,6 +174,7 @@ Abaixo encontra-se um script de exemplo para obter o ID de objeto do principal d
 * As aplicações [Incorporar para a sua organização](embed-sample-for-your-organization.md) não conseguem utilizar o principal de serviço.
 * A gestão de [fluxos de dados](../service-dataflows-overview.md) não é suportada.
 * O principal de serviço atualmente não suporta APIs de administração.
+* Quando utilizar o principal de serviço com uma origem de dados do [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), o principal de serviço tem de ter permissões de instância do Azure Analysis Services. Não é possível utilizar um grupo de segurança que contém o principal de serviço para este efeito.
 
 ## <a name="next-steps"></a>Próximos passos
 

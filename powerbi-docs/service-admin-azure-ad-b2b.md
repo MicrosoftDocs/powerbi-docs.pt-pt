@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882833"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223898"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
-O Power BI integra-se no Azure Active Directory business-to-business (Azure AD B2B) para permitir uma distribuição segura de conteúdos do Power BI para utilizadores convidados fora da sua organização, enquanto mantém o controlo sobre os dados internos.  
+O Power BI integra-se no Azure Active Directory business-to-business (Azure AD B2B) para permitir uma distribuição segura de conteúdos do Power BI para utilizadores convidados fora da sua organização, enquanto mantém o controlo sobre os dados internos. Além disso, pode permitir que os utilizadores convidados fora da sua organização editem e façam a gestão de conteúdos na sua organização.
 
-Além disso, pode permitir que os utilizadores convidados fora da sua organização editem e façam a gestão de conteúdos na sua organização.
+Este artigo fornece uma introdução básica ao Azure AD B2B no Power BI. Para obter mais informações, veja [Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Ativar acesso
 
@@ -88,7 +88,7 @@ Atribuir a área de trabalho à [capacidade do Power BI Premium](service-premium
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Atribuir uma licença do Power BI Pro ao utilizador convidado
 
-Atribuir uma licença do Power BI Pro ao utilizador convidado, no seu inquilino, permite que esse utilizador convidado veja o conteúdo no inquilino.
+Atribuir uma licença do Power BI Pro a um utilizador convidado no seu inquilino permite que esse utilizador convidado veja os conteúdos no inquilino. Para obter mais informações sobre atribuir licenças, veja [Atribuir licenças a utilizadores na página Licenças](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Antes de atribuir licenças do Power BI Pro a utilizadores convidados, contacte o representante da sua conta Microsoft para garantir que está em conformidade com os termos do seu contrato com a Microsoft.
 
 ![Diagrama da experiência do utilizador convidado com licença Assign Pro do seu inquilino.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
@@ -98,7 +98,7 @@ O utilizador convidado já tem uma licença do Power BI Pro atribuída no respet
 
 ![Diagrama da experiência de utilizador convidado quando ele traz a sua própria licença.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
-## <a name="guest-users-who-can-edit-and-manage-content"></a>Utilizadores convidados que podem editar e gerir conteúdo 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>Utilizadores convidados que podem editar e gerir conteúdo
 
 Ao utilizar a funcionalidade [Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), os utilizadores convidados especificados obtêm acesso ao Power BI da sua organização. Estes podem ver qualquer conteúdo para o qual tenham permissão. Podem aceder à Home Page, navegar em áreas de trabalho, instalar aplicações, ver onde estão na lista de acesso e contribuir com conteúdos para áreas de trabalho. Podem criar ou ter o cargo de Administrador de áreas de trabalho que utilizem a nova experiência de área de trabalho. Aplicam-se algumas limitações. A secção Considerações e Limitações apresenta uma lista dessas restrições.
  

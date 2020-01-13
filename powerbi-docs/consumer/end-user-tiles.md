@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861418"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Mosaicos de dashboard no Power BI
@@ -60,8 +60,8 @@ Precisa de ajuda para compreender os mosaicos modulares que compõem o Power BI?
    * [Ver o mosaico no modo de detalhe ](end-user-focus.md) ![ícone de detalhe](./media/end-user-tiles/fullscreen-icon.jpg)  
    * [Ver informações ](end-user-insights.md) ![ícone informações](./media/end-user-tiles/power-bi-insights.png)
    * [Adicionar um comentário e iniciar um debate](end-user-comment.md) ![ícone de comentário](./media/end-user-tiles/comment-icons.png)
-   * [Gerir alertas definidos num mosaico do dashboard](end-user-alerts.md)  ![ícone de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [Abrir os dados no Excel](end-user-export.md)  ![ícone de exportação](./media/end-user-tiles/power-bi-export-icon.png)
+   * [Gerir alertas definidos num mosaico do dashboard](end-user-alerts.md) ![ícone de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Abrir os dados no Excel](end-user-export.md) ![ícone de exportação](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. Para fechar o menu de ação, selecione uma área em branco na tela.

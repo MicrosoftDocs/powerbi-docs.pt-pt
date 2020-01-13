@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 359d36e3becb58386aeaca66f12670bd463644d1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871108"
 ---
 # <a name="arcgis-maps-in-power-bi-desktop"></a>ArcGIS Maps no Power BI Desktop
@@ -160,7 +160,7 @@ Os estilos de símbolo permitem-lhe ajustar a forma como os dados são apresenta
 
 ![exemplo de estilo de símbolo da Esri](media/power-bi-visualization-arcgis/power-bi-esri-symbol-style-new.png)
 
-### <a name="pins"></a>Alfinetes
+### <a name="pins"></a>Marcadores
 Chame a atenção para pontos no seu mapa adicionando marcadores.  
 
 1. Selecione o separador **Marcadores**.
@@ -354,7 +354,7 @@ Não, o Power BI precisa de conectividade de rede para apresentar os mapas.
 
 Ainda não. [Vote nesta ideia](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases) e enviar-lhe-emos uma mensagem de e-mail quando começarmos a trabalhar nesta funcionalidade.  
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Interagir com um mapa ArcGIS que foi partilhado consigo](power-bi-visualizations-arcgis.md)
 
 [Mensagem de blogue a anunciar a disponibilidade do ArcGIS Maps for Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)

@@ -1,345 +1,348 @@
 ---
 title: Introdução ao Power BI Desktop
-description: Introdução ao Power BI Desktop
+description: Introdução ao Power BI Desktop.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868023"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75222796"
 ---
-# <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
-Bem-vindo ao **Guia de Introdução do Power BI Desktop**. Esta breve apresentação do Power BI Desktop apresentará como ele funciona, demonstrará o que pode fazer e acelerará a sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam os seus esforços de business intelligence. 
+# <a name="get-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
+Bem-vindo ao guia de introdução do Power BI Desktop. Esta visita guiada mostra-lhe como funciona o Power BI Desktop, bem como as respetivas funcionalidades, e como criar modelos de dados robustos e relatórios fantásticos para aumentar o seu business intelligence.
 
-Prefere ver em vez de ler? Aproveite para [ver o nosso vídeo de introdução](desktop-videos.md). Se quiser acompanhar o vídeo com dados de exemplo correspondentes, pode [transferir este livro do Excel de exemplo](https://go.microsoft.com/fwlink/?LinkID=521962).
+Para obter uma breve descrição geral sobre o funcionamento e a utilização do Power BI Desktop, pode analisar as capturas de ecrã neste guia em apenas alguns minutos. Para compreender melhor, pode dar uma vista de olhos a todas as secções, executar os passos e criar o seu próprio ficheiro do Power BI Desktop para publicá-lo no serviço [Power BI](https://app.powerbi.com/) e partilhá-lo com outras pessoas.
 
-![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
+![Relatório do Power BI Desktop](media/desktop-getting-started/hero.png)
 
-O Power BI Desktop permite criar uma coleção de consultas, ligações de dados e relatórios que podem ser facilmente partilhados com outras pessoas. O Power BI Desktop integra tecnologias comprovadas da Microsoft – o poderoso motor de Consulta, modelação de dados e visualizações – e funciona perfeitamente com o [**serviço Power BI**](https://app.powerbi.com/) online.
-
-Com a combinação do **Power BI Desktop** (onde analistas e outros podem criar avançadas ligações de dados, modelos e relatórios) e do [**serviço Power BI**](https://preview.powerbi.com/) (onde os relatórios do Power BI Desktop podem ser partilhados para que os utilizadores possam vê-los e interagir com eles), é mais fácil modelar, criar, partilhar e expandir novas informações do mundo dos dados.
-
-Os analistas de dados descobrirão no Power BI Desktop uma ferramenta poderosa, flexível e altamente acessível para ligar ao mundo dos dados e formatá-los, criar modelos robustos e elaborar relatórios bem-estruturados.
-
-## <a name="how-to-use-this-guide"></a>Como utilizar este guia
-Pode utilizar este guia de duas maneiras – examiná-lo para obter uma descrição geral rápida ou ler cada secção, para obter uma compreensão sólida de como o Power BI Desktop funciona.
-
-Se estiver com pressa, pode percorrer este guia em poucos minutos e obter uma boa noção de como o Power BI Desktop funciona e como utilizá-lo. A maior parte deste guia consiste em ecrãs que mostram visualmente como o Power BI Desktop funciona.
-
-Para compreender melhor, pode dar uma vista de olhos a todas as secções, executar os passos e terminar com o seu próprio ficheiro do Power BI Desktop pronto para ser publicado no serviço **Power BI** e partilhá-lo com outras pessoas.
-
->[!NOTE]
->Também existe uma versão separada e especializada do **Power BI** chamada [**Power BI Report Server**](report-server/get-started.md) destinada a clientes que precisam que os respetivos dados e relatórios permaneçam no local. Para utilizar com essa versão especializada, também existe uma versão separada e especializada do **Power BI Desktop** chamada **Power BI Desktop for Power BI Report Server**, que apenas funciona com a versão Report Server do Power BI. Este artigo descreve o **Power BI Desktop** padrão.
-
+Também pode ver o vídeo [Getting Started with the Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) (Introdução ao Power BI Desktop) e transferir o livro do Excel [Financial Sample](https://go.microsoft.com/fwlink/?LinkID=521962) (Exemplo Financeiro) para acompanhar o vídeo.
 
 ## <a name="how-power-bi-desktop-works"></a>Como funciona o Power BI Desktop
-Com o Power BI Desktop, pode *ligar a dados* (normalmente, várias origens de dados), *formatar esses dados* (com consultas que criam modelos de dados esclarecedores e apelativos) e utilizar esse modelo para *criar relatórios* (que outras pessoas podem explorar, utilizar como base e partilhar).
+Com o Power BI Desktop, pode:
+1. Ligar-se a dados, incluindo a múltiplas origens de dados.
+1. Formatar os dados com consultas que criam modelos de dados úteis e apelativos.
+1. Utilizar os modelos de dados para criar visualizações e relatórios. 
+1. Partilhar os seus relatórios para que outras pessoas possam tirar partido dos mesmos, desenvolvê-los e partilhá-los. Pode partilhar os ficheiros *.pbix* do Power BI Desktop como faria com qualquer outro ficheiro, mas o método mais conveniente é carregá-los para o [serviço Power BI](https://preview.powerbi.com/). 
 
-Quando concluir satisfatoriamente as passos (ligar, formatar e criar relatório), pode guardar esse trabalho no formato de ficheiro do Power BI Desktop, que tem a extensão .pbix. Os ficheiros do Power BI Desktop podem ser partilhados como qualquer outro ficheiro, mas a forma mais apelativa de partilhar ficheiros do Power BI Desktop é carregá-los (partilhá-los) no [**serviço Power BI**](https://preview.powerbi.com/). 
+O Power BI Desktop integra tecnologias comprovadas de motor de consulta, modelação de dados e visualização. Os analistas de dados e outras pessoas podem criar coleções de consultas, ligações de dados, modelos e relatórios, e podem partilhá-los facilmente com outras pessoas. Através da combinação do Power BI Desktop e do serviço Power BI, é mais fácil modelar, criar, partilhar e expandir novas informações do mundo dos dados.
 
 O Power BI Desktop centraliza, simplifica e agiliza o que seria um processo árduo, disperso e desconexo de design e criação de repositórios e relatório de business intelligence.
-
 Pronto para experimentar? Vamos começar.
 
-
+> [!NOTE]
+> No caso dos dados e dos relatórios que têm de permanecer no local, existe uma versão separada e especializada do Power BI chamada [Power BI Report Server](report-server/get-started.md). O Power BI Report Server utiliza uma versão separada e especializada do Power BI Desktop chamada Power BI Desktop for Power BI Report Server, que funciona apenas com a versão Report Server do Power BI. Este artigo descreve o Power BI Desktop padrão.
 
 ## <a name="install-and-run-power-bi-desktop"></a>Instalar e executar o Power BI Desktop
-Pode transferir o Power BI Desktop a partir do serviço **Power BI**, selecionando o ícone de **engrenagem** e, em seguida, **Power BI Desktop**.
+Para transferir o Power BI Desktop, aceda à [Página de transferência do Power BI Desktop](https://powerbi.microsoft.com/desktop) e selecione **Transferir Gratuitamente**. Para ver as opções de transferência, selecione [Ver opções de transferência ou idioma](https://www.microsoft.com/download/details.aspx?id=58494). 
 
-![](media/desktop-getting-started/gsg_download.png)
+Também pode transferir o Power BI Desktop a partir do Serviço Power BI. Selecione o ícone **Transferir** na barra de menus na parte superior e, em seguida, selecione **Power BI Desktop**.
 
-O Power BI Desktop é instalado como uma aplicação e executado na sua área de trabalho.
+![Transferir o Power BI Desktop a partir do serviço Power BI](media/desktop-getting-started/gsg_download.png)
 
-![](media/desktop-getting-started/designer_gsg_install.png)
+Na página da Microsoft Store, selecione **Obter** e siga as instruções para instalar o Power BI Desktop no seu computador. Inicie o Power BI Desktop no menu **Iniciar** do Windows ou a partir do ícone na barra de tarefas do Windows.
 
-Quando executa o Power BI Desktop, é apresentado um ecrã de *Boas-vindas*.
+O ecrã de **Boas-vindas** é apresentado na primeira vez que o Power BI Desktop é iniciado.
 
-![](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
+No ecrã de **Boas-vindas**, pode **Obter dados**, ver **Origens recentes**, abrir relatórios recentes, **Abrir outros relatórios** ou selecionar outras ligações. Também pode escolher se pretende apresentar sempre o ecrã de **Boas-vindas** no arranque. Selecione o ícone Fechar para fechar o ecrã de **Boas-vindas**.
 
-Pode **Obter Dados**, ver **Origens Recentes** ou **Abrir Outros** **Relatórios** diretamente no ecrã de *Boas-vindas* (nas ligações no painel esquerdo). Se fechar o ecrã (selecionar o **x** no canto superior direito), a vista de **Relatório** do Power BI Desktop é apresentada.
+![Ecrã de boas-vindas do Power BI Desktop](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
 
-![](media/desktop-getting-started/designer_gsg_blankreport.png)
+No Power BI Desktop, à esquerda, existem ícones para as três vistas do Power BI Desktop: **Relatório**, **Dados** e **Relações**, de cima para baixo. A vista atual é indicada pela barra amarela no lado esquerdo. Pode alterar a vista ao selecionar qualquer um dos ícones. 
 
-Existem três vistas no Power BI Desktop: vista **Relatório**, vista **Dados** e vista **Relações**. O Power BI Desktop também inclui o **Editor de Consultas**, que abre numa janela separada. No **Editor de Consultas**, pode criar consultas e transformar dados e, em seguida, carregar esse modelo de dados refinado para o Power BI Desktop e criar relatórios.
+![Os três ícones de vistas do Power BI Desktop](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
-O ecrã seguinte mostra os três ícones de vistas no lado esquerdo do Power BI Desktop: **Relatório**, **Dados** e **Relações**, de cima para baixo. A vista atualmente apresentada é indicada pela barra amarela à esquerda. Neste caso, é apresentada a vista de **Relatório**. Pode alterar as vistas, selecionando qualquer um desses três ícones.
+A vista **Relatório** é a vista predefinida. 
 
-![](media/desktop-getting-started/designer_gsg_viewtypes.png)
+![Vista Relatório do Power BI Desktop](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Com o Power BI Desktop instalado, está pronto para ligar a dados, formatá-los e criar relatórios (geralmente por essa ordem). Nas próximas secções, faremos uma apresentação de cada um desses passos.
+O Power BI Desktop também inclui o **Editor do Power Query**, que é aberto numa janela separada. No **Editor do Power Query**, pode criar consultas e transformar dados e, em seguida, carregar o modelo de dados refinado para o Power BI Desktop para criar relatórios.
 
-## <a name="connect-to-data"></a>Ligar a dados
-Com o Power BI Desktop instalado, está pronto para ligar ao mundo dos dados, que está em constante expansão. Existem *todos os tipos* de origens de dados disponíveis na janela Consulta. A imagem seguinte mostra como ligar a dados ao selecionar o friso **Base** e, em seguida, **Obter Dados \> Mais**.
+## <a name="connect-to-data"></a>Ligar-se a dados
+Com o Power BI Desktop instalado, está pronto para se ligar ao mundo dos dados, que está em constante expansão. Para ver os vários tipos de origens de dados disponíveis, selecione **Obter Dados** > **Mais** no separador **Home Page** do Power BI Desktop e, na janela **Obter Dados**, percorra a lista de **Todas** as origens de dados. Nesta visita guiada, irá ligar-se a várias origens de dados da **Web**.
 
- ![](media/desktop-getting-started/getdatavidsmall.gif)
+![Selecionar uma origem de dados da Web na janela Obter Dados ](media/desktop-getting-started/getdataweb.png)
 
-Nesta visita guiada, vamos ligar a algumas origens de dados da **Web** diferentes.
+Imagine que é um analista de dados que trabalha para um revendedor de óculos de sol. Quer ajudar o seu cliente a aumentar as vendas em áreas com mais sol. A página [Best and worst states for retirement](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/) (Melhores e piores estados para passar a reforma) do Bankrate.com tem alguns dados interessantes sobre este tema.
 
-Imagine que vai reformar-se – deseja morar onde há muito sol, impostos favoráveis e uma boa assistência médica – ou talvez seja um analista de dados e queira essas informações para ajudar os seus clientes. Por exemplo, talvez queira ajudar um revendedor de óculos de sol a direcionar as vendas para locais ensolarados.
+No separador **Home Page** do Power BI Desktop, selecione **Obter Dados** > **Web** para se ligar a uma origem de dados da Web. 
 
-De qualquer modo, o seguinte recurso Web tem dados interessantes sobre esses tópicos e muito mais:
+![Selecionar uma origem de dados da Web](media/desktop-getting-started/gsg_syw_2.png)
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+Na caixa de diálogo **A Partir da Web**, cole o endereço *https:\//www.bankrate.com/retirement/best-and-worst-states-for-retirement/* no campo **URL** e selecione **OK**. 
 
-Selecione **Obter Dados \> Web** e cole o endereço.
+![Colar um endereço Web na caixa de diálogo A Partir da Web](media/desktop-getting-started/gettingstarted_8.png)
 
- ![](media/desktop-getting-started/gettingstarted_8.png)
+Se lhe for pedido, no ecrã **Aceder a Conteúdo Web**, selecione **Ligar** para utilizar o acesso anónimo. 
 
-Quando seleciona **OK**, a funcionalidade **Consulta** do Power BI Desktop começa a funcionar. A Consulta contacta o recurso da Web e a janela **Navegador** devolve o que encontrou nessa página Web. Neste caso, encontrou uma tabela (*Tabela 0*) e o Documento da Web geral. Estamos interessados na tabela, então vamos selecioná-la na lista. A janela **Browser** apresenta uma pré-visualização.
+A funcionalidade de consulta do Power BI Desktop contacta o recurso Web. A janela **Navegador** devolve o que encontrar na página Web. Neste caso, devolve uma tabela chamada **Ranking of best and worst states for retirement** (Melhores e piores estados para passar a reforma), bem como um documento. Se tiver interesse na tabela, selecione-a para ver uma pré-visualização.
 
- ![](media/desktop-getting-started/datasources_fromnavigatordialog.png)
+Agora pode selecionar **Carregar** para carregar a tabela ou **Transformar dados** para efetuar alterações na tabela antes de a carregar.
 
-Nesta altura, podemos editar a consulta antes de carregar a tabela, selecionando **Editar** na parte inferior da janela, ou podemos carregar a tabela.
+![Pré-visualização da tabela na página Web](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
-Ao selecionarmos **Editar**, o Editor de Consultas é iniciado e é apresentada uma vista representativa da tabela. O painel **Definições da Consulta** é apresentado (se não for, podemos selecionar **Ver** no friso e, em seguida, **Mostrar \> Definições da Consulta** para apresentar o painel **Definições da Consulta**). Eis o respetivo aspeto.
+Quando selecionar a opção **Transformar dados**, o Editor do Power Query é iniciado juntamente com uma vista representativa da tabela. O painel **Definições da Consulta** encontra-se à direita, ou pode vê-lo ao selecionar **Definições da Consulta** no separador **Vista** do Editor do Power Query. 
 
- ![](media/desktop-getting-started/designer_gsg_editquery.png)
+![Editor do Power Query com Definições da Consulta](media/desktop-getting-started/designer_gsg_editquery.png)
 
-Para obter mais informações sobre como ligar a dados, veja [Ligar-se a Dados no Power BI Desktop](desktop-connect-to-data.md).
-
-> [!NOTE]
-> Os dados da tabela referidos neste artigo podem mudar ao longo do tempo. Como tal, os passos que tem de seguir poderão variar entre os mencionados e terá de utilizar a sua criatividade de forma a ajustar os passos ou resultados, mas tudo isto faz parte do processo de aprendizagem. 
-
-Na próxima secção, vamos ajustar os dados para que correspondam às nossas necessidades. O processo de ajuste de dados ligados é chamado *formatação* de dados.
-
-## <a name="shape-and-combine-data"></a>Formatar e combinar dados
-Agora que estamos ligados a uma origem de dados, é necessário ajustar os dados para que correspondam às nossas necessidades. Por vezes, ajustar significa a *transformar* os dados – como mudar o nome de colunas ou tabelas, converter texto em números, remover linhas, definir a primeira linha como cabeçalhos, etc.
-
-O Editor de Consultas no Power BI Desktop utiliza amplamente menus de contexto, além de disponibilizar tarefas no friso. A maioria das opções que pode selecionar no friso **Transformar** também está disponível ao clicar com o botão direito do rato num item (como uma coluna) e escolher no menu que é apresentado.
+Para obter mais informações sobre como se ligar a dados, veja [Ligar a dados no Power BI Desktop](desktop-connect-to-data.md).
 
 ## <a name="shape-data"></a>Formatar dados
-Quando formata dados no **Editor de Consultas**, está a dar instruções passo a passo (que o **Editor de Consultas** executa) para ajustar os dados à medida que o **Editor de Consultas** os carrega e apresenta. A origem de dados original não é afetada; apenas esta vista específica dos dados é ajustada ou *formatada*.
+Agora que está ligado a uma origem de dados, pode ajustar os dados para satisfazer as suas necessidades. Para *formatar* dados, tem de fornecer ao Editor do Power Query instruções passo a passo para ajustar os dados durante o respetivo carregamento e apresentação. A formatação não afeta a origem de dados original, mas apenas esta vista específica dos dados. 
 
-Os passos que especificar (como mudar o nome de uma tabela, transformar um tipo de dados ou eliminar colunas) são registados pelo **Editor de Consultas** e sempre que esta consulta ligar à origem de dados, esses passos são executados para que os dados sejam sempre formatados da forma que especificar. Esse processo ocorre sempre que utilizar a consulta no Power BI Desktop, ou para qualquer pessoa que utilize a sua consulta partilhada, como no serviço **Power BI**. Esses passos são capturados, sequencialmente, no painel **Definições da Consulta**, em **Passos Aplicados**.
+> [!NOTE]
+> Os dados da tabela utilizados neste guia poderão mudar ao longo do tempo. Como tal, os passos que tem de seguir poderão variar e terá de utilizar a sua criatividade para ajustar os passos ou resultados, mas tudo isto faz parte do processo de aprendizagem. 
 
-A imagem seguinte mostra o painel **Definições da Consulta** para uma consulta que foi formatada – abordaremos cada um desses passos nos próximos parágrafos.
+A formatação pode implicar a *transformação* dos dados, como alterar o nome das colunas e tabelas, remover linhas ou colunas, ou alterar os tipos de dados. O Editor do Power Query captura esses passos em sequência, em **Passos Aplicados** no painel **Definições da Consulta**. Sempre que esta consulta for ligada à origem de dados, os passos serão executados. Deste modo, os dados ficam sempre formatados da forma que o utilizador especificar. Esse processo ocorre quando utiliza a consulta no Power BI Desktop ou quando qualquer pessoa utiliza a sua consulta partilhada, como no serviço Power BI. 
 
- ![](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+Tenha em atenção que os **Passos Aplicados** nas **Definições da Consulta** já contêm alguns passos. Pode selecionar cada passo para ver o respetivo efeito no Editor do Power Query. Em primeiro lugar, especificou uma origem Web e, em seguida, pré-visualizou a tabela na janela **Navegador**. No terceiro passo, **Tipo alterado**, o Power BI reconheceu dados de números inteiros durante a importação e alterou automaticamente o **tipo de dados** do *Texto* original Web para **Números inteiros**. 
 
-Vamos voltar ao nossos dados de reforma, que encontramos ao ligar a uma origem de dados da Web e ao formatar esses dados para se adequarem às nossas necessidades.
+![Painel Definições da Consulta com três Passos Aplicados](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
 
-Para começar, a maioria das classificações foi inserida no **Editor de Consultas** como números inteiros, mas não foram todas (uma coluna continha texto e números, pelo que não foi convertida automaticamente). É necessário que os dados sejam números. Sem problemas – basta clicar com o botão direito do rato no cabeçalho da coluna e selecionar **Alterar Tipo \> Número Inteiro** para alterar o tipo de dados. Se precisássemos de escolher mais do que uma coluna, poderíamos selecionar primeiro uma coluna, manter premida a tecla **SHIFT**, selecionar colunas adjacentes adicionais e clicar com o botão direito do rato num cabeçalho de coluna para alterar todas as colunas selecionadas. Também pode utilizar **CTRL** para selecionar colunas não adjacentes.
+Se tiver de alterar um tipo de dados, selecione a coluna ou colunas a alterar. Mantenha a tecla **Shift** premida para selecionar múltiplas colunas adjacentes ou **Ctrl** para selecionar colunas não adjacentes. Clique com o botão direito no cabeçalho de uma coluna, selecione **Alterar Tipo** e escolha um novo tipo de dados no menu, ou selecione a lista pendente junto a **Tipos de Dados**, no grupo **Transformar** do separador **Home Page**, e selecione um novo tipo de dados.
 
- ![](media/desktop-getting-started/designer_gsg_changedatatype.png)
+![Alterar o tipo de dados](media/desktop-getting-started/designer_gsg_changedatatype.png)
 
-Também pode alterar, ou *transformar,* essas colunas de texto para cabeçalho através do friso **Transformar**. Eis o friso **Transformar**, com uma seta a apontar para o botão **Tipo de Dados**, que lhe permite transformar o tipo de dados atual noutro tipo de dados.
+> [!NOTE]
+> O Editor do Power Query no Power BI Desktop utiliza um friso ou os menus de contexto para as tarefas disponíveis. A maioria das tarefas selecionáveis nos separadores **Home Page** ou **Transformar** do friso também fica disponível ao clicar com o botão direito num item e ao selecioná-las no menu apresentado.
 
- ![](media/desktop-getting-started/shapecombine-changetype-b.png)
+Agora pode aplicar as suas próprias alterações e transformações dos dados e vê-las em **Passos Aplicados**. 
 
-Repare que nas **Definições da Consulta**, os **Passos Aplicados** refletem as alterações que foram feitas. Se quiser remover qualquer passo do processo de formatação, basta selecionar esse passo e, em seguida, selecionar o **X** à esquerda do passo.
+Por exemplo, está mais interessado na classificação meteorológica para a venda de óculos de sol, por isso decide ordenar a tabela pela coluna **Meteorologia** em vez da tabela **Classificação geral**. Clique na seta pendente junto ao cabeçalho **Meteorologia** e selecione **Ordenação ascendente**. Agora os dados aparecem ordenados de acordo com a classificação meteorológica e o passo **Linhas Ordenadas** é apresentado em **Passos Aplicados**. 
 
- ![](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
+![Ordenar Linhas ascendentes](media/desktop-getting-started/shapecombine-changetype-b.png)
 
-Temos de fazer mais algumas alterações para obtermos a consulta onde a queremos:
+Não tem interesse em vender óculos de sol nos estados com a pior meteorologia, por isso decidiu removê-los da tabela. No grupo **Reduzir Linhas** do separador **Home Page**, selecione **Remover Linhas** > **Remover Linhas Inferiores**. Na caixa de diálogo **Remover Linhas Inferiores**, introduza *10* e, em seguida, selecione **OK**. 
 
-* *Remover a primeira coluna* – não precisamos dela, inclui apenas linhas redundantes que indicam “Verifique qual é a classificação do seu estado em relação à reforma”, o que é um artefacto por esta ser uma tabela baseada na Web
+![Remover Linhas Inferiores](media/desktop-getting-started/pbi_gsg_getdata3.png)
 
-<!-- -->
+As 10 linhas com a pior meteorologia são removidas da tabela e o passo **Linhas Inferiores Removidas** é apresentado em **Passos Aplicados**.
 
-* *Corrigir alguns erros* – na página Web, uma coluna tinha texto misturado com os números (alguns estados empatados numa categoria). Isso funciona bem no site, mas não para a nossa análise de dados. É fácil (neste caso) de corrigir e mostra algumas funcionalidades e capacidades interessantes do **Editor de Consultas** e os seus **Passos Aplicados**
+A tabela tem demasiadas informações e decidiu remover as colunas **Acessibilidade**, **Crime**, **Cultura** e **Bem-estar**. Selecione o cabeçalho de cada coluna que pretende remover. Mantenha a tecla **Shift** premida para selecionar múltiplas colunas adjacentes ou **Ctrl** para selecionar colunas não adjacentes. 
 
-<!-- -->
+Em seguida, no grupo **Gerir Colunas** do separador **Home Page**, selecione **Remover Colunas**. Também pode clicar com o botão direito do rato num dos cabeçalhos e selecionar **Remover Colunas** no menu. As colunas selecionadas são removidas e o passo **Colunas Removidas** é apresentado em **Passos Aplicados**.
 
-* *Alterar o Nome da Tabela* – o nome **Tabela 0** não é um descritor útil, mas é fácil alterá-lo
+![Remover Colunas](media/desktop-getting-started/pbi_gsg_getdata3a.png)
 
-Cada uma destes passos é demonstrado em **[Formatar e Combinar Dados no Power BI Desktop](desktop-shape-and-combine-data.md)** . Aproveite para verificar essa página ou prossiga neste documento para ver o que faria em seguida. A próxima secção retoma após a aplicação das alterações acima.
+Pensando melhor, talvez a **Acessibilidade** seja relevante para a venda de óculos de sol. Quer recuperar essa coluna. Pode anular facilmente o último passo no painel **Passos Aplicados** ao selecionar o ícone de eliminação **X** junto ao passo. Agora repita o passo ao selecionar apenas as colunas que pretende eliminar. Para ter mais flexibilidade, pode eliminar cada coluna individualmente. 
+
+Pode clicar com o botão direito do rato em qualquer passo no painel **Passos Aplicados** e eliminá-lo, mudar o nome, movê-lo na sequência e adicionar ou remover passos. Nos passos intermediários, o Power BI Desktop irá avisá-lo se a alteração afetar os passos posteriores e interromper a sua consulta.  
+
+![Modificar os Passos Aplicados](media/desktop-getting-started/designer_gsg_install.png)
+
+Por exemplo, se já não quiser ordenar a tabela por **Meteorologia**, poderá tentar eliminar o passo **Linhas Ordenadas**. O Power BI Desktop avisa-o de que a eliminação desse passo poderá causar uma interrupção da sua consulta. Removeu as 10 últimas linhas depois de ter ordenado as linhas de acordo com a meteorologia. Assim, se remover a ordenação, serão removidas outras linhas. Também receberá um aviso se selecionar o passo **Linhas Ordenadas** e tentar adicionar um novo passo intermédio.  
+
+![Aviso de eliminação de passos](media/desktop-getting-started/deletestepwarning.png)
+
+Por fim, alterou o título da tabela, de modo a abordar a venda de óculos de sol e não a reforma. Em **Propriedades**, no painel **Definições da Consulta**, substitua o título antigo por *Melhores estados para a venda de óculos de sol*.
+
+Eis o aspeto da consulta concluída dos seus dados formatados:
+
+![Consulta concluída](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+
+Para obter mais informações sobre a formatação de dados, veja [Formatar e combinar dados no Power BI Desktop](desktop-shape-and-combine-data.md).
 
 ## <a name="combine-data"></a>Combinar dados
-Esses dados sobre vários estados são interessantes e serão úteis para a criação de esforços de análise e consultas adicionais. Mas há um problema: a maioria dos dados utilizam uma abreviatura de duas letras para códigos de estado, em vez de utilizarem o nome completo do estado. Precisamos de alguma forma de associar os nomes de estado às respetivas abreviaturas.
+Os dados sobre vários estados são interessantes e serão úteis para a criação de esforços de análise e consultas adicionais. No entanto, há um problema: a maioria dos dados utiliza abreviaturas de duas letras para códigos de estado, em vez de utilizar o nome completo. Para utilizar esses dados, precisa de uma forma de associar os nomes dos estados às respetivas abreviações.
 
-Estamos com sorte: há outra origem de dados pública que faz exatamente isso, mas também precisa de formatação considerável antes de a podermos ligar à nossa tabela de reforma. Eis o recurso Web para abreviaturas de estado:
+Está com sorte. Uma origem de dados pública diferente pode fazê-lo, mas os dados terão de ser formatados antes de poder *combiná-los* com a sua tabela de óculos de sol.
 
-<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+Para importar os dados das abreviaturas dos estados no Editor do Power Query, selecione **Editor do Power Query** > **Web** no grupo **Nova Consulta** no separador **Home Page** do friso. 
 
-No friso **Base** no **Editor de Consultas**, selecionamos **Obter Dados \> Web** e escrevemos o endereço, selecionamos **OK** e janela **Navegador** mostra o que encontrou nessa página Web.
+![Nova origem](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
- ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
+Na caixa de diálogo **A Partir da Web**, introduza o URL do site de abreviaturas dos estados: *https:\//en.wikipedia.org/wiki/List_of_U.S._state_abbreviations*.
 
-Selecionamos **Table[edit]** porque inclui os dados que queremos, mas vai ser preciso alguma formatação para restringir os dados dessa tabela. Cada um destes passos também é demonstrado em **[Formatar e Combinar Dados no Power BI Desktop](desktop-shape-and-combine-data.md)** . Para resumir esses passos, eis aqui o que fazemos:
+Na janela **Navegador**, selecione a tabela **Código e abreviaturas de estados, distritos federais, territórios e outras regiões dos EUA** e, em seguida, selecione **OK**. A tabela é aberta no Editor do Power Query.
 
-Selecionamos **Editar** e, em seguida:
+Remova todas as colunas, exceto **Nome e estado da região**, **Nome e estado da região2** e **ANSI**. Para manter apenas essas colunas, mantenha a tecla **Ctrl** premida e selecione-as. Em seguida, clique com o botão direito num dos cabeçalhos e selecione **Remover Outras Colunas**. Em alternativa, no grupo **Gerir Colunas** do separador **Home Page**, selecione **Remover Outras Colunas**. 
 
-* *Removemos as duas primeiras linhas* – são o resultado da forma como essa página Web foi criada e não precisamos delas.
+Selecione a seta pendente junto ao cabeçalho da coluna **Nome e estado da região2** e selecione **Filtros** > **Igual a**. Na caixa de diálogo **Filtrar Linhas**, selecione o campo pendente **Introduzir ou selecionar um valor** junto a **igual a** e selecione **Estado**. 
 
-<!-- -->
+Selecione **Ou** e, junto ao segundo campo **Igual a**, selecione **Estado ("Commonwealth")** . Selecione **OK**. 
 
-* *Removemos as últimas 26 linhas* – correspondem a todos os territórios, que não precisamos incluir.
+![Filtrar linhas](media/desktop-getting-started/filterrows.png)
 
-<!-- -->
-* *Filtramos Washington DC* – a tabela de estatísticas de reforma não inclui DC e, por isso, vamos excluir da nossa lista.
+Com valores adicionais removidos, como **Distrito Federal** e **ilha**, tem agora a lista dos 50 estados e as respetivas abreviaturas oficiais de duas letras. Pode mudar o nome das colunas para algo mais relevante (por exemplo, **Nome do estado**, **Estado** e **Abreviatura**) ao clicar com o botão direito nos cabeçalhos das colunas e ao selecionar **Mudar o Nome**.
 
-<!-- -->
+Tenha em atenção que todos estes passos estão registados em **Passos Aplicados** no painel **Definições da Consulta**.
 
-* *Removemos algumas colunas desnecessárias* – só precisamos do mapeamento do estado para a respetiva abreviatura oficial de duas letras, pelo que podemos remover as outras colunas.
+Eis o aspeto da sua tabela formatada:
 
-<!-- -->
+![Tabela de códigos de Estado formatada](media/desktop-getting-started/statecodes.png)
 
-* *Utilizamos a primeira linha como cabeçalhos* – como removermos as primeiras três linhas, a primeira linha atual é o cabeçalho que queremos.
+Mude o título da tabela para *Códigos de estado* no campo **Propriedades** das **Definições da Consulta**. 
 
-    >[!NOTE]
-    >Esta é uma boa altura para salientar que a *sequência* de passos aplicados no **Editor de Consultas** é importante e pode afetar a forma como os dados são formatados. Também é importante considerar como um passo pode afetar outro passo subsequente. Se remover um passo dos **Passos Aplicados**, o comportamento dos passos subsequentes pode não ser o que pretendíamos originalmente, devido ao impacto da sequência de passos da consulta.
+Com a tabela de **códigos de estado** formatada, pode *combinar* ambas as tabelas. Uma vez que as novas tabelas são o resultado de consultas aplicadas aos dados, também são chamadas *consultas*. Existem duas formas principais de combinar consultas: *intercalar* e *acrescentar*. 
 
-* *Mudamos o nome das colunas e da própria tabela* – como é habitual, existem algumas formas de mudar o nome de uma coluna, pelo que pode escolher aquela que preferir.
+Quando tem uma ou mais colunas que pretende adicionar a outra consulta, *intercala* as consultas. Quando tem linhas de dados adicionais que pretende adicionar a uma consulta existente, *acrescenta* a consulta.
 
-Com a tabela *StateCodes* formatada, podemos combinar essas duas tabelas ou consultas numa só. Como as tabelas que temos agora são o resultado das consultas que aplicámos aos dados, são geralmente designadas por *consultas*.
+Neste caso, recomendamos que *intercale* a consulta **Códigos de estado** com a consulta **Melhores estados para a venda de óculos de sol**. Para intercalar as consultas, mude para a consulta **Melhores estados para a venda de óculos de sol** ao selecioná-la no painel **Consultas** no lado esquerdo do Editor do Power Query. Em seguida, selecione **Intercalar Consultas** no grupo **Combinar** no separador **Home Page** do friso.
 
-Existem duas formas principais de combinar consultas – *unindo* e *acrescentando*.
+Na janela **Intercalar**, selecione o campo pendente para selecionar os **Códigos de estado** das outras consultas disponíveis. Selecione a coluna a corresponder a cada tabela (**Estado** da consulta **Melhores estados para a venda de óculos de sol** e **Nome do estado** da consulta **Códigos de estado**). 
 
-Quando tem uma ou mais colunas que pretende adicionar a outra consulta, **une** as consultas. Quando tem linhas de dados adicionais que pretende adicionar a uma consulta existente, **acrescenta** a consulta.
+Se obtiver a caixa de diálogo **Níveis de privacidade**, selecione **Ignorar as verificações de níveis de privacidade neste ficheiro** e, em seguida, selecione **Guardar**. Selecione **OK**. 
 
-Neste caso, pretendemos intercalar consultas. Para começar, selecionamos a consulta *à qual* pretendemos unir a outra consulta e, em seguida, selecionamos **Intercalar Consultas** no separador **Base** do friso.
+![Intercalar consultas](media/desktop-getting-started/shapecombine_merge.png)
 
- ![](media/desktop-getting-started/shapecombine_mergequeries.png)
+É apresentada uma nova coluna chamada**Códigos de estado** à direita da tabela **Melhores estados para a venda de óculos de sol**. Esta contém a consulta de código de estado que intercalou com a consulta de melhores estados para a venda de óculos de sol. Todas as colunas da tabela intercalada são condensadas para formar a coluna **Códigos de estado**. Pode *expandir* a tabela intercalada e incluir apenas as colunas que pretende. 
 
-A janela **Unir** é apresentada e pede-nos para selecionarmos a tabela que pretendemos unir à tabela selecionada e, em seguida, as colunas correspondentes a utilizar para a união. Selecione *State* na tabela *RetirementStats* (consulta) e, em seguida, selecione a consulta *StateCodes* (neste caso é fácil, uma vez que só existe outra consulta – quando ligar a várias origens de dados, existem muitas consultas por onde escolher). Quando selecionamos as colunas correspondentes corretas – *State* em *RetirementStats* e *State Name* em *StateCodes* – a janela **Unir** é semelhante à seguinte e o botão **OK** está ativado.
+![Coluna de consultas intercaladas](media/desktop-getting-started/mergedquery.png)
 
- ![](media/desktop-getting-started/shapecombine_merge.png)
+Para expandir a tabela intercalada e selecionar as colunas a incluir, selecione o ícone **Expandir** no cabeçalho. Na caixa de diálogo **Expandir**, selecione apenas a coluna **Abreviatura**. Desselecione **Utilizar o nome de coluna original como prefixo** e, em seguida, selecione **OK**. 
 
-Uma **NewColumn** é criada no fim da consulta, que consiste no conteúdo da tabela (consulta) que foi unida à consulta existente. Todas as colunas da consulta unida são condensadas na **NewColumn**, mas pode optar por **Expandir** a tabela e incluir as colunas que quiser. Para expandir a tabela intercalada e selecionar as colunas que pretende incluir, selecione o ícone de expansão (![](media/desktop-getting-started/gettingstarted_29_expandicon.png)). A janela **Expandir** é apresentada.
+![Selecionar uma coluna expandida na tabela intercalada](media/desktop-getting-started/shapecombine_mergeexpand.png)
 
- ![](media/desktop-getting-started/shapecombine_mergeexpand.png)
+> [!NOTE]
+> Pode incluir a tabela **Códigos de estado** de várias formas. Faça algumas experiências e, se não gostar dos resultados, elimine esse passo da lista **Passos Aplicados**, no painel **Definições da Consulta**. Pode repetir estas ações livremente e quantas vezes quiser, até que o processo de expansão tenha o aspeto pretendido.
 
-Neste caso, como só queremos a coluna *State Code*, selecionamos apenas essa coluna e, em seguida, selecionamos **OK**. Desmarcamos a caixa de verificação **Utilizar o nome de coluna original como prefixo** porque não precisamos nem queremos essa opção; se a deixarmos selecionada, a coluna unida teria o nome *NewColumn.State Code* (o nome da coluna original ou *NewColumn*, seguido de um ponto e do nome da coluna que está a ser inserida na consulta).
+Para obter uma descrição mais completa dos passos de formatação e combinação, veja [Formatar e combinar dados no Power BI Desktop](desktop-shape-and-combine-data.md).
 
->[!NOTE]
->Quer fazer experiências com a forma de introduzir essa tabela *NewColumn*? Pode experimentar um pouco e, se não gostar dos resultados, basta eliminar esse passo da lista **Passos Aplicados** no painel **Definições da Consulta**; a consulta volta ao estado anterior à aplicação desse passo **Expandir**. Pode refazer estas ações livremente, quantas vezes desejar, até que o processo de expansão tenha o aspeto pretendido.
+Agora tem uma única tabela de consulta que combina duas origens de dados, ambas formatadas para corresponder às suas necessidades. Esta consulta pode servir como base para muitas ligações de dados adicionais interessantes, como dados demográficos, níveis de riqueza ou oportunidades recreativas nos estados.
 
-Agora temos uma única consulta (tabela) que combinou duas origens de dados, cada uma das quais foi desenvolvida para corresponder às nossas necessidades. Esta consulta pode servir como base para muitas ligações de dados adicionais interessantes – como estatísticas de custo de alojamento, dados demográficos ou oportunidades de trabalho em qualquer estado.
+![Consultas formatadas e combinadas](media/desktop-getting-started/mergedcolumn.png)
 
-Para obter uma descrição mais completa de cada um destes passos de formatação e combinação de dados, veja [Formatar e Combinar Dados no Power BI Desktop](desktop-shape-and-combine-data.md).
+Por enquanto, tem dados suficientes para criar um relatório interessante no Power BI Desktop. Uma vez que se trata de um marco, aplique as alterações no **Editor do Power Query** e carregue-as para o Power BI Desktop ao selecionar **Fechar e Aplicar** no separador **Home Page** do friso. Também pode simplesmente selecionar **Aplicar** para manter a consulta aberta no Editor do Power Query enquanto trabalha no Power BI Desktop. 
 
-Por enquanto, temos dados suficientes para criar alguns relatórios interessantes, tudo no Power BI Desktop. Como se trata de um marco, vamos guardar este ficheiro do Power BI Desktop – vamos chamá-lo de **Introdução ao Power BI Desktop**. Para aplicar as alterações no **Editor de Consultas** e carregá-las para o Power BI Desktop, selecione **Fechar e Aplicar** no friso **Base**.
+![Fechar e Aplicar alterações](media/desktop-getting-started/shapecombine_closeandapply.png)
 
-![](media/desktop-getting-started/shapecombine_closeandapply.png)
+Pode fazer mais alterações a uma tabela depois de a carregar no Power BI Desktop e recarregar o modelo para aplicar as alterações feitas. Para reabrir o **Editor do Power Query** no Power BI Desktop, selecione **Editar Consultas** no separador **Home Page** do friso do Power BI Desktop. 
 
 ## <a name="build-reports"></a>Criar relatórios
-Outras alterações podem ser feitas depois de a tabela ser carregada, e pode recarregar um modelo para aplicar as alterações feitas. Mas, por enquanto, isto será suficiente. Na vista de **Relatório** do Power BI Desktop, pode começar a criar relatórios.
+Na vista **Relatório** do Power BI Desktop, pode criar visualizações e relatórios. A vista **Relatório** tem seis áreas principais:
 
-A vista de **Relatório** tem cinco áreas principais:
+![Vista Relatório do Power BI Desktop](media/desktop-getting-started/designer_gsg_reportview.png)
 
-1. O friso, que apresenta tarefas comuns associadas a relatórios e visualizações
-2. A vista de **Relatório**, ou tela, onde as visualizações são criadas e dispostas
-3. A área do separador **Páginas** ao longo da parte inferior, que permite selecionar ou adicionar uma página de relatório
-4. O painel **Visualizações**, onde pode alterar visualizações, personalizar cores ou eixos, aplicar filtros, arrastar campos e muito mais
-5. O painel **Campos**, onde os elementos e filtros de consulta podem ser arrastados para a vista de **Relatório** ou arrastados para a área **Filtros** do painel **Visualizações**
-   
-   ![](media/desktop-getting-started/designer_gsg_reportview.png)
+1. O friso na parte superior, que apresenta tarefas comuns associadas a relatórios e visualizações.
+2. A área da tela na parte central, onde as visualizações são criadas e organizadas.
+3. A área do separador de páginas na parte inferior, que permite selecionar ou adicionar páginas de relatórios.
+4. O painel **Filtros**, onde pode filtrar visualizações de dados.
+5. O painel **Visualizações**, onde pode adicionar, alterar ou personalizar visualizações e aplicar a pormenorização.
+6. O painel **Campos**, que apresenta os campos disponíveis nas suas consultas. Pode arrastar esses campos para a tela ou para o painel **Filtros** ou **Visualizações** para criar ou modificar visualizações.
 
-Os dashboards **Visualizações** e **Campos** podem ser fechados, ao selecionar a pequena seta ao longo da margem, proporcionando mais espaço na vista de **Relatório** para criar visualizações fantásticas. Ao modificar visualizações, também verá essas setas a apontar para cima ou para baixo, o que significa que pode expandir ou fechar essa secção em conformidade.
+Pode expandir e fechar os painéis **Filtros**, **Visualizações** e **Campos** ao selecionar as setas na parte superior dos mesmos. Se fechar os painéis, terá mais espaço na tela para criar visualizações apelativas. 
 
- ![](media/desktop-getting-started/designer_gsg_collapsepanes.png)
+![Expandir ou fechar painéis](media/desktop-getting-started/designer_gsg_collapsepanes.png)
 
-Para criar uma visualização, basta arrastar um campo da lista **Campos** para a vista de **Relatório**. Neste caso, vamos arrastar o campo *State* de *RetirementStats* e ver o que acontece.
+Para criar uma visualização simples, selecione qualquer campo na lista ou arraste o campo da lista **Campos** para a tela. Por exemplo, arraste o campo **Estado** da consulta **Melhores estados para a venda de óculos de sol** para a tela e veja o que acontece.
 
- ![](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
+![Arrastar o campo Estado para criar uma visualização do mapa](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
 
-Observe... O Power BI Desktop criou automaticamente uma visualização baseada em mapa, porque reconheceu que o campo *State* continha dados de geolocalização.
+Veja só! O Power BI Desktop reconheceu que o campo **Estado** continha dados de geolocalização e criou automaticamente uma visualização baseada num mapa. A visualização apresenta pontos de dados para os 40 estados do seu modelo de dados. 
 
-Repare que no painel **Visualizações**, posso selecionar diferentes tipos de visualizações, e na área abaixo desses ícones, posso arrastar campos para diferentes áreas para aplicar uma Legenda ou modificar a visualização.
+O painel **Visualizações** apresenta informações sobre a visualização e permite-lhe modificá-la. 
 
- ![](media/desktop-getting-started/designer_gsg_visualizationtypes.png)
+![O painel Visualização](media/desktop-getting-started/designer_gsg_visualizationtypes.png)
 
-Vamos avançar um pouco e ver que aspeto tem a vista de **Relatório** após a adição de várias visualizações, bem como de algumas novas páginas de Relatório. Para obter mais informações sobre relatórios, veja [Vista de Relatório no Power BI Desktop](desktop-report-view.md).
+1. Os ícones apresentam o tipo de visualização que foi criado. Pode alterar o tipo de uma visualização selecionada ao selecionar um ícone diferente ou criar uma nova visualização ao selecionar um ícone sem visualizações existentes selecionadas. 
+2. A opção **Campos** no painel **Visualização** permite-lhe arrastar campos de dados para o campo **Legenda** e outros conjuntos de campos no painel. 
+3. A opção **Formato** permite-lhe aplicar controlos de formatação a visualizações, entre outros. 
 
-A primeira página do Relatório fornece uma perspetiva dos dados com base na *Classificação geral*. Quando selecionamos uma das visualizações, o painel **Campos e Filtros** mostra os campos que estão selecionados e a estrutura da visualização (que campos são aplicados ao **Eixo partilhado**, **Valores de coluna** e **Valores de Linha**).
+As opções disponíveis nas áreas **Campos** e **Formato** dependem do seu tipo de visualização e de dados.
 
- ![](media/desktop-getting-started/designer_gsg_report1.png)
+Recomendamos que a visualização do mapa apresente apenas os 10 estados com a melhor meteorologia. Para apresentar apenas os 10 melhores estados, no painel **Filtros**, paire o cursor sobre **O estado é (Todos)** e expanda a seta apresentada. Em **Tipo de filtro**, desloque-se para baixo e selecione **Top N**. Em **Mostrar itens**, selecione **Inferiores**, pois pretende apresentar os itens com as classificações numéricas mais baixas, e introduza *10* no campo seguinte.
 
-Existem seis **Páginas** neste Relatório e cada uma visualiza determinados elementos dos nossos dados.
+Arraste o campo **Meteorologia** do painel **Campos** para o campo **Por valor** e, em seguida, selecione **Aplicar filtro**. 
 
-1. A primeira página, apresentada acima, mostra todos os estados com base na *Classificação geral*.
-2. A segunda página foca-se nos dez primeiros estados com base na *Classificação geral*.
-3. Na terceira página, são visualizados os dez melhores estados em termos de custo de vida (e os dados associados).
-4. Meteorologia é o foco da quarta página, filtrada para apresentar os 15 estados mais ensolarados.
-5. Na quinta página, o Bem-estar da comunidade é apresentado num gráfico e visualizado para os 15 estados melhor classificados nessa categoria.
-6. Por último, as estatísticas de crime são visualizadas, mostrando os melhores (e também os piores) dez estados nessa categoria.
+![Filtro 10 Estados com a Melhor Meteorologia](media/desktop-getting-started/gsg_share5.png)
 
-A página de Relatório voltada para o custo de vida é semelhante à seguinte.
+Agora vê apenas os 10 estados com a melhor meteorologia na visualização do mapa. 
 
- ![](media/desktop-getting-started/designer_gsg_report2costofliving.png)
+Mude o título da sua visualização ao selecionar o ícone **Formato** no painel **Visualização**, ao selecionar **Título** e ao escrever *10 estados com a melhor meteorologia* em **Texto do título**. 
 
-Existem vários tipos de relatórios e visualizações interessantes que pode criar.
+![Alterar o título](media/desktop-getting-started/designer_gsg_report1.png)
+
+Para adicionar uma visualização que apresente os nomes dos 10 estados com a melhor meteorologia, bem como as respetivas classificações de 1 a 10, selecione uma área em branco da tela e, em seguida, selecione o ícone **Gráfico de colunas** no painel **Visualização**. No painel **Campos**, selecione **Estado** e **Meteorologia**. Um gráfico de colunas apresenta os 40 estados na sua consulta classificados do número mais alto para o mais baixo ou da pior para a melhor meteorologia. 
+
+![Visualização do gráfico de colunas](media/desktop-getting-started/gsg_share7.png)
+
+Para alterar a ordem da classificação para o número 1 aparecer primeiro, selecione o menu de reticências **Mais opções** no canto superior direito da visualização e selecione **Ordenação ascendente**. 
+
+![Ordenação ascendente](media/desktop-getting-started/shapecombine_mergequeries.png)
+
+Para limitar a tabela aos 10 estados principais, aplique o mesmo filtro dos 10 piores, tal como fez na visualização do mapa. 
+
+Mude o título da visualização, tal como fez na visualização do mapa. Na secção **Formato** do painel **Visualização**, altere o **eixo Y** > **Título do eixo** de **Meteorologia** para *Classificação meteorológica* para o tornar mais compreensível. Em seguida, altere o seletor do **eixo Y** para **Desativado** e altere as **Etiquetas de dados** para **Ativado**. 
+
+Agora, os 10 estados com a melhor meteorologia são apresentados por ordem de classificação juntamente com a classificação numérica. 
+
+![Gráfico de colunas concluído](media/desktop-getting-started/shapecombine_changetype.png)
+
+Pode criar visualizações semelhantes ou diferentes para os campos **Acessibilidade** e **Classificação geral**, ou combinar vários campos numa única visualização. Existem vários tipos de relatórios e visualizações interessantes que pode criar. As visualizações **Tabela** e **Gráfico de linhas e de colunas agrupadas** apresentam os 10 estados com a melhor meteorologia juntamente com a classificação geral e de acessibilidade:
+
+![Visualizações de colunas de tabelas, de linhas e agrupadas](media/desktop-getting-started/designer_gsg_report2costofliving.png)
+
+Pode apresentar várias visualizações em várias páginas de relatórios. Para adicionar uma nova página, selecione o **+** símbolo junta às páginas existentes na barra de páginas ou selecione **Inserir** > **Nova Página** no separador **Home Page** do friso. Para mudar o nome da página, faça duplo clique no nome da página na barra de páginas ou clique com o botão direito do rato e selecione **Mudar o Nome da Página** e, em seguida, escreva o novo nome. Para aceder a outra página do relatório, selecione-a na barra de páginas. 
+
+![Barra de páginas](media/desktop-getting-started/pages.png)
+
+Pode adicionar caixas de texto, imagens e botões às suas páginas de relatórios no grupo **Inserir** do separador **Home Page**. Para definir as opções de formatação das visualizações, selecione uma visualização e, em seguida, selecione o ícone **Formato** no painel **Visualizações**. Para configurar tamanhos de página, fundos e outras informações, selecione o ícone **Formato** sem qualquer visualização selecionada.
+
+Quando concluir a criação das suas páginas e visualizações, selecione **Ficheiro** > **Guardar** e guarde o seu relatório. 
+
+![Página de relatório concluída do Power BI Desktop](media/desktop-getting-started/finished-report.png)
+
+Para obter mais informações sobre relatórios, veja [Vista de Relatório no Power BI Desktop](desktop-report-view.md).
 
 ## <a name="share-your-work"></a>Partilhar o seu trabalho
-Agora que temos um relatório do Power BI Desktop razoavelmente concluído, podemos partilhá-lo com outras pessoas no serviço **Power BI**. Existem algumas formas de partilhar o seu trabalho no Power BI Desktop. Pode publicar no serviço **Power BI**, pode carregar o ficheiro .pbix a partir diretamente do serviço Power BI ou pode guardar o ficheiro .pbix e enviá-lo como qualquer outro ficheiro.
+Agora que tem um relatório do Power BI Desktop, pode partilhá-lo com outras pessoas. Existem algumas formas de partilhar o seu trabalho. Pode distribuir o ficheiro *.pbix* do relatório como qualquer outro ficheiro, carregar o ficheiro *.pbix* no serviço Power BI ou publicá-lo diretamente do Power BI Desktop no serviço Power BI. Tem de ter uma conta do Power BI para poder publicar ou carregar relatórios no serviço Power BI. 
 
-Em primeiro lugar, vamos ver a publicação no serviço **Power BI** a partir diretamente do Power BI Desktop. No friso **Base**, selecione **Publicar**.
+Para efetuar uma publicação no serviço **Power BI** do Power BI Desktop, no separador **Home Page** do friso, selecione **Publicar**.
 
-![](media/desktop-getting-started/gsg_syw_1.png)
+![Selecionar Publicar](media/desktop-getting-started/gsg_syw_1.png)
 
-Poderá ser-lhe solicitado que inicie sessão no Power BI.
+Poderá ser-lhe pedido para iniciar sessão no Power BI ou selecionar um destino.
 
-![](media/desktop-getting-started/gsg_syw_2.png)
+Após o processo de publicação estar concluído, verá a seguinte caixa de diálogo:
 
-Após iniciar sessão e o processo de publicação estar concluído, verá a caixa de diálogo seguinte.
+![A publicação do Power BI foi efetuada com êxito](media/desktop-getting-started/gsg_syw_3.png)
 
-![](media/desktop-getting-started/gsg_syw_3.png)
+Ao selecionar a ligação para abrir o relatório no Power BI, o seu relatório é aberto no seu site do Power BI em **A minha área de trabalho** > **Relatórios**. 
 
-Quando inicia sessão no Power BI, verá o ficheiro do Power BI Desktop que acabou de carregar nas secções **Dashboards**, **Relatórios** e **Conjuntos de dados** do serviço.
+Outra forma de partilhar o seu trabalho é carregá-lo a partir do serviço **Power BI**. Aceda a *https:\//app.powerbi.com* para abrir o Power BI num browser. Na sua **Home Page** do Power BI, selecione **Obter dados** no canto inferior esquerdo para iniciar o processo de carregamento do seu relatório do Power BI Desktop.
 
-Outra forma de partilhar o seu trabalho é carregá-lo a partir do serviço **Power BI**. A ligação seguinte abre o serviço **Power BI** num browser:
+![Selecionar Obter dados na Home Page do Power BI](media/desktop-getting-started/pbi_gsg_getdata1.png)
 
-`https://app.powerbi.com`
+Na página seguinte, selecione **Obter** na secção **Ficheiros**.
 
-Selecione **Obter Dados** para iniciar o processo de carregamento do seu relatório do Power BI Desktop.
+![Obter ficheiros](media/desktop-getting-started/pbi_gsg_getdata2.png)
 
- ![](media/desktop-getting-started/pbi_gsg_getdata1.png)
+Na página seguinte, selecione **Ficheiro Local**. Navegue e selecione o seu ficheiro *.pbix* do Power BI Desktop e selecione **Abrir**. 
 
-A página **Obter Dados** é apresentada, na qual pode selecionar o local a partir do qual pretende obter os seus dados. Neste caso, selecionamos **Obter** na caixa **Ficheiros**.
+Após as importações, poderá ver o ficheiro em **A minha área de trabalho** > **Relatórios** no painel do lado esquerdo do serviço Power BI.
 
-![](media/desktop-getting-started/pbi_gsg_getdata2.png)
+![Ficheiro do Power BI Desktop importado para o Power BI](media/desktop-getting-started/pbi_gsg_getdata4.png)
 
-A vista de **Ficheiros** é apresentada. Neste caso, selecionamos **Ficheiro Local**.
+Ao selecionar o ficheiro, a primeira página do relatório é apresentada. Pode selecionar várias páginas nos separadores no lado esquerdo do relatório. 
 
-![](media/desktop-getting-started/pbi_gsg_getdata3.png)
+Pode fazer alterações a um relatório no serviço **Power BI** ao selecionar **Mais opções** > **Editar** na parte superior da tela do relatório. Para guardar as suas alterações, selecione **Guardar uma cópia**.
 
-Ao selecionar o ficheiro, o Power BI carrega-o.
+![Editar um relatório e Guardar uma cópia](media/desktop-getting-started/gsg_share4.png)
 
-![](media/desktop-getting-started/pbi_gsg_getdata3a.png)
+Existem muitos tipos de elementos visuais interessantes que pode criar a partir do seu relatório no serviço **Power BI** e que pode anexar a um *dashboard*. Para saber mais sobre dashboards no serviço **Power BI**, veja [Sugestões para criar um dashboard excelente](service-dashboards-design-tips.md). Para obter mais informações sobre como criar, partilhar e modificar dashboards, veja [Partilhar um dashboard](service-share-dashboards.md).
 
-Depois de carregado o ficheiro, pode selecionar o ficheiro a partir de **Relatórios** no painel esquerdo do serviço Power BI.
+Para partilhar um relatório ou dashboard, selecione **Partilhar** na parte superior do relatório ou página do dashboard aberta. Em alternativa, selecione o ícone **Partilhar** junto ao nome do relatório ou do dashboard nas listas **A minha área de trabalho** > **Relatórios** ou **A minha área de trabalho** > **Dashboards**.
 
-![](media/desktop-getting-started/pbi_gsg_getdata4.png)
+Conclua o ecrã **Partilhar relatório** ou **Partilhar dashboard** para enviar um e-mail ou obter uma ligação para partilhar o seu relatório ou dashboard com outras pessoas. 
 
-O serviço **Power BI** apresenta a primeira página do relatório. Na parte inferior da página, pode selecionar qualquer separador para apresentar uma página específica do relatório.
+![Partilhar relatório](media/desktop-getting-started/gsg_share6.png)
 
- ![](media/desktop-getting-started/gsg_share4.png)
-
-Pode fazer alterações a um relatório no serviço **Power BI**, selecionando **Editar Relatório** na parte superior da tela do relatório.
-
-Para guardar o relatório, selecione **Ficheiro \> Guardar como** no serviço. Há todos os tipos de elementos visuais interessantes que pode criar no serviço **Power BI** por a partir do seu relatório, que pode anexar a um *dashboard*. Para saber mais sobre dashboards no serviço **Power BI**<strong>[, veja Sugestões para conceber um excelente dashboard](service-dashboards-design-tips.md)</strong>.
-
- ![](media/desktop-getting-started/gsg_share5.png)
-
-Depois de guardar, selecione o ícone **Partilhar** na página principal.
-
- ![](media/desktop-getting-started/gsg_share6.png)
-
-Aqui, pode enviar um e-mail para os colegas com quem gostaria de partilhar o dashboard.
-
- ![](media/desktop-getting-started/gsg_share7.png)
-
-Para obter mais informações sobre como criar, partilhar e modificar dashboards, veja [Partilhar um dashboard](service-share-dashboards.md).
-
-Há inúmeras combinações e visualizações apelativas relacionadas com dados que pode criar com o Power BI Desktop e com o serviço Power BI. Consulte a próxima secção para obter mais informações.
-
-## <a name="diagnostics"></a>Diagnóstico
-
-O Power BI Desktop suporta a ligação a uma porta de diagnóstico. A porta de diagnóstico permite que outras ferramentas se liguem e executem rastreios para fins de diagnóstico. *Fazer alterações ao modelo não é suportado! As alterações ao modelo podem provocar danos e perda de dados.*
+Existem muitas combinações e visualizações apelativas relacionadas com dados que pode criar com o Power BI Desktop e com o serviço Power BI. 
 
 ## <a name="next-steps"></a>Próximos passos
-Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as respetivas capacidades, consulte os seguintes recursos:
+O Power BI Desktop suporta a ligação a uma porta de diagnóstico. A porta de diagnóstico permite que outras ferramentas se liguem e executem rastreios para fins de diagnóstico. Ao utilizar uma porta de diagnóstico, *não são suportadas alterações ao modelo. As alterações ao modelo podem provocar danos e perda de dados.*
 
-* [Descrição Geral da Consulta com o Power BI Desktop](desktop-query-overview.md)
-* [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
+Para obter mais informações sobre as várias funcionalidades do Power BI Desktop, consulte os seguintes recursos:
+
+* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Origens de dados no Power BI Desktop](desktop-data-sources.md)
+* [Ligar a dados no Power BI Desktop](desktop-connect-to-data.md)
+* [Tutorial: Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)   

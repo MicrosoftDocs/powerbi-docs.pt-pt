@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875317"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304313"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Criar uma origem de dados incorporada para relatórios paginados no serviço Power BI
 
@@ -75,21 +75,21 @@ Os relatórios paginados que estão ligados a conjuntos de dados do Power BI seg
 
 - .rdl na mesma área de trabalho como conjunto de dados (mesmo proprietário): Suportado
 - .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
-- .rdl partilhado: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Aplicação partilhada: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
+- .rdl partilhado: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Aplicação partilhada: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
 - .rdl na mesma área de trabalho que o conjunto de dados (utilizador diferente): Suportado
-- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Segurança ao nível da função: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta.
+- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Segurança ao nível da função: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
 
 ### <a name="new-experience-apps-and-workspaces"></a>Aplicações de nova experiência e áreas de trabalho
 
 - .rdl na mesma área de trabalho que o conjunto de dados: Suportado
 - .rdl numa área de trabalho diferente como conjunto de dados (mesmo proprietário): Suportado
-- .rdl partilhado: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Aplicação partilhada: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
+- .rdl partilhado: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Aplicação partilhada: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
 - .rdl na mesma área de trabalho que o conjunto de dados (utilizador diferente) – suportado
-- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados
-- Segurança ao nível da função: precisa de atribuir a Permissão de compilação a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
+- .rdl numa área de trabalho diferente do conjunto de dados (utilizador diferente): precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados
+- Segurança ao nível da função: precisa de atribuir a Permissão de leitura a cada utilizador que vir o relatório ao nível do conjunto de dados para que a segurança seja imposta
 
 ## <a name="next-steps"></a>Próximos passos
 

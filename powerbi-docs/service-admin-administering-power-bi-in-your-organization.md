@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698975"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548581"
 ---
 # <a name="what-is-power-bi-administration"></a>O que é a administração do Power BI?
 
@@ -61,7 +61,7 @@ Os administradores executam bastantes tarefas para suportar o inquilino do Power
 | Garantir a conformidade com políticas internas, leis e regulamentos | <ul><li>Gerir a classificação de dados de negócio<br><li>Ajudar a impor políticas de partilha e publicação de conteúdos</ul>|
 | Gerir recursos do Power BI |<ul><li>Gerir áreas de trabalho<br><li>Publicar elementos visuais personalizados<br><li>Validar códigos que servem para incorporar o Power BI noutras aplicações|
 | Fornecer ajuda e suporte aos utilizadores inquilinos |<ul><li>Resolver problemas de acesso a dados e outros problemas</ul>|
-| Outras tarefas |<ul><li>Implementar o Power BI Desktop, por exemplo, com o System Center Configuration Manager<br><li>Gerir a implementação de aplicações móveis do Power BI com o Intune<br><li>Gerir a privacidade e a segurança dos dados,como a segurança dos dados de origem</ul>|
+| Outras tarefas |<ul><li>Implementar o Power BI Desktop, por exemplo, com o Microsoft Endpoint Configuration Manager<br><li>Gerir a implementação de aplicações móveis do Power BI com o Intune<br><li>Gerir a privacidade e a segurança dos dados,como a segurança dos dados de origem</ul>|
 
 ## <a name="administrative-tools"></a>Ferramentas administrativas
 

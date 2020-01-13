@@ -7,46 +7,77 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 12/12/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad3e1f18e6b18116a070d9013bf7cd64d7e1c0f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862776"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75218047"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Imprimir a partir do serviço Power BI
 
+## <a name="what-can-be-printed"></a>O que pode ser impresso
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Os relatórios só podem ser impressos uma página de cada vez. Não pode imprimir todo o relatório de uma só vez.
+Imprima um dashboard completo, um mosaico do dashboard, uma página de relatório ou um elemento visual de um relatório a partir do serviço Power BI. Se o seu relatório tiver mais do que uma página, terá de imprimir cada página em separado. 
 
-   > [!NOTE]
-   > A caixa de diálogo de impressão que é apresentada depende do browser que está a utilizar.
+## <a name="printing-considerations"></a>Considerações sobre impressão
+
+A maioria dos dashboards e relatórios do Power BI são criados por *designers* de relatórios para serem utilizados online e terem um aspeto fantástico quando são apresentados em vários dispositivos. Quando imprime um relatório, a forma como esse conteúdo é apresentado no papel é controlado pelo seu browser. 
+
+Pode utilizar definições do browser para ajustar a impressão, mas, mesmo assim, poderá não conseguir obter o resultado pretendido. Considere [exportar para PDF](end-user-pdf.md) primeiro e, depois, imprimir o PDF. 
+
+## <a name="adjust-your-browser-print-settings"></a>Ajustar as definições de impressão do browser
+Quando imprime a partir do Power BI, o seu browser abre a janela Imprimir. Cada browser tem uma janela Imprimir diferente. Contudo, verá que todas têm opções semelhantes que poderá utilizar para controlar o aspeto da sua impressão. 
+
+Seguem-se algumas dicas rápidas que pode utilizar para formatar a sua impressão.
+
    > 
+1. Se a largura do seu dashboard, relatório ou elemento visual for superior à altura do mesmo, considere utilizar o esquema **Horizontal**. 
+
+   ![Caixa de diálogo Imprimir a mostrar que o esquema está definido como horizontal](./media/end-user-print/power-bi-landscape-layout.png)
+
+2. Para incluir mais elementos numa página impressa, ajuste aspetos como as margens e a escala. 
+
+    ![Caixa de diálogo Imprimir a mostrar "Mais definições"](./media/end-user-print/power-bi-margins.png)
+
+Teste as definições do seu browser até obter o aspeto pretendido. Alguns browsers têm inclusivamente opções para imprimir gráficos de fundo. 
+
 ## <a name="print-a-dashboard"></a>Imprimir um dashboard
 1. Abra o dashboard que quer imprimir.
 2. No canto superior esquerdo, selecione Exportar e **Imprimir esta página**.
    
     ![Opção de impressão do dashboard](./media/end-user-print/power-bi-dashboard-print.png)
-3. A janela Imprimir do browser abre. Escolha as definições e o destino de impressão, e selecione **Imprimir**.
-   
 
+3. A janela Imprimir do browser abre. Escolha as definições. Por exemplo, se a largura do seu dashboard for superior à altura do mesmo, é recomendado alterar o esquema para **Horizontal**. Selecione **Imprimir**.
    
     ![caixa de diálogo Imprimir](./media/end-user-print/power-bi-print-dash.png)
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir um mosaico do dashboard
-1. Abra o dashboard no [modo de ecrã inteiro](end-user-focus.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen-icon.png) na barra de menus superior.
+1. Abra o dashboard no [modo de ecrã inteiro](end-user-focus.md) ao selecionar o ícone de ecrã inteiro ![ícone de ecrã inteiro](./media/end-user-print/power-bi-full-screen.png) na barra de menus superior.
+
 3. [Abra o mosaico no Modo de detalhe](end-user-focus.md) ao pairar o rato para apresentar **Mais opções** (...) e ao selecionar **Abrir no modo de detalhe** ou o ícone de detalhe ![ícone de Detalhe](./media/end-user-print/power-bi-focus-icon.png).
    
     ![menu de reticências](./media/end-user-print/power-bi-menu-options.png)
+
 4. Paire o rato sobre o mosaico para revelar o menu de Opções.
    
     ![menu de Opções em ecrã inteiro](./media/end-user-print/menu-options-new.png)
-4. Selecione o ícone de impressão ![ícone de impressão](./media/end-user-print/print-icon.png).     
-   
+
+4. Selecione o ícone Imprimir ![ícone imprimir](./media/end-user-print/print-icon.png).     
+
+5. A janela Imprimir do browser abre. Escolha as definições. Por exemplo, se o seu mosaico não couber na página, é recomendado alterar a escala para 75%. Selecione **Imprimir**.
+
+    ![janela imprimir](./media/end-user-print/power-bi-scale.png) 
+
+> [!TIP]
+> Se tiver seguido todos estes passos e o seu mosaico ainda não estiver a ser apresentado da maneira pretendida, experimente fazer o seguinte.
+> 1. Abra a janela Imprimir e faça as alterações às definições de impressão que acha que vão proporcionar a melhor impressão. Por exemplo, altere o esquema, as margens e a escala. 
+> 2. Contudo, em vez de imprimir, selecione **Cancelar**. 
+> 3. Siga novamente os passos 1 a 5. O seu mosaico ajustar-se-á às novas definições da janela Imprimir e estará pronto para impressão.
 
 ## <a name="print-a-report-page"></a>Imprimir uma página de relatório
 Os relatórios podem ser impressos uma página de cada vez.
@@ -54,7 +85,9 @@ Os relatórios podem ser impressos uma página de cada vez.
 1. Abra o relatório e selecione **Exportar** > **Imprimir** para imprimir a página de relatório atual.
    
     ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-report-print.png)
-3. A janela Imprimir do browser abre.
+2. A janela Imprimir do browser abre.
+
+3. Siga os passos de impressão acima a partir de **Imprimir um dashboard**.
    
 
 
@@ -66,6 +99,7 @@ Os relatórios podem ser impressos uma página de cada vez.
     ![Menu Ficheiro do Power BI](./media/end-user-print/power-bi-report-print.png)
 
 
+3. Siga os passos de impressão acima a partir de **Imprimir um dashboard**.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
@@ -76,7 +110,9 @@ Os relatórios podem ser impressos uma página de cada vez.
 * P: O que vejo quando seleciono **Imprimir** não corresponde ao que estão a mostrar aqui.    
 * R: Os ecrãs de impressão variam consoante o browser e a versão do software.
 * P: A minha impressão não é dimensionada corretamente.  O meu dashboard não cabe na página. Outras perguntas sobre dimensionamento e orientação.    
-* R: Não podemos garantir que a cópia impressa será exatamente igual ao que é apresentado no serviço Power BI. Aspetos como o dimensionamento, as margens, os detalhes visuais, a orientação e o tamanho não são controlados pelo Power BI. Para obter ajuda com problemas como este, consulte a documentação relativa ao seu browser específico.      
+* R: Não podemos garantir que a cópia impressa será exatamente igual ao que é apresentado no serviço Power BI. Aspetos como o dimensionamento, as margens, os detalhes visuais, a orientação e o tamanho não são controlados pelo Power BI. Experimente ajustar as definições de impressão do seu browser. Algumas das definições acima sugeridas incluem a orientação da página (vertical ou horizontal), o tamanho das margens e a escala. Se isto não ajudar, veja a documentação relativa ao seu browser específico.      
+* P: Quando estou a imprimir no modo de ecrã inteiro, não vejo a opção de impressão quando pairo sobre o elemento visual.   
+* R: Regresse ao dashboard ou relatório na vista predefinida e reabra o elemento visual no modo de detalhe e, em seguida, no modo de ecrã inteiro. 
 
 ## <a name="next-steps"></a>Próximos passos
 [Partilhar dashboards e relatórios com colegas e outras pessoas](../service-share-dashboards.md)

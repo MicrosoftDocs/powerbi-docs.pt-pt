@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000118"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurar o SSO baseado no Kerberos a partir do serviço Power BI para as origens de dados no local
@@ -185,11 +185,11 @@ Conclua os seguintes passos de configuração:
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>Conceder os direitos da política local da conta de serviço de gateway no computador do gateway
 
-Por fim, no computador que executa o serviço de gateway (**MyGatewayMachine** no nosso exemplo), conceda à conta do serviço de gateway as políticas locais **Representar um cliente após autenticação** e **Atuar como parte do sistema operativo (SeTcbPrivilege)**. Efetue esta configuração com o Editor de Políticas de Grupo Local (**gpedit.msc**).
+Por fim, no computador que executa o serviço de gateway (**MyGatewayMachine** no nosso exemplo), conceda à conta do serviço de gateway as políticas locais **Representar um cliente após autenticação** e **Atuar como parte do sistema operativo (SeTcbPrivilege)** . Efetue esta configuração com o Editor de Políticas de Grupo Local (**gpedit.msc**).
 
 1. No computador do gateway, execute **gpedit.msc**.
 
-2. Aceda a **Política de Computador Local** &gt; **Configuração de Computador** &gt; **Definições do Windows** &gt; **Definições de Segurança** &gt; **Políticas Locais** &gt; **Atribuição de Direitos de Utilizadores**.
+2. Aceda a **Política de Computador Local** &gt; **Configuração do Computador** &gt; **Definições do Windows** &gt; **Definições de Segurança**  &gt; **Políticas Locais** &gt; **Atribuição de Direitos de Utilizadores**.
 
     ![Estrutura de pastas da Política do Computador Local](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -261,5 +261,5 @@ Para obter mais informações sobre o gateway de dados no local e o DirectQuery,
 * [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-onprem) (O que é um gateway de dados no local?)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
-* [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery and SAP HANA](desktop-directquery-sap-bw.md) (DirectQuery e SAP HANA)
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)

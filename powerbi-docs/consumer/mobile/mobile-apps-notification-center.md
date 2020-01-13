@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879246"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219399"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Receber notificações nas aplicações móveis do Power BI
 Aplica-se a:
@@ -34,27 +34,23 @@ As notificações levam informações relacionadas com a sua experiência do Pow
    
    ![Barra de notificações](./media/mobile-apps-notification-center/power-bi-mobile-notification-banner.png)
    
-   Ou num iPad:
-   
-   ![Notificações](./media/mobile-apps-notification-center/power-bi-ipad-notifications.png)
-   
+
    Pode [alterar a forma como o Power BI envia notificações](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device).
-2. Se tiver recebido notificações, quando iniciar sessão no Power BI no seu dispositivo móvel verá um ponto amarelo no botão de navegação global ![Ponto de Notificações](./media/mobile-apps-notification-center/power-bi-android-menu-notifications-icon.png) (Android) ou no ícone de **Notificações**. 
-   
-   ![Ponto de Notificações](./media/mobile-apps-notification-center/power-bi-windows-10-notifications.png)
-3. Selecione o ícone de Notificações ![Ícone de Notificações](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10).
+2. Se tiver recebido notificações, quando iniciar sessão no Power BI no seu dispositivo móvel, verá um ponto amarelo no ícone de sino de notificação ![sino de notificação](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS e Android) ou no botão de navegação global ![Ponto de Notificações](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (dispositivos com o Windows 10). 
+
+3. Para ver as notificações no Centro de notificações, toque no sino de notificações ![sino de notificação](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS e Android) ou no ícone do Centro de notificações ![Ícone de Notificações](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (dispositivos com o Windows 10).
    
     As notificações são apresentadas com as mais recentes na parte superior e as mensagens não lidas realçadas. As notificações são mantidas durante 90 dias, a menos que as elimine ou atinja o limite máximo de 100.
    
    ![Lista de Notificações no iOS](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. Para dispensar uma notificação, toque e mantenha o dedo sobre a mesma e selecione **Dispensar**.
+4. Para dispensar uma notificação em dispositivos iOS e Android, toque sem soltar e percorra. Em dispositivos com o Windows 10, clique com o botão direito do rato e selecione **Dispensar**.
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>Alterar ou desativar notificações no seu dispositivo móvel
 Pode alterar a forma como o Power BI envia notificações.
 
 1. Num dispositivo iOS, aceda a **Definições** > **Notificações**. 
    
-    Num telemóvel Android, aceda a **Definições de Notificação**.
+    Num telemóvel Android, aceda a **Definições** > **Notificações**.
    
     Num dispositivo Windows, em **Definições**, aceda a **Sistema** > **Notificações e ações**.
 2. Na lista de aplicações, selecione **Power BI**. 

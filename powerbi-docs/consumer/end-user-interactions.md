@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863099"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75303832"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Forma como os elementos visuais efetuam a filtragem cruzada entre si num relatório do Power BI
 Um dos recursos incríveis do Power BI é a forma como estão interligados todos os elementos visuais numa página de relatório. Se selecionar um ponto de dados num dos elementos visuais, serão alterados todos os outros elementos visuais na página que contêm esses dados, com base nessa seleção. 
@@ -27,20 +27,31 @@ Por predefinição, selecionar um ponto de dados num elemento visual numa págin
 
 Caso ainda não se tenha deparado com hierarquias ou com a exploração, pode saber tudo sobre as mesmas ao ler este artigo sobre a [desagregação no Power BI](end-user-drill.md). 
 
-A filtragem cruzada e o realce cruzado podem ser úteis para identificar como um valor dos seus dados contribui para outro valor. Por exemplo, selecionar o segmento Moderation (Moderação) no gráfico em anel realça a contribuição desse segmento para cada coluna no gráfico "Total units by Month" (Total de Unidades por Mês) e filtra o gráfico de linhas.
+### <a name="cross-filtering-and-cross-highlighting"></a>Filtragem cruzada e realce cruzado
 
-![Imagem de interação dos elementos visuais](media/end-user-interactions/power-bi-interactions.png)
+A filtragem cruzada e o realce cruzado podem ser úteis para identificar como um valor dos seus dados contribui para outro valor. Os termos *filtro cruzado* e *realce cruzado* são utilizados para distinguir o comportamento descrito aqui sobre o que acontece quando utiliza o painel **Filtros** para filtrar e realçar elementos visuais.  
 
-Consulte [Sobre filtragem e realce](end-user-report-filter.md). 
+Vamos definir estes termos ao analisar as páginas de relatório abaixo. O gráfico em anel "Volume de categoria total por segmento" tem dois valores: "Moderação" e "Conveniência". 
 
+![Página de relatório](media/end-user-interactions/power-bi-interactions-before.png)
 
-  
-> [!NOTE]
-> Os termos *filtro cruzado* e *realce cruzado* são utilizados para distinguir o comportamento descrito aqui sobre o que acontece quando utiliza o painel **Filtros** para filtrar e realçar elementos visuais.  
+1. Vejamos o que acontece quando selecionamos **Moderação**.
+
+    ![Página de relatório depois de o segmento Moderação do gráfico em anel ser selecionado](media/end-user-interactions/power-bi-interactions-after.png)
+
+2. A **filtragem cruzada** remove dados que não se aplicam. A seleção de **Moderação** no gráfico em anel permite filtrar o gráfico de linhas de forma cruzada. Agora o gráfico de linhas só mostra pontos de dados do segmento Moderação. 
+
+3. O **realce cruzado** retém todos os pontos de dados originais, mas escurece a parte que não se aplica à sua seleção. A seleção de **Moderação** no gráfico em anel permite realçar o gráfico de colunas de forma cruzada. O gráfico de colunas escurece todos os dados que se aplicam ao segmento Conveniência e realça todos os dados que se aplicam ao segmento Moderação. 
+
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 - Se o seu relatório tiver um elemento visual que suporte a [exploração](end-user-drill.md) por predefinição, a exploração de um elemento visual não tem impacto nos restantes elementos visuais na página de relatório.     
-- Se utilizar o elemento visual A para interagir com o elemento visual B, os filtros ao nível do elemento visual A serão aplicados ao elemento visual B.
+- Os filtros de nível visual são mantidos quando se faz a filtragem cruzada e o realce cruzado de outros elementos visuais na página do relatório. Assim, se o Elemento Visual A tiver filtros de nível visual aplicados pelo designer de relatórios ou por si e utilizar o Elemento Visual A para interagir com o Elemento Visual B, serão aplicados filtros de nível visual do Elemento Visual A ao Elemento Visual B.
+
+    ![Página de relatório depois de o segmento Moderação do gráfico em anel ser selecionado](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Próximos passos
-[Como utilizar filtros de relatório](../power-bi-how-to-report-filter.md)
+[Como utilizar filtros de relatório](../power-bi-how-to-report-filter.md)    
+
+
+[Sobre a filtragem e o realce](end-user-report-filter.md). 

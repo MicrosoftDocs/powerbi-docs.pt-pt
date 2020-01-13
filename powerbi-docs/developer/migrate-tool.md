@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 01f79bfaae13b60d3c63abd8f7fc801998075ee6
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265268"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded migration tool (Ferramenta de migração Power BI Embedded)
@@ -184,7 +184,7 @@ Pode verificar se a área de trabalho foi criada ao iniciar sessão no Power BI 
 
 Após a criação da área de trabalho, pode passar para o separador **Carregar**.
 
-## <a name="step-4-upload"></a>Passo 4: Carregar
+## <a name="step-4-upload"></a>Step 4: Carregar
 
 No separador **Carregar**, irá carregar os relatórios para o serviço Power BI. Irá ver uma lista dos relatórios que transferimos no separador Transferir, juntamente com o nome do grupo de destino com base no seu plano de migração.
 
@@ -271,7 +271,7 @@ Para obter mais informações, veja [Como migrar conteúdos da coleção de áre
 
 [Incorporar com o Power BI](embedding.md)  
 [Como migrar conteúdos da coleção de áreas de trabalho do Power BI Embedded para o Power BI](migrate-from-powerbi-embedded.md)  
-[Power BI Premium – o que é?](../service-premium-what-is.md)  
+[Power BI Premium - what is it?](../service-premium-what-is.md) (Power BI Premium – o que é?)  
 [Repositório Git da API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositório Git C# do Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Exemplo de incorporação de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

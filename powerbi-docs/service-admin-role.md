@@ -1,40 +1,43 @@
 ---
-title: Compreender a função de administrador do Power BI
-description: Este artigo descreve a função de administrador do serviço Power BI e como a utilizar na sua organização.
+title: Compreender as funções de administrador do serviço Power BI
+description: Este artigo descreve as funções de administrador do serviço Power BI e as funções específicas que fornecem privilégios de administrador.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a6121ca16250de9765557b9c9acbf73b513723ee
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699918"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75622310"
 ---
-# <a name="understanding-the-power-bi-service-administrator-role"></a>Compreender a função de administrador do serviço Power BI
+# <a name="understanding-power-bi-service-administrator-roles"></a>Compreender as funções de administrador do serviço Power BI
 
-Saiba como pode utilizar a função de administrador do serviço Power BI na sua organização. Os utilizadores nesta função têm controlo total sobre um inquilino do Power BI e sobre as suas funcionalidades administrativas, à exceção do licenciamento.
+Para administrar um inquilino do Power BI, tem de ter uma das seguintes funções: administrador do Power BI, administrador do Power Platform ou administrador global do Microsoft 365. Os administradores de gestão de utilizadores do Microsoft 365 atribuem utilizadores às funções de administrador do Power BI ou administrador do Power Platform no centro de administração do Microsoft 365 ou através de um script do PowerShell.
 
-A função de administrador do serviço Power BI pode ser atribuída a utilizadores que precisam de ter acesso ao Portal de administração do Power BI sem conceder também a esses utilizadores acesso administrativo completo ao Office 365.
+Os utilizadores com funções de administrador do Power BI e administrador do Power Platform têm controlo total sobre um inquilino do Power BI e sobre as suas funcionalidades administrativas, à exceção do licenciamento. Depois de serem atribuídos, os utilizadores poderão aceder ao [portal de administração do Power BI](service-admin-portal.md). No portal, têm acesso a métricas de utilização a nível do inquilino e podem controlar a utilização a nível do inquilino das funcionalidades do Power BI. Estas funções de administrador são ideais para os utilizadores que precisam de ter acesso ao portal de administração do Power BI sem conceder também a esses utilizadores acesso administrativo completo ao Microsoft 365.
 
-Os administradores de gestão de utilizadores do Office 365 atribuem utilizadores à função de administrador de serviço do Power BI no centro de administração do Microsoft 365 ou através de um script do PowerShell. Depois de serem atribuídos, os utilizadores poderão aceder ao [portal de administração do Power BI](service-admin-portal.md). No portal, têm acesso a métricas de utilização a nível do inquilino e podem controlar a utilização a nível do inquilino das funcionalidades do Power BI.
+> [!NOTE]
+> Na documentação do Power BI, "administrador do Power BI" refere-se aos utilizadores com funções de administrador do Power BI ou de administrador do Power Platform. A documentação clarifica quando a função de administrador global do Microsoft 365 é necessária para uma tarefa.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 
-A função de administrador do serviço Power BI não fornece as seguintes capacidades:
+As funções de administrador do serviço Power BI e de administrador do Power Platform não disponibilizam as seguintes capacidades:
 
 * Capacidade de modificar utilizadores e licenças no centro de administração do Microsoft 365.
 
-* Acesso aos registos de auditoria. Para obter mais informações, veja [Utilizar a auditoria na sua organização](service-admin-auditing.md).
+* Acesso aos registos de auditoria. Para obter mais informações, veja [Controlar as atividades dos utilizadores no Power BI](service-admin-auditing.md).
 
-## <a name="assign-users-to-the-admin-role-in-office-365"></a>Atribuir utilizadores à função de administrador no Office 365
+Estas funcionalidades exigem a função de administrador global do Microsoft 365.
 
-Para atribuir utilizadores à função de administrador do Power BI no centro de administração do Microsoft 365, siga estes passos.
+## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>Atribuir uma função de administrador aos utilizadores no centro de administração do Microsoft 365
+
+Para atribuir uma função de administrador aos utilizadores no centro de administração do Microsoft 365, siga estes passos.
 
 1. No [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/homepage), selecione **Utilizadores** > **Utilizadores Ativos**.
 
@@ -42,19 +45,15 @@ Para atribuir utilizadores à função de administrador do Power BI no centro de
 
 1. Selecione o utilizador ao qual pretende atribuir a função.
 
-1. Em **Funções**, selecione **Editar**.
+1. Em **Funções**, selecione **Gerir Funções**.
 
-    ![Editar funções](media/service-admin-role/powerbi-admin-edit-roles.png)
+    ![Gerir funções](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. Selecione **Administrador personalizado** > **Administrador do serviço Power BI**.
+1. Expanda **Mostrar tudo por categoria** e, em seguida, selecione **Administrador do Power BI** ou **Administrador do Power Platform**.
 
-    ![Administrador do serviço Power BI](media/service-admin-role/powerbi-admin-role.png)
+    ![Selecionar função de administrador](media/service-admin-role/powerbi-admin-role.png)
 
-1. Selecione **Guardar** e **Fechar**.
-
-Deverá ver **Administrador do serviço Power BI** listado para a função desse utilizador.
-
-![Funções](media/service-admin-role/powerbi-admin-role-set.png)
+1. Selecione **Guardar alterações**.
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Atribuir utilizadores à função de administrador no PowerShell
 

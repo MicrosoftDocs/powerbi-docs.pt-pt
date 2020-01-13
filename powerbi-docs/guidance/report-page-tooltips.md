@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834730"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221948"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>Extending visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
 
@@ -61,15 +61,15 @@ O seguinte exemplo mostra o que acontece quando o utilizador do relatório paira
 
 ### <a name="add-help"></a>Adicionar ajuda
 
-Os cabeçalhos de elementos visuais podem ser configurados para revelar descrições de página para cabeçalhos de elementos visuais. Pode adicionar conteúdos de ajuda a uma descrição de página ao utilizar caixas de texto com formatação avançada. Também é possível adicionar imagens e formas.
+Os cabeçalhos de elementos visuais podem ser configurados para revelar descrições de página para cabeçalhos de elementos visuais. Pode adicionar documentação de ajuda a uma descrição de página ao utilizar caixas de texto com formatação avançada. Também é possível adicionar imagens e formas.
 
 Curiosamente, os botões, imagens, caixas de texto e formas também podem revelar uma descrição de página de cabeçalho de elemento visual.
 
-O seguinte exemplo mostra o que acontece quando o utilizador do relatório paira o cursor sobre o valor do cabeçalho do elemento visual.
+O seguinte exemplo mostra o que acontece quando o utilizador do relatório paira o cursor sobre o [ícone do cabeçalho do elemento visual](../desktop-visual-elements-for-reports.md).
 
 ![Um utilizador do relatório pairou o cursor sobre o ícone do cabeçalho do elemento visual (ícone de ponto de interrogação). Foi apresentada uma descrição de formatação avançada.](media/report-page-tooltips/suggestion-add-help.png)
 
-É revelada uma descrição de página. Apresenta texto com formatação avançada que descreve as medidas apresentadas pelo elemento visual. A descrição também inclui uma forma (linha).
+É revelada uma descrição de página. Apresenta texto com formatação avançada em quatro caixas de texto e uma forma (linha). A descrição da página ajuda ao descrever cada acrónimo apresentado no elemento visual.
 
 ## <a name="recommendations"></a>Recomendações
 
@@ -87,5 +87,6 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 
 - [Criar descrições com base em páginas de relatório no Power BI Desktop](../desktop-tooltips.md)
 - [Personalizar descrições no Power BI Desktop](../desktop-custom-tooltips.md)
+- [Utilizar elementos visuais para melhorar relatórios do Power BI](../desktop-visual-elements-for-reports.md)
 - Vídeo "Guy in a cube": [Descrição de página de relatório do Power BI – Como criar uma no Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

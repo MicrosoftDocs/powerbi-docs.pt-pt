@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002541"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223670"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>Submeter um elemento visual do Power BI no AppSource com o Dashboard de Vendedor
 
@@ -103,7 +103,7 @@ Siga as instruções nesta secção para enviar um elemento visual do Power BI 
     * [Cumprir os requisitos](power-bi-custom-visuals-certified.md#certification-requirements)
     * Passar na análise de código
 
-2. A equipa dos elementos visuais do Power BI da Microsoft vai enviar-lhe uma notificação a informar que o elemento visual do Power BI foi certificado e adicionado à [lista de certificados](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified) ou que foi rejeitado. No segundo caso, será enviado um relatório dos problemas a corrigir. O programador é responsável por manter a comunicação aberta com a Microsoft e atualizar os seus elementos visuais certificados consoante necessário.
+2. A equipa dos elementos visuais do Power BI da Microsoft vai enviar-lhe uma notificação a informar que o elemento visual do Power BI foi certificado e adicionado à [lista de elementos visuais do Power BI certificados](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) ou que foi rejeitado. No segundo caso, será enviado um relatório dos problemas a corrigir. O programador é responsável por manter a comunicação aberta com a Microsoft e atualizar os seus elementos visuais certificados consoante necessário.
 
 ## <a name="tracking-submission-status-and-usage"></a>Controlar o estado da submissão e a utilização
 

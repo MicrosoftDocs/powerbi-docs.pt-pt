@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879998"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223603"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
 Com os **Temas de Relatório**, pode aplicar alterações de conceção a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
@@ -23,16 +23,16 @@ Com os **Temas de Relatório**, pode aplicar alterações de conceção a todo o
 
 Quando aplica um **Tema de Relatório** personalizado, precisa de um ficheiro JSON que utilize uma estrutura básica. Em seguida, pode importar este ficheiro JSON para o Power BI Desktop e aplicá-lo ao relatório.
 
-Também pode personalizar e padronizar quase todos os elementos vistos no painel **Formatação** através do ficheiro JSON de temas. O objetivo é fornecer o controlo total sobre o aspeto e a funcionalidade dos seus relatórios, a um nível granular.
+Também pode personalizar e padronizar praticamente todos os elementos vistos no painel **Formatação**, quer através de personalizações feitas diretamente no Power BI Desktop, quer através do ficheiro JSON do tema. O objetivo é fornecer o controlo total sobre o aspeto e a funcionalidade dos seus relatórios, a um nível granular.
 
 ## <a name="how-report-themes-work"></a>Como funcionam os Temas de Relatório
-Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione numa lista de temas de relatório incorporados disponíveis ou importe um tema personalizado.
+Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione numa lista de temas de relatório incorporados disponíveis ou crie ou importe um tema personalizado.
 
 | Tema dos relatórios incorporados | Sequência de cores predefinidas    |
 |------ |---------- |
 | Predefinição   | ![predefinição](media/desktop-report-themes/report-themes-color-scheme-default.png)|
 | Highrise  | ![highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Executive     | ![executivo](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Executivo     | ![executivo](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
 | Frontier  | ![fronteira](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
 | Inovador    | ![inovador](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
 | Em flor     | ![em flor](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
@@ -70,7 +70,48 @@ Quando o ficheiro de tema tiver sido carregado com êxito, o Power BI Desktop i
 
 ![Tema importado com êxito](media/desktop-report-themes/report-themes_5.png)
 
-Agora que já importámos um ficheiro de temas, vamos observar a estrutura do ficheiro JSON.
+Há duas formas de personalizar temas no Power BI Desktop. Vejamos uma de cada vez.
+
+
+## <a name="customize-report-themes-preview"></a>Personalizar temas de relatório (pré-visualização)
+
+A partir do lançamento de dezembro de 2019 do **Power BI Desktop**, há agora duas formas de personalizar um tema de relatório:
+
+* Criar e personalizar um tema no Power BI Desktop (pré-visualização)
+* Criar e personalizar um ficheiro JSON do Tema de Relatório personalizado
+
+Para personalizar um tema diretamente no Power BI Desktop, tem de começar por selecionar **Ficheiro> Opções e definições > Opções** e, em seguida, na secção **Funcionalidades de pré-visualização**, selecionar a caixa junto a **Personalizar tema atual**, como mostra a imagem seguinte.
+
+![Ativar temas personalizados](media/desktop-report-themes/report-themes_5a.png)
+
+Poderá ser-lhe pedido para reiniciar o Power BI Desktop para a funcionalidade de pré-visualização ser ativada.
+
+Depois de reiniciar, pode começar a personalizar o tema atual ao selecionar o friso **Base** e, em seguida, selecionar **Mudar tema > Personalizar tema atual** a partir do friso. É apresentada uma caixa de diálogo, que mostra as várias formas de personalizar um tema existente.
+
+![Personalizar o tema](media/desktop-report-themes/report-themes_5b.png)
+
+Se gostar de um tema existente e quiser fazer alguns ajustes, pode selecionar um tema existente e depois selecionar **Personalizar tema atual** na caixa de diálogo, como mostra a imagem seguinte. 
+
+![Personalizar o tema atual](media/desktop-report-themes/report-themes_5c.png)
+
+> [!NOTE]
+> A imagem anterior foi capturada com o novo friso ativado, que está atualmente em pré-visualização. Pode ativar a pré-visualização do novo friso ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, na secção **Funcionalidades de pré-visualização**, selecionar **Pré-visualização do friso novo**.
+
+As definições de temas que podem ser personalizadas encontram-se nas seguintes categorias, apresentadas na caixa de diálogo de personalização de temas:
+
+* Nome do tema (pode atribuir um nome ao tema que está a personalizar) e várias definições de cores (cores do tema, cores dos sentimentos, cores divergentes e mais)
+* Definições de texto, incluindo família do tipo de letra, tamanho e cor, bem como títulos de eixos, cores, cartões e KPIs e cabeçalhos de separadores
+* Os elementos visuais, tais como o fundo, o limite, o cabeçalho e as descrições
+* Elementos da página, como o padrão de fundo e o fundo
+* Definições do painel de filtro, incluindo cor de fundo, transparência, cor do tipo de letra e do ícone, tamanho, cartões de filtro e mais
+
+Depois de fazer as suas alterações e selecionar o botão **Aplicar e guardar**, o seu tema será guardado e poderá então ser utilizado no relatório atual. Além disso, também poderá ser exportado. 
+
+Personalizar o tema atual desta forma pode acelerar e facilitar o trabalho visual de personalização de temas. No entanto, existem alguns ajustes finitos aos temas que requerem a modificação do ficheiro JSON do tema, tal como descrito na secção seguinte.
+
+> [!TIP]
+> Pode personalizar a maioria dos elementos temáticos através dos elementos visuais com a caixa de diálogo **Personalizar tema atual** e, em seguida, pode exportar o ficheiro JSON e fazer ajustes otimizados manualmente (ao modificar o próprio ficheiro JSON). Assim, poderá mudar o nome desse ficheiro JSON otimizado, importá-lo e fazer todos os ajustes que pretender.
+
 
 ## <a name="structure-of-a-report-theme-json-file"></a>Estrutura de um ficheiro JSON de Tema de Relatório
  Quando aberto num editor, o ficheiro JSON básico selecionado na secção anterior (o ficheiro *St Patricks Day.json*) é semelhante à seguinte captura de ecrã:
@@ -398,7 +439,7 @@ As tabelas nesta secção definem os nomes dos elementos visuais (*visualName*),
 | slicer |
 | stackedAreaChart |
 | tableEx |
-| mapa de árvore |
+| treemap |
 | waterfallChart |
 
 A tabela seguinte define os valores de *cardName*. O primeiro valor em cada célula é o termo do ficheiro JSON. O segundo valor é o nome do cartão, conforme mostrado na interface de utilizador do **Power BI Desktop**.

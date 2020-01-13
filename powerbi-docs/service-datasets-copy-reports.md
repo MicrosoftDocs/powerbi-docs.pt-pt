@@ -1,6 +1,6 @@
 ---
 title: Copiar relatórios de outras áreas de trabalho (Pré-visualização) – Power BI
-description: Aprenda a partilhar um conjunto de dados com utilizadores na organização. Em seguida, estes poderão criar relatórios com base no seu conjunto de dados nas suas próprias áreas de trabalho.
+description: Saiba como partilhar um conjunto de dados com vários utilizadores na organização. Em seguida, estes poderão compilar relatórios com base no seu conjunto de dados nas suas próprias áreas de trabalho.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881928"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223841"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiar relatórios de outras áreas de trabalho (Pré-visualização)
 
@@ -37,7 +37,7 @@ Quando encontrar um relatório do seu agrado numa área de trabalho ou numa apli
 
     ![Caixa de diálogo Guardar uma cópia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    Pode guardar o relatório na área de trabalho atual ou numa diferente, no serviço Power BI. Só serão apresentadas novas experiências de áreas de trabalho das quais é membro.
+    A área de trabalho em que pode guardar depende de onde está a copiar. Ao copiar de uma área de trabalho, pode guardar o relatório na área de trabalho atual ou numa diferente, no serviço Power BI. Só serão apresentadas novas experiências de áreas de trabalho das quais é membro. Ao copiar de uma aplicação, pode guardar o relatório em A minha área de trabalho.
   
 4. Selecione **Guardar**.
 

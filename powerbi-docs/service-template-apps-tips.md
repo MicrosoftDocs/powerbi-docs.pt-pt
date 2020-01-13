@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099743"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622442"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugestões para criar aplicações de modelo no Power BI
 
@@ -131,13 +131,13 @@ As aplicações de modelo suportam aplicações apenas de dados de exemplo, por 
 * Confirme que segue a documentação sobre [oferta de Aplicações do Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
 * Caso um dashboard faça parte da sua aplicação, confirme que não está vazio.
 * Instale a aplicação através da respetiva ligação antes de a enviar, confirme que pode ligar o conjunto de dados e verifique se a experiência da aplicação é aquela que esperava.
-* Antes de carregar o pbix para a área de trabalho de modelo, confirme que descarrega todas as ligações desnecessárias.
+* Antes de carregar o pbix para a área de trabalho de modelo, certifique-se de que descarrega todas as ligações desnecessárias.
 * Siga as [Melhores práticas de design para relatórios e elementos visuais](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) do Power BI para conseguir o máximo impacto sobre os seus utilizadores e obter aprovação para distribuição.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 
-| Feature | Limitação Conhecida |
+| Funcionalidade | Limitação Conhecida |
 |---------|---------|
 |Conteúdos:  Conjuntos de Dados   | Deve estar presente exatamente um conjunto de dados. Só são permitidos conjuntos de dados criados no Power BI Desktop (ficheiros .pbix). <br>Não suportado: conjuntos de dados de outras aplicações de exemplo, conjuntos de dados de várias áreas de trabalho, relatórios paginados (ficheiros .rdl) e livros do Excel |
 |Conteúdos: Dashboards | Não são permitidos mosaicos em tempo real (ou seja, não existe suporte para conjuntos de dados de emissão ou transmissão em fluxo) |

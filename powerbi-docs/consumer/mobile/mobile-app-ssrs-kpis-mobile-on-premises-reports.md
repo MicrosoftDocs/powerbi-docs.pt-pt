@@ -1,19 +1,19 @@
 ---
 title: Visualizar relatórios locais e KPIs nas aplicações móveis do Power BI
 description: As aplicações móveis do Power BI disponibilizam um acesso móvel, dinâmico e tátil às suas informações comerciais no local no SQL Server Reporting Services e no Power BI Report Server.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879455"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220135"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Ver KPIs e relatórios no local do servidor de relatórios nas aplicações móveis do Power BI
 
@@ -40,8 +40,9 @@ Depois, nas aplicações móveis do Power BI, ligue até cinco servidores de rel
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>Explore exemplos nas aplicações móveis sem uma ligação ao servidor
 Mesmo que não tenha acesso a um portal Web do Reporting Services, ainda pode explorar as funcionalidades dos KPIs e relatórios móveis do Reporting Services. 
 
-1. Toque no botão de navegação global ![Botão de navegação global](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) no canto superior esquerdo e, em seguida, toque no ícone da engrenagem no canto superior direito ![Ícone de engrenagem](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
-2. Toque em **Exemplos do Reporting Services** e, em seguida, navegue para interagir com os relatórios móveis e KPIs de exemplo.
+1. Toque na sua imagem do perfil que se encontra no canto superior esquerdo e, em seguida, toque em **Definições** no painel de contas que surge.
+
+2. Na página de definições que é aberta, toque em **Exemplos do Reporting Services** e, em seguida, navegue para interagir com os relatórios móveis e KPIs de exemplo.
    
    ![Amostras do Reporting Services](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,36 +54,35 @@ Pode ver relatórios do Power BI no local, relatórios móveis do Reporting Serv
    
    ![Iniciar sessão num servidor de relatórios](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Se já iniciou sessão na aplicação Power BI, toque no botão de navegação global ![Botão de navegação global](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)e, em seguida, toque no ícone da engrenagem ![Ícone de engrenagem](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) no canto superior direito.
-3. Toque em **Ligar ao servidor**.
+   Se já tiver iniciado sessão na aplicação do Power BI, toque na sua imagem do perfil que se encontra no canto superior esquerdo e, em seguida, toque em **Definições** no painel de contas que surge.
+3. Na página das definições que é aberta, toque em **Ligar ao servidor**.
    
     ![Ligar ao servidor](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     A aplicação móvel precisa de aceder ao servidor de alguma forma. Existem algumas formas de fazê-lo:
+    A aplicação móvel precisa de aceder ao servidor de alguma forma. Existem algumas formas de fazê-lo:
+     * Estar na mesma rede ou utilizar a VPN é a forma mais fácil.
+     * É possível utilizar um Proxy de Aplicações Web para se ligar de fora da organização. Veja [Using OAuth to connect to Reporting Services (Utilizar o OAuth para se ligar ao Reporting Services)](mobile-oauth-ssrs.md) para obter detalhes.
+     * Abra uma ligação (porta) na firewall.
 
-    - Estar na mesma rede ou utilizar a VPN é a forma mais fácil.
-    - É possível utilizar um Proxy de Aplicações Web para se ligar de fora da organização. Veja [Using OAuth to connect to Reporting Services (Utilizar o OAuth para se ligar ao Reporting Services)](mobile-oauth-ssrs.md) para obter detalhes. 
-    - Abra uma ligação (porta) na firewall.
-
-1. Preencha o endereço do servidor e o seu nome de utilizador e palavra-passe. Utilize este formato para o endereço do servidor:
+4. Preencha o endereço do servidor e, se quiser, atribua um nome amigável ao servidor. Utilize este formato para o endereço do servidor:
    
      `https://<servername>/reports`
    
-     OR
+     OU
    
      `https://<servername>/reports`
    
    Inclua **http** ou **https** antes da cadeia de ligação.
    
     ![Caixa de diálogo Ligar ao servidor](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (Opcional) Em **Opções avançadas**, pode dar ao servidor um nome familiar, se pretender.
-6. Agora, vê o servidor no painel de navegação (neste exemplo, intitulado "power bi report server").
+5. Depois de escrever o endereço e o nome amigável opcional do servidor, toque em **Ligar** e preencha o seu nome de utilizador e palavra-passe quando lhe for pedido.
+6. Agora, verá o servidor no painel "Contas" (neste exemplo, chama-se "Work server").
    
    ![Servidor de relatórios no painel de navegação](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Ligar a um servidor de relatórios no local no iOS
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>Ligar a um servidor de relatórios no local no iOS ou Android
 
-Se estiver a ver o Power BI na aplicação móvel para iOS, o seu administrador de TI poderá ter definido uma política de configuração da aplicação. Se for o caso, a sua experiência de ligação ao servidor de relatórios é simplificada, pelo que não terá de fornecer tantas informações quando se ligar a um servidor de relatórios. 
+Se estiver a ver o Power BI na aplicação móvel para iOS ou Android, o seu administrador de TI poderá ter definido uma política de configuração da aplicação. Se for o caso, a sua experiência de ligação ao servidor de relatórios é simplificada, pelo que não terá de fornecer tantas informações quando se ligar a um servidor de relatórios. 
 
 1. Verá uma mensagem a informar que a sua aplicação móvel está configurada com um servidor de relatórios. Toque em **Iniciar sessão**.
 
@@ -117,7 +117,7 @@ Os relatórios do Power BI, relatórios móveis do Reporting Services e KPIs sã
 ## <a name="view-your-favorite-kpis-and-reports"></a>Ver os seus KPIs e relatórios favoritos
 Pode marcar KPIs e relatórios como favoritos no portal Web e, em seguida, vê-los numa pasta conveniente no seu dispositivo móvel, juntamente com os seus dashboards favoritos do Power BI.
 
-* Toque em **Favoritos**.
+* Toque em **Favoritos** na barra de navegação.
   
    ![Favoritos no painel de navegação](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,8 +126,8 @@ Pode marcar KPIs e relatórios como favoritos no portal Web e, em seguida, vê-l
    ![Dashboard e relatórios do Power BI na página Favoritos](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Remover uma ligação para um servidor de relatório
-1. Na parte inferior do painel de navegação, toque em **Definições**.
-2. Toque no nome do servidor ao qual não deseja estar ligado.
+1. Abra o painel de contas e toque em **Definições**.
+2. Toque no nome do servidor ao qual não quer estar ligado.
 3. Toque em **Remover Servidor**.
 
 ## <a name="next-steps"></a>Próximos passos

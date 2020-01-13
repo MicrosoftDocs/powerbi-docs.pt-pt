@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870651"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218384"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Ver dashboards e relatórios nas aplicações móveis do Power BI
 Aplica-se a:
@@ -131,7 +131,7 @@ Pode utilizar o gesto de beliscar para ampliar e reduzir áreas diferentes do se
    
    ![Página inicial do dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
-   * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram os dashboards favoritos. 
+   * As estrelas amarelas ![Estrela favorita](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostra os dashboards favoritos. 
    * A notação abaixo de cada nome de dashboard (neste caso, "MBI") ![Classificação de dados](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
 3. Enquanto estiver no dashboard, pode tocar no botão vertical (...) **Mais opções** junto ao nome para convidar um colega, atualizar ou obter informações sobre o dashboard:
    
@@ -152,7 +152,7 @@ Se for o proprietário do dashboard, no serviço Power BI, pode *criar uma vista
 
 Leia mais sobre como [criar uma vista de telemóvel de um dashboard](../../service-create-dashboard-mobile-phone-view.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Transferir a aplicação Android](https://go.microsoft.com/fwlink/?LinkID=544867) do Google Play  
 * [Introdução à aplicação Android para o Power BI](mobile-android-app-get-started.md)  
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)

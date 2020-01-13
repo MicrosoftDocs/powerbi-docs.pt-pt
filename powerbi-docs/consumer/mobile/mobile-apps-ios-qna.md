@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879385"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219588"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual Perguntas e Respostas em aplicações iOS – Power BI
 
@@ -33,63 +33,26 @@ Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuit
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-### <a name="install-the-power-bi-for-ios-app"></a>Instalar a aplicação Power BI para iOS
-[Transfira a aplicação para iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Transferir a aplicação para iPhone") para o seu iPad, iPhone ou iPod Touch a partir da Apple App Store.
-
+* **Instalar a aplicação Power BI para iOS**: [Transfira a aplicação para iOS](https://go.microsoft.com/fwlink/?LinkId=522062) para o seu iPhone ou iPad.
 Estas versões suportam a aplicação Power BI para iOS:
-- iPad com o iOS 10 ou posterior.
-- iPhone 5 e superior com o iOS 10 ou posterior. 
-- iPod Touch com o iOS 10 ou posterior.
+    * iPad com o iOS 11 ou posterior.
+    * iPhone 5 e superior com o iOS 11 ou posterior.
+* **Transfira os Exemplos de Análise de Revenda e de Análise de Oportunidade**: Neste início rápido, o primeiro passo é transferir os exemplos de Análise de Revenda e Análise de Oportunidade no serviço Power BI. [Saiba como transferir um exemplo](./mobile-apps-download-samples.md) para a sua conta do Power BI para começar. Certifique-se de que escolhe o Exemplo de Análise de Revenda e o Exemplo de Análise de Oportunidade.
 
-### <a name="download-samples"></a>Exemplos de transferências
-O primeiro passo é transferir os exemplos Análise de Retalho e Análise de Oportunidades no serviço Power BI.
-
-**Obter o exemplo de Análise de Revenda**
-
-1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
-
-2. No painel de navegação, selecione **Áreas de trabalho**, **A Minha Área de Trabalho**.
-
-3. No canto inferior esquerdo, selecione **Obter Dados**.
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. Na página Obter Dados, selecione o ícone **Exemplos**.
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Selecione o **Exemplo de Análise de Revenda**.
- 
-    ![Exemplo de Análise de Revenda](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. Selecione **Ligar**.  
-  
-   ![Exemplo de Análise de Revenda](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. O Power BI importa o pacote de conteúdos e adiciona um novo dashboard, relatório e conjunto de dados para a sua área de trabalho atual.
-   
-   ![Exemplo de Análise de Revenda](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**Obter o exemplo de Análise de Oportunidade**
-
-- Percorra os mesmos passos que seguiu para o exemplo de Análise de Revenda mas, no Passo 4, selecione o **exemplo de Análise de Oportunidade**.
-
-    ![Exemplo de Análise de Revenda](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-OK, está pronto para ver os exemplos no seu dispositivo iOS.
+Depois de concluir os pré-requisitos, estará pronto para experimentar o Analista virtual Perguntas e Respostas.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Experimentar perguntar no iPhone ou iPad
-1. No seu iPhone ou iPad, toque no botão de navegação global ![Botão de navegação global](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Áreas de trabalho** > **A Minha Área de Trabalho** e abra o dashboard Exemplo de Análise de Revenda.
+1. Na parte inferior da barra de navegação do iPhone ou iPad, toque no botão Áreas de Trabalho ![botão áreas de trabalho](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png), aceda a A Minha Área de Trabalho e abra o dashboard do Exemplo de Análise de Revenda.
 
 2. Toque no ícone do analista virtual ![ícone de analista virtual Perguntas e Respostas](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) no menu de ação na parte inferior da página (na parte superior da página num iPad).
      O analista virtual Perguntas e Respostas tem algumas sugestões para começar.
-3. Escreva **mostrar**, toque em **vendas** na lista de sugestões > **Enviar** ![Ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+3. Escreva **show**, toque em **sales** na lista de sugestões > **Enviar** ![Ícone Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Mostrar vendas](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Toque em **por** nas palavras-chave e, em seguida, toque em **item** na lista de sugestões > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+4. Toque em **by** nas palavras-chave e, em seguida, toque em **item** na lista de sugestões > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Vendas por item](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Toque em **como** nas palavras-chave, toque no ícone de gráfico de colunas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) e, em seguida, toque em **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Toque em **as** nas palavras-chave, toque no ícone de gráfico de colunas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) e, em seguida, toque em **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Mantenha pressionado o gráfico resultante e, em seguida, toque em **Expandir**.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,13 +62,13 @@ OK, está pronto para ver os exemplos no seu dispositivo iOS.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Toque na seta no canto superior esquerdo para voltar à janela de chat do analista virtual Perguntas e Respostas.
 8. Toque no X à direita da caixa de texto para eliminar o texto e começar de novo.
-9. Experimente uma nova pergunta: toque em **maior** nas palavras-chave, toque em **venda por méd. $/unidade AP** > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Experimente uma nova pergunta: toque em **top** nas palavras-chave, toque em **sale by avg $/unit ly** > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. Selecione **por** nas palavras-chave, toque em **hora** na lista de sugestões na parte superior > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+10. Selecione **by** nas palavras-chave, toque em **time** na lista de sugestões na parte superior > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
      ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Escreva **como**, escolha o ícone do gráfico de linhas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) na lista de sugestões > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+11. Escreva **as**, selecione o ícone do gráfico de linhas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) na lista de sugestões > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
@@ -117,7 +80,7 @@ Agora, pode fazer perguntas sobre os seus dados na aplicação móvel do Power B
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Quando o ícone do microfone estiver ativo, comece a falar. Por exemplo, diga "preço médio de unidade por tempo" e, em seguida, toque em **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+1. Quando o ícone do microfone estiver ativo, comece a falar. Por exemplo, diga "average unit price by time" e, em seguida, toque em **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
@@ -141,6 +104,6 @@ Pode melhorar os resultados que o utilizador e os seus clientes obtêm quando es
 ### <a name="how-to-enhance-the-dataset"></a>Como melhorar o conjunto de dados
 * Melhore o conjunto de dados no Power BI Desktop ou no serviço Power BI para [fazer com que os seus dados funcionem bem com as Perguntas e Respostas e o analista virtual Perguntas e Respostas](../../service-prepare-data-for-q-and-a.md).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 * [Perguntas e Respostas no serviço Power BI](../end-user-q-and-a.md)
 * Perguntas? Consulte a [secção sobre aplicações móveis da Comunidade do Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

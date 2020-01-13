@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 23d66994e88204f56ee937a4f7887225e48a5e2f
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876415"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304260"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Ligar ao Snowflake no Power BI Desktop
 No Power BI Desktop, pode ligar a um armazém de informática de **Snowflake** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop. 
@@ -42,13 +42,18 @@ Quando lhe for pedido, introduza o seu nome de utilizador e a palavra-passe.
 > 
 > 
 
+Se quiser utilizar a opção Conta Microsoft, peça ao administrador do Snowflake para entrar em contacto com o Snowflake sobre a adesão à Pré-visualização Privada desta funcionalidade.
+
+![Tipo de autenticação da conta Microsoft no conector Snowflake.](media/desktop-connect-snowflake/connect-snowflake-6.png)
+
+
 Depois de a ligação ser concluída com êxito, é apresentada uma janela **Navegador**, que apresenta os dados disponíveis no servidor, dos quais pode selecionar um ou vários elementos para importar e utilizar no **Power BI Desktop**.
 
-![](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![Erro ODBC 28000 faz com que ocorra uma falha ao ligar.](media/desktop-connect-snowflake/connect_snowflake_5.png)
 
 Pode **Carregar** a tabela selecionada, que traz toda a tabela para o **Power BI Desktop**, ou pode **Editar** a consulta, que abre o **Editor de Consultas**, para poder filtrar e refinar o conjunto de dados que pretende utilizar, e carregar o conjunto de dados refinados para o **Power BI Desktop**.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

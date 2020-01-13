@@ -1,22 +1,22 @@
 ---
 title: 'Início Rápido: Explorar dashboards e relatórios nas aplicações móveis'
 description: Neste manual de início rápido, o utilizador explora um dashboard e um relatório de exemplo nas aplicações móveis do Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
-ms.date: 04/18/2019
-ms.author: mshenhav
-ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/25/2019
+ms.author: painbar
+ms.openlocfilehash: 8703bfa60116b7e60f1e6bec931b0f6183f7dd31
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879262"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75218575"
 ---
-# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: Explorar dashboards e relatórios nas aplicações móveis do Power BI
-Neste manual de início rápido, pode explorar um dashboard e um relatório de exemplo na aplicação móvel do Power BI num telemóvel Android. Também pode acompanhar o processo noutras aplicações móveis. 
+# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Quickstart: Explorar dashboards e relatórios nas aplicações móveis do Power BI
+Neste início rápido, pode fazer uma visita guiada rápida da aplicação Power BI Mobile e explorar um relatório e dashboard de exemplo. É apresentada a aplicação Power BI para iOS, mas pode facilmente acompanhar noutros dispositivos.
 
 Aplica-se a:
 
@@ -24,132 +24,90 @@ Aplica-se a:
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
-Os dashboards são um portal para o ciclo de vida e processos de sua empresa. Um dashboard é uma descrição geral, um único lugar para monitorizar o estado atual do negócio. Os relatórios são uma vista interativa dos seus dados, com visuais que representam diferentes descobertas e informações obtidas por meio desses dados. 
+O dashboard é um portal para o ciclo de vida e os processos da sua empresa. É uma vista geral, um único local para monitorizar o estado atual da empresa. Os relatórios são vistas interativas dos seus dados, com elementos visuais que representam diferentes descobertas e informações obtidas através desses dados. 
 
 ![Relatório no modo horizontal](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-### <a name="sign-up-for-power-bi"></a>Inscrever-se no Power BI
-Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
+* **Inscrever-se no Power BI**: Se não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
+* **Instalar a aplicação Power BI no seu dispositivo**: transfira a aplicação móvel Power BI** a partir da [App Store](https://apps.apple.com/app/microsoft-power-bi/id929738808) (iOS) ou [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409) (Android).
+* **Transferir o Exemplo de Análise de Revenda**: o primeiro passo deste início rápido é transferir o Exemplo de Análise de Revenda no serviço do Power BI. [Saiba como transferir um exemplo](./mobile-apps-download-samples.md) para a sua conta do Power BI para começar. Certifique-se de que seleciona o Exemplo de Análise de Revenda.
 
-### <a name="install-the-power-bi-for-android-app"></a>Instalar a aplicação Power BI para Android
-[Transfira a aplicação do Power BI para Android](https://go.microsoft.com/fwlink/?LinkID=544867) no Google Play.
+Depois de concluir os pré-requisitos e transferir o Exemplo de Análise de Revenda para a sua conta do Power BI, estará pronto para começar esta visita guiada rápida.
 
-O Power BI funciona em dispositivos Android com o sistema operativo Android 5.0 ou posterior. Para verificar o seu dispositivo, aceda a **Definições** > **Acerca do dispositivo** > **Versão do Android**.
-
-### <a name="download-the-retail-analysis-sample"></a>Transferir o exemplo de Análise de Revenda
-O primeiro passo deste manual de início rápido é transferir o exemplo de Análise de Retalho no serviço do Power BI.
-
-1. Abra o serviço Power BI no seu browser (app.powerbi.com) e inicie sessão.
-
-1. Selecione o ícone de navegação global para abrir o painel de navegação.
-
-    ![ícone de navegação global](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
-
-2. No painel de navegação, selecione **Áreas de trabalho** > **A Minha Área de Trabalho**.
-
-    ![A Minha Área de Trabalho](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
-
-3. No canto inferior esquerdo, selecione **Obter Dados**.
-   
-    ![Obter Dados](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
-
-3. Na página Obter Dados, selecione o ícone **Exemplos**.
-   
-   ![Ícone Exemplos](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-samples-icon.png)
-
-4. Selecione o **exemplo de Análise de Revenda**.
+## <a name="view-a-dashboard-on-your-mobile-device"></a>Ver um dashboard no seu dispositivo móvel
+1. No seu dispositivo, abra a aplicação Power BI e inicie sessão com as credenciais da sua conta do Power BI, as mesmas que utilizou no serviço Power BI no browser.
  
-    ![Exemplo de Análise de Revenda](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
- 
-8. Selecione **Ligar**.  
-  
-   ![Exemplo de Análise de Revenda – Ligar](./media/mobile-apps-quickstart-view-dashboard-report/retail16.png)
+1. Agora, toque no ícone **Áreas de trabalho** ![ícone áreas de trabalho](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png), selecione **As Minhas Áreas de Trabalho** e, em seguida, toque no Exemplo de Análise de Revenda para abri-lo.
+
+    ![Dashboards em A Minha Área de Trabalho](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
-5. O Power BI importa o exemplo e adiciona um novo dashboard, relatório e conjunto de dados a A Minha Área de Trabalho do utilizador.
-   
-   ![Dashboard de Exemplo de Análise de Revenda](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-service-opportunity-sample.png)
+    Os dashboards do Power BI têm um aspeto diferente no seu dispositivo móvel relativamente ao que têm no serviço Power BI. Todos os mosaicos são apresentados com a mesma largura e são dispostos um após o outro, de cima para baixo.
 
-OK, está pronto para ver o exemplo no seu dispositivo Android.
+5. Toque no ícone de estrela ![ícone da estrela de Favoritos](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) na barra de ferramentas na parte inferior para adicionar este dashboard aos favoritos. Ao adicionar um favorito na aplicação móvel, este torna-se um favorito no serviço Power BI e vice-versa.
 
-## <a name="view-a-dashboard-on-your-android-device"></a>Visualizar um dashboard no seu dispositivo Android
-1. No seu dispositivo Android, abra a aplicação Power BI e inicie sessão com as credenciais da sua conta do Power BI, as mesmas que utilizou no serviço Power BI no browser.
-
-1.  Toque no botão de navegação global ![Botão de navegação global](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-global-nav-button.png).
-
-2.  Toque em **Áreas de Trabalho** > **A Minha Área de Trabalho**
-
-    ![A Minha Área de Trabalho](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-workspaces.png)
-
-3. Toque no dashboard do Exemplo de Análise de Revenda para o abrir.
- 
-    ![Dashboards em A Minha Área de Trabalho](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-open-retail.png)
-   
-    Uma notação abaixo do nome do dashboard (neste caso, a letra "C") mostra como os dados são classificados em cada dashboard. Leia mais sobre a [classificação de dados no Power BI](../../service-data-classification.md).
-
-    Os dashboards do Power BI parecem um pouco diferentes no seu telemóvel Android. Todos os mosaicos são apresentados com a mesma largura e são dispostos um após o outro, de cima para baixo.
-
-4. Toque no ícone de estrela ![ícone da estrela de Favoritos](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) na barra de título para adicionar este dashboard aos favoritos.
-
-    Ao adicionar um favorito na aplicação móvel, este torna-se um favorito no serviço Power BI e vice-versa.
-
-4. Desloque para baixo e toque no gráfico de linhas preenchido “Vendas deste Ano, Vendas do Ano Passado”.
+6. Desloque para baixo e toque no gráfico de linhas preenchido “Vendas deste Ano, Vendas do Ano Passado”.
 
     ![Toque num mosaico para aceder ao modo de detalhe](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-tile-fave.png)
 
     Abre-se no modo de detalhe.
 
-7. No modo de detalhe, toque em Abr no gráfico. São apresentados os valores de Abril na parte superior do gráfico.
+7. No modo de detalhe, toque em **Abr** no gráfico. Os valores de abril são apresentados na parte superior do gráfico.
 
     ![Mosaico no modo de detalhe](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
-8. Toque no ícone Relatório ![ícone Relatório](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) no canto superior direito. O relatório relacionado com este mosaico abre-se no modo horizontal.
+8. Toque no ícone Relatório ![ícone Relatório](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) na parte inferior do ecrã (em dispositivos Android, este ícone poderá estar na parte superior do ecrã). O relatório relacionado com este mosaico abre-se no modo horizontal.
 
     ![Relatório no modo horizontal](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 
-9. Toque na bolha amarela “040 – Juniors” no gráfico de bolhas. Consegue ver como realça os valores relacionados nos outros gráficos? 
+9. Toque na bolha amarela “040 – Juniors” no gráfico de bolhas. Observe como realça os valores relacionados nos outros gráficos. 
 
     ![Realçar valores num relatório](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-cross-highlight.png)
 
-10. Percorra para cima para ver a barra de ferramentas na parte inferior e toque no ícone de lápis.
+10. Percorra para cima para ver uma barra de ferramentas na parte inferior e toque em **Mais opções (…)** .
 
     ![Tocar no lápis](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
-11. Toque no ícone da cara sorridente na barra de ferramentas Anotar e adicione algumas caras sorridentes à sua página de relatório.
+
+11. Desloque-se para baixo na lista e selecione **Anotar**.
+
+    ![Tocar no lápis](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil2.png)
+
+12. Na barra de ferramentas Anotar, toque no ícone de cara sorridente e, em seguida, toque na página de relatório em que gostaria de adicionar algumas caras sorridentes.
  
     ![Anotar a página](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-annotate.png)
 
-12. Toque em **Partilhar** no canto superior direito.
+13. Agora, toque em **Partilhar** no canto superior direito.
 
-1. Preencha os endereços de e-mail deles e adicione uma mensagem, se quiser.  
+14. Escolha de que forma quer partilhar o relatório.  
 
     ![Nova mensagem de e-mail com instantâneo e ligação](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-send-snapshot.png)
 
-    Pode partilhar este instantâneo com qualquer pessoa, dentro ou fora da sua organização. Se essa pessoa estiver na sua organização e tiver a sua própria conta do Power BI, também vai conseguir abrir o relatório de exemplo de Análise de Revenda.
+    Pode partilhar este instantâneo com qualquer pessoa, dentro ou fora da sua organização. Se essa pessoa estiver na sua organização e tiver a sua própria conta do Power BI, também conseguirá abrir o relatório de Exemplo de Análise de Revenda.
 
 ## <a name="clean-up-resources"></a>Limpar recursos
 
 Depois de concluir este manual de início rápido, se desejar, pode eliminar o dashboard, o relatório e o conjunto de dados de exemplo da Análise de Revenda.
 
-1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
+1. Abra o serviço Power BI ([serviço Power BI](https://app.powerbi.com)) e inicie sessão.
 
-2. No painel de navegação, selecione **Áreas de trabalho** > **A Minha Área de Trabalho**.
+2. Na barra de navegação, selecione **A Minha Área de Trabalho**.
 
-    Reparou na estrela amarela a indicar que é um favorito?
-
-3. No separador **Dashboards**, selecione o ícone **Eliminar** de caixote do lixo junto ao dashboard Análise de Revenda.
+3. Selecione o separador Dashboards e, em seguida, clique no ícone de caixote do lixo.
 
     ![Selecionar o ícone Eliminar](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail.png)
 
-4. Selecione o separador **Relatórios** e faça o mesmo para o relatório de Análise de Revenda.
+    Agora, clique no separador Relatórios e repita o procedimento.
 
-5. Selecione o separador **Conjuntos de Dados** e faça o mesmo para o conjunto de dados (Análise de Revenda).
+4. Depois, selecione o separador Conjuntos de dados, clique em **Mais opções** (...) e selecione **Eliminar**. 
 
+
+    ![Selecionar Eliminar conjuntos de dados](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail-datasets.png)
 
 ## <a name="next-steps"></a>Próximos passos
 
-Neste manual de início rápido, o utilizador explorou um dashboard e um relatório de exemplo no seu dispositivo Android. Leia mais sobre como trabalhar no serviço Power BI. 
+Neste início rápido, explorou um dashboard e um relatório de exemplo no seu dispositivo móvel. Leia mais sobre como trabalhar no serviço Power BI. 
 
 > [!div class="nextstepaction"]
 > [Início Rápido: Introdução ao serviço Power BI](../end-user-experience.md)

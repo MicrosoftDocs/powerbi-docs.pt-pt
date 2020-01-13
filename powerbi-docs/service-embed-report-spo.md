@@ -1,21 +1,21 @@
 ---
 title: Incorporar com peças Web de relatórios no SharePoint Online
 description: Com a nova peça Web de relatórios do Power BI para o SharePoint Online, pode facilmente incorporar relatórios interativos do Power BI em páginas do SharePoint Online.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881890"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221718"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporar com peças Web de relatórios no SharePoint Online
 
@@ -29,6 +29,7 @@ Para que os relatórios da opção **Incorporar no SharePoint Online** funcionem
 
 * Uma licença do Power BI Pro ou uma [capacidade Premium do Power BI (EM ou P SKU)](service-premium-what-is.md) com uma licença do Power BI.
 * A peça Web do Power BI para o SharePoint Online requer as [Páginas Modernas](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
+* Para consumir um relatório incorporado, os utilizadores têm de iniciar sessão no serviço Power BI para ativar a respetiva licença do Power BI.
 
 ## <a name="embed-your-report"></a>Incorporar o seu relatório
 Para incorporar o seu relatório no SharePoint Online, tem de obter o URL do relatório e utilizá-lo com a peça Web do Power BI do SharePoint Online.
@@ -121,7 +122,7 @@ Eis as definições que pode ajustar para a peça Web do Power BI do SharePoint 
 | Propriedade | Descrição |
 | --- | --- |
 | Nome da página |Define a página predefinida da peça Web. Selecione um valor no menu pendente. Se não forem apresentadas páginas, significa que o seu relatório tem uma página ou que o URL que colou contém um nome de página. Remova a secção de relatório do URL para selecionar uma página específica. |
-| Ecrã |Define a forma como o relatório se ajusta à página do SharePoint Online. |
+| Apresentar |Define a forma como o relatório se ajusta à página do SharePoint Online. |
 | Mostrar Painel de Navegação |Mostra ou oculta o painel de navegação de páginas. |
 | Mostrar Painel de Filtro |Mostra ou oculta o painel de filtro. |
 
@@ -140,7 +141,7 @@ Contacte o proprietário da página do SharePoint Online, para que este ajude a 
 
 ## <a name="licensing"></a>Licensing
 
-Os utilizadores que visualizam um relatório no SharePoint precisam de uma **licença do Power BI Pro** ou os conteúdos precisam de estar numa área de trabalho com  **[capacidade do Power BI Premium (SKU EM ou P)](service-admin-premium-purchase.md)** .
+Os utilizadores que visualizam um relatório no SharePoint precisam de uma **licença do Power BI Pro** ou os conteúdos precisam de estar numa área de trabalho com **[capacidade do Power BI Premium (SKU EM ou P)](service-admin-premium-purchase.md)** .
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 

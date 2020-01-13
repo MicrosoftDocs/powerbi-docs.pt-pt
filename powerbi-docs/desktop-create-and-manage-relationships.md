@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869118"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerir relações no Power BI Desktop
@@ -23,12 +23,12 @@ Quando importa múltiplas tabelas, é provável que faça algumas análises com 
 Se consultar duas ou mais tabelas ao mesmo tempo, quando os dados forem carregados, o Power BI Desktop tenta localizar e criar relações para si. As propriedades Cardinalidade, Direção de filtro cruzado e Ativo são definidas automaticamente. O Power BI Desktop procura os nomes de coluna nas tabelas que está a consultar para determinar se existem potenciais relações. Se houver, essas relações são criadas automaticamente. Se o Power BI Desktop não conseguir determinar com um elevado nível de confiança que existe uma correspondência, não cria automaticamente a relação. Pode também utilizar a caixa de diálogo Gerir Relações para criar ou editar relações.
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>Criar uma relação com Deteção Automática
-No separador **Página Principal**, clique em **Gerir Relações** \> **AutoDetect**.
+No separador **Home Page**, clique em **Gerir Relações** \> **Deteção Automática**.
 
 ![](media/desktop-create-and-manage-relationships/automaticrelationship.gif)
 
 ## <a name="create-a-relationship-manually"></a>Criar uma relação manualmente
-1. No separador **Página Principal**, clique em **Gerir Relações** \> **Novo**.
+1. No separador **Home Page**, clique em **Gerir Relações** \> **Novo**.
 2. Na caixa de diálogo **Criar Relação**, na primeira lista pendente de tabelas, selecione uma tabela e, em seguida, selecione a coluna que pretende utilizar na relação.
 3. Na segunda lista pendente de tabelas, selecione a outra tabela que pretende ter na relação e, em seguida, a outra coluna que quer utilizar. Depois, clique em **OK**.
 
@@ -92,9 +92,9 @@ Esta primeira tabela, ProjectHours, é um registo de pedidos de trabalho que reg
 | 1002 |Alan Brewer |26 |Vermelho |2/1/2013 |
 | 1003 |Shu Ito |34 |Amarelo |1242012 |
 | 1004 |Alan Brewer |13 |Laranja |1/2/2012 |
-| 1005 |Eli Bowen |29 |Roxo |1012013 |
+| 1005 |Eli Bowen |29 |Roxo |01/10/2013 |
 | 1006 |Nuno Bento |35 |Verde |2/1/2013 |
-| 1007 |David Hamilton |10 |Amarelo |1012013 |
+| 1007 |David Hamilton |10 |Amarelo |01/10/2013 |
 | 1008 |Mu Han |28 |Laranja |1/2/2012 |
 | 1009 |Shu Ito |22 |Roxo |2/1/2013 |
 | 1010 |Eli Bowen |28 |Verde |1012013 |
@@ -186,7 +186,7 @@ A tabela CompanyProjectPriority abaixo é uma lista de todos os projetos da empr
 |:--- | ---:| ---:|
 | Azul |40.000 |1212012 |
 | Vermelho |100.000 |1212012 |
-| Verde |50.000 |1212012 |
+| Verde |50 000 |1212012 |
 
 **CompanyProjectPriority**
 
@@ -224,7 +224,7 @@ Mas digamos que sabe que os dados serão alterados da próxima vez que os atuali
 | --- | ---:| ---:|
 | Azul |40.000 |1212012 |
 | Vermelho |100.000 |1212012 |
-| Verde |50.000 |1212012 |
+| Verde |50 000 |1212012 |
 | Azul |80.000 |6/1/2013 |
 | Vermelho |90.000 |6/1/2013 |
 
@@ -294,9 +294,9 @@ Vejamos um exemplo. Esta primeira tabela é ProjectTickets, a tabela a seguir é
 | 1002 |Daniel Romano |Alan Brewer |26 |Vermelho |2/1/2013 |
 | 1003 |Daniel Roth |Shu Ito |34 |Amarelo |1242012 |
 | 1004 |Tom Perham |Alan Brewer |13 |Laranja |1/2/2012 |
-| 1005 |Daniel Romano |Eli Bowen |29 |Roxo |1012013 |
+| 1005 |Daniel Romano |Eli Bowen |29 |Roxo |01/10/2013 |
 | 1006 |Daniel Roth |Nuno Bento |35 |Verde |2/1/2013 |
-| 1007 |Daniel Roth |David Hamilton |10 |Amarelo |1012013 |
+| 1007 |Daniel Roth |David Hamilton |10 |Amarelo |01/10/2013 |
 | 1008 |Tom Perham |Mu Han |28 |Laranja |1/2/2012 |
 | 1009 |Daniel Romano |Shu Ito |22 |Roxo |2/1/2013 |
 | 1010 |Daniel Roth |Eli Bowen |28 |Verde |1012013 |

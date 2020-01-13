@@ -1,22 +1,22 @@
 ---
 title: Introdução à aplicação móvel Power BI para iOS
 description: Saiba como a aplicação móvel Microsoft Power BI para iOS coloca o Power BI ao seu alcance, com acesso móvel a informações empresariais no local e na cloud.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870194"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220363"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introdução à aplicação móvel Power BI em dispositivos iOS
-A aplicação Microsoft Power BI para iOS no iPhone, iPad ou iPod Touch proporciona a experiência de BI móvel para o Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. E mantenha-se a par com os dados sempre atualizados no seu [Apple Watch](mobile-apple-watch.md).  
+A aplicação Microsoft Power BI para iOS no iPhone e iPad proporciona a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. E mantenha-se a par com os dados sempre atualizados no seu [Apple Watch](mobile-apple-watch.md).  
 
 ![Aplicação móvel do Power BI no iPhone ou iPad](./media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
@@ -30,7 +30,7 @@ Em seguida, na aplicação móvel Power BI para iOS, interaja com os seus dashbo
 Descubra as [novidades nas aplicações móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Transferir a aplicação
-[Transfira a aplicação para iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Transferir a aplicação para iOS") para o seu iPhone, iPad ou iPod Touch a partir da Apple App Store.
+[Transfira a aplicação para iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Transferir a aplicação para iOS") para o seu iPhone ou iPad a partir da Apple App Store.
 
 Pode executar a aplicação Power BI para iOS em qualquer dispositivo com o iOS 11 ou posterior. 
 
@@ -41,57 +41,32 @@ Se ainda não se tiver inscrito, aceda a [powerbi.com](https://powerbi.microsoft
 ## <a name="get-started-with-the-power-bi-app"></a>Introdução à aplicação Power BI
 1. No seu dispositivo iOS, abra a aplicação Power BI.
 2. Para ver os seus dashboards do Power BI, toque em **Power BI**.  
-   Para ver os seus relatórios móveis e KPIs do Reporting Services, toque em **SQL Server Reporting Services**.
+   Para ver os seus relatórios móveis e KPIs do Reporting Services, toque em **Report Server**.
    
    ![Iniciar sessão na aplicação móvel do Power BI](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   Quando estiver na aplicação, basta tocar no botão de navegação global ![Botão de navegação global](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) no canto superior esquerdo para alternar entre os dois. 
+   Quando estiver na aplicação, basta tocar na imagem de perfil da conta que se encontra no canto superior esquerdo do ecrã para alternar entre os dois. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Experimente os exemplos do Power BI e do Reporting Services
-Mesmo sem se inscrever, pode experimentar os exemplos do Power BI e do Reporting Services. Depois de transferir a aplicação, pode ver os exemplos ou começar. Regresse da navegação global aos exemplos sempre que quiser.
+Mesmo sem se inscrever, pode ver e interagir com os exemplos do Power BI e do Reporting Services.
 
-### <a name="power-bi-samples"></a>Exemplos do Power BI
-Pode ver e interagir com os exemplos de dashboards do Power BI, mas há algumas coisas que não pode fazer com estes. Não pode abrir os relatórios correspondentes aos dashboards, partilhar os exemplos com outras pessoas ou torná-los favoritos.
+Para aceder aos exemplos, toque em **Mais opções** (...) na barra de navegação e selecione **Exemplos**.
 
-1. Toque no botão de navegação global ![Botão de navegação global](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) no canto superior esquerdo.
-2. Toque no ícone da engrenagem no canto superior direito ![Ícone da engrenagem](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) e, em seguida, toque em **Exemplos do Power BI**.
-3. Escolha uma função e explore o dashboard de exemplo para essa função.  
-   
+Vários exemplos do Power BI são seguidos por vários exemplos do Report Server.
+
    ![Exemplos móveis do Power BI](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
    
    > [!NOTE]
-   > Nem todas as funcionalidades estão disponíveis nos exemplos. Por exemplo, não pode ver os relatórios de exemplo subjacentes aos dashboards. 
+   > Nem todas as funcionalidades estão disponíveis nos exemplos. Por exemplo, não pode ver os relatórios de exemplo subjacentes aos dashboards, não pode partilhar os exemplos com outras pessoas e não pode torná-los favoritos. 
    > 
-   > 
-
-### <a name="reporting-services-mobile-report-samples"></a>Exemplos de relatórios móveis do Reporting Services
-1. Toque no botão de navegação global ![Botão de navegação global](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) no canto superior esquerdo.
-2. Toque no ícone da engrenagem no canto superior direito ![Ícone da engrenagem](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) e, em seguida, toque em **Exemplos do Reporting Services**.
-3. Abra a pasta Relatórios de Revenda ou Relatórios de Vendas para explorar os respetivos KPIs e relatórios móveis.
-   
-   ![Exemplos do Reporting Services na aplicação móvel do Power BI](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
+   >
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Encontre os seus conteúdos nas aplicações móveis do Power BI
-Os seus dashboards e relatórios são armazenados em locais diferentes nas aplicações móveis do Power BI, consoante a sua proveniência. Saiba mais sobre [encontrar conteúdos em aplicações móveis](mobile-apps-quickstart-view-dashboard-report.md). Além disso, pode sempre procurar qualquer elemento que tiver nas aplicações móveis do Power BI. 
 
-![Painel de navegação](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+Toque na lupa que se encontra no cabeçalho para começar a procurar os seus conteúdos do Power BI.
 
-Saiba mais sobre [encontrar os seus conteúdos nas aplicações móveis](mobile-apps-quickstart-view-dashboard-report.md).
-
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Ver os dashboards, KPIs e relatórios favoritos
-Na página Favoritos nas suas aplicações móveis, vê todos os seus dashboards favoritos do Power BI, juntamente com KPIs e relatórios do Power BI Report Server e do Reporting Services. Quando tornar um dashboard *favorito* na aplicação móvel do Power BI, pode aceder ao mesmo em todos os seus dispositivos, incluindo o serviço Power BI no seu browser. 
-
-* Toque em **Favoritos**.
-  
-   ![Favoritos no painel de navegação](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
-  
-   Pode ver todos os seus favoritos juntos nesta página:
-  
-   ![Página Favoritos](./media/mobile-iphone-app-get-started/power-bi-iphone-faves-report-server-number-callouts.png)
-  
-  1. Dashboards no serviço Power BI
-  2. KPIs no Power BI Report Server
-  3. Relatórios do Power BI no Power BI Report Server
+## <a name="view-your-favorite-dashboards-and-reports"></a>Ver os dashboards e relatórios favoritos
+Toque em **Favoritos** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) na barra de navegação para ver a página Favoritos. 
 
 Saiba mais sobre os [favoritos nas aplicações móveis do Power BI](mobile-apps-favorites.md).
 

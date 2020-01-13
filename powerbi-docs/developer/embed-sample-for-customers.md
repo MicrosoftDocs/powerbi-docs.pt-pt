@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311084"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223418"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Incorporar conteúdo do Power BI numa aplicação para os seus clientes
 
@@ -435,6 +435,8 @@ Para obter mais informações, veja [Embedded analytics capacity planning whitep
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Atribuir uma área de trabalho a uma capacidade dedicada
 
 Assim que criar uma capacidade dedicada, pode atribuir a área de trabalho a essa capacidade dedicada.
+
+Todas as áreas de trabalho que contêm recursos do Power BI relacionados com os conteúdos incorporados (incluindo conjuntos de dados, relatórios e dashboards) têm de ser atribuídas a capacidades dedicadas. Por exemplo, se um relatório incorporado e o conjunto de dados a este vinculado residirem em diferentes áreas de trabalho, ambas as áreas de trabalho têm de ser atribuídas a capacidades dedicadas.
 
 Para atribuir uma capacidade dedicada a uma área de trabalho com o [principal de serviço](embed-service-principal.md), utilize a [API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Ao utilizar as APIs REST do Power BI, certifique-se de que utiliza o [ID do objeto do principal de serviço](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 

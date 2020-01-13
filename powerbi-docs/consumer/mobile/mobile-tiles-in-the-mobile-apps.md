@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870040"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221213"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Explorar mosaicos nas aplicações móveis do Power BI
 Aplica-se a:
@@ -40,11 +40,14 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    Num gráfico circular, toque num setor do gráfico para mostrar o valor do setor na parte superior do gráfico.  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. Num mapa, toque no ícone **Centrar Mapa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar o mapa na sua localização atual.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. Toque no ícone de partilha ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) para [anotar e partilhar um mosaico](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) com outras pessoas.
+3. Num mapa, toque no ícone **Centrar Mapa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar o mapa na sua localização atual.
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. Toque no ícone de lápis ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar um mosaico](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e, em seguida, toque no ícone Partilhar ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) para [o partilhar com outras pessoas](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+
 5. [Adicione um alerta ao mosaico](mobile-set-data-alerts-in-the-mobile-apps.md). Se os valores ficarem acima ou abaixo dos valores alvo, o Power BI irá notificá-lo.
+
 6. Por vezes, o criador do dashboard adiciona uma ligação a um mosaico. Se for esse o caso, inclui um ícone de ligação ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) quando está no modo de detalhe:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,7 +71,7 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
     No modo de detalhe, pode:
    
    * Toque no gráfico para mover a barra num gráfico de linhas, barras, colunas ou bolhas, para ver os valores de um ponto específico na visualização.  
-   * Tocar no ícone Partilhar instantâneo ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [anotar e partilhar o mosaico](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) com outras pessoas.
+   * Toque no ícone de lápis ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar um mosaico](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e, em seguida, toque no ícone Partilhar instantâneo ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [o partilhar com outras pessoas](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
    * Tocar no ícone Abrir relatório ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver o relatório](mobile-reports-in-the-mobile-apps.md) na aplicação móvel.
 3. Por vezes, o criador do dashboard adiciona uma ligação a um mosaico. Se for esse o caso, ao tocar nas reticências verticais ( **...** ), verá **Abrir ligação** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
@@ -104,14 +107,14 @@ Em seguida, nas aplicações móveis do Power BI, abre os mosaicos no modo de de
    
    *Neste gráfico de barras, os valores da barra **Decor** são apresentados na parte superior do gráfico.*
    
-   Toque no ícone **Ecrã inteiro** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o mosaico em modo de ecrã inteiro, sem as barras de navegação e de menus.
+   Toque no ícone **Ecrã inteiro**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir o mosaico em modo de ecrã inteiro, sem as barras de navegação e de menus.
    
    > [!NOTE]
    > Também pode [ver os dashboards e relatórios no modo de ecrã inteiro](mobile-windows-10-app-presentation-mode.md) na aplicação móvel do Power BI para Windows 10.
    > 
    > 
    
-   Num mapa, toque no ícone **Centrar Mapa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar o mapa na sua localização atual.
+   Num mapa, toque no ícone **Centrar Mapa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar o mapa na sua localização atual.
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

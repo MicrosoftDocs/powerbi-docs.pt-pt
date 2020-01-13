@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871215"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorizar as métricas de utilização para dashboards e relatórios do Power BI
@@ -43,7 +43,7 @@ Pode executar relatórios de métricas de utilização apenas no serviço Power 
 ## <a name="view-a-usage-metrics-report"></a>Ver um relatório de Métrica de Utilização
 
 1. Comece pela área de trabalho que contém o dashboard ou o relatório.
-2. Na lista de conteúdo da área de trabalho ou a partir do dashboard ou do relatório propriamente dito, selecione o ícone de **Métrica de utilização**  ![ícone de métrica de utilização](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
+2. Na lista de conteúdo da área de trabalho ou a partir do dashboard ou do relatório propriamente dito, selecione o ícone de **Métrica de utilização** ![ícone de métrica de utilização](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
 
     ![Separador Dashboards](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
 
@@ -83,18 +83,18 @@ Para examinar os dados do relatório ou criar os seus próprios relatórios face
 
 ## <a name="which-metrics-are-reported"></a>Quais são as métricas reportadas?
 
-| Métrica | Dashboard | Relatório | Descrição |
+| Metric | Dashboard | Relatório | Descrição |
 | --- | --- | --- | --- |
 | Segmentação de dados por método de distribuição |sim |sim |Como os utilizadores obtêm acesso ao conteúdo. Existem 3 métodos possíveis: os utilizadores podem aceder a dashboard ou ao relatório devido ao facto de serem membros de uma [área de trabalho](consumer/end-user-experience.md), ao terem o conteúdo [partilhado com os mesmos](service-share-dashboards.md) ou ao instalarem uma aplicação/pacote de conteúdos.  Tenha em atenção que as vistas através de uma aplicação são contadas como "pacote de conteúdos". |
 | Segmentação de dados de plataformas |sim |sim |O dashboard ou o relatório foram acedidos através do serviço Power BI (powerbi.com) ou de um dispositivo móvel? Mobile inclui todas as nossas aplicações iOS, Android e Windows. |
 | Segmentação de dados de uma página de relatório |não |sim |Se o relatório tem mais de 1 página, segmente o relatório pela(s) página (s) que foi(ram) visualizada(s). Se vir uma opção de lista para "Em branco", isso significa que uma página do relatório foi adicionada recentemente (dentro de 24 horas, o nome real da nova página é apresentado na lista de segmentação de dados) e/ou as páginas de relatórios foram eliminadas. "Em branco" captura estes tipos de situações. |
-| Visualizações por dia |sim |sim |Número total de visualizações por dia - uma visualização é definida como um utilizador a carregar uma página do relatório ou dashboard. |
-| Visualizadores exclusivos por dia |sim |sim |Número de utilizadores *diferentes* que visualizaram o dashboard ou o relatório (com base na conta de utilizador do AAD). |
+| Views per day |sim |sim |Número total de visualizações por dia - uma visualização é definida como um utilizador a carregar uma página do relatório ou dashboard. |
+| Unique viewers per day |sim |sim |Número de utilizadores *diferentes* que visualizaram o dashboard ou o relatório (com base na conta de utilizador do AAD). |
 | Visualizações por utilizador |sim |sim |Número de visualizações nos últimos 90 dias, apresentadas por utilizadores individuais. |
-| Partilhas por dia |sim |não |Número de vezes que o dashboard foi partilhado com outro utilizador ou grupo. |
-| Total de visualizações |sim |sim |Número de visualizações nos últimos 90 dias. |
-| Total de visualizadores |sim |sim |Número de visualizações exclusivas nos últimos 90 dias. |
-| Total de partilhas |sim |não |Número de vezes que o dashboard ou o relatório foi partilhado nos últimos 90 dias. |
+| Shares per day |sim |não |Número de vezes que o dashboard foi partilhado com outro utilizador ou grupo. |
+| Total views |sim |sim |Número de visualizações nos últimos 90 dias. |
+| Total viewers |sim |sim |Número de visualizações exclusivas nos últimos 90 dias. |
+| Total shares |sim |não |Número de vezes que o dashboard ou o relatório foi partilhado nos últimos 90 dias. |
 | Total de organizações |sim |sim |Número de todos os dashboards ou relatórios em toda a organização que tenha pelo menos uma visualização nos últimos 90 dias.  Utilizado para calcular a classificação. |
 | Posição: Total views |sim |sim |Para saber o total de visualizações de todos os dashboards ou de relatórios na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
 | Posição: Total shares |sim |não |Para saber o total de partilhas de todos os dashboards na organização nos últimos 90 dias, qual é a classificação do dashboard ou do relatório. |
@@ -147,7 +147,7 @@ Veja [Controlar métricas de utilização](service-admin-portal.md#control-usage
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de utilização em clouds nacionais
 
-O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinadas com um modelo exclusivo para regulamentações locais sobre a entrega de serviços, residência de dados, acesso e controlo. Devido a este modelo exclusivo para regulamentações locais, as métricas de utilização não estão disponíveis em clouds nacionais. Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/clouds/).
+O Power BI está disponível em clouds nacionais separadas. Estas clouds oferecem os mesmos níveis de segurança, privacidade, conformidade e transparência que a versão global do Power BI, combinado com um modelo exclusivo para regulamentações locais sobre a entrega do serviço, residência dos dados, acesso e controlo. Devido a este modelo exclusivo para regulamentações locais, as métricas de utilização não estão disponíveis em clouds nacionais. Para obter mais informações, veja as [clouds nacionais](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 

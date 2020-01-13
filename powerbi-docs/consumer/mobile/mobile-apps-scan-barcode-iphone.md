@@ -1,19 +1,19 @@
 ---
 title: Ler um código de barras a partir da aplicação móvel do Power BI
 description: Leia códigos de barras físicos para aceder diretamente a informações filtradas do Power BI na aplicação móvel do Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879185"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217824"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Ler um código de barras com o seu dispositivo a partir da aplicação móvel Power BI
 Leia códigos de barras físicos para aceder diretamente a informações filtradas do Power BI na aplicação móvel do Power BI.
@@ -32,14 +32,12 @@ Suponhamos que um colega [marcou um campo de código de barras num relatório do
 Quando ler um código de barras de um produto com o leitor da aplicação Power BI no seu dispositivo, irá ver o relatório (ou lista de relatórios) com esse código de barras. Pode abrir o relatório filtrado nesse código de barras.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Ler um código de barras com o leitor do Power BI
-1. Na aplicação móvel do Power BI, abra o menu de navegação principal ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) na parte superior esquerda. 
-2. Desloque-se para baixo e selecione **Leitor** e leia-o. 
-   
+1. Na barra de navegação, toque em **Mais opções** (...) e, em seguida, toque em **Leitor**.
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. Se a câmara não estiver ativada, tem de aprovar a utilização da câmara pela aplicação do Power BI. Esta aprovação só é feita uma vez. 
-4. Aponte o leitor para um código de barras num produto. 
-   
-    Irá ver uma lista de relatórios associados a esse código de barras.
+
+2. Se a câmara não estiver ativada, tem de aprovar a utilização da câmara pela aplicação do Power BI. Esta aprovação só é feita uma vez. 
+4. Aponte o leitor para um código de barras num produto. Irá ver uma lista de relatórios associados a esse código de barras.
 5. Toque no nome do relatório para o abrir no seu dispositivo. O relatório é filtrado automaticamente com base nesse código de barras.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrar por outros códigos de barras num relatório

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861853"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217902"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Alterar a visualização de uma página de relatório
 
@@ -52,6 +52,26 @@ As opções no menu **Ver** dão-lhe flexibilidade para visualizar as páginas d
     ![Relatório visualizado em ecrã inteiro](media/end-user-report-view/power-bi-full-screen.png)
 
 Quando sai do relatório, as definições do menu **Ver** não são guardadas, mas são revertidas para a predefinição. Se quiser guardar estas definições, utilize [marcadores](end-user-bookmarks.md).
+
+## <a name="use-your-browser-to-change-page-display"></a>Utilizar o browser para alterar a visualização da página
+
+Os controlos de zoom no seu browser aumentam e diminuem a área da tela disponível. Diminuir o zoom faz com que a área da tela disponível se expanda e vice-versa. 
+
+![breve vídeo a mostrar os controlos de zoom do browser](media/end-user-report-view/power-bi-zoom.png)
+
+Outra forma de alterar o tamanho de visualização do seu relatório é ao redimensionar por completo o browser. 
+
+![breve vídeo a mostrar o redimensionamento do browser](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>Aplicar zoom num elemento visual
+Por vezes, é difícil ver os detalhes num elemento visual. Pode fazer com que essa apresentação do elemento visual fique maior e por si só. Para obter mais informações, veja [Modo de detalhe e Modo de ecrã inteiro](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>Um elemento visual no *Modo de detalhe*
+
+![Captura de ecrã de um elemento visual a abrir no modo de detalhe.](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>Um elemento visual no *Modo de ecrã inteiro*
+![Captura de ecrã de um elemento visual a abrir no modo de ecrã inteiro.](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>Próximos passos
 

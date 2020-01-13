@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/14/2019
 ms.author: mihart
-ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4b8dd876cfaca3fa4ad91bf5b4d94aa5b4be311
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861975"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218053"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizar um relatório no serviço Power BI para *consumidores*
 
@@ -32,7 +32,7 @@ Vamos abrir um relatório que foi partilhado consigo diretamente e, em seguida, 
    ![Página Base](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Abrir um relatório que tenha sido partilhado consigo
-Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la automaticamente. O conteúdo que é partilhado desta forma aparece no contentor **Partilhado comigo** no painel de navegação e na secção **Partilhado comigo** da tela Home Page.
+Os *designers* do Power BI podem partilhar um relatório individual diretamente consigo através de uma ligação no e-mail ou ao adicioná-la automaticamente aos seus conteúdos do Power BI. Os relatórios que são partilhados desta forma aparecem no contentor **Partilhado comigo** no painel de navegação e na secção **Partilhado comigo** da tela Home Page.
 
 1. Abra o serviço Power BI (app.powerbi.com).
 
@@ -40,7 +40,7 @@ Os *designers* do Power BI podem partilhar um relatório individual diretamente
 
    ![Tela Home Page](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. Desloque para baixo até ver **Partilhado comigo**. Procure o ícone de relatório ![ícone de relatório](./media/end-user-report-open/power-bi-report-icon.png). Nesta captura de ecrã, temos um dashboard e um relatório denominado *Exemplo de vendas e marketing*. 
+3. Desloque para baixo até ver **Partilhado comigo**. Procure o ícone de relatório ![ícone de relatório](./media/end-user-report-open/power-bi-report-icon.png). Nesta captura de ecrã, temos um dashboard e um relatório. O relatório chama-se *Sales and marketing sample*. 
    
    ![secção partilhado comigo da página Base](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -64,8 +64,10 @@ Os *designers* do Power BI podem partilhar um relatório individual diretamente
 
    ![ajustar à página](./media/end-user-report-open/power-bi-actual.png)
 
+Há várias formas de interagir com um relatório para descobrir informações e tomar decisões empresariais.  Recorra ao índice que se encontra à esquerda para ler outros artigos sobre relatórios do Power BI. 
+
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Abrir um relatório que faz parte de uma aplicação
-Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações estarão disponíveis na Home Page e no contentor **Aplicações** no painel de navegação. Uma [aplicação](end-user-apps.md) é um grupo de dashboards e relatórios.
+Se tiver recebido aplicações de colegas ou do AppSource, essas aplicações estarão disponíveis na Home Page e no contentor **Aplicações** no painel de navegação. Uma [aplicação](end-user-apps.md) é um conjunto de dashboards e relatórios que um *designer* do Power BI agrupou por si.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Para acompanhar, transfira a aplicação Vendas e Marketing.
@@ -80,17 +82,17 @@ Pode abrir a aplicação a partir do Contentor de aplicações ou a partir da Ho
 
    ![Home page](./media/end-user-report-open/power-bi-app.png)
 
-8. Selecione a nova aplicação Vendas e marketing para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Esta aplicação é aberta num dashboard.  
+8. Selecione a nova aplicação *Sales and marketing* para a abrir. Consoante as opções definidas pela aplicação *designer*, a aplicação irá abrir um dashboard ou um relatório. Esta aplicação é aberta num dashboard.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Abrir um relatório a partir de um dashboard
 Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [mosaicos](end-user-tiles.md) do dashboard são *afixados* a partir dos relatórios. Selecionar um mosaico abre o relatório que foi utilizado para criar o mosaico. 
 
-1. No dashboard, selecione um mosaico. Neste exemplo, selecionámos o mosaico de gráfico de colunas "Total Units YTD...".
+1. No dashboard, selecione um mosaico. Neste exemplo, selecionámos o mosaico de gráfico de colunas *Total Units YTD...* .
 
     ![dashboard com um mosaico selecionado](./media/end-user-report-open/power-bi-dashboard.png)
 
-2.  O relatório associado é aberto. Repare que estamos na página "YTD Category". Esta é a página do relatório que contém o gráfico de colunas que selecionámos a partir do dashboard.
+2.  O relatório associado é aberto. Repare que estamos na página *YTD Category*. Esta é a página do relatório que contém o gráfico de colunas que selecionámos a partir do dashboard.
 
     ![relatório aberto na Vista de leitura](./media/end-user-report-open/power-bi-report-tabs.png)
 
@@ -100,7 +102,7 @@ Os relatórios podem ser abertos a partir de um dashboard. Na sua maioria, os [m
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Mais formas de abrir um relatório
 À medida que vai estando mais à vontade a navegar pelo serviço Power BI, irá descobrir fluxos de trabalho que funcionam melhor para si. Algumas outras formas de aceder a relatórios:
-- No painel de navegação através de **Favoritos** e **Recentes**    
+- No painel de navegação através de [Favoritos](end-user-favorite.md) e [Recentes](end-user-recent.md)    
 - Com a opção [Ver relacionados](end-user-related.md)    
 - Numa mensagem de e-mail quando alguém [partilha consigo](../service-share-reports.md) ou quando [define um alerta](end-user-alerts.md)    
 - A partir do [Centro de notificações](end-user-notification-center.md)    

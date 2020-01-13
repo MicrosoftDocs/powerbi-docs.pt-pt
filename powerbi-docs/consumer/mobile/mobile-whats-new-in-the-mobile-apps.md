@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010024"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220523"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -21,6 +21,20 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>Novembro de 2019
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>O novo aspeto da aplicação Power BI está agora ativado por predefinição
+ 
+Agora, ao abrir a aplicação, o novo aspeto e as barras de navegação são ativadas automaticamente, o que simplifica a forma como encontra e abre conteúdos. Utilize a [home page](mobile-apps-home-page.md) da aplicação como ponto de partida. Desta forma, irá obter acesso rápido aos seus conteúdos mais importantes, bem como ao [feed de atividades](mobile-apps-home-page.md#activity-feed) que o mantém a par dos últimos alertas, notificações e mais.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>Ver toda a sua atividade do Power BI mais recente
+ 
+O feed de atividades ajuda-o a acompanhar em tempo real o que está a acontecer com os seus conteúdos do Power BI. Aceda à home page da aplicação e abra o separador Atividade para ver todas as últimas notificações, alertas, comentários, @mentions e mais. [Saiba mais](mobile-apps-home-page.md#activity-feed).
+
+### <a name="use-bookmarks-in-your-reports"></a>Utilizar marcadores nos relatórios
+
+Agora, a aplicação móvel Power BI suporta marcadores criados no Power BI. Ao abrir a aplicação, pode tirar partido de marcadores criados pelo autor do relatório e de quaisquer marcadores pessoais que tenha criado. [Saiba mais](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>Outubro de 2019
 
@@ -520,7 +534,7 @@ Leia o [Resumo de funcionalidades para aplicações do Power BI publicado em nov
 #### <a name="android-devices"></a>Dispositivos Android
 **Pré-visualização: Gestão de Aplicações Móveis do Intune** O suporte do Power BI para o Microsoft Intune Mobile Application Manager (MAM) está agora em pré-visualização para utilizadores do Power BI Pro em dispositivos Android. 
 
-**Favoritos** Marque os seus dashboards favoritos no dispositivo Android, e veja todos os [dashboards do Power BI, relatórios móveis e KPIs favoritos do Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) reunidos numa localização mais prática. 
+**Favoritos** Marque os seus dashboards favoritos no dispositivo Android, e veja todos os [dashboards do Power BI, relatórios móveis e KPIs favoritos do Reporting Services](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) reunidos numa localização mais prática. 
 
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Ligações** Os URLs nos mosaicos e visualizações são agora clicáveis e abrem num browser.
@@ -667,7 +681,7 @@ Leia o [blogue de Aplicações Power BI Mobile publicado em março de 2016](http
 **Mosaicos do Bing e do R** Abra mosaicos do Bing e do R no modo de detalhe.
 
 #### <a name="android-mobile-app"></a>Aplicação móvel para Android
-**Relatórios móveis e KPIs SQL Server 2016** [Veja relatórios móveis e KPIs do SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) e navegue entre as pastas do SSRS.
+**Relatórios móveis e KPIs do SQL Server 2016** [Veja relatórios móveis e KPIs do SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) e navegue entre as pastas do SSRS.
 
 **Ver relatórios** Abra relatórios de mosaicos nos dashboards.
 

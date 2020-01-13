@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128004"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75222109"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desenvolver um elemento visual do Power BI
 
-Estamos a permitir que os programadores adicionem elementos visuais do Power BI facilmente ao Power BI para utilização no dashboard e em relatórios. Para o ajudar a começar, publicámos o código de todas as nossas visualizações no GitHub.
+Estamos a permitir que os programadores adicionem elementos visuais do Power BI facilmente ao Power BI para utilização no dashboard e em relatórios. Para ajudá-lo a começar, publicámos o código para todas as nossas visualizações no GitHub.
 
 Em conjunto com a estrutura de visualização, oferecemos o nosso conjunto de testes e ferramentas para ajudar a comunidade a criar elementos visuais do Power BI de alta qualidade para o Power BI.
 
@@ -38,7 +38,7 @@ Neste tutorial, vai aprender a:
 
 * Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/pricing/) antes de começar.
 * Precisa de ter o [Visual Studio Code](https://www.visualstudio.com/) instalado.
-* Precisa de ter a versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
+* Precisa de ter a versão 4 ou posterior do [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) para utilizadores do Windows OU o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para utilizadores do OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Configurar o ambiente de programação
 
@@ -78,7 +78,7 @@ Agora, precisa de instalar o pacote **pbiviz**.
     pbiviz --install-cert
     ```
 
-    Devolve um resultado que produz uma *frase de acesso*. Neste caso, a *frase de acesso* é  **_15105661266553327_** . Também inicia o Assistente para Importar Certificados.
+    Devolve um resultado que produz uma *frase de acesso*. Neste caso, a *frase de acesso* é **_15105661266553327_** . Também inicia o Assistente para Importar Certificados.
 
     ![Certificado criado através do PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
@@ -398,6 +398,9 @@ Agora, pode explorar como desenvolver o elemento visual personalizado para mostr
     import IVisual = powerbi.extensibility.IVisual;
     import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
     import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import IVisualHost = powerbi.extensibility.visual.IVisualHost;
 
     import * as d3 from "d3";
     type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;

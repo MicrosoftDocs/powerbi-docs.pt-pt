@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831279"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304344"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -28,7 +28,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 | Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 |   |
 | Instância Gerida do SQL do Azure | Básico | Através de Ponto Final Público com a Extensão Base de Dados SQL do Azure  |
 | Azure Analysis Services | SSO, OAuth2 |   |
-| Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium |
+| Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
 | Conjunto de dados do Power BI Premium (XMLA) | SSO |   |
 | Introduzir Dados | N/D | Os dados são incorporados no relatório. |
 

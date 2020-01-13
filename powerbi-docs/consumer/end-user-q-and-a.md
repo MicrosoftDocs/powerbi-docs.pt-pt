@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862669"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218251"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Perguntas e Respostas para **consumidores** do Power BI
 
@@ -67,28 +67,30 @@ Por exemplo:
 
 Assim que estiver familiarizado com os dados, regresse ao dashboard e coloque o cursor na caixa de perguntas. Esta ação irá abrir o ecrã Perguntas e Respostas.
 
-![Ecrã Perguntas e Respostas](media/end-user-q-and-a/power-bi-screen.png) 
+![Ecrã Perguntas e Respostas](media/end-user-q-and-a/power-bi-suggested.png) 
 
 Mesmo antes de começar a escrever, as Perguntas e Respostas apresentam um ecrã novo com sugestões para o ajudar a formular a sua pergunta. Verá as expressões e as perguntas que contêm os nomes das tabelas nos conjuntos de dados subjacentes e poderá até ver as perguntas *em destaque* criadas pelo próprio proprietário do conjunto de dados.
 
 Pode selecionar qualquer uma destas para as adicionar à caixa de perguntas e, em seguida, reformulá-las para conseguir encontrar uma resposta específica. 
 
-Outra forma de as Perguntas e Respostas o ajudarem a fazer perguntas baseia-se em mensagens, preenchimento automático e ajudas visuais. 
+![Ecrã Perguntas e Respostas](media/end-user-q-and-a/power-bi-result.png) 
+
+Para o ajudar a fazer perguntas, o Power BI tem outras funcionalidades, tais como os avisos, o preenchimento automático e as ajudas visuais. O Power BI ajuda-o com as Perguntas e Respostas nos dashboards, as Perguntas e Respostas nos relatórios e o elemento visual das Perguntas e Respostas. Iremos abordar estas funcionalidades em maior detalhe abaixo, na secção [Criar um elemento visual das Perguntas e Respostas ao introduzir uma consulta em linguagem natural](#create-a-qa-visual-by-typing-a-natural-language-query)
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>O elemento visual das Perguntas e Respostas
+## <a name="the-qa-visual-in-power-bi-reports"></a>O elemento visual das Perguntas e Respostas em relatórios do Power BI
 
-O elemento visual das Perguntas e Respostas permite colocar perguntas em linguagem natural e obter respostas sob a forma de um elemento visual. O comportamento do elemento visual das Perguntas e Respostas é idêntico ao de qualquer outro elemento visual, na medida em que pode ter filtragem cruzada/destaque cruzado e também suporta marcadores e comentários. 
+O elemento visual das Perguntas e Respostas permite colocar perguntas em linguagem natural e obter respostas sob a forma de um elemento visual. O comportamento do elemento visual das Perguntas e Respostas é idêntico ao de qualquer outro elemento visual num relatório, na medida em que pode ter filtragem cruzada/destaque cruzado e também suporta marcadores e comentários. 
 
 Pode identificar um elemento visual das Perguntas e Respostas pela sua caixa de perguntas na parte superior. É aqui que vai inserir ou introduzir perguntas em linguagem natural. O elemento visual das Perguntas e Respostas pode ser utilizado repetidamente para colocar perguntas sobre os seus dados. Quando sai do relatório, o elemento visual das Perguntas e Respostas é reposto para a predefinição. 
 
 ![Captura de ecrã do elemento visual das Perguntas e Respostas predefinido](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>Utilizar o elemento visual das Perguntas e Respostas
-Para utilizar o elemento visual das Perguntas e Respostas, selecione uma das perguntas sugeridas ou escreva a sua própria pergunta em linguagem natural. 
+## <a name="use-qa"></a>Utilizar as Perguntas e Respostas 
+Para utilizar as Perguntas e Respostas num dashboard ou utilizar o elemento visual das Perguntas e Respostas num relatório, selecione uma das perguntas sugeridas ou escreva a sua própria pergunta em linguagem natural. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Criar um elemento visual das Perguntas e Respostas através de uma pergunta sugerida
 
@@ -105,26 +107,45 @@ No entanto, pode indicar ao Power BI qual o tipo de elemento visual a utilizar a
 
 Se não souber que tipo de perguntas colocar ou qual a terminologia a utilizar, expanda **Mostrar todas as sugestões** ou procure outros elementos visuais no relatório. Assim, ficará familiarizado com os termos e conteúdos do conjunto de dados.
 
-1. Escreva a sua pergunta no campo Perguntas e Respostas em linguagem natural. À medida que escreve a sua pergunta, o Power BI ajuda-o no preenchimento automático, sugestões e feedback.
+1. Escreva a sua pergunta no campo Perguntas e Respostas em linguagem natural. À medida que escreve a sua pergunta, o Power BI ajuda-o no preenchimento automático, ajudas visuais e feedback.
 
-    - As palavras que o Power BI não reconhece são sublinhadas a vermelho. Sempre que possível, o Power BI irá ajudá-lo a definir estas palavras. Se vir a definição correta, selecione-a na lista pendente.  
+    **Preenchimento Automático** – ao escrever a sua pergunta, a funcionalidade Perguntas e Respostas do Power BI apresenta sugestões relevantes e contextuais para o ajudar a ser produtivo rapidamente com uma linguagem natural. Ao escrever, obtém feedback e resultados imediatos. A experiência é semelhante a escrever num motor de busca.
 
-        ![Termo sublinhado a vermelho na caixa de perguntas das Perguntas e Respostas](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    Neste exemplo, a sugestão que pretendemos é a última. 
 
-    - Se nenhuma das definições estiver correta, experimente outro termo ou selecione a palavra sublinhada a vermelho para pedir ao proprietário do relatório para adicionar a palavra.
+    ![As Perguntas e Respostas com uma palavra sublinhada a azul](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![Escrever uma pergunta na caixa das Perguntas e Respostas](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **Sublinhados a vermelho/azul** – a funcionalidade Perguntas e Respostas do Power BI apresenta as palavras com sublinhados para ajudar a ver que palavras o Power BI reconheceu ou não reconheceu. Um sublinhado azul sólido indica que o Power BI reconheceu a palavra. O exemplo abaixo mostra que a funcionalidade Perguntas e Respostas reconheceu a palavra **store** (loja).
 
-    - À medida que escreve a pergunta, o Power BI informa-o se não entender a mesma e tenta ajudar. No exemplo a seguir, o Power BI pergunta-lhe "Quis dizer..." e sugere outra forma de frasear a sua pergunta com terminologia do seu conjunto de dados. 
+    ![As Perguntas e Respostas com sugestões da lista pendente para concluir a pergunta](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![Elemento visual das Perguntas e Respostas a apresentar correções sugeridas](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    Selecione uma palavra sublinhada a azul para apresentar uma lista pendente de perguntas sugeridas. 
 
-2. Depois de selecionar a correção do Power BI, os resultados são apresentados como um gráfico de linhas. 
+    ![Lista pendente com sugestões Também pode experimentar](media/end-user-q-and-a/power-bi-try.png)
+
+
+    Muitas vezes, ao escrever uma palavra na funcionalidade Perguntas e Respostas, a mesma é marcada com um sublinhado a vermelho. Um sublinhado a vermelho pode indicar um de dois possíveis problemas. O primeiro tipo de problema é categorizado como confiança baixa. Se escrever uma palavra vaga ou ambígua, o campo será sublinhado a vermelho. Um exemplo poderá ser a palavra "Location" (Localização). Múltiplos campos podem conter a palavra "Location" (Localização), pelo que o sistema utiliza um sublinhado a vermelho para pedir que escolha o campo pretendido. Neste exemplo, o Power BI pede-lhe para selecionar o campo que pretende utilizar para "VanArsdel".
+    
+    ![Termo sublinhado a vermelho na caixa de perguntas das Perguntas e Respostas](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    Outro exemplo de baixa confiança poderá ser se escrever a palavra "area" (área), mas a coluna correspondente for "district" (distrito). A funcionalidade Perguntas e Respostas do Power BI reconhece palavras que significam a mesma coisa, graças à integração com o Bing e o Office. A funcionalidade Perguntas e Respostas sublinha a palavra a vermelho para que saiba que não é uma correspondência direta
+
+    ![A funcionalidade Perguntas e Respostas reescreve a pergunta com um sinónimo](media/end-user-q-and-a/power-bi-red.png)
+
+    O segundo tipo de problema é quando a funcionalidade Perguntas e Respostas não reconhece a palavra. Um exemplo poderá ser utilizar a palavra "geography" (geografia), embora a mesma não exista nos dados. A palavra existe no dicionário, mas a funcionalidade Perguntas e Respostas marca este termo com um sublinhado a vermelho. A funcionalidade Perguntas e Respostas do Power BI não consegue criar uma visualização e sugere que pergunte ao designer do relatório para adicionar o termo.
+
+    ![A funcionalidade Perguntas e Respostas a sugerir que peça ao designer para adicionar a palavra geografia](media/end-user-q-and-a/power-bi-geography.png)
+
+    **Sugestões** – à medida que escreve a pergunta, o Power BI informa-o se não entender a mesma e tenta ajudar. No exemplo a seguir, o Power BI pergunta-lhe "Quis dizer..." e sugere outra forma de frasear a sua pergunta com terminologia do seu conjunto de dados. 
+
+    ![Elemento visual das Perguntas e Respostas a apresentar correções sugeridas](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Depois de selecionar a correção do Power BI, os resultados são apresentados como um gráfico de linhas. 
 
     ![Os resultados do elemento visual das Perguntas e Respostas apresentados como um gráfico de linhas](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. Porém, pode alterar o gráfico de linhas para outro tipo de elemento visual.  
+    Porém, pode alterar o gráfico de linhas para outro tipo de elemento visual.  
 
     ![Elemento visual das Perguntas e Respostas com "as a column chart" adicionado à pergunta](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

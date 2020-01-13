@@ -1,19 +1,19 @@
 ---
 title: Ver os dados offline em aplicações móveis do Power BI
 description: 'Leia sobre uma vantagem da visualização do Power BI numa aplicação móvel em vez de num navegador móvel: pode ver os dados mesmo quando não estiver ligado a uma rede.'
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870622"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219089"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Ver os dados offline em aplicações móveis do Power BI
 Aplica-se a:
@@ -34,9 +34,9 @@ Enquanto estiver offline, pode aceder e interagir com dashboards a que tenha ace
 Também tem acesso só de leitura a todos os relatórios do Power BI a que tiver acedido anteriormente a partir da aplicação móvel. Pode ver o relatório completo, mas não filtrar, fazer filtragem cruzada, classificar ou utilizar segmentações de dados nele.
 
 ## <a name="background-data-refresh"></a>Atualização de dados em segundo plano
-A atualização em segundo plano atualiza os seus dashboards favoritos, bem como os dashboards e relatórios que visualizou nas duas últimas semanas, com os dados do serviço Power BI (não da origem de dados). Se estiver ligado ao Wi-Fi, a atualização em segundo plano atualiza a cada 2 horas. Caso contrário, se estiver numa rede 3G, o Power BI atualiza o conteúdo a cada 24 horas.
+A atualização em segundo plano atualiza os seus dashboards favoritos, bem como os dashboards e relatórios que visualizou nas duas últimas semanas, com os dados do serviço Power BI (não da origem de dados). Se estiver ligado ao Wi-Fi, a atualização em segundo plano é atualizada a cada 2 horas. Caso contrário, se estiver numa rede 3G, o Power BI atualiza o conteúdo a cada 24 horas.
 
-Pode desativar a atualização agendada, por exemplo, para evitar a utilização da rede. Verifique as configurações do dispositivo.
+Pode desativar a atualização em segundo plano, por exemplo, para evitar a utilização da rede. Verifique as configurações do dispositivo.
 
 > [!NOTE]
 > Se utiliza a aplicação móvel do Power BI no seu dispositivo iOS e a sua organização configurou o MAM do Microsoft Intune, a atualização de dados em segundo plano está desativada. Na próxima vez que entrar na aplicação, o Power BI atualiza os dados do serviço Power BI na Web.
@@ -52,7 +52,7 @@ O Power BI fornece indicadores claros quando entrar e sair do modo offline, assi
 Quando estiver offline com o Power BI no dispositivo móvel, pode encontrar estas limitações:
 
 * O Power BI pode armazenar em cache até 250 MB de dados offline.
-* Alguns tipos de mosaico exigem uma ligação de servidor ativa. Por conseguinte, não estão disponíveis offline; por exemplo, mosaicos do Bing e alguns mosaicos personalizados.
+* Alguns tipos de mosaico exigem uma ligação de servidor ativa, pelo que não estão disponíveis offline, tais como mosaicos do Bing e alguns mosaicos personalizados.
 * Livros inteiros do Excel no Power BI não estão disponíveis offline.
 * Pode ver relatórios móveis do Reporting Services e KPIs offline, se os tiver visualizado enquanto esteve ligado. Não são atualizados em segundo plano. São atualizados sempre que os abrir.
 * Nas aplicações móveis do Power BI, não pode ver os ficheiros do Power BI Desktop (.pbix) guardados no Power BI Report Server. 
@@ -65,4 +65,3 @@ Os seus comentários ajudam-nos a decidir o que implementar no futuro, portanto,
 * Siga o @MSPowerBI no Twitter
 * Participe na conversa na [Comunidade do Power BI](https://community.powerbi.com/)
 * [O que é o Power BI?](../../fundamentals/power-bi-overview.md)
-

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bdf35d04a5b4dc7000a9ada0afcb23d882d17780
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871229"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224216"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Utilizar os Serviços Cognitivos no Power BI
 
@@ -52,7 +52,7 @@ A caixa de diálogo do fluxo de dados mostra as opções disponíveis para criar
 
 ![Criar um fluxo de dados](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
-Cole este URL no campo de URL: [ https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv ](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) e clique em **Seguinte**.
+Cole este URL no campo de URL: [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) e clique em **Seguinte**.
 
 ![Criar um fluxo de dados](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
@@ -180,6 +180,6 @@ Neste tutorial, aplicou as funções de classificação de sentimento e etiqueta
 
 Poderá também estar interessado nos seguintes artigos.
 
-* [Tutorial: Invocar um modelo do Machine Learning Studio no Power BI (Pré-visualização)](service-tutorial-invoke-machine-learning-model.md)
+* [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI (Pré-visualização)](service-tutorial-invoke-machine-learning-model.md)
 * [Integração do Azure Machine Learning no Power BI (Pré-visualização)](service-machine-learning-integration.md)
 * [Serviços Cognitivos no Power BI (Pré-visualização)](service-cognitive-services.md)

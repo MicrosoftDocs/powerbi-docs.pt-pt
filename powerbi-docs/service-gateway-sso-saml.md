@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699366"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Utilizar o formato SAML (Security Assertion Markup Language) para SSO do Power BI em origens de dados no local
@@ -68,7 +68,7 @@ Os seguintes passos descrevem como estabelecer uma relação de confiança entre
 
 Importe o certificado do seu Idp para o HANA Studio para criar um novo Fornecedor de Identidade do SAML:
 
-1. No SAP HANA Studio, clique com o botão direito do rato no nome do servidor SAP HANA e, em seguida, navegue para **Segurança** &gt; **Abrir Consola de Segurança** &gt; **Fornecedor de Identidade do SAML** &gt; **Biblioteca Criptográfica OpenSSL**.
+1. No SAP HANA Studio, clique com o botão direito do rato no nome do servidor SAP HANA e, em seguida, navegue para **Security** (Segurança) &gt; **Open Security Console** (Abrir Consola de Segurança) &gt; **SAML Identity Provider** (Fornecedor de Identidade do SAML) &gt; **OpenSSL Cryptographic Library** (Biblioteca Criptográfica OpenSSL).
 
     ![Fornecedores de identidade](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -124,7 +124,7 @@ Agora que configurou o certificado e a identidade do gateway, converta o certifi
 
     1. Selecione **Computador Local** &gt; **Concluir** &gt; **OK**.
 
-    1. Expanda a secção **Certificados** &gt; **Certificados** &gt; **Pessoal** e procure o certificado.
+    1. Expanda a secção **Certificados** &gt; **Pessoal** &gt; **Certificados** e procure o certificado.
 
     1. Clique com o botão direito do rato no certificado e navegue até **Todas as Tarefas** &gt; **Gerir Chaves Privadas**.
 
@@ -194,5 +194,5 @@ Para obter mais informações sobre o gateway de dados no local e o DirectQuery,
 * [What is an on-premises data gateway?](/data-integration/gateway/service-gateway-onprem) (O que é um gateway de dados no local?)
 * [DirectQuery no Power BI](desktop-directquery-about.md)
 * [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
-* [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery and SAP HANA](desktop-directquery-sap-bw.md) (DirectQuery e SAP HANA)
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)

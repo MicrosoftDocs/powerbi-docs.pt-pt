@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f6adfcf471fa6805e0a99c4b8789ba9eb7cf58
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: c2985f0281274adcdbde737c0f3b00688a401df7
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016670"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221281"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Use AI Insights in Power BI Desktop (preview) (Utilizar as informações de IA no Power BI Desktop [pré-visualização])
 
@@ -149,7 +149,7 @@ Existem algumas considerações e limitações a ter em conta ao utilizar a Aná
 
 ## <a name="using-azure-ml"></a>Utilizar o Azure ML
 
-Muitas organizações utilizam os modelos do **Machine Learning** para obter melhores informações e previsões sobre os seus negócios. A capacidade de visualizar e invocar informações a partir destes modelos, nos seus relatórios, dashboards e outras análises, pode ajudar a disseminar estas informações junto dos utilizadores empresariais que mais precisam delas. O Power BI simplifica a incorporação de informações de modelos alojados no serviço Azure Machine Learning, através de gestos simples de apontar e clicar.
+Muitas organizações utilizam os modelos do **Machine Learning** para obter melhores informações e previsões sobre os seus negócios. A capacidade de visualizar e invocar informações a partir destes modelos, nos seus relatórios, dashboards e outras análises, pode ajudar a disseminar estas informações junto dos utilizadores empresariais que mais precisam delas. O Power BI simplifica a incorporação de informações de modelos alojados no Azure Machine Learning através de gestos simples de apontar e clicar.
 
 Para utilizar esta capacidade, basta que um cientista de dados conceda acesso ao modelo do Azure ML ao analista de BI através do portal do Azure. Em seguida, no início de cada sessão, o Power Query deteta todos os modelos do Azure ML aos quais o utilizador tem acesso e expõe-nos como funções dinâmicas do Power Query. Por sua vez, o utilizador pode invocar essas funções ao aceder às mesmas a partir do friso no editor do Power Query ou ao invocar diretamente a função M. O Power BI também agrupa automaticamente os pedidos de acesso ao invocar o modelo do Azure ML para um conjunto de linhas de modo a obter um melhor desempenho.
 
@@ -159,15 +159,15 @@ Para saber mais sobre fluxos de dados, veja [Preparação personalizada de dados
 
 Para saber mais sobre o Azure Machine Learning, veja os seguintes artigos:
 
-- Descrição Geral: [O que é o serviço Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
+- Descrição Geral: [O que é o Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Guias de Introdução e Tutoriais para o Azure Machine Learning: [Documentação do Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>Conceder acesso a um modelo do Azure ML
 
 Para aceder a um modelo do Azure ML a partir do Power BI, o utilizador tem de ter acesso de **Leitura** à subscrição do Azure. Além disso, devem ter o seguinte:
 
-- Para modelos do Machine Learning Studio, tem de ter acesso de **Leitura** ao serviço Web Machine Learning Studio
-- Para modelos do Serviço do Machine Learning, tem de ter acesso de **Leitura** à área de trabalho do serviço do Machine Learning
+- Para modelos do Machine Learning Studio (clássico), tem de ter acesso de **Leitura** ao serviço Web Machine Learning Studio (clássico)
+- Para modelos do Machine Learning, tem de ter acesso de **Leitura** à área de trabalho do Machine Learning
 
 Os passos indicados nesta secção descrevem como conceder acesso a um utilizador do Power BI a um modelo alojado no serviço do Azure ML, para que possam aceder a este modelo como uma função do Power Query. Para obter mais detalhes, veja [Gerir o acesso com o RBAC e o portal do Azure](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
 
@@ -177,20 +177,20 @@ Os passos indicados nesta secção descrevem como conceder acesso a um utilizado
 4. Selecione **Controlo de acesso (IAM)** e, em seguida, selecione o botão **Adicionar**.
 5. Selecione **Leitor** como Função. Selecione o utilizador do Power BI ao qual quer conceder acesso ao modelo do Azure ML.
 6. Selecione **Guardar**
-7. Repita os passos três a seis para conceder acesso de **Leitor** ao utilizador para o serviço Web Machine Learning Studio específico *ou* para a área de trabalho do serviço do Machine Learning que aloja o modelo.
+7. Repita os passos três a seis para conceder acesso de **Leitor** ao utilizador ao serviço Web Machine Learning Studio (clássico) específico *ou* à área de trabalho do Machine Learning que aloja o modelo.
 
-### <a name="schema-discovery-for-machine-learning-service-models"></a>Deteção de esquema para modelos de Serviço do Machine Learning
+### <a name="schema-discovery-for-machine-learning-models"></a>Deteção de esquema para modelos do Machine Learning
 
-Os cientistas de dados utilizam o Python sobretudo para desenvolver e, inclusivamente, implementar os respetivos modelos de aprendizagem automática no Serviço do Machine Learning. Ao contrário do Machine Learning Studio, que ajuda a automatizar a tarefa de criação de um ficheiro de esquema para o modelo, no caso do Serviço do Machine Learning, o cientista de dados tem de gerar explicitamente o ficheiro de esquema com o Python.
+Os cientistas de dados utilizam o Python sobretudo para desenvolver e, inclusivamente, implementar os respetivos modelos de machine learning no Machine Learning. Ao contrário do Machine Learning Studio (clássico), que ajuda a automatizar a tarefa de criação de um ficheiro de esquema para o modelo, no caso do Machine Learning, o cientista de dados tem de gerar explicitamente o ficheiro de esquema com o Python.
 
-O ficheiro de esquema tem de estar incluído no serviço Web implementado para modelos do Serviço Machine Learning. Para gerar automaticamente o esquema para o serviço Web, tem de disponibilizar um exemplo de entrada/saída no script de entrada para o modelo implementado. Veja a subsecção na documentação do serviço [(Opcional) Geração automática de esquemas Swagger nos Modelos de implementação com o Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). A ligação inclui o script de entrada de exemplo com as instruções para a geração de esquemas.
+O ficheiro de esquema tem de estar incluído no serviço Web implementado para modelos do Machine Learning. Para gerar automaticamente o esquema para o serviço Web, tem de disponibilizar um exemplo de entrada/saída no script de entrada para o modelo implementado. Veja a subsecção na documentação do serviço [(Opcional) Geração automática de esquemas Swagger nos Modelos de implementação com o Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). A ligação inclui o script de entrada de exemplo com as instruções para a geração de esquemas.
 
 Em específico, as funções _@input\_schema_ e _@output\_schema_ no script de entrada fazem referência aos formatos de amostra de entrada e de saída nas variáveis _input\_sample_ e _output\_sample_ e utiliza estas amostras para gerar uma especificação OpenAPI (Swagger) para o serviço Web durante a implementação.
 
 Estas instruções para a geração de esquemas ao atualizar o script de entrada também têm de ser aplicadas aos modelos criados com experimentações de aprendizagem automática com o SDK do Azure Machine Learning.
 
 > [!NOTE]
-> Os modelos criados através da interface visual do serviço Azure Machine Learning não suportam atualmente a geração de esquemas, mas irão suportá-la em versões futuras.
+> Os modelos criados através da interface visual do Azure Machine Learning não suportam atualmente a geração de esquemas, mas irão suportá-la em versões futuras.
 > 
 ### <a name="invoking-an-azure-ml-model-in-power-query"></a>Invocar um modelo do Azure ML no Power Query
 
@@ -212,7 +212,7 @@ Se o modelo devolver vários parâmetros de saída, estes são agrupados como um
 
 As seguintes considerações e limitações aplicam-se ao Azure ML no Power BI Desktop.
 
-* Os modelos criados através da interface visual do serviço Azure Machine Learning não suportam atualmente a geração de esquemas. O suporte é antecipado em versões subsequentes.
+* Os modelos criados através da interface visual do Azure Machine Learning não suportam atualmente a geração de esquemas. O suporte é antecipado em versões subsequentes.
 * A atualização incremental é suportada mas pode causar problemas de desempenho quando utilizada em consultas com informações de IA.
 * O Direct Query não é suportado.
 
@@ -220,7 +220,7 @@ As seguintes considerações e limitações aplicam-se ao Azure ML no Power BI
 
 Este artigo forneceu uma descrição geral da integração do Machine Learning no Power BI Desktop. Os artigos que se seguem também podem ser úteis e interessantes.
 
-- [Tutorial: invocar um modelo do Machine Learning Studio no Power BI](service-tutorial-invoke-machine-learning-model.md)
+- [Tutorial: Invocar um modelo do Machine Learning Studio (clássico) no Power BI](service-tutorial-invoke-machine-learning-model.md)
 - [Tutorial: Utilizar os Serviços Cognitivos no Power BI](service-tutorial-use-cognitive-services.md)
 - [Serviços Cognitivos no Power BI](service-cognitive-services.md)
 - [Integração do Azure Machine Learning no Power BI](service-machine-learning-integration.md)

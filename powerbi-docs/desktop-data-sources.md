@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410962"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222164"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origens de dados no Power BI Desktop
 
@@ -24,19 +24,17 @@ Para se ligar a dados, selecione **Obter Dados** No friso **Base**. Selecionar a
 
 ![Obter Dados no Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Selecionar **Mais…** no menu **Mais Comuns** mostra a janela **Obter Dados**. Também pode abrir a janela **Obter Dados** (e ignorar o menu **Mais Comuns**) ao selecionar o botão do ícone **Obter Dados** **diretamente**.
+Selecionar **Mais…** no menu **Mais Comuns** mostra a janela **Obter Dados**. Também pode abrir a janela **Obter Dados** (e ignorar o menu **Mais Comuns**) ao selecionar o **botão do ícone** **Obter Dados** diretamente.
 
 ![Botão Obter Dados](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> A equipa do Power BI está continuamente a expandir as origens de dados disponíveis para o **Power BI Desktop** e o **serviço Power BI**. Como tal, verá frequentemente versões anteriores de origens de dados em construção marcadas como *Beta* ou *Pré-visualização*. Qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção. 
+> A equipa do Power BI está continuamente a expandir as origens de dados disponíveis para o **Power BI Desktop** e o **serviço Power BI**. Como tal, verá frequentemente versões anteriores de origens de dados em construção marcadas como *Beta* ou *Pré-visualização*. Qualquer origem de dados marcada como *Beta* ou *Pré-visualização* tem suporte e funcionamento limitados, não devendo ser utilizada em ambientes de produção. Além disso, qualquer origem de dados marcada como *Beta* ou *Pré-visualização* para o **Power BI Desktop** pode não estar disponível para utilização no **serviço Power BI** ou noutros serviços da Microsoft, até que a origem de dados fique disponível para o público.
 
-> Além disso, qualquer origem de dados marcada como *Beta* ou *Pré-visualização* para o **Power BI Desktop** pode não estar disponível para utilização no **serviço Power BI** ou noutros serviços da Microsoft, até que a origem de dados fique disponível para o público.
-
-## <a name="data-sources"></a>Origens de Dados
+## <a name="data-sources"></a>Origens de dados
 Os tipos de dados são organizados nas categorias a seguir:
 
-* Todos
+* Tudo
 * Ficheiro
 * Base de Dados
 * Power BI
@@ -82,7 +80,7 @@ A categoria **Base de dados** fornece as seguintes ligações de dados:
 * Vertica
 * Snowflake
 * Essbase
-* Cubos AtScale (Beta)
+* Cubos AtScale
 * Conector BI
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ A categoria do **Power Platform** fornece as seguintes ligações de dados:
 * Conjuntos de dados do Power BI
 * Fluxos de dados do Power BI
 * Common Data Service
-* Fluxos de dados do Power Platform (Beta)
+* Power Platform dataflows (Fluxos de dados do Power Platform)
 
 A seguinte imagem mostra a janela **Obter Dados** para o **Power Platform**.
 
@@ -118,13 +116,14 @@ A categoria **Azure** fornece as seguintes ligações de dados:
 * Armazenamento de Blobs do Azure
 * Armazenamento de Tabelas do Azure
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Beta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * Interactive Query do HDInsight
 * Azure Data Explorer (Kusto)
-* Azure Cost Management (Beta)
+* Azure Cost Management
+* Azure Time Series Insights (Beta)
 
 A imagem a seguir mostra a janela **Obter Dados** para **Azure**.
 
@@ -209,7 +208,7 @@ A imagem a seguir mostra a janela **Obter Dados** para **Outros**.
 > [!NOTE]
 > Atualmente, não é possível ligar-se a origens de dados personalizadas protegidas através do Azure Active Directory.
 
-## <a name="connecting-to-a-data-source"></a>Ligar a uma Origem de Dados
+## <a name="connecting-to-a-data-source"></a>Ligar a uma origem de dados
 Para se ligar a uma origem de dados, selecione a origem de dados na janela **Obter Dados** e selecione **Ligar**. Na imagem que se segue, a opção **Web** é selecionada da categoria de ligação de dados **Outros**.
 
 ![Ligar à Web](media/desktop-data-sources/data-sources-08.png)

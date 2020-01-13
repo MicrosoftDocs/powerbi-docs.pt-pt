@@ -2,19 +2,18 @@
 title: Glossário para consumidores do Power BI
 description: O Power BI introduz muitos termos novos e novos empregos para termos familiares. Utilize o nosso glossário para ficar à vontade com a terminologia do Power BI.
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548545"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303910"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -76,7 +75,9 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **content view (vista de conteúdo)**
 
-**cross filter, cross highlight (filtro cruzado, realce cruzado)**
+**cross-filter (filtro cruzado)** Aplica-se a interações visuais. A filtragem cruzada remove dados que não se aplicam. Por exemplo, a seleção de **Moderação** no gráfico em anel permite filtrar o gráfico de linhas de forma cruzada. Agora, o gráfico de linhas só mostra pontos de dados que se aplicam ao segmento Moderação.
+
+**cross-highlight (realce cruzado)** Aplica-se a interações visuais. O realce cruzado retém todos os pontos de dados originais, mas escurece a parte que não se aplica à sua seleção. Por exemplo, a seleção de **Moderação** no gráfico em anel permite realçar o gráfico de colunas de forma cruzada. O gráfico de colunas escurece todos os dados que não se aplicam ao segmento Moderação e realça todos os dados que se aplicam ao segmento Moderação.
 
 **custom visual (elemento visual personalizado0** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
 
@@ -310,6 +311,8 @@ Os dashboards do Power BI contêm mosaicos de relatório.
 **value, values (valor, valores)** Os dados numéricos a serem visualizados.
 
 **visual, visualization (elemento visual, visualização)** Um gráfico. Alguns elementos visuais são: o gráfico em barras, o mapa de árvore, o gráfico de anel, o mapa.
+
+**Visual interaction (Interação visual)** Uma das características incríveis do Power BI é a forma como estão interligados todos os elementos visuais numa página de relatório. Se selecionar um ponto de dados num dos elementos visuais, serão alterados todos os outros elementos visuais na página que contêm esses dados, com base nessa seleção.
 
 **Visualizations pane (Painel de visualizações)** O nome para os modelos de visualização que são disponibilizados na tela do relatório partilhado para o Power BI Desktop e o serviço Power BI. Contém pequenos modelos, também chamados ícones, para cada tipo de visualização nativo.  
 
