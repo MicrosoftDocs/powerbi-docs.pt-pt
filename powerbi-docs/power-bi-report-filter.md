@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875151"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762537"
 ---
-# <a name="the-new-filter-experience-in-power-bi-reports"></a>A nova experiência de filtros nos relatórios do Power BI
+# <a name="work-with-filters-in-power-bi-reports"></a>Trabalhar com filtros nos relatórios do Power BI
 
 Os filtros no Power BI têm novas funcionalidades e um novo design. Quando opta ativamente por participar na nova experiência de filtros, pode formatar o painel Filtros para se parecer com o resto do relatório. Pode bloquear e até mesmo ocultar filtros. Ao estruturar o seu relatório, já não vê o painel Filtros antigo no painel Visualizações. Faz toda a edição e formatação dos filtros num único painel Filtros. 
 

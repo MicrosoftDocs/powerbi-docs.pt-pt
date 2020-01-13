@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868986"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761462"
 ---
-# <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Ligar-se a dados através de interfaces genéricas no Power BI Desktop
+# <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Ligar-se a dados através de interfaces genéricas do Power BI Desktop 
+
 Pode ligar-se a uma grande diversidade de origens de dados no **Power BI Desktop**, através de conectores de dados incorporados, desde **Bases de dados de acesso** a recursos **Zendesk**, conforme mostrado na janela **Obter Dados**. Também pode ligar-se a todos os tipos de *outras* origens de dados para expandir ainda mais as suas opções de conectividade ao utilizar as interfaces genéricas (como **ODBC** ou **APIs REST**) incorporadas no **Power BI Desktop**.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
@@ -67,8 +68,8 @@ A lista seguinte enumera alguns exemplos de origens de dados às quais o **Power
 
 | Conector genérico do Power BI Desktop | Origem de dados externa | Ligação para mais informações |
 | --- | --- | --- |
-| OLE DB |SAS OLE DB |[Fornecedor SAS para OLE DB](https://support.sas.com/downloads/package.htm?pid=648) |
-| OLE DB |OLE DB Sybase |[Fornecedor Sybase para OLE DB](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc35888.1550/doc/html/jon1256941734395.html) |
+| OLEDB |SAS OLE DB |[Fornecedor SAS para OLE DB](https://support.sas.com/downloads/package.htm?pid=648) |
+| OLEDB |OLE DB Sybase |[Fornecedor Sybase para OLE DB](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc35888.1550/doc/html/jon1256941734395.html) |
 
 ## <a name="data-sources-accessible-through-odata"></a>Origens de dados acessíveis através de OData
 O conector **OData** no **Power BI Desktop** permite-lhe importar dados de qualquer URL do **OData** simplesmente ao escrever ou colar o URL do **OData**. Pode adicionar múltiplas partes do URL ao escrever ou colar essas ligações nas caixas de texto apresentadas na janela **Feed OData**.

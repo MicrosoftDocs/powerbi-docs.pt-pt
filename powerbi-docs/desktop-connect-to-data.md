@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878492"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761594"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>Ligar a dados no Power BI Desktop
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Ligar a fontes de dados no Power BI Desktop
 Com o Power BI Desktop, pode ligar facilmente ao mundo dos dados, que está em constante expansão. Se não tiver o Power BI Desktop, pode [transferir](https://go.microsoft.com/fwlink/?LinkID=521662) e instalá-lo.
 
 Há *todos os tipos* de origens de dados disponíveis no Power BI Desktop. A imagem a seguir mostra como ligar-se a dados, ao selecionar o friso **Ficheiro** e, em seguida, **Obter Dados \> Mais**.
@@ -65,7 +65,7 @@ Com o modelo de dados carregado, na vista de **Relatório** no Power BI Desktop,
 
 Obviamente, este é um modelo simples com uma única ligação de dados; a maioria dos relatórios do Power BI Desktop terá ligações a diferentes origens de dados, moldadas para satisfazer as suas necessidades, com relações que produzem um modelo de dados avançado. 
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

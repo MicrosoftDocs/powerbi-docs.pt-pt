@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 1e141c56387e4bbde1741752e40e600c37088e87
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199679"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758813"
 ---
-# <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagir com mapas ArcGIS no Power BI
+# <a name="interact-with-arcgis-maps-in-power-bi"></a>Interagir com mapas ArcGIS no Power BI
 Este tópico foi escrito do ponto de vista de uma pessoa que utiliza um mapa ArcGIS no serviço Power BI, Desktop ou para dispositivo móvel. Quando um designer partilha um mapa ArcGIS de um elemento visual do Power BI, existem muitas formas de interagir com esse elemento visual.  Para saber mais sobre como criar um mapa ArcGIS, veja [ArcGIS maps by Esri tutorial](../visuals/power-bi-visualization-arcgis.md) (Tutorial de mapas ArcGIS do Esri).
 
 A combinação de mapas ArcGIS com o Power BI leva o mapeamento além da apresentação de pontos num mapa, a um nível totalmente novo. Os designers de relatórios começam com um mapa e anexam camadas de dados demográficos ao mesmo. A combinação de camadas de dados baseados em localizações (como dados de censos) num mapa com análise espacial proporciona uma compreensão mais aprofundada dos dados nas suas visualizações.
@@ -69,7 +69,7 @@ Um *designer* de relatórios pode adicionar muitas camadas de infográficos. Os 
 
 ![mapa ampliado da área de Orlando e cartões de infográficos no lado direito da tela](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
 
-### <a name="pins"></a>Alfinetes
+### <a name="pins"></a>Marcadores
 
 Os alfinetes representam localizações exatas, como uma cidade ou endereço. Por vezes, os *designers* de relatórios utilizam alfinetes com o raio do tempo de condução. Este exemplo mostra lojas num raio de 50 milhas de Charlotte, na Carolina do Norte.
 

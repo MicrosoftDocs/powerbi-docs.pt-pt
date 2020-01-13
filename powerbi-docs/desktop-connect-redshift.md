@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf434c2b6d7181e723977d6264df718ee1e5ee5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878459"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761640"
 ---
-# <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Ligar ao Redshift Amazon no Power BI Desktop
+# <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Ligar a uma base de dados Amazon Redshift no Power BI Desktop
 No **Power BI Desktop**, pode ligar a uma base de dados **Amazon Redshift** e utilizar os dados subjacentes, tal como faria com outra origem de dados no Power BI Desktop.
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Ligar a uma base de dados Amazon Redshift
@@ -41,7 +41,7 @@ Depois de efetuar as seleções na janela **Navegador** , pode **Carregar** ou *
 * Se optar por **Carregar** os dados, ser-lhe-á pedido que utilize o modo de *Importação* ou o *DirectQuery* para carregar os dados. Para obter mais informações, veja este [artigo que explica o DirectQuery](desktop-use-directquery.md).
 * Se optar por **Editar** os dados, o **Editor de Consultas** é apresentado, onde pode aplicar todos os tipos de transformações e filtros aos dados, muitos dos quais são aplicados à própria base de dados **Amazon Redshift** subjacente (caso seja suportada).
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
