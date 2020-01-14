@@ -46,8 +46,12 @@
           href: auto-date-time.md
         - name: Guia de relações muitos-para-muitos
           href: relationships-many-to-many.md
-        - name: Disable Power Query background refresh (Desativar a atualização em segundo plano do Power Query)
+        - name: Desativar a atualização em segundo plano do Power Query
           href: power-query-background-refresh.md
+        - name: "Quando utilizar os relatórios paginados no Power\_BI"
+          href: report-paginated-or-power-bi.md
+        - name: "Migrar os relatório do SQL Server Reporting Services para o Power\_BI"
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos
