@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: Monitorizar capacidades com a aplicação
           href: service-admin-premium-monitor-capacity.md
+        - name: Monitorizar as métricas da carga de trabalho Premium
+          href: service-premium-metrics-app.md
         - name: Monitorizar capacidades no Portal de administração
           href: service-admin-premium-monitor-portal.md
         - name: Configurar a atualização incremental

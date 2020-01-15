@@ -25,7 +25,7 @@
           items:
             - name: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
               href: visuals/visual-project-structure.md
-            - name: Conceito visual
+            - name: Conceitos dos elementos visuais
               href: visuals/power-bi-visuals-concept.md
             - name: Visuals for organizations in Power BI (Elementos visuais para organizações no Power BI)
               href: power-bi-custom-visuals-organization.md
