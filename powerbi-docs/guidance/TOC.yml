@@ -10,48 +10,56 @@
     - name: Conceitos
       expanded: true
       items:
-        - name: O que é um esquema de estrela?
-          href: star-schema.md
-        - name: Reduce data model size (Reduzir o tamanho do modelo de dados)
-          href: import-modeling-data-reduction.md
-        - name: função DIVIDIR vs. operador dividir (/)
-          href: dax-divide-function-operator.md
-        - name: Utilizar SELECTEDVALUE em vez de VALUES
-          href: dax-selectedvalue.md
-        - name: A importância da dobragem de consultas
-          href: power-query-folding.md
-        - name: Appropriate use of error functions (Utilização adequada de funções de erro)
-          href: dax-error-functions.md
-        - name: Utilizar variáveis para melhorar fórmulas
-          href: dax-variables.md
-        - name: COUNTROWS em vez de COUNT
-          href: dax-countrows.md
-        - name: Evitar converter espaços em branco em valores
-          href: dax-avoid-converting-blank.md
-        - name: Referências de colunas e de medidas
-          href: dax-column-measure-references.md
-        - name: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
-          href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
-          href: ../service-dataflows-best-practices.md
-        - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
-          href: directquery-model-guidance.md
-        - name: Referencing Power Query queries (Referenciar consultas do Power Query)
-          href: power-query-referenced-queries.md
-        - name: Extending visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
-          href: report-page-tooltips.md
-        - name: Report page drillthrough (Pormenorização de páginas de relatórios)
-          href: report-drillthrough.md
-        - name: Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
-          href: auto-date-time.md
-        - name: Guia de relações muitos-para-muitos
-          href: relationships-many-to-many.md
-        - name: Desativar a atualização em segundo plano do Power Query
-          href: power-query-background-refresh.md
-        - name: "Quando utilizar os relatórios paginados no Power\_BI"
-          href: report-paginated-or-power-bi.md
-        - name: "Migrar os relatório do SQL Server Reporting Services para o Power\_BI"
-          href: migrate-ssrs-reports-to-power-bi.md
+        - name: Transform and shape data (Transformar e formatar dados)
+          items:
+            - name: A importância da dobragem de consultas
+              href: power-query-folding.md
+            - name: Referencing Power Query queries (Referenciar consultas do Power Query)
+              href: power-query-referenced-queries.md
+            - name: Desativar a atualização em segundo plano do Power Query
+              href: power-query-background-refresh.md
+            - name: Best practices for dataflows (Melhores práticas para fluxos de dados)
+              href: ../service-dataflows-best-practices.md
+        - name: Modelação de dados
+          items:
+            - name: O que é um esquema de estrela?
+              href: star-schema.md
+            - name: Reduce data model size (Reduzir o tamanho do modelo de dados)
+              href: import-modeling-data-reduction.md
+            - name: Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
+              href: auto-date-time.md
+            - name: Guia de relações muitos-para-muitos
+              href: relationships-many-to-many.md
+            - name: DirectQuery model guidance in Power BI Desktop (Orientação do modelo DirectQuery no Power BI Desktop)
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: função DIVIDIR vs. operador dividir (/)
+              href: dax-divide-function-operator.md
+            - name: Appropriate use of error functions (Utilização adequada de funções de erro)
+              href: dax-error-functions.md
+            - name: Utilizar SELECTEDVALUE em vez de VALUES
+              href: dax-selectedvalue.md
+            - name: COUNTROWS em vez de COUNT
+              href: dax-countrows.md
+            - name: Utilizar variáveis para melhorar fórmulas
+              href: dax-variables.md
+            - name: Evitar converter espaços em branco em valores
+              href: dax-avoid-converting-blank.md
+            - name: Referências de colunas e de medidas
+              href: dax-column-measure-references.md
+            - name: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Report Creation (Criação de Relatórios)
+          items:
+            - name: Extending visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
+              href: report-page-tooltips.md
+            - name: Report page drillthrough (Pormenorização de páginas de relatórios)
+              href: report-drillthrough.md
+            - name: "Quando utilizar os relatórios paginados no Power\_BI"
+              href: report-paginated-or-power-bi.md
+            - name: "Migrar os relatório do SQL Server Reporting Services para o Power\_BI"
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos

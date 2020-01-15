@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 11/14/2019
-  ms.openlocfilehash: 2d34b41ec7ebc473c84bbfffccfa555cda817e3a
-  ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+  ms.date: 01/14/2020
+  ms.openlocfilehash: 091fbef4ce3a3cc1e5e3c0d0e4f26a25598f2556
+  ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 01/11/2020
-  ms.locfileid: "75885171"
+  ms.lasthandoff: 01/15/2020
+  ms.locfileid: "75953698"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -27,6 +27,18 @@ landingContent:
       url: overview.md
     - text: Descrição geral dos documentos técnicos
       url: ../whitepapers.md
+- title: Transform and shape data (Transformar e formatar dados)
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: A importância da dobragem de consultas
+      url: power-query-folding.md
+    - text: Desativar a atualização em segundo plano do Power Query
+      url: power-query-background-refresh.md
+    - text: Referencing Power Query queries (Referenciar consultas do Power Query)
+      url: power-query-referenced-queries.md
+    - text: Melhores práticas dos fluxos de dados
+      url: ../service-dataflows-best-practices.md
 - title: Modelação de dados
   linkLists:
   - linkListType: concept
@@ -35,16 +47,10 @@ landingContent:
       url: star-schema.md
     - text: Técnicas de redução de dados
       url: import-modeling-data-reduction.md
-    - text: A importância da dobragem de consultas
-      url: power-query-folding.md
-    - text: Referenciar consultas do Power Query
-      url: power-query-referenced-queries.md
     - text: Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)
       url: auto-date-time.md
     - text: Guia de relações muitos-para-muitos
       url: relationships-many-to-many.md
-    - text: Desativar a atualização em segundo plano do Power Query
-      url: power-query-background-refresh.md
 - title: DAX
   linkLists:
   - linkListType: concept
@@ -65,13 +71,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: Fluxos de Dados
-  linkLists:
-  - linkListType: concept
-    links:
-    - text: Melhores práticas dos fluxos de dados
-      url: ../service-dataflows-best-practices.md
-- title: Relatórios
+- title: Criação de relatórios
   linkLists:
   - linkListType: concept
     links:
