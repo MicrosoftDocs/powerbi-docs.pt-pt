@@ -52,12 +52,14 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Report Creation (Criação de Relatórios)
           items:
-            - name: Extending visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
+            - name: Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
               href: report-page-tooltips.md
-            - name: Report page drillthrough (Pormenorização de páginas de relatórios)
+            - name: Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
               href: report-drillthrough.md
             - name: "Quando utilizar os relatórios paginados no Power\_BI"
               href: report-paginated-or-power-bi.md
+            - name: Avoid blank pages when printing paginated reports (Evitar páginas em branco ao imprimir relatórios paginados)
+              href: report-paginated-blank-page.md
             - name: "Migrar os relatório do SQL Server Reporting Services para o Power\_BI"
               href: migrate-ssrs-reports-to-power-bi.md
     - name: Whitepapers (Documentos técnicos)
