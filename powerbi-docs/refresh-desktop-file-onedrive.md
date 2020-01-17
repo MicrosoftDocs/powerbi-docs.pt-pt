@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/04/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57bc7eed7e8e51463494e2c4f562dcdb1e6a88c9
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699642"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837652"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados armazenado no OneDrive ou o SharePoint Online
 Importar ficheiros do OneDrive ou do SharePoint Online para o serviço Power BI é uma ótima maneira de garantir que o seu trabalho no Power BI Desktop permanece sincronizado com o serviço Power BI.
@@ -35,6 +35,9 @@ Quando atualiza o conjunto de dados, o Power BI não se liga ao ficheiro no One
 
 ## <a name="whats-supported"></a>O que tem suporte?
 O Power BI suporta as opções **Atualizar** e **Agendar Atualização** para os conjuntos de dados criados através dos ficheiros do Power BI Desktop importados de uma unidade local onde utiliza as opções **Obter Dados** ou **Editor de Consultas** para se ligar e carregar dados a partir das seguintes origens de dados.
+
+> [!NOTE]
+> Os ficheiros importados no OneDrive são suportados. No entanto, os conjuntos de dados ligados em direto no OneDrive não são suportados como um cenário de atualização do OneDrive.
 
 ### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 * Todas as origens de dados online apresentadas nas opções **Obter Dados** e **Editor de Consultas** do Power BI Desktop.

@@ -1,19 +1,19 @@
 ---
 title: Encriptar credenciais
 description: Instruções – encriptar credenciais para origens de dados do Gateway no Local
-author: mahirdiab
-ms.author: madia
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/04/2019
-ms.openlocfilehash: 4747d548f8b02806c1e7b1359d140b09039e09d8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/08/2020
+ms.openlocfilehash: b1fc4a505aa993c606743eefb6e8fb8c0379317d
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863858"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75836612"
 ---
 # <a name="encrypt-credentials"></a>Encriptar credenciais
 
@@ -49,58 +49,11 @@ var credentials = "{\"credentialData\":\"\"}";
 
 **Encriptar credenciais**
 
-```csharp
-public static class AsymmetricKeyEncryptionHelper
-{
+Encriptar o valor das credenciais com a chave pública do gateway. As versões diferentes do gateway podem ter diferentes tamanhos de chave pública.
 
-    private const int SegmentLength = 85;
-    private const int EncryptedLength = 128;
+Veja o exemplo no código do SDK, disponível no repositório do GitHub PowerBI-CSharp, [PowerBI-CSharp/sdk/PowerBI.Api/Extensions/V2/](https://github.com/microsoft/PowerBI-CSharp/tree/master/sdk/PowerBI.Api/Extensions/V2).
 
-    public static string EncodeCredentials(string credentials, string publicKeyExponent, string publicKeyModulus)
-    {
-        using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(EncryptedLength * 8))
-        {
-            var parameters = rsa.ExportParameters(false);
-            parameters.Exponent = Convert.FromBase64String(publicKeyExponent);
-            parameters.Modulus = Convert.FromBase64String(publicKeyModulus);
-            rsa.ImportParameters(parameters);
-            return Encrypt(credentials, rsa);
-        }
-    }
-
-    private static string Encrypt(string plainText, RSACryptoServiceProvider rsa)
-    {
-        byte[] plainTextArray = Encoding.UTF8.GetBytes(plainText);
-
-        // Split the message into different segments, each segment's length is 85. So the result may be 85,85,85,20.
-        bool hasIncompleteSegment = plainTextArray.Length % SegmentLength != 0;
-
-        int segmentNumber = (!hasIncompleteSegment) ? (plainTextArray.Length / SegmentLength) : ((plainTextArray.Length / SegmentLength) + 1);
-
-        byte[] encryptedData = new byte[segmentNumber * EncryptedLength];
-        int encryptedDataPosition = 0;
-
-        for (var i = 0; i < segmentNumber; i++)
-        {
-            int lengthToCopy;
-
-            if (i == segmentNumber - 1 && hasIncompleteSegment)
-                lengthToCopy = plainTextArray.Length % SegmentLength;
-            else
-                lengthToCopy = SegmentLength;
-
-            var segment = new byte[lengthToCopy];
-
-            Array.Copy(plainTextArray, i * SegmentLength, segment, 0, lengthToCopy);
-
-            var segmentEncryptedResult = rsa.Encrypt(segment, true);
-
-            Array.Copy(segmentEncryptedResult, 0, encryptedData, encryptedDataPosition, segmentEncryptedResult.Length);
-
-            encryptedDataPosition += segmentEncryptedResult.Length;
-        }
-
-        return Convert.ToBase64String(encryptedData);
-    }
-}
-```
+- [AsymmetricKeyEncryptor.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AsymmetricKeyEncryptor.cs)
+- [Asymmetric1024KeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/Asymmetric1024KeyEncryptionHelper.cs)
+- [AsymmetricHigherKeyEncryptionHelper.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AsymmetricHigherKeyEncryptionHelper.cs)
+- [AuthenticatedEncryption.cs](https://github.com/microsoft/PowerBI-CSharp/blob/master/sdk/PowerBI.Api/Extensions/V2/AuthenticatedEncryption.cs)

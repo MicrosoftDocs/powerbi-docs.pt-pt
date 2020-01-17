@@ -6,62 +6,62 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4da25e0c6ea7115111bc057947183a8b86b5c2f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c72387d40ddf4b193481a37dbcb40695668eab66
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878692"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837350"
 ---
-# <a name="using-calculated-tables-in-power-bi-desktop"></a>Utilizar as tabelas calculadas no Power BI Desktop
-Com tabelas calculadas, pode adicionar uma nova tabela ao modelo. Mas em vez de consultar e carregar valores nas colunas da sua nova tabela a partir de uma origem de dados, cria uma fórmula DAX (Data Analysis Expressions) que define os valores da tabela. No Power BI Desktop, as tabelas calculadas são criadas através da funcionalidade Nova Tabela na Vista de Relatório ou Vista de Dados.
+# <a name="create-calculated-tables-in-power-bi-desktop"></a>Criar tabelas calculadas no Power BI Desktop
+Na maioria das vezes, cria tabelas ao importar dados para o seu modelo a partir de uma origem de dados externa. No entanto, as *tabelas calculadas* permitem-lhe adicionar novas tabelas com base nos dados que já carregou no modelo. Em vez de consultar e carregar valores nas colunas da sua nova tabela a partir de uma origem de dados, crie uma fórmula [DAX (Data Analysis Expressions)](/dax/index) que define os valores da tabela.
 
-Na maioria das vezes, importa dados para o seu modelo a partir de uma origem de dados externa. No entanto, as tabelas calculadas oferecem certas vantagens. As tabelas calculadas são geralmente melhores para cálculos intermédios e para dados que pretenda armazenados como parte do modelo, em vez de calculados dinamicamente ou como parte de uma consulta.
+DAX é uma linguagem de fórmulas para trabalhar com dados relacionais, como no Power BI Desktop. O DAX inclui uma biblioteca de mais de 200 funções, operadores e construtores, fornecendo enorme flexibilidade na criação de fórmulas para calcular os resultados de praticamente qualquer análise de dados que seja necessária. As tabelas calculadas são melhores para cálculos intermédios e para dados que pretenda armazenar como parte do modelo, em vez de calcular dinamicamente ou como resultados da consulta. Por exemplo, pode optar entre *union* e *cross join* de duas tabelas existentes.
 
-Ao contrário das tabelas criadas como parte de uma consulta, as tabelas calculadas criadas na Vista de Relatório ou Vista de Dados são baseadas em dados que já carregou no modelo. Por exemplo, pode optar entre union (união) e cross join (junção cruzada) de duas tabelas.
+À semelhança de outras tabelas do Power BI Desktop, as tabelas calculadas podem ter relações com outras tabelas. As colunas na tabela calculada têm tipos de dados, formatação e podem pertencer a uma categoria de dados. Pode nomear as suas colunas como pretender e adicioná-las a visualizações do relatório, tal como com outros campos. As tabelas calculadas são recalculadas se alguma das tabelas das quais solicitam dados for renovada ou atualizada.
 
-À semelhança das tabelas normais, as tabelas calculadas podem ter relações com outras tabelas. As colunas na tabela calculada têm tipos de dados, formatação e podem pertencer a uma categoria de dados. Pode nomear as suas colunas como desejar e adicioná-las a uma visualização de relatório, tal como com outros campos. As tabelas calculadas são recalculadas se alguma das tabelas das quais recebem dados por pull for de alguma forma renovada ou atualizada.
+## <a name="create-a-calculated-table"></a>Criar uma tabela calculada
 
-As tabelas calculadas calculam os resultados através de [DAX](https://msdn.microsoft.com/library/gg413422.aspx) (Data Analysis Expressions), uma linguagem de fórmula destinada a trabalhar com dados relacionais, como no Power BI Desktop. O DAX inclui uma biblioteca de mais de 200 funções, operadores e construtores, fornecendo enorme flexibilidade na criação de fórmulas para calcular os resultados de praticamente qualquer análise de dados que seja necessária.
+Pode criar tabelas calculadas com a funcionalidade **Nova Tabela** na Vista de Relatório ou Vista de Dados do Power BI Desktop.
 
-## <a name="lets-look-at-an-example"></a>Vejamos um exemplo
-O João, um gestor de projetos da Contoso, tem uma tabela com colaboradores no Noroeste e outra tabela com colaboradores no Sudoeste. Jeff deseja juntar as duas numa única tabela.
+Por exemplo, imagine que é um gestor do pessoal que tem uma tabela **Northwest Employees** e outra tabela **Southwest Employees**. Quer combinar as duas tabelas numa única tabela chamada **Western Region Employees**.
 
-**NorthwestEmployees**
+**Northwest Employees**
 
  ![](media/desktop-calculated-tables/calctables_nwempl.png)
 
-**SouthwestEmployees**
+**Southwest Employees**
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Com uma tabela calculada, é muito fácil unir essas duas tabelas. Embora o Jeff possa criar uma tabela calculada na Vista de Relatório ou Vista de Dados, é um pouco mais fácil fazê-lo na Vista de Dados, porque assim pode ver de imediato a nova tabela calculada.
+Na Vista de Relatório ou Vista de Dados do Power BI Desktop, no grupo **Cálculos** do separador **Modelação**, selecione **Nova Tabela**. É um pouco mais fácil fazer isso na Vista de Dados, porque pode ver imediatamente a sua nova tabela calculada.
 
-Na **Vista de Dados**, no separador **Modelação**, o Jeff clica em **Nova Tabela**. Uma barra de fórmulas é exibida.
+ ![Nova tabela na Vista de Dados](media/desktop-calculated-tables/calctables_formulabarempty.png)
 
- ![](media/desktop-calculated-tables/calctables_formulabarempty.png)
+Na barra de fórmulas, introduza a seguinte fórmula:
 
-Jeff introduz então a seguinte fórmula:
+```dax
+Western Region Employees = UNION('Northwest Employees', 'Southwest Employees')
+```
 
- ![](media/desktop-calculated-tables/calctables_formulabarformula.png)
+É criada uma nova tabela chamada **Western Region Employees** e aparece como qualquer outra tabela no painel **Campos**. Pode criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar campos a relatórios, tal como com qualquer outra tabela.
 
-É criada uma nova tabela chamada Western Region Employees.
+ ![Nova tabela calculada](media/desktop-calculated-tables/calctables_westregionempl.png)
 
- ![](media/desktop-calculated-tables/calctables_westregionempl.png)
-
-A nova tabela Western Region Employees de Jeff aparece como qualquer outra tabela na lista de Campos. O Jeff pode inclusivamente criar relações com outras tabelas, adicionar medidas e colunas calculadas e adicionar qualquer dos seus campos a relatórios, tal como com qualquer outra tabela.
-
- ![](media/desktop-calculated-tables/calctables_fieldlist.png)
+ ![Nova tabela no painel Campos](media/desktop-calculated-tables/calctables_fieldlist.png)
 
 ## <a name="functions-for-calculated-tables"></a>Funções para tabelas calculadas
-As tabelas calculadas podem ser definidas por qualquer expressão DAX que devolva uma tabela, incluindo uma referência simples a outra tabela. Por exemplo:
 
- ![](media/desktop-calculated-tables/calctables_formulabarsimpleformula.png)
+Pode definir uma tabela calculada por qualquer expressão DAX que devolva uma tabela, incluindo uma referência simples a outra tabela. Por exemplo:
 
-Pode usar tabelas calculadas com o DAX para solucionar muitos problemas analíticos. Fornecemos apenas uma rápida introdução às tabelas calculadas. Quando começar a trabalhar com tabelas calculadas, veja aqui algumas das funções DAX de tabela mais comuns e que podem ser úteis:
+```dax
+New Western Region Employees = 'Western Region Employees'
+```
+
+Este artigo fornece uma introdução rápida às tabelas calculadas. Pode usar tabelas calculadas com o DAX para solucionar muitos problemas analíticos. Aqui estão algumas das funções de tabela DAX mais comuns que pode utilizar:
 
 * DISTINCT
 * VALORES
@@ -73,5 +73,5 @@ Pode usar tabelas calculadas com o DAX para solucionar muitos problemas analíti
 * CALENDAR
 * CALENDARAUTO
 
-Consulte a [Referência de Função DAX](https://msdn.microsoft.com/ee634396.aspx) para estas e outras tabelas que devolvam funções DAX.
+Veja a [Referência de Funções DAX](/dax/dax-function-reference) para estas e outras funções DAX que devolvem tabelas.
 

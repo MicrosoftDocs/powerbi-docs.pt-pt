@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875040"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732044"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Criar um relatório paginado para o Power BI Report Server
+Neste artigo, vai criar um relatório paginado para o Power BI Report Server em poucos passos simples.
+
+Está à procura de ajuda com a criação de relatórios paginados no Report Builder do serviço Power BI? Veja [Report Builder Paginado do Power BI](../report-builder-power-bi.md).
+
 Como o nome indica, os relatórios paginados podem ocupar muitas páginas. Estão dispostos num formato fixo e oferecem uma personalização precisa. Os relatórios paginados são ficheiros .rdl.
 
 Pode armazenar e gerir relatórios paginados no portal Web do Power BI Report Server, tal como pode fazê-lo no portal Web do SQL Server Reporting Services (SSRS). Pode criar e editá-los no Report Builder ou Report Designer no SQL Server Data Tools (SSDT) e, em seguida, publicá-los através do portal Web. Depois, os leitores de relatórios na sua organização podem visualizá-los num browser ou numa aplicação móvel do Power BI, no respetivo dispositivo móvel.
@@ -24,7 +28,7 @@ Pode armazenar e gerir relatórios paginados no portal Web do Power BI Report Se
 
 Se já criou relatórios paginados no Report Builder ou no Report Designer, está pronto para criar relatórios paginados para o Power BI Report Server. Se não o fez, eis alguns passos rápidos para começar.
 
-## <a name="step-1-install-and-start-report-builder"></a>Passo 1: Instalar e iniciar o Report Builder
+## <a name="step-1-start-report-builder"></a>Passo 1: Iniciar o Report Builder
 Pode já ter instalado o Report Builder para criar relatórios para um servidor SSRS. Pode utilizar a mesma versão ou o Report Builder para criar relatórios para o Power BI Report Server. Se ainda não o instalou, o processo é simples.
 
 1. No portal Web do Power BI Report Server, selecione **Novo** > **Relatório Paginado**.
@@ -81,7 +85,7 @@ Pode também adicionar muitas outras visualizações: medidores, tabelas, matriz
 
 ![Vista de Estrutura do Report Builder](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Passo 4: Guardar o relatório no servidor de relatórios
+## <a name="step-4-save-your-report-to-the-report-server"></a>Step 4: Guardar o relatório no servidor de relatórios
 Quando o seu relatório estiver pronto, guarde-o no Power BI Report Server.
 
 1. No menu **Ficheiro**, selecione **Guardar como** e guarde-o no servidor de relatório. 
@@ -89,7 +93,7 @@ Quando o seu relatório estiver pronto, guarde-o no Power BI Report Server.
    
     ![Relatório paginado no browser](media/quickstart-create-paginated-report/reportserver-paginated-report.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem muitos recursos excelentes para estruturar relatórios no Report Builder e no Report Designer no SQL Server Data Tools. Os tutoriais do Report Builder são um bom local para começar.
 
 * [Tutoriais do Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)

@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866075"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759888"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinar dados de vendas do Excel e de um feed OData
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Analisar dados de vendas do Excel e de um feed OData
 
 É comum ter dados em múltiplas origens de dados. Por exemplo, pode ter duas bases de dados, uma para informações sobre o produto e outra para as informações de vendas. Com o **Power BI Desktop**, pode combinar dados de diferentes origens para criar análises e visualizações de dados interessantes e apelativas. 
 
@@ -118,7 +118,7 @@ O Editor do Power Query permite-lhe criar cálculos e campos personalizados para
    
 2. Na caixa de diálogo **Coluna Personalizada**, escreva **LineTotal** no campo **Nome da coluna nova**.
 
-3. No campo **Fórmula de coluna personalizada** após o *=* , introduza **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (Também pode selecionar os nomes de campo na caixa de deslocamento **Colunas disponíveis** e selecione **<< Inserir**, em vez de os escrever.) 
+3. No campo **Fórmula de coluna personalizada** a seguir ao *=* , introduza **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (Também pode selecionar os nomes de campo na caixa de deslocamento **Colunas disponíveis** e selecione **<< Inserir**, em vez de os escrever.) 
 
 4. Selecione **OK**.
    

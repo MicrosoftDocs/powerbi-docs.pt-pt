@@ -1,136 +1,145 @@
 ---
-title: Utilizar Temas de Relatório no Power BI Desktop
-description: Saiba como utilizar uma paleta de cores personalizadas e aplicá-la a um relatório completo no Power BI Desktop
+title: Utilizar temas de relatório no Power BI Desktop
+description: Saiba como utilizar uma paleta de cores personalizada e como a aplicar a um relatório completo no Power BI Desktop.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: c111b04847cba56781b1dd77f899d456ad5f4162
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223603"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731458"
 ---
-# <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar Temas de Relatório no Power BI Desktop
-Com os **Temas de Relatório**, pode aplicar alterações de conceção a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um **Tema de Relatório**, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado. Existem algumas exceções (descritas mais à frente neste artigo).
+# <a name="use-report-themes-in-power-bi-desktop"></a>Utilizar temas de relatório no Power BI Desktop
+Com os *temas de relatório* do Power BI Desktop, pode aplicar alterações de design a todo o relatório, como utilizar cores da empresa, alterar conjuntos de ícones ou aplicar uma nova formatação visual predefinida. Quando aplica um tema de relatório, todos os elementos visuais no relatório utilizam as cores e a formatação do tema selecionado. Existem algumas exceções, descritas mais à frente neste artigo.
 
 ![Temas de relatório](media/desktop-report-themes/report-themes-1a.png)
 
-Quando aplica um **Tema de Relatório** personalizado, precisa de um ficheiro JSON que utilize uma estrutura básica. Em seguida, pode importar este ficheiro JSON para o Power BI Desktop e aplicá-lo ao relatório.
+Existem dois tipos de temas de relatório – temas de relatório incorporados e ficheiros de temas de relatório personalizados:
 
-Também pode personalizar e padronizar praticamente todos os elementos vistos no painel **Formatação**, quer através de personalizações feitas diretamente no Power BI Desktop, quer através do ficheiro JSON do tema. O objetivo é fornecer o controlo total sobre o aspeto e a funcionalidade dos seus relatórios, a um nível granular.
+- Os temas de relatório incorporados fornecem tipos diferentes de esquemas de cores predefinidos que são instalados com o Power BI Desktop. Pode selecionar os temas de relatório incorporados diretamente no menu do Power BI Desktop. 
 
-## <a name="how-report-themes-work"></a>Como funcionam os Temas de Relatório
-Para aplicar um Tema de Relatório a um relatório do Power BI Desktop, selecione numa lista de temas de relatório incorporados disponíveis ou crie ou importe um tema personalizado.
+- Os ficheiros de temas de relatório personalizados são temas de relatório criados em ficheiros JSON que definem a estrutura básica. Para aplicar um tema de relatório personalizado, pode importar o ficheiro JSON para o Power BI Desktop e aplicá-lo ao relatório.
 
-| Tema dos relatórios incorporados | Sequência de cores predefinidas    |
+Pode personalizar e padronizar praticamente todos os elementos listados na secção **Formatar** do painel **Visualizações**, quer através de personalizações feitas diretamente no Power BI Desktop, quer através de um ficheiro JSON de temas de relatório. O objetivo é fornecer o controlo total sobre o aspeto e a funcionalidade do relatório, a nível granular.
+
+## <a name="how-report-themes-work"></a>Como funcionam os temas de relatório
+Para aplicar um tema de relatório a um relatório do Power BI Desktop, selecione numa lista de temas de relatório incorporados disponíveis ou crie ou importe um ficheiro de temas personalizados.
+
+### <a name="built-in-report-themes"></a>Temas de relatório incorporados
+
+Para selecionar de entre os temas de relatório incorporados disponíveis: 
+
+1. Selecione **Mudar Tema** no friso **Base**. 
+
+   ![Selecionar um tema de relatório](media/desktop-report-themes/report-themes-2a.png)
+
+2. Selecione um dos temas incluídos no menu pendente.
+
+   O tema de relatório é agora aplicado ao relatório.
+
+A tabela seguinte mostra os temas de relatório incorporados disponíveis.
+
+| Tema de relatório incorporado | Sequência de cores predefinidas    |
 |------ |---------- |
-| Predefinição   | ![predefinição](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise  | ![highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Executivo     | ![executivo](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontier  | ![fronteira](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Inovador    | ![inovador](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Em flor     | ![em flor](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Tidal | ![tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Temperatura   | ![temperatura](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Solar | ![solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergente     | ![divergente](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Tempestade     | ![tempestade](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Clássico   | ![clássico](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Parque da cidade     | ![parque da cidade](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Sala de aula     | ![sala de aula](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Seguro para daltónicos   | ![seguro para daltónicos](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Elétrico  | ![elétrico](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Alto contraste     | ![alto contraste](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Pôr-do-sol    | ![pôr do sol](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Crepúsculo  | ![crepúsculo](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+| Predefinição   | ![Predefinição](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| Highrise  | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| Executivo     | ![Executivo](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Fronteira  | ![Fronteira](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| Inovador  | ![Inovador](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| Em flor     | ![Em flor](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| Tidal | ![Tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| Temperatura   | ![Temperatura](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| Solar | ![Solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| Divergente     | ![Divergente](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| Tempestade     | ![Tempestade](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Clássico   | ![Clássico](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| Parque da cidade     | ![Parque da cidade](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| Sala de aula     | ![Sala de aula](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| Seguro para daltónicos   | ![Seguro para daltónicos](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| Elétrico  | ![Elétrico](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| Alto contraste     | ![Alto contraste](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| Pôr-do-sol    | ![Pôr-do-sol](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| Crepúsculo  | ![Crepúsculo](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
-Para selecionar a partir de uma lista de temas de relatórios incorporados disponíveis, selecione o botão **Mudar Tema** no friso **Base** e, em seguida, selecione um dos temas incluídos no menu pendente.
+### <a name="import-custom-report-theme-files"></a>Importar ficheiros de temas de relatório personalizados
 
-![Selecionar um tema de relatório](media/desktop-report-themes/report-themes-2a.png)
+Para importar um ficheiro de temas de relatório personalizados: 
 
-O tema de relatório é aplicado ao relatório, estando agora pronto para começar.
+1. Selecione **Mudar Tema** no friso **Base** e, em seguida, selecione **Importar Tema** no menu pendente. 
 
-### <a name="importing-report-themes"></a>Importar Temas de Relatório
+   ![Importar tema](media/desktop-report-themes/report-themes-3a.png)
 
-Para importar um Tema de Relatório personalizado, selecione o botão **Mudar Tema** no friso **Base**. Em seguida, selecione **Importar Tema** no menu pendente.
+   É apresentada uma janela que lhe permite navegar para a localização do ficheiro de tema JSON. 
 
-![Importar tema](media/desktop-report-themes/report-themes-3a.png)
+2. Na imagem seguinte, estão disponíveis alguns ficheiros de tema de feriado. Vamos escolher um tema de feriado de março, *St Patricks Day.json*.
 
-É apresentada uma janela que lhe permite navegar para a localização do ficheiro de tema JSON. O Power BI Desktop procura os ficheiros .JSON porque o JSON é o tipo de ficheiro dos Temas de Relatório do Power BI. Na imagem seguinte, estão disponíveis alguns ficheiros de tema de feriado. Vamos escolher um tema de feriado de março.
+   ![Tema de feriado](media/desktop-report-themes/report-themes_4.png)
 
-![Tema de feriado](media/desktop-report-themes/report-themes_4.png)
+   Quando o ficheiro de temas tiver sido carregado com êxito, o Power BI Desktop apresenta uma mensagem.
 
-Quando o ficheiro de tema tiver sido carregado com êxito, o Power BI Desktop informa-o.
+   ![Tema importado com êxito](media/desktop-report-themes/report-themes_5.png)
 
-![Tema importado com êxito](media/desktop-report-themes/report-themes_5.png)
-
-Há duas formas de personalizar temas no Power BI Desktop. Vejamos uma de cada vez.
-
+Existem duas formas de personalizar temas de relatório no Power BI Desktop. Vejamos uma de cada vez.
 
 ## <a name="customize-report-themes-preview"></a>Personalizar temas de relatório (pré-visualização)
 
-A partir do lançamento de dezembro de 2019 do **Power BI Desktop**, há agora duas formas de personalizar um tema de relatório:
+A partir da versão de dezembro de 2019 do Power BI Desktop, existem duas formas de personalizar um tema de relatório:
 
-* Criar e personalizar um tema no Power BI Desktop (pré-visualização)
-* Criar e personalizar um ficheiro JSON do Tema de Relatório personalizado
+* [Criar e personalizar um tema no Power BI Desktop (pré-visualização)](#create-and-customize-a-theme-in-power-bi-desktop-preview)
+* [Criar e personalizar um ficheiro JSON de temas de relatório personalizados](#introduction-to-report-theme-json-files)
 
-Para personalizar um tema diretamente no Power BI Desktop, tem de começar por selecionar **Ficheiro> Opções e definições > Opções** e, em seguida, na secção **Funcionalidades de pré-visualização**, selecionar a caixa junto a **Personalizar tema atual**, como mostra a imagem seguinte.
+### <a name="create-and-customize-a-theme-in-power-bi-desktop-preview"></a>Criar e personalizar um tema no Power BI Desktop (pré-visualização)
 
-![Ativar temas personalizados](media/desktop-report-themes/report-themes_5a.png)
+A partir da versão de dezembro de 2019 do Power BI Desktop, a capacidade de personalizar um tema diretamente no Power BI Desktop ficou disponível como pré-visualização.
 
-Poderá ser-lhe pedido para reiniciar o Power BI Desktop para a funcionalidade de pré-visualização ser ativada.
+Para personalizar um tema diretamente no Power BI Desktop: 
 
-Depois de reiniciar, pode começar a personalizar o tema atual ao selecionar o friso **Base** e, em seguida, selecionar **Mudar tema > Personalizar tema atual** a partir do friso. É apresentada uma caixa de diálogo, que mostra as várias formas de personalizar um tema existente.
+1. Selecione **Ficheiro** > **Opções e definições** > **Opções**. 
 
-![Personalizar o tema](media/desktop-report-themes/report-themes_5b.png)
+2. Na secção **Funcionalidades de pré-visualização**, selecione **Personalizar tema atual** e, em seguida, selecione **OK**.
 
-Se gostar de um tema existente e quiser fazer alguns ajustes, pode selecionar um tema existente e depois selecionar **Personalizar tema atual** na caixa de diálogo, como mostra a imagem seguinte. 
+   ![Ativar temas personalizados](media/desktop-report-themes/report-themes_5a.png)
 
-![Personalizar o tema atual](media/desktop-report-themes/report-themes_5c.png)
+   Pode ser-lhe pedido para reiniciar o Power BI Desktop para que a funcionalidade de pré-visualização seja ativada. Depois de reiniciar, pode começar a personalizar o tema aplicado atualmente. 
 
-> [!NOTE]
-> A imagem anterior foi capturada com o novo friso ativado, que está atualmente em pré-visualização. Pode ativar a pré-visualização do novo friso ao selecionar **Ficheiro > Opções e definições > Opções** e, em seguida, na secção **Funcionalidades de pré-visualização**, selecionar **Pré-visualização do friso novo**.
+3. No friso **Base**, selecione **Mudar tema** > **Personalizar tema atual**. 
 
-As definições de temas que podem ser personalizadas encontram-se nas seguintes categorias, apresentadas na caixa de diálogo de personalização de temas:
+   É apresentada uma caixa de diálogo, que mostra as formas de personalizar um tema existente.
 
-* Nome do tema (pode atribuir um nome ao tema que está a personalizar) e várias definições de cores (cores do tema, cores dos sentimentos, cores divergentes e mais)
-* Definições de texto, incluindo família do tipo de letra, tamanho e cor, bem como títulos de eixos, cores, cartões e KPIs e cabeçalhos de separadores
-* Os elementos visuais, tais como o fundo, o limite, o cabeçalho e as descrições
-* Elementos da página, como o padrão de fundo e o fundo
-* Definições do painel de filtro, incluindo cor de fundo, transparência, cor do tipo de letra e do ícone, tamanho, cartões de filtro e mais
+   ![Personalizar o tema](media/desktop-report-themes/report-themes_5b.png)
 
-Depois de fazer as suas alterações e selecionar o botão **Aplicar e guardar**, o seu tema será guardado e poderá então ser utilizado no relatório atual. Além disso, também poderá ser exportado. 
+4. Se gostar de um tema existente e quiser fazer alguns ajustes, selecione o tema e, em seguida, **Personalizar tema atual**. 
 
-Personalizar o tema atual desta forma pode acelerar e facilitar o trabalho visual de personalização de temas. No entanto, existem alguns ajustes finitos aos temas que requerem a modificação do ficheiro JSON do tema, tal como descrito na secção seguinte.
+   ![Personalizar o tema atual](media/desktop-report-themes/report-themes_5c.png)
+
+As definições de temas personalizáveis encontram-se nas seguintes categorias, apresentadas na janela **Personalizar tema**:
+
+* **Nome e cores**: as definições de nome e de cores do tema incluem as cores do tema, as cores dos sentimentos e cores divergentes.
+* **Text**: as definições de texto incluem a família, o tamanho e a cor do tipo de letra, bem como os títulos de eixos, as cores, os cartões, os KPIs e os cabeçalhos de separadores.
+* **Elementos visuais**: as definições de elementos visuais incluem o fundo, o limite, o cabeçalho e as descrições.
+* **Página**: as definições dos elementos da página incluem o padrão de fundo e o fundo.
+* **Painel de filtro**: as definições do painel de filtro incluem a cor de fundo, a transparência, a cor do tipo de letra e do ícone, o tamanho e os cartões de filtro.
+
+Depois de fazer as alterações, selecione **Aplicar e guardar** para guardar o tema. O tema pode agora ser utilizado no relatório atual e ser exportado. 
+
+Personalizar o tema atual desta forma acelera e facilita o trabalho visual da personalização dos temas. No entanto, pode fazer ajustes mais precisos aos temas, o que requer a modificação do [ficheiro JSON](#report-theme-json-file-format) do tema.
 
 > [!TIP]
-> Pode personalizar a maioria dos elementos temáticos através dos elementos visuais com a caixa de diálogo **Personalizar tema atual** e, em seguida, pode exportar o ficheiro JSON e fazer ajustes otimizados manualmente (ao modificar o próprio ficheiro JSON). Assim, poderá mudar o nome desse ficheiro JSON otimizado, importá-lo e fazer todos os ajustes que pretender.
+> Pode personalizar a maioria dos elementos do tema através dos elementos visuais na janela **Personalizar tema**. Em seguida, pode opcionalmente exportar o ficheiro JSON e fazer ajustes precisos manualmente ao modificar as definições no ficheiro JSON. Pode mudar o nome desse ficheiro JSON ajustado e importá-lo mais tarde.
 
+## <a name="introduction-to-report-theme-json-files"></a>Introdução aos ficheiros JSON de temas de relatório
+ Quando abre o ficheiro JSON básico mencionado na secção anterior (St Patricks Day.json), este aparece da seguinte forma:
 
-## <a name="structure-of-a-report-theme-json-file"></a>Estrutura de um ficheiro JSON de Tema de Relatório
- Quando aberto num editor, o ficheiro JSON básico selecionado na secção anterior (o ficheiro *St Patricks Day.json*) é semelhante à seguinte captura de ecrã:
-
-![Ficheiro JSON do dia de São Patrício](media/desktop-report-themes/report-themes_6.png)
-
-Esse ficheiro JSON tem as seguintes linhas obrigatórias:
-
-* **name**: nome do tema, o único campo obrigatório.
-
-* **dataColors**: a lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode ter o número de cores que pretende.
-
-* **background**, **foreground** e **tableAccent**: várias classes de cores. Abordaremos os detalhes das classes de cores mais adiante neste artigo, mas sabemos que as classes de cores permitem que defina várias cores no relatório de uma só vez.
-
-Segue-se o texto do ficheiro *St Patricks Day.json* que pode utilizar para criar o seu próprio ficheiro JSON:
-
-```json
+ ```json
     {
-        "name": "St Patricks Day",
+        "name": "St Patrick's Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
         "background":"#FFFFFF",
         "foreground": "#3A6108",
@@ -138,68 +147,79 @@ Segue-se o texto do ficheiro *St Patricks Day.json* que pode utilizar para criar
     }
 ```
 
-Se só quiser fazer ajuste nas cores básicas do relatório, poderá alterar apenas o nome e os códigos hexadecimais deste ficheiro para obter o seu próprio ficheiro JSON pessoal pronto a importar.
+Este ficheiro JSON de temas de relatório tem as seguintes linhas:
 
-No ficheiro JSON, define apenas a formatação que quer ajustar, o que *não* estiver especificado no ficheiro JSON reverte simplesmente para as predefinições do Power BI.
+* **name**: nome do tema de relatório. Este é o único campo obrigatório.
 
-São várias as vantagens de criar um ficheiro JSON. Por exemplo, pode especificar que todos os gráficos utilizam um tamanho de tipo de letra 12 ou que determinados elementos visuais utilizam uma determinada família de tipos de letra. Alternativamente, pode desativar as etiquetas de dados para tipos de gráfico específicos.
+* **dataColors**: a lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. Esta lista pode ter o número de cores que quiser.
 
-Quando utiliza um ficheiro JSON granular, pode criar um ficheiro de tema que uniformize os gráficos e os relatórios, o que torna os relatórios da organização mais consistentes.
+* **background**, **foreground** e **tableAccent**: classes de cores. As classes de cores permitem definir várias cores no relatório de uma só vez. 
 
-Para obter informações acerca do formato do ficheiro JSON detalhado, veja a secção **Formato de ficheiro JSON do tema de relatório** neste artigo.
+Pode utilizar este ficheiro JSON como base para criar o seu próprio ficheiro de temas de relatório personalizados a importar. Se quiser ajustar apenas as cores básicas do relatório, altere o nome e os códigos hexadecimais no ficheiro.
 
-## <a name="how-report-theme-colors-stick-to-your-reports"></a>De que forma as cores do Tema de Relatório permanecem nos relatórios
-Ao publicar o relatório no **serviço Power BI**, as cores do Tema de Relatório permanecem no mesmo.
+Num ficheiro JSON de temas de relatório, define apenas a formatação que deseja alterar. Tudo o que não especificar no ficheiro JSON é revertido para as predefinições do Power BI Desktop.
 
-A secção **Cores de dados** do painel **Formatar** reflete o Tema de Relatório. Por exemplo, depois de aplicarmos as inúmeras cores verdes e castanhas do tema **dia de São Patrício**, selecionamos um elemento visual. Em seguida, acedemos a **Formato > Cores de dados** e vemos as seguintes informações:
+São várias as vantagens de criar um ficheiro JSON. Por exemplo, pode especificar que todos os gráficos utilizam um tamanho de tipo de letra 12, que determinados elementos visuais utilizam uma determinada família de tipos de letra ou que as etiquetas de dados estão desativadas para tipos de gráfico específicos. Ao utilizar um ficheiro JSON, pode criar um ficheiro de temas de relatório que uniformize os gráficos e os relatórios, o que torna os relatórios da organização mais consistentes.
 
-![Visualizações](media/desktop-report-themes/report-themes_8.png)
+Para obter mais informações sobre o formato do ficheiro JSON, veja [Formato do ficheiro JSON de temas de relatório](#report-theme-json-file-format).
 
-Vê todo este verde? Tal acontece porque estas cores fazem parte do **Tema de Relatório** que importámos e aplicámos.
+## <a name="how-report-theme-colors-stick-with-your-reports"></a>Como as cores do tema de relatório permanecem nos relatórios
+Ao publicar o relatório no serviço Power BI, as cores do tema de relatório permanecem no mesmo. A secção **Cores de dados** do painel **Formatar** reflete o tema de relatório. 
 
-As cores na paleta de cores também são relativas ao tema atual. Portanto, se selecionar a terceira cor da linha superior de um ponto de dados, por exemplo, e posteriormente alterar para o tema diferente, a cor deste ponto de dados será atualizada para a terceira cor da linha superior no novo tema automaticamente, tal como aconteceria ao alterar os temas no Microsoft Office.
+Para ver as cores disponíveis num tema de relatório:
 
-### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situações em que as cores do Tema de Relatório não permanecem nos relatórios
-Digamos que aplica um conjunto de cores personalizadas (ou uma cor individual) a um determinado ponto de dados num elemento visual com a opção Cor personalizada no seletor de cores. Quando aplica um Tema de Relatório, este *não* vai substituir essa cor de ponto de dados personalizado.
+1. Selecione um elemento visual. 
 
-Talvez também queira definir manualmente a cor de uma cor de ponto de dados com a secção Cores do tema. As cores *não* serão atualizadas quando aplica um novo Tema de Relatório. Se quiser voltar a ter as cores predefinidas, para que sejam atualizadas quando aplicar um novo Tema de Relatório, selecione **Reverter para a predefinição** ou selecione uma cor na paleta **Cores do tema** no seletor de cores.
+2. Na secção **Formatar** do painel **Visualização**, selecione **Cores de dados**.
+ 
+3. Selecione a lista pendente de um item para ver as informações das **Cores do tema** do tema de relatório.
+
+   ![Cores do tema](media/desktop-report-themes/report-themes_8.png)
+
+No nosso exemplo, depois de aplicar as inúmeras cores verdes e castanhas do tema de relatório do Dia de São Patrício, veja as cores do tema. Vê todo este verde? Tal acontece porque estas cores fazem parte do tema de relatório que importámos e aplicámos.
+
+As cores na paleta de cores são relativas ao tema atual. Por exemplo, suponha que seleciona a terceira cor da linha superior para um ponto de dados. Mais tarde, se alterar para um tema diferente, a cor desse ponto de dados será atualizada automaticamente para a terceira cor da linha superior no novo tema, assim como veria ao alterar os temas no Microsoft Office.
+
+### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situações em que as cores do tema de relatório não permanecem nos relatórios
+Suponha que aplica um conjunto de cores personalizadas (ou uma cor individual) a um determinado ponto de dados num elemento visual com a opção **Cor personalizada** do seletor de cores. Quando aplica um tema de relatório, este *não* substitui essa cor personalizada do ponto de dados.
+
+Imagine que quer definir manualmente a cor de um ponto de dados com a secção **Cores do tema**. Quando aplica um novo tema de relatório, as cores *não* são atualizadas. Para voltar a ter as cores predefinidas, para que sejam atualizadas quando aplicar um novo tema de relatório, selecione **Reverter para a predefinição** ou selecione uma cor na paleta **Cores do tema** do seletor de cores.
 
 ![Reverter para predefinição](media/desktop-report-themes/report-themes_9.png)
 
-Além disso, muitos **Elementos Visuais Personalizados** não são aplicados aos Temas de Relatório.
+Muitos elementos visuais personalizados não se aplicam aos temas de relatório.
 
-## <a name="report-theme-files-you-can-use-right-now"></a>Ficheiros do Tema de Relatório que pode utilizar atualmente
-Quer começar a utilizar **Temas de Relatório**? Seguem-se alguns ficheiros JSON do Tema de Relatório prontos a utilizar que pode transferir e importar para o seu relatório do **Power BI Desktop**. Também incluímos uma imagem do Tema de Relatório que é aplicada ao relatório neste artigo.
+## <a name="custom-report-theme-files-you-can-use-right-now"></a>Ficheiros de temas de relatório personalizados que pode utilizar atualmente
+Quer começar a utilizar temas de relatório? Confira os temas de relatório personalizados na [galeria de temas](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) ou experimente os seguintes ficheiros JSON de temas de relatório personalizados, que pode transferir e importar para o relatório do Power BI Desktop:
 
-* O [tema](https://go.microsoft.com/fwlink/?linkid=843924) utilizado na [mensagem do blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) que anunciou a primeira versão dos **Temas de Relatório**, denominado [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
+* [Tema de onda](https://community.powerbi.com/t5/Themes-Gallery/Waveform/m-p/140536). Este tema de relatório foi introduzido na [publicação de blogue](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) que anunciou o primeiro lançamento de temas de relatório. [Transferir Waveform.json](https://go.microsoft.com/fwlink/?linkid=843924).
 
-  ![O tema waverform.json](media/desktop-report-themes/report-themes_10.png)
+  ![Tema Waverform.json](media/desktop-report-themes/report-themes_10.png)
 
-* O [tema que é mais fácil de ler para pessoas com deficiências visuais](https://go.microsoft.com/fwlink/?linkid=843923) relativamente ao tema de cor predefinido. Este é chamado [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923).
+* [Tema adequado para daltónicos](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597).
+Este tema de relatório é mais fácil de ler para pessoas com deficiências visuais. [Transferir ColorblindSafe-Longer.json](https://go.microsoft.com/fwlink/?linkid=843923).
 
-  ![O tema ColorblindSafe-longer.json.](media/desktop-report-themes/report-themes_11.png)
+  ![Tema ColorblindSafe-longer.json](media/desktop-report-themes/report-themes_11.png).
 
-* Um grupo de [temas do Power View](https://go.microsoft.com/fwlink/?linkid=843925) combinados num único ficheiro zip, incluindo um denominado [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925), mostrado abaixo.
+* Temas do Power View, incluindo Apothecary.json. [Transferir temas do Power View num ficheiro zip](https://go.microsoft.com/fwlink/?linkid=843925).
 
-  ![O tema Apothecary.json](media/desktop-report-themes/report-themes_12.png)
+  ![Tema Apothecary.json](media/desktop-report-themes/report-themes_12.png)
 
-* Por último, segue-se o tema *Dia de São Valentim*.
+* Tema do Dia de São Valentim.
 
-  ![O tema do Dia de São Valentim](media/desktop-report-themes/report-themes_13.png)
+  ![Tema do Dia de São Valentim](media/desktop-report-themes/report-themes_13.png)
 
-Em vez de disponibilizar uma transferência, fornecemos o código para o ficheiro JSON do Dia de São Valentim:
+  Veja a seguir o código do ficheiro JSON do Dia de São Valentim:
 
-```json
-    {
-        "name": "Valentine's Day",
-        "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
-        "background":"#FFFFFF",
-        "foreground": "#ee7799",
-        "tableAccent": "#990011"
-    }
-```
-
-Os **Temas de Relatório** podem tornar os seus relatórios do Power BI Desktop uma reflexão colorida de si, da organização ou mesmo da época ou feriado atual. 
+   ```json
+       {
+           "name": "Valentine's Day",
+           "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
+           "background":"#FFFFFF",
+           "foreground": "#ee7799",
+           "tableAccent": "#990011"
+       }
+   ```
 
 Seguem-se mais alguns temas de relatório que pode utilizar como pontos de partida:
 
@@ -208,8 +228,27 @@ Seguem-se mais alguns temas de relatório que pode utilizar como pontos de parti
 * [Outono](https://community.powerbi.com/t5/Themes-Gallery/Autumn/m-p/140746)
 * [Alto contraste](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
+Os temas de relatório podem tornar os seus relatórios do Power BI Desktop numa reflexão colorida de si, da organização ou mesmo da época ou feriado atual. 
+
+
+## <a name="export-report-themes-preview"></a>Exportar temas de relatório (pré-visualização)
+
+A partir da versão de dezembro de 2019 do Power BI Desktop, tem agora a opção de exportar o tema de relatório atualmente aplicado diretamente do Power BI Desktop para um ficheiro JSON. Depois de exportar um tema de relatório, poderá reutilizá-lo nos seus próprios relatórios. Esta opção permite exportar o ficheiro JSON para a maioria dos temas incorporados. As únicas exceções são os temas base, Clássico e Predefinido, em que outros temas se baseiam quando são importados. 
+
+Para exportar o tema atualmente aplicado do Power BI Desktop: 
+
+1. Selecione **Ficheiro** > **Opções e definições** > **Opções**. 
+
+2. Na secção **Funcionalidades de pré-visualização**, selecione **Personalizar tema atual** e, em seguida, selecione **OK**.
+
+   Pode ser-lhe pedido para reiniciar o Power BI Desktop para que a funcionalidade de pré-visualização seja ativada. Depois de reiniciar, pode começar a exportar o tema aplicado atualmente. 
+
+3.  No friso **Base**, selecione **Mudar tema** > **Exportar tema atual**. 
+
+4. Na caixa de diálogo **Guardar Como**, navegue para um diretório para guardar o ficheiro JSON e, em seguida, selecione **Guardar**.
+
 ## <a name="report-theme-json-file-format"></a>Formato de ficheiro JSON do tema de relatório
-No seu nível mais básico, o ficheiro JSON de temas tem apenas uma linha necessária: o **nome**. 
+No seu nível mais básico, o ficheiro JSON de temas tem apenas uma linha necessária: **name**. 
 
 ```json
     {
@@ -217,14 +256,13 @@ No seu nível mais básico, o ficheiro JSON de temas tem apenas uma linha necess
     }
 ```
 
-Além do *nome*, tudo o resto é opcional, o que significa que é livre apenas de adicionar as propriedades que deseja formatar especificamente para o ficheiro de temas e continuar a utilizar as predefinições do Power BI para o resto. 
+Além de **name**, tudo o resto é opcional, o que significa que é livre de adicionar apenas as propriedades que deseja formatar especificamente para o ficheiro de temas e continuar a utilizar as predefinições do Power BI para o resto. 
 
-No nome, pode adicionar algumas propriedades básicas relacionadas com a cor dos dados. 
+Em **name**, pode adicionar as seguintes propriedades básicas relacionadas com a cor dos dados: 
 
-
-* **dataColors**: a lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. A lista pode ter o número de cores que pretende. Após todas as cores desta lista terem sido utilizadas, se o elemento visual ainda precisar de mais cores, será revertido para utilizar a paleta de cores predefinida do Power BI. 
-* **boa, neutra, incorreta**: estes valores definem as cores do estado utilizadas pelo gráfico de cascata e pelo elemento visual do KPI.
-* **maximum, center, minimum, null**: estas cores definem as várias cores de gradiente na caixa de diálogo da formatação condicional.  
+* **dataColors**: a lista de códigos de cor hexadecimais a utilizar para os dados em elementos visuais do Power BI Desktop. Esta lista pode ter o número de cores que quiser. Após todas as cores desta lista terem sido utilizadas, se o elemento visual ainda precisar de mais cores, será revertido para utilizar a paleta de cores predefinida do Power BI. 
+* **good**, **neutral**, **bad**: estas propriedades definem as cores do estado utilizadas pelo gráfico de cascata e pelo elemento visual do KPI.
+* **maximum**, **center**, **minimum**, **null**: estas cores definem as várias cores de gradiente na caixa de diálogo da formatação condicional.  
 
 Um tema básico que define estas cores teria o seguinte aspeto:
 
@@ -253,23 +291,22 @@ Um tema básico que define estas cores teria o seguinte aspeto:
     }
 ```
 
-Em seguida, pode adicionar várias classes de cores. As classes de cores permitem definir várias cores por todo o relatório numa linha, ao agrupar propriedades de elementos visuais semelhantes que geralmente têm a mesma cor. 
+Em seguida, pode adicionar várias classes de cores, como **background** e **foreground**. As classes de cores permitem definir várias cores por todo o relatório numa linha, ao agrupar propriedades de elementos visuais semelhantes que geralmente têm a mesma cor. 
 
-Pode ver as seis classes de cores que pode formatar na tabela a seguir.
-
+A tabela seguinte mostra as seis classes de cores que pode formatar.
 
 |Classe de cores  |O que é formatado  |
 |---------|---------|
-|primeiro plano | Cor do fundo das etiquetas (quando estiver fora dos pontos de dados) <br> Cor da linha de tendência <br>  Cor predefinida da caixa de texto <br> Valores de tabela e matriz e cores de tipo de letra totais Cor do eixo das barras de dados <br> Etiquetas de dados de cartão <br> Valor de cor de chamada de medidor <br> Cor do objetivo do KPI <br>  Cor do texto do KPI <br> Cor do item da segmentação (quando no Modo de foco)  <br> Cor do tipo de letra do item pendente da segmentação <br> Cor do tipo de letra da entrada numérica da segmentação <br> Cor do tipo de letra do cabeçalho da segmentação <br> Cor da linha de proporção do gráfico de dispersão <br> Cor da linha da previsão do gráfico de linhas <br> Cor da linha de preenchimento do mapa <br> Cor do painel de filtro e texto do cartão|
-|foregroundNeutralSecondary |Cores da etiqueta  <br> Cor da etiqueta da legenda <br> Cor da etiqueta do eixo <br> Cor do tipo de letra do cabeçalho da tabela e da matriz <br> Cor da linha de preenchimento de destino e destino do medidor <br>  Cor do eixo de tendência do KPI <br> Cor do controlo de deslize da segmentação <br> Cor do tipo de letra do item da segmentação <br> Cor do contorno da segmentação <br> Cor do cursor do gráfico de linhas <br> Cor do título do cartão multilinhas <br> Cor do traço do gráfico do friso <br> Cor do limite do mapa de forma <br> Cor do tipo de letra do texto do botão <br> Cor da linha do ícone do botão <br> Cor do contorno do botão |
-| foregroundNeutralTertiary | cor esbatida da legenda <br> Cor das etiquetas de categoria do cartão <br> Cor das etiquetas de categoria do cartão multilinhas <br> Cor da barra do cartão multilinhas <br> Cor do traço da taxa de conversão do gráfico de funil 
-| backgroundLight | Cor da linha de grelha do eixo <br> Cor da grelha de tabela e matriz <br> Cor do fundo do cabeçalho da segmentação (quando no Modo de foco)  <br> Cor do contorno do cartão multilinhas  <br> Cor de preenchimento da forma <br> Cor de fundo do arco do medidor <br> Cor do fundo do cartão de filtro aplicado <br> |
-backgroundNeutral | Cor do contorno da grelha de tabela e matriz <br> Cor predefinida do mapa de forma <br> Cor de preenchimento do friso do gráfico de friso (quando a opção Fazer corresponder série está desativada) |
-fundo | Cor do fundo das etiquetas (quando estiver dentro dos pontos de dados) <br> Cor do fundo de itens pendentes da segmentação  <br> Cor do traço do gráfico em anel <br> Cor do traço do gráfico treemap <br> Cor do fundo do gráfico de combinação <br> Cor de preenchimento do botão <br> Cor do fundo do cartão do painel de filtro e do filtro disponível |
-tableAccent | Substitui a cor do contorno da grelha da tabela e da matriz quando presente |
+|**foreground** | Cor do fundo das etiquetas (quando estiver fora dos pontos de dados) <br> Cor da linha de tendência <br>  Cor predefinida da caixa de texto <br> Valores de tabela e matriz e cores de tipo de letra totais Cor do eixo das barras de dados <br> Etiquetas de dados de cartão <br> Valor de cor de chamada de medidor <br> Cor do objetivo do KPI <br>  Cor do texto do KPI <br> Cor do item da segmentação (quando no modo de detalhe)  <br> Cor do tipo de letra do item pendente da segmentação <br> Cor do tipo de letra da entrada numérica da segmentação <br> Cor do tipo de letra do cabeçalho da segmentação <br> Cor da linha de proporção do gráfico de dispersão <br> Cor da linha da previsão do gráfico de linhas <br> Cor da linha de preenchimento do mapa <br> Cor do painel de filtro e texto do cartão|
+|**foregroundNeutralSecondary** |Cores da etiqueta  <br> Cor da etiqueta da legenda <br> Cor da etiqueta do eixo <br> Cor do tipo de letra do cabeçalho da tabela e da matriz <br> Cor da linha de preenchimento de destino e destino do medidor <br>  Cor do eixo de tendência do KPI <br> Cor do controlo de deslize da segmentação <br> Cor do tipo de letra do item da segmentação <br> Cor do contorno da segmentação <br> Cor do cursor do gráfico de linhas <br> Cor do título do cartão multilinhas <br> Cor do traço do gráfico do friso <br> Cor do limite do mapa de forma <br> Cor do tipo de letra do texto do botão <br> Cor da linha do ícone do botão <br> Cor do contorno do botão |
+| **foregroundNeutralTertiary** | cor esbatida da legenda <br> Cor das etiquetas de categoria do cartão <br> Cor das etiquetas de categoria do cartão multilinhas <br> Cor da barra do cartão multilinhas <br> Cor do traço da taxa de conversão do gráfico de funil 
+| **backgroundLight** | Cor da linha de grelha do eixo <br> Cor da grelha de tabela e matriz <br> Cor do fundo do cabeçalho da segmentação (quando no modo de detalhe)  <br> Cor do contorno do cartão multilinhas  <br> Cor de preenchimento da forma <br> Cor de fundo do arco do medidor <br> Cor do fundo do cartão de filtro aplicado <br> |
+**backgroundNeutral** | Cor do contorno da grelha de tabela e matriz <br> Cor predefinida do mapa de forma <br> Cor de preenchimento do friso do gráfico de friso (quando a opção Fazer corresponder série está desativada) |
+**background** | Cor do fundo das etiquetas (quando estiver dentro dos pontos de dados) <br> Cor do fundo de itens pendentes da segmentação  <br> Cor do traço do gráfico em anel <br> Cor do traço do gráfico treemap <br> Cor do fundo do gráfico de combinação <br> Cor de preenchimento do botão <br> Cor do fundo do cartão do painel de filtro e do filtro disponível |
+**tableAccent** | Substitui a cor do contorno da grelha da tabela e da matriz quando presente |
 
 
-Aqui está um exemplo de tema que define as classes de cores:
+Veja a seguir um tema de exemplo que define as classes de cores:
 
 ```json
     {
@@ -284,16 +321,16 @@ Aqui está um exemplo de tema que define as classes de cores:
     }
 ```
 
-Em seguida, pode adicionar classes de texto ao ficheiro JSON, que são semelhantes a classes de cores, mas são concebidas para permitir que atualize o tamanho do tipo de letra, a cor e a família para grupos de texto no relatório. Há 12 classes de texto, mas na realidade precisa de definir apenas quatro classes, chamadas *classes primárias*, para alterar toda a formatação de texto no relatório. Outras classes de texto, consideradas *classes secundárias*, herdam ou derivam automaticamente as suas propriedades das classes primárias associadas. Geralmente, uma classe secundária deriva de uma tonalidade mais clara de cor de texto ou de um tamanho de texto em percentagem maior ou menor em relação à classe primária. 
+Em seguida, pode adicionar as classes de texto ao ficheiro JSON. As classes de texto são semelhantes às classes de cores, mas são concebidas para permitir que atualize o tamanho do tipo de letra, a cor e a família dos grupos de texto no relatório. Existem 12 classes de texto, mas tem de definir apenas quatro classes, chamadas *classes primárias*, para alterar toda a formatação de texto no relatório. Outras classes de texto, consideradas *classes secundárias*, herdam ou derivam automaticamente as suas propriedades das classes primárias associadas. Geralmente, uma classe secundária deriva de uma tonalidade mais clara de cor de texto ou de um tamanho de texto em percentagem maior ou menor em relação à classe primária. 
 
-Considere a classe *etiqueta* como exemplo. A formatação predefinida da classe de etiqueta é Segoe UI, #252423 (uma cor cinzento escuro) e 12 pontos, e esta classe é utilizada para formatar os valores na tabela e na matriz. Normalmente, os totais numa tabela ou matriz terão formatação semelhante, mas estarão a negrito para que fiquem mais destacados, como tal, utilizam a classe de etiqueta em negrito. No entanto, nunca precisará de especificá-lo no tema JSON. O Power BI determina-o automaticamente. Se decidir mais tarde que quer que as etiquetas tenham um tipo de letra de 14 pontos e que especifiquem tal no tema, também não precisará de atualizar a classe de etiqueta de negrito, pois esta herdará toda a formatação de texto da classe de etiqueta e colocará apenas a negrito a família de tipo de letra na parte superior. 
+Considere a classe **etiqueta** como exemplo. A formatação predefinida da classe **label** é Segoe UI, #252423 (cor cinzento escuro) e 12 pontos. Esta classe é utilizada para formatar os valores na tabela e na matriz. Normalmente, os totais numa tabela ou numa matriz têm formatação semelhante, mas estão a negrito com a classe **bold label** para que fiquem destacados. No entanto, não tem de especificar essa classe no JSON de temas; o Power BI faz isso automaticamente. Mais tarde, se decidir especificar etiquetas com um tipo de letra 14 pt no tema, não será necessário atualizar a classe **bold label**, uma vez que herdará a formatação da classe **label**. 
 
-A lista de tabela mostra o seguinte:
-* As quatro classes de texto primárias, o que é formatado e as predefinições
+A tabela abaixo mostra as seguintes informações:
+* Cada uma das quatro classes de texto primárias, o que é formatado e as predefinições
 * Cada classe secundária, o que é formatado e a predefinição que é exclusiva em comparação com a classe primária
 
 
-|Classe primária  |Classes Secundárias  |Nome da classe no JSON  |Definições  |Objetos visuais associados  |
+|Classe primária  |Classes secundárias  |Nome da classe JSON  |Definições  |Objetos visuais associados  |
 |---------|---------|---------|---------|---------|
 | Chamada   | N/D   | chamada | DIN <br> #252423 <br> 45pt |Etiquetas de dados de cartão <br> Indicadores KPI|
 |Cabeçalho|N/D|cabeçalho|Segoe UI Semibold <br> #252423 <br> 12pt |Cabeçalhos de influenciadores principais |
@@ -309,9 +346,9 @@ A lista de tabela mostra o seguinte:
 |-|Pequeno e Leve  |smallLightLabel    |#605E5C<br>9pt |Etiquetas de dados<br>Etiquetas do eixo de valores|
 
 
-Embora não precise definir as classes secundárias no ficheiro de temas, pois estas são herdadas das classes primárias, se não gostar das regras de herança (por exemplo, se não quiser que os totais sejam uma versão a negrito dos valores numa tabela), poderá formatar explicitamente as classes secundárias no ficheiro de temas, assim como pode formatar as classes primárias.
+Como as classes secundárias herdam as classes primárias, não tem de defini-las no ficheiro de temas. No entanto, se não gostar das regras de herança (por exemplo, se não quiser que os totais sejam uma versão a negrito dos valores numa tabela), poderá formatar explicitamente as classes secundárias no ficheiro de tema, assim como poderá formatar as classes primárias.
 
-Veja um exemplo de tema que define apenas as classes de texto primárias: 
+Veja um tema de exemplo que define apenas as classes de texto primárias: 
 
 ```json
     {
@@ -341,7 +378,7 @@ Veja um exemplo de tema que define apenas as classes de texto primárias:
     }
 ```
 
-Por último, para criar um ficheiro JSON de formato extenso, com controlo mais detalhado e granular sobre toda a formatação visual, pode adicionar uma secção **visualStyles** ao ficheiro JSON. Vai aninhar as especificações de formatação na secção **visualStyles**. A secção **visualStyles** tem um aspeto semelhante ao seguinte formato:
+Por último, para criar um ficheiro JSON de formato extenso, com controlo mais detalhado e granular sobre toda a formatação visual, adicione uma secção **visualStyles** ao ficheiro JSON para aninhar as especificações de formatação. Veja a seguir um exemplo da secção **visualStyles**:
 
     visualStyles: {
         visualName: {
@@ -353,11 +390,11 @@ Por último, para criar um ficheiro JSON de formato extenso, com controlo mais d
         }
     }
 
-Para as secções **visualName** e **cardName**, utilize um elemento visual específico e um nome de cartão. Atualmente, **styleName** é sempre um asterisco (“*”), mas numa versão futura, poderá criar estilos diferentes para os elementos visuais e dar-lhes nomes (semelhantes à funcionalidade de estilo de tabela e matriz). **PropertyName** é o nome da opção de formatação específica e **PropertyValue** é onde colocaria o que quer seja a opção de formatação.  
+Para as secções **visualName** e **cardName**, utilize um elemento visual específico e um nome de cartão. Atualmente, **styleName** é sempre um asterisco (*), mas numa versão futura, poderá criar estilos diferentes para os elementos visuais e dar-lhes nomes (semelhantes à funcionalidade de estilo de tabela e de matriz). **PropertyName** é o nome da opção de formatação e **propertyValue** é o valor dessa opção de formatação.  
 
-Para **visualName** e **cardName**, pode utilizar um asterisco (“\*”) se quiser que esta definição seja aplicada a todos os elementos visuais ou cartões que têm uma propriedade. Se utilizar o asterisco (“\*”) para o nome do elemento visual e do cartão, estaria efetivamente a aplicar uma definição globalmente no relatório, como um tamanho de tipo de letra ou uma família de tipos de letras específica para todo o texto em todos os elementos visuais.
+Para **visualName** e **cardName**, utilize um asterisco entre aspas se quiser que esta definição seja aplicada a todos os elementos visuais ou cartões com uma propriedade. Se utilizar um asterisco para o nome do elemento visual e do cartão, estará efetivamente a aplicar uma definição globalmente no relatório, como um tamanho de tipo de letra ou uma família de tipos de letras específica para todo o texto em todos os elementos visuais.
 
-Aqui está um exemplo que define algumas propriedades através dos estilos visuais. 
+Veja a seguir um exemplo que define algumas propriedades através dos estilos visuais: 
 
 ```json
 {  
@@ -392,23 +429,23 @@ Aqui está um exemplo que define algumas propriedades através dos estilos visua
 }
 ```
 
-Este exemplo mostra o seguinte:
+Este exemplo utiliza as seguintes definições:
 
-* Ativar a moldagem de texto em todo o lado
-* Definir o estilo da linha de grelha como pontilhado para todos os elementos visuais com um eixo de categoria
-* Definir alguma formatação para os cartões de filtro disponíveis e aplicados (repare no formato que utiliza “$id” para definir as diferentes versões dos cartões de filtro)
-* Definir o tamanho da bolha dos gráficos de dispersão como -10.
+* Ativa a moldagem do texto em todo o lado
+* Define o estilo da linha de grelha como pontilhado para todos os elementos visuais com um eixo de categoria
+* Define alguma formatação para os cartões de filtro disponíveis e aplicados (repare no formato que utiliza “$id” para definir as diferentes versões dos cartões de filtro)
+* Define o tamanho da bolha dos gráficos de dispersão como -10.
 
 
 > [!NOTE]
-> Apenas tem de especificar os elementos de formatação que quer ajustar. Quaisquer elementos de formatação não incluídos no ficheiro JSON revertem simplesmente para as respetivas definições e valores predefinidos.
+> Apenas tem de especificar os elementos de formatação que quer ajustar. Todos os elementos de formatação não incluídos no ficheiro JSON serão revertidos para as definições e valores predefinidos.
 > 
 > 
 
 ### <a name="json-file-element-definitions"></a>Definições dos elementos do ficheiro JSON
-As tabelas nesta secção definem os nomes dos elementos visuais (*visualName*), os nomes dos cartões (*cardName*) e as enumerações necessárias para criar o ficheiro JSON.
+As tabelas nesta secção definem os nomes dos elementos visuais (**visualName**), os nomes dos cartões (**cardName**) e as enumerações necessárias para criar o ficheiro JSON.
 
-| **visualName** |
+| Valores de visualName |
 | --- |
 | areaChart |
 | barChart |
@@ -442,9 +479,9 @@ As tabelas nesta secção definem os nomes dos elementos visuais (*visualName*),
 | treemap |
 | waterfallChart |
 
-A tabela seguinte define os valores de *cardName*. O primeiro valor em cada célula é o termo do ficheiro JSON. O segundo valor é o nome do cartão, conforme mostrado na interface de utilizador do **Power BI Desktop**.
+A tabela seguinte define os valores de **cardName**. O primeiro valor em cada célula é o termo do ficheiro JSON. O segundo valor é o nome do cartão, conforme mostrado na interface de utilizador do Power BI Desktop.
 
-| **cardName** |
+| Valores de cardName |
 | --- |
 | eixo: Eixo de medidor |
 | divisão: Divisão |
@@ -499,15 +536,15 @@ A tabela seguinte define os valores de *cardName*. O primeiro valor em cada cél
 | zoom: Zoom |
 
 ### <a name="properties-within-each-card"></a>Propriedades em cada cartão
-A secção seguinte define as propriedades em cada cartão. O nome do cartão é seguido pelo nome de cada propriedade. Para cada propriedade, o nome que verá se for apresentado o painel de formatação, uma descrição do que faz a opção de formatação e o tipo da opção de formatação. Esta abordagem permite que saiba que tipo de valores pode utilizar no ficheiro de temas. 
+A secção seguinte define as propriedades em cada cartão. O nome do cartão é seguido pelo nome de cada propriedade. Para cada propriedade: o nome que verá se for apresentado o painel de formatação, uma descrição do que faz a opção de formatação e o tipo da opção de formatação. Esta abordagem permite que saiba que tipo de valores pode utilizar no ficheiro de temas. 
 
-Quando utilizar **dateTime**, a data tem de ser uma data ISO entre plicas, com datetime no início. Segue um exemplo:
+Quando utilizar **dateTime**, a data tem de ser uma data ISO entre plicas, com datetime no início. Veja o seguinte exemplo:
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
 Os valores booleanos são true ou false. As cadeias têm de estar entre aspas, tal como "trata-se de uma cadeia". Os números são apenas o valor em si, não entre aspas.
 
-As cores devem utilizar o seguinte formato, em que o código hexadecimal personalizado fica onde está “FFFFFF” no exemplo a seguir.  
+As cores utilizam o seguinte formato, em que o código hexadecimal personalizado substitui “FFFFFF” no exemplo seguinte:  
 
     { "solid": { "color": "#FFFFFF" } }
 

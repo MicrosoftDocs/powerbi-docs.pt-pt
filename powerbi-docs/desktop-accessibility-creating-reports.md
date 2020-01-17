@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878970"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761985"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>Criar relatórios acessíveis no Power BI
+# <a name="design-power-bi-reports-for-accessibility"></a>Criar relatórios do Power BI para acessibilidade
 Pode conceber e criar relatórios apelativos não negligenciando a acessibilidade. Sempre que criar um relatório, independentemente da audiência a que se destina, deve criá-lo para ser utilizável pelo máximo número de pessoas possível, sem necessidade de ser adaptado a um tipo de conceção especial.
 
 ![Definições de alto contraste do Windows](media/desktop-accessibility/accessibility-05.png)

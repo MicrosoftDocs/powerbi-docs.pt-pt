@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876533"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761732"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Ligar aos dados do Azure Consumption Insights no Power BI Desktop
 
@@ -164,14 +164,14 @@ Em seguida, terá de mover todas as medidas ou colunas personalizadas que criou 
 3. Mude o nome *Query1* para o nome da tabela de detalhes original.
 4. Para criar novas medidas de tabela e colunas personalizadas, clique com o botão direito do rato na sua tabela e selecione **Nova Medida**. Em seguida, corte e cole as suas medidas e colunas armazenadas até concluir todas.
 
-### <a name="step-4-relink-tables-that-had-relationships"></a>Passo 4: Voltar a ligar as tabelas que tinham relações
+### <a name="step-4-relink-tables-that-had-relationships"></a>Step 4: Voltar a ligar as tabelas que tinham relações
 Muitos dashboards têm tabelas adicionais que são utilizadas para pesquisa ou filtragem, tais como tabelas de datas ou tabelas utilizadas para projetos personalizados. O restabelecimento dessas relações resolve a maioria dos problemas restantes. Saiba como o fazer a seguir.
 
 - No separador **Modelação** do **Power BI Desktop**, selecione **Gerir Relações** para abrir uma janela que permite gerir as relações no modelo. Volte a ligar as suas tabelas, conforme for necessário.
 
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Passo 5: Verificar os elementos visuais e ajustar a formatação dos campos, conforme necessário
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>Step 5: Verificar os elementos visuais e ajustar a formatação dos campos, conforme necessário
 Agora, a maioria dos seus elementos visuais, tabelas e desagregações originais deverá estar a funcionar conforme esperado. No entanto, poderão ser necessárias algumas pequenas alterações para formatar o aspeto em maior detalhe. Dedique algum tempo a ver cada um dos dashboards e elementos visuais para garantir que o aspeto é aquele que pretende.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Utilizar a API Informações sobre Consumo do Azure (ACI) para obter dados de consumo

@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d4aaa613ac2d79a08ed6bbc03ba47dd296942de
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879600"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759595"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Analisar dados de páginas Web com o Power BI Desktop
+# <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Tutorial: Analisar dados de páginas Web com o Power BI Desktop
 
 Sendo um adepto de futebol há muito tempo, quer elaborar um relatório sobre os vencedores do Campeonato Europeu de Futebol da UEFA (Campeonato da Europa) ao longo dos anos. Com o Power BI Desktop, pode importar estes dados de uma página Web para um relatório e criar visualizações que mostram os dados. Neste tutorial, vai aprender a utilizar o Power BI Desktop para:
 

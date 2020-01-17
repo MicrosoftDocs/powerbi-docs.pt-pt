@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311473"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761485"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Otimizar relatórios para as aplicações móveis do Power BI
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Otimizar relatórios do Power BI para a aplicação móvel
 Pode melhorar a experiência de visualização dos seus relatórios nas aplicações móveis ao criar um esquema vertical. No Power BI Desktop e no serviço Power BI, reorganiza e redimensiona os elementos visuais de relatórios para uma experiência ideal no modo vertical.  
 
 Em vez disso, procura informações sobre como ver relatórios num dispositivo móvel? Experimente este início rápido, [Explorar dashboards e relatórios nas aplicações móveis do Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).

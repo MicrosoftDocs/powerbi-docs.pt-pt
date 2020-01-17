@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871005"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885315"
 ---
-# <a name="key-influencers-visualization"></a>Visualização de influenciadores principais
+# <a name="create-key-influencers-visualizations"></a>Criar visualizações de influenciadores principais
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ Veja este vídeo para saber como criar um elemento visual de influenciadores pri
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-O seu Gestor de Produtos pretende que descubra quais são os fatores que levam os clientes a tecer críticas negativas sobre o nosso serviço cloud. Para acompanhar, abra o [ficheiro PBIX Customer Feedback](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) (Feedback dos Clientes) no Power BI Desktop. Também pode transferir o [ficheiro do Excel Customer Feedback (Feedback dos Clientes) para o serviço Power BI ou Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Selecione uma ligação e, em seguida, selecione **Transferir** na página do GitHub que é apresentada.
+O seu Gestor de Produtos pretende que descubra quais são os fatores que levam os clientes a tecer críticas negativas sobre o nosso serviço cloud. Para acompanhar, abra o [ficheiro PBIX Customer Feedback](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) (Feedback dos Clientes) no Power BI Desktop. Também pode transferir o [ficheiro do Excel Customer Feedback (Feedback dos Clientes) para o serviço Power BI ou Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx). Selecione uma ligação e, em seguida, selecione **Transferir** na página do GitHub que é apresentada.
 
 > [!NOTE]
 > O conjunto de dados Customer Feedback (Feedback dos Clientes) é baseado em [Moro et al., 2014] S. Moro, P. Cortez e P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." (Uma Abordagem Baseada em Dados para Prever o Êxito de Telemarketing na Banca). *Decision Support Systems*, Elsevier, 62:22-31, junho de 2014. 
@@ -267,6 +267,8 @@ Se quiser saber mais sobre como pode analisar medidas com a visualização de in
  
 O elemento visual dos influenciadores principais tem algumas limitações:
 
+
+
 - O Direct Query não é suportado
 - A ligação em direto com o Azure Analysis Services e o SQL Server Analysis Services não é suportada
 - A publicação na Web não é suportada
@@ -357,6 +359,9 @@ No exemplo seguinte, os clientes que são consumidores motivam classificações 
 O motivo disto é que a visualização também considera o número de pontos de dados quando encontra influenciadores. O exemplo seguinte inclui mais de 29 mil consumidores e cerca de 2900 administradores, ou seja, um valor 10 vezes inferior de administradores. Apenas 390 dos mesmos atribuíram uma classificação baixa. O elemento visual não tem dados suficientes para determinar se encontrou um padrão com classificações dos administradores ou se apenas detetou uma hipótese. 
 
 ![Como os influenciadores são determinados](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Quais são os limites de pontos de dados para os influenciadores principais?**
+Executamos a análise numa amostra de 10 000 pontos de dados. As bolhas de um dos lados apresentam todos os influenciadores que foram encontrados. Os gráficos de colunas e os gráficos de dispersão respeitam as estratégias de amostragem desses elementos visuais importantes.
 
 **Como se calculam os influenciadores principais para análises categóricas?**
 

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6869430e3fece78210d538c9886234c7728b667a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b9df4398c410f52e3d5cdd51a99a40de107f5867
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73866530"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760888"
 ---
-# <a name="modeling-view-in-power-bi-desktop"></a>Vista de modelação no Power BI Desktop
+# <a name="work-with-modeling-view-in-power-bi-desktop"></a>Trabalhar com a Vista de modelação no Power BI Desktop
 
-Na **Vista de modelação** do **Power BI Desktop**, pode visualizar e trabalhar com conjuntos de dados complexos que contenham muitas tabelas.
+Com a **Vista de modelação** do **Power BI Desktop**, pode visualizar e trabalhar com conjuntos de dados complexos que contenham muitas tabelas.
 
 
 ## <a name="using-modeling-view"></a>Utilizar a Vista de modelação

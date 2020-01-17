@@ -1,20 +1,20 @@
 ---
-title: Utilizar conjuntos de dados partilhados no Power BI Paginated Report Builder
-description: Ligue a conjuntos de dados partilhados do Power BI Paginated Report Builder.
-ms.date: 07/23/2019
+title: Criar um relatório paginado com um conjunto de dados partilhado do Power BI – Power BI Report Builder
+description: Crie um relatório paginado no Power BI Report Builder com base num conjunto de dados partilhado do Power BI.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791273"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691475"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Utilizar conjuntos de dados partilhados no Power BI Report Builder
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado com base num conjunto de dados partilhado do Power BI
 
 Pode utilizar um conjunto de dados que criou no Power BI Desktop como uma origem de dados para relatórios paginados do Power BI Report Builder. Imagine este cenário: criou um relatório do Power BI no Power BI Desktop. Passou muito tempo a criar o modelo de dados e, em seguida, criou um relatório apelativo do Power BI com vários tipos de elementos visuais. O seu relatório tem uma matriz com várias linhas, pelo que tem de se deslocar para ver todas. Os leitores do seu relatório querem imprimir o relatório e apresentar todas as linhas nessa matriz. Um relatório paginado do Power BI pode fazer isso: imprima uma tabela ou matriz com múltiplas páginas, com cabeçalhos e rodapés de página e um esquema de página perfeito que criou. Irá complementar o relatório do Power BI Desktop. Quer que se baseie nos mesmos dados, sem discrepâncias, por isso utiliza o mesmo conjunto de dados.
 
@@ -196,7 +196,7 @@ Por exemplo, digamos que o seu relatório tem o formato 8,5x11 pol. e definiu as
 
     ![Definir o tamanho do corpo](media/report-builder-shared-datasets/power-bi-report-builder-body-size.png)
 
-1. Selecione **Executar** para pré-visualizar o seu relatório e garantir que eliminou as páginas em branco. Este relatório tem apenas 26 páginas, em vez das 54 iniciais. Êxito!
+1. Selecione **Executar** para pré-visualizar o seu relatório e garantir que eliminou as páginas em branco. Este relatório tem apenas 26 páginas, em vez das 54 iniciais. Sucesso!
 
     ![Não imprimir páginas em branco](media/report-builder-shared-datasets/power-bi-report-builder-print-26-pgs.png)
 

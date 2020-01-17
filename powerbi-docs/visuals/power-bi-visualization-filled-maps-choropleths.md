@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907853"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757859"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Mapas de manchas (coropleto) no Power BI
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e utilizar mapas de manchas (mapas coropletos) no Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -47,7 +47,7 @@ Os mapas de manchas são uma ótima opção:
 
 ### <a name="prerequisites"></a>Pré-requisitos
 Este tutorial utiliza o [ficheiro PBIX de exemplo de Vendas e Marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
-1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**.
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** > **Abrir**
    
 2. Localize a sua cópia do **ficheiro PBIX de Vendas e Marketing**.
 

@@ -6,26 +6,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ac2b2e498c6cd81e922e3ee82435d0d32720ced
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8dbd72b310d6e62619a61d34001afc1f7bc44189
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876027"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731002"
 ---
 # <a name="power-bi-desktop-videos"></a>Vídeos do Power BI Desktop
-Temos um [canal do YouTube para o Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
-A lista a seguir descreve todos os vídeos disponíveis sobre o Power BI Desktop. Selecione qualquer um dos links abaixo para ver o vídeo associado.
+O Power BI Desktop tem um [canal do YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN2q1WbU5O29rrn_A0lkVv9p)!
 
-- [Visão geral de alto nível do Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA), desde a obtenção de dados e criação de um relatório até ao carregamento desse relatório no Power BI, para que ele possa ser atualizado e partilhado com outros utilizadores.  
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe> 
-  
-- Saiba [como criar relatórios apelativos](https://www.youtube.com/watch?v=ByIUx-HmQbw) através do Power BI Desktop e como importar, remodelar e transformar com o Editor do Power Query.
-  
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe>  
-  
+Veja uma descrição geral avançada do Power BI Desktop – desde a obtenção de dados e criação de um relatório até à partilha de relatórios com outras pessoas: 
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/Qgam9M8I0xA" frameborder="0" allowfullscreen></iframe>
+
+Saiba como criar relatórios impressionantes com o Power BI Desktop:
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/IMAsitQ2cAc" frameborder="0" allowfullscreen></iframe> 
+
+Importar, reformatar e transformar dados com o Editor do Power Query:
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/ByIUx-HmQbw" frameborder="0" allowfullscreen></iframe> 
+
+Selecione as seguintes ligações para ver os vídeos disponíveis no canal do YouTube do Power BI:
+
+- [Introdução ao Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA)
+- [Create a report in Power BI Desktop](https://www.youtube.com/watch?v=IMAsitQ2cAc) (Criar um relatório no Power BI Desktop)
+- [Use the Power Query Editor](https://www.youtube.com/watch?v=ByIUx-HmQbw) (Utilizar o Editor do Power Query)
+- [Create relationships between tables](https://www.youtube.com/watch?v=fVW4MCr0APA) (Criar relações entre tabelas)
+- [Publish from Power BI Desktop to the Power BI service](https://www.youtube.com/watch?v=ObwsFdC9e94) (Publicar do Power BI Desktop para o serviço Power BI)
+- [Add a calculated column](https://www.youtube.com/watch?v=62mLfiNcqVM) (Adicionar uma coluna calculada)

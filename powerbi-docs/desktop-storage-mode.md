@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8ecb52f0e9f06a2d3b1c16b4231943ea7970a56e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b2d3975ba6bcea7b1294c1432f9278908a33ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879605"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760026"
 ---
-# <a name="storage-mode-in-power-bi-desktop"></a>Modo de armazenamento no Power BI Desktop
+# <a name="manage-storage-mode-in-power-bi-desktop"></a>Gerir o modo de armazenamento no Power BI Desktop
 
 No Microsoft Power BI Desktop, pode especificar o *modo de armazenamento* das tabelas. O *Modo de armazenamento* permite-lhe controlar se o Power BI Desktop coloca em cache os dados das tabelas na memória para os relatórios. 
 
@@ -92,8 +92,8 @@ Vamos continuar com o exemplo da secção anterior e imaginar que aplicamos as s
 | ----------------------- |----------------------| 
 | *Vendas*                 | DirectQuery          | 
 | *SurveyResponse*        | Importar               | 
-| *Data*                  | Dual                 | 
-| *Cliente*              | Dual                 | 
+| *Data*                  | Duplo                 | 
+| *Cliente*              | Duplo                 | 
 | *Geografia*             | Duplo                 | 
 
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 294bd8017d6e6c8a1eaca836b32c7bd5d50d88e1
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876290"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760802"
 ---
-# <a name="query-overview-in-power-bi-desktop"></a>Descrição geral de consulta no Power BI Desktop
+# <a name="about-using-query-editor-in-power-bi-desktop"></a>Acerca da utilização do Editor de Consultas no Power BI Desktop
 Com o **Power BI Desktop**, pode ligar-se ao mundo dos dados, criar relatórios apelativos e fundamentais e partilhar os seus trabalhos com outras pessoas, que poderão basear-se no seu trabalho e expandir os seus esforços de business intelligence.
 
 O Power BI Desktop tem três vistas:
@@ -133,7 +133,7 @@ Uma vez que a consulta esteja onde pretende, ou se apenas desejar certificar-se 
 Para guardar o seu trabalho, selecione **Ficheiro \> Guardar** (ou **Ficheiro \> Guardar Como**), conforme mostrado na imagem seguinte.  
 ![](media/desktop-query-overview/queryoverview_savework.png)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)

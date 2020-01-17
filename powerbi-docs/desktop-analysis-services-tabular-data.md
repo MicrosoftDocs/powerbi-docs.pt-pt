@@ -1,6 +1,6 @@
 ---
-title: Utilizar os dados de tabela do Analysis Services no Power BI Desktop
-description: Dados Tabulares do Analysis Services no Power BI Desktop
+title: Utilizar os dados de tabela do Analysis Services no Power BI Desktop
+description: Dados de tabela do Analysis Services no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: 7ce20b8b6dc382cdafe61bde3e9305197fd33ea6
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523033"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762077"
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Utilizar os dados de tabela do Analysis Services no Power BI Desktop
-Com o Power BI Desktop, existem duas formas de ligar e obter dados dos modelos Tabulares do SQL Server Analysis Services: Explorar através de uma ligação dinâmica ou Selecionar itens e importá-los para o Power BI Desktop.
+# <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Ligar aos dados de tabela do Analysis Services no Power BI Desktop
+Com o Power BI Desktop, existem duas formas de ligar e obter dados dos modelos em tabela do SQL Server Analysis Services: Explorar através de uma ligação dinâmica ou Selecionar itens e importá-los para o Power BI Desktop.
 
 Vamos ver isso mais de perto.
 
-**Explorar através de uma ligação dinâmica** – Ao utilizar uma ligação dinâmica, os itens no modelo Tabular ou perspetiva, como tabelas, colunas e medidas, aparecem na lista Campos do Power BI Desktop. Pode utilizar as ferramentas avançadas de relatório e visualização do Power BI Desktop para explorar o modelo Tabular de formas novas e altamente interativas.
+**Explorar através de uma ligação dinâmica** – ao utilizar uma ligação dinâmica, os itens no modelo em tabela ou na perspetiva, como tabelas, colunas e medidas, aparecem na lista Campos do Power BI Desktop. Pode utilizar as ferramentas avançadas de relatório e visualização do Power BI Desktop para explorar o modelo em tabela de formas novas e altamente interativas.
 
-Ao ligar-se dinamicamente, nenhuns dados do modelo Tabular são importados para o Power BI Desktop. Cada vez que interagir com uma visualização, o Power BI Desktop consulta o modelo Tabular e calcula os resultados que vê. Estará sempre a ver os dados mais recentes disponíveis no modelo Tabular, quer sejam da última hora de processamento ou das tabelas do DirectQuery disponíveis no Modelo Tabular. 
+Ao ligar-se dinamicamente, não são importados dados do modelo em tabela para o Power BI Desktop. Cada vez que interagir com uma visualização, o Power BI Desktop consulta o modelo em tabela e calcula os resultados apresentados. Estará sempre a ver os dados mais recentes disponíveis no modelo em tabela, quer sejam da última hora de processamento ou das tabelas do DirectQuery disponíveis no Modelo em tabela. 
 
-Tenha em atenção que os modelos Tabulares são altamente seguros. Os itens que aparecem no Power BI Desktop dependem das suas permissões para o modelo Tabular ao qual está ligado.
+Tenha em atenção que os modelos em tabelas são altamente seguros. Os itens que aparecem no Power BI Desktop dependem das suas permissões no modelo em tabela ao qual está ligado.
 
-Quando tiver criado relatórios dinâmicos no Power BI Desktop, pode partilhá-los ao publicá-los no site do Power BI. Ao publicar um ficheiro do Power BI Desktop com uma ligação dinâmica num modelo em Tabela do site do Power BI, um Gateway de dados no local deverá ser instalado e configurado por um administrador. Para saber mais, veja [Gateway de dados no local](service-gateway-onprem.md).
+Quando tiver criado relatórios dinâmicos no Power BI Desktop, pode partilhá-los ao publicá-los no site do Power BI. Ao publicar um ficheiro do Power BI Desktop com uma ligação dinâmica para um modelo em tabela do site do Power BI, deverá ser instalado e configurado um Gateway de dados no local por um administrador. Para saber mais, veja [Gateway de dados no local](service-gateway-onprem.md).
 
-**Selecionar itens e importar para o Power BI Desktop** – Ao ligar a esta opção, pode selecionar os itens como tabelas, colunas e medidas no modelo Tabular ou perspetiva e carregá-los para um modelo do Power BI Desktop. Pode utilizar o Editor de Consultas avançado do Power BI Desktop para personalizar ainda mais o que quer. Pode utilizar as funcionalidades de modelação do Power BI Desktop para modelar ainda mais os dados. Nenhuma ligação dinâmica é mantida entre o Power BI Desktop e o modelo Tabular. Pode então explorar o modelo do Power BI Desktop offline ou publicar no site do Power BI.
+**Selecionar itens e importar para o Power BI Desktop** – ao ligar-se a esta opção, pode selecionar os itens como tabelas, colunas e medidas no modelo em tabela ou na perspetiva e carregá-los para um modelo do Power BI Desktop. Pode utilizar o Editor de Consultas avançado do Power BI Desktop para personalizar ainda mais o que quer. Pode utilizar as funcionalidades de modelação do Power BI Desktop para modelar ainda mais os dados. Não é mantida nenhuma ligação dinâmica entre o Power BI Desktop e o modelo em tabela. Pode então explorar o modelo do Power BI Desktop offline ou publicar no site do Power BI.
 
-## <a name="to-connect-to-a-tabular-model"></a>Para ligar a um modelo Tabular
+## <a name="to-connect-to-a-tabular-model"></a>Para ligar a um modelo em tabela
 1. No Power BI Desktop, no separador **Base**, clique em **Obter Dados**.
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata.png)
@@ -43,23 +43,23 @@ Quando tiver criado relatórios dinâmicos no Power BI Desktop, pode partilhá-l
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. Este passo depende do modo de ligação selecionado:
 
-* Se estiver a ligar dinamicamente, no Navegador, selecione um modelo Tabular ou uma perspetiva.
+* Se estiver a ligar dinamicamente, no Navegador, selecione um modelo em tabela ou uma perspetiva.
   
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
-* Se escolher Selecionar itens e Obter dados, no Navegador, selecione um modelo Tabular ou uma perspetiva. Além disso, pode selecionar apenas determinadas tabelas ou colunas para carregar. Para formatar os dados antes do carregamento, clique em Editar para abrir o Editor de Consultas. Quando estiver pronto, clique em Carregar para importar os dados para o Power BI Desktop.
+* Se escolher Selecionar itens e obter dados, no Navegador, selecione um modelo em tabela ou uma perspetiva. Além disso, pode selecionar apenas determinadas tabelas ou colunas para carregar. Para formatar os dados antes do carregamento, clique em Editar para abrir o Editor de Consultas. Quando estiver pronto, clique em Carregar para importar os dados para o Power BI Desktop.
 
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Perguntas Mais Frequentes
 **Pergunta:** É necessário um Gateway de dados no local?
 
-**Resposta:** Depende. Se utilizar o Power BI Desktop para se ligar dinamicamente a um modelo Tabular, mas não tem intenção de publicar no site do Power BI, não será necessário ter um gateway. Por outro lado, se pretende publicar no site do Power BI, é necessário ter um gateway de dados para garantir a comunicação segura entre o serviço Power BI e o servidor local do Analysis Services. Certifique-se de falar com o administrador do servidor do Analysis Services antes de instalar um gateway de dados.
+**Resposta:** Depende. Se utilizar o Power BI Desktop para se ligar dinamicamente a um modelo em tabela, mas não tiver intenção de publicar no site do Power BI, não precisará ter um gateway. Por outro lado, se pretende publicar no site do Power BI, é necessário ter um gateway de dados para garantir a comunicação segura entre o serviço Power BI e o servidor local do Analysis Services. Certifique-se de falar com o administrador do servidor do Analysis Services antes de instalar um gateway de dados.
 
-Se escolher selecionar itens e obter dados, importará dados do modelo de Tabela diretamente no ficheiro do Power BI Desktop e, por isso, não é necessário ter um gateway.
+Se escolher selecionar itens e obter dados, importará dados do modelo em tabela diretamente para o ficheiro do Power BI Desktop e, por isso, não será necessário ter um gateway.
 
-**Pergunta:** Qual é a diferença entre uma ligação dinâmica a um modelo Tabular do serviço Power BI e uma ligação dinâmica a partir do Power BI Desktop?
+**Pergunta:** Qual é a diferença entre a ligação dinâmica a um modelo em tabela a partir do serviço Power BI e uma ligação dinâmica a partir do Power BI Desktop?
 
-**Resposta:** Durante a ligação dinâmica a um modelo Tabular do site no serviço Power BI para uma base de dados local do Analysis Services na organização, é necessário ter um Gateway de dados no local para proteger a comunicação entre eles. Durante a ligação dinâmica a um modelo Tabular do Power BI Desktop, não é necessário ter um gateway, pois tanto o Power BI Desktop como o servidor do Analysis Services ao qual está a ligar estão a ser executados localmente na sua organização. No entanto, se publicar o ficheiro do Power BI Desktop no site do Power BI, é necessário um gateway.
+**Resposta:** Durante a ligação dinâmica a um modelo em tabela a partir do site no serviço Power BI para uma base de dados no local do Analysis Services na sua organização, é necessário ter um Gateway de dados no local para proteger a comunicação entre eles. Durante a ligação dinâmica a um modelo em tabela a partir do Power BI Desktop, não é necessário ter um gateway, pois tanto o Power BI Desktop como o servidor do Analysis Services ao qual está a ligar estão a ser executados localmente na sua organização. No entanto, se publicar o ficheiro do Power BI Desktop no site do Power BI, é necessário um gateway.
 
 **Pergunta:** Se tiver criado uma ligação dinâmica, posso ligar a outra origem de dados no mesmo ficheiro do Power BI Desktop?
 
@@ -75,7 +75,7 @@ Se escolher selecionar itens e obter dados, importará dados do modelo de Tabela
 
 **Pergunta:** No Navegador, vejo um modelo e uma perspetiva. Qual é a diferença?
 
-**Resposta:** Uma perspetiva é uma vista específica de um modelo Tabular. Pode incluir apenas determinadas tabelas, colunas ou medidas consoante uma necessidade de análise de dados exclusiva. Um modelo Tabular contém sempre pelo menos uma perspetiva, que pode incluir tudo no modelo. Se não tiver a certeza de qual deve selecionar, contacte o seu administrador.
+**Resposta:** Uma perspetiva é uma vista específica de um modelo em tabela. Pode incluir apenas determinadas tabelas, colunas ou medidas consoante uma necessidade de análise de dados exclusiva. Um modelo em tabela contém sempre pelo menos uma perspetiva, que pode incluir tudo no modelo. Se não tiver a certeza de qual deve selecionar, contacte o seu administrador.
 
 **Pergunta:** Há alguma funcionalidade do Analysis Services que altere o comportamento do Power BI?
 

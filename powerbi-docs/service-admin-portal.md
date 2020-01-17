@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224169"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885311"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -25,7 +25,7 @@ O portal de administração completo está acessível a todos os utilizadores qu
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Como aceder ao portal de administração
 
-A conta tem de estar marcada como **Administrador Global**, no Office 365 ou no Azure Active Directory, ou ter sido atribuída a função de administrador do serviço Power BI, para obter acesso ao portal de administração do Power BI. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md). Para aceder ao portal de administração do Power BI, efetue o seguinte procedimento.
+A conta tem de estar marcada como **Administrador Global**, no Office 365 ou no Azure Active Directory (Azure AD), ou ter sido atribuída a função de administrador de serviço do Power BI, para obter acesso ao portal de administração do Power BI. Para obter mais informações sobre a função de administrador do serviço Power BI, veja [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md). Para aceder ao portal de administração do Power BI, efetue o seguinte procedimento.
 
 1. Selecione a engrenagem de definições na parte superior direita do serviço Power BI.
 
@@ -190,13 +190,16 @@ No portal de administração, também controla quais os utilizadores que têm pe
 
 ### <a name="share-content-with-external-users"></a>Partilhar conteúdo com utilizadores externos
 
-Os utilizadores na organização podem partilhar dashboards com utilizadores fora da organização. Saiba mais sobre a [partilha externa](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
+Os utilizadores na organização podem partilhar dashboards, relatórios e aplicações com utilizadores fora da organização. Saiba mais sobre a [partilha externa](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Definição Utilizadores externos](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
 A imagem seguinte mostra a mensagem que aparece quando partilha com um utilizador externo.
 
 ![Partilhar com um utilizador externo](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+
+> [!IMPORTANT]
+> Esta opção controla se os utilizadores no Power BI podem convidar utilizadores externos para se tornarem utilizadores convidados do Azure Active Directory B2B (Azure AD B2B) na sua organização através do Power BI. Quando ativada, os utilizadores com a função Emitente de Convites no Azure AD poderão adicionar endereços de e-mail externos quando partilharem relatórios, dashboards e aplicações do Power BI. O destinatário externo é convidado a aderir à sua organização como utilizador convidado do Azure AD B2B. O mais importante é que, quando desativar esta definição, os utilizadores externos que já sejam utilizadores convidados do Azure AD B2B na sua organização continuam a aparecer nas IUs do seletor de pessoas no Power BI e pode ser-lhes concedido acesso a itens, áreas de trabalho e aplicações.
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
@@ -247,14 +250,14 @@ A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definiç�
 ![Imprimir relatório](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização
-Os utilizadores convidados do Azure Active Directory B2B podem editar e gerir os conteúdos na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
+
+Os utilizadores convidados do Azure AD B2B podem editar e gerir o conteúdo na organização. [Saiba mais](service-admin-azure-ad-b2b.md)
 
 A seguinte imagem mostra a opção Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização.
 
 ![Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> Quando adiciona um utilizador externo ao seu inquilino do Azure AD (manualmente ou através da partilha de um relatório com esse utilizador), essa conta de utilizador passa a ser detetável para as contas internas. Um utilizador interno pode partilhar outas coisas com o utilizador externo, mesmo que a conta interna não tenha permissões de partilha externa.
+No portal de administração, também controla quais os utilizadores que têm permissão para convidar utilizadores externos para a organização. Veja [Partilhar conteúdo com utilizadores externos](#export-and-sharing-settings) neste artigo para obter mais detalhes.
 
 ### <a name="email-subscriptions"></a>Subscrições de E-mail
 Os utilizadores na organização podem criar subscrições por e-mail. Saiba mais sobre as [subscrições](service-report-subscribe.md).
@@ -508,7 +511,7 @@ Para atualizar o elemento visual na loja organizacional, selecione o ícone de e
 
 Confirme que o ID de Elemento Visual permanece inalterado. O novo ficheiro substituirá o ficheiro anterior em todos os relatórios da organização. Contudo, se houver a possibilidade de a nova versão do elemento visual interromper qualquer utilização ou estrutura de dados da versão anterior do elemento visual, não substitua a versão anterior. Em vez disso, deve criar uma nova lista para a nova versão do elemento visual. Por exemplo, adicione um novo número de versão (versão X.X) ao título do novo elemento visual listado. Desta forma, torna-se claro que é o mesmo elemento visual apenas com um número de versão atualizado, assim, os relatórios existentes não vão interromper a sua funcionalidade. Novamente, verifique se o ID de Elemento Visual permanece inalterado. Da próxima vez que os utilizadores entrarem no repositório da organização a partir do Power BI Desktop, poderão importar a nova versão, que pedirá a substituição da versão atual que têm no relatório.
 
-Para obter mais informações, visite [Perguntas frequentes sobre os elementos visuais personalizados organizacionais](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals)
+Para obter mais informações, visite [Perguntas frequentes sobre os elementos visuais personalizados organizacionais](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)
 
 ## <a name="dataflowStorage">Armazenamento do fluxo de dados (pré-visualização)</a>
 

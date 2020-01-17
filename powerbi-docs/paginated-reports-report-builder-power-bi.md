@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b82bd3d6f9badd8102f95856f203aa2a8ea5f950
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831164"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732130"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>O que são relatórios paginados no Power BI Premium?
 
@@ -88,5 +88,4 @@ Apresentamos a seguir mais algumas funcionalidades que não são suportadas na v
 - [Tutorial: Criar um relatório paginado](paginated-reports-quickstart-aw.md)
 - [Introduzir dados diretamente num relatório paginado](paginated-reports-enter-data.md)
 - [Hands-on lab: Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Laboratório prático: criar um relatório paginado do Microsoft Power BI)
-  
-
+- [Tutorial: Incorporar relatórios paginados do Power BI numa aplicação para os clientes](developer/embed-paginated-reports-customers.md).

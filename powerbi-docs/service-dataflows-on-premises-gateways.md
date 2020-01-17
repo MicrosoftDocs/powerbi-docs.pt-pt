@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877278"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762583"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Utilizar fluxos de dados com origens de dados no local
 
@@ -24,7 +24,8 @@ Com os **fluxos de dados**, pode criar uma coleção de dados de várias origens
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Configurar um Gateway de Empresa para utilização com os fluxos de dados
 
-Para utilizar uma origem de dados no local num fluxo de dados, qualquer utilizador que criar o fluxo de dados tem de ter um **Gateway de Empresa** instalado e configurado. O utilizador ao criar o fluxo de dados também tem de ser administrador do Gateway de Empresa para poder utilizar esse gateway com um fluxo de dados.
+Para criar um fluxo de dados com um gateway, o utilizador tem de ser administrador do Gateway de Empresa ou o administrador tem de ter partilhado a origem de dados que planeia utilizar com o utilizador. 
+
 
 > [!NOTE]
 > Os fluxos de dados são apenas suportados através de Gateways de Empresa.
@@ -35,7 +36,7 @@ Ao criar um fluxo de dados, selecione uma origem de dados no local na lista de o
 
 ![Escolher uma origem de dados no local](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-Depois de fazer a sua seleção, é-lhe pedido para indicar os detalhes da ligação do Gateway de Empresa, que será utilizado para aceder aos dados no local. Tem de selecionar o próprio gateway e indicar as credenciais do gateway selecionado. Apenas os gateways para os quais o utilizador é administrador aparecem na lista pendente.
+Depois de fazer a sua seleção, é-lhe pedido para indicar os detalhes da ligação do Gateway de Empresa, que será utilizado para aceder aos dados no local. Tem de selecionar o próprio gateway e indicar as credenciais do gateway selecionado.
 
 ![Indicar detalhes da ligação](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

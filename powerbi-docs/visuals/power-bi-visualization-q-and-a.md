@@ -7,18 +7,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791807"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762284"
 ---
-# <a name="introduction-to-power-bi-qa-visual"></a>Introdução ao elemento visual das Perguntas e Respostas do Power BI
+# <a name="introduction-to-power-bi-qa-visualizations"></a>Introdução às visualizações das Perguntas e Respostas do Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-## <a name="what-is-the-qa-visual"></a>O que é o Elemento Visual das Perguntas e Respostas
+## <a name="what-are-qa-visualizations"></a>O que são as visualizações das Perguntas e Respostas?
 
 O elemento visual das Perguntas e Respostas permite aos utilizadores colocar perguntas em linguagem natural e obter respostas sob a forma de um elemento visual. 
 

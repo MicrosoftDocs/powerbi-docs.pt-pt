@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880839"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762445"
 ---
-# <a name="funnel-charts"></a>Gráficos de funil
+# <a name="create-and-use-funnel-charts"></a>Criar e utilizar gráficos de funil
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -71,7 +71,7 @@ Veja este vídeo para ver o Will a criar um gráfico de funil através do exempl
 
 Agra crie o seu próprio gráfico de funil que mostra o número de oportunidades que temos em cada uma das nossas fases de vendas.
 
-1. Comece numa página de relatório em branco e selecione o campo **SalesStage** \> **Fase de Venda**.
+1. Comece numa página de relatório em branco e selecione o campo **SalesStage** \> **Sales Stage** (Fase de Venda).
    
     ![selecionar Fase de Vendas](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 

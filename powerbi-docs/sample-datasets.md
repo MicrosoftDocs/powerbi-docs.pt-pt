@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858975"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762238"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Os dados de exemplo estão disponíveis para serem utilizados com o Power BI?
+# <a name="get-sample-data-for-power-bi"></a>Obter dados de exemplo para o Power BI
 Diga que não está familiarizado com o Power BI e pretende experimentar, mas não tem quaisquer dados.  Talvez tenha um conjunto de dados. Como (ainda) não compreende o funcionamento do Power BI, está preocupado com a possibilidade de danificar o conjunto de dados?
 
 Não é necessário preocupar-se! A obviEnce ([www.obvience.com](http://www.obvience.com/)) e a Microsoft criaram exemplos para que possa utilizar até se sentir mais familiarizado com o Power BI.  Os dados são anónimos e representam as diferentes indústrias: finanças, RH, vendas e muito mais. Além disso, a nossa documentação online utiliza estes mesmos recursos de exemplo nos tutoriais e demonstrações, pelo que conseguirá acompanhá-los na prática.      
@@ -30,7 +30,7 @@ Antes de começarmos, eis as diretrizes legais para a utilização dos exemplos.
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Diretrizes de utilização para os livros do Excel de exemplo do Power BI
 
-©2015 Microsoft Corporation. Todos os direitos reservados. Os documentos e livros são fornecidos "tal como estão." As informações e opiniões expressas nos livros, incluindo URLs e outras referências a sites, podem ser alteradas sem aviso prévio. O utilizador assume o risco de usá-las. Alguns exemplos são apenas para ilustração e são fictícios. Nenhuma associação real é pretendida ou inferida. A Microsoft não faz garantias, de forma expressa ou implícita, em relação à informação aqui apresentada.
+©2015 Microsoft Corporation. All rights reserved. Os documentos e livros são fornecidos "tal como estão." As informações e opiniões expressas nos livros, incluindo URLs e outras referências a sites, podem ser alteradas sem aviso prévio. O utilizador assume o risco de usá-las. Alguns exemplos são apenas para ilustração e são fictícios. Nenhuma associação real é pretendida ou inferida. A Microsoft não faz garantias, de forma expressa ou implícita, em relação à informação aqui apresentada.
 
 Os livros não lhe conferem qualquer direito legal sobre nenhuma propriedade intelectual de nenhum produto da Microsoft. Pode copiar e utilizar este livro para fins internos e de referência.
 
@@ -129,8 +129,8 @@ Cada um dos pacotes de conteúdos de exemplo também está disponível como livr
 
    * ![Local](media/sample-datasets/power-bi-local-file2.png)  **Local**: se guardar o ficheiro numa unidade local no computador ou noutro local na sua organização, através do Power BI, é possível importar o ficheiro para o Power BI. Na verdade, o ficheiro permanecerá na unidade local; portanto, o ficheiro completo não é importado para o Power BI. O que ocorre é que um novo conjunto de dados é criado no site do Power BI e os dados (e, em alguns casos, o modelo de dados) são carregados para esse conjunto de dados. Se o ficheiro tiver relatórios, estes serão apresentados no site do Power BI, em Relatórios.
    * ![OneDrive para Empresas](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive para Empresas**: se tiver o OneDrive para Empresas e iniciar sessão neste com a mesma conta utilizada para o Power BI, o OneDrive para Empresas será, sem dúvida, o melhor local para manter o seu trabalho no Excel, no Power BI ou num ficheiro .CSV em sincronização com o seu conjunto de dados, os seus relatórios e os seus dashboards no Power BI. Visto que tanto o Power BI quanto o OneDrive ficam na cloud, o Power BI liga-se ao seu ficheiro no OneDrive em intervalos aproximados de uma hora. Caso sejam encontradas alterações, o conjunto de dados, os relatórios e os dashboards serão atualizados automaticamente no Power BI.
-   * ![OneDrive Pessoal](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Pessoal**: se guardar os ficheiros na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive para Empresas. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
-   * ![SharePoint - Sites de Equipa](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Sites de Equipa**    Guardar os seus ficheiros do Power BI no SharePoint – Sites de Equipa é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença neste caso é como liga ao ficheiro do Power BI. Pode especificar um URL ou ligar à pasta raiz.
+   * ![OneDrive Pessoal](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive Pessoal**: se guardar os ficheiros na sua própria conta do OneDrive, vai aproveitar vários dos mesmos benefícios que teria com o OneDrive para Empresas. A maior diferença é que, na primeira ligação ao ficheiro (ao utilizar Obter Dados > Ficheiros > OneDrive – Pessoal), tem de iniciar sessão no OneDrive com a sua conta Microsoft, a qual é normalmente diferente da utilizada para iniciar sessão no Power BI. Ao iniciar sessão no OneDrive com a sua conta Microsoft, certifique-se de que seleciona a opção Manter sessão iniciada. Dessa forma, o Power BI poderá ligar ao ficheiro em intervalos aproximados de uma hora e garantir que o conjunto de dados no Power BI está sincronizado.
+   * ![Sites de Equipa do SharePoint](media/sample-datasets/power-bi-sharepoint2.png) **Sites de Equipa do SharePoint**: guardar os seus ficheiros do Power BI nos Sites de Equipa do SharePoint é muito semelhante a guardá-los no OneDrive para Empresas. A maior diferença neste caso é como liga ao ficheiro do Power BI. Pode especificar um URL ou ligar à pasta raiz.
 1. Abra o serviço Power BI (app.powerbi.com) e inicie sessão.
 
    > [!TIP]

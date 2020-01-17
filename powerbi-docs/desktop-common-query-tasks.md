@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878679"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761755"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Executar tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, existem algumas tarefas comuns. Este documento demonstra essas tarefas comuns e apresenta ligações para informações adicionais. 
 
 As tarefas comuns de consulta demonstradas aqui são as seguintes:
@@ -151,16 +151,16 @@ As categorias de fórmula do Editor de Consultas são as seguintes:
 
 * Número
   * Constantes
-  * Informação
+  * Informações
   * Conversão e formatação
-  * Formato
+  * Formatar
   * Arredondamento
   * Operações
   * Aleatório
   * Trigonometria
   * Bytes
 * Texto
-  * Informação
+  * Informações
   * Comparações de texto
   * Extração
   * Modificação
@@ -173,15 +173,15 @@ As categorias de fórmula do Editor de Consultas são as seguintes:
 * DateTimeZone
 * Duração
 * Registo
-  * Informação
+  * Informações
   * Transformações
   * Seleção
   * Serialização
 * Lista
-  * Informação
+  * Informações
   * Seleção
   * Transformação
-  * Associação
+  * Membership
   * Definir operações
   * Ordenação
   * Médias
@@ -191,14 +191,14 @@ As categorias de fórmula do Editor de Consultas são as seguintes:
 * Tabela
   * Construção da tabela
   * Conversões
-  * Informação
+  * Informações
   * Operações de linha
   * Operações de coluna
-  * Associação
+  * Membership
 * Valores
 * Operações aritméticas
 * Tipos de Parâmetro
-* Metadados
+* Metadata
 * Aceder a dados
 * URI
 * Formatos de binários

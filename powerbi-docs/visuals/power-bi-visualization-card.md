@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870976"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758043"
 ---
-# <a name="card-visualizations"></a>Visualizações de cartão
+# <a name="create-card-visualizations"></a>Criar visualizações de cartão
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,7 +28,7 @@ Por vezes, um único número é a coisa mais importante que pretende controlar n
 
 Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** \> **Abrir**.
+1. Na secção superior esquerda da barra de menus, selecione **Ficheiro** \> **Abrir**
    
 2. Encontre a sua cópia do **ficheiro PBIX de Exemplo de Análise de Revenda**.
 
@@ -40,7 +40,7 @@ Este tutorial utiliza o [ficheiro PBIX de Exemplo de Análise de Revenda](https:
 
 O primeiro método para criar um cartão é utilizar o editor de relatórios no Power BI Desktop.
 
-1. Comece numa página de relatório em branco e selecione o campo **Arquivo** \> **Contagem de arquivos abertos**.
+1. Comece numa página de relatório em branco e selecione o campo **Store** (Loja) \> **Open store count** (Contagem de lojas abertas).
 
     O Power BI cria um gráfico de colunas com um número.
 

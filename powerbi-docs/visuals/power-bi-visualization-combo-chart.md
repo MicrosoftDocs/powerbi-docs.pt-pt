@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880946"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758089"
 ---
-# <a name="combo-chart-in-power-bi"></a>Gráfico de combinação no Power BI
+# <a name="create-and-use-combo-charts-in-power-bi"></a>Criar e utilizar gráficos de combinação no Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -59,11 +59,11 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 
 1. Comece numa página de relatório em branco e crie um gráfico de coluna que apresenta as vendas deste ano e a margem bruta por mês.
 
-    a.  No painel Campos, selecione **Vendas** \> **Vendas do Último Ano** > **Valor**.
+    a.  No painel Campos, selecione **Sales** (Vendas) \> **This Year Sales** (Vendas Deste Ano)  > **Value** (Valor).
 
-    b.  Arraste **Vendas** \> **Margem Bruta Deste Ano** para o painel **Valor**.
+    b.  Arraste **Sales** (Vendas) \> **Gross Margin This Year** (Margem Bruta Deste Ano) para o painel **Value** (Valor).
 
-    c. Selecione **Hora** \> **MêsFiscal** para adicionar este campo ao painel **Eixo**.
+    c. Selecione **Time** (Hora) \> **FiscalMonth** (MêsFiscal) para adicionar este campo à área **Eixo**.
 
     ![exemplo de tutorial de combinação](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selecione **Mais opções** (...) no canto superior direito da visualização e, em seguida, **Ordenar por > MêsFiscal**. Para alterar a sequência de ordenação, selecione as reticências novamente e selecione **Ordenação ascendente** ou **Ordenação descendente**. Para este exemplo, vamos utilizar **Ordenação ascendente**.
@@ -71,7 +71,7 @@ Veja o Will a criar um gráfico de combinação através do exemplo Vendas e Mar
 6. Converta o gráfico de colunas num gráfico de combinação. Estão disponíveis dois gráficos de combinação: **Coluna de linhas e empilhada** e **Coluna de linhas e em cluster**. Com o gráfico de colunas selecionado, no painel **Visualizações**, selecione **Gráfico de linhas e de colunas agrupadas**.
 
     ![exemplo de converter gráfico de combinação](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. No painel **Campos**, arraste **Vendas** \> **Vendas do Ano Passado** até ao registo **Valores de Linha**.
+7. No painel **Campos**, arraste **Sales** (Vendas) \> **Last Year Sales** (Vendas do Ano Passado) até ao grupo **Valores de Linha**.
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 

@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8bb07269b6406f052caceedb7b1f924e4424fde4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871689"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762353"
 ---
-# <a name="r-packages-in-the-power-bi-service"></a>Pacotes R no serviço Power BI
+# <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Criar elementos visuais com pacotes R no serviço Power BI
 Pode utilizar a poderosa [linguagem de programação R](https://www.r-project.org/) para criar elementos visuais no serviço Power BI. Inúmeros pacotes R são suportados no serviço Power BI (e muitos mais estão a ser suportados), mas alguns não são.
 
 As secções seguintes fornecem uma tabela alfabética dos pacotes R suportados e não suportados no Power BI. Para obter mais informações sobre a linguagem R no Power BI, veja o artigo [Elementos visuais R](visuals/service-r-visuals.md).
@@ -77,7 +77,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |BAS|1.4.9|https://cran.r-project.org/web/packages/BAS/index.html|
 |base|3.4.4|ND|
 |base2grob|0.0.2|https://cran.r-project.org/web/packages/base2grob/index.html|
-|base64|2,0|https://cran.r-project.org/web/packages/base64/index.html|
+|base64|2.0|https://cran.r-project.org/web/packages/base64/index.html|
 |base64enc|0.1-3|https://cran.r-project.org/web/packages/base64enc/index.html|
 |BayesDA|2012.04-1|https://cran.r-project.org/web/packages/BayesDA/index.html|
 |BayesFactor|0.9.12-2|https://cran.r-project.org/web/packages/BayesFactor/index.html|
@@ -92,7 +92,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |BayesValidate|0,0|https://cran.r-project.org/web/packages/BayesValidate/index.html|
 |BayesX|0.2-9|https://cran.r-project.org/web/packages/BayesX/index.html|
 |BayHaz|0.1-3|https://cran.r-project.org/web/packages/BayHaz/index.html|
-|bbemkr|2,0|https://cran.r-project.org/web/packages/bbemkr/index.html|
+|bbemkr|2.0|https://cran.r-project.org/web/packages/bbemkr/index.html|
 |BCBCSF|1.0-1|https://cran.r-project.org/web/packages/BCBCSF/index.html|
 |BCE|2.1|https://cran.r-project.org/web/packages/BCE/index.html|
 |bclust|1.5|https://cran.r-project.org/web/packages/bclust/index.html|
@@ -143,7 +143,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |callr|2.0.2|https://cran.r-project.org/web/packages/callr/index.html|
 |car|2.1-6|https://cran.r-project.org/web/packages/car/index.html|
 |carData|3.0-1|https://cran.r-project.org/web/packages/carData/index.html|
-|caret|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
+|acento circunflexo|6.0-78|https://cran.r-project.org/web/packages/caret/index.html|
 |catnet|1.15.3|https://cran.r-project.org/web/packages/catnet/index.html|
 |caTools|1.17.1|https://cran.r-project.org/web/packages/caTools/index.html|
 |cclust|0.6-21|https://cran.r-project.org/web/packages/cclust/index.html|
@@ -465,7 +465,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |leaflet|2.0.2|https://cran.r-project.org/web/packages/leaflet/index.html|
 |leaflet.esri|0,2|https://cran.r-project.org/web/packages/leaflet.esri/index.html|
 |leaflet.extras|0,2|https://cran.r-project.org/web/packages/leaflet.extras/index.html|
-|leaps|3,0|https://cran.r-project.org/web/packages/leaps/index.html|
+|leaps|3.0|https://cran.r-project.org/web/packages/leaps/index.html|
 |LearnBayes|2.15.1|https://cran.r-project.org/web/packages/LearnBayes/index.html|
 |lexicon|1.2.1|https://cran.r-project.org/web/packages/lexicon/index.html|
 |libcoin|1.0-1|https://cran.r-project.org/web/packages/libcoin/index.html|
@@ -556,7 +556,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |munsell|0.5.0|https://cran.r-project.org/web/packages/munsell/index.html|
 |mvoutlier|2.0.9|https://cran.r-project.org/web/packages/mvoutlier/index.html|
 |mvtnorm|1.0-7|https://cran.r-project.org/web/packages/mvtnorm/index.html|
-|NbClust|3,0|https://cran.r-project.org/web/packages/NbClust/index.html|
+|NbClust|3.0|https://cran.r-project.org/web/packages/NbClust/index.html|
 |ncvreg|3.9-1|https://cran.r-project.org/web/packages/ncvreg/index.html|
 |network|1.13.0|https://cran.r-project.org/web/packages/network/index.html|
 |networkD3|0,4|https://cran.r-project.org/web/packages/networkD3/index.html|
@@ -796,7 +796,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |shinyjs|1.0|https://cran.r-project.org/web/packages/shinyjs/index.html|
 |shinyTime|0.2.1|https://cran.r-project.org/web/packages/shinyTime/index.html|
 |showtext|0.5-1|https://cran.r-project.org/web/packages/showtext/index.html|
-|showtextdb|2,0|https://cran.r-project.org/web/packages/showtextdb/index.html|
+|showtextdb|2.0|https://cran.r-project.org/web/packages/showtextdb/index.html|
 |SIS|0.8-6|https://cran.r-project.org/web/packages/SIS/index.html|
 |SixSigma|0.9-51|https://cran.r-project.org/web/packages/SixSigma/index.html|
 |sjlabelled|1.0.8|https://cran.r-project.org/web/packages/sjlabelled/index.html|
@@ -807,7 +807,7 @@ A tabela seguinte mostra os pacotes **suportados** no serviço Power BI.
 |slam|0.1-42|https://cran.r-project.org/web/packages/slam/index.html|
 |sm|2.2-5.4|https://cran.r-project.org/web/packages/sm/index.html|
 |smooth|2.4.1|https://cran.r-project.org/web/packages/smooth/index.html|
-|smoothSurv|2,0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
+|smoothSurv|2.0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
 |sna|2,4|https://cran.r-project.org/web/packages/sna/index.html|
 |snakecase|0.9.1|https://cran.r-project.org/web/packages/snakecase/index.html|
 |snow|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|

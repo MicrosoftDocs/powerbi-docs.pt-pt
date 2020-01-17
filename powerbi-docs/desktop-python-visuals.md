@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877983"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760733"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>Criar elementos visuais do Power BI através de Python
+# <a name="create-power-bi-visuals-by-using-python"></a>Criar elementos visuais do Power BI através de Python
 Com o **Power BI Desktop**, pode utilizar o **Python** para visualizar os seus dados.
 
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -167,6 +167,7 @@ Este tutorial foi concebido para ajudar a começar a criar elementos visuais com
 Os elementos visuais em Python no **Power BI Desktop** apresentam algumas limitações:
 
 * Limitações de tamanho de dados – os dados utilizados pelo elemento visual do Python para desenhar são limitados a 150 000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas as primeiras 150.000 linhas serão utilizadas e uma mensagem será apresentada na imagem.
+* Resolução – todos os elementos visuais Python são apresentados a 72 DPI.
 * Limite de tempo de cálculo – se um cálculo do elemento visual do Python exceder cinco minutos, a execução atingirá o tempo limite e resultará num erro.
 * Relações – tal como com outros elementos visuais do Power BI Desktop, se os campos de dados de tabelas diferentes numa relação definida entre estes forem selecionados, ocorrerá um erro.
 * Os elementos visuais do Python são atualizados após atualizações, filtragem e destaque de dados. No entanto, a própria imagem não é interativa e não pode ser a origem da filtragem cruzada.

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199463"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762330"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de Forma no Power BI Desktop (Pré-visualização)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Criar visualizações do Mapa de Forma no Power BI Desktop (pré-visualização)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -115,7 +115,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="australia-states"></a>Austrália: Estados
 
-| ID | abbr | iso | nome | postal |
+| ID | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Austrália Ocidental |WA |
 | au-vic |Vic |AU-VIC |Vitória |VIC |
@@ -128,7 +128,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="austria-states"></a>Áustria: Estados
 
-| ID | iso | nome | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Viena |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -178,7 +178,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="canada-provinces"></a>Canadá: Províncias
 
-| ID | iso | nome | postal |
+| ID | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territórios do Noroeste |NT |
@@ -187,7 +187,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Ilha Príncipe Eduardo |PE |
 | ca-on |CA-ON |Ontário |ON |
-| ca-ns |CA-NS |Nova Escócia |NS |
+| ca-ns |CA-NS |Nova Escócia |NG |
 | ca-nl |CA-NL |Terra Nova e Labrador |NL |
 | ca-nb |CA-NB |Novo Brunswick |NB |
 | ca-mb |CA-MB |Manitoba |MB |
@@ -196,7 +196,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="france-regions"></a>França: Regiões
 
-| ID | nome | name-en |
+| ID | name | name-en |
 | --- | --- | --- |
 | Auvérnia-Ródano-Alpes |  |  |
 | Borgonha-Franco-Condado |  |  |
@@ -218,7 +218,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="germany-states"></a>Alemanha: Estados
 
-| ID | iso | nome | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlim |Berlim |BE |
 | de-th |DE-TH |Turíngia |Turíngia |TH |
@@ -234,7 +234,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | de-he |DE-HE |Hesse |Hesse |HE |
 | de-hh |DE-HH |Hamburgo |Hamburgo |HH |
 | de-hb |DE-HB |Bremen |Bremen |HB |
-| de-by |DE-BY |Bayern |Baviera |BY |
+| de-by |DE-BY |Bayern |Baviera |POR |
 | de-bw |DE-BW |Bade-Vurtemberga |Bade-Vurtemberga |BW |
 
 ### <a name="ireland-counties"></a>Irlanda: Condados
@@ -270,7 +270,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="italy-regions"></a>Itália: Regiões
 
-| ID | iso | nome | name-en | postal |
+| ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Véneto |Véneto |VN |
 | it-vd |IT-23 |Vale de Aosta |Vale de Aosta |VD |
@@ -295,7 +295,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="mexico-states"></a>México: Estados
 
-| ID | abreviatura | iso | nome | name-en | postal |
+| ID | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Iucatã |Iucatã |YU |
@@ -332,7 +332,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="netherlands-provinces"></a>Países Baixos: Províncias
 
-| ID | iso | nome | name-en |
+| ID | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Holanda do Sul |Holanda do Sul |
 | nl-ze |NL-ZE |Zelândia |Zelândia |
@@ -349,7 +349,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="uk-countries"></a>Reino Unido: Países
 
-| ID | iso | nome |
+| ID | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escócia |
@@ -358,28 +358,28 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 
 ### <a name="usa-states"></a>EUA: Estados
 
-| ID | nome | postal |
+| ID | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alasca |AK |
 | us-hi |Havai |HI |
 | us-fl |Flórida |FL |
-| us-la |Louisiana |LA |
-| us-ar |Arkansas |AR |
+| us-la |Luisiana |LA |
+| us-ar |Guarda |AR |
 | us-sc |Carolina do Sul |SC |
-| us-ga |Geórgia |GA |
+| us-ga |Setúbal |GA |
 | us-ms |Mississippi |MS |
-| us-al |Alabama |AL |
+| us-al |Aveiro |AL |
 | us-nm |Novo México |NM |
 | us-tx |Texas |TX |
-| us-tn |Tennessee |TN |
+| us-tn |Faro |TN |
 | us-nc |Carolina do Norte |NC |
 | us-ok |Oklahoma |OK |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virgínia |VA |
 | us-ks |Kansas |KS |
-| us-ky |Kentucky |KY |
+| us-ky |Castelo Branco |KY |
 | us-co |Colorado |CO |
 | us-md |Maryland |MD |
 | us-wv |Virgínia Ocidental |WV |
@@ -396,7 +396,7 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | us-ct |Connecticut |CT |
 | us-pa |Pensilvânia |PA |
 | us-ny |Nova Iorque |NY |
-| us-ne |Nebraska |NE |
+| us-ne |Nebrasca |NE |
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
@@ -406,8 +406,8 @@ Utilize as seguintes **Chaves de região** nesta versão de Pré-visualização 
 | us-id |Idaho |ID |
 | us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
-| us-sd |Dakota do Sul |SD |
-| us-nd |Dakota do Norte |ND |
+| us-sd |Dacota do Sul |SD |
+| us-nd |Dacota do Norte |ND |
 | us-me |Maine |ME |
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |

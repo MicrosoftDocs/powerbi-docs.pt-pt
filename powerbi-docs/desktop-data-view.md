@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876377"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761278"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Vista de Dados no Power BI Desktop
+# <a name="work-with-data-view-in-power-bi-desktop"></a>Trabalhar com a Vista de dados no Power BI Desktop
 A **Vista de Dados** ajuda a inspecionar, explorar e compreender os dados no modelo do **Power BI Desktop**. É diferente do modo que vê tabelas, colunas e dados no **Editor de Consultas**. Com a Vista de Dados, está a ver os seus dados *após* eles terem sido carregados no modelo.
 
 Quando está a modelar seus dados, às vezes deseja ver o que está realmente numa tabela ou coluna, sem criar um elemento visual na tela de relatório, geralmente imediatamente abaixo do nível de linha. Isto é particularmente útil quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.

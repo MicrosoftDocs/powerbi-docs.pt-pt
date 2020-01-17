@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868522"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729719"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados suportados no Power BI Desktop e no Data Analysis Expressions (DAX). 
@@ -51,7 +51,7 @@ O Power BI Desktop suporta três tipos de número:
 >
 
 ### <a name="datetime-types"></a>Tipos de data/hora
-O Power BI Desktop suporta cinco tipos de dados de Data/Hora na Vista de Consulta e três no modelo e Vista de Relatório.   Tanto Data/Hora/Fuso Horário como Duração são convertidos durante o carregamento para o modelo.
+O Power BI Desktop suporta cinco tipos de dados de Data/Hora na Vista de Consulta.  Tanto Data/Hora/Fuso Horário como Duração são convertidos durante o carregamento para o modelo. O modelo de dados do Power BI Desktop apenas suporta os tipos de dados de data/hora, mas podem ser formatados como datas ou horas separadamente. 
 
 **Data/Hora** – representa um valor de data e um valor de hora.  Em segundo plano, o valor de Data/Hora é armazenado como um Tipo de Número Decimal.  Na verdade, pode converter entre os dois.   A parte de uma data referente à hora é armazenada como uma fração de múltiplos inteiros de 1/300 segundos (3,33 ms).  São suportadas datas entre os anos de 1900 e 9999.
 
@@ -59,7 +59,7 @@ O Power BI Desktop suporta cinco tipos de dados de Data/Hora na Vista de Consult
 
 **Hora** – representa apenas a Hora (nenhuma parte referente à Data).  Quando convertido para o modelo, um valor de Hora é igual a um valor de Data/Hora sem dígitos à esquerda da casa decimal.
 
-**Data/Hora/Fuso horário** – representa uma Data/Hora no formato UTC.  Atualmente, é convertido em Data/Hora quando for carregado para o modelo.
+**Data/Hora/Fuso horário** – representa uma Data/Hora no formato UTC com uma diferença de fuso horário.  É convertido em Data/Hora quando for carregado para o modelo. O modelo do Power BI não ajusta o fuso horário com base na localização, região (entre outros) do utilizador. Se um valor de 09:00 for carregado para o modelo nos E.U.A., o mesmo será apresentado como 09:00 onde quer que o relatório seja aberto ou visualizado. 
 
 **Duração** – representa um intervalo de tempo. É convertido num Tipo de Número Decimal quando for carregado para o modelo.  Como um tipo de Número Decimal, pode ser adicionado ou subtraído de um campo de Data/Hora com resultados corretos.  Como um tipo de Número Decimal, pode utilizá-lo facilmente em visualizações que mostrem a magnitude.
 
@@ -175,13 +175,13 @@ O modo como os elementos em branco são tratados em operações como adição ou
 | BLANK + BLANK |BLANK |0(zero) |
 | BLANK + 5 |5 |5 |
 | BLANK * 5 |BLANK |0(zero) |
-| 5/BLANK |Infinity |Error |
+| 5/BLANK |Infinity |Erro |
 | 0/BLANK |NaN |Error |
-| BLANK/BLANK |BLANK |Error |
+| BLANK/BLANK |BLANK |Erro |
 | FALSE OR BLANK |FALSE |FALSE |
 | FALSE AND BLANK |FALSE |FALSE |
 | TRUE OR BLANK |TRUE |TRUE |
 | TRUE AND BLANK |FALSE |TRUE |
-| BLANK OR BLANK |BLANK |Error |
-| BLANK AND BLANK |BLANK |Error |
+| BLANK OR BLANK |BLANK |Erro |
+| BLANK AND BLANK |BLANK |Erro |
 

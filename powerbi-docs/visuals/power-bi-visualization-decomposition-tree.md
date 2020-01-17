@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060664"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885280"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Utilizar o elemento visual da árvore de decomposição no Power BI (Pré-visualização)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Criar e ver os elementos visuais da árvore de decomposição no Power BI (pré-visualização)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 O elemento visual da árvore de decomposição no Power BI permite-lhe visualizar os dados em várias dimensões. Agrega os dados automaticamente e permite uma desagregação nas dimensões pretendidas, em qualquer ordem. Também é uma visualização da inteligência artificial (IA), para que possa solicitar-lhe que encontre a próxima dimensão a desagregar com base em determinados critérios. Terá assim uma ferramenta valiosa para a exploração ad hoc e a realização de uma análise da causa principal.
@@ -131,6 +131,8 @@ No exemplo a seguir, os dois primeiros níveis estão bloqueados. Tal significa 
 ![Bloqueio da árvore de decomposição](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Limitações conhecidas
+
+O número máximo de níveis para a árvore é 50. O número máximo de pontos de dados que podem ser visualizados ao mesmo tempo na árvore é 5000. Truncamos os níveis para mostrar o valor Top N. Atualmente, o valor Top N por nível está definido como 10. 
 
 A árvore de decomposição não é suportada nos seguintes cenários:  
 -   Analysis Services no local

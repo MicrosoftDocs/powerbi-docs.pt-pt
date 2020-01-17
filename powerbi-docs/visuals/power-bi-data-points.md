@@ -2,21 +2,21 @@
 title: Conjuntos de dados de grande dimensão, limites de pontos de dados e estratégias de dados
 description: Limites de dados para elementos visuais e estratégias de redução de dados
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011285"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885262"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>Limites de pontos de dados e estratégias por tipo de elemento visual
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicar limites de pontos de dados e estratégias por tipo de elemento visual
 
 Quando um elemento visual é composto no Power BI, a visualização tem de ser rápida e precisa. Isso implica algoritmos subjacentes configurados para cada tipo de elemento visual. Os elementos visuais no Power BI têm de ser suficientemente flexíveis para lidar com diferentes tamanhos de conjuntos de dados. Alguns conjuntos de dados têm apenas alguns pontos de dados, enquanto outros têm petabytes. Este artigo explica as estratégias utilizadas pelo Power BI para compor as visualizações.
 
@@ -75,7 +75,7 @@ Veja [Como funciona a amostragem de linhas](../desktop-high-density-sampling.md#
  Utiliza as mesmas estratégias que o gráfico de colunas. Tenha em atenção que a linha no **gráfico de combinação** não utiliza o algoritmo de elevada densidade utilizado pelo **gráfico de linhas**.
 
 ### <a name="custom-visuals"></a>Elementos visuais personalizados
-Pode obter até 30.000, mas cabe os autores dos elementos visuais indicar as estratégias a utilizar
+Podem ser até 30 000, mas cabe aos autores dos elementos visuais indicar as estratégias a utilizar. O limite predefinido é 1000, mas o criador de elementos visuais pode alterar esse valor, até um máximo de 30 000.
 
 ### <a name="doughnut"></a>Anel
 - N.º máximo de pontos: 3500
@@ -119,6 +119,9 @@ Dependendo da configuração, um mapa pode ter:
 - Linhas: virtualização com utilização de Janela de 500 linhas de cada vez
 - Colunas: Primeiras 100 colunas de agrupamento 
 - Valores: valores múltiplos não contam para a redução de dados
+
+### <a name="powerapps-visual"></a>Elemento visual do PowerApps
+Podem ser até 30 000, mas cabe aos autores dos elementos visuais indicar as estratégias a utilizar. O limite predefinido é 1000, mas o criador de elementos visuais pode alterar esse valor, até um máximo de 30 000.
 
 ### <a name="radial-gauge"></a>Medidor radial
 Sem estratégia de redução

@@ -6,95 +6,101 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73876074"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759205"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
-Com o **Power BI Desktop**, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o **Power BI Desktop**. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o **DirectQuery**.
+Com o *Power BI Desktop*, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o Power BI Desktop. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o DirectQuery.
 
-## <a name="supported-data-sources"></a>Origens de Dados Suportadas
-Para obter uma lista completa das origens de dados que suportam o **DirectQuery**, veja [Data sources supported by DirectQuery (Origens de dados suportadas pelo DirectQuery)](desktop-directquery-data-sources.md).
+## <a name="supported-data-sources"></a>Supported data sources (Origens de dados suportadas)
+Para obter uma lista completa das origens de dados que suportam o DirectQuery, veja [Origens de dados suportadas pelo DirectQuery](power-bi-data-sources.md).
 
 ## <a name="how-to-connect-using-directquery"></a>Como ligar com o DirectQuery
-Quando utiliza **Obter Dados** para ligar a uma origem de dados suportada pelo **DirectQuery**, é apresentada uma janela de ligação que lhe permite selecionar a forma como se pretende ligar.  
+Quando utiliza a opção **Obter Dados** para ligar a uma origem de dados suportada pelo DirectQuery, é apresentada uma caixa de diálogo de ligação que lhe permite selecionar a forma como se quer ligar. Por exemplo, no Power BI Desktop, no friso **Home page**, selecione **Obter Dados** > **SQL Server**. Na caixa de diálogo **Base de Dados do SQL Server**, o **Modo de Conectividade de Dados** apresenta as opções **Importar** e **DirectQuery**:
 
-![](media/desktop-use-directquery/directquery_2a.png)
+![Opções Importar e DirectQuery, caixa de diálogo Base de Dados do SQL Server, Power BI Desktop](media/desktop-use-directquery/directquery_sqlserverdb.png)
 
 As diferenças entre selecionar **Importar** e **DirectQuery** são as seguintes:
 
-**Importar** – as tabelas e as colunas selecionadas são importadas para o **Power BI Desktop**. Conforme cria ou interage com uma visualização, o **Power BI Desktop** utiliza os dados importados. Tem de atualizar os dados, o que importa o conjunto de dados completo novamente, para ver todas as alterações ocorridas nos dados subjacentes desde a importação inicial ou a atualização mais recente.
+- **Importação**: as tabelas e as colunas selecionadas são importadas para o Power BI Desktop. Conforme cria ou interage com uma visualização, o Power BI Desktop utiliza os dados importados. Para ver todas as alterações ocorridas nos dados subjacentes desde a importação inicial ou a atualização mais recente, tem de atualizar os dados, o que importa o conjunto de dados completo novamente.
 
-**DirectQuery** – nenhum dado é importado ou copiado para o **Power BI Desktop**. Para origens relacionais, as tabelas e colunas selecionadas aparecem na lista **Campos**. Para origens multidimensionais, como o SAP Business Warehouse, as dimensões e medidas do cubo selecionado são apresentadas na lista **Campos**. Conforme cria ou interage com uma visualização, o **Power BI Desktop** consulta a fonte de dados subjacente, o que significa que está sempre a ver dados atuais.
+- **DirectQuery**: nenhum dado é importado ou copiado para o Power BI Desktop. Para origens relacionais, as tabelas e colunas selecionadas aparecem na lista **Campos**. Para origens multidimensionais, como o SAP Business Warehouse, as dimensões e medidas do cubo selecionado são apresentadas na lista **Campos**. Conforme cria ou interage com uma visualização, o Power BI Desktop consulta a fonte de dados subjacente, por isso está sempre a ver dados atuais.
 
-Muitas modelações e transformações de dados estão disponíveis ao utilizar o **DirectQuery**, embora com algumas limitações. Ao criar ou interagir com uma visualização, a origem subjacente deve ser consultada e o tempo necessário para atualizar a visualização depende do desempenho da origem de dados subjacente. Quando os dados necessários para responder ao pedido tiverem sido pedidos recentemente, o Power BI Desktop utiliza os dados recentes para reduzir o tempo necessário para apresentar a visualização. A seleção de **Atualizar** no friso **Página Inicial** irá garantir que todas as visualizações são atualizadas com os dados atuais.
+Muitas modelações e transformações de dados estão disponíveis ao utilizar o DirectQuery, embora com algumas limitações. Ao criar ou interagir com uma visualização, tem de consultar a origem subjacente. O tempo necessário para atualizar a visualização depende do desempenho da origem de dados subjacente. Quando os dados necessários para responder ao pedido tiverem sido pedidos recentemente, o Power BI Desktop utiliza os dados recentes para reduzir o tempo necessário para apresentar a visualização. Se selecionar **Atualizar** no friso **Home Page**, todas as visualizações são atualizadas com os dados atuais.
 
-O artigo [Power BI e DirectQuery](desktop-directquery-about.md) descreve o **DirectQuery** em detalhe. Além disso, veja as secções seguintes para obter mais informações sobre as vantagens, limitações e considerações importantes ao utilizar o **DirectQuery**.
+O artigo [Power BI e DirectQuery](desktop-directquery-about.md) descreve o DirectQuery em detalhe. Para obter mais informações sobre as vantagens, limitações e considerações importantes ao utilizar o DirectQuery, veja as seguintes secções.
 
 ## <a name="benefits-of-using-directquery"></a>Benefícios da utilização do DirectQuery
-Tem algumas vantagens ao utilizar o **DirectQuery**:
+Tem algumas vantagens ao utilizar o DirectQuery:
 
-* O **DirectQuery** permite criar visualizações de conjuntos de dados muito grandes, nos casos em que, de outro modo, seria impraticável importar primeiro todos os dados com pré-agregação
-* As alterações de dados subjacentes podem exigir uma atualização de dados e, para alguns relatórios, a necessidade de apresentar os dados atuais pode exigir transferências de dados grandes, tornando impraticável uma nova importação de dados. Por outro lado, os relatórios do **DirectQuery** utilizam sempre dados atuais
-* A limitação do conjunto de dados de 1 GB *não* se aplica ao **DirectQuery**
+- O DirectQuery permite criar visualizações de conjuntos de dados muito grandes, nos casos em que, de outro modo, seria impraticável importar primeiro todos os dados com pré-agregação.
+- As alterações dos dados subjacentes requerem uma atualização dos dados. Para alguns relatórios, a necessidade de apresentar os dados atuais pode exigir transferências de dados grandes, tornando impraticável uma nova importação de dados. Por outro lado, os relatórios do DirectQuery utilizam sempre dados atuais.
+- A limitação do conjunto de dados de 1 GB *não* se aplica ao DirectQuery.
 
 ## <a name="limitations-of-directquery"></a>Limitações do DirectQuery
-Atualmente, existem algumas limitações na utilização do **DirectQuery**:
+Atualmente, existem algumas limitações na utilização do DirectQuery:
 
-* Todas as tabelas têm de ser provenientes de uma base de dados individual, a menos que utilize [modelos compostos](desktop-composite-models.md)
+- Todas as tabelas têm de ser provenientes de uma base de dados individual, a menos que utilize [modelos compostos](desktop-composite-models.md).
 
-* Se a consulta do **Editor de Consultas** for excessivamente complexa, ocorrerá um erro. Para corrigir esse erro, deve eliminar o passo que apresenta problemas no **Editor de Consultas** ou *Importar* os dados, em vez de utilizar o **DirectQuery**. Para origens multidimensionais, como o SAP Business Warehouse, não existe nenhum **Editor de Consultas**
+- Se a consulta do **Editor de Consultas** for excessivamente complexa, ocorre um erro. Para corrigir esse erro, deve eliminar o passo que apresenta problemas no **Editor de Consultas** ou *Importar* os dados, em vez de utilizar o DirectQuery. Para origens multidimensionais, como o SAP Business Warehouse, não existe nenhum **Editor de Consultas**.
 
-* Não estão disponíveis capacidades de inteligência de tempo no **DirectQuery**. Por exemplo, o tratamento especial de colunas de data (ano, trimestre, mês, dia, etc.) não é suportado no modo **DirectQuery**.
+- Não estão disponíveis funcionalidades de análise de tempo no DirectQuery. Por exemplo, o tratamento especial de colunas de data (tais como ano, trimestre, mês ou dia) não é suportado no modo DirectQuery.
 
-* As limitações são colocadas em expressões DAX permitidas em medidas para garantir que as consultas enviadas para a origem de dados subjacente têm um desempenho aceitável.
+- As limitações são colocadas em expressões DAX permitidas em medidas para garantir que as consultas enviadas para a origem de dados subjacente têm um desempenho aceitável.
 
-* Existe um limite de linhas de um milhão para devolver dados ao utilizar o **DirectQuery**. Isto não limita as agregações ou cálculos utilizados para criar o conjunto de dados devolvido com o **DirectQuery**, apenas as linhas devolvidas. Por exemplo, pode agregar 10 milhões de linhas à sua consulta que é executada na origem de dados e devolver com precisão os resultados dessa agregação para o Power BI com o **DirectQuery**, desde que os dados devolvidos ao Power BI sejam inferiores a 1 milhão de linhas. Se forem devolvidas mais de 1 milhão de linhas do **DirectQuery**, o Power BI devolve um erro.
+- Existe um limite de um milhão de linhas para devolver dados ao utilizar o DirectQuery. Isto não limita as agregações ou cálculos utilizados para criar o conjunto de dados devolvido com o DirectQuery. Afeta apenas as linhas devolvidas.
+
+    Por exemplo, pode agregar 10 milhões de linhas com a consulta que é executada na origem de dados. A consulta devolve com precisão os resultados dessa agregação para o Power BI através do DirectQuery se os dados do Power BI devolvidos forem menos de 1 milhão de linhas. Se forem devolvidas mais de 1 milhão de linhas do DirectQuery, o Power BI devolve um erro.
 
 ## <a name="important-considerations-when-using-directquery"></a>Considerações importantes ao utilizar o DirectQuery
-Os seguintes três pontos devem ser considerados ao utilizar o **DirectQuery**:
+Os seguintes três pontos devem ser considerados ao utilizar o DirectQuery:
 
-* **Desempenho e carga** - todos os pedidos do **DirectQuery** são enviados para a base de dados de origem, pelo que o tempo preciso para atualizar um elemento visual depende de quanto tempo a origem de back-end demora a responder com os resultados da consulta (ou consultas). O tempo de resposta recomendado (com os dados solicitados a serem devolvidos) para utilizar o **DirectQuery** para elementos visuais é de cinco segundos ou menos, com um tempo máximo recomendado de resposta de resultados de 30 segundos. Se demorar mais tempo, a experiência de um utilizador que consuma o relatório torna-se inaceitavelmente fraca. Além disso, assim que um relatório é publicado no serviço Power BI, qualquer consulta que demore mais do que alguns minutos excederá o tempo limite e o utilizador receberá um erro.
+- **Desempenho e carga**: todos os pedidos do DirectQuery são enviados para a base de dados de origem, pelo que o tempo preciso para atualizar um elemento visual depende de quanto tempo a origem de back-end demora a responder com os resultados da consulta (ou consultas). O tempo de resposta recomendado (com os dados solicitados a serem devolvidos) para utilizar o DirectQuery para elementos visuais é de cinco segundos ou menos. O tempo máximo recomendado é de 30 segundos. Se demorar mais tempo, a experiência de um utilizador que consuma o relatório torna-se inaceitavelmente fraca. Depois de um relatório ser publicado no serviço Power BI, qualquer consulta que demore mais do que alguns minutos excederá o tempo limite e será apresentado um erro ao utilizador.
   
-  A carga na base de dados de origem também deve ser considerada, com base no número de utilizadores do Power BI que irão consumir o relatório publicado. Utilizar a *Segurança de Nível de Linha* (RLS) também pode ter um impacto significativo; um mosaico do dashboard não RLS partilhado por vários utilizadores resulta numa única consulta à base de dados, mas utilizar o RLS num mosaico do dashboard, normalmente significa que a atualização de um mosaico exige uma consulta *por utilizador*, aumentando assim significativamente a carga na base de dados de origem e potencialmente afetando o desempenho.
+    A carga na base de dados de origem também deve ser considerada, com base no número de utilizadores do Power BI que irão consumir o relatório publicado. A utilização da **Segurança ao Nível da Linha** (RLS) pode ter igualmente um impacto significativo. Um mosaico do dashboard sem RLS que seja partilhado por vários utilizadores resulta numa única consulta para a base de dados. No entanto, a utilização de um mosaico do dashboard sem RLS significa que a atualização de um mosaico requer uma consulta *por utilizador*, o que aumenta de forma significativa a carga na base de dados de origem e poderá afetar o desempenho.
   
-  O Power BI cria consultas que são tão eficientes quanto possível. No entanto, em determinadas situações, a consulta gerada pode não ser suficientemente eficiente para evitar a falha da atualização. Por exemplo, quando uma consulta gerada tem de obter um número excessivamente grande de linhas da origem de dados back-end, ocorre o seguinte erro:
+    O Power BI cria consultas que são tão eficientes quanto possível. No entanto, em determinadas situações, a consulta gerada pode não ser suficientemente eficiente para evitar uma falha da atualização. Um exemplo desta situação é quando uma consulta gerada obtém um número excessivamente grande de linhas da origem de dados de back-end. Neste caso, ocorre o erro seguinte:
+
+    ```output
+    The resultset of a query to external data source has exceeded
+    ```
   
-      The resultset of a query to external data source has exceeded
-  
-  Esta situação pode ocorrer com um gráfico simples que inclui uma coluna de cardinalidade muito elevada, com a opção de agregação definida como *Não Resumir*. O elemento visual precisa de ter apenas colunas com uma cardinalidade abaixo de 1 milhão ou ter filtros adequados aplicados.
-* **Segurança** – por predefinição, todos os utilizadores que consomem um relatório publicado ligam à origem de dados de back-end com as credenciais introduzidas após a publicação no serviço Power BI. Esta é a mesma situação que os dados que são importados: todos os utilizadores veem os mesmos dados, independentemente de quaisquer regras de segurança definidas na origem de back-end. Os clientes que pretendam uma segurança por utilizador implementada com origens do DirectQuery deverão utilizar RLS para configurar a autenticação restrita do Kerberos relativamente à origem. O Kerberos não está disponível para todas as origens. [Saiba mais sobre o RLS](service-admin-rls.md). [Saiba mais sobre o Kerberos no DirectQuery](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
-* **Funcionalidades suportadas** - nem todas as funcionalidades no **Power BI Desktop** são suportadas no modo **DirectQuery** ou têm algumas limitações. Além disso, existem algumas capacidades no serviço Power BI (como as *Informações Rápidas*) que não estão disponíveis para conjuntos de dados com o **DirectQuery**. Como tal, a limitação de funcionalidades ao utilizar o **DirectQuery** deve ser considerada ao determinar se deve utilizar o **DirectQuery**.   
+    Esta situação pode ocorrer com um gráfico simples que inclui uma coluna de cardinalidade muito elevada, com a opção de agregação definida como **Não Resumir**. O elemento visual precisa de ter apenas colunas com uma cardinalidade abaixo de 1 milhão ou ter os filtros adequados aplicados.
+
+- **Segurança**: por predefinição, todos os utilizadores que consomem um relatório publicado ligam à origem de dados de back-end com as credenciais introduzidas após a publicação no serviço Power BI. Este processo é idêntico para os dados importados: todos os utilizadores veem os mesmos dados, independentemente das regras de segurança definidas na origem de back-end.
+
+    Os clientes que pretendam uma segurança por utilizador implementada com origens do DirectQuery deverão utilizar RLS para configurar a autenticação restrita do Kerberos relativamente à origem. O Kerberos não está disponível para todas as origens. [Saiba mais sobre o RLS](service-admin-rls.md). [Saiba mais sobre o Kerberos no DirectQuery](service-gateway-sso-kerberos.md).
+
+- **Funcionalidades suportadas**: algumas das funcionalidades do Power BI Desktop não são suportadas no modo DirectQuery ou têm limitações. Além disso, existem algumas funcionalidades no serviço Power BI (como as *Informações Rápidas*) que não estão disponíveis para conjuntos de dados com o DirectQuery. Ao determinar se deve utilizar o DirectQuery, tenha em conta estas limitações de funcionalidades.
 
 ## <a name="publish-to-the-power-bi-service"></a>Publicar no serviço Power BI
-Os relatórios criados com o **DirectQuery** podem ser publicados no Serviço Power BI.
+Os relatórios criados com o DirectQuery podem ser publicados no serviço Power BI.
 
-Se a origem de dados utilizada não precisar do **Gateway de dados no local** (**Base de Dados SQL do Azure**, **Azure SQL Data Warehouse** ou **Redshift**) as credenciais devem ser fornecidas antes que o relatório publicado seja apresentado no Serviço Power BI.
+Se a origem de dados utilizada não precisar do **Gateway de dados no local** (**Base de Dados SQL do Azure**, **Azure SQL Data Warehouse** ou **Redshift**) terá de fornecer as credenciais antes que o relatório publicado seja apresentado no serviço Power BI. Siga estas instruções para fornecer as credenciais:
 
-Pode fornecer credenciais ao selecionar o ícone de ferramentas **Definições** no Power BI e, em seguida, selecionar **Definições**.
+1. Inicie sessão no [Power BI](https://www.powerbi.com/).
+2. No serviço Power BI, selecione o ícone de engrenagem **Definições** e selecione o item de menu **Definições**.
 
-![](media/desktop-use-directquery/directquery_3.png)
+    ![Definições, serviço Power BI](media/desktop-use-directquery/directquery_pbiservicesettings.png)
 
-O Power BI apresenta a janela **Definições**. A partir daí, selecione o separador **Conjuntos de dados**, escolha o conjunto de dados que utiliza o **DirectQuery** e selecione **Editar credenciais**.
+3. Na página **Definições** do serviço Power BI, selecione o separador **Conjuntos de dados**, selecione o conjunto de dados que utiliza o DirectQuery e selecione **Editar credenciais**.
 
-![](media/desktop-use-directquery/directquery_4.png)
+4. Adicione as credenciais. Caso contrário, ocorre um erro ao abrir um relatório publicado ou ao explorar um conjunto de dados criado com uma ligação DirectQuery.
 
-Até que as credenciais sejam fornecidas, abrir um relatório publicado ou explorar um conjunto de dados criado com uma ligação do **DirectQuery** a essas origens de dados irá originar um erro.
-
-Para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, deve ser instalado um **Gateway de dados no local** e a origem de dados deve ser registada para ligar aos dados. Pode [saber mais sobre o Gateway de dados no local](https://go.microsoft.com/fwlink/p/?LinkID=627094).
+Para fazer uma ligação de dados para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, instale um **Gateway de dados no local** e registe a origem de dados. Para obter mais informações, veja [O que é um gateway de dados no local?](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>Próximos passos
-Para obter mais informações sobre o **DirectQuery**, veja os seguintes recursos:
+Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:
 
-* [DirectQuery no Power BI](desktop-directquery-about.md)
-* [Origens de dados suportadas pelo DirectQuery](desktop-directquery-data-sources.md)
-* [DirectQuery and SAP HANA](desktop-directquery-sap-bw.md) (DirectQuery e SAP HANA)
-* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
-* [On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)
-
+- [Utilizar o DirectQuery no Power BI](desktop-directquery-about.md)
+- [Origens de dados suportadas pelo DirectQuery](power-bi-data-sources.md)
+- [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
+- [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+- [What is an on-premises data gateway?](service-gateway-onprem.md) (O que é um gateway de dados no local?)

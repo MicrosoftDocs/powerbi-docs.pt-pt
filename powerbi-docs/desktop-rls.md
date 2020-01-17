@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882789"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760664"
 ---
-# <a name="row-level-security-rls-with-power-bi-desktop"></a>Segurança ao nível da linha (RLS) com o Power BI Desktop
+# <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Restringir o acesso aos dados com segurança ao nível da linha (RLS) para o Power BI Desktop
 
 Pode utilizar a segurança ao nível da linha (RLS) com o Power BI Desktop para restringir o acesso a dados para determinados utilizadores. Os filtros restringem os dados ao nível da linha. Pode definir filtros nas funções.
 
@@ -36,7 +36,7 @@ Saiba mais sobre as opções para [RLS no Serviço Power BI](service-admin-rls.m
 
 [!INCLUDE [include-short-name](./includes/rls-faq.md)]
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Segurança ao nível da linha (RLS) com o serviço Power BI](service-admin-rls.md)  
 
