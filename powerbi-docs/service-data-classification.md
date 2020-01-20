@@ -1,20 +1,20 @@
 ---
 title: Classificação de dados dos dashboards
 description: Saiba mais sobre a classificação de dados dos dashboards, incluindo como um Administrador os deve configurar e como os proprietários de dashboards podem alterar a classificação.
-author: amandacofsky
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
-ms.author: amac
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 421c587c96563784d84500ba9ba06a41ed5cdade
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872776"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925745"
 ---
 # <a name="dashboard-data-classification"></a>Classificação de dados dos dashboards
 Todos os dashboards são diferentes e, consoante a origem de dados à qual se está a ligar, é provável que o utilizador e os colegas com quem partilha tenham de tomar diferentes precauções, dependendo da confidencialidade dos dados. Alguns dashboards nunca devem ser partilhados com pessoas externas à empresa nem imprimidos. Outros podem ser livremente partilhados. Ao utilizar a classificação de dados de dashboard, poderá sensibilizar as pessoas que virem os seus dashboards sobre o nível de segurança a empregar. Pode marcar os seus dashboards com classificações definidas pelo departamento de TI da sua empresa, para que todas as pessoas a ver os conteúdos tenham o mesmo nível de compreensão sobre a confidencialidade dos dados.
@@ -62,7 +62,7 @@ A classificação de dados é configurada pelo administrador global da sua organ
 1. Selecione a engrenagem das definições e selecione **Portal de Administração**.
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. Deixe a opção **Classificação de dados para dashboards e relatórios** *ativada* no separador **Definições de inquilino**.
+2. Deixe a opção **Classificação de dados para dashboards e relatórios***ativada* no separador **Definições de inquilino**.
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 

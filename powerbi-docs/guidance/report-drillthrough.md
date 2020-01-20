@@ -1,5 +1,5 @@
 ---
-title: Report page drillthrough (Pormenorização de páginas de relatórios)
+title: Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
 description: Orientação para trabalhar com pormenorização de páginas de relatório.
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223633"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040374"
 ---
-# <a name="report-page-drillthrough"></a>Report page drillthrough (Pormenorização de páginas de relatórios)
+# <a name="use-report-page-drillthrough"></a>Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
 
 O presente artigo destina-se a si, na qualidade de autor de relatório que cria relatórios do Power BI. Fornece sugestões e recomendações para a criação de [pormenorização de páginas de relatórios](../desktop-drillthrough.md).
 
