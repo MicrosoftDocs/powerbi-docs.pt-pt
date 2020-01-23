@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favorites in the mobile apps (Favoritos nas aplicações móveis)
               href: mobile/mobile-apps-favorites.md
-            - name: 'Configure report interaction in the mobile apps (phone only) (Configurar a interação em relatórios nas aplicações [apenas telemóveis])'
-              href: mobile/mobile-app-single-tap.md
+            - name: 'Configure interaction settings (phone only) (Configurar as definições de interação [apenas para telemóveis])'
+              href: mobile/mobile-app-interaction-settings.md
             - name: Definir alertas de dados nas aplicações móveis do Power BI
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Receber notificações nas aplicações móveis do Power BI
