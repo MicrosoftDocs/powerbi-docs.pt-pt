@@ -961,16 +961,18 @@
       items:
         - name: Novidades
           href: report-server/whats-new.md
+        - name: Descrição geral para administradores
+          href: report-server/admin-handbook-overview.md
         - name: Change log
           href: report-server/changelog.md
         - name: Support timeline (Linha cronológica de suporte)
           href: report-server/support-timeline.md
+        - name: Suporte de Always Encrypted
+          href: report-server/always-encrypted-support.md
         - name: Hardware and software requirements (Requisitos de software e hardware)
           href: report-server/system-requirements.md
         - name: Browser support (Suporte do browser)
           href: report-server/browser-support.md
-        - name: Descrição geral para administradores
-          href: report-server/admin-handbook-overview.md
         - name: Noções básicas do servidor de relatórios
           items:
             - name: Power BI report scheduled refresh (Atualização agendada de relatório do Power BI)
