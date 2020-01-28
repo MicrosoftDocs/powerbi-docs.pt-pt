@@ -1,6 +1,6 @@
 ---
 title: Parâmetros de relatórios no Report Builder do Power BI
-description: Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Paginated Report Builder do Power BI, as propriedades que pode definir e muito mais.
+description: Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Report Builder do Power BI, as propriedades que pode definir e muito mais.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128415"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160863"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parâmetros de relatórios no Report Builder do Power BI
 
-Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Paginated Report Builder do Power BI, as propriedades que pode definir e muito mais. Os parâmetros de relatórios permitem-lhe controlar os dados dos relatórios, ligar os relatórios relacionados entre si e variar a apresentação do relatório. Pode utilizar os parâmetros de relatórios nos relatórios paginados que criar no Report Builder.
+Este tópico descreve as utilizações comuns dos parâmetros de relatórios do Report Builder do Power BI, as propriedades que pode definir e muito mais. Os parâmetros de relatórios permitem-lhe controlar os dados dos relatórios, ligar os relatórios relacionados entre si e variar a apresentação do relatório. Pode utilizar os parâmetros de relatórios nos relatórios paginados que criar no Report Builder.
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> Utilizações comuns dos parâmetros
 
@@ -93,7 +93,7 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
   
 - Selecione múltiplos valores de parâmetros a partir de uma lista pendente.  
   
-- Selecione um valor a partir de uma lista pendente de um parâmetro que determina os valores que estão disponíveis na lista pendente de outro parâmetro. Trata-se de parâmetros em cascata. Os parâmetros em cascata permitem filtrar valores de parâmetros de forma sucessiva de entre milhares de valores para obter um número passível de ser gerido.  
+- Selecione um valor a partir de uma lista pendente de um parâmetro que determina os valores que estão disponíveis na lista pendente de outro parâmetro. Trata-se de parâmetros em cascata. Os parâmetros em cascata permitem filtrar valores de parâmetros de forma sucessiva de entre milhares de valores para obter um número passível de ser gerido. Para obter mais informações, veja [Utilizar parâmetros em cascata em relatórios paginados](guidance/paginated-report-cascading-parameter.md).
   
 - Execute o relatório sem ter de selecionar primeiro um valor de parâmetro devido à criação de um valor predefinido para o parâmetro.  
   
@@ -148,5 +148,4 @@ Pode criar um parâmetro manualmente a partir do painel Dados do Relatório. Pod
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [Utilizar parâmetros em cascata em relatórios paginados](guidance/paginated-report-cascading-parameter.md)

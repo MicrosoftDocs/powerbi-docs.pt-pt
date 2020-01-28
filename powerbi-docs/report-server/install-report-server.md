@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/26/2019
-ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565779"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160610"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar o Power BI Report Server
 
@@ -47,7 +47,7 @@ Se tiver adquirido o Power BI Premium, no separador **Definições premium** do 
 
 ![Definições Premium](../report-server/media/install-report-server/pbirs-product-key.png "Chave do Power BI Report Server nas definições Premium")
 
-Ao selecionar **chave do Power BI Report Server**, é apresentada uma caixa de diálogo com a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
+Ao selecionar **chave do Power BI Report Server**, é apresentada uma caixa de diálogo que contém a sua chave de produto. Pode copiá-la e utilizá-la na instalação.
 
 ![Chave de produto](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Chave de produto do Power BI Report Server")
 
@@ -146,6 +146,7 @@ Abra a porta TCP que configurou para o seu URL de Serviço Web e URL do Portal W
 * Para configurar a integração com o serviço Power BI para poder afixar itens de relatório a um dashboard do Power BI, consulte [Integrate with the Power BI service (Integração com o serviço Power BI - em inglês)](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
 * Para configurar o e-mail para o processamento de subscrições, consulte [Definições de e-mails](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) e [Entrega de e-mails num servidor de relatório](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
 * Para configurar o portal Web para que possa aceder ao mesmo num computador de relatório para ver e gerir relatórios, consulte [Configurar uma firewall para acesso ao servidor de relatórios](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) e [Configurar um servidor de relatórios para administração remota](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
+* Para obter detalhes sobre como definir as propriedades do sistema do servidor de relatório no SQL Server Management Studio, veja [Server Properties Advanced Page](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services) (Página das Propriedades Avançadas do Servidor). A menos que seja especificado o contrário, as opções aplicam-se tanto ao Power BI Report Server como ao SQL Server Reporting Service.
 
 ## <a name="next-steps"></a>Próximos passos
 

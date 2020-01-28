@@ -1,6 +1,6 @@
 ---
 title: Elementos visuais do Power BI certificados
-description: Requisitos e processo de submissão de um visual personalizado para certificação. E uma lista de elementos visuais do Power BI certificados.
+description: Requisitos e processo de submissão de um elemento visual personalizado para certificação e uma lista de elementos visuais do Power BI certificados.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,73 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: c39b96122016746905ea09c0983adf50356f0c77
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/12/2019
+ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221971"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925582"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
-Os elementos visuais do Power BI certificados são os elementos visuais do *Marketplace* que cumprem determinados requisitos *de código especificados* que foram testados e aprovados pela *equipa do Microsoft Power BI*. Os testes são concebidos para verificar que o elemento visual não acede a recursos ou serviços externos.
+Os elementos visuais do Power BI certificados são os elementos visuais do [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) que cumprem os [requisitos de código](#certification-requirements) da equipa do Microsoft Power BI. Estes elementos visuais são testados para verificar que não acedem a recursos ou serviços externos e que seguem as diretrizes e os padrões de codificação seguros.
 
-Os elementos visuais do Power BI certificados e os [elementos visuais do Power BI padrão](power-bi-custom-visuals.md) são utilizados da mesma forma. Podem ser adicionados ao [Power BI Desktop](../desktop-what-is-desktop.md) e ao [serviço Power BI](../power-bi-service-overview.md), e visualizados com o [Power BI Mobile](../consumer/mobile/mobile-apps-for-mobile-devices.md) e o [Power BI Embedded](embedding.md).
+Quando um elemento visual do Power BI é certificado, oferece mais funcionalidades. Por exemplo, pode [exportar para o PowerPoint](../consumer/end-user-powerpoint.md) ou apresentar o elemento visual em e-mails recebidos quando um utilizador [subscreve as páginas de relatório](../consumer/end-user-subscribe.md).
 
-O processo de certificação é um processo opcional. Cabe aos programadores decidir se pretendem que o respetivo elemento visual do Power BI no Marketplace seja certificado. Quando um elemento visual do Power BI é certificado, oferece mais funcionalidades. Por exemplo, pode [exportar para o PowerPoint](../consumer/end-user-powerpoint.md) ou apresentar o elemento visual em e-mails recebidos quando um utilizador [subscreve as páginas de relatório](../consumer/end-user-subscribe.md).
-
-Os elementos visuais do Power BI não certificados não são necessariamente inseguros. Alguns elementos visuais não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Um exemplo disto é a ligação a um serviço externo, como elementos visuais de mapa, ou elementos visuais que utilizam bibliotecas comerciais.
-
-Se for um programador Web interessado em criar os seus próprios elementos visuais Power BI e adicioná-los ao  [Microsoft AppSource](https://appsource.microsoft.com), comece pelo tutorial  [Desenvolver um elemento visual do Power BI](visuals/custom-visual-develop-tutorial.md).
+O processo de certificação é opcional. Os elementos visuais do Power BI que não estão certificados não são necessariamente elementos visuais do Power BI não seguros. Alguns elementos visuais do Power BI não estão certificados porque não cumprem um ou mais [requisitos de certificação](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por exemplo, um elemento visual do Power BI de mapa que liga a um serviço externo ou um elemento visual do Power BI que utiliza bibliotecas comerciais.
 
 > [!NOTE]
-> A **Microsoft***não* é responsável pela criação de elementos visuais do Power BI de terceiros. Para verificar a funcionalidade dos elementos visuais de terceiros, aconselhamos os clientes a contactarem o autor do elemento visual diretamente.
-
-> [!IMPORTANT]
-> A Microsoft pode remover um elemento visual do Power BI da lista [Elementos visuais do Power BI certificados](#certified-power-bi-visuals) a seu critério exclusivo.
+> A Microsoft não é responsável pela criação de elementos visuais do Power BI de terceiros. Para verificar a funcionalidade dos elementos visuais de terceiros, contacte o autor do elemento visual diretamente.
 
 ## <a name="certification-requirements"></a>Requisitos de certificação
 
-Para obter o [certificado](#get-a-power-bi-visual-certified) de elemento visual do Power BI, confirme que o elemento visual do Power BI está em conformidade com os requisitos listados nesta secção. 
+Para obter o [certificado](#get-a-power-bi-visual-certified) de elemento visual do Power BI, o elemento visual do Power BI deve estar em conformidade com os requisitos listados nesta secção. 
 
-> [!TIP]
-> Recomendamos que utilize o EsLint com o conjunto predefinido de regras de segurança para pré-validar o código antes da submissão.
+### <a name="general-requirements"></a>Requisitos gerais
 
-* Aprovado pelo Centro de Parceiros ou Dashboard de Vendedor da Microsoft. O elemento visual do Power BI deve estar no nosso [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
-* O elemento visual do Power BI é escrito com a *API v2.5* ou superior.
-* O repositório de código está disponível para análise pela equipa do Power BI. Por exemplo, um formato legível do código fonte (JavaScript ou TypeScript) está disponível através do GitHub.
+O elemento visual do Power BI deve ser aprovado pelo Dashboard do Vendedor ou Centro de Parceiros. É recomendado que o elemento visual do Power BI já esteja no [AppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals). Para saber como publicar um elemento visual do Power BI no AppSource, veja [Publicar elementos visuais do Power BI no Centro de Parceiros](office-store.md).
 
-    >[!NOTE]
-    > Não tem de partilhar o seu código em público no GitHub.
+Antes de submeter o elemento visual do Power BI para certificação, confirme que este está em conformidade com as [diretrizes dos elementos visuais do Power BI](./guidelines-powerbi-visuals.md).
 
-* Requisitos do repositório de código:
-  * Deve incluir estes ficheiros:
-    * .gitignore
-    * capabilities.json
-    * pbiviz.json
-    * package.json
-    * package-lock.json
-    * tsconfig.json
-  * Não deve incluir a pasta *node_modules* (adicione *node_modules* ao ficheiro .gitingore).
-  * O comando *npm install* não deve devolver erros.
-  * O comando *npm audit* não deve devolver avisos com nível alto ou moderado.
-  * O comando *pbiviz package* não deve devolver erros.
-  * Deve incluir o [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem configurações substituídas. Este comando não deve devolver erros lint.
-   * O pacote compilado do elemento visual do Power BI tem de corresponder ao pacote enviado.
-* Requisitos do código fonte:
-   * O elemento visual do Power BI deve suportar a [API de Eventos de Composição](./visuals/event-service.md).
-   * Confirme que nenhum código arbitrário/dinâmico é executado (incorreto: eval(), não seguro usar setTimeout(), requestAnimationFrame(), setInterval(alguma função com entrada do utilizador), execução da entrada/dados do utilizador).
-   * Verifique se o DOM é manipulado com segurança (incorreto: innerHTML, D3.html(<some user/data input>), use a limpeza para entrada/dados do utilizador antes de adicioná-lo ao DOM.
-   * Verifique se não existem erros ou exceções de JavaScript na consola do browser para quaisquer dados de entrada. Os utilizadores poderão utilizar o elemento visual do Power BI com um intervalo diferente de dados inesperados, pelo que o elemento visual não deve falhar. Pode utilizar este [relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
+Ao submeter o elemento visual do Power BI, confirme que o pacote compilado corresponde exatamente ao pacote submetido.
 
-* Se alguma propriedade no ficheiro *capabilities.json* for alterada, confirme que não interrompem os relatórios do utilizador existentes.
+### <a name="code-repository-requirements"></a>Requisitos do repositório de código
 
-* Confirme que o elemento visual do Power BI está em conformidade com as [diretrizes dos elementos visuais do Power BI](./guidelines-powerbi-visuals.md).
-    
-* O código só pode utilizar componentes OSS que possam ser revistos publicamente, como bibliotecas TypeScript ou JavaScript públicas. O código fonte tem de estar disponível para análise e não apresentar vulnerabilidades conhecidas. Não é possível verificar um elemento visual personalizado com um componente comercial.
+Embora não seja necessário partilhar publicamente o código no GitHub, o repositório de código deve estar disponível para análise pela equipa do Power BI. A melhor maneira de o fazer, é fornecer o código fonte (JavaScript ou TypeScript) no GitHub.
 
-* O elemento visual do Power BI não deve aceder a serviços ou recursos externos. Por exemplo, nenhum pedido HTTP/S ou WebSocket pode sair do Power BI para quaisquer serviços. 
+O repositório deve conter o código para apenas um elemento visual do Power BI. Não pode conter código para vários elementos visuais do Power BI ou código não relacionado.
+
+O repositório deve conter um ramo denominado **certificação**. O código fonte neste ramo deve corresponder ao pacote submetido. Este código só pode ser atualizado durante o próximo processo de submissão, caso esteja a submeter novamente o elemento visual do Power BI.
+
+Se o elemento visual do Power BI utilizar pacotes npm privados ou submódulos git, deve fornecer acesso aos repositórios adicionais que contêm este código.
+
+### <a name="file-requirements"></a>Requisitos de ficheiros
+
+Utilize a versão mais recente da API para escrever o elemento visual do Power BI.
+
+O repositório deve incluir os seguintes ficheiros:
+* **.gitignore** – adicione `node_modules` a este ficheiro. Este código não pode incluir a pasta *node_modules*.
+* **capabilities.json** – se estiver a submeter uma versão mais recente do elemento visual do Power BI com alterações às propriedades neste ficheiro, confirme que estas não danificam os relatórios dos utilizadores existentes.
+* **pbiviz.json**
+* **package.json**
+* **package-lock.json**
+* **tsconfig.json**
+
+### <a name="command-requirements"></a>Requisitos de comandos
+
+Confirme que os seguintes comandos não devolvem erros.
+
+* `npm install`
+* `pbiviz package`
+* `npm audit` – não deve devolver nenhum aviso com nível alto ou moderado.
+* [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem configurações substituídas. Este comando não deve devolver erros lint.
+
+### <a name="compiling-requirements"></a>Requisitos de compilação
+
+Utilize a versão mais recente do [powerbi-visuals-tools](https://www.npmjs.com/package/powerbi-visuals-tools) para escrever o elemento visual do Power BI.
+
+Deve compilar o elemento visual do Power BI com `pbiviz package`. Se estiver a utilizar os scripts criados por si, indique um comando de construção personalizado `npm run package`.
+
+
+
+### <a name="source-code-requirements"></a>Requisitos do código fonte
+
+Confirme que seguiu a lista de políticas de [certificação adicional dos elementos visuais do Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification). Se a submissão não seguir estas diretrizes, o e-mail de rejeição do Centro de Parceiros incluirá os números das políticas listados nesta ligação.
+
+Siga os requisitos de código listados abaixo para confirmar que o código está em conformidade com as políticas de certificação do Power BI.  
+
+**Obrigatório**
+* Utilize apenas componentes OSS que possam ser revistos publicamente, como bibliotecas TypeScript ou JavaScript públicas.
+* O código deve suportar a [API de Eventos de Composição](./visuals/event-service.md).
+* Confirme que o DOM é manipulado em segurança. Utilize a limpeza para a entrada de utilizador ou dados de utilizador, antes de os adicionar ao DOM.
+* Utilize este [relatório de exemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como um conjunto de dados de teste.
+
+**Não permitido**
+* Aceder a recursos ou serviços externos. Por exemplo, nenhum pedido HTTP/S ou WebSocket pode sair do Power BI para quaisquer serviços.
+* Com `innerHTML`ou `D3.html(user data or user input)`.
+* Os erros ou as exceções de JavaScript na consola do browser para quaisquer dados de entrada.
+* Código dinâmico ou arbitrário, como `eval()`, utilização não segura de `settimeout()`, `requestAnimationFrame()`, `setinterval(user input function)` e dados de entrada ou dados de utilizador.
+* Projetos ou ficheiros de JavaScript em miniatura.
 
 ## <a name="submitting-a-power-bi-visual-for-certification"></a>Enviar um elemento visual do Power BI para certificação
 
@@ -212,6 +233,7 @@ Para obter mais informações acerca dos elementos visuais, aceda às [Perguntas
 * [Lista de reprodução visual personalizada da Microsoft no YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualizações no Power BI](../visuals/power-bi-report-visualizations.md)  
 * [Visualizações Personalizadas no Power BI](power-bi-custom-visuals.md)  
-* [Publicar elementos visuais do Power BI no Microsoft AppSource](../developer/office-store.md)  
+* [Publicar elementos visuais do Power BI no Microsoft AppSource](../developer/office-store.md) 
+* Se for um programador Web interessado em criar os seus próprios elementos visuais Power BI e adicioná-los ao  [Microsoft AppSource](https://appsource.microsoft.com), comece pelo tutorial  [Desenvolver um elemento visual do Power BI](visuals/custom-visual-develop-tutorial.md). 
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)

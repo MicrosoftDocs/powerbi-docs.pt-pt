@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837652"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038563"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados armazenado no OneDrive ou o SharePoint Online
 Importar ficheiros do OneDrive ou do SharePoint Online para o serviço Power BI é uma ótima maneira de garantir que o seu trabalho no Power BI Desktop permanece sincronizado com o serviço Power BI.
@@ -37,7 +37,7 @@ Quando atualiza o conjunto de dados, o Power BI não se liga ao ficheiro no One
 O Power BI suporta as opções **Atualizar** e **Agendar Atualização** para os conjuntos de dados criados através dos ficheiros do Power BI Desktop importados de uma unidade local onde utiliza as opções **Obter Dados** ou **Editor de Consultas** para se ligar e carregar dados a partir das seguintes origens de dados.
 
 > [!NOTE]
-> Os ficheiros importados no OneDrive são suportados. No entanto, os conjuntos de dados ligados em direto no OneDrive não são suportados como um cenário de atualização do OneDrive.
+> É suportada a atualização do OneDrive para conjuntos de dados de ligação em direto. No entanto, não é suportada a alteração do conjunto de dados de ligação em direto, de um conjunto de dados para outro num relatório já publicado, no cenário de atualização do OneDrive.
 
 ### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 * Todas as origens de dados online apresentadas nas opções **Obter Dados** e **Editor de Consultas** do Power BI Desktop.

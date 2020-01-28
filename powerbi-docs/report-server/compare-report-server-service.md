@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 12/03/2019
-ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831124"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160840"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparar o Power BI Report Server e o serviço Power BI
 
@@ -31,6 +31,7 @@ O Power BI Report Server e o serviço Power BI têm muitas semelhanças e alguma
 | Ciclo de lançamento | Três vezes por ano (janeiro, maio, setembro) | Uma vez por mês | As funcionalidades e correções mais recentes estarão disponíveis primeiro no serviço Power BI. A maioria das funcionalidade principais estarão disponíveis no Power BI Report Server nos próximos lançamentos; algumas funcionalidades destinam-se apenas ao serviço Power BI. |
 | Criar relatórios do Power BI no Power BI Desktop | Sim | Sim |  |
 | Criar relatórios do Power BI no browser | Não | Sim |  |
+| Alojar e ligar a conjuntos de dados partilhados do Power BI | Não | Sim | [Introdução aos conjuntos de dados em áreas de trabalho](../service-datasets-across-workspaces.md) |
 | Gateway necessário | Não | Sim para origens de dados no local |  |
 | Transmissão em fluxo em tempo real | Não | Sim | [Transmissão em fluxo em tempo real no Power BI](../service-real-time-streaming.md) |
 | Dashboards | Não | Sim | [Dashboards no serviço Power BI](../consumer/end-user-dashboards.md) |

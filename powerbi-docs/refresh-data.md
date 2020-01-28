@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791679"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039050"
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 
@@ -317,10 +317,9 @@ O ícone de aviso ajuda a indicar problemas de conjuntos de dados atuais, mas ta
 
 ## <a name="automatic-page-refresh"></a>Atualização automática de página
 
-A atualização automática de página funciona ao nível da página de relatório e permite que os autores de relatórios definam um intervalo de atualização para os elementos visuais numa página que só está ativa quando está a ser consumida. A atualização automática de página só está disponível para origens de dados DirectQuery. O intervalo de atualização mínimo depende do tipo de área de trabalho na qual o relatório é publicado e das definições de administração de capacidades das áreas de trabalho Premium.
+A atualização automática de página funciona ao nível da página de relatório e permite que os autores de relatórios definam um intervalo de atualização para os elementos visuais numa página que só está ativa quando está a ser consumida. A atualização automática de página só está disponível para origens de dados DirectQuery. O intervalo de atualização mínimo depende do tipo de área de trabalho na qual o relatório é publicado e das definições de administração de capacidades das áreas de trabalho Premium e das [áreas de trabalho incorporadas](developer/embedding.md).
 
 Saiba mais sobre a atualização automática de página no artigo de [atualização automática de página](desktop-automatic-page-refresh.md).
-
 
 ## <a name="best-practices"></a>Melhores práticas
 

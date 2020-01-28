@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872819"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282010"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Afixar um mosaico a um dashboard a partir das Perguntas e Respostas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como afixar um mosaico a partir das Perguntas e Respostas
@@ -53,7 +53,7 @@ Para acompanhar, abra o [dashboard do exemplo de Análise de Revenda](sample-ret
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 * Quando começa a escrever uma pergunta, o P e R começa imediatamente a procurar a melhor resposta de todos os conjuntos de dados associados ao dashboard atual.  O “dashboard atual” é o dashboard listado no painel de navegação superior. Por exemplo, esta pergunta está a ser feita no dashboard **Exemplo de Análise de Revenda**, que faz parte da área de trabalho **mihart**.
 
-  ![trilhos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![trilhos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **De que forma as Perguntas e Respostas sabem que conjuntos de dados devem utilizar**?  As Perguntas e Respostas têm acesso a todos os conjuntos de dados que têm, pelo menos, uma visualização afixada nesse dashboard.
 
 * **Não vê a caixa de pergunta**? Fale com o seu administrador do Power BI. O administrador tem a capacidade de desativar as Perguntas e Respostas.

@@ -1,6 +1,6 @@
 ---
 title: Tabelas, matrizes e listas no Report Builder do Power BI
-description: No Paginated Report Builder do Power BI, as tabelas, matrizes e listas são regiões de dados que apresentam dados de relatórios paginados em células organizadas em linhas e colunas.
+description: No Report Builder do Power BI, as tabelas, as matrizes e as listas são regiões de dados que apresentam dados de relatórios paginados em células organizadas em linhas e colunas.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840217"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953829"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabelas, matrizes e listas no Report Builder do Power BI
  No Report Builder, as tabelas, matrizes e listas são *regiões de dados* que apresentam dados de relatórios paginados em células organizadas em linhas e colunas. As células geralmente incluem dados, como texto, datas e números, mas também podem incluir medidores, gráficos ou itens de relatório, como imagens. Coletivamente, as tabelas, matrizes e listas são muitas vezes designadas de regiões de dados *tablix*.  

@@ -1,126 +1,179 @@
 ---
 title: Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
-description: O artigo descreve uma estrutura de projetos de elementos visuais
-author: zBritva
-ms.author: v-ilgali
+description: Este artigo descreve a pasta e a estrutura de ficheiros de um projeto de elemento visual do Power BI
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542099"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925519"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI visual project structure (Estrutura de projeto de elementos visuais do Power BI)
 
-Depois de executar o novo `<visual project name>` do pbiviz, a ferramenta cria a estrutura básica de ficheiros e pastas na pasta `<visual project name>`.
+A melhor maneira de começar a criar um novo elemento visual do Power BI é utilizar a ferramenta [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) dos elementos visuais do Power BI.
 
-## <a name="visual-project-structure"></a>Estrutura de projetos de elementos visuais
+Para criar um novo elemento visual, navegue para o diretório onde quer que o elemento visual do Power BI resida e execute o comando:
 
-![Estrutura de projetos de elementos visuais](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode` – contém as definições do projeto para VS Code. Para configurar a sua área de trabalho, edite o ficheiro `.vscode/settings.json`. Leia mais [sobre as definições do VS Code na documentação](https://code.visualstudio.com/docs/getstarted/settings)
+Executar este comando cria uma pasta para os elementos visuais do Power BI que contém os seguintes ficheiros:
 
-* A pasta `assets` apenas contém o ficheiro `icon.png`. A ferramenta utiliza este ficheiro como um ícone do elemento visual no painel Visualizações do Power BI.
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![Painel Visualizações](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>Descrição dos ficheiros e das pastas
 
-* A pasta `node_modules` contém todos os pacotes [instalados pelo Node Package Manager](https://docs.npmjs.com/files/folders.html).
+Esta secção apresenta informações para cada ficheiro e pasta no diretório que a ferramenta **pbiciz** dos elementos visuais do Power BI cria.  
 
-* A pasta `src` contém o código fonte do elemento visual. Por predefinição, a ferramenta cria dois ficheiros:
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts` – o código fonte principal do elemento visual.
+Esta pasta contém as definições do projeto do VS Code.
 
-  * `settings.ts` – o código das definições para o elemento visual. As classes que se encontram no ficheiro simplificam o [trabalho com as propriedades do elemento visual](./objects-properties.md#properties).
+Para configurar a área de trabalho, edite o ficheiro `.vscode/settings.json`.
 
-* A pasta `style` contém o ficheiro `visual.less` com estilos para o elemento visual.
+Para obter mais informações, veja [User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings) (Definições da Área de Trabalho e do Utilizador)
 
-* A pasta `capabilities.json` contém as propriedades e definições principais para o elemento visual. Permite que o elemento visual declare funcionalidades, objetos, propriedades e mapeamento de vista de dados suportados.
+### <a name="assets"></a>recursos
 
-    Leia mais [sobre as funcionalidades na documentação](./capabilities.md).
+Esta pasta contém o ficheiro `icon.png`.
 
-* `package-lock.json` é gerado automaticamente para qualquer operação na qual npm modifique a árvore de `node_modules` ou `package.json`.
+A ferramenta dos elementos visuais do Power BI utiliza este ficheiro como o novo ícone de elemento visual do Power BI no painel de visualização do Power BI.
 
-    Leia mais [sobre o `package-lock.json` na documentação oficial do NPM](https://docs.npmjs.com/files/package-lock.json).
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json` descreve o pacote do projeto. Normalmente, contém informações sobre o projeto, os seus autores, a descrição e as dependências do projeto.
+### <a name="src"></a>src
 
-    Leia mais [sobre o `package.json` na documentação oficial do NPM](https://docs.npmjs.com/files/package.json.html).
+Esta pasta contém o código fonte do elemento visual.
 
-* `pbiviz.json` contém os metadados do elemento visual. Especifique os metadados do elemento visual neste ficheiro.
+Nesta pasta, a ferramenta dos elementos visuais do Power BI cria os seguintes ficheiros:
+* `visual.ts` – o principal código fonte do elemento visual.
+* `settings.ts` – o código das definições do elemento visual. As classes no ficheiro oferecem uma interface para definir as [propriedades do elemento visual](./objects-properties.md#properties).
 
-    Conteúdo típico do ficheiro:
+### <a name="style"></a>estilo
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+Esta pasta contém o ficheiro `visual.less`, que contém os estilos do elemento visual.
 
-    em que
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name` – nome interno do elemento visual.
+Este ficheiro contém as principais propriedades e definições (ou [capacidades](./capabilities.md)) do elemento visual. Permite que o elemento visual declare funcionalidades, objetos, propriedades e [mapeamento de vista de dados](./dataview-mappings.md). suportados.
 
-  * `displayName` – nome do elemento visual na interface de utilizador do Power BI.
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid` – ID exclusivo do elemento visual.
+Este ficheiro é gerado automaticamente para todas as operações na qual *npm* modifica a árvore `node_modules` ou o ficheiro `package.json`.
 
-  * `visualClassName` – nome da principal classe para o elemento visual. O Power BI cria a instância desta classe para começar a utilizar o elemento visual no relatório do Power BI.
+Para obter mais informações sobre este ficheiro, veja a documentação [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) oficial.
 
-  * `version` – número de versão do elemento visual.
+### <a name="packagejson"></a>package.json
 
-  * `author` – contém o nome e o contacto de e-mail do autor.
+Este ficheiro descreve o pacote do projeto. Contém informações sobre o projeto, como os autores, a descrição e as dependências do projeto.
 
-  * `icon` em `assets` – caminho do ficheiro de ícone para o elemento visual.
+Para obter mais informações sobre este ficheiro, veja a documentação [npm-package.json](https://docs.npmjs.com/files/package.json.html) oficial.
 
-  * `externalJS` contém caminhos para bibliotecas JS utilizadas no elemento visual.
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > A versão mais recente da ferramenta (3.X.X ou posterior) deixou de utilizar `externalJS`.
+Este ficheiro contém os metadados do elemento visual.
 
-  * `style` é o caminho dos ficheiros dos estilos.
+Para ver um exemplo de ficheiro `pbiviz.json` com comentários que descrevem as entradas de metadados, veja a secção [entradas de metadados](#metadata-entries).
 
-  * `capabilities` é o caminho do ficheiro `capabilities.json`.
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies` é o caminho do ficheiro `dependencies.json`. `dependencies.json` contém informações sobre pacotes de R utilizados em elementos visuais baseados em R.
+Um ficheiro de configuração para [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-  * `stringResources` é uma matriz de caminhos de ficheiros com localizações.
+Este ficheiro deve conter o caminho para o ficheiro **\*.ts** no qual a classe principal do elemento visual está localizada, conforme especificado na propriedade `visualClassName` do ficheiro `pbiviz.json`.
 
-  Leia mais [sobre a localização em elementos visuais na documentação](./localization.md)
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json` é o ficheiro de configuração para TypeScript.
+Este ficheiro contém a [configuração TSLint](https://palantir.github.io/tslint/usage/configuration/).
 
-    Leia mais [sobre a configuração de TypeScript na documentação oficial](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+## <a name="metadata-entries"></a>Entradas de metadados
 
-    O ficheiro `tsconfig.json` na secção `files` tem de conter o caminho do ficheiro *.ts no qual a classe principal do elemento visual está localizada especificada na propriedade `visualClassName` do ficheiro `pbiviz.json`.
+Os comentários na legenda do código seguinte, no ficheiro `pbiviz.json`, descrevem as entradas de metadados.
 
-* O ficheiro `tslint.json` contém a configuração de TSLint.
+> [!NOTE]
+> * A partir da versão 3.x.x da ferramenta **pbiciz**, `externalJS` não é suportado.
+> * Para suporte de localização, [adicione a localização do Power BI ao elemento visual](./localization.md).
 
-    Leia mais [sobre a configuração de TSLint na documentação oficial](https://palantir.github.io/tslint/usage/configuration/)
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>Próximos passos
 
-* Leia mais [sobre o conceito de elemento visual](./power-bi-visuals-concept.md) para compreender melhor a forma como o elemento visual, o utilizador e o Power BI interagem entre si.
+* Para compreender as interações entre um elemento visual, um utilizador e o Power BI, veja o [Conceito do elemento visual do Power BI](./power-bi-visuals-concept.md).
 
-* Comece a criar de raiz os seus próprios elementos visuais do Power BI [com o guia passo a passo](./custom-visual-develop-tutorial.md).
+* Comece a criar de raiz os seus próprios elementos visuais do Power BI, com o [guia passo a passo](./custom-visual-develop-tutorial.md).

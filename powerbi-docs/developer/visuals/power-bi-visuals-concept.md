@@ -1,132 +1,134 @@
 ---
-title: Conceito de elemento visual do Power BI
-description: O artigo descreve como o elemento visual se integra com o Power BI
-author: zBritva
-ms.author: v-ilgali
+title: Conceitos de elementos visuais do Power BI
+description: O artigo descreve como os elementos visuais se integram com o Power BI e como um utilizador pode interagir com um elemento visual no Power BI.
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 36742917829013a6efca9d74f88b01bc686437a8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700852"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925602"
 ---
-# <a name="power-bi-visual-concept"></a>Conceito de elemento visual do Power BI
+# <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
-O artigo explica como um utilizador e um elemento visual interagem com o Power BI e como um utilizador interage com o elemento visual do Power BI. No diagrama, vê que ações influenciam diretamente o elemento visual ou através do Power BI (por exemplo, o utilizador seleciona marcadores).
+O artigo descreve como os elementos visuais se integram com o Power BI e como um utilizador pode interagir com um elemento visual no Power BI. 
 
-![Elemento visual do Power BI](./media/visual-concept.svg)
+A figura a seguir ilustra como as ações comuns baseadas em elementos visuais realizadas por um utilizador, como selecionar um marcador, são processadas no Power BI.
 
-## <a name="the-visual-gets-update-from-power-bi"></a>O elemento visual obtém a atualização do Power BI
+![Diagrama das ações dos elemento visuais do Power BI](./media/visual-concept.svg)
 
-O elemento visual tem o método `update` e este método contém normalmente a lógica principal do elemento visual e é responsável pela composição do gráfico ou visualização dos dados.
+## <a name="visuals-get-updates-from-power-bi"></a>Os elementos visuais recebem atualizações do Power BI
 
-Mais atualizações são implementadas com o método `update`.
+Um elemento visual chama um método `update` para obter atualizações do Power BI. O método `update` contém normalmente a lógica principal do elemento visual e é responsável pela composição do gráfico ou pela visualização dos dados.
 
-### <a name="user-interacts-with-visual-through-power-bi"></a>O utilizador interage com o elemento visual através do Power BI
+As atualizações são ativadas quando o elemento visual chama o método `update`.
+
+## <a name="action-and-update-patterns"></a>Padrões de ações e atualizações
+
+As ações e as atualizações subsequentes nos elementos visuais do Power BI ocorrem num destes três padrões:
+
+* O utilizador interage com um elemento visual através do Power BI.
+* O utilizador interage diretamente com o elemento visual.
+* O elemento visual interage com o Power BI.
+
+### <a name="user-interacts-with-a-visual-through-power-bi"></a>O utilizador interage com um elemento visual através do Power BI
 
 * O utilizador abre o painel de propriedades do elemento visual.
 
-    O Power BI obtém os objetos e propriedades suportados do elemento visual `capabilities.json` e, para receber os valores reais das propriedades, o Power BI chama o `enumerateObjectInstances` método do elemento visual.
+    Quando um utilizador abre o painel de propriedades do elemento visual, o Power BI obtém os objetos e as propriedades suportados do ficheiro *capabilities.json* do elemento visual. Para receber os valores reais das propriedades, o Power BI chama o método `enumerateObjectInstances` do elemento visual. O elemento visual devolve os valores reais das propriedades.
 
-    O elemento visual tem de devolver valores reais de propriedades.
+    Para obter mais informações, veja [Capacidades e propriedades dos elementos visuais do Power BI](capabilities.md).
 
-    Para obter mais informações, [leia sobre os recursos visuais](capabilities.md).
+* O utilizador [altera uma propriedade do elemento visual](../../visuals/power-bi-visualization-customize-title-background-and-legend.md) no painel formatar.
 
-* [O utilizador altera a propriedade do elemento visual](../../visuals/power-bi-visualization-customize-title-background-and-legend.md) no painel de formatação.
+    Quando um utilizador altera o valor de uma propriedade no painel formatar, o Power BI chama o método `update` do elemento visual. O Power BI passa o novo objeto `options` ao método `update`. Os objetos contêm os novos valores.
 
-    Após alterar o valor de uma propriedade, o Power BI chama o método `update` do elemento visual e passa para o método de atualização o novo `options` com novos valores dos objetos.
-
-    Para obter mais informações, [leia sobre os objetos e propriedades do elemento visual](objects-properties.md).
+    Para obter mais informações, veja [Objetos e propriedades dos elementos visuais do Power BI](objects-properties.md).
 
 * O utilizador redimensiona o elemento visual.
 
-    Quando um utilizador altera o tamanho do elemento visual, o Power BI chama o método `update` com o novo objeto `option`. As opções aninharam o objeto `viewport` com a nova largura e altura do elemento visual.
+    Quando um utilizador altera o tamanho do elemento visual, o Power BI chama o método `update` com o novo objeto `options`. Os objetos `options` possuem objetos `viewport` aninhados que contêm a nova largura e altura do elemento visual.
 
-* O utilizador aplica o filtro de relatório, página ou nível de elemento visual.
+* O utilizador aplica um filtro ao nível do elemento visual, da página ou do relatório.
 
-    O Power BI filtra os dados de acordo com as condições do filtro e chama o método `update` do elemento visual para fornecer novos dados ao elemento visual.
+    O Power BI filtra os dados com base nas condições do filtro. O Power BI chama o método `update` do elemento visual para atualizar o elemento visual com os novos dados.
 
-    O elemento visual obtém a nova atualização de `options` com novos dados num dos objetos aninhados. Depende da configuração do mapeamento de vista de dados do elemento visual.
+    O elemento visual obtém uma nova atualização dos objetos `options` quando existem novos dados num dos objetos aninhados. A forma como a atualização ocorre depende da configuração do mapeamento da vista de dados do elemento visual.
 
-    Para obter mais informações, [leia sobre os mapeamentos de vista de dados](dataview-mappings.md).
+    Para obter mais informações, veja [Compreender o mapeamento de vista de dados em elementos visuais do Power BI](dataview-mappings.md).
 
-* O utilizador seleciona o ponto de dados noutro elemento visual do relatório.
+* O utilizador seleciona um ponto de dados noutro elemento visual no relatório.
 
-    O Power BI filtra ou destaca os pontos de dados selecionados e chama o método `update` do elemento visual.
+    Quando um utilizador seleciona um ponto de dados noutro elemento visual do relatório, o Power BI filtra ou realça os pontos de dados selecionados e chama o método `update` do elemento visual. O elemento visual recebe os novos dados filtrados ou obtém os mesmos dados com a matriz dos destaques.
 
-    O elemento visual recebe novos dados filtrados ou os mesmos dados com a matriz de destaques.
+    Para obter mais informações, veja [Realçar pontos de dados em elementos visuais do Power BI](highlight.md).
 
-    Para obter mais informações, [leia sobre como destacar dados em elementos visuais](highlight.md).
+* O utilizador seleciona um marcador no painel de marcadores do relatório.
 
-* O utilizador seleciona o marcador no painel marcadores do relatório.
+    Quando um utilizador seleciona um marcador no painel de marcadores do relatório, pode ocorrer uma de duas ações:
 
-    Podem ocorrer duas ações:
+    * O Power BI chama uma função que é passada e registada pelo método `registerOnSelectionCallback`. A função de chamada de retorno obtém as matrizes das seleções do marcador correspondente.
 
-    1. O Power BI chama a função transmitida registada pelo método `registerOnSelectionCallback` e a função de retorno obtém matrizes de seleções para o marcador correspondente.
+    * O Power BI chama o método `update` com um objeto `filter` correspondente dentro do objeto `options`.
 
-    2. O Power BI chama o método `update` com o objeto de filtro correspondente dentro de `options`.
+    Em qualquer um dos casos, o elemento visual deve mudar o estado de acordo com as seleções recebidas ou o objeto `filter`.
 
-    Em ambos os casos, o elemento visual tem de mudar o estado de visualização de acordo com as seleções recebidas ou o objeto de filtro.
+    Para obter mais informações sobre os marcadores e os filtros, veja [API de Filtros de Elementos Visuais em elementos visuais do Power BI](filter-api.md).
 
-    Para obter mais informações sobre marcadores, [leia como ligar com marcadores](filter-api.md).
+### <a name="user-interacts-with-the-visual-directly"></a>O utilizador interage diretamente com o elemento visual
 
-    Para obter mais informações sobre filtros, [leia sobre como os elementos visuais do Power BI conseguem filtrar dados noutros elementos visuais](filter-api.md).
+* O utilizador paira o rato sobre um elemento de dados.
 
-### <a name="user-interacts-with-visual-directly"></a>O utilizador interage diretamente com o elemento visual
+    Um elemento visual pode apresentar mais informações sobre o ponto de dados através da API de Descrições do Power BI. Quando um utilizador paira o rato sobre um elemento visual, o elemento visual pode lidar com o evento e apresentar dados sobre o elemento de descrição associado. O elemento visual pode apresentar uma descrição padrão ou uma descrição de página de relatório.
 
-* O utilizador paira o rato sobre o elemento de dados
+    Para obter mais informações, veja [Descrições nos elementos visuais do Power BI](add-tooltips.md).
 
-    O elemento visual pode apresentar informações adicionais sobre o ponto de dados através da API de Descrições do Power BI.
-    O utilizador paira o rato sobre a imagem que o elemento visual consegue processar eventos e apresenta os dados no elemento da descrição.
+* O utilizador altera as propriedades do elemento visual. (por exemplo, o utilizador expande a árvore e o elemento visual guarda o estado nas propriedades do elemento visual.)
 
-    O elemento visual pode apresentar a descrição padrão ou descrição de página de relatório.
+    Um elemento visual consegue guardar os valores das propriedades através da API do Power BI. Por exemplo, quando um utilizador interage com o elemento visual e o elemento visual precisa de guardar ou atualizar os valores das propriedades, o elemento visual poderá chamar o método `presistProperties`.
 
-    Para obter mais informações, leia o guia [como adicionar descrições](add-tooltips.md).
+* O utilizador seleciona um URL.
 
-* O utilizador altera as propriedades do elemento visual (por exemplo, o utilizador expande a árvore e o elemento visual guarda o estado nas propriedades)
+    Por predefinição, um elemento visual não pode abrir um URL diretamente. Em alternativa, para abrir um URL num novo separador, o elemento visual pode chamar o método `launchUrl` e passar o URL como parâmetro.
 
-    O elemento visual consegue guardar os valores de propriedades através da API do Power BI. Por exemplo, quando o utilizador interage com o elemento visual. E o elemento visual tem de guardar ou atualizar valores de propriedades. O elemento visual pode chamar o método `presistProperties` para tal.
+    Para obter mais informações, veja [Criar um URL de iniciação](launch-url.md).
 
-* O utilizador clica na ligação de URL.
+* O utilizador aplica um filtro através do elemento visual.
 
-    Por predefinição, o elemento visual não consegue abrir o URL. Para abrir o URL no novo separador, o elemento visual deve chamar o método `launchURL` e transmitir o URL como parâmetro.
+    Um elemento visual pode chamar o método `applyJsonFilter` e passar as condições para filtrar quanto a dados noutros elementos visuais. Estão disponíveis vários tipos de filtros, incluindo filtros Básicos, Avançados e Cadeia de Identificação.
 
-    Para obter mais informações, veja [iniciar API de URL](launch-url.md).
+    Para obter mais informações, veja [API de Filtros de Elementos Visuais em elementos visuais do Power BI](filter-api.md).
 
-* O utilizador aplica filtros através do elemento visual
+* O utilizador seleciona elementos no elemento visual.
 
-    O utilizador chama `applyJSONFilter` e transmite as condições dos filtros para filtrar dados noutro elemento visual.
+    Para obter mais informações sobre as seleções num elemento visual do Power BI, veja [Adicionar interatividade através das seleções de elementos visuais do Power BI](selection-api.md).
 
-    O elemento visual pode utilizar vários tipos de filtros, por exemplo, o filtro básico, filtro avançado e filtro da cadeia de identificação.
+### <a name="visual-interacts-with-power-bi"></a>O elemento visual interage com o Power BI
 
-    Para obter mais informações sobre filtros, [leia sobre como os elementos visuais do Power BI conseguem filtrar dados noutros elementos visuais](filter-api.md).
+* Um elemento visual pede mais dados do Power BI.
 
-* O utilizador clica/seleciona os elementos no elemento visual.
+    Um elemento visual processa dados por partes. O método da API `fetchMoreData` pede o próximo fragmento de dados no conjunto de dados.
 
-    Para obter mais informações sobre seleções, [leia como o elemento visual interage](selection-api.md).
+    Para obter mais informações, veja [Obter mais dados do Power BI](fetch-more-data.md).
 
-### <a name="the-visual-interacts-with-power-bi"></a>O elemento visual interage com o Power BI
+* O serviço de eventos é acionado.
 
-* O elemento visual pede mais dados do Power BI.
+    O Power BI consegue exportar um relatório para PDF ou enviar um relatório por e-mail (aplica-se apenas a elementos visuais certificados). Para notificar o Power BI de que a composição está concluída e de que o elemento visual está pronto para ser capturado como PDF ou e-mail, o elemento visual deve chamar a API de Eventos de Composição.
 
-    O elemento visual consegue processar dados por partes. O método da AI FetchMoreData pede o próximo fragmento de conjunto de dados.
+    Para obter mais informações, veja [Exportar relatórios do Power BI para PDF](../../consumer/end-user-pdf.md).
 
-    Para obter mais informações sobre `fetchMoreData`, [leia sobre como obter mais dados do Power BI](fetch-more-data.md)
-
-* Serviço de eventos
-
-    O Power BI pode exportar relatórios para PDF ou enviá-los por e-mail (só estão suportados os elementos visuais certificados). Para notificar o Power BI de que a composição está concluída e pronta para capturar o PDF/e-mail, o elemento visual deve chamar a API de Eventos de Composição.
-
-    Para obter mais informações, [leia sobre como exportar relatórios do Power BI para PDF](../../consumer/end-user-pdf.md)
-
-    Encontre mais [informações sobre o Serviço de Eventos](event-service.md)
+    Para saber mais sobre o serviço de eventos, veja [Eventos de composição nos elementos visuais do Power BI](event-service.md).
 
 ## <a name="next-steps"></a>Próximos passos
 
-É um programador Web e está interessado em criar as suas próprias visualizações e adicioná-las ao AppSource? Veja [Desenvolver um elemento visual do Power BI](./custom-visual-develop-tutorial.md) e saiba como [publicar elementos visuais do Power BI no AppSource](../office-store.md).
+Está interessado em criar as suas próprias visualizações e adicioná-las ao Microsoft AppSource? Veja estes artigos:
+
+* [Desenvolver um elemento visual do Power BI](./custom-visual-develop-tutorial.md)
+* [Publicar elementos visuais do Power BI no Centro de Parceiros](../office-store.md)

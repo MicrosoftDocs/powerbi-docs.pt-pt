@@ -6,31 +6,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25d80cd81eb06913eb24c17ef10db47fa4d2bea5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761916"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038723"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Utilizar o painel Análise no Power BI Desktop
-Com o painel **Análise** no **Power BI Desktop**, pode adicionar *linhas de referência* dinâmicas a visuais e dar foco a tendências ou informações importantes. O painel **Análise** encontra-se na área **Visualizações** do Power BI Desktop.
 
-![](media/desktop-analytics-pane/analytics-pane_1.png)
+Com o painel **Análise** do Power BI Desktop, pode adicionar *linhas de referência* dinâmicas a elementos visuais e destacar tendências ou informações importantes. O painel e o ícone **Análise** encontram-se na área **Visualizações** do Power BI Desktop.
+
+![Painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > O painel **Análise** aparece apenas quando seleciona um visual na tela do Power BI Desktop.
 
 ## <a name="search-within-the-analytics-pane"></a>Pesquisar no painel Análise
-A partir do lançamento de fevereiro de 2018 do **Power BI Desktop** (versão 2.55.5010.201 ou posterior), pode pesquisar no painel **Análise**, que é uma subsecção do painel **Visualizações**. Conforme mostrado na imagem abaixo, a caixa de pesquisa é apresentada quando o painel **Análise** está selecionado.
 
-![](media/desktop-analytics-pane/analytics-pane_1b.png)
+A partir da versão de fevereiro de 2018 do Power BI Desktop (versão 2.55.5010.201 ou posterior), pode pesquisar no painel **Análise**, que é uma subsecção do painel **Visualizações**. A caixa de pesquisa aparece quando seleciona o ícone **Análise**.
 
-## <a name="using-the-analytics-pane"></a>Utilizar o painel Análise
-Com o painel **Análise**, pode criar os seguintes tipos de linhas de referência dinâmica (nem todas as linhas estão disponíveis para todos os tipos de visuais):
+![Caixa de pesquisa, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_1b.png)
+
+## <a name="use-the-analytics-pane"></a>Utilizar o painel Análise
+
+Com o painel **Análise**, pode criar os seguintes tipos de linhas de referência dinâmicas:
 
 * Linha constante do Eixo X
 * Linha constante do Eixo Y
@@ -39,82 +42,104 @@ Com o painel **Análise**, pode criar os seguintes tipos de linhas de referênci
 * Linha Média
 * Linha Mediana
 * Linha de Percentil
+* Sombreado de simetria
+
+> [!NOTE]
+> Nem todas as linhas estão disponíveis para todos os tipos de elementos visuais.
 
 As seguintes secções mostram como pode utilizar o painel **Análise** e linhas de referência dinâmicas nas suas visualizações.
 
 Para ver as linhas de referência dinâmicas disponíveis para um visual, siga estes passos:
 
 1. Selecione ou crie um visual e, em seguida, selecione o ícone **Análise** na secção **Visualizações**.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_2.png)
-2. Selecione a seta para baixo do tipo de linha que pretende criar para expandir as respetivas opções. Neste caso, vamos selecionar **Linha Média**.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_3.png)
-3. Para criar uma nova linha, selecione **+ Adicionar**. Depois, pode especificar um nome para a linha ao fazer duplo clique na caixa de texto e, em seguida, escrever o seu nome.
-   
-   Tem diversos tipos de opções para a sua linha, como selecionar a *cor*, *transparência*, *estilo* e *posição* (relativamente aos elementos de dados do visual) e se pretende incluir a etiqueta. Um aspeto importante: pode selecionar qual a **Medida** no visual na qual pretende que a sua linha se baseie ao selecionar o menu pendente **Medida**, que é automaticamente preenchido com elementos de dados do visual. Neste caso, vamos selecionar *Weather (Tempo)* como medida, dar-lhe a etiqueta de *Average Weather (Tempo Médio)* e personalizar algumas das restantes opções, conforme mostrado abaixo.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_4.png)
-4. Se pretender que apareça uma etiqueta de dados, ative o controlo de deslize **Etiqueta de dados**. Quando o fizer, receberá uma série de opções adicionais para a sua etiqueta de dados, conforme mostrado na imagem seguinte.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_5.png)
-5. Repare no número apresentado junto ao item **Linha média** no painel **Análise**. Isto indica-lhe quantas linhas dinâmicas, e de que tipo, tem atualmente no seu elemento visual. Se adicionarmos uma **Linha máxima** para *Cost of Living (Custo de Vida)* , pode ver que o painel **Análise** demonstra que temos também uma linha de referência dinâmica **Linha máxima** aplicada a este visual.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_6.png)
 
-Se o visual que selecionou não pode ter linhas de referência dinâmicas aplicadas (neste caso, um visual de **Mapa**), irá ver o seguinte quando selecionar o painel **Análise**.
+    ![Ver a análise de um elemento visual, painel Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_2.png)
 
-![](media/desktop-analytics-pane/analytics-pane_7.png)
+2. Selecione o tipo de linha que quer criar para expandir as opções. Neste caso, vamos selecionar **Linha média**.
 
-Existem diversas informações interessantes que pode destacar ao criar linhas de referência dinâmicas com o painel **Análise**.
+    ![Linha média, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_3.png)
 
-Estamos a planear mais funcionalidades e capacidades, incluindo expandir que visuais podem ter linhas de referência dinâmicas aplicadas, pelo que recomendamos que consulte esta secção com frequência para estar a par das novidades.
+3. Para criar uma nova linha, selecione **+&nbsp;Adicionar**. Em seguida, pode dar um nome à linha. Faça duplo clique na caixa de texto e introduza o nome.
 
-## <a name="apply-forecasting"></a>Aplicar a Previsão
-Pode utilizar a funcionalidade **Previsão** ao selecionar um visual e, em seguida, expandir a secção **Previsão** do painel **Análise**. Pode especificar muitas entradas para modificar a previsão, como a *Duração de previsão*, o *Intervalo de confiança* e muitos outros. A imagem seguinte mostra um visual de linha básica com a previsão aplicada, mas pode utilizar a sua imaginação (e experimentar a funcionalidade *previsão*) para saber como se pode aplicar aos seus modelos.
+    Tem agora todos os tipos de opções da linha. Pode especificar a **Cor**, a percentagem de **Transparência** , o **Estilo de linha** e a **Posição** (em comparação com os elementos de dados do elemento visual). Também pode escolher se quer incluir a **Etiqueta de dados**. Para especificar a medida do elemento visual na qual se vai basear a linha, selecione a lista pendente **Medida**, que é preenchida automaticamente com elementos de dados do elemento visual. Aqui, vamos selecionar **Cultura** como medida, dar-lhe a etiqueta *Média de Cultura* e personalizar algumas das outras opções.
 
-![](media/desktop-analytics-pane/analytics-pane_8.png)
+    ![Linha média de cultura, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_4.png)
+
+4. Se quiser que apareça uma etiqueta de dados, altere o estado da **Etiqueta de dados** de **Inativa** para **Ativa**. Quando o fizer, receberá uma série de opções adicionais para a sua etiqueta de dados.
+
+    ![Definições da etiqueta de dados, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_5.png)
+
+5. Repare no número apresentado junto ao item **Linha média** no painel **Análise**. Isto indica-lhe quantas linhas dinâmicas, e de que tipo, tem atualmente no seu elemento visual. Se adicionarmos uma **Linha máxima** para **Acessibilidade**, o painel **Análise** mostrará que temos também uma linha de referência dinâmica **Linha máxima** aplicada a este elemento visual.
+
+    ![Totais das linhas máxima e média, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_6.png)
+
+Se não puder aplicar linhas de referência dinâmicas ao elemento visual que selecionou (neste caso, um elemento visual **Mapa**), receberá a seguinte mensagem quando selecionar o painel **Análise**.
+
+![Análise indisponível para um elemento visual Mapa, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_7.png)
+
+Pode realçar muitas informações interessantes ao criar linhas de referência dinâmicas com o painel **Análise**.
+
+Estamos a planear mais funcionalidades e capacidades, incluindo expandir os elementos visuais aos quais é possível aplicar linhas de referência dinâmicas. Consulte esta secção com frequência para ver as novidades.
+
+## <a name="apply-forecasting"></a>Aplicar a previsão
+
+Se tiver dados de tempo na origem de dados, poderá utilizar a funcionalidade *previsão*. Basta selecionar um elemento visual e, em seguida, expandir a secção **Previsão** do painel **Análise**. Pode especificar muitas entradas para modificar a previsão, como a **Duração da previsão** ou o **Intervalo de confiança**. A seguinte imagem mostra um elemento visual de linha básico com a previsão aplicada. Utilize a sua imaginação (e experimente a previsão) para ver como é que esta pode ser aplicada aos seus modelos.
+
+![Funcionalidade de previsão, painel Análise, Visualizações, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_8.png)
+
+> [!NOTE]
+> A funcionalidade de previsão está apenas disponível para elementos visuais de gráfico de linhas.
 
 ## <a name="limitations"></a>Limitações
-A capacidade de utilizar linhas de referência dinâmicas baseia-se no tipo de visual utilizado. A lista seguinte mostra quais as linhas dinâmicas que estão atualmente disponíveis para cada visual:
 
-Utilização integral de linhas dinâmicas disponível nos seguintes visuais:
+A capacidade de utilizar linhas de referência dinâmicas baseia-se no tipo de visual utilizado. As listas seguintes descrevem estas limitações mais especificamente.
+
+Pode utilizar *linha constante do eixo x*, *linha constante do eixo y* e *sombreamento de simetria* no seguinte elemento visual:
+
+* Gráfico de dispersão
+
+A utilização de *linha constante*, *linha mínima*, *linha máxima*, *linha média*, *linha mediana* e *linha de percentil* está disponível nestes elementos visuais:
 
 * Gráfico de área
+* Gráfico de barras agrupadas
+* Gráfico de colunas agrupadas
 * Gráfico de linhas
 * Gráfico de dispersão
-* Gráfico de barras agrupadas
 
 Os seguintes visuais só podem utilizar uma *linha constante* no painel **Análise**:
 
-* Áreas Empilhadas
-* Barras Empilhadas
-* Colunas Empilhadas
-* Barras Empilhadas a 100%
-* Colunas Empilhadas a 100%
+* Gráfico de áreas empilhadas
+* Gráfico de barras empilhadas
+* Gráfico de colunas empilhadas
+* Gráfico de cascata
+* Gráfico de barras 100% empilhadas
+* Gráfico de colunas 100% empilhadas
 
-Para os seguintes visuais, a única opção atualmente disponível é uma *linha de tendência*:
+Os seguintes elementos visuais poderão utilizar uma *linha de tendência* se existirem dados de tempo:
 
-* Linhas Não Empilhadas
-* Gráfico de Colunas agrupadas
+* Gráfico de área
+* Gráfico de colunas agrupadas
+* Gráfico de linhas
+* Gráfico de linhas e colunas agrupadas
 
-Finalmente, os visuais não Cartesianos não podem atualmente aplicar linhas dinâmicas do painel **Análise**, nomeadamente:
+Por fim, atualmente não pode aplicar linhas dinâmicas a muitos elementos visuais, incluindo (entre outros):
 
-* Matriz
-* Gráfico circular
-* Anel
-* Tabela
+* Funil
+* Gráfico de linhas e colunas agrupadas
+* Gráfico de linhas e colunas empilhadas
+* Gráfico do friso
+* Elementos visuais não cartesianos, como Gráfico de anel, Medidor, Matriz, Gráfico circular e Tabela
 
-A linha de percentil só está disponível quando utiliza dados importados no **Power BI Desktop** ou quando está ligado em direto a um modelo num servidor com o **Analysis Service 2016** ou posterior, o **Azure Analysis Services** ou um conjunto de dados no serviço Power BI. 
+A *linha de percentil* só está disponível quando utiliza dados importados no Power BI Desktop ou quando está ligado em direto a um modelo num servidor com o **Analysis Service 2016** ou posterior, o **Azure Analysis Services** ou um conjunto de dados no serviço Power BI.
 
 ## <a name="next-steps"></a>Próximos passos
-Existem inúmeras coisas que pode fazer com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
 
-* [Novidades no Power BI Desktop](desktop-latest-update.md)
-* [Transferir o Power BI Desktop](desktop-get-the-desktop.md)
+Pode fazer todo o tipo de coisas com o Power BI Desktop. Para obter mais informações sobre as suas capacidades, veja os seguintes recursos:
+
+* [Novidades do Power BI Desktop](desktop-latest-update.md)
+* [Obter o Power BI Desktop](desktop-get-the-desktop.md)
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
-* [Tipos de Dados no Power BI Desktop](desktop-data-types.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)    
-
+* [Descrição geral das consultas no Power BI Desktop](desktop-query-overview.md)
+* [Tipos de dados no Power BI Desktop](desktop-data-types.md)
+* [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Executar tarefas comuns no Power BI Desktop](desktop-common-query-tasks.md)

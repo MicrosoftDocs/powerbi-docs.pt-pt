@@ -7,43 +7,44 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b0ae068ebeae2d16984706340c6eb9b2f247db1d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3c6cd3feb15001cd170d48e306ee1f8a5ba8b2dc
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867927"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160966"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Introduzir dados diretamente no Power BI Desktop
+
 Com o Power BI Desktop, pode introduzir dados diretamente e utilizar esses dados nos relatórios e visualizações. Por exemplo, pode copiar partes de um livro ou página Web e colá-las no Power BI Desktop.
 
 Para introduzir dados diretamente no Power BI Desktop na forma de uma nova tabela, selecione **Introduzir Dados** no friso **Base**.
 
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
+![Selecionar Introduzir Dados na Página Inicial](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
 O Power BI Desktop pode tentar efetuar transformações secundárias nos dados, se apropriado, tal como faz ao carregar dados de qualquer origem. Por exemplo, no caso seguinte promoveu a primeira linha dos dados para os cabeçalhos.
 
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
+![Dados com a primeira linha como títulos de coluna](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
-Se pretender formatar os dados introduzidos (ou colados), pode selecionar o botão Editar para apresentar o **Editor de Consultas**, onde pode formatar e transformar os dados antes de colocá-los no Power BI Desktop. Em alternativa, pode selecionar o botão **Carregar** para importar os dados conforme são apresentados.
+Se quiser formatar os dados introduzidos ou colados, selecione **Editar** para abrir o **Editor do Power Query**. Pode formatar e transformar os dados antes de os importar para o Power BI Desktop. Selecione **Carregar** para importar os dados conforme aparecem.
 
-Quando seleciona **Carregar**, o Power BI Desktop cria uma nova tabela a partir dos seus dados e disponibiliza-os no painel **Campos**. Na imagem seguinte, o Power BI Desktop mostra a minha nova tabela, denominada *Table1* por predefinição, e os dois campos dentro dessa tabela, que foram criados.
+Quando seleciona **Carregar**, o Power BI Desktop cria uma nova tabela a partir dos seus dados e disponibiliza-os no painel **Campos**. Na imagem seguinte, o Power BI Desktop mostra a minha nova tabela, denominada *Table1*, e os dois campos dentro dessa tabela que foram criados.
 
-![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
+![Campos carregados no Power BI Desktop](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
 
-E já está – é tão simples introduzir dados no Power BI Desktop.
+E já está. É tão simples introduzir dados no Power BI Desktop.
 
-Está agora pronto para utilizar os dados no Power BI Desktop para criar elementos visuais, relatórios ou interagir com outros dados aos quais se possa querer ligar e importar, como livros do Excel, bases de dados ou qualquer outra origem de dados.
+Agora está pronto para utilizar os dados no Power BI Desktop. Pode criar elementos visuais, relatórios ou interagir com outros dados aos quais se possa querer ligar e importar, como livros do Excel, bases de dados ou outra origem de dados.
 
 ## <a name="next-steps"></a>Próximos passos
+
 Existem diversos tipos de dados aos quais se pode ligar através do Power BI Desktop. Para obter mais informações sobre origens de dados, consulte os seguintes recursos:
 
 * [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-* [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
-* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)   
-* [Ligar a ficheiros CSV no Power BI Desktop](desktop-connect-csv.md)   
-
+* [Origens de dados no Power BI Desktop](desktop-data-sources.md)
+* [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Ligar a livros do Excel no Power BI Desktop](desktop-connect-excel.md)
+* [Ligar a ficheiros CSV no Power BI Desktop](desktop-connect-csv.md)

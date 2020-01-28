@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308255"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161300"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 
@@ -120,7 +120,7 @@ Quando tem uma relação muitos-para-muitos entre tabelas de tipo de dimensão, 
 - Adicione uma tabela de bridging para armazenar entidades associadas
 - Crie relações um-para-muitos entre as três tabelas
 - Configure **uma** relação bidirecional para permitir que a propagação do filtro continue para as tabelas de factos
-- Quando não for apropriado ter valores de ID em falta, defina a propriedade **Is Nullable** da colunas de ID para TRUE. A atualização de dados irá então falhar se os valores em falta estiverem atribuídos
+- Quando não for apropriado ter valores de ID em falta, defina a propriedade **Is Nullable** da colunas de ID como FALSE. A atualização de dados falhará se os valores em falta estiverem atribuídos
 - Oculte a tabela de bridging (a menos que contenha colunas ou medidas adicionais necessárias para a criação de relatórios)
 - Oculte todas as colunas de ID que não forem adequadas para a criação de relatórios (por exemplo, quando os IDs são chaves de substituição)
 - Se fizer sentido deixar uma coluna de ID visível, certifique-se de que a mesma está no lado "um" da relação. Oculte sempre a coluna do lado "muitos". Isto resulta no melhor desempenho de filtro.

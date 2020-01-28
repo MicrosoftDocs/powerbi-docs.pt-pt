@@ -1,6 +1,6 @@
 ---
 title: Exemplos de expressões no Report Builder do Power BI
-description: As expressões são utilizadas com frequência nos relatórios paginados do Paginated Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios.
+description: As expressões são utilizadas com frequência nos relatórios paginados do Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios.
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728552"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953968"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Exemplos de expressões no Report Builder do Power BI
-As expressões são utilizadas com frequência nos relatórios paginados do Paginated Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios. As expressões são escritas no Microsoft Visual Basic e pode utilizar funções incorporadas, código personalizado, variáveis de grupos e relatórios e variáveis definidas pelo utilizador. As expressões começam com um sinal de igual (=).   
+As expressões são utilizadas com frequência nos relatórios paginados do Report Builder do Power BI para controlar o conteúdo e o aspeto dos relatórios. As expressões são escritas no Microsoft Visual Basic e pode utilizar funções incorporadas, código personalizado, variáveis de grupos e relatórios e variáveis definidas pelo utilizador. As expressões começam com um sinal de igual (=).   
 
 Este tópico fornece exemplos de expressões que podem ser utilizadas em tarefas comuns num relatório.  
   

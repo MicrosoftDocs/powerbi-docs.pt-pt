@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692465"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161438"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 A função CALCULATE aceita uma expressão de tabela devolvida pela função DAX [FILTER](/dax/filter-function-dax), que avalia a respetiva expressão de filtro para cada linha da tabela **Product** (Produto). Obtém o resultado correto: o resultado de vendas dos produtos vermelhos. No entanto, podia ser alcançado muito mais eficazmente se fosse utilizada uma expressão booleana.
 
-Esta é uma definição de medida melhorada, que utiliza uma expressão booleana em vez de uma expressão de tabela.
+Esta é uma definição de medida melhorada, que utiliza uma expressão booleana em vez de uma expressão de tabela. A função DAX [KEEPFILTERS](/dax/keepfilters-function-dax) garante que qualquer filtro existente e aplicado à coluna **Cor** é preservado e não é substituído.
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

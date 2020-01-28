@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861331"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039137"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de elementos visuais no Power BI
 Encontrará elementos visuais em relatórios, dashboards e Perguntas e Respostas. Alguns destes tipos de elementos visuais estão incorporados no Power BI e alguns são *elementos visuais personalizados*. Os elementos visuais personalizados são criados fora do Power BI e permitem que os *designers* de relatórios os adicionem a dashboards e relatórios do Power BI. 
@@ -59,7 +59,7 @@ Os gráficos de combinação são uma ótima opção:
 - quando tem um gráfico de linhas e um gráfico de colunas com o mesmo eixo X.
 - para comparar várias medidas com intervalos de valores diferentes
 - para ilustrar a correlação entre duas medidas num só elemento visual
-- para verificar se uma medida atende o destino definido pela outra medida
+- para verificar se uma medida está em conformidade com o destino definido pela outra medida
 - para conservar o espaço da tela
 
 ### <a name="doughnut-charts"></a>Gráficos em anel
@@ -140,6 +140,19 @@ O elemento visual de matriz é um tipo de elemento visual de tabela (consulte "T
 
 Os gráficos circulares mostram a relação das partes com um todo. 
 
+### <a name="power-apps-visual"></a>Elemento visual do Power Apps
+![Elemento visual do Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Os designers de relatórios podem criar um Power App e incorporá-lo no relatório do Power BI. Os consumidores podem interagir com esse elemento visual dentro do relatório do Power BI. 
+
+### <a name="qa-visual"></a>Q&A visual (Elemento visual Perguntas e Respostas)
+![Elementos Visuais das Perguntas e Respostas](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>Tal como a [experiência das Perguntas e Respostas em dashboards](../power-bi-tutorial-q-and-a.md), o elemento visual de Perguntas e Respostas permite que faça perguntas sobre os seus dados através de linguagem natural. 
+
+Para obter mais informações, veja [Elementos visuais das Perguntas e Respostas no Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+
 ### <a name="ribbon-chart"></a>Gráfico do friso
 ![gráfico do friso](media/end-user-visual-type/power-bi-ribbon.png)
 
@@ -161,7 +174,7 @@ Um gráfico de pontos é semelhante a um gráfico de bolhas e a um gráfico de d
 ![gráfico de pontos](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Dispersão de alta densidade
-![dispersão de alta densidade](media/end-user-visual-type/density-scatter.png)
+![dispersão de elevada densidade](media/end-user-visual-type/density-scatter.png)
 
 Por definição, a amostragem de dados de alta densidade é efetuada para criar elementos visuais reativos à interação com alguma rapidez. A amostragem de alta densidade utiliza um algoritmo que elimina pontos sobrepostos e garante que todos os pontos no conjunto de dados são representados no elemento visual. Não apresenta apenas uma amostra representativa dos dados.  
 
