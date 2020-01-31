@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223882"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710186"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
 
@@ -45,7 +45,7 @@ Antes de configurar o Power BI com uma conta do Data Lake Storage Gen2, tem de c
 1. A conta de armazenamento tem de ser criada no mesmo inquilino do AAD que o seu inquilino do Power BI.
 2. A conta de armazenamento tem de ser criada na mesma região que o seu inquilino do Power BI. Para determinar a localização do seu inquilino do Power BI, veja [onde está localizado o meu inquilino do Power BI](service-admin-where-is-my-tenant-located.md).
 3. A conta de armazenamento tem de ter a funcionalidade *Espaço de Nomes Hierárquico*  ativada.
-4. É necessário conceder uma função de *Leitor* ao serviço Power BI na conta de armazenamento.
+4. É necessário conceder funções de *Leitor* e *Acesso a Dados* ao serviço Power BI na conta de armazenamento.
 5. É necessário criar um sistema de ficheiros com o nome **powerbi**.
 6. O serviço Power BI tem de estar autorizado no sistema de ficheiros **powerbi** criado.
 
@@ -59,16 +59,13 @@ Siga os passos descritos no artigo [Criar a conta de armazenamento do Azure Data
 2. Certifique-se de que ativa a funcionalidade Espaço de nomes hierárquico
 3. Recomendamos que especifique a definição de replicação como **Armazenamento georredundante com acesso de leitura (RA-GRS)**
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>Conceder uma função de leitor ao serviço Power BI
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Conceder ao serviço Power BI funções de leitor e acesso a dados
 
-Em seguida, tem de conceder uma função de leitor ao serviço Power BI na sua conta de armazenamento criada. Trata-se de uma função incorporada, pelo que os passos não colocam dificuldades. 
+Em seguida, tem de conceder as funções de leitor e acesso a dados ao serviço Power BI na sua conta de armazenamento criada. Ambas são funções incorporadas, pelo que os passos não colocam dificuldades. 
 
 Siga os passos em [Atribuir uma função RBAC incorporada](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
-Na janela **Adicionar atribuição de função**, selecione a função **Leitor** para a atribuir ao serviço Power BI. Em seguida, utilize a pesquisa para localizar o **Serviço Power BI**. A imagem seguinte mostra a função **Leitor** atribuída ao serviço Power BI.
-
-![Função Leitor atribuída ao serviço Power BI](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+Na janela **Adicionar atribuição de função**, selecione as funções de **Leitor** e **Acesso a Dados** para atribuir ao serviço Power BI. Em seguida, utilize a pesquisa para localizar o **Serviço Power BI**. 
 
 > [!NOTE]
 > Aguarde pelo menos 30 minutos para que a permissão seja propagada para o Power BI a partir do portal. Sempre que alterar as permissões no portal, aguarde 30 minutos para que essas permissões sejam refletidas no Power BI. 

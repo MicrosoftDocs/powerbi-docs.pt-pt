@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220523"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538411"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicações móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, veja:
@@ -21,6 +21,27 @@ Para informações sobre “Novidades” relacionadas, veja:
 * [Blogue da equipa do Power BI para as aplicações móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades do Power BI Desktop](../../desktop-latest-update.md)  
 * [Novidades do serviço Power BI](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>Dezembro de 2019
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>Rodapé de relatório ancorado e um botão de atualização: novas experiências de interação com relatórios (Android)
+
+Os nossos utilizadores de Android disseram-nos que a sua experiência na utilização de relatórios não era a melhor, que era difícil utilizar o rodapé dos relatórios e que a funcionalidade de puxar para atualizar é demasiado sensível em alguns dispositivos. Por isso, mudámos estes comportamentos nesta versão:
+* **Rodapé de relatório ancorado**: agora, quando abrir um relatório no telemóvel, encontrará o rodapé do relatório ancorado na parte inferior da página do relatório, onde ficará sempre visível e disponível, sejam quais forem as suas ações na página. Isto facilita a utilização de todas as opções disponíveis.
+* **Botão de atualização no cabeçalho do relatório**: encontrará também um botão de atualização no cabeçalho do relatório, para que seja fácil atualizar o relatório exatamente quando quiser.
+
+Os utilizadores que preferirem o comportamento anterior podem restaurar estes comportamentos com as novas e expandidas [definições de interação](./mobile-app-interaction-settings.md) da aplicação móvel.
+
+Além disso, os administradores de TI podem [substituir remotamente as novas predefinições](./mobile-app-configuration.md#interaction-settings-android) em nome dos seus utilizadores, com a ferramenta MDM de eleição e com um ficheiro de configuração de aplicação. Desta forma, todos os utilizadores numa organização podem ter o mesmo comportamento configurado.
+
+> [!NOTE]
+> As definições de interação para o botão de atualização e para ancorar o rodapé do relatório não têm atualmente efeito em relatórios do Report Server. Isto vai mudar com a versão do Report Server de janeiro!
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>Definir marcadores predefinidos a partir da aplicação móvel
+Agora, pode predefinir marcadores para os seus relatórios diretamente na aplicação móvel do Power BI. Depois, sempre que abrir um relatório, o marcador predefinido será aplicado automaticamente. [Saiba mais!](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>Filtrar por localização em tablets Android
+Os filtros geográficos permitem-lhe filtrar os seus relatórios com base na sua localização atual. Esta funcionalidade encontra-se agora também disponível na aplicação do Power BI para tablets Android. [Saiba mais!](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>Novembro de 2019
 

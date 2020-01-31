@@ -1,179 +1,168 @@
 ---
-title: Adicionar uma coluna de um exemplo no Power BI Desktop
-description: Crie uma nova coluna rapidamente no Power BI Desktop com as colunas existentes como exemplos
+title: Adicionar uma coluna a partir de um exemplo no Power BI Desktop
+description: Crie uma nova coluna rapidamente no Power BI Desktop utilizando as colunas existentes como exemplos.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869448"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538576"
 ---
-# <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Adicionar uma coluna de um exemplo no Power BI Desktop
-Começando com a versão de abril de 2017 do **Power BI Desktop**, pode adicionar novas colunas de dados ao seu modelo com o **Editor de Consultas** ou ao apresentar simplesmente um ou mais valores de exemplo para a nova coluna. Pode criar um novo exemplo de coluna de uma seleção atual ou apresentar entradas com base em todas as colunas (ou colunas selecionadas) numa determinada tabela.
+# <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Adicionar uma coluna a partir dos exemplos no Power BI Desktop
+Com a opção *adicionar colunas a partir dos exemplos* no Editor do Power Query, pode adicionar novas colunas ao seu modelo de dados ao fornecer simplesmente um ou mais valores de exemplo para as novas colunas. Pode criar os exemplos da nova coluna a partir de uma seleção ou dar contributos com base em todas as colunas existentes na tabela.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-Esta abordagem ajuda-o a criar novas colunas com rapidez e facilidade, e é excelente nas seguintes situações:
+A utilização da opção *adicionar coluna a partir de exemplo* permite-lhe criar novas colunas de forma rápida e fácil e é excelente nas seguintes situações:
 
-* Sabe qual é o resultado de dados que pretende na sua nova coluna, mas não tem a certeza qual é a transformação (ou coleção de transformações) que irá obter.
-* Já sabe quais são as transformações que precisa, mas não tem a certeza onde deve clicar ou selecionar na IU para que aconteçam.
-* Sabe tudo sobre as transformações que precisa com uma expressão de *Coluna Personalizada* no **M**, mas uma (ou mais) dessas expressões não estão disponíveis para clicar ou adicionar na IU.
+- Sabe quais os dados que pretende incluir na sua nova coluna, mas não tem a certeza qual é a transformação ou coleção de transformações que irá obter.
+- Já sabe quais são as transformações de que precisa mas não tem a certeza do que deve selecionar na IU para concretizá-las.
+- Sabe tudo sobre as transformações que precisa com uma expressão de *Coluna Personalizada* na linguagem *M*, mas uma ou mais dessas expressões não estão disponíveis na IU.
 
-Utilizar a funcionalidade **adicionar coluna do exemplo** é simples e direto. Nas próximas secções, veremos como é tão fácil.
+Adicionar uma coluna a partir de um exemplo é fácil e simples. As próximas secções mostram como é fácil.
 
-## <a name="use-query-editor-to-add-a-new-column-from-examples"></a>Utilize o Editor de Consultas para adicionar uma nova coluna a partir de exemplos
-Para criar uma nova coluna a partir de um exemplo, inicie o **Editor de Consultas**. Pode fazê-lo ao selecionar **Editar Consultas** no friso **Base** no **Power BI Desktop**.
+## <a name="add-a-new-column-from-examples"></a>Adicionar uma nova coluna a partir dos exemplos
 
-![](media/desktop-add-column-from-example/add-column-from-example_02.png)
+Para obter dados de exemplo a partir da Wikipédia, selecione **Obter Dados** > **Web** a partir do separador **Home Page** do friso do Power BI Desktop. 
 
-Para obter dados de uma página Web, aceda ao separador **Base**, clique em **Obter Dados > Web** e, em seguida, cole o URL na caixa de diálogo apresentada. Este artigo utiliza dados de um artigo da Wikipédia. Pode clicar na seguinte ligação para obter os dados e acompanhar os passos:
+![Obter Dados da Web](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-* [**Lista de estados e territórios dos Estados Unidos**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
+Cole o seguinte URL na caixa de diálogo que aparece e selecione **OK**: 
 
-Assim que o **Editor de Consultas** é iniciado e tiver alguns dados carregados, pode começar ao adicionar uma coluna de exemplos. Para adicionar uma nova coluna, no **Editor de Consultas** selecione o separador **Adicionar Coluna** no friso e selecione **Coluna dos Exemplos**. Se escolher a lista pendente, pode selecionar **De Todas as Colunas** (a predefinição, se selecionar apenas o botão em vez da lista pendente) ou selecionar **Da Seleção**. Neste artigo vamos explicar a seleção de **De Todas as Colunas**.
+*https:\//wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States*
 
-![](media/desktop-add-column-from-example/add-column-from-example_03.png)
+Na caixa de diálogo **Navegador**, selecione a tabela **States of the United States of America** (Estados dos Estados Unidos da América) e, em seguida, selecione **Transformar Dados**. A tabela é aberta no Editor do Power Query.
 
-## <a name="the-add-column-from-examples-pane"></a>O painel Adicionar Coluna a Partir dos Exemplos
-Depois de realizar uma seleção para adicionar uma nova coluna a partir de exemplos, é apresentado um novo painel que mostra as colunas na tabela atual (poderá ter de deslocar para ver todas). A nova **Coluna1** também é apresentada à direita, que é a coluna que o **Power BI Desktop** cria com base nos seus exemplos. Abaixo do novo cabeçalho **Coluna1**, há células em branco onde pode escrever os seus exemplos que o Power BI utiliza para criar regras e transformações para corresponder ao seu exemplo.
+Em alternativa, para abrir dados já carregados a partir do Power BI Desktop, selecione **Editar Consultas** a partir do separador **Home Page** do friso. Os dados são abertos no Editor do Power Query. 
 
-Repare que este é um **Passo Aplicado** no painel **Definições da Consulta**. Como sempre, o **Editor de Consultas** irá registar os passos de transformação e aplicá-los na consulta, por ordem.
+![Selecione Editar Consultas a partir do Power BI Desktop](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-![](media/desktop-add-column-from-example/add-column-from-example_04.png)
+Quando os dados de exemplo forem abertos no Editor do Power Query, selecione o separador **Adicionar Coluna** no friso e, em seguida, selecione **Coluna a partir dos Exemplos**. Selecione o ícone **Coluna a partir dos Exemplos** para criar a coluna a partir de todas as colunas existentes ou selecione a seta pendente para escolher entre **De Todas as Colunas** ou **Da Seleção**. Para estas instruções, utilize a opção **De Todas as Colunas**.
 
-Esta opção é denominada no painel **Adicionar Colunas a Partir de Exemplos** e consiste em quatro áreas principais:
+![Selecione Adicionar Coluna a Partir dos Exemplos](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
-1. A **Barra de comandos** que inclui uma breve descrição da funcionalidade ou da transformação.
-2. A opção **Enviar Comentários**, para ajudar o Power BI a melhorar esta funcionalidade.
-3. Os botões **OK** e **Cancelar** que lhe permitem consolidar as transformações e adicionar a coluna ou cancelar.
-4. A nova área da coluna, onde pode escrever os valores de exemplo em qualquer uma das linhas (para apresentar o seu exemplo ao Power BI), relacionados com outras colunas nessa linha.
+## <a name="add-column-from-examples-pane"></a>Painel Adicionar Coluna a Partir dos Exemplos
+Quando selecionar **Adicionar Coluna** > **a partir dos Exemplos**, o painel **Adicionar Coluna a partir dos Exemplos** é aberto na parte superior da tabela. A nova **Coluna 1** aparece à direita das colunas existentes (poderá ter de se deslocar para ver todas). Quando introduz os seus valores de exemplo nas células em branco da **Coluna 1**, o Power BI cria regras e transformações que correspondam aos seus exemplos e utiliza-as para preencher o resto da coluna.
 
-![](media/desktop-add-column-from-example/add-column-from-example_05.png)
+Observe que a opção **Coluna a partir dos Exemplos** também aparece como um **Passo Aplicado** no painel **Definições da Consulta**. Como sempre, o Editor do Power Query regista os passos de transformação e aplica-os na consulta, por ordem.
 
-À medida que escreve o exemplo na nova coluna, o Power BI oferece-lhe uma pré-visualização do aspeto da coluna que está a criar, com base nas transformações detetadas. Por exemplo, se escrever *Alabama* na primeira linha, corresponde ao valor *Alabama* na primeira coluna da tabela. Assim que premir *Enter*, o Power BI preencherá a coluna com base nesse valor.
+![Painel Adicionar Coluna a Partir dos Exemplos](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
-Mas suponhamos que acede à linha que inclui *Massachusetts[E]* e elimina a última parte, o *[E]* (uma vez que já não a quer). O Power BI deteta a alteração e utiliza o exemplo para criar uma transformação. Observe a explicação da transformação no painel central superior.
+À medida que escrever o exemplo na nova coluna, o Power BI mostra-lhe uma pré-visualização de qual o aspeto que a coluna irá ter, com base nas transformações que cria. Por exemplo, se escrever *Alabama* na primeira linha, corresponde ao valor **Alabama** na primeira coluna da tabela. Assim que premir Enter, o Power BI preenche o resto da nova coluna com base no valor da primeira coluna e dá o nome **Name & postal abbreviation[12] - Copy** (Nome e abreviatura postal[12] - Cópia) à coluna.
 
-![](media/desktop-add-column-from-example/add-column-from-example_06.png)
+Agora, aceda à linha **Massachusetts[E]** da nova coluna e elimine a parte **[E]** da cadeia. O Power BI deteta a alteração e utiliza o exemplo para criar uma transformação. O Power BI descreve as transformações no painel **Adicionar Coluna a Partir dos Exemplos** e muda o nome da coluna para **Texto Antes do Delimitador.** 
 
-À medida que apresenta exemplos, o **Editor de Consultas** adiciona às transformações. Quando estiver satisfeito, pode selecionar **OK** para consolidar as alterações.
+![Coluna transformada a partir dos exemplos](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
-## <a name="see-add-column-from-examples-in-action"></a>Veja Adicionar Coluna a Partir dos Exemplos em ação
-Deseja ver isto a funcionar? O vídeo seguinte mostra esta funcionalidade a ser colocada em utilização, através da origem de dados apresentada anteriormente neste exemplo. Veja e acompanhe por si próprio!
+À medida que apresenta exemplos, o Editor do Power Query adiciona às transformações. Quando estiver satisfeito, selecione **OK** para consolidar as alterações. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
+Pode dar o nome que quiser à nova coluna ao fazer duplo clique no cabeçalho da coluna ou ao fazer duplo clique na mesma coluna e selecionar **Mudar o nome**. 
 
-## <a name="considerations-and-limitations"></a>Considerações e limitações
-Existem várias transformações que estão disponíveis ao utilizar **Adicionar colunas a partir dos Exemplos**, mas nem todas as transformações estão incluídas. A seguinte lista apresenta todas as transformações suportadas.
+Veja este vídeo para ver a opção **Adicionar Coluna a partir dos Exemplos** em ação, utilizando a origem de dados de exemplo: 
 
-* **Referência**
+[Power BI Desktop: Add Column From Examples](https://www.youtube.com/watch?v=-ykbVW9wQfw) (Power BI Desktop: Adicionar Coluna a Partir dos Exemplos). 
+
+## <a name="list-of-supported-transformations"></a>Lista de transformações suportadas
+Muitas mas nem todas as transformações estão disponíveis ao utilizar a opção **Adicionar Coluna a Partir Dos Exemplos**. A seguinte lista apresenta as transformações suportadas:
+
+**Geral**
+
+- Coluna Condicional
+
+**Referência**
   
-  * Referência a uma coluna específica (incluindo transformações de corte, limpeza e capitalização)
+- Referência a uma coluna específica, incluindo transformações de corte, limpeza e capitalização
 
-* **Transformações de texto**
-  
-  * Combinar (suporta a combinação de cadeias de literais e valores da coluna completa)
-  * Substituir
-  * Comprimento
-  * Extrair   
-    * Primeiros Carateres
-    * Últimos Carateres
-    * Intervalo
-    * Texto antes do Delimitador
-    * Texto após o Delimitador
-    * Texto entre os Delimitadores
-    * Comprimento
+**Transformações de texto**
 
-* As **transformações de texto** seguintes estão disponíveis a partir da versão de novembro de 2017 do **Power BI Desktop**:
-    
-  * Remover Carateres
-  * Manter Carateres
+- Combinar (suporta a combinação de cadeias de literais e valores da coluna completa)
+- Substituir
+- Comprimento
+- Extrair   
+  - Primeiros Carateres
+  - Últimos Carateres
+  - Intervalo
+  - Texto antes do Delimitador
+  - Texto após o Delimitador
+  - Texto entre os Delimitadores
+  - Comprimento
+  - Remover Carateres
+  - Manter Carateres
 
 > [!NOTE]
 > Todas as transformações de *Texto* têm em consideração o potencial de corte, limpeza ou aplicar uma transformação de capitalização no valor da coluna.
-> 
-> 
 
-* **Transformações de data**
-  
-  * Dia
-  * Dia da Semana
-  * Nome do Dia da Semana
-  * Dia do Ano
-  * Mês
-  * Nome do Mês
-  * Trimestre do Ano
-  * Semana do Mês
-  * Semana do Ano
-  * Ano
-  * Idade
-  * Início do Ano
-  * Fim do Ano
-  * Início do Mês
-  * Fim do Mês
-  * Início do Trimestre
-  * Dias no Mês
-  * Fim do Trimestre
-  * Início da Semana
-  * Fim da Semana
-  * Dia do Mês
-  * Início do Dia
-  * Fim do Dia
+**Transformações de data**
 
+- Dia
+- Dia da Semana
+- Nome do Dia da Semana
+- Dia do Ano
+- Mês
+- Nome do Mês
+- Trimestre do Ano
+- Semana do Mês
+- Semana do Ano
+- Ano
+- Idade
+- Início do Ano
+- Fim do Ano
+- Início do Mês
+- Fim do Mês
+- Início do Trimestre
+- Dias no Mês
+- Fim do Trimestre
+- Início da Semana
+- Fim da Semana
+- Dia do Mês
+- Início do Dia
+- Fim do Dia
 
-* **Transformações de hora**
-  
-  * Hora
-  * Minuto
-  * Segundo  
-  * Para Hora Local
+**Transformações de hora**
+
+- Hour
+- Minuto
+- Second  
+- Para Hora Local
 
 > [!NOTE]
 > Todas as transformações de *Data* e *Hora* têm em consideração a potencial necessidade de converter o valor da coluna para *Data*, *Hora* ou *DateTime*.
-> 
-> 
 
-* **Transformações de número** 
+**Transformações de número** 
 
-  * Valor Absoluto
-  * Arco cosseno
-  * Arco seno
-  * Arco tangente
-  * Converter para Número
-  * Cosseno
-  * Cubo
-  * Dividir
-  * Expoente
-  * Fatorial
-  * Divisão de Número Inteiro
-  * É Igual
-  * É Ímpar
-  * Ln
-  * Logaritmo de Base 10
-  * Módulo
-  * Multiplicar
-  * Arredondar por Defeito
-  * Arredondar por Excesso
-  * Assinar
-  * Sin
-  * Raiz Quadrada
-  * Quadrado
-  * Subtrair
-  * Som
-  * Tangente
+- Valor Absoluto
+- Arco cosseno
+- Arco seno
+- Arco tangente
+- Converter para Número
+- Cosseno
+- Cubo
+- Dividir
+- Expoente
+- Fatorial
+- Divisão de Número Inteiro
+- É Igual
+- É Ímpar
+- Ln
+- Logaritmo de Base 10
+- Módulo
+- Multiplicar
+- Arredondar por Defeito
+- Arredondar por Excesso
+- Assinar
+- Sin
+- Raiz Quadrada
+- Quadrado
+- Subtrair
+- Som
+- Tangente
+- Decomposição/Intervalos
 
-* A **transformação de número** seguinte está disponível a partir da versão de novembro de 2017 do **Power BI Desktop**:
-
-  * Decomposição/Intervalos
-
-* **Geral**
-  
-  * Coluna Condicional

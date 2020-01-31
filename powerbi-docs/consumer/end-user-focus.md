@@ -7,15 +7,15 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/23/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f2114d8d4be2e5f9c3b3f34589adc901a0ef4ebb
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852754"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537753"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Apresentar conteúdo mais detalhadamente: modo de detalhe e modo de ecrã inteiro
 
@@ -30,21 +30,20 @@ O modo de detalhe e o modo de ecrã inteiro são duas formas diferentes de ver m
 |Dashboard     |   Não é possível     | sim |
 |Página de relatório   | Não é possível  | sim|
 |Elemento visual de relatório | sim    | sim |
-|Mosaico do dashboard | sim    | sim |
+|Mosaico do dashboard | sim    | Não é possível |
 |Windows 10 mobile | Não é possível | Sim |
 
 ## <a name="what-is-full-screen-mode"></a>O que é o modo de ecrã inteiro?
 
 ![dashboard no modo de ecrã inteiro, antes e depois](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Mostre os conteúdos do serviço Power BI (dashboards, páginas, mosaicos e elementos visuais de relatórios) sem a distração dos menus e dos painéis de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Por vezes, esta vista é denominada Modo de TV.   
+Mostre os conteúdos do serviço Power BI (dashboards, páginas e elementos visuais de relatórios) sem a distração dos menus e dos painéis de navegação.  Obtém uma visão completa e não adulterada dos seus conteúdos de relance e a qualquer altura. Por vezes, esta vista é denominada Modo de TV.   
 
-Para abrir o modo de ecrã inteiro, selecione o ícone **ecrã inteiro** ![ícone de ecrã inteiro ](media/end-user-focus/power-bi-full-screen-icon.png) na barra de menus do serviço Power BI acima do dashboard, do relatório, do mosaico no modo de detalhe ou do elemento visual no modo de detalhe.  O conteúdo selecionado ocupa o ecrã inteiro.
 Se estiver a utilizar o Power BI móvel, o [ecrã inteiro está disponível para as aplicações móveis do Windows 10](./mobile/mobile-windows-10-app-presentation-mode.md). 
 
 Alguns usos do modo de ecrã inteiro:
 
-* apresentar o seu dashboard, mosaico, visual ou relatório numa reunião ou conferência
+* apresentar o seu dashboard, elemento visual ou relatório numa reunião ou conferência
 * apresentar num escritório, num ecrã grande ou projetor dedicado
 * ver num ecrã pequeno
 * rever no modo bloqueado: pode tocar no ecrã ou passar o cursor sobre os mosaicos sem abrir o relatório ou dashboard subjacente
@@ -53,18 +52,30 @@ Alguns usos do modo de ecrã inteiro:
 
 O ***Modo de detalhe*** permite-lhe expandir (destacar) um elemento visual ou um mosaico para ver mais detalhes.  Talvez tenha um dashboard ou relatório que esteja algo cheio e queira ampliar apenas um elemento visual.  Esta é uma utilização perfeita do modo de detalhe.  
 
-![dashboard no modo de ecrã inteiro, antes e depois](media/end-user-focus/power-bi-compare-dash.png)
+![modo de detalhe em mosaico de dashboard, antes e depois](media/end-user-focus/power-bi-compare-dash.png)
 
 No modo de detalhe, um *consumidor* do Power BI pode interagir com quaisquer filtros que tenham sido aplicados quando o elemento visual foi criado.  No serviço Power BI, pode utilizar o modo de detalhe num mosaico do dashboard ou num elemento visual do relatório.
 
 ## <a name="working-in-full-screen-mode"></a>Trabalhar no modo de ecrã inteiro
 
-Para abrir a página de um dashboard ou relatório no modo de ecrã inteiro, selecione o ícone de ecrã inteiro ![ícone de ecrã inteiro](media/end-user-focus/power-bi-full-screen-icon.png) no painel de navegação superior. Assim que estiver no modo de ecrã inteiro, mover o rato ou cursor apresenta um menu contextual. Como o ecrã inteiro está disponível para uma grande variedade de conteúdos, as opções do menu contextual são todas um pouco diferentes, mas bastante explícitas.  Basta pairar o cursor sobre um ícone para obter uma definição.
+O modo de ecrã inteiro está disponível para dashboards, páginas de relatórios e elementos visuais de relatórios. 
+
+- Para abrir um dashboard no modo de ecrã inteiro, selecione o ícone de ecrã inteiro ![ícone de ecrã inteiro](media/end-user-focus/power-bi-full-screen-icon.png) na barra de menus superior. 
+
+- Para abrir uma página de relatório em ecrã inteiro, selecione **Ver** > **Ecrã inteiro**.
+
+    ![selecionar Ecrã inteiro no menu Ver](media/end-user-focus/power-bi-view.png)
+
+
+- Para ver um elemento visual em modo de ecrã inteiro, abra-o primeiro em modo de detalhe e, em seguida, selecione **Ver** > **Ecrã inteiro**.  
+
+
+O conteúdo selecionado ocupa o ecrã inteiro.    Assim que estiver no modo de ecrã inteiro, mover o rato ou cursor apresenta um menu contextual. Como o ecrã inteiro está disponível para uma grande variedade de conteúdos, as opções do menu contextual são todas um pouco diferentes, mas bastante explícitas.  Basta pairar o cursor sobre um ícone para obter uma definição.
 
 Menu para dashboards    
 ![Menu para dashboards](media/end-user-focus/power-bi-full-screen-dash.png)    
 
-Menu para páginas de relatório    
+Menu para páginas de relatórios e elementos visuais de relatórios    
 ![Menu para relatórios](media/end-user-focus/power-bi-report-full-screen.png)    
 
   * ![Ícone Voltar](media/end-user-focus/power-bi-back-icon.png)    
@@ -92,46 +103,36 @@ Menu para páginas de relatório
 
 ## <a name="working-in-focus-mode"></a>Trabalhar no modo de detalhe
 
-Existem duas formas de abrir o modo de detalhe: uma para os mosaicos do dashboard e outra para os elementos visuais de relatórios.
+O modo de detalhe está disponível para dashboards, mosaicos e elementos visuais de relatórios. 
 
-### <a name="focus-mode-in-dashboards"></a>Modo de detalhe nos dashboards
+- Para abrir um mosaico de dashboard em modo de detalhe, paire o cursor sobre um mosaico do dashboard ou sobre um elemento visual do relatório, selecione **Mais opções** (…) e selecione **Abrir no modo de detalhe**.
 
-1. Abra um dashboard no serviço Power BI.
+    ![menu de reticências do mosaico](media/end-user-focus/power-bi-dashboard-focus.png)... 
 
-2. Paire o cursor sobre um mosaico do dashboard ou sobre um elemento visual do relatório, selecione **Mais opções** (…) e selecione **Abrir no modo de detalhe**.
+- Para abrir um elemento visual de relatório em modo de detalhe, paire o cursor sobre o elemento visual e selecione o ícone de **modo de detalhe** ![ícone de modo de detalhe](media/end-user-focus/pbi_popout.jpg).  
 
-    ![menu de reticências do mosaico](media/end-user-focus/power-bi-dashboard-focus.png).
+   ![ícone de detalhe a ser apresentado num mosaico](media/end-user-focus/power-bi-hover-focus-icon.png)
 
-2. O mosaico é aberto e ocupa toda a tela do relatório. Repare que continuará a poder utilizar o painel **Filtros** para interagir com o elemento visual. O painel **Filtros** pode ser fechado.
+
+
+O elemento visual é aberto e ocupa toda a tela. Repare que continuará a poder utilizar o painel **Filtros** para interagir com o elemento visual. O painel **Filtros** e o painel de navegação podem ser reduzidos.
 
    ![mosaico a ocupar a tela do relatório](media/end-user-focus/power-bi-focus-filter.png)
 
-4. Explore mais ao [modificar os filtros](end-user-report-filter.md) e ao procurar novidades interessantes nos seus dados.  
 
-5. Saia do modo de detalhe e regresse ao dashboard ao selecionar **Sair do modo de detalhe** (no canto superior esquerdo do elemento visual).
+   ![mosaico a ocupar a tela de relatório e ambos os menus reduzidos](media/end-user-focus/power-bi-menu-collapse.png)  
 
-    ![sair do modo de detalhe](media/end-user-focus/power-bi-exit.png)    
+Explore mais ao [modificar os filtros](end-user-report-filter.md) e ao procurar novidades interessantes nos seus dados.  
 
+Explore os dados em busca de novas informações e respostas a perguntas. Enquanto *consumidor*, não pode adicionar novos filtros, alterar os campos utilizados nos elementos visuais nem criar novos elementos visuais.  No entanto, pode interagir com os filtros existentes. 
 
-## <a name="focus-mode-for-report-visuals"></a>Modo de detalhe para elementos visuais de relatórios
+No caso de mosaicos de dashboard, as suas alterações não podem ser guardadas. No caso de elementos visuais de relatórios, todas as alterações feitas nos filtros existentes são guardadas quando sair do Power BI. Se não quiser que o Power BI se lembre das suas modificações, selecione **Repor para predefinição**. ![botão reverter para predefinição](media/end-user-focus/power-bi-resets.png)  
 
-1. Abra um relatório no serviço Power BI.  Neste exemplo, vamos demonstrar através do exemplo de Vendas e Marketing.
+Saia do modo de detalhe e regresse ao dashboard ao selecionar **Sair do modo de detalhe** ou **Voltar ao relatório** (no canto superior esquerdo do elemento visual).
 
-1. Após a abertura do relatório, selecione o separador **YTD Category** (Categoria YTD).
+![sair do modo de detalhe](media/end-user-focus/power-bi-exit.png)    
 
-2. Paire o cursor sobre o mapa de árvore no canto superior esquerdo e selecione o ícone **modo de detalhe** ![ícone do modo de detalhe](media/end-user-focus/pbi_popout.jpg).  
-
-   ![ícone de detalhe a ser apresentado num mosaico](media/end-user-focus/power-bi-hover-focus-icon.png)
-2. O elemento visual é aberto e ocupa toda a tela.
-
-   ![elemento visual no modo de detalhe](media/end-user-focus/power-bi-display-focus-new.png)
-
-3. Como alternativa, utilize o painel **Filtros** para interagir com os filtros aplicados a este elemento visual. Explore os dados em busca de novas informações e respostas a perguntas. Enquanto *consumidor*, não pode adicionar novos filtros, alterar os campos utilizados nos elementos visuais nem criar novos elementos visuais.  No entanto, todas as alterações feitas nos filtros existentes são guardadas quando sair do Power BI. Se não quiser que o Power BI se lembre das suas modificações, selecione **Repor para predefinição**. ![botão reverter para predefinição](media/end-user-focus/power-bi-resets.png)  
-
-
-5. Saia do modo de detalhe e regresse ao relatório ao selecionar **Regressar ao relatório** (no canto superior esquerdo do elemento visual).
-
-    ![sair do modo de detalhe](media/end-user-focus/power-bi-back-to-report.png)  
+![sair do modo de detalhe](media/end-user-focus/power-bi-back-to-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 

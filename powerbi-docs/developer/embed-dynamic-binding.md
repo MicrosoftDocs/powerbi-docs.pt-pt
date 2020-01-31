@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164057"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709543"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Ligar um relatório a um conjunto de dados através do enlace dinâmico 
 
-Quando um relatório está ligado a um conjunto de dados, pode utilizar o enlace dinâmico. A ligação entre o relatório e o conjunto de dados é denominada *enlace*. Quando o enlace é determinado no ponto da incorporação, por oposição a ser predeterminado numa altura anterior, o enlace é denominado [enlace dinâmico](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0).
- 
+Quando um relatório está ligado a um conjunto de dados, pode utilizar o enlace dinâmico. A ligação entre o relatório e o conjunto de dados é denominada *enlace*. Quando o enlace é determinado no ponto da incorporação, por oposição a ser predeterminado numa altura anterior, o enlace é denominado enlace dinâmico.
+
 Ao incorporar um relatório do Power BI através do *enlace dinâmico*, pode ligar o mesmo relatório a conjuntos de dados diferentes consoante as credenciais do utilizador.
- 
+
 Isto significa que pode utilizar um relatório para apresentar informações diferentes, consoante o conjunto de dados ao qual o relatório está ligado. Por exemplo, um relatório a mostrar os valores de vendas a retalho pode ser ligado a conjuntos de dados de revendedores diferentes e produzir resultados diferentes, consoante o conjunto de dados do revendedor ao qual o relatório está ligado.
- 
+
 O relatório e o conjunto de dados não têm de se encontrar na mesma área de trabalho. Ambas as áreas de trabalho (a que contém o relatório e a que contém o conjunto de dados) têm de ser atribuídas a uma [capacidade](azure-pbie-create-capacity.md).
 
 Como parte do processo de incorporação, certifique-se de que *gera um token com permissões suficientes* e que *ajusta o objeto de configuração*.
 
-
 ## <a name="generating-a-token-with-sufficient-permissions"></a>Gerar um token com permissões suficientes
 
 O enlace dinâmico é suportado para ambos os cenários de incorporação, ou seja, *Incorporar para a sua organização* e *Incorporar para os seus clientes*. A tabela apresentada abaixo descreve as considerações para cada cenário.
-
 
 |Scenario  |Propriedade de dados  |Token  |Requirements  |
 |---------|---------|---------|---------|

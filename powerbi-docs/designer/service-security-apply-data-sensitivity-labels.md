@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09f3a3e2dce7fd3462c5a21f014bf630bfc7c83e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879043"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538434"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Aplicar etiquetas de confidencialidade dos dados no Power BI (pré-visualização)
 
@@ -58,6 +58,9 @@ Na página das definições do conjunto de dados, abra a secção da etiqueta de
 
 A aplicação ou alteração de uma etiqueta de confidencialidade num fluxo de dados segue o mesmo processo que o descrito para os conjuntos de dados.
 
+## <a name="removing-sensitivity-labels"></a>Remover etiquetas de confidencialidade
+Para remover uma etiqueta de confidencialidade de um relatório, dashboard, conjunto de dados ou fluxo de dados, siga o [mesmo procedimento que é utilizado para aplicar etiquetas](#applying-sensitivity-labels), mas selecione **(Nenhum)** quando lhe for pedido para classificar a confidencialidade dos dados. 
+
 ## <a name="data-protection-in-exported-files"></a>Proteção de dados em ficheiros exportados
 
 Quando [exportar dados de um relatório](https://docs.microsoft.com/power-bi/consumer/end-user-export) que tenha uma etiqueta de confidencialidade, a etiqueta de confidencialidade será herdada pelo ficheiro gerado (Excel, PowerPoint e PDF; o formato CSV não é suportado). A etiqueta de confidencialidade fica visível no ficheiro e o acesso ao ficheiro fica restrito a quem tiver permissões suficientes.
@@ -73,12 +76,12 @@ A aplicação de etiquetas de confidencialidade dos dados tem as seguintes consi
 * A imposição de controlos de proteção e de etiquetas em ficheiros exportados só é suportada para ficheiros Excel, PowerPoint e PDF. As etiquetas e a proteção não são impostas quando os dados são exportados para ficheiros .CSV, quando subscrever e-mails, quando incorporar elementos visuais e quando imprimir.
 * Um utilizador que exporte um ficheiro do Power BI tem permissões para aceder a e editar esse ficheiro de acordo com as definições das etiquetas de confidencialidade. Um utilizador que exporte os dados não obtém permissões de proprietário em relação ao ficheiro. 
 * As etiquetas de confidencialidade não estão atualmente disponíveis para [relatórios paginados]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) e livros. 
-* De momento, não é possível eliminar uma etiqueta de um recurso do Power BI depois de esta ter sido aplicada.
 * As etiquetas de confidencialidade em recursos do Power BI só estão visíveis nas vistas de lista de áreas de trabalho e de linhagem. Neste momento, as etiquetas não estão visíveis nas vistas Favoritos, Partilhado comigo, Recente ou Aplicações. No entanto, repare que uma etiqueta aplicada a um recurso do Power BI, mesmo que não esteja visível, persiste sempre nos dados exportados para ficheiros Excel, PowerPoint e PDF.
 * A etiqueta de confidencialidade *definição de encriptação de ficheiro*, configurada no [Centro de Segurança do Microsoft 365](https://security.microsoft.com/) ou no [Centro de Conformidade do Microsoft 365](https://compliance.microsoft.com/), apenas se aplica aos ficheiros que são *exportados do* Power BI e não é imposta *no* Power BI.
 * A [proteção do HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) não é suportada para etiquetas aplicadas no Power BI.
 * A visualização e a aplicação de etiquetas em aplicações do Office estão sujeitas a [requisitos de licenciamento](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * As etiquetas de confidencialidade só são suportadas para inquilinos na cloud (pública) global. As etiquetas de confidencialidade não são suportadas para inquilinos noutras clouds.
+* As etiquetas de confidencialidade não são suportadas para [utilizadores externos (utilizadores convidados B2B do Azure Active Directory)](../service-admin-azure-ad-b2b.md). Isto significa que os utilizadores externos não conseguem ver etiquetas e serão impedidos de exportar dados para ficheiros Excel, PDF e PPTX. [Remova a etiqueta](#removing-sensitivity-labels) para permitir que os utilizadores externos exportem dados para esses tipos de ficheiros.
 
 ## <a name="next-steps"></a>Próximos passos
 

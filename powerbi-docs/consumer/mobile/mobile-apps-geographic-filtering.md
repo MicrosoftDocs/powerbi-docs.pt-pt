@@ -7,19 +7,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 002ddeac915b2b2b67570e8b4078a175de09aaef
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870640"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538204"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtrar um relatório por localização geográfica nas aplicações móveis do Power BI
 Aplica-se a:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |
-| iPhones |iPads |Telemóveis Android |Telemóveis Windows 10 |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Telemóvel Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows Phone](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |:--- |
+| iPhones |iPads |Telemóveis Android |Tablets Android |Telemóveis Windows 10 |
 
 Quando vê um relatório do Power BI no seu dispositivo móvel, vê um pequeno ícone de alfinete no canto superior direito? Se for esse o caso, pode filtrar esse relatório com base na sua localização geográfica.
 
@@ -42,7 +42,7 @@ Para que possa ver as etiquetas de localização, as seguintes três condições
 * Está numa das localizações que tem dados na coluna.
 * Está a utilizar um dos seguintes dispositivos móveis:
   * iOS (iPad, iPhone, iPod).
-  * Telemóvel Android.
+  * Android (telemóvel, tablet).
   * Telemóvel Windows 10 (os outros dispositivos com Windows 10, como PCs e tablets, não suportam a filtragem geográfica).
 
 Leia mais sobre [configurar a filtragem geográfica](../../desktop-mobile-geofiltering.md) no Power BI Desktop.

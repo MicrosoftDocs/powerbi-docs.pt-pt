@@ -1,49 +1,50 @@
 ---
-title: Vista de Dados no Power BI Desktop
-description: Vista de Dados no Power BI Desktop
+title: Vista de dados no Power BI Desktop
+description: Vista de dados no Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761278"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538675"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Trabalhar com a Vista de dados no Power BI Desktop
-A **Vista de Dados** ajuda a inspecionar, explorar e compreender os dados no modelo do **Power BI Desktop**. É diferente do modo que vê tabelas, colunas e dados no **Editor de Consultas**. Com a Vista de Dados, está a ver os seus dados *após* eles terem sido carregados no modelo.
 
-Quando está a modelar seus dados, às vezes deseja ver o que está realmente numa tabela ou coluna, sem criar um elemento visual na tela de relatório, geralmente imediatamente abaixo do nível de linha. Isto é particularmente útil quando está a criar colunas calculadas e medidas, ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
+A *Vista de Dados* ajuda a inspecionar, explorar e compreender os dados no modelo do *Power BI Desktop*. É diferente do modo como vê as tabelas, as colunas e os dados no *Editor do Power Query*. Com a Vista de Dados, está a ver os seus dados *após* estes terem sido carregados no modelo.
 
-Analisemos mais detalhadamente alguns dos elementos que se encontram na **Vista de Dados**.
+Quando está a modelar os seus dados, às vezes quer ver o que está realmente numa tabela ou coluna, sem criar um elemento visual na tela de relatório. Poderá querer ver a nível da linha. Esta capacidade é particularmente útil quando está a criar colunas calculadas e medidas ou quando precisa de identificar um tipo de dados ou uma categoria de dados.
+
+Analisemos mais detalhadamente alguns dos elementos que se encontram na Vista de Dados.
 
 ![Vista de dados no Power BI Desktop](media/desktop-data-view/dataview_fullscreen.png)
 
-1. **Ícone da Vista de Dados** – selecione este ícone para aceder à Vista de Dados.
+1. **Ícone da Vista de Dados**. Selecione este ícone para aceder à Vista de Dados.
 
-2. **Grelha de Dados** – esta opção mostra a tabela selecionada e todas as colunas e linhas presentes na mesma. As colunas ocultadas da **Vista de Relatório** aparecem acinzentadas. Pode clicar com o botão direito do rato numa coluna para ver as opções.
+2. **Grelha de Dados**. Esta área mostra a tabela selecionada e todas as colunas e linhas presentes na mesma. As colunas ocultadas da vista *Relatório* aparecem a cinzento. Pode clicar com o botão direito do rato numa coluna para ver as opções.
 
-3. **Friso de modelagem** – aqui pode gerir relações, criar cálculos, alterar o tipo de dados, a formatação ou a categoria de dados de uma coluna.
+3. **Friso de Modelação**. Aqui, pode gerir relações, criar cálculos ou alterar o tipo, formato ou categoria de dados de uma coluna.
 
-4. **Barra de fórmulas** – insira fórmulas DAX para Medidas e Colunas calculadas.
+4. **Barra de Fórmulas**. Introduza fórmulas DAX (Data Analysis Expression) para Medidas e Colunas calculadas.
 
-5. **Pesquisa** – procure uma tabela ou coluna no seu modelo.
+5. **Pesquisa**. Procure uma tabela ou coluna no seu modelo.
 
-6. **Lista de campos** – selecione uma tabela ou coluna para ver na grelha de dados.
+6. **Lista de campos**. Selecione uma tabela ou coluna para ver na grelha de dados.
 
 ## <a name="filtering-in-data-view"></a>Filtragem na Vista de Dados
 
-Também pode filtrar e ordenar dados na **Vista de Dados**. Cada coluna mostra um ícone que identifica a direção de ordenação (se estiver aplicada).
+Também pode filtrar e ordenar dados na Vista de Dados. Cada coluna mostra um ícone que identifica a direção de ordenação, se estiver aplicada.
 
 ![Ordenar e filtrar na Vista de Dados no Power BI Desktop](media/desktop-data-view/dataview_sort-and-filter.png)
 
-Pode filtrar valores individuais ou utilizar a filtragem avançada com base nos dados na coluna. 
+Pode filtrar valores individuais ou utilizar a filtragem avançada com base nos dados na coluna.
 
 > [!NOTE]
-> Quando um modelo do Power BI é criado numa cultura diferente da utilizada na interface do utilizador atual (por exemplo, o modelo foi criado em inglês dos EUA e está a vê-lo em espanhol), a caixa de pesquisa irá aparecer na interface do utilizador da Vista de Dados apenas para campos de texto.
+> Quando um modelo do Power BI é criado numa cultura diferente da utilizada na interface do utilizador atual, a caixa de pesquisa irá aparecer na interface do utilizador da Vista de Dados apenas para campos de texto. Por exemplo, isto aplica-se a um modelo criado em inglês dos EUA que vê em espanhol.

@@ -6,27 +6,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 535dbe2b1765d788e59d928f7303ce4696aa163b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879680"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539308"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Utilizar a segmentação de dados de intervalo numérico no Power BI Desktop
-Com a segmentação de dados de intervalo numérico, pode aplicar todos os tipos de filtros a qualquer coluna numérica no seu modelo de dados. Há três opções para filtrar os seus dados numéricos: entre números, menor que ou igual a um número, ou maior que ou igual a um número. Isto pode parecer simples, mas é uma forma eficaz de filtrar os seus dados.
+
+Com a segmentação de dados de intervalo numérico, pode aplicar todos os tipos de filtros a qualquer coluna numérica no seu modelo de dados. Há três opções para filtrar os seus dados numéricos: entre números, menor que ou igual a um número, ou maior que ou igual a um número. Esta técnica simples é uma forma avançada de filtrar os seus dados.
 
 ![Elemento visual com a segmentação de dados do intervalo numérico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
 ## <a name="use-the-numeric-range-slicer"></a>Use the numeric range slicer (Utilizar a segmentação de dados do intervalo numérico)
-Pode utilizar a segmentação de dados de intervalo numérico tal como utilizaria qualquer outra segmentação de dados. Basta criar um elemento visual de **segmentação de dados** para o relatório e selecionar um valor numérico para o valor **Campo**. Na seguinte imagem, selecionámos o campo **LineTotal**.
+
+Pode utilizar a segmentação de dados de intervalo numérico tal como utilizaria qualquer outra segmentação de dados. Basta criar um elemento visual de **Segmentação de dados** para o relatório e selecionar um valor numérico para o valor **Campo**. Na seguinte imagem, selecionámos o campo **LineTotal**.
 
 ![Criar uma segmentação de dados do intervalo numérico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
-Selecione a ligação da seta para baixo no canto superior direito da **segmentação de dados do intervalo numérico** e será apresentado um menu.
+Selecione a seta para baixo no canto superior direito da segmentação de dados do intervalo numérico e será apresentado um menu.
 
 ![Menu da segmentação de dados do intervalo numérico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-2-between.png)
 
@@ -36,7 +38,7 @@ Para intervalos numéricos, pode selecionar uma das seguintes três opções:
 * **Menor que ou igual a**
 * **Maior que ou igual a**
 
-Quando selecionar **Entre** no menu, será apresentado um controlo de deslize. Pode utilizar o controlo de deslize para selecionar valores numéricos que se encontrem entre os números. Por vezes, a granularidade associada à movimentação da barra de segmentação de dados dificulta a seleção exata desse número. Também pode utilizar o controlo de deslize e selecionar uma das caixas para escrever os valores pretendidos. Esta opção é útil quando quer segmentar em números específicos. 
+Quando selecionar **Entre** no menu, será apresentado um controlo de deslize. Pode utilizar o controlo de deslize para selecionar valores numéricos que se encontrem entre os números. Por vezes, a granularidade associada à movimentação da barra de segmentação de dados dificulta a seleção exata desse número. Também pode utilizar o controlo de deslize e selecionar uma das caixas para escrever os valores pretendidos. Esta opção é útil quando quer segmentar em números específicos.
 
 Na seguinte imagem, a página de relatório filtra os valores de **LineTotal** entre 2500,00 e 6000,00.
 
@@ -52,19 +54,20 @@ Por fim, se selecionar **Maior que ou igual a**, a alça direita (valor superior
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Ajustar para números inteiros com a segmentação de dados do intervalo numérico
 
-A segmentação de dados do intervalo numérico ajusta-se para números inteiros se o tipo de dados do campo subjacente for **Número Inteiro**. Esta funcionalidade permite que a segmentação de dados se alinhe corretamente com números inteiros. Os campos **Número Decimal** permitem-lhe introduzir ou selecionar frações de um número. A formatação definida na caixa de texto corresponde à formatação definida no campo, mesmo que possa escrever ou selecionar números mais precisos.
+A segmentação de dados do intervalo numérico ajusta-se para números inteiros se o tipo de dados do campo subjacente for *Número Inteiro*. Esta funcionalidade permite que a segmentação de dados se alinhe corretamente com números inteiros. Os campos *Número Decimal* permitem-lhe introduzir ou selecionar frações de um número. A formatação definida na caixa de texto corresponde à formatação definida no campo, mesmo que possa escrever ou selecionar números mais precisos.
 
 ## <a name="display-formatting-with-the-date-range-slicer"></a>Formato de apresentação com a segmentação de dados de intervalo de datas
 
-Quando utiliza uma segmentação de dados para apresentar ou definir um intervalo de datas, estas são apresentadas no formato **Data Abreviada**. A região do sistema operativo ou do browser do utilizador determina o formato de data. Como tal, será o formato de apresentação independentemente das definições do tipo de dados do modelo ou dos dados subjacentes. 
+Quando utiliza uma segmentação de dados para apresentar ou definir um intervalo de datas, estas são apresentadas no formato *Data Abreviada*. A região do sistema operativo ou do browser do utilizador determina o formato de data. Como tal, será o formato de apresentação independentemente das definições do tipo de dados do modelo ou dos dados subjacentes.
 
 O formato do seu tipo de dados subjacente pode, por exemplo, ser o formato de data por extenso. Neste caso, um formato de data como *dddd, dd de MMMM de aaaa* formataria uma data noutros elementos visuais ou circunstâncias no formato *quarta-feira, 14 de março de 2001*. Contudo, na segmentação de dados de intervalo de datas, essa data é apresentada na segmentação de dados como *14/03/2001*.
 
-Apresentar o formato **Data Abreviada** na segmentação de dados garante que o comprimento da cadeia permanece consistente e compacto na segmentação de dados. 
+Apresentar o formato Data Abreviada na segmentação de dados garante que o comprimento da cadeia permanece consistente e compacto na segmentação de dados.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-As seguintes limitações e considerações aplicam-se à **segmentação de dados de intervalo numérico**:
 
-* A **segmentação de dados de intervalo numérico** filtra todas as linhas subjacentes nos dados e não os valores agregados. Por exemplo, imaginemos que utiliza um campo *Montante das Vendas*. A segmentação de dados filtra cada transação com base no montante das vendas e não na soma dos montantes das vendas de cada ponto de dados de um elemento visual.
+As seguintes limitações e considerações aplicam-se à segmentação de dados de intervalo numérico:
+
+* A segmentação de dados de intervalo numérico filtra todas as linhas subjacentes nos dados e não os valores agregados. Por exemplo, imaginemos que utiliza um campo *Montante das Vendas*. A segmentação de dados filtra cada transação com base no montante das vendas e não na soma dos montantes das vendas de cada ponto de dados de um elemento visual.
 * Atualmente, não funciona em medidas.
-* Pode escrever qualquer número nas caixas de texto numa segmentação numérica, mesmo que esta esteja fora do intervalo de valores na coluna subjacente. Esta opção permite-lhe definir filtros se souber que os dados poderão ser alterados no futuro.
+* Pode escrever qualquer número numa segmentação numérica, mesmo que esta esteja fora do intervalo de valores na coluna subjacente. Esta opção permite-lhe definir filtros se souber que os dados poderão ser alterados no futuro.

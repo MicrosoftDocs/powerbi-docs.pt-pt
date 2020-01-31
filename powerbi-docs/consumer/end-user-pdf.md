@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791659"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537560"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -63,6 +63,7 @@ Existem algumas considerações e limitações a ter em conta ao trabalhar com a
 * Os filtros de URL não são atualmente respeitados quando seleciona **Valores Atuais** na exportação.
 * Os relatórios com tamanhos de página invulgares podem causar problemas em cenários de exportação. Para obter melhores resultados, pondere mudar o seu relatório para um tamanho de página padrão.
 * Na exportação para PDF, os tipos de letra personalizados em temas que utilizem os mesmos serão substituídos por um tipo de letra predefinido.
+* Embora procuremos proporcionar uma experiência consistente, não podemos garantir que o PDF exportado do serviço Power BI irá sempre corresponder ao PDF exportado de um ficheiro local do Power BI Desktop.
 
 ## <a name="next-steps"></a>Próximos passos
 [Imprimir um relatório](end-user-print.md)

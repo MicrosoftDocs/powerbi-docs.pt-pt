@@ -8,35 +8,45 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2019
+ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5c2f448ff705f00bc443a6a27fa80e1b5164a901
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75757813"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539789"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Exportar os dados que foram utilizados para criar uma visualização
 
+> [!IMPORTANT]
+> Nem todos os dados podem ser vistos ou exportados por todos os utilizadores. Existem proteções que os designers e administradores de relatórios utilizam na criação de dashboards e relatórios. Alguns dados são restritos, ocultos ou confidenciais e não podem ser vistos ou exportados sem permissões especiais. 
+
+## <a name="who-can-export-data"></a>Quem pode exportar dados
+
+Se tiver permissões para os dados, pode ver e exportar os dados que o Power BI utiliza para criar uma visualização. Muitas vezes, os dados são confidenciais ou encontram-se limitados a utilizadores específicos. Nesses casos, não poderá ver ou exportar esses dados. Para obter mais informações, veja a secção **Limitações e considerações** no final deste documento. 
+
+
+## <a name="viewing-and-exporting-data"></a>Ver e exportar dados
+
 Se quiser ver os dados que o Power BI utiliza para criar uma visualização, [poderá visualizar esses dados no Power BI](service-reports-show-data.md). Também pode exportar esses dados para o Excel como um ficheiro *.xlsx* ou *.csv*. A opção para exportar os dados requer uma licença Pro ou Premium e permissões de edição no conjunto de dados e no relatório. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
-Veja o Will a exportar os dados a partir de uma das visualizações no seu relatório, a guardá-los como um ficheiro *.xlsx* e a abri o ficheiro no Excel. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar.
+Veja o Will a exportar os dados a partir de uma das visualizações no seu relatório, a guardá-los como um ficheiro *.xlsx* e a abri o ficheiro no Excel. Em seguida, siga as instruções passo-a-passo abaixo do vídeo para experimentar. Tenha em atenção que este vídeo utiliza uma versão mais antiga do Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KjheMTGjDXw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="export-data-from-a-power-bi-dashboard"></a>Exportar dados a partir de um dashboard do Power BI
 
-1. Selecione as reticências (…) no canto superior direito da visualização.
+1. Selecione Mais ações (...) no canto superior direito da visualização.
 
     ![Captura de ecrã de uma visualização com uma seta a apontar para o botão de reticências.](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
-1. Escolha o ícone **Exportar dados**.
+1. Selecione a opção **Exportar para .csv**.
 
-    ![Captura de ecrã do menu pendente do botão de reticências com a opção Exportar dados destacada.](media/power-bi-visualization-export-data/pbi_export_dash.png)
+    ![Captura de ecrã do menu pendente do botão de reticências com a opção Exportar dados destacada.](media/power-bi-visualization-export-data/power-bi-export-data.png)
 
-1. O Power BI exporta os dados para um ficheiro *.csv*. Se filtrar a visualização, a aplicação filtrará os dados transferidos.
+1. O Power BI exporta os dados para um ficheiro *.csv*. Se filtrar a visualização, a exportação para .csv também será filtrada. 
 
 1. O browser pedirá para guardar o ficheiro.  Depois de guardado, abra o ficheiro *.csv* no Excel.
 
@@ -44,13 +54,17 @@ Veja o Will a exportar os dados a partir de uma das visualizações no seu relat
 
 ## <a name="export-data-from-a-report"></a>Exportar dados de um relatório
 
-Para acompanhar, abra o [Relatório de exemplo de análise de aprovisionamento](../sample-procurement.md) na Vista de Edição. Adicione uma nova página de relatório em branco. Em seguida, siga os passos abaixo para adicionar uma agregação e um filtro de nível de visualização.
+Para acompanhar, abra o [Relatório de exemplo de análise de aprovisionamento](../sample-procurement.md) no serviço Power BI, na Vista de Edição. Adicione uma nova página de relatório em branco. Em seguida, siga os passos abaixo para adicionar uma agregação, uma hierarquia e um filtro de nível de visualização.
+
+### <a name="create-a-stacked-column-chart"></a>Criar um gráfico de colunas empilhadas
 
 1. Crie um novo **gráfico de colunas empilhadas**.
 
-1. No painel **Campos**, selecione **Localização > Cidade** e **Fatura > Percentagem de Desconto**.  Poderá ter de mover o campo **Percentagem de Desconto** para a área **Valor**.
+    ![Captura de ecrã do modelo de gráfico de colunas agrupadas.](media/power-bi-visualization-export-data/power-bi-clustered.png)
 
-    ![Captura de ecrã da visualização que está a ser criada com as opções Cidade e Valor da Percentagem de Desconto destacadas.](media/power-bi-visualization-export-data/power-bi-export-data3.png)
+1. No painel **Campos**, selecione **Location > City**, **Location > Country/Region** e **Invoice > Discount Percent**.  Poderá ter de mover o campo **Percentagem de Desconto** para a área **Valor**.
+
+    ![Captura de ecrã da visualização que está a ser criada com as opções Cidade e Valor da Percentagem de Desconto destacadas.](media/power-bi-visualization-export-data/power-bi-build.png)
 
 1. Altere a agregação para **Percentagem de desconto** de **Contagem** para **Média**. Na área **Valor**, selecione a seta à direita de **Percentagem de Desconto** (poderá indicar **Valor da Percentagem de Desconto**) e escolha a opção **Média**.
 
@@ -58,67 +72,127 @@ Para acompanhar, abra o [Relatório de exemplo de análise de aprovisionamento](
 
 1. Adicione um filtro a **Cidade**, selecione todas as cidades e, em seguida, remova **Atlanta**.
 
-    ![Captura de ecrã do filtro Cidade com a caixa de verificação Atlanta, GA desmarcada e destacada.](media/power-bi-visualization-export-data/power-bi-export-data4.png)
+    ![Captura de ecrã do filtro Cidade com a caixa de verificação Atlanta, GA desmarcada e destacada.](media/power-bi-visualization-export-data/power-bi-filter.png)
 
-   Agora, estamos prontos para experimentar ambas as opções para exportar dados.
+   
+1. Desagregar um nível na hierarquia. Ative a desagregação e desagregue para o nível de **City**. 
+
+    ![Captura de ecrã do elemento visual desagregado para o nível de cidade.](media/power-bi-visualization-export-data/power-bi-drill.png)
+
+Agora, estamos prontos para experimentar ambas as opções para exportar dados.
+
+### <a name="export-summarized-data"></a>Exportar dados ***resumidos***
+Selecione a opção de **Dados resumidos** se quiser exportar dados do que vê nesse elemento visual.  Este tipo de exportação mostra-lhe apenas os dados (colunas e medidas) que estão a ser utilizados para criar o elemento visual.  Se o elemento visual tiver uma agregação, irá exportar os dados agregados. Por exemplo, se tiver um gráfico de barras que mostre quatro barras, obterá quatro linhas de dados do Excel. Os dados resumidos estão disponíveis no serviço Power BI como *.xlsx* e *.csv* e no Power BI Desktop como .csv.
 
 1. Selecione as reticências (…) no canto superior direito da visualização. Selecione **Exportar dados**.
 
     ![Captura de ecrã do canto superior direito com o botão de reticências e a opção Exportar dados destacada.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    No Power BI online, se a visualização tiver uma agregação (por exemplo, se tivesse alterado o **Valor** para *média*, *soma* ou *mínimo*), terá duas opções:
+    No serviço Power BI, uma vez que a sua visualização tem uma agregação (alterou **Contagem** para *média*), terá duas opções:
 
     - **Dados resumidos**
 
     - **Dados subjacentes**
 
-    No Power BI Desktop, terá apenas a opção para **Dados resumidos**. Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../service-aggregates.md).
+    Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../service-aggregates.md).
 
+
+    > [!NOTE]
+    > No Power BI Desktop, terá apenas a opção para exportar os dados resumidos como ficheiro .csv. 
+    
+    
 1. Em **Exportar dados**, selecione **Dados resumidos**, escolha *.xlsx* ou *.csv* e, em seguida, selecione **Exportar**. O Power BI exporta os dados.
 
     ![Captura de ecrã do ecrã Exportar dados com as opções Dados resumidos, xlsx e Exportar destacadas.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-    Se tiver aplicado filtros à visualização, os dados exportados serão exportar como filtrados. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
-    
-    Todos os dados utilizados pela hierarquia são exportados e não apenas os dados utilizados para o nível de desagregação atual do elemento visual. Por exemplo, se a visualização ainda não tiver sido desagregada do nível superior, os dados exportados incluirão todos os dados na hierarquia e não apenas os dados utilizados para criar o elemento visual no nível atualmente desagregado.
+1. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
 
-    **Dados resumidos**: selecione esta opção se quiser exportar os dados do que vê nesse elemento visual.  Este tipo de exportação mostra-lhe apenas os dados (colunas e medidas) que escolhe para criar o elemento visual.  Se o elemento visual tiver uma agregação, irá exportar os dados agregados. Por exemplo, se tiver um gráfico de barras que mostre quatro barras, obterá quatro linhas de dados. Os dados resumidos estão disponíveis como *.xlsx* e *.csv*.
+    ![Captura de ecrã da exportação para Excel.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
     Neste exemplo, a nossa exportação de Excel mostra um total para cada cidade. Uma vez que excluímos Atlanta no filtro, esta cidade não está incluída nos resultados. A primeira linha da nossa folha de cálculo mostra os filtros que o Power BI utilizou na extração dos dados.
+    
+    - Todos os dados utilizados pela hierarquia são exportados e não apenas os dados utilizados para o nível de desagregação atual do elemento visual. Por exemplo, desagregámos até ao nível de cidade, mas a nossa exportação também inclui dados do país.  
 
-    ![Captura de ecrã do ficheiro .csv com os dados exportados apresentados.](media/power-bi-visualization-export-data/power-bi-export-data7.png)
+    - Os nossos dados exportados são agregados. Obtemos um total, uma linha, para cada cidade.
 
-1. Experimente agora selecionar **Dados subjacentes**, *. xlsx* e, em seguida **Exportar**. O Power BI exporta os dados. 
+    - Uma vez que aplicámos filtros à visualização, os dados exportados serão exportados como filtrados. Repare que a primeira linha apresenta **Applied filters: City is not Atlanta, GA** (Filtros aplicados: a Cidade não é Atlanta, GA). 
+
+### <a name="export-underlying-data"></a>Exportar dados ***subjacentes***
+
+Selecione esta opção se quiser ver os dados no elemento visual ***e*** os dados adicionais do conjunto de dados (veja o gráfico abaixo para obter detalhes). Se a sua visualização tiver uma agregação, selecionar **Dados subjacentes** removerá a mesma. Neste exemplo, a exportação do Excel mostra uma linha para cada Cidade no nosso conjunto de dados e a percentagem de desconto para essa entrada individual. O Power BI uniformiza os dados, não os agrega.  
+
+Quando seleciona **Exportar**, o Power BI exporta os dados para um ficheiro *.xlsx* e o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
+
+1. Selecione as reticências (…) no canto superior direito da visualização. Selecione **Exportar dados**.
+
+    ![Captura de ecrã do canto superior direito com o botão de reticências e a opção Exportar dados destacada.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
+
+    No serviço Power BI, uma vez que a sua visualização tem uma agregação (alterou **Contagem** para **média**), terá duas opções:
+
+    - **Dados resumidos**
+
+    - **Dados subjacentes**
+
+    Para o ajudar a compreender as agregações, veja [Agregações no Power BI](../service-aggregates.md).
+
 
     > [!NOTE]
-    > Dependendo das definições do relatório, pode ou não ter a opção para exportar os dados subjacentes.
-
-    Se tiver aplicado filtros à visualização, os dados exportados serão exportar como filtrados. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
+    > No Power BI Desktop, terá apenas a opção para exportar os dados resumidos. 
     
-    Todos os dados utilizados pela hierarquia são exportados e não apenas os dados utilizados para o nível de desagregação atual do elemento visual. Por exemplo, se a visualização ainda não tiver sido desagregada do nível superior, os dados exportados incluirão todos os dados na hierarquia e não apenas os dados utilizados para criar o elemento visual no nível atualmente desagregado.
+    
+1. Em **Exportar dados**, selecione **Dados subjacentes** e, em seguida, selecione **Exportar**. O Power BI exporta os dados.
 
-    >[!WARNING]
-    >A exportação dos dados subjacentes permite aos utilizadores ver todos os dados detalhados – todas as colunas nos dados. Os administradores do serviço Power BI podem desativar esta definição para a sua organização. Se for proprietário de um conjunto de dados, poderá definir as colunas proprietárias como **ocultas** para que não sejam apresentadas na lista de **campos** no Desktop ou no serviço Power BI.
+    ![Captura de ecrã de Exportar dados com os dados subjacentes destacados.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-    **Dados subjacentes**: selecione esta opção se quiser ver os dados no elemento visual ***e*** os dados adicionais do modelo (veja o gráfico abaixo para obter detalhes). Se a sua visualização tiver uma agregação, selecionar *Dados subjacentes* removerá a mesma. Quando seleciona **Exportar**, o Power BI exporta os dados para um ficheiro *.xlsx* e o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
+1. Quando seleciona **Exportar**, o browser pede-lhe para guardar o ficheiro. Depois de guardado, abra o ficheiro no Excel.
 
-    Neste exemplo, a exportação do Excel mostra uma linha para cada Cidade no nosso conjunto de dados e a percentagem de desconto para essa entrada individual. O Power BI nivela os dados. Não os agrega. A primeira linha da nossa folha de cálculo mostra os filtros que o Power BI utilizou na extração dos dados.  
+    ![Captura de ecrã do ficheiro .xlsx com os dados exportados apresentados.](media/power-bi-visualization-export-data/power-bi-excel.png)
+    
+    - Esta captura de ecrã mostra-lhe apenas uma pequena parte do ficheiro Excel, o qual tem mais de 100 mil linhas.  
+    
+    - Todos os dados utilizados pela hierarquia são exportados e não apenas os dados utilizados para o nível de desagregação atual do elemento visual. Por exemplo, desagregámos até ao nível de cidade, mas a nossa exportação também inclui dados do país.  
 
-    ![Captura de ecrã do ficheiro .csv com os dados exportados apresentados.](media/power-bi-visualization-export-data/power-bi-export-data8.png)
+    - Uma vez que aplicámos filtros à visualização, os dados exportados serão exportados como filtrados. Repare que a primeira linha apresenta **Applied filters: City is not Atlanta, GA** (Filtros aplicados: a Cidade não é Atlanta, GA). 
+
+## <a name="protecting-proprietary-data"></a>Proteger dados proprietários
+
+O seu conjunto de dados pode ter conteúdos que não deverão ser vistos por todos os utilizadores. Se não tiver cuidado, exportar os dados subjacentes poderá permitir que os utilizadores vejam todos os dados detalhados desse elemento visual: todas as colunas e linhas nos dados. 
+
+Existem várias estratégias que os administradores e designers do Power BI deverão aplicar para proteger dados proprietários. 
+
+- Os designers [decidem quais *opções de exportação*](#set-the-export-options) estão disponíveis para os utilizadores.  
+
+- Os administradores do Power BI podem desativar a exportação de dados para a sua organização. 
+
+- Os proprietários de conjuntos de dados podem definir a segurança ao nível da linha (RLS). A RLS irá restringir o acesso a utilizadores com permissão só de leitura. No entanto, se tiver configurado uma área de trabalho de aplicação e dado aos membros permissões de edição, as funções de RLS não serão aplicadas às mesmas. Para obter mais informações, veja [Segurança ao nível da linha](../service-admin-rls.md).
+
+- Os designers de relatórios podem ocultar colunas para que estas não apareçam na lista **Campos**. Para obter mais informações, veja [Propriedades de conjuntos de dados](../developer/api-dataset-properties.md)
+
+- Os administradores do Power BI podem adicionar [etiquetas de confidencialidade](../admin/service-security-data-protection-overview.md) a dashboards, relatórios, conjuntos de dados e fluxos de dados. Depois, podem impor definições de proteção, como encriptação ou marcas d'água, ao exportar os dados. 
+
+- Os administradores do Power BI podem utilizar o [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) para monitorizar o acesso e a atividade dos utilizadores, executar a análise dos riscos em tempo real e definir controlos específicos de uma etiqueta. Por exemplo, as organizações podem utilizar o Microsoft Cloud App Security para configurar uma política que impeça os utilizadores de transferirem dados confidenciais do Power BI para dispositivos não geridos. 
+
 
 ## <a name="export-underlying-data-details"></a>Exportar detalhes de dados subjacentes
 
-O que vê quando seleciona **Dados subjacentes** pode variar. Poderá precisar da ajuda do seu administrador ou do departamento de TI para compreender estes detalhes. No Power BI Desktop ou no serviço Power BI, na vista de relatório, é apresentada uma *medida* na lista **Campos** com um ícone de calculadora ![a mostrar ícone](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). O Power BI Desktop cria Medidas. O serviço Power BI não o faz.
+O que vê quando seleciona **Dados subjacentes** pode variar. Poderá precisar da ajuda do seu administrador ou do departamento de TI para compreender estes detalhes. 
+
+
+>
+
+
 
 | O elemento visual contém | O que verá na exportação  |
 |---------------- | ---------------------------|
 | Agregados | O *primeiro* agregado e dados não ocultos da tabela inteira desse agregado |
 | Agregados | Dados relacionados: se o elemento visual utilizar dados de outras tabelas de dados que estão *relacionados* com a tabela de dados que contém o agregado (desde que a relação seja \*:1 ou 1:1) |
-| Medidas | todas as medidas no elemento visual *e* todas as medidas de qualquer tabela de dados que contenham uma medida utilizada no elemento visual |
-| Medidas | todos os dados não ocultos de tabelas que contenham essa medida (desde que essa relação seja \*:1 ou 1:1) |
-| Medidas | todos os dados de todas as tabelas que estão relacionados com as tabelas que contêm as medidas através de uma cadeia \*:1 ou 1:1) |
+| Medidas* | todas as medidas no elemento visual *e* todas as medidas de qualquer tabela de dados que contenham uma medida utilizada no elemento visual |
+| Medidas* | todos os dados não ocultos de tabelas que contenham essa medida (desde que essa relação seja \*:1 ou 1:1) |
+| Medidas* | todos os dados de todas as tabelas que estão relacionados com as tabelas que contêm as medidas através de uma cadeia \*:1 ou 1:1) |
 | Apenas medidas | todas as colunas não ocultas de todas as tabelas relacionadas (para expandir a medida) |
 | Apenas medidas | dados resumidos de todas as linhas duplicadas das medidas modelo |
+
+\* No Power BI Desktop ou no serviço Power BI, na vista de relatório, é apresentada uma *medida* na lista **Campos** com um ícone de calculadora ![a mostrar ícone](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). As medidas podem ser criadas no Power BI Desktop.
 
 ### <a name="set-the-export-options"></a>Definir as opções de exportação
 

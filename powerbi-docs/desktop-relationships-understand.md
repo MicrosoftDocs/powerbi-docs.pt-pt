@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760578"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309115"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Criar relações de modelos no Power BI Desktop
 
@@ -227,4 +227,6 @@ A lista a seguir ordena o desempenho da propagação do filtro, do desempenho ma
 
 - [Compreender o que é um esquema de estrela e qual a importância para o Power BI](guidance/star-schema.md)
 - [Guia de relações muitos para muitos](guidance/relationships-many-to-many.md)
+- Vídeo: [The Do's and Don'ts of Power BI Relationships](https://youtu.be/78d6mwR8GtA) (O que deve fazer e o que não deve fazer nas Relações do Power BI)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

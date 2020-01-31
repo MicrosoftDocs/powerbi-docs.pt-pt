@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874186"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540596"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origens de dados de relatórios do Power BI no Power BI Report Server
 Os relatórios do Power BI podem estabelecer ligação a diversas origens de dados. Consoante a forma como os dados são utilizados, estão disponíveis diferentes origens de dados. Pode importar ou consultar dados diretamente através do DirectQuery ou de uma ligação em direto ao SQL Server Analysis Services.
@@ -59,7 +59,7 @@ Outras origens de dados podem funcionar apesar de não estarem na lista suportad
 | OLE DB |Sim |Sim |Não |
 | Base de Dados Oracle |Sim |Sim |Sim |
 | Base de Dados PostgreSQL |Sim |Sim |Não |
-| Serviço Power BI |Não |Não |Não |
+| Serviço Power BI |Não |Não |Não |
 | Script do R |Sim |Não |Não |
 | Objetos do Salesforce |Sim |Não |Não |
 | Relatórios do Salesforce |Sim |Não |Não |
@@ -80,7 +80,7 @@ Outras origens de dados podem funcionar apesar de não estarem na lista suportad
 | Azure HDInsight Spark (Beta) |Sim |Não |Não |
 | Common Data Service (Beta) |Sim |Não |Não |
 | comScore Digital Analytix (Beta) |Sim |Não |Não |
-| Dynamics 365 for Customer Insights (Beta) |Sim |Não |Não |
+| Dynamics 365 for Customer Insights (Beta) |Sim |Não |Não |
 | Dynamics 365 for Financials (Beta) |Sim |Não |Não |
 | GitHub (Beta) |Sim |Não |Não |
 | Google BigQuery (Beta) |Sim |Não |Não |
@@ -122,7 +122,7 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | SQL Server Analysis Services |Não |Não |Sim |Sim |
 | Web |Sim |Não |Sim |Sim |
 | Base de Dados SQL do Azure |Não |Não |Sim |Não |
-| SQL Data Warehouse do Azure |Não |Não |Sim |Não |
+| Azure SQL Data Warehouse |Não |Não |Sim |Não |
 | Active Directory |Não |Não |Sim |Sim |
 | Amazon Redshift |Não |Não |Não |Não |
 | Armazenamento de Blobs do Azure |Sim |Sim |Não |Não |
@@ -145,7 +145,7 @@ O Power BI Report Server não suporta autenticação com base em OAuth para a at
 | OLEDB |Sim |Não |Sim |Sim |
 | Base de Dados Oracle |Não |Não |Sim |Sim |
 | Base de Dados PostgreSQL |Não |Não |Sim |Não |
-| Serviço Power BI |Não |Não |Não |Não |
+| Serviço Power BI |Não |Não |Não |Não |
 | Script do R |Não |Não |Não |Não |
 | Objetos do Salesforce |Não |Não |Não |Não |
 | Relatórios do Salesforce |Não |Não |Não |Não |
@@ -199,15 +199,15 @@ O Power BI Report Server não suporta autenticação com base em OAuth para o Di
 | Base de Dados do SQL Server |Não |Não |Sim |Sim |Sim |
 | SQL Server Analysis Services |Não |Não |Sim |Sim |Sim |
 | Base de Dados SQL do Azure |Não |Não |Sim |Não |Não |
-| SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |
+| Azure SQL Data Warehouse |Não |Não |Sim |Não |Não |
 | Base de Dados Oracle |Não |Não |Sim |Sim |Sim |
 | SAP Business Warehouse Server |Não |Não |Sim |Não |Não |
-| Base de Dados do SAP HANA |Não |Não |Sim |Sim |Não |
+| Base de Dados do SAP HANA |Não |Não |Sim |Sim |Sim** |
 | Teradata |Não |Não |Sim |Sim |Sim |
 
+**O SAP HANA suporta o DirectQuery com Autenticação Integrada do Windows apenas quando a utiliza como base de dados relacional no ficheiro do Power BI Desktop publicado (.pbix).
 
 ## <a name="next-steps"></a>Próximos passos
 Agora que estabeleceu ligação à origem de dados, [crie um relatório do Power BI](quickstart-create-powerbi-report.md) com os dados dessa origem de dados.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

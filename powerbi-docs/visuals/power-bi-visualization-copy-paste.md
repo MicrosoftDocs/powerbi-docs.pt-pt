@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 01/21/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1cb683f050dfe6e77c0b199a2a156eb03dda7de2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f872d3b708733b28af83c0452e837638db0e65fe
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870904"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539538"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiar e colar uma visualização de relatório
+Os elementos visuais nos relatórios do Power BI podem ser copiados de uma página no relatório para a mesma página ou para uma página diferente no mesmo relatório. 
+
 Copiar e colar uma visualização exige permissões de edição para o relatório. No serviço Power BI, isto significa abrir o relatório na [Vista de Edição](../consumer/end-user-reading-view.md). As visualizações nos dashboards não podem ser copiadas e coladas.
 
 ## <a name="copy-and-paste-a-visual"></a>Copiar e colar um elemento visual

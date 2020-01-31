@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218251"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709790"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Perguntas e Respostas para **consumidores** do Power BI
+# <a name="qa-for-power-bi-consumers"></a>Perguntas e Respostas para os consumidores do Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +41,7 @@ Encontrará também Perguntas e Respostas sobre relatórios, se o *designer* de 
 
 ## <a name="qa-on-dashboards"></a>Perguntas e Respostas em dashboards
 
-As **Perguntas e Respostas do Power BI** estão disponíveis mediante uma licença Pro ou Premium.  As [Perguntas e Respostas nas aplicações para dispositivos móveis do Power B](mobile/mobile-apps-ios-qna.md) e as [Perguntas e Respostas com o Power BI Embedded](../developer/qanda.md) são abordadas em artigos separados. Neste momento, as **Perguntas e Respostas do Power BI** apresentam apenas as respostas às consultas de linguagem natural realizadas em inglês, embora exista uma pré-visualização em espanhol que pode ser ativada pelo administrador do Power BI.
+As **Perguntas e Respostas do Power BI** estão disponíveis mediante uma licença Pro ou Premium.  As [Perguntas e Respostas nas aplicações para dispositivos móveis do Power BI](mobile/mobile-apps-ios-qna.md) e as [Perguntas e Respostas com o Power BI Embedded](../developer/qanda.md) são abordadas em artigos separados. Neste momento, as **Perguntas e Respostas do Power BI** apresentam apenas as respostas às consultas de linguagem natural realizadas em inglês, embora exista uma pré-visualização em espanhol que pode ser ativada pelo administrador do Power BI.
 
 
 ![mapa de árvore criado com as perguntas e respostas](media/end-user-q-and-a/power-bi-treemap.png)
@@ -167,6 +167,10 @@ Em seguida, selecione **Definições** > **Dashboards**. Certifique-se de que ex
 **Resposta**: Selecione a opção para entrar em contacto com o proprietário do relatório ou do dashboard. Pode fazê-lo diretamente na página das Perguntas e Respostas do dashboard ou no elemento visual de Perguntas e Respostas. Em alternativa, pode procurar o proprietário no cabeçalho do Power BI.  Existem várias formas de o designer conseguir melhorar os resultados das Perguntas e Respostas. Por exemplo, o designer pode mudar o nome das colunas no conjunto de dados de maneira a utilizar termos que sejam fáceis de compreender (`CustomerFirstName` em vez de `CustFN`). Uma vez que o designer conhece muito bem o conjunto de dados, o próprio também poderá elaborar perguntas úteis e adicioná-las às perguntas sugeridas das Perguntas e Respostas.
 
 ![Apresentar informações de contacto](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Privacidade
+
+A Microsoft pode utilizar as suas perguntas para melhorar o Power BI. Veja a [Declaração de Privacidade da Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) para obter mais informações.
 
 ## <a name="next-steps"></a>Próximos passos
 Para saber como um elemento visual das Perguntas e Respostas é criado e gerido por um *designer* de relatórios, veja [Tipo de elemento visual das Perguntas e Respostas](../visuals/power-bi-visualization-q-and-a.md).

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042124"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539906"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Tutorial: Incorporar um elemento visual do Power Apps num relatório Power BI
 
 Neste tutorial, vai utilizar o elemento visual do Power Apps para criar uma nova aplicação incorporada num relatório de exemplo do Power BI. Esta aplicação interage com outros elementos visuais nesse relatório.
 
-Se não tiver uma subscrição do Power Apps, [crie uma conta gratuita](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps) antes de começar.
+Se não tiver uma subscrição do Power Apps, [crie uma conta gratuita](https://web.powerapps.com/signup?redirect=marketing&email=) antes de começar.
 
 Neste tutorial, vai aprender a:
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ Neste tutorial, vai aprender a:
 
 * Browser [Google Chrome](https://www.google.com/chrome/browser/) ou [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 * Uma [subscrição do Power BI](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi) com o [Exemplo de Análise de Oportunidade](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample) instalado
-* Uma compreensão de como [criar aplicações no Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md) e como [editar relatórios do Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* Uma compreensão de como [criar aplicações no Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) e como [editar relatórios do Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
 
 
 
 ## <a name="create-a-new-app"></a>Criar uma nova aplicação
-Ao adicionar o elemento visual do Power Apps ao relatório, este inicia o PowerApps Studio com uma ligação de dados em direto entre o Power Apps e o Power BI.
+Ao adicionar o elemento visual do Power Apps ao relatório, este inicia o Power Apps Studio com uma ligação de dados em direto entre o Power Apps e o Power BI.
 
 1. Abra o relatório de amostra de Análise de Oportunidades e selecione a página *Oportunidades Futuras*. 
 
@@ -49,7 +49,7 @@ Ao adicionar o elemento visual do Power Apps ao relatório, este inicia o Power
 
 2. No painel visualizações, selecione o ícone do Power Apps e redimensione o elemento visual para se ajustar ao espaço criado.
 
-    ![Painel Visualização com o ícone do PowerApps selecionado](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![Painel Visualização com o ícone do Power Apps selecionado](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. No painel **Campos**, selecione **Nome**, **Código do Produto** e **Fase de Venda**. 
 

@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866433"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709766"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Utilizar o Analisador de Desempenho para examinar o desempenho do elemento de relatório
 
 No **Power BI Desktop**, pode saber o desempenho de cada um dos seus elementos de relatórios, como elementos visuais e fórmulas DAX. Com o **Analisador de Desempenho**, pode ver e criar registos que medem o desempenho de cada um dos seus elementos de relatórios quando os utilizadores interagem com os mesmos, bem como os aspetos do seu desempenho que consomem mais (ou menos) recursos.
 
-![Analisador de Desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
+![Analisador de desempenho](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
 O Analisador de Desempenho inspeciona e mostra a duração necessária para atualizar todos os elementos visuais que as interações com utilizadores iniciam, e apresenta as informações para que possa ver, desagregar ou exportar os resultados. O Analisador de Desempenho pode ajudá-lo a identificar elementos visuais que estão a afetar o desempenho dos seus relatórios e a identificar o motivo do impacto.
 
@@ -58,6 +58,9 @@ As informações de registo de cada elemento visual incluem o tempo passado (dur
 * **Apresentação do elemento visual** – o tempo necessário para que o elemento visual surja no ecrã, incluindo o tempo necessário para obter imagens Web ou geocodificação. 
 * **Outros** – o tempo que o elemento visual necessita para preparar consultas, aguardar que outros elementos visuais sejam concluídos ou executar outro processamento em segundo plano.
 
+Os valores de **Duração (ms)** indicam a diferença entre um carimbo de data/hora de *início* e *fim* para cada operação. A maioria das operações de tela e elementos visuais é executada sequencialmente num único tópico da Interface de Utilizador, que é partilhado por várias operações. As durações comunicadas incluem o tempo despendido em fila de espera enquanto outras operações são concluídas. O [exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) no GitHub e a sua [documentação](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) associada fornecem detalhes sobre como os elementos visuais consultam os dados e como efetuam a composição.
+
+
 ![elementos de informações de registo](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 Após interagir com os elementos do relatório que pretende medir com o Analisador de Desempenho, pode selecionar o botão **Parar**. As informações de desempenho permanecem no painel após ter selecionado **Parar**, para que as possa analisar.
@@ -86,6 +89,10 @@ Para obter mais informações sobre o **Power BI Desktop**, e sobre como começa
 * [Descrição Geral das Consultas no Power BI Desktop](desktop-query-overview.md)
 * [Origens de Dados no Power BI Desktop](desktop-data-sources.md)
 * [Ligar a Dados no Power BI Desktop](desktop-connect-to-data.md)
-* [Moldar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Tarefas Comuns de Consulta no Power BI Desktop](desktop-common-query-tasks.md)   
+* [Formatar e Combinar Dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Tarefas de Consulta Comuns no Power BI Desktop](desktop-common-query-tasks.md)   
 
+Para obter informações sobre o exemplo do Analisador de Desempenho, veja os seguintes recursos.
+
+* [Exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [Documentação de exemplo do Analisador de Desempenho](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

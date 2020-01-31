@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/07/2019
+ms.date: 01/17/2019
 ms.author: mihart
-ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836670"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537813"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossário para o serviço Power BI
 O serviço Power BI pode introduzir terminologia que é confusa ou desconhecida. O glossário é um ótimo lugar para pesquisar a terminologia, pode até mesmo guardá-la nos marcadores. Outro recurso excelente para saber mais sobre os blocos de construção que formam o serviço Power BI é [Conceitos Básicos](end-user-basic-concepts.md). Conceitos básicos proporciona uma perspetiva geral de alto nível das *partes* do Power BI e de como estão ligadas.
@@ -77,11 +77,15 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **content view (vista de conteúdo)**
 
+**Continuous variable** (Variável contínua) – uma variável contínua pode ser qualquer valor entre os seus limites mínimos e máximos, caso contrário, é uma variável discreta. Os exemplos são a temperatura, peso, idade e hora. As variáveis contínuas podem incluir frações ou porções do valor. O número total de skates azuis vendidos é uma variável discreta, uma vez que não podemos vender metade de um skate.
+
+**Correlation** (Correlação) – uma correlação diz-nos como os comportamentos das coisas estão relacionados.  Se os seus padrões de aumento e diminuição forem semelhantes, significa que estão positivamente correlacionados. E se os seus padrões forem opostos, significa que estão negativamente correlacionados. Por exemplo, se as vendas do nosso skate vermelho aumentarem sempre que fizermos uma campanha de marketing televisivo, então, as vendas do skate vermelho e a campanha televisiva estão positivamente correlacionadas.
+
 **cross-filter (filtro cruzado)** Aplica-se a interações visuais. A filtragem cruzada remove dados que não se aplicam. Por exemplo, a seleção de **Moderação** no gráfico em anel permite filtrar o gráfico de linhas de forma cruzada. Agora, o gráfico de linhas só mostra pontos de dados que se aplicam ao segmento Moderação.
 
 **cross-highlight (realce cruzado)** Aplica-se a interações visuais. O realce cruzado retém todos os pontos de dados originais, mas escurece a parte que não se aplica à sua seleção. Por exemplo, a seleção de **Moderação** no gráfico em anel permite realçar o gráfico de colunas de forma cruzada. O gráfico de colunas escurece todos os dados que não se aplicam ao segmento Moderação e realça todos os dados que se aplicam ao segmento Moderação.
 
-**custom visual (elemento visual personalizado0** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
+**custom visual (elemento visual personalizado)** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
 
 ## <a name="d"></a>D
 
@@ -102,8 +106,9 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 **Desktop** ou **Power BI Desktop** Ferramenta do Power BI gratuita utilizada principalmente por designers, administradores e programadores de relatórios. 
 
 
-
 **diamond (diamante)** Power BI Premium. A forma do ícone que significa que uma área de trabalho é uma área de trabalho de capacidade Premium.
+
+**Dimension** (Dimensão) – as dimensões são dados categóricos (texto). Uma dimensão descreve uma pessoa, objeto, item, produtos, local e hora. Num conjunto de dados, as dimensões são a forma de agrupar *medidas* em categorias úteis. Para a nossa empresa de skates, algumas dimensões podem incluir a análise das vendas (uma medida) por modelo, país ou campanha de marketing.   
 
 **agregar, desagregar, explorar** No Power BI, utilize agregar e desagregar para referir a capacidade de explorar o próximo nível de detalhe num relatório ou elemento visual. Utilize explorar para referir a capacidade de selecionar uma parte de um elemento visual e ser direcionado para outra página no relatório, com os dados filtrados relacionados com a parte do elemento visual que selecionou na página original.
 Analisar detalhes normalmente significa mostrar os registos subjacentes.
@@ -168,6 +173,8 @@ Primeira instância: painel de navegação. Menções subsequentes ou com pouco 
 **página de lista** ou **lista de conteúdo** Uma das páginas de secção dos elementos no painel de navegação. Por exemplo, Favoritos, Recentes, A minha área de trabalho, etc.
 
 ## <a name="m"></a>M
+
+**Measure** (Medida) – uma medida é um campo quantitativo (numérico) que pode ser utilizado para fazer cálculos. Os cálculos comuns são soma, média e mínimo. Por exemplo, se a nossa empresa construir e vender skates, as nossas medidas podem ser o número de skates vendidos e o lucro médio por ano.
 
 **Mobile app (Aplicação móvel)** Aplicações que permitem executar o Power BI em dispositivos iOS, Android e Windows.
 
@@ -302,6 +309,8 @@ Pode subscrever páginas, aplicações e dashboards de relatórios e receber e-m
 ## <a name="t"></a>T
 **tiles (mosaicos)**  
 Os dashboards do Power BI contêm mosaicos de relatório.
+
+**Time series** (Série temporal) – uma série temporal é uma forma de apresentar o tempo como pontos de dados sucessivos. Esses pontos de dados podem ser incrementos tais como segundos, horas, meses ou anos.  
 
 
 ## <a name="u"></a>U
