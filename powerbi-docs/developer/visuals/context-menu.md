@@ -1,20 +1,20 @@
 ---
 title: Capacidades e propriedades dos elementos visuais do Power BI
 description: Este artigo descreve as capacidades e propriedades dos elementos visuais do Power BI.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 206f1aec7c76b00b6f725d8469eb3e483a01c653
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061782"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819198"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Adicionar menu de contexto ao Elemento Visual do Power BI
 

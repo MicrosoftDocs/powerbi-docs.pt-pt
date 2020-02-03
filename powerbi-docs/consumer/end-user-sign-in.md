@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/13/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Getting started
-ms.openlocfilehash: febe0ce869618d1517a668619e4b4bebd6023447
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6982ca89979fa101593cce92151e400f82e7ba0d
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861591"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894689"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Iniciar sessão no serviço Power BI
 

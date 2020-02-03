@@ -1,20 +1,20 @@
 ---
 title: Adicionar suporte de Desagregação
 description: Este artigo descreve como adicionar suporte de desagregação a Elementos Visuais do Power BI
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 197f2904288d9a42bd45096a3f897a399f5abce5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700599"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819244"
 ---
 # <a name="add-drill-down-support"></a>Adicionar suporte de Desagregação
 

@@ -1,20 +1,20 @@
 ---
 title: Compreender o mapeamento de vista de dados em elementos visuais do Power BI
 description: Este artigo descreve como é que o Power BI transforma os dados antes de os converter em elementos visuais.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 85cfa292055f7db96dcb714ec8c4dd78fe75ee67
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700300"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819129"
 ---
 # <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>Adicionar a região do Power BI para obter elementos visuais personalizados
 

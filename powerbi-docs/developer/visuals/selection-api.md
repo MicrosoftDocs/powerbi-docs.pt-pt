@@ -1,20 +1,20 @@
 ---
 title: Seleções de pontos de dados de elementos visuais do Power BI
 description: O artigo descreve como adicionar seleções aos elementos visuais do Power BI
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696448"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818899"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Adicionar interatividade ao elemento visual através das seleções de elementos visuais do Power BI
 
