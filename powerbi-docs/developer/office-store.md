@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/02/2019
 ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999920"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
@@ -31,7 +31,7 @@ Antes de submeter um elemento visual do Power BI no AppSource, garanta que leu 
 
 Quando estiver pronto para submeter o elemento visual do Power BI, verifique se cumpre todos os requisitos listados abaixo.
 
-| Item | Necessário | Descrição |
+| Item | Obrigatório | Descrição |
 | --- | --- | --- |
 | Pacote Pbiviz |Sim |Compacte o elemento visual do Power BI num pacote Pbiviz com todos os metadados necessários.<br>Nome do elemento visual<br>Nome a apresentar<br>GUID<br>Versão<br>Descrição<br>Nome e e-mail do autor |
 | Ficheiro de relatório. pbix de exemplo |Sim |Para demonstrar o elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Realce o valor que o elemento visual proporciona ao utilizador e dê exemplos de utilização e opções de formatação. Também pode adicionar uma página de *“sugestões”* no final com algumas sugestões e truques e aspetos a evitar.<br>O ficheiro de relatório .pbix de exemplo deve funcionar offline, sem quaisquer ligações externas. |
@@ -51,7 +51,7 @@ Antes de criar o pacote **pbiviz**, terá de preencher os seguintes campos no fi
 * descrição
 * supportUrl
 * autor
-* nome
+* name
 * e-mail
 
 Anexe o **ficheiro pbiviz** e o **ficheiro pbix do relatório de exemplo** ao e-mail. A equipa do Power BI irá responder com instruções e um ficheiro XML do pacote de aplicação para carregamento. Este XML do pacote de aplicação é necessário para submeter o elemento visual através do Centro de Programadores do Office.

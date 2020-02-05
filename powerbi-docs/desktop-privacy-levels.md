@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791308"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
@@ -26,7 +26,7 @@ A definição **Níveis de Privacidade**, encontrada em **Ficheiro > Opções e 
 ## <a name="configure-a-privacy-level"></a>Configurar um nível de privacidade
 Nas definições do nível de privacidade, pode especificar um nível de isolamento que define o grau em que uma origem de dados deve ser isolada de outras origens de dados.
 
-| Definição | Descrição | Exemplo de origens de dados |
+| Definições | Descrição | Exemplo de origens de dados |
 | --- | --- | --- |
 | **Origem de dados privada** |Uma origem de dados **Privada** contém informações confidenciais, e a visibilidade da origem de dados pode ser restringida a utilizadores autorizados. Uma origem de dados privada é completamente isolada de outras origens de dados. |Os dados do Facebook, um ficheiro de texto com concessões de ações ou um livro com informações de avaliação de funcionários. |
 | **Origem de dados organizacional** |Uma origem de dados **Organizacional** limita a visibilidade de uma origem de dados a um grupo de pessoas de confiança. Uma origem de dados **Organizacional** fica isolada de todas as origens de dados **Públicas**, mas é visível para outras origens de dados **Organizacionais**. |Um documento do **Microsoft Word** num site do SharePoint com permissões ativadas para um grupo de pessoas de confiança. |

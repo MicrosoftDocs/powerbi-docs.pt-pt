@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74696670"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Compreender o mapeamento de vista de dados em elementos visuais do Power BI
@@ -230,7 +230,7 @@ Eis o mapeamento:
 É um exemplo simples. Indica o seguinte: "Mapear a minha função de dados `category` de forma a que, para cada campo que arrastar para `category`, os respetivos dados sejam mapeados para `categorical.categories`. Mapear também a minha função de dados `measure` para `categorical.values`".
 
 * **for...in**: incluir todos os itens desta função de dados na consulta de dados.
-* **bind...to**: produz o mesmo resultado de *"for...in"* , mas espera-se que a função de dados tenha uma condição que a restrinja a um único campo.
+* **bind...to**: produz o mesmo resultado de *"for...in"*, mas espera-se que a função de dados tenha uma condição que a restrinja a um único campo.
 
 ### <a name="example-5"></a>Exemplo 5
 

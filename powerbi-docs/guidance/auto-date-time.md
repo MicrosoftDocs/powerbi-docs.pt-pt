@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 30bfacc1024035f0849440eec8b1c7051ff4d82a
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75002449"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Auto date/time guidance in Power BI Desktop (Orientação de data/hora Automáticas no Power BI Desktop)

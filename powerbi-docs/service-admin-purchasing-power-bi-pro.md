@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76753197"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Comprar e atribuir licenças de utilizador do Power BI Pro
@@ -52,7 +52,7 @@ Siga estes passos para comprar licenças do Power BI Pro no centro de administ
 
 6. Selecione **Pagar mensalmente** ou **Pagar o ano completo** de acordo com a forma que quer pagar.
 
-7. Em **Quantos utilizadores quer?** , introduza o número de licenças que quer comprar e, em seguida, selecione **Finalizar compra agora** e conclua a transação.
+7. Em **Quantos utilizadores quer?**, introduza o número de licenças que quer comprar e, em seguida, selecione **Finalizar compra agora** e conclua a transação.
 
 8. Para verificar a sua compra, vá para **Faturação** > **Produtos e serviços** e procure **Power BI Pro**.
 

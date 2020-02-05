@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75000187"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usar o início de sessão único Kerberos para SSO no SAP BW com CommonCryptoLib (sapcrypto.dll)
@@ -30,7 +30,7 @@ Este artigo descreve como configurar a origem de dados SAP BW para ativar o SSO 
 
 1. Confirme que o seu servidor BW está configurado corretamente para o SSO do Kerberos com CommonCryptoLib. Se estiver, pode utilizar o SSO para aceder ao seu servidor BW (diretamente ou através de um Servidor de Mensagens SAP BW) com uma ferramenta SAP como o GUI do SAP, que foi configurado para utilizar a CommonCryptoLib. 
 
-   Para obter mais informações sobre os passos de configuração, veja [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Início de Sessão Único do SAP: autenticação com Kerberos/SPNEGO). O seu servidor BW deverá utilizar a CommonCryptoLib como a respetiva Biblioteca SNC e ter um nome SNC que comece por *CN=* , como *CN=BW1*. Para obter mais informações sobre os requisitos de nomes SNC (especificamente, o parâmetro snc/identity/as), veja [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) (Parâmetros SNC para Configuração do Kerberos).
+   Para obter mais informações sobre os passos de configuração, veja [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Início de Sessão Único do SAP: autenticação com Kerberos/SPNEGO). O seu servidor BW deverá utilizar a CommonCryptoLib como a respetiva Biblioteca SNC e ter um nome SNC que comece por *CN=*, como *CN=BW1*. Para obter mais informações sobre os requisitos de nomes SNC (especificamente, o parâmetro snc/identity/as), veja [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html) (Parâmetros SNC para Configuração do Kerberos).
 
 1. Se ainda não o tiver feito, instale a versão x64 do [SAP .NET Connector](https://support.sap.com/en/product/connectors/msnet.html) no computador onde o gateway foi instalado. 
    

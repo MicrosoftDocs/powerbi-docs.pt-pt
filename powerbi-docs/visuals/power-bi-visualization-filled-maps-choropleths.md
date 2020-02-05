@@ -11,10 +11,10 @@ ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75757859"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Criar e utilizar mapas de manchas (mapas coropletos) no Power BI
@@ -63,7 +63,7 @@ Neste vídeo, a Rita cria um mapa básico e converte-o num mapa de manchas.
    > 
    > 
 
-[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg]
 
 ### <a name="create-a-filled-map"></a>Criar um mapa de manchas
 1. No painel Campos, selecione o campo **Geo** \> **Estado**.    
@@ -130,7 +130,7 @@ Os dados de mapa podem ser ambíguos.  Por exemplo, existe Paris, França, mas t
 
 Se tiver permissões para editar o conjunto de dados no Power BI Desktop, veja este vídeo para obter ajuda a resolver a ambiguidade do mapa.
 
-[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
+[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM]
 
 Se não tiver acesso aos dados de latitude e longitude, mas tiver acesso de edição ao conjunto de dados, [siga estas instruções para atualizar o conjunto de dados](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

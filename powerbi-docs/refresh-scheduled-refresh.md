@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958408"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurar a atualização agendada
@@ -66,7 +66,7 @@ Se estiver a utilizar o Gateway de dados no local para atualizar os dados, não 
 ![Comando Agendar Atualização](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)* . O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
+> Ao ligar ao SharePoint no local para a atualização de dados, o Power BI suporta apenas os mecanismos de autenticação *Anónimo*, *Básico* e *Windows (NTLM/Kerberos)*. O Power BI não suporta *ADFS* nem nenhum mecanismo *Autenticação Baseada em Formulários* de atualização de dados de origens de dados do SharePoint no local.
 
 ## <a name="scheduled-refresh"></a>Atualização agendada
 
@@ -82,11 +82,11 @@ Defina o controlo de deslize **Manter os dados atualizados** para **Ativado** pa
 > [!NOTE]
 > Após dois meses de inatividade, a atualização agendada no conjunto de dados é colocada em pausa. Um conjunto de dados é considerado inativo quando nenhum utilizador tiver visitado qualquer dashboard ou relatório incorporado no conjunto de dados. Nessa altura, é enviado um e-mail ao proprietário do conjunto de dados, a indicar que a atualização agendada foi interrompida. O agendamento de atualizações do conjunto de dados apresentará o estado **desativado**. Para retomar a atualização agendada, basta visitar novamente qualquer dashboard ou relatório incorporado no conjunto de dados.
 
-## <a name="whats-supported"></a>O que é suportado?
+## <a name="whats-supported"></a>O que tem suporte?
 
 Alguns conjuntos de dados são suportados em gateways diferentes para a atualização agendada. Aqui está uma referência para entender o que está disponível.
 
-### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
+### <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 
 **Power BI Desktop**
 

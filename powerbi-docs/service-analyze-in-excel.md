@@ -11,10 +11,10 @@ ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75223735"
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
@@ -49,7 +49,7 @@ No Power BI, selecione o menu de reticências junto a um relatório ou conjunto 
 ![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>Instalar atualizações do Excel
-Quando utilizar a opção **Analisar no Excel** pela primeira vez, tem de instalar as atualizações às bibliotecas do Excel. Ser-lhe-á pedido que transfira e execute as atualizações do Excel (esta ação inicia a instalação do pacote do Windows Installer *SQL_AS_OLEDDB.msi*). Este pacote instala o **Fornecedor OLE DB do Microsoft AS para SQL Server 2016 RC0 (Pré-visualização)** .
+Quando utilizar a opção **Analisar no Excel** pela primeira vez, tem de instalar as atualizações às bibliotecas do Excel. Ser-lhe-á pedido que transfira e execute as atualizações do Excel (esta ação inicia a instalação do pacote do Windows Installer *SQL_AS_OLEDDB.msi*). Este pacote instala o **Fornecedor OLE DB do Microsoft AS para SQL Server 2016 RC0 (Pré-visualização)**.
 
 > [!NOTE]
 > Certifique-se de que marca **Não voltar a mostrar** na caixa de diálogo **Instalar atualizações do Excel**. Só precisa de instalar a atualização uma vez.

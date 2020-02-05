@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925834"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975039"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Ligar aos serviços que utiliza com o Power BI
 Com o Power BI, pode ligar-se a diversos serviços que utiliza para gerir a sua empresa, como o Salesforce, Microsoft Dynamics e Google Analytics. O Power BI começa por utilizar as suas credenciais para se ligar ao serviço. Em seguida, cria uma *área de trabalho* do Power BI com um dashboard e um conjunto de relatórios do Power BI que mostram os dados automaticamente e fornecem informações visuais sobre a sua empresa.
@@ -55,7 +55,7 @@ Para obter mais detalhes sobre ligar-se a serviços específicos, consulte as p�
 **Mosaicos vazios**  
 Apesar de o Power BI começar por se ligar ao serviço, poderá ver um conjunto vazio de mosaicos no seu dashboard. Se ainda vir um dashboard vazio após 2 horas, é provável que tenha havido uma falha de ligação. Se não vir uma mensagem de erro com informações sobre como corrigir o problema, envie um pedido de suporte.
 
-* Selecione o ícone de ponto de interrogação ( **?** ) no canto superior direito >  **Obter ajuda**.
+* Selecione o ícone de ponto de interrogação (**?**) no canto superior direito >  **Obter ajuda**.
   
     ![Ícone Obter ajuda](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -71,5 +71,4 @@ Se estiver interessado em criar aplicações de modelo para distribuição próp
 * [Distribuir aplicações aos seus colegas](service-create-distribute-apps.md)
 * [Create the new workspaces in Power BI](service-create-the-new-workspaces.md) (Criar as novas áreas de trabalho no Power BI)
 * Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-* Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

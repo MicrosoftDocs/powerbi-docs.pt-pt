@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 5c2dc39f05609da8a460ac7575498c0df6a96c55
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76160886"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginação nos relatórios paginados do Power BI

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 01/08/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75762123"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Chaves de encriptação por BYOK (Bring Your Own Key) para o Power BI (pré-visualização)
