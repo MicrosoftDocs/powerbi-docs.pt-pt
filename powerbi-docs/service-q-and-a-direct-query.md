@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265512"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Ativar as Perguntas e Respostas para ligações em direto no Power BI
@@ -60,7 +60,7 @@ A funcionalidade tem algumas limitações:
 
 ## <a name="next-steps"></a>Próximos passos
 
-- [Gateway de dados no local](service-gateway-onprem.md)  
+- [On-premises data gateway (Gateway de dados no local)](service-gateway-onprem.md)  
 - [Gerir a sua origem de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 - [Conceitos básicos para designers no serviço Power BI](service-basic-concepts.md)  
 - [Descrição Geral de Perguntas e Respostas do Power BI](consumer/end-user-q-and-a.md)  
