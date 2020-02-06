@@ -62,7 +62,7 @@ A classificação de dados é configurada pelo administrador global da sua organ
 1. Selecione a engrenagem das definições e selecione **Portal de Administração**.
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. Deixe a opção **Classificação de dados para dashboards e relatórios***ativada* no separador **Definições de inquilino**.
+2. Deixe a opção **Classificação de dados para dashboards e relatórios** *ativada* no separador **Definições de inquilino**.
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 

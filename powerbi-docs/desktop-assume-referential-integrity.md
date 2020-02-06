@@ -37,10 +37,10 @@ O exemplo seguinte demonstra como se comporta a funcionalidade **Assumir Integri
 1. Na imagem seguinte que mostra as tabelas **Orders** e **Products**, tenha em atenção que existe integridade referencial entre **Orders[ProductID]** e **Products[ProductID]** . A coluna **[ProductID]** na tabela **Orders** nunca é *Nula* e cada valor também aparece na tabela **Products**. Como tal, **Assumir Integridade Referencial** deve ser definido para obter consultas mais eficientes (esta definição não altera os valores apresentados nos elementos visuais).
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Na imagem seguinte, tenha em atenção que não existe integridade referencial entre **Orders[DepotID]** e **Depots[DepotID]** , uma vez que o **DepotID** é *Nulo* para algumas *Orders*. Como tal, **Assumir Integridade Referencial***não* deve ser definido.
+2. Na imagem seguinte, tenha em atenção que não existe integridade referencial entre **Orders[DepotID]** e **Depots[DepotID]** , uma vez que o **DepotID** é *Nulo* para algumas *Orders*. Como tal, **Assumir Integridade Referencial** *não* deve ser definido.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Por fim, não existe integridade referencial entre **Orders[CustomerID]** e **Customers[CustID]** nas tabelas seguintes. **CustomerID** contém alguns valores (neste caso, *CustX*) que não existem na tabela *Customers*. Como tal, **Assumir Integridade Referencial***não* deve ser definido.
+3. Por fim, não existe integridade referencial entre **Orders[CustomerID]** e **Customers[CustID]** nas tabelas seguintes. **CustomerID** contém alguns valores (neste caso, *CustX*) que não existem na tabela *Customers*. Como tal, **Assumir Integridade Referencial** *não* deve ser definido.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
