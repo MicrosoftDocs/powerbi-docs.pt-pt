@@ -6,40 +6,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/01/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fdd43320fec2b96aa708cb5bb1a21e269a117d2a
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830649"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889219"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Alterar a forma como um gráfico é ordenado num relatório do Power BI
+
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 > [!IMPORTANT]
-> **Este artigo destina-se a utilizadores do Power BI que não possuem permissões de edição para o relatório ou conjunto de dados. Para obter instruções mais detalhadas de ordenação, leia o artigo [Ordenação por coluna no Power BI Desktop](../desktop-sort-by-column.md)** .
+> **Este artigo destina-se aos utilizadores do Power BI que não tenham permissões de edição no relatório ou no conjunto de dados e que apenas trabalhem na versão online do Power BI (o serviço Power BI). Se for um *designer*, *administrador* ou *proprietário* de relatórios, este artigo poderá não ter toda a informação de que necessita. Em alternativa, leia [Ordenação por coluna no Power BI Desktop](../desktop-sort-by-column.md)** .
 
-No serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir.
+No serviço Power BI, pode alterar o aspeto de um elemento visual ao ordená-lo por campos de dados diferentes. Ao alterar a forma como ordena um elemento visual, pode destacar as informações que pretende transmitir. Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de texto (como nomes de estado), pode ordenar as visualizações conforme quiser. O Power BI oferece bastante flexibilidade para ordenação e menus rápidos para utilização. 
 
 Os elementos visuais num dashboard não podem ser ordenados. No entanto, pode ordenar a maioria das visualizações num relatório do Power BI 
 
-Se estiver a utilizar dados numéricos (como o volume de vendas) ou dados de texto (como nomes de estado), pode ordenar as visualizações conforme quiser. O Power BI oferece bastante flexibilidade para ordenação e menus rápidos para utilização. 
-
 ## <a name="get-started"></a>Introdução
 
-Para começar, escolha um elemento visual e selecione **Mais ações** (...).  Existem três opções de ordenação: **Ordenação descendente**, **Ordenação ascendente** e **Ordenar por**. 
+Para começar, selecione um elemento visual do relatório e escolha **Mais ações** (...).  Existem três opções de ordenação: **Ordenação descendente**, **Ordenação ascendente** e **Ordenar por**. 
     
 
 ![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/power-bi-more-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>Ordenar alfabética ou numericamente
 
-Os elementos visuais podem ser ordenados alfabeticamente pelos respetivos nomes das categorias ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado alfabeticamente pela categoria de eixo X **Store name**.
+Os elementos visuais podem ser ordenados alfabeticamente pelos nomes textuais das categorias ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico está ordenado alfabeticamente pela categoria de eixo X **Store name**.
 
 ![gráfico de barras ordenado alfabeticamente pelo eixo X](media/end-user-change-sort/powerbi-sort-category.png)
 
@@ -55,7 +55,7 @@ Se for necessário, alterne entre uma sequência de ordenação ascendente e des
 > Nem todos os elementos visuais podem ser ordenados. Por exemplo, os seguintes elementos visuais não podem ser ordenados: treemap, mapa, mapa de manchas, dispersão, medidor, cartão, cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Guardar as alterações feitas à sequência de ordenação
-Os relatórios do Power BI mantêm os filtros, as segmentações de dados, a ordenação e outras alterações que fizer à vista de dados. Por isso, se sair de um relatório e regressar mais tarde, as alterações de ordenação são guardadas.  Se quiser reverter as alterações para as definições do designer do relatório, selecione **Repor para predefinição** na barra de menus superior. 
+Os relatórios do Power BI mantêm os filtros, as segmentações, a ordenação e outras alterações que fizer, mesmo que esteja a trabalhar na [Vista de leitura](end-user-reading-view.md). Por isso, se sair de um relatório e regressar mais tarde, as alterações de ordenação serão guardadas.  Se quiser reverter as alterações para as definições do *designer* de relatórios, selecione **Repor para predefinição** na barra de menus superior. 
 
 ![Ordenação persistente](media/end-user-change-sort/power-bi-reset.png)
 
@@ -65,7 +65,11 @@ No entanto, se o botão **Repor para predefinição** for apresentado a cinzento
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
 ### <a name="sorting-using-other-criteria"></a>Ordenar através de outros critérios
-Por vezes, quer ordenar o elemento visual através de um campo diferente (que não esteja incluído no elemento visual) ou outros critérios.  Por exemplo, talvez queira ordenar de forma sequencial por mês (e não por ordem alfabética) ou por números inteiros em vez de por dígitos (por exemplo, 0, 1, 9, 20 e não 0, 1, 20, 9).  Apenas a pessoa que criou o relatório pode fazer estas alterações por si. As informações de contacto do *designer* podem ser encontradas ao selecionar o nome do relatório na barra de cabeçalho.
+Por vezes, quer ordenar o elemento visual através de um campo diferente (que não esteja incluído no elemento visual) ou outros critérios.  Por exemplo, talvez queira ordenar de forma sequencial por mês (e não por ordem alfabética) ou por números inteiros em vez de por dígitos (por exemplo, 0, 1, 9, 20 e não 0, 1, 20, 9).  
+
+Apenas a pessoa que criou o relatório pode fazer estas alterações por si. As informações de contacto do *designer* podem ser encontradas ao selecionar o nome do relatório na barra de cabeçalho.
+
+Se for um *designer* e tiver permissões de edição no conteúdo, leia [Ordenação por coluna no Power BI Desktop](../desktop-sort-by-column.md) para saber como atualizar o conjunto de dados e ativar este tipo de ordenação.
 
 ![Lista pendente a mostrar informações de contacto](media/end-user-change-sort/power-bi-contact.png)
 

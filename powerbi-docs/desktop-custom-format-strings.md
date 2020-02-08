@@ -10,10 +10,10 @@ ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791598"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Utilizar cadeias de formato personalizado no Power BI Desktop
@@ -143,7 +143,7 @@ A tabela a seguir identifica os carateres que pode utilizar para criar **formato
 | ( **:** ) | Separador de hora. Em certas regiões, podem ser utilizados outros carateres para representar o separador de hora. O separador de hora separa as horas, os minutos e os segundos quando os valores das horas são formatados. O caráter real utilizado como separador de hora na saída formatada é determinado pelas definições do sistema. |
 | ( **/** ) | Separador de data. Em certas regiões, podem ser utilizados outros carateres para representar o separador de data. O separador de data separa o dia, o mês e o ano quando os valores de data são formatados. O caráter real utilizado como separador de data na saída formatada é determinado pelas definições do sistema. |
 | ( **E- E+ e- e+** ) | Formato científico. Se a expressão de formato contiver pelo menos um marcador de posição de dígito (**0** ou **#** ) à direita de E-, E+, e- ou e+, o número será apresentado no formato científico e será introduzido E ou e entre o número e o expoente. O número de marcadores de posição de dígitos à direita determina o número de dígitos no expoente. Utilize E- ou e- para colocar um sinal de menos junto dos expoentes negativos. Utilize E+ ou e+ para colocar um sinal de menos junto dos expoentes negativos e um sinal de mais junto dos expoentes positivos. |
-| **- + $**  ( ) | Apresenta um caráter literal. Para apresentar um caráter diferente de um daqueles listados, preceda-o por uma barra invertida (\) ou coloque-o entre aspas duplas (&quot; &quot;). |
+| **- + $**  ( ) | Apresenta um caráter literal. Para apresentar um caráter diferente de um dos carateres listados, preceda-o de uma barra invertida (\) ou coloque-o entre aspas duplas (&quot; &quot;). |
 | ( * *\** ) | Apresenta o próximo caráter na cadeia de formato. Para apresentar um caráter que tenha um significado especial como um caráter literal, preceda-o por uma barra invertida (\). A própria barra invertida não é apresentada. Utilizar uma barra invertida é o mesmo que colocar o próximo caráter entre aspas duplas. Para apresentar uma barra invertida, utilize duas barras invertidas (\\). Exemplos de carateres que não podem ser apresentados como carateres literais são os carateres de formatação de data e hora (a, c, d, h, m, n, p, q, s, t, w, / e :), os carateres de formatação numérica (#, 0, %, E, e, vírgula e ponto) e os carateres de formatação de cadeia (@, &amp;, \&lt;, \&gt; e !). |
 | (&quot;ABC&quot;) | Apresenta a cadeia de carateres entre aspas duplas (&quot; &quot;). |
 

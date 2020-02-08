@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858956"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975016"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Criar um relatório do Power BI para o Power BI Report Server
 Pode armazenar e gerir relatórios do Power BI no local no portal Web do Power BI Report Server, tal como pode armazenar relatórios do Power BI na cloud no serviço Power BI (https://powerbi.com). Pode criar e editar relatórios no Power BI Desktop e publicá-los no portal Web. Depois, os leitores de relatórios na sua organização podem visualizá-los num browser ou numa aplicação móvel do Power BI, num dispositivo móvel.
@@ -81,7 +81,7 @@ Por exemplo, pode criar um gráfico de funil com clientes e agrupar os valores p
 
 Saiba mais sobre [estruturar um relatório do Power BI](../desktop-report-view.md).
 
-## <a name="step-4-save-your-report-to-the-report-server"></a>Passo 4: Guardar o relatório no servidor de relatórios
+## <a name="step-4-save-your-report-to-the-report-server"></a>Step 4: Guardar o relatório no servidor de relatórios
 Quando o seu relatório estiver pronto, deve guardá-lo no Power BI Report Server que selecionou no passo 2.
 
 1. No menu **Ficheiro**, selecione **Guardar como** > **Power BI Report Server**.
@@ -90,6 +90,9 @@ Quando o seu relatório estiver pronto, deve guardá-lo no Power BI Report Serve
 2. Agora, pode vê-lo no portal Web.
    
     ![Ver o relatório no portal Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Se optar por editar o relatório no futuro, os dados do relatório que vê no ambiente de trabalho serão sempre os dados em cache do momento em que o relatório foi inicialmente criado.  Para ver os dados mais recentes ao editar o relatório, tem de atualizar os dados na sua aplicação Power BI Desktop.
 
 ## <a name="next-steps"></a>Próximos passos
 ### <a name="power-bi-desktop"></a>Power BI Desktop

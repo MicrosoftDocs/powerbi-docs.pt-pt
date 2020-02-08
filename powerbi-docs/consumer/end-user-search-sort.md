@@ -1,66 +1,57 @@
 ---
-title: Procurar e ordenar os seus conteúdos no serviço Power BI
-description: documentação para procurar e ordenar conteúdos nas minhas áreas de trabalho do Power BI
+title: Pesquisar e localizar o conteúdo
+description: documentação para pesquisar, localizar e navegar no conteúdo no serviço Power BI
 author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861742"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889148"
 ---
-# <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisar, localizar e ordenar conteúdo no serviço Power BI
+# <a name="navigation-for-power-bi-consumers-sorting-content"></a>Navegação para consumidores Power BI: ordenar conteúdo
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Existem muitas formas de navegar até aos seus conteúdos no serviço Power BI. Os conteúdos estão organizados por tipos na área de trabalho: dashboards e relatórios.  O conteúdo também está organizado por utilização: favoritos, recentes, aplicações, partilhados comigo e em destaque. Para uma navegação num só local, a *Home Page* do Power BI organiza todos os conteúdos numa única página. Estes diferentes caminhos nos conteúdos permitem-lhe localizar rapidamente o que precisa no serviço Power BI.  
 
-## <a name="navigation-within-workspaces"></a>Navegação nas áreas de trabalho
+Enquanto tiver pouca experiência no serviço Power BI, disporá apenas de poucos conteúdos (dashboards, relatórios, aplicações). Mas à medida que os colegas começam a partilhar conteúdos consigo e começa a transferir aplicações, poderá acabar por ter longas listas de conteúdos. É nesse momento que irá perceber como é útil pesquisar e ordenar.
 
-Os *consumidores* do Power BI normalmente têm apenas uma área de trabalho: **A minha área de trabalho**. **A minha área de trabalho** terá conteúdos se já tiver transferido exemplos da Microsoft, ou se já tiver criado ou transferido os seus próprios dashboards, relatórios ou aplicações.  
+## <a name="searching-for-content"></a>Pesquisar conteúdos
+ A pesquisa está disponível a partir de quase todas as partes do serviço Power BI. Basta procurar a caixa de pesquisa ou o ícone de pesquisa ![ícone de lupa](./media/end-user-search-sort/power-bi-search-icon.png).
 
-Dentro de **A minha área de trabalho**, o serviço Power BI separa os conteúdos por tipo: dashboards, relatórios, livros e conjuntos de dados. Verá esta organização quando seleciona uma área de trabalho. Neste exemplo, **A minha área de trabalho** contém um dashboard, um relatório, um conjunto de dados e nenhum livro.
+ No campo Pesquisa, escreva o nome completo ou parcial de um dashboard, relatório, livro, aplicação ou proprietário. O Power BI pesquisa em todo o seu conteúdos. 
 
-![vídeo](./media/end-user-search-sort/myworkspace/myworkspace.gif)
+ ![procurar um relatório](./media/end-user-search-sort/power-bi-search-field.png) 
 
-________________________________________
-## <a name="navigation-using-the-search-field"></a>Navegação com o Campo de pesquisa
-Utilize a vista de conteúdos **A minha área de trabalho** para pesquisar, filtrar e ordenar os seus conteúdos. No campo Procurar, escreva o nome completo ou parcial de um dashboard, relatório, livro ou de um proprietário.  
+ Em algumas áreas do Power BI, como áreas de trabalho, encontrará dois campos de pesquisa diferentes. O campo de pesquisa na barra de menu pesquisa todo o seu conteúdo enquanto o campo de pesquisa na tela de área de trabalho pesquisa apenas nessa área de trabalho.
 
-Se tiver poucos conteúdos, não é necessário procurar e ordenar.  Porém, quando tiver longas listas de dashboards e de relatórios, a função de procurar e ordenar será muito útil. Por exemplo, a lista de relatórios abaixo tem 83 itens. 
+ ![pesquisar numa área de trabalho](./media/end-user-search-sort/power-bi-search-fields.png) 
 
-![procurar um relatório](./media/end-user-experience/power-bi-search.png)
+## <a name="sorting-content-lists"></a>Ordenar listas de conteúdos
 
-Também pode ordenar o conteúdo por nome ou proprietário. Repare na seta para cima à direita de **Nome**. Estamos a ordenar 83 itens alfabeticamente pelo nome, na ordem ascendente. Para alterar a sequência de ordenação para descendente, selecione **Nome**. A seta para cima altera-se para uma seta para baixo.
+Se tiver poucos conteúdos, poderá não ser necessário ordenar.  Mas quando tiver longas listas de dashboards e relatórios, a ordenação vai ajudá-lo a encontrar o que precisa. Por exemplo, esta lista de conteúdo **Partilhado comigo** tem 63 itens. 
 
-![ordenar conteúdos](./media/end-user-experience/power-bi-sort-new.png)
+![Lista de conteúdo partilhado comigo](./media/end-user-search-sort/power-bi-long-lists.png)
+
+Neste momento, esta lista de conteúdo está ordenada por data, da mais recente à mais antiga. Para alterar os critérios de ordenação, selecione a seta à direita de **Data (Mais recente)** .
+
+![Menu pendente de ordenação](./media/end-user-search-sort/power-bi-sort-date.png)
+
+
+A ordenação também está disponível nas áreas de trabalho. Neste exemplo, o conteúdo é ordenado por data de **Atualização**. Para definir critérios de ordenação para as áreas de trabalho, selecione os cabeçalhos de coluna, selecione uma vez para selecionar esse cabeçalho e, em seguida, selecione novamente para alterar a direção da ordenação. 
+
+![procurar um relatório](./media/end-user-search-sort/power-bi-workspace-sort.png)
 
 Nem todas as colunas podem ser ordenadas. Paire o cursor sobre os cabeçalhos de coluna para descobrir quais podem ser ordenados.
-
-___________________________________________________________________
-## <a name="navigation-using-the-nav-pane"></a>Navegação com o painel de navegação
-O painel de navegação classifica os conteúdos de forma a ajudá-lo a encontrar rapidamente o que precisa.  
-
-![painel de navegação](./media/end-user-search-sort/power-bi-nav pane.png)
-
-
-- O conteúdo partilhado consigo está disponível em **Partilhado comigo**.
-- O último conteúdo visualizado está disponível em **Recente**. 
-- As suas aplicações podem ser encontradas ao selecionar **Aplicações**.
-- **Página Base** é uma vista de página única do conteúdo mais importante e de conteúdo sugerido e fontes de aprendizagem.
-
-Além disso, pode sinalizar conteúdo como [favorito](end-user-favorite.md) e [em destaque](end-user-featured.md). Escolha o dashboard ou o relatório que espera ver com mais frequência e defina-o como o conteúdo *em destaque*. Sempre que abrir o serviço Power BI, o dashboard em destaque será apresentado primeiro. Tem vários dashboards e aplicações que visita mais frequentemente? Se os definir como favoritos, estarão sempre disponíveis no painel de navegação.
-
-![Lista de opções Favoritos](./media/end-user-search-sort/power-bi-favorite.png).
-
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas

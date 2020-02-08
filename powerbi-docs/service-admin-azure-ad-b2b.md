@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223898"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026652"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir conteúdos do Power BI para utilizadores convidados externos com o Azure AD B2B
 
@@ -24,9 +24,12 @@ Este artigo fornece uma introdução básica ao Azure AD B2B no Power BI. Para o
 
 ## <a name="enable-access"></a>Ativar acesso
 
-Assegure-se de que ativa a funcionalidade [Partilhar conteúdo com utilizadores externos](service-admin-portal.md#export-and-sharing-settings) no portal de administração do Power BI antes de enviar convites para utilizadores.
+Assegure-se de que ativa a funcionalidade [Partilhar conteúdo com utilizadores externos](service-admin-portal.md#export-and-sharing-settings) no portal de administração do Power BI antes de enviar convites para utilizadores. Mesmo com esta opção ativada, o utilizador deve ter permissão no Azure Ative Directory para convidar utilizadores convidados, o que pode ser concedido através da função Emitente de Convites. 
 
 Também pode utilizar a funcionalidade [Permitir aos utilizadores externos convidados editarem e gerirem conteúdo na organização](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Permite-lhe selecionar que utilizador convidado poderá ver e criar conteúdo em áreas de trabalho, incluindo navegar no Power BI da sua organização.
+
+> [!NOTE]
+> A definição [Partilhar conteúdo com utilizadores externos](service-admin-portal.md#export-and-sharing-settings) controla se os utilizadores externos podem ser convidados para a sua organização através do Power BI. Quando um utilizador externo aceita o convite, torna-se num utilizador convidado do Azure AD B2B na sua organização. Os utilizadores externos aparecem nos seletores de pessoas na experiência do Power BI. Quando a definição está desativada, os utilizadores convidados existentes na sua organização continuam a ter acesso a todos os itens aos quais já tinham acesso e continuam a ser listados nas experiências dos seletores de pessoas. Além disso, se os convidados forem adicionados através da abordagem de convite planeado, também aparecerão nos seletores de pessoas. Para evitar que os utilizadores convidados acedam ao Power BI, pode utilizar uma política de acesso condicional do Azure AD.
 
 ## <a name="who-can-you-invite"></a>Quem pode convidar?
 
@@ -37,6 +40,12 @@ Não pode convidar utilizadores associados a uma cloud governamental, como o [Po
 ## <a name="invite-guest-users"></a>Convidar utilizadores
 
 Os utilizadores convidados precisam de convites apenas da primeira vez que são convidados para a sua organização. Existem duas formas de convidar utilizadores: convites planeados e convites ad hoc.
+
+Pode convidar utilizadores convidados através das seguintes capacidades do Power BI:
+* Partilha de Relatório e Dashboard
+* Lista de acesso da aplicação
+
+Se precisar de adicionar utilizadores externos a uma área de trabalho da qual ainda não sejam convidados no Azure AD, poderá utilizar a abordagem de convites planeados sugerida abaixo. 
 
 ### <a name="planned-invites"></a>Convites planeados
 
@@ -73,6 +82,7 @@ O utilizador convidado irá receber um e-mail a indicar que partilhou a aplicaç
 ![Captura de ecrã do E-mail a indicar a partilha da aplicação com o utilizador convidado](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 O utilizador convidado terá de iniciar sessão com o respetivo endereço de e-mail da organização. Ser-lhe-á pedido que aceite o convite após iniciar sessão. Após iniciar sessão, a aplicação abre para o utilizador convidado. Para regressar à aplicação, o utilizador convidado adicionar a ligação aos marcadores ou guardar o e-mail.
+
 
 ## <a name="licensing"></a>Licensing
 
@@ -141,7 +151,10 @@ Para ajudar estes utilizadores a iniciar sessão no Power BI, forneça-lhes o UR
 
 * Existem Definições do Active Directory Domain Services que podem limitar as ações que os utilizadores externos convidados podem realizar em toda a sua organização. Tal também se aplica ao seu ambiente do Power BI. A seguinte documentação aborda as definições:
     * [Gerir Definições de Colaboração Externa](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-    * [Permitir ou bloquear convites para utilizadores B2B de organizações específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
+    * [Permitir ou bloquear convites para utilizadores B2B de organizações específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+    * [Permitir ou bloquear o acesso de utilizadores convidados ao serviço Power BI](/azure/active-directory/conditional-access/overview)
+    
+* A partilha fora da organização não é suportada pelas clouds nacionais. Em vez disso, crie contas de utilizador na sua organização que os utilizadores externos possam utilizar para aceder ao conteúdo. 
 
 ## <a name="next-steps"></a>Próximos passos
 

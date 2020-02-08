@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885311"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819589"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administrar o Power BI no portal de administração
 
@@ -203,11 +203,24 @@ A imagem seguinte mostra a mensagem que aparece quando partilha com um utilizado
 
 ### <a name="publish-to-web"></a>Publicar na Web
 
-Os utilizadores na organização podem publicar os relatórios na Web. [Saiba mais](service-publish-to-web.md)
+Os utilizadores na organização podem publicar os relatórios na Web. [Saiba mais](service-publish-to-web.md). A publicação disponibiliza o relatório e os dados que contém disponíveis a qualquer pessoa na Web.
+
+> [!NOTE]
+> O administrador do Power BI tem de permitir a criação de novos códigos de incorporação de publicação na Web. As organizações podem ter códigos de incorporação existentes. Utilize a página [Códigos de incorporação](service-admin-portal.md#embed-codes) para ver os relatórios atualmente publicados.
 
 A imagem seguinte mostra o menu **Ficheiro** de um relatório quando a definição **Publicar na Web** está ativada.
 
-![Definição Publicar na Web](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publicar na Web no menu de ficheiros](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+A definição **Publicar na Web** apresenta opções para definir quais os utilizadores que podem criar códigos de incorporação.
+
+![Definição Publicar na Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+É pedido aos utilizadores que contactem o administrador do Power BI para que permita a criação de um código de incorporação quando a opção **Escolher como os códigos de incorporação funcionam** está definida como **Permitir apenas códigos de incorporação existentes** e a definição **Publicar na web** está **Ativada**.
+
+![Pedido para publicar na Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 Os utilizadores veem opções diferentes na IU consoante a definição **Publicar na Web**.
 
@@ -449,7 +462,7 @@ Para obter mais informações sobre como gerir as definições do Power BI Embe
 
 ## <a name="embed-codes"></a>Códigos de incorporação
 
-Enquanto administrador, pode ver os códigos de incorporação gerados para o seu inquilino. Também pode revogar ou eliminar códigos. [Saiba mais](service-publish-to-web.md)
+Enquanto administrador, pode ver os códigos de incorporação gerados para o seu inquilino para partilhar relatórios publicamente. Também pode revogar ou eliminar códigos. [Saiba mais](service-publish-to-web.md)
 
 ![Códigos de incorporação no portal de administração do Power BI](media/service-admin-portal/embed-codes.png)
 

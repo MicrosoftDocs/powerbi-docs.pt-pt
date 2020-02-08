@@ -1,6 +1,6 @@
 ---
-title: Conformidade da Extensão de Composição de PDF com a ISO 14289-1 – Power BI Report Server
-description: Este documento descreve a conformidade da Extensão de Composição de PDF dos SQL Server Reporting Services e do Power BI Report com as especificações da ISO 14289-1 (PDF/UA).
+title: Conformidade da Extensão de Composição de PDF com a ISO 14289-1 – Power BI Report Server e SSRS
+description: Este documento descreve a conformidade da Extensão de Composição de PDF do Power BI Report Server e do SQL Server Reporting Services com as especificações da ISO 14289-1 (PDF/UA).
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638086"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819520"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>Conformidade da Extensão de Composição de PDF com a ISO 14289-1 – Power BI Report Server 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Conformidade da Extensão de Composição de PDF com a ISO 14289-1 – Power BI Report Server e SSRS
 
-Aplica-se a: Power BI Report Server e SQL Server Reporting Services
+Aplica-se a: Power BI Report Server e SQL Server Reporting Services (SSRS)
 
-Este documento descreve a conformidade da Extensão de Composição de PDF dos SQL Server Reporting Services e do Power BI Report com as especificações da [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
+Este documento descreve a conformidade da Extensão de Composição de PDF do Power BI Report Server e do SQL Server Reporting Services com as especificações da [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
 
 > [!NOTE]
 > Pode guardar ou imprimir este documento técnico ao selecionar **Imprimir** no seu browser e, em seguida, ao selecionar **Guardar como PDF**.

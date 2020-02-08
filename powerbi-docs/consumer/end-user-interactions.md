@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303832"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888506"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Forma como os elementos visuais efetuam a filtragem cruzada entre si num relatório do Power BI
 Um dos recursos incríveis do Power BI é a forma como estão interligados todos os elementos visuais numa página de relatório. Se selecionar um ponto de dados num dos elementos visuais, serão alterados todos os outros elementos visuais na página que contêm esses dados, com base nessa seleção. 
@@ -45,7 +45,8 @@ Vamos definir estes termos ao analisar as páginas de relatório abaixo. O gráf
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
-- Se o seu relatório tiver um elemento visual que suporte a [exploração](end-user-drill.md) por predefinição, a exploração de um elemento visual não tem impacto nos restantes elementos visuais na página de relatório.     
+- Se o seu relatório tiver um elemento visual que suporte a [exploração](end-user-drill.md) por predefinição, a exploração de um elemento visual não tem impacto nos restantes elementos visuais na página de relatório. No entanto, o *designer* de relatórios pode alterar este comportamento. Assim, verifique os elementos visuais desagregáveis para ver se **os outros elementos visuais dos filtros de desagregação** foram ativados pelo *designer* de relatórios.
+    
 - Os filtros de nível visual são mantidos quando se faz a filtragem cruzada e o realce cruzado de outros elementos visuais na página do relatório. Assim, se o Elemento Visual A tiver filtros de nível visual aplicados pelo designer de relatórios ou por si e utilizar o Elemento Visual A para interagir com o Elemento Visual B, serão aplicados filtros de nível visual do Elemento Visual A ao Elemento Visual B.
 
     ![Página de relatório depois de o segmento Moderação do gráfico em anel ser selecionado](media/end-user-interactions/power-bi-visual-filters.png)

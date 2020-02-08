@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699106"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
@@ -27,7 +27,7 @@ Este artigo mostra como configurar o conjunto de dados de transmissão em fluxo 
 Existem três tipos de conjunto de dados em tempo real concebidos para serem apresentados em dashboards em tempo real:
 
 * Conjunto de dados push
-* Conjunto de dados de transmissão em fluxo
+* Conjunto de dados de transmissão
 * Conjunto de dados de transmissão em fluxo PubNub
 
 Primeiro, vamos compreender as diferenças que distinguem estes conjuntos de dados entre si (esta secção) e, em seguida, vamos debater como emitir dados via push para cada um destes conjuntos de dados.
@@ -39,7 +39,7 @@ Assim que um relatório começa a ser criado com o conjunto de dados push, é po
 
 Existem dois factos a ter em atenção no que diz respeito a mosaicos afixados a partir de um conjunto de dados push:
 
-* A afixação de um relatório completo com a opção *Afixar página dinâmica* **não** resulta na atualização automática dos dados.
+* A afixação de um relatório completo com a opção *Afixar página dinâmica***não** resulta na atualização automática dos dados.
 * Depois de um elemento visual ser afixado a um dashboard, pode utilizar a opção **Perguntas e Respostas** para fazer perguntas ao conjunto de dados push em linguagem natural. Após efetuar uma consulta **Perguntas e Respostas**, pode voltar a afixar o elemento visual resultante no dashboard; deste modo, este dashboard *também* será atualizado em tempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de dados de transmissão
@@ -82,7 +82,7 @@ Vamos abordar cada uma dessas abordagens caso a caso.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Utilizar as APIs REST do Power BI para emitir dados via push
 As **APIs REST do Power BI** podem ser utilizadas para criar e enviar dados para conjuntos de dados **push**, bem como para conjuntos de dados de **transmissão em fluxo**. Quando cria um conjunto de dados com as APIs REST do Power BI, o sinalizador *defaultMode* especifica se o conjunto de dados é do tipo push ou transmissão em fluxo. Se o sinalizador *defaultMode* não estiver definido, por predefinição, o conjunto de dados assume o tipo de conjunto de dados **push**.
 
-Se o valor *defaultMode* estiver definido como *pushStreaming*, o conjunto de dados é simultaneamente um conjunto de dados **push** *e* de **transmissão em fluxo**, proporcionando os benefícios inerentes a ambos os tipos de conjunto de dados. 
+Se o valor *defaultMode* estiver definido como *pushStreaming*, o conjunto de dados é simultaneamente um conjunto de dados **push** *e* de **transmissão em fluxo**. Desta forma, proporciona as vantagens inerentes a ambos os tipos de conjunto de dados. 
 
 > [!NOTE]
 > Quando utiliza conjuntos de dados com o sinalizador *defaultMode* definido como *pushStreaming*, se um pedido exceder a restrição de tamanho de 15 KB para um conjunto de dados de **transmissão em fluxo**, mas for inferior à restrição de tamanho de 16 MB de um conjunto de dados **push**, o pedido será bem-sucedido e os dados serão atualizados no conjunto de dados push. No entanto, os mosaicos de transmissão em fluxo irão falhar temporariamente.

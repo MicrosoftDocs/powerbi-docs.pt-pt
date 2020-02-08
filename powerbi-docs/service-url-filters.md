@@ -8,18 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836708"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913554"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
-Quando abrir um relatório no serviço Power BI, cada página do relatório tem um URL exclusivo. Para filtrar essa página de relatório, pode utilizar o painel Filtros na tela de relatório.  Também pode adicionar parâmetros de cadeia de consulta ao URL para pré-filtrar o relatório. Pode ter um relatório que pretenda mostrar aos colegas e preenchê-lo previamente para os mesmos. Uma forma de filtrar é começar pelo URL predefinido do relatório, adicionar os parâmetros do filtro ao URL e, em seguida, enviar-lhes todo o novo URL por e-mail.
+Quando abrir um relatório no serviço Power BI, cada página do relatório tem um URL exclusivo. Para filtrar essa página de relatório, pode utilizar o painel Filtros na tela de relatório.  Também pode adicionar parâmetros de cadeia de consulta ao URL para pré-filtrar o relatório. Pode ter um relatório que pretenda mostrar aos colegas e pré-preenchê-lo para os mesmos. Uma forma de filtrar é começar pelo URL predefinido do relatório, adicionar os parâmetros do filtro ao URL e, em seguida, enviar-lhes todo o novo URL por e-mail.
 
 ![relatório do Power BI no serviço](media/service-url-filters/power-bi-report2.png)
 
@@ -33,7 +33,7 @@ Outra utilização dos parâmetros de cadeia de consulta é a criação de uma s
 
 Com os parâmetros, pode filtrar o relatório para um ou mais valores, mesmo que estes contenham espaços ou carateres especiais. A sintaxe básica é relativamente simples. Comece pelo URL do relatório, adicione um ponto de interrogação e, em seguida, adicione a sua sintaxe de filtro.
 
-URL?filter=***Tabela***/***Campo*** eq '***valor***'
+*URL*?filter=*Table*/*Field* eq '*value*'
 
 ![URL com um filtro](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ O nosso relatório está filtrado para a Carolina do Norte. Todas as visualizaç
 
 ![Relatório filtrado para a Carolina do Norte](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>Filtrar em mais de um valor num campo
+
+Para filtrar em mais de um valor num único campo, deve utilizar o operador **in** em vez do operador **and**. A sintaxe é:
+
+*URL*?filter=*Table*/*Field* **in** ('*value1*', '*value2*')
+
+Com o mesmo exemplo, para filtrar o relatório de forma a mostrar dados apenas para lojas na Carolina do Norte (“NC”) ou no Tennessee (“TN”), anexe o seguinte ao URL;
+
+?filter=Store/Territory in ('NC', 'TN')
+
+Veja a tabela de [Operadores](#operators) neste artigo para obter uma lista de outros operadores úteis.
+
 ## <a name="filter-on-multiple-fields"></a>Filtrar em múltiplos campos
 
 Pode também filtrar em múltiplos campos ao adicionar mais parâmetros ao seu URL. Voltemos ao nosso parâmetro de filtro original.
@@ -97,8 +109,6 @@ Para filtrar em campos adicionais, adicione um "**and**" e outro campo no mesmo 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>Operadores
 

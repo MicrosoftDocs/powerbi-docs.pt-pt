@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831303"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889380"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -67,7 +67,7 @@ A carga de trabalho dos conjuntos de dados está ativada por predefinição e n�
 | **Contagem Máxima do Conjunto de Linhas Intermediárias** | O número máximo de linhas intermediárias devolvido pelo DirectQuery. O valor predefinido é 1000000 e o intervalo de valores permitido é entre 100000 e 2147483647. |
 | **Tamanho Máximo do Conjunto de Dados Offline (GB)** | O tamanho máximo do conjunto de dados offline na memória. Este valor corresponde ao tamanho comprimido em disco. O valor predefinido é determinado pelo SKU e o intervalo permitido é entre 0,1 e 10 GB. |
 | **Contagem Máxima do Conjunto de Linhas de Resultados** | O número máximo de linhas devolvido numa consulta DAX. O valor predefinido é -1 (sem limite) e o intervalo de valores permitido é entre 100000 e 2147483647. |
-| **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível que pode ser utilizada para obter resultados temporários numa consulta ou medida DAX. |
+| **Limite de Memória de Consulta (%)** | A percentagem máxima de memória disponível na carga de trabalho que pode ser utilizada para executar uma consulta MDX ou DAX. |
 | **Tempo Limite de Consulta (segundos)** | O limite máximo de tempo de uma consulta. A predefinição é 3600 segundos (1 hora). O valor 0 especifica que as consultas não irão exceder o limite de tempo. |
 | **Atualização automática de página (pré-visualização)** | Ative e desative esta definição para as áreas de trabalho premium terem relatórios com atualização automática de página. |
 | **Intervalo de atualização mínimo** | Se a atualização automática de página estiver ativada, deverá definir o intervalo mínimo permitido para o intervalo de atualização da página. O valor predefinido são cinco minutos e o mínimo permitido é um segundo. |
@@ -99,11 +99,17 @@ Tenha em atenção que esta definição apenas afeta as consultas do DAX, enquan
 
 Utilize esta definição para controlar o impacto de relatórios mal concebidos ou que exijam bastantes recursos. Alguns cálculos e consultas podem devolver resultados intermediários que utilizam muita memória na capacidade. Esta situação pode fazer com que a execução de outras consultas seja muito lenta, provocar a expulsão de outros conjuntos de dados da capacidade e causar erros fora da memória para outros utilizadores da capacidade.
 
-Esta definição aplica-se à atualização de dados e à composição de relatório. A atualização de dados consiste na atualização de dados da origem de dados e na atualização de consultas, a menos que esta esteja desativada. Se a atualização de consultas estiver desativada, este limite de memória também se aplica a estas consultas. As consultas que falham fazem com que o estado de atualização agendada também indique a ocorrência de uma falha, mesmo que a atualização de dados tenha sido efetuada com êxito.
+Esta definição aplica-se a todas as consultas DAX e MDX que são executadas pelos relatórios do Power BI, pelos relatórios Analisar no Excel, e por outras ferramentas que possam ligar-se através do ponto final de XMLA.
+
+Tenha em atenção que as operações de atualização dos dados também podem executar consultas DAX como parte da atualização dos mosaicos do dashboard e das caches dos elementos visuais após os dados no conjunto de dados terem sido atualizados. Estas consultas também poderão falhar devido a esta definição, o que pode levar a que a operação de atualização dos dados seja apresentada num estado com falhas, mesmo que os dados no conjunto de dados tenham sido atualizados com êxito.
 
 #### <a name="query-timeout"></a>Tempo Limite de Consulta
 
-Utilize esta definição para controlar melhor as consultas de execução longa, que podem fazer com que o carregamento dos relatórios para os utilizadores seja lento. Esta definição aplica-se à atualização de dados e à composição de relatório. A atualização de dados consiste na atualização de dados da origem de dados e na atualização de consultas, a menos que esta esteja desativada. Se a atualização de consultas estiver desativada, este tempo limite também se aplica a estas consultas.
+Utilize esta definição para controlar melhor as consultas de execução longa, que podem fazer com que o carregamento dos relatórios para os utilizadores seja lento.
+
+Esta definição aplica-se a todas as consultas DAX e MDX que são executadas pelos relatórios do Power BI, pelos relatórios Analisar no Excel, e por outras ferramentas que possam ligar-se através do ponto final de XMLA.
+
+Tenha em atenção que as operações de atualização dos dados também podem executar consultas DAX como parte da atualização dos mosaicos do dashboard e das caches dos elementos visuais após os dados no conjunto de dados terem sido atualizados. Estas consultas também poderão falhar devido a esta definição, o que pode levar a que a operação de atualização dos dados seja apresentada num estado com falhas, mesmo que os dados no conjunto de dados tenham sido atualizados com êxito.
 
 Esta definição aplica-se a uma consulta única e não ao tempo que demora a executar todas as consultas associadas à atualização de um conjunto de dados ou relatório. Considere o exemplo seguinte:
 
@@ -144,7 +150,7 @@ Para tirar partido do novo motor de computação, divida a ingestão de dados em
 
 #### <a name="container-size"></a>Tamanho do contentor
 
-Ao atualizar um fluxo de dados, a carga de trabalho Fluxo de dados gera um contentor para cada entidade no fluxo de dados. Cada contentor pode ocupar memória até ao volume especificado na definição **Tamanho do Contentor. A predefinição para todos os SKUs é 700 MB. É aconselhável alterar esta definição se:
+Ao atualizar um fluxo de dados, a carga de trabalho Fluxo de dados gera um contentor para cada entidade no fluxo de dados. Cada contentor pode ocupar memória até ao volume especificado na definição Tamanho do Contentor. A predefinição para todos os SKUs é 700 MB. É aconselhável alterar esta definição se:
 
 - Os fluxos de dados demorarem muito tempo a atualizarem ou se a atualização do fluxo de dados falhar e atingir o tempo limite.
 - As entidades do fluxo de dados incluírem passos de computação, por exemplo, uma associação.  

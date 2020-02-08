@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865764"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889311"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Resolução de Problemas de Analyze Excel
 
@@ -84,7 +84,7 @@ Se receber um erro de **token expirado**, significa que não utilizou recentemen
 Se estiver a tentar aceder a um conjunto de dados que tem ligações a dados do Analysis Services no local, poderá receber uma mensagem de erro. A funcionalidade **Analyze in Excel** suporta a ligação a conjuntos de dados e relatórios do **Analysis Services** no local com uma cadeia de ligação, desde que o seu computador esteja no mesmo domínio que o servidor do **Analysis Services** e a sua conta tenha acesso ao servidor do **Analysis Services**.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>Não pode arrastar nada para a área de Valores de Tabela Dinâmica (sem medidas)
-Quando a funcionalidade **Analyze in Excel** se ligar a um modelo OLAP externo (que é a forma como o Excel se liga ao Power BI), a *Tabela Dinâmica* [precisa que as **medidas** sejam definidas no modelo externo](https://support.microsoft.com/kb/234700), uma vez que todos os cálculos são realizados no servidor. Isto é diferente de quando trabalha com uma origem de dados local (como tabelas no Excel ou quando está a trabalhar com conjuntos de dados no **Power BI Desktop** ou no **serviço Power BI**), caso em que o modelo tabular está disponível localmente, e [pode utilizar medidas implícitas](https://msdn.microsoft.com/library/gg399077.aspx), que são medidas que são geradas dinamicamente e não são armazenadas no modelo de dados. Nestes casos, o comportamento no Excel é diferente do comportamento no **Power BI Desktop** ou no **serviço Power BI**: poderão existir colunas nos dados que podem ser tratados como medidas no Power BI, mas não podem ser utilizadas como valores (medidas) no Excel.
+Quando a funcionalidade **Analisar no Excel** se ligar a um modelo OLAP externo (que é a forma como o Excel se liga ao Power BI), a *Tabela Dinâmica* [precisará que as **medidas** sejam definidas no modelo externo](https://support.microsoft.com/kb/234700), uma vez que todos os cálculos são realizados no servidor. Isto é diferente de quando trabalha com uma origem de dados local (como tabelas no Excel ou quando está a trabalhar com conjuntos de dados no **Power BI Desktop** ou no **serviço Power BI**), caso em que o modelo tabular está disponível localmente, e [pode utilizar medidas implícitas](https://msdn.microsoft.com/library/gg399077.aspx), que são medidas que são geradas dinamicamente e não são armazenadas no modelo de dados. Nestes casos, o comportamento no Excel é diferente do comportamento no **Power BI Desktop** ou no **serviço Power BI**: poderão existir colunas nos dados que podem ser tratados como medidas no Power BI, mas não podem ser utilizadas como valores (medidas) no Excel.
 
 Para resolver este problema, tem algumas opções:
 
@@ -94,7 +94,7 @@ Para resolver este problema, tem algumas opções:
 
 Assim que as medidas estiverem definidas no modelo do serviço Power BI, poderá utilizá-las na área **Valores** nas tabelas dinâmicas do Excel.
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Analyze in Excel](service-analyze-in-excel.md)
 
 [Tutorial: Criar as suas próprias medidas no Power BI Desktop](desktop-tutorial-create-measures.md)
@@ -105,5 +105,4 @@ Assim que as medidas estiverem definidas no modelo do serviço Power BI, poderá
 
 [Adicionar dados de folha de cálculo a um Modelo de Dados através de uma tabela ligada](https://support.office.com/article/Add-worksheet-data-to-a-Data-Model-using-a-linked-table-d3665fc3-99b0-479d-ba09-a37640f5be42)
 
-[Diferenças entre tabelas dinâmicas OLAP e não OLAP no Excel](https://support.microsoft.com/kb/234700)
 

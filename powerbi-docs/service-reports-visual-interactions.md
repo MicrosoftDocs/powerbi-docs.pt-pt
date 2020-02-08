@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011080"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894729"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Alterar a forma como os elementos visuais interagem num relatório do Power BI
 Se tiver permissões de edição para um relatório, pode utilizar as **interações visuais** para alterar a forma como as visualizações têm impacto umas nas outras numa página de relatório. 
@@ -52,7 +52,7 @@ Se tiver permissões de edição num relatório, poderá ativar os controlos de 
 
         ![Menu pendente Interações visuais](media/service-reports-visual-interactions/power-bi-service.png)
 
-3. Para visualizar os controlos de interação de visualizações, selecione **Editar interações**. O Power BI adiciona ícones de filtragem e realce a todas as outras visualizações na página de relatório. Agora, pode alterar a forma como a visualização selecionada interage com as outras visualizações na página de relatório.
+3. Para visualizar os controlos de interação de visualizações, selecione **Editar interações**. O Power BI adiciona ícones de filtragem e realce a todas as outras visualizações na página de relatório. Podemos ver que o mapa de árvore está a realizar uma filtragem cruzada do gráfico de linhas e do mapa e está a realizar um realce cruzado do gráfico de colunas. Agora, pode alterar a forma como a visualização selecionada interage com as outras visualizações na página de relatório.
    
     ![relatório com a opção Interações visuais ativada](media/service-reports-visual-interactions/power-bi-turn-on.png)
 
@@ -61,25 +61,32 @@ Se tiver permissões de edição num relatório, poderá ativar os controlos de 
 Familiarize-se com a forma como as visualizações interagem ao selecionar cada visualização na página de relatório, uma de cada vez.  Selecione um ponto de dados, uma barra ou uma forma e observe o impacto nas outras visualizações. Se o comportamento que vê não é o pretendido, poderá alterar as interações. Estas alterações são guardadas com o relatório, pelo que o utilizador e os consumidores do relatório terão a mesma experiência de interação visual.
 
 
-Determine o impacto que a **visualização selecionada** deve ter nas outras visualizações.  Opcionalmente, repita para todas as outras visualizações na página do relatório.
+Comece por selecionar uma visualização para a ativar.  Tenha em atenção que todas as outras visualizações na página agora apresentam ícones de interação. O ícone a negrito é o que está a ser aplicado. Em seguida, determine o impacto que gostaria que a **visualização selecionada** tenha nas outras.  Opcionalmente, repita para todas as outras visualizações na página do relatório.
+
+Se a visualização selecionada:
    
-   * Se quiser executar o filtro cruzado na visualização, selecione o ícone de **filtragem** ![ícone de filtragem](media/service-reports-visual-interactions/power-bi-filter-icon.png).
-   * Se quiser executar o realce cruzado na visualização, selecione o ícone de **realce** ![ícone de realce](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
-   * Se não quiser que tenha impacto, selecione o **ícone** sem impacto ![ícone sem impacto](media/service-reports-visual-interactions/power-bi-no-impact.png).
+   * realizar a filtragem cruzada numa das outras visualizações na página, selecione o ícone de **filtro** no canto superior direito da visualização ![ícone de filtro](media/service-reports-visual-interactions/power-bi-filter-icon.png).
+   * realizar o realce cruzado numa das outras visualizações na página, selecione o ícone **realçar** ![ícone realçar](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
+   * não tiver impacto numa das outras visualizações na página, selecione o ícone **sem impacto** ![ícone sem impacto](media/service-reports-visual-interactions/power-bi-no-impact.png).
 
 ## <a name="change-the-interactions-of-drillable-visualizations"></a>Alterar as interações das visualizações desagregáveis
 [Algumas visualizações de Power BI podem ser desagregadas](consumer/end-user-drill.md). Por predefinição, quando desagrega uma visualização, tal não tem impacto sobre as outras visualizações na página de relatório. No entanto, esse comportamento pode ser alterado. 
-
-1. Selecione o elemento visual desagregável para o ativar. 
 
 > [!TIP]
 > Experimente utilizar o [ficheiro PBIX de amostra dos Recursos Humanos](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix). Existe um gráfico de colunas com uma desagregação no separador **Novas contratações**.
 >
 
+1. Selecione o elemento visual desagregável para o ativar. 
+
+2. Ative a desagregação ao selecionar o ícone de desagregação.
+
+    ![ativar a desagregação](media/service-reports-visual-interactions/power-bi-drill-down.png)
 
 2. Na barra de menus, selecione **Formato** > **Filtros de desagregação de outros elementos visuais**.  Agora, quando agregar ou desagregar numa visualização, as outras visualizações na página de relatório são alteradas para refletir a seleção de exploração atual. 
 
-    ![ativar os filtros de desagregação de outros elementos visuais](media/service-reports-visual-interactions/power-bi-drill.png).
+    ![ativar os filtros de desagregação de outros elementos visuais](media/service-reports-visual-interactions/power-bi-drill.png)
+
+3. Se o comportamento que vê não for o desejado, poderá alterar as interações [conforme descrito acima](#change-the-interaction-behavior).
     
 ## <a name="next-steps"></a>Próximos passos
 [Filtros e realces em relatórios do Power BI](power-bi-reports-filters-and-highlighting.md)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.date: 01/30/2020
+ms.openlocfilehash: 17d5661cf68b3a79598dc370ecff17c1c438fc8e
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304344"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895103"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origens de dados suportadas para relatórios paginados do Power BI
 
@@ -27,7 +27,7 @@ Os relatórios paginados suportam nativamente a seguinte lista de origens de dad
 | --- | --- | --- |
 | Base de Dados SQL do Azure <br>Azure SQL Data Warehouse | Básico, início de sessão único (SSO), OAuth2 |   |
 | Instância Gerida do SQL do Azure | Básico | Através de Ponto Final Público com a Extensão Base de Dados SQL do Azure  |
-| Azure Analysis Services | SSO, OAuth2 |   |
+| Azure Analysis Services | SSO, OAuth2 | A firewall AAS deve ser desativada ou configurada para permitir todos os intervalos de IP  |
 | Conjunto de dados do Power BI | SSO | Conjuntos de dados do Power BI Premium e não Premium Requer permissão de leitura |
 | Conjunto de dados do Power BI Premium (XMLA) | SSO |   |
 | Introduzir Dados | N/D | Os dados são incorporados no relatório. |

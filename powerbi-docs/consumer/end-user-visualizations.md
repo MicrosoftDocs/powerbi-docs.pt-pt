@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860968"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888530"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com elementos visuais em relatórios, dashboards e aplicações
 
@@ -37,7 +37,7 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 
 
 > [!IMPORTANT]
-> Mas antes de tudo, uma palavra sobre as perguntas e respostas. As perguntas e respostas são a ferramenta de pesquisa de linguagem natural do Power BI. Escreva uma pergunta usando uma linguagem natural e a funcionalidade de Perguntas e Respostas responde à pergunta através de um elemento visual. A funcionalidade de Perguntas e Respostas é uma forma de os consumidores poderem criar os seus próprios elementos visuais. No entanto, não é possível guardar os elementos visuais que criar com as Perguntas e Respostas. No entanto, se houver algo específico que pretende saber a partir dos dados e o estruturador não o tiver incluído num relatório ou dashboard, as perguntas e respostas serão uma ótima opção. Para saber mais sobre as perguntas e respostas, veja [Perguntas e respostas para os consumidores](end-user-q-and-a.md).
+> Mas antes de tudo, uma palavra sobre as perguntas e respostas. As perguntas e respostas são a ferramenta de pesquisa de linguagem natural do Power BI. Escreva uma pergunta usando uma linguagem natural e a funcionalidade de Perguntas e Respostas responde à pergunta através de um elemento visual. A funcionalidade Perguntas e Respostas é uma forma de os consumidores poderem criar os seus próprios elementos visuais sem perder tempo. No entanto, não é possível guardar os elementos visuais que criar com as Perguntas e Respostas. No entanto, se houver algo específico que pretende saber a partir dos dados e o estruturador não o tiver incluído num relatório ou dashboard, as perguntas e respostas serão uma ótima opção. Para saber mais sobre as perguntas e respostas, veja [Perguntas e respostas para os consumidores](end-user-q-and-a.md).
 
 
 
@@ -45,13 +45,13 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 |---------|---------|---------|--------|
 |[Adicionar comentários a um elemento visual ou iniciar uma conversa com os colegas sobre o elemento visual](end-user-comment.md).     |  sim       |   sim      |  não  |
 |[Abrir e explorar o relatório em que o elemento visual foi criado](end-user-tiles.md).     |    sim     |   na      |  não |
-|[Ver uma lista dos filtros e segmentações de dados que afetam o elemento visual](end-user-report-filter.md).     |    não     |   sim      |  sim |
+|[Ver uma lista dos filtros e segmentações de dados que afetam o elemento visual](end-user-report-filter.md).     |    se abrir no modo de detalhe     |   sim      |  não |
 |[Abrir e explorar um elemento visual nas Perguntas e Respostas (se o *designer* tiver utilizado as Perguntas e Respostas para criar o elemento visual)](end-user-q-and-a.md).     |   sim      |   na      |  na  |
 |[Criar um elemento visual nas Perguntas e Respostas (não poderá guardá-lo para fins de exploração)](end-user-q-and-a.md).     |   sim      |   se o designer tiver adicionado as Perguntas e Respostas ao relatório      |  sim  |
-|[Pedir ao Power BI para procurar factos interessantes ou tendências](end-user-insights.md) nos dados do elemento visual.  Estes elementos visuais gerados automaticamente chamam-se *informações*.     |    sim     |  para todo o relatório, não por elemento visual       | não   |
-|[Ver apenas um elemento visual de cada vez, através do *modo* de detalhe](end-user-focus.md).     | sim        |   sim      | na  |
+|[Pedir ao Power BI para procurar factos interessantes ou tendências](end-user-insights.md) nos dados do elemento visual.  Estes elementos visuais gerados automaticamente chamam-se *informações*.     |    sim, para os mosaicos    |  não       | não   |
+|[Ver apenas um elemento visual de cada vez, através do *modo* de detalhe](end-user-focus.md).     | sim, para os mosaicos        |   sim, para os elementos visuais      | na  |
 |[Ver quando é que o elemento visual foi atualizado pela última vez](end-user-fresh.md).     |  sim       |    sim     | na  |
-|[Ver apenas um elemento visual de cada vez, sem limites ou painéis de navegação, através do modo de *ecrã inteiro* ou do modo de *detalhe*](end-user-focus.md).     |   sim      |  sim       | por predefinição  |
+|[Ver apenas um elemento visual de cada vez, sem limites nem painéis de navegação, através do modo de *ecrã inteiro*](end-user-focus.md).     |   sim      |  sim       | por predefinição  |
 |[Imprima](end-user-print.md).     |  sim       |   sim      | não  |
 |[Examinar o elemento visual ao adicionar e modificar os filtros.](end-user-report-filter.md)     |    não     |   sim      | não  |
 |Passar o cursor sobre um elemento visual para revelar outros detalhes e sugestões de ferramentas.     |    sim     |   sim      | sim  |
@@ -61,7 +61,7 @@ Para muitas destas opções, o seu administrador ou o *designer* pode desativar 
 | Adicionar um destaque ao elemento visual. | não  | sim  |  não |
 | [Exportar para o Excel.](end-user-export.md) | sim | sim | não|
 | [Criar um alerta](end-user-alerts.md) para notificá-lo quando um valor exceder um limiar definido.  | sim  | não  | não |
-| [Aplicar filtros cruzados e realces cruzados nos outros elementos visuais na página](end-user-report-filter.md).  | não      | sim  | não  |
+| [Aplicar filtros cruzados e realces cruzados nos outros elementos visuais na página](end-user-report-filter.md).  | não      | sim  | na |
 | [Explorar um elemento visual que tem uma hierarquia](end-user-drill.md).  | não  | sim   | não |
 
 ## <a name="next-steps"></a>Próximos passos

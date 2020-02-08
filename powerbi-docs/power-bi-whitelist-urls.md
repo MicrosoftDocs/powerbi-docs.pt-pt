@@ -1,26 +1,26 @@
 ---
 title: URLs do Power BI para adição à lista de permissões
-description: Este artigo descreve os pontos finais que os clientes do Power BI devem conseguir alcançar.
+description: Este artigo lista as portas e os pontos finais dos URLs para criar uma lista segura para conectividade com o Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698791"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894666"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URLs do Power BI para adição à lista de permissões
 
 **O serviço online do Power BI**, também denominado aplicação SaaS do Power BI (Software como um Serviço), necessita de conectividade à Internet. Os clientes que utilizam o serviço online do Power BI devem conseguir ligar aos pontos finais abaixo.
 
-Para utilizar o serviço online do Power BI, tem de ter acesso para se ligar aos pontos finais marcados como **obrigatório** nas tabelas abaixo e todos os pontos finais marcados como **obrigatório** nos sites ligados. Se a ligação para um site externo o direcionar para uma secção específica, só precisará de rever os pontos finais nessa secção.
+Para utilizar o serviço online do Power BI, tem de ser capaz de se ligar aos pontos finais marcados como **obrigatórios** nas tabelas abaixo e a todos os pontos finais marcados como **obrigatórios** nos sites ligados. Se a ligação para um site externo o direcionar para uma secção específica, só precisará de rever os pontos finais nessa secção.
 
 Os pontos finais marcados como **opcional** também podem ser **adicionados à lista de permissões** para que uma funcionalidade específica funcione.
 
@@ -46,16 +46,17 @@ Para a utilização geral do Power BI, tem de conseguir ligar-se aos pontos fina
 | Linha | Objetivo | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
 | 1 | **Obrigatório:** APIs de back-end | *.analysis.windows.net | TCP 443 |
-| 2 | **Obrigatório:** Integração do Office 365 | Veja a documentação do Office 365 para o [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
-| 3 | **Obrigatório:** Portal | app.powerbi.com | TCP 443 |
-| 4 | **Obrigatório:** Telemetria do serviço | dc.services.visualstudio.com | TCP 443 |
-| 5 | **Opcional:** Mensagens informativas | dynmsg.modpim.com | TCP 443 |
-| 6 | **Opcional:** Inquéritos do NPS | nps.onyx.azure.net | TCP 443 |
+| 2 | **Obrigatório:** APIs de back-end | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **Obrigatório:** Integração do Office 365 | Veja a documentação do Office 365 para o [Office Online e URLs comuns](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
+| 4 | **Obrigatório:** Portal | app.powerbi.com | TCP 443 |
+| 5 | **Obrigatório:** Telemetria do serviço | dc.services.visualstudio.com | TCP 443 |
+| 6 | **Opcional:** Mensagens informativas | dynmsg.modpim.com | TCP 443 |
+| 7 | **Opcional:** Inquéritos do NPS | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Administração
 
-Para efetuar funções administrativas no Power BI, tem de conseguir ligar-se aos pontos finais nos sites ligados abaixo.
+Para realizar funções administrativas no Power BI, tem de conseguir ligar-se aos pontos finais nos sites ligados abaixo.
 
 | Linha | Objetivo | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -77,7 +78,7 @@ Para obter dados de origens de dados específicas, como o OneDrive, tem de conse
 
 ## <a name="dashboard-and-report-integration"></a>Integração de dashboards e relatórios
 
-O Power BI depende de determinados pontos finais para suportar os seus dashboards e relatórios. Tem de conseguir ligar-se aos pontos finais na tabela e nos sites ligados abaixo.
+O Power BI depende de determinados pontos finais para suportar os seus dashboards e relatórios. Tem de conseguir ligar-se aos pontos finais na tabela e nos sites ligados abaixo.
 
 | Linha | Objetivo | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -86,7 +87,7 @@ O Power BI depende de determinados pontos finais para suportar os seus dashboard
 
 ## <a name="custom-visuals"></a>Elementos visuais personalizados
 
-O Power BI depende de determinados pontos finais para conseguir ver e aceder aos elementos visuais personalizados. Tem de conseguir ligar-se aos pontos finais na tabela e nos sites ligados abaixo.
+O Power BI depende de determinados pontos finais para ver e aceder aos elementos visuais personalizados. Tem de conseguir ligar-se aos pontos finais na tabela e nos sites ligados abaixo.
 
 | Linha | Objetivo | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ O Power BI depende de determinados pontos finais para conseguir ver e aceder aos
 
 ## <a name="related-external-sites"></a>Sites externos relacionados
 
-Ligações do Power BI para outros sites relacionados. Estes sites incluem páginas de documentação, suporte, novos pedidos de funcionalidade e mais. Estes sites não afetarão a funcionalidade do Power BI, pelo que podem ser opcionalmente adicionados à lista de permissões, se quiser.
+Ligações do Power BI para outros sites relacionados. Estes sites alojam a documentação, o suporte, os novos pedidos de funcionalidades e muito mais. O acesso a estes sites não afetará a funcionalidade do Power BI, pelo que a adição à lista de permissões é opcional.
 
 | Linha | Objetivo | Destino(s) | Porta(s) |
 | --- | --- | --- | --- |
@@ -107,7 +108,7 @@ Ligações do Power BI para outros sites relacionados. Estes sites incluem pági
 | 3 | **Opcional:** Site de Transferências (para o Power BI Desktop, etc.) | download.microsoft.com | TCP 443 |
 | 4 | **Opcional:** Redirecionamentos externos | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Opcional:** Site de feedback de ideias| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
-| 6 | **Opcional:** Site do Power BI – página de destino, ligações Saiba Mais, site de suporte, ligações para transferências, showcase de parceiros, etc. | powerbi.microsoft.com | TCP 443 |
-| 7 | **Opcional:** Centro para Programadores do Power BI | dev.powerbi.com | TCP 443 |
+| 6 | **Opcional:** Site do Power BI – página de destino, ligações para saber mais, site do suporte, ligações para transferências, demonstração de parceiros, etc. | powerbi.microsoft.com | TCP 443 |
+| 7 | **Opcional:** Centro para Programadores do Power BI | dev.powerbi.com | TCP 443 |
 | 8 | **Opcional:** Site de suporte | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

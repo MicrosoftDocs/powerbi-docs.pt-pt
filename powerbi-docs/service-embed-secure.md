@@ -1,20 +1,20 @@
 ---
 title: Incorporar um relatório num site ou portal seguro
 description: A funcionalidade de incorporação do Power BI permite que os utilizadores incorporem relatórios com facilidade e segurança em portais Web internos.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565744"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913592"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
@@ -129,7 +129,11 @@ Pode adicionar quantos botões quiser para criar uma experiência personalizada 
 
 * Nalguns browsers, terá de atualizar a página depois de iniciar sessão, especialmente nos modos InPrivate ou Incógnito.
 
-* Para obter uma experiência de início de sessão único, utilize a opção Incorporar no SharePoint Online ou crie uma integração personalizada através do método de incorporação [O utilizador detém os dados](developer/embed-sample-for-your-organization.md). 
+* Poderão ocorrer problemas se utilizar versões do browser não suportadas. O Power BI suporta [a seguinte lista de browsers](power-bi-browsers.md).
+
+* O SharePoint Server clássico não é suportado, dado que requer versões do Internet Explorer anteriores à 11 ou que permitam o modo da vista de compatibilidade.
+
+* Para obter uma experiência de início de sessão único, utilize a [opção Incorporar no SharePoint Online](service-embed-report-spo.md) ou crie uma integração personalizada através do método de incorporação de [o utilizador detém os dados](developer/embed-sample-for-your-organization.md). 
 
 * A capacidade de autenticação automática fornecida com a opção **Incorporar** não funciona com a API de JavaScript do Power BI. Para a API de JavaScript do Power BI, utilize o método de incorporação [O utilizador detém os dados](developer/embed-sample-for-your-organization.md). 
 

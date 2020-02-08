@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/30/2020
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099210"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888625"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Subscrever um relatório ou dashboard no serviço Power BI 
 
@@ -31,41 +31,43 @@ Quando receber o e-mail, verá que este inclui uma ligação para "ir para o rel
 
 
 ## <a name="requirements"></a>Requirements
-**Criar** uma subscrição para si próprio requer uma licença do Power BI Pro. Os utilizadores que visualizam o conteúdo numa área de trabalho ou aplicação Premium também poderão subscrever os conteúdos aí localizados, mesmo sem uma licença do Power BI Pro. A opção **Subscrever outros** só está disponível para o proprietário do dashboard. 
+**Criar** uma subscrição para si requer um certo tipo de licença. Se não conseguir criar uma subscrição, contacte o administrador do Power BI. **Subscrever outros** só está disponível para o proprietário do relatório ou do dashboard. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Subscrever um dashboard ou uma página de relatórios
 Quer esteja a subscrever um dashboard ou um relatório, o processo é semelhante. O mesmo botão permite-lhe subscrever os dashboards e os relatórios do serviço Power BI.
  
-![selecionar o ícone Subscrever](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
+![selecionar o ícone Subscrever](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. Abra o dashboard ou o relatório.
 2. Na barra de menus superior, selecione **Subscrever** ou selecione o ícone de envelope ![ícone Subscrever](./media/end-user-subscribe/power-bi-icon-envelope.png).
    
-   ![ícone Subscrever](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Janela Subscrever](./media/end-user-subscribe/power-bi-emails-newest.png)
+
+   ![Janela Subscrever](./media/end-user-subscribe/power-bi-emails-numbered.png)
     
-    O ecrã do lado esquerdo é apresentado quando estiver num dashboard e selecionar **Subscrever**. O ecrã do lado direito é apresentado quando estiver numa página de relatório e selecionar **Subscrever**. Para subscrever mais do que uma página num relatório, selecione **Adicionar outra subscrição** e selecione uma página diferente. 
+    O ecrã do lado esquerdo é apresentado quando estiver num dashboard e selecionar **Subscrever**. O ecrã do lado direito é apresentado quando estiver numa página de relatório e selecionar **Subscrever**. 
+    
+    a. Para subscrever mais do que uma página num relatório, selecione **Adicionar outra subscrição** e selecione uma página diferente no menu pendente perto da parte superior.
 
-4. Utilize o controlo de deslize amarelo para ativar e desativar a subscrição.  Definir o controlo de deslize para Desativado não elimina a subscrição. Para eliminar a subscrição, selecione o ícone de recipiente do lixo.
+    b. Utilize o controlo de deslize amarelo para ativar e desativar a subscrição.  Definir o controlo de deslize para Desativado não elimina a subscrição. Para eliminar a subscrição, selecione o ícone de recipiente do lixo.
 
-5. Opcionalmente, adicione um assunto e preencha os detalhes da mensagem de e-mail. 
+    c. Opcionalmente, adicione um assunto e preencha os detalhes da mensagem de e-mail. 
 
-5. Selecione uma **Frequência** para a sua subscrição.  Pode selecionar as opções Diariamente, Semanalmente ou Depois da atualização de dados (Diariamente).  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Semanalmente** e escolha os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione a opção **Semanalmente** e desmarque as caixas Sáb. e Dom.   
+    d. Selecione uma **Frequência** para a sua subscrição.  Pode selecionar as opções Diariamente, Semanalmente ou Depois da atualização de dados (Diariamente).  Para receber o e-mail de subscrição apenas em determinados dias, selecione **Semanalmente** e escolha os dias em que o pretende receber.  Por exemplo, se quiser receber o e-mail de subscrição apenas durante os dias úteis, selecione a opção **Semanalmente** e desmarque as caixas Sáb. e Dom.   
 
-6. Agende a hora de envio do e-mail ao selecionar a opção Diariamente ou Semanalmente como frequência e ao introduzir uma **Hora** **Agendada** para a subscrição.  Esta é a hora de início da tarefa de subscrição. Em determinados cenários, poderá demorar alguns minutos até o e-mail ser entregue na sua caixa de entrada.    
+    e. Agende a hora de envio do e-mail ao selecionar a opção Diariamente ou Semanalmente como frequência e ao introduzir uma **Hora** **Agendada** para a subscrição.  Esta é a hora de início da tarefa de subscrição. Em determinados cenários, poderá demorar alguns minutos até o e-mail ser entregue na sua caixa de entrada.    
 
-7. Agende a data de início e de fim ao introduzir as mesmas nos campos de data. Por predefinição, a data de início da sua subscrição será a data em que a criou e a data de fim será um ano após a criação. Quando uma subscrição atinge a data de fim, esta é interrompida até que a volte a ativar.  Receberá notificações antes da data de fim agendada a perguntar se quer prolongar a subscrição.     
+    f. Agende a data de início e de fim ao introduzir as mesmas nos campos de data. Por predefinição, a data de início da sua subscrição será a data em que a criou e a data de fim será um ano após a criação. Quando uma subscrição atinge a data de fim, esta é interrompida até que a volte a ativar.  Receberá notificações antes da data de fim agendada a perguntar se quer prolongar a subscrição.     
 
-8. Para rever a sua subscrição e testá-la, selecione **Executar agora**.  Esta opção faz com que o e-mail seja imediatamente enviado para si. 
+    exemplo, Para rever a sua subscrição e testá-la, selecione **Executar agora**.  Esta opção faz com que o e-mail seja imediatamente enviado para si. 
 
-8. Se tudo estiver correto, selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou do relatório dentro do período que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
+3. Se tudo estiver correto, selecione **Guardar e fechar** para guardar a subscrição. Receberá um e-mail e um instantâneo do dashboard ou do relatório dentro do período que definiu. Todas as subscrições cuja frequência estiver definida para **Depois da atualização de dados** só enviarão um e-mail após a primeira atualização agendada para o dia em questão.
    
    ![instantâneo do dashboard num e-mail](media/end-user-subscribe/power-bi-subscribe-email.png)
    
-    Atualizar a página de relatório não atualiza o conjunto de dados. Apenas o proprietário do conjunto de dados pode atualizar manualmente um conjunto de dados. Para procurar um nome do proprietário do(s) conjunto(s) de dados subjacentes, selecione **Ver relacionado** na barra de menus superior ou procure o e-mail de subscrição original.
+    Atualizar a página de relatório não atualiza o conjunto de dados. Apenas o proprietário do conjunto de dados pode atualizar manualmente um conjunto de dados. Para procurar o nome do proprietário do(s) conjunto(s) de dados subjacente(s), selecione o menu pendente na barra de menus ou procure o e-mail da subscrição original.
    
-    ![Conjuntos de dados relacionados](./media/end-user-subscribe/power-bi-view-related-screen.png)
+    ![localizar o proprietário](./media/end-user-subscribe/power-bi-owner.png)
 
 
 ## <a name="manage-your-subscriptions"></a>Gerir as subscrições

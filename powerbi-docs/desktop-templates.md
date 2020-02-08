@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760003"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913541"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Criar modelos de relatório para o Power BI Desktop
 
@@ -32,7 +32,7 @@ Os modelos de relatórios do Power BI contêm as seguintes informações do rela
 
 O que *não* é incluído nos modelos são os dados do relatório. 
 
-Os modelos de relatórios utilizam a extensão de ficheiro .PBIT (comparado com relatórios do Power BI Desktop, que utilizam a extensão .PBIX). 
+Os modelos de relatórios utilizam a extensão de ficheiro .PBIT (comparado com relatórios do Power BI Desktop, que utilizam a extensão .PBIX). 
 
 Para criar um modelo de relatório, selecione **Ficheiro > Exportar > Modelo do Power BI** a partir do menu, que irá apresentar a seguinte janela que lhe pede para introduzir uma descrição do modelo. Neste exemplo, a nossa descrição do modelo é *Modelo do relatório de vendas mensais*.
 
