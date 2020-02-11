@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913554"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076634"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar um relatório usando parâmetros de cadeia de consulta no URL
 
@@ -193,7 +193,7 @@ Esta discrepância é útil quando pretende ver resultados diferentes: filtrados
 Existem alguns elementos a ter em conta ao utilizar os parâmetros da cadeia de consulta.
 
 * Ao utilizar o operador *in*, os valores à direita de *in* têm de ser uma lista separada por vírgulas entre parênteses.    
-* No Servidor de Relatórios do Power BI, pode [transmitir parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) ao incluí-los num URL de relatório. Estes parâmetros de URL não têm prefixos porque são transmitidos diretamente ao motor de processamento de relatórios.
+* O Power BI Report Server também suporta a capacidade de especificar filtros adicionais através do parâmetro de URL "filter".  Por exemplo, no Power BI Report Server, o URL pode ter o seguinte aspeto: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * A filtragem de cadeia de consulta não funciona com [Publicar na Web](service-publish-to-web.md) nem [Exportar para PDF](consumer/end-user-pdf.md).
 * [Incorporar com peças Web de relatórios no SharePoint Online](service-embed-report-spo.md) não suporta filtros de URL.
 * O tipo de dados longo é (2^53-1) devido a limitações do Javascript.

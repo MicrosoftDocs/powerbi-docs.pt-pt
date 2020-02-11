@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819566"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026721"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
@@ -160,7 +160,7 @@ Com o Proxy de Aplicações do Azure Active Directory, já não precisa de gerir
 
 #### <a name="custom-headers"></a>Cabeçalhos personalizados
 
-Define os valores dos cabeçalhos de todos os URLs que correspondem ao padrão regex especificado. Os utilizadores podem atualizar o valor dos cabeçalhos personalizados com XML válido para definir os valores dos cabeçalhos dos URLs de pedido selecionados. Os administradores podem adicionar qualquer número de cabeçalhos ao XML. Veja [Custom headers](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) (Cabeçalhos personalizados) no artigo **Server Properties Advanced Page** (Página Avançada das Propriedades do Servidor) do Reporting Services para obter mais detalhes.
+Define os valores dos cabeçalhos de todos os URLs que correspondem ao padrão regex especificado. Os utilizadores podem atualizar o valor dos cabeçalhos personalizados com XML válido para definir os valores dos cabeçalhos dos URLs de pedido selecionados. Os administradores podem adicionar qualquer número de cabeçalhos ao XML. Veja [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) no artigo **Server Properties Advanced Page** (Página Avançada das Propriedades do Servidor) do Reporting Services para obter mais detalhes.
 
 #### <a name="transparent-database-encryption"></a>Encriptação de Base de Dados Transparente
 

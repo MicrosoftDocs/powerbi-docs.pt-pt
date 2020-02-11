@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837226"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076659"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca de utilizar o DirectQuery no Power BI
 
@@ -312,7 +312,7 @@ Além das sugestões anteriores, cada uma das seguintes funcionalidades de relat
 
 * **Mediana:** Geralmente, qualquer agregação, como `Sum` ou `Count Distinct`, é enviada por push para a origem subjacente. No entanto, este facto não se aplica à mediana, uma vez que, regra geral, a origem subjacente não suporta esta agregação. Nestes casos, os dados de detalhe são obtidos da origem subjacente e a mediana é calculada com base nos resultados devolvidos. Esta abordagem é aceitável se a mediana for calculada sobre um número relativamente pequeno de resultados. Caso a cardinalidade seja grande, ocorrerão problemas de desempenho ou falhas de consultas devido ao limite de 1 milhão de linhas. Por exemplo, **Median Country Population** poderá ser razoável, mas **Median Sales Price**, não.
 
-* **Filtros de texto avançados (* contém* e semelhantes):* * ao filtrar numa coluna de texto, a filtragem avançada permite filtros como *contém*, *começa por*, etc. Estes filtros podem, certamente, resultar num desempenho pior em algumas origens de dados. Em particular, o filtro predefinido *contém* não deve ser utilizado se for necessária uma correspondência exata. Embora os resultados possam ser os mesmos, dependendo dos dados reais, o desempenho poderá ser radicalmente diferente devido à utilização de índices.
+* **Filtros de texto avançados (_contém_ e semelhantes):** ao filtrar numa coluna de texto, a filtragem avançada permite filtros como *contém*, *começa com*, entre outros. Estes filtros podem, certamente, resultar num desempenho pior em algumas origens de dados. Em particular, o filtro predefinido *contém* não deve ser utilizado se for necessária uma correspondência exata. Embora os resultados possam ser os mesmos, dependendo dos dados reais, o desempenho poderá ser radicalmente diferente devido à utilização de índices.
 
 * **Segmentações de dados com seleções múltiplas:** por predefinição, as segmentações de dados só permitem fazer uma única seleção. Permitir várias seleções em filtros pode causar alguns problemas de desempenho, pois o utilizador seleciona um conjunto de itens na segmentação de dados. Por exemplo, se o utilizador selecionar os 10 produtos de interesse, cada nova seleção resultará no envio de consultas para a origem. Embora o utilizador possa selecionar o item seguinte antes da conclusão da consulta, esta abordagem resulta numa carga adicional na origem subjacente.
 

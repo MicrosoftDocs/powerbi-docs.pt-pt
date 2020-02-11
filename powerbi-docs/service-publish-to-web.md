@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913637"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076715"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
-Com a funcionalidade **Publicar na Web** do Power BI, pode facilmente incorporar visualizações interativas do Power BI online, por exemplo em mensagens de blogue, sites, e-mails ou redes sociais, a partir de qualquer dispositivo. Também pode facilmente editar, atualizar ou anular a partilha dos seus elementos visuais publicados.
+Com a funcionalidade **Publicar na Web** do Power BI, pode facilmente incorporar visualizações interativas do Power BI online, por exemplo em mensagens de blogue, sites, e-mails ou redes sociais, a partir de qualquer dispositivo. Também pode facilmente editar, atualizar ou parar de partilhar os seus elementos visuais publicados.
 
 > [!WARNING]
 > Quando utilizar a funcionalidade **Publicar na Web**, qualquer pessoa poderá ver os seus relatórios ou elementos visuais publicados. Isto não requer autenticação e inclui ver os dados detalhados que os seus relatórios agregam. Antes de publicar um relatório, certifique-se de que pode partilhar publicamente os dados e visualizações. Não publique informações confidenciais ou proprietárias. Se tiver dúvidas, consulte as políticas da sua organização antes da publicação.
@@ -40,9 +40,11 @@ Os passos seguintes descrevem como utilizar a funcionalidade **Publicar na Web**
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. Contacte o seu administrador do Power BI se não tiver permissão para criar códigos incorporados.
+2. Contacte o seu [administrador do Power BI](service-admin-role.md) se não tiver permissão para criar códigos incorporados
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   Para saber como encontrar a pessoa que pode ativar a opção Publicar na Web na sua organização, [veja estas sugestões](#how-to-find-your-power-bi-administrator).
 
 3. Consulte o conteúdo da caixa de diálogo e selecione **Criar código de incorporação**.
 
@@ -73,7 +75,7 @@ A seguinte tabela fornece instruções sobre o Modo de Visualização e a forma 
 | --- | --- |
 | ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |A opção **Ajustar à página** respeita a altura e a largura de página do seu relatório. Se definir a página para proporções *dinâmicas*, como 16:9 ou 4:3, os conteúdos serão dimensionados para caber no iFrame. Ao incorporar num iFrame, a opção **Ajustar à página** poderá resultar em *letterboxing*, fazendo com que seja apresentado um fundo cinzento na área do iFrame após os conteúdos serem ajustados de forma a caber no mesmo. Para minimizar o letterboxing, defina adequadamente a altura e a largura do iFrame. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |A opção **Tamanho real** garante que o relatório mantém o tamanho definido na página de relatórios. Isto poderá originar barras de deslocamento no seu iFrame. Defina a altura e largura do iFrame para evitar as barras de deslocamento. |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |A opção **Ajustar à largura** garante que os conteúdos cabem na área horizontal do iFrame. Continua a ser apresentado um limite, mas os conteúdos ajustam-se de forma a ocupar todo o espaço horizontal disponível. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |A opção **Ajustar à largura** garante que os conteúdos preenchem a área horizontal do iFrame. Continua a ser apresentado um limite, mas os conteúdos ajustam-se de forma a ocupar todo o espaço horizontal disponível. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Dicas e truques para a altura e largura do iFrame
 
@@ -194,6 +196,21 @@ Tem de ser utilizador do Microsoft Power BI para utilizar a funcionalidade **Pub
 Quando cria um código de incorporação através da funcionalidade **Publicar na Web**, o relatório fica visível para os utilizadores na Internet. Encontra-se disponível publicamente, pelo que é expectável que os utilizadores partilhem facilmente o relatório através das redes sociais. Quando os utilizadores virem o relatório, quer ao abrir o URL público direto ou ao vê-lo incorporado numa página Web ou blogue, o Power BI regista a definição do relatório e os resultados das consultas necessários para ver o relatório. Isto garante que milhares de utilizadores podem ver o relatório em simultâneo, sem afetar o desempenho.
 
 A cache é duradoura, pelo que se atualizar a definição do relatório (por exemplo, se alterar o Modo de visualização) ou atualizar os dados do relatório, poderá demorar aproximadamente uma hora até que as alterações entrem em vigor na versão do relatório que é vista pelos utilizadores. Por isso, recomenda-se que teste o seu trabalho antecipadamente e crie o código de incorporação **Publicar na Web** apenas quando estiver satisfeito com as definições.
+
+## <a name="how-to-find-your-power-bi-administrator"></a>Como encontrar o seu administrador do Power BI
+
+Para alterar as [definições do inquilino da opção Publicar na Web](#tenant-setting), terá de trabalhar com o [administrador do Power BI](service-admin-role.md) da sua organização.
+
+As organizações mais pequenas ou os indivíduos que se inscreveram no Power BI podem ainda não ter um administrador do Power BI. Nesse caso, terá de seguir o nosso [processo de obtenção de controlo administrativo do inquilino](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover). Assim que tiver um administrador do Power BI, este pode ativar a criação de códigos incorporados para si.
+
+Geralmente, as organizações estabelecidas já têm um administrador do Power BI. As pessoas em qualquer uma das seguintes funções podem desempenhar o papel de administrador do Power BI:
+
+- Administradores do Office 365
+- Administradores do Microsoft Azure Active Directory
+- Utilizadores com a função de administrador do serviço Power BI no Microsoft Azure Active Directory
+
+Terá de [encontrar uma destas pessoas](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) na sua organização para que esta possa atualizar a definição.
+
 
 ## <a name="next-steps"></a>Próximos passos
 
