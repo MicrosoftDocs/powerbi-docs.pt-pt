@@ -152,7 +152,7 @@ As etiquetas do eixo Y são apresentadas à esquerda por predefinição. Neste m
     ![Gráfico após a formatação do eixo Y](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
 ### <a name="customize-the-y-axis-title"></a>Personalizar o título do eixo Y
-Quando o título do eixo Y é **Em**, o título do eixo Y é apresentado ao lado das etiquetas do eixo Y. Nesta visualização, ter um título do Eixo Y não melhora o elemento visual, por isso, deixe a opção **Título****Desativada**. Vamos adicionar os títulos do eixo Y a um elemento visual de eixo duplo mais adiante neste tutorial. 
+Quando o título do eixo Y é **Em**, o título do eixo Y é apresentado ao lado das etiquetas do eixo Y. Nesta visualização, ter um título do Eixo Y não melhora o elemento visual, por isso, deixe a opção **Título** **Desativada**. Vamos adicionar os títulos do eixo Y a um elemento visual de eixo duplo mais adiante neste tutorial. 
 
 ### <a name="customize-the-gridlines"></a>Personalizar as linhas de grelha
 Vamos destacar as linhas de grelha ao alterar a cor e ao aumentar o traço:
@@ -176,7 +176,7 @@ Algumas visualizações podem tirar partido de ter dois eixos Y. Os gráficos de
     ![Captura de ecrã do painel Visualizações, com o ícone de gráfico de linhas e colunas empilhadas destacado.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
 
-2. Arraste **Vendas** > **% da Margem Bruta do Ano Passado** do painel de Campos para o registo **Valores de Linhas**.
+2. Arraste **Vendas** >  **% da Margem Bruta do Ano Passado** do painel de Campos para o registo **Valores de Linhas**.
 
     ![Captura de ecrã do gráfico de linhas e colunas empilhadas com todos os três valores claramente representados.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-add-line.png)
 
@@ -204,7 +204,7 @@ Uma vez que começámos com uma visualização com um eixo Y formatado, o Power 
 
 Com uma visualização complexa, convém adicionar títulos aos eixos.  Os títulos ajudam os seus colegas a compreender a história que a sua visualização mostra.
 
-1. Coloque **Título** como **Ativado** para **Eixo Y (Coluna)** e **Eixo Y (Linha)**.
+1. Coloque **Título** como **Ativado** para **Eixo Y (Coluna)** e **Eixo Y (Linha)** .
 
 1. Defina o **Estilo** como **Mostrar apenas o título** para ambos.
 
