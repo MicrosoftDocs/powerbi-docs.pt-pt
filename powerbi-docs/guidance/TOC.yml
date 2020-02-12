@@ -66,6 +66,8 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Administrador e implementação
           items:
+            - name: Tenant admin settings (Definições para administradores de inquilinos)
+              href: admin-tenant-settings.md
             - name: Dimensionamento do gateway de dados no local
               href: gateway-onprem-sizing.md
     - name: Whitepapers (Documentos técnicos)
