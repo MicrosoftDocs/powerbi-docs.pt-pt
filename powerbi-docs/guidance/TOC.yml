@@ -52,21 +52,25 @@
               href: dax-column-measure-references.md
             - name: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Relatórios do Power BI
+          items:
             - name: Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
               href: report-page-tooltips.md
             - name: Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
               href: report-drillthrough.md
-            - name: Quando utilizar os relatórios paginados no Power BI
+        - name: "Relatórios paginados do Power\_BI"
+          items:
+            - name: Quando utilizar os relatórios paginados
               href: report-paginated-or-power-bi.md
-            - name: Use cascading parameters in paginated reports (Utilizar parâmetros em cascata em relatórios paginados)
+            - name: Utilizar os parâmetros em cascata
               href: paginated-report-cascading-parameter.md
-            - name: Avoid blank pages when printing paginated reports (Evitar páginas em branco ao imprimir relatórios paginados)
+            - name: Evitar páginas em branco ao imprimir
               href: report-paginated-blank-page.md
             - name: Migrate SSRS reports to Power BI (Migrar relatórios SSRS para o Power BI)
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Administrador e implementação
           items:
-            - name: Tenant admin settings (Definições para administradores de inquilinos)
+            - name: Definições para administradores de inquilinos
               href: admin-tenant-settings.md
             - name: Dimensionamento do gateway de dados no local
               href: gateway-onprem-sizing.md

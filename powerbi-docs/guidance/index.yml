@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 16bfba0b4ed83be55604d2a12e5b86edae2d58bc
-  ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
+  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "77154195"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "77465020"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -75,7 +75,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: Avoid using FILTER as a filter argument (Evitar utilizar FILTER como um argumento de filtro)
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: Criação de relatórios
+- title: Relatórios do Power BI
   linkLists:
   - linkListType: concept
     links:
@@ -83,11 +83,17 @@ landingContent:
       url: report-page-tooltips.md
     - text: Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
       url: report-drillthrough.md
-    - text: Quando utilizar os relatórios paginados no Power BI
+- title: Relatórios paginados do Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
+      url: report-drillthrough.md
+    - text: Quando utilizar os relatórios paginados
       url: report-paginated-or-power-bi.md
-    - text: Use cascading parameters in paginated reports (Utilizar parâmetros em cascata em relatórios paginados)
+    - text: Utilizar os parâmetros em cascata
       url: paginated-report-cascading-parameter.md
-    - text: Avoid blank pages when printing paginated reports (Evitar páginas em branco ao imprimir relatórios paginados)
+    - text: Evitar páginas em branco ao imprimir
       url: report-paginated-blank-page.md
     - text: Migrate SSRS reports to Power BI (Migrar relatórios SSRS para o Power BI)
       url: migrate-ssrs-reports-to-power-bi.md
