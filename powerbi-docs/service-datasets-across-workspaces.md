@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877207"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179226"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introdução aos conjuntos de dados em áreas de trabalho (Pré-visualização)
 
@@ -62,7 +62,7 @@ As funcionalidades e experiências específicas baseadas nas capacidades de conj
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
 - Enquanto publicador de aplicações, tem de garantir que o seu público tem acesso aos conjuntos de dados fora da área de trabalho. Caso contrário, os utilizadores encontrarão problemas quando interagirem com a aplicação: os relatórios não abrirão sem o acesso aos conjuntos de dados e os mosaicos do dashboard serão mostrados como bloqueados. Além disso, os utilizadores não poderão abrir a aplicação se o primeiro item na navegação for um relatório sem acesso ao conjunto de dados.
-- A compilação de um relatório baseado num conjunto de dados numa área de trabalho diferente exige a nova experiência de área de trabalho a ambos os níveis: tanto o relatório como o conjunto de dados têm de estar numa nova experiência de área de trabalho.
+- A compilação de um relatório baseado num conjunto de dados numa área de trabalho diferente exige a nova experiência de área de trabalho a ambos os níveis: tanto o relatório como o conjunto de dados têm de estar numa nova experiência de área de trabalho. Só pode copiar relatórios numa nova experiência de área de trabalho para outra nova experiência de área de trabalho. Não é possível copiar relatórios para áreas de trabalho clássicas nem para A Minha Área de Trabalho. 
 - Numa área de trabalho clássica, ao detetar conjuntos de dados, apenas são apresentados os conjuntos nessa área de trabalho.
 - Por predefinição, a opção “Publicar na Web” não funciona para um relatório baseado num conjunto de dados partilhado.
 - Se duas pessoas forem membros de uma área de trabalho que está a aceder a um conjunto de dados partilhado, é possível que apenas uma delas consiga ver o conjunto de dados relacionado na área de trabalho. Apenas as pessoas com pelo menos acesso de leitura ao conjunto de dados podem ver o conjunto de dados partilhado. 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895516"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154448"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -136,17 +136,32 @@ Pode ajustar facilmente as definições do esquema gradual. Com o elemento visua
 
 Se desativar o esquema gradual, o Power BI apresentará as subcategorias noutra coluna em vez de apresentar avanços por baixo da categoria principal.
 
-## <a name="subtotals-with-matrix-visuals"></a>Subtotais com elementos visuais de matriz
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>Totais gerais e subtotais com elementos visuais de matriz
 
-Pode ativar ou desativar os subtotais nos elementos visuais de matriz para linhas e colunas. Na imagem seguinte, pode ver que os subtotais da linha estão **Ativados**.
+Pode ativar ou desativar os subtotais nos elementos visuais de matriz para linhas e colunas. Na seguinte imagem, pode ver que os subtotais da linha estão definidos como **Ativado** e configurados de modo a serem apresentados na parte inferior.
 
-![matriz a mostrar totais e subtotais](media/desktop-matrix-visual/matrix-visual_20.png)
+![matriz a mostrar totais e subtotais](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-Na secção de formatação do painel de visualizações, expanda o cartão **Subtotais** e coloque o controlo de deslize dos subtotais da linha como **Desativado**. Quando o fizer, os subtotais não são apresentados.
+Se ativar os **Subtotais** e adicionar uma etiqueta, o Power BI também adiciona uma linha e a mesma etiqueta ao valor total geral. Para formatar o seu total geral, selecione a opção de formato **Total geral**. 
 
-![matriz com subtotais desativado](media/desktop-matrix-visual/matrix-visual_21.png)
+![matriz a mostrar cartão Total geral](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+Se quiser desativar os totais gerais e os subtotais, na secção de formatos do painel de visualizações, expanda o cartão **Subtotais**. **Desative** o controlo de deslize de subtotais da linha. Quando o fizer, os subtotais não são apresentados.
+
+![matriz com subtotais desativado](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 É aplicado o mesmo processo aos subtotais da coluna.
+
+## <a name="add-conditional-icons"></a>Adicionar ícones condicionais
+Adicione ajudas visuais à sua tabela ou matriz com os *ícones condicionais*. 
+
+Na secção de formatos do painel Visualizações, expanda o cartão **Formatação condicional**. Defina o controlo de deslize **Ícones** para **Ativado** e selecione **Controlos avançados**.
+
+![Matriz com o ecrã Ícones apresentado](media/desktop-matrix-visual/power-bi-icons.png)
+
+Ajuste as condições, os ícones e as cores da sua matriz e selecione **OK**. Neste exemplo, utilizámos uma bandeira vermelha para os valores baixos, um círculo roxo para os valores elevados e um triângulo amarelo para os intermédios. 
+
+![Matriz com ícones apresentados](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Realce cruzado com elementos visuais de matriz
 

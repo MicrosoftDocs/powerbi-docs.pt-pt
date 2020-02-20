@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220244"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259789"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introdução à aplicação móvel Power BI em dispositivos Android
 A aplicação Android para Microsoft Power BI dá a experiência BI móvel para Power BI, Power BI Report Server e Reporting Services. Veja e interaja com os dashboards da sua empresa no local e na cloud em qualquer lugar, com acesso móvel em direto e tátil. Explore os dados nos dashboards e partilhe com os seus colegas em e-mails e mensagens de texto. 
@@ -52,11 +52,11 @@ Se ainda não se inscreveu, vá para o [serviço do Power BI](https://powerbi.co
 1. No seu dispositivo Android, no ecrã inicial, abra a aplicação Power BI para Android.
    
    ![Ícone do Power BI](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Para ver os seus dashboards e relatórios do Power BI, toque em **Power BI**.  
-   
-   Se receber uma mensagem a indicar que o Power BI não consegue iniciar a sua sessão, consulte ["Não foi possível autenticar porque o seu certificado SSL empresarial não é fidedigno"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) para obter detalhes sobre como resolver o problema.
+2. Para iniciar sessão no Power BI, toque no separador **Power BI** e introduza as suas informações de início de sessão.
 
-   Para ver os relatórios e KPIs do Power BI Report Server e do Reporting Services, toque em **Report Server**.
+    Se receber uma mensagem a indicar que o Power BI não consegue iniciar a sua sessão, veja ["Não foi possível autenticar porque o seu certificado SSL empresarial não é fidedigno"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) para obter detalhes sobre como resolver o problema.
+
+   Para iniciar sessão nos seus relatórios móveis e KPIs do Reporting Services, toque no separador **Servidor de relatórios** e introduza as suas informações de início de sessão.
    
    ![Iniciar sessão no Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

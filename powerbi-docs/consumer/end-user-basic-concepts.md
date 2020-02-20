@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852234"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260117"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceitos básicos para os consumidores do serviço Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Este artigo pressupõe que já leu a [Descrição geral do Power BI](../fundamentals/power-bi-overview.md) e se identificou como um [***consumidor*** do Power BI](end-user-consumer.md). Os consumidores recebem conteúdos do Power BI, como dashboards e relatórios, dos colegas. Os consumidores utilizam o serviço Power BI, que é uma versão do Power  BI em site.
+Este artigo pressupõe que já leu a [Descrição geral do Power BI](../fundamentals/power-bi-overview.md) e que se identificou como um [**consumidor _do Power BI_** ](end-user-consumer.md). Os consumidores recebem conteúdos do Power BI, como dashboards e relatórios, dos colegas. Os consumidores utilizam o serviço Power BI, que é uma versão do Power BI em site.
 
 Vai, sem dúvida, ouvir o termo “Power BI Desktop” ou apenas “Desktop”. É a ferramenta autónoma utilizada pelos *criadores* que criam e partilham dashboards e relatórios consigo. É importante saber que existem outras ferramentas do Power BI. Desde que seja um consumidor, vai trabalhar apenas com o serviço Power BI. Este artigo aplica-se apenas ao serviço Power BI.
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Introdução aos elementos base
 
-Para um consumidor do Power BI, os cinco blocos modulares são: ***visualizações***, ***dashboards***, ***relatórios***, ***aplicações*** e ***conjuntos de dados***. Por vezes, estes elementos são denominados ***conteúdos*** do *Power BI*. Os *conteúdos* existem em ***áreas de trabalho***. Um fluxo de trabalho típico envolve todos os blocos modulares: Um *criador* do Power BI (a amarelo no diagrama abaixo) recolhe dados de *conjuntos de dados*, incorpora-os no Power BI para análise, cria *relatórios* com *visualizações* que destacam informações e factos interessantes, afixa as visualizações dos relatórios num dashboard e partilha os relatórios e dashboards com *consumidores*, como é o seu caso (a preto no diagrama abaixo). O *criador* partilha-os sob a forma de *aplicações* ou outros tipos de conteúdos partilhados.
+Para um consumidor do Power BI, os cinco blocos modulares são: **_visualizações_** , **_dashboards_** , **_relatórios_** , **_aplicações_** e **_conjuntos de dados_** . Por vezes, estes elementos são denominados *conteúdos* **_do Power BI_** . Os *conteúdos* existem em **_áreas de trabalho_** . Um fluxo de trabalho típico envolve todos os blocos modulares: Um *criador* do Power BI (a amarelo no diagrama abaixo) recolhe dados de *conjuntos de dados*, incorpora-os no Power BI para análise, cria *relatórios* com *visualizações* que destacam informações e factos interessantes, afixa as visualizações dos relatórios num dashboard e partilha os relatórios e dashboards com *consumidores*, como é o seu caso (a preto no diagrama abaixo). O *criador* partilha-os sob a forma de *aplicações* ou outros tipos de conteúdos partilhados.
 
 ![Um gráfico de fluxo de trabalho do Power BI básico.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Fundamentalmente:
 
-- ![Uma captura de ecrã do ícone de visualização.](media/end-user-basic-concepts/visual.png) Uma ***visualização*** (ou *elemento visual*), é um tipo de gráfico criado pelos *criadores* do Power BI. Os elementos visuais apresentam os dados a partir de *relatórios* e de *conjuntos de dados*. Geralmente, os *criadores* criam os elementos visuais no Power BI Desktop.
+- ![Uma captura de ecrã do ícone de visualização.](media/end-user-basic-concepts/visual.png) uma **_visualização_** (ou *elemento visual*), é um tipo de gráfico criado pelos *criadores* do Power BI. Os elementos visuais apresentam os dados a partir de *relatórios* e de *conjuntos de dados*. Geralmente, os *criadores* criam os elementos visuais no Power BI Desktop.
 
     Para obter mais informações, veja [Interagir com elementos visuais em relatórios, dashboards e aplicações](end-user-visualizations.md).
 
@@ -148,7 +148,7 @@ Um dashboard representa uma vista personalizada de um subconjunto de um ou vári
 
   ![Captura de ecrã de um dashboard de exemplo](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Um mosaico é uma representação de um elemento visual que um *criador* *afixa*, por exemplo, a um dashboard a partir de um relatório. Cada mosaico afixado apresenta uma [visualização](end-user-visualizations.md) que o estruturador criou a partir de um conjunto de dados e afixou a esse dashboard. Um mosaico também pode conter uma página de relatório inteira, bem como um vídeo ou dados de transmissão em direto. Existem várias formas através das quais os *criadores* adicionam mosaicos aos dashboards. Existem demasiadas para serem abordadas neste artigo de descrição geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](end-user-tiles.md).
+Um mosaico é uma representação de um elemento visual que um *criador* *afixa* (por exemplo, de um relatório para um dashboard). Cada mosaico afixado apresenta uma [visualização](end-user-visualizations.md) que o estruturador criou a partir de um conjunto de dados e afixou a esse dashboard. Um mosaico também pode conter uma página de relatório inteira, bem como um vídeo ou dados de transmissão em direto. Existem várias formas através das quais os *criadores* adicionam mosaicos aos dashboards. Existem demasiadas para serem abordadas neste artigo de descrição geral. Para saber mais, consulte [Mosaicos de dashboard no Power BI](end-user-tiles.md).
 
 Os consumidores não podem editar dashboards. No entanto, podem adicionar comentários, ver dados relacionados, definir o dashboard como favorito, subscrevê-lo e mais.
 

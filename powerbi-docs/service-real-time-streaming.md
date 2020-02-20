@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699106"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115291"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmissão em fluxo em tempo real no Power BI
 Com a transmissão em fluxo em tempo real do Power BI, pode transmitir dados em fluxo e atualizar dashboards em tempo real. Também é possível criar qualquer elemento visual ou dashboard passível de geração no Power BI de modo a apresentar e atualizar elementos visuais e dados em tempo real. Os dispositivos e as origens de dados de transmissão em fluxo podem ser sensores de fábrica, origens de redes sociais, métricas de utilização de serviços, entre outros itens a partir dos quais é possível recolher ou transmitir dados temporários.
@@ -35,7 +35,7 @@ Primeiro, vamos compreender as diferenças que distinguem estes conjuntos de dad
 ### <a name="push-dataset"></a>Conjunto de dados push
 Com um **conjunto de dados push**, os dados são emitidos via push para o serviço Power BI. Quando o conjunto de dados é criado, o serviço Power BI cria automaticamente uma nova base de dados no serviço para armazenar os dados. Uma vez que há uma base de dados subjacente que continua a armazenar os dados à medida que estes vão dando entrada, é possível criar relatórios com os dados. Estes relatórios e os respetivos elementos visuais são semelhantes a qualquer outro elemento visual de relatório, o que significa que pode utilizar todas as funcionalidades de criação de relatórios do Power BI para criar elementos visuais, incluindo elementos visuais personalizados, alertas de dados, mosaicos de dashboard afixados e muito mais.
 
-Assim que um relatório começa a ser criado com o conjunto de dados push, é possível afixar qualquer um dos respetivos elementos visuais a um dashboard. Nesse dashboard, os elementos visuais são atualizados em tempo real sempre que os dados são atualizados. No serviço, por sua vez, o dashboard aciona uma atualização de mosaicos sempre que são recebidos novos dados.
+Assim que um relatório for criado com o conjunto de dados push, é possível afixar qualquer um dos respetivos elementos visuais a um dashboard. Nesse dashboard, os elementos visuais são atualizados em tempo real sempre que os dados são atualizados. No serviço, por sua vez, o dashboard aciona uma atualização de mosaicos sempre que são recebidos novos dados.
 
 Existem dois factos a ter em atenção no que diz respeito a mosaicos afixados a partir de um conjunto de dados push:
 
@@ -179,7 +179,7 @@ Segue-se um exemplo rápido de como a transmissão em fluxo em tempo real funcio
 
 Neste exemplo, utilizamos um fluxo disponível ao público do **PubNub**. Eis os passos:
 
-1. No **serviço Power BI**, selecione um dashboard (ou crie um novo) e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** e, em seguida, selecione o botão  **Seguinte**.
+1. No **serviço Power BI**, selecione um dashboard (ou crie um novo) e selecione **Adicionar mosaico** > **Dados de Transmissão em Fluxo Personalizados** e, em seguida, selecione o botão **Seguinte**.
    
    ![](media/service-real-time-streaming/real-time-streaming_1.png)
 2. Se ainda não tiver origens de dados de transmissão em fluxo, selecione a ligação **gerir dados** (logo por cima do botão **Seguinte**) e, em seguida, selecione **+ Adicionar dados de transmissão em fluxo** na ligação presente no canto superior direito da janela. Selecione **PubNub** e, depois, selecione **Seguinte**.
