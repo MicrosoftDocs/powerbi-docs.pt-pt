@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889334"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427398"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Criar medidas para análise de dados no Power BI Desktop
 
@@ -49,7 +49,7 @@ Júlia repara que foi fornecido automaticamente um cálculo, embora não tenha e
 
 No entanto, Júlia precisa de uma medida para calcular as projeções de vendas para o próximo ano, que serão baseadas nas vendas do ano anterior multiplicadas por 1,06, para considerar o aumento de 6% esperado no negócio. Para este cálculo, Júlia criará uma medida. Ao utilizar a funcionalidade *Nova Medida*, cria uma nova medida e, em seguida, introduz a seguinte fórmula DAX:
 
-```sql
+```dax
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 ```
 

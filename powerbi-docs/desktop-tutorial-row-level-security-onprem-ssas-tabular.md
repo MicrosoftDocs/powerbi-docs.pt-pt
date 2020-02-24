@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539645"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427375"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementar segurança ao nível da linha com o modelo em tabela do Analysis Services
 
@@ -82,7 +82,7 @@ Assim que o armazém de dados relacional estiver implementado, precisa de defini
 
 1. A função `LOOKUPVALUE` devolve os valores de uma coluna na qual o nome de utilizador do Windows corresponde ao que a função `USERNAME` devolve. Em seguida, pode restringir as consultas aos casos em que os valores devolvidos por `LOOKUPVALUE` correspondem aos valores na mesma tabela ou numa tabela relacionada. Na coluna **Filtro DAX**, escreva a seguinte fórmula:
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ Assim que o armazém de dados relacional estiver implementado, precisa de defini
 
 1. Para a tabela `DimUserSecurity` na coluna **DAX Filter** (Filtro DAX), adicione a seguinte fórmula:
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Se ocorrer mais atividade no dashboard, com o SQL Profiler irá ver uma consulta
 
 Também pode ver abaixo a consulta DAX que está a ser executada para preencher os dados do relatório.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

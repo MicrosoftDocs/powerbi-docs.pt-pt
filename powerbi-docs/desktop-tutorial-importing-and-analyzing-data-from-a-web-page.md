@@ -187,7 +187,7 @@ A sua visualização de mapa passa a ter este aspeto:
 
 ### <a name="change-the-visualization-type"></a>Alterar o tipo de visualização
 
-Pode alterar o tipo de uma visualização ao selecioná-la e, em seguida, selecionar um ícone diferente na parte superior do painel **Visualização**. Por exemplo, os dados da União Soviética e da Checoslováquia estão em falta na sua visualização de mapa porque esses países já não existem no mapa do mundo. Outro tipo de visualização, como um gráfico treemap ou um gráfico circular poderá ser mais exato, porque mostra todos os valores.
+Pode alterar o tipo de uma visualização ao selecioná-la e, em seguida, selecionar um ícone diferente na parte superior do painel **Visualização**. Por exemplo, os dados da ex-União Soviética e da Checoslováquia estão em falta na sua visualização de mapa porque esses países já não existem no mapa do mundo. Outro tipo de visualização, como um gráfico treemap ou um gráfico circular poderá ser mais exato, porque mostra todos os valores.
 
 Para alterar o mapa para um gráfico circular, selecione o mapa e, em seguida, selecione o ícone **Gráfico circular** no painel **Visualização**.
 
