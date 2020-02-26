@@ -7,6 +7,8 @@
       items:
         - name: Descrição geral
           href: overview.md
+        - name: Optimization guide for Power BI (Guia de otimização para o Power BI)
+          href: power-bi-optimization.md
     - name: Conceitos
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: Dimensionamento do gateway de dados no local
               href: gateway-onprem-sizing.md
+            - name: Monitor report performance (Monitorizar o desempenho dos relatórios)
+              href: monitor-report-performance.md
     - name: Whitepapers (Documentos técnicos)
       items:
         - name: Descrição geral dos documentos técnicos
