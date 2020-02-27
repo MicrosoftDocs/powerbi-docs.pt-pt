@@ -39,7 +39,7 @@ Assim que um relatório for criado com o conjunto de dados push, é possível af
 
 Existem dois factos a ter em atenção no que diz respeito a mosaicos afixados a partir de um conjunto de dados push:
 
-* A afixação de um relatório completo com a opção *Afixar página dinâmica***não** resulta na atualização automática dos dados.
+* A afixação de um relatório completo com a opção *Afixar página dinâmica* **não** resulta na atualização automática dos dados.
 * Depois de um elemento visual ser afixado a um dashboard, pode utilizar a opção **Perguntas e Respostas** para fazer perguntas ao conjunto de dados push em linguagem natural. Após efetuar uma consulta **Perguntas e Respostas**, pode voltar a afixar o elemento visual resultante no dashboard; deste modo, este dashboard *também* será atualizado em tempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de dados de transmissão
