@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: Aplicar etiquetas de confidencialidade
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: Linhagem de dados
-          href: service-data-lineage.md
+        - name: View data lineage (Ver linhagem de dados)
+          href: designer/service-data-lineage.md
         - name: Aplicações de modelo
           items:
             - name: Template apps overview (Descrição geral das aplicações de modelo)
