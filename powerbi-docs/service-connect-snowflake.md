@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429355"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576866"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Ligar ao Snowflake no Serviço Power BI
 
@@ -49,7 +49,7 @@ Devido à forma como o Power BI funciona, o SSO só funcionará quando nenhuma o
 
 * Se estiver a utilizar apenas uma origem de Snowflake no modelo de dados, pode utilizar o SSO se optar por não utilizar o gateway de dados no local
 * Se estiver a utilizar uma origem de Snowflake juntamente com outra origem, pode utilizar o SSO se nenhuma das origens utilizar o gateway de dados no local
-* Se estiver a utilizar uma origem de Snowflake através do gateway de dados no local, pode utilizar credenciais AAD, mas não SSO. Isto pode ser relevante no caso de estar a tentar aceder a uma VNet a partir de um único IP com o Gateway instalado no mesmo, em vez de a partir de todo o intervalo de IP do Power BI.
+* Se estiver a utilizar uma origem de Snowflake através do gateway de dados no local, as credenciais AAD não são suportadas neste momento. Isto pode ser relevante no caso de estar a tentar aceder a uma VNet a partir de um único IP com o Gateway instalado no mesmo, em vez de a partir de todo o intervalo de IP do Power BI.
 * Se estiver a utilizar uma origem de Snowflake juntamente com outra origem que exige um Gateway, será necessário utilizar o Snowflake também através do gateway de dados no local e não poderá utilizar o SSO.
 
 Para saber mais sobre como utilizar o gateway de dados no local, veja o artigo [O que é um gateway de dados no local?](https://docs.microsoft.com/power-bi/service-gateway-onprem)
