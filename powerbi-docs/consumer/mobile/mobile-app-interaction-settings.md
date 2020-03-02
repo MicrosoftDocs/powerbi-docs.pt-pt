@@ -19,7 +19,7 @@ ms.locfileid: "76542295"
 
 ## <a name="overview"></a>Descrição geral
 
-A aplicação móvel do Power BI tem uma série de definições de "interação" configuráveis que lhe permitem controlar a forma como interage com os seus dados e definir o comportamento de determinados elementos na aplicação móvel do Power BI. Atualmente, existem definições para
+A aplicação móvel do Power BI tem uma série de definições de "interação" configuráveis que lhe permitem controlar a forma como interage com os seus dados e definir o comportamento de determinados elementos na aplicação. Atualmente, existem definições para
 * [Interação com toque único ou duplo em elementos visuais de relatórios](#single-tap)
 * [Rodapé de relatório ancorado ou dinâmico](#docked-report-footer-android-phones) (Android)
 * [Atualização de relatório por botão ou puxar para atualizar](#report-refresh-android-phones) (Android)
@@ -36,7 +36,7 @@ Para aceder às definições de interação, toque na imagem do perfil para abri
 ### <a name="single-tap"></a>Toque único
 Quando transfere a aplicação móvel do Power BI, a mesma encontra-se definida para interação com toque único. Isto significa que, quando toca num elemento visual para fazer algo, como selecionar um item de segmentação de dados, realces cruzados, clicar numa ligação ou num botão, etc., o toque seleciona o elemento visual e executa a ação que pretende.
 
-Se preferir, pode desativar a interação com toque único. Tem também a interação com duplo toque. Na interação com duplo toque, começa por tocar num elemento visual para selecionar o mesmo, e depois toca novamente no elemento visual para executar a ação pretendida.
+Se preferir, pode desativar a interação com toque único. Tem também a interação com duplo toque. Na interação com duplo toque, começa por tocar num elemento visual para o selecionar e depois toca novamente no mesmo para executar a ação pretendida.
 
 ### <a name="docked-report-footer-android-phones"></a>Rodapé de relatório ancorado (telemóveis Android)
 

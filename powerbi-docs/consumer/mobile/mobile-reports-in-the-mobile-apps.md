@@ -56,7 +56,7 @@ Após abrir um relatório na aplicação, poderá começar a trabalhar com o mes
 ### <a name="single-tap-versus-double-tap-interaction"></a>Interação com toque único versus duplo toque
 Quando transfere a aplicação móvel do Power BI, a mesma encontra-se definida para interação com toque único. Isto significa que, quando toca num elemento visual para fazer algo, como selecionar um item de segmentação de dados, realces cruzados, clicar numa ligação ou num botão, etc., o toque seleciona o elemento visual e executa a ação que pretende.
 
-Se preferir, pode desativar a interação com duplo toque. Na interação com duplo toque, começa por tocar num elemento visual para selecionar o mesmo, e depois toca novamente no elemento visual para executar a ação pretendida.
+Se preferir, pode desativar a interação com duplo toque. Na interação com duplo toque, começa por tocar num elemento visual para o selecionar e depois toca novamente no mesmo para executar a ação pretendida.
 
 Para mudar para a interação com duplo toque, ou para voltar à interação com toque único, aceda a [definições de interação da aplicação](./mobile-app-interaction-settings.md).
 
