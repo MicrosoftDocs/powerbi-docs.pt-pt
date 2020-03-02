@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699067"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527344"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>FAQ sobre elevada disponibilidade, ativação pós-falha e recuperação após desastre do Power BI
 
@@ -53,7 +53,10 @@ Em ambos os casos, são os membros da equipa executiva do Power BI que decidem r
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Quanto tempo demora a ativação pós-falha do Power BI?
 
-Quando a decisão de efetuar uma ativação pós-falha é tomada, a disponibilidade de uma instância de ativação pós-falha pode demorar até 60 minutos.
+O Power BI demora aproximadamente 15 minutos a ficar novamente operacional depois de ser identificado que é necessária uma ativação pós-falha. O tempo para identificar que é necessária uma ativação pós-falha varia, com base no cenário danificado. 
+
+Uma vez realizada uma ativação pós-falha, o Power BI utiliza a georreplicação do Armazenamento do Azure para realizar a ativação pós-falha. Tais replicações têm geralmente um ponto de retorno de 15 minutos. No entanto, o [Armazenamento do Azure não garante este intervalo de tempo](https://docs.microsoft.com/azure/storage/common/storage-redundancy) com um SLA e, portanto, o Power BI também não consegue garantir um intervalo de tempo. 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Quando é que a minha instância do Power BI regressa à região original?
 

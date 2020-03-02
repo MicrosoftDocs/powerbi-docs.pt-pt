@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925655"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426570"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizar o trabalho nas novas áreas de trabalho no Power BI
 
@@ -68,15 +68,16 @@ Eis as capacidades das quatro funções: administradores, membros, contribuidore
 | Adicionar/remover pessoas, incluindo outros administradores.  | X  |   |   |   |
 | Adicionar membros ou outras pessoas com permissões mais baixas.  |  X | X  |   |   |
 | Publicar e atualizar uma aplicação. |  X | X  |   |   |
-| Partilhar um item ou uma aplicação. |  X | X  |   |   |
-| Permitir que outras pessoas voltem a partilhar itens. |  X | X  |   |   |
+| Partilhar um item ou uma aplicação.<sup>1</sup> |  X | X  |   |   |
+| Permitir que outras pessoas voltem a partilhar itens.<sup>1</sup> |  X | X  |   |   |
 | Criar, editar e eliminar conteúdos na área de trabalho.  |  X | X  | X  |   |
 | Publicar relatórios na área de trabalho, eliminar conteúdos.  |  X | X  | X  |   |
 | Criar um relatório noutra área de trabalho com base num conjunto de dados desta área de trabalho.<sup>1</sup> |  X | X  | X  |   |
-| Copiar um relatório.<sup>1</sup> | X | X | X |  |
-| Ver e interagir com um item.<sup>2</sup> |  X | X  | X  | X  |
+| Copiar um relatório.<sup>2</sup> | X | X | X |  |
+| Ver e interagir com um item.<sup>3</sup> |  X | X  | X  | X  |
 
-1. Para copiar um relatório, bem como para criar um relatório noutra área de trabalho com base num conjunto de dados nessa área de trabalho, tem de cumprir critérios adicionais:
+1. Os Contribuidores e Visualizadores podem partilhar itens numa área de trabalho se tiverem permissões para voltar a partilhar.
+2. Para copiar um relatório, bem como para criar um relatório noutra área de trabalho com base num conjunto de dados nessa área de trabalho, tem de cumprir critérios adicionais:
     - Precisa de uma licença do Power BI Pro. Veja a próxima secção, [Licenciamento](#licensing), para obter mais informações.
     - Precisa de permissão de Compilação para o conjunto de dados. Para conjuntos de dados nesta área de trabalho, as pessoas com as funções Administrador, Membro e Contribuidor têm permissão de Compilação através da função da área de trabalho.
 2. Mesmo que não tenha uma licença do Power BI Pro, pode ver e interagir com itens no serviço Power BI se estes estiverem na área de trabalho de uma capacidade Premium.

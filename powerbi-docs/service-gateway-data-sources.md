@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698193"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558702"
 ---
 # <a name="manage-data-sources"></a>Gerir origens de dados
 
@@ -45,11 +45,24 @@ A maioria das operações de gestão de origens de dados também pode ser execut
 
 5. Para o SQL Server, pode selecionar um **Método de Autenticação** do **Windows** ou **Básico** (Autenticação SQL). Se optar por **Básico**, introduza as credenciais da sua origem de dados.
 
-6. Em **Advanced settings** (Definições avançadas), configure opcionalmente o [privacy level](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (nível de privacidade) da sua origem de dados (não se aplica ao [DirectQuery](desktop-directquery-about.md)).
+6. Em **Definições avançadas**, pode configurar o [Início de Sessão Único (SSO)](service-gateway-sso-overview.md) para a sua origem de dados. 
+
+    ![definições avançadas](media/service-gateway-data-sources/advanced-settings-02.png)
+
+Pode configurar **Utilizar SSO através de Kerberos para consultas de DirectQuery** ou **Utilizar SSO através de Kerberos para consultas de DirectQuery e Importação** para Relatórios baseados no DirectQuery e **Utilizar SSO através de Kerberos para consultas de DirectQuery e Importação** para Relatórios baseados na Atualização.
+
+Se utilizar a opção **Utilizar SSO através de Kerberos para consultas de DirectQuery** e utilizar esta origem de dados para um Relatório baseado no DirectQuery, será utilizado o utilizador que está mapeado ao utilizador do Azure Active Directory que inicia sessão no serviço Power BI. Para um Relatório baseado na Atualização, utilizará as credenciais que introduzir nos campos **Nome de utilizador** e **Palavra-passe**.
+
+Se utilizar a opção **Utilizar SSO através de Kerberos para consultas de DirectQuery e Importação**, não precisa de fornecer quaisquer credenciais. Se utilizar esta origem de dados para um Relatório baseado no DirectQuery, será utilizado o utilizador que está mapeado ao utilizador do Azure Active Directory que inicia sessão no serviço Power BI.  Para um Relatório baseado na Atualização, utilizará o contexto de segurança do proprietário do conjunto de dados
+
+> [!NOTE]
+>O SSO para Consultas de Importação só está disponível para a lista de origens de dados SSO através da [delegação restrita de Kerberos](service-gateway-sso-kerberos.md).
+
+7. Em **Advanced settings** (Definições avançadas), configure opcionalmente o [privacy level](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (nível de privacidade) da sua origem de dados (não se aplica ao [DirectQuery](desktop-directquery-about.md)).
 
     ![Definições avançadas](media/service-gateway-data-sources/advanced-settings.png)
 
-7. Selecione **Adicionar**. Aparece a mensagem *Ligação Efetuada com Êxito* se o processo for bem-sucedido.
+8. Selecione **Adicionar**. Aparece a mensagem *Ligação Efetuada com Êxito* se o processo for bem-sucedido.
 
     ![Ligação estabelecida com êxito](media/service-gateway-data-sources/connection-successful.png)
 

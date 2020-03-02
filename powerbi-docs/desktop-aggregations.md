@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538758"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427668"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Utilizar agregações no Power BI Desktop
 
@@ -185,6 +185,10 @@ A função AVERAGE pode beneficiar com as agregações. A consulta seguinte obt�
 Em alguns casos, a função DISTINCTCOUNT pode beneficiar com as agregações. A consulta seguinte obtém resultados da agregação porque existe uma entrada GroupBy (AgruparPor) para **CustomerKey** (ClientePrincipal), que mantém a distinção de **CustomerKey** (ClientePrincipal) na tabela de agregação. Esta técnica poderia continuar a obter o limiar de desempenho em que mais de dois a cinco milhões de valores distintos podem afetar o desempenho da consulta. No entanto, pode ser útil em contextos em que existam milhares de milhões de linhas na tabela de detalhes, mas dois a cinco milhões de valores distintos na coluna. Neste caso, a função DISTINCTCOUNT pode ser realizada com maior rapidez do que uma análise da tabela com milhares de milhões de linhas, mesmo que tenha sido colocada em cache dentro da memória.
 
 ![Consulta de agregação DISTINCTCOUNT](media/desktop-aggregations/aggregations-code_07.jpg)
+
+As funções de análise de tempo DAX têm em consideração a agregação. A seguinte consulta tem como resultado a agregação porque a função DATESYTD gera uma tabela de valores **CalendarDay** e a tabela de agregação está numa granularidade que é coberta para colunas Agrupar por na tabela **Data**. Este é um exemplo de um filtro de valor de tabela para a função CALCULATE, que pode funcionar com agregações.
+
+![Consulta de agregação SUMMARIZECOLUMNS](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>Agregações baseadas em colunas GroupBy 
 

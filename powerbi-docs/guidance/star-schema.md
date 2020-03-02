@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410854"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527528"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Compreender o que é um esquema de estrela e qual a importância para o Power BI
 
@@ -71,9 +71,10 @@ Num modelo do Power BI, uma **medida** tem uma definição diferente mas semelha
 
 ![Exemplo de ícone na lista de campos](media/star-schema/field-list-example.png)
 
-No entanto, existem dois motivos apelativos para criar medidas, até mesmo para resumos simples ao nível da coluna:
+No entanto, existem três motivos apelativos para criar medidas, até mesmo para resumos simples ao nível da coluna:
 
-- Quando sabe que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (as tabelas dinâmicas emitem consultas MDX).
+- Quando souber que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (as tabelas dinâmicas emitem consultas MDX).
+- Quando souber que os autores de relatórios irão criar relatórios paginados do Power BI com o estruturador de consulta MDX, o modelo tem de incluir medidas explícitas. Apenas o estruturador de consulta MDX suporta [agregados de servidores](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Assim, se os autores de relatórios precisarem de ter medidas avaliadas pelo Power BI (em vez do motor de relatórios paginados), têm de utilizar o estruturador de consulta MDX.
 - Se precisar de garantir que os autores de relatórios só podem resumir colunas de formas específicas. Por exemplo, a coluna **Preço Unitário** de vendas de revendedor (que representa uma taxa por unidade) pode ser resumida, mas apenas com funções de agregação específicas. Nunca deve ser somada, mas é adequado resumir com outras funções de agregação (min, max, average, etc.). Neste caso, o modelador pode ocultar a coluna **Preço Unitário** e criar medidas para todas as funções de agregação adequadas.
 
 Tenha em atenção que esta abordagem de design funciona bem para relatórios criados no serviço Power BI e Perguntas e Respostas. No entanto, as ligações em direto do Power BI Desktop permitem que os autores de relatórios mostrem campos ocultos no painel **Campos**, o que pode contornar esta abordagem de design.

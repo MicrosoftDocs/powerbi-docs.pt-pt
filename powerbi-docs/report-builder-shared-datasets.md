@@ -1,18 +1,18 @@
 ---
 title: Criar um relatório paginado com um conjunto de dados partilhado do Power BI – Power BI Report Builder
 description: Crie um relatório paginado no Power BI Report Builder com base num conjunto de dados partilhado do Power BI.
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691475"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427852"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Criar um relatório paginado com base num conjunto de dados partilhado do Power BI
 
@@ -27,6 +27,7 @@ O conjunto de dados não tem de estar numa área de trabalho na capacidade Premi
 Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados partilhado no Power BI Report Builder.
 
 - Power BI Report Builder. [Transferir e instalar o Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Desktop. [Transferir e instalar o Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 - Para aceder a um conjunto de dados do Power BI, tem de ter permissão de compilação no conjunto de dados. Leia sobre a [permissão de compilação](service-datasets-build-permissions.md).
 - Não precisa de uma licença do Power BI Pro para criar um relatório paginado no Report Builder. 
 - Precisa de uma licença do Power BI Pro para publicar o seu relatório paginado. Também precisa de pelo menos uma função de Contribuidor numa área de trabalho numa capacidade Premium. 
@@ -57,12 +58,26 @@ Eis uma lista do que precisa e não precisa para utilizar um conjunto de dados p
     Lembre-se de que pode ligar a múltiplos conjuntos de dados do Power BI e outras origens de dados no mesmo relatório paginado.
 
 
-## <a name="get-the-query-for-the-dataset"></a>Obter a consulta para o conjunto de dados
+## <a name="get-the-dax-query-for-the-dataset"></a>Obter a consulta DAX para o conjunto de dados
 
 Quando quer que os dados no seu relatório do Power BI e no seu relatório do Report Builder sejam os mesmos, não basta ligar ao conjunto de dados. Também precisa da consulta incorporada nesse conjunto de dados.
 
+### <a name="video-get-the-dax-query"></a>Vídeo: Obter a consulta DAX
+
+No vídeo seguinte, Chris Finlan demonstra como obter o DAX de que precisa para o seu relatório paginado.
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>Passos para obter a consulta DAX
+
+Seguem-se os passos para obter a consulta.
+
 1. Abra o relatório do Power BI (.pbix) no Power BI Desktop.
-1. Certifique-se de que tem uma tabela no seu relatório que contém todos os dados que pretende no relatório paginado.
+1. Certifique-se de que tem uma tabela no seu relatório que contém todos os dados que pretende no relatório paginado. A tabela tem de cumprir estes dois requisitos:
+    - Tem de ser uma tabela simples e não uma matriz ou outro elemento visual. Se não for uma tabela, converta-a agora numa tabela, siga os passos do Analisador de Desempenho que se seguem e, em seguida, converta-a novamente no elemento visual pretendido.
+    - Para os campos numéricos, tem de utilizar *medidas predefinidas*. Têm um símbolo de calculadora ao lado. Saiba mais sobre a [criação de medidas](desktop-measures.md). 
+
+        ![Ícone da medida](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. No friso **Ver**, selecione **Analisador de Desempenho**.
 
@@ -204,6 +219,7 @@ Por exemplo, digamos que o seu relatório tem o formato 8,5x11 pol. e definiu as
 
 - Para conjuntos de dados que utilizam uma Ligação em Direto ao Analysis Services, pode ligar diretamente ao utilizar a ligação subjacente do Analysis Services em vez de um conjunto de dados partilhado.
 - Os conjuntos de dados com recomendações certificadas ou promovidas aparecem na lista de conjuntos de dados disponíveis, mas não são marcados como tal. 
+- Não pode incorporar relatórios paginados baseados em conjuntos de dados partilhados do Power BI no cenário "Os Dados Pertencem à Aplicação".
 
 ## <a name="next-steps"></a>Próximos passos
 

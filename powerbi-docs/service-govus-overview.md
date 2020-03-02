@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160771"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496931"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes da Administração Pública dos EUA
 Este artigo é para clientes do US Government que estão a implementar o Power BI como parte de um plano do Office 365 para o Governo Norte-Americano. Os planos governamentais destinam-se às necessidades únicas das organizações que devem cumprir as normas de conformidade e segurança dos EUA. O serviço Power BI concebido para clientes do US Government difere da versão comercial do serviço Power BI. Estas capacidades e diferenças das funcionalidades são descritas nas secções seguintes.
@@ -37,7 +37,7 @@ O Office 365 fornece diferentes ambientes para que as agências governamentais 
 
 * A [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) (Cloud da Comunidade Governamental (GCC) do Office 365) foi concebida para o governo federal, estadual e local.
 
-* A [Office 365 Government Community Cloud High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (Cloud da Comunidade Governamental Elevada (GCC-High) do Office 365) foi concebida para as agências federais, a indústria de defesa, a indústria aeroespacial e outras organizações que detêm informações não classificadas controladas. Este ambiente é adequado para organizações de segurança nacional e empresas com dados dos International Traffic in Arms Regulations (ITAR – Regulamentos sobre o Tráfico Internacional de Armas) ou requisitos do Defense Federal Acquisition Regulations Supplement (DFARS – Suplemento dos Regulamentos de Aquisições Federais do Departamento da Defesa).
+* A [Office 365 Government Community Cloud High (GCC-High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (Cloud da Comunidade Governamental Elevada (GCC-High) do Office 365) foi concebida para as agências federais, a indústria de defesa, a indústria aeroespacial e outras organizações com informações não classificadas controladas. Este ambiente é adequado para organizações de segurança nacional e empresas com dados dos International Traffic in Arms Regulations (ITAR – Regulamentos sobre o Tráfico Internacional de Armas) ou requisitos do Defense Federal Acquisition Regulations Supplement (DFARS – Suplemento dos Regulamentos de Aquisições Federais do Departamento da Defesa).
 
 * O [Office 365 DoD environment](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (Ambiente DoD do Office 365) foi concebido exclusivamente para o Departamento da Defesa dos EUA. 
 
@@ -89,12 +89,12 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |Criação de relatórios|Criar e ver dashboards e relatórios|Disponível|Disponível|Disponível|
 |  |Atualização de dados agendada|Disponível|Disponível|Disponível|
 |  |Dashboards de equipa atualizáveis|Disponível|Disponível|Disponível|
-|  |Relatórios paginados|Disponível apenas em USGov Texas e USGov Virginia |Disponível|Previsto|
+|  |Relatórios paginados|Disponível|Disponível|Previsto|
 |  |Aplicações de modelo|Não disponível|Não disponível|Não disponível|
 |Ligar-se a dados|Importar dados e relatórios do Excel|Disponível|Disponível|Disponível|
 |  |Importar dados de ficheiros CSV|Disponível|Disponível|Disponível|
 |  |Importar dados de ficheiros do Power BI Desktop|Disponível|Disponível|Disponível|
-|  |Conectividade para CDS|Não disponível|Não disponível|Não disponível|
+|  |Conectividade para CDS|Disponível|Não disponível|Não disponível|
 |  |Conector do Azure Data Lake Storage Gen2|Não disponível|Não disponível|Não disponível|
 |Gestão de dados|Gateway de gestão de dados|Disponível|Disponível|Disponível|
 |  |Encriptação de dados no Azure SQL|Disponível|Disponível|Disponível|
@@ -103,7 +103,7 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 |  |Incorporar no SharePoint Online com a parte Web da Incorporação|Disponível|Disponível|Disponível|
 |  |Fluxos de dados e funções de IA|Não disponível|Não disponível|Não disponível|
 |  |Conectividade do Power Automate para alertas baseados em dados|Não disponível|Não disponível|Não disponível|
-|  |Separador Power BI no Teams|Não disponível|Não disponível|Não disponível|
+|  |Separador Power BI no Teams|Disponível|Não disponível|Não disponível|
 |  |Machine Learning Automatizado|Não disponível|Não disponível|Não disponível|
 |  |Serviços Cognitivos|Não disponível|Não disponível|Não disponível|
 |  |Azure ML|Não disponível|Não disponível|Não disponível|
@@ -111,7 +111,6 @@ Para cumprir os requisitos dos clientes da cloud governamental, existem algumas 
 ## <a name="next-steps"></a>Próximos passos
 
 * [Inscrever-se no Power BI para a Administração Pública dos EUA](service-govus-signup.md)
+* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demonstração do Power BI para a Administração Pública dos EUA</a>
-* [Introdução ao serviço Power BI](service-get-started.md)
-* [O que é o Power BI Desktop?](desktop-what-is-desktop.md)
-

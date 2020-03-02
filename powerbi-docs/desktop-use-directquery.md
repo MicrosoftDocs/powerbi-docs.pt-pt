@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889288"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427237"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Utilizar o DirectQuery no Power BI Desktop
 Com o *Power BI Desktop*, ao ligar à origem de dados, pode sempre importar uma cópia dos dados para o Power BI Desktop. Para algumas origens de dados, está disponível uma abordagem alternativa: ligar-se diretamente à origem de dados com o DirectQuery.
@@ -46,8 +46,6 @@ Tem algumas vantagens ao utilizar o DirectQuery:
 
 ## <a name="limitations-of-directquery"></a>Limitações do DirectQuery
 Atualmente, existem algumas limitações na utilização do DirectQuery:
-
-- Todas as tabelas têm de ser provenientes de uma base de dados individual, a menos que utilize [modelos compostos](desktop-composite-models.md).
 
 - Se a consulta do **Editor de Consultas** for excessivamente complexa, ocorre um erro. Para corrigir esse erro, deve eliminar o passo que apresenta problemas no **Editor de Consultas** ou *Importar* os dados, em vez de utilizar o DirectQuery. Para origens multidimensionais, como o SAP Business Warehouse, não existe nenhum **Editor de Consultas**.
 
@@ -94,7 +92,7 @@ Se a origem de dados utilizada não precisar do **Gateway de dados no local** (*
 
 4. Adicione as credenciais. Caso contrário, ocorre um erro ao abrir um relatório publicado ou ao explorar um conjunto de dados criado com uma ligação DirectQuery.
 
-Para fazer uma ligação de dados para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse** e do **Redshift** que utilizam o DirectQuery, instale um **Gateway de dados no local** e registe a origem de dados. Para obter mais informações, veja [O que é um gateway de dados no local?](service-gateway-onprem.md)
+Para fazer uma ligação de dados para origens de dados diferentes da **Base de Dados SQL do Azure**, do **Azure SQL Data Warehouse**, do **Redshift** ou do **Snowflake Data Warehouse** que utilizam o DirectQuery, instale um **Gateway de dados no local** e registe a origem de dados. Para obter mais informações, veja [O que é um gateway de dados no local?](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>Próximos passos
 Para obter mais informações sobre o DirectQuery, consulte os seguintes recursos:

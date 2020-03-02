@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016141"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527491"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Use the updated ribbon in Power BI Desktop (preview) (Utilizar o friso atualizado no Power BI Desktop [pré-visualização])
 
@@ -51,7 +51,18 @@ Estes benefícios podem ser agrupados nas seguintes categorias:
 
 * **Um friso de uma única linha, quando recolhido, poupa-lhe espaço** – outro benefício do friso atualizado é a capacidade de recolher o próprio friso numa única linha, o que apresenta os itens do friso de forma dinâmica com base no contexto. 
 
-    ![Melhores temas](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Friso fechado](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Informações de teclas de atalho para navegar e selecionar botões**: para navegar no friso, pode premir **Alt+Tecla Windows** para ativar as informações das teclas de atalho. Uma vez ativadas, pode premir as teclas apresentadas no seu teclado para navegar.
+
+    ![Informações das teclas de atalho](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Cadeias de formato personalizado**: além de definir cadeias de formato personalizado no painel *Propriedades*, também poderá defini-las no friso. Selecione a medida ou coluna que pretende personalizar e será apresentado um separador contextual **Ferramentas de medição** ou **Ferramentas de coluna**, consoante a sua seleção. Na secção de formatação do separador, pode introduzir a sua cadeia de formato personalizado diretamente na caixa da lista pendente.
+
+    ![Custom format strings (Cadeias de formato personalizado)](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Acessibilidade**: a barra de título, o friso e o menu de ficheiro são totalmente acessíveis. Prima Ctrl+F6 para navegar até à secção do friso. Quando estiver na secção, pode utilizar a **Tecla de Tabulação** para navegar nas barras superiores e inferiores e utilizar as teclas de seta para alternar entre elementos.
+
 
 Para além das alterações visíveis, um friso atualizado também nos permite efetuar futuras atualizações ao Power BI Desktop e ao friso, tais como as seguintes:
 

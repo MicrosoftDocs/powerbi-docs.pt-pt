@@ -3,21 +3,22 @@ title: O que é uma aplicação do Power BI?
 description: No Power BI, as aplicações juntam dashboards e relatórios num único local.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851029"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496699"
 ---
 # <a name="apps-in-power-bi"></a>Aplicações no Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ As suas aplicações estão organizadas na lista de conteúdos **Aplicações**.
 ![Aplicações no Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> A utilização da funcionalidade de aplicações requer uma licença do Power BI Pro. <!-- add link to how to figure out your license -->
+> A utilização da funcionalidade de aplicações requer uma licença do Power BI Pro. [Procurar o seu tipo de licença](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***Designers*** e ***consumidores*** de aplicações
+## <a name="app-designers-and-app-consumers"></a>*Designers* e *consumidores* de aplicações
 Consoante o seu cargo, pode ser uma pessoa que cria aplicações (*designer*) para sua utilização ou para partilhar com colegas. Também pode ser uma pessoa que recebe e transfere aplicações (*consumidor*) criadas por outras pessoas. Este artigo é direcionado para *consumidores* de aplicações.
 
 ## <a name="advantages-of-apps"></a>Vantagens das aplicações

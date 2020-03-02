@@ -1,37 +1,37 @@
 ---
-title: Atualização incremental no Power BI Premium
-description: Saiba como utilizar conjuntos de dados muito grandes no serviço Power BI Premium.
+title: Atualização incremental no Power BI
+description: Saiba como utilizar grandes conjuntos de dados no Power BI.
 author: davidiseminger
-ms.reviewer: kayu
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699297"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527636"
 ---
-# <a name="incremental-refresh-in-power-bi-premium"></a>Atualização incremental no Power BI Premium
+# <a name="incremental-refresh-in-power-bi"></a>Atualização incremental no Power BI
 
-A atualização incremental permite utilizar conjuntos de dados muito grandes no serviço Power BI Premium, com as seguintes vantagens:
+A atualização incremental permite utilizar conjuntos de dados muito grandes no Power BI com as seguintes vantagens:
 
 > [!div class="checklist"]
 > * **As atualizações ocorrem de forma mais rápida** – apenas os dados que são alterados têm de ser atualizados. Por exemplo, atualize apenas os últimos cinco dias de um conjunto de dados de 10 anos.
 > * **As atualizações são mais fiáveis** – já não é necessário manter ligações de longa duração a sistemas de origens voláteis.
 > * **O consumo de recursos é reduzido** – uma quantidade menor de dados a atualizar reduz o consumo geral de memória e de outros recursos.
 
+> [!NOTE]
+> A atualização incremental está agora disponível para o Power BI Pro e Premium, bem como para conjuntos de dados e subscrições partilhadas. 
+
 ## <a name="configure-incremental-refresh"></a>Configurar a atualização incremental
 
 As políticas de atualização incremental são definidas no Power BI Desktop e aplicadas assim que são publicadas no serviço Power BI.
 
-Para começar, ative a atualização incremental nas **Funcionalidades de pré-visualização**.
-
-![Opções – funcionalidades de pré-visualização](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Filtrar conjuntos de dados grandes no Power BI Desktop
 
@@ -72,7 +72,7 @@ O filtro na coluna de datas é utilizado para particionar os dados em intervalos
 
 É importante que os filtros de partição sejam enviados para o sistema de origem quando as consultas são submetidas para as operações de atualização. Enviar a filtragem significa que a origem de dados deve suportar a dobragem de consultas. A maioria das origens de dados que suporta consultas SQL também suporta a filtragem de consultas no servidor. No entanto, as origens de dados como ficheiros simples, blobs, Web e feeds OData normalmente não a suportam. Nos casos em que o filtro não for suportado pelo back-end da origem de dados, não poderá ser enviado. Nesses casos, o motor de mashup compensa e aplica o filtro localmente, o que poderá exigir a obtenção do conjunto de dados completo a partir da origem de dados. Isto pode tornar a atualização incremental muito lenta e o processo pode ficar sem recursos no serviço Power BI ou no gateway de dados no local, se este for utilizado.
 
-Devido aos vários níveis do suporte da dobragem de consultas para cada origem de dados, é recomendado que a verificação seja executada para garantir que a lógica de filtro está incluída nas consultas de origem. Para facilitar, o Power BI Desktop tenta executar esta verificação automaticamente. Se não for possível verificar, será apresentado um aviso na caixa de diálogo da atualização incremental ao definir a política de atualização incremental. As origens de dados baseadas em SQL, como o SQL Oracle e o Teradata, podem depender deste aviso. Outras origens de dados poderão não conseguir verificar sem as consultas de rastreio. Se o Power BI Desktop não conseguir confirmar, será apresentado o seguinte aviso.
+Devido aos vários níveis do suporte da dobragem de consultas para cada origem de dados, é recomendado que a verificação seja executada para garantir que a lógica de filtro está incluída nas consultas de origem. Para facilitar, o Power BI Desktop tenta executar esta verificação automaticamente. Se não for possível verificar, será apresentado um aviso na caixa de diálogo da atualização incremental ao definir a política de atualização incremental. As origens de dados baseadas em SQL, como o SQL Oracle e o Teradata, podem depender deste aviso. Outras origens de dados poderão não conseguir verificar sem as consultas de rastreio. Se o Power BI Desktop não conseguir confirmar, será apresentado o seguinte aviso. Se vir este aviso e quiser confirmar a ocorrência da dobragem de consultas necessária, pode utilizar a funcionalidade Diagnóstico de Consultas ou rastrear as consultas recebidas pela base de dados de origem.
 
  ![Dobragem de consultas](media/service-premium-incremental-refresh/query-folding.png)
 
@@ -93,7 +93,7 @@ A caixa de diálogo Atualização Incremental é apresentada. Utilize o botão p
 
 O texto de cabeçalho explica o seguinte:
 
-- A atualização incremental só é suportada em áreas de trabalho com capacidades Premium. As políticas de atualização são definidas no Power BI Desktop e são aplicadas por operações de atualização no serviço.
+- As políticas de atualização são definidas no Power BI Desktop e são aplicadas por operações de atualização no serviço.
 
 - Se conseguir transferir o ficheiro PBIX com uma política de atualização incremental a partir do serviço Power BI, o ficheiro não poderá ser aberto no Power BI Desktop. Embora esta operação possa vir a ser suportada no futuro, tenha em atenção que estes conjuntos de dados podem tornar-se muito grandes e deixarem de ser práticos para transferir e abrir num computador normal.
 
@@ -110,6 +110,13 @@ O seguinte exemplo define uma política de atualização para armazenar dados du
 A primeira atualização no serviço Power BI poderá demorar mais tempo a importar todos os cinco anos do calendário completos. As atualizações posteriores poderão ser concluídas numa fração do tempo.
 
 ![Intervalos de atualização](media/service-premium-incremental-refresh/refresh-ranges.png)
+
+
+#### <a name="current-date"></a>Data atual
+
+A *data atual* é baseada na data do sistema na altura da atualização. Se a atualização agendada estiver ativada para o conjunto de dados no serviço Power BI, o fuso horário especificado será tido em conta ao determinar a data atual. Tanto as atualizações manuais como as agendadas verificam o fuso horário, caso o mesmo esteja disponível. Por exemplo, uma atualização que ocorra às 20h na Hora do Pacífico (EUA e Canadá) com o fuso horário especificado irá determinar a data atual com base na Hora do Pacífico e não na hora GMT (que seria no dia seguinte).
+
+![Fuso horário](media/service-premium-incremental-refresh/time-zone2.png)
 
 > [!NOTE]
 > Poderá apenas ter de definir estes intervalos. Se for esse o caso, pode avançar para o passo de publicação abaixo. Os menus pendentes adicionais aplicam-se a funcionalidades avançadas.
@@ -143,10 +150,6 @@ Outro exemplo é a atualização de dados de um sistema financeiro em que os dad
 > As operações de atualização no serviço são executadas na hora UTC. Isto pode determinar a data efetiva e afetar períodos completos. Planeamos adicionar a capacidade de substituir a data efetiva para uma operação de atualização.
 
 ## <a name="publish-to-the-service"></a>Publicar no serviço
-
-Uma vez que a atualização incremental é uma funcionalidade exclusivamente Premium, a caixa de diálogo de publicação só permite selecionar uma área de trabalho na capacidade Premium.
-
-![Publicar no serviço](media/service-premium-incremental-refresh/publish.png)
 
 Já pode atualizar o modelo. A primeira atualização poderá demorar mais tempo a importar os dados do histórico. As atualizações posteriores poderão ser muito mais rápidas, dado que utilizam a atualização incremental.
 

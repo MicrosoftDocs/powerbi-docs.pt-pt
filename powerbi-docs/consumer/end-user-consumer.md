@@ -3,20 +3,21 @@ title: O que é um "Consumidor" do Power BI?
 description: Descrição geral do Power BI para consumidores (também conhecidos como utilizadores finais ou utilizadores empresariais).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863810"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496234"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>O serviço Power BI para consumidores
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Vive numa cultura orientada para os dados, onde as decisões empresariais se baseiam em factos e não em opiniões. Necessita de dados para tomar estas decisões e os seus colegas não o irão desiludir.     
  
@@ -43,6 +44,8 @@ A forma como interage com o Power BI irá depender da sua função. Um utilizado
 Enquanto consumidor, não terá acesso a todas as funcionalidades do Power BI, o que não é problema, porque a sua tarefa não se baseia em criar dashboards e relatórios. Irá utilizar o Power BI para análise, monitorização, exploração e tomada de decisões. 
 
 Irá certamente deparar-se com o termo "Power BI Desktop" ou apenas "Desktop", que é uma ferramenta autónoma utilizada pelos *criadores* que criam e partilham dashboards e relatórios consigo.  É importante saber que existem outras ferramentas do Power BI. No entanto, se for um consumidor, só irá trabalhar com o serviço Power BI. 
+
+Uma vez que está a trabalhar com conteúdos *partilhados*, irá precisar de uma licença do Power BI Pro ou Premium. [Qual é a minha licença?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interagir com conteúdos de forma segura 

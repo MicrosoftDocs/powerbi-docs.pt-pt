@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852262"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496658"
 ---
 # <a name="what-are-bookmarks"></a>O que são marcadores?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Os marcadores capturam a vista atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos elementos visuais. Ao selecionar um marcador, o Power BI permite-lhe voltar a essa vista. Existem dois tipos de marcadores: os criados por si e os criados por *designers* de relatórios.
+Os marcadores capturam a vista atualmente configurada de uma página de relatório, incluindo filtros, segmentações e o estado dos elementos visuais. Ao selecionar um marcador, o Power BI permite-lhe voltar a essa vista. Existem dois tipos de marcadores: os criados por si e os criados por *designers* de relatórios. Qualquer utilizador do Power BI pode criar marcadores pessoais. No entanto, a capacidade de utilizar marcadores criados por outros exige uma licença Power BI Pro ou Premium. [Qual é a minha licença?](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Utilizar marcadores para partilhar informações e criar histórias no Power BI 
 Os marcadores podem ser utilizados de várias formas. Suponhamos que descobre informações interessantes e que quer preservá-las – crie um marcador para que possa voltar às mesmas mais tarde. Se precisar de sair e quiser preservar o seu trabalho atual, crie um marcador. Pode até fazer com que um marcador seja a sua vista predefinida do relatório para que, sempre que regressar, essa vista da página do relatório seja aberta em primeiro lugar. 
@@ -33,6 +35,9 @@ Para abrir o painel Marcadores, selecione **Marcadores** > **Mostrar mais marcad
 
 ### <a name="report-bookmarks"></a>Marcadores de relatório
 Se o *designer* de relatórios tiver incluído marcadores de relatório, irá encontrá-los no título **Marcadores de relatório**. Esta página de relatórios tem dois marcadores, B1 e B2. 
+
+> [!NOTE]
+> Irá precisar do Power BI Pro ou Premium para ver relatórios partilhados. 
 
 ![Mostrar Marcadores de relatório.](media/end-user-bookmarks/power-bi-report.png)
 

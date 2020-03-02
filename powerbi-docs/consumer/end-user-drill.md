@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851445"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496421"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploração num elemento visual no Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ As datas são um tipo único de hierarquia.  Os designers de relatórios costuma
 Não sabe que elementos visuais do Power BI contêm uma hierarquia? Paire o cursor sobre um elemento visual. Se for apresentada uma combinação dos seguintes controlos de exploração na parte superior, significa que o seu elemento visual contém uma hierarquia.
 
 ![Captura de ecrã a mostrar os ícones de exploração.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Saiba como desagregar e agregar
 
@@ -108,7 +111,7 @@ Também pode optar por desagregar ou expandir um campo de cada vez.
 
 Um treemap a mostrar apenas um código postal não é algo informativo.  Por isso, vamos *expandir* para baixo um nível na hierarquia.  
 
-1. Com o treemap ativo, selecione o ícone *Expandir para baixo* ![Captura de ecrã do ícone Expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). O treemap mostra agora dois níveis da nossa hierarquia: código postal e nome da loja.
+1. Com o treemap ativo, selecione o ícone *Expandir para baixo*![Captura de ecrã do ícone Expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). O treemap mostra agora dois níveis da nossa hierarquia: código postal e nome da loja.
 
     ![Captura de ecrã do treemap a mostrar o código postal e o nome da loja](./media/end-user-drill/power-bi-expand-one.png)
 
@@ -116,7 +119,7 @@ Um treemap a mostrar apenas um código postal não é algo informativo.  Por iss
 
     ![Captura de ecrã do treemap a mostrar todos os dados de TN.](media/end-user-drill/power-bi-expand-two.png)
 
-1. Confirme que a desagregação ainda está ativada, ![Captura de ecrã do ícone da desagregação ativado.](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo* ![Captura de ecrã do ícone Expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). O gráfico treemap mostra agora o mesmo número de folhas (caixas), mas cada folha tem detalhes adicionais. Em vez de apresentar apenas a cidade e o estado, agora também apresenta o código postal.
+1. Confirme que a desagregação ainda está ativada, ![Captura de ecrã do ícone da desagregação ativado.](./media/end-user-drill/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo*![Captura de ecrã do ícone Expandir para baixo.](./media/end-user-drill/power-bi-drill-icon6.png). O gráfico treemap mostra agora o mesmo número de folhas (caixas), mas cada folha tem detalhes adicionais. Em vez de apresentar apenas a cidade e o estado, agora também apresenta o código postal.
 
     ![Captura de ecrã do elemento visual a mostrar a cidade, o estado e o código postal.](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,7 +144,9 @@ Repare que os totais são iguais para **City** (Cidade), **PostalCode** (Código
 
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
-Por predefinição, a desagregação não filtrará outros elementos visuais num relatório. No entanto, o designer do relatório pode alterar este comportamento predefinido. À medida que explora, observe se os outros elementos visuais na página foram sujeitos à filtragem cruzada ou ao realce cruzado.
+- Por predefinição, a desagregação não filtrará outros elementos visuais num relatório. No entanto, o designer do relatório pode alterar este comportamento predefinido. À medida que explora, observe se os outros elementos visuais na página foram sujeitos à filtragem cruzada ou ao realce cruzado.
+
+- Para ver um relatório que foi partilhado consigo necessita de uma licença Power BI Pro ou Premium. [Qual é a minha licença?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Próximos passos

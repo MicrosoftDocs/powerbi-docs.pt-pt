@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874124"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426662"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Power BI Report Server
 
@@ -93,11 +93,15 @@ Os relatórios do Power BI Report Server não suportam estas funcionalidades nas
 * Trilhos
 * Geofiltragem ou códigos de barras
 
+### <a name="custom-security"></a>Segurança Personalizada
+
+O Power BI Desktop otimizado para o Power BI Report Server não suporta segurança personalizada. Se o seu Power BI Report Server estiver configurado com uma extensão de segurança personalizada, não pode guardar um relatório Power BI do Power BI Desktop (otimizado para Power BI Report Server) para a instância do Power BI Report Server. Tem de guardar o ficheiro de relatório .pbix do Power BI Desktop e carregá-lo no site do portal do Power BI Report Server.
+
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop para versões anteriores do Power BI Report Server
 
 Se o seu servidor de relatórios se encontrar numa versão anterior, irá precisar da versão correspondente do Power BI Desktop. Eis a ligação para transferir uma versão anterior.
 
-- Microsoft Power BI Desktop ([Otimizado para o Power BI Report Server – janeiro de 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([Otimizado para o Power BI Report Server – setembro de 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>Próximos passos
 

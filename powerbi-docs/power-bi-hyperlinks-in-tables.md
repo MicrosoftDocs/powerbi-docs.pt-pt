@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954165"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427812"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Adicionar hiperligações (URLs) a uma tabela ou matriz
 Este tópico explica como adicionar hiperligações (URLs) a uma tabela. Pode utilizar o Power BI Desktop para adicionar hiperligações (URLs) a um conjunto de dados. Pode adicionar essas hiperligações às matrizes e tabelas de relatório no Power BI Desktop ou no serviço Power BI. Em seguida, pode visualizar o URL ou um ícone de ligação ou formatar outra coluna como texto da ligação.
@@ -34,7 +34,7 @@ Pode formatar um campo com URLs como hiperligações no Power BI Desktop, mas 
     > [!NOTE]
     > Não pode criar colunas no modo DirectQuery.  Porém, pode transformá-los em hiperligações se os dados já contiverem URLs.
 
-2. Na Vista de dados, selecione a coluna. 
+2. Na vista Dados ou Relatório, selecione a coluna. 
 
 3. No separador **Modelação**, selecione **Categoria de Dados** > **URL da Web**.
    
@@ -79,13 +79,20 @@ Também pode formatar outro campo numa tabela como a hiperligação, sem ter uma
 
 1. Se um campo com uma hiperligação ainda não existir no conjunto de dados, utilize o Power BI Desktop para o adicionar como uma [coluna personalizada](desktop-common-query-tasks.md). Novamente, não pode criar colunas no modo DirectQuery.  Porém, pode transformá-los em hiperligações se os dados já contiverem URLs.
 
-2. Na Vista de relatório, crie uma tabela ou matriz com a coluna que quer formatar como texto da ligação.
+2. Na vista Dados ou Relatório, selecione a coluna que contém o URL. 
+
+3. No separador **Modelação**, selecione **Categoria de Dados**. Certifique-se de que a coluna está formatada como **Sem Categoria**.
+
+2. Na vista Relatório, crie uma tabela ou matriz com a coluna de URL e a coluna que pretende formatar como texto da ligação.
 
 3. Com a tabela selecionada, selecione o ícone **Formatar** ![ícone de Rolo de pintura](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) para abrir o separador Formatação.
 
-4. Expanda a **Formatação condicional** e confirme que o nome na caixa é a coluna que quer como texto da ligação. Localize o **ícone de URL** e defina-o como **Ativo**.
+4. Expanda a **Formatação condicional** e confirme que o nome na caixa é a coluna que quer como texto da ligação. Localize o **URL da Web** e defina-o como **Ativado**.
 
     ![URL da Web de formatação condicional](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > Se não vir uma opção **URL da Web**, certifique-se de que a coluna que contém as hiperligações *não* está formatada como **URL da Web** na caixa da lista pendente **Categoria de Dados**.
 
 5. Na caixa de diálogo **URL da Web**, selecione o campo que contém o URL na caixa **Baseado no campo** > **OK**.
 

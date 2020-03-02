@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871368"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497231"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Atualizar, eliminar e extrair uma aplicação de modelo
 
@@ -36,15 +36,21 @@ Se fez alterações no Power BI Desktop, comece pelo passo (1). Se não fez alte
 
    Verá que agora tem duas versões: A versão em produção e uma nova versão em modo de teste.
 
-    ![Duas versões de uma aplicação de modelo](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![Duas versões de uma aplicação de modelo](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel Gestão de Versões e selecione **Promover aplicação** junto a **Teste**.
-6. A ligação está agora ativada. Submeta-a novamente no Cloud Partner Portal (CPP). Para tal, execute os passos descritos em [Atualização da oferta da aplicação Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-7. No Cloud Partner Portal, tem de **publicar** novamente a oferta e validá-la.
+1. Quando estiver pronto para promover a sua aplicação para pré-produção para que sejam feitos testes adicionais fora do seu inquilino, regresse ao painel Gestão de Versões e selecione **Promover aplicação** junto a **Teste**.
 
-   >[!NOTE]
-   >Promova a aplicação para a fase de produção apenas depois de ser aprovada pelo Cloud Partner Portal e depois de a publicar.
+   Tem agora uma versão em produção e uma versão em pré-produção.
 
+   ![Duas versões de uma aplicação de modelo desativadas](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   A ligação está agora ativada. **Repare que o botão Promover aplicação se encontra desativado na fase de pré-produção**. Isto é para evitar a substituição acidental da ligação de produção em direto à versão atual da aplicação antes de o Cloud Partner Portal validar e aprovar a nova versão da aplicação.
+
+1. Submeta a ligação novamente no Cloud Partner Portal (CPP). Para tal, siga os passos descritos em [Atualização da oferta da aplicação Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). No Cloud Partner Portal, tem de **publicar** novamente a oferta para ser validada e aprovada.
+
+   Quando a sua oferta for aprovada, o botão Promover aplicação voltará a estar ativo. 
+1. Promova a sua aplicação para a fase de produção.
+   
 ### <a name="update-behavior"></a>Comportamento de atualização
 
 1. A atualização da aplicação permitirá ao instalador da aplicação de modelo [Atualizar uma aplicação de modelo](service-template-apps-install-distribute.md#update-a-template-app) na área de trabalho já instalada sem perder a configuração de ligação.

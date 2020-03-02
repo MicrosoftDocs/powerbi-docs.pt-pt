@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889380"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427720"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurar cargas de trabalho numa capacidade Premium
 
@@ -170,7 +170,7 @@ A carga de trabalho de relatórios paginados permite-lhe executar relatórios pa
 | **Memória Máxima (%)** | A percentagem máxima de memória disponível que os relatórios paginados podem utilizar numa capacidade. |
 |  |  |
 
-Os relatórios paginados permitem a execução de código personalizado na composição do relatório. Por exemplo, alterar dinamicamente a cor do texto com base nos conteúdos, que pode ocupar memória adicional. O Power BI Premium executa relatórios paginados num espaço contido dentro da capacidade. 
+Os relatórios paginados oferecem atualmente as mesmas capacidades que os relatórios do SQL Server Reporting Services (SSRS), incluindo a capacidade de os autores do relatório adicionarem código personalizado.  Isto permite aos autores alterar dinamicamente os relatórios, como alterar as cores do texto com base em expressões de código.  Para garantir um isolamento adequado, os relatórios paginados são executados num sandbox protegido por capacidade. Os relatórios com a mesma capacidade podem causar efeitos secundários entre si. Da mesma forma que restringiria os autores que podem publicar conteúdos numa instância do SSRS, recomendamos que siga uma prática semelhante para os relatórios paginados. Certifique-se de que os autores que publicam conteúdos numa capacidade são de confiança para a organização. Pode ainda proteger o seu ambiente ao aprovisionar múltiplas capacidades e atribuir diferentes autores a cada uma delas. 
 
 Em alguns casos, a carga de trabalho de relatórios paginados pode ficar indisponível. Neste caso, a carga de trabalho apresenta um estado de erro no Portal de administração e os utilizadores veem tempos limite para a composição do relatório. Para mitigar este problema, desative a carga de trabalho e, em seguida, ative-a novamente.
 

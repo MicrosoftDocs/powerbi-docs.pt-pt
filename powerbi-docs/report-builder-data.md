@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8f7d3b43cfc2d5a51b686598c1657ec21b44130
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953999"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527275"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dados de relatórios no Report Builder do Power BI
 
@@ -60,3 +60,4 @@ Saiba como [Criar uma origem de dados incorporada para relatórios paginados no 
 ## <a name="next-steps"></a>Próximos passos
 
 - [O que são relatórios paginados no Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
+- [Orientação para a obtenção de dados para relatórios paginados](guidance/report-paginated-data-retrieval.md)

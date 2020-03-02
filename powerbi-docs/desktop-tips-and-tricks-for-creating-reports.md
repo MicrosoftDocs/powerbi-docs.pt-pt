@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865828"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427260"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugestões e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo os seus dados, por vezes precisa de uma ajuda extra. Reunimos algumas dicas e truques que pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot ativado e o Power Query instalado e ativado. 
@@ -36,7 +36,7 @@ No navegador do Editor de Consultas do Power BI Desktop, quando clica com o bot
 
 * Quando utiliza ficheiros como origem de dados para uma consulta, o caminho absoluto para o ficheiro é armazenado na consulta. Ao partilhar ou mover o ficheiro do Power BI Desktop ou o livro do Excel, poupará tempo quando atualizar os caminhos ao atualizá-lo apenas uma vez, em vez de atualizar os caminhos.
 
-Por predefinição, todas as consultas são carregadas para uma folha de cálculo do Excel ou para o modelo de dados (ou ambos). Algumas consultas são passos intermédios e não se destinam aos utilizadores finais. Costuma ser o caso quando faz referência a consultas conforme mencionado acima. Pode controlar o comportamento do carregamento da consulta ao clicar com o botão direito do rato no navegador e ao alternar a opção "Ativar Carregamento". Quando *Ativar Carregamento* não tiver uma marca de verificação ao lado, a consulta ainda está disponível no separador de consulta e pode utilizá-la com outras consultas. É especialmente útil na combinação com transformações de Unir, Acrescentar e Referência. No entanto, uma vez que os resultados da consulta não são carregados para o modelo de dados, a consulta não agrupará a lista de campos dos relatórios ou o modelo de dados. 
+Por predefinição, todas as consultas são carregadas para o modelo de dados. Algumas consultas são passos intermédios e não se destinam aos utilizadores finais. Costuma ser o caso quando faz referência a consultas conforme mencionado acima. Pode controlar o comportamento do carregamento da consulta ao clicar com o botão direito do rato no navegador e ao alternar a opção "Ativar Carregamento". Quando *Ativar Carregamento* não tiver uma marca de verificação ao lado, a consulta ainda está disponível no separador de consulta e pode utilizá-la com outras consultas. É especialmente útil na combinação com transformações de Unir, Acrescentar e Referência. No entanto, uma vez que os resultados da consulta não são carregados para o modelo de dados, a consulta não agrupará a lista de campos dos relatórios ou o modelo de dados. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Os gráficos de dispersão precisam de um identificador de pontos
 Com um exemplo de uma tabela simples de Temperaturas e da Hora em que a leitura foi realizada. Se representar isto diretamente num gráfico de dispersão, o Power BI agregará todos os valores num único ponto. Para mostrar os pontos de dados individuais, tem de adicionar um campo ao registo Detalhes no painel do campo. Uma forma simples de o fazer no Power BI Desktop, é no separador de consulta através da opção “Adicionar coluna de índice” no friso “Adicionar Coluna”. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758514"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558584"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Truques e sugestões para visualizações de mapa do Power BI
 O Power BI é integrado no Bing Maps para oferecer as coordenadas de mapa padrão (um processo chamado geocodificação), para que possa criar mapas. Em conjunto, utilizam algoritmos para identificar a localização correta, mas por vezes, é a melhor estimativa. Se as tentativas do Power BI não conseguirem criar a visualização de mapa por conta própria, ele pede ajuda ao Bing Maps. 
@@ -28,17 +28,17 @@ O utilizador ou o administrador, pode ter que atualizar a sua firewall para perm
 Para aumentar a probabilidade de uma geocodificação correta, utilize as seguintes dicas. O primeiro conjunto de sugestões é para utilizar, se tiver acesso ao próprio conjunto de dados. O segundo conjunto de sugestões são coisas que pode fazer no Power BI, se não tiver acesso ao conjunto de dados. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>O que é enviado ao Bing Maps?
-O serviço Power BI e o Power BI Desktop enviam ao Bing os dados geográficos precisos para criar a visualização do mapa. Isto pode incluir os dados nos registos de **Localização**, **Latitude** e **Longitude** e campos geográficos em quaisquer registos de filtro de **Nível do relatório**,  **Nível de página** ou **Nível de elemento visual**. Os dados exatos que são enviados variam consoante o tipo de mapa. Para saber mais, veja [Bing Maps privacy (Privacidade do Bing Maps)](https://go.microsoft.com/fwlink/?LinkID=248686).
+O serviço Power BI e o Power BI Desktop enviam ao Bing os dados geográficos precisos para criar a visualização do mapa. Isto pode incluir os dados nos registos **Localização**, **Latitude**, e **Longitude** do painel do campo do elemento visual. Os dados exatos que são enviados variam consoante o tipo de mapa. Para saber mais, veja [Bing Maps privacy (Privacidade do Bing Maps)](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Para mapas (mapas de bolhas, dispersão e desenho com pontos), se a latitude e a longitude forem indicadas, então não são enviados dados para o Bing. Caso contrário, quaisquer dados nos registos de **Localização** (e filtro) são enviados para o Bing.     
+* Para mapas (mapas de bolhas, dispersão e desenho com pontos), se a latitude e a longitude forem indicadas, então não são enviados dados para o Bing. Caso contrário, todos os dados no registo **Localização** são enviados para o Bing.     
 
 * Os mapas de manchas precisam de um campo no registo de **Localização**, mesmo se a latitude e a longitude forem indicadas. Quaisquer dados que estejam nos registos de **Localização**, **Latitude** ou **Longitude** são enviados para o Bing.
   
-    No exemplo abaixo, o campo **Fornecedor** está a ser utilizado para geocodificação, para que todos os dados de fornecedor sejam enviados para o Bing. Os dados dos registos **Tamanho** e **Saturação da cor** não são enviados para o Bing.
+    No exemplo abaixo, o campo **Fornecedor** está a ser utilizado para fins de geocodificação, pelo que os valores da coluna Fornecedor são enviados para o Bing. Os dados dos registos **Tamanho** e **Saturação da cor** não são enviados para o Bing.
   
     ![enviado para o Bing Maps](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    Neste segundo exemplo abaixo, o campo **Território** está a ser utilizado para geocodificação, para que todos os dados de fornecedor sejam enviados para o Bing. Os dados dos registos **Legenda** e **Saturação da cor** não são enviados para o Bing.
+    No segundo exemplo abaixo, o campo **Território** está a ser utilizado para fins de geocodificação, pelo que os valores da coluna Território são enviados para o Bing. Os dados dos registos **Legenda** e **Saturação da cor** não são enviados para o Bing.
   
     ![Mapa de manchas e Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 
