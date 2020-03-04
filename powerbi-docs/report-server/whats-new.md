@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026721"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782433"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Power BI Report Server
 
@@ -165,6 +165,10 @@ Define os valores dos cabeçalhos de todos os URLs que correspondem ao padrão r
 #### <a name="transparent-database-encryption"></a>Encriptação de Base de Dados Transparente
 
 O Power BI Report Server agora suporta a Encriptação de Base de Dados Transparente da base de dados do catálogo do Power BI Report Server para as edições Enterprise e Standard.
+
+#### <a name="power-bi-visuals-api"></a>API de elementos visuais do Power BI
+
+A versão da API enviada com este lançamento é a 2.6.
 
 #### <a name="microsoft-report-builder-update"></a>Atualização do Microsoft Report Builder
 
@@ -446,34 +450,34 @@ Março de 2018 é um mês de inúmeras novas funcionalidades adicionadas à vers
 
 Na longa lista de novas funcionalidades, as seguintes destacam-se por serem particularmente interessantes.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Formatação condicional baseada em regras para tabelas e matrizes](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[Formatação condicional baseada em regras para tabelas e matrizes](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 Crie regras para colorir condicionalmente a cor do tipo de letra ou o fundo de uma coluna com base numa determinada lógica empresarial na sua tabela ou matriz.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Mostrar e ocultar páginas](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[Mostrar e ocultar páginas](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 Pretende que os leitores tenham acesso ao seu relatório, mas algumas páginas não estão concluídas. Agora pode ocultá-las até que estejam prontas. Em alternativa, pode ocultar páginas da navegação normal e os leitores podem aceder às mesmas através de marcadores ou pormenorização.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 Pode criar marcadores para contar uma história com os dados do seu relatório.
 
 - [Realce cruzado para marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): os marcadores mantêm e apresentam o estado de realce cruzado da página do relatório no momento da criação do marcador.
 - [Maior flexibilidade de marcadores](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): os marcadores refletem as propriedades definidas no relatório e só são aplicados aos elementos visuais que selecionar.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Seleção múltipla de pontos de dados em vários gráficos](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[Seleção múltipla de pontos de dados em vários gráficos](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 Selecione múltiplos pontos de dados em vários gráficos e aplique a filtragem cruzada a toda a página.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Segmentações de dados de sincronização em múltiplas páginas do seu relatório](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[Segmentações de dados de sincronização em múltiplas páginas do seu relatório](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 Pode aplicar uma segmentação de dados a uma ou mais páginas de um relatório.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Medidas rápidas](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[Medidas rápidas](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 Crie novas medidas com base em medidas existentes e colunas numéricas numa tabela.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Desagregar filtra outros elementos visuais](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[Desagregar filtra outros elementos visuais](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 Ao desagregar numa determinada categoria de um elemento visual, pode fazer com que sejam filtrados todos os elementos visuais na página com a mesma categoria.
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2020
+ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076715"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609938"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -118,7 +118,7 @@ Depois de criar um código de incorporação **Publicar na Web**, poderá gerir 
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Atualizações a relatórios e atualização de dados
 
-Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. No entanto, após esta ação inicial, as atualizações dos relatórios ou elementos visuais poderão demorar aproximadamente uma hora até ficarem visíveis para os seus utilizadores. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
+Depois de criar e partilhar o seu código de incorporação da funcionalidade **Publicar na Web**, o relatório será atualizado com as alterações que fizer e a ligação do código de incorporação ficará imediatamente ativa. Qualquer pessoa que abra a ligação poderá vê-lo. No entanto, após esta ação inicial, as atualizações aos relatórios ou elementos visuais poderão demorar aproximadamente duas a três horas antes de ficarem visíveis para os utilizadores. Para obter mais informações, consulte a secção [**Como funciona**](#howitworks), mais à frente neste artigo. 
 
 ## <a name="data-refresh"></a>Atualização de dados
 

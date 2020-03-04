@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154448"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576836"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Criar visualizações de matriz no Power BI
 
@@ -218,6 +218,10 @@ Para aplicar a formatação condicional, selecione a matriz visual e abra o pain
 Selecione *Controlos avançados* para apresentar uma caixa de diálogo, que lhe permite realizar ajustes. Este exemplo mostra a caixa de diálogo para **Barras de dados**.
 
 ![Painel Barras de dados](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
+
+* Se os dados de texto nas células ou cabeçalhos da matriz tiverem caracteres de linha novos, esses caracteres serão ignorados, a menos que ative a opção “Moldagem do Texto” no cartão do painel de formatação associado do elemento. 
 
 ## <a name="next-steps"></a>Próximos passos
 

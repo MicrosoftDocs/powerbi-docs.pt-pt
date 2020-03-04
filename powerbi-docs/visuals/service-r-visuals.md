@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762217"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199079"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Criar e utilizar elementos visuais R no Power BI Desktop
 Atualmente, os elementos visuais R só podem ser criados no **Power BI Desktop** e publicados no serviço Power BI. Para obter mais informações sobre a criação de elementos visuais R, veja [Criar elementos visuais do Power BI com o R](../desktop-r-visuals.md).
@@ -86,7 +86,7 @@ A tabela seguinte descreve as capacidades dos elementos visuais R com base no li
 Os elementos visuais R no serviço Power BI têm algumas limitações:
 
 * O suporte para os elementos visuais R está limitado aos pacotes identificados em [Saiba quais os pacotes R suportados](../service-r-packages-support.md). Atualmente, não existe suporte de pacotes personalizados.
-* Limitações de tamanho de dados – os dados utilizados pelo elemento visual do R para desenhar são limitados a 150.000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas as primeiras 150.000 linhas serão utilizadas e uma mensagem será apresentada na imagem.
+* Limitações de tamanho de dados – os dados utilizados pelo elemento visual do R para desenhar são limitados a 150.000 linhas. Se forem selecionadas mais de 150.000 linhas, apenas as primeiras 150.000 linhas serão utilizadas e uma mensagem será apresentada na imagem. Além disso, os dados de entrada têm um limite de 250 MB.
 * Resolução – todos os elementos visuais R são apresentados a 72 DPI.
 * Limite de tempo de cálculo – se um cálculo do elemento visual R exceder 60 segundos, o script atinge o tempo limite, resultando num erro.
 * Os elementos visuais do R são atualizados após atualizações, filtragem e destaque de dados. No entanto, a imagem propriamente dita não é interativa e não suporta sugestões.

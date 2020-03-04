@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 1/16/2020
+ms.date: 2/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: afc14e4d1ebd1e68045c2aa38a43e9d7cbc0f1c1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76537560"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576723"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportar relatórios do Power BI para PDF
 
@@ -50,8 +50,9 @@ E é tudo. Pode transferir o ficheiro e abri-lo com qualquer visualizador de PDF
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Existem algumas considerações e limitações a ter em conta ao trabalhar com a funcionalidade **Exportar para PDF**.
 
-* Os elementos visuais de R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
-* Os elementos visuais personalizados que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais personalizados certificados, incluindo como certificar um elemento visual, veja [Certificar um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais personalizados que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro. 
+* Os elementos visuais Python e R não são atualmente suportados. No PDF, estes elementos visuais estão em branco e apresentam uma mensagem de erro. 
+* Os elementos visuais personalizados que tiverem sido certificados são suportados. Para obter mais informações sobre os elementos visuais personalizados certificados, incluindo como certificar um elemento visual, veja [Certificar um elemento visual personalizado](../developer/power-bi-custom-visuals-certified.md). Não são suportados elementos visuais personalizados que não tenham sido certificados. No PDF, são apresentados com uma mensagem de erro.
+* O elemento visual ESRI não é suportado
 * Os relatórios com mais de 30 páginas não podem ser exportados atualmente.
 * O processo de exportar o relatório para PDF pode demorar alguns minutos a ser concluído, por isso pedimos que seja paciente. Os fatores que podem afetar o tempo necessário incluem a estrutura do relatório e a carga atual no serviço Power BI.
 * Se o item de menu **Exportar para PDF** não estiver disponível no serviço Power BI, é provável que o seu administrador de inquilinos tenha desativado a funcionalidade. Contacte o seu administrador de inquilinos para obter informações.

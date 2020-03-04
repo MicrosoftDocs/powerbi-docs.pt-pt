@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537921"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576780"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de informações suportados pelo Power BI
 
@@ -55,7 +55,7 @@ Deteta casos em que múltiplas medidas mostram um padrão ou tendência semelhan
 ![Exemplo de Correlação](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Desvio Baixo
-Deteta casos em que os pontos de dados não estão longe da média.
+Deteta casos nos quais os pontos de dados de uma dimensão não estão longe da média, pelo que o “desvio” é baixo. Digamos que tem a medida “vendas” e uma dimensão “região”. E, se analisar toda a região, poderá ver que a diferença entre os pontos de dados e a média (dos pontos de dados) é pequena. As informações são acionadas quando o desvio das vendas em todas as regiões está abaixo de um limiar. Por outras palavras, quando as vendas são bastante semelhantes em todas as regiões.
 
 ![Exemplo de Desvio Baixo](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Encontra padrões periódicos nos dados de série de tempo, como a sazonalidade 
 ![Exemplo de Sazonalidade](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Partilha constante
-Realça os casos em que há uma correlação de pai-filho entre a partilha de um valor do filho em relação ao valor geral do pai numa variável contínua.
+Realça os casos em que há uma correlação de pai-filho entre a partilha de um valor do filho em relação ao valor geral do pai numa variável contínua. As informações de partilha constante aplicam-se ao contexto de uma medida, uma dimensão e outra dimensão de data/hora. Estas informações são acionadas quando um valor específico de dimensão (por exemplo, “a região nordeste”) possui uma percentagem estável das vendas gerais ao longo dessa dimensão de data/hora.
+
+As informações de partilha constante são semelhantes às informações de desvio baixo, dado que ambas estão relacionadas com a falta de desvio de um valor ao longo do tempo. No entanto, as informações de partilha constante medem a falta de desvio da **percentagem geral** ao longo do tempo, enquanto as informações de desvio baixo medem a falta de desvio dos valores absolutos da medida ao longo de uma dimensão.
 
 ![Exemplo de Partilha constante](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

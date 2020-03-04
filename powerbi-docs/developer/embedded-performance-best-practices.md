@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864063"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199010"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Melhores práticas para o desempenho do Power BI Embedded
 
 Este artigo fornece recomendações para uma composição mais rápida de relatórios, dashboards e mosaicos na sua aplicação.
 
 > [!Note]
-> Lembre-se de que o tempo de carregamento depende principalmente dos elementos relevantes para o relatório e os próprios dados, incluindo elementos visuais, o tamanho dos dados e a complexidade das consultas e medidas calculadas. Para obter mais informações, veja [Melhores práticas para o desempenho do Power BI](../power-bi-reports-performance.md).
+> Lembre-se de que o tempo de carregamento depende principalmente dos elementos relevantes para o relatório e os próprios dados, incluindo elementos visuais, o tamanho dos dados e a complexidade das consultas e medidas calculadas. Para obter mais informações, veja o [Guia de otimização do Power BI](../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Ferramentas de atualização e pacotes SDK
 
@@ -106,6 +106,6 @@ O Analisador de Desempenho permitirá que veja e crie registos que medem o desem
 
 ## <a name="next-steps"></a>Próximos passos
 
-* [Melhores práticas para o desempenho do Power BI Embedded](../power-bi-reports-performance.md)
+* [Guia de otimização do Power BI](../guidance/power-bi-optimization.md)
 * [Como resolver problemas do Power BI Embedded](embedded-troubleshoot.md)
 * [FAQ do Power BI Embedded](embedded-faq.md)

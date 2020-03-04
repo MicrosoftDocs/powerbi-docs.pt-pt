@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154305"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576808"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelas em relatórios e dashboards do Power BI
 
@@ -175,7 +175,10 @@ Por vezes, o Power BI trunca o cabeçalho de uma coluna num relatório e num das
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e resolução de problemas
 
-Ao aplicar a formatação de colunas, apenas pode escolher uma opção de alinhamento por coluna: **Auto**, **Left**, **Center**, **Right**. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. Quando uma coluna tiver números e texto, a opção de alinhamento **Auto** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.
+* Ao aplicar a formatação de colunas, apenas pode escolher uma opção de alinhamento por coluna: **Auto**, **Left**, **Center**, **Right**. Normalmente, uma coluna contém só texto ou só números e não uma combinação de ambos. Quando uma coluna tiver números e texto, a opção de alinhamento **Auto** alinhará o texto à esquerda e os números à direita. Este comportamento suporta idiomas que se leem da esquerda para a direita.
+
+* Se os dados de texto nas células ou cabeçalhos da tabela tiverem caracteres de linha novos, esses caracteres serão ignorados, a menos que ative a opção “Moldagem do Texto” no cartão do painel de formatação associado do elemento. 
+
 
 ## <a name="next-steps"></a>Próximos passos
 

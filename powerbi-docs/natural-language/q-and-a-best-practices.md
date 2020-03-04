@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875064"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609959"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Melhores práticas para otimizar as Perguntas e Respostas no Power BI
 Utilizar linguagem natural e expressões comuns para fazer perguntas sobre os seus dados é algo extremamente útil. Torna-se ainda mais eficaz quando os seus dados respondem a essas perguntas e é isso que as Perguntas e Respostas no Power BI fazem.
@@ -197,4 +197,4 @@ Este passo pode ser importante. Mesmo tendo nomes de coluna e tabela simples, os
 
 ![Sinónimos do painel Propriedades das Perguntas e Respostas](media/qna-modelling-pane-synonyms.png)
 
- Tenha cuidado ao adicionar sinónimos. Adicionar o mesmo sinónimo a mais de uma coluna ou tabela apresenta ambiguidade. As Perguntas e Respostas utilizam o contexto sempre que possível para optar entre sinónimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o seu utilizador pede a "contagem de clientes", se tiver três coisas com o sinónimo "cliente" no seu modelo, o cliente pode não obter a resposta que procura. Nestes casos, certifique-se de que o sinónimo principal é exclusivo, uma vez que é utilizado na reformulação. Pode alertar o utilizador acerca da ambiguidade (por exemplo, com a reformulação "mostrar o número de registos de cliente arquivados"), para sugerir que pode perguntar de forma diferente.
+ Tenha cuidado ao adicionar sinónimos. Adicionar o mesmo sinónimo a mais de uma coluna ou tabela apresenta ambiguidade. As Perguntas e Respostas utilizam o contexto sempre que possível para optar entre sinónimos ambíguos, mas nem todas as perguntas têm contexto suficiente. Por exemplo, quando o utilizador pede a “contagem de clientes”, se tiver três itens com o sinónimo “cliente” no modelo, os utilizadores poderão não obter a resposta que procuram. Nestes casos, certifique-se de que o sinónimo principal é exclusivo, uma vez que é utilizado na reformulação. Pode alertar o utilizador acerca da ambiguidade (por exemplo, com a reformulação "mostrar o número de registos de cliente arquivados"), para sugerir que pode perguntar de forma diferente.

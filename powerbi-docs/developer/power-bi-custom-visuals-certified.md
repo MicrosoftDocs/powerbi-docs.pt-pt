@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026675"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782418"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -43,11 +43,13 @@ Ao submeter o elemento visual do Power BI, confirme que o pacote compilado corr
 
 Embora não seja necessário partilhar publicamente o código no GitHub, o repositório de código deve estar disponível para análise pela equipa do Power BI. A melhor maneira de o fazer, é fornecer o código fonte (JavaScript ou TypeScript) no GitHub.
 
-O repositório deve conter o código para apenas um elemento visual do Power BI. Não pode conter código para vários elementos visuais do Power BI ou código não relacionado.
-
-O repositório tem de conter um ramo denominado **certificação** (obrigatoriamente em minúsculas). O código fonte neste ramo deve corresponder ao pacote submetido. Este código só pode ser atualizado durante o próximo processo de submissão, caso esteja a submeter novamente o elemento visual do Power BI.
+O repositório deve conter o seguinte:
+* Código para apenas um elemento visual do Power BI. Não pode conter código para vários elementos visuais do Power BI ou código não relacionado.
+* Um ramo denominado **certificação** (obrigatoriamente em minúsculas). O código fonte neste ramo deve corresponder ao pacote submetido. Este código só pode ser atualizado durante o próximo processo de submissão, caso esteja a submeter novamente o elemento visual do Power BI.
 
 Se o elemento visual do Power BI utilizar pacotes npm privados ou submódulos git, deve fornecer acesso aos repositórios adicionais que contêm este código.
+
+Para compreender o aspeto de um repositório de elementos visuais do Power BI, veja o repositório do GitHub para obter o [gráfico de barras de amostra dos elementos visuais do Power BI](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi).
 
 ### <a name="file-requirements"></a>Requisitos de ficheiros
 
@@ -113,6 +115,18 @@ Para pedir a certificação do Power BI:
 
 >[!NOTE]
 > Se se encontrar a meio do processo de submissão de um elemento visual do Power BI e tiver de utilizar o [Dashboard de Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (a antiga ferramenta de gestão), veja as instruções do [Processo de submissão de certificação do Dashboard de Vendedor](seller-dashboard.md#seller-dashboard-certification-submission-process).
+
+### <a name="private-repository-submission-process"></a>Processo de submissão do repositório privado
+
+Se estiver a utilizar um repositório privado como o GitHub para submeter o elemento visual do Power BI para certificação, siga as instruções nesta secção.
+1. Crie uma nova conta para a equipa de validação.
+2. Configure a [autenticação de dois fatores](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) para a conta.
+3. [Gere um novo conjunto de códigos de recuperação](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Ao submeter o elemento visual do Power BI, indique o seguinte:
+    * Uma ligação para o repositório
+    * As credenciais de início de sessão (incluindo uma palavra-passe)
+    * Os códigos de recuperação
+    * As permissões só de leitura para a conta ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>Elementos visuais do Power BI certificados
 

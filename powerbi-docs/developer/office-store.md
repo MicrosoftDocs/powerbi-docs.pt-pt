@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999920"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576791"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -39,7 +39,7 @@ Quando estiver pronto para submeter o elemento visual do Power BI, verifique se
 | Capturas de ecrã |Sim |Forneça, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. As dimensões devem ter exatamente 1366 px (largura) por 768 px (altura). O tamanho do ficheiro não pode ser superior a 1024 KB.<br>Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã. |
 | Ligação de transferência do suporte |Sim |Forneça uma URL de suporte para os clientes. Esta ligação é introduzida como parte da lista do Dashboard de Vendedor e fica visível para os utilizadores quando acedem à lista do elemento visual no AppSource. O formato do URL deve incluir https:// ou https://. |
 | Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade do elemento visual. Esta ligação é introduzida como parte da lista do Dashboard de Vendedor e fica visível para os utilizadores quando acedem à lista do elemento visual no AppSource. O formato da ligação deve incluir https:// ou https://. |
-| Contrato de licença do utilizador final (EULA) |Sim |Tem de carregar um ficheiro EULA. Pode ser o seu próprio EULA ou pode utilizar o EULA predefinido existente na Loja Office para os elementos visuais do Power BI. Para utilizar o EULA predefinido, cole o seguinte URL na caixa de diálogo de carregamento do ficheiro “Contrato de Licença do Utilizador Final” do dashboard de vendedor. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Contrato de licença do utilizador final (EULA) |Sim |Tem de fornecer um ficheiro EULA para o elemento visual do Power BI. |
 | Ligação para vídeo |Não |Para aumentar o interesse dos utilizadores relativamente ao elemento visual personalizado, forneça uma ligação para um vídeo sobre o elemento visual. O formato do URL deve incluir https:// ou https://. |
 | Repositório do GitHub |Não |Partilhe uma ligação pública para um repositório do [GitHub](https://www.github.com) com as origens do elemento visual do Power BI e dados de exemplo. Esta ligação permite que outros programadores tenham a oportunidade de fornecer comentários e propor melhorias ao código. |
 
