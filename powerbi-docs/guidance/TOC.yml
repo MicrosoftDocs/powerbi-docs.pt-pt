@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Use report page drillthrough (Utilizar a pormenorização de páginas de relatórios)
               href: report-drillthrough.md
+            - name: Sugestões para gerir eixos
+              href: report-design-tips-axes.md
+            - name: Sugestões para controlar as linhas de grelha do gráfico
+              href: report-tips-chart-gridlines.md
+            - name: Sugestões para otimizar a utilização de etiquetas
+              href: report-tips-labels.md
+            - name: Sugestões para formatar e implementar legendas
+              href: report-tips-legends.md
+            - name: Sugestões para otimizar as cores dos elementos visuais
+              href: report-tips-visual-colors.md
         - name: "Relatórios paginados do Power\_BI"
           items:
             - name: Quando utilizar os relatórios paginados
