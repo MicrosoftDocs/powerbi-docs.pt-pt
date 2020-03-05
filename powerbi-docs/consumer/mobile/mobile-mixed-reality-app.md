@@ -43,7 +43,7 @@ Saiba mais sobre os [gestos na realidade mista da Microsoft](https://developer.m
 
 **Afixar um item** 
 
-Faça o gesto de toque no ar no ícone **Afixar** ![ícone Afixar](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) para afixar um dashboard ou relatório da vista clássica do Windows na vista holográfica. Pode afixar vários itens na vista holográfica. 
+Faça o gesto de toque no ar no ícone **Afixar**![ícone Afixar](./media/mobile-mixed-reality-app/power-bi-hololens-pin.png) para afixar um dashboard ou relatório da vista clássica do Windows na vista holográfica. Pode afixar vários itens na vista holográfica. 
 
 **Mudar para a vista holográfica**
 

@@ -230,7 +230,7 @@ Eis o mapeamento:
 É um exemplo simples. Indica o seguinte: "Mapear a minha função de dados `category` de forma a que, para cada campo que arrastar para `category`, os respetivos dados sejam mapeados para `categorical.categories`. Mapear também a minha função de dados `measure` para `categorical.values`".
 
 * **for...in**: incluir todos os itens desta função de dados na consulta de dados.
-* **bind...to**: produz o mesmo resultado de *"for...in"*, mas espera-se que a função de dados tenha uma condição que a restrinja a um único campo.
+* **bind...to**: produz o mesmo resultado de *"for...in"* , mas espera-se que a função de dados tenha uma condição que a restrinja a um único campo.
 
 ### <a name="example-5"></a>Exemplo 5
 

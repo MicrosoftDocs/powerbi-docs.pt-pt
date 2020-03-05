@@ -92,7 +92,7 @@ Existem alguns tipos de desagregação:
 ### <a name="drill-to-next-level"></a>Explorar o nível seguinte
 1. Num relatório num telemóvel, toque nas reticências ( **...** ) no canto superior direito > **Expandir para o modo de detalhe**.
    
-    ![Expandir para o modo de detalhe](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Expandir para o modo de foco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     Neste exemplo, as barras mostram os valores de estados.
 2. Toque no ícone Explorar ![Ícone Explorar](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) no canto inferior esquerdo.

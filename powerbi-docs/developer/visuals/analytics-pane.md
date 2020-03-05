@@ -25,7 +25,7 @@ Este artigo aborda a forma como os elementos visuais do Power BI com a API v2.5.
 
 ## <a name="manage-the-analytics-pane"></a>Gerir o Painel de análise
 
-Do mesmo modo que gere as propriedades no painel [**Formatação** ](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual.
+Do mesmo modo que gere as propriedades no painel [**Formatação**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), também pode gerir o Painel de **análise** ao definir um objeto no ficheiro *capabilities.json* do elemento visual.
 
 Relativamente ao Painel de **análise**, as diferenças são as seguintes:
 

@@ -51,9 +51,9 @@ As segmentações de dados do Power BI não suportam:
    
 1. Navegue até ao ficheiro **Exemplo de Análise de Revenda PBIX.pbix** e, em seguida, selecione **Abrir**.
 
-1. No painel esquerdo, selecione o ícone **Relatório** ![ícone Relatório](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir o ficheiro na vista de relatório.
+1. No painel esquerdo, selecione o ícone **Relatório**![ícone Relatório](media/power-bi-visualization-kpi/power-bi-report-view.png) para abrir o ficheiro na vista de relatório.
 
-1. Na página **Descrição Geral**, sem nada selecionado na tela, selecione o ícone da **Segmentação de dados** ![ícone da segmentação de dados](media/power-bi-visualization-slicers/slicer-icon.png) no painel **Visualizações** para criar uma nova segmentação de dados. 
+1. Na página **Descrição Geral**, sem nada selecionado na tela, selecione o ícone da **Segmentação de dados**![ícone da segmentação de dados](media/power-bi-visualization-slicers/slicer-icon.png) no painel **Visualizações** para criar uma nova segmentação de dados. 
 
 1. Com a nova segmentação de dados selecionada, no painel **Campos**, selecione **Distrito** > **GD** para preencher a segmentação de dados. 
 
@@ -163,7 +163,7 @@ No relatório atual, a página **Vendas Mensais Distritais** também tem uma seg
 ## <a name="format-slicers"></a>Formatar as segmentações de dados
 Estão disponíveis diferentes opções de formatação, dependendo do tipo de segmentação de dados. Ao utilizar a orientação **Horizontal**, o esquema **Reativo** e a cor **Item**, pode criar botões ou mosaicos em vez de itens de lista padrão e fazer com que os itens da segmentação de dados sejam redimensionados para se ajustarem aos diferentes tamanhos de ecrã e esquemas.  
 
-1. Com a segmentação de dados **Gestor Distrital** selecionada em qualquer página, no painel **Visualizações**, selecione o ícone **Formatar** ![ícone de formatação](media/power-bi-visualization-slicers/power-bi-paintroller.png) para apresentar os controlos de formatação. 
+1. Com a segmentação de dados **Gestor Distrital** selecionada em qualquer página, no painel **Visualizações**, selecione o ícone **Formatar**![ícone de formatação](media/power-bi-visualization-slicers/power-bi-paintroller.png) para apresentar os controlos de formatação. 
     
     ![Seleção de formatação](media/power-bi-visualization-slicers/3-format.png)
     

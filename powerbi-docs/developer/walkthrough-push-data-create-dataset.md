@@ -226,7 +226,7 @@ namespace walkthrough_push_data
 
 [Próximo Passo >](walkthrough-push-data-get-datasets.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md)  
 [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  

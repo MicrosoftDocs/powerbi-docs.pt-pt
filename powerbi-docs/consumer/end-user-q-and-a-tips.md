@@ -87,7 +87,7 @@ Depois de as Perguntas e Respostas exibirem os resultados, mantenha a conversa! 
 ## <a name="next-steps"></a>Próximos passos
 Voltar a [Perguntas e Respostas do Power BI](end-user-q-and-a.md)  
 
-[Power BI - conceitos básicos](end-user-basic-concepts.md)  
+[Power BI - Conceitos Básicos](end-user-basic-concepts.md)  
 
 Mais perguntas? [Pergunte à Comunidade do Power BI](https://community.powerbi.com/)
 

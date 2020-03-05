@@ -15,7 +15,7 @@ ms.contentlocale: pt-PT
 ms.lasthandoff: 11/21/2019
 ms.locfileid: "74265517"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Passo 4: Obter um conjunto de dados para adicionar linhas numa tabela do Power BI
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Step 4: Obter um conjunto de dados para adicionar linhas numa tabela do Power BI
 
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
@@ -266,7 +266,7 @@ namespace walkthrough_push_data
 
 [Próximo Passo >](walkthrough-push-data-add-rows.md)
 
-## <a name="next-steps"></a>Passos seguintes
+## <a name="next-steps"></a>Próximos passos
 
 [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](https://www.newtonsoft.com/json)  

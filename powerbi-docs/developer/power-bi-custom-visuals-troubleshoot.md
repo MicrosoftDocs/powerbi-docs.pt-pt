@@ -38,7 +38,7 @@ Se não o vir, certifique-se de que está ativado nas definições do Power BI.
 
 Execute o servidor do elemento visual com o comando `pbiviz start` na linha de comandos do seu terminal a partir da raiz do projeto do seu elemento visual. Se o servidor não estiver em execução, é provável que os seus certificados SSL não tenham sido instalados corretamente.
 
-Não hesite em enviar perguntas, fazer comentários ou comunicar problemas à equipa de suporte de elementos visuais do Power BI para o endereço:  *pbicvsupport@microsoft.com* .
+Não hesite em enviar perguntas, fazer comentários ou comunicar problemas à equipa de suporte de elementos visuais do Power BI para o endereço:  *pbicvsupport@microsoft.com*  .
 
 ## <a name="next-steps"></a>Próximos passos
 

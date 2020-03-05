@@ -152,7 +152,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>Ampliar elementos visuais individuais
-Passe o rato sobre um elemento visual e selecione o ícone **Modo de detalhe** ![](media/end-user-reading-view/pbi_popouticon.jpg). Quando vir uma visualização no Modo de detalhe, esta é expandida para preencher toda a tela do relatório, conforme mostrado abaixo.
+Passe o rato sobre um elemento visual e selecione o ícone **Modo de detalhe**![](media/end-user-reading-view/pbi_popouticon.jpg). Quando vir uma visualização no Modo de detalhe, esta é expandida para preencher toda a tela do relatório, conforme mostrado abaixo.
 
 ![modo de detalhe](media/end-user-reading-view/power-bi-full-screen-before.png)
 

@@ -17,7 +17,7 @@ ms.locfileid: "74265580"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Enviar dados por push para a listagem de código completo de um conjunto de dados
 
-Este artigo faz parte das instruções passo a passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
+Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
 Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dados**, o seu código fonte completo deve ser semelhante ao seguinte.
 

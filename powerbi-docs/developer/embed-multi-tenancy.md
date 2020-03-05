@@ -36,7 +36,7 @@ Este artigo descreve as diferentes abordagens e analisa-as, de acordo com vário
 
 **Inquilino** – um único cliente (organização) que utiliza a aplicação SaaS e quaisquer recursos ou dados que o cliente traz para a aplicação SaaS.
 
-**[Power BI](../fundamentals/power-bi-overview.md)**  – o serviço cloud do Power BI que serve como uma plataforma para o Power BI Embedded.
+**[Power BI](../fundamentals/power-bi-overview.md)** – o serviço cloud do Power BI que serve como uma plataforma para o Power BI Embedded.
 
 **Inquilino do Power BI** – é um conjunto de recursos do Power BI associado a um único inquilino do AAD.
 

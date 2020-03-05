@@ -59,7 +59,7 @@ Os [Dashboards](end-user-dashboards.md) costumam ser confundidos com relatórios
 | Origens de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Filtragem |Não pode filtrar nem segmentar |Várias formas diferentes de filtrar, realçar e segmentar |
 | Definir alertas |Pode criar alertas para que lhe seja enviado um e-mail quando um dashboard cumpre determinadas condições |Não |
-| Feature |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
+| Funcionalidade |Pode definir um dashboard como o seu dashboard em destaque |Não pode criar um relatório em destaque |
 | Pode ver as tabelas e os campos de conjuntos de dados subjacentes |Não. Pode exportar dados, mas não pode ver os campos e tabelas do conjunto de dados no próprio dashboard |Yes. Pode ver campos e tabelas de conjuntos de dados e valores para os quais tem permissões de visualização |
 | Personalização |Não  |Pode filtrar, exportar, ver conteúdos relacionados, adicionar marcadores, gerar códigos QR, analisar no Excel e mais |
 

@@ -86,7 +86,7 @@ Com o mesmo gráfico de colunas agrupadas selecionado, expanda as opções **Fun
 
 1. Selecione a lista suspensa e escolha uma cor cinzenta.
 
-1. Altere a **Transparência** para **74%**.
+1. Altere a **Transparência** para **74%** .
 
 Nesta fase do tutorial, o fundo do gráfico de colunas agrupadas deverá ter um aspeto semelhante ao seguinte:
 

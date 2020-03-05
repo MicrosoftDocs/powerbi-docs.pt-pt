@@ -53,7 +53,7 @@ Sim, estão disponíveis preços para fins não lucrativos ao comprar diretament
 
 ## <a name="does-power-bi-support-mobile-devices"></a>O Power BI suporta dispositivos móveis?
 
-Sim. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
+Yes. O Power BI tem aplicações nativas para telemóveis e tablets Android, dispositivos iOS e dispositivos Windows 10. Transfira uma das [aplicações móveis do Power BI](https://powerbi.microsoft.com/mobile) a partir da respetiva loja:  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)

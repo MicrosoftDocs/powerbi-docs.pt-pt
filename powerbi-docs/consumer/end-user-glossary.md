@@ -85,7 +85,7 @@ Este glossário é um esforço comunitário.  Não vê uma palavra aqui? Contact
 
 **cross-highlight (realce cruzado)** Aplica-se a interações visuais. O realce cruzado retém todos os pontos de dados originais, mas escurece a parte que não se aplica à sua seleção. Por exemplo, a seleção de **Moderação** no gráfico em anel permite realçar o gráfico de colunas de forma cruzada. O gráfico de colunas escurece todos os dados que não se aplicam ao segmento Moderação e realça todos os dados que se aplicam ao segmento Moderação.
 
-**custom visual (elemento visual personalizado)** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
+**custom visual (elemento visual personalizado0** Os elementos visuais que são criados pela comunidade e pela Microsoft. Podem ser transferidos da loja Office para utilização nos relatórios do Power BI.
 
 ## <a name="d"></a>D
 

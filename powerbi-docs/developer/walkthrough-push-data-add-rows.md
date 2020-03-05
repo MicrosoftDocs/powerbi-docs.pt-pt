@@ -15,7 +15,7 @@ ms.contentlocale: pt-PT
 ms.lasthandoff: 11/21/2019
 ms.locfileid: "74265154"
 ---
-# <a name="step-5-add-rows-to-a-power-bi-table"></a>Passo 5: Adicionar linhas a uma tabela do Power BI
+# <a name="step-5-add-rows-to-a-power-bi-table"></a>Step 5: Adicionar linhas a uma tabela do Power BI
 
 Este artigo faz parte das instruções passo-a-passo para [Enviar dados por push para um conjunto de dados](walkthrough-push-data.md).
 
@@ -105,7 +105,7 @@ Adicione este código a Program.cs.
     #endregion
 ```
 
-Segue-se a [listagem de código completo](#code).
+Segue-se a [lista completa de códigos](#code).
 
 <a name="code"/>
 

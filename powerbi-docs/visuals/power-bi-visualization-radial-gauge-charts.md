@@ -102,7 +102,7 @@ Este tutorial utiliza o [ficheiro do Excel do Exemplo Financeiro](https://downlo
    > [!NOTE]
    > Pode inserir manualmente um valor de destino. Veja a secção [Utilizar as opções de formatação manual para definir os valores Mínimo, Máximo e Alvo](#use-manual-format-options-to-set-minimum-maximum-and-target-values).
 
-### <a name="step-4-set-a-maximum-value"></a>Passo 4: Definir um valor máximo
+### <a name="step-4-set-a-maximum-value"></a>Step 4: Definir um valor máximo
 
 No Passo 2, o Power BI utilizou o campo **Valor** para definir automaticamente os valores mínimo e máximo. E se quiser definir o seu próprio valor máximo? Digamos que, em vez de utilizar o dobro do valor atual como valor máximo possível, quer defini-lo como o maior número de Vendas Brutas no conjunto de dados.
 
@@ -116,7 +116,7 @@ No Passo 2, o Power BI utilizou o campo **Valor** para definir automaticamente
 
    ![Captura de ecrã do gráfico de medidor concluído.](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>Passo 5: Guardar relatório
+### <a name="step-5-save-your-report"></a>Step 5: Guardar relatório
 
 1. [Guarde o relatório](../service-report-save.md).
 

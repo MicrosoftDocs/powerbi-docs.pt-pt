@@ -132,7 +132,7 @@ Nas primeiras vezes que utilizar o serviço do Power BI, terá poucos conteúdos
 A pesquisa está disponível a partir de quase todas as partes do serviço do Power BI. Basta procurar a caixa de pesquisa ou o ícone de lupa de pesquisa.    
 ![ícone de lupa](./media/end-user-experience/power-bi-search-icon.png)
 
-No campo Pesquisar, escreva o nome completo ou parcial de um dashboard, relatório, livro, aplicação ou proprietário. O Power BI pesquisa todos os seus conteúdos.
+No campo Pesquisar, escreva o nome completo ou parcial de um dashboard, relatório, livro, aplicação ou proprietário. O Power BI pesquisa em todo o seu conteúdos.
 
 ![procurar um relatório](./media/end-user-experience/power-bi-search-field.png)
 

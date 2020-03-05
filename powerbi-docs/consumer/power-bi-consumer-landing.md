@@ -311,7 +311,7 @@ ms.locfileid: "73876712"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Acessibilidade</h3>
+                                                    <h3>Accessibility (Acessibilidade)</h3>
                                                     <p>Saiba como a Microsoft permite que as pessoas portadoras de deficiência consumam e interajam mais facilmente com o Power BI. </p>
                                                 </div>
                                             </div>
