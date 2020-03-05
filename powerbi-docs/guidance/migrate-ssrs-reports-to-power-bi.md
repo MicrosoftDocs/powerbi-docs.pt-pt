@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527298"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290642"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migrar os relatórios do SQL Server Reporting Services para o Power BI
 
@@ -192,7 +192,6 @@ Para obter mais informações sobre este artigo, consulte os seguintes recursos:
 
 - [O que são relatórios paginados no Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
 - [Orientação para a obtenção de dados para relatórios paginados](report-paginated-data-retrieval.md)
-- Vídeo "Guy in a cube": [Introducing paginated reports in Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M) (Introdução aos relatórios paginados no Power BI)
 - [Quando utilizar os relatórios paginados no Power BI](report-paginated-or-power-bi.md)
 - [Relatórios paginados no Power BI: Perguntas Frequentes](../paginated-reports-faq.md)
 - [Perguntas Frequentes do Power BI Premium](../service-premium-faq.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040347"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290619"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Extend visuals with report page tooltips (Desenvolver elementos visuais com descrições de páginas de relatório)
 
@@ -88,5 +88,5 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 - [Criar descrições com base em páginas de relatório no Power BI Desktop](../desktop-tooltips.md)
 - [Personalizar descrições no Power BI Desktop](../desktop-custom-tooltips.md)
 - [Utilizar elementos visuais para melhorar relatórios do Power BI](../desktop-visual-elements-for-reports.md)
-- Vídeo "Guy in a cube": [Descrição de página de relatório do Power BI – Como criar uma no Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

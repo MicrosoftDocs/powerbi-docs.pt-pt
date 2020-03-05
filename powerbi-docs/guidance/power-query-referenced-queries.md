@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002403"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290582"
 ---
 # <a name="referencing-power-query-queries"></a>Referencing Power Query queries (Referenciar consultas do Power Query)
 
@@ -54,5 +54,5 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 
 - [Preparação personalizada de dados no Power BI](../service-dataflows-overview.md)
 - [Criar e utilizar fluxos de dados no Power BI](../service-dataflows-create-use.md)
-- Vídeo "Guy in a cube": [Inside Power Query reference queries for Power BI and Excel](https://www.youtube.com/watch?v=3uKNNZqBIkg) (No Power Query faça referência a consultas do Power BI e do Excel)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
