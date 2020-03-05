@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
-  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
+  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/03/2020
-  ms.locfileid: "78237782"
+  ms.lasthandoff: 03/04/2020
+  ms.locfileid: "78260698"
 landingContent:
 - title: Orientações para o Power BI
   linkLists:
@@ -49,14 +49,22 @@ landingContent:
       url: star-schema.md
     - text: Técnicas de redução de dados
       url: import-modeling-data-reduction.md
-    - text: Orientação sobre data/hora automáticas
+    - text: Auto date/time guidance (Orientação sobre data/hora automáticas)
       url: auto-date-time.md
+    - text: Relações um-para-um
+      url: relationships-one-to-one.md
+    - text: Relações Muitos para muitos
+      url: relationships-many-to-many.md
+    - text: Relações ativas vs. inativas
+      url: relationships-active-inactive.md
+    - text: Relações bidirecionais
+      url: relationships-bidirectional-filtering.md
+    - text: Resolução de problemas de relações
+      url: relationships-troubleshoot.md
     - text: DirectQuery model guidance (Orientação sobre modelos do DirectQuery)
       url: directquery-model-guidance.md
     - text: Guia de modelos compostos
       url: composite-model-guidance.md
-    - text: Guia de relações muitos-para-muitos
-      url: relationships-many-to-many.md
 - title: DAX
   linkLists:
   - linkListType: concept

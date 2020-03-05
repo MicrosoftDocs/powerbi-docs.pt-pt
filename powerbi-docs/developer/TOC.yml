@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: Enable sync slicers (Ativar segmentação de dados)
               href: visuals/enable-sync-slicers.md
+            - name: Elementos visuais de depuração
+              href: visuals/visuals-how-to-debug.md
             - name: Troubleshoot Power BI visuals (Resolver problemas com os elementos visuais do Power BI)
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Referência
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: Utilitários de escrita
                   href: visuals/utils-type.md
+                - name: Utilitários de descrição
+                  href: visuals/utils-tooltip.md
                 - name: Utilitários de vista de dados
                   href: visuals/utils-dataview.md
         - name: Recursos
@@ -156,6 +160,8 @@
           items:
             - name: Embed from an app (Incorporar a partir de uma aplicação)
               href: embed-from-apps.md
+            - name: Exportar relatório para ficheiro
+              href: export-to.md
             - name: Instalar aplicações automaticamente
               href: embed-auto-install-app.md
             - name: Criar um inquilino do Azure Active Directory
@@ -257,8 +263,6 @@
           items:
             - name: Configurar credenciais
               href: configure-credentials.md
-            - name: Encriptar credenciais
-              href: encrypt-credentials.md
         - name: Referência
           items:
             - name: APIs REST
