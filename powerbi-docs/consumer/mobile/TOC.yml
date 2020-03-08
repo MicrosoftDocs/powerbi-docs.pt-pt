@@ -1,0 +1,112 @@
+- name: Aplicações móveis do Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: O que são as aplicações móveis?
+          href: mobile-apps-for-mobile-devices.md
+        - name: Conhecer a home page
+          href: mobile-apps-home-page.md
+    - name: Inícios rápidos
+      expanded: true
+      items:
+        - name: Explorar dashboards e relatórios
+          href: mobile-apps-quickstart-view-dashboard-report.md
+    - name: Tutoriais
+      expanded: true
+      items:
+        - name: Colocar perguntas nas aplicações móveis para iOS
+          href: tutorial-mobile-apps-ios-qna.md
+    - name: Conceitos
+      expanded: true
+      items:
+        - name: What's new in the mobile apps (Novidades nas aplicações móveis)
+          href: mobile-whats-new-in-the-mobile-apps.md
+        - name: Obter dados do mundo real com as aplicações móveis
+          href: mobile-apps-data-in-real-world-context.md
+        - name: View your data offline in the mobile apps (Ver os dados offline nas aplicações móveis)
+          href: mobile-apps-offline-data.md
+        - name: Aplicação Power BI for Mixed Reality (Pré-visualização)
+          href: mobile-mixed-reality-app.md
+    - name: Procedimentos
+      items:
+        - name: Todas as aplicações móveis
+          items:
+            - name: Dashboards for mobile Power BI (Dashboards do Power BI móvel)
+              href: mobile-apps-view-dashboard.md
+            - name: Reports in the mobile apps (Relatórios nas aplicações móveis)
+              href: mobile-reports-in-the-mobile-apps.md
+            - name: Interact with tiles in the mobile apps (Interagir com mosaicos nas aplicações móveis)
+              href: mobile-tiles-in-the-mobile-apps.md
+            - name: Partilhar um dashboard das aplicações móveis do Power BI
+              href: mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Favorites in the mobile apps (Favoritos nas aplicações móveis)
+              href: mobile-apps-favorites.md
+            - name: 'Configure interaction settings (phone only) (Configurar as definições de interação [apenas para telemóveis])'
+              href: mobile-app-interaction-settings.md
+            - name: Definir alertas de dados nas aplicações móveis do Power BI
+              href: mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Receber notificações nas aplicações móveis do Power BI
+              href: mobile-apps-notification-center.md
+            - name: Create a deep link that goes to a specific location (Criar uma ligação avançada que direciona para uma determinada localização)
+              href: mobile-apps-deep-link-specific-location.md
+            - name: Filter a report by location in the Power BI mobile apps (Filtrar um relatório pela localização nas aplicações móveis do Power BI)
+              href: mobile-apps-geographic-filtering.md
+            - name: Utilizar o OAuth para ligar ao Reporting Services
+              href: mobile-oauth-ssrs.md
+        - name: iOS e Android
+          items:
+            - name: Ver relatórios otimizados para o telemóvel
+              href: mobile-apps-view-phone-report.md
+            - name: Ver relatórios no local nas aplicações móveis
+              href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Aceder a conteúdos de uma organização externa (B2B)
+              href: mobile-apps-b2b.md
+            - name: Scan a Power BI QR code from your phone (Digitalizar um código QR do Power BI a partir do seu telemóvel)
+              href: mobile-apps-qr-code.md
+            - name: Anotar e partilhar nas aplicações móveis
+              href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: Ler um código de barras a partir da aplicação móvel do Power BI
+              href: mobile-apps-scan-barcode-iphone.md
+            - name: Configure using mobile device management (Configurar com a gestão de dispositivos móveis)
+              href: mobile-app-configuration.md
+        - name: iOS
+          items:
+            - name: Introdução à aplicação iOS
+              href: mobile-iphone-app-get-started.md
+            - name: 'Protect with Face ID, Touch ID, or Passcode (Proteger com Face ID, Touch ID ou Código)'
+              href: mobile-ios-native-secure-access.md
+            - name: Analista virtual de Perguntas e Respostas em aplicações móveis para iOS
+              href: mobile-apps-ios-qna.md
+            - name: Power BI mobile app integration with Siri Shortcuts (Integração de Atalhos da Siri na aplicação móvel do Power BI)
+              href: mobile-apps-iOS-siri-Shortcuts.md
+            - name: iOS device search integration (Integração da pesquisa de dispositivos iOS)
+              href: mobile-apps-iOS-search-integration.md
+            - name: Aplicação Power BI Apple Watch
+              href: mobile-apple-watch.md
+        - name: Dispositivos Android
+          items:
+            - name: Introdução à aplicação Android
+              href: mobile-android-app-get-started.md
+            - name: Corrigir o erro "O certificado SSL empresarial não é fidedigno"
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Corrigir o erro "Tem de atualizar o Android System WebView"
+              href: mobile-android-error-update-android-system-webview.md
+        - name: Aplicação Power BI para dispositivos Windows 10
+          items:
+            - name: Aplicação Introdução ao Windows 10
+              href: mobile-windows-10-phone-app-get-started.md
+            - name: Afixar um dashboard ao ecrã Início
+              href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Ver KPIs e relatórios móveis do Reporting Services
+              href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Ver o Power BI no Surface Hub
+              href: mobile-windows-10-app-presentation-mode.md
+            - name: Início de Sessão Único na aplicação Windows
+              href: mobile-windows-10-app-single-sign-on-sso.md
+    - name: Recursos
+      items:
+        - name: Supported languages in the mobile apps (Idiomas suportados nas aplicações móveis)
+          href: mobile-apps-supported-languages.md
