@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: Utilitários dos elementos visuais do Power BI
               items:
+                - name: Adding external libraries (Adicionar bibliotecas externas)
+                  href: visuals/adding-external-libraries.md
                 - name: Interactivity utils (Utilitários de interatividade)
                   href: visuals/utils-interactivity-selections.md
                 - name: Formatting utils (Utilitários de formatação)
                   href: visuals/utils-formatting.md
+                - name: Utilitários de vista de dados
+                  href: visuals/utils-dataview.md
                 - name: Utilitários de gráficos
                   href: visuals/utils-chart.md
+                - name: Color utils (Utilitários de cor)
+                  href: visuals/utils-color.md
                 - name: Utilitários de SVG
                   href: visuals/utils-svg.md
                 - name: Utilitários de escrita

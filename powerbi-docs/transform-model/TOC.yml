@@ -1,0 +1,115 @@
+- name: 'Transform, shape, and model data in Power BI (Transformar, moldar e modelar dados no Power BI)'
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: Query Editor overview (Descrição geral do Editor de Consultas)
+          href: ../desktop-query-overview.md
+        - name: Preparação personalizada de dados com fluxos de dados
+          href: ../service-dataflows-overview.md
+    - name: Tutoriais
+      expanded: true
+      items:
+        - name: Criar as suas próprias medidas
+          href: ../desktop-tutorial-create-measures.md
+        - name: Criar colunas calculadas
+          href: ../desktop-tutorial-create-calculated-columns.md
+    - name: Conceitos
+      expanded: true
+      items:
+        - name: Criar relações de modelos
+          href: ../desktop-relationships-understand.md
+        - name: Trabalhar com a Vista de modelação
+          href: ../desktop-modeling-view.md
+        - name: Gerir agregações
+          href: ../desktop-aggregations.md
+        - name: Utilizar modelos compostos
+          href: ../desktop-composite-models.md
+        - name: Aplicar relações muitos-para-muitos
+          href: ../desktop-many-to-many-relationships.md
+        - name: Gerir o modo de armazenamento
+          href: ../desktop-storage-mode.md
+        - name: Ativar a filtragem cruzada bidirecional
+          href: ../desktop-bidirectional-filtering.md
+        - name: Trabalhar com modelos multidimensionais no Power BI
+          href: ../desktop-default-member-multidimensional-models.md
+    - name: Manuais de instruções
+      items:
+        - name: Realizar tarefas de consulta comuns
+          href: ../desktop-common-query-tasks.md
+        - name: Criar e gerir relações
+          href: ../desktop-create-and-manage-relationships.md
+        - name: Utilizar o painel Análise
+          href: ../desktop-analytics-pane.md
+        - name: Trabalhar com a Vista de dados
+          href: ../desktop-data-view.md
+        - name: Aplicar as noções básicas de DAX
+          href: ../desktop-quickstart-learn-dax-basics.md
+        - name: Trabalhar com a Vista de relação
+          href: ../desktop-relationship-view.md
+        - name: Transform and shape data (Transformar e formatar dados)
+          items:
+            - name: Combinar ficheiros (binários)
+              href: ../desktop-combine-binaries.md
+            - name: Utilizar o Insights da IA (pré-visualização)
+              href: ../desktop-ai-insights.md
+        - name: Model your data (Modelar os seus dados)
+          items:
+            - name: Criar medidas rápidas para realizar cálculos comuns
+              href: ../desktop-quick-measures.md
+            - name: Criar e utilizar parâmetros hipotéticos para visualizar variáveis
+              href: ../desktop-what-if.md
+            - name: Especificar categorias de dados no Power BI Desktop
+              href: ../desktop-data-categorization.md
+            - name: "Identificar campos de códigos de barras no Power\_BI para a aplicação móvel"
+              href: ../desktop-mobile-barcodes.md
+            - name: "Definir filtros geográficos no Power\_BI para a aplicação móvel"
+              href: ../desktop-mobile-geofiltering.md
+            - name: Criar colunas calculadas
+              href: ../desktop-calculated-columns.md
+            - name: Criar tabelas calculadas
+              href: ../desktop-calculated-tables.md
+            - name: Criar medidas para análise de dados
+              href: ../desktop-measures.md
+            - name: Importar e apresentar os KPIs
+              href: ../desktop-import-and-display-kpis.md
+        - name: Preparação personalizada de dados
+          items:
+            - name: Create and use dataflows (Criar e utilizar fluxos de dados)
+              href: ../service-dataflows-create-use.md
+            - name: Utilizar o mecanismo de computação melhorado com fluxos de dados
+              href: ../service-dataflows-enhanced-compute-engine.md
+            - name: Entidades calculadas com o Power BI Premium
+              href: ../service-dataflows-computed-entities-premium.md
+            - name: Ligar a origens de dados com fluxos de dados
+              href: ../service-dataflows-data-sources.md
+            - name: Use dataflows with on-premises data sources (Utilizar fluxos de dados com origens de dados no local)
+              href: ../service-dataflows-on-premises-gateways.md
+            - name: Ligar entidades entre fluxos de dados
+              href: ../service-dataflows-linked-entities.md
+            - name: Use incremental refresh with dataflows (Utilizar a atualização incremental com os fluxos de dados)
+              href: ../service-dataflows-incremental-refresh.md
+            - name: Recursos para programadores para fluxos de dados
+              href: ../service-dataflows-developer-resources.md
+            - name: Ligar a fluxos de dados no Power BI Desktop
+              href: ../desktop-connect-dataflows.md
+            - name: Integração dos fluxos de dados e do Azure Data Lake (Pré-visualização)
+              href: ../service-dataflows-azure-data-lake-integration.md
+            - name: Ligar o Azure Data Lake Storage Gen2 para armazenar fluxos de dados
+              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Configurar definições de fluxos de dados da área de trabalho (Pré-visualização)
+              href: ../service-dataflows-configure-workspace-storage-settings.md
+            - name: Adicionar uma pasta de CDM ao Power BI como um fluxo de dados (Pré-visualização)
+              href: ../service-dataflows-add-cdm-folder.md
+            - name: Integrar o Machine Learning no Power BI
+              href: ../service-machine-learning-integration.md
+            - name: Utilizar os Serviços Cognitivos no Power BI
+              href: ../service-cognitive-services.md
+            - name: Machine Learning automatizada no Power BI
+              href: ../service-machine-learning-automated.md
+    - name: Referência
+      items:
+        - name: Atalhos do editor de fórmulas
+          href: ../desktop-formula-editor.md

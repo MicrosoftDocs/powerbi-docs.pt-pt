@@ -1,0 +1,85 @@
+- name: 'Collaborate, share, and integrate across products with Power BI (Colaboração, partilha e integração em produtos com o Power BI)'
+  href: index.yml
+  expanded: true
+  items:
+    - name: Descrição geral
+      expanded: true
+      items:
+        - name: Formas de partilhar o seu trabalho
+          href: ../service-how-to-collaborate-distribute-dashboards-reports.md
+    - name: Conceitos
+      expanded: true
+      items:
+        - name: Organizar o trabalho
+          href: ../service-new-workspaces.md
+        - name: Monitorizar a utilização em áreas de trabalho clássicas
+          href: ../service-usage-metrics.md
+        - name: Monitorizar a utilização em áreas de trabalho novas
+          href: ../service-modern-usage-metrics.md
+    - name: Manuais de instruções
+      expanded: true
+      items:
+        - name: Colaborar no Power BI
+          items:
+            - name: Criar as novas áreas de trabalho
+              href: ../service-create-the-new-workspaces.md
+            - name: Upgrade classic workspaces (Atualizar áreas de trabalhos clássicas)
+              href: ../designer/service-upgrade-workspaces.md
+            - name: Criar áreas de trabalho
+              href: ../service-create-workspaces.md
+            - name: Publish apps from workspaces (Publicar aplicações a partir de áreas de trabalho)
+              href: ../service-create-distribute-apps.md
+            - name: Gerir o armazenamento de dados nas áreas de trabalho
+              href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Ligar aos ficheiros no OneDrive do seu grupo
+              href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
+            - name: Collaborate in a classic workspace (Colaborar numa área de trabalho clássica)
+              href: ../service-collaborate-power-bi-workspace.md
+            - name: Manage your group in Power BI and Office 365 (Gerir o seu grupo no Power BI e no Office 365)
+              href: ../service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Publicar e partilhar o seu trabalho
+          items:
+            - name: Partilhar dashboards e relatórios
+              href: ../service-share-dashboards.md
+            - name: Filtrar e partilhar um relatório
+              href: ../service-share-reports.md
+            - name: Filtrar um relatório usando parâmetros no URL
+              href: ../service-url-filters.md
+            - name: Subscrever-se e subscrever outros
+              href: ../service-report-subscribe.md
+            - name: Incorporar relatório no Microsoft Teams
+              href: ../service-embed-report-microsoft-teams.md
+            - name: Embed report in SharePoint Online (Incorporar um relatório no SharePoint Online)
+              href: ../service-embed-report-spo.md
+            - name: Incorporar relatório num site ou portal seguro
+              href: ../service-embed-secure.md
+            - name: Publish from Power BI to the web (Publicar do Power BI para a Web)
+              href: ../service-publish-to-web.md
+            - name: Partilhar um dashboard que liga a um livro do Excel no OneDrive
+              href: ../service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: Power BI Publisher para Excel
+              href: ../publisher-for-excel.md
+        - name: Expandir o Power BI
+          items:
+            - name: Analisar no Excel
+              href: ../service-analyze-in-excel.md
+            - name: Resolução de problemas de análise no Excel
+              href: ../desktop-troubleshooting-analyze-in-excel.md
+            - name: 'Erro: Não conseguimos encontrar dados no seu livro do Excel'
+              href: ../service-admin-troubleshoot-excel-workbook-data.md
+            - name: Power Automate e Power BI
+              href: ../service-flow-integration.md
+            - name: Utilizar aplicações de terceiros
+              href: ../service-power-bi-get-started-third-party-apps.md
+        - name: Pacotes de conteúdos organizacionais
+          items:
+            - name: Introdução aos pacotes de conteúdos organizacionais
+              href: ../service-organizational-content-pack-introduction.md
+            - name: Criar e publicar um pacote de conteúdos
+              href: ../service-organizational-content-pack-create-and-publish.md
+            - name: 'Copiar, atualizar e obter acesso a pacotes de conteúdos'
+              href: ../service-organizational-content-pack-copy-refresh-access.md
+            - name: 'Gerir, atualizar e eliminar pacotes de conteúdos'
+              href: ../service-organizational-content-pack-manage-update-delete.md
+            - name: Remover a ligação a um pacote de conteúdos
+              href: ../service-organizational-content-pack-disconnect.md

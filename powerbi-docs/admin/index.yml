@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Documentação de administrador do Power BI
-summary: A documentação de administrador do Power BI fornece respostas e informações de especialistas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+title: Documentação empresarial e de administrador do Power BI
+summary: A documentação empresarial e de administrador do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
 metadata:
-  title: Documentação de administrador do Power BI
-  description: A documentação de administrador do Power BI fornece respostas e informações de especialistas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
+  title: Documentação empresarial e de administrador do Power BI
+  description: A documentação empresarial e de administrador do Power BI fornece informações de peritos e respostas para satisfazer as suas necessidades, independentemente de como utilizar o Power BI.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959508"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919436"
 landingContent:
-- title: Sobre o Power BI para administradores
+- title: Power BI para administradores e empresas
   linkLists:
   - linkListType: overview
     links:
@@ -46,6 +46,20 @@ landingContent:
     - text: Adicionar o Power BI com um parceiro do Office 365
       url: ../service-admin-syndication-partner.md
 - title: Inquilinos
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Where is my tenant located? (Onde está localizado o meu inquilino?)
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
+      url: ../service-admin-access-usage.md
+    - text: Auditing Power BI (Auditar o Power BI)
+      url: ../service-admin-auditing.md
+    - text: Controlar o estado de funcionamento do serviço
+      url: ../service-admin-health.md
+    - text: Fechar a sua conta do Power BI
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
   linkLists:
   - linkListType: how-to-guide
     links:
