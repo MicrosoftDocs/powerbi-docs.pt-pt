@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: Adicionar um marcador a um relatório
               href: end-user-bookmarks.md
+            - name: Add a spotlight to a report (Adicionar um destaque a um relatório)
+              href: end-user-spotlight.md
             - name: Relatórios paginados no Power BI
               items:
                 - name: Relatórios paginados
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: Obter dados
           items:
+            - name: Workspaces in Power BI (Áreas de trabalho no Power BI)
+              href: end-user-workspaces.md
             - name: Aplicações no Power BI
               href: end-user-apps.md
             - name: Instalar e utilizar aplicações

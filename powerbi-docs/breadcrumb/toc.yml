@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: Consumidores
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: Programador
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Utilizar elementos visuais baseados em R no Power BI
+            - name: Consumidores
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: Programador
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: Aprendizagem Interativa
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: Report Server
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: Orientação
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: Aprendizagem Orientada
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: Report Server
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: Orientação
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 'Collaborate, share, integrate (Colaborar, partilhar e integrar)'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: Criar relatórios e dashboards
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: Ligar-se a dados
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: Introdução
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: 'Transform, shape, model data (Transformar, formatar e modelar dados)'
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index
