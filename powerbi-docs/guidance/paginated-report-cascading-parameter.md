@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162417"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920770"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Use cascading parameters in paginated reports (Utilizar parâmetros em cascata em relatórios paginados)
 
-O presente artigo destina-se a si, na qualidade de autor de relatório que cria [relatórios paginados](../paginated-reports-report-builder-power-bi.md) do Power BI. Fornece cenários para a criação de parâmetros em cascata. Os parâmetros em cascata são parâmetros do relatório com dependências. Quando um utilizador do relatório seleciona um valor (ou valores) de parâmetro, este será utilizado para definir os valores disponíveis para outro parâmetro.
+O presente artigo destina-se a si, na qualidade de autor de relatório que cria [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) do Power BI. Fornece cenários para a criação de parâmetros em cascata. Os parâmetros em cascata são parâmetros do relatório com dependências. Quando um utilizador do relatório seleciona um valor (ou valores) de parâmetro, este será utilizado para definir os valores disponíveis para outro parâmetro.
 
 > [!NOTE]
 > Neste artigo, não abordamos a introdução aos parâmetros em cascata nem como os configurar. Se não estiver totalmente familiarizado com os parâmetros em cascata, recomendamos que leia primeiro [Add Cascading Parameters to a Report (Report Builder and SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs) (Adicionar Parâmetros em Cascata a um Relatório (Report Builder e SSRS)).
@@ -281,7 +281,7 @@ Confirme que otimiza as origens de dados ao:
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Parâmetros de relatórios no Report Builder do Power BI](../report-builder-parameters.md)
+- [Parâmetros de relatórios no Report Builder do Power BI](../paginated-reports/report-builder-parameters.md)
 - [Add Cascading Parameters to a Report (Report Builder and SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs) (Adicionar Parâmetros em Cascata a um Relatório (Report Builder e SSRS))
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

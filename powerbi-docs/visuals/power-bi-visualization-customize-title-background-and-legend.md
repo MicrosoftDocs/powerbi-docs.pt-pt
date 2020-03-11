@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757838"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78893436"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizar os títulos, fundos e legendas das visualizações
 
@@ -56,8 +56,8 @@ Inicie sessão no Power BI Desktop e abra o relatório [Exemplo de Análise de R
 1. Altere a **Cor do tipo de letra** para branco e a **Cor de fundo** para azul.    
 
     a. Selecione a lista suspensa e escolha uma cor em **Cores do tema**, **Cores recentes**ou **Cor personalizada**.
-
-        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
+    
+    ![Captura de ecrã das opções da Cor do tipo de letra e da Cor de fundo.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. Selecione a lista suspensa para fechar a janela de cores.
 

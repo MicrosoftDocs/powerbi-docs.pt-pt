@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871478"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041729"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Criar uma aplicação de modelo no Power BI
 
@@ -58,7 +58,7 @@ Para criar uma aplicação de modelo que possa distribuir para outros inquilinos
 
 Tal como acontece com uma área de trabalho do Power BI normal, o próximo passo é criar os conteúdos na área de trabalho.  
 
-- [Crie os seus conteúdos do Power BI](power-bi-creator-landing.md) na sua área de trabalho.
+- [Crie os seus conteúdos do Power BI](index.yml) na sua área de trabalho.
 
 Se estiver a utilizar parâmetros no Power Query, certifique-se de que define corretamente o tipo (por exemplo, Texto). Os tipos Qualquer e Binário não são suportados.
 
@@ -95,7 +95,7 @@ Agora que tem conteúdos na sua área de trabalho, está tudo pronto para os emp
 
     Defina limites e restrições que os utilizadores da aplicação terão relativamente aos conteúdos da sua aplicação. Pode utilizar este controlo para proteger propriedades intelectuais na sua aplicação.
 
-    ![Controlo](media/service-template-apps-create/power-bi-create-control.png)
+    ![Controlar](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
     >A exportação para o formato .pbix é sempre bloqueada aos utilizadores que instalam a aplicação.

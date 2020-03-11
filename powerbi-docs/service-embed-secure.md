@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913592"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919801"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporar um relatório num site ou portal seguro
 
@@ -119,7 +119,7 @@ Pode adicionar quantos botões quiser para criar uma experiência personalizada 
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 
-* Os relatórios paginados em cenários de incorporação segura são suportados, bem como os relatórios paginados com parâmetros URL. Saiba mais sobre como [transmitir parâmetros de relatório num URL para um relatório paginado](report-builder-url-pass-parameters.md).
+* Os relatórios paginados em cenários de incorporação segura são suportados, bem como os relatórios paginados com parâmetros URL. Saiba mais sobre como [transmitir parâmetros de relatório num URL para um relatório paginado](paginated-reports/report-builder-url-pass-parameters.md).
 
 * Não suporta utilizadores convidados externos com a capacidade empresa-empresa (B2B) do Azure.
 

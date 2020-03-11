@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530447"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920760"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Orientação para a obtenção de dados para relatórios paginados
 
-O presente artigo destina-se a si, na qualidade de autor de relatório que cria [relatórios paginados](../paginated-reports-report-builder-power-bi.md) do Power BI. Fornece recomendações para o ajudar a conceber uma obtenção de dados eficaz e eficiente.
+O presente artigo destina-se a si, na qualidade de autor de relatório que cria [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) do Power BI. Fornece recomendações para o ajudar a conceber uma obtenção de dados eficaz e eficiente.
 
 ## <a name="data-source-types"></a>Tipos de origem de dados
 
@@ -101,13 +101,13 @@ Recomendamos a _parametrização de conjuntos de dados_ quando antecipar que nã
 
 ## <a name="non-native-data-sources"></a>Origens de dados não nativas
 
-Se precisar de desenvolver relatórios paginados baseados em origens de dados que não são [suportadas nativamente por relatórios paginados](../paginated-reports-data-sources.md), pode começar por desenvolver um modelo de dados do Power BI Desktop. Desta forma, pode ligar a mais de 100 [origens de dados do Power BI](../power-bi-data-sources.md). Uma vez publicado no serviço Power BI, pode desenvolver um relatório paginado que liga ao conjunto de dados do Power BI.
+Se precisar de desenvolver relatórios paginados baseados em origens de dados que não são [suportadas nativamente por relatórios paginados](../paginated-reports/paginated-reports-data-sources.md), pode começar por desenvolver um modelo de dados do Power BI Desktop. Desta forma, pode ligar a mais de 100 [origens de dados do Power BI](../power-bi-data-sources.md). Uma vez publicado no serviço Power BI, pode desenvolver um relatório paginado que liga ao conjunto de dados do Power BI.
 
 ## <a name="data-integration"></a>Integração de dados
 
 Se precisar de combinar dados de múltiplas origens de dados, tem duas opções:
 
-- **Combinar conjuntos de dados de relatório**: se as origens de dados forem [suportadas nativamente por relatórios paginados](../paginated-reports-data-sources.md), pode considerar criar campos calculados que utilizem as funções [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) ou [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) do Report Builder.
+- **Combinar conjuntos de dados de relatório**: se as origens de dados forem [suportadas nativamente por relatórios paginados](../paginated-reports/paginated-reports-data-sources.md), pode considerar criar campos calculados que utilizem as funções [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) ou [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) do Report Builder.
 - **Desenvolver um modelo do Power BI Desktop**: contudo, é provavelmente mais eficiente desenvolver um modelo de dados no Power BI Desktop. Pode utilizar o Power Query para combinar consultas baseadas em qualquer [origem de dados suportada](../power-bi-data-sources.md). Uma vez publicado no serviço Power BI, pode desenvolver um relatório paginado que liga ao conjunto de dados do Power BI.
 
 ## <a name="sql-server-complex-data-types"></a>Tipos de dados complexos do SQL Server
@@ -143,6 +143,6 @@ Quando um relatório é executado, todos os conjuntos de dados são avaliados, m
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [Origens de dados suportadas para relatórios paginados do Power BI](../paginated-reports-data-sources.md)
+- [Origens de dados suportadas para relatórios paginados do Power BI](../paginated-reports/paginated-reports-data-sources.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

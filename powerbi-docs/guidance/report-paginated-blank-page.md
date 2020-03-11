@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041871"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920804"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Avoid blank pages when printing paginated reports (Evitar páginas em branco ao imprimir relatórios paginados)
 
-O presente artigo destina-se a si, na qualidade de autor de relatório que cria [relatórios paginados](../paginated-reports-report-builder-power-bi.md) do Power BI. Apresenta recomendações para o ajudar a evitar páginas em branco quando o relatório é exportado para um formato de paginação, como PDF ou Microsoft Word, ou é impresso.
+O presente artigo destina-se a si, na qualidade de autor de relatório que cria [relatórios paginados](../paginated-reports/paginated-reports-report-builder-power-bi.md) do Power BI. Apresenta recomendações para o ajudar a evitar páginas em branco quando o relatório é exportado para um formato de paginação, como PDF ou Microsoft Word, ou é impresso.
 
 ## <a name="page-setup"></a>Configuração da página
 
 As propriedades do tamanho da página do relatório determinam a orientação da página, as dimensões e as margens. Aceda a estas propriedades do relatório:
 
 - Com o relatório **Página de Propriedades**: clique com o botão direito do rato na área cinzenta escura fora da tela de relatórios e, em seguida, selecione _Propriedades do Relatório_.
-- Com o [**painel Propriedades**](../paginated-reports-report-design-view.md#4-properties-pane): clique na área cinzenta escura fora da tela do relatório para selecionar o objeto do relatório. Confirme que o painel **Propriedades** está aberto.
+- Com o [**painel Propriedades**](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane): clique na área cinzenta escura fora da tela do relatório para selecionar o objeto do relatório. Confirme que o painel **Propriedades** está aberto.
 
 A página **Configuração da Página** do relatório **Página de Propriedades** disponibiliza uma interface amigável para ver e atualizar as propriedades da página de configuração.
 
@@ -91,7 +91,7 @@ Por fim, se estiver a imprimir o relatório para papel, confirme que a impressor
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [O que são relatórios paginados no Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
-- [Paginação nos relatórios paginados do Power BI](../paginated-reports-pagination.md)
+- [O que são relatórios paginados no Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Paginação nos relatórios paginados do Power BI](../paginated-reports/paginated-reports-pagination.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)

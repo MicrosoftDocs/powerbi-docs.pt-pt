@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290504"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920744"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Quando utilizar os relatórios paginados no Power BI
 
-O presente artigo destina-se a si, na qualidade de criador de relatórios para o Power BI. Fornece sugestões para ajudá-lo a escolher quando criar os [relatórios paginados do Power BI](../paginated-reports-report-builder-power-bi.md).
+O presente artigo destina-se a si, na qualidade de criador de relatórios para o Power BI. Fornece sugestões para ajudá-lo a escolher quando criar os [relatórios paginados do Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md).
 
 > [!NOTE]
 > Para publicar os relatórios paginados do Power BI, é necessária uma subscrição do Power BI Premium. Os relatórios vão ser compostos somente quando estiverem numa área de trabalho numa capacidade dedicada que tenha [a carga de trabalho Relatórios Paginados ativada](../service-admin-premium-workloads.md#paginated-reports).
@@ -49,7 +49,7 @@ Quando é preferível criar um relatório paginado do Power BI, há muitos cená
 - **Esquema preciso**: pode criar esquemas com um aspeto perfeito e altamente formatados com o tamanho exato e a localização configurada em frações de polegadas ou centímetros.
 - **Esquema dinâmico**: pode produzir esquemas altamente reativos ao definir muitas propriedades de relatório para utilizar expressões VB.NET. As expressões têm acesso a muitas bibliotecas do .NET Framework importantes.
 - **Esquema de composição específica**: pode utilizar expressões para modificar o esquema de relatório com base no formato de composição aplicado. Por exemplo, pode criar o relatório para desativar a alternância de visibilidade (de modo a desagregar e a agregar) quando este é composto através de um formato não interativo, como PDF.
-- **Consultas nativas**: não é preciso criar previamente um conjunto de dados do Power BI. É possível criar consultas nativas (ou utilizar procedimentos armazenados) para qualquer [origem de dados suportada](../paginated-reports-data-sources.md). As consultas podem incluir parametrização.
+- **Consultas nativas**: não é preciso criar previamente um conjunto de dados do Power BI. É possível criar consultas nativas (ou utilizar procedimentos armazenados) para qualquer [origem de dados suportada](../paginated-reports/paginated-reports-data-sources.md). As consultas podem incluir parametrização.
 - **Designers de consultas gráficas**: o Power BI Report Builder inclui designers de consultas gráficas para ajudá-lo a escrever e a testar as consultas de conjuntos de dados.
 - **Conjuntos de dados estáticos**: pode definir um conjunto de dados e introduzir dados diretamente na definição do relatório. Esta funcionalidade é, sobretudo, útil para suportar uma demonstração ou para fornecer uma prova de conceito (POC).
 - **Integração de dados**: pode combinar dados de diferentes origens de dados ou com conjuntos de dados estáticos. Isto é conseguido através da criação de campos personalizados com expressões VB.NET.
@@ -70,7 +70,7 @@ Quando é preferível criar um relatório paginado do Power BI, há muitos cená
 
 Para obter mais informações relacionadas com este artigo, consulte os seguintes recursos:
 
-- [O que são relatórios paginados no Power BI Premium?](../paginated-reports-report-builder-power-bi.md)
+- [O que são relatórios paginados no Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [Migrar os relatórios do SQL Server Reporting Services para o Power BI](migrate-ssrs-reports-to-power-bi.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 - Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)
