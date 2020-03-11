@@ -8,24 +8,24 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527528"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260422"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Compreender o que é um esquema de estrela e qual a importância para o Power BI
 
 Este artigo destina-se aos modeladores de dados do Power BI Desktop. Descreve o design do esquema de estrela e a sua relevância para desenvolver modelos de dados do Power BI otimizados para desempenho e utilização.
 
-Este artigo não se destina a fornecer um debate completo sobre o design do esquema de estrela. Para obter mais detalhes, veja diretamente o conteúdo publicado, tal como **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (Conjunto de Ferramentas de Armazém de Dados: Guia Completo de Modelação Dimensional) (2.ª Edição, 2002) por Ralph Kimball et al.
+Este artigo não se destina a apresentar um debate completo sobre o design do esquema de estrela. Para obter mais detalhes, veja diretamente o conteúdo publicado, tal como **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling** (Conjunto de Ferramentas de Armazém de Dados: Guia Completo de Modelação Dimensional) (2.ª Edição, 2002) por Ralph Kimball et al.
 
 ## <a name="star-schema-overview"></a>Descrição geral do esquema de estrela
 
 O **esquema de estrela** é uma abordagem de modelação avançada adotada amplamente pelos armazéns de dados relacionais. Requer que os modeladores classifiquem as respetivas tabelas de modelos como _dimensão_ ou _facto_.
 
-As **tabelas de dimensão** descrevem entidades empresariais, os conteúdos que modela. As entidades podem incluir produtos, pessoas, locais e conceitos, incluindo o próprio tempo. A tabela mais consistente que irá encontrar num esquema de estrela é uma tabela de dimensão de data. Uma tabela de dimensão contém uma coluna de chave (ou colunas) que atua como um identificador exclusivo e colunas descritivas.
+As **tabelas de dimensão** descrevem entidades empresariais, os _conteúdos_ que modela. As entidades podem incluir produtos, pessoas, locais e conceitos, incluindo o próprio tempo. A tabela mais consistente que irá encontrar num esquema de estrela é uma tabela de dimensão de data. Uma tabela de dimensão contém uma coluna de chave (ou colunas) que atua como um identificador exclusivo e colunas descritivas.
 
 **Tabela de factos** armazenam observações ou eventos e podem ser notas de vendas, quantidade de stock, taxas de câmbio, temperaturas, etc. Uma tabela de factos contém colunas de chave de dimensão relacionadas com tabelas de dimensão e colunas de medidas numéricas. As colunas de chave de dimensão determinam a _dimensionalidade_ de uma tabela de factos, enquanto os valores de chave de dimensão determinam a _granularidade_ de uma tabela de factos. Por exemplo, considere uma tabela de factos concebida para armazenar objetivos de vendas que têm duas colunas de chave de dimensão **Data** e **ProductKey**. É fácil compreender que a tabela tem duas dimensões. No entanto, a granularidade não pode ser determinada sem considerar os valores de chave de dimensão. Neste exemplo, considere que os valores armazenados na coluna **Data** são o primeiro dia de cada mês. Neste caso, a granularidade está ao nível do mês-produto.
 
@@ -42,11 +42,11 @@ Considere que cada elemento visual do relatório do Power BI gera uma consulta q
 - As tabelas de dimensões suportam _filtragem_ e _agrupamento_
 - As tabelas de factos suportam _resumos_
 
-Embora não exista uma propriedade de tabela que os modeladores possam definir para configurar o tipo de tabela (dimensão ou facto), este é determinado pelas relações do modelo. Uma relação de modelo estabelece um caminho de propagação de filtro entre duas tabelas e é a propriedade **Cardinalidade** da relação que determina o tipo de tabela. Uma cardinalidade de relação comum é "um para muitos" ou o inverso "muitos para um". O lado "um" é sempre uma tabela de dimensão, enquanto o lado "muitos" é sempre uma tabela de factos.
+Não existe nenhuma propriedade de tabela que os modeladores definam para configurar o tipo de tabela como dimensão ou facto. Na verdade, esta situação é determinada pelas relações de modelos. Uma relação de modelo estabelece um caminho de propagação de filtro entre duas tabelas e é a propriedade **Cardinalidade** da relação que determina o tipo de tabela. Uma cardinalidade de relação comum é _um-para-muitos_ ou o inverso _muitos-para-um_. O lado "um" é sempre uma tabela de dimensão, enquanto o lado "muitos" é sempre uma tabela de factos. Para obter mais informações sobre relações, veja [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md).
 
 ![Esquema de estrela conceitual](media/star-schema/star-schema-example2.png)
 
-Um design de modelo bem estruturado deve incluir tabelas de dimensões ou tabelas de factos. Deve evitar misturar os dois tipos numa única tabela. Recomendamos que forneça o número certo de tabelas com as relações certas em vigor. Também é importante que as tabelas de factos carreguem sempre dados a um nível consistente.
+Um design de modelo bem estruturado deve incluir tabelas de dimensões ou tabelas de factos. Evite misturar os dois tipos numa única tabela. Recomendamos que forneça o número certo de tabelas com as relações certas em vigor. Também é importante que as tabelas de factos carreguem sempre dados a um nível consistente.
 
 Por fim, é importante compreender que o design de modelo ideal é composto por ciência e arte. Por vezes, pode interromper com uma boa orientação quando fizer sentido.
 
@@ -73,17 +73,17 @@ Num modelo do Power BI, uma **medida** tem uma definição diferente mas semelha
 
 No entanto, existem três motivos apelativos para criar medidas, até mesmo para resumos simples ao nível da coluna:
 
-- Quando souber que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (as tabelas dinâmicas emitem consultas MDX).
+- Quando souber que os autores de relatórios irão consultar o modelo com [MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), o modelo tem de incluir _medidas explícitas_. As medidas explícitas são definidas ao utilizar DAX. Esta abordagem de design é altamente relevante quando um conjunto de dados Power BI é consultado ao utilizar MDX, porque o MDX não consegue resumir os valores de colunas. Notavelmente, o MDX será utilizado ao executar [Analisar no Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) porque as tabelas dinâmicas emitem consultas MDX.
 - Quando souber que os autores de relatórios irão criar relatórios paginados do Power BI com o estruturador de consulta MDX, o modelo tem de incluir medidas explícitas. Apenas o estruturador de consulta MDX suporta [agregados de servidores](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Assim, se os autores de relatórios precisarem de ter medidas avaliadas pelo Power BI (em vez do motor de relatórios paginados), têm de utilizar o estruturador de consulta MDX.
 - Se precisar de garantir que os autores de relatórios só podem resumir colunas de formas específicas. Por exemplo, a coluna **Preço Unitário** de vendas de revendedor (que representa uma taxa por unidade) pode ser resumida, mas apenas com funções de agregação específicas. Nunca deve ser somada, mas é adequado resumir com outras funções de agregação (min, max, average, etc.). Neste caso, o modelador pode ocultar a coluna **Preço Unitário** e criar medidas para todas as funções de agregação adequadas.
 
-Tenha em atenção que esta abordagem de design funciona bem para relatórios criados no serviço Power BI e Perguntas e Respostas. No entanto, as ligações em direto do Power BI Desktop permitem que os autores de relatórios mostrem campos ocultos no painel **Campos**, o que pode contornar esta abordagem de design.
+Esta abordagem de design funciona bem para relatórios criados no serviço Power BI e Perguntas e Respostas. No entanto, as ligações em direto do Power BI Desktop permitem que os autores de relatórios mostrem campos ocultos no painel **Campos**, o que pode contornar esta abordagem de design.
 
 ## <a name="surrogate-keys"></a>Chaves de substituição
 
 Uma **chave de substituição** é um identificador exclusivo que adiciona a uma tabela para suportar a modelação do esquema de estrela. Por definição, não são definidas nem armazenadas nos dados de origem. Normalmente, as chaves de substituição são adicionadas a tabelas de dimensão de armazém de dados relacional para fornecer um identificador exclusivo para cada linha da tabela de dimensão.
 
-As relações do modelo do Power BI são baseadas numa única coluna exclusiva numa tabela, que propaga filtros para uma única coluna numa tabela diferente. Quando uma tabela de dimensão no seu modelo não inclui uma única coluna exclusiva, tem de adicionar um identificador exclusivo para se tornar o lado "um" de uma relação. No Power BI Desktop, pode obter isto rapidamente ao criar uma [coluna de índice do Power Query](https://docs.microsoft.com/powerquery-m/table-addindexcolumn).
+As relações do modelo do Power BI são baseadas numa única coluna exclusiva numa tabela, que propaga filtros para uma única coluna numa tabela diferente. Quando uma tabela de dimensão no seu modelo não inclui uma única coluna exclusiva, tem de adicionar um identificador exclusivo para se tornar o lado "um" de uma relação. No Power BI Desktop, pode alcançar facilmente este requisito ao criar uma [coluna de índice do Power Query](https://docs.microsoft.com/powerquery-m/table-addindexcolumn).
 
 ![Criar uma coluna de índice na barra de ferramentas do Power Query](media/star-schema/toolbar-index.png)
 
@@ -118,13 +118,13 @@ A teoria do design do esquema de estrela refere-se a dois tipos comuns de SCD: T
 
 ### <a name="type-1-scd"></a>SCD de Tipo 1
 
-Um **SCD** de **Tipo 1** reflete sempre os valores mais recentes e quando são detetadas alterações nos dados de origem, os dados da tabela de dimensão são simplesmente substituídos. Esta abordagem de design é comum para colunas que armazenam valores suplementares, como o endereço de e-mail ou o número de telemóvel de um cliente. Quando o endereço de e-mail ou número de telemóvel de um cliente muda, a tabela de dimensão atualiza a linha de cliente com os novos valores. É como se o cliente sempre tivesse estas informações de contacto.
+Um **SCD** de **Tipo 1** reflete sempre os valores mais recentes e quando são detetadas alterações nos dados de origem, os dados da tabela de dimensão são substituídos. Esta abordagem de design é comum para colunas que armazenam valores suplementares, como o endereço de e-mail ou o número de telemóvel de um cliente. Quando o endereço de e-mail ou número de telemóvel de um cliente muda, a tabela de dimensão atualiza a linha de cliente com os novos valores. É como se o cliente sempre tivesse estas informações de contacto.
 
 Uma atualização não incremental de uma tabela de dimensão do modelo do Power BI obtém o resultado de um SCD de Tipo 1. Atualiza os dados da tabela para garantir que os valores mais recentes são carregados.
 
 ### <a name="type-2-scd"></a>SCD de Tipo 2
 
-Um **SCD** de **Tipo 2** suporta o controlo de versões dos membros da dimensão. Se o sistema de origem não armazenar versões, normalmente o processo de carregamento do armazém de dados deteta alterações e gere adequadamente a alteração numa tabela de dimensão. Neste caso, a tabela de dimensão tem de utilizar uma chave de substituição para fornecer uma referência exclusiva para uma _versão_ do membro da dimensão. Também inclui colunas que definem a validade do intervalo de datas da versão (por exemplo, **StartDate** e **EndDate**) e possivelmente uma coluna de sinalizador (por exemplo, **IsCurrent**) para filtrar facilmente por membros atuais da dimensão.
+Um **SCD** de **Tipo 2** suporta o controlo de versões dos membros da dimensão. Se o sistema de origem não armazenar versões, normalmente o processo de carregamento do armazém de dados deteta alterações e gere adequadamente a alteração numa tabela de dimensão. Neste caso, a tabela de dimensão tem de utilizar uma chave de substituição para fornecer uma referência exclusiva para uma _versão_ do membro da dimensão. Também inclui colunas que definem a validade do intervalo de datas da versão (por exemplo, **DataDeInício** e **DataDeFim**) e possivelmente uma coluna de sinalizador (por exemplo, **ÉAtual**) para filtrar facilmente por membros atuais da dimensão.
 
 Por exemplo, a Adventure Works atribui vendedores a uma região de vendas. Quando um vendedor muda de região, uma nova versão do vendedor tem de ser criada para garantir que os factos históricos permanecem associados à região anterior. Para suportar a análise histórica precisa de vendas por vendedor, a tabela de dimensão tem de armazenar versões do vendedor e as regiões associadas. A tabela também deve incluir valores de data de início e de fim para definir o prazo de validade. As versões atuais podem definir uma data de fim vazia (ou 31/12/9999), que indica que a linha é a versão atual. A tabela também tem de definir uma chave de substituição porque a chave de negócio (neste caso, ID de colaborador) não será exclusiva.
 
@@ -166,6 +166,8 @@ Observe as seguintes boas práticas de design ao criar tabelas de dimensão de m
 - Certifique-se de que os nomes das colunas são descritivos. Embora seja possível ter uma coluna **Ano** em todas as tabelas de data (os nomes de colunas são exclusivos na tabela), não é descritiva através de títulos de elementos visuais predefinidos. Considere mudar o nome das colunas em cada tabela de função de dimensão, para que a tabela **Data de Envio** tenha uma coluna de ano denominada **Ano de Envio**, etc.
 - Quando for relevante, certifique-se de que as descrições da tabela fornecem feedback aos autores do relatório (através de descrições do painel **Campos**) sobre como a propagação de filtro é configurada. Esta clareza é importante quando o modelo contém uma tabela com um nome genérico, como **Data**, que é utilizada para filtrar várias tabelas de factos. Caso esta tabela tenha, por exemplo, uma relação ativa com a coluna da data da nota de vendas de revendedor, considere fornecer uma descrição da tabela como "Filtra vendas de revendedor por data da encomenda".
 
+Para obter mais informações, veja [Documento de orientação das relações ativas vs. inativas](relationships-active-inactive.md).
+
 ## <a name="junk-dimensions"></a>Dimensões de lixo
 
 Uma **dimensão de lixo** é útil quando existem várias dimensões, especialmente com poucos atributos (talvez um), e quando estes atributos têm poucos valores. Bons candidatos incluem colunas de estado da encomenda ou colunas de demografia do cliente (género, idade, grupo, etc.).
@@ -182,9 +184,11 @@ Pode carregar esta consulta para o modelo como uma tabela de dimensão. Também 
 
 Uma **dimensão de degeneração** refere-se a um atributo da tabela de factos que é necessário para filtragem. Na Adventure Works, o número da nota de vendas de revendedor é um bom exemplo. Neste caso, não faz sentido em termos de design do modelo criar uma tabela independente que consiste apenas numa coluna, porque iria aumentar o tamanho do armazenamento do modelo e resultar na desorganização do painel **Campos**.
 
-No modelo do Power BI, pode ser adequado adicionar a coluna de número da nota de vendas à tabela de factos para permitir a filtragem ou agrupamento por número da nota de vendas. É uma exceção à regra introduzida anteriormente de que não deve misturar tipos de tabela (ou seja, geralmente, as tabelas de modelo devem ser de dimensão ou de factos).
+No modelo do Power BI, pode ser adequado adicionar a coluna de número da nota de vendas à tabela de factos para permitir a filtragem ou agrupamento por número da nota de vendas. É uma exceção à regra introduzida anteriormente de que não deve misturar tipos de tabela (geralmente, as tabelas de modelo devem ser de dimensão ou de factos).
 
 ![Exemplo de dimensão de degeneração](media/star-schema/degenerate-dimension.png)
+
+Para obter mais informações, veja [Documento de orientação das relações um-para-um (Dimensões de degeneração)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Tabelas de factos sem factos
 
@@ -198,7 +202,7 @@ Por exemplo, considere que o vendedor pode ser atribuído a uma _ou mais_ regiõ
 
 ![Exemplo de tabela de factos sem factos](media/star-schema/factless-fact.png)
 
-Esta abordagem de design muitos para muitos está bem documentada e pode ser obtida sem uma tabela de bridging. No entanto, a abordagem de tabela de bridging é considerada a melhor prática ao relacionar duas dimensões. Para obter mais informações, veja [Relações com uma cardinalidade de muitos para muitos no Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
+Esta abordagem de design muitos para muitos está bem documentada e pode ser obtida sem uma tabela de bridging. No entanto, a abordagem de tabela de bridging é considerada a melhor prática ao relacionar duas dimensões. Para obter mais informações, veja [Documento de orientação das relações muitos-para-muitos (Relacionar duas tabelas de dimensão)](relationships-many-to-many.md#relate-many-to-many-dimensions).
 
 ## <a name="next-steps"></a>Próximos passos
 
@@ -206,6 +210,9 @@ Para obter mais informações sobre o design do esquema de estrela ou o design d
 
 - [Artigo da Wikipédia de Modelação dimensional](https://go.microsoft.com/fwlink/p/?linkid=246459)
 - [Criar e gerir relações no Power BI Desktop](../desktop-create-and-manage-relationships.md)
-- [Relações com uma cardinalidade de muitos para muitos no Power BI Desktop](../desktop-many-to-many-relationships.md)
-- [Experiência de aprendizagem interativa de modelação](/learn/modules/model-data-power-bi/)
+- [Documento de orientação das relações um-para-um](relationships-one-to-one.md)
+- [Guia de relações muitos para muitos](relationships-many-to-many.md)
+- [Documento de orientação das relações bidirecionais](relationships-bidirectional-filtering.md)
+- [Documento de orientação das relações ativas vs. inativas](relationships-active-inactive.md)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

@@ -40,7 +40,7 @@ Se tiver mais de cinco itens acedidos recentemente, selecione **Ver todos** para
 
 ## <a name="actions-available-from-the-recent-content-list"></a>Ações disponíveis na lista de conteúdo **Recente**
 As ações disponíveis dependem das definições atribuídas pelo *designer* do conteúdo. Algumas das opções podem incluir:
-* Selecionar o ícone de estrela para [adicionar um dashboard, relatório ou aplicação aos favoritos](end-user-favorite.md) ![ícone de estrela](./media/end-user-shared-with-me/power-bi-star-icon.png).
+* Selecionar o ícone de estrela para [adicionar um dashboard, um relatório ou uma aplicação aos favoritos](end-user-favorite.md) ![ícone de estrela](./media/end-user-shared-with-me/power-bi-star-icon.png).
 * Alguns dashboards e relatórios podem ser partilhados novamente  ![ícone Partilhar](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Abrir o relatório no Excel](end-user-export.md) ![ícone Exportar para Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
 * [Ver as informações](end-user-insights.md) que o Power BI encontra nos dados ![ícone de informações](./media/end-user-shared-with-me/power-bi-insights.png).

@@ -44,7 +44,7 @@ A pesquisa do dispositivo, com tecnologia da Siri, irá também incluir sugestõ
 
 >[!NOTE]
 >
->Para desativar a pesquisa do dispositivo e as sugestões da Siri, aceda às **Definições do dispositivo** > **Definições do Power BI** > **Siri e Pesquisa** e desative a opção **Siri e sugestões**.
+>Para desativar a pesquisa de dispositivos e as sugestões da Siri, aceda a **Definições do dispositivo** > **Definições do Power BI** > **Siri e Pesquisa** e desative a opção **Siri e sugestões**.
 >
 
 ## <a name="next-steps"></a>Próximos passos

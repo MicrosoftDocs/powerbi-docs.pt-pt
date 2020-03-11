@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782418"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260767"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Certificar um elemento visual do Power BI
 
@@ -56,10 +56,14 @@ Para compreender o aspeto de um repositório de elementos visuais do Power BI, 
 Utilize a versão mais recente da API para escrever o elemento visual do Power BI.
 
 O repositório deve incluir os seguintes ficheiros:
-* **.gitignore** – adicione `node_modules` a este ficheiro. Este código não pode incluir a pasta *node_modules*.
+* **.gitignore** – adicione `node_modules`, `.tmp` e `dist` a este ficheiro. Este código não pode incluir as pastas *node_modules*, *.tmp* ou *dist*.
 * **capabilities.json** – se estiver a submeter uma versão mais recente do elemento visual do Power BI com alterações às propriedades neste ficheiro, confirme que estas não danificam os relatórios dos utilizadores existentes.
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**. O elemento visual tem de ter o seguinte pacote instalado:
+   * [“tslint”](https://www.npmjs.com/package/tslint): “5.18.0” ou superior
+   * [“typescript”](https://www.npmjs.com/package/typescript): “3.0.0” ou superior
+   * [“tslint-microsoftcontrib”](https://www.npmjs.com/package/tslint-microsoft-contrib): “6.2.0” ou superior
+   * O ficheiro tem de conter o comando para executar linter: “lint”: “tslint -c tslint.json -p tsconfig.json”
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Confirme que os seguintes comandos não devolvem erros.
 * `npm install`
 * `pbiviz package`
 * `npm audit` – não deve devolver nenhum aviso com nível alto ou moderado.
-* [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sem configurações substituídas. Este comando não deve devolver erros lint.
+* [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) com a [configuração necessária](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json). Este comando não deve devolver erros lint.
 
 ### <a name="compiling-requirements"></a>Requisitos de compilação
 

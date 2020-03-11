@@ -8,22 +8,22 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309115"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290688"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Criar relações de modelos no Power BI Desktop
 
-Este artigo destina-se aos Modeladores de dados de importação que trabalham com o Power BI Desktop. É um tópico importante de design de modelo que é essencial para oferecer modelos intuitivos, precisos e ideais.
+Este artigo destina-se aos Modeladores de dados de importação que trabalham com o Power BI Desktop. É um tópico importante de design de modelos essencial para oferecer modelos intuitivos, precisos e ideais.
 
 Para uma discussão mais profunda sobre design de modelo ideal, incluindo relações e funções de tabela, leia o artigo [Compreender o que é um esquema de estrela e qual a importância para o Power BI](guidance/star-schema.md).
 
 ## <a name="relationship-purpose"></a>Objetivo da relação
 
-Em síntese, as relações do Power BI propagam filtros aplicados nas colunas de tabelas de modelo a outras tabelas de modelo. Os filtros serão propagados desde que haja um caminho de relação a seguir, o que pode envolver a propagação em várias tabelas.
+Em resumo, as relações do Power BI propagam filtros aplicados nas colunas de tabelas de modelo a outras tabelas de modelo. Os filtros serão propagados desde que haja um caminho de relação a seguir, o que pode envolver a propagação em várias tabelas.
 
 Os caminhos de relação são deterministas, o que significa que os filtros são sempre propagados da mesma forma e sem variação aleatória. No entanto, as relações podem ser desativadas ou ter o contexto de filtro modificado por cálculos de modelo que utilizam funções do DAX específicas. Para obter mais informações, leia o tópico [Funções do DAX relevantes](#relevant-dax-functions) mais adiante neste artigo.
 
@@ -36,17 +36,17 @@ Vamos ver como as relações propagam filtros com um exemplo animado.
 
 Neste exemplo, o modelo consiste em quatro tabelas: **Categoria**, **Produto**, **Ano** e **Vendas**. A tabela **Categoria** está relacionada com a tabela **Produto** e a tabela **Produto** está relacionada com a tabela **Vendas**. A tabela **Ano** também está relacionada com a tabela **Vendas**. Todas as relações são um para muitos (os detalhes estão descritos mais adiante neste artigo).
 
-Uma consulta – talvez gerada por um elemento visual de cartão do Power BI – pede a quantidade total de vendas dos pedidos de vendas feitos para uma única categoria, **Cat-A** e, para um único ano, **AF2018**. É por este motivo que pode ver filtros aplicados nas tabelas **Categoria** e **Ano**. O filtro na tabela **Categoria** é propagado para a tabela **Produto** para isolar dois produtos atribuídos à categoria **Cat-A**. Em seguida, os filtros de tabela **Produto** propagam para a tabela **Vendas** para isolar apenas duas linhas de vendas para estes produtos. Estas duas linhas de vendas representam as vendas de produtos atribuídos à categoria **Cat-A**. A quantidade combinada das mesmas é de 14 unidades. Em simultâneo, o filtro da tabela **Ano** propaga-se para filtrar ainda mais a tabela **Vendas**, resultando apenas numa linha de vendas destinada para produtos atribuídos à categoria **Cat-A** e que foi pedida no ano **AF2018**. O valor da quantidade devolvido pela consulta é de 11 unidades. Observe que quando são aplicados vários filtros a uma tabela (como a tabela **Vendas** neste exemplo), é sempre uma operação AND, o que exige que todas as condições tenham de ser verdadeiras.
+Uma consulta – possivelmente gerada por um elemento visual de cartão do Power BI – pede a quantidade total de vendas dos pedidos de vendas feitos para uma única categoria, **Cat-A** e, para um único ano, **AF2018**. É por este motivo que pode ver filtros aplicados nas tabelas **Categoria** e **Ano**. O filtro na tabela **Categoria** é propagado para a tabela **Produto** para isolar dois produtos atribuídos à categoria **Cat-A**. Em seguida, os filtros de tabela **Produto** propagam para a tabela **Vendas** para isolar apenas duas linhas de vendas para estes produtos. Estas duas linhas de vendas representam as vendas de produtos atribuídos à categoria **Cat-A**. A quantidade combinada das mesmas é de 14 unidades. Em simultâneo, o filtro da tabela **Ano** propaga-se para filtrar ainda mais a tabela **Vendas**, resultando apenas numa linha de vendas destinada para produtos atribuídos à categoria **Cat-A** e que foi pedida no ano **AF2018**. O valor da quantidade devolvido pela consulta é de 11 unidades. Observe que quando são aplicados vários filtros a uma tabela (como a tabela **Vendas** neste exemplo), é sempre uma operação AND, o que exige que todas as condições tenham de ser verdadeiras.
 
 ### <a name="disconnected-tables"></a>Tabelas desligadas
 
 É raro uma tabela de modelo não estar relacionada com outra tabela de modelo. Essa tabela num design de modelo válido pode ser descrita como uma _tabela desligada_. Uma tabela desligada não se destina a propagar filtros para outras tabelas de modelo. Em vez disso, é utilizada para aceitar "entrada do utilizador" (talvez com um elemento visual de segmentação de dados), ao permitir que os cálculos de modelo utilizem o valor de entrada de forma significativa. Por exemplo, considere uma tabela desligada que é carregada com um intervalo de valores de taxa de câmbio de moeda. Desde que um filtro seja aplicado para filtrar por um valor de taxa única, o valor pode ser utilizado por uma expressão de medida para converter valores de vendas.
 
-O parâmetro "E se" do Power BI Desktop é uma funcionalidade que cria uma tabela desligada. Para obter mais informações, leia o artigo [Criar e utilizar um parâmetro "E se" para visualizar variáveis no Power BI Desktop](desktop-what-if.md).
+O parâmetro "E se" do Power BI Desktop é uma funcionalidade que cria uma tabela desligada. Para obter mais informações, leia o artigo [Criar e utilizar um parâmetro “E se” para visualizar variáveis no Power BI Desktop](desktop-what-if.md).
 
 ## <a name="relationship-properties"></a>Propriedades da relação
 
-Uma relação de modelo relaciona uma coluna numa tabela a uma coluna numa tabela diferente. (Há um caso especializado em que este requisito não é verdadeiro e isso aplica-se apenas a relações de várias colunas em modelos DirectQuery. Para obter mais informações, leia o artigo da função do DAX [COMBINEVALUES](/dax/combinevalues-function-dax).)
+Uma relação de modelo relaciona uma coluna numa tabela a uma coluna numa tabela diferente. (Há um caso especializado em que este requisito não é verdadeiro e isso aplica-se apenas a relações de várias colunas em modelos DirectQuery. Para obter mais informações, leia o artigo da função DAX [COMBINEVALUES](/dax/combinevalues-function-dax).)
 
 > [!NOTE]
 > Não pode relacionar uma coluna a uma coluna diferente _na mesma tabela_. Às vezes, isto é confundido com a capacidade de definir uma restrição de chave de referência de base de dados relacional que é a autorreferência de tabela. Este conceito de base de dados relacional pode ser utilizado para armazenar relações de elemento principal com subordinado (por exemplo, cada registo de colaborador está associado a um colaborador "reporta a"). A geração de uma hierarquia de modelo baseada neste tipo de relação não pode ser resolvida pela criação de relações de modelo. Para o fazer, leia o artigo [Parent and Child functions (Funções de elemento principal e subordinado)](/dax/parent-and-child-functions-dax).
@@ -65,13 +65,13 @@ As quatro opções, juntamente com as anotações abreviadas, estão descritas n
 - Um para um (1:1)
 - Muitos para muitos (\*:\*)
 
-Quando cria uma relação no Power BI Desktop, o designer vai detetar e definir automaticamente o tipo de cardinalidade. O designer pode realizar esta ação porque consulta o modelo para saber quais são as colunas que contêm valores exclusivos. Para Modelos de importação, o designer utiliza estatísticas de armazenamento interno; para modelos do DirectQuery, envia consultas de criação de perfil para a origem de dados. No entanto, às vezes pode errar. Isto acontece porque as tabelas ainda devem ser carregadas com dados ou porque as colunas que espera que contenham valores duplicados, contêm atualmente valores exclusivos. Seja qual for o caso, pode atualizar o tipo de cardinalidade, desde que qualquer coluna do lado "um" contenha valores únicos (ou a tabela ainda não foi carregada com linhas de dados).
+Quando cria uma relação no Power BI Desktop, o designer vai detetar e definir automaticamente o tipo de cardinalidade. O designer consulta o modelo para saber quais são as colunas que contêm valores exclusivos. Para modelos de Importação, o designer utiliza estatísticas de armazenamento interno; para modelos DirectQuery, envia consultas de criação de perfil para a origem de dados. No entanto, às vezes pode errar. Tal acontece porque as tabelas ainda devem ser carregadas com dados ou porque as colunas que espera que contenham valores duplicados contêm atualmente valores exclusivos. Seja qual for o caso, pode atualizar o tipo de cardinalidade desde que qualquer coluna do lado “um” contenha valores únicos (ou a tabela ainda não foi carregada com linhas de dados).
 
 As opções de cardinalidade **Um para muitos** e **Muitos para um** são essencialmente as mesmas, e são também os tipos de cardinalidade mais comuns.
 
 Ao configurar uma relação Um para muitos ou Muitos para um, deve escolher aquela que corresponde à ordem em que as colunas estão relacionadas. Considere a forma como configuraria a relação da tabela **Produto** com a tabela **Vendas** através da coluna **ProductID** encontrada em cada tabela. O tipo de cardinalidade seria _Um para muitos_, já que a coluna **ProductID** na tabela **Produto** contém valores exclusivos. Se tiver relacionado as tabelas na direção inversa, **Vendas** para **Produto**, a cardinalidade seria _Muitos para um_.
 
-Uma relação **Um para um** significa que ambas as colunas contêm valores exclusivos. Este tipo de cardinalidade não é comum e provavelmente representa um design de modelo de qualidade inferior devido ao armazenamento de dados redundantes.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+Uma relação **Um para um** significa que ambas as colunas contêm valores exclusivos. Este tipo de cardinalidade não é comum e provavelmente representa um design de modelo de qualidade inferior devido ao armazenamento de dados redundantes. Para obter mais informações sobre a utilização deste tipo de cardinalidade, veja [Documento de orientação das relações um-para-um](guidance/relationships-one-to-one.md).
 
 Uma relação **Muitos para muitos** significa que ambas as colunas podem conter valores duplicados. Esse tipo de cardinalidade é raramente utilizado. Normalmente, é útil ao criar requisitos de modelos complexos. Para obter orientação sobre a utilização deste tipo de cardinalidade, veja [Guia de relações muitos para muitos](guidance/relationships-many-to-many.md).
 
@@ -95,13 +95,13 @@ A direção _única_ de filtro cruzado significa "direção única" e _Ambas_ si
 
 Para relações Um para muitos, a direção do filtro cruzado é sempre do lado "um" e, opcionalmente, do lado "muitos" (bidirecional). Para relações Um para um, a direção do filtro cruzado é sempre de ambas as tabelas. Por fim, para as relações Muitos para muitos, a direção do filtro cruzado pode ser de uma das tabelas ou de ambas as tabelas. Tenha em conta que quando o tipo de cardinalidade inclui um lado "um", os filtros irão sempre propagar-se desse lado.
 
-Quando a direção do filtro cruzado é definida como **Ambas**, está disponível uma propriedade adicional para aplicar a filtragem bidirecional quando as regras da segurança ao nível da linha (RLS) são impostas. Para obter mais informações sobre a RLS, leia o artigo [Segurança ao nível da linha (RLS) com o Power BI Desktop](desktop-rls.md).
+Quando a direção do filtro cruzado estiver definida como **Ambos**, existe uma propriedade adicional disponível. Pode aplicar a filtragem bidirecional quando forem aplicadas regras de segurança ao nível da linha (RLS). Para obter mais informações sobre a RLS, leia o artigo [Segurança ao nível da linha (RLS) com o Power BI Desktop](desktop-rls.md).
 
-A modificação da direção do filtro cruzado da relação, incluindo a desativação da propagação do filtro, também pode ser feita por um cálculo de modelo. Pode ser feito com a função do DAX [CROSSFILTER](/dax/crossfilter-function).
+A modificação da direção do filtro cruzado da relação, incluindo a desativação da propagação do filtro, também pode ser feita por um cálculo de modelo. Pode ser feito com a função DAX [CROSSFILTER](/dax/crossfilter-function).
 
 As relações bidirecionais podem afetar negativamente o desempenho. Além disso, a tentativa de configurar uma relação bidirecional pode resultar em caminhos de propagação de filtro ambíguos. Neste caso, o Power BI Desktop pode falhar ao consolidar a alteração da relação e irá alertá-lo com uma mensagem de erro. No entanto, por vezes o Power BI Desktop pode permitir que defina caminhos de relação ambíguos entre tabelas. As regras de precedência que afetam a deteção de ambiguidade e a resolução de caminho estão descritas mais adiante neste artigo no tópico [Regras de precedência](#precedence-rules).
 
-É recomendável utilizar a filtragem bidirecional apenas conforme necessário.<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+É recomendável utilizar a filtragem bidirecional apenas conforme necessário. Para obter mais informações, veja [Documento de orientação das relações bidirecionais](guidance/relationships-bidirectional-filtering.md).
 
 > [!TIP]
 > Na vista de modelo do Power BI Desktop, pode interpretar a direção de filtro cruzado de uma relação ao observar as pontas da seta ao longo da linha da relação. Uma única ponta de seta representa um filtro de direção única na direção da ponta de seta; uma ponta de seta dupla representa uma relação bidirecional.
@@ -110,7 +110,7 @@ As relações bidirecionais podem afetar negativamente o desempenho. Além disso
 
 Pode haver apenas um caminho de propagação de filtro ativo entre duas tabelas de modelo. No entanto, pode introduzir caminhos de relação adicionais, embora estas relações tenham de ser configuradas como _inativas_. As relações inativas podem ser ativadas apenas durante a avaliação de um cálculo de modelo. Pode ser feito com a função do DAX [USERELATIONSHIP](/dax/userelationship-function-dax).
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+Para obter mais informações, veja [Documento de orientação das relações ativas vs. inativas](guidance/relationships-active-inactive.md).
 
 > [!TIP]
 > Na vista de modelo do Power BI Desktop, pode interpretar um estado ativo ou inativo da relação. Uma relação ativa é representada por uma linha sólida; uma relação inativa é representada como uma linha tracejada.
@@ -119,12 +119,12 @@ Pode haver apenas um caminho de propagação de filtro ativo entre duas tabelas 
 
 A propriedade _Assumir integridade referencial_ está disponível apenas para relações Um para muitos e Um para um entre duas tabelas do modo de armazenamento do DirectQuery baseadas na mesma origem de dados. Quando ativadas, as consultas nativas enviadas para a origem de dados irão associar as duas tabelas através de uma ASSOCIAÇÃO INTERNA, em vez de uma ASSOCIAÇÃO EXTERNA. Geralmente, a ativação desta propriedade melhora o desempenho das consultas, embora dependa das especificidades da origem de dados.
 
-Esta propriedade deve ser sempre ativada quando existir uma restrição de chave de referência de base de dados entre as duas tabelas. Quando uma restrição de chave de referência não existir, ainda pode ativar a propriedade desde que tenha a certeza de que existe integridade dos dados.
+Ative sempre esta propriedade quando existir uma restrição de chave de referência de base de dados entre as duas tabelas. Quando uma restrição de chave de referência não existir, ainda pode ativar a propriedade desde que tenha a certeza de que existe integridade dos dados.
 
 > [!IMPORTANT]
 > Se a integridade dos dados for comprometida, a associação interna irá eliminar linhas sem correspondência entre as tabelas. Por exemplo, considere uma tabela de **Vendas** de modelo com um valor de coluna **ProductID** que não existia na tabela de **Produto** relacionado. Filtrar a propagação da tabela de **Produto** para a tabela de **Vendas** irá eliminar as linhas de vendas de produtos desconhecidos. O que iria resultar numa subavaliação dos resultados das vendas.
 >
-> Para obter mais informações, veja o artigo [Definição Assumir integridade referencial no Power BI Desktop](desktop-assume-referential-integrity.md).
+> Para obter mais informações, veja o artigo [Definição Assumir integridade referencial no Power BI Desktop](desktop-assume-referential-integrity.md).
 
 ## <a name="relevant-dax-functions"></a>Funções do DAX relevantes
 
@@ -146,7 +146,7 @@ Primeiro, é preciso conhecer alguma teoria de modelação para compreender tota
 
 Um modelo de Importação ou do DirectQuery obtém todos os seus dados da cache Vertipaq ou da base de dados de origem. Em ambas as instâncias, o Power BI consegue determinar que existe um lado "um" de uma relação.
 
-No entanto, um Modelo composto pode ser composto de tabelas que utilizam modos de armazenamento diferentes (Importação, DirectQuery ou Duplos) ou várias origens do DirectQuery. Cada origem, incluindo a cache do Vertipaq de Dados de importação, é considerada uma _ilha de dados_. As relações de modelo podem então ser classificadas como _intra ilha_ ou _entre ilhas_. Uma relação intra ilha é aquela que relaciona duas tabelas numa ilha de dados, enquanto uma relação entre ilhas relaciona as tabelas de ilhas de dados diferentes. Observe que as relações nos Modelos de importação ou do DirectQuery são sempre intra ilha.
+No entanto, um modelo Composto pode ser constituído por tabelas que utilizam modos de armazenamento diferentes (Importação, DirectQuery ou Duplos) ou várias origens do DirectQuery. Cada origem, incluindo a cache do Vertipaq de Dados de importação, é considerada uma _ilha de dados_. As relações de modelo podem então ser classificadas como _intra ilha_ ou _entre ilhas_. Uma relação intra ilha é aquela que relaciona duas tabelas numa ilha de dados, enquanto uma relação entre ilhas relaciona as tabelas de ilhas de dados diferentes. Observe que as relações nos Modelos de importação ou do DirectQuery são sempre intra ilha.
 
 Vamos ver um exemplo de Modelo composto.
 
@@ -164,7 +164,7 @@ No exemplo a seguir, existem duas relações fortes, ambas marcadas como **S**. 
 
 Para Modelos de importação, onde todos os dados são armazenados na cache do Vertipaq, é criada uma estrutura de dados para cada relação forte no momento da atualização de dados. As estruturas de dados consistem em mapeamentos indexados de todos os valores de coluna para coluna e a sua finalidade é acelerar a associação de tabelas no momento da consulta.
 
-No momento da consulta, as relações fortes permitem que a _expansão da tabela_ ocorra. A expansão da tabela resulta na criação de uma tabela virtual, ao incluir as colunas nativas da tabela base e, em seguida, ao expandir para tabelas relacionadas. Para Tabelas de importação, é feito no motor de consulta; para tabelas DirectQuery, é feito na consulta nativa enviada para a base de dados de origem (desde que a propriedade "Assumir integridade referencial" não esteja ativada). O motor de consulta age na tabela expandida, ao aplicar filtros e agrupar pelos valores nas colunas da tabela expandida.
+No momento da consulta, as relações fortes permitem que a _expansão da tabela_ ocorra. A expansão da tabela resulta na criação de uma tabela virtual, ao incluir as colunas nativas da tabela base e, em seguida, ao expandir para tabelas relacionadas. Para as tabelas Importação, é feito no motor de consulta; para as tabelas DirectQuery, é feito na consulta nativa enviada para a base de dados de origem (desde que a propriedade **Assumir integridade referencial** não esteja ativada). O motor de consulta age na tabela expandida, ao aplicar filtros e agrupar pelos valores nas colunas da tabela expandida.
 
 > [!NOTE]
 > As relações inativas também são expandidas, mesmo quando a relação não é utilizada por um cálculo. As relações bidirecionais não têm impacto na expansão da tabela.
@@ -194,7 +194,7 @@ No exemplo a seguir, existem duas relações fracas, ambas marcadas como **W**. 
 
 Para Modelos de importação, as estruturas de dados nunca são criadas para relações fracas. O que significa que as associações de tabela devem ser resolvidas no momento da consulta.
 
-A expansão da tabela nunca ocorre para relações fracas. As junções da tabela são alcanças através da semântica ASSOCIAÇÃO INTERNA e, por este motivo, as linhas virtuais em branco não são adicionadas para compensar as violações de integridade referencial.
+A expansão da tabela nunca ocorre para relações fracas. As associações das tabelas são alcançadas através da semântica ASSOCIAÇÃO INTERNA e, por este motivo, as linhas virtuais em branco não são adicionadas para compensar as violações de integridade referencial.
 
 Existem restrições adicionais relacionadas com as relações fracas:
 
@@ -210,7 +210,7 @@ As relações bidirecionais podem introduzir vários (e, portanto, ambíguos) ca
 
 1. Relações Muitos para um e Um para um, incluindo relações fracas
 2. Relações Muitos para muitos
-3. Relações bidirecionais, na direção inversa (ou seja, do lado "Muitos")
+3. Relações bidirecionais, na direção inversa (ou seja, do lado “Muitos”)
 
 ### <a name="performance-preference"></a>Preferência de desempenho
 
@@ -221,12 +221,16 @@ A lista a seguir ordena o desempenho da propagação do filtro, do desempenho ma
 3. Relações de modelo de Muitos para muitos obtidas com uma tabela intermediária e que envolve, pelo menos, uma relação bidirecional
 4. Relações entre ilhas
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>Próximos passos
 
+Para obter mais informações sobre este artigo, consulte os seguintes recursos:
+
 - [Compreender o que é um esquema de estrela e qual a importância para o Power BI](guidance/star-schema.md)
+- [Documento de orientação das relações um-para-um](guidance/relationships-one-to-one.md)
 - [Guia de relações muitos para muitos](guidance/relationships-many-to-many.md)
-- Vídeo: [The Do's and Don'ts of Power BI Relationships](https://youtu.be/78d6mwR8GtA) (O que deve fazer e o que não deve fazer nas Relações do Power BI)
+- [Documento de orientação das relações ativas vs. inativas](guidance/relationships-active-inactive.md)
+- [Documento de orientação das relações bidirecionais](guidance/relationships-bidirectional-filtering.md)
+- [Documento de orientação da resolução de problemas de relações](guidance/relationships-troubleshoot.md)
+- Vídeo: [The Do's and Don'ts of Power BI Relationships](https://www.youtube.com/watch?v=78d6mwR8GtA) (O que deve fazer e o que não deve fazer nas Relações do Power BI)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

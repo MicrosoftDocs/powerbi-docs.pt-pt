@@ -6,25 +6,22 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161300"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260462"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Guia de relações muitos-para-muitos
 
 Este artigo destina-se aos modeladores de dados que trabalham com o Power BI Desktop. Descreve três diferentes cenários de modelos muitos-para-muitos. Também lhe fornece orientações sobre como os estruturar com êxito nos seus modelos.
 
-> [!NOTE]
-> A introdução às relações de modelos não é abordada neste artigo. Se não está totalmente familiarizado com as relações, as suas propriedades ou como configurá-las, recomendamos que leia primeiro o artigo [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md).
->
-> Também é importante que compreenda o design do esquema de estrela. Para obter mais informações, veja [Compreender o que é um esquema de estrela e qual a importância para o Power BI](star-schema.md).
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
-Na realidade, existem três cenários muitos-para-muitos. Podem ocorrer quando precisar de:
+Na realidade, existem três cenários “muitos-para-muitos”. Podem ocorrer quando precisar de:
 
 - [Relacionar duas tabelas de dimensão](#relate-many-to-many-dimensions)
 - [Relacionar tabelas de factos](#relate-many-to-many-facts)
@@ -164,7 +161,7 @@ O elemento visual apresenta um resultado preciso. No entanto, a utilidade do mod
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Orientação para relacionar factos muitos-para-muitos
 
-Normalmente, não recomendamos relacionar duas tabelas de factos diretamente utilizando a cardinalidade muitos-para-muitos. O motivo principal é porque o modelo não irá fornecer a flexibilidade na forma como relata o filtro ou agrupamento de elementos visuais. No exemplo fornecido, só é possível filtrar ou agrupar elementos visuais pela coluna **OrderID** da tabela **Order**. Um motivo adicional está relacionado com a qualidade dos seus dados. Se os seus dados tiverem problemas de integridade, é possível que algumas linhas sejam omitidas durante a consulta devido à natureza da _fraca relação_. Para obter mais informações, veja [Avaliação da relação](../desktop-relationships-understand.md#relationship-evaluation).
+Normalmente, não recomendamos relacionar duas tabelas de factos diretamente utilizando a cardinalidade muitos-para-muitos. O motivo principal é porque o modelo não irá fornecer a flexibilidade na forma como relata o filtro ou agrupamento de elementos visuais. No exemplo fornecido, só é possível filtrar ou agrupar elementos visuais pela coluna **OrderID** da tabela **Order**. Um motivo adicional está relacionado com a qualidade dos seus dados. Se os seus dados tiverem problemas de integridade, é possível que algumas linhas sejam omitidas durante a consulta devido à natureza da _fraca relação_. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../desktop-relationships-understand.md#relationship-evaluation).
 
 Em vez de relacionar tabelas de factos diretamente, recomendamos que adote os princípios do design [Esquema de Estrela](star-schema.md). Pode fazê-lo ao adicionar tabelas de dimensão. As tabelas de dimensão relacionam-se então com as tabelas de factos através de relações um-para-muitos. Esta abordagem de design é robusta, pois fornece opções de relatórios flexíveis. Permite-lhe filtrar ou agrupar com qualquer uma das colunas de dimensão e resumir qualquer tabela de factos.
 
@@ -187,7 +184,7 @@ Dedicar tempo para aplicar os princípios de design do esquema de estrela result
 - Os elementos visuais do seu relatório podem _filtrar ou agrupar_ por qualquer coluna visível a partir das tabelas de tipo de dimensão
 - Os elementos visuais do seu relatório podem _resumir_ qualquer coluna visível a partir das tabelas de factos
 - Os filtros aplicados às tabelas **OrderLine**, **OrderDate** ou **Product** irão propagar para ambas as tabelas de tipos de factos
-- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Os problemas de integridade de dados não serão dissimulados. Para obter mais informações, veja [Avaliação da relação](../desktop-relationships-understand.md#relationship-evaluation).
+- Todas as relações são um-para-muitos e cada relação é uma _relação forte_. Os problemas de integridade de dados não serão dissimulados. Para obter mais informações, veja [Relações de modelos no Power BI Desktop (Avaliação de relações)](../desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Relacionar factos de agregação superior
 
@@ -300,4 +297,6 @@ Para obter mais informações relacionadas com este artigo, consulte os seguinte
 
 - [Relações de modelos no Power BI Desktop](../desktop-relationships-understand.md)
 - [Compreender o que é um esquema de estrela e qual a importância para o Power BI](star-schema.md)
+- [Relationship troubleshooting guidance](relationships-troubleshoot.md) (Documento de orientação na resolução de problemas de relações)
 - Perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
+- Sugestões? [Contribuir com ideias para melhorar o Power BI](https://ideas.powerbi.com/)

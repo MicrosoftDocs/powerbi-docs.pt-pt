@@ -27,7 +27,7 @@ Existem vários tipos de elementos visuais disponíveis diretamente no painel Vi
 
 ![Painel a mostrar ícones para cada tipo de visualização](media/power-bi-report-visualizations/power-bi-icons.png)
 
-E para ter ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [elementos visuais personalizados](../developer/visuals/custom-visual-develop-tutorial.md) fornecidos pela Microsoft e pela comunidade.
+Para ter ainda mais opções, visite o [site da comunidade do Microsoft AppSource](https://appsource.microsoft.com) para procurar e [transferir](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [elementos visuais personalizados](../developer/visuals/custom-visual-develop-tutorial.md) disponibilizados pela Microsoft e pela comunidade.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

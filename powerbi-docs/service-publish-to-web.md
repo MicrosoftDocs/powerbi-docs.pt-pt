@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609938"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237989"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar na Web do Power BI
 
@@ -134,6 +134,7 @@ A funcionalidade **Publicar na Web** é suportada na grande maioria das origens 
 
 - Relatórios com segurança a nível de linha.
 - Relatórios que utilizam qualquer origem de dados de Ligação em Direto, incluindo Tabelas do Analysis Services no local, modelos Multidimensionais do Analysis Services e o Azure Analysis Services.
+- Relatórios que utilizam um [conjunto de dados partilhado](service-datasets-across-workspaces.md), armazenado numa área de trabalho diferente da do relatório.
 - Relatórios partilhados diretamente consigo ou através de um pacote de conteúdos organizacionais.
 - Relatórios num grupo no qual não é um membro de edição.
 - Os elementos visuais "R" não são atualmente suportados nos relatórios da funcionalidade **Publicar na Web**.

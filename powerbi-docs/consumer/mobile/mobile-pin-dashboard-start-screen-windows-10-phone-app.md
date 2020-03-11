@@ -22,7 +22,7 @@ Pode afixar dashboards do Power BI ao Ecrã inicial do Windows a partir da aplic
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>Afixar um dashboard ao ecrã Início como um mosaico dinâmico
 1. Abre um dashboard.
-2. Toque em **Afixar em Início** ![Ícone de afixar em início](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
+2. Toque em **Afixar ao ecrã inicial** ![ícone Afixar ecrã inicial](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png).
    
    ![Barra superior da aplicação móvel do Windows 10](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

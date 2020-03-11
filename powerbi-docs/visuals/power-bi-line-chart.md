@@ -26,7 +26,7 @@ Estas instruções utilizam a aplicação Exemplo de Vendas e Marketing para cri
 
 1. Comece numa página de relatório em branco. Se estiver a utilizar o serviço Power BI, garanta que abre o relatório na [Vista de Edição](../service-interact-with-a-report-in-editing-view.md).
 
-2. No painel Campos, selecione **FactosDeVendas** \> **Total de unidades** e, em seguida, **Data** > **Mês**.  O Power BI cria um gráfico de colunas na tela do relatório.
+2. No painel Campos, selecione **SalesFact** \> **Total de unidades** e, em seguida, **Data** > **Mês**.  O Power BI cria um gráfico de colunas na tela do relatório.
 
     ![Selecionar a partir do painel Campos](media/power-bi-line-charts/power-bi-step1.png)
 

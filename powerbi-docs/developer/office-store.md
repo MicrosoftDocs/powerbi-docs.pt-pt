@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576791"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237874"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicar elementos visuais do Power BI no Centro de Parceiros
 
@@ -37,8 +37,8 @@ Quando estiver pronto para submeter o elemento visual do Power BI, verifique se
 | Ficheiro de relatório. pbix de exemplo |Sim |Para demonstrar o elemento visual, ajude os utilizadores a familiarizarem-se com o mesmo. Realce o valor que o elemento visual proporciona ao utilizador e dê exemplos de utilização e opções de formatação. Também pode adicionar uma página de *“sugestões”* no final com algumas sugestões e truques e aspetos a evitar.<br>O ficheiro de relatório .pbix de exemplo deve funcionar offline, sem quaisquer ligações externas. |
 | Ícone |Sim |Deve incluir o logótipo do elemento visual personalizado que será apresentado na loja. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. Tem de ter exatamente 300 x 300 px (largura x altura).<BR>**Importante!** Reveja atentamente o [guia de imagens da loja AppSource](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de submeter o ícone. |
 | Capturas de ecrã |Sim |Forneça, pelo menos, uma captura de ecrã. Os formatos possíveis são .png, .jpg, .jpeg ou .gif. As dimensões devem ter exatamente 1366 px (largura) por 768 px (altura). O tamanho do ficheiro não pode ser superior a 1024 KB.<br>Para promover uma maior utilização, adicione balões de texto para articular a proposta de valor das principais funcionalidades mostradas em cada captura de ecrã. |
-| Ligação de transferência do suporte |Sim |Forneça uma URL de suporte para os clientes. Esta ligação é introduzida como parte da lista do Dashboard de Vendedor e fica visível para os utilizadores quando acedem à lista do elemento visual no AppSource. O formato do URL deve incluir https:// ou https://. |
-| Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade do elemento visual. Esta ligação é introduzida como parte da lista do Dashboard de Vendedor e fica visível para os utilizadores quando acedem à lista do elemento visual no AppSource. O formato da ligação deve incluir https:// ou https://. |
+| Ligação de transferência do suporte |Sim |Forneça uma URL de suporte para os clientes. Esta ligação é introduzida como parte da sua lista do Centro de Parceiros e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato do URL deve incluir https:// ou https://. |
+| Ligação para documento sobre privacidade |Sim |Forneça uma ligação para a política de privacidade do elemento visual. Esta ligação é introduzida como parte da sua lista do Centro de Parceiros e está visível para os utilizadores quando acederem à lista do seu elemento visual no AppSource. O formato da ligação deve incluir https:// ou https://. |
 | Contrato de licença do utilizador final (EULA) |Sim |Tem de fornecer um ficheiro EULA para o elemento visual do Power BI. |
 | Ligação para vídeo |Não |Para aumentar o interesse dos utilizadores relativamente ao elemento visual personalizado, forneça uma ligação para um vídeo sobre o elemento visual. O formato do URL deve incluir https:// ou https://. |
 | Repositório do GitHub |Não |Partilhe uma ligação pública para um repositório do [GitHub](https://www.github.com) com as origens do elemento visual do Power BI e dados de exemplo. Esta ligação permite que outros programadores tenham a oportunidade de fornecer comentários e propor melhorias ao código. |
@@ -74,9 +74,6 @@ A equipa do Power BI terá de verificar os ficheiros quanto a novas submissões
 Para submeter o elemento visual do Power BI no Centro de Parceiros, precisa de estar registado no Centro de Parceiros. Se ainda não estiver registado, [abra uma conta de programador no Centro de Parceiros](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
 Siga os passos abaixo para submeter o elemento visual do Power BI no Centro de Parceiros. Para obter mais informações acerca do processo de submissão, veja [Submit your Office solution to AppSource via Partner Center](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource) (Submeter a solução do Office no AppSource através do Centro de Parceiros).
-
->[!NOTE]
-> Se se encontrar a meio do processo de submissão de um elemento visual do Power BI e tiver de utilizar o [Dashboard de Vendedor](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (a antiga ferramenta de gestão), veja as instruções em [Submit a Power BI visual to AppSource using Seller Dashboard](seller-dashboard.md) (Submeter um elemento visual do Power BI no AppSource com o Dashboard de Vendedor).
 
 1. Inicie sessão no **Centro de Parceiros**.
 
