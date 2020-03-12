@@ -9,14 +9,16 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888530"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113862"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagir com elementos visuais em relatórios, dashboards e aplicações
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 De forma muito simplificada, uma ***visualização*** (ou *elemento visual*) é um tipo de gráfico criado pelos *estruturadores* do Power BI que utilizam os dados dos relatórios e dos conjuntos de dados. 
 

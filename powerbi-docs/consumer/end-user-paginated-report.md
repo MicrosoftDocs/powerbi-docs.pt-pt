@@ -6,17 +6,20 @@ ms.reviewer: chris finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/02/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a66189707bc6b688be012eeb59881ce4a8517ea1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830481"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113126"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Relatórios paginados no serviço Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Aprendeu sobre os [relatórios do Power BI](end-user-reports.md) e esses são os tipos de relatórios que provavelmente irá encontrar. No entanto, existe outro tipo de relatório chamado *relatório paginado*. Os *designers* de relatórios podem partilhar relatórios paginados consigo numa área de trabalho numa capacidade Premium ou numa aplicação a partir dessa área de trabalho. 
 
 ## <a name="what-is-a-paginated-report"></a>O que é um relatório paginado?

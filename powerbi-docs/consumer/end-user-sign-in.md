@@ -7,17 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f48ae801944e3f27045a038c13d394c21225468
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77153988"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114097"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Iniciar sessão no serviço Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 ## <a name="power-bi-accounts"></a>Contas do Power BI
 Antes de poder iniciar sessão no Power BI, tem de ter uma conta. Existem duas formas de obter uma conta do Power BI. A primeira é quando a sua empresa compra licenças do Power BI para os respetivos colaboradores. A segunda é quando um utilizador individual se inscreve para obter uma versão de avaliação gratuita ou uma licença pessoal. Este artigo abrange o primeiro cenário.

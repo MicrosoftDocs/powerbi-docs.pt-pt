@@ -7,17 +7,20 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862430"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114346"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Conteúdos **recentes** no serviço Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Os conteúdos recentes são os últimos itens (até 20 itens) aos quais acedeu no serviço Power BI.  Incluem: dashboards, relatórios, aplicações e livros.
 
 ![Janela Conteúdo recente](./media/end-user-recent/power-bi-recent.png)

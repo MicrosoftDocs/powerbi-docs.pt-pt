@@ -1,19 +1,19 @@
 ---
 title: Afixar dashboard ao Ecrã inicial do Windows 10 – aplicação móvel do Power BI
 description: Obtenha informações sobre como afixar um dashboard do Power BI ao Ecrã inicial do Windows 10 a partir da aplicação móvel do Power BI, para que possa consultar métricas essenciais de forma rápida.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 556ca293458c6874097a4733aaed453130778848
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 6abeb9244b4ced7cf0b56d4f01686f570c474989
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869847"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114922"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Afixe um dashboard ao Ecrã inicial do Windows 10 a partir da aplicação móvel do Power BI
 Pode afixar dashboards do Power BI ao Ecrã inicial do Windows a partir da aplicação móvel do Power BI para o Windows 10. Estes tornam-se *mosaicos dinâmicos*. Quando toca no mosaico no Ecrã inicial, o dashboard abre na aplicação móvel do Power BI para o Windows 10.
