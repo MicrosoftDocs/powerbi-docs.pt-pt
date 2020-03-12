@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: Pré-requisitos de origem de dados do Power BI
           href: ../desktop-data-source-prerequisites.md
+        - name: 'Using enhanced dataset metadata in Power BI Desktop (preview) (Utilizar conjuntos de dados otimizados no Power BI Desktop [pré-visualização])'
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: Trabalhar com modelos multidimensionais no Power BI
           href: ../desktop-default-member-multidimensional-models.md
         - name: Acerca de utilizar o DirectQuery no Power BI
