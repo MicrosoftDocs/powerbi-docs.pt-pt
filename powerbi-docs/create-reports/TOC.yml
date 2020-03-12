@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Atalhos de teclado no Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: Linhagem de dados
-          href: ../service-data-lineage.md
         - name: Relatórios paginados
           items:
             - name: Enter data directly in a paginated report (Introduzir dados diretamente num relatório paginado)
