@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Create buttons (Criar botões)
               href: ../desktop-buttons.md
+            - name: Create drill-through buttons (Criar botões de pormenorização)
+              href: ../desktop-drill-through-buttons.md
             - name: Criar marcadores para guardar e partilhar informações
               href: ../desktop-bookmarks.md
             - name: Trabalhar com temas de relatórios
