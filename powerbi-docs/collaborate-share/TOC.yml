@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: Subscrever-se e subscrever outros
               href: ../service-report-subscribe.md
+            - name: Feature content on Home (Destacar conteúdo na Home Page)
+              href: service-featured-content.md
             - name: Incorporar relatório no Microsoft Teams
               href: ../service-embed-report-microsoft-teams.md
             - name: Embed report in SharePoint Online (Incorporar um relatório no SharePoint Online)

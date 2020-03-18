@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.date: 03/17/2020
+  ms.openlocfilehash: 12bd1e2ac706925301ca139bd84cef249c71e18c
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: pt-PT
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78919436"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79488482"
 landingContent:
 - title: Power BI para administradores e empresas
   linkLists:
@@ -25,6 +25,8 @@ landingContent:
     links:
     - text: O que é a administração do Power BI?
       url: ../service-admin-administering-power-bi-in-your-organization.md
+    - text: O que é o Power BI Premium?
+      url: ../service-premium-what-is.md
   - linkListType: concept
     links:
     - text: Função de administração no Office 365
@@ -45,22 +47,12 @@ landingContent:
       url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
     - text: Adicionar o Power BI com um parceiro do Office 365
       url: ../service-admin-syndication-partner.md
-- title: Inquilinos
+- title: Manage your organization (Gerir a sua organização)
   linkLists:
-  - linkListType: how-to-guide
+  - linkListType: concept
     links:
-    - text: Where is my tenant located? (Onde está localizado o meu inquilino?)
-      url: ../service-admin-where-is-my-tenant-located.md
-    - text: Find users that have signed in (Localizar utilizadores que têm sessão iniciada)
-      url: ../service-admin-access-usage.md
-    - text: Auditing Power BI (Auditar o Power BI)
-      url: ../service-admin-auditing.md
-    - text: Controlar o estado de funcionamento do serviço
-      url: ../service-admin-health.md
-    - text: Fechar a sua conta do Power BI
-      url: ../service-admin-closing-your-account.md
-- title: Power BI Premium
-  linkLists:
+    - text: Cenários de capacidades Premium
+      url: ../service-premium-capacity-scenarios.md
   - linkListType: how-to-guide
     links:
     - text: Where is my tenant located? (Onde está localizado o meu inquilino?)
