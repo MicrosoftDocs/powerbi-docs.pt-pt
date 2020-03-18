@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 055878988a197b80a8e4842a6567966f75af2ce5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 88e7e4b83f303f2b366f276b5020194f55f21f25
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880150"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380731"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Segmentação de Dados de Sincronização em elementos visuais do Power BI
 
@@ -38,6 +38,6 @@ Depois de atualizar o ficheiro *capabilities.json*, poderá ver o painel de opç
 > [!NOTE]
 > A funcionalidade Segmentação de Dados de Sincronização não suporta mais do que um campo. Se a sua segmentação de dados tiver mais do que um campo (**Categoria** ou **Medida**), a funcionalidade será desativada.
 
-![O painel "Segmentação de dados de sincronização"](./media/sync-slicers-panel.png)
+![O painel "Segmentação de dados de sincronização"](media/enable-sync-slicers/sync-slicers-panel.png)
 
 No painel **Segmentação de dados de sincronização**, pode ver que a visibilidade e os filtros da segmentação de dados podem ser aplicados a várias páginas do relatório.

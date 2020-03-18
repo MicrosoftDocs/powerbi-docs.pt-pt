@@ -10,11 +10,11 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265556"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205303"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente do Power BI: veja uma apresentação
 

@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 206fda4e64dd13782753bfd067c962b3079bb4ff
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 5a3cfb7ea9c9f398193b45652aa43c6b83c8f70b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76818738"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378001"
 ---
 # <a name="type-utils"></a>Utilitários de escrita
 

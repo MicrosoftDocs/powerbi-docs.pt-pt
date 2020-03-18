@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879966"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379579"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adicionar testes de unidades para projetos de elementos visuais do Power BI
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` executa o caso de teste no browser Chrome.
 
-![Karma JavaScript aberto no Chrome](./media/karmajs-chrome.png)
+![Karma JavaScript aberto no Chrome](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Tem de instalar o Google Chrome localmente.
@@ -453,7 +453,7 @@ A classe `SampleBarChartDataBuilder` expande `TestDataViewBuilder` e implementa 
 
 Quando coloca dados em registos de campos de dados, o Power BI produz um objeto de `dataview` categórico que é baseado nos seus dados.
 
-![Registos de campos de dados](./media/fields-buckets.png)
+![Registos de campos de dados](media/unit-tests-introduction/fields-buckets.png)
 
 Nos testes de unidades, não tem as funções nucleares do Power BI para reproduzir os dados. Contudo, tem de mapear os seus dados estáticos ao `dataview` categórico. A classe `TestDataViewBuilder` pode ajudar a mapeá-los.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 O elemento visual é aberto no browser Chrome, conforme mostrado:
 
-![UT inicia no Chrome](./media/karmajs-chrome-ut-runned.png)
+![UT inicia no Chrome](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 O resumo mostra que a cobertura aumentou. Para saber mais sobre a cobertura do código atual, abra `coverage\index.html`.
 
-![Índice de cobertura UT](./media/code-coverage-index.png)
+![Índice de cobertura UT](media/unit-tests-introduction/code-coverage-index.png)
 
 Ou observe o âmbito da pasta `src`:
 
-![Cobertura da pasta src](./media/code-coverage-src-folder.png)
+![Cobertura da pasta src](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 No âmbito do ficheiro, pode ver o código fonte. Os utilitários `Coverage` realçam a linha a vermelho, se um determinado código não for executado durante os testes de unidades.
 
-![Cobertura do código do ficheiro visual.ts](./media/code-coverage-visual-src.png)
+![Cobertura do código do ficheiro visual.ts](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > A cobertura do código não significa que tenha boa cobertura de funcionalidade do elemento visual. Um teste de unidades simples proporcionou mais de 96 por cento da cobertura em `src\visual.ts`.
 
 ## <a name="next-steps"></a>Próximos passos
 
-Quando o elemento visual estiver pronto, pode enviá-lo para publicação. Para obter mais informações, veja [Publicar elementos visuais do Power BI no AppSource](../office-store.md).
+Quando o elemento visual estiver pronto, pode enviá-lo para publicação. Para obter mais informações, veja [Publicar elementos visuais do Power BI no AppSource](office-store.md).

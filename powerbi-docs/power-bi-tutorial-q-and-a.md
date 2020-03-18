@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875073"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488873"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Utilizar as Perguntas e Respostas do Power BI para explorar os seus dados e criar elementos visuais
 
 Às vezes, a maneira mais rápida de obter uma resposta dos seus dados é fazer uma pergunta em linguagem natural. A funcionalidade Perguntas e Respostas no Power BI permite-lhe explorar os seus dados com as suas próprias palavras.  A primeira parte deste artigo mostra como utilizar as Perguntas e Respostas em dashboards no serviço Power BI. A segunda parte mostra o que pode fazer com as Perguntas e Respostas ao criar relatórios no serviço Power BI ou no Power BI Desktop. Para obter mais informações, veja o artigo [Perguntas e Respostas para consumidores](consumer/end-user-q-and-a.md). 
 
-As [Perguntas e Respostas nas aplicações para dispositivos móveis do Power B](consumer/mobile/mobile-apps-ios-qna.md) e as [Perguntas e Respostas com o Power BI Embedded](developer/qanda.md) são abordadas em artigos separados. 
+As [Perguntas e Respostas nas aplicações para dispositivos móveis do Power B](consumer/mobile/mobile-apps-ios-qna.md) e as [Perguntas e Respostas com o Power BI Embedded](developer/embedded/qanda.md) são abordadas em artigos separados. 
 
 As Perguntas e Respostas são interativas e até divertidas. Muitas vezes, uma pergunta leva a outras, uma vez que as visualizações revelam caminhos interessantes a seguir. Veja a Amanda a demonstrar a utilização das Perguntas e Respostas para criar visualizações, aprofundar os elementos visuais e afixá-los a dashboards.
 

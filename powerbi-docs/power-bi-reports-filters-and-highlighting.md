@@ -10,11 +10,11 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877619"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207074"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros e realces em relatórios do Power BI
  Este artigo apresenta-lhe os filtros e os realces no serviço Power BI. A experiência é praticamente a mesma no Power BI Desktop. Os *Filtros* removem tudo, menos os dados em que se pretende focar. Os *Realces* não são filtros. Não removem dados, mas realçam um subconjunto de dados visíveis; os dados não realçados permanecem visíveis, mas ficam esbatidos.

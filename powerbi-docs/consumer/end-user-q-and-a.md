@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 978a8622d9af7aee6d1314ac18ee4d1dbea51cbc
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 7739967443a8c6dc75cdaa3fbd0e472dcc090b9a
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114405"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488551"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Perguntas e Respostas para os consumidores do Power BI
 
@@ -43,7 +43,7 @@ Encontrará também Perguntas e Respostas sobre relatórios, se o *designer* de 
 
 ## <a name="qa-on-dashboards"></a>Perguntas e Respostas em dashboards
 
-As **Perguntas e Respostas do Power BI** estão disponíveis mediante uma licença Pro ou Premium.  As [Perguntas e Respostas nas aplicações para dispositivos móveis do Power B](mobile/mobile-apps-ios-qna.md) e as [Perguntas e Respostas com o Power BI Embedded](../developer/qanda.md) são abordadas em artigos separados. Neste momento, as **Perguntas e Respostas do Power BI** apresentam apenas as respostas às consultas de linguagem natural realizadas em inglês, embora exista uma pré-visualização em espanhol que pode ser ativada pelo administrador do Power BI.
+As **Perguntas e Respostas do Power BI** estão disponíveis mediante uma licença Pro ou Premium.  As [Perguntas e Respostas nas aplicações para dispositivos móveis do Power B](mobile/mobile-apps-ios-qna.md) e as [Perguntas e Respostas com o Power BI Embedded](../developer/embedded/qanda.md) são abordadas em artigos separados. Neste momento, as **Perguntas e Respostas do Power BI** apresentam apenas as respostas às consultas de linguagem natural realizadas em inglês, embora exista uma pré-visualização em espanhol que pode ser ativada pelo administrador do Power BI.
 
 
 ![mapa de árvore criado com as perguntas e respostas](media/end-user-q-and-a/power-bi-treemap.png)

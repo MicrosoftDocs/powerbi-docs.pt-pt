@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079422"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488438"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>O que podem os programadores fazer com a API Power BI?
 
@@ -25,10 +25,10 @@ Aqui estão algumas das coisas que pode fazer com as APIs do Power BI.
 
 | **Para saber mais** | **Veja estas informações** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Incorporar relatórios, dashboards e mosaicos para utilizadores do Power BI e pessoas que não utilizam o Power BI. | [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](../embed-sample-for-customers.md) |
+| Incorporar relatórios, dashboards e mosaicos para utilizadores do Power BI e pessoas que não utilizam o Power BI. | [Como incorporar os seus dashboards, relatórios e mosaicos do Power BI](../embedded/embed-sample-for-customers.md) |
 | Realize tarefas de gestão em objetos do Power BI. | [Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 | Expanda um fluxo de trabalho empresarial existente para enviar dados importantes por push para um dashboard do Power BI. | [Push data into a dashboard ](walkthrough-push-data.md)(Emitir dados para um dashboard) |
-| Autenticação no Power BI. | [Autenticar-se no Power BI ](../get-azuread-access-token.md) |
+| Autenticação no Power BI. | [Autenticar-se no Power BI ](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > As APIs Power BI ainda se referem às áreas de trabalho como grupos. Quaisquer referências a grupos significam que está a trabalhar com áreas de trabalho.

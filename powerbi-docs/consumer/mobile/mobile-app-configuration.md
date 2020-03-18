@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496758"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205556"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurar remotamente a aplicação Power BI com a ferramenta de gestão de dispositivos móveis (MDM)
 
@@ -22,8 +22,8 @@ A aplicação Power BI Mobile para iOS e Android suporta as definições da apl
 A aplicação Power BI Mobile suporta os seguintes cenários de configuração:
 
 * Configuração do Servidor de Relatórios (iOS e Android)
-* Definições de proteção de dados (iOS e Android)
-* Definições de interação (Android)
+* Definições de proteção de dados (iOS)
+* Definições de interação (iOS e Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configuração do servidor de relatórios (iOS e Android)
 
@@ -33,25 +33,29 @@ A aplicação Power BI para iOS e Android permite que os administradores “emi
 |---|---|---|
 | com.microsoft.powerbi.mobile.ServerURL | Cadeia | URL do Servidor de Relatórios.<br><br>Deve começar por http/https.|
 | com.microsoft.powerbi.mobile.ServerUsername | Cadeia | [opcional]<br><br>O nome de utilizador a utilizar para ligar o servidor.<br><br>Se não existir, a aplicação pedirá ao utilizador para escrever o nome de utilizador para a ligação.|
-| com.microsoft.powerbi.mobile.ServerDisplayName | Cadeia | [opcional]<br><br>O valor predefinido é "Servidor de relatórios"<br><br>Um nome amigável utilizado na aplicação para representar o servidor. |
+| com.microsoft.powerbi.mobile.ServerDisplayName | Cadeia | [opcional]<br><br>O valor predefinido é “Servidor de relatórios”<br><br>Um nome amigável utilizado na aplicação para representar o servidor. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | [opcional]<br><br>O valor predefinido é Verdadeiro. Quando definido como Verdadeiro, substitui todas as definições do Servidor de Relatórios já existente no dispositivo móvel. Os servidores existentes que já estiverem configurados serão eliminados. Quando a substituição está definida como Verdadeiro, isto impede também que o utilizador remova essa configuração.<br><br>Se estiver definido como Falso, adicionará os valores emitidos, mantendo as definições existentes. Se o mesmo URL do servidor já estiver configurado na aplicação móvel, esta manterá essa configuração tal como está. A aplicação não pedirá ao utilizador para voltar a autenticar para o mesmo servidor. |
 
 ## <a name="data-protection-settings-ios"></a>Definições de proteção de dados (iOS)
 
-A aplicação Power BI para iOS e Android permite que os administradores personalizem a configuração predefinida para as definições de privacidade e segurança. Pode forçar os utilizadores a fornecer o Face ID, o Touch ID ou um código de acesso para acederem à aplicação Power BI.
+A aplicação Power BI para iOS permite que os administradores personalizem a configuração predefinida para as definições de privacidade e segurança. Pode forçar os utilizadores a fornecer o Face ID, o Touch ID ou um código de acesso para acederem à aplicação Power BI.
 
 | Chave | Tipo | Descrição |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Booleano | O valor predefinido é Falso. <br><br>Podem ser necessários dados biométricos, tais como o TouchID e o FaceID, para que os utilizadores acedam à aplicação no respetivo dispositivo. Nesse caso, são utilizados dados biométricos além da autenticação.<br><br>Se forem utilizadas políticas de proteção de aplicações, a Microsoft recomenda a desativação desta definição para evitar pedidos de acesso duplo. |
 
-## <a name="interaction-settings-android"></a>Definições de interação (Android)
+## <a name="interaction-settings-ios-and-android"></a>Definições de interação (iOS e Android)
 
-A aplicação Power BI para Android oferece aos administradores a capacidade de configurar definições de interação, caso se decida que as predefinições de interação têm de ser alteradas nos diferentes grupos de utilizadores numa organização. 
+A aplicação Power BI para iOS e Android oferece aos administradores a capacidade de configurar definições de interação, caso se decida que as predefinições de interação têm de ser alteradas nos diferentes grupos de utilizadores numa organização.
+
+>[!NOTE]
+>Nem todas as interações são atualmente suportadas em todos os dispositivos. Veja [Configurar definições de interação do relatório](mobile-app-interaction-settings.md) para obter um gráfico que mostra a disponibilidade atual entre dispositivos.
 
 | Chave | Tipo | Valores | Descrição |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | Cadeia |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | Configure se o toque no elemento visual também fará uma seleção de ponto de dados. |
-| com.microsoft.powerbi.mobile.RefreshAction | Cadeia |  <nobr>pull-to-refresh</nobr><br>. | Configure se o utilizador terá um botão para atualizar o relatório ou se deve utilizar a ação de puxar para atualizar. |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Cadeia |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | Configure se um toque num elemento visual também criará uma seleção de ponto de dados. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Booleano |  <nobr>Verdadeiro</nobr><br><nobr>Falso</nobr> | Configure se um toque num ponto de dados substituirá a seleção atual ou será adicionado à seleção atual. |
+| com.microsoft.powerbi.mobile.RefreshAction | Cadeia |  <nobr>pull-to-refresh</nobr><br>. | Configure se o utilizador terá um botão para atualizar o relatório ou se deve utilizar a funcionalidade “pull to refresh” (puxar para atualizar). |
 | com.microsoft.powerbi.mobile.FooterAppearance | Cadeia |  docked<br>dynamic | Configure se o rodapé do relatório será ancorado à parte inferior do relatório ou ocultado automaticamente. |
 
 ## <a name="deploying-app-configuration-settings"></a>Implementar definições de configuração da aplicação

@@ -10,11 +10,11 @@ ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877525"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207833"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Criar as novas áreas de trabalho no Power BI
 
@@ -75,7 +75,7 @@ Pode especificar os utilizadores que receberão notificações sobre problemas q
 
     No painel de navegação, selecione a seta junto a **Áreas de trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
 
-    ![Definições da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
+    ![Definições de área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **Lista de contactos**, aceite a predefinição, **Administradores da área de trabalho**, ou adicione a sua própria lista de **Utilizadores ou grupos específicos**. 
 
@@ -95,7 +95,7 @@ O Power BI não sincroniza as permissões de utilizadores ou grupos que estão 
 
     No painel de navegação, selecione a seta junto a **Áreas de trabalho**, selecione **Mais opções** (...) junto ao nome da área de trabalho > **Definições da área de trabalho**. O painel **Definições** é apresentado.
 
-    ![Definições da área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
+    ![Definições de área de trabalho](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. Em **Avançado** > **Área de trabalho OneDrive**, introduza o nome do grupo do Office 365 que criou anteriormente. O Power BI seleciona automaticamente o OneDrive para o grupo.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498499"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381014"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adicionar opções de formatação a um elemento visual do Power BI
 
@@ -287,4 +287,4 @@ Para obter sugestões sobre como depurar elementos visuais personalizados, consu
 
 ## <a name="next-steps"></a>Próximos passos
 
-Pode listar o seu elemento visual recentemente criado, para que outras pessoas possam utilizá-lo, ao submetê-lo para o **AppSource**. Para obter mais informações sobre este processo, consulte [Publicar elementos visuais personalizados no AppSource](../office-store.md).
+Pode listar o seu elemento visual recentemente criado, para que outras pessoas possam utilizá-lo, ao submetê-lo para o **AppSource**. Para obter mais informações sobre este processo, veja [Publicar elementos visuais do Power BI no AppSource](office-store.md).

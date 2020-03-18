@@ -11,11 +11,11 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558702"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207465"
 ---
 # <a name="manage-data-sources"></a>Gerir origens de dados
 

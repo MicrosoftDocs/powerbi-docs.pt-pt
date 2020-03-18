@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819175"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380066"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Realçar pontos de dados em elementos visuais do Power BI
 
 Por predefinição, sempre que um elemento for selecionado, a matriz `values` no objeto `dataView` será filtrada apenas para os valores selecionados. Isso fará com que todos os outros elementos visuais na página mostrem apenas os dados selecionados.
 
-![realçar comportamento predefinido de "DataView"](./media/highlight-dataview.png)
+![realçar comportamento predefinido de "DataView"](media/highlight/highlight-dataview.png)
 
 Se definir a propriedade `supportsHighlight` no seu `capabilities.json` como `true`, receberá a matriz completa sem filtro `values`, bem como uma matriz `highlights`. A matriz `highlights` terá o mesmo comprimento que a matriz "values" e todos os valores não selecionados serão definidos como `null`. Quando esta propriedade está ativada, o elemento visual é responsável por realçar os dados adequados ao comparar a matriz `values` com a matriz `highlights`.
 
-!["dataview" suporta o realce](./media/highlight-dataview-supports.png)
+!["dataview" suporta o realce](media/highlight/highlight-dataview-supports.png)
 
 No exemplo, verá que uma barra está selecionada. e que é o único valor na matriz "highlights". Também é importante referir que pode haver múltiplas seleções e realce parcial. Os valores realçados serão apresentados na vista de dados.
 
-> [!Note]
+> [!NOTE]
 > O mapeamento da vista de dados de tabela não suporta a funcionalidade de realce.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Realçar pontos de dados com o mapeamento categórico da vista de dados
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Em que `categoryValues` é uma matriz de valores de categorias, `measureValues` é uma matriz de medidas e `measureHighlights` corresponde às partes realçadas dos valores.
 
-> [!Note]
+> [!NOTE]
 > Os valores da propriedade `measureHighlights` podem ser inferiores aos valores da propriedade `categoryValues`.
 > Significa que o valor foi parcialmente realçado.
 
@@ -271,7 +271,7 @@ div.value {
 
 No resultado, deverá ter a seguinte vista do elemento visual.
 
-![Elementos visuais com realce e mapeamento categórico da vista de dados](./media/dev-categorical-visual-highlight-demo.gif)
+![Elementos visuais com realce e mapeamento categórico da vista de dados](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Realçar pontos de dados com o mapeamento de matriz da vista de dados
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Em que a propriedade `value` representa o valor do nó sem aplicar uma seleção de outro elemento visual, e a propriedade de realce indica que parte dos dados foi realçada.
 
-> [!Note]
+> [!NOTE]
 > O valor da propriedade `highlight` pode ser inferior ao valor da propriedade `value`.
 > Significa que o valor foi parcialmente realçado.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 Como resultado, irá obter o elemento visual com botões e valores `highlighted value/default value`
 
-![O elemento visual com mapeamento e realce de vistas de dados de matriz](./media/dev-matrix-visual-highlight-demo.gif)
+![O elemento visual com mapeamento e realce de vistas de dados de matriz](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Próximos passos
 

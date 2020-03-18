@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079330"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488298"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Enviar dados por push para a listagem de código completo de um conjunto de dados
 
@@ -225,7 +225,7 @@ Após seguir os Passos 2 a 5 em **Enviar dados por push para um conjunto de dado
 ## <a name="next-steps"></a>Próximos passos
 
 * [Enviar dados por push para um conjunto de dados do Power BI](walkthrough-push-data.md)
-* [Registar uma aplicação no Azure AD](../register-app.md)  
+* [Registar uma aplicação no Azure AD](../embedded/register-app.md)  
 * [Obter um token de acesso de autenticação](walkthrough-push-data-get-token.md)  
 * [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md)  
 * [Obter um conjunto de dados para adicionar linhas numa tabela do Power BI](walkthrough-push-data-get-datasets.md)  

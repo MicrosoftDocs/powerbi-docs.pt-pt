@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925602"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378155"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI (Elementos visuais no Power BI)
 
@@ -22,7 +22,7 @@ O artigo descreve como os elementos visuais se integram com o Power BI e como u
 
 A figura a seguir ilustra como as ações comuns baseadas em elementos visuais realizadas por um utilizador, como selecionar um marcador, são processadas no Power BI.
 
-![Diagrama das ações dos elemento visuais do Power BI](./media/visual-concept.svg)
+![Diagrama das ações dos elemento visuais do Power BI](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>Os elementos visuais recebem atualizações do Power BI
 
@@ -131,4 +131,4 @@ As ações e as atualizações subsequentes nos elementos visuais do Power BI o
 Está interessado em criar as suas próprias visualizações e adicioná-las ao Microsoft AppSource? Veja estes artigos:
 
 * [Desenvolver um elemento visual do Power BI](./custom-visual-develop-tutorial.md)
-* [Publicar elementos visuais do Power BI no Centro de Parceiros](../office-store.md)
+* [Publicar elementos visuais do Power BI no Centro de Parceiros](office-store.md)

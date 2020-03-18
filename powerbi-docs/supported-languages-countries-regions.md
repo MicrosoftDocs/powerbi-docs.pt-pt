@@ -10,11 +10,11 @@ ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: pt-PT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876902"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207741"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -49,7 +49,7 @@ O serviço Power BI (no browser) está disponível nos seguintes 44 idiomas:
 * Indonésio - Bahasa Indonesia
 * Italiano - italiano
 * Japonês - 日本語
-* Cazaquistanês - Қазақ
+* Cazaque - Қазақ
 * Coreano - 한국어
 * Letão - latviešu
 * Lituano - lietuvių
@@ -82,7 +82,7 @@ Neste momento, alguns recursos estão disponíveis apenas em inglês:
 Fique atento: estamos trabalhando para traduzir os recursos adicionais para outros idiomas. 
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Selecionar o seu idioma no serviço Power BI
-1. No serviço Power BI, selecione o ícone **Definições** ![Ícone Definições](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Definições**.
+1. No serviço Power BI, selecione o ícone **Definições**![Ícone Definições](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Definições**.
 2. No separador **Geral** > **Idioma**.
 3. Selecione o seu idioma > **Aplicar**.
 
